@@ -195,7 +195,7 @@
         /* Headline — dark navy ManageWP style */
         .intro-banner.intro-hero-v2 .utf-banner-headline-text-part { text-align: center; max-width: 980px; margin: 0 auto; }
         .intro-banner.intro-hero-v2 .utf-banner-headline-text-part h1 {
-            color: #0a0a0a !important;
+            color: #1b3a6b !important;
             font-size: clamp(26px, 5vw, 64px) !important;
             font-weight: 800 !important;
             line-height: 1.12 !important;
@@ -280,7 +280,7 @@
             display: inline-block !important;
             margin: 0 !important;
             padding: 0 2px !important;
-            background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40) !important;
+            background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #4a90d9) !important;
             -webkit-background-clip: text !important;
             background-clip: text !important;
             -webkit-text-fill-color: transparent !important;
@@ -340,7 +340,7 @@
             border: none !important;
             background: transparent !important;
             font-size: 15px;
-            color: #1a1a1a !important;
+            color: #16305a !important;
             padding-left: 44px !important;
             box-shadow: none !important;
         }
@@ -371,7 +371,7 @@
             padding: 0 36px 0 44px !important;
             outline: none !important;
             border-radius: 0 !important;
-            color: #1a1a1a !important;
+            color: #16305a !important;
             width: 100% !important;
             background: transparent !important;
             position: relative !important;
@@ -392,7 +392,7 @@
             padding: 0 !important;
             margin: 0 !important;
             text-align: left !important;
-            color: #1a1a1a !important;
+            color: #16305a !important;
             line-height: 1 !important;
         }
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select > .btn .filter-option-inner {
@@ -407,7 +407,7 @@
             line-height: 1 !important;
         }
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select > .btn .filter-option-inner-inner {
-            color: #1a1a1a !important;
+            color: #16305a !important;
             font-weight: 500 !important;
             font-size: 15px !important;
             line-height: 1 !important;
@@ -549,7 +549,7 @@
             background: #f8faff !important;
             padding: 0 14px 0 38px !important;
             font-size: 14px !important;
-            color: #1a1a1a !important;
+            color: #16305a !important;
             box-shadow: none !important;
             text-align: left !important;
             width: 100% !important;
@@ -559,7 +559,7 @@
             opacity: 1;
         }
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select .bs-searchbox .form-control:focus {
-            border-color: #0a0a0a !important;
+            border-color: #1b3a6b !important;
             background: #fff !important;
         }
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select .dropdown-menu .inner {
@@ -572,7 +572,7 @@
             align-items: center;
             padding: 9px 12px !important;
             border-radius: 8px !important;
-            color: #1a1a1a !important;
+            color: #16305a !important;
             font-size: 14.5px !important;
             font-weight: 500 !important;
             background: transparent !important;
@@ -586,12 +586,12 @@
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select .dropdown-menu li > a:focus,
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select .dropdown-menu li > .dropdown-item:focus {
             background: #f3f4f6 !important;
-            color: #0a0a0a !important;
+            color: #1b3a6b !important;
         }
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select .dropdown-menu li.selected > a,
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select .dropdown-menu li.active > a,
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select .dropdown-menu li > .dropdown-item.active {
-            background: #0a0a0a !important;
+            background: #1b3a6b !important;
             color: #fff !important;
         }
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select .dropdown-menu .text { color: inherit !important; }
@@ -603,7 +603,7 @@
         }
         .intro-banner.intro-hero-v2 .utf-intro-search-button { flex: 0 0 auto; }
         .intro-banner.intro-hero-v2 .utf-intro-search-button .button {
-            background: #0a0a0a !important;
+            background: #1b3a6b !important;
             border: none !important;
             color: #fff !important;
             border-radius: 10px !important;
@@ -616,7 +616,7 @@
             transition: all .15s ease;
         }
         .intro-banner.intro-hero-v2 .utf-intro-search-button .button:hover {
-            background: #1a1a1a !important;
+            background: #16305a !important;
             transform: translateY(-1px);
             box-shadow: 0 8px 20px rgba(0,0,0,.15);
         }
@@ -642,23 +642,23 @@
             transition: all .15s ease;
         }
         .hero-cta-row .btn-cta-dark {
-            background: #0a0a0a;
+            background: #1b3a6b;
             color: #fff !important;
-            border: 1.5px solid #0a0a0a;
+            border: 1.5px solid #1b3a6b;
         }
         .hero-cta-row .btn-cta-dark:hover {
-            background: #1a1a1a;
-            border-color: #1a1a1a;
+            background: #16305a;
+            border-color: #16305a;
             transform: translateY(-2px);
             box-shadow: 0 10px 22px rgba(0,0,0,.18);
         }
         .hero-cta-row .btn-cta-outline {
             background: #fff;
-            color: #0a0a0a !important;
-            border: 1.5px solid #0a0a0a;
+            color: #1b3a6b !important;
+            border: 1.5px solid #1b3a6b;
         }
         .hero-cta-row .btn-cta-outline:hover {
-            background: #0a0a0a;
+            background: #1b3a6b;
             color: #fff !important;
             transform: translateY(-2px);
         }
@@ -699,7 +699,7 @@
         }
         .hero-stats .stat {
             text-align: center;
-            color: #0a0a0a;
+            color: #1b3a6b;
             min-width: 140px;
         }
         .hero-stats .stat strong {
@@ -710,7 +710,7 @@
             background: none;
             -webkit-background-clip: initial;
             background-clip: initial;
-            color: #0a0a0a;
+            color: #1b3a6b;
             -webkit-text-fill-color: initial;
             letter-spacing: -.5px;
         }
@@ -823,7 +823,7 @@
             display: inline-flex; align-items: center;
             background: #fff;
             border: 1px solid #e5e5e7;
-            color: #0a0a0a;
+            color: #1b3a6b;
             font-size: 13px; font-weight: 500;
             padding: 7px 14px;
             border-radius: 999px;
@@ -831,13 +831,13 @@
             transition: all .15s ease;
         }
         .hero-trending .trending-tag:hover {
-            background: #0a0a0a; color: #fff; border-color: #0a0a0a;
+            background: #1b3a6b; color: #fff; border-color: #1b3a6b;
             transform: translateY(-1px);
         }
 
         /* Compact stats row for the split hero */
         .intro-banner.intro-hero-v2.hero-split .hero-stats {
-            border-top: 1px solid rgba(10,10,10,.10);
+            border-top: 1px solid rgba(27, 58, 107,.10);
             margin-top: 36px;
             padding-top: 24px;
             justify-content: flex-start;
@@ -929,7 +929,7 @@
         }
         .mb-job-logo {
             width: 24px; height: 24px;
-            background: #fef3e7;
+            background: #e9f3fc;
             border-radius: 6px;
             display: flex; align-items: center; justify-content: center;
             font-size: 12px;
@@ -937,7 +937,7 @@
         }
         .mb-job-info { flex: 1; min-width: 0; }
         .mb-job-title {
-            font-size: 10px; font-weight: 700; color: #0a0a0a;
+            font-size: 10px; font-weight: 700; color: #1b3a6b;
             line-height: 1.3;
             overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
         }
@@ -989,7 +989,7 @@
         }
         .float-ico.tech   { background: #dbeafe; color: #1d4ed8; }
         .float-ico.health { background: #dcfce7; color: #15803d; }
-        .float-title { font-size: 13.5px; font-weight: 800; color: #0a0a0a; line-height: 1.1; }
+        .float-title { font-size: 13.5px; font-weight: 800; color: #1b3a6b; line-height: 1.1; }
         .float-meta  { font-size: 11.5px; color: #6b7280; margin-top: 3px; }
         .float-growth {
             margin-left: 8px;
@@ -1281,38 +1281,43 @@
     @if ($categories->isNotEmpty())
         <style>
             .industry-section {
-                padding: 80px 0 70px;
-                background: #ffffff;
+                padding: 90px 0 80px;
+                background: linear-gradient(180deg, #f7fafd 0%, #eef5fc 100%);
                 position: relative;
             }
             .industry-section .section-head {
                 text-align: center;
-                max-width: 760px;
-                margin: 0 auto 48px;
+                max-width: 780px;
+                margin: 0 auto 46px;
             }
             .industry-section .section-tag {
                 display: inline-block;
-                background: #fff;
-                border: 1px solid #e5e5e7;
-                color: #555;
+                background: #1b3a6b;
+                border: none;
+                color: #fff;
                 font-weight: 700;
-                font-size: 12px;
-                padding: 6px 14px;
+                font-size: 12.5px;
+                padding: 10px 24px;
                 border-radius: 999px;
-                letter-spacing: 1.4px;
+                letter-spacing: 1.6px;
                 text-transform: uppercase;
-                margin-bottom: 14px;
+                margin-bottom: 20px;
             }
             .industry-section h2 {
-                font-size: clamp(26px, 3vw, 36px);
+                font-size: clamp(28px, 3.2vw, 42px);
                 font-weight: 800;
-                color: #0a0a0a;
-                line-height: 1.2;
-                letter-spacing: -.5px;
-                margin: 0 0 12px;
+                color: #1b3a6b;
+                line-height: 1.18;
+                letter-spacing: -.6px;
+                margin: 0 0 16px;
+            }
+            .industry-section h2 .accent {
+                color: #3182ce;
+                background: none !important;
+                -webkit-text-fill-color: currentColor !important;
             }
             .industry-section .section-head p {
-                color: #555;
+                color: #5a6b7f;
                 font-size: 16px;
                 line-height: 1.7;
                 margin: 0;
@@ -1321,89 +1326,59 @@
             .industry-grid {
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
-                gap: 24px;
+                gap: 22px;
             }
             .industry-card {
                 position: relative;
                 display: flex;
-                flex-direction: column;
-                gap: 10px;
-                padding: 26px 24px;
+                flex-direction: row;
+                align-items: center;
+                gap: 16px;
+                padding: 22px 20px;
                 background: #fff;
-                border: 1px solid #ececec;
-                border-radius: 16px;
-                color: #0a0a0a !important;
+                border: 1px solid #e4edf7;
+                border-bottom: 4px solid #1b3a6b;
+                border-radius: 14px;
+                color: #1b3a6b !important;
                 text-decoration: none !important;
-                overflow: hidden;
-                transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+                box-shadow: 0 2px 10px rgba(27, 58, 107, .06);
+                transition: transform .25s ease, box-shadow .25s ease;
             }
             .industry-card::before { display: none; }
             .industry-card:hover {
                 transform: translateY(-4px);
-                box-shadow: 0 20px 44px rgba(15, 23, 42, .10);
-                border-color: #0a0a0a;
+                box-shadow: 0 18px 36px rgba(27, 58, 107, .14);
             }
             .industry-card .icon-wrap {
                 width: 52px; height: 52px;
-                border-radius: 12px;
-                background: #0a0a0a;
+                flex-shrink: 0;
+                border-radius: 50%;
+                background: #3182ce;
                 color: #fff;
                 display: inline-flex;
                 align-items: center;
                 justify-content: center;
-                font-size: 24px;
-                margin-bottom: 4px;
+                font-size: 23px;
                 transition: background .2s ease;
             }
-            .industry-card:hover .icon-wrap { background: #1a1a1a; }
+            .industry-card:hover .icon-wrap { background: #1b3a6b; }
+            .industry-card .card-text {
+                min-width: 0;
+            }
             .industry-card h3 {
                 font-size: 17px;
                 font-weight: 700;
-                color: #0a0a0a;
-                margin: 0;
+                color: #1b3a6b;
+                margin: 0 0 3px;
                 line-height: 1.25;
             }
             .industry-card .count {
-                font-size: 12px;
-                font-weight: 600;
-                color: #555;
-                margin: 0;
-                display: inline-flex;
-                align-items: center;
-                gap: 6px;
-                background: #f5f5f7;
-                padding: 4px 12px;
-                border-radius: 999px;
-                align-self: flex-start;
-            }
-            .industry-card .count::before {
-                content: "";
-                width: 6px; height: 6px;
-                background: #10b981;
-                border-radius: 50%;
-            }
-            .industry-card .desc {
                 font-size: 13.5px;
-                color: #6b7280;
-                line-height: 1.55;
+                font-weight: 500;
+                color: #5a6b7f;
                 margin: 0;
-                display: -webkit-box;
-                -webkit-line-clamp: 3;
-                -webkit-box-orient: vertical;
-                overflow: hidden;
+                line-height: 1.4;
             }
-            .industry-card .cta {
-                margin-top: auto;
-                padding-top: 8px;
-                font-size: 13px;
-                font-weight: 700;
-                color: #0a0a0a;
-                display: inline-flex;
-                align-items: center;
-                gap: 4px;
-                transition: gap .15s ease;
-            }
-            .industry-card:hover .cta { gap: 8px; }
 
             /* Responsive: 2 cols on tablet, 1 on mobile */
             @media (max-width: 991px) {
@@ -1414,39 +1389,52 @@
             }
             .industry-section .view-all-row {
                 text-align: center;
-                margin-top: 36px;
+                margin-top: 42px;
             }
             .industry-section .view-all-row a {
                 display: inline-flex;
                 align-items: center;
-                gap: 10px;
-                background: #0a0a0a;
+                gap: 14px;
+                background: #1b3a6b;
                 color: #fff !important;
-                padding: 14px 28px;
-                border-radius: 10px;
-                font-weight: 600;
-                font-size: 15px;
+                padding: 12px 14px 12px 30px;
+                border-radius: 999px;
+                font-weight: 700;
+                font-size: 14.5px;
+                letter-spacing: .6px;
+                text-transform: uppercase;
                 text-decoration: none !important;
-                border: 1.5px solid #0a0a0a;
-                transition: all .15s ease;
+                border: 1.5px solid #1b3a6b;
+                transition: all .18s ease;
+            }
+            .industry-section .view-all-row a .arrow {
+                width: 34px; height: 34px;
+                border-radius: 50%;
+                background: #fff;
+                color: #1b3a6b;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+                flex-shrink: 0;
             }
             .industry-section .view-all-row a:hover {
-                background: #1a1a1a;
-                border-color: #1a1a1a;
-                transform: translateY(-1px);
-                box-shadow: 0 8px 18px rgba(0,0,0,.18);
+                background: #16305a;
+                border-color: #16305a;
+                transform: translateY(-2px);
+                box-shadow: 0 12px 24px rgba(27, 58, 107, .28);
             }
             @media (max-width: 768px) {
-                .industry-section { padding: 56px 0 50px; }
+                .industry-section { padding: 60px 0 54px; }
             }
         </style>
 
         <section class="industry-section" aria-labelledby="industry-heading">
             <div class="container">
                 <header class="section-head" data-aos="fade-up">
-                    <span class="section-tag">Industries We Cover</span>
-                    <h2 id="industry-heading">Browse Jobs by Industry Across the United States</h2>
-                    <p>Explore thousands of verified job openings in America's most in-demand sectors. From healthcare and IT to logistics and skilled trades — find the right career path for you, updated daily.</p>
+                    <span class="section-tag">Industries We Serve</span>
+                    <h2 id="industry-heading">Browse Jobs <span class="accent">By Your Industry</span></h2>
+                    <p>Explore verified openings in America's most in-demand sectors. Pick an industry and jump straight to the roles hiring right now.</p>
                 </header>
 
                 <div class="industry-grid">
@@ -1454,27 +1442,26 @@
                         @php
                             $iconClass   = $resolveIndustryIcon($category->name);
                             $displayName = $resolveDisplayName($category->name);
-                            $description = $industryDescriptions[$category->name]
-                                ?? 'Discover the latest ' . strip_tags($displayName) . ' job opportunities from verified U.S. employers hiring now.';
                             $jobsCount   = $category->jobs_count ?? 0;
                         @endphp
                         <a href="{{ route('jobs.category', $category->slug) }}"
                            class="industry-card"
-                           data-aos="fade-up" data-aos-delay="{{ ($idx % 6) * 80 }}" data-aos-duration="600"
+                           data-aos="fade-up" data-aos-delay="{{ ($idx % 4) * 80 }}" data-aos-duration="600"
                            title="View {!! $displayName !!} jobs in the USA"
                            aria-label="Browse {{ $jobsCount }} {{ strip_tags($displayName) }} jobs">
                             <div class="icon-wrap" aria-hidden="true"><i class="{{ $iconClass }}"></i></div>
-                            <h3>{!! $displayName !!}</h3>
-                            <p class="count">{{ number_format($jobsCount) }} active {{ $jobsCount === 1 ? 'job' : 'jobs' }}</p>
-                            <p class="desc">{{ $description }}</p>
-                            <span class="cta">Explore {!! $displayName !!} jobs <i class="icon-material-outline-arrow-right-alt"></i></span>
+                            <div class="card-text">
+                                <h3>{!! $displayName !!}</h3>
+                                <p class="count">{{ number_format($jobsCount) }} active {{ $jobsCount === 1 ? 'job' : 'jobs' }}</p>
+                            </div>
                         </a>
                     @endforeach
                 </div>
 
                 <div class="view-all-row">
                     <a href="{{ route('jobs.categories') }}">
-                        View all job categories <i class="icon-material-outline-arrow-right-alt"></i>
+                        View All Industries
+                        <span class="arrow" aria-hidden="true"><i class="icon-material-outline-arrow-right-alt"></i></span>
                     </a>
                 </div>
             </div>
@@ -1509,7 +1496,7 @@
             position: relative;
             padding: 100px 0 90px;
             background: #ffffff;
-            color: #0a0a0a;
+            color: #1b3a6b;
             overflow: hidden;
         }
         .process-section-v2::before {
@@ -1553,12 +1540,12 @@
         .process-head h2 {
             font-size: clamp(30px, 4.2vw, 54px);
             font-weight: 800;
-            color: #0a0a0a;
+            color: #1b3a6b;
             line-height: 1.1;
             letter-spacing: -.6px;
             margin: 0 0 22px;
         }
-        .process-head h2 .accent { color: #0a0a0a; }
+        .process-head h2 .accent { color: #1b3a6b; }
         .process-head p {
             color: #555;
             font-size: 15.5px;
@@ -1583,19 +1570,19 @@
         }
         .process-card:hover {
             transform: translateY(-6px);
-            border-color: #0a0a0a;
+            border-color: #1b3a6b;
             box-shadow: 0 22px 44px rgba(15,23,42,.10);
         }
         .process-card .step-badge {
             display: inline-block;
-            background: linear-gradient(135deg, #0a0a0a, #1f1f1f);
+            background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
             color: #fff !important;
             font-size: 11.5px;
             font-weight: 700;
             letter-spacing: 3px;
             padding: 8px 20px;
             border-radius: 6px;
-            box-shadow: 0 8px 18px rgba(10,10,10,.35);
+            box-shadow: 0 8px 18px rgba(27, 58, 107,.35);
             position: absolute;
             top: -16px;
             left: 50%;
@@ -1622,7 +1609,7 @@
         .process-card h3 {
             font-size: 22px;
             font-weight: 700;
-            color: #0a0a0a;
+            color: #1b3a6b;
             margin: 0 0 14px;
             letter-spacing: -.3px;
         }
@@ -1636,13 +1623,13 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            color: #0a0a0a !important;
+            color: #1b3a6b !important;
             font-size: 13.5px;
             font-weight: 700;
             letter-spacing: .8px;
             text-transform: uppercase;
             text-decoration: none !important;
-            border-bottom: 1.5px solid #0a0a0a;
+            border-bottom: 1.5px solid #1b3a6b;
             padding-bottom: 2px;
             transition: gap .15s ease, opacity .15s ease;
         }
@@ -1657,19 +1644,19 @@
             display: inline-flex;
             align-items: center;
             gap: 10px;
-            background: #0a0a0a;
+            background: #1b3a6b;
             color: #fff !important;
             font-size: 15px;
             font-weight: 600;
             padding: 14px 28px;
             border-radius: 10px;
             text-decoration: none !important;
-            border: 1.5px solid #0a0a0a;
+            border: 1.5px solid #1b3a6b;
             transition: all .15s ease;
         }
         .process-cta-row a:hover {
-            background: #1a1a1a;
-            border-color: #1a1a1a;
+            background: #16305a;
+            border-color: #16305a;
             transform: translateY(-1px);
             box-shadow: 0 8px 18px rgba(0,0,0,.18);
         }
@@ -1801,335 +1788,6 @@
     }
     </script>
 
-    <!-- SEO Long-Form Content / Browse By Section -->
-    <style>
-        .home-seo-section { padding: 90px 0; background: #fff; }
-
-        /* === 2-column intro: content left, animated image right === */
-        .seo-intro-grid {
-            display: grid;
-            grid-template-columns: 1.05fr 1fr;
-            gap: 70px;
-            align-items: center;
-            margin-bottom: 80px;
-        }
-        @media (max-width: 991px) {
-            .seo-intro-grid { grid-template-columns: 1fr; gap: 50px; }
-        }
-
-        .seo-intro-content .eyebrow {
-            display: inline-block;
-            background: #fff;
-            border: 1px solid #e5e5e7;
-            color: #555;
-            font-size: 12px;
-            font-weight: 700;
-            letter-spacing: 1.6px;
-            text-transform: uppercase;
-            padding: 6px 14px;
-            border-radius: 999px;
-            margin-bottom: 20px;
-        }
-        .home-seo-section h2 {
-            font-size: clamp(28px, 3.2vw, 42px);
-            font-weight: 800;
-            color: #0a0a0a;
-            margin-bottom: 16px;
-            letter-spacing: -.6px;
-            line-height: 1.15;
-        }
-        .home-seo-section .subhead {
-            color: #555;
-            font-size: 16.5px;
-            line-height: 1.7;
-            margin-bottom: 24px;
-            max-width: 540px;
-        }
-        .home-seo-section h3 {
-            font-size: 17px;
-            font-weight: 700;
-            color: #0a0a0a;
-            margin-bottom: 18px;
-            padding: 0;
-            border: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            letter-spacing: -.2px;
-        }
-        .home-seo-section h3::before {
-            content: "";
-            width: 4px; height: 18px;
-            background: #0a0a0a;
-            border-radius: 2px;
-        }
-        .home-seo-section .seo-block { margin-bottom: 42px; }
-        .home-seo-section .seo-links {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .home-seo-section .seo-links a {
-            background: #fff;
-            border: 1px solid #e5e5e7;
-            color: #1a1a1a;
-            padding: 10px 18px;
-            border-radius: 999px;
-            font-size: 13.5px;
-            font-weight: 500;
-            text-decoration: none;
-            transition: all .15s ease;
-        }
-        .home-seo-section .seo-links a:hover {
-            background: #0a0a0a;
-            border-color: #0a0a0a;
-            color: #fff;
-            transform: translateY(-1px);
-        }
-        .home-seo-prose {
-            color: #4a4a4a;
-            font-size: 15.5px;
-            line-height: 1.8;
-        }
-        .home-seo-prose p { margin-bottom: 18px; }
-        .home-seo-prose strong { color: #0a0a0a; }
-        .home-seo-prose a {
-            color: #0a0a0a;
-            font-weight: 600;
-            text-decoration: none;
-            border-bottom: 1.5px solid #0a0a0a;
-            transition: opacity .15s ease;
-        }
-        .home-seo-prose a:hover { opacity: .65; }
-
-        /* === Animated visual === */
-        .seo-intro-visual {
-            position: relative;
-            min-height: 520px;
-        }
-        .seo-visual-frame {
-            position: relative;
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 30px 60px rgba(15, 23, 42, .12);
-            animation: floatUpDown 6s ease-in-out infinite;
-        }
-        .seo-visual-frame::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(135deg, transparent 50%, rgba(10,10,10,.10) 100%);
-            z-index: 2;
-            pointer-events: none;
-        }
-        .seo-visual-frame img {
-            width: 100%;
-            height: 460px;
-            object-fit: cover;
-            display: block;
-            transition: transform .8s ease;
-        }
-        @media (max-width: 991px) { .seo-visual-frame img { height: 360px; } }
-        @media (max-width: 575px) { .seo-visual-frame img { height: 280px; } }
-        .seo-intro-visual:hover .seo-visual-frame img { transform: scale(1.05); }
-
-        /* Soft decorative blob behind the image */
-        .seo-intro-visual::before {
-            content: "";
-            position: absolute;
-            top: -40px; right: -40px;
-            width: 220px; height: 220px;
-            background: linear-gradient(135deg, #0a0a0a, #404040);
-            border-radius: 50%;
-            opacity: .04;
-            z-index: 0;
-            animation: floatUpDown 8s ease-in-out infinite reverse;
-        }
-        .seo-intro-visual::after {
-            content: "";
-            position: absolute;
-            bottom: -30px; left: -30px;
-            width: 160px; height: 160px;
-            background: linear-gradient(135deg, #0a0a0a, #404040);
-            border-radius: 50%;
-            opacity: .03;
-            z-index: 0;
-            animation: floatUpDown 10s ease-in-out infinite;
-        }
-
-        /* Floating badge cards */
-        .seo-float-badge {
-            position: absolute;
-            background: #fff;
-            border-radius: 14px;
-            padding: 14px 18px;
-            box-shadow: 0 14px 32px rgba(15, 23, 42, .12);
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            z-index: 3;
-            min-width: 200px;
-        }
-        .seo-float-badge.top-left {
-            top: 32px;
-            left: -28px;
-            animation: floatBadge 5s ease-in-out infinite;
-        }
-        .seo-float-badge.bottom-right {
-            bottom: 38px;
-            right: -28px;
-            animation: floatBadge 6s ease-in-out infinite reverse;
-            animation-delay: .8s;
-        }
-        .seo-float-badge .ico {
-            width: 42px;
-            height: 42px;
-            border-radius: 10px;
-            background: #0a0a0a;
-            color: #fff;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 18px;
-            flex-shrink: 0;
-        }
-        .seo-float-badge .ico.green { background: #047857; }
-        .seo-float-badge .text strong {
-            display: block;
-            font-size: 15px;
-            font-weight: 800;
-            color: #0a0a0a;
-            line-height: 1.2;
-        }
-        .seo-float-badge .text span {
-            font-size: 12px;
-            color: #777;
-            font-weight: 500;
-        }
-
-        /* Animations */
-        @keyframes floatUpDown {
-            0%, 100% { transform: translateY(0); }
-            50%      { transform: translateY(-12px); }
-        }
-        @keyframes floatBadge {
-            0%, 100% { transform: translateY(0) translateX(0); }
-            50%      { transform: translateY(-10px) translateX(4px); }
-        }
-
-        @media (max-width: 991px) {
-            .seo-intro-visual { min-height: 360px; }
-            .seo-visual-frame img { min-height: 360px; }
-            .seo-float-badge.top-left { left: 16px; }
-            .seo-float-badge.bottom-right { right: 16px; }
-        }
-        @media (max-width: 575px) {
-            .seo-float-badge { padding: 10px 14px; min-width: 0; }
-            .seo-float-badge .text strong { font-size: 13px; }
-            .seo-float-badge .text span { font-size: 11px; }
-            .seo-float-badge .ico { width: 34px; height: 34px; font-size: 14px; }
-        }
-    </style>
-    <section class="home-seo-section">
-        <div class="container">
-            <!-- 2-column intro -->
-            <div class="seo-intro-grid">
-                <!-- Left: heading + prose -->
-                <div class="seo-intro-content">
-                    <span class="eyebrow">Why Jobs in USA</span>
-                    <h2>America's Most Comprehensive Job Search Platform</h2>
-                    <p class="subhead">Whether you're starting your first job, switching careers, or hiring talent — Jobs in USA is built to make every step of the journey simpler, faster, and more transparent.</p>
-
-                    <div class="home-seo-prose">
-                        <p>Looking for a new job in the United States? You're in the right place. <strong>Jobs in USA</strong> is a verified employment platform connecting millions of American job seekers with thousands of hiring employers — every day, across every industry, in every state. From <a href="{{ route('pages.healthcare-jobs') }}">healthcare jobs</a> in California to <a href="{{ route('pages.it-jobs') }}">tech roles</a> in New York, from <a href="{{ route('pages.warehouse-jobs') }}">warehouse jobs</a> in Texas to <a href="{{ route('pages.remote-jobs-usa') }}">remote work-from-home positions</a> nationwide, we help you find opportunities that match your skills and goals.</p>
-
-                        <p>Our platform is 100% free for job seekers. Sign up in under two minutes, upload your resume, set your preferences, and apply to as many roles as you want. Our smart job alerts notify you the moment a matching role goes live — every employer on our platform is verified by our trust and safety team, meaning no scams, no ghost jobs, and no surprises.</p>
-                    </div>
-                </div>
-
-                <!-- Right: animated image with floating badges -->
-                <div class="seo-intro-visual" aria-hidden="true">
-                    <div class="seo-visual-frame">
-                        <img src="{{ asset('public/user/images/single-company.webp') }}"
-                             alt="Verified U.S. employers and hiring teams on Jobs in USA"
-                             loading="lazy"
-                             onerror="this.onerror=null;this.src='{{ asset('public/user/images/single-company.jpg') }}'">
-                    </div>
-
-                    <div class="seo-float-badge top-left">
-                        <div class="ico green"><i class="icon-feather-check-circle"></i></div>
-                        <div class="text">
-                            <strong>{{ number_format($stats['total_jobs'] ?? 230000) }}+</strong>
-                            <span>Verified Jobs</span>
-                        </div>
-                    </div>
-
-                    <div class="seo-float-badge bottom-right">
-                        <div class="ico"><i class="icon-feather-zap"></i></div>
-                        <div class="text">
-                            <strong>One-Click Apply</strong>
-                            <span>100% free for job seekers</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="seo-block">
-                <h3>Browse Jobs by Top Industry</h3>
-                <div class="seo-links">
-                    <a href="{{ route('pages.healthcare-jobs') }}">Healthcare Jobs</a>
-                    <a href="{{ route('pages.it-jobs') }}">IT Jobs</a>
-                    <a href="{{ route('pages.software-developer-jobs') }}">Software Developer Jobs</a>
-                    <a href="{{ route('pages.construction-jobs') }}">Construction Jobs</a>
-                    <a href="{{ route('pages.warehouse-jobs') }}">Warehouse Jobs</a>
-                    <a href="{{ route('pages.truck-driver-jobs') }}">Truck Driver Jobs</a>
-                    <a href="{{ route('pages.retail-jobs') }}">Retail Jobs</a>
-                    <a href="{{ route('pages.customer-service-jobs') }}">Customer Service Jobs</a>
-                    <a href="{{ route('pages.marketing-jobs') }}">Marketing Jobs</a>
-                    <a href="{{ route('pages.accounting-jobs') }}">Accounting Jobs</a>
-                    <a href="{{ route('pages.data-entry-jobs') }}">Data Entry Jobs</a>
-                    <a href="{{ route('pages.security-guard-jobs') }}">Security Guard Jobs</a>
-                </div>
-            </div>
-
-            <div class="seo-block">
-                <h3>Browse Jobs by State</h3>
-                <div class="seo-links">
-                    <a href="{{ route('pages.jobs-in-texas') }}">Jobs in Texas</a>
-                    <a href="{{ route('pages.jobs-in-california') }}">Jobs in California</a>
-                    <a href="{{ route('pages.jobs-in-new-york') }}">Jobs in New York</a>
-                    <a href="{{ route('pages.jobs-in-florida') }}">Jobs in Florida</a>
-                    <a href="{{ route('pages.jobs-in-illinois') }}">Jobs in Illinois</a>
-                    <a href="{{ route('pages.jobs-in-pennsylvania') }}">Jobs in Pennsylvania</a>
-                    <a href="{{ route('pages.jobs-in-ohio') }}">Jobs in Ohio</a>
-                    <a href="{{ route('pages.jobs-in-georgia') }}">Jobs in Georgia</a>
-                    <a href="{{ route('pages.jobs-in-north-carolina') }}">Jobs in North Carolina</a>
-                    <a href="{{ route('pages.jobs-in-michigan') }}">Jobs in Michigan</a>
-                    <a href="{{ route('pages.jobs-in-new-jersey') }}">Jobs in New Jersey</a>
-                    <a href="{{ route('pages.jobs-in-virginia') }}">Jobs in Virginia</a>
-                    <a href="{{ route('pages.jobs-in-washington') }}">Jobs in Washington</a>
-                    <a href="{{ route('pages.jobs-in-arizona') }}">Jobs in Arizona</a>
-                    <a href="{{ route('pages.jobs-in-massachusetts') }}">Jobs in Massachusetts</a>
-                </div>
-            </div>
-
-            <div class="seo-block">
-                <h3>Popular Work Styles</h3>
-                <div class="seo-links">
-                    <a href="{{ route('pages.remote-jobs-usa') }}">Remote Jobs USA</a>
-                    <a href="{{ route('pages.work-from-home-jobs') }}">Work From Home Jobs</a>
-                    <a href="{{ route('pages.online-jobs-usa') }}">Online Jobs USA</a>
-                    <a href="{{ route('pages.part-time-remote-jobs') }}">Part-Time Remote Jobs</a>
-                    <a href="{{ route('pages.entry-level-remote-jobs') }}">Entry Level Remote Jobs</a>
-                    <a href="{{ route('pages.entry-level-jobs') }}">Entry Level Jobs</a>
-                    <a href="{{ route('pages.no-experience-jobs') }}">No Experience Jobs</a>
-                    <a href="{{ route('pages.graduate-jobs') }}">Graduate Jobs</a>
-                    <a href="{{ route('pages.internship-jobs') }}">Internship Jobs</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- SEO Long-Form Content / End -->
 
     {{-- ===== Why Jobs in USA — 2-column "How we're different" ===== --}}
     <section class="why-section" aria-labelledby="why-heading" itemscope itemtype="https://schema.org/Service">
@@ -2227,13 +1885,13 @@
         .why-head h2 {
             font-size: clamp(28px, 3vw, 40px);
             font-weight: 800;
-            color: #0a0a0a;
+            color: #1b3a6b;
             line-height: 1.2;
             letter-spacing: -.5px;
             margin: 0 0 12px;
         }
         .why-head h2 .accent {
-            background: linear-gradient(90deg, #0a0a0a, #404040);
+            background: linear-gradient(90deg, #1b3a6b, #4a90d9);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -2255,18 +1913,18 @@
             flex-shrink: 0;
             width: 40px; height: 40px;
             border-radius: 50%;
-            background: #0a0a0a;
+            background: #1b3a6b;
             color: #fff;
             display: inline-flex;
             align-items: center;
             justify-content: center;
             font-size: 18px;
-            box-shadow: 0 6px 14px rgba(10,10,10,.20);
+            box-shadow: 0 6px 14px rgba(27, 58, 107,.20);
         }
         .why-item h3 {
             font-size: 18px;
             font-weight: 700;
-            color: #0a0a0a;
+            color: #1b3a6b;
             margin: 4px 0 8px;
             letter-spacing: -.2px;
         }
@@ -2283,17 +1941,17 @@
             display: inline-flex;
             align-items: center;
             gap: 10px;
-            background: #0a0a0a;
+            background: #1b3a6b;
             color: #fff !important;
             padding: 14px 28px;
             border-radius: 12px;
             font-weight: 700;
             font-size: 15px;
             text-decoration: none !important;
-            box-shadow: 0 8px 18px rgba(10,10,10,.20);
+            box-shadow: 0 8px 18px rgba(27, 58, 107,.20);
             transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
         }
-        .why-cta:hover { transform: translateY(-1px); background: #1a1a1a; box-shadow: 0 14px 28px rgba(10,10,10,.30); }
+        .why-cta:hover { transform: translateY(-1px); background: #16305a; box-shadow: 0 14px 28px rgba(27, 58, 107,.30); }
         .why-cta i { font-size: 22px; transition: transform .2s ease; }
         .why-cta:hover i { transform: translateX(4px); }
 
@@ -2344,7 +2002,7 @@
         .why-floating .ico {
             width: 38px; height: 38px;
             border-radius: 10px;
-            background: #0a0a0a;
+            background: #1b3a6b;
             color: #fff;
             display: inline-flex;
             align-items: center;
@@ -2355,7 +2013,7 @@
         .why-floating strong {
             display: block;
             font-size: 14px;
-            color: #0a0a0a;
+            color: #1b3a6b;
             font-weight: 700;
         }
         .why-floating span {
@@ -2473,7 +2131,7 @@
         .career-head h2 {
             font-size: clamp(26px, 3vw, 36px);
             font-weight: 800;
-            color: #0a0a0a;
+            color: #1b3a6b;
             letter-spacing: -.5px;
             margin: 0 0 12px;
         }
@@ -2489,7 +2147,7 @@
         .career-chip {
             background: #fff;
             border: 1px solid #ececec;
-            color: #0a0a0a;
+            color: #1b3a6b;
             font-size: 14px;
             font-weight: 600;
             padding: 9px 18px;
@@ -2497,8 +2155,8 @@
             cursor: pointer;
             transition: all .15s ease;
         }
-        .career-chip:hover { background: #f3f4f6; border-color: #0a0a0a; }
-        .career-chip.is-active { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
+        .career-chip:hover { background: #f3f4f6; border-color: #1b3a6b; }
+        .career-chip.is-active { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
 
         .career-grid {
             display: grid;
@@ -2521,7 +2179,7 @@
         .career-card:hover {
             transform: translateY(-4px);
             box-shadow: 0 20px 40px rgba(15,23,42,.10);
-            border-color: #0a0a0a;
+            border-color: #1b3a6b;
         }
         .career-thumb {
             display: block;
@@ -2537,7 +2195,7 @@
         .career-body { padding: 22px 22px 24px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
         .career-cat {
             display: inline-block;
-            color: #0a0a0a;
+            color: #1b3a6b;
             font-size: 11.5px;
             font-weight: 700;
             text-transform: uppercase;
@@ -2547,7 +2205,7 @@
         .career-cat:hover { text-decoration: underline; }
         .career-title { margin: 0; font-size: 18px; line-height: 1.4; font-weight: 700; }
         .career-title a {
-            color: #0a0a0a !important;
+            color: #1b3a6b !important;
             text-decoration: none !important;
             display: -webkit-box;
             -webkit-line-clamp: 3;
@@ -2568,11 +2226,11 @@
             flex-wrap: wrap;
         }
         .career-author { display: inline-flex; align-items: center; gap: 8px; }
-        .career-author strong { color: #0a0a0a; font-weight: 600; }
+        .career-author strong { color: #1b3a6b; font-weight: 600; }
         .career-avatar {
             width: 28px; height: 28px;
             border-radius: 50%;
-            background: #0a0a0a;
+            background: #1b3a6b;
             color: #fff;
             display: inline-flex;
             align-items: center;
@@ -2587,17 +2245,17 @@
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            color: #0a0a0a !important;
+            color: #1b3a6b !important;
             font-weight: 700;
             font-size: 15px;
             text-decoration: none !important;
             padding: 12px 24px;
-            border: 1.5px solid #0a0a0a;
+            border: 1.5px solid #1b3a6b;
             border-radius: 10px;
             transition: all .15s ease;
         }
         .career-all:hover {
-            background: #0a0a0a;
+            background: #1b3a6b;
             color: #fff !important;
         }
         .career-all i { font-size: 22px; transition: transform .2s ease; }
@@ -2655,601 +2313,8 @@
     @endif
     {{-- ===== End career advice ===== --}}
 
-    {{-- ===== Comparison Table — Jobs in USA vs Top Job Boards ===== --}}
-    <section class="compare-section" aria-labelledby="compare-heading">
-        <div class="container">
-            <header class="compare-head">
-                <span class="eyebrow">Side-by-Side Comparison</span>
-                <h2 id="compare-heading">How <span class="accent">Jobs in USA</span> compares to Indeed, LinkedIn &amp; ZipRecruiter</h2>
-                <p>Most U.S. job seekers waste hours bouncing between sites filled with expired listings, scams, and paywalls. Here's how Jobs in USA stacks up against the biggest names — feature by feature.</p>
-            </header>
 
-            <div class="compare-table-wrap" role="region" aria-label="Job board feature comparison">
-                <table class="compare-table">
-                    <thead>
-                        <tr>
-                            <th scope="col" class="cmp-feat">Feature</th>
-                            <th scope="col" class="cmp-us">
-                                <span class="brand-pill"><i class="icon-feather-zap"></i> Jobs in USA</span>
-                            </th>
-                            <th scope="col">Indeed</th>
-                            <th scope="col">LinkedIn Jobs</th>
-                            <th scope="col">ZipRecruiter</th>
-                            <th scope="col">Glassdoor</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">Free for job seekers</th>
-                            <td class="cmp-us" data-label="Jobs in USA"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="Indeed"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="LinkedIn Jobs"><span class="partial">Limited</span></td>
-                            <td data-label="ZipRecruiter"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="Glassdoor"><i class="icon-feather-check yes"></i></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">100% verified employers</th>
-                            <td class="cmp-us" data-label="Jobs in USA"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="Indeed"><span class="partial">Mixed</span></td>
-                            <td data-label="LinkedIn Jobs"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="ZipRecruiter"><span class="partial">Mixed</span></td>
-                            <td data-label="Glassdoor"><span class="partial">Mixed</span></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Coverage of all 50 U.S. states</th>
-                            <td class="cmp-us" data-label="Jobs in USA"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="Indeed"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="LinkedIn Jobs"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="ZipRecruiter"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="Glassdoor"><i class="icon-feather-check yes"></i></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">No third-party redirects</th>
-                            <td class="cmp-us" data-label="Jobs in USA"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="Indeed"><i class="icon-feather-x no"></i></td>
-                            <td data-label="LinkedIn Jobs"><span class="partial">Some</span></td>
-                            <td data-label="ZipRecruiter"><i class="icon-feather-x no"></i></td>
-                            <td data-label="Glassdoor"><i class="icon-feather-x no"></i></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Hyper-local ZIP &amp; area filters</th>
-                            <td class="cmp-us" data-label="Jobs in USA"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="Indeed"><span class="partial">ZIP only</span></td>
-                            <td data-label="LinkedIn Jobs"><i class="icon-feather-x no"></i></td>
-                            <td data-label="ZipRecruiter"><span class="partial">ZIP only</span></td>
-                            <td data-label="Glassdoor"><i class="icon-feather-x no"></i></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Spam &amp; ghost-job filtering</th>
-                            <td class="cmp-us" data-label="Jobs in USA"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="Indeed"><i class="icon-feather-x no"></i></td>
-                            <td data-label="LinkedIn Jobs"><span class="partial">Some</span></td>
-                            <td data-label="ZipRecruiter"><i class="icon-feather-x no"></i></td>
-                            <td data-label="Glassdoor"><span class="partial">Some</span></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">No paywalls or premium tiers</th>
-                            <td class="cmp-us" data-label="Jobs in USA"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="Indeed"><i class="icon-feather-x no"></i></td>
-                            <td data-label="LinkedIn Jobs"><i class="icon-feather-x no"></i></td>
-                            <td data-label="ZipRecruiter"><i class="icon-feather-x no"></i></td>
-                            <td data-label="Glassdoor"><i class="icon-feather-x no"></i></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">One-click apply &amp; saved searches</th>
-                            <td class="cmp-us" data-label="Jobs in USA"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="Indeed"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="LinkedIn Jobs"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="ZipRecruiter"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="Glassdoor"><span class="partial">Limited</span></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Salary transparency on every listing</th>
-                            <td class="cmp-us" data-label="Jobs in USA"><i class="icon-feather-check yes"></i></td>
-                            <td data-label="Indeed"><span class="partial">Partial</span></td>
-                            <td data-label="LinkedIn Jobs"><span class="partial">Partial</span></td>
-                            <td data-label="ZipRecruiter"><span class="partial">Partial</span></td>
-                            <td data-label="Glassdoor"><i class="icon-feather-check yes"></i></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
 
-            <p class="compare-note">
-                Comparison reflects publicly available platform features as of {{ now()->format('M Y') }}.
-                Jobs in USA differs by guaranteeing verified employers, native applications (no redirects), and zero paywalls — for life, for every U.S. job seeker.
-            </p>
-
-            <div class="compare-cta">
-                <a href="{{ route('jobs.index') }}" class="btn-dark"><i class="icon-feather-search"></i> Browse Verified Jobs</a>
-                <a href="{{ route('register') }}" class="btn-outline"><i class="icon-feather-user-plus"></i> Create Free Account</a>
-            </div>
-        </div>
-    </section>
-
-    <style>
-        .compare-section { padding: 90px 0 70px; background: #fff; border-top: 1px solid #ececec; }
-        .compare-head { text-align: center; max-width: 880px; margin: 0 auto 44px; }
-        .compare-head .eyebrow {
-            display: inline-block;
-            background: #fff; border: 1px solid #e5e5e7;
-            color: #555;
-            font-weight: 700; font-size: 12px;
-            padding: 6px 14px; border-radius: 999px;
-            letter-spacing: 1.4px; text-transform: uppercase;
-            margin-bottom: 14px;
-        }
-        .compare-head h2 {
-            font-size: clamp(26px, 3vw, 38px);
-            font-weight: 800; color: #0a0a0a;
-            line-height: 1.2; letter-spacing: -.5px;
-            margin: 0 0 12px;
-        }
-        .compare-head h2 .accent {
-            background: linear-gradient(90deg, #0a0a0a, #404040);
-            -webkit-background-clip: text; background-clip: text;
-            -webkit-text-fill-color: transparent; color: transparent;
-        }
-        .compare-head p { color: #555; font-size: 16px; line-height: 1.7; margin: 0; }
-
-        .compare-table-wrap {
-            background: #fff;
-            border: 1px solid #ececec;
-            border-radius: 18px;
-            overflow-x: auto;
-            box-shadow: 0 18px 40px rgba(15,23,42,.06);
-        }
-        .compare-table {
-            width: 100%;
-            border-collapse: collapse;
-            min-width: 720px;
-            font-size: 14.5px;
-        }
-        .compare-table thead th {
-            background: #fafafa;
-            color: #0a0a0a;
-            font-weight: 700;
-            text-align: center;
-            padding: 18px 14px;
-            border-bottom: 1px solid #ececec;
-            white-space: nowrap;
-        }
-        .compare-table thead th.cmp-feat { text-align: left; padding-left: 22px; min-width: 240px; }
-        .compare-table thead th.cmp-us { background: #0a0a0a; color: #fff; }
-        .compare-table thead th.cmp-us .brand-pill {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: rgba(255,255,255,.10);
-            border: 1px solid rgba(255,255,255,.18);
-            padding: 4px 11px; border-radius: 999px;
-            font-size: 12.5px; font-weight: 700;
-            letter-spacing: .3px;
-        }
-        .compare-table thead th.cmp-us .brand-pill i { color: #ffb866; font-size: 13px; }
-
-        .compare-table tbody th {
-            text-align: left;
-            font-weight: 600;
-            color: #0a0a0a;
-            padding: 16px 22px;
-            border-top: 1px solid #f3f4f6;
-            background: #fff;
-        }
-        .compare-table tbody td {
-            padding: 16px 14px;
-            border-top: 1px solid #f3f4f6;
-            text-align: center;
-            color: #6b7280;
-        }
-        .compare-table tbody td.cmp-us {
-            background: #fafbff;
-            border-left: 3px solid #0a0a0a;
-            border-right: 3px solid #0a0a0a;
-        }
-        .compare-table tbody tr:last-child td.cmp-us { border-bottom: 3px solid #0a0a0a; border-radius: 0 0 0 0; }
-        .compare-table tbody tr:hover td:not(.cmp-us) { background: #fafbff; }
-
-        .compare-table .yes {
-            color: #fff;
-            background: #0a0a0a;
-            width: 26px; height: 26px;
-            border-radius: 50%;
-            display: inline-flex; align-items: center; justify-content: center;
-            font-size: 14px;
-            box-shadow: 0 4px 10px rgba(10,10,10,.18);
-        }
-        .compare-table .no {
-            color: #9ca3af;
-            background: #f3f4f6;
-            width: 26px; height: 26px;
-            border-radius: 50%;
-            display: inline-flex; align-items: center; justify-content: center;
-            font-size: 13px;
-        }
-        .compare-table .partial {
-            display: inline-block;
-            background: #f3f4f6;
-            color: #6b7280;
-            font-size: 12px;
-            font-weight: 600;
-            padding: 4px 11px;
-            border-radius: 999px;
-        }
-
-        .compare-note {
-            text-align: center;
-            color: #6b7280;
-            font-size: 13px;
-            line-height: 1.7;
-            max-width: 760px;
-            margin: 22px auto 32px;
-        }
-
-        .compare-cta { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
-        .compare-cta .btn-dark, .compare-cta .btn-outline {
-            display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-            padding: 13px 26px; border-radius: 12px;
-            font-weight: 700; font-size: 15px;
-            text-decoration: none !important;
-            transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
-            white-space: nowrap;
-        }
-        .compare-cta .btn-dark { background: #0a0a0a; color: #fff !important; border: 1px solid #0a0a0a; box-shadow: 0 8px 18px rgba(10,10,10,.20); }
-        .compare-cta .btn-dark:hover { transform: translateY(-1px); background: #1a1a1a; box-shadow: 0 14px 28px rgba(10,10,10,.30); }
-        .compare-cta .btn-outline { background: #fff; color: #0a0a0a !important; border: 1.5px solid #0a0a0a; }
-        .compare-cta .btn-outline:hover { background: #0a0a0a; color: #fff !important; }
-
-        /* === Tablet polish === */
-        @media (max-width: 991px) {
-            .compare-section { padding: 70px 0 56px; }
-            .compare-table thead th { padding: 14px 10px; font-size: 13.5px; }
-            .compare-table thead th.cmp-feat { padding-left: 14px; min-width: 180px; }
-            .compare-table tbody th { padding: 14px 14px; font-size: 13.5px; }
-            .compare-table tbody td { padding: 12px 8px; }
-            .compare-table .yes, .compare-table .no { width: 24px; height: 24px; font-size: 12px; }
-            .compare-table .partial { font-size: 11.5px; padding: 3px 9px; }
-        }
-
-        /* === Mobile: convert table into stacked feature cards (no horizontal scroll) === */
-        @media (max-width: 767px) {
-            .compare-section { padding: 56px 0 44px; }
-            .compare-head { margin-bottom: 28px; }
-            .compare-head p { font-size: 14.5px; }
-
-            .compare-table-wrap {
-                background: transparent;
-                border: none;
-                border-radius: 0;
-                box-shadow: none;
-                overflow: visible;
-            }
-            .compare-table { display: block; min-width: 0; width: 100%; }
-            .compare-table thead { display: none; }
-            .compare-table tbody { display: block; }
-            .compare-table tbody tr {
-                display: block;
-                background: #fff;
-                border: 1px solid #ececec;
-                border-radius: 14px;
-                padding: 14px 16px 6px;
-                margin-bottom: 12px;
-                box-shadow: 0 4px 10px rgba(15,23,42,.04);
-            }
-            .compare-table tbody tr:hover td:not(.cmp-us) { background: transparent; }
-            .compare-table tbody th {
-                display: block;
-                padding: 0 0 12px;
-                margin-bottom: 6px;
-                border: none;
-                border-bottom: 1px solid #f3f4f6;
-                font-size: 14.5px; font-weight: 700;
-                color: #0a0a0a;
-                background: transparent;
-            }
-            .compare-table tbody td {
-                display: flex !important;
-                align-items: center;
-                justify-content: space-between;
-                padding: 9px 0 !important;
-                border: none !important;
-                border-top: 1px solid #f7f7f7 !important;
-                background: transparent !important;
-                text-align: left;
-            }
-            .compare-table tbody td:first-of-type { border-top: none !important; }
-            .compare-table tbody td::before {
-                content: attr(data-label);
-                flex: 1;
-                font-size: 13px; font-weight: 600;
-                color: #6b7280;
-                text-align: left;
-            }
-            /* Highlight the "Jobs in USA" row inside each card */
-            .compare-table tbody td.cmp-us {
-                background: #fafbff !important;
-                border: 1px solid #ececec !important;
-                border-radius: 10px;
-                padding: 10px 12px !important;
-                margin: 6px 0 !important;
-                position: relative;
-            }
-            .compare-table tbody td.cmp-us::before {
-                content: "⚡ Jobs in USA";
-                color: #0a0a0a;
-                font-weight: 800;
-                font-size: 13.5px;
-            }
-            /* Slightly bigger check/X for readability on small screens */
-            .compare-table .yes, .compare-table .no { width: 26px; height: 26px; }
-            .compare-table .partial { font-size: 12px; padding: 4px 10px; }
-
-            .compare-note { font-size: 12.5px; padding: 0 6px; margin: 22px auto; }
-            .compare-cta { flex-direction: column; align-items: stretch; gap: 10px; }
-            .compare-cta .btn-dark, .compare-cta .btn-outline { width: 100%; justify-content: center; padding: 14px 22px; }
-        }
-        @media (max-width: 380px) {
-            .compare-table tbody tr { padding: 12px 14px 4px; }
-            .compare-table tbody td::before { font-size: 12.5px; }
-        }
-    </style>
-
-    {{-- ===== Top Searched Roles & Salary Insights ===== --}}
-    <section class="salary-section" aria-labelledby="salary-heading">
-        <div class="container">
-            <header class="salary-head">
-                <span class="eyebrow">U.S. Salary Insights · {{ now()->year }}</span>
-                <h2 id="salary-heading">Top Searched Jobs &amp; Average U.S. Salaries</h2>
-                <p>The most popular roles American workers search for today &mdash; with median salary ranges, growth trends, and direct links to live openings on our platform.</p>
-            </header>
-
-            @php
-                // High-volume search terms with realistic 2026 U.S. salary medians.
-                // Editorial — keep simple, accurate enough to add real SEO value.
-                $salaryRoles = [
-                    ['title' => 'Software Engineer',        'kw' => 'software engineer',  'min' => 95000,  'max' => 165000, 'trend' => 'up',   'demand' => 'High',     'cat' => 'IT & Software'],
-                    ['title' => 'Registered Nurse (RN)',    'kw' => 'registered nurse',   'min' => 72000,  'max' => 110000, 'trend' => 'up',   'demand' => 'Critical', 'cat' => 'Healthcare'],
-                    ['title' => 'Data Analyst',             'kw' => 'data analyst',       'min' => 68000,  'max' => 112000, 'trend' => 'up',   'demand' => 'High',     'cat' => 'IT & Software'],
-                    ['title' => 'Truck Driver (CDL-A)',     'kw' => 'truck driver',       'min' => 58000,  'max' => 95000,  'trend' => 'up',   'demand' => 'Critical', 'cat' => 'Transport'],
-                    ['title' => 'Marketing Manager',        'kw' => 'marketing manager',  'min' => 78000,  'max' => 135000, 'trend' => 'flat', 'demand' => 'Strong',   'cat' => 'Marketing'],
-                    ['title' => 'Warehouse Associate',      'kw' => 'warehouse',          'min' => 36000,  'max' => 52000,  'trend' => 'up',   'demand' => 'High',     'cat' => 'Warehouse'],
-                    ['title' => 'Customer Service Rep',     'kw' => 'customer service',   'min' => 38000,  'max' => 58000,  'trend' => 'flat', 'demand' => 'Strong',   'cat' => 'Customer Service'],
-                    ['title' => 'Accountant',               'kw' => 'accountant',         'min' => 62000,  'max' => 98000,  'trend' => 'up',   'demand' => 'Strong',   'cat' => 'Accounting'],
-                    ['title' => 'Sales Representative',     'kw' => 'sales',              'min' => 52000,  'max' => 95000,  'trend' => 'up',   'demand' => 'Strong',   'cat' => 'Sales'],
-                    ['title' => 'Project Manager',          'kw' => 'project manager',    'min' => 82000,  'max' => 138000, 'trend' => 'flat', 'demand' => 'Strong',   'cat' => 'Business'],
-                    ['title' => 'Construction Worker',      'kw' => 'construction',       'min' => 42000,  'max' => 68000,  'trend' => 'up',   'demand' => 'High',     'cat' => 'Construction'],
-                    ['title' => 'Remote Customer Support',  'kw' => 'remote',             'min' => 40000,  'max' => 62000,  'trend' => 'up',   'demand' => 'Critical', 'cat' => 'Remote'],
-                ];
-            @endphp
-
-            <div class="salary-grid">
-                @foreach ($salaryRoles as $role)
-                    @php
-                        $deepLink = route('jobs.index', ['position' => $role['kw']]);
-                        $trendIcon  = $role['trend'] === 'up' ? 'icon-feather-trending-up' : 'icon-feather-minus';
-                        $trendLabel = $role['trend'] === 'up' ? 'Growing demand' : 'Stable demand';
-                    @endphp
-                    <a href="{{ $deepLink }}" class="salary-card" aria-label="See {{ $role['title'] }} jobs and salaries">
-                        <div class="salary-row-top">
-                            <span class="salary-cat">{{ $role['cat'] }}</span>
-                            <span class="salary-trend {{ $role['trend'] }}">
-                                <i class="{{ $trendIcon }}"></i>
-                                <span>{{ $trendLabel }}</span>
-                            </span>
-                        </div>
-                        <h3>{{ $role['title'] }}</h3>
-                        <div class="salary-range">
-                            <span class="range">${{ number_format($role['min']/1000) }}K&ndash;${{ number_format($role['max']/1000) }}K</span>
-                            <span class="range-lbl">/ year (median)</span>
-                        </div>
-                        <div class="salary-foot">
-                            <span class="demand demand-{{ strtolower($role['demand']) }}">{{ $role['demand'] }} demand</span>
-                            <span class="see-jobs">See jobs <i class="icon-material-outline-arrow-right-alt"></i></span>
-                        </div>
-                    </a>
-                @endforeach
-            </div>
-
-            <p class="salary-note">
-                Salary ranges are U.S. national medians for {{ now()->year }} compiled from BLS data, employer postings on this platform, and major-market job listings.
-                Actual pay varies by experience, location and employer. Click any role to see live openings.
-            </p>
-
-            {{-- Popular searches strip — pure SEO value: rich internal linking --}}
-            <div class="search-strip" aria-label="Popular U.S. job searches">
-                <span class="strip-lbl">Trending searches:</span>
-                <a href="{{ route('jobs.index', ['position' => 'remote']) }}">Remote Jobs</a>
-                <a href="{{ route('jobs.index', ['position' => 'work from home']) }}">Work From Home</a>
-                <a href="{{ route('jobs.index', ['position' => 'part time']) }}">Part-Time</a>
-                <a href="{{ route('jobs.index', ['position' => 'entry level']) }}">Entry Level</a>
-                <a href="{{ route('jobs.index', ['position' => 'no experience']) }}">No Experience</a>
-                <a href="{{ route('jobs.index', ['position' => 'weekend']) }}">Weekend</a>
-                <a href="{{ route('jobs.index', ['position' => 'night shift']) }}">Night Shift</a>
-                <a href="{{ route('jobs.index', ['position' => 'data entry']) }}">Data Entry</a>
-                <a href="{{ route('pages.jobs-in-texas') }}">Jobs in Texas</a>
-                <a href="{{ route('pages.jobs-in-california') }}">Jobs in California</a>
-                <a href="{{ route('pages.jobs-in-new-york') }}">Jobs in New York</a>
-                <a href="{{ route('pages.jobs-in-florida') }}">Jobs in Florida</a>
-            </div>
-        </div>
-    </section>
-
-    <style>
-        .salary-section { padding: 90px 0 80px; background: #fafafa; border-top: 1px solid #ececec; }
-        .salary-head { text-align: center; max-width: 820px; margin: 0 auto 44px; }
-        .salary-head .eyebrow {
-            display: inline-block;
-            background: #0a0a0a; color: #fff;
-            font-weight: 700; font-size: 12px;
-            padding: 6px 14px; border-radius: 999px;
-            letter-spacing: 1.4px; text-transform: uppercase;
-            margin-bottom: 14px;
-        }
-        .salary-head h2 {
-            font-size: clamp(26px, 3vw, 38px);
-            font-weight: 800; color: #0a0a0a;
-            line-height: 1.2; letter-spacing: -.5px;
-            margin: 0 0 12px;
-        }
-        .salary-head p { color: #555; font-size: 16px; line-height: 1.7; margin: 0; }
-
-        .salary-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 18px;
-        }
-        @media (max-width: 1199px) { .salary-grid { grid-template-columns: repeat(3, 1fr); } }
-        @media (max-width: 767px)  { .salary-grid { grid-template-columns: repeat(2, 1fr); } }
-        @media (max-width: 480px)  { .salary-grid { grid-template-columns: 1fr; } }
-
-        .salary-card {
-            background: #fff;
-            border: 1px solid #ececec;
-            border-radius: 14px;
-            padding: 20px 22px 18px;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            text-decoration: none !important;
-            color: inherit !important;
-            transition: all .25s ease;
-        }
-        .salary-card:hover {
-            transform: translateY(-3px);
-            border-color: #0a0a0a;
-            box-shadow: 0 18px 36px rgba(15,23,42,.10);
-        }
-        .salary-row-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
-        .salary-cat {
-            font-size: 11px; font-weight: 700;
-            color: #6b7280; text-transform: uppercase;
-            letter-spacing: 1.2px;
-        }
-        .salary-trend {
-            display: inline-flex; align-items: center; gap: 5px;
-            font-size: 11.5px; font-weight: 700;
-            padding: 3px 9px; border-radius: 999px;
-            white-space: nowrap;
-        }
-        .salary-trend.up { background: #f0fdf4; color: #15803d; }
-        .salary-trend.flat { background: #f3f4f6; color: #6b7280; }
-        .salary-trend i { font-size: 13px; }
-
-        .salary-card h3 {
-            font-size: 17px; font-weight: 700;
-            color: #0a0a0a;
-            margin: 4px 0 0;
-            letter-spacing: -.2px;
-            line-height: 1.3;
-        }
-        .salary-range {
-            display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap;
-            margin-top: 4px;
-        }
-        .salary-range .range {
-            font-size: 22px; font-weight: 800;
-            color: #0a0a0a;
-            letter-spacing: -.4px;
-            background: linear-gradient(90deg, #0a0a0a, #404040);
-            -webkit-background-clip: text; background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .salary-range .range-lbl { font-size: 12px; color: #6b7280; font-weight: 600; }
-
-        .salary-foot {
-            display: flex; justify-content: space-between; align-items: center; gap: 8px;
-            padding-top: 12px;
-            margin-top: 6px;
-            border-top: 1px dashed #ececec;
-            font-size: 12.5px;
-        }
-        .demand {
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: .8px;
-            font-size: 11px;
-        }
-        .demand-critical { color: #dc2626; }
-        .demand-high     { color: #ea580c; }
-        .demand-strong   { color: #0a0a0a; }
-        .salary-foot .see-jobs {
-            color: #0a0a0a; font-weight: 700;
-            display: inline-flex; align-items: center; gap: 3px;
-            font-size: 13px;
-        }
-        .salary-foot .see-jobs i { font-size: 18px; transition: transform .2s ease; }
-        .salary-card:hover .see-jobs i { transform: translateX(3px); }
-
-        .salary-note {
-            text-align: center;
-            color: #6b7280;
-            font-size: 13px;
-            line-height: 1.7;
-            max-width: 820px;
-            margin: 28px auto 28px;
-        }
-
-        .search-strip {
-            background: #fff;
-            border: 1px solid #ececec;
-            border-radius: 14px;
-            padding: 14px 18px;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 8px;
-        }
-        .search-strip .strip-lbl {
-            font-size: 12.5px; font-weight: 700;
-            color: #0a0a0a;
-            text-transform: uppercase; letter-spacing: 1.2px;
-            margin-right: 4px;
-        }
-        .search-strip a {
-            display: inline-flex; align-items: center;
-            background: #f3f4f6;
-            color: #0a0a0a !important;
-            padding: 6px 13px;
-            border-radius: 999px;
-            font-size: 13px;
-            font-weight: 600;
-            text-decoration: none !important;
-            transition: all .15s ease;
-        }
-        .search-strip a:hover { background: #0a0a0a; color: #fff !important; transform: translateY(-1px); }
-    </style>
-
-    {{-- JSON-LD: Structured comparison + salary data for richer SERP appearance --}}
-    <script type="application/ld+json">
-    {
-        "@@context": "https://schema.org",
-        "@@type": "ItemList",
-        "name": "Top Searched U.S. Jobs and Salaries {{ now()->year }}",
-        "description": "Median U.S. salary ranges and live openings for the most-searched job titles on Jobs in USA.",
-        "itemListElement": [
-            @foreach ($salaryRoles as $i => $role)
-            {
-                "@@type": "ListItem",
-                "position": {{ $i + 1 }},
-                "item": {
-                    "@@type": "Occupation",
-                    "name": @json($role['title']),
-                    "occupationLocation": { "@@type": "Country", "name": "United States" },
-                    "estimatedSalary": {
-                        "@@type": "MonetaryAmountDistribution",
-                        "name": "Median U.S. salary",
-                        "currency": "USD",
-                        "duration": "P1Y",
-                        "median": {{ (int) (($role['min'] + $role['max']) / 2) }},
-                        "percentile25": {{ $role['min'] }},
-                        "percentile75": {{ $role['max'] }}
-                    },
-                    "url": @json(route('jobs.index', ['position' => $role['kw']]))
-                }
-            }@if (! $loop->last),@endif
-            @endforeach
-        ]
-    }
-    </script>
-    {{-- ===== End Comparison + Salary sections ===== --}}
 
     <!-- FAQ Section — 2-column split layout -->
     <style>
@@ -3286,7 +2351,7 @@
         .faq-left h2 {
             font-size: clamp(28px, 3vw, 40px);
             font-weight: 800;
-            color: #0a0a0a;
+            color: #1b3a6b;
             line-height: 1.15;
             letter-spacing: -.6px;
             margin: 0 0 16px;
@@ -3302,7 +2367,7 @@
             display: inline-flex;
             align-items: center;
             gap: 10px;
-            background: #0a0a0a;
+            background: #1b3a6b;
             color: #fff !important;
             font-size: 15px;
             font-weight: 600;
@@ -3312,7 +2377,7 @@
             transition: all .15s ease;
         }
         .faq-left .contact-btn:hover {
-            background: #1a1a1a;
+            background: #16305a;
             transform: translateY(-1px);
             box-shadow: 0 8px 18px rgba(0,0,0,.18);
         }
@@ -3328,14 +2393,14 @@
             transition: border-color .2s ease, box-shadow .2s ease;
         }
         .home-faq-item[open] {
-            border-color: #0a0a0a;
+            border-color: #1b3a6b;
             box-shadow: 0 4px 16px rgba(0,0,0,.06);
         }
         .home-faq-item summary {
             padding: 20px 24px;
             font-weight: 600;
             font-size: 15.5px;
-            color: #0a0a0a;
+            color: #1b3a6b;
             cursor: pointer;
             list-style: none;
             display: flex;
@@ -3347,7 +2412,7 @@
         .home-faq-item summary::after {
             content: '+';
             font-size: 24px;
-            color: #0a0a0a;
+            color: #1b3a6b;
             font-weight: 300;
             line-height: 1;
             transition: transform .2s ease;
@@ -3361,9 +2426,9 @@
             line-height: 1.75;
         }
         .home-faq-item .home-faq-answer a {
-            color: #0a0a0a;
+            color: #1b3a6b;
             font-weight: 600;
-            border-bottom: 1.5px solid #0a0a0a;
+            border-bottom: 1.5px solid #1b3a6b;
             text-decoration: none;
         }
     </style>
