@@ -62,7 +62,7 @@
         color: transparent;
     }
     .err-code .accent {
-        background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40);
+        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -108,10 +108,10 @@
         border: 1.5px solid #0a0a0a;
     }
     .err-btn-primary:hover {
-        background: #ff8a00;
-        border-color: #ff8a00;
+        background: #1b3a6b;
+        border-color: #1b3a6b;
         transform: translateY(-1px);
-        box-shadow: 0 10px 22px rgba(255,138,0,.25);
+        box-shadow: 0 10px 22px rgba(27, 58, 107,.25);
     }
     .err-btn-secondary {
         background: #fff;
@@ -133,7 +133,7 @@
         pointer-events: none;
         z-index: 1;
     }
-    .err-blob.b1 { width: 320px; height: 320px; background: #ff8a00; top: -100px; right: -80px; }
+    .err-blob.b1 { width: 320px; height: 320px; background: #1b3a6b; top: -100px; right: -80px; }
     .err-blob.b2 { width: 280px; height: 280px; background: #2a41e8; bottom: -80px; left: -80px; }
 
     @media (max-width: 575px) {

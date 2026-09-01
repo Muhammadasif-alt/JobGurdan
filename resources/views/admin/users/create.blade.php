@@ -165,7 +165,7 @@
     .info-card::after {
         content: ""; position: absolute; left: -60px; bottom: -60px;
         width: 200px; height: 200px; border-radius: 50%;
-        background: radial-gradient(circle, rgba(255,87,34,.28), transparent 70%);
+        background: radial-gradient(circle, rgba(47, 127, 201,.28), transparent 70%);
         pointer-events: none;
     }
     .info-card > * { position: relative; z-index: 1; }

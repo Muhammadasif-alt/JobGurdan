@@ -14,7 +14,7 @@
         display: inline-flex; align-items: center; gap: 8px;
         transition: background .15s ease;
     }
-    .ja-new:hover { background: #ff8a00; }
+    .ja-new:hover { background: #1b3a6b; }
 
     .ja-list { display: grid; gap: 12px; }
     .ja-card {

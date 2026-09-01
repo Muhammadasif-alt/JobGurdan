@@ -273,7 +273,7 @@
             content: "";
             position: absolute;
             top: 0; left: 0; right: 0; height: 3px;
-            background: linear-gradient(90deg, #ff5722 0%, #5e2bff 50%, #ff5722 100%);
+            background: linear-gradient(90deg, #2f7fc9 0%, #5e2bff 50%, #2f7fc9 100%);
             opacity: .85;
             z-index: 2;
         }
@@ -283,7 +283,7 @@
             inset: 0;
             background:
                 radial-gradient(450px 220px at 0% 0%, rgba(94,43,255,.10), transparent 60%),
-                radial-gradient(420px 240px at 100% 100%, rgba(255,87,34,.08), transparent 60%);
+                radial-gradient(420px 240px at 100% 100%, rgba(47, 127, 201,.08), transparent 60%);
             pointer-events: none;
             z-index: 0;
         }
@@ -386,7 +386,7 @@
         .sidebar-menu .nav-treeview .nav-link.active .bi-circle { color: #fff !important; }
         .sidebar-menu .nav-icon { font-size: 16px !important; }
         .sidebar-menu .nav-link .badge { font-size: 10.5px; padding: 3px 8px; }
-        .sidebar-menu .nav-link .badge.bg-danger { background: #ff5722 !important; }
+        .sidebar-menu .nav-link .badge.bg-danger { background: #2f7fc9 !important; }
         /* Open sub-menu indicator chevron rotates nicely */
         .sidebar-menu .nav-arrow { transition: transform .25s ease; opacity: .7; }
         .sidebar-menu .menu-open > .nav-link .nav-arrow { transform: rotate(90deg); opacity: 1; }

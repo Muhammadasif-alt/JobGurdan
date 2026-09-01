@@ -20,7 +20,7 @@
     .contact-page-hero .breadcrumbs-mini a {
         color: #0a0a0a; text-decoration: none; font-weight: 600;
     }
-    .contact-page-hero .breadcrumbs-mini a:hover { color: #ff8a00; }
+    .contact-page-hero .breadcrumbs-mini a:hover { color: #1b3a6b; }
     .contact-page-hero .eyebrow {
         display: inline-block;
         background: #fff;
@@ -46,7 +46,7 @@
         margin-left: auto; margin-right: auto;
     }
     .contact-page-hero h1 .accent {
-        background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40);
+        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -65,11 +65,11 @@
         border-bottom-color: rgba(255,255,255,.08) !important;
     }
     html.dark-mode .contact-page-hero .breadcrumbs-mini { color: #b8c0cc !important; }
-    html.dark-mode .contact-page-hero .breadcrumbs-mini a { color: #ff8a00 !important; }
+    html.dark-mode .contact-page-hero .breadcrumbs-mini a { color: #1b3a6b !important; }
     html.dark-mode .contact-page-hero .eyebrow {
-        background: rgba(255,138,0,.12) !important;
-        border-color: rgba(255,138,0,.30) !important;
-        color: #ff8a00 !important;
+        background: rgba(27, 58, 107,.12) !important;
+        border-color: rgba(27, 58, 107,.30) !important;
+        color: #1b3a6b !important;
     }
     html.dark-mode .contact-page-hero h1 { color: #fff !important; }
     html.dark-mode .contact-page-hero p.lead { color: #b8c0cc !important; }
@@ -110,11 +110,11 @@
         transition: border-color .2s ease;
     }
     .contact-form-card .form-control:focus {
-        border-color: #ff8a00;
+        border-color: #1b3a6b;
         outline: none;
     }
     .contact-form-card .submit-btn {
-        background: #ff8a00;
+        background: #1b3a6b;
         color: #fff;
         border: none;
         padding: 12px 30px;
@@ -149,7 +149,7 @@
         color: rgba(255,255,255,0.9);
     }
     .contact-info-list li i {
-        color: #ff8a00;
+        color: #1b3a6b;
         font-size: 18px;
         margin-top: 2px;
         flex-shrink: 0;
@@ -182,8 +182,8 @@
         transition: border-color .2s ease, box-shadow .2s ease;
     }
     .contact-faq-item[open] {
-        border-color: #ff8a00;
-        box-shadow: 0 4px 14px rgba(255,138,0,0.08);
+        border-color: #1b3a6b;
+        box-shadow: 0 4px 14px rgba(27, 58, 107,0.08);
     }
     .contact-faq-item summary {
         padding: 18px 22px;
@@ -200,7 +200,7 @@
     .contact-faq-item summary::after {
         content: '+';
         font-size: 22px;
-        color: #ff8a00;
+        color: #1b3a6b;
         font-weight: 400;
     }
     .contact-faq-item[open] summary::after { content: '−'; }
@@ -235,15 +235,15 @@
     .quick-contact-card:hover {
         transform: translateY(-4px);
         box-shadow: 0 14px 32px rgba(0,0,0,0.08);
-        border-color: #ff8a00;
+        border-color: #1b3a6b;
         color: inherit;
     }
     .quick-contact-icon {
         width: 64px;
         height: 64px;
         border-radius: 50%;
-        background: rgba(255,138,0,0.12);
-        color: #ff8a00;
+        background: rgba(27, 58, 107,0.12);
+        color: #1b3a6b;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -252,7 +252,7 @@
         transition: background .25s ease, color .25s ease;
     }
     .quick-contact-card:hover .quick-contact-icon {
-        background: #ff8a00;
+        background: #1b3a6b;
         color: #fff;
     }
     .quick-contact-card h4 {
@@ -268,7 +268,7 @@
         line-height: 1.6;
     }
     .quick-contact-card .qc-action {
-        color: #ff8a00;
+        color: #1b3a6b;
         font-weight: 600;
         font-size: 14px;
         display: inline-flex;
@@ -298,7 +298,7 @@
     }
     .contact-blog-section .section-head p { color: #777; font-size: 14px; margin: 0; }
     .contact-blog-section .view-all-link {
-        color: #ff8a00;
+        color: #1b3a6b;
         font-weight: 600;
         font-size: 14px;
         text-decoration: none;
@@ -331,7 +331,7 @@
     .contact-blog-card:hover {
         transform: translateY(-3px);
         box-shadow: 0 12px 28px rgba(0,0,0,0.07);
-        border-color: #ff8a00;
+        border-color: #1b3a6b;
         color: inherit;
     }
     .contact-blog-thumb { height: 150px; overflow: hidden; background: #f5f5f5; }
@@ -363,7 +363,7 @@
         margin-bottom: 12px;
     }
     .contact-blog-body .read-link {
-        color: #ff8a00;
+        color: #1b3a6b;
         font-weight: 600;
         font-size: 12px;
     }
@@ -388,7 +388,7 @@
     html.dark-mode .contact-form-card h2 { color: #fff !important; }
     html.dark-mode .contact-form-card label { color: #d0d6df !important; }
     html.dark-mode .contact-form-card .lead { color: #b8c0cc !important; }
-    html.dark-mode .contact-form-card .form-control:focus { border-color: #ff8a00 !important; }
+    html.dark-mode .contact-form-card .form-control:focus { border-color: #1b3a6b !important; }
 
     /* Quick contact cards */
     html.dark-mode .quick-contact-section { background: transparent !important; }
@@ -396,15 +396,15 @@
         background: var(--site-card-bg, #1c2128) !important;
         border-color: rgba(255,255,255,.10) !important;
     }
-    html.dark-mode .quick-contact-card:hover { border-color: #ff8a00 !important; }
+    html.dark-mode .quick-contact-card:hover { border-color: #1b3a6b !important; }
     html.dark-mode .quick-contact-card h4 { color: #fff !important; }
     html.dark-mode .quick-contact-card p { color: var(--site-muted, #b8c0cc) !important; }
     html.dark-mode .quick-contact-icon {
-        background: rgba(255,138,0,.15) !important;
-        color: #ff8a00 !important;
+        background: rgba(27, 58, 107,.15) !important;
+        color: #1b3a6b !important;
     }
     html.dark-mode .quick-contact-card:hover .quick-contact-icon {
-        background: #ff8a00 !important; color: #fff !important;
+        background: #1b3a6b !important; color: #fff !important;
     }
 
     /* "From Our Blog" teaser section */
@@ -418,7 +418,7 @@
         background: var(--site-card-bg, #1c2128) !important;
         border-color: rgba(255,255,255,.10) !important;
     }
-    html.dark-mode .contact-blog-card:hover { border-color: #ff8a00 !important; }
+    html.dark-mode .contact-blog-card:hover { border-color: #1b3a6b !important; }
     html.dark-mode .contact-blog-thumb { background: #15181d !important; }
     html.dark-mode .contact-blog-body .meta { color: var(--site-muted, #b8c0cc) !important; }
     html.dark-mode .contact-blog-body h4 { color: #fff !important; }
@@ -436,7 +436,7 @@
         border-color: rgba(255,255,255,.10) !important;
     }
     html.dark-mode .contact-faq-item:hover,
-    html.dark-mode .contact-faq-item[open] { border-color: #ff8a00 !important; }
+    html.dark-mode .contact-faq-item[open] { border-color: #1b3a6b !important; }
     html.dark-mode .contact-faq-item summary { color: #fff !important; }
     html.dark-mode .contact-faq-item .faq-answer { color: var(--site-muted, #b8c0cc) !important; }
 

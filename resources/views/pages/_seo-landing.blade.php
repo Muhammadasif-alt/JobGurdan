@@ -277,7 +277,7 @@
         opacity: .3;
         pointer-events: none;
     }
-    .seo-side-promo::before { width: 180px; height: 180px; background: #ff5722; top: -50px; right: -40px; }
+    .seo-side-promo::before { width: 180px; height: 180px; background: #2f7fc9; top: -50px; right: -40px; }
     .seo-side-promo::after { width: 140px; height: 140px; background: #5e2bff; bottom: -40px; left: -30px; }
     .seo-side-promo > * { position: relative; z-index: 2; }
     .seo-side-promo .eyebrow {

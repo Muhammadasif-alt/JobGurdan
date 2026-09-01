@@ -107,7 +107,7 @@
         content: ""; position: absolute;
         left: -60px; bottom: -60px; width: 200px; height: 200px;
         border-radius: 50%;
-        background: radial-gradient(circle, rgba(255,87,34,.28), transparent 70%);
+        background: radial-gradient(circle, rgba(47, 127, 201,.28), transparent 70%);
         pointer-events: none;
     }
     .info-card > * { position: relative; z-index: 1; }
@@ -227,7 +227,7 @@
                                     Description
                                     <span class="hint">— shown on the category landing page</span>
                                     <button type="button"
-                                            style="margin-left:auto;display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#5e2bff 0%,#ff5722 100%);color:#fff;border:none;border-radius:999px;padding:5px 12px;font-size:11.5px;font-weight:700;box-shadow:0 4px 10px rgba(94,43,255,.25);cursor:pointer;"
+                                            style="margin-left:auto;display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#5e2bff 0%,#2f7fc9 100%);color:#fff;border:none;border-radius:999px;padding:5px 12px;font-size:11.5px;font-weight:700;box-shadow:0 4px 10px rgba(94,43,255,.25);cursor:pointer;"
                                             data-ai-action="category-description"
                                             data-ai-target="#description"
                                             data-ai-source-name="#name"

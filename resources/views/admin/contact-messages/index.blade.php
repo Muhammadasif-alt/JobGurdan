@@ -24,11 +24,11 @@
     @media (max-width: 1199px) { .msg-stats { grid-template-columns: repeat(3, 1fr); } }
     @media (max-width: 767px)  { .msg-stats { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 480px)  { .msg-stats { grid-template-columns: 1fr; } }
-    .stat-card.spam .icon-wrap { background: linear-gradient(135deg, #5e2bff 0%, #ff5722 100%); }
+    .stat-card.spam .icon-wrap { background: linear-gradient(135deg, #5e2bff 0%, #2f7fc9 100%); }
     .spam-badge { display:inline-flex; align-items:center; gap:4px; background:#fef2f2; color:#b91c1c; border:1px solid #fecaca; font-weight:700; font-size:11px; padding:2px 8px; border-radius:999px; }
     .spam-badge.legit { background:#ecfdf5; color:#047857; border-color:#d1fae5; }
     .spam-badge.suspicious { background:#fef3c7; color:#92400e; border-color:#fde68a; }
-    .ai-scan-btn { display:inline-flex; align-items:center; gap:6px; background:linear-gradient(135deg,#5e2bff 0%,#ff5722 100%); color:#fff; border:none; border-radius:10px; padding:9px 14px; font-size:13.5px; font-weight:700; cursor:pointer; box-shadow:0 4px 10px rgba(94,43,255,.25); }
+    .ai-scan-btn { display:inline-flex; align-items:center; gap:6px; background:linear-gradient(135deg,#5e2bff 0%,#2f7fc9 100%); color:#fff; border:none; border-radius:10px; padding:9px 14px; font-size:13.5px; font-weight:700; cursor:pointer; box-shadow:0 4px 10px rgba(94,43,255,.25); }
     .ai-scan-btn:hover { transform: translateY(-1px); box-shadow:0 6px 14px rgba(94,43,255,.35); }
     .stat-card {
         position: relative; background: #fff; border: 1px solid #eef0f4;

@@ -28,7 +28,7 @@
     .sp-hero::before, .sp-hero::after {
         content:""; position: absolute; border-radius: 50%; filter: blur(80px); opacity: .35; pointer-events: none;
     }
-    .sp-hero::before { width: 320px; height: 320px; background: #ff5722; top:-120px; right:-100px; }
+    .sp-hero::before { width: 320px; height: 320px; background: #2f7fc9; top:-120px; right:-100px; }
     .sp-hero::after  { width: 280px; height: 280px; background: #5e2bff; bottom:-100px; left:-80px; }
     .sp-hero > * { position: relative; z-index: 2; }
     .sp-hero-row { display: flex; gap: 22px; align-items: center; flex-wrap: wrap; }
@@ -100,7 +100,7 @@
     .ai-pill {
         margin-left: auto;
         display: inline-flex; align-items: center; gap: 6px;
-        background: linear-gradient(135deg, #5e2bff 0%, #ff5722 100%);
+        background: linear-gradient(135deg, #5e2bff 0%, #2f7fc9 100%);
         color: #fff !important; border: none; border-radius: 999px;
         padding: 5px 12px; font-size: 11.5px; font-weight: 700; letter-spacing: .2px;
         box-shadow: 0 4px 10px rgba(94, 43, 255, .25); cursor: pointer;

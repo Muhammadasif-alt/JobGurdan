@@ -23,7 +23,7 @@
         margin: 0 0 10px; letter-spacing: -.5px;
     }
     .saved-hero h1 .accent {
-        background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40);
+        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
         -webkit-background-clip: text; background-clip: text;
         -webkit-text-fill-color: transparent; color: transparent;
     }
@@ -64,7 +64,7 @@
     }
     .saved-card .logo img { width: 100%; height: 100%; object-fit: cover; }
     .saved-card .logo .placeholder {
-        font-size: 22px; color: #ff8a00; font-weight: 800;
+        font-size: 22px; color: #1b3a6b; font-weight: 800;
     }
     .saved-card .info { min-width: 0; }
     .saved-card .info h3 {
@@ -74,7 +74,7 @@
     .saved-card .info h3 a {
         color: #0a0a0a; text-decoration: none;
     }
-    .saved-card .info h3 a:hover { color: #ff8a00; }
+    .saved-card .info h3 a:hover { color: #1b3a6b; }
     .saved-card .info .meta {
         display: flex; gap: 14px; flex-wrap: wrap;
         font-size: 13px; color: #6b7280;
@@ -96,7 +96,7 @@
         display: inline-flex; align-items: center; gap: 6px;
         transition: all .15s ease;
     }
-    .saved-card .btn-view:hover { background: #ff8a00; color: #fff !important; }
+    .saved-card .btn-view:hover { background: #1b3a6b; color: #fff !important; }
     .saved-card .btn-remove {
         background: #fff;
         color: #b91c1c;
@@ -122,7 +122,7 @@
         display: inline-flex; align-items: center; justify-content: center;
         margin-bottom: 20px;
     }
-    .saved-empty .icon i { font-size: 32px; color: #ff8a00; }
+    .saved-empty .icon i { font-size: 32px; color: #1b3a6b; }
     .saved-empty h2 {
         font-size: 24px; font-weight: 800; color: #0a0a0a; margin: 0 0 10px;
     }
@@ -137,7 +137,7 @@
         font-weight: 700; font-size: 15px; text-decoration: none;
         transition: all .15s ease;
     }
-    .saved-empty .btn-browse:hover { background: #ff8a00; transform: translateY(-1px); }
+    .saved-empty .btn-browse:hover { background: #1b3a6b; transform: translateY(-1px); }
 </style>
 
 <section class="saved-hero">

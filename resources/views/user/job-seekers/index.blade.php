@@ -26,7 +26,7 @@
         border-radius: 50%; filter: blur(80px);
         opacity: .35; pointer-events: none;
     }
-    .js-hero::before { width: 380px; height: 380px; background: #ff5722; top: -120px; right: -100px; }
+    .js-hero::before { width: 380px; height: 380px; background: #2f7fc9; top: -120px; right: -100px; }
     .js-hero::after  { width: 340px; height: 340px; background: #5e2bff; bottom: -120px; left: -100px; }
     .js-hero .container { position: relative; z-index: 2; }
     .js-hero .eyebrow {
@@ -124,7 +124,7 @@
     .js-avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .js-card-name { font-weight: 700; font-size: 16px; color: #0a0a0a; line-height: 1.2; margin: 0 0 3px; }
     .js-card-loc { font-size: 12.5px; color: #6b7280; display: inline-flex; align-items: center; gap: 5px; }
-    .js-card-loc i { font-size: 13px; color: #ff5722; }
+    .js-card-loc i { font-size: 13px; color: #2f7fc9; }
 
     .js-card-headline {
         font-size: 14px; color: #374151; line-height: 1.55;
@@ -175,8 +175,8 @@
     }
     .js-faq-head { text-align: left; position: sticky; top: 90px; }
     .js-faq-head .eyebrow {
-        display: inline-block; background: rgba(255,138,0,.10);
-        color: #ff8a00; font-weight: 800; font-size: 11px;
+        display: inline-block; background: rgba(27, 58, 107,.10);
+        color: #1b3a6b; font-weight: 800; font-size: 11px;
         padding: 5px 14px; border-radius: 999px;
         letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 14px;
     }
@@ -186,19 +186,19 @@
         margin: 0 0 14px;
     }
     .js-faq-head h2 .accent {
-        background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40);
+        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
         -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
     }
     .js-faq-head p { color: #555; font-size: 16px; line-height: 1.65; margin: 0 0 22px; }
     .js-faq-cta {
         display: inline-flex; align-items: center; gap: 8px;
-        background: linear-gradient(135deg, #ff8a00, #ff5722); color: #fff !important;
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9); color: #fff !important;
         padding: 12px 22px; border-radius: 10px;
         font-weight: 700; font-size: 14px; text-decoration: none;
-        box-shadow: 0 8px 20px rgba(255,138,0,.30);
+        box-shadow: 0 8px 20px rgba(27, 58, 107,.30);
         transition: all .2s ease;
     }
-    .js-faq-cta:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(255,138,0,.40); }
+    .js-faq-cta:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(27, 58, 107,.40); }
     .js-faqs { max-width: none; margin: 0; }
     .js-faq {
         background: #fff; border: 1px solid #ececec;
@@ -236,7 +236,7 @@
         border-radius: 50%; filter: blur(80px); opacity: .35;
         pointer-events: none;
     }
-    .js-cta-card::before { width: 360px; height: 360px; background: #ff5722; top: -120px; right: -100px; }
+    .js-cta-card::before { width: 360px; height: 360px; background: #2f7fc9; top: -120px; right: -100px; }
     .js-cta-card::after  { width: 320px; height: 320px; background: #5e2bff; bottom: -120px; left: -100px; }
     .js-cta-card > * { position: relative; z-index: 2; }
     .js-cta-card h2 {
@@ -291,7 +291,7 @@
 
     .js-spotlight-content .eyebrow {
         display: inline-block;
-        background: rgba(255,138,0,.10); color: #ff8a00;
+        background: rgba(27, 58, 107,.10); color: #1b3a6b;
         font-size: 11px; font-weight: 800; letter-spacing: 1.5px;
         text-transform: uppercase; padding: 6px 14px; border-radius: 999px;
         margin-bottom: 16px;
@@ -302,7 +302,7 @@
         margin: 0 0 16px;
     }
     .js-spotlight-content h2 .accent {
-        background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40);
+        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
         -webkit-background-clip: text; background-clip: text;
         -webkit-text-fill-color: transparent; color: transparent;
     }
@@ -318,7 +318,7 @@
     .js-spotlight-list li i {
         flex-shrink: 0; margin-top: 2px;
         width: 22px; height: 22px; border-radius: 50%;
-        background: rgba(255,138,0,.12); color: #ff8a00;
+        background: rgba(27, 58, 107,.12); color: #1b3a6b;
         display: inline-flex; align-items: center; justify-content: center;
         font-size: 12px; font-weight: 800;
     }
@@ -332,11 +332,11 @@
         transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
     }
     .js-spotlight-btn.primary {
-        background: linear-gradient(135deg, #ff8a00, #ff5722);
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
         color: #fff !important;
-        box-shadow: 0 8px 18px rgba(255,138,0,.30);
+        box-shadow: 0 8px 18px rgba(27, 58, 107,.30);
     }
-    .js-spotlight-btn.primary:hover { transform: translateY(-2px); box-shadow: 0 14px 28px rgba(255,138,0,.45); }
+    .js-spotlight-btn.primary:hover { transform: translateY(-2px); box-shadow: 0 14px 28px rgba(27, 58, 107,.45); }
     .js-spotlight-btn.outline {
         background: #fff;
         color: #0a0a0a !important;
@@ -624,7 +624,7 @@
 
 .jsk-section-head { text-align: center; max-width: 720px; margin: 0 auto 44px; }
 .jsk-section-head .eyebrow {
-    display: inline-block; background: rgba(255,138,0,.10); color: #ff8a00;
+    display: inline-block; background: rgba(27, 58, 107,.10); color: #1b3a6b;
     font-size: 11px; font-weight: 800; padding: 5px 14px; border-radius: 999px;
     letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 14px;
 }
@@ -633,7 +633,7 @@
     color: #0a0a0a; line-height: 1.15; letter-spacing: -.6px; margin: 0 0 12px;
 }
 .jsk-section-head h2 .accent {
-    background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40);
+    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
     -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
 .jsk-section-head p { color: #555; font-size: 16px; line-height: 1.65; margin: 0; }
@@ -652,7 +652,7 @@
     padding: 28px 24px;
     transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
 }
-.jsk-why-card:hover { transform: translateY(-4px); border-color: #ff8a00; box-shadow: 0 20px 40px rgba(15,23,42,.10); }
+.jsk-why-card:hover { transform: translateY(-4px); border-color: #1b3a6b; box-shadow: 0 20px 40px rgba(15,23,42,.10); }
 .jsk-why-ico {
     width: 52px; height: 52px; border-radius: 14px;
     background: linear-gradient(135deg, #0a0a0a, #1f1f1f); color: #fff;
@@ -676,7 +676,7 @@
     line-height: 1.15; letter-spacing: -.6px; margin: 0 0 16px;
 }
 .jsk-seo-content h2 .accent {
-    background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40);
+    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
     -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
 .jsk-seo-lead { color: #1a1a1a; font-size: 16px; line-height: 1.65; margin: 0 0 14px; font-weight: 500; }
@@ -729,7 +729,7 @@
 .jsk-trust-stat strong {
     display: block; font-size: clamp(28px, 3vw, 40px); font-weight: 800;
     letter-spacing: -.5px; margin-bottom: 6px;
-    background: linear-gradient(135deg, #ff8a00, #ff5722);
+    background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
     -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
 .jsk-trust-stat span {
@@ -771,10 +771,10 @@ html.dark-mode .js-search-box {
     box-shadow: 0 24px 48px rgba(0,0,0,.55) !important;
 }
 html.dark-mode .js-search-box button {
-    background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-    box-shadow: 0 6px 14px rgba(255,138,0,.35) !important;
+    background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
+    box-shadow: 0 6px 14px rgba(27, 58, 107,.35) !important;
 }
-html.dark-mode .js-search-box button:hover { background: linear-gradient(135deg, #ff7a00, #ff4722) !important; }
+html.dark-mode .js-search-box button:hover { background: linear-gradient(135deg, #16305a, #ff4722) !important; }
 
 /* Section heads (above the seeker grid) */
 html.dark-mode .js-section-head h2 { color: #fff !important; }
@@ -791,23 +791,23 @@ html.dark-mode .js-card {
     border-color: rgba(255,255,255,.10) !important;
 }
 html.dark-mode .js-card:hover {
-    border-color: #ff8a00 !important;
+    border-color: #1b3a6b !important;
     box-shadow: 0 20px 40px rgba(0,0,0,.55) !important;
 }
 html.dark-mode .js-card-name { color: #fff !important; }
 html.dark-mode .js-card-loc  { color: var(--site-muted, #b8c0cc) !important; }
 html.dark-mode .js-card-headline { color: #d0d6df !important; }
 html.dark-mode .js-skill {
-    background: rgba(255,138,0,.10) !important;
-    border-color: rgba(255,138,0,.25) !important;
-    color: #ff8a00 !important;
+    background: rgba(27, 58, 107,.10) !important;
+    border-color: rgba(27, 58, 107,.25) !important;
+    color: #1b3a6b !important;
 }
 html.dark-mode .js-card-meta { border-top-color: rgba(255,255,255,.08) !important; }
 html.dark-mode .js-card-exp { color: var(--site-muted, #b8c0cc) !important; }
-html.dark-mode .js-view-link { color: #ff8a00 !important; }
+html.dark-mode .js-view-link { color: #1b3a6b !important; }
 html.dark-mode .js-avatar {
-    background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-    box-shadow: 0 6px 14px rgba(255,138,0,.30) !important;
+    background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
+    box-shadow: 0 6px 14px rgba(27, 58, 107,.30) !important;
 }
 
 /* Empty state */
@@ -827,7 +827,7 @@ html.dark-mode .js-faq-section {
 }
 html.dark-mode .js-faq-head h2 { color: #fff !important; }
 html.dark-mode .js-faq-head h2 .accent {
-    background: linear-gradient(90deg, #ff8a00, #ff5722) !important;
+    background: linear-gradient(90deg, #1b3a6b, #2f7fc9) !important;
     -webkit-background-clip: text !important; background-clip: text !important;
     -webkit-text-fill-color: transparent !important; color: transparent !important;
 }
@@ -842,16 +842,16 @@ html.dark-mode .js-faq {
     background: var(--site-card-bg, #1c2128) !important;
     border-color: rgba(255,255,255,.10) !important;
 }
-html.dark-mode .js-faq[open] { border-color: #ff8a00 !important; }
+html.dark-mode .js-faq[open] { border-color: #1b3a6b !important; }
 html.dark-mode .js-faq summary,
 html.dark-mode .js-faq-q { color: #fff !important; }
-html.dark-mode .js-faq summary::after { color: #ff8a00 !important; }
-html.dark-mode .js-faq[open] summary::after { color: #ff8a00 !important; }
+html.dark-mode .js-faq summary::after { color: #1b3a6b !important; }
+html.dark-mode .js-faq[open] summary::after { color: #1b3a6b !important; }
 html.dark-mode .js-faq-body { color: var(--site-muted, #b8c0cc) !important; }
 
 /* Light mode FAQ +/× clearer accent (was plain black) */
-.js-faq summary::after { color: #ff8a00 !important; }
-.js-faq[open] summary::after { color: #ff8a00 !important; }
+.js-faq summary::after { color: #1b3a6b !important; }
+.js-faq[open] summary::after { color: #1b3a6b !important; }
 
 /* Dark mode for Job-Seeker Spotlight section */
 html.dark-mode .js-spotlight-section {
@@ -869,27 +869,27 @@ html.dark-mode .js-spotlight-pill {
 html.dark-mode .js-spotlight-btn.outline {
     background: transparent !important;
     color: #fff !important;
-    border-color: #ff8a00 !important;
+    border-color: #1b3a6b !important;
 }
 html.dark-mode .js-spotlight-btn.outline:hover {
-    background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+    background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
     color: #fff !important;
 }
 
 /* Why-job-seeker icon containers — orange in dark mode (was black) */
 html.dark-mode .jsk-why-ico {
-    background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-    box-shadow: 0 6px 14px rgba(255,138,0,.30) !important;
+    background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
+    box-shadow: 0 6px 14px rgba(27, 58, 107,.30) !important;
 }
 
 /* CTA section */
 html.dark-mode .js-cta-section { background: var(--site-bg, #0f1216) !important; }
 html.dark-mode .js-cta-card {
     background: linear-gradient(135deg, #1f2937 0%, #111827 100%) !important;
-    border: 1px solid rgba(255,138,0,.20) !important;
+    border: 1px solid rgba(27, 58, 107,.20) !important;
 }
 html.dark-mode .js-cta-btn-primary {
-    background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+    background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
     color: #fff !important;
 }
 html.dark-mode .js-cta-btn-outline {

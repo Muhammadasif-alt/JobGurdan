@@ -46,7 +46,7 @@
         transition: all .15s ease;
     }
     .jaf .btn-primary { background: #0a0a0a; border-color: #0a0a0a; color: #fff; }
-    .jaf .btn-primary:hover { background: #ff8a00; border-color: #ff8a00; }
+    .jaf .btn-primary:hover { background: #1b3a6b; border-color: #1b3a6b; }
     .jaf .btn-ghost { background: #fff; color: #0a0a0a; border-color: #d1d5db; }
     .jaf .btn-ghost:hover { background: #f5f5f7; }
     .jaf .err {

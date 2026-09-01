@@ -30,7 +30,7 @@
         left: -100px; bottom: -120px;
         width: 320px; height: 320px;
         border-radius: 50%;
-        background: radial-gradient(circle, rgba(255,87,34,.07), transparent 70%);
+        background: radial-gradient(circle, rgba(47, 127, 201,.07), transparent 70%);
         pointer-events: none;
     }
     .cat-hero-inner {
@@ -397,7 +397,7 @@
                         </div>
                         @if($activeLocation !== '' || ! empty($activeJobTypes))
                             <div style="margin-top:14px;">
-                                <a href="{{ route('jobs.category', $category->slug) }}" style="font-size:13px;color:#ff5722;text-decoration:underline;">Clear filters</a>
+                                <a href="{{ route('jobs.category', $category->slug) }}" style="font-size:13px;color:#2f7fc9;text-decoration:underline;">Clear filters</a>
                             </div>
                         @endif
                     </div>

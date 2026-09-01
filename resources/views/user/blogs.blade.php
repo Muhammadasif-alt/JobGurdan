@@ -52,7 +52,7 @@
     .ca-hero {
         position: relative;
         background:
-            radial-gradient(circle at 12% 20%, rgba(255,138,0,.10) 0, transparent 40%),
+            radial-gradient(circle at 12% 20%, rgba(27, 58, 107,.10) 0, transparent 40%),
             radial-gradient(circle at 88% 80%, rgba(94,43,255,.08) 0, transparent 45%),
             linear-gradient(180deg, #f8faff 0%, #ffffff 60%, #f5f5f7 100%);
         padding: 80px 0 70px;
@@ -84,7 +84,7 @@
         max-width: 820px;
     }
     .ca-hero h1 .accent {
-        background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40);
+        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -126,7 +126,7 @@
         text-decoration: none; transition: all .15s ease;
     }
     .ca-cat-pills a:hover { background: #f5f5f7; border-color: #0a0a0a; }
-    .ca-cat-pills a.active { background: linear-gradient(135deg, #ff8a00, #ff5722); border-color: #ff8a00; color: #fff; }
+    .ca-cat-pills a.active { background: linear-gradient(135deg, #1b3a6b, #2f7fc9); border-color: #1b3a6b; color: #fff; }
 
     /* Section title */
     .ca-section-title {
@@ -135,8 +135,8 @@
         border-bottom: 2px solid #ececec;
     }
     .ca-section-title h2 { font-size: 18px; font-weight: 800; color: #0a0a0a; margin: 0; letter-spacing: -.2px; text-transform: uppercase; }
-    .ca-section-title .more-link { color: #ff8a00; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; }
-    .ca-section-title .more-link:hover { color: #ff5722; }
+    .ca-section-title .more-link { color: #1b3a6b; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; }
+    .ca-section-title .more-link:hover { color: #2f7fc9; }
 
     /* === Featured grid (1 large + 4 small) === */
     .ca-featured-grid {
@@ -181,7 +181,7 @@
     .ca-feature-main .ca-feature-content { padding: 24px 26px; }
     .ca-feature-content .cat-pill {
         display: inline-block;
-        background: rgba(255,138,0,.92); color: #fff;
+        background: rgba(27, 58, 107,.92); color: #fff;
         font-size: 10.5px; font-weight: 700;
         padding: 4px 10px; border-radius: 4px;
         margin-bottom: 8px; text-transform: uppercase; letter-spacing: .6px;
@@ -212,7 +212,7 @@
     }
     .ca-recent-card:hover {
         transform: translateY(-3px);
-        border-color: #ff8a00;
+        border-color: #1b3a6b;
         box-shadow: 0 14px 30px rgba(15,23,42,.10);
     }
     .ca-recent-card .thumb { width: 100%; height: 230px; overflow: hidden; background: #f3f4f6; }
@@ -222,7 +222,7 @@
     .ca-recent-card .cat-tag {
         display: inline-block;
         font-size: 10.5px; font-weight: 700;
-        color: #ff8a00; text-transform: uppercase; letter-spacing: .8px;
+        color: #1b3a6b; text-transform: uppercase; letter-spacing: .8px;
         margin-bottom: 8px;
     }
     .ca-recent-card h4 {
@@ -231,7 +231,7 @@
         display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
         flex-grow: 1;
     }
-    .ca-recent-card:hover h4 { color: #ff8a00; }
+    .ca-recent-card:hover h4 { color: #1b3a6b; }
     .ca-recent-card .meta { color: #777; font-size: 12px; }
 
     /* === Most Popular (2-col × 3 rows = 6 ranked cards) === */
@@ -255,17 +255,17 @@
     }
     .ca-popular-item:hover {
         transform: translateY(-2px);
-        border-color: #ff8a00;
+        border-color: #1b3a6b;
         box-shadow: 0 10px 22px rgba(15,23,42,.08);
     }
     .ca-popular-item .rank {
         width: 40px; height: 40px;
-        background: linear-gradient(135deg, #ff8a00, #ff5722);
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
         color: #fff;
         border-radius: 10px;
         display: inline-flex; align-items: center; justify-content: center;
         font-size: 17px; font-weight: 800;
-        box-shadow: 0 4px 10px rgba(255,138,0,.30);
+        box-shadow: 0 4px 10px rgba(27, 58, 107,.30);
     }
     .ca-popular-item .thumb {
         width: 90px; height: 70px;
@@ -278,7 +278,7 @@
         margin: 0; line-height: 1.4;
         display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
     }
-    .ca-popular-item:hover h4 { color: #ff8a00; }
+    .ca-popular-item:hover h4 { color: #1b3a6b; }
 
     /* === Recruitment Insights (3-col × 1 row) === */
     .ca-insights-grid {
@@ -328,7 +328,7 @@
     }
     .ca-morenews-card:hover {
         transform: translateY(-3px);
-        border-color: #ff8a00;
+        border-color: #1b3a6b;
         box-shadow: 0 12px 26px rgba(15,23,42,.10);
     }
     .ca-morenews-card .thumb { width: 100%; height: 200px; overflow: hidden; background: #f3f4f6; }
@@ -341,9 +341,9 @@
         display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
         flex-grow: 1;
     }
-    .ca-morenews-card:hover h4 { color: #ff8a00; }
+    .ca-morenews-card:hover h4 { color: #1b3a6b; }
     .ca-morenews-card .byline { color: #777; font-size: 11.5px; }
-    .ca-morenews-card .byline .author { color: #ff8a00; font-weight: 600; margin-right: 5px; }
+    .ca-morenews-card .byline .author { color: #1b3a6b; font-weight: 600; margin-right: 5px; }
 
     .ca-pagination { margin-top: 28px; }
 
@@ -373,7 +373,7 @@
     html.dark-mode .ca-morenews-card .byline { color: var(--site-muted) !important; }
     html.dark-mode .ca-recent-card:hover h4,
     html.dark-mode .ca-popular-item:hover h4,
-    html.dark-mode .ca-morenews-card:hover h4 { color: #ff8a00 !important; }
+    html.dark-mode .ca-morenews-card:hover h4 { color: #1b3a6b !important; }
 </style>
 
 {{-- ===== Hero ===== --}}

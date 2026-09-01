@@ -29,7 +29,7 @@
         left: -80px; bottom: -100px;
         width: 280px; height: 280px;
         border-radius: 50%;
-        background: radial-gradient(circle, rgba(255,87,34,.08), transparent 70%);
+        background: radial-gradient(circle, rgba(47, 127, 201,.08), transparent 70%);
         pointer-events: none;
     }
     .dash-hero-row {
@@ -212,7 +212,7 @@
         left: -60px; bottom: -60px;
         width: 200px; height: 200px;
         border-radius: 50%;
-        background: radial-gradient(circle, rgba(255,87,34,.28), transparent 70%);
+        background: radial-gradient(circle, rgba(47, 127, 201,.28), transparent 70%);
         pointer-events: none;
     }
     .qa-card > * { position: relative; z-index: 1; }

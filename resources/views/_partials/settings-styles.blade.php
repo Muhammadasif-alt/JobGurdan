@@ -48,7 +48,7 @@
 
     .info-card { background: #0a0a0a; color: #fff; border-radius: 16px; padding: 24px 22px; position: relative; overflow: hidden; }
     .info-card::before { content:""; position:absolute; right:-60px; top:-60px; width:200px; height:200px; border-radius:50%; background: radial-gradient(circle, rgba(94,43,255,.32), transparent 70%); pointer-events:none; }
-    .info-card::after { content:""; position:absolute; left:-60px; bottom:-60px; width:180px; height:180px; border-radius:50%; background: radial-gradient(circle, rgba(255,87,34,.28), transparent 70%); pointer-events:none; }
+    .info-card::after { content:""; position:absolute; left:-60px; bottom:-60px; width:180px; height:180px; border-radius:50%; background: radial-gradient(circle, rgba(47, 127, 201,.28), transparent 70%); pointer-events:none; }
     .info-card > * { position: relative; z-index: 1; }
     .info-card .eyebrow { display: inline-block; background: rgba(255,255,255,.10); border: 1px solid rgba(255,255,255,.18); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.4px; padding: 5px 12px; border-radius: 999px; margin-bottom: 14px; }
     .info-card h4 { font-size: 16px; font-weight: 700; margin: 0 0 10px; }

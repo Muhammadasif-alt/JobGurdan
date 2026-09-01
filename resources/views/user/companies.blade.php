@@ -654,8 +654,8 @@
 .emp-section-head { text-align: center; max-width: 720px; margin: 0 auto 44px; }
 .emp-section-head .eyebrow {
     display: inline-block;
-    background: rgba(255,138,0,.10);
-    color: #ff8a00;
+    background: rgba(27, 58, 107,.10);
+    color: #1b3a6b;
     font-size: 11px;
     font-weight: 800;
     padding: 5px 14px;
@@ -673,7 +673,7 @@
     margin: 0 0 12px;
 }
 .emp-section-head h2 .accent {
-    background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40);
+    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
     -webkit-background-clip: text; background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -690,12 +690,12 @@
 }
 .emp-why-card:hover {
     transform: translateY(-4px);
-    border-color: #ff8a00;
+    border-color: #1b3a6b;
     box-shadow: 0 20px 40px rgba(15,23,42,.10);
 }
 .emp-why-ico {
     width: 52px; height: 52px; border-radius: 14px;
-    background: linear-gradient(135deg, #ff8a00, #ff5722); color: #fff;
+    background: linear-gradient(135deg, #1b3a6b, #2f7fc9); color: #fff;
     display: inline-flex; align-items: center; justify-content: center;
     font-size: 22px; margin-bottom: 16px;
 }
@@ -715,7 +715,7 @@
     line-height: 1.15; letter-spacing: -.6px; margin: 0 0 16px;
 }
 .emp-seo-content h2 .accent {
-    background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40);
+    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
     -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
 .emp-seo-lead { color: #1a1a1a; font-size: 16px; line-height: 1.65; margin: 0 0 14px; font-weight: 500; }
@@ -728,12 +728,12 @@
 .emp-seo-list li i { color: #10b981; font-size: 18px; }
 .emp-cta-btn {
     display: inline-flex; align-items: center; gap: 8px;
-    background: linear-gradient(135deg, #ff8a00, #ff5722); color: #fff !important;
+    background: linear-gradient(135deg, #1b3a6b, #2f7fc9); color: #fff !important;
     padding: 14px 26px; border-radius: 12px; font-weight: 700; font-size: 15px;
     text-decoration: none; transition: all .2s ease;
-    box-shadow: 0 8px 22px rgba(255,138,0,.35);
+    box-shadow: 0 8px 22px rgba(27, 58, 107,.35);
 }
-.emp-cta-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(255,138,0,.45); }
+.emp-cta-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(27, 58, 107,.45); }
 .emp-seo-visual { position: relative; }
 .emp-seo-visual img {
     width: 100%;
@@ -774,7 +774,7 @@
     padding: 28px 24px; position: relative;
     transition: transform .25s ease, box-shadow .25s ease;
 }
-.emp-process-card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(15,23,42,.10); border-color: #ff8a00; }
+.emp-process-card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(15,23,42,.10); border-color: #1b3a6b; }
 .emp-step-num {
     width: 44px; height: 44px; border-radius: 50%;
     background: linear-gradient(135deg, #0a0a0a, #1a1a1a); color: #fff;
@@ -806,7 +806,7 @@ html.dark-mode .emp-process-card {
 html.dark-mode .emp-float-badge { background: var(--site-card-bg) !important; border: 1px solid var(--site-card-bd); }
 html.dark-mode .emp-float-badge .text strong { color: #fff !important; }
 html.dark-mode .emp-float-badge .text span { color: var(--site-muted) !important; }
-html.dark-mode .emp-step-num { background: linear-gradient(135deg, #ff8a00, #ff5722) !important; }
+html.dark-mode .emp-step-num { background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important; }
 </style>
 
 @endsection

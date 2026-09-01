@@ -156,7 +156,7 @@
 
         /* Floating decorative blobs — hidden (image background replaces them) */
         .hero-blob { display: none !important; position: absolute; border-radius: 50%; filter: blur(80px); opacity: .15; z-index: 1; }
-        .hero-blob.b1 { width: 360px; height: 360px; background: #ff8a00; top: -120px; right: -80px; animation: floaty 9s ease-in-out infinite; }
+        .hero-blob.b1 { width: 360px; height: 360px; background: #1b3a6b; top: -120px; right: -80px; animation: floaty 9s ease-in-out infinite; }
         .hero-blob.b2 { width: 280px; height: 280px; background: #5e2bff; bottom: -100px; left: -60px; animation: floaty 11s ease-in-out infinite reverse; }
         @keyframes floaty {
             0%, 100% { transform: translateY(0) scale(1); }
@@ -280,7 +280,7 @@
             display: inline-block !important;
             margin: 0 !important;
             padding: 0 2px !important;
-            background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40) !important;
+            background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40) !important;
             -webkit-background-clip: text !important;
             background-clip: text !important;
             -webkit-text-fill-color: transparent !important;
@@ -904,7 +904,7 @@
             border-bottom: 1px solid #f0f0f3;
         }
         .mb-logo { font-size: 14px; font-weight: 800; letter-spacing: -.3px; }
-        .mb-logo .a { color: #ff8a00; }
+        .mb-logo .a { color: #1b3a6b; }
         .mb-logo .b { color: #2a41e8; }
         .mb-nav { display: flex; gap: 14px; font-size: 10.5px; color: #555; font-weight: 500; }
         .mb-search {
@@ -2306,7 +2306,7 @@
             opacity: .45;
             pointer-events: none;
         }
-        .why-visual-blob.blob-1 { width: 300px; height: 300px; background: #ff5722; top: -30px; right: 0; }
+        .why-visual-blob.blob-1 { width: 300px; height: 300px; background: #2f7fc9; top: -30px; right: 0; }
         .why-visual-blob.blob-2 { width: 240px; height: 240px; background: #5e2bff; bottom: -30px; left: 20px; }
         .why-visual-stage {
             position: relative;

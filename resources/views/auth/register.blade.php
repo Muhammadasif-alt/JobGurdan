@@ -48,7 +48,7 @@
             opacity: .35;
             pointer-events: none;
         }
-        .auth-visual::before { width: 380px; height: 380px; background: #ff5722; top: -120px; right: -100px; }
+        .auth-visual::before { width: 380px; height: 380px; background: #2f7fc9; top: -120px; right: -100px; }
         .auth-visual::after  { width: 340px; height: 340px; background: #5e2bff; bottom: -120px; left: -100px; }
 
         .auth-visual .auth-brand {

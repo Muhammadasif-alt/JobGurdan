@@ -29,7 +29,7 @@
         content: ""; position: absolute; border-radius: 50%;
         filter: blur(80px); opacity: .35; pointer-events: none;
     }
-    .cp-hero::before { width: 320px; height: 320px; background: #ff5722; top: -120px; right: -100px; }
+    .cp-hero::before { width: 320px; height: 320px; background: #2f7fc9; top: -120px; right: -100px; }
     .cp-hero::after { width: 280px; height: 280px; background: #5e2bff; bottom: -100px; left: -80px; }
     .cp-hero > * { position: relative; z-index: 2; }
 

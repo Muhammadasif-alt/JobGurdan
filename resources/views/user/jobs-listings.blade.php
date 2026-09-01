@@ -664,7 +664,7 @@
                     }
                     .jobs-skills-strip .lbl {
                         font-size: 12.5px; font-weight: 700;
-                        color: #ff8a00; text-transform: uppercase; letter-spacing: 1px;
+                        color: #1b3a6b; text-transform: uppercase; letter-spacing: 1px;
                         margin-right: 6px; display: inline-flex; align-items: center; gap: 5px;
                     }
                     .jobs-skills-strip .skill-pill {
@@ -678,14 +678,14 @@
                         transition: all .15s ease;
                     }
                     .jobs-skills-strip .skill-pill:hover {
-                        background: linear-gradient(135deg, #ff8a00, #ff5722);
-                        border-color: #ff8a00;
+                        background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
+                        border-color: #1b3a6b;
                         color: #fff !important;
                         transform: translateY(-1px);
                     }
                     .jobs-skills-strip .skill-pill.is-active {
-                        background: linear-gradient(135deg, #ff8a00, #ff5722);
-                        border-color: #ff8a00;
+                        background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
+                        border-color: #1b3a6b;
                         color: #fff !important;
                     }
                 </style>

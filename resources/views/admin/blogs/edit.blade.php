@@ -140,7 +140,7 @@
                             <label for="excerpt" style="display:flex;align-items:baseline;">
                                 Excerpt <span class="hint">(short summary)</span>
                                 <button type="button"
-                                        style="margin-left:auto;display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#5e2bff 0%,#ff5722 100%);color:#fff;border:none;border-radius:999px;padding:5px 12px;font-size:11.5px;font-weight:700;box-shadow:0 4px 10px rgba(94,43,255,.25);cursor:pointer;"
+                                        style="margin-left:auto;display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#5e2bff 0%,#2f7fc9 100%);color:#fff;border:none;border-radius:999px;padding:5px 12px;font-size:11.5px;font-weight:700;box-shadow:0 4px 10px rgba(94,43,255,.25);cursor:pointer;"
                                         data-ai-action="blog-excerpt"
                                         data-ai-target="#excerpt"
                                         data-ai-source-title="#title"
@@ -155,7 +155,7 @@
                             <label for="content" style="display:flex;align-items:baseline;">
                                 Content
                                 <button type="button"
-                                        style="margin-left:auto;display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#5e2bff 0%,#ff5722 100%);color:#fff;border:none;border-radius:999px;padding:5px 12px;font-size:11.5px;font-weight:700;box-shadow:0 4px 10px rgba(94,43,255,.25);cursor:pointer;"
+                                        style="margin-left:auto;display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#5e2bff 0%,#2f7fc9 100%);color:#fff;border:none;border-radius:999px;padding:5px 12px;font-size:11.5px;font-weight:700;box-shadow:0 4px 10px rgba(94,43,255,.25);cursor:pointer;"
                                         data-ai-action="blog-content"
                                         data-ai-target="#content"
                                         data-ai-source-title="#title"
@@ -221,7 +221,7 @@
                     <div class="panel-head">
                         <h3><i class="bi bi-search"></i> SEO Settings</h3>
                         <button type="button"
-                                style="margin-left:auto;display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#5e2bff 0%,#ff5722 100%);color:#fff;border:none;border-radius:999px;padding:6px 14px;font-size:12px;font-weight:700;box-shadow:0 4px 10px rgba(94,43,255,.25);cursor:pointer;"
+                                style="margin-left:auto;display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#5e2bff 0%,#2f7fc9 100%);color:#fff;border:none;border-radius:999px;padding:6px 14px;font-size:12px;font-weight:700;box-shadow:0 4px 10px rgba(94,43,255,.25);cursor:pointer;"
                                 data-ai-action="blog-meta"
                                 data-ai-target-title="#meta_title"
                                 data-ai-target-description="#meta_description"

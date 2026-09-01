@@ -248,7 +248,7 @@
     .jd-formatted .jd-ul li::before {
         content: ""; position: absolute; left: 8px; top: 11px;
         width: 8px; height: 8px; border-radius: 50%;
-        background: linear-gradient(135deg, #ff8a00, #ff5722);
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
     }
     .jd-formatted .jd-ol {
         counter-reset: jd-counter;
@@ -266,8 +266,8 @@
         font-size: 11.5px; font-weight: 800;
     }
     .jd-formatted .jd-link {
-        color: #ff5722; font-weight: 600;
-        border-bottom: 1.5px solid #ff5722;
+        color: #2f7fc9; font-weight: 600;
+        border-bottom: 1.5px solid #2f7fc9;
         padding-bottom: 1px;
         text-decoration: none;
     }
@@ -329,11 +329,11 @@
     .jd-why-list .ico {
         width: 36px; height: 36px;
         border-radius: 10px;
-        background: linear-gradient(135deg, #ff8a00, #ff5722);
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
         color: #fff;
         display: inline-flex; align-items: center; justify-content: center;
         font-size: 16px;
-        box-shadow: 0 4px 10px rgba(255,138,0,.25);
+        box-shadow: 0 4px 10px rgba(27, 58, 107,.25);
         flex-shrink: 0;
     }
     .jd-why-list strong {
@@ -355,8 +355,8 @@
         box-shadow: var(--site-shadow) !important;
     }
     html.dark-mode .jd-why-card .eyebrow {
-        background: rgba(255,138,0,.15) !important;
-        border-color: rgba(255,138,0,.30) !important;
+        background: rgba(27, 58, 107,.15) !important;
+        border-color: rgba(27, 58, 107,.30) !important;
         color: #ffab40 !important;
     }
     html.dark-mode .jd-why-card h4 { color: #fff !important; }
@@ -425,7 +425,7 @@
         opacity: .25;
         pointer-events: none;
     }
-    .jd-apply-banner::before { width: 280px; height: 280px; background: #ff5722; top: -80px; right: -60px; }
+    .jd-apply-banner::before { width: 280px; height: 280px; background: #2f7fc9; top: -80px; right: -60px; }
     .jd-apply-banner::after { width: 220px; height: 220px; background: #5e2bff; bottom: -60px; left: -50px; }
     .jd-apply-banner > * { position: relative; z-index: 2; }
     .jd-apply-banner h3 { color: #fff; font-size: 24px; font-weight: 800; margin: 0 0 10px; letter-spacing: -.4px; }
@@ -646,8 +646,8 @@
                             transition: all .15s ease;
                         }
                         .jd-skill:hover {
-                            background: linear-gradient(135deg, #ff8a00, #ff5722);
-                            border-color: #ff8a00;
+                            background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
+                            border-color: #1b3a6b;
                             color: #fff !important;
                             transform: translateY(-1px);
                         }
@@ -657,8 +657,8 @@
                             color: #e5e7eb !important;
                         }
                         html.dark-mode .jd-skill:hover {
-                            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-                            border-color: #ff8a00 !important;
+                            background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
+                            border-color: #1b3a6b !important;
                             color: #fff !important;
                         }
                     </style>
@@ -677,8 +677,8 @@
                         transition: all .15s ease;
                     }
                     .jd-apply-banner .jd-apply-primary:hover {
-                        background: #ff8a00; color: #fff !important;
-                        transform: translateY(-1px); box-shadow: 0 12px 24px rgba(255,138,0,.25);
+                        background: #1b3a6b; color: #fff !important;
+                        transform: translateY(-1px); box-shadow: 0 12px 24px rgba(27, 58, 107,.25);
                     }
                     .jd-apply-banner .jd-apply-primary.disabled {
                         opacity: .55; pointer-events: none; cursor: not-allowed;
@@ -700,7 +700,7 @@
                     .jd-save-btn.is-saved {
                         background: #fff; color: #0a0a0a; border-color: #fff;
                     }
-                    .jd-save-btn.is-saved i { color: #ff5722; }
+                    .jd-save-btn.is-saved i { color: #2f7fc9; }
                     .jd-save-btn i { font-size: 16px; }
                 </style>
 

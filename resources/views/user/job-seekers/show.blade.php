@@ -35,7 +35,7 @@
         border-radius: 50%; filter: blur(80px); opacity: .35;
         pointer-events: none;
     }
-    .sk-detail-hero::before { width: 360px; height: 360px; background: #ff5722; top: -120px; right: -100px; }
+    .sk-detail-hero::before { width: 360px; height: 360px; background: #2f7fc9; top: -120px; right: -100px; }
     .sk-detail-hero::after  { width: 320px; height: 320px; background: #5e2bff; bottom: -120px; left: -100px; }
     .sk-detail-hero > * { position: relative; z-index: 2; }
 
@@ -120,7 +120,7 @@
         background: #fafbff; border: 1px solid #e5e7eb;
         font-size: 13.5px; font-weight: 600; color: #0a0a0a;
     }
-    .skill-grid .skill i { color: #ff5722; font-size: 12px; }
+    .skill-grid .skill i { color: #2f7fc9; font-size: 12px; }
 
     /* Info table */
     .info-table { display: grid; grid-template-columns: max-content 1fr; gap: 12px 24px; }
@@ -188,13 +188,13 @@
 
     /* === CV download accent === */
     .sk-detail-hero .btn-download {
-        background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
         color: #fff !important;
-        box-shadow: 0 6px 14px rgba(255,138,0,.30);
+        box-shadow: 0 6px 14px rgba(27, 58, 107,.30);
     }
     .sk-detail-hero .btn-download:hover {
         transform: translateY(-2px);
-        box-shadow: 0 10px 22px rgba(255,138,0,.45);
+        box-shadow: 0 10px 22px rgba(27, 58, 107,.45);
     }
 
     /* === "Why {Name} stands out" — motivational section === */
@@ -207,7 +207,7 @@
     }
     .sk-section-head { text-align: center; max-width: 720px; margin: 0 auto 36px; }
     .sk-section-head .eyebrow {
-        display: inline-block; background: rgba(255,138,0,.10); color: #ff8a00;
+        display: inline-block; background: rgba(27, 58, 107,.10); color: #1b3a6b;
         font-size: 11.5px; font-weight: 800; letter-spacing: 1.5px;
         text-transform: uppercase; padding: 5px 14px; border-radius: 999px;
         margin-bottom: 14px;
@@ -233,7 +233,7 @@
     }
     .sk-why-card:hover {
         transform: translateY(-3px);
-        border-color: #ff8a00;
+        border-color: #1b3a6b;
         box-shadow: 0 14px 28px rgba(15,23,42,.08);
     }
     .sk-why-ico {
@@ -263,7 +263,7 @@
         border-radius: 50%; filter: blur(80px); opacity: .35;
         pointer-events: none;
     }
-    .sk-motivate-card::before { width: 380px; height: 380px; background: #ff5722; top: -120px; right: -100px; }
+    .sk-motivate-card::before { width: 380px; height: 380px; background: #2f7fc9; top: -120px; right: -100px; }
     .sk-motivate-card::after  { width: 340px; height: 340px; background: #5e2bff; bottom: -120px; left: -100px; }
     .sk-motivate-text { position: relative; z-index: 2; max-width: 740px; margin: 0 auto; }
     .sk-motivate-text .eyebrow {
@@ -312,11 +312,11 @@
         transition: transform .15s ease, box-shadow .15s ease;
     }
     .sk-btn.primary {
-        background: linear-gradient(135deg, #ff8a00, #ff5722);
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
         color: #fff !important;
-        box-shadow: 0 8px 18px rgba(255,138,0,.30);
+        box-shadow: 0 8px 18px rgba(27, 58, 107,.30);
     }
-    .sk-btn.primary:hover { transform: translateY(-2px); box-shadow: 0 14px 28px rgba(255,138,0,.45); }
+    .sk-btn.primary:hover { transform: translateY(-2px); box-shadow: 0 14px 28px rgba(27, 58, 107,.45); }
     .sk-btn.outline {
         background: transparent; color: #fff !important;
         border: 1.5px solid rgba(255,255,255,.30);
@@ -326,7 +326,7 @@
     /* === Dark mode === */
     html.dark-mode .seeker-page { background: var(--site-bg, #0f1216) !important; }
     html.dark-mode .seeker-breadcrumb { color: var(--site-muted, #b8c0cc) !important; }
-    html.dark-mode .seeker-breadcrumb a { color: #ff8a00 !important; }
+    html.dark-mode .seeker-breadcrumb a { color: #1b3a6b !important; }
 
     html.dark-mode .panel {
         background: var(--site-card-bg, #1c2128) !important;
@@ -335,18 +335,18 @@
     html.dark-mode .panel h3 { color: #fff !important; }
     html.dark-mode .panel p { color: var(--site-muted, #cbd5e1) !important; }
     html.dark-mode .skill-grid .skill {
-        background: rgba(255,138,0,.10) !important;
-        border-color: rgba(255,138,0,.25) !important;
-        color: #ff8a00 !important;
+        background: rgba(27, 58, 107,.10) !important;
+        border-color: rgba(27, 58, 107,.25) !important;
+        color: #1b3a6b !important;
     }
     html.dark-mode .info-table dt { color: var(--site-muted, #b8c0cc) !important; }
     html.dark-mode .info-table dd { color: #fff !important; }
     html.dark-mode .info-table dd a { color: #fff !important; border-bottom-color: rgba(255,255,255,.20) !important; }
-    html.dark-mode .back-row a { color: #ff8a00 !important; }
+    html.dark-mode .back-row a { color: #1b3a6b !important; }
 
     html.dark-mode .related-card:hover { background: rgba(255,255,255,.06) !important; }
     html.dark-mode .related-card .av {
-        background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
     }
     html.dark-mode .related-card .nm { color: #fff !important; }
     html.dark-mode .related-card .ct { color: var(--site-muted, #b8c0cc) !important; }
@@ -361,12 +361,12 @@
         background: rgba(255,255,255,.03) !important;
         border-color: rgba(255,255,255,.08) !important;
     }
-    html.dark-mode .sk-why-card:hover { border-color: #ff8a00 !important; }
+    html.dark-mode .sk-why-card:hover { border-color: #1b3a6b !important; }
     html.dark-mode .sk-why-card h4 { color: #fff !important; }
     html.dark-mode .sk-why-card p  { color: var(--site-muted, #b8c0cc) !important; }
     html.dark-mode .sk-why-ico {
-        background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-        box-shadow: 0 6px 14px rgba(255,138,0,.30) !important;
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
+        box-shadow: 0 6px 14px rgba(27, 58, 107,.30) !important;
     }
 </style>
 

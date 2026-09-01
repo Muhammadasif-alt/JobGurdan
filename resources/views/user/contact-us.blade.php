@@ -313,7 +313,7 @@
         opacity: .25;
         pointer-events: none;
     }
-    .contact-info-card::before { width: 220px; height: 220px; background: #ff5722; top: -60px; right: -50px; }
+    .contact-info-card::before { width: 220px; height: 220px; background: #2f7fc9; top: -60px; right: -50px; }
     .contact-info-card::after { width: 180px; height: 180px; background: #5e2bff; bottom: -50px; left: -40px; }
     .contact-info-card > * { position: relative; z-index: 2; }
     .contact-info-card .eyebrow {
@@ -561,8 +561,8 @@
     .contact-faq-head { text-align: left; position: sticky; top: 90px; }
     .contact-faq-head .eyebrow {
         display: inline-block;
-        background: rgba(255,138,0,.10);
-        color: #ff8a00;
+        background: rgba(27, 58, 107,.10);
+        color: #1b3a6b;
         font-size: 11px;
         font-weight: 800;
         letter-spacing: 1.5px;
@@ -580,19 +580,19 @@
         margin: 0 0 14px;
     }
     .contact-faq-head h2 .accent {
-        background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40);
+        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
         -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
     }
     .contact-faq-head p { color: #555; font-size: 16px; line-height: 1.65; margin: 0 0 22px; }
     .contact-faq-cta {
         display: inline-flex; align-items: center; gap: 8px;
-        background: linear-gradient(135deg, #ff8a00, #ff5722); color: #fff !important;
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9); color: #fff !important;
         padding: 12px 22px; border-radius: 10px;
         font-weight: 700; font-size: 14px; text-decoration: none;
-        box-shadow: 0 8px 20px rgba(255,138,0,.30);
+        box-shadow: 0 8px 20px rgba(27, 58, 107,.30);
         transition: all .2s ease;
     }
-    .contact-faq-cta:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(255,138,0,.40); }
+    .contact-faq-cta:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(27, 58, 107,.40); }
     .contact-faq-list { max-width: none; margin: 0; }
     .contact-faq-item {
         background: #fff;

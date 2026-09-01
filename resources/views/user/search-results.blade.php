@@ -75,7 +75,7 @@
     .search-results-form button {
         height: 48px;
         padding: 0 32px;
-        background: linear-gradient(135deg, #ff8a00, #ff5722);
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
         color: #fff;
         border: none;
         border-radius: 10px;
@@ -196,7 +196,7 @@
         align-items: center;
         gap: 8px;
     }
-    .sr-card-meta li i { color: #ff8a00; font-size: 14px; }
+    .sr-card-meta li i { color: #1b3a6b; font-size: 14px; }
     .sr-card-button {
         display: inline-flex;
         align-items: center;
@@ -212,7 +212,7 @@
         transition: background .2s ease;
         border: 1.5px solid #0a0a0a;
     }
-    .sr-card:hover .sr-card-button { background: #ff8a00; border-color: #ff8a00; }
+    .sr-card:hover .sr-card-button { background: #1b3a6b; border-color: #1b3a6b; }
 
     /* Empty state */
     .sr-empty {
@@ -263,18 +263,18 @@
         box-shadow: var(--site-shadow) !important;
     }
     html.dark-mode .sr-card:hover {
-        border-color: #ff8a00 !important;
+        border-color: #1b3a6b !important;
         box-shadow: 0 14px 32px rgba(0,0,0,.55) !important;
     }
     html.dark-mode .sr-card-logo { background: rgba(255,255,255,.06) !important; }
     html.dark-mode .sr-card-title { color: #fff !important; }
     html.dark-mode .sr-card-meta li { color: #cbd5e1 !important; }
-    html.dark-mode .sr-card-meta li i { color: #ff8a00 !important; }
+    html.dark-mode .sr-card-meta li i { color: #1b3a6b !important; }
     html.dark-mode .sr-card-badge.green  { background: rgba(16,185,129,.20) !important; color: #6ee7b7 !important; }
     html.dark-mode .sr-card-badge.yellow { background: rgba(251,191,36,.20) !important; color: #fcd34d !important; }
     html.dark-mode .sr-card-button {
-        background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-        border-color: #ff8a00 !important;
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
+        border-color: #1b3a6b !important;
     }
     html.dark-mode .sr-empty {
         background: var(--site-card-bg) !important;

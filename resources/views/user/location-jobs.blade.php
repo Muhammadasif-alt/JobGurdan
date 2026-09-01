@@ -26,7 +26,7 @@
         left: -100px; bottom: -120px;
         width: 320px; height: 320px;
         border-radius: 50%;
-        background: radial-gradient(circle, rgba(255,87,34,.07), transparent 70%);
+        background: radial-gradient(circle, rgba(47, 127, 201,.07), transparent 70%);
         pointer-events: none;
     }
     .utf-page-heading-area h1 {

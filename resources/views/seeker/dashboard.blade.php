@@ -29,7 +29,7 @@
         left: -80px; bottom: -100px;
         width: 280px; height: 280px;
         border-radius: 50%;
-        background: radial-gradient(circle, rgba(255,87,34,.08), transparent 70%);
+        background: radial-gradient(circle, rgba(47, 127, 201,.08), transparent 70%);
         pointer-events: none;
     }
     .dash-hero-row {
@@ -240,7 +240,7 @@
         left: -60px; bottom: -60px;
         width: 200px; height: 200px;
         border-radius: 50%;
-        background: radial-gradient(circle, rgba(255,87,34,.28), transparent 70%);
+        background: radial-gradient(circle, rgba(47, 127, 201,.28), transparent 70%);
         pointer-events: none;
     }
     .qa-card > * { position: relative; z-index: 1; }
@@ -361,7 +361,7 @@
                         <i class="bi bi-lightning-fill"></i>
                         @if($aiMatched === 'matched')
                             Recommended for You
-                            <span style="display:inline-flex;align-items:center;gap:4px;background:linear-gradient(135deg,#5e2bff 0%,#ff5722 100%);color:#fff;font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:999px;margin-left:8px;letter-spacing:.3px;">
+                            <span style="display:inline-flex;align-items:center;gap:4px;background:linear-gradient(135deg,#5e2bff 0%,#2f7fc9 100%);color:#fff;font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:999px;margin-left:8px;letter-spacing:.3px;">
                                 <i class="bi bi-stars"></i> AI MATCHED
                             </span>
                         @elseif($aiMatched === 'pending')
@@ -452,7 +452,7 @@
                         const heading = document.getElementById('recHeading');
                         if (heading) {
                             heading.innerHTML = '<i class="bi bi-lightning-fill"></i> Recommended for You ' +
-                                '<span style="display:inline-flex;align-items:center;gap:4px;background:linear-gradient(135deg,#5e2bff 0%,#ff5722 100%);color:#fff;font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:999px;margin-left:8px;letter-spacing:.3px;">' +
+                                '<span style="display:inline-flex;align-items:center;gap:4px;background:linear-gradient(135deg,#5e2bff 0%,#2f7fc9 100%);color:#fff;font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:999px;margin-left:8px;letter-spacing:.3px;">' +
                                 '<i class="bi bi-stars"></i> AI MATCHED</span>';
                         }
                         const grid = document.getElementById('recGrid');

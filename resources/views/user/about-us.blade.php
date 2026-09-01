@@ -506,7 +506,7 @@
     }
     .benefit-item:hover {
         transform: translateY(-3px);
-        border-color: #ff8a00;
+        border-color: #1b3a6b;
         box-shadow: 0 14px 28px rgba(15,23,42,.08);
     }
     .benefit-item .ico {
@@ -795,9 +795,9 @@
         border-bottom-color: rgba(255,255,255,.08) !important;
     }
     html.dark-mode .about-hero-tag {
-        background: rgba(255,138,0,.12) !important;
-        color: #ff8a00 !important;
-        border-color: rgba(255,138,0,.30) !important;
+        background: rgba(27, 58, 107,.12) !important;
+        color: #1b3a6b !important;
+        border-color: rgba(27, 58, 107,.30) !important;
     }
     html.dark-mode .about-hero h1 { color: #fff !important; }
     html.dark-mode .about-hero-float {
@@ -815,10 +815,10 @@
         border-color: rgba(255,255,255,.10) !important;
     }
     html.dark-mode .about-stat-card:hover {
-        border-color: #ff8a00 !important;
+        border-color: #1b3a6b !important;
         background: var(--site-card-bg, #1c2128) !important;
     }
-    html.dark-mode .about-stat-card .stat-num { color: #ff8a00 !important; }
+    html.dark-mode .about-stat-card .stat-num { color: #1b3a6b !important; }
     html.dark-mode .about-stat-card .stat-label { color: var(--site-muted, #b8c0cc) !important; }
 
     /* Sections */
@@ -829,12 +829,12 @@
         border-bottom-color: rgba(255,255,255,.06) !important;
     }
     html.dark-mode .about-section-head .tag {
-        background: rgba(255,138,0,.12) !important;
-        color: #ff8a00 !important;
-        border-color: rgba(255,138,0,.30) !important;
+        background: rgba(27, 58, 107,.12) !important;
+        color: #1b3a6b !important;
+        border-color: rgba(27, 58, 107,.30) !important;
     }
     html.dark-mode .about-section.gray .about-section-head .tag {
-        background: rgba(255,138,0,.12) !important;
+        background: rgba(27, 58, 107,.12) !important;
     }
     html.dark-mode .about-section-head p { color: var(--site-muted, #b8c0cc) !important; }
 
@@ -843,16 +843,16 @@
         background: var(--site-card-bg, #1c2128) !important;
         border-color: rgba(255,255,255,.10) !important;
     }
-    html.dark-mode .how-card:hover { border-color: #ff8a00 !important; }
+    html.dark-mode .how-card:hover { border-color: #1b3a6b !important; }
     html.dark-mode .how-card h3 { color: #fff !important; }
     html.dark-mode .how-card p { color: var(--site-muted, #b8c0cc) !important; }
     html.dark-mode .how-card .step-num {
-        background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
         color: #fff !important;
     }
     html.dark-mode .how-card .icon-wrap {
-        background: rgba(255,138,0,.12) !important;
-        color: #ff8a00 !important;
+        background: rgba(27, 58, 107,.12) !important;
+        color: #1b3a6b !important;
     }
 
     /* "Built for job seekers who care about quality" — benefit items */
@@ -860,13 +860,13 @@
         background: var(--site-card-bg, #1c2128) !important;
         border-color: rgba(255,255,255,.10) !important;
     }
-    html.dark-mode .benefit-item:hover { border-color: #ff8a00 !important; }
+    html.dark-mode .benefit-item:hover { border-color: #1b3a6b !important; }
     html.dark-mode .benefit-item h4 { color: #fff !important; }
     html.dark-mode .benefit-item p { color: var(--site-muted, #b8c0cc) !important; }
     html.dark-mode .benefit-item .icon-wrap,
     html.dark-mode .benefit-item .b-icon {
-        background: rgba(255,138,0,.12) !important;
-        color: #ff8a00 !important;
+        background: rgba(27, 58, 107,.12) !important;
+        color: #1b3a6b !important;
     }
 
     /* Testimonials */
@@ -874,7 +874,7 @@
         background: var(--site-card-bg, #1c2128) !important;
         border-color: rgba(255,255,255,.10) !important;
     }
-    html.dark-mode .testimonial-card:hover { border-color: #ff8a00 !important; }
+    html.dark-mode .testimonial-card:hover { border-color: #1b3a6b !important; }
     html.dark-mode .testimonial-card p,
     html.dark-mode .testimonial-card .testimonial-text { color: var(--site-muted, #d0d6df) !important; }
     html.dark-mode .testimonial-stars { color: #ffb800 !important; }
@@ -891,13 +891,13 @@
         background: var(--site-card-bg, #1c2128) !important;
         border-color: rgba(255,255,255,.10) !important;
     }
-    html.dark-mode .mvv-card:hover { border-color: #ff8a00 !important; }
+    html.dark-mode .mvv-card:hover { border-color: #1b3a6b !important; }
     html.dark-mode .mvv-card h3 { color: #fff !important; }
     html.dark-mode .mvv-card p { color: var(--site-muted, #b8c0cc) !important; }
     html.dark-mode .mvv-card .icon-wrap,
     html.dark-mode .mvv-card .mvv-ico {
-        background: rgba(255,138,0,.12) !important;
-        color: #ff8a00 !important;
+        background: rgba(27, 58, 107,.12) !important;
+        color: #1b3a6b !important;
     }
 
     /* Industry pills/cards */
@@ -906,7 +906,7 @@
         border-color: rgba(255,255,255,.10) !important;
     }
     html.dark-mode .industry-card:hover {
-        border-color: #ff8a00 !important;
+        border-color: #1b3a6b !important;
         background: var(--site-card-bg, #1c2128) !important;
     }
     html.dark-mode .industry-card .name { color: #fff !important; }
@@ -914,8 +914,8 @@
     html.dark-mode .industry-card .meta { color: var(--site-muted, #b8c0cc) !important; }
     html.dark-mode .industry-card .ind-ico,
     html.dark-mode .industry-card .icon-wrap {
-        background: rgba(255,138,0,.12) !important;
-        color: #ff8a00 !important;
+        background: rgba(27, 58, 107,.12) !important;
+        color: #1b3a6b !important;
     }
 
     /* "Trusted name" trust cards */
@@ -925,7 +925,7 @@
         border-color: rgba(255,255,255,.10) !important;
     }
     html.dark-mode .trust-card:hover,
-    html.dark-mode .about-trust-card:hover { border-color: #ff8a00 !important; }
+    html.dark-mode .about-trust-card:hover { border-color: #1b3a6b !important; }
     html.dark-mode .trust-card h4,
     html.dark-mode .trust-card h3,
     html.dark-mode .about-trust-card h4,
@@ -934,8 +934,8 @@
     html.dark-mode .about-trust-card p { color: var(--site-muted, #b8c0cc) !important; }
     html.dark-mode .trust-card .icon-wrap,
     html.dark-mode .about-trust-card .icon-wrap {
-        background: rgba(255,138,0,.12) !important;
-        color: #ff8a00 !important;
+        background: rgba(27, 58, 107,.12) !important;
+        color: #1b3a6b !important;
     }
 
     /* FAQ */
@@ -943,7 +943,7 @@
         background: var(--site-card-bg, #1c2128) !important;
         border-color: rgba(255,255,255,.10) !important;
     }
-    html.dark-mode .about-faq-item:hover { border-color: #ff8a00 !important; }
+    html.dark-mode .about-faq-item:hover { border-color: #1b3a6b !important; }
     html.dark-mode .about-faq-item summary,
     html.dark-mode .about-faq-item .faq-q { color: #fff !important; }
     html.dark-mode .about-faq-item p,
@@ -959,7 +959,7 @@
     html.dark-mode .benefits-head h2 span,
     html.dark-mode .story-content h2 span,
     html.dark-mode .about-hero h1 span {
-        background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40) !important;
+        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40) !important;
         -webkit-background-clip: text !important;
         background-clip: text !important;
         -webkit-text-fill-color: transparent !important;
@@ -968,19 +968,19 @@
 
     /* ===== Dark mode: "Find Your Next Role" hero button → orange ===== */
     html.dark-mode .about-hero-cta a {
-        background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-        border-color: #ff8a00 !important;
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
+        border-color: #1b3a6b !important;
         color: #fff !important;
-        box-shadow: 0 8px 18px rgba(255,138,0,.30) !important;
+        box-shadow: 0 8px 18px rgba(27, 58, 107,.30) !important;
     }
     html.dark-mode .about-hero-cta a:hover {
-        background: linear-gradient(135deg, #ff7a00, #ff4722) !important;
-        box-shadow: 0 14px 28px rgba(255,138,0,.45) !important;
+        background: linear-gradient(135deg, #16305a, #ff4722) !important;
+        box-shadow: 0 14px 28px rgba(27, 58, 107,.45) !important;
     }
 
     /* ===== Dark mode: FAQ +/− icons (were black-on-black → invisible) ===== */
-    html.dark-mode .about-faq-item summary::after { color: #ff8a00 !important; }
-    html.dark-mode .about-faq-item[open] summary::after { color: #ff8a00 !important; }
+    html.dark-mode .about-faq-item summary::after { color: #1b3a6b !important; }
+    html.dark-mode .about-faq-item[open] summary::after { color: #1b3a6b !important; }
 </style>
 
 <div class="about-page">
@@ -1543,17 +1543,17 @@
             background: var(--site-card-bg, #1c2128) !important;
             border-color: rgba(255,255,255,.10) !important;
         }
-        html.dark-mode .press-card:hover { border-color: #ff8a00 !important; }
-        html.dark-mode .press-card::before { background: linear-gradient(90deg, #ff8a00, #ff5722) !important; }
+        html.dark-mode .press-card:hover { border-color: #1b3a6b !important; }
+        html.dark-mode .press-card::before { background: linear-gradient(90deg, #1b3a6b, #2f7fc9) !important; }
         html.dark-mode .press-card h3 { color: #fff !important; }
         html.dark-mode .press-card p { color: var(--site-muted, #b8c0cc) !important; }
         html.dark-mode .press-card .press-ico {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
             color: #fff !important;
         }
         html.dark-mode .press-card .press-badge {
-            background: rgba(255,138,0,.14) !important;
-            color: #ff8a00 !important;
+            background: rgba(27, 58, 107,.14) !important;
+            color: #1b3a6b !important;
         }
 
         html.dark-mode .press-strip {
@@ -1561,17 +1561,17 @@
             border-color: rgba(255,255,255,.10) !important;
         }
         html.dark-mode .press-strip-item i {
-            background: rgba(255,138,0,.14) !important;
-            color: #ff8a00 !important;
+            background: rgba(27, 58, 107,.14) !important;
+            color: #1b3a6b !important;
         }
         html.dark-mode .press-strip-item strong { color: #fff !important; }
         html.dark-mode .press-strip-item span { color: var(--site-muted, #b8c0cc) !important; }
 
         html.dark-mode .press-btn {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            box-shadow: 0 8px 18px rgba(255,138,0,.30) !important;
+            background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
+            box-shadow: 0 8px 18px rgba(27, 58, 107,.30) !important;
         }
-        html.dark-mode .press-btn:hover { background: linear-gradient(135deg, #ff7a00, #ff4722) !important; }
+        html.dark-mode .press-btn:hover { background: linear-gradient(135deg, #16305a, #ff4722) !important; }
         html.dark-mode .press-cta-note { color: var(--site-muted, #b8c0cc) !important; }
 
         html.dark-mode .states-chips a {
@@ -1580,9 +1580,9 @@
             color: var(--site-muted, #d0d6df) !important;
         }
         html.dark-mode .states-chips a:hover {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
             color: #fff !important;
-            border-color: #ff8a00 !important;
+            border-color: #1b3a6b !important;
         }
 
         /* Hiring across 50 states heading (inline style override) */
@@ -1601,7 +1601,7 @@
         html.dark-mode .about-page .about-hero h1 span,
         html.dark-mode .about-page h1 .accent,
         html.dark-mode .about-page h2 .accent {
-            background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40) !important;
+            background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40) !important;
             -webkit-background-clip: text !important;
             background-clip: text !important;
             -webkit-text-fill-color: transparent !important;
@@ -1610,20 +1610,20 @@
 
         /* "Find Your Next Role" hero CTA → orange gradient */
         html.dark-mode .about-page .about-hero-cta a {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
+            border-color: #1b3a6b !important;
             color: #fff !important;
-            box-shadow: 0 8px 18px rgba(255,138,0,.30) !important;
+            box-shadow: 0 8px 18px rgba(27, 58, 107,.30) !important;
         }
         html.dark-mode .about-page .about-hero-cta a:hover {
-            background: linear-gradient(135deg, #ff7a00, #ff4722) !important;
-            box-shadow: 0 14px 28px rgba(255,138,0,.45) !important;
+            background: linear-gradient(135deg, #16305a, #ff4722) !important;
+            box-shadow: 0 14px 28px rgba(27, 58, 107,.45) !important;
         }
 
         /* FAQ +/− toggles → orange (were #0a0a0a black) */
         html.dark-mode .about-page .about-faq-item summary::after,
         html.dark-mode .about-page .about-faq-item[open] summary::after {
-            color: #ff8a00 !important;
+            color: #1b3a6b !important;
         }
         html.dark-mode .about-page .about-faq-item summary { color: #fff !important; }
 
@@ -1631,9 +1631,9 @@
         html.dark-mode .about-page .benefits-head h2,
         html.dark-mode .about-page .story-content h2 { color: #fff !important; }
         html.dark-mode .about-page .benefits-head .tag {
-            background: rgba(255,138,0,.12) !important;
-            border-color: rgba(255,138,0,.30) !important;
-            color: #ff8a00 !important;
+            background: rgba(27, 58, 107,.12) !important;
+            border-color: rgba(27, 58, 107,.30) !important;
+            color: #1b3a6b !important;
         }
 
         /* Story paragraphs */
@@ -1646,33 +1646,33 @@
 
         /* Industry card icons (.ico) → orange gradient (matches site theme) */
         html.dark-mode .about-page .industry-card .ico {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
             color: #fff !important;
-            box-shadow: 0 4px 10px rgba(255,138,0,.30) !important;
+            box-shadow: 0 4px 10px rgba(27, 58, 107,.30) !important;
         }
         html.dark-mode .about-page .industry-card:hover .ico {
-            background: linear-gradient(135deg, #ff7a00, #ff4722) !important;
+            background: linear-gradient(135deg, #16305a, #ff4722) !important;
         }
 
         /* "Three simple steps" how-card icons (.ico) → orange gradient */
         html.dark-mode .about-page .how-card .ico {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
             color: #fff !important;
-            box-shadow: 0 6px 14px rgba(255,138,0,.30) !important;
+            box-shadow: 0 6px 14px rgba(27, 58, 107,.30) !important;
         }
 
         /* Mission / Vision / Values icons (.ico) → orange gradient */
         html.dark-mode .about-page .mvv-card .ico {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
             color: #fff !important;
-            box-shadow: 0 6px 14px rgba(255,138,0,.30) !important;
+            box-shadow: 0 6px 14px rgba(27, 58, 107,.30) !important;
         }
 
         /* Benefit list ("Built for job seekers...") icons → orange gradient */
         html.dark-mode .about-page .benefit-item .ico {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
             color: #fff !important;
-            box-shadow: 0 4px 10px rgba(255,138,0,.30) !important;
+            box-shadow: 0 4px 10px rgba(27, 58, 107,.30) !important;
         }
     </style>
 

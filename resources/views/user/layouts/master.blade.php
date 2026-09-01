@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Jobs in USA">
-    <meta name="theme-color" content="#ff8a00">
+    <meta name="theme-color" content="#1b3a6b">
     <meta name="google-site-verification" content="OXrNNeaVvS-g-hiCo0sSs2paH_CgPJ_8DB04L46sKWk" />
     @php
         $metaDescription =
@@ -204,7 +204,7 @@
         body .js-hero h1 .accent,
         body .seeker-hero h1 .accent,
         body .utf-page-heading-area h1 .accent {
-            background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40) !important;
+            background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40) !important;
             -webkit-background-clip: text !important;
             background-clip: text !important;
             -webkit-text-fill-color: transparent !important;
@@ -239,23 +239,23 @@
         /* Accent gradient text — re-tune to brand orange (against light bg) */
         body .js-hero h1 .accent,
         body .seeker-hero h1 .accent {
-            background: linear-gradient(90deg, #ff5722, #ff8a00 60%, #ffab40) !important;
+            background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40) !important;
             -webkit-background-clip: text !important;
             background-clip: text !important;
             -webkit-text-fill-color: transparent !important;
             color: transparent !important;
         }
-        /* Global brand override — back-to-top, pagination active, default theme orange */
+        /* Global brand override — back-to-top, pagination active */
         #backtotop a {
-            background-color: #0a0a0a !important;
+            background-color: #1b3a6b !important;
             color: #fff !important;
-            border-color: #0a0a0a !important;
+            border-color: #1b3a6b !important;
         }
-        #backtotop a:hover { background-color: #1a1a1a !important; }
+        #backtotop a:hover { background-color: #16305a !important; }
         .pagination ul li a.current-page {
-            background-color: #0a0a0a !important;
+            background-color: #1b3a6b !important;
             color: #fff !important;
-            border-color: #0a0a0a !important;
+            border-color: #1b3a6b !important;
         }
         /* Hide preloader fast — fallback if JS hides it later */
         .preloader { transition: opacity .25s ease; }
@@ -448,18 +448,18 @@
                         </span>
                     </div>
                     <style>
-                        /* === Register CV button (guest navbar — dark in light mode, gold in dark mode) === */
+                        /* === Register CV button (guest navbar — brand navy in light mode, gold in dark mode) === */
                         .utf-header-widget-item .register-cv-btn {
                             display: inline-flex; align-items: center; gap: 8px;
                             height: 44px; padding: 0 18px;
-                            background: linear-gradient(135deg, #0a0a0a, #1f1f1f);
+                            background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
                             color: #fff !important;
-                            border: 1.5px solid #0a0a0a;
+                            border: 1.5px solid #1b3a6b;
                             border-radius: 10px;
                             font: 700 14px/1 'Nunito', system-ui, sans-serif;
                             text-decoration: none;
                             transition: filter .15s ease, transform .12s ease, box-shadow .15s ease;
-                            box-shadow: 0 4px 12px rgba(10,10,10,.25);
+                            box-shadow: 0 4px 12px rgba(27,58,107,.25);
                         }
                         /* Match the Sign In button shape (theme toggle is now a sliding pill) */
                         #header .utf-right-side .log-in-button { border-radius: 10px !important; }
@@ -471,15 +471,15 @@
                         .utf-header-widget-item .register-cv-btn i,
                         .utf-header-widget-item .register-cv-btn span { color: #fff !important; }
                         html.dark-mode .utf-header-widget-item .register-cv-btn {
-                            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-                            border-color: #ff8a00 !important;
+                            background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
+                            border-color: #1b3a6b !important;
                             color: #fff !important;
-                            box-shadow: 0 4px 12px rgba(255,138,0,.45) !important;
+                            box-shadow: 0 4px 12px rgba(27, 58, 107,.45) !important;
                         }
                         html.dark-mode .utf-header-widget-item .register-cv-btn i,
                         html.dark-mode .utf-header-widget-item .register-cv-btn span { color: #fff !important; }
                         html.dark-mode .utf-header-widget-item .register-cv-btn:hover {
-                            box-shadow: 0 8px 18px rgba(255,138,0,.55) !important;
+                            box-shadow: 0 8px 18px rgba(27, 58, 107,.55) !important;
                         }
                         @media (max-width: 991px) {
                             .utf-header-widget-item .register-cv-btn { display: none; }
@@ -1049,19 +1049,19 @@
                         .mm-menu .mm-listitem__text:hover,
                         .mm-menu .mm-listitem__text:active {
                             background: rgba(255,255,255,.06) !important;
-                            color: #ff8a00 !important;
+                            color: #1b3a6b !important;
                         }
                         .mm-menu .mm-listitem > a:hover::after,
                         .mm-menu .mm-listitem > a:active::after,
                         .mm-menu .mm-listitem__text:hover::after,
                         .mm-menu .mm-listitem__text:active::after {
-                            border-color: #ff8a00;
+                            border-color: #1b3a6b;
                             right: 18px;
                         }
                         /* Sign Up — accent pill style to stand out */
                         .mm-menu .mm-listitem.mobile-only-auth:last-child > a,
                         .mm-menu .mm-listitem.mobile-only-auth:last-child .mm-listitem__text {
-                            background: #ff8a00 !important;
+                            background: #1b3a6b !important;
                             color: #fff !important;
                             margin: 14px 18px 0 !important;
                             padding: 14px 22px !important;
@@ -1184,7 +1184,7 @@
             }
             .modern-cta-card::before {
                 width: 360px; height: 360px;
-                background: #ff5722;
+                background: #2f7fc9;
                 top: -120px; right: -100px;
             }
             .modern-cta-card::after {
@@ -1484,25 +1484,25 @@
                 border-top: 1px solid var(--site-card-bd);
             }
             html.dark-mode #footer::before {
-                background: radial-gradient(ellipse at top left, rgba(255,138,0,.14) 0%, rgba(255,138,0,.05) 30%, transparent 65%) !important;
+                background: radial-gradient(ellipse at top left, rgba(27, 58, 107,.14) 0%, rgba(27, 58, 107,.05) 30%, transparent 65%) !important;
             }
-            html.dark-mode #footer .utf-footer-item-links h3 { color: #ff8a00 !important; }
+            html.dark-mode #footer .utf-footer-item-links h3 { color: #1b3a6b !important; }
             html.dark-mode #footer .utf-footer-item-links p { color: #cbd5e1 !important; }
             html.dark-mode #footer .utf-footer-item-links p a { color: #e5e7eb !important; }
-            html.dark-mode #footer .utf-footer-item-links p a:hover { color: #ff8a00 !important; }
+            html.dark-mode #footer .utf-footer-item-links p a:hover { color: #1b3a6b !important; }
             html.dark-mode #footer .utf-footer-item-links ul li a { color: #cbd5e1 !important; }
-            html.dark-mode #footer .utf-footer-item-links ul li a:hover { color: #ff8a00 !important; }
+            html.dark-mode #footer .utf-footer-item-links ul li a:hover { color: #1b3a6b !important; }
             html.dark-mode #footer .utf-footer-item-links ul li a i { color: var(--site-muted) !important; }
-            html.dark-mode #footer .utf-footer-item-links ul li a:hover i { color: #ff8a00 !important; }
+            html.dark-mode #footer .utf-footer-item-links ul li a:hover i { color: #1b3a6b !important; }
             html.dark-mode #footer .footer-hub-link {
-                background: rgba(255,138,0,.10) !important;
-                border-color: rgba(255,138,0,.30) !important;
-                color: #ff8a00 !important;
+                background: rgba(27, 58, 107,.10) !important;
+                border-color: rgba(27, 58, 107,.30) !important;
+                color: #1b3a6b !important;
             }
             html.dark-mode #footer .footer-hub-link:hover {
-                background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+                background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
                 color: #fff !important;
-                border-color: #ff8a00 !important;
+                border-color: #1b3a6b !important;
             }
             html.dark-mode #footer .footer-hub-link strong,
             html.dark-mode #footer .footer-hub-link span,
@@ -1946,9 +1946,9 @@
                     width: 64px; height: 64px;
                     margin: 0 auto 16px;
                     border-radius: 50%;
-                    background: linear-gradient(135deg, #ff8a00, #ff5722);
+                    background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
                     display: inline-flex; align-items: center; justify-content: center;
-                    box-shadow: 0 8px 18px rgba(255, 138, 0, .35);
+                    box-shadow: 0 8px 18px rgba(27, 58, 107, .35);
                 }
                 .lp-icon i { color: #fff; font-size: 26px; }
                 .lp-modal h2 {
@@ -1965,7 +1965,7 @@
                 }
                 .lp-cta {
                     display: block;
-                    background: linear-gradient(135deg, #ff8a00, #ff5722);
+                    background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
                     color: #fff !important;
                     padding: 14px 18px;
                     border-radius: 10px;
@@ -1973,7 +1973,7 @@
                     text-decoration: none !important;
                     letter-spacing: .2px;
                     transition: filter .15s ease, transform .12s ease;
-                    box-shadow: 0 6px 16px rgba(255, 138, 0, .35);
+                    box-shadow: 0 6px 16px rgba(27, 58, 107, .35);
                 }
                 .lp-cta:hover { filter: brightness(1.05); transform: translateY(-1px); }
                 .lp-secondary {
@@ -1983,7 +1983,7 @@
                     text-decoration: none !important;
                     margin-top: 14px;
                 }
-                .lp-secondary:hover { color: #ff8a00 !important; }
+                .lp-secondary:hover { color: #1b3a6b !important; }
                 .lp-dismiss {
                     display: block;
                     width: 100%;

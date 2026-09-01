@@ -252,7 +252,7 @@
                             <label for="description" style="display:flex; align-items:baseline;">
                                 Description
                                 <button type="button" class="ai-btn"
-                                        style="margin-left:auto;display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#5e2bff 0%,#ff5722 100%);color:#fff;border:none;border-radius:999px;padding:6px 14px;font-size:12px;font-weight:700;box-shadow:0 4px 10px rgba(94,43,255,.25);cursor:pointer;"
+                                        style="margin-left:auto;display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#5e2bff 0%,#2f7fc9 100%);color:#fff;border:none;border-radius:999px;padding:6px 14px;font-size:12px;font-weight:700;box-shadow:0 4px 10px rgba(94,43,255,.25);cursor:pointer;"
                                         data-ai-action="job-description"
                                         data-ai-target="#description"
                                         data-ai-source-title="#position"
