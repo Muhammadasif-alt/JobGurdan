@@ -1,0 +1,1818 @@
+        /* Reduce motion preference — accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            [data-aos] { transition-duration: 0.01ms !important; transform: none !important; opacity: 1 !important; }
+        }
+        /* Subtle custom AOS variants */
+        [data-aos="fade-up-soft"] { opacity: 0; transform: translateY(20px); transition: opacity 0.7s ease, transform 0.7s ease; }
+        [data-aos="fade-up-soft"].aos-animate { opacity: 1; transform: translateY(0); }
+
+        /* ==========================================================
+           DARK MODE
+           Toggled by adding `dark-mode` to <html>. Values are pulled
+           via CSS variables so we don't have to touch every component.
+           ========================================================== */
+        :root {
+            --site-bg:        #ffffff;
+            --site-text:      #0a0a0a;
+            --site-muted:     #6b7280;
+            --site-card-bg:   #ffffff;
+            --site-card-bd:   #ececec;
+            --site-input-bg:  #ffffff;
+            --site-input-bd:  #e5e7eb;
+            --site-header-bg: #ffffff;
+            --site-footer-bg: #0a0a0a;
+            --site-shadow:    0 16px 32px rgba(15,23,42,.06);
+        }
+        html.dark-mode {
+            --site-bg:        #0f1115;
+            --site-text:      #e5e7eb;
+            --site-muted:     #9ca3af;
+            --site-card-bg:   #181b22;
+            --site-card-bd:   #2a2f3a;
+            --site-input-bg:  #21262e;
+            --site-input-bd:  #3a414f;
+            --site-header-bg: #0f1115;
+            --site-footer-bg: #0a0a0a;
+            --site-shadow:    0 16px 32px rgba(0,0,0,.55);
+        }
+        html.dark-mode body { background: var(--site-bg) !important; color: var(--site-text); }
+        html.dark-mode #utf-header-container-block,
+        html.dark-mode #header,
+        html.dark-mode .header-container,
+        html.dark-mode #header-container,
+        html.dark-mode header,
+        html.dark-mode .header,
+        html.dark-mode .utf-navigation-menu,
+        html.dark-mode .header-2 {
+            background: var(--site-header-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            box-shadow: 0 1px 2px rgba(0,0,0,.4) !important;
+        }
+        /* Nav links + logo wordmark in dark mode — highest specificity beats #1a1a1a !important */
+        html.dark-mode #header #navigation > ul > li > a,
+        html.dark-mode #header a, html.dark-mode #header nav a,
+        html.dark-mode #navigation a, html.dark-mode .utf-navigation-menu a {
+            color: #e5e7eb !important;
+        }
+        html.dark-mode #header #navigation > ul > li > a:hover {
+            background: rgba(255,255,255,.08) !important;
+            color: #ff8a00 !important;
+        }
+        html.dark-mode #header #navigation > ul > li > a.current {
+            background: rgba(255,255,255,.1) !important;
+            color: #fff !important;
+            box-shadow: 0 1px 0 rgba(255,255,255,.15) inset !important;
+        }
+        html.dark-mode #header #logo a, html.dark-mode #header #logo span { color: var(--site-text) !important; }
+        /* Dark mode: all navbar CTA buttons unified to brand orange */
+        html.dark-mode .utf-button-header-bg {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+            border-color: #ff8a00 !important;
+            box-shadow: 0 4px 12px rgba(255,138,0,.35) !important;
+        }
+        html.dark-mode .utf-button-header-bg:hover { filter: brightness(1.05); }
+        html.dark-mode #header .utf-right-side .log-in-button,
+        html.dark-mode #header .utf-right-side button.log-in-button {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+            border-color: #ff8a00 !important;
+            box-shadow: 0 4px 12px rgba(255,138,0,.35) !important;
+        }
+        html.dark-mode #header .utf-right-side .log-in-button:hover,
+        html.dark-mode #header .utf-right-side button.log-in-button:hover {
+            filter: brightness(1.05);
+            transform: translateY(-1px);
+            box-shadow: 0 8px 18px rgba(255,138,0,.45) !important;
+        }
+        html.dark-mode #header .utf-right-side .log-in-button i,
+        html.dark-mode #header .utf-right-side .log-in-button span,
+        html.dark-mode #header .utf-right-side .log-in-button:hover i,
+        html.dark-mode #header .utf-right-side .log-in-button:hover span { color: #fff !important; }
+        /* Hamburger / mobile menu button visible in dark mode */
+        html.dark-mode #header .mmenu-trigger,
+        html.dark-mode #header .hamburger { color: #fff !important; }
+        html.dark-mode #header .hamburger-inner,
+        html.dark-mode #header .hamburger-inner::before,
+        html.dark-mode #header .hamburger-inner::after { background: #fff !important; }
+        /* === Hero (homepage) — beat the page-level !important === */
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-banner-headline-text-part h1,
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-banner-headline-text-part p,
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-banner-headline-text-part > span {
+            color: #fff !important;
+        }
+        html.dark-mode .hero-eyebrow {
+            background: rgba(255,255,255,.08) !important;
+            border-color: rgba(255,255,255,.15) !important;
+            color: #fff !important;
+        }
+        html.dark-mode .hero-stats .stat strong { color: #fff !important; }
+        html.dark-mode .hero-stats .stat span { color: rgba(255,255,255,.7) !important; }
+        html.dark-mode .trending-chip { background: rgba(255,255,255,.08) !important; color: #fff !important; border-color: rgba(255,255,255,.15) !important; }
+        /* Pill-shaped stats container in /jobs hero (jobs-hero variant has its own white bg) */
+        html.dark-mode .jobs-hero .hero-stats,
+        html.dark-mode .cat-hero .hero-stats,
+        html.dark-mode .loc-hero .hero-stats,
+        html.dark-mode .companies-hero .hero-stats,
+        html.dark-mode .blog-hero .hero-stats,
+        html.dark-mode .about-hero .hero-stats,
+        html.dark-mode .contact-hero .hero-stats {
+            background: rgba(255,255,255,.06) !important;
+            border-color: rgba(255,255,255,.15) !important;
+            box-shadow: 0 6px 18px rgba(0,0,0,.35) !important;
+        }
+
+        /* === Homepage long-form sections (How It Works, Why Us, Comparison, etc.) === */
+        html.dark-mode .process-section-v2,
+        html.dark-mode .why-section,
+        html.dark-mode .compare-section,
+        html.dark-mode .stats-section,
+        html.dark-mode .testimonials-section,
+        html.dark-mode .partners-section,
+        html.dark-mode .faq-section,
+        html.dark-mode .cta-section,
+        html.dark-mode .home-seo-section,
+        html.dark-mode .home-blog-section,
+        html.dark-mode .home-categories-section,
+        html.dark-mode .home-locations-section,
+        html.dark-mode .home-companies-section { background: var(--site-bg) !important; color: var(--site-text) !important; }
+        /* SEO intro section (Why Jobs in USA) — text was dark gray on dark bg */
+        html.dark-mode .home-seo-section h2,
+        html.dark-mode .home-seo-section h3 { color: #fff !important; }
+        html.dark-mode .home-seo-section .subhead,
+        html.dark-mode .home-seo-section .home-seo-prose p,
+        html.dark-mode .home-seo-section p { color: #cbd5e1 !important; }
+        html.dark-mode .home-seo-section .home-seo-prose strong { color: #fff !important; }
+        html.dark-mode .home-seo-section .home-seo-prose a,
+        html.dark-mode .home-seo-section a { color: #ff8a00 !important; border-bottom-color: #ff8a00 !important; }
+        html.dark-mode .home-seo-section a:hover { color: #ffab40 !important; }
+        html.dark-mode .home-seo-section .eyebrow {
+            background: rgba(255,255,255,.08) !important;
+            color: #e5e7eb !important;
+            border-color: rgba(255,255,255,.15) !important;
+        }
+        html.dark-mode .home-seo-section .seo-float-badge {
+            background: var(--site-card-bg) !important;
+            color: var(--site-text) !important;
+            border: 1px solid var(--site-card-bd);
+            box-shadow: var(--site-shadow);
+        }
+        html.dark-mode .home-seo-section .seo-float-badge .text strong { color: #fff !important; }
+        html.dark-mode .home-seo-section .seo-float-badge .text span { color: var(--site-muted) !important; }
+        /* SEO-links pill chips (Healthcare Jobs, IT Jobs, Jobs in Texas, etc.) */
+        html.dark-mode .home-seo-section .seo-links a {
+            background: rgba(255,255,255,.06) !important;
+            border-color: rgba(255,255,255,.12) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .home-seo-section .seo-links a:hover {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+        }
+
+        /* === FAQ section (Got questions? We've got answers.) === */
+        html.dark-mode .home-faq-section { background: var(--site-bg) !important; color: var(--site-text) !important; }
+        html.dark-mode .home-faq-section h2,
+        html.dark-mode .home-faq-section h3 { color: #fff !important; }
+        html.dark-mode .home-faq-section p,
+        html.dark-mode .home-faq-section .home-faq-q,
+        html.dark-mode .home-faq-section .home-faq-a { color: #cbd5e1 !important; }
+        html.dark-mode .home-faq-section details,
+        html.dark-mode .home-faq-section .home-faq-item {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .home-faq-section summary { color: #fff !important; }
+        html.dark-mode .home-faq-section .eyebrow,
+        html.dark-mode .home-faq-section .home-faq-pill {
+            background: rgba(255,255,255,.08) !important;
+            color: #e5e7eb !important;
+            border-color: rgba(255,255,255,.15) !important;
+        }
+        html.dark-mode .home-faq-section a, html.dark-mode .home-faq-section .home-faq-cta a { color: #fff !important; }
+
+        /* === Salary / Top Searched Jobs cards === */
+        html.dark-mode .salary-section,
+        html.dark-mode .salary-cards,
+        html.dark-mode .home-salary-section { background: var(--site-bg) !important; color: var(--site-text) !important; }
+        html.dark-mode .salary-card,
+        html.dark-mode .home-salary-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+            box-shadow: var(--site-shadow);
+        }
+        html.dark-mode .salary-card:hover { border-color: #ff8a00 !important; box-shadow: 0 18px 36px rgba(0,0,0,.55) !important; }
+        html.dark-mode .salary-card h3,
+        html.dark-mode .home-salary-card h3 { color: #fff !important; }
+        /* The salary range text uses a black→gray gradient clipped to text — invisible on dark bg.
+           Override with solid white + remove gradient clipping in dark mode. */
+        html.dark-mode .salary-card .salary-range .range {
+            background: none !important;
+            -webkit-background-clip: initial !important;
+            background-clip: initial !important;
+            -webkit-text-fill-color: #fff !important;
+            color: #fff !important;
+        }
+        html.dark-mode .salary-card .salary-range .range-lbl { color: var(--site-muted) !important; }
+        html.dark-mode .salary-card .salary-cat { color: #9ca3af !important; }
+        html.dark-mode .salary-card .salary-trend.up { background: rgba(16,185,129,.18) !important; color: #6ee7b7 !important; }
+        html.dark-mode .salary-card .salary-trend.flat { background: rgba(255,255,255,.08) !important; color: #cbd5e1 !important; }
+        html.dark-mode .salary-card .salary-foot { border-top-color: var(--site-card-bd) !important; color: var(--site-text) !important; }
+        /* Trending searches strip (under the salary cards) */
+        html.dark-mode .search-strip {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .search-strip .strip-lbl { color: #ff8a00 !important; }
+        html.dark-mode .search-strip a {
+            background: rgba(255,255,255,.06) !important;
+            border: 1px solid rgba(255,255,255,.12) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .search-strip a:hover {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+        }
+
+        /* Demand pills inside salary cards — keep semantic colors but brighter on dark bg */
+        html.dark-mode .salary-card .demand-critical { color: #fca5a5 !important; }
+        html.dark-mode .salary-card .demand-high     { color: #fdba74 !important; }
+        html.dark-mode .salary-card .demand-strong   { color: #fff !important; }
+        html.dark-mode .salary-card .see-jobs { color: #fff !important; }
+        html.dark-mode .salary-card .see-jobs i { color: #ff8a00 !important; }
+        html.dark-mode .salary-card p,
+        html.dark-mode .salary-card .salary-meta { color: #cbd5e1 !important; }
+
+        /* === Compare table (Indeed / LinkedIn / ZipRecruiter) === */
+        html.dark-mode .compare-section .compare-table,
+        html.dark-mode .compare-table {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .compare-table th,
+        html.dark-mode .compare-table td { border-color: var(--site-card-bd) !important; color: var(--site-text) !important; }
+        html.dark-mode .compare-table thead th { background: rgba(255,255,255,.05) !important; color: #fff !important; }
+
+        /* === Blog cards on home (Career Advice section) === */
+        html.dark-mode .home-blog-card,
+        html.dark-mode .home-blog-section .blog-card,
+        html.dark-mode .home-blog-section article {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .home-blog-section h3,
+        html.dark-mode .home-blog-section article h3,
+        html.dark-mode .home-blog-section .blog-card h3 { color: #fff !important; }
+        html.dark-mode .home-blog-section .meta,
+        html.dark-mode .home-blog-section time,
+        html.dark-mode .home-blog-section .author { color: var(--site-muted) !important; }
+
+        /* === Blog listing page (/blog) — card grid + sidebar === */
+        html.dark-mode .blog-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .blog-card:hover {
+            border-color: #ff8a00 !important;
+            box-shadow: 0 18px 36px rgba(0,0,0,.55) !important;
+        }
+        html.dark-mode .blog-card h3 { color: #fff !important; }
+        html.dark-mode .blog-card p { color: #cbd5e1 !important; }
+        html.dark-mode .blog-card-meta { color: #9ca3af !important; }
+        html.dark-mode .blog-card-meta i { color: #ff8a00 !important; }
+        html.dark-mode .blog-card-readmore {
+            color: #ff8a00 !important;
+            border-bottom-color: #ff8a00 !important;
+        }
+        html.dark-mode .blog-card:hover .blog-card-readmore { color: #ffab40 !important; border-bottom-color: #ffab40 !important; }
+        html.dark-mode .blog-card-thumb { background: #1f242c !important; }
+        html.dark-mode .blog-card-thumb .cat-pill { background: rgba(255,138,0,.92) !important; color: #fff !important; }
+
+        /* Blog page sidebar (Latest Posts, Categories, Newsletter, Tags) */
+        html.dark-mode .blog-sidebar-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .blog-sidebar-card h3,
+        html.dark-mode .blog-sidebar-card h4 { color: #fff !important; }
+        html.dark-mode .blog-sidebar-card a { color: #e5e7eb !important; }
+        html.dark-mode .blog-sidebar-card a:hover { color: #ff8a00 !important; }
+        html.dark-mode .blog-sidebar-card .meta,
+        html.dark-mode .blog-sidebar-card time { color: var(--site-muted) !important; }
+
+        /* Blog listing (/career-advice) — new hero + wrapper */
+        html.dark-mode .ca-wrap { background: var(--site-bg) !important; }
+        html.dark-mode .ca-hero {
+            background:
+                radial-gradient(circle at 12% 20%, rgba(255,138,0,.10) 0, transparent 40%),
+                radial-gradient(circle at 88% 80%, rgba(94,43,255,.08) 0, transparent 45%),
+                var(--site-bg) !important;
+            border-bottom-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .ca-hero h1 { color: #fff !important; }
+        html.dark-mode .ca-hero .sub { color: #cbd5e1 !important; }
+        html.dark-mode .ca-hero .eyebrow {
+            background: rgba(255,255,255,.06) !important;
+            border-color: rgba(255,255,255,.15) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .ca-hero-stats .stat strong { color: #fff !important; }
+        html.dark-mode .ca-hero-stats .stat span { color: var(--site-muted) !important; }
+        html.dark-mode .ca-head h2 { color: #fff !important; }
+        html.dark-mode .ca-cat-pills a {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .ca-cat-pills a:hover { border-color: #ff8a00 !important; color: #ff8a00 !important; }
+        html.dark-mode .ca-cat-pills a.active {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+        }
+
+        /* Blog post detail page — outer page wrappers, article card, related-posts, sidebar */
+        html.dark-mode .blog-detail-section { background: var(--site-bg) !important; }
+        html.dark-mode .blog-article {
+            background: var(--site-card-bg) !important;
+            border: 1px solid var(--site-card-bd) !important;
+            padding: 28px !important;
+        }
+        html.dark-mode .blog-article-thumb { background: var(--site-card-bg) !important; }
+        html.dark-mode .related-posts-section {
+            background: var(--site-bg) !important;
+            border-top-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .related-posts-head h2 { color: #fff !important; }
+        html.dark-mode .related-posts-head p { color: #cbd5e1 !important; }
+        html.dark-mode .related-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .related-card:hover { border-color: #ff8a00 !important; }
+        html.dark-mode .related-card-thumb { background: rgba(255,255,255,.04) !important; }
+        html.dark-mode .related-card-body h4 { color: #fff !important; }
+        html.dark-mode .related-card-body .meta { color: var(--site-muted) !important; }
+        html.dark-mode .related-card-body p { color: #cbd5e1 !important; }
+        /* Sidebar cards on blog detail (.blog-side-card — different from .blog-sidebar-card) */
+        html.dark-mode .blog-side-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .blog-side-card h3 {
+            color: #fff !important;
+            border-bottom-color: #ff8a00 !important;
+        }
+        html.dark-mode .blog-side-card a { color: #e5e7eb !important; }
+        html.dark-mode .blog-side-card a:hover { color: #ff8a00 !important; }
+        html.dark-mode .blog-side-card .meta,
+        html.dark-mode .blog-side-card time { color: var(--site-muted) !important; }
+
+        /* Blog content text — same as before */
+        html.dark-mode .blog-content,
+        html.dark-mode .blog-post-content,
+        html.dark-mode .blog-detail-body,
+        html.dark-mode .post-content { color: #cbd5e1 !important; }
+        html.dark-mode .blog-content h1,
+        html.dark-mode .blog-content h2,
+        html.dark-mode .blog-content h3,
+        html.dark-mode .blog-content h4,
+        html.dark-mode .blog-post-content h1,
+        html.dark-mode .blog-post-content h2,
+        html.dark-mode .blog-post-content h3,
+        html.dark-mode .blog-post-content h4 { color: #fff !important; }
+        html.dark-mode .blog-content h2::before { background: #ff8a00 !important; }
+        html.dark-mode .blog-content p,
+        html.dark-mode .blog-content li,
+        html.dark-mode .blog-content blockquote,
+        html.dark-mode .blog-post-content p,
+        html.dark-mode .blog-post-content li,
+        html.dark-mode .blog-post-content blockquote { color: #cbd5e1 !important; }
+        html.dark-mode .blog-content strong,
+        html.dark-mode .blog-content em,
+        html.dark-mode .blog-post-content strong { color: #fff !important; }
+        html.dark-mode .blog-content a,
+        html.dark-mode .blog-post-content a { color: #ff8a00 !important; }
+        html.dark-mode .blog-content a:hover { color: #ffab40 !important; }
+        html.dark-mode .blog-content code,
+        html.dark-mode .blog-content pre,
+        html.dark-mode .blog-post-content code,
+        html.dark-mode .blog-post-content pre { background: #1f242c !important; color: #e5e7eb !important; border-color: var(--site-card-bd) !important; }
+        html.dark-mode .blog-content blockquote {
+            border-left-color: #ff8a00 !important;
+            background: rgba(255,138,0,.06) !important;
+        }
+
+        /* === Final CTA section ("Your next great job is one click away") ===
+           The OUTER section has a light gray bg (#f5f5f7) that shows as a white
+           strip in dark mode. The inner card is already dark, so we just need
+           to blend the wrapper into the dark page. */
+        html.dark-mode .modern-cta-section,
+        html.dark-mode .home-final-cta,
+        html.dark-mode .home-cta-section { background: var(--site-bg) !important; }
+
+        /* === /category/{slug} page — sidebar + job cards + results header === */
+        html.dark-mode .cat-results-section { background: var(--site-bg) !important; }
+        html.dark-mode .cat-hero-stats .stat-label,
+        html.dark-mode .cat-hero-stats .label { color: #cbd5e1 !important; }
+        html.dark-mode .cat-hero-stats .stat-value,
+        html.dark-mode .cat-hero-stats .value,
+        html.dark-mode .cat-hero-stats strong { color: #fff !important; }
+        html.dark-mode .cat-hero p.lead { color: #cbd5e1 !important; }
+        html.dark-mode .cat-results-head .count { color: #cbd5e1 !important; }
+        html.dark-mode .cat-results-head .count strong { color: #fff !important; }
+
+        /* Sidebar filter panels (Filter By Location, Job Type, Other Categories) */
+        html.dark-mode .cat-sidebar {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .cat-sidebar h3 {
+            color: #fff !important;
+            border-bottom-color: #ff8a00 !important;
+        }
+        html.dark-mode .cat-sidebar .form-control,
+        html.dark-mode .cat-sidebar select {
+            background: var(--site-input-bg) !important;
+            border-color: var(--site-input-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .cat-sidebar ul li a { color: #e5e7eb !important; }
+        html.dark-mode .cat-sidebar ul li a:hover { color: #ff8a00 !important; }
+        html.dark-mode .cat-sidebar ul li a .counter,
+        html.dark-mode .cat-sidebar .counter {
+            background: rgba(255,255,255,.08) !important;
+            color: #cbd5e1 !important;
+        }
+        html.dark-mode .cat-jobtype-item span { color: #e5e7eb !important; }
+        html.dark-mode .cat-jobtype-item input[type="checkbox"] { accent-color: #ff8a00 !important; }
+
+        /* Job cards grid */
+        html.dark-mode .cat-job-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .cat-job-card:hover { border-color: #ff8a00 !important; box-shadow: 0 18px 36px rgba(0,0,0,.55) !important; }
+        html.dark-mode .cat-job-card h3 { color: #fff !important; }
+        html.dark-mode .cat-job-card .cat-job-company { color: #ff8a00 !important; }
+        html.dark-mode .cat-job-card .cat-job-meta { color: #cbd5e1 !important; }
+        html.dark-mode .cat-job-card .cat-job-meta span { color: #cbd5e1 !important; }
+        html.dark-mode .cat-job-card .cat-job-meta span i { color: #ff8a00 !important; }
+        html.dark-mode .cat-job-card .cat-job-badge {
+            background: rgba(255,255,255,.08) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .cat-job-card .cat-job-badge.green { background: rgba(16,185,129,.18) !important; color: #6ee7b7 !important; }
+        html.dark-mode .cat-job-card .cat-job-badge.blue  { background: rgba(96,165,250,.18) !important; color: #93c5fd !important; }
+        html.dark-mode .cat-job-card .cat-job-logo {
+            background: rgba(255,255,255,.06) !important;
+            border: 1px solid var(--site-card-bd);
+        }
+
+        /* === /categories page — "Why Browse by Category" SEO section + cards grid === */
+        html.dark-mode .cat-seo-section,
+        html.dark-mode .cat-grid-section {
+            background: var(--site-bg) !important;
+            border-top-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .cat-seo-content h2,
+        html.dark-mode .cat-grid-head h2 { color: #fff !important; }
+        html.dark-mode .cat-seo-content > p,
+        html.dark-mode .cat-grid-head p { color: #cbd5e1 !important; }
+        html.dark-mode .cat-seo-content .eyebrow,
+        html.dark-mode .cat-grid-head .eyebrow {
+            background: rgba(255,255,255,.08) !important;
+            color: #e5e7eb !important;
+            border-color: rgba(255,255,255,.15) !important;
+        }
+        html.dark-mode .cat-feature-list li { color: #cbd5e1 !important; }
+        html.dark-mode .cat-feature-list li i { color: #6ee7b7 !important; }
+        html.dark-mode .cat-seo-visual .cat-seo-stat-pill,
+        html.dark-mode .cat-seo-visual .cat-seo-trust-pill {
+            background: var(--site-card-bg) !important;
+            color: var(--site-text) !important;
+            border: 1px solid var(--site-card-bd);
+        }
+        html.dark-mode .cat-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .cat-card:hover { border-color: #ff8a00 !important; box-shadow: 0 18px 36px rgba(0,0,0,.55) !important; }
+        html.dark-mode .cat-card::before { background: #ff8a00 !important; }
+        html.dark-mode .cat-card h3,
+        html.dark-mode .cat-card .cat-card-title { color: #fff !important; }
+        html.dark-mode .cat-card p,
+        html.dark-mode .cat-card .cat-card-meta { color: #cbd5e1 !important; }
+        html.dark-mode .cat-card .jobs-count,
+        html.dark-mode .cat-card .jobs-count strong { color: #fff !important; }
+        html.dark-mode .industry-card .count {
+            background: rgba(16,185,129,.18) !important;
+            color: #6ee7b7 !important;
+        }
+        html.dark-mode .seo-float-badge strong { color: #fff !important; }
+        html.dark-mode .seo-float-badge span { color: var(--site-muted) !important; }
+        html.dark-mode .cat-card .openings-pill {
+            background: rgba(16,185,129,.18) !important;
+            color: #6ee7b7 !important;
+        }
+        html.dark-mode .cat-card .cat-card-icon,
+        html.dark-mode .cat-card .icon {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+        }
+        html.dark-mode .cat-card a,
+        html.dark-mode .cat-card .cta,
+        html.dark-mode .cat-card .explore-link { color: #ff8a00 !important; }
+
+        /* === Industries section (Browse Jobs by Industry Across the United States) === */
+        html.dark-mode .industry-section { background: var(--site-bg) !important; }
+        html.dark-mode .industry-section .section-tag,
+        html.dark-mode .section-tag {
+            background: rgba(255,255,255,.08) !important;
+            color: #e5e7eb !important;
+            border-color: rgba(255,255,255,.15) !important;
+        }
+        html.dark-mode .industry-section h2 { color: #fff !important; }
+        html.dark-mode .industry-section p,
+        html.dark-mode .industry-section .section-head p { color: #cbd5e1 !important; }
+        html.dark-mode .industry-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .industry-card:hover { border-color: #ff8a00 !important; box-shadow: 0 20px 44px rgba(0,0,0,.55) !important; }
+        html.dark-mode .industry-card h3 { color: #fff !important; }
+        html.dark-mode .industry-card .desc { color: #cbd5e1 !important; }
+        html.dark-mode .industry-card .icon-wrap {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+        }
+        html.dark-mode .industry-card:hover .icon-wrap { background: linear-gradient(135deg, #ffab40, #ff8a00) !important; }
+        html.dark-mode .industry-card .count {
+            background: rgba(16,185,129,.18) !important;
+            color: #6ee7b7 !important;
+        }
+        html.dark-mode .industry-card .count::before { background: #6ee7b7 !important; }
+        html.dark-mode .industry-card .cta { color: #ff8a00 !important; }
+        html.dark-mode .industry-section .view-all-row a {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+        }
+
+        /* === Career Advice section ("Career Advice to Win Your Job Search") === */
+        html.dark-mode .career-section {
+            background: var(--site-bg) !important;
+            border-top-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .career-head h2 { color: #fff !important; }
+        html.dark-mode .career-head p  { color: #cbd5e1 !important; }
+        html.dark-mode .career-chip {
+            background: rgba(255,255,255,.05) !important;
+            border-color: rgba(255,255,255,.15) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .career-chip:hover { background: rgba(255,138,0,.15) !important; border-color: #ff8a00 !important; color: #ff8a00 !important; }
+        html.dark-mode .career-chip.is-active {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+        }
+        html.dark-mode .career-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .career-card:hover { border-color: #ff8a00 !important; box-shadow: 0 16px 32px rgba(0,0,0,.5) !important; }
+        html.dark-mode .career-title,
+        html.dark-mode .career-title a { color: #fff !important; }
+        html.dark-mode .career-card .career-cat,
+        html.dark-mode .career-card .career-meta,
+        html.dark-mode .career-card p { color: #cbd5e1 !important; }
+        html.dark-mode .career-card .career-author strong { color: #ffffff !important; }
+        html.dark-mode .career-card .career-author { color: #cbd5e1 !important; }
+        html.dark-mode .career-card .career-date { color: #94a3b8 !important; }
+        html.dark-mode .career-card .career-meta { border-top-color: rgba(255,255,255,.08) !important; }
+        html.dark-mode .career-card .career-avatar {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+        }
+
+        /* === Comparison table === */
+        html.dark-mode .compare-section { background: var(--site-bg) !important; border-top-color: var(--site-card-bd) !important; }
+        html.dark-mode .compare-table {
+            background: var(--site-card-bg) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .compare-table-wrap {
+            background: var(--site-card-bg) !important;
+            border: 1px solid var(--site-card-bd) !important;
+        }
+        html.dark-mode .compare-table thead th { background: #1f242c !important; color: #cbd5e1 !important; }
+        html.dark-mode .compare-table thead th.cmp-us { background: #0a0a0a !important; color: #fff !important; }
+        html.dark-mode .compare-table tbody th { background: var(--site-card-bg) !important; color: #fff !important; border-top-color: var(--site-card-bd) !important; }
+        html.dark-mode .compare-table tbody td {
+            border-top-color: var(--site-card-bd) !important;
+            color: #cbd5e1 !important;
+            background: var(--site-card-bg) !important;
+        }
+        html.dark-mode .compare-table tbody td.cmp-us {
+            background: rgba(255,138,0,.08) !important;
+            border-left-color: #ff8a00 !important;
+            border-right-color: #ff8a00 !important;
+        }
+        html.dark-mode .compare-table tbody tr:hover td:not(.cmp-us) { background: rgba(255,255,255,.04) !important; }
+        html.dark-mode .compare-table .yes { background: #047857 !important; color: #fff !important; }
+        html.dark-mode .compare-table tbody td.cmp-us .yes,
+        html.dark-mode .compare-table thead th.cmp-us .yes { background: linear-gradient(135deg, #ff8a00, #ff5722) !important; }
+        html.dark-mode .compare-table .no {
+            background: rgba(239,68,68,.18) !important;
+            color: #fca5a5 !important;
+        }
+        html.dark-mode .compare-table .partial {
+            background: rgba(255,255,255,.08) !important;
+            color: #e5e7eb !important;
+            border: 1px solid rgba(255,255,255,.12);
+        }
+        html.dark-mode .process-head h2,
+        html.dark-mode .why-head h2,
+        html.dark-mode .compare-head h2,
+        html.dark-mode .faq-head h2 { color: #fff !important; }
+        /* Solid black/grayscale `.accent` text → white in dark mode */
+        html.dark-mode .process-head h2 .accent,
+        html.dark-mode .why-head h2 .accent,
+        html.dark-mode .compare-head h2 .accent,
+        html.dark-mode .faq-head h2 .accent {
+            color: #fff !important;
+            background: none !important;
+            -webkit-background-clip: initial !important;
+            background-clip: initial !important;
+            -webkit-text-fill-color: #fff !important;
+        }
+        /* Section paragraph text → soft light gray */
+        html.dark-mode .process-head p,
+        html.dark-mode .why-head p,
+        html.dark-mode .compare-head p,
+        html.dark-mode .faq-head p { color: #cbd5e1 !important; }
+        /* "Eyebrow" pills (HOW IT WORKS, WHY US, etc.) — keep light but inverted look in dark mode */
+        html.dark-mode .process-head .eyebrow,
+        html.dark-mode .why-head .eyebrow,
+        html.dark-mode .compare-head .eyebrow,
+        html.dark-mode .faq-head .eyebrow,
+        html.dark-mode .section-eyebrow {
+            background: rgba(255,255,255,.08) !important;
+            color: #e5e7eb !important;
+            border-color: rgba(255,255,255,.15) !important;
+        }
+        /* Inner cards on these sections (process-card, why-card, compare-table) */
+        html.dark-mode .process-card,
+        html.dark-mode .why-card,
+        html.dark-mode .compare-card,
+        html.dark-mode .testimonial-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .process-card h3,
+        html.dark-mode .why-card h3 { color: #fff !important; }
+        html.dark-mode .process-card p,
+        html.dark-mode .why-card p { color: #cbd5e1 !important; }
+        /* Process-card CTA links (SIGN UP FREE, BROWSE ALL JOBS, VIEW & APPLY, TOP EMPLOYERS) */
+        html.dark-mode .process-card .card-cta {
+            color: #ff8a00 !important;
+            border-bottom-color: #ff8a00 !important;
+        }
+        html.dark-mode .process-card .card-cta:hover { color: #ffab40 !important; border-bottom-color: #ffab40 !important; opacity: 1 !important; }
+        /* Big CTA below process cards (e.g. "Get Started Free") */
+        html.dark-mode .process-cta-row a {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+        }
+        html.dark-mode .process-cta-row a:hover { background: linear-gradient(135deg, #ffab40, #ff8a00) !important; border-color: #ffab40 !important; }
+
+        /* === Generic empty-state card (used on /companies, /jobs-categories, /locations, /job-seekers) === */
+        html.dark-mode .empty-state,
+        html.dark-mode .cat-empty,
+        html.dark-mode .loc-empty,
+        html.dark-mode .js-empty {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .empty-state h2,
+        html.dark-mode .empty-state h4,
+        html.dark-mode .cat-empty h4,
+        html.dark-mode .loc-empty h4,
+        html.dark-mode .js-empty h4 { color: #fff !important; }
+        html.dark-mode .empty-state p,
+        html.dark-mode .cat-empty p,
+        html.dark-mode .loc-empty p,
+        html.dark-mode .js-empty p { color: #cbd5e1 !important; }
+        html.dark-mode .empty-state i,
+        html.dark-mode .cat-empty i,
+        html.dark-mode .loc-empty i,
+        html.dark-mode .js-empty i { color: var(--site-muted) !important; }
+
+        /* === Companies listing page (/companies) — hero, toolbar, cards === */
+        html.dark-mode .companies-hero .breadcrumbs-mini { color: #cbd5e1 !important; }
+        html.dark-mode .companies-hero .breadcrumbs-mini a { color: #fff !important; }
+        html.dark-mode .companies-hero .eyebrow {
+            background: rgba(255,255,255,.08) !important;
+            border-color: rgba(255,255,255,.15) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .companies-hero p.lead { color: #cbd5e1 !important; }
+        html.dark-mode .companies-search {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            box-shadow: var(--site-shadow) !important;
+        }
+        html.dark-mode .companies-search input[type="text"] {
+            background: transparent !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .companies-search select {
+            background: var(--site-input-bg) !important;
+            color: var(--site-text) !important;
+            border-left-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .companies-search button {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+        }
+        html.dark-mode .companies-stats {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            box-shadow: var(--site-shadow) !important;
+        }
+        html.dark-mode .companies-stats .stat strong { color: #fff !important; }
+        html.dark-mode .companies-stats .stat span { color: var(--site-muted) !important; }
+        html.dark-mode .companies-toolbar .results-info { color: #cbd5e1 !important; }
+        html.dark-mode .companies-toolbar .results-info strong { color: #fff !important; }
+        html.dark-mode .companies-toolbar .quick-filters a {
+            background: rgba(255,255,255,.06) !important;
+            border-color: rgba(255,255,255,.15) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .companies-toolbar .quick-filters a:hover {
+            background: rgba(255,255,255,.10) !important;
+            border-color: rgba(255,255,255,.25) !important;
+        }
+        html.dark-mode .companies-toolbar .quick-filters a.active {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+        }
+        html.dark-mode .company-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+            box-shadow: var(--site-shadow) !important;
+        }
+        html.dark-mode .company-card:hover {
+            border-color: #ff8a00 !important;
+            box-shadow: 0 18px 36px rgba(0,0,0,.55) !important;
+        }
+        html.dark-mode .company-card h3 { color: #fff !important; }
+        html.dark-mode .company-card .verified { color: #6ee7b7 !important; }
+        html.dark-mode .company-card-body { color: #cbd5e1 !important; }
+        html.dark-mode .company-card-body .meta i { color: #ff8a00 !important; }
+        html.dark-mode .company-card-footer { border-top-color: rgba(255,255,255,.10) !important; }
+        html.dark-mode .positions-badge {
+            background: rgba(16,185,129,.18) !important;
+            color: #6ee7b7 !important;
+        }
+        html.dark-mode .positions-badge.empty {
+            background: rgba(255,255,255,.06) !important;
+            color: var(--site-muted) !important;
+        }
+        html.dark-mode .view-jobs-link { color: #ff8a00 !important; }
+
+        /* === Pagination on dark bg (legacy theme template — .utf-pagination-container-aera) === */
+        html.dark-mode .utf-pagination-container-aera .pagination li a,
+        html.dark-mode .utf-pagination-container-aera .pagination li span {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .utf-pagination-container-aera .pagination li a:hover {
+            background: rgba(255,138,0,.10) !important;
+            border-color: #ff8a00 !important;
+        }
+        html.dark-mode .utf-pagination-container-aera .pagination li a.current-page,
+        html.dark-mode .utf-pagination-container-aera .pagination li.active a {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+        }
+        /* === Pagination on dark bg (new custom template — vendor.pagination.custom) === */
+        html.dark-mode .utf-pagination .page-link {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .utf-pagination .page-item:not(.active):not(.disabled) .page-link:hover {
+            background: rgba(255,138,0,.10) !important;
+            border-color: #ff8a00 !important;
+            color: #ff8a00 !important;
+        }
+        html.dark-mode .utf-pagination .page-item.active .page-link {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+            box-shadow: 0 4px 10px rgba(255,138,0,.30) !important;
+        }
+        html.dark-mode .utf-pagination .page-item.disabled .page-link {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-muted) !important;
+            opacity: .55 !important;
+        }
+
+        /* === Job Seekers index (/job-seekers) — card grid === */
+        html.dark-mode .js-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+            box-shadow: var(--site-shadow) !important;
+        }
+        html.dark-mode .js-card:hover {
+            border-color: #ff8a00 !important;
+            box-shadow: 0 20px 40px rgba(0,0,0,.55) !important;
+        }
+        html.dark-mode .js-card-name { color: #fff !important; }
+        html.dark-mode .js-card-loc { color: var(--site-muted) !important; }
+        html.dark-mode .js-card-loc i { color: #ff8a00 !important; }
+        html.dark-mode .js-card-headline { color: #cbd5e1 !important; }
+        html.dark-mode .js-skill {
+            background: rgba(255,255,255,.06) !important;
+            border-color: rgba(255,255,255,.12) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .js-card-meta { border-top-color: rgba(255,255,255,.10) !important; }
+        html.dark-mode .js-card-exp { color: var(--site-muted) !important; }
+        html.dark-mode .js-card-exp i { color: #c4b5fd !important; }
+        html.dark-mode .js-view-link { color: #ff8a00 !important; }
+        html.dark-mode .js-avatar { background: linear-gradient(135deg, #ff8a00, #ff5722) !important; }
+        /* Section header above the grid (Featured Job Seekers + subtitle + talent-profiles pill) */
+        html.dark-mode .js-section { background: var(--site-bg) !important; }
+        html.dark-mode .js-section-head h2 { color: #fff !important; }
+        html.dark-mode .js-section-head p { color: #cbd5e1 !important; }
+        html.dark-mode .js-section-head .count-pill {
+            background: rgba(255,255,255,.06) !important;
+            border-color: rgba(255,255,255,.15) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .js-section-head .count-pill i { color: #ff8a00 !important; }
+        /* Hero paragraph (the body .js-hero p rule above forces #555 on light bg, but in dark the hero gets a dark overlay) */
+        html.dark-mode .js-hero p,
+        html.dark-mode .seeker-hero p { color: #cbd5e1 !important; }
+        /* FAQ section at the bottom of /job-seekers */
+        html.dark-mode .js-faq-section {
+            background: var(--site-bg) !important;
+            border-top-color: var(--site-card-bd) !important;
+            border-bottom-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .js-faq-head h2 { color: #fff !important; }
+        html.dark-mode .js-faq-head p { color: #cbd5e1 !important; }
+        html.dark-mode .js-faq-head .eyebrow {
+            background: rgba(255,255,255,.08) !important;
+            border-color: rgba(255,255,255,.15) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .js-faq {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .js-faq[open] {
+            border-color: #ff8a00 !important;
+            box-shadow: 0 8px 18px rgba(0,0,0,.55) !important;
+        }
+        html.dark-mode .js-faq summary { color: #fff !important; }
+        html.dark-mode .js-faq-body { color: #cbd5e1 !important; }
+
+        /* === Saved Jobs (/saved-jobs) === */
+        html.dark-mode .saved-empty {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .saved-empty h2 { color: #fff !important; }
+        html.dark-mode .saved-empty p { color: #cbd5e1 !important; }
+        html.dark-mode .saved-empty .icon { background: rgba(255,138,0,.15) !important; }
+        html.dark-mode .saved-card .info h3 a { color: #fff !important; }
+        html.dark-mode .saved-card .info .meta span { color: var(--site-muted) !important; }
+        html.dark-mode .saved-card .info .meta i { color: #ff8a00 !important; }
+        html.dark-mode .saved-card .info .saved-on { color: var(--site-muted) !important; }
+        html.dark-mode .saved-card .btn-view {
+            background: rgba(255,255,255,.06) !important;
+            color: #e5e7eb !important;
+            border-color: rgba(255,255,255,.15) !important;
+        }
+        html.dark-mode .saved-card .btn-remove {
+            background: transparent !important;
+            border-color: rgba(220,38,38,.45) !important;
+            color: #fca5a5 !important;
+        }
+        html.dark-mode .saved-card .btn-remove:hover {
+            background: rgba(220,38,38,.12) !important;
+            border-color: #fca5a5 !important;
+        }
+
+        /* === Recommended Jobs (/seeker/recommended) === */
+        html.dark-mode .rec-filter {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .rec-filter input,
+        html.dark-mode .rec-filter select {
+            background: var(--site-input-bg) !important;
+            border-color: var(--site-input-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .rec-empty {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .rec-empty h2 { color: #fff !important; }
+        html.dark-mode .rec-empty p  { color: #cbd5e1 !important; }
+        html.dark-mode .rec-empty i  { color: var(--site-muted) !important; }
+        html.dark-mode .rec-card .company { color: #ff8a00 !important; }
+        html.dark-mode .rec-card .meta li i { color: #ff8a00 !important; }
+        html.dark-mode .rec-card .match-badge.high {
+            background: rgba(16,185,129,.18) !important;
+            color: #6ee7b7 !important;
+            border-color: rgba(110,231,183,.35) !important;
+        }
+        html.dark-mode .rec-card .match-badge.mid {
+            background: rgba(251,191,36,.18) !important;
+            color: #fcd34d !important;
+            border-color: rgba(252,211,77,.30) !important;
+        }
+        html.dark-mode .rec-card .match-badge.low {
+            background: rgba(255,255,255,.06) !important;
+            color: var(--site-muted) !important;
+            border-color: rgba(255,255,255,.12) !important;
+        }
+        html.dark-mode .rec-card .why-match {
+            background: rgba(94,43,255,.12) !important;
+            color: #cbd5e1 !important;
+            border-color: rgba(94,43,255,.20) !important;
+        }
+        html.dark-mode .rec-card .why-match strong { color: #c4b5fd !important; }
+        html.dark-mode .info-pill {
+            background: rgba(94,43,255,.15) !important;
+            color: #c4b5fd !important;
+        }
+
+        /* === /locations page — SEO split section, feature list, top hiring states === */
+        html.dark-mode .loc-seo-section,
+        html.dark-mode .loc-grid-section,
+        html.dark-mode .top-states-section { background: var(--site-bg) !important; }
+        html.dark-mode .loc-grid-section { border-top-color: var(--site-card-bd) !important; }
+        html.dark-mode .loc-seo-content .eyebrow,
+        html.dark-mode .loc-grid-head .eyebrow {
+            background: rgba(255,255,255,.06) !important;
+            border-color: rgba(255,255,255,.15) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .loc-seo-content h2,
+        html.dark-mode .loc-grid-head h2,
+        html.dark-mode .top-states-head h2 { color: #fff !important; }
+        html.dark-mode .loc-seo-content > p,
+        html.dark-mode .loc-grid-head p,
+        html.dark-mode .top-states-head p { color: #cbd5e1 !important; }
+        html.dark-mode .loc-feature-list li { color: #e5e7eb !important; }
+        html.dark-mode .loc-feature-list li i { color: #ff8a00 !important; }
+        html.dark-mode .loc-cta-btn {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+        }
+        html.dark-mode .loc-cta-btn:hover { filter: brightness(1.05); box-shadow: 0 8px 20px rgba(255,138,0,.45) !important; }
+        html.dark-mode .loc-float-stat {
+            background: var(--site-card-bg) !important;
+            box-shadow: 0 14px 32px rgba(0,0,0,.55) !important;
+        }
+        html.dark-mode .loc-float-stat .text strong { color: #fff !important; }
+        html.dark-mode .loc-float-stat .text span { color: var(--site-muted) !important; }
+        /* Top Hiring States — numbered cards */
+        html.dark-mode .top-states-head .eyebrow {
+            background: rgba(255,255,255,.08) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .top-state-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+            box-shadow: var(--site-shadow) !important;
+        }
+        html.dark-mode .top-state-card:hover {
+            border-color: #ff8a00 !important;
+            box-shadow: 0 18px 40px rgba(0,0,0,.55) !important;
+        }
+        html.dark-mode .top-state-card .rank {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+        }
+        html.dark-mode .top-state-card .info h3 { color: #fff !important; }
+        html.dark-mode .top-state-card .info .count { color: #cbd5e1 !important; }
+        html.dark-mode .top-state-card .info .count strong { color: #fff !important; }
+        html.dark-mode .top-state-card .arrow { color: var(--site-muted) !important; }
+        html.dark-mode .top-state-card:hover .arrow { color: #ff8a00 !important; }
+
+        /* === Legacy theme listing (used by /search and /jobs-in-{location}) === */
+        html.dark-mode .utf-inner-search-section-title {
+            background: var(--site-bg) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .utf-inner-search-section-title h4 { color: #fff !important; }
+        html.dark-mode .utf-notify-box-aera {
+            background: var(--site-card-bg) !important;
+            border: 1px solid var(--site-card-bd) !important;
+            border-radius: 8px;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .utf-notify-box-aera .utf-switch-container-item,
+        html.dark-mode .utf-notify-box-aera .utf-switch-container-item span { color: #cbd5e1 !important; }
+        html.dark-mode .utf-notify-box-aera .sort-by,
+        html.dark-mode .utf-notify-box-aera .sort-by span { color: #cbd5e1 !important; }
+        html.dark-mode .utf-notify-box-aera .sort-by select {
+            background: var(--site-input-bg) !important;
+            color: var(--site-text) !important;
+            border-color: var(--site-input-bd) !important;
+        }
+        html.dark-mode .utf-listings-container-part,
+        html.dark-mode .utf-listings-container-part.compact-list-layout { background: var(--site-bg) !important; }
+        html.dark-mode .utf-job-listing {
+            background: var(--site-card-bg) !important;
+            border: 1px solid var(--site-card-bd) !important;
+            box-shadow: var(--site-shadow) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .utf-job-listing:hover {
+            border-color: #ff8a00 !important;
+            box-shadow: 0 14px 32px rgba(0,0,0,.55) !important;
+        }
+        html.dark-mode .utf-job-listing .utf-job-listing-company-logo {
+            background: rgba(255,255,255,.06) !important;
+        }
+        html.dark-mode .utf-job-listing h3,
+        html.dark-mode .utf-job-listing .utf-job-listing-title { color: #fff !important; }
+        html.dark-mode .utf-job-listing h4,
+        html.dark-mode .utf-job-listing p,
+        html.dark-mode .utf-job-listing .utf-job-listing-footer,
+        html.dark-mode .utf-job-listing .utf-job-listing-footer ul li,
+        html.dark-mode .utf-job-listing .utf-job-listing-footer span { color: #cbd5e1 !important; }
+        html.dark-mode .utf-job-listing .utf-job-listing-footer i,
+        html.dark-mode .utf-job-listing .utf-job-listing-footer ul li i { color: #ff8a00 !important; }
+        /* Employment-type pill (Permanent / Part Time / Full Time) — was light pastel on light bg */
+        html.dark-mode .dashboard-status-button,
+        html.dark-mode .utf-job-status-item {
+            background: rgba(255,255,255,.08) !important;
+            border-color: rgba(255,255,255,.15) !important;
+        }
+        html.dark-mode .dashboard-status-button.green,
+        html.dark-mode .utf-job-status-item.green {
+            background: rgba(16,185,129,.18) !important;
+            color: #6ee7b7 !important;
+        }
+        html.dark-mode .dashboard-status-button.yellow,
+        html.dark-mode .utf-job-status-item.yellow {
+            background: rgba(251,191,36,.18) !important;
+            color: #fcd34d !important;
+        }
+        html.dark-mode .dashboard-status-button.red,
+        html.dark-mode .utf-job-status-item.red {
+            background: rgba(239,68,68,.18) !important;
+            color: #fca5a5 !important;
+        }
+        /* "View Job" CTA on each row */
+        html.dark-mode .list-apply-button,
+        html.dark-mode .utf-job-listing .list-apply-button {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+            border-color: #ff8a00 !important;
+        }
+        html.dark-mode .list-apply-button:hover { background: linear-gradient(135deg, #ffab40, #ff8a00) !important; }
+        /* Search form inside .utf-inner-search-section-title */
+        html.dark-mode .utf-inner-search-section-title .utf-input-with-icon input,
+        html.dark-mode .utf-inner-search-section-title .form-control {
+            background: var(--site-input-bg) !important;
+            border-color: var(--site-input-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .utf-inner-search-section-title .utf-input-with-icon i { color: var(--site-muted) !important; }
+        /* "No jobs found matching your search criteria" notification */
+        html.dark-mode .notification.warning {
+            background: rgba(251,191,36,.10) !important;
+            border-color: rgba(251,191,36,.25) !important;
+            color: #fcd34d !important;
+        }
+        html.dark-mode .notification.warning p { color: #fcd34d !important; }
+        /* Wrapper page container behind the listings */
+        html.dark-mode .full-page-container,
+        html.dark-mode .full-page-content-container,
+        html.dark-mode .full-page-content-inner { background: var(--site-bg) !important; }
+
+        /* === Jobs listing page — filter section, search bar, content wrappers === */
+        html.dark-mode .jobs-filter-section,
+        html.dark-mode .utf-listing-container-area,
+        html.dark-mode .utf-listing-container-area .container,
+        html.dark-mode .utf-job-listing-container,
+        html.dark-mode .padding-top-65,
+        html.dark-mode .padding-bottom-65,
+        html.dark-mode .padding-bottom-70 { background: var(--site-bg) !important; }
+        html.dark-mode .jobs-filter-bar { background: #181b22 !important; border: 1px solid var(--site-card-bd) !important; }
+        html.dark-mode .jobs-filter-bar .filter-head { color: #fff !important; }
+        html.dark-mode .jobs-filter-bar input,
+        html.dark-mode .jobs-filter-bar select.form-control,
+        html.dark-mode .jobs-filter-bar .select2-container--bootstrap .select2-selection--single {
+            background: var(--site-input-bg) !important;
+            border-color: var(--site-input-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .jobs-filter-bar .input-wrap > i { color: var(--site-muted) !important; }
+        html.dark-mode .select2-dropdown { background: var(--site-card-bg) !important; border-color: var(--site-input-bd) !important; }
+        html.dark-mode .select2-results__option { color: var(--site-text) !important; }
+        html.dark-mode .select2-results__option--highlighted { background: rgba(255,138,0,.15) !important; color: #ff8a00 !important; }
+        html.dark-mode .select2-container--bootstrap .select2-selection--single .select2-selection__rendered { color: var(--site-text) !important; }
+
+        /* === Generic white wrappers seen in screenshot — search results, blog cards, category jobs === */
+        html.dark-mode .utf-listings-container-area,
+        html.dark-mode .padding-right-30,
+        html.dark-mode .utf-sidebar-container-aera,
+        html.dark-mode .utf-sidebar-widget-item,
+        html.dark-mode .single-page-content { background: var(--site-bg) !important; color: var(--site-text) !important; }
+        html.dark-mode .utf-sidebar-widget-item h3 { color: #fff !important; }
+
+        /* === /jobs page — "No jobs match your search" empty state === */
+        html.dark-mode .no-jobs {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .no-jobs h4 { color: #fff !important; }
+        html.dark-mode .no-jobs p  { color: #cbd5e1 !important; }
+        html.dark-mode .no-jobs i  { color: var(--site-muted) !important; }
+
+        /* === /jobs page — "Browse Jobs by Industry & State" + Trust strip === */
+        html.dark-mode .jobs-explore-section {
+            background: var(--site-bg) !important;
+            border-top-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .jobs-explore-section .section-head h2,
+        html.dark-mode .jobs-explore-section h2 { color: #fff !important; }
+        html.dark-mode .jobs-explore-section .section-head p { color: #cbd5e1 !important; }
+        html.dark-mode .jobs-explore-section .section-head .eyebrow {
+            background: rgba(255,255,255,.08) !important;
+            border-color: rgba(255,255,255,.15) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .explore-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .explore-card h3 { color: #fff !important; }
+        html.dark-mode .explore-card h3::before { background: #ff8a00 !important; }
+        html.dark-mode .explore-pills a {
+            background: rgba(255,255,255,.06) !important;
+            border-color: rgba(255,255,255,.12) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .explore-pills a:hover {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+        }
+        html.dark-mode .explore-pills a .num {
+            background: rgba(255,255,255,.1) !important;
+            color: #cbd5e1 !important;
+        }
+        /* Trust strip (Verified Employers / Apply in One Click / Smart Job Alerts / Trusted Nationwide) */
+        html.dark-mode .jobs-trust-strip {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .jobs-trust-strip .trust-item h5 { color: #fff !important; }
+        html.dark-mode .jobs-trust-strip .trust-item p  { color: #cbd5e1 !important; }
+        html.dark-mode .jobs-trust-strip .trust-item .ico {
+            background: rgba(255,138,0,.15) !important;
+            color: #ff8a00 !important;
+        }
+        html.dark-mode .jobs-trust-strip .trust-item .ico i { color: #ff8a00 !important; }
+
+        /* === Sort By + result count strip above the no-jobs panel === */
+        html.dark-mode .jobs-result-meta,
+        html.dark-mode .sort-row,
+        html.dark-mode .result-meta-bar { color: var(--site-text) !important; }
+        html.dark-mode .sort-row label,
+        html.dark-mode .sort-row select {
+            background: var(--site-input-bg) !important;
+            border-color: var(--site-input-bd) !important;
+            color: var(--site-text) !important;
+        }
+
+        /* Generic empty-looking white div panels (e.g. job list wrappers) */
+        html.dark-mode .ad-section,
+        html.dark-mode .promo-section,
+        html.dark-mode .newsletter-section,
+        html.dark-mode .partners-section,
+        html.dark-mode .blog-section,
+        html.dark-mode .info-section,
+        html.dark-mode .text-section { background: var(--site-bg) !important; color: var(--site-text) !important; }
+        html.dark-mode .utf-page-heading-area::before,
+        html.dark-mode .intro-banner.intro-hero-v2::before,
+        html.dark-mode .about-hero::before,
+        html.dark-mode .contact-hero::before,
+        html.dark-mode .jobs-hero::before,
+        html.dark-mode .cat-hero::before,
+        html.dark-mode .loc-hero::before,
+        html.dark-mode .companies-hero::before,
+        html.dark-mode .blog-hero::before,
+        html.dark-mode .blog-detail-hero::before,
+        html.dark-mode .jd-hero::before,
+        html.dark-mode .js-hero::before {
+            background: linear-gradient(135deg, rgba(15,17,21,.92), rgba(15,17,21,.85) 40%, rgba(15,17,21,.96)) !important;
+            background-image: linear-gradient(135deg, rgba(15,17,21,.92), rgba(15,17,21,.85) 40%, rgba(15,17,21,.96)) !important;
+        }
+        /* Headings on blog detail + job detail hero in dark mode */
+        html.dark-mode .blog-detail-hero h1,
+        html.dark-mode .jd-hero h1,
+        html.dark-mode .jd-hero h2,
+        html.dark-mode .jd-hero .jd-hero-title { color: #fff !important; }
+        html.dark-mode .blog-detail-hero .breadcrumbs-mini,
+        html.dark-mode .blog-detail-hero .blog-meta,
+        html.dark-mode .jd-hero .jd-hero-meta,
+        html.dark-mode .jd-hero .jd-hero-bc { color: #cbd5e1 !important; }
+        html.dark-mode .blog-detail-hero .breadcrumbs-mini a,
+        html.dark-mode .jd-hero .jd-hero-bc a { color: #fff !important; }
+        /* Also override the homepage-scoped hero ::before linear-gradient (defined in index.blade.php) */
+        html.dark-mode .intro-banner.intro-hero-v2::before {
+            background: linear-gradient(135deg, rgba(15,17,21,.92) 0%, rgba(15,17,21,.85) 40%, rgba(15,17,21,.96) 100%) !important;
+        }
+        html.dark-mode h1, html.dark-mode h2, html.dark-mode h3,
+        html.dark-mode h4, html.dark-mode h5, html.dark-mode h6 { color: var(--site-text) !important; }
+        html.dark-mode p, html.dark-mode label, html.dark-mode li, html.dark-mode span:not(.eyebrow):not(.accent):not(.badge) { color: var(--site-text); }
+        html.dark-mode .utf-page-heading-area h1,
+        html.dark-mode .about-hero h1, html.dark-mode .contact-hero h1,
+        html.dark-mode .jobs-hero h1, html.dark-mode .blog-hero h1,
+        html.dark-mode .companies-hero h1, html.dark-mode .cat-hero h1,
+        html.dark-mode .loc-hero h1, html.dark-mode .js-hero h1 { color: #fff !important; }
+        html.dark-mode .utf-page-heading-area #breadcrumbs ul li,
+        html.dark-mode #breadcrumbs ul li,
+        html.dark-mode #breadcrumbs ul li a { color: #cbd5e1 !important; }
+        html.dark-mode .utf-job-listing-item,
+        html.dark-mode .job-card,
+        html.dark-mode .saved-card,
+        html.dark-mode .rec-card,
+        html.dark-mode .resume-card,
+        html.dark-mode .jd-card,
+        html.dark-mode .panel,
+        html.dark-mode .pf-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text);
+            box-shadow: var(--site-shadow);
+        }
+        html.dark-mode .utf-job-listing-item h3,
+        html.dark-mode .utf-job-listing-item h3 a,
+        html.dark-mode .job-card-title,
+        html.dark-mode .rec-card h3 { color: var(--site-text) !important; }
+        html.dark-mode .utf-job-listing-item .utf-job-listing-footer ul li,
+        html.dark-mode .job-card-meta li,
+        html.dark-mode .rec-card .meta li { color: var(--site-muted) !important; }
+        html.dark-mode input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="button"]),
+        html.dark-mode textarea,
+        html.dark-mode select,
+        html.dark-mode .form-control {
+            background-color: var(--site-input-bg) !important;
+            border-color: var(--site-input-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode input::placeholder, html.dark-mode textarea::placeholder { color: var(--site-muted) !important; }
+        html.dark-mode .bootstrap-select .btn, html.dark-mode .bootstrap-select .dropdown-menu {
+            background: var(--site-input-bg) !important;
+            color: var(--site-text) !important;
+            border-color: var(--site-input-bd) !important;
+        }
+
+        /* Homepage hero search — the outer pill is white in light mode but the inner inputs
+           get the global dark-input rule above, which produces "white pill with dark boxes inside".
+           Make the WHOLE search pill dark + keep inputs transparent so it reads as one clean unit. */
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-banner-search-form-block {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            box-shadow: 0 8px 24px rgba(0,0,0,.45) !important;
+        }
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item input,
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select > .btn {
+            background: transparent !important;
+            color: var(--site-text) !important;
+            border-color: transparent !important;
+        }
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item input::placeholder {
+            color: var(--site-muted) !important;
+        }
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item + .utf-intro-search-field-item {
+            border-left-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item i { color: #ff8a00 !important; }
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select > .btn .filter-option-inner-inner,
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select > .btn .filter-option {
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select > .btn::after {
+            border-color: var(--site-muted) !important;
+        }
+        /* Bootstrap-select live-search input ("Search states…") inside the location dropdown */
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select .bs-searchbox .form-control {
+            background: var(--site-input-bg) !important;
+            color: var(--site-text) !important;
+            border-color: var(--site-input-bd) !important;
+        }
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select .bs-searchbox .form-control::placeholder {
+            color: var(--site-muted) !important;
+        }
+        html.dark-mode .bootstrap-select .dropdown-menu li a { color: var(--site-text) !important; }
+        html.dark-mode .bootstrap-select .dropdown-menu li a:hover { background: rgba(255,138,0,.12) !important; }
+        html.dark-mode .ac-dropdown { background: var(--site-card-bg); border-color: var(--site-input-bd); }
+        html.dark-mode .ac-item { color: var(--site-text); border-bottom-color: var(--site-input-bd); }
+        html.dark-mode .ac-item:hover, html.dark-mode .ac-item.is-active { background: rgba(255,255,255,.04); }
+        html.dark-mode .jd-description,
+        html.dark-mode .jd-description p,
+        html.dark-mode .jd-description li,
+        html.dark-mode .jd-formatted p,
+        html.dark-mode .jd-formatted .jd-ul li,
+        html.dark-mode .jd-formatted .jd-ol li { color: #cbd5e1 !important; }
+        html.dark-mode .jd-description strong,
+        html.dark-mode .jd-description b,
+        html.dark-mode .jd-description h2,
+        html.dark-mode .jd-description h3,
+        html.dark-mode .jd-description h4,
+        html.dark-mode .jd-formatted strong,
+        html.dark-mode .jd-formatted b { color: #fff !important; }
+        html.dark-mode .jd-formatted .jd-h { color: #fff !important; border-bottom-color: #ff8a00 !important; }
+        html.dark-mode .jd-description a { color: #ff8a00 !important; }
+        /* Breadcrumb pill on /jobs/{slug} */
+        html.dark-mode .jd-hero-bc {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            box-shadow: 0 1px 2px rgba(0,0,0,.35) !important;
+        }
+        html.dark-mode .jd-hero-bc a { color: #cbd5e1 !important; }
+        html.dark-mode .jd-hero-bc a:hover { color: #ff8a00 !important; }
+        html.dark-mode .jd-hero-bc li:last-child { color: #fff !important; }
+        html.dark-mode .jd-hero-bc li + li::before { color: var(--site-muted) !important; }
+        html.dark-mode .jd-formatted .jd-ul li::before,
+        html.dark-mode .jd-formatted .jd-ol li::before { color: #ff8a00 !important; }
+        /* /jobs/{slug} — section bg, hero meta line, card heading icons */
+        html.dark-mode .jd-section { background: var(--site-bg) !important; }
+        html.dark-mode .jd-hero-meta i { color: #ff8a00 !important; }
+        html.dark-mode .jd-hero-meta span.badge-pill {
+            background: rgba(255,255,255,.08) !important;
+            border-color: rgba(255,255,255,.15) !important;
+            color: #fff !important;
+        }
+        html.dark-mode .jd-card h2 { color: #fff !important; }
+        html.dark-mode .jd-card h2 i { color: #ff8a00 !important; }
+        /* Job Overview sidebar card */
+        html.dark-mode .jd-aside-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+            box-shadow: var(--site-shadow) !important;
+        }
+        html.dark-mode .jd-aside-card h3 { color: #fff !important; }
+        html.dark-mode .jd-overview-list li { border-color: var(--site-card-bd) !important; }
+        html.dark-mode .jd-overview-list .ico {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+        }
+        html.dark-mode .jd-overview-list .label { color: var(--site-muted) !important; }
+        html.dark-mode .jd-overview-list .value { color: #fff !important; }
+        /* "Explore similar jobs" link strip */
+        html.dark-mode .jd-explore-links a {
+            background: rgba(255,255,255,.06) !important;
+            border-color: rgba(255,255,255,.15) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .jd-explore-links a:hover {
+            background: rgba(255,138,0,.12) !important;
+            border-color: #ff8a00 !important;
+            color: #ff8a00 !important;
+        }
+        /* "Similar Jobs You Might Like" related-jobs grid */
+        html.dark-mode .jd-related { background: var(--site-bg) !important; }
+        html.dark-mode .jd-related-head h2 { color: #fff !important; }
+        html.dark-mode .jd-related-head p { color: #cbd5e1 !important; }
+        html.dark-mode .jd-related-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+            box-shadow: var(--site-shadow) !important;
+        }
+        html.dark-mode .jd-related-card:hover {
+            border-color: #ff8a00 !important;
+            box-shadow: 0 16px 32px rgba(0,0,0,.55) !important;
+        }
+        html.dark-mode .jd-related-card h3 { color: #fff !important; }
+        html.dark-mode .jd-related-card .company { color: #ff8a00 !important; }
+        html.dark-mode .jd-related-card .meta { color: #cbd5e1 !important; }
+        html.dark-mode .jd-related-card .meta i { color: #ff8a00 !important; }
+        html.dark-mode .jd-related-logo { background: rgba(255,255,255,.06) !important; }
+
+        /* === /about-us — press strip, FAQ, supporting cards === */
+        html.dark-mode .press-card,
+        html.dark-mode .press-strip {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+            box-shadow: var(--site-shadow) !important;
+        }
+        html.dark-mode .press-card h3,
+        html.dark-mode .press-card h4 { color: #fff !important; }
+        html.dark-mode .press-strip-item .ico {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+        }
+        html.dark-mode .about-faq-item {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .about-faq-item[open] {
+            border-color: #ff8a00 !important;
+            box-shadow: 0 8px 18px rgba(0,0,0,.55) !important;
+        }
+        html.dark-mode .about-faq-item summary { color: #fff !important; }
+        html.dark-mode .about-faq-item .faq-answer { color: #cbd5e1 !important; }
+
+        /* === /contact-us — quick cards, form, map card, FAQ === */
+        html.dark-mode .quick-contact-card,
+        html.dark-mode .contact-form-card,
+        html.dark-mode .contact-map-card,
+        html.dark-mode .contact-blog-card,
+        html.dark-mode .contact-faq-item {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+            box-shadow: var(--site-shadow) !important;
+        }
+        html.dark-mode .quick-contact-card h3,
+        html.dark-mode .contact-form-card h2,
+        html.dark-mode .contact-form-card h3,
+        html.dark-mode .contact-map-card h3,
+        html.dark-mode .contact-blog-card h3,
+        html.dark-mode .contact-blog-card h4 { color: #fff !important; }
+        html.dark-mode .quick-contact-card p,
+        html.dark-mode .contact-map-card p { color: #cbd5e1 !important; }
+        html.dark-mode .quick-contact-icon {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+        }
+        html.dark-mode .contact-map-card .map-stat {
+            background: rgba(255,255,255,.06) !important;
+            border-color: rgba(255,255,255,.12) !important;
+        }
+        html.dark-mode .contact-map-card .map-stat strong { color: #fff !important; }
+        html.dark-mode .contact-map-card .map-stat span { color: var(--site-muted) !important; }
+        html.dark-mode .contact-blog-card:hover { border-color: #ff8a00 !important; }
+        html.dark-mode .contact-faq-item[open] { border-color: #ff8a00 !important; }
+        html.dark-mode .contact-faq-item summary { color: #fff !important; }
+        html.dark-mode .contact-faq-item .faq-answer { color: #cbd5e1 !important; }
+
+        /* === /jobs-in-{state} (category-jobs) — trust cards === */
+        html.dark-mode .cat-trust-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+            box-shadow: var(--site-shadow) !important;
+        }
+        html.dark-mode .cat-trust-card:hover {
+            border-color: #ff8a00 !important;
+            box-shadow: 0 16px 32px rgba(0,0,0,.55) !important;
+        }
+        html.dark-mode .cat-trust-card h4 { color: #fff !important; }
+        html.dark-mode .cat-trust-card p { color: #cbd5e1 !important; }
+
+        /* === /blog/{slug} (blog-post) — sidebar widgets, latest posts, category list === */
+        html.dark-mode .blog-side-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .blog-side-card h3 { color: #fff !important; }
+        html.dark-mode .latest-posts-list .thumb { background: rgba(255,255,255,.06) !important; }
+        html.dark-mode .latest-posts-list .info h4 a { color: #fff !important; }
+        html.dark-mode .latest-posts-list .info h4 a:hover { color: #ff8a00 !important; }
+        html.dark-mode .latest-posts-list .date { color: var(--site-muted) !important; }
+        html.dark-mode .cat-list li a {
+            background: rgba(255,255,255,.06) !important;
+            border-color: rgba(255,255,255,.12) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .cat-list li a:hover {
+            background: rgba(255,138,0,.12) !important;
+            border-color: #ff8a00 !important;
+            color: #ff8a00 !important;
+        }
+        html.dark-mode .cat-list li a .count {
+            background: rgba(255,255,255,.10) !important;
+            color: #cbd5e1 !important;
+        }
+
+        /* === /jobs-categories — floating stat badges (white card in light, dark in dark) === */
+        html.dark-mode .cat-float-stat {
+            background: var(--site-card-bg) !important;
+            box-shadow: 0 14px 32px rgba(0,0,0,.55) !important;
+        }
+        html.dark-mode .cat-float-stat .text strong { color: #fff !important; }
+        html.dark-mode .cat-float-stat .text span { color: var(--site-muted) !important; }
+
+        /* === /job-seekers/{id} (show.blade.php) — panel children, skills, info table === */
+        html.dark-mode .panel h3 { color: #fff !important; }
+        html.dark-mode .panel p { color: #cbd5e1 !important; }
+        html.dark-mode .skill-grid .skill {
+            background: rgba(255,255,255,.06) !important;
+            border-color: rgba(255,255,255,.12) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .info-table dt { color: var(--site-muted) !important; }
+        html.dark-mode .info-table dd { color: #fff !important; }
+        html.dark-mode .related-card:hover { background: rgba(255,255,255,.06) !important; }
+        html.dark-mode .related-card .av {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+        }
+
+        /* === Homepage extras — blog-compact cards + stat items === */
+        html.dark-mode .blog-compact-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+            box-shadow: var(--site-shadow) !important;
+        }
+        html.dark-mode .blog-compact-card h3,
+        html.dark-mode .blog-compact-card h4 { color: #fff !important; }
+        html.dark-mode .blog-compact-card .meta,
+        html.dark-mode .blog-compact-card time { color: var(--site-muted) !important; }
+        html.dark-mode .stat-item {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .stat-item strong { color: #fff !important; }
+        html.dark-mode .stat-item span { color: var(--site-muted) !important; }
+
+        /* === /companies/{id} (companies-jobs page) === */
+        /* Company overview in sidebar */
+        html.dark-mode .utf-company-overview .company-desc h3 { color: #fff !important; }
+        html.dark-mode .utf-company-overview .company-desc p { color: #cbd5e1 !important; }
+        html.dark-mode .utf-company-overview .company-desc i { color: #ff8a00 !important; }
+        html.dark-mode .utf-company-overview .company-desc a { color: #ff8a00 !important; }
+        html.dark-mode .utf-company-overview .company-desc a:hover { color: #ffab40 !important; text-decoration: underline; }
+        /* Sidebar widget cards + headings ("Filter by Location", "Job Categories") */
+        html.dark-mode .utf-sidebar-widget-item {
+            background: transparent !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .utf-sidebar-widget-item h3 {
+            color: #fff !important;
+            border-bottom-color: #ff8a00 !important;
+        }
+        html.dark-mode .utf-sidebar-widget-item input[type="checkbox"] { accent-color: #ff8a00 !important; }
+        html.dark-mode .utf-sidebar-widget-item .utf-job-listing li a {
+            color: #cbd5e1 !important;
+            background: transparent !important;
+        }
+        html.dark-mode .utf-sidebar-widget-item .utf-job-listing li a:hover { color: #ff8a00 !important; }
+        html.dark-mode .utf-sidebar-widget-item .utf-job-listing .counter {
+            background: rgba(255,255,255,.06) !important;
+            color: #cbd5e1 !important;
+        }
+        /* Job-card extras not covered by generic .job-card block */
+        html.dark-mode .job-card-logo { background: rgba(255,255,255,.06) !important; }
+        html.dark-mode .job-card-meta li i { color: #ff8a00 !important; }
+        html.dark-mode .job-card-button {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+            box-shadow: 0 4px 12px rgba(255,138,0,.30) !important;
+        }
+        html.dark-mode .job-card:hover .job-card-button {
+            filter: brightness(1.05);
+            box-shadow: 0 8px 18px rgba(255,138,0,.45) !important;
+        }
+        /* Generic sidebar search button (`.button`) on this page */
+        html.dark-mode .utf-sidebar-container-aera .button,
+        html.dark-mode .utf-sidebar-widget-item .button {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+        }
+
+        /* === Final sweep — remaining gaps === */
+        /* /jobs/{slug} hero logo box (white square holding the company logo image) */
+        html.dark-mode .jd-hero-logo {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            box-shadow: var(--site-shadow) !important;
+        }
+        /* /blog/{slug} article container + tag/share dividers + social circles + author bio */
+        html.dark-mode .blog-detail-section {
+            background: var(--site-bg) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .blog-tags-row,
+        html.dark-mode .blog-share-row { border-top-color: var(--site-card-bd) !important; }
+        html.dark-mode .blog-share-row ul li a {
+            background: rgba(255,255,255,.06) !important;
+            border-color: rgba(255,255,255,.12) !important;
+            color: #cbd5e1 !important;
+        }
+        html.dark-mode .blog-share-row ul li a:hover {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+        }
+        html.dark-mode .blog-author-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .blog-author-card h4,
+        html.dark-mode .blog-author-card h3 { color: #fff !important; }
+        html.dark-mode .blog-author-card p { color: #cbd5e1 !important; }
+        /* /about-us stat cards, how-it-works cards, mission/vision/values cards, state chips */
+        html.dark-mode .about-stat-card,
+        html.dark-mode .how-card,
+        html.dark-mode .mvv-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+            box-shadow: var(--site-shadow) !important;
+        }
+        html.dark-mode .about-stat-card:hover,
+        html.dark-mode .how-card:hover,
+        html.dark-mode .mvv-card:hover {
+            border-color: #ff8a00 !important;
+            box-shadow: 0 16px 32px rgba(0,0,0,.55) !important;
+        }
+        html.dark-mode .about-stat-card strong,
+        html.dark-mode .about-stat-card h3,
+        html.dark-mode .how-card h3,
+        html.dark-mode .mvv-card h3 { color: #fff !important; }
+        html.dark-mode .about-stat-card span,
+        html.dark-mode .about-stat-card p,
+        html.dark-mode .how-card p,
+        html.dark-mode .mvv-card p { color: #cbd5e1 !important; }
+        html.dark-mode .states-chips a {
+            background: rgba(255,255,255,.06) !important;
+            border-color: rgba(255,255,255,.12) !important;
+            color: #e5e7eb !important;
+        }
+        html.dark-mode .states-chips a:hover {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+        }
+        /* /jobs-in-{location} listing — company logo container */
+        html.dark-mode .utf-job-listing-company-logo { background: rgba(255,255,255,.06) !important; }
+        /* /job-seekers/{id} page wrapper */
+        html.dark-mode .seeker-page { background: var(--site-bg) !important; }
+        html.dark-mode .jd-card h2 i { color: #ff8a00 !important; }
+
+        /* Theme toggle — sliding pill switch (sun left / moon right) */
+        .theme-toggle {
+            position: relative;
+            width: 56px; height: 30px;
+            background: #e5e7eb;
+            border: 1px solid #d1d5db;
+            border-radius: 999px;
+            padding: 0;
+            cursor: pointer;
+            margin: 0 6px;
+            flex-shrink: 0;
+            transition: background .25s ease, border-color .25s ease;
+            outline: none;
+        }
+        .theme-toggle:focus-visible { box-shadow: 0 0 0 3px rgba(255,138,0,.25); }
+        .theme-toggle .tt-thumb {
+            position: absolute;
+            top: 2px; left: 2px;
+            width: 24px; height: 24px;
+            border-radius: 50%;
+            background: #ffffff;
+            display: inline-flex;
+            align-items: center; justify-content: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,.18);
+            transition: transform .25s ease, background .25s ease;
+            font-size: 13px;
+            line-height: 1;
+        }
+        .theme-toggle .ic-sun  { color: #f59e0b; }
+        .theme-toggle .ic-moon { color: #c4b5fd; display: none; }
+        html.dark-mode .theme-toggle {
+            background: linear-gradient(135deg, #ff8a00, #ff5722);
+            border-color: #ff8a00;
+        }
+        html.dark-mode .theme-toggle .tt-thumb {
+            transform: translateX(26px);
+            background: #1f2937;
+        }
+        html.dark-mode .theme-toggle .ic-sun  { display: none; }
+        html.dark-mode .theme-toggle .ic-moon { display: inline; }
+
+        /* Dark mode: "Step 1/2/3/4" process badges → brand orange */
+        html.dark-mode .process-card .step-badge {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            box-shadow: 0 8px 18px rgba(255,87,34,.45) !important;
+        }
+
+        /* Dark mode: "Read all career advice" outline button → brand orange */
+        html.dark-mode .career-all {
+            color: #ff8a00 !important;
+            border-color: #ff8a00 !important;
+            background: transparent !important;
+        }
+        html.dark-mode .career-all:hover {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+            border-color: #ff8a00 !important;
+            box-shadow: 0 14px 28px rgba(255,138,0,.30) !important;
+        }
+
+        /* Dark mode: compare-section CTA buttons (Browse Verified Jobs / Create Free Account) */
+        html.dark-mode .compare-cta .btn-dark {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+            border-color: #ff8a00 !important;
+            box-shadow: 0 8px 18px rgba(255,138,0,.25) !important;
+        }
+        html.dark-mode .compare-cta .btn-dark:hover {
+            background: linear-gradient(135deg, #ff7a00, #ff4722) !important;
+            box-shadow: 0 14px 28px rgba(255,138,0,.40) !important;
+        }
+        html.dark-mode .compare-cta .btn-outline {
+            background: transparent !important;
+            color: #ff8a00 !important;
+            border-color: #ff8a00 !important;
+        }
+        html.dark-mode .compare-cta .btn-outline:hover {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+            border-color: #ff8a00 !important;
+        }
+
+        /* Home page CTAs: "Get Started — It's Free" + "Contact Support" → orange in dark */
+        html.dark-mode .why-cta {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+            box-shadow: 0 8px 18px rgba(255,138,0,.30) !important;
+        }
+        html.dark-mode .why-cta:hover {
+            background: linear-gradient(135deg, #ff7a00, #ff4722) !important;
+            box-shadow: 0 14px 28px rgba(255,138,0,.45) !important;
+        }
+        html.dark-mode .faq-left .contact-btn {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            color: #fff !important;
+            box-shadow: 0 8px 18px rgba(255,138,0,.30) !important;
+        }
+        html.dark-mode .faq-left .contact-btn:hover {
+            background: linear-gradient(135deg, #ff7a00, #ff4722) !important;
+            box-shadow: 0 14px 28px rgba(255,138,0,.45) !important;
+        }
+
+        /* Home hero "Search Jobs" button → orange in dark mode */
+        html.dark-mode .utf-intro-search-button .button,
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-button button {
+            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            border-color: #ff8a00 !important;
+            color: #fff !important;
+            box-shadow: 0 8px 18px rgba(255,138,0,.30) !important;
+        }
+        html.dark-mode .utf-intro-search-button .button:hover,
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-button button:hover {
+            background: linear-gradient(135deg, #ff7a00, #ff4722) !important;
+            box-shadow: 0 14px 28px rgba(255,138,0,.45) !important;
+        }
+        html.dark-mode .utf-intro-search-button .button i { color: #fff !important; }

@@ -1,0 +1,40 @@
+# Jobs in USA
+
+> Jobs in USA is a comprehensive job search platform with 100,000+ verified job openings across all 50 U.S. states. Free to search and apply, fresh listings updated hourly via Jobg8 partnership.
+
+## About
+
+Jobs in USA helps job seekers find their next career opportunity across the United States. We aggregate listings from trusted sources, with new openings updated every hour. All searches and applications are 100% free.
+
+## Key Pages
+
+- [Home](https://jobsinusa.us): Search jobs by keyword, location, or category
+- [Browse All Jobs](https://jobsinusa.us/jobs): Full job listings with filters
+- [Job Seekers](https://jobsinusa.us/job-seekers): Resources, resume tips, career advice
+- [Companies](https://jobsinusa.us/companies): Employer directory
+- [Locations](https://jobsinusa.us/locations): Browse jobs by state and city
+- [Categories](https://jobsinusa.us/categories): Browse jobs by industry
+- [Blog](https://jobsinusa.us/blog): Career advice, salary guides, resume tips
+- [About Us](https://jobsinusa.us/about-us): Our mission and team
+- [Contact](https://jobsinusa.us/contact): Get in touch
+
+## Job Categories
+
+Healthcare & Medical, Information Technology, Hospitality & Tourism, Transport & Logistics, Retail & Consumer Products, Education & Training, Construction, Sales, Manufacturing, Finance & Banking, Marketing & Communications, Administration, Engineering, and more.
+
+## Featured Locations
+
+Jobs in Texas, California, New York, Florida, Illinois, Pennsylvania, Ohio, Georgia, North Carolina, Michigan, and 40+ other states.
+
+## How to Use
+
+1. Use the search bar to find jobs by keyword, location, or category
+2. Filter results by job type (permanent, temporary, contract), salary, or recency
+3. Click "Browse Job" on any listing to view full details
+4. Apply directly with the employer — no middleman, no fees
+5. Create a free account to save jobs, set up alerts, and upload your resume
+
+## Contact
+
+Website: https://jobsinusa.us
+Sitemap: https://jobsinusa.us/sitemap.xml

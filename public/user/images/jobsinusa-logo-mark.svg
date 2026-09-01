@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="Jobs in USA">
+  <defs>
+    <linearGradient id="mark-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="mark-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff5722"/>
+      <stop offset="100%" stop-color="#5e2bff"/>
+    </linearGradient>
+    <linearGradient id="mark-gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd54f"/>
+      <stop offset="100%" stop-color="#ff7043"/>
+    </linearGradient>
+    <radialGradient id="mark-glow" cx="78%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#ff5722" stop-opacity=".75"/>
+      <stop offset="60%" stop-color="#5e2bff" stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Brand-black rounded background with orange/violet glow corner -->
+  <rect x="0" y="0" width="96" height="96" rx="22" fill="url(#mark-bg)"/>
+  <rect x="0" y="0" width="96" height="96" rx="22" fill="url(#mark-glow)"/>
+
+  <!-- "J" monogram with location pin tail (job + place = jobs in USA) -->
+  <g transform="translate(28,22)">
+    <!-- J top bar -->
+    <rect x="0" y="0" width="34" height="6" rx="3" fill="#fff"/>
+    <!-- J vertical stroke -->
+    <rect x="22" y="0" width="6" height="32" rx="3" fill="#fff"/>
+    <!-- J curve -->
+    <path d="M28 32 a16 16 0 0 1 -16 16 a16 16 0 0 1 -12 -5"
+          fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+    <!-- Location pin dot at the J base (USA placement marker) -->
+    <circle cx="12" cy="48" r="4.2" fill="url(#mark-gold)"/>
+  </g>
+
+  <!-- Star (USA hint) top-right -->
+  <path d="M76 16 l1.7 3.45 3.8.55 -2.75 2.68 .65 3.78 -3.4-1.79 -3.4 1.79 .65-3.78 -2.75-2.68 3.8-.55 z"
+        fill="url(#mark-gold)"/>
+
+  <!-- Subtle accent underline -->
+  <rect x="22" y="80" width="52" height="3" rx="1.5" fill="url(#mark-accent)" opacity=".9"/>
+</svg>

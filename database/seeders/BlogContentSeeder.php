@@ -22,31 +22,36 @@ class BlogContentSeeder extends Seeder
 
         // === Create 7 job-related categories ===
         $catData = [
-            'Career Advice'        => 'career-advice',
-            'Job Search Tips'      => 'job-search-tips',
-            'Resume & Interviews'  => 'resume-interviews',
-            'Industry Insights'    => 'industry-insights',
-            'Remote Work'          => 'remote-work',
-            'Workplace Tips'       => 'workplace-tips',
-            'Salary & Benefits'    => 'salary-benefits',
+            'Career Advice' => 'career-advice',
+            'Job Search Tips' => 'job-search-tips',
+            'Resume & Interviews' => 'resume-interviews',
+            'Industry Insights' => 'industry-insights',
+            'Remote Work' => 'remote-work',
+            'Workplace Tips' => 'workplace-tips',
+            'Salary & Benefits' => 'salary-benefits',
         ];
         $cats = [];
         foreach ($catData as $name => $slug) {
             $cats[$name] = BlogCatgories::create(['name' => $name, 'slug' => $slug]);
         }
 
-        // === Image pool — cycle through existing site images ===
+        // === Image pool — real-world city + industry scenes (no face thumbnails) ===
         $images = [
-            'public/user/images/comm_small_1.png',
-            'public/user/images/comm_small_2.png',
-            'public/user/images/comm_small_3.png',
-            'public/user/images/comm_small_4.png',
-            'public/user/images/comm_small_5.png',
-            'public/user/images/home-background-02.jpg',
-            'public/user/images/home-background-03.jpg',
-            'public/user/images/jobimages.png',
-            'public/user/images/job-detail-inner.png',
-            'public/user/images/mockup3.png',
+            'public/user/images/popular-location-01.jpg',
+            'public/user/images/job-category-01.jpg',
+            'public/user/images/popular-location-02.jpg',
+            'public/user/images/job-category-02.jpg',
+            'public/user/images/popular-location-03.jpg',
+            'public/user/images/job-category-03.jpg',
+            'public/user/images/popular-location-04.jpg',
+            'public/user/images/job-category-04.jpg',
+            'public/user/images/popular-location-05.jpg',
+            'public/user/images/job-category-05.jpg',
+            'public/user/images/popular-location-06.jpg',
+            'public/user/images/job-category-07.jpg',
+            'public/user/images/popular-location-07.jpg',
+            'public/user/images/job-category-08.jpg',
+            'public/user/images/popular-location-08.jpg',
         ];
 
         // === 15 SEO-optimized blog posts ===
@@ -57,25 +62,25 @@ class BlogContentSeeder extends Seeder
 
             Blog::create([
                 'blog_catgories_id' => $cats[$post['cat']]->id,
-                'author_id'         => $authorId,
-                'author_name'       => 'Jobs in USA Editorial',
-                'title'             => $post['title'],
-                'slug'              => Str::slug($post['title']),
-                'excerpt'           => $post['excerpt'],
-                'content'           => $post['content'],
-                'tags'              => $post['tags'],
-                'featured_image'    => $images[$i % count($images)],
-                'gallery_images'    => null,
-                'meta_title'        => $post['meta_title'],
-                'meta_description'  => $post['meta_description'],
-                'reading_time'      => $post['reading_time'],
-                'status'            => 'published',
-                'is_featured'       => $i < 3,
-                'published_at'      => $publishedAt,
+                'author_id' => $authorId,
+                'author_name' => 'Jobs in USA Editorial',
+                'title' => $post['title'],
+                'slug' => Str::slug($post['title']),
+                'excerpt' => $post['excerpt'],
+                'content' => $post['content'],
+                'tags' => $post['tags'],
+                'featured_image' => $images[$i % count($images)],
+                'gallery_images' => null,
+                'meta_title' => $post['meta_title'],
+                'meta_description' => $post['meta_description'],
+                'reading_time' => $post['reading_time'],
+                'status' => 'published',
+                'is_featured' => $i < 3,
+                'published_at' => $publishedAt,
             ]);
         }
 
-        $this->command->info('Seeded ' . count($cats) . ' categories and ' . count($posts) . ' SEO-optimized blog posts.');
+        $this->command->info('Seeded '.count($cats).' categories and '.count($posts).' SEO-optimized blog posts.');
     }
 
     private function posts(): array
@@ -173,7 +178,7 @@ class BlogContentSeeder extends Seeder
                 'cat' => 'Career Advice',
                 'title' => 'Career Change at 40: A Step-by-Step Guide That Works',
                 'meta_title' => 'Career Change at 40: Complete Step-by-Step Guide (2026)',
-                'meta_description' => "Considering a career switch at 40+? Here is the proven 6-step framework to pivot industries without taking a pay cut.",
+                'meta_description' => 'Considering a career switch at 40+? Here is the proven 6-step framework to pivot industries without taking a pay cut.',
                 'excerpt' => "A career change at 40 isn't late — it is strategic. This guide walks you through the exact 6-step pivot framework.",
                 'tags' => 'career change, mid-career, career pivot, professional development, jobs',
                 'reading_time' => 8,
@@ -184,7 +189,7 @@ class BlogContentSeeder extends Seeder
                 'cat' => 'Job Search Tips',
                 'title' => 'The Hidden Job Market: How to Find Unposted Opportunities',
                 'meta_title' => 'The Hidden Job Market: How to Find Unposted Jobs in 2026',
-                'meta_description' => "Up to 70% of U.S. jobs are never publicly posted. Here is how to access the hidden market and beat the competition.",
+                'meta_description' => 'Up to 70% of U.S. jobs are never publicly posted. Here is how to access the hidden market and beat the competition.',
                 'excerpt' => 'Most great jobs are never posted publicly. Here is how networking, outreach, and warm intros open doors others miss.',
                 'tags' => 'hidden job market, networking, job search, career advice',
                 'reading_time' => 6,
@@ -195,7 +200,7 @@ class BlogContentSeeder extends Seeder
                 'cat' => 'Job Search Tips',
                 'title' => 'AI in Hiring 2026: How to Beat ATS Resume Filters',
                 'meta_title' => 'Beat the ATS in 2026: How to Pass AI Resume Filters',
-                'meta_description' => "Modern ATS uses AI to score resumes. Here is exactly how to format, keyword and structure yours to pass the filter every time.",
+                'meta_description' => 'Modern ATS uses AI to score resumes. Here is exactly how to format, keyword and structure yours to pass the filter every time.',
                 'excerpt' => 'AI-powered ATS now read resumes like a junior recruiter. Here is how to write yours so it actually makes it to a human.',
                 'tags' => 'ATS, AI hiring, resume tips, job search, automation',
                 'reading_time' => 6,
@@ -239,7 +244,7 @@ class BlogContentSeeder extends Seeder
                 'cat' => 'Industry Insights',
                 'title' => 'Tech Career Roadmap: From Bootcamp to $100K',
                 'meta_title' => 'Tech Career Roadmap 2026: From Bootcamp to $100K',
-                'meta_description' => "A realistic 24-month roadmap to go from coding bootcamp grad to a 100K U.S. tech job — without a CS degree.",
+                'meta_description' => 'A realistic 24-month roadmap to go from coding bootcamp grad to a 100K U.S. tech job — without a CS degree.',
                 'excerpt' => "You don't need a CS degree to earn 100K in tech. Here is the realistic 24-month roadmap that works in 2026.",
                 'tags' => 'tech jobs, bootcamp, career change, software engineer, web developer',
                 'reading_time' => 8,

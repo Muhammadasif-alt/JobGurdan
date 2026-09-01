@@ -2,58 +2,70 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
+    /**
+     * Indexes to create, keyed by table.
+     *
+     * @var array<string, array<string, list<string>>>
+     */
+    private array $indexes = [
+        'jobs' => [
+            'jobs_created_at_index' => ['created_at'],
+            'jobs_status_index' => ['status'],
+            'jobs_status_created_at_index' => ['status', 'created_at'],
+            'jobs_position_index' => ['position'],
+        ],
+        'contact_messages' => [
+            'contact_messages_status_index' => ['status'],
+            'contact_messages_created_at_index' => ['created_at'],
+        ],
+        'users' => [
+            'users_role_index' => ['role'],
+        ],
+        'blogs' => [
+            'blogs_status_index' => ['status'],
+            'blogs_published_at_index' => ['published_at'],
+        ],
+    ];
+
     public function up(): void
     {
-        $this->addIndexIfMissing('jobs', 'jobs_created_at_index', 'CREATE INDEX jobs_created_at_index ON jobs (created_at)');
-        $this->addIndexIfMissing('jobs', 'jobs_status_index',     'CREATE INDEX jobs_status_index ON jobs (status)');
-        $this->addIndexIfMissing('jobs', 'jobs_status_created_at_index', 'CREATE INDEX jobs_status_created_at_index ON jobs (status, created_at)');
-        $this->addIndexIfMissing('jobs', 'jobs_position_index',   'CREATE INDEX jobs_position_index ON jobs (position)');
+        foreach ($this->indexes as $table => $indexes) {
+            if (! Schema::hasTable($table)) {
+                continue;
+            }
 
-        $this->addIndexIfMissing('contact_messages', 'contact_messages_status_index', 'CREATE INDEX contact_messages_status_index ON contact_messages (status)');
-        $this->addIndexIfMissing('contact_messages', 'contact_messages_created_at_index', 'CREATE INDEX contact_messages_created_at_index ON contact_messages (created_at)');
+            foreach ($indexes as $name => $columns) {
+                if (! Schema::hasColumns($table, $columns) || Schema::hasIndex($table, $name)) {
+                    continue;
+                }
 
-        if (Schema::hasColumn('users', 'role')) {
-            $this->addIndexIfMissing('users', 'users_role_index', 'CREATE INDEX users_role_index ON users (role)');
-        }
-
-        if (Schema::hasTable('blogs')) {
-            $this->addIndexIfMissing('blogs', 'blogs_status_index', 'CREATE INDEX blogs_status_index ON blogs (status)');
-            $this->addIndexIfMissing('blogs', 'blogs_published_at_index', 'CREATE INDEX blogs_published_at_index ON blogs (published_at)');
+                Schema::table($table, function (Blueprint $blueprint) use ($columns, $name): void {
+                    $blueprint->index($columns, $name);
+                });
+            }
         }
     }
 
     public function down(): void
     {
-        $this->dropIndexIfExists('jobs', 'jobs_created_at_index');
-        $this->dropIndexIfExists('jobs', 'jobs_status_index');
-        $this->dropIndexIfExists('jobs', 'jobs_status_created_at_index');
-        $this->dropIndexIfExists('jobs', 'jobs_position_index');
-        $this->dropIndexIfExists('contact_messages', 'contact_messages_status_index');
-        $this->dropIndexIfExists('contact_messages', 'contact_messages_created_at_index');
-        $this->dropIndexIfExists('users', 'users_role_index');
-        $this->dropIndexIfExists('blogs', 'blogs_status_index');
-        $this->dropIndexIfExists('blogs', 'blogs_published_at_index');
-    }
+        foreach ($this->indexes as $table => $indexes) {
+            if (! Schema::hasTable($table)) {
+                continue;
+            }
 
-    private function addIndexIfMissing(string $table, string $indexName, string $sql): void
-    {
-        $exists = collect(DB::select("SHOW INDEX FROM `{$table}`"))->pluck('Key_name')->contains($indexName);
-        if (! $exists) {
-            DB::statement($sql);
-        }
-    }
+            foreach (array_keys($indexes) as $name) {
+                if (! Schema::hasIndex($table, $name)) {
+                    continue;
+                }
 
-    private function dropIndexIfExists(string $table, string $indexName): void
-    {
-        if (! Schema::hasTable($table)) return;
-        $exists = collect(DB::select("SHOW INDEX FROM `{$table}`"))->pluck('Key_name')->contains($indexName);
-        if ($exists) {
-            DB::statement("DROP INDEX `{$indexName}` ON `{$table}`");
+                Schema::table($table, function (Blueprint $blueprint) use ($name): void {
+                    $blueprint->dropIndex($name);
+                });
+            }
         }
     }
 };

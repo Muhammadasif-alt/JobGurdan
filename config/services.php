@@ -38,7 +38,7 @@ return [
     // Google Gemini — used for AI-powered resume parsing (free tier).
     // Get a key at https://aistudio.google.com/app/apikey
     'gemini' => [
-        'key'   => env('GEMINI_API_KEY'),
+        'key' => env('GEMINI_API_KEY'),
         'model' => env('GEMINI_MODEL', 'gemini-2.0-flash'),
     ],
 

@@ -12,7 +12,8 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
-        //
+        // Canonical URL + security headers (runs on every request, bypasses CDN)
+        $middleware->append(\App\Http\Middleware\CanonicalRedirect::class);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //

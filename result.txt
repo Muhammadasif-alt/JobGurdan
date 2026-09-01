@@ -1,0 +1,72 @@
+﻿{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"data\":{\"success\":true,\"return_value\":{\"page_537\":{\"title\":\"Contact Us\",\"status\":\"publish\",\"modified\":\"2026-05-11 09:17:18\",\"modified_gmt\":\"2026-05-11 09:17:18\",\"forms_current\":[{\"widget_id\":\"3262ed3\",\"widget_type\":\"form\",\"form_name\":\"New Form\",\"button_text\":\"Get My Free Estimate\",\"email_to\":\"sales@ryzeoutdoorcreations.com \",\"email_to_2\":\"team@getlocalleads.agency\",\"email_subject\":\"New Lead From \\\"Ryze Outdoor\\\"\",\"email_from\":\"sales@ryzeoutdoorcreations.com\",\"email_from_name\":\"Ryze Outdoor\"},{\"widget_id\":\"90d75eb\",\"widget_type\":\"form\",\"form_name\":\"New Form\",\"button_text\":\"Get My Free Estimate\",\"email_to\":\"azturfinstallers@gmail.com\",\"email_to_2\":\"team@getlocalleads.agency\",\"email_subject\":\"New Lead From \\\"Ryze Outdoor\\\"\",\"email_from\":\"azturfinstallers@gmail.com\",\"email_from_name\":\"Ryze Outdoor\"}]},\"sitewide_summary\":{\"niazbhatti8750@gmail.com\":{\"live_publish_hits\":[],\"revision_hits\":48,\"options_hits\":0},\"niaz@ideaditgital.services\":{\"live_publish_hits\":[],\"revision_hits\":0,\"options_hits\":0},\"niaz@ideadigital.services\":{\"live_publish_hits\":[],\"revision_hits\":0,\"options_hits\":0},\"niaz\":{\"live_publish_hits\":[],\"revision_hits\":48,\"options_hits\":0}}},\"output\":\"\",\"errors\":[],\"execution_time_ms\":8375.870000000000800355337560176849365234375}}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "data": {
+      "success": true,
+      "return_value": {
+        "page_537": {
+          "title": "Contact Us",
+          "status": "publish",
+          "modified": "2026-05-11 09:17:18",
+          "modified_gmt": "2026-05-11 09:17:18",
+          "forms_current": [
+            {
+              "widget_id": "3262ed3",
+              "widget_type": "form",
+              "form_name": "New Form",
+              "button_text": "Get My Free Estimate",
+              "email_to": "sales@ryzeoutdoorcreations.com ",
+              "email_to_2": "team@getlocalleads.agency",
+              "email_subject": "New Lead From \"Ryze Outdoor\"",
+              "email_from": "sales@ryzeoutdoorcreations.com",
+              "email_from_name": "Ryze Outdoor"
+            },
+            {
+              "widget_id": "90d75eb",
+              "widget_type": "form",
+              "form_name": "New Form",
+              "button_text": "Get My Free Estimate",
+              "email_to": "azturfinstallers@gmail.com",
+              "email_to_2": "team@getlocalleads.agency",
+              "email_subject": "New Lead From \"Ryze Outdoor\"",
+              "email_from": "azturfinstallers@gmail.com",
+              "email_from_name": "Ryze Outdoor"
+            }
+          ]
+        },
+        "sitewide_summary": {
+          "niazbhatti8750@gmail.com": {
+            "live_publish_hits": [],
+            "revision_hits": 48,
+            "options_hits": 0
+          },
+          "niaz@ideaditgital.services": {
+            "live_publish_hits": [],
+            "revision_hits": 0,
+            "options_hits": 0
+          },
+          "niaz@ideadigital.services": {
+            "live_publish_hits": [],
+            "revision_hits": 0,
+            "options_hits": 0
+          },
+          "niaz": {
+            "live_publish_hits": [],
+            "revision_hits": 48,
+            "options_hits": 0
+          }
+        }
+      },
+      "output": "",
+      "errors": [],
+      "execution_time_ms": 8375.87
+    }
+  },
+  "isError": false
+}

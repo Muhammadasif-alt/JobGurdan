@@ -6,20 +6,21 @@ use App\Models\Advertiser;
 use App\Models\Category;
 use App\Models\Job;
 use App\Models\Location;
+use App\Services\JobKeywordExtractor;
 use Illuminate\Support\Str;
 use Maatwebsite\Excel\Concerns\ToModel;
 use Maatwebsite\Excel\Concerns\WithChunkReading;
 use Maatwebsite\Excel\Concerns\WithHeadingRow;
 
-class JobsImport implements ToModel, WithHeadingRow, WithChunkReading
+class JobsImport implements ToModel, WithChunkReading, WithHeadingRow
 {
     /** Hashes seen in the current import batch — prevents duplicates within the same file. */
     protected array $seenHashes = [];
 
     /** Counters exposed for after-import reporting. */
     public int $imported = 0;
-    public int $skipped  = 0;
 
+    public int $skipped = 0;
 
     /**
      * Map Excel row to Job model and normalize data.
@@ -62,7 +63,7 @@ class JobsImport implements ToModel, WithHeadingRow, WithChunkReading
 
             $advertiser = $advertiserQuery->first();
 
-            if (!$advertiser) {
+            if (! $advertiser) {
                 $advertiser = Advertiser::create([
                     'name' => $advertiserName !== '' ? $advertiserName : null,
                     'type' => $advertiserType !== '' ? $advertiserType : null,
@@ -91,7 +92,7 @@ class JobsImport implements ToModel, WithHeadingRow, WithChunkReading
                 $location = null;
             }
 
-            if (!$location) {
+            if (! $location) {
                 $location = Location::create([
                     'name' => $locationName !== '' ? $locationName : null,
                     'area' => $area !== '' ? $area : null,
@@ -112,11 +113,13 @@ class JobsImport implements ToModel, WithHeadingRow, WithChunkReading
             // Skip if same hash already seen earlier in this same file
             if (isset($this->seenHashes[$hash])) {
                 $this->skipped++;
+
                 return null;
             }
             // Skip if a job with this hash already exists in DB
             if (Job::where('dedupe_hash', $hash)->exists()) {
                 $this->skipped++;
+
                 return null;
             }
             $this->seenHashes[$hash] = true;
@@ -124,12 +127,20 @@ class JobsImport implements ToModel, WithHeadingRow, WithChunkReading
 
         $this->imported++;
 
+        // === Extract SEO keywords + build meta description (rule-based, no API) ===
+        $description = $row['description'] ?? null;
+        $extractor = app(JobKeywordExtractor::class);
+        $keywords = $extractor->extract($position, $description);
+        $metaDesc = $extractor->buildMetaDescription($position, $description, $locationName);
+
         return new Job([
             'category_id' => $categoryId,
             'advertiser_id' => $advertiserId,
             'location_id' => $locationId,
             'position' => $position,
-            'description' => $row['description'] ?? null,
+            'description' => $description,
+            'seo_keywords' => $keywords ? implode(', ', $keywords) : null,
+            'meta_description' => $metaDesc !== '' ? $metaDesc : null,
             'language' => $row['language'] ?? null,
             'employment_type' => $row['employmenttype'] ?? $row['employment_type'] ?? null,
             'work_hours' => $row['workhours'] ?? $row['work_hours'] ?? null,

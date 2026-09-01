@@ -1,0 +1,29 @@
+<svg viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg" style="background:transparent;">
+  <defs>
+    <clipPath id="flagClip2">
+      <rect x="0" y="4" width="22" height="22" rx="3"/>
+    </clipPath>
+  </defs>
+  <rect x="0" y="4" width="22" height="22" rx="3" fill="#B22234"/>
+  <rect x="0" y="4" width="22" height="7" fill="#B22234" clip-path="url(#flagClip2)"/>
+  <rect x="0" y="7" width="22" height="2.5" fill="#fff"/>
+  <rect x="0" y="9.5" width="22" height="2.5" fill="#B22234"/>
+  <rect x="0" y="12" width="22" height="2.5" fill="#fff"/>
+  <rect x="0" y="14.5" width="22" height="2.5" fill="#B22234"/>
+  <rect x="0" y="17" width="22" height="2.5" fill="#fff"/>
+  <rect x="0" y="19.5" width="22" height="2.5" fill="#B22234"/>
+  <rect x="0" y="22" width="22" height="4" fill="#fff"/>
+  <rect x="0" y="4" width="10" height="12" rx="2" fill="#3C3B6E"/>
+  <circle cx="2.5" cy="7" r="0.8" fill="#fff"/>
+  <circle cx="5" cy="7" r="0.8" fill="#fff"/>
+  <circle cx="7.5" cy="7" r="0.8" fill="#fff"/>
+  <circle cx="2.5" cy="9.5" r="0.8" fill="#fff"/>
+  <circle cx="5" cy="9.5" r="0.8" fill="#fff"/>
+  <circle cx="7.5" cy="9.5" r="0.8" fill="#fff"/>
+  <circle cx="2.5" cy="12" r="0.8" fill="#fff"/>
+  <circle cx="5" cy="12" r="0.8" fill="#fff"/>
+  <circle cx="7.5" cy="12" r="0.8" fill="#fff"/>
+  <text x="28" y="22" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="18" letter-spacing="-0.3">
+    <tspan fill="#0a0a0a">jobs</tspan><tspan fill="#F97316">in</tspan><tspan fill="#0a0a0a">usa</tspan>
+  </text>
+</svg>

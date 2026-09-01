@@ -16,6 +16,7 @@ class User extends Authenticatable
 
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory;
+
     use HasProfilePhoto;
     use Notifiable;
     use TwoFactorAuthenticatable;
@@ -83,26 +84,64 @@ class User extends Authenticatable
     }
 
     /** Allowed account roles for the public site (admin is set via the admin panel). */
-    public const ROLE_ADMIN      = 'admin';
-    public const ROLE_COMPANY    = 'company';
+    public const ROLE_ADMIN = 'admin';
+
+    public const ROLE_COMPANY = 'company';
+
     public const ROLE_JOB_SEEKER = 'job_seeker';
-    public const ROLE_USER       = 'user';
+
+    public const ROLE_USER = 'user';
 
     /** Roles that the public register form can choose from. */
     public const PUBLIC_ROLES = [self::ROLE_COMPANY, self::ROLE_JOB_SEEKER];
 
-    public function isAdmin(): bool      { return $this->role === self::ROLE_ADMIN; }
-    public function isCompany(): bool    { return $this->role === self::ROLE_COMPANY; }
-    public function isJobSeeker(): bool  { return $this->role === self::ROLE_JOB_SEEKER; }
+    public function isAdmin(): bool
+    {
+        return $this->role === self::ROLE_ADMIN;
+    }
+
+    public function isCompany(): bool
+    {
+        return $this->role === self::ROLE_COMPANY;
+    }
+
+    public function isJobSeeker(): bool
+    {
+        return $this->role === self::ROLE_JOB_SEEKER;
+    }
 
     /** Where this user should land after login (and on the generic /dashboard route). */
     public function dashboardRouteName(): string
     {
         return match ($this->role) {
-            self::ROLE_ADMIN      => 'admin.dashboard',
-            self::ROLE_COMPANY    => 'company.dashboard',
+            self::ROLE_ADMIN => 'admin.dashboard',
+            self::ROLE_COMPANY => 'company.dashboard',
             self::ROLE_JOB_SEEKER => 'seeker.dashboard',
-            default               => 'home', // legacy 'user' or unknown roles → public home (no auth) so we never loop
+            default => 'home', // legacy 'user' or unknown roles → public home (no auth) so we never loop
         };
+    }
+
+    /**
+     * Jobs this user has saved/bookmarked.
+     */
+    public function savedJobs(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
+    {
+        return $this->belongsToMany(Job::class, 'saved_jobs')
+            ->withTimestamps()
+            ->orderByDesc('saved_jobs.created_at');
+    }
+
+    /** Has this user saved the given job? */
+    public function hasSavedJob(int|Job $job): bool
+    {
+        $jobId = $job instanceof Job ? $job->id : (int) $job;
+
+        return $this->savedJobs()->where('jobs.id', $jobId)->exists();
+    }
+
+    /** Job alert subscriptions belonging to this user. */
+    public function jobAlerts(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(JobAlert::class)->orderByDesc('created_at');
     }
 }
