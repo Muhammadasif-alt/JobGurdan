@@ -427,6 +427,26 @@
                 </div>
 
                 <div class="panel">
+                    <div class="panel-head"><h3><i class="bi bi-search"></i> SEO</h3></div>
+                    <div class="panel-body">
+                        <div class="field">
+                            <label for="meta_description">Meta Description</label>
+                            <textarea id="meta_description" name="meta_description" rows="3"
+                                      maxlength="160"
+                                      placeholder="The one-line summary Google shows under the page title.">{{ old('meta_description') }}</textarea>
+                            <small style="color:#6b7280;">Keep it under 160 characters. Leave blank to fall back to the job description.</small>
+                        </div>
+                        <div class="field">
+                            <label for="seo_keywords">SEO Keywords</label>
+                            <input type="text" id="seo_keywords" name="seo_keywords"
+                                   value="{{ old('seo_keywords') }}"
+                                   placeholder="nurse jobs, registered nurse, healthcare careers">
+                            <small style="color:#6b7280;">Comma-separated.</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel">
                     <div class="panel-head"><h3><i class="bi bi-info-circle"></i> Tip</h3></div>
                     <div class="panel-body">
                         <p style="font-size: 13.5px; color: #4b5563; margin: 0; line-height: 1.6;">

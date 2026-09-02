@@ -246,6 +246,24 @@
                                 </select>
                             </div>
                         </div>
+
+                        <h5 class="mt-4 mb-3">SEO</h5>
+                        <div class="row g-3">
+                            <div class="col-md-12">
+                                <label for="meta_description" class="form-label">Meta Description</label>
+                                <textarea id="meta_description" name="meta_description" class="form-control" rows="3"
+                                          maxlength="160"
+                                          placeholder="The one-line summary Google shows under the page title.">{{ old('meta_description', $job->meta_description) }}</textarea>
+                                <div class="form-text">Keep it under 160 characters. Leave blank to fall back to the job description.</div>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="seo_keywords" class="form-label">SEO Keywords</label>
+                                <input type="text" id="seo_keywords" name="seo_keywords" class="form-control"
+                                       value="{{ old('seo_keywords', $job->getRawOriginal('seo_keywords')) }}"
+                                       placeholder="nurse jobs, registered nurse, healthcare careers">
+                                <div class="form-text">Comma-separated.</div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="card-footer d-flex justify-content-between">

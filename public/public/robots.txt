@@ -1,4 +1,4 @@
-# robots.txt for Jobs in USA
+# robots.txt for JobGader
 # Allow all major search engines to crawl public pages
 
 User-agent: *
@@ -30,4 +30,4 @@ User-agent: Googlebot-jobs
 Allow: /
 
 # Sitemap location (absolute URL — required by Google/Bing)
-Sitemap: https://jobsinusa.us/sitemap.xml
+Sitemap: https://jobgader.com/sitemap.xml

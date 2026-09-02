@@ -88,6 +88,10 @@ class JobController extends Controller
             'salary_minimum' => 'nullable|numeric|min:0',
             'salary_maximum' => 'nullable|numeric|min:0',
             'application_url' => 'nullable|url',
+            'meta_description' => 'nullable|string|max:160',
+            'seo_keywords' => 'nullable|string|max:255',
+        ], [
+            'meta_description.max' => 'The meta description should stay under 160 characters so Google does not truncate it in search results.',
         ]);
 
         // Duplicate guard: same position + employer + location already exists?
@@ -152,6 +156,10 @@ class JobController extends Controller
             'salary_minimum' => 'nullable|numeric|min:0',
             'salary_maximum' => 'nullable|numeric|min:0',
             'application_url' => 'nullable|url',
+            'meta_description' => 'nullable|string|max:160',
+            'seo_keywords' => 'nullable|string|max:255',
+        ], [
+            'meta_description.max' => 'The meta description should stay under 160 characters so Google does not truncate it in search results.',
         ]);
 
         // Duplicate guard â€” exclude the current job from the check
