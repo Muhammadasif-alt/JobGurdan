@@ -15,6 +15,22 @@ use Illuminate\Support\Facades\DB;
 class UserJobController extends Controller
 {
     /**
+     * SQL expression counting distinct (position, advertiser_id) pairs.
+     *
+     * MySQL accepts a multi-column COUNT(DISTINCT a, b); SQLite — which the test
+     * suite runs on — does not, so there the pair is concatenated with a separator.
+     * Both forms exclude rows with a NULL member, so the counts match.
+     */
+    private static function dedupedJobCount(string $alias = ''): string
+    {
+        $expression = DB::connection()->getDriverName() === 'sqlite'
+            ? "COUNT(DISTINCT position || '~' || advertiser_id)"
+            : 'COUNT(DISTINCT position, advertiser_id)';
+
+        return $alias === '' ? $expression : "{$expression} as {$alias}";
+    }
+
+    /**
      * Display home page with search-focused functionality (Indeed-style).
      * Only provides locations for the search form and basic stats.
      */
@@ -34,7 +50,7 @@ class UserJobController extends Controller
                     ->where(function ($q) {
                         $q->where('status', 'active')->orWhereNull('status');
                     })
-                    ->selectRaw('COUNT(DISTINCT position, advertiser_id) as c')
+                    ->selectRaw(self::dedupedJobCount('c'))
                     ->value('c'),
                 'total_categories' => Category::count(),
                 'total_locations' => Location::count(),
@@ -60,7 +76,7 @@ class UserJobController extends Controller
                 ->select(['id', 'name', 'slug'])
                 ->selectSub(
                     DB::table('jobs')
-                        ->selectRaw('COUNT(DISTINCT position, advertiser_id)')
+                        ->selectRaw(self::dedupedJobCount())
                         ->whereColumn('category_id', 'categories.id')
                         ->where(function ($q) {
                             $q->where('status', 'active')->orWhereNull('status');
@@ -83,13 +99,27 @@ class UserJobController extends Controller
                 ->get();
         });
 
+        // Latest openings for the homepage grid under the hero (4 per row x 2 rows).
+        // Only the columns the card renders are selected — keeps the cached payload small.
+        $featuredJobs = Cache::remember('home.featuredJobs', 600, function () {
+            return Job::select(['id', 'position', 'employment_type', 'created_at', 'advertiser_id', 'location_id', 'category_id'])
+                ->with([
+                    'advertiser:id,name,logo',
+                    'location:id,name,area',
+                    'category:id,name,slug',
+                ])
+                ->orderByDesc('id')
+                ->take(8)
+                ->get();
+        });
+
         return view('user.index', [
             'locations' => $locations,
             'stats' => $stats,
             'trendingKeywords' => $trendingKeywords,
             'categories' => $categories,
             'careerPosts' => $careerPosts,
-            'featuredJobs' => collect(),
+            'featuredJobs' => $featuredJobs,
         ]);
     }
 
@@ -141,7 +171,7 @@ class UserJobController extends Controller
                     ->where(function ($q) {
                         $q->where('status', 'active')->orWhereNull('status');
                     })
-                    ->selectRaw('COUNT(DISTINCT position, advertiser_id) as c')
+                    ->selectRaw(self::dedupedJobCount('c'))
                     ->value('c'),
                 'total_companies' => Advertiser::count(),
                 'total_locations' => Location::select('name')->distinct()->count('name'),
@@ -154,7 +184,7 @@ class UserJobController extends Controller
                 ->select(['id', 'name', 'slug'])
                 ->selectSub(
                     DB::table('jobs')
-                        ->selectRaw('COUNT(DISTINCT position, advertiser_id)')
+                        ->selectRaw(self::dedupedJobCount())
                         ->whereColumn('category_id', 'categories.id')
                         ->where(function ($q) {
                             $q->where('status', 'active')->orWhereNull('status');
@@ -322,7 +352,7 @@ class UserJobController extends Controller
             ->select(['id', 'name', 'slug'])
             ->selectSub(
                 DB::table('jobs')
-                    ->selectRaw('COUNT(DISTINCT position, advertiser_id)')
+                    ->selectRaw(self::dedupedJobCount())
                     ->whereColumn('category_id', 'categories.id')
                     ->where(function ($q) {
                         $q->where('status', 'active')->orWhereNull('status');
@@ -342,7 +372,7 @@ class UserJobController extends Controller
                     ->where(function ($q) {
                         $q->where('status', 'active')->orWhereNull('status');
                     })
-                    ->selectRaw('COUNT(DISTINCT position, advertiser_id) as c')
+                    ->selectRaw(self::dedupedJobCount('c'))
                     ->value('c'),
                 'total_categories' => Category::count(),
                 'total_companies' => Advertiser::count(),
@@ -572,7 +602,7 @@ class UserJobController extends Controller
             ->select(['id', 'name', 'slug'])
             ->selectSub(
                 DB::table('jobs')
-                    ->selectRaw('COUNT(DISTINCT position, advertiser_id)')
+                    ->selectRaw(self::dedupedJobCount())
                     ->whereColumn('category_id', 'categories.id')
                     ->where(function ($q) {
                         $q->where('status', 'active')->orWhereNull('status');
@@ -665,7 +695,7 @@ class UserJobController extends Controller
             ->select(['id', 'name', 'slug'])
             ->selectSub(
                 DB::table('jobs')
-                    ->selectRaw('COUNT(DISTINCT position, advertiser_id)')
+                    ->selectRaw(self::dedupedJobCount())
                     ->whereColumn('category_id', 'categories.id')
                     ->where(function ($q) {
                         $q->where('status', 'active')->orWhereNull('status');

@@ -1171,6 +1171,250 @@
         </div>
     </div>
 
+
+    {{-- Latest Jobs — 4 per row x 2 rows (8 total), with a link through to the full board --}}
+    @if ($featuredJobs->isNotEmpty())
+        <style>
+            .home-jobs-section {
+                padding: 90px 0 80px;
+                background: #ffffff;
+                position: relative;
+            }
+            .home-jobs-section .section-head {
+                text-align: center;
+                max-width: 780px;
+                margin: 0 auto 46px;
+            }
+            .home-jobs-section .section-tag {
+                display: inline-block;
+                background: #1b3a6b;
+                border: none;
+                color: #fff;
+                font-weight: 700;
+                font-size: 12.5px;
+                padding: 10px 24px;
+                border-radius: 999px;
+                letter-spacing: 1.2px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+            .home-jobs-section h2 {
+                font-size: 40px;
+                line-height: 1.18;
+                font-weight: 800;
+                color: #0f2544;
+                margin: 0 0 14px;
+                letter-spacing: -.5px;
+            }
+            .home-jobs-section h2 .accent { color: #2f7fc9; }
+            .home-jobs-section .section-head p {
+                font-size: 16px;
+                line-height: 1.7;
+                color: #5b6b80;
+                margin: 0;
+            }
+            .home-jobs-grid {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 22px;
+            }
+            .home-job-card {
+                display: flex;
+                flex-direction: column;
+                background: #fff;
+                border: 1.5px solid #e3ecf6;
+                border-radius: 16px;
+                padding: 22px 20px 20px;
+                text-decoration: none !important;
+                transition: all .2s ease;
+                height: 100%;
+            }
+            .home-job-card:hover {
+                border-color: #2f7fc9;
+                transform: translateY(-4px);
+                box-shadow: 0 16px 32px rgba(27, 58, 107, .14);
+            }
+            .home-job-card .card-top {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                gap: 10px;
+                margin-bottom: 16px;
+            }
+            .home-job-card .logo {
+                width: 52px; height: 52px;
+                border-radius: 12px;
+                background: #f2f7fd;
+                border: 1px solid #e3ecf6;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                flex-shrink: 0;
+            }
+            .home-job-card .logo img {
+                max-width: 80%;
+                max-height: 80%;
+                object-fit: contain;
+            }
+            .home-job-card .type-badge {
+                background: #eef5fc;
+                color: #1b3a6b;
+                font-size: 11px;
+                font-weight: 700;
+                letter-spacing: .4px;
+                text-transform: uppercase;
+                padding: 6px 11px;
+                border-radius: 999px;
+                white-space: nowrap;
+            }
+            .home-job-card h3 {
+                font-size: 16.5px;
+                line-height: 1.42;
+                font-weight: 700;
+                color: #0f2544;
+                margin: 0 0 14px;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+            .home-job-card:hover h3 { color: #1b3a6b; }
+            .home-job-card .meta {
+                list-style: none;
+                padding: 0;
+                margin: 0 0 18px;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            }
+            .home-job-card .meta li {
+                font-size: 13.5px;
+                color: #5b6b80;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                line-height: 1.4;
+            }
+            .home-job-card .meta li i { color: #2f7fc9; font-size: 15px; flex-shrink: 0; }
+            .home-job-card .meta li span {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .home-job-card .card-cta {
+                margin-top: auto;
+                display: inline-flex;
+                align-items: center;
+                gap: 7px;
+                font-size: 13.5px;
+                font-weight: 700;
+                color: #1b3a6b;
+                letter-spacing: .3px;
+            }
+            .home-job-card:hover .card-cta { color: #2f7fc9; }
+            @media (max-width: 1199px) {
+                .home-jobs-grid { grid-template-columns: repeat(3, 1fr); }
+            }
+            @media (max-width: 991px) {
+                .home-jobs-grid { grid-template-columns: repeat(2, 1fr); gap: 18px; }
+                .home-jobs-section h2 { font-size: 32px; }
+            }
+            @media (max-width: 575px) {
+                .home-jobs-grid { grid-template-columns: 1fr; gap: 14px; }
+                .home-jobs-section h2 { font-size: 27px; }
+            }
+            .home-jobs-section .view-all-row {
+                text-align: center;
+                margin-top: 42px;
+            }
+            .home-jobs-section .view-all-row a {
+                display: inline-flex;
+                align-items: center;
+                gap: 14px;
+                background: #1b3a6b;
+                color: #fff !important;
+                padding: 12px 14px 12px 30px;
+                border-radius: 999px;
+                font-weight: 700;
+                font-size: 14.5px;
+                letter-spacing: .6px;
+                text-transform: uppercase;
+                text-decoration: none !important;
+                border: 1.5px solid #1b3a6b;
+                transition: all .18s ease;
+            }
+            .home-jobs-section .view-all-row a .arrow {
+                width: 34px; height: 34px;
+                border-radius: 50%;
+                background: #fff;
+                color: #1b3a6b;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+                flex-shrink: 0;
+            }
+            .home-jobs-section .view-all-row a:hover {
+                background: #16305a;
+                border-color: #16305a;
+                transform: translateY(-2px);
+                box-shadow: 0 12px 24px rgba(27, 58, 107, .28);
+            }
+            @media (max-width: 768px) {
+                .home-jobs-section { padding: 60px 0 54px; }
+            }
+        </style>
+
+        <section class="home-jobs-section" aria-labelledby="latest-jobs-heading">
+            <div class="container">
+                <header class="section-head" data-aos="fade-up">
+                    <span class="section-tag">Latest Openings</span>
+                    <h2 id="latest-jobs-heading">Newest Jobs <span class="accent">Hiring Right Now</span></h2>
+                    <p>Fresh openings added to JobGader — browse the newest roles across the USA and apply free, no account needed.</p>
+                </header>
+
+                <div class="home-jobs-grid">
+                    @foreach ($featuredJobs as $idx => $job)
+                        <a href="{{ route('jobs.show', \Illuminate\Support\Str::slug($job->position . '-' . ($job->location->name ?? ''))) }}"
+                           class="home-job-card"
+                           data-aos="fade-up" data-aos-delay="{{ ($idx % 4) * 80 }}" data-aos-duration="600"
+                           title="{{ $job->position }}">
+                            <div class="card-top">
+                                <div class="logo">
+                                    <img src="{{ $job->advertiser?->logo_url ?? asset('public/user/images/jobimages.png') }}"
+                                         alt="{{ $job->advertiser->name ?? 'Company' }} logo" loading="lazy" width="52" height="52">
+                                </div>
+                                <span class="type-badge">{{ $job->employment_type ?: 'Full Time' }}</span>
+                            </div>
+
+                            <h3>{{ $job->position }}</h3>
+
+                            <ul class="meta">
+                                <li><i class="icon-feather-briefcase" aria-hidden="true"></i>
+                                    <span>{{ $job->category?->name ?? ($job->advertiser->name ?? 'General') }}</span></li>
+                                @if ($job->location)
+                                    <li><i class="icon-material-outline-location-on" aria-hidden="true"></i>
+                                        <span>{{ $job->location->name }}{{ $job->location->area ? ', ' . $job->location->area : '' }}</span></li>
+                                @endif
+                                <li><i class="icon-material-outline-access-time" aria-hidden="true"></i>
+                                    <span>{{ $job->created_at?->diffForHumans() ?? 'Recently posted' }}</span></li>
+                            </ul>
+
+                            <span class="card-cta">View Job <i class="icon-feather-arrow-right" aria-hidden="true"></i></span>
+                        </a>
+                    @endforeach
+                </div>
+
+                <div class="view-all-row">
+                    <a href="{{ route('jobs.index') }}">
+                        View All Jobs
+                        <span class="arrow" aria-hidden="true"><i class="icon-material-outline-arrow-right-alt"></i></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    @endif
     @php
         // Icon picker — falls back to keyword match so DB names like "Education" or
         // "Sales & Marketing" pick the right icon even if the exact key isn't listed.
