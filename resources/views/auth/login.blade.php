@@ -342,7 +342,7 @@
             <h1>Sign in to continue your <span class="accent">job search</span></h1>
             <p>Access your saved jobs, applications, and personalized recommendations across all 50 U.S. states &mdash; all in one place.</p>
             <ul class="auth-trust">
-                <li><i class="bi bi-check-circle-fill"></i> 230,000+ verified job listings</li>
+                <li><i class="bi bi-check-circle-fill"></i> Hand-checked job listings</li>
                 <li><i class="bi bi-check-circle-fill"></i> Track applications in one dashboard</li>
                 <li><i class="bi bi-check-circle-fill"></i> Personalized job recommendations</li>
                 <li><i class="bi bi-check-circle-fill"></i> Trusted by top U.S. employers</li>
@@ -350,8 +350,8 @@
         </div>
 
         <div class="auth-stats">
-            <div class="stat"><strong>230K+</strong><span>Open Jobs</span></div>
-            <div class="stat"><strong>10K+</strong><span>Employers</span></div>
+            <div class="stat"><strong>3</strong><span>Countries</span></div>
+            <div class="stat"><strong>Weekly</strong><span>New Jobs</span></div>
             <div class="stat"><strong>50+</strong><span>States</span></div>
         </div>
     </aside>

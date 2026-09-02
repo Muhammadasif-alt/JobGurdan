@@ -798,7 +798,7 @@
             </div>
             <div class="map-stats">
                 <div class="map-stat"><strong>10M+</strong><span>Job seekers</span></div>
-                <div class="map-stat"><strong>230K+</strong><span>Active jobs</span></div>
+                <div class="map-stat"><strong>3</strong><span>Countries covered</span></div>
                 <div class="map-stat"><strong>50</strong><span>U.S. states</span></div>
                 <div class="map-stat"><strong>24h</strong><span>Response time</span></div>
             </div>

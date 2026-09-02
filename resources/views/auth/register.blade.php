@@ -544,8 +544,8 @@
         </div>
 
         <div class="auth-stats">
-            <div class="stat"><strong>230K+</strong><span>Open Jobs</span></div>
-            <div class="stat"><strong>10K+</strong><span>Employers</span></div>
+            <div class="stat"><strong>3</strong><span>Countries</span></div>
+            <div class="stat"><strong>Weekly</strong><span>New Jobs</span></div>
             <div class="stat"><strong>50+</strong><span>States</span></div>
         </div>
     </aside>

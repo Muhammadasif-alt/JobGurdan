@@ -701,7 +701,7 @@
                     <!-- Promo card -->
                     <div class="blog-side-promo">
                         <span class="eyebrow">Get Hired Faster</span>
-                        <h4>Browse 230K+ verified U.S. jobs</h4>
+                        <h4>Browse hand-checked jobs and visa guides</h4>
                         <p>Sign up free, set your preferences, and let matching jobs come to you — no scams, no ghost listings.</p>
                         <a href="{{ route('register') }}" class="btn">
                             Create Free Account <i class="icon-feather-arrow-right"></i>

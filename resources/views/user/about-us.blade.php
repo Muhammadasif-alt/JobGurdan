@@ -1030,7 +1030,7 @@
                     <div class="stat-label">Job Seekers Served</div>
                 </div>
                 <div class="about-stat-card">
-                    <div class="stat-num">230K+</div>
+                    <div class="stat-num">3</div>
                     <div class="stat-label">Active Job Listings</div>
                 </div>
                 <div class="about-stat-card">
@@ -1092,7 +1092,7 @@
                     <div class="step-num">02</div>
                     <div class="ico"><i class="icon-line-awesome-search"></i></div>
                     <h3>Search Smarter</h3>
-                    <p>Browse 230,000+ verified jobs across every state and industry. Filter by salary, location, schedule, and more.</p>
+                    <p>Browse hand-checked jobs across the USA, UK and Pakistan. Filter by salary, location, schedule, and more.</p>
                 </div>
                 <div class="how-card">
                     <div class="step-num">03</div>

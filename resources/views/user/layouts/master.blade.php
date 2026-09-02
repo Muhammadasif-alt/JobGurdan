@@ -1310,22 +1310,22 @@
             <div class="container">
                 <div class="modern-cta-card">
                     <div class="cta-inner">
-                        <span class="eyebrow">Get started today</span>
-                        <h2>Your next great job is <span class="accent">one click away</span></h2>
-                        <p>Join thousands of professionals finding verified U.S. jobs every day. Sign up free, set your preferences, and let opportunities come to you.</p>
+                        <span class="eyebrow">Start your search</span>
+                        <h2>Your next job is <span class="accent">one click away</span></h2>
+                        <p>Real openings across the USA, UK and Pakistan &mdash; with straight answers on which visa routes are actually open. Free to apply, and you don't need an account.</p>
                         <div class="cta-actions">
-                            <a href="{{ route('register') }}" class="btn-cta-primary">
-                                Create Your Free Account
+                            <a href="{{ route('jobs.index') }}" class="btn-cta-primary">
+                                Browse All Jobs
                                 <i class="icon-feather-arrow-right"></i>
                             </a>
-                            <a href="{{ route('jobs.index') }}" class="btn-cta-secondary">
-                                Browse All Jobs
+                            <a href="{{ route('blog.index') }}" class="btn-cta-secondary">
+                                Read Visa Guides
                             </a>
                         </div>
                         <div class="cta-stats">
-                            <div class="stat"><strong>230K+</strong><span>Open Jobs</span></div>
-                            <div class="stat"><strong>10K+</strong><span>Employers</span></div>
-                            <div class="stat"><strong>50</strong><span>U.S. States</span></div>
+                            <div class="stat"><strong>3</strong><span>Countries</span></div>
+                            <div class="stat"><strong>Weekly</strong><span>New Jobs</span></div>
+                            <div class="stat"><strong>No</strong><span>Sign-Up</span></div>
                             <div class="stat"><strong>100%</strong><span>Free</span></div>
                         </div>
                     </div>
