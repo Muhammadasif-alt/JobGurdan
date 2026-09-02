@@ -13,16 +13,16 @@
     .sp-head { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap: 12px; margin-bottom: 22px; }
     .sp-head h1 {
         font-size: 26px; font-weight: 800; margin: 0; letter-spacing: -.4px;
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text; background-clip: text;
         -webkit-text-fill-color: transparent; color: transparent;
     }
     .sp-head .breadcrumbs { font-size: 14px; color: #6b7280; margin-top: 4px; }
-    .sp-head .breadcrumbs a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+    .sp-head .breadcrumbs a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
 
     /* Profile hero */
     .sp-hero {
-        position: relative; background: #0a0a0a; color: #fff;
+        position: relative; background: #1b3a6b; color: #fff;
         border-radius: 22px; padding: 32px 32px; overflow: hidden; margin-bottom: 22px;
     }
     .sp-hero::before, .sp-hero::after {
@@ -53,7 +53,7 @@
 
     .panel { background: #fff; border: 1px solid #ececec; border-radius: 16px; overflow: hidden; margin-bottom: 22px; }
     .panel-head { padding: 16px 22px; border-bottom: 1px solid #ececec; display: flex; align-items: center; gap: 8px; }
-    .panel-head h3 { font-size: 16px; font-weight: 700; color: #0a0a0a; margin: 0; display: inline-flex; align-items: center; gap: 8px; }
+    .panel-head h3 { font-size: 16px; font-weight: 700; color: #1b3a6b; margin: 0; display: inline-flex; align-items: center; gap: 8px; }
     .panel-head h3 i { color: #5e2bff; }
     .panel-body { padding: 20px 22px; }
 
@@ -68,7 +68,7 @@
         background: #fff; transition: border-color .15s ease, box-shadow .15s ease;
     }
     .field textarea { min-height: 110px; resize: vertical; }
-    .field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: #0a0a0a; box-shadow: 0 0 0 3px rgba(10,10,10,.10); }
+    .field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: #1b3a6b; box-shadow: 0 0 0 3px rgba(27, 58, 107,.10); }
     .field .invalid-feedback { color: #dc2626; font-size: 12.5px; margin-top: 6px; display: block; }
     .field .help { font-size: 12px; color: #9ca3af; margin-top: 6px; }
 
@@ -78,12 +78,12 @@
 
     .form-foot { padding: 16px 22px; background: #fafbff; border-top: 1px solid #ececec; display: flex; justify-content: flex-end; gap: 10px; }
     .btn { padding: 10px 22px; border-radius: 10px; font-weight: 600; font-size: 14px; text-decoration: none !important; display: inline-flex; align-items: center; gap: 6px; border: none; cursor: pointer; transition: transform .15s ease, background .15s ease, box-shadow .15s ease; }
-    .btn-primary { background: #0a0a0a !important; color: #fff !important; border: 1px solid #0a0a0a !important; box-shadow: 0 6px 14px rgba(10,10,10,.18); }
-    .btn-primary:hover { transform: translateY(-1px); background: #1a1a1a !important; }
+    .btn-primary { background: #1b3a6b !important; color: #fff !important; border: 1px solid #1b3a6b !important; box-shadow: 0 6px 14px rgba(27, 58, 107,.18); }
+    .btn-primary:hover { transform: translateY(-1px); background: #16305a !important; }
     .btn-outline { background: #fff; color: #374151 !important; border: 1px solid #e5e7eb; }
     .btn-outline:hover { background: #f3f4f6; }
 
-    .info-card { background: #0a0a0a; color: #fff; border-radius: 16px; padding: 24px 22px; position: relative; overflow: hidden; }
+    .info-card { background: #1b3a6b; color: #fff; border-radius: 16px; padding: 24px 22px; position: relative; overflow: hidden; }
     .info-card::before { content:""; position:absolute; right:-60px; top:-60px; width:200px; height:200px; border-radius:50%; background: radial-gradient(circle, rgba(94,43,255,.32), transparent 70%); pointer-events:none; }
     .info-card > * { position: relative; z-index: 1; }
     .info-card .eyebrow { display: inline-block; background: rgba(255,255,255,.10); border: 1px solid rgba(255,255,255,.18); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.4px; padding: 5px 12px; border-radius: 999px; margin-bottom: 14px; }
@@ -309,7 +309,7 @@
                 display: flex; align-items: center; gap: 10px;
             }
             .resume-card-head h3 {
-                font-size: 14px; font-weight: 800; color: #0a0a0a; margin: 0;
+                font-size: 14px; font-weight: 800; color: #1b3a6b; margin: 0;
                 text-transform: uppercase; letter-spacing: 1.2px;
                 display: inline-flex; align-items: center; gap: 8px;
             }
@@ -327,7 +327,7 @@
             .rs-bullets li::before {
                 content: ""; position: absolute; left: 4px; top: 13px;
                 width: 6px; height: 6px; border-radius: 50%;
-                background: #0a0a0a;
+                background: #1b3a6b;
             }
 
             .rs-skills { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -345,7 +345,7 @@
                 display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;
                 align-items: baseline; margin-bottom: 4px;
             }
-            .rs-title { font-size: 15.5px; font-weight: 800; color: #0a0a0a; line-height: 1.4; }
+            .rs-title { font-size: 15.5px; font-weight: 800; color: #1b3a6b; line-height: 1.4; }
             .rs-subtitle { font-size: 14px; font-weight: 700; color: #5e2bff; line-height: 1.4; }
             .rs-meta { font-size: 12.5px; color: #6b7280; font-style: italic; margin-top: 2px; }
             .rs-item-body { margin-top: 6px; }
@@ -355,7 +355,7 @@
 
         <div style="margin-top: 8px;" id="resumeContentBlock">
             <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; margin-bottom: 14px;">
-                <h2 style="font-size: 20px; font-weight: 800; color: #0a0a0a; margin: 0; display:flex; align-items:center; gap:10px;">
+                <h2 style="font-size: 20px; font-weight: 800; color: #1b3a6b; margin: 0; display:flex; align-items:center; gap:10px;">
                     <i class="bi bi-file-earmark-richtext" style="color:#5e2bff"></i>
                     Full Resume Content
                 </h2>
@@ -366,8 +366,8 @@
                     @if(! empty($orderedSections))
                     <button type="button" class="resume-edit-toggle" id="resumeEditToggle"
                         style="display:inline-flex; align-items:center; gap:6px; font-size:13px; font-weight:600;
-                               padding:7px 14px; border-radius:999px; border:1px solid #0a0a0a;
-                               background:#0a0a0a; color:#fff; cursor:pointer; transition:all .15s ease;">
+                               padding:7px 14px; border-radius:999px; border:1px solid #1b3a6b;
+                               background:#1b3a6b; color:#fff; cursor:pointer; transition:all .15s ease;">
                         <i class="bi bi-pencil"></i> <span class="label">Edit content</span>
                     </button>
                     @endif
@@ -462,8 +462,8 @@
                             transition: border-color .15s ease, box-shadow .15s ease;
                         }
                         .re-input:focus, .re-textarea:focus {
-                            outline: none; border-color: #0a0a0a;
-                            box-shadow: 0 0 0 3px rgba(10,10,10,.08);
+                            outline: none; border-color: #1b3a6b;
+                            box-shadow: 0 0 0 3px rgba(27, 58, 107,.08);
                         }
                         .re-textarea { min-height: 70px; resize: vertical; line-height: 1.55; }
                         .re-label {
@@ -500,8 +500,8 @@
                             cursor: pointer; border: 1px solid transparent;
                             text-decoration: none;
                         }
-                        .re-btn-primary { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
-                        .re-btn-primary:hover { background: #1a1a1a; }
+                        .re-btn-primary { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
+                        .re-btn-primary:hover { background: #16305a; }
                         .re-btn-ghost   { background: #fff; color: #374151; border-color: #e5e7eb; }
                         .re-btn-ghost:hover   { background: #f9fafb; border-color: #d1d5db; }
                     </style>

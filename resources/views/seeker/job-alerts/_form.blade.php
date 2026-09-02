@@ -5,13 +5,13 @@
 
 <style>
     .jaf { max-width: 720px; margin: 0 auto; padding: 30px 20px 80px; }
-    .jaf h1 { font-size: 26px; font-weight: 800; color: #0a0a0a; margin: 0 0 8px; }
+    .jaf h1 { font-size: 26px; font-weight: 800; color: #1b3a6b; margin: 0 0 8px; }
     .jaf .lead { color: #555; font-size: 14px; margin-bottom: 28px; }
     .jaf .card {
         background: #fff; border: 1px solid #ececec; border-radius: 14px;
         padding: 30px 28px;
     }
-    .jaf label { display: block; font-weight: 700; color: #0a0a0a; font-size: 14px; margin-bottom: 6px; }
+    .jaf label { display: block; font-weight: 700; color: #1b3a6b; font-size: 14px; margin-bottom: 6px; }
     .jaf .hint  { font-size: 12.5px; color: #6b7280; margin-bottom: 8px; }
     .jaf input[type=text], .jaf select {
         width: 100%; height: 46px;
@@ -19,7 +19,7 @@
         font-size: 14.5px; font-family: inherit; background: #fff;
         outline: none; transition: border-color .15s ease;
     }
-    .jaf input[type=text]:focus, .jaf select:focus { border-color: #0a0a0a; }
+    .jaf input[type=text]:focus, .jaf select:focus { border-color: #1b3a6b; }
     .jaf .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
     .jaf .field { margin-bottom: 18px; }
     @media (max-width: 575px) { .jaf .row { grid-template-columns: 1fr; } }
@@ -34,9 +34,9 @@
     .jaf .radio-row input[type=radio] { display: none; }
     .jaf .radio-row input[type=radio]:checked + label,
     .jaf .radio-row label:has(input[type=radio]:checked) {
-        border-color: #0a0a0a; background: #0a0a0a; color: #fff;
+        border-color: #1b3a6b; background: #1b3a6b; color: #fff;
     }
-    .jaf .check-row { display: inline-flex; align-items: center; gap: 8px; color: #0a0a0a; font-weight: 600; }
+    .jaf .check-row { display: inline-flex; align-items: center; gap: 8px; color: #1b3a6b; font-weight: 600; }
     .jaf .check-row input { width: 18px; height: 18px; }
     .jaf .actions { display: flex; gap: 10px; margin-top: 14px; }
     .jaf .btn {
@@ -45,9 +45,9 @@
         display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid;
         transition: all .15s ease;
     }
-    .jaf .btn-primary { background: #0a0a0a; border-color: #0a0a0a; color: #fff; }
+    .jaf .btn-primary { background: #1b3a6b; border-color: #1b3a6b; color: #fff; }
     .jaf .btn-primary:hover { background: #1b3a6b; border-color: #1b3a6b; }
-    .jaf .btn-ghost { background: #fff; color: #0a0a0a; border-color: #d1d5db; }
+    .jaf .btn-ghost { background: #fff; color: #1b3a6b; border-color: #d1d5db; }
     .jaf .btn-ghost:hover { background: #f5f5f7; }
     .jaf .err {
         background: #fee2e2; color: #b91c1c; padding: 10px 14px;

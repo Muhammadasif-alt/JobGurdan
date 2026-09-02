@@ -35,7 +35,7 @@
 @endphp
 
 <style>
-    /* === Dashboard custom styles (JobGader — dark #0a0a0a brand) === */
+    /* === Dashboard custom styles (JobGader — dark #1b3a6b brand) === */
     .dash-wrap { padding: 24px 24px 36px; }
     .dash-header {
         display: flex;
@@ -76,7 +76,7 @@
         gap: 6px;
         background: #fff;
         border: 1px solid #e5e5e7;
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: 11.5px;
         font-weight: 700;
         text-transform: uppercase;
@@ -90,7 +90,7 @@
         font-weight: 800;
         margin: 0;
         letter-spacing: -.4px;
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -102,14 +102,14 @@
         margin-top: 4px;
     }
     .dash-header .btn-primary-grad {
-        background: #0a0a0a;
-        border: 1px solid #0a0a0a;
+        background: #1b3a6b;
+        border: 1px solid #1b3a6b;
         color: #fff;
         font-weight: 600;
         font-size: 14.5px;
         padding: 11px 22px;
         border-radius: 10px;
-        box-shadow: 0 8px 18px rgba(10,10,10,.20);
+        box-shadow: 0 8px 18px rgba(27, 58, 107,.20);
         transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
         text-decoration: none;
         display: inline-flex;
@@ -118,8 +118,8 @@
     }
     .dash-header .btn-primary-grad:hover {
         transform: translateY(-1px);
-        background: #1a1a1a;
-        box-shadow: 0 12px 24px rgba(10,10,10,.30);
+        background: #16305a;
+        box-shadow: 0 12px 24px rgba(27, 58, 107,.30);
         color: #fff;
     }
 
@@ -139,7 +139,7 @@
         position: absolute;
         top: 0; left: 0; right: 0;
         height: 3px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         transform: scaleX(0);
         transform-origin: left;
         transition: transform .25s ease;
@@ -155,8 +155,8 @@
         color: #fff;
         font-size: 20px;
         margin-bottom: 14px;
-        background: #0a0a0a;
-        box-shadow: 0 8px 18px rgba(10,10,10,.18);
+        background: #1b3a6b;
+        box-shadow: 0 8px 18px rgba(27, 58, 107,.18);
     }
     .stat-card .stat-label {
         font-size: 14px;
@@ -184,10 +184,10 @@
         display: inline-flex;
         align-items: center;
         gap: 6px;
-        color: #0a0a0a;
+        color: #1b3a6b;
         transition: gap .15s ease;
     }
-    .stat-card .stat-foot:hover { gap: 10px; color: #0a0a0a; }
+    .stat-card .stat-foot:hover { gap: 10px; color: #1b3a6b; }
     .stat-card::after {
         content: "";
         position: absolute;
@@ -195,13 +195,13 @@
         width: 120px; height: 120px;
         border-radius: 50%;
         opacity: .04;
-        background: #0a0a0a;
+        background: #1b3a6b;
         pointer-events: none;
     }
-    .stat-card.c-blue   .icon-wrap { background: #0a0a0a; }
-    .stat-card.c-green  .icon-wrap { background: #0a0a0a; }
-    .stat-card.c-orange .icon-wrap { background: #0a0a0a; }
-    .stat-card.c-pink   .icon-wrap { background: #0a0a0a; }
+    .stat-card.c-blue   .icon-wrap { background: #1b3a6b; }
+    .stat-card.c-green  .icon-wrap { background: #1b3a6b; }
+    .stat-card.c-orange .icon-wrap { background: #1b3a6b; }
+    .stat-card.c-pink   .icon-wrap { background: #1b3a6b; }
 
     /* Panels */
     .panel {
@@ -230,7 +230,7 @@
         gap: 8px;
     }
     .panel-head h3 .badge-soft {
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         font-weight: 700;
         font-size: 13.5px;
@@ -253,10 +253,10 @@
         gap: 6px;
     }
     .btn-soft:hover { background: #f3f4f6; color: #111827; }
-    .btn-soft.primary { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
-    .btn-soft.primary:hover { background: #1a1a1a; color: #fff; }
-    .btn-soft.success { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
-    .btn-soft.success:hover { background: #1a1a1a; color: #fff; }
+    .btn-soft.primary { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
+    .btn-soft.primary:hover { background: #16305a; color: #fff; }
+    .btn-soft.success { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
+    .btn-soft.success:hover { background: #16305a; color: #fff; }
     .btn-soft.danger  { background: #fff; color: #dc2626; border-color: #fee2e2; }
     .btn-soft.danger:hover  { background: #fef2f2; }
 
@@ -285,7 +285,7 @@
     .panel .table .id-pill {
         display: inline-block;
         background: #f3f4f6;
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-weight: 700;
         font-size: 13.5px;
         padding: 5px 11px;
@@ -314,13 +314,13 @@
     }
     .top-list-item .count-pill {
         background: #f3f4f6;
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-weight: 700;
         font-size: 13.5px;
         padding: 4px 13px;
         border-radius: 999px;
     }
-    .top-list-item .count-pill.blue { background: #f3f4f6; color: #0a0a0a; }
+    .top-list-item .count-pill.blue { background: #f3f4f6; color: #1b3a6b; }
     .top-list-item .bar {
         grid-column: 1 / -1;
         height: 4px;
@@ -333,9 +333,9 @@
         display: block;
         height: 100%;
         border-radius: 999px;
-        background: #0a0a0a;
+        background: #1b3a6b;
     }
-    .top-list-item .bar.blue > span { background: #0a0a0a; }
+    .top-list-item .bar.blue > span { background: #1b3a6b; }
     .panel-foot {
         padding: 14px 18px;
         border-top: 1px solid #eef0f4;
@@ -397,7 +397,7 @@
             <div class="panel">
                 <div class="panel-head">
                     <h3>
-                        <i class="bi bi-clock-history" style="color:#0a0a0a"></i>
+                        <i class="bi bi-clock-history" style="color:#1b3a6b"></i>
                         Recent Jobs
                         <span class="badge-soft">{{ $recent->count() }}</span>
                     </h3>
@@ -451,7 +451,7 @@
         <div class="col-lg-4">
             <div class="panel">
                 <div class="panel-head">
-                    <h3><i class="bi bi-tags" style="color:#0a0a0a"></i> Top Categories</h3>
+                    <h3><i class="bi bi-tags" style="color:#1b3a6b"></i> Top Categories</h3>
                 </div>
                 <div class="top-list">
                     @forelse($topCategories as $cat)
@@ -475,7 +475,7 @@
 
             <div class="panel">
                 <div class="panel-head">
-                    <h3><i class="bi bi-geo-alt" style="color:#0a0a0a"></i> Top Locations</h3>
+                    <h3><i class="bi bi-geo-alt" style="color:#1b3a6b"></i> Top Locations</h3>
                 </div>
                 <div class="top-list">
                     @forelse($topLocations as $loc)

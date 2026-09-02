@@ -17,7 +17,7 @@
         font-weight: 800;
         margin: 0;
         letter-spacing: -.4px;
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -28,7 +28,7 @@
         color: #6b7280;
         margin-top: 4px;
     }
-    .jobs-head .breadcrumbs a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+    .jobs-head .breadcrumbs a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
     .jobs-head .breadcrumbs a:hover { text-decoration: underline; }
 
     .panel {
@@ -56,7 +56,7 @@
         gap: 8px;
     }
     .panel-head h3 .badge-soft {
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         font-weight: 700;
         font-size: 13.5px;
@@ -80,12 +80,12 @@
         white-space: nowrap;
     }
     .btn-soft:hover { background: #f3f4f6; color: #111827; }
-    .btn-soft.primary { background: #0a0a0a; color: #fff; border-color: #0a0a0a; box-shadow: 0 6px 14px rgba(10,10,10,.18); }
-    .btn-soft.primary:hover { color: #fff; background: #1a1a1a; border-color: #1a1a1a; transform: translateY(-1px); box-shadow: 0 10px 22px rgba(10,10,10,.28); }
-    .btn-soft.success { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
-    .btn-soft.success:hover { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
-    .btn-soft.info    { background: #fff; color: #0a0a0a; border-color: #e5e7eb; }
-    .btn-soft.info:hover { background: #f3f4f6; color: #0a0a0a; }
+    .btn-soft.primary { background: #1b3a6b; color: #fff; border-color: #1b3a6b; box-shadow: 0 6px 14px rgba(27, 58, 107,.18); }
+    .btn-soft.primary:hover { color: #fff; background: #16305a; border-color: #16305a; transform: translateY(-1px); box-shadow: 0 10px 22px rgba(27, 58, 107,.28); }
+    .btn-soft.success { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
+    .btn-soft.success:hover { background: #16305a; color: #fff; border-color: #16305a; }
+    .btn-soft.info    { background: #fff; color: #1b3a6b; border-color: #e5e7eb; }
+    .btn-soft.info:hover { background: #f3f4f6; color: #1b3a6b; }
     .btn-soft.danger  { background: #fff; color: #dc2626; border-color: #fee2e2; }
     .btn-soft.danger:hover { background: #fef2f2; }
 
@@ -130,10 +130,10 @@
         font-weight: 700;
         border-radius: 999px;
         background: #f3f4f6;
-        color: #0a0a0a;
+        color: #1b3a6b;
         white-space: nowrap;
     }
-    .badge-pill.green { background: #f3f4f6; color: #0a0a0a; }
+    .badge-pill.green { background: #f3f4f6; color: #1b3a6b; }
     .badge-pill.gray  { background: #f3f4f6; color: #4b5563; }
 
     /* Action buttons */
@@ -154,8 +154,8 @@
         padding: 0;
     }
     .row-actions a:hover, .row-actions button:hover { transform: translateY(-1px); }
-    .row-actions .a-view:hover   { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
-    .row-actions .a-edit:hover   { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
+    .row-actions .a-view:hover   { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
+    .row-actions .a-edit:hover   { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
     .row-actions .a-delete:hover { background: #fef2f2; color: #dc2626; border-color: #fecaca; }
     .row-actions form { display: inline; margin: 0; }
 
@@ -202,15 +202,15 @@
     }
     .panel-foot .pagination .page-item .page-link:hover {
         background: #f3f4f6;
-        color: #0a0a0a;
-        border-color: #0a0a0a;
+        color: #1b3a6b;
+        border-color: #1b3a6b;
         z-index: 1;
     }
     .panel-foot .pagination .page-item.active .page-link {
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
-        border-color: #0a0a0a;
-        box-shadow: 0 6px 14px rgba(10,10,10,.20);
+        border-color: #1b3a6b;
+        box-shadow: 0 6px 14px rgba(27, 58, 107,.20);
     }
     .panel-foot .pagination .page-item.disabled .page-link {
         background: #f9fafb;
@@ -234,7 +234,7 @@
         gap: 10px;
         font-size: 13.5px;
     }
-    .custom-alert.success { background: #f3f4f6; color: #0a0a0a; border: 1px solid #e5e7eb; }
+    .custom-alert.success { background: #f3f4f6; color: #1b3a6b; border: 1px solid #e5e7eb; }
     .custom-alert button { background: transparent; border: none; color: inherit; opacity: .6; }
     .custom-alert button:hover { opacity: 1; }
 </style>
@@ -262,7 +262,7 @@
     <div class="panel">
         <div class="panel-head">
             <h3>
-                <i class="bi bi-briefcase" style="color:#0a0a0a"></i>
+                <i class="bi bi-briefcase" style="color:#1b3a6b"></i>
                 All Jobs
                 @if(isset($jobs) && method_exists($jobs, 'total'))
                     <span class="badge-soft">{{ number_format($jobs->total()) }}</span>

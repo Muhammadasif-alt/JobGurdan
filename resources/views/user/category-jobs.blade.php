@@ -12,7 +12,7 @@
         padding: 80px 0 70px;
         background: linear-gradient(180deg, #f8faff 0%, #ffffff 50%, #f5f5f7 100%);
         overflow: hidden;
-        color: #0a0a0a;
+        color: #1b3a6b;
         border-bottom: 1px solid #ececec;
     }
     .cat-hero::before {
@@ -54,15 +54,15 @@
     }
     .cat-hero-bc li { display: inline-flex; align-items: center; gap: 8px; }
     .cat-hero-bc li + li::before { content: '›'; color: #b5b5b5; }
-    .cat-hero-bc a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+    .cat-hero-bc a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
     .cat-hero-bc a:hover { text-decoration: underline; }
-    .cat-hero-bc li:last-child { color: #0a0a0a; font-weight: 700; }
+    .cat-hero-bc li:last-child { color: #1b3a6b; font-weight: 700; }
 
     .cat-hero-tag {
         display: inline-block;
         background: #fff;
         border: 1px solid #e5e5e7;
-        color: #0a0a0a;
+        color: #1b3a6b;
         padding: 6px 14px;
         border-radius: 999px;
         font-size: 11.5px;
@@ -77,10 +77,10 @@
         line-height: 1.2;
         margin-bottom: 18px;
         letter-spacing: -.6px;
-        color: #0a0a0a;
+        color: #1b3a6b;
     }
     .cat-hero h1 span {
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -104,7 +104,7 @@
     .cat-hero-stat .num {
         font-size: 28px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1;
         letter-spacing: -.4px;
     }
@@ -127,7 +127,7 @@
         gap: 14px;
     }
     .cat-results-head .count { font-size: 14px; color: #666; }
-    .cat-results-head .count strong { color: #1a1a1a; }
+    .cat-results-head .count strong { color: #16305a; }
 
     .cat-job-grid {
         display: grid;
@@ -150,7 +150,7 @@
         position: relative;
     }
     .cat-job-card:hover {
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
         box-shadow: 0 18px 36px rgba(15,23,42,.08);
         transform: translateY(-3px);
         color: inherit;
@@ -177,16 +177,16 @@
         padding: 4px 10px;
         border-radius: 999px;
         background: #f3f4f6;
-        color: #0a0a0a;
+        color: #1b3a6b;
         white-space: nowrap;
     }
-    .cat-job-badge.green { background: #0a0a0a; color: #fff; }
-    .cat-job-badge.blue { background: #f3f4f6; color: #0a0a0a; }
+    .cat-job-badge.green { background: #1b3a6b; color: #fff; }
+    .cat-job-badge.blue { background: #f3f4f6; color: #1b3a6b; }
     .cat-job-card h3 {
         font-size: 16px;
         font-weight: 700;
         line-height: 1.4;
-        color: #1a1a1a;
+        color: #16305a;
         margin-bottom: 6px;
     }
     .cat-job-company {
@@ -209,7 +209,7 @@
         font-size: 12px;
         color: #666;
     }
-    .cat-job-meta span i { color: #0a0a0a; font-size: 13px; }
+    .cat-job-meta span i { color: #1b3a6b; font-size: 13px; }
     .cat-job-bottom {
         display: flex;
         justify-content: space-between;
@@ -220,7 +220,7 @@
     .cat-job-apply {
         font-size: 12px;
         font-weight: 700;
-        color: #0a0a0a;
+        color: #1b3a6b;
         display: inline-flex;
         align-items: center;
         gap: 4px;
@@ -228,7 +228,7 @@
 
     /* Sidebar */
     .cat-sidebar { background: #fff; border-radius: 10px; padding: 22px 20px; border: 1px solid #ececec; margin-bottom: 22px; }
-    .cat-sidebar h3 { font-size: 15px; font-weight: 700; color: #0a0a0a; margin-bottom: 14px; padding-bottom: 10px; border-bottom: 2px solid #0a0a0a; display: inline-block; }
+    .cat-sidebar h3 { font-size: 15px; font-weight: 700; color: #1b3a6b; margin-bottom: 14px; padding-bottom: 10px; border-bottom: 2px solid #1b3a6b; display: inline-block; }
     .cat-sidebar .form-control { width: 100%; padding: 10px 14px; border: 1px solid #ddd; border-radius: 5px; font-size: 13px; }
     .cat-sidebar ul { list-style: none; padding: 0; margin: 0; }
     .cat-sidebar ul li { margin-bottom: 8px; }
@@ -241,9 +241,9 @@
         text-decoration: none;
         transition: all .2s ease;
     }
-    .cat-sidebar ul li a:hover { background: #f3f4f6; color: #0a0a0a; }
+    .cat-sidebar ul li a:hover { background: #f3f4f6; color: #1b3a6b; }
     .cat-sidebar ul li a .counter { color: #999; font-size: 11px; }
-    .cat-sidebar ul li a:hover .counter { color: #0a0a0a; }
+    .cat-sidebar ul li a:hover .counter { color: #1b3a6b; }
 
     /* Job type checkboxes */
     .cat-jobtype-list { display: flex; flex-direction: column; gap: 4px; }
@@ -262,7 +262,7 @@
         line-height: 1.4 !important;
         white-space: nowrap;
     }
-    .cat-jobtype-item:hover { background: #f3f4f6; color: #0a0a0a !important; }
+    .cat-jobtype-item:hover { background: #f3f4f6; color: #1b3a6b !important; }
     .cat-jobtype-item input[type="checkbox"] {
         appearance: auto !important;
         -webkit-appearance: checkbox !important;
@@ -271,7 +271,7 @@
         margin: 0 !important;
         padding: 0 !important;
         flex-shrink: 0;
-        accent-color: #0a0a0a;
+        accent-color: #1b3a6b;
         cursor: pointer;
     }
 
@@ -282,7 +282,7 @@
         border-top: 1px solid #ececec;
     }
     .cat-trust-head { text-align: center; margin-bottom: 40px; }
-    .cat-trust-head h2 { font-size: 30px; font-weight: 700; color: #1a1a1a; margin-bottom: 10px; }
+    .cat-trust-head h2 { font-size: 30px; font-weight: 700; color: #16305a; margin-bottom: 10px; }
     .cat-trust-head p { font-size: 15px; color: #5a5a5a; max-width: 640px; margin: 0 auto; }
     .cat-trust-grid {
         display: grid;
@@ -300,20 +300,20 @@
         transition: all .25s ease;
     }
     .cat-trust-card:hover {
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
         transform: translateY(-4px);
         box-shadow: 0 16px 32px rgba(15,23,42,.08);
     }
     .cat-trust-card .ico {
         width: 56px; height: 56px;
         border-radius: 12px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         display: inline-flex; align-items: center; justify-content: center;
         font-size: 22px;
         margin-bottom: 16px;
     }
-    .cat-trust-card h4 { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: #1a1a1a; }
+    .cat-trust-card h4 { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: #16305a; }
     .cat-trust-card p { font-size: 13px; color: #666; line-height: 1.7; margin: 0; }
 
     @media (max-width: 768px) {

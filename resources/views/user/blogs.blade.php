@@ -77,7 +77,7 @@
     .ca-hero h1 {
         font-size: clamp(32px, 4.2vw, 52px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.1;
         letter-spacing: -1.5px;
         margin: 0 0 14px;
@@ -101,7 +101,7 @@
         display: block;
         font-size: 26px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         letter-spacing: -.3px;
         line-height: 1;
     }
@@ -117,15 +117,15 @@
 
     /* Category pills below hero */
     .ca-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 22px; }
-    .ca-head h2 { font-size: 18px; font-weight: 800; color: #0a0a0a; margin: 0; letter-spacing: -.2px; text-transform: uppercase; }
+    .ca-head h2 { font-size: 18px; font-weight: 800; color: #1b3a6b; margin: 0; letter-spacing: -.2px; text-transform: uppercase; }
     .ca-cat-pills { display: inline-flex; gap: 8px; flex-wrap: wrap; }
     .ca-cat-pills a {
         padding: 7px 14px; border-radius: 999px;
         background: #fff; border: 1px solid #ececec;
-        color: #1a1a1a; font-size: 13px; font-weight: 600;
+        color: #16305a; font-size: 13px; font-weight: 600;
         text-decoration: none; transition: all .15s ease;
     }
-    .ca-cat-pills a:hover { background: #f5f5f7; border-color: #0a0a0a; }
+    .ca-cat-pills a:hover { background: #f5f5f7; border-color: #1b3a6b; }
     .ca-cat-pills a.active { background: linear-gradient(135deg, #1b3a6b, #2f7fc9); border-color: #1b3a6b; color: #fff; }
 
     /* Section title */
@@ -134,7 +134,7 @@
         margin: 36px 0 16px; padding-bottom: 10px;
         border-bottom: 2px solid #ececec;
     }
-    .ca-section-title h2 { font-size: 18px; font-weight: 800; color: #0a0a0a; margin: 0; letter-spacing: -.2px; text-transform: uppercase; }
+    .ca-section-title h2 { font-size: 18px; font-weight: 800; color: #1b3a6b; margin: 0; letter-spacing: -.2px; text-transform: uppercase; }
     .ca-section-title .more-link { color: #1b3a6b; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; }
     .ca-section-title .more-link:hover { color: #2f7fc9; }
 
@@ -159,7 +159,7 @@
         position: relative; overflow: hidden;
         border-radius: 12px;
         text-decoration: none; display: block;
-        background: #1a1a1a;
+        background: #16305a;
         transition: transform .25s ease, box-shadow .25s ease;
     }
     .ca-feature-main { grid-row: 1 / span 2; }
@@ -226,7 +226,7 @@
         margin-bottom: 8px;
     }
     .ca-recent-card h4 {
-        font-size: 15.5px; font-weight: 700; color: #0a0a0a;
+        font-size: 15.5px; font-weight: 700; color: #1b3a6b;
         margin: 0 0 10px; line-height: 1.35;
         display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
         flex-grow: 1;
@@ -274,7 +274,7 @@
     }
     .ca-popular-item .thumb img { width: 100%; height: 100%; object-fit: cover; }
     .ca-popular-item h4 {
-        font-size: 14px; font-weight: 700; color: #0a0a0a;
+        font-size: 14px; font-weight: 700; color: #1b3a6b;
         margin: 0; line-height: 1.4;
         display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
     }
@@ -291,7 +291,7 @@
         position: relative; height: 200px;
         border-radius: 12px; overflow: hidden;
         text-decoration: none; display: block;
-        background: #1a1a1a;
+        background: #16305a;
         transition: transform .25s ease, box-shadow .25s ease;
     }
     .ca-insight-card:hover { transform: translateY(-3px); box-shadow: 0 14px 30px rgba(15,23,42,.18); }
@@ -336,7 +336,7 @@
     .ca-morenews-card:hover .thumb img { transform: scale(1.05); }
     .ca-morenews-card .info { padding: 14px 16px; flex-grow: 1; display: flex; flex-direction: column; }
     .ca-morenews-card h4 {
-        font-size: 14.5px; font-weight: 700; color: #0a0a0a;
+        font-size: 14.5px; font-weight: 700; color: #1b3a6b;
         margin: 0 0 8px; line-height: 1.35;
         display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
         flex-grow: 1;

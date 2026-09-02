@@ -73,7 +73,7 @@
                 padding: 0 14px;
                 font-size: 14px;
                 font-weight: 600;
-                color: #1a1a1a;
+                color: #16305a;
                 background: #fff;
                 border: 1px solid #e5e7eb;
                 border-radius: 8px;
@@ -84,18 +84,18 @@
                 box-shadow: none;
                 outline: none;
             }
-            .utf-pagination .page-link:focus { box-shadow: 0 0 0 3px rgba(10,10,10,.10); }
+            .utf-pagination .page-link:focus { box-shadow: 0 0 0 3px rgba(27, 58, 107,.10); }
             .utf-pagination .page-item:not(.active):not(.disabled) .page-link:hover {
                 background: #f3f4f6;
-                border-color: #0a0a0a;
-                color: #0a0a0a;
+                border-color: #1b3a6b;
+                color: #1b3a6b;
                 transform: translateY(-1px);
             }
             .utf-pagination .page-item.active .page-link {
-                background: #0a0a0a;
+                background: #1b3a6b;
                 color: #fff;
-                border-color: #0a0a0a;
-                box-shadow: 0 4px 10px rgba(10,10,10,.18);
+                border-color: #1b3a6b;
+                box-shadow: 0 4px 10px rgba(27, 58, 107,.18);
                 cursor: default;
             }
             .utf-pagination .page-item.disabled .page-link {

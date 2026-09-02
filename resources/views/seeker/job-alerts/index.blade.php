@@ -5,10 +5,10 @@
 <style>
     .ja-wrap { max-width: 980px; margin: 0 auto; padding: 30px 20px 80px; }
     .ja-head { display: flex; justify-content: space-between; align-items: end; flex-wrap: wrap; gap: 16px; margin-bottom: 24px; }
-    .ja-head h1 { font-size: 28px; font-weight: 800; color: #0a0a0a; margin: 0 0 6px; }
+    .ja-head h1 { font-size: 28px; font-weight: 800; color: #1b3a6b; margin: 0 0 6px; }
     .ja-head p  { color: #555; font-size: 14px; margin: 0; }
     .ja-new {
-        background: #0a0a0a; color: #fff !important;
+        background: #1b3a6b; color: #fff !important;
         padding: 12px 22px; border-radius: 8px;
         font-weight: 700; font-size: 14px; text-decoration: none;
         display: inline-flex; align-items: center; gap: 8px;
@@ -28,7 +28,7 @@
         .ja-card .actions form, .ja-card .actions a { flex: 1; }
         .ja-card .actions button, .ja-card .actions a { width: 100%; justify-content: center; }
     }
-    .ja-card .summary { font-size: 15px; color: #0a0a0a; }
+    .ja-card .summary { font-size: 15px; color: #1b3a6b; }
     .ja-card .summary strong { font-weight: 700; }
     .ja-card .meta { color: #6b7280; font-size: 13px; margin-top: 4px; display: flex; gap: 16px; flex-wrap: wrap; }
     .ja-card .meta .badge {
@@ -41,21 +41,21 @@
 
     .ja-card .actions { display: inline-flex; gap: 8px; }
     .ja-card .actions a, .ja-card .actions button {
-        background: #fff; color: #0a0a0a; border: 1px solid #e5e5e7;
+        background: #fff; color: #1b3a6b; border: 1px solid #e5e5e7;
         padding: 8px 14px; border-radius: 8px;
         font-size: 13px; font-weight: 600;
         text-decoration: none; cursor: pointer; font-family: inherit;
         display: inline-flex; align-items: center; gap: 6px;
         transition: all .15s ease;
     }
-    .ja-card .actions a:hover, .ja-card .actions button:hover { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
+    .ja-card .actions a:hover, .ja-card .actions button:hover { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
     .ja-card .actions .btn-delete:hover { background: #b91c1c; border-color: #b91c1c; color: #fff; }
 
     .ja-empty {
         text-align: center; padding: 60px 24px; background: #fff;
         border: 1px dashed #d1d5db; border-radius: 14px;
     }
-    .ja-empty h2 { font-size: 20px; font-weight: 800; color: #0a0a0a; margin: 0 0 8px; }
+    .ja-empty h2 { font-size: 20px; font-weight: 800; color: #1b3a6b; margin: 0 0 8px; }
     .ja-empty p  { color: #555; max-width: 460px; margin: 0 auto 20px; }
 
     .ja-flash {

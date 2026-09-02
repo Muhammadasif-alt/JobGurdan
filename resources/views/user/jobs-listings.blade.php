@@ -37,8 +37,8 @@
         position: absolute;
         inset: 0;
         background-image:
-            radial-gradient(circle at 12% 20%, rgba(10,10,10,.04) 0, transparent 40%),
-            radial-gradient(circle at 88% 80%, rgba(10,10,10,.03) 0, transparent 45%);
+            radial-gradient(circle at 12% 20%, rgba(27, 58, 107,.04) 0, transparent 40%),
+            radial-gradient(circle at 88% 80%, rgba(27, 58, 107,.03) 0, transparent 45%);
         pointer-events: none;
     }
     .jobs-hero .container { position: relative; z-index: 2; text-align: center; }
@@ -59,7 +59,7 @@
     .jobs-hero h1 {
         font-size: clamp(30px, 4.4vw, 52px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.1;
         letter-spacing: -1.2px;
         margin: 0 0 18px;
@@ -68,7 +68,7 @@
         margin-right: auto;
     }
     .jobs-hero h1 .accent {
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -96,7 +96,7 @@
         display: block;
         font-size: 24px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.1;
         letter-spacing: -.5px;
     }
@@ -114,7 +114,7 @@
         background: #fff;
     }
     .jobs-filter-bar {
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         border-radius: 14px;
         padding: 22px 26px;
@@ -137,7 +137,7 @@
         line-height: 46px !important;
         border-radius: 10px !important;
         font-size: 14.5px !important;
-        color: #1a1a1a !important;
+        color: #16305a !important;
         padding-left: 40px !important;
         box-shadow: none !important;
         width: 100% !important;
@@ -145,7 +145,7 @@
     .jobs-filter-bar .select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
         line-height: 46px !important;
         padding-left: 0 !important;
-        color: #1a1a1a !important;
+        color: #16305a !important;
     }
     .jobs-filter-bar .select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
         height: 46px !important;
@@ -163,7 +163,7 @@
     }
     .jobs-filter-bar .btn-search {
         background: #fff !important;
-        color: #0a0a0a !important;
+        color: #1b3a6b !important;
         border: 1.5px solid #fff !important;
         font-weight: 700 !important;
         font-size: 14.5px !important;
@@ -195,7 +195,7 @@
         margin-top: 8px;
     }
     .jobs-results-header .count { color: #555; font-size: 14.5px; }
-    .jobs-results-header .count strong { color: #0a0a0a; font-weight: 700; }
+    .jobs-results-header .count strong { color: #1b3a6b; font-weight: 700; }
     .jobs-results-header .sort-by {
         display: inline-flex;
         align-items: center;
@@ -210,7 +210,7 @@
         padding: 8px 30px 8px 12px;
         font-size: 14px;
         font-weight: 600;
-        color: #0a0a0a;
+        color: #1b3a6b;
         cursor: pointer;
     }
 
@@ -237,7 +237,7 @@
         transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
     }
     .job-card:hover {
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
         box-shadow: 0 14px 32px rgba(15,23,42,.08);
         transform: translateY(-3px);
     }
@@ -281,7 +281,7 @@
     .job-card-title {
         font-size: 16.5px;
         font-weight: 700;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 12px;
         line-height: 1.35;
         display: -webkit-box;
@@ -305,7 +305,7 @@
         gap: 8px;
     }
     .job-card-meta li i {
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: 14px;
     }
     .job-card-button {
@@ -313,7 +313,7 @@
         align-items: center;
         justify-content: center;
         gap: 6px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff !important;
         padding: 11px 14px;
         border-radius: 10px;
@@ -321,9 +321,9 @@
         font-weight: 600;
         margin-top: auto;
         transition: background .2s ease;
-        border: 1.5px solid #0a0a0a;
+        border: 1.5px solid #1b3a6b;
     }
-    .job-card:hover .job-card-button { background: #1a1a1a; border-color: #1a1a1a; }
+    .job-card:hover .job-card-button { background: #16305a; border-color: #16305a; }
 
     /* No results card */
     .no-jobs {
@@ -335,7 +335,7 @@
         border-radius: 14px;
     }
     .no-jobs i { font-size: 50px; color: #c7c7cc; }
-    .no-jobs h4 { font-size: 18px; color: #0a0a0a; margin: 14px 0 6px; font-weight: 700; }
+    .no-jobs h4 { font-size: 18px; color: #1b3a6b; margin: 14px 0 6px; font-weight: 700; }
     .no-jobs p { color: #777; margin: 0; }
 
     /* Pagination — dark */
@@ -355,7 +355,7 @@
         background: #fff;
         border: 1px solid #ececec;
         border-radius: 8px;
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: 14px;
         font-weight: 600;
         display: inline-flex;
@@ -364,12 +364,12 @@
         text-decoration: none;
         transition: all .15s ease;
     }
-    .jobs-pagination li a:hover { background: #f5f5f7; border-color: #0a0a0a; }
+    .jobs-pagination li a:hover { background: #f5f5f7; border-color: #1b3a6b; }
     .jobs-pagination li a.current-page,
     .jobs-pagination li.active a {
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
     }
     .jobs-pagination li a.disabled { opacity: .35; cursor: not-allowed; pointer-events: none; }
 
@@ -401,7 +401,7 @@
     .jobs-explore-section h2 {
         font-size: clamp(24px, 3vw, 34px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.2;
         letter-spacing: -.5px;
         margin: 0 0 12px;
@@ -427,7 +427,7 @@
     .explore-card h3 {
         font-size: 17px;
         font-weight: 700;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 18px;
         display: inline-flex;
         align-items: center;
@@ -437,7 +437,7 @@
         content: "";
         width: 4px;
         height: 18px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         border-radius: 2px;
     }
     .explore-pills {
@@ -448,7 +448,7 @@
     .explore-pills a {
         background: #fff;
         border: 1px solid #ececec;
-        color: #1a1a1a;
+        color: #16305a;
         padding: 9px 16px;
         border-radius: 999px;
         font-size: 13.5px;
@@ -460,8 +460,8 @@
         gap: 6px;
     }
     .explore-pills a:hover {
-        background: #0a0a0a;
-        border-color: #0a0a0a;
+        background: #1b3a6b;
+        border-color: #1b3a6b;
         color: #fff;
         transform: translateY(-1px);
     }
@@ -500,7 +500,7 @@
         width: 38px;
         height: 38px;
         border-radius: 10px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         display: inline-flex;
         align-items: center;
@@ -511,7 +511,7 @@
     .jobs-trust-strip .trust-item h5 {
         font-size: 14px;
         font-weight: 700;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 3px;
     }
     .jobs-trust-strip .trust-item p {

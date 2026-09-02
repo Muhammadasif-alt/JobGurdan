@@ -8,24 +8,24 @@
     .ap-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 22px; }
     .ap-head h1 {
         font-size: 26px; font-weight: 800; margin: 0; letter-spacing: -.4px;
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text; background-clip: text;
         -webkit-text-fill-color: transparent; color: transparent;
     }
     .ap-head .breadcrumbs { font-size: 14px; color: #6b7280; margin-top: 4px; }
-    .ap-head .breadcrumbs a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+    .ap-head .breadcrumbs a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
 
     .stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; margin-bottom: 22px; }
     @media (max-width:767px){ .stats { grid-template-columns: 1fr; } }
     .stat-card { background: #fff; border: 1px solid #ececec; border-radius: 14px; padding: 18px 22px; }
-    .stat-card .ic { width: 38px; height: 38px; border-radius: 10px; background: #0a0a0a; color: #fff; display: inline-flex; align-items: center; justify-content: center; font-size: 16px; margin-bottom: 10px; }
+    .stat-card .ic { width: 38px; height: 38px; border-radius: 10px; background: #1b3a6b; color: #fff; display: inline-flex; align-items: center; justify-content: center; font-size: 16px; margin-bottom: 10px; }
     .stat-card .lbl { font-size: 12px; color: #6b7280; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin: 0; }
-    .stat-card .val { font-size: 26px; font-weight: 800; color: #0a0a0a; line-height: 1.1; margin: 4px 0 0; }
+    .stat-card .val { font-size: 26px; font-weight: 800; color: #1b3a6b; line-height: 1.1; margin: 4px 0 0; }
 
     .panel { background: #fff; border: 1px solid #ececec; border-radius: 16px; overflow: hidden; }
     .panel-head { padding: 16px 22px; border-bottom: 1px solid #ececec; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
-    .panel-head h3 { font-size: 17px; font-weight: 700; color: #0a0a0a; margin: 0; display: flex; align-items: center; gap: 8px; }
-    .panel-head .badge-soft { background: #0a0a0a; color: #fff; padding: 4px 12px; border-radius: 999px; font-size: 12.5px; font-weight: 700; }
+    .panel-head h3 { font-size: 17px; font-weight: 700; color: #1b3a6b; margin: 0; display: flex; align-items: center; gap: 8px; }
+    .panel-head .badge-soft { background: #1b3a6b; color: #fff; padding: 4px 12px; border-radius: 999px; font-size: 12.5px; font-weight: 700; }
 
     .application {
         display: flex; align-items: center; gap: 14px;
@@ -38,10 +38,10 @@
     .application .logo {
         width: 48px; height: 48px; border-radius: 12px;
         background: #f3f4f6; display: inline-flex; align-items: center; justify-content: center;
-        font-weight: 800; color: #0a0a0a; font-size: 16px; flex-shrink: 0;
+        font-weight: 800; color: #1b3a6b; font-size: 16px; flex-shrink: 0;
     }
     .application .info { flex: 1; min-width: 0; }
-    .application .title { font-weight: 700; color: #0a0a0a; font-size: 15px; line-height: 1.3; margin: 0 0 4px; }
+    .application .title { font-weight: 700; color: #1b3a6b; font-size: 15px; line-height: 1.3; margin: 0 0 4px; }
     .application .meta { font-size: 12.5px; color: #6b7280; display: inline-flex; gap: 14px; flex-wrap: wrap; }
     .application .meta span { display: inline-flex; align-items: center; gap: 4px; }
     .application .status { display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px; border-radius: 999px; font-size: 12px; font-weight: 700; white-space: nowrap; flex-shrink: 0; }
@@ -52,7 +52,7 @@
 
     .empty { text-align: center; padding: 70px 20px; }
     .empty > i { font-size: 56px; color: #d1d5db; display: block; margin: 0 auto 6px; }
-    .empty h4 { color: #0a0a0a; font-weight: 700; margin: 14px 0 6px; font-size: 18px; }
+    .empty h4 { color: #1b3a6b; font-weight: 700; margin: 14px 0 6px; font-size: 18px; }
     .empty p { color: #6b7280; margin: 0 0 22px; font-size: 14.5px; }
     .empty .btn i { font-size: 14px; color: inherit; display: inline-block; margin: 0; }
     @media (max-width: 575px) {
@@ -63,8 +63,8 @@
     }
 
     .btn { padding: 10px 22px; border-radius: 10px; font-weight: 600; font-size: 14px; text-decoration: none !important; display: inline-flex; align-items: center; gap: 6px; }
-    .btn-primary { background: #0a0a0a; color: #fff !important; border: 1px solid #0a0a0a; }
-    .btn-primary:hover { background: #1a1a1a; }
+    .btn-primary { background: #1b3a6b; color: #fff !important; border: 1px solid #1b3a6b; }
+    .btn-primary:hover { background: #16305a; }
 </style>
 
 <div class="ap-wrap">

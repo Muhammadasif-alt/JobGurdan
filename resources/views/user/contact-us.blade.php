@@ -97,13 +97,13 @@
     }
     .contact-hero::before {
         content: ""; position: absolute; inset: 0;
-        background-image: radial-gradient(circle at 12% 20%, rgba(10,10,10,.04) 0, transparent 40%),
-                          radial-gradient(circle at 88% 80%, rgba(10,10,10,.03) 0, transparent 45%);
+        background-image: radial-gradient(circle at 12% 20%, rgba(27, 58, 107,.04) 0, transparent 40%),
+                          radial-gradient(circle at 88% 80%, rgba(27, 58, 107,.03) 0, transparent 45%);
         pointer-events: none;
     }
     .contact-hero .container { position: relative; z-index: 2; text-align: center; }
     .contact-hero .breadcrumbs-mini { color: #777; font-size: 13px; margin-bottom: 14px; }
-    .contact-hero .breadcrumbs-mini a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+    .contact-hero .breadcrumbs-mini a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
     .contact-hero .eyebrow {
         display: inline-block;
         background: #fff;
@@ -119,7 +119,7 @@
         box-shadow: 0 1px 2px rgba(15,23,42,.04);
     }
     .contact-hero h1 {
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: clamp(30px, 4.4vw, 50px);
         font-weight: 800;
         line-height: 1.1;
@@ -129,7 +129,7 @@
         margin-left: auto; margin-right: auto;
     }
     .contact-hero h1 .accent {
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -170,14 +170,14 @@
         position: absolute;
         top: 0; left: 0; right: 0;
         height: 3px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         transform: scaleX(0);
         transform-origin: left;
         transition: transform .3s ease;
     }
     .quick-contact-card:hover {
         transform: translateY(-4px);
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
         box-shadow: 0 18px 36px rgba(15,23,42,.10);
         color: inherit;
     }
@@ -185,7 +185,7 @@
     .quick-contact-icon {
         width: 60px; height: 60px;
         border-radius: 14px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         display: flex;
         align-items: center;
@@ -194,11 +194,11 @@
         margin: 0 auto 18px;
         transition: background .25s ease;
     }
-    .quick-contact-card:hover .quick-contact-icon { background: #1a1a1a; }
+    .quick-contact-card:hover .quick-contact-icon { background: #16305a; }
     .quick-contact-card h4 {
         font-size: 18px;
         font-weight: 700;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 8px;
     }
     .quick-contact-card p {
@@ -208,7 +208,7 @@
         line-height: 1.6;
     }
     .quick-contact-card .qc-action {
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-weight: 700;
         font-size: 13.5px;
         display: inline-flex;
@@ -216,7 +216,7 @@
         gap: 6px;
         text-transform: uppercase;
         letter-spacing: .5px;
-        border-bottom: 1.5px solid #0a0a0a;
+        border-bottom: 1.5px solid #1b3a6b;
         padding-bottom: 2px;
         transition: gap .15s ease;
     }
@@ -234,7 +234,7 @@
     .contact-form-card h3 {
         font-size: 22px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 8px;
         letter-spacing: -.3px;
     }
@@ -248,7 +248,7 @@
         display: block;
         font-size: 13px;
         font-weight: 700;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin-bottom: 6px;
         text-transform: uppercase;
         letter-spacing: .5px;
@@ -262,7 +262,7 @@
         border-radius: 10px;
         padding: 12px 16px;
         font-size: 15px;
-        color: #1a1a1a;
+        color: #16305a;
         transition: border-color .15s ease, box-shadow .15s ease;
         margin-bottom: 14px;
         box-shadow: none;
@@ -271,14 +271,14 @@
     .contact-form-card textarea:focus,
     .contact-form-card select:focus {
         outline: none;
-        border-color: #0a0a0a !important;
+        border-color: #1b3a6b !important;
         box-shadow: 0 0 0 3px rgba(0,0,0,.08);
     }
     .contact-form-card textarea { resize: vertical; min-height: 130px; }
     .contact-form-card .submit-btn {
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
-        border: 1.5px solid #0a0a0a;
+        border: 1.5px solid #1b3a6b;
         padding: 13px 30px;
         border-radius: 10px;
         font-weight: 600;
@@ -290,15 +290,15 @@
         transition: all .15s ease;
     }
     .contact-form-card .submit-btn:hover {
-        background: #1a1a1a;
-        border-color: #1a1a1a;
+        background: #16305a;
+        border-color: #16305a;
         transform: translateY(-1px);
         box-shadow: 0 8px 20px rgba(0,0,0,.18);
     }
 
     /* Contact info card — dark with brand glow */
     .contact-info-card {
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         border-radius: 16px;
         padding: 36px 32px;
@@ -391,7 +391,7 @@
     .contact-map-card .info h3 {
         font-size: 22px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 10px;
         letter-spacing: -.3px;
     }
@@ -405,13 +405,13 @@
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-weight: 700;
         font-size: 13.5px;
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: .5px;
-        border-bottom: 1.5px solid #0a0a0a;
+        border-bottom: 1.5px solid #1b3a6b;
         padding-bottom: 2px;
         transition: gap .15s ease;
     }
@@ -431,7 +431,7 @@
         display: block;
         font-size: 22px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.1;
         letter-spacing: -.3px;
     }
@@ -460,13 +460,13 @@
     .contact-blog-section .section-head h2 {
         font-size: clamp(24px, 2.8vw, 32px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 6px;
         letter-spacing: -.4px;
     }
     .contact-blog-section .section-head p { color: #555; font-size: 14.5px; margin: 0; }
     .contact-blog-section .view-all-link {
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-weight: 700;
         font-size: 13.5px;
         text-decoration: none;
@@ -475,7 +475,7 @@
         gap: 8px;
         text-transform: uppercase;
         letter-spacing: .5px;
-        border-bottom: 1.5px solid #0a0a0a;
+        border-bottom: 1.5px solid #1b3a6b;
         padding-bottom: 2px;
         transition: gap .15s ease;
     }
@@ -500,7 +500,7 @@
     }
     .contact-blog-card:hover {
         transform: translateY(-3px);
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
         box-shadow: 0 14px 32px rgba(15,23,42,.10);
         color: inherit;
     }
@@ -516,7 +516,7 @@
     .contact-blog-body h4 {
         font-size: 16px;
         font-weight: 700;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 10px;
         line-height: 1.4;
         display: -webkit-box;
@@ -536,7 +536,7 @@
         overflow: hidden;
     }
     .contact-blog-body .read-link {
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-weight: 700;
         font-size: 12px;
         text-transform: uppercase;
@@ -574,7 +574,7 @@
     .contact-faq-head h2 {
         font-size: clamp(26px, 3vw, 38px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.15;
         letter-spacing: -.5px;
         margin: 0 0 14px;
@@ -603,14 +603,14 @@
         transition: all .2s ease;
     }
     .contact-faq-item[open] {
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
         box-shadow: 0 4px 16px rgba(0,0,0,.06);
     }
     .contact-faq-item summary {
         padding: 20px 24px;
         font-weight: 600;
         font-size: 15.5px;
-        color: #0a0a0a;
+        color: #1b3a6b;
         cursor: pointer;
         list-style: none;
         display: flex;
@@ -622,7 +622,7 @@
     .contact-faq-item summary::after {
         content: '+';
         font-size: 24px;
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-weight: 300;
     }
     .contact-faq-item[open] summary::after { content: '−'; }

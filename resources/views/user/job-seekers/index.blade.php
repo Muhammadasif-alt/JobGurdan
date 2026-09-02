@@ -15,7 +15,7 @@
     /* === Hero === */
     .js-hero {
         position: relative;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         padding: 80px 0 90px;
         overflow: hidden;
@@ -64,12 +64,12 @@
     }
     .js-search-box button {
         height: 50px; padding: 0 26px;
-        background: #0a0a0a; color: #fff; border: none;
+        background: #1b3a6b; color: #fff; border: none;
         border-radius: 10px; font-weight: 700; font-size: 14.5px;
         cursor: pointer; display: inline-flex; align-items: center; gap: 8px;
         transition: background .15s ease;
     }
-    .js-search-box button:hover { background: #1a1a1a; }
+    .js-search-box button:hover { background: #16305a; }
 
     .js-hero-stats {
         display: flex; justify-content: center; gap: 40px;
@@ -83,13 +83,13 @@
     /* === Cards section === */
     .js-section { padding: 70px 0 30px; }
     .js-section-head { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 16px; margin-bottom: 28px; }
-    .js-section-head h2 { font-size: clamp(22px, 2.5vw, 30px); font-weight: 800; color: #0a0a0a; letter-spacing: -.5px; margin: 0; }
+    .js-section-head h2 { font-size: clamp(22px, 2.5vw, 30px); font-weight: 800; color: #1b3a6b; letter-spacing: -.5px; margin: 0; }
     .js-section-head p  { color: #555; font-size: 15px; margin: 6px 0 0; }
     .js-section-head .count-pill {
         display: inline-flex; align-items: center; gap: 6px;
         background: #fff; border: 1px solid #e5e5e7;
         padding: 6px 14px; border-radius: 999px;
-        font-size: 13px; font-weight: 600; color: #0a0a0a;
+        font-size: 13px; font-weight: 600; color: #1b3a6b;
     }
 
     .js-grid {
@@ -111,18 +111,18 @@
         color: inherit !important;
         display: flex; flex-direction: column;
     }
-    .js-card:hover { transform: translateY(-3px); box-shadow: 0 20px 40px rgba(15,23,42,.08); border-color: #0a0a0a; }
+    .js-card:hover { transform: translateY(-3px); box-shadow: 0 20px 40px rgba(15,23,42,.08); border-color: #1b3a6b; }
     .js-card-head { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
     .js-avatar {
         width: 54px; height: 54px; border-radius: 14px;
-        background: #0a0a0a; color: #fff;
+        background: #1b3a6b; color: #fff;
         display: inline-flex; align-items: center; justify-content: center;
         font-weight: 800; font-size: 18px; letter-spacing: -.5px;
-        flex-shrink: 0; box-shadow: 0 6px 14px rgba(10,10,10,.20);
+        flex-shrink: 0; box-shadow: 0 6px 14px rgba(27, 58, 107,.20);
         overflow: hidden;
     }
     .js-avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    .js-card-name { font-weight: 700; font-size: 16px; color: #0a0a0a; line-height: 1.2; margin: 0 0 3px; }
+    .js-card-name { font-weight: 700; font-size: 16px; color: #1b3a6b; line-height: 1.2; margin: 0 0 3px; }
     .js-card-loc { font-size: 12.5px; color: #6b7280; display: inline-flex; align-items: center; gap: 5px; }
     .js-card-loc i { font-size: 13px; color: #2f7fc9; }
 
@@ -134,7 +134,7 @@
     }
     .js-skills { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 16px; }
     .js-skill {
-        font-size: 11.5px; font-weight: 600; color: #0a0a0a;
+        font-size: 11.5px; font-weight: 600; color: #1b3a6b;
         background: #f3f4f6; border: 1px solid #e5e7eb;
         padding: 4px 10px; border-radius: 999px;
     }
@@ -147,7 +147,7 @@
     .js-card-exp { font-size: 12px; color: #6b7280; display: inline-flex; align-items: center; gap: 5px; }
     .js-card-exp i { color: #5e2bff; font-size: 13px; }
     .js-view-link {
-        font-size: 13px; font-weight: 700; color: #0a0a0a;
+        font-size: 13px; font-weight: 700; color: #1b3a6b;
         display: inline-flex; align-items: center; gap: 4px;
         transition: gap .15s ease;
     }
@@ -156,7 +156,7 @@
     /* Empty state */
     .js-empty { text-align: center; padding: 80px 20px; background: #fff; border-radius: 16px; border: 1px solid #ececec; }
     .js-empty i { font-size: 56px; color: #d1d5db; }
-    .js-empty h4 { color: #0a0a0a; font-weight: 700; margin: 14px 0 6px; font-size: 19px; }
+    .js-empty h4 { color: #1b3a6b; font-weight: 700; margin: 14px 0 6px; font-size: 19px; }
     .js-empty p { color: #6b7280; margin: 0; font-size: 14.5px; }
 
     /* Pagination */
@@ -182,7 +182,7 @@
     }
     .js-faq-head h2 {
         font-size: clamp(26px, 3vw, 38px); font-weight: 800;
-        color: #0a0a0a; line-height: 1.15; letter-spacing: -.5px;
+        color: #1b3a6b; line-height: 1.15; letter-spacing: -.5px;
         margin: 0 0 14px;
     }
     .js-faq-head h2 .accent {
@@ -207,17 +207,17 @@
         overflow: hidden;
         transition: border-color .15s ease;
     }
-    .js-faq[open] { border-color: #0a0a0a; box-shadow: 0 8px 18px rgba(10,10,10,.06); }
+    .js-faq[open] { border-color: #1b3a6b; box-shadow: 0 8px 18px rgba(27, 58, 107,.06); }
     .js-faq summary {
         list-style: none; cursor: pointer;
         padding: 18px 22px;
-        font-weight: 700; font-size: 15.5px; color: #0a0a0a;
+        font-weight: 700; font-size: 15.5px; color: #1b3a6b;
         display: flex; justify-content: space-between; align-items: center;
         gap: 12px;
     }
     .js-faq summary::-webkit-details-marker { display: none; }
     .js-faq summary::after {
-        content: "+"; font-size: 22px; font-weight: 400; color: #0a0a0a;
+        content: "+"; font-size: 22px; font-weight: 400; color: #1b3a6b;
         transition: transform .2s ease;
     }
     .js-faq[open] summary::after { content: "×"; transform: rotate(0deg); }
@@ -227,7 +227,7 @@
     .js-cta-section { padding: 70px 0; background: #f5f5f7; }
     .js-cta-card {
         position: relative;
-        background: #0a0a0a; color: #fff;
+        background: #1b3a6b; color: #fff;
         border-radius: 24px; padding: 60px 40px;
         overflow: hidden; text-align: center;
     }
@@ -257,7 +257,7 @@
         text-decoration: none !important;
         transition: transform .15s ease;
     }
-    .js-cta-btn-primary { background: #fff; color: #0a0a0a !important; }
+    .js-cta-btn-primary { background: #fff; color: #1b3a6b !important; }
     .js-cta-btn-primary:hover { transform: translateY(-2px); }
     .js-cta-btn-outline { background: transparent; color: #fff !important; border: 1.5px solid rgba(255,255,255,.30); }
     .js-cta-btn-outline:hover { background: rgba(255,255,255,.10); border-color: rgba(255,255,255,.50); }
@@ -281,7 +281,7 @@
     .js-spotlight-visual img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .js-spotlight-pill {
         position: absolute; bottom: 22px; left: 22px;
-        background: #fff; color: #0a0a0a;
+        background: #fff; color: #1b3a6b;
         padding: 8px 14px; border-radius: 999px;
         font-size: 12.5px; font-weight: 700;
         display: inline-flex; align-items: center; gap: 6px;
@@ -298,7 +298,7 @@
     }
     .js-spotlight-content h2 {
         font-size: clamp(28px, 3.2vw, 42px); font-weight: 800;
-        color: #0a0a0a; line-height: 1.15; letter-spacing: -.6px;
+        color: #1b3a6b; line-height: 1.15; letter-spacing: -.6px;
         margin: 0 0 16px;
     }
     .js-spotlight-content h2 .accent {
@@ -339,10 +339,10 @@
     .js-spotlight-btn.primary:hover { transform: translateY(-2px); box-shadow: 0 14px 28px rgba(27, 58, 107,.45); }
     .js-spotlight-btn.outline {
         background: #fff;
-        color: #0a0a0a !important;
-        border: 1.5px solid #0a0a0a;
+        color: #1b3a6b !important;
+        border: 1.5px solid #1b3a6b;
     }
-    .js-spotlight-btn.outline:hover { background: #0a0a0a; color: #fff !important; }
+    .js-spotlight-btn.outline:hover { background: #1b3a6b; color: #fff !important; }
 </style>
 
 <div class="js-page">
@@ -425,7 +425,7 @@
                 <div class="js-empty">
                     <i class="icon-feather-users"></i>
                     <h4>No job seekers match your search</h4>
-                    <p>Try a different keyword, or <a href="{{ route('job-seekers.index') }}" style="color:#0a0a0a;font-weight:600;">browse all profiles</a>.</p>
+                    <p>Try a different keyword, or <a href="{{ route('job-seekers.index') }}" style="color:#1b3a6b;font-weight:600;">browse all profiles</a>.</p>
                 </div>
             @endif
         </div>
@@ -617,7 +617,7 @@
 .jsk-why-section { background: #fafafa; border-top: 1px solid #ececec; }
 .jsk-seo-section { background: #fff; }
 .jsk-trust-section {
-    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+    background: linear-gradient(135deg, #1b3a6b 0%, #16305a 100%);
     color: #fff;
     padding: 70px 0;
 }
@@ -630,7 +630,7 @@
 }
 .jsk-section-head h2 {
     font-size: clamp(26px, 3.2vw, 38px); font-weight: 800;
-    color: #0a0a0a; line-height: 1.15; letter-spacing: -.6px; margin: 0 0 12px;
+    color: #1b3a6b; line-height: 1.15; letter-spacing: -.6px; margin: 0 0 12px;
 }
 .jsk-section-head h2 .accent {
     background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
@@ -655,12 +655,12 @@
 .jsk-why-card:hover { transform: translateY(-4px); border-color: #1b3a6b; box-shadow: 0 20px 40px rgba(15,23,42,.10); }
 .jsk-why-ico {
     width: 52px; height: 52px; border-radius: 14px;
-    background: linear-gradient(135deg, #0a0a0a, #1f1f1f); color: #fff;
+    background: linear-gradient(135deg, #1b3a6b, #2f7fc9); color: #fff;
     display: inline-flex; align-items: center; justify-content: center;
     font-size: 22px; margin-bottom: 16px;
-    box-shadow: 0 6px 14px rgba(10,10,10,.18);
+    box-shadow: 0 6px 14px rgba(27, 58, 107,.18);
 }
-.jsk-why-card h3 { font-size: 17px; font-weight: 800; color: #0a0a0a; margin: 0 0 8px; }
+.jsk-why-card h3 { font-size: 17px; font-weight: 800; color: #1b3a6b; margin: 0 0 8px; }
 .jsk-why-card p { color: #555; font-size: 13.5px; line-height: 1.55; margin: 0; }
 
 /* ===== SEO section ===== */
@@ -672,22 +672,22 @@
     letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 14px;
 }
 .jsk-seo-content h2 {
-    font-size: clamp(26px, 3vw, 36px); font-weight: 800; color: #0a0a0a;
+    font-size: clamp(26px, 3vw, 36px); font-weight: 800; color: #1b3a6b;
     line-height: 1.15; letter-spacing: -.6px; margin: 0 0 16px;
 }
 .jsk-seo-content h2 .accent {
     background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
     -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
-.jsk-seo-lead { color: #1a1a1a; font-size: 16px; line-height: 1.65; margin: 0 0 14px; font-weight: 500; }
+.jsk-seo-lead { color: #16305a; font-size: 16px; line-height: 1.65; margin: 0 0 14px; font-weight: 500; }
 .jsk-seo-content p { color: #555; font-size: 15px; line-height: 1.7; margin: 0 0 18px; }
 .jsk-seo-list { list-style: none; padding: 0; margin: 18px 0 0; }
 .jsk-seo-list li {
     display: flex; align-items: center; gap: 10px;
-    padding: 8px 0; color: #1a1a1a; font-size: 14.5px;
+    padding: 8px 0; color: #16305a; font-size: 14.5px;
 }
 .jsk-seo-list li i { color: #10b981; font-size: 18px; }
-.jsk-seo-list li strong { color: #0a0a0a; font-weight: 700; margin-right: 4px; }
+.jsk-seo-list li strong { color: #1b3a6b; font-weight: 700; margin-right: 4px; }
 .jsk-seo-visual { position: relative; }
 .jsk-seo-visual img {
     width: 100%;
@@ -707,12 +707,12 @@
 .jsk-float-badge.br { bottom: 20px; right: -20px; }
 .jsk-float-badge .ico {
     width: 36px; height: 36px; border-radius: 10px;
-    background: #0a0a0a; color: #fff;
+    background: #1b3a6b; color: #fff;
     display: inline-flex; align-items: center; justify-content: center;
     font-size: 18px; flex-shrink: 0;
 }
 .jsk-float-badge .ico.green { background: #10b981; }
-.jsk-float-badge .text strong { display: block; color: #0a0a0a; font-size: 14.5px; font-weight: 800; }
+.jsk-float-badge .text strong { display: block; color: #1b3a6b; font-size: 14.5px; font-weight: 800; }
 .jsk-float-badge .text span { color: #777; font-size: 12px; }
 @media (max-width: 575px) {
     .jsk-float-badge.tl { top: 10px; left: 10px; }

@@ -28,7 +28,7 @@
     .pf-head   { margin-bottom: 22px; }
     .pf-head h1 {
         font-size: 26px; font-weight: 800; margin: 0; letter-spacing: -.4px;
-        background: linear-gradient(90deg,#0a0a0a,#404040);
+        background: linear-gradient(90deg,#1b3a6b,#4a90d9);
         -webkit-background-clip: text; background-clip: text;
         -webkit-text-fill-color: transparent; color: transparent;
     }
@@ -43,9 +43,9 @@
     .pf-card-head .ico {
         width: 44px; height: 44px; border-radius: 12px; background: #f5f5f7;
         display: inline-flex; align-items: center; justify-content: center;
-        color: #0a0a0a; font-size: 18px;
+        color: #1b3a6b; font-size: 18px;
     }
-    .pf-card-head h2 { font-size: 17px; font-weight: 700; margin: 0; color: #0a0a0a; }
+    .pf-card-head h2 { font-size: 17px; font-weight: 700; margin: 0; color: #1b3a6b; }
     .pf-card-head p  { font-size: 13px; color: #6b7280; margin: 2px 0 0; }
 
     .pf-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 22px; }
@@ -56,11 +56,11 @@
     .pf-input, .pf-textarea, .pf-select {
         width: 100%; padding: 11px 14px;
         background: #fff; border: 1px solid #e5e7eb; border-radius: 10px;
-        font-size: 14px; color: #0a0a0a;
+        font-size: 14px; color: #1b3a6b;
         transition: border-color .15s ease, box-shadow .15s ease;
     }
     .pf-input:focus, .pf-textarea:focus, .pf-select:focus {
-        outline: none; border-color: #0a0a0a; box-shadow: 0 0 0 3px rgba(10,10,10,.08);
+        outline: none; border-color: #1b3a6b; box-shadow: 0 0 0 3px rgba(27, 58, 107,.08);
     }
     .pf-textarea { min-height: 110px; resize: vertical; line-height: 1.5; }
     .pf-help     { font-size: 12px; color: #6b7280; margin-top: 6px; }
@@ -69,7 +69,7 @@
     .pf-photo-row { display: flex; align-items: center; gap: 18px; margin-bottom: 22px; }
     .pf-photo {
         width: 78px; height: 78px; border-radius: 50%; overflow: hidden;
-        background: linear-gradient(135deg,#0a0a0a,#404040);
+        background: linear-gradient(135deg,#1b3a6b,#4a90d9);
         color: #fff; display: inline-flex; align-items: center; justify-content: center;
         font-size: 26px; font-weight: 700; flex-shrink: 0;
     }
@@ -83,9 +83,9 @@
         border: 1px solid transparent; transition: all .15s ease;
         text-decoration: none;
     }
-    .pf-btn-primary  { background: #0a0a0a; border-color: #0a0a0a; color: #fff !important; }
-    .pf-btn-primary:hover  { background: #1a1a1a; transform: translateY(-1px); box-shadow: 0 8px 16px rgba(10,10,10,.18); }
-    .pf-btn-ghost    { background: #fff; border-color: #e5e7eb; color: #0a0a0a; }
+    .pf-btn-primary  { background: #1b3a6b; border-color: #1b3a6b; color: #fff !important; }
+    .pf-btn-primary:hover  { background: #16305a; transform: translateY(-1px); box-shadow: 0 8px 16px rgba(27, 58, 107,.18); }
+    .pf-btn-ghost    { background: #fff; border-color: #e5e7eb; color: #1b3a6b; }
     .pf-btn-ghost:hover    { background: #f9fafb; border-color: #d1d5db; }
     .pf-btn-danger   { background: #fff; border-color: #fecaca; color: #b91c1c; }
     .pf-btn-danger:hover   { background: #fef2f2; border-color: #fca5a5; }
@@ -140,7 +140,7 @@
                     @endif
                 </div>
                 <div>
-                    <div style="font-weight:600;color:#0a0a0a;margin-bottom:6px;">Profile photo</div>
+                    <div style="font-weight:600;color:#1b3a6b;margin-bottom:6px;">Profile photo</div>
                     <div class="pf-photo-actions">
                         <input type="file" name="photo" id="pf-photo-input" accept="image/png,image/jpeg" style="display:none;">
                         <label for="pf-photo-input" class="pf-btn pf-btn-ghost" style="cursor:pointer;">
@@ -177,7 +177,7 @@
             {{-- Company-only fields --}}
             @if ($user->isCompany())
             <div style="margin-top:30px;padding-top:24px;border-top:1px dashed #ececec;">
-                <h3 style="font-size:15px;font-weight:700;margin:0 0 4px;color:#0a0a0a;">Company Details</h3>
+                <h3 style="font-size:15px;font-weight:700;margin:0 0 4px;color:#1b3a6b;">Company Details</h3>
                 <p style="font-size:13px;color:#6b7280;margin:0 0 18px;">Help job seekers learn more about your company.</p>
 
                 <div class="pf-grid">

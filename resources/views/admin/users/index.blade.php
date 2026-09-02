@@ -10,12 +10,12 @@
     }
     .usr-head h1 {
         font-size: 28px; font-weight: 800; margin: 0; letter-spacing: -.4px;
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text; background-clip: text;
         -webkit-text-fill-color: transparent; color: transparent;
     }
     .usr-head .breadcrumbs { font-size: 14px; color: #6b7280; margin-top: 4px; }
-    .usr-head .breadcrumbs a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+    .usr-head .breadcrumbs a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
     .usr-head .breadcrumbs a:hover { text-decoration: underline; }
 
     .usr-stats {
@@ -31,17 +31,17 @@
     }
     .stat-card::before {
         content: ""; position: absolute; top: 0; left: 0; right: 0;
-        height: 3px; background: #0a0a0a;
+        height: 3px; background: #1b3a6b;
         transform: scaleX(0); transform-origin: left;
         transition: transform .25s ease;
     }
-    .stat-card:hover { transform: translateY(-2px); box-shadow: 0 14px 28px rgba(15,23,42,.08); border-color: #0a0a0a; }
+    .stat-card:hover { transform: translateY(-2px); box-shadow: 0 14px 28px rgba(15,23,42,.08); border-color: #1b3a6b; }
     .stat-card:hover::before { transform: scaleX(1); }
-    .stat-card.active { border-color: #0a0a0a; box-shadow: 0 14px 28px rgba(10,10,10,.12); }
+    .stat-card.active { border-color: #1b3a6b; box-shadow: 0 14px 28px rgba(27, 58, 107,.12); }
     .stat-card.active::before { transform: scaleX(1); }
     .stat-card .icon-wrap {
         width: 42px; height: 42px; border-radius: 11px;
-        background: #0a0a0a; color: #fff;
+        background: #1b3a6b; color: #fff;
         display: inline-flex; align-items: center; justify-content: center;
         font-size: 18px; margin-bottom: 10px;
     }
@@ -55,7 +55,7 @@
         flex-wrap: wrap; gap: 12px;
     }
     .panel-head h3 { font-size: 19px; font-weight: 700; color: #0f172a; margin: 0; display: inline-flex; align-items: center; gap: 8px; }
-    .panel-head h3 .badge-soft { background: #0a0a0a; color: #fff; font-weight: 700; font-size: 13.5px; padding: 4px 11px; border-radius: 999px; }
+    .panel-head h3 .badge-soft { background: #1b3a6b; color: #fff; font-weight: 700; font-size: 13.5px; padding: 4px 11px; border-radius: 999px; }
     .panel-actions { display: inline-flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 
     .search-box { position: relative; display: inline-flex; align-items: center; }
@@ -67,9 +67,9 @@
         min-width: 240px; outline: none;
         transition: border-color .15s ease, box-shadow .15s ease;
     }
-    .search-box input:focus { border-color: #0a0a0a; box-shadow: 0 0 0 3px rgba(10,10,10,.10); }
+    .search-box input:focus { border-color: #1b3a6b; box-shadow: 0 0 0 3px rgba(27, 58, 107,.10); }
     .search-box .clear-btn { position: absolute; right: 8px; background: none; border: none; color: #9ca3af; cursor: pointer; padding: 6px; display: inline-flex; align-items: center; }
-    .search-box .clear-btn:hover { color: #0a0a0a; }
+    .search-box .clear-btn:hover { color: #1b3a6b; }
 
     .panel .table { margin: 0; }
     .panel .table thead th {
@@ -84,7 +84,7 @@
     .usr-cell { display: flex; align-items: center; gap: 12px; min-width: 220px; }
     .usr-avatar {
         width: 42px; height: 42px; border-radius: 50%;
-        background: #0a0a0a; color: #fff;
+        background: #1b3a6b; color: #fff;
         display: inline-flex; align-items: center; justify-content: center;
         font-weight: 800; font-size: 14.5px;
         flex-shrink: 0;
@@ -94,7 +94,7 @@
     .usr-username { font-size: 12.5px; color: #6b7280; margin-top: 2px; font-family: ui-monospace, Menlo, monospace; }
 
     .badge-pill { display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px; font-size: 12.5px; font-weight: 700; border-radius: 999px; white-space: nowrap; }
-    .badge-pill.dark   { background: #0a0a0a; color: #fff; }
+    .badge-pill.dark   { background: #1b3a6b; color: #fff; }
     .badge-pill.gray   { background: #f3f4f6; color: #4b5563; }
     .badge-pill.green  { background: #ecfdf5; color: #047857; border: 1px solid #d1fae5; }
     .badge-pill.muted  { background: #f3f4f6; color: #9ca3af; }
@@ -112,8 +112,8 @@
         text-decoration: none; padding: 0;
     }
     .row-actions a:hover, .row-actions button:hover { transform: translateY(-1px); }
-    .row-actions .a-view:hover   { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
-    .row-actions .a-edit:hover   { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
+    .row-actions .a-view:hover   { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
+    .row-actions .a-edit:hover   { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
     .row-actions .a-delete:hover { background: #fef2f2; color: #dc2626; border-color: #fecaca; }
     .row-actions form { display: inline; margin: 0; }
 
@@ -134,7 +134,7 @@
         display: flex; justify-content: space-between; align-items: center; gap: 10px;
         font-size: 13.5px;
     }
-    .custom-alert.success { background: #f3f4f6; color: #0a0a0a; border: 1px solid #e5e7eb; }
+    .custom-alert.success { background: #f3f4f6; color: #1b3a6b; border: 1px solid #e5e7eb; }
     .custom-alert button { background: transparent; border: none; color: inherit; opacity: .6; }
     .custom-alert button:hover { opacity: 1; }
 
@@ -192,7 +192,7 @@
     <div class="panel">
         <div class="panel-head">
             <h3>
-                <i class="bi bi-people" style="color:#0a0a0a"></i>
+                <i class="bi bi-people" style="color:#1b3a6b"></i>
                 @switch($role)
                     @case('admin')      Administrators @break
                     @case('company')    Companies @break

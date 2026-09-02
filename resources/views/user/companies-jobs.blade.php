@@ -63,12 +63,12 @@
         font-weight: 400;
     }
     .utf-page-heading-area #breadcrumbs ul li a:hover { color: #1b3a6b !important; }
-    .utf-page-heading-area #breadcrumbs ul li:last-child { color: #0a0a0a !important; }
+    .utf-page-heading-area #breadcrumbs ul li:last-child { color: #1b3a6b !important; }
     .utf-page-heading-area h1 {
         font-size: clamp(36px, 5vw, 62px) !important;
         font-weight: 800 !important;
         letter-spacing: -1.5px;
-        color: #0a0a0a !important;
+        color: #1b3a6b !important;
         margin: 0 auto 0 !important;
         max-width: 1100px;
         line-height: 1.1 !important;
@@ -82,35 +82,35 @@
     }
 
     /* Company overview card */
-    .utf-company-overview .company-desc h3 { color: #0a0a0a !important; font-weight: 700; }
-    .utf-company-overview .company-desc i { color: #0a0a0a !important; }
-    .utf-company-overview .company-desc a { color: #0a0a0a !important; font-weight: 600; }
+    .utf-company-overview .company-desc h3 { color: #1b3a6b !important; font-weight: 700; }
+    .utf-company-overview .company-desc i { color: #1b3a6b !important; }
+    .utf-company-overview .company-desc a { color: #1b3a6b !important; font-weight: 600; }
 
     /* Sidebar widgets */
     .utf-sidebar-widget-item h3 {
-        color: #0a0a0a !important;
+        color: #1b3a6b !important;
         font-weight: 700 !important;
-        border-bottom: 2px solid #0a0a0a !important;
+        border-bottom: 2px solid #1b3a6b !important;
         display: inline-block;
         padding-bottom: 8px;
     }
-    .utf-sidebar-widget-item input[type="checkbox"] { accent-color: #0a0a0a !important; }
+    .utf-sidebar-widget-item input[type="checkbox"] { accent-color: #1b3a6b !important; }
 
     /* Job listing cards */
-    .utf-job-listing-item:hover { border-color: #0a0a0a !important; box-shadow: 0 16px 32px rgba(15,23,42,.08) !important; }
-    .utf-job-listing-item h3, .utf-job-listing-item h3 a { color: #0a0a0a !important; }
-    .utf-job-listing-item .utf-job-listing-footer ul li i { color: #0a0a0a !important; }
-    .utf-job-listing-item h3 a:hover { color: #0a0a0a !important; text-decoration: underline; }
+    .utf-job-listing-item:hover { border-color: #1b3a6b !important; box-shadow: 0 16px 32px rgba(15,23,42,.08) !important; }
+    .utf-job-listing-item h3, .utf-job-listing-item h3 a { color: #1b3a6b !important; }
+    .utf-job-listing-item .utf-job-listing-footer ul li i { color: #1b3a6b !important; }
+    .utf-job-listing-item h3 a:hover { color: #1b3a6b !important; text-decoration: underline; }
 
     /* Buttons */
     .button, .button.ripple-effect, .utf-listing-container-area .button {
-        background: #0a0a0a !important;
-        border: 1px solid #0a0a0a !important;
+        background: #1b3a6b !important;
+        border: 1px solid #1b3a6b !important;
         color: #fff !important;
         border-radius: 8px !important;
         font-weight: 600 !important;
     }
-    .button:hover { background: #1a1a1a !important; color: #fff !important; }
+    .button:hover { background: #16305a !important; color: #fff !important; }
 </style>
 
 <!-- Page Title -->
@@ -250,7 +250,7 @@
                         transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
                     }
                     .job-card:hover {
-                        border-color: #0a0a0a;
+                        border-color: #1b3a6b;
                         box-shadow: 0 14px 32px rgba(15,23,42,.08);
                         transform: translateY(-3px);
                     }
@@ -275,7 +275,7 @@
                     .job-card-badge.green  { background: #047857; }
                     .job-card-badge.yellow { background: #b45309; }
                     .job-card-title {
-                        font-size: 16.5px; font-weight: 700; color: #0a0a0a;
+                        font-size: 16.5px; font-weight: 700; color: #1b3a6b;
                         margin: 0 0 12px; line-height: 1.35;
                         display: -webkit-box; -webkit-line-clamp: 2;
                         -webkit-box-orient: vertical; overflow: hidden; min-height: 46px;
@@ -285,17 +285,17 @@
                         font-size: 13px; color: #555; margin-bottom: 6px;
                         display: flex; align-items: center; gap: 8px;
                     }
-                    .job-card-meta li i { color: #0a0a0a; font-size: 14px; }
+                    .job-card-meta li i { color: #1b3a6b; font-size: 14px; }
                     .job-card-button {
                         display: inline-flex; align-items: center; justify-content: center; gap: 6px;
-                        background: #0a0a0a; color: #fff !important;
+                        background: #1b3a6b; color: #fff !important;
                         padding: 11px 14px; border-radius: 10px;
                         font-size: 13.5px; font-weight: 600;
                         margin-top: auto;
                         transition: background .2s ease;
-                        border: 1.5px solid #0a0a0a;
+                        border: 1.5px solid #1b3a6b;
                     }
-                    .job-card:hover .job-card-button { background: #1a1a1a; border-color: #1a1a1a; }
+                    .job-card:hover .job-card-button { background: #16305a; border-color: #16305a; }
 
                     .no-jobs {
                         grid-column: 1 / -1; text-align: center;
@@ -303,7 +303,7 @@
                         border: 1px dashed #ddd; border-radius: 14px;
                     }
                     .no-jobs i { font-size: 50px; color: #c7c7cc; }
-                    .no-jobs h4 { font-size: 18px; color: #0a0a0a; margin: 14px 0 6px; font-weight: 700; }
+                    .no-jobs h4 { font-size: 18px; color: #1b3a6b; margin: 14px 0 6px; font-weight: 700; }
                     .no-jobs p { color: #777; margin: 0; }
                 </style>
 
@@ -462,7 +462,7 @@
 .cj-why-section { background: #fafafa; border-top: 1px solid #ececec; }
 .cj-seo-section { background: #fff; }
 .cj-stats-section {
-    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+    background: linear-gradient(135deg, #1b3a6b 0%, #16305a 100%);
     padding: 50px 0;
 }
 
@@ -482,7 +482,7 @@
 .cj-section-head h2 {
     font-size: clamp(26px, 3.2vw, 38px);
     font-weight: 800;
-    color: #0a0a0a;
+    color: #1b3a6b;
     line-height: 1.15;
     letter-spacing: -.6px;
     margin: 0 0 12px;
@@ -535,7 +535,7 @@
 .cj-why-card h3 {
     font-size: 17px;
     font-weight: 800;
-    color: #0a0a0a;
+    color: #1b3a6b;
     margin: 0 0 8px;
     border: none; padding: 0; display: block;
 }
@@ -566,7 +566,7 @@
 .cj-seo-content h2 {
     font-size: clamp(26px, 3vw, 36px);
     font-weight: 800;
-    color: #0a0a0a;
+    color: #1b3a6b;
     line-height: 1.15;
     letter-spacing: -.6px;
     margin: 0 0 16px;
@@ -576,12 +576,12 @@
     -webkit-background-clip: text; background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.cj-seo-content .cj-seo-lead { color: #1a1a1a; font-size: 16px; line-height: 1.65; margin: 0 0 14px; font-weight: 500; }
+.cj-seo-content .cj-seo-lead { color: #16305a; font-size: 16px; line-height: 1.65; margin: 0 0 14px; font-weight: 500; }
 .cj-seo-content p { color: #555; font-size: 15px; line-height: 1.7; margin: 0 0 18px; }
 .cj-seo-list { list-style: none; padding: 0; margin: 18px 0 0; }
 .cj-seo-list li {
     display: flex; align-items: center; gap: 10px;
-    padding: 8px 0; color: #1a1a1a; font-size: 14.5px; font-weight: 500;
+    padding: 8px 0; color: #16305a; font-size: 14.5px; font-weight: 500;
 }
 .cj-seo-list li i { color: #10b981; font-size: 18px; }
 .cj-seo-visual { position: relative; }
@@ -607,13 +607,13 @@
 .cj-float-badge.br { bottom: 20px; right: -20px; }
 .cj-float-badge .ico {
     width: 36px; height: 36px; border-radius: 10px;
-    background: #0a0a0a; color: #fff;
+    background: #1b3a6b; color: #fff;
     display: inline-flex; align-items: center; justify-content: center;
     font-size: 18px;
     flex-shrink: 0;
 }
 .cj-float-badge .ico.green { background: #10b981; }
-.cj-float-badge .text strong { display: block; color: #0a0a0a; font-size: 14.5px; font-weight: 800; }
+.cj-float-badge .text strong { display: block; color: #1b3a6b; font-size: 14.5px; font-weight: 800; }
 .cj-float-badge .text span { color: #777; font-size: 12px; }
 @media (max-width: 575px) {
     .cj-float-badge.tl { top: 10px; left: 10px; }

@@ -18,14 +18,14 @@
     .seeker-page { background: #f5f5f7; padding: 40px 0 70px; }
 
     .seeker-breadcrumb { font-size: 13.5px; color: #6b7280; margin-bottom: 20px; }
-    .seeker-breadcrumb a { color: #0a0a0a; font-weight: 600; text-decoration: none; }
+    .seeker-breadcrumb a { color: #1b3a6b; font-weight: 600; text-decoration: none; }
     .seeker-breadcrumb a:hover { text-decoration: underline; }
     .seeker-breadcrumb .sep { margin: 0 8px; color: #cbd5e1; }
 
     /* === Profile header === */
     .sk-detail-hero {
         position: relative;
-        background: #0a0a0a; color: #fff;
+        background: #1b3a6b; color: #fff;
         border-radius: 22px; padding: 40px 40px 36px;
         overflow: hidden;
         margin-bottom: 28px;
@@ -88,7 +88,7 @@
         text-decoration: none !important; white-space: nowrap;
         transition: transform .15s ease;
     }
-    .seeker-cta-col .btn-light { background: #fff; color: #0a0a0a !important; }
+    .seeker-cta-col .btn-light { background: #fff; color: #1b3a6b !important; }
     .seeker-cta-col .btn-light:hover { transform: translateY(-2px); }
     .seeker-cta-col .btn-ghost { background: transparent; color: #fff !important; border: 1.5px solid rgba(255,255,255,.30); }
     .seeker-cta-col .btn-ghost:hover { background: rgba(255,255,255,.10); }
@@ -106,7 +106,7 @@
         margin-bottom: 22px;
     }
     .panel h3 {
-        font-size: 17px; font-weight: 700; color: #0a0a0a;
+        font-size: 17px; font-weight: 700; color: #1b3a6b;
         margin: 0 0 16px; display: flex; align-items: center; gap: 10px;
     }
     .panel h3 i { color: #5e2bff; }
@@ -118,20 +118,20 @@
         display: inline-flex; align-items: center; gap: 6px;
         padding: 8px 14px; border-radius: 999px;
         background: #fafbff; border: 1px solid #e5e7eb;
-        font-size: 13.5px; font-weight: 600; color: #0a0a0a;
+        font-size: 13.5px; font-weight: 600; color: #1b3a6b;
     }
     .skill-grid .skill i { color: #2f7fc9; font-size: 12px; }
 
     /* Info table */
     .info-table { display: grid; grid-template-columns: max-content 1fr; gap: 12px 24px; }
     .info-table dt { font-size: 12.5px; color: #6b7280; font-weight: 600; text-transform: uppercase; letter-spacing: .8px; padding-top: 2px; }
-    .info-table dd { margin: 0; font-size: 14.5px; color: #0a0a0a; font-weight: 600; }
-    .info-table dd a { color: #0a0a0a; text-decoration: none; border-bottom: 1px solid #cbd5e1; }
-    .info-table dd a:hover { border-color: #0a0a0a; }
+    .info-table dd { margin: 0; font-size: 14.5px; color: #1b3a6b; font-weight: 600; }
+    .info-table dd a { color: #1b3a6b; text-decoration: none; border-bottom: 1px solid #cbd5e1; }
+    .info-table dd a:hover { border-color: #1b3a6b; }
 
     /* === Sidebar === */
     .seeker-side .panel-dark {
-        background: #0a0a0a; color: #fff;
+        background: #1b3a6b; color: #fff;
         border-radius: 16px; padding: 26px 24px;
         position: relative; overflow: hidden; margin-bottom: 22px;
     }
@@ -153,7 +153,7 @@
     .seeker-side .panel-dark p { font-size: 13.5px; color: rgba(255,255,255,.82); margin: 0 0 14px; line-height: 1.65; }
     .seeker-side .panel-dark a.btn-light {
         display: inline-flex; align-items: center; gap: 8px;
-        background: #fff; color: #0a0a0a !important; font-weight: 700; font-size: 13.5px;
+        background: #fff; color: #1b3a6b !important; font-weight: 700; font-size: 13.5px;
         padding: 11px 18px; border-radius: 10px; text-decoration: none;
     }
     .seeker-side .panel-dark a.btn-light:hover { transform: translateY(-1px); }
@@ -169,19 +169,19 @@
     .related-card:hover { background: #fafbff; }
     .related-card .av {
         width: 44px; height: 44px; border-radius: 11px;
-        background: #0a0a0a; color: #fff;
+        background: #1b3a6b; color: #fff;
         display: inline-flex; align-items: center; justify-content: center;
         font-weight: 800; font-size: 14px; flex-shrink: 0;
     }
     .related-card .info { flex: 1; min-width: 0; }
-    .related-card .nm { font-weight: 700; font-size: 14px; color: #0a0a0a; line-height: 1.3; }
+    .related-card .nm { font-weight: 700; font-size: 14px; color: #1b3a6b; line-height: 1.3; }
     .related-card .ct { font-size: 12px; color: #6b7280; margin-top: 2px; }
 
     /* Big back-button to listing */
     .back-row { margin-top: 12px; }
     .back-row a {
         display: inline-flex; align-items: center; gap: 8px;
-        font-size: 14px; font-weight: 600; color: #0a0a0a;
+        font-size: 14px; font-weight: 600; color: #1b3a6b;
         text-decoration: none;
     }
     .back-row a:hover { gap: 12px; transition: gap .15s ease; }
@@ -214,7 +214,7 @@
     }
     .sk-section-head h2 {
         font-size: clamp(22px, 2.6vw, 30px); font-weight: 800;
-        color: #0a0a0a; line-height: 1.2; margin: 0 0 12px; letter-spacing: -.4px;
+        color: #1b3a6b; line-height: 1.2; margin: 0 0 12px; letter-spacing: -.4px;
     }
     .sk-section-head p { color: #555; font-size: 15px; line-height: 1.65; margin: 0; }
 
@@ -238,20 +238,20 @@
     }
     .sk-why-ico {
         width: 44px; height: 44px; border-radius: 12px;
-        background: linear-gradient(135deg, #0a0a0a, #1f1f1f);
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
         color: #fff;
         display: inline-flex; align-items: center; justify-content: center;
         font-size: 18px; margin-bottom: 12px;
-        box-shadow: 0 6px 14px rgba(10,10,10,.18);
+        box-shadow: 0 6px 14px rgba(27, 58, 107,.18);
     }
-    .sk-why-card h4 { font-size: 15.5px; font-weight: 800; color: #0a0a0a; margin: 0 0 6px; }
+    .sk-why-card h4 { font-size: 15.5px; font-weight: 800; color: #1b3a6b; margin: 0 0 6px; }
     .sk-why-card p  { font-size: 13.5px; line-height: 1.55; color: #555; margin: 0; }
 
     /* === Motivational CTA section === */
     .sk-motivate-section { margin-top: 28px; }
     .sk-motivate-card {
         position: relative;
-        background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+        background: linear-gradient(135deg, #1b3a6b 0%, #16305a 100%);
         color: #fff;
         border-radius: 24px;
         padding: 56px 48px;

@@ -18,12 +18,12 @@
     .photo-upload .photo-preview {
         width: 84px; height: 84px;
         border-radius: 18px;
-        background: #0a0a0a; color: #fff;
+        background: #1b3a6b; color: #fff;
         display: inline-flex; align-items: center; justify-content: center;
         font-weight: 800; font-size: 28px; letter-spacing: -.5px;
         flex-shrink: 0;
         overflow: hidden;
-        box-shadow: 0 6px 14px rgba(10,10,10,.18);
+        box-shadow: 0 6px 14px rgba(27, 58, 107,.18);
     }
     .photo-upload .photo-preview img {
         width: 100%; height: 100%; object-fit: cover;
@@ -33,7 +33,7 @@
         min-width: 0;
         max-width: 100%;
     }
-    .photo-upload .photo-info .label { font-weight: 700; font-size: 14px; color: #0a0a0a; margin: 0 0 3px; }
+    .photo-upload .photo-info .label { font-weight: 700; font-size: 14px; color: #1b3a6b; margin: 0 0 3px; }
     .photo-upload .photo-info .hint  { font-size: 12.5px; color: #6b7280; margin: 0; line-height: 1.45; }
     .photo-upload .photo-actions {
         display: inline-flex; gap: 8px; flex-wrap: wrap; flex-shrink: 0;
@@ -47,7 +47,7 @@
         transition: all .15s ease;
         white-space: nowrap;
     }
-    .photo-upload .btn-photo:hover { border-color: #0a0a0a; color: #0a0a0a; background: #f3f4f6; }
+    .photo-upload .btn-photo:hover { border-color: #1b3a6b; color: #1b3a6b; background: #f3f4f6; }
     .photo-upload .btn-photo.danger { color: #b91c1c; border-color: #fecaca; }
     .photo-upload .btn-photo.danger:hover { background: #fef2f2; color: #b91c1c; }
     .photo-upload input[type="file"] { display: none; }

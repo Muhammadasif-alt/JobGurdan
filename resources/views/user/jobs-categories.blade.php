@@ -16,13 +16,13 @@
     .cat-hero::before {
         content: "";
         position: absolute; inset: 0;
-        background-image: radial-gradient(circle at 12% 20%, rgba(10,10,10,.04) 0, transparent 40%),
-                          radial-gradient(circle at 88% 80%, rgba(10,10,10,.03) 0, transparent 45%);
+        background-image: radial-gradient(circle at 12% 20%, rgba(27, 58, 107,.04) 0, transparent 40%),
+                          radial-gradient(circle at 88% 80%, rgba(27, 58, 107,.03) 0, transparent 45%);
         pointer-events: none;
     }
     .cat-hero .container { position: relative; z-index: 2; text-align: center; }
     .cat-hero .breadcrumbs-mini { color: #777; font-size: 13px; margin-bottom: 14px; }
-    .cat-hero .breadcrumbs-mini a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+    .cat-hero .breadcrumbs-mini a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
     .cat-hero .breadcrumbs-mini a:hover { text-decoration: underline; }
     .cat-hero .eyebrow {
         display: inline-block;
@@ -39,7 +39,7 @@
         box-shadow: 0 1px 2px rgba(15,23,42,.04);
     }
     .cat-hero h1 {
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: clamp(30px, 4.4vw, 52px);
         font-weight: 800;
         line-height: 1.1;
@@ -49,7 +49,7 @@
         margin-left: auto; margin-right: auto;
     }
     .cat-hero h1 .accent {
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -77,7 +77,7 @@
         display: block;
         font-size: 24px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.1;
         letter-spacing: -.5px;
     }
@@ -113,7 +113,7 @@
     .cat-seo-frame::before {
         content: "";
         position: absolute; inset: 0;
-        background: linear-gradient(135deg, transparent 50%, rgba(10,10,10,.10) 100%);
+        background: linear-gradient(135deg, transparent 50%, rgba(27, 58, 107,.10) 100%);
         z-index: 2; pointer-events: none;
     }
     .cat-seo-frame img {
@@ -129,7 +129,7 @@
         content: ""; position: absolute;
         top: -30px; left: -30px;
         width: 200px; height: 200px;
-        background: linear-gradient(135deg, #0a0a0a, #404040);
+        background: linear-gradient(135deg, #1b3a6b, #4a90d9);
         border-radius: 50%;
         opacity: .04; z-index: 0;
         animation: catFloat 8s ease-in-out infinite reverse;
@@ -138,7 +138,7 @@
         content: ""; position: absolute;
         bottom: -20px; right: -20px;
         width: 160px; height: 160px;
-        background: linear-gradient(135deg, #0a0a0a, #404040);
+        background: linear-gradient(135deg, #1b3a6b, #4a90d9);
         border-radius: 50%;
         opacity: .03; z-index: 0;
         animation: catFloat 10s ease-in-out infinite;
@@ -162,7 +162,7 @@
     .cat-float-stat .ico {
         width: 42px; height: 42px;
         border-radius: 10px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         display: inline-flex;
         align-items: center; justify-content: center;
@@ -173,7 +173,7 @@
         display: block;
         font-size: 15px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.2;
     }
     .cat-float-stat .text span {
@@ -198,7 +198,7 @@
     .cat-seo-content h2 {
         font-size: clamp(26px, 3vw, 38px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.15;
         letter-spacing: -.6px;
         margin: 0 0 18px;
@@ -220,12 +220,12 @@
         align-items: flex-start;
         gap: 10px;
         font-size: 14.5px;
-        color: #1a1a1a;
+        color: #16305a;
         line-height: 1.55;
         margin-bottom: 12px;
     }
     .cat-feature-list li i {
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: 18px;
         margin-top: 1px;
         flex-shrink: 0;
@@ -234,19 +234,19 @@
         display: inline-flex;
         align-items: center;
         gap: 10px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff !important;
         font-size: 15px;
         font-weight: 600;
         padding: 14px 28px;
         border-radius: 10px;
         text-decoration: none !important;
-        border: 1.5px solid #0a0a0a;
+        border: 1.5px solid #1b3a6b;
         transition: all .15s ease;
     }
     .cat-cta-btn:hover {
-        background: #1a1a1a;
-        border-color: #1a1a1a;
+        background: #16305a;
+        border-color: #16305a;
         transform: translateY(-1px);
         box-shadow: 0 8px 20px rgba(0,0,0,.18);
     }
@@ -283,7 +283,7 @@
     .cat-grid-head h2 {
         font-size: clamp(26px, 3vw, 36px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.2;
         letter-spacing: -.5px;
         margin: 0 0 12px;
@@ -323,14 +323,14 @@
         position: absolute;
         top: 0; left: 0; right: 0;
         height: 3px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         transform: scaleX(0);
         transform-origin: left;
         transition: transform .3s ease;
     }
     .cat-card:hover {
         transform: translateY(-5px);
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
         box-shadow: 0 18px 36px rgba(15, 23, 42, .10);
     }
     .cat-card:hover::before { transform: scaleX(1); }
@@ -362,7 +362,7 @@
     .cat-card .ico-box {
         width: 56px; height: 56px;
         border-radius: 14px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         display: inline-flex;
         align-items: center;
@@ -371,11 +371,11 @@
         margin-top: 6px;
         transition: background .25s ease;
     }
-    .cat-card:hover .ico-box { background: #1a1a1a; }
+    .cat-card:hover .ico-box { background: #16305a; }
     .cat-card h3 {
         font-size: 16.5px;
         font-weight: 700;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0;
         line-height: 1.3;
     }
@@ -384,7 +384,7 @@
         color: #777;
         margin: 0;
     }
-    .cat-card .jobs-count strong { color: #0a0a0a; font-weight: 700; }
+    .cat-card .jobs-count strong { color: #1b3a6b; font-weight: 700; }
     .cat-card .arrow-cta {
         margin-top: auto;
         padding-top: 12px;
@@ -394,7 +394,7 @@
         gap: 6px;
         font-size: 13px;
         font-weight: 700;
-        color: #0a0a0a;
+        color: #1b3a6b;
         text-transform: uppercase;
         letter-spacing: .5px;
         transition: gap .15s ease;
@@ -411,7 +411,7 @@
         border-radius: 14px;
     }
     .cat-empty i { font-size: 50px; color: #c7c7cc; }
-    .cat-empty h4 { font-size: 18px; color: #0a0a0a; margin: 14px 0 6px; font-weight: 700; }
+    .cat-empty h4 { font-size: 18px; color: #1b3a6b; margin: 14px 0 6px; font-weight: 700; }
     .cat-empty p { color: #777; margin: 0; }
 
     /* Pagination — dark */
@@ -430,7 +430,7 @@
         background: #fff;
         border: 1px solid #ececec;
         border-radius: 8px;
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: 14px;
         font-weight: 600;
         display: inline-flex;
@@ -439,12 +439,12 @@
         text-decoration: none;
         transition: all .15s ease;
     }
-    .cat-pagination li a:hover { background: #f5f5f7; border-color: #0a0a0a; }
+    .cat-pagination li a:hover { background: #f5f5f7; border-color: #1b3a6b; }
     .cat-pagination li a.current-page,
     .cat-pagination li.active a {
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
     }
     .cat-pagination li.disabled span { opacity: .35; cursor: not-allowed; }
 

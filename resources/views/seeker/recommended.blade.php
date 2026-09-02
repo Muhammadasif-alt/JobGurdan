@@ -6,12 +6,12 @@
     .rec-head { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; margin-bottom: 24px; }
     .rec-head h1 {
         font-size: 26px; font-weight: 800; margin: 0; letter-spacing: -.4px;
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text; background-clip: text;
         -webkit-text-fill-color: transparent; color: transparent;
     }
     .rec-head .breadcrumbs { font-size: 14px; color: #6b7280; margin-top: 4px; }
-    .rec-head .breadcrumbs a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+    .rec-head .breadcrumbs a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
 
     .rec-filter {
         background: #fff; border: 1px solid #eef0f4;
@@ -23,14 +23,14 @@
         padding: 11px 14px; border: 1px solid #e5e7eb; border-radius: 10px;
         font-size: 14px; width: 100%; background: #fff;
     }
-    .rec-filter input:focus, .rec-filter select:focus { outline: none; border-color: #0a0a0a; box-shadow: 0 0 0 3px rgba(10,10,10,.08); }
+    .rec-filter input:focus, .rec-filter select:focus { outline: none; border-color: #1b3a6b; box-shadow: 0 0 0 3px rgba(27, 58, 107,.08); }
     .rec-filter button {
-        background: #0a0a0a; color: #fff; border: none;
+        background: #1b3a6b; color: #fff; border: none;
         padding: 11px 22px; border-radius: 10px;
         font-size: 14px; font-weight: 700; cursor: pointer;
         display: inline-flex; align-items: center; gap: 6px;
     }
-    .rec-filter button:hover { background: #1a1a1a; }
+    .rec-filter button:hover { background: #16305a; }
 
     /* Job grid */
     .rec-grid {
@@ -45,7 +45,7 @@
         padding: 20px; display: flex; flex-direction: column;
         transition: border-color .15s ease, box-shadow .15s ease, transform .15s ease;
     }
-    .rec-card:hover { border-color: #0a0a0a; box-shadow: 0 16px 32px rgba(15,23,42,.08); transform: translateY(-2px); }
+    .rec-card:hover { border-color: #1b3a6b; box-shadow: 0 16px 32px rgba(15,23,42,.08); transform: translateY(-2px); }
     .rec-card .match-badge {
         position: absolute; top: 14px; right: 14px;
         display: inline-flex; align-items: center; gap: 4px;
@@ -65,14 +65,14 @@
     .rec-card .logo img { width: 80%; height: 80%; object-fit: contain; }
 
     .rec-card h3 {
-        font-size: 16px; font-weight: 700; color: #0a0a0a;
+        font-size: 16px; font-weight: 700; color: #1b3a6b;
         line-height: 1.4; margin: 0 0 6px;
         display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
     }
     .rec-card .company { font-size: 13px; color: #5e2bff; font-weight: 600; margin-bottom: 12px; }
     .rec-card .meta { list-style: none; padding: 0; margin: 0 0 14px; flex-grow: 1; }
     .rec-card .meta li { font-size: 12.5px; color: #555; margin-bottom: 5px; display: flex; align-items: center; gap: 7px; }
-    .rec-card .meta li i { color: #0a0a0a; font-size: 13px; }
+    .rec-card .meta li i { color: #1b3a6b; font-size: 13px; }
 
     .rec-card .why-match {
         background: #f8faff; border-left: 2.5px solid #5e2bff;
@@ -86,11 +86,11 @@
 
     .rec-card .cta {
         display: inline-flex; align-items: center; justify-content: center; gap: 6px;
-        background: #0a0a0a; color: #fff !important;
+        background: #1b3a6b; color: #fff !important;
         padding: 10px 16px; border-radius: 10px;
         font-size: 13px; font-weight: 600; text-decoration: none;
     }
-    .rec-card .cta:hover { background: #1a1a1a; }
+    .rec-card .cta:hover { background: #16305a; }
 
     /* Empty state */
     .rec-empty {
@@ -99,11 +99,11 @@
         margin-top: 18px;
     }
     .rec-empty i { font-size: 44px; color: #c7c7cc; margin-bottom: 12px; display: inline-block; }
-    .rec-empty h2 { font-size: 20px; font-weight: 800; color: #0a0a0a; margin: 0 0 6px; }
+    .rec-empty h2 { font-size: 20px; font-weight: 800; color: #1b3a6b; margin: 0 0 6px; }
     .rec-empty p  { color: #6b7280; font-size: 14px; margin: 0 0 18px; line-height: 1.6; }
     .rec-empty .btn-cta {
         display: inline-flex; align-items: center; gap: 6px;
-        background: #0a0a0a; color: #fff !important;
+        background: #1b3a6b; color: #fff !important;
         padding: 10px 18px; border-radius: 10px;
         font-size: 13.5px; font-weight: 700; text-decoration: none;
     }

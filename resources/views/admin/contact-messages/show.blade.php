@@ -9,12 +9,12 @@
     }
     .msg-show-head h1 {
         font-size: 26px; font-weight: 800; margin: 0; letter-spacing: -.4px;
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text; background-clip: text;
         -webkit-text-fill-color: transparent; color: transparent;
     }
     .msg-show-head .breadcrumbs { font-size: 14px; color: #6b7280; margin-top: 4px; }
-    .msg-show-head .breadcrumbs a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+    .msg-show-head .breadcrumbs a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
     .msg-show-head .breadcrumbs a:hover { text-decoration: underline; }
 
     .msg-grid {
@@ -26,7 +26,7 @@
     .panel { background: #fff; border: 1px solid #eef0f4; border-radius: 16px; overflow: hidden; margin-bottom: 22px; }
     .panel-head { padding: 18px 22px; border-bottom: 1px solid #eef0f4; display: flex; align-items: center; gap: 10px; }
     .panel-head h3 { font-size: 16.5px; font-weight: 700; color: #0f172a; margin: 0; display: inline-flex; align-items: center; gap: 8px; }
-    .panel-head h3 i { color: #0a0a0a; font-size: 18px; }
+    .panel-head h3 i { color: #1b3a6b; font-size: 18px; }
     .panel-body { padding: 24px; }
 
     /* From row */
@@ -37,7 +37,7 @@
     }
     .from-avatar {
         width: 52px; height: 52px; border-radius: 50%;
-        background: #0a0a0a; color: #fff;
+        background: #1b3a6b; color: #fff;
         display: inline-flex; align-items: center; justify-content: center;
         font-weight: 800; font-size: 18px;
         flex-shrink: 0;
@@ -45,7 +45,7 @@
     .from-info { min-width: 0; }
     .from-name { font-weight: 700; color: #0f172a; font-size: 17px; line-height: 1.3; }
     .from-email { font-size: 13.5px; color: #6b7280; margin-top: 3px; display: inline-flex; align-items: center; gap: 6px; }
-    .from-email a { color: #0a0a0a; font-weight: 600; }
+    .from-email a { color: #1b3a6b; font-weight: 600; }
     .from-meta {
         margin-top: 4px;
         font-size: 12.5px; color: #9ca3af;
@@ -73,7 +73,7 @@
     .badge-pill { display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px; font-size: 12.5px; font-weight: 700; border-radius: 999px; white-space: nowrap; }
     .badge-pill.new     { background: #dc2626; color: #fff; }
     .badge-pill.read    { background: #f3f4f6; color: #6b7280; }
-    .badge-pill.replied { background: #0a0a0a; color: #fff; }
+    .badge-pill.replied { background: #1b3a6b; color: #fff; }
     .badge-pill::before {
         content: ""; width: 6px; height: 6px; border-radius: 50%;
         background: currentColor; opacity: .9;
@@ -101,7 +101,7 @@
         background: #fff;
         cursor: pointer;
     }
-    .status-form select:focus { outline: none; border-color: #0a0a0a; box-shadow: 0 0 0 3px rgba(10,10,10,.10); }
+    .status-form select:focus { outline: none; border-color: #1b3a6b; box-shadow: 0 0 0 3px rgba(27, 58, 107,.10); }
 
     .btn {
         padding: 10px 16px; border-radius: 8px;
@@ -112,10 +112,10 @@
         white-space: nowrap;
     }
     .btn-primary {
-        background: #0a0a0a !important; color: #fff !important;
-        border: 1px solid #0a0a0a !important;
+        background: #1b3a6b !important; color: #fff !important;
+        border: 1px solid #1b3a6b !important;
     }
-    .btn-primary:hover { background: #1a1a1a !important; transform: translateY(-1px); }
+    .btn-primary:hover { background: #16305a !important; transform: translateY(-1px); }
     .btn-outline { background: #fff; color: #374151; border: 1px solid #e5e7eb; }
     .btn-outline:hover { background: #f3f4f6; color: #111827; }
     .btn-danger-outline { background: #fff !important; color: #dc2626 !important; border: 1px solid #fee2e2 !important; }
@@ -138,7 +138,7 @@
         display: flex; justify-content: space-between; align-items: center; gap: 10px;
         font-size: 13.5px;
     }
-    .custom-alert.success { background: #f3f4f6; color: #0a0a0a; border: 1px solid #e5e7eb; }
+    .custom-alert.success { background: #f3f4f6; color: #1b3a6b; border: 1px solid #e5e7eb; }
     .custom-alert button { background: transparent; border: none; color: inherit; opacity: .6; }
     .custom-alert button:hover { opacity: 1; }
 </style>

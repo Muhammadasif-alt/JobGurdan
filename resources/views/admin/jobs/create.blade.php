@@ -33,7 +33,7 @@
     }
     .form-head h1 { font-size: 26px; font-weight: 800; color: #0f172a; margin: 0; letter-spacing: -.4px; }
     .form-head .breadcrumbs { font-size: 14px; color: #6b7280; margin-top: 4px; }
-    .form-head .breadcrumbs a { color: #0a0a0a; text-decoration: none; }
+    .form-head .breadcrumbs a { color: #1b3a6b; text-decoration: none; }
     .form-head .breadcrumbs a:hover { text-decoration: underline; }
 
     .form-grid {
@@ -66,7 +66,7 @@
         align-items: center;
         gap: 8px;
     }
-    .panel-head h3 i { color: #0a0a0a; font-size: 18px; }
+    .panel-head h3 i { color: #1b3a6b; font-size: 18px; }
     .panel-body { padding: 22px; }
 
     .field { margin-bottom: 18px; }
@@ -98,8 +98,8 @@
     }
     .field input:focus, .field select:focus, .field textarea:focus {
         outline: none;
-        border-color: #0a0a0a;
-        box-shadow: 0 0 0 3px rgba(10, 10, 10, .10);
+        border-color: #1b3a6b;
+        box-shadow: 0 0 0 3px rgba(27, 58, 107, .10);
     }
     .field textarea { resize: vertical; min-height: 110px; }
     .field input.is-invalid, .field select.is-invalid, .field textarea.is-invalid {
@@ -158,11 +158,11 @@
         transition: transform .15s ease, box-shadow .15s ease;
     }
     .btn-primary {
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
-        box-shadow: 0 8px 18px rgba(10,10,10,.18);
+        box-shadow: 0 8px 18px rgba(27, 58, 107,.18);
     }
-    .btn-primary:hover { transform: translateY(-1px); color: #fff; box-shadow: 0 12px 24px rgba(10,10,10,.30); }
+    .btn-primary:hover { transform: translateY(-1px); color: #fff; box-shadow: 0 12px 24px rgba(27, 58, 107,.30); }
     .btn-outline { background: #fff; color: #374151; border: 1px solid #e5e7eb; }
     .btn-outline:hover { background: #f3f4f6; color: #111827; }
 

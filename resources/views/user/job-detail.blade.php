@@ -33,15 +33,15 @@
         padding: 50px 0 60px;
         background: linear-gradient(180deg, #f8faff 0%, #ffffff 50%, #f5f5f7 100%);
         overflow: hidden;
-        color: #0a0a0a;
+        color: #1b3a6b;
         border-bottom: 1px solid #f0f0f3;
     }
     .jd-hero::before {
         content: '';
         position: absolute;
         inset: 0;
-        background: radial-gradient(circle at 12% 20%, rgba(10,10,10,.04) 0, transparent 40%),
-                    radial-gradient(circle at 88% 80%, rgba(10,10,10,.03) 0, transparent 45%);
+        background: radial-gradient(circle at 12% 20%, rgba(27, 58, 107,.04) 0, transparent 40%),
+                    radial-gradient(circle at 88% 80%, rgba(27, 58, 107,.03) 0, transparent 45%);
     }
     .jd-hero-inner { position: relative; z-index: 2; }
     .jd-hero-bc {
@@ -61,8 +61,8 @@
     .jd-hero-bc li { display: inline-flex; align-items: center; gap: 8px; }
     .jd-hero-bc li + li::before { content: '›'; color: #c7c7cc; }
     .jd-hero-bc a { color: #555; text-decoration: none; font-weight: 600; transition: color .15s ease; }
-    .jd-hero-bc a:hover { color: #0a0a0a; }
-    .jd-hero-bc li:last-child { color: #0a0a0a; font-weight: 700; }
+    .jd-hero-bc a:hover { color: #1b3a6b; }
+    .jd-hero-bc li:last-child { color: #1b3a6b; font-weight: 700; }
 
     .jd-hero-row {
         display: grid;
@@ -113,7 +113,7 @@
         font-size: clamp(20px, 3vw, 36px);
         font-weight: 800;
         line-height: 1.2;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 14px;
         letter-spacing: -.5px;
         overflow-wrap: break-word;
@@ -137,10 +137,10 @@
         .jd-hero-meta span.badge-pill { font-size: 10px; padding: 3px 9px; letter-spacing: .8px; }
     }
     .jd-hero-meta span { display: inline-flex; align-items: center; gap: 7px; }
-    .jd-hero-meta i { color: #0a0a0a; font-size: 16px; }
+    .jd-hero-meta i { color: #1b3a6b; font-size: 16px; }
     .jd-hero-meta span.badge-pill {
-        background: #0a0a0a;
-        border: 1px solid #0a0a0a;
+        background: #1b3a6b;
+        border: 1px solid #1b3a6b;
         color: #fff;
         padding: 4px 12px;
         border-radius: 6px;
@@ -153,7 +153,7 @@
         display: inline-flex;
         align-items: center;
         gap: 10px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff !important;
         padding: 14px 28px;
         border-radius: 10px;
@@ -161,12 +161,12 @@
         font-weight: 600;
         text-decoration: none;
         white-space: nowrap;
-        border: 1.5px solid #0a0a0a;
+        border: 1.5px solid #1b3a6b;
         transition: all .15s ease;
     }
     .jd-hero-cta:hover {
-        background: #1a1a1a;
-        border-color: #1a1a1a;
+        background: #16305a;
+        border-color: #16305a;
         transform: translateY(-1px);
         box-shadow: 0 8px 20px rgba(0,0,0,.18);
     }
@@ -198,16 +198,16 @@
     .jd-card h2 {
         font-size: 19px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 18px;
         padding-bottom: 14px;
-        border-bottom: 2px solid #0a0a0a;
+        border-bottom: 2px solid #1b3a6b;
         display: inline-flex;
         align-items: center;
         gap: 8px;
         letter-spacing: -.2px;
     }
-    .jd-card h2 i { color: #0a0a0a; }
+    .jd-card h2 i { color: #1b3a6b; }
 
     .jd-description {
         font-size: 15.5px;
@@ -215,9 +215,9 @@
         color: #2a2a2a;
     }
     .jd-description p { margin-bottom: 16px; }
-    .jd-description strong { color: #0a0a0a; font-weight: 700; }
+    .jd-description strong { color: #1b3a6b; font-weight: 700; }
     .jd-description h2, .jd-description h3, .jd-description h4 {
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-weight: 800;
         margin: 24px 0 12px;
     }
@@ -230,9 +230,9 @@
 
     /* === Formatted description (output of JobDescriptionFormatter) === */
     .jd-formatted .jd-h {
-        font-size: 17px; font-weight: 800; color: #0a0a0a;
+        font-size: 17px; font-weight: 800; color: #1b3a6b;
         margin: 22px 0 10px; padding-bottom: 8px;
-        border-bottom: 2px solid #0a0a0a;
+        border-bottom: 2px solid #1b3a6b;
         display: inline-block; letter-spacing: -.2px;
     }
     .jd-formatted .jd-h:first-child { margin-top: 0; }
@@ -260,7 +260,7 @@
         content: counter(jd-counter);
         position: absolute; left: 0; top: 0;
         width: 22px; height: 22px;
-        background: #0a0a0a; color: #fff;
+        background: #1b3a6b; color: #fff;
         border-radius: 50%;
         display: inline-flex; align-items: center; justify-content: center;
         font-size: 11.5px; font-weight: 800;
@@ -273,9 +273,9 @@
     }
     .jd-formatted .jd-link:hover { color: #c44114; border-color: #c44114; }
     .jd-description a {
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-weight: 600;
-        border-bottom: 1.5px solid #0a0a0a;
+        border-bottom: 1.5px solid #1b3a6b;
         text-decoration: none;
         transition: opacity .15s ease;
     }
@@ -308,7 +308,7 @@
         margin-bottom: 12px;
     }
     .jd-why-card h4 {
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: 17px;
         font-weight: 800;
         margin: 0 0 18px;
@@ -338,7 +338,7 @@
     }
     .jd-why-list strong {
         display: block;
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: 14px;
         font-weight: 700;
         margin-bottom: 2px;
@@ -374,10 +374,10 @@
     .jd-aside-card h3 {
         font-size: 14px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 18px;
         padding-bottom: 12px;
-        border-bottom: 2px solid #0a0a0a;
+        border-bottom: 2px solid #1b3a6b;
         display: inline-block;
         text-transform: uppercase;
         letter-spacing: 1.2px;
@@ -398,18 +398,18 @@
     .jd-overview-list .ico {
         width: 38px; height: 38px;
         border-radius: 10px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         display: flex; align-items: center; justify-content: center;
         font-size: 15px;
         flex-shrink: 0;
     }
     .jd-overview-list .label { font-size: 11px; color: #888; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px; }
-    .jd-overview-list .value { font-size: 14px; color: #0a0a0a; font-weight: 700; line-height: 1.3; }
+    .jd-overview-list .value { font-size: 14px; color: #1b3a6b; font-weight: 700; line-height: 1.3; }
 
     /* Apply CTA banner — dark theme */
     .jd-apply-banner {
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         text-align: center;
         padding: 40px 30px;
@@ -435,7 +435,7 @@
         align-items: center;
         gap: 10px;
         background: #fff;
-        color: #0a0a0a;
+        color: #1b3a6b;
         padding: 14px 32px;
         border-radius: 10px;
         font-weight: 700;
@@ -455,7 +455,7 @@
     .jd-explore-links a {
         background: #fafafa;
         border: 1px solid #ececec;
-        color: #1a1a1a;
+        color: #16305a;
         padding: 9px 16px;
         border-radius: 999px;
         font-size: 13px;
@@ -464,9 +464,9 @@
         transition: all .15s ease;
     }
     .jd-explore-links a:hover {
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
         transform: translateY(-1px);
     }
 
@@ -480,7 +480,7 @@
     .jd-related-head h2 {
         font-size: clamp(24px, 2.8vw, 32px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 8px;
         letter-spacing: -.4px;
     }
@@ -504,7 +504,7 @@
         transition: all .25s ease;
     }
     .jd-related-card:hover {
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
         transform: translateY(-3px);
         box-shadow: 0 14px 32px rgba(15,23,42,.10);
         color: inherit;
@@ -519,10 +519,10 @@
         flex-shrink: 0;
     }
     .jd-related-logo img { max-width: 80%; max-height: 80%; object-fit: contain; }
-    .jd-related-card h3 { font-size: 15px; font-weight: 700; color: #0a0a0a; margin: 0 0 4px; line-height: 1.3; }
+    .jd-related-card h3 { font-size: 15px; font-weight: 700; color: #1b3a6b; margin: 0 0 4px; line-height: 1.3; }
     .jd-related-card .company { font-size: 12px; color: #777; }
     .jd-related-card .meta { font-size: 12.5px; color: #555; display: flex; gap: 14px; flex-wrap: wrap; margin-top: 12px; }
-    .jd-related-card .meta i { color: #0a0a0a; margin-right: 4px; }
+    .jd-related-card .meta i { color: #1b3a6b; margin-right: 4px; }
 
     @media (max-width: 768px) {
         .jd-hero { padding: 40px 0 50px; }
@@ -638,7 +638,7 @@
                         .jd-skills { display: flex; flex-wrap: wrap; gap: 8px; }
                         .jd-skill {
                             display: inline-flex; align-items: center;
-                            background: #f5f5f7; color: #0a0a0a !important;
+                            background: #f5f5f7; color: #1b3a6b !important;
                             font-size: 13px; font-weight: 600;
                             padding: 7px 14px; border-radius: 999px;
                             text-decoration: none !important;
@@ -671,7 +671,7 @@
                     }
                     .jd-apply-banner .jd-apply-primary {
                         display: inline-flex; align-items: center; gap: 10px;
-                        background: #fff; color: #0a0a0a !important;
+                        background: #fff; color: #1b3a6b !important;
                         padding: 14px 28px; border-radius: 10px;
                         font-weight: 700; font-size: 15px; text-decoration: none;
                         transition: all .15s ease;
@@ -698,7 +698,7 @@
                         border-color: #fff;
                     }
                     .jd-save-btn.is-saved {
-                        background: #fff; color: #0a0a0a; border-color: #fff;
+                        background: #fff; color: #1b3a6b; border-color: #fff;
                     }
                     .jd-save-btn.is-saved i { color: #2f7fc9; }
                     .jd-save-btn i { font-size: 16px; }

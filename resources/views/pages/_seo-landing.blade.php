@@ -116,13 +116,13 @@
     .seo-landing-hero::before {
         content: "";
         position: absolute; inset: 0;
-        background-image: radial-gradient(circle at 12% 20%, rgba(10,10,10,.04) 0, transparent 40%),
-                          radial-gradient(circle at 88% 80%, rgba(10,10,10,.03) 0, transparent 45%);
+        background-image: radial-gradient(circle at 12% 20%, rgba(27, 58, 107,.04) 0, transparent 40%),
+                          radial-gradient(circle at 88% 80%, rgba(27, 58, 107,.03) 0, transparent 45%);
         pointer-events: none;
     }
     .seo-landing-hero .container { position: relative; z-index: 2; text-align: center; }
     .seo-landing-hero .breadcrumbs-mini { color: #777; font-size: 13px; margin-bottom: 14px; }
-    .seo-landing-hero .breadcrumbs-mini a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+    .seo-landing-hero .breadcrumbs-mini a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
     .seo-landing-hero .eyebrow {
         display: inline-block;
         background: #fff;
@@ -138,7 +138,7 @@
         box-shadow: 0 1px 2px rgba(15,23,42,.04);
     }
     .seo-landing-hero h1 {
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: clamp(30px, 4.4vw, 50px);
         font-weight: 800;
         line-height: 1.1;
@@ -148,7 +148,7 @@
         margin-left: auto; margin-right: auto;
     }
     .seo-landing-hero h1 .accent {
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -176,7 +176,7 @@
         display: block;
         font-size: 22px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.1;
         letter-spacing: -.5px;
     }
@@ -206,7 +206,7 @@
     .seo-content-prose h2 {
         font-size: clamp(22px, 2.4vw, 28px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.25;
         letter-spacing: -.4px;
         margin: 32px 0 14px;
@@ -218,7 +218,7 @@
         position: absolute;
         left: 0; top: 6px;
         width: 4px; height: 24px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         border-radius: 2px;
     }
     .seo-content-prose ul {
@@ -231,7 +231,7 @@
         padding-left: 26px;
         font-size: 15px;
         line-height: 1.7;
-        color: #1a1a1a;
+        color: #16305a;
         margin-bottom: 8px;
     }
     .seo-content-prose ul li::before {
@@ -240,8 +240,8 @@
         left: 0; top: 9px;
         width: 14px; height: 14px;
         border-radius: 50%;
-        background: #0a0a0a;
-        background-image: linear-gradient(135deg, #0a0a0a, #404040);
+        background: #1b3a6b;
+        background-image: linear-gradient(135deg, #1b3a6b, #4a90d9);
     }
     .seo-content-prose ul li::after {
         content: "✓";
@@ -262,7 +262,7 @@
         gap: 18px;
     }
     .seo-side-promo {
-        background: #0a0a0a;
+        background: #1b3a6b;
         border-radius: 16px;
         padding: 26px 24px;
         color: #fff;
@@ -311,7 +311,7 @@
         align-items: center;
         gap: 8px;
         background: #fff;
-        color: #0a0a0a !important;
+        color: #1b3a6b !important;
         font-size: 13px;
         font-weight: 700;
         padding: 10px 18px;
@@ -331,10 +331,10 @@
     .seo-roles-card h3 {
         font-size: 14px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 16px;
         padding: 0 0 12px;
-        border-bottom: 2px solid #0a0a0a;
+        border-bottom: 2px solid #1b3a6b;
         text-transform: uppercase;
         letter-spacing: 1.2px;
         display: inline-block;
@@ -347,20 +347,20 @@
         padding: 9px 12px;
         border-radius: 8px;
         background: #fafafa;
-        color: #1a1a1a;
+        color: #16305a;
         font-size: 13.5px;
         font-weight: 500;
         text-decoration: none;
         transition: all .15s ease;
     }
     .seo-roles-card ul li a:hover {
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         transform: translateX(3px);
     }
     .seo-roles-card ul li a::before {
         content: "›";
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-weight: 700;
         transition: color .15s ease;
     }
@@ -383,7 +383,7 @@
     .seo-jobs-head h2 {
         font-size: clamp(22px, 2.4vw, 30px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0;
         letter-spacing: -.4px;
     }
@@ -391,13 +391,13 @@
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: 13.5px;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: .5px;
         text-decoration: none;
-        border-bottom: 1.5px solid #0a0a0a;
+        border-bottom: 1.5px solid #1b3a6b;
         padding-bottom: 2px;
         transition: gap .15s ease;
     }
@@ -424,7 +424,7 @@
         transition: all .25s ease;
     }
     .seo-job-card:hover {
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
         transform: translateY(-3px);
         box-shadow: 0 14px 32px rgba(15,23,42,.10);
     }
@@ -454,7 +454,7 @@
     .seo-job-title {
         font-size: 15px;
         font-weight: 700;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 10px;
         line-height: 1.35;
         display: -webkit-box;
@@ -471,12 +471,12 @@
         font-size: 12.5px; color: #555;
         display: flex; align-items: center; gap: 6px;
     }
-    .seo-job-meta li i { color: #0a0a0a; font-size: 13px; }
+    .seo-job-meta li i { color: #1b3a6b; font-size: 13px; }
     .seo-job-button {
         display: inline-flex;
         align-items: center; justify-content: center;
         gap: 6px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff !important;
         padding: 9px 14px;
         border-radius: 8px;
@@ -485,7 +485,7 @@
         margin-top: auto;
         transition: background .2s ease;
     }
-    .seo-job-card:hover .seo-job-button { background: #1a1a1a; }
+    .seo-job-card:hover .seo-job-button { background: #16305a; }
 
     .seo-no-jobs {
         grid-column: 1 / -1;
@@ -496,13 +496,13 @@
         border-radius: 14px;
     }
     .seo-no-jobs i { font-size: 42px; color: #c7c7cc; }
-    .seo-no-jobs h4 { font-size: 16px; color: #0a0a0a; margin: 12px 0 6px; font-weight: 700; }
+    .seo-no-jobs h4 { font-size: 16px; color: #1b3a6b; margin: 12px 0 6px; font-weight: 700; }
     .seo-no-jobs p { color: #777; margin: 0 0 14px; font-size: 14px; }
     .seo-no-jobs a {
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff !important;
         font-size: 13.5px;
         font-weight: 600;
@@ -519,19 +519,19 @@
         display: inline-flex;
         align-items: center;
         gap: 10px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff !important;
         font-size: 14.5px;
         font-weight: 600;
         padding: 14px 28px;
         border-radius: 10px;
         text-decoration: none;
-        border: 1.5px solid #0a0a0a;
+        border: 1.5px solid #1b3a6b;
         transition: all .15s ease;
     }
     .seo-bottom-cta a:hover {
-        background: #1a1a1a;
-        border-color: #1a1a1a;
+        background: #16305a;
+        border-color: #16305a;
         transform: translateY(-1px);
         box-shadow: 0 8px 20px rgba(0,0,0,.18);
     }
@@ -559,7 +559,7 @@
     .seo-faq-head h2 {
         font-size: clamp(24px, 2.8vw, 32px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.2;
         letter-spacing: -.5px;
         margin: 0;
@@ -574,14 +574,14 @@
         transition: all .2s ease;
     }
     .seo-faq-item[open] {
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
         box-shadow: 0 4px 16px rgba(0,0,0,.06);
     }
     .seo-faq-item summary {
         padding: 18px 22px;
         font-weight: 600;
         font-size: 15px;
-        color: #0a0a0a;
+        color: #1b3a6b;
         cursor: pointer;
         list-style: none;
         display: flex;
@@ -593,7 +593,7 @@
     .seo-faq-item summary::after {
         content: '+';
         font-size: 22px;
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-weight: 300;
     }
     .seo-faq-item[open] summary::after { content: '−'; }

@@ -17,13 +17,13 @@
     .loc-hero::before {
         content: "";
         position: absolute; inset: 0;
-        background-image: radial-gradient(circle at 12% 20%, rgba(10,10,10,.04) 0, transparent 40%),
-                          radial-gradient(circle at 88% 80%, rgba(10,10,10,.03) 0, transparent 45%);
+        background-image: radial-gradient(circle at 12% 20%, rgba(27, 58, 107,.04) 0, transparent 40%),
+                          radial-gradient(circle at 88% 80%, rgba(27, 58, 107,.03) 0, transparent 45%);
         pointer-events: none;
     }
     .loc-hero .container { position: relative; z-index: 2; text-align: center; }
     .loc-hero .breadcrumbs-mini { color: #777; font-size: 13px; margin-bottom: 14px; }
-    .loc-hero .breadcrumbs-mini a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+    .loc-hero .breadcrumbs-mini a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
     .loc-hero .breadcrumbs-mini a:hover { text-decoration: underline; }
     .loc-hero .eyebrow {
         display: inline-block;
@@ -40,7 +40,7 @@
         box-shadow: 0 1px 2px rgba(15,23,42,.04);
     }
     .loc-hero h1 {
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: clamp(30px, 4.4vw, 52px);
         font-weight: 800;
         line-height: 1.1;
@@ -50,7 +50,7 @@
         margin-left: auto; margin-right: auto;
     }
     .loc-hero h1 .accent {
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -78,7 +78,7 @@
         display: block;
         font-size: 24px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.1;
         letter-spacing: -.5px;
     }
@@ -110,7 +110,7 @@
     }
     .loc-seo-frame::before {
         content: ""; position: absolute; inset: 0;
-        background: linear-gradient(135deg, transparent 50%, rgba(10,10,10,.10) 100%);
+        background: linear-gradient(135deg, transparent 50%, rgba(27, 58, 107,.10) 100%);
         z-index: 2; pointer-events: none;
     }
     .loc-seo-frame img {
@@ -125,7 +125,7 @@
         content: ""; position: absolute;
         top: -30px; left: -30px;
         width: 200px; height: 200px;
-        background: linear-gradient(135deg, #0a0a0a, #404040);
+        background: linear-gradient(135deg, #1b3a6b, #4a90d9);
         border-radius: 50%;
         opacity: .04; z-index: 0;
         animation: locFloat 8s ease-in-out infinite reverse;
@@ -134,7 +134,7 @@
         content: ""; position: absolute;
         bottom: -20px; right: -20px;
         width: 160px; height: 160px;
-        background: linear-gradient(135deg, #0a0a0a, #404040);
+        background: linear-gradient(135deg, #1b3a6b, #4a90d9);
         border-radius: 50%;
         opacity: .03; z-index: 0;
         animation: locFloat 10s ease-in-out infinite;
@@ -157,7 +157,7 @@
     .loc-float-stat .ico {
         width: 42px; height: 42px;
         border-radius: 10px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         display: inline-flex;
         align-items: center; justify-content: center;
@@ -168,7 +168,7 @@
         display: block;
         font-size: 15px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.2;
     }
     .loc-float-stat .text span { font-size: 12px; color: #777; font-weight: 500; }
@@ -189,7 +189,7 @@
     .loc-seo-content h2 {
         font-size: clamp(26px, 3vw, 38px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.15;
         letter-spacing: -.6px;
         margin: 0 0 18px;
@@ -211,12 +211,12 @@
         align-items: flex-start;
         gap: 10px;
         font-size: 14.5px;
-        color: #1a1a1a;
+        color: #16305a;
         line-height: 1.55;
         margin-bottom: 12px;
     }
     .loc-feature-list li i {
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: 18px;
         margin-top: 1px;
         flex-shrink: 0;
@@ -225,19 +225,19 @@
         display: inline-flex;
         align-items: center;
         gap: 10px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff !important;
         font-size: 15px;
         font-weight: 600;
         padding: 14px 28px;
         border-radius: 10px;
         text-decoration: none !important;
-        border: 1.5px solid #0a0a0a;
+        border: 1.5px solid #1b3a6b;
         transition: all .15s ease;
     }
     .loc-cta-btn:hover {
-        background: #1a1a1a;
-        border-color: #1a1a1a;
+        background: #16305a;
+        border-color: #16305a;
         transform: translateY(-1px);
         box-shadow: 0 8px 20px rgba(0,0,0,.18);
     }
@@ -278,7 +278,7 @@
     .loc-grid-head h2 {
         font-size: clamp(26px, 3vw, 36px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.2;
         letter-spacing: -.5px;
         margin: 0 0 12px;
@@ -310,7 +310,7 @@
     .loc-card::before {
         content: "";
         position: absolute; inset: 0;
-        background: linear-gradient(180deg, rgba(10,10,10,.10) 0%, rgba(10,10,10,.55) 60%, rgba(10,10,10,.85) 100%);
+        background: linear-gradient(180deg, rgba(27, 58, 107,.10) 0%, rgba(27, 58, 107,.55) 60%, rgba(27, 58, 107,.85) 100%);
         z-index: 1;
         transition: background .25s ease;
     }
@@ -319,7 +319,7 @@
         box-shadow: 0 22px 44px rgba(15,23,42,.18);
     }
     .loc-card:hover::before {
-        background: linear-gradient(180deg, rgba(10,10,10,.15) 0%, rgba(10,10,10,.65) 50%, rgba(10,10,10,.92) 100%);
+        background: linear-gradient(180deg, rgba(27, 58, 107,.15) 0%, rgba(27, 58, 107,.65) 50%, rgba(27, 58, 107,.92) 100%);
     }
     .loc-card-content {
         position: relative;
@@ -390,7 +390,7 @@
     }
     .loc-card:hover .corner-arrow {
         background: #fff;
-        color: #0a0a0a;
+        color: #1b3a6b;
         transform: rotate(-45deg);
     }
 
@@ -403,7 +403,7 @@
         border-radius: 14px;
     }
     .loc-empty i { font-size: 50px; color: #c7c7cc; }
-    .loc-empty h4 { font-size: 18px; color: #0a0a0a; margin: 14px 0 6px; font-weight: 700; }
+    .loc-empty h4 { font-size: 18px; color: #1b3a6b; margin: 14px 0 6px; font-weight: 700; }
     .loc-empty p { color: #777; margin: 0; }
 
     /* Pagination — dark */
@@ -418,7 +418,7 @@
         background: #fff;
         border: 1px solid #ececec;
         border-radius: 8px;
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: 14px;
         font-weight: 600;
         display: inline-flex;
@@ -426,12 +426,12 @@
         text-decoration: none;
         transition: all .15s ease;
     }
-    .loc-pagination li a:hover { background: #f5f5f7; border-color: #0a0a0a; }
+    .loc-pagination li a:hover { background: #f5f5f7; border-color: #1b3a6b; }
     .loc-pagination li a.current-page,
     .loc-pagination li.active a {
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
     }
     .loc-pagination li.disabled span { opacity: .35; cursor: not-allowed; }
 
@@ -448,7 +448,7 @@
         top: -100px; left: 50%;
         transform: translateX(-50%);
         width: 800px; height: 800px;
-        background: radial-gradient(circle, rgba(10,10,10,.03) 0%, transparent 60%);
+        background: radial-gradient(circle, rgba(27, 58, 107,.03) 0%, transparent 60%);
         pointer-events: none;
     }
     .top-states-section .container { position: relative; z-index: 2; }
@@ -460,7 +460,7 @@
     .top-states-head .eyebrow {
         display: inline-block;
         background: #f5f5f7;
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: 12px;
         font-weight: 700;
         letter-spacing: 1.6px;
@@ -472,7 +472,7 @@
     .top-states-head h2 {
         font-size: clamp(26px, 3vw, 36px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         line-height: 1.2;
         letter-spacing: -.5px;
         margin: 0 0 12px;
@@ -506,21 +506,21 @@
         position: absolute;
         right: -30px; top: -30px;
         width: 120px; height: 120px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         border-radius: 50%;
         opacity: .03;
         transition: transform .35s ease, opacity .25s ease;
     }
     .top-state-card:hover {
         transform: translateY(-4px);
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
         box-shadow: 0 18px 40px rgba(15,23,42,.10);
     }
     .top-state-card:hover::after { transform: scale(1.5); opacity: .06; }
     .top-state-card .rank {
         width: 56px; height: 56px;
         border-radius: 14px;
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
         font-size: 20px;
         font-weight: 800;
@@ -533,7 +533,7 @@
     .top-state-card .info h3 {
         font-size: 18px;
         font-weight: 700;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 4px;
         letter-spacing: -.2px;
     }
@@ -541,14 +541,14 @@
         font-size: 13.5px;
         color: #555;
     }
-    .top-state-card .info .count strong { color: #0a0a0a; font-weight: 800; }
+    .top-state-card .info .count strong { color: #1b3a6b; font-weight: 800; }
     .top-state-card .arrow {
         margin-left: auto;
         color: #c7c7cc;
         font-size: 18px;
         transition: all .25s ease;
     }
-    .top-state-card:hover .arrow { color: #0a0a0a; transform: translateX(4px); }
+    .top-state-card:hover .arrow { color: #1b3a6b; transform: translateX(4px); }
 
     @media (max-width: 768px) {
         .loc-hero { padding: 50px 0 40px; }

@@ -7,12 +7,12 @@
     .cj-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 22px; }
     .cj-head h1 {
         font-size: 28px; font-weight: 800; margin: 0; letter-spacing: -.4px;
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text; background-clip: text;
         -webkit-text-fill-color: transparent; color: transparent;
     }
     .cj-head .breadcrumbs { font-size: 14px; color: #6b7280; margin-top: 4px; }
-    .cj-head .breadcrumbs a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+    .cj-head .breadcrumbs a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
     .cj-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; margin-bottom: 22px; }
     @media (max-width:767px){ .cj-stats { grid-template-columns: 1fr; } }
     .stat-card {
@@ -21,7 +21,7 @@
         transition: transform .2s ease, box-shadow .2s ease;
     }
     .stat-card:hover { transform: translateY(-2px); box-shadow: 0 14px 28px rgba(15,23,42,.08); }
-    .stat-card .ic { width: 42px; height: 42px; border-radius: 11px; background: #0a0a0a; color: #fff;
+    .stat-card .ic { width: 42px; height: 42px; border-radius: 11px; background: #1b3a6b; color: #fff;
         display: inline-flex; align-items: center; justify-content: center; font-size: 18px; margin-bottom: 10px; }
     .stat-card .lbl { font-size: 12px; color: #6b7280; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin: 0; }
     .stat-card .val { font-size: 28px; font-weight: 800; color: #0f172a; line-height: 1.1; margin: 4px 0 0; letter-spacing: -.4px; }
@@ -29,17 +29,17 @@
     .panel { background: #fff; border: 1px solid #eef0f4; border-radius: 16px; overflow: hidden; }
     .panel-head { display: flex; justify-content: space-between; align-items: center; padding: 18px 22px; border-bottom: 1px solid #eef0f4; flex-wrap: wrap; gap: 12px; }
     .panel-head h3 { font-size: 18px; font-weight: 700; color: #0f172a; margin: 0; display: inline-flex; align-items: center; gap: 8px; }
-    .panel-head .badge-soft { background: #0a0a0a; color: #fff; font-weight: 700; font-size: 13px; padding: 4px 11px; border-radius: 999px; }
+    .panel-head .badge-soft { background: #1b3a6b; color: #fff; font-weight: 700; font-size: 13px; padding: 4px 11px; border-radius: 999px; }
     .panel-actions { display: inline-flex; gap: 8px; align-items: center; flex-wrap: wrap; }
     .search-box { position: relative; }
     .search-box i { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: #6b7280; font-size: 16px; pointer-events: none; }
     .search-box input { height: 42px; padding: 0 14px 0 40px; border: 1px solid #e5e7eb; border-radius: 10px; font-size: 14px; min-width: 240px; outline: none; }
-    .search-box input:focus { border-color: #0a0a0a; box-shadow: 0 0 0 3px rgba(10,10,10,.10); }
+    .search-box input:focus { border-color: #1b3a6b; box-shadow: 0 0 0 3px rgba(27, 58, 107,.10); }
 
     .btn-soft { display: inline-flex; align-items: center; gap: 6px; height: 42px; padding: 0 16px; border-radius: 10px; font-weight: 600; font-size: 14px; text-decoration: none !important; border: 1px solid #e5e7eb; background: #fff; color: #374151 !important; transition: all .15s ease; }
-    .btn-soft:hover { border-color: #0a0a0a; color: #0a0a0a !important; }
-    .btn-soft.primary { background: #0a0a0a !important; color: #fff !important; border-color: #0a0a0a; box-shadow: 0 6px 14px rgba(10,10,10,.18); }
-    .btn-soft.primary:hover { transform: translateY(-1px); background: #1a1a1a !important; }
+    .btn-soft:hover { border-color: #1b3a6b; color: #1b3a6b !important; }
+    .btn-soft.primary { background: #1b3a6b !important; color: #fff !important; border-color: #1b3a6b; box-shadow: 0 6px 14px rgba(27, 58, 107,.18); }
+    .btn-soft.primary:hover { transform: translateY(-1px); background: #16305a !important; }
 
     .panel .table { margin: 0; }
     .panel .table thead th { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .8px; color: #6b7280; background: #f9fafb; padding: 16px 18px; border-bottom: 1px solid #eef0f4; border-top:none; white-space: nowrap; }
@@ -63,7 +63,7 @@
         text-decoration: none; padding: 0;
     }
     .row-actions a:hover, .row-actions button:hover { transform: translateY(-1px); }
-    .row-actions .a-edit:hover { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
+    .row-actions .a-edit:hover { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
     .row-actions .a-delete:hover { background: #fef2f2; color: #dc2626; border-color: #fecaca; }
     .row-actions form { display: inline; margin: 0; }
 
@@ -75,7 +75,7 @@
     .panel-foot { padding: 18px 22px; border-top: 1px solid #eef0f4; background: #fbfbfd; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
 
     .custom-alert { padding: 12px 16px; border-radius: 12px; margin-bottom: 18px; font-size: 13.5px; display: flex; justify-content: space-between; align-items: center; gap: 10px; }
-    .custom-alert.success { background: #f3f4f6; color: #0a0a0a; border: 1px solid #e5e7eb; }
+    .custom-alert.success { background: #f3f4f6; color: #1b3a6b; border: 1px solid #e5e7eb; }
     .custom-alert button { background: transparent; border: none; opacity: .6; }
 </style>
 
@@ -122,7 +122,7 @@
     <div class="panel">
         <div class="panel-head">
             <h3>
-                <i class="bi bi-briefcase-fill" style="color:#0a0a0a"></i>
+                <i class="bi bi-briefcase-fill" style="color:#1b3a6b"></i>
                 All Jobs
                 @if(method_exists($jobs, 'total'))
                     <span class="badge-soft">{{ number_format($jobs->total()) }}</span>

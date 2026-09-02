@@ -26,7 +26,7 @@
         color: #6b7280;
         margin-top: 4px;
     }
-    .blog-head .breadcrumbs a { color: #0a0a0a; text-decoration: none; }
+    .blog-head .breadcrumbs a { color: #1b3a6b; text-decoration: none; }
     .blog-head .breadcrumbs a:hover { text-decoration: underline; }
 
     .blog-grid {
@@ -61,7 +61,7 @@
         align-items: center;
         gap: 8px;
     }
-    .panel-head h3 i { color: #0a0a0a; }
+    .panel-head h3 i { color: #1b3a6b; }
     .panel-body { padding: 22px; }
 
     /* Form fields */
@@ -123,11 +123,11 @@
     .flatpickr-day.selected:hover,
     .flatpickr-day.startRange,
     .flatpickr-day.endRange {
-        background: #0a0a0a !important;
+        background: #1b3a6b !important;
         border-color: transparent !important;
         color: #fff !important;
     }
-    .flatpickr-day.today { border-color: #0a0a0a !important; color: #0a0a0a; }
+    .flatpickr-day.today { border-color: #1b3a6b !important; color: #1b3a6b; }
     .flatpickr-months .flatpickr-month,
     .flatpickr-current-month input.cur-year,
     .flatpickr-current-month .flatpickr-monthDropdown-months { color: #0f172a !important; }
@@ -136,8 +136,8 @@
     .field select:focus,
     .field textarea:focus {
         outline: none;
-        border-color: #0a0a0a;
-        box-shadow: 0 0 0 3px rgba(10, 10, 10, .10);
+        border-color: #1b3a6b;
+        box-shadow: 0 0 0 3px rgba(27, 58, 107, .10);
     }
     .field textarea { resize: vertical; min-height: 90px; }
     .field input.is-invalid, .field textarea.is-invalid, .field select.is-invalid {
@@ -159,12 +159,12 @@
         background: #fafbff;
     }
     .dropzone:hover, .dropzone.dragover {
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
         background: #f3f4f6;
     }
     .dropzone i {
         font-size: 32px;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin-bottom: 8px;
     }
     .dropzone .dz-text { font-weight: 600; color: #374151; }
@@ -215,15 +215,15 @@
         cursor: text;
     }
     .tags-input:focus-within {
-        border-color: #0a0a0a;
-        box-shadow: 0 0 0 3px rgba(10, 10, 10, .10);
+        border-color: #1b3a6b;
+        box-shadow: 0 0 0 3px rgba(27, 58, 107, .10);
     }
     .tags-input .tag {
         display: inline-flex;
         align-items: center;
         gap: 5px;
         background: #f3f4f6;
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: 12.5px;
         font-weight: 600;
         padding: 4px 10px;
@@ -232,7 +232,7 @@
     .tags-input .tag button {
         background: transparent;
         border: none;
-        color: #0a0a0a;
+        color: #1b3a6b;
         opacity: .7;
         cursor: pointer;
         font-size: 13px;
@@ -272,10 +272,10 @@
         transition: all .15s ease;
     }
     .status-pills label input:checked + .pill {
-        background: #0a0a0a;
+        background: #1b3a6b;
         border-color: transparent;
         color: #fff;
-        box-shadow: 0 6px 14px rgba(10,10,10,.20);
+        box-shadow: 0 6px 14px rgba(27, 58, 107,.20);
     }
 
     /* Toggle switch */
@@ -309,7 +309,7 @@
         transition: transform .15s ease;
         box-shadow: 0 1px 3px rgba(0,0,0,.2);
     }
-    .switch input:checked + .slider { background: #0a0a0a; }
+    .switch input:checked + .slider { background: #1b3a6b; }
     .switch input:checked + .slider::before { transform: translateX(18px); }
 
     /* Submit area */
@@ -338,11 +338,11 @@
         transition: transform .15s ease, box-shadow .15s ease;
     }
     .btn-primary {
-        background: #0a0a0a;
+        background: #1b3a6b;
         color: #fff;
-        box-shadow: 0 8px 18px rgba(10,10,10,.18);
+        box-shadow: 0 8px 18px rgba(27, 58, 107,.18);
     }
-    .btn-primary:hover { transform: translateY(-1px); color: #fff; box-shadow: 0 12px 24px rgba(10,10,10,.30); }
+    .btn-primary:hover { transform: translateY(-1px); color: #fff; box-shadow: 0 12px 24px rgba(27, 58, 107,.30); }
     .btn-outline {
         background: #fff;
         color: #374151;

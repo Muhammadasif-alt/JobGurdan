@@ -6,12 +6,12 @@
     .blogs-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 22px; }
     .blogs-head h1 {
         font-size: 26px; font-weight: 800; margin: 0; letter-spacing: -.4px;
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text; background-clip: text;
         -webkit-text-fill-color: transparent; color: transparent;
     }
     .blogs-head .breadcrumbs { font-size: 14px; color: #6b7280; margin-top: 4px; }
-    .blogs-head .breadcrumbs a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+    .blogs-head .breadcrumbs a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
 
     .panel { background: #fff; border: 1px solid #eef0f4; border-radius: 16px; overflow: hidden; }
     .panel-head {
@@ -19,9 +19,9 @@
         gap: 12px; padding: 18px 22px; border-bottom: 1px solid #eef0f4;
     }
     .panel-head h3 { font-size: 17px; font-weight: 700; color: #0f172a; margin: 0; display: inline-flex; align-items: center; gap: 8px; }
-    .panel-head h3 i { color: #0a0a0a; font-size: 18px; }
+    .panel-head h3 i { color: #1b3a6b; font-size: 18px; }
     .panel-head h3 .badge-soft {
-        background: #0a0a0a; color: #fff; font-weight: 700; font-size: 12.5px;
+        background: #1b3a6b; color: #fff; font-weight: 700; font-size: 12.5px;
         padding: 4px 11px; border-radius: 999px;
     }
 
@@ -40,7 +40,7 @@
     .blog-cell { display: flex; align-items: center; gap: 12px; min-width: 280px; }
     .blog-thumb {
         width: 56px; height: 56px; border-radius: 10px; flex-shrink: 0;
-        background: #0a0a0a;
+        background: #1b3a6b;
         background-size: cover; background-position: center;
         display: inline-flex; align-items: center; justify-content: center;
         color: #fff; font-size: 20px; box-shadow: 0 4px 10px rgba(15,23,42,.10);
@@ -59,16 +59,16 @@
         display: inline-block; padding: 4px 11px; font-size: 12.5px; font-weight: 700;
         border-radius: 999px; white-space: nowrap;
     }
-    .pill.cat   { background: #f3f4f6; color: #0a0a0a; }
+    .pill.cat   { background: #f3f4f6; color: #1b3a6b; }
     .pill.draft { background: #f3f4f6; color: #6b7280; }
-    .pill.pub   { background: #0a0a0a; color: #fff; display: inline-flex; align-items: center; gap: 5px; }
+    .pill.pub   { background: #1b3a6b; color: #fff; display: inline-flex; align-items: center; gap: 5px; }
     .pill.pub::before { content: ""; width: 5px; height: 5px; background: #10b981; border-radius: 50%; }
-    .pill.feat  { background: #0a0a0a; color: #fff; }
+    .pill.feat  { background: #1b3a6b; color: #fff; }
 
     .author-cell { display: inline-flex; align-items: center; gap: 8px; }
     .author-avatar {
         width: 28px; height: 28px; border-radius: 50%;
-        background: #0a0a0a; color: #fff;
+        background: #1b3a6b; color: #fff;
         font-size: 11.5px; font-weight: 700; display: inline-flex;
         align-items: center; justify-content: center;
     }
@@ -80,8 +80,8 @@
         border: 1px solid #e5e7eb; background: #fff; color: #6b7280;
         font-size: 17px; cursor: pointer; transition: all .15s ease; padding: 0;
     }
-    .row-actions .a-view:hover  { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
-    .row-actions .a-edit:hover  { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
+    .row-actions .a-view:hover  { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
+    .row-actions .a-edit:hover  { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
     .row-actions .a-del:hover   { background: #fef2f2; color: #dc2626; border-color: #fecaca; }
     .row-actions form { display: inline; margin: 0; }
 
@@ -98,7 +98,7 @@
     .empty p { color: #6b7280; margin: 0 0 22px; font-size: 14.5px; }
 
     .alert-box { padding: 12px 16px; border-radius: 12px; margin-bottom: 18px; font-size: 13.5px; display: flex; justify-content: space-between; gap: 10px; }
-    .alert-box.success { background: #f3f4f6; color: #0a0a0a; border: 1px solid #e5e7eb; }
+    .alert-box.success { background: #f3f4f6; color: #1b3a6b; border: 1px solid #e5e7eb; }
     .alert-box .close-x { background: transparent; border: none; color: inherit; opacity: .6; cursor: pointer; }
 </style>
 

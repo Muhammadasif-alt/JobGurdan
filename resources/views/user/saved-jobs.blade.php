@@ -19,7 +19,7 @@
     }
     .saved-hero h1 {
         font-size: clamp(28px, 3.4vw, 42px);
-        font-weight: 800; color: #0a0a0a;
+        font-weight: 800; color: #1b3a6b;
         margin: 0 0 10px; letter-spacing: -.5px;
     }
     .saved-hero h1 .accent {
@@ -45,7 +45,7 @@
         transition: all .15s ease;
     }
     .saved-card:hover {
-        border-color: #0a0a0a;
+        border-color: #1b3a6b;
         box-shadow: 0 16px 32px rgba(15,23,42,.06);
         transform: translateY(-1px);
     }
@@ -68,11 +68,11 @@
     }
     .saved-card .info { min-width: 0; }
     .saved-card .info h3 {
-        font-size: 17px; font-weight: 700; color: #0a0a0a;
+        font-size: 17px; font-weight: 700; color: #1b3a6b;
         margin: 0 0 4px;
     }
     .saved-card .info h3 a {
-        color: #0a0a0a; text-decoration: none;
+        color: #1b3a6b; text-decoration: none;
     }
     .saved-card .info h3 a:hover { color: #1b3a6b; }
     .saved-card .info .meta {
@@ -90,7 +90,7 @@
         display: inline-flex; gap: 10px;
     }
     .saved-card .btn-view {
-        background: #0a0a0a; color: #fff !important;
+        background: #1b3a6b; color: #fff !important;
         padding: 10px 18px; border-radius: 8px;
         font-size: 13px; font-weight: 700; text-decoration: none;
         display: inline-flex; align-items: center; gap: 6px;
@@ -124,7 +124,7 @@
     }
     .saved-empty .icon i { font-size: 32px; color: #1b3a6b; }
     .saved-empty h2 {
-        font-size: 24px; font-weight: 800; color: #0a0a0a; margin: 0 0 10px;
+        font-size: 24px; font-weight: 800; color: #1b3a6b; margin: 0 0 10px;
     }
     .saved-empty p {
         color: #555; font-size: 15px; line-height: 1.6;
@@ -132,7 +132,7 @@
     }
     .saved-empty .btn-browse {
         display: inline-flex; align-items: center; gap: 8px;
-        background: #0a0a0a; color: #fff !important;
+        background: #1b3a6b; color: #fff !important;
         padding: 14px 28px; border-radius: 10px;
         font-weight: 700; font-size: 15px; text-decoration: none;
         transition: all .15s ease;

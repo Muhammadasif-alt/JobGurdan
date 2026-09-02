@@ -16,7 +16,7 @@
     .legal-card h1 {
         font-size: clamp(28px, 3vw, 38px);
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 0 0 8px;
         letter-spacing: -.6px;
     }
@@ -35,7 +35,7 @@
     .legal-card h2 {
         font-size: 20px;
         font-weight: 800;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 32px 0 10px;
         letter-spacing: -.2px;
         padding-top: 18px;
@@ -45,7 +45,7 @@
     .legal-card h3 {
         font-size: 16px;
         font-weight: 700;
-        color: #0a0a0a;
+        color: #1b3a6b;
         margin: 20px 0 8px;
     }
     .legal-card p, .legal-card li {
@@ -57,7 +57,7 @@
     .legal-card ul li { margin-bottom: 6px; }
     .legal-card a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
     .legal-card a:hover { text-decoration: underline; }
-    .legal-card strong { color: #0a0a0a; }
+    .legal-card strong { color: #1b3a6b; }
     .legal-toc {
         background: #f8f9fb;
         border: 1px solid #ececec;
@@ -67,7 +67,7 @@
     }
     .legal-toc h4 { font-size: 13px; font-weight: 800; color: #555; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 10px; }
     .legal-toc ol { margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.9; }
-    .legal-toc a { color: #0a0a0a; font-weight: 500; }
+    .legal-toc a { color: #1b3a6b; font-weight: 500; }
     .legal-toc a:hover { color: #1b3a6b; }
 
     /* Dark mode */

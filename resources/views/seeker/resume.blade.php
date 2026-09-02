@@ -8,16 +8,16 @@
     .rs-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 22px; }
     .rs-head h1 {
         font-size: 26px; font-weight: 800; margin: 0; letter-spacing: -.4px;
-        background: linear-gradient(90deg, #0a0a0a, #404040);
+        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
         -webkit-background-clip: text; background-clip: text;
         -webkit-text-fill-color: transparent; color: transparent;
     }
     .rs-head .breadcrumbs { font-size: 14px; color: #6b7280; margin-top: 4px; }
-    .rs-head .breadcrumbs a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+    .rs-head .breadcrumbs a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
 
     .panel { background: #fff; border: 1px solid #ececec; border-radius: 16px; overflow: hidden; margin-bottom: 22px; }
     .panel-head { padding: 16px 22px; border-bottom: 1px solid #ececec; }
-    .panel-head h3 { font-size: 17px; font-weight: 700; color: #0a0a0a; margin: 0; display: flex; align-items: center; gap: 8px; }
+    .panel-head h3 { font-size: 17px; font-weight: 700; color: #1b3a6b; margin: 0; display: flex; align-items: center; gap: 8px; }
     .panel-head h3 i { color: #5e2bff; }
     .panel-body { padding: 26px; }
 
@@ -34,26 +34,26 @@
         cursor: pointer;
         transition: all .2s ease;
     }
-    .upload-zone:hover, .upload-zone.dragging { border-color: #0a0a0a; background: #f3f4f6; }
+    .upload-zone:hover, .upload-zone.dragging { border-color: #1b3a6b; background: #f3f4f6; }
     .upload-zone .icon-wrap {
         width: 72px; height: 72px; border-radius: 18px;
-        background: #0a0a0a; color: #fff;
+        background: #1b3a6b; color: #fff;
         display: inline-flex; align-items: center; justify-content: center;
         font-size: 30px; margin-bottom: 16px;
-        box-shadow: 0 10px 22px rgba(10,10,10,.20);
+        box-shadow: 0 10px 22px rgba(27, 58, 107,.20);
     }
-    .upload-zone h4 { font-size: 18px; font-weight: 700; color: #0a0a0a; margin: 0 0 6px; }
+    .upload-zone h4 { font-size: 18px; font-weight: 700; color: #1b3a6b; margin: 0 0 6px; }
     .upload-zone p  { font-size: 13.5px; color: #6b7280; margin: 0 0 14px; }
     .upload-zone .hint { font-size: 12px; color: #9ca3af; }
     .upload-zone input[type="file"] { display: none; }
     .upload-zone .browse-btn {
         display: inline-flex; align-items: center; gap: 6px;
-        background: #fff; color: #0a0a0a; border: 1px solid #e5e7eb;
+        background: #fff; color: #1b3a6b; border: 1px solid #e5e7eb;
         font-size: 14px; font-weight: 600;
         padding: 10px 22px; border-radius: 10px;
         transition: all .15s ease;
     }
-    .upload-zone:hover .browse-btn { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
+    .upload-zone:hover .browse-btn { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
 
     .selected-file {
         display: none;
@@ -85,7 +85,7 @@
     .resume-card .file-info { flex: 1 1 0; min-width: 0; max-width: 100%; }
     .resume-card .file-name {
         font-weight: 700;
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: 14px;
         margin: 0 0 3px;
         overflow: hidden;
@@ -104,8 +104,8 @@
     }
 
     .btn { padding: 9px 18px; border-radius: 10px; font-weight: 600; font-size: 13.5px; text-decoration: none !important; display: inline-flex; align-items: center; gap: 6px; border: none; cursor: pointer; transition: transform .15s ease; }
-    .btn-primary { background: #0a0a0a !important; color: #fff !important; border: 1px solid #0a0a0a !important; box-shadow: 0 6px 14px rgba(10,10,10,.18); }
-    .btn-primary:hover { transform: translateY(-1px); background: #1a1a1a !important; }
+    .btn-primary { background: #1b3a6b !important; color: #fff !important; border: 1px solid #1b3a6b !important; box-shadow: 0 6px 14px rgba(27, 58, 107,.18); }
+    .btn-primary:hover { transform: translateY(-1px); background: #16305a !important; }
     .btn-outline { background: #fff; color: #374151 !important; border: 1px solid #e5e7eb; }
     .btn-outline:hover { background: #f3f4f6; }
     .btn-danger-outline { background: #fff; color: #b91c1c !important; border: 1px solid #fecaca; }

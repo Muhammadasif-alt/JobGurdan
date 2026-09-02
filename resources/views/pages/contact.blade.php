@@ -18,7 +18,7 @@
         color: #777; font-size: 13px; margin-bottom: 14px;
     }
     .contact-page-hero .breadcrumbs-mini a {
-        color: #0a0a0a; text-decoration: none; font-weight: 600;
+        color: #1b3a6b; text-decoration: none; font-weight: 600;
     }
     .contact-page-hero .breadcrumbs-mini a:hover { color: #1b3a6b; }
     .contact-page-hero .eyebrow {
@@ -36,7 +36,7 @@
         box-shadow: 0 1px 2px rgba(15,23,42,.04);
     }
     .contact-page-hero h1 {
-        color: #0a0a0a;
+        color: #1b3a6b;
         font-size: clamp(34px, 4.8vw, 56px);
         font-weight: 800;
         line-height: 1.1;

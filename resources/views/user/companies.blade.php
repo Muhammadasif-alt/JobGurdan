@@ -14,13 +14,13 @@
 .companies-hero::before {
     content: "";
     position: absolute; inset: 0;
-    background-image: radial-gradient(circle at 12% 20%, rgba(10,10,10,.04) 0, transparent 40%),
-                      radial-gradient(circle at 88% 80%, rgba(10,10,10,.03) 0, transparent 45%);
+    background-image: radial-gradient(circle at 12% 20%, rgba(27, 58, 107,.04) 0, transparent 40%),
+                      radial-gradient(circle at 88% 80%, rgba(27, 58, 107,.03) 0, transparent 45%);
     pointer-events: none;
 }
 .companies-hero .container { position: relative; z-index: 2; text-align: center; }
 .companies-hero h1 {
-    color: #0a0a0a;
+    color: #1b3a6b;
     font-size: clamp(30px, 4.4vw, 52px);
     font-weight: 800;
     line-height: 1.1;
@@ -31,7 +31,7 @@
     margin-right: auto;
 }
 .companies-hero h1 .accent {
-    background: linear-gradient(90deg, #0a0a0a, #404040);
+    background: linear-gradient(90deg, #1b3a6b, #4a90d9);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -59,7 +59,7 @@
     box-shadow: 0 1px 2px rgba(15,23,42,.04);
 }
 .companies-hero .breadcrumbs-mini { color: #777; font-size: 13px; margin-bottom: 14px; }
-.companies-hero .breadcrumbs-mini a { color: #0a0a0a; text-decoration: none; font-weight: 600; }
+.companies-hero .breadcrumbs-mini a { color: #1b3a6b; text-decoration: none; font-weight: 600; }
 .companies-hero .breadcrumbs-mini a:hover { text-decoration: underline; }
 
 /* Search bar */
@@ -81,7 +81,7 @@
     padding: 0 16px;
     font-size: 15px;
     height: 52px;
-    color: #1a1a1a;
+    color: #16305a;
     box-shadow: none !important;
     outline: none !important;
 }
@@ -92,15 +92,15 @@
     padding: 0 14px;
     height: 52px;
     font-size: 14px;
-    color: #1a1a1a;
+    color: #16305a;
     box-shadow: none !important;
     outline: none !important;
     min-width: 140px;
     border-left: 1px solid #ececec !important;
 }
 .companies-search button {
-    background: #0a0a0a;
-    border: 1.5px solid #0a0a0a;
+    background: #1b3a6b;
+    border: 1.5px solid #1b3a6b;
     color: #fff;
     border-radius: 10px;
     padding: 0 28px;
@@ -111,7 +111,7 @@
     transition: all .15s ease;
 }
 .companies-search button:hover {
-    background: #1a1a1a;
+    background: #16305a;
     transform: translateY(-1px);
     box-shadow: 0 8px 20px rgba(0,0,0,.18);
 }
@@ -136,7 +136,7 @@
     display: block;
     font-size: 24px;
     font-weight: 800;
-    color: #0a0a0a;
+    color: #1b3a6b;
     line-height: 1.1;
     letter-spacing: -.5px;
 }
@@ -161,14 +161,14 @@
     color: #555;
     font-size: 14.5px;
 }
-.companies-toolbar .results-info strong { color: #0a0a0a; }
+.companies-toolbar .results-info strong { color: #1b3a6b; }
 .companies-toolbar .quick-filters { display: flex; gap: 8px; flex-wrap: wrap; }
 .companies-toolbar .quick-filters a {
     padding: 9px 16px;
     border-radius: 999px;
     background: #fff;
     border: 1px solid #ececec;
-    color: #1a1a1a;
+    color: #16305a;
     font-size: 13.5px;
     font-weight: 500;
     text-decoration: none;
@@ -179,8 +179,8 @@
     border-color: #d5d5d7;
 }
 .companies-toolbar .quick-filters a.active {
-    background: #0a0a0a;
-    border-color: #0a0a0a;
+    background: #1b3a6b;
+    border-color: #1b3a6b;
     color: #fff;
     font-weight: 600;
 }
@@ -312,7 +312,7 @@
 .view-jobs-link {
     font-size: 13px;
     font-weight: 700;
-    color: #0a0a0a;
+    color: #1b3a6b;
     display: inline-flex;
     align-items: center;
     gap: 4px;
@@ -329,7 +329,7 @@
     border: 1px dashed #e5e7eb;
 }
 .empty-state i { font-size: 56px; color: #9ca3af; margin-bottom: 14px; }
-.empty-state h4 { color: #0a0a0a; margin: 0 0 6px; font-weight: 700; }
+.empty-state h4 { color: #1b3a6b; margin: 0 0 6px; font-weight: 700; }
 .empty-state p { color: #6b7280; margin: 0; }
 
 /* Pagination — dark (overrides theme orange) */
@@ -350,7 +350,7 @@
     background: #fff;
     border: 1px solid #ececec;
     border-radius: 8px;
-    color: #0a0a0a;
+    color: #1b3a6b;
     font-size: 14px;
     font-weight: 600;
     display: inline-flex;
@@ -361,13 +361,13 @@
 }
 .utf-pagination-container-aera .pagination li a:hover {
     background: #f5f5f7;
-    border-color: #0a0a0a;
+    border-color: #1b3a6b;
 }
 .utf-pagination-container-aera .pagination li a.current-page,
 .utf-pagination-container-aera .pagination li.active a {
-    background: #0a0a0a !important;
+    background: #1b3a6b !important;
     color: #fff !important;
-    border-color: #0a0a0a !important;
+    border-color: #1b3a6b !important;
 }
 .utf-pagination-container-aera .pagination li a.disabled {
     opacity: .35;
@@ -667,7 +667,7 @@
 .emp-section-head h2 {
     font-size: clamp(26px, 3.2vw, 38px);
     font-weight: 800;
-    color: #0a0a0a;
+    color: #1b3a6b;
     line-height: 1.15;
     letter-spacing: -.6px;
     margin: 0 0 12px;
@@ -699,7 +699,7 @@
     display: inline-flex; align-items: center; justify-content: center;
     font-size: 22px; margin-bottom: 16px;
 }
-.emp-why-card h3 { font-size: 17px; font-weight: 800; color: #0a0a0a; margin: 0 0 8px; }
+.emp-why-card h3 { font-size: 17px; font-weight: 800; color: #1b3a6b; margin: 0 0 8px; }
 .emp-why-card p { color: #555; font-size: 13.5px; line-height: 1.55; margin: 0; }
 
 /* ===== SEO section ===== */
@@ -711,19 +711,19 @@
     letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 14px;
 }
 .emp-seo-content h2 {
-    font-size: clamp(26px, 3vw, 36px); font-weight: 800; color: #0a0a0a;
+    font-size: clamp(26px, 3vw, 36px); font-weight: 800; color: #1b3a6b;
     line-height: 1.15; letter-spacing: -.6px; margin: 0 0 16px;
 }
 .emp-seo-content h2 .accent {
     background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
     -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
-.emp-seo-lead { color: #1a1a1a; font-size: 16px; line-height: 1.65; margin: 0 0 14px; font-weight: 500; }
+.emp-seo-lead { color: #16305a; font-size: 16px; line-height: 1.65; margin: 0 0 14px; font-weight: 500; }
 .emp-seo-content p { color: #555; font-size: 15px; line-height: 1.7; margin: 0 0 18px; }
 .emp-seo-list { list-style: none; padding: 0; margin: 18px 0 24px; }
 .emp-seo-list li {
     display: flex; align-items: center; gap: 10px;
-    padding: 8px 0; color: #1a1a1a; font-size: 14.5px; font-weight: 500;
+    padding: 8px 0; color: #16305a; font-size: 14.5px; font-weight: 500;
 }
 .emp-seo-list li i { color: #10b981; font-size: 18px; }
 .emp-cta-btn {
@@ -753,12 +753,12 @@
 .emp-float-badge.br { bottom: 20px; right: -20px; }
 .emp-float-badge .ico {
     width: 36px; height: 36px; border-radius: 10px;
-    background: #0a0a0a; color: #fff;
+    background: #1b3a6b; color: #fff;
     display: inline-flex; align-items: center; justify-content: center;
     font-size: 18px; flex-shrink: 0;
 }
 .emp-float-badge .ico.green { background: #10b981; }
-.emp-float-badge .text strong { display: block; color: #0a0a0a; font-size: 14.5px; font-weight: 800; }
+.emp-float-badge .text strong { display: block; color: #1b3a6b; font-size: 14.5px; font-weight: 800; }
 .emp-float-badge .text span { color: #777; font-size: 12px; }
 @media (max-width: 575px) {
     .emp-float-badge.tl { top: 10px; left: 10px; }
@@ -777,11 +777,11 @@
 .emp-process-card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(15,23,42,.10); border-color: #1b3a6b; }
 .emp-step-num {
     width: 44px; height: 44px; border-radius: 50%;
-    background: linear-gradient(135deg, #0a0a0a, #1a1a1a); color: #fff;
+    background: linear-gradient(135deg, #1b3a6b, #16305a); color: #fff;
     display: inline-flex; align-items: center; justify-content: center;
     font-size: 18px; font-weight: 800; margin-bottom: 14px;
 }
-.emp-process-card h3 { font-size: 17px; font-weight: 800; color: #0a0a0a; margin: 0 0 8px; }
+.emp-process-card h3 { font-size: 17px; font-weight: 800; color: #1b3a6b; margin: 0 0 8px; }
 .emp-process-card p { color: #555; font-size: 13.5px; line-height: 1.55; margin: 0; }
 
 /* ===== Dark mode ===== */

@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" content="#007bff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#16305a" media="(prefers-color-scheme: dark)">
     <!--end::Accessibility Meta Tags--><!--begin::Primary Meta Tags-->
     <meta name="title" content="JobsListing | Jobs Management System">
     <meta name="author" content="JobsListing">
@@ -32,41 +32,41 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@3.37.1/dist/apexcharts.css"
         integrity="sha256-4MX+61mt9NVvvuPjUWdUdyfZfxSB1/Rf9WtqRHgG5S0=" crossorigin="anonymous">
 
-    <!-- Custom overrides + admin theme polish (JobGader brand: dark #0a0a0a) -->
+    <!-- Custom overrides + admin theme polish (JobGader brand: dark #1b3a6b) -->
     <style>
         /* === Brand-matched buttons (global override) === */
         .btn-primary, .btn.btn-primary, button.btn-primary {
-            background: #0a0a0a !important;
-            border: 1px solid #0a0a0a !important;
+            background: #1b3a6b !important;
+            border: 1px solid #1b3a6b !important;
             color: #fff !important;
             font-weight: 600;
-            box-shadow: 0 6px 14px rgba(10,10,10,.18);
+            box-shadow: 0 6px 14px rgba(27, 58, 107,.18);
             transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
         }
         .btn-primary:hover, .btn.btn-primary:hover, button.btn-primary:hover {
             transform: translateY(-1px);
-            background: #1a1a1a !important;
-            box-shadow: 0 12px 24px rgba(10,10,10,.30) !important;
+            background: #16305a !important;
+            box-shadow: 0 12px 24px rgba(27, 58, 107,.30) !important;
             color: #fff !important;
         }
         .btn-success, .btn.btn-success {
-            background: #0a0a0a !important;
-            border: 1px solid #0a0a0a !important;
+            background: #1b3a6b !important;
+            border: 1px solid #1b3a6b !important;
             color: #fff !important;
         }
-        .btn-success:hover, .btn.btn-success:hover { background: #1a1a1a !important; color: #fff !important; }
+        .btn-success:hover, .btn.btn-success:hover { background: #16305a !important; color: #fff !important; }
         .btn-info, .btn.btn-info {
             background: #fff !important;
             border: 1px solid #e5e7eb !important;
-            color: #0a0a0a !important;
+            color: #1b3a6b !important;
         }
-        .btn-info:hover, .btn.btn-info:hover { background: #f3f4f6 !important; color: #0a0a0a !important; }
+        .btn-info:hover, .btn.btn-info:hover { background: #f3f4f6 !important; color: #1b3a6b !important; }
         .btn-warning, .btn.btn-warning {
             background: #fff !important;
             border: 1px solid #e5e7eb !important;
-            color: #0a0a0a !important;
+            color: #1b3a6b !important;
         }
-        .btn-warning:hover, .btn.btn-warning:hover { background: #f3f4f6 !important; color: #0a0a0a !important; }
+        .btn-warning:hover, .btn.btn-warning:hover { background: #f3f4f6 !important; color: #1b3a6b !important; }
         .btn-danger, .btn.btn-danger {
             background: #fff !important;
             border: 1px solid #fee2e2 !important;
@@ -101,22 +101,22 @@
         }
         .btn-soft:hover { background: #f3f4f6; color: #111827; }
         .btn-soft.primary {
-            background: #0a0a0a;
+            background: #1b3a6b;
             color: #fff;
-            border-color: #0a0a0a;
-            box-shadow: 0 6px 14px rgba(10,10,10,.18);
+            border-color: #1b3a6b;
+            box-shadow: 0 6px 14px rgba(27, 58, 107,.18);
         }
         .btn-soft.primary:hover {
             color: #fff;
-            background: #1a1a1a;
-            border-color: #1a1a1a;
+            background: #16305a;
+            border-color: #16305a;
             transform: translateY(-1px);
-            box-shadow: 0 10px 22px rgba(10,10,10,.28);
+            box-shadow: 0 10px 22px rgba(27, 58, 107,.28);
         }
-        .btn-soft.success { background: #0a0a0a; color: #fff; border-color: #0a0a0a; }
-        .btn-soft.success:hover { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
-        .btn-soft.info { background: #fff; color: #0a0a0a; border-color: #e5e7eb; }
-        .btn-soft.info:hover { background: #f3f4f6; color: #0a0a0a; }
+        .btn-soft.success { background: #1b3a6b; color: #fff; border-color: #1b3a6b; }
+        .btn-soft.success:hover { background: #16305a; color: #fff; border-color: #16305a; }
+        .btn-soft.info { background: #fff; color: #1b3a6b; border-color: #e5e7eb; }
+        .btn-soft.info:hover { background: #f3f4f6; color: #1b3a6b; }
         .btn-soft.danger  { background: #fff; color: #dc2626; border-color: #fee2e2; }
         .btn-soft.danger:hover { background: #fef2f2; }
         .btn-soft:disabled { opacity: .6; cursor: not-allowed; }
@@ -145,15 +145,15 @@
         }
         .pagination .page-item .page-link:hover {
             background: #f3f4f6 !important;
-            color: #0a0a0a !important;
-            border-color: #0a0a0a !important;
+            color: #1b3a6b !important;
+            border-color: #1b3a6b !important;
             z-index: 1;
         }
         .pagination .page-item.active .page-link {
-            background: #0a0a0a !important;
+            background: #1b3a6b !important;
             color: #fff !important;
-            border-color: #0a0a0a !important;
-            box-shadow: 0 6px 14px rgba(10,10,10,.20);
+            border-color: #1b3a6b !important;
+            box-shadow: 0 6px 14px rgba(27, 58, 107,.20);
         }
         .pagination .page-item.disabled .page-link {
             background: #f9fafb !important;
@@ -171,10 +171,10 @@
 
         /* === Form controls — match brand on focus === */
         .form-control:focus, .form-select:focus, .form-check-input:focus {
-            border-color: #0a0a0a !important;
-            box-shadow: 0 0 0 3px rgba(10,10,10,.10) !important;
+            border-color: #1b3a6b !important;
+            box-shadow: 0 0 0 3px rgba(27, 58, 107,.10) !important;
         }
-        .form-check-input:checked { background-color: #0a0a0a !important; border-color: #0a0a0a !important; }
+        .form-check-input:checked { background-color: #1b3a6b !important; border-color: #1b3a6b !important; }
 
         /* Card defaults — softer, modern */
         .card {
@@ -194,13 +194,13 @@
         .card.card-primary > .card-header {
             background: #fff !important;
             color: #0f172a !important;
-            border-top: 3px solid #0a0a0a;
+            border-top: 3px solid #1b3a6b;
         }
         .card.card-primary > .card-header .card-title { color: #0f172a !important; }
         .card.card-warning > .card-header {
             background: #fff !important;
             color: #0f172a !important;
-            border-top: 3px solid #0a0a0a;
+            border-top: 3px solid #1b3a6b;
         }
 
         /* === Header / Navbar polish === */
@@ -213,7 +213,7 @@
             font-weight: 500;
             transition: color .15s ease;
         }
-        .app-header .navbar-nav .nav-link:hover { color: #0a0a0a; }
+        .app-header .navbar-nav .nav-link:hover { color: #1b3a6b; }
         .app-header .navbar-nav .nav-link.brand-toggle i { font-size: 1.25rem; }
 
         /* User chip (replaces noisy AdminLTE user-menu) */
@@ -230,7 +230,7 @@
         .nav-user-chip .avatar {
             width: 32px; height: 32px;
             border-radius: 50%;
-            background: #0a0a0a;
+            background: #1b3a6b;
             color: #fff;
             font-weight: 700;
             font-size: 13px;
@@ -257,14 +257,14 @@
         .user-dropdown .dropdown-header .email { font-size: 12px; color: #6b7280; }
         .user-dropdown .dropdown-item { padding: 8px 16px; font-size: 13.5px; color: #374151; }
         .user-dropdown .dropdown-item i { width: 18px; color: #6b7280; }
-        .user-dropdown .dropdown-item:hover { background: #f8faff; color: #0a0a0a; }
-        .user-dropdown .dropdown-item:hover i { color: #0a0a0a; }
+        .user-dropdown .dropdown-item:hover { background: #f8faff; color: #1b3a6b; }
+        .user-dropdown .dropdown-item:hover i { color: #1b3a6b; }
         .user-dropdown .dropdown-item.danger:hover { background: #fef2f2; color: #b91c1c; }
         .user-dropdown .dropdown-item.danger:hover i { color: #b91c1c; }
 
         /* === Sidebar — JobGader brand (deep dark with subtle accent glows) === */
         .app-sidebar.bg-body-secondary {
-            background: linear-gradient(180deg, #0a0a0a 0%, #111111 50%, #0a0a0a 100%) !important;
+            background: linear-gradient(180deg, #1b3a6b 0%, #111111 50%, #1b3a6b 100%) !important;
             border-right: 1px solid rgba(255,255,255,.06);
             position: relative;
         }
@@ -303,7 +303,7 @@
             width: 40px; height: 40px;
             border-radius: 11px;
             background: #fff;
-            color: #0a0a0a;
+            color: #1b3a6b;
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -349,12 +349,12 @@
         .sidebar-menu .nav-link i { color: inherit !important; }
         .sidebar-menu .nav-link.active {
             background: #fff !important;
-            color: #0a0a0a !important;
+            color: #1b3a6b !important;
             box-shadow: 0 8px 22px rgba(0,0,0,.30);
             font-weight: 700;
         }
         .sidebar-menu .nav-link.active i,
-        .sidebar-menu .nav-link.active p { color: #0a0a0a !important; }
+        .sidebar-menu .nav-link.active p { color: #1b3a6b !important; }
         .sidebar-menu .nav-link:hover:not(.active) {
             background: rgba(255,255,255,.06);
             color: #fff !important;
@@ -398,15 +398,15 @@
             color: #6b7280;
             padding: 12px 20px;
         }
-        .app-footer a { color: #0a0a0a; font-weight: 600; }
+        .app-footer a { color: #1b3a6b; font-weight: 600; }
 
         /* === Generic page polish — common patterns reused across admin pages === */
         h1, h2, h3 { color: #0f172a; }
-        a { color: #0a0a0a; }
-        a:hover { color: #1a1a1a; }
-        .text-primary { color: #0a0a0a !important; }
-        .bg-primary { background-color: #0a0a0a !important; }
-        .border-primary { border-color: #0a0a0a !important; }
+        a { color: #1b3a6b; }
+        a:hover { color: #16305a; }
+        .text-primary { color: #1b3a6b !important; }
+        .bg-primary { background-color: #1b3a6b !important; }
+        .border-primary { border-color: #1b3a6b !important; }
 
         /* Match public site — cap content area at 1800px on desktop */
         @media (min-width: 1200px) {
