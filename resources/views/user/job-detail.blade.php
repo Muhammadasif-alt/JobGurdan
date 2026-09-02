@@ -902,16 +902,32 @@
     $employmentType = $typeMap[$rawType] ?? 'FULL_TIME';
 
     /*
-     * Google's JobPosting guidelines expect the page to be a single, real
-     * opening. When Apply hands off to a job-board search instead, emitting
-     * JobPosting would misdescribe the page, so the markup is skipped — the
-     * listing still renders and still applies through normally.
+     * Google's JobPosting guidelines expect the page to describe a single, real
+     * opening. Apply links fall into two shapes:
+     *
+     *   - a job-board *search* ("all truck driver jobs") — the page is a
+     *     round-up, not one vacancy, so the markup is skipped;
+     *   - a job-board *permalink* to one posting — the page does describe a
+     *     single opening, so the markup stays.
+     *
+     * Anything pointing straight at an employer's own site is a single opening
+     * by definition. The listing renders and applies through either way.
      */
     $aggregatorHosts = ['indeed.com', 'ziprecruiter.com', 'glassdoor.com', 'linkedin.com', 'monster.com', 'simplyhired.com'];
-    $applyHost = $job->application_url ? strtolower(parse_url($job->application_url, PHP_URL_HOST) ?? '') : '';
-    $linksToAggregator = collect($aggregatorHosts)->contains(fn ($host) => str_contains($applyHost, $host));
+    $applyUrl = (string) $job->application_url;
+    $applyHost = $applyUrl !== '' ? strtolower(parse_url($applyUrl, PHP_URL_HOST) ?? '') : '';
+    $onAggregator = collect($aggregatorHosts)->contains(fn ($host) => str_contains($applyHost, $host));
+
+    // Permalink markers used by the boards above for one specific vacancy.
+    // Note "?jk="/"&jk=" rather than a bare "jk=": Indeed's search pages carry a
+    // "vjk=" preview parameter that would otherwise look like a permalink.
+    $singlePostingMarkers = ['/viewjob', '?jk=', '&jk=', '/jobs/view/', 'currentjobid=', '/job-listing/'];
+    $lowerApplyUrl = strtolower($applyUrl);
+    $isSinglePosting = collect($singlePostingMarkers)->contains(fn ($marker) => str_contains($lowerApplyUrl, $marker));
+
+    $linksToAggregatorSearch = $onAggregator && ! $isSinglePosting;
 @endphp
-@unless ($linksToAggregator)
+@unless ($linksToAggregatorSearch)
 <script type="application/ld+json">
 {
     "@@context": "https://schema.org",
