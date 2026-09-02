@@ -54,6 +54,13 @@ class UserJobController extends Controller
                     ->value('c'),
                 'total_categories' => Category::count(),
                 'total_locations' => Location::count(),
+                // Distinct countries, not location rows — "London" and "United Kingdom"
+                // are two locations but one country.
+                'total_countries' => DB::table('locations')
+                    ->whereNotNull('country')
+                    ->where('country', '!=', '')
+                    ->distinct()
+                    ->count('country'),
                 'total_companies' => Advertiser::count(),
             ];
         });

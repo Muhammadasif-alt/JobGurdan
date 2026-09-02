@@ -1,9 +1,9 @@
 @extends('user.layouts.master')
-@section('title', 'JobGader | Find Your Next Job — Apply Free, Hiring Now')
-@section('meta_description', 'Search 230,000+ verified jobs in the USA. Healthcare, IT, retail, logistics & more. Free to apply, new openings daily across all 50 states — find your next career on JobGader.')
-@section('meta_keywords', 'jobs in usa, job search usa, american jobs, hiring near me, employment usa, careers, job listings, remote jobs usa, work from home jobs, healthcare jobs, IT jobs, full-time jobs, part-time jobs, apply free')
-@section('og_title', 'JobGader | Find Your Next Job — Apply Free, Hiring Now')
-@section('og_description', 'Search 230,000+ verified jobs in the USA. Apply free across healthcare, IT, retail, logistics and more — your next career move starts here.')
+@section('title', 'JobGader | Jobs with Visa Sponsorship — USA, UK & Pakistan')
+@section('meta_description', 'Verified jobs across the USA, UK and Pakistan, including roles that sponsor foreign workers. Plus honest guides on which visa routes are actually open. Free to apply, no account needed.')
+@section('meta_keywords', 'jobs with visa sponsorship, jobs in usa, jobs in uk, jobs in pakistan, visa sponsorship jobs, H-2B visa jobs, EB-3 visa jobs, work abroad, job search, apply free, jobs for foreigners')
+@section('og_title', 'JobGader | Jobs with Visa Sponsorship — USA, UK & Pakistan')
+@section('og_description', 'Verified jobs across the USA, UK and Pakistan, including visa-sponsored roles — plus honest guides on which visa routes are open. Free to apply.')
 @section('og_image', asset('public/user/images/home-background-03.jpg'))
 @section('canonical', url('/'))
 
@@ -11,7 +11,7 @@
     {{-- Twitter card --}}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="JobGader — Find Verified Jobs Across All 50 States">
-    <meta name="twitter:description" content="Search 230,000+ verified job listings across all 50 U.S. states. Free for job seekers.">
+    <meta name="twitter:description" content="Verified jobs across the USA, UK and Pakistan, including visa-sponsored roles. Free for job seekers.">
     <meta name="twitter:image" content="{{ asset('public/user/images/home-background-03.jpg') }}">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="author" content="JobGader">
@@ -26,7 +26,7 @@
         "@@type": "WebSite",
         "name": "JobGader",
         "url": "{{ url('/') }}",
-        "description": "America's trusted job search platform connecting verified employers with millions of qualified job seekers across all 50 U.S. states.",
+        "description": "A job search platform connecting verified employers with job seekers across the USA, UK and Pakistan, with a focus on roles open to foreign workers.",
         "potentialAction": {
             "@@type": "SearchAction",
             "target": {
@@ -47,7 +47,7 @@
         "alternateName": "JobsinUSA",
         "url": "{{ url('/') }}",
         "logo": "{{ asset('public/user/images/JobGader.png') }}",
-        "description": "Verified online employment platform connecting American job seekers with hiring employers across all 50 U.S. states.",
+        "description": "Verified online employment platform connecting job seekers with hiring employers across the USA, UK and Pakistan.",
         "areaServed": {
             "@@type": "Country",
             "name": "United States"
@@ -80,7 +80,7 @@
             {
                 "@@type": "Question",
                 "name": "Which states and industries are covered?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "We cover all 50 U.S. states and a wide range of industries — healthcare, IT, construction, retail, hospitality, transport, finance, and many more." }
+                "acceptedAnswer": { "@@type": "Answer", "text": "We cover the USA, UK and Pakistan across a wide range of industries — healthcare, IT, construction, retail, hospitality, transport, cleaning and more — including roles that sponsor foreign workers." }
             },
             {
                 "@@type": "Question",
@@ -1016,14 +1016,14 @@
                     <div class="utf-banner-headline-text-part">
                         <span class="hero-eyebrow" data-aos="fade-down" data-aos-duration="600">
                             <span class="pulse-dot"></span>
-                            Now hiring across all 50 U.S. states
+                            New jobs and visa guides added every week
                         </span>
                         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                            Land Your Next Job in the USA &mdash;
-                            <span class="accent">Visa Sponsorship Available</span>
+                            Find Jobs Abroad
+                            <span class="accent">With Visa Sponsorship</span>
                         </h1>
                         <span data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">
-                            Browse verified openings from U.S. employers, including roles that sponsor foreign workers on H-2B and EB-3 visas. Free to apply, no account needed, new jobs added every week.
+                            Verified openings across the USA, UK and Pakistan &mdash; plus straight answers on which visa routes are actually open, and which ones aren't. Free to apply, no account needed.
                         </span>
                     </div>
 
@@ -1065,7 +1065,8 @@
                         <a class="trending-tag" href="{{ route('jobs.search') }}?position=Visa+Sponsorship">Visa Sponsorship</a>
                         <a class="trending-tag" href="{{ route('jobs.search') }}?position=Truck+Driver">Truck Driver</a>
                         <a class="trending-tag" href="{{ route('jobs.search') }}?position=Hotel">Hotel Jobs</a>
-                        <a class="trending-tag" href="{{ route('jobs.search') }}?position=Warehouse">Warehouse</a>
+                        <a class="trending-tag" href="{{ route('jobs.search') }}?position=Cleaner">Cleaner</a>
+                        <a class="trending-tag" href="{{ route('jobs.search') }}?position=Developer">Developer</a>
                     </div>
 
                     @php
@@ -1087,8 +1088,8 @@
                             </div>
                         @else
                             <div class="stat" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="700">
-                                <strong>50</strong>
-                                <span>States Covered</span>
+                                <strong>{{ $stats['total_countries'] ?? 3 }}</strong>
+                                <span>Countries Covered</span>
                             </div>
                             <div class="divider"></div>
                             <div class="stat" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="800">
@@ -1951,7 +1952,7 @@
                              onerror="this.onerror=null;this.src='{{ asset('public/user/images/home-background-02.jpg') }}'">
                     </div>
                     <h3>Create Your Account</h3>
-                    <p>Sign up in under a minute and build your professional profile to stand out to top U.S. employers. Add your resume, skills, and job preferences in one place.</p>
+                    <p>Sign up in under a minute and build your professional profile to stand out to hiring employers. Add your resume, skills, and job preferences in one place.</p>
                     <a href="{{ route('register') }}" class="card-cta" aria-label="Register a free JobGader account">
                         Sign Up Free <i class="icon-feather-arrow-right"></i>
                     </a>
@@ -1990,11 +1991,11 @@
                     <span class="step-badge">Step 4</span>
                     <div class="card-image">
                         <img src="{{ asset('public/user/images/callout-2.jpg') }}"
-                             alt="Get hired by trusted U.S. employers across all 50 states"
+                             alt="Get hired by trusted employers across the USA, UK and Pakistan"
                              loading="lazy">
                     </div>
                     <h3>Get Hired Faster</h3>
-                    <p>Connect directly with verified U.S. employers and recruiters. Land your dream job and start your next career chapter — confidently, securely, and 100% free.</p>
+                    <p>Connect directly with verified employers and recruiters, including those open to sponsoring foreign workers. Start your next chapter — confidently, securely, and 100% free.</p>
                     <a href="{{ route('jobs.companies') }}" class="card-cta" aria-label="Browse hiring employers">
                         Top Employers <i class="icon-feather-arrow-right"></i>
                     </a>
@@ -2022,14 +2023,14 @@
                 "@@type": "HowToStep",
                 "position": 1,
                 "name": "Create Your Account",
-                "text": "Sign up in under a minute and build your professional profile to stand out to top U.S. employers. Add your resume, skills, and job preferences.",
+                "text": "Sign up in under a minute and build your professional profile to stand out to hiring employers. Add your resume, skills, and job preferences.",
                 "url": "{{ route('register') }}"
             },
             {
                 "@@type": "HowToStep",
                 "position": 2,
                 "name": "Search Verified Jobs",
-                "text": "Browse thousands of verified job listings across all 50 U.S. states. Use smart filters to find roles that match your skills and location.",
+                "text": "Browse verified job listings across the USA, UK and Pakistan. Use smart filters to find roles that match your skills and location.",
                 "url": "{{ route('jobs.index') }}"
             },
             {
@@ -2043,7 +2044,7 @@
                 "@@type": "HowToStep",
                 "position": 4,
                 "name": "Get Hired Faster",
-                "text": "Connect directly with verified U.S. employers and recruiters. Land your dream job across all 50 U.S. states.",
+                "text": "Connect directly with verified employers and recruiters, including those open to sponsoring foreign workers.",
                 "url": "{{ route('jobs.companies') }}"
             }
         ]
@@ -2717,7 +2718,7 @@
                     </details>
                     <details class="home-faq-item">
                         <summary>Which states and industries are covered?</summary>
-                        <div class="home-faq-answer">We cover all 50 U.S. states and a wide range of industries — healthcare, IT, construction, retail, hospitality, transport, finance, and many more.</div>
+                        <div class="home-faq-answer">We cover the USA, UK and Pakistan across a wide range of industries — healthcare, IT, construction, retail, hospitality, transport, cleaning and more — including roles that sponsor foreign workers.</div>
                     </details>
                     <details class="home-faq-item">
                         <summary>Can I work remotely through JobGader?</summary>
