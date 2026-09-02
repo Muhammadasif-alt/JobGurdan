@@ -70,42 +70,42 @@
             {
                 "@@type": "Question",
                 "name": "Is it free to search and apply for jobs?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "Yes, browsing and applying for jobs on JobGader is 100% free for job seekers. Just create an account and start applying." }
+                "acceptedAnswer": { "@@type": "Answer", "text": "Yes — searching and applying is completely free, and you do not even need an account. Open any listing and apply straight through. There are no fees, no paywalls and no charges for job seekers, ever." }
             },
             {
                 "@@type": "Question",
-                "name": "How do I get started?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "Click Sign Up, create your free account, complete your profile with your resume and skills, then start exploring thousands of opportunities." }
+                "name": "Do I need to create an account to apply?",
+                "acceptedAnswer": { "@@type": "Answer", "text": "No. Every listing on JobGader can be opened and applied to without signing up. An account is optional and only useful if you want to save roles or come back to them later." }
             },
             {
                 "@@type": "Question",
-                "name": "Which states and industries are covered?",
+                "name": "Which countries and industries do you cover?",
                 "acceptedAnswer": { "@@type": "Answer", "text": "We cover the USA, UK and Pakistan across a wide range of industries — healthcare, IT, construction, retail, hospitality, transport, cleaning and more — including roles that sponsor foreign workers." }
             },
             {
                 "@@type": "Question",
-                "name": "Can I work remotely through JobGader?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "Yes. We have a dedicated section for remote, work-from-home, and hybrid roles. Use the location filter and select Remote to see all matching jobs." }
+                "name": "Do you list jobs with visa sponsorship?",
+                "acceptedAnswer": { "@@type": "Answer", "text": "Yes, and we are honest about which routes are genuinely open. Some, like US truck driving and hospitality on H-2B and EB-3, still sponsor foreign workers. Others, like the UK care worker route, closed to new overseas applicants in July 2025 — our guides say so plainly instead of promising a visa that no longer exists." }
             },
             {
                 "@@type": "Question",
-                "name": "How are employers verified?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "Every employer profile is reviewed by our team before being published. We verify business details and monitor activity to keep the platform safe and trustworthy." }
+                "name": "How do I know a listing is genuine?",
+                "acceptedAnswer": { "@@type": "Answer", "text": "Every listing is added and checked by our team rather than scraped automatically, and each one links through to the employer or the original posting so you can verify it yourself before applying." }
             },
             {
                 "@@type": "Question",
-                "name": "How do I post a job as an employer?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "Register as an employer, choose a posting plan, and submit your listing through your dashboard. It goes live once our team approves it." }
+                "name": "Do I ever have to pay a recruiter for sponsorship?",
+                "acceptedAnswer": { "@@type": "Answer", "text": "No. Charging a worker for visa sponsorship is illegal in both the US and the UK. If a recruiter asks for an upfront fee to guarantee a job or a visa, treat it as a scam and walk away." }
             },
             {
                 "@@type": "Question",
-                "name": "Can I get email alerts for new jobs?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "Yes — set up job alerts based on keywords, location, and category. We'll email you whenever matching positions are posted." }
+                "name": "How often are new jobs and guides added?",
+                "acceptedAnswer": { "@@type": "Answer", "text": "New listings and visa guides go up every week. The newest openings always appear at the top of the home page and on the jobs board." }
             },
             {
                 "@@type": "Question",
-                "name": "What if I need help with my application?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "Visit our Contact page and our support team will get back to you within 24 hours." }
+                "name": "What if I need help with an application?",
+                "acceptedAnswer": { "@@type": "Answer", "text": "Visit our Contact page and our team will get back to you. We can point you to the right guide, but we are not immigration advisers — always confirm visa rules on the official government site." }
             }
         ]
     }
@@ -1938,8 +1938,8 @@
         <div class="container">
             <header class="process-head" data-aos="fade-up">
                 <span class="eyebrow">How It Works</span>
-                <h2 id="process-heading">Our <span class="accent">Step-By-Step</span> Job Search Process</h2>
-                <p>From signing up to landing your next role, we guide you through every step with clarity, verified employers, and full support. Whether you're entering the workforce or making your next career move, finding jobs in the USA has never been easier or more transparent.</p>
+                <h2 id="process-heading">From Search to <span class="accent">Applied</span> in Four Steps</h2>
+                <p>No sign-up wall, no fees, no guessing. Pick a country, read what the visa route actually allows, then apply straight through to the employer or the original posting.</p>
             </header>
 
             <div class="process-grid">
@@ -1947,14 +1947,14 @@
                     <span class="step-badge">Step 1</span>
                     <div class="card-image">
                         <img src="{{ asset('public/user/images/home-background-02.webp') }}"
-                             alt="Create your free JobGader account in under a minute"
+                             alt="Choose jobs in the USA, UK or Pakistan on JobGader"
                              loading="lazy"
                              onerror="this.onerror=null;this.src='{{ asset('public/user/images/home-background-02.jpg') }}'">
                     </div>
-                    <h3>Create Your Account</h3>
-                    <p>Sign up in under a minute and build your professional profile to stand out to hiring employers. Add your resume, skills, and job preferences in one place.</p>
-                    <a href="{{ route('register') }}" class="card-cta" aria-label="Register a free JobGader account">
-                        Sign Up Free <i class="icon-feather-arrow-right"></i>
+                    <h3>Pick Your Country</h3>
+                    <p>We list openings across the USA, UK and Pakistan &mdash; from general labour and hospitality to skilled trades and senior engineering. Start with where you want to work.</p>
+                    <a href="{{ route('jobs.index') }}" class="card-cta" aria-label="Browse jobs by country">
+                        Browse Jobs <i class="icon-feather-arrow-right"></i>
                     </a>
                 </article>
 
@@ -1962,14 +1962,14 @@
                     <span class="step-badge">Step 2</span>
                     <div class="card-image">
                         <img src="{{ asset('public/user/images/home-background-03.webp') }}"
-                             alt="Search verified U.S. jobs across all 50 states"
+                             alt="Read the visa sponsorship guide for your role before applying"
                              loading="lazy"
                              onerror="this.onerror=null;this.src='{{ asset('public/user/images/home-background-03.jpg') }}'">
                     </div>
-                    <h3>Search Verified Jobs</h3>
-                    <p>Browse {{ number_format($stats['total_jobs'] ?? 230000) }}+ verified job listings across healthcare, IT, logistics, retail, and more. Use smart filters by location, salary, and category to find your match.</p>
-                    <a href="{{ route('jobs.index') }}" class="card-cta" aria-label="Search jobs in the USA">
-                        Browse All Jobs <i class="icon-feather-arrow-right"></i>
+                    <h3>Check the Visa Route</h3>
+                    <p>Every sector has its own rules. Our guides spell out which routes are open, which closed, what the pay really is, and how to spot a recruiter selling a visa that does not exist.</p>
+                    <a href="{{ route('blog.index') }}" class="card-cta" aria-label="Read the visa sponsorship guides">
+                        Read the Guides <i class="icon-feather-arrow-right"></i>
                     </a>
                 </article>
 
@@ -1977,13 +1977,13 @@
                     <span class="step-badge">Step 3</span>
                     <div class="card-image">
                         <img src="{{ asset('public/user/images/callout-1.jpg') }}"
-                             alt="Apply to verified U.S. jobs with one click"
+                             alt="Open a listing to see pay, requirements and shift details"
                              loading="lazy">
                     </div>
-                    <h3>Apply with Confidence</h3>
-                    <p>Open the role that fits you best and submit your application instantly. Track every response, save favorites, and stay organized in your personalized dashboard.</p>
-                    <a href="{{ route('jobs.index') }}" class="card-cta" aria-label="View jobs and apply">
-                        View &amp; Apply <i class="icon-feather-arrow-right"></i>
+                    <h3>Open the Listing</h3>
+                    <p>Each listing sets out the pay range, requirements, shift pattern and sponsorship status up front &mdash; so you know whether you qualify before you spend time on an application.</p>
+                    <a href="{{ route('jobs.index') }}" class="card-cta" aria-label="View the latest job listings">
+                        See Latest Jobs <i class="icon-feather-arrow-right"></i>
                     </a>
                 </article>
 
@@ -1994,17 +1994,17 @@
                              alt="Get hired by trusted employers across the USA, UK and Pakistan"
                              loading="lazy">
                     </div>
-                    <h3>Get Hired Faster</h3>
-                    <p>Connect directly with verified employers and recruiters, including those open to sponsoring foreign workers. Start your next chapter — confidently, securely, and 100% free.</p>
+                    <h3>Apply Direct, Free</h3>
+                    <p>Apply straight through to the employer or the original posting. No account, no fee, no middleman &mdash; and never pay anyone who asks for money to guarantee a job or a visa.</p>
                     <a href="{{ route('jobs.companies') }}" class="card-cta" aria-label="Browse hiring employers">
-                        Top Employers <i class="icon-feather-arrow-right"></i>
+                        Hiring Employers <i class="icon-feather-arrow-right"></i>
                     </a>
                 </article>
             </div>
 
             <div class="process-cta-row">
-                <a href="{{ route('register') }}">
-                    Get Started Free <i class="icon-feather-arrow-right"></i>
+                <a href="{{ route('jobs.index') }}">
+                    Browse All Jobs <i class="icon-feather-arrow-right"></i>
                 </a>
             </div>
         </div>
@@ -2023,14 +2023,14 @@
                 "@@type": "HowToStep",
                 "position": 1,
                 "name": "Create Your Account",
-                "text": "Sign up in under a minute and build your professional profile to stand out to hiring employers. Add your resume, skills, and job preferences.",
+                "text": "Pick your country. We list openings across the USA, UK and Pakistan, from general labour and hospitality to skilled trades and senior engineering.",
                 "url": "{{ route('register') }}"
             },
             {
                 "@@type": "HowToStep",
                 "position": 2,
                 "name": "Search Verified Jobs",
-                "text": "Browse verified job listings across the USA, UK and Pakistan. Use smart filters to find roles that match your skills and location.",
+                "text": "Check the visa route. Our guides spell out which sponsorship routes are open, which are closed, and what the pay really is.",
                 "url": "{{ route('jobs.index') }}"
             },
             {
@@ -2044,7 +2044,7 @@
                 "@@type": "HowToStep",
                 "position": 4,
                 "name": "Get Hired Faster",
-                "text": "Connect directly with verified employers and recruiters, including those open to sponsoring foreign workers.",
+                "text": "Apply direct and free. Applications go straight to the employer or the original posting, with no account and no fee.",
                 "url": "{{ route('jobs.companies') }}"
             }
         ]
@@ -2058,7 +2058,7 @@
             <header class="why-head">
                 <span class="eyebrow">Why JobGader</span>
                 <h2 id="why-heading">How <span class="accent">JobGader</span> is Different</h2>
-                <p>The smart way to find work in America &mdash; verified employers, hand-picked listings, and zero spam between you and your next role.</p>
+                <p>Most job sites tell you what you want to hear about visas. We tell you what the rules actually say &mdash; then get out of the way so you can apply.</p>
             </header>
 
             <div class="why-grid">
@@ -2066,37 +2066,37 @@
                     <article class="why-item" itemprop="hasOfferCatalog">
                         <span class="why-check"><i class="icon-feather-check"></i></span>
                         <div>
-                            <h3>Verified U.S. Employers Only</h3>
-                            <p>Every employer is reviewed by our team. No scams, no ghost listings, no recycled job ads — just real openings from real American companies.</p>
+                            <h3>Honest Visa Guidance</h3>
+                            <p>When a route closes, we say so. The UK care worker visa shut to new overseas applicants in July 2025 &mdash; our guide leads with that instead of selling you a visa that no longer exists.</p>
                         </div>
                     </article>
 
                     <article class="why-item">
                         <span class="why-check"><i class="icon-feather-check"></i></span>
                         <div>
-                            <h3>Search 50 States in One Place</h3>
-                            <p>From Texas to New York, Florida to California &mdash; browse live openings nationwide. Filter by city, ZIP, salary or job type and apply with one click.</p>
+                            <h3>Three Countries, One Board</h3>
+                            <p>USA, UK and Pakistan in one place &mdash; truck driving, hospitality, care, construction, cleaning and software. Filter by country, salary or category and apply in a click.</p>
                         </div>
                     </article>
 
                     <article class="why-item">
                         <span class="why-check"><i class="icon-feather-check"></i></span>
                         <div>
-                            <h3>Free for Job Seekers, Always</h3>
-                            <p>No subscription, no resume paywalls, no hidden fees. Create a free profile, save your favourites and apply to as many roles as you want — completely free.</p>
+                            <h3>No Account, No Fee, Ever</h3>
+                            <p>You do not need to sign up to apply. No subscription, no resume paywall, no hidden charges &mdash; and we will never ask a job seeker for money.</p>
                         </div>
                     </article>
 
                     <article class="why-item">
                         <span class="why-check"><i class="icon-feather-check"></i></span>
                         <div>
-                            <h3>Smart Matches &amp; Daily Alerts</h3>
-                            <p>Tell us what you're looking for once and we'll surface fresh, matching roles every day. Spend less time searching, more time interviewing.</p>
+                            <h3>Real Pay Figures, Not Guesses</h3>
+                            <p>Every listing carries a researched pay range with its source explained &mdash; hourly rates, annual bands and what the number actually means once tax and shift premiums are counted.</p>
                         </div>
                     </article>
 
-                    <a href="{{ route('register') }}" class="why-cta">
-                        <span>Get Started — It's Free</span>
+                    <a href="{{ route('jobs.index') }}" class="why-cta">
+                        <span>See Open Jobs</span>
                         <i class="icon-material-outline-arrow-right-alt"></i>
                     </a>
                 </div>
@@ -2106,21 +2106,21 @@
                     <div class="why-visual-blob blob-2"></div>
                     <div class="why-visual-stage">
                         <img src="{{ asset('public/user/images/hero-diverse-professionals.webp') }}"
-                             alt="Job seeker browsing verified U.S. job openings on JobGader"
+                             alt="Job seeker browsing visa sponsorship job openings on JobGader"
                              loading="lazy"
                              onerror="this.onerror=null;this.src='{{ asset('public/user/images/hero-diverse-professionals.jpg') }}'">
                         <div class="why-floating why-fl-1">
                             <div class="ico"><i class="icon-feather-shield"></i></div>
                             <div>
-                                <strong>100% Verified</strong>
-                                <span>Every job, every employer</span>
+                                <strong>Hand-Checked</strong>
+                                <span>Every listing, before it goes live</span>
                             </div>
                         </div>
                         <div class="why-floating why-fl-2">
                             <div class="ico"><i class="icon-feather-zap"></i></div>
                             <div>
-                                <strong>1-Click Apply</strong>
-                                <span>Save hours every week</span>
+                                <strong>No Sign-Up</strong>
+                                <span>Apply without an account</span>
                             </div>
                         </div>
                     </div>
@@ -2701,7 +2701,7 @@
                 <div class="faq-left">
                     <span class="eyebrow">FAQ</span>
                     <h2>Got questions? We've got answers.</h2>
-                    <p>Everything you need to know about finding your next job on JobGader. Can't find what you're looking for? Our team is one click away.</p>
+                    <p>The honest version — what applying costs, which visa routes are actually open, and how to spot a recruiter who is wasting your time. Still stuck? Our team is one click away.</p>
                     <a href="{{ route('pages.contact') }}" class="contact-btn">
                         Contact Support <i class="icon-feather-arrow-right"></i>
                     </a>
@@ -2710,35 +2710,35 @@
                 <div class="faq-list">
                     <details class="home-faq-item">
                         <summary>Is it free to search and apply for jobs?</summary>
-                        <div class="home-faq-answer">Yes, browsing and applying for jobs on JobGader is 100% free for job seekers. Just create an account and start applying.</div>
+                        <div class="home-faq-answer">Yes — searching and applying is completely free, and you do not even need an account. Open any listing and apply straight through. There are no fees, no paywalls and no charges for job seekers, ever.</div>
                     </details>
                     <details class="home-faq-item">
-                        <summary>How do I get started?</summary>
-                        <div class="home-faq-answer">Click "Sign Up", create your free account, complete your profile with your resume and skills, then start exploring thousands of opportunities.</div>
+                        <summary>Do I need to create an account to apply?</summary>
+                        <div class="home-faq-answer">No. Every listing on JobGader can be opened and applied to without signing up. An account is optional and only useful if you want to save roles or come back to them later.</div>
                     </details>
                     <details class="home-faq-item">
-                        <summary>Which states and industries are covered?</summary>
+                        <summary>Which countries and industries do you cover?</summary>
                         <div class="home-faq-answer">We cover the USA, UK and Pakistan across a wide range of industries — healthcare, IT, construction, retail, hospitality, transport, cleaning and more — including roles that sponsor foreign workers.</div>
                     </details>
                     <details class="home-faq-item">
-                        <summary>Can I work remotely through JobGader?</summary>
-                        <div class="home-faq-answer">Yes. We have a dedicated section for remote, work-from-home, and hybrid roles. Use the location filter and select "Remote" to see all matching jobs.</div>
+                        <summary>Do you list jobs with visa sponsorship?</summary>
+                        <div class="home-faq-answer">Yes, and we are honest about which routes are genuinely open. Some, like US truck driving and hospitality on H-2B and EB-3, still sponsor foreign workers. Others, like the UK care worker route, closed to new overseas applicants in July 2025 — our guides say so plainly instead of promising a visa that no longer exists.</div>
                     </details>
                     <details class="home-faq-item">
-                        <summary>How are employers verified?</summary>
-                        <div class="home-faq-answer">Every employer profile is reviewed by our team before being published. We verify business details and monitor activity to keep the platform safe and trustworthy.</div>
+                        <summary>How do I know a listing is genuine?</summary>
+                        <div class="home-faq-answer">Every listing is added and checked by our team rather than scraped automatically, and each one links through to the employer or the original posting so you can verify it yourself before applying.</div>
                     </details>
                     <details class="home-faq-item">
-                        <summary>How do I post a job as an employer?</summary>
-                        <div class="home-faq-answer">Register as an employer, choose a posting plan, and submit your listing through your dashboard. It goes live once our team approves it.</div>
+                        <summary>Do I ever have to pay a recruiter for sponsorship?</summary>
+                        <div class="home-faq-answer">No. Charging a worker for visa sponsorship is illegal in both the US and the UK. If a recruiter asks for an upfront fee to guarantee a job or a visa, treat it as a scam and walk away.</div>
                     </details>
                     <details class="home-faq-item">
-                        <summary>Can I get email alerts for new jobs?</summary>
-                        <div class="home-faq-answer">Yes — set up job alerts based on keywords, location, and category. We'll email you whenever matching positions are posted.</div>
+                        <summary>How often are new jobs and guides added?</summary>
+                        <div class="home-faq-answer">New listings and visa guides go up every week. The newest openings always appear at the top of the home page and on the jobs board.</div>
                     </details>
                     <details class="home-faq-item">
-                        <summary>What if I need help with my application?</summary>
-                        <div class="home-faq-answer">Visit our <a href="{{ route('pages.contact') }}">Contact page</a> and our support team will get back to you within 24 hours.</div>
+                        <summary>What if I need help with an application?</summary>
+                        <div class="home-faq-answer">Visit our Contact page and our team will get back to you. We can point you to the right guide, but we are not immigration advisers — always confirm visa rules on the official government site.</div>
                     </details>
                 </div>
             </div>
