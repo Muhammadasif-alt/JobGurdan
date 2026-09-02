@@ -1,3 +1,11 @@
+@php
+    /** Cache-busting stamp so CSS changes reach browsers without a hard refresh. */
+    $cssVersion = function (string $path): string {
+        $file = public_path($path);
+
+        return file_exists($file) ? (string) filemtime($file) : (string) config('app.asset_version', '1');
+    };
+@endphp
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,7 +57,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('public/user/css/bootstrap-grid.css') }}">
     <link rel="stylesheet" href="{{ asset('public/user/css/icons.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/user/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/user/css/style.css') }}?v={{ $cssVersion('user/css/style.css') }}">
     <style>
         @media (min-width: 1200px) {
             .container { max-width: 1800px !important; }
@@ -296,7 +304,7 @@
     {{-- Bootstrap Icons — used across auth, seeker, admin. Lazy-loaded; icons appear when CSS resolves. --}}
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"></noscript>
-    <link rel="stylesheet" href="{{ asset('public/user/css/site-dark.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/user/css/site-dark.css') }}?v={{ $cssVersion('user/css/site-dark.css') }}">
     {{-- Pre-apply theme BEFORE body paints (no flash) --}}
     <script>
         (function () {
