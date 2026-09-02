@@ -1,6 +1,6 @@
 @php
-    /** Cache-busting stamp so CSS changes reach browsers without a hard refresh. */
-    $cssVersion = function (string $path): string {
+    /** Cache-busting stamp so asset changes reach browsers without a hard refresh. */
+    $assetVersion = function (string $path): string {
         $file = public_path($path);
 
         return file_exists($file) ? (string) filemtime($file) : (string) config('app.asset_version', '1');
@@ -57,7 +57,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('public/user/css/bootstrap-grid.css') }}">
     <link rel="stylesheet" href="{{ asset('public/user/css/icons.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/user/css/style.css') }}?v={{ $cssVersion('user/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/user/css/style.css') }}?v={{ $assetVersion('user/css/style.css') }}">
     <style>
         @media (min-width: 1200px) {
             .container { max-width: 1800px !important; }
@@ -304,7 +304,7 @@
     {{-- Bootstrap Icons — used across auth, seeker, admin. Lazy-loaded; icons appear when CSS resolves. --}}
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"></noscript>
-    <link rel="stylesheet" href="{{ asset('public/user/css/site-dark.css') }}?v={{ $cssVersion('user/css/site-dark.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/user/css/site-dark.css') }}?v={{ $assetVersion('user/css/site-dark.css') }}">
     {{-- Pre-apply theme BEFORE body paints (no flash) --}}
     <script>
         (function () {
@@ -345,8 +345,8 @@
                     <div class="utf-left-side">
                         <div id="logo">
                             <a href="/">
-                                <img class="logo-light" src="{{ asset('public/user/images/jobgader-navbar.svg') }}" alt="JobGader" fetchpriority="high" decoding="async" width="120" height="40">
-                                <img class="logo-dark"  src="{{ asset('public/user/images/jobgader-navbar-dark.svg') }}" alt="JobGader" fetchpriority="high" decoding="async" width="120" height="40">
+                                <img class="logo-light" src="{{ asset('public/user/images/jobgader-navbar.svg') }}?v={{ $assetVersion('user/images/jobgader-navbar.svg') }}" alt="JobGader" fetchpriority="high" decoding="async" width="120" height="40">
+                                <img class="logo-dark"  src="{{ asset('public/user/images/jobgader-navbar-dark.svg') }}?v={{ $assetVersion('user/images/jobgader-navbar-dark.svg') }}" alt="JobGader" fetchpriority="high" decoding="async" width="120" height="40">
                             </a>
                         </div>
                         <nav id="navigation">
