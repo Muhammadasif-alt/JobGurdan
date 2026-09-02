@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
-@section('title', $job->position . ' at ' . ($job->advertiser->name ?? 'Top Employer') . ' — ' . ($job->location->name ?? 'USA') . ' | Jobs in USA')
+@section('title', $job->position . ' at ' . ($job->advertiser->name ?? 'Top Employer') . ' — ' . ($job->location->name ?? 'USA') . ' | JobGader')
 @section('meta_description', $job->meta_description ?: ('Apply for ' . $job->position . ' at ' . ($job->advertiser->name ?? 'top employer') . ' in ' . ($job->location->name ?? 'USA') . '. ' . \Illuminate\Support\Str::limit(strip_tags($job->description ?? ''), 130)))
 @section('og_title', $job->position . ' at ' . ($job->advertiser->name ?? 'Top Employer'))
-@section('og_description', \Illuminate\Support\Str::limit(strip_tags($job->description ?? 'Apply now on Jobs in USA.'), 160))
+@section('og_description', \Illuminate\Support\Str::limit(strip_tags($job->description ?? 'Apply now on JobGader.'), 160))
 @section('canonical', route('jobs.show', \Illuminate\Support\Str::slug($job->position . '-' . ($job->location->name ?? ''))))
 
 @push('meta')
@@ -731,7 +731,7 @@
                                 <span class="ico"><i class="icon-feather-check-circle"></i></span>
                                 <div>
                                     <strong>Verified Employer</strong>
-                                    <span>Every company on Jobs in USA is reviewed by our trust &amp; safety team.</span>
+                                    <span>Every company on JobGader is reviewed by our trust &amp; safety team.</span>
                                 </div>
                             </li>
                             <li>
@@ -909,7 +909,7 @@
     "description": {!! json_encode($jobDescriptionHtml) !!},
     "identifier": {
         "@@type": "PropertyValue",
-        "name": {!! json_encode($job->advertiser->name ?? 'Jobs in USA') !!},
+        "name": {!! json_encode($job->advertiser->name ?? 'JobGader') !!},
         "value": {!! json_encode((string) $job->id) !!}
     },
     "datePosted": {!! json_encode($job->created_at?->toIso8601String() ?? now()->toIso8601String()) !!},
@@ -918,7 +918,7 @@
     "url": {!! json_encode(url()->current()) !!},
     "hiringOrganization": {
         "@@type": "Organization",
-        "name": {!! json_encode($job->advertiser->name ?? 'Jobs in USA') !!},
+        "name": {!! json_encode($job->advertiser->name ?? 'JobGader') !!},
         "sameAs": {!! json_encode(url('/companies/' . ($job->advertiser->id ?? ''))) !!}@if($job->advertiser && $job->advertiser->logo),
         "logo": {!! json_encode(asset('public/storage/' . $job->advertiser->logo)) !!}@endif
     },

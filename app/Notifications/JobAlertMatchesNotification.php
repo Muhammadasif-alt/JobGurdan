@@ -57,7 +57,7 @@ class JobAlertMatchesNotification extends Notification
                 'location' => $this->alert->location->name ?? null,
             ])))
             ->line('You can [pause or edit this alert]('.route('seeker.job-alerts.index').') anytime.')
-            ->salutation('Happy hunting, The Jobs in USA Team');
+            ->salutation('Happy hunting, The JobGader Team');
     }
 
     public function toArray(object $notifiable): array

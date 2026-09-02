@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
-@section('title', 'Terms of Service — Jobs in USA')
-@section('meta_description', 'Read the Jobs in USA Terms of Service covering account registration, acceptable use, employer and job seeker responsibilities, intellectual property, and limitation of liability.')
+@section('title', 'Terms of Service — JobGader')
+@section('meta_description', 'Read the JobGader Terms of Service covering account registration, acceptable use, employer and job seeker responsibilities, intellectual property, and limitation of liability.')
 @section('content')
 
 <style>
@@ -103,7 +103,7 @@
             <h1>Terms of Service</h1>
             <span class="updated">Last updated: {{ now()->format('F j, Y') }}</span>
 
-            <p>Welcome to Jobs in USA. These Terms of Service ("Terms") govern your access to and use of our website, mobile applications, and related services (the "Service"). By accessing or using the Service, you agree to be bound by these Terms. If you do not agree, please do not use the Service.</p>
+            <p>Welcome to JobGader. These Terms of Service ("Terms") govern your access to and use of our website, mobile applications, and related services (the "Service"). By accessing or using the Service, you agree to be bound by these Terms. If you do not agree, please do not use the Service.</p>
 
             <div class="legal-toc">
                 <h4>Contents</h4>
@@ -185,19 +185,19 @@
 
             <h2 id="content">7. User Content</h2>
             <p>"User Content" means any content you submit to the Service, including resumes, job listings, profile information, comments, and messages.</p>
-            <p>You retain ownership of your User Content. By submitting User Content, you grant Jobs in USA a worldwide, non-exclusive, royalty-free, sublicensable license to host, store, reproduce, display, and distribute that content solely for the purpose of operating and improving the Service.</p>
+            <p>You retain ownership of your User Content. By submitting User Content, you grant JobGader a worldwide, non-exclusive, royalty-free, sublicensable license to host, store, reproduce, display, and distribute that content solely for the purpose of operating and improving the Service.</p>
             <p>You represent and warrant that you have all rights necessary to grant this license and that your User Content does not violate any third-party rights or these Terms.</p>
             <p>We reserve the right (but have no obligation) to remove or refuse to display any User Content that we believe violates these Terms or is otherwise objectionable.</p>
 
             <h2 id="ip">8. Intellectual Property</h2>
-            <p>The Service, including its design, text, graphics, logos, software, and underlying technology, is owned by Jobs in USA or its licensors and is protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, reverse-engineer, or create derivative works of any part of the Service without our prior written consent.</p>
-            <p>"Jobs in USA" and our logo are trademarks of our company. You may not use them without our prior written permission.</p>
+            <p>The Service, including its design, text, graphics, logos, software, and underlying technology, is owned by JobGader or its licensors and is protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, reverse-engineer, or create derivative works of any part of the Service without our prior written consent.</p>
+            <p>"JobGader" and our logo are trademarks of our company. You may not use them without our prior written permission.</p>
 
             <h2 id="thirdparty">9. Third-Party Links &amp; Services</h2>
             <p>The Service may contain links to third-party websites, applicant tracking systems, or external services. We do not endorse and are not responsible for the content, practices, or policies of any third party. Your interactions with third-party services are governed by their own terms and privacy policies.</p>
 
             <h2 id="disclaimers">10. Disclaimers</h2>
-            <p>The Service is provided <strong>"as is"</strong> and <strong>"as available"</strong> without warranties of any kind, either express or implied. To the maximum extent permitted by law, Jobs in USA disclaims all warranties, including merchantability, fitness for a particular purpose, non-infringement, and accuracy of information.</p>
+            <p>The Service is provided <strong>"as is"</strong> and <strong>"as available"</strong> without warranties of any kind, either express or implied. To the maximum extent permitted by law, JobGader disclaims all warranties, including merchantability, fitness for a particular purpose, non-infringement, and accuracy of information.</p>
             <p>We do not warrant that:</p>
             <ul>
                 <li>The Service will be uninterrupted, timely, secure, or error-free.</li>
@@ -207,12 +207,12 @@
             </ul>
 
             <h2 id="liability">11. Limitation of Liability</h2>
-            <p>To the maximum extent permitted by law, in no event shall Jobs in USA, its officers, directors, employees, or affiliates be liable for any indirect, incidental, special, consequential, or punitive damages, including lost profits, lost data, or business interruption, arising out of or related to your use of the Service.</p>
+            <p>To the maximum extent permitted by law, in no event shall JobGader, its officers, directors, employees, or affiliates be liable for any indirect, incidental, special, consequential, or punitive damages, including lost profits, lost data, or business interruption, arising out of or related to your use of the Service.</p>
             <p>Our total cumulative liability to you for any claim arising from your use of the Service shall not exceed the greater of (a) the amount you paid us in the twelve months preceding the claim, or (b) USD $100.</p>
             <p>Some jurisdictions do not allow the exclusion of certain warranties or limitations of liability, so these limitations may not apply to you.</p>
 
             <h2 id="indemnification">12. Indemnification</h2>
-            <p>You agree to indemnify, defend, and hold harmless Jobs in USA and its officers, directors, employees, and affiliates from any claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of your use of the Service, your User Content, your violation of these Terms, or your violation of any rights of a third party.</p>
+            <p>You agree to indemnify, defend, and hold harmless JobGader and its officers, directors, employees, and affiliates from any claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of your use of the Service, your User Content, your violation of these Terms, or your violation of any rights of a third party.</p>
 
             <h2 id="termination">13. Termination</h2>
             <p>You may terminate your account at any time by contacting us or by deleting your account through your account settings. We may suspend or terminate your access at any time, with or without notice, if we believe you have violated these Terms or for any other reason at our discretion.</p>
@@ -228,7 +228,7 @@
             <h2 id="contact">16. Contact Us</h2>
             <p>If you have any questions about these Terms, please contact us:</p>
             <ul>
-                <li>Email: <a href="mailto:legal@jobsinusa.com">legal@jobsinusa.com</a></li>
+                <li>Email: <a href="mailto:legal@jobgader.com">legal@jobgader.com</a></li>
                 <li>Contact form: <a href="{{ url('/contact-us') }}">Contact Us page</a></li>
             </ul>
         </div>

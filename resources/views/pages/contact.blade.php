@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
-@section('title', 'Contact Us — Get Support & Inquiries | Jobs in USA')
-@section('meta_description', 'Contact Jobs in USA for support, inquiries, or partnership opportunities.')
+@section('title', 'Contact Us — Get Support & Inquiries | JobGader')
+@section('meta_description', 'Contact JobGader for support, inquiries, or partnership opportunities.')
 @section('content')
 
 <style>
@@ -454,7 +454,7 @@
         </div>
         <span class="eyebrow" data-aos="fade-down" data-aos-duration="600">We're Here to Help</span>
         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-            Get in Touch With <span class="accent">Jobs in USA</span>
+            Get in Touch With <span class="accent">JobGader</span>
         </h1>
         <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">
             Have a question, need support, or want to partner with us? Our team responds within 24 hours on business days. Pick the contact channel that works best for you below.
@@ -472,11 +472,11 @@
                 <p>Speak directly with our support team for quick assistance.</p>
                 <span class="qc-action">+1 (800) 123-4567 <i class="icon-feather-arrow-right"></i></span>
             </a>
-            <a href="mailto:support@jobsinusa.com" class="quick-contact-card">
+            <a href="mailto:support@jobgader.com" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-mail"></i></div>
                 <h4>Email Us</h4>
                 <p>Drop us a line and we'll respond within 24 hours.</p>
-                <span class="qc-action">support@jobsinusa.com <i class="icon-feather-arrow-right"></i></span>
+                <span class="qc-action">support@jobgader.com <i class="icon-feather-arrow-right"></i></span>
             </a>
             <a href="https://calendly.com/" target="_blank" rel="noopener" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-calendar"></i></div>
@@ -540,7 +540,7 @@
                             <i class="icon-feather-mail"></i>
                             <div>
                                 <strong>Email</strong>
-                                support@jobsinusa.com
+                                support@jobgader.com
                             </div>
                         </li>
                         <li>

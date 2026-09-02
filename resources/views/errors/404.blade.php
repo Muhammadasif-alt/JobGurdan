@@ -1,5 +1,5 @@
 @extends('user.layouts.master')
-@section('title', 'Page Not Found — Jobs in USA')
+@section('title', 'Page Not Found — JobGader')
 @section('meta_description', 'The page you are looking for does not exist. Browse verified jobs in the USA, contact support, or return to the homepage.')
 
 @push('meta')

@@ -363,7 +363,7 @@
         <header class="cj-section-head">
             <span class="eyebrow">Why Apply Through Us</span>
             <h2>Built for U.S. <span class="accent">Job Seekers</span></h2>
-            <p>Every role on Jobs in USA goes through our verification process before it reaches you.</p>
+            <p>Every role on JobGader goes through our verification process before it reaches you.</p>
         </header>
         <div class="cj-why-grid">
             <div class="cj-why-card">
@@ -400,7 +400,7 @@
                 <span class="eyebrow">Hiring Now</span>
                 <h2>Explore opportunities at <span class="accent">{{ $company->name }}</span></h2>
                 <p class="cj-seo-lead">
-                    {{ $company->name }} is one of the verified U.S. employers actively hiring on Jobs in USA.
+                    {{ $company->name }} is one of the verified U.S. employers actively hiring on JobGader.
                     Browse open roles across {{ $jobs->total() ?? 'multiple' }} positions — apply free, get matched faster, and connect directly with the hiring team.
                 </p>
                 <p>

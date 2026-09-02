@@ -1,22 +1,22 @@
 @extends('user.layouts.master')
-@section('title', 'About Jobs in USA — America\'s Trusted Job Search Platform Since 2024')
-@section('meta_description', 'Learn how Jobs in USA connects 10M+ American job seekers with verified employers across all 50 states. Discover our mission, values, story & how we make hiring transparent, fast, and 100% free for candidates.')
+@section('title', 'About JobGader — America\'s Trusted Job Search Platform Since 2024')
+@section('meta_description', 'Learn how JobGader connects 10M+ American job seekers with verified employers across all 50 states. Discover our mission, values, story & how we make hiring transparent, fast, and 100% free for candidates.')
 @section('meta_keywords', 'about jobs in usa, USA job board, american job search platform, verified employer platform, free job search usa, job market america, hiring united states, employment platform, work in america, find jobs USA')
-@section('og_title', 'About Jobs in USA — America\'s Trusted Job Search Platform')
-@section('og_description', 'Verified jobs across all 50 U.S. states. Learn how Jobs in USA connects 10M+ professionals with hiring employers nationwide.')
+@section('og_title', 'About JobGader — America\'s Trusted Job Search Platform')
+@section('og_description', 'Verified jobs across all 50 U.S. states. Learn how JobGader connects 10M+ professionals with hiring employers nationwide.')
 @section('og_image', asset('public/user/images/single-company.jpg'))
 @section('canonical', route('about.us'))
 
 @push('meta')
     {{-- Twitter card --}}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="About Jobs in USA — America's Trusted Job Search Platform">
+    <meta name="twitter:title" content="About JobGader — America's Trusted Job Search Platform">
     <meta name="twitter:description" content="Verified jobs across all 50 U.S. states. Connecting 10M+ professionals with hiring employers nationwide.">
     <meta name="twitter:image" content="{{ asset('public/user/images/single-company.jpg') }}">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="author" content="Jobs in USA">
+    <meta name="author" content="JobGader">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Jobs in USA">
+    <meta property="og:site_name" content="JobGader">
     <meta property="og:locale" content="en_US">
 
     {{-- JSON-LD: Organization schema --}}
@@ -24,10 +24,10 @@
     {
         "@@context": "https://schema.org",
         "@@type": "Organization",
-        "name": "Jobs in USA",
+        "name": "JobGader",
         "alternateName": "JobsinUSA",
         "url": "{{ url('/') }}",
-        "logo": "{{ asset('public/user/images/Jobs in USA.png') }}",
+        "logo": "{{ asset('public/user/images/JobGader.png') }}",
         "description": "America's trusted job search platform connecting verified employers with millions of qualified job seekers across all 50 U.S. states.",
         "foundingDate": "2024",
         "areaServed": {
@@ -40,7 +40,7 @@
         "contactPoint": {
             "@@type": "ContactPoint",
             "contactType": "Customer Support",
-            "email": "support@jobsinusa.com",
+            "email": "support@jobgader.com",
             "availableLanguage": ["English"]
         }
     }
@@ -51,15 +51,15 @@
     {
         "@@context": "https://schema.org",
         "@@type": "AboutPage",
-        "name": "About Jobs in USA",
+        "name": "About JobGader",
         "url": "{{ route('about.us') }}",
-        "description": "Learn about Jobs in USA — our mission, story, and how we connect millions of American job seekers with verified employers across all 50 states.",
+        "description": "Learn about JobGader — our mission, story, and how we connect millions of American job seekers with verified employers across all 50 states.",
         "publisher": {
             "@@type": "Organization",
-            "name": "Jobs in USA",
+            "name": "JobGader",
             "logo": {
                 "@@type": "ImageObject",
-                "url": "{{ asset('public/user/images/Jobs in USA.png') }}"
+                "url": "{{ asset('public/user/images/JobGader.png') }}"
             }
         }
     }
@@ -85,23 +85,23 @@
         "mainEntity": [
             {
                 "@@type": "Question",
-                "name": "What is Jobs in USA?",
+                "name": "What is JobGader?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
-                    "text": "Jobs in USA is a verified online employment platform connecting millions of American job seekers with hiring employers across all 50 U.S. states. We list full-time, part-time, remote, and hybrid roles in industries ranging from healthcare and IT to construction and retail."
+                    "text": "JobGader is a verified online employment platform connecting millions of American job seekers with hiring employers across all 50 U.S. states. We list full-time, part-time, remote, and hybrid roles in industries ranging from healthcare and IT to construction and retail."
                 }
             },
             {
                 "@@type": "Question",
-                "name": "Is Jobs in USA free for job seekers?",
+                "name": "Is JobGader free for job seekers?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
-                    "text": "Yes. Creating an account, building a profile, browsing job listings, and applying for positions on Jobs in USA is 100% free for job seekers. Employers pay to post jobs and access advanced hiring features."
+                    "text": "Yes. Creating an account, building a profile, browsing job listings, and applying for positions on JobGader is 100% free for job seekers. Employers pay to post jobs and access advanced hiring features."
                 }
             },
             {
                 "@@type": "Question",
-                "name": "How are job listings verified on Jobs in USA?",
+                "name": "How are job listings verified on JobGader?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
                     "text": "Every employer profile is reviewed by our trust and safety team before being approved. We verify business legitimacy, monitor activity, and remove fraudulent or outdated listings — keeping the platform safe for job seekers."
@@ -109,18 +109,18 @@
             },
             {
                 "@@type": "Question",
-                "name": "What states and industries does Jobs in USA cover?",
+                "name": "What states and industries does JobGader cover?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
-                    "text": "Jobs in USA covers all 50 U.S. states and a wide range of industries including healthcare, technology, construction, retail, hospitality, transport and logistics, finance, education, and more — for entry-level, mid-career, and executive roles."
+                    "text": "JobGader covers all 50 U.S. states and a wide range of industries including healthcare, technology, construction, retail, hospitality, transport and logistics, finance, education, and more — for entry-level, mid-career, and executive roles."
                 }
             },
             {
                 "@@type": "Question",
-                "name": "Can I find remote jobs on Jobs in USA?",
+                "name": "Can I find remote jobs on JobGader?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
-                    "text": "Yes. Jobs in USA features a dedicated remote and hybrid jobs section. You can filter by Remote, Work-From-Home, or Hybrid roles directly in the search bar to see all matching positions."
+                    "text": "Yes. JobGader features a dedicated remote and hybrid jobs section. You can filter by Remote, Work-From-Home, or Hybrid roles directly in the search bar to see all matching positions."
                 }
             }
         ]
@@ -881,7 +881,7 @@
     html.dark-mode .testimonial-author .name { color: #fff !important; }
     html.dark-mode .testimonial-author .role { color: var(--site-muted, #b8c0cc) !important; }
 
-    /* Story section ("Why Jobs in USA exists") */
+    /* Story section ("Why JobGader exists") */
     html.dark-mode .story-row p,
     html.dark-mode .story-row .story-text p { color: var(--site-muted, #b8c0cc) !important; }
     html.dark-mode .story-row h2 { color: #fff !important; }
@@ -990,16 +990,16 @@
         <div class="container">
             <div class="about-hero-row">
                 <div>
-                    <span class="about-hero-tag" data-aos="fade-down" data-aos-duration="600">About Jobs in USA</span>
+                    <span class="about-hero-tag" data-aos="fade-down" data-aos-duration="600">About JobGader</span>
                     <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">America's trusted job search platform — connecting <span>10M+ professionals</span> with verified U.S. employers</h1>
-                    <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Since 2024, Jobs in USA has been on a mission to make the American job market more accessible, transparent, and human. We bring together talented job seekers and verified employers across all 50 states — making the search for meaningful work simpler, safer, and 100% free for candidates.</p>
+                    <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Since 2024, JobGader has been on a mission to make the American job market more accessible, transparent, and human. We bring together talented job seekers and verified employers across all 50 states — making the search for meaningful work simpler, safer, and 100% free for candidates.</p>
                     <div class="about-hero-cta" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
                         <a href="{{ route('register') }}">Find Your Next Role <i class="icon-feather-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="about-hero-visual">
                     <img src="{{ asset('public/user/images/single-company.webp') }}"
-                         alt="About Jobs in USA — America's trusted employment platform connecting verified employers and job seekers nationwide"
+                         alt="About JobGader — America's trusted employment platform connecting verified employers and job seekers nationwide"
                          loading="lazy"
                          onerror="this.onerror=null;this.src='{{ asset('public/user/images/single-company.jpg') }}'">
                     <div class="about-hero-float tl">
@@ -1051,7 +1051,7 @@
             <div class="about-section-head">
                 <span class="tag">What Drives Us</span>
                 <h2>Our Mission, Vision &amp; Values</h2>
-                <p>The principles that guide how Jobs in USA serves job seekers, employers, and the broader American workforce every single day.</p>
+                <p>The principles that guide how JobGader serves job seekers, employers, and the broader American workforce every single day.</p>
             </div>
             <div class="mvv-grid">
                 <div class="mvv-card">
@@ -1108,12 +1108,12 @@
     <section class="about-section">
         <div class="container">
             <div class="benefits-head" style="text-align: center; margin-bottom: 44px;">
-                <span class="tag">Why Jobs in USA</span>
+                <span class="tag">Why JobGader</span>
                 <h2>Built for job seekers who care about <span>quality</span></h2>
             </div>
             <div class="benefits-row">
                 <div class="benefits-visual">
-                    <img src="{{ asset('public/user/images/partir-usa.webp') }}" alt="Why job seekers choose Jobs in USA" loading="lazy" onerror="this.onerror=null;this.src='{{ asset('public/user/images/partir-usa.jpg') }}'">
+                    <img src="{{ asset('public/user/images/partir-usa.webp') }}" alt="Why job seekers choose JobGader" loading="lazy" onerror="this.onerror=null;this.src='{{ asset('public/user/images/partir-usa.jpg') }}'">
                 </div>
                 <div class="benefits-list">
                     <div class="benefit-item">
@@ -1172,7 +1172,7 @@
             <div class="about-section-head">
                 <span class="tag">Real Stories</span>
                 <h2>Trusted by job seekers across America</h2>
-                <p>Hear from professionals who found their next chapter through Jobs in USA.</p>
+                <p>Hear from professionals who found their next chapter through JobGader.</p>
             </div>
             <div class="testimonial-grid">
                 <div class="testimonial-card">
@@ -1188,7 +1188,7 @@
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">After being laid off in tech, I was skeptical about job boards. Jobs in USA matched me with three remote roles within a week. I accepted the second one and started the next month.</p>
+                    <p class="testimonial-text">After being laid off in tech, I was skeptical about job boards. JobGader matched me with three remote roles within a week. I accepted the second one and started the next month.</p>
                     <div class="testimonial-author">
                         <img src="{{ asset('public/user/images/user_small_2.jpg') }}" alt="" loading="lazy" decoding="async">
                         <div>
@@ -1218,13 +1218,13 @@
             <div class="story-row">
                 <div class="story-content">
                     <span class="about-hero-tag">Our Story</span>
-                    <h2>Why Jobs in USA <span>exists</span></h2>
-                    <p>Jobs in USA was started by a small team that was tired of the same broken job search experience: outdated listings, recycled posts from staffing agencies, hidden salaries, and zero accountability.</p>
+                    <h2>Why JobGader <span>exists</span></h2>
+                    <p>JobGader was started by a small team that was tired of the same broken job search experience: outdated listings, recycled posts from staffing agencies, hidden salaries, and zero accountability.</p>
                     <p>We built this platform around a simple belief — finding work shouldn't feel like a second job. Every listing is verified, every employer is reviewed, and every feature is designed to put control back in the hands of job seekers.</p>
                     <p>Today, we serve millions of professionals across all 50 states. From entry-level workers to senior executives, from healthcare to construction to remote tech, we're proud to be a small piece of the journey for every American who deserves a better way to work.</p>
                 </div>
                 <div class="story-visual">
-                    <img src="{{ asset('public/user/images/about-founders.jpg') }}" alt="Jobs in USA founders" loading="lazy" decoding="async">
+                    <img src="{{ asset('public/user/images/about-founders.jpg') }}" alt="JobGader founders" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -1236,7 +1236,7 @@
             <div class="about-section-head">
                 <span class="tag">Industries We Serve</span>
                 <h2>Jobs across every major U.S. industry</h2>
-                <p>From entry-level openings to senior leadership roles, Jobs in USA features verified opportunities across the full spectrum of American industries.</p>
+                <p>From entry-level openings to senior leadership roles, JobGader features verified opportunities across the full spectrum of American industries.</p>
             </div>
             <div class="industries-grid">
                 <a href="{{ route('pages.healthcare-jobs') }}" class="industry-card">
@@ -1320,7 +1320,7 @@
             <div class="about-section-head">
                 <span class="tag">Recognition &amp; Trust</span>
                 <h2 id="press-heading">A trusted name in U.S. employment</h2>
-                <p>From media coverage to industry partnerships and platform safety certifications &mdash; here's why millions of American job seekers and employers choose Jobs in USA every month.</p>
+                <p>From media coverage to industry partnerships and platform safety certifications &mdash; here's why millions of American job seekers and employers choose JobGader every month.</p>
             </div>
 
             <div class="press-grid">
@@ -1362,7 +1362,7 @@
                 <article class="press-card">
                     <div class="press-ico"><i class="icon-feather-zap"></i></div>
                     <h3>Built for Speed</h3>
-                    <p>Engineered to load fast, work on every device, and keep listings fresh in real time. Less waiting, more applying &mdash; that's the Jobs in USA promise.</p>
+                    <p>Engineered to load fast, work on every device, and keep listings fresh in real time. Less waiting, more applying &mdash; that's the JobGader promise.</p>
                     <span class="press-badge">Optimised Platform</span>
                 </article>
             </div>
@@ -1681,21 +1681,21 @@
         <div class="container">
             <div class="about-section-head">
                 <span class="tag">Frequently Asked Questions</span>
-                <h2>Common questions about Jobs in USA</h2>
+                <h2>Common questions about JobGader</h2>
                 <p>Everything you need to know about how our platform works, who it's for, and what makes it different.</p>
             </div>
             <div class="about-faq-list">
                 <details class="about-faq-item" open>
-                    <summary>What is Jobs in USA and how does it work?</summary>
-                    <div class="faq-answer">Jobs in USA is a verified online employment platform connecting millions of American job seekers with hiring employers across all 50 U.S. states. Job seekers create a free profile, search thousands of <a href="{{ route('jobs.index') }}">verified job listings</a>, and apply with one click. Employers post roles after passing our verification process and connect with qualified candidates.</div>
+                    <summary>What is JobGader and how does it work?</summary>
+                    <div class="faq-answer">JobGader is a verified online employment platform connecting millions of American job seekers with hiring employers across all 50 U.S. states. Job seekers create a free profile, search thousands of <a href="{{ route('jobs.index') }}">verified job listings</a>, and apply with one click. Employers post roles after passing our verification process and connect with qualified candidates.</div>
                 </details>
                 <details class="about-faq-item">
-                    <summary>Is Jobs in USA free for job seekers?</summary>
+                    <summary>Is JobGader free for job seekers?</summary>
                     <div class="faq-answer">Yes — 100% free. Creating an account, building your profile, browsing listings, applying for jobs, and setting up job alerts are all completely free for job seekers. We make money from employers who pay to post jobs and access advanced hiring features.</div>
                 </details>
                 <details class="about-faq-item">
                     <summary>How are job listings verified?</summary>
-                    <div class="faq-answer">Every employer profile on Jobs in USA is reviewed by our trust and safety team before going live. We verify business legitimacy, monitor activity, and remove fraudulent or outdated listings. If you ever see a suspicious posting, you can report it directly via our <a href="{{ route('pages.contact') }}">Contact page</a>.</div>
+                    <div class="faq-answer">Every employer profile on JobGader is reviewed by our trust and safety team before going live. We verify business legitimacy, monitor activity, and remove fraudulent or outdated listings. If you ever see a suspicious posting, you can report it directly via our <a href="{{ route('pages.contact') }}">Contact page</a>.</div>
                 </details>
                 <details class="about-faq-item">
                     <summary>What industries and job types are available?</summary>
@@ -1703,7 +1703,7 @@
                 </details>
                 <details class="about-faq-item">
                     <summary>Can I find remote and work-from-home jobs?</summary>
-                    <div class="faq-answer">Absolutely. Jobs in USA features a dedicated <a href="{{ route('pages.remote-jobs-usa') }}">remote jobs section</a> with thousands of fully remote, hybrid, and work-from-home opportunities across the country. Use the location filter to view only remote roles.</div>
+                    <div class="faq-answer">Absolutely. JobGader features a dedicated <a href="{{ route('pages.remote-jobs-usa') }}">remote jobs section</a> with thousands of fully remote, hybrid, and work-from-home opportunities across the country. Use the location filter to view only remote roles.</div>
                 </details>
                 <details class="about-faq-item">
                     <summary>How do I get notified when matching jobs are posted?</summary>
@@ -1714,7 +1714,7 @@
                     <div class="faq-answer">Yes. Privacy is built in by default. Your profile is only visible to verified employers when you choose to apply. Your current employer cannot see your profile, and you can hide or delete your information anytime from your dashboard.</div>
                 </details>
                 <details class="about-faq-item">
-                    <summary>How can employers post jobs on Jobs in USA?</summary>
+                    <summary>How can employers post jobs on JobGader?</summary>
                     <div class="faq-answer">Employers can register an account, choose a posting plan that matches their hiring needs, and submit listings via the dashboard. After our team reviews and verifies the company, the job goes live and reaches qualified candidates nationwide. Visit our <a href="{{ route('pages.contact') }}">Contact page</a> for custom enterprise plans.</div>
                 </details>
             </div>

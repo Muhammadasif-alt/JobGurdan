@@ -5,7 +5,7 @@
     <base href="{{ asset('public/admin') }}/">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Company Panel | Jobs in USA</title><!--begin::Accessibility Meta Tags-->
+    <title>Company Panel | JobGader</title><!--begin::Accessibility Meta Tags-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" content="#007bff" media="(prefers-color-scheme: light)">
@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@3.37.1/dist/apexcharts.css"
         integrity="sha256-4MX+61mt9NVvvuPjUWdUdyfZfxSB1/Rf9WtqRHgG5S0=" crossorigin="anonymous">
 
-    <!-- Custom overrides + admin theme polish (Jobs in USA brand: dark #0a0a0a) -->
+    <!-- Custom overrides + admin theme polish (JobGader brand: dark #0a0a0a) -->
     <style>
         /* === Brand-matched buttons (global override) === */
         .btn-primary, .btn.btn-primary, button.btn-primary {
@@ -262,7 +262,7 @@
         .user-dropdown .dropdown-item.danger:hover { background: #fef2f2; color: #b91c1c; }
         .user-dropdown .dropdown-item.danger:hover i { color: #b91c1c; }
 
-        /* === Sidebar — Jobs in USA brand (deep dark with subtle accent glows) === */
+        /* === Sidebar — JobGader brand (deep dark with subtle accent glows) === */
         .app-sidebar.bg-body-secondary {
             background: linear-gradient(180deg, #0a0a0a 0%, #111111 50%, #0a0a0a 100%) !important;
             border-right: 1px solid rgba(255,255,255,.06);
@@ -513,7 +513,7 @@
                 <a href="{{ route('company.dashboard') }}" class="brand-link">
                     <span class="brand-badge">JU</span>
                     <span class="brand-text">
-                        Jobs in USA
+                        JobGader
                         <small>Company Panel</small>
                     </span>
                 </a>

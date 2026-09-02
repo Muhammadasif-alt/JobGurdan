@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in USA | Find Your Next Job — Apply Free, Hiring Now')
-@section('meta_description', 'Search 230,000+ verified jobs in the USA. Healthcare, IT, retail, logistics & more. Free to apply, new openings daily across all 50 states — find your next career on Jobs in USA.')
+@section('title', 'JobGader | Find Your Next Job — Apply Free, Hiring Now')
+@section('meta_description', 'Search 230,000+ verified jobs in the USA. Healthcare, IT, retail, logistics & more. Free to apply, new openings daily across all 50 states — find your next career on JobGader.')
 @section('meta_keywords', 'jobs in usa, job search usa, american jobs, hiring near me, employment usa, careers, job listings, remote jobs usa, work from home jobs, healthcare jobs, IT jobs, full-time jobs, part-time jobs, apply free')
-@section('og_title', 'Jobs in USA | Find Your Next Job — Apply Free, Hiring Now')
+@section('og_title', 'JobGader | Find Your Next Job — Apply Free, Hiring Now')
 @section('og_description', 'Search 230,000+ verified jobs in the USA. Apply free across healthcare, IT, retail, logistics and more — your next career move starts here.')
 @section('og_image', asset('public/user/images/home-background-03.jpg'))
 @section('canonical', url('/'))
@@ -10,13 +10,13 @@
 @push('meta')
     {{-- Twitter card --}}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Jobs in USA — Find Verified Jobs Across All 50 States">
+    <meta name="twitter:title" content="JobGader — Find Verified Jobs Across All 50 States">
     <meta name="twitter:description" content="Search 230,000+ verified job listings across all 50 U.S. states. Free for job seekers.">
     <meta name="twitter:image" content="{{ asset('public/user/images/home-background-03.jpg') }}">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="author" content="Jobs in USA">
+    <meta name="author" content="JobGader">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Jobs in USA">
+    <meta property="og:site_name" content="JobGader">
     <meta property="og:locale" content="en_US">
 
     {{-- JSON-LD: WebSite with SearchAction --}}
@@ -24,7 +24,7 @@
     {
         "@@context": "https://schema.org",
         "@@type": "WebSite",
-        "name": "Jobs in USA",
+        "name": "JobGader",
         "url": "{{ url('/') }}",
         "description": "America's trusted job search platform connecting verified employers with millions of qualified job seekers across all 50 U.S. states.",
         "potentialAction": {
@@ -43,10 +43,10 @@
     {
         "@@context": "https://schema.org",
         "@@type": "Organization",
-        "name": "Jobs in USA",
+        "name": "JobGader",
         "alternateName": "JobsinUSA",
         "url": "{{ url('/') }}",
-        "logo": "{{ asset('public/user/images/Jobs in USA.png') }}",
+        "logo": "{{ asset('public/user/images/JobGader.png') }}",
         "description": "Verified online employment platform connecting American job seekers with hiring employers across all 50 U.S. states.",
         "areaServed": {
             "@@type": "Country",
@@ -55,7 +55,7 @@
         "contactPoint": {
             "@@type": "ContactPoint",
             "contactType": "Customer Support",
-            "email": "support@jobsinusa.com",
+            "email": "support@jobgader.com",
             "availableLanguage": ["English"]
         }
     }
@@ -70,7 +70,7 @@
             {
                 "@@type": "Question",
                 "name": "Is it free to search and apply for jobs?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "Yes, browsing and applying for jobs on Jobs in USA is 100% free for job seekers. Just create an account and start applying." }
+                "acceptedAnswer": { "@@type": "Answer", "text": "Yes, browsing and applying for jobs on JobGader is 100% free for job seekers. Just create an account and start applying." }
             },
             {
                 "@@type": "Question",
@@ -84,7 +84,7 @@
             },
             {
                 "@@type": "Question",
-                "name": "Can I work remotely through Jobs in USA?",
+                "name": "Can I work remotely through JobGader?",
                 "acceptedAnswer": { "@@type": "Answer", "text": "Yes. We have a dedicated section for remote, work-from-home, and hybrid roles. Use the location filter and select Remote to see all matching jobs." }
             },
             {
@@ -1474,7 +1474,7 @@
             "@@type": "CollectionPage",
             "@@id": {!! json_encode(url('/').'#industries') !!},
             "name": "Browse Jobs by Industry",
-            "description": "Explore U.S. job opportunities by industry on Jobs in USA.",
+            "description": "Explore U.S. job opportunities by industry on JobGader.",
             "hasPart": [
                 @foreach ($categories as $idx => $category)
                 {
@@ -1684,13 +1684,13 @@
                     <span class="step-badge">Step 1</span>
                     <div class="card-image">
                         <img src="{{ asset('public/user/images/home-background-02.webp') }}"
-                             alt="Create your free Jobs in USA account in under a minute"
+                             alt="Create your free JobGader account in under a minute"
                              loading="lazy"
                              onerror="this.onerror=null;this.src='{{ asset('public/user/images/home-background-02.jpg') }}'">
                     </div>
                     <h3>Create Your Account</h3>
                     <p>Sign up in under a minute and build your professional profile to stand out to top U.S. employers. Add your resume, skills, and job preferences in one place.</p>
-                    <a href="{{ route('register') }}" class="card-cta" aria-label="Register a free Jobs in USA account">
+                    <a href="{{ route('register') }}" class="card-cta" aria-label="Register a free JobGader account">
                         Sign Up Free <i class="icon-feather-arrow-right"></i>
                     </a>
                 </article>
@@ -1752,8 +1752,8 @@
     {
         "@@context": "https://schema.org",
         "@@type": "HowTo",
-        "name": "How to Find a Job in the USA on Jobs in USA",
-        "description": "Get hired in 4 simple steps on Jobs in USA — America's trusted free job portal connecting candidates with verified employers nationwide.",
+        "name": "How to Find a Job in the USA on JobGader",
+        "description": "Get hired in 4 simple steps on JobGader — America's trusted free job portal connecting candidates with verified employers nationwide.",
         "totalTime": "PT5M",
         "step": [
             {
@@ -1789,12 +1789,12 @@
     </script>
 
 
-    {{-- ===== Why Jobs in USA — 2-column "How we're different" ===== --}}
+    {{-- ===== Why JobGader — 2-column "How we're different" ===== --}}
     <section class="why-section" aria-labelledby="why-heading" itemscope itemtype="https://schema.org/Service">
         <div class="container">
             <header class="why-head">
-                <span class="eyebrow">Why Jobs in USA</span>
-                <h2 id="why-heading">How <span class="accent">Jobs in USA</span> is Different</h2>
+                <span class="eyebrow">Why JobGader</span>
+                <h2 id="why-heading">How <span class="accent">JobGader</span> is Different</h2>
                 <p>The smart way to find work in America &mdash; verified employers, hand-picked listings, and zero spam between you and your next role.</p>
             </header>
 
@@ -1843,7 +1843,7 @@
                     <div class="why-visual-blob blob-2"></div>
                     <div class="why-visual-stage">
                         <img src="{{ asset('public/user/images/hero-diverse-professionals.webp') }}"
-                             alt="Job seeker browsing verified U.S. job openings on Jobs in USA"
+                             alt="Job seeker browsing verified U.S. job openings on JobGader"
                              loading="lazy"
                              onerror="this.onerror=null;this.src='{{ asset('public/user/images/hero-diverse-professionals.jpg') }}'">
                         <div class="why-floating why-fl-1">
@@ -2302,8 +2302,8 @@
                     "headline": @json($post->title),
                     "url": @json(route('blog.show', $post->slug)),
                     "datePublished": @json(optional($post->published_at)->toIso8601String() ?? optional($post->created_at)->toIso8601String()),
-                    "author": { "@@type": "Organization", "name": "Jobs in USA" },
-                    "publisher": { "@@type": "Organization", "name": "Jobs in USA" }
+                    "author": { "@@type": "Organization", "name": "JobGader" },
+                    "publisher": { "@@type": "Organization", "name": "JobGader" }
                 }
             }@if (! $loop->last),@endif
             @endforeach
@@ -2438,7 +2438,7 @@
                 <div class="faq-left">
                     <span class="eyebrow">FAQ</span>
                     <h2>Got questions? We've got answers.</h2>
-                    <p>Everything you need to know about finding your next job on Jobs in USA. Can't find what you're looking for? Our team is one click away.</p>
+                    <p>Everything you need to know about finding your next job on JobGader. Can't find what you're looking for? Our team is one click away.</p>
                     <a href="{{ route('pages.contact') }}" class="contact-btn">
                         Contact Support <i class="icon-feather-arrow-right"></i>
                     </a>
@@ -2447,7 +2447,7 @@
                 <div class="faq-list">
                     <details class="home-faq-item">
                         <summary>Is it free to search and apply for jobs?</summary>
-                        <div class="home-faq-answer">Yes, browsing and applying for jobs on Jobs in USA is 100% free for job seekers. Just create an account and start applying.</div>
+                        <div class="home-faq-answer">Yes, browsing and applying for jobs on JobGader is 100% free for job seekers. Just create an account and start applying.</div>
                     </details>
                     <details class="home-faq-item">
                         <summary>How do I get started?</summary>
@@ -2458,7 +2458,7 @@
                         <div class="home-faq-answer">We cover all 50 U.S. states and a wide range of industries — healthcare, IT, construction, retail, hospitality, transport, finance, and many more.</div>
                     </details>
                     <details class="home-faq-item">
-                        <summary>Can I work remotely through Jobs in USA?</summary>
+                        <summary>Can I work remotely through JobGader?</summary>
                         <div class="home-faq-answer">Yes. We have a dedicated section for remote, work-from-home, and hybrid roles. Use the location filter and select "Remote" to see all matching jobs.</div>
                     </details>
                     <details class="home-faq-item">

@@ -5,17 +5,17 @@
     $posLabel = $jobPos !== '' ? ucwords($jobPos) : '';
     $locLabel = $jobLoc !== '' ? ucwords($jobLoc) : '';
     if ($posLabel && $locLabel) {
-        $pageTitle = "{$posLabel} Jobs in {$locLabel} — Apply Free | Jobs in USA";
-        $pageDesc = "Browse verified {$posLabel} jobs in {$locLabel}. Apply free with one click on Jobs in USA — new openings daily.";
+        $pageTitle = "{$posLabel} Jobs in {$locLabel} — Apply Free | JobGader";
+        $pageDesc = "Browse verified {$posLabel} jobs in {$locLabel}. Apply free with one click on JobGader — new openings daily.";
     } elseif ($posLabel) {
-        $pageTitle = "{$posLabel} Jobs in USA — Hiring Now, Apply Free | Jobs in USA";
-        $pageDesc = "Search {$posLabel} jobs across all 50 U.S. states. Verified listings, free to apply on Jobs in USA — new openings every day.";
+        $pageTitle = "{$posLabel} JobGader — Hiring Now, Apply Free | JobGader";
+        $pageDesc = "Search {$posLabel} jobs across all 50 U.S. states. Verified listings, free to apply on JobGader — new openings every day.";
     } elseif ($locLabel) {
-        $pageTitle = "Jobs in {$locLabel} — Browse Verified Listings | Jobs in USA";
-        $pageDesc = "Find jobs in {$locLabel} across every industry. Verified listings, free to apply on Jobs in USA — updated daily.";
+        $pageTitle = "Jobs in {$locLabel} — Browse Verified Listings | JobGader";
+        $pageDesc = "Find jobs in {$locLabel} across every industry. Verified listings, free to apply on JobGader — updated daily.";
     } else {
-        $pageTitle = 'Browse Jobs in USA — Find Verified Job Listings, Apply Free';
-        $pageDesc = 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . '+ verified jobs across all 50 U.S. states. Filter by state, area, or ZIP. Free to apply, new openings daily on Jobs in USA.';
+        $pageTitle = 'Browse JobGader — Find Verified Job Listings, Apply Free';
+        $pageDesc = 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . '+ verified jobs across all 50 U.S. states. Filter by state, area, or ZIP. Free to apply, new openings daily on JobGader.';
     }
 @endphp
 @section('title', $pageTitle)
@@ -837,7 +837,7 @@
                 <div class="ico"><i class="icon-feather-users"></i></div>
                 <div>
                     <h5>Trusted Nationwide</h5>
-                    <p>Millions of job seekers across all 50 U.S. states use Jobs in USA.</p>
+                    <p>Millions of job seekers across all 50 U.S. states use JobGader.</p>
                 </div>
             </div>
         </div>

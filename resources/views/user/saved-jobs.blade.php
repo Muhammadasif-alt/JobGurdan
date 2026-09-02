@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
-@section('title', 'My Saved Jobs — Jobs in USA')
-@section('meta_description', 'Review and apply to jobs you have saved for later on Jobs in USA.')
+@section('title', 'My Saved Jobs — JobGader')
+@section('meta_description', 'Review and apply to jobs you have saved for later on JobGader.')
 
 @push('meta')
     <meta name="robots" content="noindex, nofollow">

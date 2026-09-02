@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
 
-@section('title', $seeker->name.' — Job Seeker Profile | Jobs in USA')
-@section('meta_description', $seeker->name.' is actively looking for opportunities in '.$profile['city'].'. View skills, experience and contact details on Jobs in USA.')
+@section('title', $seeker->name.' — Job Seeker Profile | JobGader')
+@section('meta_description', $seeker->name.' is actively looking for opportunities in '.$profile['city'].'. View skills, experience and contact details on JobGader.')
 
 @section('content')
 
@@ -495,7 +495,7 @@
             <div class="sk-section-head">
                 <span class="eyebrow">Why {{ $firstName }}</span>
                 <h2>{{ $firstName }} stands out — and here's why employers move fast</h2>
-                <p>Every job seeker on Jobs in USA is verified, active, and reachable within 24 hours. Skip cold-emailing — start a conversation today.</p>
+                <p>Every job seeker on JobGader is verified, active, and reachable within 24 hours. Skip cold-emailing — start a conversation today.</p>
             </div>
             <div class="sk-why-grid">
                 <div class="sk-why-card">

@@ -28,9 +28,9 @@ class WelcomeNotification extends Notification
             : url('/dashboard');
 
         $mail = (new MailMessage)
-            ->subject('Welcome to Jobs in USA — your account is ready!')
+            ->subject('Welcome to JobGader — your account is ready!')
             ->greeting("Hi {$firstName}!")
-            ->line("Thanks for joining **Jobs in USA** — America's trusted job search platform connecting verified employers with millions of job seekers across all 50 U.S. states.");
+            ->line("Thanks for joining **JobGader** — America's trusted job search platform connecting verified employers with millions of job seekers across all 50 U.S. states.");
 
         if ($isCompany) {
             $mail->line('As an employer, you can:')
@@ -48,7 +48,7 @@ class WelcomeNotification extends Notification
 
         return $mail
             ->line('If you have any questions, just reply to this email — we are here to help.')
-            ->salutation('Best regards, The Jobs in USA Team');
+            ->salutation('Best regards, The JobGader Team');
     }
 
     public function toArray(object $notifiable): array
@@ -56,7 +56,7 @@ class WelcomeNotification extends Notification
         return [
             'type' => 'welcome',
             'role' => $notifiable->role ?? null,
-            'message' => 'Welcome to Jobs in USA!',
+            'message' => 'Welcome to JobGader!',
         ];
     }
 }

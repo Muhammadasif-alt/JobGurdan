@@ -5,17 +5,17 @@
     $srPosLbl = $srPos !== '' ? ucwords($srPos) : '';
     $srLocLbl = $srLoc !== '' ? ucwords($srLoc) : '';
     if ($srPosLbl && $srLocLbl) {
-        $srTitle = "{$srPosLbl} Jobs in {$srLocLbl} — Search Results | Jobs in USA";
-        $srDesc = "Find {$srPosLbl} jobs in {$srLocLbl} — verified listings, apply free on Jobs in USA.";
+        $srTitle = "{$srPosLbl} Jobs in {$srLocLbl} — Search Results | JobGader";
+        $srDesc = "Find {$srPosLbl} jobs in {$srLocLbl} — verified listings, apply free on JobGader.";
     } elseif ($srPosLbl) {
-        $srTitle = "{$srPosLbl} Jobs — Search Results | Jobs in USA";
-        $srDesc = "Browse {$srPosLbl} job openings across the USA. Apply free with one click on Jobs in USA.";
+        $srTitle = "{$srPosLbl} Jobs — Search Results | JobGader";
+        $srDesc = "Browse {$srPosLbl} job openings across the USA. Apply free with one click on JobGader.";
     } elseif ($srLocLbl) {
-        $srTitle = "Jobs in {$srLocLbl} — Search Results | Jobs in USA";
-        $srDesc = "Discover verified jobs in {$srLocLbl} across every industry. Apply free on Jobs in USA.";
+        $srTitle = "Jobs in {$srLocLbl} — Search Results | JobGader";
+        $srDesc = "Discover verified jobs in {$srLocLbl} across every industry. Apply free on JobGader.";
     } else {
-        $srTitle = 'Job Search Results — Find Verified U.S. Jobs | Jobs in USA';
-        $srDesc = 'Browse matched job results across the USA. Filter by category, location and salary — apply free with one click on Jobs in USA.';
+        $srTitle = 'Job Search Results — Find Verified U.S. Jobs | JobGader';
+        $srDesc = 'Browse matched job results across the USA. Filter by category, location and salary — apply free with one click on JobGader.';
     }
 @endphp
 @section('title', $srTitle)

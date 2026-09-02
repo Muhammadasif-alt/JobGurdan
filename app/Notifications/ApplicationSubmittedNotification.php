@@ -39,7 +39,7 @@ class ApplicationSubmittedNotification extends Notification
             ->line('• Typical response time: 5–14 days')
             ->action('View Job Posting', $jobUrl)
             ->line('Keep exploring more roles while you wait — your perfect match might be just a click away.')
-            ->salutation('Good luck, The Jobs in USA Team');
+            ->salutation('Good luck, The JobGader Team');
     }
 
     public function toArray(object $notifiable): array

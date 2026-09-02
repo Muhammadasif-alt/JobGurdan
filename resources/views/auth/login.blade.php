@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sign In | Jobs in USA</title>
+    <title>Sign In | JobGader</title>
     <meta name="robots" content="noindex">
     <link rel="icon" href="{{ asset('public/user/images/favicon.png') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -333,8 +333,8 @@
     <!-- LEFT: Visual side -->
     <aside class="auth-visual">
         <a href="{{ url('/') }}" class="auth-brand">
-            <img src="{{ asset('public/user/images/Jobs in USA.png') }}" alt="Jobs in USA" onerror="this.style.display='none'">
-            Jobs in USA
+            <img src="{{ asset('public/user/images/JobGader.png') }}" alt="JobGader" onerror="this.style.display='none'">
+            JobGader
         </a>
 
         <div class="auth-hero">

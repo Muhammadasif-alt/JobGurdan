@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 @section('title', 'Job Categories — Browse Jobs by Industry in the USA')
-@section('meta_description', 'Browse ' . number_format($heroStats['total_categories'] ?? 0) . '+ job categories on Jobs in USA. Find healthcare, IT, construction, retail, sales, education, finance and more — verified U.S. jobs across every industry.')
+@section('meta_description', 'Browse ' . number_format($heroStats['total_categories'] ?? 0) . '+ job categories on JobGader. Find healthcare, IT, construction, retail, sales, education, finance and more — verified U.S. jobs across every industry.')
 @section('meta_keywords', 'job categories usa, jobs by industry, healthcare jobs, IT jobs, construction jobs, retail jobs, sales jobs, education jobs, browse jobs by category')
 @section('content')
 

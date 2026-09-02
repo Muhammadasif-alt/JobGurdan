@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
-@section('title', 'Contact Jobs in USA — Get Help, Partner With Us, Report a Listing')
-@section('meta_description', 'Get in touch with Jobs in USA — call, email, or send a message. Our support team responds within 24 hours. Trusted by millions of job seekers across all 50 U.S. states.')
+@section('title', 'Contact JobGader — Get Help, Partner With Us, Report a Listing')
+@section('meta_description', 'Get in touch with JobGader — call, email, or send a message. Our support team responds within 24 hours. Trusted by millions of job seekers across all 50 U.S. states.')
 @section('meta_keywords', 'contact jobs in usa, jobs in usa support, jobs in usa email, customer service usa job board, partnership jobs in usa, report job listing')
-@section('og_title', 'Contact Jobs in USA — We\'re Here to Help')
+@section('og_title', 'Contact JobGader — We\'re Here to Help')
 @section('og_description', 'Reach our support team within 24 hours. Phone, email, or message — we\'re ready to help job seekers, employers, and partners.')
 @section('canonical', route('contact.us'))
 
@@ -15,9 +15,9 @@
     {
         "@@context": "https://schema.org",
         "@@type": "ContactPage",
-        "name": "Contact Jobs in USA",
+        "name": "Contact JobGader",
         "url": "{{ route('contact.us') }}",
-        "description": "Get in touch with the Jobs in USA support team for help with your account, job listings, partnerships, or report concerns."
+        "description": "Get in touch with the JobGader support team for help with your account, job listings, partnerships, or report concerns."
     }
     </script>
 
@@ -26,9 +26,9 @@
     {
         "@@context": "https://schema.org",
         "@@type": "Organization",
-        "name": "Jobs in USA",
+        "name": "JobGader",
         "url": "{{ url('/') }}",
-        "logo": "{{ asset('public/user/images/Jobs in USA.png') }}",
+        "logo": "{{ asset('public/user/images/JobGader.png') }}",
         "address": {
             "@@type": "PostalAddress",
             "streetAddress": "Building 800, N State College Blvd",
@@ -40,7 +40,7 @@
             "@@type": "ContactPoint",
             "telephone": "+1-321-775-9823",
             "contactType": "customer support",
-            "email": "info@jobsinusa.us",
+            "email": "info@jobgader.com",
             "availableLanguage": ["English"],
             "areaServed": "US"
         }]
@@ -65,12 +65,12 @@
         "@@context": "https://schema.org",
         "@@type": "FAQPage",
         "mainEntity": [
-            {"@@type":"Question","name":"How quickly will I receive a response from Jobs in USA?","acceptedAnswer":{"@@type":"Answer","text":"Our support team typically responds within 24 hours on business days. For urgent matters, please mention 'Urgent' in your subject line."}},
+            {"@@type":"Question","name":"How quickly will I receive a response from JobGader?","acceptedAnswer":{"@@type":"Answer","text":"Our support team typically responds within 24 hours on business days. For urgent matters, please mention 'Urgent' in your subject line."}},
             {"@@type":"Question","name":"I'm having trouble logging in. What should I do?","acceptedAnswer":{"@@type":"Answer","text":"Try the Forgot Password link on the login page first. If you still can't access your account, contact us with your registered email and we'll help recover it."}},
             {"@@type":"Question","name":"How do I report a fake or suspicious job listing?","acceptedAnswer":{"@@type":"Answer","text":"Send the job link through our contact form with the subject 'Report Job Listing.' Our trust and safety team reviews every report and removes fraudulent posts quickly."}},
-            {"@@type":"Question","name":"Can I delete my Jobs in USA account?","acceptedAnswer":{"@@type":"Answer","text":"Yes — message us with your registered email and we'll permanently delete your account and associated data within 7 business days, in line with our privacy policy."}},
+            {"@@type":"Question","name":"Can I delete my JobGader account?","acceptedAnswer":{"@@type":"Answer","text":"Yes — message us with your registered email and we'll permanently delete your account and associated data within 7 business days, in line with our privacy policy."}},
             {"@@type":"Question","name":"Do you offer partnership or advertising opportunities?","acceptedAnswer":{"@@type":"Answer","text":"Yes. Use the form and select 'Partnership' or 'Advertising' as your subject. Our partnerships team will share details on plans, reach, and pricing."}},
-            {"@@type":"Question","name":"How do employers post jobs on Jobs in USA?","acceptedAnswer":{"@@type":"Answer","text":"Register an employer account, choose a posting plan, and submit your job through the dashboard. Need a custom plan for bulk hiring? Contact our sales team."}}
+            {"@@type":"Question","name":"How do employers post jobs on JobGader?","acceptedAnswer":{"@@type":"Answer","text":"Register an employer account, choose a posting plan, and submit your job through the dashboard. Need a custom plan for bulk hiring? Contact our sales team."}}
         ]
     }
     </script>
@@ -657,7 +657,7 @@
             <a href="{{ url('/') }}">Home</a> &nbsp;&rsaquo;&nbsp; Contact Us
         </div>
         <span class="eyebrow" data-aos="fade-down" data-aos-duration="600">Contact Us</span>
-        <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Get in Touch With <span class="accent">Jobs in USA</span></h1>
+        <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Get in Touch With <span class="accent">JobGader</span></h1>
         <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Have a question, need support, or want to partner with us? Our team responds within 24 hours on business days. Choose the contact method that works best for you below.</p>
     </div>
 </section>
@@ -672,11 +672,11 @@
                 <p>Speak directly with our support team for quick assistance and account help.</p>
                 <span class="qc-action">(+1) 321 775 9823 <i class="icon-feather-arrow-right"></i></span>
             </a>
-            <a href="mailto:info@jobsinusa.us" class="quick-contact-card">
+            <a href="mailto:info@jobgader.com" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-mail"></i></div>
                 <h4>Email Us</h4>
                 <p>Drop us a line and we'll respond within 24 hours on business days.</p>
-                <span class="qc-action">info@jobsinusa.us <i class="icon-feather-arrow-right"></i></span>
+                <span class="qc-action">info@jobgader.com <i class="icon-feather-arrow-right"></i></span>
             </a>
             <a href="https://calendly.com/" target="_blank" rel="noopener" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-calendar"></i></div>
@@ -760,7 +760,7 @@
                             <div class="ico"><i class="icon-feather-mail"></i></div>
                             <div>
                                 <strong>Email</strong>
-                                <a href="mailto:info@jobsinusa.us">info@jobsinusa.us</a>
+                                <a href="mailto:info@jobgader.com">info@jobgader.com</a>
                             </div>
                         </li>
                         <li>
@@ -791,7 +791,7 @@
         <div class="contact-map-card">
             <div class="info">
                 <h3>Trusted by job seekers across America</h3>
-                <p>Millions of professionals use Jobs in USA every month to find verified opportunities, connect with employers, and grow their careers across all 50 U.S. states.</p>
+                <p>Millions of professionals use JobGader every month to find verified opportunities, connect with employers, and grow their careers across all 50 U.S. states.</p>
                 <a href="{{ route('about.us') }}" class="map-link">
                     Learn About Us <i class="icon-feather-arrow-right"></i>
                 </a>
@@ -833,7 +833,7 @@
                         <img src="{{ $blogImg($post->featured_image) }}" alt="{{ $post->title }}" loading="lazy">
                     </div>
                     <div class="contact-blog-body">
-                        <div class="meta">{{ optional($post->published_at)->format('M d, Y') }} · By {{ $post->author_name ?? $post->author?->name ?? 'Jobs in USA Editorial' }}</div>
+                        <div class="meta">{{ optional($post->published_at)->format('M d, Y') }} · By {{ $post->author_name ?? $post->author?->name ?? 'JobGader Editorial' }}</div>
                         <h4>{{ $post->title }}</h4>
                         <p>{{ $post->excerpt ?? \Illuminate\Support\Str::limit(strip_tags($post->content), 100) }}</p>
                         <span class="read-link">Read More →</span>
@@ -869,7 +869,7 @@
                 <div class="faq-answer">If a listing looks suspicious, send us the job link through this form with the subject "Report Job Listing." Our trust and safety team reviews every report and removes fraudulent posts quickly.</div>
             </details>
             <details class="contact-faq-item">
-                <summary>Can I delete my Jobs in USA account?</summary>
+                <summary>Can I delete my JobGader account?</summary>
                 <div class="faq-answer">Yes — message us with your registered email and we'll permanently delete your account and associated data within 7 business days, in line with our privacy policy.</div>
             </details>
             <details class="contact-faq-item">

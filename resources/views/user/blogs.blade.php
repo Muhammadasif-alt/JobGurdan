@@ -3,17 +3,17 @@
     $blogCat = trim((string) request('category', ''));
     if ($blogCat !== '') {
         $blogCatLbl = ucwords(str_replace('-', ' ', $blogCat));
-        $blogTitle = "{$blogCatLbl} Articles — Career Blog | Jobs in USA";
-        $blogDesc = "Read {$blogCatLbl} articles on Jobs in USA — expert tips, U.S. employment trends and actionable advice to advance your career.";
+        $blogTitle = "{$blogCatLbl} Articles — Career Blog | JobGader";
+        $blogDesc = "Read {$blogCatLbl} articles on JobGader — expert tips, U.S. employment trends and actionable advice to advance your career.";
     } else {
-        $blogTitle = 'Career Advice — Employment & Business News | Jobs in USA';
+        $blogTitle = 'Career Advice — Employment & Business News | JobGader';
         $blogDesc = 'Read the latest career advice, recruitment insights, salary guides, remote work tips and U.S. industry trends. Expert articles to help you land your next job faster.';
     }
 @endphp
 @section('title', $blogTitle)
 @section('meta_description', $blogDesc)
 @section('meta_keywords', 'career advice, recruitment insights, employment news, business news, resume writing, interview tips, salary guide usa, remote work tips')
-@section('og_title', 'Career Advice & Employment News | Jobs in USA')
+@section('og_title', 'Career Advice & Employment News | JobGader')
 @section('og_description', 'Career advice, recruitment insights and U.S. employment news — everything you need to advance your career in the United States.')
 @section('og_image', asset('public/user/images/blog-compact-post-01.jpg'))
 @section('canonical', route('blog.index'))

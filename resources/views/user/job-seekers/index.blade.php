@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
 
-@section('title', 'Browse Job Seekers — Hire Verified Talent | Jobs in USA')
-@section('meta_description', 'Browse thousands of active U.S. job seekers actively looking for work. Filter by skill, location and experience to find your next great hire on Jobs in USA.')
+@section('title', 'Browse Job Seekers — Hire Verified Talent | JobGader')
+@section('meta_description', 'Browse thousands of active U.S. job seekers actively looking for work. Filter by skill, location and experience to find your next great hire on JobGader.')
 
 @section('content')
 
@@ -438,7 +438,7 @@
                 <div class="js-faq-head">
                     <span class="eyebrow">FAQ</span>
                     <h2>Common questions from <span class="accent">employers</span></h2>
-                    <p>Everything you need to know about hiring through Jobs in USA — from contact options to candidate verification and pricing.</p>
+                    <p>Everything you need to know about hiring through JobGader — from contact options to candidate verification and pricing.</p>
                     <a href="{{ route('register') }}" class="js-faq-cta">Get Started Free <i class="icon-feather-arrow-right"></i></a>
                 </div>
 
@@ -449,7 +449,7 @@
                 </details>
                 <details class="js-faq">
                     <summary>Are these candidates verified?</summary>
-                    <div class="js-faq-body">Every account on Jobs in USA goes through email verification before profiles are listed publicly. Our team also flags suspicious accounts to keep the talent pool clean and trustworthy.</div>
+                    <div class="js-faq-body">Every account on JobGader goes through email verification before profiles are listed publicly. Our team also flags suspicious accounts to keep the talent pool clean and trustworthy.</div>
                 </details>
                 <details class="js-faq">
                     <summary>Is there a cost to browse job seekers?</summary>
@@ -480,7 +480,7 @@
             <header class="jsk-section-head">
                 <span class="eyebrow">Why Job Seekers Choose Us</span>
                 <h2>Trusted by <span class="accent">millions of Americans</span></h2>
-                <p>From first-time applicants to career changers, Jobs in USA helps you find the right role faster — with verified employers and tools built for U.S. talent.</p>
+                <p>From first-time applicants to career changers, JobGader helps you find the right role faster — with verified employers and tools built for U.S. talent.</p>
             </header>
             <div class="jsk-why-grid">
                 <div class="jsk-why-card">
@@ -533,7 +533,7 @@
                 <div class="jsk-seo-visual">
                     <img src="{{ asset('public/user/images/hero-diverse-professionals.webp') }}"
                          onerror="this.onerror=null;this.src='{{ asset('public/user/images/hero-diverse-professionals.jpg') }}'"
-                         alt="U.S. job seekers find verified roles on Jobs in USA" loading="lazy" decoding="async">
+                         alt="U.S. job seekers find verified roles on JobGader" loading="lazy" decoding="async">
                     <div class="jsk-float-badge tl">
                         <div class="ico green"><i class="icon-feather-check-circle"></i></div>
                         <div class="text">
@@ -561,7 +561,7 @@
             <header class="jsk-section-head">
                 <span class="eyebrow">Trusted Companies Hire Here</span>
                 <h2>From local startups to <span class="accent">Fortune 500</span></h2>
-                <p>Verified employers across all U.S. industries actively recruit on Jobs in USA — your next role is just one application away.</p>
+                <p>Verified employers across all U.S. industries actively recruit on JobGader — your next role is just one application away.</p>
             </header>
             <div class="jsk-trust-grid">
                 <div class="jsk-trust-stat"><strong>10,000+</strong><span>Hiring Employers</span></div>

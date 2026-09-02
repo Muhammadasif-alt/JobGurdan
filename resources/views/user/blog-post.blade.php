@@ -1,5 +1,5 @@
 @extends('user.layouts.master')
-@section('title', $blog->meta_title ?? ($blog->title . ' | Jobs in USA Career Blog'))
+@section('title', $blog->meta_title ?? ($blog->title . ' | JobGader Career Blog'))
 @section('meta_description', $blog->meta_description ?? $blog->excerpt ?? \Illuminate\Support\Str::limit(strip_tags($blog->content), 160))
 @section('meta_keywords', $blog->tags ?? ($blog->category?->name ?? ''))
 @section('og_title', $blog->title)
@@ -34,11 +34,11 @@
         "image": {!! json_encode($ogImg) !!},
         "datePublished": {!! json_encode(optional($blog->published_at)->toIso8601String()) !!},
         "dateModified": {!! json_encode(optional($blog->updated_at)->toIso8601String()) !!},
-        "author": { "@@type": "Person", "name": {!! json_encode($blog->author_name ?? $blog->author?->name ?? 'Jobs in USA Editorial') !!} },
+        "author": { "@@type": "Person", "name": {!! json_encode($blog->author_name ?? $blog->author?->name ?? 'JobGader Editorial') !!} },
         "publisher": {
             "@@type": "Organization",
-            "name": "Jobs in USA",
-            "logo": { "@@type": "ImageObject", "url": "{{ asset('public/user/images/Jobs in USA.png') }}" }
+            "name": "JobGader",
+            "logo": { "@@type": "ImageObject", "url": "{{ asset('public/user/images/JobGader.png') }}" }
         },
         "description": {!! json_encode($blog->excerpt ?? \Illuminate\Support\Str::limit(strip_tags($blog->content), 160)) !!},
         "mainEntityOfPage": { "@@type": "WebPage", "@@id": "{{ route('blog.show', $blog->slug) }}" }
@@ -627,7 +627,7 @@
         @endif
         <h1>{{ $blog->title }}</h1>
         <div class="blog-meta">
-            <span><i class="icon-feather-user"></i> By <strong>{{ $blog->author_name ?? $blog->author?->name ?? 'Jobs in USA Editorial' }}</strong></span>
+            <span><i class="icon-feather-user"></i> By <strong>{{ $blog->author_name ?? $blog->author?->name ?? 'JobGader Editorial' }}</strong></span>
             @if($blog->published_at)
                 <span><i class="icon-feather-calendar"></i> {{ $blog->published_at->format('M d, Y') }}</span>
             @endif
@@ -682,7 +682,7 @@
 
                     {{-- Author card --}}
                     @php
-                        $authorName = $blog->author_name ?? $blog->author?->name ?? 'Jobs in USA Editorial';
+                        $authorName = $blog->author_name ?? $blog->author?->name ?? 'JobGader Editorial';
                         $authorInitial = mb_strtoupper(mb_substr($authorName, 0, 1));
                     @endphp
                     <div class="blog-author-card">
@@ -756,7 +756,7 @@
         <div class="container">
             <header class="related-posts-head">
                 <h2>You may also like</h2>
-                <p>More career tips and job search insights from the Jobs in USA team.</p>
+                <p>More career tips and job search insights from the JobGader team.</p>
             </header>
             <div class="related-grid">
                 @foreach($relatedPosts as $related)

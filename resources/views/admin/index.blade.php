@@ -35,7 +35,7 @@
 @endphp
 
 <style>
-    /* === Dashboard custom styles (Jobs in USA — dark #0a0a0a brand) === */
+    /* === Dashboard custom styles (JobGader — dark #0a0a0a brand) === */
     .dash-wrap { padding: 24px 24px 36px; }
     .dash-header {
         display: flex;

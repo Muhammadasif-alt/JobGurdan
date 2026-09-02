@@ -42,7 +42,7 @@ class NewApplicationReceivedNotification extends Notification
             ->action('Review Application', $dashUrl)
             ->line("[View the job posting]({$jobUrl})")
             ->line('Faster responses lead to higher hire rates — most top candidates accept offers within 10 days of applying.')
-            ->salutation('The Jobs in USA Team');
+            ->salutation('The JobGader Team');
     }
 
     public function toArray(object $notifiable): array

@@ -125,7 +125,7 @@ Route::view('/disclaimer', 'pages.disclaimer')->name('pages.disclaimer');
 
 // ============================================
 // HTTP-triggered scheduler (fallback for hosts where shell cron is unreliable)
-// Hit via cron: wget -q -O- "https://jobsinusa.us/cron/run?token=YOUR_SECRET"
+// Hit via cron: wget -q -O- "https://jobgader.com/cron/run?token=YOUR_SECRET"
 // ============================================
 Route::get('/cron/run', function (\Illuminate\Http\Request $request) {
     if ($request->query('token') !== config('app.cron_token', 'change-me-jobs-cron-2026')) {

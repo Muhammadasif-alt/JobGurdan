@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 @section('title', 'Jobs in '.$category->name.' — Browse Verified ' . $category->name . ' Roles in the USA')
-@section('meta_description', 'Find verified ' . $category->name . ' jobs across the United States. Browse ' . $jobs->total() . ' active openings, filter by location and job type, and apply with one click on Jobs in USA.')
+@section('meta_description', 'Find verified ' . $category->name . ' jobs across the United States. Browse ' . $jobs->total() . ' active openings, filter by location and job type, and apply with one click on JobGader.')
 @section('canonical', route('jobs.category', $category->slug))
 
 @section('content')
@@ -474,11 +474,11 @@
     </div>
 </section>
 
-{{-- Why Apply Through Jobs in USA --}}
+{{-- Why Apply Through JobGader --}}
 <section class="cat-trust-section">
     <div class="container">
         <div class="cat-trust-head">
-            <h2>Why apply for {{ $category->name }} jobs through Jobs in USA?</h2>
+            <h2>Why apply for {{ $category->name }} jobs through JobGader?</h2>
             <p>We've built the most trusted way for American job seekers to find verified roles — with employer transparency, smart matching, and zero spam.</p>
         </div>
         <div class="cat-trust-grid">
@@ -500,7 +500,7 @@
             <div class="cat-trust-card">
                 <div class="ico"><i class="icon-feather-users"></i></div>
                 <h4>Trusted by Millions</h4>
-                <p>Over 10 million American job seekers use Jobs in USA to find their next opportunity. Join free today.</p>
+                <p>Over 10 million American job seekers use JobGader to find their next opportunity. Join free today.</p>
             </div>
         </div>
     </div>

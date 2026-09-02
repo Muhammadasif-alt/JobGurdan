@@ -525,7 +525,7 @@
 </div>
 
 {{-- ============================================================
-     Why Companies Trust Jobs in USA — 4-card horizontal row
+     Why Companies Trust JobGader — 4-card horizontal row
      ============================================================ --}}
 <section class="emp-why-section">
     <div class="container">
@@ -569,7 +569,7 @@
                 <span class="eyebrow">Built for U.S. Recruiters</span>
                 <h2>America's most comprehensive <span class="accent">talent platform</span></h2>
                 <p class="emp-seo-lead">
-                    From Fortune 500 hiring teams to single-store retailers, thousands of U.S. companies post their open roles on Jobs in USA every week.
+                    From Fortune 500 hiring teams to single-store retailers, thousands of U.S. companies post their open roles on JobGader every week.
                 </p>
                 <p>
                     Our platform serves verified employers in healthcare, technology, logistics, retail, hospitality, manufacturing, and every major U.S. industry.
@@ -586,7 +586,7 @@
             <div class="emp-seo-visual">
                 <img src="{{ asset('public/user/images/single-company.webp') }}"
                      onerror="this.onerror=null;this.src='{{ asset('public/user/images/single-company.jpg') }}'"
-                     alt="Hire on Jobs in USA — verified employer platform" loading="lazy" decoding="async">
+                     alt="Hire on JobGader — verified employer platform" loading="lazy" decoding="async">
                 <div class="emp-float-badge tl">
                     <div class="ico green"><i class="icon-feather-check-circle"></i></div>
                     <div class="text">

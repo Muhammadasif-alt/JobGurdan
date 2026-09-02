@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 @section('title', 'Browse Jobs by Location — Find Verified Jobs in Every U.S. State')
-@section('meta_description', 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . '+ verified jobs across ' . number_format($heroStats['total_states'] ?? 50) . ' U.S. states. Find local opportunities in your city, area, or ZIP — apply free on Jobs in USA.')
+@section('meta_description', 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . '+ verified jobs across ' . number_format($heroStats['total_states'] ?? 50) . ' U.S. states. Find local opportunities in your city, area, or ZIP — apply free on JobGader.')
 @section('meta_keywords', 'jobs by location usa, jobs near me, find jobs by city, browse jobs by state, jobs by zip code, local jobs america')
 
 @section('content')
@@ -687,7 +687,7 @@
         <header class="top-states-head">
             <span class="eyebrow">Most Active Markets</span>
             <h2 id="top-states-heading">Top Hiring States Right Now</h2>
-            <p>These U.S. states are leading the way with the most active job openings on Jobs in USA. Click any state to explore current verified roles nearby.</p>
+            <p>These U.S. states are leading the way with the most active job openings on JobGader. Click any state to explore current verified roles nearby.</p>
         </header>
 
         <div class="top-states-grid">

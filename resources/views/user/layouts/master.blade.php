@@ -8,13 +8,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Jobs in USA">
+    <meta name="author" content="JobGader">
     <meta name="theme-color" content="#1b3a6b">
     <meta name="google-site-verification" content="OXrNNeaVvS-g-hiCo0sSs2paH_CgPJ_8DB04L46sKWk" />
     @php
         $metaDescription =
             trim($__env->yieldContent('meta_description')) ?:
-            'Find thousands of job opportunities across the USA. Search for jobs by location, category, and experience level on Jobs in USA - your premier job search platform.';
+            'Find thousands of job opportunities across the USA. Search for jobs by location, category, and experience level on JobGader - your premier job search platform.';
         $metaKeywords =
             trim($__env->yieldContent('meta_keywords')) ?:
             'jobs, USA jobs, job search, employment, careers, job listings, work opportunities, hiring, job board';
@@ -25,9 +25,9 @@
     <meta name="keywords" content="@yield('meta_keywords', $metaKeywords)">
     <link rel="canonical" href="@yield('canonical', url()->current())">
     @stack('meta')
-    <meta property="og:title" content="@yield('og_title', 'Jobs in USA - Find Your Dream Job Today')">
+    <meta property="og:title" content="@yield('og_title', 'JobGader - Find Your Dream Job Today')">
     <meta property="og:description" content="@yield('og_description', $metaDescription)">
-    <meta property="og:image" content="@yield('og_image', asset('public/user/images/Jobs in USA.png'))">
+    <meta property="og:image" content="@yield('og_image', asset('public/user/images/JobGader.png'))">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Jobs Portal')</title>
 
@@ -335,8 +335,8 @@
                     <div class="utf-left-side">
                         <div id="logo">
                             <a href="/">
-                                <img class="logo-light" src="{{ asset('public/user/images/jobsinusa-navbar.svg') }}" alt="Jobs in USA" fetchpriority="high" decoding="async" width="120" height="40">
-                                <img class="logo-dark"  src="{{ asset('public/user/images/jobsinusa-navbar-dark.svg') }}" alt="Jobs in USA" fetchpriority="high" decoding="async" width="120" height="40">
+                                <img class="logo-light" src="{{ asset('public/user/images/jobgader-navbar.svg') }}" alt="JobGader" fetchpriority="high" decoding="async" width="120" height="40">
+                                <img class="logo-dark"  src="{{ asset('public/user/images/jobgader-navbar-dark.svg') }}" alt="JobGader" fetchpriority="high" decoding="async" width="120" height="40">
                             </a>
                         </div>
                         <nav id="navigation">
@@ -1524,8 +1524,8 @@
                         <div class="col-xl-4 col-md-12">
                             <div class="utf-footer-item-links">
                                 <a href="/"><img class="footer-logo" loading="lazy" decoding="async"
-                                        src="{{ asset('public/user/images/jobsinusa-dark-logo.svg') }}" alt="Jobs in USA"></a>
-                                <p>Jobs in USA is your premier destination for finding job opportunities across the
+                                        src="{{ asset('public/user/images/jobgader-dark-logo.svg') }}" alt="JobGader"></a>
+                                <p>JobGader is your premier destination for finding job opportunities across the
                                     United States. We connect job seekers with employers in various industries,
                                     locations, and experience levels. Discover your next career opportunity with our
                                     comprehensive job search platform.</p>
@@ -1621,7 +1621,7 @@
                 <div class="utf-footer-copyright-item">
                     <div class="container-fluid px-5">
                         <div class="row">
-                            <div class="col-xl-12">Copyright &copy; 2026 Jobs in USA. All Rights Reserved.</div>
+                            <div class="col-xl-12">Copyright &copy; 2026 JobGader. All Rights Reserved.</div>
                         </div>
                     </div>
                 </div>

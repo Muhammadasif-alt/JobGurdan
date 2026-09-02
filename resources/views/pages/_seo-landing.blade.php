@@ -754,9 +754,9 @@
     // Default FAQ set (used when page doesn't supply custom FAQs)
     $faqs = $faqs ?? [
         ['q' => 'Is it free to apply for ' . strtolower($headline) . '?',
-         'a' => 'Yes — applying for any job on Jobs in USA is 100% free for job seekers. Just create a free account and start applying.'],
+         'a' => 'Yes — applying for any job on JobGader is 100% free for job seekers. Just create a free account and start applying.'],
         ['q' => 'How are these listings verified?',
-         'a' => 'Every employer profile on Jobs in USA is reviewed by our trust and safety team before going live. We verify business legitimacy and remove fraudulent or outdated listings.'],
+         'a' => 'Every employer profile on JobGader is reviewed by our trust and safety team before going live. We verify business legitimacy and remove fraudulent or outdated listings.'],
         ['q' => 'Can I get email alerts for new ' . strtolower($headline) . '?',
          'a' => 'Yes — set up custom job alerts based on keywords, location, salary, and category. We will email you the moment a matching role goes live.'],
         ['q' => 'How quickly are new jobs added?',
