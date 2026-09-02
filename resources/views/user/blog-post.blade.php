@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', $blog->meta_title ?? ($blog->title . ' | JobGader Career Blog'))
-@section('meta_description', $blog->meta_description ?? $blog->excerpt ?? \Illuminate\Support\Str::limit(strip_tags($blog->content), 160))
-@section('meta_keywords', $blog->tags ?? ($blog->category?->name ?? ''))
+@section('title', filled($blog->meta_title) ? $blog->meta_title : $blog->title.' | JobGader Career Blog')
+@section('meta_description', filled($blog->meta_description) ? $blog->meta_description : ($blog->excerpt ?? \Illuminate\Support\Str::limit(strip_tags($blog->content), 160)))
+@section('meta_keywords', filled($blog->tags) ? $blog->tags : ($blog->category?->name ?? ''))
 @section('og_title', $blog->title)
 @section('og_description', $blog->excerpt ?? \Illuminate\Support\Str::limit(strip_tags($blog->content), 160))
 @section('canonical', route('blog.show', $blog->slug))
@@ -15,6 +15,27 @@
             return asset('public/storage/' . $path);
         };
         $ogImg = $resolveImg($blog->featured_image);
+
+        $structuredData = app(\App\Services\StructuredDataService::class);
+        $faqs = $structuredData->faqsFromHtml($blog->content);
+
+        // A spotlight post is written about one specific vacancy. Guides are
+        // round-ups, so they carry no JobPosting markup — the page would not be
+        // describing a single opening, which is what Google requires.
+        $spotlightJob = $blog->job;
+        if ($spotlightJob && ! $structuredData->describesSingleVacancy($spotlightJob->application_url)) {
+            $spotlightJob = null;
+        }
+
+        $organisation = [
+            '@type' => 'Organization',
+            '@id' => url('/').'#organization',
+            'name' => 'JobGader',
+            'url' => url('/'),
+            'logo' => asset('public/user/images/favicon.png'),
+            'description' => 'Verified job listings across the USA, UK and Pakistan, with guides on which visa sponsorship routes are open.',
+            'areaServed' => ['United States', 'United Kingdom', 'Pakistan'],
+        ];
     @endphp
     <meta property="og:image" content="{{ $ogImg }}">
     <meta property="og:type" content="article">
@@ -38,7 +59,7 @@
         "publisher": {
             "@@type": "Organization",
             "name": "JobGader",
-            "logo": { "@@type": "ImageObject", "url": "{{ asset('public/user/images/JobGader.png') }}" }
+            "logo": { "@@type": "ImageObject", "url": "{{ asset('public/user/images/favicon.png') }}" }
         },
         "description": {!! json_encode($blog->excerpt ?? \Illuminate\Support\Str::limit(strip_tags($blog->content), 160)) !!},
         "mainEntityOfPage": { "@@type": "WebPage", "@@id": "{{ route('blog.show', $blog->slug) }}" }
@@ -56,6 +77,83 @@
             { "@@type": "ListItem", "position": 3, "name": {!! json_encode($blog->title) !!} }
         ]
     }
+    </script>
+
+    {{-- JSON-LD: FAQPage — built from the post's own FAQ section, so the markup
+         always matches text a reader can actually see on the page. --}}
+    @if (count($faqs) >= 2)
+        <script type="application/ld+json">
+        {!! json_encode([
+            '@context' => 'https://schema.org',
+            '@type' => 'FAQPage',
+            'mainEntity' => array_map(fn (array $faq) => [
+                '@type' => 'Question',
+                'name' => $faq['question'],
+                'acceptedAnswer' => ['@type' => 'Answer', 'text' => $faq['answer']],
+            ], $faqs),
+        ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+        </script>
+    @endif
+
+    {{-- JSON-LD: JobPosting — spotlight posts only. The @@id matches the job
+         detail page's node so Google reads one vacancy mentioned twice, not two
+         competing postings. --}}
+    @if ($spotlightJob)
+        @php
+            $jobUrl = route('jobs.show', \Illuminate\Support\Str::slug($spotlightJob->position.'-'.($spotlightJob->location->name ?? '')));
+            $jobPosting = [
+                '@context' => 'https://schema.org',
+                '@type' => 'JobPosting',
+                '@id' => $jobUrl.'#jobposting',
+                'url' => $jobUrl,
+                'title' => $spotlightJob->position,
+                'description' => $spotlightJob->description,
+                'datePosted' => optional($spotlightJob->created_at)->toIso8601String(),
+                'validThrough' => optional($spotlightJob->created_at)->addDays(60)->toIso8601String(),
+                'employmentType' => strtoupper(str_replace([' ', '-'], '_', (string) ($spotlightJob->employment_type ?: 'Full time'))),
+                'hiringOrganization' => [
+                    '@type' => 'Organization',
+                    'name' => $spotlightJob->advertiser->name ?? 'JobGader',
+                ],
+                'jobLocation' => [
+                    '@type' => 'Place',
+                    'address' => array_filter([
+                        '@type' => 'PostalAddress',
+                        'addressLocality' => $spotlightJob->location->name ?? null,
+                        'addressRegion' => $spotlightJob->location->area ?? null,
+                        'addressCountry' => $spotlightJob->location->country ?? null,
+                    ]),
+                ],
+                'mainEntityOfPage' => ['@type' => 'WebPage', '@id' => $jobUrl],
+            ];
+
+            if ($spotlightJob->salary_minimum && $spotlightJob->salary_maximum) {
+                $unitMap = ['Hourly' => 'HOUR', 'Daily' => 'DAY', 'Weekly' => 'WEEK', 'Monthly' => 'MONTH', 'Yearly' => 'YEAR'];
+                $jobPosting['baseSalary'] = [
+                    '@type' => 'MonetaryAmount',
+                    'currency' => $spotlightJob->salary_currency ?: 'USD',
+                    'value' => [
+                        '@type' => 'QuantitativeValue',
+                        'minValue' => (float) $spotlightJob->salary_minimum,
+                        'maxValue' => (float) $spotlightJob->salary_maximum,
+                        'unitText' => $unitMap[$spotlightJob->salary_period] ?? 'MONTH',
+                    ],
+                ];
+            }
+
+            if (strcasecmp((string) $spotlightJob->job_type, 'Remote') === 0) {
+                $jobPosting['jobLocationType'] = 'TELECOMMUTE';
+            }
+        @endphp
+        <script type="application/ld+json">
+        {!! json_encode($jobPosting, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+        </script>
+    @endif
+
+    {{-- JSON-LD: Organization — the publisher as its own entity, so the posts,
+         the job listings and the site all resolve to one business. --}}
+    <script type="application/ld+json">
+    {!! json_encode(['@context' => 'https://schema.org'] + $organisation, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
     </script>
 @endpush
 

@@ -1,17 +1,17 @@
 @extends('user.layouts.master')
-@section('title', 'About JobGader — America\'s Trusted Job Search Platform Since 2024')
-@section('meta_description', 'Learn how JobGader connects 10M+ American job seekers with verified employers across all 50 states. Discover our mission, values, story & how we make hiring transparent, fast, and 100% free for candidates.')
-@section('meta_keywords', 'about jobs in usa, USA job board, american job search platform, verified employer platform, free job search usa, job market america, hiring united states, employment platform, work in america, find jobs USA')
-@section('og_title', 'About JobGader — America\'s Trusted Job Search Platform')
-@section('og_description', 'Verified jobs across all 50 U.S. states. Learn how JobGader connects 10M+ professionals with hiring employers nationwide.')
+@section('title', 'About JobGader — Jobs and Honest Visa Guides')
+@section('meta_description', 'Why JobGader exists: hand-checked job listings across the USA, UK and Pakistan, and visa sponsorship guides that say which routes are open and which are closed.')
+@section('meta_keywords', 'about jobgader, job board, visa sponsorship guides, jobs usa uk pakistan, free job search, jobs for foreigners, work abroad, hand checked job listings')
+@section('og_title', 'About JobGader — Jobs and Honest Visa Guides')
+@section('og_description', 'Hand-checked jobs across the USA, UK and Pakistan, plus visa guides that tell you which sponsorship routes are actually open.')
 @section('og_image', asset('public/user/images/single-company.jpg'))
 @section('canonical', route('about.us'))
 
 @push('meta')
     {{-- Twitter card --}}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="About JobGader — America's Trusted Job Search Platform">
-    <meta name="twitter:description" content="Verified jobs across all 50 U.S. states. Connecting 10M+ professionals with hiring employers nationwide.">
+    <meta name="twitter:title" content="About JobGader — Jobs and Honest Visa Guides">
+    <meta name="twitter:description" content="Hand-checked jobs across the USA, UK and Pakistan, plus visa guides that say which routes are open.">
     <meta name="twitter:image" content="{{ asset('public/user/images/single-company.jpg') }}">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="author" content="JobGader">
@@ -25,15 +25,14 @@
         "@@context": "https://schema.org",
         "@@type": "Organization",
         "name": "JobGader",
-        "alternateName": "JobsinUSA",
         "url": "{{ url('/') }}",
-        "logo": "{{ asset('public/user/images/JobGader.png') }}",
-        "description": "America's trusted job search platform connecting verified employers with millions of qualified job seekers across all 50 U.S. states.",
-        "foundingDate": "2024",
-        "areaServed": {
-            "@@type": "Country",
-            "name": "United States"
-        },
+        "logo": "{{ asset('public/user/images/favicon.png') }}",
+        "description": "A job board and guide site covering openings in the USA, UK and Pakistan, with plain-English write-ups of which visa sponsorship routes are open to foreign workers.",
+        "areaServed": [
+            { "@@type": "Country", "name": "United States" },
+            { "@@type": "Country", "name": "United Kingdom" },
+            { "@@type": "Country", "name": "Pakistan" }
+        ],
         "sameAs": [
             "{{ url('/') }}"
         ],
@@ -53,13 +52,13 @@
         "@@type": "AboutPage",
         "name": "About JobGader",
         "url": "{{ route('about.us') }}",
-        "description": "Learn about JobGader — our mission, story, and how we connect millions of American job seekers with verified employers across all 50 states.",
+        "description": "How JobGader works: hand-checked job listings across the USA, UK and Pakistan, and visa sponsorship guides that say which routes are open and which have closed.",
         "publisher": {
             "@@type": "Organization",
             "name": "JobGader",
             "logo": {
                 "@@type": "ImageObject",
-                "url": "{{ asset('public/user/images/JobGader.png') }}"
+                "url": "{{ asset('public/user/images/favicon.png') }}"
             }
         }
     }
@@ -88,39 +87,63 @@
                 "name": "What is JobGader?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
-                    "text": "JobGader is a verified online employment platform connecting millions of American job seekers with hiring employers across all 50 U.S. states. We list full-time, part-time, remote, and hybrid roles in industries ranging from healthcare and IT to construction and retail."
+                    "text": "JobGader is a job board and guide site covering openings in the USA, UK and Pakistan. Alongside the listings we publish guides explaining which visa sponsorship routes are genuinely open to foreign workers, which have closed, and what each role actually pays."
                 }
             },
             {
                 "@@type": "Question",
-                "name": "Is JobGader free for job seekers?",
+                "name": "Is JobGader free to use?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
-                    "text": "Yes. Creating an account, building a profile, browsing job listings, and applying for positions on JobGader is 100% free for job seekers. Employers pay to post jobs and access advanced hiring features."
+                    "text": "Yes, and you do not need an account. Every listing can be opened and applied to without signing up. We never charge job seekers, and no legitimate employer or recruiter should either."
                 }
             },
             {
                 "@@type": "Question",
-                "name": "How are job listings verified on JobGader?",
+                "name": "Do I need an account to apply for a job?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
-                    "text": "Every employer profile is reviewed by our trust and safety team before being approved. We verify business legitimacy, monitor activity, and remove fraudulent or outdated listings — keeping the platform safe for job seekers."
+                    "text": "No. An account is optional and only useful if you want to save roles for later. Applications go straight through to the employer or the original posting."
                 }
             },
             {
                 "@@type": "Question",
-                "name": "What states and industries does JobGader cover?",
+                "name": "Which countries and industries do you cover?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
-                    "text": "JobGader covers all 50 U.S. states and a wide range of industries including healthcare, technology, construction, retail, hospitality, transport and logistics, finance, education, and more — for entry-level, mid-career, and executive roles."
+                    "text": "The USA, UK and Pakistan, across transport and logistics, hospitality, healthcare and care, construction and trades, cleaning and facilities, marketing, and IT and software."
                 }
             },
             {
                 "@@type": "Question",
-                "name": "Can I find remote jobs on JobGader?",
+                "name": "Are the visa sponsorship guides accurate?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
-                    "text": "Yes. JobGader features a dedicated remote and hybrid jobs section. You can filter by Remote, Work-From-Home, or Hybrid roles directly in the search bar to see all matching positions."
+                    "text": "We write them from official sources such as gov.uk, USCIS and the US Department of Labor, and we say plainly when a route is closed. The UK care worker route shut to new overseas applicants in July 2025, and our guide leads with that rather than selling a visa that no longer exists."
+                }
+            },
+            {
+                "@@type": "Question",
+                "name": "How are listings checked?",
+                "acceptedAnswer": {
+                    "@@type": "Answer",
+                    "text": "Every listing is added and reviewed by our team rather than scraped automatically, and each one links to the employer or original posting so you can verify it yourself before applying."
+                }
+            },
+            {
+                "@@type": "Question",
+                "name": "Should I ever pay for a job or a visa?",
+                "acceptedAnswer": {
+                    "@@type": "Answer",
+                    "text": "No. Charging a worker for visa sponsorship is illegal in both the US and the UK. If a recruiter or agency asks for an upfront fee to guarantee a job or a visa, treat it as a scam."
+                }
+            },
+            {
+                "@@type": "Question",
+                "name": "How often is the site updated?",
+                "acceptedAnswer": {
+                    "@@type": "Answer",
+                    "text": "New listings and guides go up every week, and the newest openings always appear at the top of the home page and the jobs board."
                 }
             }
         ]
@@ -991,29 +1014,29 @@
             <div class="about-hero-row">
                 <div>
                     <span class="about-hero-tag" data-aos="fade-down" data-aos-duration="600">About JobGader</span>
-                    <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">America's trusted job search platform — connecting <span>10M+ professionals</span> with verified U.S. employers</h1>
-                    <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Since 2024, JobGader has been on a mission to make the American job market more accessible, transparent, and human. We bring together talented job seekers and verified employers across all 50 states — making the search for meaningful work simpler, safer, and 100% free for candidates.</p>
+                    <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Real jobs, and <span>straight answers</span> about the visa routes behind them</h1>
+                    <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">JobGader lists hand-checked openings across the USA, UK and Pakistan &mdash; and publishes guides that say which sponsorship routes are genuinely open, which have closed, and what each role actually pays. Free to apply, and you never need an account.</p>
                     <div class="about-hero-cta" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
-                        <a href="{{ route('register') }}">Find Your Next Role <i class="icon-feather-arrow-right"></i></a>
+                        <a href="{{ route('jobs.index') }}">Browse Open Jobs <i class="icon-feather-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="about-hero-visual">
                     <img src="{{ asset('public/user/images/single-company.webp') }}"
-                         alt="About JobGader — America's trusted employment platform connecting verified employers and job seekers nationwide"
+                         alt="About JobGader — job listings and visa sponsorship guides for the USA, UK and Pakistan"
                          loading="lazy"
                          onerror="this.onerror=null;this.src='{{ asset('public/user/images/single-company.jpg') }}'">
                     <div class="about-hero-float tl">
-                        <div class="ico"><i class="icon-feather-users"></i></div>
+                        <div class="ico"><i class="icon-feather-globe"></i></div>
                         <div>
-                            <strong>10M+</strong>
-                            <span>Job seekers served</span>
+                            <strong>3 Countries</strong>
+                            <span>USA, UK and Pakistan</span>
                         </div>
                     </div>
                     <div class="about-hero-float br">
                         <div class="ico green"><i class="icon-feather-check-circle"></i></div>
                         <div>
-                            <strong>Verified</strong>
-                            <span>Trusted U.S. employers only</span>
+                            <strong>Hand-checked</strong>
+                            <span>Every listing, before it goes live</span>
                         </div>
                     </div>
                 </div>
@@ -1026,20 +1049,20 @@
         <div class="container">
             <div class="about-stats-grid">
                 <div class="about-stat-card">
-                    <div class="stat-num">10M+</div>
-                    <div class="stat-label">Job Seekers Served</div>
-                </div>
-                <div class="about-stat-card">
                     <div class="stat-num">3</div>
-                    <div class="stat-label">Active Job Listings</div>
+                    <div class="stat-label">Countries Covered</div>
                 </div>
                 <div class="about-stat-card">
-                    <div class="stat-num">15K+</div>
-                    <div class="stat-label">Verified Employers</div>
+                    <div class="stat-num">Weekly</div>
+                    <div class="stat-label">New Jobs &amp; Guides</div>
                 </div>
                 <div class="about-stat-card">
-                    <div class="stat-num">50</div>
-                    <div class="stat-label">U.S. States Covered</div>
+                    <div class="stat-num">No</div>
+                    <div class="stat-label">Sign-Up Required</div>
+                </div>
+                <div class="about-stat-card">
+                    <div class="stat-num">100%</div>
+                    <div class="stat-label">Free for Job Seekers</div>
                 </div>
             </div>
         </div>
@@ -1051,23 +1074,23 @@
             <div class="about-section-head">
                 <span class="tag">What Drives Us</span>
                 <h2>Our Mission, Vision &amp; Values</h2>
-                <p>The principles that guide how JobGader serves job seekers, employers, and the broader American workforce every single day.</p>
+                <p>Why we publish what we publish, and the line we will not cross to get traffic.</p>
             </div>
             <div class="mvv-grid">
                 <div class="mvv-card">
                     <div class="ico"><i class="icon-feather-target"></i></div>
                     <h3>Our Mission</h3>
-                    <p>To make finding work in the United States simpler, faster, and more transparent — by connecting verified employers with talented job seekers, regardless of location, background, or industry.</p>
+                    <p>To make working abroad less of a guessing game &mdash; by pairing real openings with an honest account of the visa route behind each one, so nobody wastes months chasing a job they were never eligible for.</p>
                 </div>
                 <div class="mvv-card">
                     <div class="ico"><i class="icon-feather-eye"></i></div>
                     <h3>Our Vision</h3>
-                    <p>A future where every American has access to fair, real, and meaningful employment opportunities — and where hiring is based on skills, fit, and potential rather than guesswork or gatekeeping.</p>
+                    <p>A job search where the hard information is free and public: which routes are open, what the pay really is, and which recruiters are charging for something that should never cost a worker a penny.</p>
                 </div>
                 <div class="mvv-card">
                     <div class="ico"><i class="icon-feather-heart"></i></div>
                     <h3>Our Values</h3>
-                    <p><strong>Integrity</strong> in every listing. <strong>Transparency</strong> in every interaction. <strong>Inclusivity</strong> for every job seeker. <strong>Excellence</strong> in every match. These aren't slogans — they're how we operate.</p>
+                    <p><strong>Say it plainly</strong>, even when the answer is no. <strong>Cite the source</strong>, not a rumour. <strong>Never charge a job seeker.</strong> <strong>Publish nothing we cannot verify</strong> &mdash; including our own numbers.</p>
                 </div>
             </div>
         </div>
@@ -1079,26 +1102,26 @@
             <div class="about-section-head">
                 <span class="tag">How It Works</span>
                 <h2>Find your next role in three simple steps</h2>
-                <p>From creating your profile to landing the offer, our platform is built around speed, clarity, and outcomes.</p>
+                <p>No sign-up wall and no fees. Pick a country, check what the visa route allows, then apply straight through.</p>
             </div>
             <div class="how-grid">
                 <div class="how-card">
                     <div class="step-num">01</div>
                     <div class="ico"><i class="icon-line-awesome-user-plus"></i></div>
-                    <h3>Build Your Profile</h3>
-                    <p>Create a free account in minutes. Upload your resume, list your skills, and let us match you with roles that actually fit.</p>
+                    <h3>Pick Your Country</h3>
+                    <p>Openings across the USA, UK and Pakistan &mdash; general labour and hospitality through to skilled trades and senior engineering.</p>
                 </div>
                 <div class="how-card">
                     <div class="step-num">02</div>
                     <div class="ico"><i class="icon-line-awesome-search"></i></div>
-                    <h3>Search Smarter</h3>
-                    <p>Browse hand-checked jobs across the USA, UK and Pakistan. Filter by salary, location, schedule, and more.</p>
+                    <h3>Check the Visa Route</h3>
+                    <p>Read the guide for that sector first. It sets out which routes are open, the real pay range, and the scam patterns to avoid.</p>
                 </div>
                 <div class="how-card">
                     <div class="step-num">03</div>
                     <div class="ico"><i class="icon-line-awesome-paper-plane"></i></div>
-                    <h3>Apply With Confidence</h3>
-                    <p>Submit applications in one click and track everything in your dashboard. Get hired faster — and stay informed throughout.</p>
+                    <h3>Apply Direct, Free</h3>
+                    <p>Applications go straight to the employer or the original posting. No account, no fee, no middleman taking a cut.</p>
                 </div>
             </div>
         </div>
@@ -1109,57 +1132,57 @@
         <div class="container">
             <div class="benefits-head" style="text-align: center; margin-bottom: 44px;">
                 <span class="tag">Why JobGader</span>
-                <h2>Built for job seekers who care about <span>quality</span></h2>
+                <h2>What you actually get from <span>JobGader</span></h2>
             </div>
             <div class="benefits-row">
                 <div class="benefits-visual">
-                    <img src="{{ asset('public/user/images/partir-usa.webp') }}" alt="Why job seekers choose JobGader" loading="lazy" onerror="this.onerror=null;this.src='{{ asset('public/user/images/partir-usa.jpg') }}'">
+                    <img src="{{ asset('public/user/images/partir-usa.webp') }}" alt="Job seeker reading a JobGader visa sponsorship guide" loading="lazy" onerror="this.onerror=null;this.src='{{ asset('public/user/images/partir-usa.jpg') }}'">
                 </div>
                 <div class="benefits-list">
                     <div class="benefit-item">
                         <div class="ico"><i class="icon-feather-shield"></i></div>
-                        <h4>Every Listing Verified</h4>
-                        <p>Real jobs from screened employers — no scams or ghost posts.</p>
+                        <h4>Hand-Checked Listings</h4>
+                        <p>Added and reviewed by us, not scraped. Each one links to the employer or original posting so you can verify it.</p>
                     </div>
                     <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-zap"></i></div>
-                        <h4>Apply in One Click</h4>
-                        <p>Save your resume once and apply instantly to any role.</p>
-                    </div>
-                    <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-bell"></i></div>
-                        <h4>Smart Job Alerts</h4>
-                        <p>Real-time pings when matching roles go live.</p>
-                    </div>
-                    <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-lock"></i></div>
-                        <h4>Privacy by Default</h4>
-                        <p>Your data stays yours — current employers never see it.</p>
+                        <div class="ico"><i class="icon-feather-alert-circle"></i></div>
+                        <h4>Closed Routes Named</h4>
+                        <p>When a visa route shuts, we say so up front instead of leaving an old guide up to collect clicks.</p>
                     </div>
                     <div class="benefit-item">
                         <div class="ico"><i class="icon-feather-dollar-sign"></i></div>
-                        <h4>100% Free Forever</h4>
-                        <p>Browse, apply, and get hired without paying a cent.</p>
+                        <h4>Researched Pay Ranges</h4>
+                        <p>Hourly rates and annual bands with the source explained &mdash; not a scraped estimate presented as fact.</p>
                     </div>
                     <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-target"></i></div>
-                        <h4>AI-Matched Roles</h4>
-                        <p>Jobs that actually match your skills — not just keywords.</p>
+                        <div class="ico"><i class="icon-feather-user-x"></i></div>
+                        <h4>No Account Needed</h4>
+                        <p>Open any listing and apply. No sign-up wall, no resume paywall, nothing to unsubscribe from later.</p>
                     </div>
                     <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-message-square"></i></div>
-                        <h4>Direct Messaging</h4>
-                        <p>Reach hiring managers directly — skip the recruiters.</p>
+                        <div class="ico"><i class="icon-feather-slash"></i></div>
+                        <h4>Never a Fee</h4>
+                        <p>Charging a worker for sponsorship is illegal in the US and UK. We will never ask you for money, at any stage.</p>
                     </div>
                     <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-trending-up"></i></div>
-                        <h4>Career Growth Tools</h4>
-                        <p>Free resume tips, interview guides, and salary insights.</p>
+                        <div class="ico"><i class="icon-feather-globe"></i></div>
+                        <h4>Three Countries</h4>
+                        <p>USA, UK and Pakistan &mdash; trucking, hospitality, care, construction, cleaning, marketing and software.</p>
                     </div>
                     <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-check-square"></i></div>
-                        <h4>Application Tracking</h4>
-                        <p>Track every application from submit to offer in one dashboard.</p>
+                        <div class="ico"><i class="icon-feather-file-text"></i></div>
+                        <h4>Official Sources</h4>
+                        <p>Guides written from gov.uk, USCIS and Department of Labor material, with the rule and the date it changed.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="ico"><i class="icon-feather-eye"></i></div>
+                        <h4>Scam Patterns Flagged</h4>
+                        <p>Upfront "processing fees", fake sponsorship tags and guaranteed-visa promises, explained sector by sector.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="ico"><i class="icon-feather-refresh-cw"></i></div>
+                        <h4>Updated Weekly</h4>
+                        <p>New listings and guides every week, with the newest openings first on the home page and jobs board.</p>
                     </div>
                 </div>
             </div>
@@ -1170,43 +1193,25 @@
     <section class="about-section gray">
         <div class="container">
             <div class="about-section-head">
-                <span class="tag">Real Stories</span>
-                <h2>Trusted by job seekers across America</h2>
-                <p>Hear from professionals who found their next chapter through JobGader.</p>
+                <span class="tag">How We Work</span>
+                <h2>The rules we hold ourselves to</h2>
+                <p>We are a young site, so instead of testimonials, here is exactly how the listings and guides on JobGader are put together.</p>
             </div>
-            <div class="testimonial-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">I switched from a dead-end retail role to a full-time customer success position in 19 days. The verified job filter alone saved me hours of frustration with sketchy postings.</p>
-                    <div class="testimonial-author">
-                        <img src="{{ asset('public/user/images/user_small_1.jpg') }}" alt="" loading="lazy" decoding="async">
-                        <div>
-                            <div class="name">Erin J.</div>
-                            <div class="role">Customer Success Manager · Texas</div>
-                        </div>
-                    </div>
+            <div class="mvv-grid">
+                <div class="mvv-card">
+                    <div class="ico"><i class="icon-feather-file-text"></i></div>
+                    <h3>Sourced, Not Guessed</h3>
+                    <p>Visa rules come from gov.uk, USCIS and the US Department of Labor, with the rule and the date it changed stated in the text. Pay ranges cite where the figure comes from rather than presenting an estimate as fact.</p>
                 </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">After being laid off in tech, I was skeptical about job boards. JobGader matched me with three remote roles within a week. I accepted the second one and started the next month.</p>
-                    <div class="testimonial-author">
-                        <img src="{{ asset('public/user/images/user_small_2.jpg') }}" alt="" loading="lazy" decoding="async">
-                        <div>
-                            <div class="name">Michelle D.</div>
-                            <div class="role">Senior Software Engineer · Remote</div>
-                        </div>
-                    </div>
+                <div class="mvv-card">
+                    <div class="ico"><i class="icon-feather-alert-circle"></i></div>
+                    <h3>Bad News Goes First</h3>
+                    <p>When a route is closed, the guide opens with that. UK care worker sponsorship shut to new overseas applicants in July 2025, and standard warehouse and cleaning roles have never met the Skilled Worker thresholds &mdash; so those guides say so in the first paragraph.</p>
                 </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">The job alerts are a game-changer. Got pinged about a healthcare role 30 minutes after it went live, applied immediately, and was interviewed the same week. Couldn't recommend enough.</p>
-                    <div class="testimonial-author">
-                        <img src="{{ asset('public/user/images/user_small_3.jpg') }}" alt="" loading="lazy" decoding="async">
-                        <div>
-                            <div class="name">Marcus T.</div>
-                            <div class="role">Registered Nurse · Florida</div>
-                        </div>
-                    </div>
+                <div class="mvv-card">
+                    <div class="ico"><i class="icon-feather-shield"></i></div>
+                    <h3>Nothing Behind a Wall</h3>
+                    <p>No sign-up to apply, no fee at any stage, and no data sold on. Charging a worker for visa sponsorship is illegal in both the US and the UK, and we flag the recruiters who try it.</p>
                 </div>
             </div>
         </div>
@@ -1219,12 +1224,12 @@
                 <div class="story-content">
                     <span class="about-hero-tag">Our Story</span>
                     <h2>Why JobGader <span>exists</span></h2>
-                    <p>JobGader was started by a small team that was tired of the same broken job search experience: outdated listings, recycled posts from staffing agencies, hidden salaries, and zero accountability.</p>
-                    <p>We built this platform around a simple belief — finding work shouldn't feel like a second job. Every listing is verified, every employer is reviewed, and every feature is designed to put control back in the hands of job seekers.</p>
-                    <p>Today, we serve millions of professionals across all 50 states. From entry-level workers to senior executives, from healthcare to construction to remote tech, we're proud to be a small piece of the journey for every American who deserves a better way to work.</p>
+                    <p>JobGader started from a specific frustration: search "warehouse jobs UK visa sponsorship" or "caregiver jobs UK" and you get page after page of sites promising sponsorship that the rules no longer allow. Some are years out of date. Some are agencies charging a fee for a visa that does not exist.</p>
+                    <p>So we built the opposite. Every guide leads with the current rule and where it comes from &mdash; gov.uk, USCIS, the Department of Labor &mdash; even when the honest answer is that a route closed and is not coming back. The UK care worker visa shut to new overseas applicants in July 2025; our guide says that in the first paragraph rather than burying it.</p>
+                    <p>We are a small team and this is a young site. We would rather publish eight guides we can stand behind than eight thousand listings we have never looked at, and we would rather tell you a route is closed than take the click.</p>
                 </div>
                 <div class="story-visual">
-                    <img src="{{ asset('public/user/images/about-founders.jpg') }}" alt="JobGader founders" loading="lazy" decoding="async">
+                    <img src="{{ asset('public/user/images/about-founders.jpg') }}" alt="The JobGader team reviewing job listings and visa guidance" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -1235,8 +1240,8 @@
         <div class="container">
             <div class="about-section-head">
                 <span class="tag">Industries We Serve</span>
-                <h2>Jobs across every major U.S. industry</h2>
-                <p>From entry-level openings to senior leadership roles, JobGader features verified opportunities across the full spectrum of American industries.</p>
+                <h2>The sectors we cover</h2>
+                <p>From entry-level labour to senior engineering &mdash; the industries where we list openings and publish sponsorship guidance.</p>
             </div>
             <div class="industries-grid">
                 <a href="{{ route('pages.healthcare-jobs') }}" class="industry-card">
@@ -1318,97 +1323,92 @@
     <section class="about-section gray about-press" aria-labelledby="press-heading">
         <div class="container">
             <div class="about-section-head">
-                <span class="tag">Recognition &amp; Trust</span>
-                <h2 id="press-heading">A trusted name in U.S. employment</h2>
-                <p>From media coverage to industry partnerships and platform safety certifications &mdash; here's why millions of American job seekers and employers choose JobGader every month.</p>
+                <span class="tag">How We Operate</span>
+                <h2 id="press-heading">What we can actually stand behind</h2>
+                <p>No awards, no press quotes, no invented user counts &mdash; just the commitments that govern what goes on this site.</p>
             </div>
 
             <div class="press-grid">
                 <article class="press-card">
-                    <div class="press-ico"><i class="icon-feather-shield"></i></div>
-                    <h3>Verified Employer Network</h3>
-                    <p>Every employer is screened through our multi-step verification process before posting their first job &mdash; covering business registration, identity, and listing authenticity.</p>
-                    <span class="press-badge">100% Verified</span>
+                    <div class="press-ico"><i class="icon-feather-check-circle"></i></div>
+                    <h3>Reviewed Before Publishing</h3>
+                    <p>Every listing is added by hand and links through to the employer or the original posting, so you can confirm it exists before spending time on an application.</p>
+                    <span class="press-badge">Hand-Checked</span>
                 </article>
-
                 <article class="press-card">
-                    <div class="press-ico"><i class="icon-feather-award"></i></div>
-                    <h3>Featured by Career Media</h3>
-                    <p>Quoted &amp; cited in articles about U.S. employment trends, remote work, and the modern job search by leading career publications and HR newsletters.</p>
-                    <span class="press-badge">Press Recognised</span>
+                    <div class="press-ico"><i class="icon-feather-book-open"></i></div>
+                    <h3>Guides Cite Their Sources</h3>
+                    <p>Each visa guide names the rule it relies on and where it came from — gov.uk, USCIS or the Department of Labor — along with the date that rule took effect.</p>
+                    <span class="press-badge">Sourced</span>
                 </article>
-
                 <article class="press-card">
                     <div class="press-ico"><i class="icon-feather-lock"></i></div>
                     <h3>Privacy &amp; Data Protection</h3>
-                    <p>SSL-encrypted across the entire site, GDPR &amp; CCPA aligned, with strict policies on data sharing. Your resume and contact details stay yours &mdash; period.</p>
-                    <span class="press-badge">SSL Secured</span>
+                    <p>The site runs over HTTPS end to end. You can browse and apply without an account, so in most cases we hold no data about you at all.</p>
+                    <span class="press-badge">HTTPS Secured</span>
                 </article>
-
                 <article class="press-card">
-                    <div class="press-ico"><i class="icon-feather-thumbs-up"></i></div>
-                    <h3>Job Seeker Approved</h3>
-                    <p>Rated highly by U.S. candidates for transparency, application speed, and the quality of openings &mdash; without a single dollar charged to job seekers, ever.</p>
-                    <span class="press-badge">Loved by Users</span>
+                    <div class="press-ico"><i class="icon-feather-dollar-sign"></i></div>
+                    <h3>Free for Job Seekers</h3>
+                    <p>No subscription, no resume paywall, no placement fee. We have never charged a job seeker and have no plans to.</p>
+                    <span class="press-badge">Always Free</span>
                 </article>
-
                 <article class="press-card">
-                    <div class="press-ico"><i class="icon-feather-users"></i></div>
-                    <h3>Employer Friendly</h3>
-                    <p>Trusted by U.S. companies of every size &mdash; from Fortune 500 corporations to fast-growing local businesses &mdash; to fill roles across all 50 states efficiently.</p>
-                    <span class="press-badge">Trusted by Employers</span>
+                    <div class="press-ico"><i class="icon-feather-globe"></i></div>
+                    <h3>Three Countries Covered</h3>
+                    <p>The USA, UK and Pakistan — spanning transport, hospitality, care, construction, cleaning, marketing and software roles.</p>
+                    <span class="press-badge">USA · UK · PK</span>
                 </article>
-
                 <article class="press-card">
                     <div class="press-ico"><i class="icon-feather-zap"></i></div>
                     <h3>Built for Speed</h3>
-                    <p>Engineered to load fast, work on every device, and keep listings fresh in real time. Less waiting, more applying &mdash; that's the JobGader promise.</p>
-                    <span class="press-badge">Optimised Platform</span>
+                    <p>Light pages that load quickly on a phone and a slow connection, because a lot of people searching for this work are not reading on fast broadband.</p>
+                    <span class="press-badge">Fast on Mobile</span>
                 </article>
             </div>
 
-            {{-- Recognition strip — logos / standards row --}}
-            <div class="press-strip" role="list" aria-label="Recognition and standards">
+            {{-- Standards strip --}}
+            <div class="press-strip" role="list" aria-label="Standards">
                 <div class="press-strip-item" role="listitem">
                     <i class="icon-feather-shield"></i>
                     <div>
-                        <strong>SSL Secured</strong>
-                        <span>256-bit encryption</span>
+                        <strong>HTTPS Secured</strong>
+                        <span>Encrypted end to end</span>
                     </div>
                 </div>
                 <div class="press-strip-item" role="listitem">
                     <i class="icon-feather-check-circle"></i>
                     <div>
-                        <strong>Verified Listings</strong>
-                        <span>Every job, every employer</span>
+                        <strong>Hand-Checked</strong>
+                        <span>Every listing reviewed</span>
                     </div>
                 </div>
                 <div class="press-strip-item" role="listitem">
                     <i class="icon-feather-globe"></i>
                     <div>
-                        <strong>50 States Coverage</strong>
-                        <span>Coast to coast</span>
+                        <strong>3 Countries</strong>
+                        <span>USA, UK and Pakistan</span>
                     </div>
                 </div>
                 <div class="press-strip-item" role="listitem">
-                    <i class="icon-feather-clock"></i>
+                    <i class="icon-feather-refresh-cw"></i>
                     <div>
-                        <strong>Updated Daily</strong>
-                        <span>Fresh openings every day</span>
+                        <strong>Updated Weekly</strong>
+                        <span>New jobs and guides</span>
                     </div>
                 </div>
                 <div class="press-strip-item" role="listitem">
-                    <i class="icon-feather-users"></i>
+                    <i class="icon-feather-dollar-sign"></i>
                     <div>
-                        <strong>10M+ Job Seekers</strong>
-                        <span>Active candidates</span>
+                        <strong>No Fees</strong>
+                        <span>Free for job seekers</span>
                     </div>
                 </div>
             </div>
 
             <div class="press-cta">
-                <a href="{{ route('register') }}" class="press-btn">Join 10M+ U.S. job seekers <i class="icon-material-outline-arrow-right-alt"></i></a>
-                <span class="press-cta-note">Free for life &middot; No credit card &middot; 1-minute signup</span>
+                <a href="{{ route('jobs.index') }}" class="press-btn">Browse open jobs <i class="icon-material-outline-arrow-right-alt"></i></a>
+                <span class="press-cta-note">Free &middot; No account needed &middot; Apply direct</span>
             </div>
         </div>
     </section>

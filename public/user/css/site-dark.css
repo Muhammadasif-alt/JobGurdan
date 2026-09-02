@@ -1863,3 +1863,112 @@
         html.dark-mode .ca-morenews-card .thumb,
         html.dark-mode .related-card-thumb,
         html.dark-mode .career-thumb { background: #11151c !important; }
+
+        /* === SEO landing pages (/remote-jobs-usa and siblings) ===
+           These pages carry their own light CSS, so every surface needs an
+           explicit dark counterpart — otherwise the theme's light text colour
+           lands on their hardcoded white backgrounds. */
+        html.dark-mode .seo-landing-hero {
+            background: linear-gradient(180deg, #12161d 0%, var(--site-bg) 60%, #12161d 100%) !important;
+        }
+        html.dark-mode .seo-landing-hero .breadcrumbs-mini { color: var(--site-muted) !important; }
+        html.dark-mode .seo-landing-hero .breadcrumbs-mini a { color: #7cc0f0 !important; }
+        html.dark-mode .seo-landing-hero .eyebrow {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: #7cc0f0 !important;
+        }
+        html.dark-mode .seo-landing-hero h1 { color: var(--site-text) !important; }
+        html.dark-mode .seo-landing-hero h1 .accent { color: #4da3e8 !important; }
+        html.dark-mode .seo-landing-hero p.lead { color: var(--site-muted) !important; }
+        html.dark-mode .seo-landing-hero .hero-stats { background: transparent !important; }
+        html.dark-mode .seo-landing-hero .hero-stats .stat strong { color: var(--site-text) !important; }
+        html.dark-mode .seo-landing-hero .hero-stats .stat span { color: var(--site-muted) !important; }
+
+        html.dark-mode .seo-content-section,
+        html.dark-mode .seo-jobs-section,
+        html.dark-mode .seo-faq-section,
+        html.dark-mode .seo-bottom-cta { background: var(--site-bg) !important; }
+
+        html.dark-mode .seo-content-prose p,
+        html.dark-mode .seo-content-prose ul li { color: var(--site-muted) !important; }
+        html.dark-mode .seo-content-prose h2,
+        html.dark-mode .seo-content-prose h3 { color: var(--site-text) !important; }
+        html.dark-mode .seo-content-prose a { color: #4da3e8 !important; }
+
+        html.dark-mode .seo-side-promo {
+            background: linear-gradient(135deg, #16305a, #0f1a2e) !important;
+            border-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .seo-side-promo h4 { color: #fff !important; }
+        html.dark-mode .seo-side-promo p { color: #c7d4e4 !important; }
+
+        html.dark-mode .seo-roles-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .seo-roles-card h3 { color: var(--site-text) !important; }
+        html.dark-mode .seo-roles-card ul li a { color: var(--site-muted) !important; }
+        html.dark-mode .seo-roles-card ul li a:hover { color: #4da3e8 !important; }
+
+        html.dark-mode .seo-jobs-head h2 { color: var(--site-text) !important; }
+        html.dark-mode .seo-jobs-head .view-all { color: #4da3e8 !important; }
+
+        html.dark-mode .seo-job-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .seo-job-card:hover { border-color: #4da3e8 !important; }
+        html.dark-mode .seo-job-title { color: var(--site-text) !important; }
+        html.dark-mode .seo-job-meta li { color: var(--site-muted) !important; }
+        html.dark-mode .seo-job-meta li i { color: #4da3e8 !important; }
+        html.dark-mode .seo-job-logo {
+            background: var(--site-input-bg) !important;
+            border-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .seo-job-badge {
+            background: rgba(47, 127, 201, .18) !important;
+            color: #7cc0f0 !important;
+        }
+        html.dark-mode .seo-job-button { color: #4da3e8 !important; }
+        html.dark-mode .seo-no-jobs {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-muted) !important;
+        }
+
+        html.dark-mode .seo-faq-head h2 { color: var(--site-text) !important; }
+        html.dark-mode .seo-faq-item {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .seo-faq-item summary { color: var(--site-text) !important; }
+        html.dark-mode .seo-faq-item .faq-answer { color: var(--site-muted) !important; }
+
+        /* === About page === */
+        html.dark-mode .about-page p { color: var(--site-muted) !important; }
+        html.dark-mode .about-page h2,
+        html.dark-mode .about-page h3,
+        html.dark-mode .about-page h4 { color: var(--site-text) !important; }
+        html.dark-mode .about-hero {
+            background: linear-gradient(180deg, #12161d 0%, var(--site-bg) 55%, #12161d 100%) !important;
+        }
+        html.dark-mode .about-hero h1 { color: var(--site-text) !important; }
+        html.dark-mode .about-section { background: var(--site-bg) !important; }
+        html.dark-mode .about-section.gray { background: #12161d !important; }
+        html.dark-mode .about-stat-card,
+        html.dark-mode .mvv-card,
+        html.dark-mode .how-card,
+        html.dark-mode .benefit-item,
+        html.dark-mode .press-card,
+        html.dark-mode .industry-card,
+        html.dark-mode .about-faq-item,
+        html.dark-mode .about-hero-float,
+        html.dark-mode .press-strip-item {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .about-stat-card .stat-num { color: #4da3e8 !important; }
+        html.dark-mode .about-stat-card .stat-label,
+        html.dark-mode .about-faq-item .faq-answer { color: var(--site-muted) !important; }
+        html.dark-mode .about-faq-item summary { color: var(--site-text) !important; }

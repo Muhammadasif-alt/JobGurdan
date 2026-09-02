@@ -28,11 +28,11 @@ class DigitalMarketingSeoSeeder extends Seeder
 
     public function run(): void
     {
-        $this->seedBlogPost();
-        $this->seedJob();
+        // Job first: the post stores its id so it can carry JobPosting markup.
+        $this->seedBlogPost($this->seedJob());
     }
 
-    private function seedBlogPost(): void
+    private function seedBlogPost(Job $job): void
     {
         $content = $this->postBody();
 
@@ -52,13 +52,14 @@ class DigitalMarketingSeoSeeder extends Seeder
             [
                 'blog_catgories_id' => $category->id,
                 'author_id' => $author?->id,
+                'job_id' => $job->id,
                 'author_name' => $author?->name ?? 'Admin',
                 'title' => $title,
                 'excerpt' => 'Urban Solar is hiring a fully remote Digital Marketing Expert (SEO) across Pakistan — Rs 80,000–120,000 a month, 3–4 years, on-page, off-page and technical SEO plus Canva and AI design work.',
                 'content' => $content,
                 'featured_image' => 'blogs/digital-marketing-expert-seo-pakistan.jpg',
                 'tags' => 'seo jobs pakistan, digital marketing jobs, remote seo jobs, technical seo, digital marketing salary pakistan, Urban Solar, canva jobs, AI design tools',
-                'meta_title' => 'Digital Marketing Expert (SEO) Job — Remote Pakistan, Rs 80k-120k',
+                'meta_title' => 'Digital Marketing Expert (SEO) Job - Remote Pakistan',
                 'meta_description' => 'Urban Solar is hiring a remote Digital Marketing Expert (SEO) in Pakistan: Rs 80,000-120,000/month, 3-4 years, on-page, off-page and technical SEO.',
                 'reading_time' => max(1, (int) ceil(str_word_count(strip_tags($content)) / 200)),
                 'status' => 'published',
@@ -68,7 +69,7 @@ class DigitalMarketingSeoSeeder extends Seeder
         );
     }
 
-    private function seedJob(): void
+    private function seedJob(): Job
     {
         $advertiser = Advertiser::firstOrCreate(
             ['name' => 'Urban Solar Pvt Ltd.'],
@@ -85,7 +86,7 @@ class DigitalMarketingSeoSeeder extends Seeder
             ['name' => 'Marketing']
         );
 
-        Job::updateOrCreate(
+        return Job::updateOrCreate(
             [
                 'position' => 'Digital Marketing Expert (SEO)',
                 'advertiser_id' => $advertiser->id,

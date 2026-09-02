@@ -14,6 +14,7 @@ class Blog extends Model
     protected $fillable = [
         'blog_catgories_id',
         'author_id',
+        'job_id',
         'author_name',
         'title',
         'slug',
@@ -31,9 +32,9 @@ class Blog extends Model
     ];
 
     protected $casts = [
-        'published_at'   => 'datetime',
+        'published_at' => 'datetime',
         'gallery_images' => 'array',
-        'is_featured'    => 'boolean',
+        'is_featured' => 'boolean',
     ];
 
     public function category()
@@ -44,5 +45,11 @@ class Blog extends Model
     public function author()
     {
         return $this->belongsTo(User::class, 'author_id');
+    }
+
+    /** The vacancy a job-spotlight post writes about, if it has one. */
+    public function job(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    {
+        return $this->belongsTo(Job::class, 'job_id');
     }
 }

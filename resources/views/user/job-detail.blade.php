@@ -903,33 +903,13 @@
 
     /*
      * Google's JobPosting guidelines expect the page to describe a single, real
-     * opening. Apply links fall into two shapes:
-     *
-     *   - a job-board *search* ("all truck driver jobs") — the page is a
-     *     round-up, not one vacancy, so the markup is skipped;
-     *   - a job-board *permalink* to one posting — the page does describe a
-     *     single opening, so the markup stays.
-     *
-     * Anything pointing straight at an employer's own site is a single opening
-     * by definition. The listing renders and applies through either way.
+     * opening. StructuredDataService decides that from the apply link, and the
+     * blog spotlight pages use the same rule so the two never disagree.
      */
-    // Matched without a TLD so country domains count too — simplyhired.co.uk and
-    // uk.indeed.com are the same aggregators as their .com counterparts.
-    $aggregatorHosts = ['indeed.', 'ziprecruiter.', 'glassdoor.', 'linkedin.', 'monster.', 'simplyhired.', 'totaljobs.', 'reed.co.uk', 'cv-library.', 'jobsite.'];
-    $applyUrl = (string) $job->application_url;
-    $applyHost = $applyUrl !== '' ? strtolower(parse_url($applyUrl, PHP_URL_HOST) ?? '') : '';
-    $onAggregator = collect($aggregatorHosts)->contains(fn ($host) => str_contains($applyHost, $host));
-
-    // Permalink markers used by the boards above for one specific vacancy.
-    // Note "?jk="/"&jk=" rather than a bare "jk=": Indeed's search pages carry a
-    // "vjk=" preview parameter that would otherwise look like a permalink.
-    $singlePostingMarkers = ['/viewjob', '?jk=', '&jk=', '/jobs/view/', 'currentjobid=', '/job-listing/'];
-    $lowerApplyUrl = strtolower($applyUrl);
-    $isSinglePosting = collect($singlePostingMarkers)->contains(fn ($marker) => str_contains($lowerApplyUrl, $marker));
-
-    $linksToAggregatorSearch = $onAggregator && ! $isSinglePosting;
+    $describesSingleVacancy = app(\App\Services\StructuredDataService::class)
+        ->describesSingleVacancy($job->application_url);
 @endphp
-@unless ($linksToAggregatorSearch)
+@if ($describesSingleVacancy)
 <script type="application/ld+json">
 {
     "@@context": "https://schema.org",
@@ -1002,7 +982,7 @@
     @endif
 }
 </script>
-@endunless
+@endif
 <script type="application/ld+json">
 {
     "@@context": "https://schema.org",

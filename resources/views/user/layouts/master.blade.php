@@ -41,7 +41,9 @@
 
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('public/user/images/favicon.png') }}">
+    <link rel="shortcut icon" href="{{ asset('public/user/images/favicon.png') }}?v={{ $assetVersion('user/images/favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('public/user/images/favicon.png') }}?v={{ $assetVersion('user/images/favicon.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('public/user/images/apple-touch-icon.png') }}?v={{ $assetVersion('user/images/apple-touch-icon.png') }}">
 
     <!-- DNS prefetch + preconnect for faster third-party loads -->
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>

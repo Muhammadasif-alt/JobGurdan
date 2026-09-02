@@ -29,11 +29,11 @@ class FrontendDeveloperLahoreSeeder extends Seeder
 
     public function run(): void
     {
-        $this->seedBlogPost();
-        $this->seedJob();
+        // Job first: the post stores its id so it can carry JobPosting markup.
+        $this->seedBlogPost($this->seedJob());
     }
 
-    private function seedBlogPost(): void
+    private function seedBlogPost(Job $job): void
     {
         $content = $this->postBody();
 
@@ -53,13 +53,14 @@ class FrontendDeveloperLahoreSeeder extends Seeder
             [
                 'blog_catgories_id' => $category->id,
                 'author_id' => $author?->id,
+                'job_id' => $job->id,
                 'author_name' => $author?->name ?? 'Admin',
                 'title' => $title,
                 'excerpt' => 'ERS Tech is hiring a Senior Frontend Developer in Lahore — 6+ years, React and Next.js App Router, MERN fluency. Full breakdown of the stack, the salary range, and who the role actually suits.',
                 'content' => $content,
                 'featured_image' => 'blogs/senior-frontend-developer-lahore.jpg',
                 'tags' => 'frontend developer jobs, react jobs lahore, nextjs developer, MERN stack jobs, senior developer pakistan, ERS Tech, typescript jobs',
-                'meta_title' => 'Senior Frontend Developer Job in Lahore — React / Next.js (ERS Tech)',
+                'meta_title' => 'Senior Frontend Developer Job in Lahore (React / Next.js)',
                 'meta_description' => 'ERS Tech is hiring a Senior Frontend Developer in Lahore: 6+ years, React, Next.js App Router and MERN. Full stack breakdown, salary range and how to apply.',
                 'reading_time' => max(1, (int) ceil(str_word_count(strip_tags($content)) / 200)),
                 'status' => 'published',
@@ -69,7 +70,7 @@ class FrontendDeveloperLahoreSeeder extends Seeder
         );
     }
 
-    private function seedJob(): void
+    private function seedJob(): Job
     {
         $advertiser = Advertiser::firstOrCreate(
             ['name' => 'ERS Tech'],
@@ -86,7 +87,7 @@ class FrontendDeveloperLahoreSeeder extends Seeder
             ['name' => 'IT & Software']
         );
 
-        Job::updateOrCreate(
+        return Job::updateOrCreate(
             [
                 'position' => 'Senior Frontend Developer (React / Next.js / MERN)',
                 'advertiser_id' => $advertiser->id,

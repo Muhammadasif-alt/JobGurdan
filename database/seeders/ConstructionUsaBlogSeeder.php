@@ -55,7 +55,7 @@ class ConstructionUsaBlogSeeder extends Seeder
                 'content' => $content,
                 'featured_image' => 'blogs/construction-jobs-in-usa-for-foreigners.jpg',
                 'tags' => 'construction jobs usa, visa sponsorship, H-2B visa, EB-3 visa, H-1B visa, construction salary usa, jobs for foreigners, skilled trades',
-                'meta_title' => 'Construction Jobs in USA for Foreigners with Visa Sponsorship (2026)',
+                'meta_title' => 'Construction Jobs in USA for Foreigners: Visa Sponsorship',
                 'meta_description' => 'H-2B, EB-3 and H-1B routes into U.S. construction work, which roles get sponsored, 2026 salary data, and how to spot a fake sponsoring contractor.',
                 'reading_time' => max(1, (int) ceil(str_word_count(strip_tags($content)) / 200)),
                 'status' => 'published',
