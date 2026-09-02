@@ -900,7 +900,18 @@
         'FREELANCE' => 'CONTRACTOR',
     ];
     $employmentType = $typeMap[$rawType] ?? 'FULL_TIME';
+
+    /*
+     * Google's JobPosting guidelines expect the page to be a single, real
+     * opening. When Apply hands off to a job-board search instead, emitting
+     * JobPosting would misdescribe the page, so the markup is skipped — the
+     * listing still renders and still applies through normally.
+     */
+    $aggregatorHosts = ['indeed.com', 'ziprecruiter.com', 'glassdoor.com', 'linkedin.com', 'monster.com', 'simplyhired.com'];
+    $applyHost = $job->application_url ? strtolower(parse_url($job->application_url, PHP_URL_HOST) ?? '') : '';
+    $linksToAggregator = collect($aggregatorHosts)->contains(fn ($host) => str_contains($applyHost, $host));
 @endphp
+@unless ($linksToAggregator)
 <script type="application/ld+json">
 {
     "@@context": "https://schema.org",
@@ -973,6 +984,7 @@
     @endif
 }
 </script>
+@endunless
 <script type="application/ld+json">
 {
     "@@context": "https://schema.org",
