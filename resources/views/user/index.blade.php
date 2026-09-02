@@ -1016,14 +1016,14 @@
                     <div class="utf-banner-headline-text-part">
                         <span class="hero-eyebrow" data-aos="fade-down" data-aos-duration="600">
                             <span class="pulse-dot"></span>
-                            Trusted by job seekers across all 50 U.S. states
+                            Now hiring across all 50 U.S. states
                         </span>
                         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                            Find Your Next Job in the USA &mdash;
-                            <span class="accent">Hiring Now</span>
+                            Land Your Next Job in the USA &mdash;
+                            <span class="accent">Visa Sponsorship Available</span>
                         </h1>
                         <span data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">
-                            Search {{ number_format($stats['total_jobs'] ?? 230000) }}+ verified jobs from top U.S. employers in healthcare, IT, logistics, retail, and more. Free to apply. Get hired faster.
+                            Browse verified openings from U.S. employers, including roles that sponsor foreign workers on H-2B and EB-3 visas. Free to apply, no account needed, new jobs added every week.
                         </span>
                     </div>
 
@@ -1062,26 +1062,44 @@
                     {{-- Trending tag chips --}}
                     <div class="hero-trending" data-aos="fade-up" data-aos-duration="600" data-aos-delay="550">
                         <span class="trending-label">Trending:</span>
-                        <a class="trending-tag" href="{{ route('jobs.search') }}?position=Nurse">Nurse RN</a>
+                        <a class="trending-tag" href="{{ route('jobs.search') }}?position=Visa+Sponsorship">Visa Sponsorship</a>
+                        <a class="trending-tag" href="{{ route('jobs.search') }}?position=Truck+Driver">Truck Driver</a>
+                        <a class="trending-tag" href="{{ route('jobs.search') }}?position=Hotel">Hotel Jobs</a>
                         <a class="trending-tag" href="{{ route('jobs.search') }}?position=Warehouse">Warehouse</a>
-                        <a class="trending-tag" href="{{ route('jobs.search') }}?position=Software+Engineer">Software Eng.</a>
-                        <a class="trending-tag" href="{{ route('jobs.search') }}?location=Remote">Remote</a>
                     </div>
 
+                    @php
+                        // Raw counts read badly while the board is still filling up
+                        // ("2+ Open Jobs"), so the live figures only appear once
+                        // there are enough of them to be worth showing.
+                        $showLiveCounts = ($stats['total_jobs'] ?? 0) >= 500;
+                    @endphp
                     <div class="hero-stats">
-                        <div class="stat" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="700">
-                            <strong>{{ number_format($stats['total_jobs'] ?? 0) }}+</strong>
-                            <span>Open Jobs</span>
-                        </div>
-                        <div class="divider"></div>
-                        <div class="stat" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="800">
-                            <strong>{{ number_format($stats['total_companies'] ?? 0) }}+</strong>
-                            <span>Employers</span>
-                        </div>
+                        @if ($showLiveCounts)
+                            <div class="stat" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="700">
+                                <strong>{{ number_format($stats['total_jobs']) }}+</strong>
+                                <span>Open Jobs</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="stat" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="800">
+                                <strong>{{ number_format($stats['total_companies'] ?? 0) }}+</strong>
+                                <span>Employers</span>
+                            </div>
+                        @else
+                            <div class="stat" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="700">
+                                <strong>50</strong>
+                                <span>States Covered</span>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="stat" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="800">
+                                <strong>Weekly</strong>
+                                <span>New Openings</span>
+                            </div>
+                        @endif
                         <div class="divider"></div>
                         <div class="stat" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="900">
-                            <strong>{{ number_format($stats['total_locations'] ?? 50) }}+</strong>
-                            <span>Locations</span>
+                            <strong>Visa</strong>
+                            <span>Sponsored Roles</span>
                         </div>
                         <div class="divider"></div>
                         <div class="stat" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1000">
@@ -2056,7 +2074,7 @@
                         <span class="why-check"><i class="icon-feather-check"></i></span>
                         <div>
                             <h3>Search 50 States in One Place</h3>
-                            <p>From Texas to New York, Florida to California &mdash; browse {{ number_format($stats['total_jobs'] ?? 230000) }}+ live openings nationwide. Filter by city, ZIP, salary or job type and apply with one click.</p>
+                            <p>From Texas to New York, Florida to California &mdash; browse live openings nationwide. Filter by city, ZIP, salary or job type and apply with one click.</p>
                         </div>
                     </article>
 
@@ -2428,14 +2446,14 @@
         .career-thumb {
             display: block;
             aspect-ratio: 16 / 9;
-            background: #f3f4f6;
+            background: #eef5fc;
             overflow: hidden;
         }
         .career-thumb img {
-            width: 100%; height: 100%; object-fit: cover;
+            width: 100%; height: 100%; object-fit: contain;
             transition: transform .35s ease;
         }
-        .career-card:hover .career-thumb img { transform: scale(1.04); }
+        .career-card:hover .career-thumb img { transform: none; }
         .career-body { padding: 22px 22px 24px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
         .career-cat {
             display: inline-block;

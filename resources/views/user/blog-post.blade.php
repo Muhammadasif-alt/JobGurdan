@@ -157,7 +157,7 @@
         height: auto;
         display: block;
         max-height: 480px;
-        object-fit: cover;
+        object-fit: contain;
     }
 
     /* === Rich content rendering === */
@@ -574,13 +574,13 @@
         transform: translateY(-3px);
         box-shadow: 0 14px 32px rgba(15,23,42,.10);
     }
-    .related-card-thumb { height: 180px; overflow: hidden; background: #f5f5f7; }
+    .related-card-thumb { aspect-ratio: 16 / 9; overflow: hidden; background: #eef5fc; }
     .related-card-thumb img {
         width: 100%; height: 100%;
-        object-fit: cover;
+        object-fit: contain;
         transition: transform .5s ease;
     }
-    .related-card:hover .related-card-thumb img { transform: scale(1.05); }
+    .related-card:hover .related-card-thumb img { transform: none; }
     .related-card-body { padding: 18px 20px 22px; }
     .related-card-body .meta { font-size: 12px; color: #777; margin-bottom: 8px; }
     .related-card-body h4 {

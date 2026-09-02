@@ -56,7 +56,7 @@
         }
         html.dark-mode #header #navigation > ul > li > a:hover {
             background: rgba(255,255,255,.08) !important;
-            color: #ff8a00 !important;
+            color: #4da3e8 !important;
         }
         html.dark-mode #header #navigation > ul > li > a.current {
             background: rgba(255,255,255,.1) !important;
@@ -66,24 +66,24 @@
         html.dark-mode #header #logo a, html.dark-mode #header #logo span { color: var(--site-text) !important; }
         /* Dark mode: all navbar CTA buttons unified to brand orange */
         html.dark-mode .utf-button-header-bg {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
-            border-color: #ff8a00 !important;
-            box-shadow: 0 4px 12px rgba(255,138,0,.35) !important;
+            border-color: #4da3e8 !important;
+            box-shadow: 0 4px 12px rgba(47, 127, 201,.35) !important;
         }
         html.dark-mode .utf-button-header-bg:hover { filter: brightness(1.05); }
         html.dark-mode #header .utf-right-side .log-in-button,
         html.dark-mode #header .utf-right-side button.log-in-button {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
-            border-color: #ff8a00 !important;
-            box-shadow: 0 4px 12px rgba(255,138,0,.35) !important;
+            border-color: #4da3e8 !important;
+            box-shadow: 0 4px 12px rgba(47, 127, 201,.35) !important;
         }
         html.dark-mode #header .utf-right-side .log-in-button:hover,
         html.dark-mode #header .utf-right-side button.log-in-button:hover {
             filter: brightness(1.05);
             transform: translateY(-1px);
-            box-shadow: 0 8px 18px rgba(255,138,0,.45) !important;
+            box-shadow: 0 8px 18px rgba(47, 127, 201,.45) !important;
         }
         html.dark-mode #header .utf-right-side .log-in-button i,
         html.dark-mode #header .utf-right-side .log-in-button span,
@@ -144,8 +144,8 @@
         html.dark-mode .home-seo-section p { color: #cbd5e1 !important; }
         html.dark-mode .home-seo-section .home-seo-prose strong { color: #fff !important; }
         html.dark-mode .home-seo-section .home-seo-prose a,
-        html.dark-mode .home-seo-section a { color: #ff8a00 !important; border-bottom-color: #ff8a00 !important; }
-        html.dark-mode .home-seo-section a:hover { color: #ffab40 !important; }
+        html.dark-mode .home-seo-section a { color: #4da3e8 !important; border-bottom-color: #4da3e8 !important; }
+        html.dark-mode .home-seo-section a:hover { color: #7cc0f0 !important; }
         html.dark-mode .home-seo-section .eyebrow {
             background: rgba(255,255,255,.08) !important;
             color: #e5e7eb !important;
@@ -166,8 +166,8 @@
             color: #e5e7eb !important;
         }
         html.dark-mode .home-seo-section .seo-links a:hover {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
         }
 
@@ -204,7 +204,7 @@
             color: var(--site-text) !important;
             box-shadow: var(--site-shadow);
         }
-        html.dark-mode .salary-card:hover { border-color: #ff8a00 !important; box-shadow: 0 18px 36px rgba(0,0,0,.55) !important; }
+        html.dark-mode .salary-card:hover { border-color: #4da3e8 !important; box-shadow: 0 18px 36px rgba(0,0,0,.55) !important; }
         html.dark-mode .salary-card h3,
         html.dark-mode .home-salary-card h3 { color: #fff !important; }
         /* The salary range text uses a black→gray gradient clipped to text — invisible on dark bg.
@@ -226,15 +226,15 @@
             background: var(--site-card-bg) !important;
             border-color: var(--site-card-bd) !important;
         }
-        html.dark-mode .search-strip .strip-lbl { color: #ff8a00 !important; }
+        html.dark-mode .search-strip .strip-lbl { color: #4da3e8 !important; }
         html.dark-mode .search-strip a {
             background: rgba(255,255,255,.06) !important;
             border: 1px solid rgba(255,255,255,.12) !important;
             color: #e5e7eb !important;
         }
         html.dark-mode .search-strip a:hover {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
         }
 
@@ -243,7 +243,7 @@
         html.dark-mode .salary-card .demand-high     { color: #fdba74 !important; }
         html.dark-mode .salary-card .demand-strong   { color: #fff !important; }
         html.dark-mode .salary-card .see-jobs { color: #fff !important; }
-        html.dark-mode .salary-card .see-jobs i { color: #ff8a00 !important; }
+        html.dark-mode .salary-card .see-jobs i { color: #4da3e8 !important; }
         html.dark-mode .salary-card p,
         html.dark-mode .salary-card .salary-meta { color: #cbd5e1 !important; }
 
@@ -280,20 +280,20 @@
             color: var(--site-text) !important;
         }
         html.dark-mode .blog-card:hover {
-            border-color: #ff8a00 !important;
+            border-color: #4da3e8 !important;
             box-shadow: 0 18px 36px rgba(0,0,0,.55) !important;
         }
         html.dark-mode .blog-card h3 { color: #fff !important; }
         html.dark-mode .blog-card p { color: #cbd5e1 !important; }
         html.dark-mode .blog-card-meta { color: #9ca3af !important; }
-        html.dark-mode .blog-card-meta i { color: #ff8a00 !important; }
+        html.dark-mode .blog-card-meta i { color: #4da3e8 !important; }
         html.dark-mode .blog-card-readmore {
-            color: #ff8a00 !important;
-            border-bottom-color: #ff8a00 !important;
+            color: #4da3e8 !important;
+            border-bottom-color: #4da3e8 !important;
         }
-        html.dark-mode .blog-card:hover .blog-card-readmore { color: #ffab40 !important; border-bottom-color: #ffab40 !important; }
+        html.dark-mode .blog-card:hover .blog-card-readmore { color: #7cc0f0 !important; border-bottom-color: #7cc0f0 !important; }
         html.dark-mode .blog-card-thumb { background: #1f242c !important; }
-        html.dark-mode .blog-card-thumb .cat-pill { background: rgba(255,138,0,.92) !important; color: #fff !important; }
+        html.dark-mode .blog-card-thumb .cat-pill { background: rgba(47, 127, 201,.92) !important; color: #fff !important; }
 
         /* Blog page sidebar (Latest Posts, Categories, Newsletter, Tags) */
         html.dark-mode .blog-sidebar-card {
@@ -304,7 +304,7 @@
         html.dark-mode .blog-sidebar-card h3,
         html.dark-mode .blog-sidebar-card h4 { color: #fff !important; }
         html.dark-mode .blog-sidebar-card a { color: #e5e7eb !important; }
-        html.dark-mode .blog-sidebar-card a:hover { color: #ff8a00 !important; }
+        html.dark-mode .blog-sidebar-card a:hover { color: #4da3e8 !important; }
         html.dark-mode .blog-sidebar-card .meta,
         html.dark-mode .blog-sidebar-card time { color: var(--site-muted) !important; }
 
@@ -312,7 +312,7 @@
         html.dark-mode .ca-wrap { background: var(--site-bg) !important; }
         html.dark-mode .ca-hero {
             background:
-                radial-gradient(circle at 12% 20%, rgba(255,138,0,.10) 0, transparent 40%),
+                radial-gradient(circle at 12% 20%, rgba(47, 127, 201,.10) 0, transparent 40%),
                 radial-gradient(circle at 88% 80%, rgba(94,43,255,.08) 0, transparent 45%),
                 var(--site-bg) !important;
             border-bottom-color: var(--site-card-bd) !important;
@@ -332,10 +332,10 @@
             border-color: var(--site-card-bd) !important;
             color: #e5e7eb !important;
         }
-        html.dark-mode .ca-cat-pills a:hover { border-color: #ff8a00 !important; color: #ff8a00 !important; }
+        html.dark-mode .ca-cat-pills a:hover { border-color: #4da3e8 !important; color: #4da3e8 !important; }
         html.dark-mode .ca-cat-pills a.active {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
         }
 
@@ -358,7 +358,7 @@
             border-color: var(--site-card-bd) !important;
             color: var(--site-text) !important;
         }
-        html.dark-mode .related-card:hover { border-color: #ff8a00 !important; }
+        html.dark-mode .related-card:hover { border-color: #4da3e8 !important; }
         html.dark-mode .related-card-thumb { background: rgba(255,255,255,.04) !important; }
         html.dark-mode .related-card-body h4 { color: #fff !important; }
         html.dark-mode .related-card-body .meta { color: var(--site-muted) !important; }
@@ -371,10 +371,10 @@
         }
         html.dark-mode .blog-side-card h3 {
             color: #fff !important;
-            border-bottom-color: #ff8a00 !important;
+            border-bottom-color: #4da3e8 !important;
         }
         html.dark-mode .blog-side-card a { color: #e5e7eb !important; }
-        html.dark-mode .blog-side-card a:hover { color: #ff8a00 !important; }
+        html.dark-mode .blog-side-card a:hover { color: #4da3e8 !important; }
         html.dark-mode .blog-side-card .meta,
         html.dark-mode .blog-side-card time { color: var(--site-muted) !important; }
 
@@ -391,7 +391,7 @@
         html.dark-mode .blog-post-content h2,
         html.dark-mode .blog-post-content h3,
         html.dark-mode .blog-post-content h4 { color: #fff !important; }
-        html.dark-mode .blog-content h2::before { background: #ff8a00 !important; }
+        html.dark-mode .blog-content h2::before { background: #4da3e8 !important; }
         html.dark-mode .blog-content p,
         html.dark-mode .blog-content li,
         html.dark-mode .blog-content blockquote,
@@ -402,15 +402,15 @@
         html.dark-mode .blog-content em,
         html.dark-mode .blog-post-content strong { color: #fff !important; }
         html.dark-mode .blog-content a,
-        html.dark-mode .blog-post-content a { color: #ff8a00 !important; }
-        html.dark-mode .blog-content a:hover { color: #ffab40 !important; }
+        html.dark-mode .blog-post-content a { color: #4da3e8 !important; }
+        html.dark-mode .blog-content a:hover { color: #7cc0f0 !important; }
         html.dark-mode .blog-content code,
         html.dark-mode .blog-content pre,
         html.dark-mode .blog-post-content code,
         html.dark-mode .blog-post-content pre { background: #1f242c !important; color: #e5e7eb !important; border-color: var(--site-card-bd) !important; }
         html.dark-mode .blog-content blockquote {
-            border-left-color: #ff8a00 !important;
-            background: rgba(255,138,0,.06) !important;
+            border-left-color: #4da3e8 !important;
+            background: rgba(47, 127, 201,.06) !important;
         }
 
         /* === Final CTA section ("Your next great job is one click away") ===
@@ -440,7 +440,7 @@
         }
         html.dark-mode .cat-sidebar h3 {
             color: #fff !important;
-            border-bottom-color: #ff8a00 !important;
+            border-bottom-color: #4da3e8 !important;
         }
         html.dark-mode .cat-sidebar .form-control,
         html.dark-mode .cat-sidebar select {
@@ -449,14 +449,14 @@
             color: var(--site-text) !important;
         }
         html.dark-mode .cat-sidebar ul li a { color: #e5e7eb !important; }
-        html.dark-mode .cat-sidebar ul li a:hover { color: #ff8a00 !important; }
+        html.dark-mode .cat-sidebar ul li a:hover { color: #4da3e8 !important; }
         html.dark-mode .cat-sidebar ul li a .counter,
         html.dark-mode .cat-sidebar .counter {
             background: rgba(255,255,255,.08) !important;
             color: #cbd5e1 !important;
         }
         html.dark-mode .cat-jobtype-item span { color: #e5e7eb !important; }
-        html.dark-mode .cat-jobtype-item input[type="checkbox"] { accent-color: #ff8a00 !important; }
+        html.dark-mode .cat-jobtype-item input[type="checkbox"] { accent-color: #4da3e8 !important; }
 
         /* Job cards grid */
         html.dark-mode .cat-job-card {
@@ -464,12 +464,12 @@
             border-color: var(--site-card-bd) !important;
             color: var(--site-text) !important;
         }
-        html.dark-mode .cat-job-card:hover { border-color: #ff8a00 !important; box-shadow: 0 18px 36px rgba(0,0,0,.55) !important; }
+        html.dark-mode .cat-job-card:hover { border-color: #4da3e8 !important; box-shadow: 0 18px 36px rgba(0,0,0,.55) !important; }
         html.dark-mode .cat-job-card h3 { color: #fff !important; }
-        html.dark-mode .cat-job-card .cat-job-company { color: #ff8a00 !important; }
+        html.dark-mode .cat-job-card .cat-job-company { color: #4da3e8 !important; }
         html.dark-mode .cat-job-card .cat-job-meta { color: #cbd5e1 !important; }
         html.dark-mode .cat-job-card .cat-job-meta span { color: #cbd5e1 !important; }
-        html.dark-mode .cat-job-card .cat-job-meta span i { color: #ff8a00 !important; }
+        html.dark-mode .cat-job-card .cat-job-meta span i { color: #4da3e8 !important; }
         html.dark-mode .cat-job-card .cat-job-badge {
             background: rgba(255,255,255,.08) !important;
             color: #e5e7eb !important;
@@ -510,8 +510,8 @@
             border-color: var(--site-card-bd) !important;
             color: var(--site-text) !important;
         }
-        html.dark-mode .cat-card:hover { border-color: #ff8a00 !important; box-shadow: 0 18px 36px rgba(0,0,0,.55) !important; }
-        html.dark-mode .cat-card::before { background: #ff8a00 !important; }
+        html.dark-mode .cat-card:hover { border-color: #4da3e8 !important; box-shadow: 0 18px 36px rgba(0,0,0,.55) !important; }
+        html.dark-mode .cat-card::before { background: #4da3e8 !important; }
         html.dark-mode .cat-card h3,
         html.dark-mode .cat-card .cat-card-title { color: #fff !important; }
         html.dark-mode .cat-card p,
@@ -530,12 +530,12 @@
         }
         html.dark-mode .cat-card .cat-card-icon,
         html.dark-mode .cat-card .icon {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
         }
         html.dark-mode .cat-card a,
         html.dark-mode .cat-card .cta,
-        html.dark-mode .cat-card .explore-link { color: #ff8a00 !important; }
+        html.dark-mode .cat-card .explore-link { color: #4da3e8 !important; }
 
         /* === Industries section (Browse Jobs by Industry Across the United States) === */
         html.dark-mode .industry-section { background: var(--site-bg) !important; }
@@ -553,23 +553,23 @@
             border-color: var(--site-card-bd) !important;
             color: var(--site-text) !important;
         }
-        html.dark-mode .industry-card:hover { border-color: #ff8a00 !important; box-shadow: 0 20px 44px rgba(0,0,0,.55) !important; }
+        html.dark-mode .industry-card:hover { border-color: #4da3e8 !important; box-shadow: 0 20px 44px rgba(0,0,0,.55) !important; }
         html.dark-mode .industry-card h3 { color: #fff !important; }
         html.dark-mode .industry-card .desc { color: #cbd5e1 !important; }
         html.dark-mode .industry-card .icon-wrap {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
         }
-        html.dark-mode .industry-card:hover .icon-wrap { background: linear-gradient(135deg, #ffab40, #ff8a00) !important; }
+        html.dark-mode .industry-card:hover .icon-wrap { background: linear-gradient(135deg, #7cc0f0, #4da3e8) !important; }
         html.dark-mode .industry-card .count {
             background: rgba(16,185,129,.18) !important;
             color: #6ee7b7 !important;
         }
         html.dark-mode .industry-card .count::before { background: #6ee7b7 !important; }
-        html.dark-mode .industry-card .cta { color: #ff8a00 !important; }
+        html.dark-mode .industry-card .cta { color: #4da3e8 !important; }
         html.dark-mode .industry-section .view-all-row a {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
         }
 
@@ -585,10 +585,10 @@
             border-color: rgba(255,255,255,.15) !important;
             color: #e5e7eb !important;
         }
-        html.dark-mode .career-chip:hover { background: rgba(255,138,0,.15) !important; border-color: #ff8a00 !important; color: #ff8a00 !important; }
+        html.dark-mode .career-chip:hover { background: rgba(47, 127, 201,.15) !important; border-color: #4da3e8 !important; color: #4da3e8 !important; }
         html.dark-mode .career-chip.is-active {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
         }
         html.dark-mode .career-card {
@@ -596,7 +596,7 @@
             border-color: var(--site-card-bd) !important;
             color: var(--site-text) !important;
         }
-        html.dark-mode .career-card:hover { border-color: #ff8a00 !important; box-shadow: 0 16px 32px rgba(0,0,0,.5) !important; }
+        html.dark-mode .career-card:hover { border-color: #4da3e8 !important; box-shadow: 0 16px 32px rgba(0,0,0,.5) !important; }
         html.dark-mode .career-title,
         html.dark-mode .career-title a { color: #fff !important; }
         html.dark-mode .career-card .career-cat,
@@ -607,7 +607,7 @@
         html.dark-mode .career-card .career-date { color: #94a3b8 !important; }
         html.dark-mode .career-card .career-meta { border-top-color: rgba(255,255,255,.08) !important; }
         html.dark-mode .career-card .career-avatar {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
         }
 
@@ -630,14 +630,14 @@
             background: var(--site-card-bg) !important;
         }
         html.dark-mode .compare-table tbody td.cmp-us {
-            background: rgba(255,138,0,.08) !important;
-            border-left-color: #ff8a00 !important;
-            border-right-color: #ff8a00 !important;
+            background: rgba(47, 127, 201,.08) !important;
+            border-left-color: #4da3e8 !important;
+            border-right-color: #4da3e8 !important;
         }
         html.dark-mode .compare-table tbody tr:hover td:not(.cmp-us) { background: rgba(255,255,255,.04) !important; }
         html.dark-mode .compare-table .yes { background: #047857 !important; color: #fff !important; }
         html.dark-mode .compare-table tbody td.cmp-us .yes,
-        html.dark-mode .compare-table thead th.cmp-us .yes { background: linear-gradient(135deg, #ff8a00, #ff5722) !important; }
+        html.dark-mode .compare-table thead th.cmp-us .yes { background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important; }
         html.dark-mode .compare-table .no {
             background: rgba(239,68,68,.18) !important;
             color: #fca5a5 !important;
@@ -692,17 +692,17 @@
         html.dark-mode .why-card p { color: #cbd5e1 !important; }
         /* Process-card CTA links (SIGN UP FREE, BROWSE ALL JOBS, VIEW & APPLY, TOP EMPLOYERS) */
         html.dark-mode .process-card .card-cta {
-            color: #ff8a00 !important;
-            border-bottom-color: #ff8a00 !important;
+            color: #4da3e8 !important;
+            border-bottom-color: #4da3e8 !important;
         }
-        html.dark-mode .process-card .card-cta:hover { color: #ffab40 !important; border-bottom-color: #ffab40 !important; opacity: 1 !important; }
+        html.dark-mode .process-card .card-cta:hover { color: #7cc0f0 !important; border-bottom-color: #7cc0f0 !important; opacity: 1 !important; }
         /* Big CTA below process cards (e.g. "Get Started Free") */
         html.dark-mode .process-cta-row a {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
         }
-        html.dark-mode .process-cta-row a:hover { background: linear-gradient(135deg, #ffab40, #ff8a00) !important; border-color: #ffab40 !important; }
+        html.dark-mode .process-cta-row a:hover { background: linear-gradient(135deg, #7cc0f0, #4da3e8) !important; border-color: #7cc0f0 !important; }
 
         /* === Generic empty-state card (used on /companies, /jobs-categories, /locations, /job-seekers) === */
         html.dark-mode .empty-state,
@@ -751,8 +751,8 @@
             border-left-color: var(--site-card-bd) !important;
         }
         html.dark-mode .companies-search button {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
         }
         html.dark-mode .companies-stats {
             background: var(--site-card-bg) !important;
@@ -773,8 +773,8 @@
             border-color: rgba(255,255,255,.25) !important;
         }
         html.dark-mode .companies-toolbar .quick-filters a.active {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
         }
         html.dark-mode .company-card {
@@ -784,13 +784,13 @@
             box-shadow: var(--site-shadow) !important;
         }
         html.dark-mode .company-card:hover {
-            border-color: #ff8a00 !important;
+            border-color: #4da3e8 !important;
             box-shadow: 0 18px 36px rgba(0,0,0,.55) !important;
         }
         html.dark-mode .company-card h3 { color: #fff !important; }
         html.dark-mode .company-card .verified { color: #6ee7b7 !important; }
         html.dark-mode .company-card-body { color: #cbd5e1 !important; }
-        html.dark-mode .company-card-body .meta i { color: #ff8a00 !important; }
+        html.dark-mode .company-card-body .meta i { color: #4da3e8 !important; }
         html.dark-mode .company-card-footer { border-top-color: rgba(255,255,255,.10) !important; }
         html.dark-mode .positions-badge {
             background: rgba(16,185,129,.18) !important;
@@ -800,7 +800,7 @@
             background: rgba(255,255,255,.06) !important;
             color: var(--site-muted) !important;
         }
-        html.dark-mode .view-jobs-link { color: #ff8a00 !important; }
+        html.dark-mode .view-jobs-link { color: #4da3e8 !important; }
 
         /* === Pagination on dark bg (legacy theme template — .utf-pagination-container-aera) === */
         html.dark-mode .utf-pagination-container-aera .pagination li a,
@@ -810,13 +810,13 @@
             color: var(--site-text) !important;
         }
         html.dark-mode .utf-pagination-container-aera .pagination li a:hover {
-            background: rgba(255,138,0,.10) !important;
-            border-color: #ff8a00 !important;
+            background: rgba(47, 127, 201,.10) !important;
+            border-color: #4da3e8 !important;
         }
         html.dark-mode .utf-pagination-container-aera .pagination li a.current-page,
         html.dark-mode .utf-pagination-container-aera .pagination li.active a {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
         }
         /* === Pagination on dark bg (new custom template — vendor.pagination.custom) === */
@@ -826,15 +826,15 @@
             color: var(--site-text) !important;
         }
         html.dark-mode .utf-pagination .page-item:not(.active):not(.disabled) .page-link:hover {
-            background: rgba(255,138,0,.10) !important;
-            border-color: #ff8a00 !important;
-            color: #ff8a00 !important;
+            background: rgba(47, 127, 201,.10) !important;
+            border-color: #4da3e8 !important;
+            color: #4da3e8 !important;
         }
         html.dark-mode .utf-pagination .page-item.active .page-link {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
-            box-shadow: 0 4px 10px rgba(255,138,0,.30) !important;
+            box-shadow: 0 4px 10px rgba(47, 127, 201,.30) !important;
         }
         html.dark-mode .utf-pagination .page-item.disabled .page-link {
             background: var(--site-card-bg) !important;
@@ -851,12 +851,12 @@
             box-shadow: var(--site-shadow) !important;
         }
         html.dark-mode .js-card:hover {
-            border-color: #ff8a00 !important;
+            border-color: #4da3e8 !important;
             box-shadow: 0 20px 40px rgba(0,0,0,.55) !important;
         }
         html.dark-mode .js-card-name { color: #fff !important; }
         html.dark-mode .js-card-loc { color: var(--site-muted) !important; }
-        html.dark-mode .js-card-loc i { color: #ff8a00 !important; }
+        html.dark-mode .js-card-loc i { color: #4da3e8 !important; }
         html.dark-mode .js-card-headline { color: #cbd5e1 !important; }
         html.dark-mode .js-skill {
             background: rgba(255,255,255,.06) !important;
@@ -866,8 +866,8 @@
         html.dark-mode .js-card-meta { border-top-color: rgba(255,255,255,.10) !important; }
         html.dark-mode .js-card-exp { color: var(--site-muted) !important; }
         html.dark-mode .js-card-exp i { color: #c4b5fd !important; }
-        html.dark-mode .js-view-link { color: #ff8a00 !important; }
-        html.dark-mode .js-avatar { background: linear-gradient(135deg, #ff8a00, #ff5722) !important; }
+        html.dark-mode .js-view-link { color: #4da3e8 !important; }
+        html.dark-mode .js-avatar { background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important; }
         /* Section header above the grid (Featured Job Seekers + subtitle + talent-profiles pill) */
         html.dark-mode .js-section { background: var(--site-bg) !important; }
         html.dark-mode .js-section-head h2 { color: #fff !important; }
@@ -877,7 +877,7 @@
             border-color: rgba(255,255,255,.15) !important;
             color: #e5e7eb !important;
         }
-        html.dark-mode .js-section-head .count-pill i { color: #ff8a00 !important; }
+        html.dark-mode .js-section-head .count-pill i { color: #4da3e8 !important; }
         /* Hero paragraph (the body .js-hero p rule above forces #555 on light bg, but in dark the hero gets a dark overlay) */
         html.dark-mode .js-hero p,
         html.dark-mode .seeker-hero p { color: #cbd5e1 !important; }
@@ -900,7 +900,7 @@
             color: var(--site-text) !important;
         }
         html.dark-mode .js-faq[open] {
-            border-color: #ff8a00 !important;
+            border-color: #4da3e8 !important;
             box-shadow: 0 8px 18px rgba(0,0,0,.55) !important;
         }
         html.dark-mode .js-faq summary { color: #fff !important; }
@@ -914,10 +914,10 @@
         }
         html.dark-mode .saved-empty h2 { color: #fff !important; }
         html.dark-mode .saved-empty p { color: #cbd5e1 !important; }
-        html.dark-mode .saved-empty .icon { background: rgba(255,138,0,.15) !important; }
+        html.dark-mode .saved-empty .icon { background: rgba(47, 127, 201,.15) !important; }
         html.dark-mode .saved-card .info h3 a { color: #fff !important; }
         html.dark-mode .saved-card .info .meta span { color: var(--site-muted) !important; }
-        html.dark-mode .saved-card .info .meta i { color: #ff8a00 !important; }
+        html.dark-mode .saved-card .info .meta i { color: #4da3e8 !important; }
         html.dark-mode .saved-card .info .saved-on { color: var(--site-muted) !important; }
         html.dark-mode .saved-card .btn-view {
             background: rgba(255,255,255,.06) !important;
@@ -952,8 +952,8 @@
         html.dark-mode .rec-empty h2 { color: #fff !important; }
         html.dark-mode .rec-empty p  { color: #cbd5e1 !important; }
         html.dark-mode .rec-empty i  { color: var(--site-muted) !important; }
-        html.dark-mode .rec-card .company { color: #ff8a00 !important; }
-        html.dark-mode .rec-card .meta li i { color: #ff8a00 !important; }
+        html.dark-mode .rec-card .company { color: #4da3e8 !important; }
+        html.dark-mode .rec-card .meta li i { color: #4da3e8 !important; }
         html.dark-mode .rec-card .match-badge.high {
             background: rgba(16,185,129,.18) !important;
             color: #6ee7b7 !important;
@@ -998,13 +998,13 @@
         html.dark-mode .loc-grid-head p,
         html.dark-mode .top-states-head p { color: #cbd5e1 !important; }
         html.dark-mode .loc-feature-list li { color: #e5e7eb !important; }
-        html.dark-mode .loc-feature-list li i { color: #ff8a00 !important; }
+        html.dark-mode .loc-feature-list li i { color: #4da3e8 !important; }
         html.dark-mode .loc-cta-btn {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
         }
-        html.dark-mode .loc-cta-btn:hover { filter: brightness(1.05); box-shadow: 0 8px 20px rgba(255,138,0,.45) !important; }
+        html.dark-mode .loc-cta-btn:hover { filter: brightness(1.05); box-shadow: 0 8px 20px rgba(47, 127, 201,.45) !important; }
         html.dark-mode .loc-float-stat {
             background: var(--site-card-bg) !important;
             box-shadow: 0 14px 32px rgba(0,0,0,.55) !important;
@@ -1023,18 +1023,18 @@
             box-shadow: var(--site-shadow) !important;
         }
         html.dark-mode .top-state-card:hover {
-            border-color: #ff8a00 !important;
+            border-color: #4da3e8 !important;
             box-shadow: 0 18px 40px rgba(0,0,0,.55) !important;
         }
         html.dark-mode .top-state-card .rank {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
         }
         html.dark-mode .top-state-card .info h3 { color: #fff !important; }
         html.dark-mode .top-state-card .info .count { color: #cbd5e1 !important; }
         html.dark-mode .top-state-card .info .count strong { color: #fff !important; }
         html.dark-mode .top-state-card .arrow { color: var(--site-muted) !important; }
-        html.dark-mode .top-state-card:hover .arrow { color: #ff8a00 !important; }
+        html.dark-mode .top-state-card:hover .arrow { color: #4da3e8 !important; }
 
         /* === Legacy theme listing (used by /search and /jobs-in-{location}) === */
         html.dark-mode .utf-inner-search-section-title {
@@ -1066,7 +1066,7 @@
             color: var(--site-text) !important;
         }
         html.dark-mode .utf-job-listing:hover {
-            border-color: #ff8a00 !important;
+            border-color: #4da3e8 !important;
             box-shadow: 0 14px 32px rgba(0,0,0,.55) !important;
         }
         html.dark-mode .utf-job-listing .utf-job-listing-company-logo {
@@ -1080,7 +1080,7 @@
         html.dark-mode .utf-job-listing .utf-job-listing-footer ul li,
         html.dark-mode .utf-job-listing .utf-job-listing-footer span { color: #cbd5e1 !important; }
         html.dark-mode .utf-job-listing .utf-job-listing-footer i,
-        html.dark-mode .utf-job-listing .utf-job-listing-footer ul li i { color: #ff8a00 !important; }
+        html.dark-mode .utf-job-listing .utf-job-listing-footer ul li i { color: #4da3e8 !important; }
         /* Employment-type pill (Permanent / Part Time / Full Time) — was light pastel on light bg */
         html.dark-mode .dashboard-status-button,
         html.dark-mode .utf-job-status-item {
@@ -1105,11 +1105,11 @@
         /* "View Job" CTA on each row */
         html.dark-mode .list-apply-button,
         html.dark-mode .utf-job-listing .list-apply-button {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
-            border-color: #ff8a00 !important;
+            border-color: #4da3e8 !important;
         }
-        html.dark-mode .list-apply-button:hover { background: linear-gradient(135deg, #ffab40, #ff8a00) !important; }
+        html.dark-mode .list-apply-button:hover { background: linear-gradient(135deg, #7cc0f0, #4da3e8) !important; }
         /* Search form inside .utf-inner-search-section-title */
         html.dark-mode .utf-inner-search-section-title .utf-input-with-icon input,
         html.dark-mode .utf-inner-search-section-title .form-control {
@@ -1150,7 +1150,7 @@
         html.dark-mode .jobs-filter-bar .input-wrap > i { color: var(--site-muted) !important; }
         html.dark-mode .select2-dropdown { background: var(--site-card-bg) !important; border-color: var(--site-input-bd) !important; }
         html.dark-mode .select2-results__option { color: var(--site-text) !important; }
-        html.dark-mode .select2-results__option--highlighted { background: rgba(255,138,0,.15) !important; color: #ff8a00 !important; }
+        html.dark-mode .select2-results__option--highlighted { background: rgba(47, 127, 201,.15) !important; color: #4da3e8 !important; }
         html.dark-mode .select2-container--bootstrap .select2-selection--single .select2-selection__rendered { color: var(--site-text) !important; }
 
         /* === Generic white wrappers seen in screenshot — search results, blog cards, category jobs === */
@@ -1190,15 +1190,15 @@
             color: var(--site-text) !important;
         }
         html.dark-mode .explore-card h3 { color: #fff !important; }
-        html.dark-mode .explore-card h3::before { background: #ff8a00 !important; }
+        html.dark-mode .explore-card h3::before { background: #4da3e8 !important; }
         html.dark-mode .explore-pills a {
             background: rgba(255,255,255,.06) !important;
             border-color: rgba(255,255,255,.12) !important;
             color: #e5e7eb !important;
         }
         html.dark-mode .explore-pills a:hover {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
         }
         html.dark-mode .explore-pills a .num {
@@ -1214,10 +1214,10 @@
         html.dark-mode .jobs-trust-strip .trust-item h5 { color: #fff !important; }
         html.dark-mode .jobs-trust-strip .trust-item p  { color: #cbd5e1 !important; }
         html.dark-mode .jobs-trust-strip .trust-item .ico {
-            background: rgba(255,138,0,.15) !important;
-            color: #ff8a00 !important;
+            background: rgba(47, 127, 201,.15) !important;
+            color: #4da3e8 !important;
         }
-        html.dark-mode .jobs-trust-strip .trust-item .ico i { color: #ff8a00 !important; }
+        html.dark-mode .jobs-trust-strip .trust-item .ico i { color: #4da3e8 !important; }
 
         /* === Sort By + result count strip above the no-jobs panel === */
         html.dark-mode .jobs-result-meta,
@@ -1334,7 +1334,7 @@
         html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item + .utf-intro-search-field-item {
             border-left-color: var(--site-card-bd) !important;
         }
-        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item i { color: #ff8a00 !important; }
+        html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item i { color: #4da3e8 !important; }
         html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select > .btn .filter-option-inner-inner,
         html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select > .btn .filter-option {
             color: var(--site-text) !important;
@@ -1352,7 +1352,7 @@
             color: var(--site-muted) !important;
         }
         html.dark-mode .bootstrap-select .dropdown-menu li a { color: var(--site-text) !important; }
-        html.dark-mode .bootstrap-select .dropdown-menu li a:hover { background: rgba(255,138,0,.12) !important; }
+        html.dark-mode .bootstrap-select .dropdown-menu li a:hover { background: rgba(47, 127, 201,.12) !important; }
         html.dark-mode .ac-dropdown { background: var(--site-card-bg); border-color: var(--site-input-bd); }
         html.dark-mode .ac-item { color: var(--site-text); border-bottom-color: var(--site-input-bd); }
         html.dark-mode .ac-item:hover, html.dark-mode .ac-item.is-active { background: rgba(255,255,255,.04); }
@@ -1369,8 +1369,8 @@
         html.dark-mode .jd-description h4,
         html.dark-mode .jd-formatted strong,
         html.dark-mode .jd-formatted b { color: #fff !important; }
-        html.dark-mode .jd-formatted .jd-h { color: #fff !important; border-bottom-color: #ff8a00 !important; }
-        html.dark-mode .jd-description a { color: #ff8a00 !important; }
+        html.dark-mode .jd-formatted .jd-h { color: #fff !important; border-bottom-color: #4da3e8 !important; }
+        html.dark-mode .jd-description a { color: #4da3e8 !important; }
         /* Breadcrumb pill on /jobs/{slug} */
         html.dark-mode .jd-hero-bc {
             background: var(--site-card-bg) !important;
@@ -1378,21 +1378,21 @@
             box-shadow: 0 1px 2px rgba(0,0,0,.35) !important;
         }
         html.dark-mode .jd-hero-bc a { color: #cbd5e1 !important; }
-        html.dark-mode .jd-hero-bc a:hover { color: #ff8a00 !important; }
+        html.dark-mode .jd-hero-bc a:hover { color: #4da3e8 !important; }
         html.dark-mode .jd-hero-bc li:last-child { color: #fff !important; }
         html.dark-mode .jd-hero-bc li + li::before { color: var(--site-muted) !important; }
         html.dark-mode .jd-formatted .jd-ul li::before,
-        html.dark-mode .jd-formatted .jd-ol li::before { color: #ff8a00 !important; }
+        html.dark-mode .jd-formatted .jd-ol li::before { color: #4da3e8 !important; }
         /* /jobs/{slug} — section bg, hero meta line, card heading icons */
         html.dark-mode .jd-section { background: var(--site-bg) !important; }
-        html.dark-mode .jd-hero-meta i { color: #ff8a00 !important; }
+        html.dark-mode .jd-hero-meta i { color: #4da3e8 !important; }
         html.dark-mode .jd-hero-meta span.badge-pill {
             background: rgba(255,255,255,.08) !important;
             border-color: rgba(255,255,255,.15) !important;
             color: #fff !important;
         }
         html.dark-mode .jd-card h2 { color: #fff !important; }
-        html.dark-mode .jd-card h2 i { color: #ff8a00 !important; }
+        html.dark-mode .jd-card h2 i { color: #4da3e8 !important; }
         /* Job Overview sidebar card */
         html.dark-mode .jd-aside-card {
             background: var(--site-card-bg) !important;
@@ -1403,7 +1403,7 @@
         html.dark-mode .jd-aside-card h3 { color: #fff !important; }
         html.dark-mode .jd-overview-list li { border-color: var(--site-card-bd) !important; }
         html.dark-mode .jd-overview-list .ico {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
         }
         html.dark-mode .jd-overview-list .label { color: var(--site-muted) !important; }
@@ -1415,9 +1415,9 @@
             color: #e5e7eb !important;
         }
         html.dark-mode .jd-explore-links a:hover {
-            background: rgba(255,138,0,.12) !important;
-            border-color: #ff8a00 !important;
-            color: #ff8a00 !important;
+            background: rgba(47, 127, 201,.12) !important;
+            border-color: #4da3e8 !important;
+            color: #4da3e8 !important;
         }
         /* "Similar Jobs You Might Like" related-jobs grid */
         html.dark-mode .jd-related { background: var(--site-bg) !important; }
@@ -1430,13 +1430,13 @@
             box-shadow: var(--site-shadow) !important;
         }
         html.dark-mode .jd-related-card:hover {
-            border-color: #ff8a00 !important;
+            border-color: #4da3e8 !important;
             box-shadow: 0 16px 32px rgba(0,0,0,.55) !important;
         }
         html.dark-mode .jd-related-card h3 { color: #fff !important; }
-        html.dark-mode .jd-related-card .company { color: #ff8a00 !important; }
+        html.dark-mode .jd-related-card .company { color: #4da3e8 !important; }
         html.dark-mode .jd-related-card .meta { color: #cbd5e1 !important; }
-        html.dark-mode .jd-related-card .meta i { color: #ff8a00 !important; }
+        html.dark-mode .jd-related-card .meta i { color: #4da3e8 !important; }
         html.dark-mode .jd-related-logo { background: rgba(255,255,255,.06) !important; }
 
         /* === /about-us — press strip, FAQ, supporting cards === */
@@ -1450,7 +1450,7 @@
         html.dark-mode .press-card h3,
         html.dark-mode .press-card h4 { color: #fff !important; }
         html.dark-mode .press-strip-item .ico {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
         }
         html.dark-mode .about-faq-item {
@@ -1459,7 +1459,7 @@
             color: var(--site-text) !important;
         }
         html.dark-mode .about-faq-item[open] {
-            border-color: #ff8a00 !important;
+            border-color: #4da3e8 !important;
             box-shadow: 0 8px 18px rgba(0,0,0,.55) !important;
         }
         html.dark-mode .about-faq-item summary { color: #fff !important; }
@@ -1485,7 +1485,7 @@
         html.dark-mode .quick-contact-card p,
         html.dark-mode .contact-map-card p { color: #cbd5e1 !important; }
         html.dark-mode .quick-contact-icon {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
         }
         html.dark-mode .contact-map-card .map-stat {
@@ -1494,8 +1494,8 @@
         }
         html.dark-mode .contact-map-card .map-stat strong { color: #fff !important; }
         html.dark-mode .contact-map-card .map-stat span { color: var(--site-muted) !important; }
-        html.dark-mode .contact-blog-card:hover { border-color: #ff8a00 !important; }
-        html.dark-mode .contact-faq-item[open] { border-color: #ff8a00 !important; }
+        html.dark-mode .contact-blog-card:hover { border-color: #4da3e8 !important; }
+        html.dark-mode .contact-faq-item[open] { border-color: #4da3e8 !important; }
         html.dark-mode .contact-faq-item summary { color: #fff !important; }
         html.dark-mode .contact-faq-item .faq-answer { color: #cbd5e1 !important; }
 
@@ -1507,7 +1507,7 @@
             box-shadow: var(--site-shadow) !important;
         }
         html.dark-mode .cat-trust-card:hover {
-            border-color: #ff8a00 !important;
+            border-color: #4da3e8 !important;
             box-shadow: 0 16px 32px rgba(0,0,0,.55) !important;
         }
         html.dark-mode .cat-trust-card h4 { color: #fff !important; }
@@ -1522,7 +1522,7 @@
         html.dark-mode .blog-side-card h3 { color: #fff !important; }
         html.dark-mode .latest-posts-list .thumb { background: rgba(255,255,255,.06) !important; }
         html.dark-mode .latest-posts-list .info h4 a { color: #fff !important; }
-        html.dark-mode .latest-posts-list .info h4 a:hover { color: #ff8a00 !important; }
+        html.dark-mode .latest-posts-list .info h4 a:hover { color: #4da3e8 !important; }
         html.dark-mode .latest-posts-list .date { color: var(--site-muted) !important; }
         html.dark-mode .cat-list li a {
             background: rgba(255,255,255,.06) !important;
@@ -1530,9 +1530,9 @@
             color: #e5e7eb !important;
         }
         html.dark-mode .cat-list li a:hover {
-            background: rgba(255,138,0,.12) !important;
-            border-color: #ff8a00 !important;
-            color: #ff8a00 !important;
+            background: rgba(47, 127, 201,.12) !important;
+            border-color: #4da3e8 !important;
+            color: #4da3e8 !important;
         }
         html.dark-mode .cat-list li a .count {
             background: rgba(255,255,255,.10) !important;
@@ -1559,7 +1559,7 @@
         html.dark-mode .info-table dd { color: #fff !important; }
         html.dark-mode .related-card:hover { background: rgba(255,255,255,.06) !important; }
         html.dark-mode .related-card .av {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
         }
 
@@ -1586,9 +1586,9 @@
         /* Company overview in sidebar */
         html.dark-mode .utf-company-overview .company-desc h3 { color: #fff !important; }
         html.dark-mode .utf-company-overview .company-desc p { color: #cbd5e1 !important; }
-        html.dark-mode .utf-company-overview .company-desc i { color: #ff8a00 !important; }
-        html.dark-mode .utf-company-overview .company-desc a { color: #ff8a00 !important; }
-        html.dark-mode .utf-company-overview .company-desc a:hover { color: #ffab40 !important; text-decoration: underline; }
+        html.dark-mode .utf-company-overview .company-desc i { color: #4da3e8 !important; }
+        html.dark-mode .utf-company-overview .company-desc a { color: #4da3e8 !important; }
+        html.dark-mode .utf-company-overview .company-desc a:hover { color: #7cc0f0 !important; text-decoration: underline; }
         /* Sidebar widget cards + headings ("Filter by Location", "Job Categories") */
         html.dark-mode .utf-sidebar-widget-item {
             background: transparent !important;
@@ -1596,36 +1596,36 @@
         }
         html.dark-mode .utf-sidebar-widget-item h3 {
             color: #fff !important;
-            border-bottom-color: #ff8a00 !important;
+            border-bottom-color: #4da3e8 !important;
         }
-        html.dark-mode .utf-sidebar-widget-item input[type="checkbox"] { accent-color: #ff8a00 !important; }
+        html.dark-mode .utf-sidebar-widget-item input[type="checkbox"] { accent-color: #4da3e8 !important; }
         html.dark-mode .utf-sidebar-widget-item .utf-job-listing li a {
             color: #cbd5e1 !important;
             background: transparent !important;
         }
-        html.dark-mode .utf-sidebar-widget-item .utf-job-listing li a:hover { color: #ff8a00 !important; }
+        html.dark-mode .utf-sidebar-widget-item .utf-job-listing li a:hover { color: #4da3e8 !important; }
         html.dark-mode .utf-sidebar-widget-item .utf-job-listing .counter {
             background: rgba(255,255,255,.06) !important;
             color: #cbd5e1 !important;
         }
         /* Job-card extras not covered by generic .job-card block */
         html.dark-mode .job-card-logo { background: rgba(255,255,255,.06) !important; }
-        html.dark-mode .job-card-meta li i { color: #ff8a00 !important; }
+        html.dark-mode .job-card-meta li i { color: #4da3e8 !important; }
         html.dark-mode .job-card-button {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
-            box-shadow: 0 4px 12px rgba(255,138,0,.30) !important;
+            box-shadow: 0 4px 12px rgba(47, 127, 201,.30) !important;
         }
         html.dark-mode .job-card:hover .job-card-button {
             filter: brightness(1.05);
-            box-shadow: 0 8px 18px rgba(255,138,0,.45) !important;
+            box-shadow: 0 8px 18px rgba(47, 127, 201,.45) !important;
         }
         /* Generic sidebar search button (`.button`) on this page */
         html.dark-mode .utf-sidebar-container-aera .button,
         html.dark-mode .utf-sidebar-widget-item .button {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
         }
 
@@ -1649,8 +1649,8 @@
             color: #cbd5e1 !important;
         }
         html.dark-mode .blog-share-row ul li a:hover {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
         }
         html.dark-mode .blog-author-card {
@@ -1673,7 +1673,7 @@
         html.dark-mode .about-stat-card:hover,
         html.dark-mode .how-card:hover,
         html.dark-mode .mvv-card:hover {
-            border-color: #ff8a00 !important;
+            border-color: #4da3e8 !important;
             box-shadow: 0 16px 32px rgba(0,0,0,.55) !important;
         }
         html.dark-mode .about-stat-card strong,
@@ -1690,15 +1690,15 @@
             color: #e5e7eb !important;
         }
         html.dark-mode .states-chips a:hover {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
         }
         /* /jobs-in-{location} listing — company logo container */
         html.dark-mode .utf-job-listing-company-logo { background: rgba(255,255,255,.06) !important; }
         /* /job-seekers/{id} page wrapper */
         html.dark-mode .seeker-page { background: var(--site-bg) !important; }
-        html.dark-mode .jd-card h2 i { color: #ff8a00 !important; }
+        html.dark-mode .jd-card h2 i { color: #4da3e8 !important; }
 
         /* Theme toggle — sliding pill switch (sun left / moon right) */
         .theme-toggle {
@@ -1714,7 +1714,7 @@
             transition: background .25s ease, border-color .25s ease;
             outline: none;
         }
-        .theme-toggle:focus-visible { box-shadow: 0 0 0 3px rgba(255,138,0,.25); }
+        .theme-toggle:focus-visible { box-shadow: 0 0 0 3px rgba(47, 127, 201,.25); }
         .theme-toggle .tt-thumb {
             position: absolute;
             top: 2px; left: 2px;
@@ -1731,8 +1731,8 @@
         .theme-toggle .ic-sun  { color: #f59e0b; }
         .theme-toggle .ic-moon { color: #c4b5fd; display: none; }
         html.dark-mode .theme-toggle {
-            background: linear-gradient(135deg, #ff8a00, #ff5722);
-            border-color: #ff8a00;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b);
+            border-color: #4da3e8;
         }
         html.dark-mode .theme-toggle .tt-thumb {
             transform: translateX(26px);
@@ -1743,76 +1743,123 @@
 
         /* Dark mode: "Step 1/2/3/4" process badges → brand orange */
         html.dark-mode .process-card .step-badge {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            box-shadow: 0 8px 18px rgba(255,87,34,.45) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            box-shadow: 0 8px 18px rgba(27, 58, 107,.45) !important;
         }
 
         /* Dark mode: "Read all career advice" outline button → brand orange */
         html.dark-mode .career-all {
-            color: #ff8a00 !important;
-            border-color: #ff8a00 !important;
+            color: #4da3e8 !important;
+            border-color: #4da3e8 !important;
             background: transparent !important;
         }
         html.dark-mode .career-all:hover {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
-            border-color: #ff8a00 !important;
-            box-shadow: 0 14px 28px rgba(255,138,0,.30) !important;
+            border-color: #4da3e8 !important;
+            box-shadow: 0 14px 28px rgba(47, 127, 201,.30) !important;
         }
 
         /* Dark mode: compare-section CTA buttons (Browse Verified Jobs / Create Free Account) */
         html.dark-mode .compare-cta .btn-dark {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
-            border-color: #ff8a00 !important;
-            box-shadow: 0 8px 18px rgba(255,138,0,.25) !important;
+            border-color: #4da3e8 !important;
+            box-shadow: 0 8px 18px rgba(47, 127, 201,.25) !important;
         }
         html.dark-mode .compare-cta .btn-dark:hover {
-            background: linear-gradient(135deg, #ff7a00, #ff4722) !important;
-            box-shadow: 0 14px 28px rgba(255,138,0,.40) !important;
+            background: linear-gradient(135deg, #2670b4, #16305a) !important;
+            box-shadow: 0 14px 28px rgba(47, 127, 201,.40) !important;
         }
         html.dark-mode .compare-cta .btn-outline {
             background: transparent !important;
-            color: #ff8a00 !important;
-            border-color: #ff8a00 !important;
+            color: #4da3e8 !important;
+            border-color: #4da3e8 !important;
         }
         html.dark-mode .compare-cta .btn-outline:hover {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
-            border-color: #ff8a00 !important;
+            border-color: #4da3e8 !important;
         }
 
         /* Home page CTAs: "Get Started — It's Free" + "Contact Support" → orange in dark */
         html.dark-mode .why-cta {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
-            box-shadow: 0 8px 18px rgba(255,138,0,.30) !important;
+            box-shadow: 0 8px 18px rgba(47, 127, 201,.30) !important;
         }
         html.dark-mode .why-cta:hover {
-            background: linear-gradient(135deg, #ff7a00, #ff4722) !important;
-            box-shadow: 0 14px 28px rgba(255,138,0,.45) !important;
+            background: linear-gradient(135deg, #2670b4, #16305a) !important;
+            box-shadow: 0 14px 28px rgba(47, 127, 201,.45) !important;
         }
         html.dark-mode .faq-left .contact-btn {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
             color: #fff !important;
-            box-shadow: 0 8px 18px rgba(255,138,0,.30) !important;
+            box-shadow: 0 8px 18px rgba(47, 127, 201,.30) !important;
         }
         html.dark-mode .faq-left .contact-btn:hover {
-            background: linear-gradient(135deg, #ff7a00, #ff4722) !important;
-            box-shadow: 0 14px 28px rgba(255,138,0,.45) !important;
+            background: linear-gradient(135deg, #2670b4, #16305a) !important;
+            box-shadow: 0 14px 28px rgba(47, 127, 201,.45) !important;
         }
 
         /* Home hero "Search Jobs" button → orange in dark mode */
         html.dark-mode .utf-intro-search-button .button,
         html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-button button {
-            background: linear-gradient(135deg, #ff8a00, #ff5722) !important;
-            border-color: #ff8a00 !important;
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
             color: #fff !important;
-            box-shadow: 0 8px 18px rgba(255,138,0,.30) !important;
+            box-shadow: 0 8px 18px rgba(47, 127, 201,.30) !important;
         }
         html.dark-mode .utf-intro-search-button .button:hover,
         html.dark-mode .intro-banner.intro-hero-v2 .utf-intro-search-button button:hover {
-            background: linear-gradient(135deg, #ff7a00, #ff4722) !important;
-            box-shadow: 0 14px 28px rgba(255,138,0,.45) !important;
+            background: linear-gradient(135deg, #2670b4, #16305a) !important;
+            box-shadow: 0 14px 28px rgba(47, 127, 201,.45) !important;
         }
         html.dark-mode .utf-intro-search-button .button i { color: #fff !important; }
+
+        /* === Homepage "Newest Jobs" grid === */
+        html.dark-mode .home-jobs-section { background: var(--site-bg) !important; }
+        html.dark-mode .home-jobs-section .section-head { background: transparent !important; }
+        html.dark-mode .home-jobs-section .section-tag {
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            color: #fff !important;
+        }
+        html.dark-mode .home-jobs-section h2 { color: var(--site-text) !important; }
+        html.dark-mode .home-jobs-section h2 .accent { color: #4da3e8 !important; }
+        html.dark-mode .home-jobs-section .section-head p { color: var(--site-muted) !important; }
+        html.dark-mode .home-job-card {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .home-job-card:hover {
+            border-color: #4da3e8 !important;
+            box-shadow: 0 18px 36px rgba(0,0,0,.55) !important;
+        }
+        html.dark-mode .home-job-card h3 { color: var(--site-text) !important; }
+        html.dark-mode .home-job-card:hover h3 { color: #4da3e8 !important; }
+        html.dark-mode .home-job-card .meta li { color: var(--site-muted) !important; }
+        html.dark-mode .home-job-card .meta li i { color: #4da3e8 !important; }
+        html.dark-mode .home-job-card .logo {
+            background: var(--site-input-bg) !important;
+            border-color: var(--site-card-bd) !important;
+        }
+        html.dark-mode .home-job-card .type-badge {
+            background: rgba(47, 127, 201, .18) !important;
+            color: #7cc0f0 !important;
+        }
+        html.dark-mode .home-job-card .card-cta { color: #4da3e8 !important; }
+        html.dark-mode .home-jobs-section .view-all-row a {
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #2f7fc9 !important;
+            color: #fff !important;
+        }
+        html.dark-mode .home-jobs-section .view-all-row a .arrow {
+            background: #fff !important;
+            color: #1b3a6b !important;
+        }
+
+        /* === Blog artwork is letterboxed, never cropped === */
+        html.dark-mode .ca-recent-card .thumb,
+        html.dark-mode .ca-morenews-card .thumb,
+        html.dark-mode .related-card-thumb,
+        html.dark-mode .career-thumb { background: #11151c !important; }

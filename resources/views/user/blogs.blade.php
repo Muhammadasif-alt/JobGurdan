@@ -144,16 +144,16 @@
         grid-template-columns: 2fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 18px;
-        height: 560px;
+        height: 460px;
     }
     @media (max-width: 991px) {
         .ca-featured-grid { grid-template-columns: 1fr 1fr; grid-template-rows: auto; height: auto; }
-        .ca-feature-main { grid-column: 1 / -1; height: 360px; }
-        .ca-feature-small { height: 220px; }
+        .ca-feature-main { grid-column: 1 / -1; aspect-ratio: 16 / 9; height: auto; }
+        .ca-feature-small { aspect-ratio: 16 / 9; height: auto; }
     }
     @media (max-width: 575px) {
         .ca-featured-grid { grid-template-columns: 1fr; }
-        .ca-feature-main { height: 280px; }
+        .ca-feature-main { aspect-ratio: 16 / 9; height: auto; }
     }
     .ca-feature-main, .ca-feature-small {
         position: relative; overflow: hidden;
@@ -168,10 +168,10 @@
         box-shadow: 0 16px 32px rgba(15,23,42,.18);
     }
     .ca-feature-main img, .ca-feature-small img {
-        width: 100%; height: 100%; object-fit: cover;
+        width: 100%; height: 100%; object-fit: contain;
         transition: transform .35s ease;
     }
-    .ca-feature-main:hover img, .ca-feature-small:hover img { transform: scale(1.04); }
+    .ca-feature-main:hover img, .ca-feature-small:hover img { transform: none; }
     .ca-feature-main::after, .ca-feature-small::after {
         content: ""; position: absolute; inset: 0;
         background: linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,.85) 100%);
@@ -215,9 +215,9 @@
         border-color: #1b3a6b;
         box-shadow: 0 14px 30px rgba(15,23,42,.10);
     }
-    .ca-recent-card .thumb { width: 100%; height: 230px; overflow: hidden; background: #f3f4f6; }
-    .ca-recent-card .thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
-    .ca-recent-card:hover .thumb img { transform: scale(1.04); }
+    .ca-recent-card .thumb { width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: #eef5fc; }
+    .ca-recent-card .thumb img { width: 100%; height: 100%; object-fit: contain; transition: transform .35s ease; }
+    .ca-recent-card:hover .thumb img { transform: none; }
     .ca-recent-card .info { padding: 16px 18px; flex-grow: 1; display: flex; flex-direction: column; }
     .ca-recent-card .cat-tag {
         display: inline-block;
@@ -288,15 +288,15 @@
     @media (max-width: 800px) { .ca-insights-grid { grid-template-columns: 1fr 1fr; } }
     @media (max-width: 500px) { .ca-insights-grid { grid-template-columns: 1fr; } }
     .ca-insight-card {
-        position: relative; height: 200px;
+        position: relative; aspect-ratio: 16 / 9;
         border-radius: 12px; overflow: hidden;
         text-decoration: none; display: block;
         background: #16305a;
         transition: transform .25s ease, box-shadow .25s ease;
     }
     .ca-insight-card:hover { transform: translateY(-3px); box-shadow: 0 14px 30px rgba(15,23,42,.18); }
-    .ca-insight-card img { width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
-    .ca-insight-card:hover img { transform: scale(1.05); }
+    .ca-insight-card img { width: 100%; height: 100%; object-fit: contain; transition: transform .35s ease; }
+    .ca-insight-card:hover img { transform: none; }
     .ca-insight-card::after {
         content: ""; position: absolute; inset: 0;
         background: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,.85) 100%);
@@ -331,9 +331,9 @@
         border-color: #1b3a6b;
         box-shadow: 0 12px 26px rgba(15,23,42,.10);
     }
-    .ca-morenews-card .thumb { width: 100%; height: 200px; overflow: hidden; background: #f3f4f6; }
-    .ca-morenews-card .thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
-    .ca-morenews-card:hover .thumb img { transform: scale(1.05); }
+    .ca-morenews-card .thumb { width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: #eef5fc; }
+    .ca-morenews-card .thumb img { width: 100%; height: 100%; object-fit: contain; transition: transform .35s ease; }
+    .ca-morenews-card:hover .thumb img { transform: none; }
     .ca-morenews-card .info { padding: 14px 16px; flex-grow: 1; display: flex; flex-direction: column; }
     .ca-morenews-card h4 {
         font-size: 14.5px; font-weight: 700; color: #1b3a6b;

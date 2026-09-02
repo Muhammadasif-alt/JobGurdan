@@ -27,13 +27,15 @@
     @stack('meta')
     <meta property="og:title" content="@yield('og_title', 'JobGader - Find Your Dream Job Today')">
     <meta property="og:description" content="@yield('og_description', $metaDescription)">
-    <meta property="og:image" content="@yield('og_image', asset('public/user/images/JobGader.png'))">
+    <meta property="og:image" content="@yield('og_image', asset('public/user/images/og-jobgader.png'))">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Jobs Portal')</title>
 
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('public/user/images/favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('public/user/images/favicon.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('public/user/images/apple-touch-icon.png') }}">
 
     <!-- DNS prefetch + preconnect for faster third-party loads -->
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
