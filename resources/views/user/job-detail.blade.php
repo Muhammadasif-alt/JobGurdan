@@ -913,7 +913,9 @@
      * Anything pointing straight at an employer's own site is a single opening
      * by definition. The listing renders and applies through either way.
      */
-    $aggregatorHosts = ['indeed.com', 'ziprecruiter.com', 'glassdoor.com', 'linkedin.com', 'monster.com', 'simplyhired.com'];
+    // Matched without a TLD so country domains count too — simplyhired.co.uk and
+    // uk.indeed.com are the same aggregators as their .com counterparts.
+    $aggregatorHosts = ['indeed.', 'ziprecruiter.', 'glassdoor.', 'linkedin.', 'monster.', 'simplyhired.', 'totaljobs.', 'reed.co.uk', 'cv-library.', 'jobsite.'];
     $applyUrl = (string) $job->application_url;
     $applyHost = $applyUrl !== '' ? strtolower(parse_url($applyUrl, PHP_URL_HOST) ?? '') : '';
     $onAggregator = collect($aggregatorHosts)->contains(fn ($host) => str_contains($applyHost, $host));
