@@ -472,11 +472,11 @@
                 <p>Speak directly with our support team for quick assistance.</p>
                 <span class="qc-action">+1 (800) 123-4567 <i class="icon-feather-arrow-right"></i></span>
             </a>
-            <a href="mailto:support@jobgader.com" class="quick-contact-card">
+            <a href="mailto:{{ config('site.contact_email') }}" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-mail"></i></div>
                 <h4>Email Us</h4>
                 <p>Drop us a line and we'll respond within 24 hours.</p>
-                <span class="qc-action">support@jobgader.com <i class="icon-feather-arrow-right"></i></span>
+                <span class="qc-action">{{ config('site.contact_email') }} <i class="icon-feather-arrow-right"></i></span>
             </a>
             <a href="https://calendly.com/" target="_blank" rel="noopener" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-calendar"></i></div>
@@ -540,7 +540,7 @@
                             <i class="icon-feather-mail"></i>
                             <div>
                                 <strong>Email</strong>
-                                support@jobgader.com
+                                {{ config('site.contact_email') }}
                             </div>
                         </li>
                         <li>

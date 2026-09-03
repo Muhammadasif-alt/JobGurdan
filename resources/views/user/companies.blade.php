@@ -1,5 +1,6 @@
 @extends('user.layouts.master')
-@section('title', 'Browse Companies')
+@section('title', 'Employers Hiring on JobGader — Browse Companies')
+@section('meta_description', 'Browse the employers and agencies listing roles on JobGader across the USA, UK and Pakistan. Open a company to see its current openings and apply direct.')
 @section('content')
 
 <style>
@@ -409,8 +410,8 @@
             <a href="{{ url('/') }}">Home</a> &nbsp;&rsaquo;&nbsp; Browse Employers
         </div>
         <span class="eyebrow" data-aos="fade-down" data-aos-duration="600">Top Employers</span>
-        <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Discover Top <span class="accent">Companies Hiring</span> in the USA</h1>
-        <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Explore {{ number_format($stats['total_companies']) }}+ trusted U.S. employers across every industry. Connect directly with verified hiring companies and find your next career move with confidence.</p>
+        <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Employers <span class="accent">hiring right now</span></h1>
+        <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Every employer and agency with a listing on JobGader, across the USA, UK and Pakistan. Open one to see its current openings and apply straight through &mdash; no account, no fee.</p>
 
         <form method="GET" action="{{ route('jobs.companies') }}" class="companies-search">
             <input type="text" name="q" value="{{ $search ?? '' }}" placeholder="Search by company name…" autocomplete="off">
@@ -479,7 +480,7 @@
                         <div class="company-avatar">{{ $initials }}</div>
                         <div style="min-width:0;">
                             <h3>{{ $company->name }}</h3>
-                            <div class="verified"><i class="icon-material-outline-check-circle"></i> Verified Employer</div>
+                            <div class="verified"><i class="icon-material-outline-check-circle"></i> Listing on JobGader</div>
                         </div>
                     </div>
 
@@ -488,7 +489,7 @@
                             {{ $jobsCount > 0 ? 'Actively hiring across multiple roles' : 'No active openings right now' }}
                         </div>
                         <div class="meta"><i class="icon-material-outline-business"></i>
-                            {{ $company->type ? ucfirst($company->type) : 'Trusted employer on JobsInUSA' }}
+                            {{ $company->type ? ucfirst($company->type) : 'Employer' }}
                         </div>
                     </div>
 
@@ -530,30 +531,30 @@
 <section class="emp-why-section">
     <div class="container">
         <header class="emp-section-head">
-            <span class="eyebrow">Why Employers Choose Us</span>
-            <h2>Trusted by U.S. <span class="accent">Hiring Teams</span></h2>
-            <p>Reach millions of verified job seekers, post unlimited roles, and find quality talent faster — without paying per click.</p>
+            <span class="eyebrow">Posting a Role</span>
+            <h2>What listing here <span class="accent">actually gets you</span></h2>
+            <p>We are a young board, so here is the honest version rather than a pitch.</p>
         </header>
         <div class="emp-why-grid">
             <div class="emp-why-card">
                 <div class="emp-why-ico"><i class="icon-feather-users"></i></div>
-                <h3>Massive U.S. Reach</h3>
-                <p>Connect with millions of active American job seekers across all 50 states — every industry, every experience level.</p>
+                <h3>Three Countries</h3>
+                <p>Listings across the USA, UK and Pakistan, read by candidates arriving mainly through our visa and sector guides rather than through paid traffic.</p>
             </div>
             <div class="emp-why-card">
                 <div class="emp-why-ico"><i class="icon-feather-target"></i></div>
-                <h3>Quality Candidates</h3>
-                <p>Our AI matching surfaces relevant talent based on skills, location and seniority — fewer unqualified applications.</p>
+                <h3>Applications Go To You</h3>
+                <p>Candidates apply through your own link or application process. We do not sit in the middle of the conversation or resell the applicant\'s details.</p>
             </div>
             <div class="emp-why-card">
                 <div class="emp-why-ico"><i class="icon-feather-dollar-sign"></i></div>
-                <h3>Transparent Pricing</h3>
-                <p>Flat-rate posting fees with no hidden per-click charges. Get unlimited applications for the duration of your listing.</p>
+                <h3>No Cost Right Now</h3>
+                <p>There is no posting fee and no per-click charge at this stage. If that changes, it will be stated plainly before anything is billed.</p>
             </div>
             <div class="emp-why-card">
                 <div class="emp-why-ico"><i class="icon-feather-shield"></i></div>
-                <h3>Brand Verification</h3>
-                <p>Verified employer badge builds trust with candidates. Stand out from the crowd of unscreened listings on other boards.</p>
+                <h3>Reviewed Before Publishing</h3>
+                <p>Listings are added and checked by hand rather than scraped, which keeps out the duplicate and expired postings that fill automated boards.</p>
             </div>
         </div>
     </div>
@@ -566,22 +567,21 @@
     <div class="container">
         <div class="emp-seo-grid">
             <div class="emp-seo-content">
-                <span class="eyebrow">Built for U.S. Recruiters</span>
-                <h2>America's most comprehensive <span class="accent">talent platform</span></h2>
+                <span class="eyebrow">Who Reads These Listings</span>
+                <h2>A smaller board with <span class="accent">a specific audience</span></h2>
                 <p class="emp-seo-lead">
-                    From Fortune 500 hiring teams to single-store retailers, thousands of U.S. companies post their open roles on JobGader every week.
+                    Most of our readers arrive through guides on visa sponsorship, pay and entry requirements in transport, hospitality, care, construction, cleaning, marketing and software.
                 </p>
                 <p>
-                    Our platform serves verified employers in healthcare, technology, logistics, retail, hospitality, manufacturing, and every major U.S. industry.
-                    Every employer is screened by our trust team before a single listing goes live, so your brand sits alongside reputable companies — not spam recruiters.
+                    That shapes who applies. Candidates who reach a listing here have usually just read what the role pays, what qualification it needs and whether the visa route is open, which means fewer speculative applications and better-informed ones. If you are hiring for a role where those questions matter, that audience is worth more than raw volume.
                 </p>
                 <ul class="emp-seo-list">
-                    <li><i class="icon-feather-check-circle"></i> Post unlimited roles per month with one flat fee</li>
-                    <li><i class="icon-feather-check-circle"></i> Receive applications directly to your employer dashboard</li>
-                    <li><i class="icon-feather-check-circle"></i> Track candidate pipeline, schedule interviews, hire faster</li>
-                    <li><i class="icon-feather-check-circle"></i> Free verified-employer badge boosts application rates</li>
+                    <li><i class="icon-feather-check-circle"></i> Listings added and checked by hand, not scraped</li>
+                    <li><i class="icon-feather-check-circle"></i> Candidates apply through your own process, not ours</li>
+                    <li><i class="icon-feather-check-circle"></i> No posting fee and no per-click charge</li>
+                    <li><i class="icon-feather-check-circle"></i> Readers arrive from sector and visa guides, not paid traffic</li>
                 </ul>
-                <a href="{{ route('register') }}" class="emp-cta-btn">Start Hiring — Free Account <i class="icon-feather-arrow-right"></i></a>
+                <a href="{{ route('contact.us') }}" class="emp-cta-btn">Get in touch about listing a role <i class="icon-feather-arrow-right"></i></a>
             </div>
             <div class="emp-seo-visual">
                 <img src="{{ asset('public/user/images/single-company.webp') }}"

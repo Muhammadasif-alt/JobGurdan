@@ -2,15 +2,16 @@
 
 use function Pest\Laravel\get;
 
-it('shows both contact addresses as mailto links', function () {
+it('shows the single contact address as a mailto link', function () {
     $response = get(route('contact.us'));
 
     $response->assertOk()
-        ->assertSee('mailto:info@jobgader.com', false)
-        ->assertSee('mailto:admin@jobgader.com', false);
+        ->assertSee('mailto:'.config('site.contact_email'), false)
+        ->assertDontSee('info@jobgader.com')
+        ->assertDontSee('support@jobgader.com');
 });
 
-it('lists the admin address in the organisation contact points', function () {
+it('lists the contact address in the organisation contact points', function () {
     $html = get(route('contact.us'))->assertOk()->getContent();
 
     preg_match_all('/<script type="application\/ld\+json">(.*?)<\/script>/s', $html, $matches);
@@ -22,5 +23,5 @@ it('lists the admin address in the organisation contact points', function () {
 
     expect($contactPoints)->not->toBeEmpty()
         ->and(array_column($contactPoints, 'email'))
-        ->toContain('info@jobgader.com', 'admin@jobgader.com');
+        ->toContain(config('site.contact_email'));
 });

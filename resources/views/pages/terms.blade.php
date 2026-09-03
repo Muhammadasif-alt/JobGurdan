@@ -101,7 +101,7 @@
     <div class="container">
         <div class="legal-card">
             <h1>Terms of Service</h1>
-            <span class="updated">Last updated: {{ now()->format('F j, Y') }}</span>
+            <span class="updated">Last updated: September 3, 2026</span>
 
             <p>Welcome to JobGader. These Terms of Service ("Terms") govern your access to and use of our website, mobile applications, and related services (the "Service"). By accessing or using the Service, you agree to be bound by these Terms. If you do not agree, please do not use the Service.</p>
 
@@ -228,7 +228,7 @@
             <h2 id="contact">16. Contact Us</h2>
             <p>If you have any questions about these Terms, please contact us:</p>
             <ul>
-                <li>Email: <a href="mailto:legal@jobgader.com">legal@jobgader.com</a></li>
+                <li>Email: <a href="mailto:{{ config('site.contact_email') }}">{{ config('site.contact_email') }}</a></li>
                 <li>Contact form: <a href="{{ url('/contact-us') }}">Contact Us page</a></li>
             </ul>
         </div>

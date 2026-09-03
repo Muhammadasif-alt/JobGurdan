@@ -25,11 +25,11 @@
             'Find thousands of job opportunities across the USA. Search for jobs by location, category, and experience level on JobGader - your premier job search platform.';
         $metaKeywords =
             trim($__env->yieldContent('meta_keywords')) ?:
-            'jobs, USA jobs, job search, employment, careers, job listings, work opportunities, hiring, job board';
+            'jobs, job search, visa sponsorship jobs, jobs for foreigners, employment, careers, job listings, hiring, job board';
     @endphp
 
     <meta name="description" content="@yield('meta_description', 'Find latest jobs')">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="@yield('meta_robots', 'index, follow')">
     <meta name="google-site-verification" content="NEZhtXbrZZkQYcz5kQO1hT17Vs27bb3VYUgrjUTUeQ0">
     <meta name="keywords" content="@yield('meta_keywords', $metaKeywords)">
     <link rel="canonical" href="@yield('canonical', url()->current())">

@@ -55,7 +55,7 @@
         "contactPoint": {
             "@@type": "ContactPoint",
             "contactType": "Customer Support",
-            "email": "support@jobgader.com",
+            "email": "{{ config('site.contact_email') }}",
             "availableLanguage": ["English"]
         }
     }

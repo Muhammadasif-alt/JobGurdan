@@ -36,23 +36,14 @@
             "addressRegion": "CA",
             "addressCountry": "US"
         },
-        "email": "admin@jobgader.com",
-        "contactPoint": [
-            {
-                "@@type": "ContactPoint",
-                "telephone": "+1-321-775-9823",
-                "contactType": "customer support",
-                "email": "info@jobgader.com",
-                "availableLanguage": ["English"],
-                "areaServed": "US"
-            },
-            {
-                "@@type": "ContactPoint",
-                "contactType": "administrative support",
-                "email": "admin@jobgader.com",
-                "availableLanguage": ["English"]
-            }
-        ]
+        "email": "{{ config('site.contact_email') }}",
+        "contactPoint": [{
+            "@@type": "ContactPoint",
+            "telephone": "+1-321-775-9823",
+            "contactType": "customer support",
+            "email": "{{ config('site.contact_email') }}",
+            "availableLanguage": ["English"]
+        }]
     }
     </script>
 
@@ -683,11 +674,11 @@
                 <p>Speak directly with our support team for quick assistance and account help.</p>
                 <span class="qc-action">(+1) 321 775 9823 <i class="icon-feather-arrow-right"></i></span>
             </a>
-            <a href="mailto:info@jobgader.com" class="quick-contact-card">
+            <a href="mailto:{{ config('site.contact_email') }}" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-mail"></i></div>
                 <h4>Email Us</h4>
-                <p>Write to info@jobgader.com for general help, or admin@jobgader.com for account, listing and partnership matters. We reply within 24 hours on business days.</p>
-                <span class="qc-action">info@jobgader.com <i class="icon-feather-arrow-right"></i></span>
+                <p>Write to {{ config('site.contact_email') }} for anything &mdash; general help, listings, account questions or partnerships. We reply within 24 hours on business days.</p>
+                <span class="qc-action">{{ config('site.contact_email') }} <i class="icon-feather-arrow-right"></i></span>
             </a>
             <a href="https://calendly.com/" target="_blank" rel="noopener" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-calendar"></i></div>
@@ -771,8 +762,7 @@
                             <div class="ico"><i class="icon-feather-mail"></i></div>
                             <div>
                                 <strong>Email</strong>
-                                <a href="mailto:info@jobgader.com">info@jobgader.com</a>
-                                <a href="mailto:admin@jobgader.com">admin@jobgader.com</a>
+                                <a href="mailto:{{ config('site.contact_email') }}">{{ config('site.contact_email') }}</a>
                             </div>
                         </li>
                         <li>

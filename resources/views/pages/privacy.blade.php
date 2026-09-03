@@ -101,7 +101,7 @@
     <div class="container">
         <div class="legal-card">
             <h1>Privacy Policy</h1>
-            <span class="updated">Last updated: {{ now()->format('F j, Y') }}</span>
+            <span class="updated">Last updated: September 3, 2026</span>
 
             <p>JobGader ("we", "our", "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.</p>
 
@@ -192,7 +192,7 @@
                 <li><strong>Opt-out of sale:</strong> California residents may opt out of any "sale" of personal information (we do not sell your data).</li>
                 <li><strong>Withdraw consent:</strong> where processing is based on consent, you may withdraw it at any time without affecting prior processing.</li>
             </ul>
-            <p>To exercise these rights, email us at <a href="mailto:privacy@jobgader.com">privacy@jobgader.com</a>. We will respond within 30 days.</p>
+            <p>To exercise these rights, email us at <a href="mailto:{{ config('site.contact_email') }}">{{ config('site.contact_email') }}</a>. We will respond within 30 days.</p>
 
             <h2 id="children">8. Children's Privacy</h2>
             <p>Our services are intended for users 16 years and older. We do not knowingly collect personal information from children under 16. If we learn we have collected such data, we will delete it promptly. Parents or guardians who believe their child has provided information to us should contact us immediately.</p>
@@ -209,7 +209,7 @@
             <h2 id="contact">12. Contact Us</h2>
             <p>If you have questions or concerns about this Privacy Policy or our data practices, please contact us:</p>
             <ul>
-                <li>Email: <a href="mailto:privacy@jobgader.com">privacy@jobgader.com</a></li>
+                <li>Email: <a href="mailto:{{ config('site.contact_email') }}">{{ config('site.contact_email') }}</a></li>
                 <li>Contact form: <a href="{{ url('/contact-us') }}">Contact Us page</a></li>
             </ul>
         </div>

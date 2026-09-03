@@ -1,7 +1,9 @@
 @extends('user.layouts.master')
 
 @section('title', 'Browse Job Seekers — Hire Verified Talent | JobGader')
-@section('meta_description', 'Browse thousands of active U.S. job seekers actively looking for work. Filter by skill, location and experience to find your next great hire on JobGader.')
+@section('meta_description', 'Browse job seeker profiles on JobGader. Search by name, username or skill, and contact candidates directly. Free for employers and candidates alike.')
+
+@section('meta_robots', ($stats['total_seekers'] ?? 0) > 0 ? 'index, follow' : 'noindex, follow')
 
 @section('content')
 
@@ -349,9 +351,9 @@
     {{-- ============ HERO ============ --}}
     <section class="js-hero">
         <div class="container">
-            <span class="eyebrow" data-aos="fade-down" data-aos-duration="600"><i class="icon-feather-users"></i> Active U.S. Talent Pool</span>
+            <span class="eyebrow" data-aos="fade-down" data-aos-duration="600"><i class="icon-feather-users"></i> Candidate Directory</span>
             <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Meet professionals <span class="accent">ready to work</span></h1>
-            <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Browse thousands of verified job seekers across all 50 states. Filter by skill, location, and experience — and connect with your next great hire today.</p>
+            <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Candidates who have chosen to make their profile public, searchable by name, username or skill. Free to browse and free to contact — no recruiter subscription, no per-message charge.</p>
 
             <form action="{{ route('job-seekers.index') }}" method="GET" class="js-search-box"
                   data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
@@ -478,30 +480,30 @@
     <section class="jsk-why-section">
         <div class="container">
             <header class="jsk-section-head">
-                <span class="eyebrow">Why Job Seekers Choose Us</span>
-                <h2>Trusted by <span class="accent">millions of Americans</span></h2>
-                <p>From first-time applicants to career changers, JobGader helps you find the right role faster — with verified employers and tools built for U.S. talent.</p>
+                <span class="eyebrow">How This Works</span>
+                <h2>A directory, <span class="accent">not a paywall</span></h2>
+                <p>Candidates publish a profile if they want to be found. Employers browse and contact them directly. Nothing sits behind a subscription in either direction.</p>
             </header>
             <div class="jsk-why-grid">
                 <div class="jsk-why-card">
                     <div class="jsk-why-ico"><i class="icon-feather-shield"></i></div>
-                    <h3>Verified Employers</h3>
-                    <p>Every company on our platform is screened by our trust team — no scams, no ghost listings, no fake recruiters.</p>
+                    <h3>Profiles Are Opt-In</h3>
+                    <p>Nothing appears here unless the candidate chose to publish it. A profile can be made private again at any time, and it disappears from this directory immediately.</p>
                 </div>
                 <div class="jsk-why-card">
                     <div class="jsk-why-ico"><i class="icon-feather-zap"></i></div>
-                    <h3>Fast Matching</h3>
-                    <p>Our AI matches your profile to roles in under 60 seconds. The average user gets their first interview within 14 days.</p>
+                    <h3>Search by Skill</h3>
+                    <p>Search by name, username or a specific skill. Each card shows the candidate\'s preferred location so you can judge regional fit before opening the profile.</p>
                 </div>
                 <div class="jsk-why-card">
                     <div class="jsk-why-ico"><i class="icon-feather-dollar-sign"></i></div>
-                    <h3>Always Free</h3>
-                    <p>100% free for job seekers — no premium tiers, no hidden charges, no upsells. Your data is never sold.</p>
+                    <h3>Free Both Ways</h3>
+                    <p>Free for candidates to list and free for employers to browse and contact. No premium tier, no credits, and candidate data is never sold on.</p>
                 </div>
                 <div class="jsk-why-card">
                     <div class="jsk-why-ico"><i class="icon-feather-bell"></i></div>
-                    <h3>Instant Job Alerts</h3>
-                    <p>Set your preferences once and receive real-time alerts when a matching role goes live. Be first to apply.</p>
+                    <h3>Direct Contact</h3>
+                    <p>Approach a candidate through the details on their profile. There is no intermediary taking a cut and no message limit to buy your way past.</p>
                 </div>
             </div>
         </div>
@@ -514,38 +516,38 @@
         <div class="container">
             <div class="jsk-seo-grid">
                 <div class="jsk-seo-content">
-                    <span class="eyebrow">Real Results</span>
-                    <h2>The job search platform that <span class="accent">actually works</span></h2>
+                    <span class="eyebrow">For Candidates</span>
+                    <h2>Why publish a <span class="accent">public profile</span></h2>
                     <p class="jsk-seo-lead">
-                        Our verified-employer model and AI matching have helped thousands of Americans land interviews faster than traditional job boards.
+                        Applying is only one direction of a job search. A public profile lets an employer find you for a role that was never advertised.
                     </p>
                     <p>
-                        Most job boards flood you with stale postings, recycled recruiter listings, and roles that are already filled. We do the opposite — we verify every employer, deduplicate listings across feeds, and surface the freshest opportunities first.
-                        Whether you're a recent graduate, a career changer, or a senior professional looking for your next move, our platform is built to help you skip the noise and apply to roles that hire.
+                        A profile takes a few minutes and stays under your control. List the skills you actually want to be approached about rather than everything you have ever touched, state your preferred location and the kind of work you are after, and keep it current. A profile that is specific gets fewer approaches and better ones.
+                        You can unpublish at any time, and doing so removes you from this directory straight away.
                     </p>
                     <ul class="jsk-seo-list">
-                        <li><i class="icon-feather-check-circle"></i> <strong>14 days</strong> — average time to first interview</li>
-                        <li><i class="icon-feather-check-circle"></i> <strong>68,000+</strong> verified U.S. jobs updated daily</li>
-                        <li><i class="icon-feather-check-circle"></i> <strong>3X higher</strong> response rate than legacy job boards</li>
-                        <li><i class="icon-feather-check-circle"></i> <strong>One profile</strong> — apply to unlimited roles</li>
+                        <li><i class="icon-feather-check-circle"></i> <strong>You choose</strong> — nothing is published without your say-so</li>
+                        <li><i class="icon-feather-check-circle"></i> <strong>No fee</strong> — free to list and free for employers to contact you</li>
+                        <li><i class="icon-feather-check-circle"></i> <strong>Reversible</strong> — unpublish and you leave the directory immediately</li>
+                        <li><i class="icon-feather-check-circle"></i> <strong>Never sold</strong> — your details are not passed to data brokers</li>
                     </ul>
                 </div>
                 <div class="jsk-seo-visual">
                     <img src="{{ asset('public/user/images/hero-diverse-professionals.webp') }}"
                          onerror="this.onerror=null;this.src='{{ asset('public/user/images/hero-diverse-professionals.jpg') }}'"
-                         alt="U.S. job seekers find verified roles on JobGader" loading="lazy" decoding="async">
+                         alt="Job seeker reviewing openings on JobGader" loading="lazy" decoding="async">
                     <div class="jsk-float-badge tl">
                         <div class="ico green"><i class="icon-feather-check-circle"></i></div>
                         <div class="text">
-                            <strong>92%</strong>
-                            <span>Apply success rate</span>
+                            <strong>Opt-in</strong>
+                            <span>You choose what is public</span>
                         </div>
                     </div>
                     <div class="jsk-float-badge br">
-                        <div class="ico"><i class="icon-feather-trending-up"></i></div>
+                        <div class="ico"><i class="icon-feather-dollar-sign"></i></div>
                         <div class="text">
-                            <strong>14 days</strong>
-                            <span>To first interview</span>
+                            <strong>No fee</strong>
+                            <span>For candidates and employers</span>
                         </div>
                     </div>
                 </div>
@@ -559,16 +561,16 @@
     <section class="jsk-trust-section">
         <div class="container">
             <header class="jsk-section-head">
-                <span class="eyebrow">Trusted Companies Hire Here</span>
-                <h2>From local startups to <span class="accent">Fortune 500</span></h2>
-                <p>Verified employers across all U.S. industries actively recruit on JobGader — your next role is just one application away.</p>
+                <span class="eyebrow">What We Actually Offer</span>
+                <h2>Straight terms, <span class="accent">no small print</span></h2>
+                <p>We would rather state what is true than quote numbers we cannot stand behind.</p>
             </header>
             <div class="jsk-trust-grid">
-                <div class="jsk-trust-stat"><strong>10,000+</strong><span>Hiring Employers</span></div>
-                <div class="jsk-trust-stat"><strong>68,000+</strong><span>Open Roles</span></div>
-                <div class="jsk-trust-stat"><strong>50</strong><span>U.S. States</span></div>
-                <div class="jsk-trust-stat"><strong>2M+</strong><span>Active Job Seekers</span></div>
-                <div class="jsk-trust-stat"><strong>92%</strong><span>Success Rate</span></div>
+                <div class="jsk-trust-stat"><strong>3</strong><span>Countries Covered</span></div>
+                <div class="jsk-trust-stat"><strong>Weekly</strong><span>New Jobs &amp; Guides</span></div>
+                <div class="jsk-trust-stat"><strong>Opt-In</strong><span>Profiles Only</span></div>
+                <div class="jsk-trust-stat"><strong>No Fee</strong><span>Either Side</span></div>
+                <div class="jsk-trust-stat"><strong>Never</strong><span>Data Sold</span></div>
             </div>
         </div>
     </section>
@@ -582,17 +584,17 @@
                          alt="Confident job seeker walking out of a successful interview"
                          loading="lazy"
                          onerror="this.onerror=null;this.src='{{ asset('public/user/images/seo-jobseekers.jpg') }}'">
-                    <span class="js-spotlight-pill"><i class="icon-feather-check-circle"></i> Verified placements</span>
+                    <span class="js-spotlight-pill"><i class="icon-feather-check-circle"></i> Free to list</span>
                 </div>
                 <div class="js-spotlight-content">
                     <span class="eyebrow">Your Career, Your Pace</span>
-                    <h2>Land your <span class="accent">dream U.S. role</span> — faster</h2>
-                    <p>Create a free profile in under two minutes, upload your resume, and let verified U.S. employers find you. Most candidates get their first interview invitation within 14 days.</p>
+                    <h2>Be found for the roles <span class="accent">nobody advertised</span></h2>
+                    <p>A profile takes a few minutes, costs nothing, and can be unpublished whenever you want. You do not need one to apply for jobs here — every listing is open without an account.</p>
                     <ul class="js-spotlight-list">
-                        <li><i class="icon-feather-check"></i> 100% free for job seekers — no hidden fees, ever</li>
-                        <li><i class="icon-feather-check"></i> AI-matched roles based on your skills &amp; goals</li>
-                        <li><i class="icon-feather-check"></i> Real-time alerts the moment a matching job goes live</li>
-                        <li><i class="icon-feather-check"></i> Your data stays yours — never sold to third parties</li>
+                        <li><i class="icon-feather-check"></i> Free to list, and free for employers to contact you</li>
+                        <li><i class="icon-feather-check"></i> You decide what is public and can reverse it at any time</li>
+                        <li><i class="icon-feather-check"></i> No account needed to browse or apply for any listing</li>
+                        <li><i class="icon-feather-check"></i> Your details are never sold to third parties</li>
                     </ul>
                     <div class="js-spotlight-actions">
                         <a href="{{ route('register') }}" class="js-spotlight-btn primary">
