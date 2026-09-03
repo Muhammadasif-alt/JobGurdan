@@ -7,16 +7,17 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Job Seeker Panel | JobGader</title><!--begin::Accessibility Meta Tags-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="shortcut icon" href="{{ asset('public/user/images/favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('public/user/images/favicon.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('public/user/images/apple-touch-icon.png') }}">
+    <meta name="robots" content="noindex, nofollow">
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" content="#007bff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#16305a" media="(prefers-color-scheme: dark)">
     <!--end::Accessibility Meta Tags--><!--begin::Primary Meta Tags-->
-    <meta name="title" content="JobsListing | Jobs Management System">
-    <meta name="author" content="JobsListing">
-    <meta name="description"
-        content="AdminLTE is a Free Bootstrap 5 Admin Dashboard, 30 example pages using Vanilla JS. Fully accessible with WCAG 2.1 AA compliance.">
-    <meta name="keywords"
-        content="bootstrap 5, bootstrap, bootstrap 5 admin dashboard, bootstrap 5 dashboard, bootstrap 5 charts, bootstrap 5 calendar, bootstrap 5 datepicker, bootstrap 5 tables, bootstrap 5 datatable, vanilla js datatable, colorlibhq, colorlibhq dashboard, colorlibhq admin dashboard, accessible admin panel, WCAG compliant">
+    <meta name="title" content="Job Seeker Panel | JobGader">
+    <meta name="author" content="JobGader">
+    <meta name="description" content="Job seeker panel for tracking applications and saved jobs on JobGader.">
     <!--end::Primary Meta Tags--><!--begin::Accessibility Features--><!-- Skip links will be dynamically added by accessibility.js -->
     <meta name="supported-color-schemes" content="light dark">
     <link rel="stylesheet" href="{{ asset('public/admin/css/adminlte.css') }}"><!--end::Accessibility Features--><!--begin::Fonts-->
@@ -512,7 +513,7 @@
         <aside class="app-sidebar bg-body-secondary shadow" data-bs-theme="dark">
             <div class="sidebar-brand">
                 <a href="{{ route('seeker.dashboard') }}" class="brand-link">
-                    <span class="brand-badge">JU</span>
+                    <span class="brand-badge">jg</span>
                     <span class="brand-text">
                         JobGader
                         <small>Seeker Panel</small>
