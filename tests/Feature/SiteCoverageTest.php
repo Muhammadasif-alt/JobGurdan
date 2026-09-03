@@ -95,3 +95,19 @@ it('does not leak the concatenation syntax into rendered copy', function () {
             ->not->toContain('$coverage->');
     }
 });
+
+it('keeps US-only and old-brand copy from creeping back into the views', function () {
+    $offenders = [];
+
+    foreach (glob(resource_path('views/**/*.blade.php')) + glob(resource_path('views/**/**/*.blade.php')) as $file) {
+        $body = file_get_contents($file);
+
+        foreach (['across the United States', 'all 50 states', 'All 50 States', 'USA, UK and Pakistan', 'jobs in usa support'] as $phrase) {
+            if (str_contains($body, $phrase)) {
+                $offenders[] = basename($file).': '.$phrase;
+            }
+        }
+    }
+
+    expect($offenders)->toBeEmpty();
+});

@@ -752,7 +752,7 @@
                                 <span class="ico"><i class="icon-feather-clock"></i></span>
                                 <div>
                                     <strong>Daily Fresh Listings</strong>
-                                    <span>Thousands of new verified roles added every day across all 50 states.</span>
+                                    <span>New hand-checked roles added every week across the {{ $coverage->shortList() }}.</span>
                                 </div>
                             </li>
                         </ul>

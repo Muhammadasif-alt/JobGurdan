@@ -22,7 +22,7 @@
     @php
         $metaDescription =
             trim($__env->yieldContent('meta_description')) ?:
-            'Find thousands of job opportunities across the USA. Search for jobs by location, category, and experience level on JobGader - your premier job search platform.';
+            'Find hand-checked job openings across the '.$coverage->shortList().'. Search by location, category and experience level on JobGader — free to apply, no account needed.';
         $metaKeywords =
             trim($__env->yieldContent('meta_keywords')) ?:
             'jobs, job search, visa sponsorship jobs, jobs for foreigners, employment, careers, job listings, hiring, job board';

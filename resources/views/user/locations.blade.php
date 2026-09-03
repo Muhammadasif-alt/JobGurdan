@@ -622,7 +622,7 @@
             <div class="loc-seo-content">
                 <span class="eyebrow">Why Search by Location</span>
                 <h2>Find local jobs in the city or state where you actually want to work</h2>
-                <p>Commute matters. So does community. Our location-based search lets you target verified job openings in the exact U.S. state, metro area, city, or ZIP code you call home — or the place you're relocating to. From bustling tech hubs to quiet rural towns, we cover all 50 states with jobs you can actually apply for.</p>
+                <p>Commute matters. So does community. Our location-based search lets you target verified job openings in the exact country, region or city you want to work in — or the place you're relocating to. Every listing shows the country and city it sits in, so you can rule a role out before you read it.</p>
 
                 <ul class="loc-feature-list">
                     <li><i class="icon-feather-check-circle"></i> Drill down by state, area, and ZIP — find jobs that match your zone</li>

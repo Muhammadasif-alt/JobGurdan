@@ -10,7 +10,7 @@
 @push('meta')
     {{-- Twitter card --}}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="JobGader — Find Verified Jobs Across All 50 States">
+    <meta name="twitter:title" content="JobGader — Verified Jobs Across {{ $coverage->count() }} Countries">
     <meta name="twitter:description" content="Verified jobs across the {{ $coverage->shortList() }}, including visa-sponsored roles. Free for job seekers.">
     <meta name="twitter:image" content="{{ asset('public/user/images/home-background-03.jpg') }}">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

@@ -414,7 +414,7 @@
             <div class="seeker-main">
                 <div class="panel">
                     <h3><i class="icon-feather-user"></i> About</h3>
-                    <p>{{ $seeker->name }} is a {{ $profile['experience_years'] }}-year veteran based in {{ $profile['city'] }}, currently exploring {{ $profile['open_to'] }} opportunities across the United States.</p>
+                    <p>{{ $seeker->name }} is a {{ $profile['experience_years'] }}-year veteran based in {{ $profile['city'] }}, currently exploring {{ $profile['open_to'] }} opportunities across the {{ $coverage->shortList() }}.</p>
                     <p>{{ $profile['headline'] }} — comfortable working in fast-paced environments, with a strong track record of meeting deadlines and collaborating across teams. Available to start immediately for the right role.</p>
                 </div>
 

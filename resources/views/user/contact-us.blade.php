@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
 @section('title', 'Contact JobGader — Get Help, Partner With Us, Report a Listing')
 @section('meta_description', 'Contact JobGader by email or through the form on this page. We reply within 24 hours on business days to questions about listings, guides and partnerships.')
-@section('meta_keywords', 'contact jobs in usa, jobs in usa support, jobs in usa email, customer service usa job board, partnership jobs in usa, report job listing')
+@section('meta_keywords', 'contact jobgader, jobgader support, jobgader email, job board contact, report a job listing, employer enquiries')
 @section('og_title', 'Contact JobGader — We\'re Here to Help')
 @section('og_description', 'Reach our support team within 24 hours. Phone, email, or message — we\'re ready to help job seekers, employers, and partners.')
 @section('canonical', route('contact.us'))
