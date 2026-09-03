@@ -29,6 +29,24 @@ it('emails the site address when someone submits the contact form', function () 
     });
 });
 
+it('renders the notification without a missing view path', function () {
+    $message = ContactMessage::create([
+        'first_name' => 'Sara',
+        'last_name' => 'Iqbal',
+        'email' => 'sara@example.com',
+        'subject' => 'Cleaner roles in London',
+        'message' => 'Are the London cleaning listings still live?',
+    ]);
+
+    // Mail::fake() never renders, so a broken view slips past assertSent —
+    // which is exactly how a markdown mailable declared with view() reached
+    // production and failed with "No hint path defined for [mail]".
+    $rendered = (new ContactMessageReceived($message))->render();
+
+    expect($rendered)->toContain('Cleaner roles in London')
+        ->toContain('sara@example.com');
+});
+
 it('still keeps the message when the mail transport fails', function () {
     Mail::shouldReceive('to')->andThrow(new RuntimeException('SMTP down'));
 
