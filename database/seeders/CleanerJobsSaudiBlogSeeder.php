@@ -107,7 +107,7 @@ class CleanerJobsSaudiBlogSeeder extends Seeder
                 'salary_minimum' => 700,
                 'salary_maximum' => 1800,
                 'application_url' => self::APPLY_URL,
-                'meta_description' => 'Cleaning and housekeeping roles across Riyadh, Jeddah and Dammam, SAR 700-1,800 a month plus accommodation. Employer-sponsored work visa and Iqama. Never pay a fee for a visa.',
+                'meta_description' => 'Cleaning and housekeeping roles in Riyadh, Jeddah and Dammam. SAR 700-1,800 a month plus accommodation, with an employer-sponsored visa and Iqama.',
                 'seo_keywords' => 'cleaner jobs in saudi arabia, cleaning jobs saudi arabia visa sponsorship, housekeeping jobs riyadh, hospital cleaner jobs saudi arabia, cleaner salary saudi arabia, house cleaner jobs jeddah',
             ]
         );

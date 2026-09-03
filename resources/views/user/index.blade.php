@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
-@section('title', 'JobGader | Jobs with Visa Sponsorship — USA, UK & Pakistan')
-@section('meta_description', 'Verified jobs across the '.$coverage->shortList().', including roles that sponsor foreign workers. Plus honest guides on which visa routes are actually open. Free to apply, no account needed.')
+@section('title', 'Jobs with Visa Sponsorship in '.$coverage->count().' Countries | JobGader')
+@section('meta_description', 'Hand-checked jobs across the '.$coverage->shortList().', including roles that sponsor foreign workers, plus guides on which visa routes are open.')
 @section('meta_keywords', 'jobs with visa sponsorship, jobs in usa, jobs in uk, jobs in pakistan, visa sponsorship jobs, H-2B visa jobs, EB-3 visa jobs, work abroad, job search, apply free, jobs for foreigners')
 @section('og_title', 'JobGader | Jobs with Visa Sponsorship — USA, UK & Pakistan')
 @section('og_description', 'Verified jobs across the '.$coverage->shortList().', including visa-sponsored roles — plus honest guides on which visa routes are open. Free to apply.')

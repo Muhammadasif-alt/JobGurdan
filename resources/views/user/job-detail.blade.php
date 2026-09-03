@@ -1,6 +1,17 @@
 @extends('user.layouts.master')
-@section('title', $job->position . ' at ' . ($job->advertiser->name ?? 'Top Employer') . ' — ' . ($job->location->name ?? 'USA') . ' | JobGader')
-@section('meta_description', $job->meta_description ?: ('Apply for ' . $job->position . ' at ' . ($job->advertiser->name ?? 'top employer') . ' in ' . ($job->location->name ?? 'USA') . '. ' . \Illuminate\Support\Str::limit(strip_tags($job->description ?? ''), 130)))
+@php
+    $headlineRole = trim(explode('—', $job->position)[0]);
+    $jobPlace = $job->location->name ?? null;
+    $jobHeadline = $jobPlace ? $headlineRole.' Jobs in '.$jobPlace : $headlineRole;
+    $withEmployer = $headlineRole.' at '.($job->advertiser->name ?? '').($jobPlace ? ' — '.$jobPlace : '');
+
+    // Name the employer only when it still leaves a title Google will show whole.
+    if ($job->advertiser?->name && mb_strlen($withEmployer) <= 48) {
+        $jobHeadline = $withEmployer;
+    }
+@endphp
+@section('title', $jobHeadline . ' | JobGader')
+@section('meta_description', $job->meta_description ?: ('Apply for ' . $job->position . ' at ' . ($job->advertiser->name ?? 'top employer') . ' in ' . ($job->location->name ?? 'the listed location') . '. ' . \Illuminate\Support\Str::limit(strip_tags($job->description ?? ''), 130)))
 @section('og_title', $job->position . ' at ' . ($job->advertiser->name ?? 'Top Employer'))
 @section('og_description', \Illuminate\Support\Str::limit(strip_tags($job->description ?? 'Apply now on JobGader.'), 160))
 @section('canonical', route('jobs.show', \Illuminate\Support\Str::slug($job->position . '-' . ($job->location->name ?? ''))))

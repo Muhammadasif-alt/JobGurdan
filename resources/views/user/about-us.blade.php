@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 @section('title', 'About JobGader — Jobs and Honest Visa Guides')
-@section('meta_description', 'Why JobGader exists: hand-checked job listings across the '.$coverage->shortList().', and visa sponsorship guides that say which routes are open and which are closed.')
+@section('meta_description', 'Why JobGader exists: hand-checked listings across the '.$coverage->shortList().', and visa guides that say which routes are open and which are closed.')
 @section('meta_keywords', 'about jobgader, job board, visa sponsorship guides, jobs usa uk pakistan, free job search, jobs for foreigners, work abroad, hand checked job listings')
 @section('og_title', 'About JobGader — Jobs and Honest Visa Guides')
 @section('og_description', 'Hand-checked jobs across the '.$coverage->shortList().', plus visa guides that tell you which sponsorship routes are actually open.')

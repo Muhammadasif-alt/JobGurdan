@@ -23,12 +23,21 @@
         $metaDescription =
             trim($__env->yieldContent('meta_description')) ?:
             'Find hand-checked job openings across the '.$coverage->shortList().'. Search by location, category and experience level on JobGader — free to apply, no account needed.';
+        // Google truncates past roughly 160 characters. The country list is
+        // read from the listings now, so an authored description can grow past
+        // that on its own when a new country is added.
+        if (mb_strlen($metaDescription) > 158) {
+            $cut = mb_substr($metaDescription, 0, 158);
+            $break = mb_strrpos($cut, ' ');
+            $metaDescription = rtrim($break ? mb_substr($cut, 0, $break) : $cut, " ,;:.-—");
+        }
+
         $metaKeywords =
             trim($__env->yieldContent('meta_keywords')) ?:
             'jobs, job search, visa sponsorship jobs, jobs for foreigners, employment, careers, job listings, hiring, job board';
     @endphp
 
-    <meta name="description" content="@yield('meta_description', $metaDescription)">
+    <meta name="description" content="{{ $metaDescription }}">
     <meta name="robots" content="@yield('meta_robots', 'index, follow')">
     <meta name="google-site-verification" content="NEZhtXbrZZkQYcz5kQO1hT17Vs27bb3VYUgrjUTUeQ0">
     <meta name="keywords" content="@yield('meta_keywords', $metaKeywords)">

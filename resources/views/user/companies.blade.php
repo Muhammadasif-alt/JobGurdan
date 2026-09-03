@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 @section('title', 'Employers Hiring on JobGader — Browse Companies')
-@section('meta_description', 'Browse the employers and agencies listing roles on JobGader across the '.$coverage->shortList().'. Open a company to see its current openings and apply direct.')
+@section('meta_description', 'Employers and agencies listing roles on JobGader across the '.$coverage->shortList().'. Open one to see its openings and apply direct.')
 @section('content')
 
 <style>

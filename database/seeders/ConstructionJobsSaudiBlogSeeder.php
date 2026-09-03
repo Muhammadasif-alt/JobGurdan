@@ -107,7 +107,7 @@ class ConstructionJobsSaudiBlogSeeder extends Seeder
                 'salary_minimum' => 1500,
                 'salary_maximum' => 30000,
                 'application_url' => self::APPLY_URL,
-                'meta_description' => 'Construction roles across Riyadh, Jeddah, Dammam and the giga-projects, from trades to project management. Employer-sponsored work visa and Iqama. Never pay a fee for a visa.',
+                'meta_description' => 'Construction roles in Riyadh, Jeddah, Dammam and the giga-projects, from trades to project management, with an employer-sponsored visa and Iqama.',
                 'seo_keywords' => 'construction jobs in saudi arabia, construction jobs saudi arabia visa sponsorship, civil engineer jobs saudi arabia, site engineer jobs riyadh, safety officer jobs saudi arabia, quantity surveyor jobs saudi arabia, neom construction jobs',
             ]
         );

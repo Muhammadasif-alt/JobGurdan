@@ -106,7 +106,7 @@ class SecurityGuardJobsSaudiBlogSeeder extends Seeder
                 'salary_minimum' => 1400,
                 'salary_maximum' => 5000,
                 'application_url' => self::APPLY_URL,
-                'meta_description' => 'Security guard roles across Riyadh, Jeddah and Dammam, SAR 1,400-5,000 a month plus accommodation. Ministry of Interior licence arranged by the employer. Never pay a fee for a visa.',
+                'meta_description' => 'Security guard roles in Riyadh, Jeddah and Dammam. SAR 1,400-5,000 a month plus accommodation, with the Ministry of Interior licence arranged for you.',
                 'seo_keywords' => 'security guard jobs in saudi arabia, security guard salary saudi arabia, security jobs riyadh, security guard jobs for pakistani, security supervisor jobs jeddah, moi security guard licence',
             ]
         );

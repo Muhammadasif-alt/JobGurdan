@@ -1,5 +1,5 @@
 @extends('user.layouts.master')
-@section('title', 'Browse Jobs by Location — Find Verified Jobs in Every U.S. State')
+@section('title', 'Browse Jobs by Location | JobGader')
 @section('meta_description', 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . '+ verified jobs across ' . number_format($heroStats['total_states'] ?? 50) . ' U.S. states. Find local opportunities in your city, area, or ZIP — apply free on JobGader.')
 @section('meta_keywords', 'jobs by location usa, jobs near me, find jobs by city, browse jobs by state, jobs by zip code, local jobs america')
 
