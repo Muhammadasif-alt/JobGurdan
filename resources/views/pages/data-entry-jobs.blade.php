@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
 @section('title', 'Data Entry Jobs — Pay, Reality and Openings | JobGader')
-@section('meta_description', 'Data entry jobs across the USA, UK and Pakistan: what the work pays, which remote listings are genuine, and how to spot the scams in this category.')
+@section('meta_description', 'Data entry jobs across the '.$coverage->shortList().': what the work pays, which remote listings are genuine, and how to spot the scams in this category.')
 @section('og_title', 'Data Entry Jobs — Pay, Reality and Openings | JobGader')
-@section('og_description', 'Data entry jobs across the USA, UK and Pakistan: what the work pays, which remote listings are genuine, and how to spot the scams in this category.')
+@section('og_description', 'Data entry jobs across the '.$coverage->shortList().': what the work pays, which remote listings are genuine, and how to spot the scams in this category.')
 @section('canonical', url()->current())
 
 @section('content')

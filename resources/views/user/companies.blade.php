@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 @section('title', 'Employers Hiring on JobGader — Browse Companies')
-@section('meta_description', 'Browse the employers and agencies listing roles on JobGader across the USA, UK and Pakistan. Open a company to see its current openings and apply direct.')
+@section('meta_description', 'Browse the employers and agencies listing roles on JobGader across the '.$coverage->shortList().'. Open a company to see its current openings and apply direct.')
 @section('content')
 
 <style>
@@ -411,7 +411,7 @@
         </div>
         <span class="eyebrow" data-aos="fade-down" data-aos-duration="600">Top Employers</span>
         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Employers <span class="accent">hiring right now</span></h1>
-        <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Every employer and agency with a listing on JobGader, across the USA, UK and Pakistan. Open one to see its current openings and apply straight through &mdash; no account, no fee.</p>
+        <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Every employer and agency with a listing on JobGader, across the {{ $coverage->shortList() }}. Open one to see its current openings and apply straight through &mdash; no account, no fee.</p>
 
         <form method="GET" action="{{ route('jobs.companies') }}" class="companies-search">
             <input type="text" name="q" value="{{ $search ?? '' }}" placeholder="Search by company name…" autocomplete="off">
@@ -538,8 +538,8 @@
         <div class="emp-why-grid">
             <div class="emp-why-card">
                 <div class="emp-why-ico"><i class="icon-feather-users"></i></div>
-                <h3>Three Countries</h3>
-                <p>Listings across the USA, UK and Pakistan, read by candidates arriving mainly through our visa and sector guides rather than through paid traffic.</p>
+                <h3>{{ $coverage->countWord() }} Countries</h3>
+                <p>Listings across the {{ $coverage->shortList() }}, read by candidates arriving mainly through our visa and sector guides rather than through paid traffic.</p>
             </div>
             <div class="emp-why-card">
                 <div class="emp-why-ico"><i class="icon-feather-target"></i></div>

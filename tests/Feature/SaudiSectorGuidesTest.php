@@ -62,13 +62,21 @@ it('renders each guide with its inline image and sibling guides', function (stri
 
     $response = get('/blog/'.$slug)->assertOk()->assertSee($applyUrl, false);
 
-    // Both images must be referenced, or the post ships with a broken figure.
     $body = Blog::where('slug', $slug)->value('content');
-    $stem = str_replace(['blogs/', '.jpg'], '', $image);
 
-    expect($body)->toContain('/public/storage/blogs/')
-        ->and($response->getContent())->toContain('More Job Guides')
-        ->and($stem)->not->toBeEmpty();
+    // Every image the post points at has to exist, featured and inline. A
+    // renamed file is otherwise invisible until someone opens the page.
+    preg_match_all('#/public/storage/(blogs/[\w.-]+\.jpg)#', $body, $matches);
+    $referenced = array_unique(array_merge([$image], $matches[1]));
+
+    expect($matches[1])->not->toBeEmpty();
+
+    foreach ($referenced as $path) {
+        expect(file_exists(storage_path('app/public/'.$path)))
+            ->toBeTrue("missing image: {$path}");
+    }
+
+    expect($response->getContent())->toContain('More Job Guides');
 })->with(saudiGuides());
 
 it('carries FAQ markup built from each post body', function (string $seeder, string $slug) {

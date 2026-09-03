@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
 @section('title', 'Graduate Jobs — Schemes, Salaries and Timing | JobGader')
-@section('meta_description', 'Graduate jobs and schemes across the USA, UK and Pakistan: typical starting salaries, when applications open, and how the selection process works.')
+@section('meta_description', 'Graduate jobs and schemes across the '.$coverage->shortList().': typical starting salaries, when applications open, and how the selection process works.')
 @section('og_title', 'Graduate Jobs — Schemes, Salaries and Timing | JobGader')
-@section('og_description', 'Graduate jobs and schemes across the USA, UK and Pakistan: typical starting salaries, when applications open, and how the selection process works.')
+@section('og_description', 'Graduate jobs and schemes across the '.$coverage->shortList().': typical starting salaries, when applications open, and how the selection process works.')
 @section('canonical', url()->current())
 
 @section('content')

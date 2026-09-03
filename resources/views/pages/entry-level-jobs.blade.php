@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
 @section('title', 'Entry Level Jobs — Where to Actually Start | JobGader')
-@section('meta_description', 'Entry level jobs across the USA, UK and Pakistan: which sectors genuinely hire with no experience, what they pay, and how to apply free.')
+@section('meta_description', 'Entry level jobs across the '.$coverage->shortList().': which sectors genuinely hire with no experience, what they pay, and how to apply free.')
 @section('og_title', 'Entry Level Jobs — Where to Actually Start | JobGader')
-@section('og_description', 'Entry level jobs across the USA, UK and Pakistan: which sectors genuinely hire with no experience, what they pay, and how to apply free.')
+@section('og_description', 'Entry level jobs across the '.$coverage->shortList().': which sectors genuinely hire with no experience, what they pay, and how to apply free.')
 @section('canonical', url()->current())
 
 @section('content')

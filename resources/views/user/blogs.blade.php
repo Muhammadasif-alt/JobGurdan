@@ -381,11 +381,11 @@
     <div class="container">
         <span class="eyebrow">Career & Employment News</span>
         <h1>Insights, advice and stories <br><span class="accent">to help you grow</span></h1>
-        <p class="sub">Guides on visa sponsorship, pay and entry requirements for work in the USA, UK and Pakistan &mdash; written from official sources, and clear about which routes are closed.</p>
+        <p class="sub">Guides on visa sponsorship, pay and entry requirements for work in the {{ $coverage->shortList() }} &mdash; written from official sources, and clear about which routes are closed.</p>
         <div class="ca-hero-stats">
             <div class="stat"><strong>{{ number_format(\App\Models\Blog::where('status','published')->count()) }}+</strong><span>Articles</span></div>
             <div class="stat"><strong>{{ \App\Models\BlogCatgories::count() }}</strong><span>Topics</span></div>
-            <div class="stat"><strong>Daily</strong><span>Fresh Updates</span></div>
+            <div class="stat"><strong>Weekly</strong><span>New Guides</span></div>
         </div>
     </div>
 </section>

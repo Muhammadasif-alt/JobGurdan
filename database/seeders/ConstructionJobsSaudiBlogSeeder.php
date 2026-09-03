@@ -178,7 +178,7 @@ JOBHTML;
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/construction-jobs-in-saudi-arabia-site.jpg"
-         alt="Scaffolding and formwork on an active construction site — construction jobs in Saudi Arabia with visa sponsorship"
+         alt="Steel fixer tying rebar on a Riyadh construction site — construction jobs in Saudi Arabia with visa sponsorship"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 

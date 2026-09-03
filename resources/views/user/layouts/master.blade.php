@@ -1330,7 +1330,7 @@
                     <div class="cta-inner">
                         <span class="eyebrow">Start your search</span>
                         <h2>Your next job is <span class="accent">one click away</span></h2>
-                        <p>Real openings across the USA, UK and Pakistan &mdash; with straight answers on which visa routes are actually open. Free to apply, and you don't need an account.</p>
+                        <p>Real openings across the {{ $coverage->shortList() }} &mdash; with straight answers on which visa routes are actually open. Free to apply, and you don't need an account.</p>
                         <div class="cta-actions">
                             <a href="{{ route('jobs.index') }}" class="btn-cta-primary">
                                 Browse All Jobs
@@ -1551,10 +1551,10 @@
                             <div class="utf-footer-item-links">
                                 <a href="/"><img class="footer-logo" loading="lazy" decoding="async"
                                         src="{{ asset('public/user/images/jobgader-dark-logo.svg') }}" alt="JobGader"></a>
-                                <p>JobGader is your premier destination for finding job opportunities across the
-                                    United States. We connect job seekers with employers in various industries,
-                                    locations, and experience levels. Discover your next career opportunity with our
-                                    comprehensive job search platform.</p>
+                                <p>JobGader lists hand-checked openings across the {{ $coverage->shortList() }},
+                                    from general labour and hospitality through to skilled trades and senior
+                                    engineering &mdash; alongside guides on which visa sponsorship routes are
+                                    genuinely open. Free to search, and no account needed to apply.</p>
                                 <p>
                                     <a href="{{ url('/privacy-policy') }}">Privacy Policy</a> &nbsp;·&nbsp;
                                     <a href="{{ url('/terms-of-service') }}">Terms of Service</a> &nbsp;·&nbsp;
@@ -1582,7 +1582,7 @@
 
                         <div class="col-xl-2 col-md-3 col-sm-6">
                             <div class="utf-footer-item-links">
-                                <h3>States</h3>
+                                <h3>Locations</h3>
                                 <ul>
                                     <li><a href="{{ route('jobs.locations') }}" class="footer-hub-link"><i
                                                 class="icon-feather-map-pin"></i> <span><strong>Browse All Locations</strong></span></a>

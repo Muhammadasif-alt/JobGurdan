@@ -203,8 +203,8 @@ JOBHTML;
 <p>Two rules make these numbers comparable. First, <strong>overtime beyond the legal limit is paid at 150% of your basic wage</strong> under the Saudi Labour Law, and for Muslim employees the working week drops to 36 hours during Ramadan. If a long-shift package looks generous, check how much of it is overtime you are legally owed anyway. Second, <strong>Saudi Arabia has no statutory minimum wage for expatriate workers</strong> &mdash; the SAR 4,000 figure repeated online is the Saudization threshold for counting a Saudi national as a full employee and has nothing to do with your pay.</p>
 
 <figure style="text-align:center;margin:34px 0;">
-    <img src="/public/storage/blogs/security-guard-jobs-in-saudi-arabia-mall.jpg"
-         alt="Shopping mall atrium — malls are the largest single employer of security guards"
+    <img src="/public/storage/blogs/security-guard-jobs-in-saudi-arabia-riyadh.jpg"
+         alt="Security guard on duty outside a corporate building in Riyadh — security guard jobs in Saudi Arabia"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 

@@ -33,8 +33,8 @@
             'name' => 'JobGader',
             'url' => url('/'),
             'logo' => asset('public/user/images/favicon.png'),
-            'description' => 'Verified job listings across the USA, UK and Pakistan, with guides on which visa sponsorship routes are open.',
-            'areaServed' => ['United States', 'United Kingdom', 'Pakistan'],
+            'description' => 'Verified job listings across the '.$coverage->shortList().', with guides on which visa sponsorship routes are open.',
+            'areaServed' => $coverage->areaServed(),
         ];
     @endphp
     <meta property="og:image" content="{{ $ogImg }}">

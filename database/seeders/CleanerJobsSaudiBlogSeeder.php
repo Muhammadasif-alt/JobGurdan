@@ -178,7 +178,7 @@ JOBHTML;
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/cleaner-jobs-in-saudi-arabia-hotel.jpg"
-         alt="Housekeeping staff vacuuming a hotel floor — cleaner jobs in Saudi Arabia for foreigners"
+         alt="Housekeeping attendant cleaning a hotel lobby — cleaner jobs in Saudi Arabia for foreigners"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
@@ -289,6 +289,12 @@ JOBHTML;
     <li><strong>Philippines:</strong> use an agency licensed by the <strong>Department of Migrant Workers</strong> and insist on a verified employment contract.</li>
     <li><strong>All four:</strong> ask for the employer's name and the visa authorisation number, confirm the employer exists rather than taking the agency's word for it, and keep every receipt.</li>
 </ul>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/cleaner-jobs-in-saudi-arabia-riyadh.jpg"
+         alt="Cleaner mopping a lobby floor with the Riyadh skyline behind — cleaning jobs in Saudi Arabia with visa sponsorship"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
 
 <h2>Cleaner Jobs by City: Riyadh, Jeddah and Dammam</h2>
 

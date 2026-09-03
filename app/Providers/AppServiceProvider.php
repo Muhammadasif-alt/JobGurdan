@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Http\Responses\LoginResponse as CustomLoginResponse;
 use App\Http\Responses\LogoutResponse as CustomLogoutResponse;
+use App\Services\SiteCoverage;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
@@ -31,6 +32,13 @@ class AppServiceProvider extends ServiceProvider
         // Site-wide pagination — clean Prev / numbers / Next with dark active page
         Paginator::defaultView('pagination::custom');
         Paginator::defaultSimpleView('pagination::custom');
+
+        // Which countries the board covers, for copy, meta descriptions and
+        // schema. Shared rather than composed because @section() in a child
+        // view is evaluated before the layout's composer would run. The
+        // service is lazy and cached, so sharing it costs nothing on requests
+        // that never ask.
+        View::share('coverage', $this->app->make(SiteCoverage::class));
 
         // Footer composer — only show categories + states that actually have active jobs,
         // so no footer link ever points to an empty results page.

@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
 @section('title', 'IT Jobs — Support, Infrastructure and Cloud | JobGader')
-@section('meta_description', 'IT jobs across the USA, UK and Pakistan: support, systems, networking and cloud roles, what each pays, and the certifications worth having.')
+@section('meta_description', 'IT jobs across the '.$coverage->shortList().': support, systems, networking and cloud roles, what each pays, and the certifications worth having.')
 @section('og_title', 'IT Jobs — Support, Infrastructure and Cloud | JobGader')
-@section('og_description', 'IT jobs across the USA, UK and Pakistan: support, systems, networking and cloud roles, what each pays, and the certifications worth having.')
+@section('og_description', 'IT jobs across the '.$coverage->shortList().': support, systems, networking and cloud roles, what each pays, and the certifications worth having.')
 @section('canonical', url()->current())
 
 @section('content')

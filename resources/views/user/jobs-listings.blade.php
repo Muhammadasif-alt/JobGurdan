@@ -8,19 +8,19 @@
         $pageTitle = "{$posLabel} Jobs in {$locLabel} — Apply Free | JobGader";
         $pageDesc = "Browse verified {$posLabel} jobs in {$locLabel}. Apply free with one click on JobGader — new openings daily.";
     } elseif ($posLabel) {
-        $pageTitle = "{$posLabel} JobGader — Hiring Now, Apply Free | JobGader";
-        $pageDesc = "Search {$posLabel} jobs across the USA, UK and Pakistan. Hand-checked listings, free to apply on JobGader with no account needed.";
+        $pageTitle = "{$posLabel} Jobs — Hiring Now, Apply Free | JobGader";
+        $pageDesc = "Search {$posLabel} jobs across the {$coverage->shortList()}. Hand-checked listings, free to apply on JobGader with no account needed.";
     } elseif ($locLabel) {
         $pageTitle = "Jobs in {$locLabel} — Browse Verified Listings | JobGader";
         $pageDesc = "Find jobs in {$locLabel} across every industry. Verified listings, free to apply on JobGader — updated daily.";
     } else {
-        $pageTitle = 'Browse JobGader — Find Verified Job Listings, Apply Free';
-        $pageDesc = 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . ' hand-checked jobs across the USA, UK and Pakistan. Filter by location or category. Free to apply, no account needed.';
+        $pageTitle = 'Browse Jobs — Find Verified Listings, Apply Free | JobGader';
+        $pageDesc = 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . ' hand-checked jobs across the ' . $coverage->shortList() . '. Filter by location or category. Free to apply, no account needed.';
     }
 @endphp
 @section('title', $pageTitle)
 @section('meta_description', $pageDesc)
-@section('meta_keywords', 'browse jobs usa, job listings, search jobs america, apply jobs free, hiring near me, jobs by state, jobs by zip')
+@section('meta_keywords', 'browse jobs, job listings, search jobs, apply jobs free, hiring now, jobs by location, jobs by category, visa sponsorship jobs')
 @section('content')
 
 <style>
@@ -539,7 +539,7 @@
             @endif
         </span>
         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Find Your Next <span class="accent">Career Move</span> in the USA</h1>
-        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Every opening on JobGader, across the USA, UK and Pakistan. Filter by location or category, then apply straight through to the employer &mdash; free, and without creating an account.</p>
+        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Every opening on JobGader, across the {{ $coverage->shortList() }}. Filter by location or category, then apply straight through to the employer &mdash; free, and without creating an account.</p>
         <div class="hero-stats">
             <div class="stat">
                 <strong>{{ number_format($heroStats['total_jobs'] ?? 0) }}+</strong>
@@ -837,7 +837,7 @@
                 <div class="ico"><i class="icon-feather-users"></i></div>
                 <div>
                     <h5>Trusted Nationwide</h5>
-                    <p>Openings across the USA, UK and Pakistan &mdash; free to apply, no account needed.</p>
+                    <p>Openings across the {{ $coverage->shortList() }} &mdash; free to apply, no account needed.</p>
                 </div>
             </div>
         </div>

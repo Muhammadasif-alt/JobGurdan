@@ -15,4 +15,11 @@ return [
 
     'contact_email' => env('SITE_CONTACT_EMAIL', 'adminjobgader@gmail.com'),
 
+    /*
+     * Named only when the listings table cannot answer the question — an empty
+     * board still has to render a sentence. SiteCoverage reads the real list
+     * from the jobs themselves.
+     */
+    'fallback_countries' => ['United States', 'United Kingdom', 'Pakistan'],
+
 ];

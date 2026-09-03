@@ -1,9 +1,9 @@
 @extends('user.layouts.master')
 @section('title', 'JobGader | Jobs with Visa Sponsorship — USA, UK & Pakistan')
-@section('meta_description', 'Verified jobs across the USA, UK and Pakistan, including roles that sponsor foreign workers. Plus honest guides on which visa routes are actually open. Free to apply, no account needed.')
+@section('meta_description', 'Verified jobs across the '.$coverage->shortList().', including roles that sponsor foreign workers. Plus honest guides on which visa routes are actually open. Free to apply, no account needed.')
 @section('meta_keywords', 'jobs with visa sponsorship, jobs in usa, jobs in uk, jobs in pakistan, visa sponsorship jobs, H-2B visa jobs, EB-3 visa jobs, work abroad, job search, apply free, jobs for foreigners')
 @section('og_title', 'JobGader | Jobs with Visa Sponsorship — USA, UK & Pakistan')
-@section('og_description', 'Verified jobs across the USA, UK and Pakistan, including visa-sponsored roles — plus honest guides on which visa routes are open. Free to apply.')
+@section('og_description', 'Verified jobs across the '.$coverage->shortList().', including visa-sponsored roles — plus honest guides on which visa routes are open. Free to apply.')
 @section('og_image', asset('public/user/images/home-background-03.jpg'))
 @section('canonical', url('/'))
 
@@ -11,7 +11,7 @@
     {{-- Twitter card --}}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="JobGader — Find Verified Jobs Across All 50 States">
-    <meta name="twitter:description" content="Verified jobs across the USA, UK and Pakistan, including visa-sponsored roles. Free for job seekers.">
+    <meta name="twitter:description" content="Verified jobs across the {{ $coverage->shortList() }}, including visa-sponsored roles. Free for job seekers.">
     <meta name="twitter:image" content="{{ asset('public/user/images/home-background-03.jpg') }}">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="author" content="JobGader">
@@ -26,7 +26,7 @@
         "@@type": "WebSite",
         "name": "JobGader",
         "url": "{{ url('/') }}",
-        "description": "A job search platform connecting verified employers with job seekers across the USA, UK and Pakistan, with a focus on roles open to foreign workers.",
+        "description": "A job search platform connecting verified employers with job seekers across the {{ $coverage->shortList() }}, with a focus on roles open to foreign workers.",
         "potentialAction": {
             "@@type": "SearchAction",
             "target": {
@@ -46,11 +46,8 @@
         "name": "JobGader",
         "url": "{{ url('/') }}",
         "logo": "{{ asset('public/user/images/JobGader.png') }}",
-        "description": "Verified online employment platform connecting job seekers with hiring employers across the USA, UK and Pakistan.",
-        "areaServed": {
-            "@@type": "Country",
-            "name": "United States"
-        },
+        "description": "Verified online employment platform connecting job seekers with hiring employers across the {{ $coverage->shortList() }}.",
+        "areaServed": {!! json_encode($coverage->areaServedNodes(), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
         "contactPoint": {
             "@@type": "ContactPoint",
             "contactType": "Customer Support",
@@ -79,7 +76,7 @@
             {
                 "@@type": "Question",
                 "name": "Which countries and industries do you cover?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "We cover the USA, UK and Pakistan across a wide range of industries — healthcare, IT, construction, retail, hospitality, transport, cleaning and more — including roles that sponsor foreign workers." }
+                "acceptedAnswer": { "@@type": "Answer", "text": "We cover the {{ $coverage->shortList() }} across a wide range of industries — healthcare, IT, construction, retail, hospitality, transport, cleaning and more — including roles that sponsor foreign workers." }
             },
             {
                 "@@type": "Question",
@@ -1022,7 +1019,7 @@
                             <span class="accent">With Visa Sponsorship</span>
                         </h1>
                         <span data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">
-                            Verified openings across the USA, UK and Pakistan &mdash; plus straight answers on which visa routes are actually open, and which ones aren't. Free to apply, no account needed.
+                            Verified openings across the {{ $coverage->shortList() }} &mdash; plus straight answers on which visa routes are actually open, and which ones aren't. Free to apply, no account needed.
                         </span>
                     </div>
 
@@ -1951,7 +1948,7 @@
                              onerror="this.onerror=null;this.src='{{ asset('public/user/images/home-background-02.jpg') }}'">
                     </div>
                     <h3>Pick Your Country</h3>
-                    <p>We list openings across the USA, UK and Pakistan &mdash; from general labour and hospitality to skilled trades and senior engineering. Start with where you want to work.</p>
+                    <p>We list openings across the {{ $coverage->shortList() }} &mdash; from general labour and hospitality to skilled trades and senior engineering. Start with where you want to work.</p>
                     <a href="{{ route('jobs.index') }}" class="card-cta" aria-label="Browse jobs by country">
                         Browse Jobs <i class="icon-feather-arrow-right"></i>
                     </a>
@@ -1990,7 +1987,7 @@
                     <span class="step-badge">Step 4</span>
                     <div class="card-image">
                         <img src="{{ asset('public/user/images/callout-2.jpg') }}"
-                             alt="Get hired by trusted employers across the USA, UK and Pakistan"
+                             alt="Get hired by trusted employers across the {{ $coverage->shortList() }}"
                              loading="lazy">
                     </div>
                     <h3>Apply Direct, Free</h3>
@@ -2022,7 +2019,7 @@
                 "@@type": "HowToStep",
                 "position": 1,
                 "name": "Create Your Account",
-                "text": "Pick your country. We list openings across the USA, UK and Pakistan, from general labour and hospitality to skilled trades and senior engineering.",
+                "text": "Pick your country. We list openings across the {{ $coverage->shortList() }}, from general labour and hospitality to skilled trades and senior engineering.",
                 "url": "{{ route('register') }}"
             },
             {
@@ -2073,8 +2070,8 @@
                     <article class="why-item">
                         <span class="why-check"><i class="icon-feather-check"></i></span>
                         <div>
-                            <h3>Three Countries, One Board</h3>
-                            <p>USA, UK and Pakistan in one place &mdash; truck driving, hospitality, care, construction, cleaning and software. Filter by country, salary or category and apply in a click.</p>
+                            <h3>{{ $coverage->countWord() }} Countries, One Board</h3>
+                            <p>{{ $coverage->shortList() }} in one place &mdash; truck driving, hospitality, care, construction, cleaning and software. Filter by country, salary or category and apply in a click.</p>
                         </div>
                     </article>
 
@@ -2717,7 +2714,7 @@
                     </details>
                     <details class="home-faq-item">
                         <summary>Which countries and industries do you cover?</summary>
-                        <div class="home-faq-answer">We cover the USA, UK and Pakistan across a wide range of industries — healthcare, IT, construction, retail, hospitality, transport, cleaning and more — including roles that sponsor foreign workers.</div>
+                        <div class="home-faq-answer">We cover the {{ $coverage->shortList() }} across a wide range of industries — healthcare, IT, construction, retail, hospitality, transport, cleaning and more — including roles that sponsor foreign workers.</div>
                     </details>
                     <details class="home-faq-item">
                         <summary>Do you list jobs with visa sponsorship?</summary>

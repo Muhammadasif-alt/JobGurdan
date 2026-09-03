@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
 @section('title', 'Part Time Remote Jobs — Hours That Fit | JobGader')
-@section('meta_description', 'Part time remote jobs across the USA, UK and Pakistan: which roles offer real flexibility, what they pay pro rata, and what to confirm first.')
+@section('meta_description', 'Part time remote jobs across the '.$coverage->shortList().': which roles offer real flexibility, what they pay pro rata, and what to confirm first.')
 @section('og_title', 'Part Time Remote Jobs — Hours That Fit | JobGader')
-@section('og_description', 'Part time remote jobs across the USA, UK and Pakistan: which roles offer real flexibility, what they pay pro rata, and what to confirm first.')
+@section('og_description', 'Part time remote jobs across the '.$coverage->shortList().': which roles offer real flexibility, what they pay pro rata, and what to confirm first.')
 @section('canonical', url()->current())
 
 @section('content')
