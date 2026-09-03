@@ -25,3 +25,5 @@ Thumbs.db
 /ExcelImport.zip
 /deploy.zip
 /.claude/settings.local.json
+.env.local
+.env.testing
