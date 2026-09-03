@@ -30,6 +30,7 @@
 
     <meta name="description" content="@yield('meta_description', 'Find latest jobs')">
     <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="NEZhtXbrZZkQYcz5kQO1hT17Vs27bb3VYUgrjUTUeQ0">
     <meta name="keywords" content="@yield('meta_keywords', $metaKeywords)">
     <link rel="canonical" href="@yield('canonical', url()->current())">
     @stack('meta')
