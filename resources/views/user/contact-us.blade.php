@@ -36,14 +36,23 @@
             "addressRegion": "CA",
             "addressCountry": "US"
         },
-        "contactPoint": [{
-            "@@type": "ContactPoint",
-            "telephone": "+1-321-775-9823",
-            "contactType": "customer support",
-            "email": "info@jobgader.com",
-            "availableLanguage": ["English"],
-            "areaServed": "US"
-        }]
+        "email": "admin@jobgader.com",
+        "contactPoint": [
+            {
+                "@@type": "ContactPoint",
+                "telephone": "+1-321-775-9823",
+                "contactType": "customer support",
+                "email": "info@jobgader.com",
+                "availableLanguage": ["English"],
+                "areaServed": "US"
+            },
+            {
+                "@@type": "ContactPoint",
+                "contactType": "administrative support",
+                "email": "admin@jobgader.com",
+                "availableLanguage": ["English"]
+            }
+        ]
     }
     </script>
 
@@ -372,7 +381,9 @@
         color: rgba(255,255,255,.92);
         text-decoration: none;
         transition: color .15s ease;
+        display: block;
     }
+    .contact-info-list li a + a { margin-top: 2px; }
     .contact-info-list li a:hover { color: #fff; }
 
     /* === Map placeholder section === */
@@ -675,7 +686,7 @@
             <a href="mailto:info@jobgader.com" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-mail"></i></div>
                 <h4>Email Us</h4>
-                <p>Drop us a line and we'll respond within 24 hours on business days.</p>
+                <p>Write to info@jobgader.com for general help, or admin@jobgader.com for account, listing and partnership matters. We reply within 24 hours on business days.</p>
                 <span class="qc-action">info@jobgader.com <i class="icon-feather-arrow-right"></i></span>
             </a>
             <a href="https://calendly.com/" target="_blank" rel="noopener" class="quick-contact-card">
@@ -761,6 +772,7 @@
                             <div>
                                 <strong>Email</strong>
                                 <a href="mailto:info@jobgader.com">info@jobgader.com</a>
+                                <a href="mailto:admin@jobgader.com">admin@jobgader.com</a>
                             </div>
                         </li>
                         <li>
