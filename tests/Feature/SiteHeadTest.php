@@ -42,7 +42,8 @@ it('serves a real favicon at the document root', function () {
     expect($type)->toBe(1)
         ->and($count)->toBeGreaterThan(0);
 
-    get('/')->assertOk()->assertSee('rel="icon" href="'.url('favicon.ico').'"', false);
+    // Stamped, because CDN edges still hold an empty copy of the bare URL.
+    get('/')->assertOk()->assertSee('rel="icon" href="'.url('favicon.ico').'?v='.filemtime($ico).'"', false);
 });
 
 it('does not lock the unversioned favicon into a year of caching', function () {

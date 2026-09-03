@@ -41,12 +41,14 @@
     <title>@yield('title', 'Jobs Portal')</title>
 
 
-    <!-- Favicon. The root .ico is listed too because Google fetches
-         /favicon.ico directly, not only the tagged icons. -->
-    <link rel="icon" href="{{ url('favicon.ico') }}" sizes="32x32">
+    <!-- Favicon. The 96x96 PNG comes first because Google prefers a tagged
+         icon sized to a multiple of 48. The root .ico is listed last, and
+         stamped, because CDN edges still hold an empty copy of the bare
+         /favicon.ico URL and a stamped URL is a fresh cache key. -->
     <link rel="shortcut icon" href="{{ asset('public/user/images/favicon.png') }}?v={{ $assetVersion('user/images/favicon.png') }}">
     <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('public/user/images/favicon.png') }}?v={{ $assetVersion('user/images/favicon.png') }}">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('public/user/images/apple-touch-icon.png') }}?v={{ $assetVersion('user/images/apple-touch-icon.png') }}">
+    <link rel="icon" href="{{ url('favicon.ico') }}?v={{ $assetVersion('favicon.ico') }}" sizes="32x32">
 
     <!-- DNS prefetch + preconnect for faster third-party loads -->
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
