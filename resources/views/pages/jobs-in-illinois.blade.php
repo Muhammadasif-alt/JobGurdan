@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Illinois | USA Jobs')
+@section('title', 'Jobs in Illinois | JobGader')
 @section('meta_description', 'Explore Illinois jobs in Chicago, Springfield, Peoria, and beyond. Find openings in finance, manufacturing, healthcare, and education.')
-@section('og_title', 'Jobs in Illinois | USA Jobs')
+@section('og_title', 'Jobs in Illinois | JobGader')
 @section('og_description', 'Explore Illinois jobs in Chicago, Springfield, Peoria, and beyond. Find openings in finance, manufacturing, healthcare, and education.')
 @section('canonical', url()->current())
 

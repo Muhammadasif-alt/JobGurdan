@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Washington | USA Jobs')
+@section('title', 'Jobs in Washington | JobGader')
 @section('meta_description', 'Search Washington jobs in Seattle, Tacoma, Spokane, and Bellevue. Find opportunities in tech, aerospace, healthcare, and retail.')
-@section('og_title', 'Jobs in Washington | USA Jobs')
+@section('og_title', 'Jobs in Washington | JobGader')
 @section('og_description', 'Search Washington jobs in Seattle, Tacoma, Spokane, and Bellevue. Find opportunities in tech, aerospace, healthcare, and retail.')
 @section('canonical', url()->current())
 

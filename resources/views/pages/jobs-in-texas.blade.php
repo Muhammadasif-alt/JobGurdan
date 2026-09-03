@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Texas | USA Jobs')
+@section('title', 'Jobs in Texas | JobGader')
 @section('meta_description', 'Explore the best Texas jobs across industries, including oil & gas, healthcare, tech, and hospitality. Find opportunities in Dallas, Houston, Austin, San Antonio and beyond.')
-@section('og_title', 'Jobs in Texas | USA Jobs')
+@section('og_title', 'Jobs in Texas | JobGader')
 @section('og_description', 'Explore the best Texas jobs across industries, including oil & gas, healthcare, tech, and hospitality. Find opportunities in Dallas, Houston, Austin, San Antonio and beyond.')
 @section('canonical', url()->current())
 

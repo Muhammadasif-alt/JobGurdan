@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Georgia | USA Jobs')
+@section('title', 'Jobs in Georgia | JobGader')
 @section('meta_description', 'Explore Georgia jobs in Atlanta, Savannah, Augusta, and beyond. Browse opportunities in logistics, finance, film, and technology.')
-@section('og_title', 'Jobs in Georgia | USA Jobs')
+@section('og_title', 'Jobs in Georgia | JobGader')
 @section('og_description', 'Explore Georgia jobs in Atlanta, Savannah, Augusta, and beyond. Browse opportunities in logistics, finance, film, and technology.')
 @section('canonical', url()->current())
 

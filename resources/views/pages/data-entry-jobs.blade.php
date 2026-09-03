@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Data Entry Jobs | USA Jobs')
+@section('title', 'Data Entry Jobs | JobGader')
 @section('meta_description', 'Find data entry jobs across the country. Search roles in data processing, transcription, clerical support, and remote data entry.')
-@section('og_title', 'Data Entry Jobs | USA Jobs')
+@section('og_title', 'Data Entry Jobs | JobGader')
 @section('og_description', 'Find data entry jobs across the country. Search roles in data processing, transcription, clerical support, and remote data entry.')
 @section('canonical', url()->current())
 

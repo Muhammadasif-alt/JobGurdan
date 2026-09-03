@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Florida | USA Jobs')
+@section('title', 'Jobs in Florida | JobGader')
 @section('meta_description', 'Find Florida jobs in tourism, healthcare, software, and logistics. Browse opportunities in Miami, Orlando, Tampa, Jacksonville, and more.')
-@section('og_title', 'Jobs in Florida | USA Jobs')
+@section('og_title', 'Jobs in Florida | JobGader')
 @section('og_description', 'Find Florida jobs in tourism, healthcare, software, and logistics. Browse opportunities in Miami, Orlando, Tampa, Jacksonville, and more.')
 @section('canonical', url()->current())
 

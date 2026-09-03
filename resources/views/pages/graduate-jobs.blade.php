@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Graduate Jobs | USA Jobs')
+@section('title', 'Graduate Jobs | JobGader')
 @section('meta_description', 'Find graduate jobs and internships across the USA. Discover opportunities for recent college graduates and early career professionals.')
-@section('og_title', 'Graduate Jobs | USA Jobs')
+@section('og_title', 'Graduate Jobs | JobGader')
 @section('og_description', 'Find graduate jobs and internships across the USA. Discover opportunities for recent college graduates and early career professionals.')
 @section('canonical', url()->current())
 

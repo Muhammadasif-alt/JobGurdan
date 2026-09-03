@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Customer Service Jobs | USA Jobs')
+@section('title', 'Customer Service Jobs | JobGader')
 @section('meta_description', 'Search customer service jobs across the USA. Find roles in call centers, support teams, virtual support, and retail customer service.')
-@section('og_title', 'Customer Service Jobs | USA Jobs')
+@section('og_title', 'Customer Service Jobs | JobGader')
 @section('og_description', 'Search customer service jobs across the USA. Find roles in call centers, support teams, virtual support, and retail customer service.')
 @section('canonical', url()->current())
 

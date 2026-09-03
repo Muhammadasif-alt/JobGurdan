@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Accounting Jobs | USA Jobs')
+@section('title', 'Accounting Jobs | JobGader')
 @section('meta_description', 'Find accounting jobs across the United States. Browse openings in auditing, bookkeeping, financial analysis, and corporate accounting.')
-@section('og_title', 'Accounting Jobs | USA Jobs')
+@section('og_title', 'Accounting Jobs | JobGader')
 @section('og_description', 'Find accounting jobs across the United States. Browse openings in auditing, bookkeeping, financial analysis, and corporate accounting.')
 @section('canonical', url()->current())
 

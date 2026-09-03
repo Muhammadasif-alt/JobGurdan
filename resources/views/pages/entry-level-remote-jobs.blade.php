@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Entry-Level Remote Jobs | USA Jobs')
+@section('title', 'Entry-Level Remote Jobs | JobGader')
 @section('meta_description', 'Find entry-level remote jobs across the USA. Start a new career path with remote opportunities in customer support, marketing, and administration.')
-@section('og_title', 'Entry-Level Remote Jobs | USA Jobs')
+@section('og_title', 'Entry-Level Remote Jobs | JobGader')
 @section('og_description', 'Find entry-level remote jobs across the USA. Start a new career path with remote opportunities in customer support, marketing, and administration.')
 @section('canonical', url()->current())
 

@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Security Guard Jobs | USA Jobs')
+@section('title', 'Security Guard Jobs | JobGader')
 @section('meta_description', 'Search security guard jobs across the USA. Find positions in corporate security, retail security, event security, and facility protection.')
-@section('og_title', 'Security Guard Jobs | USA Jobs')
+@section('og_title', 'Security Guard Jobs | JobGader')
 @section('og_description', 'Search security guard jobs across the USA. Find positions in corporate security, retail security, event security, and facility protection.')
 @section('canonical', url()->current())
 

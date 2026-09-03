@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Truck Driver Jobs | USA Jobs')
+@section('title', 'Truck Driver Jobs | JobGader')
 @section('meta_description', 'Search truck driver jobs across the USA. Find CDL driving positions, regional and long-haul routes, and opportunities with top carriers.')
-@section('og_title', 'Truck Driver Jobs | USA Jobs')
+@section('og_title', 'Truck Driver Jobs | JobGader')
 @section('og_description', 'Search truck driver jobs across the USA. Find CDL driving positions, regional and long-haul routes, and opportunities with top carriers.')
 @section('canonical', url()->current())
 

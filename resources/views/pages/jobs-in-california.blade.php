@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in California | USA Jobs')
+@section('title', 'Jobs in California | JobGader')
 @section('meta_description', 'Discover California jobs in tech, entertainment, healthcare, and more. Explore roles in Los Angeles, San Francisco, San Diego, and Silicon Valley today.')
-@section('og_title', 'Jobs in California | USA Jobs')
+@section('og_title', 'Jobs in California | JobGader')
 @section('og_description', 'Discover California jobs in tech, entertainment, healthcare, and more. Explore roles in Los Angeles, San Francisco, San Diego, and Silicon Valley today.')
 @section('canonical', url()->current())
 

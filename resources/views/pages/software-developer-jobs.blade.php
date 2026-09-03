@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Software Developer Jobs | USA Jobs')
+@section('title', 'Software Developer Jobs | JobGader')
 @section('meta_description', 'Search software developer jobs across the USA. Find roles in front-end, back-end, full stack, mobile, and DevOps development.')
-@section('og_title', 'Software Developer Jobs | USA Jobs')
+@section('og_title', 'Software Developer Jobs | JobGader')
 @section('og_description', 'Search software developer jobs across the USA. Find roles in front-end, back-end, full stack, mobile, and DevOps development.')
 @section('canonical', url()->current())
 

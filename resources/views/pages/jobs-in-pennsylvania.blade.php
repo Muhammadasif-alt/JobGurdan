@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Pennsylvania | USA Jobs')
+@section('title', 'Jobs in Pennsylvania | JobGader')
 @section('meta_description', 'Search jobs in Pennsylvania, including Pittsburgh, Philadelphia, Harrisburg and beyond. Find openings in healthcare, manufacturing, education, and technology.')
-@section('og_title', 'Jobs in Pennsylvania | USA Jobs')
+@section('og_title', 'Jobs in Pennsylvania | JobGader')
 @section('og_description', 'Search jobs in Pennsylvania, including Pittsburgh, Philadelphia, Harrisburg and beyond. Find openings in healthcare, manufacturing, education, and technology.')
 @section('canonical', url()->current())
 

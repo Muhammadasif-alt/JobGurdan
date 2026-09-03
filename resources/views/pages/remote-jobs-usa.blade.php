@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Remote Jobs USA | USA Jobs')
+@section('title', 'Remote Jobs USA | JobGader')
 @section('meta_description', 'Search remote jobs in the USA across industries. Find work-from-home opportunities in tech, marketing, customer service, and more.')
-@section('og_title', 'Remote Jobs USA | USA Jobs')
+@section('og_title', 'Remote Jobs USA | JobGader')
 @section('og_description', 'Search remote jobs in the USA across industries. Find work-from-home opportunities in tech, marketing, customer service, and more.')
 @section('canonical', url()->current())
 

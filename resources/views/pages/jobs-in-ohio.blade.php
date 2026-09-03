@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Ohio | USA Jobs')
+@section('title', 'Jobs in Ohio | JobGader')
 @section('meta_description', 'Find Ohio jobs in Columbus, Cleveland, Cincinnati, and Toledo. Browse opportunities in manufacturing, healthcare, logistics, and IT.')
-@section('og_title', 'Jobs in Ohio | USA Jobs')
+@section('og_title', 'Jobs in Ohio | JobGader')
 @section('og_description', 'Find Ohio jobs in Columbus, Cleveland, Cincinnati, and Toledo. Browse opportunities in manufacturing, healthcare, logistics, and IT.')
 @section('canonical', url()->current())
 

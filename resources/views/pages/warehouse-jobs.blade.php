@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Warehouse Jobs | USA Jobs')
+@section('title', 'Warehouse Jobs | JobGader')
 @section('meta_description', 'Search warehouse jobs across the USA. Find roles in shipping, inventory, forklift operation, and warehouse management.')
-@section('og_title', 'Warehouse Jobs | USA Jobs')
+@section('og_title', 'Warehouse Jobs | JobGader')
 @section('og_description', 'Search warehouse jobs across the USA. Find roles in shipping, inventory, forklift operation, and warehouse management.')
 @section('canonical', url()->current())
 

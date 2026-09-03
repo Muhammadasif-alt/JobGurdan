@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in New York | USA Jobs')
+@section('title', 'Jobs in New York | JobGader')
 @section('meta_description', 'Search New York jobs in finance, media, technology, healthcare, and hospitality. Find openings in NYC, Buffalo, Rochester, and the Hudson Valley.')
-@section('og_title', 'Jobs in New York | USA Jobs')
+@section('og_title', 'Jobs in New York | JobGader')
 @section('og_description', 'Search New York jobs in finance, media, technology, healthcare, and hospitality. Find openings in NYC, Buffalo, Rochester, and the Hudson Valley.')
 @section('canonical', url()->current())
 

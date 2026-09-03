@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in New Jersey | USA Jobs')
+@section('title', 'Jobs in New Jersey | JobGader')
 @section('meta_description', 'Find New Jersey jobs near NYC, Newark, and Jersey City. Browse opportunities in finance, healthcare, technology, and manufacturing.')
-@section('og_title', 'Jobs in New Jersey | USA Jobs')
+@section('og_title', 'Jobs in New Jersey | JobGader')
 @section('og_description', 'Find New Jersey jobs near NYC, Newark, and Jersey City. Browse opportunities in finance, healthcare, technology, and manufacturing.')
 @section('canonical', url()->current())
 

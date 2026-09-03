@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Retail Jobs | USA Jobs')
+@section('title', 'Retail Jobs | JobGader')
 @section('meta_description', 'Explore retail jobs nationwide. Find positions in sales, store management, inventory, merchandising, and customer service.')
-@section('og_title', 'Retail Jobs | USA Jobs')
+@section('og_title', 'Retail Jobs | JobGader')
 @section('og_description', 'Explore retail jobs nationwide. Find positions in sales, store management, inventory, merchandising, and customer service.')
 @section('canonical', url()->current())
 

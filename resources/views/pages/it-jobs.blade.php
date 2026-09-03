@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'IT Jobs | USA Jobs')
+@section('title', 'IT Jobs | JobGader')
 @section('meta_description', 'Search IT jobs across the United States. Find roles in software development, system administration, cybersecurity, and network engineering.')
-@section('og_title', 'IT Jobs | USA Jobs')
+@section('og_title', 'IT Jobs | JobGader')
 @section('og_description', 'Search IT jobs across the United States. Find roles in software development, system administration, cybersecurity, and network engineering.')
 @section('canonical', url()->current())
 

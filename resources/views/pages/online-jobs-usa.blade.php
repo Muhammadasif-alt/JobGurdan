@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Online Jobs USA | USA Jobs')
+@section('title', 'Online Jobs USA | JobGader')
 @section('meta_description', 'Discover online jobs in the USA. Find remote, freelance, and work-from-anywhere positions across multiple industries.')
-@section('og_title', 'Online Jobs USA | USA Jobs')
+@section('og_title', 'Online Jobs USA | JobGader')
 @section('og_description', 'Discover online jobs in the USA. Find remote, freelance, and work-from-anywhere positions across multiple industries.')
 @section('canonical', url()->current())
 

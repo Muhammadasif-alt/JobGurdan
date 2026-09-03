@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Entry Level Jobs | USA Jobs')
+@section('title', 'Entry Level Jobs | JobGader')
 @section('meta_description', 'Explore entry level jobs across the USA. Find entry-level roles in customer service, administration, technology, and more.')
-@section('og_title', 'Entry Level Jobs | USA Jobs')
+@section('og_title', 'Entry Level Jobs | JobGader')
 @section('og_description', 'Explore entry level jobs across the USA. Find entry-level roles in customer service, administration, technology, and more.')
 @section('canonical', url()->current())
 

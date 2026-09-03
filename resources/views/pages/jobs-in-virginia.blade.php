@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Virginia | USA Jobs')
+@section('title', 'Jobs in Virginia | JobGader')
 @section('meta_description', 'Explore Virginia jobs in Richmond, Norfolk, Virginia Beach, and Northern Virginia. Browse opportunities in government, tech, defense, and healthcare.')
-@section('og_title', 'Jobs in Virginia | USA Jobs')
+@section('og_title', 'Jobs in Virginia | JobGader')
 @section('og_description', 'Explore Virginia jobs in Richmond, Norfolk, Virginia Beach, and Northern Virginia. Browse opportunities in government, tech, defense, and healthcare.')
 @section('canonical', url()->current())
 

@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Healthcare Jobs | USA Jobs')
+@section('title', 'Healthcare Jobs | JobGader')
 @section('meta_description', 'Find healthcare jobs nationwide, including nursing, medical assistants, therapists, and administrative roles in hospitals, clinics, and telehealth.')
-@section('og_title', 'Healthcare Jobs | USA Jobs')
+@section('og_title', 'Healthcare Jobs | JobGader')
 @section('og_description', 'Find healthcare jobs nationwide, including nursing, medical assistants, therapists, and administrative roles in hospitals, clinics, and telehealth.')
 @section('canonical', url()->current())
 

@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Construction Jobs | USA Jobs')
+@section('title', 'Construction Jobs | JobGader')
 @section('meta_description', 'Find construction jobs nationwide. Browse opportunities in carpentry, project management, site supervision, and skilled trades.')
-@section('og_title', 'Construction Jobs | USA Jobs')
+@section('og_title', 'Construction Jobs | JobGader')
 @section('og_description', 'Find construction jobs nationwide. Browse opportunities in carpentry, project management, site supervision, and skilled trades.')
 @section('canonical', url()->current())
 

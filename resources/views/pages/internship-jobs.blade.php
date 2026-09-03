@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Internship Jobs | USA Jobs')
+@section('title', 'Internship Jobs | JobGader')
 @section('meta_description', 'Browse internship job openings across the USA. Find paid and unpaid internships that offer professional experience and skill development.')
-@section('og_title', 'Internship Jobs | USA Jobs')
+@section('og_title', 'Internship Jobs | JobGader')
 @section('og_description', 'Browse internship job openings across the USA. Find paid and unpaid internships that offer professional experience and skill development.')
 @section('canonical', url()->current())
 

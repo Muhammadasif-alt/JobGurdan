@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Michigan | USA Jobs')
+@section('title', 'Jobs in Michigan | JobGader')
 @section('meta_description', 'Explore Michigan jobs in Detroit, Grand Rapids, Lansing, and Ann Arbor. Find positions in manufacturing, automotive, healthcare, and technology.')
-@section('og_title', 'Jobs in Michigan | USA Jobs')
+@section('og_title', 'Jobs in Michigan | JobGader')
 @section('og_description', 'Explore Michigan jobs in Detroit, Grand Rapids, Lansing, and Ann Arbor. Find positions in manufacturing, automotive, healthcare, and technology.')
 @section('canonical', url()->current())
 

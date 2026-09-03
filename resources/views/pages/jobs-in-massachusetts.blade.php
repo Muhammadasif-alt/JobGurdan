@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Massachusetts | USA Jobs')
+@section('title', 'Jobs in Massachusetts | JobGader')
 @section('meta_description', 'Find Massachusetts jobs in Boston, Cambridge, Worcester, and beyond. Explore opportunities in biotech, education, healthcare, and technology.')
-@section('og_title', 'Jobs in Massachusetts | USA Jobs')
+@section('og_title', 'Jobs in Massachusetts | JobGader')
 @section('og_description', 'Find Massachusetts jobs in Boston, Cambridge, Worcester, and beyond. Explore opportunities in biotech, education, healthcare, and technology.')
 @section('canonical', url()->current())
 

@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Arizona | USA Jobs')
+@section('title', 'Jobs in Arizona | JobGader')
 @section('meta_description', 'Discover Arizona jobs in Phoenix, Tucson, Scottsdale, and beyond. Browse positions in tech, healthcare, tourism, and construction.')
-@section('og_title', 'Jobs in Arizona | USA Jobs')
+@section('og_title', 'Jobs in Arizona | JobGader')
 @section('og_description', 'Discover Arizona jobs in Phoenix, Tucson, Scottsdale, and beyond. Browse positions in tech, healthcare, tourism, and construction.')
 @section('canonical', url()->current())
 

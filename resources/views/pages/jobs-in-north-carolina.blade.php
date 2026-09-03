@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in North Carolina | USA Jobs')
+@section('title', 'Jobs in North Carolina | JobGader')
 @section('meta_description', 'Find North Carolina jobs in Raleigh, Charlotte, Durham, and the Research Triangle. Browse careers in technology, healthcare, finance, and manufacturing.')
-@section('og_title', 'Jobs in North Carolina | USA Jobs')
+@section('og_title', 'Jobs in North Carolina | JobGader')
 @section('og_description', 'Find North Carolina jobs in Raleigh, Charlotte, Durham, and the Research Triangle. Browse careers in technology, healthcare, finance, and manufacturing.')
 @section('canonical', url()->current())
 

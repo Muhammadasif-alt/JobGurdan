@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'No Experience Jobs | USA Jobs')
+@section('title', 'No Experience Jobs | JobGader')
 @section('meta_description', 'Browse no experience jobs across the USA. Find hiring employers that provide on-the-job training and entry-level opportunities.')
-@section('og_title', 'No Experience Jobs | USA Jobs')
+@section('og_title', 'No Experience Jobs | JobGader')
 @section('og_description', 'Browse no experience jobs across the USA. Find hiring employers that provide on-the-job training and entry-level opportunities.')
 @section('canonical', url()->current())
 

@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Marketing Jobs | USA Jobs')
+@section('title', 'Marketing Jobs | JobGader')
 @section('meta_description', 'Search marketing jobs across the USA. Find roles in digital marketing, advertising, content, social media, and branding.')
-@section('og_title', 'Marketing Jobs | USA Jobs')
+@section('og_title', 'Marketing Jobs | JobGader')
 @section('og_description', 'Search marketing jobs across the USA. Find roles in digital marketing, advertising, content, social media, and branding.')
 @section('canonical', url()->current())
 
