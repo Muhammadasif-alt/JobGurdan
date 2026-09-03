@@ -29,17 +29,9 @@
         "name": "JobGader",
         "url": "{{ url('/') }}",
         "logo": "{{ asset('public/user/images/JobGader.png') }}",
-        "address": {
-            "@@type": "PostalAddress",
-            "streetAddress": "Building 800, N State College Blvd",
-            "addressLocality": "Fullerton",
-            "addressRegion": "CA",
-            "addressCountry": "US"
-        },
         "email": "{{ config('site.contact_email') }}",
         "contactPoint": [{
             "@@type": "ContactPoint",
-            "telephone": "+1-321-775-9823",
             "contactType": "customer support",
             "email": "{{ config('site.contact_email') }}",
             "availableLanguage": ["English"]
@@ -668,11 +660,11 @@
 <section class="quick-contact-section">
     <div class="container">
         <div class="quick-contact-grid">
-            <a href="tel:+13217759823" class="quick-contact-card">
-                <div class="quick-contact-icon"><i class="icon-feather-phone"></i></div>
-                <h4>Call Us</h4>
-                <p>Speak directly with our support team for quick assistance and account help.</p>
-                <span class="qc-action">(+1) 321 775 9823 <i class="icon-feather-arrow-right"></i></span>
+            <a href="{{ route('jobs.index') }}" class="quick-contact-card">
+                <div class="quick-contact-icon"><i class="icon-feather-search"></i></div>
+                <h4>Looking for work?</h4>
+                <p>Browse every opening across the USA, UK and Pakistan. No account needed and no fee at any stage.</p>
+                <span class="qc-action">Browse all jobs <i class="icon-feather-arrow-right"></i></span>
             </a>
             <a href="mailto:{{ config('site.contact_email') }}" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-mail"></i></div>
@@ -752,10 +744,10 @@
                     <h3>We're here to help</h3>
                     <ul class="contact-info-list">
                         <li>
-                            <div class="ico"><i class="icon-feather-phone"></i></div>
+                            <div class="ico"><i class="icon-feather-globe"></i></div>
                             <div>
-                                <strong>Phone</strong>
-                                <a href="tel:+13217759823">(+1) 321 775 9823</a>
+                                <strong>Coverage</strong>
+                                United States, United Kingdom and Pakistan
                             </div>
                         </li>
                         <li>
@@ -766,11 +758,10 @@
                             </div>
                         </li>
                         <li>
-                            <div class="ico"><i class="icon-feather-map-pin"></i></div>
+                            <div class="ico"><i class="icon-feather-dollar-sign"></i></div>
                             <div>
-                                <strong>Address</strong>
-                                Building 800, N State College Blvd<br>
-                                Cal State Fullerton, Fullerton, CA
+                                <strong>Our Fee</strong>
+                                None. JobGader is free for job seekers.
                             </div>
                         </li>
                         <li>

@@ -13,6 +13,6 @@ return [
     |
     */
 
-    'contact_email' => env('SITE_CONTACT_EMAIL', 'admin@jobgader.com'),
+    'contact_email' => env('SITE_CONTACT_EMAIL', 'adminjobgader@gmail.com'),
 
 ];

@@ -466,11 +466,11 @@
 <div class="quick-contact-section">
     <div class="container">
         <div class="quick-contact-grid">
-            <a href="tel:+18001234567" class="quick-contact-card">
-                <div class="quick-contact-icon"><i class="icon-feather-phone"></i></div>
-                <h4>Call Us</h4>
-                <p>Speak directly with our support team for quick assistance.</p>
-                <span class="qc-action">+1 (800) 123-4567 <i class="icon-feather-arrow-right"></i></span>
+            <a href="{{ route('jobs.index') }}" class="quick-contact-card">
+                <div class="quick-contact-icon"><i class="icon-feather-search"></i></div>
+                <h4>Looking for work?</h4>
+                <p>Browse every opening across the USA, UK and Pakistan &mdash; free, and no account needed.</p>
+                <span class="qc-action">Browse all jobs <i class="icon-feather-arrow-right"></i></span>
             </a>
             <a href="mailto:{{ config('site.contact_email') }}" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-mail"></i></div>
@@ -544,17 +544,17 @@
                             </div>
                         </li>
                         <li>
-                            <i class="icon-feather-phone"></i>
+                            <i class="icon-feather-globe"></i>
                             <div>
-                                <strong>Phone</strong>
-                                +1 (800) 123-4567
+                                <strong>Coverage</strong>
+                                United States, United Kingdom and Pakistan
                             </div>
                         </li>
                         <li>
-                            <i class="icon-feather-map-pin"></i>
+                            <i class="icon-feather-dollar-sign"></i>
                             <div>
-                                <strong>Address</strong>
-                                United States of America
+                                <strong>Our Fee</strong>
+                                None &mdash; free for job seekers
                             </div>
                         </li>
                         <li>

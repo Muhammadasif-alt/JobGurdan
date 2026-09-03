@@ -15,7 +15,8 @@ it('uses one contact address across every public page', function () {
             ->not->toContain('info@jobgader.com')
             ->not->toContain('support@jobgader.com')
             ->not->toContain('privacy@jobgader.com')
-            ->not->toContain('legal@jobgader.com');
+            ->not->toContain('legal@jobgader.com')
+            ->not->toContain('admin@jobgader.com');
     }
 
     expect(get('/contact-us')->getContent())->toContain($address)
@@ -52,10 +53,14 @@ it('keeps the empty candidate directory out of the index', function () {
         ->toContain('content="noindex, follow"');
 });
 
-it('carries no invented scale claims anywhere in the views', function () {
+it('carries no invented scale claims or inherited contact details in the views', function () {
     $claims = [
         'JobsinUSA', 'JobsInUSA', 'Fortune 500', 'all 50 U.S. states',
         '10M+', '15K+', '230,000', '68,000', 'trust and safety team',
+        // The old site's postal address and support line, plus a placeholder
+        // number that was published as if it were a real one.
+        'Fullerton', 'State College Blvd', '321 775 9823', '13217759823',
+        '(800) 123-4567', '18001234567',
     ];
 
     $offenders = [];
