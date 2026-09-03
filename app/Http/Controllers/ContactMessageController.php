@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactMessageReceived;
 use App\Models\ContactMessage;
 use App\Services\AiContentService;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Mail;
 
 class ContactMessageController extends Controller
 {
@@ -142,7 +145,19 @@ class ContactMessageController extends Controller
 
         // Save the message immediately (no AI call on the request path — too slow).
         // Admin can run "Run AI Spam Scan" to score new messages in batches.
-        ContactMessage::create($validated);
+        $contactMessage = ContactMessage::create($validated);
+
+        // Notify the site address. Sent inline because the host has no queue
+        // worker, and wrapped so a mail outage never costs the visitor their
+        // message — it is already saved by this point.
+        try {
+            Mail::to(config('site.contact_email'))->send(new ContactMessageReceived($contactMessage));
+        } catch (\Throwable $e) {
+            Log::error('Contact message notification failed', [
+                'contact_message_id' => $contactMessage->id,
+                'error' => $e->getMessage(),
+            ]);
+        }
 
         return redirect('/')->with('success', 'Thank you for your message! We will get back to you soon.');
     }
