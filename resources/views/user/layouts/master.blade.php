@@ -28,7 +28,7 @@
             'jobs, job search, visa sponsorship jobs, jobs for foreigners, employment, careers, job listings, hiring, job board';
     @endphp
 
-    <meta name="description" content="@yield('meta_description', 'Find latest jobs')">
+    <meta name="description" content="@yield('meta_description', $metaDescription)">
     <meta name="robots" content="@yield('meta_robots', 'index, follow')">
     <meta name="google-site-verification" content="NEZhtXbrZZkQYcz5kQO1hT17Vs27bb3VYUgrjUTUeQ0">
     <meta name="keywords" content="@yield('meta_keywords', $metaKeywords)">
@@ -41,7 +41,9 @@
     <title>@yield('title', 'Jobs Portal')</title>
 
 
-    <!-- Favicon -->
+    <!-- Favicon. The root .ico is listed too because Google fetches
+         /favicon.ico directly, not only the tagged icons. -->
+    <link rel="icon" href="{{ url('favicon.ico') }}" sizes="32x32">
     <link rel="shortcut icon" href="{{ asset('public/user/images/favicon.png') }}?v={{ $assetVersion('user/images/favicon.png') }}">
     <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('public/user/images/favicon.png') }}?v={{ $assetVersion('user/images/favicon.png') }}">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('public/user/images/apple-touch-icon.png') }}?v={{ $assetVersion('user/images/apple-touch-icon.png') }}">
