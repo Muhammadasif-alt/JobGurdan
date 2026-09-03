@@ -277,27 +277,38 @@
           media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"></noscript>
 
-    <!-- Google Tag Manager (deferred — does not block first paint) -->
+    {{-- Google Analytics 4 and Tag Manager. Both IDs come from config, so
+         nothing is emitted until they are set — the previous hardcoded IDs
+         belonged to a different property and sent this site's traffic there.
+         Loaded on window load so they never block first paint. --}}
+    @php
+        $analyticsId = config('services.google.analytics_id');
+        $tagManagerId = config('services.google.tag_manager_id');
+    @endphp
+    @if ($analyticsId || $tagManagerId)
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       window.addEventListener('load', function () {
-        // gtag.js
+        @if ($analyticsId)
         var s1 = document.createElement('script');
         s1.async = true;
-        s1.src = 'https://www.googletagmanager.com/gtag/js?id=G-2NKX5SJMB7';
+        s1.src = 'https://www.googletagmanager.com/gtag/js?id={{ $analyticsId }}';
         document.head.appendChild(s1);
         gtag('js', new Date());
-        gtag('config', 'G-2NKX5SJMB7');
+        gtag('config', @json($analyticsId));
+        @endif
 
-        // GTM
+        @if ($tagManagerId)
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-WTHF244L');
+        })(window,document,'script','dataLayer',@json($tagManagerId));
+        @endif
       });
     </script>
+    @endif
 
     {{-- AOS (Animate On Scroll) — lightweight animation library. Lazy-loaded so it doesn't block first paint. --}}
     <link rel="preload" href="https://unpkg.com/aos@2.3.4/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -322,10 +333,10 @@
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTHF244L"
+    @if ($tagManagerId)
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ $tagManagerId }}"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    @endif
     <!-- Preloader Start -->
     <div class="preloader">
         <div class="utf-preloader">

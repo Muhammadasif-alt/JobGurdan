@@ -35,6 +35,13 @@ return [
         ],
     ],
 
+    // Google Analytics 4 and Tag Manager. Both are optional: leave the env
+    // vars unset and no tracking script is emitted at all.
+    'google' => [
+        'analytics_id' => env('GOOGLE_ANALYTICS_ID'),
+        'tag_manager_id' => env('GOOGLE_TAG_MANAGER_ID'),
+    ],
+
     // Google Gemini — used for AI-powered resume parsing (free tier).
     // Get a key at https://aistudio.google.com/app/apikey
     'gemini' => [
