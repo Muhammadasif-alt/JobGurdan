@@ -1295,7 +1295,7 @@
             </div>
 
             <div style="text-align:center; margin-top:50px;">
-                <h3 style="font-size:22px; font-weight:700; color:#16305a; margin-bottom:8px;">Hiring across all 50 U.S. states</h3>
+                <h3 style="font-size:22px; font-weight:700; color:#16305a; margin-bottom:8px;">Hiring across three countries</h3>
                 <p style="font-size:14px; color:#5a5a5a; margin:0;">Browse top-paying jobs by state — from coast to coast.</p>
                 <div class="states-chips">
                     <a href="{{ route('pages.jobs-in-texas') }}">Texas</a>
@@ -1687,7 +1687,7 @@
             <div class="about-faq-list">
                 <details class="about-faq-item" open>
                     <summary>What is JobGader and how does it work?</summary>
-                    <div class="faq-answer">JobGader is a verified online employment platform connecting millions of American job seekers with hiring employers across all 50 U.S. states. Job seekers create a free profile, search thousands of <a href="{{ route('jobs.index') }}">verified job listings</a>, and apply with one click. Employers post roles after passing our verification process and connect with qualified candidates.</div>
+                    <div class="faq-answer">JobGader is a job board and guide site covering openings in the USA, UK and Pakistan. You can browse and apply to every <a href="{{ route('jobs.index') }}">listing</a> without an account, and alongside them we publish guides explaining which visa sponsorship routes are open to foreign workers and which have closed.</div>
                 </details>
                 <details class="about-faq-item">
                     <summary>Is JobGader free for job seekers?</summary>
@@ -1695,7 +1695,7 @@
                 </details>
                 <details class="about-faq-item">
                     <summary>How are job listings verified?</summary>
-                    <div class="faq-answer">Every employer profile on JobGader is reviewed by our trust and safety team before going live. We verify business legitimacy, monitor activity, and remove fraudulent or outdated listings. If you ever see a suspicious posting, you can report it directly via our <a href="{{ route('pages.contact') }}">Contact page</a>.</div>
+                    <div class="faq-answer">Listings are added and checked by hand rather than scraped, and each one links to the employer or the original posting so you can confirm it yourself before applying. If you see something suspicious, report it through our <a href="{{ route('pages.contact') }}">Contact page</a> and we will look at it.</div>
                 </details>
                 <details class="about-faq-item">
                     <summary>What industries and job types are available?</summary>

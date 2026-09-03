@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 @section('title', 'Contact JobGader — Get Help, Partner With Us, Report a Listing')
-@section('meta_description', 'Get in touch with JobGader — call, email, or send a message. Our support team responds within 24 hours. Trusted by millions of job seekers across all 50 U.S. states.')
+@section('meta_description', 'Contact JobGader by email or through the form on this page. We reply within 24 hours on business days to questions about listings, guides and partnerships.')
 @section('meta_keywords', 'contact jobs in usa, jobs in usa support, jobs in usa email, customer service usa job board, partnership jobs in usa, report job listing')
 @section('og_title', 'Contact JobGader — We\'re Here to Help')
 @section('og_description', 'Reach our support team within 24 hours. Phone, email, or message — we\'re ready to help job seekers, employers, and partners.')
@@ -67,7 +67,7 @@
         "mainEntity": [
             {"@@type":"Question","name":"How quickly will I receive a response from JobGader?","acceptedAnswer":{"@@type":"Answer","text":"Our support team typically responds within 24 hours on business days. For urgent matters, please mention 'Urgent' in your subject line."}},
             {"@@type":"Question","name":"I'm having trouble logging in. What should I do?","acceptedAnswer":{"@@type":"Answer","text":"Try the Forgot Password link on the login page first. If you still can't access your account, contact us with your registered email and we'll help recover it."}},
-            {"@@type":"Question","name":"How do I report a fake or suspicious job listing?","acceptedAnswer":{"@@type":"Answer","text":"Send the job link through our contact form with the subject 'Report Job Listing.' Our trust and safety team reviews every report and removes fraudulent posts quickly."}},
+            {"@@type":"Question","name":"How do I report a fake or suspicious job listing?","acceptedAnswer":{"@@type":"Answer","text":"Send the job link through our contact form with the subject 'Report Job Listing.' We check reported listings by hand and report and removes fraudulent posts quickly."}},
             {"@@type":"Question","name":"Can I delete my JobGader account?","acceptedAnswer":{"@@type":"Answer","text":"Yes — message us with your registered email and we'll permanently delete your account and associated data within 7 business days, in line with our privacy policy."}},
             {"@@type":"Question","name":"Do you offer partnership or advertising opportunities?","acceptedAnswer":{"@@type":"Answer","text":"Yes. Use the form and select 'Partnership' or 'Advertising' as your subject. Our partnerships team will share details on plans, reach, and pricing."}},
             {"@@type":"Question","name":"How do employers post jobs on JobGader?","acceptedAnswer":{"@@type":"Answer","text":"Register an employer account, choose a posting plan, and submit your job through the dashboard. Need a custom plan for bulk hiring? Contact our sales team."}}
@@ -792,16 +792,16 @@
     <div class="container">
         <div class="contact-map-card">
             <div class="info">
-                <h3>Trusted by job seekers across America</h3>
-                <p>Millions of professionals use JobGader every month to find verified opportunities, connect with employers, and grow their careers across all 50 U.S. states.</p>
+                <h3>What we cover</h3>
+                <p>Openings across the USA, UK and Pakistan, alongside guides on visa sponsorship, pay and entry requirements. Free to use, with no account needed to apply.</p>
                 <a href="{{ route('about.us') }}" class="map-link">
                     Learn About Us <i class="icon-feather-arrow-right"></i>
                 </a>
             </div>
             <div class="map-stats">
-                <div class="map-stat"><strong>10M+</strong><span>Job seekers</span></div>
+                <div class="map-stat"><strong>Weekly</strong><span>New jobs &amp; guides</span></div>
                 <div class="map-stat"><strong>3</strong><span>Countries covered</span></div>
-                <div class="map-stat"><strong>50</strong><span>U.S. states</span></div>
+                <div class="map-stat"><strong>100%</strong><span>Free to apply</span></div>
                 <div class="map-stat"><strong>24h</strong><span>Response time</span></div>
             </div>
         </div>
@@ -868,7 +868,7 @@
             </details>
             <details class="contact-faq-item">
                 <summary>How do I report a fake or suspicious job listing?</summary>
-                <div class="faq-answer">If a listing looks suspicious, send us the job link through this form with the subject "Report Job Listing." Our trust and safety team reviews every report and removes fraudulent posts quickly.</div>
+                <div class="faq-answer">If a listing looks suspicious, send us the job link through this form with the subject "Report Job Listing." We check every report by hand and remove fraudulent posts quickly.</div>
             </details>
             <details class="contact-faq-item">
                 <summary>Can I delete my JobGader account?</summary>

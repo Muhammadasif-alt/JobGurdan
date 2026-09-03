@@ -9,13 +9,13 @@
         $pageDesc = "Browse verified {$posLabel} jobs in {$locLabel}. Apply free with one click on JobGader — new openings daily.";
     } elseif ($posLabel) {
         $pageTitle = "{$posLabel} JobGader — Hiring Now, Apply Free | JobGader";
-        $pageDesc = "Search {$posLabel} jobs across all 50 U.S. states. Verified listings, free to apply on JobGader — new openings every day.";
+        $pageDesc = "Search {$posLabel} jobs across the USA, UK and Pakistan. Hand-checked listings, free to apply on JobGader with no account needed.";
     } elseif ($locLabel) {
         $pageTitle = "Jobs in {$locLabel} — Browse Verified Listings | JobGader";
         $pageDesc = "Find jobs in {$locLabel} across every industry. Verified listings, free to apply on JobGader — updated daily.";
     } else {
         $pageTitle = 'Browse JobGader — Find Verified Job Listings, Apply Free';
-        $pageDesc = 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . '+ verified jobs across all 50 U.S. states. Filter by state, area, or ZIP. Free to apply, new openings daily on JobGader.';
+        $pageDesc = 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . ' hand-checked jobs across the USA, UK and Pakistan. Filter by location or category. Free to apply, no account needed.';
     }
 @endphp
 @section('title', $pageTitle)
@@ -539,7 +539,7 @@
             @endif
         </span>
         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Find Your Next <span class="accent">Career Move</span> in the USA</h1>
-        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Browse {{ number_format($heroStats['total_jobs'] ?? 0) }}+ verified job listings across all 50 U.S. states. Filter by state, area or ZIP — apply free in one click and connect directly with verified employers.</p>
+        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Every opening on JobGader, across the USA, UK and Pakistan. Filter by location or category, then apply straight through to the employer &mdash; free, and without creating an account.</p>
         <div class="hero-stats">
             <div class="stat">
                 <strong>{{ number_format($heroStats['total_jobs'] ?? 0) }}+</strong>
@@ -837,7 +837,7 @@
                 <div class="ico"><i class="icon-feather-users"></i></div>
                 <div>
                     <h5>Trusted Nationwide</h5>
-                    <p>Millions of job seekers across all 50 U.S. states use JobGader.</p>
+                    <p>Openings across the USA, UK and Pakistan &mdash; free to apply, no account needed.</p>
                 </div>
             </div>
         </div>

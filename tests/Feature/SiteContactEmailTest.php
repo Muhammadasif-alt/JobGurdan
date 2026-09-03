@@ -51,3 +51,24 @@ it('keeps the empty candidate directory out of the index', function () {
     expect(get('/job-seekers')->assertOk()->getContent())
         ->toContain('content="noindex, follow"');
 });
+
+it('carries no invented scale claims anywhere in the views', function () {
+    $claims = [
+        'JobsinUSA', 'JobsInUSA', 'Fortune 500', 'all 50 U.S. states',
+        '10M+', '15K+', '230,000', '68,000', 'trust and safety team',
+    ];
+
+    $offenders = [];
+
+    foreach (glob(resource_path('views/**/*.blade.php'), GLOB_BRACE) + glob(resource_path('views/*/*/*.blade.php')) as $file) {
+        $body = (string) file_get_contents($file);
+
+        foreach ($claims as $claim) {
+            if (str_contains($body, $claim)) {
+                $offenders[] = basename($file).': '.$claim;
+            }
+        }
+    }
+
+    expect($offenders)->toBeEmpty();
+});

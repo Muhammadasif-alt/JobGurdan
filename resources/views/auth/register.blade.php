@@ -534,7 +534,7 @@
         <div class="auth-hero">
             <span class="eyebrow"><span class="dot"></span> Join 100,000+ job seekers</span>
             <h1>Start your <span class="accent">career journey</span> today</h1>
-            <p>Create your free account in under a minute and unlock thousands of verified job opportunities across all 50 U.S. states.</p>
+            <p>An account is optional and free. It lets you save jobs and track applications &mdash; you can browse and apply to everything without one.</p>
             <ul class="auth-trust">
                 <li><i class="bi bi-check-circle-fill"></i> Free to register &mdash; no credit card</li>
                 <li><i class="bi bi-check-circle-fill"></i> Apply with one click</li>

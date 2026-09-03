@@ -44,7 +44,6 @@
         "@@context": "https://schema.org",
         "@@type": "Organization",
         "name": "JobGader",
-        "alternateName": "JobsinUSA",
         "url": "{{ url('/') }}",
         "logo": "{{ asset('public/user/images/JobGader.png') }}",
         "description": "Verified online employment platform connecting job seekers with hiring employers across the USA, UK and Pakistan.",
