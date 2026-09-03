@@ -629,17 +629,23 @@
             <p class="lead">{{ $intro[0] }}</p>
         @endif
         <div class="hero-stats">
+            @if ($totalMatches > 0)
             <div class="stat">
-                <strong>{{ number_format($totalMatches) }}+</strong>
-                <span>Matching Jobs</span>
+                <strong>{{ number_format($totalMatches) }}</strong>
+                <span>{{ $totalMatches === 1 ? 'Matching Job' : 'Matching Jobs' }}</span>
             </div>
+            @endif
             <div class="stat">
-                <strong>50</strong>
-                <span>U.S. States</span>
+                <strong>3</strong>
+                <span>Countries Covered</span>
             </div>
             <div class="stat">
                 <strong>100%</strong>
                 <span>Free to Apply</span>
+            </div>
+            <div class="stat">
+                <strong>No</strong>
+                <span>Sign-Up Needed</span>
             </div>
         </div>
     </div>
@@ -673,11 +679,11 @@
 
             <aside class="seo-side">
                 <div class="seo-side-promo">
-                    <span class="eyebrow">Get Started Free</span>
-                    <h4>Find your next role faster with verified employers</h4>
-                    <p>Sign up free, set your preferences, and let matching jobs come to you — no scams, no ghost listings.</p>
-                    <a href="{{ route('register') }}" class="btn">
-                        Create Free Account <i class="icon-feather-arrow-right"></i>
+                    <span class="eyebrow">Free, no account</span>
+                    <h4>Apply without signing up</h4>
+                    <p>Every listing links through to the employer or the original posting, so you can check it before you spend time on it. No fee at any stage.</p>
+                    <a href="{{ route('jobs.index') }}" class="btn">
+                        Browse all jobs <i class="icon-feather-arrow-right"></i>
                     </a>
                 </div>
 
@@ -751,16 +757,17 @@
 </section>
 
 @php
-    // Default FAQ set (used when page doesn't supply custom FAQs)
+    // Fallback only — every landing page supplies its own FAQ set, so this
+    // exists to keep the section from breaking if a new page forgets to.
     $faqs = $faqs ?? [
         ['q' => 'Is it free to apply for ' . strtolower($headline) . '?',
-         'a' => 'Yes — applying for any job on JobGader is 100% free for job seekers. Just create a free account and start applying.'],
-        ['q' => 'How are these listings verified?',
-         'a' => 'Every employer profile on JobGader is reviewed by our trust and safety team before going live. We verify business legitimacy and remove fraudulent or outdated listings.'],
-        ['q' => 'Can I get email alerts for new ' . strtolower($headline) . '?',
-         'a' => 'Yes — set up custom job alerts based on keywords, location, salary, and category. We will email you the moment a matching role goes live.'],
-        ['q' => 'How quickly are new jobs added?',
-         'a' => 'New jobs are posted every day across all 50 U.S. states and major industries. Subscribe to alerts so you never miss a fresh opening.'],
+         'a' => 'Yes. Applying is free, and you do not need an account — every listing links straight through to the employer or the original posting.'],
+        ['q' => 'Should I ever pay a fee for a job or a visa?',
+         'a' => 'No. Charging a worker for a job offer or for visa sponsorship is illegal in the US and the UK. Treat any upfront fee as a scam.'],
+        ['q' => 'Which countries does JobGader cover?',
+         'a' => 'The USA, UK and Pakistan, across transport, hospitality, care, construction, cleaning, retail, marketing and software roles.'],
+        ['q' => 'How often are listings updated?',
+         'a' => 'New listings and guides go up every week, with the newest openings first on the home page and the jobs board.'],
     ];
 @endphp
 

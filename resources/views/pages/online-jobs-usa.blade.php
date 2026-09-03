@@ -1,40 +1,78 @@
 @extends('user.layouts.master')
-@section('title', 'Online Jobs USA | JobGader')
-@section('meta_description', 'Discover online jobs in the USA. Find remote, freelance, and work-from-anywhere positions across multiple industries.')
-@section('og_title', 'Online Jobs USA | JobGader')
-@section('og_description', 'Discover online jobs in the USA. Find remote, freelance, and work-from-anywhere positions across multiple industries.')
+@section('title', 'Online Jobs — Employed, Freelance or Gig | JobGader')
+@section('meta_description', 'Online jobs across the USA, UK and Pakistan: the difference between employed, freelance and gig work, what each pays, and how to get paid safely.')
+@section('og_title', 'Online Jobs — Employed, Freelance or Gig | JobGader')
+@section('og_description', 'Online jobs across the USA, UK and Pakistan: the difference between employed, freelance and gig work, what each pays, and how to get paid safely.')
 @section('canonical', url()->current())
 
 @section('content')
     @include('pages._seo-landing', [
         'headline' => 'Online Jobs USA',
         'intro' => [
-            'Online jobs provide flexibility to work from virtually anywhere. These roles are ideal for people seeking freelance work, contract positions, or remote full-time roles.',
-            'Explore online job listings and apply to roles that match your skills in digital marketing, customer support, content creation, and more.',
+            'Online work covers three very different arrangements that get advertised as if they were one. Employed remote roles, freelance client work and platform gig work differ in security, pay structure and who carries the risk.',
+            'This page collects online and internet-based openings from our listings, and sets out plainly which arrangement each type of work belongs to so you can choose deliberately rather than by accident.',
         ],
         'sections' => [
             [
-                'title' => 'What Counts as an Online Job?',
+                'title' => 'Employed, Freelance or Gig',
                 'paragraphs' => [
-                    'Online jobs typically involve working from home or a remote location, communicating via email, chat, and video conferencing. Common online roles include customer support, writing, programming, and virtual assistance.',
-                    'Many employers offer contract or part-time online positions that can be done from anywhere in the US.',
+                    'An employed remote role gives you a salary, leave and employer contributions, and in exchange fixed hours and a single employer. Freelance client work pays more per hour but you carry the gaps between contracts, chase your own invoices and handle your own tax.',
+                    'Platform gig work — micro-tasks, short transcription jobs, survey and data labelling work — pays least of the three and usually well below an hourly wage once unpaid time between tasks is counted. It is useful as a supplement, rarely as an income.',
                 ],
             ],
             [
-                'title' => 'Tips for Online Job Seekers',
+                'title' => 'What Online Work Pays',
                 'paragraphs' => [
-                    'Build a strong online presence, including a LinkedIn profile and portfolio if applicable. Highlight remote work experience and your ability to work independently.',
-                    'Be cautious of scams by researching the employer and focusing on reputable job listings.',
+                    'Skilled online work pays close to its offline equivalent: development, design, SEO, writing and bookkeeping all track their local market rates, with a premium where you serve clients in a higher-cost country.',
+                    'Unskilled online work is the opposite. Survey sites, micro-task platforms and content mills pay a fraction of a normal wage. If a listing does not require a skill, it will not pay like one, whatever the headline figure suggests.',
+                ],
+            ],
+            [
+                'title' => 'Getting Paid Across Borders',
+                'paragraphs' => [
+                    'This is where online work most often goes wrong for people in Pakistan, India and similar markets. Agree the payment method and the currency before starting, and use a route that leaves a record — a platform with escrow, or a recognised international transfer service.',
+                    'For direct client work, ask for a deposit before beginning and invoice on milestones rather than at the end. A client unwilling to pay anything upfront on a first engagement is the most common way freelancers lose a month of work.',
+                ],
+            ],
+            [
+                'title' => 'Building a Profile That Wins Work',
+                'paragraphs' => [
+                    'The first few contracts are the hard part in freelancing, and the standard route through is to price near the market floor briefly, deliver visibly well, and collect reviews. After that, reviews do the selling.',
+                    'Specialise rather than listing everything you can do. A profile that says technical SEO for e-commerce wins more work than one offering marketing, design, writing and development together, because clients are searching for a specific problem.',
                 ],
             ],
         ],
         'jobRoles' => [
-            'Remote Customer Support',
             'Freelance Writer',
-            'Virtual Assistant',
-            'Remote Project Manager',
             'Online Tutor',
-            'Remote Marketing Coordinator',
+            'Virtual Assistant',
+            'Remote Developer',
+            'Freelance Designer',
+            'SEO Consultant',
+            'Transcriptionist',
+            'Remote Support Agent',
+        ],
+        'faqs' => [
+            [
+                'q' => 'What is the difference between remote and freelance work?',
+                'a' => 'A remote employee has a salary, leave and employer contributions with fixed hours for one employer. A freelancer bills clients, carries the gaps between contracts, chases invoices and handles their own tax.',
+            ],
+            [
+                'q' => 'Do survey and micro-task sites pay properly?',
+                'a' => 'No. Once unpaid time between tasks is counted, they generally pay well below an hourly wage. Treat them as a supplement rather than an income.',
+            ],
+            [
+                'q' => 'How do I get paid safely from an overseas client?',
+                'a' => 'Agree the method and currency before starting, use a route that leaves a record, take a deposit on first engagements and invoice on milestones rather than only at the end.',
+            ],
+            [
+                'q' => 'How do I win my first freelance contracts?',
+                'a' => 'Price near the market floor for a short period, deliver visibly well, and collect reviews. After a handful of good reviews the pricing pressure eases quickly.',
+            ],
+            [
+                'q' => 'Should I pay to join a freelance platform?',
+                'a' => 'Not to access work. Legitimate platforms take a commission from completed contracts. Paying an upfront fee to be given jobs is a scam pattern, not a business model.',
+            ],
         ],
         'ctaText' => 'Browse Online Jobs',
         'filterType' => 'remote',

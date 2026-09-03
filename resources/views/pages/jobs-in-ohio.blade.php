@@ -1,40 +1,71 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Ohio | JobGader')
-@section('meta_description', 'Find Ohio jobs in Columbus, Cleveland, Cincinnati, and Toledo. Browse opportunities in manufacturing, healthcare, logistics, and IT.')
-@section('og_title', 'Jobs in Ohio | JobGader')
-@section('og_description', 'Find Ohio jobs in Columbus, Cleveland, Cincinnati, and Toledo. Browse opportunities in manufacturing, healthcare, logistics, and IT.')
+@section('title', 'Jobs in Ohio — Manufacturing, Health, Logistics | JobGader')
+@section('meta_description', 'Jobs in Ohio: manufacturing, healthcare and distribution hiring across Columbus, Cleveland and Cincinnati, what they pay, and where to start.')
+@section('og_title', 'Jobs in Ohio — Manufacturing, Health, Logistics | JobGader')
+@section('og_description', 'Jobs in Ohio: manufacturing, healthcare and distribution hiring across Columbus, Cleveland and Cincinnati, what they pay, and where to start.')
 @section('canonical', url()->current())
 
 @section('content')
     @include('pages._seo-landing', [
         'headline' => 'Jobs in Ohio',
         'intro' => [
-            'Ohio offers a balanced job market with strong manufacturing, healthcare, logistics, and service sectors. Cities like Columbus, Cleveland, and Cincinnati host many growing companies and startups.',
-            'Search Ohio job postings and filter by experience level, schedule, and industry to find the right role for you.',
+            'Ohio combines a large surviving manufacturing base with major hospital systems and a distribution sector that has grown quickly around Columbus. Living costs are among the lowest of any large state, which changes what a given salary means.',
+            'This page covers what is hiring across Ohio, what the main sectors pay, and how the three big metros differ.',
         ],
         'sections' => [
             [
-                'title' => 'Top Sectors Hiring in Ohio',
+                'title' => 'Manufacturing Is Still Real Here',
                 'paragraphs' => [
-                    'Manufacturing and logistics are major employment drivers in Ohio, along with healthcare and education. Tech roles are growing, especially in cities like Columbus.',
-                    'Many employers offer hybrid or remote options, even in traditional industries.',
+                    'Automotive assembly and parts, machinery, plastics and metals continue to employ heavily across the state, and semiconductor investment near Columbus has added a new construction and technical hiring wave on top.',
+                    'Production operative roles hire without experience and train on site. Maintenance technicians, machinists and industrial electricians are consistently short-supplied and paid accordingly.',
                 ],
             ],
             [
-                'title' => 'How to Apply for Ohio Jobs',
+                'title' => 'Healthcare and the Big Systems',
                 'paragraphs' => [
-                    'Use our advanced search to filter by city, job type, and experience level. Apply early and tailor your resume to the company’s requirements.',
-                    'Track your applications and follow up professionally to increase your chances of receiving an interview.',
+                    'Cleveland in particular is a national centre for medicine, and large hospital systems across Cleveland, Columbus and Cincinnati are among the biggest employers in the state.',
+                    'As elsewhere, the accessible entry points are nursing assistant, patient transport, home health and medical support roles, all reachable through short certification rather than a degree.',
+                ],
+            ],
+            [
+                'title' => 'Distribution Around Columbus',
+                'paragraphs' => [
+                    'Columbus sits within a day drive of a very large share of the US population, which has made it a national distribution centre and a continuous source of warehouse, fulfilment and driving work.',
+                    'Combined with low housing costs, this is one of the better states for entry-level workers in absolute terms — the pay is below coastal levels but so is nearly everything else.',
                 ],
             ],
         ],
         'jobRoles' => [
-            'Production Supervisor',
+            'Production Operative',
+            'Maintenance Technician',
+            'Warehouse Associate',
             'Registered Nurse',
-            'Logistics Coordinator',
-            'Software Engineer',
-            'Sales Associate',
-            'Administrative Assistant',
+            'Certified Nursing Assistant',
+            'CDL-A Truck Driver',
+            'Machinist',
+            'Customer Service Representative',
+        ],
+        'faqs' => [
+            [
+                'q' => 'Is manufacturing still hiring in Ohio?',
+                'a' => 'Yes. Automotive, machinery, plastics and metals employ heavily, and semiconductor investment near Columbus has added further construction and technical demand.',
+            ],
+            [
+                'q' => 'Which Ohio city has the strongest job market?',
+                'a' => 'Columbus for distribution, technology and state government; Cleveland for healthcare and manufacturing; Cincinnati for consumer goods, logistics and finance.',
+            ],
+            [
+                'q' => 'Do I need experience for a production job?',
+                'a' => 'Usually not. Production operative roles hire without experience and train on site. Maintenance technicians and machinists do need a trade background and are paid noticeably more.',
+            ],
+            [
+                'q' => 'How does the cost of living compare?',
+                'a' => 'Among the lowest of any large state, particularly housing. A salary that looks modest against coastal figures goes considerably further here.',
+            ],
+            [
+                'q' => 'Is applying free?',
+                'a' => 'Yes, with no account needed. Listings link straight to the employer or original posting.',
+            ],
         ],
         'ctaText' => 'Browse Ohio Jobs',
         'filterType' => 'state',

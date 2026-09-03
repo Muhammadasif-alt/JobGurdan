@@ -26,5 +26,5 @@ it('brands the SEO landing pages as JobGader', function () {
     // "USA Jobs" was the old site's name and survived on 36 landing pages.
     expect($titles->filter(fn (string $body): bool => str_contains($body, 'USA Jobs')))->toBeEmpty();
 
-    $this->get('/remote-jobs-usa')->assertOk()->assertSee('Remote Jobs USA | JobGader');
+    $this->get('/remote-jobs-usa')->assertOk()->assertSee('| JobGader</title>', false);
 });

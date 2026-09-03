@@ -1,40 +1,71 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in New Jersey | JobGader')
-@section('meta_description', 'Find New Jersey jobs near NYC, Newark, and Jersey City. Browse opportunities in finance, healthcare, technology, and manufacturing.')
-@section('og_title', 'Jobs in New Jersey | JobGader')
-@section('og_description', 'Find New Jersey jobs near NYC, Newark, and Jersey City. Browse opportunities in finance, healthcare, technology, and manufacturing.')
+@section('title', 'Jobs in New Jersey — Pharma, Ports and Finance | JobGader')
+@section('meta_description', 'Jobs in New Jersey: pharmaceutical and life sciences, Port Newark logistics, finance and healthcare hiring, and what each sector pays.')
+@section('og_title', 'Jobs in New Jersey — Pharma, Ports and Finance | JobGader')
+@section('og_description', 'Jobs in New Jersey: pharmaceutical and life sciences, Port Newark logistics, finance and healthcare hiring, and what each sector pays.')
 @section('canonical', url()->current())
 
 @section('content')
     @include('pages._seo-landing', [
         'headline' => 'Jobs in New Jersey',
         'intro' => [
-            'New Jersey offers a strong job market with proximity to New York City while maintaining more affordable commuting options. The state has significant hiring in finance, pharmaceuticals, healthcare, and transportation.',
-            'Search New Jersey job listings and use our filters to narrow results by city, industry, or schedule. Apply to roles directly and track your submissions in one place.',
+            'New Jersey packs an unusual amount into a small state: one of the densest pharmaceutical clusters in the world, the busiest container port on the US east coast, and a finance sector spilling across the river from New York.',
+            'This page covers what is hiring across New Jersey, what the main sectors pay, and how proximity to New York shapes the market.',
         ],
         'sections' => [
             [
-                'title' => 'Why Work in New Jersey?',
+                'title' => 'Pharmaceuticals and Life Sciences',
                 'paragraphs' => [
-                    'With major hubs like Newark and Jersey City, New Jersey provides access to top-tier employers in banking, logistics, and healthcare. Many companies also offer hybrid and remote positions.',
-                    'For those willing to commute, a New Jersey job can provide competitive salaries with a lower cost of living than NYC.',
+                    'New Jersey hosts one of the highest concentrations of pharmaceutical and life sciences employers anywhere, spanning research, manufacturing, quality control and regulatory affairs.',
+                    'The accessible roles here are in manufacturing and quality — production technicians, quality control analysts, warehouse and materials handling in regulated environments — which pay above general manufacturing because of the compliance requirements.',
                 ],
             ],
             [
-                'title' => 'Tips for Job Seekers',
+                'title' => 'The Port and the Warehouses',
                 'paragraphs' => [
-                    'Include keywords such as “NJ”, “New Jersey”, and relevant city names in your resume. Highlight your ability to commute and work in fast-paced environments.',
-                    'Consider joining local networking groups and online professional communities to find hidden job leads.',
+                    'Port Newark and Elizabeth form the busiest container complex on the east coast, and the warehousing corridor along the New Jersey Turnpike exists to serve it and the New York metropolitan market beyond.',
+                    'Warehouse, freight and CDL driving roles hire continuously across that corridor, with night and weekend premiums and a steady internal route into supervision.',
+                ],
+            ],
+            [
+                'title' => 'Living Here, Working There',
+                'paragraphs' => [
+                    'A significant share of the state workforce commutes into New York, which pushes local salaries up in the northern counties and makes housing costs high relative to most of the country.',
+                    'Working in New York while living in New Jersey has real tax consequences worth understanding before you accept an offer, since both states are involved and the treatment is not intuitive.',
                 ],
             ],
         ],
         'jobRoles' => [
+            'Warehouse Associate',
+            'Quality Control Analyst',
+            'Production Technician',
+            'CDL-A Truck Driver',
+            'Registered Nurse',
             'Financial Analyst',
-            'Clinical Research Coordinator',
-            'Logistics Specialist',
-            'Software Developer',
-            'Sales Manager',
-            'Customer Service Representative',
+            'Logistics Coordinator',
+            'Regulatory Affairs Associate',
+        ],
+        'faqs' => [
+            [
+                'q' => 'What is New Jersey best known for employing?',
+                'a' => 'Pharmaceuticals and life sciences, one of the densest clusters anywhere, alongside port logistics at Newark and Elizabeth and a finance sector linked to New York.',
+            ],
+            [
+                'q' => 'How do I get into pharmaceutical work without a science degree?',
+                'a' => 'Through manufacturing and materials roles — production technician, warehouse and quality support in regulated environments. These pay above general manufacturing and train on the compliance requirements.',
+            ],
+            [
+                'q' => 'Is warehouse work plentiful in New Jersey?',
+                'a' => 'Yes, along the Turnpike corridor serving Port Newark and the New York metropolitan market. Night and weekend shifts carry premiums.',
+            ],
+            [
+                'q' => 'What should I know about working in New York and living in New Jersey?',
+                'a' => 'Both states are involved in your tax position and the treatment is not intuitive. It is worth understanding before accepting an offer rather than after.',
+            ],
+            [
+                'q' => 'Is applying free?',
+                'a' => 'Yes, with no account required. Listings link to the employer or the original posting.',
+            ],
         ],
         'ctaText' => 'Browse New Jersey Jobs',
         'filterType' => 'state',

@@ -1,40 +1,71 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Washington | JobGader')
-@section('meta_description', 'Search Washington jobs in Seattle, Tacoma, Spokane, and Bellevue. Find opportunities in tech, aerospace, healthcare, and retail.')
-@section('og_title', 'Jobs in Washington | JobGader')
-@section('og_description', 'Search Washington jobs in Seattle, Tacoma, Spokane, and Bellevue. Find opportunities in tech, aerospace, healthcare, and retail.')
+@section('title', 'Jobs in Washington — Tech, Aerospace and Trade | JobGader')
+@section('meta_description', 'Jobs in Washington State: Seattle technology, aerospace manufacturing, agriculture and port logistics, and how no state income tax affects pay.')
+@section('og_title', 'Jobs in Washington — Tech, Aerospace and Trade | JobGader')
+@section('og_description', 'Jobs in Washington State: Seattle technology, aerospace manufacturing, agriculture and port logistics, and how no state income tax affects pay.')
 @section('canonical', url()->current())
 
 @section('content')
     @include('pages._seo-landing', [
         'headline' => 'Jobs in Washington',
         'intro' => [
-            'Washington state features a thriving job market driven by technology, aerospace, healthcare, and retail. North of the border, Seattle and Bellevue host many of the world’s top tech companies.',
-            'Explore job opportunities across Washington and apply to roles that match your experience and preferred lifestyle.',
+            'Washington splits sharply down the middle. West of the Cascades is technology, aerospace and international trade at high wages and high costs; east of them is agriculture and food processing at a fraction of both.',
+            'This page covers what is hiring across Washington State, what the main sectors pay, and what the absence of a state income tax means in practice.',
         ],
         'sections' => [
             [
-                'title' => 'Washington Industry Highlights',
+                'title' => 'Seattle and the Technology Sector',
                 'paragraphs' => [
-                    'Tech giants dominate the Seattle area, while aerospace, healthcare, and logistics also provide strong employment opportunities throughout the state.',
-                    'Smaller cities like Spokane and Tacoma are growing hubs for manufacturing, distribution, and healthcare services.',
+                    'The Seattle and Bellevue-Redmond corridor is one of the largest technology employment centres in the world, spanning cloud infrastructure, software engineering, data and the enormous support functions attached to them.',
+                    'Alongside the engineering roles sit substantial operations, logistics, customer support and warehouse workforces, which is where most of the accessible entry-level hiring in the region actually is.',
                 ],
             ],
             [
-                'title' => 'Tips for Washington Job Seekers',
+                'title' => 'Aerospace and Manufacturing',
                 'paragraphs' => [
-                    'Be prepared for a competitive job market in Seattle by showcasing specialized technical skills and team collaboration experience.',
-                    'Consider remote-friendly roles or positions in suburban markets to expand your options.',
+                    'Commercial aircraft manufacturing and its supply chain remain a major employer in the Puget Sound region, sustaining assembly, machining, composites and quality roles.',
+                    'These are skilled manufacturing jobs that pay well without requiring a degree, and the certifications involved transfer to other aerospace employers nationally.',
+                ],
+            ],
+            [
+                'title' => 'Agriculture, Ports and Taxes',
+                'paragraphs' => [
+                    'Eastern Washington is one of the most productive agricultural regions in the country — apples, wine, hops and potatoes — with substantial seasonal hiring and food processing work year-round.',
+                    'Washington levies no personal state income tax, which lifts take-home pay relative to states that do. The offset is a high sales tax and, in the Seattle area, housing costs among the highest in the country.',
                 ],
             ],
         ],
         'jobRoles' => [
-            'Software Developer',
-            'Aerospace Engineer',
+            'Software Engineer',
+            'Warehouse Associate',
+            'Aerospace Assembler',
+            'CNC Machinist',
+            'Agricultural Worker',
+            'Customer Service Representative',
             'Registered Nurse',
-            'Project Manager',
-            'Retail Store Manager',
-            'Data Analyst',
+            'Logistics Coordinator',
+        ],
+        'faqs' => [
+            [
+                'q' => 'Is Seattle only good for technology jobs?',
+                'a' => 'No. The technology employers also run very large operations, logistics, support and warehouse workforces, and those are where most accessible entry-level hiring in the region sits.',
+            ],
+            [
+                'q' => 'Does Washington have a state income tax?',
+                'a' => 'No personal state income tax, which raises take-home pay compared with states that levy one. Sales tax is high and Seattle housing costs are among the steepest in the country.',
+            ],
+            [
+                'q' => 'What work is there in eastern Washington?',
+                'a' => 'Agriculture and food processing, one of the most productive farming regions in the US, with substantial seasonal hiring and year-round processing work at much lower living costs.',
+            ],
+            [
+                'q' => 'Do aerospace jobs need a degree?',
+                'a' => 'Many do not. Assembly, machining and composites roles are skilled manufacturing positions with certifications that transfer to aerospace employers elsewhere.',
+            ],
+            [
+                'q' => 'Is applying free?',
+                'a' => 'Yes, and no account is needed. Each listing links through to the employer or the original posting.',
+            ],
         ],
         'ctaText' => 'Browse Washington Jobs',
         'filterType' => 'state',
