@@ -33,7 +33,7 @@ it('reads the covered countries from the listings themselves, busiest first', fu
         ->and($coverage->count())->toBe(2)
         ->and($coverage->countWord())->toBe('Two')
         ->and($coverage->countWordLower())->toBe('two')
-        ->and($coverage->shortList())->toBe('Saudi Arabia and USA')
+        ->and($coverage->shortList())->toBe('Saudi Arabia and the USA')
         ->and($coverage->fullList())->toBe('Saudi Arabia and United States');
 });
 
@@ -43,11 +43,27 @@ it('abbreviates the country names that read badly in running copy', function () 
     $this->seed(FrontendDeveloperLahoreSeeder::class);
 
     expect(app(SiteCoverage::class)->shortList())
-        ->toContain('USA')
-        ->toContain('UK')
+        ->toContain('the USA')
+        ->toContain('the UK')
         ->toContain('Pakistan')
         ->not->toContain('United States')
         ->not->toContain('United Kingdom');
+});
+
+it('never renders a definite article in front of a country that does not take one', function () {
+    $this->seed(DriverJobsSaudiBlogSeeder::class);
+    $this->seed(ConstructionUsaBlogSeeder::class);
+
+    // The list is ordered by listing count, so whichever country leads it has
+    // to read correctly. A "the" written into the copy produced "across the
+    // Saudi Arabia, the UK, ..." the moment Saudi Arabia took the lead.
+    foreach (['/', '/about-us', '/companies', '/contact-us', '/jobs', '/blog', '/it-jobs'] as $path) {
+        $body = get($path)->assertOk()->getContent();
+
+        expect($body)->not->toContain('the Saudi Arabia')
+            ->not->toContain('the Pakistan')
+            ->not->toContain('the the ');
+    }
 });
 
 it('builds areaServed nodes for the Organization graph', function () {

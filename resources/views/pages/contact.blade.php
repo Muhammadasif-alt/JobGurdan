@@ -469,7 +469,7 @@
             <a href="{{ route('jobs.index') }}" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-search"></i></div>
                 <h4>Looking for work?</h4>
-                <p>Browse every opening across the {{ $coverage->shortList() }} &mdash; free, and no account needed.</p>
+                <p>Browse every opening across {{ $coverage->shortList() }} &mdash; free, and no account needed.</p>
                 <span class="qc-action">Browse all jobs <i class="icon-feather-arrow-right"></i></span>
             </a>
             <a href="mailto:{{ config('site.contact_email') }}" class="quick-contact-card">

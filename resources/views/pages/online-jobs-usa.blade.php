@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
 @section('title', 'Online Jobs — Employed, Freelance or Gig | JobGader')
-@section('meta_description', 'Online jobs across the '.$coverage->shortList().': the difference between employed, freelance and gig work, what each pays, and how to get paid safely.')
+@section('meta_description', 'Online jobs across '.$coverage->shortList().': the difference between employed, freelance and gig work, what each pays, and how to get paid safely.')
 @section('og_title', 'Online Jobs — Employed, Freelance or Gig | JobGader')
-@section('og_description', 'Online jobs across the '.$coverage->shortList().': the difference between employed, freelance and gig work, what each pays, and how to get paid safely.')
+@section('og_description', 'Online jobs across '.$coverage->shortList().': the difference between employed, freelance and gig work, what each pays, and how to get paid safely.')
 @section('canonical', url()->current())
 
 @section('content')

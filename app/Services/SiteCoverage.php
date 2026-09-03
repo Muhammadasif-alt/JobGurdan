@@ -28,6 +28,13 @@ class SiteCoverage
         'United Arab Emirates' => 'UAE',
     ];
 
+    /**
+     * Short names that take a definite article. The list is ordered by listing
+     * count, so whichever country happens to lead it has to read correctly —
+     * "across the Saudi Arabia, UK, USA" is what a fixed leading "the" gives.
+     */
+    private const NEEDS_ARTICLE = ['USA', 'UK', 'UAE'];
+
     private const NUMBER_WORDS = [
         1 => 'One', 2 => 'Two', 3 => 'Three', 4 => 'Four', 5 => 'Five',
         6 => 'Six', 7 => 'Seven', 8 => 'Eight', 9 => 'Nine', 10 => 'Ten',
@@ -78,10 +85,11 @@ class SiteCoverage
      */
     public function shortList(string $conjunction = 'and'): string
     {
-        return $this->join(array_map(
-            fn (string $country): string => self::SHORT_NAMES[$country] ?? $country,
-            $this->countries()
-        ), $conjunction);
+        return $this->join(array_map(function (string $country): string {
+            $short = self::SHORT_NAMES[$country] ?? $country;
+
+            return in_array($short, self::NEEDS_ARTICLE, true) ? 'the '.$short : $short;
+        }, $this->countries()), $conjunction);
     }
 
     /**

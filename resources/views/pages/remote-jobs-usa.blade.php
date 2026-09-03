@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
 @section('title', 'Remote Jobs — What Is Genuinely Remote | JobGader')
-@section('meta_description', 'Remote jobs across the '.$coverage->shortList().': which roles are genuinely remote, what they pay, and the tax and hiring rules that catch people out.')
+@section('meta_description', 'Remote jobs across '.$coverage->shortList().': which roles are genuinely remote, what they pay, and the tax and hiring rules that catch people out.')
 @section('og_title', 'Remote Jobs — What Is Genuinely Remote | JobGader')
-@section('og_description', 'Remote jobs across the '.$coverage->shortList().': which roles are genuinely remote, what they pay, and the tax and hiring rules that catch people out.')
+@section('og_description', 'Remote jobs across '.$coverage->shortList().': which roles are genuinely remote, what they pay, and the tax and hiring rules that catch people out.')
 @section('canonical', url()->current())
 
 @section('content')

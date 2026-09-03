@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 @section('title', 'Jobs in '.$category->name.' — Browse Verified ' . $category->name . ' Roles in the USA')
-@section('meta_description', 'Find verified ' . $category->name . ' jobs across the ' . $coverage->shortList() . '. Browse ' . $jobs->total() . ' active openings, filter by location and job type, and apply with one click on JobGader.')
+@section('meta_description', 'Find verified ' . $category->name . ' jobs across ' . $coverage->shortList() . '. Browse ' . $jobs->total() . ' active openings, filter by location and job type, and apply with one click on JobGader.')
 @section('canonical', route('jobs.category', $category->slug))
 
 @section('content')

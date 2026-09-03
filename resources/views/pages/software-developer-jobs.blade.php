@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
 @section('title', 'Software Developer Jobs — Stacks, Pay, Hiring | JobGader')
-@section('meta_description', 'Software developer jobs across the '.$coverage->shortList().': what each level pays, which stacks are hiring, and how technical interviews actually run.')
+@section('meta_description', 'Software developer jobs across '.$coverage->shortList().': what each level pays, which stacks are hiring, and how technical interviews actually run.')
 @section('og_title', 'Software Developer Jobs — Stacks, Pay, Hiring | JobGader')
-@section('og_description', 'Software developer jobs across the '.$coverage->shortList().': what each level pays, which stacks are hiring, and how technical interviews actually run.')
+@section('og_description', 'Software developer jobs across '.$coverage->shortList().': what each level pays, which stacks are hiring, and how technical interviews actually run.')
 @section('canonical', url()->current())
 
 @section('content')

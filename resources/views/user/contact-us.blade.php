@@ -663,7 +663,7 @@
             <a href="{{ route('jobs.index') }}" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-search"></i></div>
                 <h4>Looking for work?</h4>
-                <p>Browse every opening across the {{ $coverage->shortList() }}. No account needed and no fee at any stage.</p>
+                <p>Browse every opening across {{ $coverage->shortList() }}. No account needed and no fee at any stage.</p>
                 <span class="qc-action">Browse all jobs <i class="icon-feather-arrow-right"></i></span>
             </a>
             <a href="mailto:{{ config('site.contact_email') }}" class="quick-contact-card">
@@ -784,7 +784,7 @@
         <div class="contact-map-card">
             <div class="info">
                 <h3>What we cover</h3>
-                <p>Openings across the {{ $coverage->shortList() }}, alongside guides on visa sponsorship, pay and entry requirements. Free to use, with no account needed to apply.</p>
+                <p>Openings across {{ $coverage->shortList() }}, alongside guides on visa sponsorship, pay and entry requirements. Free to use, with no account needed to apply.</p>
                 <a href="{{ route('about.us') }}" class="map-link">
                     Learn About Us <i class="icon-feather-arrow-right"></i>
                 </a>

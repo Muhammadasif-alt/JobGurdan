@@ -22,7 +22,7 @@
     @php
         $metaDescription =
             trim($__env->yieldContent('meta_description')) ?:
-            'Find hand-checked job openings across the '.$coverage->shortList().'. Search by location, category and experience level on JobGader — free to apply, no account needed.';
+            'Find hand-checked job openings across '.$coverage->shortList().'. Search by location, category and experience level on JobGader — free to apply, no account needed.';
         // Google truncates past roughly 160 characters. The country list is
         // read from the listings now, so an authored description can grow past
         // that on its own when a new country is added.
@@ -1339,7 +1339,7 @@
                     <div class="cta-inner">
                         <span class="eyebrow">Start your search</span>
                         <h2>Your next job is <span class="accent">one click away</span></h2>
-                        <p>Real openings across the {{ $coverage->shortList() }} &mdash; with straight answers on which visa routes are actually open. Free to apply, and you don't need an account.</p>
+                        <p>Real openings across {{ $coverage->shortList() }} &mdash; with straight answers on which visa routes are actually open. Free to apply, and you don't need an account.</p>
                         <div class="cta-actions">
                             <a href="{{ route('jobs.index') }}" class="btn-cta-primary">
                                 Browse All Jobs
@@ -1560,7 +1560,7 @@
                             <div class="utf-footer-item-links">
                                 <a href="/"><img class="footer-logo" loading="lazy" decoding="async"
                                         src="{{ asset('public/user/images/jobgader-dark-logo.svg') }}" alt="JobGader"></a>
-                                <p>JobGader lists hand-checked openings across the {{ $coverage->shortList() }},
+                                <p>JobGader lists hand-checked openings across {{ $coverage->shortList() }},
                                     from general labour and hospitality through to skilled trades and senior
                                     engineering &mdash; alongside guides on which visa sponsorship routes are
                                     genuinely open. Free to search, and no account needed to apply.</p>

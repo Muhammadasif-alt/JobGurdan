@@ -523,7 +523,7 @@
             <div class="cat-seo-visual" aria-hidden="true">
                 <div class="cat-seo-frame">
                     <img src="{{ asset('public/user/images/home-background-03.webp') }}"
-                         alt="Browse jobs by industry across the {{ $coverage->shortList() }}"
+                         alt="Browse jobs by industry across {{ $coverage->shortList() }}"
                          loading="lazy"
                          onerror="this.onerror=null;this.src='{{ asset('public/user/images/home-background-03.jpg') }}'">
                 </div>

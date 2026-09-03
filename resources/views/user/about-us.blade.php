@@ -1,9 +1,9 @@
 @extends('user.layouts.master')
 @section('title', 'About JobGader — Jobs and Honest Visa Guides')
-@section('meta_description', 'Why JobGader exists: hand-checked listings across the '.$coverage->shortList().', and visa guides that say which routes are open and which are closed.')
+@section('meta_description', 'Why JobGader exists: hand-checked listings across '.$coverage->shortList().', and visa guides that say which routes are open and which are closed.')
 @section('meta_keywords', 'about jobgader, job board, visa sponsorship guides, jobs usa uk pakistan, free job search, jobs for foreigners, work abroad, hand checked job listings')
 @section('og_title', 'About JobGader — Jobs and Honest Visa Guides')
-@section('og_description', 'Hand-checked jobs across the '.$coverage->shortList().', plus visa guides that tell you which sponsorship routes are actually open.')
+@section('og_description', 'Hand-checked jobs across '.$coverage->shortList().', plus visa guides that tell you which sponsorship routes are actually open.')
 @section('og_image', asset('public/user/images/single-company.jpg'))
 @section('canonical', route('about.us'))
 
@@ -11,7 +11,7 @@
     {{-- Twitter card --}}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="About JobGader — Jobs and Honest Visa Guides">
-    <meta name="twitter:description" content="Hand-checked jobs across the {{ $coverage->shortList() }}, plus visa guides that say which routes are open.">
+    <meta name="twitter:description" content="Hand-checked jobs across {{ $coverage->shortList() }}, plus visa guides that say which routes are open.">
     <meta name="twitter:image" content="{{ asset('public/user/images/single-company.jpg') }}">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="author" content="JobGader">
@@ -27,7 +27,7 @@
         "name": "JobGader",
         "url": "{{ url('/') }}",
         "logo": "{{ asset('public/user/images/favicon.png') }}",
-        "description": "A job board and guide site covering openings in the {{ $coverage->shortList() }}, with plain-English write-ups of which visa sponsorship routes are open to foreign workers.",
+        "description": "A job board and guide site covering openings in {{ $coverage->shortList() }}, with plain-English write-ups of which visa sponsorship routes are open to foreign workers.",
         "areaServed": {!! json_encode($coverage->areaServedNodes(), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
         "sameAs": [
             "{{ url('/') }}"
@@ -48,7 +48,7 @@
         "@@type": "AboutPage",
         "name": "About JobGader",
         "url": "{{ route('about.us') }}",
-        "description": "How JobGader works: hand-checked job listings across the {{ $coverage->shortList() }}, and visa sponsorship guides that say which routes are open and which have closed.",
+        "description": "How JobGader works: hand-checked job listings across {{ $coverage->shortList() }}, and visa sponsorship guides that say which routes are open and which have closed.",
         "publisher": {
             "@@type": "Organization",
             "name": "JobGader",
@@ -83,7 +83,7 @@
                 "name": "What is JobGader?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
-                    "text": "JobGader is a job board and guide site covering openings in the {{ $coverage->shortList() }}. Alongside the listings we publish guides explaining which visa sponsorship routes are genuinely open to foreign workers, which have closed, and what each role actually pays."
+                    "text": "JobGader is a job board and guide site covering openings in {{ $coverage->shortList() }}. Alongside the listings we publish guides explaining which visa sponsorship routes are genuinely open to foreign workers, which have closed, and what each role actually pays."
                 }
             },
             {
@@ -1011,14 +1011,14 @@
                 <div>
                     <span class="about-hero-tag" data-aos="fade-down" data-aos-duration="600">About JobGader</span>
                     <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Real jobs, and <span>straight answers</span> about the visa routes behind them</h1>
-                    <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">JobGader lists hand-checked openings across the {{ $coverage->shortList() }} &mdash; and publishes guides that say which sponsorship routes are genuinely open, which have closed, and what each role actually pays. Free to apply, and you never need an account.</p>
+                    <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">JobGader lists hand-checked openings across {{ $coverage->shortList() }} &mdash; and publishes guides that say which sponsorship routes are genuinely open, which have closed, and what each role actually pays. Free to apply, and you never need an account.</p>
                     <div class="about-hero-cta" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
                         <a href="{{ route('jobs.index') }}">Browse Open Jobs <i class="icon-feather-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="about-hero-visual">
                     <img src="{{ asset('public/user/images/single-company.webp') }}"
-                         alt="About JobGader — job listings and visa sponsorship guides for the {{ $coverage->shortList() }}"
+                         alt="About JobGader — job listings and visa sponsorship guides for {{ $coverage->shortList() }}"
                          loading="lazy"
                          onerror="this.onerror=null;this.src='{{ asset('public/user/images/single-company.jpg') }}'">
                     <div class="about-hero-float tl">
@@ -1105,7 +1105,7 @@
                     <div class="step-num">01</div>
                     <div class="ico"><i class="icon-line-awesome-user-plus"></i></div>
                     <h3>Pick Your Country</h3>
-                    <p>Openings across the {{ $coverage->shortList() }} &mdash; general labour and hospitality through to skilled trades and senior engineering.</p>
+                    <p>Openings across {{ $coverage->shortList() }} &mdash; general labour and hospitality through to skilled trades and senior engineering.</p>
                 </div>
                 <div class="how-card">
                     <div class="step-num">02</div>
@@ -1683,7 +1683,7 @@
             <div class="about-faq-list">
                 <details class="about-faq-item" open>
                     <summary>What is JobGader and how does it work?</summary>
-                    <div class="faq-answer">JobGader is a job board and guide site covering openings in the {{ $coverage->shortList() }}. You can browse and apply to every <a href="{{ route('jobs.index') }}">listing</a> without an account, and alongside them we publish guides explaining which visa sponsorship routes are open to foreign workers and which have closed.</div>
+                    <div class="faq-answer">JobGader is a job board and guide site covering openings in {{ $coverage->shortList() }}. You can browse and apply to every <a href="{{ route('jobs.index') }}">listing</a> without an account, and alongside them we publish guides explaining which visa sponsorship routes are open to foreign workers and which have closed.</div>
                 </details>
                 <details class="about-faq-item">
                     <summary>Is JobGader free for job seekers?</summary>

@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
 @section('title', 'Accounting Jobs — Salary, Skills and Openings | JobGader')
-@section('meta_description', 'Accounting jobs across the '.$coverage->shortList().': what each role pays, which certifications employers actually ask for, and how to apply free.')
+@section('meta_description', 'Accounting jobs across '.$coverage->shortList().': what each role pays, which certifications employers actually ask for, and how to apply free.')
 @section('og_title', 'Accounting Jobs — Salary, Skills and Openings | JobGader')
-@section('og_description', 'Accounting jobs across the '.$coverage->shortList().': what each role pays, which certifications employers actually ask for, and how to apply free.')
+@section('og_description', 'Accounting jobs across '.$coverage->shortList().': what each role pays, which certifications employers actually ask for, and how to apply free.')
 @section('canonical', url()->current())
 
 @section('content')
