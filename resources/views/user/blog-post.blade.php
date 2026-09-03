@@ -101,49 +101,7 @@
     @if ($spotlightJob)
         @php
             $jobUrl = route('jobs.show', \Illuminate\Support\Str::slug($spotlightJob->position.'-'.($spotlightJob->location->name ?? '')));
-            $jobPosting = [
-                '@context' => 'https://schema.org',
-                '@type' => 'JobPosting',
-                '@id' => $jobUrl.'#jobposting',
-                'url' => $jobUrl,
-                'title' => $spotlightJob->position,
-                'description' => $spotlightJob->description,
-                'datePosted' => optional($spotlightJob->created_at)->toIso8601String(),
-                'validThrough' => optional($spotlightJob->created_at)->addDays(60)->toIso8601String(),
-                'employmentType' => strtoupper(str_replace([' ', '-'], '_', (string) ($spotlightJob->employment_type ?: 'Full time'))),
-                'hiringOrganization' => [
-                    '@type' => 'Organization',
-                    'name' => $spotlightJob->advertiser->name ?? 'JobGader',
-                ],
-                'jobLocation' => [
-                    '@type' => 'Place',
-                    'address' => array_filter([
-                        '@type' => 'PostalAddress',
-                        'addressLocality' => $spotlightJob->location->name ?? null,
-                        'addressRegion' => $spotlightJob->location->area ?? null,
-                        'addressCountry' => $spotlightJob->location->country ?? null,
-                    ]),
-                ],
-                'mainEntityOfPage' => ['@type' => 'WebPage', '@id' => $jobUrl],
-            ];
-
-            if ($spotlightJob->salary_minimum && $spotlightJob->salary_maximum) {
-                $unitMap = ['Hourly' => 'HOUR', 'Daily' => 'DAY', 'Weekly' => 'WEEK', 'Monthly' => 'MONTH', 'Yearly' => 'YEAR'];
-                $jobPosting['baseSalary'] = [
-                    '@type' => 'MonetaryAmount',
-                    'currency' => $spotlightJob->salary_currency ?: 'USD',
-                    'value' => [
-                        '@type' => 'QuantitativeValue',
-                        'minValue' => (float) $spotlightJob->salary_minimum,
-                        'maxValue' => (float) $spotlightJob->salary_maximum,
-                        'unitText' => $unitMap[$spotlightJob->salary_period] ?? 'MONTH',
-                    ],
-                ];
-            }
-
-            if (strcasecmp((string) $spotlightJob->job_type, 'Remote') === 0) {
-                $jobPosting['jobLocationType'] = 'TELECOMMUTE';
-            }
+            $jobPosting = ['@context' => 'https://schema.org'] + $structuredData->jobPosting($spotlightJob, $jobUrl);
         @endphp
         <script type="application/ld+json">
         {!! json_encode($jobPosting, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}

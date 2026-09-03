@@ -13,13 +13,14 @@ Disallow: /login
 Disallow: /register
 Disallow: /password/
 Disallow: /email/verify
-Disallow: /user/
 Disallow: /api/
-Disallow: /storage/
-Disallow: /public/storage/
 Disallow: /*?token=
 Disallow: /*?session=
-Crawl-delay: 1
+
+# Blog and listing images live under /public/storage/ — they must stay
+# crawlable or they cannot appear in Image Search or in rich results.
+Allow: /public/storage/
+Allow: /public/user/images/
 
 # Allow Googlebot full access
 User-agent: Googlebot
@@ -27,6 +28,10 @@ Allow: /
 
 # Allow Google Jobs crawler
 User-agent: Googlebot-jobs
+Allow: /
+
+# Allow image crawlers at the media paths
+User-agent: Googlebot-Image
 Allow: /
 
 # Sitemap location (absolute URL — required by Google/Bing)

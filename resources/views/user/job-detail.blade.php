@@ -878,109 +878,21 @@
     if ($job->requirements) { $jobDescriptionHtml .= '<h3>Requirements</h3>' . $job->requirements; }
     if ($job->benefits)     { $jobDescriptionHtml .= '<h3>Benefits</h3>'     . $job->benefits; }
 
-    // Guarantee validThrough is in the future. Older jobs whose computed expiry has passed
-    // would otherwise be silently dropped from Google Jobs.
-    $candidateValid = $job->expires_at ?? $job->valid_through ?? $job->created_at?->copy()->addDays(60);
-    $validThrough   = ($candidateValid && $candidateValid->isFuture())
-        ? $candidateValid
-        : now()->addDays(60);
-
-    $isRemote = stripos($job->position . ' ' . ($job->location->name ?? ''), 'remote') !== false;
-
-    // Normalize employmentType to Google's enum.
-    $rawType   = strtoupper(str_replace([' ', '-'], '_', $job->employment_type ?? 'FULL_TIME'));
-    $typeMap   = [
-        'FULL_TIME' => 'FULL_TIME', 'FULLTIME' => 'FULL_TIME',
-        'PART_TIME' => 'PART_TIME', 'PARTTIME' => 'PART_TIME',
-        'CONTRACT'  => 'CONTRACTOR', 'CONTRACTOR' => 'CONTRACTOR',
-        'TEMPORARY' => 'TEMPORARY', 'TEMP' => 'TEMPORARY',
-        'INTERN'    => 'INTERN', 'INTERNSHIP' => 'INTERN',
-        'VOLUNTEER' => 'VOLUNTEER',
-        'PER_DIEM'  => 'PER_DIEM',
-        'FREELANCE' => 'CONTRACTOR',
-    ];
-    $employmentType = $typeMap[$rawType] ?? 'FULL_TIME';
-
     /*
      * Google's JobPosting guidelines expect the page to describe a single, real
      * opening. StructuredDataService decides that from the apply link, and the
-     * blog spotlight pages use the same rule so the two never disagree.
+     * blog spotlight pages use the same rule so the two never disagree. The
+     * posting itself is built there too, so both pages publish identical facts.
      */
-    $describesSingleVacancy = app(\App\Services\StructuredDataService::class)
-        ->describesSingleVacancy($job->application_url);
+    $structuredData = app(\App\Services\StructuredDataService::class);
+    $describesSingleVacancy = $structuredData->describesSingleVacancy($job->application_url);
+
+    $jobPosting = ['@context' => 'https://schema.org']
+        + $structuredData->jobPosting($job, url()->current(), $jobDescriptionHtml);
 @endphp
 @if ($describesSingleVacancy)
 <script type="application/ld+json">
-{
-    "@@context": "https://schema.org",
-    "@@type": "JobPosting",
-    "title": {!! json_encode($job->position) !!},
-    "description": {!! json_encode($jobDescriptionHtml) !!},
-    "identifier": {
-        "@@type": "PropertyValue",
-        "name": {!! json_encode($job->advertiser->name ?? 'JobGader') !!},
-        "value": {!! json_encode((string) $job->id) !!}
-    },
-    "datePosted": {!! json_encode($job->created_at?->toIso8601String() ?? now()->toIso8601String()) !!},
-    "validThrough": {!! json_encode($validThrough->toIso8601String()) !!},
-    "employmentType": {!! json_encode($employmentType) !!},
-    "url": {!! json_encode(url()->current()) !!},
-    "hiringOrganization": {
-        "@@type": "Organization",
-        "name": {!! json_encode($job->advertiser->name ?? 'JobGader') !!},
-        "sameAs": {!! json_encode(url('/companies/' . ($job->advertiser->id ?? ''))) !!}@if($job->advertiser && $job->advertiser->logo),
-        "logo": {!! json_encode(asset('public/storage/' . $job->advertiser->logo)) !!}@endif
-    },
-    "jobLocation": {
-        "@@type": "Place",
-        "address": {
-            "@@type": "PostalAddress",
-            "addressLocality": {!! json_encode($job->location->name ?? '') !!},
-            "addressRegion": {!! json_encode($job->location->area ?? $job->location->name ?? '') !!},
-            "addressCountry": "US"
-        }
-    }@if($isRemote)
-    ,
-    "jobLocationType": "TELECOMMUTE",
-    "applicantLocationRequirements": {
-        "@@type": "Country",
-        "name": "USA"
-    }
-    @endif
-    @if($job->salary_minimum && $job->salary_maximum)
-    ,
-    "baseSalary": {
-        "@@type": "MonetaryAmount",
-        "currency": {!! json_encode($job->salary_currency ?? 'USD') !!},
-        "value": {
-            "@@type": "QuantitativeValue",
-            "minValue": {!! json_encode((float)$job->salary_minimum) !!},
-            "maxValue": {!! json_encode((float)$job->salary_maximum) !!},
-            "unitText": "YEAR"
-        }
-    }
-    @elseif($job->salary_minimum || $job->salary_maximum)
-    ,
-    "baseSalary": {
-        "@@type": "MonetaryAmount",
-        "currency": {!! json_encode($job->salary_currency ?? 'USD') !!},
-        "value": {
-            "@@type": "QuantitativeValue",
-            "value": {!! json_encode((float)($job->salary_minimum ?? $job->salary_maximum)) !!},
-            "unitText": "YEAR"
-        }
-    }
-    @endif
-    @if($job->requirements)
-    ,
-    "qualifications": {!! json_encode(strip_tags($job->requirements)) !!}
-    @endif
-    @if($job->category)
-    ,
-    "industry": {!! json_encode($job->category->name) !!},
-    "occupationalCategory": {!! json_encode($job->category->name) !!}
-    @endif
-}
+{!! json_encode($jobPosting, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
 </script>
 @endif
 <script type="application/ld+json">
