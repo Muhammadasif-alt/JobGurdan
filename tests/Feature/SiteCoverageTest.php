@@ -106,7 +106,7 @@ it('does not leak the concatenation syntax into rendered copy', function () {
 
     // A country list dropped into HTML rather than a PHP string would print
     // the concatenation verbatim.
-    foreach (['/', '/about-us', '/companies', '/contact-us', '/jobs', '/blog', '/contact'] as $path) {
+    foreach (['/', '/about-us', '/companies', '/contact-us', '/jobs', '/blog', '/it-jobs'] as $path) {
         expect(get($path)->assertOk()->getContent())
             ->not->toContain('$coverage->');
     }
@@ -126,4 +126,15 @@ it('keeps US-only and old-brand copy from creeping back into the views', functio
     }
 
     expect($offenders)->toBeEmpty();
+});
+
+it('sends the duplicate contact page to the one that is in the sitemap', function () {
+    // /contact and /contact-us were both indexable and carried the same form,
+    // and the footer linked to the one the sitemap left out.
+    get('/contact')->assertRedirect('/contact-us')->assertMovedPermanently();
+
+    $body = get('/')->assertOk()->getContent();
+
+    expect($body)->toContain(route('contact.us'))
+        ->not->toContain('href="'.url('/contact').'"');
 });

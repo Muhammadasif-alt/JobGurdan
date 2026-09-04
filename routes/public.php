@@ -120,7 +120,10 @@ Route::view('/internship-jobs', 'pages.internship-jobs')->name('pages.internship
 // ============================================
 Route::view('/privacy-policy', 'pages.privacy')->name('pages.privacy');
 Route::view('/terms-of-service', 'pages.terms')->name('pages.terms');
-Route::view('/contact', 'pages.contact')->name('pages.contact');
+// /contact duplicated /contact-us, down to the same form action. It keeps
+// its name so old links resolve, and sends them to the page that is in the
+// sitemap.
+Route::permanentRedirect('/contact', '/contact-us')->name('pages.contact');
 Route::view('/disclaimer', 'pages.disclaimer')->name('pages.disclaimer');
 
 // ============================================

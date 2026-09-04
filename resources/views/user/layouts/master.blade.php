@@ -1568,7 +1568,7 @@
                                     <a href="{{ url('/privacy-policy') }}">Privacy Policy</a> &nbsp;·&nbsp;
                                     <a href="{{ url('/terms-of-service') }}">Terms of Service</a> &nbsp;·&nbsp;
                                     <a href="{{ url('/about-us') }}">About Us</a> &nbsp;·&nbsp;
-                                    <a href="{{ url('/contact') }}">Contact</a>
+                                    <a href="{{ route('contact.us') }}">Contact</a>
                                 </p>
                             </div>
                         </div>

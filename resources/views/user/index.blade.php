@@ -2698,7 +2698,7 @@
                     <span class="eyebrow">FAQ</span>
                     <h2>Got questions? We've got answers.</h2>
                     <p>The honest version — what applying costs, which visa routes are actually open, and how to spot a recruiter who is wasting your time. Still stuck? Our team is one click away.</p>
-                    <a href="{{ route('pages.contact') }}" class="contact-btn">
+                    <a href="{{ route('contact.us') }}" class="contact-btn">
                         Contact Support <i class="icon-feather-arrow-right"></i>
                     </a>
                 </div>

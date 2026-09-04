@@ -1691,7 +1691,7 @@
                 </details>
                 <details class="about-faq-item">
                     <summary>How are job listings verified?</summary>
-                    <div class="faq-answer">Listings are added and checked by hand rather than scraped, and each one links to the employer or the original posting so you can confirm it yourself before applying. If you see something suspicious, report it through our <a href="{{ route('pages.contact') }}">Contact page</a> and we will look at it.</div>
+                    <div class="faq-answer">Listings are added and checked by hand rather than scraped, and each one links to the employer or the original posting so you can confirm it yourself before applying. If you see something suspicious, report it through our <a href="{{ route('contact.us') }}">Contact page</a> and we will look at it.</div>
                 </details>
                 <details class="about-faq-item">
                     <summary>What industries and job types are available?</summary>
@@ -1711,7 +1711,7 @@
                 </details>
                 <details class="about-faq-item">
                     <summary>How can employers post jobs on JobGader?</summary>
-                    <div class="faq-answer">Employers can register an account, choose a posting plan that matches their hiring needs, and submit listings via the dashboard. After our team reviews and verifies the company, the job goes live and reaches qualified candidates nationwide. Visit our <a href="{{ route('pages.contact') }}">Contact page</a> for custom enterprise plans.</div>
+                    <div class="faq-answer">Employers can register an account, choose a posting plan that matches their hiring needs, and submit listings via the dashboard. After our team reviews and verifies the company, the job goes live and reaches qualified candidates nationwide. Visit our <a href="{{ route('contact.us') }}">Contact page</a> for custom enterprise plans.</div>
                 </details>
             </div>
         </div>
