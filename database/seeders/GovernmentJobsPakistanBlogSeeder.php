@@ -59,7 +59,7 @@ class GovernmentJobsPakistanBlogSeeder extends Seeder
                 'author_id' => $author?->id,
                 'author_name' => $author?->name ?? 'Admin',
                 'title' => $title,
-                'excerpt' => 'What separates a BPS civil-service post from a PPS project post, why almost everything advertised under this keyword is the second kind, how FPSC and PPSC recruitment differs from direct ministry hiring, and how to apply online without wasting an application.',
+                'excerpt' => 'What separates a BPS civil-service post from a PPS project post, why almost everything advertised under this keyword is the second kind, how FPSC and PPSC recruitment differs, and how to apply without wasting an application.',
                 'content' => $content,
                 'featured_image' => 'blogs/government-jobs-in-pakistan.jpg',
                 'tags' => 'government jobs in pakistan, federal government jobs in pakistan, government jobs in pakistan for female, government jobs in pakistan punjab, fpsc jobs, ppsc jobs, pps scale jobs, bps scale jobs, government jobs online apply pakistan, matric base government jobs',

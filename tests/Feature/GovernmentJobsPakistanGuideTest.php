@@ -24,6 +24,9 @@ it('publishes the guide with its SEO fields inside the snippet limits', function
         ->and($blog->status)->toBe('published')
         ->and($blog->featured_image)->toBe('blogs/government-jobs-in-pakistan.jpg')
         ->and($blog->excerpt)->not->toBeEmpty()
+        // blogs.excerpt is a varchar(255); sqlite accepts a longer one
+        // locally and MySQL rejects it on the server.
+        ->and(mb_strlen($blog->excerpt))->toBeLessThanOrEqual(255)
         ->and($blog->reading_time)->toBeGreaterThan(3)
         ->and(mb_strlen($blog->meta_title))->toBeLessThanOrEqual(60)
         ->and(mb_strlen($blog->meta_description))->toBeLessThanOrEqual(160);
