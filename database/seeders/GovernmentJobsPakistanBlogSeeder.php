@@ -319,6 +319,7 @@ JOBHTML;
 <p>Looking at private-sector and overseas options alongside the public sector? These cover the rest:</p>
 
 <ul>
+    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a> &mdash; what entry-level private pay really is, and the minimum wage floor an offer has to clear.</li>
     <li><a href="/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern">Senior Frontend Developer at ERS Tech, Lahore</a> &mdash; what a mid-senior engineering seat in Lahore actually asks for and pays.</li>
     <li><a href="/blog/digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan">Digital Marketing Expert (SEO) &mdash; Remote, Pakistan</a> &mdash; a remote private-sector route out of the same graduate pool.</li>
     <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; the Gulf route, and how Saudi sponsorship is really processed.</li>
