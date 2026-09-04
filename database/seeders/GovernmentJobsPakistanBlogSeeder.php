@@ -172,7 +172,7 @@ JOBHTML;
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/government-jobs-in-pakistan-islamabad.jpg"
-         alt="Government offices in Islamabad — government jobs in Pakistan"
+         alt="The Supreme Court building in Islamabad, one of the federal institutions that advertises government jobs in Pakistan"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
@@ -238,6 +238,12 @@ JOBHTML;
 <p>Not every government post needs a degree. Clerical, dispatch, driver, naib qasid and support-staff positions across ministries and departments are advertised regularly for matric and intermediate candidates, and these sit in the lower <strong>BPS</strong> grades &mdash; roughly BPS-1 to BPS-5 &mdash; which means they are the permanent, pensionable kind rather than project contracts.</p>
 
 <p>They are also the most heavily contested vacancies in the country. Expect thousands of applications for a handful of seats, expect a written test even for support roles, and apply to every relevant advertisement rather than waiting for the ideal one.</p>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/government-jobs-in-pakistan-apply-online.jpg"
+         alt="A desk prepared for an online government job application in Pakistan"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
 
 <h2>How to Apply Online</h2>
 
