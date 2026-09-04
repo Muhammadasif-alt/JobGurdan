@@ -270,6 +270,7 @@ JOBHTML;
 <p>Looking at other roles or countries? These guides cover the rest of what we track:</p>
 
 <ul>
+    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; why almost everything advertised is a PPS project post, and how FPSC and PPSC differ.</li>
     <li><a href="/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern">Senior Frontend Developer at ERS Tech, Lahore</a> &mdash; React, Next.js and MERN, on-site in Lahore.</li>
     <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; H-2B, EB-3 and H-1B routes plus 2026 pay benchmarks.</li>
     <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London (No Experience Needed)</a> &mdash; shift patterns, 2026 pay and the truth about sponsorship.</li>
