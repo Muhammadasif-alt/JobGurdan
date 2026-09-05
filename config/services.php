@@ -44,9 +44,13 @@ return [
 
     // Google Gemini — used for AI-powered resume parsing (free tier).
     // Get a key at https://aistudio.google.com/app/apikey
+    //
+    // The 2.x models are closed to new keys: a fresh key calling them gets a
+    // 404 telling it to move to the 3.5 line. Keep the default on a model a
+    // newly issued key can actually reach.
     'gemini' => [
         'key' => env('GEMINI_API_KEY'),
-        'model' => env('GEMINI_MODEL', 'gemini-2.0-flash'),
+        'model' => env('GEMINI_MODEL', 'gemini-3.5-flash-lite'),
     ],
 
 ];
