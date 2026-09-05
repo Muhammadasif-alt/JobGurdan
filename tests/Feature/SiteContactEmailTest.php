@@ -3,20 +3,24 @@
 use function Pest\Laravel\get;
 
 it('uses one contact address across every public page', function () {
-    $pages = ['/', '/about-us', '/contact-us', '/privacy-policy', '/terms-of-service', '/contact'];
+    // /contact is a permanent redirect to /contact-us now, so it is walked
+    // as a redirect in SiteCoverageTest rather than fetched here.
+    $pages = ['/', '/about-us', '/contact-us', '/privacy-policy', '/terms-of-service', '/blog'];
     $address = config('site.contact_email');
 
     foreach ($pages as $page) {
         $html = get($page)->assertOk()->getContent();
 
         // Five different addresses used to be scattered across these pages,
-        // none of them a mailbox anyone was reading.
+        // none of them a mailbox anyone was reading. adminjobgader@ replaced
+        // them and was then closed by Google, so it is on the list too.
         expect($html)
             ->not->toContain('info@jobgader.com')
             ->not->toContain('support@jobgader.com')
             ->not->toContain('privacy@jobgader.com')
             ->not->toContain('legal@jobgader.com')
-            ->not->toContain('admin@jobgader.com');
+            ->not->toContain('admin@jobgader.com')
+            ->not->toContain('adminjobgader@gmail.com');
     }
 
     expect(get('/contact-us')->getContent())->toContain($address)
