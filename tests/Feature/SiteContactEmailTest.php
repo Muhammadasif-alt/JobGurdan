@@ -61,6 +61,8 @@ it('carries no invented scale claims or inherited contact details in the views',
     $claims = [
         'JobsinUSA', 'JobsInUSA', 'Fortune 500', 'all 50 U.S. states',
         '10M+', '15K+', '230,000', '68,000', 'trust and safety team',
+        // Country-specific copy the SiteCoverage pass has to keep out.
+        "America's most in-demand", 'across the United States', 'all 50 states',
         // The old site's postal address and support line, plus a placeholder
         // number that was published as if it were a real one.
         'Fullerton', 'State College Blvd', '321 775 9823', '13217759823',

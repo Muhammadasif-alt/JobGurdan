@@ -1415,7 +1415,7 @@
 
             /* Section headings — bright blue ManageWP style */
             #footer .utf-footer-item-links h3 {
-                color: #4d9eff !important;
+                color: #3182ce !important;
                 font-size: 14px !important;
                 font-weight: 700 !important;
                 text-transform: uppercase !important;
@@ -1521,18 +1521,18 @@
             html.dark-mode #footer::before {
                 background: radial-gradient(ellipse at top left, rgba(27, 58, 107,.14) 0%, rgba(27, 58, 107,.05) 30%, transparent 65%) !important;
             }
-            html.dark-mode #footer .utf-footer-item-links h3 { color: #1b3a6b !important; }
+            html.dark-mode #footer .utf-footer-item-links h3 { color: #3182ce !important; }
             html.dark-mode #footer .utf-footer-item-links p { color: #cbd5e1 !important; }
             html.dark-mode #footer .utf-footer-item-links p a { color: #e5e7eb !important; }
-            html.dark-mode #footer .utf-footer-item-links p a:hover { color: #1b3a6b !important; }
+            html.dark-mode #footer .utf-footer-item-links p a:hover { color: #3182ce !important; }
             html.dark-mode #footer .utf-footer-item-links ul li a { color: #cbd5e1 !important; }
-            html.dark-mode #footer .utf-footer-item-links ul li a:hover { color: #1b3a6b !important; }
+            html.dark-mode #footer .utf-footer-item-links ul li a:hover { color: #3182ce !important; }
             html.dark-mode #footer .utf-footer-item-links ul li a i { color: var(--site-muted) !important; }
-            html.dark-mode #footer .utf-footer-item-links ul li a:hover i { color: #1b3a6b !important; }
+            html.dark-mode #footer .utf-footer-item-links ul li a:hover i { color: #3182ce !important; }
             html.dark-mode #footer .footer-hub-link {
-                background: rgba(27, 58, 107,.10) !important;
-                border-color: rgba(27, 58, 107,.30) !important;
-                color: #1b3a6b !important;
+                background: rgba(49, 130, 206,.10) !important;
+                border-color: rgba(49, 130, 206,.30) !important;
+                color: #3182ce !important;
             }
             html.dark-mode #footer .footer-hub-link:hover {
                 background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;

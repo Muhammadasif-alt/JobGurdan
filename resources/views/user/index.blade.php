@@ -45,7 +45,7 @@
         "@@type": "Organization",
         "name": "JobGader",
         "url": "{{ url('/') }}",
-        "logo": "{{ asset('public/user/images/JobGader.png') }}",
+        "logo": "{{ asset('public/user/images/apple-touch-icon.png') }}",
         "description": "Verified online employment platform connecting job seekers with hiring employers across {{ $coverage->shortList() }}.",
         "areaServed": {!! json_encode($coverage->areaServedNodes(), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
         "contactPoint": {
@@ -1693,7 +1693,7 @@
                 <header class="section-head" data-aos="fade-up">
                     <span class="section-tag">Industries We Serve</span>
                     <h2 id="industry-heading">Browse Jobs <span class="accent">By Your Industry</span></h2>
-                    <p>Explore verified openings in America's most in-demand sectors. Pick an industry and jump straight to the roles hiring right now.</p>
+                    <p>Explore verified openings in the sectors hiring hardest across {{ $coverage->shortList() }}. Pick an industry and jump straight to the roles open right now.</p>
                 </header>
 
                 <div class="industry-grid">
@@ -1942,10 +1942,10 @@
                 <article class="process-card" data-aos="fade-up" data-aos-delay="0" data-aos-duration="700">
                     <span class="step-badge">Step 1</span>
                     <div class="card-image">
-                        <img src="{{ asset('public/user/images/home-background-02.webp') }}"
-                             alt="Choose jobs in the USA, UK or Pakistan on JobGader"
+                        <img src="{{ asset('public/user/images/seo-jobseekers.webp') }}"
+                             alt="A job seeker on the way to work in one of the countries JobGader covers"
                              loading="lazy"
-                             onerror="this.onerror=null;this.src='{{ asset('public/user/images/home-background-02.jpg') }}'">
+                             onerror="this.onerror=null;this.src='{{ asset('public/user/images/seo-jobseekers.jpg') }}'">
                     </div>
                     <h3>Pick Your Country</h3>
                     <p>We list openings across {{ $coverage->shortList() }} &mdash; from general labour and hospitality to skilled trades and senior engineering. Start with where you want to work.</p>
@@ -1957,10 +1957,10 @@
                 <article class="process-card" data-aos="fade-up" data-aos-delay="120" data-aos-duration="700">
                     <span class="step-badge">Step 2</span>
                     <div class="card-image">
-                        <img src="{{ asset('public/user/images/home-background-03.webp') }}"
-                             alt="Read the visa sponsorship guide for your role before applying"
+                        <img src="{{ asset('public/user/images/blog.webp') }}"
+                             alt="Reading a JobGader visa sponsorship guide before applying"
                              loading="lazy"
-                             onerror="this.onerror=null;this.src='{{ asset('public/user/images/home-background-03.jpg') }}'">
+                             onerror="this.onerror=null;this.src='{{ asset('public/user/images/blog.jpg') }}'">
                     </div>
                     <h3>Check the Visa Route</h3>
                     <p>Every sector has its own rules. Our guides spell out which routes are open, which closed, what the pay really is, and how to spot a recruiter selling a visa that does not exist.</p>
@@ -1972,9 +1972,10 @@
                 <article class="process-card" data-aos="fade-up" data-aos-delay="240" data-aos-duration="700">
                     <span class="step-badge">Step 3</span>
                     <div class="card-image">
-                        <img src="{{ asset('public/user/images/callout-1.jpg') }}"
+                        <img src="{{ asset('public/user/images/industry-remote.webp') }}"
                              alt="Open a listing to see pay, requirements and shift details"
-                             loading="lazy">
+                             loading="lazy"
+                             onerror="this.onerror=null;this.src='{{ asset('public/user/images/industry-remote.jpg') }}'">
                     </div>
                     <h3>Open the Listing</h3>
                     <p>Each listing sets out the pay range, requirements, shift pattern and sponsorship status up front &mdash; so you know whether you qualify before you spend time on an application.</p>
@@ -1986,7 +1987,7 @@
                 <article class="process-card" data-aos="fade-up" data-aos-delay="360" data-aos-duration="700">
                     <span class="step-badge">Step 4</span>
                     <div class="card-image">
-                        <img src="{{ asset('public/user/images/callout-2.jpg') }}"
+                        <img src="{{ asset('public/user/images/callout-1-founders.jpg') }}"
                              alt="Get hired by trusted employers across {{ $coverage->shortList() }}"
                              loading="lazy">
                     </div>
@@ -2101,10 +2102,10 @@
                     <div class="why-visual-blob blob-1"></div>
                     <div class="why-visual-blob blob-2"></div>
                     <div class="why-visual-stage">
-                        <img src="{{ asset('public/user/images/hero-diverse-professionals.webp') }}"
-                             alt="Job seeker browsing visa sponsorship job openings on JobGader"
+                        <img src="{{ asset('public/user/images/job.webp') }}"
+                             alt="People at work across the sectors JobGader lists jobs in"
                              loading="lazy"
-                             onerror="this.onerror=null;this.src='{{ asset('public/user/images/hero-diverse-professionals.jpg') }}'">
+                             onerror="this.onerror=null;this.src='{{ asset('public/user/images/job.jpg') }}'">
                         <div class="why-floating why-fl-1">
                             <div class="ico"><i class="icon-feather-shield"></i></div>
                             <div>

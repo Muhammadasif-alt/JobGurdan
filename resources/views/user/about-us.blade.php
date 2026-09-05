@@ -1045,7 +1045,7 @@
         <div class="container">
             <div class="about-stats-grid">
                 <div class="about-stat-card">
-                    <div class="stat-num">3</div>
+                    <div class="stat-num">{{ $coverage->count() }}</div>
                     <div class="stat-label">Countries Covered</div>
                 </div>
                 <div class="about-stat-card">

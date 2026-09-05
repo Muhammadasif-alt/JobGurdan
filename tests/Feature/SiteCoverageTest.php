@@ -128,6 +128,15 @@ it('keeps US-only and old-brand copy from creeping back into the views', functio
     expect($offenders)->toBeEmpty();
 });
 
+it('counts the covered countries on the about page instead of hardcoding three', function () {
+    // The stat card still read "3" after Saudi Arabia became the fourth
+    // country with listings, contradicting the sentence above it.
+    $coverage = app(App\Services\SiteCoverage::class);
+
+    expect(get('/about-us')->assertOk()->getContent())
+        ->toContain('<div class="stat-num">'.$coverage->count().'</div>');
+});
+
 it('sends the duplicate contact page to the one that is in the sitemap', function () {
     // /contact and /contact-us were both indexable and carried the same form,
     // and the footer linked to the one the sitemap left out.
