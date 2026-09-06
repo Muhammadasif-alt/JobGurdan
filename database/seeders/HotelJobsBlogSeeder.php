@@ -54,7 +54,7 @@ class HotelJobsBlogSeeder extends Seeder
                 'excerpt' => 'H-2B, J-1, H-1B and EB-3 explained for hospitality work — which roles U.S. hotels actually sponsor, realistic hourly pay by position, and how to spot a recruitment scam.',
                 'content' => $content,
                 'featured_image' => 'blogs/hotel-jobs-in-usa-for-foreigners.jpg',
-                'tags' => 'hotel jobs usa, visa sponsorship, H-2B visa, J-1 visa, hospitality jobs, housekeeping jobs, front desk jobs, jobs for foreigners',
+                'tags' => 'hotel jobs usa, hotel jobs in usa with visa sponsorship, visa sponsorship, H-2B visa, hotels sponsoring h2b visa, J-1 visa, restaurant jobs usa visa sponsorship, hospitality jobs, housekeeping jobs, front desk jobs, jobs for foreigners',
                 'meta_title' => 'Hotel Jobs in USA for Foreigners with Visa Sponsorship (2026)',
                 'meta_description' => 'H-2B, J-1 and EB-3 routes into U.S. hotel work, which roles get sponsored, hourly pay by position, and how to avoid recruitment scams.',
                 'reading_time' => max(1, (int) ceil(str_word_count(strip_tags($content)) / 200)),
@@ -165,6 +165,12 @@ JOBHTML;
 
 <p>There's no single "hotel visa." Sponsorship runs through a handful of existing employment categories, each suited to a different type of role:</p>
 
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/hotel-jobs-in-usa-visa-routes.jpg"
+         alt="Visa routes into hotel jobs in the USA for foreign workers"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
 <h3>H-2B Visa (Seasonal / Temporary)</h3>
 
 <p>The most common route for line-level hotel roles &mdash; housekeeping, front desk, breakfast attendants, dishwashers, banquet staff. It's tied to a specific employer and a defined season of need, and it does not lead to permanent residency on its own. The annual statutory cap sits at 66,000 visas split across two half-year allocations, and demand from resort and hospitality employers regularly pushes that cap to its limit &mdash; in fiscal year 2026, the government released a temporary allocation of over 64,000 additional visas across sectors that included hospitality, and even that expanded pool filled quickly. Employers post current temporary hospitality roles on the <a href="https://seasonaljobs.dol.gov/jobs" target="_blank" rel="noopener">U.S. Department of Labor's Seasonal Jobs portal</a>, which is a genuinely useful place to see real H-2B postings rather than recycled aggregator listings.</p>
@@ -184,6 +190,24 @@ JOBHTML;
 <h2>What Roles Are Typically Sponsored</h2>
 
 <p>Real postings from hotel groups (High Hotels, Marriott-branded properties, and independent resorts) show the pattern clearly: seasonal and year-round openings for room attendants/housekeepers, breakfast attendants, guest services representatives, and back-of-house kitchen roles like dishwashers are the volume hires &mdash; and dishwasher and housekeeping roles are among the most common H-2B-eligible positions at resort hotels. For example, a mountain-resort hotel in Colorado recently advertised an H-2B dishwasher role at <strong>$20.53 an hour</strong> plus resort discounts and employee meals &mdash; a useful real-world reference point, though pay like this varies heavily by location and cost of living.</p>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/hotel-jobs-in-usa-hotel-team.jpg"
+         alt="Front desk, kitchen and porter roles in a US hotel"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
+<h2>Restaurant and Food Service Roles Inside Hotels</h2>
+
+<p>Searches for restaurant jobs in the USA with visa sponsorship land in almost the same place as hotel searches, because most hotels run their own dining rooms, bars and banquet operations. Line cooks, dishwashers, servers, bussers and bartenders at a hotel property are sponsored through the same H-2B route as housekeeping, and they appear on the same employer petitions.</p>
+
+<p>Two practical differences are worth knowing. Back-of-house roles &mdash; dishwasher, prep, line cook &mdash; are the easier ones to be hired into from abroad, because they screen on reliability rather than on spoken English. Front-of-house roles that carry tips, such as server and bartender, are more likely to go to local hires for exactly that reason, and tipped pay makes the advertised hourly rate a poor guide to actual earnings. Ask what the tipped and non-tipped hours look like before comparing an offer to a flat-rate kitchen job.</p>
+
+<h2>Applying as a UK, Irish or EU National</h2>
+
+<p>There is no separate hospitality visa for UK or EU citizens &mdash; the same H-2B, J-1 and H-1B routes apply, on the same terms as for any other nationality. What does differ is which route tends to fit: the J-1 exchange route is the one most used by younger UK and EU applicants, because the designated sponsor organisations that run it place trainees into structured hotel programmes lasting roughly twelve to eighteen months.</p>
+
+<p>One caution specific to this group. Because the J-1 runs through designated sponsor organisations rather than employer petitions, there is a real market of intermediaries around it. Confirm that the programme sponsor appears on the US State Department's list of designated sponsors before paying any programme fee &mdash; a programme fee to a designated sponsor is a normal part of J-1, which is exactly why impostors exist.</p>
 
 <h2>Hotel Jobs in USA for Foreigners: Salary Expectations</h2>
 

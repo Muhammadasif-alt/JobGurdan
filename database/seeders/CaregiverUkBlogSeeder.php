@@ -56,7 +56,7 @@ class CaregiverUkBlogSeeder extends Seeder
                 'excerpt' => 'The overseas care worker route closed on 22 July 2025 — here is who is still covered, which pathways stay open, real UK care salaries, and how to spot the recruiters still selling a visa that no longer exists.',
                 'content' => $content,
                 'featured_image' => 'blogs/caregiver-jobs-in-uk-visa-sponsorship.jpg',
-                'tags' => 'caregiver jobs uk, uk visa sponsorship, health and care worker visa, care assistant jobs, support worker jobs, jobs for foreigners, uk care salary',
+                'tags' => 'caregiver jobs uk, care jobs uk with visa sponsorship, uk visa sponsorship, health and care worker visa, care assistant jobs, nhs care assistant jobs, domiciliary care jobs, live in care jobs, tier 2 sponsorship care jobs, support worker jobs, jobs for foreigners, uk care salary',
                 'meta_title' => 'Caregiver Jobs in UK with Visa Sponsorship (2026 Update)',
                 'meta_description' => 'The UK closed overseas care worker sponsorship in July 2025. Who is still covered, which routes remain open, real salaries, and how to avoid visa scams.',
                 'reading_time' => max(1, (int) ceil(str_word_count(strip_tags($content)) / 200)),
@@ -195,6 +195,46 @@ JOBHTML;
     <li><strong>If you're already in the UK on a Health and Care Worker visa</strong>, you can switch employers within the sector under the transitional rules through 2028.</li>
     <li>Roles outside the closed occupation codes &mdash; nursing, allied health, and some senior clinical/managerial care positions &mdash; may still qualify for sponsorship under the broader Skilled Worker or Health and Care Worker routes, depending on salary and occupation code eligibility.</li>
 </ul>
+
+<h2>Care Jobs in the UK by Setting: NHS, Domiciliary, Live-In and Residential</h2>
+
+<p>&quot;Care jobs&quot; covers four quite different working lives, and the closure lands on all of them the same way &mdash; none can be sponsored from overseas in the care worker codes. What differs is the work itself, and that matters if you are already eligible to apply.</p>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/caregiver-jobs-in-uk-visa-sponsorship-settings.jpg"
+         alt="Care jobs in the UK across NHS, domiciliary, live-in and residential settings"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
+<ul>
+    <li><strong>NHS and NHS-affiliated care assistant roles</strong> &mdash; supporting patients with daily living, mobility and basic observations under registered nursing supervision, on a ward or in the community. These are posted through NHS trust recruitment systems rather than general job boards, so check trust vacancy pages directly. Note that a healthcare assistant post inside the NHS is still a care worker occupation code for immigration purposes; being NHS does not reopen overseas sponsorship.</li>
+    <li><strong>Domiciliary care</strong> &mdash; also called home care. You travel between clients&rsquo; own homes providing personal care, medication support and companionship. Rotas are split across the day and travel time between calls is a real part of the job; check whether it is paid, because it legally should be.</li>
+    <li><strong>Live-in care</strong> &mdash; you reside with the client, usually on a rotation such as two weeks on and two weeks off, providing continuous support rather than scheduled visits. Accommodation and food come with the placement, which offsets living costs. Ask specifically how many hours are working hours and what the break arrangement is, because that is where live-in contracts differ most.</li>
+    <li><strong>Residential and nursing homes</strong> &mdash; shift work in one building, with a team around you. Usually the most structured induction for someone new to care.</li>
+</ul>
+
+<h3>What happened to &quot;Tier 2 sponsorship&quot;?</h3>
+
+<p>Plenty of listings and agency pages still say &quot;Tier 2 sponsorship care jobs&quot;. Tier 2 (General) was replaced by the <strong>Skilled Worker</strong> route in December 2020, and health and care roles moved to the <strong>Health and Care Worker</strong> visa within it. The phrase survives out of habit, so it is worth searching both terms &mdash; but a page still using it as current terminology in 2026 is usually not maintaining its information, which is a reason to check anything else it tells you.</p>
+
+<h2>How to Check an Employer Is Actually a Licensed Sponsor</h2>
+
+<p>This is the single most useful ten minutes you can spend, and it is free. The Home Office publishes a <strong>register of licensed sponsors</strong> on gov.uk listing every organisation permitted to sponsor a worker. If a company is not on it, it cannot issue you a Certificate of Sponsorship, whatever it says.</p>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/caregiver-jobs-in-uk-visa-sponsorship-checking.jpg"
+         alt="Checking a UK employer on the register of licensed sponsors before applying"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
+<ol>
+    <li><strong>Search the register by the employer&rsquo;s exact legal name</strong>, not its trading name &mdash; they often differ, and a near-match is not a match.</li>
+    <li><strong>Check the route it is licensed for.</strong> A licence for Skilled Worker does not mean it can sponsor a care worker from overseas; that occupation code is closed regardless of licence.</li>
+    <li><strong>Check the rating.</strong> Sponsors appear with a rating, and licences do get revoked &mdash; a large number in the care sector were.</li>
+    <li><strong>Be aware that being on the register proves capability, not intent.</strong> A licensed sponsor may still have no sponsored vacancy for you, and it is not permitted to sponsor a closed occupation code either way.</li>
+</ol>
+
+<p>One rule sits above all of this: <strong>charging a worker for sponsorship is illegal in the UK</strong>. Any request for a fee to secure a Certificate of Sponsorship, a job offer, or a &quot;visa processing&quot; payment to an individual is unlawful and is the clearest sign you are being defrauded.</p>
 
 <h2>Avoiding Recruitment Scams</h2>
 
