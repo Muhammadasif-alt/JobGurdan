@@ -207,10 +207,10 @@ JOBHTML;
 
 <ul>
     <li><strong>Web and digital interface designers</strong> &mdash; BLS counts these separately from web developers, at a <strong>$104,000 median</strong>, with the top tenth above <strong>$201,550</strong>. This is the UI/UX and design-systems direction.</li>
-    <li><strong>Software developers</strong> &mdash; a <strong>$132,684 median</strong> and projected <strong>10 per cent growth</strong> to 2035. This is the applications and systems direction, and the usual route is backend depth: data modelling, testing, architecture, scale.</li>
+    <li><strong>Software developers</strong> &mdash; a <strong>$135,980 median</strong> and projected <strong>10 per cent growth</strong> to 2035. This is the applications and systems direction, and the usual route is backend depth: data modelling, testing, architecture, scale.</li>
 </ul>
 
-<p>You do not have to pick on day one. But knowing that roughly $40,000 of median separates a web developer from a software developer should shape what you learn in year two, rather than being discovered in year six.</p>
+<p>You do not have to pick on day one. But knowing that roughly $43,000 of median separates a web developer from a software developer should shape what you learn in year two, rather than being discovered in year six.</p>
 
 <h2>Web Developer Jobs for Freshers</h2>
 
@@ -291,7 +291,7 @@ JOBHTML;
 <p>Not currently. The September 2025 proclamation imposed it on certain petitions, but a Massachusetts federal court vacated the implementing guidance on 8 June 2026 and the First Circuit denied a stay on 24 July 2026, so USCIS is not enforcing it while DHS considers next steps. It is active litigation, so verify the current position with USCIS before relying on it.</p>
 
 <h3>What should I learn after landing a junior role?</h3>
-<p>Backend depth if you want the software developer band, which BLS puts at a $132,684 median with 10 per cent projected growth. Design systems and accessibility if you want the digital interface designer band at a $104,000 median. Both are reachable from a web developer role within a few years.</p>
+<p>Backend depth if you want the software developer band, which BLS puts at a $135,980 median with 10 per cent projected growth. Design systems and accessibility if you want the digital interface designer band at a $104,000 median. Both are reachable from a web developer role within a few years.</p>
 
 <h2>People Also Search For</h2>
 
@@ -317,7 +317,7 @@ JOBHTML;
 <p>Capped at 65,000 plus 20,000 for US advanced degree holders, allocated by lottery, with the FY2027 caps already reached. Check current USCIS guidance on the contested $100,000 payment.</p>
 
 <h3>Web developer vs software developer salary</h3>
-<p>About $40,000 of median separates them &mdash; $92,650 against $132,684 &mdash; with software development also projected to grow twice as fast.</p>
+<p>About $43,000 of median separates them &mdash; $92,650 against $135,980 &mdash; with software development also projected to grow twice as fast.</p>
 
 <h2>More Job Guides</h2>
 
@@ -326,6 +326,7 @@ JOBHTML;
 <ul>
     <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; the neighbouring creative field, and why its projection points the other way.</li>
     <li><a href="/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern">Senior Frontend Developer &mdash; React and Next.js, Lahore</a> &mdash; a live development vacancy with a defined stack.</li>
+    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; the step up: a $135,980 median, twice the growth, and the full visa picture.</li>
     <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a> &mdash; the widest door into digital work, with roughly six times the annual openings.</li>
     <li><a href="/blog/ai-content-writer-jobs-in-usa">AI Content Writer Jobs in USA</a> &mdash; how AI is reshaping adjacent digital work.</li>
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; how international remote work and payment routes actually operate.</li>

@@ -64,7 +64,9 @@ it('names the two better-paid occupations reachable from the role', function () 
 
     $response->assertSee('$104,000')
         ->assertSee('$201,550')
-        ->assertSee('$132,684');
+        // The BLS Occupational Outlook Handbook figure, matching the software
+        // developer guide; an earlier draft quoted a third-party OEWS number.
+        ->assertSee('$135,980');
 });
 
 it('corrects the claim that Toptal is a bidding marketplace', function () {

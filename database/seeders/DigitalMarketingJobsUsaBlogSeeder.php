@@ -329,6 +329,7 @@ JOBHTML;
 
 <ul>
     <li><a href="/blog/digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan">Digital Marketing Expert (SEO) &mdash; Remote, Pakistan</a> &mdash; a live vacancy showing what one of these roles asks for in practice.</li>
+    <li><a href="/blog/social-media-manager-jobs-in-usa">Social Media Manager Jobs in USA</a> &mdash; the social specialism, and the FTC rules on how you may grow an account.</li>
     <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the technical path, its pay bands and its work authorisation rules.</li>
     <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; the creative path, and why its projection points the other way.</li>
     <li><a href="/blog/ai-content-writer-jobs-in-usa">AI Content Writer Jobs in USA</a> &mdash; the content side of the same market.</li>
