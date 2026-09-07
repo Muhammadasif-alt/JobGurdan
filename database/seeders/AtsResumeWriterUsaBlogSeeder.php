@@ -291,6 +291,7 @@ JOBHTML;
 <p>Looking at the rest of the remote writing and support market? These cover it:</p>
 
 <ul>
+    <li><a href="/blog/ats-resume-writer-jobs-in-canada">ATS Resume Writer Jobs in Canada</a> &mdash; the Canadian market, where the credential, the pay data and the tax treatment are all different.</li>
     <li><a href="/blog/ai-content-writer-jobs-in-usa">AI Content Writer Jobs in USA</a> &mdash; the other fast-growing remote writing category, and what employers actually screen for.</li>
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; how international remote work and payment routes actually operate.</li>
     <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; the largest entry-level remote category, and the scam patterns that come with it.</li>
