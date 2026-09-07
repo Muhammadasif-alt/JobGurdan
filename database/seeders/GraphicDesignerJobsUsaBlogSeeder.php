@@ -207,7 +207,7 @@ JOBHTML;
 
 <p>Here is the part worth acting on. BLS counts <strong>web developers and digital designers</strong> as a separate occupation from graphic designers, and it is projected to <strong>grow 5 per cent from 2025 to 2035</strong>, faster than the average across all occupations, with a <strong>median wage of $92,650</strong>.</p>
 
-<p>Same broad craft, adjacent skill set, roughly $30,000 more at the median and an outlook pointing the other way. That is why "pick up some UI/UX" is not the optional extra most guides treat it as. Learning Figma properly, understanding design systems and components, grasping responsive layout and accessibility basics, and being able to hand off to developers cleanly moves you toward the growing occupation without abandoning what you already know. If you are early in your career and choosing what to learn next, the published numbers make this the highest-return decision available to you.</p>
+<p>Same broad craft, adjacent skill set, roughly $30,000 more at the median and an outlook pointing the other way. That is why "pick up some UI/UX" is not the optional extra most guides treat it as. Learning Figma properly, understanding design systems and components, grasping responsive layout and accessibility basics, and being able to hand off to developers cleanly moves you toward the growing occupation without abandoning what you already know. If you are early in your career and choosing what to learn next, the published numbers make this the highest-return decision available to you. Our <a href="/blog/web-developer-jobs-in-usa">guide to web developer jobs in the USA</a> covers that occupation in full, including what the step up actually pays.</p>
 
 <h2>Graphic Designer Jobs for Freshers</h2>
 
@@ -324,6 +324,7 @@ JOBHTML;
 <p>Looking across the rest of the remote and creative market? These cover it:</p>
 
 <ul>
+    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the adjacent occupation the projection actually favours, and what it pays.</li>
     <li><a href="/blog/ai-content-writer-jobs-in-usa">AI Content Writer Jobs in USA</a> &mdash; how the same AI pressure is reshaping paid writing, and which parts are holding.</li>
     <li><a href="/blog/ats-resume-writer-jobs-in-usa">ATS Resume Writer Jobs in USA</a> &mdash; another portfolio-led remote career, and how applicant tracking systems really screen.</li>
     <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; one of the largest categories of genuinely remote hiring.</li>
