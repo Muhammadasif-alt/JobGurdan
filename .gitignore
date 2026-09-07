@@ -27,3 +27,7 @@ Thumbs.db
 /.claude/settings.local.json
 .env.local
 .env.testing
+
+# Raw blog image drops: copied into storage/app/public/blogs and pushed to the
+# server from there, so the originals do not belong in the repo.
+/public/public
