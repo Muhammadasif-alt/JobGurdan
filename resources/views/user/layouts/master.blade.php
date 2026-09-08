@@ -1420,9 +1420,15 @@
         <!-- Footer — ManageWP-inspired dark navy with blue glow -->
         <style>
             /* === Footer: dark navy gradient with subtle blue radial glow === */
+            /* Brand blue over a photograph of people at work, the way the
+               reference footer reads: the image is texture, not subject, so it
+               sits under a near-opaque gradient and is shipped at 1280px. */
             #footer {
-                background: linear-gradient(135deg, #0a1828 0%, #061224 55%, #050b18 100%) !important;
-                color: #b0c0d0 !important;
+                background:
+                    linear-gradient(135deg, rgba(47,127,201,.93) 0%, rgba(31,74,133,.96) 55%, rgba(21,45,84,.97) 100%),
+                    url('{{ asset('public/user/images/footer-photo-bg.jpg') }}') center / cover no-repeat,
+                    #1b3a6b !important;
+                color: #dbe8f7 !important;
                 padding: 0 !important;
                 margin: 0 !important;
                 position: relative !important;
@@ -1433,7 +1439,7 @@
                 position: absolute;
                 top: -100px; left: -100px;
                 width: 720px; height: 480px;
-                background: radial-gradient(ellipse at top left, rgba(64,145,255,.22) 0%, rgba(64,145,255,.08) 30%, transparent 65%);
+                background: radial-gradient(ellipse at top left, rgba(255,255,255,.16) 0%, rgba(255,255,255,.05) 32%, transparent 66%);
                 pointer-events: none;
                 z-index: 0;
             }
@@ -1456,22 +1462,22 @@
                 opacity: 1;
             }
             #footer .utf-footer-item-links p {
-                color: #8a9bb0 !important;
+                color: #cfe0f3 !important;
                 font-size: 14.5px !important;
                 line-height: 1.75 !important;
                 margin: 0 0 18px !important;
                 max-width: 400px;
             }
             #footer .utf-footer-item-links p a {
-                color: #c8d6e8 !important;
+                color: #eaf3fd !important;
                 text-decoration: none;
                 transition: color .15s ease;
             }
-            #footer .utf-footer-item-links p a:hover { color: #4d9eff !important; }
+            #footer .utf-footer-item-links p a:hover { color: #ffffff !important; }
 
             /* Section headings — bright blue ManageWP style */
             #footer .utf-footer-item-links h3 {
-                color: #3182ce !important;
+                color: #ffffff !important;
                 font-size: 14px !important;
                 font-weight: 700 !important;
                 text-transform: uppercase !important;
@@ -1496,7 +1502,7 @@
                 background: none !important;
             }
             #footer .utf-footer-item-links ul li a {
-                color: #c8d6e8 !important;
+                color: #eaf3fd !important;
                 font-size: 14.5px !important;
                 font-weight: 400 !important;
                 line-height: 1 !important;
@@ -1513,7 +1519,7 @@
                 background: none !important;
             }
             #footer .utf-footer-item-links ul li a:hover {
-                color: #4d9eff !important;
+                color: #ffffff !important;
                 transform: translateX(2px);
             }
             #footer .utf-footer-item-links ul li::before { display: none !important; }
@@ -1521,8 +1527,8 @@
             /* Hub link — promotes the "All Categories" / "All Locations" landing pages */
             #footer .utf-footer-item-links ul li a.footer-hub-link {
                 color: #fff !important;
-                background: rgba(77,158,255,.12) !important;
-                border: 1px solid rgba(77,158,255,.30) !important;
+                background: rgba(255,255,255,.14) !important;
+                border: 1px solid rgba(255,255,255,.32) !important;
                 border-radius: 8px;
                 padding: 9px 12px !important;
                 margin-bottom: 10px;
@@ -1533,13 +1539,13 @@
             #footer .utf-footer-item-links ul li a.footer-hub-link i {
                 display: inline-block !important;
                 font-size: 14px !important;
-                color: #4d9eff !important;
+                color: #ffffff !important;
                 margin-right: 4px;
             }
             #footer .utf-footer-item-links ul li a.footer-hub-link span strong { color: #fff !important; font-weight: 600 !important; }
             #footer .utf-footer-item-links ul li a.footer-hub-link:hover {
                 background: rgba(77,158,255,.22) !important;
-                border-color: rgba(77,158,255,.55) !important;
+                border-color: rgba(255,255,255,.70) !important;
                 transform: translateX(2px);
                 color: #fff !important;
             }
@@ -1548,17 +1554,17 @@
             /* Copyright bar */
             #footer .utf-footer-copyright-item {
                 background: transparent !important;
-                border-top: 1px solid rgba(64,145,255,.12) !important;
+                border-top: 1px solid rgba(255,255,255,.18) !important;
                 margin-top: 70px !important;
                 padding: 26px 0 !important;
-                color: #6b7d92 !important;
+                color: #b8cee8 !important;
                 font-size: 13.5px !important;
                 text-align: center;
             }
             #footer .utf-footer-copyright-item .container-fluid { padding: 0 60px !important; }
             #footer .utf-footer-copyright-item .row,
             #footer .utf-footer-copyright-item .col-xl-12 {
-                color: #6b7d92 !important;
+                color: #b8cee8 !important;
                 text-align: center !important;
             }
 
@@ -1569,13 +1575,19 @@
             }
 
             /* === Dark mode — match site bg + brand orange (replaces navy blue look) === */
+            /* Same photograph and the same brand hues as the light footer, but
+               taken far darker so it settles against the dark page instead of
+               glowing at the bottom of it. */
             html.dark-mode #footer {
-                background: var(--site-bg) !important;
+                background:
+                    linear-gradient(135deg, rgba(18,42,78,.95) 0%, rgba(12,28,54,.97) 55%, rgba(8,18,36,.98) 100%),
+                    url('{{ asset('public/user/images/footer-photo-bg.jpg') }}') center / cover no-repeat,
+                    var(--site-bg) !important;
                 color: var(--site-text) !important;
                 border-top: 1px solid var(--site-card-bd);
             }
             html.dark-mode #footer::before {
-                background: radial-gradient(ellipse at top left, rgba(27, 58, 107,.14) 0%, rgba(27, 58, 107,.05) 30%, transparent 65%) !important;
+                background: radial-gradient(ellipse at top left, rgba(143, 196, 240,.10) 0%, rgba(143, 196, 240,.04) 32%, transparent 66%) !important;
             }
             /* Section headings across the site highlight part of the line with a
                gradient that runs blue -> #1b3a6b -> orange. On white that reads
@@ -1595,21 +1607,21 @@
                 -webkit-background-clip: border-box !important;
                 background-clip: border-box !important;
                 -webkit-text-fill-color: currentColor !important;
-                color: #3182ce !important;
+                color: #ffffff !important;
             }
 
-            html.dark-mode #footer .utf-footer-item-links h3 { color: #3182ce !important; }
-            html.dark-mode #footer .utf-footer-item-links p { color: #cbd5e1 !important; }
-            html.dark-mode #footer .utf-footer-item-links p a { color: #e5e7eb !important; }
-            html.dark-mode #footer .utf-footer-item-links p a:hover { color: #3182ce !important; }
-            html.dark-mode #footer .utf-footer-item-links ul li a { color: #cbd5e1 !important; }
-            html.dark-mode #footer .utf-footer-item-links ul li a:hover { color: #3182ce !important; }
+            html.dark-mode #footer .utf-footer-item-links h3 { color: #ffffff !important; }
+            html.dark-mode #footer .utf-footer-item-links p { color: #e4eefb !important; }
+            html.dark-mode #footer .utf-footer-item-links p a { color: #f2f7fd !important; }
+            html.dark-mode #footer .utf-footer-item-links p a:hover { color: #ffffff !important; }
+            html.dark-mode #footer .utf-footer-item-links ul li a { color: #e4eefb !important; }
+            html.dark-mode #footer .utf-footer-item-links ul li a:hover { color: #ffffff !important; }
             html.dark-mode #footer .utf-footer-item-links ul li a i { color: var(--site-muted) !important; }
-            html.dark-mode #footer .utf-footer-item-links ul li a:hover i { color: #3182ce !important; }
+            html.dark-mode #footer .utf-footer-item-links ul li a:hover i { color: #ffffff !important; }
             html.dark-mode #footer .footer-hub-link {
                 background: rgba(49, 130, 206,.10) !important;
-                border-color: rgba(49, 130, 206,.30) !important;
-                color: #3182ce !important;
+                border-color: rgba(255,255,255,.32) !important;
+                color: #ffffff !important;
             }
             html.dark-mode #footer .footer-hub-link:hover {
                 background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
