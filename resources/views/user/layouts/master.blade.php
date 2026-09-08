@@ -1607,7 +1607,7 @@
                 -webkit-background-clip: border-box !important;
                 background-clip: border-box !important;
                 -webkit-text-fill-color: currentColor !important;
-                color: #ffffff !important;
+                color: #3182ce !important;
             }
 
             html.dark-mode #footer .utf-footer-item-links h3 { color: #ffffff !important; }
