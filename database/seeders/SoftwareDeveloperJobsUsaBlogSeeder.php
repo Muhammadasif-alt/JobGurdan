@@ -300,6 +300,7 @@ JOBHTML;
 <ul>
     <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the adjacent occupation, its pay distribution and how to move between the two.</li>
     <li><a href="/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern">Senior Frontend Developer &mdash; React and Next.js, Lahore</a> &mdash; a live engineering vacancy with a defined stack.</li>
+    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; the title that spans this occupation and web development, and how to tell which one a posting is.</li>
     <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a> &mdash; the non-technical digital path, with the most annual openings.</li>
     <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; the creative side of the same product teams.</li>
 </ul>

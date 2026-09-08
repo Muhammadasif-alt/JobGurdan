@@ -135,7 +135,10 @@ it('links to and from the graphic designer guide it is the counterpart to', func
 
     get('/blog/'.WEBDEV_SLUG)->assertOk()
         ->assertSee('/blog/graphic-designer-jobs-in-usa', false)
-        ->assertSee('/blog/ai-content-writer-jobs-in-usa', false)
+        // The two weaker cross-discipline links were swapped for the engineering
+        // siblings once those guides existed.
+        ->assertSee('/blog/front-end-developer-jobs-in-usa', false)
+        ->assertSee('/blog/full-stack-developer-jobs-in-usa', false)
         ->assertSee('/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern', false);
 
     get('/blog/graphic-designer-jobs-in-usa')->assertOk()
