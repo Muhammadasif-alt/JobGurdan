@@ -322,6 +322,7 @@ JOBHTML;
     <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a> &mdash; the discipline copy sits inside, and the one with roughly seven times the annual openings.</li>
     <li><a href="/blog/ats-resume-writer-jobs-in-usa">ATS Resume Writer Jobs in USA</a> &mdash; another writing niche with steadier, year-round demand.</li>
     <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; the visual half of the same campaigns, facing the same pressure.</li>
+    <li><a href="/blog/content-writer-jobs-in-usa">Content Writer Jobs in USA</a> &mdash; the content side of the same occupation, and the attribution trap that leaves writers with no portfolio.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage data, employment projections, advertising rules and copyright law change, and contract terms vary &mdash; confirm the current position with the Bureau of Labor Statistics, the IRS, the FTC, a qualified adviser and the employer's own advertisement before applying or signing anything.</p>
