@@ -188,7 +188,7 @@
         margin: 0 0 14px;
     }
     .js-faq-head h2 .accent {
-        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
+        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #4a90d9);
         -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
     }
     .js-faq-head p { color: #555; font-size: 16px; line-height: 1.65; margin: 0 0 22px; }
@@ -304,7 +304,7 @@
         margin: 0 0 16px;
     }
     .js-spotlight-content h2 .accent {
-        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
+        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #4a90d9);
         -webkit-background-clip: text; background-clip: text;
         -webkit-text-fill-color: transparent; color: transparent;
     }
@@ -646,7 +646,7 @@
     color: #1b3a6b; line-height: 1.15; letter-spacing: -.6px; margin: 0 0 12px;
 }
 .jsk-section-head h2 .accent {
-    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
+    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #4a90d9);
     -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
 .jsk-section-head p { color: #555; font-size: 16px; line-height: 1.65; margin: 0; }
@@ -698,7 +698,7 @@
     line-height: 1.15; letter-spacing: -.6px; margin: 0 0 16px;
 }
 .jsk-seo-content h2 .accent {
-    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
+    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #4a90d9);
     -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
 .jsk-seo-lead { color: #16305a; font-size: 16px; line-height: 1.65; margin: 0 0 14px; font-weight: 500; }

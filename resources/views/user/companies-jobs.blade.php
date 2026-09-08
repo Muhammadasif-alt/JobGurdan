@@ -75,7 +75,7 @@
         position: relative; z-index: 2;
     }
     .utf-page-heading-area h1 .accent {
-        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
+        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #4a90d9);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -488,7 +488,7 @@
     margin: 0 0 12px;
 }
 .cj-section-head h2 .accent {
-    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
+    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #4a90d9);
     -webkit-background-clip: text; background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -572,7 +572,7 @@
     margin: 0 0 16px;
 }
 .cj-seo-content h2 .accent {
-    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
+    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #4a90d9);
     -webkit-background-clip: text; background-clip: text;
     -webkit-text-fill-color: transparent;
 }

@@ -46,7 +46,7 @@
         margin-left: auto; margin-right: auto;
     }
     .contact-page-hero h1 .accent {
-        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
+        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #4a90d9);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;

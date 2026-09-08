@@ -330,6 +330,8 @@ JOBHTML;
     <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a> &mdash; the widest door into digital work, with roughly six times the annual openings.</li>
     <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a> &mdash; the same occupation from the interface side, and the two measurable skills that move you up its band.</li>
     <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; which of the two pay bands that title is actually hiding.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the library behind most of this occupation now, and which React work is commodity-priced.</li>
+    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the same title across three occupations, from $92,650 to $135,980.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or immigration advice. Wage data, employment projections, platform fees and immigration rules change &mdash; and the H-1B payment described above is subject to ongoing litigation. Confirm the current position with the Bureau of Labor Statistics, the IRS, USCIS and the employer's own advertisement before applying or paying any fee.</p>

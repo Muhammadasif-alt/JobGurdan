@@ -574,7 +574,7 @@
         margin: 0 0 14px;
     }
     .contact-faq-head h2 .accent {
-        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
+        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #4a90d9);
         -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
     }
     .contact-faq-head p { color: #555; font-size: 16px; line-height: 1.65; margin: 0 0 22px; }

@@ -673,7 +673,7 @@
     margin: 0 0 12px;
 }
 .emp-section-head h2 .accent {
-    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
+    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #4a90d9);
     -webkit-background-clip: text; background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -715,7 +715,7 @@
     line-height: 1.15; letter-spacing: -.6px; margin: 0 0 16px;
 }
 .emp-seo-content h2 .accent {
-    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40);
+    background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #4a90d9);
     -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
 .emp-seo-lead { color: #16305a; font-size: 16px; line-height: 1.65; margin: 0 0 14px; font-weight: 500; }

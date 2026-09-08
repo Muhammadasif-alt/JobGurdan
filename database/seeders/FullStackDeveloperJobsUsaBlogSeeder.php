@@ -318,6 +318,9 @@ JOBHTML;
     <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; the higher band, plus the H-1B lottery and the cap-exempt employers that skip it.</li>
     <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the other band, its distribution and how to move up from it.</li>
     <li><a href="/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern">Senior Frontend Developer &mdash; React and Next.js, Lahore</a> &mdash; a live MERN vacancy with a defined stack.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the front half of most full stack roles, and the toolchain that dates a portfolio.</li>
+    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; one common back half, across three occupations.</li>
+    <li><a href="/blog/java-developer-jobs-in-usa">Java Developer Jobs in USA</a> &mdash; the other, and the contract structures behind its market.</li>
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs with No Experience</a> &mdash; how international remote work and cross-border payment routes actually operate.</li>
 </ul>
 
