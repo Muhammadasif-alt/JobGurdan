@@ -1350,7 +1350,7 @@
                             </a>
                         </div>
                         <div class="cta-stats">
-                            <div class="stat"><strong>3</strong><span>Countries</span></div>
+                            <div class="stat"><strong>{{ $coverage->count() }}</strong><span>Countries</span></div>
                             <div class="stat"><strong>Weekly</strong><span>New Jobs</span></div>
                             <div class="stat"><strong>No</strong><span>Sign-Up</span></div>
                             <div class="stat"><strong>100%</strong><span>Free</span></div>
@@ -1521,6 +1521,27 @@
             html.dark-mode #footer::before {
                 background: radial-gradient(ellipse at top left, rgba(27, 58, 107,.14) 0%, rgba(27, 58, 107,.05) 30%, transparent 65%) !important;
             }
+            /* Section headings across the site highlight part of the line with a
+               gradient that runs blue -> #1b3a6b -> orange. On white that reads
+               fine. On the dark background the #1b3a6b midpoint is almost the
+               background colour, so the middle of the phrase disappears and the
+               orange tail reads as muddy brown. Paint these the flat blue the
+               home page already uses for the same job. */
+            html.dark-mode h1 .accent,
+            html.dark-mode h2 .accent,
+            html.dark-mode h3 .accent,
+            html.dark-mode .err-code .accent,
+            html.dark-mode .benefits-head h2 span,
+            html.dark-mode .story-content h2 span,
+            html.dark-mode .about-hero h1 span {
+                background: none !important;
+                background-image: none !important;
+                -webkit-background-clip: border-box !important;
+                background-clip: border-box !important;
+                -webkit-text-fill-color: currentColor !important;
+                color: #3182ce !important;
+            }
+
             html.dark-mode #footer .utf-footer-item-links h3 { color: #3182ce !important; }
             html.dark-mode #footer .utf-footer-item-links p { color: #cbd5e1 !important; }
             html.dark-mode #footer .utf-footer-item-links p a { color: #e5e7eb !important; }

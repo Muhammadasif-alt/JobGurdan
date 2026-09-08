@@ -444,7 +444,7 @@
 <section class="cj-stats-section">
     <div class="container">
         <div class="cj-stats-grid">
-            <div class="cj-stat"><strong>3</strong><span>Countries</span></div>
+            <div class="cj-stat"><strong>{{ $coverage->count() }}</strong><span>Countries</span></div>
             <div class="cj-stat"><strong>Weekly</strong><span>New Jobs</span></div>
             <div class="cj-stat"><strong>50</strong><span>U.S. States</span></div>
             <div class="cj-stat"><strong>100%</strong><span>Free for Seekers</span></div>

@@ -978,11 +978,12 @@
     html.dark-mode .benefits-head h2 span,
     html.dark-mode .story-content h2 span,
     html.dark-mode .about-hero h1 span {
-        background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40) !important;
-        -webkit-background-clip: text !important;
-        background-clip: text !important;
-        -webkit-text-fill-color: transparent !important;
-        color: transparent !important;
+        background: none !important;
+        background-image: none !important;
+        -webkit-background-clip: border-box !important;
+        background-clip: border-box !important;
+        -webkit-text-fill-color: currentColor !important;
+        color: #3182ce !important;
     }
 
     /* ===== Dark mode: "Find Your Next Role" hero button → orange ===== */
@@ -1597,11 +1598,12 @@
         html.dark-mode .about-page .about-hero h1 span,
         html.dark-mode .about-page h1 .accent,
         html.dark-mode .about-page h2 .accent {
-            background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #ffab40) !important;
-            -webkit-background-clip: text !important;
-            background-clip: text !important;
-            -webkit-text-fill-color: transparent !important;
-            color: transparent !important;
+            background: none !important;
+            background-image: none !important;
+            -webkit-background-clip: border-box !important;
+            background-clip: border-box !important;
+            -webkit-text-fill-color: currentColor !important;
+            color: #3182ce !important;
         }
 
         /* "Find Your Next Role" hero CTA → orange gradient */

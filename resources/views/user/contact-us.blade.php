@@ -791,7 +791,7 @@
             </div>
             <div class="map-stats">
                 <div class="map-stat"><strong>Weekly</strong><span>New jobs &amp; guides</span></div>
-                <div class="map-stat"><strong>3</strong><span>Countries covered</span></div>
+                <div class="map-stat"><strong>{{ $coverage->count() }}</strong><span>Countries covered</span></div>
                 <div class="map-stat"><strong>100%</strong><span>Free to apply</span></div>
                 <div class="map-stat"><strong>24h</strong><span>Response time</span></div>
             </div>

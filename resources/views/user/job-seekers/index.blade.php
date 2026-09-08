@@ -566,7 +566,7 @@
                 <p>We would rather state what is true than quote numbers we cannot stand behind.</p>
             </header>
             <div class="jsk-trust-grid">
-                <div class="jsk-trust-stat"><strong>3</strong><span>Countries Covered</span></div>
+                <div class="jsk-trust-stat"><strong>{{ $coverage->count() }}</strong><span>Countries Covered</span></div>
                 <div class="jsk-trust-stat"><strong>Weekly</strong><span>New Jobs &amp; Guides</span></div>
                 <div class="jsk-trust-stat"><strong>Opt-In</strong><span>Profiles Only</span></div>
                 <div class="jsk-trust-stat"><strong>No Fee</strong><span>Either Side</span></div>
@@ -731,8 +731,10 @@
 .jsk-trust-stat strong {
     display: block; font-size: clamp(28px, 3vw, 40px); font-weight: 800;
     letter-spacing: -.5px; margin-bottom: 6px;
-    background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
-    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+    /* This band is navy, and the gradient used to start on #1b3a6b — the same
+       colour as the background behind it — so the left of every figure was
+       invisible in both themes. Flat light blue reads against the band. */
+    color: #8fc4f0;
 }
 .jsk-trust-stat span {
     color: #cbd5e1; font-size: 11.5px;
@@ -829,9 +831,11 @@ html.dark-mode .js-faq-section {
 }
 html.dark-mode .js-faq-head h2 { color: #fff !important; }
 html.dark-mode .js-faq-head h2 .accent {
-    background: linear-gradient(90deg, #1b3a6b, #2f7fc9) !important;
-    -webkit-background-clip: text !important; background-clip: text !important;
-    -webkit-text-fill-color: transparent !important; color: transparent !important;
+    /* Started on #1b3a6b, which is near the dark background. Flat blue, as on
+       the home page. */
+    background: none !important; background-image: none !important;
+    -webkit-background-clip: border-box !important; background-clip: border-box !important;
+    -webkit-text-fill-color: currentColor !important; color: #3182ce !important;
 }
 html.dark-mode .js-faq-head p { color: var(--site-muted, #b8c0cc) !important; }
 html.dark-mode .js-faq-cta {

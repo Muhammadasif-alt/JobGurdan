@@ -636,7 +636,7 @@
             </div>
             @endif
             <div class="stat">
-                <strong>3</strong>
+                <strong>{{ $coverage->count() }}</strong>
                 <span>Countries Covered</span>
             </div>
             <div class="stat">
