@@ -10,12 +10,12 @@ use Illuminate\Support\Str;
 /**
  * Real, consenting candidates who asked to be listed in the public directory.
  *
- * Only facts we were actually given go in here: name, email, the city and
- * experience the candidate stated, and links they published themselves.
- * Headline, skills and bio are the candidate's to write — the accounts are
- * created without them, and each person completes their own profile after
- * signing in. Until they do, User::hasPublishableProfile() keeps the page
- * out of the search index.
+ * Only facts we were actually given go in here: the name, headline, skills
+ * and city each person publishes on their own LinkedIn profile, plus the
+ * experience they stated and the links they shared. Nothing is written for
+ * them. The bio is deliberately left empty because it is theirs to write,
+ * and any profile that falls below User::hasPublishableProfile() stays out
+ * of the search index until the candidate fills it in.
  *
  * No password is set here. Each candidate uses "Forgot password" with the
  * email below to claim their account.
@@ -27,35 +27,46 @@ class RealJobSeekersSeeder extends Seeder
      */
     public const SEEKERS = [
         [
-            'name' => 'Rana Asif Riyasat',
-            'username' => 'rana.asif',
+            // Name, headline, skills and city are as published on his own
+            // LinkedIn profile and banner, so they are his claims, not ours.
+            // The LinkedIn slug reads "rana", the display name and email read
+            // "rao"; the latter two agree, so "Rao" is used.
+            'name' => 'Rao Asif Riyasat',
+            'username' => 'rao.asif',
             'email' => 'raoasifriyasat@gmail.com',
+            'headline' => 'Full Stack Developer | MERN, Next.js, Elixir/Phoenix | WordPress & Shopify | AI Prompt Engineer | SEO & E-commerce | Serving USA, UK, Australia & Portugal',
+            'skills' => 'MERN Stack, React.js, Next.js, Node.js, MongoDB, Elixir/Phoenix, WordPress, Shopify, E-commerce, SEO, Web Design',
             'preferred_city' => 'Lahore, Pakistan',
             'experience_years' => 5,
-            'open_to' => 'Full-time',
+            // His banner reads "Open to Freelance & Client Projects Worldwide".
+            'open_to' => 'Contract',
             'links' => ['LinkedIn' => 'https://www.linkedin.com/in/ranaasifriyasat/'],
         ],
         [
-            'name' => 'Niaz Bhatti',
-            'username' => 'niaz.bhatti',
+            'name' => 'Muhammad Niaz',
+            'username' => 'muhammad.niaz',
             'email' => 'niazbhatti8750@gmail.com',
-            'preferred_city' => 'Islamabad, Pakistan',
+            'headline' => 'Full-Stack Developer | WordPress & Shopify Expert | SEO & Performance Optimization | Conversion-Focused Websites',
+            'skills' => 'WordPress, Shopify, Full-Stack Development, SEO, Performance Optimization, Conversion Optimization',
+            'preferred_city' => 'Lahore, Pakistan',
             'experience_years' => 4,
-            'open_to' => 'Full-time',
+            'open_to' => 'Any',
+            // His LinkedIn URL was not shared, only the profile itself; the
+            // portfolio site is the link we actually have.
             'links' => ['Portfolio' => 'https://developmentbyniaz.com'],
         ],
         [
             'name' => 'Abdullah Zaheer',
             'username' => 'abdullah.zaheer',
             'email' => 'workleadsgen@gmail.com',
-            'preferred_city' => 'Karachi, Pakistan',
+            'headline' => 'I fix your Upwork profile & proposals so clients actually reply | 100+ freelancers helped',
+            'skills' => 'Lead Generation, Upwork Profile Optimization, Proposal Writing, Client Acquisition',
+            'preferred_city' => 'Bahawalpur, Pakistan',
             'experience_years' => 3,
-            'open_to' => 'Full-time',
+            'open_to' => 'Any',
             'links' => ['LinkedIn' => 'https://www.linkedin.com/in/abdullah-zaheer-470496411/'],
         ],
         [
-            // Headline, employer, city and skills are as published on his own
-            // LinkedIn profile, so they are his claims rather than ours.
             'name' => 'Ali Akbar',
             'username' => 'ali.akbar',
             'email' => 'alibhatti5306@gmail.com',

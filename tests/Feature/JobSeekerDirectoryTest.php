@@ -110,10 +110,19 @@ it('seeds only consenting candidates, with no password and no invented detail', 
             ->and($user->email_verified_at)->toBeNull();
     }
 
-    // Only the candidate whose LinkedIn we could read has a headline and skills.
+    // Headline and skills are each person's own published LinkedIn wording,
+    // so every one of the four is complete enough to be indexed.
     expect(User::where('email', 'alibhatti5306@gmail.com')->value('headline'))
-        ->toBe('Technical SEO executive at IDEA Digital Advertising')
-        ->and(User::where('email', 'raoasifriyasat@gmail.com')->value('headline'))->toBeNull();
+        ->toBe('Technical SEO executive at IDEA Digital Advertising');
+
+    foreach ($seekers as $user) {
+        expect($user->hasPublishableProfile())->toBeTrue("thin profile: {$user->username}")
+            // The column is a varchar(191); MySQL would reject anything longer.
+            ->and(mb_strlen((string) $user->headline))->toBeLessThanOrEqual(191)
+            ->and(count($user->skillList()))->toBeGreaterThanOrEqual(4)
+            // The bio stays theirs to write.
+            ->and($user->bio)->toBeNull();
+    }
 });
 
 it('does not reset a password when the seeder runs a second time', function () {
