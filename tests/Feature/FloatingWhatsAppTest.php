@@ -25,21 +25,24 @@ it('renders nothing at all when no number is configured', function () {
         ->not->toContain('wa.me');
 });
 
-it('keeps clear of the back-to-top button', function () {
+it('stacks above the back-to-top arrow on the same centre line', function () {
     config(['site.whatsapp' => '923463035426']);
 
-    // #backtotop is fixed 25px in from the bottom right and only appears once
-    // you scroll, so sharing that corner would leave this button hovering
-    // over empty space half the time.
+    // #backtotop is 42px square and 25px in from the bottom right, so its
+    // centre line is 46px from the right edge and its top edge is at 67px.
+    // A 54px button at right: 19px shares that centre line, and bottom: 80px
+    // leaves 13px of air above it.
     $html = get('/')->assertOk()->getContent();
 
     $start = strpos($html, '.wa-float {');
     expect($start)->not->toBeFalse('floating button styles missing');
 
-    $css = substr($html, $start, 400);
-
-    expect($css)->toContain('position: fixed; left: 25px; bottom: 25px;')
-        ->not->toContain('right:');
+    expect(substr($html, $start, 700))
+        ->toContain('position: fixed; right: 19px; bottom: 80px;')
+        ->toContain('width: 54px; height: 54px;')
+        // Anchored by its right edge, so the label has to unroll leftwards or
+        // the icon slides out from under the cursor as the button grows.
+        ->toContain('flex-direction: row-reverse;');
 });
 
 it('drops the sliding label where there is no hover', function () {

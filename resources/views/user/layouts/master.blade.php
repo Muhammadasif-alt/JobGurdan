@@ -2179,34 +2179,43 @@
                 <span>WhatsApp</span>
             </a>
             <style>
+                /* Sits directly above #backtotop, which is 42px square and 25px in
+                   from the bottom right — so its centre line is 46px from the
+                   right edge and its top edge is at 67px. */
                 .wa-float {
-                    position: fixed; left: 25px; bottom: 25px; z-index: 998;
-                    display: inline-flex; align-items: center; gap: 0;
-                    height: 54px; padding: 0 15px; border-radius: 999px;
+                    position: fixed; right: 19px; bottom: 80px; z-index: 998;
+                    box-sizing: border-box;
+                    display: inline-flex; flex-direction: row-reverse;
+                    align-items: center; justify-content: flex-start; gap: 0;
+                    width: 54px; height: 54px; padding: 0 14px; border-radius: 999px;
                     background: #25d366; color: #fff !important;
                     box-shadow: 0 6px 20px rgba(37,211,102,.38);
                     text-decoration: none; overflow: hidden;
-                    transition: gap .22s ease, padding .22s ease, box-shadow .18s ease, transform .12s ease;
+                    transition: width .24s ease, gap .24s ease, padding-left .24s ease,
+                                box-shadow .18s ease, transform .12s ease;
                 }
-                .wa-float i { font-size: 26px; line-height: 1; color: #fff !important; }
+                .wa-float i { font-size: 26px; line-height: 1; flex: 0 0 auto; color: #fff !important; }
                 .wa-float span {
-                    max-width: 0; opacity: 0; white-space: nowrap;
+                    flex: 0 0 auto; opacity: 0; white-space: nowrap;
                     font: 700 14.5px/1 'Nunito', system-ui, sans-serif; color: #fff !important;
-                    transition: max-width .22s ease, opacity .18s ease;
+                    transition: opacity .18s ease .05s;
                 }
-                /* The label unrolls on hover so the resting state stays a circle. */
+                /* row-reverse packed to the start keeps the icon pinned to the
+                   right edge, so the label unrolls leftwards and the icon does
+                   not slide out from under the cursor. */
                 .wa-float:hover, .wa-float:focus-visible {
-                    gap: 10px; padding: 0 20px 0 15px;
+                    width: 166px; gap: 10px; padding-left: 20px;
                     box-shadow: 0 10px 26px rgba(37,211,102,.48);
                     transform: translateY(-2px);
                 }
-                .wa-float:hover span, .wa-float:focus-visible span { max-width: 110px; opacity: 1; }
+                .wa-float:hover span, .wa-float:focus-visible span { opacity: 1; }
                 .wa-float:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
                 @media (max-width: 767px) {
-                    .wa-float { left: 16px; bottom: 16px; height: 48px; padding: 0 13px; }
+                    .wa-float { right: 22px; bottom: 76px; width: 48px; height: 48px; padding: 0 11px; }
                     .wa-float i { font-size: 23px; }
                     /* No hover on touch, so the label would never open. */
                     .wa-float span { display: none; }
+                    .wa-float:hover { width: 48px; gap: 0; padding-left: 11px; }
                 }
                 @media (prefers-reduced-motion: reduce) {
                     .wa-float, .wa-float span { transition: none; }
