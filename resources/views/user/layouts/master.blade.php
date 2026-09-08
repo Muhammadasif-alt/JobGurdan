@@ -384,24 +384,27 @@
                                     </a>
                                 </li>
 
+                                {{-- Labels name what is on the page, not who it is for: "Employers"
+                                     led to a company list and "Job Seekers" to a directory of other
+                                     candidates, so both sent the audience they named to the wrong idea. --}}
+                                <li>
+                                    <a href="{{ route('jobs.index') }}"
+                                        class="{{ request()->routeIs('jobs.index', 'jobs.show', 'jobs.search', 'jobs.location', 'jobs.locations', 'jobs.categories', 'jobs.category') ? 'current' : '' }}">
+                                        Jobs
+                                    </a>
+                                </li>
+
                                 <li>
                                     <a href="{{ route('jobs.companies') }}"
                                         class="{{ request()->routeIs('jobs.companies', 'companies.show') ? 'current' : '' }}">
-                                        Employers
+                                        Companies
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="{{ route('job-seekers.index') }}"
                                         class="{{ request()->routeIs('job-seekers.*') ? 'current' : '' }}">
-                                        Job Seekers
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="{{ route('jobs.index') }}"
-                                        class="{{ request()->routeIs('jobs.index', 'jobs.show', 'jobs.search', 'jobs.location', 'jobs.locations', 'jobs.categories', 'jobs.category') ? 'current' : '' }}">
-                                        Jobs
+                                        Talent
                                     </a>
                                 </li>
 
@@ -468,6 +471,13 @@
                                     <i class="icon-feather-file-text"></i> <span>Register CV</span>
                                 </a>
                             </div>
+                            {{-- The employer's way in. Outlined rather than filled so it does not
+                                 compete with Register CV for the same glance. --}}
+                            <div class="utf-header-widget-item">
+                                <a href="{{ route('register') }}" class="post-job-btn">
+                                    <i class="icon-feather-plus-circle"></i> <span>Post a Job</span>
+                                </a>
+                            </div>
                             <div class="utf-header-widget-item">
                                 <a href="{{ route('login') }}" class="log-in-button">
                                     <i class="icon-feather-log-in"></i> <span>Sign In</span>
@@ -516,6 +526,37 @@
                         html.dark-mode .utf-header-widget-item .register-cv-btn:hover {
                             box-shadow: 0 8px 18px rgba(27, 58, 107,.55) !important;
                         }
+                        /* === Post a Job (guest navbar — the employer's entry point) === */
+                        .utf-header-widget-item .post-job-btn {
+                            display: inline-flex; align-items: center; gap: 8px;
+                            height: 44px; padding: 0 18px;
+                            background: transparent;
+                            color: #1b3a6b !important;
+                            border: 1.5px solid #1b3a6b;
+                            border-radius: 10px;
+                            font: 700 14px/1 'Nunito', system-ui, sans-serif;
+                            text-decoration: none;
+                            transition: background .15s ease, color .15s ease, transform .12s ease;
+                        }
+                        .utf-header-widget-item .post-job-btn i,
+                        .utf-header-widget-item .post-job-btn span { color: inherit !important; }
+                        .utf-header-widget-item .post-job-btn:hover {
+                            background: #1b3a6b;
+                            color: #fff !important;
+                            transform: translateY(-1px);
+                        }
+                        html.dark-mode .utf-header-widget-item .post-job-btn {
+                            color: #8fc4f0 !important;
+                            border-color: #8fc4f0 !important;
+                        }
+                        html.dark-mode .utf-header-widget-item .post-job-btn:hover {
+                            background: #8fc4f0;
+                            color: #10151c !important;
+                        }
+                        @media (max-width: 1199px) {
+                            .utf-header-widget-item .post-job-btn { display: none; }
+                        }
+
                         @media (max-width: 991px) {
                             .utf-header-widget-item .register-cv-btn { display: none; }
                         }
@@ -710,10 +751,25 @@
                             background: #f5f5f7 !important;
                             color: #000 !important;
                         }
-                        #header #navigation > ul > li > a.current {
-                            color: #000 !important;
-                            font-weight: 600 !important;
-                            background: #f5f5f7 !important;
+                        /* The page you are on reads as a filled button. Hover was the same
+                           flat grey, so there was no way to tell the two apart. */
+                        #header #navigation > ul > li > a.current,
+                        #header #navigation > ul > li > a.current:hover {
+                            background: #1b3a6b !important;
+                            color: #fff !important;
+                            font-weight: 700 !important;
+                            border-radius: 8px !important;
+                            box-shadow: 0 2px 8px rgba(27, 58, 107, .28) !important;
+                        }
+                        html.dark-mode #header #navigation > ul > li > a:hover {
+                            background: rgba(255, 255, 255, .08) !important;
+                            color: #fff !important;
+                        }
+                        html.dark-mode #header #navigation > ul > li > a.current,
+                        html.dark-mode #header #navigation > ul > li > a.current:hover {
+                            background: #8fc4f0 !important;
+                            color: #10151c !important;
+                            box-shadow: none !important;
                         }
                         #header #navigation > ul > li > a::after,
                         #header #navigation > ul > li > a::before { display: none !important; }
