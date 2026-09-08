@@ -305,6 +305,7 @@ JOBHTML;
     <li><a href="/blog/java-developer-jobs-in-usa">Java Developer Jobs in USA</a> &mdash; the same occupation, plus what W-2, 1099 and corp-to-corp contracts commit you to.</li>
     <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the same occupation, and the data and machine learning demand attached to it.</li>
     <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; the creative side of the same product teams.</li>
+    <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a> &mdash; the best-paid corner of this same occupation, and the two-week store gate standing in front of a shipped app.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Wage data, employment projections and immigration rules change, and the H-1B payment described above is subject to ongoing litigation &mdash; confirm the current position with the Bureau of Labor Statistics, USCIS, a licensed immigration attorney and the employer's own advertisement before applying or paying any fee.</p>

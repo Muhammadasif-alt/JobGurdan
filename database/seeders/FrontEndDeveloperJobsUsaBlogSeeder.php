@@ -319,6 +319,7 @@ JOBHTML;
     <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the dominant library in this discipline, and the toolchain change that dates a portfolio.</li>
     <li><a href="/blog/wordpress-developer-jobs-in-usa">WordPress Developer Jobs in USA</a> &mdash; where accessibility and performance work is most often billed on client sites.</li>
     <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; who hands you the design files, and what their market looks like.</li>
+    <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a> &mdash; the same interface work on a device, priced against the $135,980 median rather than the $92,650 one.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage data, accessibility regulations, compliance deadlines and performance thresholds change &mdash; confirm the current position with the Bureau of Labor Statistics, the Department of Justice, Google's published guidance and the employer's own advertisement before applying or relying on any of it.</p>

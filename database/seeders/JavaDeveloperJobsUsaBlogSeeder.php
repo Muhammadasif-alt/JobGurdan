@@ -365,6 +365,7 @@ JOBHTML;
     <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the front end most often paired with a Java backend.</li>
     <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; which pay band a job title is hiding, and working for a US company from abroad.</li>
     <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the lower band, and how freelance rates work against US self-employment tax.</li>
+    <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a> &mdash; Android work and the mobile band, counted under software developers rather than web.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax, immigration or careers advice. Wage data, worker-classification rules and immigration requirements change, and the federal contractor-classification rule was unsettled at the time of writing &mdash; confirm the current position with the Bureau of Labor Statistics, the Department of Labor, USCIS and a qualified professional before choosing a contract structure or relying on any of it.</p>

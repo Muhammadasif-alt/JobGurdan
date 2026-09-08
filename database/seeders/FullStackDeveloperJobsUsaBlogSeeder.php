@@ -322,6 +322,7 @@ JOBHTML;
     <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; one common back half, across three occupations.</li>
     <li><a href="/blog/java-developer-jobs-in-usa">Java Developer Jobs in USA</a> &mdash; the other, and the contract structures behind its market.</li>
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs with No Experience</a> &mdash; how international remote work and cross-border payment routes actually operate.</li>
+    <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a> &mdash; the mobile route, and why its floor sits $34,360 above the web one.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or employment advice. Wage data, tax rules and worker classification law differ by country and change &mdash; confirm the current position with the Bureau of Labor Statistics, the IRS, a qualified adviser in your own country and the employer's own advertisement before applying or signing anything.</p>
