@@ -75,6 +75,31 @@ it('shows the site contact address rather than a hardcoded one', function () {
     expect(get('/resume-writing-services')->getContent())->toContain('someone@example.test');
 });
 
+it('lays the image sections out as equal halves at the site width', function () {
+    // The hero image floated in the middle of a taller text block; both sides
+    // are now one column each and the picture is cropped to fill its half.
+    $html = get('/resume-writing-services')->assertOk()->getContent();
+
+    expect($html)->toContain('max-width: 1440px')
+        ->toContain('.rw-hero-grid { display: grid; grid-template-columns: 1fr 1fr;')
+        ->toContain('.rw-trust-grid { display: grid; grid-template-columns: 1fr 1fr;')
+        ->toContain('object-fit: cover');
+});
+
+it('carries the market and ATS sections that do the long-tail work', function () {
+    $html = get('/resume-writing-services')->assertOk()->getContent();
+
+    expect($html)->toContain('Written Four Different Ways')
+        ->toContain('Machine-Readable')
+        // Each market gets its own conventions rather than one generic answer.
+        ->toContain('United States &mdash; a resume')
+        ->toContain('Saudi Arabia &amp; UAE &mdash; a Gulf CV')
+        ->toContain('transferable visa')
+        ->toContain('your time zone and your overlap hours near the top')
+        // And the advice warns against the obvious way to game a filter.
+        ->toContain('never pad a resume with keywords you cannot defend');
+});
+
 it('links into the guides and appears in the sitemap and nav', function () {
     $html = get('/resume-writing-services')->assertOk()->getContent();
 

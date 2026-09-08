@@ -83,8 +83,8 @@
 @section('content')
 
 <style>
-    .rw-page { background: #f6f9fd; }
-    .rw-wrap { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .rw-page { background: #f5f5f7; }
+    .rw-wrap { max-width: 1440px; margin: 0 auto; padding: 0 30px; }
     .rw-eyebrow {
         display: inline-block; background: #1b3a6b; color: #fff;
         font-size: 12.5px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase;
@@ -98,8 +98,8 @@
     .rw-lede { color: #55657a; font-size: 16.5px; line-height: 1.7; margin: 0 auto 40px; max-width: 720px; }
 
     /* ===== Hero ===== */
-    .rw-hero { background: linear-gradient(160deg, #eef5fd 0%, #f6f9fd 60%, #fff 100%); padding: 64px 0 76px; }
-    .rw-hero-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 54px; align-items: center; }
+    .rw-hero { background: linear-gradient(160deg, #eef3fa 0%, #f5f5f7 65%, #fff 100%); padding: 64px 0 76px; }
+    .rw-hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 54px; align-items: stretch; }
     .rw-hero h1 {
         font-size: clamp(32px, 4.4vw, 54px); font-weight: 800; color: #1b3a6b;
         line-height: 1.12; letter-spacing: -1.2px; margin: 0 0 20px;
@@ -122,9 +122,14 @@
     .rw-btn-wa:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(37,211,102,.36); }
     .rw-btn-ghost { background: #fff; color: #1b3a6b !important; border: 1.5px solid #cfe0f3; }
     .rw-btn-ghost:hover { border-color: #1b3a6b; transform: translateY(-2px); }
+    /* Both halves are one column each and the image is cropped to fill its
+       own, so the two sides of the hero end level instead of the picture
+       floating in the middle of a taller text block. */
+    .rw-hero-copy { display: flex; flex-direction: column; justify-content: center; }
+    .rw-hero-media { display: flex; }
     .rw-hero-media img {
-        width: 100%; height: auto; border-radius: 22px;
-        box-shadow: 0 26px 60px rgba(27,58,107,.20);
+        width: 100%; height: 100%; min-height: 460px; object-fit: cover;
+        border-radius: 22px; box-shadow: 0 26px 60px rgba(27,58,107,.20);
     }
 
     /* ===== Problem cards ===== */
@@ -136,7 +141,7 @@
         background: #fff; border: 1px solid #e4edf8; border-radius: 18px;
         padding: 30px 26px; box-shadow: 0 2px 10px rgba(27,58,107,.05);
     }
-    .rw-section.alt .rw-problem { background: #f6f9fd; }
+    .rw-section.alt .rw-problem { background: #f5f5f7; }
     .rw-problem-ico {
         width: 50px; height: 50px; border-radius: 14px; display: grid; place-items: center;
         background: linear-gradient(135deg, #1b3a6b, #2f7fc9); color: #fff; font-size: 21px; margin-bottom: 18px;
@@ -192,16 +197,38 @@
     .rw-industry strong { display: block; font-size: 16.5px; color: #1b3a6b; font-weight: 800; margin-bottom: 5px; }
     .rw-industry span { color: #6b7d92; font-size: 14px; }
 
+    /* ===== Market comparison & ATS checklist ===== */
+    .rw-markets { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
+    .rw-market {
+        background: #fff; border: 1px solid #e6e6ea; border-radius: 18px;
+        padding: 28px 26px; border-left: 4px solid #1b3a6b;
+    }
+    .rw-market h3 { font-size: 19px; font-weight: 800; color: #1b3a6b; margin: 0 0 10px; }
+    .rw-market p { color: #55657a; font-size: 15.2px; line-height: 1.72; margin: 0; }
+    .rw-market strong { color: #22354d; }
+    .rw-checklist { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
+    .rw-check-col { background: #fff; border: 1px solid #e6e6ea; border-radius: 18px; padding: 28px 26px; }
+    .rw-check-col h3 { font-size: 19px; font-weight: 800; color: #1b3a6b; margin: 0 0 18px; }
+    .rw-check-col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+    .rw-check-col li { display: flex; align-items: flex-start; gap: 11px; color: #55657a; font-size: 15.2px; line-height: 1.65; }
+    .rw-check-col li i { font-size: 17px; line-height: 1.3; flex: 0 0 auto; }
+    .rw-check-col:first-child li i { color: #d64545; }
+    .rw-check-col:last-child li i { color: #2f9e5f; }
+
     /* ===== Trust ===== */
-    .rw-trust-grid { display: grid; grid-template-columns: .95fr 1.05fr; gap: 46px; align-items: center; }
-    .rw-trust-grid img { width: 100%; height: auto; border-radius: 20px; box-shadow: 0 20px 46px rgba(27,58,107,.18); }
+    .rw-trust-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 46px; align-items: stretch; }
+    .rw-trust-grid img {
+        width: 100%; height: 100%; min-height: 440px; object-fit: cover;
+        border-radius: 20px; box-shadow: 0 20px 46px rgba(27,58,107,.18);
+    }
+    .rw-trust-copy { display: flex; flex-direction: column; justify-content: center; }
     .rw-trust-points { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
     .rw-trust-card { background: #fff; border: 1px solid #e4edf8; border-radius: 16px; padding: 24px 22px; }
     .rw-trust-card h3 { font-size: 17px; font-weight: 800; color: #1b3a6b; margin: 0 0 8px; }
     .rw-trust-card p { color: #55657a; font-size: 14.6px; line-height: 1.65; margin: 0; }
 
     /* ===== FAQ ===== */
-    .rw-faq-grid { display: grid; grid-template-columns: .82fr 1.18fr; gap: 46px; align-items: start; }
+    .rw-faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 46px; align-items: start; }
     .rw-faq { border: 1px solid #e4edf8; border-radius: 14px; margin-bottom: 12px; background: #fff; overflow: hidden; }
     .rw-faq summary {
         cursor: pointer; list-style: none; padding: 19px 24px;
@@ -218,7 +245,7 @@
 
     /* ===== Enquiry form ===== */
     .rw-form-section { background: linear-gradient(135deg, #14294a 0%, #1b3a6b 100%); padding: 78px 0; }
-    .rw-form-grid { display: grid; grid-template-columns: .92fr 1.08fr; gap: 46px; align-items: start; }
+    .rw-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 46px; align-items: start; }
     .rw-form-copy h2 { color: #fff; }
     .rw-form-copy h2 .accent { color: #8fc4f0; }
     .rw-form-copy > p { color: #cfe0f3; font-size: 16px; line-height: 1.72; margin: 0 0 26px; }
@@ -240,7 +267,7 @@
     .rw-field label { display: block; font-size: 13.5px; font-weight: 700; color: #3d4d61; margin-bottom: 7px; }
     .rw-field input, .rw-field textarea {
         width: 100%; border: 1.5px solid #dbe6f4; border-radius: 10px;
-        padding: 12px 14px; font-size: 15px; color: #22354d; background: #fbfdff;
+        padding: 12px 14px; font-size: 15px; color: #22354d; background: #fafafa;
         font-family: inherit; transition: border-color .15s ease, box-shadow .15s ease;
     }
     .rw-field input:focus, .rw-field textarea:focus {
@@ -276,11 +303,13 @@
     @media (max-width: 1024px) {
         .rw-hero-grid, .rw-trust-grid, .rw-faq-grid, .rw-form-grid { grid-template-columns: 1fr; gap: 36px; }
         .rw-services, .rw-industries { grid-template-columns: repeat(2, 1fr); }
+        .rw-hero-media img, .rw-trust-grid img { min-height: 320px; }
         .rw-problems, .rw-steps, .rw-readmore { grid-template-columns: 1fr; }
         .rw-hero-media { order: -1; }
     }
     @media (max-width: 620px) {
-        .rw-services, .rw-industries, .rw-compare, .rw-trust-points, .rw-row-2 { grid-template-columns: 1fr; }
+        .rw-services, .rw-industries, .rw-compare, .rw-trust-points, .rw-row-2,
+        .rw-markets, .rw-checklist { grid-template-columns: 1fr; }
         .rw-section, .rw-band, .rw-form-section { padding: 54px 0; }
         .rw-form-card { padding: 26px 22px; }
     }
@@ -295,7 +324,9 @@
     html.dark-mode .rw-service h3,
     html.dark-mode .rw-step h3,
     html.dark-mode .rw-trust-card h3,
-    html.dark-mode .rw-industry strong { color: #f2f7fd; }
+    html.dark-mode .rw-industry strong,
+    html.dark-mode .rw-market h3,
+    html.dark-mode .rw-check-col h3 { color: #f2f7fd; }
     html.dark-mode .rw-page h2 .accent,
     html.dark-mode .rw-hero h1 .accent { color: #8fc4f0; }
     html.dark-mode .rw-lede,
@@ -305,7 +336,10 @@
     html.dark-mode .rw-step p,
     html.dark-mode .rw-trust-card p,
     html.dark-mode .rw-industry span,
-    html.dark-mode .rw-readmore span { color: #b9c9dc; }
+    html.dark-mode .rw-readmore span,
+    html.dark-mode .rw-market p,
+    html.dark-mode .rw-check-col li { color: #b9c9dc; }
+    html.dark-mode .rw-market strong { color: #e4eefb; }
     html.dark-mode .rw-ticks li { color: #e4eefb; }
     html.dark-mode .rw-problem,
     html.dark-mode .rw-service,
@@ -313,6 +347,8 @@
     html.dark-mode .rw-trust-card,
     html.dark-mode .rw-faq,
     html.dark-mode .rw-readmore a,
+    html.dark-mode .rw-market,
+    html.dark-mode .rw-check-col,
     html.dark-mode .rw-step-num {
         background: rgba(255,255,255,.045) !important;
         border-color: rgba(255,255,255,.12);
@@ -336,7 +372,7 @@
     {{-- ============ HERO ============ --}}
     <section class="rw-hero">
         <div class="rw-wrap rw-hero-grid">
-            <div>
+            <div class="rw-hero-copy">
                 <span class="rw-eyebrow">Human-Written Resume &amp; CV Service</span>
                 <h1>Get More Interviews With a Resume <span class="accent">Written by a Person</span></h1>
                 <p class="sub">
@@ -539,13 +575,112 @@
         </div>
     </section>
 
+    {{-- ============ SEO CONTENT: markets ============ --}}
+    <section class="rw-section">
+        <div class="rw-wrap">
+            <div class="rw-head-center">
+                <span class="rw-eyebrow">Resume or CV?</span>
+                <h2>The Same Career, <span class="accent">Written Four Different Ways</span></h2>
+                <p class="rw-lede">
+                    A resume and a CV are not two words for one document. Send the wrong one and
+                    you look like you did not research the market. Here is what each of the places
+                    we cover actually expects.
+                </p>
+            </div>
+            <div class="rw-markets">
+                <article class="rw-market">
+                    <h3>United States &mdash; a resume</h3>
+                    <p>
+                        One page early in a career, two once you have the history to justify it.
+                        Achievement-led rather than duty-led, with numbers wherever you have them.
+                        <strong>No photograph, no date of birth, no marital status and no
+                        nationality</strong> &mdash; US employers avoid them for discrimination
+                        reasons, and including them can work against you.
+                    </p>
+                </article>
+                <article class="rw-market">
+                    <h3>United Kingdom &mdash; a CV</h3>
+                    <p>
+                        Two pages is the norm and is expected rather than tolerated. A short
+                        personal statement opens it, then experience in reverse order. Again
+                        <strong>no photograph and no age</strong>. British employers read for
+                        evidence of responsibility, so what you owned matters more than what you
+                        were simply present for.
+                    </p>
+                </article>
+                <article class="rw-market">
+                    <h3>Saudi Arabia &amp; UAE &mdash; a Gulf CV</h3>
+                    <p>
+                        Two to three pages, and the conventions are genuinely different: a
+                        <strong>photograph, nationality, visa status and notice period are commonly
+                        included</strong>, and recruiters look for them. Say whether you hold a
+                        transferable visa, and list any attested qualifications, because both
+                        decide how quickly you can start.
+                    </p>
+                </article>
+                <article class="rw-market">
+                    <h3>Pakistan &amp; remote roles &mdash; it depends who reads it</h3>
+                    <p>
+                        For a local employer, a conventional CV with full detail. For a remote role
+                        with a US or European company, write the resume that market expects and put
+                        <strong>your time zone and your overlap hours near the top</strong>. It is
+                        the first thing a distributed team checks, and leaving it out costs
+                        interviews.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    {{-- ============ SEO CONTENT: ATS ============ --}}
+    <section class="rw-section alt">
+        <div class="rw-wrap">
+            <div class="rw-head-center">
+                <span class="rw-eyebrow">ATS-Friendly Formatting</span>
+                <h2>What Actually Makes a Resume <span class="accent">Machine-Readable</span></h2>
+                <p class="rw-lede">
+                    ATS-friendly gets used as a slogan. In practice it comes down to a handful of
+                    formatting decisions. Check your own CV against these before you send it
+                    anywhere &mdash; you may find you do not need us at all.
+                </p>
+            </div>
+            <div class="rw-checklist">
+                <div class="rw-check-col">
+                    <h3>Fix these first</h3>
+                    <ul>
+                        <li><i class="icon-feather-x"></i> Two-column layouts &mdash; parsers commonly read straight across and scramble both columns together</li>
+                        <li><i class="icon-feather-x"></i> Your name, phone or email inside the header or footer, where many systems never look</li>
+                        <li><i class="icon-feather-x"></i> Skills or contact details set as an image or an icon rather than text</li>
+                        <li><i class="icon-feather-x"></i> Invented section names. My Journey is not a heading a parser recognises</li>
+                        <li><i class="icon-feather-x"></i> Tables and text boxes holding your employment history</li>
+                    </ul>
+                </div>
+                <div class="rw-check-col">
+                    <h3>Do these instead</h3>
+                    <ul>
+                        <li><i class="icon-feather-check"></i> A single column, top to bottom, in reverse chronological order</li>
+                        <li><i class="icon-feather-check"></i> Standard headings: Experience, Education, Skills</li>
+                        <li><i class="icon-feather-check"></i> Contact details in the body of the document, as plain text</li>
+                        <li><i class="icon-feather-check"></i> The words the job advert itself uses, where they are honestly true of you</li>
+                        <li><i class="icon-feather-check"></i> A .docx or a text-based PDF, never a scan or an exported image</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="rw-lede" style="margin-top: 34px; text-align: center;">
+                One caution worth repeating: never pad a resume with keywords you cannot defend in
+                an interview. Passing the filter only to fail the first conversation wastes the one
+                thing you cannot get back.
+            </p>
+        </div>
+    </section>
+
     {{-- ============ TRUST ============ --}}
     <section class="rw-section alt">
         <div class="rw-wrap rw-trust-grid">
             <img src="{{ asset('public/user/images/about-founders.jpg') }}"
                  alt="The JobGader team working on candidate applications"
                  width="1000" height="700" loading="lazy" decoding="async">
-            <div>
+            <div class="rw-trust-copy">
                 <span class="rw-eyebrow">Why Work With Us</span>
                 <h2>Straight Terms, <span class="accent">No Small Print</span></h2>
                 <p class="rw-lede" style="margin: 0 0 26px; max-width: none;">
