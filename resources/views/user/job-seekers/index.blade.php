@@ -639,6 +639,15 @@
     -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
 .jsk-section-head p { color: #555; font-size: 16px; line-height: 1.65; margin: 0; }
+/* Sits on the navy band, so give it a deliberate rounded panel with room at
+   the top rather than letting the text run into the section edge. */
+.jsk-trust-section .jsk-section-head {
+    background: rgba(255,255,255,.045);
+    border: 1px solid rgba(255,255,255,.10);
+    border-radius: 20px;
+    padding: 36px 30px 32px;
+    max-width: 780px;
+}
 .jsk-trust-section .jsk-section-head h2 { color: #fff; }
 .jsk-trust-section .jsk-section-head p { color: #cbd5e1; }
 .jsk-trust-section .jsk-section-head .eyebrow {

@@ -40,8 +40,12 @@
         html.dark-mode #header,
         html.dark-mode .header-container,
         html.dark-mode #header-container,
-        html.dark-mode header,
-        html.dark-mode .header,
+        /* NOT a bare `header` / `.header` here. Those matched every
+           <header class="...-head"> used as a section heading -- 17 of them
+           across the views -- and painted each one with the site chrome's
+           background, border and shadow, which is where the black box behind
+           "Straight terms, no small print" came from. The navigation is
+           matched by its id and the theme's own classes below. */
         html.dark-mode .utf-navigation-menu,
         html.dark-mode .header-2 {
             background: var(--site-header-bg) !important;

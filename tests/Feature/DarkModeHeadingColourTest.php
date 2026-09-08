@@ -46,6 +46,28 @@ it('leaves no page rule re-applying a dark-starting gradient over that fix', fun
     'views/user/saved-jobs.blade.php',
 ]);
 
+it('does not paint every section heading with the site header chrome', function () {
+    // site-dark.css styled a bare `header` element, which matched all 17
+    // <header class="...-head"> section headings across the views and gave each
+    // one the navigation bar's background, border and shadow — the black box
+    // behind "Straight terms, no small print". The navigation is matched by its
+    // own id, so the bare selectors are gone.
+    $css = (string) preg_replace('/\s+/', ' ', (string) file_get_contents(public_path('user/css/site-dark.css')));
+
+    expect($css)->not->toContain('html.dark-mode header,')
+        ->and($css)->not->toContain('html.dark-mode .header,')
+        ->and($css)->toContain('html.dark-mode #utf-header-container-block,');
+});
+
+it('gives the trust band heading a rounded panel with room at the top', function () {
+    $css = (string) preg_replace('/\s+/', ' ', (string) file_get_contents(
+        resource_path('views/user/job-seekers/index.blade.php')
+    ));
+
+    expect($css)->toContain('.jsk-trust-section .jsk-section-head { background: rgba(255,255,255,.045);')
+        ->and($css)->toContain('border-radius: 20px; padding: 36px 30px 32px;');
+});
+
 it('keeps the navy trust band figures off the band colour behind them', function () {
     // The figures used a gradient starting on #1b3a6b, the same colour as the
     // band, so the left of each number was invisible in both themes.
