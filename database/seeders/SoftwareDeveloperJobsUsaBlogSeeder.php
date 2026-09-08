@@ -308,6 +308,7 @@ JOBHTML;
     <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a> &mdash; the best-paid corner of this same occupation, and the two-week store gate standing in front of a shipped app.</li>
     <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; a similar median on a seventh of the openings, and why its senior certifications are gated behind five years.</li>
     <li><a href="/blog/cybersecurity-engineer-jobs-in-usa">Cybersecurity Engineer Jobs in USA</a> &mdash; where platform and infrastructure experience turns into a security engineering salary.</li>
+    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a> &mdash; the infrastructure route, and why a declining occupation is the best signal in it.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Wage data, employment projections and immigration rules change, and the H-1B payment described above is subject to ongoing litigation &mdash; confirm the current position with the Bureau of Labor Statistics, USCIS, a licensed immigration attorney and the employer's own advertisement before applying or paying any fee.</p>
