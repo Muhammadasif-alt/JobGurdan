@@ -334,6 +334,7 @@ JOBHTML;
     <li><a href="/blog/wordpress-developer-jobs-in-usa">WordPress Developer Jobs in USA</a> &mdash; the bottom of this same band, and the retainer that changes its maths.</li>
     <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the same title across three occupations, from $92,650 to $135,980.</li>
     <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a> &mdash; the band above this one, and the Google Play testing rule that delays a portfolio app by a fortnight.</li>
+    <li><a href="/blog/web-developer-jobs-in-usa-2026-market-overview">Web Developer Jobs in USA: 2026 Market Overview</a> &mdash; what employers are advertising right now, and why the salary ranges you can see are a biased sample.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or immigration advice. Wage data, employment projections, platform fees and immigration rules change &mdash; and the H-1B payment described above is subject to ongoing litigation. Confirm the current position with the Bureau of Labor Statistics, the IRS, USCIS and the employer's own advertisement before applying or paying any fee.</p>

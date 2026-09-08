@@ -200,7 +200,7 @@ JOBHTML;
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/mobile-app-developer-jobs-in-usa-build.jpg"
-         alt="A mobile app developer building and testing an iOS and Android application"
+         alt="Two developers reviewing iOS and Android app screens side by side"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
@@ -237,7 +237,7 @@ JOBHTML;
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/mobile-app-developer-jobs-in-usa-testing.jpg"
-         alt="A remote mobile developer reviewing an app release and crash reports on a phone and laptop"
+         alt="A mobile developer walking through an app build and its phone layouts"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
