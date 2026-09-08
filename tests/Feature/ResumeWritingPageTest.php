@@ -150,6 +150,24 @@ it('reads as rows rather than boxes in the dark theme', function () {
         ->toContain('html.dark-mode .rw-step + .rw-step::before');
 });
 
+it('gives every card the hover the about page uses on its mission cards', function () {
+    $html = get('/resume-writing-services')->assertOk()->getContent();
+
+    // A 3px rule drawing in from the left across the top, plus the lift.
+    expect($html)->toContain('content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;')
+        ->toContain('transform: scaleX(0); transform-origin: left;')
+        ->toContain('transform: scaleX(1);')
+        ->toContain('box-shadow: 0 18px 36px rgba(15,23,42,.10);');
+
+    // The service and industry tiles carried a permanent navy edge along the
+    // bottom; a rule top and bottom would sandwich the card.
+    expect($html)->not->toContain('border-bottom: 4px solid #1b3a6b;')
+        ->not->toContain('border-bottom: 3px solid #1b3a6b;');
+
+    // Navy is a few points off the dark background, so the rule changes hue.
+    expect($html)->toContain('html.dark-mode .rw-check-col::before, html.dark-mode .rw-readmore a::before {');
+});
+
 it('does not reuse a photograph another page already owns', function () {
     // hero-diverse-professionals is the banner for every page without one of
     // its own, and about-founders belongs to the about page. The layout's own

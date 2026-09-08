@@ -174,9 +174,7 @@
     .rw-services { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
     .rw-service {
         background: #fff; border: 1px solid #e4edf8; border-radius: 18px; padding: 28px 24px;
-        border-bottom: 4px solid #1b3a6b; transition: transform .15s ease, box-shadow .15s ease;
     }
-    .rw-service:hover { transform: translateY(-4px); box-shadow: 0 16px 34px rgba(27,58,107,.13); }
     .rw-service h3 { font-size: 18px; font-weight: 800; color: #1b3a6b; margin: 16px 0 10px; }
     .rw-service p { color: #55657a; font-size: 14.8px; line-height: 1.66; margin: 0; }
 
@@ -224,7 +222,7 @@
     .rw-industries { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
     .rw-industry {
         background: #fff; border: 1px solid #e4edf8; border-radius: 16px;
-        padding: 22px 20px; border-bottom: 3px solid #1b3a6b;
+        padding: 22px 20px;
     }
     .rw-industry strong { display: block; font-size: 16.5px; color: #1b3a6b; font-weight: 800; margin-bottom: 5px; }
     .rw-industry span { color: #6b7d92; font-size: 14px; }
@@ -342,9 +340,40 @@
     .rw-readmore { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
     .rw-readmore a {
         display: block; background: #fff; border: 1px solid #e4edf8; border-radius: 16px;
-        padding: 22px 22px; text-decoration: none; transition: transform .15s ease, box-shadow .15s ease;
+        padding: 22px 22px; text-decoration: none;
     }
-    .rw-readmore a:hover { transform: translateY(-3px); box-shadow: 0 14px 30px rgba(27,58,107,.12); }
+
+    /* ===== Shared card hover =====
+       The same treatment the About page gives its mission cards: a 3px rule
+       draws in across the top from the left while the card lifts. */
+    .rw-problem, .rw-service, .rw-industry,
+    .rw-market, .rw-check-col, .rw-readmore a {
+        position: relative; overflow: hidden;
+        transition: transform .2s ease, box-shadow .22s ease, border-color .22s ease;
+    }
+    .rw-problem::before, .rw-service::before, .rw-industry::before,
+    .rw-market::before, .rw-check-col::before, .rw-readmore a::before {
+        content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+        background: #1b3a6b; transform: scaleX(0); transform-origin: left;
+        transition: transform .3s ease;
+    }
+    .rw-problem:hover, .rw-service:hover, .rw-industry:hover,
+    .rw-market:hover, .rw-check-col:hover, .rw-readmore a:hover {
+        border-color: #1b3a6b;
+        transform: translateY(-4px);
+        box-shadow: 0 18px 36px rgba(15,23,42,.10);
+    }
+    .rw-problem:hover::before, .rw-service:hover::before, .rw-industry:hover::before,
+    .rw-market:hover::before, .rw-check-col:hover::before, .rw-readmore a:hover::before {
+        transform: scaleX(1);
+    }
+    @media (prefers-reduced-motion: reduce) {
+        .rw-problem, .rw-service, .rw-industry,
+        .rw-market, .rw-check-col, .rw-readmore a { transition: border-color .22s ease; }
+        .rw-problem:hover, .rw-service:hover, .rw-industry:hover,
+        .rw-market:hover, .rw-check-col:hover, .rw-readmore a:hover { transform: none; }
+    }
+
     .rw-readmore strong { display: block; color: #1b3a6b; font-size: 16.5px; font-weight: 800; margin-bottom: 6px; }
     .rw-readmore span { color: #6b7d92; font-size: 14.4px; line-height: 1.6; }
 
@@ -380,8 +409,17 @@
     html.dark-mode .rw-trust-card:hover h3 { color: #8fc4f0; }
     html.dark-mode .rw-section.alt { background: rgba(255,255,255,.035); }
     html.dark-mode .rw-market { border-left-color: #8fc4f0; }
-    html.dark-mode .rw-industry,
-    html.dark-mode .rw-service { border-bottom-color: #8fc4f0; }
+    html.dark-mode .rw-problem::before, html.dark-mode .rw-service::before,
+    html.dark-mode .rw-industry::before, html.dark-mode .rw-market::before,
+    html.dark-mode .rw-check-col::before, html.dark-mode .rw-readmore a::before {
+        background: #8fc4f0;
+    }
+    html.dark-mode .rw-problem:hover, html.dark-mode .rw-service:hover,
+    html.dark-mode .rw-industry:hover, html.dark-mode .rw-market:hover,
+    html.dark-mode .rw-check-col:hover, html.dark-mode .rw-readmore a:hover {
+        border-color: #8fc4f0;
+        box-shadow: 0 18px 36px rgba(0,0,0,.34);
+    }
     html.dark-mode .rw-step + .rw-step::before { background: rgba(255,255,255,.18); }
     html.dark-mode .rw-page h2,
     html.dark-mode .rw-hero h1,
