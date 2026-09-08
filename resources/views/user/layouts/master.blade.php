@@ -73,7 +73,10 @@
     <link rel="stylesheet" href="{{ asset('public/user/css/icons.css') }}">
     <link rel="stylesheet" href="{{ asset('public/user/css/style.css') }}?v={{ $assetVersion('user/css/style.css') }}">
     <style>
-        @media (min-width: 1200px) {
+        /* Matches the width the desktop header appears at (1100px). While
+           this started at 1200px the navbar spent 100px trapped in
+           Bootstrap's 960px container. */
+        @media (min-width: 1100px) {
             .container { max-width: 1800px !important; }
         }
         /* Prevent horizontal scroll on mobile */
@@ -530,6 +533,7 @@
                               seeker who wants an account. === */
                         .utf-header-widget-item .post-job-btn {
                             display: inline-flex; align-items: center; gap: 8px;
+                            flex-shrink: 0; white-space: nowrap;
                             height: 44px; padding: 0 18px;
                             background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
                             color: #fff !important;
@@ -799,6 +803,8 @@
                             transform: none !important;
                             inset: auto !important;
                             position: relative !important;
+                            flex-shrink: 0 !important;
+                            white-space: nowrap !important;
                         }
 
                         /* === Authenticated user chip — kill ALL inherited positioning from template === */
@@ -1014,6 +1020,41 @@
                             color: #fff !important;
                             transform: translateY(-1px);
                             box-shadow: 0 4px 10px rgba(0,0,0,.18);
+                        }
+
+                        /* === Compact desktop header (992px - 1399px) ===
+                           At full size the navbar measures roughly 1245px, which
+                           is wider than the window on any laptop below about
+                           1280px. Same header, tightened: a smaller logo, less
+                           air around the menu labels and shorter buttons bring it
+                           to roughly 990px. Below 992px the mobile menu takes
+                           over and none of this applies. */
+                        @media (min-width: 992px) and (max-width: 1399px) {
+                            #header .container { gap: 14px; }
+                            #header .utf-left-side { gap: 22px; min-width: 0; }
+                            #header #logo { min-width: 0; }
+                            #header #logo img.logo-light,
+                            #header #logo img.logo-dark {
+                                width: 158px !important;
+                                height: 32px !important;
+                            }
+                            #header #navigation > ul { gap: 2px; }
+                            #header #navigation > ul > li > a {
+                                font-size: 14px !important;
+                                padding: 9px 10px !important;
+                            }
+                            #header .utf-right-side { gap: 8px; }
+                            .theme-toggle { margin: 0 2px; }
+                            #header .utf-right-side .utf-header-widget-item { height: 42px !important; }
+                            .utf-header-widget-item .post-job-btn {
+                                height: 42px; padding: 0 14px; gap: 6px; font-size: 13.5px;
+                            }
+                            #header .utf-right-side .log-in-button {
+                                height: 42px !important;
+                                padding: 0 14px !important;
+                                min-width: 0 !important;
+                                font-size: 13.5px !important;
+                            }
                         }
 
                         /* Mobile toggle */

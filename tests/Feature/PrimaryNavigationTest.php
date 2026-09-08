@@ -85,3 +85,39 @@ it('gives employers the one filled call to action in the header', function () {
     expect($start)->not->toBeFalse('post-job-btn styles not found');
     expect(substr($html, $start, 420))->toContain('linear-gradient(135deg, #1b3a6b, #2f7fc9)');
 });
+
+it('keeps the header inside the window on a small laptop', function () {
+    // Bootstrap holds .container at 960px between 992 and 1199, but the
+    // desktop header starts at 1100. For those 100px a navbar measuring
+    // roughly 1245px was being squeezed into 930px: the Post a Job label
+    // broke at its spaces into three lines and Sign In fell off the edge.
+    $html = str_replace('
+', '
+', get('/')->assertOk()->getContent());
+
+    // The wide container now starts where the desktop header does.
+    expect($html)->toContain('@media (min-width: 1100px) {
+            .container { max-width: 1800px !important; }')
+        ->not->toContain('@media (min-width: 1200px) {
+            .container { max-width: 1800px !important; }');
+
+    // Same header, tightened, for every laptop narrower than 1400px.
+    expect($html)->toContain('@media (min-width: 992px) and (max-width: 1399px) {')
+        ->toContain('width: 158px !important;')
+        ->toContain('padding: 9px 10px !important;');
+});
+
+it('never lets a header button break its label across lines', function () {
+    // The label is what collapsed: with no nowrap the button could shrink to
+    // its longest word and stack "Post / a / Job".
+    $html = get('/')->assertOk()->getContent();
+
+    $start = strpos($html, '.utf-header-widget-item .post-job-btn {');
+    expect(substr($html, $start, 250))->toContain('flex-shrink: 0; white-space: nowrap;');
+
+    $start = strpos($html, '#header .utf-right-side .utf-header-widget-item {');
+    expect($start)->not->toBeFalse('widget item styles not found');
+    expect(substr($html, $start, 1500))
+        ->toContain('flex-shrink: 0 !important;')
+        ->toContain('white-space: nowrap !important;');
+});
