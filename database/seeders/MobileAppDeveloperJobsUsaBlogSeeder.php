@@ -77,7 +77,7 @@ class MobileAppDeveloperJobsUsaBlogSeeder extends Seeder
                 'author_id' => $author?->id,
                 'author_name' => $author?->name ?? 'Admin',
                 'title' => $title,
-                'excerpt' => 'What mobile app developer jobs in the USA pay against the $135,980 software developer median, why the floor matters more than the median when choosing between mobile and web, what actually separates an iOS, Android and React Native rate, and the two-week Google Play gate that stands between you and the shipped app employers screen for.',
+                'excerpt' => 'What mobile app developer jobs in the USA pay against the $135,980 software developer median, why the floor matters more than the median, what separates an iOS, Android and React Native rate, and the two-week Google Play gate before a shipped app.',
                 'content' => $content,
                 'featured_image' => 'blogs/mobile-app-developer-jobs-in-usa.jpg',
                 'tags' => 'mobile app developer jobs in usa, ios developer jobs usa, android developer jobs usa, react native developer jobs, remote mobile developer jobs, mobile app developer salary usa, swift developer jobs, kotlin developer jobs',

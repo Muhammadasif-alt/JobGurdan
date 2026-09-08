@@ -86,3 +86,10 @@ it('does not take the career guide\'s slug', function () {
     expect(Blog::where('slug', MARKET_BLOG_SLUG)->value('title'))->toBe('Web Developer Jobs in USA: 2026 Market Overview');
     expect(Blog::whereIn('slug', [CAREER_BLOG_SLUG, MARKET_BLOG_SLUG])->count())->toBe(2);
 });
+
+it('keeps the excerpt inside the column it has to fit', function () {
+    // blogs.excerpt is a VARCHAR(255) and SQLite does not enforce it, so
+    // without this the first sign of an overrun is a 1406 on deploy.
+    expect(strlen(Blog::where('slug', MARKET_BLOG_SLUG)->value('excerpt')))
+        ->toBeLessThanOrEqual(255);
+});

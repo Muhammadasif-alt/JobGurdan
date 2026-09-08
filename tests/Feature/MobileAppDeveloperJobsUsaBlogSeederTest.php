@@ -122,3 +122,10 @@ it('is linked back from every sibling development guide', function () {
             ->toContain('/blog/'.MOBILE_BLOG_SLUG);
     }
 });
+
+it('keeps the excerpt inside the column it has to fit', function () {
+    // blogs.excerpt is a VARCHAR(255). SQLite silently accepts anything
+    // longer, so this only surfaces on MySQL — at deploy time, as a 1406.
+    expect(strlen(Blog::where('slug', MOBILE_BLOG_SLUG)->value('excerpt')))
+        ->toBeLessThanOrEqual(255);
+});
