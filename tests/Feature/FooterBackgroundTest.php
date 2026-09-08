@@ -16,7 +16,7 @@ function footerCss(): string
 it('paints the footer in brand blue over the work photograph', function () {
     $css = footerCss();
 
-    expect($css)->toContain('rgba(47,127,201,.93)')
+    expect($css)->toContain('rgba(47,127,201,.88)')
         ->toContain('footer-photo-bg.jpg')
         ->toContain('center / cover no-repeat')
         // The old near-black gradient is gone.
@@ -27,6 +27,10 @@ it('ships the footer background image', function () {
     $path = public_path('user/images/footer-photo-bg.jpg');
 
     expect(file_exists($path))->toBeTrue('footer background image missing');
+
+    // It used to be a crop of subscribe_bg.jpg, the theme's stock collage of
+    // sushi, pasta, a barber and a masseur. Nothing on it said "job board".
+    expect(md5_file($path))->not->toBe(md5_file(public_path('user/images/subscribe_bg.jpg')));
 
     // It sits under a near-opaque gradient on every page, so it is served
     // small deliberately; the 624KB original would be waste.

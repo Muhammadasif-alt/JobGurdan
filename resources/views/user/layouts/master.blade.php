@@ -139,13 +139,43 @@
                 url('{{ asset('public/user/images/companies.jpg') }}') type('image/jpeg')
             ) !important;
         }
-        /* Pages without a custom upload yet — keep the diverse-professionals image */
-        body .about-hero,
-        body .cat-hero,
-        body .loc-hero,
-        body .js-hero,
-        body .seeker-hero,
-        body .blog-detail-hero,
+        /* One photograph per page. These were all sharing
+           hero-diverse-professionals, which is now only the catch-all. */
+        body .about-hero {
+            background-image: url('{{ asset('public/user/images/callout-2.jpg') }}') !important;
+        }
+        body .cat-hero {
+            background-image: url('{{ asset('public/user/images/industry-security.jpg') }}') !important;
+            background-image: image-set(
+                url('{{ asset('public/user/images/industry-security.webp') }}') type('image/webp'),
+                url('{{ asset('public/user/images/industry-security.jpg') }}') type('image/jpeg')
+            ) !important;
+        }
+        body .loc-hero {
+            background-image: url('{{ asset('public/user/images/popular-location-01.jpg') }}') !important;
+        }
+        body .js-hero {
+            background-image: url('{{ asset('public/user/images/jsk-faq.jpg') }}') !important;
+            background-image: image-set(
+                url('{{ asset('public/user/images/jsk-faq.webp') }}') type('image/webp'),
+                url('{{ asset('public/user/images/jsk-faq.jpg') }}') type('image/jpeg')
+            ) !important;
+        }
+        body .seeker-hero {
+            background-image: url('{{ asset('public/user/images/contact-support.jpg') }}') !important;
+            background-image: image-set(
+                url('{{ asset('public/user/images/contact-support.webp') }}') type('image/webp'),
+                url('{{ asset('public/user/images/contact-support.jpg') }}') type('image/jpeg')
+            ) !important;
+        }
+        body .blog-detail-hero {
+            background-image: url('{{ asset('public/user/images/home-background-02.jpg') }}') !important;
+            background-image: image-set(
+                url('{{ asset('public/user/images/home-background-02.webp') }}') type('image/webp'),
+                url('{{ asset('public/user/images/home-background-02.jpg') }}') type('image/jpeg')
+            ) !important;
+        }
+        /* Job detail and any page without a banner of its own */
         body .jd-hero,
         body .utf-page-heading-area {
             background-image: url('{{ asset('public/user/images/hero-diverse-professionals.jpg') }}') !important;
@@ -473,13 +503,8 @@
                                 </form>
                             </div>
                         @else
-                            <div class="utf-header-widget-item">
-                                <a href="{{ route('login') }}" class="register-cv-btn">
-                                    <i class="icon-feather-file-text"></i> <span>Register CV</span>
-                                </a>
-                            </div>
-                            {{-- The employer's way in. Outlined rather than filled so it does not
-                                 compete with Register CV for the same glance. --}}
+                            {{-- The employer's way in, and now the only call to action beside
+                                 Sign In, so it takes the filled treatment for itself. --}}
                             <div class="utf-header-widget-item">
                                 <a href="{{ route('register') }}" class="post-job-btn">
                                     <i class="icon-feather-plus-circle"></i> <span>Post a Job</span>
@@ -500,8 +525,10 @@
                         </span>
                     </div>
                     <style>
-                        /* === Register CV button (guest navbar — brand navy in light mode, gold in dark mode) === */
-                        .utf-header-widget-item .register-cv-btn {
+                        /* === Post a Job (guest navbar) — the employer's entry point and the
+                              only filled call to action in the header. Sign In covers the
+                              seeker who wants an account. === */
+                        .utf-header-widget-item .post-job-btn {
                             display: inline-flex; align-items: center; gap: 8px;
                             height: 44px; padding: 0 18px;
                             background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
@@ -515,57 +542,27 @@
                         }
                         /* Match the Sign In button shape (theme toggle is now a sliding pill) */
                         #header .utf-right-side .log-in-button { border-radius: 10px !important; }
-                        .utf-header-widget-item .register-cv-btn:hover {
+                        .utf-header-widget-item .post-job-btn:hover {
                             filter: brightness(1.15);
                             transform: translateY(-1px);
                             box-shadow: 0 8px 18px rgba(27, 58, 107,.35);
                         }
-                        .utf-header-widget-item .register-cv-btn i,
-                        .utf-header-widget-item .register-cv-btn span { color: #fff !important; }
-                        html.dark-mode .utf-header-widget-item .register-cv-btn {
+                        .utf-header-widget-item .post-job-btn i,
+                        .utf-header-widget-item .post-job-btn span { color: #fff !important; }
+                        html.dark-mode .utf-header-widget-item .post-job-btn {
                             background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
                             border-color: #1b3a6b !important;
                             color: #fff !important;
                             box-shadow: 0 4px 12px rgba(27, 58, 107,.45) !important;
                         }
-                        html.dark-mode .utf-header-widget-item .register-cv-btn i,
-                        html.dark-mode .utf-header-widget-item .register-cv-btn span { color: #fff !important; }
-                        html.dark-mode .utf-header-widget-item .register-cv-btn:hover {
+                        html.dark-mode .utf-header-widget-item .post-job-btn i,
+                        html.dark-mode .utf-header-widget-item .post-job-btn span { color: #fff !important; }
+                        html.dark-mode .utf-header-widget-item .post-job-btn:hover {
                             box-shadow: 0 8px 18px rgba(27, 58, 107,.55) !important;
                         }
-                        /* === Post a Job (guest navbar — the employer's entry point) === */
-                        .utf-header-widget-item .post-job-btn {
-                            display: inline-flex; align-items: center; gap: 8px;
-                            height: 44px; padding: 0 18px;
-                            background: transparent;
-                            color: #1b3a6b !important;
-                            border: 1.5px solid #1b3a6b;
-                            border-radius: 10px;
-                            font: 700 14px/1 'Nunito', system-ui, sans-serif;
-                            text-decoration: none;
-                            transition: background .15s ease, color .15s ease, transform .12s ease;
-                        }
-                        .utf-header-widget-item .post-job-btn i,
-                        .utf-header-widget-item .post-job-btn span { color: inherit !important; }
-                        .utf-header-widget-item .post-job-btn:hover {
-                            background: #1b3a6b;
-                            color: #fff !important;
-                            transform: translateY(-1px);
-                        }
-                        html.dark-mode .utf-header-widget-item .post-job-btn {
-                            color: #8fc4f0 !important;
-                            border-color: #8fc4f0 !important;
-                        }
-                        html.dark-mode .utf-header-widget-item .post-job-btn:hover {
-                            background: #8fc4f0;
-                            color: #10151c !important;
-                        }
-                        @media (max-width: 1199px) {
-                            .utf-header-widget-item .post-job-btn { display: none; }
-                        }
-
+                        /* One button left, so it can stay on until the mobile menu takes over. */
                         @media (max-width: 991px) {
-                            .utf-header-widget-item .register-cv-btn { display: none; }
+                            .utf-header-widget-item .post-job-btn { display: none; }
                         }
 
                         /* === User dropdown chip (logged-in navbar) === */
@@ -1427,12 +1424,13 @@
         <!-- Footer — ManageWP-inspired dark navy with blue glow -->
         <style>
             /* === Footer: dark navy gradient with subtle blue radial glow === */
-            /* Brand blue over a photograph of people at work, the way the
-               reference footer reads: the image is texture, not subject, so it
-               sits under a near-opaque gradient and is shipped at 1280px. */
+            /* Brand blue over a recruitment scene — the image is texture, not
+               subject, so it sits under a heavy gradient. It used to be a crop of
+               the theme's stock collage (sushi, a barber, a masseur), which had
+               nothing to do with a job board. */
             #footer {
                 background:
-                    linear-gradient(135deg, rgba(47,127,201,.93) 0%, rgba(31,74,133,.96) 55%, rgba(21,45,84,.97) 100%),
+                    linear-gradient(135deg, rgba(47,127,201,.88) 0%, rgba(31,74,133,.92) 55%, rgba(21,45,84,.94) 100%),
                     url('{{ asset('public/user/images/footer-photo-bg.jpg') }}') center / cover no-repeat,
                     #1b3a6b !important;
                 color: #dbe8f7 !important;

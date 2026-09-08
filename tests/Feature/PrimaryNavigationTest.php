@@ -68,13 +68,20 @@ it('styles the current page as a filled button rather than the hover grey', func
         ->toContain('html.dark-mode #header #navigation > ul > li > a.current,');
 });
 
-it('gives employers a way in from the header', function () {
-    // "Employers" was the only employer-facing link and it went to a company
-    // list; the header carried a Register CV button for seekers and nothing
-    // for the other side.
+it('gives employers the one filled call to action in the header', function () {
+    // Register CV and Post a Job sat side by side competing for the same
+    // glance, and Sign In already covers the seeker who wants an account.
     $html = get('/')->assertOk()->getContent();
 
     expect($html)->toContain('post-job-btn')
         ->toContain('Post a Job')
-        ->toContain('Register CV');
+        ->toContain('Sign In')
+        ->not->toContain('Register CV')
+        ->not->toContain('register-cv-btn');
+
+    // It inherits the treatment Register CV used to carry rather than the
+    // outline it had while it was the secondary button.
+    $start = strpos($html, '.utf-header-widget-item .post-job-btn {');
+    expect($start)->not->toBeFalse('post-job-btn styles not found');
+    expect(substr($html, $start, 420))->toContain('linear-gradient(135deg, #1b3a6b, #2f7fc9)');
 });

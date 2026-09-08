@@ -27,6 +27,7 @@
 @endphp
 
 @push('meta')
+    <link rel="preload" as="image" href="{{ asset('public/user/images/resume-writer.jpg') }}" fetchpriority="high">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -86,7 +87,8 @@
     .rw-page { background: #f5f5f7; }
     .rw-wrap { max-width: 1440px; margin: 0 auto; padding: 0 30px; }
     .rw-eyebrow {
-        display: inline-block; background: #1b3a6b; color: #fff;
+        display: inline-block; width: fit-content; align-self: flex-start;
+        background: #1b3a6b; color: #fff;
         font-size: 12.5px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase;
         padding: 9px 20px; border-radius: 999px; margin-bottom: 20px;
     }
@@ -97,19 +99,38 @@
     .rw-page h2 .accent { color: #2f7fc9; }
     .rw-lede { color: #55657a; font-size: 16.5px; line-height: 1.7; margin: 0 auto 40px; max-width: 720px; }
 
-    /* ===== Hero ===== */
-    .rw-hero { background: linear-gradient(160deg, #eef3fa 0%, #f5f5f7 65%, #fff 100%); padding: 64px 0 76px; }
-    .rw-hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 54px; align-items: stretch; }
-    .rw-hero h1 {
-        font-size: clamp(32px, 4.4vw, 54px); font-weight: 800; color: #1b3a6b;
-        line-height: 1.12; letter-spacing: -1.2px; margin: 0 0 20px;
+    /* ===== Hero =====
+       The photograph is the background of the whole band rather than a panel
+       beside the text, so the section reads as one block and the copy sits in
+       the middle of it. Everything above the scrim is centred. */
+    .rw-hero {
+        position: relative; padding: 108px 0 116px; text-align: center;
+        background: #14294a url('{{ asset('public/user/images/resume-writer.jpg') }}') center 34% / cover no-repeat;
     }
-    .rw-hero h1 .accent { color: #2f7fc9; }
-    .rw-hero p.sub { color: #4c5b6e; font-size: 17px; line-height: 1.72; margin: 0 0 26px; max-width: 560px; }
-    .rw-ticks { list-style: none; margin: 0 0 32px; padding: 0; display: grid; gap: 13px; }
-    .rw-ticks li { display: flex; align-items: flex-start; gap: 11px; color: #22354d; font-size: 16px; font-weight: 600; }
-    .rw-ticks i { color: #2f7fc9; font-size: 19px; line-height: 1.35; }
-    .rw-cta-row { display: flex; flex-wrap: wrap; gap: 14px; }
+    .rw-hero::before {
+        content: ""; position: absolute; inset: 0;
+        background: linear-gradient(180deg, rgba(10,24,46,.90) 0%, rgba(20,41,74,.83) 48%, rgba(10,24,46,.93) 100%);
+    }
+    .rw-hero > .rw-wrap { position: relative; z-index: 1; }
+    .rw-hero-inner { max-width: 880px; margin: 0 auto; }
+    .rw-hero .rw-eyebrow { background: rgba(255,255,255,.16); backdrop-filter: blur(2px); }
+    .rw-hero h1 {
+        font-size: clamp(32px, 4.4vw, 54px); font-weight: 800; color: #fff;
+        line-height: 1.12; letter-spacing: -1.2px; margin: 0 0 20px;
+        text-shadow: 0 2px 18px rgba(6,16,32,.45);
+    }
+    .rw-hero h1 .accent { color: #8fc4f0; }
+    .rw-hero p.sub {
+        color: #dbe8f7; font-size: 17.5px; line-height: 1.72;
+        margin: 0 auto 30px; max-width: 700px;
+    }
+    .rw-ticks {
+        list-style: none; margin: 0 0 34px; padding: 0;
+        display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 28px;
+    }
+    .rw-ticks li { display: flex; align-items: center; gap: 10px; color: #eaf3fd; font-size: 15.6px; font-weight: 600; }
+    .rw-ticks i { color: #8fc4f0; font-size: 19px; line-height: 1.35; }
+    .rw-cta-row { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
     .rw-btn {
         display: inline-flex; align-items: center; gap: 10px;
         padding: 15px 30px; border-radius: 999px;
@@ -122,15 +143,13 @@
     .rw-btn-wa:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(37,211,102,.36); }
     .rw-btn-ghost { background: #fff; color: #1b3a6b !important; border: 1.5px solid #cfe0f3; }
     .rw-btn-ghost:hover { border-color: #1b3a6b; transform: translateY(-2px); }
-    /* Both halves are one column each and the image is cropped to fill its
-       own, so the two sides of the hero end level instead of the picture
-       floating in the middle of a taller text block. */
-    .rw-hero-copy { display: flex; flex-direction: column; justify-content: center; }
-    .rw-hero-media { display: flex; }
-    .rw-hero-media img {
-        width: 100%; height: 100%; min-height: 460px; object-fit: cover;
-        border-radius: 22px; box-shadow: 0 26px 60px rgba(27,58,107,.20);
+    .rw-hero .rw-btn-primary { background: #2f7fc9; box-shadow: 0 10px 26px rgba(6,16,32,.42); }
+    .rw-hero .rw-btn-primary:hover { box-shadow: 0 14px 32px rgba(6,16,32,.52); }
+    .rw-hero .rw-btn-ghost {
+        background: rgba(255,255,255,.10); color: #fff !important;
+        border-color: rgba(255,255,255,.55);
     }
+    .rw-hero .rw-btn-ghost:hover { background: #fff; color: #14294a !important; border-color: #fff; }
 
     /* ===== Problem cards ===== */
     .rw-section { padding: 76px 0; }
@@ -141,7 +160,9 @@
         background: #fff; border: 1px solid #e4edf8; border-radius: 18px;
         padding: 30px 26px; box-shadow: 0 2px 10px rgba(27,58,107,.05);
     }
-    .rw-section.alt .rw-problem { background: #f5f5f7; }
+    .rw-section.alt .rw-problem,
+    .rw-section.alt .rw-market,
+    .rw-section.alt .rw-readmore a { background: #f5f5f7; }
     .rw-problem-ico {
         width: 50px; height: 50px; border-radius: 14px; display: grid; place-items: center;
         background: linear-gradient(135deg, #1b3a6b, #2f7fc9); color: #fff; font-size: 21px; margin-bottom: 18px;
@@ -222,9 +243,25 @@
         border-radius: 20px; box-shadow: 0 20px 46px rgba(27,58,107,.18);
     }
     .rw-trust-copy { display: flex; flex-direction: column; justify-content: center; }
-    .rw-trust-points { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
-    .rw-trust-card { background: #fff; border: 1px solid #e4edf8; border-radius: 16px; padding: 24px 22px; }
-    .rw-trust-card h3 { font-size: 17px; font-weight: 800; color: #1b3a6b; margin: 0 0 8px; }
+    /* Six points in a single column. Boxes at this count read as a wall, so
+       each one is a row separated by a hairline, and hovering draws a brand
+       blue rule along the bottom of the row you are on. */
+    .rw-trust-points { display: grid; grid-template-columns: 1fr; gap: 0; }
+    .rw-trust-card {
+        position: relative; background: transparent; border: 0; border-radius: 0;
+        padding: 18px 2px 18px 0; border-bottom: 1px solid #dde7f3;
+    }
+    .rw-trust-card:first-child { border-top: 1px solid #dde7f3; }
+    .rw-trust-card::after {
+        content: ""; position: absolute; left: 0; bottom: -1px; width: 0; height: 2px;
+        background: #2f7fc9; transition: width .34s cubic-bezier(.4, 0, .2, 1);
+    }
+    .rw-trust-card:hover::after { width: 100%; }
+    .rw-trust-card h3 {
+        font-size: 17px; font-weight: 800; color: #1b3a6b; margin: 0 0 6px;
+        transition: color .2s ease;
+    }
+    .rw-trust-card:hover h3 { color: #2f7fc9; }
     .rw-trust-card p { color: #55657a; font-size: 14.6px; line-height: 1.65; margin: 0; }
 
     /* ===== FAQ ===== */
@@ -301,11 +338,12 @@
     .rw-readmore span { color: #6b7d92; font-size: 14.4px; line-height: 1.6; }
 
     @media (max-width: 1024px) {
-        .rw-hero-grid, .rw-trust-grid, .rw-faq-grid, .rw-form-grid { grid-template-columns: 1fr; gap: 36px; }
+        .rw-trust-grid, .rw-faq-grid, .rw-form-grid { grid-template-columns: 1fr; gap: 36px; }
+        .rw-hero { padding: 76px 0 84px; }
         .rw-services, .rw-industries { grid-template-columns: repeat(2, 1fr); }
-        .rw-hero-media img, .rw-trust-grid img { min-height: 320px; }
+        .rw-trust-grid img { min-height: 320px; }
         .rw-problems, .rw-steps, .rw-readmore { grid-template-columns: 1fr; }
-        .rw-hero-media { order: -1; }
+        .rw-ticks { justify-content: flex-start; text-align: left; }
     }
     @media (max-width: 620px) {
         .rw-services, .rw-industries, .rw-compare, .rw-trust-points, .rw-row-2,
@@ -316,7 +354,14 @@
 
     /* ===== Dark theme ===== */
     html.dark-mode .rw-page { background: var(--site-bg); }
-    html.dark-mode .rw-hero { background: linear-gradient(160deg, #12203a 0%, #0e1726 70%, var(--site-bg) 100%); }
+    /* The hero is already dark; dark mode only deepens the scrim over it. */
+    html.dark-mode .rw-hero::before {
+        background: linear-gradient(180deg, rgba(6,14,28,.93) 0%, rgba(12,26,48,.88) 48%, rgba(6,14,28,.95) 100%);
+    }
+    html.dark-mode .rw-trust-card { border-bottom-color: rgba(255,255,255,.10); }
+    html.dark-mode .rw-trust-card:first-child { border-top-color: rgba(255,255,255,.10); }
+    html.dark-mode .rw-trust-card::after { background: #8fc4f0; }
+    html.dark-mode .rw-trust-card:hover h3 { color: #8fc4f0; }
     html.dark-mode .rw-section.alt { background: rgba(255,255,255,.02); }
     html.dark-mode .rw-page h2,
     html.dark-mode .rw-hero h1,
@@ -371,8 +416,8 @@
 
     {{-- ============ HERO ============ --}}
     <section class="rw-hero">
-        <div class="rw-wrap rw-hero-grid">
-            <div class="rw-hero-copy">
+        <div class="rw-wrap">
+            <div class="rw-hero-inner">
                 <span class="rw-eyebrow">Human-Written Resume &amp; CV Service</span>
                 <h1>Get More Interviews With a Resume <span class="accent">Written by a Person</span></h1>
                 <p class="sub">
@@ -399,11 +444,6 @@
                         </a>
                     @endif
                 </div>
-            </div>
-            <div class="rw-hero-media">
-                <img src="{{ asset('public/user/images/hero-diverse-professionals.jpg') }}"
-                     alt="Professionals from different industries preparing job applications"
-                     width="1200" height="800" fetchpriority="high" decoding="async">
             </div>
         </div>
     </section>
@@ -540,7 +580,7 @@
                 <div class="rw-compare-card">
                     <span class="rw-compare-tag">&#10003; After</span>
                     <ul>
-                        <li class="rw-tick"><i class="icon-feather-check"></i> A clean structure that parses correctly every time</li>
+                        <li class="rw-tick"><i class="icon-feather-check"></i> A clean structure the common screening systems can read</li>
                         <li class="rw-tick"><i class="icon-feather-check"></i> Achievements with real numbers behind them</li>
                         <li class="rw-tick"><i class="icon-feather-check"></i> Positioning built around the role you want next</li>
                         <li class="rw-tick"><i class="icon-feather-check"></i> The language of the jobs you are applying for</li>
@@ -576,7 +616,7 @@
     </section>
 
     {{-- ============ SEO CONTENT: markets ============ --}}
-    <section class="rw-section">
+    <section class="rw-section alt">
         <div class="rw-wrap">
             <div class="rw-head-center">
                 <span class="rw-eyebrow">Resume or CV?</span>
@@ -633,7 +673,7 @@
     </section>
 
     {{-- ============ SEO CONTENT: ATS ============ --}}
-    <section class="rw-section alt">
+    <section class="rw-section">
         <div class="rw-wrap">
             <div class="rw-head-center">
                 <span class="rw-eyebrow">ATS-Friendly Formatting</span>
@@ -677,20 +717,24 @@
     {{-- ============ TRUST ============ --}}
     <section class="rw-section alt">
         <div class="rw-wrap rw-trust-grid">
-            <img src="{{ asset('public/user/images/about-founders.jpg') }}"
-                 alt="The JobGader team working on candidate applications"
-                 width="1000" height="700" loading="lazy" decoding="async">
+            <img src="{{ asset('public/user/images/resume-review.jpg') }}"
+                 alt="A hiring manager reading a candidate&rsquo;s resume"
+                 width="896" height="1200" loading="lazy" decoding="async">
             <div class="rw-trust-copy">
                 <span class="rw-eyebrow">Why Work With Us</span>
                 <h2>Straight Terms, <span class="accent">No Small Print</span></h2>
                 <p class="rw-lede" style="margin: 0 0 26px; max-width: none;">
                     We would rather tell you what we can honestly do than promise a number that
-                    sounds impressive.
+                    sounds impressive. Six things we will hold ourselves to.
                 </p>
                 <div class="rw-trust-points">
                     <div class="rw-trust-card">
                         <h3>A person, start to finish</h3>
                         <p>No AI generation and no template fill. One writer works with you from the first message to the final file.</p>
+                    </div>
+                    <div class="rw-trust-card">
+                        <h3>Written for the role you name</h3>
+                        <p>A CV aimed at everything reads as though it was aimed at nothing. Tell us the job title you are chasing and the document is built toward it.</p>
                     </div>
                     <div class="rw-trust-card">
                         <h3>Built for the screening software</h3>
@@ -699,6 +743,10 @@
                     <div class="rw-trust-card">
                         <h3>Written for your market</h3>
                         <p>A US resume and a Gulf or UK CV are different documents. Tell us where you are applying and we write to that convention.</p>
+                    </div>
+                    <div class="rw-trust-card">
+                        <h3>You get the editable file</h3>
+                        <p>A .docx you can keep updating yourself, alongside a PDF for sending. No locked template, no subscription, nothing to renew.</p>
                     </div>
                     <div class="rw-trust-card">
                         <h3>No guarantees we cannot keep</h3>
@@ -854,7 +902,7 @@
     </section>
 
     {{-- ============ RELATED READING ============ --}}
-    <section class="rw-section">
+    <section class="rw-section alt">
         <div class="rw-wrap">
             <div class="rw-head-center">
                 <span class="rw-eyebrow">Before You Apply</span>

@@ -76,14 +76,65 @@ it('shows the site contact address rather than a hardcoded one', function () {
 });
 
 it('lays the image sections out as equal halves at the site width', function () {
-    // The hero image floated in the middle of a taller text block; both sides
-    // are now one column each and the picture is cropped to fill its half.
     $html = get('/resume-writing-services')->assertOk()->getContent();
 
     expect($html)->toContain('max-width: 1440px')
-        ->toContain('.rw-hero-grid { display: grid; grid-template-columns: 1fr 1fr;')
         ->toContain('.rw-trust-grid { display: grid; grid-template-columns: 1fr 1fr;')
         ->toContain('object-fit: cover');
+});
+
+it('runs the hero photograph across the band and centres the copy on it', function () {
+    // The picture used to sit in a panel beside the text. It is now the
+    // background of the whole section with the copy centred over a scrim.
+    $html = get('/resume-writing-services')->assertOk()->getContent();
+
+    expect($html)->toContain("resume-writer.jpg') center 34% / cover no-repeat")
+        ->toContain('.rw-hero-inner { max-width: 880px; margin: 0 auto; }')
+        ->toContain('position: relative; padding: 108px 0 116px; text-align: center;')
+        // The old two-column hero is gone entirely.
+        ->not->toContain('rw-hero-grid')
+        ->not->toContain('rw-hero-media');
+
+    // A CSS background is invisible to the preload scanner, so the largest
+    // paint would otherwise wait for the stylesheet.
+    expect($html)->toContain('rel="preload" as="image"')
+        ->toContain('fetchpriority="high"');
+});
+
+it('sizes the eyebrow pill to its own text', function () {
+    // .rw-hero-copy and .rw-trust-copy are flex columns and a flex item
+    // stretches to the full track, so the inline-block pill ran the width of
+    // the column instead of the width of the label.
+    $html = get('/resume-writing-services')->assertOk()->getContent();
+
+    expect($html)->toContain('display: inline-block; width: fit-content; align-self: flex-start;');
+});
+
+it('stacks six reasons in one column with a rule that draws in on hover', function () {
+    $html = get('/resume-writing-services')->assertOk()->getContent();
+
+    expect(substr_count($html, '<div class="rw-trust-card">'))->toBe(6);
+
+    expect($html)->toContain('.rw-trust-points { display: grid; grid-template-columns: 1fr; gap: 0; }')
+        ->toContain('.rw-trust-card:hover::after { width: 100%; }')
+        // Two new promises, both things a writer can actually control.
+        ->toContain('Written for the role you name')
+        ->toContain('You get the editable file');
+});
+
+it('does not reuse a photograph another page already owns', function () {
+    // hero-diverse-professionals is the banner for every page without one of
+    // its own, and about-founders belongs to the about page. The layout's own
+    // stylesheet mentions the first on every page, so read only this page.
+    $html = get('/resume-writing-services')->assertOk()->getContent();
+    $page = substr($html, strpos($html, '<div class="rw-page">'));
+
+    expect($page)->not->toContain('hero-diverse-professionals')
+        ->not->toContain('about-founders');
+
+    foreach (['resume-writer.jpg', 'resume-review.jpg'] as $file) {
+        expect(file_exists(public_path('user/images/'.$file)))->toBeTrue($file.' missing');
+    }
 });
 
 it('carries the market and ATS sections that do the long-tail work', function () {

@@ -1987,8 +1987,8 @@
                 <article class="process-card" data-aos="fade-up" data-aos-delay="360" data-aos-duration="700">
                     <span class="step-badge">Step 4</span>
                     <div class="card-image">
-                        <img src="{{ asset('public/user/images/callout-1-founders.jpg') }}"
-                             alt="Get hired by trusted employers across {{ $coverage->shortList() }}"
+                        <img src="{{ asset('public/user/images/callout-1.jpg') }}"
+                             alt="Job seeker sending an application straight to an employer across {{ $coverage->shortList() }}"
                              loading="lazy">
                     </div>
                     <h3>Apply Direct, Free</h3>

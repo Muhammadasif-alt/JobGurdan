@@ -591,10 +591,10 @@
         <div class="container">
             <div class="js-spotlight-grid">
                 <div class="js-spotlight-visual">
-                    <img src="{{ asset('public/user/images/seo-jobseekers.webp') }}"
-                         alt="Confident job seeker walking out of a successful interview"
+                    <img src="{{ asset('public/user/images/companies-why.webp') }}"
+                         alt="Recruiter shortlisting candidates from a talent directory"
                          loading="lazy"
-                         onerror="this.onerror=null;this.src='{{ asset('public/user/images/seo-jobseekers.jpg') }}'">
+                         onerror="this.onerror=null;this.src='{{ asset('public/user/images/companies-why.jpg') }}'">
                     <span class="js-spotlight-pill"><i class="icon-feather-check-circle"></i> Free to list</span>
                 </div>
                 <div class="js-spotlight-content">
