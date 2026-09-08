@@ -122,6 +122,34 @@ it('stacks six reasons in one column with a rule that draws in on hover', functi
         ->toContain('You get the editable file');
 });
 
+it('walks the process in four steps joined by a rule', function () {
+    $html = get('/resume-writing-services')->assertOk()->getContent();
+
+    expect(substr_count($html, '<div class="rw-step">'))->toBe(4)
+        ->and($html)->toContain('Four Steps,')
+        ->not->toContain('Three Steps,');
+
+    expect($html)->toContain('.rw-steps { display: grid; grid-template-columns: repeat(4, 1fr);')
+        ->toContain('.rw-step + .rw-step::before {')
+        // Stacked on a phone there is nothing to join.
+        ->toContain('.rw-step + .rw-step::before { display: none; }');
+});
+
+it('reads as rows rather than boxes in the dark theme', function () {
+    // .rw-trust-card was still in the group that paints a card background and
+    // a full border, so the six rows came out as boxes jammed together.
+    $html = get('/resume-writing-services')->assertOk()->getContent();
+
+    $start = strpos($html, 'html.dark-mode .rw-trust-card {');
+    expect($start)->not->toBeFalse('dark trust rule missing');
+    expect(substr($html, $start, 160))->toContain('background: transparent; border: 0;');
+
+    // Brand navy accents sit a few points off the dark background, so every
+    // one of them disappeared.
+    expect($html)->toContain('html.dark-mode .rw-market { border-left-color: #8fc4f0; }')
+        ->toContain('html.dark-mode .rw-step + .rw-step::before');
+});
+
 it('does not reuse a photograph another page already owns', function () {
     // hero-diverse-professionals is the banner for every page without one of
     // its own, and about-founders belongs to the about page. The layout's own

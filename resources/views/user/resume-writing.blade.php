@@ -180,9 +180,20 @@
     .rw-service h3 { font-size: 18px; font-weight: 800; color: #1b3a6b; margin: 16px 0 10px; }
     .rw-service p { color: #55657a; font-size: 14.8px; line-height: 1.66; margin: 0; }
 
-    /* ===== Steps ===== */
-    .rw-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; text-align: center; }
+    /* ===== Steps =====
+       A rule joins each circle to the one before it. Its ends are worked out
+       from the column itself: the previous circle's centre sits at
+       -(50% + gap) and this one's at 50%, so both ends back off by the radius
+       plus a little air. That keeps it exact whatever the column width. */
+    .rw-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 26px; text-align: center; }
+    .rw-step { position: relative; }
+    .rw-step + .rw-step::before {
+        content: ""; position: absolute; top: 28px; height: 2px;
+        left: calc(-50% + 12px); right: calc(50% + 38px);
+        background: #cfe0f3;
+    }
     .rw-step-num {
+        position: relative; z-index: 1;
         width: 58px; height: 58px; margin: 0 auto 18px; border-radius: 50%;
         display: grid; place-items: center; font-size: 21px; font-weight: 800;
         background: #fff; color: #1b3a6b; border: 2.5px solid #1b3a6b;
@@ -343,6 +354,8 @@
         .rw-services, .rw-industries { grid-template-columns: repeat(2, 1fr); }
         .rw-trust-grid img { min-height: 320px; }
         .rw-problems, .rw-steps, .rw-readmore { grid-template-columns: 1fr; }
+        /* Stacked, so there is nothing for the rule to join. */
+        .rw-step + .rw-step::before { display: none; }
         .rw-ticks { justify-content: flex-start; text-align: left; }
     }
     @media (max-width: 620px) {
@@ -358,11 +371,18 @@
     html.dark-mode .rw-hero::before {
         background: linear-gradient(180deg, rgba(6,14,28,.93) 0%, rgba(12,26,48,.88) 48%, rgba(6,14,28,.95) 100%);
     }
-    html.dark-mode .rw-trust-card { border-bottom-color: rgba(255,255,255,.10); }
-    html.dark-mode .rw-trust-card:first-child { border-top-color: rgba(255,255,255,.10); }
+    html.dark-mode .rw-trust-card {
+        background: transparent; border: 0;
+        border-bottom: 1px solid rgba(255,255,255,.13);
+    }
+    html.dark-mode .rw-trust-card:first-child { border-top: 1px solid rgba(255,255,255,.13); }
     html.dark-mode .rw-trust-card::after { background: #8fc4f0; }
     html.dark-mode .rw-trust-card:hover h3 { color: #8fc4f0; }
-    html.dark-mode .rw-section.alt { background: rgba(255,255,255,.02); }
+    html.dark-mode .rw-section.alt { background: rgba(255,255,255,.035); }
+    html.dark-mode .rw-market { border-left-color: #8fc4f0; }
+    html.dark-mode .rw-industry,
+    html.dark-mode .rw-service { border-bottom-color: #8fc4f0; }
+    html.dark-mode .rw-step + .rw-step::before { background: rgba(255,255,255,.18); }
     html.dark-mode .rw-page h2,
     html.dark-mode .rw-hero h1,
     html.dark-mode .rw-problem h3,
@@ -389,7 +409,6 @@
     html.dark-mode .rw-problem,
     html.dark-mode .rw-service,
     html.dark-mode .rw-industry,
-    html.dark-mode .rw-trust-card,
     html.dark-mode .rw-faq,
     html.dark-mode .rw-readmore a,
     html.dark-mode .rw-market,
@@ -535,7 +554,7 @@
         <div class="rw-wrap">
             <div class="rw-head-center">
                 <span class="rw-eyebrow">Simple Process</span>
-                <h2>Three Steps, <span class="accent">No Endless Forms</span></h2>
+                <h2>Four Steps, <span class="accent">No Endless Forms</span></h2>
                 <p class="rw-lede">You talk to the person writing your resume. That is the whole process.</p>
             </div>
             <div class="rw-steps">
@@ -553,6 +572,11 @@
                     <div class="rw-step-num">3</div>
                     <h3>You review it</h3>
                     <p>Read the draft and tell us what to change. We rewrite until it sounds like you and reads the way you want it to.</p>
+                </div>
+                <div class="rw-step">
+                    <div class="rw-step-num">4</div>
+                    <h3>You get the files</h3>
+                    <p>A .docx you can keep editing yourself and a PDF ready to send. They are yours &mdash; no locked template and nothing to renew.</p>
                 </div>
             </div>
         </div>
