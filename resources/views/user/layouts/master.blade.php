@@ -2166,6 +2166,55 @@
             </script>
         @endguest
 
+        {{-- Floating WhatsApp button. Renders only when a number is configured:
+             a contact button that dials nothing is worse than no button. --}}
+        @php
+            $waFloatNumber = preg_replace('/\D+/', '', (string) config('site.whatsapp'));
+        @endphp
+        @if($waFloatNumber !== '')
+            <a href="https://wa.me/{{ $waFloatNumber }}?text={{ rawurlencode('Hi, I found you on JobGader.') }}"
+               class="wa-float" target="_blank" rel="noopener"
+               aria-label="Message JobGader on WhatsApp">
+                <i class="icon-brand-whatsapp" aria-hidden="true"></i>
+                <span>WhatsApp</span>
+            </a>
+            <style>
+                .wa-float {
+                    position: fixed; left: 25px; bottom: 25px; z-index: 998;
+                    display: inline-flex; align-items: center; gap: 0;
+                    height: 54px; padding: 0 15px; border-radius: 999px;
+                    background: #25d366; color: #fff !important;
+                    box-shadow: 0 6px 20px rgba(37,211,102,.38);
+                    text-decoration: none; overflow: hidden;
+                    transition: gap .22s ease, padding .22s ease, box-shadow .18s ease, transform .12s ease;
+                }
+                .wa-float i { font-size: 26px; line-height: 1; color: #fff !important; }
+                .wa-float span {
+                    max-width: 0; opacity: 0; white-space: nowrap;
+                    font: 700 14.5px/1 'Nunito', system-ui, sans-serif; color: #fff !important;
+                    transition: max-width .22s ease, opacity .18s ease;
+                }
+                /* The label unrolls on hover so the resting state stays a circle. */
+                .wa-float:hover, .wa-float:focus-visible {
+                    gap: 10px; padding: 0 20px 0 15px;
+                    box-shadow: 0 10px 26px rgba(37,211,102,.48);
+                    transform: translateY(-2px);
+                }
+                .wa-float:hover span, .wa-float:focus-visible span { max-width: 110px; opacity: 1; }
+                .wa-float:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+                @media (max-width: 767px) {
+                    .wa-float { left: 16px; bottom: 16px; height: 48px; padding: 0 13px; }
+                    .wa-float i { font-size: 23px; }
+                    /* No hover on touch, so the label would never open. */
+                    .wa-float span { display: none; }
+                }
+                @media (prefers-reduced-motion: reduce) {
+                    .wa-float, .wa-float span { transition: none; }
+                    .wa-float:hover { transform: none; }
+                }
+            </style>
+        @endif
+
 </body>
 
 <!-- Mirrored from jobword.utouchdesign.com/jobword_ltr/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 06 Apr 2025 10:26:10 GMT -->
