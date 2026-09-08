@@ -1431,7 +1431,7 @@
             #footer {
                 background:
                     linear-gradient(135deg, rgba(47,127,201,.88) 0%, rgba(31,74,133,.92) 55%, rgba(21,45,84,.94) 100%),
-                    url('{{ asset('public/user/images/footer-photo-bg.jpg') }}') center / cover no-repeat,
+                    url('{{ asset('public/user/images/footer-recruitment-bg.jpg') }}') center / cover no-repeat,
                     #1b3a6b !important;
                 color: #dbe8f7 !important;
                 padding: 0 !important;
@@ -1586,7 +1586,7 @@
             html.dark-mode #footer {
                 background:
                     linear-gradient(135deg, rgba(18,42,78,.95) 0%, rgba(12,28,54,.97) 55%, rgba(8,18,36,.98) 100%),
-                    url('{{ asset('public/user/images/footer-photo-bg.jpg') }}') center / cover no-repeat,
+                    url('{{ asset('public/user/images/footer-recruitment-bg.jpg') }}') center / cover no-repeat,
                     var(--site-bg) !important;
                 color: var(--site-text) !important;
                 border-top: 1px solid var(--site-card-bd);
