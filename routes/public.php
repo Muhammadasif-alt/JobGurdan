@@ -47,6 +47,9 @@ Route::get('/job-seekers/{username}', [JobSeekerPublicController::class, 'show']
     ->where('username', '[A-Za-z0-9_.]+')
     ->name('job-seekers.show');
 
+// Resume & CV writing service
+Route::get('/resume-writing-services', [UserJobController::class, 'resumeWriting'])->name('resume-writing');
+
 // Static informational pages from UserJobController
 Route::get('/about-us', [UserJobController::class, 'about_us'])->name('about.us');
 Route::get('/contact-us', [UserJobController::class, 'contact_us'])->name('contact.us');
@@ -226,6 +229,7 @@ Route::get('/sitemap-core.xml', function () use ($sitemapUrl, $sitemapResponse) 
     $inner .= $sitemapUrl(url('/categories'), 'weekly', '0.7');
     $inner .= $sitemapUrl(url('/locations'), 'weekly', '0.7');
     $inner .= $sitemapUrl(url('/blog'), 'weekly', '0.7');
+    $inner .= $sitemapUrl(url('/resume-writing-services'), 'monthly', '0.8');
 
     foreach (['/about-us', '/contact-us', '/privacy-policy', '/terms-of-service', '/disclaimer'] as $p) {
         $inner .= $sitemapUrl(url($p), 'monthly', '0.4');

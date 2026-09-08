@@ -20,6 +20,20 @@ return [
     'contact_email' => env('SITE_CONTACT_EMAIL', 'infojobgader@gmail.com'),
 
     /*
+    |--------------------------------------------------------------------------
+    | WhatsApp Number
+    |--------------------------------------------------------------------------
+    |
+    | Digits only, including the country code and no plus sign or spaces —
+    | wa.me rejects anything else. Leave it empty and the WhatsApp buttons
+    | simply do not render, which is the right behaviour: a contact button
+    | that dials a wrong number is worse than no button.
+    |
+    */
+
+    'whatsapp' => env('SITE_WHATSAPP'),
+
+    /*
      * Named only when the listings table cannot answer the question — an empty
      * board still has to render a sentence. SiteCoverage reads the real list
      * from the jobs themselves.

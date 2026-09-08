@@ -38,7 +38,7 @@ it('names each nav link after what is on the page, not who it is for', function 
 it('puts Jobs first after Home, ahead of the two directories', function () {
     $labels = navLabels();
 
-    expect(array_slice($labels, 0, 5))->toBe(['Home', 'Jobs', 'Companies', 'Talent', 'Career Advice']);
+    expect(array_slice($labels, 0, 6))->toBe(['Home', 'Jobs', 'Companies', 'Talent', 'Resume Writing', 'Career Advice']);
 });
 
 it('marks the page you are on as current', function (string $path, string $label) {
@@ -53,6 +53,7 @@ it('marks the page you are on as current', function (string $path, string $label
     'jobs' => ['/jobs', 'Jobs'],
     'companies' => ['/companies', 'Companies'],
     'talent' => ['/job-seekers', 'Talent'],
+    'resume' => ['/resume-writing-services', 'Resume Writing'],
     'advice' => ['/blog', 'Career Advice'],
 ]);
 

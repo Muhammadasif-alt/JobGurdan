@@ -409,6 +409,13 @@
                                 </li>
 
                                 <li>
+                                    <a href="{{ route('resume-writing') }}"
+                                        class="{{ request()->routeIs('resume-writing') ? 'current' : '' }}">
+                                        Resume Writing
+                                    </a>
+                                </li>
+
+                                <li>
                                     <a href="{{ route('blog.index') }}"
                                         class="{{ request()->routeIs('blog.*') ? 'current' : '' }}">
                                         Career Advice

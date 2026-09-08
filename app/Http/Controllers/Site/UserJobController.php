@@ -730,6 +730,12 @@ class UserJobController extends Controller
         return view('user.contact-us');
     }
 
+    /** Paid resume and CV writing service, with the enquiry form at the foot. */
+    public function resumeWriting(): \Illuminate\View\View
+    {
+        return view('user.resume-writing');
+    }
+
     public function search(Request $request, JobSearchService $searchService)
     {
         $result = $searchService->search($request, 9);

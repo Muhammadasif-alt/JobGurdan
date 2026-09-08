@@ -113,7 +113,27 @@ class ContactMessageController extends Controller
             'email' => 'required|email',
             'subject' => 'required|string|max:255',
             'message' => 'required|string',
+            // Only the resume enquiry form sends these three.
+            'phone' => 'nullable|string|max:40',
+            'target_role' => 'nullable|string|max:191',
+            'source' => 'nullable|string|in:contact,resume',
         ]);
+
+        // contact_messages has no column for the two extra fields, and the
+        // admin reads this table by hand, so fold them into the message rather
+        // than adding columns only one form would ever populate.
+        $extra = array_filter([
+            'WhatsApp' => $validated['phone'] ?? null,
+            'Target role' => $validated['target_role'] ?? null,
+        ]);
+        foreach ($extra as $label => $value) {
+            $validated['message'] .= "
+
+{$label}: {$value}";
+        }
+
+        $source = $validated['source'] ?? 'contact';
+        unset($validated['phone'], $validated['target_role'], $validated['source']);
 
         // 3. Keyword filter — drop messages containing typical SEO-spam phrases
         $haystack = mb_strtolower(($validated['subject'] ?? '').' '.($validated['message'] ?? ''));
@@ -159,7 +179,10 @@ class ContactMessageController extends Controller
             ]);
         }
 
-        return redirect('/')->with('success', 'Thank you for your message! We will get back to you soon.');
+        return $source === 'resume'
+            ? redirect()->to(route('resume-writing').'#resume-enquiry')
+                ->with('success', 'Thank you! We have your details and will reply on WhatsApp or by email within one business day.')
+            : redirect('/')->with('success', 'Thank you for your message! We will get back to you soon.');
     }
 
     /**
