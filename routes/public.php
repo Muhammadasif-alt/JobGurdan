@@ -12,6 +12,7 @@ use App\Http\Controllers\ContactMessageController;
 use App\Http\Controllers\Public\BlogController as PublicBlogController;
 use App\Http\Controllers\Public\JobSeekerPublicController;
 use App\Http\Controllers\Site\UserJobController;
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 // Homepage & main job pages
@@ -212,6 +213,16 @@ Route::get('/sitemap-core.xml', function () use ($sitemapUrl, $sitemapResponse) 
     $inner .= $sitemapUrl(url('/jobs'), 'hourly', '0.9');
     $inner .= $sitemapUrl(url('/companies'), 'daily', '0.8');
     $inner .= $sitemapUrl(url('/job-seekers'), 'daily', '0.7');
+
+    // Only profiles the candidate has actually filled in; the rest carry a
+    // noindex and would be a thin-content signal if we submitted them.
+    User::where('role', User::ROLE_JOB_SEEKER)
+        ->where('is_active', true)
+        ->get()
+        ->filter->hasPublishableProfile()
+        ->each(function (User $seeker) use (&$inner, $sitemapUrl) {
+            $inner .= $sitemapUrl(url('/job-seekers/'.$seeker->username), 'weekly', '0.5');
+        });
     $inner .= $sitemapUrl(url('/categories'), 'weekly', '0.7');
     $inner .= $sitemapUrl(url('/locations'), 'weekly', '0.7');
     $inner .= $sitemapUrl(url('/blog'), 'weekly', '0.7');

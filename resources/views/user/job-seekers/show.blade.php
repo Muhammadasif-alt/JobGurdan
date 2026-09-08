@@ -1,7 +1,11 @@
 @extends('user.layouts.master')
 
 @section('title', $seeker->name.' — Job Seeker Profile | JobGader')
-@section('meta_description', $seeker->name.' is actively looking for opportunities in '.$profile['city'].'. View skills, experience and contact details on JobGader.')
+@section('meta_description', $seeker->name.' is looking for work'.($profile['city'] ? ' in '.$profile['city'] : '').'. View skills, experience and contact details on JobGader.')
+
+{{-- A name and an email is a stub, not a page. Profiles stay out of the
+     index until the candidate has filled in enough of their own detail. --}}
+@section('meta_robots', $seeker->hasPublishableProfile() ? 'index, follow' : 'noindex, follow')
 
 @section('content')
 
@@ -387,11 +391,19 @@
                 <div class="seeker-meta">
                     <span class="seeker-status"><span class="dot"></span> Actively looking</span>
                     <h1 class="seeker-name">{{ $seeker->name }}</h1>
-                    <p class="seeker-headline">{{ $profile['headline'] }}</p>
+                    @if($profile['headline'])
+                        <p class="seeker-headline">{{ $profile['headline'] }}</p>
+                    @endif
                     <div class="seeker-quick-meta">
-                        <span><i class="icon-feather-map-pin"></i> {{ $profile['city'] }}</span>
-                        <span><i class="icon-feather-briefcase"></i> {{ $profile['experience_years'] }} yrs experience</span>
-                        <span><i class="icon-feather-clock"></i> Open to {{ $profile['open_to'] }}</span>
+                        @if($profile['city'])
+                            <span><i class="icon-feather-map-pin"></i> {{ $profile['city'] }}</span>
+                        @endif
+                        @if($profile['experience_years'])
+                            <span><i class="icon-feather-briefcase"></i> {{ $profile['experience_years'] }} yrs experience</span>
+                        @endif
+                        @if($profile['open_to'])
+                            <span><i class="icon-feather-clock"></i> Open to {{ $profile['open_to'] }}</span>
+                        @endif
                     </div>
                 </div>
                 <div class="seeker-cta-col">
@@ -412,35 +424,57 @@
         {{-- ============ BODY ============ --}}
         <div class="seeker-body">
             <div class="seeker-main">
-                <div class="panel">
-                    <h3><i class="icon-feather-user"></i> About</h3>
-                    <p>{{ $seeker->name }} is a {{ $profile['experience_years'] }}-year veteran based in {{ $profile['city'] }}, currently exploring {{ $profile['open_to'] }} opportunities across {{ $coverage->shortList() }}.</p>
-                    <p>{{ $profile['headline'] }} — comfortable working in fast-paced environments, with a strong track record of meeting deadlines and collaborating across teams. Available to start immediately for the right role.</p>
-                </div>
-
-                <div class="panel">
-                    <h3><i class="icon-feather-zap"></i> Top Skills</h3>
-                    <div class="skill-grid">
-                        @foreach($profile['skills'] as $skill)
-                            <span class="skill"><i class="icon-feather-check"></i> {{ $skill }}</span>
+                @if($seeker->bio)
+                    <div class="panel">
+                        <h3><i class="icon-feather-user"></i> About</h3>
+                        {{-- The candidate's own words. We do not write these for them. --}}
+                        @foreach(preg_split('/\R{2,}/', trim($seeker->bio)) as $para)
+                            <p>{{ $para }}</p>
                         @endforeach
                     </div>
-                </div>
+                @endif
+
+                @if($profile['skills'])
+                    <div class="panel">
+                        <h3><i class="icon-feather-zap"></i> Top Skills</h3>
+                        <div class="skill-grid">
+                            @foreach($profile['skills'] as $skill)
+                                <span class="skill"><i class="icon-feather-check"></i> {{ $skill }}</span>
+                            @endforeach
+                        </div>
+                    </div>
+                @endif
+
+                @if($profile['links'])
+                    <div class="panel">
+                        <h3><i class="icon-feather-link"></i> Portfolio &amp; Profiles</h3>
+                        <div class="skill-grid">
+                            @foreach($profile['links'] as $label => $url)
+                                <a class="skill" href="{{ $url }}" target="_blank" rel="nofollow noopener ugc">
+                                    <i class="icon-feather-external-link"></i> {{ $label }}
+                                </a>
+                            @endforeach
+                        </div>
+                    </div>
+                @endif
 
                 <div class="panel">
                     <h3><i class="icon-feather-target"></i> Job Preferences</h3>
                     <dl class="info-table">
-                        <dt>Preferred Location</dt>
-                        <dd>{{ $profile['city'] }}</dd>
+                        @if($profile['city'])
+                            <dt>Preferred Location</dt>
+                            <dd>{{ $profile['city'] }}</dd>
+                        @endif
 
-                        <dt>Open To</dt>
-                        <dd>{{ $profile['open_to'] }} positions, on-site or remote</dd>
+                        @if($profile['open_to'])
+                            <dt>Open To</dt>
+                            <dd>{{ $profile['open_to'] }} positions</dd>
+                        @endif
 
-                        <dt>Experience</dt>
-                        <dd>{{ $profile['experience_years'] }} years in the industry</dd>
-
-                        <dt>Available From</dt>
-                        <dd>Immediately</dd>
+                        @if($profile['experience_years'])
+                            <dt>Experience</dt>
+                            <dd>{{ $profile['experience_years'] }} years in the industry</dd>
+                        @endif
 
                         <dt>Username</dt>
                         <dd>&#64;{{ $seeker->username }}</dd>
@@ -479,7 +513,7 @@
                                     <div class="av">{{ $rsInitials ?: 'U' }}</div>
                                     <div class="info">
                                         <div class="nm">{{ $rs->name }}</div>
-                                        <div class="ct">{{ $rsProfile['city'] }} · {{ $rsProfile['experience_years'] }} yrs</div>
+                                        <div class="ct">{{ collect([$rsProfile['city'], $rsProfile['experience_years'] ? $rsProfile['experience_years'].' yrs' : null])->filter()->implode(' · ') ?: '@'.$rs->username }}</div>
                                     </div>
                                 </a>
                             @endforeach
@@ -493,31 +527,42 @@
         @php $firstName = explode(' ', $seeker->name)[0]; @endphp
         <section class="sk-why-section">
             <div class="sk-section-head">
-                <span class="eyebrow">Why {{ $firstName }}</span>
-                <h2>{{ $firstName }} stands out — and here's why employers move fast</h2>
-                <p>Every job seeker on JobGader is verified, active, and reachable within 24 hours. Skip cold-emailing — start a conversation today.</p>
+                <span class="eyebrow">About this profile</span>
+                <h2>What {{ $firstName }} has published here</h2>
+                <p>Everything on this page was entered by the candidate. Contact them directly — there is no recruiter fee and no message limit in between.</p>
             </div>
             <div class="sk-why-grid">
                 <div class="sk-why-card">
-                    <div class="sk-why-ico"><i class="icon-feather-shield"></i></div>
-                    <h4>Verified Profile</h4>
-                    <p>Identity, work history, and contact details reviewed by our trust team — no fake profiles.</p>
+                    <div class="sk-why-ico"><i class="icon-feather-user-check"></i></div>
+                    <h4>Published by {{ $firstName }}</h4>
+                    <p>This profile was created and filled in by the candidate, who chose to be listed publicly. It can be taken down at any time.</p>
                 </div>
                 <div class="sk-why-card">
-                    <div class="sk-why-ico"><i class="icon-feather-zap"></i></div>
-                    <h4>Actively Looking</h4>
-                    <p>{{ $firstName }} logged in this week and is ready to interview. Open to new roles right now.</p>
+                    <div class="sk-why-ico"><i class="icon-feather-mail"></i></div>
+                    <h4>Verified Email</h4>
+                    <p>{{ $seeker->email_verified_at ? 'The email address on this account has been confirmed.' : 'This account has not confirmed its email address yet.' }}</p>
                 </div>
-                <div class="sk-why-card">
-                    <div class="sk-why-ico"><i class="icon-feather-clock"></i></div>
-                    <h4>Fast Response</h4>
-                    <p>Average reply time under 24 hours. No ghosting, no waiting weeks for callbacks.</p>
-                </div>
-                <div class="sk-why-card">
-                    <div class="sk-why-ico"><i class="icon-feather-award"></i></div>
-                    <h4>{{ $profile['experience_years'] }}+ Years Experience</h4>
-                    <p>Proven track record in {{ $profile['city'] }} — comfortable in fast-paced, high-volume environments.</p>
-                </div>
+                @if($profile['skills'])
+                    <div class="sk-why-card">
+                        <div class="sk-why-ico"><i class="icon-feather-zap"></i></div>
+                        <h4>{{ count($profile['skills']) }} Skills Listed</h4>
+                        <p>{{ implode(', ', array_slice($profile['skills'], 0, 4)) }}{{ count($profile['skills']) > 4 ? ' and more' : '' }}.</p>
+                    </div>
+                @endif
+                @if($profile['experience_years'])
+                    <div class="sk-why-card">
+                        <div class="sk-why-ico"><i class="icon-feather-award"></i></div>
+                        <h4>{{ $profile['experience_years'] }} Years Experience</h4>
+                        <p>As stated by the candidate{{ $profile['city'] ? ', based in '.$profile['city'] : '' }}.</p>
+                    </div>
+                @endif
+                @if($profile['links'])
+                    <div class="sk-why-card">
+                        <div class="sk-why-ico"><i class="icon-feather-link"></i></div>
+                        <h4>Work You Can Check</h4>
+                        <p>{{ implode(', ', array_keys($profile['links'])) }} — judge the work yourself before you reach out.</p>
+                    </div>
+                @endif
             </div>
         </section>
 

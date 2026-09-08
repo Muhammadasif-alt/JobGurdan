@@ -232,7 +232,7 @@
                             </div>
                         </div>
 
-                        <div class="field" style="margin-bottom:0;">
+                        <div class="field">
                             <label>Open To</label>
                             <select name="open_to">
                                 <option value="">— Select —</option>
@@ -240,6 +240,22 @@
                                     <option value="{{ $opt }}" {{ old('open_to', $user->open_to) === $opt ? 'selected' : '' }}>{{ $opt }}</option>
                                 @endforeach
                             </select>
+                        </div>
+
+                        @php $userLinks = is_array($user->links) ? $user->links : []; @endphp
+                        <div class="field" style="margin-bottom:0;">
+                            <label>Portfolio &amp; Profiles</label>
+                            <div class="row-2">
+                                @foreach(['LinkedIn', 'Upwork', 'Fiverr', 'Portfolio'] as $platform)
+                                    <div class="field" style="margin-bottom:12px;">
+                                        <input type="url"
+                                               name="links[{{ $platform }}]"
+                                               value="{{ old('links.'.$platform, $userLinks[$platform] ?? '') }}"
+                                               placeholder="{{ $platform }} URL">
+                                    </div>
+                                @endforeach
+                            </div>
+                            <p class="help">Employers judge you on work they can open. Leave any you do not use blank.</p>
                         </div>
                     </div>
                     <div class="form-foot">

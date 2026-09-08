@@ -14,8 +14,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        // JobSeekerSeeder is demo data — fifteen invented US candidates on
+        // @example.com addresses, all sharing the password "password". Running
+        // it against production would publish fake people in the public
+        // directory, so it is called explicitly in local work, never here.
         $this->call([
-            JobSeekerSeeder::class,
+            RealJobSeekersSeeder::class,
         ]);
     }
 }

@@ -44,6 +44,7 @@ class User extends Authenticatable
         'website',
         'address',
         'company_size',
+        'links',
         'resume_data',
     ];
 
@@ -79,6 +80,7 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
             'is_active' => 'boolean',
+            'links' => 'array',
             'resume_data' => 'array',
         ];
     }
@@ -143,5 +145,53 @@ class User extends Authenticatable
     public function jobAlerts(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
         return $this->hasMany(JobAlert::class)->orderByDesc('created_at');
+    }
+
+    /**
+     * Skills as a clean list. Seekers type them into one free-text box, so
+     * accept commas, slashes, pipes and newlines as separators.
+     *
+     * @return list<string>
+     */
+    public function skillList(): array
+    {
+        $parts = preg_split('/[,|\/
+]+/', (string) $this->skills) ?: [];
+
+        return array_values(array_filter(array_map('trim', $parts), fn (string $s): bool => $s !== ''));
+    }
+
+    /**
+     * Profile links the seeker has published, keyed by label.
+     *
+     * @return array<string, string>
+     */
+    public function profileLinks(): array
+    {
+        $links = is_array($this->links) ? $this->links : [];
+
+        if ($this->website) {
+            $links = ['Website' => $this->website] + $links;
+        }
+
+        return array_filter($links, fn ($url): bool => is_string($url) && trim($url) !== '');
+    }
+
+    /**
+     * Whether this seeker's public profile carries enough of their own words
+     * to be worth a search engine indexing. A name and an email is a stub, not
+     * a page; those stay out of the index until the person fills them in.
+     */
+    public function hasPublishableProfile(): bool
+    {
+        $signals = [
+            trim((string) $this->headline) !== '',
+            count($this->skillList()) >= 3,
+            mb_strlen(trim((string) $this->bio)) >= 120,
+            $this->cv_path !== null,
+            $this->profileLinks() !== [],
+        ];
+
+        return count(array_filter($signals)) >= 3;
     }
 }

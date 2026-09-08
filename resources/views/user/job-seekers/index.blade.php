@@ -403,17 +403,28 @@
                                 </div>
                                 <div>
                                     <h3 class="js-card-name">{{ $seeker->name }}</h3>
-                                    <span class="js-card-loc"><i class="icon-feather-map-pin"></i> {{ $profile['city'] }}</span>
+                                    <span class="js-card-loc">
+                                        <i class="icon-feather-map-pin"></i>
+                                        {{ $profile['city'] ?: '@'.$seeker->username }}
+                                    </span>
                                 </div>
                             </div>
-                            <p class="js-card-headline">{{ $profile['headline'] }}</p>
+                            <p class="js-card-headline">{{ $profile['headline'] ?: 'Profile in progress — no headline yet.' }}</p>
                             <div class="js-skills">
                                 @foreach(array_slice($profile['skills'], 0, 4) as $skill)
                                     <span class="js-skill">{{ $skill }}</span>
                                 @endforeach
                             </div>
                             <div class="js-card-meta">
-                                <span class="js-card-exp"><i class="icon-feather-briefcase"></i> {{ $profile['experience_years'] }} yr exp · {{ $profile['open_to'] }}</span>
+                                @php
+                                    $cardMeta = collect([
+                                        $profile['experience_years'] ? $profile['experience_years'].' yr exp' : null,
+                                        $profile['open_to'],
+                                    ])->filter()->implode(' · ');
+                                @endphp
+                                <span class="js-card-exp">
+                                    @if($cardMeta)<i class="icon-feather-briefcase"></i> {{ $cardMeta }}@endif
+                                </span>
                                 <span class="js-view-link">View Profile <i class="icon-feather-arrow-right"></i></span>
                             </div>
                         </a>
@@ -451,7 +462,7 @@
                 </details>
                 <details class="js-faq">
                     <summary>Are these candidates verified?</summary>
-                    <div class="js-faq-body">Every account on JobGader goes through email verification before profiles are listed publicly. Our team also flags suspicious accounts to keep the talent pool clean and trustworthy.</div>
+                    <div class="js-faq-body">Accounts confirm their email address before they can publish, and every profile is written by the candidate themselves. We do not vet employment history — treat a profile as a candidate's own claim, and check their portfolio links and references as you would with any application.</div>
                 </details>
                 <details class="js-faq">
                     <summary>Is there a cost to browse job seekers?</summary>
@@ -459,11 +470,11 @@
                 </details>
                 <details class="js-faq">
                     <summary>Can I filter candidates by skill or location?</summary>
-                    <div class="js-faq-body">Yes — use the search bar at the top to find candidates by name, username, or specific skills. Each card also shows the candidate's preferred U.S. city so you can spot regional matches at a glance.</div>
+                    <div class="js-faq-body">Yes — use the search bar at the top to find candidates by name, username, or specific skills. Each card also shows the candidate's preferred city so you can spot regional matches at a glance.</div>
                 </details>
                 <details class="js-faq">
                     <summary>How fresh are these profiles?</summary>
-                    <div class="js-faq-body">Profiles are sorted by most recently active. New candidates join the platform every day, and inactive profiles are filtered out automatically so you only see talent that's currently available.</div>
+                    <div class="js-faq-body">Profiles are listed newest first, and a candidate can unpublish theirs at any time. The date a candidate joined is shown on their profile page, so you can judge for yourself how recent it is.</div>
                 </details>
                 <details class="js-faq">
                     <summary>Can job seekers reach out to me first?</summary>

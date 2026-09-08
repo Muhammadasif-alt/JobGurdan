@@ -31,7 +31,12 @@ class SeekerProfileController extends Controller
             'preferred_city' => ['nullable', 'string', 'max:120'],
             'experience_years' => ['nullable', 'integer', 'min:0', 'max:60'],
             'open_to' => ['nullable', 'string', 'max:60'],
+            'links' => ['nullable', 'array'],
+            'links.*' => ['nullable', 'url', 'max:255'],
         ]);
+
+        // Blank boxes mean "I do not use this", not an empty link on the profile.
+        $data['links'] = array_filter($data['links'] ?? [], fn ($url): bool => is_string($url) && trim($url) !== '');
 
         Auth::user()->update($data);
 
