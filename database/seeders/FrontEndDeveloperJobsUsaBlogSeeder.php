@@ -317,6 +317,7 @@ JOBHTML;
     <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; which pay band that title is hiding, and what working for a US company from abroad really involves.</li>
     <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; the higher band, the H-1B lottery and the cap-exempt employers that avoid it.</li>
     <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the dominant library in this discipline, and the toolchain change that dates a portfolio.</li>
+    <li><a href="/blog/wordpress-developer-jobs-in-usa">WordPress Developer Jobs in USA</a> &mdash; where accessibility and performance work is most often billed on client sites.</li>
     <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; who hands you the design files, and what their market looks like.</li>
 </ul>
 

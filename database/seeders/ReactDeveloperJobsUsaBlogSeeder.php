@@ -354,6 +354,7 @@ JOBHTML;
     <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; a common backend pairing, and where the data and machine learning demand sits.</li>
     <li><a href="/blog/java-developer-jobs-in-usa">Java Developer Jobs in USA</a> &mdash; the enterprise backend, and what W-2, 1099 and corp-to-corp contracts commit you to.</li>
     <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the $92,650 occupation in full, including freelance rates against US tax.</li>
+    <li><a href="/blog/wordpress-developer-jobs-in-usa">WordPress Developer Jobs in USA</a> &mdash; the other end of the same occupation, and why recurring work beats build work there.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage data, library recommendations and framework guidance change &mdash; confirm the current position with the Bureau of Labor Statistics, React's official documentation and the employer's own advertisement before applying or relying on any of it.</p>

@@ -331,6 +331,7 @@ JOBHTML;
     <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a> &mdash; the same occupation from the interface side, and the two measurable skills that move you up its band.</li>
     <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; which of the two pay bands that title is actually hiding.</li>
     <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the library behind most of this occupation now, and which React work is commodity-priced.</li>
+    <li><a href="/blog/wordpress-developer-jobs-in-usa">WordPress Developer Jobs in USA</a> &mdash; the bottom of this same band, and the retainer that changes its maths.</li>
     <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the same title across three occupations, from $92,650 to $135,980.</li>
 </ul>
 
