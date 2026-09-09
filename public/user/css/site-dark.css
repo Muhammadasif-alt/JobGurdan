@@ -823,6 +823,39 @@
             border-color: #4da3e8 !important;
             color: #fff !important;
         }
+        /* === Pagination on dark bg (per-page custom markup) ===
+           /jobs, /jobs-categories and /locations each style their own
+           pagination rather than reusing .utf-pagination, so none of the
+           rules above reached them: the buttons stayed white with navy
+           numerals and arrows on a dark page. === */
+        html.dark-mode .jobs-pagination li a,
+        html.dark-mode .jobs-pagination li span,
+        html.dark-mode .cat-pagination li a,
+        html.dark-mode .cat-pagination li span,
+        html.dark-mode .loc-pagination li a,
+        html.dark-mode .loc-pagination li span {
+            background: var(--site-card-bg) !important;
+            border-color: var(--site-card-bd) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .jobs-pagination li a:hover,
+        html.dark-mode .cat-pagination li a:hover,
+        html.dark-mode .loc-pagination li a:hover {
+            background: rgba(47, 127, 201,.10) !important;
+            border-color: #4da3e8 !important;
+            color: #4da3e8 !important;
+        }
+        html.dark-mode .jobs-pagination li a.current-page,
+        html.dark-mode .jobs-pagination li.active a,
+        html.dark-mode .cat-pagination li a.current-page,
+        html.dark-mode .cat-pagination li.active a,
+        html.dark-mode .loc-pagination li a.current-page,
+        html.dark-mode .loc-pagination li.active a {
+            background: linear-gradient(135deg, #2f7fc9, #1b3a6b) !important;
+            border-color: #4da3e8 !important;
+            color: #fff !important;
+        }
+
         /* === Pagination on dark bg (new custom template — vendor.pagination.custom) === */
         html.dark-mode .utf-pagination .page-link {
             background: var(--site-card-bg) !important;
@@ -1468,6 +1501,17 @@
         }
         html.dark-mode .about-faq-item summary { color: #fff !important; }
         html.dark-mode .about-faq-item .faq-answer { color: #cbd5e1 !important; }
+
+        /* The four section wrappers on /contact-us kept background: #fff, so
+           the themed cards below sat on white bands in dark mode. */
+        html.dark-mode .quick-contact-section,
+        html.dark-mode .contact-section,
+        html.dark-mode .contact-map-section,
+        html.dark-mode .contact-faq-section {
+            background: var(--site-bg) !important;
+            color: var(--site-text) !important;
+        }
+        html.dark-mode .contact-faq-section { border-top-color: var(--site-card-bd) !important; }
 
         /* === /contact-us — quick cards, form, map card, FAQ === */
         html.dark-mode .quick-contact-card,
