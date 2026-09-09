@@ -13,7 +13,6 @@
     <meta name="twitter:title" content="About JobGader — Jobs and Honest Visa Guides">
     <meta name="twitter:description" content="Hand-checked jobs across {{ $coverage->shortList() }}, plus visa guides that say which routes are open.">
     <meta name="twitter:image" content="{{ asset('public/user/images/single-company.jpg') }}">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="author" content="JobGader">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="JobGader">

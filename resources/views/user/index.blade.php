@@ -13,7 +13,6 @@
     <meta name="twitter:title" content="JobGader — Verified Jobs Across {{ $coverage->count() }} Countries">
     <meta name="twitter:description" content="Verified jobs across {{ $coverage->shortList() }}, including visa-sponsored roles. Free for job seekers.">
     <meta name="twitter:image" content="{{ asset('public/user/images/home-background-03.jpg') }}">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="author" content="JobGader">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="JobGader">

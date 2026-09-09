@@ -1,21 +1,33 @@
 @extends('user.layouts.master')
+
+@php
+    // Resolves both seeder paths ("public/user/images/...") and admin uploads
+    // ("blogs/..."). Declared up here rather than inside @push so og_image can
+    // be set as a section — the layout renders its own og:image tag after the
+    // meta stack, so a pushed tag was being overridden by the site default.
+    $resolveImg = function ($path, $fallback = 'public/user/images/blog-single-post-01.jpg') {
+        if (! $path) {
+            return asset($fallback);
+        }
+        if (str_starts_with($path, 'public/') || str_starts_with($path, 'http')) {
+            return asset($path);
+        }
+
+        return asset('public/storage/'.$path);
+    };
+    $ogImg = $resolveImg($blog->featured_image);
+@endphp
+
 @section('title', filled($blog->meta_title) ? $blog->meta_title : $blog->title.' | JobGader Career Blog')
 @section('meta_description', filled($blog->meta_description) ? $blog->meta_description : ($blog->excerpt ?? \Illuminate\Support\Str::limit(strip_tags($blog->content), 160)))
 @section('meta_keywords', filled($blog->tags) ? $blog->tags : ($blog->category?->name ?? ''))
 @section('og_title', $blog->title)
 @section('og_description', $blog->excerpt ?? \Illuminate\Support\Str::limit(strip_tags($blog->content), 160))
 @section('canonical', route('blog.show', $blog->slug))
+@section('og_image', $ogImg)
 
 @push('meta')
     @php
-        // Image path resolver — handles both seeder paths ("public/user/images/...") and admin uploads ("blogs/...")
-        $resolveImg = function ($path, $fallback = 'public/user/images/blog-single-post-01.jpg') {
-            if (!$path) return asset($fallback);
-            if (str_starts_with($path, 'public/') || str_starts_with($path, 'http')) return asset($path);
-            return asset('public/storage/' . $path);
-        };
-        $ogImg = $resolveImg($blog->featured_image);
-
         $structuredData = app(\App\Services\StructuredDataService::class);
         $faqs = $structuredData->faqsFromHtml($blog->content);
 
@@ -37,7 +49,6 @@
             'areaServed' => $coverage->areaServed(),
         ];
     @endphp
-    <meta property="og:image" content="{{ $ogImg }}">
     <meta property="og:type" content="article">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{ $ogImg }}">

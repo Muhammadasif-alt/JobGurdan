@@ -38,7 +38,10 @@
     @endphp
 
     <meta name="description" content="{{ $metaDescription }}">
-    <meta name="robots" content="@yield('meta_robots', 'index, follow')">
+    {{-- max-image-preview:large is what lets Google show a large thumbnail
+         beside the result, which is a real click-through difference on
+         mobile. It used to be set only on the home and about pages. --}}
+    <meta name="robots" content="@yield('meta_robots', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1')">
     <meta name="google-site-verification" content="NEZhtXbrZZkQYcz5kQO1hT17Vs27bb3VYUgrjUTUeQ0">
     <meta name="keywords" content="@yield('meta_keywords', $metaKeywords)">
     <link rel="canonical" href="@yield('canonical', url()->current())">
