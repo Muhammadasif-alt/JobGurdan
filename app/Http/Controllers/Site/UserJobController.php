@@ -330,9 +330,10 @@ class UserJobController extends Controller
 
         foreach ($priorityTokens as $w) {
             $query->where(function ($q) use ($w) {
-                $q->where('position', 'like', "%{$w}%")
+                $q->whereRaw(self::withoutSlugPunctuation('position').' like ?', ["%{$w}%"])
                     ->orWhereHas('location', function ($sub) use ($w) {
-                        $sub->where('name', 'like', "%{$w}%")->orWhere('area', 'like', "%{$w}%");
+                        $sub->whereRaw(self::withoutSlugPunctuation('name').' like ?', ["%{$w}%"])
+                            ->orWhereRaw(self::withoutSlugPunctuation('area').' like ?', ["%{$w}%"]);
                     });
             });
         }
@@ -349,6 +350,28 @@ class UserJobController extends Controller
         }
 
         abort(404);
+    }
+
+    /**
+     * Str::slug deletes punctuation instead of splitting on it, so "CI/CD"
+     * becomes the token "cicd" and "Node.js" becomes "nodejs". Looking those
+     * tokens up against the untouched column excludes the very row that
+     * produced the slug, and the job 404s while its URL stays in the sitemap.
+     * Stripping the same characters in SQL keeps the candidate filter in step
+     * with the slug; the exact Str::slug comparison still decides the match,
+     * so a looser filter cannot return a wrong job.
+     *
+     * Only ever called with a hardcoded column name.
+     */
+    private static function withoutSlugPunctuation(string $column): string
+    {
+        $expression = $column;
+
+        foreach (["'.'", "'/'", "'&'", "'+'", "''''"] as $character) {
+            $expression = "REPLACE({$expression}, {$character}, '')";
+        }
+
+        return $expression;
     }
 
     public function categories(Request $request)
