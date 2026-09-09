@@ -300,10 +300,10 @@ JOBHTML;
 <h2>People Also Search For</h2>
 
 <h3>AWS cloud engineer jobs USA</h3>
-<p>The largest share of US cloud postings. Depth in one platform interviews better than familiarity with three.</p>
+<p>The largest share of US cloud postings, and the deepest applicant pool with it. Covered in full in our <a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS cloud engineer guide</a>, including the difference between GovCloud eligibility and a security clearance.</p>
 
 <h3>Azure cloud engineer jobs</h3>
-<p>Strong in Microsoft-committed enterprises and government-adjacent work. Match the platform to the employers you are targeting.</p>
+<p>Strong in Microsoft-committed enterprises and government-adjacent work. Our <a href="/blog/azure-cloud-engineer-jobs-in-usa">Azure cloud engineer guide</a> covers the certification order Microsoft enforces and the Microsoft 365 work bundled into many of those postings.</p>
 
 <h3>Remote cloud engineer jobs</h3>
 <p>Common at commercial employers and rare in cleared work. Ask about the on-call rotation before the offer stage.</p>
@@ -328,6 +328,8 @@ JOBHTML;
 <p>Comparing the infrastructure routes? These cover them:</p>
 
 <ul>
+    <li><a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS Cloud Engineer Jobs in USA</a> &mdash; the largest platform market, and why GovCloud and a clearance are two different bars.</li>
+    <li><a href="/blog/azure-cloud-engineer-jobs-in-usa">Azure Cloud Engineer Jobs in USA</a> &mdash; the enterprise platform, its gated exam path, and the M365 work hidden in the job title.</li>
     <li><a href="/blog/cybersecurity-engineer-jobs-in-usa">Cybersecurity Engineer Jobs in USA</a> &mdash; the security specialisation of this work, and the Kubernetes certification ordering trap.</li>
     <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; the clearance rules in full, and the shorter door into security.</li>
     <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; the best-paid of the three occupations this work is counted under.</li>

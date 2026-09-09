@@ -339,6 +339,8 @@ JOBHTML;
 
 <ul>
     <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a> &mdash; the infrastructure half of this work, and which of three occupations it belongs to.</li>
+    <li><a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS Cloud Engineer Jobs in USA</a> &mdash; the platform behind most US pipeline work, and its missing certification gate.</li>
+    <li><a href="/blog/azure-cloud-engineer-jobs-in-usa">Azure Cloud Engineer Jobs in USA</a> &mdash; the enterprise platform, and why AZ-400 needs an associate certification first.</li>
     <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a> &mdash; one title across two occupations moving in opposite directions.</li>
     <li><a href="/blog/cybersecurity-engineer-jobs-in-usa">Cybersecurity Engineer Jobs in USA</a> &mdash; where DevSecOps leads, and the Kubernetes certification ordering trap.</li>
     <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; the occupation this work is counted under, with 106,100 openings a year.</li>
