@@ -344,6 +344,7 @@ JOBHTML;
     <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; British entry-level work and its employment-status trap.</li>
     <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; the other fast American entry route, and what your own car really costs per mile.</li>
     <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; the checkout side of the store, the California fast food rate and the till shortage rule.</li>
+    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; the same shop-floor work under an award that sets minimum rates by job level.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, legal or immigration advice. Minimum wages, wage survey figures and employment projections change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics, your state labor department and the employer's own advertisement before applying.</p>

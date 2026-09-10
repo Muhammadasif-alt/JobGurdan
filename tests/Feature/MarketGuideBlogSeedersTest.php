@@ -166,6 +166,13 @@ dataset('market guides', [
         'https://www.indeed.com/q-police-officer-jobs.html',
         'Police Officer',
     ],
+    'sales australia' => [
+        'sales-jobs-in-australia',
+        Database\Seeders\SalesJobsAustraliaBlogSeeder::class,
+        ['sales-jobs-in-australia-interview.jpg', 'sales-jobs-in-australia-retail.jpg'],
+        'https://au.indeed.com/q-sales-jobs.html',
+        'Sales',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {

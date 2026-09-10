@@ -602,6 +602,55 @@ it('corrects US police pay, who may apply and the firearms rule for visa holders
         ->toContain('firearm');
 });
 
+it('corrects Australian retail sales pay, commission-only rules and real estate registration', function () {
+    $content = guideContent('sales-jobs-in-australia', Database\Seeders\SalesJobsAustraliaBlogSeeder::class);
+
+    // Every research placeholder has been replaced with a sourced figure.
+    expect($content)->not->toContain('@@');
+
+    // The $50,000 retail floor is below both the minimum wage and the award.
+    expect($content)->toContain('$52,254.80')
+        ->toContain('$1,056.80')
+        ->toContain('$27.81')
+        ->toContain('$54,953.60')
+        ->toContain('$4,953.60 short')
+        ->toContain('4.75 per cent')
+        ->toContain('$34.76');
+
+    // Commission-only pay is narrow, and each award treats it differently.
+    expect($content)->toContain('no commission-only provision')
+        ->toContain('$1,122.80')
+        ->toContain('125 per cent')
+        ->toContain('$72,741.50')
+        ->toContain('31.5 per cent')
+        ->toContain('at least 21')
+        ->toContain('section 324');
+
+    // The entry-level registration has a different name in each state and does not always cross borders.
+    expect($content)->toContain('Assistant Agent certificate of registration')
+        ->toContain("agent's representative")
+        ->toContain('real estate salesperson registration')
+        ->toContain('sales representative registration')
+        ->toContain('registered sales representative')
+        ->toContain('Queensland is not part of the scheme');
+
+    // Sponsorship splits by occupation, and working holiday makers face a six-month limit.
+    expect($content)->toContain('225412')
+        ->toContain('225213')
+        ->toContain('612115')
+        ->toContain('621111')
+        ->toContain('six months with one employer');
+
+    // Official measured pay rather than job board ranges.
+    expect($content)->toContain('August 2025')
+        ->toContain('$631');
+
+    expect(Job::where('position', 'like', 'Sales Consultant%')->value('description'))
+        ->not->toContain('@@')
+        ->toContain('$1,056.80')
+        ->toContain('not by JobGader');
+});
+
 it('keeps the data entry cluster from restating the guide it hangs off', function () {
     // The remote guide owns the scam mechanics and the worldwide geography.
     // If the two US and Pakistan pages repeat them, three pages compete for
@@ -648,6 +697,7 @@ it('wires every new guide into the existing cluster in both directions', functio
         Database\Seeders\CookJobsUkBlogSeeder::class,
         Database\Seeders\AccountantJobsUaeBlogSeeder::class,
         Database\Seeders\PoliceOfficerJobsUsaBlogSeeder::class,
+        Database\Seeders\SalesJobsAustraliaBlogSeeder::class,
         // The established posts that should now point back at them.
         Database\Seeders\NurseJobsUsBlogSeeder::class,
         Database\Seeders\HealthcareJobsUkBlogSeeder::class,
@@ -690,6 +740,7 @@ it('wires every new guide into the existing cluster in both directions', functio
         'cook-jobs-in-uk' => ['cleaner-jobs-in-london-no-experience-needed', 'warehouse-jobs-uk-visa-sponsorship', 'delivery-driver-jobs-in-uk'],
         'accountant-jobs-in-uae' => ['receptionist-jobs-in-uae', 'security-guard-jobs-in-uae', 'data-entry-jobs-in-pakistan'],
         'police-officer-jobs-in-usa' => ['security-guard-jobs-in-saudi-arabia', 'cybersecurity-analyst-jobs-in-usa', 'unskilled-jobs-in-usa-for-foreigners'],
+        'sales-jobs-in-australia' => ['office-assistant-jobs-in-australia', 'construction-worker-jobs-in-australia', 'plumber-jobs-in-australia', 'retail-jobs-in-usa', 'customer-service-jobs-in-canada'],
     ];
 
     foreach ($inbound as $target => $sources) {
@@ -745,6 +796,7 @@ it('resolves every internal link the new guides publish', function () {
         'cook-jobs-in-uk',
         'accountant-jobs-in-uae',
         'police-officer-jobs-in-usa',
+        'sales-jobs-in-australia',
     ];
 
     foreach ($guides as $guide) {
