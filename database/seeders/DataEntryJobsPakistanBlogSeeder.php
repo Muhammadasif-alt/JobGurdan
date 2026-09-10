@@ -329,6 +329,7 @@ JOBHTML;
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; remote routes that do not require a track record.</li>
     <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; a Gulf route with visa and accommodation, and what to check in the package.</li>
     <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a> &mdash; another degree-level entry route, and the teaching qualification that no longer exists.</li>
+    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a> &mdash; where accounting skills travel, and the home tax residence rules that follow you.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, financial or legal advice. Pay scales, allowances, recruitment procedures and test requirements change, and salary figures on any job portal are a moving average rather than a statistic. Confirm the current position with the hiring department's own advertisement, the relevant testing service and the Finance Division's notified pay scales before applying or paying for any course.</p>

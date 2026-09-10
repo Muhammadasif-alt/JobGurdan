@@ -409,6 +409,199 @@ it('tells Pakistani teachers which qualification exists and who really employs t
         ->toContain('/blog/data-entry-jobs-in-pakistan');
 });
 
+it('tells nurses in Saudi Arabia the exam is not the licence and which recruitment routes are legal', function () {
+    $content = guideContent('nurse-jobs-in-saudi-arabia', Database\Seeders\NurseJobsSaudiBlogSeeder::class);
+
+    // Prometric delivers one step; SCFHS classification and registration is the licence.
+    expect($content)->toContain('The Prometric exam is not the licence')
+        ->toContain('Mumaris Plus')
+        ->toContain('DataFlow')
+        ->toContain('verified qualifications and experience');
+
+    // The quoted floor is the Saudization threshold, not a wage floor.
+    expect($content)->toContain('SAR 4,000')
+        ->toContain('no statutory minimum wage for expatriate workers')
+        ->toContain('/blog/security-guard-jobs-in-saudi-arabia');
+
+    // Indian nurses have two legal routes, both through eMigrate.
+    expect($content)->toContain('eMigrate')
+        ->toContain('Ministries of Health and of Defence and Aviation')
+        ->toContain('NORKA Roots, ODEPC, OMCL, UPFC, OMCAP and TOMCOM');
+
+    expect(Job::where('position', 'like', 'Staff Nurse%')->value('description'))
+        ->toContain('SCFHS professional classification and registration')
+        ->toContain('only through eMigrate');
+});
+
+it('prices UK IT support pay against the legal minimum and the sponsorship salary threshold', function () {
+    $content = guideContent('it-support-jobs-in-uk', Database\Seeders\ItSupportJobsUkBlogSeeder::class);
+
+    // Both published floors are below the National Living Wage on a full-time week.
+    expect($content)->toContain('&pound;12.71')
+        ->toContain('&pound;24,784.50')
+        ->toContain('&pound;4,784.50 short')
+        ->toContain('&pound;784.50 short');
+
+    // Below RQF 6, kept open by the Temporary Shortage List, and priced out by the threshold.
+    expect($content)->toContain('3132 IT user support technicians')
+        ->toContain('3131 IT operations technicians')
+        ->toContain('Table 1a')
+        ->toContain('RQF level 6')
+        ->toContain('Temporary Shortage List')
+        ->toContain('before 31 December 2026')
+        ->toContain('&pound;41,700')
+        ->toContain('&pound;33,400')
+        ->toContain('cannot meet the salary rules');
+
+    // A+ is two exams, and clearance is a residence question.
+    expect($content)->toContain('220-1201')
+        ->toContain('220-1202')
+        ->toContain('normally have been resident in the UK for the last five years');
+
+    expect(Job::where('position', 'like', 'IT Support Technician%')->value('description'))
+        ->toContain('Temporary Shortage List')
+        ->toContain('&pound;41,700');
+});
+
+it('prices US cashier pay against the state floors the draft recommends', function () {
+    $content = guideContent('cashier-jobs-in-usa', Database\Seeders\CashierJobsUsaBlogSeeder::class);
+
+    // $12 is below the 2026 minimum wage in three of the five states named.
+    expect($content)->toContain('three of the five')
+        ->toContain('$16.90')
+        ->toContain('$17.00')
+        ->toContain('$16.00')
+        ->toContain('$14.00')
+        ->toContain('$15.00 from 30 September 2026')
+        ->toContain('$7.25');
+
+    // The measured median sits above the draft's experienced floor.
+    expect($content)->toContain('$15.81 an hour in May 2025')
+        ->toContain('$14.68')
+        ->toContain('$16.87');
+
+    // California's fast food rate, and the shortage rule every cashier meets.
+    expect($content)->toContain('1 April 2024')
+        ->toContain('at least 60 establishments')
+        ->toContain('$20.00 an hour')
+        ->toContain('cash or merchandise shortages');
+
+    // Shrinking but hiring, and the hours rule for 14 and 15 year olds.
+    expect($content)->toContain('decline 6 per cent from 2025 to 2035')
+        ->toContain('521,300 openings every year')
+        ->toContain('3 hours on a school day')
+        ->toContain('/blog/retail-jobs-in-usa');
+
+    expect(Job::where('position', 'like', 'Cashier%')->value('description'))
+        ->toContain('below the minimum wage')
+        ->toContain('Form I-9');
+});
+
+it('corrects UK cook pay, the hygiene certificate myth and the sponsorship promise', function () {
+    $content = guideContent('cook-jobs-in-uk', Database\Seeders\CookJobsUkBlogSeeder::class);
+
+    // Three of the four published floors are below the National Living Wage.
+    expect($content)->toContain('&pound;12.71')
+        ->toContain('&pound;24,784.50')
+        ->toContain('&pound;6,784.50 short')
+        ->toContain('&pound;4,784.50 short')
+        ->toContain('&pound;29,741.40');
+
+    // The certificate is evidence of training, not a legal requirement.
+    expect($content)->toContain("food handlers don't have to hold a food hygiene certificate")
+        ->toContain('supervised and instructed or trained in food hygiene')
+        ->toContain("Natasha's Law");
+
+    // The occupation codes decide sponsorship, and none of them is open.
+    expect($content)->toContain('5435 Cooks')
+        ->toContain('Table 6')
+        ->toContain('5434 Chefs')
+        ->toContain('not on the Temporary Shortage List')
+        ->toContain('9263 Kitchen and catering assistants');
+
+    // The tips law the draft leaves out.
+    expect($content)->toContain('Employment (Allocation of Tips) Act 2023')
+        ->toContain('1 October 2024');
+
+    expect(Job::where('position', 'like', 'Cook%')->value('description'))
+        ->toContain('cannot be sponsored');
+});
+
+it('tells UAE accountants who pays the visa, who may sign audits and which tax dates matter', function () {
+    $content = guideContent('accountant-jobs-in-uae', Database\Seeders\AccountantJobsUaeBlogSeeder::class);
+
+    // The visa is a legal cost of the employer, not a perk.
+    expect($content)->toContain('Federal Decree-Law No. 33 of 2021')
+        ->toContain('directly or indirectly')
+        ->toContain('AED 15,000');
+
+    // A qualification is not a licence to sign an audit or act as a tax agent.
+    expect($content)->toContain('Federal Decree-Law No. 41 of 2023')
+        ->toContain('Emirates Association of Accountants and Auditors')
+        ->toContain('AED 100,000 to AED 2,000,000')
+        ->toContain('Arabic and English');
+
+    // The dated tax obligations behind the demand.
+    expect($content)->toContain('31 December 2029')
+        ->toContain('AED 50 million')
+        ->toContain('30 October 2026')
+        ->toContain('1 January 2027')
+        ->toContain('1 July 2027')
+        ->toContain('15 per cent');
+
+    // Tax-free in the UAE is not tax-free at home, and DIFC is its own system.
+    expect($content)->toContain('182 days')
+        ->toContain('183 days')
+        ->toContain('DEWS')
+        ->toContain('AED 6,000');
+
+    // The apply link goes to the UAE site rather than the American one.
+    expect($content)->toContain('https://ae.indeed.com/q-accountant-jobs.html')
+        ->not->toContain('www.indeed.com/jobs?q=accountant');
+
+    expect(Job::where('position', 'like', 'Accountant%')->value('description'))
+        ->toContain('directly or indirectly')
+        ->toContain('licence');
+});
+
+it('corrects US police pay, who may apply and the firearms rule for visa holders', function () {
+    $content = guideContent('police-officer-jobs-in-usa', Database\Seeders\PoliceOfficerJobsUsaBlogSeeder::class);
+
+    // The measured medians sit well above the draft's bands.
+    expect($content)->toContain('$76,210')
+        ->toContain('$93,790')
+        ->toContain('$47,510')
+        ->toContain('$88,400')
+        ->toContain('$119,500');
+
+    // The top states by headcount are not the top states by pay.
+    expect($content)->toContain('$79,200')
+        ->toContain('$76,160')
+        ->toContain('$75,320');
+
+    // Citizenship differs sharply by agency, and federal officers must be citizens.
+    expect($content)->toContain('federal officers must be US citizens')
+        ->toContain('legally authorized to work in the United States')
+        ->toContain('1 January 2026')
+        ->toContain('1 January 2024');
+
+    // A nonimmigrant visa holder cannot lawfully carry the academy's firearm.
+    expect($content)->toContain('18 U.S.C. 922(g)(5)')
+        ->toContain('nonimmigrant visa')
+        ->toContain('26 September 2025')
+        ->toContain('18 U.S.C. 922(g)(9)');
+
+    // Age, federal training and certificates that do not travel.
+    expect($content)->toContain('60 semester hours')
+        ->toContain('20 years and 6 months')
+        ->toContain('no longer includes sit-ups')
+        ->toContain('160-hour');
+
+    expect(Job::where('position', 'like', 'Police Officer%')->value('description'))
+        ->toContain('US citizen')
+        ->toContain('firearm');
+});
+
 it('keeps the data entry cluster from restating the guide it hangs off', function () {
     // The remote guide owns the scam mechanics and the worldwide geography.
     // If the two US and Pakistan pages repeat them, three pages compete for
@@ -449,7 +642,20 @@ it('wires every new guide into the existing cluster in both directions', functio
         Database\Seeders\ReceptionistJobsUaeBlogSeeder::class,
         Database\Seeders\DeliveryDriverJobsUsaBlogSeeder::class,
         Database\Seeders\TeacherJobsPakistanBlogSeeder::class,
+        Database\Seeders\NurseJobsSaudiBlogSeeder::class,
+        Database\Seeders\ItSupportJobsUkBlogSeeder::class,
+        Database\Seeders\CashierJobsUsaBlogSeeder::class,
+        Database\Seeders\CookJobsUkBlogSeeder::class,
+        Database\Seeders\AccountantJobsUaeBlogSeeder::class,
+        Database\Seeders\PoliceOfficerJobsUsaBlogSeeder::class,
         // The established posts that should now point back at them.
+        Database\Seeders\NurseJobsUsBlogSeeder::class,
+        Database\Seeders\HealthcareJobsUkBlogSeeder::class,
+        Database\Seeders\NetworkEngineerJobsUsaBlogSeeder::class,
+        Database\Seeders\RetailJobsUsaBlogSeeder::class,
+        Database\Seeders\DeliveryDriverJobsUsaBlogSeeder::class,
+        Database\Seeders\CleanerLondonBlogSeeder::class,
+        Database\Seeders\CybersecurityAnalystJobsUsaBlogSeeder::class,
         Database\Seeders\RemoteDataEntryJobsBlogSeeder::class,
         Database\Seeders\RemoteCustomerServiceJobsBlogSeeder::class,
         Database\Seeders\WarehouseUkBlogSeeder::class,
@@ -478,6 +684,12 @@ it('wires every new guide into the existing cluster in both directions', functio
         'receptionist-jobs-in-uae' => ['security-guard-jobs-in-uae', 'office-assistant-jobs-in-australia'],
         'delivery-driver-jobs-in-usa' => ['delivery-driver-jobs-in-uk', 'retail-jobs-in-usa'],
         'teacher-jobs-in-pakistan' => ['government-jobs-in-pakistan', 'data-entry-jobs-in-pakistan'],
+        'nurse-jobs-in-saudi-arabia' => ['nurse-jobs-in-the-us', 'healthcare-jobs-in-the-uk', 'security-guard-jobs-in-saudi-arabia'],
+        'it-support-jobs-in-uk' => ['electrician-jobs-in-uk', 'remote-customer-service-jobs', 'network-engineer-jobs-in-usa'],
+        'cashier-jobs-in-usa' => ['retail-jobs-in-usa', 'unskilled-jobs-in-usa-for-foreigners', 'delivery-driver-jobs-in-usa'],
+        'cook-jobs-in-uk' => ['cleaner-jobs-in-london-no-experience-needed', 'warehouse-jobs-uk-visa-sponsorship', 'delivery-driver-jobs-in-uk'],
+        'accountant-jobs-in-uae' => ['receptionist-jobs-in-uae', 'security-guard-jobs-in-uae', 'data-entry-jobs-in-pakistan'],
+        'police-officer-jobs-in-usa' => ['security-guard-jobs-in-saudi-arabia', 'cybersecurity-analyst-jobs-in-usa', 'unskilled-jobs-in-usa-for-foreigners'],
     ];
 
     foreach ($inbound as $target => $sources) {
@@ -527,6 +739,12 @@ it('resolves every internal link the new guides publish', function () {
         'receptionist-jobs-in-uae',
         'delivery-driver-jobs-in-usa',
         'teacher-jobs-in-pakistan',
+        'nurse-jobs-in-saudi-arabia',
+        'it-support-jobs-in-uk',
+        'cashier-jobs-in-usa',
+        'cook-jobs-in-uk',
+        'accountant-jobs-in-uae',
+        'police-officer-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {

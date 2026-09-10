@@ -331,6 +331,8 @@ JOBHTML;
     <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; the largest American entry point, and the wage floor that varies by state.</li>
     <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; clerical entry work, and the projection to see before choosing it.</li>
     <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; delivery work in the US, and why it is not a visa route.</li>
+    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; the most common first job in America, and why it is not a visa route either.</li>
+    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a> &mdash; why a visa holder cannot carry a gun, and which states hire non-citizens.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Wage rates, visa caps and Visa Bulletin dates change &mdash; confirm the current position with the US Department of Labor, the monthly Visa Bulletin, or a licensed immigration attorney before paying any fee or travelling.</p>

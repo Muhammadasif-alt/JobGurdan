@@ -304,6 +304,7 @@ JOBHTML;
     <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; EB-3 and H-2B routes and CDL requirements.</li>
     <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; another London entry route, and the difference between a day rate and pay.</li>
     <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; the qualified trade route out of entry-level UK work.</li>
+    <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; kitchen work across the UK, and why an &pound;18,000 cook salary is below the legal minimum.</li>
 </ul>
 
 <div style="text-align:center;margin:32px 0;">

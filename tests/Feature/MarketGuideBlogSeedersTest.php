@@ -124,6 +124,48 @@ dataset('market guides', [
         'https://pk.indeed.com/q-teacher-jobs.html',
         'Teacher',
     ],
+    'nurse saudi arabia' => [
+        'nurse-jobs-in-saudi-arabia',
+        Database\Seeders\NurseJobsSaudiBlogSeeder::class,
+        ['nurse-jobs-in-saudi-arabia-licence.jpg', 'nurse-jobs-in-saudi-arabia-hospital.jpg'],
+        'https://sa.indeed.com/q-nurse-jobs.html',
+        'Staff Nurse',
+    ],
+    'it support uk' => [
+        'it-support-jobs-in-uk',
+        Database\Seeders\ItSupportJobsUkBlogSeeder::class,
+        ['it-support-jobs-in-uk-helpdesk.jpg', 'it-support-jobs-in-uk-second-line.jpg'],
+        'https://uk.indeed.com/q-it-support-jobs.html',
+        'IT Support Technician',
+    ],
+    'cashier usa' => [
+        'cashier-jobs-in-usa',
+        Database\Seeders\CashierJobsUsaBlogSeeder::class,
+        ['cashier-jobs-in-usa-grocery.jpg', 'cashier-jobs-in-usa-pay.jpg'],
+        'https://www.indeed.com/q-cashier-jobs.html',
+        'Cashier',
+    ],
+    'cook uk' => [
+        'cook-jobs-in-uk',
+        Database\Seeders\CookJobsUkBlogSeeder::class,
+        ['cook-jobs-in-uk-hygiene.jpg', 'cook-jobs-in-uk-kitchen.jpg'],
+        'https://uk.indeed.com/q-cook-jobs.html',
+        'Cook',
+    ],
+    'accountant uae' => [
+        'accountant-jobs-in-uae',
+        Database\Seeders\AccountantJobsUaeBlogSeeder::class,
+        ['accountant-jobs-in-uae-tax.jpg', 'accountant-jobs-in-uae-audit.jpg'],
+        'https://ae.indeed.com/q-accountant-jobs.html',
+        'Accountant',
+    ],
+    'police officer usa' => [
+        'police-officer-jobs-in-usa',
+        Database\Seeders\PoliceOfficerJobsUsaBlogSeeder::class,
+        ['police-officer-jobs-in-usa-patrol.jpg'],
+        'https://www.indeed.com/q-police-officer-jobs.html',
+        'Police Officer',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {

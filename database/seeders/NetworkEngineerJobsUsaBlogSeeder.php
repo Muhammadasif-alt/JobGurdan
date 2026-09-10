@@ -346,6 +346,7 @@ JOBHTML;
     <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the language that carries network automation.</li>
     <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the widest technical door, for anyone still choosing.</li>
     <li><a href="/blog/devops-engineer-jobs-in-usa">DevOps Engineer Jobs in USA</a> &mdash; where a lot of the shrinking operations work went, and what it pays there.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; the support desk most network careers start from, priced against the UK legal minimum.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, employment projections, certification requirements and clearance policy change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics, the certifying vendor and the employer's own advertisement before applying or paying for any course.</p>
