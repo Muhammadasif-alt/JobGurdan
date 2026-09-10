@@ -7,6 +7,7 @@ use App\Models\Advertiser;
 use App\Models\Category;
 use App\Models\Job;
 use App\Models\Location;
+use App\Models\Scholarship;
 use App\Services\JobSearchService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
@@ -106,6 +107,18 @@ class UserJobController extends Controller
                 ->get();
         });
 
+        // Newest scholarships for the section under the latest jobs. The body is
+        // left out of the select: the cards only show the summary fields.
+        $latestScholarships = Cache::remember('home.scholarships', 600, function () {
+            return Scholarship::query()
+                ->published()
+                ->select(['id', 'title', 'slug', 'provider', 'country', 'study_level', 'funding_type', 'award_value', 'deadline', 'deadline_note', 'featured_image', 'is_featured', 'published_at'])
+                ->orderByDesc('is_featured')
+                ->latest('published_at')
+                ->take(6)
+                ->get();
+        });
+
         // Latest openings for the homepage grid under the hero (4 per row x 2 rows).
         // Only the columns the card renders are selected — keeps the cached payload small.
         $featuredJobs = Cache::remember('home.featuredJobs', 600, function () {
@@ -127,6 +140,7 @@ class UserJobController extends Controller
             'categories' => $categories,
             'careerPosts' => $careerPosts,
             'featuredJobs' => $featuredJobs,
+            'latestScholarships' => $latestScholarships,
         ]);
     }
 

@@ -1429,6 +1429,84 @@
             </div>
         </section>
     @endif
+    {{-- ===== Scholarships: the newest awards as cards, laid out like the career-advice section ===== --}}
+    @if (isset($latestScholarships) && $latestScholarships->isNotEmpty())
+        <style>
+            .home-scholar-section { padding: 90px 0 80px; background: #f7fafd; border-top: 1px solid #ececec; }
+            .home-scholar-head { text-align: center; max-width: 780px; margin: 0 auto 44px; }
+            .home-scholar-tag {
+                display: inline-block;
+                background: #1b3a6b;
+                color: #fff;
+                border: 1px solid transparent;
+                font-weight: 700;
+                font-size: 12.5px;
+                padding: 9px 22px;
+                border-radius: 999px;
+                letter-spacing: 1.6px;
+                text-transform: uppercase;
+                margin-bottom: 18px;
+            }
+            .home-scholar-head h2 {
+                font-size: clamp(28px, 3vw, 40px);
+                font-weight: 800;
+                color: #1b3a6b;
+                line-height: 1.18;
+                letter-spacing: -.6px;
+                margin: 0 0 14px;
+            }
+            .home-scholar-head h2 .accent {
+                color: #3182ce;
+                background: none !important;
+                -webkit-text-fill-color: currentColor !important;
+            }
+            .home-scholar-head p { color: #5a6b7f; font-size: 16px; line-height: 1.7; margin: 0; }
+            .home-scholar-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 28px; }
+            .home-scholar-grid > .scholar-card { flex: 0 1 calc((100% - 56px) / 3); height: auto; }
+            @media (max-width: 991px) { .home-scholar-grid > .scholar-card { flex-basis: calc((100% - 28px) / 2); } }
+            @media (max-width: 575px) { .home-scholar-grid > .scholar-card { flex-basis: 100%; } }
+            .home-scholar-foot { text-align: center; margin-top: 44px; }
+            .home-scholar-all {
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                color: #1b3a6b !important;
+                font-weight: 700;
+                font-size: 15px;
+                text-decoration: none !important;
+                padding: 12px 24px;
+                border: 1.5px solid #1b3a6b;
+                border-radius: 10px;
+                transition: all .15s ease;
+            }
+            .home-scholar-all:hover { background: #1b3a6b; color: #fff !important; }
+            .home-scholar-all i { font-size: 22px; transition: transform .2s ease; }
+            .home-scholar-all:hover i { transform: translateX(4px); }
+        </style>
+
+        <section class="home-scholar-section" aria-labelledby="scholarships-heading">
+            <div class="container">
+                <header class="home-scholar-head" data-aos="fade-up">
+                    <span class="home-scholar-tag">Scholarships</span>
+                    <h2 id="scholarships-heading">Scholarships to <span class="accent">Study Abroad</span></h2>
+                    <p>Each scholarship explained in plain English &mdash; what it pays, who can apply, the deadlines and how to apply on the official page.</p>
+                </header>
+
+                <div class="home-scholar-grid">
+                    @foreach ($latestScholarships as $scholarship)
+                        @include('user.scholarships.partials.card', ['scholarship' => $scholarship])
+                    @endforeach
+                </div>
+
+                <div class="home-scholar-foot">
+                    <a href="{{ route('scholarships.index') }}" class="home-scholar-all">
+                        View All Scholarships <i class="icon-material-outline-arrow-right-alt" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    @endif
+
     @php
         // Icon picker — falls back to keyword match so DB names like "Education" or
         // "Sales & Marketing" pick the right icon even if the exact key isn't listed.

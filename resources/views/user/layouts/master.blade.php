@@ -458,6 +458,13 @@
                                     </a>
                                 </li>
 
+                                <li>
+                                    <a href="{{ route('scholarships.index') }}"
+                                        class="{{ request()->routeIs('scholarships.*') ? 'current' : '' }}">
+                                        Scholarships
+                                    </a>
+                                </li>
+
                                 @guest
                                     <li class="mobile-only-auth">
                                         <a href="{{ route('login') }}">Sign In</a>

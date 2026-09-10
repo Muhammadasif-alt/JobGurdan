@@ -5,12 +5,13 @@
 | Public Routes (No Auth Required)
 |--------------------------------------------------------------------------
 | Homepage, jobs listing, categories, locations, companies, blog,
-| SEO landing pages, and sitemap.xml.
+| scholarships, SEO landing pages, and sitemap.xml.
 */
 
 use App\Http\Controllers\ContactMessageController;
 use App\Http\Controllers\Public\BlogController as PublicBlogController;
 use App\Http\Controllers\Public\JobSeekerPublicController;
+use App\Http\Controllers\Public\ScholarshipController;
 use App\Http\Controllers\Site\UserJobController;
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
@@ -66,6 +67,10 @@ Route::get('/jobs/{slug}', [UserJobController::class, 'showJobBySlug'])
 // Blog routes (public)
 Route::get('/blog', [PublicBlogController::class, 'index'])->name('blog.index');
 Route::get('/blog/{blog:slug}', [PublicBlogController::class, 'show'])->name('blog.show');
+
+// Scholarships (public)
+Route::get('/scholarships', [ScholarshipController::class, 'index'])->name('scholarships.index');
+Route::get('/scholarships/{scholarship:slug}', [ScholarshipController::class, 'show'])->name('scholarships.show');
 
 // ============================================
 // SEO Landing Pages — States
@@ -188,7 +193,7 @@ Route::get('/sitemap.xml', function () use ($jobsPerSitemap) {
     }
     $jobChunks = max(1, (int) ceil($jobCount / $jobsPerSitemap));
 
-    $entries = ['core', 'categories', 'locations', 'companies', 'blog'];
+    $entries = ['core', 'categories', 'locations', 'companies', 'blog', 'scholarships'];
     for ($i = 1; $i <= $jobChunks; $i++) {
         $entries[] = "jobs-{$i}";
     }
@@ -229,6 +234,7 @@ Route::get('/sitemap-core.xml', function () use ($sitemapUrl, $sitemapResponse) 
     $inner .= $sitemapUrl(url('/categories'), 'weekly', '0.7');
     $inner .= $sitemapUrl(url('/locations'), 'weekly', '0.7');
     $inner .= $sitemapUrl(url('/blog'), 'weekly', '0.7');
+    $inner .= $sitemapUrl(url('/scholarships'), 'weekly', '0.7');
     $inner .= $sitemapUrl(url('/resume-writing-services'), 'monthly', '0.8');
 
     foreach (['/about-us', '/contact-us', '/privacy-policy', '/terms-of-service', '/disclaimer'] as $p) {
@@ -298,6 +304,19 @@ Route::get('/sitemap-blog.xml', function () use ($sitemapUrl, $sitemapResponse) 
         foreach (\App\Models\Blog::query()->whereNotNull('slug')->get(['slug', 'updated_at']) as $b) {
             $inner .= $sitemapUrl(url('/blog/'.$b->slug), 'monthly', '0.5',
                 optional($b->updated_at)->toDateString());
+        }
+    } catch (\Throwable $e) {
+    }
+
+    return $sitemapResponse($inner);
+});
+
+Route::get('/sitemap-scholarships.xml', function () use ($sitemapUrl, $sitemapResponse) {
+    $inner = '';
+    try {
+        foreach (\App\Models\Scholarship::query()->published()->get(['slug', 'updated_at']) as $scholarship) {
+            $inner .= $sitemapUrl(url('/scholarships/'.$scholarship->slug), 'weekly', '0.6',
+                optional($scholarship->updated_at)->toDateString());
         }
     } catch (\Throwable $e) {
     }

@@ -724,6 +724,83 @@
         html.dark-mode .home-split-media::before { background: rgba(77,163,232,.14) !important; }
         html.dark-mode .home-split-cta { background: #2f7fc9 !important; box-shadow: none !important; }
         html.dark-mode .home-split-cta:hover { background: #4da3e8 !important; }
+        /* === Scholarships: homepage section, listing, cards and detail page === */
+        html.dark-mode .home-scholar-section,
+        html.dark-mode .scholar-search-section,
+        html.dark-mode .scholar-list-section,
+        html.dark-mode .scholar-detail-section,
+        html.dark-mode .scholar-more-section { background: var(--site-bg) !important; border-color: var(--site-card-bd) !important; }
+        html.dark-mode .scholar-hero,
+        html.dark-mode .scholar-detail-hero { background: var(--site-bg) !important; border-bottom-color: var(--site-card-bd) !important; }
+        html.dark-mode .home-scholar-head h2,
+        html.dark-mode .scholar-hero h1,
+        html.dark-mode .scholar-detail-hero h1,
+        html.dark-mode .scholar-more-title { color: #fff !important; }
+        html.dark-mode .scholar-hero h1 .accent { background: none !important; -webkit-text-fill-color: #4da3e8 !important; color: #4da3e8 !important; }
+        html.dark-mode .home-scholar-head p,
+        html.dark-mode .scholar-hero p,
+        html.dark-mode .scholar-detail-provider { color: #cbd5e1 !important; }
+        html.dark-mode .scholar-detail-provider strong { color: #fff !important; }
+        html.dark-mode .home-scholar-tag,
+        html.dark-mode .scholar-eyebrow,
+        html.dark-mode .scholar-tag { background: rgba(255,255,255,.08) !important; color: #e5e7eb !important; border-color: rgba(255,255,255,.15) !important; }
+        html.dark-mode .home-scholar-all { color: #e5e7eb !important; border-color: #4da3e8 !important; }
+        html.dark-mode .home-scholar-all:hover { background: #2f7fc9 !important; color: #fff !important; }
+        html.dark-mode .scholar-hero-stats { background: rgba(255,255,255,.06) !important; border-color: rgba(255,255,255,.15) !important; }
+        html.dark-mode .scholar-hero-stats strong { color: #fff !important; }
+        html.dark-mode .scholar-hero-stats span { color: rgba(255,255,255,.7) !important; }
+        html.dark-mode .scholar-search { background: #181b22 !important; border: 1px solid var(--site-card-bd) !important; }
+        html.dark-mode .scholar-field input,
+        html.dark-mode .scholar-field select { background: var(--site-input-bg) !important; border-color: var(--site-input-bd) !important; color: var(--site-text) !important; }
+        html.dark-mode .scholar-field i { color: var(--site-muted) !important; }
+        html.dark-mode .scholar-results-count { color: #cbd5e1 !important; }
+        html.dark-mode .scholar-results-count strong { color: #fff !important; }
+        html.dark-mode .scholar-clear { color: #4da3e8 !important; }
+        html.dark-mode .scholar-card { background: var(--site-card-bg) !important; border-color: var(--site-card-bd) !important; }
+        html.dark-mode .scholar-card:hover { border-color: #4da3e8 !important; box-shadow: 0 16px 32px rgba(0,0,0,.5) !important; }
+        html.dark-mode .scholar-card-thumb { background: rgba(255,255,255,.04) !important; }
+        html.dark-mode .scholar-card-title a { color: #fff !important; }
+        html.dark-mode .scholar-card-country { color: #7cc0f0 !important; }
+        html.dark-mode .scholar-card-provider,
+        html.dark-mode .scholar-card-facts li { color: #cbd5e1 !important; }
+        html.dark-mode .scholar-card-facts { border-top-color: rgba(255,255,255,.08) !important; }
+        html.dark-mode .scholar-card-facts i { color: #7cc0f0 !important; }
+        html.dark-mode .scholar-card-cta { color: #4da3e8 !important; }
+        html.dark-mode .scholar-empty { background: var(--site-card-bg) !important; border-color: var(--site-card-bd) !important; }
+        html.dark-mode .scholar-empty h2 { color: #fff !important; }
+        html.dark-mode .scholar-empty p { color: #cbd5e1 !important; }
+        html.dark-mode .scholar-crumbs,
+        html.dark-mode .scholar-crumbs a { color: #cbd5e1 !important; }
+        html.dark-mode .scholar-guide-btn { color: #e5e7eb !important; border-color: rgba(255,255,255,.3) !important; }
+        html.dark-mode .scholar-guide-btn:hover { background: #2f7fc9 !important; color: #fff !important; }
+        html.dark-mode .scholar-content { color: #cbd5e1 !important; }
+        html.dark-mode .scholar-content h2,
+        html.dark-mode .scholar-content h3,
+        html.dark-mode .scholar-content strong { color: #fff !important; }
+        html.dark-mode .scholar-content h2::before { background: #4da3e8 !important; }
+        html.dark-mode .scholar-content p,
+        html.dark-mode .scholar-content li,
+        html.dark-mode .scholar-content td,
+        html.dark-mode .scholar-content figcaption { color: #cbd5e1 !important; }
+        html.dark-mode .scholar-content a { color: #4da3e8 !important; border-bottom-color: #4da3e8 !important; }
+        html.dark-mode .scholar-content th { background: #1f242c !important; color: #fff !important; }
+        html.dark-mode .scholar-table,
+        html.dark-mode .scholar-content th,
+        html.dark-mode .scholar-content td { border-color: var(--site-card-bd) !important; }
+        html.dark-mode .scholar-content tr:nth-child(even) td { background: rgba(255,255,255,.03) !important; }
+        html.dark-mode .scholar-note { background: rgba(47,127,201,.08) !important; border-left-color: #4da3e8 !important; }
+        html.dark-mode .scholar-note-warn { background: rgba(245,179,1,.08) !important; border-left-color: #f5b301 !important; }
+        html.dark-mode .scholar-apply-box,
+        html.dark-mode .scholar-side-card { background: var(--site-card-bg) !important; border-color: var(--site-card-bd) !important; }
+        html.dark-mode .scholar-apply-box h2,
+        html.dark-mode .scholar-side-card h2 { color: #fff !important; }
+        html.dark-mode .scholar-apply-box p,
+        html.dark-mode .scholar-side-card p,
+        html.dark-mode .scholar-facts dd { color: #cbd5e1 !important; }
+        html.dark-mode .scholar-facts dt,
+        html.dark-mode .scholar-facts dd small { color: var(--site-muted) !important; }
+        html.dark-mode .scholar-facts > div { border-bottom-color: rgba(255,255,255,.08) !important; }
+        html.dark-mode .scholar-side-cv a { color: #4da3e8 !important; }
 
         /* === Generic empty-state card (used on /companies, /jobs-categories, /locations, /job-seekers) === */
         html.dark-mode .empty-state,
