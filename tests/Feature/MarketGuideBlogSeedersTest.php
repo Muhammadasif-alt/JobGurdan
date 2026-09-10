@@ -103,6 +103,20 @@ dataset('market guides', [
         'https://au.indeed.com/q-plumber-jobs.html',
         'Plumber',
     ],
+    'receptionist uae' => [
+        'receptionist-jobs-in-uae',
+        Database\Seeders\ReceptionistJobsUaeBlogSeeder::class,
+        ['receptionist-jobs-in-uae-freezone.jpg', 'receptionist-jobs-in-uae-package.jpg'],
+        'https://ae.indeed.com/q-receptionist-jobs.html',
+        'Receptionist',
+    ],
+    'delivery driver usa' => [
+        'delivery-driver-jobs-in-usa',
+        Database\Seeders\DeliveryDriverJobsUsaBlogSeeder::class,
+        ['delivery-driver-jobs-in-usa-gig.jpg', 'delivery-driver-jobs-in-usa-route.jpg'],
+        'https://www.indeed.com/q-delivery-driver-jobs.html',
+        'Package and Food Delivery Driver',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {

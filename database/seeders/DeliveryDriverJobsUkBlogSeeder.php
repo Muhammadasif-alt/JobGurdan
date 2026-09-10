@@ -354,6 +354,7 @@ JOBHTML;
     <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; the care route and its current restrictions.</li>
     <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the equivalent question on the other side of the Atlantic.</li>
     <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; a UK trade with a real qualification barrier, and the same CIS deduction on day rates.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; the American market, where app pay guarantees count only engaged time.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, insurance, tax or immigration advice. Wage rates, licence rules, insurance requirements and employment status tests change, and pay figures on any job board are a moving average rather than a statistic. Confirm the current position with GOV.UK, your insurer and the employer's own advertisement before applying or paying for any training.</p>

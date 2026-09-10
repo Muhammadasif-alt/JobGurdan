@@ -329,6 +329,57 @@ it('separates a plumbing charge-out rate from a wage and maps where the licence 
         ->toContain('it does not license you');
 });
 
+it('shows why a UAE receptionist package split matters more than its total', function () {
+    $content = guideContent('receptionist-jobs-in-uae', Database\Seeders\ReceptionistJobsUaeBlogSeeder::class);
+
+    // Gratuity is on basic salary alone, so the split changes the entitlement.
+    expect($content)->toContain('Federal Decree-Law No. 33 of 2021')
+        ->toContain('basic salary only')
+        ->toContain('AED 3,150')
+        ->toContain('AED 1,890')
+        ->toContain('AED 1,260 a year');
+
+    // DIFC runs its own employment law and replaced gratuity with DEWS.
+    expect($content)->toContain('DEWS')
+        ->toContain('1 February 2020')
+        ->toContain('5.83 per cent of basic salary')
+        ->toContain('8.33 per cent');
+
+    // The visa is the employer's cost, and a visit visa is not a work permit.
+    expect($content)->toContain('directly or indirectly')
+        ->toContain('Working on one is not');
+
+    // The apply link goes to the UAE site rather than the American one.
+    expect($content)->toContain('https://ae.indeed.com/q-receptionist-jobs.html')
+        ->not->toContain('www.indeed.com/jobs?q=receptionist');
+});
+
+it('prices US gig delivery pay against engaged time and the cost of the car', function () {
+    $content = guideContent('delivery-driver-jobs-in-usa', Database\Seeders\DeliveryDriverJobsUsaBlogSeeder::class);
+
+    // The Proposition 22 guarantee counts engaged time only.
+    expect($content)->toContain('Proposition 22')
+        ->toContain('25 July 2024')
+        ->toContain('120 per cent of the minimum wage')
+        ->toContain('not engaged time');
+
+    // The car is the largest cost, priced at the IRS mileage rate.
+    expect($content)->toContain('72.5 cents a mile')
+        ->toContain('76 cents a mile from 1 July 2026')
+        ->toContain('costs about $76');
+
+    // Three employment structures hiding behind one pay band.
+    expect($content)->toContain('Delivery Service Partners')
+        ->toContain('Teamsters')
+        ->toContain('the name on the van is not the name on your paycheck');
+
+    // Location sets the floor, and contractors have none federally.
+    expect($content)->toContain('$22.13 an hour before tips')
+        ->toContain('$7.25')
+        ->toContain('no federal minimum wage at all')
+        ->toContain('15.3 per cent');
+});
+
 it('keeps the data entry cluster from restating the guide it hangs off', function () {
     // The remote guide owns the scam mechanics and the worldwide geography.
     // If the two US and Pakistan pages repeat them, three pages compete for
@@ -366,6 +417,8 @@ it('wires every new guide into the existing cluster in both directions', functio
         Database\Seeders\DataScientistJobsUsaBlogSeeder::class,
         Database\Seeders\ElectricianJobsUkBlogSeeder::class,
         Database\Seeders\PlumberJobsAustraliaBlogSeeder::class,
+        Database\Seeders\ReceptionistJobsUaeBlogSeeder::class,
+        Database\Seeders\DeliveryDriverJobsUsaBlogSeeder::class,
         // The established posts that should now point back at them.
         Database\Seeders\RemoteDataEntryJobsBlogSeeder::class,
         Database\Seeders\RemoteCustomerServiceJobsBlogSeeder::class,
@@ -392,6 +445,8 @@ it('wires every new guide into the existing cluster in both directions', functio
         'data-scientist-jobs-in-usa' => ['data-entry-jobs-in-usa', 'python-developer-jobs-in-usa'],
         'electrician-jobs-in-uk' => ['delivery-driver-jobs-in-uk', 'warehouse-jobs-uk-visa-sponsorship'],
         'plumber-jobs-in-australia' => ['construction-worker-jobs-in-australia', 'office-assistant-jobs-in-australia', 'electrician-jobs-in-uk'],
+        'receptionist-jobs-in-uae' => ['security-guard-jobs-in-uae', 'office-assistant-jobs-in-australia'],
+        'delivery-driver-jobs-in-usa' => ['delivery-driver-jobs-in-uk', 'retail-jobs-in-usa'],
     ];
 
     foreach ($inbound as $target => $sources) {
@@ -415,6 +470,9 @@ it('resolves every internal link the new guides publish', function () {
         }
     }
 
+    // The truck driver guide predates the *BlogSeeder naming convention.
+    $seeders[] = Database\Seeders\FirstBlogPostSeeder::class;
+
     foreach ($seeders as $seeder) {
         $this->seed($seeder);
     }
@@ -435,6 +493,8 @@ it('resolves every internal link the new guides publish', function () {
         'data-scientist-jobs-in-usa',
         'electrician-jobs-in-uk',
         'plumber-jobs-in-australia',
+        'receptionist-jobs-in-uae',
+        'delivery-driver-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {
