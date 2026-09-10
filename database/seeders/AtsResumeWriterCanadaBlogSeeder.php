@@ -339,6 +339,7 @@ JOBHTML;
     <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; entry-level remote work, and the scam patterns that cluster around it.</li>
     <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; the other large category of genuinely remote hiring.</li>
     <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; the largest Canadian entry occupation, and how federal hiring really ranks you.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the seasonal and agricultural route into Canada, and what an LMIA really is.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or immigration advice. CPP rates, GST/HST thresholds, minimum wages, platform fees and certification costs change &mdash; confirm the current position with the Canada Revenue Agency, your province, the certifying body and the employer's own advertisement before applying or paying any fee.</p>

@@ -230,6 +230,105 @@ it('measures German factory pay against the statutory minimum wage', function ()
         ->toContain('minimum salary requirement');
 });
 
+it('says which of the two Canadian farm programs the reader can actually use', function () {
+    $content = guideContent('farm-worker-jobs-in-canada', Database\Seeders\FarmWorkerJobsCanadaBlogSeeder::class);
+
+    // SAWP runs on bilateral agreements, so the country list is the gate.
+    expect($content)->toContain('Mexico')
+        ->toContain('Trinidad and Tobago')
+        ->toContain('SAWP is closed to you')
+        ->toContain("your own country's labour ministry");
+
+    // Canada has no sponsorship for work permits; it has an LMIA.
+    expect($content)->toContain('no employer sponsorship for a work permit')
+        ->toContain('Labour Market Impact Assessment')
+        ->toContain('LMIA approved');
+
+    // The quoted floor is below the minimum wage in the two biggest markets.
+    expect($content)->toContain('$16 an hour is below the general minimum wage')
+        ->toContain('$18.25')
+        ->toContain('$17.95');
+
+    // Housing is a program requirement, and the PR pathway is shut.
+    expect($content)->toContain('inspected within the last eight months')
+        ->toContain('Agri-Food Pilot')
+        ->toContain('1,010')
+        ->toContain('14 May 2025');
+});
+
+it('separates base salary from total compensation for data scientists', function () {
+    $content = guideContent('data-scientist-jobs-in-usa', Database\Seeders\DataScientistJobsUsaBlogSeeder::class);
+
+    // Junior and entry level are the same rung, reported far apart.
+    expect($content)->toContain('$82,850')
+        ->toContain('$104,847')
+        ->toContain('$21,997 apart');
+
+    // The measured median against the job board average.
+    expect($content)->toContain('$112,590')
+        ->toContain('$131,121')
+        ->toContain('$18,531');
+
+    // Salary and total compensation are different quantities.
+    expect($content)->toContain('are not the same quantity')
+        ->toContain('base plus annual bonus plus equity');
+
+    // The growth figure the drafts bury, and the role that is not data science.
+    expect($content)->toContain('34 per cent')
+        ->toContain('23,400')
+        ->toContain('is an accurate description of');
+});
+
+it('flags the wiring regulations amendment that lapses in October 2026', function () {
+    $content = guideContent('electrician-jobs-in-uk', Database\Seeders\ElectricianJobsUkBlogSeeder::class);
+
+    expect($content)->toContain('BS 7671:2018+A4:2026')
+        ->toContain('15 April 2026')
+        ->toContain('withdrawn on 15 October 2026')
+        ->toContain('The 19th Edition does not exist');
+
+    // The ECS card is contractual; Part P is the law.
+    expect($content)->toContain('The ECS card is contractual')
+        ->toContain('Part P of the Building Regulations is the law')
+        ->toContain('scheme membership is not compulsory')
+        ->toContain('calibrated test instruments');
+
+    // Apprentice pay against the rate the apprentice is actually entitled to.
+    expect($content)->toContain('&pound;8.00')
+        ->toContain('&pound;15,600')
+        ->toContain('&pound;24,784.50')
+        ->toContain('&pound;2,784.50 short');
+
+    // The deduction that comes off a day rate before it reaches you.
+    expect($content)->toContain('Construction Industry Scheme')
+        ->toContain('20 per cent')
+        ->toContain('30 per cent')
+        ->toContain('labour portion only');
+});
+
+it('separates a plumbing charge-out rate from a wage and maps where the licence travels', function () {
+    $content = guideContent('plumber-jobs-in-australia', Database\Seeders\PlumberJobsAustraliaBlogSeeder::class);
+
+    // A charge-out rate is turnover, and unbilled hours are the largest deduction.
+    expect($content)->toContain('charge-out rate')
+        ->toContain('Unbilled hours, which are the big one');
+
+    // Apprentice pay below the national minimum wage is lawful under the award.
+    expect($content)->toContain('$26.44')
+        ->toContain('$22.77')
+        ->toContain('percentages of the qualified tradesperson');
+
+    // The licence travels under AMR, with two holes in it.
+    expect($content)->toContain('Automatic Mutual Recognition')
+        ->toContain('Queensland is outside the scheme, in both directions')
+        ->toContain('Gasfitting classes are exempt from AMR');
+
+    // Super, and the migration answer that is genuinely positive for a trade.
+    expect($content)->toContain('$9,600')
+        ->toContain('Plumbing is a skilled trade occupation')
+        ->toContain('it does not license you');
+});
+
 it('keeps the data entry cluster from restating the guide it hangs off', function () {
     // The remote guide owns the scam mechanics and the worldwide geography.
     // If the two US and Pakistan pages repeat them, three pages compete for
@@ -263,6 +362,10 @@ it('wires every new guide into the existing cluster in both directions', functio
         Database\Seeders\OfficeAssistantJobsAustraliaBlogSeeder::class,
         Database\Seeders\RetailJobsUsaBlogSeeder::class,
         Database\Seeders\FactoryWorkerJobsGermanyBlogSeeder::class,
+        Database\Seeders\FarmWorkerJobsCanadaBlogSeeder::class,
+        Database\Seeders\DataScientistJobsUsaBlogSeeder::class,
+        Database\Seeders\ElectricianJobsUkBlogSeeder::class,
+        Database\Seeders\PlumberJobsAustraliaBlogSeeder::class,
         // The established posts that should now point back at them.
         Database\Seeders\RemoteDataEntryJobsBlogSeeder::class,
         Database\Seeders\RemoteCustomerServiceJobsBlogSeeder::class,
@@ -271,6 +374,8 @@ it('wires every new guide into the existing cluster in both directions', functio
         Database\Seeders\DriverJobsSaudiBlogSeeder::class,
         Database\Seeders\UnskilledJobsUsaBlogSeeder::class,
         Database\Seeders\GovernmentJobsPakistanBlogSeeder::class,
+        Database\Seeders\AtsResumeWriterCanadaBlogSeeder::class,
+        Database\Seeders\PythonDeveloperJobsUsaBlogSeeder::class,
     ] as $seeder) {
         $this->seed($seeder);
     }
@@ -283,6 +388,10 @@ it('wires every new guide into the existing cluster in both directions', functio
         'security-guard-jobs-in-uae' => ['security-guard-jobs-in-saudi-arabia', 'driver-jobs-in-saudi-arabia-for-foreigners'],
         'retail-jobs-in-usa' => ['remote-customer-service-jobs', 'unskilled-jobs-in-usa-for-foreigners'],
         'factory-worker-jobs-in-germany' => ['warehouse-jobs-uk-visa-sponsorship'],
+        'farm-worker-jobs-in-canada' => ['customer-service-jobs-in-canada', 'ats-resume-writer-jobs-in-canada'],
+        'data-scientist-jobs-in-usa' => ['data-entry-jobs-in-usa', 'python-developer-jobs-in-usa'],
+        'electrician-jobs-in-uk' => ['delivery-driver-jobs-in-uk', 'warehouse-jobs-uk-visa-sponsorship'],
+        'plumber-jobs-in-australia' => ['construction-worker-jobs-in-australia', 'office-assistant-jobs-in-australia', 'electrician-jobs-in-uk'],
     ];
 
     foreach ($inbound as $target => $sources) {
@@ -322,6 +431,10 @@ it('resolves every internal link the new guides publish', function () {
         'office-assistant-jobs-in-australia',
         'retail-jobs-in-usa',
         'factory-worker-jobs-in-germany',
+        'farm-worker-jobs-in-canada',
+        'data-scientist-jobs-in-usa',
+        'electrician-jobs-in-uk',
+        'plumber-jobs-in-australia',
     ];
 
     foreach ($guides as $guide) {

@@ -283,6 +283,7 @@ JOBHTML;
     <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; EB-3 and H-2B routes and CDL requirements.</li>
     <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; the delivery end of the same supply chain, and what self-employed really costs.</li>
     <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; industrial work in the EU, and which visa route actually applies.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; a skilled UK trade where sponsorship has a real answer.</li>
 </ul>
 
 <div style="text-align:center;margin:32px 0;">

@@ -347,6 +347,9 @@ JOBHTML;
     <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; why operative-level roles fail the UK sponsorship tests.</li>
     <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; a licensed Gulf role with accommodation and visa included.</li>
     <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest position on American entry-level sponsorship.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; the same trade under British certification rules.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; seasonal work in Canada, and which program your passport allows.</li>
+    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; the licensed trade route, and the two places a plumbing licence does not travel.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, migration or financial advice. Award rates, the national minimum wage, superannuation rules and visa conditions change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Fair Work Ombudsman, the Department of Home Affairs and the employer's own advertisement before applying.</p>

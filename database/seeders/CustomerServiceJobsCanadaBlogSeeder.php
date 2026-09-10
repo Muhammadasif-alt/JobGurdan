@@ -364,6 +364,7 @@ JOBHTML;
     <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; the remote support route from outside North America.</li>
     <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest position on US entry-level sponsorship.</li>
     <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; a Gulf route where the package structure matters more than the headline.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the agricultural route, and which of its two foreign worker programs you can use.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Minimum wages, wage survey figures, language requirements and hiring preferences change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with Job Bank, your provincial employment standards authority and the employer's own advertisement before applying.</p>

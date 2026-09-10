@@ -75,6 +75,34 @@ dataset('market guides', [
         'https://de.indeed.com/q-fabrikarbeiter,-verpackung,-bandarbeit,-fabrikhilfer-jobs.html',
         'Production Worker',
     ],
+    'farm worker canada' => [
+        'farm-worker-jobs-in-canada',
+        Database\Seeders\FarmWorkerJobsCanadaBlogSeeder::class,
+        ['farm-worker-jobs-in-canada-sawp.jpg', 'farm-worker-jobs-in-canada-greenhouse.jpg'],
+        'https://ca.indeed.com/q-farm-worker-jobs.html',
+        'Farm Worker',
+    ],
+    'data scientist usa' => [
+        'data-scientist-jobs-in-usa',
+        Database\Seeders\DataScientistJobsUsaBlogSeeder::class,
+        ['data-scientist-jobs-in-usa-salary.jpg', 'data-scientist-jobs-in-usa-skills.jpg'],
+        'https://www.indeed.com/q-data-scientist-jobs.html',
+        'Data Scientist',
+    ],
+    'electrician uk' => [
+        'electrician-jobs-in-uk',
+        Database\Seeders\ElectricianJobsUkBlogSeeder::class,
+        ['electrician-jobs-in-uk-qualifications.jpg', 'electrician-jobs-in-uk-selfemployed.jpg'],
+        'https://uk.indeed.com/q-electrician-jobs.html',
+        'Electrician',
+    ],
+    'plumber australia' => [
+        'plumber-jobs-in-australia',
+        Database\Seeders\PlumberJobsAustraliaBlogSeeder::class,
+        ['plumber-jobs-in-australia-licence.jpg', 'plumber-jobs-in-australia-selfemployed.jpg'],
+        'https://au.indeed.com/q-plumber-jobs.html',
+        'Plumber',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {

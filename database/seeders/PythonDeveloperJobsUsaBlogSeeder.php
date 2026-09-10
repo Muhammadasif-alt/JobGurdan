@@ -337,6 +337,7 @@ JOBHTML;
     <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the $92,650 occupation in full, including how freelance rates work against US tax.</li>
     <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; the same "which band am I in" problem, and working for a US company from abroad.</li>
     <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; where Python moves a Tier 1 analyst into detection engineering.</li>
+    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a> &mdash; where the same language is used for modelling, and how the two roles differ.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage data and employment projections change &mdash; confirm the current position with the Bureau of Labor Statistics and the employer's own advertisement before applying or relying on any of it.</p>
