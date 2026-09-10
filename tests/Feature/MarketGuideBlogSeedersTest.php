@@ -117,6 +117,13 @@ dataset('market guides', [
         'https://www.indeed.com/q-delivery-driver-jobs.html',
         'Package and Food Delivery Driver',
     ],
+    'teacher pakistan' => [
+        'teacher-jobs-in-pakistan',
+        Database\Seeders\TeacherJobsPakistanBlogSeeder::class,
+        ['teacher-jobs-in-pakistan-government.jpg', 'teacher-jobs-in-pakistan-private.jpg'],
+        'https://pk.indeed.com/q-teacher-jobs.html',
+        'Teacher',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {

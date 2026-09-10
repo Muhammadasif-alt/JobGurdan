@@ -380,6 +380,35 @@ it('prices US gig delivery pay against engaged time and the cost of the car', fu
         ->toContain('15.3 per cent');
 });
 
+it('tells Pakistani teachers which qualification exists and who really employs them', function () {
+    $content = guideContent('teacher-jobs-in-pakistan', Database\Seeders\TeacherJobsPakistanBlogSeeder::class);
+
+    // PTC and CT are gone; a new candidate qualifies through ADE or B.Ed (Hons).
+    expect($content)->toContain('PTC and CT were discontinued')
+        ->toContain('2011-12 academic session')
+        ->toContain('Associate Degree in Education')
+        ->toContain('B.Ed (Hons)');
+
+    // The quoted private school floor is below every provincial minimum wage.
+    expect($content)->toContain('PKR 25,000')
+        ->toContain('PKR 40,700')
+        ->toContain('PKR 43,000')
+        ->toContain('PKR 45,000')
+        ->toContain('below the minimum wage for an unskilled worker in every province');
+
+    // A government school is not always a government job.
+    expect($content)->toContain('Punjab Education Foundation')
+        ->toContain('PEIMA')
+        ->toContain('2,735')
+        ->toContain('Sindh Education Foundation')
+        ->toContain('PKR 10,000 to PKR 15,000')
+        ->toContain('who actually employs you');
+
+    // BPS figures need the basic-versus-gross reading from the data entry guide.
+    expect($content)->toContain('Revised Basic Pay Scales 2026')
+        ->toContain('/blog/data-entry-jobs-in-pakistan');
+});
+
 it('keeps the data entry cluster from restating the guide it hangs off', function () {
     // The remote guide owns the scam mechanics and the worldwide geography.
     // If the two US and Pakistan pages repeat them, three pages compete for
@@ -419,6 +448,7 @@ it('wires every new guide into the existing cluster in both directions', functio
         Database\Seeders\PlumberJobsAustraliaBlogSeeder::class,
         Database\Seeders\ReceptionistJobsUaeBlogSeeder::class,
         Database\Seeders\DeliveryDriverJobsUsaBlogSeeder::class,
+        Database\Seeders\TeacherJobsPakistanBlogSeeder::class,
         // The established posts that should now point back at them.
         Database\Seeders\RemoteDataEntryJobsBlogSeeder::class,
         Database\Seeders\RemoteCustomerServiceJobsBlogSeeder::class,
@@ -447,6 +477,7 @@ it('wires every new guide into the existing cluster in both directions', functio
         'plumber-jobs-in-australia' => ['construction-worker-jobs-in-australia', 'office-assistant-jobs-in-australia', 'electrician-jobs-in-uk'],
         'receptionist-jobs-in-uae' => ['security-guard-jobs-in-uae', 'office-assistant-jobs-in-australia'],
         'delivery-driver-jobs-in-usa' => ['delivery-driver-jobs-in-uk', 'retail-jobs-in-usa'],
+        'teacher-jobs-in-pakistan' => ['government-jobs-in-pakistan', 'data-entry-jobs-in-pakistan'],
     ];
 
     foreach ($inbound as $target => $sources) {
@@ -495,6 +526,7 @@ it('resolves every internal link the new guides publish', function () {
         'plumber-jobs-in-australia',
         'receptionist-jobs-in-uae',
         'delivery-driver-jobs-in-usa',
+        'teacher-jobs-in-pakistan',
     ];
 
     foreach ($guides as $guide) {
