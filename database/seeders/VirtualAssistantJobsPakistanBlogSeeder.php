@@ -331,6 +331,7 @@ JOBHTML;
     <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; the largest entry-level remote category, and why the Amazon version of it is a scam.</li>
     <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; employed remote work with a fixed salary and a shift behind it.</li>
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; the wider remote market and how payment from abroad operates.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; the local office route into the same skill set.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, financial or careers advice. Rates, contract terms and compliance obligations are set by each client and by the law that applies to them &mdash; confirm the current position directly before accepting work.</p>

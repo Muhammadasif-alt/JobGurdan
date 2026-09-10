@@ -324,6 +324,7 @@ JOBHTML;
     <li><a href="/blog/digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan">Digital Marketing Expert (SEO) &mdash; Remote, Pakistan</a> &mdash; a remote private-sector route out of the same graduate pool.</li>
     <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; the Gulf route, and how Saudi sponsorship is really processed.</li>
     <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; giga-project hiring from trades to project management.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; the Data Entry Operator post, its grade range and the practical test.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Scales, quotas, age limits and closing dates are set by the recruiting department and change &mdash; confirm every requirement on the official advertisement and on the FPSC or provincial commission portal before applying or paying any fee.</p>

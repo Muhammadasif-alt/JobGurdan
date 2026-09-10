@@ -320,6 +320,7 @@ JOBHTML;
     <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a> &mdash; the American route for registered nurses, and the green card queue behind it.</li>
     <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London</a> &mdash; entry-level work in the UK for people who already hold the right to work.</li>
     <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; what sponsorship looks like outside healthcare.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; UK work for people who already hold the right to work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Immigration rules, pay bands and registration requirements change &mdash; confirm the current position on gov.uk, with the relevant regulator, and on the employer's own advertisement before applying or paying any fee.</p>

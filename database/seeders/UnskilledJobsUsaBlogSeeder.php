@@ -328,6 +328,8 @@ JOBHTML;
     <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; trades sponsorship and where the demand actually sits.</li>
     <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; CDL requirements and the EB-3 route for drivers.</li>
     <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a> &mdash; the licensed route, and how the same green card queue affects it.</li>
+    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; the largest American entry point, and the wage floor that varies by state.</li>
+    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; clerical entry work, and the projection to see before choosing it.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Wage rates, visa caps and Visa Bulletin dates change &mdash; confirm the current position with the US Department of Labor, the monthly Visa Bulletin, or a licensed immigration attorney before paying any fee or travelling.</p>

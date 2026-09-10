@@ -286,6 +286,7 @@ JOBHTML;
     <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; EB-3 and H-2B routes, CDL requirements and realistic pay.</li>
     <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; H-2B and J-1 hospitality sponsorship and which roles get hired.</li>
     <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; what the July 2025 care worker route closure means for applicants.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; the same trade under a published award, and why labouring is a working holiday route rather than a sponsored one.</li>
 </ul>
 
 <div style="text-align:center;margin:32px 0;">

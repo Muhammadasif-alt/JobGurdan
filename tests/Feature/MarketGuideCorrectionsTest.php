@@ -1,0 +1,334 @@
+<?php
+
+use App\Models\Blog;
+use App\Models\Job;
+
+/**
+ * Each 2026 market guide exists to correct something specific in the source
+ * draft. These assertions pin those corrections so a later edit cannot quietly
+ * remove the reason the page was written.
+ */
+function guideContent(string $slug, string $seeder): string
+{
+    test()->seed($seeder);
+
+    return Blog::where('slug', $slug)->value('content');
+}
+
+it('keeps the UK day rate and hourly rate apart instead of averaging them', function () {
+    // GBP 155 a day is self-employed turnover before the van; GBP 13.96 an
+    // hour is employed pay with holiday and pension behind it.
+    $content = guideContent('delivery-driver-jobs-in-uk', Database\Seeders\DeliveryDriverJobsUkBlogSeeder::class);
+
+    expect($content)->toContain('&pound;155')
+        ->toContain('&pound;13.96')
+        ->toContain('self-employed turnover')
+        ->toContain('&pound;12.71')
+        ->toContain('&pound;24,784.50')
+        ->toContain('&pound;22,596')
+        ->toContain('&pound;2,188.50 below the legal minimum for an employee');
+
+    // The percentage in the draft does not reconcile with its own average.
+    expect($content)->toContain('&pound;183')
+        ->toContain('18 per cent');
+
+    // Worker status is a conclusion, not a label, and the clause decides it.
+    expect($content)->toContain('Uber BV v Aslam')
+        ->toContain('IWGB v Central Arbitration Committee')
+        ->toContain('substitution clause');
+
+    // The insurance the draft omits entirely.
+    expect($content)->toContain('hire and reward')
+        ->toContain('section 143 of the Road Traffic Act 1988');
+
+    // Two separate gates, not one line about "additional licensing".
+    expect($content)->toContain('1 January 1997')
+        ->toContain('35 hours of periodic training every five years')
+        ->toContain('is not describing a parcel van job');
+
+    // And the listing itself has to say which of the two rates it is quoting.
+    expect(Job::where('position', 'like', 'Delivery Driver%')->value('description'))
+        ->toContain('That is turnover, not pay')
+        ->toContain('substitution clause');
+});
+
+it('shows the Canadian entry-level figure cannot sit above the average', function () {
+    $content = guideContent('customer-service-jobs-in-canada', Database\Seeders\CustomerServiceJobsCanadaBlogSeeder::class);
+
+    expect($content)->toContain('$20.43')
+        ->toContain('$49,142')
+        ->toContain('$42,494')
+        ->toContain('$6,648 higher than the overall average');
+
+    // The measured Job Bank median, which is above the job board average.
+    expect($content)->toContain('$22.00')
+        ->toContain('$16.00')
+        ->toContain('$33.14');
+
+    // The quoted floor is already unlawful in British Columbia.
+    expect($content)->toContain('$18.15 is below British Columbia')
+        ->toContain('$18.25')
+        ->toContain('$17.95')
+        ->toContain('$15.00');
+
+    // Bilingualism is a tested profile, and federal hiring has an order.
+    expect($content)->toContain('Bilingual imperative')
+        ->toContain('Second Language Evaluation')
+        ->toContain('Public Service Employment Act')
+        ->toContain('Canadian citizens and permanent residents');
+});
+
+it('prices the Australian average against the award it actually reflects', function () {
+    $content = guideContent('construction-worker-jobs-in-australia', Database\Seeders\ConstructionWorkerJobsAustraliaBlogSeeder::class);
+
+    expect($content)->toContain('$71,059')
+        ->toContain('$26.67')
+        ->toContain('$52,700')
+        ->toContain('$65,880')
+        ->toContain('$26.44');
+
+    // Superannuation is larger than the entire spread between the states.
+    expect($content)->toContain('12 per cent')
+        ->toContain('$7,613')
+        ->toContain('$3,344');
+
+    // The White Card is a legal gate with a disuse rule, not a listed skill.
+    expect($content)->toContain('legal condition of entering a construction site')
+        ->toContain('no construction work for two consecutive years')
+        ->toContain('recognised across Australia');
+
+    // Work rights, on a site whose readers are mostly outside Australia.
+    expect($content)->toContain('88 days')
+        ->toContain('179 days')
+        ->toContain('not a skilled migration occupation');
+});
+
+it('gives the US data entry projection as a number rather than an adjective', function () {
+    $content = guideContent('data-entry-jobs-in-usa', Database\Seeders\DataEntryJobsUsaBlogSeeder::class);
+
+    expect($content)->toContain('25.9 per cent')
+        ->toContain('2024 and 2034')
+        ->toContain('$39,850')
+        ->toContain('$19.16')
+        ->toContain('$49,500');
+
+    // The published tables sit above the federal median.
+    expect($content)->toContain('below the bottom of that band');
+
+    // Remote pays the median, contradicting the draft's premium claim.
+    expect($content)->toContain('the median')
+        ->toContain('not a premium');
+
+    // What automation is not taking.
+    expect($content)->toContain('Exception handling')
+        ->toContain('transcription without judgement');
+});
+
+it('separates basic pay from take-home in the Pakistani government grades', function () {
+    $content = guideContent('data-entry-jobs-in-pakistan', Database\Seeders\DataEntryJobsPakistanBlogSeeder::class);
+
+    expect($content)->toContain('Revised Basic Pay Scales 2026')
+        ->toContain('1 July 2026')
+        ->toContain('not measuring the same thing');
+
+    // The grade is the salary, and it is not fixed at one grade.
+    expect($content)->toContain('BPS-11 to BPS-14');
+
+    // The practical test is a separate gate from the written paper.
+    expect($content)->toContain('pass or fail on its own');
+
+    // An eightfold spread is not a band, and the bonus is worth naming.
+    expect($content)->toContain('eightfold')
+        ->toContain('PKR 700 to PKR 1,400 a month');
+});
+
+it('corrects the claim that a SIRA licence covers the whole UAE', function () {
+    $content = guideContent('security-guard-jobs-in-uae', Database\Seeders\SecurityGuardJobsUaeBlogSeeder::class);
+
+    expect($content)->toContain('Emirate of Dubai')
+        ->toContain('Private Security Business Department')
+        ->toContain('Abu Dhabi, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah and Fujairah')
+        ->toContain("cannot work in the other's territory");
+
+    // Gratuity is on basic salary alone, which reverses the draft's advice.
+    expect($content)->toContain('Federal Decree-Law No. 33 of 2021')
+        ->toContain('excluded from the calculation')
+        ->toContain('40 per cent smaller');
+
+    expect(Job::where('position', 'like', 'Security Guard%')->value('description'))
+        ->toContain('SIRA for Dubai, PSBD for Abu Dhabi and the northern emirates');
+});
+
+it('anchors US retail pay on the state floor rather than a national average', function () {
+    $content = guideContent('retail-jobs-in-usa', Database\Seeders\RetailJobsUsaBlogSeeder::class);
+
+    // Five averages spanning 57 per cent are not five measurements.
+    expect($content)->toContain('57 per cent apart')
+        ->toContain('$12.72')
+        ->toContain('$20.00');
+
+    // BLS separates the two occupations the drafts merge.
+    expect($content)->toContain('$17.03')
+        ->toContain('$14.99')
+        ->toContain('$2.04');
+
+    // The number every retail guide leaves out.
+    expect($content)->toContain('$7.25')
+        ->toContain('24 July 2009')
+        ->toContain('$18.40')
+        ->toContain('higher than the national median wage for retail salespersons');
+
+    // Scheduling cuts both ways and the advert will not say which.
+    expect($content)->toContain('Flexible for you')
+        ->toContain('Flexible for them');
+});
+
+it('shows the Australian office assistant guide contradicting its own average', function () {
+    $content = guideContent('office-assistant-jobs-in-australia', Database\Seeders\OfficeAssistantJobsAustraliaBlogSeeder::class);
+
+    expect($content)->toContain('$62,200')
+        ->toContain('$59,000')
+        ->toContain('$60,500')
+        ->toContain('below $62,200');
+
+    // One published floor is below the legal minimum for full-time work.
+    expect($content)->toContain('$1,004.90')
+        ->toContain('$52,255')
+        ->toContain('$50,475')
+        ->toContain('below the legal minimum');
+
+    // Super is worth more than the spread between the four averages.
+    expect($content)->toContain('$7,464');
+
+    // The check that does not travel, against the police check that does.
+    expect($content)->toContain('not transferable between them')
+        ->toContain('Blue Card')
+        ->toContain('A National Police Check is national');
+});
+
+it('measures German factory pay against the statutory minimum wage', function () {
+    $content = guideContent('factory-worker-jobs-in-germany', Database\Seeders\FactoryWorkerJobsGermanyBlogSeeder::class);
+
+    expect($content)->toContain('EUR 13.90')
+        ->toContain('EUR 14.60')
+        ->toContain('EUR 2,409');
+
+    // Four of the five published range floors are below the legal minimum.
+    expect($content)->toContain('EUR 1,959')
+        ->toContain('EUR 2,177')
+        ->toContain('EUR 2,216')
+        ->toContain('EUR 2,383')
+        ->toContain('All four are below EUR 13.90');
+
+    // Gross here is not gross elsewhere.
+    expect($content)->toContain('roughly a fifth of gross')
+        ->toContain('Steuerklasse');
+
+    // The Opportunity Card is a skilled worker instrument with an hours cap.
+    expect($content)->toContain('20 hours a week')
+        ->toContain('six points')
+        ->toContain('minimum salary requirement');
+});
+
+it('keeps the data entry cluster from restating the guide it hangs off', function () {
+    // The remote guide owns the scam mechanics and the worldwide geography.
+    // If the two US and Pakistan pages repeat them, three pages compete for
+    // one query instead of covering three different intents.
+    $this->seed(Database\Seeders\DataEntryJobsUsaBlogSeeder::class);
+    $this->seed(Database\Seeders\DataEntryJobsPakistanBlogSeeder::class);
+
+    $usa = Blog::where('slug', 'data-entry-jobs-in-usa')->value('content');
+    $pakistan = Blog::where('slug', 'data-entry-jobs-in-pakistan')->value('content');
+
+    expect($usa)->toContain('/blog/remote-data-entry-jobs')
+        ->toContain('does not repeat it');
+
+    expect($pakistan)->toContain('/blog/remote-data-entry-jobs')
+        ->toContain('does not repeat it');
+
+    // And the Pakistan page uses the US projection as contrast, not as its
+    // own subject, so the two do not compete on the same argument.
+    expect($pakistan)->toContain('/blog/data-entry-jobs-in-usa');
+    expect($usa)->toContain('/blog/data-entry-jobs-in-pakistan');
+});
+
+it('wires every new guide into the existing cluster in both directions', function () {
+    foreach ([
+        Database\Seeders\DeliveryDriverJobsUkBlogSeeder::class,
+        Database\Seeders\CustomerServiceJobsCanadaBlogSeeder::class,
+        Database\Seeders\ConstructionWorkerJobsAustraliaBlogSeeder::class,
+        Database\Seeders\DataEntryJobsUsaBlogSeeder::class,
+        Database\Seeders\DataEntryJobsPakistanBlogSeeder::class,
+        Database\Seeders\SecurityGuardJobsUaeBlogSeeder::class,
+        Database\Seeders\OfficeAssistantJobsAustraliaBlogSeeder::class,
+        Database\Seeders\RetailJobsUsaBlogSeeder::class,
+        Database\Seeders\FactoryWorkerJobsGermanyBlogSeeder::class,
+        // The established posts that should now point back at them.
+        Database\Seeders\RemoteDataEntryJobsBlogSeeder::class,
+        Database\Seeders\RemoteCustomerServiceJobsBlogSeeder::class,
+        Database\Seeders\WarehouseUkBlogSeeder::class,
+        Database\Seeders\SecurityGuardJobsSaudiBlogSeeder::class,
+        Database\Seeders\DriverJobsSaudiBlogSeeder::class,
+        Database\Seeders\UnskilledJobsUsaBlogSeeder::class,
+        Database\Seeders\GovernmentJobsPakistanBlogSeeder::class,
+    ] as $seeder) {
+        $this->seed($seeder);
+    }
+
+    $inbound = [
+        'delivery-driver-jobs-in-uk' => ['warehouse-jobs-uk-visa-sponsorship', 'driver-jobs-in-saudi-arabia-for-foreigners'],
+        'customer-service-jobs-in-canada' => ['remote-customer-service-jobs'],
+        'data-entry-jobs-in-usa' => ['remote-data-entry-jobs', 'unskilled-jobs-in-usa-for-foreigners'],
+        'data-entry-jobs-in-pakistan' => ['remote-data-entry-jobs', 'government-jobs-in-pakistan'],
+        'security-guard-jobs-in-uae' => ['security-guard-jobs-in-saudi-arabia', 'driver-jobs-in-saudi-arabia-for-foreigners'],
+        'retail-jobs-in-usa' => ['remote-customer-service-jobs', 'unskilled-jobs-in-usa-for-foreigners'],
+        'factory-worker-jobs-in-germany' => ['warehouse-jobs-uk-visa-sponsorship'],
+    ];
+
+    foreach ($inbound as $target => $sources) {
+        foreach ($sources as $source) {
+            expect(Blog::where('slug', $source)->value('content'))->toContain('/blog/'.$target);
+        }
+    }
+});
+
+it('resolves every internal link the new guides publish', function () {
+    // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
+    // happily advertise, and it is the easiest mistake to make when a guide
+    // is written before the guide it points at.
+    $seeders = [];
+
+    foreach (glob(database_path('seeders').'/*BlogSeeder.php') as $file) {
+        $class = 'Database\\Seeders\\'.basename($file, '.php');
+
+        if (class_exists($class)) {
+            $seeders[] = $class;
+        }
+    }
+
+    foreach ($seeders as $seeder) {
+        $this->seed($seeder);
+    }
+
+    $known = Blog::pluck('slug')->all();
+
+    $guides = [
+        'delivery-driver-jobs-in-uk',
+        'customer-service-jobs-in-canada',
+        'construction-worker-jobs-in-australia',
+        'data-entry-jobs-in-usa',
+        'data-entry-jobs-in-pakistan',
+        'security-guard-jobs-in-uae',
+        'office-assistant-jobs-in-australia',
+        'retail-jobs-in-usa',
+        'factory-worker-jobs-in-germany',
+    ];
+
+    foreach ($guides as $guide) {
+        preg_match_all('#/blog/([a-z0-9-]+)#', Blog::where('slug', $guide)->value('content'), $matches);
+
+        foreach (array_unique($matches[1]) as $referenced) {
+            expect($known)->toContain($referenced);
+        }
+    }
+});
