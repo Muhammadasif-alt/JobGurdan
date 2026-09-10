@@ -100,6 +100,27 @@ it('serves each row photo as webp with a jpg fallback at its real size', functio
     'tailored cv' => ['cv', 'home-tailored-cv'],
 ]);
 
+it('keeps the hero eyebrow to claims the listings can back up', function () {
+    $html = homeSplitRows()['html'];
+
+    preg_match('#<span class="hero-eyebrow"[^>]*>(.*?)</span>\s*<h1#s', $html, $eyebrow);
+
+    $text = html_entity_decode(trim(strip_tags($eyebrow[1] ?? '')));
+
+    expect($text)->toContain('Real hiring')
+        ->toContain(app(SiteCoverage::class)->count().' countries')
+        ->not->toMatch('/verified|all over the world|worldwide/i');
+});
+
+it('does not promise an employer link or a check most listings do not have', function () {
+    // Most live listings point at a job-board search page rather than one
+    // employer's advert, and employer accounts publish without a review.
+    $verified = homeSplitRows()['verified'];
+
+    expect(strip_tags($verified))->not->toMatch('/original posting|links through to the employer/i')
+        ->not->toMatch('/verified|reviewed by our team before|all over the world/i');
+});
+
 it('names the countries the board covers instead of claiming every country', function () {
     $verified = homeSplitRows()['verified'];
 

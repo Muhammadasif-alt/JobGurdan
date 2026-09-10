@@ -1011,7 +1011,7 @@
                     <div class="utf-banner-headline-text-part">
                         <span class="hero-eyebrow" data-aos="fade-down" data-aos-duration="600">
                             <span class="pulse-dot"></span>
-                            New jobs and visa guides added every week
+                            Hand-picked jobs &middot; Real hiring &middot; {{ $coverage->count() }} countries
                         </span>
                         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                             Find Jobs Abroad
@@ -1887,23 +1887,23 @@
             <div class="home-split">
                 <div class="home-split-media" data-aos="fade-up">
                     <img src="{{ asset('public/user/images/home-verified-jobs.webp') }}"
-                         alt="A job seeker browsing verified job listings on a laptop with a careers adviser, a world map on the wall behind them"
+                         alt="A job seeker browsing job listings on a laptop with a careers adviser, a world map on the wall behind them"
                          width="1200" height="628"
                          loading="lazy"
                          onerror="this.onerror=null;this.src='{{ asset('public/user/images/home-verified-jobs.jpg') }}'">
                 </div>
                 <div class="home-split-body" data-aos="fade-up" data-aos-delay="120">
-                    <span class="home-split-eyebrow">Verified Jobs</span>
-                    <h2 id="verified-jobs-heading">Real Hiring From Real Employers, <span class="accent">All Over the World</span></h2>
-                    <p>Every job we post is a live opening an employer is actually hiring for &mdash; not a recycled advert, and never a fee dressed up as a job offer. Listings span {{ $coverage->shortList() }}, so wherever you want to work, you can see what is genuinely open before you apply.</p>
+                    <span class="home-split-eyebrow">Hand-Picked Jobs</span>
+                    <h2 id="verified-jobs-heading">Real Hiring From Real Employers <span class="accent">in {{ $coverage->countWord() }} Countries</span></h2>
+                    <p>Every job on JobGader is added by our team, by hand &mdash; and never a fee dressed up as a job offer. Listings span {{ $coverage->shortList() }}, so wherever you want to work, you can see what is genuinely open before you apply.</p>
                     <ul class="home-split-points">
                         <li>
                             <i class="icon-feather-check" aria-hidden="true"></i>
-                            <span><strong>Checked before it goes live</strong>Each listing is reviewed by our team before it is published, so fake and out-of-date adverts stay off the board.</span>
+                            <span><strong>Added by a person</strong>Our team writes up each listing by hand, with what the role involves and who it suits, instead of scraping job boards in bulk.</span>
                         </li>
                         <li>
                             <i class="icon-feather-check" aria-hidden="true"></i>
-                            <span><strong>Apply at the source</strong>Every job links through to the employer or the original posting, so you can confirm it for yourself.</span>
+                            <span><strong>Check the openings yourself</strong>Each listing links out to where the roles are advertised, so you can see what is open right now before you apply.</span>
                         </li>
                         <li>
                             <i class="icon-feather-check" aria-hidden="true"></i>
@@ -1911,7 +1911,7 @@
                         </li>
                     </ul>
                     <a href="{{ route('jobs.index') }}" class="home-split-cta">
-                        <span>Browse Verified Jobs</span>
+                        <span>Browse Open Jobs</span>
                         <i class="icon-material-outline-arrow-right-alt"></i>
                     </a>
                 </div>
