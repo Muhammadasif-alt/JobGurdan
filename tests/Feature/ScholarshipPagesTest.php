@@ -2,6 +2,7 @@
 
 use App\Models\Scholarship;
 use Database\Seeders\MonashRtpScholarshipSeeder;
+use Database\Seeders\SydneyBusinessSchoolPhdScholarshipSeeder;
 use Database\Seeders\SydneyRtpDomesticScholarshipSeeder;
 use Database\Seeders\SydneyRtpInternationalScholarshipSeeder;
 use Illuminate\Support\Carbon;
@@ -103,6 +104,7 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'monash' => [MonashRtpScholarshipSeeder::class, MonashRtpScholarshipSeeder::SLUG, 3],
     'sydney international' => [SydneyRtpInternationalScholarshipSeeder::class, SydneyRtpInternationalScholarshipSeeder::SLUG, 3],
     'sydney domestic' => [SydneyRtpDomesticScholarshipSeeder::class, SydneyRtpDomesticScholarshipSeeder::SLUG, 1],
+    'sydney business school' => [SydneyBusinessSchoolPhdScholarshipSeeder::class, SydneyBusinessSchoolPhdScholarshipSeeder::SLUG, 2],
 ]);
 
 it('corrects what the Monash posters and brief get wrong', function () {
@@ -147,8 +149,40 @@ it('gives Sydney domestic applicants the eligibility, tuition and ranking the br
         ->toContain('submit the scholarship application form')
         ->toContain('world ranking of the university')
         ->toContain('registered tax agent')
+        ->toContain('/scholarships/'.SydneyBusinessSchoolPhdScholarshipSeeder::SLUG)
         ->not->toContain('tax-free')
         ->not->toContain('Departmental');
+});
+
+it('gives Business School applicants the stipend top-up, open round and contacts the brief gets wrong', function () {
+    // The brief adds project money on top of the RTP rate, gives a contact
+    // email, phone and URL the school does not use, calls the deadlines
+    // year-round, asks for IELTS 6.5 and says to find a supervisor first. The
+    // scholarship terms, the course page and the English tables say otherwise.
+    $this->seed(SydneyBusinessSchoolPhdScholarshipSeeder::class);
+
+    $scholarship = Scholarship::where('slug', SydneyBusinessSchoolPhdScholarshipSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->content)
+        ->toContain('Business School Supplementary Research Scholarship')
+        ->toContain('$28,870')
+        ->toContain('30 September 2026')
+        ->toContain('considered automatically')
+        ->toContain('7.0 overall')
+        ->toContain('business.pgresearch@sydney.edu.au')
+        ->toContain('do not need to find a supervisor before applying')
+        ->not->toContain('business.phd@sydney.edu.au')
+        ->not->toContain('9114 8881')
+        ->not->toContain('55,000')
+        ->not->toContain('business/postgraduate-scholarships');
+
+    $this->travelTo(Carbon::parse('2026-09-30 12:00:00'));
+    expect($scholarship->deadlineLabel())->toBe('Closes 30 Sep 2026');
+
+    $this->travelTo(Carbon::parse('2026-10-01 12:00:00'));
+    expect($scholarship->deadlineLabel())->toBe('Next PhD round closes 1 Feb 2027');
+
+    $this->travelBack();
 });
 
 it('moves the Sydney card on to the next round once the first deadline passes', function () {

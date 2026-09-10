@@ -170,7 +170,7 @@ class SydneyRtpDomesticScholarshipSeeder extends Seeder
 <li><strong>Doctor of Philosophy (PhD)</strong></li>
 <li><strong>Master's by research</strong>, such as the Master of Philosophy (MPhil)</li>
 </ul>
-<p>The scholarship does not cover coursework master's degrees. Research degrees are offered across the university, including engineering, science, medicine and health, business, law, and arts and social sciences.</p>
+<p>The scholarship does not cover coursework master's degrees. Research degrees are offered across the university, including engineering, science, medicine and health, business, law, and arts and social sciences. Planning a business PhD? Our <a href="/scholarships/university-of-sydney-business-school-phd-scholarships">University of Sydney Business School PhD Scholarships guide</a> explains the scholarships the Business School offers itself.</p>
 
 <figure class="scholar-figure">
 <img src="/public/storage/scholarships/university-of-sydney-rtp-domestic-scholarship-graduates.jpg" alt="Graduates at the University of Sydney with the RTP Domestic Scholarship details" width="1200" height="628" loading="lazy">
