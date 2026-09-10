@@ -1748,6 +1748,214 @@
 
 
 
+    {{-- ===== Verified jobs + tailored CV: two image-and-text rows, photo on alternate sides ===== --}}
+    <style>
+        .home-split-section {
+            padding: 90px 0;
+            background: #fff;
+            border-top: 1px solid #ececec;
+            overflow: hidden;
+        }
+        .home-split-section.home-split-alt { background: #f7fafd; }
+        .home-split {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 64px;
+            align-items: center;
+        }
+        @media (min-width: 992px) {
+            .home-split-reverse .home-split-media { order: 2; }
+        }
+        @media (max-width: 991px) {
+            .home-split-section { padding: 64px 0; }
+            .home-split { grid-template-columns: 1fr; gap: 40px; }
+        }
+
+        .home-split-media { position: relative; }
+        .home-split-media::before {
+            content: "";
+            position: absolute;
+            inset: 28px -18px -18px 28px;
+            background: #e3eefa;
+            border-radius: 24px;
+            z-index: 0;
+        }
+        .home-split-reverse .home-split-media::before { inset: 28px 28px -18px -18px; }
+        .home-split-media img {
+            position: relative;
+            z-index: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1200 / 628;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 24px 48px rgba(15, 23, 42, .14);
+        }
+        @media (max-width: 575px) {
+            .home-split-media::before { display: none; }
+        }
+
+        .home-split-eyebrow {
+            display: inline-block;
+            background: #1b3a6b;
+            color: #fff;
+            border: 1px solid transparent;
+            font-weight: 700;
+            font-size: 12.5px;
+            padding: 9px 22px;
+            border-radius: 999px;
+            letter-spacing: 1.6px;
+            text-transform: uppercase;
+            margin-bottom: 18px;
+        }
+        .home-split-body h2 {
+            font-size: clamp(28px, 3vw, 40px);
+            font-weight: 800;
+            color: #1b3a6b;
+            line-height: 1.18;
+            letter-spacing: -.6px;
+            margin: 0 0 16px;
+        }
+        .home-split-body h2 .accent {
+            color: #3182ce;
+            background: none !important;
+            -webkit-text-fill-color: currentColor !important;
+        }
+        .home-split-body p {
+            color: #5a6b7f;
+            font-size: 16px;
+            line-height: 1.75;
+            margin: 0 0 26px;
+        }
+        .home-split-points {
+            list-style: none;
+            margin: 0 0 32px;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+        .home-split-points li {
+            display: flex;
+            gap: 14px;
+            align-items: flex-start;
+            color: #5a6b7f;
+            font-size: 15px;
+            line-height: 1.65;
+        }
+        .home-split-points i {
+            flex-shrink: 0;
+            width: 30px; height: 30px;
+            border-radius: 50%;
+            background: #e3eefa;
+            color: #1b3a6b;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            margin-top: 1px;
+        }
+        .home-split-points strong {
+            display: block;
+            color: #1b3a6b;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        .home-split-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #1b3a6b;
+            color: #fff !important;
+            padding: 14px 28px;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 15px;
+            text-decoration: none !important;
+            box-shadow: 0 8px 18px rgba(27, 58, 107, .20);
+            transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+        }
+        .home-split-cta:hover { transform: translateY(-1px); background: #16305a; box-shadow: 0 14px 28px rgba(27, 58, 107, .30); }
+        .home-split-cta i { font-size: 22px; transition: transform .2s ease; }
+        .home-split-cta:hover i { transform: translateX(4px); }
+    </style>
+
+    <section class="home-split-section" aria-labelledby="verified-jobs-heading">
+        <div class="container">
+            <div class="home-split">
+                <div class="home-split-media" data-aos="fade-up">
+                    <img src="{{ asset('public/user/images/home-verified-jobs.webp') }}"
+                         alt="A job seeker browsing verified job listings on a laptop with a careers adviser, a world map on the wall behind them"
+                         width="1200" height="628"
+                         loading="lazy"
+                         onerror="this.onerror=null;this.src='{{ asset('public/user/images/home-verified-jobs.jpg') }}'">
+                </div>
+                <div class="home-split-body" data-aos="fade-up" data-aos-delay="120">
+                    <span class="home-split-eyebrow">Verified Jobs</span>
+                    <h2 id="verified-jobs-heading">Real Hiring From Real Employers, <span class="accent">All Over the World</span></h2>
+                    <p>Every job we post is a live opening an employer is actually hiring for &mdash; not a recycled advert, and never a fee dressed up as a job offer. Listings span {{ $coverage->shortList() }}, so wherever you want to work, you can see what is genuinely open before you apply.</p>
+                    <ul class="home-split-points">
+                        <li>
+                            <i class="icon-feather-check" aria-hidden="true"></i>
+                            <span><strong>Checked before it goes live</strong>Each listing is reviewed by our team before it is published, so fake and out-of-date adverts stay off the board.</span>
+                        </li>
+                        <li>
+                            <i class="icon-feather-check" aria-hidden="true"></i>
+                            <span><strong>Apply at the source</strong>Every job links through to the employer or the original posting, so you can confirm it for yourself.</span>
+                        </li>
+                        <li>
+                            <i class="icon-feather-check" aria-hidden="true"></i>
+                            <span><strong>Sponsorship stated up front</strong>Where a role sponsors a visa, the listing says so &mdash; and where it does not, we do not pretend otherwise.</span>
+                        </li>
+                    </ul>
+                    <a href="{{ route('jobs.index') }}" class="home-split-cta">
+                        <span>Browse Verified Jobs</span>
+                        <i class="icon-material-outline-arrow-right-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-split-section home-split-alt" aria-labelledby="tailored-cv-heading">
+        <div class="container">
+            <div class="home-split home-split-reverse">
+                <div class="home-split-media" data-aos="fade-up">
+                    <img src="{{ asset('public/user/images/home-tailored-cv.webp') }}"
+                         alt="A careers adviser going through a job seeker&#039;s CV line by line to match it to the role being applied for"
+                         width="1200" height="628"
+                         loading="lazy"
+                         onerror="this.onerror=null;this.src='{{ asset('public/user/images/home-tailored-cv.jpg') }}'">
+                </div>
+                <div class="home-split-body" data-aos="fade-up" data-aos-delay="120">
+                    <span class="home-split-eyebrow">CV Writing</span>
+                    <h2 id="tailored-cv-heading">A CV Written for <span class="accent">the Job You Want</span></h2>
+                    <p>We do not drop your name into a template. Tell us the role and the country you are applying to, and we build your CV around what that employer is asking for &mdash; the skills, the experience and the wording of the job advert, wherever it is honestly true of you.</p>
+                    <ul class="home-split-points">
+                        <li>
+                            <i class="icon-feather-check" aria-hidden="true"></i>
+                            <span><strong>Matched to the job advert</strong>Your experience is ordered and worded around what the role asks for, so the right details are the first ones a recruiter reads.</span>
+                        </li>
+                        <li>
+                            <i class="icon-feather-check" aria-hidden="true"></i>
+                            <span><strong>In the format your country expects</strong>A UK CV, a US resume and a Gulf CV follow different conventions. Yours follows the one your employer is used to.</span>
+                        </li>
+                        <li>
+                            <i class="icon-feather-check" aria-hidden="true"></i>
+                            <span><strong>Readable by screening software</strong>A clean structure that applicant tracking systems parse properly, so a person actually gets to read it.</span>
+                        </li>
+                    </ul>
+                    <a href="{{ route('resume-writing') }}#resume-enquiry" class="home-split-cta">
+                        <span>Get a Free CV Review</span>
+                        <i class="icon-material-outline-arrow-right-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     {{-- How It Works — Step-by-Step Process (SEO-optimized) --}}
     <style>
         .process-section-v2 {

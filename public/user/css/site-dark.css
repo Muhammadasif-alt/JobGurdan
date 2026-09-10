@@ -708,6 +708,23 @@
         }
         html.dark-mode .process-cta-row a:hover { background: linear-gradient(135deg, #7cc0f0, #4da3e8) !important; border-color: #7cc0f0 !important; }
 
+        /* === Homepage image-and-text rows (verified jobs, tailored CV) === */
+        html.dark-mode .home-split-section { background: var(--site-bg) !important; border-color: var(--site-card-bd) !important; }
+        html.dark-mode .home-split-section.home-split-alt { background: var(--site-card-bg) !important; }
+        html.dark-mode .home-split-body h2 { color: #fff !important; }
+        html.dark-mode .home-split-body p,
+        html.dark-mode .home-split-points li { color: #cbd5e1 !important; }
+        html.dark-mode .home-split-points strong { color: #fff !important; }
+        html.dark-mode .home-split-points i { background: rgba(77,163,232,.16) !important; color: #7cc0f0 !important; }
+        html.dark-mode .home-split-eyebrow {
+            background: rgba(255,255,255,.08) !important;
+            color: #e5e7eb !important;
+            border-color: rgba(255,255,255,.15) !important;
+        }
+        html.dark-mode .home-split-media::before { background: rgba(77,163,232,.14) !important; }
+        html.dark-mode .home-split-cta { background: #2f7fc9 !important; box-shadow: none !important; }
+        html.dark-mode .home-split-cta:hover { background: #4da3e8 !important; }
+
         /* === Generic empty-state card (used on /companies, /jobs-categories, /locations, /job-seekers) === */
         html.dark-mode .empty-state,
         html.dark-mode .cat-empty,
