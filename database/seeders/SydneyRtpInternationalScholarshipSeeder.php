@@ -126,7 +126,7 @@ class SydneyRtpInternationalScholarshipSeeder extends Seeder
 <li>You are expected to study <strong>full-time</strong>. A part-time scholarship is only approved in special circumstances, and only if your visa allows part-time study.</li>
 <li>You must apply for admission and submit the scholarship application form by the deadline.</li>
 </ul>
-<p>Australian and New Zealand students apply for the domestic version of the RTP Scholarship, which has different deadlines.</p>
+<p>Australian and New Zealand citizens and Australian permanent residents apply for the domestic version instead, which has different deadlines. See our <a href="/scholarships/university-of-sydney-rtp-domestic-scholarship">University of Sydney RTP Domestic Scholarship guide</a>.</p>
 
 <h3>Who gets preference</h3>
 <p>The university may give preference to applicants who:</p>

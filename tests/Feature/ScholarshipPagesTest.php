@@ -2,6 +2,7 @@
 
 use App\Models\Scholarship;
 use Database\Seeders\MonashRtpScholarshipSeeder;
+use Database\Seeders\SydneyRtpDomesticScholarshipSeeder;
 use Database\Seeders\SydneyRtpInternationalScholarshipSeeder;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Cache;
@@ -78,14 +79,14 @@ it('says so when nothing matches the search', function () {
         ->assertSee('Show All Scholarships');
 });
 
-it('publishes each guide with its posters, apply link and SEO fields', function (string $seeder, string $slug) {
+it('publishes each guide with its posters, apply link and SEO fields', function (string $seeder, string $slug, int $contentPosters) {
     $this->seed($seeder);
 
     $scholarship = Scholarship::where('slug', $slug)->firstOrFail();
 
     expect($scholarship->isPublished())->toBeTrue()
         ->and($scholarship->featured_image)->toBe('scholarships/'.$slug.'.jpg')
-        ->and(substr_count($scholarship->content, '/public/storage/scholarships/'.$slug.'-'))->toBe(3)
+        ->and(substr_count($scholarship->content, '/public/storage/scholarships/'.$slug.'-'))->toBe($contentPosters)
         ->and(strlen($scholarship->meta_title))->toBeLessThanOrEqual(60)
         ->and(strlen($scholarship->meta_description))->toBeLessThanOrEqual(160)
         // VARCHAR limits on MySQL; SQLite ignores them, so they are asserted.
@@ -99,8 +100,9 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
         ->assertSee('target="_blank" rel="noopener"', false)
         ->assertSee('"FAQPage"', false);
 })->with([
-    'monash' => [MonashRtpScholarshipSeeder::class, MonashRtpScholarshipSeeder::SLUG],
-    'sydney' => [SydneyRtpInternationalScholarshipSeeder::class, SydneyRtpInternationalScholarshipSeeder::SLUG],
+    'monash' => [MonashRtpScholarshipSeeder::class, MonashRtpScholarshipSeeder::SLUG, 3],
+    'sydney international' => [SydneyRtpInternationalScholarshipSeeder::class, SydneyRtpInternationalScholarshipSeeder::SLUG, 3],
+    'sydney domestic' => [SydneyRtpDomesticScholarshipSeeder::class, SydneyRtpDomesticScholarshipSeeder::SLUG, 1],
 ]);
 
 it('corrects what the Monash posters and brief get wrong', function () {
@@ -129,6 +131,23 @@ it('tells Sydney applicants the scholarship form is a separate step', function (
         ->toContain('18 December 2026')
         ->toContain('AUD $44,293')
         ->not->toContain('monash.edu')
+        ->not->toContain('Departmental');
+});
+
+it('gives Sydney domestic applicants the eligibility, tuition and ranking the brief gets wrong', function () {
+    // The brief leaves out permanent residents, calls the stipend tax-free,
+    // says consideration is automatic and invents a departmental ranking; the
+    // posters said there was no tuition reduction. The terms and the selection
+    // process document say otherwise.
+    $this->seed(SydneyRtpDomesticScholarshipSeeder::class);
+
+    expect(Scholarship::where('slug', SydneyRtpDomesticScholarshipSeeder::SLUG)->value('content'))
+        ->toContain('Australian permanent resident')
+        ->toContain('16 research periods')
+        ->toContain('submit the scholarship application form')
+        ->toContain('world ranking of the university')
+        ->toContain('registered tax agent')
+        ->not->toContain('tax-free')
         ->not->toContain('Departmental');
 });
 
