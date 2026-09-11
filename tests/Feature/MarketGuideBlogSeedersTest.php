@@ -194,6 +194,48 @@ dataset('market guides', [
         'https://www.indeed.com/q-help-desk-technician-jobs.html',
         'Help Desk Technician',
     ],
+    'housekeeper uk' => [
+        'housekeeper-jobs-in-uk',
+        Database\Seeders\HousekeeperJobsUkBlogSeeder::class,
+        ['housekeeper-jobs-in-uk-hotel.jpg', 'housekeeper-jobs-in-uk-private-home.jpg'],
+        'https://uk.indeed.com/q-housekeeper-jobs.html',
+        'Housekeeper',
+    ],
+    'teacher usa' => [
+        'teacher-jobs-in-usa',
+        Database\Seeders\TeacherJobsUsaBlogSeeder::class,
+        ['teacher-jobs-in-usa-students.jpg', 'teacher-jobs-in-usa-classroom.jpg'],
+        'https://www.indeed.com/q-teacher-jobs.html',
+        'Teacher — Elementary',
+    ],
+    'administrative assistant usa' => [
+        'administrative-assistant-jobs-in-usa',
+        Database\Seeders\AdministrativeAssistantJobsUsaBlogSeeder::class,
+        ['administrative-assistant-jobs-in-usa-desk.jpg', 'administrative-assistant-jobs-in-usa-phone.jpg'],
+        'https://www.indeed.com/q-administrative-assistant-jobs.html',
+        'Administrative Assistant',
+    ],
+    'devops engineer germany' => [
+        'devops-engineer-jobs-in-germany',
+        Database\Seeders\DevOpsEngineerJobsGermanyBlogSeeder::class,
+        ['devops-engineer-jobs-in-germany-berlin.jpg', 'devops-engineer-jobs-in-germany-career.jpg'],
+        'https://de.indeed.com/q-devops-engineer-jobs.html',
+        'DevOps Engineer — Cloud, CI/CD',
+    ],
+    'federal police usa' => [
+        'federal-police-jobs-in-usa',
+        Database\Seeders\FederalPoliceJobsUsaBlogSeeder::class,
+        ['federal-police-jobs-in-usa-capitol.jpg', 'federal-police-jobs-in-usa-agencies.jpg'],
+        'https://www.indeed.com/q-federal-police-jobs.html',
+        'Federal Police Officer and Special Agent',
+    ],
+    'welder canada' => [
+        'welder-jobs-in-canada',
+        Database\Seeders\WelderJobsCanadaBlogSeeder::class,
+        ['welder-jobs-in-canada-pipeline.jpg', 'welder-jobs-in-canada-structural.jpg'],
+        'https://ca.indeed.com/q-welder-jobs.html',
+        'Welder — Structural',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {

@@ -749,6 +749,218 @@ it('corrects US help desk pay, the states, the outlook and the A+ exams', functi
         ->toContain('not by JobGader');
 });
 
+it('corrects UK housekeeper pay, the live-in offset, the checks and the visa codes', function () {
+    $content = guideContent('housekeeper-jobs-in-uk', Database\Seeders\HousekeeperJobsUkBlogSeeder::class);
+
+    // Three of the draft's four salary floors are below the National Living Wage.
+    expect($content)->toContain('&pound;24,784.50')
+        ->toContain('&pound;5,784.50 short')
+        ->toContain('&pound;4,784.50 short')
+        ->toContain('&pound;26,436.80')
+        ->toContain('&pound;25,335');
+
+    // Only accommodation counts towards the minimum wage, and only up to the offset.
+    expect($content)->toContain('&pound;11.10 a day')
+        ->toContain('&pound;77.70 a week')
+        ->toContain('Meals do not count at all')
+        ->toContain('&pound;20,744.10');
+
+    // Enhanced checks are not the rule, and a household cannot request one.
+    expect($content)->toContain('enhanced check without the barred lists')
+        ->toContain('gets a <strong>standard check</strong>')
+        ->toContain('<strong>cannot request a DBS check</strong>')
+        ->toContain('Protecting Vulnerable Groups (PVG) scheme');
+
+    // Housekeepers, cleaners and supervisors are all in Table 6.
+    expect($content)->toContain('6231 Housekeepers and related occupations')
+        ->toContain('9223 Cleaners and domestics')
+        ->toContain('6240 Cleaning and housekeeping managers and supervisors')
+        ->toContain('Overseas Domestic Worker visa')
+        ->toContain('cannot be extended')
+        ->not->toContain('9233');
+
+    // NHS banding, the tips law and day-one sick pay.
+    expect($content)->toContain('Band 1 closed to new starters in England on 1 December 2018')
+        ->toContain('&pound;25,272')
+        ->toContain('1 October 2024')
+        ->toContain('6 April 2026');
+
+    expect(Job::where('position', 'like', 'Housekeeper%')->value('description'))
+        ->toContain('&pound;24,784.50')
+        ->toContain('not by JobGader');
+});
+
+it('corrects US teacher pay, the hiring states, the outlook, the exams and the visa routes', function () {
+    $content = guideContent('teacher-jobs-in-usa', Database\Seeders\TeacherJobsUsaBlogSeeder::class);
+
+    // BLS May 2025 medians and the NEA average sit above the draft's experienced band.
+    expect($content)->toContain('$63,970')
+        ->toContain('$72,040')
+        ->toContain('$74,495')
+        ->toContain('$48,112');
+
+    // Illinois, not Arizona, is the fifth largest employer; Washington pays near the top.
+    expect($content)->toContain('Illinois:</strong> 61,520')
+        ->toContain('Arizona ranks 23rd')
+        ->toContain('41st highest mean wage')
+        ->toContain('Washington ($96,589)');
+
+    // No projected growth, and the shortages are subject-specific.
+    expect($content)->toContain('little or no change')
+        ->toContain('99,400 openings a year')
+        ->toContain('Special education:</strong> reported by 40 states');
+
+    // Praxis is not universal, and counselors need a master's degree.
+    expect($content)->toContain('CBEST and CSET')
+        ->toContain('TExES')
+        ->toContain('FTCE')
+        ->toContain('NYSTCE')
+        ->toContain('<strong>master\'s degree</strong> as the typical entry requirement for school counselors');
+
+    // The J-1 Teacher program and the H-1B lottery and payment.
+    expect($content)->toContain('two years (24 months)')
+        ->toContain('<strong>three years</strong>')
+        ->toContain('weights the lottery by wage level')
+        ->toContain('$100,000 payment')
+        ->toContain('24 July 2026');
+
+    expect(Job::where('position', 'like', 'Teacher — Elementary%')->value('description'))
+        ->toContain('$63,970')
+        ->toContain('not by JobGader');
+});
+
+it('corrects US administrative assistant pay, the outlook and the best-paying states', function () {
+    $content = guideContent('administrative-assistant-jobs-in-usa', Database\Seeders\AdministrativeAssistantJobsUsaBlogSeeder::class);
+
+    // Executive assistants and office managers earn more than the draft's bands.
+    expect($content)->toContain('$76,590')
+        ->toContain('$50,560')
+        ->toContain('$69,500')
+        ->toContain('$114,130')
+        ->toContain('$47,540');
+
+    // The BLS projects a decline, not growth, except for medical secretaries.
+    expect($content)->toContain('<strong>2% decline</strong>')
+        ->toContain('<strong>down 6%</strong>')
+        ->toContain('<strong>down 5%</strong>')
+        ->toContain('<strong>up 5%</strong>')
+        ->toContain('artificial intelligence systems and digital tools');
+
+    // The top hiring states are right; the best-paying are not the same.
+    expect($content)->toContain('District of Columbia ($61,270)')
+        ->toContain('Texas 35th at $45,850');
+
+    // Certification details and the contractor warning.
+    expect($content)->toContain('$375 for members and $575 for non-members')
+        ->toContain('independent contracts');
+
+    expect(Job::where('position', 'like', 'Administrative Assistant%')->value('description'))
+        ->toContain('$76,590')
+        ->toContain('not by JobGader');
+});
+
+it('corrects German DevOps pay, the Blue Card threshold, the city ranking and the shortage', function () {
+    $content = guideContent('devops-engineer-jobs-in-germany', Database\Seeders\DevOpsEngineerJobsGermanyBlogSeeder::class);
+
+    // Official Entgeltatlas figures replace the draft's unsourced bands.
+    expect($content)->toContain('KldB 43323')
+        ->toContain('&euro;5,864 a month')
+        ->toContain('&euro;70,368 a year')
+        ->toContain('&euro;3,977');
+
+    // The junior floor misses the 2026 Blue Card minimum for IT specialists.
+    expect($content)->toContain('&euro;45,934.20')
+        ->toContain('&euro;50,700')
+        ->toContain('&euro;934.20 below');
+
+    // Stuttgart, not Munich, tops the cities; NRW employs the most.
+    expect($content)->toContain('Stuttgart:</strong> &euro;6,394')
+        ->toContain('Frankfurt am Main:</strong> &euro;5,897')
+        ->toContain('North Rhine-Westphalia');
+
+    // The official shortage analysis no longer lists software development.
+    expect($content)->toContain('no longer any shortage in software development')
+        ->toContain('109,000 unfilled IT jobs');
+
+    // Blue Card rules, the Opportunity Card and net pay.
+    expect($content)->toContain('<strong>27 months</strong>')
+        ->toContain('<strong>21 months</strong>')
+        ->toContain('&euro;208')
+        ->toContain('&euro;1,091 a month')
+        ->toContain('&euro;1,230 a month');
+
+    expect(Job::where('position', 'like', 'DevOps Engineer — Cloud, CI/CD%')->value('description'))
+        ->toContain('&euro;45,934.20')
+        ->toContain('not by JobGader');
+});
+
+it('corrects federal police pay, the 2026 raise, the age limits and the agency details', function () {
+    $content = guideContent('federal-police-jobs-in-usa', Database\Seeders\FederalPoliceJobsUsaBlogSeeder::class);
+
+    // The lowest GS-5 law enforcement pay anywhere is above the draft's $45,000 floor.
+    expect($content)->toContain('$42,919')
+        ->toContain('17.06%')
+        ->toContain('$50,241')
+        ->toContain('$51,632');
+
+    // Most federal officers got 3.8% in 2026, not the 1% GS raise.
+    expect($content)->toContain('3.8%')
+        ->toContain('Executive Order 14368');
+
+    // Special agents earn availability pay, and the FBI range starts above $100,000.
+    expect($content)->toContain('25%')
+        ->toContain('$103,236')
+        ->toContain('$197,200')
+        ->toContain('$45,000');
+
+    // Age limits differ by agency, and ICE removed its cap.
+    expect($content)->toContain('before their 38th birthday')
+        ->toContain('before their 40th birthday')
+        ->toContain('no maximum age');
+
+    // Training, the Park Police and the hiring surge.
+    expect($content)->toContain('Quantico')
+        ->toContain('59 training days')
+        ->toContain('San Francisco')
+        ->toContain('12,000');
+
+    expect(Job::where('position', 'like', 'Federal Police Officer and Special Agent%')->value('description'))
+        ->toContain('$50,241')
+        ->toContain('not by JobGader');
+});
+
+it('corrects Canadian welder certification, pay by province, the outlook and the LMIA rules', function () {
+    $content = guideContent('welder-jobs-in-canada', Database\Seeders\WelderJobsCanadaBlogSeeder::class);
+
+    // Red Seal is compulsory only in Alberta and Quebec among the main provinces.
+    expect($content)->toContain('<strong>Compulsory</strong> in <strong>Alberta</strong> and <strong>Quebec</strong>')
+        ->toContain('<strong>Voluntary</strong> in <strong>Ontario</strong>')
+        ->toContain('pass mark of 70%');
+
+    // Job Bank medians by province replace the draft's bands.
+    expect($content)->toContain('median <strong>$38.00</strong>')
+        ->toContain('median <strong>$28.00</strong>')
+        ->toContain('$52.18');
+
+    // The official outlook contradicts the draft's demand claims.
+    expect($content)->toContain('Nova Scotia:</strong> <strong>Good</strong>')
+        ->toContain('Alberta:</strong> <strong>Limited</strong>')
+        ->toContain('Ontario:</strong> <strong>Very limited</strong>');
+
+    // Tickets, the LMIA streams and Express Entry.
+    expect($content)->toContain('CSA W47.1')
+        ->toContain('Grade B')
+        ->toContain('low-wage stream')
+        ->toContain('Toronto (7.3%)')
+        ->toContain('$1,000 LMIA fee')
+        ->toContain('25 March 2025')
+        ->toContain('477');
+
+    expect(Job::where('position', 'like', 'Welder — Structural%')->value('description'))
+        ->toContain('$38 an hour')
+        ->toContain('not by JobGader');
+});
+
 it('keeps the data entry cluster from restating the guide it hangs off', function () {
     // The remote guide owns the scam mechanics and the worldwide geography.
     // If the two US and Pakistan pages repeat them, three pages compete for
@@ -799,6 +1011,12 @@ it('wires every new guide into the existing cluster in both directions', functio
         Database\Seeders\HealthcareAssistantJobsUkBlogSeeder::class,
         Database\Seeders\RegisteredNurseJobsUsaBlogSeeder::class,
         Database\Seeders\HelpDeskTechnicianJobsUsaBlogSeeder::class,
+        Database\Seeders\HousekeeperJobsUkBlogSeeder::class,
+        Database\Seeders\TeacherJobsUsaBlogSeeder::class,
+        Database\Seeders\AdministrativeAssistantJobsUsaBlogSeeder::class,
+        Database\Seeders\DevOpsEngineerJobsGermanyBlogSeeder::class,
+        Database\Seeders\FederalPoliceJobsUsaBlogSeeder::class,
+        Database\Seeders\WelderJobsCanadaBlogSeeder::class,
         // The established posts that should now point back at them.
         Database\Seeders\NurseJobsUsBlogSeeder::class,
         Database\Seeders\HealthcareJobsUkBlogSeeder::class,
@@ -817,6 +1035,15 @@ it('wires every new guide into the existing cluster in both directions', functio
         Database\Seeders\AtsResumeWriterCanadaBlogSeeder::class,
         Database\Seeders\PythonDeveloperJobsUsaBlogSeeder::class,
         Database\Seeders\CaregiverUkBlogSeeder::class,
+        Database\Seeders\TeacherJobsPakistanBlogSeeder::class,
+        Database\Seeders\OfficeAssistantJobsAustraliaBlogSeeder::class,
+        Database\Seeders\VirtualAssistantJobsPakistanBlogSeeder::class,
+        Database\Seeders\DevOpsEngineerJobsUsaBlogSeeder::class,
+        Database\Seeders\CloudEngineerJobsUsaBlogSeeder::class,
+        Database\Seeders\PoliceOfficerJobsUsaBlogSeeder::class,
+        Database\Seeders\FarmWorkerJobsCanadaBlogSeeder::class,
+        Database\Seeders\ConstructionWorkerJobsAustraliaBlogSeeder::class,
+        Database\Seeders\ElectricianJobsUkBlogSeeder::class,
     ] as $seeder) {
         $this->seed($seeder);
     }
@@ -846,6 +1073,12 @@ it('wires every new guide into the existing cluster in both directions', functio
         'healthcare-assistant-jobs-in-uk' => ['healthcare-jobs-in-the-uk', 'caregiver-jobs-in-uk-with-visa-sponsorship', 'cook-jobs-in-uk'],
         'registered-nurse-jobs-in-usa' => ['nurse-jobs-in-the-us', 'nurse-jobs-in-saudi-arabia', 'healthcare-jobs-in-the-uk'],
         'help-desk-technician-jobs-in-usa' => ['it-support-jobs-in-uk', 'network-engineer-jobs-in-usa', 'cybersecurity-analyst-jobs-in-usa'],
+        'housekeeper-jobs-in-uk' => ['cleaner-jobs-in-london-no-experience-needed', 'cook-jobs-in-uk', 'healthcare-assistant-jobs-in-uk'],
+        'teacher-jobs-in-usa' => ['teacher-jobs-in-pakistan', 'nurse-jobs-in-the-us', 'unskilled-jobs-in-usa-for-foreigners'],
+        'administrative-assistant-jobs-in-usa' => ['data-entry-jobs-in-usa', 'office-assistant-jobs-in-australia', 'virtual-assistant-jobs-in-pakistan'],
+        'devops-engineer-jobs-in-germany' => ['devops-engineer-jobs-in-usa', 'factory-worker-jobs-in-germany', 'cloud-engineer-jobs-in-usa'],
+        'federal-police-jobs-in-usa' => ['police-officer-jobs-in-usa', 'cybersecurity-analyst-jobs-in-usa', 'teacher-jobs-in-usa'],
+        'welder-jobs-in-canada' => ['farm-worker-jobs-in-canada', 'construction-worker-jobs-in-australia', 'electrician-jobs-in-uk'],
     ];
 
     foreach ($inbound as $target => $sources) {
@@ -905,6 +1138,12 @@ it('resolves every internal link the new guides publish', function () {
         'healthcare-assistant-jobs-in-uk',
         'registered-nurse-jobs-in-usa',
         'help-desk-technician-jobs-in-usa',
+        'housekeeper-jobs-in-uk',
+        'teacher-jobs-in-usa',
+        'administrative-assistant-jobs-in-usa',
+        'devops-engineer-jobs-in-germany',
+        'federal-police-jobs-in-usa',
+        'welder-jobs-in-canada',
     ];
 
     foreach ($guides as $guide) {

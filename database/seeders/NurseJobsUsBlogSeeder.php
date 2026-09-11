@@ -327,6 +327,7 @@ JOBHTML;
     <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; trades sponsorship and where the demand actually sits.</li>
     <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; the Gulf route for nurses, and why the Prometric exam is only one step of the SCFHS licence.</li>
     <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; what RNs earn state by state, and where a multistate license does not work.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; another state-licensed profession, with its own J-1 and H-1B routes.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Visa Bulletin dates, state licensure rules and CGFNS requirements change &mdash; confirm the current position with the state Board of Nursing, CGFNS and the monthly Visa Bulletin, or with a licensed immigration attorney, before paying any fee or signing a contract.</p>

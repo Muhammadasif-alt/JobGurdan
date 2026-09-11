@@ -335,6 +335,7 @@ JOBHTML;
     <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; the sector where sponsorship is genuinely available.</li>
     <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; line cook and kitchen work on the American seasonal visa route.</li>
     <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; the care home and hospital job with a real sponsorship rule, and its 2026 NHS pay.</li>
+    <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a> &mdash; the hotel and care home job next to the kitchen, and the live-in pay rules.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Minimum wage rates, food safety rules, immigration rules and occupation codes change. Confirm the current position with GOV.UK, the Food Standards Agency and the employer before applying or accepting an offer.</p>

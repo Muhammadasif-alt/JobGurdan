@@ -349,6 +349,7 @@ JOBHTML;
     <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; another route into American work, and what it really pays.</li>
     <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; the most common first job in America, priced state by state.</li>
     <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; public service careers at home, and how the tests work.</li>
+    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a> &mdash; FBI, CBP, ICE and US Marshals jobs, their 2026 pay and age limits.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Hiring standards, pay, citizenship rules, firearms law and immigration guidance change and differ between agencies and states. Confirm the current position with the agency's official recruitment page, the relevant state and federal authorities and an immigration lawyer before applying.</p>

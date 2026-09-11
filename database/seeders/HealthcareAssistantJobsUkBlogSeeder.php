@@ -230,7 +230,7 @@ JOBHTML;
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/healthcare-assistant-jobs-in-uk-ward.jpg"
-         alt="A healthcare assistant in blue scrubs holding a clipboard on a hospital ward"
+         alt="A healthcare assistant in a blue uniform helping an elderly woman sitting up in bed"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
@@ -269,7 +269,7 @@ JOBHTML;
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/healthcare-assistant-jobs-in-uk-patient-care.jpg"
-         alt="A healthcare assistant supporting an elderly patient in a wheelchair"
+         alt="A healthcare assistant holding hands with a smiling elderly woman in a care home"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
@@ -365,6 +365,7 @@ JOBHTML;
     <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; the Gulf route for nurses and the SCFHS licence.</li>
     <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; another job care homes and hospitals hire for, priced against the legal minimum.</li>
     <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London</a> &mdash; entry-level work with no experience needed.</li>
+    <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a> &mdash; hospital and care home housekeeping, and the NHS band it is paid on.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Pay awards, minimum wage rates, immigration rules and checking requirements change and differ between the four UK nations. Confirm the current position with the employer, NHS Employers, gov.uk and a regulated immigration adviser before applying.</p>

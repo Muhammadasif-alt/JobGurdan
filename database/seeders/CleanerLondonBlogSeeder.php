@@ -17,6 +17,10 @@ use Illuminate\Support\Str;
  * Skilled Worker visa threshold, so the matching listing is written for people
  * who already hold the right to work rather than advertising sponsorship.
  *
+ * Pay corrected 11 September 2026: the London Living Wage is £14.80 (not
+ * £13.85), and the £9 to £11 an hour and £19,000 full-time floors it quoted
+ * are below the £12.71 National Living Wage for workers aged 21 or over.
+ *
  * Both records use updateOrCreate, so re-running is safe; it will overwrite
  * admin-panel edits to these two rows.
  */
@@ -98,10 +102,10 @@ class CleanerLondonBlogSeeder extends Seeder
                 'language' => 'English',
                 'salary_currency' => 'GBP',
                 'salary_period' => 'Hourly',
-                'salary_minimum' => 11,
+                'salary_minimum' => 12.71,
                 'salary_maximum' => 16,
                 'application_url' => self::APPLY_URL,
-                'meta_description' => 'Cleaner jobs across London with no experience needed — office, hotel, school and domestic roles, GBP 11-16 per hour, immediate starts available.',
+                'meta_description' => 'Cleaner jobs across London with no experience needed — office, hotel, school and domestic roles, GBP 12.71-16 per hour, immediate starts available.',
                 'seo_keywords' => 'cleaner jobs london, cleaning jobs no experience, part time cleaner jobs london, office cleaner jobs, immediate start cleaning jobs, domestic cleaner london',
             ]
         );
@@ -132,8 +136,8 @@ class CleanerLondonBlogSeeder extends Seeder
 
 <h3>What's on offer</h3>
 <ul>
-    <li>Roughly &pound;11&ndash;&pound;16 an hour, at or above the 2026 London Living Wage of &pound;13.85</li>
-    <li>&pound;19,000&ndash;&pound;26,000 a year for full-time salaried positions</li>
+    <li>At least the National Living Wage of &pound;12.71 an hour for workers aged 21 or over, up to around &pound;16; Living Wage employers pay the London Living Wage of &pound;14.80</li>
+    <li>At least &pound;24,784.50 a year for a full-time 37.5-hour week at 21 or over</li>
     <li>Flexible shift patterns &mdash; part-time 2&ndash;4 hour slots, nights, or weekend-only work</li>
     <li>On-the-job training and induction with the larger facilities contractors</li>
 </ul>
@@ -209,10 +213,10 @@ JOBHTML;
 <p>Pay varies significantly by employment type, shift, and whether you're agency-employed, salaried, or self-employed:</p>
 
 <ul>
-    <li><strong>Typical hourly pay for employed cleaners:</strong> roughly &pound;11&ndash;&pound;16 an hour, broadly in line with or just above the London Living Wage, which stands at <strong>&pound;13.85 an hour</strong> in 2026.</li>
-    <li><strong>Salaried cleaning roles:</strong> commonly &pound;19,000&ndash;&pound;26,000 a year for full-time positions, with supervisory or specialist roles (hospital, deep cleaning) at the higher end.</li>
+    <li><strong>Typical hourly pay for employed cleaners:</strong> from the <strong>National Living Wage of &pound;12.71 an hour</strong>, the legal minimum for workers aged 21 and over since 1 April 2026, up to around &pound;16. Employers accredited by the Living Wage Foundation pay at least the voluntary <strong>London Living Wage of &pound;14.80 an hour</strong>.</li>
+    <li><strong>Salaried cleaning roles:</strong> at least <strong>&pound;24,784.50</strong> a year for a 37.5-hour week at 21 or over, so a full-time offer of &pound;19,000 is below the legal minimum. Supervisory and specialist roles (hospital, deep cleaning) pay more.</li>
     <li><strong>Self-employed/domestic cleaning:</strong> clients in London typically pay &pound;20&ndash;&pound;30 an hour for booked agency cleans, though your actual take-home depends on the agency's cut or, if fully independent, your own client base and expenses.</li>
-    <li><strong>Entry-level vs. experienced:</strong> early-career cleaners tend to earn closer to &pound;9&ndash;&pound;11 an hour, rising toward &pound;14&ndash;&pound;16+ with experience, specialization (hospital, deep cleaning), or supervisory responsibility.</li>
+    <li><strong>Entry-level vs. experienced:</strong> no cleaner aged 21 or over can lawfully be paid less than &pound;12.71 an hour (&pound;10.85 at 18 to 20), whatever their experience. Pay rises toward &pound;14&ndash;&pound;16+ with experience, specialization (hospital, deep cleaning), or supervisory responsibility.</li>
 </ul>
 
 <h2>Cleaner Jobs London Visa Sponsorship: The Honest Answer</h2>
@@ -239,7 +243,7 @@ JOBHTML;
     <li><strong>Apply directly through job boards</strong> like Indeed, filtering by shift pattern (morning/evening/weekend) and role type (office, hotel, domestic).</li>
     <li><strong>Register with a cleaning agency</strong> &mdash; agencies handle client matching and often offer flexible or immediate-start shifts, which is useful if you're searching for <strong>cleaner jobs London immediate start</strong>.</li>
     <li><strong>Check facilities management companies directly</strong> (ISS, Mitie, Servest, Sodexo, and similar) since they hold large office, school, and hospital cleaning contracts across London and hire in volume.</li>
-    <li><strong>Get a basic DBS check sorted early</strong> if you're targeting school or hospital roles, since this is usually a hard requirement before you can start.</li>
+    <li><strong>Have your ID documents ready for a DBS check</strong> if you're targeting school or hospital roles. The employer applies for the standard or enhanced check the role is eligible for, and it is usually a hard requirement before you can start.</li>
     <li><strong>Be ready with references</strong>, even informal ones (a previous employer, landlord, or someone who can vouch for reliability), since formal cleaning experience often isn't required but some form of character reference usually helps.</li>
 </ul>
 
@@ -253,7 +257,7 @@ JOBHTML;
 <p>No &mdash; most entry-level roles (office, hotel, retail, school cleaning) don't require prior experience and provide on-the-job training.</p>
 
 <h3>How much do cleaners earn in London?</h3>
-<p>Roughly &pound;11&ndash;&pound;16 an hour for employed roles, &pound;19,000&ndash;&pound;26,000 a year for salaried positions, and &pound;20&ndash;&pound;30 an hour for booked domestic/agency cleans, though your actual take-home varies by agency cut or self-employment costs.</p>
+<p>At least &pound;12.71 an hour for employed cleaners aged 21 or over, up to around &pound;16; at least &pound;24,784.50 a year for a full-time 37.5-hour week; and &pound;20&ndash;&pound;30 an hour for booked domestic/agency cleans, though your actual take-home varies by agency cut or self-employment costs.</p>
 
 <h3>Can I get a cleaner job in London with visa sponsorship?</h3>
 <p>Standard cleaning roles don't meet the skill threshold for the UK Skilled Worker visa. The Youth Mobility Scheme (for eligible nationalities and ages) is the main route that allows working in any job, including cleaning, without employer sponsorship.</p>
@@ -282,7 +286,7 @@ JOBHTML;
 <p>Standard cleaning roles sit below the Skilled Worker visa's RQF Level 6 threshold, so they cannot be sponsored. The Youth Mobility Scheme, or any existing right to work, is the realistic route.</p>
 
 <h3>How much do cleaners get paid in London</h3>
-<p>Around &pound;11&ndash;&pound;16 an hour employed, &pound;19,000&ndash;&pound;26,000 a year salaried, and &pound;20&ndash;&pound;30 an hour for booked domestic cleans before the agency's cut.</p>
+<p>From the &pound;12.71 National Living Wage to around &pound;16 an hour employed, at least &pound;24,784.50 a year full-time, and &pound;20&ndash;&pound;30 an hour for booked domestic cleans before the agency's cut.</p>
 
 <h3>Self employed cleaner jobs London</h3>
 <p>Higher hourly rates but you register with HMRC and handle your own tax, National Insurance, insurance and bookings. Domestic sessions in London commonly bill at &pound;22&ndash;&pound;26 an hour.</p>
@@ -305,6 +309,7 @@ JOBHTML;
     <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; another London entry route, and the difference between a day rate and pay.</li>
     <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; the qualified trade route out of entry-level UK work.</li>
     <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; kitchen work across the UK, and why an &pound;18,000 cook salary is below the legal minimum.</li>
+    <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a> &mdash; hotel, hospital and private household housekeeping, and what live-in accommodation can cost.</li>
 </ul>
 
 <div style="text-align:center;margin:32px 0;">

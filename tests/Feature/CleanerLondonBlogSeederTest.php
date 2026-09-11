@@ -42,6 +42,24 @@ it('creates a London listing that does not promise sponsorship', function () {
         ->and($job->description)->toContain('cannot be sponsored');
 });
 
+it('prices cleaner pay against the 2026 legal minimum, not below it', function () {
+    $blog = Blog::where('slug', 'cleaner-jobs-in-london-no-experience-needed')->first();
+    $job = Job::where('position', 'like', 'Cleaner%')->first();
+
+    // The London Living Wage is £14.80, and £9 to £11 an hour or £19,000 a
+    // year full-time is below the £12.71 National Living Wage at 21 or over.
+    expect($blog->content)->toContain('&pound;12.71')
+        ->toContain('&pound;14.80')
+        ->toContain('&pound;24,784.50')
+        ->not->toContain('&pound;13.85')
+        ->not->toContain('&pound;9&ndash;&pound;11')
+        ->not->toContain('&pound;19,000&ndash;&pound;26,000');
+
+    expect($job->description)->toContain('&pound;12.71')
+        ->not->toContain('&pound;13.85')
+        ->and((float) $job->salary_minimum)->toBe(12.71);
+});
+
 it('serves the job page without JobPosting markup', function () {
     $response = $this->get('/jobs/cleaner-london-no-experience-needed-london');
 

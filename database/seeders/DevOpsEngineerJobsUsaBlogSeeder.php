@@ -346,6 +346,7 @@ JOBHTML;
     <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; the occupation this work is counted under, with 106,100 openings a year.</li>
     <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the automation language underneath most of this job.</li>
     <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; the clearance rules in full.</li>
+    <li><a href="/blog/devops-engineer-jobs-in-germany">DevOps Engineer Jobs in Germany</a> &mdash; the same role in Europe, and the Blue Card salary it has to clear.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, clearance policy and hiring practice change, and salary figures published on job boards are self-reported rather than verified. Confirm the current position with the Bureau of Labor Statistics and the employer's own advertisement before applying.</p>

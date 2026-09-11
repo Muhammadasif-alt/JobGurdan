@@ -329,6 +329,7 @@ JOBHTML;
     <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; administrative skills paid in foreign currency.</li>
     <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; client-facing work from home for international employers.</li>
     <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; a Gulf office route, and what to check in the package before accepting.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; what American teachers earn by state, and the J-1 route for teachers trained abroad.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, careers or financial advice. Qualification rules, recruitment criteria, pay scales, minimum wages and school management arrangements change and differ between provinces. Confirm the current position with the official recruitment advertisement, your provincial education department and the relevant minimum wage notification before applying or accepting an offer.</p>

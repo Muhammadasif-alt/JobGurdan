@@ -360,6 +360,7 @@ JOBHTML;
     <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London</a> &mdash; a UK entry route with no qualification requirement at all.</li>
     <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; the licensed trade question in Australia, where each state issues the licence.</li>
     <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; a UK entry route without a degree, and the salary a sponsored support job has to reach.</li>
+    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; another skilled trade, and how Red Seal certification differs by province.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage rates, standards, amendment dates, scheme requirements and tax rules change, and pay figures on any job board are a moving average rather than a statistic. Confirm the current position with GOV.UK, the IET, your Competent Person Scheme and HMRC before applying or paying for any course.</p>
