@@ -2,6 +2,7 @@
 
 use App\Models\Scholarship;
 use Database\Seeders\AnuRtpScholarshipSeeder;
+use Database\Seeders\MelbourneRtpScholarshipSeeder;
 use Database\Seeders\MonashRtpScholarshipSeeder;
 use Database\Seeders\SydneyBusinessSchoolPhdScholarshipSeeder;
 use Database\Seeders\SydneyRtpDomesticScholarshipSeeder;
@@ -107,6 +108,7 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'sydney domestic' => [SydneyRtpDomesticScholarshipSeeder::class, SydneyRtpDomesticScholarshipSeeder::SLUG, 1],
     'sydney business school' => [SydneyBusinessSchoolPhdScholarshipSeeder::class, SydneyBusinessSchoolPhdScholarshipSeeder::SLUG, 2],
     'anu' => [AnuRtpScholarshipSeeder::class, AnuRtpScholarshipSeeder::SLUG, 3],
+    'melbourne' => [MelbourneRtpScholarshipSeeder::class, MelbourneRtpScholarshipSeeder::SLUG, 3],
 ]);
 
 it('corrects what the Monash posters and brief get wrong', function () {
@@ -228,6 +230,44 @@ it('gives ANU applicants the closed round, 2027 rate, OSHC, entry marks and cont
     }
 
     expect(Scholarship::where('slug', '!=', AnuRtpScholarshipSeeder::SLUG)->where('content', 'like', '%/scholarships/'.AnuRtpScholarshipSeeder::SLUG.'%')->count())->toBe(3);
+});
+
+it('gives Melbourne applicants the stipend, faculty deadlines, entry marks and contacts the brief gets wrong', function () {
+    // The brief and posters say ~$38,500, rolling deadlines, IELTS 6.5 for
+    // all, a GPA of 3.0 and a 1,000-word proposal, and give contacts and a URL
+    // Melbourne does not use. The award pages, terms and course pages differ.
+    $this->seed(MelbourneRtpScholarshipSeeder::class);
+
+    $scholarship = Scholarship::where('slug', MelbourneRtpScholarshipSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->content)
+        ->toContain('AUD $39,500 a year at the 2026 rate')
+        ->toContain('has not published a 2027 rate')
+        ->toContain('18 September 2026')
+        ->toContain('International 15 August 2026')
+        ->toContain('single cover only')
+        ->toContain('weighted average mark (WAM) of 75%')
+        ->toContain('IELTS <strong>7.0 overall</strong>')
+        ->toContain('up to 500 words')
+        ->toContain('Line up two referees')
+        ->toContain('withholds tax')
+        ->toContain('#1 in Australia')
+        ->toContain('Stop 1')
+        ->not->toContain('38,500 a year at')
+        ->not->toContain('gradresearch@unimelb.edu.au')
+        ->not->toContain('rto@unimelb.edu.au')
+        ->not->toContain('9035 3500')
+        ->not->toContain('study.unimelb.edu.au/degrees')
+        ->not->toContain('GPA')
+        ->not->toContain('tax-free');
+
+    expect($scholarship->deadlineLabel())->toBe('Varies by course: Round 1 closes 18 Sep–31 Oct 2026');
+
+    foreach ([AnuRtpScholarshipSeeder::class, MonashRtpScholarshipSeeder::class, SydneyRtpInternationalScholarshipSeeder::class] as $seeder) {
+        $this->seed($seeder);
+    }
+
+    expect(Scholarship::where('slug', '!=', MelbourneRtpScholarshipSeeder::SLUG)->where('content', 'like', '%/scholarships/'.MelbourneRtpScholarshipSeeder::SLUG.'%')->count())->toBe(3);
 });
 
 it('moves the Sydney card on to the next round once the first deadline passes', function () {
