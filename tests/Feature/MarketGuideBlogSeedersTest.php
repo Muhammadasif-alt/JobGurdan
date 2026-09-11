@@ -236,6 +236,20 @@ dataset('market guides', [
         'https://ca.indeed.com/q-welder-jobs.html',
         'Welder — Structural',
     ],
+    'bus driver canada' => [
+        'bus-driver-jobs-in-canada',
+        Database\Seeders\BusDriverJobsCanadaBlogSeeder::class,
+        ['bus-driver-jobs-in-canada-operator.jpg', 'bus-driver-jobs-in-canada-driving.jpg'],
+        'https://ca.indeed.com/q-bus-driver-jobs.html',
+        'Bus Driver — Transit',
+    ],
+    'remote jobs usa' => [
+        'remote-jobs-in-usa',
+        Database\Seeders\RemoteJobsUsaBlogSeeder::class,
+        ['remote-jobs-in-usa-home-office.jpg', 'remote-jobs-in-usa-workspace.jpg'],
+        'https://www.indeed.com/q-remote-jobs.html',
+        'Remote Jobs — Customer Service',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {

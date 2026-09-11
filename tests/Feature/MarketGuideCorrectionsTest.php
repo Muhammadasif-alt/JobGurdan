@@ -961,6 +961,73 @@ it('corrects Canadian welder certification, pay by province, the outlook and the
         ->toContain('not by JobGader');
 });
 
+it('corrects bus driver licence classes, pay by province and city, the outlook and hiring from abroad', function () {
+    $content = guideContent('bus-driver-jobs-in-canada', Database\Seeders\BusDriverJobsCanadaBlogSeeder::class);
+
+    // Ontario licenses bus drivers under letter classes, not Class 2 or 4.
+    expect($content)->toContain('Ontario: Classes B, C, E and F')
+        ->toContain('<strong>at least 21</strong>')
+        ->toContain('6.25 hours')
+        ->toContain('Class 4B')
+        ->toContain('11 May 2026');
+
+    // Job Bank medians by province and city, and the agencies' top rates.
+    expect($content)->toContain('median <strong>$31.11</strong>')
+        ->toContain('median <strong>$22.43</strong>')
+        ->toContain('<strong>$30.06</strong>')
+        ->toContain('<strong>$41.72</strong>')
+        ->toContain('<strong>$37.91</strong>');
+
+    // The official outlook, the part-time share and Greyhound's exit.
+    expect($content)->toContain('Ontario:</strong> <strong>Good</strong>')
+        ->toContain('Quebec:</strong> <strong>Moderate</strong>')
+        ->toContain('<strong>37%</strong>')
+        ->toContain('13 May 2021');
+
+    // Hiring from abroad.
+    expect($content)->toContain('<strong>Class G</strong>')
+        ->toContain('low-wage stream')
+        ->toContain('Toronto (7.3%)')
+        ->toContain('Workforce Priority')
+        ->toContain('not drivers');
+
+    expect(Job::where('position', 'like', 'Bus Driver — Transit%')->value('description'))
+        ->toContain('$22.43')
+        ->toContain('not by JobGader');
+});
+
+it('corrects remote job pay, the telework trend, who can be hired and the scam data', function () {
+    $content = guideContent('remote-jobs-in-usa', Database\Seeders\RemoteJobsUsaBlogSeeder::class);
+
+    // BLS medians sit above the draft's bands.
+    expect($content)->toContain('<strong>$135,980</strong>')
+        ->toContain('<strong>$82,460</strong>')
+        ->toContain('<strong>$44,770</strong>')
+        ->toContain('$78,760');
+
+    // Telework is large but flat, not rapidly growing.
+    expect($content)->toContain('<strong>21.6%</strong>')
+        ->toContain('22.1%')
+        ->toContain('17.9%')
+        ->toContain('<strong>60.8%</strong>')
+        ->toContain('<strong>20 January 2025</strong>');
+
+    // Work authorization and the tax form for workers abroad.
+    expect($content)->toContain('<strong>Form I-9</strong>')
+        ->toContain('<strong>1 August 2023</strong>')
+        ->toContain('<strong>W-8BEN</strong>');
+
+    // Employment rules and scams.
+    expect($content)->toContain('<strong>15.3%</strong>')
+        ->toContain('<strong>$2,000</strong>')
+        ->toContain('<strong>20 minutes or less</strong>')
+        ->toContain('$501 million in 2024');
+
+    expect(Job::where('position', 'like', 'Remote Jobs — Customer Service%')->value('description'))
+        ->toContain('$135,980')
+        ->toContain('not by JobGader');
+});
+
 it('keeps the data entry cluster from restating the guide it hangs off', function () {
     // The remote guide owns the scam mechanics and the worldwide geography.
     // If the two US and Pakistan pages repeat them, three pages compete for
@@ -1017,6 +1084,8 @@ it('wires every new guide into the existing cluster in both directions', functio
         Database\Seeders\DevOpsEngineerJobsGermanyBlogSeeder::class,
         Database\Seeders\FederalPoliceJobsUsaBlogSeeder::class,
         Database\Seeders\WelderJobsCanadaBlogSeeder::class,
+        Database\Seeders\BusDriverJobsCanadaBlogSeeder::class,
+        Database\Seeders\RemoteJobsUsaBlogSeeder::class,
         // The established posts that should now point back at them.
         Database\Seeders\NurseJobsUsBlogSeeder::class,
         Database\Seeders\HealthcareJobsUkBlogSeeder::class,
@@ -1044,6 +1113,7 @@ it('wires every new guide into the existing cluster in both directions', functio
         Database\Seeders\FarmWorkerJobsCanadaBlogSeeder::class,
         Database\Seeders\ConstructionWorkerJobsAustraliaBlogSeeder::class,
         Database\Seeders\ElectricianJobsUkBlogSeeder::class,
+        Database\Seeders\RemoteJobsNoExperienceBlogSeeder::class,
     ] as $seeder) {
         $this->seed($seeder);
     }
@@ -1079,6 +1149,8 @@ it('wires every new guide into the existing cluster in both directions', functio
         'devops-engineer-jobs-in-germany' => ['devops-engineer-jobs-in-usa', 'factory-worker-jobs-in-germany', 'cloud-engineer-jobs-in-usa'],
         'federal-police-jobs-in-usa' => ['police-officer-jobs-in-usa', 'cybersecurity-analyst-jobs-in-usa', 'teacher-jobs-in-usa'],
         'welder-jobs-in-canada' => ['farm-worker-jobs-in-canada', 'construction-worker-jobs-in-australia', 'electrician-jobs-in-uk'],
+        'bus-driver-jobs-in-canada' => ['welder-jobs-in-canada', 'driver-jobs-in-saudi-arabia-for-foreigners', 'delivery-driver-jobs-in-usa'],
+        'remote-jobs-in-usa' => ['remote-customer-service-jobs', 'remote-data-entry-jobs', 'remote-jobs-in-pakistan-with-no-experience'],
     ];
 
     foreach ($inbound as $target => $sources) {
@@ -1144,6 +1216,8 @@ it('resolves every internal link the new guides publish', function () {
         'devops-engineer-jobs-in-germany',
         'federal-police-jobs-in-usa',
         'welder-jobs-in-canada',
+        'bus-driver-jobs-in-canada',
+        'remote-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {

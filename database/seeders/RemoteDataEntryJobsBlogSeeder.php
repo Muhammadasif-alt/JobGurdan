@@ -314,6 +314,7 @@ JOBHTML;
     <li><a href="/blog/digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan">Digital Marketing Expert (SEO) &mdash; Remote, Pakistan</a> &mdash; where remote work leads once you have a skill behind you.</li>
     <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; the American market for this work, and the federal projection behind it.</li>
     <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; the domestic Pakistani market, the BPS grades and the test that decides them.</li>
+    <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a> &mdash; US remote work beyond data entry, and the FTC's job scam figures.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, financial or careers advice. Pay bands, minimum wage notifications and employer terms change &mdash; confirm the current figures for your province or country and get every offer in writing before starting work or sharing personal documents.</p>
