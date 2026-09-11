@@ -367,6 +367,7 @@ JOBHTML;
     <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; driving work where app pay counts only engaged time.</li>
     <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; courier driving in Britain, and the insurance class new drivers miss.</li>
     <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; sponsored driving work in the Gulf.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; the LMIA and its 2026 limits across every sector.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, licensing rules, LMIA thresholds and immigration programs change often. Confirm the current position with the employer, your provincial licensing authority, Job Bank and IRCC, or a licensed immigration consultant, before applying.</p>

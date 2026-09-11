@@ -250,6 +250,13 @@ dataset('market guides', [
         'https://www.indeed.com/q-remote-jobs.html',
         'Remote Jobs — Customer Service',
     ],
+    'visa sponsorship canada' => [
+        'visa-sponsorship-jobs-in-canada',
+        Database\Seeders\VisaSponsorshipJobsCanadaBlogSeeder::class,
+        ['visa-sponsorship-jobs-in-canada-workers.jpg', 'visa-sponsorship-jobs-in-canada-team.jpg'],
+        'https://ca.indeed.com/q-visa-sponsorship-jobs.html',
+        'Visa Sponsorship Jobs — LMIA',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {

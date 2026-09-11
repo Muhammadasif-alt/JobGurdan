@@ -367,6 +367,7 @@ JOBHTML;
     <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the agricultural route, and which of its two foreign worker programs you can use.</li>
     <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; client-facing work in the Emirates, and who legally pays for the visa.</li>
     <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; customer-facing sales under Australian award minimums, and when commission may replace a wage.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; how employer sponsorship works in Canada, and what CLB 5 really means.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Minimum wages, wage survey figures, language requirements and hiring preferences change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with Job Bank, your provincial employment standards authority and the employer's own advertisement before applying.</p>

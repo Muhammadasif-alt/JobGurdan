@@ -1028,6 +1028,35 @@ it('corrects remote job pay, the telework trend, who can be hired and the scam d
         ->toContain('not by JobGader');
 });
 
+it('corrects the sponsorship targets, the Global Talent Stream, where LMIAs go and the language scores', function () {
+    $content = guideContent('visa-sponsorship-jobs-in-canada', Database\Seeders\VisaSponsorshipJobsCanadaBlogSeeder::class);
+
+    // The 2026 target, and the stream the draft called LMIA-exempt.
+    expect($content)->toContain('<strong>380,000</strong>')
+        ->toContain('<strong>still needs an LMIA</strong>')
+        ->toContain('<strong>10 business days</strong>');
+
+    // Where positive LMIAs actually went in 2025.
+    expect($content)->toContain('<strong>54,817</strong>')
+        ->toContain('<strong>61,584</strong>')
+        ->toContain('Mexico and 11 Caribbean countries');
+
+    // The low-wage limits and Job Bank pay.
+    expect($content)->toContain('Toronto (7.3%)')
+        ->toContain('<strong>A 10% cap</strong>')
+        ->toContain('<strong>$43.27</strong>');
+
+    // Language, the outlook, spouses and fraud.
+    expect($content)->toContain('<strong>4.0</strong> in reading')
+        ->toContain('<strong>Very good</strong>')
+        ->toContain('<strong>21 January 2025</strong>')
+        ->toContain('No one can guarantee you a job or a visa to Canada.');
+
+    expect(Job::where('position', 'like', 'Visa Sponsorship Jobs — LMIA%')->value('description'))
+        ->toContain('$43.27')
+        ->toContain('not by JobGader');
+});
+
 it('keeps the data entry cluster from restating the guide it hangs off', function () {
     // The remote guide owns the scam mechanics and the worldwide geography.
     // If the two US and Pakistan pages repeat them, three pages compete for
@@ -1086,6 +1115,7 @@ it('wires every new guide into the existing cluster in both directions', functio
         Database\Seeders\WelderJobsCanadaBlogSeeder::class,
         Database\Seeders\BusDriverJobsCanadaBlogSeeder::class,
         Database\Seeders\RemoteJobsUsaBlogSeeder::class,
+        Database\Seeders\VisaSponsorshipJobsCanadaBlogSeeder::class,
         // The established posts that should now point back at them.
         Database\Seeders\NurseJobsUsBlogSeeder::class,
         Database\Seeders\HealthcareJobsUkBlogSeeder::class,
@@ -1151,6 +1181,7 @@ it('wires every new guide into the existing cluster in both directions', functio
         'welder-jobs-in-canada' => ['farm-worker-jobs-in-canada', 'construction-worker-jobs-in-australia', 'electrician-jobs-in-uk'],
         'bus-driver-jobs-in-canada' => ['welder-jobs-in-canada', 'driver-jobs-in-saudi-arabia-for-foreigners', 'delivery-driver-jobs-in-usa'],
         'remote-jobs-in-usa' => ['remote-customer-service-jobs', 'remote-data-entry-jobs', 'remote-jobs-in-pakistan-with-no-experience'],
+        'visa-sponsorship-jobs-in-canada' => ['farm-worker-jobs-in-canada', 'customer-service-jobs-in-canada', 'bus-driver-jobs-in-canada'],
     ];
 
     foreach ($inbound as $target => $sources) {
@@ -1218,6 +1249,7 @@ it('resolves every internal link the new guides publish', function () {
         'welder-jobs-in-canada',
         'bus-driver-jobs-in-canada',
         'remote-jobs-in-usa',
+        'visa-sponsorship-jobs-in-canada',
     ];
 
     foreach ($guides as $guide) {
