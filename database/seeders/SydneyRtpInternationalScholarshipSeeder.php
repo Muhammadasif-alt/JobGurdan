@@ -219,7 +219,7 @@ class SydneyRtpInternationalScholarshipSeeder extends Seeder
 <tr><td>Next international deadline</td><td>11 September 2026, then 18 December 2026</td><td>Round 1 for 2027, closing date to be confirmed</td></tr>
 </tbody>
 </table></div>
-<p>At 2026 rates the Sydney stipend is AUD \$5,609 a year higher. The better choice still depends on where the right supervisor and project are for you. Read our full <a href="/scholarships/monash-university-rtp-scholarship">Monash RTP Scholarship guide</a> to compare.</p>
+<p>At 2026 rates the Sydney stipend is AUD \$5,609 a year higher. The better choice still depends on where the right supervisor and project are for you. Read our full <a href="/scholarships/monash-university-rtp-scholarship">Monash RTP Scholarship guide</a> and <a href="/scholarships/australian-national-university-rtp-scholarship">ANU RTP Scholarship guide</a> to compare.</p>
 
 <h2>Frequently Asked Questions</h2>
 

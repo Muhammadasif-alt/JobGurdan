@@ -272,7 +272,7 @@ class MonashRtpScholarshipSeeder extends Seeder
 <li><strong>Do not leave it to the last week.</strong> Certified copies, translations and test results all take time.</li>
 <li><strong>Use your one application well.</strong> You get one application per round, so check the faculty, course and supervisor before you submit.</li>
 </ul>
-<p>Comparing universities? Our <a href="/scholarships/university-of-sydney-rtp-international-scholarship">University of Sydney RTP International Scholarship guide</a> covers a scholarship with a higher stipend and different deadlines.</p>
+<p>Comparing universities? Our <a href="/scholarships/university-of-sydney-rtp-international-scholarship">University of Sydney RTP International Scholarship guide</a> covers a scholarship with a higher stipend and different deadlines, and our <a href="/scholarships/australian-national-university-rtp-scholarship">ANU RTP Scholarship guide</a> covers Canberra.</p>
 
 <h2>Frequently Asked Questions</h2>
 

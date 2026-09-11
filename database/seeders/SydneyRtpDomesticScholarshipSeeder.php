@@ -241,7 +241,7 @@ class SydneyRtpDomesticScholarshipSeeder extends Seeder
 <tr><td>How to apply</td><td>Admission application plus the scholarship form</td><td>Admission application plus the scholarship form</td></tr>
 </tbody>
 </table></div>
-<p>Comparing other universities too? Read our <a href="/scholarships/monash-university-rtp-scholarship">Monash RTP Scholarship guide</a>.</p>
+<p>Comparing other universities too? Read our <a href="/scholarships/monash-university-rtp-scholarship">Monash RTP Scholarship guide</a> or our <a href="/scholarships/australian-national-university-rtp-scholarship">ANU RTP Scholarship guide</a>, where domestic applicants have until 31 October 2026.</p>
 
 <h2>Frequently Asked Questions</h2>
 

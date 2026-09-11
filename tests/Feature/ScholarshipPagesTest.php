@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\Scholarship;
+use Database\Seeders\AnuRtpScholarshipSeeder;
 use Database\Seeders\MonashRtpScholarshipSeeder;
 use Database\Seeders\SydneyBusinessSchoolPhdScholarshipSeeder;
 use Database\Seeders\SydneyRtpDomesticScholarshipSeeder;
@@ -105,6 +106,7 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'sydney international' => [SydneyRtpInternationalScholarshipSeeder::class, SydneyRtpInternationalScholarshipSeeder::SLUG, 3],
     'sydney domestic' => [SydneyRtpDomesticScholarshipSeeder::class, SydneyRtpDomesticScholarshipSeeder::SLUG, 1],
     'sydney business school' => [SydneyBusinessSchoolPhdScholarshipSeeder::class, SydneyBusinessSchoolPhdScholarshipSeeder::SLUG, 2],
+    'anu' => [AnuRtpScholarshipSeeder::class, AnuRtpScholarshipSeeder::SLUG, 3],
 ]);
 
 it('corrects what the Monash posters and brief get wrong', function () {
@@ -183,6 +185,49 @@ it('gives Business School applicants the stipend top-up, open round and contacts
     expect($scholarship->deadlineLabel())->toBe('Next PhD round closes 1 Feb 2027');
 
     $this->travelBack();
+});
+
+it('gives ANU applicants the closed round, 2027 rate, OSHC, entry marks and contacts the brief gets wrong', function () {
+    // The brief shows international Round 1 as upcoming, guesses the 2027
+    // rate, denies OSHC, asks for GPA 3.0, stretches the stipend to 3-4
+    // years and gives contacts and a URL ANU does not use. ANU's scholarship
+    // pages, conditions of award and English policy say otherwise.
+    $this->seed(AnuRtpScholarshipSeeder::class);
+
+    $scholarship = Scholarship::where('slug', AnuRtpScholarshipSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->content)
+        ->toContain('International Round 1 closed on 31 August 2026')
+        ->toContain('15 April 2027')
+        ->toContain('31 October 2026')
+        ->toContain('AUD $40,475')
+        ->toContain('Overseas Student Health Cover (OSHC) for you and your immediate family')
+        ->toContain('first class honours (H1) or an H1 equivalent')
+        ->toContain('6.5 overall, with no band below 6.0')
+        ->toContain('3.5 years for a PhD')
+        ->toContain('part-time stipends are taxable')
+        ->toContain('grs@anu.edu.au')
+        ->toContain('fourth in Australia')
+        ->not->toContain('scholarships@anu.edu.au')
+        ->not->toContain('anu.rtp@anu.edu.au')
+        ->not->toContain('6125 8000')
+        ->not->toContain('anu.edu.au/students/programs')
+        ->not->toContain('HECS')
+        ->not->toContain('tax-free');
+
+    $this->travelTo(Carbon::parse('2026-10-31 12:00:00'));
+    expect($scholarship->deadlineLabel())->toBe('Closes 31 Oct 2026');
+
+    $this->travelTo(Carbon::parse('2026-11-01 12:00:00'));
+    expect($scholarship->deadlineLabel())->toBe('Next round closes 15 Apr 2027');
+
+    $this->travelBack();
+
+    foreach ([MonashRtpScholarshipSeeder::class, SydneyRtpInternationalScholarshipSeeder::class, SydneyRtpDomesticScholarshipSeeder::class] as $seeder) {
+        $this->seed($seeder);
+    }
+
+    expect(Scholarship::where('slug', '!=', AnuRtpScholarshipSeeder::SLUG)->where('content', 'like', '%/scholarships/'.AnuRtpScholarshipSeeder::SLUG.'%')->count())->toBe(3);
 });
 
 it('moves the Sydney card on to the next round once the first deadline passes', function () {
