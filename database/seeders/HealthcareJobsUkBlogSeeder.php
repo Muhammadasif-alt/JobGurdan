@@ -20,7 +20,9 @@ use Illuminate\Support\Str;
  * The draft said the Health and Care Worker visa is available "increasingly for
  * care workers and healthcare assistants". That has been false since 22 July
  * 2025, when overseas sponsorship closed for occupation codes 6135 and 6136.
- * A healthcare assistant post inside an NHS trust is still one of those codes.
+ * A hospital healthcare assistant is coded 6131 instead, which Appendix Skilled
+ * Occupations still allows sponsors to recruit for Band 3 and above; Band 1
+ * and 2 posts cannot be sponsored (corrected 11 September 2026).
  * What remains sponsorable is registered clinical staff, where the real gate is
  * professional registration — NMC, GMC or HCPC — rather than the visa.
  *
@@ -126,7 +128,7 @@ class HealthcareJobsUkBlogSeeder extends Seeder
 <p>NHS trusts and private healthcare providers across the UK recruit continuously: registered nurses and midwives, doctors, allied health professionals such as radiographers, physiotherapists, operating department practitioners and biomedical scientists, alongside healthcare assistants, ward clerks, porters and support staff.</p>
 
 <h3>Important &mdash; who can be sponsored from overseas</h3>
-<p>The Health and Care Worker visa <strong>closed to new overseas applicants in the care worker and senior care worker occupation codes (6135 and 6136) on 22 July 2025</strong>, and remains closed. A healthcare assistant post inside an NHS trust falls within those codes, so it is open to candidates who already hold the right to work in the UK rather than to applicants abroad. <strong>Registered clinical staff</strong> &mdash; nurses, midwives, doctors and allied health professionals &mdash; can still be sponsored, provided they hold or can obtain the relevant professional registration.</p>
+<p>The Health and Care Worker visa <strong>closed to new overseas applicants in the care worker and senior care worker occupation codes (6135 and 6136) on 22 July 2025</strong>, and remains closed. Hospital healthcare assistants are coded 6131 instead: a Band 3 or higher post paying at least &pound;25,000, in a setting with registered nurses, can still be sponsored, but Band 1 and Band 2 posts cannot. <strong>Registered clinical staff</strong> &mdash; nurses, midwives, doctors and allied health professionals &mdash; can still be sponsored, provided they hold or can obtain the relevant professional registration.</p>
 
 <h3>Requirements</h3>
 <ul>
@@ -167,7 +169,9 @@ JOBHTML;
 
 <p>This is the dividing line, and it is not about the employer &mdash; NHS or private makes no difference. It is about the occupation code.</p>
 
-<p><strong>Closed to new overseas applicants since 22 July 2025:</strong> care worker and senior care worker roles, occupation codes 6135 and 6136. Crucially, a <strong>healthcare assistant post inside an NHS trust sits inside those codes</strong>. Working for the NHS does not reopen the route, and the fact that a trust is a licensed sponsor does not change it either. These roles are now open to people who already hold the right to work in the UK.</p>
+<p><strong>Closed to new overseas applicants since 22 July 2025:</strong> care worker and senior care worker roles, occupation codes 6135 and 6136. Working for the NHS does not reopen the route, and the fact that a trust is a licensed sponsor does not change it either. These roles are now open to people who already hold the right to work in the UK.</p>
+
+<p><strong>Healthcare assistants are a separate code, 6131.</strong> A sponsor can still recruit one from overseas, but only for a <strong>Band 3 or higher</strong> post paying at least &pound;25,000, in a setting where registered nurses also work. Band 1 and Band 2 posts, where most healthcare assistants start, cannot be sponsored. Our <a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> guide sets out the bands and pay.</p>
 
 <p><strong>Still sponsorable under the Health and Care Worker visa:</strong> registered clinical staff &mdash; nurses, midwives, doctors, and allied health professionals such as radiographers, physiotherapists, operating department practitioners, paramedics and biomedical scientists. For these roles the visa is usually the easier half; the harder half is registration.</p>
 
@@ -262,16 +266,16 @@ JOBHTML;
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I get a UK healthcare job with visa sponsorship from overseas?</h3>
-<p>It depends on the role. Registered clinical staff &mdash; nurses, midwives, doctors, allied health professionals &mdash; can still be sponsored under the Health and Care Worker visa. Care worker and healthcare assistant roles closed to new overseas applicants on 22 July 2025 and remain closed, including inside NHS trusts.</p>
+<p>It depends on the role. Registered clinical staff &mdash; nurses, midwives, doctors, allied health professionals &mdash; can still be sponsored under the Health and Care Worker visa. Care worker roles closed to new overseas applicants on 22 July 2025 and remain closed, including inside NHS trusts. Healthcare assistant roles can only be sponsored at Band 3 or higher, paying at least &pound;25,000, where registered nurses also work.</p>
 
 <h3>Does working for the NHS make a healthcare assistant role sponsorable?</h3>
-<p>No. The restriction is on the occupation code, not the employer. A healthcare assistant post in an NHS trust sits in the closed codes, and a trust being a licensed sponsor does not change that.</p>
+<p>Not by itself. What matters is the occupation code and the band, not the employer. Hospital healthcare assistants are coded 6131, which can be sponsored for a Band 3 or higher post paying at least &pound;25,000 where registered nurses also work. Band 1 and Band 2 posts cannot, whoever the employer is.</p>
 
 <h3>What is TRAC Jobs?</h3>
 <p>The applicant tracking system most NHS trusts use to advertise vacancies and manage applications. You build one profile and apply through it, tracking each application's progress in the same place.</p>
 
 <h3>What is the easiest NHS job to get?</h3>
-<p>Healthcare assistant and other support roles, which need no prior degree and recruit continuously &mdash; but only if you already hold the right to work in the UK, since they cannot be sponsored from overseas.</p>
+<p>Healthcare assistant and other support roles, which need no prior degree and recruit continuously &mdash; mostly for people who already hold the right to work in the UK, since entry-level Band 2 posts cannot be sponsored from overseas.</p>
 
 <h3>How do NHS pay bands work?</h3>
 <p>NHS pay in England follows Agenda for Change, set nationally in bands, so the band in the advertisement tells you the salary and it is the same at every trust. What varies is the high cost area supplement near London and the enhancements for nights and weekends.</p>
@@ -288,7 +292,7 @@ JOBHTML;
 <h2>People Also Search For</h2>
 
 <h3>Healthcare jobs in UK for foreigners</h3>
-<p>Registered clinical roles remain sponsorable; care worker and healthcare assistant roles do not, following the July 2025 closure of those occupation codes to overseas applicants.</p>
+<p>Registered clinical roles remain sponsorable. Care worker roles closed to overseas applicants in July 2025, and healthcare assistant roles can only be sponsored at Band 3 or higher.</p>
 
 <h3>Healthcare jobs in UK with visa sponsorship</h3>
 <p>Nurses, midwives, doctors and allied health professionals, where professional registration rather than the visa is the limiting step.</p>
@@ -323,6 +327,7 @@ JOBHTML;
     <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; UK work for people who already hold the right to work.</li>
     <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; another skilled UK occupation, and its certification deadline.</li>
     <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; clinical work in the Gulf, and the SCFHS registration steps behind it.</li>
+    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; what nurses earn in America, and the multistate license residency rule.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Immigration rules, pay bands and registration requirements change &mdash; confirm the current position on gov.uk, with the relevant regulator, and on the employer's own advertisement before applying or paying any fee.</p>

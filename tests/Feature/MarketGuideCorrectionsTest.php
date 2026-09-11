@@ -651,6 +651,104 @@ it('corrects Australian retail sales pay, commission-only rules and real estate 
         ->toContain('not by JobGader');
 });
 
+it('corrects UK healthcare assistant pay, the care salary floor, the checks and the HCA visa rule', function () {
+    $content = guideContent('healthcare-assistant-jobs-in-uk', Database\Seeders\HealthcareAssistantJobsUkBlogSeeder::class);
+
+    // The 2026/27 Agenda for Change rates replace the draft's older bands.
+    expect($content)->toContain('3.3% pay award')
+        ->toContain('&pound;25,272')
+        ->toContain('&pound;25,760')
+        ->toContain('&pound;27,476')
+        ->toContain('41%')
+        ->toContain('83%');
+
+    // A GBP 21,000 full-time care salary is below the National Living Wage.
+    expect($content)->toContain('&pound;24,784.50')
+        ->toContain('&pound;3,784.50 more than &pound;21,000')
+        ->toContain('&pound;21,157.50');
+
+    // Only Band 3 and above in code 6131 can be sponsored; care workers closed.
+    expect($content)->toContain('6131')
+        ->toContain('Band 1 and Band 2 jobs cannot be sponsored')
+        ->toContain('&pound;25,000 a year')
+        ->toContain('22 July 2028')
+        ->toContain('/blog/caregiver-jobs-in-uk-with-visa-sponsorship')
+        ->toContain('does not repeat it');
+
+    // Scotland and Northern Ireland do not use the DBS, and the Care Certificate grew.
+    expect($content)->toContain('Protecting Vulnerable Groups (PVG) scheme')
+        ->toContain('AccessNI')
+        ->toContain('16 standards');
+
+    expect(Job::where('position', 'like', 'Healthcare Assistant%')->value('description'))
+        ->toContain('&pound;25,272')
+        ->toContain('not by JobGader');
+});
+
+it('corrects US registered nurse pay, the states, the multistate license and the shortage', function () {
+    $content = guideContent('registered-nurse-jobs-in-usa', Database\Seeders\RegisteredNurseJobsUsaBlogSeeder::class);
+
+    // BLS May 2025 pay sits well above the draft's bands.
+    expect($content)->toContain('$97,550')
+        ->toContain('$101,420')
+        ->toContain('$68,940');
+
+    // Top states by headcount are not the top states by pay.
+    expect($content)->toContain('Florida employs more than New York')
+        ->toContain('$150,280');
+
+    // The compact needs residence in a member state, and the biggest markets are outside it.
+    expect($content)->toContain('43 jurisdictions')
+        ->toContain('You must live in a compact state')
+        ->toContain('California, New York, Illinois');
+
+    // The exam fee, the shortage projection and the tax home rule.
+    expect($content)->toContain('1 February 2027')
+        ->toContain('$350')
+        ->toContain('Pakistan')
+        ->toContain('8% shortage in 2028')
+        ->toContain('3% by 2038')
+        ->toContain('tax home');
+
+    // The visa route stays on the older guide.
+    expect($content)->toContain('/blog/nurse-jobs-in-the-us')
+        ->toContain('does not repeat it');
+
+    expect(Job::where('position', 'like', 'Registered Nurse — Hospitals, Outpatient%')->value('description'))
+        ->toContain('$97,550')
+        ->toContain('not by JobGader');
+});
+
+it('corrects US help desk pay, the states, the outlook and the A+ exams', function () {
+    $content = guideContent('help-desk-technician-jobs-in-usa', Database\Seeders\HelpDeskTechnicianJobsUsaBlogSeeder::class);
+
+    // BLS May 2025 pay: the draft's Tier 1 floor is below the bottom tenth.
+    expect($content)->toContain('$61,860')
+        ->toContain('$29.74')
+        ->toContain('$40,980')
+        ->toContain('$76,220');
+
+    // Virginia is not a top five state, and DC pays the most.
+    expect($content)->toContain('Virginia is 12th')
+        ->toContain('Pennsylvania')
+        ->toContain('$85,690');
+
+    // The BLS projects a decline, not high demand.
+    expect($content)->toContain('3% from 2025 to 2035')
+        ->toContain('such as chatbots')
+        ->toContain('48,700 openings a year');
+
+    // A diploma qualifies with certifications, and A+ moved to V15.
+    expect($content)->toContain('some college courses')
+        ->toContain('a high school diploma plus relevant IT certifications')
+        ->toContain('220-1201 (Core 1)')
+        ->toContain('25 March 2025');
+
+    expect(Job::where('position', 'like', 'Help Desk Technician%')->value('description'))
+        ->toContain('$61,860')
+        ->toContain('not by JobGader');
+});
+
 it('keeps the data entry cluster from restating the guide it hangs off', function () {
     // The remote guide owns the scam mechanics and the worldwide geography.
     // If the two US and Pakistan pages repeat them, three pages compete for
@@ -698,6 +796,9 @@ it('wires every new guide into the existing cluster in both directions', functio
         Database\Seeders\AccountantJobsUaeBlogSeeder::class,
         Database\Seeders\PoliceOfficerJobsUsaBlogSeeder::class,
         Database\Seeders\SalesJobsAustraliaBlogSeeder::class,
+        Database\Seeders\HealthcareAssistantJobsUkBlogSeeder::class,
+        Database\Seeders\RegisteredNurseJobsUsaBlogSeeder::class,
+        Database\Seeders\HelpDeskTechnicianJobsUsaBlogSeeder::class,
         // The established posts that should now point back at them.
         Database\Seeders\NurseJobsUsBlogSeeder::class,
         Database\Seeders\HealthcareJobsUkBlogSeeder::class,
@@ -715,6 +816,7 @@ it('wires every new guide into the existing cluster in both directions', functio
         Database\Seeders\GovernmentJobsPakistanBlogSeeder::class,
         Database\Seeders\AtsResumeWriterCanadaBlogSeeder::class,
         Database\Seeders\PythonDeveloperJobsUsaBlogSeeder::class,
+        Database\Seeders\CaregiverUkBlogSeeder::class,
     ] as $seeder) {
         $this->seed($seeder);
     }
@@ -741,6 +843,9 @@ it('wires every new guide into the existing cluster in both directions', functio
         'accountant-jobs-in-uae' => ['receptionist-jobs-in-uae', 'security-guard-jobs-in-uae', 'data-entry-jobs-in-pakistan'],
         'police-officer-jobs-in-usa' => ['security-guard-jobs-in-saudi-arabia', 'cybersecurity-analyst-jobs-in-usa', 'unskilled-jobs-in-usa-for-foreigners'],
         'sales-jobs-in-australia' => ['office-assistant-jobs-in-australia', 'construction-worker-jobs-in-australia', 'plumber-jobs-in-australia', 'retail-jobs-in-usa', 'customer-service-jobs-in-canada'],
+        'healthcare-assistant-jobs-in-uk' => ['healthcare-jobs-in-the-uk', 'caregiver-jobs-in-uk-with-visa-sponsorship', 'cook-jobs-in-uk'],
+        'registered-nurse-jobs-in-usa' => ['nurse-jobs-in-the-us', 'nurse-jobs-in-saudi-arabia', 'healthcare-jobs-in-the-uk'],
+        'help-desk-technician-jobs-in-usa' => ['it-support-jobs-in-uk', 'network-engineer-jobs-in-usa', 'cybersecurity-analyst-jobs-in-usa'],
     ];
 
     foreach ($inbound as $target => $sources) {
@@ -797,6 +902,9 @@ it('resolves every internal link the new guides publish', function () {
         'accountant-jobs-in-uae',
         'police-officer-jobs-in-usa',
         'sales-jobs-in-australia',
+        'healthcare-assistant-jobs-in-uk',
+        'registered-nurse-jobs-in-usa',
+        'help-desk-technician-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {

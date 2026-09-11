@@ -42,12 +42,16 @@ it('ships every image it references', function () {
 
 it('does not repeat the claim that care roles are sponsorable', function () {
     // The draft said the visa is available "increasingly for care workers and
-    // healthcare assistants". That closed on 22 July 2025, NHS employer or not.
+    // healthcare assistants". Care workers closed on 22 July 2025, NHS employer
+    // or not; hospital healthcare assistants (6131) remain sponsorable only at
+    // Band 3 or higher.
     $response = get('/blog/'.HEALTH_UK_SLUG)->assertOk();
 
     $response->assertSee('closed to new overseas applicants')
         ->assertSee('22 July 2025')
-        ->assertSee('Working for the NHS does not reopen the route');
+        ->assertSee('Working for the NHS does not reopen the route')
+        ->assertSee('Band 3 or higher')
+        ->assertSee('Band 1 and Band 2 posts cannot');
 
     expect($response->getContent())->not->toContain('increasingly for care workers');
 });

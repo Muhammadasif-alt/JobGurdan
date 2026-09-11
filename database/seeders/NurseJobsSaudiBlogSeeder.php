@@ -349,6 +349,7 @@ JOBHTML;
     <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; the Labour Law, Qiwa and Wage Protection System rules on a Saudi contract.</li>
     <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a> &mdash; hospital and hotel cleaning routes into the Kingdom.</li>
     <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; a Gulf contract where the basic salary split decides your gratuity.</li>
+    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; American nursing pay by state, measured by the BLS.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, careers or financial advice. Licensing requirements, recruitment rules, salaries and contract terms change and differ by employer and by country of origin. Confirm the current position with the Saudi Commission for Health Specialties, your home country's emigration authority and the employer before applying or accepting an offer.</p>

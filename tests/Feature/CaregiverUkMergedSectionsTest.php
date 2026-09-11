@@ -28,6 +28,7 @@ it('does not let an NHS badge imply overseas sponsorship reopened', function () 
     $body = Blog::where('slug', CARE_UK_SLUG)->value('content');
 
     expect($body)->toContain('being NHS does not reopen overseas sponsorship')
+        ->toContain('Band 3 or higher post paying at least &pound;25,000')
         ->toContain('charging a worker for sponsorship is illegal in the UK');
 });
 

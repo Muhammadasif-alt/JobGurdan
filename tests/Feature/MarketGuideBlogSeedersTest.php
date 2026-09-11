@@ -173,6 +173,27 @@ dataset('market guides', [
         'https://au.indeed.com/q-sales-jobs.html',
         'Sales',
     ],
+    'healthcare assistant uk' => [
+        'healthcare-assistant-jobs-in-uk',
+        Database\Seeders\HealthcareAssistantJobsUkBlogSeeder::class,
+        ['healthcare-assistant-jobs-in-uk-ward.jpg', 'healthcare-assistant-jobs-in-uk-patient-care.jpg'],
+        'https://uk.indeed.com/q-healthcare-assistant-jobs.html',
+        'Healthcare Assistant',
+    ],
+    'registered nurse usa' => [
+        'registered-nurse-jobs-in-usa',
+        Database\Seeders\RegisteredNurseJobsUsaBlogSeeder::class,
+        ['registered-nurse-jobs-in-usa-station.jpg', 'registered-nurse-jobs-in-usa-bedside.jpg'],
+        'https://www.indeed.com/q-registered-nurse-jobs.html',
+        'Registered Nurse — Hospitals, Outpatient',
+    ],
+    'help desk usa' => [
+        'help-desk-technician-jobs-in-usa',
+        Database\Seeders\HelpDeskTechnicianJobsUsaBlogSeeder::class,
+        ['help-desk-technician-jobs-in-usa-tickets.jpg', 'help-desk-technician-jobs-in-usa-support.jpg'],
+        'https://www.indeed.com/q-help-desk-technician-jobs.html',
+        'Help Desk Technician',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {
