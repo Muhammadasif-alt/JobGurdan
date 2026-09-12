@@ -1057,6 +1057,60 @@ it('corrects the sponsorship targets, the Global Talent Stream, where LMIAs go a
         ->toContain('not by JobGader');
 });
 
+it('corrects Australian entry-level pay, the super rate, junior rates and the mining claims', function () {
+    $content = guideContent('no-experience-jobs-in-australia', Database\Seeders\NoExperienceJobsAustraliaBlogSeeder::class);
+
+    // Award rates from 1 July 2026 replace the draft's salary table.
+    expect($content)->toContain('<strong>4.75%</strong>')
+        ->toContain('$26.44 an hour')
+        ->toContain('<strong>$1,056.80</strong>')
+        ->toContain('<strong>$1,307.80</strong>')
+        ->toContain('<strong>$33.05 an hour</strong>');
+
+    // Super and junior rates.
+    expect($content)->toContain('12% on 1 July 2025')
+        ->toContain('<strong>60%</strong>');
+
+    // Aged care checks, the labour market and the mining tickets.
+    expect($content)->toContain('NDIS Worker Screening Check')
+        ->toContain('<strong>4.5%</strong>')
+        ->toContain('<strong>10.4%</strong>')
+        ->toContain('<strong>Standard 11</strong>')
+        ->toContain('<strong>White Card</strong>')
+        ->toContain('<strong>48 hours a fortnight</strong>');
+
+    expect(Job::where('position', 'like', 'Entry-Level Jobs — Retail%')->value('description'))
+        ->toContain('$27.81')
+        ->toContain('not by JobGader');
+});
+
+it('corrects Saudi kitchen helper pay, who pays the visa, the health certificate and the age claim', function () {
+    $content = guideContent('kitchen-helper-jobs-in-saudi-arabia', Database\Seeders\KitchenHelperJobsSaudiBlogSeeder::class);
+
+    // The referral wage floor replaces the draft's band.
+    expect($content)->toContain('SAR 1,600')
+        ->toContain('SAR 2,000')
+        ->toContain('no minimum wage for expatriate workers');
+
+    // Article 40, the certificate and the hours.
+    expect($content)->toContain('<strong>Article 40</strong>')
+        ->toContain('Balady')
+        ->toContain('<strong>8 hours a day or 48 a week</strong>')
+        ->toContain('50% of the basic wage')
+        ->toContain('<strong>21 days</strong>')
+        ->toContain('<strong>180 days</strong>');
+
+    // Saudization, the sector data and the age claim.
+    expect($content)->toContain('<strong>22 April 2026</strong>')
+        ->toContain('<strong>983,253 people working in tourism activities</strong>')
+        ->toContain('<strong>no one under 15</strong>')
+        ->toContain('Rs 30,000');
+
+    expect(Job::where('position', 'like', 'Kitchen Helper — Hotels%')->value('description'))
+        ->toContain('SAR 1,600')
+        ->toContain('not by JobGader');
+});
+
 it('keeps the data entry cluster from restating the guide it hangs off', function () {
     // The remote guide owns the scam mechanics and the worldwide geography.
     // If the two US and Pakistan pages repeat them, three pages compete for
@@ -1116,6 +1170,8 @@ it('wires every new guide into the existing cluster in both directions', functio
         Database\Seeders\BusDriverJobsCanadaBlogSeeder::class,
         Database\Seeders\RemoteJobsUsaBlogSeeder::class,
         Database\Seeders\VisaSponsorshipJobsCanadaBlogSeeder::class,
+        Database\Seeders\NoExperienceJobsAustraliaBlogSeeder::class,
+        Database\Seeders\KitchenHelperJobsSaudiBlogSeeder::class,
         // The established posts that should now point back at them.
         Database\Seeders\NurseJobsUsBlogSeeder::class,
         Database\Seeders\HealthcareJobsUkBlogSeeder::class,
@@ -1182,6 +1238,8 @@ it('wires every new guide into the existing cluster in both directions', functio
         'bus-driver-jobs-in-canada' => ['welder-jobs-in-canada', 'driver-jobs-in-saudi-arabia-for-foreigners', 'delivery-driver-jobs-in-usa'],
         'remote-jobs-in-usa' => ['remote-customer-service-jobs', 'remote-data-entry-jobs', 'remote-jobs-in-pakistan-with-no-experience'],
         'visa-sponsorship-jobs-in-canada' => ['farm-worker-jobs-in-canada', 'customer-service-jobs-in-canada', 'bus-driver-jobs-in-canada'],
+        'no-experience-jobs-in-australia' => ['construction-worker-jobs-in-australia', 'office-assistant-jobs-in-australia', 'sales-jobs-in-australia'],
+        'kitchen-helper-jobs-in-saudi-arabia' => ['driver-jobs-in-saudi-arabia-for-foreigners', 'security-guard-jobs-in-saudi-arabia', 'nurse-jobs-in-saudi-arabia'],
     ];
 
     foreach ($inbound as $target => $sources) {
@@ -1250,6 +1308,8 @@ it('resolves every internal link the new guides publish', function () {
         'bus-driver-jobs-in-canada',
         'remote-jobs-in-usa',
         'visa-sponsorship-jobs-in-canada',
+        'no-experience-jobs-in-australia',
+        'kitchen-helper-jobs-in-saudi-arabia',
     ];
 
     foreach ($guides as $guide) {

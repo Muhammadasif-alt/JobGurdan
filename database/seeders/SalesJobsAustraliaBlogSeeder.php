@@ -403,6 +403,7 @@ JOBHTML;
     <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; the checkout side of retail, and the till shortage rule.</li>
     <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; phone and chat skills applied from home.</li>
     <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; client-facing work in the Gulf, and who pays for the visa.</li>
+    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; the award floors for first jobs, junior percentages and the 12% super rate.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, migration or financial advice. Award rates, the national minimum wage, superannuation rules, real estate registration requirements and visa occupation lists change, and salary figures on any job board are a moving average rather than a statistic. Confirm the current position with the Fair Work Ombudsman, your state's real estate regulator, the Department of Home Affairs and the employer's own advertisement before applying.</p>

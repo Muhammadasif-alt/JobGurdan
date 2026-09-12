@@ -257,6 +257,20 @@ dataset('market guides', [
         'https://ca.indeed.com/q-visa-sponsorship-jobs.html',
         'Visa Sponsorship Jobs — LMIA',
     ],
+    'no experience australia' => [
+        'no-experience-jobs-in-australia',
+        Database\Seeders\NoExperienceJobsAustraliaBlogSeeder::class,
+        ['no-experience-jobs-in-australia-team.jpg', 'no-experience-jobs-in-australia-workers.jpg'],
+        'https://au.indeed.com/q-no-experience-jobs.html',
+        'Entry-Level Jobs — Retail',
+    ],
+    'kitchen helper saudi' => [
+        'kitchen-helper-jobs-in-saudi-arabia',
+        Database\Seeders\KitchenHelperJobsSaudiBlogSeeder::class,
+        ['kitchen-helper-jobs-in-saudi-arabia-kitchen.jpg', 'kitchen-helper-jobs-in-saudi-arabia-hotel.jpg'],
+        'https://sa.indeed.com/q-kitchen-helper-jobs.html',
+        'Kitchen Helper — Hotels',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {
