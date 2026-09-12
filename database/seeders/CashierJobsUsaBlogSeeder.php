@@ -329,6 +329,7 @@ JOBHTML;
 
 <ul>
     <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; cashier against sales associate, and how far apart state wage floors really are.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; the step up from the register, and how the big chains run their hiring.</li>
     <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; another fast entry route, and what app pay guarantees leave out.</li>
     <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the H-2B and EB-3 routes, and who can realistically use them.</li>
     <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; seasonal hospitality work and the visas behind it.</li>

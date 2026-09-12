@@ -304,6 +304,7 @@ JOBHTML;
     <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; where an apprenticeship leads, and what the licence takes.</li>
     <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest position on American entry-level visas.</li>
     <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; the same counter work priced by state wage floors.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; the American version of a first shop-floor job, and how its hiring works.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Award rates, superannuation, screening rules and visa conditions change. Check the current pay guide on fairwork.gov.au and your visa conditions on immi.homeaffairs.gov.au before accepting a job.</p>

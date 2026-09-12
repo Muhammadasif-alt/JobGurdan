@@ -399,6 +399,7 @@ JOBHTML;
     <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; the casual loading and the Working Holiday route in a trade setting.</li>
     <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; another state-issued credential, and where mutual recognition stops.</li>
     <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; the same shop-floor work under American minimum wage law.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; how American retailers actually hire, and what the big chains start you on.</li>
     <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; customer-facing work under provincial wage floors.</li>
     <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; the checkout side of retail, and the till shortage rule.</li>
     <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; phone and chat skills applied from home.</li>

@@ -271,6 +271,13 @@ dataset('market guides', [
         'https://sa.indeed.com/q-kitchen-helper-jobs.html',
         'Kitchen Helper — Hotels',
     ],
+    'retail associate usa' => [
+        'retail-associate-jobs-in-usa',
+        Database\Seeders\RetailAssociateJobsUsaBlogSeeder::class,
+        ['retail-associate-jobs-in-usa-service.jpg', 'retail-associate-jobs-in-usa-checkout.jpg'],
+        'https://www.indeed.com/q-retail-associate-jobs.html',
+        'Retail Associate',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {

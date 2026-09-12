@@ -344,6 +344,7 @@ JOBHTML;
     <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; British entry-level work and its employment-status trap.</li>
     <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; the other fast American entry route, and what your own car really costs per mile.</li>
     <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; the checkout side of the store, the California fast food rate and the till shortage rule.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; the hiring process itself, from the online assessment to what each big chain starts you on.</li>
     <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; the same shop-floor work under an award that sets minimum rates by job level.</li>
 </ul>
 

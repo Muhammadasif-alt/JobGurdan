@@ -15,6 +15,43 @@ function guideContent(string $slug, string $seeder): string
     return Blog::where('slug', $slug)->value('content');
 }
 
+it('prices the retail associate job by percentile instead of the range every guide copies', function () {
+    // "$12 to $18 an hour" starts below the 10th percentile and stops below
+    // the 75th, so the spread is quoted in full rather than summarised.
+    $content = guideContent('retail-associate-jobs-in-usa', Database\Seeders\RetailAssociateJobsUsaBlogSeeder::class);
+
+    expect($content)->toContain('$13.08')
+        ->toContain('$14.38')
+        ->toContain('$17.03')
+        ->toContain('$18.59')
+        ->toContain('$23.02')
+        ->toContain('below the bottom tenth of the occupation');
+
+    // A diploma is a preference on the posting, not an entry requirement.
+    expect($content)->toContain('no formal educational credential')
+        ->toContain('Work experience required: none');
+
+    // Five states legislate no floor of their own, which no draft mentions.
+    expect($content)->toContain('no state minimum wage law at all')
+        ->toContain('$18.40')
+        ->toContain('$13.77');
+
+    // Retail sales work cannot be paid against a tip credit.
+    expect($content)->toContain('more than $30 a month in tips');
+
+    // The promotion claim, priced and then bounded by how many posts exist.
+    expect($content)->toContain('$23.33')
+        ->toContain('1,121,800')
+        ->toContain('3,897,860');
+
+    // Flat occupation, enormous churn — both halves, not just the friendly one.
+    expect($content)->toContain('550,600')
+        ->toContain('no change at all from 2025 to 2035');
+
+    // Cashier is a separate occupation at a lower median.
+    expect($content)->toContain('$15.81');
+});
+
 it('keeps the UK day rate and hourly rate apart instead of averaging them', function () {
     // GBP 155 a day is self-employed turnover before the van; GBP 13.96 an
     // hour is employed pay with holiday and pension behind it.
@@ -1310,6 +1347,7 @@ it('resolves every internal link the new guides publish', function () {
         'visa-sponsorship-jobs-in-canada',
         'no-experience-jobs-in-australia',
         'kitchen-helper-jobs-in-saudi-arabia',
+        'retail-associate-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {
