@@ -254,6 +254,7 @@ class MelbourneRtpScholarshipSeeder extends Seeder
 </tbody>
 </table></div>
 <p>At 2026 rates Melbourne pays AUD \$3,254 a year less than Sydney, AUD \$431 more than ANU and AUD \$2,355 more than Monash, the other large research university in the same city. Compare the details in our <a href="/scholarships/university-of-sydney-rtp-international-scholarship">Sydney RTP International</a>, <a href="/scholarships/australian-national-university-rtp-scholarship">ANU RTP</a> and <a href="/scholarships/monash-university-rtp-scholarship">Monash RTP</a> guides.</p>
+<p>Weighing Europe instead? Italian state universities work the other way round: there is no research stipend, but tuition is set by family income and can fall to almost nothing. Our <a href="/scholarships/university-of-pavia-scholarships">University of Pavia scholarships guide</a> and <a href="/scholarships/university-of-insubria-scholarships">University of Insubria scholarships guide</a> set out what an Italian degree really costs and which waivers cover it.</p>
 
 <h2>Frequently Asked Questions</h2>
 

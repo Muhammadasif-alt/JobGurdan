@@ -220,6 +220,7 @@ class SydneyRtpInternationalScholarshipSeeder extends Seeder
 </tbody>
 </table></div>
 <p>At 2026 rates the Sydney stipend is AUD \$5,609 a year higher. The better choice still depends on where the right supervisor and project are for you. Read our full <a href="/scholarships/monash-university-rtp-scholarship">Monash RTP Scholarship guide</a>, <a href="/scholarships/australian-national-university-rtp-scholarship">ANU RTP Scholarship guide</a> and <a href="/scholarships/university-of-melbourne-rtp-scholarship">University of Melbourne RTP Scholarship guide</a> to compare.</p>
+<p>Weighing Europe instead? Italian state universities work the other way round: there is no research stipend, but tuition is set by family income and can fall to almost nothing. Our <a href="/scholarships/university-of-pavia-scholarships">University of Pavia scholarships guide</a> and <a href="/scholarships/university-of-insubria-scholarships">University of Insubria scholarships guide</a> set out what an Italian degree really costs and which waivers cover it.</p>
 
 <h2>Frequently Asked Questions</h2>
 

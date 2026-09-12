@@ -2,8 +2,10 @@
 
 use App\Models\Scholarship;
 use Database\Seeders\AnuRtpScholarshipSeeder;
+use Database\Seeders\InsubriaScholarshipSeeder;
 use Database\Seeders\MelbourneRtpScholarshipSeeder;
 use Database\Seeders\MonashRtpScholarshipSeeder;
+use Database\Seeders\PaviaScholarshipSeeder;
 use Database\Seeders\SydneyBusinessSchoolPhdScholarshipSeeder;
 use Database\Seeders\SydneyRtpDomesticScholarshipSeeder;
 use Database\Seeders\SydneyRtpInternationalScholarshipSeeder;
@@ -109,6 +111,8 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'sydney business school' => [SydneyBusinessSchoolPhdScholarshipSeeder::class, SydneyBusinessSchoolPhdScholarshipSeeder::SLUG, 2],
     'anu' => [AnuRtpScholarshipSeeder::class, AnuRtpScholarshipSeeder::SLUG, 3],
     'melbourne' => [MelbourneRtpScholarshipSeeder::class, MelbourneRtpScholarshipSeeder::SLUG, 3],
+    'pavia' => [PaviaScholarshipSeeder::class, PaviaScholarshipSeeder::SLUG, 3],
+    'insubria' => [InsubriaScholarshipSeeder::class, InsubriaScholarshipSeeder::SLUG, 3],
 ]);
 
 it('corrects what the Monash posters and brief get wrong', function () {
@@ -268,6 +272,65 @@ it('gives Melbourne applicants the stipend, faculty deadlines, entry marks and c
     }
 
     expect(Scholarship::where('slug', '!=', MelbourneRtpScholarshipSeeder::SLUG)->where('content', 'like', '%/scholarships/'.MelbourneRtpScholarshipSeeder::SLUG.'%')->count())->toBe(3);
+});
+
+it('gives Pavia applicants the waiver count, the flat rate, the ranking and the contacts the brief gets wrong', function () {
+    // The brief and posters say 50 fee waivers, call Pavia Italy's oldest
+    // university, put it in the top 400, leave out the non-EU flat rate,
+    // shrink CICOPS to 6 awards and cap EDiSU at €3,967. The bando, the fee
+    // rules, EDiSU's own call and the ranking tables say otherwise.
+    $this->seed(PaviaScholarshipSeeder::class);
+
+    expect(Scholarship::where('slug', PaviaScholarshipSeeder::SLUG)->value('content'))
+        ->toContain('<strong>120</strong>')
+        ->toContain('&euro;390 to &euro;4,550')
+        ->toContain('&euro;32,000')
+        ->toContain('&euro;26,887.93')
+        ->toContain('15 September 2026 at 15:00')
+        ->toContain('10 scholarships a year')
+        ->toContain('QS World University Rankings 2026: =423')
+        ->toContain('Bologna (1088) is older')
+        ->toContain('35 km south of Milan')
+        ->toContain('welcomeoffice@unipv.it')
+        ->toContain('+39 0382 984020')
+        ->toContain('do not appear on any official page')
+        ->not->toContain('3,967')
+        ->not->toContain('100 km');
+});
+
+it('gives Insubria applicants the campuses, the fee floor and the IUPALS facts the brief gets wrong', function () {
+    // The brief lists Saronno as a campus, says 11,414 students and a flat
+    // €156 fee, pays the excellence award "per semester", invents a €12,000
+    // "CRUI IUPALS" package and lists essay-contest sites as scholarships.
+    $this->seed(InsubriaScholarshipSeeder::class);
+
+    expect(Scholarship::where('slug', InsubriaScholarshipSeeder::SLUG)->value('content'))
+        ->toContain('Varese, Como and Busto Arsizio')
+        ->toContain('More than 12,000 students')
+        ->toContain('&euro;146')
+        ->toContain('four instalments of &euro;2,500')
+        ->toContain('Italian Universities for Palestinian Students')
+        ->toContain('5 October 2026 at 12:00')
+        ->toContain('30 September 2026 at 15:00')
+        ->toContain('&euro;7,171.11')
+        ->toContain('40 ECTS')
+        ->toContain('relint@uninsubria.it')
+        ->toContain('is not a current campus')
+        ->not->toContain('11,414')
+        ->not->toContain('per semester')
+        ->not->toContain('ServiceScape')
+        ->not->toContain('IvyPanda');
+});
+
+it('links the two Italian guides to each other and from the Australian ones', function () {
+    foreach ([PaviaScholarshipSeeder::class, InsubriaScholarshipSeeder::class, MelbourneRtpScholarshipSeeder::class, SydneyRtpInternationalScholarshipSeeder::class] as $seeder) {
+        $this->seed($seeder);
+    }
+
+    foreach ([PaviaScholarshipSeeder::SLUG, InsubriaScholarshipSeeder::SLUG] as $slug) {
+        expect(Scholarship::where('slug', '!=', $slug)->where('content', 'like', '%/scholarships/'.$slug.'%')->count())
+            ->toBe(3, 'inbound links to '.$slug);
+    }
 });
 
 it('moves the Sydney card on to the next round once the first deadline passes', function () {
