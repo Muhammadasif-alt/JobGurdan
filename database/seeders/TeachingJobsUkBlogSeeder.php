@@ -246,7 +246,9 @@ JOBHTML;
 
 <p>Read those together. <strong>The bottom of Scotland's main grade is above the top of Northern Ireland's</strong>, and roughly <strong>&pound;9,300 above where an English teacher starts</strong>. Scotland's top main-grade point, &pound;54,453, exceeds even the top of Northern Ireland's upper scale. Northern Ireland is also a year behind: its current award is backdated to September 2025, with no 2026/27 settlement published.</p>
 
-<p><strong>Wales.</strong> We could not verify current Welsh pay figures from an official source in time for publication, so this guide does not print any. Do not assume the English scale applies &mdash; check the current Welsh position directly before relying on a number.</p>
+<p><strong>Wales.</strong> QTS is required here too, and gained in England it is <strong>automatically recognised</strong> &mdash; but recognition is not registration. You must also register with the <strong>Education Workforce Council</strong>, which is a legal condition of doing the work, and then complete a period of induction before the EWC issues your certificate. Registration costs <strong>&pound;45 a year</strong>, and where you are on a contract your employer is obliged to deduct it from your salary. One trap for cross-border staff: <strong>QTLS is not recognised as a qualified school teacher qualification in Wales</strong>, even though it is in England.</p>
+
+<p>Wales sets its own pay through its own statutory document, and like Northern Ireland it has <strong>no M1</strong>. From 1 September 2025 the main pay scale runs <strong>&pound;33,731 at M2 to &pound;46,595 at M6</strong>, with an upper scale of <strong>&pound;48,304 to &pound;51,942</strong> and leading practitioners from &pound;52,939 to &pound;80,478. For 2026/27 the Welsh pay review body recommended <strong>4.25 per cent</strong>; the Welsh Government said that was not affordable and consulted instead on <strong>3.5 per cent</strong>, so the 2025/26 figures above remain the operative statutory ones.</p>
 
 <h2>A PGCE Is Not a Teaching Qualification</h2>
 
@@ -284,6 +286,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Academies and free schools set their own pay and conditions.</strong> The statutory document binds local authority maintained, foundation, voluntary aided and foundation special schools. With most secondary schools now academies, the scale above is a benchmark in much of the sector rather than a guarantee.</li>
+    <li><strong>Academies may still employ teachers without QTS &mdash; but not for much longer.</strong> That freedom has run since 2012. Section 53 of the <strong>Children's Wellbeing and Schools Act 2026</strong>, which received Royal Assent on 29 April 2026, extends the QTS requirement and statutory induction to specified primary and secondary academies. The Department for Education has said this applies from <strong>1 September 2027</strong>, and only to <strong>teachers employed on or after that date</strong> &mdash; it is not retrospective, and the substantive provision was not yet in force when this was written. Independent schools are unaffected.</li>
     <li><strong>Agency supply teachers are outside the document entirely.</strong> The agency sets the rate. Under the Agency Workers Regulations you become entitled to equal pay and basic conditions <strong>after 12 weeks</strong> in the same role with the same school or authority &mdash; and pay follows the job, so a qualified teacher engaged as a cover supervisor is paid as a cover supervisor.</li>
 </ul>
 

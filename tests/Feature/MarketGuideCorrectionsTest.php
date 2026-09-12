@@ -199,8 +199,15 @@ it('gives UK teachers the statutory scales and the border the qualification does
         ->toContain('Ghana, India or Nigeria')
         ->toContain('iQTS');
 
-    // Wales is left blank rather than guessed.
-    expect($content)->toContain('could not verify current Welsh pay figures');
+    // Wales: its own scale, its own regulator, and no M1 either.
+    expect($content)->toContain('&pound;33,731')
+        ->toContain('&pound;46,595')
+        ->toContain('Education Workforce Council')
+        ->toContain('QTLS is not recognised');
+
+    // The academy QTS freedom, and the date it ends.
+    expect($content)->toContain("Children's Wellbeing and Schools Act 2026")
+        ->toContain('1 September 2027');
 });
 
 it('keeps the UK day rate and hourly rate apart instead of averaging them', function () {
