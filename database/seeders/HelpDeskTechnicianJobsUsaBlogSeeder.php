@@ -321,6 +321,7 @@ JOBHTML;
     <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a> &mdash; the infrastructure work moving off the desk.</li>
     <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; support skills without the technical escalation.</li>
     <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; another entry-level office role facing automation.</li>
+    <li><a href="/blog/database-administrator-jobs-in-usa">Database Administrator Jobs in USA</a> &mdash; a specialism to aim at from the service desk.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers or financial advice. Pay, projections, certification exams and contract requirements change and differ between employers and states. Confirm the current position with the employer, the BLS and CompTIA before applying or paying for training.</p>

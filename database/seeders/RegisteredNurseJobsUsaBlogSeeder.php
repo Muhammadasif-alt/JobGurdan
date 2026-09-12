@@ -348,6 +348,7 @@ JOBHTML;
     <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; the Gulf route for nurses and the SCFHS licence.</li>
     <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; another entry into American work, with its own outlook problem.</li>
     <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a> &mdash; public service pay in America, state by state.</li>
+    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the clinical role most nurses pass through first, and what it pays.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, tax, careers or financial advice. Pay, licensing rules, exam fees, compact membership and immigration policy change and differ between states. Confirm the current position with the employer, your state board of nursing, NCSBN, the IRS and an immigration lawyer before applying.</p>

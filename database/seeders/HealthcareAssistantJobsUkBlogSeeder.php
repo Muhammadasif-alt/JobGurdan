@@ -366,6 +366,8 @@ JOBHTML;
     <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; another job care homes and hospitals hire for, priced against the legal minimum.</li>
     <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London</a> &mdash; entry-level work with no experience needed.</li>
     <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a> &mdash; hospital and care home housekeeping, and the NHS band it is paid on.</li>
+    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the closest American equivalent, and what it pays by setting.</li>
+    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; another UK public service career, with statutory pay and a two-year induction.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Pay awards, minimum wage rates, immigration rules and checking requirements change and differ between the four UK nations. Confirm the current position with the employer, NHS Employers, gov.uk and a regulated immigration adviser before applying.</p>

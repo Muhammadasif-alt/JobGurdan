@@ -155,6 +155,54 @@ it('shows medical assistants a pay range that does not stop below their own medi
         ->toContain('Basic Life Support');
 });
 
+it('gives UK teachers the statutory scales and the border the qualification does not cross', function () {
+    // The circulated starting salary is below the statutory minimum.
+    $content = guideContent('teaching-jobs-in-uk', Database\Seeders\TeachingJobsUkBlogSeeder::class);
+
+    expect($content)->toContain('&pound;34,069')
+        ->toContain('&pound;46,940')
+        ->toContain('&pound;41,729')
+        ->toContain('&pound;32,916')
+        ->toContain('it is an impossible one')
+        ->toContain('&pound;52,835')
+        ->toContain('&pound;148,829');
+
+    // NQT has not been the term since 2021, and induction doubled.
+    expect($content)->toContain('1 September 2021')
+        ->toContain('two years, not one')
+        ->toContain('early career teacher entitlement');
+
+    // QTS is not a UK-wide qualification.
+    expect($content)->toContain('will not make you eligible to teach in Scottish schools')
+        ->toContain('&pound;43,383')
+        ->toContain('&pound;54,453')
+        ->toContain('&pound;43,830')
+        ->toContain('no M1');
+
+    // A PGCE is not the qualification the law asks for.
+    expect($content)->toContain('does not by itself confer QTS');
+
+    // The contract terms and the two large exceptions to them.
+    expect($content)->toContain('1265 hours')
+        ->toContain('195 days')
+        ->toContain('Academies and free schools set their own pay')
+        ->toContain('after 12 weeks');
+
+    // A DBS certificate is a snapshot, and the fee is about to change.
+    expect($content)->toContain('no official expiry date')
+        ->toContain('5 October 2026');
+
+    // The pension, priced, and the 2026 recognition change.
+    expect($content)->toContain('1/57th')
+        ->toContain('28.68 per cent')
+        ->toContain('9 September 2026')
+        ->toContain('Ghana, India or Nigeria')
+        ->toContain('iQTS');
+
+    // Wales is left blank rather than guessed.
+    expect($content)->toContain('could not verify current Welsh pay figures');
+});
+
 it('keeps the UK day rate and hourly rate apart instead of averaging them', function () {
     // GBP 155 a day is self-employed turnover before the van; GBP 13.96 an
     // hour is employed pay with holiday and pension behind it.
@@ -1453,6 +1501,7 @@ it('resolves every internal link the new guides publish', function () {
         'retail-associate-jobs-in-usa',
         'database-administrator-jobs-in-usa',
         'medical-assistant-jobs-in-usa',
+        'teaching-jobs-in-uk',
     ];
 
     foreach ($guides as $guide) {

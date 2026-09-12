@@ -292,6 +292,13 @@ dataset('market guides', [
         'https://www.indeed.com/q-medical-assistant-jobs.html',
         'Medical Assistant',
     ],
+    'teaching uk' => [
+        'teaching-jobs-in-uk',
+        Database\Seeders\TeachingJobsUkBlogSeeder::class,
+        ['teaching-jobs-in-uk-classroom.jpg', 'teaching-jobs-in-uk-pupils.jpg'],
+        'https://uk.indeed.com/q-teacher-jobs.html',
+        'Teacher — Primary, Secondary',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {

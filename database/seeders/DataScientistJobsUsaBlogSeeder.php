@@ -346,6 +346,7 @@ JOBHTML;
     <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; how security clearances work, which gates a lot of government data science.</li>
     <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; another route where one job title covers several jobs.</li>
     <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; the same salary-reporting problems at the other end of the wage scale.</li>
+    <li><a href="/blog/database-administrator-jobs-in-usa">Database Administrator Jobs in USA</a> &mdash; who keeps the data you analyse available, and the certification that no longer exists.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, financial or immigration advice. Wage data, employment projections and visa rules change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics and the employer's own advertisement before applying or paying for any course.</p>
