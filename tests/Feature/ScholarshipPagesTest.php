@@ -6,6 +6,7 @@ use Database\Seeders\InsubriaScholarshipSeeder;
 use Database\Seeders\MelbourneRtpScholarshipSeeder;
 use Database\Seeders\MonashRtpScholarshipSeeder;
 use Database\Seeders\PaviaScholarshipSeeder;
+use Database\Seeders\PolytechnicMarcheScholarshipSeeder;
 use Database\Seeders\SydneyBusinessSchoolPhdScholarshipSeeder;
 use Database\Seeders\SydneyRtpDomesticScholarshipSeeder;
 use Database\Seeders\SydneyRtpInternationalScholarshipSeeder;
@@ -113,6 +114,7 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'melbourne' => [MelbourneRtpScholarshipSeeder::class, MelbourneRtpScholarshipSeeder::SLUG, 3],
     'pavia' => [PaviaScholarshipSeeder::class, PaviaScholarshipSeeder::SLUG, 3],
     'insubria' => [InsubriaScholarshipSeeder::class, InsubriaScholarshipSeeder::SLUG, 3],
+    'marche' => [PolytechnicMarcheScholarshipSeeder::class, PolytechnicMarcheScholarshipSeeder::SLUG, 2],
 ]);
 
 it('corrects what the Monash posters and brief get wrong', function () {
@@ -322,14 +324,37 @@ it('gives Insubria applicants the campuses, the fee floor and the IUPALS facts t
         ->not->toContain('IvyPanda');
 });
 
-it('links the two Italian guides to each other and from the Australian ones', function () {
-    foreach ([PaviaScholarshipSeeder::class, InsubriaScholarshipSeeder::class, MelbourneRtpScholarshipSeeder::class, SydneyRtpInternationalScholarshipSeeder::class] as $seeder) {
+it('gives Marche applicants the Ancona income limits, the closed call and the ranking the brief gets wrong', function () {
+    // The brief says founded 1969 and top-730 in QS, assumes the national
+    // ISEE ceilings rather than Marche's lower ones, reads the ERDIS room
+    // and meals as an extra on top of the grant, lists Fulbright and Tata
+    // as UNIVPM aid, and never mentions the visa money proof.
+    $this->seed(PolytechnicMarcheScholarshipSeeder::class);
+
+    expect(Scholarship::where('slug', PolytechnicMarcheScholarshipSeeder::SLUG)->value('content'))
+        ->toContain('ISEE of &euro;24,000 or less')
+        ->toContain('ISPE of &euro;50,000 or less')
+        ->toContain('closed on 28 August 2026')
+        ->toContain('120 scholarships of &euro;2,000')
+        ->toContain('deducted from the grant rather than added to it')
+        ->toContain('&euro;10,179.85')
+        ->toContain('&euro;16,243')
+        ->toContain('801 to 850')
+        ->toContain('90.6%')
+        ->toContain('18 January 1971')
+        ->toContain('not funded, awarded or administered by UNIVPM')
+        ->toContain('matches no published edition')
+        ->not->toContain('60122');
+});
+
+it('links the three Italian guides to each other and from the Australian ones', function () {
+    foreach ([PaviaScholarshipSeeder::class, InsubriaScholarshipSeeder::class, PolytechnicMarcheScholarshipSeeder::class, MelbourneRtpScholarshipSeeder::class, SydneyRtpInternationalScholarshipSeeder::class] as $seeder) {
         $this->seed($seeder);
     }
 
-    foreach ([PaviaScholarshipSeeder::SLUG, InsubriaScholarshipSeeder::SLUG] as $slug) {
+    foreach ([PaviaScholarshipSeeder::SLUG, InsubriaScholarshipSeeder::SLUG, PolytechnicMarcheScholarshipSeeder::SLUG] as $slug) {
         expect(Scholarship::where('slug', '!=', $slug)->where('content', 'like', '%/scholarships/'.$slug.'%')->count())
-            ->toBe(3, 'inbound links to '.$slug);
+            ->toBe(4, 'inbound links to '.$slug);
     }
 });
 

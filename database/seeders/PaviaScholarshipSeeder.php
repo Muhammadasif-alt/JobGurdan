@@ -278,7 +278,7 @@ class PaviaScholarshipSeeder extends Seeder
 <tr><td>Levels funded</td><td>Bachelor's, master's, PhD</td><td>Bachelor's, master's, PhD</td><td>PhD and research master's only</td></tr>
 </tbody>
 </table></div>
-<p>Pavia is the better-known name with far more English-taught choice; Insubria is smaller, newer and cheaper on the fixed tax. Read our <a href="/scholarships/university-of-insubria-scholarships">University of Insubria scholarships guide</a> for the comparison, and our <a href="/scholarships/monash-university-rtp-scholarship">Monash RTP</a>, <a href="/scholarships/australian-national-university-rtp-scholarship">ANU RTP</a> and <a href="/scholarships/university-of-sydney-rtp-international-scholarship">Sydney RTP International</a> guides if a funded PhD abroad is what you are really after.</p>
+<p>Pavia is the better-known name with far more English-taught choice; Insubria is smaller, newer and cheaper on the fixed tax. Read our <a href="/scholarships/university-of-insubria-scholarships">University of Insubria scholarships guide</a> and our <a href="/scholarships/polytechnic-university-of-marche-scholarships">Polytechnic University of Marche scholarships guide</a> for the comparison, and our <a href="/scholarships/monash-university-rtp-scholarship">Monash RTP</a>, <a href="/scholarships/australian-national-university-rtp-scholarship">ANU RTP</a> and <a href="/scholarships/university-of-sydney-rtp-international-scholarship">Sydney RTP International</a> guides if a funded PhD abroad is what you are really after.</p>
 
 <h2>Frequently Asked Questions</h2>
 
