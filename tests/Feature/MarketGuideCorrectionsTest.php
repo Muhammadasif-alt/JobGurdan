@@ -50,6 +50,68 @@ it('prices the retail associate job by percentile instead of the range every gui
 
     // Cashier is a separate occupation at a lower median.
     expect($content)->toContain('$15.81');
+
+    // Only what the retailers publish themselves, and the gaps where they
+    // publish nothing at all.
+    expect($content)->toContain('$15 to $24 an hour')
+        ->toContain('more than $18.50')
+        ->toContain('$15 minimum set in August 2020')
+        ->toContain('publish no company-wide hourly figure at all');
+
+    // The education benefit and the hours threshold behind health cover.
+    expect($content)->toContain('100 per cent of tuition and books')
+        ->toContain('Target sets eligibility at 25 hours a week')
+        ->toContain('60-day measurement period');
+
+    // "Hired within days" is not a claim any large retailer makes.
+    expect($content)->toContain('respond to applicants within a week')
+        ->toContain('expire after 90 days')
+        ->toContain('Plan for weeks rather than days');
+});
+
+it('tells database administrators the AWS certification is gone and prices the job it is actually for', function () {
+    // The draft recommends an exam that cannot be sat: AWS withdrew it and
+    // named no successor.
+    $content = guideContent('database-administrator-jobs-in-usa', Database\Seeders\DatabaseAdministratorJobsUsaBlogSeeder::class);
+
+    expect($content)->toContain('29 April 2024')
+        ->toContain('AWS has not named a replacement');
+
+    // The circulated band covers the middle half only.
+    expect($content)->toContain('$60,230')
+        ->toContain('$79,610')
+        ->toContain('$104,620')
+        ->toContain('$135,460')
+        ->toContain('$163,320');
+
+    // The figure most sites quote belongs to the combined OOH group.
+    expect($content)->toContain('$126,760')
+        ->toContain('Database Administrators and Architects')
+        ->toContain('$139,500')
+        ->toContain('$204,000');
+
+    // "Growing demand" measured, and set against its own sector.
+    expect($content)->toContain('4 per cent')
+        ->toContain('3.5 per cent')
+        ->toContain('7.3 per cent')
+        ->toContain('7,300');
+
+    // Healthcare pays below the occupational mean, contrary to every draft.
+    expect($content)->toContain('$107,630')
+        ->toContain('$98,000')
+        ->toContain('$110,090');
+
+    // The regimes that actually bind a US database administrator.
+    expect($content)->toContain('$26,625,000')
+        ->toContain('PCI DSS is not a law')
+        ->toContain('Article 3(2)');
+
+    // Certification names that have changed, and one that never existed.
+    expect($content)->toContain('Oracle AI Database Administration Certified Professional')
+        ->toContain('no official PostgreSQL certification');
+
+    // Remote share is unmeasured rather than invented.
+    expect($content)->toContain('BLS publishes no telework rate');
 });
 
 it('keeps the UK day rate and hourly rate apart instead of averaging them', function () {
@@ -1348,6 +1410,7 @@ it('resolves every internal link the new guides publish', function () {
         'no-experience-jobs-in-australia',
         'kitchen-helper-jobs-in-saudi-arabia',
         'retail-associate-jobs-in-usa',
+        'database-administrator-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {

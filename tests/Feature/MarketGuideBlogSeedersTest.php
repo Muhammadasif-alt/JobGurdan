@@ -278,6 +278,13 @@ dataset('market guides', [
         'https://www.indeed.com/q-retail-associate-jobs.html',
         'Retail Associate',
     ],
+    'database administrator usa' => [
+        'database-administrator-jobs-in-usa',
+        Database\Seeders\DatabaseAdministratorJobsUsaBlogSeeder::class,
+        ['database-administrator-jobs-in-usa-schema.jpg', 'database-administrator-jobs-in-usa-monitoring.jpg'],
+        'https://www.indeed.com/q-database-administrator-jobs.html',
+        'Database Administrator',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {

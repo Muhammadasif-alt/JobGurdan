@@ -248,6 +248,47 @@ JOBHTML;
     <li><strong>Basic systems confidence.</strong> A register, a handheld scanner, an app for your schedule.</li>
 </ul>
 
+<h2>What the Big Chains Actually Publish</h2>
+
+<p>Almost every figure you will read about retailer pay comes from third-party salary sites. Here is only what the companies publish themselves, which is less than you would expect and tells you something in itself:</p>
+
+<ul>
+    <li><strong>Target</strong> publishes a starting range of <strong>$15 to $24 an hour</strong> and an average frontline wage <strong>above $18.50</strong>, on a fact sheet it dates and updates &mdash; the most citable document any large US retailer publishes.</li>
+    <li><strong>Walmart</strong> publishes an average of <strong>more than $18.50 an hour</strong> for frontline associates, with starting rates from <strong>$14</strong> depending on role and store. Its pages carry no publication date.</li>
+    <li><strong>Amazon</strong> publishes an average of <strong>more than $23 an hour</strong> for fulfilment and transportation staff, though a second Amazon page still shows a lower minimum and average. Cite the press release, not the evergreen page.</li>
+    <li><strong>Best Buy</strong>'s most recent official wage figure is a <strong>$15 minimum set in August 2020</strong>. Nothing newer appears in its own newsroom.</li>
+    <li><strong>Aldi</strong> publishes rates only inside individual postings &mdash; commonly <strong>$19.00</strong> full time and <strong>$17.00</strong> part time in stores &mdash; and is the one chain that states a <strong>minimum age of 18</strong>, with a diploma "preferred".</li>
+    <li><strong>Costco, Home Depot and Trader Joe's publish no company-wide hourly figure at all.</strong> Costco is routinely named the best payer in American retail on numbers it does not itself publish.</li>
+</ul>
+
+<p>Two practical conclusions. First, <strong>a chain that publishes a dated range is telling you something a chain that publishes nothing is not</strong>. Second, none of the eight largest retailers publishes a minimum hiring age except Aldi, and <strong>neither Walmart's nor Target's entry-level store postings list a diploma requirement</strong> &mdash; which matches what BLS records for the occupation.</p>
+
+<h2>The Benefit Worth More Than a Dollar an Hour</h2>
+
+<p>On a job at this pay level, the education benefit is frequently the most valuable line in the offer, and several chains extend it to part-time staff:</p>
+
+<ul>
+    <li><strong>Walmart's Live Better U</strong> pays <strong>100 per cent of tuition and books</strong>, for part-time as well as full-time associates, <strong>from day one</strong>.</li>
+    <li><strong>Target's Dream to Be</strong> covers around 500 programmes across more than 40 schools, including textbooks and course fees, <strong>part-time or full-time, from the first day</strong>.</li>
+    <li><strong>Amazon's Career Choice</strong> pre-pays tuition and is open to part-time staff <strong>after 90 days</strong>.</li>
+    <li><strong>Home Depot</strong> reimburses tuition for part-time associates up to <strong>$1,500 a year</strong>, at up to half of eligible costs.</li>
+</ul>
+
+<p>The healthcare threshold is where the chains genuinely differ, and it is the question to ask at interview. <strong>Target sets eligibility at 25 hours a week. Walmart requires an average of 30 hours across a 60-day measurement period.</strong> Five hours a week decides whether the job comes with health cover.</p>
+
+<h2>"Hired Within Days" Is Not What the Retailers Say</h2>
+
+<p>It is the single most repeated claim about retail hiring, and no large retailer supports it in its own words.</p>
+
+<ul>
+    <li><strong>Walmart</strong> says only that it aims to <strong>respond to applicants within a week</strong> of submission &mdash; a reply, not a start date.</li>
+    <li><strong>Target</strong> publishes a six-stage hiring process with <strong>no duration attached to any stage</strong>.</li>
+    <li><strong>Costco</strong> goes the other way: applications <strong>expire after 90 days</strong>, and it advises reapplying if you have not heard back in that time.</li>
+    <li>The one official example of fast hiring is <strong>Home Depot</strong>, which said in <strong>2022</strong> that applicants could receive an offer within a day. That is one chain, and four years old.</li>
+</ul>
+
+<p>Plan for weeks rather than days, apply to several employers at once, and treat a same-week offer as a good outcome rather than the norm.</p>
+
 <h2>The Promotion Ladder Is Real, and Narrower Than It Sounds</h2>
 
 <p>"Many store managers started as associates" is true, and worth pricing rather than repeating. The first rung up is <strong>first-line supervisor of retail sales workers</strong>, and BLS measures it at a median of <strong>$23.33 an hour</strong>, or <strong>$48,520</strong> a year.</p>
