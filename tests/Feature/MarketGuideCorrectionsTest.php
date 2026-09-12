@@ -114,6 +114,47 @@ it('tells database administrators the AWS certification is gone and prices the j
     expect($content)->toContain('BLS publishes no telework rate');
 });
 
+it('shows medical assistants a pay range that does not stop below their own median', function () {
+    // The circulated ceiling of $45,000 sits under the $45,690 median.
+    $content = guideContent('medical-assistant-jobs-in-usa', Database\Seeders\MedicalAssistantJobsUsaBlogSeeder::class);
+
+    expect($content)->toContain('$36,050')
+        ->toContain('$45,690')
+        ->toContain('$49,180')
+        ->toContain('$59,310')
+        ->toContain('earn more than the figure most guides give as their ceiling');
+
+    // Outpatient care centres outpay hospitals, and the largest setting pays
+    // least of the three.
+    expect($content)->toContain('$53,130')
+        ->toContain('$47,660')
+        ->toContain('$45,060')
+        ->toContain('55.3 per cent');
+
+    // The growth figure the draft leaves as an adjective.
+    expect($content)->toContain('13 per cent')
+        ->toContain('3.5 per cent')
+        ->toContain('109,700');
+
+    // The step up, priced.
+    expect($content)->toContain('$64,400')
+        ->toContain('$97,550');
+
+    // Certification is gated by the programme, not earned by time served.
+    expect($content)->toContain('There is no work-experience route')
+        ->toContain('CAAHEP')
+        ->toContain('ABHES');
+
+    // Scope of practice is delegated, and the states diverge sharply.
+    expect($content)->toContain('no state licenses medical assistants')
+        ->toContain('finger or heel stick')
+        ->toContain('invasive or requires assessment');
+
+    // Two things the draft never says.
+    expect($content)->toContain('does not meet the H-1B specialty occupation standard')
+        ->toContain('Basic Life Support');
+});
+
 it('keeps the UK day rate and hourly rate apart instead of averaging them', function () {
     // GBP 155 a day is self-employed turnover before the van; GBP 13.96 an
     // hour is employed pay with holiday and pension behind it.
@@ -1411,6 +1452,7 @@ it('resolves every internal link the new guides publish', function () {
         'kitchen-helper-jobs-in-saudi-arabia',
         'retail-associate-jobs-in-usa',
         'database-administrator-jobs-in-usa',
+        'medical-assistant-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {

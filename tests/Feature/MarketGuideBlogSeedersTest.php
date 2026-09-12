@@ -285,6 +285,13 @@ dataset('market guides', [
         'https://www.indeed.com/q-database-administrator-jobs.html',
         'Database Administrator',
     ],
+    'medical assistant usa' => [
+        'medical-assistant-jobs-in-usa',
+        Database\Seeders\MedicalAssistantJobsUsaBlogSeeder::class,
+        ['medical-assistant-jobs-in-usa-patient-care.jpg', 'medical-assistant-jobs-in-usa-clinic.jpg'],
+        'https://www.indeed.com/q-medical-assistant-jobs.html',
+        'Medical Assistant',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {
