@@ -364,6 +364,7 @@ JOBHTML;
     <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; sponsored trade work in the Gulf.</li>
     <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; a licensed Gulf role, and the licence that only covers one emirate.</li>
     <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; another state-registered occupation in real estate sales, and the entry-level certificate each state names differently.</li>
+    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a> &mdash; where a trade licence attaches to the contractor, not the tradesperson.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, migration or financial advice. Award rates, licensing rules, mutual recognition arrangements and visa requirements change, and pay figures on any job board are a moving average rather than a statistic. Confirm the current position with the Fair Work Ombudsman, your state plumbing regulator and the employer's own advertisement before applying.</p>

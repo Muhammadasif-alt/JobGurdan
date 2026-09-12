@@ -353,6 +353,7 @@ JOBHTML;
     <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; the commission side of the Australian market, and what the awards say about commission-only pay.</li>
     <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; a certified trade in another Commonwealth market, and where its licence is compulsory.</li>
     <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; entry-level award rates from 1 July 2026, junior rates and the tickets site work needs.</li>
+    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a> &mdash; the American version of the same trade, and who actually needs a licence.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, migration or financial advice. Award rates, the national minimum wage, superannuation rules and visa conditions change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Fair Work Ombudsman, the Department of Home Affairs and the employer's own advertisement before applying.</p>

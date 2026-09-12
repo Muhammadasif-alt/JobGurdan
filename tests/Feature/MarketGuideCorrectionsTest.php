@@ -210,6 +210,49 @@ it('gives UK teachers the statutory scales and the border the qualification does
         ->toContain('1 September 2027');
 });
 
+it('tells carpenters that OSHA certifies nobody and that a quarter of the trade works for itself', function () {
+    // The quoted band stops around the 57th percentile.
+    $content = guideContent('carpenter-jobs-in-usa', Database\Seeders\CarpenterJobsUsaBlogSeeder::class);
+
+    expect($content)->toContain('$40,410')
+        ->toContain('$48,510')
+        ->toContain('$60,580')
+        ->toContain('$76,830')
+        ->toContain('$99,910')
+        ->toContain('$65,630')
+        ->toContain('57th percentile');
+
+    // The structural fact every carpenter guide omits.
+    expect($content)->toContain('25 per cent of carpenters are self-employed')
+        ->toContain('670,090')
+        ->toContain('889,700')
+        ->toContain('219,610');
+
+    // OSHA does not certify workers, but several jurisdictions mandate the card.
+    expect($content)->toContain('Outreach Training Program is considered a certification')
+        ->toContain('within 15 days of being hired')
+        ->toContain('Site Safety Training card showing at least 40 hours');
+
+    // Licensing attaches to the business, not the carpenter.
+    expect($content)->toContain('carpentry is not among them')
+        ->toContain('C-5 Framing and Rough Carpentry')
+        ->toContain('no dollar threshold at all');
+
+    // Apprenticeship figures stated as typical, and the union claim unsourced.
+    expect($content)->toContain('8,000')
+        ->toContain('144 hours')
+        ->toContain('publishes no wage figures');
+
+    // The visa route the posters advertise is the wrong one.
+    expect($content)->toContain('fails that test on its face')
+        ->toContain('66,000 a year');
+
+    // The risk the draft never mentions.
+    expect($content)->toContain('7.5 per 100,000')
+        ->toContain('51 of those 89 deaths')
+        ->toContain('62,800');
+});
+
 it('keeps the UK day rate and hourly rate apart instead of averaging them', function () {
     // GBP 155 a day is self-employed turnover before the van; GBP 13.96 an
     // hour is employed pay with holiday and pension behind it.
@@ -1509,6 +1552,7 @@ it('resolves every internal link the new guides publish', function () {
         'database-administrator-jobs-in-usa',
         'medical-assistant-jobs-in-usa',
         'teaching-jobs-in-uk',
+        'carpenter-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {

@@ -299,6 +299,13 @@ dataset('market guides', [
         'https://uk.indeed.com/q-teacher-jobs.html',
         'Teacher — Primary, Secondary',
     ],
+    'carpenter usa' => [
+        'carpenter-jobs-in-usa',
+        Database\Seeders\CarpenterJobsUsaBlogSeeder::class,
+        ['carpenter-jobs-in-usa-framing.jpg', 'carpenter-jobs-in-usa-deck.jpg'],
+        'https://www.indeed.com/q-carpenter-jobs.html',
+        'Carpenter — Framing',
+    ],
 ]);
 
 it('publishes the guide with its own images and SEO fields', function (string $slug, string $seeder, array $inline) {

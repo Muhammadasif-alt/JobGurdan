@@ -337,6 +337,7 @@ JOBHTML;
     <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; a licensed trade, and what the licence takes.</li>
     <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; trades sponsorship across the border.</li>
     <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; another Canadian job, with a Good outlook in most provinces and pay that depends on the city.</li>
+    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a> &mdash; a trade entered by paid apprenticeship rather than certification.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, trade certification rules, LMIA thresholds and Express Entry draws change often. Confirm the current position with the employer, the provincial apprenticeship authority, Job Bank and IRCC, or a licensed immigration consultant, before applying.</p>
