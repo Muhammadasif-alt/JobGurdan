@@ -310,6 +310,7 @@ JOBHTML;
     <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; the qualified trade route out of entry-level UK work.</li>
     <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; kitchen work across the UK, and why an &pound;18,000 cook salary is below the legal minimum.</li>
     <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a> &mdash; hotel, hospital and private household housekeeping, and what live-in accommodation can cost.</li>
+    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a> &mdash; the shop floor route, and why the pay figures everyone quotes are below the law.</li>
 </ul>
 
 <div style="text-align:center;margin:32px 0;">

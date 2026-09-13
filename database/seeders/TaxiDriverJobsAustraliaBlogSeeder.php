@@ -327,6 +327,7 @@ JOBHTML;
     <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a></li>
     <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a></li>
     <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a></li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a></li>
 </ul>
 HTML;
     }

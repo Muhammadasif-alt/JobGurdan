@@ -308,6 +308,7 @@ JOBHTML;
     <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; the licensed end of the same labour market.</li>
     <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; kitchen work in Britain, and what the law says about tips.</li>
     <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; seasonal hospitality routes on the other side of the world.</li>
+    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a> &mdash; which entry-level roles are still open to foreign workers, and what protects the wage.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Saudi labour rules, localization decisions and referral wages change. Confirm current requirements with the Ministry of Human Resources and Social Development, the Qiwa and Balady platforms, or your own country's emigration authority, before paying any fee or signing a contract.</p>

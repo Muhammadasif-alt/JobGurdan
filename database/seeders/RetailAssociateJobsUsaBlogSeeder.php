@@ -378,6 +378,7 @@ JOBHTML;
     <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest answer on entry-level US sponsorship.</li>
     <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; the same first job under award wages instead of state minimums.</li>
     <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; shop-floor work where pay is set by job level rather than by state.</li>
+    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a> &mdash; the shop floor route, and why the pay figures everyone quotes are below the law.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, legal or immigration advice. Minimum wage rates, wage survey figures, employment projections and employer benefits change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics, the US Department of Labor, your state labor department and the employer's own advertisement before applying.</p>

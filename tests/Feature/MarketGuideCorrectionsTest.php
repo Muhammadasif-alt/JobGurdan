@@ -74,6 +74,71 @@ it('tells Australian taxi drivers the NSW authority was abolished and that no sa
     expect($content)->toContain('does not appear on the Core Skills Occupation List');
 });
 
+it('corrects the renamed visa and the occupation list errors in the Australia sponsorship guide', function () {
+    // The draft calls 482 the TSS visa and treats one "Skilled Occupation List"
+    // as governing everything, including the route to permanent residence.
+    $content = guideContent('visa-sponsorship-jobs-in-australia', Database\Seeders\VisaSponsorshipJobsAustraliaBlogSeeder::class);
+
+    expect($content)->toContain('Skills in Demand')
+        ->toContain('Core Skills Occupation List')
+        ->toContain('Medium and Long-term Strategic Skills List')
+        ->toContain('Regional Occupation List')
+        // Home Affairs states the transition streams have no occupation list.
+        ->toContain('do not have an occupation list')
+        ->toContain('most recently held temporary skilled visa')
+        // TSMIT is not the threshold that applies to a 482 nomination.
+        ->toContain('Core Skills Income Threshold')
+        ->toContain('annual market salary rate')
+        ->toContain('legislative instrument')
+        ->toContain('caveat')
+        ->toContain('up to 4 years');
+
+    // The draft's AUD salary bands are not attributable to an official source.
+    expect($content)->not->toContain('70,000')
+        ->not->toContain('110,000');
+});
+
+it('corrects the Saudization and minimum wage errors in the Saudi no experience guide', function () {
+    // The draft sends foreign readers at the one job category being closed to
+    // them, and presents a salary range as though it were a legal floor.
+    $content = guideContent('no-experience-jobs-in-saudi-arabia', Database\Seeders\NoExperienceJobsSaudiBlogSeeder::class);
+
+    expect($content)->toContain('60 per cent')
+        ->toContain('19/01/2026')
+        ->toContain('Retail Sales Representative')
+        // No statutory minimum wage applies to expatriate private-sector workers.
+        ->toContain('no statutory minimum wage for expatriate private-sector workers')
+        ->toContain('SAR 4,000')
+        ->toContain('SAR 3,000')
+        // A wage floor exists only where a specific decision creates one.
+        ->toContain('SAR 5,500')
+        // "Kafala-based" describes the system before the 2021 reforms.
+        ->toContain('14 March 2021')
+        ->toContain('Domestic workers and farm workers')
+        ->toContain('Wage Protection System')
+        ->toContain('Hadaf');
+});
+
+it('corrects the below-minimum pay figures in the UK store assistant guide', function () {
+    // The draft quotes an hourly range and an annual range that both sit below
+    // the National Living Wage for a full-time adult employee.
+    $content = guideContent('store-assistant-jobs-in-uk', Database\Seeders\StoreAssistantJobsUkBlogSeeder::class);
+
+    expect($content)->toContain('12.71')
+        ->toContain('23,132.20')
+        ->toContain('24,784.50')
+        ->toContain('26,436.80')
+        // The age-related rates matter in an article aimed at first jobs.
+        ->toContain('10.85')
+        ->toContain('8.00')
+        ->toContain('39,039')
+        // Perks cannot be used to reach the minimum wage.
+        ->toContain('cannot count towards the minimum wage')
+        // Flexible working is a right to ask, not a feature of the rota.
+        ->toContain('eight business reasons')
+        ->toContain('6 April 2024');
+});
+
 it('corrects the unlawful pay band and the dead tax relief in the UK work from home guide', function () {
     // The quoted entry-level band is below the legal minimum for full-time work.
     $content = guideContent('work-from-home-jobs-in-uk', Database\Seeders\WorkFromHomeJobsUkBlogSeeder::class);
@@ -1673,6 +1738,9 @@ it('resolves every internal link the new guides publish', function () {
         'carpenter-jobs-in-usa',
         'taxi-driver-jobs-in-australia',
         'work-from-home-jobs-in-uk',
+        'visa-sponsorship-jobs-in-australia',
+        'no-experience-jobs-in-saudi-arabia',
+        'store-assistant-jobs-in-uk',
     ];
 
     foreach ($guides as $guide) {
