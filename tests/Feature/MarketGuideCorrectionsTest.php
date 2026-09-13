@@ -1692,6 +1692,30 @@ it('wires every new guide into the existing cluster in both directions', functio
     }
 });
 
+it('answers the shortage claim and prices the CDL guide off the federal wage data', function () {
+    // The draft is built on an "ongoing driver shortage" and quotes $50,000
+    // to $75,000, with $80,000 to $100,000+ for specialised work. The BLS
+    // median is $58,640 and the top decile starts at $79,380, and the Labor
+    // Department's own journal disputes the shortage. The draft also treats
+    // CDL school as a preference, omits the age rule that decides what work
+    // an applicant can take, and gives no hours-of-service limit at all.
+    $this->seed(Database\Seeders\CdlDriverJobsUsaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'cdl-driver-jobs-in-usa')->value('content'))
+        ->toContain('58,640')
+        ->toContain('40,140')
+        ->toContain('79,380')
+        ->toContain('2,221,200')
+        ->toContain('4 per cent from 2025 to 2035')
+        ->toContain('does not find evidence of a secular shortage')
+        ->toContain('7 February 2022')
+        ->toContain('Training Provider Registry')
+        ->toContain('Safe Driver Apprenticeship Pilot')
+        ->toContain('11 hours, after 10 consecutive hours off duty')
+        ->toContain('49 CFR Part 1572')
+        ->toContain('Drug and Alcohol Clearinghouse');
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -1764,6 +1788,7 @@ it('resolves every internal link the new guides publish', function () {
         'no-experience-jobs-in-saudi-arabia',
         'store-assistant-jobs-in-uk',
         'qa-tester-jobs-in-canada',
+        'cdl-driver-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {

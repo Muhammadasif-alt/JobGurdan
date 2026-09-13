@@ -328,6 +328,7 @@ JOBHTML;
     <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a></li>
     <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a></li>
     <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a></li>
+    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a></li>
 </ul>
 HTML;
     }

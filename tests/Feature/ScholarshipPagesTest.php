@@ -10,6 +10,7 @@ use Database\Seeders\PolytechnicMarcheScholarshipSeeder;
 use Database\Seeders\SydneyBusinessSchoolPhdScholarshipSeeder;
 use Database\Seeders\SydneyRtpDomesticScholarshipSeeder;
 use Database\Seeders\SydneyRtpInternationalScholarshipSeeder;
+use Database\Seeders\YesProgramPakistanScholarshipSeeder;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Cache;
 
@@ -115,7 +116,31 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'pavia' => [PaviaScholarshipSeeder::class, PaviaScholarshipSeeder::SLUG, 3],
     'insubria' => [InsubriaScholarshipSeeder::class, InsubriaScholarshipSeeder::SLUG, 3],
     'marche' => [PolytechnicMarcheScholarshipSeeder::class, PolytechnicMarcheScholarshipSeeder::SLUG, 2],
+    'yes pakistan' => [YesProgramPakistanScholarshipSeeder::class, YesProgramPakistanScholarshipSeeder::SLUG, 2],
 ]);
+
+it('corrects the length, the departure date and the "100% free" claim on the YES posters', function () {
+    // All four posters say "One Year", three say "April 2027 Departure" and
+    // every one of them says "YOUR COST: $0 (100% FREE!)". The round open now
+    // is a January-June 2027 semester, and the passport and medical costs fall
+    // on the family. The brief also gives a state.gov contact address.
+    $this->seed(YesProgramPakistanScholarshipSeeder::class);
+
+    expect(Scholarship::where('slug', YesProgramPakistanScholarshipSeeder::SLUG)->value('content'))
+        ->toContain('Spring 2027 semester')
+        ->toContain('January 2027')
+        ->toContain('June 2027')
+        ->toContain('about six months, not a year')
+        ->toContain('15 September 2026')
+        ->toContain('1 January 2010 and 1 January 2012')
+        ->toContain('publishes a cash value for a YES place')
+        ->toContain('info@yesprogram.pk')
+        ->toContain('more than 1,000 Pakistani students')
+        // The wrong claims are quoted once, to be knocked down: a reader
+        // holding the poster has to recognise what they are holding.
+        ->toContain('are describing something that is not on offer')
+        ->toContain('is not the programme\'s Pakistani contact');
+});
 
 it('corrects what the Monash posters and brief get wrong', function () {
     // Round 3 had already closed, IELTS 6.5 is not every faculty's minimum,
