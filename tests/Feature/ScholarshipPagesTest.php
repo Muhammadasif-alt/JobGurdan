@@ -2,6 +2,7 @@
 
 use App\Models\Scholarship;
 use Database\Seeders\AnuRtpScholarshipSeeder;
+use Database\Seeders\AustraliaScholarshipsWithoutIeltsScholarshipSeeder;
 use Database\Seeders\InsubriaScholarshipSeeder;
 use Database\Seeders\MelbourneRtpScholarshipSeeder;
 use Database\Seeders\MonashRtpScholarshipSeeder;
@@ -117,7 +118,41 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'insubria' => [InsubriaScholarshipSeeder::class, InsubriaScholarshipSeeder::SLUG, 3],
     'marche' => [PolytechnicMarcheScholarshipSeeder::class, PolytechnicMarcheScholarshipSeeder::SLUG, 2],
     'yes pakistan' => [YesProgramPakistanScholarshipSeeder::class, YesProgramPakistanScholarshipSeeder::SLUG, 2],
+    'australia without ielts' => [AustraliaScholarshipsWithoutIeltsScholarshipSeeder::class, AustraliaScholarshipsWithoutIeltsScholarshipSeeder::SLUG, 2],
 ]);
+
+it('replaces the "no IELTS" promise with the English rules each Australian award really sets', function () {
+    // The brief and posters say no language test is needed, list Duolingo,
+    // quote a stale Australia Awards allowance and RMIT stipend, sell
+    // Destination Australia as open and call Deakin's 20% award STEM-only.
+    $this->seed(AustraliaScholarshipsWithoutIeltsScholarshipSeeder::class);
+
+    $scholarship = Scholarship::where('slug', AustraliaScholarshipsWithoutIeltsScholarshipSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->content)
+        ->toContain('overall score of at least 6.5, with no band less than 6.0')
+        ->toContain('TOEFL score of at least 84')
+        ->toContain('PTE Academic overall score of 58')
+        ->toContain('first language is English and you were educated in English')
+        ->toContain('AUD $99.26 a day')
+        ->toContain('AUD $36,230 a year')
+        ->toContain('within half a point of IELTS 6.5')
+        ->toContain('does not accept scores from these tests or other at-home or online tests')
+        ->toContain('Duolingo English Test')
+        ->toContain('$36,245 a year')
+        ->toContain('$15,000 a year')
+        ->toContain('20 per cent fee sponsorship')
+        ->toContain('US$10,000 or less')
+        ->toContain('It is not limited to STEM courses')
+        ->toContain('no further funding rounds of the program from 1 July 2024')
+        ->toContain('/scholarships/'.MonashRtpScholarshipSeeder::SLUG)
+        ->toContain('/scholarships/'.AnuRtpScholarshipSeeder::SLUG)
+        ->toContain('/scholarships/'.MelbourneRtpScholarshipSeeder::SLUG)
+        ->toContain('/scholarships/'.SydneyRtpInternationalScholarshipSeeder::SLUG)
+        ->not->toContain('{monash}');
+
+    expect($scholarship->deadlineLabel())->toBe('Varies by scholarship: see the deadlines table');
+});
 
 it('corrects the length, the departure date and the "100% free" claim on the YES posters', function () {
     // All four posters say "One Year", three say "April 2027 Departure" and
