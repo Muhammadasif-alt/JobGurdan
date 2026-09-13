@@ -95,7 +95,7 @@ class AustraliaScholarshipsWithoutIeltsScholarshipSeeder extends Seeder
                 'meta_title' => 'Australia Scholarships Without IELTS: What Is True in 2026',
                 'meta_description' => 'Australia scholarships without IELTS: the tests Australia Awards and universities accept, why Duolingo fails the Student visa, and 2026 rates.',
                 'status' => 'published',
-                'is_featured' => false,
+                'is_featured' => true,
                 'published_at' => Carbon::parse('2026-09-13 18:30:00'),
             ]
         );
