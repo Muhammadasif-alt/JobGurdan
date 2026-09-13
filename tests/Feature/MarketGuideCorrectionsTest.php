@@ -1747,6 +1747,34 @@ it('replaces the online jobs draft claims with the index, fees, SBP rules, tax r
         ->toContain("Active Taxpayers' List");
 });
 
+it('replaces the mechanic draft pay bands and benefit claims with the skills test and the Labour Law articles', function () {
+    // The draft quotes unsourced SAR bands, calls the pre-visa step a mere
+    // attestation, and lists housing, transport and tickets as standard. On
+    // record: the ministry's Professional Examination names automotive
+    // mechanics, Article 40 puts recruitment costs on the employer, Articles
+    // 147 and 148 limit housing and transport duties to certain workplaces,
+    // SAR 4,000 is a Nitaqat rule for Saudis, and BE&OE licensing protects
+    // Pakistani applicants.
+    $this->seed(Database\Seeders\MechanicJobsSaudiBlogSeeder::class);
+
+    expect(Blog::where('slug', 'mechanic-jobs-in-saudi-arabia')->value('content'))
+        ->toContain('automotive mechanics')
+        ->toContain('first launched in Pakistan, India and Bangladesh')
+        ->toContain('12 July 2023')
+        ->toContain('five specialisations out of 23 targeted by the ministry')
+        ->toContain('additional requirement for the worker during the recruitment process')
+        ->toContain('Article 89 says only that the Council of Ministers may set a minimum wage')
+        ->toContain('23 November 2020')
+        ->toContain('Nitaqat Saudization calculation')
+        ->toContain('the fees for a change of profession')
+        ->toContain('not less than 21 days a year')
+        ->toContain('remote locations, mines, quarries and oil exploration centres')
+        ->toContain('Article 40 covers the ticket home at the end of the contract')
+        ->toContain('one third after two to five years')
+        ->toContain('valid OEP licence list')
+        ->toContain('Rule 29(4) of the Emigration Rules, 1979');
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -1821,6 +1849,7 @@ it('resolves every internal link the new guides publish', function () {
         'qa-tester-jobs-in-canada',
         'cdl-driver-jobs-in-usa',
         'online-jobs-in-pakistan',
+        'mechanic-jobs-in-saudi-arabia',
     ];
 
     foreach ($guides as $guide) {
