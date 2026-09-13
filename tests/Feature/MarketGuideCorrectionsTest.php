@@ -1716,6 +1716,37 @@ it('answers the shortage claim and prices the CDL guide off the federal wage dat
         ->toContain('Drug and Alcohol Clearinghouse');
 });
 
+it('replaces the online jobs draft claims with the index, fees, SBP rules, tax rates and wage floors on record', function () {
+    // The draft calls Pakistan a top freelancing country, quotes PKR earnings
+    // bands with no source, lists the platforms without their fees and says
+    // nothing about PayPal, State Bank accounts or tax. What is on record is a
+    // 2019 growth ranking, Fiverr's 20 per cent and Upwork's 0 to 15 per cent,
+    // the SBP freelancer framework and its 2026 update, and the section 154A
+    // rates that PSEB registration and the Active Taxpayers' List decide.
+    $this->seed(Database\Seeders\OnlineJobsPakistanBlogSeeder::class);
+
+    expect(Blog::where('slug', 'online-jobs-in-pakistan')->value('content'))
+        ->toContain('24 August 2019')
+        ->toContain('fourth fastest-growing freelance market')
+        ->toContain('47 per cent growth in freelance earnings')
+        ->toContain('PKR 43,000')
+        ->toContain('PKR 45,000')
+        ->toContain('Freelance income has no minimum at all')
+        ->toContain("Fiverr's commission is 20 per cent of the order amount")
+        ->toContain('0 per cent to 15 per cent per contract')
+        ->toContain('does not include Pakistan')
+        ->toContain('BPRD Circular No. 5 of 2023')
+        ->toContain('50 per cent of export proceeds or USD 5,000 a month, whichever is higher')
+        ->toContain('from 35 per cent to 50 per cent')
+        ->toContain('one-time declaration')
+        ->toContain('one working day')
+        ->toContain('above US$25,000')
+        ->toContain('0.25 per cent for persons registered with the Pakistan Software Export Board and 1 per cent otherwise')
+        ->toContain('tax years 2024 to 2026')
+        ->toContain('extends that end year to 2029')
+        ->toContain("Active Taxpayers' List");
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -1789,6 +1820,7 @@ it('resolves every internal link the new guides publish', function () {
         'store-assistant-jobs-in-uk',
         'qa-tester-jobs-in-canada',
         'cdl-driver-jobs-in-usa',
+        'online-jobs-in-pakistan',
     ];
 
     foreach ($guides as $guide) {

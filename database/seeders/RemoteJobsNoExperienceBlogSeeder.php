@@ -316,6 +316,7 @@ JOBHTML;
     <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; the office-based alternative, and what each sector actually pays.</li>
     <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a> &mdash; the American remote market, and why a US job usually needs US work authorization.</li>
     <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a></li>
+    <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a> &mdash; platform fees, State Bank freelancer accounts and the tax on IT export income.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, financial or careers advice. Payment platforms, their availability in Pakistan, and employer terms change &mdash; confirm what is currently available to you and get every offer in writing before starting work or sharing personal documents.</p>
