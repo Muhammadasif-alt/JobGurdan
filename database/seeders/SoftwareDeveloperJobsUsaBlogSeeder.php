@@ -311,6 +311,7 @@ JOBHTML;
     <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a> &mdash; the infrastructure route, and why a declining occupation is the best signal in it.</li>
     <li><a href="/blog/devops-engineer-jobs-in-usa">DevOps Engineer Jobs in USA</a> &mdash; the delivery specialisation of this occupation, and why job-board salary outliers are not bands.</li>
     <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a> &mdash; the modelling side, and the occupation machine learning engineering is counted under.</li>
+    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a> &mdash; how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Wage data, employment projections and immigration rules change, and the H-1B payment described above is subject to ongoing litigation &mdash; confirm the current position with the Bureau of Labor Statistics, USCIS, a licensed immigration attorney and the employer's own advertisement before applying or paying any fee.</p>

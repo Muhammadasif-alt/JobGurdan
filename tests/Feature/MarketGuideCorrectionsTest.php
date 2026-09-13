@@ -74,6 +74,28 @@ it('tells Australian taxi drivers the NSW authority was abolished and that no sa
     expect($content)->toContain('does not appear on the Core Skills Occupation List');
 });
 
+it('separates the two QA occupation codes in the Canada QA tester guide', function () {
+    // The draft treats QA as one job with one salary band. Job Bank splits it
+    // across two NOC codes with different education and different wages.
+    $content = guideContent('qa-tester-jobs-in-canada', Database\Seeders\QaTesterJobsCanadaBlogSeeder::class);
+
+    expect($content)->toContain('22222')
+        ->toContain('21222')
+        // Prevailing wages, Job Bank, updated 19 November 2025.
+        ->toContain('17.50')
+        ->toContain('35.00')
+        ->toContain('51.28')
+        ->toContain('28.85')
+        ->toContain('46.15')
+        ->toContain('68.68')
+        ->toContain('19 November 2025')
+        // The low-barrier claim does not carry to the better-paid code.
+        ->toContain('usually requires a university degree')
+        // Demand is rated as varying, not uniformly strong.
+        ->toContain('varying across Canada')
+        ->toContain('85.8');
+});
+
 it('corrects the renamed visa and the occupation list errors in the Australia sponsorship guide', function () {
     // The draft calls 482 the TSS visa and treats one "Skilled Occupation List"
     // as governing everything, including the route to permanent residence.
@@ -1741,6 +1763,7 @@ it('resolves every internal link the new guides publish', function () {
         'visa-sponsorship-jobs-in-australia',
         'no-experience-jobs-in-saudi-arabia',
         'store-assistant-jobs-in-uk',
+        'qa-tester-jobs-in-canada',
     ];
 
     foreach ($guides as $guide) {

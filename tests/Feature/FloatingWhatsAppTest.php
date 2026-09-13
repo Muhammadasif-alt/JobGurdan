@@ -3,13 +3,13 @@
 use function Pest\Laravel\get;
 
 it('shows a floating WhatsApp button on every page once a number is set', function (string $url) {
-    config(['site.whatsapp' => '+92 346 3035426']);
+    config(['site.whatsapp' => '+92 346 4929466']);
 
     $html = get($url)->assertOk()->getContent();
 
     // wa.me only accepts digits, so the configured value is stripped.
     expect($html)->toContain('class="wa-float"')
-        ->toContain('wa.me/923463035426')
+        ->toContain('wa.me/923464929466')
         ->toContain('aria-label="Message JobGader on WhatsApp"');
 })->with([
     'home' => '/',
@@ -26,7 +26,7 @@ it('renders nothing at all when no number is configured', function () {
 });
 
 it('stacks above the back-to-top arrow on the same centre line', function () {
-    config(['site.whatsapp' => '923463035426']);
+    config(['site.whatsapp' => '923464929466']);
 
     // #backtotop is 42px square and 25px in from the bottom right, so its
     // centre line is 46px from the right edge and its top edge is at 67px.
@@ -46,7 +46,7 @@ it('stacks above the back-to-top arrow on the same centre line', function () {
 });
 
 it('drops the sliding label where there is no hover', function () {
-    config(['site.whatsapp' => '923463035426']);
+    config(['site.whatsapp' => '923464929466']);
 
     // On a touch screen the label would never open, so it goes rather than
     // sitting there permanently collapsed.

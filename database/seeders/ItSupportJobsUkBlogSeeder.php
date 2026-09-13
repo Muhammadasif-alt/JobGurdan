@@ -365,6 +365,7 @@ JOBHTML;
     <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; public sector pay scales and the pension behind them.</li>
     <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a></li>
     <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a> &mdash; the shop floor route, and why the pay figures everyone quotes are below the law.</li>
+    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a> &mdash; how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Minimum wage rates, immigration rules, occupation codes, certification requirements and security vetting policies change. Confirm the current position with GOV.UK, the certification body and the employer before applying or accepting an offer.</p>
