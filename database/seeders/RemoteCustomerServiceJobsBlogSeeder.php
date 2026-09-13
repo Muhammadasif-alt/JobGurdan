@@ -318,6 +318,7 @@ JOBHTML;
     <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; the same customer skills on a shop floor, priced by state.</li>
     <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; where service desk skills lead in UK technology, and what the entry salary must legally be.</li>
     <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a> &mdash; the wider US remote market, how many Americans telework, and what the roles pay.</li>
+    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a></li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Pay bands, minimum wage notifications, shift arrangements and monitoring policies change and are set by each province and each employer &mdash; confirm the current figures and the terms on the employer's own advertisement before accepting any offer.</p>

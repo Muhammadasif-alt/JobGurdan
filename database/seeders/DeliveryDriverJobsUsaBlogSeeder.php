@@ -336,6 +336,7 @@ JOBHTML;
     <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; driving work on a sponsored Gulf contract instead.</li>
     <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; hourly work with a state wage floor instead of engaged-time pay.</li>
     <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; hourly passenger driving north of the border, with Job Bank pay by province.</li>
+    <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a></li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax, insurance or immigration advice. Minimum pay rules, mileage rates, tax rates and employment status tests change, and pay figures on any job board or app are a moving average rather than a statistic. Confirm the current position with the IRS, your state and city labor authorities, your insurer and the employer's own advertisement before applying.</p>

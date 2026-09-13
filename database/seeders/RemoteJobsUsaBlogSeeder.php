@@ -332,6 +332,7 @@ JOBHTML;
     <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; a common remote entry point into IT.</li>
     <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; which occupation a developer title really sits in, and what it pays.</li>
     <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; a well-paid field with many remote roles.</li>
+    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a></li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Pay data, telework statistics, tax thresholds and employment rules change often. Confirm the current position with the employer, the IRS, the Department of Labor or USCIS, or a qualified adviser, before applying.</p>

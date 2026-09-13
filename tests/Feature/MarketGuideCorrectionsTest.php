@@ -15,6 +15,124 @@ function guideContent(string $slug, string $seeder): string
     return Blog::where('slug', $slug)->value('content');
 }
 
+it('tells Australian taxi drivers the NSW authority was abolished and that no salary figure describes them', function () {
+    // The permit every guide tells readers to apply for stopped existing in 2017.
+    $content = guideContent('taxi-driver-jobs-in-australia', Database\Seeders\TaxiDriverJobsAustraliaBlogSeeder::class);
+
+    expect($content)->toContain('1 November 2017')
+        ->toContain('Driver ID')
+        ->toContain('authorised service provider');
+
+    // The occupation code repeated across careers material belongs to trains.
+    expect($content)->toContain('ANZSCO 7313 is Train and Tram Drivers')
+        ->toContain('731112')
+        ->toContain('711134')
+        ->toContain('711133');
+
+    // Licence history is the requirement that differs most between states.
+    expect($content)->toContain('at least 12 months in the preceding four years')
+        ->toContain('at least six months')
+        ->toContain('at least three years in total, including at least one continuous year')
+        ->toContain('at least 20 years old');
+
+    // Fees and costs that are actually published.
+    expect($content)->toContain('98.00')
+        ->toContain('99.00')
+        ->toContain('no cost to apply');
+
+    // No state requires permanent residency, which is what stops people applying.
+    expect($content)->toContain('VEVO')
+        ->toContain('or a valid working visa')
+        ->toContain('No state was found to require citizenship or permanent residency');
+
+    // The pay question has no clean answer, and the reason is the point.
+    expect($content)->toContain('cannot be verified against any official Australian source')
+        ->toContain('1,695.70')
+        ->toContain('Most taxi drivers are not employees');
+
+    // Bailment sits outside the Fair Work system.
+    expect($content)->toContain('Voros v Alan Dick')
+        ->toContain('Taxi Industry (Contract Drivers) Contract Determination 1984')
+        ->toContain('the word "taxi" does not appear in it');
+
+    // A shrinking occupation, set against national growth.
+    expect($content)->toContain('50,800')
+        ->toContain('1,400')
+        ->toContain('13.7 per cent')
+        ->toContain('no shortage');
+
+    // Ride-share overtook taxis, measured rather than asserted.
+    expect($content)->toContain('48 per cent')
+        ->toContain('39 per cent')
+        ->toContain('905 million');
+
+    // The levy is charged to providers, not drivers.
+    expect($content)->toContain('1.20 per passenger service transaction')
+        ->toContain('1.32');
+
+    // The poster advertises sponsorship the list does not support.
+    expect($content)->toContain('does not appear on the Core Skills Occupation List');
+});
+
+it('corrects the unlawful pay band and the dead tax relief in the UK work from home guide', function () {
+    // The quoted entry-level band is below the legal minimum for full-time work.
+    $content = guideContent('work-from-home-jobs-in-uk', Database\Seeders\WorkFromHomeJobsUkBlogSeeder::class);
+
+    expect($content)->toContain('12.71')
+        ->toContain('23,132.20')
+        ->toContain('24,784.50')
+        ->toContain('26,436.80')
+        ->toContain('1,416 hours')
+        ->toContain('it is not low, it is unlawful');
+
+    // The middle of the whole workforce, for scale.
+    expect($content)->toContain('39,039')
+        ->toContain('19.67');
+
+    // Home working does not suspend the minimum wage, including piece rates.
+    expect($content)->toContain('even if the supplier of the work tells them that they are self-employed')
+        ->toContain('divide that average by 1.2')
+        ->toContain('in writing before you start');
+
+    // The trend is a plateau, not an acceleration.
+    expect($content)->toContain('28 per cent of workers in Great Britain were hybrid workers')
+        ->toContain('settled rather than surging');
+
+    // The day-one right, and its limits.
+    expect($content)->toContain('6 April 2024')
+        ->toContain('two statutory requests in any 12-month period')
+        ->toContain('within two months')
+        ->toContain('must consult you before rejecting')
+        ->toContain('eight business reasons')
+        ->toContain('not a right to have');
+
+    // The 2025 Act is law but this part of it is not yet in force.
+    expect($content)->toContain('18 December 2025')
+        ->toContain('That change is not in force')
+        ->toContain('2027');
+
+    // No right to work from home, and no right to disconnect.
+    expect($content)->toContain('no statutory right to disconnect');
+
+    // What the employer must actually provide.
+    expect($content)->toContain('cannot be charged for this')
+        ->toContain('5 million')
+        ->toContain('2,500 for every day');
+
+    // The tax relief guides still recommend is unavailable this year.
+    expect($content)->toContain('6 April 2026 to 5 April 2027')
+        ->toContain('claim if your contract merely lets you work from home');
+
+    // Charging a work-seeker a fee is a criminal offence, and enforcement moved.
+    expect($content)->toContain('section 6 of the Employment Agencies Act 1973')
+        ->toContain('replaced by the Fair Work Agency on 7 April 2026')
+        ->toContain('0300 123 2040');
+
+    // The honest answer on sponsorship for a fully remote role.
+    expect($content)->toContain('60,000 per illegal worker')
+        ->toContain('poor candidate for sponsorship');
+});
+
 it('prices the retail associate job by percentile instead of the range every guide copies', function () {
     // "$12 to $18 an hour" starts below the 10th percentile and stops below
     // the 75th, so the spread is quoted in full rather than summarised.
@@ -1553,6 +1671,8 @@ it('resolves every internal link the new guides publish', function () {
         'medical-assistant-jobs-in-usa',
         'teaching-jobs-in-uk',
         'carpenter-jobs-in-usa',
+        'taxi-driver-jobs-in-australia',
+        'work-from-home-jobs-in-uk',
     ];
 
     foreach ($guides as $guide) {
