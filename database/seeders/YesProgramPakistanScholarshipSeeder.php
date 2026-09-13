@@ -70,7 +70,9 @@ class YesProgramPakistanScholarshipSeeder extends Seeder
                 'funding_type' => 'Fully Funded Exchange',
                 'award_value' => 'Airfare, tuition, host family and $200 a month',
                 'deadline' => '2026-09-15',
-                'deadline_note' => 'Applications closed 15 Sep 2026 for Spring 2027',
+                // No later round has been announced, so the card reads "Closes"
+                // until the date and "Closed" after it, with no note under it.
+                'deadline_note' => null,
                 'excerpt' => 'It is one semester, not one year: YES students leave in January 2027 and return in June 2027. Applications close on 15 September 2026, and passport and medical examination costs are not covered by the scholarship.',
                 'content' => $this->guide(),
                 'featured_image' => 'scholarships/'.self::SLUG.'.jpg',

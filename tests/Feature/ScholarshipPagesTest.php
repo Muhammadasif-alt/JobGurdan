@@ -140,6 +140,23 @@ it('corrects the length, the departure date and the "100% free" claim on the YES
         // holding the poster has to recognise what they are holding.
         ->toContain('are describing something that is not on offer')
         ->toContain('is not the programme\'s Pakistani contact');
+
+    // No next round is announced: open until the date, closed after it, and
+    // never a "closed" line on the page while applications are still open.
+    $scholarship = Scholarship::where('slug', YesProgramPakistanScholarshipSeeder::SLUG)->firstOrFail();
+
+    $this->travelTo(Carbon::parse('2026-09-14 12:00:00'));
+    expect($scholarship->deadlineLabel())->toBe('Closes 15 Sep 2026');
+    get(route('scholarships.show', YesProgramPakistanScholarshipSeeder::SLUG))->assertOk()
+        ->assertSee('Closes 15 Sep 2026')
+        ->assertDontSee('Applications closed')
+        ->assertDontSee('Closed 15 Sep 2026');
+
+    $this->travelTo(Carbon::parse('2026-09-16 12:00:00'));
+    expect($scholarship->hasClosed())->toBeTrue()
+        ->and($scholarship->deadlineLabel())->toBe('Closed 15 Sep 2026');
+
+    $this->travelBack();
 });
 
 it('corrects what the Monash posters and brief get wrong', function () {
