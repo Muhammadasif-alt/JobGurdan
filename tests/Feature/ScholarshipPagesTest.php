@@ -135,7 +135,17 @@ it('corrects the length, the departure date and the "100% free" claim on the YES
         ->toContain('1 January 2010 and 1 January 2012')
         ->toContain('publishes a cash value for a YES place')
         ->toContain('info@yesprogram.pk')
-        ->toContain('more than 1,000 Pakistani students')
+        // Applications go on paper, by post or courier, and must arrive by the
+        // deadline. Figures found only in news coverage are left out.
+        ->toContain('by post or courier')
+        ->toContain('only accepted through courier or postal services')
+        ->toContain('black ballpoint pen')
+        ->toContain('school attested')
+        ->toContain('a modest monthly stipend')
+        ->toContain('established by Congress in October 2002')
+        ->not->toContain('$200')
+        ->not->toContain('visa costs')
+        ->not->toContain('tuition at')
         // The wrong claims are quoted once, to be knocked down: a reader
         // holding the poster has to recognise what they are holding.
         ->toContain('are describing something that is not on offer')
