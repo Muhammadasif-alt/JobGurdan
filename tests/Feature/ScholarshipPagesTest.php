@@ -11,6 +11,7 @@ use Database\Seeders\PolytechnicMarcheScholarshipSeeder;
 use Database\Seeders\SydneyBusinessSchoolPhdScholarshipSeeder;
 use Database\Seeders\SydneyRtpDomesticScholarshipSeeder;
 use Database\Seeders\SydneyRtpInternationalScholarshipSeeder;
+use Database\Seeders\UniversityOfSouthAustraliaScholarshipSeeder;
 use Database\Seeders\YesProgramPakistanScholarshipSeeder;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Cache;
@@ -119,7 +120,55 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'marche' => [PolytechnicMarcheScholarshipSeeder::class, PolytechnicMarcheScholarshipSeeder::SLUG, 2],
     'yes pakistan' => [YesProgramPakistanScholarshipSeeder::class, YesProgramPakistanScholarshipSeeder::SLUG, 2],
     'australia without ielts' => [AustraliaScholarshipsWithoutIeltsScholarshipSeeder::class, AustraliaScholarshipsWithoutIeltsScholarshipSeeder::SLUG, 2],
+    'south australia' => [UniversityOfSouthAustraliaScholarshipSeeder::class, UniversityOfSouthAustraliaScholarshipSeeder::SLUG, 1],
 ]);
+
+it('sends UniSA applicants to Adelaide University with the stipend, rounds and contacts the brief gets wrong', function () {
+    // The brief quotes a $32,500 stipend, the IPRS, "Adelaide Scholarships
+    // International" full funding and a stale Australia Awards allowance, and
+    // gives contacts and a URL the university does not use. One poster
+    // carries Monash's $37,145 rate. The Conditions of Award and the
+    // university's own pages say otherwise.
+    $this->seed(UniversityOfSouthAustraliaScholarshipSeeder::class);
+
+    $scholarship = Scholarship::where('slug', UniversityOfSouthAustraliaScholarshipSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->content)
+        ->toContain('4 August 2025')
+        ->toContain('AUD $36,500 a year at the 2026 rate')
+        ->toContain("Monash University's rate")
+        ->toContain('<strong>no extension</strong>')
+        ->toContain('Up to AUD $1,500 for international students')
+        ->toContain('<strong>single</strong> BUPA Comprehensive OSHC policy')
+        ->toContain('Expressions of interest 31 August to 30 September 2026')
+        ->toContain('Australian or New Zealand qualification')
+        ->toContain('28 February 2027')
+        ->toContain('Applications opened on 24 August 2026')
+        ->toContain('IELTS Academic 6.5 overall with at least 6.0')
+        ->toContain('Pakistan is not on that list')
+        ->toContain('written confirmation of support from an eligible principal supervisor')
+        ->toContain('AUD $36,230 a year')
+        ->toContain('the Research Training Program replaced it in 2017')
+        ->toContain('+61 8 7420 5115')
+        ->toContain('research.scholarships@adelaide.edu.au')
+        ->not->toContain('study@adelaide.edu.au')
+        ->not->toContain('8313 7000')
+        ->not->toContain('adelaideuni.edu.au/scholarships');
+
+    $this->travelTo(Carbon::parse('2026-09-30 12:00:00'));
+    expect($scholarship->deadlineLabel())->toBe('Closes 30 Sep 2026');
+
+    $this->travelTo(Carbon::parse('2026-10-01 12:00:00'));
+    expect($scholarship->deadlineLabel())->toBe('Next round: Talent Scheme Round 1, early Oct to early Nov 2026');
+
+    $this->travelBack();
+
+    foreach ([MelbourneRtpScholarshipSeeder::class, AnuRtpScholarshipSeeder::class, SydneyRtpInternationalScholarshipSeeder::class, AustraliaScholarshipsWithoutIeltsScholarshipSeeder::class] as $seeder) {
+        $this->seed($seeder);
+    }
+
+    expect(Scholarship::where('slug', '!=', UniversityOfSouthAustraliaScholarshipSeeder::SLUG)->where('content', 'like', '%/scholarships/'.UniversityOfSouthAustraliaScholarshipSeeder::SLUG.'%')->count())->toBe(4);
+});
 
 it('replaces the "no IELTS" promise with the English rules each Australian award really sets', function () {
     // The brief and posters say no language test is needed, list Duolingo,

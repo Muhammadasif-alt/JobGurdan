@@ -187,6 +187,7 @@ class AustraliaScholarshipsWithoutIeltsScholarshipSeeder extends Seeder
 <thead><tr><th>University</th><th>2026 stipend</th><th>Our full guide</th></tr></thead>
 <tbody>
 <tr><td>RMIT University</td><td>AUD $36,245 a year</td><td>See the RMIT section below</td></tr>
+<tr><td>Adelaide University (formerly UniSA)</td><td>AUD $36,500 a year</td><td><a href="/scholarships/{adelaide}">Adelaide University guide</a></td></tr>
 <tr><td>Monash University</td><td>AUD $37,145 a year</td><td><a href="/scholarships/{monash}">Monash RTP guide</a></td></tr>
 <tr><td>Australian National University</td><td>AUD $39,069 a year</td><td><a href="/scholarships/{anu}">ANU RTP guide</a></td></tr>
 <tr><td>University of Melbourne</td><td>AUD $39,500 a year</td><td><a href="/scholarships/{melbourne}">Melbourne guide</a></td></tr>
@@ -295,6 +296,7 @@ class AustraliaScholarshipsWithoutIeltsScholarshipSeeder extends Seeder
 <li><a href="/scholarships/{monash}">Monash University RTP Scholarship</a> &mdash; stipend, IELTS and PTE scores, and rounds.</li>
 <li><a href="/scholarships/{anu}">ANU RTP Scholarship</a> &mdash; the international round and 2027 rate.</li>
 <li><a href="/scholarships/{melbourne}">University of Melbourne Graduate Research Scholarships</a> &mdash; faculty deadlines and entry marks.</li>
+<li><a href="/scholarships/{adelaide}">Adelaide University (formerly UniSA) scholarships</a> &mdash; the AUD $36,500 stipend and the research round open now.</li>
 </ul>
 
 <p><em>JobGader is not part of the Australian Government or any university. This guide was checked against the Australia Awards Scholarships Policy Handbook, Study Australia and each university's scholarship pages on 14 September 2026. Rates, English requirements and rounds change, so confirm them on the official page before you apply.</em></p>
@@ -302,6 +304,7 @@ HTML, [
             '{monash}' => MonashRtpScholarshipSeeder::SLUG,
             '{anu}' => AnuRtpScholarshipSeeder::SLUG,
             '{melbourne}' => MelbourneRtpScholarshipSeeder::SLUG,
+            '{adelaide}' => UniversityOfSouthAustraliaScholarshipSeeder::SLUG,
             '{sydney}' => SydneyRtpInternationalScholarshipSeeder::SLUG,
         ]);
     }

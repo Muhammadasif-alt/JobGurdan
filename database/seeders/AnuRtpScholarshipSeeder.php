@@ -247,7 +247,7 @@ class AnuRtpScholarshipSeeder extends Seeder
 <tr><td>Monash University</td><td>AUD \$37,145</td><td>Round 1 for 2027 is open; see our guide</td></tr>
 </tbody>
 </table></div>
-<p>At 2026 rates ANU pays AUD \$3,685 a year less than Sydney and AUD \$1,924 more than Monash. Living costs differ too: ANU's own estimate for Canberra is AUD \$33,000 to \$39,000 a year. Compare the full details in our <a href="/scholarships/university-of-sydney-rtp-international-scholarship">Sydney RTP International</a>, <a href="/scholarships/university-of-sydney-rtp-domestic-scholarship">Sydney RTP Domestic</a>, <a href="/scholarships/university-of-melbourne-rtp-scholarship">University of Melbourne RTP</a> and <a href="/scholarships/monash-university-rtp-scholarship">Monash RTP</a> guides.</p>
+<p>At 2026 rates ANU pays AUD \$3,685 a year less than Sydney and AUD \$1,924 more than Monash. Living costs differ too: ANU's own estimate for Canberra is AUD \$33,000 to \$39,000 a year. Compare the full details in our <a href="/scholarships/university-of-sydney-rtp-international-scholarship">Sydney RTP International</a>, <a href="/scholarships/university-of-sydney-rtp-domestic-scholarship">Sydney RTP Domestic</a>, <a href="/scholarships/university-of-melbourne-rtp-scholarship">University of Melbourne RTP</a>, <a href="/scholarships/monash-university-rtp-scholarship">Monash RTP</a> and <a href="/scholarships/university-of-south-australia-scholarships">Adelaide University (formerly UniSA)</a> guides.</p>
 
 <h2>Frequently Asked Questions</h2>
 
