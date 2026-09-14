@@ -1829,6 +1829,30 @@ it('replaces the system administrator draft product names and package claims wit
         ->toContain('AED 15,000');
 });
 
+it('replaces the medical receptionist draft demand and sponsorship claims with the award, occupation data and visa lists', function () {
+    // The draft counts hundreds of new jobs a week, names no award, and says
+    // listings mention visa sponsorship. On record: Jobs and Skills Australia's
+    // occupation profile, the Health Services Award progression, the Privacy
+    // Act's reach over every health service provider, the November 2025 bulk
+    // billing changes, and an occupation missing from the Core Skills list.
+    $this->seed(Database\Seeders\MedicalReceptionistJobsAustraliaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'medical-receptionist-jobs-in-australia')->value('content'))
+        ->toContain('ANZSCO 542114')
+        ->toContain('46,700')
+        ->toContain('33 per cent work full-time')
+        ->toContain('median age is 46')
+        ->toContain('Health Professionals and Support Services Award 2020')
+        ->toContain('Support services level 2 or level 3')
+        ->toContain('$26.44 an hour')
+        ->toContain('25 per cent casual loading')
+        ->toContain('whether or not they are a small business')
+        ->toContain('1 November 2025')
+        ->toContain('12.5 per cent')
+        ->toContain('not on the Core Skills Occupation List')
+        ->toContain('$76,515');
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -1906,6 +1930,7 @@ it('resolves every internal link the new guides publish', function () {
         'mechanic-jobs-in-saudi-arabia',
         'janitor-jobs-in-canada',
         'system-administrator-jobs-in-uae',
+        'medical-receptionist-jobs-in-australia',
     ];
 
     foreach ($guides as $guide) {

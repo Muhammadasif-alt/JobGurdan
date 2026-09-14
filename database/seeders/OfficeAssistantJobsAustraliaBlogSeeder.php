@@ -358,6 +358,7 @@ JOBHTML;
     <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; retail and commission sales under the same award system, and the registration real estate sales needs.</li>
     <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; American office pay by state, and what an executive assistant earns.</li>
     <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; what every entry-level Australian sector pays, and why age changes the rate.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a> &mdash; front-desk admin in general practice, under a different award from office clerks.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, migration or financial advice. Award rates, the national minimum wage, superannuation rules and screening requirements change, and salary figures on any job board are a moving average rather than a statistic. Confirm the current position with the Fair Work Ombudsman, the relevant state screening authority and the employer's own advertisement before applying.</p>

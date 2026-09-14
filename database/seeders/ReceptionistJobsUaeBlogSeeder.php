@@ -334,6 +334,7 @@ JOBHTML;
     <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; office work at home rather than a Gulf contract.</li>
     <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a> &mdash; finance work under the same labour law, and the licence an auditor needs before signing anything.</li>
     <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a> &mdash; IT work under the same labour law, and the overtime limits behind on-call rotas.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a> &mdash; reception work in health care, where a published award sets the pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or financial advice. Labour law provisions, DIFC rules, visa requirements and salary levels change, and figures on any job board are a moving average rather than a statistic. Confirm the current position with the Ministry of Human Resources and Emiratisation, the DIFC and the employer's own advertisement before applying or accepting an offer.</p>

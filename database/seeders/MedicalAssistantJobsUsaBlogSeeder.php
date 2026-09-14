@@ -353,6 +353,7 @@ JOBHTML;
     <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; the other large no-degree entry route, and what it pays.</li>
     <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; where American and British clinical experience is recruited from abroad.</li>
     <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; records work without the clinical side.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a> &mdash; the front-desk side of a medical practice, under Australian award pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, legal or medical advice. Wage survey figures, employment projections, certification requirements and state scope-of-practice rules change. Confirm the current position with the Bureau of Labor Statistics, the certifying body, your state medical board and the employer's own advertisement before applying.</p>
