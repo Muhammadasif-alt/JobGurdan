@@ -349,6 +349,7 @@ JOBHTML;
     <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; the support desk most network careers start from, priced against the UK legal minimum.</li>
     <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; the American help desk most network careers start from, and the A+ exams behind it.</li>
     <li><a href="/blog/database-administrator-jobs-in-usa">Database Administrator Jobs in USA</a> &mdash; the neighbouring infrastructure role, at a $104,620 median.</li>
+    <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a> &mdash; server and network administration in the Gulf, and the visa salary thresholds.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, employment projections, certification requirements and clearance policy change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics, the certifying vendor and the employer's own advertisement before applying or paying for any course.</p>

@@ -1801,6 +1801,34 @@ it('replaces the janitor draft pay band and tips claim with Job Bank data, minim
         ->toContain('21 January 2025');
 });
 
+it('replaces the system administrator draft product names and package claims with the lifecycle dates and the labour law', function () {
+    // The draft lists Azure and Office 365 under their old names, promises
+    // 24/7 on-call work without the overtime limits, and the poster offers an
+    // air ticket and accommodation as standard. On record: the Entra ID
+    // rename, the Windows Server 2016 end of support, the Article 17 and 19
+    // hours and overtime rules, the repatriation duty in Article 13(12), the
+    // Emiratisation targets and the Green and Golden visa salaries.
+    $this->seed(Database\Seeders\SystemAdministratorJobsUaeBlogSeeder::class);
+
+    expect(Blog::where('slug', 'system-administrator-jobs-in-uae')->value('content'))
+        ->toContain('Microsoft Entra ID')
+        ->toContain('11 July 2023')
+        ->toContain('12 January 2027')
+        ->toContain('expire one year after')
+        ->toContain('Federal Decree-Law No. 33 of 2021')
+        ->toContain('8 hours a day or 48 hours a week')
+        ->toContain('two hours a day')
+        ->toContain('144 hours in any three weeks')
+        ->toContain('at least 25 per cent')
+        ->toContain('between 10 pm and 4 am')
+        ->toContain('not a statutory entitlement')
+        ->toContain('Article 13(12)')
+        ->toContain('10 per cent by the end of 2026')
+        ->toContain('information and communications')
+        ->toContain('AED 30,000')
+        ->toContain('AED 15,000');
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -1877,6 +1905,7 @@ it('resolves every internal link the new guides publish', function () {
         'online-jobs-in-pakistan',
         'mechanic-jobs-in-saudi-arabia',
         'janitor-jobs-in-canada',
+        'system-administrator-jobs-in-uae',
     ];
 
     foreach ($guides as $guide) {
