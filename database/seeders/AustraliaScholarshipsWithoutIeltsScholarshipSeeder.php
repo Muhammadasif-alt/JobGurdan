@@ -297,6 +297,7 @@ class AustraliaScholarshipsWithoutIeltsScholarshipSeeder extends Seeder
 <li><a href="/scholarships/{anu}">ANU RTP Scholarship</a> &mdash; the international round and 2027 rate.</li>
 <li><a href="/scholarships/{melbourne}">University of Melbourne Graduate Research Scholarships</a> &mdash; faculty deadlines and entry marks.</li>
 <li><a href="/scholarships/{adelaide}">Adelaide University (formerly UniSA) scholarships</a> &mdash; the AUD $36,500 stipend and the research round open now.</li>
+<li><a href="/scholarships/{france}">France scholarships without IELTS</a> &mdash; what Eiffel pays and who applies for you.</li>
 </ul>
 
 <p><em>JobGader is not part of the Australian Government or any university. This guide was checked against the Australia Awards Scholarships Policy Handbook, Study Australia and each university's scholarship pages on 14 September 2026. Rates, English requirements and rounds change, so confirm them on the official page before you apply.</em></p>
@@ -306,6 +307,7 @@ HTML, [
             '{melbourne}' => MelbourneRtpScholarshipSeeder::SLUG,
             '{adelaide}' => UniversityOfSouthAustraliaScholarshipSeeder::SLUG,
             '{sydney}' => SydneyRtpInternationalScholarshipSeeder::SLUG,
+            '{france}' => FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG,
         ]);
     }
 }

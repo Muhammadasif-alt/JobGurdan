@@ -3,6 +3,7 @@
 use App\Models\Scholarship;
 use Database\Seeders\AnuRtpScholarshipSeeder;
 use Database\Seeders\AustraliaScholarshipsWithoutIeltsScholarshipSeeder;
+use Database\Seeders\FranceScholarshipsWithoutIeltsScholarshipSeeder;
 use Database\Seeders\InsubriaScholarshipSeeder;
 use Database\Seeders\MelbourneRtpScholarshipSeeder;
 use Database\Seeders\MonashRtpScholarshipSeeder;
@@ -121,6 +122,7 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'yes pakistan' => [YesProgramPakistanScholarshipSeeder::class, YesProgramPakistanScholarshipSeeder::SLUG, 2],
     'australia without ielts' => [AustraliaScholarshipsWithoutIeltsScholarshipSeeder::class, AustraliaScholarshipsWithoutIeltsScholarshipSeeder::SLUG, 2],
     'south australia' => [UniversityOfSouthAustraliaScholarshipSeeder::class, UniversityOfSouthAustraliaScholarshipSeeder::SLUG, 1],
+    'france without ielts' => [FranceScholarshipsWithoutIeltsScholarshipSeeder::class, FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG, 3],
 ]);
 
 it('sends UniSA applicants to Adelaide University with the stipend, rounds and contacts the brief gets wrong', function () {
@@ -168,6 +170,41 @@ it('sends UniSA applicants to Adelaide University with the stipend, rounds and c
     }
 
     expect(Scholarship::where('slug', '!=', UniversityOfSouthAustraliaScholarshipSeeder::SLUG)->where('content', 'like', '%/scholarships/'.UniversityOfSouthAustraliaScholarshipSeeder::SLUG.'%')->count())->toBe(4);
+});
+
+it('gives France applicants the Eiffel rates, the closed call and the English rules the brief gets wrong', function () {
+    // The brief quotes PhD stipends of €1,400 or €2,100, promises full tuition,
+    // treats the closed 8 January 2026 deadline as open and names Sciences Po.
+    foreach ([FranceScholarshipsWithoutIeltsScholarshipSeeder::class, AustraliaScholarshipsWithoutIeltsScholarshipSeeder::class, PaviaScholarshipSeeder::class, InsubriaScholarshipSeeder::class, PolytechnicMarcheScholarshipSeeder::class] as $seeder) {
+        $this->seed($seeder);
+    }
+
+    $scholarship = Scholarship::where('slug', FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->content)
+        ->toContain('&euro;1,181')
+        ->toContain('&euro;1,800 (since 1 January 2024)')
+        ->toContain('Eiffel does not pay tuition fees.')
+        ->toContain('Only applications submitted by French higher education institutions are accepted.')
+        ->toContain('8 January 2026')
+        ->toContain('From 30 March 2026')
+        ->toContain('up to 29 years old at master\'s level and up to 35 at PhD level')
+        ->toContain('Dual nationals whose second nationality is French are not eligible')
+        ->toContain('Sciences Po will not take part')
+        ->toContain('the level of English is also taken into account')
+        ->toContain('28 years old maximum')
+        ->toContain('<strong>PKR 30,000</strong>')
+        ->toContain('&euro;2,902 a year for a bachelor\'s')
+        ->toContain('&euro;3,950 a year for a master\'s')
+        ->toContain('Pakistan is not on the list')
+        ->toContain('/scholarships/'.AustraliaScholarshipsWithoutIeltsScholarshipSeeder::SLUG)
+        ->toContain('/scholarships/'.PaviaScholarshipSeeder::SLUG)
+        ->not->toContain('{slug}')
+        ->not->toContain('&euro;1,400 a month')
+        ->not->toContain('&euro;2,100 a month');
+
+    expect($scholarship->deadlineLabel())->toBe($scholarship->deadline_note)
+        ->and(Scholarship::where('slug', '!=', FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG)->where('content', 'like', '%/scholarships/'.FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG.'%')->count())->toBe(4);
 });
 
 it('replaces the "no IELTS" promise with the English rules each Australian award really sets', function () {
