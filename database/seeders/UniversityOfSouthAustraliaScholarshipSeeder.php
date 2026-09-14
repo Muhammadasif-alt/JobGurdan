@@ -65,7 +65,7 @@ class UniversityOfSouthAustraliaScholarshipSeeder extends Seeder
                 'country' => 'Australia',
                 'city' => 'Adelaide',
                 'study_level' => "PhD, MPhil, Bachelor's, Master's",
-                'funding_type' => 'Fully funded research; 10–50% off coursework fees',
+                'funding_type' => 'Fully Funded + Fee Cuts',
                 'award_value' => 'AUD $36,500 a year plus tuition fee waiver (research, 2026)',
                 'deadline' => '2026-09-30',
                 'deadline_note' => 'Next round: Talent Scheme Round 1, early Oct to early Nov 2026',
