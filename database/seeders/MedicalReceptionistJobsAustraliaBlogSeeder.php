@@ -313,6 +313,7 @@ JOBHTML;
     <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; front-desk work in the Gulf, and the gratuity on a basic salary.</li>
     <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the clinic role that mixes admin with clinical duties.</li>
     <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; an entry-level health care job with NHS pay bands.</li>
+    <li><a href="/blog/receptionist-jobs-in-australia">Receptionist Jobs in Australia</a> &mdash; office and hotel front desks, and the Clerks Award rates they start on.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Award rates, Medicare billing rules, privacy obligations and visa occupation lists change. Confirm the current position with the Fair Work Ombudsman, Services Australia, the OAIC and the Department of Home Affairs before applying or accepting an offer.</p>

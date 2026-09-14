@@ -1853,6 +1853,44 @@ it('replaces the medical receptionist draft demand and sponsorship claims with t
         ->toContain('$76,515');
 });
 
+it('replaces the receptionist draft salary bands, qualification and apply link with the awards and current codes', function () {
+    // The draft starts full-time pay at AU$50,000, names no award, recommends a
+    // superseded Certificate III in Business Administration and searches the
+    // American Indeed site. On record: the Clerks Award rates from 1 July 2026,
+    // the Hospitality Award front office grade, BSB30120, Jobs and Skills
+    // Australia's occupation profile and the Core Skills Occupation List.
+    $this->seed(Database\Seeders\ReceptionistJobsAustraliaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'receptionist-jobs-in-australia')->value('content'))
+        ->toContain('Clerks &mdash; Private Sector Award 2020 (MA000002)')
+        ->toContain('$1,024.70 a week, $26.97 an hour (Level 1 year 1)')
+        ->toContain('$1,182.10')
+        ->toContain('about $53,284 a year')
+        ->toContain('$1,004.90 a week')
+        ->toContain('front office grade 1')
+        ->toContain('$1,029.10 a week')
+        ->toContain('4.75 per cent')
+        ->toContain('$33.71 an hour')
+        ->toContain('superseded by the Certificate III in Business (BSB30120)')
+        ->toContain('43 per cent work full-time')
+        ->toContain('Receptionist occupations are not on the Core Skills Occupation List')
+        ->toContain('https://au.indeed.com/q-receptionist-jobs.html')
+        ->not->toContain('indeed.com/jobs?q=receptionist');
+
+    $siblings = [
+        'medical-receptionist-jobs-in-australia' => Database\Seeders\MedicalReceptionistJobsAustraliaBlogSeeder::class,
+        'office-assistant-jobs-in-australia' => Database\Seeders\OfficeAssistantJobsAustraliaBlogSeeder::class,
+        'receptionist-jobs-in-uae' => Database\Seeders\ReceptionistJobsUaeBlogSeeder::class,
+        'no-experience-jobs-in-australia' => Database\Seeders\NoExperienceJobsAustraliaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/receptionist-jobs-in-australia');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -1931,6 +1969,7 @@ it('resolves every internal link the new guides publish', function () {
         'janitor-jobs-in-canada',
         'system-administrator-jobs-in-uae',
         'medical-receptionist-jobs-in-australia',
+        'receptionist-jobs-in-australia',
     ];
 
     foreach ($guides as $guide) {
