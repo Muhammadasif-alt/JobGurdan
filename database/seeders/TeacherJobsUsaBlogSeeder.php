@@ -365,6 +365,7 @@ JOBHTML;
     <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; how grades, tests and advertisements work across the public sector.</li>
     <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a> &mdash; another public service career, paid on the federal General Schedule.</li>
     <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; four nations, four regulators, and why QTS does not work in Scotland.</li>
+    <li><a href="/blog/school-nurse-jobs-in-usa">School Nurse Jobs in USA</a> &mdash; the health office side of a school, with its own state credential rules.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Teacher pay, certification rules and immigration policy change and differ by state and district, and the H-1B payment is subject to ongoing litigation. Confirm the current position with the state education department, the school district, the State Department and USCIS before applying.</p>

@@ -1930,6 +1930,43 @@ it('replaces the dental assistant draft growth, regulation, exam and pay claims 
     }
 });
 
+it('replaces the school nurse draft pay bands, degree and certification claims with BLS school data and state rules', function () {
+    // The draft quotes $45,000 to $65,000, says an ADN is sometimes enough and
+    // treats NCSN as an entry credential. On record: BLS May 2025 wages for RNs
+    // in elementary and secondary schools, the California preliminary
+    // credential, NBCSN eligibility and fees, and the Workforce Study 2.0.
+    $this->seed(Database\Seeders\SchoolNurseJobsUsaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'school-nurse-jobs-in-usa')->value('content'))
+        ->toContain('$69,340')
+        ->toContain('$73,960')
+        ->toContain('$48,010')
+        ->toContain('$103,310')
+        ->toContain('$97,550')
+        ->toContain('School Nurse Services Credential')
+        ->toContain('<strong>is not renewable</strong>')
+        ->toContain('not an entry credential')
+        ->toContain('1,000 hours of school nursing practice in the three years')
+        ->toContain('$380 early bird')
+        ->toContain('65.7 per cent of schools')
+        ->toContain('18.1 per cent of schools')
+        ->toContain('https://www.indeed.com/q-school-nurse-jobs.html')
+        ->not->toContain('jobs?q=school+nurse');
+
+    $siblings = [
+        'registered-nurse-jobs-in-usa' => Database\Seeders\RegisteredNurseJobsUsaBlogSeeder::class,
+        'nurse-jobs-in-the-us' => Database\Seeders\NurseJobsUsBlogSeeder::class,
+        'teacher-jobs-in-usa' => Database\Seeders\TeacherJobsUsaBlogSeeder::class,
+        'medical-assistant-jobs-in-usa' => Database\Seeders\MedicalAssistantJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/school-nurse-jobs-in-usa');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2010,6 +2047,7 @@ it('resolves every internal link the new guides publish', function () {
         'medical-receptionist-jobs-in-australia',
         'receptionist-jobs-in-australia',
         'dental-assistant-jobs-in-canada',
+        'school-nurse-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {
