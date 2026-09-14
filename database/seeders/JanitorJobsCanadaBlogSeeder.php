@@ -320,6 +320,7 @@ JOBHTML;
     <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the most-approved LMIA jobs, and which farm program you can use.</li>
     <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; another entry-level Canadian job priced by the provincial minimum wage.</li>
     <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; housekeeping on the American seasonal visa route.</li>
+    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a> &mdash; a regulated Canadian health care job with an 8-month to one-year program.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or employment advice. Wage data, minimum wages, LMIA rules and unemployment lists change often. Confirm the current position with the employer, your provincial employment standards office, Job Bank and IRCC, or a licensed immigration consultant, before applying or paying any fee.</p>

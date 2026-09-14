@@ -1891,6 +1891,45 @@ it('replaces the receptionist draft salary bands, qualification and apply link w
     }
 });
 
+it('replaces the dental assistant draft growth, regulation, exam and pay claims with the official record', function () {
+    // The draft calls the job fastest-growing, lists Ontario among regulated
+    // provinces, credits NDAEB with recognising programs, calls CPR universal
+    // and understates pay. On record: the COPS projection, the RCDSO standard,
+    // CDAC accreditation, the 2026 NDAEB exam order, Job Bank wages and IRCC's
+    // health care category list.
+    $this->seed(Database\Seeders\DentalAssistantJobsCanadaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'dental-assistant-jobs-in-canada')->value('content'))
+        ->toContain('NOC 33100')
+        ->toContain('18,300 job openings against 18,200 job seekers')
+        ->toContain('dental assistants are not regulated')
+        ->toContain('except Ontario and Quebec')
+        ->toContain('The Commission on Dental Accreditation of Canada (CDAC) accredits dental assisting programs')
+        ->toContain('New order from 1 January 2026.')
+        ->toContain('do not need CPR to renew your practice permit')
+        ->toContain('$27 ($52,650)')
+        ->toContain('$32 ($62,400)')
+        ->toContain('$17.60 an hour in Ontario')
+        ->toContain("not on IRCC's list of occupations for the health care and social services category")
+        ->toContain('ClearDent')
+        ->not->toContain('Cleardent')
+        ->not->toContain('indeed.com/jobs?q=dental');
+
+    $siblings = [
+        'medical-assistant-jobs-in-usa' => Database\Seeders\MedicalAssistantJobsUsaBlogSeeder::class,
+        'janitor-jobs-in-canada' => Database\Seeders\JanitorJobsCanadaBlogSeeder::class,
+        'customer-service-jobs-in-canada' => Database\Seeders\CustomerServiceJobsCanadaBlogSeeder::class,
+        'visa-sponsorship-jobs-in-canada' => Database\Seeders\VisaSponsorshipJobsCanadaBlogSeeder::class,
+        'healthcare-assistant-jobs-in-uk' => Database\Seeders\HealthcareAssistantJobsUkBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/dental-assistant-jobs-in-canada');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -1970,6 +2009,7 @@ it('resolves every internal link the new guides publish', function () {
         'system-administrator-jobs-in-uae',
         'medical-receptionist-jobs-in-australia',
         'receptionist-jobs-in-australia',
+        'dental-assistant-jobs-in-canada',
     ];
 
     foreach ($guides as $guide) {
