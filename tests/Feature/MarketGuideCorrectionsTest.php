@@ -1775,6 +1775,32 @@ it('replaces the mechanic draft pay bands and benefit claims with the skills tes
         ->toContain('Rule 29(4) of the Emigration Rules, 1979');
 });
 
+it('replaces the janitor draft pay band and tips claim with Job Bank data, minimum wages and the LMIA limits', function () {
+    // The draft quotes $18 to $33 an hour, calls openings plentiful in every
+    // city it names, promises gig cleaners 100% of tips and says nothing about
+    // coming from abroad. On record: Job Bank's NOC 65312 wages and prospects,
+    // the 2026 minimum wages, the scope of Ontario's platform-worker law, and
+    // the low-wage LMIA and TEER 5 limits.
+    $this->seed(Database\Seeders\JanitorJobsCanadaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'janitor-jobs-in-canada')->value('content'))
+        ->toContain('NOC 65312')
+        ->toContain('$21.27')
+        ->toContain('$24.65')
+        ->toContain('from $16.00 to $28.72')
+        ->toContain('Completion of secondary school may be required')
+        ->toContain('not regulated in Canada')
+        ->toContain('Nova Scotia and New Brunswick:')
+        ->toContain('$17.95 on 1 October 2026')
+        ->toContain('federal minimum of $18.15')
+        ->toContain('not a legal right')
+        ->toContain('ride share, delivery and courier work')
+        ->toContain('10 July to 8 October 2026')
+        ->toContain('A one-year maximum')
+        ->toContain('TEER 5')
+        ->toContain('21 January 2025');
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -1850,6 +1876,7 @@ it('resolves every internal link the new guides publish', function () {
         'cdl-driver-jobs-in-usa',
         'online-jobs-in-pakistan',
         'mechanic-jobs-in-saudi-arabia',
+        'janitor-jobs-in-canada',
     ];
 
     foreach ($guides as $guide) {
