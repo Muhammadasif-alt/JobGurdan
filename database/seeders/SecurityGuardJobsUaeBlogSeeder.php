@@ -338,6 +338,7 @@ Offer B: <strong>AED 1,200 basic plus AED 800 in allowances</strong>, same accom
     <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; front-desk work under the same labour law, and the free zone that runs a different one.</li>
     <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a> &mdash; a graduate route into the Emirates, and the tax deadlines driving its hiring.</li>
     <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a> &mdash; shift and on-call IT work, and what the law says about overtime and air tickets.</li>
+    <li><a href="/blog/security-specialist-jobs-in-uae">Security Specialist Jobs in UAE</a> &mdash; the step above guarding, and the certifications cybersecurity roles need.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or financial advice. Licensing rules, labour law provisions and salary levels change, and figures on any job board are a moving average rather than a statistic. Confirm the current position with SIRA or the Private Security Business Department as applicable, and with the employer's own advertisement, before applying or paying for any training.</p>

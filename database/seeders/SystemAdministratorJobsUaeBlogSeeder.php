@@ -355,6 +355,7 @@ JOBHTML;
     <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a> &mdash; the Green visa, the DIFC and ADGM rules and the tax deadlines in full.</li>
     <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; the gratuity arithmetic on a basic salary.</li>
     <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; shift work under the same labour law.</li>
+    <li><a href="/blog/security-specialist-jobs-in-uae">Security Specialist Jobs in UAE</a> &mdash; the IT security track, and what CISSP really requires.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Labour law, Emiratisation targets, visa conditions, product lifecycles and certification rules change. Confirm the current position with MOHRE, the UAE visa authorities, Microsoft and the employer before applying or accepting an offer.</p>

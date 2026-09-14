@@ -1967,6 +1967,43 @@ it('replaces the school nurse draft pay bands, degree and certification claims w
     }
 });
 
+it('replaces the security specialist draft licensing, salary, benefit and certification claims with the regulators and the law', function () {
+    // The draft leaves the emirates outside Dubai to "local authorities",
+    // starts pay at AED 3,000, lists flights home as a benefit and treats
+    // CISSP as an application extra. On record: SIRA and PSBD jurisdiction,
+    // published guarding ranges, Federal Decree-Law No. 33 of 2021 and the
+    // ISC2 experience rule.
+    $this->seed(Database\Seeders\SecuritySpecialistJobsUaeBlogSeeder::class);
+
+    expect(Blog::where('slug', 'security-specialist-jobs-in-uae')->value('content'))
+        ->toContain('<strong>in the Emirate of Dubai</strong>')
+        ->toContain('Abu Dhabi, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah and Fujairah')
+        ->toContain('There is no separate Sharjah security regulator.')
+        ->toContain('A licence does not travel.')
+        ->toContain('five years of cumulative paid work in two or more of its eight domains')
+        ->toContain('Associate of ISC2')
+        ->toContain('AED 1,800 to 3,000 a month')
+        ->toContain('not a statutory entitlement')
+        ->toContain('repatriation ticket')
+        ->toContain('144 hours in any three weeks')
+        ->toContain('calculated on <strong>basic salary alone</strong>')
+        ->toContain('https://ae.indeed.com/q-security-specialist-jobs.html')
+        ->not->toContain('indeed.com/jobs?q=security');
+
+    $siblings = [
+        'security-guard-jobs-in-uae' => Database\Seeders\SecurityGuardJobsUaeBlogSeeder::class,
+        'system-administrator-jobs-in-uae' => Database\Seeders\SystemAdministratorJobsUaeBlogSeeder::class,
+        'receptionist-jobs-in-uae' => Database\Seeders\ReceptionistJobsUaeBlogSeeder::class,
+        'accountant-jobs-in-uae' => Database\Seeders\AccountantJobsUaeBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/security-specialist-jobs-in-uae');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2048,6 +2085,7 @@ it('resolves every internal link the new guides publish', function () {
         'receptionist-jobs-in-australia',
         'dental-assistant-jobs-in-canada',
         'school-nurse-jobs-in-usa',
+        'security-specialist-jobs-in-uae',
     ];
 
     foreach ($guides as $guide) {
