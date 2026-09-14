@@ -370,6 +370,7 @@ JOBHTML;
     <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; the LMIA and its 2026 limits across every sector.</li>
     <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a></li>
     <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; the licence classes, the hours limits and what American commercial driving really pays.</li>
+    <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a> &mdash; machine work paid from a $32.50 median, with a seasonal year.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, licensing rules, LMIA thresholds and immigration programs change often. Confirm the current position with the employer, your provincial licensing authority, Job Bank and IRCC, or a licensed immigration consultant, before applying.</p>

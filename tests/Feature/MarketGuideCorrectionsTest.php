@@ -2042,6 +2042,42 @@ it('replaces the recruiter draft market, licensing, posting and designation clai
     }
 });
 
+it('replaces the heavy equipment operator draft demand, certification and crane claims with Job Bank, Red Seal and provincial rules', function () {
+    // The draft promises steady demand coast to coast with premium Alberta and
+    // BC work, leaves apprenticeships unnamed and gives two crane examples. On
+    // record: Job Bank wages and outlooks for NOC 73400, the Red Seal operator
+    // trades, compulsory crane certification, Ontario working at heights and
+    // IRCC's trade occupations list.
+    $this->seed(Database\Seeders\HeavyEquipmentOperatorJobsCanadaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'heavy-equipment-operator-jobs-in-canada')->value('content'))
+        ->toContain('NOC 73400, heavy equipment operators')
+        ->toContain('Alberta, British Columbia, Quebec, Manitoba, Northwest Territories')
+        ->toContain('$32.50 ($67,600)')
+        ->toContain('$36.00 ($74,880)')
+        ->toContain('Heavy Equipment Operator (Tractor-Loader-Backhoe)')
+        ->toContain('<strong>not designated in Alberta or British Columbia</strong>')
+        ->toContain('compulsory in Nova Scotia, New Brunswick, Quebec, Ontario, Manitoba, Alberta and British Columbia')
+        ->toContain('<strong>valid for three years</strong>')
+        ->toContain('<strong>heavy-duty equipment mechanics (72401)</strong>')
+        ->toContain('separate occupation (NOC 72500)')
+        ->toContain('https://ca.indeed.com/q-heavy-equipment-operator-jobs.html')
+        ->not->toContain('jobs?q=heavy+equipment');
+
+    $siblings = [
+        'welder-jobs-in-canada' => Database\Seeders\WelderJobsCanadaBlogSeeder::class,
+        'bus-driver-jobs-in-canada' => Database\Seeders\BusDriverJobsCanadaBlogSeeder::class,
+        'farm-worker-jobs-in-canada' => Database\Seeders\FarmWorkerJobsCanadaBlogSeeder::class,
+        'construction-worker-jobs-in-australia' => Database\Seeders\ConstructionWorkerJobsAustraliaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/heavy-equipment-operator-jobs-in-canada');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2125,6 +2161,7 @@ it('resolves every internal link the new guides publish', function () {
         'school-nurse-jobs-in-usa',
         'security-specialist-jobs-in-uae',
         'recruiter-jobs-in-canada',
+        'heavy-equipment-operator-jobs-in-canada',
     ];
 
     foreach ($guides as $guide) {

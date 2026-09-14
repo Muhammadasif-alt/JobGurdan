@@ -370,6 +370,7 @@ JOBHTML;
     <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; a skilled trade route into Canada, and why most welder LMIAs are low-wage.</li>
     <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; where LMIA positions are approved, and the 2026 limits on low-wage jobs.</li>
     <li><a href="/blog/janitor-jobs-in-canada">Janitor Jobs in Canada</a> &mdash; another entry-level Canadian job, and the cities where its LMIAs are not processed.</li>
+    <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a> &mdash; seasonal equipment work, and the provinces with the best outlook.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Program eligibility, participating country lists, minimum wages and permanent residence pathways change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with Immigration, Refugees and Citizenship Canada, Employment and Social Development Canada and the employer's own advertisement before applying or paying any fee.</p>
