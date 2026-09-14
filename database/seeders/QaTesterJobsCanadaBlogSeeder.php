@@ -295,6 +295,7 @@ JOBHTML;
     <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a></li>
     <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a></li>
     <li><a href="/blog/ats-resume-writer-jobs-in-canada">ATS Resume Writer Jobs in Canada</a></li>
+    <li><a href="/blog/recruiter-jobs-in-canada">Recruiter Jobs in Canada</a> &mdash; how technical recruiters hire, and what they earn.</li>
 </ul>
 HTML;
     }

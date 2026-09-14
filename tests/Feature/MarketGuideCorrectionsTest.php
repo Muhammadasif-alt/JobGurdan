@@ -2004,6 +2004,44 @@ it('replaces the security specialist draft licensing, salary, benefit and certif
     }
 });
 
+it('replaces the recruiter draft market, licensing, posting and designation claims with the official record', function () {
+    // The draft calls the labour market tight, ignores recruiter licensing and
+    // the 2026 posting rules, and treats CPHR as national. On record: the
+    // August 2026 Labour Force Survey, Job Bank wages for NOC 12101, Ontario's
+    // ESA licensing and posting rules, BC pay transparency and HRPA.
+    $this->seed(Database\Seeders\RecruiterJobsCanadaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'recruiter-jobs-in-canada')->value('content'))
+        ->toContain('<strong>unemployment rate of 6.4 per cent</strong>')
+        ->toContain('<strong>down 42,000</strong>')
+        ->toContain('NOC 12101, human resources and recruitment officers')
+        ->toContain('$33.33 ($64,994)')
+        ->toContain('Since <strong>1 July 2024</strong>')
+        ->toContain('<strong>recruiter licence</strong>')
+        ->toContain('In-house recruiters are exempt in Ontario.')
+        ->toContain('<strong>$1,500</strong>')
+        ->toContain('pay range no wider than $50,000 a year')
+        ->toContain('Disclose the use of artificial intelligence')
+        ->toContain('Not require Canadian experience')
+        ->toContain('since 1 November 2023')
+        ->toContain('CHRP, CHRL and CHRE')
+        ->toContain('https://ca.indeed.com/q-recruiter-jobs.html')
+        ->not->toContain('jobs?q=recruiter');
+
+    $siblings = [
+        'ats-resume-writer-jobs-in-canada' => Database\Seeders\AtsResumeWriterCanadaBlogSeeder::class,
+        'customer-service-jobs-in-canada' => Database\Seeders\CustomerServiceJobsCanadaBlogSeeder::class,
+        'visa-sponsorship-jobs-in-canada' => Database\Seeders\VisaSponsorshipJobsCanadaBlogSeeder::class,
+        'qa-tester-jobs-in-canada' => Database\Seeders\QaTesterJobsCanadaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/recruiter-jobs-in-canada');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2086,6 +2124,7 @@ it('resolves every internal link the new guides publish', function () {
         'dental-assistant-jobs-in-canada',
         'school-nurse-jobs-in-usa',
         'security-specialist-jobs-in-uae',
+        'recruiter-jobs-in-canada',
     ];
 
     foreach ($guides as $guide) {

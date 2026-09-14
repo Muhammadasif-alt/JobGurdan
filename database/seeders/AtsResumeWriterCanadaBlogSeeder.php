@@ -341,6 +341,7 @@ JOBHTML;
     <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; the largest Canadian entry occupation, and how federal hiring really ranks you.</li>
     <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the seasonal and agricultural route into Canada, and what an LMIA really is.</li>
     <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a> &mdash; how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
+    <li><a href="/blog/recruiter-jobs-in-canada">Recruiter Jobs in Canada</a> &mdash; the people reading those resumes, and the 2026 Ontario job posting rules.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or immigration advice. CPP rates, GST/HST thresholds, minimum wages, platform fees and certification costs change &mdash; confirm the current position with the Canada Revenue Agency, your province, the certifying body and the employer's own advertisement before applying or paying any fee.</p>
