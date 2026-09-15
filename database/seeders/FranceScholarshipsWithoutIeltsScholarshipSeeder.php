@@ -265,6 +265,7 @@ class FranceScholarshipsWithoutIeltsScholarshipSeeder extends Seeder
 
 <h2>France, Italy or Australia?</h2>
 <p>Eiffel gives you a monthly allowance but leaves tuition to the institution, so it works best at a public university where the fee is waived. Italy asks you to fund yourself, then cuts tuition and adds a regional grant if your family income is low; see our <a href="/scholarships/{pavia}">University of Pavia</a>, <a href="/scholarships/{insubria}">University of Insubria</a> and <a href="/scholarships/{marche}">Polytechnic University of Marche</a> guides. Australia pays research students a full stipend but asks almost everyone for an English test; our <a href="/scholarships/{australia}">Australia scholarships without IELTS guide</a> sets out which tests count there.</p>
+<p>Looking at the United States? American universities fund students very differently again: at Yale there are no merit scholarships, only need-based aid, and PhD students are funded by the Graduate School. Our <a href="/scholarships/{yale}">Yale University scholarship guide</a> explains who qualifies.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>Can I get a scholarship in France without IELTS?</h3>
@@ -310,6 +311,7 @@ HTML, [
             '{pavia}' => PaviaScholarshipSeeder::SLUG,
             '{insubria}' => InsubriaScholarshipSeeder::SLUG,
             '{marche}' => PolytechnicMarcheScholarshipSeeder::SLUG,
+            '{yale}' => YaleUniversityScholarshipSeeder::SLUG,
         ]);
     }
 }

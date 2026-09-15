@@ -278,6 +278,7 @@ class YesProgramPakistanScholarshipSeeder extends Seeder
 <li><a href="/scholarships/university-of-sydney-rtp-international-scholarship">University of Sydney RTP International Scholarship</a> &mdash; a funded research degree in Australia.</li>
 <li><a href="/scholarships/monash-university-rtp-scholarship">Monash University RTP Scholarship</a> &mdash; stipend and tuition for PhD study.</li>
 <li><a href="/scholarships/university-of-pavia-scholarships">University of Pavia Scholarships</a> &mdash; fee waivers and grants in Italy.</li>
+<li><a href="/scholarships/yale-university-scholarship">Yale University Scholarship</a> &mdash; need-based aid for international undergraduates in the United States.</li>
 </ul>
 
 <p><em>JobGader is not part of the U.S. Department of State, the Society for International Education or iEARN Pakistan. This guide was checked against the U.S. Embassy &amp; Consulates in Pakistan announcement and yesprogram.pk on 14 September 2026. Confirm the details on yesprogram.pk before you apply.</em></p>

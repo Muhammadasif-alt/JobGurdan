@@ -13,6 +13,7 @@ use Database\Seeders\SydneyBusinessSchoolPhdScholarshipSeeder;
 use Database\Seeders\SydneyRtpDomesticScholarshipSeeder;
 use Database\Seeders\SydneyRtpInternationalScholarshipSeeder;
 use Database\Seeders\UniversityOfSouthAustraliaScholarshipSeeder;
+use Database\Seeders\YaleUniversityScholarshipSeeder;
 use Database\Seeders\YesProgramPakistanScholarshipSeeder;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Cache;
@@ -123,6 +124,7 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'australia without ielts' => [AustraliaScholarshipsWithoutIeltsScholarshipSeeder::class, AustraliaScholarshipsWithoutIeltsScholarshipSeeder::SLUG, 2],
     'south australia' => [UniversityOfSouthAustraliaScholarshipSeeder::class, UniversityOfSouthAustraliaScholarshipSeeder::SLUG, 1],
     'france without ielts' => [FranceScholarshipsWithoutIeltsScholarshipSeeder::class, FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG, 3],
+    'yale' => [YaleUniversityScholarshipSeeder::class, YaleUniversityScholarshipSeeder::SLUG, 2],
 ]);
 
 it('sends UniSA applicants to Adelaide University with the stipend, rounds and contacts the brief gets wrong', function () {
@@ -205,6 +207,61 @@ it('gives France applicants the Eiffel rates, the closed call and the English ru
 
     expect($scholarship->deadlineLabel())->toBe($scholarship->deadline_note)
         ->and(Scholarship::where('slug', '!=', FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG)->where('content', 'like', '%/scholarships/'.FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG.'%')->count())->toBe(4);
+});
+
+it('gives Yale applicants the income limits, costs, deadlines and PhD rates the brief gets wrong', function () {
+    // The brief quotes $65,000 and $75,000 income limits, a $70,000 cap, a
+    // $60,000 average grant, a $98,085 total, 2025-26 deadlines, April results,
+    // a 4.6% admit rate and "international financial aid forms".
+    foreach ([YaleUniversityScholarshipSeeder::class, YesProgramPakistanScholarshipSeeder::class, AustraliaScholarshipsWithoutIeltsScholarshipSeeder::class, FranceScholarshipsWithoutIeltsScholarshipSeeder::class, SydneyRtpInternationalScholarshipSeeder::class] as $seeder) {
+        $this->seed($seeder);
+    }
+
+    $scholarship = Scholarship::where('slug', YaleUniversityScholarshipSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->content)
+        ->toContain('merit-based scholarships are not offered by Yale')
+        ->toContain('below <strong>$100,000</strong>')
+        ->toContain('Scholarships meet or exceed the cost of tuition')
+        ->toContain('$2,000 start-up grant')
+        ->toContain('<strong>$75,220</strong>')
+        ->toContain('<strong>$78,742</strong>')
+        ->toContain('<td>$72,500</td>')
+        ->toContain('<td>$12,080</td>')
+        ->toContain('<td>$9,520</td>')
+        ->toContain('<strong>$97,985</strong>, plus travel')
+        ->toContain('<strong>1 November 2026</strong>')
+        ->toContain('<strong>2 January 2027</strong>')
+        ->toContain('<td>1 December 2026</td>')
+        ->toContain('<td>15 February 2027</td>')
+        ->toContain('Late March')
+        ->toContain('2,328 of 54,919 applicants, about 4.2%')
+        ->toContain('must include scores from the <strong>SAT or ACT</strong>')
+        ->toContain('two or more years of enrollment in an English-medium school')
+        ->toContain('PTE Academic is not on Yale\'s list.')
+        ->toContain('code 3987')
+        ->toContain('IDOC')
+        ->toContain('at least $52,046')
+        ->toContain('<strong>$53,629</strong>')
+        ->toContain('$1,500')
+        ->toContain('do not receive financial support from the Graduate School')
+        ->toContain('/scholarships/'.YesProgramPakistanScholarshipSeeder::SLUG)
+        ->toContain('/scholarships/'.SydneyRtpInternationalScholarshipSeeder::SLUG)
+        ->not->toContain('{yes}')
+        ->not->toContain('{apply}')
+        ->not->toContain('$65,000 per year')
+        ->not->toContain('4.6%')
+        ->not->toContain('Results announced in April');
+
+    $this->travelTo(Carbon::parse('2026-11-01 12:00:00'));
+    expect($scholarship->deadlineLabel())->toBe('Closes 1 Nov 2026');
+
+    $this->travelTo(Carbon::parse('2026-11-02 12:00:00'));
+    expect($scholarship->deadlineLabel())->toBe('Regular Decision closes 2 Jan 2027 (fall 2027 entry)');
+
+    $this->travelBack();
+
+    expect(Scholarship::where('slug', '!=', YaleUniversityScholarshipSeeder::SLUG)->where('content', 'like', '%/scholarships/'.YaleUniversityScholarshipSeeder::SLUG.'%')->count())->toBe(4);
 });
 
 it('replaces the "no IELTS" promise with the English rules each Australian award really sets', function () {
