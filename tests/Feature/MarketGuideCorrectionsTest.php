@@ -2225,6 +2225,40 @@ it('replaces the entry level IT draft pay bands, demand, cybersecurity and certi
     }
 });
 
+it('replaces the customer service draft demand, pay and technical support claims with BLS data', function () {
+    // The draft calls demand steady, folds IT help desk into a low band, sells
+    // customer success as a BLS tier and leaves the pay unsourced. On record:
+    // BLS May 2025 OEWS wages, the 2025-35 projection and the OOH entry path.
+    $this->seed(Database\Seeders\CustomerServiceJobsUsaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'customer-service-jobs-in-usa')->value('content'))
+        ->toContain('$44,770')
+        ->toContain('$31,750')
+        ->toContain('$63,590')
+        ->toContain('<strong>Employment is projected to fall 5 per cent from 2025 to 2035</strong>')
+        ->toContain('141,800 jobs')
+        ->toContain('289,500 openings')
+        ->toContain('computer user support specialists')
+        ->toContain('$61,860')
+        ->toContain('industry job title, not a BLS occupation')
+        ->toContain('high school diploma or equivalent')
+        ->toContain('https://www.indeed.com/q-customer-service-representative-jobs.html')
+        ->not->toContain('jobs?q=customer+service');
+
+    $siblings = [
+        'remote-customer-service-jobs' => Database\Seeders\RemoteCustomerServiceJobsBlogSeeder::class,
+        'work-from-home-jobs-in-usa' => Database\Seeders\WorkFromHomeJobsUsaBlogSeeder::class,
+        'help-desk-technician-jobs-in-usa' => Database\Seeders\HelpDeskTechnicianJobsUsaBlogSeeder::class,
+        'retail-associate-jobs-in-usa' => Database\Seeders\RetailAssociateJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/customer-service-jobs-in-usa');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2313,6 +2347,7 @@ it('resolves every internal link the new guides publish', function () {
         'work-from-home-jobs-in-usa',
         'jobs-in-uk-for-foreigners',
         'entry-level-it-jobs',
+        'customer-service-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {
