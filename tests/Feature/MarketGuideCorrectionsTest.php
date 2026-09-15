@@ -2330,6 +2330,40 @@ it('replaces the online teacher draft pay, China market, nationality and TEFL cl
     }
 });
 
+it('replaces the intelligence analyst draft pay, clearance and citizenship claims with official data', function () {
+    // The draft gives unsourced bands, treats the role as broadly open and
+    // understates the clearance. On record: 2026 GS pay, the BLS proxy, the
+    // TS/SCI norm, and the citizenship rule under Executive Order 12968.
+    $this->seed(Database\Seeders\IntelligenceAnalystJobsUsaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'intelligence-analyst-jobs-in-usa')->value('content'))
+        ->toContain('no BLS "intelligence analyst" occupation')
+        ->toContain('$93,790')
+        ->toContain('$160,540')
+        ->toContain('$43,106')
+        ->toContain('$90,925')
+        ->toContain('locality pay adds 17 to 34 per cent')
+        ->toContain('A clearance requires US citizenship')
+        ->toContain('Executive Order 12968')
+        ->toContain('Top Secret plus Sensitive Compartmented Information (TS/SCI)')
+        ->toContain('18 member organisations')
+        ->toContain('https://www.indeed.com/q-intelligence-analyst-jobs.html')
+        ->not->toContain('jobs?q=intelligence+analyst');
+
+    $siblings = [
+        'cybersecurity-analyst-jobs-in-usa' => Database\Seeders\CybersecurityAnalystJobsUsaBlogSeeder::class,
+        'federal-police-jobs-in-usa' => Database\Seeders\FederalPoliceJobsUsaBlogSeeder::class,
+        'police-officer-jobs-in-usa' => Database\Seeders\PoliceOfficerJobsUsaBlogSeeder::class,
+        'data-scientist-jobs-in-usa' => Database\Seeders\DataScientistJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/intelligence-analyst-jobs-in-usa');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2421,6 +2455,7 @@ it('resolves every internal link the new guides publish', function () {
         'customer-service-jobs-in-usa',
         'healthcare-support-jobs-in-uk',
         'online-teacher-jobs-worldwide',
+        'intelligence-analyst-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {

@@ -341,6 +341,7 @@ JOBHTML;
     <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a> &mdash; the federal agent route into cybercrime work, and the 25% availability pay.</li>
     <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a> &mdash; how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
     <li><a href="/blog/entry-level-it-jobs">Entry Level IT Jobs</a> &mdash; the IT jobs to start in before a security role.</li>
+    <li><a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a> &mdash; the national-security analyst route, its GS pay and the clearance it needs.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, certification requirements and clearance policy change &mdash; ISC2 revised its approved-credential waiver list in April 2026 &mdash; and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics, ISC2, ISACA and the employer's own advertisement before applying or paying for any course.</p>

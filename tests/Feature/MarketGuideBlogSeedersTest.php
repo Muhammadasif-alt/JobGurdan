@@ -33,6 +33,13 @@ dataset('market guides', [
         'https://www.indeed.com/q-online-teacher-jobs.html',
         'Online Teacher',
     ],
+    'intelligence analyst usa' => [
+        'intelligence-analyst-jobs-in-usa',
+        Database\Seeders\IntelligenceAnalystJobsUsaBlogSeeder::class,
+        ['intelligence-analyst-jobs-in-usa-desk.jpg', 'intelligence-analyst-jobs-in-usa-analysis.jpg'],
+        'https://www.indeed.com/q-intelligence-analyst-jobs.html',
+        'Intelligence Analyst',
+    ],
     'entry level it' => [
         'entry-level-it-jobs',
         Database\Seeders\EntryLevelItJobsBlogSeeder::class,
