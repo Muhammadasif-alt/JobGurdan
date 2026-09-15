@@ -371,6 +371,7 @@ JOBHTML;
     <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; catering roles schools recruit for, against the legal minimum.</li>
     <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; a trade route with its own qualification ladder.</li>
     <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; British entry-level work and its employment-status trap.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the visa routes for teachers and other foreign workers, compared.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, legal or immigration advice. Pay scales, registration requirements, training routes, bursaries and qualification recognition change, and the 2026/27 England figures were an accepted recommendation rather than a published statutory document when this was written. Confirm the current position with the Department for Education, GTC Scotland, GTCNI, the Teachers' Pension Scheme and the employer's own advertisement before applying.</p>

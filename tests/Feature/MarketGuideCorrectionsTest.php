@@ -2152,6 +2152,43 @@ it('replaces the work from home draft pay bands and missing tax, expense, break 
     }
 });
 
+it('replaces the UK foreigners draft threshold, shortage list, care, graduate and transfer visa claims with current gov.uk rules', function () {
+    // The draft quotes a £26,200 threshold, a shortage occupation list, an
+    // open care route, a two-to-three-year Graduate visa and an Intra-Company
+    // Transfer visa. On record: the £41,700 threshold, the ISL and TSL expiry,
+    // the 22 July 2025 care closure, B2 English and the 2027 Graduate change.
+    $this->seed(Database\Seeders\JobsInUkForForeignersBlogSeeder::class);
+
+    expect(Blog::where('slug', 'jobs-in-uk-for-foreigners')->value('content'))
+        ->toContain('<strong>£41,700 a year</strong>')
+        ->toContain('<strong>Immigration Salary List</strong>')
+        ->toContain('<strong>expire on 31 December 2026</strong>')
+        ->toContain('<strong>22 July 2025</strong>')
+        ->toContain('<strong>level B2</strong>')
+        ->toContain('<strong>18 months if you apply on or after 1 January 2027</strong>')
+        ->toContain('replaced the Intra-Company Transfer visa')
+        ->toContain('£819 fee up to 3 years')
+        ->toContain('£2,530 savings')
+        ->toContain('Hong Kong and Taiwan')
+        ->toContain('register of licensed sponsors')
+        ->toContain('https://uk.indeed.com/q-visa-sponsorship-jobs.html')
+        ->not->toContain('starts around £26,200 per year')
+        ->not->toContain('indeed.co.uk/jobs');
+
+    $siblings = [
+        'warehouse-jobs-uk-visa-sponsorship' => Database\Seeders\WarehouseUkBlogSeeder::class,
+        'healthcare-assistant-jobs-in-uk' => Database\Seeders\HealthcareAssistantJobsUkBlogSeeder::class,
+        'it-support-jobs-in-uk' => Database\Seeders\ItSupportJobsUkBlogSeeder::class,
+        'teaching-jobs-in-uk' => Database\Seeders\TeachingJobsUkBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/jobs-in-uk-for-foreigners');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2238,6 +2275,7 @@ it('resolves every internal link the new guides publish', function () {
         'heavy-equipment-operator-jobs-in-canada',
         'forklift-operator-jobs-in-usa',
         'work-from-home-jobs-in-usa',
+        'jobs-in-uk-for-foreigners',
     ];
 
     foreach ($guides as $guide) {
