@@ -383,6 +383,7 @@ JOBHTML;
     <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; the office-based version, and why a freelance range is not a salary band.</li>
     <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a> &mdash; entry-level salaried pay and the minimum wage floor an offer has to clear.</li>
     <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a> &mdash; the American remote market, and why a US job usually needs US work authorization.</li>
+    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; teaching online for global students, and which platforms hire from Pakistan.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or financial advice. Platform fees, State Bank instructions, tax rates and minimum wage notifications change &mdash; confirm the current position with the platform, your bank, FBR, PSEB and your provincial labour department before relying on it.</p>

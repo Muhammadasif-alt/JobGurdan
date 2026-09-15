@@ -26,6 +26,13 @@ dataset('market guides', [
         'https://uk.indeed.com/q-healthcare-support-worker-jobs.html',
         'Healthcare Support Worker',
     ],
+    'online teacher worldwide' => [
+        'online-teacher-jobs-worldwide',
+        Database\Seeders\OnlineTeacherJobsWorldwideBlogSeeder::class,
+        ['online-teacher-jobs-worldwide-classroom.jpg', 'online-teacher-jobs-worldwide-lesson.jpg'],
+        'https://www.indeed.com/q-online-teacher-jobs.html',
+        'Online Teacher',
+    ],
     'entry level it' => [
         'entry-level-it-jobs',
         Database\Seeders\EntryLevelItJobsBlogSeeder::class,

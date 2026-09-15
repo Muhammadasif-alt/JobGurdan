@@ -2295,6 +2295,41 @@ it('replaces the healthcare support draft NHS pay, Care Certificate, qualificati
     }
 });
 
+it('replaces the online teacher draft pay, China market, nationality and TEFL claims with sourced data', function () {
+    // The draft quotes a stale $10-25 ESL band, treats the China market as
+    // live, ignores nationality rules and calls TEFL accredited. On record:
+    // platform-published rates, China's 2021 policy, and BLS tutor pay.
+    $this->seed(Database\Seeders\OnlineTeacherJobsWorldwideBlogSeeder::class);
+
+    expect(Blog::where('slug', 'online-teacher-jobs-worldwide')->value('content'))
+        ->toContain('$0.17 a minute')
+        ->toContain('$10.20 an hour')
+        ->toContain('18% to 33%')
+        ->toContain('100% of your first trial lesson')
+        ->toContain('$43,350 a year')
+        ->toContain('<strong>24 July 2021</strong>')
+        ->toContain('19 October 2021')
+        ->toContain('open to any nationality')
+        ->toContain('120-hour certificate')
+        ->toContain('no global regulator')
+        ->toContain('US state teaching licence')
+        ->toContain('https://www.indeed.com/q-online-teacher-jobs.html')
+        ->not->toContain('jobs?q=online+teacher');
+
+    $siblings = [
+        'teacher-jobs-in-pakistan' => Database\Seeders\TeacherJobsPakistanBlogSeeder::class,
+        'teacher-jobs-in-usa' => Database\Seeders\TeacherJobsUsaBlogSeeder::class,
+        'teaching-jobs-in-uk' => Database\Seeders\TeachingJobsUkBlogSeeder::class,
+        'online-jobs-in-pakistan' => Database\Seeders\OnlineJobsPakistanBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/online-teacher-jobs-worldwide');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2385,6 +2420,7 @@ it('resolves every internal link the new guides publish', function () {
         'entry-level-it-jobs',
         'customer-service-jobs-in-usa',
         'healthcare-support-jobs-in-uk',
+        'online-teacher-jobs-worldwide',
     ];
 
     foreach ($guides as $guide) {
