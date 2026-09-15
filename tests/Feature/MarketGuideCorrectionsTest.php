@@ -2189,6 +2189,42 @@ it('replaces the UK foreigners draft threshold, shortage list, care, graduate an
     }
 });
 
+it('replaces the entry level IT draft pay bands, demand, cybersecurity and certification claims with BLS and CompTIA data', function () {
+    // The draft's systems and cyber bands sit below the lowest-paid tenth,
+    // it calls demand steady, treats junior cyber as a first job and names
+    // A+ without the exam change. On record: BLS May 2025 wages, the 2025-35
+    // projections, BLS entry requirements and the V15 A+ launch.
+    $this->seed(Database\Seeders\EntryLevelItJobsBlogSeeder::class);
+
+    expect(Blog::where('slug', 'entry-level-it-jobs')->value('content'))
+        ->toContain('$40,980')
+        ->toContain('$61,860')
+        ->toContain('$62,640')
+        ->toContain('$75,090')
+        ->toContain('$129,180')
+        ->toContain('<strong>Computer support specialists: down 3 per cent.</strong>')
+        ->toContain("bachelor's degree plus work experience in a related occupation")
+        ->toContain('<strong>220-1201 (Core 1) and 220-1202 (Core 2)</strong>')
+        ->toContain('<strong>25 March 2025</strong>')
+        ->toContain('N10-009')
+        ->toContain('SY0-701')
+        ->toContain('https://www.indeed.com/q-entry-level-it-jobs.html')
+        ->not->toContain('jobs?q=entry+level+it');
+
+    $siblings = [
+        'help-desk-technician-jobs-in-usa' => Database\Seeders\HelpDeskTechnicianJobsUsaBlogSeeder::class,
+        'network-engineer-jobs-in-usa' => Database\Seeders\NetworkEngineerJobsUsaBlogSeeder::class,
+        'cybersecurity-analyst-jobs-in-usa' => Database\Seeders\CybersecurityAnalystJobsUsaBlogSeeder::class,
+        'web-developer-jobs-in-usa' => Database\Seeders\WebDeveloperJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/entry-level-it-jobs');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2276,6 +2312,7 @@ it('resolves every internal link the new guides publish', function () {
         'forklift-operator-jobs-in-usa',
         'work-from-home-jobs-in-usa',
         'jobs-in-uk-for-foreigners',
+        'entry-level-it-jobs',
     ];
 
     foreach ($guides as $guide) {
