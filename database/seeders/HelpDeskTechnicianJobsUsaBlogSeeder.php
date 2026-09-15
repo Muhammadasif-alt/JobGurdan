@@ -324,6 +324,7 @@ JOBHTML;
     <li><a href="/blog/database-administrator-jobs-in-usa">Database Administrator Jobs in USA</a> &mdash; a specialism to aim at from the service desk.</li>
     <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a> &mdash; how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
     <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a> &mdash; where help desk experience leads abroad, and the Microsoft product names employers now use.</li>
+    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a> &mdash; remote work pay, taxes and who covers your equipment.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers or financial advice. Pay, projections, certification exams and contract requirements change and differ between employers and states. Confirm the current position with the employer, the BLS and CompTIA before applying or paying for training.</p>

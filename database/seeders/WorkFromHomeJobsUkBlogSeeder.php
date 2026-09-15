@@ -393,6 +393,7 @@ JOBHTML;
     <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a></li>
     <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a></li>
     <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a></li>
+    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a> &mdash; the American version, with contractor tax and home office rules.</li>
 </ul>
 HTML;
     }

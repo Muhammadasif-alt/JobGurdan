@@ -2114,6 +2114,44 @@ it('replaces the forklift operator draft pay, certification, demand and visa cla
     }
 });
 
+it('replaces the work from home draft pay bands and missing tax, expense, break and scam rules with the official record', function () {
+    // The draft's entry band sits below BLS medians, and it skips contractor
+    // tax, who pays for the home office, paid breaks at home and task scams.
+    // On record: BLS May 2025 medians, IRS 1099 thresholds and home office
+    // rules, California Labor Code section 2802, FAB 2023-1 and FTC data.
+    $this->seed(Database\Seeders\WorkFromHomeJobsUsaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'work-from-home-jobs-in-usa')->value('content'))
+        ->toContain('$44,770')
+        ->toContain('$41,340')
+        ->toContain('$135,980')
+        ->toContain('<strong>15.3 per cent self-employment tax</strong>')
+        ->toContain('<strong>$2,000 or more</strong>')
+        ->toContain('<strong>$20,000 and 200 transactions</strong>')
+        ->toContain('employees are not eligible for the home office deduction')
+        ->toContain('California Labor Code section 2802')
+        ->toContain('Field Assistance Bulletin 2023-1')
+        ->toContain('Short breaks of 20 minutes or less are paid.')
+        ->toContain('<strong>$90 million in 2020 to $501 million in 2024</strong>')
+        ->toContain('Task scams.')
+        ->toContain('/blog/remote-jobs-in-usa')
+        ->toContain('https://www.indeed.com/q-work-from-home-jobs.html')
+        ->not->toContain('jobs?q=work+from+home');
+
+    $siblings = [
+        'remote-jobs-in-usa' => Database\Seeders\RemoteJobsUsaBlogSeeder::class,
+        'work-from-home-jobs-in-uk' => Database\Seeders\WorkFromHomeJobsUkBlogSeeder::class,
+        'data-entry-jobs-in-usa' => Database\Seeders\DataEntryJobsUsaBlogSeeder::class,
+        'help-desk-technician-jobs-in-usa' => Database\Seeders\HelpDeskTechnicianJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/work-from-home-jobs-in-usa');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2199,6 +2237,7 @@ it('resolves every internal link the new guides publish', function () {
         'recruiter-jobs-in-canada',
         'heavy-equipment-operator-jobs-in-canada',
         'forklift-operator-jobs-in-usa',
+        'work-from-home-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {
