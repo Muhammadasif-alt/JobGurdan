@@ -328,6 +328,7 @@ JOBHTML;
     <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; another skilled UK occupation, and its certification deadline.</li>
     <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; clinical work in the Gulf, and the SCFHS registration steps behind it.</li>
     <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; what nurses earn in America, and the multistate license residency rule.</li>
+    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; the support roles that keep the NHS running, and how to progress from them.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Immigration rules, pay bands and registration requirements change &mdash; confirm the current position on gov.uk, with the relevant regulator, and on the employer's own advertisement before applying or paying any fee.</p>

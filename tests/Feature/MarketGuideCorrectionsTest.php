@@ -2259,6 +2259,42 @@ it('replaces the customer service draft demand, pay and technical support claims
     }
 });
 
+it('replaces the healthcare support draft NHS pay, Care Certificate, qualification and visa claims with official data', function () {
+    // The draft quotes 2023-era NHS bands, a 15-standard Care Certificate,
+    // NVQ/QCF naming and no visa change. On record: 2026/27 Agenda for Change
+    // scales, the 16-standard update, RQF diplomas and the 22 July 2025 closure.
+    $this->seed(Database\Seeders\HealthcareSupportJobsUkBlogSeeder::class);
+
+    expect(Blog::where('slug', 'healthcare-support-jobs-in-uk')->value('content'))
+        ->toContain('GBP 25,272 (single point)')
+        ->toContain('GBP 25,760 &ndash; GBP 27,476')
+        ->toContain('GBP 28,392 &ndash; GBP 31,157')
+        ->toContain('<strong>16 standards</strong>')
+        ->toContain('Level 2 Adult Social Care Certificate qualification')
+        ->toContain('Regulated Qualifications Framework (RQF)')
+        ->toContain('closed to new applicants from overseas on 22 July 2025')
+        ->toContain('22 July 2028')
+        ->toContain('enhanced DBS check')
+        ->toContain('employer arranges and pays for it')
+        ->toContain('6.2 per cent')
+        ->toContain('https://uk.indeed.com/q-healthcare-support-worker-jobs.html')
+        ->toContain('Diploma in Adult Care (RQF)')
+        ->not->toContain('15 core competencies');
+
+    $siblings = [
+        'healthcare-assistant-jobs-in-uk' => Database\Seeders\HealthcareAssistantJobsUkBlogSeeder::class,
+        'healthcare-jobs-in-the-uk' => Database\Seeders\HealthcareJobsUkBlogSeeder::class,
+        'caregiver-jobs-in-uk-with-visa-sponsorship' => Database\Seeders\CaregiverUkBlogSeeder::class,
+        'jobs-in-uk-for-foreigners' => Database\Seeders\JobsInUkForForeignersBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/healthcare-support-jobs-in-uk');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2348,6 +2384,7 @@ it('resolves every internal link the new guides publish', function () {
         'jobs-in-uk-for-foreigners',
         'entry-level-it-jobs',
         'customer-service-jobs-in-usa',
+        'healthcare-support-jobs-in-uk',
     ];
 
     foreach ($guides as $guide) {

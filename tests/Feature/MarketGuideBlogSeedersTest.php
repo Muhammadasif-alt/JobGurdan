@@ -19,6 +19,13 @@ dataset('market guides', [
         'https://www.indeed.com/q-customer-service-representative-jobs.html',
         'Customer Service Representative',
     ],
+    'healthcare support uk' => [
+        'healthcare-support-jobs-in-uk',
+        Database\Seeders\HealthcareSupportJobsUkBlogSeeder::class,
+        ['healthcare-support-jobs-in-uk-team.jpg', 'healthcare-support-jobs-in-uk-care.jpg'],
+        'https://uk.indeed.com/q-healthcare-support-worker-jobs.html',
+        'Healthcare Support Worker',
+    ],
     'entry level it' => [
         'entry-level-it-jobs',
         Database\Seeders\EntryLevelItJobsBlogSeeder::class,

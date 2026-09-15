@@ -336,6 +336,7 @@ JOBHTML;
 <ul>
     <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; the EB-3 and H-2B routes, CDL requirements and realistic pay.</li>
     <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; H-2B and J-1 hospitality sponsorship, which roles get hired, and how to spot a scam agency.</li>
+    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; the NHS support roles, the Care Certificate and what the 2025 visa change means.</li>
 </ul>
 
 <div style="text-align:center;margin:32px 0;">
