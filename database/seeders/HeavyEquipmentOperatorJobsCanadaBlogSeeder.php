@@ -381,6 +381,7 @@ JOBHTML;
     <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; seasonal work on another Canadian program.</li>
     <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; site work under Australian awards and the White Card.</li>
     <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; heavy vehicle work and licence classes across the border.</li>
+    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; warehouse machines in the USA, where OSHA sets the training rule.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, outlooks, trade certification rules, safety training requirements and Express Entry categories change and differ by province. Confirm the current position with Job Bank, the Red Seal program, your provincial apprenticeship authority and IRCC before training, applying or accepting an offer.</p>

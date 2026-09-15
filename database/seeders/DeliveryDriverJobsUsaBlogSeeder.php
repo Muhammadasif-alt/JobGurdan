@@ -338,6 +338,7 @@ JOBHTML;
     <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; hourly passenger driving north of the border, with Job Bank pay by province.</li>
     <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a></li>
     <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; the heavier licence, the mandatory training and why mileage pay is not an hourly wage.</li>
+    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; the warehouse side of delivery, with a $46,420 BLS median.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax, insurance or immigration advice. Minimum pay rules, mileage rates, tax rates and employment status tests change, and pay figures on any job board or app are a moving average rather than a statistic. Confirm the current position with the IRS, your state and city labor authorities, your insurer and the employer's own advertisement before applying.</p>

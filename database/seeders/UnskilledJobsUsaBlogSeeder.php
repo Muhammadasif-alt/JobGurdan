@@ -335,6 +335,7 @@ JOBHTML;
     <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a> &mdash; why a visa holder cannot carry a gun, and which states hire non-citizens.</li>
     <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; a degree-level route, and why the J-1 teacher visa is not a green card.</li>
     <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; commercial driving, its mandatory training and the pay the recruitment ads leave out.</li>
+    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; a no-degree warehouse job, and why its visa sponsorship is rare.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Wage rates, visa caps and Visa Bulletin dates change &mdash; confirm the current position with the US Department of Labor, the monthly Visa Bulletin, or a licensed immigration attorney before paying any fee or travelling.</p>

@@ -2078,6 +2078,42 @@ it('replaces the heavy equipment operator draft demand, certification and crane 
     }
 });
 
+it('replaces the forklift operator draft pay, certification, demand and visa claims with BLS, OSHA and DOL rules', function () {
+    // The draft quotes $32,000 to $55,000, names Texas as high-paying, treats
+    // OSHA certification as a portable credential, ignores the age rule and
+    // its banner promises sponsorship. On record: BLS May 2025 wages and
+    // projections, 29 CFR 1910.178(l), Hazardous Occupations Order No. 7.
+    $this->seed(Database\Seeders\ForkliftOperatorJobsUsaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'forklift-operator-jobs-in-usa')->value('content'))
+        ->toContain('$46,420')
+        ->toContain('$36,840')
+        ->toContain('$62,520')
+        ->toContain('<strong>Texas median is $45,450</strong>')
+        ->toContain('29 CFR 1910.178(l)')
+        ->toContain('OSHA does not certify operators.')
+        ->toContain('<strong>at least once every three years</strong>')
+        ->toContain('Hazardous Occupations Order No. 7')
+        ->toContain('<strong>under 18</strong>')
+        ->toContain('grow about 1 per cent')
+        ->toContain('EB-3 "other worker" green card')
+        ->toContain('https://www.indeed.com/q-forklift-operator-jobs.html')
+        ->not->toContain('jobs?q=forklift');
+
+    $siblings = [
+        'cdl-driver-jobs-in-usa' => Database\Seeders\CdlDriverJobsUsaBlogSeeder::class,
+        'delivery-driver-jobs-in-usa' => Database\Seeders\DeliveryDriverJobsUsaBlogSeeder::class,
+        'unskilled-jobs-in-usa-for-foreigners' => Database\Seeders\UnskilledJobsUsaBlogSeeder::class,
+        'heavy-equipment-operator-jobs-in-canada' => Database\Seeders\HeavyEquipmentOperatorJobsCanadaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/forklift-operator-jobs-in-usa');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2162,6 +2198,7 @@ it('resolves every internal link the new guides publish', function () {
         'security-specialist-jobs-in-uae',
         'recruiter-jobs-in-canada',
         'heavy-equipment-operator-jobs-in-canada',
+        'forklift-operator-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {
