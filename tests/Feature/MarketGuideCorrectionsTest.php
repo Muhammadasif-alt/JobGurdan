@@ -2610,6 +2610,111 @@ it('corrects the UK office assistant below-minimum pay, the visa threshold and t
     }
 });
 
+it('anchors Australian aged care pay on the award and frames the ACILA visa floor', function () {
+    // The draft's entry pay predates the 1 October 2025 work value increase, it
+    // calls the visa by its old name, and it treats the $51,222 labour-agreement
+    // floor as a market wage. On record: the Aged Care Award rate, the Skills in
+    // Demand visa, ANZSCO 423313 and the current Core Skills Income Threshold.
+    $this->seed(Database\Seeders\PersonalCareAssistantJobsAustraliaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'personal-care-assistant-jobs-in-australia')->value('content'))
+        ->toContain('Skills in Demand')
+        ->toContain('subclass 482')
+        ->toContain('423313')
+        ->toContain('$51,222')
+        ->toContain('$79,499')
+        ->toContain('1 October 2025')
+        ->toContain('$36.23')
+        ->toContain('NDIS Worker Screening')
+        ->toContain('$15,900')
+        ->toContain('subclass 186')
+        ->toContain('two years')
+        ->toContain('https://au.indeed.com/q-sponsorship-visa,-personal-care-assistant-jobs.html')
+        ->not->toContain('jobs?q=personal');
+
+    $siblings = [
+        'visa-sponsorship-jobs-in-australia' => Database\Seeders\VisaSponsorshipJobsAustraliaBlogSeeder::class,
+        'medical-receptionist-jobs-in-australia' => Database\Seeders\MedicalReceptionistJobsAustraliaBlogSeeder::class,
+        'receptionist-jobs-in-australia' => Database\Seeders\ReceptionistJobsAustraliaBlogSeeder::class,
+        'healthcare-support-jobs-in-uk' => Database\Seeders\HealthcareSupportJobsUkBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/personal-care-assistant-jobs-in-australia');
+    }
+});
+
+it('updates US physical therapist pay, the compact count and the VisaScreen issuer', function () {
+    // The draft quotes stale median pay, understates the PT Compact and says
+    // FCCPT issues VisaScreen. On record: the May 2025 BLS median, the 2026
+    // compact count, and that CGFNS issues VisaScreen while FCCPT issues a Type I.
+    $this->seed(Database\Seeders\PhysicalTherapistJobsUsaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'physical-therapist-jobs-in-usa')->value('content'))
+        ->toContain('$102,760')
+        ->toContain('$49.40')
+        ->toContain('$132,500')
+        ->toContain('12%')
+        ->toContain('13,400')
+        ->toContain('41 jurisdictions')
+        ->toContain('VisaScreen')
+        ->toContain('CGFNS')
+        ->toContain('Type I')
+        ->toContain('Schedule A')
+        ->toContain('NPTE')
+        ->toContain('https://www.indeed.com/q-physical-therapist-jobs.html')
+        ->not->toContain('jobs?q=physical');
+
+    $siblings = [
+        'registered-nurse-jobs-in-usa' => Database\Seeders\RegisteredNurseJobsUsaBlogSeeder::class,
+        'medical-assistant-jobs-in-usa' => Database\Seeders\MedicalAssistantJobsUsaBlogSeeder::class,
+        'school-nurse-jobs-in-usa' => Database\Seeders\SchoolNurseJobsUsaBlogSeeder::class,
+        'healthcare-assistant-jobs-in-uk' => Database\Seeders\HealthcareAssistantJobsUkBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/physical-therapist-jobs-in-usa');
+    }
+});
+
+it('anchors Canadian OT pay on Job Bank and folds in the 2026 Express Entry change', function () {
+    // The draft gives a pay range with no source, inflates the top end past Job
+    // Bank's high wage, and misses the February 2026 experience change. On
+    // record: the Job Bank median, the NOTCE/SEAS route and the IRCC update.
+    $this->seed(Database\Seeders\OccupationalTherapistJobsCanadaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'occupational-therapist-jobs-in-canada')->value('content'))
+        ->toContain('$46.00')
+        ->toContain('$36.17')
+        ->toContain('$55.00')
+        ->toContain('19 November 2025')
+        ->toContain('18 February 2026')
+        ->toContain('one year of qualifying work experience')
+        ->toContain('Substantial Equivalency Assessment System')
+        ->toContain('NOTCE')
+        ->toContain('except Quebec')
+        ->toContain('30 September 2026')
+        ->toContain('https://ca.indeed.com/q-occupational-therapist-jobs.html')
+        ->not->toContain('jobs?q=occupational');
+
+    $siblings = [
+        'dental-assistant-jobs-in-canada' => Database\Seeders\DentalAssistantJobsCanadaBlogSeeder::class,
+        'visa-sponsorship-jobs-in-canada' => Database\Seeders\VisaSponsorshipJobsCanadaBlogSeeder::class,
+        'jobs-in-canada-for-foreign-workers' => Database\Seeders\JobsInCanadaForeignWorkersBlogSeeder::class,
+        'recruiter-jobs-in-canada' => Database\Seeders\RecruiterJobsCanadaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/occupational-therapist-jobs-in-canada');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2709,6 +2814,9 @@ it('resolves every internal link the new guides publish', function () {
         'jobs-in-canada-for-foreign-workers',
         'call-center-jobs-in-pakistan',
         'office-assistant-jobs-in-uk',
+        'personal-care-assistant-jobs-in-australia',
+        'physical-therapist-jobs-in-usa',
+        'occupational-therapist-jobs-in-canada',
     ];
 
     foreach ($guides as $guide) {

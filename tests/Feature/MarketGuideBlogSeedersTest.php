@@ -12,6 +12,27 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'personal care assistant australia' => [
+        'personal-care-assistant-jobs-in-australia',
+        Database\Seeders\PersonalCareAssistantJobsAustraliaBlogSeeder::class,
+        ['personal-care-assistant-jobs-in-australia-home-care.jpg', 'personal-care-assistant-jobs-in-australia-daily-support.jpg'],
+        'https://au.indeed.com/q-sponsorship-visa,-personal-care-assistant-jobs.html',
+        'Personal Care Assistant',
+    ],
+    'physical therapist usa' => [
+        'physical-therapist-jobs-in-usa',
+        Database\Seeders\PhysicalTherapistJobsUsaBlogSeeder::class,
+        ['physical-therapist-jobs-in-usa-exercise.jpg', 'physical-therapist-jobs-in-usa-treatment.jpg'],
+        'https://www.indeed.com/q-physical-therapist-jobs.html',
+        'Physical Therapist',
+    ],
+    'occupational therapist canada' => [
+        'occupational-therapist-jobs-in-canada',
+        Database\Seeders\OccupationalTherapistJobsCanadaBlogSeeder::class,
+        ['occupational-therapist-jobs-in-canada-therapy.jpg', 'occupational-therapist-jobs-in-canada-rehab.jpg'],
+        'https://ca.indeed.com/q-occupational-therapist-jobs.html',
+        'Occupational Therapist',
+    ],
     'jobs in canada foreign workers' => [
         'jobs-in-canada-for-foreign-workers',
         Database\Seeders\JobsInCanadaForeignWorkersBlogSeeder::class,
