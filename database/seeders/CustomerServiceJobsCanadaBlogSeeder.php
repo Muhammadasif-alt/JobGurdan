@@ -371,6 +371,7 @@ JOBHTML;
     <li><a href="/blog/janitor-jobs-in-canada">Janitor Jobs in Canada</a> &mdash; building cleaning work priced by the same provincial minimum wages.</li>
     <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a> &mdash; a clinic job with a short accredited program and a $27 median wage.</li>
     <li><a href="/blog/recruiter-jobs-in-canada">Recruiter Jobs in Canada</a> &mdash; a common next step from customer service, with a $33.33 median wage.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; what changed in 2026, which sectors hire, and how the LMIA and scams work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Minimum wages, wage survey figures, language requirements and hiring preferences change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with Job Bank, your provincial employment standards authority and the employer's own advertisement before applying.</p>
