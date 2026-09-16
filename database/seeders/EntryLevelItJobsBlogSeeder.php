@@ -41,6 +41,14 @@ use Illuminate\Support\Str;
  * 5. Its apply link searches Indeed with a query string rather than the
  *    site's own entry level IT search page.
  *
+ * 6. A later draft claims entry-level IT hiring is "up" year on year with an
+ *    average of "$83,000 to $88,000". BLS shows the largest entry route,
+ *    computer support, shrinking 3 per cent to 2035, and $83k-$88k sits above
+ *    the median for every genuine first IT job here. This guide keeps the
+ *    measured pay and adds only what is defensible from the 2026 shift:
+ *    experience inflation on "entry level" postings and new demand around
+ *    cloud and data roles, not an inflated average.
+ *
  * Both records use updateOrCreate, so re-running is safe; it will overwrite
  * admin-panel edits to these two rows.
  */
@@ -215,7 +223,7 @@ JOBHTML;
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/entry-level-it-jobs-desk.jpg"
-         alt="A young woman in a black sweater smiling at a laptop in a bright office, with books on Python, networking and cybersecurity and a monitor showing code, beside an Entry Level IT Jobs banner"
+         alt="Three young entry level IT workers collaborating around a laptop in a bright office, code on a monitor behind them, a US flag and the New York skyline through the window"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
@@ -229,6 +237,18 @@ JOBHTML;
 </ul>
 
 <p>The practical route is to take a support job, which still has tens of thousands of openings a year, and use it to move into networking, systems, cloud or security within a few years.</p>
+
+<h2>What the 2026 Market Shift Means</h2>
+
+<p>The market for first IT jobs did not close in 2026, but it moved. Three shifts are worth planning around:</p>
+
+<ul>
+    <li><strong>Experience inflation.</strong> Many postings labelled "entry level" now ask for two to three years of experience. Treat those as mislabelled, and keep applying to genuine junior and help desk roles, which still hire beginners.</li>
+    <li><strong>AI is absorbing routine tickets.</strong> Self-service portals and AI assistants now handle password resets and simple fixes, which is part of why BLS projects support roles to shrink. The junior seats that remain lean more on troubleshooting judgement than on ticket volume.</li>
+    <li><strong>New demand around cloud and data.</strong> Cloud support built on AWS, Azure or Google Cloud fundamentals, and data-focused roles, are the fastest-growing entry-adjacent routes as companies move infrastructure to the cloud. A cloud fundamentals certificate plus a small project is a realistic way in. Note that an entry data analyst role is analytical work, not the office data entry job BLS prices at $41,340.</li>
+</ul>
+
+<p>The door has not shut; it has moved toward candidates who pair a foundational skillset with one or two relevant certifications and a hands-on project, rather than a degree alone.</p>
 
 <h2>Certifications: The Current Versions</h2>
 
@@ -244,7 +264,7 @@ JOBHTML;
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/entry-level-it-jobs-coding.jpg"
-         alt="A young man in a black hoodie working on a laptop at a desk with books on Python, JavaScript and web development, a city skyline behind him and an Entry Level IT Jobs banner"
+         alt="A young woman and a colleague working through a task on a laptop while another IT worker reviews code on a monitor, the New York skyline and Statue of Liberty behind them"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
