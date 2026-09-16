@@ -2512,6 +2512,72 @@ it('corrects the Saudi truck licence conversion myth and the no-minimum-wage rea
     }
 });
 
+it('frames the Canada foreign worker levels plan, low-wage rules and Job Bank pay', function () {
+    // The draft quotes the 60,000 TFWP target as if it were Canada's whole
+    // intake and never mentions the rules that gate a low-wage LMIA. On record:
+    // the 2026-2028 levels plan, the ESDC low-wage rules and Job Bank wages.
+    $this->seed(Database\Seeders\JobsInCanadaForeignWorkersBlogSeeder::class);
+
+    expect(Blog::where('slug', 'jobs-in-canada-for-foreign-workers')->value('content'))
+        ->toContain('target is 60,000 for 2026')
+        ->toContain('170,000')
+        ->toContain('230,000 new worker arrivals in 2026')
+        ->toContain('In-Canada Workers Initiative')
+        ->toContain('<strong>1 April 2026</strong>')
+        ->toContain('<strong>6% or more</strong>')
+        ->toContain('valid for only six months')
+        ->toContain('$43.27')
+        ->toContain('https://ca.indeed.com/Foreign-Worker-Canada-jobs')
+        ->not->toContain('jobs?q=foreign');
+
+    $siblings = [
+        'visa-sponsorship-jobs-in-canada' => Database\Seeders\VisaSponsorshipJobsCanadaBlogSeeder::class,
+        'farm-worker-jobs-in-canada' => Database\Seeders\FarmWorkerJobsCanadaBlogSeeder::class,
+        'welder-jobs-in-canada' => Database\Seeders\WelderJobsCanadaBlogSeeder::class,
+        'heavy-equipment-operator-jobs-in-canada' => Database\Seeders\HeavyEquipmentOperatorJobsCanadaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/jobs-in-canada-for-foreign-workers');
+    }
+});
+
+it('corrects the Pakistan call centre pay floor, million-rupee claim, export figure and equipment rule', function () {
+    // The draft's PKR 30,000 floor is below the minimum wage, its million-rupee
+    // month is an outlier, it conflates the call-centre export figure with total
+    // IT exports and blames Mac-incompatible CRMs. On record: the 2025-26
+    // minimum wage, SBP export data, ERI pay data and the real dialer constraint.
+    $this->seed(Database\Seeders\CallCenterJobsPakistanBlogSeeder::class);
+
+    expect(Blog::where('slug', 'call-center-jobs-in-pakistan')->value('content'))
+        ->toContain('<strong>PKR 40,000 a month</strong>')
+        ->toContain('PKR 37,000 in 2024-25')
+        ->toContain('$328 million')
+        ->toContain('$3.8 billion')
+        ->toContain('PKR 405,600')
+        ->toContain('Salesforce and Zendesk run in a browser on a Mac')
+        ->toContain('Windows-only')
+        ->toContain('25 Mbps')
+        ->toContain('Bureau of Emigration')
+        ->toContain('https://pk.indeed.com/q-pakistan-call-center-jobs.html')
+        ->not->toContain('jobs?q=pakistan+call');
+
+    $siblings = [
+        'virtual-assistant-jobs-in-pakistan' => Database\Seeders\VirtualAssistantJobsPakistanBlogSeeder::class,
+        'data-entry-jobs-in-pakistan' => Database\Seeders\DataEntryJobsPakistanBlogSeeder::class,
+        'online-jobs-in-pakistan' => Database\Seeders\OnlineJobsPakistanBlogSeeder::class,
+        'customer-service-jobs-in-usa' => Database\Seeders\CustomerServiceJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/call-center-jobs-in-pakistan');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2608,6 +2674,8 @@ it('resolves every internal link the new guides publish', function () {
         'maintenance-technician-jobs-in-usa',
         'heavy-truck-driver-jobs-in-saudi-arabia',
         'online-data-entry-jobs',
+        'jobs-in-canada-for-foreign-workers',
+        'call-center-jobs-in-pakistan',
     ];
 
     foreach ($guides as $guide) {
