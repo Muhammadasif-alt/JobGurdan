@@ -317,6 +317,7 @@ JOBHTML;
     <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a> &mdash; US remote work beyond data entry, and the FTC's job scam figures.</li>
     <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a></li>
     <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a> &mdash; what Fiverr and Upwork keep, and how freelance earnings are banked and taxed.</li>
+    <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a> &mdash; the honest pay, the automation decline and the FTC scam signs, in one place.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, financial or careers advice. Pay bands, minimum wage notifications and employer terms change &mdash; confirm the current figures for your province or country and get every offer in writing before starting work or sharing personal documents.</p>
