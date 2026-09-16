@@ -272,6 +272,7 @@ class YaleUniversityScholarshipSeeder extends Seeder
 <li><a href="/scholarships/{sydney}">University of Sydney RTP International Scholarship</a> &mdash; a funded PhD in Australia with tuition and stipend.</li>
 <li><a href="/scholarships/{australia}">Australia scholarships without IELTS</a> &mdash; which English tests Australian awards accept.</li>
 <li><a href="/scholarships/{france}">France scholarships without IELTS</a> &mdash; what Eiffel pays and who applies for you.</li>
+<li><a href="/scholarships/{leeds}">University of Leeds Commonwealth Master's Scholarship</a> &mdash; a fully funded UK Master's for Commonwealth citizens.</li>
 </ul>
 
 <h2>Official Links</h2>
@@ -290,6 +291,7 @@ HTML, [
             '{sydney}' => SydneyRtpInternationalScholarshipSeeder::SLUG,
             '{australia}' => AustraliaScholarshipsWithoutIeltsScholarshipSeeder::SLUG,
             '{france}' => FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG,
+            '{leeds}' => UniversityOfLeedsCommonwealthMastersScholarshipSeeder::SLUG,
         ]);
     }
 }

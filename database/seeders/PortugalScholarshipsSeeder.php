@@ -181,6 +181,7 @@ class PortugalScholarshipsSeeder extends Seeder
 <li>Some faculties add their own <strong>incentives by admission ranking</strong>.</li>
 <li><strong>SASUP social-support scholarships exclude international-statute students.</strong> The university states plainly that "students with the International Student Status are not eligible for these scholarships"; SASUP aid is limited to EU nationals, stateless persons and nationals of countries with reciprocal cooperation protocols.</li>
 </ul>
+<p>Other Portuguese universities run their own awards too. The University of Coimbra, for example, offers a tuition-fee exemption of up to &euro;2,000 a year for international master's students - see our <a href="/scholarships/university-of-coimbra-masters-scholarship">University of Coimbra Master's scholarship guide</a>.</p>
 
 <h2>Can Pakistani Students Apply for Portugal Scholarships?</h2>
 <p>Yes - Pakistani students can apply to Portuguese university programmes and to FCT PhD funding where they meet the rules. But being an international student does <strong>not</strong> unlock Portugal's means-tested government grant. DGES is explicit: students who enter higher education under the <strong>international-student regime do not have access to direct social support</strong>, only to indirect social action, unless they hold the humanitarian-emergency student statute.</p>
