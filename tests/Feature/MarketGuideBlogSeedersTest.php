@@ -26,6 +26,13 @@ dataset('market guides', [
         'https://pk.indeed.com/q-pakistan-call-center-jobs.html',
         'Call Center Agent',
     ],
+    'office assistant uk' => [
+        'office-assistant-jobs-in-uk',
+        Database\Seeders\OfficeAssistantJobsUkBlogSeeder::class,
+        ['office-assistant-jobs-in-uk-desk.jpg', 'office-assistant-jobs-in-uk-reception.jpg'],
+        'https://uk.indeed.com/Office-Assistant-jobs',
+        'Office Assistant',
+    ],
     'online data entry' => [
         'online-data-entry-jobs',
         Database\Seeders\OnlineDataEntryJobsBlogSeeder::class,

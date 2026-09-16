@@ -2578,6 +2578,38 @@ it('corrects the Pakistan call centre pay floor, million-rupee claim, export fig
     }
 });
 
+it('corrects the UK office assistant below-minimum pay, the visa threshold and the skill bar', function () {
+    // The draft quotes pay below the minimum wage, names the old GBP 38,700
+    // threshold and says the role fails on RQF Level 3. On record: the April
+    // 2026 National Living Wage, the GBP 41,700 threshold and the RQF Level 6
+    // skill bar from 22 July 2025.
+    $this->seed(Database\Seeders\OfficeAssistantJobsUkBlogSeeder::class);
+
+    expect(Blog::where('slug', 'office-assistant-jobs-in-uk')->value('content'))
+        ->toContain('<strong>GBP 12.71 an hour from 1 April 2026</strong>')
+        ->toContain('GBP 24,800')
+        ->toContain('GBP 41,700')
+        ->toContain('<strong>RQF Level 6</strong>')
+        ->toContain('GBP 1,270 held for 28 consecutive days')
+        ->toContain('1 January 2027')
+        ->toContain('below the legal minimum')
+        ->toContain('https://uk.indeed.com/Office-Assistant-jobs')
+        ->not->toContain('jobs?q=office');
+
+    $siblings = [
+        'jobs-in-uk-for-foreigners' => Database\Seeders\JobsInUkForForeignersBlogSeeder::class,
+        'administrative-assistant-jobs-in-usa' => Database\Seeders\AdministrativeAssistantJobsUsaBlogSeeder::class,
+        'office-assistant-jobs-in-australia' => Database\Seeders\OfficeAssistantJobsAustraliaBlogSeeder::class,
+        'work-from-home-jobs-in-uk' => Database\Seeders\WorkFromHomeJobsUkBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/office-assistant-jobs-in-uk');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2676,6 +2708,7 @@ it('resolves every internal link the new guides publish', function () {
         'online-data-entry-jobs',
         'jobs-in-canada-for-foreign-workers',
         'call-center-jobs-in-pakistan',
+        'office-assistant-jobs-in-uk',
     ];
 
     foreach ($guides as $guide) {
