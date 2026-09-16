@@ -2364,6 +2364,154 @@ it('replaces the intelligence analyst draft pay, clearance and citizenship claim
     }
 });
 
+it('leads the online data entry guide with the BLS decline, real pay and the FTC scam rule', function () {
+    // The draft frames data entry as a stable path and overstates transcription
+    // pay. On record: the BLS 2024-34 decline, the OEWS percentiles, the
+    // platforms' per-audio-minute rates and the FTC's pay-to-work rule.
+    $this->seed(Database\Seeders\OnlineDataEntryJobsBlogSeeder::class);
+
+    expect(Blog::where('slug', 'online-data-entry-jobs')->value('content'))
+        ->toContain('down 25.9%')
+        ->toContain('down 36.1%')
+        ->toContain('$41,340')
+        ->toContain('$15.00')
+        ->toContain('$28.26')
+        ->toContain('per audio minute')
+        ->toContain('$0.40')
+        ->toContain('four working hours')
+        ->toContain('never ask you to pay to get a job')
+        ->toContain('reshipping')
+        ->toContain('reportfraud.ftc.gov')
+        ->toContain('https://www.indeed.com/q-online-data-entry-jobs.html')
+        ->not->toContain('jobs?q=online+data+entry');
+
+    $siblings = [
+        'data-entry-jobs-in-usa' => Database\Seeders\DataEntryJobsUsaBlogSeeder::class,
+        'remote-data-entry-jobs' => Database\Seeders\RemoteDataEntryJobsBlogSeeder::class,
+        'data-entry-jobs-in-pakistan' => Database\Seeders\DataEntryJobsPakistanBlogSeeder::class,
+        'work-from-home-jobs-in-usa' => Database\Seeders\WorkFromHomeJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/online-data-entry-jobs');
+    }
+});
+
+it('anchors UK marketing pay on the two official codes instead of one average', function () {
+    // The draft gives one "average marketing salary". ONS splits the field
+    // across an associate-professional code and a director code whose medians
+    // are nearly three times apart, and the National Careers Service anchors the
+    // middle. Free platform certs are separated from the paid CIM ladder.
+    $this->seed(Database\Seeders\MarketingJobsUkBlogSeeder::class);
+
+    expect(Blog::where('slug', 'marketing-jobs-in-uk')->value('content'))
+        ->toContain('SOC 3554')
+        ->toContain('SOC 1132')
+        ->toContain('GBP 32,760')
+        ->toContain('GBP 89,700')
+        ->toContain('National Careers Service')
+        ->toContain('GBP 23,000')
+        ->toContain('GBP 50,000')
+        ->toContain('GBP 30,000')
+        ->toContain('GBP 65,000')
+        ->toContain('Royal Charter')
+        ->toContain('Google Skillshop')
+        ->toContain('HubSpot Academy')
+        ->toContain('GBP 162,792')
+        ->toContain('https://uk.indeed.com/q-marketing-jobs.html')
+        ->not->toContain('jobs?q=marketing');
+
+    $siblings = [
+        'digital-marketing-jobs-in-usa' => Database\Seeders\DigitalMarketingJobsUsaBlogSeeder::class,
+        'social-media-manager-jobs-in-usa' => Database\Seeders\SocialMediaManagerJobsUsaBlogSeeder::class,
+        'content-writer-jobs-in-usa' => Database\Seeders\ContentWriterJobsUsaBlogSeeder::class,
+        'graphic-designer-jobs-in-usa' => Database\Seeders\GraphicDesignerJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/marketing-jobs-in-uk');
+    }
+});
+
+it('lifts the maintenance technician ceiling to the real BLS percentiles', function () {
+    // The draft caps experienced pay at $55,000; BLS puts the 75th percentile
+    // at $62,620 and the 90th above $77,180. Growth is average, not strong, and
+    // "OSHA certified" is not a thing.
+    $this->seed(Database\Seeders\MaintenanceTechnicianJobsUsaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'maintenance-technician-jobs-in-usa')->value('content'))
+        ->toContain('$35,350')
+        ->toContain('$49,590')
+        ->toContain('$62,620')
+        ->toContain('$77,180')
+        ->toContain('4% from 2025 to 2035')
+        ->toContain('148,700')
+        ->toContain('95% of those openings')
+        ->toContain('$64,520')
+        ->toContain('$61,010')
+        ->toContain('$60,850')
+        ->toContain('Section 608')
+        ->toContain('does not expire')
+        ->toContain('Type I')
+        ->toContain('Universal')
+        ->toContain('OSHA does not certify individuals')
+        ->toContain('10-hour and 30-hour completion cards')
+        ->toContain('https://www.indeed.com/q-maintenance-technician-jobs.html')
+        ->not->toContain('jobs?q=maintenance');
+
+    $siblings = [
+        'carpenter-jobs-in-usa' => Database\Seeders\CarpenterJobsUsaBlogSeeder::class,
+        'forklift-operator-jobs-in-usa' => Database\Seeders\ForkliftOperatorJobsUsaBlogSeeder::class,
+        'construction-jobs-in-usa-for-foreigners' => Database\Seeders\ConstructionUsaBlogSeeder::class,
+        'unskilled-jobs-in-usa-for-foreigners' => Database\Seeders\UnskilledJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/maintenance-technician-jobs-in-usa');
+    }
+});
+
+it('corrects the Saudi truck licence conversion myth and the no-minimum-wage reality', function () {
+    // The draft says an overseas driver can convert a licence on arrival; for
+    // India, Pakistan, Bangladesh and the Philippines that is false. It also
+    // treats a quoted salary as a floor when no expat minimum wage exists.
+    $this->seed(Database\Seeders\HeavyTruckDriverJobsSaudiBlogSeeder::class);
+
+    expect(Blog::where('slug', 'heavy-truck-driver-jobs-in-saudi-arabia')->value('content'))
+        ->toContain('cannot simply convert')
+        ->toContain('public / heavy-transport licence')
+        ->toContain('no statutory minimum wage for expatriate private-sector workers')
+        ->toContain('SAR 4,000')
+        ->toContain('Nitaqat')
+        ->toContain('Wage Protection System')
+        ->toContain('reserved for Saudi nationals since January 2021')
+        ->toContain('2026-2028')
+        ->toContain('Labour Reform Initiative of 14 March 2021')
+        ->toContain('Musaned is for domestic workers only')
+        ->toContain('BEOE')
+        ->toContain('https://sa.indeed.com/q-heavy-truck-driver-jobs.html')
+        ->not->toContain('jobs?q=heavy+truck+driver');
+
+    $siblings = [
+        'driver-jobs-in-saudi-arabia-for-foreigners' => Database\Seeders\DriverJobsSaudiBlogSeeder::class,
+        'construction-jobs-in-saudi-arabia-with-visa-sponsorship' => Database\Seeders\ConstructionJobsSaudiBlogSeeder::class,
+        'mechanic-jobs-in-saudi-arabia' => Database\Seeders\MechanicJobsSaudiBlogSeeder::class,
+        'no-experience-jobs-in-saudi-arabia' => Database\Seeders\NoExperienceJobsSaudiBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/heavy-truck-driver-jobs-in-saudi-arabia');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2456,6 +2604,10 @@ it('resolves every internal link the new guides publish', function () {
         'healthcare-support-jobs-in-uk',
         'online-teacher-jobs-worldwide',
         'intelligence-analyst-jobs-in-usa',
+        'marketing-jobs-in-uk',
+        'maintenance-technician-jobs-in-usa',
+        'heavy-truck-driver-jobs-in-saudi-arabia',
+        'online-data-entry-jobs',
     ];
 
     foreach ($guides as $guide) {

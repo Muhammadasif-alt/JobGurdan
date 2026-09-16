@@ -12,6 +12,34 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'online data entry' => [
+        'online-data-entry-jobs',
+        Database\Seeders\OnlineDataEntryJobsBlogSeeder::class,
+        ['online-data-entry-jobs-tools.jpg', 'online-data-entry-jobs-desk.jpg'],
+        'https://www.indeed.com/q-online-data-entry-jobs.html',
+        'Online Data Entry Clerk',
+    ],
+    'marketing uk' => [
+        'marketing-jobs-in-uk',
+        Database\Seeders\MarketingJobsUkBlogSeeder::class,
+        ['marketing-jobs-in-uk-channels.jpg', 'marketing-jobs-in-uk-search.jpg'],
+        'https://uk.indeed.com/q-marketing-jobs.html',
+        'Marketing Executive',
+    ],
+    'maintenance technician usa' => [
+        'maintenance-technician-jobs-in-usa',
+        Database\Seeders\MaintenanceTechnicianJobsUsaBlogSeeder::class,
+        ['maintenance-technician-jobs-in-usa-hvac.jpg', 'maintenance-technician-jobs-in-usa-field.jpg'],
+        'https://www.indeed.com/q-maintenance-technician-jobs.html',
+        'Maintenance Technician',
+    ],
+    'heavy truck driver saudi arabia' => [
+        'heavy-truck-driver-jobs-in-saudi-arabia',
+        Database\Seeders\HeavyTruckDriverJobsSaudiBlogSeeder::class,
+        ['heavy-truck-driver-jobs-in-saudi-arabia-route.jpg', 'heavy-truck-driver-jobs-in-saudi-arabia-highway.jpg'],
+        'https://sa.indeed.com/q-heavy-truck-driver-jobs.html',
+        'Heavy Truck Driver',
+    ],
     'customer service usa' => [
         'customer-service-jobs-in-usa',
         Database\Seeders\CustomerServiceJobsUsaBlogSeeder::class,
