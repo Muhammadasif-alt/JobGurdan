@@ -308,6 +308,7 @@ JOBHTML;
     <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; another office skill set that works from home.</li>
     <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; a technical step up from office support.</li>
     <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the same front-office skills inside a clinic, with clinical duties on top.</li>
+    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a> &mdash; a first UK admin job, the real pay and the visa reality.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Wage data, projections, certification fees and employment rules change. Confirm the current position with the employer, the Bureau of Labor Statistics and the certifying body before applying.</p>

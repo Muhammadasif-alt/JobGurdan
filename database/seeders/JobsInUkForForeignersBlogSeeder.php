@@ -353,6 +353,7 @@ JOBHTML;
     <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; why cooks cannot be sponsored and chefs rarely can.</li>
     <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; the truth about sponsored warehouse work.</li>
     <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; the NHS and social care support roles, and why the care-worker visa route closed.</li>
+    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a> &mdash; a first UK admin job, the real pay and the visa reality.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not immigration or legal advice. UK visa rules, salary thresholds, fees and eligible occupation lists change often. Confirm the current rules on gov.uk or with a regulated immigration adviser before applying or paying anyone.</p>

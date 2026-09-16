@@ -360,6 +360,7 @@ JOBHTML;
     <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; what every entry-level Australian sector pays, and why age changes the rate.</li>
     <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a> &mdash; front-desk admin in general practice, under a different award from office clerks.</li>
     <li><a href="/blog/receptionist-jobs-in-australia">Receptionist Jobs in Australia</a> &mdash; front-desk work under the same Clerks Award, and where the salary guides go wrong.</li>
+    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a> &mdash; a first UK admin job, the real pay and the visa reality.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, migration or financial advice. Award rates, the national minimum wage, superannuation rules and screening requirements change, and salary figures on any job board are a moving average rather than a statistic. Confirm the current position with the Fair Work Ombudsman, the relevant state screening authority and the employer's own advertisement before applying.</p>
