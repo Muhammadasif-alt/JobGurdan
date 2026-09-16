@@ -398,6 +398,7 @@ JOBHTML;
     <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest position on entry-level American sponsorship.</li>
     <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; another route that turns on employee versus contractor status.</li>
     <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; the largest no-degree entry route, for comparison.</li>
+    <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a> &mdash; the facilities and industrial repair trade, its BLS pay and the EPA 608 and OSHA cards.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, legal or immigration advice. Wage figures, safety training mandates, contractor licensing thresholds and visa rules change and differ by state and city. Confirm the current position with the Bureau of Labor Statistics, OSHA, your state licensing board and the employer's own advertisement before applying.</p>

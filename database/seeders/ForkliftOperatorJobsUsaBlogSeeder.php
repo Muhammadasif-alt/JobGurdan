@@ -341,6 +341,7 @@ JOBHTML;
     <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest position on entry-level visas.</li>
     <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; another entry-level job in the same retail supply chain.</li>
     <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a> &mdash; bigger machines, Red Seal trades and crane tickets.</li>
+    <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a> &mdash; who keeps the plant and warehouse equipment running, and what it pays.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, OSHA rules, child labor rules and visa processes change. Confirm the current position with OSHA, the Department of Labor, BLS and USCIS before applying or accepting an offer.</p>
