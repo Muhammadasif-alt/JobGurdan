@@ -5,6 +5,7 @@ use Database\Seeders\AnuRtpScholarshipSeeder;
 use Database\Seeders\AustraliaScholarshipsWithoutIeltsScholarshipSeeder;
 use Database\Seeders\FranceScholarshipsWithoutIeltsScholarshipSeeder;
 use Database\Seeders\InsubriaScholarshipSeeder;
+use Database\Seeders\KingsCollegeLondonCheveningScholarshipSeeder;
 use Database\Seeders\MelbourneRtpScholarshipSeeder;
 use Database\Seeders\MonashRtpScholarshipSeeder;
 use Database\Seeders\PaviaScholarshipSeeder;
@@ -130,6 +131,7 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'portugal' => [PortugalScholarshipsSeeder::class, PortugalScholarshipsSeeder::SLUG, 2],
     'coimbra' => [UniversityOfCoimbraMastersScholarshipSeeder::class, UniversityOfCoimbraMastersScholarshipSeeder::SLUG, 2],
     'leeds commonwealth' => [UniversityOfLeedsCommonwealthMastersScholarshipSeeder::class, UniversityOfLeedsCommonwealthMastersScholarshipSeeder::SLUG, 2],
+    'kcl chevening' => [KingsCollegeLondonCheveningScholarshipSeeder::class, KingsCollegeLondonCheveningScholarshipSeeder::SLUG, 2],
     'yale' => [YaleUniversityScholarshipSeeder::class, YaleUniversityScholarshipSeeder::SLUG, 2],
 ]);
 
@@ -316,6 +318,39 @@ it('gives Leeds Commonwealth applicants the fully-funded facts, the deadline and
 
     expect($scholarship->deadlineLabel())->toBe('Closes 20 Oct 2026')
         ->and(Scholarship::where('slug', '!=', UniversityOfLeedsCommonwealthMastersScholarshipSeeder::SLUG)->where('content', 'like', '%/scholarships/'.UniversityOfLeedsCommonwealthMastersScholarshipSeeder::SLUG.'%')->count())->toBe(2);
+});
+
+it('gives KCL Chevening applicants the fully-funded facts, the dates, the work-experience rule and the KCL costs', function () {
+    // Fully funded FCDO award for a one-year taught Master's; deadline 6 Oct
+    // 2026 11:00 UTC, opened 4 Aug 2026; 2,800 hours after an undergrad degree
+    // completed by October 2024; Chevening dropped its English test in 2020 but
+    // KCL sets its own; KCL 20% top-up, EUR-sized GBP fees, London visa proof.
+    // Remote work is not an official eligible category, so it must not appear.
+    foreach ([KingsCollegeLondonCheveningScholarshipSeeder::class, UniversityOfLeedsCommonwealthMastersScholarshipSeeder::class, YaleUniversityScholarshipSeeder::class] as $seeder) {
+        $this->seed($seeder);
+    }
+
+    $scholarship = Scholarship::where('slug', KingsCollegeLondonCheveningScholarshipSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->content)
+        ->toContain('6 October 2026 at 11:00 UTC')
+        ->toContain('4 August 2026')
+        ->toContain('2,800 hours')
+        ->toContain('October 2024')
+        ->toContain('removed its own English-language requirement in 2020')
+        ->toContain('20% contribution toward tuition fees from King')
+        ->toContain('&pound;40,450')
+        ->toContain('&pound;1,770')
+        ->toContain('&pound;1,529 a month for up to nine months')
+        ->toContain('three eligible UK Master')
+        ->toContain('does not fund PhDs or distance learning')
+        ->toContain('/scholarships/'.UniversityOfLeedsCommonwealthMastersScholarshipSeeder::SLUG)
+        ->toContain('/scholarships/'.YaleUniversityScholarshipSeeder::SLUG)
+        ->not->toContain('remote work')
+        ->not->toContain('{$applyUrl}');
+
+    expect($scholarship->deadlineLabel())->toBe('Closes 6 Oct 2026')
+        ->and(Scholarship::where('slug', '!=', KingsCollegeLondonCheveningScholarshipSeeder::SLUG)->where('content', 'like', '%/scholarships/'.KingsCollegeLondonCheveningScholarshipSeeder::SLUG.'%')->count())->toBe(2);
 });
 
 it('gives Yale applicants the income limits, costs, deadlines and PhD rates the brief gets wrong', function () {
