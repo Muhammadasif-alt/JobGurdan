@@ -13,6 +13,8 @@ use Database\Seeders\PortugalScholarshipsSeeder;
 use Database\Seeders\SydneyBusinessSchoolPhdScholarshipSeeder;
 use Database\Seeders\SydneyRtpDomesticScholarshipSeeder;
 use Database\Seeders\SydneyRtpInternationalScholarshipSeeder;
+use Database\Seeders\UniversityOfCoimbraMastersScholarshipSeeder;
+use Database\Seeders\UniversityOfLeedsCommonwealthMastersScholarshipSeeder;
 use Database\Seeders\UniversityOfSouthAustraliaScholarshipSeeder;
 use Database\Seeders\YaleUniversityScholarshipSeeder;
 use Database\Seeders\YesProgramPakistanScholarshipSeeder;
@@ -126,6 +128,8 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'south australia' => [UniversityOfSouthAustraliaScholarshipSeeder::class, UniversityOfSouthAustraliaScholarshipSeeder::SLUG, 1],
     'france without ielts' => [FranceScholarshipsWithoutIeltsScholarshipSeeder::class, FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG, 3],
     'portugal' => [PortugalScholarshipsSeeder::class, PortugalScholarshipsSeeder::SLUG, 2],
+    'coimbra' => [UniversityOfCoimbraMastersScholarshipSeeder::class, UniversityOfCoimbraMastersScholarshipSeeder::SLUG, 2],
+    'leeds commonwealth' => [UniversityOfLeedsCommonwealthMastersScholarshipSeeder::class, UniversityOfLeedsCommonwealthMastersScholarshipSeeder::SLUG, 2],
     'yale' => [YaleUniversityScholarshipSeeder::class, YaleUniversityScholarshipSeeder::SLUG, 2],
 ]);
 
@@ -246,6 +250,72 @@ it('gives Portugal applicants the DGES warning, the FCT rates and the Porto fact
 
     expect($scholarship->deadlineLabel())->toBe($scholarship->deadline_note)
         ->and(Scholarship::where('slug', '!=', PortugalScholarshipsSeeder::SLUG)->where('content', 'like', '%/scholarships/'.PortugalScholarshipsSeeder::SLUG.'%')->count())->toBe(4);
+});
+
+it('frames the Coimbra award as an up-to-EUR-2,000 UC fee exemption, not a government scholarship, and links Portugal', function () {
+    // The brief and banner headline EUR 2,000. It is really a tuition-fee
+    // exemption of up to EUR 2,000, scaled by admission score, with CPLP and
+    // continuity top-ups; "scientific production" is the purpose, not a
+    // deliverable; tuition is ~EUR 7,000 (varies by course); and it is a UC
+    // award, not a nationwide "Portugal Government Scholarship".
+    foreach ([UniversityOfCoimbraMastersScholarshipSeeder::class, PortugalScholarshipsSeeder::class] as $seeder) {
+        $this->seed($seeder);
+    }
+
+    $scholarship = Scholarship::where('slug', UniversityOfCoimbraMastersScholarshipSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->content)
+        ->toContain('tuition-fee exemption of up to &euro;2,000 a year')
+        ->toContain('160 points or more')
+        ->toContain('Portuguese-speaking (CPLP) countries')
+        ->toContain('admission score')
+        ->toContain('not a portfolio of publications you must already have')
+        ->toContain('typically about &euro;7,000 a year')
+        ->toContain('&euro;18,000')
+        ->toContain('&euro;648')
+        ->toContain('Inforestudante')
+        ->toContain('&euro;50')
+        ->toContain('international-student status')
+        ->toContain('not a nationwide government grant')
+        ->toContain('/scholarships/'.PortugalScholarshipsSeeder::SLUG)
+        ->toContain('/scholarships/'.FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG)
+        ->not->toContain('{$applyUrl}')
+        ->not->toContain('slugFig');
+
+    expect($scholarship->deadlineLabel())->toBe($scholarship->deadline_note)
+        ->and(Scholarship::where('slug', '!=', UniversityOfCoimbraMastersScholarshipSeeder::SLUG)->where('content', 'like', '%/scholarships/'.UniversityOfCoimbraMastersScholarshipSeeder::SLUG.'%')->count())->toBe(1);
+});
+
+it('gives Leeds Commonwealth applicants the fully-funded facts, the deadline and the two-process split, with corrected fees', function () {
+    // The award is fully funded (FCDO/CSC): tuition, maintenance, return
+    // airfare. Deadline 20 October 2026, 4pm BST; opened 8 September 2026.
+    // Apply via CSC Central + a nominator, not to Leeds. Fees are full
+    // programme totals, IELTS is course-specific, visa proof GBP 1,171/month.
+    foreach ([UniversityOfLeedsCommonwealthMastersScholarshipSeeder::class, FranceScholarshipsWithoutIeltsScholarshipSeeder::class, YaleUniversityScholarshipSeeder::class] as $seeder) {
+        $this->seed($seeder);
+    }
+
+    $scholarship = Scholarship::where('slug', UniversityOfLeedsCommonwealthMastersScholarshipSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->content)
+        ->toContain('one-year fully funded scholarship')
+        ->toContain('20 October 2026 at 4pm BST')
+        ->toContain('8 September 2026')
+        ->toContain('CSC Central')
+        ->toContain('six CSC development themes')
+        ->toContain('&pound;1,171 a month for up to nine months')
+        ->toContain('full programme totals')
+        ->toContain('&pound;33,500')
+        ->toContain('&pound;320 a week')
+        ->toContain('Russell Group')
+        ->toContain('at least one month before the scholarship deadline')
+        ->toContain('/scholarships/'.FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG)
+        ->toContain('/scholarships/'.YaleUniversityScholarshipSeeder::SLUG)
+        ->not->toContain('{france}')
+        ->not->toContain('{$applyUrl}');
+
+    expect($scholarship->deadlineLabel())->toBe('Closes 20 Oct 2026')
+        ->and(Scholarship::where('slug', '!=', UniversityOfLeedsCommonwealthMastersScholarshipSeeder::SLUG)->where('content', 'like', '%/scholarships/'.UniversityOfLeedsCommonwealthMastersScholarshipSeeder::SLUG.'%')->count())->toBe(2);
 });
 
 it('gives Yale applicants the income limits, costs, deadlines and PhD rates the brief gets wrong', function () {
