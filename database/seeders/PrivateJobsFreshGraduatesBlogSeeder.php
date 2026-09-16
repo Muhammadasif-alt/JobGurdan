@@ -295,6 +295,7 @@ JOBHTML;
     <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; the Gulf route, from trades through to project management.</li>
     <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; one of the most accessible first office jobs, in both sectors.</li>
     <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a> &mdash; the most common first job for graduates, and the pay floor many private schools miss.</li>
+    <li><a href="/blog/call-center-jobs-in-pakistan">Call Center Jobs in Pakistan</a> &mdash; inbound vs outbound, real pay by city, and how to avoid scams.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Minimum wage notifications, pay bands and hiring terms change and are set by each province and each employer &mdash; confirm the current notification for your province and the terms on the employer&rsquo;s own advertisement before accepting any offer.</p>

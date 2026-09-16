@@ -321,6 +321,7 @@ JOBHTML;
     <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a></li>
     <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a> &mdash; freelancing against salaried remote work, and the fees and tax on each dollar.</li>
     <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; the US market, BLS pay and why the field is projected to shrink even as openings stay high.</li>
+    <li><a href="/blog/call-center-jobs-in-pakistan">Call Center Jobs in Pakistan</a> &mdash; inbound vs outbound, real pay by city, and how to avoid scams.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Pay bands, minimum wage notifications, shift arrangements and monitoring policies change and are set by each province and each employer &mdash; confirm the current figures and the terms on the employer's own advertisement before accepting any offer.</p>

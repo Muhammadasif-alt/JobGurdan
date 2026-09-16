@@ -335,6 +335,7 @@ JOBHTML;
     <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; what the same skills pay on an American payroll.</li>
     <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a></li>
     <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a> &mdash; how client payments reach a Pakistani bank, and the PSEB tax rate on them.</li>
+    <li><a href="/blog/call-center-jobs-in-pakistan">Call Center Jobs in Pakistan</a> &mdash; inbound vs outbound, real pay by city, and how to avoid scams.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, financial or careers advice. Rates, contract terms and compliance obligations are set by each client and by the law that applies to them &mdash; confirm the current position directly before accepting work.</p>
