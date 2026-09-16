@@ -379,6 +379,7 @@ JOBHTML;
     <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; how the LMIA works for the employers recruiters hire for.</li>
     <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a> &mdash; a technical role technical recruiters hire for.</li>
     <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; office support work and its pay across the border.</li>
+    <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a> &mdash; the allied-health route, its provincial registration and pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, labour market figures, licensing rules, job posting requirements and HR designations change and differ by province. Confirm the current position with Job Bank, Statistics Canada, your provincial employment standards office and the relevant HR association before applying.</p>

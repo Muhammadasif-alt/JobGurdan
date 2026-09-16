@@ -352,6 +352,7 @@ JOBHTML;
     <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; state teaching licenses and the salary schedules school nurses often share.</li>
     <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the no-degree clinical role, and what it pays by setting.</li>
     <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; an entry-level health care job with NHS pay bands.</li>
+    <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in the USA</a> &mdash; a high-paying allied-health role, its licensing and the visa route.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, licensing or careers advice. Wage data, state credential rules, certification fees and school health requirements change and differ by state and district. Confirm the current position with your state board of nursing, your state education agency, NBCSN and the district before applying.</p>

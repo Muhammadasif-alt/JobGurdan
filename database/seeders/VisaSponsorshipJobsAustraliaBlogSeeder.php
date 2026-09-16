@@ -325,6 +325,7 @@ JOBHTML;
     <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a></li>
     <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a></li>
     <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a></li>
+    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a> &mdash; a genuinely sponsorable aged care route and its real award pay.</li>
 </ul>
 HTML;
     }
