@@ -9,6 +9,7 @@ use Database\Seeders\MelbourneRtpScholarshipSeeder;
 use Database\Seeders\MonashRtpScholarshipSeeder;
 use Database\Seeders\PaviaScholarshipSeeder;
 use Database\Seeders\PolytechnicMarcheScholarshipSeeder;
+use Database\Seeders\PortugalScholarshipsSeeder;
 use Database\Seeders\SydneyBusinessSchoolPhdScholarshipSeeder;
 use Database\Seeders\SydneyRtpDomesticScholarshipSeeder;
 use Database\Seeders\SydneyRtpInternationalScholarshipSeeder;
@@ -124,6 +125,7 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'australia without ielts' => [AustraliaScholarshipsWithoutIeltsScholarshipSeeder::class, AustraliaScholarshipsWithoutIeltsScholarshipSeeder::SLUG, 2],
     'south australia' => [UniversityOfSouthAustraliaScholarshipSeeder::class, UniversityOfSouthAustraliaScholarshipSeeder::SLUG, 1],
     'france without ielts' => [FranceScholarshipsWithoutIeltsScholarshipSeeder::class, FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG, 3],
+    'portugal' => [PortugalScholarshipsSeeder::class, PortugalScholarshipsSeeder::SLUG, 2],
     'yale' => [YaleUniversityScholarshipSeeder::class, YaleUniversityScholarshipSeeder::SLUG, 2],
 ]);
 
@@ -207,6 +209,43 @@ it('gives France applicants the Eiffel rates, the closed call and the English ru
 
     expect($scholarship->deadlineLabel())->toBe($scholarship->deadline_note)
         ->and(Scholarship::where('slug', '!=', FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG)->where('content', 'like', '%/scholarships/'.FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG.'%')->count())->toBe(4);
+});
+
+it('gives Portugal applicants the DGES warning, the FCT rates and the Porto facts, and links its European siblings', function () {
+    // The brief and posters push a fully funded "Portugal Government Scholarship
+    // 2026" for all nationalities, imply free tuition and no IELTS. DGES calls
+    // that false; international-statute students get no direct social support;
+    // FCT pays EUR 1,359.64 a month (secondary sites still quote EUR 1,259.64);
+    // Porto opened 712 places and charges international fees.
+    foreach ([PortugalScholarshipsSeeder::class, FranceScholarshipsWithoutIeltsScholarshipSeeder::class, PaviaScholarshipSeeder::class, InsubriaScholarshipSeeder::class, PolytechnicMarcheScholarshipSeeder::class] as $seeder) {
+        $this->seed($seeder);
+    }
+
+    $scholarship = Scholarship::where('slug', PortugalScholarshipsSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->content)
+        ->toContain('does not correspond to any scholarship programme promoted by the Portuguese State')
+        ->toContain('20 November 2025')
+        ->toContain('&euro;1,359.64')
+        ->toContain('&euro;1,259.64')
+        ->toContain('1,600 planned, including 600 in non-academic environments')
+        ->toContain('833 applications')
+        ->toContain('31 March 2026')
+        ->toContain('provisional results on 31 July 2026')
+        ->toContain('myFCT')
+        ->toContain('712')
+        ->toContain('489 of 712')
+        ->toContain('&euro;3,810 a year')
+        ->toContain('&euro;3,500 to &euro;16,500')
+        ->toContain('international-student regime do not have access to direct social support')
+        ->toContain('reduction of up to <strong>45%</strong>')
+        ->toContain('/scholarships/'.FranceScholarshipsWithoutIeltsScholarshipSeeder::SLUG)
+        ->toContain('/scholarships/'.PaviaScholarshipSeeder::SLUG)
+        ->not->toContain('{portugal}')
+        ->not->toContain('slugFig');
+
+    expect($scholarship->deadlineLabel())->toBe($scholarship->deadline_note)
+        ->and(Scholarship::where('slug', '!=', PortugalScholarshipsSeeder::SLUG)->where('content', 'like', '%/scholarships/'.PortugalScholarshipsSeeder::SLUG.'%')->count())->toBe(4);
 });
 
 it('gives Yale applicants the income limits, costs, deadlines and PhD rates the brief gets wrong', function () {
