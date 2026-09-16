@@ -324,6 +324,7 @@ JOBHTML;
     <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a> &mdash; the widest door in digital work, and where content sits inside it.</li>
     <li><a href="/blog/social-media-manager-jobs-in-usa">Social Media Manager Jobs in USA</a> &mdash; the adjacent role most content writers are asked to cover as well.</li>
     <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; the other creative half of the same marketing teams.</li>
+    <li><a href="/blog/marketing-jobs-in-uk">Marketing Jobs in UK</a> &mdash; the UK marketing field content writing feeds into, and its pay ladder.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage data, employment projections and contract norms change, and nothing here is a substitute for reading the contract you are asked to sign. Confirm the current position with the Bureau of Labor Statistics, a qualified professional and the employer's own advertisement before applying or signing.</p>

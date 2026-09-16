@@ -297,6 +297,7 @@ JOBHTML;
     <li><a href="/blog/copywriter-jobs-in-usa">Copywriter Jobs in USA</a> &mdash; the writing specialism, and the FTC substantiation rule on advertising claims.</li>
     <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; who makes the assets, and what the AI copyright position means for them.</li>
     <li><a href="/blog/ai-content-writer-jobs-in-usa">AI Content Writer Jobs in USA</a> &mdash; the content side of the same market.</li>
+    <li><a href="/blog/marketing-jobs-in-uk">Marketing Jobs in UK</a> &mdash; where social media sits in the wider UK marketing field, and what it pays.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Pay data, advertising rules, platform policies and penalty amounts change &mdash; confirm the current position with the Bureau of Labor Statistics, the IRS, the FTC and the employer's own advertisement before applying or signing anything.</p>
