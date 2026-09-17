@@ -3242,6 +3242,86 @@ it('fixes the US emergency dispatcher draft experience, posting date, answer tim
     }
 });
 
+it('fixes the US law enforcement draft age, education, training and qualities claims with official sources', function () {
+    $this->seed(Database\Seeders\LawEnforcementJobsUsaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'law-enforcement-jobs-in-usa')->value('content');
+
+    expect($content)->toContain('appointed at <strong>20 years and 6 months</strong>')
+        ->toContain('<strong>24 college semester credits</strong> with a 2.0 index')
+        ->toContain('<strong>$60,884 to start</strong>')
+        ->toContain('<strong>$126,410</strong> in total salary after 5 1/2 years')
+        ->toContain('<strong>state and local laws, constitutional law, civil rights and police ethics</strong>')
+        ->toContain("<strong>Perceptiveness</strong>, to anticipate people's reactions")
+        ->toContain("Bachelor's degree and two years of full-time professional work, or an advanced degree and one year")
+        ->toContain('the current USAJOBS posting says you must not have reached your 37th birthday on appointment')
+        ->toContain('fish and game wardens <strong>-6%</strong>')
+        ->toContain('<strong>median annual wage of $77,310</strong>')
+        ->toContain('the DEA lists US citizenship as a condition of all DEA employment')
+        ->not->toContain('minimum appointment age of 21')
+        ->not->toContain('report writing, emergency response')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    expect(Blog::where('slug', 'law-enforcement-jobs-in-usa')->value('meta_title'))->toBe('Law Enforcement Jobs in USA: Requirements and Pay');
+
+    $this->seed(Database\Seeders\PoliceOfficerJobsUsaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'police-officer-jobs-in-usa')->value('content'))
+        ->toContain('the NYPD starts officers on $60,884')
+        ->not->toContain('$55,942');
+
+    $siblings = [
+        'police-officer-jobs-in-usa' => Database\Seeders\PoliceOfficerJobsUsaBlogSeeder::class,
+        'federal-police-jobs-in-usa' => Database\Seeders\FederalPoliceJobsUsaBlogSeeder::class,
+        'emergency-dispatcher-jobs-in-usa' => Database\Seeders\EmergencyDispatcherJobsUsaBlogSeeder::class,
+        'intelligence-analyst-jobs-in-usa' => Database\Seeders\IntelligenceAnalystJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/law-enforcement-jobs-in-usa');
+    }
+});
+
+it('fixes the Canada public safety draft careers link, CSC experience, CBSA and RCMP rule claims with official sources', function () {
+    $this->seed(Database\Seeders\PublicSafetyJobsCanadaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'public-safety-jobs-in-canada')->value('content');
+
+    expect($content)->toContain('https://www.publicsafety.gc.ca/cnt/bt/crrs/index-en.aspx')
+        ->toContain('Work experience is not an essential qualification')
+        ->toContain('<strong>Standard First Aid with CPR Level C and AED</strong>')
+        ->toContain('at least <strong>18</strong> before starting the Officer Induction Training Program. There is <strong>no maximum age</strong>')
+        ->toContain('CBSA will not consider a combination of education, training and experience instead')
+        ->toContain('<strong>$80,344 to $89,462</strong> a year')
+        ->toContain('<strong>$86,915 to $103,079</strong>')
+        ->toContain('<strong>tax-free allowance of $525 a week</strong>')
+        ->toContain('<strong>15 weeks in residence</strong>')
+        ->toContain('<strong>Enhanced Reliability Status plus Secret clearance</strong>')
+        ->toContain('permanent residents need <strong>1,095 days in Canada</strong>')
+        ->toContain('<strong>19 to be hired</strong>')
+        ->toContain('Cadets receive <strong>$1,000 a week</strong> at Depot, up to $26,000')
+        ->toContain('<strong>moderate risk of shortage</strong>')
+        ->not->toContain('https://www.canada.ca/en/public-safety-canada/corporate/careers.html')
+        ->not->toContain('direct-interaction experience')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-become-a-correctional-officer-in-canada' => Database\Seeders\CorrectionalOfficerJobsCanadaBlogSeeder::class,
+        'government-security-jobs-in-australia' => Database\Seeders\GovernmentSecurityJobsAustraliaBlogSeeder::class,
+        'emergency-dispatcher-jobs-in-usa' => Database\Seeders\EmergencyDispatcherJobsUsaBlogSeeder::class,
+        'jobs-in-canada-for-foreign-workers' => Database\Seeders\JobsInCanadaForeignWorkersBlogSeeder::class,
+        'law-enforcement-jobs-in-usa' => Database\Seeders\LawEnforcementJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/public-safety-jobs-in-canada');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3359,6 +3439,8 @@ it('resolves every internal link the new guides publish', function () {
         'educational-support-jobs-in-usa',
         'government-security-jobs-in-australia',
         'emergency-dispatcher-jobs-in-usa',
+        'law-enforcement-jobs-in-usa',
+        'public-safety-jobs-in-canada',
     ];
 
     foreach ($guides as $guide) {

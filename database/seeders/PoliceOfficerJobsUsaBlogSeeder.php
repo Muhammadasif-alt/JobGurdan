@@ -187,7 +187,7 @@ JOBHTML;
     <li><strong>Transit and railroad police:</strong> a median of $90,230</li>
 </ul>
 
-<p>The spread matters too. The lowest-paid tenth of patrol officers earned less than <strong>$47,510</strong>, and the highest-paid tenth more than $115,120. So the guides' entry range sits mostly at the very bottom of the market. A large department shows the shape: the NYPD starts officers on $55,942 and pays $109,352 after five and a half years.</p>
+<p>The spread matters too. The lowest-paid tenth of patrol officers earned less than <strong>$47,510</strong>, and the highest-paid tenth more than $115,120. So the guides' entry range sits mostly at the very bottom of the market. A large department shows the shape: the NYPD starts officers on $60,884 and pays $126,410 in total salary after five and a half years.</p>
 
 <p>The other two bands are low as well. Patrol officers employed by <strong>state governments</strong> &mdash; the nearest BLS measure of state troopers &mdash; have a median of <strong>$88,400</strong>, above the guides' $85,000 ceiling. <strong>Detectives and criminal investigators in the federal government</strong> have a median of <strong>$119,500</strong>.</p>
 
@@ -353,6 +353,7 @@ JOBHTML;
     <li><a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a> &mdash; the desk-based intelligence route, its GS pay and the citizenship rule.</li>
     <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a> &mdash; federal CSC versus provincial jails, who can apply, training and Job Bank pay.</li>
     <li><a href="/blog/emergency-dispatcher-jobs-in-usa">Emergency Dispatcher Jobs in USA</a> &mdash; 911 telecommunicator pay, experience rules, typing and CritiCall tests, and 2026 openings in Houston, NYC and LA County.</li>
+    <li><a href="/blog/law-enforcement-jobs-in-usa">Law Enforcement Jobs in USA</a> &mdash; patrol, detective, transit, game warden and federal paths compared, with BLS pay and NYPD, FBI and DEA entry rules.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Hiring standards, pay, citizenship rules, firearms law and immigration guidance change and differ between agencies and states. Confirm the current position with the agency's official recruitment page, the relevant state and federal authorities and an immigration lawyer before applying.</p>
