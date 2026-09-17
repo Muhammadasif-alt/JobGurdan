@@ -1,17 +1,59 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs with Visa Sponsorship in '.$coverage->count().' Countries | JobGader')
-@section('meta_description', 'Hand-checked jobs across '.$coverage->shortList().', including roles that sponsor foreign workers, plus guides on which visa routes are open.')
-@section('meta_keywords', 'jobs with visa sponsorship, jobs in usa, jobs in uk, jobs in pakistan, visa sponsorship jobs, H-2B visa jobs, EB-3 visa jobs, work abroad, job search, apply free, jobs for foreigners')
-@section('og_title', 'JobGader | Jobs with Visa Sponsorship — USA, UK & Pakistan')
-@section('og_description', 'Verified jobs across '.$coverage->shortList().', including visa-sponsored roles — plus honest guides on which visa routes are open. Free to apply.')
+@php
+    /**
+     * One list feeds both the visible FAQ and its FAQPage schema, so the two
+     * cannot drift apart.
+     *
+     * @var list<array{question: string, answer: string}> $homeFaqs
+     */
+    $homeFaqs = [
+        [
+            'question' => 'Is JobGader free for students and job seekers?',
+            'answer' => 'Yes. Searching jobs, reading guides and viewing scholarships is free, and you can apply without an account. The only paid service is CV writing, which you choose to order and arrange with us directly on WhatsApp.',
+        ],
+        [
+            'question' => 'Is JobGader an employer, recruiter or visa agent?',
+            'answer' => 'No. JobGader is an independent, third-party information site. We do not hire for other companies, sponsor visas, process applications or charge placement fees. Each listing sends you to the employer, the job board or the university to apply.',
+        ],
+        [
+            'question' => 'How do you check information before publishing it?',
+            'answer' => 'Before a guide or scholarship goes live, we check the key facts (pay, eligibility, deadlines and visa rules) against official sources such as government and university websites, and correct anything that does not match. Rules and dates can change after we publish, so always confirm on the official page before you apply.',
+        ],
+        [
+            'question' => 'Can students find internships, part-time and graduate jobs here?',
+            'answer' => 'Yes. Alongside full-time roles we list internships, graduate and entry-level jobs, no-experience jobs and part-time remote work. If you are on a student visa, check how many hours it lets you work before you accept a job, because each country sets its own limit.',
+        ],
+        [
+            'question' => 'Does JobGader award scholarships or apply for me?',
+            'answer' => 'No. We explain each scholarship (what it covers, who can apply, the deadline and the documents) and link to the official page, but the university or funder makes every decision and you apply to them directly. Nobody can guarantee you a scholarship, so never pay anyone who promises one.',
+        ],
+        [
+            'question' => 'How does the paid CV writing service work?',
+            'answer' => 'Message us on WhatsApp with your current CV, if you have one, and the job and country you are applying to. We agree the scope, price and delivery date before you pay, then a writer builds your CV around that job and revises it with you. A free CV review first tells you whether you need a rewrite at all.',
+        ],
+        [
+            'question' => 'Should I ever pay for a job offer or visa sponsorship?',
+            'answer' => 'No. Genuine employers do not sell job offers, and US and UK rules stop employers passing key sponsorship costs on to the worker. If anyone asks for an upfront fee to guarantee a job, a visa or a scholarship, treat it as a scam and walk away.',
+        ],
+        [
+            'question' => 'How can I contact JobGader?',
+            'answer' => 'Message us on WhatsApp or use the Contact page. We can point you to the right guide or scholarship, but we are not immigration advisers, so always confirm visa rules on the official government website.',
+        ],
+    ];
+@endphp
+@section('title', 'Jobs, Scholarships & Visa Guides for Students | JobGader')
+@section('meta_description', 'Jobs, internships and scholarships for students and graduates, with pay, deadlines and visa rules checked against official sources. Free to apply.')
+@section('meta_keywords', 'jobs for students, scholarships for international students, study abroad scholarships, internships, graduate jobs, part-time jobs, jobs with visa sponsorship, work abroad, cv writing service')
+@section('og_title', 'JobGader | Jobs, Scholarships & Visa Guides for Students')
+@section('og_description', 'Jobs across '.$coverage->shortList().' and scholarships to study abroad, with the facts checked against official sources. Free to apply; CV writing on WhatsApp.')
 @section('og_image', asset('public/user/images/home-background-03.jpg'))
 @section('canonical', url('/'))
 
 @push('meta')
     {{-- Twitter card --}}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="JobGader — Verified Jobs Across {{ $coverage->count() }} Countries">
-    <meta name="twitter:description" content="Verified jobs across {{ $coverage->shortList() }}, including visa-sponsored roles. Free for job seekers.">
+    <meta name="twitter:title" content="JobGader — Jobs, Scholarships & Visa Guides for Students">
+    <meta name="twitter:description" content="Jobs across {{ $coverage->shortList() }} and scholarships to study abroad, checked against official sources. Free to apply.">
     <meta name="twitter:image" content="{{ asset('public/user/images/home-background-03.jpg') }}">
     <meta name="author" content="JobGader">
     <meta property="og:type" content="website">
@@ -25,7 +67,7 @@
         "@@type": "WebSite",
         "name": "JobGader",
         "url": "{{ url('/') }}",
-        "description": "A job search platform connecting verified employers with job seekers across {{ $coverage->shortList() }}, with a focus on roles open to foreign workers.",
+        "description": "An independent site listing jobs across {{ $coverage->shortList() }} and scholarships to study abroad for students, graduates and job seekers, with guides checked against official sources.",
         "potentialAction": {
             "@@type": "SearchAction",
             "target": {
@@ -45,7 +87,7 @@
         "name": "JobGader",
         "url": "{{ url('/') }}",
         "logo": "{{ asset('public/user/images/apple-touch-icon.png') }}",
-        "description": "Verified online employment platform connecting job seekers with hiring employers across {{ $coverage->shortList() }}.",
+        "description": "A third-party information site for jobs across {{ $coverage->shortList() }} and scholarships to study abroad. JobGader is not an employer, recruiter or visa agent; applications go to the employer, job board or university.",
         "areaServed": {!! json_encode($coverage->areaServedNodes(), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
         "contactPoint": {
             "@@type": "ContactPoint",
@@ -56,54 +98,17 @@
     }
     </script>
 
-    {{-- JSON-LD: FAQPage (matches the visible FAQ section on this page) --}}
+    {{-- JSON-LD: FAQPage, built from the same list the visible FAQ section renders --}}
     <script type="application/ld+json">
-    {
-        "@@context": "https://schema.org",
-        "@@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@@type": "Question",
-                "name": "Is it free to search and apply for jobs?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "Yes — searching and applying is completely free, and you do not even need an account. Open any listing and apply straight through. There are no fees, no paywalls and no charges for job seekers, ever." }
-            },
-            {
-                "@@type": "Question",
-                "name": "Do I need to create an account to apply?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "No. Every listing on JobGader can be opened and applied to without signing up. An account is optional and only useful if you want to save roles or come back to them later." }
-            },
-            {
-                "@@type": "Question",
-                "name": "Which countries and industries do you cover?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "We cover {{ $coverage->shortList() }} across a wide range of industries — healthcare, IT, construction, retail, hospitality, transport, cleaning and more — including roles that sponsor foreign workers." }
-            },
-            {
-                "@@type": "Question",
-                "name": "Do you list jobs with visa sponsorship?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "Yes, and we are honest about which routes are genuinely open. Some, like US truck driving and hospitality on H-2B and EB-3, still sponsor foreign workers. Others, like the UK care worker route, closed to new overseas applicants in July 2025 — our guides say so plainly instead of promising a visa that no longer exists." }
-            },
-            {
-                "@@type": "Question",
-                "name": "How do I know a listing is genuine?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "Every listing is added and checked by our team rather than scraped automatically, and each one links through to the employer or the original posting so you can verify it yourself before applying." }
-            },
-            {
-                "@@type": "Question",
-                "name": "Do I ever have to pay a recruiter for sponsorship?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "No. Charging a worker for visa sponsorship is illegal in both the US and the UK. If a recruiter asks for an upfront fee to guarantee a job or a visa, treat it as a scam and walk away." }
-            },
-            {
-                "@@type": "Question",
-                "name": "How often are new jobs and guides added?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "New listings and visa guides go up every week. The newest openings always appear at the top of the home page and on the jobs board." }
-            },
-            {
-                "@@type": "Question",
-                "name": "What if I need help with an application?",
-                "acceptedAnswer": { "@@type": "Answer", "text": "Visit our Contact page and our team will get back to you. We can point you to the right guide, but we are not immigration advisers — always confirm visa rules on the official government site." }
-            }
-        ]
-    }
+    {!! json_encode([
+        '@context' => 'https://schema.org',
+        '@type' => 'FAQPage',
+        'mainEntity' => array_map(fn (array $faq): array => [
+            '@type' => 'Question',
+            'name' => $faq['question'],
+            'acceptedAnswer' => ['@type' => 'Answer', 'text' => $faq['answer']],
+        ], $homeFaqs),
+    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_PRETTY_PRINT) !!}
     </script>
 @endpush
 
@@ -1011,14 +1016,14 @@
                     <div class="utf-banner-headline-text-part">
                         <span class="hero-eyebrow" data-aos="fade-down" data-aos-duration="600">
                             <span class="pulse-dot"></span>
-                            Hand-picked jobs &middot; Real hiring &middot; {{ $coverage->count() }} countries
+                            Jobs &middot; Scholarships &middot; Real hiring &middot; {{ $coverage->count() }} countries
                         </span>
                         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                            Find Jobs Abroad
-                            <span class="accent">With Visa Sponsorship</span>
+                            Find Jobs and Scholarships
+                            <span class="accent">for Students and Graduates</span>
                         </h1>
                         <span data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">
-                            Verified openings across {{ $coverage->shortList() }} &mdash; plus straight answers on which visa routes are actually open, and which ones aren't. Free to apply, no account needed.
+                            Internships, graduate and visa-sponsored jobs across {{ $coverage->shortList() }}, plus scholarships to study abroad. We check pay, deadlines and visa rules against official sources before we publish, then send you to apply directly with the employer or university. Free to apply, no account needed.
                         </span>
                     </div>
 
@@ -1056,12 +1061,13 @@
 
                     {{-- Trending tag chips --}}
                     <div class="hero-trending" data-aos="fade-up" data-aos-duration="600" data-aos-delay="550">
-                        <span class="trending-label">Trending:</span>
+                        <span class="trending-label">Popular:</span>
+                        <a class="trending-tag" href="{{ route('scholarships.index') }}">Scholarships</a>
+                        <a class="trending-tag" href="{{ route('pages.internship-jobs') }}">Internships</a>
+                        <a class="trending-tag" href="{{ route('pages.graduate-jobs') }}">Graduate Jobs</a>
+                        <a class="trending-tag" href="{{ route('pages.part-time-remote-jobs') }}">Part-Time Remote</a>
+                        <a class="trending-tag" href="{{ route('pages.no-experience-jobs') }}">No Experience</a>
                         <a class="trending-tag" href="{{ route('jobs.search') }}?position=Visa+Sponsorship">Visa Sponsorship</a>
-                        <a class="trending-tag" href="{{ route('jobs.search') }}?position=Truck+Driver">Truck Driver</a>
-                        <a class="trending-tag" href="{{ route('jobs.search') }}?position=Hotel">Hotel Jobs</a>
-                        <a class="trending-tag" href="{{ route('jobs.search') }}?position=Cleaner">Cleaner</a>
-                        <a class="trending-tag" href="{{ route('jobs.search') }}?position=Developer">Developer</a>
                     </div>
 
                     @php
@@ -1094,8 +1100,8 @@
                         @endif
                         <div class="divider"></div>
                         <div class="stat" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="900">
-                            <strong>Visa</strong>
-                            <span>Sponsored Roles</span>
+                            <strong>Official</strong>
+                            <span>Sources Checked</span>
                         </div>
                         <div class="divider"></div>
                         <div class="stat" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1000">
@@ -1385,7 +1391,7 @@
                 <header class="section-head" data-aos="fade-up">
                     <span class="section-tag">Latest Openings</span>
                     <h2 id="latest-jobs-heading">Newest Jobs <span class="accent">Hiring Right Now</span></h2>
-                    <p>Fresh openings added to JobGader — browse the newest roles across the USA and apply free, no account needed.</p>
+                    <p>The newest openings across {{ $coverage->shortList() }}, from entry-level to experienced roles. Each one sends you to the employer or job board to apply, free and with no account needed.</p>
                 </header>
 
                 <div class="home-jobs-grid">
@@ -1489,7 +1495,7 @@
                 <header class="home-scholar-head" data-aos="fade-up">
                     <span class="home-scholar-tag">Scholarships</span>
                     <h2 id="scholarships-heading">Scholarships to <span class="accent">Study Abroad</span></h2>
-                    <p>Each scholarship explained in plain English &mdash; what it pays, who can apply, the deadlines and how to apply on the official page.</p>
+                    <p>Each scholarship is checked against the university or funder&rsquo;s official page before it goes up, then explained in plain English: what it pays, who can apply, the deadline and where to apply. You apply to the university directly.</p>
                 </header>
 
                 <div class="home-scholar-grid">
@@ -1582,19 +1588,19 @@
         ];
 
         $industryDescriptions = [
-            'Healthcare & Medical'       => 'Nursing, physician, allied-health and clinical roles at top U.S. hospitals and care providers.',
-            'Hospitality & Tourism'      => 'Front-of-house, kitchen, hotel and travel positions across America\'s leading brands.',
-            'Trades & Services'          => 'Skilled-trades, maintenance and field-service jobs with competitive pay and benefits.',
-            'Transport & Logistics'      => 'CDL drivers, warehouse, fleet and supply-chain openings nationwide.',
-            'Retail & Consumer Products' => 'Store, e-commerce and merchandising roles with major U.S. retailers.',
+            'Healthcare & Medical'       => 'Nursing, physician, allied-health and clinical roles with hospitals and care providers.',
+            'Hospitality & Tourism'      => 'Front-of-house, kitchen, hotel and travel positions with hotels, restaurants and resorts.',
+            'Trades & Services'          => 'Skilled-trades, maintenance and field-service jobs.',
+            'Transport & Logistics'      => 'Drivers, warehouse, fleet and supply-chain openings.',
+            'Retail & Consumer Products' => 'Store, e-commerce and merchandising roles with major retailers.',
             'I.T. & Communications'      => 'Software, networking, cybersecurity and helpdesk roles for every experience level.',
             'Call Centre / CustomerService' => 'Remote and on-site customer support, sales and service-rep positions.',
             'Education'                  => 'Teaching, instructional and training roles across schools and learning platforms.',
             'Education & Training'       => 'Teaching, instructional and training roles across schools and learning platforms.',
             'Construction'               => 'Project management, skilled labor and on-site construction opportunities.',
-            'Sales'                      => 'Inside sales, account executive and business-development roles with uncapped commission.',
-            'Sales & Marketing'          => 'Inside sales, account executive, brand and growth-marketing roles with uncapped commission.',
-            'Other'                      => 'Diverse openings spanning admin, support, operations and specialised roles across the U.S.',
+            'Sales'                      => 'Inside sales, account executive and business-development roles.',
+            'Sales & Marketing'          => 'Inside sales, account executive, brand and growth-marketing roles.',
+            'Other'                      => 'Diverse openings spanning admin, support, operations and specialised roles.',
         ];
 
         // Resolver — picks the best icon for a given category name.
@@ -1770,7 +1776,7 @@
                 <header class="section-head" data-aos="fade-up">
                     <span class="section-tag">Industries We Serve</span>
                     <h2 id="industry-heading">Browse Jobs <span class="accent">By Your Industry</span></h2>
-                    <p>Explore verified openings in the sectors hiring hardest across {{ $coverage->shortList() }}. Pick an industry and jump straight to the roles open right now.</p>
+                    <p>Explore current openings in the sectors hiring hardest across {{ $coverage->shortList() }}. Pick an industry and jump straight to the roles open right now.</p>
                 </header>
 
                 <div class="industry-grid">
@@ -1783,7 +1789,7 @@
                         <a href="{{ route('jobs.category', $category->slug) }}"
                            class="industry-card"
                            data-aos="fade-up" data-aos-delay="{{ ($idx % 4) * 80 }}" data-aos-duration="600"
-                           title="View {!! $displayName !!} jobs in the USA"
+                           title="View {!! $displayName !!} jobs"
                            aria-label="Browse {{ $jobsCount }} {{ strip_tags($displayName) }} jobs">
                             <div class="icon-wrap" aria-hidden="true"><i class="{{ $iconClass }}"></i></div>
                             <div class="card-text">
@@ -1810,7 +1816,7 @@
             "@@type": "CollectionPage",
             "@@id": {!! json_encode(url('/').'#industries') !!},
             "name": "Browse Jobs by Industry",
-            "description": "Explore U.S. job opportunities by industry on JobGader.",
+            "description": "Explore job opportunities by industry on JobGader.",
             "hasPart": [
                 @foreach ($categories as $idx => $category)
                 {
@@ -1958,6 +1964,10 @@
         .home-split-cta:hover { transform: translateY(-1px); background: #16305a; box-shadow: 0 14px 28px rgba(27, 58, 107, .30); }
         .home-split-cta i { font-size: 22px; transition: transform .2s ease; }
         .home-split-cta:hover i { transform: translateX(4px); }
+        .home-split-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+        .home-split-cta-whatsapp { background: #1f9d55; box-shadow: 0 8px 18px rgba(31, 157, 85, .22); }
+        .home-split-cta-whatsapp:hover { background: #17864a; box-shadow: 0 14px 28px rgba(31, 157, 85, .32); }
+        .home-split-cta-whatsapp:hover i { transform: none; }
     </style>
 
     <section class="home-split-section" aria-labelledby="verified-jobs-heading">
@@ -1971,17 +1981,17 @@
                          onerror="this.onerror=null;this.src='{{ asset('public/user/images/home-verified-jobs.jpg') }}'">
                 </div>
                 <div class="home-split-body" data-aos="fade-up" data-aos-delay="120">
-                    <span class="home-split-eyebrow">Hand-Picked Jobs</span>
+                    <span class="home-split-eyebrow">An Independent Site</span>
                     <h2 id="verified-jobs-heading">Real Hiring From Real Employers <span class="accent">in {{ $coverage->countWord() }} Countries</span></h2>
-                    <p>Every job on JobGader is added by our team, by hand &mdash; and never a fee dressed up as a job offer. Listings span {{ $coverage->shortList() }}, so wherever you want to work, you can see what is genuinely open before you apply.</p>
+                    <p>JobGader is a third-party information site, not an employer, recruiter or visa agent. We gather openings across {{ $coverage->shortList() }}, explain what each role and visa route really involves, and send you to the employer or job board to apply &mdash; never a fee dressed up as a job offer.</p>
                     <ul class="home-split-points">
                         <li>
                             <i class="icon-feather-check" aria-hidden="true"></i>
-                            <span><strong>Added by a person</strong>Our team writes up each listing by hand, with what the role involves and who it suits, instead of scraping job boards in bulk.</span>
+                            <span><strong>Facts checked at the source</strong>Pay, deadlines and visa rules in our guides are checked against government and other official sources before we publish, and the source is named.</span>
                         </li>
                         <li>
                             <i class="icon-feather-check" aria-hidden="true"></i>
-                            <span><strong>Check the openings yourself</strong>Each listing links out to where the roles are advertised, so you can see what is open right now before you apply.</span>
+                            <span><strong>You apply where the job is</strong>Each listing links out to where the role is advertised. We do not collect applications or decide who is hired, so your application reaches the people who do.</span>
                         </li>
                         <li>
                             <i class="icon-feather-check" aria-hidden="true"></i>
@@ -2008,9 +2018,9 @@
                          onerror="this.onerror=null;this.src='{{ asset('public/user/images/home-tailored-cv.jpg') }}'">
                 </div>
                 <div class="home-split-body" data-aos="fade-up" data-aos-delay="120">
-                    <span class="home-split-eyebrow">CV Writing</span>
+                    <span class="home-split-eyebrow">CV Writing &middot; Paid Service</span>
                     <h2 id="tailored-cv-heading">A CV Written for <span class="accent">the Job You Want</span></h2>
-                    <p>We do not drop your name into a template. Tell us the role and the country you are applying to, and we build your CV around what that employer is asking for &mdash; the skills, the experience and the wording of the job advert, wherever it is honestly true of you.</p>
+                    <p>Our one paid service, arranged directly on WhatsApp. We do not drop your name into a template: tell us the role and the country you are applying to, and a writer builds your CV around what that employer is asking for &mdash; the skills, the experience and the wording of the job advert, wherever it is honestly true of you.</p>
                     <ul class="home-split-points">
                         <li>
                             <i class="icon-feather-check" aria-hidden="true"></i>
@@ -2024,11 +2034,27 @@
                             <i class="icon-feather-check" aria-hidden="true"></i>
                             <span><strong>Readable by screening software</strong>A clean structure that applicant tracking systems parse properly, so a person actually gets to read it.</span>
                         </li>
+                        <li>
+                            <i class="icon-feather-check" aria-hidden="true"></i>
+                            <span><strong>Price agreed before you pay</strong>Send your current CV and the job on WhatsApp. We agree the scope, price and delivery date first, and a free review tells you whether you need a rewrite at all.</span>
+                        </li>
                     </ul>
-                    <a href="{{ route('resume-writing') }}#resume-enquiry" class="home-split-cta">
-                        <span>Get a Free CV Review</span>
-                        <i class="icon-material-outline-arrow-right-alt"></i>
-                    </a>
+                    @php
+                        $cvWhatsAppNumber = preg_replace('/\D+/', '', (string) config('site.whatsapp'));
+                    @endphp
+                    <div class="home-split-actions">
+                        @if ($cvWhatsAppNumber !== '')
+                            <a href="https://wa.me/{{ $cvWhatsAppNumber }}?text={{ rawurlencode('Hi, I would like my CV written.') }}"
+                               class="home-split-cta home-split-cta-whatsapp" target="_blank" rel="noopener">
+                                <i class="icon-brand-whatsapp" aria-hidden="true"></i>
+                                <span>Order Your CV on WhatsApp</span>
+                            </a>
+                        @endif
+                        <a href="{{ route('resume-writing') }}#resume-enquiry" class="home-split-cta">
+                            <span>Get a Free CV Review</span>
+                            <i class="icon-material-outline-arrow-right-alt"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -2220,7 +2246,7 @@
             <header class="process-head" data-aos="fade-up">
                 <span class="eyebrow">How It Works</span>
                 <h2 id="process-heading">From Search to <span class="accent">Applied</span> in Four Steps</h2>
-                <p>No sign-up wall, no fees, no guessing. Pick a country, read what the visa route actually allows, then apply straight through to the employer or the original posting.</p>
+                <p>No sign-up wall and no fee to apply. Choose a job or scholarship, read what the rules actually say, then apply on the employer&rsquo;s, job board&rsquo;s or university&rsquo;s own site.</p>
             </header>
 
             <div class="process-grid">
@@ -2232,8 +2258,8 @@
                              loading="lazy"
                              onerror="this.onerror=null;this.src='{{ asset('public/user/images/seo-jobseekers.jpg') }}'">
                     </div>
-                    <h3>Pick Your Country</h3>
-                    <p>We list openings across {{ $coverage->shortList() }} &mdash; from general labour and hospitality to skilled trades and senior engineering. Start with where you want to work.</p>
+                    <h3>Choose a Job or Scholarship</h3>
+                    <p>Browse internships, graduate and visa-sponsored jobs across {{ $coverage->shortList() }}, or scholarships to study abroad. Start with what you need next.</p>
                     <a href="{{ route('jobs.index') }}" class="card-cta" aria-label="Browse jobs by country">
                         Browse Jobs <i class="icon-feather-arrow-right"></i>
                     </a>
@@ -2247,8 +2273,8 @@
                              loading="lazy"
                              onerror="this.onerror=null;this.src='{{ asset('public/user/images/blog.jpg') }}'">
                     </div>
-                    <h3>Check the Visa Route</h3>
-                    <p>Every sector has its own rules. Our guides spell out which routes are open, which closed, what the pay really is, and how to spot a recruiter selling a visa that does not exist.</p>
+                    <h3>Read the Checked Guide</h3>
+                    <p>Our guides set out pay, eligibility, deadlines and visa rules, checked against official government and university sources, and say plainly when a route has closed or a recruiter is selling a visa that does not exist.</p>
                     <a href="{{ route('blog.index') }}" class="card-cta" aria-label="Read the visa sponsorship guides">
                         Read the Guides <i class="icon-feather-arrow-right"></i>
                     </a>
@@ -2262,10 +2288,10 @@
                              loading="lazy"
                              onerror="this.onerror=null;this.src='{{ asset('public/user/images/industry-remote.jpg') }}'">
                     </div>
-                    <h3>Open the Listing</h3>
-                    <p>Each listing sets out the pay range, requirements, shift pattern and sponsorship status up front &mdash; so you know whether you qualify before you spend time on an application.</p>
-                    <a href="{{ route('jobs.index') }}" class="card-cta" aria-label="View the latest job listings">
-                        See Latest Jobs <i class="icon-feather-arrow-right"></i>
+                    <h3>Apply at the Source</h3>
+                    <p>Apply on the employer&rsquo;s, job board&rsquo;s or university&rsquo;s own page. JobGader does not take applications or make hiring and scholarship decisions, so yours goes straight to the people who do.</p>
+                    <a href="{{ route('scholarships.index') }}" class="card-cta" aria-label="View scholarships to study abroad">
+                        View Scholarships <i class="icon-feather-arrow-right"></i>
                     </a>
                 </article>
 
@@ -2276,10 +2302,10 @@
                              alt="Job seeker sending an application straight to an employer across {{ $coverage->shortList() }}"
                              loading="lazy">
                     </div>
-                    <h3>Apply Direct, Free</h3>
-                    <p>Apply straight through to the employer or the original posting. No account, no fee, no middleman &mdash; and never pay anyone who asks for money to guarantee a job or a visa.</p>
-                    <a href="{{ route('jobs.companies') }}" class="card-cta" aria-label="Browse hiring employers">
-                        Hiring Employers <i class="icon-feather-arrow-right"></i>
+                    <h3>Need a Stronger CV?</h3>
+                    <p>If your CV is what holds you back, our paid CV writing service is arranged on WhatsApp. Applying is always free &mdash; never pay anyone who asks for money to guarantee a job, a visa or a scholarship.</p>
+                    <a href="{{ route('resume-writing') }}" class="card-cta" aria-label="See the CV writing service">
+                        CV Writing <i class="icon-feather-arrow-right"></i>
                     </a>
                 </article>
             </div>
@@ -2297,37 +2323,37 @@
     {
         "@@context": "https://schema.org",
         "@@type": "HowTo",
-        "name": "How to Find a Job in the USA on JobGader",
-        "description": "Get hired in 4 simple steps on JobGader — America's trusted free job portal connecting candidates with verified employers nationwide.",
+        "name": "How to Find a Job or Scholarship on JobGader",
+        "description": "Four steps from search to application: choose a job or scholarship, read the guide checked against official sources, apply on the employer's or university's own site, and get CV help if you need it.",
         "totalTime": "PT5M",
         "step": [
             {
                 "@@type": "HowToStep",
                 "position": 1,
-                "name": "Create Your Account",
-                "text": "Pick your country. We list openings across {{ $coverage->shortList() }}, from general labour and hospitality to skilled trades and senior engineering.",
-                "url": "{{ route('register') }}"
+                "name": "Choose a Job or Scholarship",
+                "text": "Browse internships, graduate and visa-sponsored jobs across {{ $coverage->shortList() }}, or scholarships to study abroad.",
+                "url": "{{ route('jobs.index') }}"
             },
             {
                 "@@type": "HowToStep",
                 "position": 2,
-                "name": "Search Verified Jobs",
-                "text": "Check the visa route. Our guides spell out which sponsorship routes are open, which are closed, and what the pay really is.",
-                "url": "{{ route('jobs.index') }}"
+                "name": "Read the Checked Guide",
+                "text": "Our guides set out pay, eligibility, deadlines and visa rules, checked against official government and university sources.",
+                "url": "{{ route('blog.index') }}"
             },
             {
                 "@@type": "HowToStep",
                 "position": 3,
-                "name": "Apply with Confidence",
-                "text": "Open the role that fits you best and submit your application instantly. Track every response from your dashboard.",
-                "url": "{{ route('jobs.index') }}"
+                "name": "Apply at the Source",
+                "text": "Apply on the employer's, job board's or university's own page. JobGader does not take applications or make hiring or scholarship decisions.",
+                "url": "{{ route('scholarships.index') }}"
             },
             {
                 "@@type": "HowToStep",
                 "position": 4,
-                "name": "Get Hired Faster",
-                "text": "Apply direct and free. Applications go straight to the employer or the original posting, with no account and no fee.",
-                "url": "{{ route('jobs.companies') }}"
+                "name": "Need a Stronger CV?",
+                "text": "Our paid CV writing service is arranged on WhatsApp. Applying is always free, and no one should charge you to guarantee a job, visa or scholarship.",
+                "url": "{{ route('resume-writing') }}"
             }
         ]
     }
@@ -2340,7 +2366,7 @@
             <header class="why-head">
                 <span class="eyebrow">Why JobGader</span>
                 <h2 id="why-heading">How <span class="accent">JobGader</span> is Different</h2>
-                <p>Most job sites tell you what you want to hear about visas. We tell you what the rules actually say &mdash; then get out of the way so you can apply.</p>
+                <p>Most job sites tell students what they want to hear about jobs, visas and scholarships. We check what the official rules actually say &mdash; then send you to apply at the source.</p>
             </header>
 
             <div class="why-grid">
@@ -2348,32 +2374,32 @@
                     <article class="why-item" itemprop="hasOfferCatalog">
                         <span class="why-check"><i class="icon-feather-check"></i></span>
                         <div>
-                            <h3>Honest Visa Guidance</h3>
-                            <p>When a route closes, we say so. The UK care worker visa shut to new overseas applicants in July 2025 &mdash; our guide leads with that instead of selling you a visa that no longer exists.</p>
+                            <h3>Checked Before We Publish</h3>
+                            <p>Pay, deadlines, eligibility and visa rules are checked against official government and university sources before a guide or scholarship goes live. When a route closes, like the UK care worker visa for new overseas applicants in July 2025, we say so.</p>
                         </div>
                     </article>
 
                     <article class="why-item">
                         <span class="why-check"><i class="icon-feather-check"></i></span>
                         <div>
-                            <h3>{{ $coverage->countWord() }} Countries, One Board</h3>
-                            <p>{{ $coverage->shortList() }} in one place &mdash; truck driving, hospitality, care, construction, cleaning and software. Filter by country, salary or category and apply in a click.</p>
+                            <h3>Built for Students and Graduates</h3>
+                            <p>Internships, graduate, part-time and no-experience jobs sit alongside scholarships to study abroad, with openings across {{ $coverage->shortList() }}. Filter by country or category and apply at the source.</p>
                         </div>
                     </article>
 
                     <article class="why-item">
                         <span class="why-check"><i class="icon-feather-check"></i></span>
                         <div>
-                            <h3>No Account, No Fee, Ever</h3>
-                            <p>You do not need to sign up to apply. No subscription, no resume paywall, no hidden charges &mdash; and we will never ask a job seeker for money.</p>
+                            <h3>Independent, Not a Recruiter</h3>
+                            <p>JobGader is a third-party information site. We do not hire, sponsor visas, award scholarships or take a cut of your salary, and we never charge you to apply for a job or a scholarship.</p>
                         </div>
                     </article>
 
                     <article class="why-item">
                         <span class="why-check"><i class="icon-feather-check"></i></span>
                         <div>
-                            <h3>Real Pay Figures, Not Guesses</h3>
-                            <p>Every listing carries a researched pay range with its source explained &mdash; hourly rates, annual bands and what the number actually means once tax and shift premiums are counted.</p>
+                            <h3>Free to Use, One Paid Service</h3>
+                            <p>Searching and applying cost nothing and need no account. The only thing we charge for is CV writing, which you choose to order and arrange with us directly on WhatsApp.</p>
                         </div>
                     </article>
 
@@ -2394,8 +2420,8 @@
                         <div class="why-floating why-fl-1">
                             <div class="ico"><i class="icon-feather-shield"></i></div>
                             <div>
-                                <strong>Hand-Checked</strong>
-                                <span>Every listing, before it goes live</span>
+                                <strong>Source-Checked</strong>
+                                <span>Guides and scholarships, before they go live</span>
                             </div>
                         </div>
                         <div class="why-floating why-fl-2">
@@ -2610,7 +2636,7 @@
         <div class="container">
             <header class="career-head">
                 <h2 id="career-heading">Career Advice to Win Your Job Search</h2>
-                <p>Resume tips, interview answers and salary insights from career experts &mdash; everything you need to land your next U.S. job.</p>
+                <p>CV tips, visa rules, salary facts and step-by-step career guides &mdash; everything you need for your next job or your move to study abroad.</p>
 
                 @if ($careerCats->isNotEmpty())
                     <div class="career-chips" role="tablist" aria-label="Filter career advice by topic">
@@ -2834,7 +2860,7 @@
         "@@context": "https://schema.org",
         "@@type": "ItemList",
         "@@id": {!! json_encode(url('/').'#career-articles') !!},
-        "name": "Career Advice for U.S. Job Seekers",
+        "name": "Career Advice for Students and Job Seekers",
         "itemListOrder": "https://schema.org/ItemListOrderAscending",
         "itemListElement": [
             @foreach ($careerPosts as $i => $post)
@@ -2983,45 +3009,19 @@
                 <div class="faq-left">
                     <span class="eyebrow">FAQ</span>
                     <h2>Got questions? We've got answers.</h2>
-                    <p>The honest version — what applying costs, which visa routes are actually open, and how to spot a recruiter who is wasting your time. Still stuck? Our team is one click away.</p>
+                    <p>The honest version &mdash; what is free, what is paid, how we check information and how to spot someone who wants your money. Still stuck? Message us on WhatsApp or use the Contact page.</p>
                     <a href="{{ route('contact.us') }}" class="contact-btn">
                         Contact Support <i class="icon-feather-arrow-right"></i>
                     </a>
                 </div>
 
                 <div class="faq-list">
-                    <details class="home-faq-item">
-                        <summary>Is it free to search and apply for jobs?</summary>
-                        <div class="home-faq-answer">Yes — searching and applying is completely free, and you do not even need an account. Open any listing and apply straight through. There are no fees, no paywalls and no charges for job seekers, ever.</div>
-                    </details>
-                    <details class="home-faq-item">
-                        <summary>Do I need to create an account to apply?</summary>
-                        <div class="home-faq-answer">No. Every listing on JobGader can be opened and applied to without signing up. An account is optional and only useful if you want to save roles or come back to them later.</div>
-                    </details>
-                    <details class="home-faq-item">
-                        <summary>Which countries and industries do you cover?</summary>
-                        <div class="home-faq-answer">We cover {{ $coverage->shortList() }} across a wide range of industries — healthcare, IT, construction, retail, hospitality, transport, cleaning and more — including roles that sponsor foreign workers.</div>
-                    </details>
-                    <details class="home-faq-item">
-                        <summary>Do you list jobs with visa sponsorship?</summary>
-                        <div class="home-faq-answer">Yes, and we are honest about which routes are genuinely open. Some, like US truck driving and hospitality on H-2B and EB-3, still sponsor foreign workers. Others, like the UK care worker route, closed to new overseas applicants in July 2025 — our guides say so plainly instead of promising a visa that no longer exists.</div>
-                    </details>
-                    <details class="home-faq-item">
-                        <summary>How do I know a listing is genuine?</summary>
-                        <div class="home-faq-answer">Every listing is added and checked by our team rather than scraped automatically, and each one links through to the employer or the original posting so you can verify it yourself before applying.</div>
-                    </details>
-                    <details class="home-faq-item">
-                        <summary>Do I ever have to pay a recruiter for sponsorship?</summary>
-                        <div class="home-faq-answer">No. Charging a worker for visa sponsorship is illegal in both the US and the UK. If a recruiter asks for an upfront fee to guarantee a job or a visa, treat it as a scam and walk away.</div>
-                    </details>
-                    <details class="home-faq-item">
-                        <summary>How often are new jobs and guides added?</summary>
-                        <div class="home-faq-answer">New listings and visa guides go up every week. The newest openings always appear at the top of the home page and on the jobs board.</div>
-                    </details>
-                    <details class="home-faq-item">
-                        <summary>What if I need help with an application?</summary>
-                        <div class="home-faq-answer">Visit our Contact page and our team will get back to you. We can point you to the right guide, but we are not immigration advisers — always confirm visa rules on the official government site.</div>
-                    </details>
+                    @foreach ($homeFaqs as $faq)
+                        <details class="home-faq-item">
+                            <summary>{{ $faq['question'] }}</summary>
+                            <div class="home-faq-answer">{{ $faq['answer'] }}</div>
+                        </details>
+                    @endforeach
                 </div>
             </div>
         </div>

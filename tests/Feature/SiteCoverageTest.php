@@ -7,6 +7,7 @@ use Database\Seeders\ConstructionJobsSaudiBlogSeeder;
 use Database\Seeders\ConstructionUsaBlogSeeder;
 use Database\Seeders\DriverJobsSaudiBlogSeeder;
 use Database\Seeders\FrontendDeveloperLahoreSeeder;
+use Database\Seeders\OnlineTeacherJobsWorldwideBlogSeeder;
 use Illuminate\Support\Facades\Cache;
 
 use function Pest\Laravel\get;
@@ -35,6 +36,17 @@ it('reads the covered countries from the listings themselves, busiest first', fu
         ->and($coverage->countWordLower())->toBe('two')
         ->and($coverage->shortList())->toBe('Saudi Arabia and the USA')
         ->and($coverage->fullList())->toBe('Saudi Arabia and United States');
+});
+
+it('does not count remote worldwide listings as a country', function () {
+    $this->seed(OnlineTeacherJobsWorldwideBlogSeeder::class);
+    $this->seed(ConstructionUsaBlogSeeder::class);
+
+    $coverage = app(SiteCoverage::class);
+
+    expect($coverage->countries())->toBe(['United States'])
+        ->and($coverage->count())->toBe(1)
+        ->and($coverage->shortList())->not->toContain('Worldwide');
 });
 
 it('abbreviates the country names that read badly in running copy', function () {

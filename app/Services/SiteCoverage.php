@@ -35,6 +35,12 @@ class SiteCoverage
      */
     private const NEEDS_ARTICLE = ['USA', 'UK', 'UAE'];
 
+    /**
+     * Location "countries" that stand for remote work rather than a place, so
+     * "Ten Countries ... Worldwide and Japan" does not count one of them.
+     */
+    private const NOT_COUNTRIES = ['Worldwide', 'Remote', 'Global', 'Anywhere'];
+
     private const NUMBER_WORDS = [
         1 => 'One', 2 => 'Two', 3 => 'Three', 4 => 'Four', 5 => 'Five',
         6 => 'Six', 7 => 'Seven', 8 => 'Eight', 9 => 'Nine', 10 => 'Ten',
@@ -55,6 +61,7 @@ class SiteCoverage
                 })
                 ->whereNotNull('locations.country')
                 ->where('locations.country', '!=', '')
+                ->whereNotIn('locations.country', self::NOT_COUNTRIES)
                 ->select('locations.country', DB::raw('COUNT(jobs.id) as job_count'))
                 ->groupBy('locations.country')
                 ->orderByDesc('job_count')
