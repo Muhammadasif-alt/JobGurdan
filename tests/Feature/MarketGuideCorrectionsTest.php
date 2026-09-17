@@ -3208,6 +3208,40 @@ it('fixes the Australia government security draft Border Force, ASIO, ASD and gr
     }
 });
 
+it('fixes the US emergency dispatcher draft experience, posting date, answer time and entry rule claims with official sources', function () {
+    $this->seed(Database\Seeders\EmergencyDispatcherJobsUsaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'emergency-dispatcher-jobs-in-usa')->value('content');
+
+    expect($content)->toContain('one year in a high-volume telephone, customer service or high stress environment')
+        ->toContain('Texas Commission on Law Enforcement (TCOLE) telecommunicator training program')
+        ->toContain('2025 posting, filing closed')
+        ->toContain('Public Response Dispatcher I</strong> jobs at <strong>$54,648&ndash;$73,644</strong>')
+        ->toContain('Fire Dispatcher II is a promotion open only to County Fire employees')
+        ->toContain('<strong>94.14% of 911 calls in under 15 seconds</strong>, against a national standard of 90%')
+        ->toContain('<strong>$51,790 minimum/year</strong>')
+        ->toContain('30 college semester credits')
+        ->toContain('<strong>18-month probation</strong>')
+        ->toContain('the June 2026 academy paid <strong>$29.00 an hour</strong>')
+        ->toContain('<strong>median annual wage of $53,040</strong>')
+        ->not->toContain('$64,308')
+        ->not->toContain('average answer time')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'police-officer-jobs-in-usa' => Database\Seeders\PoliceOfficerJobsUsaBlogSeeder::class,
+        'federal-police-jobs-in-usa' => Database\Seeders\FederalPoliceJobsUsaBlogSeeder::class,
+        'customer-service-jobs-in-usa' => Database\Seeders\CustomerServiceJobsUsaBlogSeeder::class,
+        'government-security-jobs-in-australia' => Database\Seeders\GovernmentSecurityJobsAustraliaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/emergency-dispatcher-jobs-in-usa');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3324,6 +3358,7 @@ it('resolves every internal link the new guides publish', function () {
         'school-administrator-jobs-in-uk',
         'educational-support-jobs-in-usa',
         'government-security-jobs-in-australia',
+        'emergency-dispatcher-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {
