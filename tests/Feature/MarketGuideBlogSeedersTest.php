@@ -26,6 +26,13 @@ dataset('market guides', [
         'https://ae.indeed.com/q-logistics-driver-jobs.html',
         'Logistics Driver',
     ],
+    'auto mechanic australia' => [
+        'how-to-become-an-auto-mechanic-in-australia',
+        Database\Seeders\AutoMechanicJobsAustraliaBlogSeeder::class,
+        ['how-to-become-an-auto-mechanic-in-australia-under-the-hood.jpg', 'how-to-become-an-auto-mechanic-in-australia-under-the-car.jpg'],
+        'https://au.indeed.com/q-motor-mechanic-jobs.html',
+        'Motor Mechanic',
+    ],
     'sales representative australia' => [
         'how-to-become-a-sales-representative-in-australia',
         Database\Seeders\SalesRepresentativeJobsAustraliaBlogSeeder::class,

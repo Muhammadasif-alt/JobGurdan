@@ -366,6 +366,7 @@ JOBHTML;
     <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; another state-registered occupation in real estate sales, and the entry-level certificate each state names differently.</li>
     <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a> &mdash; where a trade licence attaches to the contractor, not the tradesperson.</li>
     <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; how employer sponsorship actually works, and which occupation list applies.</li>
+    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a> &mdash; the apprenticeship, the AUR30620 qualification, award pay for apprentices and the routes for overseas-trained mechanics.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, migration or financial advice. Award rates, licensing rules, mutual recognition arrangements and visa requirements change, and pay figures on any job board are a moving average rather than a statistic. Confirm the current position with the Fair Work Ombudsman, your state plumbing regulator and the employer's own advertisement before applying.</p>

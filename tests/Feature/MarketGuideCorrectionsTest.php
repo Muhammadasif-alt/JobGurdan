@@ -2895,6 +2895,42 @@ it('fixes the remote customer service draft growth, pay, experience and hiring c
     }
 });
 
+it('fixes the Australia auto mechanic draft apprenticeship, entry, pay, licence and portal claims with official sources', function () {
+    $this->seed(Database\Seeders\AutoMechanicJobsAustraliaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-become-an-auto-mechanic-in-australia')->value('content');
+
+    expect($content)->toContain('AUR30620 Certificate III in Light Vehicle Mechanical Technology')
+        ->toContain('36 units: 20 core and 16 elective')
+        ->toContain('<strong>no entry requirements</strong>')
+        ->toContain('48 months nominal term')
+        ->toContain('at least three years')
+        ->toContain('$1,405 a week')
+        ->toContain('$1,119.10 a week')
+        ->toContain('$895.28 a week')
+        ->toContain('motor vehicle tradesperson certificate')
+        ->toContain('automotive air conditioning licence (AAC02)')
+        ->toContain('Trades Recognition Australia')
+        ->toContain('apprenticeships.gov.au')
+        ->toContain('https://au.indeed.com/q-motor-mechanic-jobs.html')
+        ->not->toContain('Australian Apprenticeships Pathways')
+        ->not->toContain('$58,600')
+        ->not->toContain('$88,600');
+
+    $siblings = [
+        'plumber-jobs-in-australia' => Database\Seeders\PlumberJobsAustraliaBlogSeeder::class,
+        'construction-worker-jobs-in-australia' => Database\Seeders\ConstructionWorkerJobsAustraliaBlogSeeder::class,
+        'visa-sponsorship-jobs-in-australia' => Database\Seeders\VisaSponsorshipJobsAustraliaBlogSeeder::class,
+        'no-experience-jobs-in-australia' => Database\Seeders\NoExperienceJobsAustraliaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-become-an-auto-mechanic-in-australia');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3002,6 +3038,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-become-a-sales-representative-in-australia',
         'how-to-get-a-logistics-driver-job-in-the-uae',
         'how-to-get-a-remote-customer-service-job-with-no-experience',
+        'how-to-become-an-auto-mechanic-in-australia',
     ];
 
     foreach ($guides as $guide) {
