@@ -2715,6 +2715,83 @@ it('anchors Canadian OT pay on Job Bank and folds in the 2026 Express Entry chan
     }
 });
 
+it('fixes the Japan ESL draft visa name, degree rule, CoE timing, EPI rank and pay with official sources', function () {
+    // The draft shortens the visa name, stretches the ten-year route to
+    // language teaching, quotes 4-8 weeks for the CoE, says address
+    // registration activates the card, and misses the October 2026 fee rise.
+    $this->seed(Database\Seeders\EslTeacherJobsJapanBlogSeeder::class);
+
+    expect(Blog::where('slug', 'how-to-get-an-esl-teaching-job-in-japan')->value('content'))
+        ->toContain('Engineer/Specialist in Humanities/International Services')
+        ->toContain('three years of relevant experience, waived for university graduates')
+        ->toContain('Twelve or more years of education in the language you teach')
+        ->toContain('one to three months')
+        ->toContain('17 March 2023')
+        ->toContain('14 days')
+        ->toContain('does not "activate" the card')
+        ->toContain('<strong>April</strong>, not September')
+        ->toContain('96th of 123')
+        ->toContain('4.02 million yen')
+        ->toContain('4.32 million yen')
+        ->toContain('1 October 2026')
+        ->toContain('33,000 yen at the counter, or 27,000 yen online')
+        ->toContain('https://jp.indeed.com/q-english-teacher-jobs.html')
+        ->not->toContain('4&ndash;8 weeks')
+        ->not->toContain('$1,500');
+
+    $siblings = [
+        'online-teacher-jobs-worldwide' => Database\Seeders\OnlineTeacherJobsWorldwideBlogSeeder::class,
+        'teaching-jobs-in-uk' => Database\Seeders\TeachingJobsUkBlogSeeder::class,
+        'teacher-jobs-in-usa' => Database\Seeders\TeacherJobsUsaBlogSeeder::class,
+        'teacher-jobs-in-pakistan' => Database\Seeders\TeacherJobsPakistanBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-get-an-esl-teaching-job-in-japan');
+    }
+});
+
+it('fixes the Canada correctional officer draft eligibility, training, timeline and pay claims with official sources', function () {
+    // The draft turns one employer's rules into national ones, misnames
+    // Ontario's training, understates CSC's online stages and gives an
+    // unsourced 6-9 month timeline.
+    $this->seed(Database\Seeders\CorrectionalOfficerJobsCanadaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'how-to-become-a-correctional-officer-in-canada')->value('content'))
+        ->toContain('$28.85')
+        ->toContain('$36.15')
+        ->toContain('$46.15')
+        ->toContain('19 November 2025')
+        ->toContain('80 hours of learning over four weeks')
+        ->toContain('$400 a week, up to $5,600')
+        ->toContain('Corrections Foundational Training for Correctional Officers (CFT-CO)')
+        ->toContain('not "COTA"')
+        ->toContain('proof of eligibility to work in Canada')
+        ->toContain('$77,510 at step 1 to $97,266 at step 5')
+        ->toContain('$32.15 an hour')
+        ->toContain('COPAT')
+        ->toContain('run 5 km')
+        ->toContain('up to 12 months')
+        ->toContain('https://ca.indeed.com/q-correctional-officer-jobs.html')
+        ->not->toContain('30&ndash;40 hours')
+        ->not->toContain('17+ weeks');
+
+    $siblings = [
+        'police-officer-jobs-in-usa' => Database\Seeders\PoliceOfficerJobsUsaBlogSeeder::class,
+        'federal-police-jobs-in-usa' => Database\Seeders\FederalPoliceJobsUsaBlogSeeder::class,
+        'jobs-in-canada-for-foreign-workers' => Database\Seeders\JobsInCanadaForeignWorkersBlogSeeder::class,
+        'visa-sponsorship-jobs-in-canada' => Database\Seeders\VisaSponsorshipJobsCanadaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-become-a-correctional-officer-in-canada');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2817,6 +2894,8 @@ it('resolves every internal link the new guides publish', function () {
         'personal-care-assistant-jobs-in-australia',
         'physical-therapist-jobs-in-usa',
         'occupational-therapist-jobs-in-canada',
+        'how-to-get-an-esl-teaching-job-in-japan',
+        'how-to-become-a-correctional-officer-in-canada',
     ];
 
     foreach ($guides as $guide) {
