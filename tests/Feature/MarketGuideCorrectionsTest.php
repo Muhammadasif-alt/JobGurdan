@@ -3106,6 +3106,76 @@ it('fixes the Australia education assistant draft qualification, pathway, regist
     }
 });
 
+it('fixes the UK school administrator draft listing, job portal, sponsorship and entry route claims with official sources', function () {
+    $this->seed(Database\Seeders\SchoolAdministratorJobsUkBlogSeeder::class);
+
+    $content = Blog::where('slug', 'school-administrator-jobs-in-uk')->value('content');
+
+    expect($content)->toContain('<strong>£22,000 &ndash; £28,000</strong>')
+        ->toContain('<strong>£26,000 &ndash; £52,000</strong>')
+        ->toContain('Actual pay will depend on the number of hours you work over a year.')
+        ->toContain('<strong>£11,651.76</strong>')
+        ->toContain('<strong>England only</strong>')
+        ->toContain('https://www.gov.uk/find-a-job')
+        ->toContain('<strong>school secretaries (SOC code 4213) are "Ineligible"</strong>')
+        ->toContain('<strong>"Visas cannot be sponsored"</strong>')
+        ->toContain('School business professional (ST0575)')
+        ->toContain('<strong>4 or 5 GCSEs at grades 9 to 4 (A* to C)</strong>')
+        ->toContain('including children\'s barred list information')
+        ->toContain('https://teaching-vacancies.service.gov.uk/jobs?keyword=school+administrator')
+        ->not->toContain('17,506')
+        ->not->toContain('Work for government')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'office-assistant-jobs-in-uk' => Database\Seeders\OfficeAssistantJobsUkBlogSeeder::class,
+        'teaching-jobs-in-uk' => Database\Seeders\TeachingJobsUkBlogSeeder::class,
+        'jobs-in-uk-for-foreigners' => Database\Seeders\JobsInUkForForeignersBlogSeeder::class,
+        'education-assistant-jobs-in-australia' => Database\Seeders\EducationAssistantJobsAustraliaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/school-administrator-jobs-in-uk');
+    }
+});
+
+it('fixes the US educational support draft Title I, supervision, employer and franchise claims with official sources', function () {
+    $this->seed(Database\Seeders\EducationalSupportJobsUsaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'educational-support-jobs-in-usa')->value('content');
+
+    expect($content)->toContain('<strong>1,463,000 jobs in 2025</strong>')
+        ->toContain('<strong>176,200 openings a year</strong>')
+        ->toContain('<strong>median annual wage of $36,780</strong>')
+        ->toContain('<strong>a high school diploma or its recognized equivalent</strong>')
+        ->toContain('work with or under the guidance of a licensed teacher')
+        ->toContain('Most states require teacher assistants who work with special-needs students to pass a skills test.')
+        ->toContain('your employer is the KIPP region, not the KIPP Foundation.')
+        ->toContain('<strong>salary of $42,000</strong>')
+        ->toContain('<strong>90 selected-response questions</strong>')
+        ->toContain('the respective Franchise Owner is the employer at each school')
+        ->toContain('665+ schools across 37 states and Washington, DC')
+        ->toContain('https://www.indeed.com/q-paraprofessional-jobs.html')
+        ->not->toContain('3,000 Kumon')
+        ->not->toContain('Teacher &amp; Staff Opportunities')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'teacher-jobs-in-usa' => Database\Seeders\TeacherJobsUsaBlogSeeder::class,
+        'tutor-jobs-in-usa' => Database\Seeders\TutorJobsUsaBlogSeeder::class,
+        'education-assistant-jobs-in-australia' => Database\Seeders\EducationAssistantJobsAustraliaBlogSeeder::class,
+        'school-administrator-jobs-in-uk' => Database\Seeders\SchoolAdministratorJobsUkBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/educational-support-jobs-in-usa');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3219,6 +3289,8 @@ it('resolves every internal link the new guides publish', function () {
         'how-foreign-workers-can-get-a-job-in-australia',
         'tutor-jobs-in-usa',
         'education-assistant-jobs-in-australia',
+        'school-administrator-jobs-in-uk',
+        'educational-support-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {

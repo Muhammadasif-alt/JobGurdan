@@ -334,6 +334,7 @@ JOBHTML;
     <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a> &mdash; remote and hybrid admin roles, and how the pay compares.</li>
     <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; an entry route that can still be sponsored, and the NHS pay bands.</li>
     <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; another first job in Britain, and what it pays.</li>
+    <li><a href="/blog/school-administrator-jobs-in-uk">School Administrator Jobs in UK</a> &mdash; school office duties, FTE vs actual pay on term-time contracts, routes in and where schools advertise.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not immigration or careers advice. Minimum wage rates, visa thresholds and skill rules change. Confirm current pay and right-to-work and Skilled Worker requirements with gov.uk before applying.</p>

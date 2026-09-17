@@ -374,6 +374,7 @@ JOBHTML;
     <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the visa routes for teachers and other foreign workers, compared.</li>
     <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; teaching online worldwide, the real platform pay, and the nationality rules.</li>
     <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a> &mdash; JET, ALT and eikaiwa routes, the degree rule behind the visa, and real pay.</li>
+    <li><a href="/blog/school-administrator-jobs-in-uk">School Administrator Jobs in UK</a> &mdash; school office duties, FTE vs actual pay on term-time contracts, routes in and where schools advertise.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, legal or immigration advice. Pay scales, registration requirements, training routes, bursaries and qualification recognition change, and the 2026/27 England figures were an accepted recommendation rather than a published statutory document when this was written. Confirm the current position with the Department for Education, GTC Scotland, GTCNI, the Teachers' Pension Scheme and the employer's own advertisement before applying.</p>
