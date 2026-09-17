@@ -353,6 +353,7 @@ JOBHTML;
     <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a> &mdash; professional work under the same labour law.</li>
     <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; front-desk work, and how a package split changes gratuity.</li>
     <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a> &mdash; public law enforcement careers in the United States.</li>
+    <li><a href="/blog/government-security-jobs-in-australia">Government Security Jobs in Australia</a> &mdash; AFP protective service officer pay, Border Force, ASIO and ASD requirements, and how security clearances work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Licensing rules, certification requirements, exam fees and labour law provisions change. Confirm the current position with SIRA, Abu Dhabi Police, ISC2, CompTIA, EC-Council and the Ministry of Human Resources and Emiratisation before applying or accepting an offer.</p>

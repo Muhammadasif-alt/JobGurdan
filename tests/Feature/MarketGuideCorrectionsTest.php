@@ -3176,6 +3176,38 @@ it('fixes the US educational support draft Title I, supervision, employer and fr
     }
 });
 
+it('fixes the Australia government security draft Border Force, ASIO, ASD and graduate pathway claims with official sources', function () {
+    $this->seed(Database\Seeders\GovernmentSecurityJobsAustraliaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'government-security-jobs-in-australia')->value('content');
+
+    expect($content)->toContain('<strong>Border Force Officer Recruit Trainee (BFORT) program</strong>')
+        ->toContain('<strong>Assessments, Security Force &amp; T4</strong>')
+        ->toContain('Assessed as suitable to hold and maintain a TOP SECRET-Privileged Access security clearance.')
+        ->toContain('<strong>Organisational Suitability Assessment</strong>')
+        ->toContain('You must indicate the Department of Home Affairs as a preferred employer.')
+        ->toContain('All staff must also hold a minimum Baseline level Commonwealth Security Clearance.')
+        ->toContain('<strong>$82,499.88</strong>')
+        ->toContain('<strong>Canberra, Perth, Exmouth, Geraldton and Pine Gap</strong>')
+        ->toContain('https://www.apsjobs.gov.au/')
+        ->not->toContain('Assistant Border Force Officer')
+        ->not->toContain('Security Director')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'federal-police-jobs-in-usa' => Database\Seeders\FederalPoliceJobsUsaBlogSeeder::class,
+        'cybersecurity-analyst-jobs-in-usa' => Database\Seeders\CybersecurityAnalystJobsUsaBlogSeeder::class,
+        'how-to-become-a-correctional-officer-in-canada' => Database\Seeders\CorrectionalOfficerJobsCanadaBlogSeeder::class,
+        'security-specialist-jobs-in-uae' => Database\Seeders\SecuritySpecialistJobsUaeBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/government-security-jobs-in-australia');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3291,6 +3323,7 @@ it('resolves every internal link the new guides publish', function () {
         'education-assistant-jobs-in-australia',
         'school-administrator-jobs-in-uk',
         'educational-support-jobs-in-usa',
+        'government-security-jobs-in-australia',
     ];
 
     foreach ($guides as $guide) {
