@@ -332,6 +332,7 @@ JOBHTML;
     <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; the licensing a Gulf security job needs.</li>
     <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; public service careers at home, and how the tests work.</li>
     <li><a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a> &mdash; the analyst side of federal security work, its GS pay and the TS/SCI clearance.</li>
+    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a> &mdash; federal CSC versus provincial jails, who can apply, training and Job Bank pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, careers or financial advice. Federal pay tables, special rates, age limits and hiring incentives change every year and differ by agency. Confirm the current position on the OPM website, USAJOBS and the agency's own careers site before applying.</p>

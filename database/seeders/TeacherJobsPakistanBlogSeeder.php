@@ -332,6 +332,7 @@ JOBHTML;
     <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; what American teachers earn by state, and the J-1 route for teachers trained abroad.</li>
     <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; British pay scales and how overseas teachers get QTS recognised.</li>
     <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; teaching online from home, what the platforms really pay, and who they hire.</li>
+    <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a> &mdash; JET, ALT and eikaiwa routes, the degree rule behind the visa, and real pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, careers or financial advice. Qualification rules, recruitment criteria, pay scales, minimum wages and school management arrangements change and differ between provinces. Confirm the current position with the official recruitment advertisement, your provincial education department and the relevant minimum wage notification before applying or accepting an offer.</p>
