@@ -2792,6 +2792,44 @@ it('fixes the Canada correctional officer draft eligibility, training, timeline 
     }
 });
 
+it('fixes the Australia sales representative draft pay, course, commission, licence and sponsorship claims with official sources', function () {
+    // The draft prices the job from job boards, recommends a superseded
+    // course, treats clawbacks and commission-only pay as routine, uses the
+    // wrong NSW real estate credential and calls sponsorship "uncommon".
+    $this->seed(Database\Seeders\SalesRepresentativeJobsAustraliaBlogSeeder::class);
+
+    expect(Blog::where('slug', 'how-to-become-a-sales-representative-in-australia')->value('content'))
+        ->toContain('$1,692 a week')
+        ->toContain('$87,984')
+        ->toContain('May 2025')
+        ->toContain('23.5%')
+        ->toContain('SIR30316 Certificate III in Business to Business Sales')
+        ->toContain('superseded on 18 October 2020')
+        ->toContain('$1,122.80 a week')
+        ->toContain('award or enterprise agreement allows it')
+        ->toContain('<strong>written agreement</strong>')
+        ->toContain('sham contracting')
+        ->toContain('Assistant Agent certificate of registration')
+        ->toContain('not on the Core Skills Occupation List')
+        ->toContain('225411')
+        ->toContain('https://au.indeed.com/q-sales-representative-jobs.html')
+        ->not->toContain('$79,500')
+        ->not->toContain('$146,000');
+
+    $siblings = [
+        'sales-jobs-in-australia' => Database\Seeders\SalesJobsAustraliaBlogSeeder::class,
+        'no-experience-jobs-in-australia' => Database\Seeders\NoExperienceJobsAustraliaBlogSeeder::class,
+        'visa-sponsorship-jobs-in-australia' => Database\Seeders\VisaSponsorshipJobsAustraliaBlogSeeder::class,
+        'office-assistant-jobs-in-australia' => Database\Seeders\OfficeAssistantJobsAustraliaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-become-a-sales-representative-in-australia');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2896,6 +2934,7 @@ it('resolves every internal link the new guides publish', function () {
         'occupational-therapist-jobs-in-canada',
         'how-to-get-an-esl-teaching-job-in-japan',
         'how-to-become-a-correctional-officer-in-canada',
+        'how-to-become-a-sales-representative-in-australia',
     ];
 
     foreach ($guides as $guide) {
