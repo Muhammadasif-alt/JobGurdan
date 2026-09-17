@@ -3001,6 +3001,41 @@ it('fixes the Canada preschool teacher draft qualification, licensing, pay, empl
     }
 });
 
+it('fixes the Australia foreign worker draft English, income, permanent residence and visa route claims with official sources', function () {
+    $this->seed(Database\Seeders\ForeignWorkerJobsAustraliaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-foreign-workers-can-get-a-job-in-australia')->value('content');
+
+    expect($content)->toContain('AUD 79,423')
+        ->toContain('AUD 146,576')
+        ->toContain('<strong>at least 1 year</strong>')
+        ->toContain('at least 6 in each of the four test components</strong>')
+        ->toContain('2 years of eligible sponsored employment in the 3 years</strong>')
+        ->toContain('Permanent Residence (Skilled Regional) visa (subclass 191)')
+        ->toContain('<strong>65 points or more</strong>')
+        ->toContain('<strong>48 hours a fortnight</strong>')
+        ->toContain('must enter a <strong>ballot</strong>')
+        ->toContain('Pacific Australia Labour Mobility (PALM) scheme')
+        ->toContain('https://au.indeed.com/q-482-visa-sponsorship-jobs.html')
+        ->not->toContain('17 days')
+        ->not->toContain('IELTS score of 5.0')
+        ->not->toContain('ifmosawork.com')
+        ->not->toContain('sponsorhire.com');
+
+    $siblings = [
+        'visa-sponsorship-jobs-in-australia' => Database\Seeders\VisaSponsorshipJobsAustraliaBlogSeeder::class,
+        'no-experience-jobs-in-australia' => Database\Seeders\NoExperienceJobsAustraliaBlogSeeder::class,
+        'jobs-in-canada-for-foreign-workers' => Database\Seeders\JobsInCanadaForeignWorkersBlogSeeder::class,
+        'jobs-in-uk-for-foreigners' => Database\Seeders\JobsInUkForForeignersBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-foreign-workers-can-get-a-job-in-australia');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3111,6 +3146,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-become-an-auto-mechanic-in-australia',
         'entry-level-healthcare-jobs',
         'preschool-teacher-jobs-in-canada',
+        'how-foreign-workers-can-get-a-job-in-australia',
     ];
 
     foreach ($guides as $guide) {
