@@ -362,6 +362,7 @@ JOBHTML;
     <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; one of the most common remote categories, with BLS pay and the real outlook.</li>
     <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a> &mdash; one of the most common work-from-home roles, its real pay and its scams.</li>
     <li><a href="/blog/how-to-get-a-remote-customer-service-job-with-no-experience">How to Get a Remote Customer Service Job With No Experience</a> &mdash; what US remote employers really ask for, official pay data and the scams aimed at beginners.</li>
+    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a> &mdash; what tutors earn, what Wyzant, Varsity Tutors, Sylvan, Huntington and Kumon require, and the fees and tax to expect.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage data, tax thresholds, reimbursement rules and scam patterns change and differ by state. Confirm the current position with the IRS, the Department of Labor, your state labor agency and the FTC before accepting work.</p>

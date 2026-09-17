@@ -392,6 +392,7 @@ JOBHTML;
     <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; the UK pay scale and how overseas teachers get QTS recognised.</li>
     <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; state licensure and the J-1 route for teachers trained abroad.</li>
     <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a> &mdash; government and private school pay, and the qualifications each expects.</li>
+    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a> &mdash; what tutors earn, what Wyzant, Varsity Tutors, Sylvan, Huntington and Kumon require, and the fees and tax to expect.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not immigration advice. Visa criteria, processing times and fees are set by the Immigration Services Agency of Japan and change over time. Confirm the current position with your employer, the JET Programme and the agency's website before applying.</p>

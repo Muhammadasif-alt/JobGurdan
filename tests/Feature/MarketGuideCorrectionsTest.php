@@ -3036,6 +3036,40 @@ it('fixes the Australia foreign worker draft English, income, permanent residenc
     }
 });
 
+it('fixes the US tutor draft pay, platform, franchise, requirement and tax claims with official sources', function () {
+    $this->seed(Database\Seeders\TutorJobsUsaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'tutor-jobs-in-usa')->value('content');
+
+    expect($content)->toContain('<strong>$20.84 an hour</strong>')
+        ->toContain('0%, little or no change')
+        ->toContain('<strong>most tutors work part time</strong>')
+        ->toContain('<strong>25% platform fee</strong>')
+        ->toContain('possess a valid Social Security Number')
+        ->toContain('<strong>independent contractors</strong>')
+        ->toContain('Our tutors have degrees from four-year colleges, plus either state or Huntington certification.')
+        ->toContain('your employer will not be Kumon')
+        ->toContain('<strong>self-employment tax rate is 15.3%</strong>')
+        ->toContain('huntingtonhelps.com/careers')
+        ->toContain('https://www.indeed.com/q-tutor-jobs.html')
+        ->not->toContain('up to four students')
+        ->not->toContain('careerplug.com')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'teacher-jobs-in-usa' => Database\Seeders\TeacherJobsUsaBlogSeeder::class,
+        'online-teacher-jobs-worldwide' => Database\Seeders\OnlineTeacherJobsWorldwideBlogSeeder::class,
+        'work-from-home-jobs-in-usa' => Database\Seeders\WorkFromHomeJobsUsaBlogSeeder::class,
+        'how-to-get-an-esl-teaching-job-in-japan' => Database\Seeders\EslTeacherJobsJapanBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/tutor-jobs-in-usa');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3147,6 +3181,7 @@ it('resolves every internal link the new guides publish', function () {
         'entry-level-healthcare-jobs',
         'preschool-teacher-jobs-in-canada',
         'how-foreign-workers-can-get-a-job-in-australia',
+        'tutor-jobs-in-usa',
     ];
 
     foreach ($guides as $guide) {

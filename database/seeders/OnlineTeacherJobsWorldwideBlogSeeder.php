@@ -343,6 +343,7 @@ JOBHTML;
     <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a> &mdash; freelancing and remote work, and how payment from abroad really works.</li>
     <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; another remote path with global clients.</li>
     <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a> &mdash; JET, ALT and eikaiwa routes, the degree rule behind the visa, and real pay.</li>
+    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a> &mdash; what tutors earn, what Wyzant, Varsity Tutors, Sylvan, Huntington and Kumon require, and the fees and tax to expect.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers advice. Platform rates, commissions, nationality rules and market figures change. Confirm the current terms on each platform's own site before you apply or pay for any certification.</p>
