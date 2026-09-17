@@ -2830,6 +2830,71 @@ it('fixes the Australia sales representative draft pay, course, commission, lice
     }
 });
 
+it('fixes the UAE logistics driver draft licence, exchange, visa and salary claims with official sources', function () {
+    $this->seed(Database\Seeders\LogisticsDriverJobsUaeBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-get-a-logistics-driver-job-in-the-uae')->value('content');
+
+    expect($content)->toContain('licences from Pakistan, India and the Philippines cannot be exchanged')
+        ->toContain('The RTA does not use those numbers')
+        ->toContain('1,010 to 1,050')
+        ->toContain('There is no 30-day grace period')
+        ->toContain('UAE law strictly prohibits working while holding a visit or tourist visa')
+        ->toContain('The UAE Labour Law sets no minimum salary')
+        ->toContain('the employer is prohibited from charging the worker for recruitment and employment fees and costs')
+        ->toContain('at least 21 and no more than 55')
+        ->toContain('6:00 AM to 10:00 PM')
+        ->toContain('https://ae.indeed.com/q-logistics-driver-jobs.html')
+        ->not->toContain('Category 3 (LMV)')
+        ->not->toContain('950')
+        ->not->toContain('1&ndash;2 hours');
+
+    $siblings = [
+        'driver-jobs-in-saudi-arabia-for-foreigners' => Database\Seeders\DriverJobsSaudiBlogSeeder::class,
+        'heavy-truck-driver-jobs-in-saudi-arabia' => Database\Seeders\HeavyTruckDriverJobsSaudiBlogSeeder::class,
+        'security-guard-jobs-in-uae' => Database\Seeders\SecurityGuardJobsUaeBlogSeeder::class,
+        'delivery-driver-jobs-in-uk' => Database\Seeders\DeliveryDriverJobsUkBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-get-a-logistics-driver-job-in-the-uae');
+    }
+});
+
+it('fixes the remote customer service draft growth, pay, experience and hiring claims with official sources', function () {
+    $this->seed(Database\Seeders\RemoteCustomerServiceNoExperienceBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-get-a-remote-customer-service-job-with-no-experience')->value('content');
+
+    expect($content)->toContain('The BLS projects the opposite')
+        ->toContain('decline 5 percent from 2025 to 2035')
+        ->toContain('About 289,500')
+        ->toContain('$21.53 ($44,770 a year)')
+        ->toContain('$13.00 to $16.35')
+        ->toContain('six months or more')
+        ->toContain('Alaska, California, Hawaii, Illinois or Montana')
+        ->toContain('will never ask you to pay to get a job')
+        ->toContain('https://www.indeed.com/q-remote-customer-service-no-experience-jobs.html')
+        ->not->toContain('$14&ndash;$18')
+        ->not->toContain('$19&ndash;$26')
+        ->not->toContain('double-digit growth ahead.</strong>');
+
+    $siblings = [
+        'remote-customer-service-jobs' => Database\Seeders\RemoteCustomerServiceJobsBlogSeeder::class,
+        'customer-service-jobs-in-usa' => Database\Seeders\CustomerServiceJobsUsaBlogSeeder::class,
+        'work-from-home-jobs-in-usa' => Database\Seeders\WorkFromHomeJobsUsaBlogSeeder::class,
+        'remote-jobs-in-usa' => Database\Seeders\RemoteJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-get-a-remote-customer-service-job-with-no-experience');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -2935,6 +3000,8 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-get-an-esl-teaching-job-in-japan',
         'how-to-become-a-correctional-officer-in-canada',
         'how-to-become-a-sales-representative-in-australia',
+        'how-to-get-a-logistics-driver-job-in-the-uae',
+        'how-to-get-a-remote-customer-service-job-with-no-experience',
     ];
 
     foreach ($guides as $guide) {
