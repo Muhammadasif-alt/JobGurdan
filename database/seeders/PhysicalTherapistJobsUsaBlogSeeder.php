@@ -344,6 +344,7 @@ JOBHTML;
     <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; the comparable support role across the Atlantic.</li>
     <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a> &mdash; the neighbouring allied-health market, its registration and pay.</li>
     <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a> &mdash; a care-sector route with a genuine visa pathway.</li>
+    <li><a href="/blog/entry-level-healthcare-jobs">Entry Level Healthcare Jobs</a> &mdash; the US healthcare roles you can start with a high school diploma or a short course, what they pay and how to apply.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Salary ranges and licensing requirements change over time. Confirm current requirements with the physical therapy board in the state where you intend to practise, and with FSBPT, FCCPT and CGFNS, before applying.</p>

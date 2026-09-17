@@ -2931,6 +2931,76 @@ it('fixes the Australia auto mechanic draft apprenticeship, entry, pay, licence 
     }
 });
 
+it('fixes the entry level healthcare draft projections, training, employer and survey claims with official sources', function () {
+    $this->seed(Database\Seeders\EntryLevelHealthcareJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'entry-level-healthcare-jobs')->value('content');
+
+    expect($content)->toContain('from 2025 to 2035')
+        ->toContain('1.9 million openings a year')
+        ->toContain('<strong>18%</strong>')
+        ->toContain('$51,140 ($24.59/hr)')
+        ->toContain('at least 75 clock hours of training, including at least 16 hours of supervised practical training')
+        ->toContain('42 CFR 483.152')
+        ->toContain('approved medical assisting program and a clinical externship')
+        ->toContain('$21.96 to $29.02 an hour')
+        ->toContain('on-the-job training was required for 86.5 percent</strong>')
+        ->toContain('States may require that phlebotomists')
+        ->toContain('https://www.indeed.com/q-entry-level-healthcare-jobs.html')
+        ->not->toContain('2024-34 Projected Growth')
+        ->not->toContain('utm_source=chatgpt.com')
+        ->not->toContain('search-jobs?k=');
+
+    $siblings = [
+        'medical-assistant-jobs-in-usa' => Database\Seeders\MedicalAssistantJobsUsaBlogSeeder::class,
+        'registered-nurse-jobs-in-usa' => Database\Seeders\RegisteredNurseJobsUsaBlogSeeder::class,
+        'nurse-jobs-in-the-us' => Database\Seeders\NurseJobsUsBlogSeeder::class,
+        'physical-therapist-jobs-in-usa' => Database\Seeders\PhysicalTherapistJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/entry-level-healthcare-jobs');
+    }
+});
+
+it('fixes the Canada preschool teacher draft qualification, licensing, pay, employer and immigration claims with official sources', function () {
+    $this->seed(Database\Seeders\PreschoolTeacherJobsCanadaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'preschool-teacher-jobs-in-canada')->value('content');
+
+    expect($content)->toContain('NOC 42202')
+        ->toContain('Licensing is required in Ontario and certification is required in British Columbia for early childhood educators.')
+        ->toContain('child care experience are required')
+        ->toContain('<strong>Level 1</strong>')
+        ->toContain('<strong>$22.30/hr</strong>')
+        ->toContain('<strong>$25.86 an hour</strong>')
+        ->toContain('Over 100,000 new job openings are anticipated between now and 2031.')
+        ->toContain('strong risk of shortage')
+        ->toContain('Brampton, Mississauga, Caledon and Toronto')
+        ->toContain('across the United States and Canada')
+        ->toContain('Express Entry education occupations category')
+        ->toContain('vulnerable sector check')
+        ->toContain('https://ca.indeed.com/q-early-childhood-educator-jobs.html')
+        ->not->toContain('ymcagta.org/careers')
+        ->not->toContain('utm_source=chatgpt.com')
+        ->not->toContain('10-a-day');
+
+    $siblings = [
+        'teacher-jobs-in-usa' => Database\Seeders\TeacherJobsUsaBlogSeeder::class,
+        'jobs-in-canada-for-foreign-workers' => Database\Seeders\JobsInCanadaForeignWorkersBlogSeeder::class,
+        'visa-sponsorship-jobs-in-canada' => Database\Seeders\VisaSponsorshipJobsCanadaBlogSeeder::class,
+        'dental-assistant-jobs-in-canada' => Database\Seeders\DentalAssistantJobsCanadaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/preschool-teacher-jobs-in-canada');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3039,6 +3109,8 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-get-a-logistics-driver-job-in-the-uae',
         'how-to-get-a-remote-customer-service-job-with-no-experience',
         'how-to-become-an-auto-mechanic-in-australia',
+        'entry-level-healthcare-jobs',
+        'preschool-teacher-jobs-in-canada',
     ];
 
     foreach ($guides as $guide) {

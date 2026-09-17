@@ -383,6 +383,7 @@ JOBHTML;
     <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; an entry-level Canadian job priced by the provincial minimum wage.</li>
     <li><a href="/blog/janitor-jobs-in-canada">Janitor Jobs in Canada</a> &mdash; hospital and building cleaning work across the provinces.</li>
     <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a> &mdash; the allied-health route, its provincial registration and pay.</li>
+    <li><a href="/blog/preschool-teacher-jobs-in-canada">Preschool Teacher Jobs in Canada</a> &mdash; early childhood educator qualifications, provincial registration, wages and how internationally trained educators get recognised.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Registration rules, scopes of practice, exam fees, wages and Express Entry categories change and differ between provinces. Confirm the current position with the provincial regulator, NDAEB, Job Bank and IRCC before enrolling, applying or accepting an offer.</p>

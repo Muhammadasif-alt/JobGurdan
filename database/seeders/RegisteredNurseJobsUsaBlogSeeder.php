@@ -351,6 +351,7 @@ JOBHTML;
     <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the clinical role most nurses pass through first, and what it pays.</li>
     <li><a href="/blog/school-nurse-jobs-in-usa">School Nurse Jobs in USA</a> &mdash; what schools pay RNs, and the states that want a bachelor's degree and a credential.</li>
     <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in the USA</a> &mdash; a high-paying allied-health role, its licensing and the visa route.</li>
+    <li><a href="/blog/entry-level-healthcare-jobs">Entry Level Healthcare Jobs</a> &mdash; the US healthcare roles you can start with a high school diploma or a short course, what they pay and how to apply.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, tax, careers or financial advice. Pay, licensing rules, exam fees, compact membership and immigration policy change and differ between states. Confirm the current position with the employer, your state board of nursing, NCSBN, the IRS and an immigration lawyer before applying.</p>
