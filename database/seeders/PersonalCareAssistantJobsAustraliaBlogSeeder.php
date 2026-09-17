@@ -323,6 +323,7 @@ JOBHTML;
     <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; the comparable care role in the UK, and its sponsorship reality.</li>
     <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a> &mdash; an allied-health route with a clear registration path.</li>
     <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in the USA</a> &mdash; a higher-paid allied-health market and how sponsorship works there.</li>
+    <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a> &mdash; the job title in each state, WA pay of $34.75 to $43.28 an hour, and the checks and certificates schools ask for.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Award rates, screening rules and visa requirements change over time. Confirm the current position with the Fair Work Ombudsman, the Department of Health and the Department of Home Affairs before applying.</p>

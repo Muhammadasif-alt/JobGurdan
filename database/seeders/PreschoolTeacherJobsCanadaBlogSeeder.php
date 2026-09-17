@@ -372,6 +372,7 @@ JOBHTML;
     <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a> &mdash; another provincially regulated career with a college route.</li>
     <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; school teaching certification across the border.</li>
     <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; teaching from home while you get qualified.</li>
+    <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a> &mdash; the job title in each state, WA pay of $34.75 to $43.28 an hour, and the checks and certificates schools ask for.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not immigration advice. Wages, certification rules, wage top-ups and immigration categories change over time. Confirm the current position with Job Bank, your province's early childhood education office, the employer and Immigration, Refugees and Citizenship Canada before relying on it.</p>

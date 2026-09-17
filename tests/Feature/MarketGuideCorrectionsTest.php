@@ -3070,6 +3070,42 @@ it('fixes the US tutor draft pay, platform, franchise, requirement and tax claim
     }
 });
 
+it('fixes the Australia education assistant draft qualification, pathway, register and state title claims with official sources', function () {
+    $this->seed(Database\Seeders\EducationAssistantJobsAustraliaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'education-assistant-jobs-in-australia')->value('content');
+
+    expect($content)->toContain('<strong>$34.75 &ndash; $39.05</strong>')
+        ->toContain('<strong>$36.87 &ndash; $41.37</strong>')
+        ->toContain('<strong>$43.28</strong>')
+        ->toContain('are listed as desirable, so you can apply without the certificate')
+        ->toContain('engaged only through strategic School Workforce initiatives')
+        ->toContain('but not as an SSO under this program')
+        ->toContain('Registrations for the 2026 program have closed')
+        ->toContain('full-time and part-time, fixed-term and permanent positions')
+        ->toContain('<strong>blue card</strong>')
+        ->toContain('<strong>school terms only receive a 16% loading</strong>')
+        ->toContain('Certificate III in School Based Education Support (CHC30221)')
+        ->toContain('https://www.vic.gov.au/school-jobs')
+        ->toContain('https://au.indeed.com/q-education-assistant-jobs.html')
+        ->not->toContain('Education Support Officer | Various employers')
+        ->not->toContain('full-time, part-time, and casual')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'personal-care-assistant-jobs-in-australia' => Database\Seeders\PersonalCareAssistantJobsAustraliaBlogSeeder::class,
+        'no-experience-jobs-in-australia' => Database\Seeders\NoExperienceJobsAustraliaBlogSeeder::class,
+        'how-foreign-workers-can-get-a-job-in-australia' => Database\Seeders\ForeignWorkerJobsAustraliaBlogSeeder::class,
+        'preschool-teacher-jobs-in-canada' => Database\Seeders\PreschoolTeacherJobsCanadaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/education-assistant-jobs-in-australia');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3182,6 +3218,7 @@ it('resolves every internal link the new guides publish', function () {
         'preschool-teacher-jobs-in-canada',
         'how-foreign-workers-can-get-a-job-in-australia',
         'tutor-jobs-in-usa',
+        'education-assistant-jobs-in-australia',
     ];
 
     foreach ($guides as $guide) {
