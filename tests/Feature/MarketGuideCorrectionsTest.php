@@ -3386,6 +3386,40 @@ it('fixes the Canada finance analyst draft designation, skills and employer link
     }
 });
 
+it('fixes the UK business analyst draft visa rate, entry route and employer claims with official sources', function () {
+    $this->seed(Database\Seeders\BusinessAnalystJobsUkBlogSeeder::class);
+
+    $content = Blog::where('slug', 'business-analyst-jobs-in-uk')->value('content');
+
+    expect($content)->toContain('<strong>&pound;52,970 median</strong>')
+        ->toContain('90th &pound;93,273')
+        ->toContain('<strong>&pound;50,200</strong> a year (&pound;25.74 an hour)')
+        ->toContain('only for Health and Care Worker applicants or people whose first certificate of sponsorship predates 4 April 2024')
+        ->toContain('70% of the standard going rate, which is <strong>&pound;35,100</strong>')
+        ->toContain('absolute floor of <strong>&pound;33,400</strong>')
+        ->toContain('at least <strong>&pound;41,700</strong> a year')
+        ->toContain('lists exactly <strong>three routes</strong>')
+        ->toContain('six levels for the profession')
+        ->toContain('last updated <strong>18 September 2026</strong>')
+        ->toContain('JIRA and Confluence')
+        ->not->toContain('Azure DevOps')
+        ->not->toContain('Forestry Commission')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'jobs-in-uk-for-foreigners' => Database\Seeders\JobsInUkForForeignersBlogSeeder::class,
+        'it-support-jobs-in-uk' => Database\Seeders\ItSupportJobsUkBlogSeeder::class,
+        'marketing-jobs-in-uk' => Database\Seeders\MarketingJobsUkBlogSeeder::class,
+        'office-assistant-jobs-in-uk' => Database\Seeders\OfficeAssistantJobsUkBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/business-analyst-jobs-in-uk');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3507,6 +3541,7 @@ it('resolves every internal link the new guides publish', function () {
         'public-safety-jobs-in-canada',
         'account-manager-jobs-in-usa',
         'finance-analyst-jobs-in-canada',
+        'business-analyst-jobs-in-uk',
     ];
 
     foreach ($guides as $guide) {
