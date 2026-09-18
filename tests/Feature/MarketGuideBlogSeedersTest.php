@@ -22,7 +22,7 @@ dataset('market guides', [
     'finance analyst canada' => [
         'finance-analyst-jobs-in-canada',
         Database\Seeders\FinanceAnalystJobsCanadaBlogSeeder::class,
-        ['finance-analyst-jobs-in-canada-analysis.jpg'],
+        ['finance-analyst-jobs-in-canada-analysis.jpg', 'finance-analyst-jobs-in-canada-reporting.jpg'],
         'https://ca.indeed.com/q-financial-analyst-jobs.html',
         'Finance Analyst ',
     ],

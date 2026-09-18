@@ -302,8 +302,13 @@ JOBHTML;
 <p>Two link corrections worth noting: Scotiabank's old <em>/ca/en/about/careers.html</em> address now returns a 404, and BMO's corporate careers page did not respond when we checked, while <em>jobs.bmo.com</em> did.</p>
 
 <figure style="margin:32px 0;">
-    <img src="/public/storage/blogs/finance-analyst-jobs-in-canada-analysis.jpg" alt="Finance analysts reviewing charts and financial reports together in a high-rise office" style="width:100%;height:auto;border-radius:12px;" loading="lazy">
+    <img src="/public/storage/blogs/finance-analyst-jobs-in-canada-analysis.jpg" alt="A finance analyst working through budget-versus-actual charts on screen with the Toronto skyline behind her" style="width:100%;height:auto;border-radius:12px;" loading="lazy">
     <figcaption style="font-size:13px;color:#6b7280;margin-top:8px;text-align:center;">Most analyst hiring sits in Toronto, Montreal, Calgary and Vancouver.</figcaption>
+</figure>
+
+<figure style="margin:32px 0;">
+    <img src="/public/storage/blogs/finance-analyst-jobs-in-canada-reporting.jpg" alt="A financial analyst checking printed reports against a dashboard of Canadian performance charts" style="width:100%;height:auto;border-radius:12px;" loading="lazy">
+    <figcaption style="font-size:13px;color:#6b7280;margin-top:8px;text-align:center;">Reporting, forecasting and variance analysis make up much of the day.</figcaption>
 </figure>
 
 <h2>Do Finance Analysts Need a CFA or CPA?</h2>
