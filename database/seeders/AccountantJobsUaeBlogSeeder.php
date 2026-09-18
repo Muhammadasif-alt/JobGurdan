@@ -350,6 +350,7 @@ JOBHTML;
     <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; the public sector alternative for finance graduates at home.</li>
     <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a> &mdash; where analytical finance skills lead in the US market.</li>
     <li><a href="/blog/security-specialist-jobs-in-uae">Security Specialist Jobs in UAE</a> &mdash; security and cybersecurity roles under the same labour law.</li>
+    <li><a href="/blog/finance-analyst-jobs-in-canada">Finance Analyst Jobs in Canada</a> &mdash; the $43.27 Job Bank median, degree and CFA rules, and where the big banks hire.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax, careers or financial advice. Tax rules, e-invoicing timelines, licensing conditions and employment laws change, and your home country's tax rules depend on your own circumstances. Confirm the current position with the Ministry of Finance, the Federal Tax Authority, MOHRE, a qualified tax adviser and the employer before applying or accepting an offer.</p>

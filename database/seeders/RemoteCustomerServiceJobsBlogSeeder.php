@@ -323,6 +323,7 @@ JOBHTML;
     <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; the US market, BLS pay and why the field is projected to shrink even as openings stay high.</li>
     <li><a href="/blog/call-center-jobs-in-pakistan">Call Center Jobs in Pakistan</a> &mdash; inbound vs outbound, real pay by city, and how to avoid scams.</li>
     <li><a href="/blog/how-to-get-a-remote-customer-service-job-with-no-experience">How to Get a Remote Customer Service Job With No Experience</a> &mdash; what US remote employers really ask for, official pay data and the scams aimed at beginners.</li>
+    <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a> &mdash; what the BLS really measures, the pay spread and the titles Salesforce, HubSpot and Adobe use.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Pay bands, minimum wage notifications, shift arrangements and monitoring policies change and are set by each province and each employer &mdash; confirm the current figures and the terms on the employer's own advertisement before accepting any offer.</p>

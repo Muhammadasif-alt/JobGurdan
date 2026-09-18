@@ -334,6 +334,7 @@ JOBHTML;
     <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; the creative path, and why its projection points the other way.</li>
     <li><a href="/blog/ai-content-writer-jobs-in-usa">AI Content Writer Jobs in USA</a> &mdash; the content side of the same market.</li>
     <li><a href="/blog/marketing-jobs-in-uk">Marketing Jobs in UK</a> &mdash; the UK generalist picture, its official pay bands and the CIM route.</li>
+    <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a> &mdash; what the BLS really measures, the pay spread and the titles Salesforce, HubSpot and Adobe use.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage data, employment projections, course prices, platform policies and advertising rules change &mdash; confirm the current position with the Bureau of Labor Statistics, the IRS, the FTC and the employer's own advertisement before applying or paying any fee.</p>

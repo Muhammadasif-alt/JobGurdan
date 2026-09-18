@@ -3322,6 +3322,70 @@ it('fixes the Canada public safety draft careers link, CSC experience, CBSA and 
     }
 });
 
+it('fixes the US account manager draft salary, openings and job title claims with official sources', function () {
+    $this->seed(Database\Seeders\AccountManagerJobsUsaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'account-manager-jobs-in-usa')->value('content');
+
+    expect($content)->toContain('<strong>$164,350 is the mean, not the median.</strong>')
+        ->toContain('<strong>$148,270</strong> a year ($71.28 an hour)')
+        ->toContain('under $73,170')
+        ->toContain('<strong>$69,990</strong>')
+        ->toContain('the 90th percentile <strong>$148,840</strong>')
+        ->toContain('about <strong>47,300 openings a year</strong>')
+        ->toContain('about <strong>123,400 openings a year</strong>')
+        ->toContain('<strong>no "Account Manager"</strong>')
+        ->toContain('education "varies by product type"')
+        ->toContain('$229,000 to $369,600')
+        ->not->toContain('29,000 openings')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'customer-service-jobs-in-usa' => Database\Seeders\CustomerServiceJobsUsaBlogSeeder::class,
+        'digital-marketing-jobs-in-usa' => Database\Seeders\DigitalMarketingJobsUsaBlogSeeder::class,
+        'sales-jobs-in-australia' => Database\Seeders\SalesJobsAustraliaBlogSeeder::class,
+        'remote-customer-service-jobs' => Database\Seeders\RemoteCustomerServiceJobsBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/account-manager-jobs-in-usa');
+    }
+});
+
+it('fixes the Canada finance analyst draft designation, skills and employer link claims with official sources', function () {
+    $this->seed(Database\Seeders\FinanceAnalystJobsCanadaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'finance-analyst-jobs-in-canada')->value('content');
+
+    expect($content)->toContain('or another recognised designation such as CFP or CIM, is <strong>usually required</strong>')
+        ->toContain('Those come from job postings, not from Job Bank')
+        ->toContain('median wage of $43.27 an hour')
+        ->toContain('$72.36')
+        ->toContain('Saskatchewan has the highest provincial median at $49.00')
+        ->toContain('updated these ratings on <strong>10 December 2025</strong>')
+        ->toContain('over the period of 2024-2033 at the national level')
+        ->toContain('scotiabank.com/careers/en/careers.html')
+        ->toContain('jobs.bmo.com')
+        ->toContain('usually work more than 40 hours a week')
+        ->not->toContain('scotiabank.com/ca/en/about/careers.html')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'accountant-jobs-in-uae' => Database\Seeders\AccountantJobsUaeBlogSeeder::class,
+        'visa-sponsorship-jobs-in-canada' => Database\Seeders\VisaSponsorshipJobsCanadaBlogSeeder::class,
+        'jobs-in-canada-for-foreign-workers' => Database\Seeders\JobsInCanadaForeignWorkersBlogSeeder::class,
+        'account-manager-jobs-in-usa' => Database\Seeders\AccountManagerJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/finance-analyst-jobs-in-canada');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3441,6 +3505,8 @@ it('resolves every internal link the new guides publish', function () {
         'emergency-dispatcher-jobs-in-usa',
         'law-enforcement-jobs-in-usa',
         'public-safety-jobs-in-canada',
+        'account-manager-jobs-in-usa',
+        'finance-analyst-jobs-in-canada',
     ];
 
     foreach ($guides as $guide) {
