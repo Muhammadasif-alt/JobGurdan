@@ -3420,6 +3420,40 @@ it('fixes the UK business analyst draft visa rate, entry route and employer clai
     }
 });
 
+it('fixes the US long-haul truck driver draft pay, openings and training timeline claims with official sources', function () {
+    $this->seed(Database\Seeders\LongHaulTruckDriverUsaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-become-a-long-haul-truck-driver-in-usa')->value('content');
+
+    expect($content)->toContain('more than <strong>$79,380</strong>')
+        ->toContain('less than $40,140')
+        ->toContain('about <strong>214,500 openings a year</strong>')
+        ->toContain('<strong>no federal source publishes cents-per-mile rates or average annual mileage</strong>')
+        ->toContain('not eligible to take the CDL skills test in the first 14 days')
+        ->toContain('no federal minimum number of behind-the-wheel hours')
+        ->toContain('score of at least <strong>80%</strong>')
+        ->toContain('<strong>concluded on 7 November 2025</strong>')
+        ->toContain('<strong>23 June 2025</strong>')
+        ->toContain('<strong>18 November 2024</strong>')
+        ->toContain('<strong>$85.25</strong>')
+        ->not->toContain('$78,800')
+        ->not->toContain('237,600')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'cdl-driver-jobs-in-usa' => Database\Seeders\CdlDriverJobsUsaBlogSeeder::class,
+        'delivery-driver-jobs-in-usa' => Database\Seeders\DeliveryDriverJobsUsaBlogSeeder::class,
+        'bus-driver-jobs-in-canada' => Database\Seeders\BusDriverJobsCanadaBlogSeeder::class,
+        'heavy-truck-driver-jobs-in-saudi-arabia' => Database\Seeders\HeavyTruckDriverJobsSaudiBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-become-a-long-haul-truck-driver-in-usa');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3542,6 +3576,7 @@ it('resolves every internal link the new guides publish', function () {
         'account-manager-jobs-in-usa',
         'finance-analyst-jobs-in-canada',
         'business-analyst-jobs-in-uk',
+        'how-to-become-a-long-haul-truck-driver-in-usa',
     ];
 
     foreach ($guides as $guide) {
