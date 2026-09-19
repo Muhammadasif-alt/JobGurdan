@@ -3587,6 +3587,38 @@ it('fixes the Australia delivery draft award rates, gig standards and GST claims
     }
 });
 
+it('fixes the remote virtual assistant draft salary, fee and tax claims with official sources', function () {
+    $this->seed(Database\Seeders\RemoteVirtualAssistantBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-become-a-remote-virtual-assistant')->value('content');
+
+    expect($content)->toContain('<strong>no official occupation called "virtual assistant"</strong>')
+        ->toContain('<strong>$47,540</strong> median')
+        ->toContain('<strong>$76,590</strong> median')
+        ->toContain('FlexJobs (job board, not official)')
+        ->toContain('sits above the 90th percentile</strong>')
+        ->toContain('<strong>0% to 15% per contract</strong>')
+        ->toContain('<strong>20% commission</strong>')
+        ->toContain('<strong>decline 2% from 2025 to 2035</strong>')
+        ->toContain('<strong>15.3%</strong>')
+        ->toContain('<strong>$2,000 for tax year 2026</strong>, not the $600 figure')
+        ->toContain('never ask you to pay to get a job')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'virtual-assistant-jobs-in-pakistan' => Database\Seeders\VirtualAssistantJobsPakistanBlogSeeder::class,
+        'administrative-assistant-jobs-in-usa' => Database\Seeders\AdministrativeAssistantJobsUsaBlogSeeder::class,
+        'remote-customer-service-jobs' => Database\Seeders\RemoteCustomerServiceJobsBlogSeeder::class,
+        'online-data-entry-jobs' => Database\Seeders\OnlineDataEntryJobsBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-become-a-remote-virtual-assistant');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3714,6 +3746,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-get-a-warehouse-driver-job-in-uk',
         'how-to-get-a-fleet-driver-job-in-canada',
         'how-to-get-a-delivery-job-in-australia',
+        'how-to-become-a-remote-virtual-assistant',
     ];
 
     foreach ($guides as $guide) {
