@@ -358,6 +358,7 @@ JOBHTML;
     <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; shift work in UK kitchens, and the 2024 tips law behind the service charge.</li>
     <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a></li>
     <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a> &mdash; RTA licence types, whose licences can be exchanged, and the visa steps for drivers.</li>
+    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a> &mdash; which licence each role needs, the D4 medical and CPC route, funded training and ONS pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, insurance, tax or immigration advice. Wage rates, licence rules, insurance requirements and employment status tests change, and pay figures on any job board are a moving average rather than a statistic. Confirm the current position with GOV.UK, your insurer and the employer's own advertisement before applying or paying for any training.</p>

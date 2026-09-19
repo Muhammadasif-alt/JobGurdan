@@ -3486,6 +3486,38 @@ it('fixes the Germany transport draft shortage, pay, licence age and visa claims
     }
 });
 
+it('fixes the UK warehouse driver draft pay, allowance and sponsorship claims with official sources', function () {
+    $this->seed(Database\Seeders\WarehouseDriverJobsUkBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-get-a-warehouse-driver-job-in-uk')->value('content');
+
+    expect($content)->toContain('Median <strong>&pound;39,141</strong> a year')
+        ->toContain('&pound;16.25')
+        ->toContain('<strong>&pound;34.90 a night</strong>, not &pound;26.20')
+        ->toContain('<strong>75% of that figure &mdash; &pound;26.18</strong>')
+        ->toContain('<strong>SOC 8211, heavy and large goods vehicle drivers, is ineligible</strong>')
+        ->toContain('<strong>26% of HGV businesses reported driver vacancies in quarter 4 of 2025</strong>')
+        ->toContain('<strong>International</strong> Driver CPC training')
+        ->toContain('Return to Driving')
+        ->toContain('<strong>no DVLA application fee</strong>')
+        ->toContain('free for people 19 or over with a car licence')
+        ->toContain('that is company policy, not law')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'delivery-driver-jobs-in-uk' => Database\Seeders\DeliveryDriverJobsUkBlogSeeder::class,
+        'warehouse-jobs-uk-visa-sponsorship' => Database\Seeders\WarehouseUkBlogSeeder::class,
+        'jobs-in-uk-for-foreigners' => Database\Seeders\JobsInUkForForeignersBlogSeeder::class,
+        'store-assistant-jobs-in-uk' => Database\Seeders\StoreAssistantJobsUkBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-get-a-warehouse-driver-job-in-uk');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3610,6 +3642,7 @@ it('resolves every internal link the new guides publish', function () {
         'business-analyst-jobs-in-uk',
         'how-to-become-a-long-haul-truck-driver-in-usa',
         'how-to-get-a-transport-job-in-germany',
+        'how-to-get-a-warehouse-driver-job-in-uk',
     ];
 
     foreach ($guides as $guide) {
