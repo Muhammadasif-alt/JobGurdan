@@ -327,6 +327,7 @@ JOBHTML;
     <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the scripting language most pipelines run on.</li>
     <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a> &mdash; the infrastructure side of operations work.</li>
     <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; the other German route, and why it works so differently.</li>
+    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a> &mdash; the CE licence and code 95 rules, official pay and the driver visa route.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, tax or financial advice. Salary thresholds, contribution rates and immigration rules change every year. Confirm the current position with the employer, the German mission, Make it in Germany and a qualified tax adviser before applying or accepting an offer.</p>

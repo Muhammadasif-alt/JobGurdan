@@ -3454,6 +3454,38 @@ it('fixes the US long-haul truck driver draft pay, openings and training timelin
     }
 });
 
+it('fixes the Germany transport draft shortage, pay, licence age and visa claims with official sources', function () {
+    $this->seed(Database\Seeders\TransportJobsGermanyBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-get-a-transport-job-in-germany')->value('content');
+
+    expect($content)->toContain('<strong>More than 70,000</strong> drivers are missing')
+        ->toContain('<strong>30,000 to 35,000</strong> drivers retire every year')
+        ->toContain('<strong>one third</strong> of freight drivers are older than 55')
+        ->toContain('<strong>median gross wage of 3,048 euros a month</strong>')
+        ->toContain('<strong>an arithmetic mean cannot be determined</strong>')
+        ->toContain('<strong>13.90 euros an hour on 1 January 2026</strong>')
+        ->toContain('<strong>18 only with the full Grundqualifikation</strong>')
+        ->toContain('obtained <strong>within 15 months</strong>')
+        ->toContain('<strong>A1 German or B2 English</strong>')
+        ->toContain('<strong>authorities designated by each federal state</strong>')
+        ->toContain('Most guides quote 80,000 to 100,000 missing drivers')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'factory-worker-jobs-in-germany' => Database\Seeders\FactoryWorkerJobsGermanyBlogSeeder::class,
+        'devops-engineer-jobs-in-germany' => Database\Seeders\DevOpsEngineerJobsGermanyBlogSeeder::class,
+        'how-to-become-a-long-haul-truck-driver-in-usa' => Database\Seeders\LongHaulTruckDriverUsaBlogSeeder::class,
+        'cdl-driver-jobs-in-usa' => Database\Seeders\CdlDriverJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-get-a-transport-job-in-germany');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3577,6 +3609,7 @@ it('resolves every internal link the new guides publish', function () {
         'finance-analyst-jobs-in-canada',
         'business-analyst-jobs-in-uk',
         'how-to-become-a-long-haul-truck-driver-in-usa',
+        'how-to-get-a-transport-job-in-germany',
     ];
 
     foreach ($guides as $guide) {

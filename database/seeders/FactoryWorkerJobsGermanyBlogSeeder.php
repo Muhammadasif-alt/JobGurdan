@@ -332,6 +332,7 @@ JOBHTML;
     <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the Canadian route, and the difference between its two programs.</li>
     <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; a skilled British trade, and what its certification actually requires.</li>
     <li><a href="/blog/devops-engineer-jobs-in-germany">DevOps Engineer Jobs in Germany</a> &mdash; the graduate route into Germany, and what the EU Blue Card pays.</li>
+    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a> &mdash; the CE licence and code 95 rules, official pay and the driver visa route.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or immigration advice. Minimum wage rates, salary thresholds, visa rules and recognition procedures change, and salary figures on any job board are a moving average rather than a statistic. Confirm the current position with official German government sources and the employer's own advertisement, or with a qualified immigration adviser, before applying.</p>
