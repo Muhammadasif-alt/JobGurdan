@@ -3518,6 +3518,41 @@ it('fixes the UK warehouse driver draft pay, allowance and sponsorship claims wi
     }
 });
 
+it('fixes the Canada fleet driver draft CVOR, wage and training claims with official sources', function () {
+    $this->seed(Database\Seeders\FleetDriverJobsCanadaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-get-a-fleet-driver-job-in-canada')->value('content');
+
+    expect($content)->toContain('<strong>Commercial Vehicle Operator\'s Registration certificate belongs to the operator</strong>')
+        ->toContain('As an employee driver you do not "have a CVOR"')
+        ->toContain('<strong>median of $26.42 an hour</strong>')
+        ->toContain('$30.77')
+        ->toContain('sits <strong>below</strong> Ontario\'s own median of $26.00')
+        ->toContain('At least <strong>103.5 hours</strong>')
+        ->toContain('<strong>140 hours</strong>')
+        ->toContain('<strong>Class 1 Learning Pathway</strong>')
+        ->toContain('<strong>67 hours</strong> from 1 September 2026')
+        ->toContain('<strong>Q endorsement</strong>')
+        ->toContain('manual transmission of at least eight forward gears')
+        ->toContain('<strong>moderate risk of labour shortage</strong>')
+        ->toContain('<strong>not a legal requirement</strong>')
+        ->toContain('<strong>Express Entry transport category does not include truck drivers</strong>')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'bus-driver-jobs-in-canada' => Database\Seeders\BusDriverJobsCanadaBlogSeeder::class,
+        'how-to-become-a-long-haul-truck-driver-in-usa' => Database\Seeders\LongHaulTruckDriverUsaBlogSeeder::class,
+        'how-to-get-a-transport-job-in-germany' => Database\Seeders\TransportJobsGermanyBlogSeeder::class,
+        'jobs-in-canada-for-foreign-workers' => Database\Seeders\JobsInCanadaForeignWorkersBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-get-a-fleet-driver-job-in-canada');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3643,6 +3678,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-become-a-long-haul-truck-driver-in-usa',
         'how-to-get-a-transport-job-in-germany',
         'how-to-get-a-warehouse-driver-job-in-uk',
+        'how-to-get-a-fleet-driver-job-in-canada',
     ];
 
     foreach ($guides as $guide) {

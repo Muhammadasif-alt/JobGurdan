@@ -356,6 +356,7 @@ JOBHTML;
     <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; US licensing, hours of service and what the work really pays.</li>
     <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a> &mdash; Gulf driving work and its licence rules.</li>
     <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; passenger driving with a provincial licence and Job Bank pay.</li>
+    <li><a href="/blog/how-to-get-a-fleet-driver-job-in-canada">How to Get a Fleet Driver Job in Canada</a> &mdash; AZ and Class 1 licences, provincial training hours, air brakes and Job Bank wages.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using BGL, Bundesagentur f&uuml;r Arbeit and BALM publications and German law (FeV, BKrFQG, FPersV, BeschV and AufenthG). Rules, pay and visa conditions change. Always confirm with the German authorities or the employer before applying.</p>

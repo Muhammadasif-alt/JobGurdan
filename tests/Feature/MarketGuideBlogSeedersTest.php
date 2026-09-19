@@ -12,6 +12,13 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'fleet driver canada' => [
+        'how-to-get-a-fleet-driver-job-in-canada',
+        Database\Seeders\FleetDriverJobsCanadaBlogSeeder::class,
+        ['how-to-get-a-fleet-driver-job-in-canada-fleet-yard.jpg', 'how-to-get-a-fleet-driver-job-in-canada-highway.jpg'],
+        'https://ca.indeed.com/q-az-driver-jobs.html',
+        'Fleet Driver ',
+    ],
     'warehouse driver uk' => [
         'how-to-get-a-warehouse-driver-job-in-uk',
         Database\Seeders\WarehouseDriverJobsUkBlogSeeder::class,
