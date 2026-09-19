@@ -3553,6 +3553,40 @@ it('fixes the Canada fleet driver draft CVOR, wage and training claims with offi
     }
 });
 
+it('fixes the Australia delivery draft award rates, gig standards and GST claims with official sources', function () {
+    $this->seed(Database\Seeders\DeliveryJobsAustraliaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-get-a-delivery-job-in-australia')->value('content');
+
+    expect($content)->toContain('<strong>$27.51</strong>')
+        ->toContain('$34.39')
+        ->toContain('about <strong>$54,366 a year</strong>, not the $49,953 quoted in older guides')
+        ->toContain('Interim On-Demand Delivery Employee-like Worker Minimum Standards Order')
+        ->toContain('in force from <strong>17 August 2026</strong>')
+        ->toContain('$31.30')
+        ->toContain('<strong>engaged time</strong>')
+        ->toContain('<strong>passenger ride-sourcing</strong>, which the ATO treats as taxi travel')
+        ->toContain('<strong>91 cents</strong>')
+        ->toContain('<strong>foot or bicycle courier is grade 1</strong>')
+        ->toContain('not Uber Eats riders')
+        ->toContain('<strong>$56</strong>')
+        ->not->toContain('$25.28')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'taxi-driver-jobs-in-australia' => Database\Seeders\TaxiDriverJobsAustraliaBlogSeeder::class,
+        'how-to-get-a-warehouse-driver-job-in-uk' => Database\Seeders\WarehouseDriverJobsUkBlogSeeder::class,
+        'how-to-get-a-fleet-driver-job-in-canada' => Database\Seeders\FleetDriverJobsCanadaBlogSeeder::class,
+        'visa-sponsorship-jobs-in-australia' => Database\Seeders\VisaSponsorshipJobsAustraliaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-get-a-delivery-job-in-australia');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3679,6 +3713,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-get-a-transport-job-in-germany',
         'how-to-get-a-warehouse-driver-job-in-uk',
         'how-to-get-a-fleet-driver-job-in-canada',
+        'how-to-get-a-delivery-job-in-australia',
     ];
 
     foreach ($guides as $guide) {

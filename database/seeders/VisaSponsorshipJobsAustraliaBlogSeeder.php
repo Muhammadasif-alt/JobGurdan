@@ -329,6 +329,7 @@ JOBHTML;
     <li><a href="/blog/how-to-become-a-sales-representative-in-australia">How to Become a Sales Representative in Australia</a> &mdash; the licence, working rights and training employers ask for, and the award floor under field sales pay.</li>
     <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a> &mdash; the apprenticeship, the AUR30620 qualification, award pay for apprentices and the routes for overseas-trained mechanics.</li>
     <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a> &mdash; every route in compared: employer sponsorship, skilled visas without a job offer, working holidays, the PALM scheme and student work rights.</li>
+    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a> &mdash; award pay, the new gig minimum standards order, ABN and GST rules.</li>
 </ul>
 HTML;
     }

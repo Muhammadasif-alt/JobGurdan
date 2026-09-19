@@ -329,6 +329,7 @@ JOBHTML;
     <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a></li>
     <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a></li>
     <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a></li>
+    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a> &mdash; award pay, the new gig minimum standards order, ABN and GST rules.</li>
 </ul>
 HTML;
     }

@@ -377,6 +377,7 @@ JOBHTML;
     <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a> &mdash; the British licence ladder and what it pays.</li>
     <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; which sectors hire and the routes in.</li>
     <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; the LMIA and the routes to permanent residence.</li>
+    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a> &mdash; award pay, the new gig minimum standards order, ABN and GST rules.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Job Bank data for NOC 73300 and official provincial licensing information from Ontario, Alberta, British Columbia and Saskatchewan, plus CBSA and canada.ca. Rules, fees and wages change. Always check your province's licensing authority and the current posting before applying.</p>
