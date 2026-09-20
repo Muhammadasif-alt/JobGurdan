@@ -3662,6 +3662,41 @@ it('fixes the Saudi Arabia draft sponsorship, tax and recruitment fee claims wit
     }
 });
 
+it('fixes the US entry-level office draft pay, city and outlook claims with official sources', function () {
+    $this->seed(Database\Seeders\EntryLevelOfficeJobsUsaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-get-an-entry-level-office-job-with-no-experience')->value('content');
+
+    expect($content)->toContain('<strong>$18.94 an hour across a 2,080-hour year is $39,395</strong>')
+        ->toContain('<strong>$45,010</strong>')
+        ->toContain('<strong>$44,770</strong>')
+        ->toContain('<strong>$38,010</strong>')
+        ->toContain('<strong>$47,540</strong>')
+        ->toContain('<strong>$51,140</strong>')
+        ->toContain('<strong>-6%</strong>')
+        ->toContain('<strong>-5%</strong>')
+        ->toContain('office and administrative support group as a whole to decline')
+        ->toContain('<strong>1.7 million openings a year</strong>')
+        ->toContain('<strong>postsecondary nondegree award</strong>')
+        ->toContain('<strong>$40,930</strong>')
+        ->toContain('<strong>$39,800</strong>')
+        ->toContain('never ask you to pay to get a job')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'administrative-assistant-jobs-in-usa' => Database\Seeders\AdministrativeAssistantJobsUsaBlogSeeder::class,
+        'customer-service-jobs-in-usa' => Database\Seeders\CustomerServiceJobsUsaBlogSeeder::class,
+        'data-entry-jobs-in-usa' => Database\Seeders\DataEntryJobsUsaBlogSeeder::class,
+        'online-data-entry-jobs' => Database\Seeders\OnlineDataEntryJobsBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-get-an-entry-level-office-job-with-no-experience');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3791,6 +3826,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-get-a-delivery-job-in-australia',
         'how-to-become-a-remote-virtual-assistant',
         'how-to-get-a-job-in-saudi-arabia-as-a-foreigner',
+        'how-to-get-an-entry-level-office-job-with-no-experience',
     ];
 
     foreach ($guides as $guide) {

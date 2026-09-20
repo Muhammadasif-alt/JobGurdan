@@ -338,6 +338,7 @@ JOBHTML;
     <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; the office job one step up, and the medical specialism still growing.</li>
     <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a> &mdash; home-based data and admin work, and how today's job scams operate.</li>
     <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a> &mdash; the beginner and scam-aware view of the same work, and how to spot a fake listing.</li>
+    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a> &mdash; the real BLS medians and why this group of occupations is shrinking.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, financial or immigration advice. Wage data and employment projections are revised periodically, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics and the employer's own advertisement before applying or paying for any course.</p>
