@@ -5,6 +5,7 @@ use Database\Seeders\AnuRtpScholarshipSeeder;
 use Database\Seeders\AustraliaScholarshipsWithoutIeltsScholarshipSeeder;
 use Database\Seeders\FranceScholarshipsWithoutIeltsScholarshipSeeder;
 use Database\Seeders\InsubriaScholarshipSeeder;
+use Database\Seeders\IrenaYouthForum2027ScholarshipSeeder;
 use Database\Seeders\KingsCollegeLondonCheveningScholarshipSeeder;
 use Database\Seeders\MelbourneRtpScholarshipSeeder;
 use Database\Seeders\MonashRtpScholarshipSeeder;
@@ -124,6 +125,7 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'pavia' => [PaviaScholarshipSeeder::class, PaviaScholarshipSeeder::SLUG, 3],
     'insubria' => [InsubriaScholarshipSeeder::class, InsubriaScholarshipSeeder::SLUG, 3],
     'marche' => [PolytechnicMarcheScholarshipSeeder::class, PolytechnicMarcheScholarshipSeeder::SLUG, 2],
+    'irena youth forum' => [IrenaYouthForum2027ScholarshipSeeder::class, IrenaYouthForum2027ScholarshipSeeder::SLUG, 2],
     'yes pakistan' => [YesProgramPakistanScholarshipSeeder::class, YesProgramPakistanScholarshipSeeder::SLUG, 2],
     'australia without ielts' => [AustraliaScholarshipsWithoutIeltsScholarshipSeeder::class, AustraliaScholarshipsWithoutIeltsScholarshipSeeder::SLUG, 2],
     'south australia' => [UniversityOfSouthAustraliaScholarshipSeeder::class, UniversityOfSouthAustraliaScholarshipSeeder::SLUG, 1],
@@ -439,6 +441,33 @@ it('replaces the "no IELTS" promise with the English rules each Australian award
         ->not->toContain('{monash}');
 
     expect($scholarship->deadlineLabel())->toBe('Varies by scholarship: see the deadlines table');
+});
+
+it('files the IRENA Youth Forum as a forum rather than a scholarship and fixes the poster claims', function () {
+    // The posters print "8 Days Duration" for what is a two-day forum plus a
+    // closing session, imply selection means funding, and carry a third-party
+    // site's branding. IRENA's own event page says otherwise.
+    $this->seed(IrenaYouthForum2027ScholarshipSeeder::class);
+
+    $scholarship = Scholarship::where('slug', IrenaYouthForum2027ScholarshipSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->content)
+        ->toContain('<strong>This is a youth forum, not a university scholarship.</strong>')
+        ->toContain('which oversells it')
+        ->toContain('<strong>6 and 7 January: the Youth Forum itself</strong>')
+        ->toContain('<strong>Up to 40</strong>')
+        ->toContain('<strong>Selection is not the same as funding.</strong>')
+        ->toContain('<strong>There is no stipend.</strong>')
+        ->toContain('<strong>Visa support is not a visa.</strong>')
+        ->toContain('<strong>IRENA does not ask for IELTS, TOEFL or any English test.</strong>')
+        ->toContain('at the time of the Forum')
+        ->toContain('youth@irena.org')
+        ->toContain('Grids, Storage and Flexibility')
+        ->not->toContain('scholarshipscorner')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $this->travelTo(Carbon::parse('2026-09-25 12:00:00'));
+    expect($scholarship->deadlineLabel())->toContain('30 Sep 2026');
 });
 
 it('corrects the length, the departure date and the "100% free" claim on the YES posters', function () {
