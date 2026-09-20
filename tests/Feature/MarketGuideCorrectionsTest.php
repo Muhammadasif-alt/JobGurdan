@@ -3619,6 +3619,49 @@ it('fixes the remote virtual assistant draft salary, fee and tax claims with off
     }
 });
 
+it('fixes the Saudi Arabia draft sponsorship, tax and recruitment fee claims with official sources', function () {
+    $this->seed(Database\Seeders\SaudiArabiaJobsForeignersBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-get-a-job-in-saudi-arabia-as-a-foreigner')->value('content');
+
+    expect($content)->toContain('<strong>14 March 2021</strong>')
+        ->toContain("without the employer's consent")
+        ->toContain('standard rate, not 5%')
+        ->toContain('article 40 of the Saudi Labour Law')
+        ->toContain('<strong>SAR 700 a month</strong>')
+        ->toContain('<strong>SAR 800 a month</strong>')
+        ->toContain('not deducted from you')
+        ->toContain('<strong>1 October 2023</strong>')
+        ->toContain('<strong>128 countries</strong>')
+        ->toContain('<strong>18 June 2025</strong>')
+        ->toContain('5 April 2026')
+        ->toContain('<strong>1,009,691 people employed</strong>')
+        ->toContain('764,520 &mdash; 75.7% &mdash; were non-Saudi')
+        ->toContain('<strong>15,168,982</strong>')
+        ->toContain('<strong>19,390,726</strong>')
+        ->toContain('<strong>78.2%</strong>, not 77%')
+        ->toContain('<strong>123 million visits</strong>')
+        ->toContain('occupational wage survey for expatriate workers')
+        ->toContain('<strong>minimum monthly wage of SAR 35,000</strong>')
+        ->toContain('pr.gov.sa')
+        ->not->toContain('saudiprc.gov.sa')
+        ->not->toContain('23% to 40% cheaper')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'construction-jobs-in-saudi-arabia-with-visa-sponsorship' => Database\Seeders\ConstructionJobsSaudiBlogSeeder::class,
+        'nurse-jobs-in-saudi-arabia' => Database\Seeders\NurseJobsSaudiBlogSeeder::class,
+        'driver-jobs-in-saudi-arabia-for-foreigners' => Database\Seeders\DriverJobsSaudiBlogSeeder::class,
+        'no-experience-jobs-in-saudi-arabia' => Database\Seeders\NoExperienceJobsSaudiBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3747,6 +3790,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-get-a-fleet-driver-job-in-canada',
         'how-to-get-a-delivery-job-in-australia',
         'how-to-become-a-remote-virtual-assistant',
+        'how-to-get-a-job-in-saudi-arabia-as-a-foreigner',
     ];
 
     foreach ($guides as $guide) {

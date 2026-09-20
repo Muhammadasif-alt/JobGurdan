@@ -352,6 +352,7 @@ JOBHTML;
     <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; American nursing pay by state, measured by the BLS.</li>
     <li><a href="/blog/kitchen-helper-jobs-in-saudi-arabia">Kitchen Helper Jobs in Saudi Arabia</a> &mdash; the entry-level end of the same labour market, and what Article 40 makes the employer pay.</li>
     <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a> &mdash; which entry-level roles are still open to foreign workers, and what protects the wage.</li>
+    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a> &mdash; the sponsorship route, Saudization limits and who legally pays your recruitment fee.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, careers or financial advice. Licensing requirements, recruitment rules, salaries and contract terms change and differ by employer and by country of origin. Confirm the current position with the Saudi Commission for Health Specialties, your home country's emigration authority and the employer before applying or accepting an offer.</p>
