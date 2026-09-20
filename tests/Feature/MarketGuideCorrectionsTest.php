@@ -3796,6 +3796,40 @@ it('fixes the BHP draft graduate count, pay and roster claims with official sour
     }
 });
 
+it('fixes the BMW draft pay agreement, plant and visa claims with official sources', function () {
+    $this->seed(Database\Seeders\BmwFactoryJobsGermanyBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-bmw-factory-jobs-in-germany')->value('content');
+
+    expect($content)->toContain('<strong>2.0% from 1 April 2025</strong>')
+        ->toContain('<strong>3.1% from 1 April 2026</strong>')
+        ->toContain('<strong>31 October 2026</strong>')
+        ->toContain('do not appear in the agreement')
+        ->toContain('<strong>roughly 6,000 people from more than 60 nations</strong>')
+        ->toContain('<strong>BMW does not publish pay for any role.</strong>')
+        ->toContain('manufacturing at &euro;4,913 a month</strong>')
+        ->toContain('<strong>Both routes gate on a recognised qualification.</strong>')
+        ->toContain('<strong>&euro;55,770 a year</strong>')
+        ->toContain('<strong>&euro;1,091 a month</strong>')
+        ->toContain('<strong>six points</strong>')
+        ->toContain('does not publish a specific CEFR level')
+        ->toContain('Guides quoting 7,800 employees from 50 countries are working from an older figure')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'factory-worker-jobs-in-germany' => Database\Seeders\FactoryWorkerJobsGermanyBlogSeeder::class,
+        'how-to-get-a-transport-job-in-germany' => Database\Seeders\TransportJobsGermanyBlogSeeder::class,
+        'devops-engineer-jobs-in-germany' => Database\Seeders\DevOpsEngineerJobsGermanyBlogSeeder::class,
+        'jobs-in-uk-for-foreigners' => Database\Seeders\JobsInUkForForeignersBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-bmw-factory-jobs-in-germany');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3929,6 +3963,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-walmart-store-associate-jobs-in-the-usa',
         'how-to-apply-for-emirates-cabin-crew-jobs-in-uae',
         'how-to-apply-for-bhp-mining-jobs-in-australia',
+        'how-to-apply-for-bmw-factory-jobs-in-germany',
     ];
 
     foreach ($guides as $guide) {
