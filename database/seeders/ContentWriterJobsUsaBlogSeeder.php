@@ -28,6 +28,20 @@ use Illuminate\Support\Str;
  * a writer can finish two years with nothing they are allowed to show — while
  * every posting screens on a portfolio.
  *
+ * A "remote content writer" draft was later folded into this page rather than
+ * published separately, because it would have competed with this guide, the
+ * copywriter guide and the AI content writer guide for the same queries. Its
+ * usable material became the pay section, with these corrections:
+ *
+ * - It quoted a $84,151 average and a $186,000 top from a job board. The
+ *   measured figure is the BLS median of $76,910 for writers and authors,
+ *   already used above.
+ * - It presented "$0.10 to $1.00 a word" as a benchmark. No official survey
+ *   of freelance content rates exists, so the page says that plainly and
+ *   teaches pricing backwards from a target hourly rate instead.
+ * - It quoted platform rates without fees. Upwork charges a freelancer
+ *   service fee of 0% to 15% per contract and Fiverr takes 20%.
+ *
  * Corrections to the draft:
  *
  * 1. It opens on "growing demand". BLS projects employment of writers and
@@ -238,6 +252,44 @@ JOBHTML;
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/content-writer-jobs-in-usa-remote.jpg"
          alt="A remote content writer reviewing SEO performance for a published article"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
+<h2>Getting Paid: Rates, Platform Fees and the Unpaid Test</h2>
+
+<p>Start with the thing nobody says out loud: <strong>there is no official survey of freelance content rates.</strong> BLS measures what employed writers and authors earn. Nothing measures what a client pays per word. Every per-word table you find online is either a self-selected survey or a blog's estimate, so treat the widely quoted "$0.10 to $1.00 a word" as a description of the spread, not a benchmark you have failed to hit.</p>
+
+<p>Price from your own numbers instead. There are three ways this work gets billed, and each one does something different to you:</p>
+
+<ul>
+    <li><strong>Per word.</strong> The client's favourite, because it caps their cost. It pays you for length, not for research, interviews, or the 400 words you cut to make the piece better. Two 1,200-word articles can take four hours or fourteen and pay identically.</li>
+    <li><strong>Per hour.</strong> Honest on research-heavy and open-ended work, and the fairest structure when a scope is genuinely unclear. Its flaw is that it quietly penalises you for getting faster.</li>
+    <li><strong>Per project, with a written scope.</strong> The one that rewards experience: as you get quicker, your effective hourly rate rises. It only works if the scope names the number of revision rounds. Without that, "per project" means unlimited.</li>
+</ul>
+
+<p>Whichever unit the client prefers, work backwards. Decide the hourly figure you need, estimate the real hours including research and revisions, then convert. Quoting a per-word rate first and discovering the hourly rate afterwards is how writers end up working for less than they would accept if it were stated plainly.</p>
+
+<h3>What the platforms take</h3>
+
+<p>If you start on a marketplace, the rate you agree is not the money you receive. <strong>Upwork charges a freelancer service fee of 0% to 15% per contract</strong>, plus $0.15 per Connect to submit proposals. <strong>Fiverr takes a 20% commission</strong> on your earnings. A $500 article billed through Fiverr pays $400; the same article invoiced to a direct client pays $500.</p>
+
+<p>That is the whole argument for moving toward direct clients once you have samples and testimonials. Platforms are not a trap, they are a customer acquisition cost &mdash; useful when nobody knows your name, and expensive to keep paying once they do.</p>
+
+<h3>The unpaid test that is not a test</h3>
+
+<p>A short, unpublished test piece is a normal part of hiring, and refusing every one of them will cost you real work. <strong>The line is publication.</strong> If the piece is under two or three hours and the client has no intention of using it, that is an audition. If it is a full researched article the client intends to publish, it is not a test, it is a commission they have not paid for.</p>
+
+<ul>
+    <li><strong>Normal:</strong> a 300 to 500 word sample on a given topic, clearly not for publication.</li>
+    <li><strong>Ask to be paid, or decline:</strong> a full-length article, original research or interviews, or anything that will go live on their site.</li>
+    <li><strong>Walk away:</strong> a client who runs a "test" with every applicant and publishes the results. That is not a hiring process, it is a content supply chain staffed by people who think they are interviewing.</li>
+</ul>
+
+<p>"Will this be published, and is it paid?" is an ordinary, professional question. The answer tells you what kind of client you are about to work for, which is worth knowing before rather than after.</p>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/content-writer-jobs-in-usa-freelance.jpg"
+         alt="A freelance content writer drafting an article at a home desk"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 

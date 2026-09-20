@@ -118,3 +118,17 @@ it('is linked back from the copywriter and AI writing guides', function () {
         expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/'.CONTENT_WRITER_SLUG);
     }
 });
+
+it('prices freelance work from platform fees rather than a job board benchmark', function () {
+    $this->seed(ContentWriterJobsUsaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'content-writer-jobs-in-usa')->value('content');
+
+    expect($content)->toContain('<strong>there is no official survey of freelance content rates.</strong>')
+        ->toContain('<strong>Upwork charges a freelancer service fee of 0% to 15% per contract</strong>')
+        ->toContain('<strong>Fiverr takes a 20% commission</strong>')
+        ->toContain('<strong>The line is publication.</strong>')
+        ->toContain('content-writer-jobs-in-usa-freelance.jpg')
+        ->not->toContain('84,151')
+        ->not->toContain('utm_source=chatgpt.com');
+});
