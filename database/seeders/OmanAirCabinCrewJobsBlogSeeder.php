@@ -192,7 +192,7 @@ JOBHTML;
 
 <h2>The Hiring Process, In Oman Air's Own Words</h2>
 
-<p>This part is properly documented, in the airline's application guide:</p>
+<p>This part is properly documented, in the airline's own <a href="https://www.omanair.com/en_us/application-guide" target="_blank" rel="noopener nofollow">application guide</a>:</p>
 
 <ol>
     <li><strong>Apply to an advertised job.</strong> Oman Air assesses your suitability and responds <strong>within 6 weeks if there is interest in meeting you</strong>. Its own instruction is blunt: if you have not heard within 6 weeks, assume you have not been shortlisted.</li>

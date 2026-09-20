@@ -3830,6 +3830,36 @@ it('fixes the BMW draft pay agreement, plant and visa claims with official sourc
     }
 });
 
+it('replaces the Oman Air draft requirements, pay and vacancy links with what the airline documents', function () {
+    $this->seed(Database\Seeders\OmanAirCabinCrewJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-oman-air-cabin-crew-jobs')->value('content');
+
+    expect($content)->toContain('<strong>Omanisation rate at 79.4%</strong>')
+        ->toContain('<strong>74.8% in 2023</strong>')
+        ->toContain('<strong>expatriate headcount by 487</strong>')
+        ->toContain('Those criteria come from a single Open Day held in Muscat on 19 July 2026')
+        ->toContain('publish no standing cabin crew criteria at all')
+        ->toContain('<strong>There is no Oman Air cabin crew salary figure on any Oman Air page.</strong>')
+        ->toContain('eRecruit vacancy tools do not currently work')
+        ->toContain('<strong>within 6 weeks if there is interest in meeting you</strong>')
+        ->toContain('https://www.omanair.com/en_us/application-guide')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-emirates-cabin-crew-jobs-in-uae' => Database\Seeders\EmiratesCabinCrewJobsUaeBlogSeeder::class,
+        'how-to-get-a-job-in-saudi-arabia-as-a-foreigner' => Database\Seeders\SaudiArabiaJobsForeignersBlogSeeder::class,
+        'receptionist-jobs-in-uae' => Database\Seeders\ReceptionistJobsUaeBlogSeeder::class,
+        'security-guard-jobs-in-uae' => Database\Seeders\SecurityGuardJobsUaeBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-oman-air-cabin-crew-jobs');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3964,6 +3994,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-emirates-cabin-crew-jobs-in-uae',
         'how-to-apply-for-bhp-mining-jobs-in-australia',
         'how-to-apply-for-bmw-factory-jobs-in-germany',
+        'how-to-apply-for-oman-air-cabin-crew-jobs',
     ];
 
     foreach ($guides as $guide) {

@@ -462,6 +462,7 @@ JOBHTML;
     <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a> &mdash; licensing, employers and shift patterns.</li>
     <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a> &mdash; contract cleaning work and how it is recruited.</li>
     <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a> &mdash; the licence ladder for heavy vehicles.</li>
+    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; Omanisation, the Gulf parallel to Saudization, from an employer side.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using GASTAT labour market, population and tourism statistics, Ministry of Human Resources and Social Development announcements and Labour Law articles, ZATCA guidance, Qiwa and Musaned rules and the Premium Residency Center portal. Saudization decisions, fees and thresholds change often. Always check the current official page for your own profession before you commit.</p>
