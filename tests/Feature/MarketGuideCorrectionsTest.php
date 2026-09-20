@@ -3731,6 +3731,39 @@ it('fixes the Walmart draft pay, age and expiring link claims with official sour
     }
 });
 
+it('attributes the Emirates cabin crew pay and gratuity rules to official sources', function () {
+    $this->seed(Database\Seeders\EmiratesCabinCrewJobsUaeBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-emirates-cabin-crew-jobs-in-uae')->value('content');
+
+    expect($content)->toContain('<strong>They are Emirates\' own published figures</strong>')
+        ->toContain('<strong>AED 4,980 a month</strong>')
+        ->toContain('<strong>AED 69.6 an hour</strong>')
+        ->toContain('<strong>AED 11,244 a month</strong>')
+        ->toContain('<strong>reach 212cm</strong>')
+        ->toContain('<strong>Free furnished accommodation, including utilities</strong>')
+        ->toContain('<strong>21 days\' salary for each of the first five years</strong>')
+        ->toContain('<strong>basic salary only</strong>')
+        ->toContain('<strong>You are not assigned to a region.</strong>')
+        ->toContain('asks you for money is fraudulent')
+        ->toContain('not currently offering online assessment days')
+        ->not->toContain('4,430')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'receptionist-jobs-in-uae' => Database\Seeders\ReceptionistJobsUaeBlogSeeder::class,
+        'security-guard-jobs-in-uae' => Database\Seeders\SecurityGuardJobsUaeBlogSeeder::class,
+        'accountant-jobs-in-uae' => Database\Seeders\AccountantJobsUaeBlogSeeder::class,
+        'how-to-get-a-logistics-driver-job-in-the-uae' => Database\Seeders\LogisticsDriverJobsUaeBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3862,6 +3895,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-get-a-job-in-saudi-arabia-as-a-foreigner',
         'how-to-get-an-entry-level-office-job-with-no-experience',
         'how-to-apply-for-walmart-store-associate-jobs-in-the-usa',
+        'how-to-apply-for-emirates-cabin-crew-jobs-in-uae',
     ];
 
     foreach ($guides as $guide) {
