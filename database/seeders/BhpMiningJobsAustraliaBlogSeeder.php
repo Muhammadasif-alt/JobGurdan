@@ -344,6 +344,7 @@ JOBHTML;
     <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a> &mdash; award pay and the new gig minimum standards.</li>
     <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; another licensed trade route.</li>
     <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a> &mdash; the visa side for overseas applicants.</li>
+    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a> &mdash; another resources giant that publishes no pay figure.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using BHP's own careers, FutureFit Academy, recruitment process and fraud warning pages, the Fair Work Mining Industry Award pay guide, ABS average weekly earnings and Jobs and Skills Australia occupation data. BHP does not publish pay for individual roles, and rosters and intakes change. Always check the live posting before you apply.</p>

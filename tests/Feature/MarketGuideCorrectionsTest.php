@@ -3860,6 +3860,38 @@ it('replaces the Oman Air draft requirements, pay and vacancy links with what th
     }
 });
 
+it('states that Aramco publishes no pay and fixes the draft experience and link claims', function () {
+    $this->seed(Database\Seeders\AramcoEngineeringJobsSaudiBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia')->value('content');
+
+    expect($content)->toContain('<strong>Aramco does not publish a salary figure for any role, anywhere.</strong>')
+        ->toContain('<strong>There is no Aramco salary number on any Aramco page.</strong>')
+        ->toContain('minimum of five to 10 years of applicable experience')
+        ->toContain('<strong>minimum of SAR 30,000</strong>')
+        ->toContain('<strong>38 days of vacation leave per year, plus travel days</strong>')
+        ->toContain('<strong>9 to 11 paid company holidays</strong>')
+        ->toContain('the US-scoped branch of Aramco')
+        ->toContain('will ever ask for any payments from applicants at any point in the recruitment process')
+        ->toContain('<strong>VAT at 15%</strong>')
+        ->toContain('https://www.aramco.com/en/careers/for-international-applicants')
+        ->not->toContain('careers.aramco.com/expat_us/go/For-US-Applicants/7717823')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-get-a-job-in-saudi-arabia-as-a-foreigner' => Database\Seeders\SaudiArabiaJobsForeignersBlogSeeder::class,
+        'construction-jobs-in-saudi-arabia-with-visa-sponsorship' => Database\Seeders\ConstructionJobsSaudiBlogSeeder::class,
+        'mechanic-jobs-in-saudi-arabia' => Database\Seeders\MechanicJobsSaudiBlogSeeder::class,
+        'how-to-apply-for-bhp-mining-jobs-in-australia' => Database\Seeders\BhpMiningJobsAustraliaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3995,6 +4027,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-bhp-mining-jobs-in-australia',
         'how-to-apply-for-bmw-factory-jobs-in-germany',
         'how-to-apply-for-oman-air-cabin-crew-jobs',
+        'how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia',
     ];
 
     foreach ($guides as $guide) {
