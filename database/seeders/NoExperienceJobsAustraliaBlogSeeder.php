@@ -313,6 +313,7 @@ JOBHTML;
     <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a> &mdash; the apprenticeship, the AUR30620 qualification, award pay for apprentices and the routes for overseas-trained mechanics.</li>
     <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a> &mdash; every route in compared: employer sponsorship, skilled visas without a job offer, working holidays, the PALM scheme and student work rights.</li>
     <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a> &mdash; the job title in each state, WA pay of $34.75 to $43.28 an hour, and the checks and certificates schools ask for.</li>
+    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a> &mdash; the no-experience pathways, what the FutureFit Academy really offers and official pay benchmarks.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Award rates, superannuation, screening rules and visa conditions change. Check the current pay guide on fairwork.gov.au and your visa conditions on immi.homeaffairs.gov.au before accepting a job.</p>

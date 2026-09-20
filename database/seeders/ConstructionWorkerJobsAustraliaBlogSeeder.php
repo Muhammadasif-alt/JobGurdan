@@ -357,6 +357,7 @@ JOBHTML;
     <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; how employer sponsorship actually works, and which occupation list applies.</li>
     <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a> &mdash; the Canadian machine side of construction, and its Red Seal trades.</li>
     <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a> &mdash; the apprenticeship, the AUR30620 qualification, award pay for apprentices and the routes for overseas-trained mechanics.</li>
+    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a> &mdash; the no-experience pathways, what the FutureFit Academy really offers and official pay benchmarks.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, migration or financial advice. Award rates, the national minimum wage, superannuation rules and visa conditions change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Fair Work Ombudsman, the Department of Home Affairs and the employer's own advertisement before applying.</p>

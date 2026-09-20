@@ -3764,6 +3764,38 @@ it('attributes the Emirates cabin crew pay and gratuity rules to official source
     }
 });
 
+it('fixes the BHP draft graduate count, pay and roster claims with official sources', function () {
+    $this->seed(Database\Seeders\BhpMiningJobsAustraliaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-bhp-mining-jobs-in-australia')->value('content');
+
+    expect($content)->toContain('<strong>2,500 is BHP\'s five-year target</strong>')
+        ->toContain('<strong>more than 1,100 joined and more than 500 graduated</strong>')
+        ->toContain('<strong>$27.53 an hour</strong>')
+        ->toContain('<strong>$3,224.20 a week</strong>')
+        ->toContain('$2,083.70')
+        ->toContain('<strong>12 months</strong>')
+        ->toContain('<strong>BHP does not offer relocation and does not provide accommodation during training</strong>')
+        ->toContain('<strong>FutureFit Academy trains on a 7/7 roster</strong>')
+        ->toContain('Copper South Australia')
+        ->toContain('never seeks any funds from job applicants')
+        ->toContain('Sorry, this position has been filled')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'construction-worker-jobs-in-australia' => Database\Seeders\ConstructionWorkerJobsAustraliaBlogSeeder::class,
+        'visa-sponsorship-jobs-in-australia' => Database\Seeders\VisaSponsorshipJobsAustraliaBlogSeeder::class,
+        'no-experience-jobs-in-australia' => Database\Seeders\NoExperienceJobsAustraliaBlogSeeder::class,
+        'plumber-jobs-in-australia' => Database\Seeders\PlumberJobsAustraliaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-bhp-mining-jobs-in-australia');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3896,6 +3928,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-get-an-entry-level-office-job-with-no-experience',
         'how-to-apply-for-walmart-store-associate-jobs-in-the-usa',
         'how-to-apply-for-emirates-cabin-crew-jobs-in-uae',
+        'how-to-apply-for-bhp-mining-jobs-in-australia',
     ];
 
     foreach ($guides as $guide) {
