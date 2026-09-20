@@ -101,9 +101,12 @@ class EmiratesCabinCrewJobsUaeBlogSeeder extends Seeder
             ['type' => 'Company', 'display_reference' => 'emirates-group-dubai']
         );
 
+        // Matches the shared location row the other UAE guides use, so the
+        // listing card reads "United Arab Emirates, ..." like its siblings
+        // rather than repeating the city.
         $location = Location::firstOrCreate(
-            ['name' => 'Dubai, United Arab Emirates'],
-            ['area' => 'Dubai', 'country' => 'United Arab Emirates']
+            ['name' => 'United Arab Emirates'],
+            ['area' => 'Nationwide', 'country' => 'United Arab Emirates']
         );
 
         $category = Category::firstOrCreate(

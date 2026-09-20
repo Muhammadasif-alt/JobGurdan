@@ -844,6 +844,17 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
         ->and($job->description)->toContain('not by JobGader');
 })->with('market guides');
 
+it('files the listing under a plain country location rather than a city-and-country name', function (string $slug, string $seeder, array $inline, string $applyUrl, string $position) {
+    // The listing card prints the location name followed by its area, so a
+    // name like "Dubai, United Arab Emirates" with area "Dubai" renders the
+    // city twice and breaks alignment with every sibling guide.
+    $this->seed($seeder);
+
+    $job = Job::where('position', 'like', $position.'%')->first();
+
+    expect($job->location->name)->not->toContain(',');
+})->with('market guides');
+
 it('links out to at least four other guides on the site', function (string $slug, string $seeder) {
     $this->seed($seeder);
 
