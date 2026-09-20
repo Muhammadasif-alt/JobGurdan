@@ -3892,6 +3892,69 @@ it('states that Aramco publishes no pay and fixes the draft experience and link 
     }
 });
 
+it('states plainly that Ferrari never mentions sponsorship and replaces the draft pay claims', function () {
+    $this->seed(Database\Seeders\FerrariFactoryJobsItalyBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-ferrari-factory-jobs-in-italy')->value('content');
+
+    expect($content)->toContain('<strong>None of those words appear anywhere.</strong>')
+        ->toContain('<strong>31 December 2025 it had 5,718 employees</strong>')
+        ->toContain('<strong>5,367 were based in Italy</strong>')
+        ->toContain('<strong>497,550</strong>')
+        ->toContain('<strong>2 October 2025</strong>')
+        ->toContain('<strong>22 November 2025</strong>')
+        ->toContain('<strong>&euro;205.32 a month</strong>')
+        ->toContain('<strong>national average gross annual salary at &euro;37,302</strong>')
+        ->toContain('Beware of phishing attempts')
+        ->toContain('bonus is not in this guide on purpose')
+        ->toContain('https://jobs.ferrari.com/search/')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-bmw-factory-jobs-in-germany' => Database\Seeders\BmwFactoryJobsGermanyBlogSeeder::class,
+        'factory-worker-jobs-in-germany' => Database\Seeders\FactoryWorkerJobsGermanyBlogSeeder::class,
+        'how-to-get-a-transport-job-in-germany' => Database\Seeders\TransportJobsGermanyBlogSeeder::class,
+        'jobs-in-uk-for-foreigners' => Database\Seeders\JobsInUkForForeignersBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-ferrari-factory-jobs-in-italy');
+    }
+});
+
+it('finds the Kuwait Airways careers portal and resolves the age limits the draft called contradictory', function () {
+    $this->seed(Database\Seeders\KuwaitAirwaysCabinCrewJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-kuwait-airways-cabin-crew-jobs')->value('content');
+
+    expect($content)->toContain('<strong>Kuwait Airways does have a working careers portal, and almost every guide on this subject says it does not.</strong>')
+        ->toContain('<strong>20 years</strong>')
+        ->toContain('<strong>34 years for Kuwaiti applicants</strong>')
+        ->toContain('<strong>32 years for non-Kuwaiti applicants</strong>')
+        ->toContain('<strong>32 is your ceiling</strong>')
+        ->toContain('<strong>There is no Kuwait Airways cabin crew salary figure in its own job postings.</strong>')
+        ->toContain('<strong>no named recruitment agency</strong>')
+        ->toContain('<strong>There is no aviation or airline line in that published table.</strong>')
+        ->toContain('<strong>the work permit application is filed by the employer</strong>')
+        ->toContain('https://careers.kuwaitairways.com/jobs/Careers')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-oman-air-cabin-crew-jobs' => Database\Seeders\OmanAirCabinCrewJobsBlogSeeder::class,
+        'how-to-apply-for-emirates-cabin-crew-jobs-in-uae' => Database\Seeders\EmiratesCabinCrewJobsUaeBlogSeeder::class,
+        'receptionist-jobs-in-uae' => Database\Seeders\ReceptionistJobsUaeBlogSeeder::class,
+        'security-guard-jobs-in-uae' => Database\Seeders\SecurityGuardJobsUaeBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -4027,6 +4090,8 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-bhp-mining-jobs-in-australia',
         'how-to-apply-for-bmw-factory-jobs-in-germany',
         'how-to-apply-for-oman-air-cabin-crew-jobs',
+        'how-to-apply-for-kuwait-airways-cabin-crew-jobs',
+        'how-to-apply-for-ferrari-factory-jobs-in-italy',
         'how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia',
     ];
 

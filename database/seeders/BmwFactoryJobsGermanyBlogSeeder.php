@@ -322,6 +322,7 @@ JOBHTML;
     <li><a href="/blog/devops-engineer-jobs-in-germany">DevOps Engineer Jobs in Germany</a> &mdash; the skilled route where English is often enough.</li>
     <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the nearest alternative market and its sponsorship rules.</li>
     <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a> &mdash; another large employer with real no-experience pathways.</li>
+    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a> &mdash; the same question in Italy, where a quota decree decides it.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using BMW Group Careers and BMW plant pages, BMW Group press releases, IG Metall collective agreement terms, Federal Statistical Office earnings data and the official Make it in Germany information on visas. BMW does not publish pay for individual roles, and collective agreements and visa thresholds change. Always check the live posting and the official visa guidance before you commit.</p>
