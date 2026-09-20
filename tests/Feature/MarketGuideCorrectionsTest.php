@@ -3697,6 +3697,40 @@ it('fixes the US entry-level office draft pay, city and outlook claims with offi
     }
 });
 
+it('fixes the Walmart draft pay, age and expiring link claims with official sources', function () {
+    $this->seed(Database\Seeders\WalmartStoreAssociateJobsUsaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-walmart-store-associate-jobs-in-the-usa')->value('content');
+
+    expect($content)->toContain('<strong>$14 to $37</strong>')
+        ->toContain('<strong>$16 to $37</strong>')
+        ->toContain('<strong>More than $18.50</strong>')
+        ->toContain('<strong>top is not $19</strong>')
+        ->toContain('<strong>We could not find that figure anywhere on Walmart')
+        ->toContain('<strong>$7.25 an hour</strong>')
+        ->toContain('up to $1,000 a year')
+        ->toContain('up to 6% of eligible pay')
+        ->toContain('<strong>90 days</strong>')
+        ->toContain('$17.95')
+        ->toContain('<strong>growing, by 9%</strong>')
+        ->toContain('approximately 75% of its salaried store, club and supply chain leaders')
+        ->not->toContain('CP-126-9047')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'retail-associate-jobs-in-usa' => Database\Seeders\RetailAssociateJobsUsaBlogSeeder::class,
+        'cashier-jobs-in-usa' => Database\Seeders\CashierJobsUsaBlogSeeder::class,
+        'retail-jobs-in-usa' => Database\Seeders\RetailJobsUsaBlogSeeder::class,
+        'forklift-operator-jobs-in-usa' => Database\Seeders\ForkliftOperatorJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -3827,6 +3861,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-become-a-remote-virtual-assistant',
         'how-to-get-a-job-in-saudi-arabia-as-a-foreigner',
         'how-to-get-an-entry-level-office-job-with-no-experience',
+        'how-to-apply-for-walmart-store-associate-jobs-in-the-usa',
     ];
 
     foreach ($guides as $guide) {
