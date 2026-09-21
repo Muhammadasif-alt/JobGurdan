@@ -44,6 +44,39 @@
 @section('og_title', $pageTitle)
 @section('meta_description', $pageDesc)
 @section('canonical', $jobsFirst ? route('jobs.index') : route('jobs.index').'?page='.$jobsPage)
+
+@push('head')
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Jobs', 'item' => route('jobs.index')],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'CollectionPage',
+    'name' => 'Jobs on JobGader',
+    'description' => $pageDesc,
+    'url' => url()->current(),
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+    'mainEntity' => [
+        '@type' => 'ItemList',
+        'numberOfItems' => $jobs->total(),
+        'itemListElement' => collect($jobs->items())->values()->map(fn ($job, $i) => [
+            '@type' => 'ListItem',
+            'position' => $jobs->firstItem() + $i,
+            'url' => route('jobs.show', \Illuminate\Support\Str::slug($job->position.'-'.($job->location->name ?? ''))),
+            'name' => $job->position,
+        ])->all(),
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
 @section('meta_keywords', 'browse jobs, job listings, search jobs, apply jobs free, hiring now, jobs by location, jobs by category, visa sponsorship jobs')
 @section('content')
 

@@ -146,6 +146,17 @@ it('publishes breadcrumbs and a collection on the category page', function () {
         ->and(jsonLdOfType($html, 'CollectionPage'))->not->toBeNull();
 });
 
+it('publishes breadcrumbs and a job collection on the jobs index', function () {
+    $html = $this->get('/jobs')->assertOk()->getContent();
+
+    $collection = jsonLdOfType($html, 'CollectionPage');
+
+    expect(jsonLdOfType($html, 'BreadcrumbList'))->not->toBeNull()
+        ->and($collection)->not->toBeNull()
+        ->and($collection['mainEntity']['@type'])->toBe('ItemList')
+        ->and($collection['mainEntity']['itemListElement'][0]['url'])->toContain('/jobs/');
+});
+
 it('publishes breadcrumbs and a collection on the blog archive', function () {
     $html = $this->get('/blog')->assertOk()->getContent();
 
