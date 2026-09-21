@@ -333,6 +333,7 @@ JOBHTML;
     <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; customer-facing Gulf work with lower entry barriers.</li>
     <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; another sponsored Gulf route.</li>
     <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; where to build the hospitality experience airlines ask for.</li>
+    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; why Abu Dhabi ground jobs are advertised by a company called Velora.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Kuwait Airways' own website and recruitment portal, the wording of its own advertised cabin crew vacancies, the Public Authority of Manpower's published national-workforce percentages, and Kuwaiti press reporting of the airline's statement on fake job advertisements. Kuwait Airways does not publish cabin crew pay or a standing requirements policy, and campaign criteria change. Always follow the criteria in the live posting.</p>

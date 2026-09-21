@@ -4052,6 +4052,73 @@ it('drops the dead Tesco job-id links and benchmarks the flat rate against the a
     }
 });
 
+it('replaces the Qantas estimate-site pay table with the published enterprise agreement and splits ramp work from customer service', function () {
+    $this->seed(Database\Seeders\QantasGroundStaffJobsAustraliaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-qantas-ground-staff-jobs-in-australia')->value('content');
+
+    expect($content)->toContain('<strong>"Qantas ground staff" is not one job with one employer.</strong>')
+        ->toContain('<strong>customer facing team members at airports were not impacted or in scope.</strong>')
+        ->toContain('<strong>the real pay table is a public government document</strong>')
+        ->toContain('<strong>Enterprise agreements are public documents published by the Fair Work Commission</strong>')
+        ->toContain('<strong>Those are full-time annual bases, and Qantas states that all its airport customer service employees work part-time.</strong>')
+        ->toContain('<strong>without restrictions or sponsorship</strong>')
+        ->toContain('<strong>that route does not exist.</strong>')
+        ->toContain('<strong>repetitively lift items up to 32 kg</strong>')
+        ->toContain('$61,608')
+        ->not->toContain('Glassdoor,')
+        // The guide names "Qantas College" only to retire it, so assert the
+        // debunk rather than the absence of the phrase.
+        ->toContain('appear nowhere on Qantas')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-foreign-workers-can-get-a-job-in-australia' => Database\Seeders\ForeignWorkerJobsAustraliaBlogSeeder::class,
+        'visa-sponsorship-jobs-in-australia' => Database\Seeders\VisaSponsorshipJobsAustraliaBlogSeeder::class,
+        'how-to-apply-for-bhp-mining-jobs-in-australia' => Database\Seeders\BhpMiningJobsAustraliaBlogSeeder::class,
+        'no-experience-jobs-in-australia' => Database\Seeders\NoExperienceJobsAustraliaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-qantas-ground-staff-jobs-in-australia');
+    }
+});
+
+it('names Velora as the Abu Dhabi ground handler and publishes the UAE recruitment fee ban the draft omitted', function () {
+    $this->seed(Database\Seeders\EtihadAirportJobsUaeBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-etihad-airport-jobs-in-uae')->value('content');
+
+    expect($content)->toContain('<strong>Etihad Airways does not employ the ground staff at Abu Dhabi airport any more.</strong>')
+        ->toContain('<strong>Etihad Airport Services Ground</strong>')
+        ->toContain('<strong>5 November 2025, Etihad Airport Services rebranded as Velora</strong>')
+        ->toContain('<strong>Velora had only two vacancies open when we checked, and neither was a ramp or baggage role.</strong>')
+        ->toContain('<strong>there is not one baggage handler, ramp agent, loader or check-in agent vacancy.</strong>')
+        ->toContain('<strong>UAE Nationals Only</strong>')
+        ->toContain('<strong>Neither Velora nor Etihad publishes a salary for any airport or ground role.</strong>')
+        ->toContain('<strong>the employer applies for the work permit, not you.</strong>')
+        ->toContain('Article 6(4) of Federal Decree-Law No. 33 of 2021')
+        ->toContain('https://careers.velora.ae/search/')
+        ->not->toContain('etihad.com/en/careers')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-emirates-cabin-crew-jobs-in-uae' => Database\Seeders\EmiratesCabinCrewJobsUaeBlogSeeder::class,
+        'how-to-get-a-logistics-driver-job-in-the-uae' => Database\Seeders\LogisticsDriverJobsUaeBlogSeeder::class,
+        'how-to-apply-for-oman-air-cabin-crew-jobs' => Database\Seeders\OmanAirCabinCrewJobsBlogSeeder::class,
+        'how-to-apply-for-kuwait-airways-cabin-crew-jobs' => Database\Seeders\KuwaitAirwaysCabinCrewJobsBlogSeeder::class,
+        'how-to-apply-for-tesco-supermarket-jobs-in-uk' => Database\Seeders\TescoSupermarketJobsUkBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-etihad-airport-jobs-in-uae');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -4187,6 +4254,8 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-bhp-mining-jobs-in-australia',
         'how-to-apply-for-bmw-factory-jobs-in-germany',
         'how-to-apply-for-oman-air-cabin-crew-jobs',
+        'how-to-apply-for-etihad-airport-jobs-in-uae',
+        'how-to-apply-for-qantas-ground-staff-jobs-in-australia',
         'how-to-apply-for-tesco-supermarket-jobs-in-uk',
         'how-to-apply-for-amazon-fulfillment-center-jobs-in-usa',
         'how-to-apply-for-unilever-factory-jobs-in-indonesia',
