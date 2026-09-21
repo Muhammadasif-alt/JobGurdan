@@ -338,6 +338,7 @@ JOBHTML;
     <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; a certificated step up from stocking work.</li>
     <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; which US routes actually sponsor a visa.</li>
     <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a> &mdash; a large employer that does publish its starting pay.</li>
+    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a> &mdash; a supermarket that publishes its rate and pays it at every age.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Walmart's own corporate and careers pages for pay, benefits and hiring information, Bureau of Labor Statistics wage and projection data for occupational context, and US Department of Labor guidance for the youth employment and minimum wage rules. Pay ranges vary by store and state and change over time. Always check the live posting for the role and location you want.</p>

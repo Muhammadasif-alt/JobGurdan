@@ -4019,6 +4019,39 @@ it('scopes the Amazon pay rise to full-time roles and replaces the aggregator sa
     }
 });
 
+it('drops the dead Tesco job-id links and benchmarks the flat rate against the age-banded minimum wage', function () {
+    $this->seed(Database\Seeders\TescoSupermarketJobsUkBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-tesco-supermarket-jobs-in-uk')->value('content');
+
+    expect($content)->toContain('<strong>Tesco pays the same hourly rate to an 18-year-old as it does to a 40-year-old.</strong>')
+        ->toContain('<strong>All three returned 404 two days later.</strong>')
+        ->toContain('<strong>UK hourly-paid store vacancies are on apply.tesco-careers.com.</strong>')
+        ->toContain('<strong>Many Tesco store adverts require you to be over 18.</strong>')
+        ->toContain('<strong>The discount is not available on day one.</strong>')
+        ->toContain('<strong>no hourly rate at all for Customer Delivery Driver or Cafe roles</strong>')
+        ->toContain('<strong>Tesco publishes no statement, for or against, about sponsoring visas for hourly-paid store roles.</strong>')
+        ->toContain('London Location Allowance')
+        ->toContain('https://apply.tesco-careers.com/v2/job/search')
+        ->not->toContain('careers.tesco.com/en_GB/careers/JobDetail')
+        ->not->toContain('999 results')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'store-assistant-jobs-in-uk' => Database\Seeders\StoreAssistantJobsUkBlogSeeder::class,
+        'jobs-in-uk-for-foreigners' => Database\Seeders\JobsInUkForForeignersBlogSeeder::class,
+        'delivery-driver-jobs-in-uk' => Database\Seeders\DeliveryDriverJobsUkBlogSeeder::class,
+        'how-to-apply-for-walmart-store-associate-jobs-in-the-usa' => Database\Seeders\WalmartStoreAssociateJobsUsaBlogSeeder::class,
+        'how-to-apply-for-amazon-fulfillment-center-jobs-in-usa' => Database\Seeders\AmazonFulfillmentCenterJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -4154,6 +4187,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-bhp-mining-jobs-in-australia',
         'how-to-apply-for-bmw-factory-jobs-in-germany',
         'how-to-apply-for-oman-air-cabin-crew-jobs',
+        'how-to-apply-for-tesco-supermarket-jobs-in-uk',
         'how-to-apply-for-amazon-fulfillment-center-jobs-in-usa',
         'how-to-apply-for-unilever-factory-jobs-in-indonesia',
         'how-to-apply-for-kuwait-airways-cabin-crew-jobs',

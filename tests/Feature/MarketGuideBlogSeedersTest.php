@@ -12,6 +12,13 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'tesco supermarket uk' => [
+        'how-to-apply-for-tesco-supermarket-jobs-in-uk',
+        Database\Seeders\TescoSupermarketJobsUkBlogSeeder::class,
+        ['how-to-apply-for-tesco-supermarket-jobs-in-uk-store.jpg', 'how-to-apply-for-tesco-supermarket-jobs-in-uk-checkout.jpg'],
+        'https://apply.tesco-careers.com/v2/job/search',
+        'Tesco Colleague, Tesco Stores',
+    ],
     'amazon fulfillment usa' => [
         'how-to-apply-for-amazon-fulfillment-center-jobs-in-usa',
         Database\Seeders\AmazonFulfillmentCenterJobsUsaBlogSeeder::class,
@@ -881,16 +888,35 @@ it('carries no stray non-ASCII in the fields search engines index', function (st
 })->with('market guides');
 
 it('creates an aggregated listing that quotes no salary it cannot support', function (string $slug, string $seeder, array $inline, string $applyUrl, string $position) {
+    // Most of these employers publish no pay, so their listings must carry
+    // none. The exceptions are the ones that announce a rate themselves; each
+    // is named here with the figures its own source supports, so adding a
+    // salary to any other guide still fails.
+    $published = [
+        'how-to-apply-for-tesco-supermarket-jobs-in-uk' => ['GBP', '13.28', '14.55'],
+    ];
+
     $this->seed($seeder);
 
     $job = Job::where('position', 'like', $position.'%')->first();
 
     expect($job)->not->toBeNull()
         ->and($job->application_url)->toBe($applyUrl)
-        ->and($job->salary_minimum)->toBeNull()
-        ->and($job->salary_maximum)->toBeNull()
-        ->and($job->salary_currency)->toBeNull()
         ->and($job->description)->toContain('not by JobGader');
+
+    if (isset($published[$slug])) {
+        [$currency, $minimum, $maximum] = $published[$slug];
+
+        expect($job->salary_currency)->toBe($currency)
+            ->and($job->salary_minimum)->toEqual($minimum)
+            ->and($job->salary_maximum)->toEqual($maximum);
+
+        return;
+    }
+
+    expect($job->salary_minimum)->toBeNull()
+        ->and($job->salary_maximum)->toBeNull()
+        ->and($job->salary_currency)->toBeNull();
 })->with('market guides');
 
 it('files the listing under a plain country location rather than a city-and-country name', function (string $slug, string $seeder, array $inline, string $applyUrl, string $position) {
