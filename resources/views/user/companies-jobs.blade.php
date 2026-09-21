@@ -12,7 +12,28 @@
     $coPlaces = collect($jobs->items())->map(fn ($job) => $job->location->name ?? null)
         ->filter()->unique()->take(3)->implode(', ');
 
+    /*
+     * Employer names here run long ("International Recruitment and Staffing
+     * Solutions Group Limited"), so the title is built in three steps: the
+     * descriptive form, then the plain form, then the plain form with the name
+     * itself clipped at a word boundary. job-detail.blade.php trims the
+     * employer name the same way for the same reason.
+     */
+    $coSuffix = ' Jobs'.($coFirst ? '' : ', Page '.$coPage).' | JobGader';
     $coTitle = $company->name.' Jobs'.($coFirst ? '' : ', Page '.$coPage).' — Openings & How to Apply | JobGader';
+
+    if (mb_strlen($coTitle) > 60) {
+        $coTitle = $company->name.$coSuffix;
+    }
+
+    if (mb_strlen($coTitle) > 60) {
+        $coNameBudget = 60 - mb_strlen($coSuffix);
+        $coClipped = rtrim(mb_substr($company->name, 0, $coNameBudget));
+        if (($coBreak = mb_strrpos($coClipped, ' ')) !== false) {
+            $coClipped = rtrim(mb_substr($coClipped, 0, $coBreak), " ,-&");
+        }
+        $coTitle = $coClipped.$coSuffix;
+    }
     $coDesc = $coCount > 0
         ? $coCount.' open '.$company->name.' '.($coCount === 1 ? 'role' : 'roles')
             .($coPlaces !== '' ? ' in '.$coPlaces : '').'. See what each listing asks for and apply direct on JobGader.'

@@ -18,7 +18,10 @@
     $blogPage = $moreNews->currentPage();
     $blogFirst = $blogPage === 1;
     if (! $blogFirst) {
-        $blogTitle = preg_replace('/ \| JobGader$/', ', Page '.$blogPage.' | JobGader', $blogTitle);
+        // The page 1 title plus ", Page N" overflows what Google renders, so
+        // deeper pages use the plain stem.
+        $blogTitle = ($blogCat !== '' ? $blogCatLbl.' Articles' : 'Career Advice')
+            .', Page '.$blogPage.' | JobGader';
     }
 @endphp
 @section('title', $blogTitle)

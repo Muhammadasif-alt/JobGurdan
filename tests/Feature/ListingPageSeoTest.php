@@ -161,6 +161,30 @@ it('keeps every category title inside the length Google renders', function () {
     });
 });
 
+it('keeps company titles inside the length Google renders even with a long employer name', function () {
+    $long = Advertiser::query()->create([
+        'name' => 'International Recruitment and Staffing Solutions Group Limited',
+        'type' => 'agency',
+    ]);
+
+    foreach ([$this->company->id, $long->id] as $id) {
+        $title = titleOf($this->get('/companies/'.$id)->assertOk()->getContent());
+
+        expect(mb_strlen((string) $title))->toBeLessThanOrEqual(60, $title);
+    }
+});
+
+it('keeps paginated listing titles inside the length Google renders', function (string $path) {
+    $title = titleOf($this->get($path.'?page=2')->assertOk()->getContent());
+
+    expect($title)->toContain('Page 2')
+        ->and(mb_strlen((string) $title))->toBeLessThanOrEqual(60, $title);
+})->with([
+    'jobs index' => '/jobs',
+    'blog archive' => '/blog',
+    'companies index' => '/companies',
+]);
+
 it('points a paginated listing at itself rather than at page one', function (string $path) {
     $html = $this->get($path.'?page=2')->assertOk()->getContent();
 

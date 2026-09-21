@@ -29,7 +29,15 @@
     $jobsPage = $jobs->currentPage();
     $jobsFirst = $jobsPage === 1;
     if (! $jobsFirst) {
-        $pageTitle = preg_replace('/ \| JobGader$/', ', Page '.$jobsPage.' | JobGader', $pageTitle);
+        // Page 1's titles carry a marketing tail that pushes past 60 characters
+        // once ", Page N" is added, so deeper pages get the plain stem instead.
+        $stem = match (true) {
+            $posLabel !== '' && $locLabel !== '' => "{$posLabel} Jobs in {$locLabel}",
+            $posLabel !== '' => "{$posLabel} Jobs",
+            $locLabel !== '' => "Jobs in {$locLabel}",
+            default => 'Browse Jobs',
+        };
+        $pageTitle = $stem.', Page '.$jobsPage.' | JobGader';
     }
 @endphp
 @section('title', $pageTitle)
