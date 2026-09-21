@@ -9,14 +9,58 @@
         $blogTitle = 'Career Advice — Employment & Business News | JobGader';
         $blogDesc = 'Read the latest career advice, recruitment insights, salary guides, remote work tips and U.S. industry trends. Expert articles to help you land your next job faster.';
     }
+
+    /*
+     * The canonical was pinned to page 1, so every deeper page of the archive
+     * was declared a duplicate and the older guides on it were not being
+     * crawled from here. Each page now names and canonicalises itself.
+     */
+    $blogPage = $moreNews->currentPage();
+    $blogFirst = $blogPage === 1;
+    if (! $blogFirst) {
+        $blogTitle = preg_replace('/ \| JobGader$/', ', Page '.$blogPage.' | JobGader', $blogTitle);
+    }
 @endphp
 @section('title', $blogTitle)
 @section('meta_description', $blogDesc)
 @section('meta_keywords', 'career advice, recruitment insights, employment news, business news, resume writing, interview tips, salary guide usa, remote work tips')
-@section('og_title', 'Career Advice & Employment News | JobGader')
+@section('og_title', $blogTitle)
 @section('og_description', 'Career advice, recruitment insights and U.S. employment news — everything you need to advance your career in the United States.')
 @section('og_image', asset('public/user/images/blog-compact-post-01.jpg'))
-@section('canonical', route('blog.index'))
+@section('canonical', $blogFirst ? route('blog.index') : route('blog.index').'?page='.$blogPage)
+
+@push('head')
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog', 'item' => route('blog.index')],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'CollectionPage',
+    'name' => 'JobGader career guides',
+    'description' => $blogDesc,
+    'url' => url()->current(),
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+    'mainEntity' => [
+        '@type' => 'ItemList',
+        'numberOfItems' => $moreNews->total(),
+        'itemListElement' => collect($moreNews->items())->values()->map(fn ($post, $i) => [
+            '@type' => 'ListItem',
+            'position' => $moreNews->firstItem() + $i,
+            'url' => route('blog.show', $post->slug),
+            'name' => $post->title,
+        ])->all(),
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
 @section('content')
 
 @php

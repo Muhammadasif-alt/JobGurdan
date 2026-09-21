@@ -1,6 +1,47 @@
 @extends('user.layouts.master')
-@section('title', 'Employers Hiring on JobGader — Browse Companies')
+@php
+    $coIdxPage = $companies->currentPage();
+    $coIdxFirst = $coIdxPage === 1;
+    $coIdxTitle = $coIdxFirst
+        ? 'Employers Hiring on JobGader — Browse Companies'
+        : 'Employers Hiring on JobGader, Page '.$coIdxPage;
+@endphp
+@section('title', $coIdxTitle)
+@section('og_title', $coIdxTitle)
 @section('meta_description', 'Employers and agencies listing roles on JobGader across '.$coverage->shortList().'. Open one to see its openings and apply direct.')
+@section('canonical', $coIdxFirst ? route('jobs.companies') : route('jobs.companies').'?page='.$coIdxPage)
+
+@push('head')
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Companies', 'item' => route('jobs.companies')],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'CollectionPage',
+    'name' => 'Employers hiring on JobGader',
+    'url' => url()->current(),
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+    'mainEntity' => [
+        '@type' => 'ItemList',
+        'numberOfItems' => $companies->total(),
+        'itemListElement' => collect($companies->items())->values()->map(fn ($company, $i) => [
+            '@type' => 'ListItem',
+            'position' => $companies->firstItem() + $i,
+            'url' => route('companies.show', $company->id),
+            'name' => $company->name,
+        ])->all(),
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
 @section('content')
 
 <style>

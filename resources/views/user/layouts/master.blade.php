@@ -9,9 +9,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from jobword.utouchdesign.com/jobword_ltr/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 06 Apr 2025 10:25:57 GMT -->
 
-<!-- Mirrored from www.jobword.flarza.com/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Oct 2025 12:15:52 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -35,6 +33,13 @@
         $metaKeywords =
             trim($__env->yieldContent('meta_keywords')) ?:
             'jobs, job search, visa sponsorship jobs, jobs for foreigners, employment, careers, job listings, hiring, job board';
+
+        // og:title used to fall back to one hardcoded slogan, so every page
+        // that did not set it shared a single title when shared or previewed.
+        // A page's own <title> is always the better default.
+        $ogTitle =
+            trim($__env->yieldContent('og_title')) ?:
+            (trim($__env->yieldContent('title')) ?: 'JobGader - Find Your Dream Job Today');
     @endphp
 
     <meta name="description" content="{{ $metaDescription }}">
@@ -46,9 +51,16 @@
     <meta name="keywords" content="@yield('meta_keywords', $metaKeywords)">
     <link rel="canonical" href="@yield('canonical', url()->current())">
     @stack('meta')
-    <meta property="og:title" content="@yield('og_title', 'JobGader - Find Your Dream Job Today')">
+    <meta property="og:title" content="{{ $ogTitle }}">
     <meta property="og:description" content="@yield('og_description', $metaDescription)">
     <meta property="og:image" content="@yield('og_image', asset('public/user/images/home-background-03.jpg'))">
+    <meta property="og:type" content="@yield('og_type', 'website')">
+    <meta property="og:url" content="@yield('canonical', url()->current())">
+    <meta property="og:site_name" content="JobGader">
+    <meta name="twitter:card" content="@yield('twitter_card', 'summary_large_image')">
+    <meta name="twitter:title" content="{{ $ogTitle }}">
+    <meta name="twitter:description" content="@yield('og_description', $metaDescription)">
+    <meta name="twitter:image" content="@yield('og_image', asset('public/user/images/home-background-03.jpg'))">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Jobs Portal')</title>
 
@@ -2275,10 +2287,12 @@
             </style>
         @endif
 
+    {{-- Page-level scripts. Must stay after the deferred vendor bundle above:
+         these blocks use jQuery plugins and run on DOMContentLoaded. --}}
+    @stack('scripts')
+
 </body>
 
-<!-- Mirrored from jobword.utouchdesign.com/jobword_ltr/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 06 Apr 2025 10:26:10 GMT -->
 
-<!-- Mirrored from www.jobword.flarza.com/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Oct 2025 12:16:19 GMT -->
 
 </html>

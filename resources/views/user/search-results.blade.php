@@ -17,9 +17,25 @@
         $srTitle = 'Job Search Results — Find Verified U.S. Jobs | JobGader';
         $srDesc = 'Browse matched job results across the USA. Filter by category, location and salary — apply free with one click on JobGader.';
     }
+
+    /*
+     * /search accepts twelve filter parameters and is linked from the footer of
+     * every page, so Googlebot could walk an unbounded set of permutations that
+     * all canonicalise back to a bare /search. A filtered result set is a user
+     * view, not a page worth indexing: it stays crawlable so the job links are
+     * still discovered, but it is kept out of the index. This mirrors what the
+     * scholarships index already does with its own filters.
+     */
+    $srFiltered = collect(request()->query())
+        ->except('page')
+        ->reject(fn ($value) => $value === null || $value === '' || $value === [])
+        ->isNotEmpty();
 @endphp
 @section('title', $srTitle)
 @section('meta_description', $srDesc)
+@section('og_title', $srTitle)
+@section('meta_robots', $srFiltered ? 'noindex, follow' : 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1')
+@section('canonical', route('jobs.search'))
 
 @section('content')
 
@@ -389,7 +405,7 @@
 
 @push('scripts')
 <script>
-    $(document).ready(function() {
+    document.addEventListener('DOMContentLoaded', function() {
         $('.select2').select2({
             width: '100%',
             placeholder: $(this).data('placeholder')

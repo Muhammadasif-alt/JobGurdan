@@ -1,7 +1,57 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in '.$category->name.' — Browse Verified ' . $category->name . ' Roles in the USA')
+@php
+    /*
+     * The old title repeated the category name twice and claimed "in the USA",
+     * which ran every one of these past 60 characters — Google was truncating
+     * all of them — and was wrong now that the board lists other countries.
+     * The short form is used whenever the counted form would still overflow.
+     */
+    $catPage = $jobs->currentPage();
+    $catFirst = $catPage === 1;
+    $catSuffix = $catFirst ? '' : ', Page '.$catPage;
+
+    $catTitle = $category->name.' Jobs'.$catSuffix.' — '.number_format($jobs->total()).' Openings | JobGader';
+    if (mb_strlen($catTitle) > 60) {
+        $catTitle = $category->name.' Jobs'.$catSuffix.' | JobGader';
+    }
+@endphp
+@section('title', $catTitle)
+@section('og_title', $catTitle)
 @section('meta_description', 'Find verified ' . $category->name . ' jobs across ' . $coverage->shortList() . '. Browse ' . $jobs->total() . ' active openings, filter by location and job type, and apply with one click on JobGader.')
-@section('canonical', route('jobs.category', $category->slug))
+@section('canonical', route('jobs.category', $category->slug).($catFirst ? '' : '?page='.$catPage))
+
+@push('head')
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Categories', 'item' => route('jobs.categories')],
+        ['@type' => 'ListItem', 'position' => 3, 'name' => $category->name, 'item' => route('jobs.category', $category->slug)],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'CollectionPage',
+    'name' => $category->name.' jobs',
+    'url' => url()->current(),
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+    'mainEntity' => [
+        '@type' => 'ItemList',
+        'numberOfItems' => $jobs->total(),
+        'itemListElement' => collect($jobs->items())->values()->map(fn ($job, $i) => [
+            '@type' => 'ListItem',
+            'position' => $jobs->firstItem() + $i,
+            'url' => route('jobs.show', \Illuminate\Support\Str::slug($job->position.'-'.($job->location->name ?? ''))),
+            'name' => $job->position,
+        ])->all(),
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
 
 @section('content')
 

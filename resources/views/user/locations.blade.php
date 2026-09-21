@@ -2,6 +2,39 @@
 @section('title', 'Browse Jobs by Location | JobGader')
 @section('meta_description', 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . '+ verified jobs across ' . number_format($heroStats['total_states'] ?? 50) . ' U.S. states. Find local opportunities in your city, area, or ZIP — apply free on JobGader.')
 @section('meta_keywords', 'jobs by location usa, jobs near me, find jobs by city, browse jobs by state, jobs by zip code, local jobs america')
+@section('canonical', $locations->currentPage() === 1 ? route('jobs.locations') : route('jobs.locations').'?page='.$locations->currentPage())
+
+@push('head')
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Locations', 'item' => route('jobs.locations')],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'CollectionPage',
+    'name' => 'Jobs by location on JobGader',
+    'url' => url()->current(),
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+    'mainEntity' => [
+        '@type' => 'ItemList',
+        'numberOfItems' => $locations->total(),
+        'itemListElement' => collect($locations->items())->values()->map(fn ($location, $i) => [
+            '@type' => 'ListItem',
+            'position' => $locations->firstItem() + $i,
+            'url' => route('jobs.location', $location->id),
+            'name' => $location->name,
+        ])->all(),
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
 
 @section('content')
 

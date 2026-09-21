@@ -1,5 +1,67 @@
 @extends('user.layouts.master')
-@section('title', $company->name . ' - Jobs')
+@php
+    /*
+     * Every company page shipped without a description, so all 150+ of them
+     * shared the site-wide fallback and read as duplicates to Google. The
+     * description is built from the employer's own listing counts, and the
+     * canonical follows the paginator instead of always naming page 1.
+     */
+    $coPage = $jobs->currentPage();
+    $coFirst = $coPage === 1;
+    $coCount = $jobs->total();
+    $coPlaces = collect($jobs->items())->map(fn ($job) => $job->location->name ?? null)
+        ->filter()->unique()->take(3)->implode(', ');
+
+    $coTitle = $company->name.' Jobs'.($coFirst ? '' : ', Page '.$coPage).' — Openings & How to Apply | JobGader';
+    $coDesc = $coCount > 0
+        ? $coCount.' open '.$company->name.' '.($coCount === 1 ? 'role' : 'roles')
+            .($coPlaces !== '' ? ' in '.$coPlaces : '').'. See what each listing asks for and apply direct on JobGader.'
+        : 'Openings posted by '.$company->name.' on JobGader. See what the employer asks for and apply direct, with no account needed.';
+@endphp
+@section('title', $coTitle)
+@section('og_title', $coTitle)
+@section('meta_description', $coDesc)
+@section('canonical', route('companies.show', $company->id).($coFirst ? '' : '?page='.$coPage))
+
+@push('head')
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Companies', 'item' => route('jobs.companies')],
+        ['@type' => 'ListItem', 'position' => 3, 'name' => $company->name, 'item' => route('companies.show', $company->id)],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'CollectionPage',
+    'name' => $company->name.' jobs',
+    'description' => $coDesc,
+    'url' => url()->current(),
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+    'about' => [
+        '@type' => 'Organization',
+        'name' => $company->name,
+        'logo' => $company->logo_url,
+        'url' => route('companies.show', $company->id),
+    ],
+    'mainEntity' => [
+        '@type' => 'ItemList',
+        'numberOfItems' => $coCount,
+        'itemListElement' => collect($jobs->items())->values()->map(fn ($job, $i) => [
+            '@type' => 'ListItem',
+            'position' => $jobs->firstItem() + $i,
+            'url' => route('jobs.show', \Illuminate\Support\Str::slug($job->position.'-'.($job->location->name ?? ''))),
+            'name' => $job->position,
+        ])->all(),
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
 
 @section('content')
 <style>
@@ -674,7 +736,7 @@ html.dark-mode .cj-float-badge .text span { color: var(--site-muted) !important;
 @push('scripts')
 <!-- Initialize Select Picker -->
 <script>
-    $(document).ready(function() {
+    document.addEventListener('DOMContentLoaded', function() {
         $('.selectpicker').selectpicker();
     });
 </script>

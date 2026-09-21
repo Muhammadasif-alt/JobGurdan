@@ -2,6 +2,40 @@
 @section('title', 'Job Categories — Browse Jobs by Industry | JobGader')
 @section('meta_description', 'Browse ' . number_format($heroStats['total_categories'] ?? 0) . '+ job categories on JobGader. Find healthcare, IT, construction, retail, sales, education, finance and more — verified U.S. jobs across every industry.')
 @section('meta_keywords', 'job categories usa, jobs by industry, healthcare jobs, IT jobs, construction jobs, retail jobs, sales jobs, education jobs, browse jobs by category')
+@section('canonical', $categories->currentPage() === 1 ? route('jobs.categories') : route('jobs.categories').'?page='.$categories->currentPage())
+
+@push('head')
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Categories', 'item' => route('jobs.categories')],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'CollectionPage',
+    'name' => 'Job categories on JobGader',
+    'url' => url()->current(),
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+    'mainEntity' => [
+        '@type' => 'ItemList',
+        'numberOfItems' => $categories->total(),
+        'itemListElement' => collect($categories->items())->values()->map(fn ($category, $i) => [
+            '@type' => 'ListItem',
+            'position' => $categories->firstItem() + $i,
+            'url' => route('jobs.category', $category->slug),
+            'name' => $category->name,
+        ])->all(),
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
+
 @section('content')
 
 <style>

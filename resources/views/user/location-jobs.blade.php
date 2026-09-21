@@ -1,5 +1,62 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in ' . $location->name . ' | ' . config('app.name'))
+@php
+    /*
+     * Page 2 and beyond used to inherit page 1's title and the site-wide
+     * fallback description, so Google saw every location page as the same
+     * document. Each page now names itself and points its canonical at
+     * itself, which is what Google asks for on paginated listings.
+     */
+    $locPage = $jobs->currentPage();
+    $locFirst = $locPage === 1;
+    $locArea = trim((string) ($location->area ?? ''));
+    $locWhere = ($locArea !== '' && $locArea !== $location->name && stripos($locArea, 'nationwide') === false)
+        ? $locArea.', '.$location->name
+        : $location->name;
+
+    $locTitle = 'Jobs in '.$location->name.($locFirst ? '' : ', Page '.$locPage).' | JobGader';
+    $locDesc = 'Browse '.number_format($jobs->total()).' verified job openings in '.$locWhere
+        .'. Filter by category and job type, see what each employer asks for, and apply free on JobGader.';
+@endphp
+@section('title', $locTitle)
+@section('og_title', $locTitle)
+@section('meta_description', $locDesc)
+{{-- Built from the route rather than $jobs->url(): the paginator appends the
+     active filters, and those belong outside the canonical. --}}
+@section('canonical', route('jobs.location', $location->id).($locFirst ? '' : '?page='.$locPage))
+
+@push('head')
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Locations', 'item' => route('jobs.locations')],
+        ['@type' => 'ListItem', 'position' => 3, 'name' => $location->name, 'item' => route('jobs.location', $location->id)],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'CollectionPage',
+    'name' => 'Jobs in '.$location->name,
+    'description' => $locDesc,
+    'url' => url()->current(),
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+    'mainEntity' => [
+        '@type' => 'ItemList',
+        'numberOfItems' => $jobs->total(),
+        'itemListElement' => collect($jobs->items())->values()->map(fn ($job, $i) => [
+            '@type' => 'ListItem',
+            'position' => $jobs->firstItem() + $i,
+            'url' => route('jobs.show', \Illuminate\Support\Str::slug($job->position.'-'.($job->location->name ?? ''))),
+            'name' => $job->position,
+        ])->all(),
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
 
 @section('content')
 <style>
@@ -367,7 +424,7 @@
 
 @push('scripts')
 <script>
-    $(document).ready(function() {
+    document.addEventListener('DOMContentLoaded', function() {
         // Initialize select picker
         $('.selectpicker').selectpicker();
 
@@ -375,7 +432,7 @@
         $('.selectpicker').on('changed.bs.select', function (e) {
             const locationId = $(this).val();
             if (locationId) {
-                window.location.href = "{{ url('jobs/location') }}/" + locationId;
+                window.location.href = "{{ url('location') }}/" + locationId;
             }
         });
 

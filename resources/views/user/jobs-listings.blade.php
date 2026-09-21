@@ -17,9 +17,25 @@
         $pageTitle = 'Browse Jobs — Find Verified Listings, Apply Free | JobGader';
         $pageDesc = 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . ' hand-checked jobs across ' . $coverage->shortList() . '. Filter by location or category. Free to apply, no account needed.';
     }
+
+    /*
+     * url()->current() drops the query string, so every paginated page was
+     * canonicalising to page 1 and telling Google the deeper pages were
+     * duplicates — the listings past page 1 were not being crawled. The page
+     * number is the one parameter that belongs in the canonical; the search
+     * filters stay out of it deliberately, so filter permutations still fold
+     * back into /jobs instead of bloating the index.
+     */
+    $jobsPage = $jobs->currentPage();
+    $jobsFirst = $jobsPage === 1;
+    if (! $jobsFirst) {
+        $pageTitle = preg_replace('/ \| JobGader$/', ', Page '.$jobsPage.' | JobGader', $pageTitle);
+    }
 @endphp
 @section('title', $pageTitle)
+@section('og_title', $pageTitle)
 @section('meta_description', $pageDesc)
+@section('canonical', $jobsFirst ? route('jobs.index') : route('jobs.index').'?page='.$jobsPage)
 @section('meta_keywords', 'browse jobs, job listings, search jobs, apply jobs free, hiring now, jobs by location, jobs by category, visa sponsorship jobs')
 @section('content')
 

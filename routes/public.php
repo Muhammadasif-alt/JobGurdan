@@ -247,8 +247,12 @@ Route::get('/sitemap-core.xml', function () use ($sitemapUrl, $sitemapResponse) 
         $inner .= $sitemapUrl(url('/jobs-in-'.$s), 'weekly', '0.7');
     }
 
+    // Keep this in step with the Route::view landing pages above — construction,
+    // IT, software-developer and data-entry were live but unlisted here, so they
+    // were only reachable by internal link.
     $industries = ['warehouse-jobs', 'healthcare-jobs', 'truck-driver-jobs', 'customer-service-jobs',
         'marketing-jobs', 'accounting-jobs', 'retail-jobs', 'security-guard-jobs',
+        'construction-jobs', 'it-jobs', 'software-developer-jobs', 'data-entry-jobs',
         'remote-jobs-usa', 'work-from-home-jobs', 'online-jobs-usa',
         'part-time-remote-jobs', 'entry-level-remote-jobs',
         'entry-level-jobs', 'no-experience-jobs', 'graduate-jobs', 'internship-jobs'];
@@ -301,7 +305,9 @@ Route::get('/sitemap-companies.xml', function () use ($sitemapUrl, $sitemapRespo
 Route::get('/sitemap-blog.xml', function () use ($sitemapUrl, $sitemapResponse) {
     $inner = '';
     try {
-        foreach (\App\Models\Blog::query()->whereNotNull('slug')->get(['slug', 'updated_at']) as $b) {
+        // BlogController@show aborts on anything that is not published, so an
+        // unfiltered sitemap was handing Google URLs that 404.
+        foreach (\App\Models\Blog::query()->where('status', 'published')->whereNotNull('slug')->get(['slug', 'updated_at']) as $b) {
             $inner .= $sitemapUrl(url('/blog/'.$b->slug), 'monthly', '0.5',
                 optional($b->updated_at)->toDateString());
         }
@@ -331,8 +337,14 @@ Route::get('/sitemap-jobs-{chunk}.xml', function (int $chunk) use ($sitemapUrl, 
     abort_if($chunk < 1, 404);
     $inner = '';
     try {
+        // Mirror Job::scopeActive(). ExpireOldJobs flips jobs to 'expired' at 30
+        // days and every listing filters them out, so sitemapping them was
+        // pointing Google at pages the site itself treats as gone.
         \DB::table('jobs')
             ->leftJoin('locations', 'jobs.location_id', '=', 'locations.id')
+            ->where(function ($q) {
+                $q->where('jobs.status', 'active')->orWhereNull('jobs.status');
+            })
             ->select('jobs.id', 'jobs.position', 'locations.name as location_name', 'jobs.updated_at')
             ->orderBy('jobs.id', 'desc')
             ->skip(($chunk - 1) * $jobsPerSitemap)
