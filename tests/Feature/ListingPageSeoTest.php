@@ -185,6 +185,18 @@ it('keeps paginated listing titles inside the length Google renders', function (
     'companies index' => '/companies',
 ]);
 
+it('keeps job titles inside the length Google renders however long the position is', function () {
+    $this->seed(Database\Seeders\KuwaitAirwaysCabinCrewJobsBlogSeeder::class);
+    $this->seed(Database\Seeders\AramcoEngineeringJobsSaudiBlogSeeder::class);
+
+    Job::query()->with('location')->get()->each(function (Job $job) {
+        $slug = Str::slug($job->position.'-'.($job->location->name ?? ''));
+        $title = titleOf($this->get('/jobs/'.$slug)->assertOk()->getContent());
+
+        expect(mb_strlen((string) $title))->toBeLessThanOrEqual(60, $job->position.' => '.$title);
+    });
+});
+
 it('points a paginated listing at itself rather than at page one', function (string $path) {
     $html = $this->get($path.'?page=2')->assertOk()->getContent();
 

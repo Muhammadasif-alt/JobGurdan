@@ -2,12 +2,40 @@
 @php
     $headlineRole = trim(explode('—', $job->position)[0]);
     $jobPlace = $job->location->name ?? null;
-    $jobHeadline = $jobPlace ? $headlineRole.' Jobs in '.$jobPlace : $headlineRole;
-    $withEmployer = $headlineRole.' at '.($job->advertiser->name ?? '').($jobPlace ? ' — '.$jobPlace : '');
 
-    // Name the employer only when it still leaves a title Google will show whole.
-    if ($job->advertiser?->name && mb_strlen($withEmployer) <= 48) {
-        $jobHeadline = $withEmployer;
+    /*
+     * ' | JobGader' takes eleven of the sixty characters Google renders, so the
+     * headline itself has to fit in forty-nine. Aggregated listings put the
+     * role, the employer and the place into one comma-separated position
+     * ("Factory Operator, Ferrari, Maranello Based"), which overflows on its
+     * own — so the title steps down through progressively shorter forms and
+     * takes the first that fits, rather than being truncated mid-phrase.
+     */
+    $headlineBudget = 49;
+    $shortRole = trim(explode(',', $headlineRole)[0]);
+
+    $candidates = [];
+    if ($job->advertiser?->name) {
+        $candidates[] = $headlineRole.' at '.$job->advertiser->name.($jobPlace ? ' — '.$jobPlace : '');
+    }
+    $candidates[] = $jobPlace ? $headlineRole.' Jobs in '.$jobPlace : $headlineRole;
+    $candidates[] = $jobPlace ? $shortRole.' Jobs in '.$jobPlace : $shortRole;
+    $candidates[] = $shortRole.' Jobs';
+
+    $jobHeadline = null;
+    foreach ($candidates as $candidate) {
+        if (mb_strlen($candidate) <= $headlineBudget) {
+            $jobHeadline = $candidate;
+            break;
+        }
+    }
+
+    if ($jobHeadline === null) {
+        $clipped = rtrim(mb_substr($shortRole, 0, $headlineBudget));
+        if (($break = mb_strrpos($clipped, ' ')) !== false) {
+            $clipped = rtrim(mb_substr($clipped, 0, $break), " ,-&");
+        }
+        $jobHeadline = $clipped;
     }
 @endphp
 @section('title', $jobHeadline . ' | JobGader')
