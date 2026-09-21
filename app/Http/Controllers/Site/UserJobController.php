@@ -575,10 +575,13 @@ class UserJobController extends Controller
             ];
         });
 
-        $topStates = Cache::remember('locationsPage.topStates', 600, function () {
+        // location_id carries the canonical /location/{id} page for each name, so
+        // the cards can link there instead of at a filtered /search?location= URL
+        // that is noindex. Names repeat across rows, so take the lowest id.
+        $topStates = Cache::remember('locationsPage.topStates.v2', 600, function () {
             return DB::table('jobs')
                 ->join('locations', 'jobs.location_id', '=', 'locations.id')
-                ->select('locations.name', DB::raw('COUNT(jobs.id) as job_count'))
+                ->select('locations.name', DB::raw('MIN(locations.id) as location_id'), DB::raw('COUNT(jobs.id) as job_count'))
                 ->groupBy('locations.name')
                 ->orderByDesc('job_count')
                 ->take(6)

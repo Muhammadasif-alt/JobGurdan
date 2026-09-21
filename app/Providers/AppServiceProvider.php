@@ -56,13 +56,16 @@ class AppServiceProvider extends ServiceProvider
                     ->get();
             });
 
-            $footerStates = Cache::remember('footer.states', 600, function () {
+            // location_id lets the footer link the canonical /location/{id} page
+            // on every page of the site, rather than a /search?location= URL
+            // that is noindex once filtered. Names repeat, so take the lowest id.
+            $footerStates = Cache::remember('footer.states.v2', 600, function () {
                 return DB::table('locations')
                     ->join('jobs', 'jobs.location_id', '=', 'locations.id')
                     ->where(function ($q) {
                         $q->where('jobs.status', 'active')->orWhereNull('jobs.status');
                     })
-                    ->select('locations.name', DB::raw('COUNT(jobs.id) as job_count'))
+                    ->select('locations.name', DB::raw('MIN(locations.id) as location_id'), DB::raw('COUNT(jobs.id) as job_count'))
                     ->groupBy('locations.name')
                     ->orderByDesc('job_count')
                     ->take(8)

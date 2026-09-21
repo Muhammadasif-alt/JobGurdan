@@ -685,9 +685,11 @@
             @forelse($locations as $location)
                 @php
                     $cardImg = $locationImages[crc32($location->name) % count($locationImages)] ?? $defaultImage;
-                    $searchParams = ['location' => $location->name];
                 @endphp
-                <a href="{{ route('jobs.search', $searchParams) }}"
+                {{-- Links the canonical /location/{id} page. These cards used to
+                     point at /search?location=, which is noindex once filtered,
+                     so the pages in the sitemap were left with no links at all. --}}
+                <a href="{{ route('jobs.location', $location->id) }}"
                    class="loc-card"
                    style="background-image: url('{{ asset($cardImg) }}');"
                    title="View jobs in {{ $location->name }}">
@@ -725,7 +727,7 @@
 
         <div class="top-states-grid">
             @foreach($topStates as $idx => $state)
-                <a href="{{ route('jobs.index', ['location' => $state->name]) }}" class="top-state-card"
+                <a href="{{ ($state->location_id ?? null) ? route('jobs.location', $state->location_id) : route('jobs.index', ['location' => $state->name]) }}" class="top-state-card"
                    title="Browse jobs in {{ $state->name }}">
                     <div class="rank">#{{ $idx + 1 }}</div>
                     <div class="info">

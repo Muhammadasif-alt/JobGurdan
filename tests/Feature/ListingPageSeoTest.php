@@ -236,6 +236,26 @@ it('keeps active filters out of the canonical so facets do not become their own 
         ->and($canonical)->not->toContain('sort');
 });
 
+it('links the canonical location pages rather than filtered search urls', function () {
+    // The location cards and the site-wide footer pointed at /search?location=
+    // and /jobs?location=, both of which fold away, leaving the /location/{id}
+    // pages in the sitemap with no internal links pointing at them at all.
+    $html = $this->get('/locations')->assertOk()->getContent();
+
+    expect($html)->toContain('/location/'.$this->location->id)
+        ->and($html)->not->toContain('search?location=')
+        ->and($html)->not->toContain('jobs?location=');
+});
+
+it('links a canonical location page from the footer of every page', function () {
+    foreach (['/', '/jobs', '/blog'] as $path) {
+        $html = $this->get($path)->assertOk()->getContent();
+
+        expect($html)->toContain('/location/'.$this->location->id, $path)
+            ->and($html)->not->toContain('search?location=', $path);
+    }
+});
+
 it('keeps filtered search results out of the index while still following links', function () {
     $html = $this->get('/search?keywords=engineer&location=Italy')->assertOk()->getContent();
 

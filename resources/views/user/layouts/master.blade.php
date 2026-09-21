@@ -1754,7 +1754,7 @@
                                                 class="icon-feather-map-pin"></i> <span><strong>Browse All Locations</strong></span></a>
                                     </li>
                                     @foreach(($footerStates ?? collect()) as $state)
-                                        <li><a href="{{ route('jobs.search', ['location' => $state->name]) }}"><i
+                                        <li><a href="{{ ($state->location_id ?? null) ? route('jobs.location', $state->location_id) : route('jobs.search', ['location' => $state->name]) }}"><i
                                                     class="icon-feather-chevron-right"></i> <span>Jobs in {{ $state->name }}</span></a>
                                         </li>
                                     @endforeach
