@@ -12,6 +12,20 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'amazon fulfillment usa' => [
+        'how-to-apply-for-amazon-fulfillment-center-jobs-in-usa',
+        Database\Seeders\AmazonFulfillmentCenterJobsUsaBlogSeeder::class,
+        ['how-to-apply-for-amazon-fulfillment-center-jobs-in-usa-associate.jpg', 'how-to-apply-for-amazon-fulfillment-center-jobs-in-usa-scan.jpg'],
+        'https://amazon.jobs/content/en/job-categories/fulfillment-center-warehouse-associate',
+        'Fulfillment Center Associate, Amazon',
+    ],
+    'unilever factory indonesia' => [
+        'how-to-apply-for-unilever-factory-jobs-in-indonesia',
+        Database\Seeders\UnileverFactoryJobsIndonesiaBlogSeeder::class,
+        ['how-to-apply-for-unilever-factory-jobs-in-indonesia-cikarang.jpg', 'how-to-apply-for-unilever-factory-jobs-in-indonesia-line.jpg'],
+        'https://careers.unilever.com/en/indonesia',
+        'Engineering and Supply Chain, Unilever',
+    ],
     'kuwait airways cabin crew' => [
         'how-to-apply-for-kuwait-airways-cabin-crew-jobs',
         Database\Seeders\KuwaitAirwaysCabinCrewJobsBlogSeeder::class,

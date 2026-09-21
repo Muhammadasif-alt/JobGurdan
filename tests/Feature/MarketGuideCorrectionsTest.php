@@ -3955,6 +3955,70 @@ it('finds the Kuwait Airways careers portal and resolves the age limits the draf
     }
 });
 
+it('replaces the dead Unilever apprenticeship link and states the five-year rule the draft omitted', function () {
+    $this->seed(Database\Seeders\UnileverFactoryJobsIndonesiaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-unilever-factory-jobs-in-indonesia')->value('content');
+
+    expect($content)->toContain('<strong>Unilever Indonesia is not advertising a single operator or production-line job right now.</strong>')
+        ->toContain('<strong>That address returns a 404.</strong>')
+        ->toContain('<strong>February and September intakes</strong>')
+        ->toContain('<strong>competence or work experience of at least five years</strong>')
+        ->toContain('<strong>Entry-level factory work is not a legal route into Indonesia for a foreign national.</strong>')
+        ->toContain('<strong>There is no operator-level vacancy on Unilever')
+        ->toContain('<strong>Unilever publishes no salary figure for any Indonesian role.</strong>')
+        ->toContain('We will never ask for the exchange of money or credit card details')
+        ->toContain('https://careers.unilever.com/en/indonesia')
+        ->not->toContain('indonesiaearlycareers"')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-bmw-factory-jobs-in-germany' => Database\Seeders\BmwFactoryJobsGermanyBlogSeeder::class,
+        'factory-worker-jobs-in-germany' => Database\Seeders\FactoryWorkerJobsGermanyBlogSeeder::class,
+        'how-to-apply-for-ferrari-factory-jobs-in-italy' => Database\Seeders\FerrariFactoryJobsItalyBlogSeeder::class,
+        'how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia' => Database\Seeders\AramcoEngineeringJobsSaudiBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia');
+    }
+});
+
+it('scopes the Amazon pay rise to full-time roles and replaces the aggregator salary figures', function () {
+    $this->seed(Database\Seeders\AmazonFulfillmentCenterJobsUsaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-amazon-fulfillment-center-jobs-in-usa')->value('content');
+
+    expect($content)->toContain('<strong>The $20 an hour figure applies to full-time core operations roles.</strong>')
+        ->toContain('<strong>30 to 40 hours</strong>')
+        ->toContain('Full and Reduced Time')
+        ->toContain('<strong>$38,220 in May 2025</strong>')
+        ->toContain('<strong>You must already hold US work authorisation.</strong>')
+        ->toContain('<strong>after 90 days</strong>')
+        ->toContain('<strong>1 October 2026</strong>')
+        ->toContain('A 49-pound lifting requirement.')
+        ->toContain('All genuine Amazon job opportunities are posted on our official job board')
+        ->toContain('https://amazon.jobs/content/en/job-categories/fulfillment-center-warehouse-associate')
+        ->not->toContain('ZipRecruiter')
+        ->not->toContain('Gridwise')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-walmart-store-associate-jobs-in-the-usa' => Database\Seeders\WalmartStoreAssociateJobsUsaBlogSeeder::class,
+        'forklift-operator-jobs-in-usa' => Database\Seeders\ForkliftOperatorJobsUsaBlogSeeder::class,
+        'delivery-driver-jobs-in-usa' => Database\Seeders\DeliveryDriverJobsUsaBlogSeeder::class,
+        'how-to-get-an-entry-level-office-job-with-no-experience' => Database\Seeders\EntryLevelOfficeJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -4090,6 +4154,8 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-bhp-mining-jobs-in-australia',
         'how-to-apply-for-bmw-factory-jobs-in-germany',
         'how-to-apply-for-oman-air-cabin-crew-jobs',
+        'how-to-apply-for-amazon-fulfillment-center-jobs-in-usa',
+        'how-to-apply-for-unilever-factory-jobs-in-indonesia',
         'how-to-apply-for-kuwait-airways-cabin-crew-jobs',
         'how-to-apply-for-ferrari-factory-jobs-in-italy',
         'how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia',

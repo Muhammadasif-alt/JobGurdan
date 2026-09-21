@@ -401,6 +401,7 @@ JOBHTML;
     <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a> &mdash; skilled trade work where experience counts more than a degree.</li>
     <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a> &mdash; another resources employer that does not publish pay.</li>
     <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; a Gulf employer with the same missing-salary problem.</li>
+    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a> &mdash; a factory employer that lists no factory-floor jobs at all.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Aramco's own careers, hiring process, compensation, benefits and recruitment disclaimer pages and ZATCA's published tax material. Aramco does not publish salary figures for any role, and recruitment criteria and benefits change. Always follow the current official Aramco announcement and the terms of your own written offer.</p>
