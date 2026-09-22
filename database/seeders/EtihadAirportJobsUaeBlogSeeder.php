@@ -380,6 +380,8 @@ JOBHTML;
     <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; a smaller Gulf carrier with clearer entry rules.</li>
     <li><a href="/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs">How to Apply for Kuwait Airways Cabin Crew Jobs</a> &mdash; and the age limits that actually apply.</li>
     <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a> &mdash; an employer that does publish what it pays.</li>
+    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a> &mdash; the famous employer whose job board is currently empty.</li>
+    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a> &mdash; the government portal that replaced PetroJobs.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Etihad's own newsroom and careers pages, Velora's corporate and careers sites, the IATA Ground Handling Partner directory, the UAE Government portal u.ae, and the official text of Federal Decree-Law No. 33 of 2021, checked on 22 September 2026. Vacancies, programme intakes and immigration rules change. Always check the live posting and the official government source before acting, and never pay anyone to secure a job.</p>

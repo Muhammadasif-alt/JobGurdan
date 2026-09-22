@@ -464,6 +464,7 @@ JOBHTML;
     <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a> &mdash; the licence ladder for heavy vehicles.</li>
     <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; Omanisation, the Gulf parallel to Saudization, from an employer side.</li>
     <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a> &mdash; the country largest employer, and what it does and does not publish.</li>
+    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a> &mdash; the famous employer whose job board is currently empty.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using GASTAT labour market, population and tourism statistics, Ministry of Human Resources and Social Development announcements and Labour Law articles, ZATCA guidance, Qiwa and Musaned rules and the Premium Residency Center portal. Saudization decisions, fees and thresholds change often. Always check the current official page for your own profession before you commit.</p>

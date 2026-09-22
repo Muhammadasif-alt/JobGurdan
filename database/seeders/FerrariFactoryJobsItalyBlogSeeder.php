@@ -369,6 +369,7 @@ JOBHTML;
     <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; a sponsorship system that works very differently from Italy's quota.</li>
     <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a> &mdash; another employer that publishes no pay figure.</li>
     <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a> &mdash; a factory employer that lists no factory-floor jobs at all.</li>
+    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a> &mdash; an employer that publishes real salary bands on its adverts.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Ferrari's own careers portal, Ferrari N.V.'s annual report filed with the US Securities and Exchange Commission, the Gazzetta Ufficiale and the Italian government's integration and labour portals, Federmeccanica's published collective agreement material and ISTAT earnings data. Ferrari publishes no pay figure for production roles and states nothing about sponsoring non-EU workers, and Italian quota rules change every year. Always check the current decree and the live job posting.</p>

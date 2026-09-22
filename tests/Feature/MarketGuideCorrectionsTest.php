@@ -4119,6 +4119,135 @@ it('names Velora as the Abu Dhabi ground handler and publishes the UAE recruitme
     }
 });
 
+it('reports the empty NEOM job board and attributes the Oxagon data centre to its actual developers', function () {
+    $this->seed(Database\Seeders\NeomConstructionJobsSaudiArabiaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-neom-construction-jobs-in-saudi-arabia')->value('content');
+
+    expect($content)->toContain('<strong>Oxagon is the exception.</strong>')
+        ->toContain('<strong>HUMAIN and DataVolt, not by NEOM</strong>')
+        ->toContain('<strong>Article 33 of the Saudi Labour Law states that a non-Saudi may not engage in any work except after obtaining a work permit from the Ministry</strong>')
+        ->toContain('<strong>Article 40 of the Saudi Labour Law puts the cost of recruiting a non-Saudi worker on the employer</strong>')
+        ->toContain('<strong>That is a condition placed on you, not a promise made to you.</strong>')
+        ->toContain('<strong>There is no named NEOM graduate scheme, no apprenticeship programme and no published intake date.</strong>')
+        ->toContain('<strong>8 billion dollar write-down</strong>')
+        ->toContain('transitioning from project to enterprise')
+        ->toContain('careers.neom.com/careers')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia' => Database\Seeders\AramcoEngineeringJobsSaudiBlogSeeder::class,
+        'construction-jobs-in-saudi-arabia-with-visa-sponsorship' => Database\Seeders\ConstructionJobsSaudiBlogSeeder::class,
+        'how-to-get-a-job-in-saudi-arabia-as-a-foreigner' => Database\Seeders\SaudiArabiaJobsForeignersBlogSeeder::class,
+        'how-to-apply-for-etihad-airport-jobs-in-uae' => Database\Seeders\EtihadAirportJobsUaeBlogSeeder::class,
+        'how-to-apply-for-tesco-supermarket-jobs-in-uk' => Database\Seeders\TescoSupermarketJobsUkBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia');
+    }
+});
+
+it('separates Siemens AG from Siemens Energy and corrects the mislabelled German engineer statistics', function () {
+    $this->seed(Database\Seeders\SiemensEngineeringJobsGermanyBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-siemens-engineering-jobs-in-germany')->value('content');
+
+    expect($content)->toContain('<strong>Turbine and wind engineering is Siemens Energy AG, a separate business.</strong>')
+        ->toContain('<strong>"Zurzeit akzeptieren wir keine Initiativbewerbungen"</strong>')
+        ->toContain('<strong>around 5,600 jobs worldwide, including about 2,600 in Germany</strong>')
+        ->toContain('<strong>"Operational-related layoffs in Germany are ruled out."</strong>')
+        ->toContain('<strong>You do not need formal recognition to work as an engineer in Germany. You need it to call yourself one.</strong>')
+        ->toContain('<strong>Siemens publishes nothing whatsoever about visa sponsorship or relocation.</strong>')
+        ->toContain('<strong>50,700 euros</strong>')
+        ->toContain('<strong>45,934.20 euros</strong>')
+        ->toContain('<strong>"No legal requirement"</strong>')
+        ->toContain('<strong>120,702</strong>')
+        ->toContain('jobs.siemens.com/en_US/externaljobs/SearchJobs')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-bmw-factory-jobs-in-germany' => Database\Seeders\BmwFactoryJobsGermanyBlogSeeder::class,
+        'devops-engineer-jobs-in-germany' => Database\Seeders\DevOpsEngineerJobsGermanyBlogSeeder::class,
+        'factory-worker-jobs-in-germany' => Database\Seeders\FactoryWorkerJobsGermanyBlogSeeder::class,
+        'how-to-apply-for-leonardo-aerospace-jobs-in-italy' => Database\Seeders\LeonardoAerospaceJobsItalyBlogSeeder::class,
+        'how-to-apply-for-neom-construction-jobs-in-saudi-arabia' => Database\Seeders\NeomConstructionJobsSaudiArabiaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-siemens-engineering-jobs-in-germany');
+    }
+});
+
+it('publishes the Leonardo pay bands, deletes the invented Look Up tool and names Italian as the real barrier', function () {
+    $this->seed(Database\Seeders\LeonardoAerospaceJobsItalyBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-leonardo-aerospace-jobs-in-italy')->value('content');
+
+    expect($content)->toContain('<strong>Leonardo publishes what it pays.</strong>')
+        ->toContain('<strong>Total Base Pay Range: 32.731,92 - 43.000</strong>')
+        ->toContain('<strong>No Leonardo Italian advert we scanned carried a citizenship or nationality requirement.</strong>')
+        ->toContain('<strong>What will actually stop you is the language.</strong>')
+        ->toContain('<strong>"Italiano madrelingua"</strong>')
+        ->toContain('aimed only at Italian students')
+        ->toContain('<strong>there is no Leonardo compensation tool called "Look Up".</strong>')
+        ->toContain('<strong>Officina Leonardo and the Leonardo Hackathons are all marked COMPLETED</strong>')
+        ->toContain('<strong>Door two: the EU Blue Card, which is outside the quota entirely.</strong>')
+        ->toContain('<strong>within 15 days</strong>')
+        ->toContain('<strong>visa appointments should never be purchased</strong>')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-ferrari-factory-jobs-in-italy' => Database\Seeders\FerrariFactoryJobsItalyBlogSeeder::class,
+        'how-to-apply-for-bmw-factory-jobs-in-germany' => Database\Seeders\BmwFactoryJobsGermanyBlogSeeder::class,
+        'how-to-apply-for-siemens-engineering-jobs-in-germany' => Database\Seeders\SiemensEngineeringJobsGermanyBlogSeeder::class,
+        'how-to-apply-for-neom-construction-jobs-in-saudi-arabia' => Database\Seeders\NeomConstructionJobsSaudiArabiaBlogSeeder::class,
+        'how-to-apply-for-pdo-engineering-jobs-in-oman' => Database\Seeders\PdoEngineeringJobsOmanBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy');
+    }
+});
+
+it('replaces the dead PetroJobs route with Kwader and leads on the Omanisation rate the draft omitted', function () {
+    $this->seed(Database\Seeders\PdoEngineeringJobsOmanBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-pdo-engineering-jobs-in-oman')->value('content');
+
+    expect($content)->toContain('<strong>PetroJobs no longer exists.</strong>')
+        ->toContain('<strong>three adverts in total across the entire Omani oil and gas sector</strong>')
+        ->toContain('<strong>Not one of them is a PDO vacancy.</strong>')
+        ->toContain('<strong>None of those four appears on any official Omani source.</strong>')
+        ->toContain('<strong>PDO employs roughly 701 non-Omanis in total, and that number fell by 91 in a single year.</strong>')
+        ->toContain('A record Omanisation rate of 92%.')
+        ->toContain('does not appear once in PDO')
+        ->toContain('<strong>"the occupation mentioned in the visa application shall be the same as in the labour permit"</strong>')
+        ->toContain('kwader.mem.gov.om/jobs')
+        ->not->toContain('petrojobs.om/en-us')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-oman-air-cabin-crew-jobs' => Database\Seeders\OmanAirCabinCrewJobsBlogSeeder::class,
+        'how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia' => Database\Seeders\AramcoEngineeringJobsSaudiBlogSeeder::class,
+        'how-to-apply-for-etihad-airport-jobs-in-uae' => Database\Seeders\EtihadAirportJobsUaeBlogSeeder::class,
+        'how-to-get-a-logistics-driver-job-in-the-uae' => Database\Seeders\LogisticsDriverJobsUaeBlogSeeder::class,
+        'how-to-apply-for-neom-construction-jobs-in-saudi-arabia' => Database\Seeders\NeomConstructionJobsSaudiArabiaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-pdo-engineering-jobs-in-oman');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -4254,6 +4383,10 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-bhp-mining-jobs-in-australia',
         'how-to-apply-for-bmw-factory-jobs-in-germany',
         'how-to-apply-for-oman-air-cabin-crew-jobs',
+        'how-to-apply-for-pdo-engineering-jobs-in-oman',
+        'how-to-apply-for-leonardo-aerospace-jobs-in-italy',
+        'how-to-apply-for-siemens-engineering-jobs-in-germany',
+        'how-to-apply-for-neom-construction-jobs-in-saudi-arabia',
         'how-to-apply-for-etihad-airport-jobs-in-uae',
         'how-to-apply-for-qantas-ground-staff-jobs-in-australia',
         'how-to-apply-for-tesco-supermarket-jobs-in-uk',

@@ -12,6 +12,34 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'pdo engineering oman' => [
+        'how-to-apply-for-pdo-engineering-jobs-in-oman',
+        Database\Seeders\PdoEngineeringJobsOmanBlogSeeder::class,
+        ['how-to-apply-for-pdo-engineering-jobs-in-oman-field.jpg', 'how-to-apply-for-pdo-engineering-jobs-in-oman-desert.jpg'],
+        'https://kwader.mem.gov.om/jobs',
+        'Oil and Gas Engineering, Oman Operators',
+    ],
+    'leonardo aerospace italy' => [
+        'how-to-apply-for-leonardo-aerospace-jobs-in-italy',
+        Database\Seeders\LeonardoAerospaceJobsItalyBlogSeeder::class,
+        ['how-to-apply-for-leonardo-aerospace-jobs-in-italy-hangar.jpg', 'how-to-apply-for-leonardo-aerospace-jobs-in-italy-lab.jpg'],
+        'https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite',
+        'Aerospace Engineering, Leonardo S.p.A., Italian Sites',
+    ],
+    'siemens engineering germany' => [
+        'how-to-apply-for-siemens-engineering-jobs-in-germany',
+        Database\Seeders\SiemensEngineeringJobsGermanyBlogSeeder::class,
+        ['how-to-apply-for-siemens-engineering-jobs-in-germany-plant.jpg', 'how-to-apply-for-siemens-engineering-jobs-in-germany-team.jpg'],
+        'https://jobs.siemens.com/en_US/externaljobs/SearchJobs',
+        'Engineering Roles, Siemens AG, German Sites',
+    ],
+    'neom construction saudi arabia' => [
+        'how-to-apply-for-neom-construction-jobs-in-saudi-arabia',
+        Database\Seeders\NeomConstructionJobsSaudiArabiaBlogSeeder::class,
+        ['how-to-apply-for-neom-construction-jobs-in-saudi-arabia-site.jpg', 'how-to-apply-for-neom-construction-jobs-in-saudi-arabia-oxagon.jpg'],
+        'https://careers.neom.com/careers',
+        'NEOM Construction and Engineering, Tabuk Province',
+    ],
     'etihad airport uae' => [
         'how-to-apply-for-etihad-airport-jobs-in-uae',
         Database\Seeders\EtihadAirportJobsUaeBlogSeeder::class,
