@@ -179,6 +179,22 @@ JOBHTML;
     <figcaption style="font-size:13px;color:#6b7280;margin-top:8px;">Singapore Airlines had exactly four live cabin crew campaigns open when we checked its careers portal, and every one of them is a Singapore-based job.</figcaption>
 </figure>
 
+<h2>What the Job Actually Involves</h2>
+
+<p>Strip away the photography and cabin crew is a <strong>safety role</strong> that also serves food. That order matters, and it explains almost every requirement further down this page.</p>
+
+<p>SIA ties its height requirement directly to <em>"carrying out safety and emergency procedures onboard"</em>, and safety procedures and first aid sit alongside service in its training. The day-to-day is:</p>
+
+<ul>
+    <li>Pre-flight safety checks and emergency equipment readiness.</li>
+    <li>Cabin service, meal and beverage service across long-haul sectors.</li>
+    <li>Passenger handling, including difficult passengers and medical incidents.</li>
+    <li>Working as a crew under a leading steward or stewardess, to a fixed procedure.</li>
+    <li>Rostered nights, weekends and public holidays, with layovers away from base.</li>
+</ul>
+
+<p>It is shift work with jet lag, performed in a uniform, to a script, with your appearance assessed. People who love it really love it. People who expected travel with a salary attached tend to leave.</p>
+
 <h2>The Thing Almost Every Guide Gets Wrong</h2>
 
 <p>Singapore Airlines does not run one global cabin crew vacancy. It runs <strong>country campaigns</strong>, each with its own requirements, its own interview city and its own closing behaviour. When we checked, there were four:</p>
@@ -282,6 +298,29 @@ JOBHTML;
 <p>Its phishing advisory adds that <em>"all available job vacancies at Singapore Airlines are advertised at our official Careers portal, as well as on LinkedIn"</em>, and names fake addresses already in circulation, including <code>hr@singaporeairlinehr.com</code> and <code>members@singaporeair-mail.com</code>.</p>
 
 <p>SIA also states it <em>"does not request for payment or fees for the processing of job applications"</em>. <strong>Anyone in Pakistan offering you an SIA cabin crew interview, a training slot or a referral for money is running a scam.</strong> There is no Pakistani campaign for them to be recruiting into. Report it, and lodge a police report if you have already paid.</p>
+
+<h2>Can Freshers Apply, and What Actually Helps</h2>
+
+<p><strong>Yes.</strong> Read SIA's requirements again and notice what is <em>not</em> there: no previous cabin crew experience, no aviation background, no degree for the Singapore campaign. The bars are age, English, height, education and willingness to relocate. That makes this a genuine entry-level role at a top-tier airline.</p>
+
+<p>On skills, be careful with the generic lists you will find elsewhere. SIA does not publish a competency framework, so the honest guide is what its own wording emphasises repeatedly: <strong>English fluency "for servicing of international customers"</strong>, and good communication. Everything else is inference.</p>
+
+<p>What genuinely helps, and what you can evidence:</p>
+
+<ul>
+    <li><strong>Customer-facing work of any kind</strong> &mdash; retail, hospitality, call centre, front desk. It shows you can hold composure with a difficult member of the public.</li>
+    <li><strong>A second language.</strong> SIA explicitly names "mastering a new language" among the skillsets crew can develop, and an airline flying a wide network values it.</li>
+    <li><strong>Grooming and presentation</strong>, because it is one of only three training subjects SIA publishes.</li>
+    <li><strong>Evidence you can follow a procedure exactly.</strong> This is a safety job.</li>
+</ul>
+
+<p>What does not help: inflated CVs. The selection runs through a recorded video interview before any human conversation, and a five-year contract is not awarded on paperwork alone.</p>
+
+<h2>What Comes After Cabin Crew</h2>
+
+<p>Be sceptical of career-ladder diagrams in other articles; SIA does not publish one for cabin crew. What it does publish is that crew get <em>"opportunities to expand your skillsets &mdash; whether it is becoming a sommelier, mastering a new language, or deepening your expertise in customer service"</em>, and that the initial five-year contract can be extended on performance.</p>
+
+<p>Treat it accordingly: a five-year commitment with real skill development and an extension decision at the end, not a guaranteed escalator into management. Plan the exit as deliberately as the entry.</p>
 
 <h2>So What Should You Actually Do?</h2>
 

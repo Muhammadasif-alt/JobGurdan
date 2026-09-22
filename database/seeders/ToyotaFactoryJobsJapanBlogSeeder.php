@@ -214,6 +214,36 @@ JOBHTML;
 
 <p>Also worth knowing: Toyota Motor Kyushu, Toyota Motor Hokkaido, Toyota Motor East Japan, Toyota Motor Hamura, Toyota Auto Body and Daihatsu all hire their own period employees separately. <strong>This programme will not send you to any of them</strong>, and neither will it send you to Teiho.</p>
 
+<h2>The Nine Processes, and Why You Cannot Pick One</h2>
+
+<p>Toyota publishes exactly which production areas period employees are assigned to. They are not interchangeable, and the physical demands differ a great deal:</p>
+
+<ul>
+    <li><strong>Press</strong> &mdash; stamping body panels from sheet steel.</li>
+    <li><strong>Casting</strong> &mdash; molten metal work, the hottest environment on the list.</li>
+    <li><strong>Body</strong> &mdash; welding and joining the shell.</li>
+    <li><strong>Painting</strong> &mdash; coating lines, with the protective equipment that implies.</li>
+    <li><strong>Molding</strong> &mdash; forming plastic and resin components.</li>
+    <li><strong>Machine assembly</strong> &mdash; engine and powertrain component work.</li>
+    <li><strong>Logistics</strong> &mdash; moving parts and materials to the lines.</li>
+    <li><strong>Vehicle assembly</strong> &mdash; the final line, fitting components into the car.</li>
+    <li><strong>Final inspection</strong> &mdash; checking finished vehicles before they leave.</li>
+</ul>
+
+<p>Toyota states plainly that <strong>you cannot choose your own process.</strong> Assignment follows an aptitude test and whatever the plants need at the time. If you have a physical limitation that rules out heat, height, or repetitive overhead work, raise it at the interview rather than hoping for a particular line.</p>
+
+<h2>Toyota's Wider Japanese Plant Network</h2>
+
+<p>Toyota's own Japanese manufacturing footprint is much larger than this programme, and conflating the two is the most common mistake in articles on this subject.</p>
+
+<p><strong>Toyota's eleven directly operated plants</strong> are Honsha, Motomachi, Kamigo, Takaoka, Miyoshi, Tsutsumi, Myochi, Shimoyama, Kinuura, Tahara and Teiho.</p>
+
+<p><strong>Its affiliated manufacturers</strong> include Toyota Motor Kyushu, Toyota Motor Hokkaido, Toyota Motor East Japan, Toyota Auto Body, Daihatsu Motor, and &mdash; newly &mdash; <strong>Toyota Motor Hamura</strong>, a wholly owned subsidiary in Hamura City, Tokyo that began operating on 1 April 2026 with roughly 5,060 staff, taking over the former Hino Motors plant.</p>
+
+<p>Here is the part that matters: <strong>every one of those affiliates recruits its own period employees separately, and none of them is reachable through t-kikan.jp.</strong> Neither is Teiho. Daihatsu in particular is a separate company with its own brand and its own hiring, not a "Toyota factory" you can be posted to. If you want Kyushu or Hokkaido, you apply to that company directly.</p>
+
+<p>Toyota also announced in August 2025 that it plans to acquire land in the <strong>Teihoucho area of Toyota City</strong> for an entirely new vehicle plant, with operations planned for the early 2030s and models undecided.</p>
+
 <h2>The Money, With the Assumptions Included</h2>
 
 <p>Toyota publishes a basic daily wage of <strong>JPY 11,150 to JPY 12,450</strong>, with the higher figures for people who have completed previous Toyota terms. That number is unconditional, and it is the one to plan around.</p>
@@ -278,6 +308,33 @@ JOBHTML;
 <p>You are hired for <strong>three months</strong>. Renewal runs in steps to a maximum of <strong>two years and eleven months</strong>, and it is not automatic. Toyota states renewal depends on its production outlook and workload, and on the individual's performance, attitude, ability, health and stamina.</p>
 
 <p>There is a genuine route onwards. Toyota's conversion scheme turned <strong>1,132 period employees into permanent staff between 2021 and 2025</strong> &mdash; 136, 155, 226, 310 and 305 across the five years, a clearly rising trend. The published requirements are at least one year of service, a recommendation from your workplace supervisor, a written test and a group interview.</p>
+
+<h2>Experience, Students, and Who Else Toyota Hires</h2>
+
+<h3>If you have done this before</h3>
+
+<p>Previous Toyota terms are worth real money, and Toyota publishes the scale. The <strong>experienced-worker allowance runs from JPY 10,000 to JPY 100,000</strong> depending on how much you previously completed, and your basic daily wage starts higher too &mdash; JPY 12,150 for those who completed 18 to 24 months, and <strong>JPY 12,450 for those who completed 30 to 35 months</strong>, against JPY 11,150 for a first-timer. Returning is financially rewarded in a way few employers bother to publish.</p>
+
+<h3>If you are a student or new graduate</h3>
+
+<p>This programme is not your route, and Toyota runs separate ones:</p>
+
+<ul>
+    <li><strong>Skilled-employee recruitment</strong> for new school-leavers sits at toyota-monozukuri.jp. Note it is Japanese-only and, when we checked, served over plain HTTP with no working HTTPS &mdash; so avoid entering personal data there until that is fixed.</li>
+    <li><strong>New-graduate and mid-career professional hiring</strong> sits at recruit.toyota (the old toyota-recruit.com address redirects there). It covers engineering and corporate roles, and does not link to the period employee programme at all.</li>
+</ul>
+
+<h3>Is this work open to women?</h3>
+
+<p>Toyota publishes no gender requirement. The entire eligibility list is the two lines quoted earlier &mdash; age 18 or over, and able to do standing line work on a two-shift rotation. Nothing else is stated, and articles claiming a men-only rule are inventing it.</p>
+
+<p>What is worth knowing practically: dormitories are <strong>single rooms</strong>, the processes differ sharply in physical demand, and assignment is by aptitude test rather than choice. Ask about the specific process and dormitory at interview rather than assuming.</p>
+
+<h3>What skills actually matter</h3>
+
+<p>Toyota answers this itself by reporting that <strong>about 6 in 10 period employees join with no previous experience</strong>, and that training is given before and after assignment. So the technical bar is genuinely low.</p>
+
+<p>What the published terms quietly demand instead is <strong>attendance</strong>. Read the bonus conditions again: the joining payment is lost at five days of absence, the six-month payment at eight days, the daily reward element is paid only for months with no absence, lateness or early leave, and completion money is forfeited entirely if you resign mid-contract. Toyota is not testing your engineering. It is paying for reliability on a rotating shift, and it prices that very precisely.</p>
 
 <h2>Now: Can You Apply From Pakistan?</h2>
 

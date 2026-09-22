@@ -306,6 +306,46 @@ JOBHTML;
     <figcaption style="font-size:13px;color:#6b7280;margin-top:8px;">ASML's Veldhoven headquarters is its biggest R&amp;D and manufacturing site; a second campus is being built at Eindhoven.</figcaption>
 </figure>
 
+<h2>What Jobs ASML Actually Advertises</h2>
+
+<p>Rather than list every discipline in the abstract, here are the real vacancy families we found live on ASML's own board, with the bands it printed on them. This is what the work is, and what it pays.</p>
+
+<h3>Manufacturing and cleanroom</h3>
+
+<p><strong>Assembler Technician, Technician Cleanroom.</strong> Building and testing the lithography systems themselves, in the cleanrooms at Veldhoven. Published band EUR 47,500 to EUR 53,500. This is the family that vocational (mbo) education and hands-on technical experience reaches, and the one that does not clear the visa threshold.</p>
+
+<h3>Installation and customer support</h3>
+
+<p><strong>EUV International System Install Engineer</strong> (EUR 57,000 to EUR 64,000) and <strong>System Install Coordinator</strong> (EUR 58,500 to EUR 66,000). Installing and commissioning systems at customer sites, which is where ASML's 5,000-plus customer support employees sit. The international install roles carry travel.</p>
+
+<h3>Engineering, facilities and physical infrastructure</h3>
+
+<p><strong>Facility Lay out Engineer</strong>, EUR 88,000 to EUR 100,000. This family covers the mechanical, electrical, mechatronic and systems engineering that ASML is known for, plus the physical plant that houses it.</p>
+
+<h3>Software, data and IT</h3>
+
+<p><strong>Data Engineer</strong>, EUR 88,577 to EUR 99,649. Machine control software, applications, algorithms, data platforms, IT and cybersecurity all sit here. Note that IT is one of the sectors where ASML runs extra pre-employment checks.</p>
+
+<h2>What Qualifications and Skills ASML Actually Asks For</h2>
+
+<p>ASML publishes no single education bar, because there isn't one. The requirement lives on the individual vacancy, and it tracks the bands above closely:</p>
+
+<ul>
+    <li><strong>Vocational (mbo)</strong> reaches manufacturing, cleanroom technician and mechanic work. ASML's own work-study programme runs mbo tracks straight into precision manufacturing, which tells you what it accepts.</li>
+    <li><strong>Bachelor's or master's (hbo/wo)</strong> is the normal bar for engineering, software, systems and coordination roles.</li>
+    <li><strong>PhD</strong> appears in research, optics and physics work, and ASML runs a dedicated PhD track.</li>
+</ul>
+
+<p>On skills, the useful signal is not a generic list but what the machines demand: ASML's systems combine mechanics, electronics, optics, software and control into one product, so the recurring ask is people who can work <strong>across</strong> disciplines rather than only within one. Mechatronics, systems engineering, precision manufacturing, control systems, data analysis and engineering software are the terms that keep appearing. ASML describes its own work as multidisciplinary and cross-border.</p>
+
+<p>One practical note that matters more than any skill list: <strong>the expected salary range on the vacancy is your best guide to the seniority ASML expects.</strong> A EUR 88,000 band is not asking for a fresh graduate, whatever the title says.</p>
+
+<h2>Fresh Graduates and Experienced Professionals</h2>
+
+<p><strong>If you are a graduate</strong>, the honest route is not to apply cold into a professional vacancy from abroad. It is the internship or work-study track, or a Dutch degree followed by the orientation year and then the reduced salary criterion described above. ASML runs internships, graduation assignments, work-study places and PhD tracks, all reachable from the students and new graduates section of its careers site.</p>
+
+<p><strong>If you are experienced</strong>, you are in the strongest position, and for a specific reason: the bands that clear the Dutch visa threshold are the senior engineering and data ones. Lead with measurable results on complex, multidisciplinary projects, and name the product or module you owned. ASML's January 2026 reorganisation moved engineers from a matrix setup to being <em>"dedicated to a specific product and module"</em>, so demonstrated depth on one thing now reads better than breadth across many.</p>
+
 <h2>Working in the Factories</h2>
 
 <p>If you already have the right to work in the Netherlands, ASML's manufacturing roles are among the more approachable entries into the semiconductor industry. ASML publishes the shift structure honestly:</p>
@@ -337,6 +377,23 @@ JOBHTML;
 <p>ASML states that pre-employment screening happens <em>after</em> you have accepted the offer and agreed to be screened. The standard check covers identity and education as provided by you, public sanction lists and social media.</p>
 
 <p>The extra checks are where the detail matters: resume, references, criminal record and credit risk checks apply <em>"for certain vacancies in the Finance, Procurement, IT, Sales, Security and Airfreight sectors"</em>. Guides that present these as universal are overstating it.</p>
+
+<h2>How to Spot an ASML Job Scam</h2>
+
+<p>A sponsoring employer in a wealthy country is exactly the brand scammers impersonate, and ASML is impersonated often. The good news is that its real process has several published checkpoints, so the fakes are easy to catch if you know them.</p>
+
+<p><strong>The only legitimate route is asml.com, which hands you to Workday.</strong> Applications land on <code>asml.wd3.myworkdayjobs.com</code>. Anything on a different domain is not ASML. Be especially careful with the old <code>asml.com/careers/vacancies</code> board, which is dead and returns a 404 but still appears in search results &mdash; a "working" version of that page is a forgery.</p>
+
+<p>Four more checks drawn from how ASML actually operates:</p>
+
+<ul>
+    <li><strong>Real ASML vacancies print an expected salary range.</strong> An offer with no range, or one wildly above the bands on this page, is a red flag rather than good luck.</li>
+    <li><strong>Screening comes after you accept, not before.</strong> ASML states pre-employment screening happens once a candidate has accepted the offer and agreed to be screened. Anyone demanding passport scans, bank details or certificates before an offer exists is fishing.</li>
+    <li><strong>ASML pays for relocation; you never pay ASML.</strong> Its published package covers immigration support, travel and shipping. There is no visa fee, processing fee, training fee or "permit deposit" to send anyone.</li>
+    <li><strong>Check the job ID format.</strong> Newer ASML postings carry J-00 style identifiers. An invented reference on a PDF offer letter is not one.</li>
+</ul>
+
+<p>And one that applies to every guide on this site: <strong>a genuine employer never asks you for money.</strong> If someone in Pakistan is charging for an ASML interview, a referral or "visa processing", that is a fraud, not an opportunity.</p>
 
 <h2>How to Apply, Step by Step</h2>
 
