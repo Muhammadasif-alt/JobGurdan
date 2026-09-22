@@ -4480,7 +4480,7 @@ it('replaces the expired Rozee salary adverts with dated live listings and corre
 
     $siblings = [
         'wordpress-content-upload-jobs' => Database\Seeders\WordpressContentUploadJobsBlogSeeder::class,
-        'wordpress-developer-jobs-in-usa' => Database\Seeders\WordpressDeveloperJobsUsaBlogSeeder::class,
+        'wordpress-developer-jobs-in-usa' => Database\Seeders\WordPressDeveloperJobsUsaBlogSeeder::class,
         'digital-marketing-jobs-in-usa' => Database\Seeders\DigitalMarketingJobsUsaBlogSeeder::class,
         'remote-jobs-in-pakistan-with-no-experience' => Database\Seeders\RemoteJobsNoExperienceBlogSeeder::class,
         'how-to-become-a-remote-virtual-assistant' => Database\Seeders\RemoteVirtualAssistantBlogSeeder::class,
@@ -4511,7 +4511,7 @@ it('splits the content upload role from the SEO role and names the heading error
 
     $siblings = [
         'wordpress-seo-assistant-jobs' => Database\Seeders\WordpressSeoAssistantJobsBlogSeeder::class,
-        'wordpress-developer-jobs-in-usa' => Database\Seeders\WordpressDeveloperJobsUsaBlogSeeder::class,
+        'wordpress-developer-jobs-in-usa' => Database\Seeders\WordPressDeveloperJobsUsaBlogSeeder::class,
         'remote-data-entry-jobs' => Database\Seeders\RemoteDataEntryJobsBlogSeeder::class,
         'remote-jobs-in-pakistan-with-no-experience' => Database\Seeders\RemoteJobsNoExperienceBlogSeeder::class,
         'how-to-become-a-remote-virtual-assistant' => Database\Seeders\RemoteVirtualAssistantBlogSeeder::class,
