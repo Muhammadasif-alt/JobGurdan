@@ -4524,6 +4524,48 @@ it('splits the content upload role from the SEO role and names the heading error
     }
 });
 
+it('publishes the cold outreach law the lead generation draft omitted and dates every pay figure', function () {
+    $this->seed(Database\Seeders\LeadGenerationAssistantJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'lead-generation-assistant-jobs')->value('content');
+
+    expect($content)
+        // The compliance section is the whole point of the rewrite.
+        ->toContain('"Each separate email in violation of the CAN-SPAM Act is subject to penalties of up to $53,088')
+        ->toContain('<strong>Scrape someone\'s email, and a one-month clock starts.</strong>')
+        ->toContain('<strong>Article 21 gives an absolute right to object</strong>')
+        ->toContain('up to £17.5 million or 4 per cent of global turnover')
+        ->toContain('<strong>ZMLUK Limited £105,000</strong>')
+        ->toContain('<strong>"The list vendor said it was opted-in" is not a defence.</strong>')
+        // The risk that lands on the worker rather than the employer.
+        ->toContain('to scrape or copy the Services, including profiles and other data from the Services')
+        ->toContain('"Whose account will the automation run on?"')
+        // The draft called this advert remote; it is onsite, and it is a range.
+        ->toContain('<strong>The highest-paying role on it is onsite, not remote.</strong>')
+        ->toContain('90,000 &ndash; 100,000 + commission')
+        // BLS is accurate but misapplied, and the occupation is shrinking.
+        ->toContain('<strong>decline 7 per cent between 2025 and 2035</strong>')
+        ->toContain('<strong>100 credits a month</strong>')
+        ->toContain('<strong>A Roshan Digital Account is not for you.</strong>')
+        ->toContain('National Cyber Crime Investigation Agency')
+        ->not->toContain('utm_source=chatgpt.com')
+        ->not->toContain('citeturn');
+
+    $siblings = [
+        'wordpress-seo-assistant-jobs' => Database\Seeders\WordpressSeoAssistantJobsBlogSeeder::class,
+        'wordpress-content-upload-jobs' => Database\Seeders\WordpressContentUploadJobsBlogSeeder::class,
+        'how-to-become-a-remote-virtual-assistant' => Database\Seeders\RemoteVirtualAssistantBlogSeeder::class,
+        'remote-jobs-in-pakistan-with-no-experience' => Database\Seeders\RemoteJobsNoExperienceBlogSeeder::class,
+        'digital-marketing-jobs-in-usa' => Database\Seeders\DigitalMarketingJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/lead-generation-assistant-jobs');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide

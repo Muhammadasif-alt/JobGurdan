@@ -463,6 +463,7 @@ JOBHTML;
     <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; adjacent work, and how to tell the real listings from the fake ones.</li>
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; the realistic starting points, ranked.</li>
     <li><a href="/blog/wordpress-developer-jobs-in-usa">WordPress Developer Jobs in USA</a> &mdash; where the technical path leads, and what it requires.</li>
+    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a> &mdash; dated Pakistani pay, and the cold-outreach laws no other guide mentions.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Rates, client requirements and payment arrangements vary widely and change, so confirm everything in writing with the individual employer before starting work. Never pay anyone to secure a job, and never return an "overpayment" to a client.</p>
