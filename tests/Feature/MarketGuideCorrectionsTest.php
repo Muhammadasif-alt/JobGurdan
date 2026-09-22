@@ -4343,6 +4343,117 @@ it('publishes the Air Canada ramp rate and the Transport Canada clearance rule t
     }
 });
 
+it('reports that Singapore Airlines runs no Pakistani campaign and restores the service bond the draft omitted', function () {
+    $this->seed(Database\Seeders\SingaporeAirlinesCabinCrewJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-singapore-airlines-cabin-crew-jobs')->value('content');
+
+    expect($content)->toContain('<strong>Singapore Airlines is not recruiting cabin crew from Pakistan, and there is no closed Pakistani campaign waiting to reopen.</strong>')
+        ->toContain('There are currently no open positions matching')
+        ->toContain('approximately SGD 4,000 to SGD 5,000, inclusive of flight allowance based on hours flown')
+        ->toContain('Willingness and commitment to serve a compulsory service bond.')
+        ->toContain('<strong>Japan\'s live listing says six months.</strong>')
+        ->toContain('initial 5-year contract')
+        // The draft presented the Singapore O Level bar as SIA-wide.
+        ->toContain('<strong>No O-Level route.</strong>')
+        ->toContain('careers.singaporeair.com')
+        // The draft used a careers URL that 404s.
+        ->not->toContain('singaporeair.com/en_UK/sg/careers/cabin-crew/"')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-emirates-cabin-crew-jobs-in-uae' => Database\Seeders\EmiratesCabinCrewJobsUaeBlogSeeder::class,
+        'how-to-apply-for-oman-air-cabin-crew-jobs' => Database\Seeders\OmanAirCabinCrewJobsBlogSeeder::class,
+        'how-to-apply-for-kuwait-airways-cabin-crew-jobs' => Database\Seeders\KuwaitAirwaysCabinCrewJobsBlogSeeder::class,
+        'how-to-apply-for-etihad-airport-jobs-in-uae' => Database\Seeders\EtihadAirportJobsUaeBlogSeeder::class,
+        'how-to-apply-for-qantas-ground-staff-jobs-in-australia' => Database\Seeders\QantasGroundStaffJobsAustraliaBlogSeeder::class,
+        'how-to-apply-for-air-canada-airport-jobs' => Database\Seeders\AirCanadaAirportJobsBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-singapore-airlines-cabin-crew-jobs');
+    }
+});
+
+it('measures the ASML salary bands against the IND threshold and dates the restructuring the draft omitted', function () {
+    $this->seed(Database\Seeders\AsmlSemiconductorJobsNetherlandsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-asml-semiconductor-jobs-in-netherlands')->value('content');
+
+    expect($content)->toContain('<strong>ASML\'s cleanroom and technician jobs cannot carry a Dutch work visa. Its engineering jobs can.</strong>')
+        // The 2026 IND amounts, which the draft never tested the pay against.
+        ->toContain('<strong>EUR 5,942</strong>')
+        ->toContain('<strong>EUR 4,357</strong>')
+        ->toContain('<strong>EUR 3,122</strong>')
+        ->toContain('EUR 47,500 &ndash; 53,500')
+        // The sponsor entity is not the "ASML B.V." the draft named.
+        ->toContain('<strong>ASML Netherlands B.V.</strong> (KVK 17052456)')
+        ->toContain('net reduction of around 1,700 positions, predominantly in the Netherlands')
+        ->toContain('Brainport Industries Campus North')
+        ->toContain('Project Beethoven is not a hiring programme')
+        // ASML frames the internship allowance as an EU-student entitlement.
+        ->toContain('<strong>What non-EU students receive is not published anywhere on that page.</strong>')
+        ->toContain('De studie volg je in het Nederlands')
+        ->toContain('Finance, Procurement, IT, Sales, Security and Airfreight')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-siemens-engineering-jobs-in-germany' => Database\Seeders\SiemensEngineeringJobsGermanyBlogSeeder::class,
+        'how-to-apply-for-airbus-aerospace-jobs-in-france' => Database\Seeders\AirbusAerospaceJobsFranceBlogSeeder::class,
+        'how-to-apply-for-leonardo-aerospace-jobs-in-italy' => Database\Seeders\LeonardoAerospaceJobsItalyBlogSeeder::class,
+        'how-to-apply-for-bmw-factory-jobs-in-germany' => Database\Seeders\BmwFactoryJobsGermanyBlogSeeder::class,
+        'factory-worker-jobs-in-germany' => Database\Seeders\FactoryWorkerJobsGermanyBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-asml-semiconductor-jobs-in-netherlands');
+    }
+});
+
+it('separates what Toyota states about nationality from what Japanese immigration law decides', function () {
+    $this->seed(Database\Seeders\ToyotaFactoryJobsJapanBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-toyota-factory-jobs-in-japan')->value('content');
+
+    expect($content)->toContain('<strong>So the honest answer: if you are in Pakistan with no existing Japanese residence status, you cannot take this route.</strong>')
+        ->toContain('<strong>Toyota nowhere offers visa sponsorship.</strong>')
+        // Kariya is in the draft but on none of Toyota's own pages.
+        ->toContain('<strong>Kariya is not on the list</strong>')
+        ->toContain('<strong>JPY 11,150 to JPY 12,450</strong>')
+        // The allowance the draft dropped from the headline monthly figure.
+        ->toContain('<strong>78.25 hours of shift-differential allowance.</strong>')
+        ->toContain('<strong>if you leave part-way through a contract, you are paid none of it.</strong>')
+        ->toContain('JPY 3,064,800')
+        ->toContain('Limited to those joining from September 2026 onward. The period is subject to change.')
+        ->toContain('<strong>Japanese public holidays are working days</strong>')
+        ->toContain('1,132')
+        ->toContain('Industrial Products Manufacturing')
+        ->toContain('t-kikan.jp')
+        // The draft linked an English careers path that 404s. The guide names
+        // it as dead and gives the working one, but never links it.
+        ->toContain('global.toyota/jp/careers/')
+        ->not->toContain('href="https://global.toyota/en/careers/')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-bmw-factory-jobs-in-germany' => Database\Seeders\BmwFactoryJobsGermanyBlogSeeder::class,
+        'factory-worker-jobs-in-germany' => Database\Seeders\FactoryWorkerJobsGermanyBlogSeeder::class,
+        'how-to-apply-for-ferrari-factory-jobs-in-italy' => Database\Seeders\FerrariFactoryJobsItalyBlogSeeder::class,
+        'how-to-apply-for-unilever-factory-jobs-in-indonesia' => Database\Seeders\UnileverFactoryJobsIndonesiaBlogSeeder::class,
+        'how-to-get-an-esl-teaching-job-in-japan' => Database\Seeders\EslTeacherJobsJapanBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-toyota-factory-jobs-in-japan');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide

@@ -12,6 +12,27 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'asml semiconductor netherlands' => [
+        'how-to-apply-for-asml-semiconductor-jobs-in-netherlands',
+        Database\Seeders\AsmlSemiconductorJobsNetherlandsBlogSeeder::class,
+        ['how-to-apply-for-asml-semiconductor-jobs-in-netherlands-cleanroom.jpg', 'how-to-apply-for-asml-semiconductor-jobs-in-netherlands-veldhoven.jpg'],
+        'https://www.asml.com/en/careers/find-your-job',
+        'Semiconductor and Engineering Roles, ASML',
+    ],
+    'toyota factory japan' => [
+        'how-to-apply-for-toyota-factory-jobs-in-japan',
+        Database\Seeders\ToyotaFactoryJobsJapanBlogSeeder::class,
+        ['how-to-apply-for-toyota-factory-jobs-in-japan-line.jpg', 'how-to-apply-for-toyota-factory-jobs-in-japan-assembly.jpg'],
+        'https://www.t-kikan.jp/',
+        'Period Employee Factory Roles, Toyota',
+    ],
+    'singapore airlines cabin crew' => [
+        'how-to-apply-for-singapore-airlines-cabin-crew-jobs',
+        Database\Seeders\SingaporeAirlinesCabinCrewJobsBlogSeeder::class,
+        ['how-to-apply-for-singapore-airlines-cabin-crew-jobs-crew.jpg', 'how-to-apply-for-singapore-airlines-cabin-crew-jobs-cabin.jpg'],
+        'https://careers.singaporeair.com/sia/go/Cabin-Crew/689244/',
+        'Cabin Crew, Singapore Airlines',
+    ],
     'air canada airport' => [
         'how-to-apply-for-air-canada-airport-jobs',
         Database\Seeders\AirCanadaAirportJobsBlogSeeder::class,
@@ -958,6 +979,10 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
     $published = [
         'how-to-apply-for-tesco-supermarket-jobs-in-uk' => ['GBP', '13.28', '14.55'],
         'how-to-apply-for-air-canada-airport-jobs' => ['CAD', '23.36', '38.15'],
+        // SIA prints this package on its own cabin crew careers page.
+        'how-to-apply-for-singapore-airlines-cabin-crew-jobs' => ['SGD', '4000', '5000'],
+        // Toyota's own unconditional basic daily wage, not its loaded example.
+        'how-to-apply-for-toyota-factory-jobs-in-japan' => ['JPY', '11150', '12450'],
     ];
 
     $this->seed($seeder);

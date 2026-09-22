@@ -394,6 +394,7 @@ JOBHTML;
     <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a> &mdash; another Australian employer that keeps its pay quiet.</li>
     <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; where a rotating roster and no experience is enough.</li>
     <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; the same twist, at Abu Dhabi: the airline is not the employer.</li>
+    <li><a href="/blog/how-to-apply-for-singapore-airlines-cabin-crew-jobs">How to Apply for Singapore Airlines Cabin Crew Jobs</a> &mdash; published pay, a five-year contract, and the service bond most guides omit.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Qantas's own newsroom statements and careers pages, the Fair Work Commission's published enterprise agreement AE531839, the Airline Operations Ground Staff Award MA000048, Fair Work Ombudsman minimum wage data, AusCheck guidance on the Aviation Security Identification Card, the Department of Home Affairs Core Skills Occupation List and Australian Taxation Office superannuation rates, checked on 22 September 2026. Agreements are renegotiated, award rates change each July and immigration rules change. Always check the live posting and the official government source before acting.</p>

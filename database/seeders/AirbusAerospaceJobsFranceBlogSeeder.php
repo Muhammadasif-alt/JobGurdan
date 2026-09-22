@@ -387,6 +387,7 @@ JOBHTML;
     <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a> &mdash; aviation work with a very different set of gates.</li>
     <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a> &mdash; European manufacturing with the same language barrier.</li>
     <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; production work with a clearer entry path.</li>
+    <li><a href="/blog/how-to-apply-for-asml-semiconductor-jobs-in-netherlands">How to Apply for ASML Semiconductor Jobs in Netherlands</a> &mdash; published salary ranges, and which of them clear the Dutch visa threshold.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Airbus's own careers pages, FAQ and Workday job API, its press releases, service-public.gouv.fr, the French Code du travail on Legifrance, and the French Embassy in Pakistan, checked on 22 September 2026. Vacancy counts, salary thresholds and immigration rules change. Always check the live posting and the official government source before acting, and never pay anyone to secure a job or a visa appointment.</p>
