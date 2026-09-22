@@ -4248,6 +4248,101 @@ it('replaces the dead PetroJobs route with Kwader and leads on the Omanisation r
     }
 });
 
+it('names the KTP gate, the careers host that does not answer and the headcount Telkom files with the SEC', function () {
+    $this->seed(Database\Seeders\TelkomIndonesiaItJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-telkom-indonesia-it-jobs')->value('content');
+
+    expect($content)->toContain('<strong>No KTP</strong>')
+        ->toContain('<strong>There is no passport field and no alternative identity option anywhere in the portal.</strong>')
+        ->toContain('<strong>302 redirect straight to that dead host</strong>')
+        ->toContain('<strong>digistar.telkom.co.id does not exist.</strong>')
+        ->toContain('<strong>registration opened on 31 January 2026 and closed on 8 February 2026.</strong>')
+        ->toContain('<strong>Band VI is not the bottom of the ladder</strong>')
+        ->toContain('<strong>21,151 employees</strong>')
+        ->toContain('<strong>Neither is a hiring announcement.</strong>')
+        ->toContain('Law No. 16 of 2025')
+        ->toContain('ISO 37001:2016')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-unilever-factory-jobs-in-indonesia' => Database\Seeders\UnileverFactoryJobsIndonesiaBlogSeeder::class,
+        'how-to-apply-for-siemens-engineering-jobs-in-germany' => Database\Seeders\SiemensEngineeringJobsGermanyBlogSeeder::class,
+        'how-to-apply-for-leonardo-aerospace-jobs-in-italy' => Database\Seeders\LeonardoAerospaceJobsItalyBlogSeeder::class,
+        'cloud-engineer-jobs-in-usa' => Database\Seeders\CloudEngineerJobsUsaBlogSeeder::class,
+        'how-to-apply-for-air-canada-airport-jobs' => Database\Seeders\AirCanadaAirportJobsBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-telkom-indonesia-it-jobs');
+    }
+});
+
+it('counts the Airbus French clearance requirements and restores the internship visa rule the draft omitted', function () {
+    $this->seed(Database\Seeders\AirbusAerospaceJobsFranceBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-airbus-aerospace-jobs-in-france')->value('content');
+
+    expect($content)->toContain('<strong>622 vacancies open in France right now</strong>')
+        ->toContain('<strong>243 (39%)</strong>')
+        ->toContain('IGI 1300 of August 9, 2021')
+        ->toContain('<strong>This is not confined to the defence division.</strong>')
+        ->toContain('you must be a French/EU citizen or have authorization to live and work in France with an appropriate Visa.')
+        ->toContain('open to students of all nationalities but you must be a student in a French school to be eligible for the apprenticeship contract')
+        ->toContain('<strong>age limit of 29</strong>')
+        ->toContain('<strong>the EU Blue Card is the route to ask Airbus about</strong>')
+        ->toContain('<strong>up to 2,043 positions</strong>')
+        ->toContain('Airbus never requests payment for interviews, background checks, visa processing, training, or IT equipment.')
+        ->not->toContain('search-for-vacancies.html')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'how-to-apply-for-leonardo-aerospace-jobs-in-italy' => Database\Seeders\LeonardoAerospaceJobsItalyBlogSeeder::class,
+        'how-to-apply-for-siemens-engineering-jobs-in-germany' => Database\Seeders\SiemensEngineeringJobsGermanyBlogSeeder::class,
+        'how-to-apply-for-air-canada-airport-jobs' => Database\Seeders\AirCanadaAirportJobsBlogSeeder::class,
+        'how-to-apply-for-ferrari-factory-jobs-in-italy' => Database\Seeders\FerrariFactoryJobsItalyBlogSeeder::class,
+        'how-to-apply-for-bmw-factory-jobs-in-germany' => Database\Seeders\BmwFactoryJobsGermanyBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-airbus-aerospace-jobs-in-france');
+    }
+});
+
+it('publishes the Air Canada ramp rate and the Transport Canada clearance rule that settles the overseas question', function () {
+    $this->seed(Database\Seeders\AirCanadaAirportJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-air-canada-airport-jobs')->value('content');
+
+    expect($content)->toContain('<strong>If you are reading this from outside Canada with no Canadian status, you cannot be hired into an Air Canada airport job.</strong>')
+        ->toContain('is the sole responsibility of the candidates applying for this position')
+        ->toContain('<strong>"The clearance application process must be initiated by the employer."</strong>')
+        ->toContain('<strong>Air Canada does not sponsor these roles.</strong>')
+        ->toContain('<strong>$23.36 per hour, rising to $38.15 after 8 years</strong>')
+        ->toContain('<strong>"Proactive hiring"</strong>')
+        ->toContain('1-888-495-8501')
+        ->toContain('careers.aircanada.com/ca/en')
+        ->not->toContain('utm_source=chatgpt.com');
+
+    $siblings = [
+        'jobs-in-canada-for-foreign-workers' => Database\Seeders\JobsInCanadaForeignWorkersBlogSeeder::class,
+        'visa-sponsorship-jobs-in-canada' => Database\Seeders\VisaSponsorshipJobsCanadaBlogSeeder::class,
+        'customer-service-jobs-in-canada' => Database\Seeders\CustomerServiceJobsCanadaBlogSeeder::class,
+        'how-to-get-a-fleet-driver-job-in-canada' => Database\Seeders\FleetDriverJobsCanadaBlogSeeder::class,
+        'how-to-apply-for-etihad-airport-jobs-in-uae' => Database\Seeders\EtihadAirportJobsUaeBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-apply-for-air-canada-airport-jobs');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -4383,6 +4478,9 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-bhp-mining-jobs-in-australia',
         'how-to-apply-for-bmw-factory-jobs-in-germany',
         'how-to-apply-for-oman-air-cabin-crew-jobs',
+        'how-to-apply-for-air-canada-airport-jobs',
+        'how-to-apply-for-airbus-aerospace-jobs-in-france',
+        'how-to-apply-for-telkom-indonesia-it-jobs',
         'how-to-apply-for-pdo-engineering-jobs-in-oman',
         'how-to-apply-for-leonardo-aerospace-jobs-in-italy',
         'how-to-apply-for-siemens-engineering-jobs-in-germany',

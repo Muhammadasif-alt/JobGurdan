@@ -12,6 +12,27 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'air canada airport' => [
+        'how-to-apply-for-air-canada-airport-jobs',
+        Database\Seeders\AirCanadaAirportJobsBlogSeeder::class,
+        ['how-to-apply-for-air-canada-airport-jobs-ramp.jpg', 'how-to-apply-for-air-canada-airport-jobs-terminal.jpg'],
+        'https://careers.aircanada.com/ca/en/c/airport-operations-jobs',
+        'Airport Operations, Air Canada',
+    ],
+    'airbus aerospace france' => [
+        'how-to-apply-for-airbus-aerospace-jobs-in-france',
+        Database\Seeders\AirbusAerospaceJobsFranceBlogSeeder::class,
+        ['how-to-apply-for-airbus-aerospace-jobs-in-france-assembly.jpg', 'how-to-apply-for-airbus-aerospace-jobs-in-france-toulouse.jpg'],
+        'https://ag.wd3.myworkdayjobs.com/en-US/Airbus?locationCountry=54c5b6971ffb4bf0b116fe7651ec789a',
+        'Aerospace Engineering, Airbus',
+    ],
+    'telkom indonesia it' => [
+        'how-to-apply-for-telkom-indonesia-it-jobs',
+        Database\Seeders\TelkomIndonesiaItJobsBlogSeeder::class,
+        ['how-to-apply-for-telkom-indonesia-it-jobs-office.jpg', 'how-to-apply-for-telkom-indonesia-it-jobs-network.jpg'],
+        'https://recruitment.telkom.co.id/job',
+        'IT and Digital Roles, Telkom Indonesia',
+    ],
     'pdo engineering oman' => [
         'how-to-apply-for-pdo-engineering-jobs-in-oman',
         Database\Seeders\PdoEngineeringJobsOmanBlogSeeder::class,
@@ -936,6 +957,7 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
     // salary to any other guide still fails.
     $published = [
         'how-to-apply-for-tesco-supermarket-jobs-in-uk' => ['GBP', '13.28', '14.55'],
+        'how-to-apply-for-air-canada-airport-jobs' => ['CAD', '23.36', '38.15'],
     ];
 
     $this->seed($seeder);
