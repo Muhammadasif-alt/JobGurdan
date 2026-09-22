@@ -4454,6 +4454,76 @@ it('separates what Toyota states about nationality from what Japanese immigratio
     }
 });
 
+it('replaces the expired Rozee salary adverts with dated live listings and corrects the Pakistani payment route', function () {
+    $this->seed(Database\Seeders\WordpressSeoAssistantJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'wordpress-seo-assistant-jobs')->value('content');
+
+    expect($content)->toContain('<strong>They come from job adverts that closed in November and December 2025.</strong>')
+        // Live, dated, named listings in place of the dead ones.
+        ->toContain('PKR 95,000 &ndash; 190,000')
+        ->toContain('$600-$800 USD per month depending on experience')
+        // "Remote" is not an eligibility statement.
+        ->toContain('This role is open only to U.S. citizens and lawful permanent residents')
+        ->toContain('<strong>There is no SEO category on the board at all</strong>')
+        // INP replaced FID in 2024; the draft era still cites FID.
+        ->toContain('<strong>INP</strong> (Interaction to Next Paint) &mdash; 200 milliseconds or less.')
+        ->not->toContain('First Input Delay as a stable Core Web Vital in 2025')
+        // The RDA is for non-resident Pakistanis only.
+        ->toContain('<strong>The common mistake to avoid: a Roshan Digital Account is not for you.</strong>')
+        ->toContain('National Cyber Crime Investigation Agency')
+        ->toContain('<strong>There is no official Google SEO certification.</strong>')
+        // The company is real; the careers page the draft cited is not.
+        ->not->toContain('WPX SEO Digital')
+        ->not->toContain('utm_source=chatgpt.com')
+        ->not->toContain('citeturn');
+
+    $siblings = [
+        'wordpress-content-upload-jobs' => Database\Seeders\WordpressContentUploadJobsBlogSeeder::class,
+        'wordpress-developer-jobs-in-usa' => Database\Seeders\WordpressDeveloperJobsUsaBlogSeeder::class,
+        'digital-marketing-jobs-in-usa' => Database\Seeders\DigitalMarketingJobsUsaBlogSeeder::class,
+        'remote-jobs-in-pakistan-with-no-experience' => Database\Seeders\RemoteJobsNoExperienceBlogSeeder::class,
+        'how-to-become-a-remote-virtual-assistant' => Database\Seeders\RemoteVirtualAssistantBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/wordpress-seo-assistant-jobs');
+    }
+});
+
+it('splits the content upload role from the SEO role and names the heading error that costs the job', function () {
+    $this->seed(Database\Seeders\WordpressContentUploadJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'wordpress-content-upload-jobs')->value('content');
+
+    expect($content)->toContain('<strong>WordPress already outputs your post title as the H1. Never add a second H1 inside the editor.</strong>')
+        // The pricing trap the draft never addressed.
+        ->toContain('<strong>If you agree a monthly rate, cap the volume in writing.</strong>')
+        ->toContain('<strong>You execute the SEO decisions; you do not make them.</strong>')
+        ->toContain('<strong>A listing tagged "remote" is not automatically open to Pakistan.</strong>')
+        ->toContain('<strong>Do not open a Roshan Digital Account for client income.</strong>')
+        ->toContain('Exporters\' Special Foreign Currency Account')
+        ->toContain('National Cyber Crime Investigation Agency')
+        ->not->toContain('utm_source=chatgpt.com')
+        ->not->toContain('citeturn');
+
+    $siblings = [
+        'wordpress-seo-assistant-jobs' => Database\Seeders\WordpressSeoAssistantJobsBlogSeeder::class,
+        'wordpress-developer-jobs-in-usa' => Database\Seeders\WordpressDeveloperJobsUsaBlogSeeder::class,
+        'remote-data-entry-jobs' => Database\Seeders\RemoteDataEntryJobsBlogSeeder::class,
+        'remote-jobs-in-pakistan-with-no-experience' => Database\Seeders\RemoteJobsNoExperienceBlogSeeder::class,
+        'how-to-become-a-remote-virtual-assistant' => Database\Seeders\RemoteVirtualAssistantBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/wordpress-content-upload-jobs');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide

@@ -336,6 +336,8 @@ JOBHTML;
     <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a> &mdash; what the work pays and which offers are scams.</li>
     <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a> &mdash; the British remote market.</li>
     <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a> &mdash; where client-facing admin experience can lead.</li>
+    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a> &mdash; live dated pay in Pakistan, and why remote contracts pay several times local salaries.</li>
+    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a> &mdash; the entry-level remote role, and how to price it so it stays worth doing.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using BLS Occupational Outlook Handbook and OEWS data, ONS ASHE 2025, Upwork and Fiverr published fees, IRS and GOV.UK tax guidance and FTC consumer advice. Rates, fees and thresholds change. Always check the current rules before you rely on them.</p>
