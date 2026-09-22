@@ -4566,6 +4566,49 @@ it('publishes the cold outreach law the lead generation draft omitted and dates 
     }
 });
 
+it('refuses to recommend the LinkedIn automation tools the draft listed and cuts its decade-old statistics', function () {
+    $this->seed(Database\Seeders\FindLeadGenerationJobsLinkedinBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-find-lead-generation-jobs-on-linkedin')->value('content');
+
+    expect($content)
+        // LinkedIn publishes no numeric limit; it acts on suspicion of a tool.
+        ->toContain('we suspect the use of an automation tool, we may suspend or restrict your account')
+        // The vendors concede the point in their own documentation.
+        ->toContain('Technically, automation violates LinkedIn\'s terms of service.')
+        ->toContain('Everything is fine, this user is not using any of the banned extensions')
+        ->toContain('<strong>USD 500,000</strong>')
+        ->toContain('<strong>"Whose LinkedIn account will the outreach run from, and whose tooling?"</strong>')
+        // A free account cannot do what the draft told readers to do.
+        ->toContain('<strong>up to three connection requests per month</strong>')
+        ->toContain('Sales Navigator is three times the price and does nothing for you')
+        // Two titles the draft recommended that waste the reader's time.
+        ->toContain('<strong>"Outreach Specialist" is a trap.</strong>')
+        ->toContain('<strong>Associate is marketing. Representative is sales.</strong>')
+        // The Pakistani vocabulary the draft had none of.
+        ->toContain('Online Bidder')
+        // Two statistics from 2013 and 2014, one of which still ranked Google+.
+        ->not->toContain('80.33')
+        ->not->toContain('Google+')
+        ->not->toContain('61% of B2B marketers')
+        ->not->toContain('utm_source=chatgpt.com')
+        ->not->toContain('citeturn');
+
+    $siblings = [
+        'lead-generation-assistant-jobs' => Database\Seeders\LeadGenerationAssistantJobsBlogSeeder::class,
+        'wordpress-seo-assistant-jobs' => Database\Seeders\WordpressSeoAssistantJobsBlogSeeder::class,
+        'wordpress-content-upload-jobs' => Database\Seeders\WordpressContentUploadJobsBlogSeeder::class,
+        'how-to-become-a-remote-virtual-assistant' => Database\Seeders\RemoteVirtualAssistantBlogSeeder::class,
+        'remote-jobs-in-pakistan-with-no-experience' => Database\Seeders\RemoteJobsNoExperienceBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/how-to-find-lead-generation-jobs-on-linkedin');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
