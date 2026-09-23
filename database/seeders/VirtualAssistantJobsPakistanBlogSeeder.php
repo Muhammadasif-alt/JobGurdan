@@ -258,6 +258,48 @@ JOBHTML;
 
 <p>Settle this before the first hour. International clients normally pay in dollars through <strong>Payoneer</strong>, which you withdraw to a Pakistani bank, or by direct bank remittance. <strong>PayPal does not operate for accounts in Pakistan</strong>, so a client offering it either does not know the market or is not what they claim. Agree the rate, the currency, the billing cycle and the payment method in writing, and receive foreign earnings through formal banking channels so the income is declarable.</p>
 
+<h3>The rule most Pakistani VAs do not know, and it costs them money</h3>
+
+<p>You are allowed to keep a large part of your foreign earnings <em>in dollars</em> rather than converting them to rupees. The account is an <strong>Exporters' Special Foreign Currency Account (ESFCA)</strong>, and freelancers qualify for one.</p>
+
+<p>Most articles still quote the old limit of 50 percent of export proceeds. That is out of date and quoting it will cost you. The current rule, set by the State Bank in <strong>EPD Circular Letter No. 06 of 2026, dated 6 April 2026</strong>, is that IT companies and freelancers may retain <strong>USD 5,000 per month or 50 percent of export proceeds, whichever is higher</strong>.</p>
+
+<p>Work out what that means for you. If you bill <strong>$3,000 a month</strong>, the 50 percent reading says you keep $1,500 in dollars and convert the rest. The actual rule says the $5,000 floor is higher, so <strong>you may keep the entire $3,000 in dollars</strong>. Anyone who believed the old figure converted half their income to rupees they were entitled to hold in dollars, and paid the conversion spread for the privilege.</p>
+
+<p>Four other things in the current rule are worth knowing:</p>
+
+<ul>
+    <li>Your bank must credit the permissible amount to the ESFCA <strong>automatically</strong>, unless you opt out in writing. If it is not happening, ask why.</li>
+    <li>You may spend the balance on <strong>both personal and work-related</strong> payments &mdash; digital subscriptions, certification fees, education &mdash; without seeking State Bank approval each time.</li>
+    <li>A <strong>debit card can be issued</strong> against the account, but it cannot be used for cash withdrawal inside Pakistan. You can move funds to your own ESFCA at another bank, but not to any other foreign-currency account.</li>
+    <li><strong>Form "R" is no longer required</strong> from IT companies and freelancers for export receipts, and banks are required to process inward export receipts within one working day.</li>
+</ul>
+
+<p>The circular defines a freelancer as an individual resident in Pakistan providing online services to international clients on a contract or project basis, not employed by a single organisation. A virtual assistant working for overseas clients fits that description.</p>
+
+<h3>What the platforms actually charge to let you bid</h3>
+
+<p>Before any client pays you, the platform charges you for the right to apply. Budget for it.</p>
+
+<ul>
+    <li><strong>Upwork</strong> sells <strong>Connects at $0.15 each</strong>, in bundles, and you spend them to submit proposals. Do not plan around free monthly Connects: Upwork's own wording is that it runs different offers at times and <em>some</em> freelancers may receive 10 free Connects each month, subject to eligibility. Talent badges carry 30, and new users get a one-time 50 after they first buy Connects or subscribe. Unused Connects roll over with no cap, but they are refunded only if the client cancels before a contract or Upwork removes the post &mdash; <strong>not</strong> if the job simply expires, you are rejected, or you withdraw.</li>
+    <li><strong>Freelancer.com</strong> runs four paid tiers: <strong>Basic at $4.99 a month for 50 bids, Plus at $9.99 for 100, Professional at $49.00 for 300, and Premier at $99.00 for 1,500</strong>. Plus carries a one-month free trial, which is the only one of these worth taking before you know whether the platform suits you.</li>
+</ul>
+
+<h3>What it costs to get the money home</h3>
+
+<p>Be careful with the withdrawal figures that circulate, because they understate the cost badly. <strong>Payoneer publishes no Pakistan-specific fee page.</strong> Its flat $1.50 local-bank withdrawal applies only in an enumerated list of countries, and <strong>Pakistan is not on that list</strong>. What applies instead is its conversion pricing, quoted as 1.2 to 4 percent, and Payoneer's own Pakistan guidance describes a markup of around <strong>2 percent above the mid-market rate</strong>.</p>
+
+<p>So on a $1,000 withdrawal, plan for roughly <strong>$20 in conversion cost</strong>, not the 99 cents some guides quote. Minimum and maximum transfer amounts are set per account, not per country, and are displayed on the withdrawal screen itself &mdash; check yours there rather than trusting a published figure.</p>
+
+<h3>PayPal, and the confusion around it</h3>
+
+<p>Pakistan does not appear on PayPal's own list of supported countries, and no PayPal source announces entry. You still cannot open a PayPal account here to receive client money.</p>
+
+<p>The confusion comes from <strong>Xoom</strong>, which PayPal owns and which does operate a Pakistan corridor for transfers into bank accounts, debit cards, mobile wallets and cash pickup. That is <em>inbound remittance from abroad</em>, one-directional, and it is not a PayPal account. News coverage describing "PayPal remittances to Pakistan" refers to this, not to accounts you can invoice from.</p>
+
+<p>Do not solve the problem by using a PayPal account registered in another country. It breaches PayPal's terms, which gets accounts frozen with the money inside, and it means your earnings do not arrive through an authorised dealer &mdash; so they do not count as export proceeds, and the ESFCA benefit described above does not apply to them either.</p>
+
 <h2>How to Get Started</h2>
 
 <ol>

@@ -109,3 +109,32 @@ it('links to the other remote and freelance guides', function () {
         ->assertSee('/blog/remote-data-entry-jobs', false)
         ->assertSee('/blog/remote-customer-service-jobs', false);
 });
+
+it('publishes the current retention rule rather than the superseded one', function () {
+    $this->seed(VirtualAssistantJobsPakistanBlogSeeder::class);
+
+    $content = Blog::where('slug', VA_SLUG)->value('content');
+
+    expect($content)
+        // EPD CL 17 of 2023 raised retention to 50%. EPD CL 06 of 2026
+        // replaced that with a floor, and the floor is what matters to a
+        // freelancer: billing $3,000 means keeping all of it, not half.
+        ->toContain('EPD Circular Letter No. 06 of 2026')
+        ->toContain('USD 5,000 per month or 50 percent of export proceeds, whichever is higher')
+        ->toContain('you may keep the entire $3,000 in dollars')
+        // Payoneer's flat local-bank fee does not reach Pakistan, so the
+        // 99-cent figure that circulates understates the cost about twentyfold.
+        ->toContain('Pakistan is not on that list')
+        ->toContain('$20 in conversion cost')
+        ->not->toContain('$0.99')
+        ->not->toContain('$8,999')
+        // Free Connects are an eligibility-gated offer, not an entitlement.
+        ->toContain('Connects at $0.15 each')
+        ->toContain('subject to eligibility')
+        // Freelancer Plus is $9.99. $19.99 is the figure that circulates.
+        ->toContain('Plus at $9.99')
+        ->not->toContain('Plus at $19.99')
+        // Xoom is the source of the "PayPal is in Pakistan" confusion.
+        ->toContain('Xoom')
+        ->toContain('it is not a PayPal account');
+});
