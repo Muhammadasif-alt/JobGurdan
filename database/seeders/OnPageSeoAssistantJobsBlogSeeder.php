@@ -476,6 +476,7 @@ JOBHTML;
     <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a> &mdash; where this skill set leads internationally.</li>
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; realistic entry points and what they pay.</li>
     <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a> &mdash; another research-led remote route with a low barrier to entry.</li>
+    <li><a href="/blog/local-seo-assistant-jobs">Local SEO Assistant Jobs</a> &mdash; Business Profiles, reviews and maps, and the two instructions worth refusing.</li>
 </ul>
 HTML;
     }

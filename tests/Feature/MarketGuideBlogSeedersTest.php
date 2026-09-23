@@ -12,6 +12,15 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'local seo assistant' => [
+        'local-seo-assistant-jobs',
+        Database\Seeders\LocalSeoAssistantJobsBlogSeeder::class,
+        // Only one inline image: the third supplied file was byte-identical to
+        // one already published on the on-page SEO guide.
+        ['local-seo-assistant-jobs-map.jpg'],
+        'https://www.mustakbil.com/',
+        'Local SEO Assistant',
+    ],
     'on page seo assistant' => [
         'on-page-seo-assistant-jobs',
         Database\Seeders\OnPageSeoAssistantJobsBlogSeeder::class,

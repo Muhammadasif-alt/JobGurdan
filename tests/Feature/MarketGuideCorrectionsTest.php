@@ -4750,6 +4750,48 @@ it('separates what Google documents from what SEO checklists repeat, and dates e
     }
 });
 
+it('names the two local SEO tasks Google warns against and sizes the Pakistani market honestly', function () {
+    $this->seed(Database\Seeders\LocalSeoAssistantJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'local-seo-assistant-jobs')->value('content');
+
+    expect($content)
+        // The most-taught tactic is a suspension trigger in Google's own words.
+        ->toContain('Including unnecessary information in your business name isn\'t permitted')
+        // Citations and NAP appear nowhere in Google's local ranking page.
+        ->toContain('do not appear on it')
+        ->toContain('how many websites link to your business and how many reviews you have')
+        // Review gating is named in the policy, and it is the usual instruction.
+        ->toContain('selectively solicit positive reviews from customers')
+        // The penalty reaches the assistant's own account, not just the client.
+        ->toContain('the Google Account you use to manage the Business Profile')
+        ->toContain('782,000')
+        // The market is small, and a guide implying otherwise sells a queue
+        // that is not there.
+        ->toContain('eight to twelve live listings in the whole country')
+        // Foreign remote work pays several times the domestic ceiling.
+        ->toContain('PKR 270,000 to 450,000')
+        // Rozee's structured fields disagree with its own listing prose.
+        ->toContain('Read the description, not the badge')
+        // The one full-access trial that needs no international card.
+        ->toContain('no card needed')
+        ->not->toContain('utm_source=chatgpt.com')
+        ->not->toContain('citeturn');
+
+    $siblings = [
+        'on-page-seo-assistant-jobs' => Database\Seeders\OnPageSeoAssistantJobsBlogSeeder::class,
+        'wordpress-seo-assistant-jobs' => Database\Seeders\WordpressSeoAssistantJobsBlogSeeder::class,
+        'wordpress-content-upload-jobs' => Database\Seeders\WordpressContentUploadJobsBlogSeeder::class,
+        'digital-marketing-jobs-in-usa' => Database\Seeders\DigitalMarketingJobsUsaBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/local-seo-assistant-jobs');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
