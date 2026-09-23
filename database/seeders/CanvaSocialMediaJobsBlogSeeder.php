@@ -180,7 +180,54 @@ JOBHTML;
 
 <p>Job descriptions in this category routinely ask for brand kits, one-click resizing across formats, background removal and scheduling posts from inside Canva. Read them and it sounds like a list of things to practise.</p>
 
-<p>Several of those sit on a paid plan. That matters in two concrete ways:</p>
+<p>Here is what a free account can actually open:</p>
+
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
+    <thead>
+        <tr style="background:#f3f4f6;">
+            <th style="border:1px solid #e5e7eb;padding:10px;text-align:left;">Feature the job asks for</th>
+            <th style="border:1px solid #e5e7eb;padding:10px;text-align:left;">On Canva Free</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border:1px solid #e5e7eb;padding:10px;"><strong>Brand Kit</strong></td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">Yes, but <strong>one kit with three colours only</strong>. Pro gives five kits. Brand Templates are paid outright.</td>
+        </tr>
+        <tr style="background:#fef2f2;">
+            <td style="border:1px solid #e5e7eb;padding:10px;"><strong>Magic Resize</strong> (one-click reformatting)</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;"><strong>No.</strong> Paid only.</td>
+        </tr>
+        <tr style="background:#fef2f2;">
+            <td style="border:1px solid #e5e7eb;padding:10px;"><strong>Content Planner</strong> (scheduling from Canva)</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;"><strong>No.</strong> Paid only &mdash; but you can still share to socials from the editor.</td>
+        </tr>
+        <tr style="background:#fef2f2;">
+            <td style="border:1px solid #e5e7eb;padding:10px;"><strong>Background Remover</strong></td>
+            <td style="border:1px solid #e5e7eb;padding:10px;"><strong>No.</strong> Paid only.</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #e5e7eb;padding:10px;">Templates and stock</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">1.6 million templates and 4.7 million assets, against 3.6 million and 141 million on Pro</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #e5e7eb;padding:10px;">Storage</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">5GB, against 100GB on Pro</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #e5e7eb;padding:10px;">Exports as PNG, JPG, PDF</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">Yes</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Premium elements are not blocked outright on a free account &mdash; they are <strong>watermarked</strong> until you either buy that one design's licence or subscribe.</p>
+
+<p>One more correction worth having, because guides to this job get it wrong constantly: <strong>Canva cannot schedule posts to TikTok or YouTube.</strong> Its Content Planner schedules to Facebook Pages, Instagram business accounts, LinkedIn, Pinterest, Twitter, Tumblr and Slack. YouTube is share-only from the editor, and the TikTok integration is for TikTok <em>Ads</em>, not organic posting. If a client expects their TikTok calendar run from Canva, that is a conversation to have on day one rather than week three.</p>
+
+<p>The Instagram path has its own conditions that catch people out: it must be a <strong>business account linked to a Facebook Page</strong> &mdash; creator accounts are not supported &mdash; scheduling must be done from a desktop browser, and there is a cap of 25 scheduled posts in a rolling 24 hours.</p>
+
+<p>Two practical points follow:</p>
 
 <ul>
     <li><strong>Your portfolio plan may not be executable.</strong> If you set out to demonstrate brand-kit work and resizing on a free account, you will hit a wall partway through.</li>
@@ -189,7 +236,11 @@ JOBHTML;
 
 <p>So before you accept work, ask one question: <strong>"Will you add me to your Canva account, or am I expected to have my own paid plan?"</strong> A client running a brand kit already has a paid team plan and can invite you to it at no extra cost to you. A client who wants you to fund it is quietly transferring an expense.</p>
 
-<p>Check the current free-plan limits on Canva's own pricing page on the day you need them rather than trusting any article, including this one &mdash; the split between free and paid features moves.</p>
+<p>Two further things worth knowing before you plan around a price. Canva quotes Pakistani visitors in <strong>rupees</strong>, not dollars, so the USD figures in international articles will not match what you see. And the cheaper <strong>Pro Lite</strong> tier is currently offered in India and Indonesia but <strong>not Pakistan</strong>, so do not plan around it.</p>
+
+<p>There is no free route around this either. Canva's free access programmes are for registered nonprofits and for currently-employed certified school teachers, and its licence states that education accounts may be used only for <em>"educational, non-commercial purposes"</em> &mdash; using one for client work is a breach, not a loophole.</p>
+
+<p>Check the current limits on Canva's own pricing page on the day you need them rather than trusting any article, including this one &mdash; the split between free and paid features moves.</p>
 
 <h2>The Licence: What You May and May Not Do With Canva Content</h2>
 
@@ -204,9 +255,16 @@ JOBHTML;
     <li><strong>Merchandise for resale.</strong> Print-on-demand products carry their own restrictions and limits.</li>
 </ul>
 
-<p>There is also a practical trap with paid elements. If a design uses premium content and the subscription funding it lapses, you cannot assume the finished file stays free to use. Export and hand over final files while the plan is active, and keep a record of what was used.</p>
+<p>Two rules govern handing work over, and both are worth putting in your own contract:</p>
 
-<p><strong>The safe habit:</strong> read Canva's licence once, keep client work to finished social designs, and if a client asks for a logo, merchandise or anything resold, say you will build it from original elements or decline. Ten minutes of reading protects you from the one mistake in this field that has a bill attached.</p>
+<ul>
+    <li><strong>One design, one client.</strong> Canva's licence lets you transfer a design to a client, but explicitly only to a single client, and it requires a written agreement with them. You cannot sell the same design twice.</li>
+    <li><strong>You stay liable for what the client then does with it.</strong> The licence says you remain responsible for your client's compliance, which is another reason to put the terms in writing rather than hand over a file and hope.</li>
+</ul>
+
+<p>On subscriptions lapsing, the position is better than most people assume: the licence issued when you <strong>export</strong> a design is perpetual, so work you exported while subscribed stays licensed. What changes is that re-exporting the same design on a free account brings the watermark back. So export and hand over final files while the plan is active.</p>
+
+<p><strong>The safe habit:</strong> read Canva's licence once, keep client work to finished social designs, put the single-client term in writing, and if a client asks for a logo, merchandise or anything resold, build it from original elements or decline. Ten minutes of reading protects you from the one mistake in this field that has a bill attached.</p>
 
 <figure style="margin:28px 0;">
     <img src="/public/storage/blogs/canva-social-media-jobs-portfolio.jpg" alt="A set of finished social media designs laid out as a portfolio" style="width:100%;height:auto;border-radius:10px;">
@@ -219,9 +277,66 @@ JOBHTML;
 
 <p><strong>Freelance project work</strong> starts very low. Entry-level Canva projects on the freelance platforms are frequently posted as small fixed-price briefs, sometimes only a few dollars, explicitly framed as a trial that may lead to ongoing work. Weekly retainers for a set number of posts are the next rung up. These are individual postings, not a market rate, and you should read them as the client testing you rather than as what the work is worth.</p>
 
-<p><strong>Salaried Pakistani roles</strong> are the steadier end. Listings for remote social media specialists and content creators that name Canva among the duties have advertised in the range of roughly PKR 30,000 to 50,000 a month. As with every figure in this category, check the posting date before you use it to negotiate.</p>
+<p><strong>Salaried Pakistani roles</strong> are the steadier end, and the real picture differs from what gets written about it. We checked every live Pakistani listing on the board that publishes salary bands &mdash; 884 of them &mdash; and read the full description of each. <strong>Thirty mention Canva: about one in thirty.</strong> Ten of those thirty are remote. Here is the spread:</p>
 
-<p>Two things move you up from the first tier to the second. Taking on the <em>calendar</em> rather than individual graphics, and being able to write the caption as well as make the image. Pure template-filling is the most replaceable version of this job and is priced accordingly.</p>
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
+    <thead>
+        <tr style="background:#f3f4f6;">
+            <th style="border:1px solid #e5e7eb;padding:10px;text-align:left;">Role and city</th>
+            <th style="border:1px solid #e5e7eb;padding:10px;text-align:left;">Advertised</th>
+            <th style="border:1px solid #e5e7eb;padding:10px;text-align:left;">Setup</th>
+            <th style="border:1px solid #e5e7eb;padding:10px;text-align:left;">Posted</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="background:#ecfdf5;">
+            <td style="border:1px solid #e5e7eb;padding:10px;">Social media specialist</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;"><strong>PKR 75,000 to 150,000</strong></td>
+            <td style="border:1px solid #e5e7eb;padding:10px;"><strong>Remote</strong>, 3 years</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">9 Sep 2026</td>
+        </tr>
+        <tr style="background:#ecfdf5;">
+            <td style="border:1px solid #e5e7eb;padding:10px;">Shopify, e-commerce and social media executive</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">PKR 60,000 to 100,000</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;"><strong>Remote</strong>, 4 years, evening shift</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">23 Jul 2026</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #e5e7eb;padding:10px;">Social media associate, Karachi</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">PKR 55,000 to 80,000</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">On site, 1 year</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">22 Aug 2026</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #e5e7eb;padding:10px;">Digital marketing and social media specialist, Lahore</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">PKR 45,000 to 65,000</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">On site, 2 years, night shift</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">11 Aug 2026</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #e5e7eb;padding:10px;">Social media manager, Karachi</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">PKR 30,000 to 35,000</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">On site, 2 years</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">25 Aug 2026</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #e5e7eb;padding:10px;">Social media intern, Karachi</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">PKR 20,000 to 40,000</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">On site, fresh graduate</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">4 Jul 2026</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Three findings matter more than the individual numbers.</p>
+
+<p><strong>Remote salaried work in this field does exist in Pakistan, and it is the best paid.</strong> A third of the Canva-naming listings were remote, and the two highest bands in the whole set &mdash; PKR 75,000 to 150,000 and PKR 60,000 to 100,000 &mdash; were both remote roles. That is the opposite of what most career articles imply about this work.</p>
+
+<p><strong>Nobody hires for Canva alone.</strong> In every one of those listings Canva sat beside Adobe, Premiere Pro, After Effects, CapCut, Meta Business Suite or analytics tools, as one acceptable skill among several. Canva gets you considered; the second skill is what gets you the higher band. The PKR 75,000 to 150,000 listing wanted Canva <em>and</em> Meta Business Suite <em>and</em> scheduling platforms <em>and</em> analytics.</p>
+
+<p><strong>Experience is the lever, not the tool.</strong> The fresh-graduate listings sat at PKR 10,000 to 40,000. Two to three years moved roles into the PKR 45,000 to 80,000 range. Nothing in the data suggests getting better at Canva alone moves you between those bands.</p>
+
+<p>Beyond that, two things move you from project work to steady work: taking on the <em>calendar</em> rather than individual graphics, and writing the caption as well as making the image. Pure template-filling is the most replaceable version of this job and is priced accordingly.</p>
 
 <h2>Building a Portfolio That Gets Replies</h2>
 
@@ -287,7 +402,7 @@ JOBHTML;
 <p>No. This part of the field hires on portfolio and reliability. A consistent set of samples built around two invented brands will do more for you than any certificate, because it shows the exact thing the client is buying.</p>
 
 <h3>Can I do this work on the free Canva plan?</h3>
-<p>Partly. Several features these jobs name &mdash; brand kits, one-click resizing, background removal and in-app scheduling &mdash; sit on a paid plan. Check Canva's current pricing page before planning a portfolio around a feature, and ask any client whether they will add you to their account rather than assuming you must buy your own.</p>
+<p>Partly. Magic Resize, the Content Planner and Background Remover are paid only. A Brand Kit exists on the free plan but holds just three colours. Premium elements are watermarked until licensed. You can still design, export and share to socials for free, so a portfolio is entirely possible &mdash; just do not plan it around a paid feature, and ask a client to add you to their account rather than buying your own.</p>
 
 <h3>Can I use Canva templates for paid client work?</h3>
 <p>For ordinary social media designs, yes. The restrictions bite on adjacent requests: using Canva stock content in a logo or trademark, reselling designs as template packs, handing over stock elements as standalone files, and merchandise for resale. Read Canva's content licence once and keep client work to finished designs.</p>
