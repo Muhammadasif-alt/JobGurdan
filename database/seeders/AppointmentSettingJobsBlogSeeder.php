@@ -216,6 +216,11 @@ JOBHTML;
 
 <p>A note on searching, too. Search engines will summarise an expired listing for this job as paying PKR 75,000 to 200,000. We opened it: it closed in 2023 and its page carries no salary figure whatsoever. The number was invented somewhere between the listing and the summary.</p>
 
+<figure style="margin:28px 0;">
+    <img src="/public/storage/blogs/appointment-setting-jobs-headset.jpg" alt="An appointment setter taking calls on a headset in a home office" style="width:100%;height:auto;border-radius:10px;">
+    <figcaption style="font-size:13px;color:#6b7280;margin-top:8px;">The shift follows the customer's clock, not yours.</figcaption>
+</figure>
+
 <h2>The Night Shift Is Not Negotiable</h2>
 
 <p>Every one of the five listings on the smaller board states an evening or night shift &mdash; four tagged night, one evening. On the larger board only five of fifteen say so outright, but most of the rest name a US, UK or Australian market, which amounts to the same thing. Overall, <strong>around 10 of the 18 distinct listings either state a night shift or target a timezone that requires one</strong>.</p>

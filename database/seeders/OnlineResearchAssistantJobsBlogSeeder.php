@@ -260,6 +260,11 @@ JOBHTML;
 
 <p>We could not follow what happened after somebody sent their CV, because the sites were taken down first. But the shape is familiar, and the next section is what the regulator says about it.</p>
 
+<figure style="margin:28px 0;">
+    <img src="/public/storage/blogs/online-research-assistant-jobs-sources.jpg" alt="An online research assistant checking sources on a laptop" style="width:100%;height:auto;border-radius:10px;">
+    <figcaption style="font-size:13px;color:#6b7280;margin-top:8px;">Every check below is free and takes under two minutes.</figcaption>
+</figure>
+
 <h2>How to Check an Advert Before You Send Your CV</h2>
 
 <p>Every one of the signals below was visible on that page before anyone applied. None of them requires special tools.</p>
@@ -281,6 +286,11 @@ JOBHTML;
 <p>First, that R is the <strong>South African rand</strong>, not the rupee. Second, the listing it came from has been deleted, along with the recruiter's entire careers site. We found their current live advertisements, and the real bands are close to double the quoted figure: a data entry role at <strong>R23,000 to R25,000 a month</strong>, a data administrator role at <strong>R29,000 to R32,000</strong>.</p>
 
 <p>But the decisive detail is in the listings' own wording. Each one says the role is for a UK-based employer, <strong>fully remote from South Africa</strong>. A Pakistani applicant cannot take these jobs at any salary. "Remote" in a job advert almost always carries a country attached to it &mdash; sometimes a tax or right-to-work reason, sometimes a working-hours one. Read the sentence before you spend an evening on the application.</p>
+
+<figure style="margin:28px 0;">
+    <img src="/public/storage/blogs/online-research-assistant-jobs-checklist.jpg" alt="A researcher working through job board results at a desk" style="width:100%;height:auto;border-radius:10px;">
+    <figcaption style="font-size:13px;color:#6b7280;margin-top:8px;">Searched by name on 23 September 2026 on both major Pakistani boards.</figcaption>
+</figure>
 
 <h2>What Is Actually Hiring in Pakistan</h2>
 

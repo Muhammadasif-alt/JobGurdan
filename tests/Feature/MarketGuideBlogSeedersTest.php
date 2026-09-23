@@ -15,17 +15,14 @@ dataset('market guides', [
     'appointment setting' => [
         'appointment-setting-jobs',
         Database\Seeders\AppointmentSettingJobsBlogSeeder::class,
-        // No inline images: no banner set was supplied for this guide.
-        [],
+        ['appointment-setting-jobs-headset.jpg'],
         'https://www.rozee.pk/',
         'Appointment Setter',
     ],
     'online research assistant' => [
         'online-research-assistant-jobs',
         Database\Seeders\OnlineResearchAssistantJobsBlogSeeder::class,
-        // No inline images: no banner set was supplied for this guide, and the
-        // unused folders on hand all carry another job title in the artwork.
-        [],
+        ['online-research-assistant-jobs-sources.jpg', 'online-research-assistant-jobs-checklist.jpg'],
         'https://www.mustakbil.com/',
         'Online Research Assistant',
     ],
