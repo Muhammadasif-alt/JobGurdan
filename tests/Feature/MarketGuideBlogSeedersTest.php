@@ -12,6 +12,13 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'canva social media' => [
+        'canva-social-media-jobs',
+        Database\Seeders\CanvaSocialMediaJobsBlogSeeder::class,
+        ['canva-social-media-jobs-workspace.jpg', 'canva-social-media-jobs-portfolio.jpg'],
+        'https://www.mustakbil.com/',
+        'Canva Social Media Assistant',
+    ],
     'local seo assistant' => [
         'local-seo-assistant-jobs',
         Database\Seeders\LocalSeoAssistantJobsBlogSeeder::class,

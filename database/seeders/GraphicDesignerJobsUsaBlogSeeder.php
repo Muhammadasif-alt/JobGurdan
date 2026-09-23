@@ -330,6 +330,7 @@ JOBHTML;
     <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; one of the largest categories of genuinely remote hiring.</li>
     <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; entry-level remote work, and the scam patterns clustered around it.</li>
     <li><a href="/blog/marketing-jobs-in-uk">Marketing Jobs in UK</a> &mdash; the UK marketing teams designers work with, and how the roles are paid.</li>
+    <li><a href="/blog/canva-social-media-jobs">Canva Social Media Jobs</a> &mdash; which Canva features are free, and what the licence allows in client work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage data, employment projections, subscription prices, platform fees and copyright guidance change &mdash; confirm the current position with the Bureau of Labor Statistics, the IRS, the US Copyright Office and the employer's own advertisement before applying or paying any fee.</p>

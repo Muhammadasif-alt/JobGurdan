@@ -358,6 +358,7 @@ JOBHTML;
     <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a> &mdash; the titles that actually work, and the tools that get accounts restricted.</li>
     <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a> &mdash; the research craft behind a prospect list, and why a verified email often is not.</li>
     <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a> &mdash; what the daily quotas really mean once you do the arithmetic.</li>
+    <li><a href="/blog/canva-social-media-jobs">Canva Social Media Jobs</a> &mdash; which Canva features are free, and what the licence allows in client work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using BLS Occupational Outlook Handbook and OEWS data, ONS ASHE 2025, Upwork and Fiverr published fees, IRS and GOV.UK tax guidance and FTC consumer advice. Rates, fees and thresholds change. Always check the current rules before you rely on them.</p>
