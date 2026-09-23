@@ -3592,7 +3592,16 @@ it('fixes the remote virtual assistant draft salary, fee and tax claims with off
 
     $content = Blog::where('slug', 'how-to-become-a-remote-virtual-assistant')->value('content');
 
-    expect($content)->toContain('<strong>no official occupation called "virtual assistant"</strong>')
+    expect($content)
+        // The $10-$20 figure is Upwork's platform-wide median, and its own
+        // footnote sources it to established North American freelancers. We
+        // published it as a beginner rate once; this pins the correction.
+        ->toContain('reflect rates charged by freelancers on Upwork in North America with over 1,000 hours and 90% success rate')
+        ->toContain('It is a median, not a starting rate.')
+        ->toContain('<strong>$5, $8 and $10 an hour</strong>')
+        ->not->toContain('puts beginners at <strong>$10 to $20 an hour</strong>')
+        ->not->toContain('most beginner VAs on the platform charge')
+        ->toContain('<strong>no official occupation called "virtual assistant"</strong>')
         ->toContain('<strong>$47,540</strong> median')
         ->toContain('<strong>$76,590</strong> median')
         ->toContain('FlexJobs (job board, not official)')

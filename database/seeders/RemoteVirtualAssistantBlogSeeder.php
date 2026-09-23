@@ -83,7 +83,7 @@ class RemoteVirtualAssistantBlogSeeder extends Seeder
                 'author_id' => $author?->id,
                 'author_name' => $author?->name ?? 'Admin',
                 'title' => $title,
-                'excerpt' => 'No degree is required, and Upwork puts beginners at $10 to $20 an hour. There is no official VA salary, so this guide prices the work from BLS and ONS data and shows what platform fees and tax take out.',
+                'excerpt' => 'No degree is required. The $10 to $20 an hour figure everyone quotes is Upwork\'s median for all VAs, sourced to experienced North American freelancers. This guide prices the work from BLS and ONS data and shows what fees and tax take out.',
                 'content' => $content,
                 'featured_image' => 'blogs/how-to-become-a-remote-virtual-assistant.jpg',
                 'tags' => 'remote virtual assistant jobs, how to become a virtual assistant, virtual assistant rates, upwork fees, fiverr commission, executive assistant salary, va portfolio, work from home admin jobs',
@@ -165,7 +165,9 @@ JOBHTML;
     private function postBody(): string
     {
         return <<<'HTML'
-<p><strong>You do not need a degree or a certificate to become a remote virtual assistant. You need organisation, clear communication, comfort with Google Workspace or Microsoft 365, and a small portfolio that shows what you can actually do.</strong> Upwork's own guidance puts beginners at <strong>$10 to $20 an hour</strong>, and rates rise with a track record and a specialism.</p>
+<p><strong>You do not need a degree or a certificate to become a remote virtual assistant. You need organisation, clear communication, comfort with Google Workspace or Microsoft 365, and a small portfolio that shows what you can actually do.</strong></p>
+
+<p>You will see <strong>$10 to $20 an hour</strong> quoted everywhere as the beginner rate. It is worth knowing exactly what that number is before you price yourself by it, because it is not a beginner figure and it does not describe this market.</p>
 
 <p>What almost every guide gets wrong is the pay data. There is <strong>no official occupation called "virtual assistant"</strong> anywhere in government statistics, so this guide prices the work from the occupations that do exist, then shows what platform fees and tax take out of the headline rate.</p>
 
@@ -202,7 +204,7 @@ JOBHTML;
         </tr>
     </thead>
     <tbody>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Upwork</strong></td><td style="padding:10px;"><strong>$10&ndash;$20 an hour</strong></td><td style="padding:10px;">What most beginner VAs on Upwork charge, per Upwork's own guide</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Upwork</strong></td><td style="padding:10px;"><strong>$10&ndash;$20 an hour</strong></td><td style="padding:10px;">Upwork's <em>median</em> for all VAs on the platform &mdash; not a beginner rate. See the caveat below.</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>BLS, May 2025</strong></td><td style="padding:10px;"><strong>$47,540</strong> median</td><td style="padding:10px;">Employed administrative assistants (10th percentile $33,280, 90th $66,350)</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">BLS, May 2025</td><td style="padding:10px;"><strong>$76,590</strong> median</td><td style="padding:10px;">Executive assistants (90th percentile $109,850)</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">ONS, 2025</td><td style="padding:10px;">&pound;25,233 all employees; <strong>&pound;34,954</strong> full-time</td><td style="padding:10px;">UK personal assistants and other secretaries (90th percentile &pound;48,675)</td></tr>
@@ -212,6 +214,20 @@ JOBHTML;
 </div>
 
 <p>Two corrections worth carrying away. The <strong>"&pound;60,000 and above" figure repeated for specialist UK VA work sits above the 90th percentile</strong> of the nearest official occupation, so treat it as marketing. And the jump from $47,540 to $76,590 is the real career ladder here: it is the difference between general admin support and executive-level support.</p>
+
+<h2>About That $10 to $20 an Hour</h2>
+
+<p>This figure is quoted in almost every article about becoming a VA, usually as what beginners earn. Read Upwork's own page carefully and three things change.</p>
+
+<p><strong>It is a median, not a starting rate.</strong> Upwork labels $10 to $20 an hour as the median hourly rate for virtual assistants on the platform &mdash; that is the middle of everyone, experienced freelancers included, not the bottom rung.</p>
+
+<p><strong>The tier table it sits in describes a different market.</strong> Upwork's rate tiers run from $12 to $20 and upwards for administrative and data entry work, $20 to $35 and upwards for marketing and customer service support, and $38 to $50 and upwards for executive-level work. The footnote under that table is the part nobody quotes: the rates <em>"reflect rates charged by freelancers on Upwork in North America with over 1,000 hours and 90% success rate"</em>. So it describes established North American freelancers, not a new account anywhere else.</p>
+
+<p><strong>Upwork's own Pakistan page tells a different story.</strong> On its directory of virtual assistants in Pakistan, advertised profile rates were as low as <strong>$5, $8 and $10 an hour</strong> &mdash; at or below the bottom of that median band.</p>
+
+<p>And all of those are gross. The platform fee comes off the top, and the section below shows what that leaves.</p>
+
+<p>None of this means you should accept $5 an hour. It means the $10 to $20 figure is a target to work towards with a track record, not a rate you can expect in your first month, and quoting it at yourself as a floor will mostly produce silence.</p>
 
 <h2>Platform Fees Change the Rate You Quote</h2>
 
@@ -279,7 +295,7 @@ JOBHTML;
 <p>No. The nearest official occupation, administrative assistant, has a high school diploma as its typical entry-level education, and clients hire on demonstrated organisation, communication and tools.</p>
 
 <h3>What should a beginner charge?</h3>
-<p>Upwork's own guidance says most beginner VAs on the platform charge $10 to $20 an hour. Set your take-home first, then add the platform fee.</p>
+<p>Do not price from the $10 to $20 figure without reading the caveat above it. Set your take-home first, then add the platform fee on top.</p>
 
 <h3>Is there an official virtual assistant salary?</h3>
 <p>No. There is no government occupation by that name. The closest official medians for May 2025 are $47,540 for administrative assistants and $76,590 for executive assistants.</p>
@@ -302,7 +318,7 @@ JOBHTML;
 <h2>People Also Search For</h2>
 
 <h3>Virtual assistant hourly rate</h3>
-<p>$10 to $20 an hour for beginners, on Upwork's own figures.</p>
+<p>$10 to $20 an hour is Upwork's median for all VAs, sourced to North American freelancers with 1,000 hours and a 90% success rate. Its own Pakistan directory showed rates from $5.</p>
 
 <h3>Executive assistant salary</h3>
 <p>$76,590 median in May 2025, against $47,540 for administrative assistants.</p>
