@@ -327,6 +327,7 @@ JOBHTML;
     <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a> &mdash; remote work pay, taxes and who covers your equipment.</li>
     <li><a href="/blog/entry-level-it-jobs">Entry Level IT Jobs</a> &mdash; every first IT job compared, and why support jobs are projected to shrink.</li>
     <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; general customer service pay and why technical support is the better-paid path.</li>
+    <li><a href="/blog/how-to-apply-for-microsoft-it-support-jobs-in-the-usa">How to Apply for Microsoft IT Support Jobs in the USA</a> &mdash; what the largest employer in this field actually pays, and why it will not sponsor you.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers or financial advice. Pay, projections, certification exams and contract requirements change and differ between employers and states. Confirm the current position with the employer, the BLS and CompTIA before applying or paying for training.</p>

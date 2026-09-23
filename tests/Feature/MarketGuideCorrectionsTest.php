@@ -4904,6 +4904,94 @@ it('prices appointment setting from live listings and states the calling law exa
     }
 });
 
+it('publishes the visa bar and the dead link on the Barclays guide', function () {
+    $this->seed(Database\Seeders\BarclaysCustomerServiceJobsUkBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-barclays-customer-service-jobs-in-the-uk')->value('content');
+
+    expect($content)
+        // The draft omitted this entirely while quoting Barclays' sponsorship
+        // boilerplate, which reads as an offer. Every code here is Ineligible.
+        ->toContain('7211')
+        ->toContain('4123')
+        ->toContain('Ineligible')
+        ->toContain('it means the role cannot be sponsored at any salary')
+        ->toContain('&pound;41,700')
+        // The draft's primary apply link, cited seven times, is a 404.
+        ->toContain('We are sorry this job post no longer exists.')
+        // Fifteen results, eleven of them genuine UK customer service jobs.
+        ->toContain('the real number of live UK customer service vacancies is eleven')
+        ->toContain('there is no live role called "Customer Service Associate."')
+        // ONS puts Barclays just under the sector median, not above it.
+        ->toContain('&pound;28,036')
+        ->toContain('&pound;26,700')
+        ->toContain('&pound;12.71')
+        // The apprenticeship is closed to anyone who needs a visa.
+        ->toContain('three-year residence requirement')
+        ->toContain('25 September 2026');
+});
+
+it('publishes the sponsorship clause and the platform move on the Microsoft guide', function () {
+    $this->seed(Database\Seeders\MicrosoftItSupportJobsUsaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-microsoft-it-support-jobs-in-the-usa')->value('content');
+
+    expect($content)
+        // Microsoft's own sentence, which the draft never quoted.
+        ->toContain('This position is not eligible for visa sponsorship.')
+        ->toContain('verification of U.S. citizenship')
+        // All three of the draft's apply links point at the retired platform.
+        ->toContain('apply.careers.microsoft.com')
+        // The page names the retired URL in order to warn readers off it, so
+        // this asserts the warning rather than the absence of the string.
+        ->toContain('redirects to a generic marketing homepage')
+        ->toContain('strips your search terms on the way')
+        // The draft's headline career path has no jobs in it.
+        ->toContain('Corporate Technology Support is the category every guide names')
+        ->toContain('zero')
+        // Frontline pay, not the IC6 band the draft would have implied.
+        ->toContain('USD 23.65 to 37.07 an hour')
+        ->toContain('USD 61,860')
+        ->toContain('decline 3 per cent')
+        // Dead search advice and the Latin America filing error.
+        ->toContain('Microsoft simply does not use those titles')
+        ->toContain('Fort Lauderdale is not a US location');
+});
+
+it('publishes the award rates and the visa reality on the Woolworths guide', function () {
+    $this->seed(Database\Seeders\WoolworthsSupermarketJobsAustraliaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-woolworths-supermarket-jobs-in-australia')->value('content');
+
+    expect($content)
+        // The draft said pay "varies" and sent readers to an advert that
+        // carries no rate at all. It is set by an enterprise agreement.
+        ->toContain('Woolworths Australian Food Group Agreement 2024')
+        ->toContain('17 April 2028')
+        ->toContain('$26.07 an hour')
+        ->toContain('$27.81 an hour')
+        ->toContain('$34.76')
+        ->toContain('$48.67')
+        // Derived figures are labelled as derived, not published.
+        ->toContain('it is arithmetic, not a published rate')
+        // Junior rates, absent from a draft aimed at students.
+        ->toContain('$13.91 an hour')
+        ->toContain('100 per cent immediately')
+        // No sponsorship pathway exists for this occupation code.
+        ->toContain('621111')
+        ->toContain('no Australian skilled occupation list at all')
+        ->toContain('48 hours per fortnight')
+        ->toContain('Pakistan is on neither list')
+        // Four dead job IDs, and a role title with no vacancies behind it.
+        ->toContain('An error has occurred. Page not found.')
+        ->toContain('there is no job called "Online Assistant"')
+        // Woolworths' own anti-scam advice points at a host that is down.
+        ->toContain('wowcareers.com.au no longer loads')
+        // Figures the draft mis-sourced or let go stale.
+        ->toContain('Neither the 2024 nor the 2025 report contains that phrase')
+        ->toContain('48,000 team members');
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -5059,6 +5147,9 @@ it('resolves every internal link the new guides publish', function () {
         'b2b-lead-research-jobs',
         'online-research-assistant-jobs',
         'appointment-setting-jobs',
+        'how-to-apply-for-microsoft-it-support-jobs-in-the-usa',
+        'how-to-apply-for-barclays-customer-service-jobs-in-the-uk',
+        'how-to-apply-for-woolworths-supermarket-jobs-in-australia',
     ];
 
     foreach ($guides as $guide) {

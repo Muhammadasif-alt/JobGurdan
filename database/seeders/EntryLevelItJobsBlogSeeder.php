@@ -355,6 +355,7 @@ JOBHTML;
     <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the development route and its pay.</li>
     <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a> &mdash; testing work across the border.</li>
     <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; the same first job in Britain.</li>
+    <li><a href="/blog/how-to-apply-for-microsoft-it-support-jobs-in-the-usa">How to Apply for Microsoft IT Support Jobs in the USA</a> &mdash; the real entry-level pay band at Microsoft, and the categories that have no jobs in them.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers advice. Wage data, employment projections and certification exam versions change. Confirm current details with BLS, CompTIA and employers before choosing a course or applying.</p>

@@ -12,6 +12,36 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'woolworths supermarket' => [
+        'how-to-apply-for-woolworths-supermarket-jobs-in-australia',
+        Database\Seeders\WoolworthsSupermarketJobsAustraliaBlogSeeder::class,
+        [
+            'how-to-apply-for-woolworths-supermarket-jobs-in-australia-checkout.jpg',
+            'how-to-apply-for-woolworths-supermarket-jobs-in-australia-online.jpg',
+        ],
+        'https://careers.woolworthsgroup.com.au/en_GB/apply/search-jobs',
+        'Store Team Member,',
+    ],
+    'microsoft it support' => [
+        'how-to-apply-for-microsoft-it-support-jobs-in-the-usa',
+        Database\Seeders\MicrosoftItSupportJobsUsaBlogSeeder::class,
+        [
+            'how-to-apply-for-microsoft-it-support-jobs-in-the-usa-helpdesk.jpg',
+            'how-to-apply-for-microsoft-it-support-jobs-in-the-usa-remote.jpg',
+        ],
+        'https://apply.careers.microsoft.com/careers',
+        'IT Support and Data Centre Technician,',
+    ],
+    'barclays customer service' => [
+        'how-to-apply-for-barclays-customer-service-jobs-in-the-uk',
+        Database\Seeders\BarclaysCustomerServiceJobsUkBlogSeeder::class,
+        [
+            'how-to-apply-for-barclays-customer-service-jobs-in-the-uk-contactcentre.jpg',
+            'how-to-apply-for-barclays-customer-service-jobs-in-the-uk-branch.jpg',
+        ],
+        'https://search.jobs.barclays/uk-customer-care',
+        'Customer Service Advisor,',
+    ],
     'appointment setting' => [
         'appointment-setting-jobs',
         Database\Seeders\AppointmentSettingJobsBlogSeeder::class,
@@ -1062,6 +1092,10 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
         'how-to-apply-for-singapore-airlines-cabin-crew-jobs' => ['SGD', '4000', '5000'],
         // Toyota's own unconditional basic daily wage, not its loaded example.
         'how-to-apply-for-toyota-factory-jobs-in-japan' => ['JPY', '11150', '12450'],
+        // Barclays prints a salary on most of its own customer service
+        // postings: GBP 26,700 on the Isle of Wight role, GBP 27,700 on the
+        // rest. Two postings publish nothing, which the guide says outright.
+        'how-to-apply-for-barclays-customer-service-jobs-in-the-uk' => ['GBP', '26700', '27700'],
     ];
 
     $this->seed($seeder);
