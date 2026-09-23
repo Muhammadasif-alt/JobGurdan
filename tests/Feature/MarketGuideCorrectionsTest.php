@@ -4992,6 +4992,38 @@ it('publishes the award rates and the visa reality on the Woolworths guide', fun
         ->toContain('48,000 team members');
 });
 
+it('publishes the missing job title and the location trap on the Elementor guide', function () {
+    $this->seed(Database\Seeders\WordpressElementorJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'wordpress-elementor-jobs')->value('content');
+
+    expect($content)
+        // The draft was built around a job title that no employer uses.
+        ->toContain('The number titled "Elementor Developer" was zero.')
+        ->toContain('one Elementor-titled advert against seven where it is merely a listed skill')
+        // "Remote" on these boards routinely means one country, or citizenship.
+        ->toContain('Six were open to someone applying from Pakistan.')
+        ->toContain('hold American citizenship')
+        ->toContain('located in India only')
+        // 10up is not an employer any more.
+        ->toContain('10up no longer exists as an employer')
+        ->toContain('Fueled')
+        // Elementor the company is not meaningfully hiring.
+        ->toContain('AppSec Architect')
+        ->toContain('Ramat Gan')
+        // The board the draft never named is the best one in the article.
+        ->toContain('jobs.wordpress.net')
+        ->toContain('expire after 21 days')
+        // Pay, which the draft omitted entirely.
+        ->toContain('PKR 15,000 to PKR 170,000')
+        ->toContain('median of <strong>PKR 50,000</strong>')
+        ->toContain('USD 99,520')
+        // V4 shipped; treating it as a preview dates the piece.
+        ->toContain('31 March 2026')
+        ->toContain('4.3.0')
+        ->toContain('sections and columns are not removed, but they are legacy');
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -5150,6 +5182,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-microsoft-it-support-jobs-in-the-usa',
         'how-to-apply-for-barclays-customer-service-jobs-in-the-uk',
         'how-to-apply-for-woolworths-supermarket-jobs-in-australia',
+        'wordpress-elementor-jobs',
     ];
 
     foreach ($guides as $guide) {

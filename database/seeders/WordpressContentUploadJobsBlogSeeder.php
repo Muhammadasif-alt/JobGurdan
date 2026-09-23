@@ -468,6 +468,7 @@ JOBHTML;
     <li><a href="/blog/on-page-seo-assistant-jobs">On-Page SEO Assistant Jobs</a> &mdash; what Google actually documents, and the checklist rules that have no official basis.</li>
     <li><a href="/blog/local-seo-assistant-jobs">Local SEO Assistant Jobs</a> &mdash; Business Profiles, reviews and maps, and the two instructions worth refusing.</li>
     <li><a href="/blog/canva-social-media-jobs">Canva Social Media Jobs</a> &mdash; which Canva features are free, and what the licence allows in client work.</li>
+    <li><a href="/blog/wordpress-elementor-jobs">WordPress Elementor Jobs</a> &mdash; the page-builder skill these roles ask for, and what it pays in PKR.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Rates, client requirements and payment arrangements vary widely and change, so confirm everything in writing with the individual employer before starting work. Never pay anyone to secure a job, and never return an "overpayment" to a client.</p>

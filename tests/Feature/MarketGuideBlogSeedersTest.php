@@ -12,6 +12,13 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'wordpress elementor' => [
+        'wordpress-elementor-jobs',
+        Database\Seeders\WordpressElementorJobsBlogSeeder::class,
+        ['wordpress-elementor-jobs-portfolio.jpg', 'wordpress-elementor-jobs-remote.jpg'],
+        'https://jobs.wordpress.net/',
+        'WordPress Developer,',
+    ],
     'woolworths supermarket' => [
         'how-to-apply-for-woolworths-supermarket-jobs-in-australia',
         Database\Seeders\WoolworthsSupermarketJobsAustraliaBlogSeeder::class,
