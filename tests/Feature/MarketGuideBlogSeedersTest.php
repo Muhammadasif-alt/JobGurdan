@@ -12,6 +12,23 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'appointment setting' => [
+        'appointment-setting-jobs',
+        Database\Seeders\AppointmentSettingJobsBlogSeeder::class,
+        // No inline images: no banner set was supplied for this guide.
+        [],
+        'https://www.rozee.pk/',
+        'Appointment Setter',
+    ],
+    'online research assistant' => [
+        'online-research-assistant-jobs',
+        Database\Seeders\OnlineResearchAssistantJobsBlogSeeder::class,
+        // No inline images: no banner set was supplied for this guide, and the
+        // unused folders on hand all carry another job title in the artwork.
+        [],
+        'https://www.mustakbil.com/',
+        'Online Research Assistant',
+    ],
     'canva social media' => [
         'canva-social-media-jobs',
         Database\Seeders\CanvaSocialMediaJobsBlogSeeder::class,

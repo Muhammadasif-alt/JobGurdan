@@ -462,6 +462,7 @@ JOBHTML;
     <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a> &mdash; the titles that surface vacancies, and the tools that get accounts restricted.</li>
     <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; the adjacent role, and how to spot a scam listing.</li>
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; realistic entry points and what they pay.</li>
+    <li><a href="/blog/online-research-assistant-jobs">Online Research Assistant Jobs</a> &mdash; the wider research job market, and the advert pattern to refuse.</li>
 </ul>
 HTML;
     }

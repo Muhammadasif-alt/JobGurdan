@@ -195,7 +195,7 @@ JOBHTML;
 
 <p>We opened every local SEO listing that search engines presented as current. Five of them, on their own pages, had closed between <strong>March 2025 and January 2026</strong>. One search summary confidently reported a salary of PKR 40,000 to 50,000 and a 7pm to 4am shift for a listing whose page shows <strong>no salary at all</strong> and was posted in December 2025.</p>
 
-<p>So: open the listing and read its own <strong>posting date</strong> and <strong>apply before</strong> fields. On Rozee there is a quick test &mdash; an expired job redirects away to a different domain rather than showing you the page. If you land somewhere other than the job, it is closed.</p>
+<p>So: open the listing and read its own <strong>posting date</strong> and <strong>apply before</strong> fields. Rozee signals a closed job in two different ways, and you need to know both. Sometimes it redirects you away to another domain entirely, in which case the job is plainly gone. But it will also load the page normally, with the full description still in place, and put a line inside it reading <strong>"This employer is no longer accepting CVs for this job, it has been deactivated by the company's administrator."</strong> A page that opens is not a page that is hiring. Read it before you spend an hour on the application.</p>
 
 <h2>The First Thing These Jobs Ask For, and Why You Should Refuse</h2>
 

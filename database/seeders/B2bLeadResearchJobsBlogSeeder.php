@@ -633,6 +633,8 @@ JOBHTML;
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; realistic entry points and what they pay.</li>
     <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a> &mdash; a broader remote route that often includes research work.</li>
     <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a> &mdash; what the daily quotas really mean once you do the arithmetic.</li>
+    <li><a href="/blog/online-research-assistant-jobs">Online Research Assistant Jobs</a> &mdash; the same label used by academic, commercial and fake listings alike, and how to tell them apart.</li>
+    <li><a href="/blog/appointment-setting-jobs">Appointment Setting Jobs</a> &mdash; what happens to the list once it is built, and the calling law that governs it.</li>
 </ul>
 HTML;
     }

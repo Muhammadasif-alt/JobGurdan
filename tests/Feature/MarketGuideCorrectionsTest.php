@@ -4801,6 +4801,109 @@ it('names the two local SEO tasks Google warns against and sizes the Pakistani m
     }
 });
 
+it('refuses the planted advert and publishes only the confirmed occupation data', function () {
+    $this->seed(Database\Seeders\OnlineResearchAssistantJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'online-research-assistant-jobs')->value('content');
+
+    expect($content)
+        // The brief's apply link was a fake job board on a hijacked subdomain.
+        // It must never appear, in any form, anywhere on the page.
+        ->not->toContain('sofrep')
+        ->not->toContain('brownstoner')
+        ->not->toContain('The Elite Job')
+        // What replaced it: the pattern, in enough detail to be reusable.
+        ->toContain('627')
+        ->toContain('Indeed Jobs USA')
+        ->toContain('comment box')
+        ->toContain('Competitive compensation based on project completion and quality of work.')
+        // The title is not an occupation, and saying so is the page's spine.
+        ->toContain('867 detailed occupations')
+        ->toContain('19-4061')
+        // Only the three medians confirmed in both OEWS and O*NET are published.
+        ->toContain('$29.81')
+        ->toContain('$33.40')
+        ->toContain('$37.87')
+        // Fabricated and inapplicable pay claims stay out.
+        ->not->toContain('$500 to $1,000 a week')
+        ->not->toContain('ITJobsWatch')
+        ->not->toContain('$19.54')
+        ->not->toContain('$24.20')
+        // The rand band is named only to correct it, never as a rate on offer.
+        ->toContain('fully remote from South Africa')
+        ->toContain('R23,000 to R25,000')
+        // The FTC names the neighbouring titles, not this one. Saying it names
+        // research assistant would be the easy, wrong sentence to write.
+        ->toContain('does not name "research assistant"')
+        ->toContain('$90 million in 2020 to $501 million in 2024')
+        ->not->toContain('utm_source=chatgpt.com')
+        ->not->toContain('citeturn');
+
+    $siblings = [
+        'b2b-lead-research-jobs' => Database\Seeders\B2bLeadResearchJobsBlogSeeder::class,
+        'contact-list-building-jobs' => Database\Seeders\ContactListBuildingJobsBlogSeeder::class,
+        'lead-generation-assistant-jobs' => Database\Seeders\LeadGenerationAssistantJobsBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/online-research-assistant-jobs');
+    }
+});
+
+it('prices appointment setting from live listings and states the calling law exactly', function () {
+    $this->seed(Database\Seeders\AppointmentSettingJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'appointment-setting-jobs')->value('content');
+
+    expect($content)
+        // Every circulating dollar figure failed verification. The page names
+        // each one in order to kill it, so these assert the refutation rather
+        // than the absence -- the figures have to appear for that to work.
+        ->toContain('$3.00 an hour')
+        ->toContain('$120 a week')
+        ->toContain('roughly six times the real one')
+        ->toContain('Neither appears in any listing')
+        ->toContain('no listing anywhere states a 5 percent commission')
+        // The real advertised spread, read from listing pages.
+        ->toContain('PKR 30,000 at the very bottom to PKR 150,000 at the top')
+        ->toContain('7:00 PM to 4:00 AM')
+        // Exact BLS figures, not the rounded ones the source material used.
+        ->toContain('-21.4%')
+        ->toContain('$35,450')
+        ->toContain('2.7 percent')
+        ->toContain('$69,990')
+        // The ORS frequency label is "every few minutes", not "constantly".
+        ->toContain('every few minutes')
+        ->not->toContain('required constantly')
+        // Rule text, not anybody's summary of it.
+        ->toContain('any person within the United States, or any person outside the United States if the recipient is within the United States')
+        ->toContain('8:00 a.m. to 9:00 p.m., local time at the called person\'s location')
+        ->toContain('no more than 31 days before the call is made')
+        ->toContain('$53,088 per violation')
+        // Two claims most 2026 articles still get wrong, pinned here.
+        ->toContain('five years, not two')
+        ->toContain('never took effect')
+        ->toContain('30 April 2025')
+        // Trebling is discretionary. "Automatically" would be the easy error.
+        ->toContain('trebling is discretionary, not automatic')
+        ->not->toContain('utm_source=chatgpt.com')
+        ->not->toContain('citeturn');
+
+    $siblings = [
+        'lead-generation-assistant-jobs' => Database\Seeders\LeadGenerationAssistantJobsBlogSeeder::class,
+        'b2b-lead-research-jobs' => Database\Seeders\B2bLeadResearchJobsBlogSeeder::class,
+        'how-to-find-lead-generation-jobs-on-linkedin' => Database\Seeders\FindLeadGenerationJobsLinkedinBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/appointment-setting-jobs');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -4954,6 +5057,8 @@ it('resolves every internal link the new guides publish', function () {
         'lead-generation-assistant-jobs',
         'how-to-find-lead-generation-jobs-on-linkedin',
         'b2b-lead-research-jobs',
+        'online-research-assistant-jobs',
+        'appointment-setting-jobs',
     ];
 
     foreach ($guides as $guide) {

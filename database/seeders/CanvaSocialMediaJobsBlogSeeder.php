@@ -279,6 +279,8 @@ JOBHTML;
 
 <p><strong>Salaried Pakistani roles</strong> are the steadier end, and the real picture differs from what gets written about it. We checked every live Pakistani listing on the board that publishes salary bands &mdash; 884 of them &mdash; and read the full description of each. <strong>Thirty mention Canva: about one in thirty.</strong> Ten of those thirty are remote. Here is the spread:</p>
 
+<p>A second check on the other main board, on the same day, found <strong>48 more live listings</strong> that name Canva &mdash; concentrated in Lahore, Karachi and Islamabad, with no employer appearing on both boards. So the national figure is roughly <strong>78 live vacancies</strong> asking for Canva, not the handful the courses imply and not the flood they promise either. One caveat about that second board: <strong>only 8 of its 48 Canva listings publish a salary at all</strong>, because it lets employers hide the figure. Any "typical Canva salary" drawn from it rests on a small, self-selected sample, which is why the bands below come from the board that shows its numbers.</p>
+
 <table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
