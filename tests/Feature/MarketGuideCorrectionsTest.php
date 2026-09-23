@@ -5060,6 +5060,85 @@ it('publishes the Blue Card route and the anabin traps on the SAP guide', functi
         ->toContain('missed the EU pay-transparency deadline');
 });
 
+it('publishes the occupation code and the pay-to-visa gap on the CSL guide', function () {
+    $this->seed(Database\Seeders\CslLaboratoryJobsAustraliaBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-csl-laboratory-jobs-in-australia')->value('content');
+
+    expect($content)
+        // The draft used the wrong code; 234513 is Biochemist, not MLS.
+        ->toContain('234513 is Biochemist')
+        ->toContain('234611')
+        ->toContain('MLTSSL')
+        // The draft said pay could not be stated. The agreement publishes it.
+        ->toContain('AUD 77,276')
+        ->toContain('AUD 79,423')
+        ->toContain('AUD 80,093')
+        ->toContain('AUD 66,825')
+        // Where the scale crosses the sponsorship floor, which nobody prints.
+        ->toContain('cannot realistically sponsor an overseas hire into its entry-level classification')
+        // CSL gives no expiry message at all.
+        ->toContain('404 error. Page not found.')
+        ->toContain('no longer exists')
+        // Graduate programme is closed to this readership.
+        ->toContain('Australian Permanent Residency status at the time of application')
+        // Parkville is not closed, but nothing is advertised there.
+        ->toContain('no Parkville vacancies');
+});
+
+it('publishes the Emiratisation bar and the free zone sponsor on the DP World guide', function () {
+    $this->seed(Database\Seeders\DpWorldPortJobsUaeBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-dp-world-port-jobs-in-uae')->value('content');
+
+    expect($content)
+        // The UAE careers page is the Emiratisation page.
+        ->toContain('permanently redirects')
+        ->toContain('Family Book')
+        ->toContain('no early-career entry point in the UAE')
+        // The sponsor is the free zone, not the employer.
+        ->toContain('JAFZA')
+        ->toContain('sponsored by the respective free zone authority and not by their employer')
+        // Pay and gratuity, absent from the draft.
+        ->toContain('There is no minimum salary stipulated in the UAE Labour Law')
+        ->toContain('21 days')
+        ->toContain('basic salary only')
+        // Rules the draft would have got wrong.
+        ->toContain('the three-year cap is gone')
+        ->toContain('the recruitment cost is repaid by your new employer')
+        ->toContain('not Friday by law')
+        // The refundable deposit is the reader's main protection.
+        ->toContain('refundable deposit')
+        ->toContain('Rs 15,000');
+});
+
+it('publishes the five-year registration bar on the SABIC guide', function () {
+    $this->seed(Database\Seeders\SabicManufacturingJobsSaudiBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-sabic-manufacturing-jobs-in-saudi-arabia')->value('content');
+
+    expect($content)
+        // The rule that closes the fresh-graduate route entirely.
+        ->toContain('less than five years of experience shall not be accepted')
+        ->toContain('saudieng.sa')
+        // Every training programme is Saudi-only.
+        ->toContain('The applicant has to be Saudi')
+        ->toContain('The applicant must be a Saudi national.')
+        // Saudization, omitted by the draft.
+        ->toContain('30 per cent Saudization')
+        ->toContain('no Yellow band')
+        // Pay and the costs that land on the worker.
+        ->toContain('Nitaqat counting threshold')
+        ->toContain('SAR 400 per dependant per month')
+        ->toContain('SAR 1,200 a month')
+        // The resignation scale the draft omits.
+        ->toContain('one third')
+        ->toContain('two thirds')
+        // Corrections to figures and portals.
+        ->toContain('over 3,000 classes')
+        ->toContain('domestic and support workers only');
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -5220,6 +5299,9 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-woolworths-supermarket-jobs-in-australia',
         'wordpress-elementor-jobs',
         'how-to-apply-for-sap-consultant-jobs-in-germany',
+        'how-to-apply-for-csl-laboratory-jobs-in-australia',
+        'how-to-apply-for-dp-world-port-jobs-in-uae',
+        'how-to-apply-for-sabic-manufacturing-jobs-in-saudi-arabia',
     ];
 
     foreach ($guides as $guide) {

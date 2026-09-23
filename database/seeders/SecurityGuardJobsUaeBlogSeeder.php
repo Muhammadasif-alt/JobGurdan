@@ -343,6 +343,7 @@ Offer B: <strong>AED 1,200 basic plus AED 800 in allowances</strong>, same accom
     <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; the height and reach rules, what Emirates publishes on pay, and how the Open Day works.</li>
     <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; another sponsored Gulf route, in Oman rather than the UAE.</li>
     <li><a href="/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs">How to Apply for Kuwait Airways Cabin Crew Jobs</a> &mdash; the Gulf carrier whose careers portal most guides cannot find.</li>
+    <li><a href="/blog/how-to-apply-for-dp-world-port-jobs-in-uae">How to Apply for DP World Port Jobs in UAE</a> &mdash; UAE gratuity, the free zone sponsor trap and how to check an offer is real.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or financial advice. Licensing rules, labour law provisions and salary levels change, and figures on any job board are a moving average rather than a statistic. Confirm the current position with SIRA or the Private Security Business Department as applicable, and with the employer's own advertisement, before applying or paying for any training.</p>

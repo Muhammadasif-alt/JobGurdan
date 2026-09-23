@@ -12,6 +12,36 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'sabic saudi' => [
+        'how-to-apply-for-sabic-manufacturing-jobs-in-saudi-arabia',
+        Database\Seeders\SabicManufacturingJobsSaudiBlogSeeder::class,
+        [
+            'how-to-apply-for-sabic-manufacturing-jobs-in-saudi-arabia-plant.jpg',
+            'how-to-apply-for-sabic-manufacturing-jobs-in-saudi-arabia-control.jpg',
+        ],
+        'https://jobs.sabic.com/',
+        'Process and Maintenance Engineer,',
+    ],
+    'dp world uae' => [
+        'how-to-apply-for-dp-world-port-jobs-in-uae',
+        Database\Seeders\DpWorldPortJobsUaeBlogSeeder::class,
+        [
+            'how-to-apply-for-dp-world-port-jobs-in-uae-terminal.jpg',
+            'how-to-apply-for-dp-world-port-jobs-in-uae-crane.jpg',
+        ],
+        'https://www.dpworld.com/en/careers/vacancies',
+        'Port and Terminal Operations,',
+    ],
+    'csl laboratory australia' => [
+        'how-to-apply-for-csl-laboratory-jobs-in-australia',
+        Database\Seeders\CslLaboratoryJobsAustraliaBlogSeeder::class,
+        [
+            'how-to-apply-for-csl-laboratory-jobs-in-australia-bench.jpg',
+            'how-to-apply-for-csl-laboratory-jobs-in-australia-quality.jpg',
+        ],
+        'https://jobs.csl.com/en/jobs',
+        'Laboratory Scientist,',
+    ],
     'sap consultant germany' => [
         'how-to-apply-for-sap-consultant-jobs-in-germany',
         Database\Seeders\SapConsultantJobsGermanyBlogSeeder::class,
@@ -1110,6 +1140,9 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
         // postings: GBP 26,700 on the Isle of Wight role, GBP 27,700 on the
         // rest. Two postings publish nothing, which the guide says outright.
         'how-to-apply-for-barclays-customer-service-jobs-in-the-uk' => ['GBP', '26700', '27700'],
+        // CSL publishes no salary on its adverts, but its enterprise
+        // agreement AE533409 publishes the whole scale: CSL 1.1 to CSL 5.
+        'how-to-apply-for-csl-laboratory-jobs-in-australia' => ['AUD', '77276', '134764'],
     ];
 
     $this->seed($seeder);

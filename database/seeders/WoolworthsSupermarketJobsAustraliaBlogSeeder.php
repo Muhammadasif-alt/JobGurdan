@@ -401,6 +401,7 @@ JOBHTML;
     <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a></li>
     <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a></li>
     <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a></li>
+    <li><a href="/blog/how-to-apply-for-csl-laboratory-jobs-in-australia">How to Apply for CSL Laboratory Jobs in Australia</a> &mdash; an Australian occupation that IS on the skilled list, and what it pays.</li>
 </ul>
 HTML;
     }
