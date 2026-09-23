@@ -12,6 +12,13 @@ use App\Services\StructuredDataService;
  * and it means a tenth guide only has to add a row.
  */
 dataset('market guides', [
+    'sap consultant germany' => [
+        'how-to-apply-for-sap-consultant-jobs-in-germany',
+        Database\Seeders\SapConsultantJobsGermanyBlogSeeder::class,
+        ['how-to-apply-for-sap-consultant-jobs-in-germany-office.jpg'],
+        'https://careers.sap.com/go/Consulting-Jobs-in-Germany/863301/',
+        'SAP Consultant,',
+    ],
     'wordpress elementor' => [
         'wordpress-elementor-jobs',
         Database\Seeders\WordpressElementorJobsBlogSeeder::class,

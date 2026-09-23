@@ -329,6 +329,7 @@ JOBHTML;
     <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a> &mdash; 622 French vacancies, and how many need a security clearance.</li>
     <li><a href="/blog/how-to-apply-for-asml-semiconductor-jobs-in-netherlands">How to Apply for ASML Semiconductor Jobs in Netherlands</a> &mdash; published salary ranges, and which of them clear the Dutch visa threshold.</li>
     <li><a href="/blog/how-to-apply-for-toyota-factory-jobs-in-japan">How to Apply for Toyota Factory Jobs in Japan</a> &mdash; free dormitories, forfeitable bonuses, and the residence status it quietly requires.</li>
+    <li><a href="/blog/how-to-apply-for-sap-consultant-jobs-in-germany">How to Apply for SAP Consultant Jobs in Germany</a> &mdash; what a German professional salary looks like after tax, and the anabin degree check.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using BMW Group Careers and BMW plant pages, BMW Group press releases, IG Metall collective agreement terms, Federal Statistical Office earnings data and the official Make it in Germany information on visas. BMW does not publish pay for individual roles, and collective agreements and visa thresholds change. Always check the live posting and the official visa guidance before you commit.</p>

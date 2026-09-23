@@ -5024,6 +5024,42 @@ it('publishes the missing job title and the location trap on the Elementor guide
         ->toContain('sections and columns are not removed, but they are legacy');
 });
 
+it('publishes the Blue Card route and the anabin traps on the SAP guide', function () {
+    $this->seed(Database\Seeders\SapConsultantJobsGermanyBlogSeeder::class);
+
+    $content = Blog::where('slug', 'how-to-apply-for-sap-consultant-jobs-in-germany')->value('content');
+
+    expect($content)
+        // The draft omitted the visa entirely, which on this page is the story.
+        ->toContain('EUR 50,700')
+        ->toContain('EUR 45,934.20')
+        ->toContain('IT is a shortage occupation')
+        // The route that needs no degree, absent from every competing guide.
+        ->toContain('without a university degree')
+        ->toContain('Three years of relevant professional experience')
+        ->toContain('no degree, no anabin check, no ZAB certificate evaluation')
+        // SAP migrated its careers site and the draft's ten links all broke.
+        ->toContain('DO NOT APPLY')
+        ->toContain('careers.sap.com')
+        ->toContain('Diese Stelle wurde leider bereits besetzt.')
+        // Pay, which the draft said could not be stated.
+        ->toContain('EUR 6,244 a month')
+        ->toContain('EUR 32,337')
+        // Garching, not Walldorf, is the consulting centre.
+        ->toContain('consulting centre, not Walldorf')
+        // German is the real barrier, and posting language does not show it.
+        ->toContain('13 explicitly require or prefer German')
+        // SAP advertises no sponsorship; do not let the page imply otherwise.
+        ->toContain('Zero results.')
+        // The anabin traps, specific to Pakistani applicants.
+        ->toContain('Quaid-i-Azam University')
+        ->toContain('Bedingt vergleichbar')
+        ->toContain('does not list colleges')
+        // Two claims that would otherwise date the page.
+        ->toContain('is from January 2024')
+        ->toContain('missed the EU pay-transparency deadline');
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -5183,6 +5219,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-barclays-customer-service-jobs-in-the-uk',
         'how-to-apply-for-woolworths-supermarket-jobs-in-australia',
         'wordpress-elementor-jobs',
+        'how-to-apply-for-sap-consultant-jobs-in-germany',
     ];
 
     foreach ($guides as $guide) {

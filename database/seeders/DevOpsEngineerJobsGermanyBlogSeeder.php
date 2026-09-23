@@ -330,6 +330,7 @@ JOBHTML;
     <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a> &mdash; the CE licence and code 95 rules, official pay and the driver visa route.</li>
     <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; the nine plants, the apprenticeship route and the honest visa answer.</li>
     <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a> &mdash; and which of the three Siemens companies actually hires you.</li>
+    <li><a href="/blog/how-to-apply-for-sap-consultant-jobs-in-germany">How to Apply for SAP Consultant Jobs in Germany</a> &mdash; the EU Blue Card salary floor for IT, and the route that needs no degree.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, tax or financial advice. Salary thresholds, contribution rates and immigration rules change every year. Confirm the current position with the employer, the German mission, Make it in Germany and a qualified tax adviser before applying or accepting an offer.</p>
