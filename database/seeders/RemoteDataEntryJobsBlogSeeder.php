@@ -319,6 +319,7 @@ JOBHTML;
     <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a> &mdash; what Fiverr and Upwork keep, and how freelance earnings are banked and taxed.</li>
     <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a> &mdash; the honest pay, the automation decline and the FTC scam signs, in one place.</li>
     <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a> &mdash; the entry-level remote role, and how to price it so it stays worth doing.</li>
+    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a> &mdash; the research craft behind a prospect list, and why a verified email often is not.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, financial or careers advice. Pay bands, minimum wage notifications and employer terms change &mdash; confirm the current figures for your province or country and get every offer in writing before starting work or sharing personal documents.</p>

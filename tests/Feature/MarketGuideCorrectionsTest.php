@@ -4609,6 +4609,62 @@ it('refuses to recommend the LinkedIn automation tools the draft listed and cuts
     }
 });
 
+it('refuses to present a borrowed BLS wage as this job\'s salary and teaches what verification cannot do', function () {
+    $this->seed(Database\Seeders\B2bLeadResearchJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'b2b-lead-research-jobs')->value('content');
+
+    expect($content)
+        // BLS tracks no occupation under any of these titles, so every salary
+        // figure published for this job is a substitution the author chose.
+        ->toContain('is not an occupation the US Bureau of Labor Statistics tracks at all')
+        ->toContain('the median annual wage for market research analysts was $78,760 in May 2025')
+        // The same job "pays" either figure depending on the stand-in picked.
+        ->toContain('$35,450')
+        ->toContain('$41,340')
+        ->toContain('spread of more than forty thousand dollars produced entirely by the choice of substitute')
+        // The draft said "verify the data" and stopped. That hides the skill,
+        // and the verification industry documents the limit itself.
+        ->toContain('accept-all')
+        ->toContain('no verification tool, including Hunter, can fully confirm deliverability')
+        ->toContain('always return a \'Valid\' response from the SMTP service, whether the address is valid or invalid')
+        ->toContain('It\'s not a live mailbox check.')
+        // Firmographic fields are modelled, and the vendors say so themselves.
+        ->toContain('the total number of LinkedIn members employed at the company over time')
+        ->toContain('lowest accuracy, often estimated from proxy signals with wide confidence bands')
+        ->toContain('modeled approximations, not audited figures')
+        // Free filed sources, with the limitation that matters on each.
+        ->toContain('find-and-update.company-information.service.gov.uk')
+        ->toContain('Companies House does not check the accuracy of what is filed with it')
+        ->toContain('it covers SEC filers')
+        // SECP's public tool is a name checker, not a company database.
+        ->toContain('name availability')
+        // Deduplicating on a company name cannot work; the domain can.
+        ->toContain('Deduplicate on the Domain, Never the Company Name')
+        // A rejected row proves judgement in a way accepted rows cannot.
+        ->toContain('Excluded, below ICP size floor')
+        // Research roles must not be paid against outreach outcomes.
+        ->toContain('are <em>not</em> research metrics')
+        // A Pakistani title with no international equivalent, and not research.
+        ->toContain('Online Bidder')
+        ->not->toContain('utm_source=chatgpt.com')
+        ->not->toContain('citeturn');
+
+    $siblings = [
+        'lead-generation-assistant-jobs' => Database\Seeders\LeadGenerationAssistantJobsBlogSeeder::class,
+        'how-to-find-lead-generation-jobs-on-linkedin' => Database\Seeders\FindLeadGenerationJobsLinkedinBlogSeeder::class,
+        'remote-data-entry-jobs' => Database\Seeders\RemoteDataEntryJobsBlogSeeder::class,
+        'remote-jobs-in-pakistan-with-no-experience' => Database\Seeders\RemoteJobsNoExperienceBlogSeeder::class,
+        'how-to-become-a-remote-virtual-assistant' => Database\Seeders\RemoteVirtualAssistantBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/b2b-lead-research-jobs');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
@@ -4759,6 +4815,9 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-kuwait-airways-cabin-crew-jobs',
         'how-to-apply-for-ferrari-factory-jobs-in-italy',
         'how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia',
+        'lead-generation-assistant-jobs',
+        'how-to-find-lead-generation-jobs-on-linkedin',
+        'b2b-lead-research-jobs',
     ];
 
     foreach ($guides as $guide) {

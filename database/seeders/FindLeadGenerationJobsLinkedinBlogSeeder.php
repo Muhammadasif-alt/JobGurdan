@@ -466,6 +466,7 @@ JOBHTML;
     <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a> &mdash; the lowest-barrier remote work on this site.</li>
     <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a> &mdash; a wider remote role with the same payment questions.</li>
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; realistic starting points, ranked.</li>
+    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a> &mdash; the research craft behind a prospect list, and why a verified email often is not.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. LinkedIn's features, limits, pricing and documentation change frequently, and in places its own help pages disagree with each other; check your own account before relying on any specific limit. Platform rules and enforcement are set by LinkedIn, not by JobGader. Never pay anyone to secure a job, and never run automation from an account you cannot afford to lose.</p>
