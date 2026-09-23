@@ -4665,6 +4665,91 @@ it('refuses to present a borrowed BLS wage as this job\'s salary and teaches wha
     }
 });
 
+it('does the quota arithmetic the contact list building draft skipped', function () {
+    $this->seed(Database\Seeders\ContactListBuildingJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'contact-list-building-jobs')->value('content');
+
+    expect($content)
+        // The quota is real, but the free tool budget is two orders of
+        // magnitude short of it, which is the reason this page exists.
+        ->toContain('500 to 1000 qualified contacts daily using primarily free tools')
+        ->toContain('<strong>33 times short</strong>')
+        ->toContain('<strong>73 times short</strong>')
+        ->toContain('arithmetically impossible')
+        // The advert the draft leaned on states no pay and excludes Pakistan.
+        ->toContain('Salary: unspecified')
+        ->toContain('USA Only')
+        // There is no export button, so the workflow cannot be the stated one.
+        ->toContain('LinkedIn currently doesn\'t offer the option to export account and lead information from Sales Navigator into a CSV or XLS file.')
+        // The precedent that shows what enforcement looks like here.
+        ->toContain('240,000 euros')
+        ->toContain('deleted its database and stopped collecting data on LinkedIn entirely')
+        // Absence of a Pakistani statute is not protection.
+        ->toContain('even if they are acting in their business capacity')
+        ->toContain('no later than one month')
+        // Free tiers fail for reasons that are not about credits.
+        ->toContain('three sets of lookup credits in total')
+        ->not->toContain('utm_source=chatgpt.com')
+        ->not->toContain('citeturn');
+
+    $siblings = [
+        'b2b-lead-research-jobs' => Database\Seeders\B2bLeadResearchJobsBlogSeeder::class,
+        'lead-generation-assistant-jobs' => Database\Seeders\LeadGenerationAssistantJobsBlogSeeder::class,
+        'how-to-find-lead-generation-jobs-on-linkedin' => Database\Seeders\FindLeadGenerationJobsLinkedinBlogSeeder::class,
+        'remote-data-entry-jobs' => Database\Seeders\RemoteDataEntryJobsBlogSeeder::class,
+        'remote-jobs-in-pakistan-with-no-experience' => Database\Seeders\RemoteJobsNoExperienceBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/contact-list-building-jobs');
+    }
+});
+
+it('separates what Google documents from what SEO checklists repeat, and dates every Pakistani salary', function () {
+    $this->seed(Database\Seeders\OnPageSeoAssistantJobsBlogSeeder::class);
+
+    $content = Blog::where('slug', 'on-page-seo-assistant-jobs')->value('content');
+
+    expect($content)
+        // Google's starter guide contradicts the single-H1 rule outright.
+        ->toContain('it doesn\'t matter if you\'re using them out of order')
+        ->toContain('There\'s also no magical, ideal amount of headings a given page should have.')
+        // The style guide that keeps getting cited is not search guidance.
+        ->toContain('developer documentation style guide')
+        // No density target and no word count target have ever been published.
+        ->toContain('there\'s no magical word count target')
+        ->toContain('No, it\'s not.')
+        // The advice to add FAQ markup for rich results expired in 2023.
+        ->toContain('will only be shown for well-known, authoritative government and health websites')
+        ->toContain('this result type is now deprecated')
+        // The current titles figure supersedes the 80 per cent one.
+        ->toContain('used around 87% of the time')
+        // Plugin scores are not predictions of anything.
+        ->toContain('Third-party tools don\'t have access to our internal ranking data.')
+        // Dated primary listings replace the Reddit-sourced salary claims.
+        ->toContain('27 Aug 2026')
+        ->toContain('18 Sep 2026')
+        ->toContain('starting from one rupee per month')
+        ->not->toContain('utm_source=chatgpt.com')
+        ->not->toContain('citeturn');
+
+    $siblings = [
+        'wordpress-seo-assistant-jobs' => Database\Seeders\WordpressSeoAssistantJobsBlogSeeder::class,
+        'wordpress-content-upload-jobs' => Database\Seeders\WordpressContentUploadJobsBlogSeeder::class,
+        'digital-marketing-jobs-in-usa' => Database\Seeders\DigitalMarketingJobsUsaBlogSeeder::class,
+        'remote-jobs-in-pakistan-with-no-experience' => Database\Seeders\RemoteJobsNoExperienceBlogSeeder::class,
+    ];
+
+    foreach ($siblings as $slug => $seeder) {
+        $this->seed($seeder);
+
+        expect(Blog::where('slug', $slug)->value('content'))->toContain('/blog/on-page-seo-assistant-jobs');
+    }
+});
+
 it('resolves every internal link the new guides publish', function () {
     // A /blog/ link to a slug no seeder produces is a 404 the sitemap will
     // happily advertise, and it is the easiest mistake to make when a guide
