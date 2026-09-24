@@ -76,6 +76,26 @@ dataset('market guides', [
         'https://www.jobs-ups.com/us/en/warehouse-workers',
         'Package Handler, UPS',
     ],
+    'bp engineering uk' => [
+        'how-to-apply-for-bp-engineering-jobs-in-the-uk',
+        Database\Seeders\BpEngineeringJobsUkBlogSeeder::class,
+        [
+            'how-to-apply-for-bp-engineering-jobs-in-the-uk-site.jpg',
+            'how-to-apply-for-bp-engineering-jobs-in-the-uk-engineer.jpg',
+        ],
+        'https://careers.bp.com/listing',
+        'Engineer, BP',
+    ],
+    'marks and spencer uk' => [
+        'how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk',
+        Database\Seeders\MarksAndSpencerRetailJobsUkBlogSeeder::class,
+        [
+            'how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk-store.jpg',
+            'how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk-checkout.jpg',
+        ],
+        'https://jobs.marksandspencer.com/our-teams/in-store',
+        'Customer Assistant, Marks and Spencer',
+    ],
     'home depot retail usa' => [
         'how-to-apply-for-home-depot-retail-jobs-in-the-usa',
         Database\Seeders\HomeDepotRetailJobsUsaBlogSeeder::class,
@@ -1242,6 +1262,9 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
         // source is the CWU pay agreement: the legacy delivery OPG national
         // rate, and a new entrant at GBP 1.98 an hour less.
         'how-to-apply-for-royal-mail-delivery-jobs-in-the-uk' => ['GBP', '13.06', '15.04'],
+        // M&S announces its own hourly rate: the 6.4% rise effective
+        // 1 April 2026, national and London.
+        'how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk' => ['GBP', '13.41', '14.74'],
     ];
 
     $this->seed($seeder);

@@ -363,6 +363,7 @@ JOBHTML;
     <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; another skilled trade, and how Red Seal certification differs by province.</li>
     <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a> &mdash; an American trade that, unlike this one, licenses the business rather than the worker.</li>
     <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a> &mdash; a sponsored Gulf trade, and the skills test auto mechanics sit before recruitment.</li>
+    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a> &mdash; which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage rates, standards, amendment dates, scheme requirements and tax rules change, and pay figures on any job board are a moving average rather than a statistic. Confirm the current position with GOV.UK, the IET, your Competent Person Scheme and HMRC before applying or paying for any course.</p>

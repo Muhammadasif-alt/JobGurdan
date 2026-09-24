@@ -405,6 +405,7 @@ JOBHTML;
     <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a> &mdash; the famous employer whose job board is currently empty.</li>
     <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a> &mdash; the government portal that replaced PetroJobs.</li>
     <li><a href="/blog/how-to-apply-for-sabic-manufacturing-jobs-in-saudi-arabia">How to Apply for SABIC Manufacturing Jobs in Saudi Arabia</a> &mdash; the registration and Saudization rules that apply to every Saudi engineer.</li>
+    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a> &mdash; which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Aramco's own careers, hiring process, compensation, benefits and recruitment disclaimer pages and ZATCA's published tax material. Aramco does not publish salary figures for any role, and recruitment criteria and benefits change. Always follow the current official Aramco announcement and the terms of your own written offer.</p>

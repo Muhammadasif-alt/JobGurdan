@@ -363,6 +363,7 @@ JOBHTML;
     <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; where the employer everyone searches for turns out to be the wrong one.</li>
     <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a> &mdash; Gulf work with a much shorter queue.</li>
     <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a> &mdash; an employer that publishes real salary bands on its adverts.</li>
+    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a> &mdash; which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using the live state of petrojobs.om and kwader.mem.gov.om, PDO's own Sustainability Report 2025, pdo.co.om, the Royal Oman Police work-visa requirements and the text of Oman's Labour Law (Royal Decree 53/2023) published by the Ministry of Labour, checked on 22 September 2026. Vacancies, nationality rules and immigration requirements change. Always check the live portal and the official government source before acting, and never pay anyone to secure a job.</p>
