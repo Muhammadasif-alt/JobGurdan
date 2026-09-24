@@ -410,6 +410,7 @@ JOBHTML;
     <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; a warehouse and plant role that often sits alongside maintenance.</li>
     <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; the wider construction picture and the visa reality.</li>
     <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; entry routes into US hands-on work.</li>
+    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a> &mdash; factory work with a published hourly range and stock awards.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers advice. Pay figures are BLS OEWS May 2025 and the Occupational Outlook Handbook and change over time; EPA and OSHA rules are summarised, not quoted in full. Confirm the current details with the employer and official sources before applying.</p>

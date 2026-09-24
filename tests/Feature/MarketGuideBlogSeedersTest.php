@@ -56,6 +56,26 @@ dataset('market guides', [
         'https://jobs.wordpress.net/',
         'WordPress Developer,',
     ],
+    'tesla production usa' => [
+        'how-to-apply-for-tesla-production-jobs-in-the-usa',
+        Database\Seeders\TeslaProductionJobsUsaBlogSeeder::class,
+        [
+            'how-to-apply-for-tesla-production-jobs-in-the-usa-battery.jpg',
+            'how-to-apply-for-tesla-production-jobs-in-the-usa-quality.jpg',
+        ],
+        'https://www.tesla.com/careers/search/',
+        'Production Associate, Tesla',
+    ],
+    'ups package handler usa' => [
+        'how-to-apply-for-ups-package-handler-jobs-in-the-usa',
+        Database\Seeders\UpsPackageHandlerJobsUsaBlogSeeder::class,
+        [
+            'how-to-apply-for-ups-package-handler-jobs-in-the-usa-sort.jpg',
+            'how-to-apply-for-ups-package-handler-jobs-in-the-usa-preload.jpg',
+        ],
+        'https://www.jobs-ups.com/us/en/warehouse-workers',
+        'Package Handler, UPS',
+    ],
     'woolworths supermarket' => [
         'how-to-apply-for-woolworths-supermarket-jobs-in-australia',
         Database\Seeders\WoolworthsSupermarketJobsAustraliaBlogSeeder::class,
@@ -1143,6 +1163,12 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
         // CSL publishes no salary on its adverts, but its enterprise
         // agreement AE533409 publishes the whole scale: CSL 1.1 to CSL 5.
         'how-to-apply-for-csl-laboratory-jobs-in-australia' => ['AUD', '77276', '134764'],
+        // Tesla prints an Expected Compensation block on its own Production
+        // Associate postings under state pay transparency law.
+        'how-to-apply-for-tesla-production-jobs-in-the-usa' => ['USD', '21', '30'],
+        // The 2023-2028 UPS Teamsters National Master Agreement sets new
+        // part-time hires at $21 an hour advancing to $23.
+        'how-to-apply-for-ups-package-handler-jobs-in-the-usa' => ['USD', '21', '23'],
     ];
 
     $this->seed($seeder);

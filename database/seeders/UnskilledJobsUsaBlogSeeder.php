@@ -337,6 +337,8 @@ JOBHTML;
     <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; commercial driving, its mandatory training and the pay the recruitment ads leave out.</li>
     <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; a no-degree warehouse job, and why its visa sponsorship is rare.</li>
     <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a> &mdash; a hands-on trade you can grow into, with real BLS pay and certifications.</li>
+    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a> &mdash; factory work with a published hourly range and stock awards.</li>
+    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a> &mdash; warehouse work where a union contract publishes the wage scale.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Wage rates, visa caps and Visa Bulletin dates change &mdash; confirm the current position with the US Department of Labor, the monthly Visa Bulletin, or a licensed immigration attorney before paying any fee or travelling.</p>
