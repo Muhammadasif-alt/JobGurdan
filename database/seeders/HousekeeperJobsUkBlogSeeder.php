@@ -386,6 +386,7 @@ JOBHTML;
     <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; housekeeping on the American seasonal visa route.</li>
     <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a> &mdash; the Gulf route for cleaning and housekeeping staff.</li>
     <li><a href="/blog/janitor-jobs-in-canada">Janitor Jobs in Canada</a> &mdash; custodian pay by province, and the 2026 minimum wages that set the floor.</li>
+    <li><a href="/blog/how-to-apply-for-marriott-hotel-jobs-in-the-usa">How to Apply for Marriott Hotel Jobs in the USA</a> &mdash; why most Marriott hotels are not run by Marriott, and what that changes.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Minimum wage rates, NHS pay awards, checking rules and immigration rules change and differ between the four UK nations. Confirm the current position with the employer, GOV.UK, NHS Employers and a regulated immigration adviser before applying or accepting an offer.</p>

@@ -364,6 +364,7 @@ JOBHTML;
     <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a> &mdash; the retail alternative with predictable hours.</li>
     <li><a href="/blog/how-to-apply-for-toyota-factory-jobs-in-japan">How to Apply for Toyota Factory Jobs in Japan</a> &mdash; the same question in Japan, where the residence status decides it.</li>
     <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; a car plant that publishes no pay at all, and why.</li>
+    <li><a href="/blog/how-to-apply-for-google-data-center-jobs-in-the-usa">How to Apply for Google Data Center Jobs in the USA</a> &mdash; technician work Google prices openly, with no sponsorship on any US posting.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Tesla Careers postings, Tesla's Fremont factory and Gigafactory Nevada pages, Tesla SEC filings and reporting on Cybercab production. Pay ranges, benefits and shift patterns are set by Tesla and differ by site and posting. Always read the live posting before you apply.</p>

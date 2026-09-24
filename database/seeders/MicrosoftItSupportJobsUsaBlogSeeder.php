@@ -381,6 +381,7 @@ JOBHTML;
     <li><a href="/blog/how-to-apply-for-telkom-indonesia-it-jobs">How to Apply for Telkom Indonesia IT Jobs</a></li>
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a></li>
     <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a></li>
+    <li><a href="/blog/how-to-apply-for-google-data-center-jobs-in-the-usa">How to Apply for Google Data Center Jobs in the USA</a> &mdash; technician work Google prices openly, with no sponsorship on any US posting.</li>
 </ul>
 HTML;
     }

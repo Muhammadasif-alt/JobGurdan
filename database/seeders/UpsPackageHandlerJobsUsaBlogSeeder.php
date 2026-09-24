@@ -383,6 +383,7 @@ JOBHTML;
     <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a> &mdash; the long-distance route and what it really pays.</li>
     <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; what the work authorisation rules actually allow.</li>
     <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a> &mdash; retail hours instead of sort hours.</li>
+    <li><a href="/blog/how-to-apply-for-fedex-delivery-jobs-in-the-usa">How to Apply for FedEx Delivery Jobs in the USA</a> &mdash; and how to tell a real FedEx job from a contractor advert.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using the UPS careers site, UPS corporate pages and the 2023-2028 UPS Teamsters National Master Agreement. Pay, shift times, tuition support and benefits vary by facility and by local supplement. Always read the live posting for the building you are applying to.</p>

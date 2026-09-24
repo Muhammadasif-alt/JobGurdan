@@ -365,6 +365,8 @@ JOBHTML;
     <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a> &mdash; what the BLS really measures, the pay spread and the titles Salesforce, HubSpot and Adobe use.</li>
     <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a> &mdash; the real BLS medians and why this group of occupations is shrinking.</li>
     <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a> &mdash; what a large British bank pays for the same work, benchmarked against the UK median.</li>
+    <li><a href="/blog/how-to-apply-for-starbucks-barista-jobs-in-the-usa">How to Apply for Starbucks Barista Jobs in the USA</a> &mdash; the hours threshold that decides whether the benefits are yours.</li>
+    <li><a href="/blog/how-to-apply-for-marriott-hotel-jobs-in-the-usa">How to Apply for Marriott Hotel Jobs in the USA</a> &mdash; why most Marriott hotels are not run by Marriott, and what that changes.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers advice. Wage data and employment projections come from the U.S. Bureau of Labor Statistics and change with each release. Confirm current pay, schedules and metrics with employers before applying.</p>

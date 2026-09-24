@@ -76,6 +76,66 @@ dataset('market guides', [
         'https://www.jobs-ups.com/us/en/warehouse-workers',
         'Package Handler, UPS',
     ],
+    'home depot retail usa' => [
+        'how-to-apply-for-home-depot-retail-jobs-in-the-usa',
+        Database\Seeders\HomeDepotRetailJobsUsaBlogSeeder::class,
+        [
+            'how-to-apply-for-home-depot-retail-jobs-in-the-usa-aisle.jpg',
+            'how-to-apply-for-home-depot-retail-jobs-in-the-usa-associate.jpg',
+        ],
+        'https://careers.homedepot.com/career-areas/retail/',
+        'Retail Associate, Home Depot',
+    ],
+    'marriott hotel usa' => [
+        'how-to-apply-for-marriott-hotel-jobs-in-the-usa',
+        Database\Seeders\MarriottHotelJobsUsaBlogSeeder::class,
+        [
+            'how-to-apply-for-marriott-hotel-jobs-in-the-usa-frontdesk.jpg',
+            'how-to-apply-for-marriott-hotel-jobs-in-the-usa-housekeeping.jpg',
+        ],
+        'https://careers.marriott.com/career-journeys/hotel/jobs',
+        'Front Desk and Housekeeping Roles, Marriott',
+    ],
+    'royal mail delivery uk' => [
+        'how-to-apply-for-royal-mail-delivery-jobs-in-the-uk',
+        Database\Seeders\RoyalMailDeliveryJobsUkBlogSeeder::class,
+        [
+            'how-to-apply-for-royal-mail-delivery-jobs-in-the-uk-round.jpg',
+            'how-to-apply-for-royal-mail-delivery-jobs-in-the-uk-sorting.jpg',
+        ],
+        'https://careers.royalmailgroup.com/gb/en/Delivery_and_sorting',
+        'Postperson and Delivery Driver, Royal Mail',
+    ],
+    'fedex delivery usa' => [
+        'how-to-apply-for-fedex-delivery-jobs-in-the-usa',
+        Database\Seeders\FedexDeliveryJobsUsaBlogSeeder::class,
+        [
+            'how-to-apply-for-fedex-delivery-jobs-in-the-usa-van.jpg',
+            'how-to-apply-for-fedex-delivery-jobs-in-the-usa-sort.jpg',
+        ],
+        'https://careers.fedex.com/jobs',
+        'Delivery Driver and Package Handler, FedEx',
+    ],
+    'google data center usa' => [
+        'how-to-apply-for-google-data-center-jobs-in-the-usa',
+        Database\Seeders\GoogleDataCenterJobsUsaBlogSeeder::class,
+        [
+            'how-to-apply-for-google-data-center-jobs-in-the-usa-racks.jpg',
+            'how-to-apply-for-google-data-center-jobs-in-the-usa-technician.jpg',
+        ],
+        'https://www.google.com/about/careers/applications/jobs/results/?q=data%20center%20technician',
+        'Data Center Technician, Google',
+    ],
+    'starbucks barista usa' => [
+        'how-to-apply-for-starbucks-barista-jobs-in-the-usa',
+        Database\Seeders\StarbucksBaristaJobsUsaBlogSeeder::class,
+        [
+            'how-to-apply-for-starbucks-barista-jobs-in-the-usa-counter.jpg',
+            'how-to-apply-for-starbucks-barista-jobs-in-the-usa-barista.jpg',
+        ],
+        'https://careers.starbucks.com/discover-opportunities/coffeehouses/',
+        'Barista, Starbucks',
+    ],
     'woolworths supermarket' => [
         'how-to-apply-for-woolworths-supermarket-jobs-in-australia',
         Database\Seeders\WoolworthsSupermarketJobsAustraliaBlogSeeder::class,
@@ -1169,6 +1229,19 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
         // The 2023-2028 UPS Teamsters National Master Agreement sets new
         // part-time hires at $21 an hour advancing to $23.
         'how-to-apply-for-ups-package-handler-jobs-in-the-usa' => ['USD', '21', '23'],
+        // Google prints a US band on every posting under pay transparency law:
+        // Technician I floor to Technician III ceiling.
+        'how-to-apply-for-google-data-center-jobs-in-the-usa' => ['USD', '73500', '145000'],
+        // FedEx prints the rate on its own postings; these are the part-time
+        // package handler floor and the courier rate it advertises.
+        'how-to-apply-for-fedex-delivery-jobs-in-the-usa' => ['USD', '20.20', '22.10'],
+        // Home Depot prints hourly ranges on its own store adverts in
+        // pay transparency states; these are its Washington figures.
+        'how-to-apply-for-home-depot-retail-jobs-in-the-usa' => ['USD', '18.50', '20.50'],
+        // Royal Mail's own vacancies expire within weeks, so the durable
+        // source is the CWU pay agreement: the legacy delivery OPG national
+        // rate, and a new entrant at GBP 1.98 an hour less.
+        'how-to-apply-for-royal-mail-delivery-jobs-in-the-uk' => ['GBP', '13.06', '15.04'],
     ];
 
     $this->seed($seeder);
