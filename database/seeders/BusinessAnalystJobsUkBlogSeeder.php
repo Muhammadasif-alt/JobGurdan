@@ -372,6 +372,7 @@ JOBHTML;
     <li><a href="/blog/finance-analyst-jobs-in-canada">Finance Analyst Jobs in Canada</a> &mdash; the finance analyst route, with Job Bank pay and the CFA rule.</li>
     <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a> &mdash; the client-facing commercial career in the US market.</li>
     <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a> &mdash; where analysis meets code, priced from BLS.</li>
+    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a> &mdash; ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using the National Careers Service, GOV.UK Skilled Worker guidance, the DDaT capability framework, ONS ASHE data and the Capgemini and HSBC career sites. Salaries, going rates and vacancies change. Always check the current vacancy and immigration rules before applying.</p>

@@ -274,7 +274,17 @@ class StructuredDataService
      */
     private function baseSalary(Job $job): array
     {
-        $units = ['HOURLY' => 'HOUR', 'DAILY' => 'DAY', 'WEEKLY' => 'WEEK', 'MONTHLY' => 'MONTH', 'YEARLY' => 'YEAR', 'ANNUAL' => 'YEAR'];
+        // Both the adjective and the noun are in use across the seeders, so
+        // both are mapped. Without the singular keys a "Year" period fell
+        // through to the MONTH default and told Google an annual salary was
+        // monthly.
+        $units = [
+            'HOURLY' => 'HOUR', 'HOUR' => 'HOUR',
+            'DAILY' => 'DAY', 'DAY' => 'DAY',
+            'WEEKLY' => 'WEEK', 'WEEK' => 'WEEK',
+            'MONTHLY' => 'MONTH', 'MONTH' => 'MONTH',
+            'YEARLY' => 'YEAR', 'YEAR' => 'YEAR', 'ANNUAL' => 'YEAR', 'ANNUALLY' => 'YEAR',
+        ];
         $unit = $units[strtoupper((string) $job->salary_period)] ?? 'MONTH';
 
         $value = ['@type' => 'QuantitativeValue', 'unitText' => $unit];

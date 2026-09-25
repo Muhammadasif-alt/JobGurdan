@@ -116,3 +116,27 @@ it('builds the FAQ markup from questions the reader can see', function () {
         $response->assertSee($question['name'], false);
     }
 });
+
+it('maps every salary period the seeders use to the right schema unit', function (string $period, string $unit) {
+    $job = new App\Models\Job([
+        'position' => 'Customer Service Advisor',
+        'description' => 'An example vacancy.',
+        'employment_type' => 'Full-time',
+        'salary_currency' => 'GBP',
+        'salary_period' => $period,
+        'salary_minimum' => 26700,
+        'salary_maximum' => 27700,
+    ]);
+
+    $posting = app(StructuredDataService::class)->jobPosting($job, 'https://jobgader.com/blog/example');
+
+    expect($posting['baseSalary']['value']['unitText'])->toBe($unit);
+})->with([
+    // "Year" fell through to the MONTH default before the singular keys were
+    // added, publishing an annual salary as a monthly one.
+    'Year' => ['Year', 'YEAR'],
+    'Yearly' => ['Yearly', 'YEAR'],
+    'Hourly' => ['Hourly', 'HOUR'],
+    'Daily' => ['Daily', 'DAY'],
+    'Monthly' => ['Monthly', 'MONTH'],
+]);

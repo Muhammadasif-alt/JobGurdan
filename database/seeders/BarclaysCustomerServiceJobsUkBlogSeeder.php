@@ -385,6 +385,7 @@ JOBHTML;
     <li><a href="/blog/call-center-jobs-in-pakistan">Call Center Jobs in Pakistan</a></li>
     <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a></li>
     <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a> &mdash; the hourly rate M and S announces itself, and why no store role can be sponsored.</li>
+    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a> &mdash; ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
 </ul>
 HTML;
     }

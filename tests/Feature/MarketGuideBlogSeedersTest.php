@@ -76,6 +76,26 @@ dataset('market guides', [
         'https://www.jobs-ups.com/us/en/warehouse-workers',
         'Package Handler, UPS',
     ],
+    'network rail maintenance uk' => [
+        'how-to-apply-for-network-rail-maintenance-jobs-in-the-uk',
+        Database\Seeders\NetworkRailMaintenanceJobsUkBlogSeeder::class,
+        [
+            'how-to-apply-for-network-rail-maintenance-jobs-in-the-uk-track.jpg',
+            'how-to-apply-for-network-rail-maintenance-jobs-in-the-uk-crew.jpg',
+        ],
+        'https://www.networkrail.co.uk/careers/',
+        'Maintenance Technician and Operative, Network Rail',
+    ],
+    'lloyds graduate uk' => [
+        'how-to-apply-for-lloyds-graduate-jobs-in-the-uk',
+        Database\Seeders\LloydsGraduateJobsUkBlogSeeder::class,
+        [
+            'how-to-apply-for-lloyds-graduate-jobs-in-the-uk-office.jpg',
+            'how-to-apply-for-lloyds-graduate-jobs-in-the-uk-team.jpg',
+        ],
+        'https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/',
+        'Graduate Scheme, Lloyds',
+    ],
     'bp engineering uk' => [
         'how-to-apply-for-bp-engineering-jobs-in-the-uk',
         Database\Seeders\BpEngineeringJobsUkBlogSeeder::class,
@@ -1265,6 +1285,9 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
         // M&S announces its own hourly rate: the 6.4% rise effective
         // 1 April 2026, national and London.
         'how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk' => ['GBP', '13.41', '14.74'],
+        // Lloyds prints a salary on every one of its ten scheme pages: the
+        // Risk floor and the Corporate Banking and Markets ceiling.
+        'how-to-apply-for-lloyds-graduate-jobs-in-the-uk' => ['GBP', '42000', '55000'],
     ];
 
     $this->seed($seeder);

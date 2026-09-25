@@ -446,6 +446,8 @@ JOBHTML;
     <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; the kitchen side of the same hospitality and retail market.</li>
     <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a> &mdash; the opposite end of the same job market.</li>
     <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; what the same availability is worth with a licence attached.</li>
+    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a> &mdash; the medical and drug screening standard, and why the trackside code cannot be sponsored.</li>
+    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a> &mdash; ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Marks and Spencer's own careers site for the in-store roles, application length, hiring stages, assessment description, AI guidance and benefits wording; the M&amp;S corporate newsroom for the hourly rates, the 6.4% increase and its effective date, the seasonal recruitment figures and the market-share claim and its qualifier; and GOV.UK for the Skilled Worker eligible occupation list, the salary threshold and the National Minimum Wage and National Living Wage rates. M&amp;S vacancy adverts expire quickly, and pay, benefits and immigration rules change. Always check the live advert and the official guidance before you commit.</p>
