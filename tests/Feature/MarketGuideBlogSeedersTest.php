@@ -76,6 +76,36 @@ dataset('market guides', [
         'https://www.jobs-ups.com/us/en/warehouse-workers',
         'Package Handler, UPS',
     ],
+    'heathrow airport uk' => [
+        'how-to-apply-for-heathrow-airport-jobs-in-the-uk',
+        Database\Seeders\HeathrowAirportJobsUkBlogSeeder::class,
+        [
+            'how-to-apply-for-heathrow-airport-jobs-in-the-uk-terminal.jpg',
+            'how-to-apply-for-heathrow-airport-jobs-in-the-uk-staff.jpg',
+        ],
+        'https://www.heathrow.com/company/careers',
+        'Airport Operations and Security Roles, Heathrow',
+    ],
+    'medical receptionist uk' => [
+        'medical-receptionist-jobs-in-the-uk',
+        Database\Seeders\MedicalReceptionistJobsUkBlogSeeder::class,
+        [
+            'medical-receptionist-jobs-in-the-uk-reception.jpg',
+            'medical-receptionist-jobs-in-the-uk-records.jpg',
+        ],
+        'https://www.jobs.nhs.uk/candidate/search/results?keyword=Medical%20Receptionist',
+        'Medical Receptionist, UK GP Practices',
+    ],
+    'nursing assistant uk' => [
+        'nursing-assistant-jobs-in-the-uk',
+        Database\Seeders\NursingAssistantJobsUkBlogSeeder::class,
+        [
+            'nursing-assistant-jobs-in-the-uk-ward.jpg',
+            'nursing-assistant-jobs-in-the-uk-care.jpg',
+        ],
+        'https://www.jobs.nhs.uk/candidate/search/results?keyword=Nursing%20Assistant',
+        'Nursing Assistant and Healthcare Assistant',
+    ],
     'network rail maintenance uk' => [
         'how-to-apply-for-network-rail-maintenance-jobs-in-the-uk',
         Database\Seeders\NetworkRailMaintenanceJobsUkBlogSeeder::class,
@@ -1288,6 +1318,10 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
         // Lloyds prints a salary on every one of its ten scheme pages: the
         // Risk floor and the Corporate Banking and Markets ceiling.
         'how-to-apply-for-lloyds-graduate-jobs-in-the-uk' => ['GBP', '42000', '55000'],
+        // Heathrow is Living Wage accredited and publishes a floor rather than
+        // a range, so the listing carries the London Living Wage and no
+        // invented ceiling.
+        'how-to-apply-for-heathrow-airport-jobs-in-the-uk' => ['GBP', '14.80', null],
     ];
 
     $this->seed($seeder);
