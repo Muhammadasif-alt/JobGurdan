@@ -70,3 +70,29 @@ it('keeps the two robots files pointing at the same sitemap', function () {
 it('hides the dashboards and auth pages from crawlers', function (string $path) {
     expect(file_get_contents(base_path('robots.txt')))->toContain('Disallow: '.$path);
 })->with(['/admin/', '/dashboard', '/login', '/register', '/api/']);
+
+it('has no seeder that empties a content table wholesale', function () {
+    // BlogContentSeeder opened with Blog::query()->delete(). It sorted on "B",
+    // so a plain A-to-Z seed run destroyed every post whose seeder came before
+    // it, and the failure was silent. Nothing may do that again.
+    $offenders = [];
+
+    foreach (glob(database_path('seeders').'/*.php') as $file) {
+        $src = file_get_contents($file);
+
+        foreach (['Blog', 'Job', 'Scholarship', 'BlogCatgories', 'Category', 'User'] as $model) {
+            if (preg_match('/'.$model.'::(query\(\)->(delete|truncate)|truncate)\s*\(/', $src)) {
+                $offenders[] = basename($file).' wipes '.$model;
+            }
+        }
+    }
+
+    expect($offenders)->toBe([]);
+});
+
+it('keeps the seeders limited to the guides the owner wrote', function (string $gone) {
+    // These three shipped with the theme: stock photography, credited to
+    // "Jobs in USA Editorial". They were removed from the site and must not
+    // reappear on the next seed.
+    expect(file_exists(database_path('seeders/'.$gone.'.php')))->toBeFalse();
+})->with(['BlogContentSeeder', 'NewBlogPostsSeeder', 'AdditionalBlogsSeeder']);
