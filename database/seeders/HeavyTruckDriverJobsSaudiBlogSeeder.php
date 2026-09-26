@@ -178,7 +178,7 @@ class HeavyTruckDriverJobsSaudiBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Confirm the licence path for your nationality, the salary in writing, and that pay runs through WPS</strong> &mdash; and use only a licensed recruiter.</p>
 
-<p><strong>Note:</strong> pay, benefits and requirements are set by each employer &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, benefits and requirements are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 

@@ -161,7 +161,7 @@ class ReactDeveloperJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Establish which of the two jobs this is.</strong> An advert that describes pixel-perfect implementation from Figma is the first. One that describes owning data fetching, rendering strategy and performance budgets is the second. They are advertised under the same title and paid about $43,000 apart at the median.</p>
 
-<p><strong>Note:</strong> pay, remote policy and stack requirements are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, remote policy and stack requirements are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

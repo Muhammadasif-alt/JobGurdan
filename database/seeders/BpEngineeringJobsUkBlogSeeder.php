@@ -231,7 +231,7 @@ class BpEngineeringJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, hiring steps and benefits for these roles are set by bp, and visa rules are set by the Home Office &mdash; not by JobGader. Apply directly on bp's own careers site. bp says it never allows recruitment agencies or third parties to apply for roles on its behalf, and never asks candidates for money for visa fees, taxes or travel.</p>
+<p><strong>Note:</strong> pay, hiring steps and benefits for these roles are set by bp, and visa rules are set by the Home Office &mdash; not by Sajjad Digital Services. Apply directly on bp's own careers site. bp says it never allows recruitment agencies or third parties to apply for roles on its behalf, and never asks candidates for money for visa fees, taxes or travel.</p>
 JOBHTML;
     }
 

@@ -208,7 +208,7 @@ class RoyalMailDeliveryJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay and conditions for these roles are set by Royal Mail and the CWU agreement, and visa rules are set by the Home Office &mdash; not by JobGader. Apply directly on Royal Mail's own careers site and never pay anyone for a Royal Mail job or a shift.</p>
+<p><strong>Note:</strong> pay and conditions for these roles are set by Royal Mail and the CWU agreement, and visa rules are set by the Home Office &mdash; not by Sajjad Digital Services. Apply directly on Royal Mail's own careers site and never pay anyone for a Royal Mail job or a shift.</p>
 JOBHTML;
     }
 

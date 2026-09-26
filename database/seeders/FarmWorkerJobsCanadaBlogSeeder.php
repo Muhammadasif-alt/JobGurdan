@@ -170,7 +170,7 @@ class FarmWorkerJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Work out which route your passport allows before you spend a week applying.</strong> If your country is not one of the twelve in the seasonal program, that route is closed to you regardless of your experience, and the Agricultural Stream with an LMIA-holding employer is the one to pursue.</p>
 
-<p><strong>Note:</strong> pay, housing arrangements, program eligibility and permit conditions are set by employers and by Canadian law &mdash; not by JobGader. No legitimate employer or agent should charge you a placement fee. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, housing arrangements, program eligibility and permit conditions are set by employers and by Canadian law &mdash; not by Sajjad Digital Services. No legitimate employer or agent should charge you a placement fee. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

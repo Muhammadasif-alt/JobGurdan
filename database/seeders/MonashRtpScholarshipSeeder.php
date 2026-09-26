@@ -313,7 +313,7 @@ class MonashRtpScholarshipSeeder extends Seeder
 <li><a href="https://www.monash.edu/graduate-research/study/apply/english-language-proficiency-requirements-for-admission" target="_blank" rel="noopener">English language requirements</a></li>
 </ul>
 
-<p><em>JobGader is not part of Monash University. This guide was checked against Monash's official pages on 10 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
+<p><em>Sajjad Digital Services is not part of Monash University. This guide was checked against Monash's official pages on 10 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
 HTML;
     }
 }

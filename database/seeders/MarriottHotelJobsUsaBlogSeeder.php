@@ -33,7 +33,7 @@ use Illuminate\Support\Str;
  *     careers site only. Individual Marriott job URLs expire quickly — five
  *     search-indexed posting URLs returned HTTP 404 while this guide was being
  *     checked — so the guide points at the stable hotel jobs search rather than
- *     any single advert, and JobGader links no aggregator.
+ *     any single advert, and Sajjad Digital Services links no aggregator.
  *
  *  3. The draft's "5,446 Marriott Hotel jobs currently listed across the United
  *     States on Indeed" is dropped. It is an aggregator count of duplicated
@@ -191,7 +191,7 @@ class MarriottHotelJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> at most Marriott-branded US hotels the employer is an independent franchisee rather than Marriott International, and that franchisee sets pay, benefits and hiring &mdash; not by JobGader. Apply directly on Marriott's careers site and never pay anyone for a hotel job.</p>
+<p><strong>Note:</strong> at most Marriott-branded US hotels the employer is an independent franchisee rather than Marriott International, and that franchisee sets pay, benefits and hiring &mdash; not by Sajjad Digital Services. Apply directly on Marriott's careers site and never pay anyone for a hotel job.</p>
 JOBHTML;
     }
 

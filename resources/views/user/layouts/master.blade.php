@@ -1192,22 +1192,23 @@
                                 min-height: 64px;
                                 column-gap: 6px !important;
                             }
-                            #header .utf-left-side {
-                                grid-column: 2;
-                                grid-row: 1;
-                                justify-content: center !important;
-                                min-width: 0 !important;
-                                flex: 0 0 auto !important;
-                                gap: 0 !important;
-                            }
+                            /* The wrapper's box is taken out of the layout so the logo
+                               and the menu become grid items in their own right; while
+                               they were nested, the panel could only be placed inside
+                               the logo's column. */
+                            #header .utf-left-side { display: contents !important; }
                             #header .utf-right-side {
                                 grid-column: 3;
                                 grid-row: 1;
+                                justify-self: end;
                                 justify-content: flex-end !important;
                                 min-width: 0 !important;
                                 gap: 6px !important;
                             }
                             #header #logo {
+                                grid-column: 2;
+                                grid-row: 1;
+                                justify-self: center;
                                 height: auto !important;
                                 min-width: 0 !important;
                                 align-self: center !important;

@@ -157,7 +157,7 @@ class AdministrativeAssistantJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check whether the role is employed or contract.</strong> Many virtual assistant roles are independent contracts, which do not carry minimum wage, overtime or benefits.</p>
 
-<p><strong>Note:</strong> pay, hours and benefits are set by each employer and by federal and state law &mdash; not by JobGader. Confirm the details on the official advertisement before applying.</p>
+<p><strong>Note:</strong> pay, hours and benefits are set by each employer and by federal and state law &mdash; not by Sajjad Digital Services. Confirm the details on the official advertisement before applying.</p>
 JOBHTML;
     }
 

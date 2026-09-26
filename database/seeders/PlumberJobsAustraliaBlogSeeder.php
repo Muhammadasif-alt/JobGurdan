@@ -166,7 +166,7 @@ class PlumberJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check which state licence the role needs, and whether it includes gas.</strong> Automatic Mutual Recognition lets most licences travel between states, but Queensland sits outside the scheme in both directions and gasfitting classes are exempt from it even where it applies.</p>
 
-<p><strong>Note:</strong> pay, licensing requirements, contract type and any sponsorship decision are set by each employer and by state regulators &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, licensing requirements, contract type and any sponsorship decision are set by each employer and by state regulators &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

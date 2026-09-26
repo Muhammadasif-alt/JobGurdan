@@ -161,7 +161,7 @@ class EmiratesCabinCrewJobsUaeBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> the requirements, pay and recruitment events are set and published by the Emirates Group &mdash; not by JobGader. Emirates states that any job offer appearing to come from it that asks you for money is fraudulent.</p>
+<p><strong>Note:</strong> the requirements, pay and recruitment events are set and published by the Emirates Group &mdash; not by Sajjad Digital Services. Emirates states that any job offer appearing to come from it that asks you for money is fraudulent.</p>
 JOBHTML;
     }
 

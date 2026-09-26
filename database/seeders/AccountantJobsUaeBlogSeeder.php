@@ -163,7 +163,7 @@ class AccountantJobsUaeBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for a UAE work visa, and check whether the role involves signing audits or tax filings on behalf of clients.</strong> Those need a UAE licence or registration that an overseas qualification does not give you.</p>
 
-<p><strong>Note:</strong> pay, contract terms, licensing and visa rules are set by each employer, the UAE authorities and your home country &mdash; not by JobGader. Confirm the details with the employer and the official sources before applying.</p>
+<p><strong>Note:</strong> pay, contract terms, licensing and visa rules are set by each employer, the UAE authorities and your home country &mdash; not by Sajjad Digital Services. Confirm the details with the employer and the official sources before applying.</p>
 JOBHTML;
     }
 

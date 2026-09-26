@@ -159,7 +159,7 @@ class ItSupportJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the weekly hours against the salary.</strong> A full-time offer below &pound;24,784.50 for a worker aged 21 or over is below the National Living Wage. If you need sponsorship, the job must pay at least &pound;41,700, or &pound;33,400 for a new entrant, with the certificate of sponsorship issued before 31 December 2026 while the occupation is on the Temporary Shortage List.</p>
 
-<p><strong>Note:</strong> pay, working hours, clearance and eligibility are set by each employer and by UK law and immigration rules &mdash; not by JobGader. Confirm the details on the official advertisement before applying.</p>
+<p><strong>Note:</strong> pay, working hours, clearance and eligibility are set by each employer and by UK law and immigration rules &mdash; not by Sajjad Digital Services. Confirm the details on the official advertisement before applying.</p>
 JOBHTML;
     }
 

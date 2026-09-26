@@ -139,7 +139,7 @@ class TelkomIndonesiaItJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of the IT and digital roles PT Telkom Indonesia recruits for, not a single vacancy and not a job advertised by JobGader. Applications are made through Telkom's own recruitment website.</p>
+<p>This is an aggregated listing of the IT and digital roles PT Telkom Indonesia recruits for, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made through Telkom's own recruitment website.</p>
 
 <h3>Read this before you apply</h3>
 <p>Telkom's recruitment portal requires an Indonesian KTP number to create an account. A KTP is issued to Indonesian citizens and to foreigners holding permanent residency. There is no passport option, so applicants without a KTP cannot complete registration.</p>
@@ -161,7 +161,7 @@ class TelkomIndonesiaItJobsBlogSeeder extends Seeder
 <h3>Pay and fees</h3>
 <p>Telkom publishes no salary for any band or role. It states that it charges no fees at any stage of recruitment, citing its ISO 37001:2016 anti-bribery management system.</p>
 
-<p>Eligibility, documents, recruitment windows and immigration rules are set by Telkom and the Indonesian authorities &mdash; not by JobGader. Confirm the requirements on the live posting, and never pay anyone to secure a job.</p>
+<p>Eligibility, documents, recruitment windows and immigration rules are set by Telkom and the Indonesian authorities &mdash; not by Sajjad Digital Services. Confirm the requirements on the live posting, and never pay anyone to secure a job.</p>
 JOBHTML;
     }
 

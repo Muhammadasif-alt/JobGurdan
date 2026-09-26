@@ -154,7 +154,7 @@ class JanitorJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for a job offer or an LMIA.</strong> The employer pays the $1,000 LMIA fee, and it cannot be recovered from the worker.</p>
 
-<p><strong>Note:</strong> wages, shifts and immigration eligibility are set by employers, provincial employment standards and the Government of Canada &mdash; not by JobGader. Confirm the details with the employer and on canada.ca before applying.</p>
+<p><strong>Note:</strong> wages, shifts and immigration eligibility are set by employers, provincial employment standards and the Government of Canada &mdash; not by Sajjad Digital Services. Confirm the details with the employer and on canada.ca before applying.</p>
 JOBHTML;
     }
 

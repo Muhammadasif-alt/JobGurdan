@@ -157,7 +157,7 @@ class CashierJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the offer against your state's minimum wage, and ask how till shortages are handled.</strong> An hourly rate below your state floor is not a starting rate; it is below the law.</p>
 
-<p><strong>Note:</strong> pay, schedules and policies are set by each employer and by federal, state and local law &mdash; not by JobGader. Confirm the details on the official advertisement before applying.</p>
+<p><strong>Note:</strong> pay, schedules and policies are set by each employer and by federal, state and local law &mdash; not by Sajjad Digital Services. Confirm the details on the official advertisement before applying.</p>
 JOBHTML;
     }
 

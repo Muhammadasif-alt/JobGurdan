@@ -345,7 +345,7 @@ class InsubriaScholarshipSeeder extends Seeder
 <li><a href="https://www.regione.lombardia.it/istruzione-formazione-e-lavoro/universita-e-formazione-accademica/borse-di-studio-universitarie-2026-2027" target="_blank" rel="noopener">Regione Lombardia, university grants 2026/27</a></li>
 </ul>
 
-<p><em>JobGader is not part of the University of Insubria. This guide was checked against the university's official pages, its 2026/27 calls and Regione Lombardia on 12 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
+<p><em>Sajjad Digital Services is not part of the University of Insubria. This guide was checked against the university's official pages, its 2026/27 calls and Regione Lombardia on 12 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
 HTML;
     }
 }

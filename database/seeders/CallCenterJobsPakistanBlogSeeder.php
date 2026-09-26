@@ -163,7 +163,7 @@ class CallCenterJobsPakistanBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay a "registration" or "processing" fee,</strong> and confirm the company and its client are real before you share documents.</p>
 
-<p><strong>Note:</strong> pay, shifts and campaign details are set by employers &mdash; not by JobGader. Confirm them with the company before accepting an offer.</p>
+<p><strong>Note:</strong> pay, shifts and campaign details are set by employers &mdash; not by Sajjad Digital Services. Confirm them with the company before accepting an offer.</p>
 JOBHTML;
     }
 

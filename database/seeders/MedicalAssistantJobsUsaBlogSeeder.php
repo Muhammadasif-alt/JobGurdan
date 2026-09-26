@@ -162,7 +162,7 @@ class MedicalAssistantJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Compare the setting, not just the hourly rate.</strong> The same job pays around $8,000 a year more in an outpatient care centre than in the physician office where most medical assistants work.</p>
 
-<p><strong>Note:</strong> pay, certification requirements, scope of practice and eligibility are set by each employer and by state law &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, certification requirements, scope of practice and eligibility are set by each employer and by state law &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

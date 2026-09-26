@@ -1091,7 +1091,7 @@ it('corrects Australian retail sales pay, commission-only rules and real estate 
     expect(Job::where('position', 'like', 'Sales Consultant%')->value('description'))
         ->not->toContain('@@')
         ->toContain('$1,056.80')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('corrects UK healthcare assistant pay, the care salary floor, the checks and the HCA visa rule', function () {
@@ -1125,7 +1125,7 @@ it('corrects UK healthcare assistant pay, the care salary floor, the checks and 
 
     expect(Job::where('position', 'like', 'Healthcare Assistant%')->value('description'))
         ->toContain('&pound;25,272')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('corrects US registered nurse pay, the states, the multistate license and the shortage', function () {
@@ -1159,7 +1159,7 @@ it('corrects US registered nurse pay, the states, the multistate license and the
 
     expect(Job::where('position', 'like', 'Registered Nurse — Hospitals, Outpatient%')->value('description'))
         ->toContain('$97,550')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('corrects US help desk pay, the states, the outlook and the A+ exams', function () {
@@ -1189,7 +1189,7 @@ it('corrects US help desk pay, the states, the outlook and the A+ exams', functi
 
     expect(Job::where('position', 'like', 'Help Desk Technician%')->value('description'))
         ->toContain('$61,860')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('corrects UK housekeeper pay, the live-in offset, the checks and the visa codes', function () {
@@ -1230,7 +1230,7 @@ it('corrects UK housekeeper pay, the live-in offset, the checks and the visa cod
 
     expect(Job::where('position', 'like', 'Housekeeper%')->value('description'))
         ->toContain('&pound;24,784.50')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('corrects US teacher pay, the hiring states, the outlook, the exams and the visa routes', function () {
@@ -1269,7 +1269,7 @@ it('corrects US teacher pay, the hiring states, the outlook, the exams and the v
 
     expect(Job::where('position', 'like', 'Teacher — Elementary%')->value('description'))
         ->toContain('$63,970')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('corrects US administrative assistant pay, the outlook and the best-paying states', function () {
@@ -1299,7 +1299,7 @@ it('corrects US administrative assistant pay, the outlook and the best-paying st
 
     expect(Job::where('position', 'like', 'Administrative Assistant%')->value('description'))
         ->toContain('$76,590')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('corrects German DevOps pay, the Blue Card threshold, the city ranking and the shortage', function () {
@@ -1334,7 +1334,7 @@ it('corrects German DevOps pay, the Blue Card threshold, the city ranking and th
 
     expect(Job::where('position', 'like', 'DevOps Engineer — Cloud, CI/CD%')->value('description'))
         ->toContain('&euro;45,934.20')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('corrects federal police pay, the 2026 raise, the age limits and the agency details', function () {
@@ -1369,7 +1369,7 @@ it('corrects federal police pay, the 2026 raise, the age limits and the agency d
 
     expect(Job::where('position', 'like', 'Federal Police Officer and Special Agent%')->value('description'))
         ->toContain('$50,241')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('corrects Canadian welder certification, pay by province, the outlook and the LMIA rules', function () {
@@ -1401,7 +1401,7 @@ it('corrects Canadian welder certification, pay by province, the outlook and the
 
     expect(Job::where('position', 'like', 'Welder — Structural%')->value('description'))
         ->toContain('$38 an hour')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('corrects bus driver licence classes, pay by province and city, the outlook and hiring from abroad', function () {
@@ -1436,7 +1436,7 @@ it('corrects bus driver licence classes, pay by province and city, the outlook a
 
     expect(Job::where('position', 'like', 'Bus Driver — Transit%')->value('description'))
         ->toContain('$22.43')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('corrects remote job pay, the telework trend, who can be hired and the scam data', function () {
@@ -1468,7 +1468,7 @@ it('corrects remote job pay, the telework trend, who can be hired and the scam d
 
     expect(Job::where('position', 'like', 'Remote Jobs — Customer Service%')->value('description'))
         ->toContain('$135,980')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('corrects the sponsorship targets, the Global Talent Stream, where LMIAs go and the language scores', function () {
@@ -1497,7 +1497,7 @@ it('corrects the sponsorship targets, the Global Talent Stream, where LMIAs go a
 
     expect(Job::where('position', 'like', 'Visa Sponsorship Jobs — LMIA%')->value('description'))
         ->toContain('$43.27')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('corrects Australian entry-level pay, the super rate, junior rates and the mining claims', function () {
@@ -1524,7 +1524,7 @@ it('corrects Australian entry-level pay, the super rate, junior rates and the mi
 
     expect(Job::where('position', 'like', 'Entry-Level Jobs — Retail%')->value('description'))
         ->toContain('$27.81')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('corrects Saudi kitchen helper pay, who pays the visa, the health certificate and the age claim', function () {
@@ -1551,7 +1551,7 @@ it('corrects Saudi kitchen helper pay, who pays the visa, the health certificate
 
     expect(Job::where('position', 'like', 'Kitchen Helper — Hotels%')->value('description'))
         ->toContain('SAR 1,600')
-        ->toContain('not by JobGader');
+        ->toContain('not by Sajjad Digital Services');
 });
 
 it('keeps the data entry cluster from restating the guide it hangs off', function () {

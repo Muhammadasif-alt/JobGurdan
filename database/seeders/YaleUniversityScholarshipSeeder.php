@@ -287,7 +287,7 @@ class YaleUniversityScholarshipSeeder extends Seeder
 <li><a href="https://gsas.yale.edu/resources/graduate-financial-aid/phd-stipends" target="_blank" rel="noopener">Yale Graduate School: PhD stipends</a></li>
 </ul>
 
-<p><em>JobGader is not part of Yale University. This guide was checked against Yale Admissions, Yale Financial Aid, the Graduate School of Arts and Sciences and Yale News on 15 September 2026. Costs, aid levels and deadlines change each year, so confirm them on Yale's official pages before you apply.</em></p>
+<p><em>Sajjad Digital Services is not part of Yale University. This guide was checked against Yale Admissions, Yale Financial Aid, the Graduate School of Arts and Sciences and Yale News on 15 September 2026. Costs, aid levels and deadlines change each year, so confirm them on Yale's official pages before you apply.</em></p>
 HTML, [
             '{apply}' => self::APPLY_URL,
             '{yes}' => YesProgramPakistanScholarshipSeeder::SLUG,

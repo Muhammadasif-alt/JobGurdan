@@ -133,7 +133,7 @@ class CaregiverUkBlogSeeder extends Seeder
     <li>Live-in care roles that combine pay with accommodation, usually on a day rate</li>
 </ul>
 
-<p><strong>Note:</strong> pay, contracts and eligibility are set by the individual employer and by UK immigration rules &mdash; not by JobGader. Verify any sponsor on the official gov.uk register of licensed sponsors, and never pay a recruiter for a job offer or visa: charging jobseekers for sponsorship is illegal in the UK.</p>
+<p><strong>Note:</strong> pay, contracts and eligibility are set by the individual employer and by UK immigration rules &mdash; not by Sajjad Digital Services. Verify any sponsor on the official gov.uk register of licensed sponsors, and never pay a recruiter for a job offer or visa: charging jobseekers for sponsorship is illegal in the UK.</p>
 JOBHTML;
     }
 

@@ -172,7 +172,7 @@ class DeliveryDriverJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask which of the two you are being offered, and ask for the contract.</strong> If it is self-employed, read it for a substitution clause &mdash; the right to send someone else in your place. The Supreme Court treated that clause as decisive when it found Deliveroo riders were not workers, and its absence was part of why Uber drivers were. It is the single line that decides whether the minimum wage and holiday pay reach you at all.</p>
 
-<p><strong>Note:</strong> pay, vehicle arrangements, insurance responsibility and employment status are set by each operator &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, vehicle arrangements, insurance responsibility and employment status are set by each operator &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

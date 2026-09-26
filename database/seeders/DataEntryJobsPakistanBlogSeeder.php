@@ -169,7 +169,7 @@ class DataEntryJobsPakistanBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>For a government post, check the grade in the advertisement and treat basic pay and gross salary as different numbers.</strong> For a private post, ask whether the role is day shift or night shift before comparing it with anything, because that difference is worth more than one year of experience.</p>
 
-<p><strong>Note:</strong> pay, grade, shift pattern and test requirements are set by each employer and department &mdash; not by JobGader. Legitimate employers never charge a registration or training fee. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, grade, shift pattern and test requirements are set by each employer and department &mdash; not by Sajjad Digital Services. Legitimate employers never charge a registration or training fee. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

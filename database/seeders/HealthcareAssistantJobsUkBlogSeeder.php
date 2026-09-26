@@ -163,7 +163,7 @@ class HealthcareAssistantJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the band in the advert against the duties.</strong> Clinical tasks belong to Band 3, not Band 2.</p>
 
-<p><strong>Note:</strong> pay, bands and visa eligibility are set by NHS pay agreements, employers and UK immigration rules &mdash; not by JobGader. Confirm the details with the employer and on gov.uk before applying.</p>
+<p><strong>Note:</strong> pay, bands and visa eligibility are set by NHS pay agreements, employers and UK immigration rules &mdash; not by Sajjad Digital Services. Confirm the details with the employer and on gov.uk before applying.</p>
 JOBHTML;
     }
 

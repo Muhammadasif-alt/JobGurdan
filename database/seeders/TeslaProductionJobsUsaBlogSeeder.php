@@ -161,7 +161,7 @@ class TeslaProductionJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> the hourly range, shift pattern and benefits on any given role are set by Tesla and printed on its own posting &mdash; not by JobGader. Apply directly on Tesla Careers and never pay anyone for a Tesla job or an interview slot.</p>
+<p><strong>Note:</strong> the hourly range, shift pattern and benefits on any given role are set by Tesla and printed on its own posting &mdash; not by Sajjad Digital Services. Apply directly on Tesla Careers and never pay anyone for a Tesla job or an interview slot.</p>
 JOBHTML;
     }
 

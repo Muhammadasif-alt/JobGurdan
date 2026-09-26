@@ -163,7 +163,7 @@ class ReceptionistJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask which award or enterprise agreement covers the job,</strong> and check its current pay guide on fairwork.gov.au before accepting an offer.</p>
 
-<p><strong>Note:</strong> pay, hours and visa eligibility are set by employers, the Fair Work Commission and the Department of Home Affairs &mdash; not by JobGader. Confirm the details with the employer and on fairwork.gov.au before applying.</p>
+<p><strong>Note:</strong> pay, hours and visa eligibility are set by employers, the Fair Work Commission and the Department of Home Affairs &mdash; not by Sajjad Digital Services. Confirm the details with the employer and on fairwork.gov.au before applying.</p>
 JOBHTML;
     }
 

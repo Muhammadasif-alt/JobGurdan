@@ -138,7 +138,7 @@ class WordpressContentUploadJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of remote WordPress content upload and publishing work, not a single vacancy and not a job advertised by JobGader. Applications go to individual employers, agencies and the WordPress community job board.</p>
+<p>This is an aggregated listing of remote WordPress content upload and publishing work, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications go to individual employers, agencies and the WordPress community job board.</p>
 
 <h3>Read this before you apply</h3>
 <p>This is one of the few roles on this site genuinely open to applicants in Pakistan, because the work is done entirely inside a browser. The barriers are not eligibility but pricing and payment: agree whether you are paid per post or per month, cap the volume if it is per month, and set up a legitimate way to receive foreign payment before you start.</p>
@@ -159,7 +159,7 @@ class WordpressContentUploadJobsBlogSeeder extends Seeder
 <h3>Pay</h3>
 <p>Set by the individual client. The structure matters more than the headline: a per-post rate protects you, while a monthly rate against uncapped volume does not. Establish the expected number of posts, their length and the image workload before agreeing anything.</p>
 
-<p>Requirements, pay and payment arrangements are set by individual employers &mdash; not by JobGader. Confirm them in writing before you start, and never pay anyone to secure work.</p>
+<p>Requirements, pay and payment arrangements are set by individual employers &mdash; not by Sajjad Digital Services. Confirm them in writing before you start, and never pay anyone to secure work.</p>
 JOBHTML;
     }
 

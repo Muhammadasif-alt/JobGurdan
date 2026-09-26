@@ -162,7 +162,7 @@ class RemoteCustomerServiceNoExperienceBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, equipment and eligibility are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own careers site, and never pay for a job, training or equipment.</p>
+<p><strong>Note:</strong> pay, equipment and eligibility are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own careers site, and never pay for a job, training or equipment.</p>
 JOBHTML;
     }
 

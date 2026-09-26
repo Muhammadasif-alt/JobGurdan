@@ -162,7 +162,7 @@ class TaxiDriverJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Establish whether you are being offered employment or a bailment.</strong> Under a bailment agreement you are usually not an employee, which changes your pay, your leave, your superannuation and the tribunal you could go to if something goes wrong. Ask for the agreement in writing before you drive.</p>
 
-<p><strong>Note:</strong> accreditation rules, fees, pay arrangements and eligibility are set by each state regulator and operator &mdash; not by JobGader. Confirm the details with your state's transport authority and the operator's own advertisement before applying.</p>
+<p><strong>Note:</strong> accreditation rules, fees, pay arrangements and eligibility are set by each state regulator and operator &mdash; not by Sajjad Digital Services. Confirm the details with your state's transport authority and the operator's own advertisement before applying.</p>
 JOBHTML;
     }
 

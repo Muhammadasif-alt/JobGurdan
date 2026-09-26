@@ -140,7 +140,7 @@ class SingaporeAirlinesCabinCrewJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of the cabin crew campaigns Singapore Airlines runs, not a single vacancy and not a job advertised by JobGader. Applications are made on Singapore Airlines' own careers portal.</p>
+<p>This is an aggregated listing of the cabin crew campaigns Singapore Airlines runs, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on Singapore Airlines' own careers portal.</p>
 
 <h3>Read this before you apply</h3>
 <p>Every cabin crew role is based in Singapore, whatever country the interview is held in. SIA recruits through country-specific campaigns and opens and closes them without notice. When we checked on 22 September 2026, its portal returned no results at all for Pakistan or India.</p>
@@ -161,7 +161,7 @@ class SingaporeAirlinesCabinCrewJobsBlogSeeder extends Seeder
 <h3>Requirements</h3>
 <p>Minimum age 18. Fluent English. Minimum height of 1.58m for females and 1.65m for males, which SIA ties to safety and emergency procedures. Education differs by campaign: five GCE O-Level credits including English or Higher Nitec and above for Singapore, a junior college or university qualification for Japan, and a bachelor's degree for Taiwan.</p>
 
-<p>Pay, eligibility, contract terms and recruitment schedules are set by Singapore Airlines &mdash; not by JobGader. SIA states it conducts direct recruitment and engages no third-party agencies for cabin crew. Confirm the requirements on the live posting, and never pay anyone to secure a job.</p>
+<p>Pay, eligibility, contract terms and recruitment schedules are set by Singapore Airlines &mdash; not by Sajjad Digital Services. SIA states it conducts direct recruitment and engages no third-party agencies for cabin crew. Confirm the requirements on the live posting, and never pay anyone to secure a job.</p>
 JOBHTML;
     }
 

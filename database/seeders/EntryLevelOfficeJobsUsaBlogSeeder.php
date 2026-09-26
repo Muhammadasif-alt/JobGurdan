@@ -168,7 +168,7 @@ class EntryLevelOfficeJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> the wages and employment projections in this guide are published by the Bureau of Labor Statistics &mdash; not by JobGader. No legitimate employer charges you to be hired; the FTC's rule is that honest employers never ask you to pay to get a job.</p>
+<p><strong>Note:</strong> the wages and employment projections in this guide are published by the Bureau of Labor Statistics &mdash; not by Sajjad Digital Services. No legitimate employer charges you to be hired; the FTC's rule is that honest employers never ask you to pay to get a job.</p>
 JOBHTML;
     }
 

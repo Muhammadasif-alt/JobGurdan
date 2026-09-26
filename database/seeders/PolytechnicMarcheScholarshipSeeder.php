@@ -343,7 +343,7 @@ class PolytechnicMarcheScholarshipSeeder extends Seeder
 <li><a href="https://www.international.univpm.it/first-week-at-univpm/useful-contacts/" target="_blank" rel="noopener">Useful contacts for new students</a></li>
 </ul>
 
-<p><em>JobGader is not part of the Polytechnic University of Marche. This guide was checked against the university's own pages, the ERDIS Marche 2026/27 call and the Italian ministry and consulate rules on 12 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
+<p><em>Sajjad Digital Services is not part of the Polytechnic University of Marche. This guide was checked against the university's own pages, the ERDIS Marche 2026/27 call and the Italian ministry and consulate rules on 12 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
 HTML;
     }
 }

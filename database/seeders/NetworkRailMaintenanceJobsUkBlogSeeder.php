@@ -254,7 +254,7 @@ class NetworkRailMaintenanceJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, rosters and medical standards for these roles are set by Network Rail and the rail industry standards bodies, and visa rules are set by the Home Office &mdash; not by JobGader. Apply directly through Network Rail's own careers site and never pay anyone for a Network Rail job, a medical or a PTS card.</p>
+<p><strong>Note:</strong> pay, rosters and medical standards for these roles are set by Network Rail and the rail industry standards bodies, and visa rules are set by the Home Office &mdash; not by Sajjad Digital Services. Apply directly through Network Rail's own careers site and never pay anyone for a Network Rail job, a medical or a PTS card.</p>
 JOBHTML;
     }
 

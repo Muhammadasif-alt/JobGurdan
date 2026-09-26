@@ -126,7 +126,7 @@ class FirstBlogPostSeeder extends Seeder
     <li>Higher rates for specialised freight &mdash; hazmat, tanker, refrigerated</li>
 </ul>
 
-<p><strong>Note:</strong> sponsorship terms, timelines and eligibility are set by the individual carrier and by USCIS &mdash; not by JobGader. Read each posting in full before applying, and never pay an upfront "processing fee" for sponsorship.</p>
+<p><strong>Note:</strong> sponsorship terms, timelines and eligibility are set by the individual carrier and by USCIS &mdash; not by Sajjad Digital Services. Read each posting in full before applying, and never pay an upfront "processing fee" for sponsorship.</p>
 JOBHTML;
     }
 

@@ -143,7 +143,7 @@ class LocalSeoAssistantJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of local SEO and Google Business Profile roles, not a single vacancy and not a job advertised by JobGader. Applications are made on the employer's own site or on the board where the role appears.</p>
+<p>This is an aggregated listing of local SEO and Google Business Profile roles, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on the employer's own site or on the board where the role appears.</p>
 
 <h3>What the work involves</h3>
 <p>Setting up and maintaining a Business Profile, choosing categories, keeping hours and service areas accurate, adding photos, replying to reviews, and reporting on how the profile performs in Search and Maps.</p>
@@ -157,7 +157,7 @@ class LocalSeoAssistantJobsBlogSeeder extends Seeder
 <h3>Before you accept</h3>
 <p>Ask to be added as a manager, never as owner, and never share passwords. Confirm the shift, because agency work on American accounts is frequently evening or night hours.</p>
 
-<p>Requirements, hours and pay are set by individual employers &mdash; not by JobGader. Never pay anyone to secure a job, and never claim a Business Profile without the owner's written consent.</p>
+<p>Requirements, hours and pay are set by individual employers &mdash; not by Sajjad Digital Services. Never pay anyone to secure a job, and never claim a Business Profile without the owner's written consent.</p>
 JOBHTML;
     }
 

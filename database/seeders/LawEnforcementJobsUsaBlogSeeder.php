@@ -163,7 +163,7 @@ class LawEnforcementJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, eligibility and hiring rules are set by each agency and by federal and state law &mdash; not by JobGader. Read the official job announcement before applying.</p>
+<p><strong>Note:</strong> pay, eligibility and hiring rules are set by each agency and by federal and state law &mdash; not by Sajjad Digital Services. Read the official job announcement before applying.</p>
 JOBHTML;
     }
 

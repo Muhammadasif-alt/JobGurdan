@@ -154,7 +154,7 @@ class BhpMiningJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, rosters and eligibility are set by BHP, and minimum rates are set by the Fair Work Commission &mdash; not by JobGader. BHP states it never seeks any funds from job applicants at any stage of recruitment.</p>
+<p><strong>Note:</strong> pay, rosters and eligibility are set by BHP, and minimum rates are set by the Fair Work Commission &mdash; not by Sajjad Digital Services. BHP states it never seeks any funds from job applicants at any stage of recruitment.</p>
 JOBHTML;
     }
 

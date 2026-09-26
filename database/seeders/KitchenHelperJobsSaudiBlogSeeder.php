@@ -157,7 +157,7 @@ class KitchenHelperJobsSaudiBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for the visa.</strong> Under Article 40 of the Labour Law the employer pays recruitment, iqama and work permit fees, profession changes, exit and re-entry visas and your return ticket, and no employer may keep your passport.</p>
 
-<p><strong>Note:</strong> wages, contracts and visa rules are set by employers, the Ministry of Human Resources and Social Development and your own country's emigration authority &mdash; not by JobGader. Confirm the terms before you pay any agency or sign.</p>
+<p><strong>Note:</strong> wages, contracts and visa rules are set by employers, the Ministry of Human Resources and Social Development and your own country's emigration authority &mdash; not by Sajjad Digital Services. Confirm the terms before you pay any agency or sign.</p>
 JOBHTML;
     }
 

@@ -202,7 +202,7 @@ class StarbucksBaristaJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> hourly rates, shift patterns and benefits eligibility are set by Starbucks and by state and city wage law &mdash; not by JobGader. Apply directly on the Starbucks careers site, and never pay anyone for a Starbucks application.</p>
+<p><strong>Note:</strong> hourly rates, shift patterns and benefits eligibility are set by Starbucks and by state and city wage law &mdash; not by Sajjad Digital Services. Apply directly on the Starbucks careers site, and never pay anyone for a Starbucks application.</p>
 JOBHTML;
     }
 

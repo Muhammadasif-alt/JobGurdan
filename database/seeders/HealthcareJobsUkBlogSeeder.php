@@ -150,7 +150,7 @@ class HealthcareJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the employer on the gov.uk register of licensed sponsors</strong> before accepting any offer that involves sponsorship, and remember that being licensed does not permit sponsoring a closed occupation code. <strong>Charging a worker for sponsorship is illegal in the UK</strong>, so any fee requested for a Certificate of Sponsorship or a job offer is a fraud.</p>
 
-<p><strong>Note:</strong> pay bands, registration requirements and immigration rules are set by the NHS, the regulators and the Home Office &mdash; not by JobGader. Confirm current requirements at their source before applying or paying any fee.</p>
+<p><strong>Note:</strong> pay bands, registration requirements and immigration rules are set by the NHS, the regulators and the Home Office &mdash; not by Sajjad Digital Services. Confirm current requirements at their source before applying or paying any fee.</p>
 JOBHTML;
     }
 

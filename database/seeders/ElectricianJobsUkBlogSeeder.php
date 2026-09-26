@@ -164,7 +164,7 @@ class ElectricianJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the amendment on your wiring regulations certificate before you apply for anything.</strong> BS 7671:2018+A4:2026 was published on 15 April 2026, and the version before it is withdrawn on 15 October 2026. If you are self-employed, work out the day rate after the CIS deduction rather than before it.</p>
 
-<p><strong>Note:</strong> pay, certification requirements, scheme registration and contract type are set by each employer and by regulation &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, certification requirements, scheme registration and contract type are set by each employer and by regulation &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

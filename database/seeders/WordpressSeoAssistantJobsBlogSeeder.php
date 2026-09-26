@@ -142,7 +142,7 @@ class WordpressSeoAssistantJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of WordPress SEO assistant work, not a single vacancy and not a job advertised by JobGader. Applications go to individual employers, agencies and the WordPress community job board.</p>
+<p>This is an aggregated listing of WordPress SEO assistant work, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications go to individual employers, agencies and the WordPress community job board.</p>
 
 <h3>Read this before you apply</h3>
 <p>This role is genuinely open to applicants in Pakistan, because it is browser work. Two cautions. First, a listing tagged "remote" is not automatically open to Pakistan; some carry explicit citizenship restrictions. Second, arrange a legitimate route for receiving foreign payment before you accept a client, not after.</p>
@@ -163,7 +163,7 @@ class WordpressSeoAssistantJobsBlogSeeder extends Seeder
 <h3>Pay</h3>
 <p>Advertised Pakistani pay in September 2026 ranged from around PKR 10,000 a month for a WordPress internship in Lahore to PKR 95,000 to 190,000 for a remote SEO specialist role requiring two to four years. Many Pakistani employers publish no figure at all. Remote contracts for overseas clients sit higher again.</p>
 
-<p>Requirements, pay and payment arrangements are set by individual employers &mdash; not by JobGader. Confirm them in writing before starting, and never pay anyone to secure work.</p>
+<p>Requirements, pay and payment arrangements are set by individual employers &mdash; not by Sajjad Digital Services. Confirm them in writing before starting, and never pay anyone to secure work.</p>
 JOBHTML;
     }
 

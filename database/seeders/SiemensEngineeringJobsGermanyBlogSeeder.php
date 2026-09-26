@@ -144,7 +144,7 @@ class SiemensEngineeringJobsGermanyBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of the engineering roles Siemens AG advertises across its German sites, not a single vacancy and not a job advertised by JobGader. Applications are made on Siemens' own careers portal.</p>
+<p>This is an aggregated listing of the engineering roles Siemens AG advertises across its German sites, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on Siemens' own careers portal.</p>
 
 <h3>Which Siemens</h3>
 <p>Siemens AG consists of Digital Industries, Smart Infrastructure and Mobility, plus the separately managed Siemens Healthineers. Siemens Energy AG is a different company with its own careers site, and power generation, turbines and wind roles belong there rather than here.</p>
@@ -164,7 +164,7 @@ class SiemensEngineeringJobsGermanyBlogSeeder extends Seeder
 <h3>Recruitment fraud</h3>
 <p>Siemens states it will never ask for financial information during the selection process, and that interviews always come from an official Siemens email address.</p>
 
-<p>Pay, eligibility, language requirements and immigration rules are set by Siemens, the German authorities and German law &mdash; not by JobGader. Confirm the requirements on the live posting before acting.</p>
+<p>Pay, eligibility, language requirements and immigration rules are set by Siemens, the German authorities and German law &mdash; not by Sajjad Digital Services. Confirm the requirements on the live posting before acting.</p>
 JOBHTML;
     }
 

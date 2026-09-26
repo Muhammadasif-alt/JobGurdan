@@ -162,7 +162,7 @@ class AzureCloudEngineerJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Read the job description for the split.</strong> A title of "Cloud Engineer (Azure / M365 / Infrastructure)" is describing at least two jobs. Ask in the first interview what proportion of the week is tenant administration, licensing and user support versus infrastructure design &mdash; the answer sets the band and the next role you can reach from it.</p>
 
-<p><strong>Note:</strong> pay, on-call expectations, clearance requirements and any sponsorship decision are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, on-call expectations, clearance requirements and any sponsorship decision are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

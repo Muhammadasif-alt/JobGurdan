@@ -156,7 +156,7 @@ class BmwFactoryJobsGermanyBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay is set by the metal and electrical industry collective agreement and by BMW, and visa rules are set by the German authorities &mdash; not by JobGader. Apply directly on BMW Group Careers and never pay an agent for a BMW job.</p>
+<p><strong>Note:</strong> pay is set by the metal and electrical industry collective agreement and by BMW, and visa rules are set by the German authorities &mdash; not by Sajjad Digital Services. Apply directly on BMW Group Careers and never pay an agent for a BMW job.</p>
 JOBHTML;
     }
 

@@ -169,7 +169,7 @@ class MaintenanceTechnicianJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the setting and the certifications required</strong> &mdash; industrial and specialised roles pay well above general facilities work &mdash; and whether the role carries on-call or shift duties.</p>
 
-<p><strong>Note:</strong> pay, benefits and requirements are set by each employer &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, benefits and requirements are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 

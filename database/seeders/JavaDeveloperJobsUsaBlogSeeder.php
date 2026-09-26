@@ -167,7 +167,7 @@ class JavaDeveloperJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Establish the engagement type in the first conversation.</strong> W-2, 1099 and corp-to-corp are three different legal relationships with different tax, benefit and liability consequences, and recruiters routinely leave it until the offer. Ask which one this is, and how many vendors sit between you and the client.</p>
 
-<p><strong>Note:</strong> pay, engagement type and work authorisation requirements are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement, and take professional advice before signing a contract structure you have not used before.</p>
+<p><strong>Note:</strong> pay, engagement type and work authorisation requirements are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement, and take professional advice before signing a contract structure you have not used before.</p>
 JOBHTML;
     }
 

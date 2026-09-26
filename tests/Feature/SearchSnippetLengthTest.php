@@ -54,9 +54,11 @@ it('leads a job title with the role rather than the whole category list', functi
     // title before it was cut back to the part in front of the dash.
     ['title' => $title] = snippet('/jobs/cleaner-hotel-hospital-office-and-residential-saudi-arabia');
 
+    // The brand suffix was dropped in the rename: with the longer name, 41 of
+    // the 48 titles would have run past Google's 60-character cut.
     expect($title)->toStartWith('Cleaner')
         ->toContain('Saudi Arabia')
-        ->toEndWith('| JobGader');
+        ->not->toContain('JobGader');
 });
 
 it('trims an over-long description at a word boundary rather than mid-word', function () {

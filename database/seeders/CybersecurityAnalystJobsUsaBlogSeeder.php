@@ -162,7 +162,7 @@ class CybersecurityAnalystJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask whether the role requires a security clearance, and whether the employer sponsors one.</strong> A clearance needs US citizenship and an employer to sponsor it; you cannot obtain one yourself. A large share of the postings around Washington DC, Northern Virginia and Fort Meade are cleared roles, and the requirement is often buried well down the advertisement.</p>
 
-<p><strong>Note:</strong> pay, shift patterns, clearance requirements and any sponsorship decision are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, shift patterns, clearance requirements and any sponsorship decision are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

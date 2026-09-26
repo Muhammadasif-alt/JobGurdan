@@ -160,7 +160,7 @@ class RegisteredNurseJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check which license the post accepts.</strong> A multistate license is not valid in states outside the compact, including California and New York.</p>
 
-<p><strong>Note:</strong> pay, licensing and immigration rules are set by employers, state boards of nursing and federal law &mdash; not by JobGader. Confirm the details with the employer and the state board before applying.</p>
+<p><strong>Note:</strong> pay, licensing and immigration rules are set by employers, state boards of nursing and federal law &mdash; not by Sajjad Digital Services. Confirm the details with the employer and the state board before applying.</p>
 JOBHTML;
     }
 

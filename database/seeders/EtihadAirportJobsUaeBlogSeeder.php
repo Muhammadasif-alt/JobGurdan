@@ -146,7 +146,7 @@ class EtihadAirportJobsUaeBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of the ground services roles advertised at Zayed International Airport in Abu Dhabi, not a single vacancy and not a job advertised by JobGader. Applications are made on the employer's own careers site. These are in-person roles at a physical airport.</p>
+<p>This is an aggregated listing of the ground services roles advertised at Zayed International Airport in Abu Dhabi, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on the employer's own careers site. These are in-person roles at a physical airport.</p>
 
 <h3>Who the employer is</h3>
 <p>Ground handling at Abu Dhabi is not run by Etihad Airways. Etihad Airport Services was included in the December 2021 transfer of Etihad's support businesses to ADQ, Abu Dhabi's sovereign investor, and on 5 November 2025 it rebranded as Velora. Velora states it employs more than 5,000 people and that ground services at Zayed International Airport handled 28 million travellers in 2024.</p>
@@ -172,7 +172,7 @@ class EtihadAirportJobsUaeBlogSeeder extends Seeder
 <h3>Recruitment fees</h3>
 <p>Article 6(4) of Federal Decree-Law No. 33 of 2021 states that the employer is prohibited from charging the worker the fees and costs of recruitment and employment, or collecting them from him, whether directly or indirectly. The UAE Government puts it plainly: if a company or agency asks you for money to process a visa or a medical test, it is not a genuine company.</p>
 
-<p>Pay, shifts, eligibility and visa rules are set by the employer, the Ministry of Human Resources and Emiratisation and UAE labour law &mdash; not by JobGader. Confirm the requirements on the live posting, and verify any job offer with MOHRE before you travel.</p>
+<p>Pay, shifts, eligibility and visa rules are set by the employer, the Ministry of Human Resources and Emiratisation and UAE labour law &mdash; not by Sajjad Digital Services. Confirm the requirements on the live posting, and verify any job offer with MOHRE before you travel.</p>
 JOBHTML;
     }
 

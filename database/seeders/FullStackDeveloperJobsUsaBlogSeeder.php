@@ -159,7 +159,7 @@ class FullStackDeveloperJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask which half you will actually own.</strong> Many "full stack" roles are front-end roles with occasional API work, priced at the front-end band. The job description's balance, not the title, tells you which one this is.</p>
 
-<p><strong>Note:</strong> pay, levelling, remote policy and any sponsorship decision are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, levelling, remote policy and any sponsorship decision are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

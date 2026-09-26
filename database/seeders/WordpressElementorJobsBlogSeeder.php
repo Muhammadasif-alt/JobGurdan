@@ -157,7 +157,7 @@ class WordpressElementorJobsBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> salaries, eligibility and location restrictions are set and published by each employer &mdash; not by JobGader. A role advertised as "remote" is frequently restricted to one country or region, so read the eligibility line before applying. Applying is free; any request for payment is a scam.</p>
+<p><strong>Note:</strong> salaries, eligibility and location restrictions are set and published by each employer &mdash; not by Sajjad Digital Services. A role advertised as "remote" is frequently restricted to one country or region, so read the eligibility line before applying. Applying is free; any request for payment is a scam.</p>
 JOBHTML;
     }
 

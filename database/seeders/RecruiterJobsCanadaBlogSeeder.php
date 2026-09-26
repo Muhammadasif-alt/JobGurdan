@@ -162,7 +162,7 @@ class RecruiterJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask how the base salary and commission are split,</strong> and whether commission is paid on placement or after a guarantee period.</p>
 
-<p><strong>Note:</strong> pay, licensing and posting rules are set by employers and provincial governments &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, licensing and posting rules are set by employers and provincial governments &mdash; not by Sajjad Digital Services. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 

@@ -157,7 +157,7 @@ class DataEntryJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Treat this as an entry point with a deadline on it.</strong> The Bureau of Labor Statistics projects data entry keyer employment down 25.9 per cent between 2024 and 2034. Take the role, and use it to reach exception handling, verification, medical or legal records, or analysis &mdash; the parts of the work that involve a decision rather than a keystroke.</p>
 
-<p><strong>Note:</strong> pay, schedule, equipment and remote eligibility are set by each employer &mdash; not by JobGader. Legitimate employers never ask you to pay for training or equipment. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, schedule, equipment and remote eligibility are set by each employer &mdash; not by Sajjad Digital Services. Legitimate employers never ask you to pay for training or equipment. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

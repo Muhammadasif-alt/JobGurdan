@@ -161,7 +161,7 @@ class SecuritySpecialistJobsUaeBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask which emirate's licence the role needs and how the package splits basic salary and allowances,</strong> before accepting an offer.</p>
 
-<p><strong>Note:</strong> pay, licensing and visa rules are set by employers, SIRA, Abu Dhabi Police and the Ministry of Human Resources and Emiratisation &mdash; not by JobGader. Confirm the details with the employer and the regulator before applying.</p>
+<p><strong>Note:</strong> pay, licensing and visa rules are set by employers, SIRA, Abu Dhabi Police and the Ministry of Human Resources and Emiratisation &mdash; not by Sajjad Digital Services. Confirm the details with the employer and the regulator before applying.</p>
 JOBHTML;
     }
 

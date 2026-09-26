@@ -164,7 +164,7 @@ class DeliveryDriverJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask who employs you, and price your own car before trusting any app's hourly figure.</strong> At the IRS rate of 76 cents a mile from 1 July 2026, a 100-mile shift represents $76 of vehicle cost before a single tip is counted.</p>
 
-<p><strong>Note:</strong> pay, employment status, vehicle arrangements and insurance requirements are set by each employer and platform &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, employment status, vehicle arrangements and insurance requirements are set by each employer and platform &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

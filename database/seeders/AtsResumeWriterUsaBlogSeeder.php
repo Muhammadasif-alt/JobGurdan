@@ -149,7 +149,7 @@ class AtsResumeWriterUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Be careful with the industry's favourite statistic.</strong> The claim that applicant tracking systems automatically reject around three quarters of resumes is not supported by any published research, and recruiters say their systems do not auto-reject on formatting. What actually happens is volume, recruiter keyword searches inside the system, and genuine parsing errors. A writer who understands that difference gives better advice than one repeating the sales line.</p>
 
-<p><strong>Note:</strong> pay, turnaround expectations and certification requirements are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, turnaround expectations and certification requirements are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

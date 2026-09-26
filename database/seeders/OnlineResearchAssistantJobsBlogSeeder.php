@@ -152,7 +152,7 @@ class OnlineResearchAssistantJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of research assistant and online research roles, not a single vacancy and not a job advertised by JobGader. Applications are made on the employer's own site or on the board where the role appears.</p>
+<p>This is an aggregated listing of research assistant and online research roles, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on the employer's own site or on the board where the role appears.</p>
 
 <h3>What the work involves</h3>
 <p>Finding, reading and summarising sources, then recording what you found in a form somebody else can use. In a university or clinical setting that means literature searches, participant records and protocol paperwork. On a commercial desk it means company and contact research feeding a sales or recruitment pipeline. The two are very different jobs sharing one label.</p>
@@ -166,7 +166,7 @@ class OnlineResearchAssistantJobsBlogSeeder extends Seeder
 <h3>Before you accept</h3>
 <p>Ask which of the two jobs it is, and what the output actually is: a literature summary, a spreadsheet of companies, or a list of contacts. Ask who checks the work and against what. Confirm the country the employer will hire from, because a remote listing is frequently restricted to one.</p>
 
-<p>Requirements, hours and pay are set by individual employers &mdash; not by JobGader. Never pay anyone to secure a job, never pay for training or equipment to start one, and never send identity documents before you have confirmed the employer exists.</p>
+<p>Requirements, hours and pay are set by individual employers &mdash; not by Sajjad Digital Services. Never pay anyone to secure a job, never pay for training or equipment to start one, and never send identity documents before you have confirmed the employer exists.</p>
 JOBHTML;
     }
 

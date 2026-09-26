@@ -167,7 +167,7 @@ class HealthcareSupportJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check whether the role is NHS or social care,</strong> the band or hourly rate, and whether the employer funds the Care Certificate and further diplomas.</p>
 
-<p><strong>Note:</strong> pay, bands and training support are set by each employer &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, bands and training support are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 

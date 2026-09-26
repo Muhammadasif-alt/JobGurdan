@@ -234,7 +234,7 @@ class MarksAndSpencerRetailJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, premiums, benefits and age rules are set and published by Marks and Spencer, and visa eligibility is set by the UK Home Office &mdash; not by JobGader. Sales and retail assistant occupation codes are currently ineligible for the Skilled Worker visa. Apply directly on the M&amp;S careers site, and never pay anyone for an M&amp;S job or a shift.</p>
+<p><strong>Note:</strong> pay, premiums, benefits and age rules are set and published by Marks and Spencer, and visa eligibility is set by the UK Home Office &mdash; not by Sajjad Digital Services. Sales and retail assistant occupation codes are currently ineligible for the Skilled Worker visa. Apply directly on the M&amp;S careers site, and never pay anyone for an M&amp;S job or a shift.</p>
 JOBHTML;
     }
 

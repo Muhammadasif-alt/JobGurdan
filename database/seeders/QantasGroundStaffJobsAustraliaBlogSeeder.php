@@ -148,7 +148,7 @@ class QantasGroundStaffJobsAustraliaBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of the airport customer service roles the Qantas Group advertises across Australian airports, not a single vacancy and not a job advertised by JobGader. Applications are made on Qantas's own careers site. These are in-person roles at an airport.</p>
+<p>This is an aggregated listing of the airport customer service roles the Qantas Group advertises across Australian airports, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on Qantas's own careers site. These are in-person roles at an airport.</p>
 
 <h3>What the work involves</h3>
 <ul>
@@ -172,7 +172,7 @@ class QantasGroundStaffJobsAustraliaBlogSeeder extends Seeder
 <h3>Work rights</h3>
 <p>Qantas Group adverts for these roles require the right to work in Australia or New Zealand without restrictions or sponsorship. None of these occupations appear on Australia's Core Skills Occupation List, so there is no employer-sponsored visa route into them.</p>
 
-<p>Pay, rosters, security clearances and visa rules are set by the Qantas Group, the Fair Work Commission, AusCheck and the Department of Home Affairs &mdash; not by JobGader. Confirm the requirements on the live posting before you apply.</p>
+<p>Pay, rosters, security clearances and visa rules are set by the Qantas Group, the Fair Work Commission, AusCheck and the Department of Home Affairs &mdash; not by Sajjad Digital Services. Confirm the requirements on the live posting before you apply.</p>
 JOBHTML;
     }
 

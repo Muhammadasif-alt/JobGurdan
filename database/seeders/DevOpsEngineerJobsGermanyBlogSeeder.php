@@ -158,7 +158,7 @@ class DevOpsEngineerJobsGermanyBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the gross annual salary against the Blue Card threshold</strong> before you accept an offer from outside the EU.</p>
 
-<p><strong>Note:</strong> pay, working language and visa eligibility are set by each employer and by German immigration law &mdash; not by JobGader. Confirm the details with the employer and the German mission before applying.</p>
+<p><strong>Note:</strong> pay, working language and visa eligibility are set by each employer and by German immigration law &mdash; not by Sajjad Digital Services. Confirm the details with the employer and the German mission before applying.</p>
 JOBHTML;
     }
 

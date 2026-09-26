@@ -16,17 +16,19 @@ it('keeps blog and listing images crawlable in robots.txt', function () {
         ->not->toContain('Disallow: /public/storage/')
         ->not->toContain('Disallow: /storage/')
         ->not->toContain('Crawl-delay')
-        ->and($robots)->toContain('Sitemap: https://jobgader.com/sitemap.xml');
+        ->and($robots)->toContain('Sitemap: https://sajaddigitalservices.com/sitemap.xml');
 });
 
-it('brands the SEO landing pages as JobGader', function () {
+it('brands the SEO landing pages as Sajjad Digital Services', function () {
     $titles = collect(glob(resource_path('views/pages/*.blade.php')))
         ->map(fn (string $file): string => (string) file_get_contents($file));
 
     // "USA Jobs" was the old site's name and survived on 36 landing pages.
     expect($titles->filter(fn (string $body): bool => str_contains($body, 'USA Jobs')))->toBeEmpty();
 
-    $this->get('/remote-jobs-usa')->assertOk()->assertSee('| JobGader</title>', false);
+    $this->get('/remote-jobs-usa')->assertOk()
+        ->assertSee('<title>Remote Jobs', false)
+        ->assertDontSee('JobGader', false);
 });
 
 it('serves a real favicon at the document root', function () {

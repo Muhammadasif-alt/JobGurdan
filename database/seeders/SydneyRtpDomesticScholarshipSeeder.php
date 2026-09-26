@@ -280,7 +280,7 @@ class SydneyRtpDomesticScholarshipSeeder extends Seeder
 <li><a href="https://www.sydney.edu.au/study/applying/how-to-apply/postgraduate-research.html" target="_blank" rel="noopener">How to apply for postgraduate research</a></li>
 </ul>
 
-<p><em>JobGader is not part of the University of Sydney. This guide was checked against the university's official pages on 10 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
+<p><em>Sajjad Digital Services is not part of the University of Sydney. This guide was checked against the university's official pages on 10 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
 HTML;
     }
 }

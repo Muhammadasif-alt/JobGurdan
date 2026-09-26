@@ -143,7 +143,7 @@ class AmazonFulfillmentCenterJobsUsaBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of the fulfillment centre and warehouse associate roles Amazon advertises across its US sites, not a single vacancy and not a job advertised by JobGader. Applications are made on Amazon's own hiring site. These are in-person roles at a physical US fulfillment centre.</p>
+<p>This is an aggregated listing of the fulfillment centre and warehouse associate roles Amazon advertises across its US sites, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on Amazon's own hiring site. These are in-person roles at a physical US fulfillment centre.</p>
 
 <h3>What the work involves</h3>
 <ul>
@@ -167,7 +167,7 @@ class AmazonFulfillmentCenterJobsUsaBlogSeeder extends Seeder
 <h3>Fraud warning</h3>
 <p>Amazon states that all genuine Amazon job opportunities are posted on its official job board, and that Amazon will never ask you to provide payment information for products or services.</p>
 
-<p>Pay, shift bands, benefits terms and work-authorisation rules are set by Amazon, the US Department of Labor and USCIS &mdash; not by JobGader. Confirm the rate and the requirements on the live posting for the site you are applying to.</p>
+<p>Pay, shift bands, benefits terms and work-authorisation rules are set by Amazon, the US Department of Labor and USCIS &mdash; not by Sajjad Digital Services. Confirm the rate and the requirements on the live posting for the site you are applying to.</p>
 JOBHTML;
     }
 

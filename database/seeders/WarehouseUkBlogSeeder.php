@@ -134,7 +134,7 @@ class WarehouseUkBlogSeeder extends Seeder
     <li>Progression into team leader and management roles, where sponsorship does become possible</li>
 </ul>
 
-<p><strong>Note:</strong> pay, hours and contracts are set by the individual employer or agency &mdash; not by JobGader. Job boards sometimes show a generic "visa sponsorship" benefit tag that does not reflect real eligibility; always check the employer on the gov.uk register of licensed sponsors, and never pay a fee for a job offer or a visa.</p>
+<p><strong>Note:</strong> pay, hours and contracts are set by the individual employer or agency &mdash; not by Sajjad Digital Services. Job boards sometimes show a generic "visa sponsorship" benefit tag that does not reflect real eligibility; always check the employer on the gov.uk register of licensed sponsors, and never pay a fee for a job offer or a visa.</p>
 JOBHTML;
     }
 

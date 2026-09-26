@@ -200,7 +200,7 @@ class GoogleDataCenterJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> salary bands, qualifications and eligibility are set and published by Google on each individual posting &mdash; not by JobGader. Google states on these US postings that the role is not eligible for U.S. immigration sponsorship. Applying to Google is free, and any request for payment is a scam.</p>
+<p><strong>Note:</strong> salary bands, qualifications and eligibility are set and published by Google on each individual posting &mdash; not by Sajjad Digital Services. Google states on these US postings that the role is not eligible for U.S. immigration sponsorship. Applying to Google is free, and any request for payment is a scam.</p>
 JOBHTML;
     }
 

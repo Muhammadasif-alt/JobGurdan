@@ -158,7 +158,7 @@ class FinanceAnalystJobsCanadaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, designations and hiring rules are set by each employer &mdash; not by JobGader. Read the current job posting before applying.</p>
+<p><strong>Note:</strong> pay, designations and hiring rules are set by each employer &mdash; not by Sajjad Digital Services. Read the current job posting before applying.</p>
 JOBHTML;
     }
 

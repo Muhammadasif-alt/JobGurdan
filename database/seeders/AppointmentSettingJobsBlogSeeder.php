@@ -156,7 +156,7 @@ class AppointmentSettingJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of appointment setting and cold calling roles, not a single vacancy and not a job advertised by JobGader. Applications are made on the employer's own site or on the board where the role appears.</p>
+<p>This is an aggregated listing of appointment setting and cold calling roles, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on the employer's own site or on the board where the role appears.</p>
 
 <h3>What the work involves</h3>
 <p>Calling a list of people who did not ask to be called, holding the conversation long enough to establish whether there is a real need, and booking a meeting for somebody else to close. You are measured on booked meetings that are actually attended, not on dials.</p>
@@ -170,7 +170,7 @@ class AppointmentSettingJobsBlogSeeder extends Seeder
 <h3>Before you accept</h3>
 <p>Ask which market you will dial and what the compliance process is: who scrubs the do-not-call list and how often, whether calls are recorded, and what the script discloses in its first sentence. Ask how the pay actually works &mdash; a base plus a fee per attended meeting is very different from commission only.</p>
 
-<p>Requirements, hours and pay are set by individual employers &mdash; not by JobGader. Never pay anyone to secure a job, and never accept a role that asks you to conceal the identity of the business you are calling for.</p>
+<p>Requirements, hours and pay are set by individual employers &mdash; not by Sajjad Digital Services. Never pay anyone to secure a job, and never accept a role that asks you to conceal the identity of the business you are calling for.</p>
 JOBHTML;
     }
 

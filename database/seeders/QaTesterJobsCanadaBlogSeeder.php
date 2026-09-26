@@ -165,7 +165,7 @@ class QaTesterJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Find out which occupation code the role sits under before you talk about money.</strong> Software testing technicians and information systems specialists are separate classifications in Canada with substantially different prevailing wages, and for an international applicant the code also drives which immigration routes are open.</p>
 
-<p><strong>Note:</strong> pay, tooling and eligibility are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, tooling and eligibility are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

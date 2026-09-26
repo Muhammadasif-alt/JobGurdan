@@ -159,7 +159,7 @@ class GraphicDesignerJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check whether a remote role prices by your location.</strong> Some US employers hiring across regions or internationally pay a flat rate; others adjust to where you live. It changes the offer substantially and is a fair question to ask early.</p>
 
-<p><strong>Note:</strong> salaries, remote policies and portfolio expectations are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> salaries, remote policies and portfolio expectations are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

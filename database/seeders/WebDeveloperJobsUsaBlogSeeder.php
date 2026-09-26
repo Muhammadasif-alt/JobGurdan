@@ -161,7 +161,7 @@ class WebDeveloperJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask whether remote pay is indexed to your location.</strong> Some US employers pay a flat rate wherever you live; others adjust to local market. It is a normal question and it changes the offer substantially.</p>
 
-<p><strong>Note:</strong> salaries, remote policies, stack requirements and any sponsorship decision are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> salaries, remote policies, stack requirements and any sponsorship decision are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

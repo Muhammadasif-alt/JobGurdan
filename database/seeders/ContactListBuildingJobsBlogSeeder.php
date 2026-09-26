@@ -138,7 +138,7 @@ class ContactListBuildingJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of remote contact list building roles, not a single vacancy and not a job advertised by JobGader. Applications are made on the board or employer site where the role appears.</p>
+<p>This is an aggregated listing of remote contact list building roles, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on the board or employer site where the role appears.</p>
 
 <h3>Before you accept a quota</h3>
 <p>Divide the monthly pay by the monthly contact quota. That per-contact figure, not the headline salary, is what you are being offered. Then ask what tools and paid credits the employer supplies, because a quota that assumes free tools is a quota that assumes something else is going on.</p>
@@ -149,7 +149,7 @@ class ContactListBuildingJobsBlogSeeder extends Seeder
 <h3>The question that protects you</h3>
 <p>Ask whose account and whose tooling the extraction runs on. Where an employer expects bulk export from a platform whose terms prohibit it, the restriction falls on the account that did it. If that is your personal profile, the cost of the job is your profile.</p>
 
-<p>Requirements, quotas and pay are set by individual employers &mdash; not by JobGader. Never pay anyone to secure a job, and never publish a client's contact data in a portfolio.</p>
+<p>Requirements, quotas and pay are set by individual employers &mdash; not by Sajjad Digital Services. Never pay anyone to secure a job, and never publish a client's contact data in a portfolio.</p>
 JOBHTML;
     }
 

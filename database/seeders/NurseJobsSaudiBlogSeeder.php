@@ -158,7 +158,7 @@ class NurseJobsSaudiBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Use a legal recruitment route and never pay for a visa.</strong> Indian nurses are recruited only through eMigrate. Pakistani nurses should use an agency licensed by the Bureau of Emigration and Overseas Employment, and Filipino nurses a Department of Migrant Workers-licensed agency.</p>
 
-<p><strong>Note:</strong> pay, licensing requirements, contract terms and recruitment rules are set by each hospital, SCFHS and the authorities in your home country &mdash; not by JobGader. Confirm the details with the employer and the official sources before applying.</p>
+<p><strong>Note:</strong> pay, licensing requirements, contract terms and recruitment rules are set by each hospital, SCFHS and the authorities in your home country &mdash; not by Sajjad Digital Services. Confirm the details with the employer and the official sources before applying.</p>
 JOBHTML;
     }
 

@@ -151,7 +151,7 @@ class AramcoEngineeringJobsSaudiBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> Aramco publishes no salary figure for any role, and any number you see elsewhere is a third-party estimate &mdash; not by JobGader. Aramco states it will never ask applicants for payment at any point in recruitment.</p>
+<p><strong>Note:</strong> Aramco publishes no salary figure for any role, and any number you see elsewhere is a third-party estimate &mdash; not by Sajjad Digital Services. Aramco states it will never ask applicants for payment at any point in recruitment.</p>
 JOBHTML;
     }
 

@@ -149,7 +149,7 @@ class UnskilledJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>You may not be charged a recruitment fee.</strong> Both the H-2A and H-2B programmes prohibit workers being charged for recruitment, and H-2A employers are required to cover inbound travel and provide housing at no cost. Anyone asking you to pay for a job offer, a visa slot or a place on a list is operating outside the rules. Real temporary postings are published on the US Department of Labor's Seasonal Jobs portal.</p>
 
-<p><strong>Note:</strong> wage rates, programme rules and visa availability are set by the US government &mdash; not by JobGader. Verify any offer against the official job order before paying anything or travelling.</p>
+<p><strong>Note:</strong> wage rates, programme rules and visa availability are set by the US government &mdash; not by Sajjad Digital Services. Verify any offer against the official job order before paying anything or travelling.</p>
 JOBHTML;
     }
 

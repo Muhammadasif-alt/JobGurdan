@@ -158,7 +158,7 @@ class DeliveryJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> award rates, minimum standards and tax rules are set by the Fair Work Commission, the Fair Work Ombudsman and the ATO &mdash; not by JobGader. Check the current pay guide and platform terms before you start.</p>
+<p><strong>Note:</strong> award rates, minimum standards and tax rules are set by the Fair Work Commission, the Fair Work Ombudsman and the ATO &mdash; not by Sajjad Digital Services. Check the current pay guide and platform terms before you start.</p>
 JOBHTML;
     }
 

@@ -177,7 +177,7 @@ class ContentWriterJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask whether you keep the byline.</strong> Most content work is work for hire, which means the client owns the copyright and often the credit. That is normal and not sinister &mdash; but if you cannot show the work, it does nothing for your next application, and that is worth knowing before you sign rather than two years later.</p>
 
-<p><strong>Note:</strong> pay, contract structure, attribution terms and any sponsorship decision are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, contract structure, attribution terms and any sponsorship decision are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

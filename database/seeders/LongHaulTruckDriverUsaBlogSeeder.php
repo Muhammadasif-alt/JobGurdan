@@ -166,7 +166,7 @@ class LongHaulTruckDriverUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, training contracts and hiring rules are set by each carrier and by federal and state law &mdash; not by JobGader. Read the carrier's current posting and training agreement before signing.</p>
+<p><strong>Note:</strong> pay, training contracts and hiring rules are set by each carrier and by federal and state law &mdash; not by Sajjad Digital Services. Read the carrier's current posting and training agreement before signing.</p>
 JOBHTML;
     }
 

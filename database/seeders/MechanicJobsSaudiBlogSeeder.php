@@ -188,7 +188,7 @@ class MechanicJobsSaudiBlogSeeder extends Seeder
 <h3>Before you pay anyone anything</h3>
 <p><strong>Never pay for a visa or a job offer.</strong> Pakistani applicants should use only an Overseas Employment Promoter licensed by the Federal Government, check the licence on the Bureau of Emigration and Overseas Employment list or at the Protector of Emigrants office, and insist on a receipt for every payment.</p>
 
-<p><strong>Note:</strong> pay, hours and contract terms are set by the individual employer or agency &mdash; not by JobGader. Listings on aggregator sites vary in quality; verify the employer and the contract before travelling.</p>
+<p><strong>Note:</strong> pay, hours and contract terms are set by the individual employer or agency &mdash; not by Sajjad Digital Services. Listings on aggregator sites vary in quality; verify the employer and the contract before travelling.</p>
 JOBHTML;
     }
 

@@ -164,7 +164,7 @@ class JobsInUkForForeignersBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check that the employer is on the register of licensed sponsors,</strong> and never pay a recruiter or employer for a certificate of sponsorship.</p>
 
-<p><strong>Note:</strong> visa rules, salary thresholds and fees are set by the Home Office &mdash; not by JobGader. Confirm the current rules on gov.uk before applying.</p>
+<p><strong>Note:</strong> visa rules, salary thresholds and fees are set by the Home Office &mdash; not by Sajjad Digital Services. Confirm the current rules on gov.uk before applying.</p>
 JOBHTML;
     }
 

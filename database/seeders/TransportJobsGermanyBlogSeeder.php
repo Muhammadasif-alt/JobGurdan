@@ -165,7 +165,7 @@ class TransportJobsGermanyBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, licence recognition and visa decisions are made by employers and German authorities &mdash; not by JobGader. Check the current rules with the German mission in your country before you pay anyone a fee.</p>
+<p><strong>Note:</strong> pay, licence recognition and visa decisions are made by employers and German authorities &mdash; not by Sajjad Digital Services. Check the current rules with the German mission in your country before you pay anyone a fee.</p>
 JOBHTML;
     }
 

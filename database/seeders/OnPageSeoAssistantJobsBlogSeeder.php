@@ -140,7 +140,7 @@ class OnPageSeoAssistantJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of on-page SEO assistant roles, not a single vacancy and not a job advertised by JobGader. Applications are made on the employer's own site or on the board where the role appears.</p>
+<p>This is an aggregated listing of on-page SEO assistant roles, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on the employer's own site or on the board where the role appears.</p>
 
 <h3>What the work involves</h3>
 <p>Researching the term a page should target, checking that the page answers what a searcher actually wants, writing titles and descriptions, structuring headings, adding internal links, optimising images, and reporting on performance from Search Console.</p>
@@ -151,7 +151,7 @@ class OnPageSeoAssistantJobsBlogSeeder extends Seeder
 <h3>Before you accept</h3>
 <p>Agency roles serving American clients are frequently night shift, and that is often stated only at interview. Ask about hours early. Ask also whether a salary figure exists, because a minority of Pakistani listings publish one at all.</p>
 
-<p>Requirements, hours and pay are set by individual employers &mdash; not by JobGader. Never pay anyone to secure a job or a training place.</p>
+<p>Requirements, hours and pay are set by individual employers &mdash; not by Sajjad Digital Services. Never pay anyone to secure a job or a training place.</p>
 JOBHTML;
     }
 

@@ -158,7 +158,7 @@ class WalmartStoreAssociateJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay ranges, benefits and eligibility are set and published by Walmart, and the youth employment rules are set by the US Department of Labor and the states &mdash; not by JobGader. Applying to Walmart is free; any request for payment is a scam.</p>
+<p><strong>Note:</strong> pay ranges, benefits and eligibility are set and published by Walmart, and the youth employment rules are set by the US Department of Labor and the states &mdash; not by Sajjad Digital Services. Applying to Walmart is free; any request for payment is a scam.</p>
 JOBHTML;
     }
 

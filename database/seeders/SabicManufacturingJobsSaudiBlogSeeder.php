@@ -160,7 +160,7 @@ class SabicManufacturingJobsSaudiBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> registration rules are set by the Saudi Council of Engineers, employment terms by the Saudi Labour Law, and recruitment fee limits in Pakistan by the Emigration Ordinance 1979 &mdash; not by JobGader. SABIC publishes no recruitment-fraud page, so verify every listing on jobs.sabic.com. Applying is free; any request for payment is a scam.</p>
+<p><strong>Note:</strong> registration rules are set by the Saudi Council of Engineers, employment terms by the Saudi Labour Law, and recruitment fee limits in Pakistan by the Emigration Ordinance 1979 &mdash; not by Sajjad Digital Services. SABIC publishes no recruitment-fraud page, so verify every listing on jobs.sabic.com. Applying is free; any request for payment is a scam.</p>
 JOBHTML;
     }
 

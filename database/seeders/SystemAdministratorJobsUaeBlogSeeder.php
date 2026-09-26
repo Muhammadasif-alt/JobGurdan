@@ -161,7 +161,7 @@ class SystemAdministratorJobsUaeBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for a UAE work visa or a job offer.</strong> Pakistani applicants should use only a licensed Overseas Employment Promoter.</p>
 
-<p><strong>Note:</strong> pay, shifts, benefits and visa rules are set by each employer and the UAE authorities &mdash; not by JobGader. Confirm the details with the employer and MOHRE before applying.</p>
+<p><strong>Note:</strong> pay, shifts, benefits and visa rules are set by each employer and the UAE authorities &mdash; not by Sajjad Digital Services. Confirm the details with the employer and MOHRE before applying.</p>
 JOBHTML;
     }
 

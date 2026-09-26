@@ -309,7 +309,7 @@ class UniversityOfSouthAustraliaScholarshipSeeder extends Seeder
 <li><a href="https://adelaide.edu.au/contact/" target="_blank" rel="noopener">Contact Adelaide University</a></li>
 </ul>
 
-<p><em>JobGader is not part of Adelaide University or the University of South Australia. This guide was checked against Adelaide University's official pages and Conditions of Award on 14 September 2026. Amounts, rounds and dates change, so confirm them on the official page before you apply.</em></p>
+<p><em>Sajjad Digital Services is not part of Adelaide University or the University of South Australia. This guide was checked against Adelaide University's official pages and Conditions of Award on 14 September 2026. Amounts, rounds and dates change, so confirm them on the official page before you apply.</em></p>
 HTML;
     }
 }

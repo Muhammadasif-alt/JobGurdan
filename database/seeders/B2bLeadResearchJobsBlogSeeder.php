@@ -139,7 +139,7 @@ class B2bLeadResearchJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of B2B lead research roles, not a single vacancy and not a job advertised by JobGader. Applications are made on the employer's own site or on the board where the role appears.</p>
+<p>This is an aggregated listing of B2B lead research roles, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on the employer's own site or on the board where the role appears.</p>
 
 <h3>What the role covers</h3>
 <p>Researching companies against an ideal customer profile, identifying the decision makers whose role is relevant to what is being sold, confirming that company and contact information is current, removing duplicates, and keeping the resulting list in a consistent structure that a sales team can work from.</p>
@@ -153,7 +153,7 @@ class B2bLeadResearchJobsBlogSeeder extends Seeder
 <h3>Tools that appear in listings</h3>
 <p>Apollo, LinkedIn Sales Navigator, Google Sheets, Excel and a CRM are the common four. Learn the ones named in the listing you are applying to rather than paying for a stack in advance.</p>
 
-<p>Requirements, eligibility and pay are set by individual employers &mdash; not by JobGader. Never pay anyone to secure a job, and never publish a client's prospect data in a portfolio.</p>
+<p>Requirements, eligibility and pay are set by individual employers &mdash; not by Sajjad Digital Services. Never pay anyone to secure a job, and never publish a client's prospect data in a portfolio.</p>
 JOBHTML;
     }
 

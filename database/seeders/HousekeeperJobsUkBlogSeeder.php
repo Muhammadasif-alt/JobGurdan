@@ -164,7 +164,7 @@ class HousekeeperJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Get the weekly hours in writing.</strong> Divide the salary by the hours to check it against the National Living Wage, especially for live-in roles.</p>
 
-<p><strong>Note:</strong> pay, hours, checks and visa eligibility are set by each employer, NHS pay agreements and UK law &mdash; not by JobGader. Confirm the details with the employer and on gov.uk before applying, and never pay a fee for a job offer.</p>
+<p><strong>Note:</strong> pay, hours, checks and visa eligibility are set by each employer, NHS pay agreements and UK law &mdash; not by Sajjad Digital Services. Confirm the details with the employer and on gov.uk before applying, and never pay a fee for a job offer.</p>
 JOBHTML;
     }
 

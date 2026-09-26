@@ -164,7 +164,7 @@ class SocialMediaManagerJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask who is accountable for growth targets and what methods are acceptable.</strong> If a role is measured on follower count with no budget attached, find out what the employer expects you to do about it before you accept.</p>
 
-<p><strong>Note:</strong> pay, scope and reporting lines are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, scope and reporting lines are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

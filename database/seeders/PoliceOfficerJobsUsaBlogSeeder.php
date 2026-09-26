@@ -162,7 +162,7 @@ class PoliceOfficerJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the agency's citizenship, age and education rules before you prepare for the exam.</strong> They differ between departments in the same state.</p>
 
-<p><strong>Note:</strong> pay, eligibility and hiring rules are set by each agency and by federal and state law &mdash; not by JobGader. Confirm the details on the official recruitment page before applying.</p>
+<p><strong>Note:</strong> pay, eligibility and hiring rules are set by each agency and by federal and state law &mdash; not by Sajjad Digital Services. Confirm the details on the official recruitment page before applying.</p>
 JOBHTML;
     }
 

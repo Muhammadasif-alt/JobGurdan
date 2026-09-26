@@ -162,7 +162,7 @@ class PythonDeveloperJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Read the advert for the occupation, not the title.</strong> A posting about endpoints, templates and a CMS is web work. One about experiments, features and model drift is data work. They pay differently and they interview differently, and the title at the top will not tell you which one it is.</p>
 
-<p><strong>Note:</strong> pay, remote policy and stack requirements are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, remote policy and stack requirements are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

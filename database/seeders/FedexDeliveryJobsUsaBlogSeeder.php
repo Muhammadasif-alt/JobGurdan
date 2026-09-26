@@ -206,7 +206,7 @@ class FedexDeliveryJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay rates, shift lengths and hiring standards are set by FedEx and by each independent service provider &mdash; not by JobGader. Apply directly on FedEx Careers, check whether the advert comes from FedEx or from a contractor, and never pay anyone for a FedEx job.</p>
+<p><strong>Note:</strong> pay rates, shift lengths and hiring standards are set by FedEx and by each independent service provider &mdash; not by Sajjad Digital Services. Apply directly on FedEx Careers, check whether the advert comes from FedEx or from a contractor, and never pay anyone for a FedEx job.</p>
 JOBHTML;
     }
 

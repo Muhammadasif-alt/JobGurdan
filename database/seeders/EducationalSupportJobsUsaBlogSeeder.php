@@ -154,7 +154,7 @@ class EducationalSupportJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, hours and hiring decisions are set by each school district, charter network or center &mdash; not by JobGader. Check your state's paraprofessional requirements before applying.</p>
+<p><strong>Note:</strong> pay, hours and hiring decisions are set by each school district, charter network or center &mdash; not by Sajjad Digital Services. Check your state's paraprofessional requirements before applying.</p>
 JOBHTML;
     }
 

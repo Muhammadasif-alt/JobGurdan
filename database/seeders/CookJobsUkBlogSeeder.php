@@ -159,7 +159,7 @@ class CookJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the weekly hours against the salary.</strong> A full-time cook offer below &pound;24,784.50 for a worker aged 21 or over is below the National Living Wage, and a longer week raises the legal floor further.</p>
 
-<p><strong>Note:</strong> pay, hours, training and eligibility are set by each employer and by UK law and immigration rules &mdash; not by JobGader. Confirm the details on the official advertisement before applying.</p>
+<p><strong>Note:</strong> pay, hours, training and eligibility are set by each employer and by UK law and immigration rules &mdash; not by Sajjad Digital Services. Confirm the details on the official advertisement before applying.</p>
 JOBHTML;
     }
 

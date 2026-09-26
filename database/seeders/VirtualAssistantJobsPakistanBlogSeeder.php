@@ -145,7 +145,7 @@ class VirtualAssistantJobsPakistanBlogSeeder extends Seeder
 <h3>Before you accept</h3>
 <p><strong>Nobody may charge you to be placed in a VA role.</strong> Paid courses that promise clients or placement at the end are selling training, not work, and no genuine client hires through one. Agree the rate, the hours, the payment method and the notice arrangement in writing before starting. If the role involves US patient data, ask whether the practice has a Business Associate Agreement in place, because HIPAA requires one.</p>
 
-<p><strong>Note:</strong> rates and contract terms are set by each client &mdash; not by JobGader. Confirm them directly before starting work.</p>
+<p><strong>Note:</strong> rates and contract terms are set by each client &mdash; not by Sajjad Digital Services. Confirm them directly before starting work.</p>
 JOBHTML;
     }
 

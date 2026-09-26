@@ -165,7 +165,7 @@ class OccupationalTherapistJobsCanadaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> registration standards, exam eligibility and immigration rules are set by the provincial colleges, CAOT, ACOTRO and IRCC &mdash; not by JobGader. Confirm the current position with your provincial regulator and on canada.ca before applying.</p>
+<p><strong>Note:</strong> registration standards, exam eligibility and immigration rules are set by the provincial colleges, CAOT, ACOTRO and IRCC &mdash; not by Sajjad Digital Services. Confirm the current position with your provincial regulator and on canada.ca before applying.</p>
 JOBHTML;
     }
 

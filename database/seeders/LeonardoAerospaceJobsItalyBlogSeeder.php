@@ -147,7 +147,7 @@ class LeonardoAerospaceJobsItalyBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of the engineering roles Leonardo S.p.A. advertises across its Italian sites, not a single vacancy and not a job advertised by JobGader. Applications are made on Leonardo's own Workday careers portal.</p>
+<p>This is an aggregated listing of the engineering roles Leonardo S.p.A. advertises across its Italian sites, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on Leonardo's own Workday careers portal.</p>
 
 <h3>What is actually open</h3>
 <p>Leonardo's portal carried 731 vacancies group-wide when last checked, with more than 300 located in Italy. Real current titles include Avionic Systems Engineer, Embedded Software Engineer, Radar System Engineer, Satellite Communication Engineer, Hardware Engineer and ATM System and Integration Engineer.</p>
@@ -164,7 +164,7 @@ class LeonardoAerospaceJobsItalyBlogSeeder extends Seeder
 <h3>Visas</h3>
 <p>Leonardo publishes nothing about visa sponsorship or relocation. For a qualified engineer the EU Blue Card route sits outside the Decreto Flussi quota, so it does not depend on the annual click day.</p>
 
-<p>Pay, eligibility, language requirements and immigration rules are set by Leonardo, the Italian Ministry of the Interior and Italian law &mdash; not by JobGader. Confirm the requirements on the live posting before acting.</p>
+<p>Pay, eligibility, language requirements and immigration rules are set by Leonardo, the Italian Ministry of the Interior and Italian law &mdash; not by Sajjad Digital Services. Confirm the requirements on the live posting before acting.</p>
 JOBHTML;
     }
 

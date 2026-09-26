@@ -143,7 +143,7 @@ class FindLeadGenerationJobsLinkedinBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of prospecting roles advertised on LinkedIn, not a single vacancy and not a job advertised by JobGader. Applications are made on LinkedIn or on the employer's own site.</p>
+<p>This is an aggregated listing of prospecting roles advertised on LinkedIn, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on LinkedIn or on the employer's own site.</p>
 
 <h3>Read this before you apply</h3>
 <p>Searching the phrase "lead generation" alone misses most of these jobs. They are advertised as SDR, BDR, Appointment Setter, Market Development Representative and Lead Generation Specialist internationally, and as Lead Generation Executive, Business Development Executive or Online Bidder on Pakistani boards.</p>
@@ -157,7 +157,7 @@ class FindLeadGenerationJobsLinkedinBlogSeeder extends Seeder
 <h3>Remote does not mean open to Pakistan</h3>
 <p>Every LinkedIn job post carries a country. Employers can add work authorisation and visa screening questions, mark them as must-have, and automatically archive and reject candidates who do not pass.</p>
 
-<p>Platform rules, eligibility and pay are set by LinkedIn and individual employers &mdash; not by JobGader. Never pay anyone to secure a job, and never run automation from an account you cannot afford to lose.</p>
+<p>Platform rules, eligibility and pay are set by LinkedIn and individual employers &mdash; not by Sajjad Digital Services. Never pay anyone to secure a job, and never run automation from an account you cannot afford to lose.</p>
 JOBHTML;
     }
 
@@ -471,7 +471,7 @@ JOBHTML;
     <li><a href="/blog/appointment-setting-jobs">Appointment Setting Jobs</a> &mdash; the phone role these searches surface most, and what it really pays.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. LinkedIn's features, limits, pricing and documentation change frequently, and in places its own help pages disagree with each other; check your own account before relying on any specific limit. Platform rules and enforcement are set by LinkedIn, not by JobGader. Never pay anyone to secure a job, and never run automation from an account you cannot afford to lose.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. LinkedIn's features, limits, pricing and documentation change frequently, and in places its own help pages disagree with each other; check your own account before relying on any specific limit. Platform rules and enforcement are set by LinkedIn, not by Sajjad Digital Services. Never pay anyone to secure a job, and never run automation from an account you cannot afford to lose.</p>
 HTML;
     }
 }

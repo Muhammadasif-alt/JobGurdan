@@ -159,7 +159,7 @@ class WorkFromHomeJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for training, equipment or access to work,</strong> and confirm whether the role is W-2 employment or 1099 contract work.</p>
 
-<p><strong>Note:</strong> pay, classification and equipment policies are set by employers under federal and state law &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, classification and equipment policies are set by employers under federal and state law &mdash; not by Sajjad Digital Services. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 

@@ -184,7 +184,7 @@ class CdlDriverJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask how you are paid.</strong> Cents per mile is not an hourly rate: detention, loading and traffic are unpaid under most mileage schemes, so two jobs with the same weekly figure can mean very different hourly earnings.</p>
 
-<p><strong>Note:</strong> pay, route assignment, home time and training contracts are set by each carrier &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, route assignment, home time and training contracts are set by each carrier &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

@@ -67,7 +67,7 @@ it('links the hero straight to the student pages', function (string $routeName) 
     'no experience' => 'pages.no-experience-jobs',
 ]);
 
-it('says plainly that JobGader is a third party, not the employer or recruiter', function () {
+it('says plainly that Sajjad Digital Services is a third party, not the employer or recruiter', function () {
     $text = html_entity_decode(strip_tags(get('/')->assertOk()->getContent()));
 
     expect($text)->toContain('third-party information site')
@@ -94,9 +94,9 @@ it('renders the same eight questions in the FAQ and its FAQPage schema', functio
 it('answers the questions students ask about cost, checking, scholarships and the paid CV', function () {
     $questions = array_column(homeFaqSchema(get('/')->assertOk()->getContent())['mainEntity'], 'name');
 
-    expect($questions)->toContain('Is JobGader an employer, recruiter or visa agent?')
+    expect($questions)->toContain('Is Sajjad Digital Services an employer, recruiter or visa agent?')
         ->toContain('How do you check information before publishing it?')
-        ->toContain('Does JobGader award scholarships or apply for me?')
+        ->toContain('Does Sajjad Digital Services award scholarships or apply for me?')
         ->toContain('How does the paid CV writing service work?');
 });
 

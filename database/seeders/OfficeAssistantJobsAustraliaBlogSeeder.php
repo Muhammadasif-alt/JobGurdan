@@ -162,7 +162,7 @@ class OfficeAssistantJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask whether the figure includes superannuation, and check which state's clearance the role needs.</strong> The super question is worth about $7,464 on a $62,200 figure, and a working with children check from another state will not transfer &mdash; Queensland does not recognise interstate checks at all.</p>
 
-<p><strong>Note:</strong> pay, hours, clearance requirements and eligibility are set by each employer and by state law &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, hours, clearance requirements and eligibility are set by each employer and by state law &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

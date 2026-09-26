@@ -160,7 +160,7 @@ class IntelligenceAnalystJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Start the clearance conversation early,</strong> and be ready for a long background investigation. An active clearance makes you far more competitive.</p>
 
-<p><strong>Note:</strong> pay, clearance and eligibility are set by each agency &mdash; not by JobGader. Confirm the requirements on the agency's own site before applying.</p>
+<p><strong>Note:</strong> pay, clearance and eligibility are set by each agency &mdash; not by Sajjad Digital Services. Confirm the requirements on the agency's own site before applying.</p>
 JOBHTML;
     }
 
