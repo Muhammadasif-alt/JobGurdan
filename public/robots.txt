@@ -35,4 +35,4 @@ User-agent: Googlebot-Image
 Allow: /
 
 # Sitemap location (absolute URL — required by Google/Bing)
-Sitemap: https://jobgader.com/sitemap.xml
+Sitemap: https://sajaddigitalservices.com/sitemap.xml

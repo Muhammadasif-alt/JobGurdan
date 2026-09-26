@@ -1,2 +1,40 @@
+# robots.txt for JobGader
+# The document root is the project root on this host, so this is the file
+# search engines actually fetch at /robots.txt. public/robots.txt is kept in
+# step with it for deployments whose document root is public/.
+
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /admin/
+Disallow: /administration
+Disallow: /administrator/
+Disallow: /company/dashboard
+Disallow: /seeker/dashboard
+Disallow: /dashboard
+Disallow: /login
+Disallow: /register
+Disallow: /password/
+Disallow: /email/verify
+Disallow: /api/
+Disallow: /*?token=
+Disallow: /*?session=
+
+# Blog and listing images live under /public/storage/ — they must stay
+# crawlable or they cannot appear in Image Search or in rich results.
+Allow: /public/storage/
+Allow: /public/user/images/
+
+# Allow Googlebot full access
+User-agent: Googlebot
+Allow: /
+
+# Allow Google Jobs crawler
+User-agent: Googlebot-jobs
+Allow: /
+
+# Allow image crawlers at the media paths
+User-agent: Googlebot-Image
+Allow: /
+
+# Sitemap location (absolute URL — required by Google/Bing)
+Sitemap: https://sajaddigitalservices.com/sitemap.xml
