@@ -843,3 +843,44 @@ it('themes the scholarship pages for dark mode', function (string $selector) {
     '.scholar-side-card',
     '.scholar-detail-hero',
 ]);
+
+it('keeps a long funding type inside the card badge', function () {
+    // "Need-based (undergraduate), fully funded PhD" ran past the poster and
+    // out of the card, so the pill is capped and the wording is trimmed.
+    Scholarship::factory()->create([
+        'slug' => 'long-funding-award',
+        'funding_type' => 'Need-based (undergraduate), fully funded PhD across every faculty',
+    ]);
+
+    $html = get(route('scholarships.index'))->assertOk()->getContent();
+
+    preg_match('/<span class="scholar-card-badge"[^>]*>([^<]*)</', $html, $m);
+
+    expect($m[1] ?? '')->not->toBeEmpty()
+        ->and(mb_strlen(trim($m[1])))->toBeLessThanOrEqual(26);
+
+    expect($html)->toContain('title="Need-based (undergraduate), fully funded PhD across every faculty"');
+});
+
+it('stops the badge overflowing however long the funding type is', function () {
+    $card = file_get_contents(resource_path('views/user/scholarships/partials/card.blade.php'));
+
+    expect($card)
+        ->toContain('max-width: calc(100% - 28px)')
+        ->toContain('text-overflow: ellipsis');
+});
+
+it('lets the hero chip row wrap instead of running off the screen', function () {
+    // flex-wrap:nowrap on the split hero pushed the last "Popular:" chips
+    // past the right edge of a phone, where they could not be reached.
+    $home = file_get_contents(resource_path('views/user/index.blade.php'));
+
+    expect($home)->toMatch('/@media \(max-width: 991px\)[^}]*\{[^@]*flex-wrap: wrap !important/s');
+});
+
+it('puts the location breadcrumb above the heading rather than across it', function () {
+    $view = file_get_contents(resource_path('views/user/location-jobs.blade.php'));
+
+    expect($view)->toContain('.utf-page-heading-area #breadcrumbs {')
+        ->toContain('float: none !important');
+});

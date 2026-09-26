@@ -81,7 +81,9 @@ class YaleUniversityScholarshipSeeder extends Seeder
                 'country' => 'United States',
                 'city' => 'New Haven, Connecticut',
                 'study_level' => "Bachelor's, PhD",
-                'funding_type' => 'Need-based (undergraduate), fully funded PhD',
+                // The card badge is a single-line pill; the long form ran off the
+                // poster. The detail page carries the full explanation.
+                'funding_type' => 'Need-Based + Funded PhD',
                 'award_value' => '100% of demonstrated need (undergraduate); PhD stipend from $52,046 a year',
                 'deadline' => Carbon::parse('2026-11-01'),
                 'deadline_note' => 'Regular Decision closes 2 Jan 2027 (fall 2027 entry)',

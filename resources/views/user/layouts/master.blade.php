@@ -418,8 +418,8 @@
                     <div class="utf-left-side">
                         <div id="logo">
                             <a href="/">
-                                <img class="logo-light" src="{{ asset('public/user/images/jobgader-navbar.svg') }}?v={{ $assetVersion('user/images/jobgader-navbar.svg') }}" alt="JobGader" fetchpriority="high" decoding="async" width="120" height="40">
-                                <img class="logo-dark"  src="{{ asset('public/user/images/jobgader-navbar-dark.svg') }}?v={{ $assetVersion('user/images/jobgader-navbar-dark.svg') }}" alt="JobGader" fetchpriority="high" decoding="async" width="120" height="40">
+                                <img class="logo-light" src="{{ asset('public/user/images/sajjad-navbar.png') }}?v={{ $assetVersion('user/images/sajjad-navbar.png') }}" alt="Sajjad Digital Services" fetchpriority="high" decoding="async" width="205" height="48">
+                                <img class="logo-dark"  src="{{ asset('public/user/images/sajjad-navbar-dark.png') }}?v={{ $assetVersion('user/images/sajjad-navbar-dark.png') }}" alt="Sajjad Digital Services" fetchpriority="high" decoding="async" width="205" height="48">
                             </a>
                         </div>
                         <nav id="navigation">
@@ -727,10 +727,12 @@
                             height: 100%;
                             line-height: 1;
                         }
+                        /* Sized by height with the width left to follow, so the 4.27:1
+                           wordmark is never squeezed into the 5:1 box the old logo used. */
                         #header #logo img.logo-light,
                         #header #logo img.logo-dark {
-                            width: 200px !important;
-                            height: 40px !important;
+                            width: auto !important;
+                            height: 52px !important;
                             max-width: none;
                             max-height: none;
                             visibility: visible;
@@ -1057,8 +1059,8 @@
                             #header #logo { min-width: 0; }
                             #header #logo img.logo-light,
                             #header #logo img.logo-dark {
-                                width: 158px !important;
-                                height: 32px !important;
+                                width: auto !important;
+                                height: 42px !important;
                             }
                             #header #navigation > ul { gap: 2px; }
                             #header #navigation > ul > li > a {
@@ -1149,22 +1151,133 @@
                             #header .mmenu-trigger .utf-hamburger-inner-item { top: 50% !important; margin-top: -1.25px !important; }
                             #header .mmenu-trigger .utf-hamburger-inner-item::before { top: -8px !important; content: "" !important; display: block !important; }
                             #header .mmenu-trigger .utf-hamburger-inner-item::after { bottom: -8px !important; top: auto !important; content: "" !important; display: block !important; }
-                            #header #logo { min-width: 170px; }
+                            #header #logo { min-width: 0; }
                             #header #logo img.logo-light,
                             #header #logo img.logo-dark {
-                                width: 170px !important;
-                                height: 34px !important;
+                                width: auto !important;
+                                height: 42px !important;
                             }
                             #header .utf-left-side { min-width: 0; flex: 1 1 auto; }
                         }
                         @media (max-width: 480px) {
-                            #header #logo { min-width: 150px; }
+                            #header #logo { min-width: 0; }
                             #header #logo img.logo-light,
                             #header #logo img.logo-dark {
-                                width: 150px !important;
-                                height: 30px !important;
+                                width: auto !important;
+                                height: 36px !important;
                             }
                             #header .container { padding: 0 10px !important; gap: 6px !important; }
+                        }
+
+                        /* === Mobile header: theme toggle left, logo centred, menu button
+                              right. The logo is taken out of the flow and centred on the
+                              bar itself, because centring it between two controls of
+                              different widths leaves it visibly off-centre. === */
+                        @media (max-width: 1099px) {
+                            #header .container {
+                                position: relative;
+                                flex-wrap: wrap;
+                                justify-content: space-between !important;
+                                height: auto !important;
+                                min-height: 64px;
+                                align-items: center;
+                            }
+                            #header .utf-left-side {
+                                order: 1;
+                                flex: 0 0 auto !important;
+                                min-height: 64px;
+                                align-items: center;
+                            }
+                            #header .utf-right-side {
+                                order: 2;
+                                flex: 0 0 auto !important;
+                                min-height: 64px;
+                                align-items: center;
+                            }
+                            #header #logo {
+                                position: absolute !important;
+                                left: 50% !important;
+                                top: 0 !important;
+                                transform: translateX(-50%) !important;
+                                height: 64px !important;
+                                z-index: 2;
+                                pointer-events: auto;
+                            }
+                            /* The toggle moves to the left so the centred logo has equal
+                               weight on either side. */
+                            #header .utf-right-side .theme-toggle {
+                                position: absolute !important;
+                                left: 14px !important;
+                                top: 50% !important;
+                                transform: translateY(-50%) !important;
+                                margin: 0 !important;
+                                z-index: 3;
+                            }
+                            #header .utf-right-side { margin-left: auto; }
+                        }
+                        @media (max-width: 480px) {
+                            #header .container { min-height: 58px; }
+                            #header .utf-left-side,
+                            #header .utf-right-side { min-height: 58px; }
+                            #header #logo { height: 58px !important; }
+                            #header .utf-right-side .theme-toggle { left: 10px !important; }
+                        }
+
+                        /* === Mobile navigation: a panel that opens underneath the header
+                              and pushes the page down, rather than the off-canvas drawer
+                              that slid the whole site sideways. === */
+                        @media (max-width: 1099px) {
+                            #header #navigation {
+                                display: none !important;
+                                order: 3;
+                                flex: 0 0 100% !important;
+                                width: 100% !important;
+                                float: none !important;
+                                position: static !important;
+                                margin: 0 !important;
+                                padding: 4px 0 12px !important;
+                                border-top: 1px solid rgba(22, 48, 90, .12);
+                            }
+                            #header.nav-open #navigation { display: block !important; }
+                            #header #navigation > ul,
+                            #header #navigation ul#responsive {
+                                display: block !important;
+                                width: 100% !important;
+                                gap: 0 !important;
+                                margin: 0 !important;
+                                padding: 0 !important;
+                                list-style: none !important;
+                                position: static !important;
+                                background: transparent !important;
+                                box-shadow: none !important;
+                            }
+                            #header #navigation ul li {
+                                display: block !important;
+                                width: 100% !important;
+                                float: none !important;
+                                position: static !important;
+                            }
+                            #header #navigation ul li a {
+                                display: block !important;
+                                width: 100% !important;
+                                padding: 13px 4px !important;
+                                font-size: 15.5px !important;
+                                font-weight: 600;
+                                line-height: 1.2;
+                                border-bottom: 1px solid rgba(22, 48, 90, .08);
+                                border-radius: 0 !important;
+                                white-space: normal !important;
+                            }
+                            #header #navigation ul li:last-child a { border-bottom: 0; }
+                            #header #navigation .mobile-only-auth { display: block !important; }
+                            html.dark-mode #header #navigation { border-top-color: rgba(255, 255, 255, .14); }
+                            html.dark-mode #header #navigation ul li a { border-bottom-color: rgba(255, 255, 255, .10); }
+
+                            /* The cloned off-canvas panel is no longer built; hide any
+                               leftover the theme script may still inject. */
+                            .mmenu-init,
+                            .mm-menu,
+                            .mm-slideout > .mm-page > .mmenu-init { display: none !important; }
                         }
 
                         /* === Mobile menu (mmenu) — visual feedback on items === */

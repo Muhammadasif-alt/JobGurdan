@@ -94,6 +94,17 @@
         margin-bottom: 14px !important;
         position: relative; z-index: 2;
     }
+    /* The legacy theme floats #breadcrumbs to the right, which laid the trail
+       straight across the heading. Same override the companies page carries. */
+    .utf-page-heading-area #breadcrumbs {
+        position: static !important;
+        float: none !important;
+        display: block !important;
+        clear: both !important;
+        margin: 0 0 18px !important;
+        order: -1 !important;
+        text-align: center !important;
+    }
     .utf-page-heading-area #breadcrumbs ul { background: transparent !important; padding: 0 !important; }
     .utf-page-heading-area #breadcrumbs ul li,
     .utf-page-heading-area #breadcrumbs ul li a { color: #555 !important; font-weight: 600; font-size: 13px; }

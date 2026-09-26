@@ -776,6 +776,27 @@
             flex-wrap: nowrap !important;
             justify-content: space-between !important;
         }
+        /* On a narrow screen nowrap pushed the last chips off the right edge,
+           where they were unreachable. Below the desktop layout the row wraps
+           instead, and the tighter gap keeps it to two lines. */
+        @media (max-width: 991px) {
+            .intro-banner.intro-hero-v2.hero-split .hero-trending,
+            .intro-banner.intro-hero-v2.hero-split .hero-stats,
+            .hero-trending {
+                flex-wrap: wrap !important;
+                justify-content: center !important;
+                gap: 8px !important;
+            }
+            .hero-trending .trending-label {
+                flex: 0 0 100%;
+                text-align: center;
+                margin: 0 0 2px !important;
+            }
+            .hero-trending .trending-tag {
+                font-size: 12.5px;
+                padding: 6px 12px;
+            }
+        }
         .intro-banner.intro-hero-v2.hero-split .hero-stats .stat {
             min-width: 0 !important;
             flex: 1 1 0 !important;

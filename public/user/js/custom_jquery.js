@@ -6,38 +6,42 @@
         /*--------------------------------------------------*/
         /*  Mobile Navigation Menu
         /*--------------------------------------------------*/
+        /* The menu used to be mmenu's off-canvas drawer, which slid the whole
+           page sideways to reveal a panel. It now opens in place, underneath
+           the header, so the site stays where it is and is simply pushed down. */
         $(function() {
-            function mmenuInit() {
-                var wi = $(window).width();
-                if (wi <= '1099') {
-                    $(".mmenu-init").remove();
-                    $("#navigation").clone().addClass("mmenu-init").insertBefore("#navigation").removeAttr('id').removeClass('style-1 style-2')
-                        .find('ul, div').removeClass('style-1 style-2 mega-menu mega-menu-content mega-menu-section').removeAttr('id');
-                    $(".mmenu-init").find("ul").addClass("mm-listview");
-                    $(".mmenu-init").find(".mobile-styles .mm-listview").unwrap();
+            var $header = $('#header');
+            var $nav = $('#navigation');
 
-                    $(".mmenu-init").mmenu({
-                        "counters": true
-                    }, {
-
-                        offCanvas: {
-                            pageNodetype: "#wrapper"
-                        }
-                    });
-
-                    var mmenuAPI = $(".mmenu-init").data("mmenu");
-                    var $icon = $(".mmenu-trigger .hamburger");
-
-                    $(".mmenu-trigger").on('click', function() {
-                        mmenuAPI.open();
-                    });
-
-                }
-                $(".mm-next").addClass("mm-fullsubopen");
+            function closeMenu() {
+                $header.removeClass('nav-open');
+                $('.mmenu-trigger .hamburger').removeClass('is-active').attr('aria-expanded', 'false');
             }
-            mmenuInit();
-            $(window).resize(function() {
-                mmenuInit();
+
+            $('.mmenu-trigger').on('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                var open = !$header.hasClass('nav-open');
+                $header.toggleClass('nav-open', open);
+                $(this).find('.hamburger').toggleClass('is-active', open).attr('aria-expanded', open ? 'true' : 'false');
+            });
+
+            // Tapping a link or anywhere outside puts it away again.
+            $nav.on('click', 'a', closeMenu);
+            $(document).on('click', function(e) {
+                if ($header.hasClass('nav-open') && !$(e.target).closest('#header').length) {
+                    closeMenu();
+                }
+            });
+            $(document).on('keyup', function(e) {
+                if (e.key === 'Escape') {
+                    closeMenu();
+                }
+            });
+            $(window).on('resize', function() {
+                if ($(window).width() > 1099) {
+                    closeMenu();
+                }
             });
         });
 

@@ -6,7 +6,7 @@
     <a href="{{ $scholarshipUrl }}" class="scholar-card-thumb">
         <img src="{{ $scholarship->imageUrl() }}" alt="{{ $scholarship->title }} poster" width="1200" height="628" loading="lazy">
         @if ($scholarship->funding_type)
-            <span class="scholar-card-badge">{{ $scholarship->funding_type }}</span>
+            <span class="scholar-card-badge" title="{{ $scholarship->funding_type }}">{{ \Illuminate\Support\Str::limit($scholarship->funding_type, 26, '') }}</span>
         @endif
     </a>
     <div class="scholar-card-body">
@@ -44,10 +44,14 @@
         .scholar-card-thumb { position: relative; display: block; aspect-ratio: 1200 / 628; background: #eef5fc; overflow: hidden; }
         .scholar-card-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
         .scholar-card:hover .scholar-card-thumb img { transform: scale(1.03); }
+        /* The pill had no ceiling, so a funding type of any length ran past the
+           poster and out of the card. It now stops at the card's width and
+           trims with an ellipsis; the full wording stays in the title. */
         .scholar-card-badge {
             position: absolute;
             left: 14px;
             top: 14px;
+            max-width: calc(100% - 28px);
             background: #f5b301;
             color: #1b3a6b;
             font-size: 11px;
@@ -57,6 +61,12 @@
             padding: 6px 12px;
             border-radius: 999px;
             box-shadow: 0 4px 10px rgba(15, 23, 42, .18);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        @media (max-width: 575px) {
+            .scholar-card-badge { font-size: 10.5px; letter-spacing: .4px; padding: 5px 10px; }
         }
         .scholar-card-body { padding: 20px 22px 22px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
         .scholar-card-country { display: inline-flex; align-items: center; gap: 5px; color: #3182ce; font-size: 12px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; }
