@@ -8,12 +8,12 @@
      */
     $homeFaqs = [
         [
-            'question' => 'Is JobGader free for students and job seekers?',
+            'question' => 'Is Sajjad Digital Services free for students and job seekers?',
             'answer' => 'Yes. Searching jobs, reading guides and viewing scholarships is free, and you can apply without an account. The only paid service is CV writing, which you choose to order and arrange with us directly on WhatsApp.',
         ],
         [
-            'question' => 'Is JobGader an employer, recruiter or visa agent?',
-            'answer' => 'No. JobGader is an independent, third-party information site. We do not hire for other companies, sponsor visas, process applications or charge placement fees. Each listing sends you to the employer, the job board or the university to apply.',
+            'question' => 'Is Sajjad Digital Services an employer, recruiter or visa agent?',
+            'answer' => 'No. Sajjad Digital Services is an independent, third-party information site. We do not hire for other companies, sponsor visas, process applications or charge placement fees. Each listing sends you to the employer, the job board or the university to apply.',
         ],
         [
             'question' => 'How do you check information before publishing it?',
@@ -24,7 +24,7 @@
             'answer' => 'Yes. Alongside full-time roles we list internships, graduate and entry-level jobs, no-experience jobs and part-time remote work. If you are on a student visa, check how many hours it lets you work before you accept a job, because each country sets its own limit.',
         ],
         [
-            'question' => 'Does JobGader award scholarships or apply for me?',
+            'question' => 'Does Sajjad Digital Services award scholarships or apply for me?',
             'answer' => 'No. We explain each scholarship (what it covers, who can apply, the deadline and the documents) and link to the official page, but the university or funder makes every decision and you apply to them directly. Nobody can guarantee you a scholarship, so never pay anyone who promises one.',
         ],
         [
@@ -36,15 +36,15 @@
             'answer' => 'No. Genuine employers do not sell job offers, and US and UK rules stop employers passing key sponsorship costs on to the worker. If anyone asks for an upfront fee to guarantee a job, a visa or a scholarship, treat it as a scam and walk away.',
         ],
         [
-            'question' => 'How can I contact JobGader?',
+            'question' => 'How can I contact Sajjad Digital Services?',
             'answer' => 'Message us on WhatsApp or use the Contact page. We can point you to the right guide or scholarship, but we are not immigration advisers, so always confirm visa rules on the official government website.',
         ],
     ];
 @endphp
-@section('title', 'Jobs, Scholarships & Visa Guides for Students | JobGader')
+@section('title', 'Jobs, Scholarships & Visa Guides for Students')
 @section('meta_description', 'Jobs, internships and scholarships for students and graduates, with pay, deadlines and visa rules checked against official sources. Free to apply.')
 @section('meta_keywords', 'jobs for students, scholarships for international students, study abroad scholarships, internships, graduate jobs, part-time jobs, jobs with visa sponsorship, work abroad, cv writing service')
-@section('og_title', 'JobGader | Jobs, Scholarships & Visa Guides for Students')
+@section('og_title', 'Sajjad Digital Services | Jobs, Scholarships & Visa Guides for Students')
 @section('og_description', 'Jobs across '.$coverage->shortList().' and scholarships to study abroad, with the facts checked against official sources. Free to apply; CV writing on WhatsApp.')
 @section('og_image', asset('public/user/images/home-background-03.jpg'))
 @section('canonical', url('/'))
@@ -52,12 +52,12 @@
 @push('meta')
     {{-- Twitter card --}}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="JobGader — Jobs, Scholarships & Visa Guides for Students">
+    <meta name="twitter:title" content="Sajjad Digital Services — Jobs, Scholarships & Visa Guides for Students">
     <meta name="twitter:description" content="Jobs across {{ $coverage->shortList() }} and scholarships to study abroad, checked against official sources. Free to apply.">
     <meta name="twitter:image" content="{{ asset('public/user/images/home-background-03.jpg') }}">
-    <meta name="author" content="JobGader">
+    <meta name="author" content="Sajjad Digital Services">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="JobGader">
+    <meta property="og:site_name" content="Sajjad Digital Services">
     <meta property="og:locale" content="en_US">
 
     {{-- JSON-LD: WebSite with SearchAction --}}
@@ -65,7 +65,7 @@
     {
         "@@context": "https://schema.org",
         "@@type": "WebSite",
-        "name": "JobGader",
+        "name": "Sajjad Digital Services",
         "url": "{{ url('/') }}",
         "description": "An independent site listing jobs across {{ $coverage->shortList() }} and scholarships to study abroad for students, graduates and job seekers, with guides checked against official sources.",
         "potentialAction": {
@@ -84,10 +84,10 @@
     {
         "@@context": "https://schema.org",
         "@@type": "Organization",
-        "name": "JobGader",
+        "name": "Sajjad Digital Services",
         "url": "{{ url('/') }}",
         "logo": "{{ asset('public/user/images/apple-touch-icon.png') }}",
-        "description": "A third-party information site for jobs across {{ $coverage->shortList() }} and scholarships to study abroad. JobGader is not an employer, recruiter or visa agent; applications go to the employer, job board or university.",
+        "description": "A third-party information site for jobs across {{ $coverage->shortList() }} and scholarships to study abroad. Sajjad Digital Services is not an employer, recruiter or visa agent; applications go to the employer, job board or university.",
         "areaServed": {!! json_encode($coverage->areaServedNodes(), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
         "contactPoint": {
             "@@type": "ContactPoint",
@@ -1837,7 +1837,7 @@
             "@@type": "CollectionPage",
             "@@id": {!! json_encode(url('/').'#industries') !!},
             "name": "Browse Jobs by Industry",
-            "description": "Explore job opportunities by industry on JobGader.",
+            "description": "Explore job opportunities by industry on Sajjad Digital Services.",
             "hasPart": [
                 @foreach ($categories as $idx => $category)
                 {
@@ -2004,7 +2004,7 @@
                 <div class="home-split-body" data-aos="fade-up" data-aos-delay="120">
                     <span class="home-split-eyebrow">An Independent Site</span>
                     <h2 id="verified-jobs-heading">Real Hiring From Real Employers <span class="accent">in {{ $coverage->countWord() }} Countries</span></h2>
-                    <p>JobGader is a third-party information site, not an employer, recruiter or visa agent. We gather openings across {{ $coverage->shortList() }}, explain what each role and visa route really involves, and send you to the employer or job board to apply &mdash; never a fee dressed up as a job offer.</p>
+                    <p>Sajjad Digital Services is a third-party information site, not an employer, recruiter or visa agent. We gather openings across {{ $coverage->shortList() }}, explain what each role and visa route really involves, and send you to the employer or job board to apply &mdash; never a fee dressed up as a job offer.</p>
                     <ul class="home-split-points">
                         <li>
                             <i class="icon-feather-check" aria-hidden="true"></i>
@@ -2275,7 +2275,7 @@
                     <span class="step-badge">Step 1</span>
                     <div class="card-image">
                         <img src="{{ asset('public/user/images/seo-jobseekers.webp') }}"
-                             alt="A job seeker on the way to work in one of the countries JobGader covers"
+                             alt="A job seeker on the way to work in one of the countries Sajjad Digital Services covers"
                              loading="lazy"
                              onerror="this.onerror=null;this.src='{{ asset('public/user/images/seo-jobseekers.jpg') }}'">
                     </div>
@@ -2290,7 +2290,7 @@
                     <span class="step-badge">Step 2</span>
                     <div class="card-image">
                         <img src="{{ asset('public/user/images/blog.webp') }}"
-                             alt="Reading a JobGader visa sponsorship guide before applying"
+                             alt="Reading a Sajjad Digital Services visa sponsorship guide before applying"
                              loading="lazy"
                              onerror="this.onerror=null;this.src='{{ asset('public/user/images/blog.jpg') }}'">
                     </div>
@@ -2310,7 +2310,7 @@
                              onerror="this.onerror=null;this.src='{{ asset('public/user/images/industry-remote.jpg') }}'">
                     </div>
                     <h3>Apply at the Source</h3>
-                    <p>Apply on the employer&rsquo;s, job board&rsquo;s or university&rsquo;s own page. JobGader does not take applications or make hiring and scholarship decisions, so yours goes straight to the people who do.</p>
+                    <p>Apply on the employer&rsquo;s, job board&rsquo;s or university&rsquo;s own page. Sajjad Digital Services does not take applications or make hiring and scholarship decisions, so yours goes straight to the people who do.</p>
                     <a href="{{ route('scholarships.index') }}" class="card-cta" aria-label="View scholarships to study abroad">
                         View Scholarships <i class="icon-feather-arrow-right"></i>
                     </a>
@@ -2344,7 +2344,7 @@
     {
         "@@context": "https://schema.org",
         "@@type": "HowTo",
-        "name": "How to Find a Job or Scholarship on JobGader",
+        "name": "How to Find a Job or Scholarship on Sajjad Digital Services",
         "description": "Four steps from search to application: choose a job or scholarship, read the guide checked against official sources, apply on the employer's or university's own site, and get CV help if you need it.",
         "totalTime": "PT5M",
         "step": [
@@ -2366,7 +2366,7 @@
                 "@@type": "HowToStep",
                 "position": 3,
                 "name": "Apply at the Source",
-                "text": "Apply on the employer's, job board's or university's own page. JobGader does not take applications or make hiring or scholarship decisions.",
+                "text": "Apply on the employer's, job board's or university's own page. Sajjad Digital Services does not take applications or make hiring or scholarship decisions.",
                 "url": "{{ route('scholarships.index') }}"
             },
             {
@@ -2381,12 +2381,12 @@
     </script>
 
 
-    {{-- ===== Why JobGader — 2-column "How we're different" ===== --}}
+    {{-- ===== Why Sajjad Digital Services — 2-column "How we're different" ===== --}}
     <section class="why-section" aria-labelledby="why-heading" itemscope itemtype="https://schema.org/Service">
         <div class="container">
             <header class="why-head">
-                <span class="eyebrow">Why JobGader</span>
-                <h2 id="why-heading">How <span class="accent">JobGader</span> is Different</h2>
+                <span class="eyebrow">Why Sajjad Digital Services</span>
+                <h2 id="why-heading">How <span class="accent">Sajjad Digital Services</span> is Different</h2>
                 <p>Most job sites tell students what they want to hear about jobs, visas and scholarships. We check what the official rules actually say &mdash; then send you to apply at the source.</p>
             </header>
 
@@ -2412,7 +2412,7 @@
                         <span class="why-check"><i class="icon-feather-check"></i></span>
                         <div>
                             <h3>Independent, Not a Recruiter</h3>
-                            <p>JobGader is a third-party information site. We do not hire, sponsor visas, award scholarships or take a cut of your salary, and we never charge you to apply for a job or a scholarship.</p>
+                            <p>Sajjad Digital Services is a third-party information site. We do not hire, sponsor visas, award scholarships or take a cut of your salary, and we never charge you to apply for a job or a scholarship.</p>
                         </div>
                     </article>
 
@@ -2435,7 +2435,7 @@
                     <div class="why-visual-blob blob-2"></div>
                     <div class="why-visual-stage">
                         <img src="{{ asset('public/user/images/job.webp') }}"
-                             alt="People at work across the sectors JobGader lists jobs in"
+                             alt="People at work across the sectors Sajjad Digital Services lists jobs in"
                              loading="lazy"
                              onerror="this.onerror=null;this.src='{{ asset('public/user/images/job.jpg') }}'">
                         <div class="why-floating why-fl-1">
@@ -2894,8 +2894,8 @@
                     "headline": @json($post->title),
                     "url": @json(route('blog.show', $post->slug)),
                     "datePublished": @json(optional($post->published_at)->toIso8601String() ?? optional($post->created_at)->toIso8601String()),
-                    "author": { "@@type": "Organization", "name": "JobGader" },
-                    "publisher": { "@@type": "Organization", "name": "JobGader" }
+                    "author": { "@@type": "Organization", "name": "Sajjad Digital Services" },
+                    "publisher": { "@@type": "Organization", "name": "Sajjad Digital Services" }
                 }
             }@if (! $loop->last),@endif
             @endforeach

@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in New York — City, Upstate and Pay | JobGader')
+@section('title', 'Jobs in New York — City, Upstate and Pay')
 @section('meta_description', 'Jobs in New York: how the city and upstate job markets differ, what finance, healthcare and hospitality pay, and how far a salary goes.')
-@section('og_title', 'Jobs in New York — City, Upstate and Pay | JobGader')
+@section('og_title', 'Jobs in New York — City, Upstate and Pay')
 @section('og_description', 'Jobs in New York: how the city and upstate job markets differ, what finance, healthcare and hospitality pay, and how far a salary goes.')
 @section('canonical', url()->current())
 

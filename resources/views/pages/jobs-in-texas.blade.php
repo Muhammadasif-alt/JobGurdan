@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Texas — Industries, Cities and Pay | JobGader')
+@section('title', 'Jobs in Texas — Industries, Cities and Pay')
 @section('meta_description', 'Jobs in Texas: which industries are hiring in Houston, Dallas, Austin and San Antonio, what they pay, and why take-home pay goes further here.')
-@section('og_title', 'Jobs in Texas — Industries, Cities and Pay | JobGader')
+@section('og_title', 'Jobs in Texas — Industries, Cities and Pay')
 @section('og_description', 'Jobs in Texas: which industries are hiring in Houston, Dallas, Austin and San Antonio, what they pay, and why take-home pay goes further here.')
 @section('canonical', url()->current())
 
@@ -63,7 +63,7 @@
                 'a' => 'Largely yes, which is unusual and makes the state reliable for trades. Summer heat tends to shift shifts earlier in the day rather than halt work.',
             ],
             [
-                'q' => 'Is it free to apply through JobGader?',
+                'q' => 'Is it free to apply through Sajjad Digital Services?',
                 'a' => 'Yes, and no account is needed. Every listing links through to the employer or the original posting.',
             ],
         ],

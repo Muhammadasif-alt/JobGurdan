@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Marketing Jobs — SEO, Content, Paid and Social | JobGader')
+@section('title', 'Marketing Jobs — SEO, Content, Paid and Social')
 @section('meta_description', 'Marketing jobs across '.$coverage->shortList().': SEO, content, paid media and social roles, what they pay, and what a hiring portfolio needs.')
-@section('og_title', 'Marketing Jobs — SEO, Content, Paid and Social | JobGader')
+@section('og_title', 'Marketing Jobs — SEO, Content, Paid and Social')
 @section('og_description', 'Marketing jobs across '.$coverage->shortList().': SEO, content, paid media and social roles, what they pay, and what a hiring portfolio needs.')
 @section('canonical', url()->current())
 

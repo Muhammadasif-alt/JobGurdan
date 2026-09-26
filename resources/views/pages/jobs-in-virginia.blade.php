@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Virginia — Federal, Data Centres, Defence | JobGader')
+@section('title', 'Jobs in Virginia — Federal, Data Centres, Defence')
 @section('meta_description', 'Jobs in Virginia: federal contracting and security clearances, the worlds largest data centre cluster, defence work and healthcare hiring.')
-@section('og_title', 'Jobs in Virginia — Federal, Data Centres, Defence | JobGader')
+@section('og_title', 'Jobs in Virginia — Federal, Data Centres, Defence')
 @section('og_description', 'Jobs in Virginia: federal contracting and security clearances, the worlds largest data centre cluster, defence work and healthcare hiring.')
 @section('canonical', url()->current())
 

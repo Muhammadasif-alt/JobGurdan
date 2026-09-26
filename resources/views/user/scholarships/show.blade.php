@@ -5,7 +5,7 @@
     $summary = $scholarship->excerpt ?: \Illuminate\Support\Str::limit(strip_tags((string) $scholarship->content), 160);
     $location = $scholarship->city ? $scholarship->city.', '.$scholarship->country : $scholarship->country;
 @endphp
-@section('title', filled($scholarship->meta_title) ? $scholarship->meta_title : $scholarship->title.' | JobGader')
+@section('title', filled($scholarship->meta_title) ? $scholarship->meta_title : $scholarship->title.'')
 @section('meta_description', filled($scholarship->meta_description) ? $scholarship->meta_description : $summary)
 @section('meta_keywords', $scholarship->provider.' scholarship, scholarships in '.$scholarship->country.', '.$scholarship->study_level.' scholarship')
 @section('og_title', $scholarship->title)

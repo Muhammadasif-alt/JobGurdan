@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in California — Regions, Pay and Costs | JobGader')
+@section('title', 'Jobs in California — Regions, Pay and Costs')
 @section('meta_description', 'Jobs in California: how the Bay Area, Los Angeles, San Diego and the Central Valley differ, what they pay, and how far that pay actually goes.')
-@section('og_title', 'Jobs in California — Regions, Pay and Costs | JobGader')
+@section('og_title', 'Jobs in California — Regions, Pay and Costs')
 @section('og_description', 'Jobs in California: how the Bay Area, Los Angeles, San Diego and the Central Valley differ, what they pay, and how far that pay actually goes.')
 @section('canonical', url()->current())
 

@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Georgia — Atlanta, Ports and Film | JobGader')
+@section('title', 'Jobs in Georgia — Atlanta, Ports and Film')
 @section('meta_description', 'Jobs in Georgia: Atlanta corporate and aviation hiring, Savannah port logistics, the film industry, and what each sector pays.')
-@section('og_title', 'Jobs in Georgia — Atlanta, Ports and Film | JobGader')
+@section('og_title', 'Jobs in Georgia — Atlanta, Ports and Film')
 @section('og_description', 'Jobs in Georgia: Atlanta corporate and aviation hiring, Savannah port logistics, the film industry, and what each sector pays.')
 @section('canonical', url()->current())
 

@@ -3,10 +3,10 @@
     $blogCat = trim((string) request('category', ''));
     if ($blogCat !== '') {
         $blogCatLbl = ucwords(str_replace('-', ' ', $blogCat));
-        $blogTitle = "{$blogCatLbl} Articles — Career Blog | JobGader";
-        $blogDesc = "Read {$blogCatLbl} articles on JobGader — expert tips, U.S. employment trends and actionable advice to advance your career.";
+        $blogTitle = "{$blogCatLbl} Articles — Career Blog";
+        $blogDesc = "Read {$blogCatLbl} articles on Sajjad Digital Services — expert tips, U.S. employment trends and actionable advice to advance your career.";
     } else {
-        $blogTitle = 'Career Advice — Employment & Business News | JobGader';
+        $blogTitle = 'Career Advice — Employment & Business News';
         $blogDesc = 'Read the latest career advice, recruitment insights, salary guides, remote work tips and U.S. industry trends. Expert articles to help you land your next job faster.';
     }
 
@@ -21,7 +21,7 @@
         // The page 1 title plus ", Page N" overflows what Google renders, so
         // deeper pages use the plain stem.
         $blogTitle = ($blogCat !== '' ? $blogCatLbl.' Articles' : 'Career Advice')
-            .', Page '.$blogPage.' | JobGader';
+            .', Page '.$blogPage.'';
     }
 @endphp
 @section('title', $blogTitle)
@@ -47,10 +47,10 @@
 {!! json_encode([
     '@context' => 'https://schema.org',
     '@type' => 'CollectionPage',
-    'name' => 'JobGader career guides',
+    'name' => 'Sajjad Digital Services career guides',
     'description' => $blogDesc,
     'url' => url()->current(),
-    'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'Sajjad Digital Services', 'url' => url('/')],
     'mainEntity' => [
         '@type' => 'ItemList',
         'numberOfItems' => $moreNews->total(),

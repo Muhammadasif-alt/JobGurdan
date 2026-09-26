@@ -35,7 +35,7 @@
 @endphp
 
 <style>
-    /* === Dashboard custom styles (JobGader — dark #1b3a6b brand) === */
+    /* === Dashboard custom styles (Sajjad Digital Services — dark #1b3a6b brand) === */
     .dash-wrap { padding: 24px 24px 36px; }
     .dash-header {
         display: flex;

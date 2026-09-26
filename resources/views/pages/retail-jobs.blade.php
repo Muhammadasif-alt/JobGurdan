@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Retail Jobs — Store, Stockroom and Management | JobGader')
+@section('title', 'Retail Jobs — Store, Stockroom and Management')
 @section('meta_description', 'Retail jobs across the USA and UK: sales assistant, stockroom and store management pay, seasonal hiring cycles, and how to apply free.')
-@section('og_title', 'Retail Jobs — Store, Stockroom and Management | JobGader')
+@section('og_title', 'Retail Jobs — Store, Stockroom and Management')
 @section('og_description', 'Retail jobs across the USA and UK: sales assistant, stockroom and store management pay, seasonal hiring cycles, and how to apply free.')
 @section('canonical', url()->current())
 
@@ -70,7 +70,7 @@
                 'a' => 'Yes, and it transfers well. Handling complaints, refunds and difficult customers on a shop floor is directly relevant to customer service and hospitality applications.',
             ],
             [
-                'q' => 'Is it free to apply through JobGader?',
+                'q' => 'Is it free to apply through Sajjad Digital Services?',
                 'a' => 'Yes, and no account is required. Every listing links through to the employer or the original posting.',
             ],
         ],

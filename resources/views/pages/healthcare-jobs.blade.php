@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Healthcare Jobs — Roles, Pay and Openings | JobGader')
+@section('title', 'Healthcare Jobs — Roles, Pay and Openings')
 @section('meta_description', 'Healthcare jobs across the USA and UK: what nursing, care and support roles pay, which licences you need, and the visa routes that are open.')
-@section('og_title', 'Healthcare Jobs — Roles, Pay and Openings | JobGader')
+@section('og_title', 'Healthcare Jobs — Roles, Pay and Openings')
 @section('og_description', 'Healthcare jobs across the USA and UK: what nursing, care and support roles pay, which licences you need, and the visa routes that are open.')
 @section('canonical', url()->current())
 

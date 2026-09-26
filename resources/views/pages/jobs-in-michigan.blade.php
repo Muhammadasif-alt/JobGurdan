@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Michigan — Automotive, Health, Engineering | JobGader')
+@section('title', 'Jobs in Michigan — Automotive, Health, Engineering')
 @section('meta_description', 'Jobs in Michigan: automotive and EV manufacturing, engineering, healthcare and skilled trades hiring, plus what each sector pays.')
-@section('og_title', 'Jobs in Michigan — Automotive, Health, Engineering | JobGader')
+@section('og_title', 'Jobs in Michigan — Automotive, Health, Engineering')
 @section('og_description', 'Jobs in Michigan: automotive and EV manufacturing, engineering, healthcare and skilled trades hiring, plus what each sector pays.')
 @section('canonical', url()->current())
 

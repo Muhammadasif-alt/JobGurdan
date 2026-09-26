@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Illinois — Chicago, Logistics and Trade | JobGader')
+@section('title', 'Jobs in Illinois — Chicago, Logistics and Trade')
 @section('meta_description', 'Jobs in Illinois: what Chicago finance, logistics, manufacturing and healthcare pay, plus where the state hires outside the metro area.')
-@section('og_title', 'Jobs in Illinois — Chicago, Logistics and Trade | JobGader')
+@section('og_title', 'Jobs in Illinois — Chicago, Logistics and Trade')
 @section('og_description', 'Jobs in Illinois: what Chicago finance, logistics, manufacturing and healthcare pay, plus where the state hires outside the metro area.')
 @section('canonical', url()->current())
 

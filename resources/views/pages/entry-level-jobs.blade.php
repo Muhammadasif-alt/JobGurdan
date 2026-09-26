@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Entry Level Jobs — Where to Actually Start | JobGader')
+@section('title', 'Entry Level Jobs — Where to Actually Start')
 @section('meta_description', 'Entry level jobs across '.$coverage->shortList().': which sectors genuinely hire with no experience, what they pay, and how to apply free.')
-@section('og_title', 'Entry Level Jobs — Where to Actually Start | JobGader')
+@section('og_title', 'Entry Level Jobs — Where to Actually Start')
 @section('og_description', 'Entry level jobs across '.$coverage->shortList().': which sectors genuinely hire with no experience, what they pay, and how to apply free.')
 @section('canonical', url()->current())
 

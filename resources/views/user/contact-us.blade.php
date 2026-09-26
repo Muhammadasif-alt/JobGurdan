@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
-@section('title', 'Contact JobGader — Get Help, Partner With Us, Report a Listing')
-@section('meta_description', 'Contact JobGader by email or through the form on this page. We reply within 24 hours on business days to questions about listings, guides and partnerships.')
-@section('meta_keywords', 'contact jobgader, jobgader support, jobgader email, job board contact, report a job listing, employer enquiries')
-@section('og_title', 'Contact JobGader — We\'re Here to Help')
+@section('title', 'Contact Us — Get Help, Partner With Us, Report a Listing')
+@section('meta_description', 'Contact Us by email or through the form on this page. We reply within 24 hours on business days to questions about listings, guides and partnerships.')
+@section('meta_keywords', 'contact sajjad digital services, sajjad digital services support, sajjad digital services email, job board contact, report a job listing, employer enquiries')
+@section('og_title', 'Contact Us — We\'re Here to Help')
 @section('og_description', 'Reach our support team within 24 hours. Phone, email, or message — we\'re ready to help job seekers, employers, and partners.')
 @section('canonical', route('contact.us'))
 
@@ -15,9 +15,9 @@
     {
         "@@context": "https://schema.org",
         "@@type": "ContactPage",
-        "name": "Contact JobGader",
+        "name": "Contact Us",
         "url": "{{ route('contact.us') }}",
-        "description": "Get in touch with the JobGader support team for help with your account, job listings, partnerships, or report concerns."
+        "description": "Get in touch with the Sajjad Digital Services support team for help with your account, job listings, partnerships, or report concerns."
     }
     </script>
 
@@ -26,9 +26,9 @@
     {
         "@@context": "https://schema.org",
         "@@type": "Organization",
-        "name": "JobGader",
+        "name": "Sajjad Digital Services",
         "url": "{{ url('/') }}",
-        "logo": "{{ asset('public/user/images/JobGader.png') }}",
+        "logo": "{{ asset('public/user/images/Sajjad Digital Services.png') }}",
         "email": "{{ config('site.contact_email') }}",
         "contactPoint": [{
             "@@type": "ContactPoint",
@@ -57,12 +57,12 @@
         "@@context": "https://schema.org",
         "@@type": "FAQPage",
         "mainEntity": [
-            {"@@type":"Question","name":"How quickly will I receive a response from JobGader?","acceptedAnswer":{"@@type":"Answer","text":"Our support team typically responds within 24 hours on business days. For urgent matters, please mention 'Urgent' in your subject line."}},
+            {"@@type":"Question","name":"How quickly will I receive a response from Sajjad Digital Services?","acceptedAnswer":{"@@type":"Answer","text":"Our support team typically responds within 24 hours on business days. For urgent matters, please mention 'Urgent' in your subject line."}},
             {"@@type":"Question","name":"I'm having trouble logging in. What should I do?","acceptedAnswer":{"@@type":"Answer","text":"Try the Forgot Password link on the login page first. If you still can't access your account, contact us with your registered email and we'll help recover it."}},
             {"@@type":"Question","name":"How do I report a fake or suspicious job listing?","acceptedAnswer":{"@@type":"Answer","text":"Send the job link through our contact form with the subject 'Report Job Listing.' We check reported listings by hand and report and removes fraudulent posts quickly."}},
-            {"@@type":"Question","name":"Can I delete my JobGader account?","acceptedAnswer":{"@@type":"Answer","text":"Yes — message us with your registered email and we'll permanently delete your account and associated data within 7 business days, in line with our privacy policy."}},
+            {"@@type":"Question","name":"Can I delete my Sajjad Digital Services account?","acceptedAnswer":{"@@type":"Answer","text":"Yes — message us with your registered email and we'll permanently delete your account and associated data within 7 business days, in line with our privacy policy."}},
             {"@@type":"Question","name":"Do you offer partnership or advertising opportunities?","acceptedAnswer":{"@@type":"Answer","text":"Yes. Use the form and select 'Partnership' or 'Advertising' as your subject. Our partnerships team will share details on plans, reach, and pricing."}},
-            {"@@type":"Question","name":"How do employers post jobs on JobGader?","acceptedAnswer":{"@@type":"Answer","text":"Register an employer account, choose a posting plan, and submit your job through the dashboard. Need a custom plan for bulk hiring? Contact our sales team."}}
+            {"@@type":"Question","name":"How do employers post jobs on Sajjad Digital Services?","acceptedAnswer":{"@@type":"Answer","text":"Register an employer account, choose a posting plan, and submit your job through the dashboard. Need a custom plan for bulk hiring? Contact our sales team."}}
         ]
     }
     </script>
@@ -651,7 +651,7 @@
             <a href="{{ url('/') }}">Home</a> &nbsp;&rsaquo;&nbsp; Contact Us
         </div>
         <span class="eyebrow" data-aos="fade-down" data-aos-duration="600">Contact Us</span>
-        <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Get in Touch With <span class="accent">JobGader</span></h1>
+        <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Get in Touch With <span class="accent">Sajjad Digital Services</span></h1>
         <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Have a question, need support, or want to partner with us? Our team responds within 24 hours on business days. Choose the contact method that works best for you below.</p>
     </div>
 </section>
@@ -761,7 +761,7 @@
                             <div class="ico"><i class="icon-feather-dollar-sign"></i></div>
                             <div>
                                 <strong>Our Fee</strong>
-                                None. JobGader is free for job seekers.
+                                None. Sajjad Digital Services is free for job seekers.
                             </div>
                         </li>
                         <li>
@@ -826,7 +826,7 @@
                         <img src="{{ $blogImg($post->featured_image) }}" alt="{{ $post->title }}" loading="lazy">
                     </div>
                     <div class="contact-blog-body">
-                        <div class="meta">{{ optional($post->published_at)->format('M d, Y') }} · By {{ $post->author_name ?? $post->author?->name ?? 'JobGader Editorial' }}</div>
+                        <div class="meta">{{ optional($post->published_at)->format('M d, Y') }} · By {{ $post->author_name ?? $post->author?->name ?? 'Sajjad Digital Services Editorial' }}</div>
                         <h4>{{ $post->title }}</h4>
                         <p>{{ $post->excerpt ?? \Illuminate\Support\Str::limit(strip_tags($post->content), 100) }}</p>
                         <span class="read-link">Read More →</span>
@@ -862,7 +862,7 @@
                 <div class="faq-answer">If a listing looks suspicious, send us the job link through this form with the subject "Report Job Listing." We check every report by hand and remove fraudulent posts quickly.</div>
             </details>
             <details class="contact-faq-item">
-                <summary>Can I delete my JobGader account?</summary>
+                <summary>Can I delete my Sajjad Digital Services account?</summary>
                 <div class="faq-answer">Yes — message us with your registered email and we'll permanently delete your account and associated data within 7 business days, in line with our privacy policy.</div>
             </details>
             <details class="contact-faq-item">

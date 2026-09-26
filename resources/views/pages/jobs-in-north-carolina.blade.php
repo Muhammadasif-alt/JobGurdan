@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in North Carolina — Triangle, Banking, Trades | JobGader')
+@section('title', 'Jobs in North Carolina — Triangle, Banking, Trades')
 @section('meta_description', 'Jobs in North Carolina: Research Triangle technology and pharma, Charlotte banking, manufacturing and healthcare, and what each sector pays.')
-@section('og_title', 'Jobs in North Carolina — Triangle, Banking, Trades | JobGader')
+@section('og_title', 'Jobs in North Carolina — Triangle, Banking, Trades')
 @section('og_description', 'Jobs in North Carolina: Research Triangle technology and pharma, Charlotte banking, manufacturing and healthcare, and what each sector pays.')
 @section('canonical', url()->current())
 

@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
-@section('title', 'Privacy Policy — JobGader')
-@section('meta_description', 'Read the JobGader Privacy Policy describing how we collect, use, share and protect your information, your rights, and our cookie practices.')
+@section('title', 'Privacy Policy')
+@section('meta_description', 'Read the Sajjad Digital Services Privacy Policy describing how we collect, use, share and protect your information, your rights, and our cookie practices.')
 @section('content')
 
 <style>
@@ -103,7 +103,7 @@
             <h1>Privacy Policy</h1>
             <span class="updated">Last updated: September 3, 2026</span>
 
-            <p>JobGader ("we", "our", "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.</p>
+            <p>Sajjad Digital Services ("we", "our", "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.</p>
 
             <div class="legal-toc">
                 <h4>Contents</h4>
@@ -161,7 +161,7 @@
                 <li><strong>With employers:</strong> when you apply for a job, your profile and application are shared with that employer.</li>
                 <li><strong>With job seekers:</strong> employer profiles, job listings, and company information are publicly visible.</li>
                 <li><strong>With service providers:</strong> hosting, email delivery, analytics, and payment processors that help us operate the platform, under written agreements that restrict their use of your data.</li>
-                <li><strong>For legal reasons:</strong> when required by law, court order, subpoena, or to protect the rights, property, or safety of JobGader, our users, or the public.</li>
+                <li><strong>For legal reasons:</strong> when required by law, court order, subpoena, or to protect the rights, property, or safety of Sajjad Digital Services, our users, or the public.</li>
                 <li><strong>Business transfers:</strong> in the event of a merger, acquisition, or sale of assets, your information may be transferred, subject to the same protections described in this policy.</li>
             </ul>
 
@@ -201,7 +201,7 @@
             <p>Our site may contain links to third-party websites, employer pages, or applicant tracking systems. We are not responsible for the privacy practices of those third parties. We encourage you to read their privacy policies before providing any personal information.</p>
 
             <h2 id="international">10. International Users</h2>
-            <p>JobGader is operated from the United States. If you access our services from outside the U.S., your information may be transferred to, stored, and processed in the United States, where data protection laws may differ from those of your country.</p>
+            <p>Sajjad Digital Services is operated from the United States. If you access our services from outside the U.S., your information may be transferred to, stored, and processed in the United States, where data protection laws may differ from those of your country.</p>
 
             <h2 id="changes">11. Changes to This Policy</h2>
             <p>We may update this Privacy Policy from time to time. Material changes will be communicated via email or a prominent notice on our website at least 14 days before they take effect. The "Last updated" date at the top of this page indicates the most recent revision.</p>

@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Customer Service Jobs — Pay, Skills and Openings | JobGader')
+@section('title', 'Customer Service Jobs — Pay, Skills and Openings')
 @section('meta_description', 'Customer service and call centre jobs across '.$coverage->shortList().'. What the roles pay, what employers screen for, and how to apply free.')
-@section('og_title', 'Customer Service Jobs — Pay, Skills and Openings | JobGader')
+@section('og_title', 'Customer Service Jobs — Pay, Skills and Openings')
 @section('og_description', 'Customer service and call centre jobs across '.$coverage->shortList().'. What the roles pay, what employers screen for, and how to apply free.')
 @section('canonical', url()->current())
 
@@ -66,7 +66,7 @@
                 'a' => 'Many are, but check the requirements before applying. Legitimate remote roles set out equipment, internet and scheduling conditions clearly. A remote job that asks you to pay for training or equipment upfront is not one.',
             ],
             [
-                'q' => 'Is it free to apply through JobGader?',
+                'q' => 'Is it free to apply through Sajjad Digital Services?',
                 'a' => 'Yes, and there is no sign-up. Listings link through to the employer or original posting and we never charge job seekers.',
             ],
             [

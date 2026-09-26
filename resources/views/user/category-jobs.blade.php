@@ -10,14 +10,14 @@
     $catFirst = $catPage === 1;
     $catSuffix = $catFirst ? '' : ', Page '.$catPage;
 
-    $catTitle = $category->name.' Jobs'.$catSuffix.' — '.number_format($jobs->total()).' Openings | JobGader';
+    $catTitle = $category->name.' Jobs'.$catSuffix.' — '.number_format($jobs->total()).' Openings';
     if (mb_strlen($catTitle) > 60) {
-        $catTitle = $category->name.' Jobs'.$catSuffix.' | JobGader';
+        $catTitle = $category->name.' Jobs'.$catSuffix.'';
     }
 @endphp
 @section('title', $catTitle)
 @section('og_title', $catTitle)
-@section('meta_description', 'Find verified ' . $category->name . ' jobs across ' . $coverage->shortList() . '. Browse ' . $jobs->total() . ' active openings, filter by location and job type, and apply with one click on JobGader.')
+@section('meta_description', 'Find verified ' . $category->name . ' jobs across ' . $coverage->shortList() . '. Browse ' . $jobs->total() . ' active openings, filter by location and job type, and apply with one click on Sajjad Digital Services.')
 @section('canonical', route('jobs.category', $category->slug).($catFirst ? '' : '?page='.$catPage))
 
 @push('head')
@@ -38,7 +38,7 @@
     '@type' => 'CollectionPage',
     'name' => $category->name.' jobs',
     'url' => url()->current(),
-    'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'Sajjad Digital Services', 'url' => url('/')],
     'mainEntity' => [
         '@type' => 'ItemList',
         'numberOfItems' => $jobs->total(),
@@ -524,11 +524,11 @@
     </div>
 </section>
 
-{{-- Why Apply Through JobGader --}}
+{{-- Why Apply Through Sajjad Digital Services --}}
 <section class="cat-trust-section">
     <div class="container">
         <div class="cat-trust-head">
-            <h2>Why apply for {{ $category->name }} jobs through JobGader?</h2>
+            <h2>Why apply for {{ $category->name }} jobs through Sajjad Digital Services?</h2>
             <p>We've built the most trusted way for American job seekers to find verified roles — with employer transparency, smart matching, and zero spam.</p>
         </div>
         <div class="cat-trust-grid">
@@ -550,7 +550,7 @@
             <div class="cat-trust-card">
                 <div class="ico"><i class="icon-feather-users"></i></div>
                 <h4>Trusted by Millions</h4>
-                <p>Over 10 million American job seekers use JobGader to find their next opportunity. Join free today.</p>
+                <p>Over 10 million American job seekers use Sajjad Digital Services to find their next opportunity. Join free today.</p>
             </div>
         </div>
     </div>

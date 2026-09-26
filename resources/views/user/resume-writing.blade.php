@@ -3,7 +3,7 @@
 @section('title', 'Resume & CV Writing Services — Written by a Person')
 @section('meta_description', 'Professional resume and CV writing, written by a person and formatted so applicant tracking systems can actually read it. Send your details and we reply within one business day.')
 @section('meta_keywords', 'resume writing services, cv writing services, professional cv writer, ats resume writing, cv writing pakistan, resume writing usa, cover letter writing, linkedin profile writing')
-@section('og_title', 'Resume & CV Writing Services | JobGader')
+@section('og_title', 'Resume & CV Writing Services')
 @section('og_description', 'A resume written by a person, targeted at the job you actually want, and formatted to pass the software that reads it first.')
 @section('canonical', route('resume-writing'))
 
@@ -42,7 +42,7 @@
         "description": "Professional resume and CV writing by a human writer, formatted so applicant tracking systems can read it, and targeted at the specific role the candidate is applying for.",
         "provider": {
             "@@type": "Organization",
-            "name": "JobGader",
+            "name": "Sajjad Digital Services",
             "url": "{{ url('/') }}",
             "email": "{{ $contactEmail }}"
         },

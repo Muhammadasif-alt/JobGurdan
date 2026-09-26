@@ -4,7 +4,7 @@
     $jobPlace = $job->location->name ?? null;
 
     /*
-     * ' | JobGader' takes eleven of the sixty characters Google renders, so the
+     * '' takes eleven of the sixty characters Google renders, so the
      * headline itself has to fit in forty-nine. Aggregated listings put the
      * role, the employer and the place into one comma-separated position
      * ("Factory Operator, Ferrari, Maranello Based"), which overflows on its
@@ -38,10 +38,10 @@
         $jobHeadline = $clipped;
     }
 @endphp
-@section('title', $jobHeadline . ' | JobGader')
+@section('title', $jobHeadline . '')
 @section('meta_description', $job->meta_description ?: ('Apply for ' . $job->position . ' at ' . ($job->advertiser->name ?? 'top employer') . ' in ' . ($job->location->name ?? 'the listed location') . '. ' . \Illuminate\Support\Str::limit(strip_tags($job->description ?? ''), 130)))
 @section('og_title', $job->position . ' at ' . ($job->advertiser->name ?? 'Top Employer'))
-@section('og_description', \Illuminate\Support\Str::limit(strip_tags($job->description ?? 'Apply now on JobGader.'), 160))
+@section('og_description', \Illuminate\Support\Str::limit(strip_tags($job->description ?? 'Apply now on Sajjad Digital Services.'), 160))
 @section('canonical', route('jobs.show', \Illuminate\Support\Str::slug($job->position . '-' . ($job->location->name ?? ''))))
 
 @push('meta')
@@ -770,7 +770,7 @@
                                 <span class="ico"><i class="icon-feather-check-circle"></i></span>
                                 <div>
                                     <strong>Verified Employer</strong>
-                                    <span>Every company on JobGader is reviewed by our trust &amp; safety team.</span>
+                                    <span>Every company on Sajjad Digital Services is reviewed by our trust &amp; safety team.</span>
                                 </div>
                             </li>
                             <li>

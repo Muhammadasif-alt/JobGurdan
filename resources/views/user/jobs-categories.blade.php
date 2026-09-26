@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
-@section('title', 'Job Categories — Browse Jobs by Industry | JobGader')
-@section('meta_description', 'Browse ' . number_format($heroStats['total_categories'] ?? 0) . '+ job categories on JobGader. Find healthcare, IT, construction, retail, sales, education, finance and more — verified U.S. jobs across every industry.')
+@section('title', 'Job Categories — Browse Jobs by Industry')
+@section('meta_description', 'Browse ' . number_format($heroStats['total_categories'] ?? 0) . '+ job categories on Sajjad Digital Services. Find healthcare, IT, construction, retail, sales, education, finance and more — verified U.S. jobs across every industry.')
 @section('meta_keywords', 'job categories usa, jobs by industry, healthcare jobs, IT jobs, construction jobs, retail jobs, sales jobs, education jobs, browse jobs by category')
 @section('canonical', $categories->currentPage() === 1 ? route('jobs.categories') : route('jobs.categories').'?page='.$categories->currentPage())
 
@@ -19,9 +19,9 @@
 {!! json_encode([
     '@context' => 'https://schema.org',
     '@type' => 'CollectionPage',
-    'name' => 'Job categories on JobGader',
+    'name' => 'Job categories on Sajjad Digital Services',
     'url' => url()->current(),
-    'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'Sajjad Digital Services', 'url' => url('/')],
     'mainEntity' => [
         '@type' => 'ItemList',
         'numberOfItems' => $categories->total(),

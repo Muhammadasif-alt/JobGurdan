@@ -5,17 +5,17 @@
     $srPosLbl = $srPos !== '' ? ucwords($srPos) : '';
     $srLocLbl = $srLoc !== '' ? ucwords($srLoc) : '';
     if ($srPosLbl && $srLocLbl) {
-        $srTitle = "{$srPosLbl} Jobs in {$srLocLbl} — Search Results | JobGader";
-        $srDesc = "Find {$srPosLbl} jobs in {$srLocLbl} — verified listings, apply free on JobGader.";
+        $srTitle = "{$srPosLbl} Jobs in {$srLocLbl} — Search Results";
+        $srDesc = "Find {$srPosLbl} jobs in {$srLocLbl} — verified listings, apply free on Sajjad Digital Services.";
     } elseif ($srPosLbl) {
-        $srTitle = "{$srPosLbl} Jobs — Search Results | JobGader";
-        $srDesc = "Browse {$srPosLbl} job openings across the USA. Apply free with one click on JobGader.";
+        $srTitle = "{$srPosLbl} Jobs — Search Results";
+        $srDesc = "Browse {$srPosLbl} job openings across the USA. Apply free with one click on Sajjad Digital Services.";
     } elseif ($srLocLbl) {
-        $srTitle = "Jobs in {$srLocLbl} — Search Results | JobGader";
-        $srDesc = "Discover verified jobs in {$srLocLbl} across every industry. Apply free on JobGader.";
+        $srTitle = "Jobs in {$srLocLbl} — Search Results";
+        $srDesc = "Discover verified jobs in {$srLocLbl} across every industry. Apply free on Sajjad Digital Services.";
     } else {
-        $srTitle = 'Job Search Results — Find Verified U.S. Jobs | JobGader';
-        $srDesc = 'Browse matched job results across the USA. Filter by category, location and salary — apply free with one click on JobGader.';
+        $srTitle = 'Job Search Results — Find Verified U.S. Jobs';
+        $srDesc = 'Browse matched job results across the USA. Filter by category, location and salary — apply free with one click on Sajjad Digital Services.';
     }
 
     /*

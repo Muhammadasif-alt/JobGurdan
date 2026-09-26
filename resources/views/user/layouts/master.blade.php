@@ -14,13 +14,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="JobGader">
+    <meta name="author" content="Sajjad Digital Services">
     <meta name="theme-color" content="#1b3a6b">
     <meta name="google-site-verification" content="OXrNNeaVvS-g-hiCo0sSs2paH_CgPJ_8DB04L46sKWk" />
     @php
         $metaDescription =
             trim($__env->yieldContent('meta_description')) ?:
-            'Find hand-checked job openings across '.$coverage->shortList().'. Search by location, category and experience level on JobGader — free to apply, no account needed.';
+            'Find hand-checked job openings across '.$coverage->shortList().'. Search by location, category and experience level on Sajjad Digital Services — free to apply, no account needed.';
         // Google truncates past roughly 160 characters. The country list is
         // read from the listings now, so an authored description can grow past
         // that on its own when a new country is added.
@@ -39,7 +39,7 @@
         // A page's own <title> is always the better default.
         $ogTitle =
             trim($__env->yieldContent('og_title')) ?:
-            (trim($__env->yieldContent('title')) ?: 'JobGader - Find Your Dream Job Today');
+            (trim($__env->yieldContent('title')) ?: 'Sajjad Digital Services - Find Your Dream Job Today');
     @endphp
 
     <meta name="description" content="{{ $metaDescription }}">
@@ -56,7 +56,7 @@
     <meta property="og:image" content="@yield('og_image', asset('public/user/images/home-background-03.jpg'))">
     <meta property="og:type" content="@yield('og_type', 'website')">
     <meta property="og:url" content="@yield('canonical', url()->current())">
-    <meta property="og:site_name" content="JobGader">
+    <meta property="og:site_name" content="Sajjad Digital Services">
     <meta name="twitter:card" content="@yield('twitter_card', 'summary_large_image')">
     <meta name="twitter:title" content="{{ $ogTitle }}">
     <meta name="twitter:description" content="@yield('og_description', $metaDescription)">
@@ -1063,7 +1063,8 @@
                             #header #logo img.logo-light,
                             #header #logo img.logo-dark {
                                 width: auto !important;
-                                height: 42px !important;
+                                height: 40px !important;
+                                max-width: 100% !important;
                             }
                             #header #navigation > ul { gap: 2px; }
                             #header #navigation > ul > li > a {
@@ -1167,33 +1168,51 @@
                             #header #logo img.logo-light,
                             #header #logo img.logo-dark {
                                 width: auto !important;
-                                height: 36px !important;
+                                height: 32px !important;
+                                max-width: 100% !important;
                             }
                             #header .container { padding: 0 10px !important; gap: 6px !important; }
                         }
 
-                        /* === Mobile header. An earlier attempt centred the logo by
-                              taking it out of the flow; it ran off the left edge and
-                              left no room for the menu button, so the bar keeps the
-                              logo on the left and simply centres everything
-                              vertically. === */
+                        /* === Mobile header. Three columns with equal flexible
+                              gutters: the empty first column and the controls in the
+                              third are the same width, so the logo in the middle sits
+                              dead centre without being taken out of the flow. An
+                              earlier attempt used position:absolute and pushed the
+                              logo off the left edge; a later one used flex-wrap and
+                              dropped the controls onto a second row. === */
                         @media (max-width: 1099px) {
                             #header .container {
-                                flex-wrap: wrap;
+                                display: grid !important;
+                                grid-template-columns: 1fr auto 1fr;
+                                grid-template-rows: auto auto;
                                 align-items: center;
+                                flex-wrap: nowrap;
                                 height: auto !important;
-                                min-height: 66px;
+                                min-height: 64px;
+                                column-gap: 6px !important;
                             }
-                            #header .utf-left-side,
+                            #header .utf-left-side {
+                                grid-column: 2;
+                                grid-row: 1;
+                                justify-content: center !important;
+                                min-width: 0 !important;
+                                flex: 0 0 auto !important;
+                                gap: 0 !important;
+                            }
                             #header .utf-right-side {
-                                align-items: center !important;
-                                min-height: 66px;
+                                grid-column: 3;
+                                grid-row: 1;
+                                justify-content: flex-end !important;
+                                min-width: 0 !important;
+                                gap: 6px !important;
                             }
                             #header #logo {
                                 height: auto !important;
+                                min-width: 0 !important;
                                 align-self: center !important;
                             }
-                            #header .utf-right-side { margin-left: auto; }
+                            #header .utf-right-side .theme-toggle { margin: 0 !important; }
                         }
 
                         /* === Mobile navigation: a panel that opens underneath the header
@@ -1202,8 +1221,8 @@
                         @media (max-width: 1099px) {
                             #header #navigation {
                                 display: none !important;
-                                order: 3;
-                                flex: 0 0 100% !important;
+                                grid-column: 1 / -1;
+                                grid-row: 2;
                                 width: 100% !important;
                                 float: none !important;
                                 position: static !important;
@@ -1803,7 +1822,7 @@
                             <div class="utf-footer-item-links">
                                 <a href="/"><img class="footer-logo" loading="lazy" decoding="async"
                                         src="{{ asset('public/user/images/sajjad-dark-logo.png') }}" alt="Sajjad Digital Services"></a>
-                                <p>JobGader lists hand-checked openings across {{ $coverage->shortList() }},
+                                <p>Sajjad Digital Services lists hand-checked openings across {{ $coverage->shortList() }},
                                     from general labour and hospitality through to skilled trades and senior
                                     engineering &mdash; alongside guides on which visa sponsorship routes are
                                     genuinely open. Free to search, and no account needed to apply.</p>
@@ -1899,7 +1918,7 @@
                 <div class="utf-footer-copyright-item">
                     <div class="container-fluid px-5">
                         <div class="row">
-                            <div class="col-xl-12">Copyright &copy; 2026 JobGader. All Rights Reserved.</div>
+                            <div class="col-xl-12">Copyright &copy; 2026 Sajjad Digital Services. All Rights Reserved.</div>
                         </div>
                     </div>
                 </div>
@@ -2321,9 +2340,9 @@
             $waFloatNumber = preg_replace('/\D+/', '', (string) config('site.whatsapp'));
         @endphp
         @if($waFloatNumber !== '')
-            <a href="https://wa.me/{{ $waFloatNumber }}?text={{ rawurlencode('Hi, I found you on JobGader.') }}"
+            <a href="https://wa.me/{{ $waFloatNumber }}?text={{ rawurlencode('Hi, I found you on Sajjad Digital Services.') }}"
                class="wa-float" target="_blank" rel="noopener"
-               aria-label="Message JobGader on WhatsApp">
+               aria-label="Message Sajjad Digital Services on WhatsApp">
                 <i class="icon-brand-whatsapp" aria-hidden="true"></i>
                 <span>WhatsApp</span>
             </a>

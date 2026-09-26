@@ -3,7 +3,7 @@
     $isFiltered = $keyword !== '' || $country !== '' || $level !== '';
     $onFirstPage = $scholarships->currentPage() === 1;
 @endphp
-@section('title', $onFirstPage ? 'Scholarships for International Students | JobGader' : 'Scholarships for International Students, Page '.$scholarships->currentPage().' | JobGader')
+@section('title', $onFirstPage ? 'Scholarships for International Students' : 'Scholarships for International Students, Page '.$scholarships->currentPage().'')
 @section('meta_description', 'Scholarships to study abroad, explained in plain English: what each one pays, who can apply, the deadlines and how to apply on the official page.')
 @section('meta_keywords', 'scholarships for international students, study abroad scholarships, funded scholarships, PhD scholarships, masters scholarships, RTP scholarship Australia')
 @section('canonical', $onFirstPage ? route('scholarships.index') : $scholarships->url($scholarships->currentPage()))

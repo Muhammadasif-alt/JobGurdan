@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Accounting Jobs — Salary, Skills and Openings | JobGader')
+@section('title', 'Accounting Jobs — Salary, Skills and Openings')
 @section('meta_description', 'Accounting jobs across '.$coverage->shortList().': what each role pays, which certifications employers actually ask for, and how to apply free.')
-@section('og_title', 'Accounting Jobs — Salary, Skills and Openings | JobGader')
+@section('og_title', 'Accounting Jobs — Salary, Skills and Openings')
 @section('og_description', 'Accounting jobs across '.$coverage->shortList().': what each role pays, which certifications employers actually ask for, and how to apply free.')
 @section('canonical', url()->current())
 
@@ -66,7 +66,7 @@
                 'a' => 'Qualified accounting roles are among the more realistic sponsorship candidates because they can meet skill and salary thresholds, unlike most entry-level positions. Bookkeeping and clerical finance roles generally cannot. Our visa guides cover how each route works.',
             ],
             [
-                'q' => 'Is it free to apply through JobGader?',
+                'q' => 'Is it free to apply through Sajjad Digital Services?',
                 'a' => 'Yes, and no account is needed. Each listing links to the employer or the original posting, so you apply to them directly and we never take a fee.',
             ],
             [

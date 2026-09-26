@@ -154,7 +154,7 @@ class StructuredDataService
      */
     public function jobPosting(Job $job, string $url, ?string $descriptionHtml = null): array
     {
-        $organisation = ['@type' => 'Organization', 'name' => $job->advertiser->name ?? 'JobGader'];
+        $organisation = ['@type' => 'Organization', 'name' => $job->advertiser->name ?? 'Sajjad Digital Services'];
 
         if ($job->advertiser?->id) {
             $organisation['sameAs'] = url('/companies/'.$job->advertiser->id);
@@ -172,7 +172,7 @@ class StructuredDataService
             'description' => $descriptionHtml ?? (string) $job->description,
             'identifier' => [
                 '@type' => 'PropertyValue',
-                'name' => $job->advertiser->name ?? 'JobGader',
+                'name' => $job->advertiser->name ?? 'Sajjad Digital Services',
                 'value' => (string) $job->id,
             ],
             'datePosted' => ($job->created_at ?? now())->toIso8601String(),

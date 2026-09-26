@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Washington — Tech, Aerospace and Trade | JobGader')
+@section('title', 'Jobs in Washington — Tech, Aerospace and Trade')
 @section('meta_description', 'Jobs in Washington State: Seattle technology, aerospace manufacturing, agriculture and port logistics, and how no state income tax affects pay.')
-@section('og_title', 'Jobs in Washington — Tech, Aerospace and Trade | JobGader')
+@section('og_title', 'Jobs in Washington — Tech, Aerospace and Trade')
 @section('og_description', 'Jobs in Washington State: Seattle technology, aerospace manufacturing, agriculture and port logistics, and how no state income tax affects pay.')
 @section('canonical', url()->current())
 

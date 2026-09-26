@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Ohio — Manufacturing, Health, Logistics | JobGader')
+@section('title', 'Jobs in Ohio — Manufacturing, Health, Logistics')
 @section('meta_description', 'Jobs in Ohio: manufacturing, healthcare and distribution hiring across Columbus, Cleveland and Cincinnati, what they pay, and where to start.')
-@section('og_title', 'Jobs in Ohio — Manufacturing, Health, Logistics | JobGader')
+@section('og_title', 'Jobs in Ohio — Manufacturing, Health, Logistics')
 @section('og_description', 'Jobs in Ohio: manufacturing, healthcare and distribution hiring across Columbus, Cleveland and Cincinnati, what they pay, and where to start.')
 @section('canonical', url()->current())
 

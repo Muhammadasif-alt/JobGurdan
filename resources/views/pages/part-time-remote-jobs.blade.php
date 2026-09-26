@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Part Time Remote Jobs — Hours That Fit | JobGader')
+@section('title', 'Part Time Remote Jobs — Hours That Fit')
 @section('meta_description', 'Part time remote jobs across '.$coverage->shortList().': which roles offer real flexibility, what they pay pro rata, and what to confirm first.')
-@section('og_title', 'Part Time Remote Jobs — Hours That Fit | JobGader')
+@section('og_title', 'Part Time Remote Jobs — Hours That Fit')
 @section('og_description', 'Part time remote jobs across '.$coverage->shortList().': which roles offer real flexibility, what they pay pro rata, and what to confirm first.')
 @section('canonical', url()->current())
 

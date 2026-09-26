@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Create Account | JobGader</title>
+    <title>Create Account</title>
     <meta name="robots" content="noindex">
     <link rel="icon" href="{{ asset('public/user/images/favicon.png') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -527,8 +527,8 @@
     <!-- Visual side (right) -->
     <aside class="auth-visual">
         <a href="{{ url('/') }}" class="auth-brand">
-            <img src="{{ asset('public/user/images/JobGader.png') }}" alt="JobGader" onerror="this.style.display='none'">
-            JobGader
+            <img src="{{ asset('public/user/images/Sajjad Digital Services.png') }}" alt="Sajjad Digital Services" onerror="this.style.display='none'">
+            Sajjad Digital Services
         </a>
 
         <div class="auth-hero">

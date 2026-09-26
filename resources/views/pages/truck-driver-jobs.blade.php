@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Truck Driver Jobs — CDL, Pay and Visa Routes | JobGader')
+@section('title', 'Truck Driver Jobs — CDL, Pay and Visa Routes')
 @section('meta_description', 'Truck driver jobs in the USA and UK: what CDL and HGV drivers earn, how licensing works for foreign drivers, and which visa routes are real.')
-@section('og_title', 'Truck Driver Jobs — CDL, Pay and Visa Routes | JobGader')
+@section('og_title', 'Truck Driver Jobs — CDL, Pay and Visa Routes')
 @section('og_description', 'Truck driver jobs in the USA and UK: what CDL and HGV drivers earn, how licensing works for foreign drivers, and which visa routes are real.')
 @section('canonical', url()->current())
 

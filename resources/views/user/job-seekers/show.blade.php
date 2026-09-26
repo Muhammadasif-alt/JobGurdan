@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
 
-@section('title', $seeker->name.' — Job Seeker Profile | JobGader')
-@section('meta_description', $seeker->name.' is looking for work'.($profile['city'] ? ' in '.$profile['city'] : '').'. View skills, experience and contact details on JobGader.')
+@section('title', $seeker->name.' — Job Seeker Profile')
+@section('meta_description', $seeker->name.' is looking for work'.($profile['city'] ? ' in '.$profile['city'] : '').'. View skills, experience and contact details on Sajjad Digital Services.')
 
 {{-- A name and an email is a stub, not a page. Profiles stay out of the
      index until the candidate has filled in enough of their own detail. --}}

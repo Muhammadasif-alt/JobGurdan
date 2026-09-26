@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Construction Jobs — Trades, Pay and Openings | JobGader')
+@section('title', 'Construction Jobs — Trades, Pay and Openings')
 @section('meta_description', 'Construction jobs across the USA and UK: hourly rates by trade, the cards and licences you need on site, and how to apply free with no account.')
-@section('og_title', 'Construction Jobs — Trades, Pay and Openings | JobGader')
+@section('og_title', 'Construction Jobs — Trades, Pay and Openings')
 @section('og_description', 'Construction jobs across the USA and UK: hourly rates by trade, the cards and licences you need on site, and how to apply free with no account.')
 @section('canonical', url()->current())
 

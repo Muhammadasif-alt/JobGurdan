@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Work From Home Jobs — Real Options | JobGader')
+@section('title', 'Work From Home Jobs — Real Options')
 @section('meta_description', 'Work from home jobs across '.$coverage->shortList().': which roles are genuine, what they pay, and how to filter out the fee-charging scams.')
-@section('og_title', 'Work From Home Jobs — Real Options | JobGader')
+@section('og_title', 'Work From Home Jobs — Real Options')
 @section('og_description', 'Work from home jobs across '.$coverage->shortList().': which roles are genuine, what they pay, and how to filter out the fee-charging scams.')
 @section('canonical', url()->current())
 

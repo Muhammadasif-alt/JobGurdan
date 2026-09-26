@@ -19,8 +19,8 @@
      * itself clipped at a word boundary. job-detail.blade.php trims the
      * employer name the same way for the same reason.
      */
-    $coSuffix = ' Jobs'.($coFirst ? '' : ', Page '.$coPage).' | JobGader';
-    $coTitle = $company->name.' Jobs'.($coFirst ? '' : ', Page '.$coPage).' — Openings & How to Apply | JobGader';
+    $coSuffix = ' Jobs'.($coFirst ? '' : ', Page '.$coPage).'';
+    $coTitle = $company->name.' Jobs'.($coFirst ? '' : ', Page '.$coPage).' — Openings & How to Apply';
 
     if (mb_strlen($coTitle) > 60) {
         $coTitle = $company->name.$coSuffix;
@@ -36,8 +36,8 @@
     }
     $coDesc = $coCount > 0
         ? $coCount.' open '.$company->name.' '.($coCount === 1 ? 'role' : 'roles')
-            .($coPlaces !== '' ? ' in '.$coPlaces : '').'. See what each listing asks for and apply direct on JobGader.'
-        : 'Openings posted by '.$company->name.' on JobGader. See what the employer asks for and apply direct, with no account needed.';
+            .($coPlaces !== '' ? ' in '.$coPlaces : '').'. See what each listing asks for and apply direct on Sajjad Digital Services.'
+        : 'Openings posted by '.$company->name.' on Sajjad Digital Services. See what the employer asks for and apply direct, with no account needed.';
 @endphp
 @section('title', $coTitle)
 @section('og_title', $coTitle)
@@ -63,7 +63,7 @@
     'name' => $company->name.' jobs',
     'description' => $coDesc,
     'url' => url()->current(),
-    'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'Sajjad Digital Services', 'url' => url('/')],
     'about' => [
         '@type' => 'Organization',
         'name' => $company->name,
@@ -446,7 +446,7 @@
         <header class="cj-section-head">
             <span class="eyebrow">Why Apply Through Us</span>
             <h2>Built for U.S. <span class="accent">Job Seekers</span></h2>
-            <p>Every role on JobGader goes through our verification process before it reaches you.</p>
+            <p>Every role on Sajjad Digital Services goes through our verification process before it reaches you.</p>
         </header>
         <div class="cj-why-grid">
             <div class="cj-why-card">
@@ -483,7 +483,7 @@
                 <span class="eyebrow">Hiring Now</span>
                 <h2>Explore opportunities at <span class="accent">{{ $company->name }}</span></h2>
                 <p class="cj-seo-lead">
-                    {{ $company->name }} is one of the verified U.S. employers actively hiring on JobGader.
+                    {{ $company->name }} is one of the verified U.S. employers actively hiring on Sajjad Digital Services.
                     Browse open roles across {{ $jobs->total() ?? 'multiple' }} positions — apply free, get matched faster, and connect directly with the hiring team.
                 </p>
                 <p>

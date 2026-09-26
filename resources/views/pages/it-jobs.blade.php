@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'IT Jobs — Support, Infrastructure and Cloud | JobGader')
+@section('title', 'IT Jobs — Support, Infrastructure and Cloud')
 @section('meta_description', 'IT jobs across '.$coverage->shortList().': support, systems, networking and cloud roles, what each pays, and the certifications worth having.')
-@section('og_title', 'IT Jobs — Support, Infrastructure and Cloud | JobGader')
+@section('og_title', 'IT Jobs — Support, Infrastructure and Cloud')
 @section('og_description', 'IT jobs across '.$coverage->shortList().': support, systems, networking and cloud roles, what each pays, and the certifications worth having.')
 @section('canonical', url()->current())
 

@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Warehouse Jobs — Pay, Shifts and Progression | JobGader')
+@section('title', 'Warehouse Jobs — Pay, Shifts and Progression')
 @section('meta_description', 'Warehouse jobs in the USA and UK: picker, packer and forklift pay, which shifts pay most, and the honest position on visa sponsorship.')
-@section('og_title', 'Warehouse Jobs — Pay, Shifts and Progression | JobGader')
+@section('og_title', 'Warehouse Jobs — Pay, Shifts and Progression')
 @section('og_description', 'Warehouse jobs in the USA and UK: picker, packer and forklift pay, which shifts pay most, and the honest position on visa sponsorship.')
 @section('canonical', url()->current())
 

@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
 
-@section('title', 'Browse Job Seekers — Hire Verified Talent | JobGader')
-@section('meta_description', 'Browse job seeker profiles on JobGader. Search by name, username or skill, and contact candidates directly. Free for employers and candidates alike.')
+@section('title', 'Browse Job Seekers — Hire Verified Talent')
+@section('meta_description', 'Browse job seeker profiles on Sajjad Digital Services. Search by name, username or skill, and contact candidates directly. Free for employers and candidates alike.')
 
 @section('meta_robots', ($stats['total_seekers'] ?? 0) > 0 ? 'index, follow' : 'noindex, follow')
 
@@ -451,7 +451,7 @@
                 <div class="js-faq-head">
                     <span class="eyebrow">FAQ</span>
                     <h2>Common questions from <span class="accent">employers</span></h2>
-                    <p>Everything you need to know about hiring through JobGader — from contact options to candidate verification and pricing.</p>
+                    <p>Everything you need to know about hiring through Sajjad Digital Services — from contact options to candidate verification and pricing.</p>
                     <a href="{{ route('register') }}" class="js-faq-cta">Get Started Free <i class="icon-feather-arrow-right"></i></a>
                 </div>
 
@@ -546,7 +546,7 @@
                 <div class="jsk-seo-visual">
                     <img src="{{ asset('public/user/images/hero-diverse-professionals.webp') }}"
                          onerror="this.onerror=null;this.src='{{ asset('public/user/images/hero-diverse-professionals.jpg') }}'"
-                         alt="Job seeker reviewing openings on JobGader" loading="lazy" decoding="async">
+                         alt="Job seeker reviewing openings on Sajjad Digital Services" loading="lazy" decoding="async">
                     <div class="jsk-float-badge tl">
                         <div class="ico green"><i class="icon-feather-check-circle"></i></div>
                         <div class="text">

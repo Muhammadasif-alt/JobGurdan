@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Arizona — Semiconductors, Logistics, Care | JobGader')
+@section('title', 'Jobs in Arizona — Semiconductors, Logistics, Care')
 @section('meta_description', 'Jobs in Arizona: semiconductor and construction growth around Phoenix, distribution, healthcare and tourism, and what each sector pays.')
-@section('og_title', 'Jobs in Arizona — Semiconductors, Logistics, Care | JobGader')
+@section('og_title', 'Jobs in Arizona — Semiconductors, Logistics, Care')
 @section('og_description', 'Jobs in Arizona: semiconductor and construction growth around Phoenix, distribution, healthcare and tourism, and what each sector pays.')
 @section('canonical', url()->current())
 
@@ -63,7 +63,7 @@
                 'a' => 'It is one of the most stable in the state, because of the large retirement population. Home health and nursing assistant roles hire continuously and need only short certification.',
             ],
             [
-                'q' => 'Is it free to apply through JobGader?',
+                'q' => 'Is it free to apply through Sajjad Digital Services?',
                 'a' => 'Yes, and no account is required. Every listing links through to the employer or the original posting.',
             ],
         ],

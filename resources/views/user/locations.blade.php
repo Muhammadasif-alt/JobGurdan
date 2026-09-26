@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
-@section('title', 'Browse Jobs by Location | JobGader')
-@section('meta_description', 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . '+ verified jobs across ' . number_format($heroStats['total_states'] ?? 50) . ' U.S. states. Find local opportunities in your city, area, or ZIP — apply free on JobGader.')
+@section('title', 'Browse Jobs by Location')
+@section('meta_description', 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . '+ verified jobs across ' . number_format($heroStats['total_states'] ?? 50) . ' U.S. states. Find local opportunities in your city, area, or ZIP — apply free on Sajjad Digital Services.')
 @section('meta_keywords', 'jobs by location usa, jobs near me, find jobs by city, browse jobs by state, jobs by zip code, local jobs america')
 @section('canonical', $locations->currentPage() === 1 ? route('jobs.locations') : route('jobs.locations').'?page='.$locations->currentPage())
 
@@ -19,9 +19,9 @@
 {!! json_encode([
     '@context' => 'https://schema.org',
     '@type' => 'CollectionPage',
-    'name' => 'Jobs by location on JobGader',
+    'name' => 'Jobs by location on Sajjad Digital Services',
     'url' => url()->current(),
-    'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'Sajjad Digital Services', 'url' => url('/')],
     'mainEntity' => [
         '@type' => 'ItemList',
         'numberOfItems' => $locations->total(),
@@ -722,7 +722,7 @@
         <header class="top-states-head">
             <span class="eyebrow">Most Active Markets</span>
             <h2 id="top-states-heading">Top Hiring States Right Now</h2>
-            <p>These U.S. states are leading the way with the most active job openings on JobGader. Click any state to explore current verified roles nearby.</p>
+            <p>These U.S. states are leading the way with the most active job openings on Sajjad Digital Services. Click any state to explore current verified roles nearby.</p>
         </header>
 
         <div class="top-states-grid">

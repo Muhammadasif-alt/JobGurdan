@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Data Entry Jobs — Pay, Reality and Openings | JobGader')
+@section('title', 'Data Entry Jobs — Pay, Reality and Openings')
 @section('meta_description', 'Data entry jobs across '.$coverage->shortList().': what the work pays, which remote listings are genuine, and how to spot the scams in this category.')
-@section('og_title', 'Data Entry Jobs — Pay, Reality and Openings | JobGader')
+@section('og_title', 'Data Entry Jobs — Pay, Reality and Openings')
 @section('og_description', 'Data entry jobs across '.$coverage->shortList().': what the work pays, which remote listings are genuine, and how to spot the scams in this category.')
 @section('canonical', url()->current())
 

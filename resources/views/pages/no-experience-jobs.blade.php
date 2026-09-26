@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs With No Experience — Honest Options | JobGader')
+@section('title', 'Jobs With No Experience — Honest Options')
 @section('meta_description', 'Jobs with no experience needed across the USA and UK: which roles genuinely train from scratch, what they pay, and which listings to avoid.')
-@section('og_title', 'Jobs With No Experience — Honest Options | JobGader')
+@section('og_title', 'Jobs With No Experience — Honest Options')
 @section('og_description', 'Jobs with no experience needed across the USA and UK: which roles genuinely train from scratch, what they pay, and which listings to avoid.')
 @section('canonical', url()->current())
 

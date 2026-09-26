@@ -5,7 +5,7 @@
     <base href="{{ asset('public/admin') }}/">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>JobGader Admin</title><!--begin::Accessibility Meta Tags-->
+    <title>Sajjad Digital Services Admin</title><!--begin::Accessibility Meta Tags-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <link rel="shortcut icon" href="{{ asset('public/user/images/favicon.png') }}">
     <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('public/user/images/favicon.png') }}">
@@ -15,9 +15,9 @@
     <meta name="theme-color" content="#007bff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#16305a" media="(prefers-color-scheme: dark)">
     <!--end::Accessibility Meta Tags--><!--begin::Primary Meta Tags-->
-    <meta name="title" content="JobGader Admin">
-    <meta name="author" content="JobGader">
-    <meta name="description" content="Admin panel for managing jobs, blog posts, companies and users on JobGader.">
+    <meta name="title" content="Sajjad Digital Services Admin">
+    <meta name="author" content="Sajjad Digital Services">
+    <meta name="description" content="Admin panel for managing jobs, blog posts, companies and users on Sajjad Digital Services.">
     <!--end::Primary Meta Tags--><!--begin::Accessibility Features--><!-- Skip links will be dynamically added by accessibility.js -->
     <meta name="supported-color-schemes" content="light dark">
     <link rel="stylesheet" href="{{ asset('public/admin/css/adminlte.css') }}"><!--end::Accessibility Features--><!--begin::Fonts-->
@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@3.37.1/dist/apexcharts.css"
         integrity="sha256-4MX+61mt9NVvvuPjUWdUdyfZfxSB1/Rf9WtqRHgG5S0=" crossorigin="anonymous">
 
-    <!-- Custom overrides + admin theme polish (JobGader brand: dark #1b3a6b) -->
+    <!-- Custom overrides + admin theme polish (Sajjad Digital Services brand: dark #1b3a6b) -->
     <style>
         /* === Brand-matched buttons (global override) === */
         .btn-primary, .btn.btn-primary, button.btn-primary {
@@ -263,7 +263,7 @@
         .user-dropdown .dropdown-item.danger:hover { background: #fef2f2; color: #b91c1c; }
         .user-dropdown .dropdown-item.danger:hover i { color: #b91c1c; }
 
-        /* === Sidebar — JobGader brand (deep dark with subtle accent glows) === */
+        /* === Sidebar brand (deep dark with subtle accent glows) === */
         .app-sidebar.bg-body-secondary {
             background: linear-gradient(180deg, #1b3a6b 0%, #111111 50%, #1b3a6b 100%) !important;
             border-right: 1px solid rgba(255,255,255,.06);
@@ -514,7 +514,7 @@
                 <a href="{{ route('admin.dashboard') }}" class="brand-link">
                     <span class="brand-badge">jg</span>
                     <span class="brand-text">
-                        JobGader
+                        Sajjad Digital Services
                         <small>Admin Panel</small>
                     </span>
                 </a>

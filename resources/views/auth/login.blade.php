@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sign In | JobGader</title>
+    <title>Sign In</title>
     <meta name="robots" content="noindex">
     <link rel="icon" href="{{ asset('public/user/images/favicon.png') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -333,14 +333,14 @@
     <!-- LEFT: Visual side -->
     <aside class="auth-visual">
         <a href="{{ url('/') }}" class="auth-brand">
-            <img src="{{ asset('public/user/images/JobGader.png') }}" alt="JobGader" onerror="this.style.display='none'">
-            JobGader
+            <img src="{{ asset('public/user/images/Sajjad Digital Services.png') }}" alt="Sajjad Digital Services" onerror="this.style.display='none'">
+            Sajjad Digital Services
         </a>
 
         <div class="auth-hero">
             <span class="eyebrow"><span class="dot"></span> Welcome back</span>
             <h1>Sign in to continue your <span class="accent">job search</span></h1>
-            <p>Get back to your saved jobs and applications. An account is optional &mdash; every listing on JobGader can be opened and applied to without one.</p>
+            <p>Get back to your saved jobs and applications. An account is optional &mdash; every listing on Sajjad Digital Services can be opened and applied to without one.</p>
             <ul class="auth-trust">
                 <li><i class="bi bi-check-circle-fill"></i> Hand-checked job listings</li>
                 <li><i class="bi bi-check-circle-fill"></i> Track applications in one dashboard</li>

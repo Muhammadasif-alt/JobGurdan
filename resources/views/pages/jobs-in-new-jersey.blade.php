@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in New Jersey — Pharma, Ports and Finance | JobGader')
+@section('title', 'Jobs in New Jersey — Pharma, Ports and Finance')
 @section('meta_description', 'Jobs in New Jersey: pharmaceutical and life sciences, Port Newark logistics, finance and healthcare hiring, and what each sector pays.')
-@section('og_title', 'Jobs in New Jersey — Pharma, Ports and Finance | JobGader')
+@section('og_title', 'Jobs in New Jersey — Pharma, Ports and Finance')
 @section('og_description', 'Jobs in New Jersey: pharmaceutical and life sciences, Port Newark logistics, finance and healthcare hiring, and what each sector pays.')
 @section('canonical', url()->current())
 

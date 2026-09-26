@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Security Guard Jobs — Licence, Pay and Shifts | JobGader')
+@section('title', 'Security Guard Jobs — Licence, Pay and Shifts')
 @section('meta_description', 'Security guard jobs across the USA and UK: the licence you need first, what the shifts pay, and which sectors pay above the standard rate.')
-@section('og_title', 'Security Guard Jobs — Licence, Pay and Shifts | JobGader')
+@section('og_title', 'Security Guard Jobs — Licence, Pay and Shifts')
 @section('og_description', 'Security guard jobs across the USA and UK: the licence you need first, what the shifts pay, and which sectors pay above the standard rate.')
 @section('canonical', url()->current())
 

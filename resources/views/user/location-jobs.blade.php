@@ -13,9 +13,9 @@
         ? $locArea.', '.$location->name
         : $location->name;
 
-    $locTitle = 'Jobs in '.$location->name.($locFirst ? '' : ', Page '.$locPage).' | JobGader';
+    $locTitle = 'Jobs in '.$location->name.($locFirst ? '' : ', Page '.$locPage).'';
     $locDesc = 'Browse '.number_format($jobs->total()).' verified job openings in '.$locWhere
-        .'. Filter by category and job type, see what each employer asks for, and apply free on JobGader.';
+        .'. Filter by category and job type, see what each employer asks for, and apply free on Sajjad Digital Services.';
 @endphp
 @section('title', $locTitle)
 @section('og_title', $locTitle)
@@ -43,7 +43,7 @@
     'name' => 'Jobs in '.$location->name,
     'description' => $locDesc,
     'url' => url()->current(),
-    'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'Sajjad Digital Services', 'url' => url('/')],
     'mainEntity' => [
         '@type' => 'ItemList',
         'numberOfItems' => $jobs->total(),

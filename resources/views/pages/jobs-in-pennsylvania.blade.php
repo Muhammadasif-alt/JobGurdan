@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Pennsylvania — Health, Freight, Energy | JobGader')
+@section('title', 'Jobs in Pennsylvania — Health, Freight, Energy')
 @section('meta_description', 'Jobs in Pennsylvania: healthcare and education in Philadelphia and Pittsburgh, the I-78 freight corridor, and energy work in the north.')
-@section('og_title', 'Jobs in Pennsylvania — Health, Freight, Energy | JobGader')
+@section('og_title', 'Jobs in Pennsylvania — Health, Freight, Energy')
 @section('og_description', 'Jobs in Pennsylvania: healthcare and education in Philadelphia and Pittsburgh, the I-78 freight corridor, and energy work in the north.')
 @section('canonical', url()->current())
 

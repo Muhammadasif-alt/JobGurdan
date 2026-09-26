@@ -92,7 +92,7 @@
             <div>
                 <span class="role-pill"><i class="bi bi-building"></i> Company Account</span>
                 <h2>{{ $user->name }}</h2>
-                <p>{{ $advertiser->description ?? 'Hiring on JobGader — connect with verified U.S. job seekers.' }}</p>
+                <p>{{ $advertiser->description ?? 'Hiring on Sajjad Digital Services — connect with verified U.S. job seekers.' }}</p>
             </div>
         </div>
     </section>

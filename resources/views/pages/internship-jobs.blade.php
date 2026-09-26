@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Internships — Paid, Unpaid and Worth It | JobGader')
+@section('title', 'Internships — Paid, Unpaid and Worth It')
 @section('meta_description', 'Internships across '.$coverage->shortList().': which are paid, what the law says about unpaid work, and how to turn a placement into a job offer.')
-@section('og_title', 'Internships — Paid, Unpaid and Worth It | JobGader')
+@section('og_title', 'Internships — Paid, Unpaid and Worth It')
 @section('og_description', 'Internships across '.$coverage->shortList().': which are paid, what the law says about unpaid work, and how to turn a placement into a job offer.')
 @section('canonical', url()->current())
 

@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Florida — Tourism, Health and Logistics | JobGader')
+@section('title', 'Jobs in Florida — Tourism, Health and Logistics')
 @section('meta_description', 'Jobs in Florida: hospitality, healthcare, aerospace and logistics hiring across Miami, Orlando and Tampa, what they pay, and the seasonal cycle.')
-@section('og_title', 'Jobs in Florida — Tourism, Health and Logistics | JobGader')
+@section('og_title', 'Jobs in Florida — Tourism, Health and Logistics')
 @section('og_description', 'Jobs in Florida: hospitality, healthcare, aerospace and logistics hiring across Miami, Orlando and Tampa, what they pay, and the seasonal cycle.')
 @section('canonical', url()->current())
 
