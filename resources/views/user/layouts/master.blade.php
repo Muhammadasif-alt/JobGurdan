@@ -1272,6 +1272,36 @@
                             .mm-slideout > .mm-page > .mmenu-init { display: none !important; }
                         }
 
+                        /* === The bar's inner boxes are pinned to 76px, which is right
+                              while the menu is shut and wrong the moment it opens: the
+                              panel had nowhere to go and lay over the hero instead of
+                              pushing it down. On mobile they grow with their content.
+                              The logo is also centred explicitly, because the theme's
+                              padding on #header is not symmetrical and left the mark
+                              sitting low against the bottom rule. === */
+                        #header { padding-top: 0 !important; padding-bottom: 0 !important; }
+                        #header #logo {
+                            display: flex !important;
+                            align-items: center !important;
+                            justify-content: flex-start;
+                        }
+                        #header #logo a { padding: 0 !important; margin: 0 !important; }
+                        #header #logo img.logo-light,
+                        #header #logo img.logo-dark { align-self: center !important; }
+
+                        @media (max-width: 1099px) {
+                            #utf-header-container-block,
+                            #header { height: auto !important; overflow: visible !important; }
+                            #header .container,
+                            #header .utf-left-side,
+                            #header .utf-right-side {
+                                height: auto !important;
+                                min-height: 64px;
+                            }
+                            #header.nav-open .container { padding-bottom: 4px !important; }
+                            #header #logo { justify-content: center !important; }
+                        }
+
                         /* === Mobile menu (mmenu) — visual feedback on items === */
                         .mm-menu { --mm-color-background: #16305a; }
                         .mm-menu .mm-navbar { color: #fff !important; font-weight: 700; }

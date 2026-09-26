@@ -760,8 +760,11 @@
             max-width: none !important;
             margin: 0 !important;
         }
+        /* This span is a block with its own max-width. margin:0 pinned it to the
+           left of a centred heading, so it read as eighty pixels out of line. */
         .intro-banner.intro-hero-v2.hero-split .utf-banner-headline-text-part > span:not(.hero-eyebrow):not(.accent) {
-            margin: 0 0 28px !important;
+            margin: 0 auto 28px !important;
+            text-align: center !important;
         }
         .intro-banner.intro-hero-v2.hero-split .utf-intro-banner-search-form-block {
             margin: 24px 0 0 !important;
