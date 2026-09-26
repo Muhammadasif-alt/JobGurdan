@@ -725,7 +725,10 @@
                             align-items: center;
                             text-decoration: none;
                             height: 100%;
-                            line-height: 1;
+                            /* A line box under an inline image leaves descender space,
+                               which pushed the mark down against the header's rule. */
+                            line-height: 0;
+                            font-size: 0;
                         }
                         /* Sized by height with the width left to follow, so the 4.27:1
                            wordmark is never squeezed into the 5:1 box the old logo used. */
@@ -741,11 +744,11 @@
                             margin: 0 !important;
                         }
                         /* Light mode: show light, hide dark */
-                        html:not(.dark-mode) #header #logo img.logo-light { display: inline-block !important; }
+                        html:not(.dark-mode) #header #logo img.logo-light { display: block !important; }
                         html:not(.dark-mode) #header #logo img.logo-dark  { display: none !important; }
                         /* Dark mode: show dark, hide light */
                         html.dark-mode #header #logo img.logo-light { display: none !important; }
-                        html.dark-mode #header #logo img.logo-dark  { display: inline-block !important; }
+                        html.dark-mode #header #logo img.logo-dark  { display: block !important; }
 
                         /* Nav menu — centered between logo and right-side via flex */
                         #header #navigation {
@@ -1169,58 +1172,28 @@
                             #header .container { padding: 0 10px !important; gap: 6px !important; }
                         }
 
-                        /* === Mobile header: theme toggle left, logo centred, menu button
-                              right. The logo is taken out of the flow and centred on the
-                              bar itself, because centring it between two controls of
-                              different widths leaves it visibly off-centre. === */
+                        /* === Mobile header. An earlier attempt centred the logo by
+                              taking it out of the flow; it ran off the left edge and
+                              left no room for the menu button, so the bar keeps the
+                              logo on the left and simply centres everything
+                              vertically. === */
                         @media (max-width: 1099px) {
                             #header .container {
-                                position: relative;
                                 flex-wrap: wrap;
-                                justify-content: space-between !important;
+                                align-items: center;
                                 height: auto !important;
-                                min-height: 64px;
-                                align-items: center;
+                                min-height: 66px;
                             }
-                            #header .utf-left-side {
-                                order: 1;
-                                flex: 0 0 auto !important;
-                                min-height: 64px;
-                                align-items: center;
-                            }
+                            #header .utf-left-side,
                             #header .utf-right-side {
-                                order: 2;
-                                flex: 0 0 auto !important;
-                                min-height: 64px;
-                                align-items: center;
+                                align-items: center !important;
+                                min-height: 66px;
                             }
                             #header #logo {
-                                position: absolute !important;
-                                left: 50% !important;
-                                top: 0 !important;
-                                transform: translateX(-50%) !important;
-                                height: 64px !important;
-                                z-index: 2;
-                                pointer-events: auto;
-                            }
-                            /* The toggle moves to the left so the centred logo has equal
-                               weight on either side. */
-                            #header .utf-right-side .theme-toggle {
-                                position: absolute !important;
-                                left: 14px !important;
-                                top: 50% !important;
-                                transform: translateY(-50%) !important;
-                                margin: 0 !important;
-                                z-index: 3;
+                                height: auto !important;
+                                align-self: center !important;
                             }
                             #header .utf-right-side { margin-left: auto; }
-                        }
-                        @media (max-width: 480px) {
-                            #header .container { min-height: 58px; }
-                            #header .utf-left-side,
-                            #header .utf-right-side { min-height: 58px; }
-                            #header #logo { height: 58px !important; }
-                            #header .utf-right-side .theme-toggle { left: 10px !important; }
                         }
 
                         /* === Mobile navigation: a panel that opens underneath the header
@@ -1829,7 +1802,7 @@
                         <div class="col-xl-4 col-md-12">
                             <div class="utf-footer-item-links">
                                 <a href="/"><img class="footer-logo" loading="lazy" decoding="async"
-                                        src="{{ asset('public/user/images/jobgader-dark-logo.svg') }}" alt="JobGader"></a>
+                                        src="{{ asset('public/user/images/sajjad-dark-logo.png') }}" alt="Sajjad Digital Services"></a>
                                 <p>JobGader lists hand-checked openings across {{ $coverage->shortList() }},
                                     from general labour and hospitality through to skilled trades and senior
                                     engineering &mdash; alongside guides on which visa sponsorship routes are
