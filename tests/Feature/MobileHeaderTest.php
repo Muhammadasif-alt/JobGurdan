@@ -31,6 +31,19 @@ it('lets the bar grow when the menu is open instead of overlapping the hero', fu
     expect(mobileHeaderCss())->toContain('height: auto !important;');
 });
 
+it('leaves no dead strip under the bar while the menu is shut', function () {
+    // A row-gap applies whether or not the second row has anything in it, and
+    // measured live it made the bar six pixels taller than its only row, which
+    // is what read as the logo sitting high.
+    expect(mobileHeaderCss())->toContain('row-gap: 0 !important;');
+});
+
+it('centres the mark itself rather than the theme margin around it', function () {
+    // justify-self centres the margin box, so the theme's right margin on #logo
+    // left the wordmark twenty pixels off centre.
+    expect(mobileHeaderCss())->toContain('margin: 0 !important;');
+});
+
 it('no longer builds the off-canvas drawer that slid the whole site sideways', function () {
     $script = file_get_contents(public_path('user/js/custom_jquery.js'));
 

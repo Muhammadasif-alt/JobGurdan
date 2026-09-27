@@ -1191,6 +1191,10 @@
                                 height: auto !important;
                                 min-height: 64px;
                                 column-gap: 6px !important;
+                                /* A row-gap here is dead space under a shut menu: it left
+                                   the bar six pixels taller than its only row, so the logo
+                                   read as sitting high. The panel brings its own spacing. */
+                                row-gap: 0 !important;
                             }
                             /* The wrapper's box is taken out of the layout so the logo
                                and the menu become grid items in their own right; while
@@ -1209,6 +1213,10 @@
                                 grid-column: 2;
                                 grid-row: 1;
                                 justify-self: center;
+                                /* The theme's right margin is part of the box that
+                                   justify-self centres, so the mark itself ended up
+                                   twenty pixels left of the middle. */
+                                margin: 0 !important;
                                 height: auto !important;
                                 min-width: 0 !important;
                                 align-self: center !important;
