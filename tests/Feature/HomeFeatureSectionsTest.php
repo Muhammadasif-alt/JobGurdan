@@ -154,7 +154,10 @@ it('keeps the hero pill on one line on a phone', function () {
     // there; it stays in the markup, and on wider screens, untouched.
     $html = get('/')->assertOk()->getContent();
 
-    expect($html)->toContain('<span class="eyebrow-trim">&middot; Real hiring</span>')
+    expect($html)->toContain('<span class="eyebrow-trim"> &middot; Real hiring</span>')
         ->toContain('.hero-eyebrow .eyebrow-trim { display: none !important; }')
-        ->toContain('white-space: nowrap !important;');
+        ->toContain('white-space: nowrap !important;')
+        // The pill hugs its own text rather than stretching to the lede's width.
+        ->toContain('> span.hero-eyebrow {')
+        ->toContain('width: auto !important;');
 });

@@ -310,14 +310,23 @@
             max-width: 720px;
             margin: 0 auto !important;
         }
-        .intro-banner.intro-hero-v2 .hero-eyebrow {
+        /* The sibling rule for the lede gives every direct span a block display
+           and a 720px max-width, and the pill was inheriting both: on a desktop
+           it sat 720px wide around a 300px line. Matching that rule's
+           specificity and asking for shrink-to-fit puts it back around its own
+           text at every width. */
+        .intro-banner.intro-hero-v2 .utf-banner-headline-text-part > span.hero-eyebrow {
             font-size: 13px !important;
             line-height: 1 !important;
             margin: 0 auto 22px !important;
             display: inline-flex !important;
+            align-items: center !important;
+            width: auto !important;
+            max-width: 100% !important;
             text-align: center !important;
             justify-content: center !important;
         }
+        .intro-banner.intro-hero-v2 .hero-eyebrow .eyebrow-text { display: inline; }
         .intro-banner.intro-hero-v2 .hero-eyebrow .pulse-dot {
             font-size: 0 !important;
             line-height: 0 !important;
@@ -1051,7 +1060,12 @@
                     <div class="utf-banner-headline-text-part">
                         <span class="hero-eyebrow" data-aos="fade-down" data-aos-duration="600">
                             <span class="pulse-dot"></span>
-                            Jobs &middot; Scholarships <span class="eyebrow-trim">&middot; Real hiring</span> &middot; {{ $coverage->count() }} countries
+                            {{-- One run of text rather than three. The pill is a flex
+                                 container, so each bare text node was becoming a flex
+                                 item of its own with a gap between it and the next --
+                                 which is what left a hole in the middle of the line
+                                 once the trimmed claim was hidden. --}}
+                            <span class="eyebrow-text">Jobs &middot; Scholarships<span class="eyebrow-trim"> &middot; Real hiring</span> &middot; {{ $coverage->count() }} countries</span>
                         </span>
                         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                             Find Jobs and Scholarships
