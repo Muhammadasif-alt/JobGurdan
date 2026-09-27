@@ -155,8 +155,11 @@ it('keeps the hero pill on one line on a phone', function () {
     $html = get('/')->assertOk()->getContent();
 
     expect($html)->toContain('<span class="eyebrow-trim"> &middot; Real hiring</span>')
-        ->toContain('.hero-eyebrow .eyebrow-trim { display: none !important; }')
+        ->toContain('@media (max-width: 374px)')
+        ->toContain('.eyebrow-text .eyebrow-trim {')
         ->toContain('white-space: nowrap !important;')
+        // The dot is a flex item and was measured at 0px wide on a 320 screen.
+        ->toContain('flex: 0 0 7px !important;')
         // The pill hugs its own text rather than stretching to the lede's width.
         ->toContain('> span.hero-eyebrow {')
         ->toContain('width: auto !important;')

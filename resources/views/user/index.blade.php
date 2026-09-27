@@ -281,7 +281,6 @@
                 padding: 5px 9px !important;
                 white-space: nowrap !important;
             }
-            .intro-banner.intro-hero-v2 .hero-eyebrow .eyebrow-trim { display: none !important; }
             .intro-banner.intro-hero-v2 .utf-banner-headline-text-part > span { font-size: 13px !important; }
         }
         .intro-banner.intro-hero-v2 .utf-banner-headline-text-part h1 .accent {
@@ -330,6 +329,24 @@
            white, 20px, block. That was harmless while this line was a bare text
            node, and invisible the moment it was wrapped -- white text on a white
            pill. It takes the pill's own type instead. */
+        /* The dot is a flex item, so on a narrow phone the line squeezed it:
+           measured 2px wide at 360 and 0 at 320. It never shrinks. */
+        .intro-banner.intro-hero-v2 .utf-banner-headline-text-part > span.hero-eyebrow .pulse-dot {
+            flex: 0 0 7px !important;
+            width: 7px !important;
+            height: 7px !important;
+        }
+
+        /* Below 375 the whole line no longer fits the pill's own width, and with
+           nowrap it simply filled the column instead of hugging. The middle claim
+           goes there; 375 and up carry it. The selector matches the one above so
+           it is not outranked by it. */
+        @media (max-width: 374px) {
+            .intro-banner.intro-hero-v2 .utf-banner-headline-text-part > span.hero-eyebrow .eyebrow-text .eyebrow-trim {
+                display: none !important;
+            }
+        }
+
         .intro-banner.intro-hero-v2 .utf-banner-headline-text-part > span.hero-eyebrow .eyebrow-text,
         .intro-banner.intro-hero-v2 .utf-banner-headline-text-part > span.hero-eyebrow .eyebrow-text span {
             display: inline !important;
