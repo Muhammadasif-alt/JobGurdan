@@ -162,7 +162,7 @@ class ReceptionistJobsUaeBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask for the basic salary figure in writing, and ask which employment law the role sits under.</strong> Two offers with the same monthly total can build very different end-of-service entitlements, and a DIFC contract works on a different system from one in any other free zone.</p>
 
-<p><strong>Note:</strong> salary, package structure, visa arrangements and working hours are set by each employer and by UAE law &mdash; not by Sajjad Digital Services. Never pay an agent to be placed. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> salary, package structure, visa arrangements and working hours are set by each employer and by UAE law &mdash; not by Sajad Digital Services. Never pay an agent to be placed. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

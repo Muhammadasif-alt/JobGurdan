@@ -16,8 +16,8 @@
     <meta name="theme-color" content="#16305a" media="(prefers-color-scheme: dark)">
     <!--end::Accessibility Meta Tags--><!--begin::Primary Meta Tags-->
     <meta name="title" content="Company Panel">
-    <meta name="author" content="Sajjad Digital Services">
-    <meta name="description" content="Employer panel for posting jobs and reviewing applications on Sajjad Digital Services.">
+    <meta name="author" content="Sajad Digital Services">
+    <meta name="description" content="Employer panel for posting jobs and reviewing applications on Sajad Digital Services.">
     <!--end::Primary Meta Tags--><!--begin::Accessibility Features--><!-- Skip links will be dynamically added by accessibility.js -->
     <meta name="supported-color-schemes" content="light dark">
     <link rel="stylesheet" href="{{ asset('public/admin/css/adminlte.css') }}"><!--end::Accessibility Features--><!--begin::Fonts-->
@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@3.37.1/dist/apexcharts.css"
         integrity="sha256-4MX+61mt9NVvvuPjUWdUdyfZfxSB1/Rf9WtqRHgG5S0=" crossorigin="anonymous">
 
-    <!-- Custom overrides + admin theme polish (Sajjad Digital Services brand: dark #1b3a6b) -->
+    <!-- Custom overrides + admin theme polish (Sajad Digital Services brand: dark #1b3a6b) -->
     <style>
         /* === Brand-matched buttons (global override) === */
         .btn-primary, .btn.btn-primary, button.btn-primary {
@@ -514,7 +514,7 @@
                 <a href="{{ route('company.dashboard') }}" class="brand-link">
                     <span class="brand-badge">jg</span>
                     <span class="brand-text">
-                        Sajjad Digital Services
+                        Sajad Digital Services
                         <small>Company Panel</small>
                     </span>
                 </a>

@@ -162,7 +162,7 @@ class DataScientistJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask which of the several jobs this title covers.</strong> Modelling, experimentation, analytics and machine learning engineering are advertised under one heading and screened very differently. And when a number is quoted, establish whether it is base salary or total compensation before you compare it with anything.</p>
 
-<p><strong>Note:</strong> pay, equity, remote eligibility and any sponsorship decision are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, equity, remote eligibility and any sponsorship decision are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

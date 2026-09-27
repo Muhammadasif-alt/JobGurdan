@@ -151,7 +151,7 @@ class AsmlSemiconductorJobsNetherlandsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of the roles ASML advertises at its Netherlands sites, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on ASML's own careers portal, which hands off to Workday.</p>
+<p>This is an aggregated listing of the roles ASML advertises at its Netherlands sites, not a single vacancy and not a job advertised by Sajad Digital Services. Applications are made on ASML's own careers portal, which hands off to Workday.</p>
 
 <h3>Read this before you apply</h3>
 <p>ASML Netherlands B.V. is an IND-recognised sponsor, so it can hold a highly skilled migrant permit for an overseas hire. But the permit has a published salary floor, and not every ASML vacancy clears it. Cleanroom and technician bands sit below the threshold once holiday allowance is excluded; engineering bands clear it comfortably. Check the range printed on the vacancy before you apply from abroad.</p>
@@ -172,7 +172,7 @@ class AsmlSemiconductorJobsNetherlandsBlogSeeder extends Seeder
 <h3>Benefits ASML publishes for manufacturing</h3>
 <p>13th month salary, 8 per cent holiday allowance, 40 days of paid leave (27 vacation days and 13 ADV days), variable pay, pension plan, collective health insurance, employee share purchase plan and commuting allowance. ASML notes differences by salary grade and position may apply.</p>
 
-<p>Pay, eligibility and immigration rules are set by ASML and the Dutch IND &mdash; not by Sajjad Digital Services. Confirm the range and requirements on the live vacancy, and never pay anyone to secure a job.</p>
+<p>Pay, eligibility and immigration rules are set by ASML and the Dutch IND &mdash; not by Sajad Digital Services. Confirm the range and requirements on the live vacancy, and never pay anyone to secure a job.</p>
 JOBHTML;
     }
 

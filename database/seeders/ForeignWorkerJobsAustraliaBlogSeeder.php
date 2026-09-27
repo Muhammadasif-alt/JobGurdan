@@ -153,7 +153,7 @@ class ForeignWorkerJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> sponsorship decisions, pay and visa outcomes are set by each employer and the Department of Home Affairs &mdash; not by Sajjad Digital Services. Never pay an employer or agent in return for a sponsored job.</p>
+<p><strong>Note:</strong> sponsorship decisions, pay and visa outcomes are set by each employer and the Department of Home Affairs &mdash; not by Sajad Digital Services. Never pay an employer or agent in return for a sponsored job.</p>
 JOBHTML;
     }
 

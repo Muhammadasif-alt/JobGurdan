@@ -166,7 +166,7 @@ class EmergencyDispatcherJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, hiring and training are set by each city, county or agency &mdash; not by Sajjad Digital Services. Read the official job announcement for the current requirements and deadline.</p>
+<p><strong>Note:</strong> pay, hiring and training are set by each city, county or agency &mdash; not by Sajad Digital Services. Read the official job announcement for the current requirements and deadline.</p>
 JOBHTML;
     }
 

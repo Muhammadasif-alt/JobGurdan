@@ -166,7 +166,7 @@ class NetworkEngineerJobsUsaBlogSeeder extends Seeder
 
 <p><strong>Check whether the role needs a security clearance.</strong> Federal and defence postings around Washington DC and Virginia frequently do. A clearance requires US citizenship and an employer to sponsor it, and cannot be obtained independently.</p>
 
-<p><strong>Note:</strong> pay, on-call expectations, clearance requirements and any sponsorship decision are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, on-call expectations, clearance requirements and any sponsorship decision are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

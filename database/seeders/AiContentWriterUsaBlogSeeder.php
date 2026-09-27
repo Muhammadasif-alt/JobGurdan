@@ -147,7 +147,7 @@ class AiContentWriterUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask about disclosure and ownership.</strong> Whether AI assistance may be used, whether it must be declared to the end client, and who owns the output are all normal questions and the answers vary by employer. Be equally wary of postings offering unusually high pay for high-volume output with no editing expectation; that is content farming, and it is the part of this market that disappears.</p>
 
-<p><strong>Note:</strong> pay, tooling and disclosure policies are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, tooling and disclosure policies are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

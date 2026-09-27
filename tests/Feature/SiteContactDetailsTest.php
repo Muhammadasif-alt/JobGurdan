@@ -117,8 +117,8 @@ it('points the contact schema at a logo that exists', function () {
     $path = public_path(parse_url($m[1], PHP_URL_PATH));
     $path = str_replace('/public/public/', '/public/', $path);
 
-    expect(file_exists(public_path('user/images/sajjad-dark-logo.png')))->toBeTrue()
-        ->and($m[1])->toContain('sajjad-dark-logo.png');
+    expect(file_exists(public_path('user/images/sajad-logo.png')))->toBeTrue()
+        ->and($m[1])->toContain('sajad-logo.png');
 });
 
 it('leaves no page quoting an address the owner does not read', function (string $url) {

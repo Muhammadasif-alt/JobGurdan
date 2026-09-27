@@ -148,7 +148,7 @@ class TescoSupermarketJobsUkBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of the hourly-paid store roles Tesco advertises across the United Kingdom, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on Tesco's own careers system. These are in-person roles in a physical store.</p>
+<p>This is an aggregated listing of the hourly-paid store roles Tesco advertises across the United Kingdom, not a single vacancy and not a job advertised by Sajad Digital Services. Applications are made on Tesco's own careers system. These are in-person roles in a physical store.</p>
 
 <h3>What the work involves</h3>
 <ul>
@@ -170,7 +170,7 @@ class TescoSupermarketJobsUkBlogSeeder extends Seeder
 <h3>Right to work</h3>
 <p>Tesco checks your right to work in the UK before you start, as every UK employer is legally required to do. Tesco publishes no statement either way about sponsoring visas for hourly-paid store roles, so do not assume a sponsored route exists.</p>
 
-<p>Pay, hours, benefits and age rules are set by Tesco, Usdaw and UK employment law &mdash; not by Sajjad Digital Services. Confirm the rate and the availability window on the live advert for the store you are applying to.</p>
+<p>Pay, hours, benefits and age rules are set by Tesco, Usdaw and UK employment law &mdash; not by Sajad Digital Services. Confirm the rate and the availability window on the live advert for the store you are applying to.</p>
 JOBHTML;
     }
 

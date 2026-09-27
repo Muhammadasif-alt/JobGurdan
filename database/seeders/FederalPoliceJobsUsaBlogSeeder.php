@@ -156,7 +156,7 @@ class FederalPoliceJobsUsaBlogSeeder extends Seeder
     <li><strong>Retirement.</strong> Special law enforcement retirement at 50 with 20 years of service, or at any age with 25</li>
 </ul>
 
-<p><strong>Note:</strong> pay, eligibility and hiring rules are set by each federal agency and the Office of Personnel Management &mdash; not by Sajjad Digital Services. Confirm the details on the official USAJOBS or agency posting before applying.</p>
+<p><strong>Note:</strong> pay, eligibility and hiring rules are set by each federal agency and the Office of Personnel Management &mdash; not by Sajad Digital Services. Confirm the details on the official USAJOBS or agency posting before applying.</p>
 JOBHTML;
     }
 

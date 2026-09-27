@@ -165,7 +165,7 @@ class EntryLevelItJobsBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask what the ticket volume and escalation path look like,</strong> and whether the employer pays for certification exams.</p>
 
-<p><strong>Note:</strong> pay, requirements and training support are set by employers &mdash; not by Sajjad Digital Services. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, requirements and training support are set by employers &mdash; not by Sajad Digital Services. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 

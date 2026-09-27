@@ -178,7 +178,7 @@ class TeachingJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check which nation the post is in before you check anything else.</strong> The qualification, the regulator, the pay scale and the induction route all change at the border, and an English qualification does not automatically let you teach in Scotland.</p>
 
-<p><strong>Note:</strong> pay, registration requirements and conditions are set by each nation's statutory arrangements and by individual employers &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, registration requirements and conditions are set by each nation's statutory arrangements and by individual employers &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

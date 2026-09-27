@@ -158,7 +158,7 @@ class HelpDeskTechnicianJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check which A+ exam version a course teaches.</strong> The current exams are 220-1201 and 220-1202.</p>
 
-<p><strong>Note:</strong> pay, certification and security requirements are set by each employer and contract &mdash; not by Sajjad Digital Services. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, certification and security requirements are set by each employer and contract &mdash; not by Sajad Digital Services. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 

@@ -144,7 +144,7 @@ class GovernmentJobsPakistanBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Apply only through the official portal named on the advertisement</strong> &mdash; FPSC or the provincial commission for civil-service posts, or the board or ministry's own careers page for project roles. No genuine government recruitment asks for a payment to shortlist you, and the fee for an FPSC or PPSC application is paid to the commission through a bank challan, never to a person. Keep your tracking number; it is what you need to check your shortlist status later.</p>
 
-<p><strong>Note:</strong> scales, closing dates and eligibility are set by the recruiting department &mdash; not by Sajjad Digital Services. Verify each vacancy on the official portal before applying.</p>
+<p><strong>Note:</strong> scales, closing dates and eligibility are set by the recruiting department &mdash; not by Sajad Digital Services. Verify each vacancy on the official portal before applying.</p>
 JOBHTML;
     }
 

@@ -182,7 +182,7 @@ class OnlineJobsPakistanBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Price the work after the fee and the tax, not before.</strong> A 100-dollar Fiverr order pays 80 dollars before tax, and nobody genuine will ask you to pay a deposit to unlock tasks or release earnings.</p>
 
-<p><strong>Note:</strong> pay, platform fees, payment methods and contract terms are set by each client, employer and platform &mdash; not by Sajjad Digital Services. Confirm the details on the platform or the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, platform fees, payment methods and contract terms are set by each client, employer and platform &mdash; not by Sajad Digital Services. Confirm the details on the platform or the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

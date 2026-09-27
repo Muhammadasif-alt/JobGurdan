@@ -141,7 +141,7 @@ class PdoEngineeringJobsOmanBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of the engineering roles advertised by Oman's oil and gas operators, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications start on the Ministry of Energy and Minerals portal and finish on the operator's own system.</p>
+<p>This is an aggregated listing of the engineering roles advertised by Oman's oil and gas operators, not a single vacancy and not a job advertised by Sajad Digital Services. Applications start on the Ministry of Energy and Minerals portal and finish on the operator's own system.</p>
 
 <h3>Where these jobs are advertised</h3>
 <p>PetroJobs no longer exists. Oman's oil and gas operators now advertise through Kwader at kwader.mem.gov.om, run by the Ministry of Energy and Minerals. Kwader states that you will be redirected to the operator's website and that the rest of the application process is completed there.</p>
@@ -158,7 +158,7 @@ class PdoEngineeringJobsOmanBlogSeeder extends Seeder
 <h3>Visas and fees</h3>
 <p>The Royal Oman Police states a work visa is granted at the request and on the responsibility of an employer, and that the occupation on the visa must match the labour permit. Engineers need an additional letter from the labour ministry. Article 31 of Oman's Labour Law prohibits charging any sums from a recruited worker in return for employing him.</p>
 
-<p>Pay, eligibility, nationality rules and visa requirements are set by the operators, the Oman Ministry of Labour and Oman labour law &mdash; not by Sajjad Digital Services. Confirm the requirements on the live posting before you act on anything here.</p>
+<p>Pay, eligibility, nationality rules and visa requirements are set by the operators, the Oman Ministry of Labour and Oman labour law &mdash; not by Sajad Digital Services. Confirm the requirements on the live posting before you act on anything here.</p>
 JOBHTML;
     }
 

@@ -140,7 +140,7 @@ class AirCanadaAirportJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of the airport roles Air Canada advertises across Canadian airports, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on Air Canada's own careers portal.</p>
+<p>This is an aggregated listing of the airport roles Air Canada advertises across Canadian airports, not a single vacancy and not a job advertised by Sajad Digital Services. Applications are made on Air Canada's own careers portal.</p>
 
 <h3>Read this before you apply</h3>
 <p>Air Canada states on every airport advert that candidates must be eligible to work in the country of interest at the time any offer is made, and that obtaining any required work permits or visas is the sole responsibility of the candidate. Air Canada does not sponsor. If you are not already entitled to work in Canada, you cannot be hired into these roles.</p>
@@ -161,7 +161,7 @@ class AirCanadaAirportJobsBlogSeeder extends Seeder
 <h3>Language</h3>
 <p>Requirements vary by station. Quebec City roles require fluent English and French. Toronto and Ottawa adverts ask for English plus one of a list that includes Hindi, Punjabi, Arabic, Mandarin, Cantonese and Spanish. Ramp agent adverts carry no language requirement.</p>
 
-<p>Pay, eligibility, clearance and immigration rules are set by Air Canada, Transport Canada and the Government of Canada &mdash; not by Sajjad Digital Services. Confirm the requirements on the live posting, and never pay anyone to secure a job.</p>
+<p>Pay, eligibility, clearance and immigration rules are set by Air Canada, Transport Canada and the Government of Canada &mdash; not by Sajad Digital Services. Confirm the requirements on the live posting, and never pay anyone to secure a job.</p>
 JOBHTML;
     }
 

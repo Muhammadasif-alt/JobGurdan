@@ -139,7 +139,7 @@ class OnlineJobsWithoutInvestmentBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Any request for money is the end of the conversation.</strong> Registration, training, software, a security deposit, or a fee to release your own payment are all the same fraud. Be equally wary of offers promising large daily payouts for simple tasks such as clicking ads or sharing links; that pattern is the clearest scam signal in this category.</p>
 
-<p><strong>Note:</strong> platform fees, rates and payment terms are set by each platform and client &mdash; not by Sajjad Digital Services. Confirm the current terms at their source before relying on them.</p>
+<p><strong>Note:</strong> platform fees, rates and payment terms are set by each platform and client &mdash; not by Sajad Digital Services. Confirm the current terms at their source before relying on them.</p>
 JOBHTML;
     }
 

@@ -42,7 +42,7 @@
         "description": "Professional resume and CV writing by a human writer, formatted so applicant tracking systems can read it, and targeted at the specific role the candidate is applying for.",
         "provider": {
             "@@type": "Organization",
-            "name": "Sajjad Digital Services",
+            "name": "Sajad Digital Services",
             "url": "{{ url('/') }}",
             "email": "{{ $contactEmail }}"
         },

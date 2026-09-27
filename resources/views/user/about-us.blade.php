@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
 @section('title', 'About Us — Jobs and Honest Visa Guides')
-@section('meta_description', 'Sajad Rao founded Sajjad Digital Services in 2022. Hand-checked jobs, scholarships and CV help across '.$coverage->topList().'.')
-@section('meta_keywords', 'about sajjad digital services, job board, visa sponsorship guides, jobs usa uk pakistan, free job search, jobs for foreigners, work abroad, hand checked job listings')
+@section('meta_description', 'Sajad Rao founded Sajad Digital Services in 2022. Hand-checked jobs, scholarships and CV help across '.$coverage->topList().'.')
+@section('meta_keywords', 'about sajad digital services, job board, visa sponsorship guides, jobs usa uk pakistan, free job search, jobs for foreigners, work abroad, hand checked job listings')
 @section('og_title', 'About Us — Jobs and Honest Visa Guides')
 @section('og_description', 'Hand-checked jobs across '.$coverage->topList().', plus visa guides that tell you which sponsorship routes are actually open.')
 @section('og_image', asset('public/user/images/single-company.jpg'))
@@ -13,9 +13,9 @@
     <meta name="twitter:title" content="About Us — Jobs and Honest Visa Guides">
     <meta name="twitter:description" content="Hand-checked jobs across {{ $coverage->topList() }}, plus visa guides that say which routes are open.">
     <meta name="twitter:image" content="{{ asset('public/user/images/single-company.jpg') }}">
-    <meta name="author" content="Sajjad Digital Services">
+    <meta name="author" content="Sajad Digital Services">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Sajjad Digital Services">
+    <meta property="og:site_name" content="Sajad Digital Services">
     <meta property="og:locale" content="en_US">
 
     {{-- JSON-LD: Organization schema --}}
@@ -23,7 +23,7 @@
     {
         "@@context": "https://schema.org",
         "@@type": "Organization",
-        "name": "Sajjad Digital Services",
+        "name": "Sajad Digital Services",
         "url": "{{ url('/') }}",
         "logo": "{{ asset('public/user/images/favicon.png') }}",
         "description": "A job board and guide site covering openings in {{ $coverage->shortList() }}, with plain-English write-ups of which visa sponsorship routes are open to foreign workers.",
@@ -56,10 +56,10 @@
         "@@type": "AboutPage",
         "name": "About Us",
         "url": "{{ route('about.us') }}",
-        "description": "How Sajjad Digital Services works: hand-checked job listings across {{ $coverage->shortList() }}, and visa sponsorship guides that say which routes are open and which have closed.",
+        "description": "How Sajad Digital Services works: hand-checked job listings across {{ $coverage->shortList() }}, and visa sponsorship guides that say which routes are open and which have closed.",
         "publisher": {
             "@@type": "Organization",
-            "name": "Sajjad Digital Services",
+            "name": "Sajad Digital Services",
             "logo": {
                 "@@type": "ImageObject",
                 "url": "{{ asset('public/user/images/favicon.png') }}"
@@ -88,15 +88,15 @@
         "mainEntity": [
             {
                 "@@type": "Question",
-                "name": "What is Sajjad Digital Services?",
+                "name": "What is Sajad Digital Services?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
-                    "text": "Sajjad Digital Services is a job board and guide site covering openings in {{ $coverage->shortList() }}. Alongside the listings we publish guides explaining which visa sponsorship routes are genuinely open to foreign workers, which have closed, and what each role actually pays."
+                    "text": "Sajad Digital Services is a job board and guide site covering openings in {{ $coverage->shortList() }}. Alongside the listings we publish guides explaining which visa sponsorship routes are genuinely open to foreign workers, which have closed, and what each role actually pays."
                 }
             },
             {
                 "@@type": "Question",
-                "name": "Is Sajjad Digital Services free to use?",
+                "name": "Is Sajad Digital Services free to use?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
                     "text": "Yes, and you do not need an account. Every listing can be opened and applied to without signing up. We never charge job seekers, and no legitimate employer or recruiter should either."
@@ -839,7 +839,7 @@
     html.dark-mode .testimonial-author .name { color: #fff !important; }
     html.dark-mode .testimonial-author .role { color: var(--site-muted, #b8c0cc) !important; }
 
-    /* Story section ("Why Sajjad Digital Services exists") */
+    /* Story section ("Why Sajad Digital Services exists") */
     html.dark-mode .story-row p,
     html.dark-mode .story-row .story-text p { color: var(--site-muted, #b8c0cc) !important; }
     html.dark-mode .story-row h2 { color: #fff !important; }
@@ -974,7 +974,7 @@
                 <div>
                     <span class="about-hero-tag" data-aos="fade-down" data-aos-duration="600">About Us</span>
                     <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Real jobs, and <span>straight answers</span> about the visa routes behind them</h1>
-                    <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Founded in Pakistan on 3 October 2022, Sajjad Digital Services lists hand-checked openings across {{ $coverage->shortList() }} &mdash; and publishes guides that say which sponsorship routes are genuinely open, which have closed, and what each role actually pays. Free to apply, and you never need an account.</p>
+                    <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Founded in Pakistan on 3 October 2022, Sajad Digital Services lists hand-checked openings across {{ $coverage->shortList() }} &mdash; and publishes guides that say which sponsorship routes are genuinely open, which have closed, and what each role actually pays. Free to apply, and you never need an account.</p>
                     <div class="about-hero-cta" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
                         <a href="{{ route('jobs.index') }}">Browse Open Jobs <i class="icon-feather-arrow-right"></i></a>
                     </div>
@@ -1035,7 +1035,7 @@
                     <picture>
                         <source srcset="{{ asset('public/user/images/sajad-owner.webp') }}" type="image/webp">
                         <img src="{{ asset('public/user/images/sajad-owner.jpg') }}"
-                             alt="Sajad Rao, founder of Sajjad Digital Services"
+                             alt="Sajad Rao, founder of Sajad Digital Services"
                              width="900" height="900" loading="lazy" decoding="async">
                     </picture>
                     <div class="ab-founder-plate">
@@ -1046,9 +1046,9 @@
                 <div class="ab-founder-copy" data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
                     <span class="about-hero-tag">The Founder</span>
                     <h2>The person <span>behind the desk</span></h2>
-                    <p>Sajad Rao started Sajjad Digital Services on 3&nbsp;October 2022, from a plain observation: the people who need digital services most are usually the ones with the least access to them. A student who cannot work out which admission portal is the real one. A worker whose CV never gets past the first automated filter. A small business with no way of being found online.</p>
+                    <p>Sajad Rao started Sajad Digital Services on 3&nbsp;October 2022, from a plain observation: the people who need digital services most are usually the ones with the least access to them. A student who cannot work out which admission portal is the real one. A worker whose CV never gets past the first automated filter. A small business with no way of being found online.</p>
                     <p>His answer was to put all of it at one desk &mdash; job applications, university admissions, scholarship guidance, CV writing, career counselling and digital promotion &mdash; instead of sending people to six different places and hoping they worked it out.</p>
-                    <p>The work has since grown past individual clients. Sajjad Digital Services now holds signed memoranda of understanding with government departments in Lodhran, including Punjab Police and Rescue 1122, extending the same services to their staff and families. Those agreements, and their limits, are set out on the <a href="{{ route('partners') }}">partners page</a>.</p>
+                    <p>The work has since grown past individual clients. Sajad Digital Services now holds signed memoranda of understanding with government departments in Lodhran, including Punjab Police and Rescue 1122, extending the same services to their staff and families. Those agreements, and their limits, are set out on the <a href="{{ route('partners') }}">partners page</a>.</p>
                     <p class="ab-founder-quote">Building trust. Creating opportunities. Growing together.</p>
                 </div>
             </div>
@@ -1121,7 +1121,7 @@
                 <picture>
                     <source srcset="{{ asset('public/user/images/partir-usa.webp') }}" type="image/webp">
                     <img src="{{ asset('public/user/images/partir-usa.jpg') }}"
-                         alt="A job seeker working through an application with Sajjad Digital Services"
+                         alt="A job seeker working through an application with Sajad Digital Services"
                          width="896" height="1200" loading="lazy" decoding="async">
                 </picture>
                 <div class="ab-why-copy">
@@ -1169,7 +1169,7 @@
             <div class="about-section-head">
                 <span class="tag">How We Work</span>
                 <h2>The rules we hold ourselves to</h2>
-                <p>We are a young site, so instead of testimonials, here is exactly how the listings and guides on Sajjad Digital Services are put together.</p>
+                <p>We are a young site, so instead of testimonials, here is exactly how the listings and guides on Sajad Digital Services are put together.</p>
             </div>
             <div class="mvv-grid">
                 <div class="mvv-card">
@@ -1197,14 +1197,14 @@
             <div class="story-row">
                 <div class="story-content">
                     <span class="about-hero-tag">Our Story</span>
-                    <h2>Why Sajjad Digital Services <span>exists</span></h2>
-                    <p>Sajad Rao registered Sajjad Digital Services on 3 October 2022. The work began close to home &mdash; an admission form, a CV that needed fixing, a job advert whose real application page nobody could find &mdash; and the same problem kept turning up: the information people needed was public, but it was scattered, out of date, or sitting behind someone charging for it.</p>
+                    <h2>Why Sajad Digital Services <span>exists</span></h2>
+                    <p>Sajad Rao registered Sajad Digital Services on 3 October 2022. The work began close to home &mdash; an admission form, a CV that needed fixing, a job advert whose real application page nobody could find &mdash; and the same problem kept turning up: the information people needed was public, but it was scattered, out of date, or sitting behind someone charging for it.</p>
                     <p>Online it was worse. Search "warehouse jobs UK visa sponsorship" or "caregiver jobs UK" and you get page after page of sites promising sponsorship that the rules no longer allow. Some are years out of date. Some are agencies charging a fee for a visa that does not exist.</p>
                     <p>So we built the opposite. Every guide leads with the current rule and where it comes from &mdash; gov.uk, USCIS, the Department of Labor &mdash; even when the honest answer is that a route closed and is not coming back. The UK care worker visa shut to new overseas applicants in July 2025; our guide says that in the first paragraph rather than burying it.</p>
                     <p>We are a small team and this is a young site. We would rather publish eight guides we can stand behind than eight thousand listings we have never looked at, and we would rather tell you a route is closed than take the click.</p>
                 </div>
                 <div class="story-visual">
-                    <img src="{{ asset('public/user/images/about-founders.jpg') }}" alt="The Sajjad Digital Services team reviewing job listings and visa guidance" loading="lazy" decoding="async">
+                    <img src="{{ asset('public/user/images/about-founders.jpg') }}" alt="The Sajad Digital Services team reviewing job listings and visa guidance" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -1513,16 +1513,16 @@
         <div class="container">
             <div class="about-section-head">
                 <span class="tag">Frequently Asked Questions</span>
-                <h2>Common questions about Sajjad Digital Services</h2>
+                <h2>Common questions about Sajad Digital Services</h2>
                 <p>Everything you need to know about how our platform works, who it's for, and what makes it different.</p>
             </div>
             <div class="about-faq-list">
                 <details class="about-faq-item" open>
-                    <summary>What is Sajjad Digital Services and how does it work?</summary>
-                    <div class="faq-answer">Sajjad Digital Services is a job board and guide site covering openings in {{ $coverage->shortList() }}. You can browse and apply to every <a href="{{ route('jobs.index') }}">listing</a> without an account, and alongside them we publish guides explaining which visa sponsorship routes are open to foreign workers and which have closed.</div>
+                    <summary>What is Sajad Digital Services and how does it work?</summary>
+                    <div class="faq-answer">Sajad Digital Services is a job board and guide site covering openings in {{ $coverage->shortList() }}. You can browse and apply to every <a href="{{ route('jobs.index') }}">listing</a> without an account, and alongside them we publish guides explaining which visa sponsorship routes are open to foreign workers and which have closed.</div>
                 </details>
                 <details class="about-faq-item">
-                    <summary>Is Sajjad Digital Services free for job seekers?</summary>
+                    <summary>Is Sajad Digital Services free for job seekers?</summary>
                     <div class="faq-answer">Yes — 100% free. Creating an account, building your profile, browsing listings, applying for jobs, and setting up job alerts are all completely free for job seekers. We make money from employers who pay to post jobs and access advanced hiring features.</div>
                 </details>
                 <details class="about-faq-item">
@@ -1535,7 +1535,7 @@
                 </details>
                 <details class="about-faq-item">
                     <summary>Can I find remote and work-from-home jobs?</summary>
-                    <div class="faq-answer">Absolutely. Sajjad Digital Services features a dedicated <a href="{{ route('pages.remote-jobs-usa') }}">remote jobs section</a> with thousands of fully remote, hybrid, and work-from-home opportunities across the country. Use the location filter to view only remote roles.</div>
+                    <div class="faq-answer">Absolutely. Sajad Digital Services features a dedicated <a href="{{ route('pages.remote-jobs-usa') }}">remote jobs section</a> with thousands of fully remote, hybrid, and work-from-home opportunities across the country. Use the location filter to view only remote roles.</div>
                 </details>
                 <details class="about-faq-item">
                     <summary>How do I get notified when matching jobs are posted?</summary>
@@ -1546,7 +1546,7 @@
                     <div class="faq-answer">Yes. Privacy is built in by default. Your profile is only visible to verified employers when you choose to apply. Your current employer cannot see your profile, and you can hide or delete your information anytime from your dashboard.</div>
                 </details>
                 <details class="about-faq-item">
-                    <summary>How can employers post jobs on Sajjad Digital Services?</summary>
+                    <summary>How can employers post jobs on Sajad Digital Services?</summary>
                     <div class="faq-answer">Employers can register an account, choose a posting plan that matches their hiring needs, and submit listings via the dashboard. After our team reviews and verifies the company, the job goes live and reaches qualified candidates nationwide. Visit our <a href="{{ route('contact.us') }}">Contact page</a> for custom enterprise plans.</div>
                 </details>
             </div>

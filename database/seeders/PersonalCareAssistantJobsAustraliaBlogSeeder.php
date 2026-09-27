@@ -163,7 +163,7 @@ class PersonalCareAssistantJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> award rates, screening rules and visa requirements are set by the Fair Work Commission, the Department of Health and the Department of Home Affairs &mdash; not by Sajjad Digital Services. Confirm current rules on fairwork.gov.au and immi.homeaffairs.gov.au before applying.</p>
+<p><strong>Note:</strong> award rates, screening rules and visa requirements are set by the Fair Work Commission, the Department of Health and the Department of Home Affairs &mdash; not by Sajad Digital Services. Confirm current rules on fairwork.gov.au and immi.homeaffairs.gov.au before applying.</p>
 JOBHTML;
     }
 

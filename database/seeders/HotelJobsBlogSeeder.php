@@ -136,7 +136,7 @@ class HotelJobsBlogSeeder extends Seeder
     <li>Management and specialised roles (H-1B / EB-3 track) run well above these ranges</li>
 </ul>
 
-<p><strong>Note:</strong> sponsorship terms, timelines and eligibility are set by the individual hotel or staffing agency and by USCIS &mdash; not by Sajjad Digital Services. Read each posting in full before applying, and never pay an upfront "guaranteed job" fee for sponsorship.</p>
+<p><strong>Note:</strong> sponsorship terms, timelines and eligibility are set by the individual hotel or staffing agency and by USCIS &mdash; not by Sajad Digital Services. Read each posting in full before applying, and never pay an upfront "guaranteed job" fee for sponsorship.</p>
 JOBHTML;
     }
 

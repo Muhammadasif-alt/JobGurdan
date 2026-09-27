@@ -158,7 +158,7 @@ class VisaSponsorshipJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for an LMIA or a job offer.</strong> The employer cannot charge or recover the LMIA fee or any recruitment fee from you, and IRCC says no one can guarantee you a job or a visa.</p>
 
-<p><strong>Note:</strong> LMIA decisions, wages and work permit eligibility are set by employers, ESDC and IRCC &mdash; not by Sajjad Digital Services. Confirm the details on canada.ca before applying.</p>
+<p><strong>Note:</strong> LMIA decisions, wages and work permit eligibility are set by employers, ESDC and IRCC &mdash; not by Sajad Digital Services. Confirm the details on canada.ca before applying.</p>
 JOBHTML;
     }
 

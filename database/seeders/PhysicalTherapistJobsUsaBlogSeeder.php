@@ -163,7 +163,7 @@ class PhysicalTherapistJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> licensing, exam and immigration rules are set by the state boards, FSBPT, FCCPT, CGFNS and USCIS &mdash; not by Sajjad Digital Services. Confirm current requirements with the board in the state where you intend to practise before applying.</p>
+<p><strong>Note:</strong> licensing, exam and immigration rules are set by the state boards, FSBPT, FCCPT, CGFNS and USCIS &mdash; not by Sajad Digital Services. Confirm current requirements with the board in the state where you intend to practise before applying.</p>
 JOBHTML;
     }
 

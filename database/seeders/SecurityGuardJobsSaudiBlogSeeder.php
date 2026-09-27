@@ -142,7 +142,7 @@ class SecurityGuardJobsSaudiBlogSeeder extends Seeder
 <h3>Before you pay anyone anything</h3>
 <p><strong>Never pay for a visa or a job offer.</strong> Saudi rules place recruitment costs on the employer. In Pakistan, use only an Overseas Employment Promoter licensed by the <strong>Bureau of Emigration and Overseas Employment</strong> &mdash; that is the licensing authority, not any trade association &mdash; and equivalently an eMigrate-registered agent in India, a BMET-registered agency in Bangladesh, or a Department of Migrant Workers-licensed agency in the Philippines. Treat any &quot;free visa&quot; or &quot;azad visa&quot; offer as illegal; working for anyone other than your registered sponsor exposes you to an absconding (huroob) report and deportation.</p>
 
-<p><strong>Note:</strong> pay, hours and contract terms are set by the individual employer or agency &mdash; not by Sajjad Digital Services. Listings on aggregator sites vary in quality; verify the employer and the contract before travelling.</p>
+<p><strong>Note:</strong> pay, hours and contract terms are set by the individual employer or agency &mdash; not by Sajad Digital Services. Listings on aggregator sites vary in quality; verify the employer and the contract before travelling.</p>
 JOBHTML;
     }
 

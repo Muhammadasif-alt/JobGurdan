@@ -160,7 +160,7 @@ class DigitalMarketingJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask what you will actually own.</strong> "Digital marketing specialist" covers everything from running six-figure ad budgets to scheduling social posts. The title tells you very little; the channels, the budget and who signs off tell you everything.</p>
 
-<p><strong>Note:</strong> salaries, remote policies and channel ownership are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> salaries, remote policies and channel ownership are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

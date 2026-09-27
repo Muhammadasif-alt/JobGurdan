@@ -171,7 +171,7 @@ class MicrosoftItSupportJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay ranges, work-site rules and eligibility are set and published by Microsoft on each individual posting &mdash; not by Sajjad Digital Services. Microsoft states that frontline US support positions are not eligible for visa sponsorship. Applying to Microsoft is free; any request for payment is a scam.</p>
+<p><strong>Note:</strong> pay ranges, work-site rules and eligibility are set and published by Microsoft on each individual posting &mdash; not by Sajad Digital Services. Microsoft states that frontline US support positions are not eligible for visa sponsorship. Applying to Microsoft is free; any request for payment is a scam.</p>
 JOBHTML;
     }
 

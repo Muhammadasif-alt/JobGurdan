@@ -139,7 +139,7 @@ class LeadGenerationAssistantJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of lead generation and B2B prospecting roles advertised across Pakistani job boards and remotely, not a single vacancy and not a job advertised by Sajjad Digital Services.</p>
+<p>This is an aggregated listing of lead generation and B2B prospecting roles advertised across Pakistani job boards and remotely, not a single vacancy and not a job advertised by Sajad Digital Services.</p>
 
 <h3>Read this before you apply</h3>
 <p>Two things every advert leaves out. First, cold outreach is regulated: US anti-spam law carries a penalty of up to USD 53,088 per email, and EU and UK rules impose disclosure and opt-out duties on lists you did not collect yourself. Second, LinkedIn's user agreement prohibits the scraping and automation tools many of these roles expect you to run, and the account that gets restricted is usually the worker's own.</p>
@@ -160,7 +160,7 @@ class LeadGenerationAssistantJobsBlogSeeder extends Seeder
 <h3>Pay</h3>
 <p>Set per employer, and most publish nothing. Where figures were published, remote roles ran from around PKR 20,000 to 30,000 at student level up to PKR 75,000 to 150,000 for experienced sales roles.</p>
 
-<p>Requirements, pay and compliance obligations are set by individual employers and by the law of the country you are emailing &mdash; not by Sajjad Digital Services. Confirm terms in writing before starting, and never pay anyone to secure work.</p>
+<p>Requirements, pay and compliance obligations are set by individual employers and by the law of the country you are emailing &mdash; not by Sajad Digital Services. Confirm terms in writing before starting, and never pay anyone to secure work.</p>
 JOBHTML;
     }
 

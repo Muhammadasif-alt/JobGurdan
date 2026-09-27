@@ -260,7 +260,7 @@ class PortugalScholarshipsSeeder extends Seeder
 <li><a href="https://www.up.pt/portal/en/study/international-students/special-call-for-applications/" target="_blank" rel="noopener">University of Porto: Special Call for international students</a></li>
 </ul>
 
-<p><em>Sajjad Digital Services is not part of DGES, FCT, the University of Porto or the Portuguese government. This guide was checked against the official DGES, FCT and University of Porto pages on 16 September 2026. Amounts, calls and deadlines change, so confirm them on the official page before you apply.</em></p>
+<p><em>Sajad Digital Services is not part of DGES, FCT, the University of Porto or the Portuguese government. This guide was checked against the official DGES, FCT and University of Porto pages on 16 September 2026. Amounts, calls and deadlines change, so confirm them on the official page before you apply.</em></p>
 HTML;
     }
 }

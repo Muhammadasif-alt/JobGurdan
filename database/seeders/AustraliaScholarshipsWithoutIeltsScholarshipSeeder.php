@@ -14,7 +14,7 @@ use Illuminate\Support\Carbon;
  * Policy Handbook (November 2025), Study Australia's Australia Awards 2027
  * notice and its language testing page, RMIT's Research Stipend Scholarships
  * page, Monash's International Merit Scholarship page, and the University of
- * Melbourne and Deakin scholarship pages, plus Sajjad Digital Services's own verified RTP
+ * Melbourne and Deakin scholarship pages, plus Sajad Digital Services's own verified RTP
  * guides. Corrections to the brief:
  *
  * 1. The brief's headline is "No IELTS needed" and "No language test
@@ -301,7 +301,7 @@ class AustraliaScholarshipsWithoutIeltsScholarshipSeeder extends Seeder
 <li><a href="/scholarships/{yale}">Yale University Scholarship</a> &mdash; need-based aid in the United States, and what PhD funding covers.</li>
 </ul>
 
-<p><em>Sajjad Digital Services is not part of the Australian Government or any university. This guide was checked against the Australia Awards Scholarships Policy Handbook, Study Australia and each university's scholarship pages on 14 September 2026. Rates, English requirements and rounds change, so confirm them on the official page before you apply.</em></p>
+<p><em>Sajad Digital Services is not part of the Australian Government or any university. This guide was checked against the Australia Awards Scholarships Policy Handbook, Study Australia and each university's scholarship pages on 14 September 2026. Rates, English requirements and rounds change, so confirm them on the official page before you apply.</em></p>
 HTML, [
             '{monash}' => MonashRtpScholarshipSeeder::SLUG,
             '{anu}' => AnuRtpScholarshipSeeder::SLUG,

@@ -321,7 +321,7 @@ class PaviaScholarshipSeeder extends Seeder
 <li><a href="https://en.unipv.it/en/contacts" target="_blank" rel="noopener">Official contacts</a></li>
 </ul>
 
-<p><em>Sajjad Digital Services is not part of the University of Pavia. This guide was checked against the university's official pages, EDiSU Pavia and the Italian ministries on 12 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
+<p><em>Sajad Digital Services is not part of the University of Pavia. This guide was checked against the university's official pages, EDiSU Pavia and the Italian ministries on 12 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
 HTML;
     }
 }

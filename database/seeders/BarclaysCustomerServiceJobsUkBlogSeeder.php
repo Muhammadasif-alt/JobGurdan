@@ -169,7 +169,7 @@ class BarclaysCustomerServiceJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> salaries, benefits and eligibility are set and published by Barclays, and visa eligibility is set by the UK Home Office &mdash; not by Sajjad Digital Services. Customer service occupation codes are currently ineligible for the Skilled Worker visa. Applying to Barclays is free; any request for payment is a scam.</p>
+<p><strong>Note:</strong> salaries, benefits and eligibility are set and published by Barclays, and visa eligibility is set by the UK Home Office &mdash; not by Sajad Digital Services. Customer service occupation codes are currently ineligible for the Skilled Worker visa. Applying to Barclays is free; any request for payment is a scam.</p>
 JOBHTML;
     }
 

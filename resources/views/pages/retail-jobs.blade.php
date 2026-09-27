@@ -70,7 +70,7 @@
                 'a' => 'Yes, and it transfers well. Handling complaints, refunds and difficult customers on a shop floor is directly relevant to customer service and hospitality applications.',
             ],
             [
-                'q' => 'Is it free to apply through Sajjad Digital Services?',
+                'q' => 'Is it free to apply through Sajad Digital Services?',
                 'a' => 'Yes, and no account is required. Every listing links through to the employer or the original posting.',
             ],
         ],

@@ -164,7 +164,7 @@ class HeavyEquipmentOperatorJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask which machines you will run, the expected season length and whether camp or travel costs are covered,</strong> before accepting an offer.</p>
 
-<p><strong>Note:</strong> pay, certification and immigration rules are set by employers, provincial apprenticeship authorities and IRCC &mdash; not by Sajjad Digital Services. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, certification and immigration rules are set by employers, provincial apprenticeship authorities and IRCC &mdash; not by Sajad Digital Services. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 

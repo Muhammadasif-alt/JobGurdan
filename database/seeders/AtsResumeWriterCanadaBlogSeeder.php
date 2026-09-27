@@ -168,7 +168,7 @@ class AtsResumeWriterCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Contract work is self-employment.</strong> If you are engaged as a contractor rather than an employee, no provincial minimum wage applies to you, nothing is remitted on your behalf, and you owe both halves of CPP on your net business income. Budget for it before you price your first package.</p>
 
-<p><strong>Note:</strong> pay, turnaround expectations and credential requirements are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, turnaround expectations and credential requirements are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

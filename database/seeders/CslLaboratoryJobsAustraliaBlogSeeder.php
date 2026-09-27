@@ -157,7 +157,7 @@ class CslLaboratoryJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay rates come from CSL's enterprise agreement registered with the Fair Work Commission, and visa eligibility is set by the Department of Home Affairs &mdash; not by Sajjad Digital Services. CSL publishes no recruitment-fraud page, so verify every listing on jobs.csl.com. Applying is free; any request for payment is a scam.</p>
+<p><strong>Note:</strong> pay rates come from CSL's enterprise agreement registered with the Fair Work Commission, and visa eligibility is set by the Department of Home Affairs &mdash; not by Sajad Digital Services. CSL publishes no recruitment-fraud page, so verify every listing on jobs.csl.com. Applying is free; any request for payment is a scam.</p>
 JOBHTML;
     }
 

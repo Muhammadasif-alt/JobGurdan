@@ -155,7 +155,7 @@ class RemoteJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay to get a job.</strong> The FTC says honest employers will never ask you to pay for a job, and a company that sends you a cheque to buy equipment and asks for the change back is running a scam.</p>
 
-<p><strong>Note:</strong> pay, hours, benefits and eligibility are set by each employer and by federal and state law &mdash; not by Sajjad Digital Services. Confirm the details on the official advertisement before applying.</p>
+<p><strong>Note:</strong> pay, hours, benefits and eligibility are set by each employer and by federal and state law &mdash; not by Sajad Digital Services. Confirm the details on the official advertisement before applying.</p>
 JOBHTML;
     }
 

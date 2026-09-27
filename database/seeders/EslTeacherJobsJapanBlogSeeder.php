@@ -180,7 +180,7 @@ class EslTeacherJobsJapanBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> visa eligibility, processing times and fees are set by the Immigration Services Agency of Japan, and JET terms by the JET Programme &mdash; not by Sajjad Digital Services. Confirm the current position with the employer and on the agency's website before applying.</p>
+<p><strong>Note:</strong> visa eligibility, processing times and fees are set by the Immigration Services Agency of Japan, and JET terms by the JET Programme &mdash; not by Sajad Digital Services. Confirm the current position with the employer and on the agency's website before applying.</p>
 JOBHTML;
     }
 

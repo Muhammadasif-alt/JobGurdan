@@ -158,7 +158,7 @@ class RemoteVirtualAssistantBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> rates, platform fees and tax obligations are set by clients, platforms and tax authorities &mdash; not by Sajjad Digital Services. Never pay a fee to be given a job.</p>
+<p><strong>Note:</strong> rates, platform fees and tax obligations are set by clients, platforms and tax authorities &mdash; not by Sajad Digital Services. Never pay a fee to be given a job.</p>
 JOBHTML;
     }
 

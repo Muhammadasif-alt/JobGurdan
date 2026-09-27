@@ -10,7 +10,7 @@ it('shows a floating WhatsApp button on every page once a number is set', functi
     // wa.me only accepts digits, so the configured value is stripped.
     expect($html)->toContain('class="wa-float"')
         ->toContain('wa.me/923464929466')
-        ->toContain('aria-label="Message Sajjad Digital Services on WhatsApp"');
+        ->toContain('aria-label="Message Sajad Digital Services on WhatsApp"');
 })->with([
     'home' => '/',
     'jobs' => '/jobs',

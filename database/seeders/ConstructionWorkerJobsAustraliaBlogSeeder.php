@@ -165,7 +165,7 @@ class ConstructionWorkerJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask two questions before you accept: casual or permanent, and is super inside the number or on top of it.</strong> A casual rate looks higher because it is buying out your annual leave, sick leave, notice and redundancy. Neither answer is wrong, but they are different jobs and the difference is worth more than the headline gap between states.</p>
 
-<p><strong>Note:</strong> pay, engagement type, allowances and ticket requirements are set by each employer and by the applicable award or agreement &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, engagement type, allowances and ticket requirements are set by each employer and by the applicable award or agreement &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

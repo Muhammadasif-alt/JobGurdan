@@ -168,7 +168,7 @@ class UpsPackageHandlerJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay and conditions for these roles are set by UPS and the Teamsters national agreement &mdash; not by Sajjad Digital Services. Apply directly on the UPS careers site, and never pay anyone for a UPS job or a shift.</p>
+<p><strong>Note:</strong> pay and conditions for these roles are set by UPS and the Teamsters national agreement &mdash; not by Sajad Digital Services. Apply directly on the UPS careers site, and never pay anyone for a UPS job or a shift.</p>
 JOBHTML;
     }
 

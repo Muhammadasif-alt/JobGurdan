@@ -25,7 +25,7 @@ class CompanyJobController extends Controller
             ['name' => $user->name],
             [
                 'website' => null,
-                'description' => 'Company account on Sajjad Digital Services',
+                'description' => 'Company account on Sajad Digital Services',
             ]
         );
     }

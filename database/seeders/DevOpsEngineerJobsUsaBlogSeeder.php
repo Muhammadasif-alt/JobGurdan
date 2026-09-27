@@ -161,7 +161,7 @@ class DevOpsEngineerJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask about the on-call rotation and whether it is paid.</strong> How often you carry the pager, how often it actually fires, and what compensation attaches to it are the largest quality-of-life variables in this job, and almost none of it appears in the advertisement.</p>
 
-<p><strong>Note:</strong> pay, on-call terms, clearance requirements and any sponsorship decision are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, on-call terms, clearance requirements and any sponsorship decision are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

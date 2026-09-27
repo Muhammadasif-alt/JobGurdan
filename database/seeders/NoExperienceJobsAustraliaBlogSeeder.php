@@ -153,7 +153,7 @@ class NoExperienceJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask whether the rate is "plus super" or "inclusive of super", in writing</strong>, and whether the job is casual, part-time or permanent.</p>
 
-<p><strong>Note:</strong> pay, hours and entitlements are set by the Fair Work Commission's awards and by each employer &mdash; not by Sajjad Digital Services. Check the current pay guide on fairwork.gov.au before you accept an offer.</p>
+<p><strong>Note:</strong> pay, hours and entitlements are set by the Fair Work Commission's awards and by each employer &mdash; not by Sajad Digital Services. Check the current pay guide on fairwork.gov.au before you accept an offer.</p>
 JOBHTML;
     }
 

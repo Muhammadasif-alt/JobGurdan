@@ -84,7 +84,7 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
         // single range on the listing would be an invention.
         ->and($job->salary_minimum)->toBeNull()
         ->and($job->salary_maximum)->toBeNull()
-        ->and($job->description)->toContain('not by Sajjad Digital Services');
+        ->and($job->description)->toContain('not by Sajad Digital Services');
 });
 
 it('does not duplicate the web developer guide that already covers that occupation', function () {

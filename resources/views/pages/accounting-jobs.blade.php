@@ -66,7 +66,7 @@
                 'a' => 'Qualified accounting roles are among the more realistic sponsorship candidates because they can meet skill and salary thresholds, unlike most entry-level positions. Bookkeeping and clerical finance roles generally cannot. Our visa guides cover how each route works.',
             ],
             [
-                'q' => 'Is it free to apply through Sajjad Digital Services?',
+                'q' => 'Is it free to apply through Sajad Digital Services?',
                 'a' => 'Yes, and no account is needed. Each listing links to the employer or the original posting, so you apply to them directly and we never take a fee.',
             ],
             [

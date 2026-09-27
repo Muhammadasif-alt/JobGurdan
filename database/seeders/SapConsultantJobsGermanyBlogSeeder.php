@@ -158,7 +158,7 @@ class SapConsultantJobsGermanyBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> salary thresholds and visa conditions are set by German law and published in the Bundesanzeiger, and vacancy requirements are set by SAP &mdash; not by Sajjad Digital Services. SAP's German postings do not advertise visa sponsorship. Applying to SAP is free; SAP states it will never request money, bank details or your passport during recruitment.</p>
+<p><strong>Note:</strong> salary thresholds and visa conditions are set by German law and published in the Bundesanzeiger, and vacancy requirements are set by SAP &mdash; not by Sajad Digital Services. SAP's German postings do not advertise visa sponsorship. Applying to SAP is free; SAP states it will never request money, bank details or your passport during recruitment.</p>
 JOBHTML;
     }
 

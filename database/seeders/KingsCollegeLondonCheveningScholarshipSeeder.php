@@ -253,7 +253,7 @@ class KingsCollegeLondonCheveningScholarshipSeeder extends Seeder
 <li><a href="https://www.gov.uk/student-visa/money" target="_blank" rel="noopener">GOV.UK: Student visa money requirement</a></li>
 </ul>
 
-<p><em>Sajjad Digital Services is not part of King's College London, Chevening or the UK government. This guide was checked against the official Chevening, KCL and GOV.UK pages on 16 September 2026. Award terms, fees, dates and visa rules change, so confirm them on the official pages before you apply.</em></p>
+<p><em>Sajad Digital Services is not part of King's College London, Chevening or the UK government. This guide was checked against the official Chevening, KCL and GOV.UK pages on 16 September 2026. Award terms, fees, dates and visa rules change, so confirm them on the official pages before you apply.</em></p>
 HTML;
     }
 }

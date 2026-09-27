@@ -168,7 +168,7 @@ class WoolworthsSupermarketJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay rates are set by the Woolworths enterprise agreement and the General Retail Industry Award, and visa rules are set by the Department of Home Affairs &mdash; not by Sajjad Digital Services. Woolworths warns that anyone contacted about a store job while living outside Australia or New Zealand is likely being scammed. Applying to Woolworths is free; any request for payment is a scam.</p>
+<p><strong>Note:</strong> pay rates are set by the Woolworths enterprise agreement and the General Retail Industry Award, and visa rules are set by the Department of Home Affairs &mdash; not by Sajad Digital Services. Woolworths warns that anyone contacted about a store job while living outside Australia or New Zealand is likely being scammed. Applying to Woolworths is free; any request for payment is a scam.</p>
 JOBHTML;
     }
 

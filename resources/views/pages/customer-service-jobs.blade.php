@@ -66,7 +66,7 @@
                 'a' => 'Many are, but check the requirements before applying. Legitimate remote roles set out equipment, internet and scheduling conditions clearly. A remote job that asks you to pay for training or equipment upfront is not one.',
             ],
             [
-                'q' => 'Is it free to apply through Sajjad Digital Services?',
+                'q' => 'Is it free to apply through Sajad Digital Services?',
                 'a' => 'Yes, and there is no sign-up. Listings link through to the employer or original posting and we never charge job seekers.',
             ],
             [

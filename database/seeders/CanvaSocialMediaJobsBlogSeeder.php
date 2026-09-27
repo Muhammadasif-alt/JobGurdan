@@ -132,7 +132,7 @@ class CanvaSocialMediaJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of Canva and social media design roles, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on the employer's own site or on the platform where the role appears.</p>
+<p>This is an aggregated listing of Canva and social media design roles, not a single vacancy and not a job advertised by Sajad Digital Services. Applications are made on the employer's own site or on the platform where the role appears.</p>
 
 <h3>What the work involves</h3>
 <p>Working from a brief and a brand guide to produce social posts, carousels, stories and promotional graphics, adapting one design across platform formats, formatting captions, keeping files organised and preparing approved content for scheduling.</p>
@@ -143,7 +143,7 @@ class CanvaSocialMediaJobsBlogSeeder extends Seeder
 <h3>The licence matters</h3>
 <p>Canva's content licence restricts some commercial uses of its stock elements and templates, including in logos and resale products. Read it before agreeing to produce anything beyond social posts.</p>
 
-<p>Requirements, rates and deliverables are set by individual clients &mdash; not by Sajjad Digital Services. Never pay anyone to secure work, and never publish a client's material in a portfolio without permission.</p>
+<p>Requirements, rates and deliverables are set by individual clients &mdash; not by Sajad Digital Services. Never pay anyone to secure work, and never publish a client's material in a portfolio without permission.</p>
 JOBHTML;
     }
 

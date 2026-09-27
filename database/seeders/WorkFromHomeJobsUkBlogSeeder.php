@@ -173,7 +173,7 @@ class WorkFromHomeJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Work out two things from the advertisement: the hourly rate, and whether it is a job or a contract.</strong> Divide any annual figure by the hours expected and compare it against the National Living Wage. If the listing signs you up as self-employed, the minimum wage, paid holiday and sick pay do not come with it.</p>
 
-<p><strong>Note:</strong> pay, contract type, equipment and eligibility are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying, and never pay a fee to be found work.</p>
+<p><strong>Note:</strong> pay, contract type, equipment and eligibility are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying, and never pay a fee to be found work.</p>
 JOBHTML;
     }
 

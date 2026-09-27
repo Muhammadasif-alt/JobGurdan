@@ -160,7 +160,7 @@ class TeacherJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the state before the school.</strong> Your certificate is issued by one state, and moving to another usually means applying for that state's license.</p>
 
-<p><strong>Note:</strong> pay, certification rules and visa eligibility are set by school districts, state education departments and US immigration law &mdash; not by Sajjad Digital Services. Confirm the details with the district and the state before applying, and never pay a recruiter for a teaching job offer.</p>
+<p><strong>Note:</strong> pay, certification rules and visa eligibility are set by school districts, state education departments and US immigration law &mdash; not by Sajad Digital Services. Confirm the details with the district and the state before applying, and never pay a recruiter for a teaching job offer.</p>
 JOBHTML;
     }
 

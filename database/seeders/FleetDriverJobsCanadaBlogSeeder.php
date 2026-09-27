@@ -161,7 +161,7 @@ class FleetDriverJobsCanadaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> licensing rules are set by each province and pay by each carrier &mdash; not by Sajjad Digital Services. Check your province's licensing authority and the current posting before applying.</p>
+<p><strong>Note:</strong> licensing rules are set by each province and pay by each carrier &mdash; not by Sajad Digital Services. Check your province's licensing authority and the current posting before applying.</p>
 JOBHTML;
     }
 

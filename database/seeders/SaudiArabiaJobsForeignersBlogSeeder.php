@@ -190,7 +190,7 @@ class SaudiArabiaJobsForeignersBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> visa quotas, Saudization percentages, work permit fees and Labour Law rights are set by the Ministry of Human Resources and Social Development, ZATCA and GOSI &mdash; not by Sajjad Digital Services. Under article 40 of the Labour Law the employer pays recruitment and work permit costs, not you.</p>
+<p><strong>Note:</strong> visa quotas, Saudization percentages, work permit fees and Labour Law rights are set by the Ministry of Human Resources and Social Development, ZATCA and GOSI &mdash; not by Sajad Digital Services. Under article 40 of the Labour Law the employer pays recruitment and work permit costs, not you.</p>
 JOBHTML;
     }
 

@@ -281,7 +281,7 @@ class YesProgramPakistanScholarshipSeeder extends Seeder
 <li><a href="/scholarships/yale-university-scholarship">Yale University Scholarship</a> &mdash; need-based aid for international undergraduates in the United States.</li>
 </ul>
 
-<p><em>Sajjad Digital Services is not part of the U.S. Department of State, the Society for International Education or iEARN Pakistan. This guide was checked against the U.S. Embassy &amp; Consulates in Pakistan announcement and yesprogram.pk on 14 September 2026. Confirm the details on yesprogram.pk before you apply.</em></p>
+<p><em>Sajad Digital Services is not part of the U.S. Department of State, the Society for International Education or iEARN Pakistan. This guide was checked against the U.S. Embassy &amp; Consulates in Pakistan announcement and yesprogram.pk on 14 September 2026. Confirm the details on yesprogram.pk before you apply.</em></p>
 HTML;
     }
 }

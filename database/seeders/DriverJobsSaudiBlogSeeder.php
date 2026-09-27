@@ -144,7 +144,7 @@ class DriverJobsSaudiBlogSeeder extends Seeder
 <h3>Before you pay anyone anything</h3>
 <p><strong>Never pay for a visa or a job offer.</strong> Saudi rules place recruitment costs on the employer, and this is where nearly every scam in this category starts. Use only an agency licensed by your own government &mdash; the Bureau of Emigration and Overseas Employment in Pakistan, an eMigrate-registered agent in India, or a BMET-registered agency in Bangladesh &mdash; and treat any &quot;free visa&quot; or &quot;azad visa&quot; offer as illegal, because working for anyone other than your registered sponsor exposes you to an absconding (huroob) report and deportation.</p>
 
-<p><strong>Note:</strong> pay, hours and contract terms are set by the individual employer or agency &mdash; not by Sajjad Digital Services. Listings on aggregator sites vary in quality; verify the employer and the contract before travelling.</p>
+<p><strong>Note:</strong> pay, hours and contract terms are set by the individual employer or agency &mdash; not by Sajad Digital Services. Listings on aggregator sites vary in quality; verify the employer and the contract before travelling.</p>
 JOBHTML;
     }
 

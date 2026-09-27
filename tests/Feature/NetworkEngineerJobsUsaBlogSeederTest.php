@@ -88,7 +88,7 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
         // Two occupations $34,920 apart, so a single band would be invented.
         ->and($job->salary_minimum)->toBeNull()
         ->and($job->salary_maximum)->toBeNull()
-        ->and($job->description)->toContain('not by Sajjad Digital Services');
+        ->and($job->description)->toContain('not by Sajad Digital Services');
 });
 
 it('is linked back from the cloud and security engineering guides', function () {

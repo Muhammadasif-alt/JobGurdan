@@ -162,7 +162,7 @@ class TeacherJobsPakistanBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask who actually employs you.</strong> A post in a school with a government name may be a civil service appointment, a contract, or a job with a private operator or NGO running the school. Then read the salary against the minimum wage for your province.</p>
 
-<p><strong>Note:</strong> pay, qualifications, contract terms and recruitment rules are set by each school and recruiting authority &mdash; not by Sajjad Digital Services. Confirm the details on the official advertisement before applying.</p>
+<p><strong>Note:</strong> pay, qualifications, contract terms and recruitment rules are set by each school and recruiting authority &mdash; not by Sajad Digital Services. Confirm the details on the official advertisement before applying.</p>
 JOBHTML;
     }
 

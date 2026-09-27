@@ -107,7 +107,7 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
         // under $44,310, so a single salary band would be an invention.
         ->and($job->salary_minimum)->toBeNull()
         ->and($job->salary_maximum)->toBeNull()
-        ->and($job->description)->toContain('not by Sajjad Digital Services');
+        ->and($job->description)->toContain('not by Sajad Digital Services');
 });
 
 it('is linked back from the copywriter and AI writing guides', function () {

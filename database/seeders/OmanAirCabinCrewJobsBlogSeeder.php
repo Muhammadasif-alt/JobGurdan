@@ -153,7 +153,7 @@ class OmanAirCabinCrewJobsBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> Oman Air publishes no cabin crew pay and no standing entry requirements, and Omanisation policy is set by the Omani government &mdash; not by Sajjad Digital Services. Never pay anyone for an interview or a job offer.</p>
+<p><strong>Note:</strong> Oman Air publishes no cabin crew pay and no standing entry requirements, and Omanisation policy is set by the Omani government &mdash; not by Sajad Digital Services. Never pay anyone for an interview or a job offer.</p>
 JOBHTML;
     }
 

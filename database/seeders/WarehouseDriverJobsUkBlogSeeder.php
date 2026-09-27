@@ -166,7 +166,7 @@ class WarehouseDriverJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, licence checks and training support are set by each employer, and licensing rules by DVLA and DVSA &mdash; not by Sajjad Digital Services. Check the current vacancy and gov.uk before applying.</p>
+<p><strong>Note:</strong> pay, licence checks and training support are set by each employer, and licensing rules by DVLA and DVSA &mdash; not by Sajad Digital Services. Check the current vacancy and gov.uk before applying.</p>
 JOBHTML;
     }
 

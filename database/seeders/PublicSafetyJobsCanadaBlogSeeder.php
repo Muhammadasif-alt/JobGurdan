@@ -164,7 +164,7 @@ class PublicSafetyJobsCanadaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, eligibility and selection steps are set by each agency and collective agreement &mdash; not by Sajjad Digital Services. Read the official job poster before applying.</p>
+<p><strong>Note:</strong> pay, eligibility and selection steps are set by each agency and collective agreement &mdash; not by Sajad Digital Services. Read the official job poster before applying.</p>
 JOBHTML;
     }
 

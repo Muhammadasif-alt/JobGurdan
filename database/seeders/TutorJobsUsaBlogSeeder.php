@@ -163,7 +163,7 @@ class TutorJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, platform fees and requirements are set by each center, platform and state &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own page before applying.</p>
+<p><strong>Note:</strong> pay, platform fees and requirements are set by each center, platform and state &mdash; not by Sajad Digital Services. Confirm the details on the employer's own page before applying.</p>
 JOBHTML;
     }
 

@@ -163,7 +163,7 @@ class BusinessAnalystJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, grades, sponsorship and hiring rules are set by each employer and by the Home Office &mdash; not by Sajjad Digital Services. Read the current vacancy before applying.</p>
+<p><strong>Note:</strong> pay, grades, sponsorship and hiring rules are set by each employer and by the Home Office &mdash; not by Sajad Digital Services. Read the current vacancy before applying.</p>
 JOBHTML;
     }
 

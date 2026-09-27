@@ -23,7 +23,7 @@ use Illuminate\Support\Str;
  * 18 March 2026, bls.gov, dol.gov and uscis.gov, September 2026):
  *
  * 1. The draft made an Indeed listing for Phoenix the primary apply link.
- *    That is an aggregator URL tied to one metro, and Sajjad Digital Services does not link
+ *    That is an aggregator URL tied to one metro, and Sajad Digital Services does not link
  *    aggregators or job IDs. The guide links Home Depot's own retail career
  *    area page, which resolves and does not rotate.
  *
@@ -66,7 +66,7 @@ use Illuminate\Support\Str;
  *    associates, with over 1 million hours a year of front-line training.
  *
  * 8. The draft has no workforce scale and no visa answer, which is the first
- *    question Sajjad Digital Services readers ask. The 10-K reports approximately 472,400
+ *    question Sajad Digital Services readers ask. The 10-K reports approximately 472,400
  *    associates, 422,500 of them in the US, with about 53,400 salaried and
  *    the rest hourly. Home Depot advertises no visa sponsorship on any of its
  *    hourly store role pages, and the only permanent US category for work
@@ -185,7 +185,7 @@ class HomeDepotRetailJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, shifts and hiring decisions are set by The Home Depot, and work authorisation rules are set by the US authorities &mdash; not by Sajjad Digital Services. Apply directly on Home Depot's own careers site and never pay anyone for a Home Depot job.</p>
+<p><strong>Note:</strong> pay, shifts and hiring decisions are set by The Home Depot, and work authorisation rules are set by the US authorities &mdash; not by Sajad Digital Services. Apply directly on Home Depot's own careers site and never pay anyone for a Home Depot job.</p>
 JOBHTML;
     }
 

@@ -172,7 +172,7 @@ class CarpenterJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Work out whether the advertisement wants an employee or a subcontractor.</strong> This is the trade where that distinction changes your tax, your insurance and your liability more than any other, and the job title rarely makes it clear.</p>
 
-<p><strong>Note:</strong> pay, safety training requirements, licensing and eligibility are set by each employer, state and city &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, safety training requirements, licensing and eligibility are set by each employer, state and city &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

@@ -303,7 +303,7 @@ class FranceScholarshipsWithoutIeltsScholarshipSeeder extends Seeder
 </ul>
 <p>The Eiffel programme office is Campus France, Programme France Excellence Eiffel, 28 rue de la Grange-aux-Belles, 75010 Paris. Its address candidatures.eiffel@campusfrance.org is for institutions; students should ask their programme or Campus France Pakistan.</p>
 
-<p><em>Sajjad Digital Services is not part of the French government, Campus France or any institution. This guide was checked against Campus France, the Eiffel regulations and the official pages linked above on 14 September 2026. Amounts, calls and deadlines change, so confirm them on the official page before you apply.</em></p>
+<p><em>Sajad Digital Services is not part of the French government, Campus France or any institution. This guide was checked against Campus France, the Eiffel regulations and the official pages linked above on 14 September 2026. Amounts, calls and deadlines change, so confirm them on the official page before you apply.</em></p>
 HTML, [
             '{slug}' => self::SLUG,
             '{apply}' => self::APPLY_URL,

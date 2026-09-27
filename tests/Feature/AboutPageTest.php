@@ -17,7 +17,7 @@ it('introduces the founder by name and role', function () {
     expect($html)->toContain('Sajad Rao')
         ->toContain('Founder &amp; Chief Executive')
         ->toContain('class="ab-founder-row"')
-        ->toContain('alt="Sajad Rao, founder of Sajjad Digital Services"');
+        ->toContain('alt="Sajad Rao, founder of Sajad Digital Services"');
 });
 
 it('ships the portrait the founder section points at', function (string $file) {

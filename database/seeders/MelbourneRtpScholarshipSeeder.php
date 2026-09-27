@@ -297,7 +297,7 @@ class MelbourneRtpScholarshipSeeder extends Seeder
 <li><a href="https://study.unimelb.edu.au/how-to-apply/graduate-research" target="_blank" rel="noopener">How to apply for graduate research</a></li>
 </ul>
 
-<p><em>Sajjad Digital Services is not part of the University of Melbourne. This guide was checked against the university's official pages on 11 September 2026. Amounts and dates change, so confirm them on your course page before you apply.</em></p>
+<p><em>Sajad Digital Services is not part of the University of Melbourne. This guide was checked against the university's official pages on 11 September 2026. Amounts and dates change, so confirm them on your course page before you apply.</em></p>
 HTML;
     }
 }

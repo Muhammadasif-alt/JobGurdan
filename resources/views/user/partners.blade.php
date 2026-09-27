@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
 
 @section('title', 'Partners — Institutions We Work With')
-@section('meta_description', 'The institutions Sajjad Digital Services works with under signed memoranda of understanding, what each agreement covers, and what it does not promise.')
-@section('meta_keywords', 'sajjad digital services partners, memorandum of understanding, mou partners, institutional partners, education partners, recruitment partners')
+@section('meta_description', 'The institutions Sajad Digital Services works with under signed memoranda of understanding, what each agreement covers, and what it does not promise.')
+@section('meta_keywords', 'sajad digital services partners, memorandum of understanding, mou partners, institutional partners, education partners, recruitment partners')
 @section('og_title', 'Partners — Institutions We Work With')
 @section('og_description', 'Who we have signed memoranda of understanding with, what those agreements cover, and what they do not promise.')
 @section('og_image', asset('public/user/images/partners-banner.jpg'))
@@ -69,7 +69,7 @@
     <meta name="twitter:description" content="Who we have signed memoranda of understanding with, and what those agreements actually cover.">
     <meta name="twitter:image" content="{{ asset('public/user/images/partners-banner.jpg') }}">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Sajjad Digital Services">
+    <meta property="og:site_name" content="Sajad Digital Services">
 
     {{-- JSON-LD: BreadcrumbList --}}
     <script type="application/ld+json">

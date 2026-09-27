@@ -2,7 +2,7 @@
 
 use App\Models\User;
 
-it('serves the admin panel under Sajjad Digital Services branding, not the template it came from', function () {
+it('serves the admin panel under Sajad Digital Services branding, not the template it came from', function () {
     $admin = User::factory()->create([
         'role' => 'admin',
         'email_verified_at' => now(),
@@ -11,7 +11,7 @@ it('serves the admin panel under Sajjad Digital Services branding, not the templ
     $html = $this->actingAs($admin)->get('/administration')->assertOk()->getContent();
 
     expect($html)
-        ->toContain('<title>Sajjad Digital Services Admin</title>')
+        ->toContain('<title>Sajad Digital Services Admin</title>')
         ->toContain('user/images/favicon.png')
         ->toContain('name="robots" content="noindex, nofollow"')
         // "JobsListing" is the AdminLTE demo name and "JU" is Jobs in USA.

@@ -158,7 +158,7 @@ class DpWorldPortJobsUaeBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> employment terms come from UAE Federal Decree-Law 33 of 2021 and, for free zone staff, the zone authority's own rules; recruitment fee limits in Pakistan come from the Emigration Ordinance 1979 &mdash; not by Sajjad Digital Services. DP World states it will never charge or collect any fee or require money deposits from jobseekers at any stage. Applying is free; any request for payment is a scam.</p>
+<p><strong>Note:</strong> employment terms come from UAE Federal Decree-Law 33 of 2021 and, for free zone staff, the zone authority's own rules; recruitment fee limits in Pakistan come from the Emigration Ordinance 1979 &mdash; not by Sajad Digital Services. DP World states it will never charge or collect any fee or require money deposits from jobseekers at any stage. Applying is free; any request for payment is a scam.</p>
 JOBHTML;
     }
 

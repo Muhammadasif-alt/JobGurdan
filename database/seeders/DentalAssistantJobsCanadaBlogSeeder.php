@@ -167,7 +167,7 @@ class DentalAssistantJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the registration rules of the province you want to work in</strong> before you enrol in a program or accept an offer.</p>
 
-<p><strong>Note:</strong> pay, duties and immigration eligibility are set by employers, provincial regulators and IRCC &mdash; not by Sajjad Digital Services. Confirm the details with the employer and the regulator before applying.</p>
+<p><strong>Note:</strong> pay, duties and immigration eligibility are set by employers, provincial regulators and IRCC &mdash; not by Sajad Digital Services. Confirm the details with the employer and the regulator before applying.</p>
 JOBHTML;
     }
 

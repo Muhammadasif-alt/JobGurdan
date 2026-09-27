@@ -28,9 +28,9 @@ class WelcomeNotification extends Notification
             : url('/dashboard');
 
         $mail = (new MailMessage)
-            ->subject('Welcome to Sajjad Digital Services — your account is ready!')
+            ->subject('Welcome to Sajad Digital Services — your account is ready!')
             ->greeting("Hi {$firstName}!")
-            ->line("Thanks for joining **Sajjad Digital Services** — America's trusted job search platform connecting verified employers with millions of job seekers across all 50 U.S. states.");
+            ->line("Thanks for joining **Sajad Digital Services** — America's trusted job search platform connecting verified employers with millions of job seekers across all 50 U.S. states.");
 
         if ($isCompany) {
             $mail->line('As an employer, you can:')
@@ -48,7 +48,7 @@ class WelcomeNotification extends Notification
 
         return $mail
             ->line('If you have any questions, just reply to this email — we are here to help.')
-            ->salutation('Best regards, The Sajjad Digital Services Team');
+            ->salutation('Best regards, The Sajad Digital Services Team');
     }
 
     public function toArray(object $notifiable): array
@@ -56,7 +56,7 @@ class WelcomeNotification extends Notification
         return [
             'type' => 'welcome',
             'role' => $notifiable->role ?? null,
-            'message' => 'Welcome to Sajjad Digital Services!',
+            'message' => 'Welcome to Sajad Digital Services!',
         ];
     }
 }

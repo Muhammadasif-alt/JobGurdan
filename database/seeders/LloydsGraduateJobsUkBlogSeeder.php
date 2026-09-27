@@ -240,7 +240,7 @@ class LloydsGraduateJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> salaries, scheme lengths, locations and closing dates are set and published by Lloyds Banking Group, and immigration rules are set by the Home Office &mdash; not by Sajjad Digital Services. Apply directly on Lloyds' own talent site and never pay anyone for a graduate place, an interview slot or a referral.</p>
+<p><strong>Note:</strong> salaries, scheme lengths, locations and closing dates are set and published by Lloyds Banking Group, and immigration rules are set by the Home Office &mdash; not by Sajad Digital Services. Apply directly on Lloyds' own talent site and never pay anyone for a graduate place, an interview slot or a referral.</p>
 JOBHTML;
     }
 

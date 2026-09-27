@@ -142,7 +142,7 @@ class CleanerLondonBlogSeeder extends Seeder
     <li>On-the-job training and induction with the larger facilities contractors</li>
 </ul>
 
-<p><strong>Note:</strong> pay, hours and contracts are set by the individual employer or agency &mdash; not by Sajjad Digital Services. Standard cleaning roles are not eligible for UK visa sponsorship, so be cautious of anyone claiming otherwise, and never pay a fee for a job offer.</p>
+<p><strong>Note:</strong> pay, hours and contracts are set by the individual employer or agency &mdash; not by Sajad Digital Services. Standard cleaning roles are not eligible for UK visa sponsorship, so be cautious of anyone claiming otherwise, and never pay a fee for a job offer.</p>
 JOBHTML;
     }
 

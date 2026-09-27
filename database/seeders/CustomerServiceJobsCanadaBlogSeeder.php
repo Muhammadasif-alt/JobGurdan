@@ -167,7 +167,7 @@ class CustomerServiceJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check your province's minimum wage first, then read the offer against it.</strong> For an occupation whose measured low is $16.00 an hour, the legal floor is doing most of the work. An offer that looks generous in Alberta and one that looks ordinary in British Columbia can be the same number.</p>
 
-<p><strong>Note:</strong> pay, shift patterns, language requirements and any hiring preference are set by each employer and by law &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, shift patterns, language requirements and any hiring preference are set by each employer and by law &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

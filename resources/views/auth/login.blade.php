@@ -333,14 +333,14 @@
     <!-- LEFT: Visual side -->
     <aside class="auth-visual">
         <a href="{{ url('/') }}" class="auth-brand">
-            <img src="{{ asset('public/user/images/Sajjad Digital Services.png') }}" alt="Sajjad Digital Services" onerror="this.style.display='none'">
-            Sajjad Digital Services
+            <img src="{{ asset('public/user/images/Sajad Digital Services.png') }}" alt="Sajad Digital Services" onerror="this.style.display='none'">
+            Sajad Digital Services
         </a>
 
         <div class="auth-hero">
             <span class="eyebrow"><span class="dot"></span> Welcome back</span>
             <h1>Sign in to continue your <span class="accent">job search</span></h1>
-            <p>Get back to your saved jobs and applications. An account is optional &mdash; every listing on Sajjad Digital Services can be opened and applied to without one.</p>
+            <p>Get back to your saved jobs and applications. An account is optional &mdash; every listing on Sajad Digital Services can be opened and applied to without one.</p>
             <ul class="auth-trust">
                 <li><i class="bi bi-check-circle-fill"></i> Hand-checked job listings</li>
                 <li><i class="bi bi-check-circle-fill"></i> Track applications in one dashboard</li>

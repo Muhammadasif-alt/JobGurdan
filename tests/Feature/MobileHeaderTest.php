@@ -51,12 +51,14 @@ it('no longer builds the off-canvas drawer that slid the whole site sideways', f
         ->toContain("toggleClass('nav-open', open)");
 });
 
-it('carries the new wordmark in both themes', function () {
+it('carries the new wordmark, one file for both themes', function () {
+    // The gold and silver mark is legible on the white header and the dark
+    // one, so the second file the old flat wordmark needed has gone.
     $html = mobileHeaderCss();
 
-    expect($html)->toContain('user/images/sajjad-navbar.png')
-        ->toContain('user/images/sajjad-navbar-dark.png')
-        ->toContain('alt="Sajjad Digital Services"');
+    expect($html)->toContain('user/images/sajad-navbar.png')
+        ->toContain('alt="Sajad Digital Services"')
+        ->not->toContain('sajjad-navbar');
 });
 
 it('cache-busts the script that drives the menu', function () {

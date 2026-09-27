@@ -170,7 +170,7 @@ class RetailAssociateJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Look up your state and city minimum wage before you judge any advertised rate.</strong> The same hourly number is a strong offer in one state and the bare legal minimum in another.</p>
 
-<p><strong>Note:</strong> pay, scheduling, benefits and eligibility are set by each employer and by state law &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, scheduling, benefits and eligibility are set by each employer and by state law &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

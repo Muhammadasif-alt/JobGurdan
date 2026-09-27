@@ -150,7 +150,7 @@ class SchoolAdministratorJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, hours and hiring decisions are set by each school, academy trust and local authority &mdash; not by Sajjad Digital Services. Many jobs are term-time only, so check the actual salary as well as the FTE salary.</p>
+<p><strong>Note:</strong> pay, hours and hiring decisions are set by each school, academy trust and local authority &mdash; not by Sajad Digital Services. Many jobs are term-time only, so check the actual salary as well as the FTE salary.</p>
 JOBHTML;
     }
 

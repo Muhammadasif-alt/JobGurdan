@@ -173,7 +173,7 @@ class SalesRepresentativeJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, commission terms and eligibility are set by each employer, the relevant award and the Fair Work Act &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, commission terms and eligibility are set by each employer, the relevant award and the Fair Work Act &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

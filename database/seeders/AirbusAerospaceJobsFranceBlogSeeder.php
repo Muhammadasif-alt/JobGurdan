@@ -141,7 +141,7 @@ class AirbusAerospaceJobsFranceBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of the roles Airbus advertises across its French sites, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on Airbus's own Workday careers portal.</p>
+<p>This is an aggregated listing of the roles Airbus advertises across its French sites, not a single vacancy and not a job advertised by Sajad Digital Services. Applications are made on Airbus's own Workday careers portal.</p>
 
 <h3>What is open</h3>
 <p>Airbus listed 622 vacancies in France when this listing was last checked, across Commercial Aircraft, Helicopters, Defence and Space, and Airbus Atlantic. Main sites include Toulouse, Marignane, Elancourt, Saint-Nazaire, Rochefort and Paris-Le Bourget.</p>
@@ -158,7 +158,7 @@ class AirbusAerospaceJobsFranceBlogSeeder extends Seeder
 <h3>Visas</h3>
 <p>Airbus states that visa and relocation support depend on the role, country and applicable legislation, and may be discussed during recruitment where relevant. No French advert mentions a visa or work permit. Airbus also states it never requests payment for interviews, background checks, visa processing, training or IT equipment.</p>
 
-<p>Pay, eligibility, clearance and immigration rules are set by Airbus and the French authorities &mdash; not by Sajjad Digital Services. Confirm the requirements on the live posting before acting.</p>
+<p>Pay, eligibility, clearance and immigration rules are set by Airbus and the French authorities &mdash; not by Sajad Digital Services. Confirm the requirements on the live posting before acting.</p>
 JOBHTML;
     }
 

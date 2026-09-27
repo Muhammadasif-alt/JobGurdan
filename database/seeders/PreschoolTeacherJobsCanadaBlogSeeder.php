@@ -157,7 +157,7 @@ class PreschoolTeacherJobsCanadaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> wages, certification levels and hiring requirements are set by each employer and province &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own posting before applying.</p>
+<p><strong>Note:</strong> wages, certification levels and hiring requirements are set by each employer and province &mdash; not by Sajad Digital Services. Confirm the details on the employer's own posting before applying.</p>
 JOBHTML;
     }
 

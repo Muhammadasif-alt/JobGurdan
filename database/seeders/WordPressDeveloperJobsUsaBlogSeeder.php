@@ -169,7 +169,7 @@ class WordPressDeveloperJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask how many sites the team maintains and who is on call when one breaks.</strong> The answer tells you whether this is a build role, a maintenance role, or a build role that quietly becomes a maintenance role once you have been there six months.</p>
 
-<p><strong>Note:</strong> pay, remote policy and stack requirements are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, remote policy and stack requirements are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

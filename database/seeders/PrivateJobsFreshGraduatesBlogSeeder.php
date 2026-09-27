@@ -145,7 +145,7 @@ class PrivateJobsFreshGraduatesBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask for the appointment letter in writing before you resign from anything or relocate.</strong> It should state the job title, the gross salary, the probation period, the working hours and the notice period. No genuine private employer charges you a fee for training, a security deposit, or a &quot;registration&quot; payment to be considered &mdash; treat any such request as a fraud.</p>
 
-<p><strong>Note:</strong> pay, probation terms and benefits are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer&rsquo;s own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, probation terms and benefits are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer&rsquo;s own advertisement before applying.</p>
 JOBHTML;
     }
 

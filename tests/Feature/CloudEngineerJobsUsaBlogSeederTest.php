@@ -86,7 +86,7 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
         ->and($job->application_url)->toBe('https://www.indeed.com/q-cloud-engineer-jobs.html')
         ->and($job->salary_minimum)->toBeNull()
         ->and($job->salary_maximum)->toBeNull()
-        ->and($job->description)->toContain('not by Sajjad Digital Services')
+        ->and($job->description)->toContain('not by Sajad Digital Services')
         ->and($job->description)->toContain('There is no federal figure for this title');
 });
 

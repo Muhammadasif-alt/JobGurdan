@@ -160,7 +160,7 @@ class MedicalReceptionistJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay and terms are set by the individual GP practice or NHS trust &mdash; not by Sajjad Digital Services. A GP practice is an independent business and does not have to follow NHS pay bands. Apply through NHS Jobs or the practice directly, and never pay anyone for a job.</p>
+<p><strong>Note:</strong> pay and terms are set by the individual GP practice or NHS trust &mdash; not by Sajad Digital Services. A GP practice is an independent business and does not have to follow NHS pay bands. Apply through NHS Jobs or the practice directly, and never pay anyone for a job.</p>
 JOBHTML;
     }
 

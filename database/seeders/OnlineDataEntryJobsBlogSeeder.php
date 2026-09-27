@@ -164,7 +164,7 @@ class OnlineDataEntryJobsBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay to get a job.</strong> Legitimate employers do not charge for kits, training or placement. Confirm the pay structure &mdash; hourly, salaried or per-piece &mdash; before you start.</p>
 
-<p><strong>Note:</strong> pay, terms and requirements are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, terms and requirements are set by each employer &mdash; not by Sajad Digital Services. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 

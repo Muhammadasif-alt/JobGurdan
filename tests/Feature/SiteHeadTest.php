@@ -19,7 +19,7 @@ it('keeps blog and listing images crawlable in robots.txt', function () {
         ->and($robots)->toContain('Sitemap: https://sajaddigitalservices.com/sitemap.xml');
 });
 
-it('brands the SEO landing pages as Sajjad Digital Services', function () {
+it('brands the SEO landing pages as Sajad Digital Services', function () {
     $titles = collect(glob(resource_path('views/pages/*.blade.php')))
         ->map(fn (string $file): string => (string) file_get_contents($file));
 

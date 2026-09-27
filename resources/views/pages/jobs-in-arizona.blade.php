@@ -63,7 +63,7 @@
                 'a' => 'It is one of the most stable in the state, because of the large retirement population. Home health and nursing assistant roles hire continuously and need only short certification.',
             ],
             [
-                'q' => 'Is it free to apply through Sajjad Digital Services?',
+                'q' => 'Is it free to apply through Sajad Digital Services?',
                 'a' => 'Yes, and no account is required. Every listing links through to the employer or the original posting.',
             ],
         ],

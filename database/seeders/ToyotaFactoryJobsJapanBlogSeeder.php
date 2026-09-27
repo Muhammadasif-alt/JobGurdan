@@ -149,7 +149,7 @@ class ToyotaFactoryJobsJapanBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of Toyota's period employee (kikan jugyoin) production roles in Aichi Prefecture, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on Toyota's own official recruitment site, which is in Japanese only.</p>
+<p>This is an aggregated listing of Toyota's period employee (kikan jugyoin) production roles in Aichi Prefecture, not a single vacancy and not a job advertised by Sajad Digital Services. Applications are made on Toyota's own official recruitment site, which is in Japanese only.</p>
 
 <h3>Read this before you apply</h3>
 <p>Toyota's official period employee site states no nationality requirement and no Japanese language requirement, but it also offers no visa sponsorship. This is a direct fixed-term hire. In practice an applicant needs a Japanese residence status that carries no work restriction. Someone applying from Pakistan with no existing Japanese status cannot take this route.</p>
@@ -169,7 +169,7 @@ class ToyotaFactoryJobsJapanBlogSeeder extends Seeder
 <h3>Contract</h3>
 <p>An initial three-month contract, renewable in steps to a maximum of two years and eleven months. Renewal is at Toyota's discretion based on production outlook and the worker's record. Completion payments totalling JPY 3,064,800 across the full term are forfeited entirely if you resign mid-contract.</p>
 
-<p>Pay, contract terms and eligibility are set by Toyota, and immigration status is decided by the Japanese government &mdash; not by Sajjad Digital Services. Confirm the requirements on the official site, and never pay anyone to secure a job.</p>
+<p>Pay, contract terms and eligibility are set by Toyota, and immigration status is decided by the Japanese government &mdash; not by Sajad Digital Services. Confirm the requirements on the official site, and never pay anyone to secure a job.</p>
 JOBHTML;
     }
 

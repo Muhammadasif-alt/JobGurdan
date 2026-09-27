@@ -152,7 +152,7 @@ class FerrariFactoryJobsItalyBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> Ferrari publishes no pay figure for production roles and says nothing about sponsoring non-EU workers. Italy admits non-EU workers through an annual government quota decree &mdash; not by Sajjad Digital Services. Never pay an agent for a job or a visa.</p>
+<p><strong>Note:</strong> Ferrari publishes no pay figure for production roles and says nothing about sponsoring non-EU workers. Italy admits non-EU workers through an annual government quota decree &mdash; not by Sajad Digital Services. Never pay an agent for a job or a visa.</p>
 JOBHTML;
     }
 

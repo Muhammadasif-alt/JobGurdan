@@ -140,7 +140,7 @@ class RemoteJobsNoExperienceBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>No genuine employer asks you to pay to be hired.</strong> Registration fees, training fees, a deposit for equipment, or a charge to &quot;release&quot; your first payment are all the same fraud. Be equally careful with unpaid trial work: a short assessment is normal, but producing real output for a company for days without pay is not a trial, it is unpaid labour. Ask for the offer in writing with the rate and payment method stated before you start.</p>
 
-<p><strong>Note:</strong> pay, hours and payment terms are set by each employer &mdash; not by Sajjad Digital Services. Verify every posting on the employer's own site before sharing documents or starting work.</p>
+<p><strong>Note:</strong> pay, hours and payment terms are set by each employer &mdash; not by Sajad Digital Services. Verify every posting on the employer's own site before sharing documents or starting work.</p>
 JOBHTML;
     }
 

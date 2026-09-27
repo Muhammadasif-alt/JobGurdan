@@ -166,7 +166,7 @@ class LogisticsDriverJobsUaeBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, licence requirements and visa sponsorship are set by each employer, the RTA and UAE law &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying, and never pay a fee for a job or a visa.</p>
+<p><strong>Note:</strong> pay, licence requirements and visa sponsorship are set by each employer, the RTA and UAE law &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying, and never pay a fee for a job or a visa.</p>
 JOBHTML;
     }
 

@@ -163,7 +163,7 @@ class OfficeAssistantJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Confirm your right to work first,</strong> since it decides which roles are open to you, and be wary of any listing paying below the legal minimum wage.</p>
 
-<p><strong>Note:</strong> pay, requirements and visa eligibility are set by employers and the Home Office &mdash; not by Sajjad Digital Services. Confirm current rules on gov.uk before applying.</p>
+<p><strong>Note:</strong> pay, requirements and visa eligibility are set by employers and the Home Office &mdash; not by Sajad Digital Services. Confirm current rules on gov.uk before applying.</p>
 JOBHTML;
     }
 

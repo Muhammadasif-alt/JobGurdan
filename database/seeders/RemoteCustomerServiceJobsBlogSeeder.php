@@ -147,7 +147,7 @@ class RemoteCustomerServiceJobsBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>No genuine employer charges you for training, a headset, software or a security deposit.</strong> Apply through job boards or the company's own careers page rather than replying to unsolicited offers on social media, and get the shift, rate and pay date in writing before you start.</p>
 
-<p><strong>Note:</strong> pay, shifts and monitoring policies are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, shifts and monitoring policies are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

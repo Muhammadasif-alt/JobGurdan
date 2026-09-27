@@ -153,7 +153,7 @@ class GovernmentSecurityJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> eligibility, clearances and hiring decisions are set by each agency &mdash; not by Sajjad Digital Services. Apply only through official government career sites and APSJobs.</p>
+<p><strong>Note:</strong> eligibility, clearances and hiring decisions are set by each agency &mdash; not by Sajad Digital Services. Apply only through official government career sites and APSJobs.</p>
 JOBHTML;
     }
 

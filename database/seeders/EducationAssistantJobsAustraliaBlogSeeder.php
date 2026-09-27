@@ -154,7 +154,7 @@ class EducationAssistantJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, hours and hiring decisions are set by each school, state education department and employer &mdash; not by Sajjad Digital Services. Government school jobs are free to apply for through each state's official job portal.</p>
+<p><strong>Note:</strong> pay, hours and hiring decisions are set by each school, state education department and employer &mdash; not by Sajad Digital Services. Government school jobs are free to apply for through each state's official job portal.</p>
 JOBHTML;
     }
 

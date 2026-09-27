@@ -136,7 +136,7 @@ class ConstructionUsaBlogSeeder extends Seeder
     <li>Higher rates in high-cost states and on industrial or infrastructure projects</li>
 </ul>
 
-<p><strong>Note:</strong> sponsorship terms, timelines and eligibility are set by the individual contractor and by USCIS &mdash; not by Sajjad Digital Services. Verify any employer against state contractor licensing boards and the Department of Labor's public H-2B and PERM disclosure data, and never pay an upfront fee for sponsorship.</p>
+<p><strong>Note:</strong> sponsorship terms, timelines and eligibility are set by the individual contractor and by USCIS &mdash; not by Sajad Digital Services. Verify any employer against state contractor licensing boards and the Department of Labor's public H-2B and PERM disclosure data, and never pay an upfront fee for sponsorship.</p>
 JOBHTML;
     }
 

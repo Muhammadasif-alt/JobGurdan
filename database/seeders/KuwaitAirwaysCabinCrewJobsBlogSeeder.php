@@ -156,7 +156,7 @@ class KuwaitAirwaysCabinCrewJobsBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> Kuwait Airways publishes no cabin crew pay, and the criteria above come from the airline's own advertised postings, which change &mdash; not by Sajjad Digital Services. Never pay an agent for an interview or a job offer.</p>
+<p><strong>Note:</strong> Kuwait Airways publishes no cabin crew pay, and the criteria above come from the airline's own advertised postings, which change &mdash; not by Sajad Digital Services. Never pay an agent for an interview or a job offer.</p>
 JOBHTML;
     }
 

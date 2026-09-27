@@ -163,7 +163,7 @@ class SecurityGuardJobsUaeBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask for the basic-to-allowance split in writing, and ask which regulator licenses the site.</strong> Two offers with the same monthly total can differ substantially in what you leave with after several years, and a licence for the wrong emirate is money spent on a job you cannot take.</p>
 
-<p><strong>Note:</strong> salary, package structure, licensing responsibility and visa terms are set by each employer &mdash; not by Sajjad Digital Services. Be cautious of any agent asking you to pay to be placed. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> salary, package structure, licensing responsibility and visa terms are set by each employer &mdash; not by Sajad Digital Services. Be cautious of any agent asking you to pay to be placed. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

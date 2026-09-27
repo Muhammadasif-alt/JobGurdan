@@ -159,7 +159,7 @@ class CustomerServiceJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask whether the role is on-site, hybrid or fully remote,</strong> what the performance metrics are, and whether pay includes bonuses tied to satisfaction scores.</p>
 
-<p><strong>Note:</strong> pay, schedules and metrics are set by employers &mdash; not by Sajjad Digital Services. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, schedules and metrics are set by employers &mdash; not by Sajad Digital Services. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 

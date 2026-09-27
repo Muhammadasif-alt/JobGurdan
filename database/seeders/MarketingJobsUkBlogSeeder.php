@@ -167,7 +167,7 @@ class MarketingJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check which rung the title really is</strong> &mdash; "executive", "manager" and "director" carry very different pay &mdash; and whether the role is office-based, hybrid or remote.</p>
 
-<p><strong>Note:</strong> pay, benefits and requirements are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, benefits and requirements are set by each employer &mdash; not by Sajad Digital Services. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 

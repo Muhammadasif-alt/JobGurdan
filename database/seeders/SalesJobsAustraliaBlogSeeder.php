@@ -171,7 +171,7 @@ class SalesJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask whether the base is an award wage, whether commission is on top of it, and whether super is included.</strong> A role described as commission-only needs a closer look: an employee's pay cannot fall below the minimum rate for the job however much of it is commission.</p>
 
-<p><strong>Note:</strong> pay, commission structures, registration requirements and eligibility are set by each employer, the relevant award and state law &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, commission structures, registration requirements and eligibility are set by each employer, the relevant award and state law &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

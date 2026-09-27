@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 @section('title', 'My Saved Jobs')
-@section('meta_description', 'Review and apply to jobs you have saved for later on Sajjad Digital Services.')
+@section('meta_description', 'Review and apply to jobs you have saved for later on Sajad Digital Services.')
 
 @push('meta')
     <meta name="robots" content="noindex, nofollow">

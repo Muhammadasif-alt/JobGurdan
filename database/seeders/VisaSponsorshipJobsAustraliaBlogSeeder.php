@@ -173,7 +173,7 @@ class VisaSponsorshipJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check two things in the advertisement: whether the business is an approved sponsor, and whether your occupation carries a caveat.</strong> A caveat can exclude an occupation in particular circumstances even when the occupation itself is eligible, and it is a common reason a nomination fails after an offer has been made.</p>
 
-<p><strong>Note:</strong> salary, sponsorship capacity and eligibility are set by each employer and by the Department of Home Affairs &mdash; not by Sajjad Digital Services. Confirm the current requirements on the departmental website before applying, and never pay an employer for a nomination.</p>
+<p><strong>Note:</strong> salary, sponsorship capacity and eligibility are set by each employer and by the Department of Home Affairs &mdash; not by Sajad Digital Services. Confirm the current requirements on the departmental website before applying, and never pay an employer for a nomination.</p>
 JOBHTML;
     }
 

@@ -257,7 +257,7 @@ class SydneyRtpInternationalScholarshipSeeder extends Seeder
 <li><a href="https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/updated-tcs---rtp-international-stipend.pdf" target="_blank" rel="noopener">RTP Stipend (International) terms and conditions</a></li>
 </ul>
 
-<p><em>Sajjad Digital Services is not part of the University of Sydney. This guide was checked against the university's official pages on 10 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
+<p><em>Sajad Digital Services is not part of the University of Sydney. This guide was checked against the university's official pages on 10 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
 HTML;
     }
 }

@@ -171,7 +171,7 @@ class NoExperienceJobsSaudiBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check two things before anything else: that the occupation is not restricted to Saudi nationals, and that the wage is written in the contract.</strong> Saudization decisions have closed a growing list of sales and marketing job titles to foreign workers, and there is no statutory minimum wage for expatriates, so the contract is the only floor you have.</p>
 
-<p><strong>Note:</strong> pay, contract terms, accommodation and eligibility are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying, and never pay a fee for a job offer or a visa.</p>
+<p><strong>Note:</strong> pay, contract terms, accommodation and eligibility are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying, and never pay a fee for a job offer or a visa.</p>
 JOBHTML;
     }
 

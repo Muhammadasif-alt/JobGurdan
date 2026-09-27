@@ -161,7 +161,7 @@ class BusDriverJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for a job offer or an LMIA.</strong> The employer pays the $1,000 LMIA fee, and it cannot be recovered from the worker.</p>
 
-<p><strong>Note:</strong> wages, licence rules and immigration eligibility are set by employers, provincial licensing authorities and the Government of Canada &mdash; not by Sajjad Digital Services. Confirm the details with the employer and your province's licensing office before applying.</p>
+<p><strong>Note:</strong> wages, licence rules and immigration eligibility are set by employers, provincial licensing authorities and the Government of Canada &mdash; not by Sajad Digital Services. Confirm the details with the employer and your province's licensing office before applying.</p>
 JOBHTML;
     }
 

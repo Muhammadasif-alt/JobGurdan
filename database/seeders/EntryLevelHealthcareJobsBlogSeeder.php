@@ -165,7 +165,7 @@ class EntryLevelHealthcareJobsBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, training and certification requirements are set by each employer and by state law &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own posting before applying.</p>
+<p><strong>Note:</strong> pay, training and certification requirements are set by each employer and by state law &mdash; not by Sajad Digital Services. Confirm the details on the employer's own posting before applying.</p>
 JOBHTML;
     }
 

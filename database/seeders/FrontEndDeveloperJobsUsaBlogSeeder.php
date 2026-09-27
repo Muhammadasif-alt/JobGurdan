@@ -163,7 +163,7 @@ class FrontEndDeveloperJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask who owns accessibility.</strong> If the answer is nobody, that work will land on you eventually, without the time budgeted for it. If the answer is that the team tests for it, you are joining somewhere that takes engineering seriously.</p>
 
-<p><strong>Note:</strong> pay, remote policy and stack requirements are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, remote policy and stack requirements are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

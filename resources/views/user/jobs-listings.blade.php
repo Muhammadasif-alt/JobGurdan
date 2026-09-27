@@ -6,13 +6,13 @@
     $locLabel = $jobLoc !== '' ? ucwords($jobLoc) : '';
     if ($posLabel && $locLabel) {
         $pageTitle = "{$posLabel} Jobs in {$locLabel} — Apply Free";
-        $pageDesc = "Browse verified {$posLabel} jobs in {$locLabel}. Apply free with one click on Sajjad Digital Services — new openings daily.";
+        $pageDesc = "Browse verified {$posLabel} jobs in {$locLabel}. Apply free with one click on Sajad Digital Services — new openings daily.";
     } elseif ($posLabel) {
         $pageTitle = "{$posLabel} Jobs — Hiring Now, Apply Free";
-        $pageDesc = "Search {$posLabel} jobs across {$coverage->topList()}. Hand-checked listings, free to apply on Sajjad Digital Services with no account needed.";
+        $pageDesc = "Search {$posLabel} jobs across {$coverage->topList()}. Hand-checked listings, free to apply on Sajad Digital Services with no account needed.";
     } elseif ($locLabel) {
         $pageTitle = "Jobs in {$locLabel} — Browse Verified Listings";
-        $pageDesc = "Find jobs in {$locLabel} across every industry. Verified listings, free to apply on Sajjad Digital Services — updated daily.";
+        $pageDesc = "Find jobs in {$locLabel} across every industry. Verified listings, free to apply on Sajad Digital Services — updated daily.";
     } else {
         $pageTitle = 'Browse Jobs — Find Verified Listings, Apply Free';
         $pageDesc = 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . ' hand-checked jobs across ' . $coverage->topList() . '. Filter by location or category. Free to apply, no account needed.';
@@ -60,10 +60,10 @@
 {!! json_encode([
     '@context' => 'https://schema.org',
     '@type' => 'CollectionPage',
-    'name' => 'Jobs on Sajjad Digital Services',
+    'name' => 'Jobs on Sajad Digital Services',
     'description' => $pageDesc,
     'url' => url()->current(),
-    'isPartOf' => ['@type' => 'WebSite', 'name' => 'Sajjad Digital Services', 'url' => url('/')],
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'Sajad Digital Services', 'url' => url('/')],
     'mainEntity' => [
         '@type' => 'ItemList',
         'numberOfItems' => $jobs->total(),
@@ -596,7 +596,7 @@
             @endif
         </span>
         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Find Your Next <span class="accent">Career Move</span> in the USA</h1>
-        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Every opening on Sajjad Digital Services, across {{ $coverage->shortList() }}. Filter by location or category, then apply straight through to the employer &mdash; free, and without creating an account.</p>
+        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Every opening on Sajad Digital Services, across {{ $coverage->shortList() }}. Filter by location or category, then apply straight through to the employer &mdash; free, and without creating an account.</p>
         <div class="hero-stats">
             <div class="stat">
                 <strong>{{ number_format($heroStats['total_jobs'] ?? 0) }}+</strong>

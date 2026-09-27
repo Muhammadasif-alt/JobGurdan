@@ -162,7 +162,7 @@ class FactoryWorkerJobsGermanyBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check any advertised rate against EUR 13.90 an hour first.</strong> Several widely published salary ranges for this job quote monthly floors that are below the legal minimum for full-time work, which tells you the data is stale rather than that the job pays badly.</p>
 
-<p><strong>Note:</strong> pay, shift patterns, language requirements and any visa support are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement, and check visa requirements with official German sources, before applying.</p>
+<p><strong>Note:</strong> pay, shift patterns, language requirements and any visa support are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement, and check visa requirements with official German sources, before applying.</p>
 JOBHTML;
     }
 

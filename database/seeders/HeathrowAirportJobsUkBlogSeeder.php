@@ -168,7 +168,7 @@ class HeathrowAirportJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, vetting standards and benefits here are set by Heathrow and the Department for Transport &mdash; not by Sajjad Digital Services. Apply directly on Heathrow's careers site, and never pay anyone for an airport job or an airside pass.</p>
+<p><strong>Note:</strong> pay, vetting standards and benefits here are set by Heathrow and the Department for Transport &mdash; not by Sajad Digital Services. Apply directly on Heathrow's careers site, and never pay anyone for an airport job or an airside pass.</p>
 JOBHTML;
     }
 

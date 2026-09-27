@@ -162,7 +162,7 @@ class MobileAppDeveloperJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask who owns the release.</strong> If one person has the signing certificates, the store accounts and the rollout decisions, and that person is leaving, you are inheriting a release process rather than joining one. It is a fair question and the answer is revealing.</p>
 
-<p><strong>Note:</strong> pay, remote policy, stack requirements and any sponsorship decision are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, remote policy, stack requirements and any sponsorship decision are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

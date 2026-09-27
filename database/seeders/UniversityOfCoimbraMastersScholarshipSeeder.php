@@ -244,7 +244,7 @@ class UniversityOfCoimbraMastersScholarshipSeeder extends Seeder
 <li><a href="https://www.uc.pt/en/academic-services/awards-scholarships-uc/" target="_blank" rel="noopener">University of Coimbra: awards and scholarships</a></li>
 </ul>
 
-<p><em>Sajjad Digital Services is not part of the University of Coimbra or the Portuguese government. This guide was checked against UC's official scholarship, admissions, tuition and living-cost pages on 16 September 2026. Amounts, fees and deadlines change, so confirm them on the official page before you apply.</em></p>
+<p><em>Sajad Digital Services is not part of the University of Coimbra or the Portuguese government. This guide was checked against UC's official scholarship, admissions, tuition and living-cost pages on 16 September 2026. Amounts, fees and deadlines change, so confirm them on the official page before you apply.</em></p>
 HTML;
     }
 }

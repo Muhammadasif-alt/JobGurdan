@@ -164,7 +164,7 @@ class OnlineTeacherJobsWorldwideBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>No legitimate platform charges you to start teaching.</strong> Check the platform's nationality and qualification rules before you invest time in a demo lesson.</p>
 
-<p><strong>Note:</strong> pay and eligibility are set by each platform &mdash; not by Sajjad Digital Services. Confirm the current terms on the platform's own site before applying.</p>
+<p><strong>Note:</strong> pay and eligibility are set by each platform &mdash; not by Sajad Digital Services. Confirm the current terms on the platform's own site before applying.</p>
 JOBHTML;
     }
 

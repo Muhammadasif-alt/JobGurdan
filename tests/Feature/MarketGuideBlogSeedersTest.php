@@ -1330,7 +1330,7 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
 
     expect($job)->not->toBeNull()
         ->and($job->application_url)->toBe($applyUrl)
-        ->and($job->description)->toContain('not by Sajjad Digital Services');
+        ->and($job->description)->toContain('not by Sajad Digital Services');
 
     if (isset($published[$slug])) {
         [$currency, $minimum, $maximum] = $published[$slug];

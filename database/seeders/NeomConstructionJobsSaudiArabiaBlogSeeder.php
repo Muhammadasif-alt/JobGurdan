@@ -143,7 +143,7 @@ class NeomConstructionJobsSaudiArabiaBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of the construction and engineering roles associated with NEOM in Saudi Arabia, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on NEOM's own careers portal. These are on-site roles in Tabuk Province, in the north-west of the Kingdom.</p>
+<p>This is an aggregated listing of the construction and engineering roles associated with NEOM in Saudi Arabia, not a single vacancy and not a job advertised by Sajad Digital Services. Applications are made on NEOM's own careers portal. These are on-site roles in Tabuk Province, in the north-west of the Kingdom.</p>
 
 <h3>Read this before you apply</h3>
 <p>NEOM's official careers portal was showing no open vacancies when this listing was last checked. The portal is live and working, but the requisition list is empty. Check it yourself before spending time on an application, and treat any site claiming to list hundreds of current NEOM jobs with suspicion.</p>
@@ -165,7 +165,7 @@ class NeomConstructionJobsSaudiArabiaBlogSeeder extends Seeder
 <h3>Visas and fees</h3>
 <p>NEOM states that all offers are subject to the candidate being able to successfully obtain a work visa to enter and work in the Kingdom of Saudi Arabia. NEOM also states that its recruiters, including appointed third-party agents, will never ask candidates to make or facilitate any bank payments or fees at any stage of the recruitment process.</p>
 
-<p>Pay, shifts, eligibility and visa rules are set by NEOM, the Saudi Ministry of Human Resources and Social Development and Saudi labour law &mdash; not by Sajjad Digital Services. Confirm the requirements on the live posting, and verify any offer through the official NEOM portal before you travel.</p>
+<p>Pay, shifts, eligibility and visa rules are set by NEOM, the Saudi Ministry of Human Resources and Social Development and Saudi labour law &mdash; not by Sajad Digital Services. Confirm the requirements on the live posting, and verify any offer through the official NEOM portal before you travel.</p>
 JOBHTML;
     }
 

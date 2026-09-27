@@ -180,7 +180,7 @@ class CorrectionalOfficerJobsCanadaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> eligibility, testing and pay are set by the Correctional Service of Canada and each provincial or territorial government &mdash; not by Sajjad Digital Services. Confirm the current requirements on the employer's own job posting before applying.</p>
+<p><strong>Note:</strong> eligibility, testing and pay are set by the Correctional Service of Canada and each provincial or territorial government &mdash; not by Sajad Digital Services. Confirm the current requirements on the employer's own job posting before applying.</p>
 JOBHTML;
     }
 

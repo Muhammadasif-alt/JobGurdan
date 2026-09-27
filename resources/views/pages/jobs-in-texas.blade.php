@@ -63,7 +63,7 @@
                 'a' => 'Largely yes, which is unusual and makes the state reliable for trades. Summer heat tends to shift shifts earlier in the day rather than halt work.',
             ],
             [
-                'q' => 'Is it free to apply through Sajjad Digital Services?',
+                'q' => 'Is it free to apply through Sajad Digital Services?',
                 'a' => 'Yes, and no account is needed. Every listing links through to the employer or the original posting.',
             ],
         ],

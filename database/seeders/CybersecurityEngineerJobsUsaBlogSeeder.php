@@ -166,7 +166,7 @@ class CybersecurityEngineerJobsUsaBlogSeeder extends Seeder
 
 <p><strong>Check whether the role needs a security clearance.</strong> Federal and defence-adjacent engineering work, and Information Systems Security Engineer roles in particular, almost always do. A clearance requires US citizenship and an employer to sponsor it, and cannot be obtained independently &mdash; the requirement is often buried well down the advertisement.</p>
 
-<p><strong>Note:</strong> pay, on-call expectations, clearance requirements and any sponsorship decision are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, on-call expectations, clearance requirements and any sponsorship decision are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

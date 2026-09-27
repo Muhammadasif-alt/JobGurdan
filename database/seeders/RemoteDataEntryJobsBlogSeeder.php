@@ -148,7 +148,7 @@ class RemoteDataEntryJobsBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>This is the most impersonated job category online, so verify before you engage.</strong> No genuine employer charges for training, software, a starter or enrolment kit, or the release of your own wages. Be especially careful with postings that use a large retailer's name: Amazon does not advertise work-from-home data entry, and offers that do are a documented impersonation scam. Genuine Amazon-adjacent work is with third-party sellers and agencies, and Amazon's own remote roles are listed on its official careers site.</p>
 
-<p><strong>Note:</strong> pay, schedules and payment terms are set by each employer &mdash; not by Sajjad Digital Services. Verify every posting on the employer's own site before sharing documents or starting work.</p>
+<p><strong>Note:</strong> pay, schedules and payment terms are set by each employer &mdash; not by Sajad Digital Services. Verify every posting on the employer's own site before sharing documents or starting work.</p>
 JOBHTML;
     }
 

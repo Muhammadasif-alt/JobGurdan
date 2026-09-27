@@ -170,7 +170,7 @@ class SoftwareDeveloperJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>If you need sponsorship, ask before the final round.</strong> Whether an employer sponsors, and whether they are cap-subject or cap-exempt, changes your realistic timeline far more than anything on your resume. It is a normal question and a straight answer saves everyone weeks.</p>
 
-<p><strong>Note:</strong> pay, levelling, remote policy and any sponsorship decision are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, levelling, remote policy and any sponsorship decision are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

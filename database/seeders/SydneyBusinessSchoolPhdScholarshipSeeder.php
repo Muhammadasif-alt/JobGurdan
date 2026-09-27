@@ -370,7 +370,7 @@ class SydneyBusinessSchoolPhdScholarshipSeeder extends Seeder
 <li><a href="https://www.sydney.edu.au/content/dam/corporate/documents/business-school/study/business-mphil-and-phd-admission-requirements-table.pdf" target="_blank" rel="noopener">Admission requirements by discipline (PDF)</a></li>
 </ul>
 
-<p><em>Sajjad Digital Services is not part of the University of Sydney. This guide was checked against the university's official pages on 10 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
+<p><em>Sajad Digital Services is not part of the University of Sydney. This guide was checked against the university's official pages on 10 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
 HTML;
     }
 }

@@ -158,7 +158,7 @@ class SchoolNurseJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check your state education agency's school nurse credential rules</strong> before applying, because a license alone is not enough in every state.</p>
 
-<p><strong>Note:</strong> pay, credentials and hiring rules are set by school districts, state boards of nursing and state education agencies &mdash; not by Sajjad Digital Services. Confirm the details with the district before applying.</p>
+<p><strong>Note:</strong> pay, credentials and hiring rules are set by school districts, state boards of nursing and state education agencies &mdash; not by Sajad Digital Services. Confirm the details with the district before applying.</p>
 JOBHTML;
     }
 

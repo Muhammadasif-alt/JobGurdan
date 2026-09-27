@@ -527,8 +527,8 @@
     <!-- Visual side (right) -->
     <aside class="auth-visual">
         <a href="{{ url('/') }}" class="auth-brand">
-            <img src="{{ asset('public/user/images/Sajjad Digital Services.png') }}" alt="Sajjad Digital Services" onerror="this.style.display='none'">
-            Sajjad Digital Services
+            <img src="{{ asset('public/user/images/Sajad Digital Services.png') }}" alt="Sajad Digital Services" onerror="this.style.display='none'">
+            Sajad Digital Services
         </a>
 
         <div class="auth-hero">

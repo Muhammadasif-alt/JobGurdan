@@ -172,7 +172,7 @@ class CopywriterJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Get the ownership terms in writing.</strong> For a freelance copywriter, whether the client owns the copy depends on the contract, not on having been paid. Settle it before the work starts, not at invoice time.</p>
 
-<p><strong>Note:</strong> pay, deadlines, revision policies and contract terms are set by each employer or client &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, deadlines, revision policies and contract terms are set by each employer or client &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

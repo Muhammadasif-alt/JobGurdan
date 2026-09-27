@@ -4,7 +4,7 @@
     if ($blogCat !== '') {
         $blogCatLbl = ucwords(str_replace('-', ' ', $blogCat));
         $blogTitle = "{$blogCatLbl} Articles — Career Blog";
-        $blogDesc = "Read {$blogCatLbl} articles on Sajjad Digital Services — expert tips, U.S. employment trends and actionable advice to advance your career.";
+        $blogDesc = "Read {$blogCatLbl} articles on Sajad Digital Services — expert tips, U.S. employment trends and actionable advice to advance your career.";
     } else {
         $blogTitle = 'Career Advice — Employment & Business News';
         $blogDesc = 'Read the latest career advice, recruitment insights, salary guides, remote work tips and U.S. industry trends. Expert articles to help you land your next job faster.';
@@ -47,10 +47,10 @@
 {!! json_encode([
     '@context' => 'https://schema.org',
     '@type' => 'CollectionPage',
-    'name' => 'Sajjad Digital Services career guides',
+    'name' => 'Sajad Digital Services career guides',
     'description' => $blogDesc,
     'url' => url()->current(),
-    'isPartOf' => ['@type' => 'WebSite', 'name' => 'Sajjad Digital Services', 'url' => url('/')],
+    'isPartOf' => ['@type' => 'WebSite', 'name' => 'Sajad Digital Services', 'url' => url('/')],
     'mainEntity' => [
         '@type' => 'ItemList',
         'numberOfItems' => $moreNews->total(),

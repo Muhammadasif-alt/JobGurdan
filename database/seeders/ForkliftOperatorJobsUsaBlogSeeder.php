@@ -161,7 +161,7 @@ class ForkliftOperatorJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask which trucks you will operate and whether training and evaluation are paid,</strong> because OSHA requires the employer to train and evaluate you on its own equipment.</p>
 
-<p><strong>Note:</strong> pay, shifts and training arrangements are set by employers under OSHA and Department of Labor rules &mdash; not by Sajjad Digital Services. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, shifts and training arrangements are set by employers under OSHA and Department of Labor rules &mdash; not by Sajad Digital Services. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 

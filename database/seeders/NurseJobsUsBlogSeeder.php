@@ -144,7 +144,7 @@ class NurseJobsUsBlogSeeder extends Seeder
 <h3>Before you sign anything</h3>
 <p><strong>Read the contract term and the exit clause.</strong> International nurse recruitment commonly uses multi-year contracts with a substantial sum payable if you leave early. Ask what the figure is, what triggers it, and whether it reduces over time. Ask separately who pays for NCLEX, VisaScreen, licensure and travel, and whether any of it is recoverable from you. Charging a worker a recruitment fee is prohibited by most reputable employers and by law in several jurisdictions.</p>
 
-<p><strong>Note:</strong> licensure requirements, visa timelines and pay are set by state boards, the US government and each employer &mdash; not by Sajjad Digital Services. Verify current requirements with the state Board of Nursing and CGFNS before paying any fee.</p>
+<p><strong>Note:</strong> licensure requirements, visa timelines and pay are set by state boards, the US government and each employer &mdash; not by Sajad Digital Services. Verify current requirements with the state Board of Nursing and CGFNS before paying any fee.</p>
 JOBHTML;
     }
 

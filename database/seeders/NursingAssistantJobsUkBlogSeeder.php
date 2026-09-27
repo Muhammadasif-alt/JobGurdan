@@ -163,7 +163,7 @@ class NursingAssistantJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay and terms are set by the employing NHS trust or care provider &mdash; not by Sajjad Digital Services. Private care homes and agencies are not bound by the NHS pay scale. Apply through NHS Jobs or the provider directly, and never pay anyone for a job or a certificate of sponsorship.</p>
+<p><strong>Note:</strong> pay and terms are set by the employing NHS trust or care provider &mdash; not by Sajad Digital Services. Private care homes and agencies are not bound by the NHS pay scale. Apply through NHS Jobs or the provider directly, and never pay anyone for a job or a certificate of sponsorship.</p>
 JOBHTML;
     }
 

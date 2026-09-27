@@ -166,7 +166,7 @@ class StoreAssistantJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the advertised hourly rate against the National Living Wage for your age.</strong> From 1 April 2026 that is &pound;12.71 for workers aged 21 and over, &pound;10.85 for 18 to 20 year olds, and &pound;8.00 for under-18s and apprentices. A staff discount is not pay and cannot make up a shortfall.</p>
 
-<p><strong>Note:</strong> pay, hours, contract type and benefits are set by each retailer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, hours, contract type and benefits are set by each retailer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

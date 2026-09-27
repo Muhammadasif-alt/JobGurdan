@@ -292,7 +292,7 @@ class AnuRtpScholarshipSeeder extends Seeder
 <li><a href="https://study.anu.edu.au/apply/postgraduate-research" target="_blank" rel="noopener">How to apply for postgraduate research at ANU</a></li>
 </ul>
 
-<p><em>Sajjad Digital Services is not part of the Australian National University. This guide was checked against ANU's official pages on 11 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
+<p><em>Sajad Digital Services is not part of the Australian National University. This guide was checked against ANU's official pages on 11 September 2026. Amounts and dates change, so confirm them on the official page before you apply.</em></p>
 HTML;
     }
 }

@@ -175,7 +175,7 @@ class DatabaseAdministratorJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Read the duties, not the title.</strong> "Database Administrator" is used for operational posts at about $104,620 and for design-led posts closer to the $139,500 architect median, and the gap is larger than any certification will move your offer.</p>
 
-<p><strong>Note:</strong> pay, on-call arrangements, benefits and eligibility are set by each employer &mdash; not by Sajjad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, on-call arrangements, benefits and eligibility are set by each employer &mdash; not by Sajad Digital Services. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 

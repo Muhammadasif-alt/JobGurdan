@@ -246,7 +246,7 @@ class IrenaYouthForum2027ScholarshipSeeder extends Seeder
 <li><a href="/scholarships/university-of-pavia-scholarships">University of Pavia Scholarships</a> &mdash; fee waivers and grants in Italy.</li>
 </ul>
 
-<p><em>Sajjad Digital Services is not part of IRENA and does not organise, fund or select for this Forum. This guide was checked against the official IRENA event page on 20 September 2026. IRENA can change dates, criteria and deadlines, so confirm everything on irena.org before you apply.</em></p>
+<p><em>Sajad Digital Services is not part of IRENA and does not organise, fund or select for this Forum. This guide was checked against the official IRENA event page on 20 September 2026. IRENA can change dates, criteria and deadlines, so confirm everything on irena.org before you apply.</em></p>
 HTML;
     }
 }

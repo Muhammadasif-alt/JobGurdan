@@ -143,7 +143,7 @@ class UnileverFactoryJobsIndonesiaBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>This is an aggregated listing of the engineering, supply chain and early-career roles Unilever Indonesia advertises on its own careers site, not a single vacancy and not a job advertised by Sajjad Digital Services. Applications are made on Unilever's careers site, which runs on Workday. Unilever's Indonesian head office is Grha Unilever, Green Office Park, BSD City, Tangerang, and its Cikarang site in West Java is the factory location that appears on current postings.</p>
+<p>This is an aggregated listing of the engineering, supply chain and early-career roles Unilever Indonesia advertises on its own careers site, not a single vacancy and not a job advertised by Sajad Digital Services. Applications are made on Unilever's careers site, which runs on Workday. Unilever's Indonesian head office is Grha Unilever, Green Office Park, BSD City, Tangerang, and its Cikarang site in West Java is the factory location that appears on current postings.</p>
 
 <h3>What Unilever Indonesia is actually advertising</h3>
 <p>At the time of writing, every live Indonesian role on Unilever's careers site is a degree-required professional position: engineering management, finance, customs and sales, plus the UFRESH early-career intake. There is no operator, production-line or "operator produksi" vacancy listed. Unilever does advertise machine and line operator roles in other countries, so the absence here is a genuine reflection of what is open in Indonesia, not a gap in the site.</p>
@@ -165,7 +165,7 @@ class UnileverFactoryJobsIndonesiaBlogSeeder extends Seeder
 <h3>Fraud warning</h3>
 <p>Unilever states on its own postings: "We will never ask for the exchange of money or credit card details in the Recruitment process."</p>
 
-<p>Pay, requirements, closing dates and work-permit eligibility are set by Unilever and Indonesia's Ministry of Manpower &mdash; not by Sajjad Digital Services. Confirm the details on the live posting and against the current regency wage decree before you apply.</p>
+<p>Pay, requirements, closing dates and work-permit eligibility are set by Unilever and Indonesia's Ministry of Manpower &mdash; not by Sajad Digital Services. Confirm the details on the live posting and against the current regency wage decree before you apply.</p>
 JOBHTML;
     }
 

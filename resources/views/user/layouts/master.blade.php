@@ -14,13 +14,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Sajjad Digital Services">
+    <meta name="author" content="Sajad Digital Services">
     <meta name="theme-color" content="#1b3a6b">
     <meta name="google-site-verification" content="OXrNNeaVvS-g-hiCo0sSs2paH_CgPJ_8DB04L46sKWk" />
     @php
         $metaDescription =
             trim($__env->yieldContent('meta_description')) ?:
-            'Find hand-checked job openings across '.$coverage->topList().'. Search by location, category and experience level on Sajjad Digital Services — free to apply, no account needed.';
+            'Find hand-checked job openings across '.$coverage->topList().'. Search by location, category and experience level on Sajad Digital Services — free to apply, no account needed.';
         // Google truncates past roughly 160 characters. The country list is
         // read from the listings now, so an authored description can grow past
         // that on its own when a new country is added.
@@ -39,7 +39,7 @@
         // A page's own <title> is always the better default.
         $ogTitle =
             trim($__env->yieldContent('og_title')) ?:
-            (trim($__env->yieldContent('title')) ?: 'Sajjad Digital Services - Find Your Dream Job Today');
+            (trim($__env->yieldContent('title')) ?: 'Sajad Digital Services - Find Your Dream Job Today');
     @endphp
 
     <meta name="description" content="{{ $metaDescription }}">
@@ -56,7 +56,7 @@
     <meta property="og:image" content="@yield('og_image', asset('public/user/images/home-background-03.jpg'))">
     <meta property="og:type" content="@yield('og_type', 'website')">
     <meta property="og:url" content="@yield('canonical', url()->current())">
-    <meta property="og:site_name" content="Sajjad Digital Services">
+    <meta property="og:site_name" content="Sajad Digital Services">
     <meta name="twitter:card" content="@yield('twitter_card', 'summary_large_image')">
     <meta name="twitter:title" content="{{ $ogTitle }}">
     <meta name="twitter:description" content="@yield('og_description', $metaDescription)">
@@ -418,8 +418,9 @@
                     <div class="utf-left-side">
                         <div id="logo">
                             <a href="/">
-                                <img class="logo-light" src="{{ asset('public/user/images/sajjad-navbar.png') }}?v={{ $assetVersion('user/images/sajjad-navbar.png') }}" alt="Sajjad Digital Services" fetchpriority="high" decoding="async" width="205" height="48">
-                                <img class="logo-dark"  src="{{ asset('public/user/images/sajjad-navbar-dark.png') }}?v={{ $assetVersion('user/images/sajjad-navbar-dark.png') }}" alt="Sajjad Digital Services" fetchpriority="high" decoding="async" width="205" height="48">
+                                {{-- The gold and silver mark reads on the white header and on the
+                                     dark one, so both themes are served by the one file. --}}
+                                <img src="{{ asset('public/user/images/sajad-navbar.png') }}?v={{ $assetVersion('user/images/sajad-navbar.png') }}" alt="Sajad Digital Services" fetchpriority="high" decoding="async" width="239" height="48">
                             </a>
                         </div>
                         <nav id="navigation">
@@ -706,10 +707,9 @@
                             line-height: 0;
                             font-size: 0;
                         }
-                        /* Sized by height with the width left to follow, so the 4.27:1
-                           wordmark is never squeezed into the 5:1 box the old logo used. */
-                        #header #logo img.logo-light,
-                        #header #logo img.logo-dark {
+                        /* Sized by height with the width left to follow, so the 4.98:1
+                           lockup is never squeezed into a box of the wrong shape. */
+                        #header #logo img {
                             width: auto !important;
                             height: 52px !important;
                             max-width: none;
@@ -719,12 +719,7 @@
                             vertical-align: middle;
                             margin: 0 !important;
                         }
-                        /* Light mode: show light, hide dark */
-                        html:not(.dark-mode) #header #logo img.logo-light { display: block !important; }
-                        html:not(.dark-mode) #header #logo img.logo-dark  { display: none !important; }
-                        /* Dark mode: show dark, hide light */
-                        html.dark-mode #header #logo img.logo-light { display: none !important; }
-                        html.dark-mode #header #logo img.logo-dark  { display: block !important; }
+                        #header #logo img { display: block !important; }
 
                         /* Nav menu — centered between logo and right-side via flex */
                         #header #navigation {
@@ -1036,8 +1031,7 @@
                             #header .container { gap: 14px; }
                             #header .utf-left-side { gap: 22px; min-width: 0; }
                             #header #logo { min-width: 0; }
-                            #header #logo img.logo-light,
-                            #header #logo img.logo-dark {
+                            #header #logo img {
                                 width: auto !important;
                                 height: 40px !important;
                                 max-width: 100% !important;
@@ -1071,8 +1065,7 @@
                                 padding-right: 12px !important;
                                 margin-right: 8px !important;
                             }
-                            #header #logo img.logo-light,
-                            #header #logo img.logo-dark {
+                            #header #logo img {
                                 width: auto !important;
                                 height: 46px !important;
                                 max-width: 100% !important;
@@ -1183,8 +1176,7 @@
                                 opacity: 0 !important;
                             }
                             #header #logo { min-width: 0; }
-                            #header #logo img.logo-light,
-                            #header #logo img.logo-dark {
+                            #header #logo img {
                                 width: auto !important;
                                 height: 42px !important;
                             }
@@ -1192,8 +1184,7 @@
                         }
                         @media (max-width: 480px) {
                             #header #logo { min-width: 0; }
-                            #header #logo img.logo-light,
-                            #header #logo img.logo-dark {
+                            #header #logo img {
                                 width: auto !important;
                                 height: 38px !important;
                                 max-width: 100% !important;
@@ -1300,8 +1291,7 @@
                                 transform: translateX(17px) !important;
                             }
                             #header .mmenu-trigger .hamburger { padding: 7px !important; }
-                            #header #logo img.logo-light,
-                            #header #logo img.logo-dark {
+                            #header #logo img {
                                 max-width: 100% !important;
                                 object-fit: contain !important;
                                 object-position: center !important;
@@ -1381,8 +1371,7 @@
                            already centres its content, so the pair only lifted the mark
                            clear of the middle: measured on a phone it sat flush against
                            the top of a 64px bar with 32px of air beneath it. */
-                        #header #logo img.logo-light,
-                        #header #logo img.logo-dark {
+                        #header #logo img {
                             position: static !important;
                             top: auto !important;
                             transform: none !important;
@@ -1393,8 +1382,7 @@
                             justify-content: flex-start;
                         }
                         #header #logo a { padding: 0 !important; margin: 0 !important; }
-                        #header #logo img.logo-light,
-                        #header #logo img.logo-dark { align-self: center !important; }
+                        #header #logo img { align-self: center !important; }
 
                         @media (max-width: 1099px) {
                             #utf-header-container-block,
@@ -2024,8 +2012,8 @@
                         <div class="col-xl-4 col-md-12">
                             <div class="utf-footer-item-links">
                                 <a href="/"><img class="footer-logo" loading="lazy" decoding="async"
-                                        src="{{ asset('public/user/images/sajjad-dark-logo.png') }}" alt="Sajjad Digital Services"></a>
-                                <p>Sajjad Digital Services lists hand-checked openings in {{ $coverage->count() }} countries &mdash; {{ $coverage->topList() }} &mdash;
+                                        src="{{ asset('public/user/images/sajad-navbar.png') }}" alt="Sajad Digital Services" width="239" height="48"></a>
+                                <p>Sajad Digital Services lists hand-checked openings in {{ $coverage->count() }} countries &mdash; {{ $coverage->topList() }} &mdash;
                                     from general labour and hospitality through to skilled trades and senior
                                     engineering, alongside guides on which visa sponsorship routes are
                                     genuinely open. Free to search, and no account needed to apply.</p>
@@ -2109,7 +2097,7 @@
                     <div class="container-fluid px-5">
                         <div class="row">
                             <div class="col-xl-12">
-                                Copyright &copy; 2026 Sajjad Digital Services. All Rights Reserved.
+                                Copyright &copy; 2026 Sajad Digital Services. All Rights Reserved.
                                 <span class="footer-legal-links">
                                     <a href="{{ url('/privacy-policy') }}">Privacy Policy</a>
                                     <a href="{{ url('/terms-of-service') }}">Terms of Service</a>
@@ -2537,9 +2525,9 @@
             $waFloatNumber = preg_replace('/\D+/', '', (string) config('site.whatsapp'));
         @endphp
         @if($waFloatNumber !== '')
-            <a href="https://wa.me/{{ $waFloatNumber }}?text={{ rawurlencode('Hi, I found you on Sajjad Digital Services.') }}"
+            <a href="https://wa.me/{{ $waFloatNumber }}?text={{ rawurlencode('Hi, I found you on Sajad Digital Services.') }}"
                class="wa-float" target="_blank" rel="noopener"
-               aria-label="Message Sajjad Digital Services on WhatsApp">
+               aria-label="Message Sajad Digital Services on WhatsApp">
                 <i class="icon-brand-whatsapp" aria-hidden="true"></i>
                 <span>WhatsApp</span>
             </a>

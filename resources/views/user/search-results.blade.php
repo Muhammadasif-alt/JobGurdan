@@ -6,16 +6,16 @@
     $srLocLbl = $srLoc !== '' ? ucwords($srLoc) : '';
     if ($srPosLbl && $srLocLbl) {
         $srTitle = "{$srPosLbl} Jobs in {$srLocLbl} — Search Results";
-        $srDesc = "Find {$srPosLbl} jobs in {$srLocLbl} — verified listings, apply free on Sajjad Digital Services.";
+        $srDesc = "Find {$srPosLbl} jobs in {$srLocLbl} — verified listings, apply free on Sajad Digital Services.";
     } elseif ($srPosLbl) {
         $srTitle = "{$srPosLbl} Jobs — Search Results";
-        $srDesc = "Browse {$srPosLbl} job openings across the USA. Apply free with one click on Sajjad Digital Services.";
+        $srDesc = "Browse {$srPosLbl} job openings across the USA. Apply free with one click on Sajad Digital Services.";
     } elseif ($srLocLbl) {
         $srTitle = "Jobs in {$srLocLbl} — Search Results";
-        $srDesc = "Discover verified jobs in {$srLocLbl} across every industry. Apply free on Sajjad Digital Services.";
+        $srDesc = "Discover verified jobs in {$srLocLbl} across every industry. Apply free on Sajad Digital Services.";
     } else {
         $srTitle = 'Job Search Results — Find Verified U.S. Jobs';
-        $srDesc = 'Browse matched job results across the USA. Filter by category, location and salary — apply free with one click on Sajjad Digital Services.';
+        $srDesc = 'Browse matched job results across the USA. Filter by category, location and salary — apply free with one click on Sajad Digital Services.';
     }
 
     /*
