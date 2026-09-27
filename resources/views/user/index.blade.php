@@ -326,7 +326,23 @@
             text-align: center !important;
             justify-content: center !important;
         }
-        .intro-banner.intro-hero-v2 .hero-eyebrow .eyebrow-text { display: inline; }
+        /* The theme styles every span inside the headline block as hero copy:
+           white, 20px, block. That was harmless while this line was a bare text
+           node, and invisible the moment it was wrapped -- white text on a white
+           pill. It takes the pill's own type instead. */
+        .intro-banner.intro-hero-v2 .utf-banner-headline-text-part > span.hero-eyebrow .eyebrow-text {
+            display: inline !important;
+            color: inherit !important;
+            font-size: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+            letter-spacing: inherit !important;
+            text-align: inherit !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            max-width: none !important;
+            text-shadow: none !important;
+        }
         .intro-banner.intro-hero-v2 .hero-eyebrow .pulse-dot {
             font-size: 0 !important;
             line-height: 0 !important;

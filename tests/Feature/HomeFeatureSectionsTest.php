@@ -159,5 +159,9 @@ it('keeps the hero pill on one line on a phone', function () {
         ->toContain('white-space: nowrap !important;')
         // The pill hugs its own text rather than stretching to the lede's width.
         ->toContain('> span.hero-eyebrow {')
-        ->toContain('width: auto !important;');
+        ->toContain('width: auto !important;')
+        // The theme paints every span in the headline block white at 20px, which
+        // is invisible on a white pill, so the text takes the pill's own type.
+        ->toContain('> span.hero-eyebrow .eyebrow-text {')
+        ->toContain('color: inherit !important;');
 });
