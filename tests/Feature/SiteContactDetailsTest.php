@@ -39,13 +39,61 @@ it('shows the line and the address on every page that offers contact', function 
 it('carries them in the footer of every page', function (string $url) {
     $html = get($url)->assertOk()->getContent();
 
-    expect($html)->toContain('class="footer-contact-line"')
-        ->toContain('mailto:'.config('site.contact_email'));
+    // Call, email, then where we are — in that order, each with its own icon.
+    expect($html)->toContain('footer-contact-line footer-contact-list')
+        ->toContain('tel:'.siteDigits())
+        ->toContain('mailto:'.config('site.contact_email'))
+        ->toContain(config('site.address'));
+
+    $list = substr($html, strpos($html, 'footer-contact-line footer-contact-list'));
+    $list = substr($list, 0, strpos($list, '</ul>'));
+
+    expect(array_map(
+        fn (string $icon): string => trim($icon),
+        preg_split('#<i class="icon-feather-([a-z-]+)"></i>#', $list, -1, PREG_SPLIT_DELIM_CAPTURE)
+    ))->toContain('phone', 'mail', 'map-pin');
+
+    expect(strpos($list, 'phone'))->toBeLessThan(strpos($list, 'mail'))
+        ->and(strpos($list, 'mail'))->toBeLessThan(strpos($list, 'map-pin'));
 })->with([
     'home' => '/',
     'jobs' => '/jobs',
     'blog' => '/blog',
 ]);
+
+it('keeps the whole footer navigation on every page', function (string $url) {
+    // Quick Links replaced three columns of landing-page links; those moved to
+    // the jobs page, and nothing that was reachable stopped being reachable.
+    $html = get($url)->assertOk()->getContent();
+
+    // Scope to the footer: /jobs has headings of its own by the same names.
+    $footer = substr($html, strpos($html, '<div id="footer">'));
+
+    expect($footer)->toContain('<h3>Quick Links</h3>')
+        ->toContain('<h3>Contact</h3>')
+        ->toContain('<h3>Job Categories</h3>')
+        ->toContain('class="footer-legal-links"')
+        ->not->toContain('<h3>Remote &amp; Work Styles</h3>')
+        ->not->toContain('<h3>Experience Levels</h3>')
+        ->not->toContain('<h3>Locations</h3>');
+})->with([
+    'home' => '/',
+    'jobs' => '/jobs',
+    'blog' => '/blog',
+]);
+
+it('keeps the displaced landing pages linked from the jobs page', function () {
+    $html = get('/jobs')->assertOk()->getContent();
+
+    foreach (['remote-jobs-usa', 'work-from-home-jobs', 'online-jobs-usa',
+        'part-time-remote-jobs', 'entry-level-remote-jobs', 'entry-level-jobs',
+        'no-experience-jobs', 'graduate-jobs', 'internship-jobs'] as $page) {
+        expect($html)->toContain('href="'.route('pages.'.$page).'"');
+    }
+
+    expect($html)->toContain('href="'.route('jobs.locations').'"')
+        ->toContain('href="'.route('jobs.categories').'"');
+});
 
 it('names the phone in the organisation schema', function (string $url) {
     $html = get($url)->assertOk()->getContent();

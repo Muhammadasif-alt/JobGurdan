@@ -92,11 +92,38 @@ class SiteCoverage
      */
     public function shortList(string $conjunction = 'and'): string
     {
-        return $this->join(array_map(function (string $country): string {
+        return $this->join($this->shortNames(), $conjunction);
+    }
+
+    /**
+     * The busiest countries named and the rest counted: "the USA, the UK,
+     * Pakistan and 13 more". countries() is ordered by open listings, so the
+     * ones named are the ones with the most work on them.
+     *
+     * Body copy can carry the full list; a card or a badge cannot, and at
+     * sixteen countries the full list was pushing those out of their boxes.
+     */
+    public function topList(int $limit = 3): string
+    {
+        $names = $this->shortNames();
+
+        if (count($names) <= $limit) {
+            return $this->join($names, 'and');
+        }
+
+        return implode(', ', array_slice($names, 0, $limit)).' and '.(count($names) - $limit).' more';
+    }
+
+    /**
+     * @return list<string>
+     */
+    private function shortNames(): array
+    {
+        return array_map(function (string $country): string {
             $short = self::SHORT_NAMES[$country] ?? $country;
 
             return in_array($short, self::NEEDS_ARTICLE, true) ? 'the '.$short : $short;
-        }, $this->countries()), $conjunction);
+        }, $this->countries());
     }
 
     /**

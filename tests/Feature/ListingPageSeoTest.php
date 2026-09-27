@@ -258,12 +258,23 @@ it('links the canonical location pages rather than filtered search urls', functi
         ->and($html)->not->toContain('jobs?location=');
 });
 
-it('links a canonical location page from the footer of every page', function () {
-    foreach (['/', '/jobs', '/blog'] as $path) {
-        $html = $this->get($path)->assertOk()->getContent();
+it('links a canonical location page rather than a filtered search', function () {
+    // The footer carried these on every page until Quick Links took the
+    // column; they moved to the jobs page, where somebody is already
+    // browsing. Either way the link has to be the indexable /location/{id}
+    // form, never ?location=, which is noindex once filtered.
+    $html = $this->get('/jobs')->assertOk()->getContent();
 
-        expect($html)->toContain('/location/'.$this->location->id, $path)
-            ->and($html)->not->toContain('search?location=', $path);
+    expect($html)->toContain('/location/'.$this->location->id)
+        ->not->toContain('search?location=');
+});
+
+it('keeps the locations hub one click away from every page', function () {
+    // Individual locations left the footer; the page that lists all of them
+    // did not, so nothing became unreachable.
+    foreach (['/', '/jobs', '/blog'] as $path) {
+        expect($this->get($path)->assertOk()->getContent())
+            ->toContain('href="'.route('jobs.locations').'"', $path);
     }
 });
 

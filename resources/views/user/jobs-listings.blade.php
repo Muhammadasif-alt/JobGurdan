@@ -9,13 +9,13 @@
         $pageDesc = "Browse verified {$posLabel} jobs in {$locLabel}. Apply free with one click on Sajjad Digital Services — new openings daily.";
     } elseif ($posLabel) {
         $pageTitle = "{$posLabel} Jobs — Hiring Now, Apply Free";
-        $pageDesc = "Search {$posLabel} jobs across {$coverage->shortList()}. Hand-checked listings, free to apply on Sajjad Digital Services with no account needed.";
+        $pageDesc = "Search {$posLabel} jobs across {$coverage->topList()}. Hand-checked listings, free to apply on Sajjad Digital Services with no account needed.";
     } elseif ($locLabel) {
         $pageTitle = "Jobs in {$locLabel} — Browse Verified Listings";
         $pageDesc = "Find jobs in {$locLabel} across every industry. Verified listings, free to apply on Sajjad Digital Services — updated daily.";
     } else {
         $pageTitle = 'Browse Jobs — Find Verified Listings, Apply Free';
-        $pageDesc = 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . ' hand-checked jobs across ' . $coverage->shortList() . '. Filter by location or category. Free to apply, no account needed.';
+        $pageDesc = 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . ' hand-checked jobs across ' . $coverage->topList() . '. Filter by location or category. Free to apply, no account needed.';
     }
 
     /*
@@ -837,8 +837,8 @@
     <div class="container">
         <header class="section-head">
             <span class="eyebrow">Explore More</span>
-            <h2 id="explore-heading">Browse Jobs by Industry &amp; State</h2>
-            <p>Narrow your search to the role and location that fits you best — explore the top hiring industries and most active U.S. job markets right now.</p>
+            <h2 id="explore-heading">Browse Jobs by Industry, Location &amp; Work Style</h2>
+            <p>Narrow your search to the role, the place and the arrangement that fit you — the industries and markets hiring most right now, plus the remote and entry-level routes people ask for by name.</p>
         </header>
 
         <div class="explore-grid">
@@ -855,14 +855,39 @@
             </div>
 
             <div class="explore-card">
-                <h3>Top Hiring States</h3>
+                <h3>Top Hiring Locations</h3>
                 <div class="explore-pills">
                     @foreach($topStates as $state)
-                        <a href="{{ route('jobs.index', ['location' => $state->name]) }}" title="Browse jobs in {{ $state->name }}">
+                        <a href="{{ ($state->location_id ?? null) ? route('jobs.location', $state->location_id) : route('jobs.search', ['location' => $state->name]) }}"
+                           title="Browse jobs in {{ $state->name }}">
                             {{ $state->name }}
                             <span class="num">{{ number_format($state->job_count) }}</span>
                         </a>
                     @endforeach
+                    <a href="{{ route('jobs.locations') }}" title="Browse every location">All locations</a>
+                </div>
+            </div>
+
+            <div class="explore-card">
+                <h3>Remote &amp; Work Styles</h3>
+                <div class="explore-pills">
+                    <a href="{{ route('pages.remote-jobs-usa') }}">Remote Jobs USA</a>
+                    <a href="{{ route('pages.work-from-home-jobs') }}">Work From Home Jobs</a>
+                    <a href="{{ route('pages.online-jobs-usa') }}">Online Jobs USA</a>
+                    <a href="{{ route('pages.part-time-remote-jobs') }}">Part-Time Remote Jobs</a>
+                    <a href="{{ route('pages.entry-level-remote-jobs') }}">Entry Level Remote Jobs</a>
+                </div>
+            </div>
+
+            <div class="explore-card">
+                <h3>Experience Levels</h3>
+                <div class="explore-pills">
+                    <a href="{{ route('pages.entry-level-jobs') }}">Entry Level Jobs</a>
+                    <a href="{{ route('pages.no-experience-jobs') }}">No Experience Jobs</a>
+                    <a href="{{ route('pages.graduate-jobs') }}">Graduate Jobs</a>
+                    <a href="{{ route('pages.internship-jobs') }}">Internship Jobs</a>
+                    <a href="{{ route('jobs.locations') }}">All Locations</a>
+                    <a href="{{ route('jobs.categories') }}">All Categories</a>
                 </div>
             </div>
         </div>

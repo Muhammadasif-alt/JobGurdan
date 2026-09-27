@@ -765,7 +765,7 @@
         ['q' => 'Should I ever pay a fee for a job or a visa?',
          'a' => 'No. Charging a worker for a job offer or for visa sponsorship is illegal in the US and the UK. Treat any upfront fee as a scam.'],
         ['q' => 'Which countries does Sajjad Digital Services cover?',
-         'a' => 'The '.$coverage->shortList().', across transport, hospitality, care, construction, cleaning, retail, marketing and software roles.'],
+         'a' => 'Openings in '.$coverage->shortList().', across transport, hospitality, care, construction, cleaning, retail, marketing and software roles.'],
         ['q' => 'How often are listings updated?',
          'a' => 'New listings and guides go up every week, with the newest openings first on the home page and the jobs board.'],
     ];

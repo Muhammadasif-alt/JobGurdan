@@ -45,7 +45,7 @@
 @section('meta_description', 'Jobs, internships and scholarships for students and graduates, with pay, deadlines and visa rules checked against official sources. Free to apply.')
 @section('meta_keywords', 'jobs for students, scholarships for international students, study abroad scholarships, internships, graduate jobs, part-time jobs, jobs with visa sponsorship, work abroad, cv writing service')
 @section('og_title', 'Sajjad Digital Services | Jobs, Scholarships & Visa Guides for Students')
-@section('og_description', 'Jobs across '.$coverage->shortList().' and scholarships to study abroad, with the facts checked against official sources. Free to apply; CV writing on WhatsApp.')
+@section('og_description', 'Jobs across '.$coverage->topList().' and scholarships to study abroad, with the facts checked against official sources. Free to apply; CV writing on WhatsApp.')
 @section('og_image', asset('public/user/images/home-background-03.jpg'))
 @section('canonical', url('/'))
 
@@ -53,7 +53,7 @@
     {{-- Twitter card --}}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sajjad Digital Services — Jobs, Scholarships & Visa Guides for Students">
-    <meta name="twitter:description" content="Jobs across {{ $coverage->shortList() }} and scholarships to study abroad, checked against official sources. Free to apply.">
+    <meta name="twitter:description" content="Jobs across {{ $coverage->topList() }} and scholarships to study abroad, checked against official sources. Free to apply.">
     <meta name="twitter:image" content="{{ asset('public/user/images/home-background-03.jpg') }}">
     <meta name="author" content="Sajjad Digital Services">
     <meta property="og:type" content="website">

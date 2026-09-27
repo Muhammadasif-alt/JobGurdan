@@ -97,3 +97,26 @@ it('states the mission and the vision the owner set', function () {
     expect($html)->toContain('reliable, affordable digital services within reach')
         ->toContain('digital services desk people in Pakistan trust by default');
 });
+
+it('no longer runs a list of US states under a heading about countries', function () {
+    // Fifteen US states sat under "Hiring across 16 countries", and the
+    // standards strip below it repeated the six cards above it.
+    $html = aboutHtml();
+
+    expect($html)->not->toContain('states-chips')
+        ->not->toContain('press-strip')
+        ->not->toContain('Hiring across')
+        ->not->toContain('Browse top-paying jobs by state');
+});
+
+it('keeps every country box down to something that fits in it', function () {
+    // The country cells held all sixteen names, so the card ran past its
+    // neighbours in the grid and the hero float wrapped to six lines.
+    $html = aboutHtml();
+
+    $coverage = app(App\Services\SiteCoverage::class);
+
+    expect($html)->toContain($coverage->topList(2))
+        // "The " in front of a list that already writes "the USA".
+        ->not->toContain('The the ');
+});

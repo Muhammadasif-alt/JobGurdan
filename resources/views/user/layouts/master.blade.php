@@ -20,7 +20,7 @@
     @php
         $metaDescription =
             trim($__env->yieldContent('meta_description')) ?:
-            'Find hand-checked job openings across '.$coverage->shortList().'. Search by location, category and experience level on Sajjad Digital Services — free to apply, no account needed.';
+            'Find hand-checked job openings across '.$coverage->topList().'. Search by location, category and experience level on Sajjad Digital Services — free to apply, no account needed.';
         // Google truncates past roughly 160 characters. The country list is
         // read from the listings now, so an authored description can grow past
         // that on its own when a new country is added.
@@ -1834,6 +1834,72 @@
             }
             #footer .utf-footer-item-links ul li::before { display: none !important; }
 
+            /* Contact column. The link columns hide their chevrons; here each
+               line is a different kind of contact, so the icon is the point.
+               Every selector carries ul.footer-contact-list so it outranks the
+               generic "span { font: inherit !important }" above. */
+            #footer .utf-footer-item-links ul.footer-contact-list { margin: 0; }
+            #footer .utf-footer-item-links ul.footer-contact-list li { margin-bottom: 2px; }
+            #footer .utf-footer-item-links ul.footer-contact-list li a,
+            #footer .utf-footer-item-links ul.footer-contact-list li .footer-contact-static {
+                display: flex !important;
+                align-items: center;
+                gap: 11px;
+                padding: 7px 0 !important;
+                color: #eaf3fd !important;
+                text-decoration: none !important;
+            }
+            #footer .utf-footer-item-links ul.footer-contact-list li a i,
+            #footer .utf-footer-item-links ul.footer-contact-list li .footer-contact-static i {
+                display: inline-flex !important;
+                align-items: center;
+                justify-content: center;
+                width: 34px !important;
+                height: 34px !important;
+                flex: 0 0 34px;
+                border-radius: 9px;
+                background: rgba(255,255,255,.12);
+                border: 1px solid rgba(255,255,255,.22);
+                color: #ffffff !important;
+                font-size: 15px !important;
+                margin: 0 !important;
+                transition: background .15s ease, border-color .15s ease;
+            }
+            #footer .utf-footer-item-links ul.footer-contact-list li a > span,
+            #footer .utf-footer-item-links ul.footer-contact-list li .footer-contact-static > span {
+                font-size: 14.5px !important;
+                line-height: 1.4 !important;
+                font-weight: 400 !important;
+                word-break: break-word;
+                min-width: 0;
+            }
+            #footer .utf-footer-item-links ul.footer-contact-list li span strong {
+                display: block;
+                font-size: 11.5px !important;
+                font-weight: 700 !important;
+                letter-spacing: .7px;
+                text-transform: uppercase;
+                color: rgba(255,255,255,.60) !important;
+                margin-bottom: 1px;
+            }
+            #footer .utf-footer-item-links ul.footer-contact-list li a:hover {
+                transform: none !important;
+                color: #ffffff !important;
+            }
+            #footer .utf-footer-item-links ul.footer-contact-list li a:hover i {
+                background: rgba(77,158,255,.28);
+                border-color: rgba(255,255,255,.62);
+            }
+            #footer .utf-footer-item-links ul.footer-contact-list li .footer-contact-static { cursor: default; }
+
+            /* Privacy / terms sit beside the copyright now. */
+            #footer .footer-legal-links { display: inline-flex; flex-wrap: wrap; gap: 18px; margin-left: 18px; }
+            #footer .footer-legal-links a { color: inherit !important; text-decoration: none !important; opacity: .85; }
+            #footer .footer-legal-links a:hover { opacity: 1; text-decoration: underline !important; }
+            @media (max-width: 575px) {
+                #footer .footer-legal-links { margin: 10px 0 0; justify-content: center; width: 100%; }
+            }
+
             /* Hub link — promotes the "All Categories" / "All Locations" landing pages */
             #footer .utf-footer-item-links ul li a.footer-hub-link {
                 color: #fff !important;
@@ -1959,32 +2025,14 @@
                             <div class="utf-footer-item-links">
                                 <a href="/"><img class="footer-logo" loading="lazy" decoding="async"
                                         src="{{ asset('public/user/images/sajjad-dark-logo.png') }}" alt="Sajjad Digital Services"></a>
-                                <p>Sajjad Digital Services lists hand-checked openings across {{ $coverage->shortList() }},
+                                <p>Sajjad Digital Services lists hand-checked openings in {{ $coverage->count() }} countries &mdash; {{ $coverage->topList() }} &mdash;
                                     from general labour and hospitality through to skilled trades and senior
-                                    engineering &mdash; alongside guides on which visa sponsorship routes are
+                                    engineering, alongside guides on which visa sponsorship routes are
                                     genuinely open. Free to search, and no account needed to apply.</p>
-                                <p class="footer-contact-line">
-                                    <a href="tel:{{ preg_replace('/\D+/', '', config('site.phone')) }}">{{ config('site.phone') }}</a>
-                                    &nbsp;·&nbsp;
-                                    <a href="mailto:{{ config('site.contact_email') }}">{{ config('site.contact_email') }}</a>
-                                </p>
-                                {{-- Companies and Talent moved down here when About and
-                                     Partners took their place in the header. --}}
-                                <p>
-                                    <a href="{{ url('/about-us') }}">About Us</a> &nbsp;·&nbsp;
-                                    <a href="{{ route('partners') }}">Partners</a> &nbsp;·&nbsp;
-                                    <a href="{{ route('jobs.companies') }}">Companies</a> &nbsp;·&nbsp;
-                                    <a href="{{ route('job-seekers.index') }}">Talent</a> &nbsp;·&nbsp;
-                                    <a href="{{ route('contact.us') }}">Contact</a>
-                                </p>
-                                <p>
-                                    <a href="{{ url('/privacy-policy') }}">Privacy Policy</a> &nbsp;·&nbsp;
-                                    <a href="{{ url('/terms-of-service') }}">Terms of Service</a>
-                                </p>
                             </div>
                         </div>
 
-                        <div class="col-xl-2 col-md-3 col-sm-6">
+                        <div class="col-xl-3 col-md-3 col-sm-6">
                             <div class="utf-footer-item-links">
                                 <h3>Job Categories</h3>
                                 <ul>
@@ -2002,63 +2050,56 @@
 
                         <div class="col-xl-2 col-md-3 col-sm-6">
                             <div class="utf-footer-item-links">
-                                <h3>Locations</h3>
+                                <h3>Quick Links</h3>
                                 <ul>
-                                    <li><a href="{{ route('jobs.locations') }}" class="footer-hub-link"><i
-                                                class="icon-feather-map-pin"></i> <span><strong>Browse All Locations</strong></span></a>
+                                    <li><a href="{{ url('/about-us') }}"><i class="icon-feather-chevron-right"></i> <span>About Us</span></a></li>
+                                    <li><a href="{{ route('partners') }}"><i class="icon-feather-chevron-right"></i> <span>Partners</span></a></li>
+                                    <li><a href="{{ route('jobs.companies') }}"><i class="icon-feather-chevron-right"></i> <span>Companies</span></a></li>
+                                    <li><a href="{{ route('job-seekers.index') }}"><i class="icon-feather-chevron-right"></i> <span>Talent</span></a></li>
+                                    <li><a href="{{ route('jobs.locations') }}"><i class="icon-feather-chevron-right"></i> <span>All Locations</span></a></li>
+                                    <li><a href="{{ route('resume-writing') }}"><i class="icon-feather-chevron-right"></i> <span>Resume Writing</span></a></li>
+                                    <li><a href="{{ route('scholarships.index') }}"><i class="icon-feather-chevron-right"></i> <span>Scholarships</span></a></li>
+                                    <li><a href="{{ route('blog.index') }}"><i class="icon-feather-chevron-right"></i> <span>Career Advice</span></a></li>
+                                    <li><a href="{{ route('contact.us') }}"><i class="icon-feather-chevron-right"></i> <span>Contact</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-6 col-sm-12">
+                            <div class="utf-footer-item-links">
+                                <h3>Contact</h3>
+                                {{-- One line, one address, one place — read from config so the
+                                     site cannot end up quoting four mailboxes again. --}}
+                                <ul class="footer-contact-line footer-contact-list">
+                                    <li>
+                                        <a href="tel:{{ preg_replace('/\D+/', '', config('site.phone')) }}">
+                                            <i class="icon-feather-phone"></i>
+                                            <span><strong>Call us</strong>{{ config('site.phone') }}</span>
+                                        </a>
                                     </li>
-                                    @foreach(($footerStates ?? collect()) as $state)
-                                        <li><a href="{{ ($state->location_id ?? null) ? route('jobs.location', $state->location_id) : route('jobs.search', ['location' => $state->name]) }}"><i
-                                                    class="icon-feather-chevron-right"></i> <span>Jobs in {{ $state->name }}</span></a>
+                                    <li>
+                                        <a href="mailto:{{ config('site.contact_email') }}">
+                                            <i class="icon-feather-mail"></i>
+                                            <span><strong>Email us</strong>{{ config('site.contact_email') }}</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <span class="footer-contact-static">
+                                            <i class="icon-feather-map-pin"></i>
+                                            <span><strong>Find us</strong>{{ config('site.address') }}</span>
+                                        </span>
+                                    </li>
+                                    @if($waNumber = preg_replace('/\D+/', '', (string) config('site.whatsapp')))
+                                        <li>
+                                            <a href="https://wa.me/{{ $waNumber }}" target="_blank" rel="noopener">
+                                                <i class="icon-feather-message-circle"></i>
+                                                <span><strong>WhatsApp</strong>{{ config('site.phone_local') }}</span>
+                                            </a>
                                         </li>
-                                    @endforeach
+                                    @endif
                                 </ul>
                             </div>
                         </div>
-
-                        <div class="col-xl-2 col-md-3 col-sm-6">
-                            <div class="utf-footer-item-links">
-                                <h3>Remote & Work Styles</h3>
-                                <ul>
-                                    <li><a href="{{ route('pages.remote-jobs-usa') }}"><i
-                                                class="icon-feather-chevron-right"></i> <span>Remote Jobs
-                                                USA</span></a></li>
-                                    <li><a href="{{ route('pages.work-from-home-jobs') }}"><i
-                                                class="icon-feather-chevron-right"></i> <span>Work From Home
-                                                Jobs</span></a></li>
-                                    <li><a href="{{ route('pages.online-jobs-usa') }}"><i
-                                                class="icon-feather-chevron-right"></i> <span>Online Jobs
-                                                USA</span></a></li>
-                                    <li><a href="{{ route('pages.part-time-remote-jobs') }}"><i
-                                                class="icon-feather-chevron-right"></i> <span>Part-Time Remote
-                                                Jobs</span></a></li>
-                                    <li><a href="{{ route('pages.entry-level-remote-jobs') }}"><i
-                                                class="icon-feather-chevron-right"></i> <span>Entry Level Remote
-                                                Jobs</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-md-3 col-sm-6">
-                            <div class="utf-footer-item-links">
-                                <h3>Experience Levels</h3>
-                                <ul>
-                                    <li><a href="{{ route('pages.entry-level-jobs') }}"><i
-                                                class="icon-feather-chevron-right"></i> <span>Entry Level
-                                                Jobs</span></a></li>
-                                    <li><a href="{{ route('pages.no-experience-jobs') }}"><i
-                                                class="icon-feather-chevron-right"></i> <span>No Experience
-                                                Jobs</span></a></li>
-                                    <li><a href="{{ route('pages.graduate-jobs') }}"><i
-                                                class="icon-feather-chevron-right"></i> <span>Graduate Jobs</span></a>
-                                    </li>
-                                    <li><a href="{{ route('pages.internship-jobs') }}"><i
-                                                class="icon-feather-chevron-right"></i> <span>Internship
-                                                Jobs</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
 
                     </div>
                 </div>
@@ -2067,7 +2108,14 @@
                 <div class="utf-footer-copyright-item">
                     <div class="container-fluid px-5">
                         <div class="row">
-                            <div class="col-xl-12">Copyright &copy; 2026 Sajjad Digital Services. All Rights Reserved.</div>
+                            <div class="col-xl-12">
+                                Copyright &copy; 2026 Sajjad Digital Services. All Rights Reserved.
+                                <span class="footer-legal-links">
+                                    <a href="{{ url('/privacy-policy') }}">Privacy Policy</a>
+                                    <a href="{{ url('/terms-of-service') }}">Terms of Service</a>
+                                    <a href="{{ url('/disclaimer') }}">Disclaimer</a>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>

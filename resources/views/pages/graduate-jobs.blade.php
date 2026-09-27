@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
 @section('title', 'Graduate Jobs — Schemes, Salaries and Timing')
-@section('meta_description', 'Graduate jobs and schemes across '.$coverage->shortList().': typical starting salaries, when applications open, and how the selection process works.')
+@section('meta_description', 'Graduate jobs and schemes across '.$coverage->topList().': typical starting salaries, when applications open, and how the selection process works.')
 @section('og_title', 'Graduate Jobs — Schemes, Salaries and Timing')
-@section('og_description', 'Graduate jobs and schemes across '.$coverage->shortList().': typical starting salaries, when applications open, and how the selection process works.')
+@section('og_description', 'Graduate jobs and schemes across '.$coverage->topList().': typical starting salaries, when applications open, and how the selection process works.')
 @section('canonical', url()->current())
 
 @section('content')

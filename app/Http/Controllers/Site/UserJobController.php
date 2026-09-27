@@ -217,10 +217,13 @@ class UserJobController extends Controller
                 ->take(8)
                 ->get();
         });
-        $topStates = Cache::remember('jobs.topStates', 600, function () {
+        // location_id so the page can link /location/{id}, which is indexable,
+        // rather than ?location=, which is noindex once filtered. Names repeat
+        // across rows, so take the lowest id for each.
+        $topStates = Cache::remember('jobs.topStates.v2', 600, function () {
             return DB::table('jobs')
                 ->join('locations', 'jobs.location_id', '=', 'locations.id')
-                ->select('locations.name', DB::raw('COUNT(jobs.id) as job_count'))
+                ->select('locations.name', DB::raw('MIN(locations.id) as location_id'), DB::raw('COUNT(jobs.id) as job_count'))
                 ->groupBy('locations.name')
                 ->orderByDesc('job_count')
                 ->take(10)

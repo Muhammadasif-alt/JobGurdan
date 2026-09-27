@@ -51,8 +51,8 @@ it('keeps Companies and Talent reachable from the footer of every page', functio
     // crawlable — and the only way a visitor still finds them.
     $html = get($url)->assertOk()->getContent();
 
-    expect($html)->toContain('<a href="'.route('jobs.companies').'">Companies</a>')
-        ->toContain('<a href="'.route('job-seekers.index').'">Talent</a>');
+    expect($html)->toContain('href="'.route('jobs.companies').'"><i class="icon-feather-chevron-right"></i> <span>Companies</span>')
+        ->toContain('href="'.route('job-seekers.index').'"><i class="icon-feather-chevron-right"></i> <span>Talent</span>');
 })->with([
     'home' => '/',
     'jobs' => '/jobs',

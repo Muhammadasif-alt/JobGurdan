@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
 @section('title', 'Entry Level Remote Jobs — Realistic Routes')
-@section('meta_description', 'Entry level remote jobs across '.$coverage->shortList().': which junior roles hire remotely, what they pay, and how to compete without experience.')
+@section('meta_description', 'Entry level remote jobs across '.$coverage->topList().': which junior roles hire remotely, what they pay, and how to compete without experience.')
 @section('og_title', 'Entry Level Remote Jobs — Realistic Routes')
-@section('og_description', 'Entry level remote jobs across '.$coverage->shortList().': which junior roles hire remotely, what they pay, and how to compete without experience.')
+@section('og_description', 'Entry level remote jobs across '.$coverage->topList().': which junior roles hire remotely, what they pay, and how to compete without experience.')
 @section('canonical', url()->current())
 
 @section('content')

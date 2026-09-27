@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
 @section('title', 'Customer Service Jobs — Pay, Skills and Openings')
-@section('meta_description', 'Customer service and call centre jobs across '.$coverage->shortList().'. What the roles pay, what employers screen for, and how to apply free.')
+@section('meta_description', 'Customer service and call centre jobs across '.$coverage->topList().'. What the roles pay, what employers screen for, and how to apply free.')
 @section('og_title', 'Customer Service Jobs — Pay, Skills and Openings')
-@section('og_description', 'Customer service and call centre jobs across '.$coverage->shortList().'. What the roles pay, what employers screen for, and how to apply free.')
+@section('og_description', 'Customer service and call centre jobs across '.$coverage->topList().'. What the roles pay, what employers screen for, and how to apply free.')
 @section('canonical', url()->current())
 
 @section('content')

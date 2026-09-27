@@ -159,3 +159,59 @@ it('sends the duplicate contact page to the one that is in the sitemap', functio
     expect($body)->toContain(route('contact.us'))
         ->not->toContain('href="'.url('/contact').'"');
 });
+
+it('names the busiest countries and counts the rest where a full list will not fit', function () {
+    $this->seed(DriverJobsSaudiBlogSeeder::class);
+    $this->seed(CleanerJobsSaudiBlogSeeder::class);
+    $this->seed(ConstructionUsaBlogSeeder::class);
+    $this->seed(CleanerLondonBlogSeeder::class);
+    $this->seed(FrontendDeveloperLahoreSeeder::class);
+
+    $coverage = app(SiteCoverage::class);
+
+    expect($coverage->count())->toBe(4)
+        ->and($coverage->topList(2))->toBe('Saudi Arabia, Pakistan and 2 more')
+        // Under the limit there is nothing to count, so it reads as a plain list.
+        ->and($coverage->topList(9))->toBe($coverage->shortList());
+});
+
+it('never prints an article in front of a list that already has one', function () {
+    // shortList() writes "the USA", so "The {{ shortList() }}" rendered
+    // "The the USA, the UK, ..." on the about page and the landing pages.
+    $offenders = [];
+
+    foreach (array_merge(
+        glob(resource_path('views/*.blade.php')),
+        glob(resource_path('views/**/*.blade.php')),
+        glob(resource_path('views/**/**/*.blade.php'))
+    ) as $file) {
+        $body = file_get_contents($file);
+
+        foreach (['The {{ $coverage->shortList()', "'The '.\$coverage->shortList(", 'The {$coverage->shortList('] as $phrase) {
+            if (str_contains($body, $phrase)) {
+                $offenders[] = basename($file);
+            }
+        }
+    }
+
+    expect($offenders)->toBeEmpty();
+});
+
+it('keeps the meta description short enough to survive the 158 character cut', function (string $url) {
+    // Sixteen country names ate the whole description and Google was shown a
+    // list of countries truncated mid-word, with the sentence gone.
+    $html = get($url)->assertOk()->getContent();
+
+    preg_match('#<meta name="description" content="([^"]*)"#', $html, $m);
+
+    expect($m[1] ?? '')->not->toBeEmpty()
+        ->and(mb_strlen($m[1]))->toBeLessThanOrEqual(158)
+        // The cut strips the trailing punctuation with the half-word, so a
+        // description that still ends in a full stop is one that survived.
+        ->and(str_ends_with($m[1], '.'))->toBeTrue($m[1]);
+})->with([
+    'home' => '/',
+    'jobs' => '/jobs',
+    'about' => '/about-us',
+    'companies' => '/companies',
+]);

@@ -16,8 +16,12 @@ class AdminCleanupTest extends TestCase
 
     public function test_admin_can_cleanup_all_records()
     {
-        // Create a verified user
-        $user = User::factory()->create(['email_verified_at' => now()]);
+        // A verified admin. Without the role the admin middleware sends the
+        // request to the role dashboard, which for a roleless user is home.
+        $user = User::factory()->create([
+            'email_verified_at' => now(),
+            'role' => User::ROLE_ADMIN,
+        ]);
 
         // Seed some data
         $advertiser = Advertiser::create(['name' => 'ACME']);

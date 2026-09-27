@@ -1,9 +1,9 @@
 @extends('user.layouts.master')
 @section('title', 'About Us — Jobs and Honest Visa Guides')
-@section('meta_description', 'Why Sajjad Digital Services exists: hand-checked listings across '.$coverage->shortList().', and visa guides that say which routes are open and which are closed.')
+@section('meta_description', 'Sajad Rao founded Sajjad Digital Services in 2022. Hand-checked jobs, scholarships and CV help across '.$coverage->topList().'.')
 @section('meta_keywords', 'about sajjad digital services, job board, visa sponsorship guides, jobs usa uk pakistan, free job search, jobs for foreigners, work abroad, hand checked job listings')
 @section('og_title', 'About Us — Jobs and Honest Visa Guides')
-@section('og_description', 'Hand-checked jobs across '.$coverage->shortList().', plus visa guides that tell you which sponsorship routes are actually open.')
+@section('og_description', 'Hand-checked jobs across '.$coverage->topList().', plus visa guides that tell you which sponsorship routes are actually open.')
 @section('og_image', asset('public/user/images/single-company.jpg'))
 @section('canonical', route('about.us'))
 
@@ -11,7 +11,7 @@
     {{-- Twitter card --}}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="About Us — Jobs and Honest Visa Guides">
-    <meta name="twitter:description" content="Hand-checked jobs across {{ $coverage->shortList() }}, plus visa guides that say which routes are open.">
+    <meta name="twitter:description" content="Hand-checked jobs across {{ $coverage->topList() }}, plus visa guides that say which routes are open.">
     <meta name="twitter:image" content="{{ asset('public/user/images/single-company.jpg') }}">
     <meta name="author" content="Sajjad Digital Services">
     <meta property="og:type" content="website">
@@ -115,7 +115,7 @@
                 "name": "Which countries and industries do you cover?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
-                    "text": "The {{ $coverage->shortList() }}, across transport and logistics, hospitality, healthcare and care, construction and trades, cleaning and facilities, marketing, and IT and software."
+                    "text": "Openings in {{ $coverage->shortList() }}, across transport and logistics, hospitality, healthcare and care, construction and trades, cleaning and facilities, marketing, and IT and software."
                 }
             },
             {
@@ -614,33 +614,6 @@
     .industry-card:hover .ico { background: #16305a; }
     .industry-card .name { font-size: 14px; font-weight: 600; color: #1b3a6b; line-height: 1.3; }
 
-    /* States chips */
-    .states-chips {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center;
-        max-width: 900px;
-        margin: 30px auto 0;
-    }
-    .states-chips a {
-        background: #fff;
-        border: 1px solid #ececec;
-        color: #16305a;
-        padding: 9px 16px;
-        border-radius: 999px;
-        font-size: 13px;
-        font-weight: 500;
-        text-decoration: none;
-        transition: all .15s ease;
-    }
-    .states-chips a:hover {
-        background: #1b3a6b;
-        border-color: #1b3a6b;
-        color: #fff;
-        transform: translateY(-1px);
-    }
-
     /* Visible FAQ */
     .about-faq-list { max-width: 880px; margin: 0 auto; }
     .about-faq-item {
@@ -1015,7 +988,7 @@
                         <div class="ico"><i class="icon-feather-globe"></i></div>
                         <div>
                             <strong>{{ $coverage->count() }} Countries</strong>
-                            <span>{{ $coverage->shortList() }}</span>
+                            <span>{{ $coverage->topList(2) }}</span>
                         </div>
                     </div>
                     <div class="about-hero-float br">
@@ -1296,28 +1269,6 @@
                 </a>
             </div>
 
-            <div style="text-align:center; margin-top:50px;">
-                <h3 style="font-size:22px; font-weight:700; color:#16305a; margin-bottom:8px;">Hiring across {{ $coverage->countWordLower() }} countries</h3>
-                <p style="font-size:14px; color:#5a5a5a; margin:0;">Browse top-paying jobs by state — from coast to coast.</p>
-                <div class="states-chips">
-                    <a href="{{ route('pages.jobs-in-texas') }}">Texas</a>
-                    <a href="{{ route('pages.jobs-in-california') }}">California</a>
-                    <a href="{{ route('pages.jobs-in-new-york') }}">New York</a>
-                    <a href="{{ route('pages.jobs-in-florida') }}">Florida</a>
-                    <a href="{{ route('pages.jobs-in-illinois') }}">Illinois</a>
-                    <a href="{{ route('pages.jobs-in-pennsylvania') }}">Pennsylvania</a>
-                    <a href="{{ route('pages.jobs-in-ohio') }}">Ohio</a>
-                    <a href="{{ route('pages.jobs-in-georgia') }}">Georgia</a>
-                    <a href="{{ route('pages.jobs-in-north-carolina') }}">North Carolina</a>
-                    <a href="{{ route('pages.jobs-in-michigan') }}">Michigan</a>
-                    <a href="{{ route('pages.jobs-in-new-jersey') }}">New Jersey</a>
-                    <a href="{{ route('pages.jobs-in-virginia') }}">Virginia</a>
-                    <a href="{{ route('pages.jobs-in-washington') }}">Washington</a>
-                    <a href="{{ route('pages.jobs-in-arizona') }}">Arizona</a>
-                    <a href="{{ route('pages.jobs-in-massachusetts') }}">Massachusetts</a>
-                    <a href="{{ route('pages.remote-jobs-usa') }}">Remote Jobs</a>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -1358,8 +1309,8 @@
                 <article class="press-card">
                     <div class="press-ico"><i class="icon-feather-globe"></i></div>
                     <h3>{{ $coverage->countWord() }} Countries Covered</h3>
-                    <p>The {{ $coverage->shortList() }} — spanning transport, hospitality, care, construction, cleaning, marketing and software roles.</p>
-                    <span class="press-badge">USA · UK · PK</span>
+                    <p>Openings in {{ $coverage->topList() }} &mdash; spanning transport, hospitality, care, construction, cleaning, marketing and software roles.</p>
+                    <span class="press-badge">{{ $coverage->count() }} countries</span>
                 </article>
                 <article class="press-card">
                     <div class="press-ico"><i class="icon-feather-zap"></i></div>
@@ -1367,45 +1318,6 @@
                     <p>Light pages that load quickly on a phone and a slow connection, because a lot of people searching for this work are not reading on fast broadband.</p>
                     <span class="press-badge">Fast on Mobile</span>
                 </article>
-            </div>
-
-            {{-- Standards strip --}}
-            <div class="press-strip" role="list" aria-label="Standards">
-                <div class="press-strip-item" role="listitem">
-                    <i class="icon-feather-shield"></i>
-                    <div>
-                        <strong>HTTPS Secured</strong>
-                        <span>Encrypted end to end</span>
-                    </div>
-                </div>
-                <div class="press-strip-item" role="listitem">
-                    <i class="icon-feather-check-circle"></i>
-                    <div>
-                        <strong>Hand-Checked</strong>
-                        <span>Every listing reviewed</span>
-                    </div>
-                </div>
-                <div class="press-strip-item" role="listitem">
-                    <i class="icon-feather-globe"></i>
-                    <div>
-                        <strong>{{ $coverage->count() }} Countries</strong>
-                        <span>{{ $coverage->shortList() }}</span>
-                    </div>
-                </div>
-                <div class="press-strip-item" role="listitem">
-                    <i class="icon-feather-refresh-cw"></i>
-                    <div>
-                        <strong>Updated Weekly</strong>
-                        <span>New jobs and guides</span>
-                    </div>
-                </div>
-                <div class="press-strip-item" role="listitem">
-                    <i class="icon-feather-dollar-sign"></i>
-                    <div>
-                        <strong>No Fees</strong>
-                        <span>Free for job seekers</span>
-                    </div>
-                </div>
             </div>
 
             <div class="press-cta">
@@ -1481,44 +1393,6 @@
             letter-spacing: 1px;
         }
 
-        .press-strip {
-            background: #fff;
-            border: 1px solid #ececec;
-            border-radius: 16px;
-            padding: 22px 26px;
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 22px;
-            margin-bottom: 32px;
-        }
-        @media (max-width: 991px) { .press-strip { grid-template-columns: repeat(2, 1fr); gap: 18px; } }
-        @media (max-width: 480px) { .press-strip { grid-template-columns: 1fr; } }
-        .press-strip-item {
-            display: flex; align-items: center; gap: 12px;
-        }
-        .press-strip-item i {
-            width: 36px; height: 36px;
-            border-radius: 10px;
-            background: #f3f4f6;
-            color: #1b3a6b;
-            display: inline-flex; align-items: center; justify-content: center;
-            font-size: 16px;
-            flex-shrink: 0;
-        }
-        .press-strip-item strong {
-            display: block;
-            font-size: 14px;
-            color: #1b3a6b;
-            font-weight: 700;
-            line-height: 1.2;
-        }
-        .press-strip-item span {
-            display: block;
-            font-size: 12px;
-            color: #6b7280;
-            margin-top: 2px;
-        }
-
         .press-cta { text-align: center; }
         .press-btn {
             display: inline-flex; align-items: center; gap: 8px;
@@ -1558,40 +1432,12 @@
             color: #1b3a6b !important;
         }
 
-        html.dark-mode .press-strip {
-            background: var(--site-card-bg, #1c2128) !important;
-            border-color: rgba(255,255,255,.10) !important;
-        }
-        html.dark-mode .press-strip-item i {
-            background: rgba(27, 58, 107,.14) !important;
-            color: #1b3a6b !important;
-        }
-        html.dark-mode .press-strip-item strong { color: #fff !important; }
-        html.dark-mode .press-strip-item span { color: var(--site-muted, #b8c0cc) !important; }
-
         html.dark-mode .press-btn {
             background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
             box-shadow: 0 8px 18px rgba(27, 58, 107,.30) !important;
         }
         html.dark-mode .press-btn:hover { background: linear-gradient(135deg, #16305a, #ff4722) !important; }
         html.dark-mode .press-cta-note { color: var(--site-muted, #b8c0cc) !important; }
-
-        html.dark-mode .states-chips a {
-            background: var(--site-card-bg, #1c2128) !important;
-            border-color: rgba(255,255,255,.10) !important;
-            color: var(--site-muted, #d0d6df) !important;
-        }
-        html.dark-mode .states-chips a:hover {
-            background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
-            color: #fff !important;
-            border-color: #1b3a6b !important;
-        }
-
-        /* Hiring across 50 states heading (inline style override) */
-        html.dark-mode .about-press + section [style*="color:#16305a"],
-        html.dark-mode .about-industry [style*="color:#16305a"] { color: #fff !important; }
-        html.dark-mode .about-industry [style*="color:#5a5a5a"],
-        html.dark-mode .about-press + section [style*="color:#5a5a5a"] { color: var(--site-muted, #b8c0cc) !important; }
 
         /* =================================================================
            DARK MODE — comprehensive catch-all (loaded LAST, highest priority)

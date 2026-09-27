@@ -8,7 +8,7 @@
 @endphp
 @section('title', $coIdxTitle)
 @section('og_title', $coIdxTitle)
-@section('meta_description', 'Employers and agencies listing roles on Sajjad Digital Services across '.$coverage->shortList().'. Open one to see its openings and apply direct.')
+@section('meta_description', 'Employers and agencies listing roles on Sajjad Digital Services across '.$coverage->topList().'. Open one to see its openings and apply direct.')
 @section('canonical', $coIdxFirst ? route('jobs.companies') : route('jobs.companies').'?page='.$coIdxPage)
 
 @push('head')

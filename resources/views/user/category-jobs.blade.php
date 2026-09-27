@@ -17,7 +17,7 @@
 @endphp
 @section('title', $catTitle)
 @section('og_title', $catTitle)
-@section('meta_description', 'Find verified ' . $category->name . ' jobs across ' . $coverage->shortList() . '. Browse ' . $jobs->total() . ' active openings, filter by location and job type, and apply with one click on Sajjad Digital Services.')
+@section('meta_description', 'Find verified ' . $category->name . ' jobs across ' . $coverage->topList() . '. Browse ' . $jobs->total() . ' active openings, filter by location and job type, and apply with one click on Sajjad Digital Services.')
 @section('canonical', route('jobs.category', $category->slug).($catFirst ? '' : '?page='.$catPage))
 
 @push('head')

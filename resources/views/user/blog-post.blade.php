@@ -45,7 +45,7 @@
             'name' => 'Sajjad Digital Services',
             'url' => url('/'),
             'logo' => asset('public/user/images/favicon.png'),
-            'description' => 'Verified job listings across '.$coverage->shortList().', with guides on which visa sponsorship routes are open.',
+            'description' => 'Verified job listings across '.$coverage->topList().', with guides on which visa sponsorship routes are open.',
             'areaServed' => $coverage->areaServed(),
         ];
     @endphp

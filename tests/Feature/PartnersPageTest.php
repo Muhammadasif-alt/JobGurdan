@@ -7,7 +7,10 @@ it('serves the partners page', function () {
 });
 
 it('is reachable from the footer of every page', function (string $url) {
-    get($url)->assertOk()->assertSee('href="'.route('partners').'">Partners</a>', false);
+    get($url)->assertOk()->assertSee(
+        'href="'.route('partners').'"><i class="icon-feather-chevron-right"></i> <span>Partners</span>',
+        false
+    );
 })->with([
     'home' => '/',
     'jobs' => '/jobs',

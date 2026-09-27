@@ -50,6 +50,20 @@ return [
     'phone_local' => env('SITE_PHONE_LOCAL', '0315 703 3832'),
 
     /*
+    |--------------------------------------------------------------------------
+    | Public Location
+    |--------------------------------------------------------------------------
+    |
+    | City level only. Every signed memorandum of understanding is with a
+    | Lodhran department, which is where this comes from; there is no street
+    | address on the site because nobody has given one to publish. Set
+    | SITE_ADDRESS on the server the day there is one.
+    |
+    */
+
+    'address' => env('SITE_ADDRESS', 'Lodhran, Punjab, Pakistan'),
+
+    /*
      * Named only when the listings table cannot answer the question — an empty
      * board still has to render a sentence. SiteCoverage reads the real list
      * from the jobs themselves.
