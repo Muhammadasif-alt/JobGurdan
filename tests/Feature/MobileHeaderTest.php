@@ -71,3 +71,11 @@ it('keeps the controls narrow enough to stay clear of a centred logo', function 
     expect(mobileHeaderCss())->toContain('width: 46px !important;')
         ->toContain('transform: translateX(18px) !important;');
 });
+
+it('drops the theme transform that lifted the mark off the middle of the bar', function () {
+    // #logo img carries top:50% with a -50% translate, a centring trick for a
+    // block of fixed height. Inside a flex box it stacks with the box's own
+    // centring and pins the mark to the top of the bar.
+    expect(mobileHeaderCss())->toContain('transform: none !important;')
+        ->toContain('position: static !important;');
+});

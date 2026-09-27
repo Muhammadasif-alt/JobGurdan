@@ -1305,6 +1305,17 @@
                               padding on #header is not symmetrical and left the mark
                               sitting low against the bottom rule. === */
                         #header { padding-top: 0 !important; padding-bottom: 0 !important; }
+                        /* The theme centres the mark with top:50% and a -50% translate,
+                           which assumed a block of fixed height. #logo is a flex box that
+                           already centres its content, so the pair only lifted the mark
+                           clear of the middle: measured on a phone it sat flush against
+                           the top of a 64px bar with 32px of air beneath it. */
+                        #header #logo img.logo-light,
+                        #header #logo img.logo-dark {
+                            position: static !important;
+                            top: auto !important;
+                            transform: none !important;
+                        }
                         #header #logo {
                             display: flex !important;
                             align-items: center !important;
