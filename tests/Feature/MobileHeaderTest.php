@@ -45,3 +45,9 @@ it('carries the new wordmark in both themes', function () {
         ->toContain('user/images/sajjad-navbar-dark.png')
         ->toContain('alt="Sajjad Digital Services"');
 });
+
+it('cache-busts the script that drives the menu', function () {
+    // It is served with a seven-day max-age and no query, so a phone that
+    // loaded the old off-canvas build kept running it after the fix shipped.
+    expect(mobileHeaderCss())->toMatch('#custom_jquery\.js\?v=[0-9a-f]+#');
+});

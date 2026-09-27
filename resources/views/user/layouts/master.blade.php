@@ -84,8 +84,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ asset('public/user/css/bootstrap-grid.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/user/css/icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/user/css/bootstrap-grid.css') }}?v={{ $assetVersion('user/css/bootstrap-grid.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/user/css/icons.css') }}?v={{ $assetVersion('user/css/icons.css') }}">
     <link rel="stylesheet" href="{{ asset('public/user/css/style.css') }}?v={{ $assetVersion('user/css/style.css') }}">
     <style>
         /* Matches the width the desktop header appears at (1100px). While
@@ -1967,13 +1967,13 @@
         <script src="{{ asset('public/user/js/simplebar.min.js') }}" defer></script>
         <script src="{{ asset('public/user/js/bootstrap-slider.min.js') }}" defer></script>
         <script src="{{ asset('public/user/js/bootstrap-select.min.js') }}" defer></script>
-        <script src="{{ asset('public/user/js/snackbar.js') }}" defer></script>
+        <script src="{{ asset('public/user/js/snackbar.js') }}?v={{ $assetVersion('user/js/snackbar.js') }}" defer></script>
         <script src="{{ asset('public/user/js/clipboard.min.js') }}" defer></script>
         <script src="{{ asset('public/user/js/counterup.min.js') }}" defer></script>
         <script src="{{ asset('public/user/js/magnific-popup.min.js') }}" defer></script>
         <script src="{{ asset('public/user/js/slick.min.js') }}" defer></script>
         <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js" defer></script>
-        <script src="{{ asset('public/user/js/custom_jquery.js') }}" defer></script>
+        <script src="{{ asset('public/user/js/custom_jquery.js') }}?v={{ $assetVersion('user/js/custom_jquery.js') }}" defer></script>
 
         <script>
             window.addEventListener('load', function () {
