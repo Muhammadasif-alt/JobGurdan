@@ -64,3 +64,10 @@ it('cache-busts the script that drives the menu', function () {
     // loaded the old off-canvas build kept running it after the fix shipped.
     expect(mobileHeaderCss())->toMatch('#custom_jquery\.js\?v=[0-9a-f]+#');
 });
+
+it('keeps the controls narrow enough to stay clear of a centred logo', function () {
+    // At 56px the pill plus the hamburger were wider than their column, and
+    // justify-self:end pushed the overflow left across the wordmark.
+    expect(mobileHeaderCss())->toContain('width: 46px !important;')
+        ->toContain('transform: translateX(18px) !important;');
+});

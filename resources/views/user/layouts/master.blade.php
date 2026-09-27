@@ -1221,7 +1221,23 @@
                                 min-width: 0 !important;
                                 align-self: center !important;
                             }
-                            #header .utf-right-side .theme-toggle { margin: 0 !important; }
+                            /* The pill is 56px wide, which with the hamburger made the
+                               controls wider than the flexible column beside a centred
+                               logo: justify-self:end then let them overflow left, over
+                               the wordmark. A smaller switch keeps them inside it. */
+                            #header .utf-right-side .theme-toggle {
+                                margin: 0 !important;
+                                width: 46px !important;
+                                height: 28px !important;
+                            }
+                            #header .utf-right-side .theme-toggle .tt-thumb {
+                                width: 22px !important;
+                                height: 22px !important;
+                                font-size: 12px !important;
+                            }
+                            html.dark-mode #header .utf-right-side .theme-toggle .tt-thumb {
+                                transform: translateX(18px) !important;
+                            }
                         }
 
                         /* === Mobile navigation: a panel that opens underneath the header
