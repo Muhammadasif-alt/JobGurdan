@@ -17,7 +17,7 @@ it('promotes the logo and the menu to grid items of the header row', function ()
     // the logo instead of spanning the row underneath it.
     expect(mobileHeaderCss())
         ->toContain('#header .utf-left-side { display: contents !important; }')
-        ->toContain('grid-template-columns: 1fr auto 1fr;');
+        ->toContain('grid-template-columns: auto 1fr;');
 });
 
 it('opens the menu as a full-width row under the bar', function () {
@@ -38,7 +38,7 @@ it('leaves no dead strip under the bar while the menu is shut', function () {
     expect(mobileHeaderCss())->toContain('row-gap: 0 !important;');
 });
 
-it('centres the mark itself rather than the theme margin around it', function () {
+it('drops the theme margin that padded the mark away from the edge', function () {
     // justify-self centres the margin box, so the theme's right margin on #logo
     // left the wordmark twenty pixels off centre.
     expect(mobileHeaderCss())->toContain('margin: 0 !important;');
@@ -65,7 +65,7 @@ it('cache-busts the script that drives the menu', function () {
     expect(mobileHeaderCss())->toMatch('#custom_jquery\.js\?v=[0-9a-f]+#');
 });
 
-it('keeps the controls narrow enough to stay clear of a centred logo', function () {
+it('keeps the switch small enough to sit beside the hamburger', function () {
     // At 56px the pill plus the hamburger were wider than their column, and
     // justify-self:end pushed the overflow left across the wordmark.
     expect(mobileHeaderCss())->toContain('width: 46px !important;')
@@ -100,4 +100,21 @@ it('lets the grid reserve room for the controls instead of zeroing their column'
     preg_match('#\#header \.utf-right-side \{(.+?)\}#s', $css, $m);
 
     expect($m[1] ?? '')->not->toContain('min-width: 0');
+});
+
+it('keeps the mark at the left of the bar and the controls hard right', function () {
+    $css = mobileHeaderCss();
+
+    expect($css)->toContain('justify-self: start;')
+        ->toContain('justify-self: end;');
+});
+
+it('draws a clean cross when the menu is open', function () {
+    // The theme's open state assumes its own bar offsets; against ours it lifted
+    // the cross off the button and left the top stroke eight pixels adrift, so
+    // the button showed a broken slash instead of an X.
+    expect(mobileHeaderCss())
+        ->toContain('.hamburger.is-active .utf-hamburger-inner-item {')
+        ->toContain('transform: rotate(45deg) !important;')
+        ->toContain('transform: rotate(-90deg) !important;');
 });

@@ -147,3 +147,14 @@ it('themes both rows for dark mode', function (string $selector) {
     'eyebrow' => '.home-split-eyebrow',
     'points' => '.home-split-points',
 ]);
+
+it('keeps the hero pill on one line on a phone', function () {
+    // At 360px the full line needs more width than the pill can have, so
+    // "countries" dropped alone onto a second line. The middle claim is hidden
+    // there; it stays in the markup, and on wider screens, untouched.
+    $html = get('/')->assertOk()->getContent();
+
+    expect($html)->toContain('<span class="eyebrow-trim">&middot; Real hiring</span>')
+        ->toContain('.hero-eyebrow .eyebrow-trim { display: none !important; }')
+        ->toContain('white-space: nowrap !important;');
+});

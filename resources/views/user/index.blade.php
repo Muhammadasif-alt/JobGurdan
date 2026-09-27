@@ -270,7 +270,16 @@
                 padding-left: 12px !important;
                 padding-right: 12px !important;
             }
-            .intro-banner.intro-hero-v2 .hero-eyebrow { font-size: 10.5px !important; padding: 5px 9px !important; }
+            /* At 10.5px the full line needs 331px inside a pill that can only be
+               336px wide on a 360px screen, so "countries" dropped to a second
+               line and left the pill looking half empty. The middle claim goes
+               on phones; it stays in the markup for wider screens. */
+            .intro-banner.intro-hero-v2 .hero-eyebrow {
+                font-size: 10.5px !important;
+                padding: 5px 9px !important;
+                white-space: nowrap !important;
+            }
+            .intro-banner.intro-hero-v2 .hero-eyebrow .eyebrow-trim { display: none !important; }
             .intro-banner.intro-hero-v2 .utf-banner-headline-text-part > span { font-size: 13px !important; }
         }
         .intro-banner.intro-hero-v2 .utf-banner-headline-text-part h1 .accent {
@@ -1040,7 +1049,7 @@
                     <div class="utf-banner-headline-text-part">
                         <span class="hero-eyebrow" data-aos="fade-down" data-aos-duration="600">
                             <span class="pulse-dot"></span>
-                            Jobs &middot; Scholarships &middot; Real hiring &middot; {{ $coverage->count() }} countries
+                            Jobs &middot; Scholarships <span class="eyebrow-trim">&middot; Real hiring</span> &middot; {{ $coverage->count() }} countries
                         </span>
                         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                             Find Jobs and Scholarships

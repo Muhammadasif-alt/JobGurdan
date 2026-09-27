@@ -1193,6 +1193,25 @@
                             #header .mmenu-trigger .utf-hamburger-inner-item { top: 50% !important; margin-top: -1.25px !important; }
                             #header .mmenu-trigger .utf-hamburger-inner-item::before { top: -8px !important; content: "" !important; display: block !important; }
                             #header .mmenu-trigger .utf-hamburger-inner-item::after { bottom: -8px !important; top: auto !important; content: "" !important; display: block !important; }
+                            /* The theme's open state assumes its own bar offsets. Ours put
+                               the middle bar at 50% and the top bar 8px above it, so the
+                               theme's translate3d(0,-10px,0) lifted the cross off the
+                               button and left the top stroke eight pixels adrift: a broken
+                               slash rather than an X. Both strokes are pinned to the middle
+                               here and simply rotated against each other. */
+                            #header .mmenu-trigger .hamburger.is-active .utf-hamburger-inner-item {
+                                top: 50% !important;
+                                margin-top: -1.25px !important;
+                                transform: rotate(45deg) !important;
+                            }
+                            #header .mmenu-trigger .hamburger.is-active .utf-hamburger-inner-item::before {
+                                top: 0 !important;
+                                opacity: 1 !important;
+                                transform: rotate(-90deg) !important;
+                            }
+                            #header .mmenu-trigger .hamburger.is-active .utf-hamburger-inner-item::after {
+                                opacity: 0 !important;
+                            }
                             #header #logo { min-width: 0; }
                             #header #logo img.logo-light,
                             #header #logo img.logo-dark {
@@ -1206,23 +1225,21 @@
                             #header #logo img.logo-light,
                             #header #logo img.logo-dark {
                                 width: auto !important;
-                                height: 32px !important;
+                                height: 38px !important;
                                 max-width: 100% !important;
                             }
                             #header .container { padding: 0 10px !important; gap: 6px !important; }
                         }
 
-                        /* === Mobile header. Three columns with equal flexible
-                              gutters: the empty first column and the controls in the
-                              third are the same width, so the logo in the middle sits
-                              dead centre without being taken out of the flow. An
-                              earlier attempt used position:absolute and pushed the
-                              logo off the left edge; a later one used flex-wrap and
-                              dropped the controls onto a second row. === */
+                        /* === Mobile header. Two columns: the mark takes what it needs
+                              on the left and the controls sit hard right in the rest.
+                              Earlier attempts used position:absolute, which pushed the
+                              mark off the left edge, and flex-wrap, which dropped the
+                              controls onto a second row. === */
                         @media (max-width: 1099px) {
                             #header .container {
                                 display: grid !important;
-                                grid-template-columns: 1fr auto 1fr;
+                                grid-template-columns: auto 1fr;
                                 grid-template-rows: auto auto;
                                 align-items: center;
                                 flex-wrap: nowrap;
@@ -1245,16 +1262,19 @@
                                difference left across the wordmark — which is what a
                                360px phone showed while 390 looked fine. */
                             #header .utf-right-side {
-                                grid-column: 3;
+                                grid-column: 2;
                                 grid-row: 1;
                                 justify-self: end;
                                 justify-content: flex-end !important;
                                 gap: 4px !important;
                             }
+                            /* The mark sits at the left of the bar, which is where the
+                               owner wants it and which gives it back the room the centred
+                               layout had to take from it. */
                             #header #logo {
-                                grid-column: 2;
+                                grid-column: 1;
                                 grid-row: 1;
-                                justify-self: center;
+                                justify-self: start;
                                 max-width: 100% !important;
                                 overflow: hidden !important;
                                 /* The theme's right margin is part of the box that
@@ -1298,16 +1318,16 @@
                             #header .container { column-gap: 6px !important; }
                             #header .utf-right-side { gap: 4px !important; }
                             #header .utf-right-side .theme-toggle {
-                                width: 36px !important;
-                                height: 22px !important;
+                                width: 42px !important;
+                                height: 25px !important;
                             }
                             #header .utf-right-side .theme-toggle .tt-thumb {
-                                width: 16px !important;
-                                height: 16px !important;
-                                font-size: 9px !important;
+                                width: 19px !important;
+                                height: 19px !important;
+                                font-size: 11px !important;
                             }
                             html.dark-mode #header .utf-right-side .theme-toggle .tt-thumb {
-                                transform: translateX(14px) !important;
+                                transform: translateX(17px) !important;
                             }
                             #header .mmenu-trigger .hamburger { padding: 7px !important; }
                             #header #logo img.logo-light,
@@ -1321,11 +1341,6 @@
                         /* Below 360px even trimmed controls leave the mark no room to
                            sit centred, and the grid drifts it left rather than clipping
                            it. A smaller mark keeps it in the middle. */
-                        @media (max-width: 359px) {
-                            #header #logo img.logo-light,
-                            #header #logo img.logo-dark { height: 24px !important; }
-                        }
-
                         /* === Mobile navigation: a panel that opens underneath the header
                               and pushes the page down, rather than the off-canvas drawer
                               that slid the whole site sideways. === */
@@ -1421,7 +1436,7 @@
                                 min-height: 64px;
                             }
                             #header.nav-open .container { padding-bottom: 4px !important; }
-                            #header #logo { justify-content: center !important; }
+                            #header #logo { justify-content: flex-start !important; }
                         }
 
                         /* === Mobile menu (mmenu) — visual feedback on items === */
