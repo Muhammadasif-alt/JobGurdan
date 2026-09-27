@@ -1291,19 +1291,23 @@
                               itself down inside the middle column rather than
                               running under the switch. === */
                         @media (max-width: 480px) {
-                            #header .container { column-gap: 10px !important; }
+                            /* Both flexible columns are as wide as the controls, so every
+                               pixel taken off them is two the wordmark gets. At 36px the
+                               switch leaves the mark dead centre on a 360px screen; the
+                               figures below are measured, not guessed. */
+                            #header .container { column-gap: 6px !important; }
                             #header .utf-right-side { gap: 4px !important; }
                             #header .utf-right-side .theme-toggle {
-                                width: 40px !important;
-                                height: 24px !important;
+                                width: 36px !important;
+                                height: 22px !important;
                             }
                             #header .utf-right-side .theme-toggle .tt-thumb {
-                                width: 18px !important;
-                                height: 18px !important;
-                                font-size: 10px !important;
+                                width: 16px !important;
+                                height: 16px !important;
+                                font-size: 9px !important;
                             }
                             html.dark-mode #header .utf-right-side .theme-toggle .tt-thumb {
-                                transform: translateX(16px) !important;
+                                transform: translateX(14px) !important;
                             }
                             #header .mmenu-trigger .hamburger { padding: 7px !important; }
                             #header #logo img.logo-light,
@@ -1312,6 +1316,14 @@
                                 object-fit: contain !important;
                                 object-position: center !important;
                             }
+                        }
+
+                        /* Below 360px even trimmed controls leave the mark no room to
+                           sit centred, and the grid drifts it left rather than clipping
+                           it. A smaller mark keeps it in the middle. */
+                        @media (max-width: 359px) {
+                            #header #logo img.logo-light,
+                            #header #logo img.logo-dark { height: 24px !important; }
                         }
 
                         /* === Mobile navigation: a panel that opens underneath the header
