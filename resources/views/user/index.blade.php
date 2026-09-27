@@ -330,7 +330,8 @@
            white, 20px, block. That was harmless while this line was a bare text
            node, and invisible the moment it was wrapped -- white text on a white
            pill. It takes the pill's own type instead. */
-        .intro-banner.intro-hero-v2 .utf-banner-headline-text-part > span.hero-eyebrow .eyebrow-text {
+        .intro-banner.intro-hero-v2 .utf-banner-headline-text-part > span.hero-eyebrow .eyebrow-text,
+        .intro-banner.intro-hero-v2 .utf-banner-headline-text-part > span.hero-eyebrow .eyebrow-text span {
             display: inline !important;
             color: inherit !important;
             font-size: inherit !important;

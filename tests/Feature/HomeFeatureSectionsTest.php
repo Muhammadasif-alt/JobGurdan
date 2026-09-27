@@ -162,6 +162,6 @@ it('keeps the hero pill on one line on a phone', function () {
         ->toContain('width: auto !important;')
         // The theme paints every span in the headline block white at 20px, which
         // is invisible on a white pill, so the text takes the pill's own type.
-        ->toContain('> span.hero-eyebrow .eyebrow-text {')
+        ->toContain('> span.hero-eyebrow .eyebrow-text span {')
         ->toContain('color: inherit !important;');
 });
