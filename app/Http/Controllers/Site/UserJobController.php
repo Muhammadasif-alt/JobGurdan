@@ -12,6 +12,7 @@ use App\Services\JobSearchService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
+use Illuminate\View\View;
 
 class UserJobController extends Controller
 {
@@ -768,6 +769,11 @@ class UserJobController extends Controller
     public function contact_us()
     {
         return view('user.contact-us');
+    }
+
+    public function partners(): View
+    {
+        return view('user.partners');
     }
 
     /** Paid resume and CV writing service, with the enquiry form at the foot. */

@@ -1997,6 +1997,7 @@
                                     <a href="{{ url('/privacy-policy') }}">Privacy Policy</a> &nbsp;·&nbsp;
                                     <a href="{{ url('/terms-of-service') }}">Terms of Service</a> &nbsp;·&nbsp;
                                     <a href="{{ url('/about-us') }}">About Us</a> &nbsp;·&nbsp;
+                                    <a href="{{ route('partners') }}">Partners</a> &nbsp;·&nbsp;
                                     <a href="{{ route('contact.us') }}">Contact</a>
                                 </p>
                             </div>

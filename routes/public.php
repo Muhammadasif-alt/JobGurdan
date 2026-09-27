@@ -54,6 +54,7 @@ Route::get('/resume-writing-services', [UserJobController::class, 'resumeWriting
 // Static informational pages from UserJobController
 Route::get('/about-us', [UserJobController::class, 'about_us'])->name('about.us');
 Route::get('/contact-us', [UserJobController::class, 'contact_us'])->name('contact.us');
+Route::get('/partners', [UserJobController::class, 'partners'])->name('partners');
 Route::post('/contact-us', [ContactMessageController::class, 'store'])->name('contact.store');
 
 // /jobs/search → redirect to canonical /search (named jobs.search)
@@ -237,7 +238,7 @@ Route::get('/sitemap-core.xml', function () use ($sitemapUrl, $sitemapResponse) 
     $inner .= $sitemapUrl(url('/scholarships'), 'weekly', '0.7');
     $inner .= $sitemapUrl(url('/resume-writing-services'), 'monthly', '0.8');
 
-    foreach (['/about-us', '/contact-us', '/privacy-policy', '/terms-of-service', '/disclaimer'] as $p) {
+    foreach (['/about-us', '/contact-us', '/partners', '/privacy-policy', '/terms-of-service', '/disclaimer'] as $p) {
         $inner .= $sitemapUrl(url($p), 'monthly', '0.4');
     }
 
