@@ -68,3 +68,13 @@ it('hides the partner list until there are partners to name', function () {
         ->not->toContain('class="pt-grid"')
         ->not->toContain('"ItemList"');
 });
+
+it('lays the four explainer cards out in one row, in the resume page design', function () {
+    // The owner asked for the treatment the resume page gives its cards: an
+    // icon tile over the heading, and all four across a single row.
+    $html = get(route('partners'))->assertOk()->getContent();
+
+    expect($html)->toContain('.pt-points { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }')
+        ->and(substr_count($html, 'class="pt-point-ico"'))->toBe(4)
+        ->and(substr_count($html, 'class="pt-point"'))->toBe(4);
+});

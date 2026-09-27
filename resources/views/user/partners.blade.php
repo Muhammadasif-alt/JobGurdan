@@ -188,14 +188,43 @@
     .pt-card-foot a { color: #2f7fc9; font-weight: 700; font-size: 13.5px; text-decoration: none; }
     .pt-card-foot a:hover { text-decoration: underline; }
 
-    /* ===== Plain two-column explainer ===== */
-    .pt-points { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
+    /* ===== Explainer cards. Same treatment as the resume page's: an icon tile
+       over the heading, four across on a wide screen, and a rule that draws in
+       across the top on hover. ===== */
+    .pt-points { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
     .pt-point {
-        background: #fff; border: 1px solid #e5e5e7; border-radius: 14px; padding: 24px 22px;
+        background: #fff; border: 1px solid #e4edf8; border-radius: 18px;
+        padding: 30px 26px; box-shadow: 0 2px 10px rgba(27,58,107,.05);
     }
-    .pt-section.alt .pt-point { background: #f8f9fb; }
-    .pt-point h3 { font-size: 16.5px; font-weight: 800; color: #1b3a6b; margin: 0 0 9px; }
-    .pt-point p { color: #55657a; font-size: 14.8px; line-height: 1.68; margin: 0; }
+    .pt-section.alt .pt-point { background: #f5f5f7; }
+    .pt-point-ico {
+        width: 50px; height: 50px; border-radius: 14px; display: grid; place-items: center;
+        background: linear-gradient(135deg, #1b3a6b, #2f7fc9); color: #fff; font-size: 21px;
+        margin-bottom: 18px;
+    }
+    .pt-point h3 { font-size: 19px; font-weight: 800; color: #1b3a6b; margin: 0 0 10px; }
+    .pt-point p { color: #55657a; font-size: 15.2px; line-height: 1.68; margin: 0; }
+
+    /* Shared card hover, as on the resume and About pages. */
+    .pt-point, .pt-card {
+        position: relative; overflow: hidden;
+        transition: transform .2s ease, box-shadow .22s ease, border-color .22s ease;
+    }
+    .pt-point::before, .pt-card::before {
+        content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+        background: #1b3a6b; transform: scaleX(0); transform-origin: left;
+        transition: transform .3s ease;
+    }
+    .pt-point:hover, .pt-card:hover {
+        border-color: #1b3a6b;
+        transform: translateY(-4px);
+        box-shadow: 0 18px 36px rgba(15,23,42,.10);
+    }
+    .pt-point:hover::before, .pt-card:hover::before { transform: scaleX(1); }
+    @media (prefers-reduced-motion: reduce) {
+        .pt-point, .pt-card { transition: border-color .22s ease; }
+        .pt-point:hover, .pt-card:hover { transform: none; }
+    }
 
     /* ===== The honest limits panel ===== */
     .pt-limits {
@@ -240,6 +269,9 @@
     .pt-btn-ghost { background: #fff; color: #1b3a6b; border: 1px solid #d7dbe3; }
     .pt-btn-ghost:hover { border-color: #2f7fc9; color: #2f7fc9; }
 
+    @media (max-width: 1200px) {
+        .pt-points { grid-template-columns: repeat(2, 1fr); }
+    }
     @media (max-width: 991px) {
         .pt-hero { padding: 74px 0 78px; }
         .pt-section { padding: 56px 0; }
@@ -250,7 +282,8 @@
         .pt-hero { padding: 58px 0 62px; }
         .pt-hero p { font-size: 15px; }
         .pt-section { padding: 44px 0; }
-        .pt-grid { grid-template-columns: 1fr; }
+        .pt-grid, .pt-points { grid-template-columns: 1fr; }
+        .pt-point { padding: 24px 22px; }
         .pt-btn { width: 100%; justify-content: center; }
     }
 
@@ -275,6 +308,10 @@
         background: var(--site-card) !important;
         border-color: var(--site-card-bd) !important;
     }
+    html.dark-mode .pt-point::before,
+    html.dark-mode .pt-card::before { background: #4da3e8 !important; }
+    html.dark-mode .pt-point:hover,
+    html.dark-mode .pt-card:hover { border-color: #4da3e8 !important; }
     html.dark-mode .pt-btn-ghost {
         background: var(--site-card) !important;
         color: var(--site-text) !important;
@@ -338,6 +375,7 @@
     <section class="pt-section alt">
         <div class="pt-wrap">
             <div class="pt-section-head">
+                <span class="pt-eyebrow">The Agreement</span>
                 <h2>What a Memorandum of Understanding <span class="accent">Actually Is</span></h2>
                 <p class="pt-lede">The phrase gets used loosely enough that it is worth being plain about it,
                     because a lot of people are asked to pay money on the strength of one.</p>
@@ -345,21 +383,25 @@
 
             <div class="pt-points">
                 <div class="pt-point">
+                    <div class="pt-point-ico"><i class="icon-feather-file-text"></i></div>
                     <h3>A written intention to cooperate</h3>
                     <p>It records that two organisations mean to work together and sets out who does what.
                         It is signed by both sides, and it names the work rather than gesturing at it.</p>
                 </div>
                 <div class="pt-point">
+                    <div class="pt-point-ico"><i class="icon-feather-briefcase"></i></div>
                     <h3>Not a job offer</h3>
                     <p>No memorandum hires anybody. Employers and universities decide who they take, on their
                         own criteria, through their own process. Nothing we sign changes that.</p>
                 </div>
                 <div class="pt-point">
+                    <div class="pt-point-ico"><i class="icon-feather-credit-card"></i></div>
                     <h3>Not a payment route</h3>
                     <p>We never collect fees on a partner's behalf, and a partner never collects on ours.
                         If anyone asks you to pay us for a place, a visa or an admission, it is not us.</p>
                 </div>
                 <div class="pt-point">
+                    <div class="pt-point-ico"><i class="icon-feather-clock"></i></div>
                     <h3>Time-limited, and revocable</h3>
                     <p>Each agreement carries its own term, and either side can end it. That is normal and it
                         is the reason this page can go down as well as up.</p>
