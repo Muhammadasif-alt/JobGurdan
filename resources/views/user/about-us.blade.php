@@ -31,10 +31,12 @@
         "sameAs": [
             "{{ url('/') }}"
         ],
+        "telephone": "{{ config('site.phone') }}",
         "contactPoint": {
             "@@type": "ContactPoint",
             "contactType": "Customer Support",
             "email": "{{ config('site.contact_email') }}",
+            "telephone": "{{ config('site.phone') }}",
             "availableLanguage": ["English"]
         }
     }

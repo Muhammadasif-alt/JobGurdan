@@ -28,12 +28,14 @@
         "@@type": "Organization",
         "name": "Sajjad Digital Services",
         "url": "{{ url('/') }}",
-        "logo": "{{ asset('public/user/images/Sajjad Digital Services.png') }}",
+        "logo": "{{ asset('public/user/images/sajjad-dark-logo.png') }}",
         "email": "{{ config('site.contact_email') }}",
+        "telephone": "{{ config('site.phone') }}",
         "contactPoint": [{
             "@@type": "ContactPoint",
             "contactType": "customer support",
             "email": "{{ config('site.contact_email') }}",
+            "telephone": "{{ config('site.phone') }}",
             "availableLanguage": ["English"]
         }]
     }
@@ -672,11 +674,11 @@
                 <p>Write to {{ config('site.contact_email') }} for anything &mdash; general help, listings, account questions or partnerships. We reply within 24 hours on business days.</p>
                 <span class="qc-action">{{ config('site.contact_email') }} <i class="icon-feather-arrow-right"></i></span>
             </a>
-            <a href="https://calendly.com/" target="_blank" rel="noopener" class="quick-contact-card">
-                <div class="quick-contact-icon"><i class="icon-feather-calendar"></i></div>
-                <h4>Book a Meeting</h4>
-                <p>Schedule a one-on-one call with our team at a time that fits your schedule.</p>
-                <span class="qc-action">Book Now <i class="icon-feather-arrow-right"></i></span>
+            <a href="tel:{{ preg_replace('/\D+/', '', config('site.phone')) }}" class="quick-contact-card">
+                <div class="quick-contact-icon"><i class="icon-feather-phone"></i></div>
+                <h4>Call or WhatsApp</h4>
+                <p>Ring {{ config('site.phone_local') }} during working hours, or send the same number a message on WhatsApp and we will reply there.</p>
+                <span class="qc-action">{{ config('site.phone') }} <i class="icon-feather-arrow-right"></i></span>
             </a>
         </div>
     </div>
@@ -755,6 +757,13 @@
                             <div>
                                 <strong>Email</strong>
                                 <a href="mailto:{{ config('site.contact_email') }}">{{ config('site.contact_email') }}</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ico"><i class="icon-feather-phone"></i></div>
+                            <div>
+                                <strong>Phone &amp; WhatsApp</strong>
+                                <a href="tel:{{ preg_replace('/\D+/', '', config('site.phone')) }}">{{ config('site.phone') }}</a>
                             </div>
                         </li>
                         <li>

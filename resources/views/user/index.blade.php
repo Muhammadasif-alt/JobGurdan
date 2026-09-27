@@ -89,10 +89,12 @@
         "logo": "{{ asset('public/user/images/apple-touch-icon.png') }}",
         "description": "A third-party information site for jobs across {{ $coverage->shortList() }} and scholarships to study abroad. Sajjad Digital Services is not an employer, recruiter or visa agent; applications go to the employer, job board or university.",
         "areaServed": {!! json_encode($coverage->areaServedNodes(), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
+        "telephone": "{{ config('site.phone') }}",
         "contactPoint": {
             "@@type": "ContactPoint",
             "contactType": "Customer Support",
             "email": "{{ config('site.contact_email') }}",
+            "telephone": "{{ config('site.phone') }}",
             "availableLanguage": ["English"]
         }
     }

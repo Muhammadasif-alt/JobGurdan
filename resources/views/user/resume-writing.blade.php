@@ -865,6 +865,13 @@
                         </li>
                     @endif
                     <li>
+                        <div class="rw-contact-ico"><i class="icon-feather-phone"></i></div>
+                        <div>
+                            <strong>Phone</strong>
+                            <a href="tel:{{ preg_replace('/\D+/', '', config('site.phone')) }}">{{ config('site.phone') }}</a>
+                        </div>
+                    </li>
+                    <li>
                         <div class="rw-contact-ico"><i class="icon-feather-mail"></i></div>
                         <div>
                             <strong>Email</strong>

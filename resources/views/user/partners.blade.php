@@ -452,6 +452,9 @@
                 <a class="pt-btn pt-btn-primary" href="{{ route('contact.us') }}">
                     <i class="icon-feather-mail"></i> Contact Us
                 </a>
+                <a class="pt-btn pt-btn-ghost" href="tel:{{ preg_replace('/\D+/', '', config('site.phone')) }}">
+                    <i class="icon-feather-phone"></i> {{ config('site.phone') }}
+                </a>
                 @if($waLink)
                     <a class="pt-btn pt-btn-ghost" href="{{ $waLink }}" target="_blank" rel="noopener">
                         <i class="icon-feather-message-circle"></i> Message on WhatsApp

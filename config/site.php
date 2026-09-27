@@ -12,12 +12,12 @@ return [
     | (info@, support@, privacy@, legal@), none of which were real mailboxes.
     |
     | The adminjobgader@ account that replaced them was closed by Google, so
-    | the address moved again. Change it here and in SITE_CONTACT_EMAIL on the
-    | server; every page reads it from this one key.
+    | the address moved again, and again with the rename. Change it here and in
+    | SITE_CONTACT_EMAIL on the server; every page reads it from this one key.
     |
     */
 
-    'contact_email' => env('SITE_CONTACT_EMAIL', 'infojobgader@gmail.com'),
+    'contact_email' => env('SITE_CONTACT_EMAIL', 'sajaddigitalservices@gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -31,7 +31,23 @@ return [
     |
     */
 
-    'whatsapp' => env('SITE_WHATSAPP'),
+    'whatsapp' => env('SITE_WHATSAPP', '923157033832'),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Public Phone Number
+    |--------------------------------------------------------------------------
+    |
+    | The same line as the WhatsApp number, written the way a reader expects to
+    | see it. The pages link it with tel:, stripping everything but the digits,
+    | so the two can never drift apart on the page even though they are stored
+    | separately — one has to be dialable, the other readable.
+    |
+    */
+
+    'phone' => env('SITE_PHONE', '+92 315 703 3832'),
+
+    'phone_local' => env('SITE_PHONE_LOCAL', '0315 703 3832'),
 
     /*
      * Named only when the listings table cannot answer the question — an empty

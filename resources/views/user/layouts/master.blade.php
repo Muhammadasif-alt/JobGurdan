@@ -1993,6 +1993,11 @@
                                     from general labour and hospitality through to skilled trades and senior
                                     engineering &mdash; alongside guides on which visa sponsorship routes are
                                     genuinely open. Free to search, and no account needed to apply.</p>
+                                <p class="footer-contact-line">
+                                    <a href="tel:{{ preg_replace('/\D+/', '', config('site.phone')) }}">{{ config('site.phone') }}</a>
+                                    &nbsp;·&nbsp;
+                                    <a href="mailto:{{ config('site.contact_email') }}">{{ config('site.contact_email') }}</a>
+                                </p>
                                 <p>
                                     <a href="{{ url('/privacy-policy') }}">Privacy Policy</a> &nbsp;·&nbsp;
                                     <a href="{{ url('/terms-of-service') }}">Terms of Service</a> &nbsp;·&nbsp;
