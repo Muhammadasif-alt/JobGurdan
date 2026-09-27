@@ -6,14 +6,13 @@ it('keeps the footer headings readable in both themes', function () {
     );
 
     // Dark mode painted the footer headings #1b3a6b on a #0f1115 background,
-    // about 1.7:1 — the section titles were effectively invisible. Both themes
-    // now use the same brand blue the section headings use.
+    // about 1.7:1 — the section titles were effectively invisible. The footer
+    // is dark in both themes, so both now set the headings white.
     $flat = preg_replace('/\s+/', ' ', $css);
 
     expect($flat)
-        ->toContain('#footer .utf-footer-item-links h3 { color: #3182ce !important;')
-        ->toContain('html.dark-mode #footer .utf-footer-item-links h3 { color: #3182ce !important; }')
-        ->not->toContain('#footer .utf-footer-item-links h3 { color: #4d9eff !important;')
+        ->toContain('#footer .utf-footer-item-links h3 { color: #ffffff !important;')
+        ->toContain('html.dark-mode #footer .utf-footer-item-links h3 { color: #ffffff !important; }')
         ->not->toContain('html.dark-mode #footer .utf-footer-item-links h3 { color: #1b3a6b !important; }')
         ->not->toContain('html.dark-mode #footer .utf-footer-item-links ul li a:hover { color: #1b3a6b !important; }');
 });
@@ -25,7 +24,13 @@ it('ships the images the homepage now points at', function () {
 
     expect($matches[1])->not->toBeEmpty();
 
+    // The document root is the project root, so asset('public/user/images/x')
+    // is served from public/user/images/x. public_path() would prepend a
+    // second "public" and land in the stale duplicate tree, where most of
+    // these happen to exist and the newest ones do not.
     foreach (array_unique($matches[1]) as $path) {
-        expect(file_exists(public_path($path)))->toBeTrue("missing image: {$path}");
+        $file = public_path(preg_replace('#^public/#', '', $path));
+
+        expect(file_exists($file))->toBeTrue("missing image: {$path}");
     }
 });

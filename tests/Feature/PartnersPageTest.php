@@ -58,15 +58,70 @@ it('appears in the sitemap', function () {
     get('/sitemap-core.xml')->assertOk()->assertSee(url('/partners'), false);
 });
 
-it('hides the partner list until there are partners to name', function () {
-    // The page ships with an empty list, and a heading over nothing reads worse
-    // than no heading. The section and its ItemList schema only appear once the
-    // signed institutions are in.
+it('names every institution that has signed, and counts them honestly', function () {
     $html = get(route('partners'))->assertOk()->getContent();
 
-    expect($html)->not->toContain('class="pt-hero-count"')
-        ->not->toContain('class="pt-grid"')
-        ->not->toContain('"ItemList"');
+    expect($html)->toContain('class="pt-grid"')
+        ->toContain('Rescue 1122 Lodhran')
+        ->toContain('Punjab Police Lodhran')
+        ->toContain('City Traffic Police Lodhran')
+        // The hero count is read off the list, so it cannot drift from it.
+        ->toContain('3 signed memoranda of understanding');
+
+    expect(substr_count($html, 'class="pt-card"'))->toBe(3);
+});
+
+it('shows each partner its own crest, and ships the file', function (string $logo) {
+    expect(file_exists(public_path('user/images/'.$logo)))->toBeTrue();
+
+    get(route('partners'))->assertOk()->assertSee('user/images/'.$logo, false);
+})->with([
+    'rescue 1122' => 'partner-rescue-1122.png',
+    'punjab police' => 'partner-punjab-police.png',
+    'city traffic police' => 'partner-city-traffic-police.png',
+]);
+
+it('links each partner to its own official government site and nowhere else', function () {
+    // The standing rule on this site: an institution is linked at its own
+    // domain, never through an aggregator or a page carrying a job id.
+    $html = get(route('partners'))->assertOk()->getContent();
+
+    preg_match_all('#<div class="pt-card-foot">.*?</div>#s', $html, $feet);
+
+    expect($feet[0])->toHaveCount(3);
+
+    foreach ($feet[0] as $foot) {
+        preg_match('#href="([^"]+)"#', $foot, $m);
+
+        expect($m[1] ?? '')->toMatch('#^https://(www\.)?(rescue|punjabpolice)\.gov\.pk/$#');
+    }
+});
+
+it('states the signing date where there is one, and does not invent one where there is not', function () {
+    $html = get(route('partners'))->assertOk()->getContent();
+
+    expect($html)->toContain('MOU signed 2 October 2023')
+        ->toContain('MOU signed 7 October 2025')
+        // City Traffic Police came in without a date; the badge just says signed.
+        ->toContain('MOU signed</span>');
+});
+
+it('lists the partners in its ItemList schema, with the same names and urls', function () {
+    $html = get(route('partners'))->assertOk()->getContent();
+
+    preg_match_all('#<script type="application/ld\+json">(.*?)</script>#s', $html, $blocks);
+
+    $list = collect($blocks[1])
+        ->map(fn (string $json): ?array => json_decode(trim($json), true))
+        ->first(fn (?array $node): bool => ($node['@type'] ?? null) === 'ItemList');
+
+    expect($list)->not->toBeNull()
+        ->and($list['numberOfItems'])->toBe(3)
+        ->and(array_column(array_column($list['itemListElement'], 'item'), 'name'))->toBe([
+            'Rescue 1122 Lodhran',
+            'Punjab Police Lodhran',
+            'City Traffic Police Lodhran',
+        ]);
 });
 
 it('lays the four explainer cards out in one row, in the resume page design', function () {

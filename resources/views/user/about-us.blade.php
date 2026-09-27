@@ -27,6 +27,13 @@
         "url": "{{ url('/') }}",
         "logo": "{{ asset('public/user/images/favicon.png') }}",
         "description": "A job board and guide site covering openings in {{ $coverage->shortList() }}, with plain-English write-ups of which visa sponsorship routes are open to foreign workers.",
+        "foundingDate": "2022-10-03",
+        "founder": {
+            "@@type": "Person",
+            "name": "Sajad Rao",
+            "jobTitle": "Founder & Chief Executive",
+            "image": "{{ asset('public/user/images/sajad-owner.jpg') }}"
+        },
         "areaServed": {!! json_encode($coverage->areaServedNodes(), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
         "sameAs": [
             "{{ url('/') }}"
@@ -431,117 +438,6 @@
     .how-card h3 { font-size: 19px; font-weight: 700; margin-bottom: 10px; color: #1b3a6b; }
     .how-card p { font-size: 14.5px; line-height: 1.7; color: #555; margin: 0; }
 
-    /* Benefits split */
-    .benefits-row {
-        display: grid;
-        grid-template-columns: 1fr 1.4fr;
-        gap: 40px;
-        align-items: stretch;
-    }
-    @media (max-width: 991px) { .benefits-row { grid-template-columns: 1fr; gap: 36px; } }
-    .benefits-visual {
-        position: relative;
-        border-radius: 20px;
-        overflow: hidden;
-        box-shadow: 0 25px 50px rgba(15,23,42,.12);
-        animation: aboutFloat 7s ease-in-out infinite;
-        height: 100%;
-        min-height: 100%;
-    }
-    .benefits-visual img {
-        position: absolute;
-        inset: 0;
-        width: 100%; height: 100%;
-        object-fit: cover; display: block;
-    }
-    @media (max-width: 991px) {
-        .benefits-visual {
-            position: static;
-            aspect-ratio: 4 / 3;
-            max-height: 360px;
-            min-height: auto;
-            height: auto;
-        }
-        .benefits-visual img { position: static; }
-    }
-    @media (max-width: 575px) {
-        .benefits-visual { max-height: 280px; }
-    }
-    .benefits-visual img {
-        width: 100%; height: 100%;
-        object-fit: cover; display: block;
-        transition: transform .8s ease;
-    }
-    .benefits-visual:hover img { transform: scale(1.05); }
-    .benefits-head { margin-bottom: 30px; }
-    .benefits-head .tag {
-        display: inline-block;
-        background: #fff;
-        border: 1px solid #e5e5e7;
-        color: #555;
-        padding: 6px 14px;
-        border-radius: 999px;
-        font-size: 12px;
-        font-weight: 700;
-        letter-spacing: 1.6px;
-        text-transform: uppercase;
-        margin-bottom: 14px;
-    }
-    .benefits-head h2 {
-        font-size: clamp(26px, 3vw, 36px);
-        font-weight: 800;
-        line-height: 1.2;
-        letter-spacing: -.5px;
-        color: #1b3a6b;
-        margin: 0;
-    }
-    .benefits-head h2 span {
-        background: linear-gradient(90deg, #1b3a6b, #4a90d9);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        color: transparent;
-    }
-    /* 3-column card grid (icon top → heading → text) */
-    .benefits-list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: min-content;
-        align-items: start;
-        gap: 14px;
-        align-content: start;
-    }
-    @media (max-width: 1199px) { .benefits-list { grid-template-columns: repeat(2, 1fr); } }
-    @media (max-width: 575px)  { .benefits-list { grid-template-columns: 1fr; } }
-
-    .benefit-item {
-        background: #fff;
-        border: 1px solid #ececec;
-        border-radius: 14px;
-        padding: 18px 16px;
-        text-align: left;
-        height: auto;
-        align-self: start;
-        transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
-    }
-    .benefit-item:hover {
-        transform: translateY(-3px);
-        border-color: #1b3a6b;
-        box-shadow: 0 14px 28px rgba(15,23,42,.08);
-    }
-    .benefit-item .ico {
-        width: 42px; height: 42px;
-        border-radius: 11px;
-        background: #1b3a6b;
-        color: #fff;
-        display: inline-flex; align-items: center; justify-content: center;
-        font-size: 18px;
-        margin-bottom: 12px;
-        box-shadow: 0 6px 14px rgba(27, 58, 107,.18);
-    }
-    .benefit-item h4 { font-size: 15px; font-weight: 800; margin: 0 0 6px; color: #1b3a6b; line-height: 1.3; }
-    .benefit-item p { font-size: 13px; line-height: 1.55; color: #555; margin: 0; }
-
     /* Testimonials */
     .testimonial-grid {
         display: grid;
@@ -802,6 +698,89 @@
     }
 
     /* =========================================
+       Founder — the portrait on one side, the story on the other
+       ========================================= */
+    .ab-founder-row { display: grid; grid-template-columns: .85fr 1.15fr; gap: 52px; align-items: center; }
+    .ab-founder-visual { position: relative; }
+    .ab-founder-visual img {
+        width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block;
+        border-radius: 22px; box-shadow: 0 25px 50px rgba(15,23,42,.14);
+    }
+    /* Name plate resting on the lower edge of the portrait. */
+    .ab-founder-plate {
+        position: absolute; left: 22px; right: 22px; bottom: 22px;
+        background: rgba(255,255,255,.94); backdrop-filter: blur(6px);
+        border-radius: 14px; padding: 14px 18px;
+        box-shadow: 0 12px 28px rgba(15,23,42,.16);
+    }
+    .ab-founder-plate strong { display: block; font-size: 17px; font-weight: 800; color: #1b3a6b; line-height: 1.25; }
+    .ab-founder-plate span { display: block; font-size: 13px; color: #6b7d92; font-weight: 600; margin-top: 2px; }
+    .ab-founder-copy h2 {
+        font-size: clamp(26px, 3vw, 36px); font-weight: 800; color: #1b3a6b;
+        line-height: 1.2; letter-spacing: -.5px; margin: 0 0 16px;
+    }
+    .ab-founder-copy h2 span { color: #2f7fc9; }
+    .ab-founder-copy p { font-size: 15.5px; line-height: 1.8; color: #555; margin: 0 0 16px; }
+    .ab-founder-copy p a { color: #2f7fc9; font-weight: 700; text-decoration: none; border-bottom: 1px solid rgba(47,127,201,.4); }
+    .ab-founder-copy p a:hover { border-bottom-color: #2f7fc9; }
+    .ab-founder-quote {
+        margin: 26px 0 0 !important; padding: 18px 22px;
+        border-left: 3px solid #2f7fc9; background: #f5f8fc; border-radius: 0 12px 12px 0;
+        font-size: 16px !important; font-weight: 700; color: #1b3a6b !important; line-height: 1.6 !important;
+    }
+    @media (max-width: 991px) {
+        .ab-founder-row { grid-template-columns: 1fr; gap: 34px; }
+        .ab-founder-visual { max-width: 420px; margin: 0 auto; }
+    }
+
+    /* =========================================
+       Why Choose Us — the treatment the resume page gives its points:
+       one image beside a column of rows split by hairlines, so six
+       items read as a list instead of a wall of boxes.
+       ========================================= */
+    .ab-why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 46px; align-items: stretch; }
+    .ab-why-grid > img {
+        width: 100%; height: 100%; min-height: 440px; object-fit: cover;
+        border-radius: 20px; box-shadow: 0 20px 46px rgba(27,58,107,.18);
+    }
+    .ab-why-copy { display: flex; flex-direction: column; justify-content: center; }
+    .ab-why-eyebrow {
+        display: inline-block; width: fit-content; align-self: flex-start;
+        background: #1b3a6b; color: #fff;
+        font-size: 12.5px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase;
+        padding: 9px 20px; border-radius: 999px; margin-bottom: 20px;
+    }
+    .ab-why-copy h2 {
+        font-size: clamp(27px, 3.4vw, 42px); font-weight: 800; color: #1b3a6b;
+        line-height: 1.18; letter-spacing: -.6px; margin: 0 0 14px;
+    }
+    .ab-why-copy h2 .accent { color: #2f7fc9; }
+    .ab-why-lede { color: #55657a; font-size: 16.5px !important; line-height: 1.7; margin: 0 0 26px; }
+    .ab-why-points { display: grid; grid-template-columns: 1fr; gap: 0; }
+    .ab-why-card {
+        position: relative; background: transparent; border: 0;
+        padding: 18px 2px 18px 0; border-bottom: 1px solid #dde7f3;
+    }
+    .ab-why-card:first-child { border-top: 1px solid #dde7f3; }
+    .ab-why-card::after {
+        content: ""; position: absolute; left: 0; bottom: -1px; width: 0; height: 2px;
+        background: #2f7fc9; transition: width .34s cubic-bezier(.4, 0, .2, 1);
+    }
+    .ab-why-card:hover::after { width: 100%; }
+    .ab-why-card h3 {
+        font-size: 17px; font-weight: 800; color: #1b3a6b; margin: 0 0 6px;
+        transition: color .2s ease;
+    }
+    .ab-why-card:hover h3 { color: #2f7fc9; }
+    .ab-why-card p { color: #55657a; font-size: 14.6px !important; line-height: 1.65; margin: 0; }
+    .ab-why-card p a { color: #2f7fc9; font-weight: 700; text-decoration: none; border-bottom: 1px solid rgba(47,127,201,.4); }
+    .ab-why-card p a:hover { border-bottom-color: #2f7fc9; }
+    @media (max-width: 991px) {
+        .ab-why-grid { grid-template-columns: 1fr; gap: 34px; }
+        .ab-why-grid > img { min-height: 300px; }
+    }
+
+    /* =========================================
        DARK MODE — About Us
        ========================================= */
     html.dark-mode .about-page p { color: var(--site-muted, #b8c0cc) !important; }
@@ -871,20 +850,6 @@
         color: #fff !important;
     }
     html.dark-mode .how-card .icon-wrap {
-        background: rgba(27, 58, 107,.12) !important;
-        color: #1b3a6b !important;
-    }
-
-    /* "Built for job seekers who care about quality" — benefit items */
-    html.dark-mode .benefit-item {
-        background: var(--site-card-bg, #1c2128) !important;
-        border-color: rgba(255,255,255,.10) !important;
-    }
-    html.dark-mode .benefit-item:hover { border-color: #1b3a6b !important; }
-    html.dark-mode .benefit-item h4 { color: #fff !important; }
-    html.dark-mode .benefit-item p { color: var(--site-muted, #b8c0cc) !important; }
-    html.dark-mode .benefit-item .icon-wrap,
-    html.dark-mode .benefit-item .b-icon {
         background: rgba(27, 58, 107,.12) !important;
         color: #1b3a6b !important;
     }
@@ -976,7 +941,6 @@
     }
 
     /* ===== Dark mode: gradient-text spans (were black-on-black → invisible) ===== */
-    html.dark-mode .benefits-head h2 span,
     html.dark-mode .story-content h2 span,
     html.dark-mode .about-hero h1 span {
         background: none !important;
@@ -1002,6 +966,30 @@
     /* ===== Dark mode: FAQ +/− icons (were black-on-black → invisible) ===== */
     html.dark-mode .about-faq-item summary::after { color: #1b3a6b !important; }
     html.dark-mode .about-faq-item[open] summary::after { color: #1b3a6b !important; }
+
+    /* ===== Dark mode: Founder ===== */
+    html.dark-mode .ab-founder-plate {
+        background: var(--site-card-bg, #1c2128) !important;
+        box-shadow: 0 12px 28px rgba(0,0,0,.45) !important;
+    }
+    html.dark-mode .ab-founder-plate strong { color: #fff !important; }
+    html.dark-mode .ab-founder-plate span { color: var(--site-muted, #b8c0cc) !important; }
+    html.dark-mode .ab-founder-copy h2 span { color: #4da3e8 !important; }
+    html.dark-mode .ab-founder-copy p a { color: #4da3e8 !important; border-bottom-color: rgba(77,163,232,.4) !important; }
+    html.dark-mode .ab-founder-quote {
+        background: rgba(255,255,255,.05) !important;
+        border-left-color: #4da3e8 !important;
+        color: #f2f7fd !important;
+    }
+
+    /* ===== Dark mode: Why Choose Us ===== */
+    html.dark-mode .ab-why-eyebrow { background: #2f7fc9 !important; color: #fff !important; }
+    html.dark-mode .ab-why-copy h2 .accent { color: #4da3e8 !important; }
+    html.dark-mode .ab-why-card { border-bottom-color: rgba(255,255,255,.13) !important; }
+    html.dark-mode .ab-why-card:first-child { border-top-color: rgba(255,255,255,.13) !important; }
+    html.dark-mode .ab-why-card::after { background: #4da3e8 !important; }
+    html.dark-mode .ab-why-card:hover h3 { color: #4da3e8 !important; }
+    html.dark-mode .ab-why-card p a { color: #4da3e8 !important; border-bottom-color: rgba(77,163,232,.4) !important; }
 </style>
 
 <div class="about-page">
@@ -1013,7 +1001,7 @@
                 <div>
                     <span class="about-hero-tag" data-aos="fade-down" data-aos-duration="600">About Us</span>
                     <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Real jobs, and <span>straight answers</span> about the visa routes behind them</h1>
-                    <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Sajjad Digital Services lists hand-checked openings across {{ $coverage->shortList() }} &mdash; and publishes guides that say which sponsorship routes are genuinely open, which have closed, and what each role actually pays. Free to apply, and you never need an account.</p>
+                    <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Founded in Pakistan on 3 October 2022, Sajjad Digital Services lists hand-checked openings across {{ $coverage->shortList() }} &mdash; and publishes guides that say which sponsorship routes are genuinely open, which have closed, and what each role actually pays. Free to apply, and you never need an account.</p>
                     <div class="about-hero-cta" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
                         <a href="{{ route('jobs.index') }}">Browse Open Jobs <i class="icon-feather-arrow-right"></i></a>
                     </div>
@@ -1066,6 +1054,34 @@
         </div>
     </section>
 
+    {{-- Founder --}}
+    <section class="about-section">
+        <div class="container">
+            <div class="ab-founder-row">
+                <div class="ab-founder-visual" data-aos="fade-right" data-aos-duration="700">
+                    <picture>
+                        <source srcset="{{ asset('public/user/images/sajad-owner.webp') }}" type="image/webp">
+                        <img src="{{ asset('public/user/images/sajad-owner.jpg') }}"
+                             alt="Sajad Rao, founder of Sajjad Digital Services"
+                             width="900" height="900" loading="lazy" decoding="async">
+                    </picture>
+                    <div class="ab-founder-plate">
+                        <strong>Sajad Rao</strong>
+                        <span>Founder &amp; Chief Executive</span>
+                    </div>
+                </div>
+                <div class="ab-founder-copy" data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+                    <span class="about-hero-tag">The Founder</span>
+                    <h2>The person <span>behind the desk</span></h2>
+                    <p>Sajad Rao started Sajjad Digital Services on 3&nbsp;October 2022, from a plain observation: the people who need digital services most are usually the ones with the least access to them. A student who cannot work out which admission portal is the real one. A worker whose CV never gets past the first automated filter. A small business with no way of being found online.</p>
+                    <p>His answer was to put all of it at one desk &mdash; job applications, university admissions, scholarship guidance, CV writing, career counselling and digital promotion &mdash; instead of sending people to six different places and hoping they worked it out.</p>
+                    <p>The work has since grown past individual clients. Sajjad Digital Services now holds signed memoranda of understanding with government departments in Lodhran, including Punjab Police and Rescue 1122, extending the same services to their staff and families. Those agreements, and their limits, are set out on the <a href="{{ route('partners') }}">partners page</a>.</p>
+                    <p class="ab-founder-quote">Building trust. Creating opportunities. Growing together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     {{-- Mission / Vision / Values --}}
     <section class="about-section">
         <div class="container">
@@ -1078,12 +1094,12 @@
                 <div class="mvv-card">
                     <div class="ico"><i class="icon-feather-target"></i></div>
                     <h3>Our Mission</h3>
-                    <p>To make working abroad less of a guessing game &mdash; by pairing real openings with an honest account of the visa route behind each one, so nobody wastes months chasing a job they were never eligible for.</p>
+                    <p>To put reliable, affordable digital services within reach of the people who need them most &mdash; so that finding work, applying to a university or getting a business online does not come down to who you happen to know.</p>
                 </div>
                 <div class="mvv-card">
                     <div class="ico"><i class="icon-feather-eye"></i></div>
                     <h3>Our Vision</h3>
-                    <p>A job search where the hard information is free and public: which routes are open, what the pay really is, and which recruiters are charging for something that should never cost a worker a penny.</p>
+                    <p>To be the digital services desk people in Pakistan trust by default &mdash; the one you send a friend to, because the answer they got was straight even when it was not the answer they wanted.</p>
                 </div>
                 <div class="mvv-card">
                     <div class="ico"><i class="icon-feather-heart"></i></div>
@@ -1125,62 +1141,49 @@
         </div>
     </section>
 
-    {{-- Benefits Split --}}
+    {{-- Why Choose Us --}}
     <section class="about-section">
         <div class="container">
-            <div class="benefits-head" style="text-align: center; margin-bottom: 44px;">
-                <span class="tag">Why Sajjad Digital Services</span>
-                <h2>What you actually get from <span>Sajjad Digital Services</span></h2>
-            </div>
-            <div class="benefits-row">
-                <div class="benefits-visual">
-                    <img src="{{ asset('public/user/images/partir-usa.webp') }}" alt="Job seeker reading a Sajjad Digital Services visa sponsorship guide" loading="lazy" onerror="this.onerror=null;this.src='{{ asset('public/user/images/partir-usa.jpg') }}'">
-                </div>
-                <div class="benefits-list">
-                    <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-shield"></i></div>
-                        <h4>Hand-Checked Listings</h4>
-                        <p>Added and reviewed by us, not scraped. Each one links to the employer or original posting so you can verify it.</p>
-                    </div>
-                    <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-alert-circle"></i></div>
-                        <h4>Closed Routes Named</h4>
-                        <p>When a visa route shuts, we say so up front instead of leaving an old guide up to collect clicks.</p>
-                    </div>
-                    <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-dollar-sign"></i></div>
-                        <h4>Researched Pay Ranges</h4>
-                        <p>Hourly rates and annual bands with the source explained &mdash; not a scraped estimate presented as fact.</p>
-                    </div>
-                    <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-user-x"></i></div>
-                        <h4>No Account Needed</h4>
-                        <p>Open any listing and apply. No sign-up wall, no resume paywall, nothing to unsubscribe from later.</p>
-                    </div>
-                    <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-slash"></i></div>
-                        <h4>Never a Fee</h4>
-                        <p>Charging a worker for sponsorship is illegal in the US and UK. We will never ask you for money, at any stage.</p>
-                    </div>
-                    <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-globe"></i></div>
-                        <h4>{{ $coverage->countWord() }} Countries</h4>
-                        <p>{{ $coverage->shortList() }} &mdash; trucking, hospitality, care, construction, cleaning, marketing and software.</p>
-                    </div>
-                    <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-file-text"></i></div>
-                        <h4>Official Sources</h4>
-                        <p>Guides written from gov.uk, USCIS and Department of Labor material, with the rule and the date it changed.</p>
-                    </div>
-                    <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-eye"></i></div>
-                        <h4>Scam Patterns Flagged</h4>
-                        <p>Upfront "processing fees", fake sponsorship tags and guaranteed-visa promises, explained sector by sector.</p>
-                    </div>
-                    <div class="benefit-item">
-                        <div class="ico"><i class="icon-feather-refresh-cw"></i></div>
-                        <h4>Updated Weekly</h4>
-                        <p>New listings and guides every week, with the newest openings first on the home page and jobs board.</p>
+            <div class="ab-why-grid">
+                <picture>
+                    <source srcset="{{ asset('public/user/images/partir-usa.webp') }}" type="image/webp">
+                    <img src="{{ asset('public/user/images/partir-usa.jpg') }}"
+                         alt="A job seeker working through an application with Sajjad Digital Services"
+                         width="896" height="1200" loading="lazy" decoding="async">
+                </picture>
+                <div class="ab-why-copy">
+                    <span class="ab-why-eyebrow">Why Choose Us</span>
+                    <h2>One Desk, <span class="accent">Not Six Queues</span></h2>
+                    <p class="ab-why-lede">
+                        Most of what we do, people could in principle do themselves. The reason they
+                        do not is that it is spread across six portals, four deadlines and a form
+                        nobody ever explains. Six things we take on.
+                    </p>
+                    <div class="ab-why-points">
+                        <div class="ab-why-card">
+                            <h3>One window for the whole thing</h3>
+                            <p>Admissions, job applications, scholarships, CVs and business promotion handled at a single desk by people who already know which portal wants what. You explain your situation once.</p>
+                        </div>
+                        <div class="ab-why-card">
+                            <h3>Career guidance and job applications</h3>
+                            <p>We read the advert with you, say honestly whether you meet it, and submit the application on the employer&rsquo;s own portal &mdash; never through a middleman charging you for access you already have.</p>
+                        </div>
+                        <div class="ab-why-card">
+                            <h3>University admissions and scholarships</h3>
+                            <p>Which intake is genuinely open, what the deadline actually is, and which awards you are eligible for. Our <a href="{{ route('scholarships.index') }}">scholarship write-ups</a> are free to read whether or not you ever contact us.</p>
+                        </div>
+                        <div class="ab-why-card">
+                            <h3>A CV written by a person</h3>
+                            <p>No AI generation and no template fill. One writer works with you from the first message to the final file, and you keep the editable document. See <a href="{{ route('resume-writing') }}">how the CV service works</a>.</p>
+                        </div>
+                        <div class="ab-why-card">
+                            <h3>Digital promotion for small businesses</h3>
+                            <p>Getting a business found and contactable online &mdash; a presence customers can actually reach, rather than a page that exists and does nothing.</p>
+                        </div>
+                        <div class="ab-why-card">
+                            <h3>Free where it should be free</h3>
+                            <p>Every listing and every guide on this site costs nothing and needs no account. Charging a worker for visa sponsorship is illegal in both the US and the UK, and we will never ask you for money to apply for a job.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1222,7 +1225,8 @@
                 <div class="story-content">
                     <span class="about-hero-tag">Our Story</span>
                     <h2>Why Sajjad Digital Services <span>exists</span></h2>
-                    <p>Sajjad Digital Services started from a specific frustration: search "warehouse jobs UK visa sponsorship" or "caregiver jobs UK" and you get page after page of sites promising sponsorship that the rules no longer allow. Some are years out of date. Some are agencies charging a fee for a visa that does not exist.</p>
+                    <p>Sajad Rao registered Sajjad Digital Services on 3 October 2022. The work began close to home &mdash; an admission form, a CV that needed fixing, a job advert whose real application page nobody could find &mdash; and the same problem kept turning up: the information people needed was public, but it was scattered, out of date, or sitting behind someone charging for it.</p>
+                    <p>Online it was worse. Search "warehouse jobs UK visa sponsorship" or "caregiver jobs UK" and you get page after page of sites promising sponsorship that the rules no longer allow. Some are years out of date. Some are agencies charging a fee for a visa that does not exist.</p>
                     <p>So we built the opposite. Every guide leads with the current rule and where it comes from &mdash; gov.uk, USCIS, the Department of Labor &mdash; even when the honest answer is that a route closed and is not coming back. The UK care worker visa shut to new overseas applicants in July 2025; our guide says that in the first paragraph rather than burying it.</p>
                     <p>We are a small team and this is a young site. We would rather publish eight guides we can stand behind than eight thousand listings we have never looked at, and we would rather tell you a route is closed than take the click.</p>
                 </div>
@@ -1594,7 +1598,6 @@
            ================================================================= */
 
         /* Gradient text spans — were dark gradient (invisible on dark bg) → orange */
-        html.dark-mode .about-page .benefits-head h2 span,
         html.dark-mode .about-page .story-content h2 span,
         html.dark-mode .about-page .about-hero h1 span,
         html.dark-mode .about-page h1 .accent,
@@ -1626,19 +1629,10 @@
         }
         html.dark-mode .about-page .about-faq-item summary { color: #fff !important; }
 
-        /* Catch-all for benefits-head / story-content headings themselves */
-        html.dark-mode .about-page .benefits-head h2,
         html.dark-mode .about-page .story-content h2 { color: #fff !important; }
-        html.dark-mode .about-page .benefits-head .tag {
-            background: rgba(27, 58, 107,.12) !important;
-            border-color: rgba(27, 58, 107,.30) !important;
-            color: #1b3a6b !important;
-        }
 
         /* Story paragraphs */
         html.dark-mode .about-page .story-content p { color: var(--site-muted, #b8c0cc) !important; }
-        html.dark-mode .about-page .benefits-list .benefit-item h4 { color: #fff !important; }
-        html.dark-mode .about-page .benefits-list .benefit-item p { color: var(--site-muted, #b8c0cc) !important; }
 
         /* Testimonial stars stay amber */
         html.dark-mode .about-page .testimonial-stars { color: #ffb800 !important; }
@@ -1665,13 +1659,6 @@
             background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
             color: #fff !important;
             box-shadow: 0 6px 14px rgba(27, 58, 107,.30) !important;
-        }
-
-        /* Benefit list ("Built for job seekers...") icons → orange gradient */
-        html.dark-mode .about-page .benefit-item .ico {
-            background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
-            color: #fff !important;
-            box-shadow: 0 4px 10px rgba(27, 58, 107,.30) !important;
         }
     </style>
 

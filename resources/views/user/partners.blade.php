@@ -12,9 +12,37 @@
     /**
      * The institutions we hold a signed memorandum of understanding with.
      *
-     * @var array<int, array{name: string, kind: string, country: string, summary: string, url: ?string, signed: ?string}>
+     * @var array<int, array{name: string, kind: string, country: string, summary: string, url: ?string, signed: ?string, logo: ?string}>
      */
-    $partners = [];
+    $partners = [
+        [
+            'name' => 'Rescue 1122 Lodhran',
+            'kind' => 'Government emergency service',
+            'country' => 'Pakistan',
+            'summary' => 'Free digital services and career guidance for Rescue 1122 staff in Lodhran, and for the children of shuhada — personnel who died in the line of duty. Rescue 1122 is run by the Punjab Emergency Service, the provincial department behind the 1122 emergency line.',
+            'url' => 'https://www.rescue.gov.pk/',
+            'signed' => '2 October 2023',
+            'logo' => 'partner-rescue-1122.png',
+        ],
+        [
+            'name' => 'Punjab Police Lodhran',
+            'kind' => 'Government department',
+            'country' => 'Pakistan',
+            'summary' => 'Digital services, help with online job applications, career counselling, IT training and professional development for Punjab Police personnel posted in Lodhran and for their families.',
+            'url' => 'https://punjabpolice.gov.pk/',
+            'signed' => '7 October 2025',
+            'logo' => 'partner-punjab-police.png',
+        ],
+        [
+            'name' => 'City Traffic Police Lodhran',
+            'kind' => 'Government department',
+            'country' => 'Pakistan',
+            'summary' => 'Digital services, assistance with online applications and career guidance for City Traffic Police officers in Lodhran. City Traffic Police Punjab operates under the Punjab Police.',
+            'url' => 'https://punjabpolice.gov.pk/',
+            'signed' => null,
+            'logo' => 'partner-city-traffic-police.png',
+        ],
+    ];
 
     $contactEmail = config('site.contact_email');
     $waNumber = preg_replace('/\D+/', '', (string) config('site.whatsapp'));
@@ -175,6 +203,13 @@
         color: #fff; font-weight: 800; font-size: 17px;
         display: flex; align-items: center; justify-content: center;
     }
+    /* A crest is drawn for a white background, so it keeps one in both themes
+       rather than being dropped onto the brand gradient. */
+    .pt-card-mark.has-logo {
+        width: 54px; height: 54px; flex: 0 0 54px;
+        background: #fff; border: 1px solid #e4edf8; padding: 5px;
+    }
+    .pt-card-mark.has-logo img { width: 100%; height: 100%; object-fit: contain; display: block; }
     .pt-card h3 { font-size: 18px; font-weight: 800; color: #1b3a6b; margin: 0; line-height: 1.3; }
     .pt-card-meta { font-size: 12.5px; color: #7b8698; font-weight: 600; margin: 2px 0 0; }
     .pt-card p { color: #55657a; font-size: 14.8px; line-height: 1.65; margin: 0; }
@@ -332,7 +367,7 @@
                 @if(count($partners) > 0)
                     <span class="pt-hero-count">
                         <i class="icon-feather-file-text"></i>
-                        {{ count($partners) }} signed memoranda of understanding
+                        {{ count($partners) }} signed {{ count($partners) === 1 ? 'memorandum' : 'memoranda' }} of understanding
                     </span>
                 @endif
             </div>
@@ -352,7 +387,15 @@
                     @foreach($partners as $partner)
                         <article class="pt-card">
                             <div class="pt-card-top">
-                                <span class="pt-card-mark" aria-hidden="true">{{ \Illuminate\Support\Str::upper(\Illuminate\Support\Str::substr($partner['name'], 0, 2)) }}</span>
+                                @if(! empty($partner['logo']))
+                                    <span class="pt-card-mark has-logo">
+                                        <img src="{{ asset('public/user/images/'.$partner['logo']) }}"
+                                             alt="{{ $partner['name'] }} crest"
+                                             width="200" height="200" loading="lazy" decoding="async">
+                                    </span>
+                                @else
+                                    <span class="pt-card-mark" aria-hidden="true">{{ \Illuminate\Support\Str::upper(\Illuminate\Support\Str::substr($partner['name'], 0, 2)) }}</span>
+                                @endif
                                 <div>
                                     <h3>{{ $partner['name'] }}</h3>
                                     <p class="pt-card-meta">{{ $partner['kind'] }} &middot; {{ $partner['country'] }}</p>

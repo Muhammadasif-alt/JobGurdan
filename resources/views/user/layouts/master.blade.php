@@ -443,16 +443,16 @@
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('jobs.companies') }}"
-                                        class="{{ request()->routeIs('jobs.companies', 'companies.show') ? 'current' : '' }}">
-                                        Companies
+                                    <a href="{{ route('about.us') }}"
+                                        class="{{ request()->routeIs('about.us') ? 'current' : '' }}">
+                                        About
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('job-seekers.index') }}"
-                                        class="{{ request()->routeIs('job-seekers.*') ? 'current' : '' }}">
-                                        Talent
+                                    <a href="{{ route('partners') }}"
+                                        class="{{ request()->routeIs('partners') ? 'current' : '' }}">
+                                        Partners
                                     </a>
                                 </li>
 
@@ -528,15 +528,10 @@
                                 </form>
                             </div>
                         @else
-                            {{-- The employer's way in, and now the only call to action beside
-                                 Sign In, so it takes the filled treatment for itself. --}}
+                            {{-- One way in. The login page carries the "create one free" link,
+                                 so the visitor without an account is a click away either way. --}}
                             <div class="utf-header-widget-item">
-                                <a href="{{ route('register') }}" class="post-job-btn">
-                                    <i class="icon-feather-plus-circle"></i> <span>Post a Job</span>
-                                </a>
-                            </div>
-                            <div class="utf-header-widget-item">
-                                <a href="{{ route('login') }}" class="log-in-button">
+                                <a href="{{ route('login') }}" class="log-in-button log-in-primary">
                                     <i class="icon-feather-log-in"></i> <span>Sign In</span>
                                 </a>
                             </div>
@@ -550,46 +545,27 @@
                         </span>
                     </div>
                     <style>
-                        /* === Post a Job (guest navbar) — the employer's entry point and the
-                              only filled call to action in the header. Sign In covers the
-                              seeker who wants an account. === */
-                        .utf-header-widget-item .post-job-btn {
-                            display: inline-flex; align-items: center; gap: 8px;
-                            flex-shrink: 0; white-space: nowrap;
-                            height: 44px; padding: 0 18px;
-                            background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
-                            color: #fff !important;
-                            border: 1.5px solid #1b3a6b;
-                            border-radius: 10px;
-                            font: 700 14px/1 'Nunito', system-ui, sans-serif;
-                            text-decoration: none;
-                            transition: filter .15s ease, transform .12s ease, box-shadow .15s ease;
-                            box-shadow: 0 4px 12px rgba(27,58,107,.25);
-                        }
-                        /* Match the Sign In button shape (theme toggle is now a sliding pill) */
+                        /* Sign In is the only button in the guest header, so it takes the
+                           filled treatment. Geometry still comes from .log-in-button, which
+                           the logout button shares. */
                         #header .utf-right-side .log-in-button { border-radius: 10px !important; }
-                        .utf-header-widget-item .post-job-btn:hover {
-                            filter: brightness(1.15);
-                            transform: translateY(-1px);
-                            box-shadow: 0 8px 18px rgba(27, 58, 107,.35);
-                        }
-                        .utf-header-widget-item .post-job-btn i,
-                        .utf-header-widget-item .post-job-btn span { color: #fff !important; }
-                        html.dark-mode .utf-header-widget-item .post-job-btn {
+                        #header .utf-right-side .log-in-primary {
                             background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
                             border-color: #1b3a6b !important;
                             color: #fff !important;
-                            box-shadow: 0 4px 12px rgba(27, 58, 107,.45) !important;
+                            box-shadow: 0 4px 12px rgba(27, 58, 107, .25);
                         }
-                        html.dark-mode .utf-header-widget-item .post-job-btn i,
-                        html.dark-mode .utf-header-widget-item .post-job-btn span { color: #fff !important; }
-                        html.dark-mode .utf-header-widget-item .post-job-btn:hover {
-                            box-shadow: 0 8px 18px rgba(27, 58, 107,.55) !important;
+                        #header .utf-right-side .log-in-primary i { color: #fff !important; }
+                        #header .utf-right-side .log-in-primary:hover {
+                            filter: brightness(1.12);
+                            box-shadow: 0 8px 18px rgba(27, 58, 107, .35);
                         }
-                        /* One button left, so it can stay on until the mobile menu takes over. */
-                        @media (max-width: 991px) {
-                            .utf-header-widget-item .post-job-btn { display: none; }
+                        html.dark-mode #header .utf-right-side .log-in-primary {
+                            background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
+                            border-color: #1b3a6b !important;
+                            color: #fff !important;
                         }
+                        html.dark-mode #header .utf-right-side .log-in-primary i { color: #fff !important; }
 
                         /* === User dropdown chip (logged-in navbar) === */
                         .utf-user-dropdown { position: relative; }
@@ -1074,9 +1050,6 @@
                             #header .utf-right-side { gap: 8px; }
                             .theme-toggle { margin: 0 2px; }
                             #header .utf-right-side .utf-header-widget-item { height: 42px !important; }
-                            .utf-header-widget-item .post-job-btn {
-                                height: 42px; padding: 0 14px; gap: 6px; font-size: 13.5px;
-                            }
                             #header .utf-right-side .log-in-button {
                                 height: 42px !important;
                                 padding: 0 14px !important;
@@ -1112,9 +1085,6 @@
                             #header .utf-right-side { gap: 8px; }
                             #header .utf-right-side .theme-toggle { margin: 0 2px; }
                             #header .utf-right-side .utf-header-widget-item { height: 44px !important; }
-                            .utf-header-widget-item .post-job-btn {
-                                height: 44px; padding: 0 15px; gap: 6px; font-size: 14px;
-                            }
                             #header .utf-right-side .log-in-button {
                                 height: 44px !important;
                                 padding: 0 15px !important;
@@ -1998,12 +1968,18 @@
                                     &nbsp;·&nbsp;
                                     <a href="mailto:{{ config('site.contact_email') }}">{{ config('site.contact_email') }}</a>
                                 </p>
+                                {{-- Companies and Talent moved down here when About and
+                                     Partners took their place in the header. --}}
                                 <p>
-                                    <a href="{{ url('/privacy-policy') }}">Privacy Policy</a> &nbsp;·&nbsp;
-                                    <a href="{{ url('/terms-of-service') }}">Terms of Service</a> &nbsp;·&nbsp;
                                     <a href="{{ url('/about-us') }}">About Us</a> &nbsp;·&nbsp;
                                     <a href="{{ route('partners') }}">Partners</a> &nbsp;·&nbsp;
+                                    <a href="{{ route('jobs.companies') }}">Companies</a> &nbsp;·&nbsp;
+                                    <a href="{{ route('job-seekers.index') }}">Talent</a> &nbsp;·&nbsp;
                                     <a href="{{ route('contact.us') }}">Contact</a>
+                                </p>
+                                <p>
+                                    <a href="{{ url('/privacy-policy') }}">Privacy Policy</a> &nbsp;·&nbsp;
+                                    <a href="{{ url('/terms-of-service') }}">Terms of Service</a>
                                 </p>
                             </div>
                         </div>

@@ -30,16 +30,34 @@ it('names each nav link after what is on the page, not who it is for', function 
     // of other candidates, so both sent the audience they named somewhere else.
     $labels = navLabels();
 
-    expect($labels)->toContain('Jobs', 'Companies', 'Talent', 'Career Advice')
+    expect($labels)->toContain('Jobs', 'About', 'Partners', 'Career Advice')
         ->and($labels)->not->toContain('Employers')
         ->and($labels)->not->toContain('Job Seekers');
 });
 
-it('puts Jobs first after Home, ahead of the two directories', function () {
+it('gives the header slots to About and Partners, not to the two directories', function () {
+    // Companies and Talent are directories people reach from a job, not
+    // destinations in their own right; About and Partners are the pages that
+    // answer "who are these people" before anyone applies.
     $labels = navLabels();
 
-    expect(array_slice($labels, 0, 6))->toBe(['Home', 'Jobs', 'Companies', 'Talent', 'Resume Writing', 'Career Advice']);
+    expect(array_slice($labels, 0, 6))->toBe(['Home', 'Jobs', 'About', 'Partners', 'Resume Writing', 'Career Advice'])
+        ->and($labels)->not->toContain('Companies')
+        ->and($labels)->not->toContain('Talent');
 });
+
+it('keeps Companies and Talent reachable from the footer of every page', function (string $url) {
+    // They left the header, so the footer is the only thing keeping them
+    // crawlable — and the only way a visitor still finds them.
+    $html = get($url)->assertOk()->getContent();
+
+    expect($html)->toContain('<a href="'.route('jobs.companies').'">Companies</a>')
+        ->toContain('<a href="'.route('job-seekers.index').'">Talent</a>');
+})->with([
+    'home' => '/',
+    'jobs' => '/jobs',
+    'about' => '/about-us',
+]);
 
 it('marks the page you are on as current', function (string $path, string $label) {
     $nav = navBlock($path);
@@ -51,8 +69,8 @@ it('marks the page you are on as current', function (string $path, string $label
 })->with([
     'home' => ['/', 'Home'],
     'jobs' => ['/jobs', 'Jobs'],
-    'companies' => ['/companies', 'Companies'],
-    'talent' => ['/job-seekers', 'Talent'],
+    'about' => ['/about-us', 'About'],
+    'partners' => ['/partners', 'Partners'],
     'resume' => ['/resume-writing-services', 'Resume Writing'],
     'advice' => ['/blog', 'Career Advice'],
 ]);
@@ -68,22 +86,33 @@ it('styles the current page as a filled button rather than the hover grey', func
         ->toContain('html.dark-mode #header #navigation > ul > li > a.current,');
 });
 
-it('gives employers the one filled call to action in the header', function () {
-    // Register CV and Post a Job sat side by side competing for the same
-    // glance, and Sign In already covers the seeker who wants an account.
+it('leaves a guest exactly one button in the header', function () {
+    // Post a Job and Sign In sat side by side competing for the same glance.
+    // Sign In wins because the login page carries the "create one free" link,
+    // so it serves the visitor with an account and the one without.
     $html = get('/')->assertOk()->getContent();
 
-    expect($html)->toContain('post-job-btn')
-        ->toContain('Post a Job')
-        ->toContain('Sign In')
+    expect($html)->toContain('Sign In')
+        ->not->toContain('Post a Job')
+        ->not->toContain('post-job-btn')
         ->not->toContain('Register CV')
         ->not->toContain('register-cv-btn');
 
-    // It inherits the treatment Register CV used to carry rather than the
-    // outline it had while it was the secondary button.
-    $start = strpos($html, '.utf-header-widget-item .post-job-btn {');
-    expect($start)->not->toBeFalse('post-job-btn styles not found');
-    expect(substr($html, $start, 420))->toContain('linear-gradient(135deg, #1b3a6b, #2f7fc9)');
+    expect(substr_count($html, 'class="log-in-button log-in-primary"'))->toBe(1);
+});
+
+it('sends the visitor without an account on to registration from the login page', function () {
+    // The single header button only works as an entry point for both cases
+    // because the page it lands on offers the other one.
+    get(route('login'))->assertOk()->assertSee('href="'.route('register').'"', false);
+});
+
+it('gives that one button the filled treatment', function () {
+    $html = get('/')->assertOk()->getContent();
+
+    $start = strpos($html, '#header .utf-right-side .log-in-primary {');
+    expect($start)->not->toBeFalse('log-in-primary styles not found');
+    expect(substr($html, $start, 320))->toContain('linear-gradient(135deg, #1b3a6b, #2f7fc9)');
 });
 
 it('keeps the header inside the window on a small laptop', function () {
@@ -101,9 +130,15 @@ it('keeps the header inside the window on a small laptop', function () {
         ->not->toContain('@media (min-width: 1200px) {
             .container { max-width: 1800px !important; }');
 
-    // Same header, tightened, for every laptop narrower than 1400px.
-    expect($html)->toContain('@media (min-width: 992px) and (max-width: 1399px) {')
-        ->toContain('width: 158px !important;')
+    // Same header, tightened, for every laptop narrower than 1400px: the
+    // wordmark is capped by height rather than a fixed width (a fixed one
+    // overflowed once the logo changed), and the nav gives up its padding.
+    $start = strpos($html, '@media (min-width: 992px) and (max-width: 1399px) {');
+    expect($start)->not->toBeFalse('small-laptop header rules not found');
+
+    expect(substr($html, $start, 1200))
+        ->toContain('height: 40px !important;')
+        ->toContain('max-width: 100% !important;')
         ->toContain('padding: 9px 10px !important;');
 });
 
@@ -111,9 +146,6 @@ it('never lets a header button break its label across lines', function () {
     // The label is what collapsed: with no nowrap the button could shrink to
     // its longest word and stack "Post / a / Job".
     $html = get('/')->assertOk()->getContent();
-
-    $start = strpos($html, '.utf-header-widget-item .post-job-btn {');
-    expect(substr($html, $start, 250))->toContain('flex-shrink: 0; white-space: nowrap;');
 
     $start = strpos($html, '#header .utf-right-side .utf-header-widget-item {');
     expect($start)->not->toBeFalse('widget item styles not found');
