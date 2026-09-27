@@ -87,3 +87,17 @@ it('keeps the wide-desktop bar inside the viewport between 1400 and 1600', funct
         ->toContain('@media (min-width: 1400px) and (max-width: 1599px)')
         ->toContain('height: 46px !important;');
 });
+
+it('lets the grid reserve room for the controls instead of zeroing their column', function () {
+    // min-width:0 on .utf-right-side made its column narrower than the controls
+    // themselves, and justify-self:end spilled the difference left over the
+    // wordmark. A 360px phone showed it while 390 looked fine.
+    $css = mobileHeaderCss();
+
+    expect($css)->toContain('@media (max-width: 480px)')
+        ->toContain('object-fit: contain !important;');
+
+    preg_match('#\#header \.utf-right-side \{(.+?)\}#s', $css, $m);
+
+    expect($m[1] ?? '')->not->toContain('min-width: 0');
+});

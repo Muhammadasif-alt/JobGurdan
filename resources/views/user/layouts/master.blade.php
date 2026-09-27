@@ -1239,18 +1239,24 @@
                                they were nested, the panel could only be placed inside
                                the logo's column. */
                             #header .utf-left-side { display: contents !important; }
+                            /* No min-width:0 here. With it the grid stopped reserving
+                               room for the controls, the flexible column came out
+                               narrower than they are, and justify-self:end spilled the
+                               difference left across the wordmark — which is what a
+                               360px phone showed while 390 looked fine. */
                             #header .utf-right-side {
                                 grid-column: 3;
                                 grid-row: 1;
                                 justify-self: end;
                                 justify-content: flex-end !important;
-                                min-width: 0 !important;
-                                gap: 6px !important;
+                                gap: 4px !important;
                             }
                             #header #logo {
                                 grid-column: 2;
                                 grid-row: 1;
                                 justify-self: center;
+                                max-width: 100% !important;
+                                overflow: hidden !important;
                                 /* The theme's right margin is part of the box that
                                    justify-self centres, so the mark itself ended up
                                    twenty pixels left of the middle. */
@@ -1267,6 +1273,7 @@
                                 margin: 0 !important;
                                 width: 46px !important;
                                 height: 28px !important;
+                                flex: 0 0 auto !important;
                             }
                             #header .utf-right-side .theme-toggle .tt-thumb {
                                 width: 22px !important;
@@ -1275,6 +1282,35 @@
                             }
                             html.dark-mode #header .utf-right-side .theme-toggle .tt-thumb {
                                 transform: translateX(18px) !important;
+                            }
+                        }
+
+                        /* === Narrow phones. The controls set the width of both
+                              flexible columns, so trimming them is what buys the
+                              wordmark its room; below 360px the mark then scales
+                              itself down inside the middle column rather than
+                              running under the switch. === */
+                        @media (max-width: 480px) {
+                            #header .container { column-gap: 10px !important; }
+                            #header .utf-right-side { gap: 4px !important; }
+                            #header .utf-right-side .theme-toggle {
+                                width: 40px !important;
+                                height: 24px !important;
+                            }
+                            #header .utf-right-side .theme-toggle .tt-thumb {
+                                width: 18px !important;
+                                height: 18px !important;
+                                font-size: 10px !important;
+                            }
+                            html.dark-mode #header .utf-right-side .theme-toggle .tt-thumb {
+                                transform: translateX(16px) !important;
+                            }
+                            #header .mmenu-trigger .hamburger { padding: 7px !important; }
+                            #header #logo img.logo-light,
+                            #header #logo img.logo-dark {
+                                max-width: 100% !important;
+                                object-fit: contain !important;
+                                object-position: center !important;
                             }
                         }
 
