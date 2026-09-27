@@ -79,3 +79,11 @@ it('drops the theme transform that lifted the mark off the middle of the bar', f
     expect(mobileHeaderCss())->toContain('transform: none !important;')
         ->toContain('position: static !important;');
 });
+
+it('keeps the wide-desktop bar inside the viewport between 1400 and 1600', function () {
+    // Measured live at 1440: the bar needed 1531px and the Sign In button was
+    // cut off the right edge, because the new wordmark is wider than the old.
+    expect(mobileHeaderCss())
+        ->toContain('@media (min-width: 1400px) and (max-width: 1599px)')
+        ->toContain('height: 46px !important;');
+});

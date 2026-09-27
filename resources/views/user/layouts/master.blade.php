@@ -1085,6 +1085,44 @@
                             }
                         }
 
+                        /* === The new wordmark is wider than the one it replaced, and
+                              between 1400 and 1600 the bar ran past the viewport: the
+                              Sign In button was cut off the right edge. The nav and the
+                              buttons tighten here as they already do below 1400, but the
+                              mark keeps more of its size. === */
+                        @media (min-width: 1400px) and (max-width: 1599px) {
+                            #header .container { gap: 16px; }
+                            #header .utf-left-side { gap: 20px; min-width: 0; }
+                            #header #logo {
+                                min-width: 0;
+                                padding-right: 12px !important;
+                                margin-right: 8px !important;
+                            }
+                            #header #logo img.logo-light,
+                            #header #logo img.logo-dark {
+                                width: auto !important;
+                                height: 46px !important;
+                                max-width: 100% !important;
+                            }
+                            #header #navigation > ul { gap: 2px; }
+                            #header #navigation > ul > li > a {
+                                font-size: 14.5px !important;
+                                padding: 9px 11px !important;
+                            }
+                            #header .utf-right-side { gap: 8px; }
+                            #header .utf-right-side .theme-toggle { margin: 0 2px; }
+                            #header .utf-right-side .utf-header-widget-item { height: 44px !important; }
+                            .utf-header-widget-item .post-job-btn {
+                                height: 44px; padding: 0 15px; gap: 6px; font-size: 14px;
+                            }
+                            #header .utf-right-side .log-in-button {
+                                height: 44px !important;
+                                padding: 0 15px !important;
+                                min-width: 0 !important;
+                                font-size: 14px !important;
+                            }
+                        }
+
                         /* Mobile toggle */
                         #header .mmenu-trigger .hamburger { padding: 8px; }
                         #header .mmenu-trigger .utf-hamburger-inner-item,
