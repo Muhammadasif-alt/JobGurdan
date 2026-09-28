@@ -351,6 +351,7 @@ JOBHTML;
 
 <ul>
     <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; training programmes, certification and clinic pay.</li>
+    <li><a href="/blog/dental-assistant-jobs-in-usa">Dental Assistant Jobs in USA</a> &mdash; one of the few clinical roles some states let you start with no formal education at all.</li>
     <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; the degree and NCLEX route once you are ready to move up.</li>
     <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a> &mdash; nursing roles and licensing across the country.</li>
     <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in USA</a> &mdash; a longer route into patient care.</li>

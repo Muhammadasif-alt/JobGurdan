@@ -376,6 +376,7 @@ JOBHTML;
 <p>Comparing health care support and Canadian jobs? These cover them:</p>
 
 <ul>
+    <li><a href="/blog/dental-assistant-jobs-in-usa">Dental Assistant Jobs in USA</a> &mdash; the same job across the border, where the state dental board, not a province, decides what training you need.</li>
     <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the American clinic role that mixes admin with clinical duties.</li>
     <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; an entry-level health care job with NHS pay bands.</li>
     <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a> &mdash; front-desk work in health care, and the award that sets its pay.</li>
