@@ -6,6 +6,7 @@ use App\Models\Job;
 use Carbon\CarbonInterface;
 use DOMDocument;
 use DOMElement;
+use Illuminate\Support\Carbon;
 
 /**
  * Shared rules for the JSON-LD the public pages emit.
@@ -45,11 +46,26 @@ class StructuredDataService
      * opening, and so may carry JobPosting markup.
      *
      * A link into a job-board *search* means the page is a round-up rather than
-     * a vacancy. A permalink to one posting, or any link straight to an
-     * employer's own site, describes a single opening.
+     * a vacancy. Explicit aggregated employers, career hubs and expired jobs
+     * are excluded even when the application link points to an employer.
      */
-    public function describesSingleVacancy(?string $applyUrl): bool
+    public function describesSingleVacancy(?string $applyUrl, ?Job $job = null): bool
     {
+        if ($job !== null) {
+            if ($job->status !== null && $job->status !== 'active') {
+                return false;
+            }
+
+            if (str_contains(strtolower($job->advertiser?->name ?? ''), '(aggregated)')) {
+                return false;
+            }
+
+            $deadline = $this->validThrough($job);
+            if ($deadline !== null && $deadline->isPast()) {
+                return false;
+            }
+        }
+
         $applyUrl = trim((string) $applyUrl);
 
         if ($applyUrl === '') {
@@ -57,6 +73,17 @@ class StructuredDataService
         }
 
         $host = strtolower((string) parse_url($applyUrl, PHP_URL_HOST));
+
+        $path = trim((string) parse_url($applyUrl, PHP_URL_PATH), '/');
+
+        if ($path === '' || str_starts_with(strtolower($path), 'search-jobs')) {
+            return false;
+        }
+
+        if (in_array($host, ['usajobs.gov', 'www.usajobs.gov'], true)
+            && str_starts_with(strtolower($path), 'search')) {
+            return false;
+        }
 
         $onAggregator = false;
         foreach (self::AGGREGATOR_HOSTS as $aggregator) {
@@ -176,11 +203,14 @@ class StructuredDataService
                 'value' => (string) $job->id,
             ],
             'datePosted' => ($job->created_at ?? now())->toIso8601String(),
-            'validThrough' => $this->validThrough($job)->toIso8601String(),
             'employmentType' => $this->employmentType($job->employment_type),
             'hiringOrganization' => $organisation,
             'mainEntityOfPage' => ['@type' => 'WebPage', '@id' => $url],
         ];
+
+        if ($deadline = $this->validThrough($job)) {
+            $posting['validThrough'] = $deadline->toIso8601String();
+        }
 
         $posting += $this->locationNodes($job);
 
@@ -318,15 +348,12 @@ class StructuredDataService
         return $map[strtoupper(str_replace([' ', '-'], '_', (string) ($type ?: 'FULL_TIME')))] ?? 'FULL_TIME';
     }
 
-    /**
-     * A posting whose validThrough has passed is dropped from Google Jobs, so
-     * an expiry in the past is pushed forward rather than published as-is.
-     */
-    private function validThrough(Job $job): CarbonInterface
+    /** Publish only an explicit employer deadline, without extending expired dates. */
+    private function validThrough(Job $job): ?CarbonInterface
     {
-        $candidate = $job->expires_at ?? $job->valid_through ?? $job->created_at?->copy()->addDays(60);
+        $candidate = $job->expires_at ?? $job->valid_through;
 
-        return ($candidate && $candidate->isFuture()) ? $candidate : now()->addDays(60);
+        return $candidate === null ? null : Carbon::parse($candidate);
     }
 
     private function normalise(string $text): string

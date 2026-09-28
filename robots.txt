@@ -1,2 +1,25 @@
+# JobGader: public jobs, career guides, scholarships and images are crawlable.
+# One group ensures Googlebot inherits the same private-area exclusions.
 User-agent: *
-Disallow:
+Disallow: /admin/
+Disallow: /administration
+Disallow: /administrator/
+Disallow: /company/dashboard
+Disallow: /seeker/dashboard
+Disallow: /dashboard
+Disallow: /login
+Disallow: /register
+Disallow: /password/
+Disallow: /email/verify
+Disallow: /api/
+Disallow: /cron/
+Disallow: /*?token=
+Disallow: /*&token=
+Disallow: /*?session=
+Disallow: /*&session=
+Allow: /public/storage/
+Allow: /public/user/images/
+
+Allow: /
+
+Sitemap: https://jobgader.com/sitemap.xml

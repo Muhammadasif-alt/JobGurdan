@@ -35,7 +35,7 @@
         // round-ups, so they carry no JobPosting markup — the page would not be
         // describing a single opening, which is what Google requires.
         $spotlightJob = $blog->job;
-        if ($spotlightJob && ! $structuredData->describesSingleVacancy($spotlightJob->application_url)) {
+        if ($spotlightJob && ! $structuredData->describesSingleVacancy($spotlightJob->application_url, $spotlightJob)) {
             $spotlightJob = null;
         }
 

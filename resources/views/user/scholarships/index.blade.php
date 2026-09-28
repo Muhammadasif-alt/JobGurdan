@@ -2,11 +2,18 @@
 @php
     $isFiltered = $keyword !== '' || $country !== '' || $level !== '';
     $onFirstPage = $scholarships->currentPage() === 1;
+    $canonicalParameters = array_filter([
+        'q' => $keyword,
+        'country' => $country,
+        'level' => $level,
+        'page' => $onFirstPage ? null : $scholarships->currentPage(),
+    ], fn ($value) => $value !== '' && $value !== null);
+    $scholarshipCanonical = route('scholarships.index', $canonicalParameters);
 @endphp
 @section('title', $onFirstPage ? 'Scholarships for International Students | JobGader' : 'Scholarships for International Students, Page '.$scholarships->currentPage().' | JobGader')
 @section('meta_description', 'Scholarships to study abroad, explained in plain English: what each one pays, who can apply, the deadlines and how to apply on the official page.')
 @section('meta_keywords', 'scholarships for international students, study abroad scholarships, funded scholarships, PhD scholarships, masters scholarships, RTP scholarship Australia')
-@section('canonical', $onFirstPage ? route('scholarships.index') : $scholarships->url($scholarships->currentPage()))
+@section('canonical', $scholarshipCanonical)
 @if ($isFiltered)
     @section('meta_robots', 'noindex, follow')
 @endif
@@ -19,6 +26,25 @@
         'itemListElement' => [
             ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
             ['@type' => 'ListItem', 'position' => 2, 'name' => 'Scholarships', 'item' => route('scholarships.index')],
+        ],
+    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+    </script>
+    <script type="application/ld+json">
+    {!! json_encode([
+        '@context' => 'https://schema.org',
+        '@type' => 'CollectionPage',
+        'name' => 'Scholarships for International Students'.($onFirstPage ? '' : ', Page '.$scholarships->currentPage()),
+        'url' => $scholarshipCanonical,
+        'isPartOf' => ['@type' => 'WebSite', 'name' => 'JobGader', 'url' => url('/')],
+        'mainEntity' => [
+            '@type' => 'ItemList',
+            'numberOfItems' => $scholarships->count(),
+            'itemListElement' => collect($scholarships->items())->values()->map(fn ($scholarship, $index) => [
+                '@type' => 'ListItem',
+                'position' => $scholarships->firstItem() + $index,
+                'name' => $scholarship->title,
+                'url' => route('scholarships.show', $scholarship->slug),
+            ])->all(),
         ],
     ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
     </script>

@@ -86,7 +86,7 @@ it('points the spotlight JobPosting at the job page node', function () {
         ->and($posting['@id'])->toEndWith('/jobs/senior-frontend-developer-react-nextjs-mern-lahore#jobposting')
         ->and($posting['hiringOrganization']['name'])->toBe('ERS Tech')
         ->and($posting['baseSalary']['value']['unitText'])->toBe('MONTH')
-        ->and($posting['validThrough'])->not->toBeEmpty();
+        ->and($posting)->not->toHaveKey('validThrough');
 });
 
 it('leaves JobPosting off a guide post', function () {

@@ -1,8 +1,6 @@
-# robots.txt for JobGader
-# Allow all major search engines to crawl public pages
-
+# JobGader: public jobs, career guides, scholarships and images are crawlable.
+# One group ensures Googlebot inherits the same private-area exclusions.
 User-agent: *
-Allow: /
 Disallow: /admin/
 Disallow: /administration
 Disallow: /administrator/
@@ -14,25 +12,14 @@ Disallow: /register
 Disallow: /password/
 Disallow: /email/verify
 Disallow: /api/
+Disallow: /cron/
 Disallow: /*?token=
+Disallow: /*&token=
 Disallow: /*?session=
-
-# Blog and listing images live under /public/storage/ — they must stay
-# crawlable or they cannot appear in Image Search or in rich results.
+Disallow: /*&session=
 Allow: /public/storage/
 Allow: /public/user/images/
 
-# Allow Googlebot full access
-User-agent: Googlebot
 Allow: /
 
-# Allow Google Jobs crawler
-User-agent: Googlebot-jobs
-Allow: /
-
-# Allow image crawlers at the media paths
-User-agent: Googlebot-Image
-Allow: /
-
-# Sitemap location (absolute URL — required by Google/Bing)
 Sitemap: https://jobgader.com/sitemap.xml

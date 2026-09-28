@@ -157,11 +157,11 @@ Route::get('/cron/run', function (\Illuminate\Http\Request $request) {
 
 /** Build a single <url> entry. */
 $sitemapUrl = function (string $loc, string $changefreq = 'weekly', string $priority = '0.6', ?string $lastmod = null): string {
-    $lastmod = $lastmod ?? now()->toDateString();
+    $lastmodTag = $lastmod === null ? '' : '    <lastmod>'.htmlspecialchars($lastmod, ENT_XML1)."</lastmod>\n";
 
     return "  <url>\n"
          .'    <loc>'.htmlspecialchars($loc, ENT_XML1)."</loc>\n"
-         ."    <lastmod>{$lastmod}</lastmod>\n"
+         .$lastmodTag
          ."    <changefreq>{$changefreq}</changefreq>\n"
          ."    <priority>{$priority}</priority>\n"
          ."  </url>\n";
@@ -185,13 +185,12 @@ $jobsPerSitemap = 45000;
 
 // /sitemap.xml — index pointing at child sitemaps. This is the URL Google fetches first.
 Route::get('/sitemap.xml', function () use ($jobsPerSitemap) {
-    $today = now()->toDateString();
     $jobCount = 0;
     try {
-        $jobCount = (int) \App\Models\Job::query()->count();
+        $jobCount = (int) \App\Models\Job::query()->active()->count();
     } catch (\Throwable $e) {
     }
-    $jobChunks = max(1, (int) ceil($jobCount / $jobsPerSitemap));
+    $jobChunks = (int) ceil($jobCount / $jobsPerSitemap);
 
     $entries = ['core', 'categories', 'locations', 'companies', 'blog', 'scholarships'];
     for ($i = 1; $i <= $jobChunks; $i++) {
@@ -203,7 +202,6 @@ Route::get('/sitemap.xml', function () use ($jobsPerSitemap) {
     foreach ($entries as $name) {
         $xml .= "  <sitemap>\n"
               .'    <loc>'.htmlspecialchars(url("/sitemap-{$name}.xml"), ENT_XML1)."</loc>\n"
-              ."    <lastmod>{$today}</lastmod>\n"
               ."  </sitemap>\n";
     }
     $xml .= '</sitemapindex>';

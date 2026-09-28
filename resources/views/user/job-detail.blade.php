@@ -924,7 +924,7 @@
      * posting itself is built there too, so both pages publish identical facts.
      */
     $structuredData = app(\App\Services\StructuredDataService::class);
-    $describesSingleVacancy = $structuredData->describesSingleVacancy($job->application_url);
+    $describesSingleVacancy = $structuredData->describesSingleVacancy($job->application_url, $job);
 
     $jobPosting = ['@context' => 'https://schema.org']
         + $structuredData->jobPosting($job, url()->current(), $jobDescriptionHtml);
