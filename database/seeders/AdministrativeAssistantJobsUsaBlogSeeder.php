@@ -305,6 +305,7 @@ JOBHTML;
     <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a> &mdash; the same work under Australia's award pay system.</li>
     <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; administrative skills sold remotely to overseas clients.</li>
     <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; front-office work in the Gulf, and the package split behind it.</li>
+    <li><a href="/blog/clinic-receptionist-jobs-in-usa">Clinic Receptionist Jobs in USA</a> &mdash; the same admin skills in a US clinic, paid by setting.</li>
     <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; another office skill set that works from home.</li>
     <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; a technical step up from office support.</li>
     <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the same front-office skills inside a clinic, with clinical duties on top.</li>

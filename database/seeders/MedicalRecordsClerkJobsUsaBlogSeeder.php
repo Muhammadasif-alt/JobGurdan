@@ -399,6 +399,7 @@ JOBHTML;
     <li><a href="/blog/entry-level-healthcare-jobs">Entry Level Healthcare Jobs</a> &mdash; the roles you can start without a degree, and which ones lead somewhere.</li>
     <li><a href="/blog/dental-assistant-jobs-in-usa">Dental Assistant Jobs in USA</a> &mdash; another certificate-entry health care job, decided state by state.</li>
     <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a> &mdash; the front-desk equivalent, priced by NHS pay bands.</li>
+    <li><a href="/blog/clinic-receptionist-jobs-in-usa">Clinic Receptionist Jobs in USA</a> &mdash; the same clinic's front desk, where the median is $13,000 lower.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Wages, job outlook figures and certification requirements are published by the Bureau of Labor Statistics and by AHIMA, and they change. Confirm the current position with BLS, AHIMA and the employer before enrolling in a program, booking an exam or accepting an offer.</p>

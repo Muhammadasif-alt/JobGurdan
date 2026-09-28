@@ -351,6 +351,7 @@ JOBHTML;
     <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; NHS bands and how they compare with US clinic pay.</li>
     <li><a href="/blog/dental-assistant-jobs-in-usa">Dental Assistant Jobs in USA</a> &mdash; the same postsecondary award, but the rules are set by fifty-one state dental boards rather than a national certification.</li>
     <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; the front-office half of this job as a career of its own.</li>
+    <li><a href="/blog/clinic-receptionist-jobs-in-usa">Clinic Receptionist Jobs in USA</a> &mdash; the front desk that some clinical adverts are really describing.</li>
     <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; the other large no-degree entry route, and what it pays.</li>
     <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; where American and British clinical experience is recruited from abroad.</li>
     <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; records work without the clinical side.</li>
