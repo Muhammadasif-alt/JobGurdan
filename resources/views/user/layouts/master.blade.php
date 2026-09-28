@@ -418,8 +418,11 @@
                     <div class="utf-left-side">
                         <div id="logo">
                             <a href="/">
-                                <img class="logo-light" src="{{ asset('public/user/images/jobgader-navbar.svg') }}?v={{ $assetVersion('user/images/jobgader-navbar.svg') }}" alt="JobGader" fetchpriority="high" decoding="async" width="120" height="40">
-                                <img class="logo-dark"  src="{{ asset('public/user/images/jobgader-navbar-dark.svg') }}?v={{ $assetVersion('user/images/jobgader-navbar-dark.svg') }}" alt="JobGader" fetchpriority="high" decoding="async" width="120" height="40">
+                                {{-- 366x88 artwork, so 166x40 at the header's height. The old
+                                     pair were hand-built SVGs whose wordmark was a <text> node
+                                     in Arial Black, which is not on most machines. --}}
+                                <img class="logo-light" src="{{ asset('public/user/images/jobgader-navbar.png') }}?v={{ $assetVersion('user/images/jobgader-navbar.png') }}" alt="JobGader" fetchpriority="high" decoding="async" width="166" height="40">
+                                <img class="logo-dark"  src="{{ asset('public/user/images/jobgader-navbar-dark.png') }}?v={{ $assetVersion('user/images/jobgader-navbar-dark.png') }}" alt="JobGader" fetchpriority="high" decoding="async" width="166" height="40">
                             </a>
                         </div>
                         <nav id="navigation">
@@ -727,9 +730,11 @@
                             height: 100%;
                             line-height: 1;
                         }
+                        /* Height drives it and the width follows, so the mark keeps its own
+                           proportions instead of being letterboxed inside a fixed box. */
                         #header #logo img.logo-light,
                         #header #logo img.logo-dark {
-                            width: 200px !important;
+                            width: auto !important;
                             height: 40px !important;
                             max-width: none;
                             max-height: none;
@@ -1057,7 +1062,7 @@
                             #header #logo { min-width: 0; }
                             #header #logo img.logo-light,
                             #header #logo img.logo-dark {
-                                width: 158px !important;
+                                width: auto !important;
                                 height: 32px !important;
                             }
                             #header #navigation > ul { gap: 2px; }
@@ -1152,7 +1157,7 @@
                             #header #logo { min-width: 170px; }
                             #header #logo img.logo-light,
                             #header #logo img.logo-dark {
-                                width: 170px !important;
+                                width: auto !important;
                                 height: 34px !important;
                             }
                             #header .utf-left-side { min-width: 0; flex: 1 1 auto; }
@@ -1161,7 +1166,7 @@
                             #header #logo { min-width: 150px; }
                             #header #logo img.logo-light,
                             #header #logo img.logo-dark {
-                                width: 150px !important;
+                                width: auto !important;
                                 height: 30px !important;
                             }
                             #header .container { padding: 0 10px !important; gap: 6px !important; }
@@ -1716,7 +1721,7 @@
                         <div class="col-xl-4 col-md-12">
                             <div class="utf-footer-item-links">
                                 <a href="/"><img class="footer-logo" loading="lazy" decoding="async"
-                                        src="{{ asset('public/user/images/jobgader-dark-logo.svg') }}" alt="JobGader"></a>
+                                        src="{{ asset('public/user/images/jobgader-navbar-dark.png') }}" alt="JobGader" width="166" height="40"></a>
                                 <p>JobGader lists hand-checked openings across {{ $coverage->shortList() }},
                                     from general labour and hospitality through to skilled trades and senior
                                     engineering &mdash; alongside guides on which visa sponsorship routes are

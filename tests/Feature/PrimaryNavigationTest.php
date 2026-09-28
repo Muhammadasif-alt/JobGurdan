@@ -101,9 +101,15 @@ it('keeps the header inside the window on a small laptop', function () {
         ->not->toContain('@media (min-width: 1200px) {
             .container { max-width: 1800px !important; }');
 
-    // Same header, tightened, for every laptop narrower than 1400px.
-    expect($html)->toContain('@media (min-width: 992px) and (max-width: 1399px) {')
-        ->toContain('width: 158px !important;')
+    // Same header, tightened, for every laptop narrower than 1400px: the mark
+    // is held to 32px tall and lets its width follow, which is what the old
+    // fixed 158px was reaching for before the logo changed shape.
+    $start = strpos($html, '@media (min-width: 992px) and (max-width: 1399px) {');
+    expect($start)->not->toBeFalse('small-laptop header rules not found');
+
+    expect(substr($html, $start, 1200))
+        ->toContain('height: 32px !important;')
+        ->toContain('width: auto !important;')
         ->toContain('padding: 9px 10px !important;');
 });
 
@@ -120,4 +126,41 @@ it('never lets a header button break its label across lines', function () {
     expect(substr($html, $start, 1500))
         ->toContain('flex-shrink: 0 !important;')
         ->toContain('white-space: nowrap !important;');
+});
+
+it('draws the supplied JobGader mark, one file per theme', function () {
+    // The pair it replaces were hand-built SVGs whose wordmark was a <text>
+    // node set in Arial Black, so the logo rendered in whatever the visitor's
+    // machine substituted for a font it almost certainly did not have.
+    $html = get('/')->assertOk()->getContent();
+
+    expect($html)->toContain('user/images/jobgader-navbar.png')
+        ->toContain('user/images/jobgader-navbar-dark.png')
+        ->and($html)->not->toContain('jobgader-navbar.svg')
+        ->and($html)->not->toContain('jobgader-dark-logo.svg');
+
+    // The footer sits on the brand gradient, so it takes the dark mark too.
+    expect(substr_count($html, 'user/images/jobgader-navbar-dark.png'))->toBe(2);
+});
+
+it('ships both marks in the tree the pages ask for and the one the server serves', function () {
+    // asset() stamps a /public/ prefix that the old box's document root eats,
+    // so the file is read from public/public/... while the cache-busting
+    // filemtime is read from public/... Miss either and the logo 404s.
+    foreach (['jobgader-navbar.png', 'jobgader-navbar-dark.png'] as $file) {
+        expect(file_exists(public_path('user/images/'.$file)))->toBeTrue($file.' missing for the stamp')
+            ->and(file_exists(public_path('public/user/images/'.$file)))->toBeTrue($file.' missing for the server');
+    }
+});
+
+it('lets the mark keep its own proportions in the header', function () {
+    // Every breakpoint used to pin a width as well as a height, which squeezed
+    // a 4.16:1 mark into a 5:1 box and left it floating in dead space.
+    $html = get('/')->assertOk()->getContent();
+
+    $start = strpos($html, '#header #logo img.logo-light,');
+    expect($start)->not->toBeFalse('logo sizing rules not found');
+
+    expect(substr($html, $start, 320))->toContain('width: auto !important;')
+        ->toContain('height: 40px !important;');
 });
