@@ -274,6 +274,7 @@ class YaleUniversityScholarshipSeeder extends Seeder
 <li><a href="/scholarships/{france}">France scholarships without IELTS</a> &mdash; what Eiffel pays and who applies for you.</li>
 <li><a href="/scholarships/{leeds}">University of Leeds Commonwealth Master's Scholarship</a> &mdash; a fully funded UK Master's for Commonwealth citizens.</li>
 <li><a href="/scholarships/{kcl}">King's College London Chevening Scholarship</a> &mdash; the UK government's fully funded Master's award.</li>
+<li><a href="/scholarships/lester-b-pearson-international-scholarship">Lester B. Pearson International Scholarship</a> &mdash; Toronto's undergraduate award, where your school applies for you and Yale's need-based route does not exist.</li>
 </ul>
 
 <h2>Official Links</h2>

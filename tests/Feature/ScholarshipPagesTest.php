@@ -3,10 +3,12 @@
 use App\Models\Scholarship;
 use Database\Seeders\AnuRtpScholarshipSeeder;
 use Database\Seeders\AustraliaScholarshipsWithoutIeltsScholarshipSeeder;
+use Database\Seeders\EpflAiCenterFellowshipSeeder;
 use Database\Seeders\FranceScholarshipsWithoutIeltsScholarshipSeeder;
 use Database\Seeders\InsubriaScholarshipSeeder;
 use Database\Seeders\IrenaYouthForum2027ScholarshipSeeder;
 use Database\Seeders\KingsCollegeLondonCheveningScholarshipSeeder;
+use Database\Seeders\LesterBPearsonScholarshipSeeder;
 use Database\Seeders\MelbourneRtpScholarshipSeeder;
 use Database\Seeders\MonashRtpScholarshipSeeder;
 use Database\Seeders\PaviaScholarshipSeeder;
@@ -135,6 +137,8 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'leeds commonwealth' => [UniversityOfLeedsCommonwealthMastersScholarshipSeeder::class, UniversityOfLeedsCommonwealthMastersScholarshipSeeder::SLUG, 2],
     'kcl chevening' => [KingsCollegeLondonCheveningScholarshipSeeder::class, KingsCollegeLondonCheveningScholarshipSeeder::SLUG, 2],
     'yale' => [YaleUniversityScholarshipSeeder::class, YaleUniversityScholarshipSeeder::SLUG, 2],
+    'pearson' => [LesterBPearsonScholarshipSeeder::class, LesterBPearsonScholarshipSeeder::SLUG, 2],
+    'epfl ai center' => [EpflAiCenterFellowshipSeeder::class, EpflAiCenterFellowshipSeeder::SLUG, 1],
 ]);
 
 it('sends UniSA applicants to Adelaide University with the stipend, rounds and contacts the brief gets wrong', function () {
@@ -843,3 +847,75 @@ it('themes the scholarship pages for dark mode', function (string $selector) {
     '.scholar-side-card',
     '.scholar-detail-hero',
 ]);
+
+it('tells Pearson applicants their school applies for them, and that the round is for 2027 entry', function () {
+    // The brief and all three posters are headed "2026" and never mention the
+    // nomination, which is the only door in: a student cannot apply alone and
+    // a school may nominate one person a year.
+    $this->seed(LesterBPearsonScholarshipSeeder::class);
+
+    $content = Scholarship::where('slug', LesterBPearsonScholarshipSeeder::SLUG)->value('content');
+
+    expect($content)->toContain('You cannot apply for this yourself')
+        ->toContain('only one student a year')
+        ->toContain('September 2027')
+        // The three dates the brief leaves out entirely.
+        ->toContain('9 October 2026')
+        ->toContain('16 October 2026')
+        ->toContain('6 November 2026')
+        // The poster promises a stipend U of T does not pay.
+        ->toContain('There is no living stipend')
+        ->toContain('incidental fees')
+        // The bar that disqualifies most late readers.
+        ->toContain('not already in post-secondary study');
+
+    $scholarship = Scholarship::where('slug', LesterBPearsonScholarshipSeeder::SLUG)->first();
+
+    expect($scholarship->deadline->toDateString())->toBe('2026-10-09')
+        ->and($scholarship->study_level)->toBe('Undergraduate')
+        ->and($scholarship->country)->toBe('Canada');
+});
+
+it('refuses to call the EPFL fellowship fully funded, and says who pays the other half', function () {
+    // It is a co-funded postdoctoral post: EPFL pays about 50%, two host
+    // laboratories pay the rest, and without them there is no application.
+    $this->seed(EpflAiCenterFellowshipSeeder::class);
+
+    $scholarship = Scholarship::where('slug', EpflAiCenterFellowshipSeeder::SLUG)->first();
+
+    expect($scholarship->funding_type)->toBe('Partially Funded')
+        ->and($scholarship->content)->toContain('This is not a scholarship, and it is not fully funded')
+        ->and($scholarship->content)->toContain('50 per cent')
+        ->and($scholarship->content)->toContain('two EPFL professors')
+        ->and($scholarship->content)->toContain('CHF 5,000')
+        ->and($scholarship->content)->toContain('17:00 CET')
+        // No age limit is true but the recency rule is the real bar.
+        ->and($scholarship->content)->toContain('no more than two years before the deadline')
+        ->and($scholarship->deadline->toDateString())->toBe('2026-11-09');
+});
+
+it('links the two new awards to each other and back from their older siblings', function () {
+    foreach ([LesterBPearsonScholarshipSeeder::class, EpflAiCenterFellowshipSeeder::class,
+        YaleUniversityScholarshipSeeder::class, AnuRtpScholarshipSeeder::class] as $seeder) {
+        $this->seed($seeder);
+    }
+
+    $pearson = Scholarship::where('slug', LesterBPearsonScholarshipSeeder::SLUG)->value('content');
+    $epfl = Scholarship::where('slug', EpflAiCenterFellowshipSeeder::SLUG)->value('content');
+    $yale = Scholarship::where('slug', YaleUniversityScholarshipSeeder::SLUG)->value('content');
+    $anu = Scholarship::where('slug', AnuRtpScholarshipSeeder::SLUG)->value('content');
+
+    expect($pearson)->toContain('/scholarships/'.EpflAiCenterFellowshipSeeder::SLUG)
+        ->and($epfl)->toContain('/scholarships/'.LesterBPearsonScholarshipSeeder::SLUG)
+        ->and($yale)->toContain('/scholarships/'.LesterBPearsonScholarshipSeeder::SLUG)
+        ->and($anu)->toContain('/scholarships/'.EpflAiCenterFellowshipSeeder::SLUG);
+
+    // Every scholarship link either resolves or the guide is lying to readers.
+    preg_match_all('#/scholarships/([a-z0-9-]+)#', $pearson.$epfl, $m);
+
+    foreach (array_unique($m[1]) as $slug) {
+        if (Scholarship::where('slug', $slug)->exists()) {
+            get(route('scholarships.show', $slug))->assertOk();
+        }
+    }
+});
