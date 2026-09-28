@@ -396,6 +396,7 @@ JOBHTML;
 <p>Working out the wider UK picture? These cover it:</p>
 
 <ul>
+    <li><a href="/blog/hospital-support-worker-jobs-in-the-uk">Hospital Support Worker Jobs in the UK</a> &mdash; the acute hospital end of the same workforce, band by band.</li>
     <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; the HCA pay bands, nights and weekends, and the check by nation, in depth.</li>
     <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; the social care side and what the visa change means.</li>
     <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; the wider NHS and clinical picture.</li>

@@ -359,6 +359,8 @@ JOBHTML;
 <p>Comparing healthcare and entry-level work in the UK and abroad? These cover it:</p>
 
 <ul>
+    <li><a href="/blog/physiotherapy-assistant-jobs-in-the-uk">Physiotherapy Assistant Jobs in the UK</a> &mdash; the same bands in physiotherapy, and the nation that pays them best.</li>
+    <li><a href="/blog/hospital-support-worker-jobs-in-the-uk">Hospital Support Worker Jobs in the UK</a> &mdash; why a Band 2 on Saturdays out-earns a Band 3 on weekdays.</li>
     <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; registered clinical roles, NMC registration and how NHS applications are scored.</li>
     <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; the care worker closure and its transitional rules in full.</li>
     <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; what nurses earn in America, state by state.</li>

@@ -338,6 +338,7 @@ JOBHTML;
 <p>Looking at neighbouring US healthcare roles or the routes abroad? These cover them:</p>
 
 <ul>
+    <li><a href="/blog/physiotherapy-assistant-jobs-in-the-uk">Physiotherapy Assistant Jobs in the UK</a> &mdash; the UK assistant role that supports this profession, and its NHS bands.</li>
     <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; the largest US healthcare profession, its pay and its licensing.</li>
     <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; an entry-level clinical route with no license and a faster start.</li>
     <li><a href="/blog/school-nurse-jobs-in-usa">School Nurse Jobs in USA</a> &mdash; a term-time nursing role and how its certification works.</li>

@@ -366,6 +366,8 @@ JOBHTML;
 <p>Looking across UK healthcare work? These cover the neighbouring routes:</p>
 
 <ul>
+    <li><a href="/blog/physiotherapy-assistant-jobs-in-the-uk">Physiotherapy Assistant Jobs in the UK</a> &mdash; the therapy department version, where Band 3 means delegated treatment.</li>
+    <li><a href="/blog/hospital-support-worker-jobs-in-the-uk">Hospital Support Worker Jobs in the UK</a> &mdash; the same ward work under the title acute trusts advertise most.</li>
     <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; the broader support role and where it is advertised.</li>
     <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; the wider support workforce and its bands.</li>
     <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; how the sector is structured and who employs whom.</li>
