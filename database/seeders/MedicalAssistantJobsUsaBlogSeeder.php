@@ -354,6 +354,7 @@ JOBHTML;
     <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; the other large no-degree entry route, and what it pays.</li>
     <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; where American and British clinical experience is recruited from abroad.</li>
     <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; records work without the clinical side.</li>
+    <li><a href="/blog/medical-records-clerk-jobs-in-usa">Medical Records Clerk Jobs in USA</a> &mdash; the health information side of the same clinic, and the $199 exam that certifies it.</li>
     <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a> &mdash; the front-desk side of a medical practice, under Australian award pay.</li>
     <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a> &mdash; chairside clinical support in Canada, and the provinces that require registration.</li>
     <li><a href="/blog/school-nurse-jobs-in-usa">School Nurse Jobs in USA</a> &mdash; an RN role in schools, and what it pays against hospital nursing.</li>

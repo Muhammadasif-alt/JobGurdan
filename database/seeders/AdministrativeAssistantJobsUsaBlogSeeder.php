@@ -308,6 +308,7 @@ JOBHTML;
     <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; another office skill set that works from home.</li>
     <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; a technical step up from office support.</li>
     <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the same front-office skills inside a clinic, with clinical duties on top.</li>
+    <li><a href="/blog/medical-records-clerk-jobs-in-usa">Medical Records Clerk Jobs in USA</a> &mdash; admin work that pays more once you hold a health information credential.</li>
     <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a> &mdash; a first UK admin job, the real pay and the visa reality.</li>
     <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a> &mdash; what the work really pays after platform fees, and how to start without paying for a job.</li>
     <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a> &mdash; the real BLS medians and why this group of occupations is shrinking.</li>

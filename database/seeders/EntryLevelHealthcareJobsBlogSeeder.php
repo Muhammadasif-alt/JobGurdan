@@ -355,6 +355,7 @@ JOBHTML;
     <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; the degree and NCLEX route once you are ready to move up.</li>
     <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a> &mdash; nursing roles and licensing across the country.</li>
     <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in USA</a> &mdash; a longer route into patient care.</li>
+    <li><a href="/blog/medical-records-clerk-jobs-in-usa">Medical Records Clerk Jobs in USA</a> &mdash; a non-clinical entry route where a certificate, not experience, sets the pay.</li>
     <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; the same entry roles under NHS rules.</li>
 </ul>
 
