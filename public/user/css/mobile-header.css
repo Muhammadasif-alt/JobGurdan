@@ -1,4 +1,11 @@
-/* Mobile header: centered brand and an in-flow menu below the toolbar. */
+/* Align the logo within the toolbar without the legacy image offset. */
+html #utf-header-container-block #header { height: auto !important; }
+html #utf-header-container-block #header #logo img {
+    position: static !important;
+    top: auto !important;
+    transform: none !important;
+}
+/* Mobile: left-aligned brand, theme switch and dropdown menu button. */
 @media (max-width: 1099px) {
     html #utf-header-container-block,
     html #utf-header-container-block #header {
@@ -9,7 +16,7 @@
     }
     html #utf-header-container-block #header > .container {
         display: grid !important;
-        grid-template-columns: 56px minmax(0, 1fr) 56px;
+        grid-template-columns: minmax(0, 1fr) 56px 44px;
         grid-template-rows: 72px auto;
         align-items: center;
         width: 100% !important;
@@ -27,9 +34,9 @@
         display: none !important;
     }
     html #utf-header-container-block #header #logo {
-        grid-column: 2;
+        grid-column: 1;
         grid-row: 1;
-        justify-self: center;
+        justify-self: start;
         min-width: 0 !important;
         width: auto !important;
         height: 72px !important;
@@ -46,7 +53,7 @@
     }
     html #utf-header-container-block #header #logo img.logo-dark { display: none !important; }
     html #utf-header-container-block #header .theme-toggle {
-        grid-column: 1;
+        grid-column: 2;
         grid-row: 1;
         justify-self: start;
         width: 48px !important;
