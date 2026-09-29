@@ -5,6 +5,13 @@ html #utf-header-container-block #header #logo img {
     top: auto !important;
     transform: none !important;
 }
+@media (min-width: 1100px) {
+    html #utf-header-container-block #header #navigation {
+        margin-top: 0 !important;
+        align-self: center;
+        align-items: center;
+    }
+}
 /* Mobile: left-aligned brand, theme switch and dropdown menu button. */
 @media (max-width: 1099px) {
     html #utf-header-container-block,
@@ -16,7 +23,7 @@ html #utf-header-container-block #header #logo img {
     }
     html #utf-header-container-block #header > .container {
         display: grid !important;
-        grid-template-columns: minmax(0, 1fr) 56px 44px;
+        grid-template-columns: minmax(0, 1fr) 64px 44px;
         grid-template-rows: 72px auto;
         align-items: center;
         width: 100% !important;
