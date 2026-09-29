@@ -207,6 +207,40 @@ it('answers the demand question from the current projection cycle', function () 
         ->toContain('superseded');
 });
 
+it('names the eligibility filter on federal React work', function () {
+    $body = Blog::where('slug', REACT_SLUG)->value('content');
+
+    expect($body)->toContain('React Jobs That Need Clearance or Citizenship')
+        // The two OPM axes candidates conflate. A Public Trust designation is
+        // an investigation, not a clearance, and the difference sets the start
+        // date more than anything on a CV does.
+        ->toContain('Public Trust position is a background investigation, not a security clearance')
+        ->toContain('Critical-Sensitive')
+        ->toContain('integrity and efficiency of the service')
+        ->toContain('cannot apply for a clearance by yourself');
+});
+
+it('separates the four things a remote React advert can mean', function () {
+    $body = Blog::where('slug', REACT_SLUG)->value('content');
+
+    foreach ([
+        'Fully remote, US-based',
+        'Remote, internationally open',
+        'Remote contract',
+        'Hybrid-remote',
+    ] as $arrangement) {
+        expect($body)->toContain($arrangement);
+    }
+});
+
+it('qualifies the junior and entry level titles without splitting them', function () {
+    $body = Blog::where('slug', REACT_SLUG)->value('content');
+
+    expect($body)->toContain('the same posting under two names')
+        ->toContain('salaried engineering tracks aimed at recent computer science graduates')
+        ->toContain('judge the advert rather than the adjective');
+});
+
 it('refuses to answer demand with a vacancy count', function () {
     $body = Blog::where('slug', REACT_SLUG)->value('content');
 

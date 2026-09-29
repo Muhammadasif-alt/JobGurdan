@@ -265,6 +265,15 @@ JOBHTML;
 
 <p>React is well suited to both. US startups and agencies hire freelancers to build MVPs and landing pages, convert design files, add features to existing applications, and take on performance and refactoring work. Remote employment is close to standard at SaaS, e-commerce and dashboard-heavy companies.</p>
 
+<p>"Remote" in a React advert means one of four quite different things, and which one it is decides your eligibility as much as your rate:</p>
+
+<ul>
+    <li><strong>Fully remote, US-based.</strong> Work from anywhere in the US, usually with occasional travel to an in-person team gathering. Budget for that travel; it is rarely as optional as it sounds.</li>
+    <li><strong>Remote, internationally open.</strong> The employer hires outside the US at all. Pay here is normally indexed to where you live, not to where the company is registered.</li>
+    <li><strong>Remote contract.</strong> Fixed term, frequently six months or longer, with the rate left open or negotiable. This is the band where knowing your own floor before the call matters most.</li>
+    <li><strong>Hybrid-remote.</strong> Mostly remote with periodic travel to a home office city. Ask how periodic, in days per quarter, before you accept rather than after.</li>
+</ul>
+
 <p>Three things to settle before you agree a price or accept an offer:</p>
 
 <ul>
@@ -277,7 +286,11 @@ JOBHTML;
 
 <h2 id="entry-level-react-developer-jobs">Entry-Level and Junior React Developer Jobs</h2>
 
-<p>The entry market is real and crowded. "Junior React developer" and "entry level React developer" are the same posting under two names, so search both. What separates candidates:</p>
+<p>The entry market is real and crowded. "Junior React developer" and "entry level React developer" are the same posting under two names, so search both.</p>
+
+<p>The titles do drift apart at the edges. "Entry level" is the more common wording on salaried engineering tracks aimed at recent computer science graduates, while "junior" appears more often on agency and closely supervised production roles. It is a tendency rather than a rule, and it is not worth filtering on. Search both, and judge the advert rather than the adjective.</p>
+
+<p>What separates candidates:</p>
 
 <ul>
     <li><strong>JavaScript fundamentals.</strong> Most failed React interviews are failed JavaScript interviews wearing a costume</li>
@@ -294,6 +307,29 @@ JOBHTML;
 <p>What moves a React role into the higher benchmark is ownership rather than output: deciding rendering strategy and where state lives, setting performance budgets and holding the team to them, choosing what gets built and what gets deleted, and reviewing other people's work. A senior advert that still describes implementing designs is a senior title on the lower band.</p>
 
 <p>Two things worth asking before the offer stage: whether the role has a published band and where you sit inside it, and whether the team has anyone more senior in the front end. Being the most senior React person in a company is a different job from being a senior on a team, and it is frequently paid as though it were the same one.</p>
+
+<h2 id="federal-react-developer-jobs">React Jobs That Need Clearance or Citizenship</h2>
+
+<p>A slice of the US React market is closed to most applicants before skill is considered, and the advert says so in a line that is easy to skim past: US citizenship required, Public Trust eligible, or an active Secret clearance. Federal agencies and the contractors who build for them run a great deal of React work, and this is the filter on all of it.</p>
+
+<p>Two requirements get conflated here constantly, and they are not the same thing. The Office of Personnel Management designates federal positions on two separate axes:</p>
+
+<ul>
+    <li><strong>National security sensitivity</strong> &mdash; Noncritical-Sensitive, Critical-Sensitive and Special-Sensitive, graded by whether a compromise could cause "significant or serious", "exceptionally grave" or "inestimable" damage to the national security. These are the positions that carry a clearance.</li>
+    <li><strong>Public Trust risk</strong> &mdash; Low, Moderate and High Risk, graded by the effect on "the integrity and efficiency of the service" rather than on national defence. <strong>A Public Trust position is a background investigation, not a security clearance.</strong></li>
+</ul>
+
+<p>A role can sit on one axis or on both, and the designation decides which investigation runs. That in turn decides your start date more than anything on your CV does: a Public Trust role can onboard in weeks, and a cleared one will not.</p>
+
+<p>Three things follow from that:</p>
+
+<ul>
+    <li><strong>You cannot apply for a clearance by yourself.</strong> It attaches to a position, and a sponsoring agency or cleared contractor initiates it. Any service offering to sell you one is selling nothing.</li>
+    <li><strong>An existing clearance belongs on the CV</strong>, with its level and whether it is current, because it removes months from an employer's timeline and is priced accordingly.</li>
+    <li><strong>Read the eligibility line before the tech stack.</strong> "US citizenship required" is not negotiable by being good at React.</li>
+</ul>
+
+<p>If you are not a US citizen, this part of the market is not open to you, and no amount of skill opens it. The commercial, startup and remote sections of this page are where your applications belong.</p>
 
 <h2 id="how-to-apply">How to Apply</h2>
 
