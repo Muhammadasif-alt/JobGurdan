@@ -259,6 +259,7 @@ HTML;
     <li><a href="/blog/elderly-care-assistant-jobs-in-pakistan">Elderly Care Assistant Jobs in Pakistan</a> &mdash; the free NAVTTC qualification and dementia work.</li>
     <li><a href="/blog/home-healthcare-assistant-jobs-in-pakistan">Home Healthcare Assistant Jobs in Pakistan</a> &mdash; where the clinical line sits and how to verify a licence.</li>
     <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a> &mdash; the mainstream education route, including government recruitment.</li>
+    <li><a href="/blog/residential-care-worker-jobs-in-pakistan">Residential Care Worker Jobs in Pakistan</a> &mdash; boarding campuses and child protection institutions, and how statutory bodies recruit.</li>
 </ul>
 
 <h2>Official sources</h2>

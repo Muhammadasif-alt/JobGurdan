@@ -267,6 +267,7 @@ HTML;
     <li><a href="/blog/elderly-care-assistant-jobs-in-pakistan">Elderly Care Assistant Jobs in Pakistan</a> &mdash; the free NAVTTC qualification and what dementia work demands.</li>
     <li><a href="/blog/disability-support-worker-jobs-in-pakistan">Disability Support Worker Jobs in Pakistan</a> &mdash; the same skills for a different client group, and the 3 per cent employment quota.</li>
     <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; if you want desk work instead, with the same entry-level footing.</li>
+    <li><a href="/blog/residential-care-worker-jobs-in-pakistan">Residential Care Worker Jobs in Pakistan</a> &mdash; what changes again when an institution employs you rather than a household.</li>
 </ul>
 
 <h2>Official sources</h2>

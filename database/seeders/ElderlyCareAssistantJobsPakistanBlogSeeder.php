@@ -252,6 +252,7 @@ HTML;
     <li><a href="/blog/personal-care-assistant-jobs-in-pakistan">Personal Care Assistant Jobs in Pakistan</a> &mdash; what changes legally when a family employs you instead of a company.</li>
     <li><a href="/blog/disability-support-worker-jobs-in-pakistan">Disability Support Worker Jobs in Pakistan</a> &mdash; the same skills applied to a different client group, and the employment quota behind it.</li>
     <li><a href="/blog/healthcare-administrator-jobs-in-pakistan">Healthcare Administrator Jobs in Pakistan</a> &mdash; the non-clinical side of the same sector.</li>
+    <li><a href="/blog/residential-care-worker-jobs-in-pakistan">Residential Care Worker Jobs in Pakistan</a> &mdash; the same care in a home the resident lives in, on shifts that run through the night.</li>
 </ul>
 
 <h2>Official sources</h2>

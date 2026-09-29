@@ -299,6 +299,7 @@ HTML;
 <li><a href="/blog/elderly-care-assistant-jobs-in-pakistan">Elderly Care Assistant Jobs in Pakistan</a> &mdash; the free nine-week NAVTTC qualification, and why dementia care is a different job.</li>
 <li><a href="/blog/personal-care-assistant-jobs-in-pakistan">Personal Care Assistant Jobs in Pakistan</a> &mdash; what a private household legally owes you, and what changes when a provider employs you instead.</li>
 <li><a href="/blog/disability-support-worker-jobs-in-pakistan">Disability Support Worker Jobs in Pakistan</a> &mdash; the titles this work is really advertised under, and the statutory employment quota behind it.</li>
+<li><a href="/blog/residential-care-worker-jobs-in-pakistan">Residential Care Worker Jobs in Pakistan</a> &mdash; institutional care where the resident lives on site, and why night duty is a permanent post rather than overtime.</li>
 </ul>
 
 <h2>Official sources and verification</h2>
