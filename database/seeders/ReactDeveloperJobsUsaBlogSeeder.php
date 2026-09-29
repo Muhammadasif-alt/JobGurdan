@@ -40,6 +40,13 @@ use Illuminate\Support\Str;
  * where product-engineering React roles actually sit. Freelance tax mechanics
  * belong to the web developer guide and are linked, not restated.
  *
+ * Demand is answered from the BLS Occupational Outlook Handbook rather than
+ * from vacancy counts: 10 per cent growth for software developers, QA analysts
+ * and testers over 2025 to 2035, about 106,100 openings a year. A brief
+ * proposing a separate page for this carried 15.8 per cent and 115,200, which
+ * are the superseded 2024 to 2034 figures, and sourced everything else to job
+ * boards. The section was added here instead of becoming a competing URL.
+ *
  * Both records use updateOrCreate, so re-running is safe; it will overwrite
  * admin-panel edits to these two rows.
  */
@@ -197,6 +204,14 @@ JOBHTML;
 </ul>
 
 <p>Pairing React with backend work, or with TypeScript at a serious level, is the most reliable way to be benchmarked against the higher occupation. Our <a href="/blog/full-stack-developer-jobs-in-usa">full stack developer guide</a> covers how to tell which of those two bands a job title is actually sitting in.</p>
+
+<h2 id="react-developer-job-outlook">Are React Developer Jobs in Demand?</h2>
+
+<p>There is no federal projection for React, for the same reason there is no federal wage line for it. The occupation it is counted in does have one. The Bureau of Labor Statistics projects employment of <strong>software developers, quality assurance analysts and testers to grow 10 per cent from 2025 to 2035</strong>, which it classes as much faster than the average for all occupations, with <strong>about 106,100 openings projected each year</strong> on average across that decade.</p>
+
+<p>Two cautions before you lean on it. The figure covers a far wider group than React work, so read it as the weather rather than a forecast for one library. And check which projection cycle a number comes from: figures still in circulation for a 15.8 per cent rise and 115,200 annual openings belong to the previous 2024 to 2034 round and have been superseded.</p>
+
+<p>Counting live vacancies is the other common way this question gets answered, and it is the less useful one. Job board totals double-count the same role across boards, include reposted and stale adverts, and move with how a board indexes rather than with hiring. No vacancy count is quoted on this page for that reason.</p>
 
 <h2>Your Toolchain Dates You: What Changed in React</h2>
 

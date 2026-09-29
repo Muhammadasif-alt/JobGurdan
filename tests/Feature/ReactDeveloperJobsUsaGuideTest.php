@@ -194,3 +194,25 @@ it('still carries exactly eight People Also Search For entries', function () {
 
     expect(substr_count($tail, '<h3>'))->toBe(8);
 });
+
+it('answers the demand question from the current projection cycle', function () {
+    $body = Blog::where('slug', REACT_SLUG)->value('content');
+
+    expect($body)->toContain('Are React Developer Jobs in Demand?')
+        ->toContain('10 per cent from 2025 to 2035')
+        ->toContain('106,100 openings')
+        // The superseded 2024 to 2034 round, named so a reader who meets those
+        // numbers elsewhere can date them rather than trust them.
+        ->toContain('15.8 per cent rise and 115,200 annual openings')
+        ->toContain('superseded');
+});
+
+it('refuses to answer demand with a vacancy count', function () {
+    $body = Blog::where('slug', REACT_SLUG)->value('content');
+
+    expect($body)->toContain('No vacancy count is quoted on this page')
+        // Totals lifted from job boards, which the owner's rules bar.
+        ->not->toContain('6,764')
+        ->not->toContain('129,348')
+        ->not->toContain('551 ');
+});
