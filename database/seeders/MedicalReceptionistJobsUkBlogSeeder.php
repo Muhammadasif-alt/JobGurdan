@@ -353,6 +353,7 @@ JOBHTML;
     <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a> &mdash; a faster route into UK hourly work.</li>
     <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; what the sponsorship rules actually allow.</li>
     <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a> &mdash; if the commute to a practice does not work.</li>
+    <li><a href="/blog/healthcare-administrator-jobs-in-pakistan">Healthcare Administrator Jobs in Pakistan</a> &mdash; the same front-office and coordination work in Pakistani hospitals.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using NHS Jobs, the NHS Employers Agenda for Change pay scales for 2026/27, NHS England general practice contract material and Home Office immigration guidance. Pay scales, contract terms and immigration rules change, and GP practices set their own terms. Always read the live advert and the person specification before you apply.</p>

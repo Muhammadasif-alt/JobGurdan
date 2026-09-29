@@ -361,6 +361,7 @@ JOBHTML;
     <li><a href="/blog/school-nurse-jobs-in-usa">School Nurse Jobs in USA</a> &mdash; an RN role in schools, and what it pays against hospital nursing.</li>
     <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in the USA</a> &mdash; a high-paying allied-health role, its licensing and the visa route.</li>
     <li><a href="/blog/entry-level-healthcare-jobs">Entry Level Healthcare Jobs</a> &mdash; the US healthcare roles you can start with a high school diploma or a short course, what they pay and how to apply.</li>
+    <li><a href="/blog/home-healthcare-assistant-jobs-in-pakistan">Home Healthcare Assistant Jobs in Pakistan</a> &mdash; the same patient-facing work where no CNA licence exists.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, legal or medical advice. Wage survey figures, employment projections, certification requirements and state scope-of-practice rules change. Confirm the current position with the Bureau of Labor Statistics, the certifying body, your state medical board and the employer's own advertisement before applying.</p>
