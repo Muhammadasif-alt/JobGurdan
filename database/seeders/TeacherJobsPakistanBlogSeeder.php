@@ -327,6 +327,7 @@ JOBHTML;
     <li><a href="/blog/online-jobs-without-investment-in-pakistan">Online Jobs Without Investment in Pakistan</a> &mdash; the honest version of working from home, including tutoring.</li>
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; remote routes that do not need a track record.</li>
     <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; administrative skills paid in foreign currency.</li>
+    <li><a href="/blog/disability-support-worker-jobs-in-pakistan">Disability Support Worker Jobs in Pakistan</a> &mdash; special education posts across 118 Punjab institutions, and the titles they are advertised under.</li>
     <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; client-facing work from home for international employers.</li>
     <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; a Gulf office route, and what to check in the package before accepting.</li>
     <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; what American teachers earn by state, and the J-1 route for teachers trained abroad.</li>

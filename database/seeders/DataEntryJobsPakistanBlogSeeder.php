@@ -326,6 +326,7 @@ JOBHTML;
     <li><a href="/blog/online-jobs-without-investment-in-pakistan">Online Jobs Without Investment in Pakistan</a> &mdash; the honest version of the work-from-home question.</li>
     <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; how the grades, tests and advertisements work across the public sector.</li>
     <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a> &mdash; the wider entry-level private market.</li>
+    <li><a href="/blog/personal-care-assistant-jobs-in-pakistan">Personal Care Assistant Jobs in Pakistan</a> &mdash; entry-level work away from a desk, and the written terms a household owes you.</li>
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; remote routes that do not require a track record.</li>
     <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; a Gulf route with visa and accommodation, and what to check in the package.</li>
     <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a> &mdash; another degree-level entry route, and the teaching qualification that no longer exists.</li>

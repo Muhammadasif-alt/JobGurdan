@@ -296,6 +296,9 @@ HTML;
 <li><a href="/blog/healthcare-administrator-jobs-in-pakistan">Healthcare Administrator Jobs in Pakistan</a> &mdash; hospital and clinic administration, and the public-sector qualification rules.</li>
 <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; how the same assistant work is certified and paid in the United States.</li>
 <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; an alternative entry-level route for candidates who would rather not work shifts.</li>
+<li><a href="/blog/elderly-care-assistant-jobs-in-pakistan">Elderly Care Assistant Jobs in Pakistan</a> &mdash; the free nine-week NAVTTC qualification, and why dementia care is a different job.</li>
+<li><a href="/blog/personal-care-assistant-jobs-in-pakistan">Personal Care Assistant Jobs in Pakistan</a> &mdash; what a private household legally owes you, and what changes when a provider employs you instead.</li>
+<li><a href="/blog/disability-support-worker-jobs-in-pakistan">Disability Support Worker Jobs in Pakistan</a> &mdash; the titles this work is really advertised under, and the statutory employment quota behind it.</li>
 </ul>
 
 <h2>Official sources and verification</h2>

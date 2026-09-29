@@ -310,6 +310,7 @@ HTML;
 <li><a href="/blog/home-healthcare-assistant-jobs-in-pakistan">Home Healthcare Assistant Jobs in Pakistan</a> &mdash; patient-facing care work and how to verify a nursing licence.</li>
 <li><a href="/blog/call-center-jobs-in-pakistan">Call Center Jobs in Pakistan</a> &mdash; the other large night-shift sector, and how its pay and progression compare.</li>
 <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a> &mdash; the same front-office work inside a national health service.</li>
+<li><a href="/blog/elderly-care-assistant-jobs-in-pakistan">Elderly Care Assistant Jobs in Pakistan</a> &mdash; the care-delivery side of the same sector, with a free state qualification behind it.</li>
 </ul>
 
 <h2>Official sources and verification</h2>
