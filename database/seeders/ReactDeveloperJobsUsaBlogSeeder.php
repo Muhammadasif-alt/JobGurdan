@@ -274,6 +274,8 @@ JOBHTML;
     <li><strong>Hybrid-remote.</strong> Mostly remote with periodic travel to a home office city. Ask how periodic, in days per quarter, before you accept rather than after.</li>
 </ul>
 
+<p>Our <a href="/blog/remote-react-developer-jobs-in-usa">remote React developer guide</a> works through the employment mechanics behind those four: W-2 against 1099, what an employer of record actually does, and which state's income tax follows you.</p>
+
 <p>Three things to settle before you agree a price or accept an offer:</p>
 
 <ul>
@@ -299,6 +301,8 @@ JOBHTML;
     <li><strong>TypeScript</strong>, now on most US React postings</li>
     <li><strong>Two or three live, deployed projects</strong> with clean code and a real README. One deployed application beats ten tutorial builds, and one that handles its own error states beats a prettier one that does not</li>
 </ul>
+
+<p>Our <a href="/blog/entry-level-react-developer-jobs-in-usa">entry level React developer guide</a> goes further into what to build, how to read a junior advert, and the paid apprenticeship route most candidates never look at.</p>
 
 <h2 id="senior-react-developer-jobs">Senior React Developer Jobs</h2>
 
