@@ -355,6 +355,8 @@ JOBHTML;
     <li>For freelance work, include one short case study with a before-and-after number &mdash; load time, bundle size, conversion.</li>
 </ul>
 
+<p>Our <a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">guide to applying for React developer jobs</a> takes the process itself apart: what a federal application demands that a commercial one does not, what an employer is allowed to ask you, when a background check needs your written permission, and how to spot a job scam before it costs you.</p>
+
 <h2>Frequently Asked Questions</h2>
 
 <h3>How much do React developers make in the USA?</h3>
