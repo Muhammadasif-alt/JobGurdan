@@ -140,3 +140,57 @@ it('links into the engineering cluster in both directions', function () {
     get('/blog/front-end-developer-jobs-in-usa')->assertOk()
         ->assertSee('/blog/'.REACT_SLUG, false);
 });
+
+it('answers each modifier query from a section of this page rather than a new URL', function () {
+    // Search Console shows the salary queries landing here. The remote,
+    // junior, senior and full stack variants are the same search intent with a
+    // modifier, so they are answered in named sections instead of separate
+    // pages that would compete with this one.
+    $body = Blog::where('slug', REACT_SLUG)->value('content');
+
+    foreach ([
+        'react-developer-salary-usa',
+        'entry-level-react-developer-jobs',
+        'senior-react-developer-jobs',
+        'remote-react-developer-jobs',
+        'frontend-react-developer-jobs',
+        'react-full-stack-developer-jobs',
+    ] as $anchor) {
+        expect($body)->toContain('<h2 id="'.$anchor.'"');
+    }
+});
+
+it('uses the spelling the top query is typed in', function () {
+    // "react js developer salary" is the single largest US query reaching this
+    // page, and the page did not contain the string "React JS" at all.
+    $body = Blog::where('slug', REACT_SLUG)->value('content');
+
+    expect($body)->toContain('React JS developer')
+        ->and(substr_count($body, 'React JS'))->toBeGreaterThanOrEqual(2);
+});
+
+it('treats junior and entry level as one posting under two names', function () {
+    $body = Blog::where('slug', REACT_SLUG)->value('content');
+
+    expect($body)->toContain('Junior and entry level React developer jobs')
+        ->toContain('the same posting under two names');
+});
+
+it('separates the two occupations a senior React title can sit in', function () {
+    $body = Blog::where('slug', REACT_SLUG)->value('content');
+
+    expect($body)->toContain('Senior React Developer Jobs')
+        // The page's argument, carried into the senior section rather than
+        // restated: seniority in years is not what sets the benchmark.
+        ->toContain('Seniority in years does not decide which; the scope of the job does')
+        ->toContain('senior title on the lower band');
+});
+
+it('still carries exactly eight People Also Search For entries', function () {
+    $body = Blog::where('slug', REACT_SLUG)->value('content');
+
+    $tail = substr($body, strpos($body, 'People Also Search For'));
+    $tail = substr($tail, 0, strpos($tail, 'More Job Guides'));
+
+    expect(substr_count($tail, '<h3>'))->toBe(8);
+});
