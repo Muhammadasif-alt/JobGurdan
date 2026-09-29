@@ -378,6 +378,7 @@
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"></noscript>
     <link rel="stylesheet" href="{{ asset('public/user/css/site-dark.css') }}?v={{ $assetVersion('user/css/site-dark.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/user/css/mobile-header.css') }}?v={{ $assetVersion('user/css/mobile-header.css') }}">
     {{-- Pre-apply theme BEFORE body paints (no flash) --}}
     <script>
         (function () {
@@ -545,7 +546,7 @@
                             </div>
                         @endauth
                         <span class="mmenu-trigger">
-                            <button class="hamburger utf-hamburger-collapse-item" type="button">
+                            <button class="hamburger utf-hamburger-collapse-item" type="button" aria-label="Open navigation menu" aria-controls="navigation" aria-expanded="false">
                                 <span class="utf-hamburger-box-item">
                                     <span class="utf-hamburger-inner-item"></span>
                                 </span>
@@ -1842,7 +1843,7 @@
         <script src="{{ asset('public/user/js/magnific-popup.min.js') }}" defer></script>
         <script src="{{ asset('public/user/js/slick.min.js') }}" defer></script>
         <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js" defer></script>
-        <script src="{{ asset('public/user/js/custom_jquery.js') }}" defer></script>
+        <script src="{{ asset('public/user/js/custom_jquery.js') }}?v={{ $assetVersion('user/js/custom_jquery.js') }}" defer></script>
 
         <script>
             window.addEventListener('load', function () {

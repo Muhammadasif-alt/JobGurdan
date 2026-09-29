@@ -6,40 +6,35 @@
         /*--------------------------------------------------*/
         /*  Mobile Navigation Menu
         /*--------------------------------------------------*/
-        $(function() {
-            function mmenuInit() {
-                var wi = $(window).width();
-                if (wi <= '1099') {
-                    $(".mmenu-init").remove();
-                    $("#navigation").clone().addClass("mmenu-init").insertBefore("#navigation").removeAttr('id').removeClass('style-1 style-2')
-                        .find('ul, div').removeClass('style-1 style-2 mega-menu mega-menu-content mega-menu-section').removeAttr('id');
-                    $(".mmenu-init").find("ul").addClass("mm-listview");
-                    $(".mmenu-init").find(".mobile-styles .mm-listview").unwrap();
+        (function () {
+            var $navigation = $("#navigation");
+            var $button = $(".mmenu-trigger .hamburger");
+            var mobile = window.matchMedia("(max-width: 1099px)");
 
-                    $(".mmenu-init").mmenu({
-                        "counters": true
-                    }, {
-
-                        offCanvas: {
-                            pageNodetype: "#wrapper"
-                        }
-                    });
-
-                    var mmenuAPI = $(".mmenu-init").data("mmenu");
-                    var $icon = $(".mmenu-trigger .hamburger");
-
-                    $(".mmenu-trigger").on('click', function() {
-                        mmenuAPI.open();
-                    });
-
-                }
-                $(".mm-next").addClass("mm-fullsubopen");
+            function setMenu(open, restoreFocus) {
+                open = mobile.matches && open;
+                $navigation.toggleClass("mobile-nav-open", open);
+                $button.attr({
+                    "aria-expanded": String(open),
+                    "aria-controls": "navigation",
+                    "aria-label": open ? "Close navigation menu" : "Open navigation menu"
+                });
+                if (restoreFocus) $button.trigger("focus");
             }
-            mmenuInit();
-            $(window).resize(function() {
-                mmenuInit();
+
+            $button.on("click.mobileNavigation", function () {
+                setMenu($button.attr("aria-expanded") !== "true", false);
             });
-        });
+            $navigation.on("click.mobileNavigation", "a", function () { setMenu(false, false); });
+            $(document).on("keydown.mobileNavigation", function (event) {
+                if (event.key === "Escape" && $button.attr("aria-expanded") === "true") setMenu(false, true);
+            });
+            $(document).on("click.mobileNavigation", function (event) {
+                if (!$(event.target).closest("#header").length) setMenu(false, false);
+            });
+            mobile.addEventListener("change", function () { setMenu(false, false); });
+            setMenu(false, false);
+        })();
 
         /*--------------------------------------------------*/
         /*  Sticky Header
