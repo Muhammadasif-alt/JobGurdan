@@ -5304,6 +5304,8 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-sabic-manufacturing-jobs-in-saudi-arabia',
         'airport-ground-staff-jobs-in-dubai',
         'airport-ground-staff-jobs-in-oman',
+        'adjunct-professor-jobs-in-the-uk',
+        'how-to-become-an-adjunct-lecturer-in-the-uk',
     ];
 
     foreach ($guides as $guide) {

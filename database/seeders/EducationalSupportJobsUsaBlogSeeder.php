@@ -369,6 +369,11 @@ JOBHTML;
 <p>Looking at other education jobs? These cover it:</p>
 
 <ul>
+    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; the same entry-level teaching question under a different system.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; why "adjunct professor" means something completely different in Britain.</li>
+</ul>
+
+<ul>
     <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; the licensing route from assistant to teacher.</li>
     <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a> &mdash; tutoring companies, pay and requirements.</li>
     <li><a href="/blog/preschool-teacher-jobs-in-canada">Preschool Teacher Jobs in Canada</a> &mdash; early childhood work in Canada.</li>

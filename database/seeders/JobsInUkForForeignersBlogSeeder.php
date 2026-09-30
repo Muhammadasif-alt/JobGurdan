@@ -346,6 +346,11 @@ JOBHTML;
 <p>Looking at a specific UK job? These cover the sponsorship detail:</p>
 
 <ul>
+    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; university teaching by the hour, and why the salary floor puts it out of sponsorship reach.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the honorary title that is not a job and carries no visa route.</li>
+</ul>
+
+<ul>
     <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; which health care support roles can still be sponsored.</li>
     <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; what the care worker closure means in practice.</li>
     <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; an IT role on the Temporary Shortage List.</li>

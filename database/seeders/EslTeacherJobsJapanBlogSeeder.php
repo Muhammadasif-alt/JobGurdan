@@ -388,6 +388,11 @@ JOBHTML;
 <p>Weighing Japan against other teaching routes? These cover the neighbouring options:</p>
 
 <ul>
+    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; the UK university route, and the salary floor that decides who can be sponsored.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the honorary title, conferred by nomination and unpaid.</li>
+</ul>
+
+<ul>
     <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; teaching English from home, what the platforms really pay, and the nationality rules.</li>
     <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; the UK pay scale and how overseas teachers get QTS recognised.</li>
     <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; state licensure and the J-1 route for teachers trained abroad.</li>

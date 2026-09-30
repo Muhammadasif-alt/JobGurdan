@@ -337,6 +337,11 @@ JOBHTML;
 <p>Looking at teaching and remote work more widely? These cover it:</p>
 
 <ul>
+    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; paid university teaching by the hour, and what a teaching hour actually covers.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; why the professorial title is conferred rather than applied for, and unpaid.</li>
+</ul>
+
+<ul>
     <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a> &mdash; classroom teaching pay and the routes into it at home.</li>
     <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; US teaching pay and the licence it requires.</li>
     <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; the UK route and its pay scale.</li>
