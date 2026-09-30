@@ -365,6 +365,7 @@ JOBHTML;
 <h2>More Job Guides</h2>
 
 <ul>
+    <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a></li>
     <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a></li>
     <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a></li>
     <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a></li>

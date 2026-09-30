@@ -336,6 +336,7 @@ JOBHTML;
 <p>Looking at Gulf and hospitality work more widely? These cover it:</p>
 
 <ul>
+    <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a> &mdash; the ground route at the same airport, with the shift rules spelled out.</li>
     <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; front-of-house work in Dubai and Abu Dhabi.</li>
     <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; the hospitality experience Emirates asks for, and where to get it.</li>
     <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a> &mdash; the other big Gulf market and how its sponsorship works.</li>

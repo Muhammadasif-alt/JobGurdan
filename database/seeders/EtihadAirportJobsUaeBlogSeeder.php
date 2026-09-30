@@ -260,7 +260,7 @@ JOBHTML;
         </tr>
         <tr>
             <td style="padding:10px;border:1px solid #e5e7eb;">Working hours</td>
-            <td style="padding:10px;border:1px solid #e5e7eb;">8 hours a day or 48 a week; overtime at basic wage +25%, or +50% between 10pm and 4am</td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">8 hours a day or 48 a week; overtime at basic wage +25%, or +50% between 10pm and 4am &mdash; but the UAE Government adds that "this rule does not apply on workers who work on basis of shifts", which is what a ground roster is</td>
         </tr>
         <tr>
             <td style="padding:10px;border:1px solid #e5e7eb;">Getting paid</td>
@@ -375,6 +375,7 @@ JOBHTML;
 <p>Looking at the Gulf more broadly, or at the airline side rather than the ground? These cover it:</p>
 
 <ul>
+    <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a> &mdash; the same work at DXB, and why the night shift premium may not reach you.</li>
     <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; the other big UAE airline, and what it really asks for.</li>
     <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a> &mdash; ground work you can actually get hired into.</li>
     <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; a smaller Gulf carrier with clearer entry rules.</li>

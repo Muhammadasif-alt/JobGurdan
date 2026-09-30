@@ -5302,6 +5302,7 @@ it('resolves every internal link the new guides publish', function () {
         'how-to-apply-for-csl-laboratory-jobs-in-australia',
         'how-to-apply-for-dp-world-port-jobs-in-uae',
         'how-to-apply-for-sabic-manufacturing-jobs-in-saudi-arabia',
+        'airport-ground-staff-jobs-in-dubai',
     ];
 
     foreach ($guides as $guide) {
