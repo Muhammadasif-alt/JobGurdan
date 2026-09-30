@@ -337,6 +337,10 @@ JOBHTML;
 
 <p>If you are not a US citizen, this part of the market is not open to you, and no amount of skill opens it. The commercial, startup and remote sections of this page are where your applications belong.</p>
 
+<p>A large part of that commercial market is reached through staffing and consulting firms, whose adverts lead with the same eligibility line. Our <a href="/blog/react-js-developer-contract-jobs-in-usa">React JS contract jobs guide</a> covers what applies once you are inside one: why unpaid time between projects is non-payment of wages, what may not be deducted from your pay, and which of those adverts the law actually reaches.</p>
+
+<p>At the other end of the same market, large product companies and banks advertise the same work as "software engineer" and pay in base, equity and bonus rather than salary alone. Our <a href="/blog/react-software-engineer-jobs-in-usa">React software engineer guide</a> covers what that structure is worth and how each part is taxed, including the day your shares become a payday and the election you will be told to file that cannot be filed.</p>
+
 <h2 id="how-to-apply">How to Apply</h2>
 
 <p>Postings appear daily. Set separate alerts for "React developer", "frontend engineer" and "Next.js" &mdash; the second surfaces the higher-band product roles that do not put React in the title, and the third surfaces the framework work specifically.</p>

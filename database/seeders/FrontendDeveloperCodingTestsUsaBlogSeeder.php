@@ -314,6 +314,8 @@ HTML;
     <li><a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">How to Apply for Developer Jobs in the USA</a> &mdash; the rest of the process, from the vacancy announcement to the background check and the I-9.</li>
     <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a> &mdash; what to build before you are assessed, and how to read a junior advert.</li>
     <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a> &mdash; what the word remote hides on a US advert, including where you owe tax.</li>
+    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a> &mdash; the staffing and consulting layer, and the pay rules that apply inside it.</li>
+    <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a> &mdash; the levelled enterprise ladder, and how equity and bonus are taxed.</li>
     <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; senior processes add architecture and system design, and the grade changes your overtime status.</li>
     <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the BLS occupation front end work is counted in, in full.</li>
 </ul>

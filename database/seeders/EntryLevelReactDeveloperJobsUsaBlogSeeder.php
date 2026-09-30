@@ -307,6 +307,7 @@ HTML;
     <li><a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">How to Apply for React Developer Jobs in USA</a> &mdash; the application process, what employers may ask, and how to spot a scam.</li>
     <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the coding test and take-home stage, and the accommodation you are entitled to ask for.</li>
     <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; the far end of the same ladder, and the overtime exemption the grade crosses into.</li>
+    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a> &mdash; the staffing route many first roles arrive through, and the STEM OPT rule agencies get wrong.</li>
 </ul>
 
 <h2>Official sources</h2>

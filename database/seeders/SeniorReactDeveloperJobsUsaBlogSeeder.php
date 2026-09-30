@@ -312,6 +312,8 @@ HTML;
     <li><a href="/blog/remote-react-developer-jobs-in-usa">Remote React Developer Jobs in USA</a> &mdash; W-2 against 1099, self-employment tax and the misclassification test, which matter most on senior contract work.</li>
     <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a> &mdash; the other end of the same ladder, and what the federal record says about experience.</li>
     <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a> &mdash; state restrictions, the convenience of the employer rule, and cleared remote work.</li>
+    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a> &mdash; the staffing layer, and why unpaid time between projects is non-payment of wages.</li>
+    <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a> &mdash; the levelled ladder, and how equity and bonus are taxed at this grade.</li>
     <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage, what federal law calls it, and the adjustment you can ask for.</li>
     <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a> &mdash; accessibility law and Core Web Vitals, the two measurable skills that move you up the band.</li>
 </ul>
