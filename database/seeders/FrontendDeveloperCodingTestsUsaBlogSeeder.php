@@ -319,6 +319,8 @@ HTML;
     <li><a href="/blog/react-developer-internship-jobs-in-usa">React Developer Internship Jobs in USA</a> &mdash; the student route, and whether an internship has to be paid.</li>
     <li><a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React Developer Jobs in USA</a> &mdash; the fundamentals round, and the two standards its questions are drawn from.</li>
     <li><a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript Developer Jobs in USA</a> &mdash; what the type system round tests, and what types do not do at runtime.</li>
+    <li><a href="/blog/react-front-end-engineer-jobs-in-usa">React Front End Engineer Jobs in USA</a> &mdash; the levelled ladder, and which states require the band in the advert.</li>
+    <li><a href="/blog/full-stack-react-developer-jobs-in-usa">Full Stack React Developer Jobs in USA</a> &mdash; the backend half, and the security questions a senior round is really asking.</li>
     <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; senior processes add architecture and system design, and the grade changes your overtime status.</li>
     <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the BLS occupation front end work is counted in, in full.</li>
 </ul>

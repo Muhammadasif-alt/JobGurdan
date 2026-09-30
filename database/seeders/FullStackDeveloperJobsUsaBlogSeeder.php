@@ -315,6 +315,7 @@ JOBHTML;
 <p>Comparing the engineering paths? These cover them:</p>
 
 <ul>
+    <li><a href="/blog/full-stack-react-developer-jobs-in-usa">Full Stack React Developer Jobs in USA</a> &mdash; the React-specific version of this role, and the data security duties that attach once you own the backend.</li>
     <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; the higher band, plus the H-1B lottery and the cap-exempt employers that skip it.</li>
     <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the other band, its distribution and how to move up from it.</li>
     <li><a href="/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern">Senior Frontend Developer &mdash; React and Next.js, Lahore</a> &mdash; a live MERN vacancy with a defined stack.</li>

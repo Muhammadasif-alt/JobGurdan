@@ -345,6 +345,10 @@ JOBHTML;
 
 <p>Two of the commonest variants of this advert are worth reading properly rather than skipping. When one names JavaScript separately from React, it means to test the language separately, and our <a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React guide</a> shows which of those questions come from the language standard and which from the browser one. When it names TypeScript, our <a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript guide</a> explains what the types do at compile time and why they cannot protect you from an API response.</p>
 
+<p>One last thing about reading these adverts. Whether the pay band appears at all is often not the employer's choice: ten US states and New York City now require the range in the posting, and several of those rules reach remote roles advertised from anywhere. Our <a href="/blog/react-front-end-engineer-jobs-in-usa">React front end engineer guide</a> sets out which states, which tests, and how to use them to see bands before you spend an application.</p>
+
+<p>And if the role reaches past the interface into the API and the database, our <a href="/blog/full-stack-react-developer-jobs-in-usa">full stack React guide</a> covers what changes once you hold user data: the secure development duty the FTC names by rule, when a breach starts a statutory clock, and why you are almost never personally liable for either.</p>
+
 <h2 id="how-to-apply">How to Apply</h2>
 
 <p>Postings appear daily. Set separate alerts for "React developer", "frontend engineer" and "Next.js" &mdash; the second surfaces the higher-band product roles that do not put React in the title, and the third surfaces the framework work specifically.</p>

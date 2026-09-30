@@ -285,6 +285,7 @@ HTML;
     <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the clearance and citizenship filter on the federal part of this market, in full.</li>
     <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage, and the adjustment you are entitled to ask for on a timed test.</li>
     <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; the grade that removes your overtime entitlement, and what to price instead.</li>
+    <li><a href="/blog/react-front-end-engineer-jobs-in-usa">React Front End Engineer Jobs in USA</a> &mdash; the pay transparency rules that reach a remote advert wherever you are reading it.</li>
 </ul>
 
 <h2>Official sources</h2>
