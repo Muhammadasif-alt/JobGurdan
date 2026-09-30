@@ -376,6 +376,7 @@ JOBHTML;
 
 <ul>
     <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a> &mdash; the same work at DXB, and why the night shift premium may not reach you.</li>
+    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a> &mdash; the same work in Oman, where the first question is whether an expatriate can get a permit at all.</li>
     <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; the other big UAE airline, and what it really asks for.</li>
     <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a> &mdash; ground work you can actually get hired into.</li>
     <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; a smaller Gulf carrier with clearer entry rules.</li>

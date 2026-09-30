@@ -181,7 +181,7 @@ JOBHTML;
 
 <ul>
     <li><strong>The Emirates Group</strong> recruits through one careers site, <a href="https://www.emiratesgroupcareers.com/search-and-apply/" rel="nofollow noopener" target="_blank">emiratesgroupcareers.com</a>. Its <a href="https://www.emiratesgroupcareers.com/customer-services/" rel="nofollow noopener" target="_blank">customer services</a> and <a href="https://www.emiratesgroupcareers.com/airline-airport-operations/" rel="nofollow noopener" target="_blank">airline and airport operations</a> areas are where the passenger-facing and operational airport roles sit.</li>
-    <li><strong>dnata</strong> runs its own job board at <a href="https://www.dnata.com/en/careers/" rel="nofollow noopener" target="_blank">dnata.com</a>, filtered by location, job category and <em>brand</em> &mdash; because dnata is several brands. Its service lines are listed on its own site as ground handling, cargo, premium services, private aviation, catering and retail, and travel. If you have seen a vacancy for a <em>marhaba</em> service agent and could not work out who the employer was, that is why: marhaba is one of the dnata brands.</li>
+    <li><strong>dnata</strong> appears on both. The Emirates Group lists it among its brands &mdash; "dnata is one of the world's largest air services providers, offering ground handling, cargo, catering and travel services across six continents" &mdash; and dnata <em>also</em> runs its own job board at <a href="https://www.dnata.com/en/careers/" rel="nofollow noopener" target="_blank">dnata.com</a>, filtered by location, job category and <em>brand</em>. Its service lines are ground handling, cargo, premium services, private aviation, catering and retail, and travel. If you have seen a vacancy for a <em>marhaba</em> service agent and could not work out who the employer was, that is why: marhaba is one of the Group's brands. Two genuine doors is also exactly why fake "dnata recruitment" pages work, so use one of those two addresses and no other.</li>
     <li><strong>Dubai Airports</strong> runs the airport itself and recruits separately at <a href="https://careers.dubaiairports.ae/en/search-and-apply/" rel="nofollow noopener" target="_blank">careers.dubaiairports.ae</a>. Terminal operations, airside services, facilities and technology roles are advertised here rather than by any airline.</li>
     <li><strong>Everyone else.</strong> An airport terminal also holds retail, food, cleaning, transport and other contracted operations, run by employers whose names never come up in a search for "Dubai airport jobs". They are real vacancies, and every rule in this guide applies to them in exactly the same way.</li>
 </ul>
@@ -192,6 +192,26 @@ JOBHTML;
     <img src="/public/storage/blogs/airport-ground-staff-jobs-dubai-terminal.jpg" alt="Ground staff marshalling an aircraft on the apron at a Dubai terminal gate" style="width:100%;height:auto;border-radius:10px;">
     <figcaption style="font-size:13px;color:#6b7280;margin-top:8px;">Several separate employers operate at Dubai International Airport. The name on your contract is the one that matters.</figcaption>
 </figure>
+
+<p><strong>One more thing to check on the offer: which rulebook you are under.</strong> The UAE Government states that people working in free zones "are generally not governed by the UAE Labour Law", that "each free zone authority has its own employment law", and that free zone employees "are sponsored by the respective free zone authority and not by their employer". It also publishes a separate free zone complaint route through MoHRE. We are not going to tell you which category any particular airport employer falls into, because that is not published and guessing it would be worse than useless. Ask the employer directly which law your contract sits under and which body hears a dispute. It is a completely normal question and the answer decides where you go if something goes wrong.</p>
+
+<h2 id="pass-and-permit">The Pass and the Permit the Advert Does Not Mention</h2>
+
+<p>Here is the requirement almost no guide to airport work in Dubai mentions, and it is the one that actually gates the job.</p>
+
+<p><strong>You cannot work unescorted in a restricted area until a background check is completed.</strong> That is not employer policy, it is national regulation. The GCAA's Civil Aviation Regulations, Part VII on aviation security, require that "background checks are completed in respect of persons implementing security controls, persons with unescorted access to security restricted areas, and persons with access to sensitive aviation security information <strong>prior to their taking up these duties</strong>". A background check is defined there as "a check of a person's identity and previous experience, including criminal history and any other security related information relevant for assessing the person's suitability". Recurrent checks follow, and anyone "found unsuitable by any background check" is immediately denied that access.</p>
+
+<p><strong>At Dubai International that is implemented through an Airport Security Pass.</strong> Dubai Airports issues it, not your employer, and its own procedure routes every application through a police stage before printing. It also reserves the right to refuse: the pass office "has the right to reject any pass without specifying the reason and only inform the client that the pass is rejected for security reasons". The pass is Dubai Airports' property, must be visible on your chest at all times inside the airport, and goes back to the employer when you leave. Note the vocabulary, because it matters when you are reading a real advert: at DXB it is an <em>Airport Security Pass</em>. "Airport Entry Permit" or "AEP" belongs to other airports.</p>
+
+<p><strong>If the job involves driving on the ramp, that is a separate permit again.</strong> The GCAA's aerodrome regulations require every aerodrome operator to run "a formal driver training assessment and permit scheme for all drivers operating on the airside", and the regulation says the quiet part out loud:</p>
+
+<blockquote><p>"Holding a U.A.E. driving license does not ensure that a person competent to drive a vehicle in airside areas."</p></blockquote>
+
+<p>To be issued an airside driving permit you must be employed by an organisation authorised to operate at the aerodrome, hold "a current full UAE licence", have an operational need to drive airside, demonstrate driving competence, and demonstrate "adequate language proficiency in the language normally used for airside operations". The permit runs for up to two years. At DXB it stacks on top of the security pass and airfield training, and there is one hard exclusion worth knowing before you plan around your existing licence: <strong>an international driving licence is not accepted for it.</strong></p>
+
+<p>So a ramp job is three things, in order: the employer's offer, the police-vetted airport pass, and then the airside driving permit. Nobody is going to explain that sequence in a job advert, and none of it is something you can buy. If a "recruiter" offers to arrange your airport pass for a fee, that is the scam in this section.</p>
+
+<p>One caution on detail: Dubai Airports' published pass procedure is an older document, so treat any document list or fee in it as indicative and confirm the current requirements with the employer who is sponsoring your pass.</p>
 
 <h2 id="shift-work">You Are a Shift Worker, and the Law Treats That Differently</h2>
 
@@ -251,7 +271,7 @@ JOBHTML;
 
 <h2 id="visa">The Visa Sequence, in Order</h2>
 
-<p>The employer applies for the work permit; you do not. The order matters because getting it wrong is what visit-visa job scams rely on.</p>
+<p>The employer applies for the work permit; you do not. "It is illegal for a person to work in the UAE without a valid work permit issued by the Ministry of Human Resources and Emiratisation", and employers "may not recruit or employ any worker unless a work permit is issued in accordance with MoHRE procedures". A permit to recruit a worker from outside the UAE is valid for two years &mdash; do not confuse that with the entry permit, which is valid for two months. The order matters, because getting it wrong is what visit-visa job scams rely on.</p>
 
 <ol>
     <li><strong>Your passport must be valid for at least six months</strong> before you can obtain an entry permit.</li>
@@ -302,6 +322,10 @@ JOBHTML;
     <li><strong>Pressure and a deadline.</strong> Genuine work permits run on government timetables, not on a countdown.</li>
     <li><strong>A logo instead of a licence.</strong> Anyone can copy a crest. Ask for the licence number and check it.</li>
 </ul>
+
+<p><strong>Both of the big employers publish their own warning, and they are worth quoting to anyone pressuring you.</strong> The Emirates Group states: "Any job offer, seemingly from the Emirates Group, that asks you for money is fraudulent." It adds that it "will never ask for money transfers or payment of any kind from job applicants", that "all official communication will only come from official Emirates Group email addresses (e.g., @emirates.com/@dnata.com)", and that an approach "through WhatsApp messages, personal/public email accounts (e.g., Gmail, Yahoo, icloud, outlook, etc.), social media, or unusual links... is likely fraudulent". Dubai Airports says the same in its own words: it "will never ask for money transfers or payment of any kind in relation to the recruitment process", and anything from an address other than @dubaiairports.ae should be treated as fraudulent and reported to its fraud address.</p>
+
+<p>dnata does not publish a separate notice of its own; it is covered by the Emirates Group statement, which names @dnata.com as an official domain.</p>
 
 <p>If it has already gone wrong after you arrive, complaining is free and does not require a lawyer. MoHRE's Labour Claims and Advisory Call Centre is on the toll-free number <strong>80084</strong>, and "workers are exempt from paying litigation fees for claims less than AED 100,000". Where a settlement cannot be reached within 14 days the ministry refers the dispute to the competent court. Note one hard deadline: "no claim for any rights due will be heard after one year from the date of violation."</p>
 
@@ -358,7 +382,7 @@ JOBHTML;
 <p>The airport operator, a separate employer from the airlines and handlers working in its terminals.</p>
 
 <h3>Ramp agent jobs Dubai</h3>
-<p>Outdoor apron work, covered by the summer midday ban between 12.30pm and 3pm from 15 June to 15 September.</p>
+<p>Outdoor apron work, covered by the summer midday ban. Driving there needs an airside permit on top of a full UAE licence.</p>
 
 <h3>UAE labour law working hours</h3>
 <p>8 hours a day or 48 a week, a break of at least an hour after five consecutive hours, and that break is not counted inside your hours.</p>
@@ -372,6 +396,7 @@ JOBHTML;
 <h2>More Job Guides</h2>
 
 <ul>
+    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a> &mdash; the same work across the border, where Omanisation decides whether an expatriate may hold the job at all.</li>
     <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; the same work in Abu Dhabi, where the employer is not the airline.</li>
     <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; the cabin route instead of the ground route, and the gratuity rule applicants misjudge.</li>
     <li><a href="/blog/how-to-apply-for-dp-world-port-jobs-in-uae">How to Apply for DP World Port Jobs in UAE</a> &mdash; what a licensed Pakistani promoter may lawfully charge, and what is refundable.</li>
@@ -384,7 +409,9 @@ JOBHTML;
 <h2>Official sources</h2>
 
 <ul>
-    <li>The Official Portal of the UAE Government (u.ae) &mdash; protection of workers' rights; working hours and overtime; payment of salaries and wages; types of leaves; end of service benefits; expatriates' employment in the private sector; preparing to work; labour disputes.</li>
+    <li>The Official Portal of the UAE Government (u.ae) &mdash; protection of workers' rights; working hours and overtime; payment of salaries and wages; types of leaves; end of service benefits; expatriates' employment in the private sector; preparing to work; work permits; working in free zones; general provisions for the residence visa; labour disputes.</li>
+    <li>General Civil Aviation Authority &mdash; Civil Aviation Regulations Part VII, Aviation Security, on background checks and airport identification systems; and Part IX, Aerodromes, with Appendix 16 on the airside driving permit scheme.</li>
+    <li>Dubai Airports &mdash; the Airport Security Pass issuance procedure and the terms and conditions for pass holders; the Emirates Group and Dubai Airports recruitment fraud advisories.</li>
     <li>Federal Decree-Law No. 33 of 2021 on the Regulation of Labour Relations in the Private Sector, as cited by the UAE Government portal; Ministerial Resolution No. 340 of 2026 on the Wage Protection System; Ministerial Resolution No. 44 of 2022 on the midday break; Cabinet Resolution No. 5 of 2016 on medical testing.</li>
     <li>Emigration Ordinance 1979 as amended to 2021, published by the Ministry of Overseas Pakistanis and Human Resource Development &mdash; sections 12, 15, 18 and 22.</li>
     <li>The Emirates Group, dnata and Dubai Airports careers sites, each checked for this guide.</li>

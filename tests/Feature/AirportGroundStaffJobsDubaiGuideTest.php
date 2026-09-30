@@ -89,6 +89,41 @@ it('states the shift work exception to the overtime premium', function () {
         ->toContain('ask for the shift allowance in writing');
 });
 
+it('states the background check, the airport pass and the airside driving permit', function () {
+    $content = Blog::where('slug', DXB_GROUND_SLUG)->value('content');
+
+    // The requirement that actually gates the job, and which no advert mentions.
+    expect($content)->toContain('prior to their taking up these duties')
+        ->toContain('rejected for security reasons')
+        // DXB's own vocabulary, not another airport's.
+        ->toContain('Airport Security Pass')
+        ->toContain('"Airport Entry Permit" or "AEP" belongs to other airports')
+        // Airside driving is a separate permit on top of a UAE licence.
+        ->toContain('Holding a U.A.E. driving license does not ensure that a person competent to drive a vehicle in airside areas.')
+        ->toContain('an international driving licence is not accepted for it')
+        // The pass procedure is an older document and is flagged as such.
+        ->toContain('is an older document');
+});
+
+it('states the free zone position without guessing which employers it covers', function () {
+    $content = Blog::where('slug', DXB_GROUND_SLUG)->value('content');
+
+    expect($content)->toContain('are generally not governed by the UAE Labour Law')
+        ->toContain('sponsored by the respective free zone authority and not by their employer')
+        // The leap the page refuses to make.
+        ->toContain('not going to tell you which category any particular airport employer falls into');
+});
+
+it('quotes the employers own recruitment fraud warnings', function () {
+    $content = Blog::where('slug', DXB_GROUND_SLUG)->value('content');
+
+    expect($content)->toContain('Any job offer, seemingly from the Emirates Group, that asks you for money is fraudulent.')
+        ->toContain('@emirates.com/@dnata.com')
+        ->toContain('will never ask for money transfers or payment of any kind in relation to the recruitment process')
+        // dnata has no notice of its own, and the page says so rather than inventing one.
+        ->toContain('dnata does not publish a separate notice of its own');
+});
+
 it('gives the hours, breaks, rest day and summer rules verbatim', function () {
     $content = Blog::where('slug', DXB_GROUND_SLUG)->value('content');
 
