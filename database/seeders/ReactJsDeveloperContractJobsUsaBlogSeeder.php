@@ -300,6 +300,9 @@ HTML;
     <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a> &mdash; what the federal record says about experience, and the paid apprentice route.</li>
     <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage, and the adjustment you are entitled to ask for.</li>
     <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a> &mdash; the other end of this market, where the offer carries equity and bonus instead of an hourly rate.</li>
+    <li><a href="/blog/react-developer-internship-jobs-in-usa">React Developer Internship Jobs in USA</a> &mdash; CPT and pre-completion OPT, and the year of full-time CPT that costs you post-completion OPT.</li>
+    <li><a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React Developer Jobs in USA</a> &mdash; the mixed-codebase work many of these engagements actually are.</li>
+    <li><a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript Developer Jobs in USA</a> &mdash; the typed codebases at the other end of the same market.</li>
 </ul>
 
 <h2>Official sources</h2>
