@@ -321,6 +321,7 @@ JOBHTML;
 <p>Comparing Gulf employers and routes? These cover them:</p>
 
 <ul>
+    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a> &mdash; the ground route with the same employer, and the Omanisation rules that decide whether an expatriate can be hired at all.</li>
     <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; an airline that publishes its pay and recruits worldwide.</li>
     <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a> &mdash; the sponsorship system and Saudization, the parallel of Omanisation.</li>
     <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; customer-facing Gulf work with lower entry barriers.</li>

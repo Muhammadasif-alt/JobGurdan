@@ -9,6 +9,8 @@ use Database\Seeders\DpWorldPortJobsUaeBlogSeeder;
 use Database\Seeders\EmiratesCabinCrewJobsUaeBlogSeeder;
 use Database\Seeders\EtihadAirportJobsUaeBlogSeeder;
 use Database\Seeders\HeathrowAirportJobsUkBlogSeeder;
+use Database\Seeders\OmanAirCabinCrewJobsBlogSeeder;
+use Database\Seeders\PdoEngineeringJobsOmanBlogSeeder;
 use Illuminate\Support\Str;
 
 const OMAN_GROUND_SLUG = 'airport-ground-staff-jobs-in-oman';
@@ -177,10 +179,15 @@ it('links into the aviation cluster in both directions', function () {
     $this->seed(EmiratesCabinCrewJobsUaeBlogSeeder::class);
     $this->seed(DpWorldPortJobsUaeBlogSeeder::class);
     $this->seed(HeathrowAirportJobsUkBlogSeeder::class);
+    $this->seed(OmanAirCabinCrewJobsBlogSeeder::class);
+    $this->seed(PdoEngineeringJobsOmanBlogSeeder::class);
 
     $content = Blog::where('slug', OMAN_GROUND_SLUG)->value('content');
 
     foreach ([
+        // The two guides we already had on Oman, which this page must join up with.
+        'how-to-apply-for-oman-air-cabin-crew-jobs',
+        'how-to-apply-for-pdo-engineering-jobs-in-oman',
         'airport-ground-staff-jobs-in-dubai',
         'how-to-apply-for-etihad-airport-jobs-in-uae',
         'how-to-apply-for-emirates-cabin-crew-jobs-in-uae',

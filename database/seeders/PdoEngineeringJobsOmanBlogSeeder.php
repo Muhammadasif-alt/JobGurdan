@@ -357,6 +357,7 @@ JOBHTML;
 <p>Widening the search across the Gulf is usually the better move. These cover it:</p>
 
 <ul>
+    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a> &mdash; Omanisation, the work permit and the labour law figures that apply to any job in the Sultanate.</li>
     <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a> &mdash; the region's largest engineering employer, with a live board.</li>
     <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a> &mdash; another famous name whose job board is currently empty.</li>
     <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; the other big Omani employer people search for.</li>

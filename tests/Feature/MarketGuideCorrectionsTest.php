@@ -5306,6 +5306,8 @@ it('resolves every internal link the new guides publish', function () {
         'airport-ground-staff-jobs-in-oman',
         'adjunct-professor-jobs-in-the-uk',
         'how-to-become-an-adjunct-lecturer-in-the-uk',
+        'adjunct-teaching-jobs-in-the-uk',
+        'adjunct-faculty-vacancies-in-the-uk',
     ];
 
     foreach ($guides as $guide) {
