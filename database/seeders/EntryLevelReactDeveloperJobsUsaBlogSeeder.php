@@ -232,6 +232,19 @@ HTML;
 
 <p>If you are applying from outside the US, read the eligibility line before anything else. A large part of the federal and federal-adjacent market requires US citizenship, which the <a href="/blog/react-developer-jobs-in-usa">main React guide</a> covers in full.</p>
 
+<h2 id="beyond-react">What Junior Adverts Ask For Beyond React</h2>
+
+<p>Junior React adverts rarely stop at React, and the additions are worth reading carefully, because one of them has a published standard behind it that most candidates get slightly wrong.</p>
+
+<ul>
+    <li><strong>Accessibility, and which version of it.</strong> Adverts increasingly ask for WCAG 2.2 rather than 2.1. These are not the same bar, and US law currently sits on the older one: the Department of Justice's ADA Title II rule requires <strong>WCAG 2.1 Level AA</strong>, while <strong>WCAG 2.2 became a W3C Recommendation on 12 December 2024</strong> and adds <strong>nine success criteria</strong> on top of 2.1. Only four of those nine are Level AA, and they are the ones worth being able to name: <em>Focus Not Obscured (Minimum)</em>, <em>Dragging Movements</em>, <em>Target Size (Minimum)</em> and <em>Accessible Authentication (Minimum)</em>. An advert asking for 2.2 is asking for more than the federal rule requires &mdash; knowing that, and knowing which four criteria account for the difference, is a genuinely strong answer in a junior interview.</li>
+    <li><strong>TypeScript rather than JavaScript alone.</strong> Treat this as part of the core ask now, not an extra. It is the same language plus a type checker, so it is a days-to-weeks addition for someone who already knows JavaScript &mdash; which makes it one of the cheapest gaps on a junior application to close.</li>
+    <li><strong>A component system, not loose components.</strong> Adverts naming a design system &mdash; or an existing library of primitives &mdash; are describing maintenance of a shared surface rather than building screens. If your portfolio has one reusable, documented component set behind two projects, say so; it answers this directly.</li>
+    <li><strong>Tests.</strong> A junior is rarely expected to design a test strategy, but is expected to write a test for the component they just wrote, and to be able to read a failing run. One project with real tests evidences it.</li>
+</ul>
+
+<p>One thing worth not being surprised by: a junior title can still carry a clearance requirement. Government-adjacent contractors attach eligibility conditions by the work rather than by the seniority of the post, so a first job can ask for US citizenship and a degree that a private-sector equivalent would not. The <a href="/blog/react-developer-jobs-in-usa">main React guide</a> sets out how that eligibility filter actually works, including the point that you cannot apply for a clearance yourself.</p>
+
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I get a React developer job with no experience?</h3>
@@ -292,6 +305,8 @@ HTML;
     <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the occupation with the lower floor, and how freelance rates work against US tax.</li>
     <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a> &mdash; accessibility law and Core Web Vitals, the two measurable skills that move an offer.</li>
     <li><a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">How to Apply for React Developer Jobs in USA</a> &mdash; the application process, what employers may ask, and how to spot a scam.</li>
+    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the coding test and take-home stage, and the accommodation you are entitled to ask for.</li>
+    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; the far end of the same ladder, and the overtime exemption the grade crosses into.</li>
 </ul>
 
 <h2>Official sources</h2>

@@ -178,6 +178,16 @@ JOBHTML;
     </a>
 </div>
 
+<h2>Is Front End Development Still Growing?</h2>
+
+<p>Yes, but more slowly than the figure in circulation, and that figure is now out of date. BLS projects employment of <strong>web developers and digital designers to grow 5 per cent from 2025 to 2035</strong>, which it classes as <strong>faster than the average for all occupations</strong> &mdash; not "much faster". That is a rise of <strong>11,300 jobs</strong> on a <strong>2025 base of 220,100</strong>, with <strong>about 13,600 openings projected each year</strong> over the decade, most of them replacing people who change occupation or leave the workforce rather than newly created posts.</p>
+
+<p>If you meet 7 per cent growth over 2024 to 2034, or 15,500 jobs added, or a base of 214,900, those belong to the previous projection round and have been superseded. The same goes for a $90,930 median, which was the May 2024 figure.</p>
+
+<p>Where that 5 per cent sits matters more than the number itself. The wider <strong>software developer</strong> occupation is projected to grow <strong>10 per cent</strong> over the same decade, with <strong>about 106,100 openings a year</strong>. Front end work classed as software engineering rather than web development therefore sits in the faster-growing and better-paid of the two occupations &mdash; which is the most useful thing to know when deciding which postings to chase. Our <a href="/blog/web-developer-jobs-in-usa">web developer guide</a> covers this occupation in full, and <a href="/blog/software-developer-jobs-in-usa">the software developer guide</a> covers the one above it.</p>
+
+<p>No vacancy count appears on this page. Job board totals count adverts rather than jobs, repeat the same role across several boards, and keep expired postings listed, so they cannot be reconciled with the official series.</p>
+
 <h2>Front End Developer Salary in the USA</h2>
 
 <p>Front end developers and web developers are the same occupation as far as federal statistics are concerned. BLS puts <strong>web developers at a $92,650 median as of May 2025</strong>, with the <strong>lowest ten per cent under $48,100</strong> and the <strong>highest ten per cent above $162,290</strong>.</p>
@@ -313,6 +323,8 @@ JOBHTML;
 <p>Comparing the engineering routes? These cover them:</p>
 
 <ul>
+    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage, what federal law calls it, and the adjustment you are entitled to ask for.</li>
+    <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a> &mdash; what "remote" means on a US advert, and where you owe tax when you work from home.</li>
     <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the same BLS occupation in full, and how to move up its distribution.</li>
     <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; which pay band that title is hiding, and what working for a US company from abroad really involves.</li>
     <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; the higher band, the H-1B lottery and the cap-exempt employers that avoid it.</li>

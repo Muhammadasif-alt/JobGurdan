@@ -274,7 +274,7 @@ JOBHTML;
     <li><strong>Hybrid-remote.</strong> Mostly remote with periodic travel to a home office city. Ask how periodic, in days per quarter, before you accept rather than after.</li>
 </ul>
 
-<p>Our <a href="/blog/remote-react-developer-jobs-in-usa">remote React developer guide</a> works through the employment mechanics behind those four: W-2 against 1099, what an employer of record actually does, and which state's income tax follows you.</p>
+<p>Our <a href="/blog/remote-react-developer-jobs-in-usa">remote React developer guide</a> and our <a href="/blog/remote-frontend-developer-jobs-in-usa">remote frontend developer guide</a>, which covers why a remote advert can lawfully exclude your state and which state's tax follows an employee, work through the employment mechanics behind those four: W-2 against 1099, what an employer of record actually does, and which state's income tax follows you.</p>
 
 <p>Three things to settle before you agree a price or accept an offer:</p>
 
@@ -311,6 +311,8 @@ JOBHTML;
 <p>What moves a React role into the higher benchmark is ownership rather than output: deciding rendering strategy and where state lives, setting performance budgets and holding the team to them, choosing what gets built and what gets deleted, and reviewing other people's work. A senior advert that still describes implementing designs is a senior title on the lower band.</p>
 
 <p>Two things worth asking before the offer stage: whether the role has a published band and where you sit inside it, and whether the team has anyone more senior in the front end. Being the most senior React person in a company is a different job from being a senior on a team, and it is frequently paid as though it were the same one.</p>
+
+<p>There is more to the grade than the band. Our <a href="/blog/senior-react-developer-jobs-in-usa">senior React developer guide</a> covers what US law actually attaches to the word: the overtime exemption the title crosses into, why the mentoring duties that justify it also remove any hourly claim, and the one place federal rules put a number on "senior".</p>
 
 <h2 id="federal-react-developer-jobs">React Jobs That Need Clearance or Citizenship</h2>
 

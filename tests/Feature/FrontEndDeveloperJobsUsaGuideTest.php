@@ -121,6 +121,46 @@ it('creates one US listing and does not duplicate it on a re-run', function () {
         ->and($jobs->first()->description)->toContain('WCAG 2.1 Level AA');
 });
 
+it('answers the growth question from the current BLS projection round', function () {
+    $body = Blog::where('slug', FRONTEND_SLUG)->value('content');
+
+    expect($body)->toContain('grow 5 per cent from 2025 to 2035')
+        ->toContain('faster than the average for all occupations')
+        ->toContain('11,300 jobs')
+        ->toContain('220,100')
+        ->toContain('about 13,600 openings projected each year')
+        // BLS grades 5 per cent as "faster", not "much faster"; the draft used
+        // the wrong band, so the page names the error rather than repeating it.
+        ->toContain('not "much faster"');
+});
+
+it('names the superseded projection figures instead of quoting them as current', function () {
+    $body = Blog::where('slug', FRONTEND_SLUG)->value('content');
+
+    // All four belong to the 2024-34 round and are still in wide circulation.
+    foreach (['7 per cent growth over 2024 to 2034', '15,500', '214,900', '$90,930'] as $stale) {
+        expect($body)->toContain($stale);
+    }
+
+    expect($body)->toContain('have been superseded');
+});
+
+it('contrasts the two occupations front end work can be classed in', function () {
+    $body = Blog::where('slug', FRONTEND_SLUG)->value('content');
+
+    expect($body)->toContain('grow <strong>10 per cent</strong>')
+        ->toContain('106,100 openings a year');
+});
+
+it('publishes no vacancy count and explains the refusal', function () {
+    $body = Blog::where('slug', FRONTEND_SLUG)->value('content');
+
+    expect($body)->toContain('No vacancy count appears on this page')
+        ->toContain('count adverts rather than jobs')
+        // the board total the draft led with
+        ->not->toContain('1,974');
+});
+
 it('links into the engineering cluster in both directions', function () {
     $this->seed(WebDeveloperJobsUsaBlogSeeder::class);
     $this->seed(FullStackDeveloperJobsUsaBlogSeeder::class);

@@ -160,6 +160,27 @@ it('states the apprenticeship terms from the regulation', function () {
         ->toContain('An unpaid "apprenticeship" is not a Registered Apprenticeship');
 });
 
+it('sets out what junior adverts ask beyond React, on the right WCAG version', function () {
+    $body = Blog::where('slug', ENTRY_REACT_SLUG)->value('content');
+
+    expect($body)->toContain('WCAG 2.1 Level AA')
+        ->toContain('WCAG 2.2 became a W3C Recommendation on 12 December 2024')
+        ->toContain('nine success criteria')
+        // Only four of the nine are Level AA, so those are the answerable ones.
+        ->toContain('Focus Not Obscured (Minimum)')
+        ->toContain('Dragging Movements')
+        ->toContain('Target Size (Minimum)')
+        ->toContain('Accessible Authentication (Minimum)')
+        ->toContain('asking for more than the federal rule requires');
+});
+
+it('warns that a junior title can still carry a clearance requirement', function () {
+    $body = Blog::where('slug', ENTRY_REACT_SLUG)->value('content');
+
+    expect($body)->toContain('by the work rather than by the seniority')
+        ->toContain('/blog/'.REACT_HUB_SLUG);
+});
+
 it('links hub and spokes in both directions', function () {
     $this->seed(ReactDeveloperJobsUsaBlogSeeder::class);
 

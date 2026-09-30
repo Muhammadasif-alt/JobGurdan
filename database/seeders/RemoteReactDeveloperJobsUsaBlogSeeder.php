@@ -321,6 +321,8 @@ HTML;
     <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the main guide: pay bands, the toolchain that dates you, and which React work carries a rate.</li>
     <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a> &mdash; the first role, the portfolio that gets read, and the paid apprenticeship route.</li>
     <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the BLS occupation most React roles are counted in, with freelance rates worked through.</li>
+    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; the grade that changes your overtime status, and what it means for hourly contract work.</li>
+    <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a> &mdash; the employee side: why adverts exclude states, and the convenience of the employer rule.</li>
     <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; the higher benchmark, and the misclassification tests that apply to cross-border contracting.</li>
     <li><a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">How to Apply for React Developer Jobs in USA</a> &mdash; the application process, what employers may ask, and how to spot a scam.</li>
 </ul>
