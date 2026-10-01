@@ -23,7 +23,7 @@ use Illuminate\Support\Str;
  */
 class WarehouseUkBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.simplyhired.co.uk/q-uk-warehouse-visa-sponsorship-jobs.html';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -144,7 +144,7 @@ JOBHTML;
 <p>Here's the honest starting point for this search: standard <strong>warehouse jobs UK</strong> roles &mdash; pickers, packers, general operatives, forklift drivers &mdash; very rarely come with genuine visa sponsorship, because these positions typically fall below both the skill level and salary threshold the UK's main sponsorship route requires. That doesn't mean there's nothing real to find here, but it does mean a lot of what shows up when you search this phrase is either misleading, outdated, or an outright scam. This guide breaks down exactly what's possible, what isn't, and how to tell the difference.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.simplyhired.co.uk/q-uk-warehouse-visa-sponsorship-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         📦 Browse UK Warehouse Jobs with Visa Sponsorship Listings →
     </a>
 </div>
@@ -294,7 +294,7 @@ JOBHTML;
 </ul>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.simplyhired.co.uk/q-uk-warehouse-visa-sponsorship-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🔍 Search UK Warehouse Job Listings →
     </a>
 </div>

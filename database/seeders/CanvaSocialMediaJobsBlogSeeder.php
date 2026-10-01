@@ -154,6 +154,12 @@ JOBHTML;
 
 <p>The first is that <strong>several of the Canva features these roles ask for are not on the free plan</strong>. The second is that <strong>Canva's content licence limits what you may do with its templates and stock elements in paid client work</strong>. This guide covers both, plus what the work actually pays.</p>
 
+<div style="text-align:center;margin:32px 0;">
+    <a href="https://jobgader.com/categories/marketing" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+        &#127912; Browse Canva and Social Media Jobs &rarr;
+    </a>
+</div>
+
 <figure style="margin:28px 0;">
     <img src="/public/storage/blogs/canva-social-media-jobs-workspace.jpg" alt="A designer working on social media graphics in Canva on a laptop" style="width:100%;height:auto;border-radius:10px;">
     <figcaption style="font-size:13px;color:#6b7280;margin-top:8px;">Most of this job is adapting an approved design accurately, not inventing one.</figcaption>

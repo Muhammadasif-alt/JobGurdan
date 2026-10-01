@@ -164,6 +164,12 @@ JOBHTML;
 
 <p>Almost every guide to this job says "verify the data" and moves on. That sentence is hiding the entire skill. This page is about what verification actually can and cannot do, why the company information in prospecting databases is estimated rather than filed, and where to get figures that are neither.</p>
 
+<div style="text-align:center;margin:32px 0;">
+    <a href="https://jobgader.com/categories/sales" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+        &#128202; Browse B2B Lead Research Jobs &rarr;
+    </a>
+</div>
+
 <p>Two sibling guides cover the ground either side of this one. <a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a> carries the pay, the outreach regulations and the fake-job warnings. <a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a> covers searching and how to present yourself. This page is about the craft.</p>
 
 <figure style="margin:28px 0;">

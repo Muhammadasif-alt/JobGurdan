@@ -11,6 +11,7 @@ use function Pest\Laravel\get;
 const JAVA_SLUG = 'java-developer-jobs-in-usa';
 
 const JAVA_APPLY_URL = 'https://www.usa.gov/job-search';
+const JAVA_BROWSE_URL = 'https://jobgader.com/categories/it-software?location=United%20States';
 
 beforeEach(function () {
     $this->seed(JavaDeveloperJobsUsaBlogSeeder::class);
@@ -44,9 +45,11 @@ it('ships every image it references', function () {
 
 it('repairs the draft apply link, which was not a live search path', function () {
     // The draft pointed at https://indeed.com/q-java-developer-usa-jobs.html.
+    // The body now sends the reader to our own listing instead, and the
+    // government service is reserved for the listing's own apply button.
     $blog = Blog::where('slug', JAVA_SLUG)->first();
 
-    expect($blog->content)->toContain(JAVA_APPLY_URL)
+    expect($blog->content)->toContain(JAVA_BROWSE_URL)
         ->and($blog->content)->not->toContain('q-java-developer-usa-jobs')
         ->and($blog->content)->not->toContain('https://indeed.com/');
 });

@@ -793,7 +793,7 @@ it('shows why a UAE receptionist package split matters more than its total', fun
         ->toContain('Working on one is not');
 
     // The apply link goes to the UAE site rather than the American one.
-    expect($content)->toContain('https://ae.indeed.com/q-receptionist-jobs.html')
+    expect($content)->toContain('https://jobgader.com/categories/customer-support-admin?location=United%20Arab%20Emirates')
         ->not->toContain('www.indeed.com/jobs?q=receptionist');
 });
 
@@ -999,7 +999,7 @@ it('tells UAE accountants who pays the visa, who may sign audits and which tax d
         ->toContain('AED 6,000');
 
     // The apply link goes to the UAE site rather than the American one.
-    expect($content)->toContain('https://ae.indeed.com/q-accountant-jobs.html')
+    expect($content)->toContain('https://jobgader.com/categories/finance-accounting?location=United%20Arab%20Emirates')
         ->not->toContain('www.indeed.com/jobs?q=accountant');
 
     expect(Job::where('position', 'like', 'Accountant%')->value('description'))
@@ -1874,7 +1874,7 @@ it('replaces the receptionist draft salary bands, qualification and apply link w
         ->toContain('superseded by the Certificate III in Business (BSB30120)')
         ->toContain('43 per cent work full-time')
         ->toContain('Receptionist occupations are not on the Core Skills Occupation List')
-        ->toContain('https://au.indeed.com/q-receptionist-jobs.html')
+        ->toContain('https://jobgader.com/categories/customer-support-admin?location=Australia')
         ->not->toContain('indeed.com/jobs?q=receptionist');
 
     $siblings = [
@@ -1950,7 +1950,7 @@ it('replaces the school nurse draft pay bands, degree and certification claims w
         ->toContain('$380 early bird')
         ->toContain('65.7 per cent of schools')
         ->toContain('18.1 per cent of schools')
-        ->toContain('https://www.indeed.com/q-school-nurse-jobs.html')
+        ->toContain('https://jobgader.com/categories/healthcare?location=United%20States')
         ->not->toContain('jobs?q=school+nurse');
 
     $siblings = [
@@ -1987,7 +1987,7 @@ it('replaces the security specialist draft licensing, salary, benefit and certif
         ->toContain('repatriation ticket')
         ->toContain('144 hours in any three weeks')
         ->toContain('calculated on <strong>basic salary alone</strong>')
-        ->toContain('https://ae.indeed.com/q-security-specialist-jobs.html')
+        ->toContain('https://jobgader.com/categories/security?location=United%20Arab%20Emirates')
         ->not->toContain('indeed.com/jobs?q=security');
 
     $siblings = [
@@ -2025,7 +2025,7 @@ it('replaces the recruiter draft market, licensing, posting and designation clai
         ->toContain('Not require Canadian experience')
         ->toContain('since 1 November 2023')
         ->toContain('CHRP, CHRL and CHRE')
-        ->toContain('https://ca.indeed.com/q-recruiter-jobs.html')
+        ->toContain('https://jobgader.com/categories/customer-support-admin?location=Canada')
         ->not->toContain('jobs?q=recruiter');
 
     $siblings = [
@@ -2061,7 +2061,7 @@ it('replaces the heavy equipment operator draft demand, certification and crane 
         ->toContain('<strong>valid for three years</strong>')
         ->toContain('<strong>heavy-duty equipment mechanics (72401)</strong>')
         ->toContain('separate occupation (NOC 72500)')
-        ->toContain('https://ca.indeed.com/q-heavy-equipment-operator-jobs.html')
+        ->toContain('https://jobgader.com/categories/construction-trades?location=Canada')
         ->not->toContain('jobs?q=heavy+equipment');
 
     $siblings = [
@@ -2097,7 +2097,7 @@ it('replaces the forklift operator draft pay, certification, demand and visa cla
         ->toContain('<strong>under 18</strong>')
         ->toContain('grow about 1 per cent')
         ->toContain('EB-3 "other worker" green card')
-        ->toContain('https://www.indeed.com/q-forklift-operator-jobs.html')
+        ->toContain('https://jobgader.com/categories/transport-logistics?location=United%20States')
         ->not->toContain('jobs?q=forklift');
 
     $siblings = [
@@ -2135,7 +2135,7 @@ it('replaces the work from home draft pay bands and missing tax, expense, break 
         ->toContain('<strong>$90 million in 2020 to $501 million in 2024</strong>')
         ->toContain('Task scams.')
         ->toContain('/blog/remote-jobs-in-usa')
-        ->toContain('https://www.indeed.com/q-work-from-home-jobs.html')
+        ->toContain('https://jobgader.com/categories/customer-support-admin?location=United%20States')
         ->not->toContain('jobs?q=work+from+home');
 
     $siblings = [
@@ -2171,7 +2171,7 @@ it('replaces the UK foreigners draft threshold, shortage list, care, graduate an
         ->toContain('£2,530 savings')
         ->toContain('Hong Kong and Taiwan')
         ->toContain('register of licensed sponsors')
-        ->toContain('https://uk.indeed.com/q-visa-sponsorship-jobs.html')
+        ->toContain('https://jobgader.com/categories/healthcare?location=United%20Kingdom')
         ->not->toContain('starts around £26,200 per year')
         ->not->toContain('indeed.co.uk/jobs');
 
@@ -2208,7 +2208,7 @@ it('replaces the entry level IT draft pay bands, demand, cybersecurity and certi
         ->toContain('<strong>25 March 2025</strong>')
         ->toContain('N10-009')
         ->toContain('SY0-701')
-        ->toContain('https://www.indeed.com/q-entry-level-it-jobs.html')
+        ->toContain('https://jobgader.com/categories/it-software?location=United%20States')
         ->not->toContain('jobs?q=entry+level+it');
 
     $siblings = [
@@ -2242,7 +2242,7 @@ it('replaces the customer service draft demand, pay and technical support claims
         ->toContain('$61,860')
         ->toContain('industry job title, not a BLS occupation')
         ->toContain('high school diploma or equivalent')
-        ->toContain('https://www.indeed.com/q-customer-service-representative-jobs.html')
+        ->toContain('https://jobgader.com/categories/customer-support-admin?location=United%20States')
         ->not->toContain('jobs?q=customer+service');
 
     $siblings = [
@@ -2277,7 +2277,7 @@ it('replaces the healthcare support draft NHS pay, Care Certificate, qualificati
         ->toContain('enhanced DBS check')
         ->toContain('employer arranges and pays for it')
         ->toContain('6.2 per cent')
-        ->toContain('https://uk.indeed.com/q-healthcare-support-worker-jobs.html')
+        ->toContain('https://jobgader.com/categories/healthcare?location=United%20Kingdom')
         ->toContain('Diploma in Adult Care (RQF)')
         ->not->toContain('15 core competencies');
 
@@ -2313,7 +2313,7 @@ it('replaces the online teacher draft pay, China market, nationality and TEFL cl
         ->toContain('120-hour certificate')
         ->toContain('no global regulator')
         ->toContain('US state teaching licence')
-        ->toContain('https://www.indeed.com/q-online-teacher-jobs.html')
+        ->toContain('https://jobgader.com/categories/freelancing-online-work')
         ->not->toContain('jobs?q=online+teacher');
 
     $siblings = [
@@ -2347,7 +2347,7 @@ it('replaces the intelligence analyst draft pay, clearance and citizenship claim
         ->toContain('Executive Order 12968')
         ->toContain('Top Secret plus Sensitive Compartmented Information (TS/SCI)')
         ->toContain('18 member organisations')
-        ->toContain('https://www.indeed.com/q-intelligence-analyst-jobs.html')
+        ->toContain('https://jobgader.com/categories/government-public-sector?location=United%20States')
         ->not->toContain('jobs?q=intelligence+analyst');
 
     $siblings = [
@@ -2382,7 +2382,7 @@ it('leads the online data entry guide with the BLS decline, real pay and the FTC
         ->toContain('never ask you to pay to get a job')
         ->toContain('reshipping')
         ->toContain('reportfraud.ftc.gov')
-        ->toContain('https://www.indeed.com/q-online-data-entry-jobs.html')
+        ->toContain('https://jobgader.com/categories/customer-support-admin?location=Remote')
         ->not->toContain('jobs?q=online+data+entry');
 
     $siblings = [
@@ -2420,7 +2420,7 @@ it('anchors UK marketing pay on the two official codes instead of one average', 
         ->toContain('Google Skillshop')
         ->toContain('HubSpot Academy')
         ->toContain('GBP 162,792')
-        ->toContain('https://uk.indeed.com/q-marketing-jobs.html')
+        ->toContain('https://jobgader.com/categories/marketing?location=United%20Kingdom')
         ->not->toContain('jobs?q=marketing');
 
     $siblings = [
@@ -2460,7 +2460,7 @@ it('lifts the maintenance technician ceiling to the real BLS percentiles', funct
         ->toContain('Universal')
         ->toContain('OSHA does not certify individuals')
         ->toContain('10-hour and 30-hour completion cards')
-        ->toContain('https://www.indeed.com/q-maintenance-technician-jobs.html')
+        ->toContain('https://jobgader.com/categories/construction-trades?location=United%20States')
         ->not->toContain('jobs?q=maintenance');
 
     $siblings = [
@@ -2495,7 +2495,7 @@ it('corrects the Saudi truck licence conversion myth and the no-minimum-wage rea
         ->toContain('Labour Reform Initiative of 14 March 2021')
         ->toContain('Musaned is for domestic workers only')
         ->toContain('BEOE')
-        ->toContain('https://sa.indeed.com/q-heavy-truck-driver-jobs.html')
+        ->toContain('https://jobgader.com/categories/transport-logistics?location=Saudi%20Arabia')
         ->not->toContain('jobs?q=heavy+truck+driver');
 
     $siblings = [
@@ -2527,7 +2527,7 @@ it('frames the Canada foreign worker levels plan, low-wage rules and Job Bank pa
         ->toContain('<strong>6% or more</strong>')
         ->toContain('valid for only six months')
         ->toContain('$43.27')
-        ->toContain('https://ca.indeed.com/Foreign-Worker-Canada-jobs')
+        ->toContain('https://jobgader.com/categories/general-labour?location=Canada')
         ->not->toContain('jobs?q=foreign');
 
     $siblings = [
@@ -2561,7 +2561,7 @@ it('corrects the Pakistan call centre pay floor, million-rupee claim, export fig
         ->toContain('Windows-only')
         ->toContain('25 Mbps')
         ->toContain('Bureau of Emigration')
-        ->toContain('https://pk.indeed.com/q-pakistan-call-center-jobs.html')
+        ->toContain('https://jobgader.com/categories/customer-support-admin?location=Pakistan')
         ->not->toContain('jobs?q=pakistan+call');
 
     $siblings = [
@@ -2593,7 +2593,7 @@ it('corrects the UK office assistant below-minimum pay, the visa threshold and t
         ->toContain('GBP 1,270 held for 28 consecutive days')
         ->toContain('1 January 2027')
         ->toContain('below the legal minimum')
-        ->toContain('https://uk.indeed.com/Office-Assistant-jobs')
+        ->toContain('https://jobgader.com/categories/customer-support-admin?location=United%20Kingdom')
         ->not->toContain('jobs?q=office');
 
     $siblings = [
@@ -2629,7 +2629,7 @@ it('anchors Australian aged care pay on the award and frames the ACILA visa floo
         ->toContain('$15,900')
         ->toContain('subclass 186')
         ->toContain('two years')
-        ->toContain('https://au.indeed.com/q-sponsorship-visa,-personal-care-assistant-jobs.html')
+        ->toContain('https://jobgader.com/categories/healthcare?location=Australia')
         ->not->toContain('jobs?q=personal');
 
     $siblings = [
@@ -2664,7 +2664,7 @@ it('updates US physical therapist pay, the compact count and the VisaScreen issu
         ->toContain('Type I')
         ->toContain('Schedule A')
         ->toContain('NPTE')
-        ->toContain('https://www.indeed.com/q-physical-therapist-jobs.html')
+        ->toContain('https://jobgader.com/categories/healthcare?location=United%20States')
         ->not->toContain('jobs?q=physical');
 
     $siblings = [
@@ -2698,7 +2698,7 @@ it('anchors Canadian OT pay on Job Bank and folds in the 2026 Express Entry chan
         ->toContain('NOTCE')
         ->toContain('except Quebec')
         ->toContain('30 September 2026')
-        ->toContain('https://ca.indeed.com/q-occupational-therapist-jobs.html')
+        ->toContain('https://jobgader.com/categories/healthcare?location=Canada')
         ->not->toContain('jobs?q=occupational');
 
     $siblings = [
@@ -2735,7 +2735,7 @@ it('fixes the Japan ESL draft visa name, degree rule, CoE timing, EPI rank and p
         ->toContain('4.32 million yen')
         ->toContain('1 October 2026')
         ->toContain('33,000 yen at the counter, or 27,000 yen online')
-        ->toContain('https://jp.indeed.com/q-english-teacher-jobs.html')
+        ->toContain('https://jobgader.com/categories/graduate-entry-level?location=Japan')
         ->not->toContain('4&ndash;8 weeks')
         ->not->toContain('$1,500');
 
@@ -2774,7 +2774,7 @@ it('fixes the Canada correctional officer draft eligibility, training, timeline 
         ->toContain('COPAT')
         ->toContain('run 5 km')
         ->toContain('up to 12 months')
-        ->toContain('https://ca.indeed.com/q-correctional-officer-jobs.html')
+        ->toContain('https://jobgader.com/categories/government-public-sector?location=Canada')
         ->not->toContain('30&ndash;40 hours')
         ->not->toContain('17+ weeks');
 
@@ -2812,7 +2812,7 @@ it('fixes the Australia sales representative draft pay, course, commission, lice
         ->toContain('Assistant Agent certificate of registration')
         ->toContain('not on the Core Skills Occupation List')
         ->toContain('225411')
-        ->toContain('https://au.indeed.com/q-sales-representative-jobs.html')
+        ->toContain('https://jobgader.com/categories/sales?location=Australia')
         ->not->toContain('$79,500')
         ->not->toContain('$146,000');
 
@@ -2844,7 +2844,7 @@ it('fixes the UAE logistics driver draft licence, exchange, visa and salary clai
         ->toContain('the employer is prohibited from charging the worker for recruitment and employment fees and costs')
         ->toContain('at least 21 and no more than 55')
         ->toContain('6:00 AM to 10:00 PM')
-        ->toContain('https://ae.indeed.com/q-logistics-driver-jobs.html')
+        ->toContain('https://jobgader.com/categories/transport-logistics?location=United%20Arab%20Emirates')
         ->not->toContain('Category 3 (LMV)')
         ->not->toContain('950')
         ->not->toContain('1&ndash;2 hours');
@@ -2876,7 +2876,7 @@ it('fixes the remote customer service draft growth, pay, experience and hiring c
         ->toContain('six months or more')
         ->toContain('Alaska, California, Hawaii, Illinois or Montana')
         ->toContain('will never ask you to pay to get a job')
-        ->toContain('https://www.indeed.com/q-remote-customer-service-no-experience-jobs.html')
+        ->toContain('https://jobgader.com/categories/customer-support-admin?location=United%20States')
         ->not->toContain('$14&ndash;$18')
         ->not->toContain('$19&ndash;$26')
         ->not->toContain('double-digit growth ahead.</strong>');
@@ -2912,7 +2912,7 @@ it('fixes the Australia auto mechanic draft apprenticeship, entry, pay, licence 
         ->toContain('automotive air conditioning licence (AAC02)')
         ->toContain('Trades Recognition Australia')
         ->toContain('apprenticeships.gov.au')
-        ->toContain('https://au.indeed.com/q-motor-mechanic-jobs.html')
+        ->toContain('https://jobgader.com/categories/construction-trades?location=Australia')
         ->not->toContain('Australian Apprenticeships Pathways')
         ->not->toContain('$58,600')
         ->not->toContain('$88,600');
@@ -2946,7 +2946,7 @@ it('fixes the entry level healthcare draft projections, training, employer and s
         ->toContain('$21.96 to $29.02 an hour')
         ->toContain('on-the-job training was required for 86.5 percent</strong>')
         ->toContain('States may require that phlebotomists')
-        ->toContain('https://www.indeed.com/q-entry-level-healthcare-jobs.html')
+        ->toContain('https://jobgader.com/categories/healthcare?location=United%20States')
         ->not->toContain('2024-34 Projected Growth')
         ->not->toContain('utm_source=chatgpt.com')
         ->not->toContain('search-jobs?k=');
@@ -2982,7 +2982,7 @@ it('fixes the Canada preschool teacher draft qualification, licensing, pay, empl
         ->toContain('across the United States and Canada')
         ->toContain('Express Entry education occupations category')
         ->toContain('vulnerable sector check')
-        ->toContain('https://ca.indeed.com/q-early-childhood-educator-jobs.html')
+        ->toContain('https://jobgader.com/categories/graduate-entry-level?location=Canada')
         ->not->toContain('ymcagta.org/careers')
         ->not->toContain('utm_source=chatgpt.com')
         ->not->toContain('10-a-day');
@@ -3016,7 +3016,7 @@ it('fixes the Australia foreign worker draft English, income, permanent residenc
         ->toContain('<strong>48 hours a fortnight</strong>')
         ->toContain('must enter a <strong>ballot</strong>')
         ->toContain('Pacific Australia Labour Mobility (PALM) scheme')
-        ->toContain('https://au.indeed.com/q-482-visa-sponsorship-jobs.html')
+        ->toContain('https://jobgader.com/categories/general-labour?location=Australia')
         ->not->toContain('17 days')
         ->not->toContain('IELTS score of 5.0')
         ->not->toContain('ifmosawork.com')
@@ -3051,7 +3051,7 @@ it('fixes the US tutor draft pay, platform, franchise, requirement and tax claim
         ->toContain('your employer will not be Kumon')
         ->toContain('<strong>self-employment tax rate is 15.3%</strong>')
         ->toContain('huntingtonhelps.com/careers')
-        ->toContain('https://www.indeed.com/q-tutor-jobs.html')
+        ->toContain('https://jobgader.com/categories/graduate-entry-level?location=United%20States')
         ->not->toContain('up to four students')
         ->not->toContain('careerplug.com')
         ->not->toContain('utm_source=chatgpt.com');
@@ -3087,7 +3087,7 @@ it('fixes the Australia education assistant draft qualification, pathway, regist
         ->toContain('<strong>school terms only receive a 16% loading</strong>')
         ->toContain('Certificate III in School Based Education Support (CHC30221)')
         ->toContain('https://www.vic.gov.au/school-jobs')
-        ->toContain('https://au.indeed.com/q-education-assistant-jobs.html')
+        ->toContain('https://jobgader.com/categories/graduate-entry-level?location=Australia')
         ->not->toContain('Education Support Officer | Various employers')
         ->not->toContain('full-time, part-time, and casual')
         ->not->toContain('utm_source=chatgpt.com');
@@ -3157,7 +3157,7 @@ it('fixes the US educational support draft Title I, supervision, employer and fr
         ->toContain('<strong>90 selected-response questions</strong>')
         ->toContain('the respective Franchise Owner is the employer at each school')
         ->toContain('665+ schools across 37 states and Washington, DC')
-        ->toContain('https://www.indeed.com/q-paraprofessional-jobs.html')
+        ->toContain('https://jobgader.com/categories/graduate-entry-level?location=United%20States')
         ->not->toContain('3,000 Kumon')
         ->not->toContain('Teacher &amp; Staff Opportunities')
         ->not->toContain('utm_source=chatgpt.com');

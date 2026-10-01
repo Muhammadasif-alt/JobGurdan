@@ -42,6 +42,29 @@ class StructuredDataService
     ];
 
     /**
+     * Official job services, listed by the exact landing page we link to.
+     *
+     * These are searches, not vacancies. They are not aggregators and would
+     * otherwise fall through to "employer link, so a real opening", which would
+     * put JobPosting markup on round-up pages that describe no single job.
+     * Matched in full rather than by host, because a government domain also
+     * serves pages that are a single vacancy.
+     *
+     * @var list<string>
+     */
+    private const OFFICIAL_SEARCH_PAGES = [
+        'https://www.usa.gov/job-search',
+        'https://www.gov.uk/find-a-job',
+        'https://www.jobbank.gc.ca/jobsearch',
+        'https://www.workforceaustralia.gov.au/individuals/jobs/search',
+        'https://www.arbeitsagentur.de/jobsuche/',
+        'https://njp.gov.pk/',
+        'https://www.hrsd.gov.sa/en',
+        'https://u.ae/en/information-and-services/jobs',
+        'https://www.hellowork.mhlw.go.jp/',
+    ];
+
+    /**
      * Whether a page whose Apply button points at this URL describes one real
      * opening, and so may carry JobPosting markup.
      *
@@ -72,9 +95,24 @@ class StructuredDataService
             return true;
         }
 
+        if (in_array(rtrim(strtolower($applyUrl), '/'), array_map(
+            static fn (string $page): string => rtrim($page, '/'),
+            self::OFFICIAL_SEARCH_PAGES
+        ), true)) {
+            return false;
+        }
+
         $host = strtolower((string) parse_url($applyUrl, PHP_URL_HOST));
 
         $path = trim((string) parse_url($applyUrl, PHP_URL_PATH), '/');
+
+        // Our own listing pages. A handful of remote round-ups have nowhere
+        // official to send a reader, so they point at our category listing;
+        // that is a search like any other and carries no single vacancy.
+        if (str_contains($host, 'jobgader.com')
+            && str_starts_with(strtolower($path), 'categories')) {
+            return false;
+        }
 
         if ($path === '' || str_starts_with(strtolower($path), 'search-jobs')) {
             return false;

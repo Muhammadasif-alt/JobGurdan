@@ -240,21 +240,21 @@ dataset('market guides', [
         'appointment-setting-jobs',
         Database\Seeders\AppointmentSettingJobsBlogSeeder::class,
         ['appointment-setting-jobs-headset.jpg'],
-        'https://www.rozee.pk/',
+        'https://njp.gov.pk/',
         'Appointment Setter',
     ],
     'online research assistant' => [
         'online-research-assistant-jobs',
         Database\Seeders\OnlineResearchAssistantJobsBlogSeeder::class,
         ['online-research-assistant-jobs-sources.jpg', 'online-research-assistant-jobs-checklist.jpg'],
-        'https://www.mustakbil.com/',
+        'https://njp.gov.pk/',
         'Online Research Assistant',
     ],
     'canva social media' => [
         'canva-social-media-jobs',
         Database\Seeders\CanvaSocialMediaJobsBlogSeeder::class,
         ['canva-social-media-jobs-workspace.jpg', 'canva-social-media-jobs-portfolio.jpg'],
-        'https://www.mustakbil.com/',
+        'https://jobgader.com/categories/marketing',
         'Canva Social Media Assistant',
     ],
     'local seo assistant' => [
@@ -263,42 +263,42 @@ dataset('market guides', [
         // Only one inline image: the third supplied file was byte-identical to
         // one already published on the on-page SEO guide.
         ['local-seo-assistant-jobs-map.jpg'],
-        'https://www.mustakbil.com/',
+        'https://njp.gov.pk/',
         'Local SEO Assistant',
     ],
     'on page seo assistant' => [
         'on-page-seo-assistant-jobs',
         Database\Seeders\OnPageSeoAssistantJobsBlogSeeder::class,
         ['on-page-seo-assistant-jobs-checklist.jpg', 'on-page-seo-assistant-jobs-console.jpg'],
-        'https://www.mustakbil.com/',
+        'https://njp.gov.pk/',
         'On-Page SEO Assistant',
     ],
     'contact list building' => [
         'contact-list-building-jobs',
         Database\Seeders\ContactListBuildingJobsBlogSeeder::class,
         ['contact-list-building-jobs-quota.jpg', 'contact-list-building-jobs-delivery.jpg'],
-        'https://remoteok.com/remote-lead-generation-jobs',
+        'https://jobgader.com/categories/sales',
         'Contact List Builder',
     ],
     'b2b lead research' => [
         'b2b-lead-research-jobs',
         Database\Seeders\B2bLeadResearchJobsBlogSeeder::class,
         ['b2b-lead-research-jobs-workflow.jpg', 'b2b-lead-research-jobs-data.jpg'],
-        'https://www.rozee.pk/',
+        'https://jobgader.com/categories/sales',
         'B2B Lead Researcher',
     ],
     'find lead generation jobs linkedin' => [
         'how-to-find-lead-generation-jobs-on-linkedin',
         Database\Seeders\FindLeadGenerationJobsLinkedinBlogSeeder::class,
         ['how-to-find-lead-generation-jobs-on-linkedin-network.jpg', 'how-to-find-lead-generation-jobs-on-linkedin-search.jpg'],
-        'https://www.linkedin.com/jobs/',
+        'https://jobgader.com/categories/sales',
         'Lead Generation Roles Advertised on LinkedIn',
     ],
     'lead generation assistant' => [
         'lead-generation-assistant-jobs',
         Database\Seeders\LeadGenerationAssistantJobsBlogSeeder::class,
         ['lead-generation-assistant-jobs-funnel.jpg', 'lead-generation-assistant-jobs-crm.jpg'],
-        'https://www.mustakbil.com/',
+        'https://jobgader.com/categories/sales',
         'Lead Generation Assistant',
     ],
     'wordpress seo assistant' => [
@@ -956,7 +956,7 @@ dataset('market guides', [
         'data-entry-jobs-in-pakistan',
         Database\Seeders\DataEntryJobsPakistanBlogSeeder::class,
         ['data-entry-jobs-in-pakistan-government.jpg'],
-        'https://www.rozee.pk/category/data-entry-jobs',
+        'https://njp.gov.pk/',
         'Data Entry Operator',
     ],
     'security guard uae' => [
@@ -1244,8 +1244,18 @@ it('renders with its long-tail sections and the search link', function (string $
     $this->get('/blog/'.$slug)
         ->assertOk()
         ->assertSee(Blog::where('slug', $slug)->value('title'))
-        ->assertSee('People Also Search For')
-        ->assertSee($applyUrl, false);
+        ->assertSee('People Also Search For');
+
+    // Every guide has to send the reader somewhere they can act. Where the
+    // employer publishes its own careers page, the body links that, which is
+    // also the listing's apply URL. Where it does not, the body links our own
+    // category listing instead, because the alternative was an aggregator and
+    // the apply URL then goes to the country's government job service, which
+    // belongs on the listing rather than mid-article.
+    $body = (string) Blog::where('slug', $slug)->value('content');
+
+    expect(str_contains($body, $applyUrl) || str_contains($body, 'https://jobgader.com/categories/'))
+        ->toBeTrue();
 })->with('market guides');
 
 it('carries exactly eight FAQs built from the post body', function (string $slug, string $seeder) {

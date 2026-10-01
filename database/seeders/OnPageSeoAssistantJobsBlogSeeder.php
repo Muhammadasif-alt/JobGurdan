@@ -162,6 +162,12 @@ JOBHTML;
 
 <p>This guide separates the two. Everything below is either quoted from Google's own Search Central documentation or taken from a live, dated job advertisement, and where a popular rule turns out to have no official basis, we say so.</p>
 
+<div style="text-align:center;margin:32px 0;">
+    <a href="https://jobgader.com/categories/marketing?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+        &#128221; Browse On-Page SEO Assistant Jobs in Pakistan &rarr;
+    </a>
+</div>
+
 <p>For the employer side of this job &mdash; who hires, the pay ladder, and how to spot a fake SEO agency &mdash; see our companion guide on <a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a>. This page is about the work itself.</p>
 
 <figure style="margin:28px 0;">

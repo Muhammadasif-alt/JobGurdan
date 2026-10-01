@@ -171,6 +171,12 @@ JOBHTML;
 
 <p>This job asks you to <strong>collect strangers' contact details and email them</strong>. In the United States that is governed by a law carrying a penalty of <strong>up to USD 53,088 per email</strong>. In Europe you owe those people a disclosure within one month of taking their data. And LinkedIn's own user agreement <strong>bans the tools most of these jobs will hand you</strong> &mdash; usually to run on your own personal account.</p>
 
+<div style="text-align:center;margin:32px 0;">
+    <a href="https://jobgader.com/categories/sales" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+        &#128228; Browse Lead Generation Assistant Jobs &rarr;
+    </a>
+</div>
+
 <p>The job is real, it pays, and Pakistanis do get hired. But you should walk in knowing what you are being asked to do, because the person who carries the risk is usually you.</p>
 
 <figure style="margin:28px 0;">

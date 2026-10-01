@@ -4,7 +4,8 @@ use App\Models\Blog;
 use App\Models\Job;
 use Database\Seeders\WarehouseUkBlogSeeder;
 
-const WAREHOUSE_APPLY_URL = 'https://www.simplyhired.co.uk/q-uk-warehouse-visa-sponsorship-jobs.html';
+const WAREHOUSE_APPLY_URL = 'https://www.gov.uk/find-a-job';
+const WAREHOUSE_BROWSE_URL = 'https://jobgader.com/categories/transport-logistics?location=United%20Kingdom';
 const WAREHOUSE_JOB_SLUG = 'warehouse-operative-united-kingdom-united-kingdom';
 
 beforeEach(function () {
@@ -29,7 +30,7 @@ it('renders the post with its long-tail sections and sibling guides', function (
         ->assertSee('Why Most Warehouse Jobs Don')
         ->assertSee('People Also Search For')
         ->assertSee('/blog/cleaner-jobs-in-london-no-experience-needed', false)
-        ->assertSee(WAREHOUSE_APPLY_URL, false);
+        ->assertSee(WAREHOUSE_BROWSE_URL, false);
 });
 
 it('creates a listing that is explicit about sponsorship not applying', function () {

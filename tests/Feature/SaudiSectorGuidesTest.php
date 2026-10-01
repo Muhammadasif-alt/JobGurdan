@@ -23,19 +23,22 @@ function saudiGuides(): array
             CleanerJobsSaudiBlogSeeder::class,
             'cleaner-jobs-in-saudi-arabia-for-foreigners',
             'blogs/cleaner-jobs-in-saudi-arabia-for-foreigners.jpg',
-            'https://sa.indeed.com/q-visa-sponsorship,cleaning-jobs-%D9%88%D8%B8%D8%A7%D8%A6%D9%81.html?vjk=c65c3f2948f20c94',
+            'https://www.hrsd.gov.sa/en',
+            'https://jobgader.com/categories/cleaning-facilities?location=Saudi%20Arabia',
         ],
         'construction' => [
             ConstructionJobsSaudiBlogSeeder::class,
             'construction-jobs-in-saudi-arabia-with-visa-sponsorship',
             'blogs/construction-jobs-in-saudi-arabia-visa-sponsorship.jpg',
-            'https://www.indeed.com/jobs?q=saudi+arabia+construction&l=&from=searchOnDesktopSerp&vjk=1d2cbf0c07acc448',
+            'https://www.hrsd.gov.sa/en',
+            'https://jobgader.com/categories/construction-trades?location=Saudi%20Arabia',
         ],
         'security guard' => [
             SecurityGuardJobsSaudiBlogSeeder::class,
             'security-guard-jobs-in-saudi-arabia',
             'blogs/security-guard-jobs-in-saudi-arabia.jpg',
-            'https://www.indeed.com/jobs?q=security+guard&l=Saudi+Arabia',
+            'https://www.hrsd.gov.sa/en',
+            'https://jobgader.com/categories/security?location=Saudi%20Arabia',
         ],
     ];
 }
@@ -57,10 +60,12 @@ it('publishes each guide with the SEO fields filled in', function (string $seede
         ->and(mb_strlen($blog->meta_description))->toBeLessThanOrEqual(160);
 })->with(saudiGuides());
 
-it('renders each guide with its inline image and sibling guides', function (string $seeder, string $slug, string $image, string $applyUrl) {
+it('renders each guide with its inline image and sibling guides', function (string $seeder, string $slug, string $image, string $applyUrl, string $browseUrl) {
     $this->seed($seeder);
 
-    $response = get('/blog/'.$slug)->assertOk()->assertSee($applyUrl, false);
+    // The body sends the reader to our own listing. The government service is
+    // the listing's apply button, not a mid-article link.
+    $response = get('/blog/'.$slug)->assertOk()->assertSee($browseUrl, false);
 
     $body = Blog::where('slug', $slug)->value('content');
 

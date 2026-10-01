@@ -177,6 +177,12 @@ JOBHTML;
 
 <p>This guide separates them. Every figure below was read from an official source or from a listing's own page, and the claims that did not survive that check have been left out rather than hedged. For the commercial side of research work in detail, see <a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a>.</p>
 
+<div style="text-align:center;margin:32px 0;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+        &#128269; Browse Online Research Assistant Jobs in Pakistan &rarr;
+    </a>
+</div>
+
 <h2>The Title Is Not in the Official List</h2>
 
 <p>The US Standard Occupational Classification contains <strong>867 detailed occupations</strong>. Not one of them is titled "research assistant", and certainly not "online research assistant". There is no Occupational Outlook Handbook profile for it either.</p>

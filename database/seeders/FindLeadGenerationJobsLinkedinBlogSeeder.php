@@ -168,6 +168,12 @@ JOBHTML;
 
 <p>These roles are advertised under half a dozen other titles, and the Pakistani listings use a different vocabulary again. This guide covers three things: <strong>what to actually search</strong>, <strong>what a free account can really do</strong> (much less than most articles claim), and <strong>which tools will get your account restricted</strong> if an employer asks you to run them.</p>
 
+<div style="text-align:center;margin:32px 0;">
+    <a href="https://jobgader.com/categories/sales" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+        &#128279; Browse Lead Generation Jobs &rarr;
+    </a>
+</div>
+
 <p>For what the job involves and what it pays, we have a separate guide on <a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a> with dated Pakistani salary listings. This page is about the search.</p>
 
 <figure style="margin:28px 0;">

@@ -46,7 +46,7 @@ use Illuminate\Support\Str;
  */
 class ContactListBuildingJobsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://remoteok.com/remote-lead-generation-jobs';
+    private const APPLY_URL = 'https://jobgader.com/categories/sales';
 
     public function run(): void
     {
@@ -159,6 +159,12 @@ JOBHTML;
 <p>Contact list building is real work and there are real jobs in it. There is also a particular advertisement that has been copied across a dozen career articles, and the advice built on top of it does not survive a calculator.</p>
 
 <p>This page does the arithmetic those articles skipped. If you take nothing else from it, take the habit: <strong>before accepting any quota-based contract, divide the quota by what the tools actually allow, and divide the pay by the quota.</strong> Both numbers tend to settle the question.</p>
+
+<div style="text-align:center;margin:32px 0;">
+    <a href="https://jobgader.com/categories/sales" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+        &#128203; Browse Contact List Building Jobs &rarr;
+    </a>
+</div>
 
 <figure style="margin:28px 0;">
     <img src="/public/storage/blogs/contact-list-building-jobs-quota.jpg" alt="A contact list being compiled in a spreadsheet on a laptop" style="width:100%;height:auto;border-radius:10px;">
@@ -393,7 +399,7 @@ JOBHTML;
 
 <h2>How to Apply</h2>
 
-<p><strong>Start here:</strong> remote listings in this category are aggregated at <a href="https://remoteok.com/remote-lead-generation-jobs" rel="nofollow noopener" target="_blank">https://remoteok.com/remote-lead-generation-jobs</a>, and it is worth also checking the Pakistan board on the main remote job sites, where the geography has already been filtered for you.</p>
+<p><strong>Start here:</strong> remote listings in this category are aggregated on <strong>RemoteOK</strong>, and it is worth also checking the Pakistan board on the main remote job sites, where the geography has already been filtered for you.</p>
 
 <ol>
     <li><strong>Do the two sums before you write the application.</strong> Quota against tool allowance, pay against quota. If either fails, you have saved yourself a month.</li>

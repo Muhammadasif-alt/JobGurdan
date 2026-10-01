@@ -97,24 +97,26 @@ it('drops JobPosting markup because both apply links are search pages', function
 
     expect(get('/blog/'.$slug)->getContent())->not->toContain('"JobPosting"');
 })->with([
-    'ats' => [ATS_SLUG, 'https://www.indeed.com/q-resume-writer-jobs.html'],
-    'ai' => [AI_SLUG, 'https://www.indeed.com/q-ai-writer-jobs.html'],
+    'ats' => [ATS_SLUG, 'https://www.usa.gov/job-search'],
+    'ai' => [AI_SLUG, 'https://www.usa.gov/job-search'],
 ]);
 
 it('creates one United States listing per guide and does not duplicate on a re-run', function (string $applyUrl, string $position) {
     $this->seed(AtsResumeWriterUsaBlogSeeder::class);
     $this->seed(AiContentWriterUsaBlogSeeder::class);
 
-    $jobs = Job::where('application_url', $applyUrl)->get();
+    // Both guides now apply through the same government service, so the apply
+    // URL no longer identifies a listing. The position does.
+    $jobs = Job::where('position', $position)->get();
 
     expect($jobs)->toHaveCount(1)
-        ->and($jobs->first()->position)->toBe($position)
+        ->and($jobs->first()->application_url)->toBe($applyUrl)
         ->and($jobs->first()->location->country)->toBe('United States')
         ->and($jobs->first()->job_type)->toBe('Remote')
         ->and($jobs->first()->salary_minimum)->toBeNull();
 })->with([
-    'ats' => ['https://www.indeed.com/q-resume-writer-jobs.html', 'ATS Resume Writer — Career Services and Staffing Firms'],
-    'ai' => ['https://www.indeed.com/q-ai-writer-jobs.html', 'AI Content Writer — Agencies and SaaS Employers'],
+    'ats' => ['https://www.usa.gov/job-search', 'ATS Resume Writer — Career Services and Staffing Firms'],
+    'ai' => ['https://www.usa.gov/job-search', 'AI Content Writer — Agencies and SaaS Employers'],
 ]);
 
 it('links the two writing guides to each other', function () {

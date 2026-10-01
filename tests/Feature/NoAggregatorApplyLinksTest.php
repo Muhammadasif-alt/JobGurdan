@@ -50,20 +50,49 @@ it('finds seeders to inspect', function () {
     expect(seederBodies())->not->toBeEmpty();
 });
 
+/**
+ * Every absolute URL in a body of seeder source, lowercased.
+ *
+ * @return array<int, string>
+ */
+function urlsIn(string $body): array
+{
+    preg_match_all('/https?:\/\/[^\s"\'<>)]+/i', $body, $matches);
+
+    return array_map('strtolower', $matches[0]);
+}
+
 it('publishes no aggregator URL from any seeder', function () {
-    $aggregators = [
-        'indeed.com', 'ziprecruiter.com', 'glassdoor.com', 'linkedin.com/jobs',
-        'weworkremotely.com', 'simplyhired.com', 'monster.com', 'totaljobs.com',
-        'reed.co.uk', 'cv-library.co.uk', 'bayt.com', 'gulftalent.com',
-        'naukrigulf.com', 'rozee.pk', 'mustakbil.com', 'dice.com',
+    // Matched against the host's individual labels rather than as a substring.
+    // A substring list has to spell out every country domain, and the first
+    // pass missed simplyhired.co.uk for exactly that reason while listing
+    // simplyhired.com. Label matching catches uk.indeed.com and
+    // simplyhired.co.uk alike, and will not fire on a legitimate employer host
+    // that merely ends in one of these words, such as
+    // lloydsbankinggrouptalent.com.
+    $aggregatorLabels = [
+        'indeed', 'ziprecruiter', 'glassdoor', 'simplyhired', 'monster',
+        'totaljobs', 'reed', 'cv-library', 'bayt', 'gulftalent', 'naukrigulf',
+        'rozee', 'mustakbil', 'dice', 'remoteok', 'weworkremotely', 'careerjet',
+        'jooble', 'adzuna', 'neuvoo', 'jobrapido', 'talent', 'seek',
     ];
 
     $offenders = [];
 
     foreach (seederBodies() as $file => $body) {
-        foreach ($aggregators as $aggregator) {
-            if (str_contains(strtolower($body), $aggregator)) {
-                $offenders[] = $file.' -> '.$aggregator;
+        foreach (urlsIn($body) as $url) {
+            $host = (string) parse_url($url, PHP_URL_HOST);
+
+            foreach (explode('.', $host) as $label) {
+                if (in_array($label, $aggregatorLabels, true)) {
+                    $offenders[] = $file.' -> '.$url;
+                }
+            }
+
+            // LinkedIn is only an aggregator on its jobs paths. A profile or
+            // company link is a normal citation and has to keep working.
+            if (str_contains($host, 'linkedin.com') && str_contains($url, '/jobs')) {
+                $offenders[] = $file.' -> '.$url;
             }
         }
     }
