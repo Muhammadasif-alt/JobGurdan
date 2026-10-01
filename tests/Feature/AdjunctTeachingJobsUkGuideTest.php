@@ -149,3 +149,28 @@ it('repairs the post instead of duplicating it', function () {
     expect(Blog::where('slug', TEACHING_SLUG)->count())->toBe(1)
         ->and(Blog::where('slug', TEACHING_SLUG)->value('content'))->not->toBe('stale copy');
 });
+
+it('qualifies the section 27A argument with the HESA zero hours count', function () {
+    $content = Blog::where('slug', TEACHING_SLUG)->value('content');
+
+    expect($content)
+        ->toContain('SB274')
+        ->toContain('3,440 academic staff on zero hours contracts')
+        ->toContain('92% of them paid by the hour')
+        ->toContain('https://www.hesa.ac.uk/news/19-02-2026/sb274-higher-education-staff-statistics');
+});
+
+it('explains why the zero hours count understates the statutory test', function () {
+    $content = Blog::where('slug', TEACHING_SLUG)->value('content');
+
+    expect($content)
+        ->toContain('contract marker')
+        ->toContain('atypical')
+        ->toContain('tells you how many contracts are <em>labelled</em> zero hours');
+});
+
+it('does not let the HESA figure read as a cap on who section 27A protects', function () {
+    $content = Blog::where('slug', TEACHING_SLUG)->value('content');
+
+    expect($content)->toContain('turns on what a contract says rather than what it is called');
+});

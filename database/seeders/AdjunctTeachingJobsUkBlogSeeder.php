@@ -41,6 +41,12 @@ use Illuminate\Support\Str;
  *     about. Readers are pointed at the enforceable constraint instead.
  *  3. Every "[ADD REAL SOURCE]" placeholder is replaced with a named source or
  *     the claim is dropped.
+ *  4. The section 27A argument now carries the one statistic that qualifies it.
+ *     HESA Statistical Bulletin SB274 records 3,440 academic staff on zero
+ *     hours contracts in 2024/25, 92% hourly paid. That is small because it
+ *     counts a provider-reported contract marker and excludes atypical staff,
+ *     so it measures the label rather than the statutory test. Saying so is
+ *     more honest than quoting the section without it.
  *
  * Deliberately NOT claimed:
  *  - That any given hourly-paid contract is a zero hours contract within
@@ -115,6 +121,8 @@ class AdjunctTeachingJobsUkBlogSeeder extends Seeder
 <p><strong>And if your contract does guarantee hours,</strong> so that it is not a zero hours contract, there is a second route. The Exclusivity Terms for Zero Hours Workers (Unenforceability and Redress) Regulations 2022 extended the same protection to workers on other contracts whose net average weekly wage is at or below the lower earnings limit. The Regulations define an "exclusivity term" identically: any provision "which (a) prohibits the worker from doing work or performing services under another contract or under any other arrangement; or (b) prohibits the worker from doing so without the employer's consent".</p>
 
 <p>The protection is not merely that the clause fails. A worker also has the right not to be subjected to a detriment for breaching such a term, with a route to an employment tribunal.</p>
+
+<p><strong>One number is worth knowing before you read your own contract, because it cuts both ways.</strong> HESA's Statistical Bulletin SB274, published on 19 February 2026, records only 3,440 academic staff on zero hours contracts across UK higher education in 2024/25 &mdash; 92% of them paid by the hour. Against the scale of hourly-paid teaching in the sector, that is a strikingly small figure, and the reason is instructive: it counts what providers recorded against a contract marker, and it leaves out the tens of thousands of people on academic atypical contracts, who are returned with only a minimum data set. So the figure tells you how many contracts are <em>labelled</em> zero hours. It does not tell you how many meet the section 27A test, which turns on what a contract says rather than what it is called.</p>
 
 <p>One honest caveat, because this is law and not a slogan: whether a particular contract meets the section 27A definition turns on its own wording. The page gives you the test. Read your offer against it, and if the answer is unclear, put the question to the department in writing or ask your union branch.</p>
 
@@ -239,6 +247,7 @@ class AdjunctTeachingJobsUkBlogSeeder extends Seeder
 <ul>
     <li><a href="https://www.legislation.gov.uk/ukpga/1996/18/section/27A" rel="nofollow noopener" target="_blank">Employment Rights Act 1996, section 27A</a> &mdash; exclusivity terms unenforceable in zero hours contracts</li>
     <li><a href="https://www.legislation.gov.uk/uksi/2022/1145/made" rel="nofollow noopener" target="_blank">The Exclusivity Terms for Zero Hours Workers (Unenforceability and Redress) Regulations 2022</a></li>
+    <li><a href="https://www.hesa.ac.uk/news/19-02-2026/sb274-higher-education-staff-statistics" rel="nofollow noopener" target="_blank">HESA &mdash; Statistical Bulletin SB274, Higher Education Staff Statistics: UK, 2024/25</a>, published 19 February 2026, for the zero hours contract count</li>
     <li><a href="https://www.gov.uk/skilled-worker-visa" rel="nofollow noopener" target="_blank">GOV.UK &mdash; Skilled Worker visa</a>, for the sponsorship and salary requirements</li>
     <li><a href="https://www.advance-he.ac.uk/fellowship" rel="nofollow noopener" target="_blank">Advance HE &mdash; Fellowship</a>, for the recognised teaching credential</li>
 </ul>

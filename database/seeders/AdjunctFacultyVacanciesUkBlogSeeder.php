@@ -37,13 +37,20 @@ use Illuminate\Support\Str;
  *     Education jobs and LinkedIn. None is linked. The academic board is named
  *     once because omitting it would mislead.
  *  2. The brief asked for HESA figures on part-time and fixed-term academic
- *     staff. Where a figure could not be read from an official source it is not
- *     invented, and the page says what it does not know.
+ *     staff. Every figure now on the page is read from HESA Statistical
+ *     Bulletin SB274 (published 19 February 2026, snapshot 1 December 2024) and
+ *     its figure-2 source data: 244,755 academic staff excluding atypical;
+ *     85,170 teaching-only contracts at 35%, of which 54,595 part-time and
+ *     30,575 full-time; 36% of part-time academic staff hourly paid against
+ *     under 1% of full-time; 57,365 academic atypical contracts worth 4,525
+ *     FTE. SB274 carries a data-quality warning, but it applies to
+ *     non-academic staff only and so to none of the above.
  *
  * Deliberately NOT claimed:
- *  - Which subjects have the most sessional teaching. The brief asked for it,
- *    HESA does not publish a breakdown in that form, and a plausible-sounding
- *    list would be a guess.
+ *  - Which subjects have the most sessional teaching. The brief asked for it.
+ *    The population most likely to be doing it is the atypical one, which HESA
+ *    returns with only a minimum data set and warns is "not comparable to
+ *    those on other contract types", so a ranking would be a guess.
  */
 class AdjunctFacultyVacanciesUkBlogSeeder extends Seeder
 {
@@ -93,6 +100,20 @@ class AdjunctFacultyVacanciesUkBlogSeeder extends Seeder
 <p>Departments keep registers of approved part-time teachers and allocate work from them as cover is needed. A module loses its tutor in week two; the programme leader goes to the list, not to a recruitment process. By the time something is advertised publicly, it is usually a larger fixed-term post rather than the sessional work you were looking for.</p>
 
 <p>So the useful question is not "which website lists these jobs". It is <strong>which institutions employ part-time teachers, and how do you get onto their lists.</strong> There are four kinds, and they are not interchangeable.</p>
+
+<h2 id="the-numbers">What the Official Numbers Show, and What They Cannot</h2>
+
+<p>HESA publishes the only authoritative count of who teaches in UK higher education. Its latest Statistical Bulletin, SB274, was published on 19 February 2026 and reports staff employment as it stood on 1 December 2024. Two of its figures tell you most of what you need to know about this market.</p>
+
+<p><strong>Teaching-only contracts are not a fringe. They are 35% of all academic staff</strong> &mdash; 85,170 people out of 244,755. And they are overwhelmingly part-time: 54,595 of those 85,170 posts are part-time against 30,575 full-time. Teaching-only, part-time work is not the leftovers of the academic job market. It is close to a quarter of the entire academic workforce on its own.</p>
+
+<p>The second figure is the one that explains the hourly rate rather than the headcount. <strong>36% of part-time academic staff were hourly paid in 2024/25, compared with less than 1% of full-time staff.</strong> Being paid by the hour is effectively a part-time condition in this sector, and it is the normal condition of the work this page is about.</p>
+
+<p>There is also a separate population HESA counts apart from all of the above. In 2024/25, <strong>57,365 people held academic atypical contracts &mdash; work that is one-off, shorter than four consecutive weeks, or performed as and when required. Their combined full-time equivalent value was 4,525.</strong> That is roughly one full-time post's worth of work for every thirteen people holding such a contract. It is the clearest evidence available that a very large number of people each do a very small amount of teaching, which is exactly the pattern that never produces an advertised vacancy.</p>
+
+<p>Now the limits, because they matter more than the numbers. HESA states that academic employment function "relates to the academic contract of employment and not the actual work undertaken", so a teaching-only contract is a description of paperwork rather than of a timetable. The figures are a snapshot of a single day, 1 December 2024, which will miss anyone whose teaching fell in a different term. Atypical staff are returned with only a minimum data set and HESA warns they "form a separate population which is not comparable to those on other contract types". Every count is rounded to the nearest multiple of five.</p>
+
+<p>That is why this page gives you no ranked list of the subjects with the most sessional teaching. The population most likely to be doing it is the one HESA deliberately does not break down, and a ranking built on the rest would be a guess dressed as a statistic.</p>
 
 <h2 id="four-employers">Four Different Employers, Not One</h2>
 
@@ -235,7 +256,8 @@ class AdjunctFacultyVacanciesUkBlogSeeder extends Seeder
 
 <ul>
     <li><a href="https://www.legislation.gov.uk/uksi/2012/2166/made" rel="nofollow noopener" target="_blank">The Further Education Teachers' Qualifications (England) (Amendment) Regulations 2012</a></li>
-    <li><a href="https://www.hesa.ac.uk/data-and-analysis/staff" rel="nofollow noopener" target="_blank">HESA &mdash; Higher Education Staff Statistics</a>, for the published academic staff data</li>
+    <li><a href="https://www.hesa.ac.uk/news/19-02-2026/sb274-higher-education-staff-statistics" rel="nofollow noopener" target="_blank">HESA &mdash; Statistical Bulletin SB274, Higher Education Staff Statistics: UK, 2024/25</a>, published 19 February 2026, for every staff figure on this page</li>
+    <li><a href="https://www.hesa.ac.uk/support/definitions/staff" rel="nofollow noopener" target="_blank">HESA &mdash; Staff record definitions</a>, for the atypical contract and academic employment function definitions</li>
     <li><a href="https://www.gov.uk/skilled-worker-visa" rel="nofollow noopener" target="_blank">GOV.UK &mdash; Skilled Worker visa</a>, for the right-to-work position</li>
     <li><a href="https://www.open.ac.uk/" rel="nofollow noopener" target="_blank">The Open University</a>, for its own description of distance tutoring roles</li>
 </ul>

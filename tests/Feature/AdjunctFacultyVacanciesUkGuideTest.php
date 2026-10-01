@@ -156,3 +156,47 @@ it('repairs the post instead of duplicating it', function () {
     expect(Blog::where('slug', VACANCIES_SLUG)->count())->toBe(1)
         ->and(Blog::where('slug', VACANCIES_SLUG)->value('content'))->not->toBe('stale copy');
 });
+
+it('carries every HESA figure exactly as SB274 publishes it', function () {
+    $content = Blog::where('slug', VACANCIES_SLUG)->value('content');
+
+    foreach ([
+        'SB274',
+        '19 February 2026',
+        '1 December 2024',
+        '244,755',
+        '85,170',
+        '54,595',
+        '30,575',
+        '57,365',
+        '4,525',
+        '36% of part-time academic staff were hourly paid',
+        'relates to the academic contract of employment and not the actual work undertaken',
+        'form a separate population which is not comparable to those on other contract types',
+    ] as $needle) {
+        expect($content)->toContain($needle);
+    }
+});
+
+it('states the limits of the HESA data rather than only its figures', function () {
+    $content = Blog::where('slug', VACANCIES_SLUG)->value('content');
+
+    expect($content)
+        ->toContain('rounded to the nearest multiple of five')
+        ->toContain('minimum data set')
+        ->toContain('snapshot of a single day');
+});
+
+it('still refuses to rank subjects by sessional teaching', function () {
+    $content = Blog::where('slug', VACANCIES_SLUG)->value('content');
+
+    expect($content)
+        ->toContain('no ranked list')
+        ->toContain('a guess dressed as a statistic');
+});
+
+it('cites SB274 itself rather than only the HESA staff landing page', function () {
+    $content = Blog::where('slug', VACANCIES_SLUG)->value('content');
+
+    expect($content)->toContain('https://www.hesa.ac.uk/news/19-02-2026/sb274-higher-education-staff-statistics');
+});
