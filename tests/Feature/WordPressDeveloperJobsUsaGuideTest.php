@@ -11,7 +11,7 @@ use function Pest\Laravel\get;
 
 const WORDPRESS_SLUG = 'wordpress-developer-jobs-in-usa';
 
-const WORDPRESS_APPLY_URL = 'https://www.indeed.com/q-wordpress-developer-jobs.html';
+const WORDPRESS_APPLY_URL = 'https://www.usa.gov/job-search';
 
 beforeEach(function () {
     $this->seed(WordPressDeveloperJobsUsaBlogSeeder::class);

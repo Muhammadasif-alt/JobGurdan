@@ -45,7 +45,7 @@ use Illuminate\Support\Str;
  */
 class DevOpsEngineerJobsGermanyBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://de.indeed.com/q-devops-engineer-jobs.html';
+    private const APPLY_URL = 'https://www.arbeitsagentur.de/jobsuche/';
 
     public function run(): void
     {
@@ -168,7 +168,7 @@ JOBHTML;
 <p>DevOps engineers run the pipelines and cloud platforms German companies ship software on, and many teams in Berlin, Munich and beyond work in English. Before you apply from abroad, it helps to know four things most guides get wrong: what the official pay figures show, whether a junior salary clears the EU Blue Card, which cities really pay most, and whether the skills shortage is still what it was.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://de.indeed.com/q-devops-engineer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=Germany" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128640; Browse DevOps Engineer Jobs in Germany &rarr;
     </a>
 </div>

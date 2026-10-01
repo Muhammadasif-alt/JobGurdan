@@ -48,7 +48,7 @@ use Illuminate\Support\Str;
  */
 class CustomerServiceJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-customer-service-representative-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -169,7 +169,7 @@ JOBHTML;
 <p>Customer service is one of the easiest fields to enter in the United States: nearly every industry hires for it, most roles ask only for a high school diploma, and remote openings are common. But the market is not quite what the job ads promise. Before you apply, it helps to know what these jobs really pay, why the number of them is projected to fall even as openings stay high, and where "technical support" and "customer success" sit &mdash; because they are not the same job.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-customer-service-representative-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127911; Browse Customer Service Jobs &rarr;
     </a>
 </div>

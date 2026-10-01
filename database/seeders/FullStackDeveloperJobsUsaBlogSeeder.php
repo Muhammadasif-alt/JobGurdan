@@ -44,7 +44,7 @@ use Illuminate\Support\Str;
  */
 class FullStackDeveloperJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-full-stack-developer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -169,7 +169,7 @@ JOBHTML;
 <p>Full stack is the most commercially useful title in web engineering and the most slippery one to price. Employers like it because one person can carry a feature from the interface to the database. Developers like it because it opens more postings than either specialism alone. But it is not an occupation anyone official tracks, and that single fact explains why every salary figure you will read for it disagrees with every other one. This guide sorts that out first, then covers the part most guides get wrong: what actually happens when a US company hires you from abroad.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-full-stack-developer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🧩 Browse Full Stack Developer Jobs in the USA &rarr;
     </a>
 </div>

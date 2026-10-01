@@ -44,7 +44,7 @@ use Illuminate\Support\Str;
  */
 class RemoteJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-remote-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -165,7 +165,7 @@ JOBHTML;
 <p>Remote jobs with American employers are real and many pay well, but they are not the open door most guides describe. Before you apply, it helps to know four things they get wrong: how many Americans actually work from home, what the roles really pay, who a US remote job is open to, and how common the scams have become.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-remote-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128187; Browse Remote Jobs in USA &rarr;
     </a>
 </div>

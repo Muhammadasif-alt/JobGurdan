@@ -55,7 +55,7 @@ use Illuminate\Support\Str;
  */
 class FleetDriverJobsCanadaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ca.indeed.com/q-az-driver-jobs.html';
+    private const APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
     public function run(): void
     {
@@ -173,7 +173,7 @@ JOBHTML;
 <p>This guide covers the licence classes province by province, the training hours each one requires, what CVOR really is, and what the work pays on official figures.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ca.indeed.com/q-az-driver-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128666; Browse Fleet Driver Jobs in Canada &rarr;
     </a>
 </div>

@@ -97,7 +97,7 @@ class FirstBlogPostSeeder extends Seeder
                 'salary_period' => 'Yearly',
                 'salary_minimum' => 50000,
                 'salary_maximum' => 82000,
-                'application_url' => 'https://www.indeed.com/q-truck-driver-america-with-visa-sponsorship-jobs.html?vjk=a80f6fa975d8fbce',
+                'application_url' => 'https://www.usa.gov/job-search',
                 'meta_description' => 'CDL-A truck driver openings in the USA with visa sponsorship — EB-3 and H-2B routes, $50k–$82k, nationwide.',
                 'seo_keywords' => 'truck driver jobs usa, visa sponsorship, CDL-A, EB-3 visa, H-2B visa, OTR driver',
             ]
@@ -136,7 +136,7 @@ JOBHTML;
 <p>The U.S. trucking industry moves about 70% of the country's freight, and it has been short on qualified drivers for years. That shortage is exactly why <strong>truck driver jobs in USA</strong> are one of the more realistic blue-collar visa sponsorship opportunities available to foreign workers today &mdash; but "visa sponsorship" doesn't mean a guaranteed job offer, and it comes with real requirements around licensing, experience, and paperwork. This guide breaks down how the process actually works, which visas apply, what it pays, and how to position yourself as a strong candidate.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-truck-driver-america-with-visa-sponsorship-jobs.html?vjk=a80f6fa975d8fbce" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🚛 Browse Truck Driver Jobs in USA with Visa Sponsorship →
     </a>
 </div>
@@ -247,7 +247,7 @@ JOBHTML;
 <p>Job aggregators are a practical starting point &mdash; you can browse current listings tagged with visa sponsorship below.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-truck-driver-america-with-visa-sponsorship-jobs.html?vjk=a80f6fa975d8fbce" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🔍 Search Truck Driver Jobs in USA with Visa Sponsorship →
     </a>
 </div>

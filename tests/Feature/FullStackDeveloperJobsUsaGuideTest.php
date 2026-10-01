@@ -11,7 +11,7 @@ use function Pest\Laravel\get;
 
 const FULLSTACK_SLUG = 'full-stack-developer-jobs-in-usa';
 
-const FULLSTACK_APPLY_URL = 'https://www.indeed.com/q-full-stack-developer-jobs.html';
+const FULLSTACK_APPLY_URL = 'https://www.usa.gov/job-search';
 
 beforeEach(function () {
     $this->seed(FullStackDeveloperJobsUsaBlogSeeder::class);

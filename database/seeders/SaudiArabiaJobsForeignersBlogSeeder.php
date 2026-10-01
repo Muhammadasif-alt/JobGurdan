@@ -84,7 +84,7 @@ use Illuminate\Support\Str;
  */
 class SaudiArabiaJobsForeignersBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://sa.indeed.com/jobs?l=Saudi+Arabia';
+    private const APPLY_URL = 'https://www.hrsd.gov.sa/en';
 
     public function run(): void
     {
@@ -202,7 +202,7 @@ JOBHTML;
 <p>This guide covers the route itself, the two checks that stop most people before the embassy, what Saudization actually blocks, and the money rules &mdash; including the one that decides whether an agency asking you for a fee is breaking the law.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://sa.indeed.com/jobs?l=Saudi+Arabia" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/general-labour?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128188; Browse Jobs in Saudi Arabia &rarr;
     </a>
 </div>

@@ -21,7 +21,7 @@ use Illuminate\Support\Str;
  */
 class HotelJobsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-usa-hotel-jobs-with-visa-sponsorship-jobs.html?vjk=211f8bcb51a8380f';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -146,7 +146,7 @@ JOBHTML;
 <p>America's hospitality industry runs on seasonal peaks &mdash; ski resorts in winter, beach towns in summer, convention hotels year-round &mdash; and staffing those peaks with domestic workers alone has never been enough. That gap is what makes <strong>hotel jobs in USA</strong> one of the more accessible visa-sponsored entry points into the American job market for foreign workers, from housekeeping and front desk roles to culinary and management positions. Here's how the process actually works, what it pays, and how to avoid the scams that circle this space.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-usa-hotel-jobs-with-visa-sponsorship-jobs.html?vjk=211f8bcb51a8380f" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/hospitality-tourism?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🏨 Browse Hotel Jobs in USA with Visa Sponsorship →
     </a>
 </div>
@@ -273,7 +273,7 @@ JOBHTML;
 <p>Start with the platforms below, and check individual hotel brand career pages directly for higher-end roles.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-usa-hotel-jobs-with-visa-sponsorship-jobs.html?vjk=211f8bcb51a8380f" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/hospitality-tourism?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🔍 Search Hotel Jobs in USA with Visa Sponsorship →
     </a>
 </div>

@@ -11,7 +11,7 @@ use function Pest\Laravel\get;
 
 const FRONTEND_SLUG = 'front-end-developer-jobs-in-usa';
 
-const FRONTEND_APPLY_URL = 'https://www.indeed.com/q-front-end-developer-jobs.html';
+const FRONTEND_APPLY_URL = 'https://www.usa.gov/job-search';
 
 beforeEach(function () {
     $this->seed(FrontEndDeveloperJobsUsaBlogSeeder::class);

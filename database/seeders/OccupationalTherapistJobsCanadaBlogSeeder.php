@@ -54,7 +54,7 @@ use Illuminate\Support\Str;
  */
 class OccupationalTherapistJobsCanadaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ca.indeed.com/q-occupational-therapist-jobs.html';
+    private const APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
     public function run(): void
     {
@@ -175,7 +175,7 @@ JOBHTML;
 <p>Canada has a real and uneven shortage of occupational therapists. A permanent hospital posting in Toronto or Vancouver draws dozens of applicants, while a community role in northern Ontario or rural Saskatchewan can sit open for months. For a therapist deciding where to aim, the useful questions are not whether jobs exist &mdash; they do &mdash; but which setting suits you, what registration actually involves, and how long it takes if you trained abroad. This guide answers all three, with pay anchored to Job Bank rather than to the bands most articles copy.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ca.indeed.com/q-occupational-therapist-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127464;&#127462; Browse Occupational Therapist Jobs in Canada &rarr;
     </a>
 </div>

@@ -49,7 +49,7 @@ use Illuminate\Support\Str;
  */
 class SystemAdministratorJobsUaeBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ae.indeed.com/q-system-administrator-jobs.html';
+    private const APPLY_URL = 'https://u.ae/en/information-and-services/jobs';
 
     public function run(): void
     {
@@ -171,7 +171,7 @@ JOBHTML;
 <p>System administrators keep the servers, identity systems and networks of UAE companies running, from Dubai's logistics and hospitality groups to Abu Dhabi's hospitals, schools and government-linked entities. It is a real and steady job market, but most guides describe it with retired product names, skip the legal limits on on-call work and treat contract perks as rights. Here is what to check before you apply.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ae.indeed.com/q-system-administrator-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20Arab%20Emirates" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128421; Browse System Administrator Jobs in UAE &rarr;
     </a>
 </div>

@@ -46,7 +46,7 @@ use Illuminate\Support\Str;
  */
 class WebDeveloperJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-web-developer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -171,7 +171,7 @@ JOBHTML;
 <p>Web development is one of the few careers where the entry requirement is genuinely what you can build rather than what you were awarded, the work is unusually portable, and the official outlook points upward rather than down. That last part is worth saying plainly, because it is not true of every creative or digital field. This guide covers what the work pays against the published federal numbers, why the entry-level floor is lower than most articles admit, what a freelance rate has to cover before it becomes income, and &mdash; for readers who need it &mdash; where US work authorisation currently stands.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-web-developer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         💻 Browse Web Developer Jobs in the USA &rarr;
     </a>
 </div>

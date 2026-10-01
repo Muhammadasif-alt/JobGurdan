@@ -49,7 +49,7 @@ use Illuminate\Support\Str;
  */
 class SocialMediaManagerJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-social-media-manager-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -174,7 +174,7 @@ JOBHTML;
 <p>Social media management is one of the easiest fields to enter and one of the easiest to be underpaid in, and those two facts are connected. The barrier is low, so the advice aimed at beginners is written to keep expectations modest &mdash; which is why most guides quote entry-level numbers that are below what the role actually pays. This one gives you the real figures, and then covers the part nobody writes about: the federal rules that now govern how you are allowed to grow an account, which have changed materially since 2023 and can put your client at genuine risk if you do not know them.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-social-media-manager-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/marketing?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         📱 Browse Social Media Manager Jobs in the USA &rarr;
     </a>
 </div>

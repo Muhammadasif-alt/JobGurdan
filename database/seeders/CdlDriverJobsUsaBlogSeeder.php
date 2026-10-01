@@ -67,7 +67,7 @@ use Illuminate\Support\Str;
  */
 class CdlDriverJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-cdl-driver-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -194,7 +194,7 @@ JOBHTML;
 <p>Commercial driving is one of the few jobs in the United States that still pays a middle income without a four-year degree, and it is genuinely open to newcomers. It is also the job most consistently oversold, because the people who benefit from a steady stream of applicants are often the people selling the training. Here is what the federal record actually says.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-cdl-driver-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128667; Browse CDL Driver Jobs in the USA &rarr;
     </a>
 </div>

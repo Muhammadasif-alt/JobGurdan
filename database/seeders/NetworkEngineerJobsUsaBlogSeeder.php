@@ -49,7 +49,7 @@ use Illuminate\Support\Str;
  */
 class NetworkEngineerJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-network-engineer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -176,7 +176,7 @@ JOBHTML;
 <p>Networking is one of the most misreported careers in American technology, and not because anyone is being dishonest. It is because <strong>one job title covers two federal occupations that are moving in opposite directions</strong>, and almost every guide averages them into a single reassuring sentence about strong demand. Half of that sentence is true. This guide separates the two halves, puts a number on the gap between them, and covers the one skill that decides which side of it you end up on.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-network-engineer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🌐 Browse Network Engineer Jobs in the USA &rarr;
     </a>
 </div>

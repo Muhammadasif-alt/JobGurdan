@@ -29,7 +29,7 @@ use Illuminate\Support\Str;
  */
 class NurseJobsUsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-registered-nurse-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -154,7 +154,7 @@ JOBHTML;
 <p>The demand is real. US hospitals are short of nurses, the pay is among the best in the world for the profession, and hospitals genuinely do sponsor internationally trained staff. What most guides on this subject leave out is the part that decides <em>when</em> you actually start: the licensing steps are the easy half, and the immigration queue behind them is measured in years, not months. This guide covers both, so you can plan against the real timeline rather than the advertised one.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-registered-nurse-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🩺 Browse Nurse Jobs in the US &rarr;
     </a>
 </div>

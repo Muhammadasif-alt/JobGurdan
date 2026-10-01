@@ -28,7 +28,7 @@ use Illuminate\Support\Str;
  */
 class CleanerJobsSaudiBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://sa.indeed.com/q-visa-sponsorship,cleaning-jobs-%D9%88%D8%B8%D8%A7%D8%A6%D9%81.html?vjk=c65c3f2948f20c94';
+    private const APPLY_URL = 'https://www.hrsd.gov.sa/en';
 
     public function run(): void
     {
@@ -154,7 +154,7 @@ JOBHTML;
 <p>Hotels, hospitals, airports, malls, office towers and residential compounds across Saudi Arabia all run on cleaning staff, and almost none of that work is done by Saudi nationals. That makes <strong>cleaner jobs in Saudi Arabia</strong> one of the most reliably open routes into the Kingdom for a worker without qualifications. It is also a category where the advertised salary tells you very little on its own, and where one contract detail &mdash; which almost no guide mentions &mdash; decides how much freedom you have after you arrive.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://sa.indeed.com/q-visa-sponsorship,cleaning-jobs-%D9%88%D8%B8%D8%A7%D8%A6%D9%81.html?vjk=c65c3f2948f20c94" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/cleaning-facilities?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🧹 Browse Cleaning Jobs in Saudi Arabia &rarr;
     </a>
 </div>
@@ -328,7 +328,7 @@ JOBHTML;
 </ol>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://sa.indeed.com/q-visa-sponsorship,cleaning-jobs-%D9%88%D8%B8%D8%A7%D8%A6%D9%81.html?vjk=c65c3f2948f20c94" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/cleaning-facilities?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🔍 Search Cleaning Job Listings in Saudi Arabia &rarr;
     </a>
 </div>

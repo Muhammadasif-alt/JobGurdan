@@ -33,7 +33,7 @@ use Illuminate\Support\Str;
  */
 class AiContentWriterUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-ai-writer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -157,7 +157,7 @@ JOBHTML;
 <p>The job title is new; the job mostly is not. What changed is where the writing effort goes. Instead of producing a first draft from a blank page, an AI content writer builds the brief, generates the draft, and then does the part that actually determines whether the piece is publishable &mdash; checking it, cutting it, and making it specific. Employers have worked this out, which is why the screening is on editing judgement rather than on prompting. This guide covers what the role pays, how to be paid fairly for it, and the two questions candidates get wrong in interviews.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-ai-writer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/writing-content?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         ✍️ Browse AI Content Writer Jobs in the USA &rarr;
     </a>
 </div>

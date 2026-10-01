@@ -54,7 +54,7 @@ use Illuminate\Support\Str;
  */
 class DataEntryJobsPakistanBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.rozee.pk/category/data-entry-jobs';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -179,9 +179,9 @@ JOBHTML;
 <p>Data entry is one of the few jobs in Pakistan genuinely open to a fresh Intermediate graduate, a student, or someone returning to work after a break. It also has the most confused salary reporting of any role on the market, and the confusion is not random &mdash; it comes from three different pay systems being averaged together as though they were one.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.rozee.pk/category/data-entry-jobs" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    
         &#128221; Browse Data Entry Jobs in Pakistan &rarr;
-    </a>
+    
 </div>
 
 <h2>Three Pay Systems, Not One Market</h2>

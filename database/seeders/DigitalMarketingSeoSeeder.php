@@ -24,7 +24,7 @@ use Illuminate\Support\Str;
  */
 class DigitalMarketingSeoSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://pk.indeed.com/viewjob?jk=4670dbdb8daeb9c1';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -159,7 +159,7 @@ JOBHTML;
 <p>If you're an SEO specialist who can also hold your own on the design side, this listing is worth a look: <strong>Urban Solar Pvt Ltd.</strong> is hiring a <strong>Digital Marketing Expert (SEO)</strong> for a full-time, fully remote role open across Pakistan. It's a hybrid position &mdash; real SEO ownership paired with hands-on creative work &mdash; which makes it a slightly different ask than a typical pure-SEO role.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/viewjob?jk=4670dbdb8daeb9c1" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/marketing?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         📈 Apply for Digital Marketing Expert (SEO) at Urban Solar →
     </a>
 </div>
@@ -278,7 +278,7 @@ JOBHTML;
 </ul>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/viewjob?jk=4670dbdb8daeb9c1" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/marketing?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🔍 Apply for Digital Marketing Expert (SEO) at Urban Solar →
     </a>
 </div>

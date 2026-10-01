@@ -55,7 +55,7 @@ use Illuminate\Support\Str;
  */
 class HealthcareSupportJobsUkBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/q-healthcare-support-worker-jobs.html';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -177,7 +177,7 @@ JOBHTML;
 <p>"Healthcare support" is not one job. It is a family of roles &mdash; healthcare assistant, support worker, nursing associate, therapy and maternity support worker &mdash; that keep the NHS and social care running alongside nurses and doctors. They are among the most accessible ways into healthcare, usually without a degree, and they lead somewhere. But the pay, the employer and even the background check depend on which role and which setting you pick, and there is one recent visa change that overseas readers need to know before they plan around a support role.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-healthcare-support-worker-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#129658; Browse Healthcare Support Jobs &rarr;
     </a>
 </div>

@@ -63,7 +63,7 @@ use Illuminate\Support\Str;
  */
 class AppointmentSettingJobsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.rozee.pk/';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -342,7 +342,7 @@ JOBHTML;
 
 <h2>How to Apply</h2>
 
-<p>Both Pakistani boards carry these roles, and they behave differently. Search <a href="https://www.rozee.pk/">https://www.rozee.pk/</a> for "appointment setter" and separately for "appointment setting", which surfaces cold caller and SDR titles the narrower phrase misses. Open each listing rather than trusting the search summary, and read the posting date on the page itself.</p>
+<p>Both Pakistani boards carry these roles, and they behave differently. Search <strong>Rozee</strong> for "appointment setter" and separately for "appointment setting", which surfaces cold caller and SDR titles the narrower phrase misses. Open each listing rather than trusting the search summary, and read the posting date on the page itself.</p>
 
 <p>A closed listing on that board does not always redirect you elsewhere. It will also load the page normally and put a line inside it stating that the employer is no longer accepting CVs. Several listings that search engines presented as current had closed months or years earlier.</p>
 

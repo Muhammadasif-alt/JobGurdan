@@ -50,7 +50,7 @@ use Illuminate\Support\Str;
  */
 class AccountantJobsUaeBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ae.indeed.com/q-accountant-jobs.html';
+    private const APPLY_URL = 'https://u.ae/en/information-and-services/jobs';
 
     public function run(): void
     {
@@ -173,7 +173,7 @@ JOBHTML;
 <p>The UAE is the Gulf's largest market for accountants. Corporate tax, VAT, mandatory audits and a national e-invoicing system have created steady demand for finance staff in Dubai, Abu Dhabi and the free zones. It is also a market where the common advice treats a legal obligation as a perk, a qualification as a licence, and a tax-free salary as tax-free everywhere.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ae.indeed.com/q-accountant-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/finance-accounting?location=United%20Arab%20Emirates" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128202; Browse Accountant Jobs in UAE &rarr;
     </a>
 </div>

@@ -49,7 +49,7 @@ use Illuminate\Support\Str;
  */
 class SecuritySpecialistJobsUaeBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ae.indeed.com/q-security-specialist-jobs.html';
+    private const APPLY_URL = 'https://u.ae/en/information-and-services/jobs';
 
     public function run(): void
     {
@@ -171,7 +171,7 @@ JOBHTML;
 <p>"Security specialist" is one of the broadest job titles in the UAE. The same words appear on a mall's CCTV supervisor post, a hotel's security coordinator role and a bank's cybersecurity analyst vacancy. Those are different careers with different licences, certifications and pay. Before you apply, it helps to know which track a vacancy belongs to, which regulator licenses the emirate you will work in, what cybersecurity certifications really require, and what the labour law guarantees in a package.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ae.indeed.com/q-security-specialist-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/security?location=United%20Arab%20Emirates" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128737; Browse Security Specialist Jobs in UAE &rarr;
     </a>
 </div>
@@ -272,7 +272,7 @@ JOBHTML;
 <h2>Where to Find Security Specialist Jobs</h2>
 
 <ol>
-    <li><strong>Job boards.</strong> Search ae.indeed.com rather than the American site, and separate guarding searches from cybersecurity searches.</li>
+    <li><strong>Job boards.</strong> Search the UAE government's own jobs portal rather than a US-hosted board, and separate guarding searches from cybersecurity searches.</li>
     <li><strong>Licensed security companies.</strong> Most physical security staff are employed by licensed companies that deploy them to malls, hotels and offices.</li>
     <li><strong>Direct employers.</strong> Banks, airports, hotels, free zones and infrastructure operators hire in-house security and SOC teams.</li>
     <li><strong>Recruitment agencies.</strong> Specialist agencies fill supervisory, risk and cybersecurity roles.</li>

@@ -52,7 +52,7 @@ use Illuminate\Support\Str;
  */
 class JobsInCanadaForeignWorkersBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ca.indeed.com/Foreign-Worker-Canada-jobs';
+    private const APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
     public function run(): void
     {
@@ -173,7 +173,7 @@ JOBHTML;
 <p>Canada is still one of the top destinations for foreign workers, but 2026 has changed how the system works. The government has cut one part of the temporary worker program while fast-tracking permanent residence for thousands of workers already here. Before you spend money on applications, it helps to know what actually changed, which sectors really hire foreign workers, what Job Bank says they pay, and how to tell a genuine offer from a scam.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ca.indeed.com/Foreign-Worker-Canada-jobs" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/general-labour?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127464;&#127462; Browse Foreign Worker Jobs in Canada &rarr;
     </a>
 </div>

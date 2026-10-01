@@ -45,7 +45,7 @@ use Illuminate\Support\Str;
  */
 class MedicalReceptionistJobsAustraliaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://au.indeed.com/q-medical-receptionist-jobs.html';
+    private const APPLY_URL = 'https://www.workforceaustralia.gov.au/individuals/jobs/search';
 
     public function run(): void
     {
@@ -166,7 +166,7 @@ JOBHTML;
 <p>Medical receptionists are the first and last person a patient speaks to at a GP clinic, specialist practice, radiology centre or community health service. It is a job found in almost every Australian suburb and regional town, and one of the most part-time-friendly jobs in health care. Before you apply, it helps to know what the official data says about the work, which award sets your pay, the billing and privacy rules you will handle every day, and why the job is almost never a visa route.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://au.indeed.com/q-medical-receptionist-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128222; Browse Medical Receptionist Jobs in Australia &rarr;
     </a>
 </div>

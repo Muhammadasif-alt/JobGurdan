@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const HEALTH_UK_SLUG = 'healthcare-jobs-in-the-uk';
 
-const HEALTH_UK_APPLY_URL = 'https://uk.indeed.com/q-healthcare-jobs.html?vjk=4ff6f1084283ad4e';
+const HEALTH_UK_APPLY_URL = 'https://www.gov.uk/find-a-job';
 
 beforeEach(function () {
     $this->seed(HealthcareJobsUkBlogSeeder::class);

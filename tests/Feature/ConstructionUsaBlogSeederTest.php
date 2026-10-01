@@ -4,7 +4,7 @@ use App\Models\Blog;
 use App\Models\Job;
 use Database\Seeders\ConstructionUsaBlogSeeder;
 
-const CONSTRUCTION_APPLY_URL = 'https://www.indeed.com/jobs?q=construction+visa+sponsorship';
+const CONSTRUCTION_APPLY_URL = 'https://www.usa.gov/job-search';
 
 beforeEach(function () {
     $this->seed(ConstructionUsaBlogSeeder::class);

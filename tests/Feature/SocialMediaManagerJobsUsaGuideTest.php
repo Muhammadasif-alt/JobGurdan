@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const SOCIAL_SLUG = 'social-media-manager-jobs-in-usa';
 
-const SOCIAL_APPLY_URL = 'https://www.indeed.com/q-social-media-manager-jobs.html';
+const SOCIAL_APPLY_URL = 'https://www.usa.gov/job-search';
 
 beforeEach(function () {
     $this->seed(SocialMediaManagerJobsUsaBlogSeeder::class);

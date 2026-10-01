@@ -47,7 +47,7 @@ use Illuminate\Support\Str;
  */
 class MobileAppDeveloperJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-mobile-app-developer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -172,7 +172,7 @@ JOBHTML;
 <p>Mobile is the best-paid corner of ordinary application development, and the one where the gap between a portfolio and a hireable portfolio is widest. Anyone can follow a tutorial to a running app on a simulator. Far fewer have an app a stranger can download, and that single difference is what most US mobile hiring screens on. This guide covers what the work pays against the published federal numbers, why the floor matters more than the median if you are choosing between mobile and web, what actually separates an iOS, Android and React Native rate, and the two-week gate now standing between a finished Android app and a public store link.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-mobile-app-developer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         📱 Browse Mobile App Developer Jobs in the USA &rarr;
     </a>
 </div>

@@ -28,7 +28,7 @@ it('renders with its long-tail sections and the search link', function () {
         ->assertOk()
         ->assertSee('Cybersecurity Engineer Jobs in USA')
         ->assertSee('People Also Search For')
-        ->assertSee('https://www.indeed.com/q-cybersecurity-engineer-jobs.html', false);
+        ->assertSee('https://jobgader.com/categories/it-software?location=United%20States', false);
 });
 
 it('carries FAQ markup built from the post body', function () {
@@ -78,7 +78,7 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
     $job = Job::where('position', 'like', 'Cybersecurity Engineer%')->first();
 
     expect($job)->not->toBeNull()
-        ->and($job->application_url)->toBe('https://www.indeed.com/q-cybersecurity-engineer-jobs.html')
+        ->and($job->application_url)->toBe('https://www.usa.gov/job-search')
         ->and($job->salary_minimum)->toBeNull()
         ->and($job->salary_maximum)->toBeNull()
         ->and($job->description)->toContain('not by JobGader')

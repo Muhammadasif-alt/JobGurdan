@@ -52,7 +52,7 @@ use Illuminate\Support\Str;
  */
 class PersonalCareAssistantJobsAustraliaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://au.indeed.com/q-sponsorship-visa,-personal-care-assistant-jobs.html';
+    private const APPLY_URL = 'https://www.workforceaustralia.gov.au/individuals/jobs/search';
 
     public function run(): void
     {
@@ -173,7 +173,7 @@ JOBHTML;
 <p>Australia's aged care sector faces one of the country's most persistent labour shortages in 2026, which makes Personal Care Assistant (PCA) roles among the most consistently available &mdash; and genuinely sponsorable &mdash; jobs for both local and international candidates. With an ageing population driving demand, providers are hiring and, in many cases, supporting skilled visa pathways. Here is what the role involves, what it really pays under the award, and how sponsorship actually works.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://au.indeed.com/q-sponsorship-visa,-personal-care-assistant-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#00247d;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#00247d;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127462;&#127482; Browse Personal Care Assistant Jobs in Australia &rarr;
     </a>
 </div>

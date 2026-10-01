@@ -43,7 +43,7 @@ use Illuminate\Support\Str;
  */
 class DataEntryJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-data-entry-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -167,7 +167,7 @@ JOBHTML;
 <p>Data entry is one of the most searched job categories in the United States, and one of the few where the most important number is not the salary. It is the projection. Almost every guide mentions it in a sentence and moves on. It deserves rather more than a sentence, because it should change what you do with the job once you have it.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-data-entry-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128187; Browse Data Entry Jobs in the USA &rarr;
     </a>
 </div>

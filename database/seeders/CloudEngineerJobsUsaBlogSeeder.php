@@ -48,7 +48,7 @@ use Illuminate\Support\Str;
  */
 class CloudEngineerJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-cloud-engineer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -173,7 +173,7 @@ JOBHTML;
 <p>Cloud engineering is one of the best-paid and most portable technical careers in the United States, and it is also one of the hardest to research honestly, because the job did not exist as a category long enough to be counted properly. Everything you read about what it pays is an aggregate of self-reported numbers. This guide starts by working out which occupations the work is actually counted under, which turns out to answer more than a salary question &mdash; including where the people doing these jobs came from, and where the next wave will come from.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-cloud-engineer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         ☁️ Browse Cloud Engineer Jobs in the USA &rarr;
     </a>
 </div>

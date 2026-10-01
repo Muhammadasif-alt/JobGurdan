@@ -46,7 +46,7 @@ use Illuminate\Support\Str;
  */
 class KitchenHelperJobsSaudiBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://sa.indeed.com/q-kitchen-helper-jobs.html';
+    private const APPLY_URL = 'https://www.hrsd.gov.sa/en';
 
     public function run(): void
     {
@@ -167,7 +167,7 @@ JOBHTML;
 <p>Kitchen helper is one of the most advertised entry-level jobs in the Gulf, and Saudi hotels, restaurants, hospitals and catering companies do hire freshers. What most guides leave out is the part that decides whether the offer is worth taking: the wage floor your own embassy sets, who pays for the visa, the health certificate you cannot work without, and what the Labour Law guarantees you once you arrive.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://sa.indeed.com/q-kitchen-helper-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/hospitality-tourism?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127869; Browse Kitchen Helper Jobs in Saudi Arabia &rarr;
     </a>
 </div>

@@ -55,7 +55,7 @@ use Illuminate\Support\Str;
  */
 class RetailAssociateJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-retail-associate-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -180,7 +180,7 @@ JOBHTML;
 <p>Retail associate is the easiest job in the United States to be hired into and the hardest to research honestly. Almost every guide quotes the same pay range, and that range starts below what nine out of ten retail associates actually earn. This page uses the measured figures, and spends most of its length on the part the guides skip: how the hiring actually works, and what decides whether the offer in front of you is a good one.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-retail-associate-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128717;&#65039; Browse Retail Associate Jobs in the USA &rarr;
     </a>
 </div>

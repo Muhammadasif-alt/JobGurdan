@@ -49,7 +49,7 @@ use Illuminate\Support\Str;
  */
 class ConstructionWorkerJobsAustraliaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://au.indeed.com/q-construction-worker-jobs.html';
+    private const APPLY_URL = 'https://www.workforceaustralia.gov.au/individuals/jobs/search';
 
     public function run(): void
     {
@@ -175,7 +175,7 @@ JOBHTML;
 <p>Australia is unusual, and unusually helpful, in one respect: for most jobs there is a legally binding minimum rate published by name, and construction labouring is one of them. That single fact changes how you should read every salary figure in every guide to this work &mdash; because once you know the floor, you can see what the average is actually made of.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://au.indeed.com/q-construction-worker-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/construction-trades?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128119; Browse Construction Worker Jobs in Australia &rarr;
     </a>
 </div>

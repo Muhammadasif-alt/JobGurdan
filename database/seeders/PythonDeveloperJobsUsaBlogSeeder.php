@@ -48,7 +48,7 @@ use Illuminate\Support\Str;
  */
 class PythonDeveloperJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-python-developer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -174,7 +174,7 @@ JOBHTML;
 <p>This guide is about telling those apart before you apply, because it is the one decision that moves a Python salary further than any framework you could learn this year.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-python-developer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🐍 Browse Python Developer Jobs in the USA &rarr;
     </a>
 </div>
@@ -260,8 +260,8 @@ JOBHTML;
 <p>Openings are posted daily across the major boards. Set alerts for "Python developer", "Django developer", "backend engineer Python" and "data engineer" separately &mdash; they surface genuinely different sets of postings, and the last two are where the higher bands sit.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-python-developer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        👉 Apply for Python Developer Jobs on Indeed &rarr;
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+        👉 Browse Python Developer Jobs in the USA &rarr;
     </a>
 </div>
 

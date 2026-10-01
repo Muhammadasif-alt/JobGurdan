@@ -52,7 +52,7 @@ use Illuminate\Support\Str;
  */
 class ForeignWorkerJobsAustraliaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://au.indeed.com/q-482-visa-sponsorship-jobs.html';
+    private const APPLY_URL = 'https://www.workforceaustralia.gov.au/individuals/jobs/search';
 
     public function run(): void
     {
@@ -165,7 +165,7 @@ JOBHTML;
 <p>This guide compares every route, shows who each one suits, and explains how to apply without falling for sponsorship scams.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://au.indeed.com/q-482-visa-sponsorship-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/general-labour?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127462;&#127482; Browse Visa Sponsorship Jobs in Australia &rarr;
     </a>
 </div>

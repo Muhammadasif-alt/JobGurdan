@@ -55,7 +55,7 @@ use Illuminate\Support\Str;
  */
 class DentalAssistantJobsCanadaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ca.indeed.com/q-dental-assistant-jobs.html';
+    private const APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
     public function run(): void
     {
@@ -177,7 +177,7 @@ JOBHTML;
 <p>Dental assistants work beside dentists and hygienists in almost every Canadian town, from large Toronto and Vancouver group practices to single-dentist clinics. The training takes a year or less, and in most provinces the job is regulated. Before you enrol or apply, it helps to know what official data says about demand and pay, which provinces require registration, how the national exams changed in 2026, and what the job does and does not do for immigration.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ca.indeed.com/q-dental-assistant-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#129463; Browse Dental Assistant Jobs in Canada &rarr;
     </a>
 </div>

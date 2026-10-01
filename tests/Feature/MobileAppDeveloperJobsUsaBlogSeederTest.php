@@ -31,7 +31,7 @@ it('renders the post with its long-tail sections and sibling guides', function (
         ->assertSee('People Also Search For')
         ->assertSee('/blog/software-developer-jobs-in-usa', false)
         ->assertSee('/blog/web-developer-jobs-in-usa', false)
-        ->assertSee('https://www.indeed.com/q-mobile-app-developer-jobs.html', false);
+        ->assertSee('https://jobgader.com/categories/it-software?location=United%20States', false);
 });
 
 it('carries FAQ markup built from the post body', function () {
@@ -78,7 +78,7 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
     $job = Job::where('position', 'like', 'Mobile App Developer%')->first();
 
     expect($job)->not->toBeNull()
-        ->and($job->application_url)->toBe('https://www.indeed.com/q-mobile-app-developer-jobs.html')
+        ->and($job->application_url)->toBe('https://www.usa.gov/job-search')
         ->and($job->job_type)->toBe('Remote')
         // The occupation runs from under $82,460 to over $214,670, so any
         // single range on the listing would be an invention.

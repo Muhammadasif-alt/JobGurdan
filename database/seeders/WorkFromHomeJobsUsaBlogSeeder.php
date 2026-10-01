@@ -48,7 +48,7 @@ use Illuminate\Support\Str;
  */
 class WorkFromHomeJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-work-from-home-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -169,7 +169,7 @@ JOBHTML;
 <p>Work from home jobs exist in almost every American industry, from customer service and medical billing to software and accounting. The listing is the easy part. What decides whether a home-based job actually pays off is what the occupation earns, whether you are an employee or a contractor, who pays for your equipment and internet, whether your breaks are paid, and whether the "job" is a scam. This guide covers those questions. For how many Americans work remotely and who a US remote job is open to, see our <a href="/blog/remote-jobs-in-usa">Remote Jobs in USA guide</a>.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-work-from-home-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127968; Browse Work From Home Jobs in the USA &rarr;
     </a>
 </div>

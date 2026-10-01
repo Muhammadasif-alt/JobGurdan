@@ -59,7 +59,7 @@ use Illuminate\Support\Str;
  */
 class DatabaseAdministratorJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-database-administrator-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -185,7 +185,7 @@ JOBHTML;
 <p>Database administration is one of the better-paid ways into American IT, and one of the worst-described. The salary range in general circulation misses both ends of the real one, the growth figure is roughly double what the Bureau of Labor Statistics actually projects, and the certification most guides still tell you to take was withdrawn more than two years ago. This page fixes those three things first, because each of them costs a reader either money or time.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-database-administrator-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128190; Browse Database Administrator Jobs in the USA &rarr;
     </a>
 </div>

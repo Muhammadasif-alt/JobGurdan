@@ -47,7 +47,7 @@ use Illuminate\Support\Str;
  */
 class SchoolNurseJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-school-nurse-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -168,7 +168,7 @@ JOBHTML;
 <p>School nurses look after the health and safety of students through the school day, from first aid and daily medication to care plans for diabetes, asthma and severe allergies. The role appeals to registered nurses who want school-day hours and a school-year calendar instead of hospital shifts. Before you apply, it helps to know what schools really pay compared with hospitals, which states want more than an RN license, what national certification involves, and how many schools actually employ a nurse.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-school-nurse-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#129658; Browse School Nurse Jobs in the USA &rarr;
     </a>
 </div>

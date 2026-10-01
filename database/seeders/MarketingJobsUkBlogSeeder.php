@@ -54,7 +54,7 @@ use Illuminate\Support\Str;
  */
 class MarketingJobsUkBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/q-marketing-jobs.html';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -177,7 +177,7 @@ JOBHTML;
 <p>Marketing is one of the most accessible professional careers in the UK &mdash; you can enter from almost any degree, or none &mdash; and one of the most misunderstood when it comes to pay. "The average marketing salary" is a number that hides more than it tells, because a marketing assistant and a marketing director are both "in marketing" and earn three times apart. This guide sets out the real roles, what the official sources actually say the work pays, which qualifications are worth money and which are free, and how to break in.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-marketing-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#0b5cab;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/marketing?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#0b5cab;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128227; Browse Marketing Jobs in the UK &rarr;
     </a>
 </div>

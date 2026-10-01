@@ -52,7 +52,7 @@ use Illuminate\Support\Str;
  */
 class FindLeadGenerationJobsLinkedinBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.linkedin.com/jobs/';
+    private const APPLY_URL = 'https://jobgader.com/categories/sales';
 
     public function run(): void
     {
@@ -392,7 +392,7 @@ JOBHTML;
 
 <h2>A Search Routine That Works</h2>
 
-<p><strong>Start here:</strong> <a href="https://www.linkedin.com/jobs/" rel="nofollow noopener" target="_blank">https://www.linkedin.com/jobs/</a>, then work through this every few days rather than once a month.</p>
+<p><strong>Start here:</strong> <strong>LinkedIn Jobs</strong>, then work through this every few days rather than once a month.</p>
 
 <ol>
     <li><strong>Run five or six searches, not one.</strong> SDR, BDR, Appointment Setter, Lead Generation Specialist, Market Development Representative, and the local titles.</li>

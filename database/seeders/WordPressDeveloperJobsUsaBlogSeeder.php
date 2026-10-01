@@ -52,7 +52,7 @@ use Illuminate\Support\Str;
  */
 class WordPressDeveloperJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-wordpress-developer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -181,7 +181,7 @@ JOBHTML;
 <p>So this guide does two things. It gives you the pay honestly, including why the numbers are lower than for the other developer titles. Then it covers the part that actually pays in WordPress and that no other guide in this cluster touches &mdash; the maintenance retainer, and the security problem that makes clients willing to buy one.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-wordpress-developer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🧩 Browse WordPress Developer Jobs in the USA &rarr;
     </a>
 </div>
@@ -286,8 +286,8 @@ JOBHTML;
 <p>New listings appear daily. Set separate alerts for "WordPress developer", "WooCommerce developer" and "web developer WordPress" &mdash; the second surfaces the better-paid end, and the third catches in-house roles that do not put WordPress in the title.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-wordpress-developer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        👉 Apply for WordPress Developer Jobs on Indeed &rarr;
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+        👉 Browse WordPress Developer Jobs in the USA &rarr;
     </a>
 </div>
 

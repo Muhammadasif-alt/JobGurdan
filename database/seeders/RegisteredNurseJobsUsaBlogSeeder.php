@@ -47,7 +47,7 @@ use Illuminate\Support\Str;
  */
 class RegisteredNurseJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-registered-nurse-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -170,7 +170,7 @@ JOBHTML;
 <p>More than 3.3 million registered nurses work in the United States. The jobs are there, in hospitals, clinics and patients' homes. But the usual advice undersells the pay, gets the multistate license backwards and quotes travel nurse money no official source can confirm.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-registered-nurse-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#129658; Browse Registered Nurse Jobs in USA &rarr;
     </a>
 </div>

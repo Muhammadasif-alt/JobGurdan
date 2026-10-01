@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const VA_SLUG = 'virtual-assistant-jobs-in-pakistan';
 
-const VA_APPLY_URL = 'https://pk.indeed.com/q-virtual-assistant-jobs.html?vjk=005d7746a294c32e';
+const VA_APPLY_URL = 'https://njp.gov.pk/';
 
 beforeEach(function () {
     $this->seed(VirtualAssistantJobsPakistanBlogSeeder::class);

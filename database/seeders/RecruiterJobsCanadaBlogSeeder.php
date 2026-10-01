@@ -51,7 +51,7 @@ use Illuminate\Support\Str;
  */
 class RecruiterJobsCanadaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ca.indeed.com/q-recruiter-jobs.html';
+    private const APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
     public function run(): void
     {
@@ -172,7 +172,7 @@ JOBHTML;
 <p>Recruiters find, screen and hire people for employers, either inside one company's talent acquisition team or at an agency placing candidates with many clients. The job suits people from sales, customer service and HR backgrounds, and it has a clear path into talent acquisition and HR management. Before you apply, it helps to know what official data says about pay and the job market, the licences agency recruiters now need, the job posting rules that changed how recruiters write ads in 2026, and which HR designation counts in your province.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ca.indeed.com/q-recruiter-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128269; Browse Recruiter Jobs in Canada &rarr;
     </a>
 </div>

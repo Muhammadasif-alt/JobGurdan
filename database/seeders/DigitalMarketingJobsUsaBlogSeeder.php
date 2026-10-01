@@ -45,7 +45,7 @@ use Illuminate\Support\Str;
  */
 class DigitalMarketingJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-digital-marketing-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -170,7 +170,7 @@ JOBHTML;
 <p>Digital marketing is the widest door into digital work in the United States. You can enter it without a technical degree, the skills are learnable on free material, and unlike most of the fields covered on this site, the federal projection is genuinely positive. This guide gives you the real pay distribution, what the certifications cost, and two things a great many courses are still teaching incorrectly &mdash; which matters, because you may be about to pay one of them.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-digital-marketing-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/marketing?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         📈 Browse Digital Marketing Jobs in the USA &rarr;
     </a>
 </div>

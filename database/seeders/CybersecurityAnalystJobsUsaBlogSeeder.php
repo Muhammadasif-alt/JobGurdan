@@ -47,7 +47,7 @@ use Illuminate\Support\Str;
  */
 class CybersecurityAnalystJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-cybersecurity-analyst-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -172,7 +172,7 @@ JOBHTML;
 <p>Cybersecurity is genuinely one of the fastest-growing occupations in the United States, and it is also the one where the most confident careers advice is the most wrong. Two claims turn up in almost every guide on the subject: that certifications substitute for experience, and that this is an accessible field for career changers. The first is false in a way you can check in an afternoon, and the second is only half true. This guide gives the published numbers, then the three things that actually decide whether you get in.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-cybersecurity-analyst-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🛡️ Browse Cybersecurity Analyst Jobs in the USA &rarr;
     </a>
 </div>

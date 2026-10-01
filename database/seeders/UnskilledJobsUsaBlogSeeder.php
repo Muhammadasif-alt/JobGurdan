@@ -33,7 +33,7 @@ use Illuminate\Support\Str;
  */
 class UnskilledJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-unskilled-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -159,7 +159,7 @@ JOBHTML;
 <p>Thousands of people move to the United States every year for work that needs no degree and no certificate &mdash; picking fruit, cleaning rooms, stacking a warehouse, working a food processing line. The routes are real and the wages are set by law rather than by whoever is hiring. What ruins this search is everything built around it: agencies selling green cards on timelines that do not exist, and fees that nobody is permitted to charge. This guide separates the two.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-unskilled-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/general-labour?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🛠️ Browse General Labour Jobs in the USA &rarr;
     </a>
 </div>

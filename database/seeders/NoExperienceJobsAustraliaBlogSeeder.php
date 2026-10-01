@@ -42,7 +42,7 @@ use Illuminate\Support\Str;
  */
 class NoExperienceJobsAustraliaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://au.indeed.com/q-no-experience-jobs.html';
+    private const APPLY_URL = 'https://www.workforceaustralia.gov.au/individuals/jobs/search';
 
     public function run(): void
     {
@@ -163,7 +163,7 @@ JOBHTML;
 <p>Australian employers do hire people with no experience, and they train them. What most guides get wrong is the money. Entry-level pay here is set by law through modern awards, and those rates changed on 1 July 2026, so you can check any offer against a published number before you accept it.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://au.indeed.com/q-no-experience-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/general-labour?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127462;&#127482; Browse No Experience Jobs in Australia &rarr;
     </a>
 </div>

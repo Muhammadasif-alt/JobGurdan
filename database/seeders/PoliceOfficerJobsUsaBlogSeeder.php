@@ -47,7 +47,7 @@ use Illuminate\Support\Str;
  */
 class PoliceOfficerJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-police-officer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -172,7 +172,7 @@ JOBHTML;
 <p>Police departments across the United States are recruiting, from big-city forces and county sheriff's offices to state police and federal agencies. It is a career with a pension, a clear promotion ladder and real public service. It is also one the common advice gets wrong on three things that decide whether you should apply at all: what it pays, who is allowed to apply, and whether the badge travels.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-police-officer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/government-public-sector?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128110; Browse Police Officer Jobs in USA &rarr;
     </a>
 </div>

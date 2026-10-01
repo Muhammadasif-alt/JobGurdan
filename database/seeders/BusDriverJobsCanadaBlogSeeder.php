@@ -50,7 +50,7 @@ use Illuminate\Support\Str;
  */
 class BusDriverJobsCanadaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ca.indeed.com/q-bus-driver-jobs.html';
+    private const APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
     public function run(): void
     {
@@ -171,7 +171,7 @@ JOBHTML;
 <p>Transit agencies, school bus contractors and coach companies across Canada hire bus drivers every year, and many will train a new driver who holds only a regular licence. Before you apply, especially from abroad, it helps to know four things most guides get wrong: which licence class your province actually uses, what drivers earn in each province and city, how much of the work is part-time, and how hard it is to be hired from outside Canada.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ca.indeed.com/q-bus-driver-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128652; Browse Bus Driver Jobs in Canada &rarr;
     </a>
 </div>

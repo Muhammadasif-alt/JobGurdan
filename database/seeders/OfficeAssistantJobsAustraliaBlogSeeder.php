@@ -46,7 +46,7 @@ use Illuminate\Support\Str;
  */
 class OfficeAssistantJobsAustraliaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://au.indeed.com/q-office-assistant-jobs.html';
+    private const APPLY_URL = 'https://www.workforceaustralia.gov.au/individuals/jobs/search';
 
     public function run(): void
     {
@@ -172,7 +172,7 @@ JOBHTML;
 <p>Office assistant is one of the steadiest jobs in Australia to get hired into and one of the hardest to research honestly, because the published salary data for it contradicts itself in a way that is easy to miss. This page walks through what the numbers actually say, the deduction that changes all of them, and the one requirement that will stop you starting a job you have already accepted.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://au.indeed.com/q-office-assistant-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128188; Browse Office Assistant Jobs in Australia &rarr;
     </a>
 </div>

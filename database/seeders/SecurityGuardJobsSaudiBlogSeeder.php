@@ -27,7 +27,7 @@ use Illuminate\Support\Str;
  */
 class SecurityGuardJobsSaudiBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/jobs?q=security+guard&l=Saudi+Arabia';
+    private const APPLY_URL = 'https://www.hrsd.gov.sa/en';
 
     public function run(): void
     {
@@ -152,7 +152,7 @@ JOBHTML;
 <p>Malls, hotels, hospitals, compounds, warehouses and every active construction site in the Kingdom needs manned security, and Vision 2030 has added all of them at once. That makes <strong>security guard jobs in Saudi Arabia</strong> one of the few routes into the GCC that needs no degree and no trade certificate. It is also a role where the salary figures circulating online are wrong by roughly three times &mdash; not because anyone is lying, but because two different numbers get confused. This guide starts there, because it is the thing most likely to cost you money.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/jobs?q=security+guard&l=Saudi+Arabia" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/security?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🛡️ Search Security Guard Jobs in Saudi Arabia &rarr;
     </a>
 </div>
@@ -276,7 +276,7 @@ JOBHTML;
 <h2>How to Search and Apply on Indeed</h2>
 
 <ol>
-    <li><strong>Search &quot;Security Guard&quot; with &quot;Saudi Arabia&quot;</strong> as the location, or narrow to Riyadh, Jeddah or Dammam. From Pakistan, <code>pk.indeed.com</code> surfaces the same listings with local formatting.</li>
+    <li><strong>Search &quot;Security Guard&quot; with &quot;Saudi Arabia&quot;</strong> as the location, or narrow to Riyadh, Jeddah or Dammam. From Pakistan, the Ministry of Human Resources and Social Development's own portal lists the same licensed security employers.</li>
     <li><strong>Filter to full-time</strong> and, where the option appears, to listings mentioning visa sponsorship.</li>
     <li><strong>Open the company profile before applying.</strong> A legitimate employer is a licensed Saudi security company, not an individual agent posting from a personal account.</li>
     <li><strong>Apply and upload your CV.</strong> Lead with any security, military or police service, your Arabic and English level, your fitness, and your visa or Iqama status &mdash; those four decide the shortlist.</li>
@@ -287,7 +287,7 @@ JOBHTML;
 <p><strong>One rule above all:</strong> if a listing or an agent asks for an upfront payment for a visa or for processing, stop. Legitimate Saudi employers carry recruitment costs themselves. That single test filters out most of the fraud in this category.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/jobs?q=security+guard&l=Saudi+Arabia" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/security?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🔍 Browse Security Guard Listings in Saudi Arabia &rarr;
     </a>
 </div>

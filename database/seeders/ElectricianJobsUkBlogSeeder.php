@@ -48,7 +48,7 @@ use Illuminate\Support\Str;
  */
 class ElectricianJobsUkBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/q-electrician-jobs.html';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -174,7 +174,7 @@ JOBHTML;
 <p>Electrical work is one of the strongest trades in Britain right now, and this is the one guide on this site with an actual date in it. If you hold a wiring regulations qualification and have not looked at which amendment it covers, that is the most useful thing on this page and it is five weeks away.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-electrician-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/construction-trades?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#9889; Browse Electrician Jobs in the UK &rarr;
     </a>
 </div>

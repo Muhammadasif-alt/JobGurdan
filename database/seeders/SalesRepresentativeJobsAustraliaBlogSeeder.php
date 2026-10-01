@@ -63,7 +63,7 @@ use Illuminate\Support\Str;
  */
 class SalesRepresentativeJobsAustraliaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://au.indeed.com/q-sales-representative-jobs.html';
+    private const APPLY_URL = 'https://www.workforceaustralia.gov.au/individuals/jobs/search';
 
     public function run(): void
     {
@@ -185,7 +185,7 @@ JOBHTML;
 <p>This guide covers what employers actually ask for, the training that helps, what the pay data says, and how to read a commission or contractor offer before you sign. For retail sales, telesales and state-by-state real estate registration, see our <a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> guide.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://au.indeed.com/q-sales-representative-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/sales?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127462;&#127482; Browse Sales Representative Jobs in Australia &rarr;
     </a>
 </div>

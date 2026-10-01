@@ -47,7 +47,7 @@ use Illuminate\Support\Str;
  */
 class RetailJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-retail-jobs-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -173,7 +173,7 @@ JOBHTML;
 <p>Retail is the largest open door into paid work in the United States. It is also the job category where published salary data is least useful, and for a reason nobody states plainly: the United States does not have one wage floor for this work. It has dozens, and they differ by more than two and a half times.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-retail-jobs-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128717;&#65039; Browse Retail Jobs in the USA &rarr;
     </a>
 </div>

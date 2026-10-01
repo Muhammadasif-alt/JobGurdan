@@ -23,7 +23,7 @@ use Illuminate\Support\Str;
  */
 class CaregiverUkBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/jobs?q=care+assistant';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -143,7 +143,7 @@ JOBHTML;
 <p>Before anything else, here's the fact that changes everything about this search: as of <strong>22 July 2025</strong>, the UK government closed the Health and Care Worker visa route to <em>new</em> overseas applicants in care worker and senior care worker roles (occupation codes 6135 and 6136), and that closure remains in effect through 2026. If you're currently living outside the UK and hoping to be sponsored directly into a <strong>caregiver jobs in UK</strong> role from abroad, that specific route is not currently available &mdash; no matter what an agency or job ad might imply. This article explains exactly what changed, who is still protected, what alternatives exist, and how to avoid the recruitment scams that have sprung up around this exact search term.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/jobs?q=care+assistant" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🩺 Browse Care Assistant Jobs in the UK →
     </a>
 </div>
@@ -340,7 +340,7 @@ JOBHTML;
 </ul>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/jobs?q=care+assistant" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🔍 Search Care Assistant Jobs in the UK →
     </a>
 </div>

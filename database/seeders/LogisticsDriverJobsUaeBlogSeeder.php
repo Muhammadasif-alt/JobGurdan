@@ -56,7 +56,7 @@ use Illuminate\Support\Str;
  */
 class LogisticsDriverJobsUaeBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ae.indeed.com/q-logistics-driver-jobs.html';
+    private const APPLY_URL = 'https://u.ae/en/information-and-services/jobs';
 
     public function run(): void
     {
@@ -178,7 +178,7 @@ JOBHTML;
 <p>This guide covers the licence types and ages, the exchange list, what it costs, the visa steps, who pays for what, and the extra rules for truck drivers and delivery riders. The licensing rules below are Dubai's, set by the Roads and Transport Authority (RTA); Abu Dhabi and the other emirates run their own licensing, so check with the authority where you will be based.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ae.indeed.com/q-logistics-driver-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=United%20Arab%20Emirates" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127462;&#127466; Browse Logistics Driver Jobs in the UAE &rarr;
     </a>
 </div>

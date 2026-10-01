@@ -52,7 +52,7 @@ use Illuminate\Support\Str;
  */
 class JobsInUkForForeignersBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/q-visa-sponsorship-jobs.html';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -174,7 +174,7 @@ JOBHTML;
 <p>The UK still hires foreign workers in health care, technology, engineering and teaching, but the rules changed sharply in 2025 and 2026. Salary thresholds rose, the skill level for sponsored jobs went up, care worker sponsorship closed to overseas applicants, English requirements tightened and the Graduate visa is getting shorter. Many guides still quote the old figures. This one sets out the current visa routes, what they require, which jobs can still be sponsored, and how to check an employer before you apply.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-visa-sponsorship-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127468;&#127463; Browse UK Visa Sponsorship Jobs &rarr;
     </a>
 </div>

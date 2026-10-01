@@ -31,7 +31,7 @@ use Illuminate\Support\Str;
  */
 class VirtualAssistantJobsPakistanBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://pk.indeed.com/q-virtual-assistant-jobs.html?vjk=005d7746a294c32e';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -155,7 +155,7 @@ JOBHTML;
 <p>Virtual assistance is the most accessible remote work available to people in Pakistan that pays in dollars. A laptop, working English, and the discipline to be reachable at someone else's hours is genuinely the whole entry requirement. What the guides rarely explain is what you are actually signing up to &mdash; a contract rather than a job &mdash; what the different niches really pay, and why one of them, medical VA work, carries a legal dimension worth understanding before you take it.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/q-virtual-assistant-jobs.html?vjk=005d7746a294c32e" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/freelancing-online-work?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         💼 Browse Virtual Assistant Jobs in Pakistan &rarr;
     </a>
 </div>

@@ -54,7 +54,7 @@ use Illuminate\Support\Str;
  */
 class AccountManagerJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-account-manager-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -172,7 +172,7 @@ JOBHTML;
 <p>This guide prices the role from the occupations that actually contain it, shows the titles three big employers really advertise, and covers skills, remote work and how to apply.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-account-manager-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/sales?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128188; Browse Account Manager Jobs in USA &rarr;
     </a>
 </div>

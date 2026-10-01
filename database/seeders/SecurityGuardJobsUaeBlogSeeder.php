@@ -47,7 +47,7 @@ use Illuminate\Support\Str;
  */
 class SecurityGuardJobsUaeBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ae.indeed.com/q-security-guard-jobs.html';
+    private const APPLY_URL = 'https://u.ae/en/information-and-services/jobs';
 
     public function run(): void
     {
@@ -173,7 +173,7 @@ JOBHTML;
 <p>Security work is one of the most reliable routes into the Gulf for candidates from South Asia and Africa. The listings are real, the visa sponsorship is real, and the accommodation and transport are usually real. Two things about it are commonly reported wrongly, and both cost money: which licence you need, and how the package you sign decides what you take home when you leave.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ae.indeed.com/q-security-guard-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/security?location=United%20Arab%20Emirates" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128737;&#65039; Browse Security Guard Jobs in the UAE &rarr;
     </a>
 </div>

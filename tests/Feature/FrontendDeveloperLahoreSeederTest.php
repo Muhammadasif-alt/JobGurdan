@@ -5,7 +5,7 @@ use App\Models\Job;
 use Database\Seeders\CleanerLondonBlogSeeder;
 use Database\Seeders\FrontendDeveloperLahoreSeeder;
 
-const ERS_APPLY_URL = 'https://pk.indeed.com/viewjob?jk=6775ed0027cf10b0';
+const ERS_APPLY_URL = 'https://njp.gov.pk/';
 const ERS_BLOG_SLUG = 'senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern';
 const ERS_JOB_SLUG = 'senior-frontend-developer-react-nextjs-mern-lahore';
 

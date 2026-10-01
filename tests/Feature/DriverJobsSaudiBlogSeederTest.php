@@ -4,7 +4,7 @@ use App\Models\Blog;
 use App\Models\Job;
 use Database\Seeders\DriverJobsSaudiBlogSeeder;
 
-const SAUDI_APPLY_URL = 'https://www.indeed.com/q-driving-jobs-in-saudi-jobs.html?vjk=4413726e409c44ba';
+const SAUDI_APPLY_URL = 'https://www.hrsd.gov.sa/en';
 const SAUDI_BLOG_SLUG = 'driver-jobs-in-saudi-arabia-for-foreigners';
 const SAUDI_JOB_SLUG = 'driver-private-delivery-heavy-truck-saudi-arabia';
 

@@ -50,7 +50,7 @@ use Illuminate\Support\Str;
  */
 class PlumberJobsAustraliaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://au.indeed.com/q-plumber-jobs.html';
+    private const APPLY_URL = 'https://www.workforceaustralia.gov.au/individuals/jobs/search';
 
     public function run(): void
     {
@@ -176,7 +176,7 @@ JOBHTML;
 <p>Plumbing is one of the best-paid trades in Australia and one of the few where the shortage story is genuinely true rather than marketing. It also has the most misread number of any trade guide on this site, and a licensing rule with two holes in it that decide where you can actually work.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://au.indeed.com/q-plumber-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/construction-trades?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128295; Browse Plumber Jobs in Australia &rarr;
     </a>
 </div>

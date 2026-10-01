@@ -59,7 +59,7 @@ use Illuminate\Support\Str;
  */
 class OnlineResearchAssistantJobsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.mustakbil.com/';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -344,7 +344,7 @@ JOBHTML;
 
 <h2>How to Apply</h2>
 
-<p>Search the boards directly rather than following shared links. On <strong>Mustakbil</strong>, <a href="https://www.mustakbil.com/">https://www.mustakbil.com/</a> is server-rendered and shows a salary band on most listings, which makes it the better place to calibrate what the work pays here. Search by the words that appear in real listings &mdash; "research assistant", "clinical research", "research writer", "lead generation" &mdash; rather than by "online research assistant", which the board has retired as a category.</p>
+<p>Search the boards directly rather than following shared links. On <strong>Mustakbil</strong>, <strong>Mustakbil</strong> is server-rendered and shows a salary band on most listings, which makes it the better place to calibrate what the work pays here. Search by the words that appear in real listings &mdash; "research assistant", "clinical research", "research writer", "lead generation" &mdash; rather than by "online research assistant", which the board has retired as a category.</p>
 
 <p>On Rozee, open each listing and read its own posting date and closing date. A closed job there does not always redirect you away; it will also load the full page normally and put a line inside it saying the employer is no longer accepting CVs. A page that opens is not a page that is hiring.</p>
 

@@ -57,7 +57,7 @@ use Illuminate\Support\Str;
  */
 class CopywriterJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-copywriter-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -182,7 +182,7 @@ JOBHTML;
 <p>Copywriting is one of the few careers where nobody can stop you from starting: no licence, no gatekeeper, and a portfolio you can build this week. That accessibility is real, and it is also why the field is full of guides telling you demand has never been higher. The federal numbers say something more complicated and more useful than that, and knowing the difference is what lets you pick the part of this field that is actually holding up. This guide covers what the work pays, what the outlook really is, what separates copywriting from content writing, and the two legal rules that catch freelance copywriters out.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-copywriter-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/writing-content?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         ✍️ Browse Copywriter Jobs in the USA &rarr;
     </a>
 </div>

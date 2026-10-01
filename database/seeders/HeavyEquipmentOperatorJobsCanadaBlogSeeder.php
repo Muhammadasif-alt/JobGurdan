@@ -52,7 +52,7 @@ use Illuminate\Support\Str;
  */
 class HeavyEquipmentOperatorJobsCanadaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ca.indeed.com/q-heavy-equipment-operator-jobs.html';
+    private const APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
     public function run(): void
     {
@@ -174,7 +174,7 @@ JOBHTML;
 <p>Heavy equipment operators run the excavators, dozers, loaders, backhoes and graders that build Canada's roads, subdivisions, pipelines and mines. It is hands-on, well-paid work that can be learned through a short course and on-site experience, with apprenticeships for those who want a certificate. Before you train or apply, it helps to know what operators really earn in each province, where the outlook is weakest, which tickets are compulsory, and what the job does for immigration.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ca.indeed.com/q-heavy-equipment-operator-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/construction-trades?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128679; Browse Heavy Equipment Operator Jobs in Canada &rarr;
     </a>
 </div>

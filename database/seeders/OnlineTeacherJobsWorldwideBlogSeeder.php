@@ -52,7 +52,7 @@ use Illuminate\Support\Str;
  */
 class OnlineTeacherJobsWorldwideBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-online-teacher-jobs.html';
+    private const APPLY_URL = 'https://jobgader.com/categories/freelancing-online-work';
 
     public function run(): void
     {
@@ -174,7 +174,7 @@ JOBHTML;
 <p>Online teaching is a genuine global career: from a laptop you can teach English to a student in another country, tutor maths, or build a course that sells while you sleep. But the market has changed a lot since the boom years, and the pay is usually lower than the adverts suggest. Before you pay for a certificate or record a demo lesson, it helps to know what each type of platform really pays, which market disappeared, and &mdash; if you are not from the US or UK &mdash; who will actually hire you.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-online-teacher-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/freelancing-online-work" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128218; Browse Online Teacher Jobs &rarr;
     </a>
 </div>

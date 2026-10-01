@@ -50,7 +50,7 @@ use Illuminate\Support\Str;
  */
 class ForkliftOperatorJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-forklift-operator-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -171,7 +171,7 @@ JOBHTML;
 <p>Forklift operators keep warehouses, distribution centers and factories moving, loading trucks, putting away pallets and picking orders. Training is short, the work is everywhere, and it is a common step into warehouse leadership. Before you apply, it helps to know what forklift operators really earn, what OSHA actually requires (it is not a license), who is legally allowed to operate a forklift, and what the outlook and visa picture look like.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-forklift-operator-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128667; Browse Forklift Operator Jobs in the USA &rarr;
     </a>
 </div>

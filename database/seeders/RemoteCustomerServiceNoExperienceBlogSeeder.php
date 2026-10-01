@@ -52,7 +52,7 @@ use Illuminate\Support\Str;
  */
 class RemoteCustomerServiceNoExperienceBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-remote-customer-service-no-experience-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -174,7 +174,7 @@ JOBHTML;
 <p>This guide covers what employers actually ask for, what the pay data says, the equipment and state rules that trip beginners up, and how to spot the scams aimed at people searching for exactly this job. It is written for the US market; for remote support work from Pakistan, see our <a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> guide.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-remote-customer-service-no-experience-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127482;&#127480; Browse Remote Customer Service Jobs &rarr;
     </a>
 </div>

@@ -27,7 +27,7 @@ use Illuminate\Support\Str;
  */
 class DriverJobsSaudiBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-driving-jobs-in-saudi-jobs.html?vjk=4413726e409c44ba';
+    private const APPLY_URL = 'https://www.hrsd.gov.sa/en';
 
     public function run(): void
     {
@@ -154,7 +154,7 @@ JOBHTML;
 <p>Saudi Arabia hires more foreign drivers than almost anywhere else on earth, and the demand is real &mdash; Vision 2030 construction, a fast-growing delivery economy, and hundreds of thousands of households that employ a private driver. But <strong>driver jobs in Saudi Arabia for foreigners</strong> is also one of the most scam-heavy search terms in the Gulf recruitment market. This guide covers what the roles actually pay in SAR, how sponsorship is really processed, and the one contract distinction that decides what rights you have once you land.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-driving-jobs-in-saudi-jobs.html?vjk=4413726e409c44ba" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🚗 Browse Driver Jobs in Saudi Arabia →
     </a>
 </div>
@@ -315,7 +315,7 @@ JOBHTML;
 </ol>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-driving-jobs-in-saudi-jobs.html?vjk=4413726e409c44ba" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🔍 Search Driver Job Listings in Saudi Arabia →
     </a>
 </div>

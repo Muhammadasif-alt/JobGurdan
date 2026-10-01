@@ -54,7 +54,7 @@ use Illuminate\Support\Str;
  */
 class EntryLevelItJobsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-entry-level-it-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -175,7 +175,7 @@ JOBHTML;
 <p>IT is still one of the few well-paid fields you can enter with certifications and projects rather than a four-year degree. But "entry level IT" covers very different jobs, and the market for first jobs has changed. Before you pick a certification or send applications, it helps to know what each first job really pays, which roles are genuinely open to beginners, where the number of jobs is growing or shrinking, and which exam versions are current.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-entry-level-it-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128187; Browse Entry Level IT Jobs &rarr;
     </a>
 </div>

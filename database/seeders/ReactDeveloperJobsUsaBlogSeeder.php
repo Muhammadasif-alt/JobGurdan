@@ -52,7 +52,7 @@ use Illuminate\Support\Str;
  */
 class ReactDeveloperJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-react-developer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -180,7 +180,7 @@ JOBHTML;
 <p>The first is whether your work looks current, which in 2026 is measurable in about thirty seconds by opening your portfolio. The second is which kind of React work you do, because one kind is commodity-priced and the other is not. This guide covers the pay, then both of those.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-react-developer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         ⚛️ Browse React Developer Jobs in the USA &rarr;
     </a>
 </div>
@@ -354,8 +354,8 @@ JOBHTML;
 <p>Postings appear daily. Set separate alerts for "React developer", "frontend engineer" and "Next.js" &mdash; the second surfaces the higher-band product roles that do not put React in the title, and the third surfaces the framework work specifically.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-react-developer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        👉 Apply for React Developer Jobs on Indeed &rarr;
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+        👉 Browse React Developer Jobs in the USA &rarr;
     </a>
 </div>
 

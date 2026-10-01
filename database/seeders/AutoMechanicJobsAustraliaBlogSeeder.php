@@ -55,7 +55,7 @@ use Illuminate\Support\Str;
  */
 class AutoMechanicJobsAustraliaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://au.indeed.com/q-motor-mechanic-jobs.html';
+    private const APPLY_URL = 'https://www.workforceaustralia.gov.au/individuals/jobs/search';
 
     public function run(): void
     {
@@ -177,7 +177,7 @@ JOBHTML;
 <p>This guide covers the qualification, how the apprenticeship works, what apprentices and qualified mechanics are paid under the award, the state licences you need, and the routes for experienced and overseas-trained mechanics.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://au.indeed.com/q-motor-mechanic-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/construction-trades?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127462;&#127482; Browse Motor Mechanic Jobs in Australia &rarr;
     </a>
 </div>

@@ -52,7 +52,7 @@ use Illuminate\Support\Str;
  */
 class OfficeAssistantJobsUkBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/Office-Assistant-jobs';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -173,7 +173,7 @@ JOBHTML;
 <p>Office assistant roles are one of the most consistently available ways into UK administrative work, from law firms and hospitals to construction companies and government departments. They are also one of the most misreported jobs online, especially on pay and on whether an employer can sponsor a visa. Before you apply, it helps to know what the role really pays against the minimum wage, why the visa route is effectively closed for it, and which right-to-work routes open it.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/Office-Assistant-jobs" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127468;&#127463; Browse Office Assistant Jobs in the UK &rarr;
     </a>
 </div>

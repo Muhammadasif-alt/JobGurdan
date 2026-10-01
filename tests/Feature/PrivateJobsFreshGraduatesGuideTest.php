@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const GRAD_SLUG = 'private-jobs-in-pakistan-for-fresh-graduates';
 
-const GRAD_APPLY_URL = 'https://pk.indeed.com/q-fresh-graduate-jobs.html?vjk=db9720f421e1821c';
+const GRAD_APPLY_URL = 'https://njp.gov.pk/';
 
 beforeEach(function () {
     $this->seed(PrivateJobsFreshGraduatesBlogSeeder::class);

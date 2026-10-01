@@ -48,7 +48,7 @@ use Illuminate\Support\Str;
  */
 class FrontEndDeveloperJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-front-end-developer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -173,7 +173,7 @@ JOBHTML;
 <p>Front end is the most common way into US software work, and the easiest place to get stuck. The entry bar is low, so the bottom of this market is crowded with people who can style a page, and the pay reflects it. What separates the developers earning at the top of the band from the ones stuck at the bottom is not another framework &mdash; it is being able to point at a number. This guide covers what the work pays, and then the two things in front end engineering that are actually measured, one of which now has federal law behind it and almost no careers guide mentions.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-front-end-developer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🖥️ Browse Front End Developer Jobs in the USA &rarr;
     </a>
 </div>

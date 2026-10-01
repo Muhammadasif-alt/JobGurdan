@@ -65,7 +65,7 @@ use Illuminate\Support\Str;
  */
 class HeavyTruckDriverJobsSaudiBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://sa.indeed.com/q-heavy-truck-driver-jobs.html';
+    private const APPLY_URL = 'https://www.hrsd.gov.sa/en';
 
     public function run(): void
     {
@@ -188,7 +188,7 @@ JOBHTML;
 <p>Saudi Arabia's construction, logistics and oil-and-gas sectors keep demand for heavy truck drivers steady, and for experienced drivers willing to relocate the contracts can be worth it once accommodation and flights are counted. But two things in the usual version of this advice are wrong in ways that cost drivers money and time: the idea that you can just swap your home licence when you land, and the idea that a quoted salary is a legal floor. This guide fixes both and sets out how the job really works.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://sa.indeed.com/q-heavy-truck-driver-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#0b6b3a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#0b6b3a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128667; Browse Heavy Truck Driver Jobs &rarr;
     </a>
 </div>

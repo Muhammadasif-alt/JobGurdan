@@ -65,7 +65,7 @@ use Illuminate\Support\Str;
  */
 class WorkFromHomeJobsUkBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/q-work-from-home-jobs.html';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -183,7 +183,7 @@ JOBHTML;
 <p>Almost every guide to working from home in the UK quotes the same entry-level salary band. That band describes pay an employer could not lawfully offer for full-time work. This page gives the figures the law actually sets, the rights you have when you ask to work from home, what your employer must and must not pay for, and the one piece of tax advice that has quietly stopped being true.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-work-from-home-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127968; Browse Work From Home Jobs in the UK &rarr;
     </a>
 </div>
@@ -341,7 +341,7 @@ JOBHTML;
 </ul>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-work-from-home-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128188; See Current UK Work From Home Listings &rarr;
     </a>
 </div>

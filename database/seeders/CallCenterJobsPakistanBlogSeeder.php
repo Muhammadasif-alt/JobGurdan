@@ -52,7 +52,7 @@ use Illuminate\Support\Str;
  */
 class CallCenterJobsPakistanBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://pk.indeed.com/q-pakistan-call-center-jobs.html';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -173,7 +173,7 @@ JOBHTML;
 <p>Call centre work is still one of the fastest ways into Pakistan's formal job market, and 2026 has been a strong year for it: the sector earned record export revenue and keeps hiring English-speaking agents for international campaigns. But the pay, the equipment rules and the scam risks are all widely misreported. Before you apply, it helps to know what the work really pays against the minimum wage, which cities hire most, what a genuine remote role needs, and how to spot a fake offer.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/q-pakistan-call-center-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127477;&#127472; Browse Call Center Jobs in Pakistan &rarr;
     </a>
 </div>

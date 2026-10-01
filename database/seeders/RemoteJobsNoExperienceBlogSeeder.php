@@ -30,7 +30,7 @@ use Illuminate\Support\Str;
  */
 class RemoteJobsNoExperienceBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://pk.indeed.com/q-no-experience-remote-jobs-jobs.html?vjk=2525854d424e204e';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -150,7 +150,7 @@ JOBHTML;
 <p>Remote work is the one route into employment that does not ask what you did before. A laptop, a connection you can rely on, and enough written English to answer a customer are the real requirements, and companies in Pakistan and abroad hire on exactly that basis every week. The problem is that the same search brings up the densest concentration of fake postings on the internet, so this guide covers both halves: which roles genuinely hire freshers, and how to tell a real one from the rest before you hand over your CNIC.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/q-no-experience-remote-jobs-jobs.html?vjk=2525854d424e204e" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         💻 Browse Remote Jobs with No Experience &rarr;
     </a>
 </div>

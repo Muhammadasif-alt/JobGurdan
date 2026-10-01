@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const DESIGN_SLUG = 'graphic-designer-jobs-in-usa';
 
-const DESIGN_APPLY_URL = 'https://www.indeed.com/q-graphic-designer-jobs.html';
+const DESIGN_APPLY_URL = 'https://www.usa.gov/job-search';
 
 beforeEach(function () {
     $this->seed(GraphicDesignerJobsUsaBlogSeeder::class);

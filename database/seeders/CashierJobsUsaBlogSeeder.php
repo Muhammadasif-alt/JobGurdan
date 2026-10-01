@@ -43,7 +43,7 @@ use Illuminate\Support\Str;
  */
 class CashierJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-cashier-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -167,7 +167,7 @@ JOBHTML;
 <p>Cashier is one of the most common first jobs in the United States. Grocery stores, pharmacies, fuel stations, big-box stores and fast food restaurants all need people on the register, and most hire with no experience at all. It is also a job where the pay ranges most guides publish are below the legal minimum in several of the states they recommend, and where the rules that protect a new cashier's paycheck go unmentioned.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-cashier-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128722; Browse Cashier Jobs in USA &rarr;
     </a>
 </div>

@@ -61,7 +61,7 @@ use Illuminate\Support\Str;
  */
 class ContentWriterJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-content-writer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -187,7 +187,7 @@ JOBHTML;
 <p>Content writing is the most accessible professional writing work in the United States, and that is the single most important fact about it &mdash; not because it is good news, but because accessibility and demand are different things, and almost every guide on this subject conflates them. This one covers what the work pays, why one job title describes two quite different working lives, which niches actually move the rate, and a contractual detail that quietly costs writers years of career progress while everyone tells them to build a portfolio.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-content-writer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/writing-content?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         ✍️ Browse Content Writer Jobs in the USA &rarr;
     </a>
 </div>

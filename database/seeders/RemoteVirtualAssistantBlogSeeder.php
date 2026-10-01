@@ -53,7 +53,7 @@ use Illuminate\Support\Str;
  */
 class RemoteVirtualAssistantBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-virtual-assistant-remote-jobs.html';
+    private const APPLY_URL = 'https://jobgader.com/categories/customer-support-admin?location=Remote';
 
     public function run(): void
     {
@@ -172,7 +172,7 @@ JOBHTML;
 <p>What almost every guide gets wrong is the pay data. There is <strong>no official occupation called "virtual assistant"</strong> anywhere in government statistics, so this guide prices the work from the occupations that do exist, then shows what platform fees and tax take out of the headline rate.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-virtual-assistant-remote-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=Remote" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128187; Browse Remote Virtual Assistant Jobs &rarr;
     </a>
 </div>

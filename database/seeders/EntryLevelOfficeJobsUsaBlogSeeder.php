@@ -63,7 +63,7 @@ use Illuminate\Support\Str;
  */
 class EntryLevelOfficeJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-entry-level-office-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -180,7 +180,7 @@ JOBHTML;
 <p>Two things the job boards will not tell you, though. The pay is lower than their averages suggest, and the Bureau of Labor Statistics expects this whole group of occupations to <strong>shrink</strong> over the next decade. Neither is a reason to avoid the work. Both are reasons to go in with the right plan.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-entry-level-office-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128188; Browse Entry-Level Office Jobs &rarr;
     </a>
 </div>

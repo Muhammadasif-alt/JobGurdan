@@ -60,7 +60,7 @@ use Illuminate\Support\Str;
  */
 class LongHaulTruckDriverUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-otr-truck-driver-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -178,7 +178,7 @@ JOBHTML;
 <p>This guide walks the route from no licence to a first over-the-road job: the permit, the training, the tests, the medical, and what the first year actually looks like. Our <a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> guide covers pay, hours of service and owner-operator economics in detail.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-otr-truck-driver-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128667; Browse Long-Haul Truck Driver Jobs &rarr;
     </a>
 </div>

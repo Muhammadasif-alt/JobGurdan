@@ -57,7 +57,7 @@ use Illuminate\Support\Str;
  */
 class EntryLevelHealthcareJobsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-entry-level-healthcare-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -177,7 +177,7 @@ JOBHTML;
 <p>This guide compares the main no-degree roles on entry education, pay and growth, explains the training rules that apply, and shows where to apply.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-entry-level-healthcare-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127973; Browse Entry Level Healthcare Jobs &rarr;
     </a>
 </div>

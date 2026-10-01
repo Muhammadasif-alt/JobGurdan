@@ -29,7 +29,7 @@ use Illuminate\Support\Str;
  */
 class PrivateJobsFreshGraduatesBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://pk.indeed.com/q-fresh-graduate-jobs.html?vjk=db9720f421e1821c';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -155,7 +155,7 @@ JOBHTML;
 <p>The first job after university is the hardest one to get and the easiest one to get wrong. Private-sector employers across Pakistan hire graduates in batches all year, and the process is fast &mdash; weeks, not the months a commission examination takes. But the offers that arrive fastest are also the ones most likely to be under-priced, and a surprising number of advertised graduate salaries are below what the law in your province actually allows. This guide covers where the openings are, what they pay, and how to read an offer before you sign it.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/q-fresh-graduate-jobs.html?vjk=db9720f421e1821c" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/graduate-entry-level?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🎓 Browse Fresh Graduate Jobs in Pakistan &rarr;
     </a>
 </div>

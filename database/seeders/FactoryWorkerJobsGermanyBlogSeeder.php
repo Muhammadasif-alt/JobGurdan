@@ -46,7 +46,7 @@ use Illuminate\Support\Str;
  */
 class FactoryWorkerJobsGermanyBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://de.indeed.com/q-fabrikarbeiter,-verpackung,-bandarbeit,-fabrikhilfer-jobs.html';
+    private const APPLY_URL = 'https://www.arbeitsagentur.de/jobsuche/';
 
     public function run(): void
     {
@@ -172,7 +172,7 @@ JOBHTML;
 <p>Germany has a genuine shortage of production workers, a genuine set of immigration routes built to address it, and a job market that publishes salary data almost everyone reads wrongly. This page fixes three things: what the numbers actually mean, which visa route applies to <em>you</em> rather than to a hypothetical engineer, and what to check before you accept anything.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://de.indeed.com/q-fabrikarbeiter,-verpackung,-bandarbeit,-fabrikhilfer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/general-labour?location=Germany" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127981; Browse Factory Worker Jobs in Germany &rarr;
     </a>
 </div>

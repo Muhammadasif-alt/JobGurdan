@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const NURSE_SLUG = 'nurse-jobs-in-the-us';
 
-const NURSE_APPLY_URL = 'https://www.indeed.com/q-registered-nurse-jobs.html';
+const NURSE_APPLY_URL = 'https://www.usa.gov/job-search';
 
 beforeEach(function () {
     $this->seed(NurseJobsUsBlogSeeder::class);

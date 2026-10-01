@@ -44,7 +44,7 @@ use Illuminate\Support\Str;
  */
 class WelderJobsCanadaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ca.indeed.com/q-welder-jobs.html';
+    private const APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
     public function run(): void
     {
@@ -165,7 +165,7 @@ JOBHTML;
 <p>Welders build Canada's bridges, pipelines, ships and factory equipment, and it is a trade with a clear path from apprentice to journeyperson. Before you apply, especially from abroad, it helps to know four things most guides get wrong: where Red Seal is actually required, what welders earn in each province, where the jobs really are, and how narrow the LMIA and Express Entry routes have become.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ca.indeed.com/q-welder-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/construction-trades?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128293; Browse Welder Jobs in Canada &rarr;
     </a>
 </div>

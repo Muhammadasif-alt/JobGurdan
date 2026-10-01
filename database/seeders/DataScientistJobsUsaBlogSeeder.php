@@ -46,7 +46,7 @@ use Illuminate\Support\Str;
  */
 class DataScientistJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-data-scientist-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -172,7 +172,7 @@ JOBHTML;
 <p>Data science is one of the few fields where the optimistic headline is actually true, and the salary reporting around it is still a mess. This page separates the two: the growth figure is better than the guides say, and the pay figures are less comparable than they look.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-data-scientist-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128202; Browse Data Scientist Jobs in the USA &rarr;
     </a>
 </div>

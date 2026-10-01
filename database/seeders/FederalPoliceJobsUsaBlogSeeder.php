@@ -45,7 +45,7 @@ use Illuminate\Support\Str;
  */
 class FederalPoliceJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-federal-police-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -166,7 +166,7 @@ JOBHTML;
 <p>Federal law enforcement covers very different jobs &mdash; officers at ports of entry, deputy marshals, air marshals and FBI special agents &mdash; but they share one pay system, one retirement system and one hard rule: you must be a US citizen. Before you apply, it helps to know four things most guides get wrong: what the 2026 pay tables really say, how much availability pay adds for special agents, which age limit applies to which agency, and where the hiring is right now.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-federal-police-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/government-public-sector?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128110; Browse Federal Police Jobs in USA &rarr;
     </a>
 </div>

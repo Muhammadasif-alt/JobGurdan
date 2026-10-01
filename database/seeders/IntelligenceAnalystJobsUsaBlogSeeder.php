@@ -48,7 +48,7 @@ use Illuminate\Support\Str;
  */
 class IntelligenceAnalystJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-intelligence-analyst-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -170,7 +170,7 @@ JOBHTML;
 <p>Intelligence analysts turn scattered information into judgements that leaders act on, across national security, law enforcement and private-sector risk. It is demanding, well-paid work with real impact. It is also one of the hardest US careers to enter, for one reason most guides mention only in passing: almost every role needs a security clearance, and a clearance needs US citizenship. Before you plan around this career, it helps to know what it really pays, what the clearance involves, and whether you are eligible at all.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-intelligence-analyst-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/government-public-sector?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128269; Browse Intelligence Analyst Jobs &rarr;
     </a>
 </div>

@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const COPY_SLUG = 'copywriter-jobs-in-usa';
 
-const COPY_APPLY_URL = 'https://www.indeed.com/q-copywriter-jobs.html';
+const COPY_APPLY_URL = 'https://www.usa.gov/job-search';
 
 beforeEach(function () {
     $this->seed(CopywriterJobsUsaBlogSeeder::class);

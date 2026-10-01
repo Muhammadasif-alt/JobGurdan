@@ -44,7 +44,7 @@ use Illuminate\Support\Str;
  */
 class HelpDeskTechnicianJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-help-desk-technician-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -168,7 +168,7 @@ JOBHTML;
 <p>Help desk jobs are still one of the most common ways into IT in the United States. You can start without a degree, learn on real systems and move on to networking, cloud or security. But the usual advice lowballs the pay, misses the change in the A+ exams and describes a job market the government's own projections do not support.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-help-desk-technician-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128187; Browse Help Desk Technician Jobs in USA &rarr;
     </a>
 </div>

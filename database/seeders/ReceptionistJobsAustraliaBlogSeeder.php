@@ -51,7 +51,7 @@ use Illuminate\Support\Str;
  */
 class ReceptionistJobsAustraliaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://au.indeed.com/q-receptionist-jobs.html';
+    private const APPLY_URL = 'https://www.workforceaustralia.gov.au/individuals/jobs/search';
 
     public function run(): void
     {
@@ -173,7 +173,7 @@ JOBHTML;
 <p>Receptionists are the first person a visitor meets in a law firm, an accounting practice, a hotel lobby or a real estate agency, and the voice on the phone before anyone else. The job needs no licence, it exists in every Australian city and regional town, and it is a common first step into office work. Before you apply, it helps to know what the official data says, which award sets your pay, what the figures in most salary guides leave out, and which qualification is actually current.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://au.indeed.com/q-receptionist-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128222; Browse Receptionist Jobs in Australia &rarr;
     </a>
 </div>

@@ -55,7 +55,7 @@ use Illuminate\Support\Str;
  */
 class SoftwareDeveloperJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-software-developer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -180,7 +180,7 @@ JOBHTML;
 <p>Software development pays better than almost any other field covered on this site, and its official projection is one of the strongest in the American economy. Both of those things are true and neither is the reason most guides on this subject are unhelpful. They are unhelpful because they quote salary bands that are consistently below what the occupation actually pays, and because they list visa routes without any of the detail that decides whether you get one. This guide fixes both.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-software-developer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         ⚙️ Browse Software Developer Jobs in the USA &rarr;
     </a>
 </div>

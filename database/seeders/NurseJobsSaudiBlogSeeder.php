@@ -43,7 +43,7 @@ use Illuminate\Support\Str;
  */
 class NurseJobsSaudiBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://sa.indeed.com/q-nurse-jobs.html';
+    private const APPLY_URL = 'https://www.hrsd.gov.sa/en';
 
     public function run(): void
     {
@@ -168,7 +168,7 @@ JOBHTML;
 <p>Saudi Arabia is one of the largest employers of foreign-trained nurses in the world. New hospitals, specialist centres and the healthcare targets of Vision 2030 keep demand high for ward, intensive care, emergency and theatre nurses. It is also a market where the most repeated advice gets three things wrong: what the licence is, what the lowest salary means, and which recruitment routes are legal.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://sa.indeed.com/q-nurse-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#129658; Browse Nurse Jobs in Saudi Arabia &rarr;
     </a>
 </div>

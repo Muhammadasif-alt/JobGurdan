@@ -73,7 +73,7 @@ use Illuminate\Support\Str;
  */
 class MechanicJobsSaudiBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://sa.indeed.com/q-mechanic-jobs.html';
+    private const APPLY_URL = 'https://www.hrsd.gov.sa/en';
 
     public function run(): void
     {
@@ -198,7 +198,7 @@ JOBHTML;
 <p>Saudi Arabia runs on vehicles. Private cars, delivery fleets, trucks, buses and the plant on construction and industrial sites all need servicing, which keeps <strong>mechanic jobs in Saudi Arabia</strong> open to skilled foreign workers. But a mechanic's route into the Kingdom has one step most job adverts never mention: for several trades the ministry now tests your skills before you are recruited. This guide covers that test, the costs the Labour Law puts on your employer, which benefits are guaranteed and which are only promises, and how to check an agent before you hand over your passport.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://sa.indeed.com/q-mechanic-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/construction-trades?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🔧 Browse Mechanic Jobs in Saudi Arabia &rarr;
     </a>
 </div>
@@ -332,7 +332,7 @@ JOBHTML;
 <p>The usual ladder is mechanic, then senior or lead mechanic, then workshop supervisor or service advisor, and on to workshop or fleet maintenance manager. Specialising pays off: auto electrics and diagnostics, heavy equipment hydraulics, and brand-certified dealership training all make you harder to replace. Keep copies of every training certificate you earn, because they strengthen your next contract, in Saudi Arabia or elsewhere in the Gulf.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://sa.indeed.com/q-mechanic-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/construction-trades?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🔍 Search Mechanic Job Listings in Saudi Arabia &rarr;
     </a>
 </div>

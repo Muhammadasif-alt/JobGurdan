@@ -52,7 +52,7 @@ use Illuminate\Support\Str;
  */
 class PhysicalTherapistJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-physical-therapist-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -173,7 +173,7 @@ JOBHTML;
 <p>Physical therapy is one of the few US healthcare professions where demand has outrun supply for over a decade and shows no sign of easing. An ageing population, more post-surgical rehab referrals and a push to treat pain without opioids all pull the same way, and it shows in the offers. But pay varies by tens of thousands of dollars by setting and state, licensing is state by state rather than national, and foreign-trained therapists face a credentialing process that has a strict order. This guide covers all three, with pay pinned to the BLS.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-physical-therapist-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#0a3161;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#0a3161;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127482;&#127480; Browse Physical Therapist Jobs in the USA &rarr;
     </a>
 </div>

@@ -11,7 +11,7 @@ use function Pest\Laravel\get;
 
 const PYTHON_SLUG = 'python-developer-jobs-in-usa';
 
-const PYTHON_APPLY_URL = 'https://www.indeed.com/q-python-developer-jobs.html';
+const PYTHON_APPLY_URL = 'https://www.usa.gov/job-search';
 
 beforeEach(function () {
     $this->seed(PythonDeveloperJobsUsaBlogSeeder::class);

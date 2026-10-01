@@ -49,7 +49,7 @@ use Illuminate\Support\Str;
  */
 class CybersecurityEngineerJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-cybersecurity-engineer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -176,7 +176,7 @@ JOBHTML;
 <p>Security engineering pays better than security analysis, is harder to enter, and is described almost identically to it in most careers content. That last part is the problem. The two jobs are screened differently, reached differently, and a CV written for one gets filed under the other. This guide starts with the distinction that decides which pile you land in, then covers what the work pays, why it is realistically a third job rather than a first, and a certification detail that most guides &mdash; including the draft this page was built from &mdash; get straightforwardly wrong.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-cybersecurity-engineer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🛠️ Browse Cybersecurity Engineer Jobs in the USA &rarr;
     </a>
 </div>

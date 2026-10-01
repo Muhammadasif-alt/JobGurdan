@@ -4,7 +4,7 @@ use App\Models\Blog;
 use App\Models\Job;
 use Database\Seeders\HotelJobsBlogSeeder;
 
-const HOTEL_APPLY_URL = 'https://www.indeed.com/q-usa-hotel-jobs-with-visa-sponsorship-jobs.html?vjk=211f8bcb51a8380f';
+const HOTEL_APPLY_URL = 'https://www.usa.gov/job-search';
 
 beforeEach(function () {
     $this->seed(HotelJobsBlogSeeder::class);

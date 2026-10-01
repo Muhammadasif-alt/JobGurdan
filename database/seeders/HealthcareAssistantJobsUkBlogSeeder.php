@@ -50,7 +50,7 @@ use Illuminate\Support\Str;
  */
 class HealthcareAssistantJobsUkBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/q-healthcare-assistant-jobs.html';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -173,7 +173,7 @@ JOBHTML;
 <p>Healthcare assistants keep NHS wards, care homes and home care running. It is one of the few healthcare jobs you can start without a qualification, and it can lead on to nursing. Before you apply, it helps to know the three things most guides get wrong: what the NHS pays in 2026, what a care salary legally has to be, and who can actually be sponsored from overseas.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-healthcare-assistant-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#129658; Browse Healthcare Assistant Jobs in UK &rarr;
     </a>
 </div>

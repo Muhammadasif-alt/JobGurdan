@@ -63,7 +63,7 @@ use Illuminate\Support\Str;
  */
 class EmergencyDispatcherJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-911-dispatcher-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -178,7 +178,7 @@ JOBHTML;
 <p>This guide covers what the job involves, pay, entry rules, tests and training, and where major US cities are hiring in 2026.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-911-dispatcher-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/government-public-sector?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128222; Browse 911 Dispatcher Jobs &rarr;
     </a>
 </div>

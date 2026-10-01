@@ -46,7 +46,7 @@ use Illuminate\Support\Str;
  */
 class ReceptionistJobsUaeBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ae.indeed.com/q-receptionist-jobs.html';
+    private const APPLY_URL = 'https://u.ae/en/information-and-services/jobs';
 
     public function run(): void
     {
@@ -172,7 +172,7 @@ JOBHTML;
 <p>Front-desk work is one of the steadiest ways into the UAE for someone with good English and a professional manner. The vacancies are real, the sectors are broad, and many packages include housing and transport. The problem is that most guides describe those packages as though the total were the thing that mattered. In the UAE, it is the split.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ae.indeed.com/q-receptionist-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=United%20Arab%20Emirates" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128100; Browse Receptionist Jobs in the UAE &rarr;
     </a>
 </div>

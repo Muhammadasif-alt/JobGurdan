@@ -53,7 +53,7 @@ use Illuminate\Support\Str;
  */
 class PreschoolTeacherJobsCanadaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ca.indeed.com/q-early-childhood-educator-jobs.html';
+    private const APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
     public function run(): void
     {
@@ -169,7 +169,7 @@ JOBHTML;
 <p>This guide explains the qualifications, the rules in each province, what ECEs earn, which employers hire and what internationally trained educators need to do.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ca.indeed.com/q-early-childhood-educator-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/graduate-entry-level?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127464;&#127462; Browse Early Childhood Educator Jobs in Canada &rarr;
     </a>
 </div>

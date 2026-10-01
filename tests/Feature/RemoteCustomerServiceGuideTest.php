@@ -11,7 +11,7 @@ use function Pest\Laravel\get;
 
 const SUPPORT_SLUG = 'remote-customer-service-jobs';
 
-const SUPPORT_APPLY_URL = 'https://pk.indeed.com/q-customer-service-remote-jobs.html';
+const SUPPORT_APPLY_URL = 'https://njp.gov.pk/';
 
 beforeEach(function () {
     $this->seed(RemoteCustomerServiceJobsBlogSeeder::class);

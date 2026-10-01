@@ -51,7 +51,7 @@ use Illuminate\Support\Str;
  */
 class JavaDeveloperJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-java-developer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -179,7 +179,7 @@ JOBHTML;
 <p>That is what this guide is really about. The pay numbers take one section. The part that costs Java developers money &mdash; and the part almost no careers guide explains &mdash; is what W-2, 1099 and corp-to-corp actually commit you to, and who is taking a cut between the client and your bank account.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-java-developer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         ☕ Browse Java Developer Jobs in the USA &rarr;
     </a>
 </div>
@@ -289,8 +289,8 @@ JOBHTML;
 <p>Java postings turn over quickly, particularly contract requirements, which can close within days. Set separate alerts for "Java developer", "Spring Boot developer" and "Java C2C" &mdash; the last surfaces a different market from the first two.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-java-developer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        👉 Apply for Java Developer Jobs on Indeed &rarr;
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+        👉 Browse Java Developer Jobs in the USA &rarr;
     </a>
 </div>
 

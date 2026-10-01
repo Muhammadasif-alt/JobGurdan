@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const DATA_ENTRY_SLUG = 'remote-data-entry-jobs';
 
-const DATA_ENTRY_APPLY_URL = 'https://pk.indeed.com/q-remote-data-entry-jobs.html?vjk=1a56e64e4eb83374';
+const DATA_ENTRY_APPLY_URL = 'https://njp.gov.pk/';
 
 beforeEach(function () {
     $this->seed(RemoteDataEntryJobsBlogSeeder::class);

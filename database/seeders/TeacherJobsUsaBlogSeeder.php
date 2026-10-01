@@ -47,7 +47,7 @@ use Illuminate\Support\Str;
  */
 class TeacherJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-teacher-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -170,7 +170,7 @@ JOBHTML;
 <p>American schools employ millions of teachers and hire every year, and the job comes with a pension, a salary schedule and summers structured around the school calendar. Before you apply, it helps to know four things most guides get wrong: what teachers really earn, which states hire the most, why demand is not growing, and how narrow the visa routes are for teachers trained abroad.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-teacher-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/graduate-entry-level?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127822; Browse Teacher Jobs in USA &rarr;
     </a>
 </div>

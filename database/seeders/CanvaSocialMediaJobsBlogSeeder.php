@@ -40,7 +40,7 @@ use Illuminate\Support\Str;
  */
 class CanvaSocialMediaJobsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.mustakbil.com/';
+    private const APPLY_URL = 'https://jobgader.com/categories/marketing';
 
     public function run(): void
     {
@@ -374,7 +374,7 @@ JOBHTML;
 
 <h2>How to Apply</h2>
 
-<p><strong>Start here:</strong> Pakistani social media listings that publish a salary band are concentrated on <a href="https://www.mustakbil.com/" rel="nofollow noopener" target="_blank">https://www.mustakbil.com/</a>. Search it alongside the freelance platforms, and use it to calibrate what to ask for before you negotiate anywhere that hides pay.</p>
+<p><strong>Start here:</strong> Pakistani social media listings that publish a salary band are concentrated on <strong>Mustakbil</strong>. Search it alongside the freelance platforms, and use it to calibrate what to ask for before you negotiate anywhere that hides pay.</p>
 
 <ol>
     <li><strong>Search several titles:</strong> Canva Assistant, Social Media Assistant, Social Media Designer, Content Creator, Social Media Coordinator.</li>

@@ -53,7 +53,7 @@ use Illuminate\Support\Str;
  */
 class FinanceAnalystJobsCanadaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ca.indeed.com/q-financial-analyst-jobs.html';
+    private const APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
     public function run(): void
     {
@@ -170,7 +170,7 @@ JOBHTML;
 <p>This guide covers the work, pay by province, what Job Bank actually requires, the outlook, and where Canada's big banks hire analysts.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ca.indeed.com/q-financial-analyst-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/finance-accounting?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128202; Browse Finance Analyst Jobs in Canada &rarr;
     </a>
 </div>

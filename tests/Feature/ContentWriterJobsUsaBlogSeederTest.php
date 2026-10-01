@@ -28,7 +28,7 @@ it('renders with its long-tail sections and the search link', function () {
         ->assertOk()
         ->assertSee('Content Writer Jobs in USA')
         ->assertSee('People Also Search For')
-        ->assertSee('https://www.indeed.com/q-content-writer-jobs.html', false);
+        ->assertSee('https://jobgader.com/categories/writing-content?location=United%20States', false);
 });
 
 it('carries FAQ markup built from the post body', function () {
@@ -102,7 +102,7 @@ it('creates an aggregated listing that quotes no salary it cannot support', func
     $job = Job::where('position', 'like', 'Content Writer%')->first();
 
     expect($job)->not->toBeNull()
-        ->and($job->application_url)->toBe('https://www.indeed.com/q-content-writer-jobs.html')
+        ->and($job->application_url)->toBe('https://www.usa.gov/job-search')
         // 65% of the occupation is self-employed and the range runs from
         // under $44,310, so a single salary band would be an invention.
         ->and($job->salary_minimum)->toBeNull()

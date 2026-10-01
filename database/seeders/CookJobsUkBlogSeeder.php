@@ -45,7 +45,7 @@ use Illuminate\Support\Str;
  */
 class CookJobsUkBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/q-cook-jobs.html';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -169,7 +169,7 @@ JOBHTML;
 <p>UK kitchens hire all year. Restaurants, pubs, hotels, care homes, schools, hospitals and contract caterers all need cooks, and many of those jobs start with no formal qualification. It is also a trade where the salaries guides publish fall below the legal minimum, where a certificate most readers believe is compulsory is not, and where the visa sponsorship promised on so many posters does not exist for cooks at all.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-cook-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/hospitality-tourism?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127859; Browse Cook Jobs in UK &rarr;
     </a>
 </div>

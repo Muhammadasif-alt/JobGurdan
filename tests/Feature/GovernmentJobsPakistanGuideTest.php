@@ -11,7 +11,7 @@ use function Pest\Laravel\get;
 
 const GOV_SLUG = 'government-jobs-in-pakistan';
 
-const GOV_APPLY_URL = 'https://pk.indeed.com/q-government-l-lahore-jobs.html?vjk=f3eb3a2cbd99869c';
+const GOV_APPLY_URL = 'https://njp.gov.pk/';
 
 beforeEach(function () {
     $this->seed(GovernmentJobsPakistanBlogSeeder::class);

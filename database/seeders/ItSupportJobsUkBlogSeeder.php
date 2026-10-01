@@ -45,7 +45,7 @@ use Illuminate\Support\Str;
  */
 class ItSupportJobsUkBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/q-it-support-jobs.html';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -169,7 +169,7 @@ JOBHTML;
 <p>IT support is one of the most common first jobs in UK technology. Every business that runs laptops, email and a network needs someone to keep them working, and the job rarely asks for a degree. It is also a job where the salary ranges most guides publish start below the legal minimum, where the certificate they name is two exams rather than one, and where the question most readers outside the UK are asking &mdash; can I get a visa for it? &mdash; has a clear answer the guides leave out.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-it-support-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128187; Browse IT Support Jobs in UK &rarr;
     </a>
 </div>

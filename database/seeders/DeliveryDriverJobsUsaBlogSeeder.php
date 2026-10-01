@@ -48,7 +48,7 @@ use Illuminate\Support\Str;
  */
 class DeliveryDriverJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-delivery-driver-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -174,7 +174,7 @@ JOBHTML;
 <p>Delivery driving is one of the quickest ways to start earning in the United States. You can often be approved by an app within days, and package contractors hire constantly. The catch is that every published pay figure for this work describes a different hour, a different employer or a different car, and the guides that compare them rarely say which.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-delivery-driver-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128666; Browse Delivery Driver Jobs in the USA &rarr;
     </a>
 </div>

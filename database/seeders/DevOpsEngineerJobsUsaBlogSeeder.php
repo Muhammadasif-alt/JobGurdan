@@ -46,7 +46,7 @@ use Illuminate\Support\Str;
  */
 class DevOpsEngineerJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-devops-engineer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -171,7 +171,7 @@ JOBHTML;
 <p>DevOps engineering is among the best-paid technical work in the United States and one of the most consistently misdescribed, because the job is easy to summarise as a list of tools and almost impossible to do well by knowing them. This guide covers what the work actually pays &mdash; against federal data rather than a job-board average &mdash; why the impressive outlier figures you have read are not salary bands, the four measures a senior interview will expect you to speak in, and the question about on-call that decides how much you enjoy the job.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-devops-engineer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🚀 Browse DevOps Engineer Jobs in the USA &rarr;
     </a>
 </div>

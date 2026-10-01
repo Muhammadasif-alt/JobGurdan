@@ -64,7 +64,7 @@ use Illuminate\Support\Str;
  */
 class VisaSponsorshipJobsAustraliaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://au.indeed.com/q-visa-sponsorship-jobs.html';
+    private const APPLY_URL = 'https://www.workforceaustralia.gov.au/individuals/jobs/search';
 
     public function run(): void
     {
@@ -274,7 +274,7 @@ JOBHTML;
 </ul>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://au.indeed.com/q-visa-sponsorship-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/general-labour?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128188; See Current Australian Sponsorship Listings &rarr;
     </a>
 </div>

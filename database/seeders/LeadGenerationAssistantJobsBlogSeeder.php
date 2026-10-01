@@ -47,7 +47,7 @@ use Illuminate\Support\Str;
  */
 class LeadGenerationAssistantJobsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.mustakbil.com/';
+    private const APPLY_URL = 'https://jobgader.com/categories/sales';
 
     public function run(): void
     {
@@ -504,7 +504,7 @@ JOBHTML;
 
 <h2>How to Apply</h2>
 
-<p><strong>Where these are advertised:</strong> most of the live Pakistani listings above came from <a href="https://www.mustakbil.com/" rel="nofollow noopener" target="_blank">https://www.mustakbil.com/</a> and rozee.pk. Check the posting date on anything you find, because these adverts expire within weeks and stale listings are exactly how wrong salary figures spread.</p>
+<p><strong>Where these are advertised:</strong> most of the live Pakistani listings above came from <strong>Mustakbil</strong> and <strong>Rozee</strong>. Check the posting date on anything you find, because these adverts expire within weeks and stale listings are exactly how wrong salary figures spread.</p>
 
 <ol>
     <li><strong>Build the portfolio first</strong>, using only public company information.</li>

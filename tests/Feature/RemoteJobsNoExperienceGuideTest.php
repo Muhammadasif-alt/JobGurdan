@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const REMOTE_SLUG = 'remote-jobs-in-pakistan-with-no-experience';
 
-const REMOTE_APPLY_URL = 'https://pk.indeed.com/q-no-experience-remote-jobs-jobs.html?vjk=2525854d424e204e';
+const REMOTE_APPLY_URL = 'https://njp.gov.pk/';
 
 beforeEach(function () {
     $this->seed(RemoteJobsNoExperienceBlogSeeder::class);

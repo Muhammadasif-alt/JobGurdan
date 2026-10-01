@@ -62,7 +62,7 @@ use Illuminate\Support\Str;
  */
 class TeachingJobsUkBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/q-teacher-jobs.html';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -188,7 +188,7 @@ JOBHTML;
 <p>There is no such thing as a UK teaching qualification. There are four school systems, four regulators and four pay scales, and the differences between them are larger than most guides admit &mdash; large enough that a teacher fully qualified in England can be refused registration in Scotland. This page gives the current figures for each, corrects a starting salary that has been quoted below the legal minimum for years, and explains the routes that actually lead to the classroom.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-teacher-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/graduate-entry-level?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128218; Browse Teaching Jobs in the UK &rarr;
     </a>
 </div>

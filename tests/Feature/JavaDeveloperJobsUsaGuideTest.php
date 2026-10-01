@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const JAVA_SLUG = 'java-developer-jobs-in-usa';
 
-const JAVA_APPLY_URL = 'https://www.indeed.com/q-java-developer-jobs.html';
+const JAVA_APPLY_URL = 'https://www.usa.gov/job-search';
 
 beforeEach(function () {
     $this->seed(JavaDeveloperJobsUsaBlogSeeder::class);

@@ -63,7 +63,7 @@ use Illuminate\Support\Str;
  */
 class CarpenterJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-carpenter-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -182,7 +182,7 @@ JOBHTML;
 <p>Carpentry is the largest of the American building trades and the one most often described wrongly. Two pieces of advice appear in nearly every carpenter careers guide, and both send readers looking for something that does not exist: an OSHA certification, and a licensed journeyman carpenter to work under. This page corrects both, sets out what the trade actually asks for, and gives the honest answer on the visa route that the recruitment posters keep advertising.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-carpenter-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/construction-trades?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128296; Browse Carpenter Jobs in the USA &rarr;
     </a>
 </div>

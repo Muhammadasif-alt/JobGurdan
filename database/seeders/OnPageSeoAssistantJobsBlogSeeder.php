@@ -48,7 +48,7 @@ use Illuminate\Support\Str;
  */
 class OnPageSeoAssistantJobsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.mustakbil.com/';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -407,7 +407,7 @@ JOBHTML;
 
 <h2>How to Apply</h2>
 
-<p><strong>Start here:</strong> Pakistani SEO listings with published salary bands are concentrated on <a href="https://www.mustakbil.com/" rel="nofollow noopener" target="_blank">https://www.mustakbil.com/</a>. Search Rozee alongside it, and treat LinkedIn as a source of employers to approach rather than of comparable pay.</p>
+<p><strong>Start here:</strong> Pakistani SEO listings with published salary bands are concentrated on <strong>Mustakbil</strong>. Search Rozee alongside it, and treat LinkedIn as a source of employers to approach rather than of comparable pay.</p>
 
 <ol>
     <li><strong>Search several titles.</strong> On-Page SEO Assistant, SEO Executive, Junior SEO Executive, SEO Intern and Digital Marketing Executive all cover this work.</li>

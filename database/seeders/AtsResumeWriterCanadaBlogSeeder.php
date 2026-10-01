@@ -53,7 +53,7 @@ use Illuminate\Support\Str;
  */
 class AtsResumeWriterCanadaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ca.indeed.com/q-resume-writer-jobs.html';
+    private const APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
     public function run(): void
     {
@@ -178,7 +178,7 @@ JOBHTML;
 <p>Resume writing is one of the few writing niches with steady, year-round demand in Canada, and almost all of it is remote &mdash; the job is a document, a posting and a conversation. It is also a field where the published advice is unusually unreliable: the rates quoted online are roughly double what the work actually earns, the statistic the whole industry sells on is false, and most guides never mention that being paid per resume in Canada makes you self-employed, with everything that follows from that. This guide covers what the job is, what it genuinely pays here, which credential is the Canadian one, and the tax and human-rights rules you need before you take your first client.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ca.indeed.com/q-resume-writer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/writing-content?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         📝 Browse Resume Writer Jobs in Canada &rarr;
     </a>
 </div>

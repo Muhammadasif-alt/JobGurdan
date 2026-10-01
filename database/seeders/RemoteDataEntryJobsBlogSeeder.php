@@ -35,7 +35,7 @@ use Illuminate\Support\Str;
  */
 class RemoteDataEntryJobsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://pk.indeed.com/q-remote-data-entry-jobs.html?vjk=1a56e64e4eb83374';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -158,7 +158,7 @@ JOBHTML;
 <p>Data entry is the easiest remote job to start: no coding, no sales calls, no portfolio &mdash; accuracy and a reasonable typing speed are the whole requirement. It is also, for exactly that reason, the job title fraudsters impersonate more than any other. Both of those things are true at once, and a guide that covers only the first one is not much use. This one covers what the work pays, where it is genuinely advertised, and how the fake version of it is built.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/q-remote-data-entry-jobs.html?vjk=1a56e64e4eb83374" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         ⌨️ Browse Remote Data Entry Jobs &rarr;
     </a>
 </div>

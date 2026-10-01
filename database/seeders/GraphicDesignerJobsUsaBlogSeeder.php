@@ -44,7 +44,7 @@ use Illuminate\Support\Str;
  */
 class GraphicDesignerJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-graphic-designer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -169,7 +169,7 @@ JOBHTML;
 <p>Graphic design is one of the most accessible creative careers in the United States: the barrier is a portfolio rather than a licence, much of the work is remote, and roles exist at agencies, in-house teams, e-commerce brands and as independent practice. It is also a field where the honest numbers and the marketing copy point in different directions, and you should see both before you commit years to it. This guide covers what the work actually pays, what the official outlook says, where the growth has moved, and what a freelance rate has to cover before it becomes income.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-graphic-designer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/design-creative?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🎨 Browse Graphic Designer Jobs in the USA &rarr;
     </a>
 </div>

@@ -4,7 +4,7 @@ use App\Models\Blog;
 use App\Models\Job;
 use Database\Seeders\DigitalMarketingSeoSeeder;
 
-const SEO_APPLY_URL = 'https://pk.indeed.com/viewjob?jk=4670dbdb8daeb9c1';
+const SEO_APPLY_URL = 'https://njp.gov.pk/';
 const SEO_BLOG_SLUG = 'digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan';
 const SEO_JOB_SLUG = 'digital-marketing-expert-seo-pakistan';
 

@@ -43,7 +43,7 @@ use Illuminate\Support\Str;
  */
 class AdministrativeAssistantJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-administrative-assistant-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -167,7 +167,7 @@ JOBHTML;
 <p>Administrative assistants work in almost every American workplace, from medical practices and law firms to schools and head offices, and most jobs start with a high school diploma. Before you apply, it helps to know three things most guides get wrong: how much the senior roles really pay, which part of the field is shrinking, and where the pay is highest.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-administrative-assistant-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128188; Browse Administrative Assistant Jobs in USA &rarr;
     </a>
 </div>

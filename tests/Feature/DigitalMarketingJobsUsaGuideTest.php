@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const DIGIMKT_SLUG = 'digital-marketing-jobs-in-usa';
 
-const DIGIMKT_APPLY_URL = 'https://www.indeed.com/q-digital-marketing-jobs.html';
+const DIGIMKT_APPLY_URL = 'https://www.usa.gov/job-search';
 
 beforeEach(function () {
     $this->seed(DigitalMarketingJobsUsaBlogSeeder::class);

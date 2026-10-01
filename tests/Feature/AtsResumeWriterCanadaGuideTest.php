@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const ATS_CA_SLUG = 'ats-resume-writer-jobs-in-canada';
 
-const ATS_CA_APPLY_URL = 'https://ca.indeed.com/q-resume-writer-jobs.html';
+const ATS_CA_APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
 beforeEach(function () {
     $this->seed(AtsResumeWriterCanadaBlogSeeder::class);

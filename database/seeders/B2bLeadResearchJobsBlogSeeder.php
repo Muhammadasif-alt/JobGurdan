@@ -48,7 +48,7 @@ use Illuminate\Support\Str;
  */
 class B2bLeadResearchJobsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.rozee.pk/';
+    private const APPLY_URL = 'https://jobgader.com/categories/sales';
 
     public function run(): void
     {
@@ -562,7 +562,7 @@ JOBHTML;
 
 <h2>How to Apply</h2>
 
-<p><strong>Start here:</strong> Pakistani listings for these roles are concentrated on Rozee at <a href="https://www.rozee.pk/" rel="nofollow noopener" target="_blank">https://www.rozee.pk/</a>, usually under Business Development Executive or Lead Generation Executive rather than the research titles. International remote work is contracted through the freelance platforms and through employers' own sites.</p>
+<p><strong>Start here:</strong> Pakistani listings for these roles are concentrated on Rozee at <strong>Rozee</strong>, usually under Business Development Executive or Lead Generation Executive rather than the research titles. International remote work is contracted through the freelance platforms and through employers' own sites.</p>
 
 <p>Then, in order:</p>
 

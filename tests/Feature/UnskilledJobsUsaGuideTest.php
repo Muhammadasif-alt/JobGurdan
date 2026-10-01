@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const UNSKILLED_SLUG = 'unskilled-jobs-in-usa-for-foreigners';
 
-const UNSKILLED_APPLY_URL = 'https://www.indeed.com/q-unskilled-jobs.html';
+const UNSKILLED_APPLY_URL = 'https://www.usa.gov/job-search';
 
 beforeEach(function () {
     $this->seed(UnskilledJobsUsaBlogSeeder::class);

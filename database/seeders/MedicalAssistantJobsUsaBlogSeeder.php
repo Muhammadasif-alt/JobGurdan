@@ -47,7 +47,7 @@ use Illuminate\Support\Str;
  */
 class MedicalAssistantJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-medical-assistant-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -172,7 +172,7 @@ JOBHTML;
 <p>Medical assistant is the quickest legitimate way into clinical healthcare work in the United States: no degree, no prior experience, and a certificate that takes months rather than years. It is also an occupation whose published salary range has drifted so far out of date that the top of it now sits below the middle of the profession. This page uses the measured figures and spends its length on the three things that actually change your pay: the setting you work in, the state you work in, and the step you take next.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-medical-assistant-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#129658; Browse Medical Assistant Jobs in the USA &rarr;
     </a>
 </div>

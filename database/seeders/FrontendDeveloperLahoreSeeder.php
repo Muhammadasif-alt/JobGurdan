@@ -25,7 +25,7 @@ use Illuminate\Support\Str;
  */
 class FrontendDeveloperLahoreSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://pk.indeed.com/viewjob?jk=6775ed0027cf10b0';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -155,8 +155,8 @@ JOBHTML;
 <p>If you're a frontend engineer in Pakistan with real React and Next.js chops, this is one worth a close look: <strong>ERS Tech</strong>, a Lahore-based development company rated <strong>4.7 out of 5</strong> on Indeed, is hiring a <strong>Senior Frontend Developer</strong> for a full-time, in-person role in Lahore. Here's a full breakdown of what the role actually involves, what they're asking for, and who this is a strong fit for.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/viewjob?jk=6775ed0027cf10b0" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        💻 View &amp; Apply on Indeed →
+    <a href="https://jobgader.com/categories/it-software?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+        💻 See Frontend Developer Jobs in Pakistan →
     </a>
 </div>
 
@@ -289,8 +289,8 @@ JOBHTML;
 </ul>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/viewjob?jk=6775ed0027cf10b0" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        🔍 View and Apply to the Role on Indeed →
+    <a href="https://jobgader.com/categories/it-software?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+        🔍 Browse Frontend Developer Jobs in Pakistan →
     </a>
 </div>
 

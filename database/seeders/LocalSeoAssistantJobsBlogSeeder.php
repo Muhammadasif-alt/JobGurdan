@@ -51,7 +51,7 @@ use Illuminate\Support\Str;
  */
 class LocalSeoAssistantJobsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.mustakbil.com/';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -411,7 +411,7 @@ JOBHTML;
 
 <h2>How to Apply</h2>
 
-<p><strong>Start here:</strong> of the Pakistani boards, <a href="https://www.mustakbil.com/" rel="nofollow noopener" target="_blank">https://www.mustakbil.com/</a> is the one to search first, for a practical reason &mdash; it publishes a salary band on effectively every listing. Of 46 SEO job cards we pulled across six cities, every one carried a salary. Rozee shows a figure on roughly half, and LinkedIn Pakistan almost never does, so use Mustakbil to learn what the market pays before you negotiate anywhere else.</p>
+<p><strong>Start here:</strong> of the Pakistani boards, <strong>Mustakbil</strong> is the one to search first, for a practical reason &mdash; it publishes a salary band on effectively every listing. Of 46 SEO job cards we pulled across six cities, every one carried a salary. Rozee shows a figure on roughly half, and LinkedIn Pakistan almost never does, so use Mustakbil to learn what the market pays before you negotiate anywhere else.</p>
 
 <ol>
     <li><strong>Search titles, not the phrase.</strong> Very few listings say "local SEO assistant". Search SEO Executive, SEO Specialist, Digital Marketing Executive and GMB, then read the descriptions for Business Profile work.</li>

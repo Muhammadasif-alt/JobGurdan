@@ -46,7 +46,7 @@ use Illuminate\Support\Str;
  */
 class TeacherJobsPakistanBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://pk.indeed.com/q-teacher-jobs.html';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -172,7 +172,7 @@ JOBHTML;
 <p>Teaching is one of the biggest graduate employers in Pakistan and one of the most respected jobs a young graduate can take. It is also a job where the qualification advice most guides give is out of date, the lowest salaries they quote are below the legal floor, and the word "government" in a school's name no longer tells you who pays you.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/q-teacher-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/graduate-entry-level?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128218; Browse Teacher Jobs in Pakistan &rarr;
     </a>
 </div>

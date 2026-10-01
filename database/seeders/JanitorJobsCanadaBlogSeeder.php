@@ -43,7 +43,7 @@ use Illuminate\Support\Str;
  */
 class JanitorJobsCanadaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ca.indeed.com/Janitor-jobs';
+    private const APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
     public function run(): void
     {
@@ -164,7 +164,7 @@ JOBHTML;
 <p>Janitors and custodians keep Canada's offices, schools, hospitals, malls and apartment buildings running, and it is one of the few jobs you can start without a licence or a diploma. Before you apply, especially from abroad, it helps to know four things most guides skip: what janitors really earn in each province, which minimum wage sets the floor, where the jobs are actually easier to find, and why the visa route is so narrow.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ca.indeed.com/Janitor-jobs" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/cleaning-facilities?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#129529; Browse Janitor Jobs in Canada &rarr;
     </a>
 </div>

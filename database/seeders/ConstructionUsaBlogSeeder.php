@@ -21,7 +21,7 @@ use Illuminate\Support\Str;
  */
 class ConstructionUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/jobs?q=construction+visa+sponsorship';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -146,7 +146,7 @@ JOBHTML;
 <p>America's construction industry has one of the most persistent labor shortages of any sector, with the Associated General Contractors regularly reporting that a large majority of firms struggle to fill open positions &mdash; everything from general laborers to superintendents. That shortage is exactly why <strong>construction jobs in USA</strong> rank among the more realistic visa-sponsored opportunities for foreign workers, spanning entry-level labor roles all the way up to project management. Here's how the visa pathways work, what the roles actually pay, and how to position yourself as a real candidate rather than a target for recruitment scams.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/jobs?q=construction+visa+sponsorship" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/construction-trades?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🏗️ Browse Construction Jobs in USA with Visa Sponsorship →
     </a>
 </div>
@@ -291,7 +291,7 @@ JOBHTML;
 </ul>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/jobs?q=construction+visa+sponsorship" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/construction-trades?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🔍 Search Construction Jobs with Visa Sponsorship →
     </a>
 </div>

@@ -4,7 +4,7 @@ use App\Models\Blog;
 use App\Models\Job;
 use Database\Seeders\CaregiverUkBlogSeeder;
 
-const CARE_APPLY_URL = 'https://uk.indeed.com/jobs?q=care+assistant';
+const CARE_APPLY_URL = 'https://www.gov.uk/find-a-job';
 
 beforeEach(function () {
     $this->seed(CaregiverUkBlogSeeder::class);

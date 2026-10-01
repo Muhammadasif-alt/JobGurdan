@@ -47,7 +47,7 @@ use Illuminate\Support\Str;
  */
 class AzureCloudEngineerJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-azure-cloud-engineer-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -174,7 +174,7 @@ JOBHTML;
 <p>If you are still choosing a platform, our <a href="/blog/cloud-engineer-jobs-in-usa">cloud engineer jobs in USA guide</a> covers the occupation as a whole and our <a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS cloud engineer guide</a> covers the other side. This page assumes you have picked Azure.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-azure-cloud-engineer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#9729;&#65039; Browse Azure Cloud Engineer Jobs in the USA &rarr;
     </a>
 </div>

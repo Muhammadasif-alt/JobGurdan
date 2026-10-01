@@ -29,7 +29,7 @@ use Illuminate\Support\Str;
  */
 class GovernmentJobsPakistanBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://pk.indeed.com/q-government-l-lahore-jobs.html?vjk=f3eb3a2cbd99869c';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -154,7 +154,7 @@ JOBHTML;
 <p>Government jobs remain the most searched career path in Pakistan, and the reasons people give are always the same three: security, a defined pay scale, and a pension. What almost nobody explains is that the vacancies you actually find under this search &mdash; the project officer, the research officer, the finance manager on a board &mdash; usually offer none of those three. They sit on a different scale entirely. This guide starts there, because getting it wrong is what makes people take a job they thought was permanent and find out otherwise.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/q-government-l-lahore-jobs.html?vjk=f3eb3a2cbd99869c" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/government-public-sector?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🏛️ Browse Government Jobs in Pakistan &rarr;
     </a>
 </div>
@@ -257,7 +257,7 @@ JOBHTML;
 </ol>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/q-government-l-lahore-jobs.html?vjk=f3eb3a2cbd99869c" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/government-public-sector?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🔍 See Government Job Listings in Pakistan &rarr;
     </a>
 </div>

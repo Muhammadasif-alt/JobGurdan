@@ -50,7 +50,7 @@ use Illuminate\Support\Str;
  */
 class HousekeeperJobsUkBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/q-housekeeper-jobs.html';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -174,7 +174,7 @@ JOBHTML;
 <p>Housekeepers keep UK hotels, hospitals, care homes and private homes running, and it is one of the few jobs you can start with no qualifications. Before you apply, it helps to know the four things most guides get wrong: what a housekeeper must legally be paid, what a live-in job can take off your pay, which background check you really need, and whether anyone can sponsor you from overseas.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-housekeeper-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/cleaning-facilities?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#129529; Browse Housekeeper Jobs in UK &rarr;
     </a>
 </div>

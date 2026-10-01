@@ -28,7 +28,7 @@ it('renders with its long-tail sections and the search link', function () {
         ->assertOk()
         ->assertSee('Web Developer Jobs in USA: 2026 Market Overview')
         ->assertSee('People Also Search For')
-        ->assertSee('https://www.indeed.com/q-web-developer-jobs.html', false);
+        ->assertSee('https://jobgader.com/categories/it-software?location=United%20States', false);
 });
 
 it('carries FAQ markup built from the post body', function () {

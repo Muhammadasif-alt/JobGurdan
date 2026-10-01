@@ -54,7 +54,7 @@ use Illuminate\Support\Str;
  */
 class SalesJobsAustraliaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://au.indeed.com/q-sales-jobs.html';
+    private const APPLY_URL = 'https://www.workforceaustralia.gov.au/individuals/jobs/search';
 
     public function run(): void
     {
@@ -181,7 +181,7 @@ JOBHTML;
 <p>Sales is the easiest job category in Australia to get hired into and one of the easiest to be underpaid in. The reason is that sales pay is quoted in three incompatible ways &mdash; an award wage, a base salary plus commission, and commission alone &mdash; and most guides mix all three into one table. This page separates them, corrects the figures that are wrong, and covers the real estate registration that every state names differently.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://au.indeed.com/q-sales-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/sales?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128188; Browse Sales Jobs in Australia &rarr;
     </a>
 </div>

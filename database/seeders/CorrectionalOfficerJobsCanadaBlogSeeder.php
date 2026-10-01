@@ -68,7 +68,7 @@ use Illuminate\Support\Str;
  */
 class CorrectionalOfficerJobsCanadaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ca.indeed.com/q-correctional-officer-jobs.html';
+    private const APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
     public function run(): void
     {
@@ -192,7 +192,7 @@ JOBHTML;
 <p>This guide sets the federal route beside two provincial examples, Ontario and Prince Edward Island, because there is no single national hiring process &mdash; and several of the rules most guides repeat only apply to one employer.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ca.indeed.com/q-correctional-officer-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/government-public-sector?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127464;&#127462; Browse Correctional Officer Jobs in Canada &rarr;
     </a>
 </div>

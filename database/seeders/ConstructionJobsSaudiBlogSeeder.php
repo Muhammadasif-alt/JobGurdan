@@ -28,7 +28,7 @@ use Illuminate\Support\Str;
  */
 class ConstructionJobsSaudiBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/jobs?q=saudi+arabia+construction&l=&from=searchOnDesktopSerp&vjk=1d2cbf0c07acc448';
+    private const APPLY_URL = 'https://www.hrsd.gov.sa/en';
 
     public function run(): void
     {
@@ -154,7 +154,7 @@ JOBHTML;
 <p>Saudi Arabia is running the largest construction programme on earth. NEOM, the Red Sea Project, Qiddiya, Diriyah Gate, the Riyadh Metro and a decade of Vision 2030 infrastructure need a workforce far bigger than the domestic labour market can supply, which is why <strong>construction jobs in Saudi Arabia with visa sponsorship</strong> are open at every level from general labourer to programme director. This guide covers what the roles pay, how sponsorship is processed, the safety rules that apply to you by law, and the one contract question that decides who actually owes you your wages.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/jobs?q=saudi+arabia+construction&l=&from=searchOnDesktopSerp&vjk=1d2cbf0c07acc448" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/construction-trades?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🏗️ Browse Construction Jobs in Saudi Arabia &rarr;
     </a>
 </div>
@@ -321,7 +321,7 @@ JOBHTML;
 </ol>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/jobs?q=saudi+arabia+construction&l=&from=searchOnDesktopSerp&vjk=1d2cbf0c07acc448" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/construction-trades?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🔍 Search Construction Job Listings in Saudi Arabia &rarr;
     </a>
 </div>

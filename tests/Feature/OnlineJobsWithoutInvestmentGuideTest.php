@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const NOINVEST_SLUG = 'online-jobs-without-investment-in-pakistan';
 
-const NOINVEST_APPLY_URL = 'https://pk.indeed.com/q-without-investment,-online-jobs.html?vjk=9997e1fc229fd58d';
+const NOINVEST_APPLY_URL = 'https://njp.gov.pk/';
 
 beforeEach(function () {
     $this->seed(OnlineJobsWithoutInvestmentBlogSeeder::class);

@@ -54,7 +54,7 @@ use Illuminate\Support\Str;
  */
 class TaxiDriverJobsAustraliaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://au.indeed.com/q-taxi-driver-jobs.html';
+    private const APPLY_URL = 'https://www.workforceaustralia.gov.au/individuals/jobs/search';
 
     public function run(): void
     {
@@ -172,7 +172,7 @@ JOBHTML;
 <p>Most guides to taxi driving in Australia tell you to apply for a permit that one of the biggest states stopped issuing in 2017, and quote a salary drawn from a survey that does not count most taxi drivers. This page sets out what each state actually requires today, why the pay question has no clean answer, and what the official projections say about where the work is heading.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://au.indeed.com/q-taxi-driver-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128661; Browse Taxi Driver Jobs in Australia &rarr;
     </a>
 </div>
@@ -276,7 +276,7 @@ JOBHTML;
 <p>The classification is also being replaced. Under <strong>OSCA 2024</strong>, Taxi Driver is <strong>711134</strong> and <strong>Rideshare Driver is 711133</strong> &mdash; the first time the two have been counted as separate occupations, which should finally make it possible to measure them apart.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://au.indeed.com/q-taxi-driver-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128663; See Current Australian Taxi Driver Listings &rarr;
     </a>
 </div>

@@ -10,7 +10,7 @@ use function Pest\Laravel\get;
 
 const REACT_SLUG = 'react-developer-jobs-in-usa';
 
-const REACT_APPLY_URL = 'https://www.indeed.com/q-react-developer-jobs.html';
+const REACT_APPLY_URL = 'https://www.usa.gov/job-search';
 
 beforeEach(function () {
     $this->seed(ReactDeveloperJobsUsaBlogSeeder::class);

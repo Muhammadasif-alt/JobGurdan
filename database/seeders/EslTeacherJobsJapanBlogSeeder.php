@@ -70,7 +70,7 @@ use Illuminate\Support\Str;
  */
 class EslTeacherJobsJapanBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://jp.indeed.com/q-english-teacher-jobs.html';
+    private const APPLY_URL = 'https://www.hellowork.mhlw.go.jp/';
 
     public function run(): void
     {
@@ -192,7 +192,7 @@ JOBHTML;
 <p>This guide covers the three routes, the visa rule that decides who can apply, what the work actually pays, and the renewal fee change that takes effect on 1 October 2026.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://jp.indeed.com/q-english-teacher-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/graduate-entry-level?location=Japan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127471;&#127477; Browse English Teacher Jobs in Japan &rarr;
     </a>
 </div>

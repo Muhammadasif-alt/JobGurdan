@@ -56,7 +56,7 @@ use Illuminate\Support\Str;
  */
 class MaintenanceTechnicianJobsUsaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-maintenance-technician-jobs.html';
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
 
     public function run(): void
     {
@@ -179,7 +179,7 @@ JOBHTML;
 <p>Maintenance technicians keep the physical infrastructure of the country running &mdash; factories, warehouses, apartment blocks, hospitals and office buildings all depend on someone who can service the HVAC, fix the electrics and stop a small fault becoming an expensive one. It is hands-on, practical work with a low barrier to entry and a real ladder above it. But two things circulate about this job that are worth correcting: how much experienced technicians actually earn, and what "OSHA certified" really means.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-maintenance-technician-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/construction-trades?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128736; Browse Maintenance Technician Jobs &rarr;
     </a>
 </div>

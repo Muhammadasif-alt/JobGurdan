@@ -56,7 +56,7 @@ use Illuminate\Support\Str;
  */
 class DeliveryDriverJobsUkBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/q-delivery-driver-jobs.html';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -182,7 +182,7 @@ JOBHTML;
 <p>Delivery driving is one of the easiest jobs in the United Kingdom to get an interview for and one of the hardest to compare offers in. The reason is not complicated, but almost no guide says it out loud: the industry advertises in two different currencies. Some roles quote an hourly rate that is your pay. Others quote a day rate that is your turnover. Put side by side, they look like one range. They are not.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-delivery-driver-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/transport-logistics?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128666; Browse Delivery Driver Jobs in the UK &rarr;
     </a>
 </div>

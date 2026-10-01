@@ -35,7 +35,7 @@ use Illuminate\Support\Str;
  */
 class HealthcareJobsUkBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/q-healthcare-jobs.html?vjk=4ff6f1084283ad4e';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -160,7 +160,7 @@ JOBHTML;
 <p>Healthcare is one of the largest employers in the UK and it is genuinely short of staff. But the question people arrive at this page with &mdash; can I be sponsored from abroad? &mdash; now has two different answers depending on which job you mean, and a lot of published advice is still giving the answer from before July 2025. This guide separates the roles that can still be sponsored from the ones that cannot, and covers what the process actually looks like on either side.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-healthcare-jobs.html?vjk=4ff6f1084283ad4e" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/healthcare?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🏥 Browse Healthcare Jobs in the UK &rarr;
     </a>
 </div>

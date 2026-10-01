@@ -51,7 +51,7 @@ use Illuminate\Support\Str;
  */
 class OnlineDataEntryJobsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://www.indeed.com/q-online-data-entry-jobs.html';
+    private const APPLY_URL = 'https://jobgader.com/categories/customer-support-admin?location=Remote';
 
     public function run(): void
     {
@@ -174,7 +174,7 @@ JOBHTML;
 <p>Online data entry is one of the easiest remote jobs to start &mdash; minimal qualifications, work from anywhere, flexible hours. It is also one of the most misrepresented, in two directions: guides oversell how much it pays and how secure it is, and scammers use the "data entry" label more than almost any other to trap beginners. This guide is the honest version: what the work really is, what it really pays, why the field is shrinking, and exactly how to tell a real job from a scam.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://www.indeed.com/q-online-data-entry-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1f3a8a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=Remote" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1f3a8a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128187; Browse Online Data Entry Jobs &rarr;
     </a>
 </div>

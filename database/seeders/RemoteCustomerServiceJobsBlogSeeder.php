@@ -31,7 +31,7 @@ use Illuminate\Support\Str;
  */
 class RemoteCustomerServiceJobsBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://pk.indeed.com/q-customer-service-remote-jobs.html';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -157,7 +157,7 @@ JOBHTML;
 <p>Customer service is the steadiest hiring category in remote work, because every company that sells anything needs someone answering the customer. It is taught from scratch, it is open to freshers and students, and it does not care which city you live in. What it does care about is your English, your connection, and whether you can be reached on a fixed shift &mdash; and there are a few things about the offer worth checking before you accept one.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/q-customer-service-remote-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🎧 Browse Remote Customer Service Jobs &rarr;
     </a>
 </div>

@@ -26,7 +26,7 @@ use Illuminate\Support\Str;
  */
 class CleanerLondonBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://uk.indeed.com/q-cleaning-l-london-jobs.html?vjk=145bc3777d84d4f3';
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
 
     public function run(): void
     {
@@ -152,7 +152,7 @@ JOBHTML;
 <p>Cleaning is one of the few sectors in London where you can genuinely walk into paid, full-time work with zero prior experience, flexible hours, and a same-week start. From offices and hotels to schools, hospitals, and private homes, demand for reliable cleaners across the city is constant &mdash; which is exactly why <strong>cleaner jobs in London</strong> consistently rank among the easiest entry points into paid work, whether you're just starting out, between jobs, or looking for flexible part-time hours around other commitments.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-cleaning-l-london-jobs.html?vjk=145bc3777d84d4f3" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/cleaning-facilities?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🧹 Browse Cleaner Jobs in London →
     </a>
 </div>
@@ -314,7 +314,7 @@ JOBHTML;
 </ul>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://uk.indeed.com/q-cleaning-l-london-jobs.html?vjk=145bc3777d84d4f3" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/cleaning-facilities?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         🔍 Search Cleaner Jobs in London →
     </a>
 </div>

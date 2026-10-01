@@ -4,7 +4,7 @@ use App\Models\Blog;
 use App\Models\Job;
 use Database\Seeders\CleanerLondonBlogSeeder;
 
-const CLEANER_APPLY_URL = 'https://uk.indeed.com/q-cleaning-l-london-jobs.html?vjk=145bc3777d84d4f3';
+const CLEANER_APPLY_URL = 'https://www.gov.uk/find-a-job';
 
 beforeEach(function () {
     $this->seed(CleanerLondonBlogSeeder::class);

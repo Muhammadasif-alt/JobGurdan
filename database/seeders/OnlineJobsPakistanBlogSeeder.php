@@ -67,7 +67,7 @@ use Illuminate\Support\Str;
  */
 class OnlineJobsPakistanBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://pk.indeed.com/q-online-jobs.html';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -194,7 +194,7 @@ JOBHTML;
 <p>If you are still choosing what kind of work to do, our <a href="/blog/online-jobs-without-investment-in-pakistan">online jobs without investment guide</a> covers the work that costs nothing to start, and our <a href="/blog/remote-jobs-in-pakistan-with-no-experience">remote jobs with no experience guide</a> covers the employed roles that hire beginners.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/q-online-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/freelancing-online-work?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#128187; Browse Online Jobs in Pakistan &rarr;
     </a>
 </div>

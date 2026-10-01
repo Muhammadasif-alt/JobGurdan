@@ -51,7 +51,7 @@ use Illuminate\Support\Str;
  */
 class CustomerServiceJobsCanadaBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://ca.indeed.com/q-customer-service-jobs.html';
+    private const APPLY_URL = 'https://www.jobbank.gc.ca/jobsearch';
 
     public function run(): void
     {
@@ -177,7 +177,7 @@ JOBHTML;
 <p>Customer service is the largest open door into Canadian employment. It hires in every province, it takes people with no Canadian experience, and it posts constantly. It is also an occupation where almost every published salary figure is describing something slightly different from what you will be offered, and the reason is specific enough to be useful.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://ca.indeed.com/q-customer-service-jobs.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/customer-support-admin?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         &#127760; Browse Customer Service Jobs in Canada &rarr;
     </a>
 </div>

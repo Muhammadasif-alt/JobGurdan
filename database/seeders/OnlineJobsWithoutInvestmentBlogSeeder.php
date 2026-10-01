@@ -29,7 +29,7 @@ use Illuminate\Support\Str;
  */
 class OnlineJobsWithoutInvestmentBlogSeeder extends Seeder
 {
-    private const APPLY_URL = 'https://pk.indeed.com/q-without-investment,-online-jobs.html?vjk=9997e1fc229fd58d';
+    private const APPLY_URL = 'https://njp.gov.pk/';
 
     public function run(): void
     {
@@ -149,7 +149,7 @@ JOBHTML;
 <p>The promise in this search is real: you can start earning online in Pakistan without paying anyone a rupee to begin. What the guides usually leave out is the rest of the sentence &mdash; what the platforms take out of what you earn, which of these are actually jobs and which are self-employment, and why this exact phrase attracts more fraud than almost any other. All three change what you should do, so this guide covers them alongside the list of options.</p>
 
 <div style="text-align:center;margin:32px 0;">
-    <a href="https://pk.indeed.com/q-without-investment,-online-jobs.html?vjk=9997e1fc229fd58d" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
+    <a href="https://jobgader.com/categories/freelancing-online-work?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
         💻 Browse Online Jobs in Pakistan &rarr;
     </a>
 </div>
