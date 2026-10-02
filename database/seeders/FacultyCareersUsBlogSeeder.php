@@ -309,6 +309,9 @@ class FacultyCareersUsBlogSeeder extends Seeder
 <p>These go deeper on the parts of academic work this page summarises:</p>
 
 <ul>
+    <li><a href="/blog/professor-employment-in-the-us">Professor Employment in the US</a> &mdash; the nine-month contract, teaching loads by institution and what promotion is worth.</li>
+    <li><a href="/blog/assistant-professor-jobs-in-the-us">Assistant Professor Jobs in the US</a> &mdash; the hiring calendar, the job talk and what to negotiate at offer stage.</li>
+    <li><a href="/blog/colleges-hiring-professors-in-the-us">Colleges Hiring Professors in the US</a> &mdash; which institutions hire on which credential, and where they publish.</li>
     <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a> &mdash; per-section pay, benefits eligibility and the loan-forgiveness arithmetic in full.</li>
     <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; the school-level route, certification by state.</li>
     <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a> &mdash; teaching work that needs no faculty appointment.</li>
