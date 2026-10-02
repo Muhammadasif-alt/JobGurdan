@@ -26,7 +26,9 @@ it('publishes the guide with its own images and SEO fields', function () {
         ->and(strlen($blog->meta_title))->toBeLessThanOrEqual(60)
         ->and(strlen($blog->meta_description))->toBeLessThanOrEqual(160)
         ->and(strlen($blog->excerpt))->toBeLessThanOrEqual(255)
-        ->and($blog->content)->toContain(ADJUNCT_HUB_SLUG.'-lecture-hall.jpg');
+        ->and($blog->content)->toContain(ADJUNCT_HUB_SLUG.'-lecture-hall.jpg')
+        ->and($blog->content)->toContain(ADJUNCT_HUB_SLUG.'-qualifications.jpg')
+        ->and($blog->content)->toContain(ADJUNCT_HUB_SLUG.'-uk-tutorial.jpg');
 
     foreach (['tags', 'meta_title', 'meta_description'] as $field) {
         expect(mb_check_encoding($blog->$field, 'ASCII'))->toBeTrue("{$field} carries non-ASCII characters");

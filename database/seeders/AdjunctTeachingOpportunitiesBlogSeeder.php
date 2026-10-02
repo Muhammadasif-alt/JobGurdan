@@ -168,6 +168,12 @@ class AdjunctTeachingOpportunitiesBlogSeeder extends Seeder
     <li><strong>Applied and professional programmes.</strong> Nursing, accounting, law, IT and the trades weigh licences, certifications and years in the field heavily, sometimes above the degree.</li>
 </ul>
 
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/adjunct-teaching-opportunities-qualifications.jpg"
+         alt="A postgraduate working at a laptop with reference books open on a university campus, weighing up the qualifications an adjunct teaching post requires"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
 <h2>Online Adjunct Work and Where You Can Live</h2>
 
 <p>Online sections are genuinely common, and the duties are what the draft describes: delivering modules, running discussion boards, grading, virtual office hours and feedback inside a learning management system.</p>
@@ -201,6 +207,12 @@ class AdjunctTeachingOpportunitiesBlogSeeder extends Seeder
 <p>If you are searching from Britain, the term is a trap. An adjunct or honorary professorship there is a title conferred by nomination, carries no salary, and creates no contract of employment. The paid equivalent is advertised as hourly-paid lecturer, associate lecturer, visiting lecturer or graduate teaching assistant.</p>
 
 <p>The scale is also smaller than the US picture suggests. HESA's Statistical Bulletin SB274, published on 19 February 2026, records 3,440 academic staff on zero hours contracts across UK higher education in 2024/25, 92 percent of them paid by the hour. Our four UK guides below work through the titles, the contracts and the pay in detail.</p>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/adjunct-teaching-opportunities-uk-tutorial.jpg"
+         alt="An hourly-paid lecturer teaching a small tutorial group outdoors at a British university, the paid equivalent of a US adjunct post"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
 
 <h2>Frequently Asked Questions</h2>
 
