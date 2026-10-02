@@ -67,6 +67,16 @@ it('carries the federal and AAUP figures the draft left out', function (string $
     'contingent share' => '68.2 per cent',
     // AAUP per-section pay, which the occupational median does not describe.
     'per section pay' => '$4,093',
+    'per section year' => '2024&ndash;25, unchanged in cash terms',
+    // AAUP 2025-26 averages by rank, and the survey they come from.
+    'professor average' => '$163,836',
+    'associate average' => '$113,427',
+    'assistant average' => '$97,232',
+    'all ranks average' => '$119,836',
+    'survey institutions' => '768 US colleges and universities',
+    'survey headcount' => '359,234',
+    'nominal change' => '2.3 per cent',
+    'tenured share of full timers' => '50.7 per cent held tenure',
     // The AAUP probationary standard most institutions follow.
     'tenure clock' => 'seven years',
     // The two federal multipliers that decide benefits.

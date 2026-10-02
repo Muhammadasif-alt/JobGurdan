@@ -118,7 +118,34 @@ class FacultyCareersUsBlogSeeder extends Seeder
 
 <p>Read the last two rows against the first six. The occupation is growing and pays a solid median, and roughly two thirds of the appointments inside it carry no tenure and no expectation of renewal. Both facts are true, and a career plan built on only the first one will not survive contact with a search committee.</p>
 
-<p>The AAUP's 2025&ndash;26 Faculty Compensation Survey collected data from nearly 780 US colleges and universities covering about 360,000 full-time and more than 125,000 part-time faculty. It found average salaries up 2.3 per cent in nominal terms from autumn 2024 to autumn 2025, against a 2.7 per cent rise in the Consumer Price Index &mdash; which is a real-terms fall of roughly 0.4 per cent.</p>
+<p>The AAUP's 2025&ndash;26 Faculty Compensation Survey collected full-time salary data from 768 US colleges and universities covering 359,234 full-time faculty, plus 125,149 part-time faculty from 664 institutions. It found average salaries up 2.3 per cent in nominal terms from autumn 2024 to autumn 2025, against a 2.7 per cent rise in the CPI-U &mdash; a real-terms fall of about 0.4 per cent.</p>
+
+<h2>What Each Rank Averages</h2>
+
+<p>These are the AAUP's 2025&ndash;26 averages for full-time faculty, all institution types combined. They describe salaried appointments only, so read them alongside the per-section figure further down rather than instead of it.</p>
+
+<div style="overflow-x:auto;margin:24px 0;">
+<table style="width:100%;border-collapse:collapse;font-size:15px;">
+    <thead>
+        <tr style="background:#1b3a6b;color:#fff;">
+            <th style="padding:10px;text-align:left;">Rank</th>
+            <th style="padding:10px;text-align:left;">Average salary, 2025&ndash;26</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Professor</td><td style="padding:10px;">$163,836</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Associate professor</td><td style="padding:10px;">$113,427</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Assistant professor</td><td style="padding:10px;">$97,232</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Lecturer</td><td style="padding:10px;">$84,292</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Instructor</td><td style="padding:10px;">$74,087</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>All ranks combined</strong></td><td style="padding:10px;"><strong>$119,836</strong></td></tr>
+    </tbody>
+</table>
+</div>
+
+<p>Promotion from assistant to associate professor is worth about $16,000 on these averages; the step from associate to full professor is worth roughly $50,000. That second gap is why the tenure decision matters financially long after it is made.</p>
+
+<p>Among full-time faculty in the same survey, 50.7 per cent held tenure, 18.0 per cent were on the tenure track and 31.4 per cent were in non-tenure-track appointments. That is full-time staff only &mdash; add part-time appointments back in and the contingent share rises sharply.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/faculty-careers-in-the-us-campus.jpg"
@@ -174,7 +201,7 @@ class FacultyCareersUsBlogSeeder extends Seeder
 </table>
 </div>
 
-<p>None of these describe adjunct pay. <strong>The AAUP puts the average pay for teaching one course section at $4,093.</strong> Four sections a semester, eight across an academic year, is around $32,700 before tax for what is in practice a full teaching load &mdash; which is why the BLS median and the adjunct reality are so far apart. If you are weighing part-time teaching, use the per-section figure and not the occupational median.</p>
+<p>None of these describe adjunct pay. <strong>The AAUP puts the average pay for teaching one standard three-credit course section at $4,093 in 2024&ndash;25, unchanged in cash terms from the year before.</strong> Four sections a semester, eight across an academic year, is around $32,700 before tax for what is in practice a full teaching load &mdash; which is why the BLS median and the adjunct reality are so far apart. If you are weighing part-time teaching, use the per-section figure and not the occupational median.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/faculty-careers-in-the-us-application.jpg"
