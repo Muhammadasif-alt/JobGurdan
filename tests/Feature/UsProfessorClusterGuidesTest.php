@@ -165,8 +165,11 @@ it('states the institution differences the colleges draft left out', function (s
     'doctoral section rate' => '$5,115',
     'associate no ranks section rate' => '$3,348',
     'all institutions section rate' => '$4,093',
-    // The credential rule the draft skipped.
-    'credential hours' => 'graduate semester hours in the discipline',
+    // The 18-hour rule is no longer an accreditation requirement.
+    'hlc removed it' => 'deleted that language',
+    'hlc date' => '2 November 2023',
+    'sacscoc position' => 'not been for close to two decades',
+    'no national rule' => 'there is no national credential rule',
     // Where vacancies really appear.
     'state portals' => 'State system portals',
     // The constraint on online teaching.

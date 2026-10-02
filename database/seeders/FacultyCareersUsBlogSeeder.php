@@ -215,7 +215,7 @@ class FacultyCareersUsBlogSeeder extends Seeder
 
 <ul>
     <li><strong>Four-year colleges and universities</strong> generally expect a doctorate for tenure-track appointments, and most adverts require it to be in hand by the start date rather than merely in progress.</li>
-    <li><strong>Community and junior colleges</strong> commonly hire with a master's degree in the discipline, or a master's with 18 graduate credit hours in the subject taught, which is the regional accreditation convention.</li>
+    <li><strong>Community and junior colleges</strong> commonly hire with a master's degree in the discipline. The "18 graduate credit hours" figure repeated all over the internet is no longer an accreditation requirement &mdash; the Higher Learning Commission removed that language in November 2023 &mdash; but many colleges still apply it as their own internal benchmark, so check the college's published faculty credentials policy rather than any national rule.</li>
     <li><strong>Professional and applied fields</strong> &mdash; nursing, accounting, engineering, computing, criminal justice, the trades &mdash; weight licensure and industry experience heavily, and a terminal professional qualification can substitute for a PhD.</li>
     <li><strong>Studio and performance disciplines</strong> treat the MFA as the terminal degree.</li>
 </ul>

@@ -84,6 +84,13 @@ it('carries the federal and AAUP figures the draft left out', function (string $
     'pslf multiplier' => '3.35 hours of work for every credit hour taught',
 ]);
 
+it('does not present the withdrawn 18-hour rule as an accreditation requirement', function () {
+    $this->seed(FacultyCareersUsBlogSeeder::class);
+
+    expect(Blog::where('slug', US_FACULTY_SLUG)->value('content'))
+        ->toContain('no longer an accreditation requirement');
+});
+
 it('does not present the BLS median as the adjunct rate', function () {
     $this->seed(FacultyCareersUsBlogSeeder::class);
 

@@ -145,18 +145,26 @@ class CollegesHiringProfessorsUsBlogSeeder extends Seeder
 
 <p>A doctoral institution pays roughly 53 per cent more for the same section than an associate's institution without ranks. AAUP collects these from a few hundred reporting institutions and says the part-time results are not nationally representative, so treat them as a ranking rather than a quotation.</p>
 
-<h2>Community Colleges: the Credential Rule Nobody Publishes Clearly</h2>
+<h2>Community Colleges and the 18-Hour Rule That No Longer Exists</h2>
 
-<p>Community colleges are where most people without a doctorate can teach, and the credential test is more specific than "a master's degree". The standard regional accreditors apply is a <strong>master's degree plus a defined number of graduate semester hours in the discipline actually being taught</strong> &mdash; commonly eighteen. It is the discipline hours, not the degree title, that decide eligibility.</p>
-
-<p>Two practical consequences:</p>
+<p>Almost every guide to teaching at a US community college repeats the same requirement: a master's degree plus <strong>18 graduate semester hours in the discipline you teach</strong>. It is quoted as though an accreditor enforces it. It does not, and has not for years.</p>
 
 <ul>
-    <li><strong>Your transcript matters more than your diploma.</strong> An MBA holder may be eligible to teach management and ineligible to teach economics, depending on which graduate courses appear on the transcript.</li>
-    <li><strong>Career and technical programmes run on different rules.</strong> Licensure, certification and documented industry experience often substitute for graduate credit in nursing, welding, automotive, culinary and allied health teaching.</li>
+    <li><strong>The Higher Learning Commission deleted that language.</strong> The 18-credit-hour sentence was struck from its Assumed Practices by Board action on <strong>2 November 2023</strong>. The current standard asks only that an institution "establishes and maintains reasonable policies and procedures to determine that faculty are qualified", which may weigh academic credentials, progress toward credentials, equivalent experience, or a combination.</li>
+    <li><strong>HLC's current guidance leaves the number to the college.</strong> Where an instructor's degree is in another discipline, its September 2025 guideline asks for "a reasonable amount of coursework in the discipline or subfield in which they teach, <em>as defined by the institution</em>".</li>
+    <li><strong>SACSCOC says the same.</strong> Writing in October 2025, the president of the Commission on Colleges and Universities described the master's-plus-18-hours formula as "a historic rule of thumb" that was once a requirement but has "not been for close to two decades", and stated plainly that no federal or state law sets an 18-hour rule.</li>
 </ul>
 
-<p>Check the specific college's faculty credentials policy and its accreditor's standard before assuming you do or do not qualify.</p>
+<p>So the practical position is this: <strong>there is no national credential rule, and the college's own published faculty qualifications policy is the only one that binds.</strong> Many colleges still use 18 graduate hours as their internal benchmark, which is why the figure survives &mdash; but it is their number, not an accreditor's, and some set it differently or use an equivalence route.</p>
+
+<p>Two things follow:</p>
+
+<ul>
+    <li><strong>Your transcript still matters more than your diploma.</strong> An MBA holder may be eligible to teach management and not economics, depending on which graduate courses are on the transcript.</li>
+    <li><strong>Career and technical programmes run on different rules entirely.</strong> Licensure, certification and documented industry experience routinely substitute for graduate credit in nursing, welding, automotive, culinary and allied health teaching.</li>
+</ul>
+
+<p>Read the specific college's faculty credentials policy before assuming you do or do not qualify, and do not let a third-party article's "18 hours" talk you out of applying.</p>
 
 <h2>Research Universities, Liberal Arts Colleges and Professional Schools</h2>
 
@@ -202,7 +210,10 @@ class CollegesHiringProfessorsUsBlogSeeder extends Seeder
 <h2>Frequently Asked Questions</h2>
 
 <h3>Which US colleges hire professors without a PhD?</h3>
-<p>Mostly community and junior colleges, along with career and technical programmes and some adjunct teaching at four-year institutions. The usual rule is a master's degree with a set number of graduate semester hours in the discipline taught, commonly eighteen.</p>
+<p>Mostly community and junior colleges, along with career and technical programmes and some adjunct teaching at four-year institutions. A master's in the discipline is the usual expectation, and the exact coursework requirement is set by each college rather than by an accreditor.</p>
+
+<h3>Do community colleges require 18 graduate credit hours?</h3>
+<p>Not as an accreditation rule. The Higher Learning Commission removed that language in November 2023, and SACSCOC says it has not been a requirement for close to two decades. Many colleges still use 18 hours as their own benchmark, so check the college's published faculty credentials policy.</p>
 
 <h3>Which kind of college pays professors the most?</h3>
 <p>State colleges and universities, at a $96,120 median in May 2025, against $89,660 at private ones, $81,640 at local junior colleges and $68,160 at state junior colleges.</p>
@@ -221,9 +232,6 @@ class CollegesHiringProfessorsUsBlogSeeder extends Seeder
 
 <h3>Can I teach online for a US college from another state?</h3>
 <p>Only where the institution is authorised to operate and registered for payroll. That is why online faculty adverts list eligible states.</p>
-
-<h3>Does the subject I teach change what a college pays?</h3>
-<p>Less than the institution does. The BLS spread between a state university and a state junior college is $27,960 for the same occupation.</p>
 
 <h2>People Also Search For</h2>
 
