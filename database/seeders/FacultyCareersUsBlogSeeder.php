@@ -319,6 +319,7 @@ class FacultyCareersUsBlogSeeder extends Seeder
     <li><a href="/blog/adjunct-teaching-jobs-in-the-uk">Adjunct Teaching Jobs in the UK</a> &mdash; what the same work is called and paid in Britain.</li>
     <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the honorary title that carries no salary.</li>
     <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; qualified teacher status and the school pay scales.</li>
+    <li><a href="/blog/higher-education-degree-jobs-in-the-us">Higher Education Degree Jobs in the US</a> &mdash; administration, advising and research careers inside the same institutions.</li>
     <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a> &mdash; the non-teaching roles inside the same institutions.</li>
 </ul>
 

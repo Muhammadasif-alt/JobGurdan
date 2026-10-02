@@ -265,7 +265,7 @@ class ProfessorEmploymentUsBlogSeeder extends Seeder
     <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the British title that carries no salary at all.</li>
     <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; qualified teacher status and the school pay scales.</li>
     <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; the school-level route and state certification.</li>
-    <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a> &mdash; the non-teaching roles inside the same institutions.</li>
+    <li><a href="/blog/higher-education-degree-jobs-in-the-us">Higher Education Degree Jobs in the US</a> &mdash; the administrative careers inside the same institutions, and what they pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, employment or tax advice. Pay data is from the American Association of University Professors and the US Bureau of Labor Statistics; workload, promotion and benefits policies are set by each institution. Confirm the terms with the hiring department before relying on them.</p>

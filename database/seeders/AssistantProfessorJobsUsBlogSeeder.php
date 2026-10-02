@@ -243,7 +243,7 @@ class AssistantProfessorJobsUsBlogSeeder extends Seeder
     <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; the British equivalent of the entry route.</li>
     <li><a href="/blog/adjunct-faculty-vacancies-in-the-uk">Adjunct Faculty Vacancies in the UK</a> &mdash; where UK hourly-paid academic work is advertised.</li>
     <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; the school-level route and state certification.</li>
-    <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a> &mdash; the non-teaching roles inside the same institutions.</li>
+    <li><a href="/blog/higher-education-degree-jobs-in-the-us">Higher Education Degree Jobs in the US</a> &mdash; the non-faculty careers inside the same institutions.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or employment advice. Pay data is from the American Association of University Professors and the US Bureau of Labor Statistics; hiring calendars, tenure criteria and startup packages are set by each institution and department. Confirm the terms in writing before accepting an offer.</p>
