@@ -2,8 +2,12 @@
 
 namespace Database\Seeders;
 
+use App\Models\Advertiser;
 use App\Models\Blog;
 use App\Models\BlogCatgories;
+use App\Models\Category;
+use App\Models\Job;
+use App\Models\Location;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
@@ -51,6 +55,8 @@ use Illuminate\Support\Str;
  */
 class HigherEducationDegreeJobsUsBlogSeeder extends Seeder
 {
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
+
     public function run(): void
     {
         $content = $this->postBody();
@@ -85,6 +91,81 @@ class HigherEducationDegreeJobsUsBlogSeeder extends Seeder
                 'published_at' => now(),
             ]
         );
+
+        $this->seedJob();
+    }
+
+    private function seedJob(): void
+    {
+        $advertiser = Advertiser::firstOrCreate(
+            ['name' => 'US Colleges & Universities — Administration, Advising and Student Services (Aggregated)'],
+            ['type' => 'Private', 'display_reference' => 'us-higher-ed-admin-aggregated']
+        );
+
+        $location = Location::firstOrCreate(
+            ['name' => 'United States'],
+            ['area' => 'Nationwide', 'country' => 'United States']
+        );
+
+        $category = Category::firstOrCreate(
+            ['slug' => 'customer-support-admin'],
+            ['name' => 'Customer Support & Admin']
+        );
+
+        Job::updateOrCreate(
+            [
+                'position' => 'University Administration, Advising and Student Affairs Posts at US Colleges',
+                'advertiser_id' => $advertiser->id,
+            ],
+            [
+                'category_id' => $category->id,
+                'location_id' => $location->id,
+                'description' => $this->jobDescription(),
+                'employment_type' => 'Full-time',
+                'job_type' => 'On-site',
+                'work_hours' => 'Twelve-month appointments for most administrative posts, with peak periods around admissions cycles and term start',
+                'language' => 'English',
+                // These are several BLS occupations with different medians,
+                // so each one is quoted separately in the description rather
+                // than collapsed into a single band here.
+                'salary_currency' => null,
+                'salary_period' => null,
+                'salary_minimum' => null,
+                'salary_maximum' => null,
+                'application_url' => self::APPLY_URL,
+                'meta_description' => 'Administration, academic advising, admissions, student affairs, institutional research and library posts at US colleges and universities.',
+                'seo_keywords' => 'higher education jobs usa, university administration jobs, student affairs jobs, academic advisor jobs, college admissions jobs',
+            ]
+        );
+    }
+
+    private function jobDescription(): string
+    {
+        return <<<'JOBHTML'
+<p>Most staff at a US college never teach. Administration, advising, admissions, student affairs, institutional research and library services are all career tracks inside the institution, and several of them pay above the teaching median.</p>
+
+<h3>The roles and what they pay</h3>
+<ul>
+    <li><strong>Postsecondary education administrators</strong> &mdash; deans, registrars, admissions and student affairs directors. BLS median $104,590 across 231,800 jobs, master's typical</li>
+    <li><strong>Instructional coordinators</strong> &mdash; curriculum and instructional design. $77,440 across 248,700 jobs</li>
+    <li><strong>Librarians and media collections specialists</strong> &mdash; $68,270; academic libraries pay $74,490 at state institutions</li>
+    <li><strong>School and career counsellors and advisers</strong>, the category that holds academic advising &mdash; $64,330, but $58,870 inside public colleges</li>
+    <li><strong>Archivists, curators and museum workers</strong> &mdash; $60,330 across 38,500 jobs</li>
+</ul>
+
+<h3>What the institution looks for</h3>
+<ul>
+    <li>A master's degree is the typical entry-level education for all four of the main categories above</li>
+    <li>Named experience with student information systems, CRM and learning management systems</li>
+    <li>Outcomes with numbers: caseload size, retention or yield movement, programmes delivered</li>
+    <li>A resume, not an academic CV, for administrative and student services posts</li>
+</ul>
+
+<h3>How the market is shaped</h3>
+<p>Administration is projected to grow just 2 per cent from 2025 to 2035, an increase of 4,100 jobs, against 7 per cent for postsecondary teaching. <strong>The opportunity is turnover rather than expansion</strong>: about 14,500 openings a year.</p>
+
+<p>Vacancies are published on the institution's own HR system first, and public systems often run a single state-wide portal. Pay and projection data is from the US Bureau of Labor Statistics for May 2025 and 2025 to 2035, not by JobGader.</p>
+JOBHTML;
     }
 
     private function postBody(): string

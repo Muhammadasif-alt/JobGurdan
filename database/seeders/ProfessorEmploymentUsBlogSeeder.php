@@ -2,8 +2,12 @@
 
 namespace Database\Seeders;
 
+use App\Models\Advertiser;
 use App\Models\Blog;
 use App\Models\BlogCatgories;
+use App\Models\Category;
+use App\Models\Job;
+use App\Models\Location;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
@@ -47,6 +51,8 @@ use Illuminate\Support\Str;
  */
 class ProfessorEmploymentUsBlogSeeder extends Seeder
 {
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
+
     public function run(): void
     {
         $content = $this->postBody();
@@ -81,6 +87,84 @@ class ProfessorEmploymentUsBlogSeeder extends Seeder
                 'published_at' => now(),
             ]
         );
+
+        $this->seedJob();
+    }
+
+    private function seedJob(): void
+    {
+        $advertiser = Advertiser::firstOrCreate(
+            ['name' => 'US Universities & Four-Year Colleges — Professorial Ranks (Aggregated)'],
+            ['type' => 'Private', 'display_reference' => 'us-professor-ranks-aggregated']
+        );
+
+        $location = Location::firstOrCreate(
+            ['name' => 'United States'],
+            ['area' => 'Nationwide', 'country' => 'United States']
+        );
+
+        $category = Category::firstOrCreate(
+            ['slug' => 'graduate-entry-level'],
+            ['name' => 'Graduate & Entry Level']
+        );
+
+        Job::updateOrCreate(
+            [
+                'position' => 'Professor Posts at US Universities — Assistant, Associate and Full Professor Appointments',
+                'advertiser_id' => $advertiser->id,
+            ],
+            [
+                'category_id' => $category->id,
+                'location_id' => $location->id,
+                'description' => $this->jobDescription(),
+                'employment_type' => 'Full-time',
+                'job_type' => 'On-site',
+                'work_hours' => 'Nine-month contract over two semesters for most appointments; summer pay comes from teaching or grant funding',
+                'language' => 'English',
+                // Rank, institution type and discipline each move the figure,
+                // so the AAUP averages are quoted in the description rather
+                // than presented as this listing's salary band.
+                'salary_currency' => null,
+                'salary_period' => null,
+                'salary_minimum' => null,
+                'salary_maximum' => null,
+                'application_url' => self::APPLY_URL,
+                'meta_description' => 'Assistant, associate and full professor appointments at US universities and four-year colleges, with teaching, research and service responsibilities.',
+                'seo_keywords' => 'professor jobs usa, university professor positions, associate professor jobs, full professor jobs, professor employment us',
+            ]
+        );
+    }
+
+    private function jobDescription(): string
+    {
+        return <<<'JOBHTML'
+<p>US universities and four-year colleges appoint faculty at three professorial ranks. In the United States these are rungs of an ordinary career rather than senior honours, which is why a department can hold twenty professors at once.</p>
+
+<h3>The ranks</h3>
+<ul>
+    <li><strong>Assistant professor.</strong> The entry rank, normally probationary with a tenure review</li>
+    <li><strong>Associate professor.</strong> Usually granted with tenure, at the end of a probationary period of no more than seven years</li>
+    <li><strong>Professor.</strong> The senior rank, promoted on the record with no fixed clock</li>
+</ul>
+
+<h3>The contract</h3>
+<ul>
+    <li>Most appointments are nine-month contracts covering the autumn and spring semesters</li>
+    <li>Summer salary comes from teaching a summer course or from external grant funding</li>
+    <li>Workload is conventionally 40 per cent teaching, 40 per cent research and 20 per cent service at a research university</li>
+    <li>Teaching load runs from two courses a semester at doctoral institutions to five at community colleges</li>
+</ul>
+
+<h3>Pay, on AAUP 2025&ndash;26 averages</h3>
+<ul>
+    <li>Professor $163,836, associate professor $113,427, assistant professor $97,232</li>
+    <li>Lecturer $84,292, instructor $74,087, all ranks combined $119,836</li>
+    <li>Collected from 768 institutions reporting on 359,234 full-time faculty</li>
+</ul>
+
+<h3>Before you accept</h3>
+<p><strong>Get the written workload assignment and the tenure criteria before signing.</strong> Among full-time faculty, 50.7 per cent hold tenure and 31.4 per cent are in non-tenure-track appointments. Pay data is from the AAUP and the US Bureau of Labor Statistics, not by JobGader.</p>
+JOBHTML;
     }
 
     private function postBody(): string

@@ -2,8 +2,12 @@
 
 namespace Database\Seeders;
 
+use App\Models\Advertiser;
 use App\Models\Blog;
 use App\Models\BlogCatgories;
+use App\Models\Category;
+use App\Models\Job;
+use App\Models\Location;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
@@ -50,6 +54,8 @@ use Illuminate\Support\Str;
  */
 class UkJobsWithVisaSponsorshipBlogSeeder extends Seeder
 {
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
+
     public function run(): void
     {
         $content = $this->postBody();
@@ -84,6 +90,86 @@ class UkJobsWithVisaSponsorshipBlogSeeder extends Seeder
                 'published_at' => now(),
             ]
         );
+
+        $this->seedJob();
+    }
+
+    private function seedJob(): void
+    {
+        $advertiser = Advertiser::firstOrCreate(
+            ['name' => 'UK Licensed Sponsors — Skilled Worker Route Employers (Aggregated)'],
+            ['type' => 'Private', 'display_reference' => 'uk-licensed-sponsors-aggregated']
+        );
+
+        $location = Location::firstOrCreate(
+            ['name' => 'United Kingdom'],
+            ['area' => 'Nationwide', 'country' => 'United Kingdom']
+        );
+
+        $category = Category::firstOrCreate(
+            ['slug' => 'it-software'],
+            ['name' => 'IT & Software']
+        );
+
+        Job::updateOrCreate(
+            [
+                'position' => 'Sponsored Jobs with UK Licensed Sponsors — Skilled Worker Route, Eligible Occupations Only',
+                'advertiser_id' => $advertiser->id,
+            ],
+            [
+                'category_id' => $category->id,
+                'location_id' => $location->id,
+                'description' => $this->jobDescription(),
+                'employment_type' => 'Full-time',
+                'job_type' => 'On-site',
+                'work_hours' => 'Full-time; going rates are quoted against a 37.5 hour week and pro-rated for other patterns',
+                'language' => 'English',
+                // Sponsored pay is the higher of the general threshold and the
+                // occupation code's going rate, so no single range describes
+                // the group. The thresholds are in the description instead.
+                'salary_currency' => null,
+                'salary_period' => null,
+                'salary_minimum' => null,
+                'salary_maximum' => null,
+                'application_url' => self::APPLY_URL,
+                'meta_description' => 'Skilled Worker roles with employers on the Home Office register of licensed sponsors, in occupations listed as eligible in Appendix Skilled Occupations.',
+                'seo_keywords' => 'uk jobs with visa sponsorship, skilled worker visa jobs uk, certificate of sponsorship, licensed sponsor jobs uk, uk sponsorship jobs',
+            ]
+        );
+    }
+
+    private function jobDescription(): string
+    {
+        return <<<'JOBHTML'
+<p>Employers on the Home Office register of licensed sponsors recruit overseas workers into roles that meet Skilled Worker rules. A licence alone is not enough: the specific job must also sit in an eligible occupation code.</p>
+
+<h3>Both tests have to pass</h3>
+<ul>
+    <li>The employer holds a Skilled Worker sponsor licence under the exact legal entity that will employ you, and holds an A-rating</li>
+    <li>The job's SOC 2020 occupation code is listed as Higher Skilled in Appendix Skilled Occupations, or qualifies through the Immigration Salary List or Temporary Shortage List</li>
+</ul>
+
+<h3>Salary</h3>
+<ul>
+    <li>&pound;41,700 a year or the occupation's going rate, whichever is higher</li>
+    <li>&pound;37,500 with a relevant PhD, at 90 per cent of the going rate</li>
+    <li>&pound;33,400 with a STEM PhD, on the Immigration Salary List, or as a new entrant</li>
+    <li>Going rates are national. There is no London uplift</li>
+</ul>
+
+<h3>What the applicant pays</h3>
+<ul>
+    <li>&pound;819 from outside the UK for up to three years, or &pound;1,618 for longer</li>
+    <li>Immigration health surcharge, usually &pound;1,035 a year</li>
+    <li>&pound;1,270 held for 28 days, unless the sponsor certifies maintenance</li>
+    <li>English at level B2, which US, Canadian, Australian, New Zealand and Irish nationals are exempt from proving</li>
+</ul>
+
+<h3>What the employer pays</h3>
+<p><strong>The Immigration Skills Charge is the sponsor's own liability</strong> &mdash; &pound;1,320 per 12 months for a medium or large sponsor, &pound;480 for a small or charitable one &mdash; and it may not be recovered from the worker.</p>
+
+<p><strong>Never pay for sponsorship.</strong> There is no lawful payment from a worker for a sponsor licence or a Certificate of Sponsorship. Visa rules, thresholds and fees are set by the Home Office, not by JobGader; confirm them on gov.uk before applying.</p>
+JOBHTML;
     }
 
     private function postBody(): string

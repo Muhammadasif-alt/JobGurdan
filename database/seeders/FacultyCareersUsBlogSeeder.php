@@ -2,8 +2,12 @@
 
 namespace Database\Seeders;
 
+use App\Models\Advertiser;
 use App\Models\Blog;
 use App\Models\BlogCatgories;
+use App\Models\Category;
+use App\Models\Job;
+use App\Models\Location;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
@@ -51,6 +55,8 @@ use Illuminate\Support\Str;
  */
 class FacultyCareersUsBlogSeeder extends Seeder
 {
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
+
     public function run(): void
     {
         $content = $this->postBody();
@@ -85,6 +91,82 @@ class FacultyCareersUsBlogSeeder extends Seeder
                 'published_at' => now(),
             ]
         );
+
+        $this->seedJob();
+    }
+
+    private function seedJob(): void
+    {
+        $advertiser = Advertiser::firstOrCreate(
+            ['name' => 'US Colleges, Universities & Community Colleges — Faculty Appointments (Aggregated)'],
+            ['type' => 'Private', 'display_reference' => 'us-faculty-aggregated']
+        );
+
+        $location = Location::firstOrCreate(
+            ['name' => 'United States'],
+            ['area' => 'Nationwide', 'country' => 'United States']
+        );
+
+        $category = Category::firstOrCreate(
+            ['slug' => 'graduate-entry-level'],
+            ['name' => 'Graduate & Entry Level']
+        );
+
+        Job::updateOrCreate(
+            [
+                'position' => 'Faculty Appointments at US Colleges and Universities — Tenure-Track, Teaching, Clinical and Research',
+                'advertiser_id' => $advertiser->id,
+            ],
+            [
+                'category_id' => $category->id,
+                'location_id' => $location->id,
+                'description' => $this->jobDescription(),
+                'employment_type' => 'Full-time',
+                'job_type' => 'On-site',
+                'work_hours' => 'Most salaried appointments are nine-month contracts covering two semesters; per-section appointments are paid by the course',
+                'language' => 'English',
+                // Faculty pay runs from a per-section rate to a full professor
+                // salary across the same occupation, so no single range holds.
+                // The BLS and AAUP figures are in the description instead.
+                'salary_currency' => null,
+                'salary_period' => null,
+                'salary_minimum' => null,
+                'salary_maximum' => null,
+                'application_url' => self::APPLY_URL,
+                'meta_description' => 'Tenure-track, teaching, clinical, research and adjunct faculty appointments at US colleges, universities and community colleges.',
+                'seo_keywords' => 'faculty jobs usa, university faculty positions, tenure track faculty jobs, college faculty jobs, academic jobs usa',
+            ]
+        );
+    }
+
+    private function jobDescription(): string
+    {
+        return <<<'JOBHTML'
+<p>US colleges, universities and community colleges recruit faculty across several very different appointment types that share the same vocabulary. Read the contract, not the title.</p>
+
+<h3>Appointment types</h3>
+<ul>
+    <li><strong>Tenure-track.</strong> Probationary, salaried, with a tenure review normally within seven years</li>
+    <li><strong>Teaching professor or professor of practice.</strong> Full-time with benefits, no tenure, heavier teaching load</li>
+    <li><strong>Clinical faculty.</strong> Professional schools; licensure and current practice usually outweigh publications</li>
+    <li><strong>Research faculty.</strong> Grant-funded, lasting as long as the award</li>
+    <li><strong>Adjunct.</strong> Paid per course section, usually without benefits</li>
+</ul>
+
+<h3>Qualifications</h3>
+<p>Four-year institutions generally require a doctorate in hand by the start date. Community colleges commonly hire on a master's in the discipline; the exact coursework requirement is set by each college, not by an accreditor.</p>
+
+<h3>Pay, on official data</h3>
+<ul>
+    <li>BLS median for postsecondary teachers: $85,330, May 2025, across 1,378,200 jobs</li>
+    <li>By employer: $96,120 state colleges and universities, $89,660 private, $81,640 local junior colleges, $68,160 state junior colleges</li>
+    <li>AAUP averages 2025&ndash;26: $163,836 professor, $113,427 associate, $97,232 assistant</li>
+    <li>AAUP average per course section: $4,093 in 2024&ndash;25</li>
+</ul>
+
+<h3>Before you apply</h3>
+<p><strong>Ask whether the appointment is full-time, whether it carries benefits and how it is renewed.</strong> On AAUP figures 68.2 per cent of faculty appointments are contingent. Pay and projection data is from the US Bureau of Labor Statistics and the AAUP, not by JobGader; each institution sets its own terms.</p>
+JOBHTML;
     }
 
     private function postBody(): string

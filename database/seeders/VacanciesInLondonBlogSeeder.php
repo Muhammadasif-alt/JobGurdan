@@ -2,8 +2,12 @@
 
 namespace Database\Seeders;
 
+use App\Models\Advertiser;
 use App\Models\Blog;
 use App\Models\BlogCatgories;
+use App\Models\Category;
+use App\Models\Job;
+use App\Models\Location;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
@@ -53,6 +57,8 @@ use Illuminate\Support\Str;
  */
 class VacanciesInLondonBlogSeeder extends Seeder
 {
+    private const APPLY_URL = 'https://www.gov.uk/find-a-job';
+
     public function run(): void
     {
         $content = $this->postBody();
@@ -87,6 +93,75 @@ class VacanciesInLondonBlogSeeder extends Seeder
                 'published_at' => now(),
             ]
         );
+
+        $this->seedJob();
+    }
+
+    private function seedJob(): void
+    {
+        $advertiser = Advertiser::firstOrCreate(
+            ['name' => 'London Employers — Boroughs, NHS Trusts, Universities & Private Sector (Aggregated)'],
+            ['type' => 'Private', 'display_reference' => 'london-vacancies-aggregated']
+        );
+
+        $location = Location::firstOrCreate(
+            ['name' => 'United Kingdom'],
+            ['area' => 'Nationwide', 'country' => 'United Kingdom']
+        );
+
+        $category = Category::firstOrCreate(
+            ['slug' => 'customer-support-admin'],
+            ['name' => 'Customer Support & Admin']
+        );
+
+        Job::updateOrCreate(
+            [
+                'position' => 'Vacancies in London — Full-Time, Part-Time and Entry-Level Roles Across the 32 Boroughs',
+                'advertiser_id' => $advertiser->id,
+            ],
+            [
+                'category_id' => $category->id,
+                'location_id' => $location->id,
+                'description' => $this->jobDescription(),
+                'employment_type' => 'Full-time',
+                'job_type' => 'On-site',
+                'work_hours' => 'Full-time, part-time, fixed-term and agency patterns; 5.6 weeks paid holiday is a statutory minimum on all of them',
+                'language' => 'English',
+                // Pay is set job by job across every London sector, so no
+                // single range stands for the group. The statutory floor is
+                // quoted in the description instead.
+                'salary_currency' => null,
+                'salary_period' => null,
+                'salary_minimum' => null,
+                'salary_maximum' => null,
+                'application_url' => self::APPLY_URL,
+                'meta_description' => 'Full-time, part-time and entry-level vacancies across London boroughs, NHS trusts, universities and private employers, published on official services.',
+                'seo_keywords' => 'vacancies in london, jobs in london, part time jobs london, full time jobs london, entry level jobs london',
+            ]
+        );
+    }
+
+    private function jobDescription(): string
+    {
+        return <<<'JOBHTML'
+<p>London boroughs, NHS trusts, universities, Transport for London and private employers recruit continuously across full-time, part-time, fixed-term and agency patterns. Vacancies are published on each employer's own system first and on the government's Find a Job service.</p>
+
+<h3>Where the work is</h3>
+<p>Administration, customer service, healthcare and healthcare support, education and school support, retail, hospitality, logistics and warehousing, technology, finance, construction and local government services.</p>
+
+<h3>What the law sets</h3>
+<ul>
+    <li>National Living Wage &pound;12.71 an hour for workers aged 21 and over from 1 April 2026; &pound;10.85 for 18 to 20 year olds; &pound;8.00 for 16 to 17 year olds and apprentices</li>
+    <li>The London Living Wage of &pound;14.80 is voluntary and paid only by accredited employers</li>
+    <li>5.6 weeks of paid holiday a year, which is 28 days for a five-day week</li>
+    <li>Agency workers get equal treatment on pay after 12 weeks in the same role with the same hirer</li>
+</ul>
+
+<h3>Before you apply</h3>
+<p><strong>Have your right-to-work evidence ready.</strong> Most applicants prove it with a share code generated on GOV.UK, which is valid for 90 days. British and Irish citizens can use a passport.</p>
+
+<p><strong>Note:</strong> London is the UK region with the highest unemployment rate, at 6.8 per cent in May to July 2026 against 4.9 per cent for the UK. Apply early; London vacancies often close before the advertised deadline. Never pay an agency to be put forward for work. Wage rates, holiday entitlement and labour market statistics are set by law and published by the ONS, not by JobGader; confirm the current figures on gov.uk and ons.gov.uk.</p>
+JOBHTML;
     }
 
     private function postBody(): string

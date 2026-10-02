@@ -2,8 +2,12 @@
 
 namespace Database\Seeders;
 
+use App\Models\Advertiser;
 use App\Models\Blog;
 use App\Models\BlogCatgories;
+use App\Models\Category;
+use App\Models\Job;
+use App\Models\Location;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
@@ -46,6 +50,8 @@ use Illuminate\Support\Str;
  */
 class AssistantProfessorJobsUsBlogSeeder extends Seeder
 {
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
+
     public function run(): void
     {
         $content = $this->postBody();
@@ -80,6 +86,88 @@ class AssistantProfessorJobsUsBlogSeeder extends Seeder
                 'published_at' => now(),
             ]
         );
+
+        $this->seedJob();
+    }
+
+    private function seedJob(): void
+    {
+        $advertiser = Advertiser::firstOrCreate(
+            ['name' => 'US University Departments — Assistant Professor Searches (Aggregated)'],
+            ['type' => 'Private', 'display_reference' => 'us-assistant-professor-aggregated']
+        );
+
+        $location = Location::firstOrCreate(
+            ['name' => 'United States'],
+            ['area' => 'Nationwide', 'country' => 'United States']
+        );
+
+        $category = Category::firstOrCreate(
+            ['slug' => 'graduate-entry-level'],
+            ['name' => 'Graduate & Entry Level']
+        );
+
+        Job::updateOrCreate(
+            [
+                'position' => 'Assistant Professor Vacancies at US Universities — Tenure-Track, Research, Clinical and Teaching-Focused',
+                'advertiser_id' => $advertiser->id,
+            ],
+            [
+                'category_id' => $category->id,
+                'location_id' => $location->id,
+                'description' => $this->jobDescription(),
+                'employment_type' => 'Full-time',
+                'job_type' => 'On-site',
+                'work_hours' => 'Nine-month contract covering two semesters, with an August start for most searches',
+                'language' => 'English',
+                // Starting salary varies by discipline and institution type,
+                // so the AAUP average and BLS institution medians sit in the
+                // description rather than in a salary band on this listing.
+                'salary_currency' => null,
+                'salary_period' => null,
+                'salary_minimum' => null,
+                'salary_maximum' => null,
+                'application_url' => self::APPLY_URL,
+                'meta_description' => 'Assistant professor vacancies at US universities and colleges, including tenure-track, research, clinical and teaching-focused appointments.',
+                'seo_keywords' => 'assistant professor jobs us, tenure track jobs usa, academic job market usa, assistant professor vacancies, faculty openings usa',
+            ]
+        );
+    }
+
+    private function jobDescription(): string
+    {
+        return <<<'JOBHTML'
+<p>Assistant professor is the entry rank of the US professorial ladder. The modifier in front of the title decides the contract, and only one of the five common variants carries a route to tenure.</p>
+
+<h3>What is advertised under this title</h3>
+<ul>
+    <li><strong>Assistant Professor</strong> &mdash; normally tenure-track, with a probationary period and a tenure review</li>
+    <li><strong>Research Assistant Professor</strong> &mdash; grant-funded, lasting as long as the award</li>
+    <li><strong>Clinical Assistant Professor</strong> &mdash; professional schools; licensure and practice usually matter most</li>
+    <li><strong>Teaching Assistant Professor</strong> &mdash; teaching-focused, often renewable, outside the tenure system</li>
+    <li><strong>Visiting Assistant Professor</strong> &mdash; a fixed term, often one year</li>
+</ul>
+
+<h3>Requirements</h3>
+<ul>
+    <li>A doctorate or other terminal degree in the discipline, usually in hand by the start date</li>
+    <li>Evidence of research and a plan for the next five years, for tenure-track and research posts</li>
+    <li>Evidence of teaching effectiveness, which decides most searches at teaching-focused institutions</li>
+    <li>Three referees contacted in advance of the deadline</li>
+</ul>
+
+<h3>The hiring cycle</h3>
+<p>Adverts appear from late summer through autumn for an August start, with deadlines between October and December, campus visits in winter and spring, and offers in spring. Applying outside that cycle mostly reaches visiting and non-tenure-track work.</p>
+
+<h3>Pay and the offer</h3>
+<ul>
+    <li>AAUP 2025&ndash;26 average for an assistant professor: $97,232</li>
+    <li>BLS medians by institution: $96,120 state universities, $89,660 private, $81,640 local junior colleges, $68,160 state junior colleges</li>
+    <li>Startup funds, course release, moving costs and the tenure clock are negotiated once, at offer stage</li>
+</ul>
+
+<p><strong>Get everything agreed in the offer letter.</strong> Pay data is from the AAUP and the US Bureau of Labor Statistics, not by JobGader; each institution sets its own tenure criteria and startup package.</p>
+JOBHTML;
     }
 
     private function postBody(): string

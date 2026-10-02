@@ -2,8 +2,12 @@
 
 namespace Database\Seeders;
 
+use App\Models\Advertiser;
 use App\Models\Blog;
 use App\Models\BlogCatgories;
+use App\Models\Category;
+use App\Models\Job;
+use App\Models\Location;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
@@ -48,6 +52,8 @@ use Illuminate\Support\Str;
  */
 class CollegesHiringProfessorsUsBlogSeeder extends Seeder
 {
+    private const APPLY_URL = 'https://www.usa.gov/job-search';
+
     public function run(): void
     {
         $content = $this->postBody();
@@ -82,6 +88,78 @@ class CollegesHiringProfessorsUsBlogSeeder extends Seeder
                 'published_at' => now(),
             ]
         );
+
+        $this->seedJob();
+    }
+
+    private function seedJob(): void
+    {
+        $advertiser = Advertiser::firstOrCreate(
+            ['name' => 'US Community Colleges & Four-Year Institutions — Teaching Vacancies (Aggregated)'],
+            ['type' => 'Private', 'display_reference' => 'us-colleges-hiring-aggregated']
+        );
+
+        $location = Location::firstOrCreate(
+            ['name' => 'United States'],
+            ['area' => 'Nationwide', 'country' => 'United States']
+        );
+
+        $category = Category::firstOrCreate(
+            ['slug' => 'graduate-entry-level'],
+            ['name' => 'Graduate & Entry Level']
+        );
+
+        Job::updateOrCreate(
+            [
+                'position' => 'College Teaching Vacancies Across US Institutions — Community Colleges, Universities and Online Programmes',
+                'advertiser_id' => $advertiser->id,
+            ],
+            [
+                'category_id' => $category->id,
+                'location_id' => $location->id,
+                'description' => $this->jobDescription(),
+                'employment_type' => 'Full-time',
+                'job_type' => 'On-site',
+                'work_hours' => 'Two courses a semester at doctoral institutions up to five at community colleges; online programmes hire on a rolling basis',
+                'language' => 'English',
+                // The institution type moves the median by $27,960 for the
+                // same occupation, so the BLS figures are given per employer
+                // in the description instead of as one band here.
+                'salary_currency' => null,
+                'salary_period' => null,
+                'salary_minimum' => null,
+                'salary_maximum' => null,
+                'application_url' => self::APPLY_URL,
+                'meta_description' => 'Teaching vacancies at US community colleges, universities, liberal arts colleges and online programmes, with the credential each institution type expects.',
+                'seo_keywords' => 'colleges hiring professors, community college faculty jobs, college professor jobs usa, university faculty openings, teaching jobs colleges usa',
+            ]
+        );
+    }
+
+    private function jobDescription(): string
+    {
+        return <<<'JOBHTML'
+<p>Different kinds of US institution hire on different credentials and pay very differently for the same occupation. Match the institution type to your qualification before applying anywhere.</p>
+
+<h3>Who hires on what, and what they pay</h3>
+<ul>
+    <li><strong>State colleges and universities</strong> &mdash; doctorate in hand by the start date. BLS median $96,120</li>
+    <li><strong>Private colleges and universities</strong> &mdash; doctorate, or a terminal professional degree in applied fields. $89,660</li>
+    <li><strong>Local junior colleges</strong> &mdash; master's in the discipline. $81,640</li>
+    <li><strong>State junior colleges</strong> &mdash; master's in the discipline. $68,160</li>
+</ul>
+
+<h3>The credential rule, corrected</h3>
+<p>The commonly quoted "master's plus 18 graduate semester hours" is <strong>no longer an accreditation requirement</strong>. The Higher Learning Commission removed that language on 2 November 2023, and SACSCOC states it has not been a requirement for close to two decades. Many colleges still apply 18 hours as their own benchmark, so read the college's published faculty credentials policy.</p>
+
+<h3>Part-time rates by institution</h3>
+<p>AAUP averages per standard three-credit section, 2024&ndash;25: $5,115 at doctoral institutions, $4,804 baccalaureate, $3,629 master's, $3,575 associate's with ranks, $3,348 associate's without ranks. All institutions: $4,093.</p>
+
+<h3>Where vacancies appear</h3>
+<p>On the institution's own HR system first, then state system portals for public institutions, and discipline association listings. Federal institutions recruit through USAJOBS.</p>
+
+<p><strong>Online posts list eligible states</strong> because the institution must be authorised to operate and registered for payroll where you live. Pay data is from the US Bureau of Labor Statistics and the AAUP, not by JobGader.</p>
+JOBHTML;
     }
 
     private function postBody(): string
