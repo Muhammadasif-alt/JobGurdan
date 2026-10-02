@@ -346,6 +346,8 @@ JOBHTML;
 <p>Looking at a specific UK job? These cover the sponsorship detail:</p>
 
 <ul>
+    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a> &mdash; the employer side: the sponsor register, ratings, the Certificate of Sponsorship and who pays what.</li>
+    <li><a href="/blog/vacancies-in-london">Vacancies in London</a> &mdash; the London market, the statutory pay floors and the right-to-work check.</li>
     <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; university teaching by the hour, and why the salary floor puts it out of sponsorship reach.</li>
     <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the honorary title that is not a job and carries no visa route.</li>
 </ul>

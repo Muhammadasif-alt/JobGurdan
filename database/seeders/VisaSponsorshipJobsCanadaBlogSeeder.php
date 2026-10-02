@@ -358,6 +358,7 @@ JOBHTML;
 <p>Looking at a specific sponsored job in Canada? These cover it:</p>
 
 <ul>
+    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a> &mdash; the same mechanics under the UK sponsor licence system.</li>
     <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the most-approved LMIA jobs, and which farm program you can use.</li>
     <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; a skilled trade route, and why most welder LMIAs are low-wage.</li>
     <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; the licence class each province requires, and the rules for foreign drivers.</li>

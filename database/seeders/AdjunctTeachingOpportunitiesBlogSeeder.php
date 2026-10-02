@@ -271,6 +271,7 @@ class AdjunctTeachingOpportunitiesBlogSeeder extends Seeder
 <p>The country detail sits in these:</p>
 
 <ul>
+    <li><a href="/blog/faculty-careers-in-the-us">Faculty Careers in the US</a> &mdash; every US appointment type compared, with the BLS pay data for each kind of institution.</li>
     <li><a href="/blog/adjunct-teaching-jobs-in-the-uk">Adjunct Teaching Jobs in the UK</a> &mdash; what the paid work is really called, and the contracts it comes on.</li>
     <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the honorary title that is not a job and carries no salary.</li>
     <li><a href="/blog/adjunct-faculty-vacancies-in-the-uk">Adjunct Faculty Vacancies in the UK</a> &mdash; where the hourly-paid vacancies are actually advertised.</li>

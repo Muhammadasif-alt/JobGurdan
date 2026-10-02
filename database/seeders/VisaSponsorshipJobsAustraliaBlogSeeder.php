@@ -320,6 +320,7 @@ JOBHTML;
 
 <ul>
     <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a></li>
+    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a></li>
     <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a></li>
     <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a></li>
     <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a></li>

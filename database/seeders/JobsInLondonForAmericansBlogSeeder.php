@@ -184,6 +184,12 @@ JOBHTML;
     </a>
 </div>
 
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/jobs-in-london-england-for-american-applicants-citizens.jpg"
+         alt="An American professional with a laptop bag beside Westminster Bridge, with the Stars and Stripes, the Union Jack, Big Ben and a red double-decker bus, under the heading London Jobs for American Citizens"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
 <h2>Five Things Americans Get Told Wrong</h2>
 
 <ul>
@@ -264,6 +270,26 @@ JOBHTML;
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
+<h2>The Sector Gate Most Americans Hit Before the Visa</h2>
+
+<p>Every guide tells Americans that London hires in technology, finance, healthcare and higher education. What they leave out is that four of those sectors put a gate in front of the job that has nothing to do with immigration, and that gate is usually slower than the visa.</p>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/jobs-in-london-england-for-american-applicants-sectors.jpg"
+         alt="An American professional in a navy suit holding a laptop above the Thames at sunset, with the US flag, the Union Jack, the Houses of Parliament and the City skyline behind him"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
+<ul>
+    <li><strong>Healthcare.</strong> Registration comes before employment, and employment comes before the visa. Doctors register with the General Medical Council, nurses and midwives with the Nursing and Midwifery Council, and physiotherapists, radiographers, paramedics and most other allied health professionals with the Health and Care Professions Council. A US licence does not transfer; each regulator assesses the qualification and may require an English or clinical test. Start the registration months before the job search.</li>
+    <li><strong>Finance.</strong> London's regulated roles sit under the Senior Managers and Certification Regime, which obliges the hiring firm to collect regulatory references covering the past six years and to certify you as fit and proper. For an American whose employment history is entirely outside the UK, that reference-gathering is the slow part of onboarding, not the visa.</li>
+    <li><strong>Schools.</strong> Teaching most classes in a state school means holding Qualified Teacher Status. A US teaching licence is not QTS, although teachers qualified in some countries can apply to have QTS awarded. Independent schools set their own rules.</li>
+    <li><strong>Law and accountancy.</strong> A US JD does not make you a solicitor; qualification runs through the Solicitors Qualifying Examination, with exemptions possible for qualified foreign lawyers. A US CPA is not an ACA or ACCA qualification, though reciprocal arrangements and exemptions exist.</li>
+    <li><strong>Technology, research and most professional services.</strong> No licence gate at all. This is why these are the sectors where an American most often moves quickly, and why a research post may qualify for Global Talent instead of needing a sponsor.</li>
+</ul>
+
+<p>The order that works is: check the professional registration first, then the occupation code, then the sponsor licence, then apply. Doing it in the other order is how people lose a year.</p>
+
 <h2>Flying Over for an Interview</h2>
 
 <p>Visitor rules let you attend interviews, meetings, conferences and seminars, negotiate and sign contracts, and make site visits. They do not let you start work, paid or unpaid, for a UK company. Receiving an offer and receiving permission to work are two separate events, and the second one takes weeks.</p>
@@ -282,6 +308,12 @@ JOBHTML;
 <p>Neither number is relevant to sponsorship. A full-time job at the London Living Wage pays roughly £28,900 a year, which is well under £41,700, so hospitality, retail, warehouse and most entry-level administrative work in London cannot be sponsored at all. That is the single most useful thing to know before planning a move: the routes that bring Americans into London are graduate and professional ones.</p>
 
 <p>Against that, budget for London rents, Transport for London fares and council tax before comparing a London offer with a US salary. The visa threshold makes no allowance for any of it.</p>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/jobs-in-london-england-for-american-applicants-skyline.jpg"
+         alt="A professional in glasses holding folders on the Thames embankment at sunset, with a red telephone box, Westminster Bridge, Big Ben and the Union Jack behind her"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
 
 <h2>Your US Taxes Do Not Stop</h2>
 
@@ -361,6 +393,8 @@ JOBHTML;
 <p>Working out a London move? These cover the neighbouring questions:</p>
 
 <ul>
+    <li><a href="/blog/vacancies-in-london">Vacancies in London</a> &mdash; the London market in ONS numbers, the pay floors and the right-to-work check.</li>
+    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a> &mdash; how to read the sponsor register and what a Certificate of Sponsorship is.</li>
     <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; every visa route compared, including the ones that closed in 2025.</li>
     <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London (No Experience Needed)</a> &mdash; what London entry-level work really pays, and why none of it can be sponsored.</li>
     <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a> &mdash; the SOC 2431 code worked through end to end.</li>

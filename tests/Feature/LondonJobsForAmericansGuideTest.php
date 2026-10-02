@@ -5,6 +5,8 @@ use App\Models\Job;
 use App\Services\StructuredDataService;
 use Database\Seeders\JobsInLondonForAmericansBlogSeeder;
 use Database\Seeders\JobsInUkForForeignersBlogSeeder;
+use Database\Seeders\UkJobsWithVisaSponsorshipBlogSeeder;
+use Database\Seeders\VacanciesInLondonBlogSeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 use function Pest\Laravel\get;
@@ -25,7 +27,10 @@ it('publishes the guide with its own images and SEO fields', function () {
         ->and(strlen($blog->meta_description))->toBeLessThanOrEqual(160)
         ->and(strlen($blog->excerpt))->toBeLessThanOrEqual(255)
         ->and($blog->content)->toContain(LONDON_US_SLUG.'-westminster.jpg')
-        ->and($blog->content)->toContain(LONDON_US_SLUG.'-riverside.jpg');
+        ->and($blog->content)->toContain(LONDON_US_SLUG.'-riverside.jpg')
+        ->and($blog->content)->toContain(LONDON_US_SLUG.'-citizens.jpg')
+        ->and($blog->content)->toContain(LONDON_US_SLUG.'-sectors.jpg')
+        ->and($blog->content)->toContain(LONDON_US_SLUG.'-skyline.jpg');
 
     foreach (['tags', 'meta_title', 'meta_description'] as $field) {
         expect(mb_check_encoding($blog->$field, 'ASCII'))->toBeTrue("{$field} carries non-ASCII characters");
@@ -72,6 +77,13 @@ it('states the rules that make this page different from the UK hub guide', funct
     // US filing obligations do not stop on arrival.
     'feie' => '$132,900',
     'fbar' => 'FinCEN Form 114',
+    // The professional-registration gate that sits in front of the visa.
+    'medical regulator' => 'General Medical Council',
+    'nursing regulator' => 'Nursing and Midwifery Council',
+    'allied health regulator' => 'Health and Care Professions Council',
+    'finance regime' => 'Senior Managers and Certification Regime',
+    'school teaching' => 'Qualified Teacher Status',
+    'solicitor route' => 'Solicitors Qualifying Examination',
 ]);
 
 it('does not repeat the old Skilled Worker threshold or claim a London uplift', function () {
@@ -131,3 +143,16 @@ it('cross-links with the UK hub guide in both directions', function () {
         ->and(Blog::where('slug', 'jobs-in-uk-for-foreigners')->value('content'))
         ->toContain('/blog/'.LONDON_US_SLUG);
 });
+
+it('cross-links with the two new London and sponsorship guides in both directions', function (string $seeder, string $slug) {
+    $this->seed(JobsInLondonForAmericansBlogSeeder::class);
+    $this->seed($seeder);
+
+    expect(Blog::where('slug', LONDON_US_SLUG)->value('content'))
+        ->toContain('/blog/'.$slug)
+        ->and(Blog::where('slug', $slug)->value('content'))
+        ->toContain('/blog/'.LONDON_US_SLUG);
+})->with([
+    'london vacancies' => [VacanciesInLondonBlogSeeder::class, 'vacancies-in-london'],
+    'uk sponsorship' => [UkJobsWithVisaSponsorshipBlogSeeder::class, 'uk-jobs-with-visa-sponsorship'],
+]);
