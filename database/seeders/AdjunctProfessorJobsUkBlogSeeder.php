@@ -270,6 +270,7 @@ class AdjunctProfessorJobsUkBlogSeeder extends Seeder
     <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; teaching income that does not depend on a UK visa.</li>
     <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a> &mdash; a teaching route with a far more accessible visa.</li>
     <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a> &mdash; UK employment with a different vetting and sponsorship picture.</li>
+    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a> &mdash; the international picture: what a US course section pays, and what the job is called in each country.</li>
 </ul>
 
 <h2 id="sources">Official Sources</h2>

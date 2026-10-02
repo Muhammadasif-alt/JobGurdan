@@ -375,6 +375,7 @@ JOBHTML;
     <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a> &mdash; the five year vetting and counter terrorism check that decide the application.</li>
     <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a> &mdash; why GP practice pay is not NHS pay, and what care navigation added to the job.</li>
     <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a> &mdash; the Care Certificate, the ward band rates and the route to registered nurse.</li>
+    <li><a href="/blog/jobs-in-london-england-for-american-applicants">Jobs in London England for American Applicants</a> &mdash; the same rules read from a US passport: the English exemption, no Youth Mobility route, and the HPI visa that needs no sponsor.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not immigration or legal advice. UK visa rules, salary thresholds, fees and eligible occupation lists change often. Confirm the current rules on gov.uk or with a regulated immigration adviser before applying or paying anyone.</p>

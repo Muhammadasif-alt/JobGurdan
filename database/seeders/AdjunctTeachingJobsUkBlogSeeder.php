@@ -240,6 +240,7 @@ class AdjunctTeachingJobsUkBlogSeeder extends Seeder
     <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the honorary title, conferred by nomination and unpaid.</li>
     <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the sponsorship routes that clear the salary floor.</li>
     <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; teaching income that does not depend on a UK visa.</li>
+    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a> &mdash; the international picture: what a US course section pays, and what the job is called in each country.</li>
 </ul>
 
 <h2 id="sources">Official Sources</h2>

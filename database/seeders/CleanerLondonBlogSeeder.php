@@ -311,6 +311,7 @@ JOBHTML;
     <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; kitchen work across the UK, and why an &pound;18,000 cook salary is below the legal minimum.</li>
     <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a> &mdash; hotel, hospital and private household housekeeping, and what live-in accommodation can cost.</li>
     <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a> &mdash; the shop floor route, and why the pay figures everyone quotes are below the law.</li>
+    <li><a href="/blog/jobs-in-london-england-for-american-applicants">Jobs in London England for American Applicants</a> &mdash; why no London cleaning job can be sponsored, and which routes into the city actually work.</li>
 </ul>
 
 <div style="text-align:center;margin:32px 0;">

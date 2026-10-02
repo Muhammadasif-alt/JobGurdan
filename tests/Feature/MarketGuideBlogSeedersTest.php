@@ -784,6 +784,16 @@ dataset('market guides', [
         'https://www.gov.uk/find-a-job',
         'Skilled Worker Visa Jobs',
     ],
+    'london for americans' => [
+        'jobs-in-london-england-for-american-applicants',
+        Database\Seeders\JobsInLondonForAmericansBlogSeeder::class,
+        [
+            'jobs-in-london-england-for-american-applicants-westminster.jpg',
+            'jobs-in-london-england-for-american-applicants-riverside.jpg',
+        ],
+        'https://www.gov.uk/find-a-job',
+        'Skilled Worker Visa Jobs in London',
+    ],
     'work from home usa' => [
         'work-from-home-jobs-in-usa',
         Database\Seeders\WorkFromHomeJobsUsaBlogSeeder::class,
