@@ -455,6 +455,7 @@ JOBHTML;
 <p>Going for a specific role in Saudi Arabia? These cover them:</p>
 
 <ul>
+    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a> &mdash; the trade exam that has to be passed before the Saudi visa is issued.</li>
     <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; the biggest sponsored sector and what the contracts look like.</li>
     <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; SCFHS registration, hospital employers and the licensing route.</li>
     <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; licence conversion and what driving work pays.</li>

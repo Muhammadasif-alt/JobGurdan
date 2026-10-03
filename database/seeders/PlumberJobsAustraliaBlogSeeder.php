@@ -355,6 +355,7 @@ JOBHTML;
 <p>Comparing trades and routes? These cover them:</p>
 
 <ul>
+    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a> &mdash; the Gulf route, where nobody sets a wage floor and Saudi Arabia tests the trade before the visa.</li>
     <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; the award floor, the casual loading, and the credential that does travel everywhere.</li>
     <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a> &mdash; the Australian check that does not transfer between states at all.</li>
     <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; the same licensed-trade question under British rules, with a certification deadline attached.</li>
