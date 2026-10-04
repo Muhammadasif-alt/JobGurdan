@@ -425,6 +425,7 @@ JOBHTML;
 <p>The rest of the plumbing cluster, and the routes around it:</p>
 
 <ul>
+    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a> &mdash; the same two countries for electricians, where certification comes first.</li>
     <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; the vacancies, the award floor and the visa routes in detail.</li>
     <li><a href="/blog/plumber-salary-in-the-uk-and-usa">Plumber Salary in the UK and USA</a> &mdash; the BLS and ONS figures, and why other sources disagree.</li>
     <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a> &mdash; who pays the recruitment cost, and the Saudi trade exam.</li>

@@ -350,6 +350,9 @@ JOBHTML;
 <p>Comparing trades and routes? These cover them:</p>
 
 <ul>
+    <li><a href="/blog/electrician-salary-in-the-uae-uk-and-usa">Electrician Salary in the UAE, UK and USA</a> &mdash; the 2026 JIB rates beside BLS and UAE pay rules.</li>
+    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a> &mdash; certification and visas in Canada and Australia.</li>
+    <li><a href="/blog/industrial-vs-house-wiring-electrician-which-pays-more">Industrial vs House Wiring Electrician: Which Pays More</a> &mdash; pay by industry on BLS data.</li>
     <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; the same self-employed arithmetic in a trade with no qualification barrier.</li>
     <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; why operative-level UK roles fail the sponsorship tests.</li>
     <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; the sector where UK sponsorship is genuinely available.</li>

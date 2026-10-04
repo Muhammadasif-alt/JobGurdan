@@ -409,6 +409,7 @@ JOBHTML;
 <p>The rest of the plumbing cluster:</p>
 
 <ul>
+    <li><a href="/blog/electrician-salary-in-the-uae-uk-and-usa">Electrician Salary in the UAE, UK and USA</a> &mdash; the same official-data comparison for electricians.</li>
     <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a> &mdash; who pays the recruitment cost, and the Saudi trade exam sat before the visa.</li>
     <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a> &mdash; the Red Seal, the compulsory provinces and the state licence.</li>
     <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; the licensing route in a country where the trade is fully regulated.</li>
