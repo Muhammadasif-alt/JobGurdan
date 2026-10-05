@@ -363,6 +363,8 @@ JOBHTML;
     <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; how employer sponsorship works and which occupation lists apply.</li>
     <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; entry-level roles while you look for an apprenticeship.</li>
     <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a> &mdash; the same trade in the Gulf, under Saudi sponsorship rules.</li>
+    <li><a href="/blog/car-mechanic-jobs-in-australia-uk-and-canada">Car Mechanic Jobs in Australia, UK and Canada</a> &mdash; the same trade compared across three countries.</li>
+    <li><a href="/blog/ev-technician-jobs-training-and-career-guide">EV Technician Jobs: Training and Career Guide</a> &mdash; adding high-voltage skills to a mechanic's trade.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or migration advice. Award rates, licence rules, apprenticeship terms and occupation lists change over time. Confirm the current position with training.gov.au, the Fair Work Ombudsman, your state's apprenticeship and licensing bodies and the Department of Home Affairs before relying on it.</p>
