@@ -341,6 +341,7 @@ JOBHTML;
     <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a> &mdash; a Gulf trade where a skills test comes before the work visa.</li>
     <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a> &mdash; the operators on the same sites, and where crane tickets are compulsory.</li>
     <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; what changed in 2026, which sectors hire, and how the LMIA and scams work.</li>
+    <li><a href="/blog/welder-salary-in-usa">Welder Salary in USA</a> &mdash; BLS pay by percentile and industry south of the border.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, trade certification rules, LMIA thresholds and Express Entry draws change often. Confirm the current position with the employer, the provincial apprenticeship authority, Job Bank and IRCC, or a licensed immigration consultant, before applying.</p>
