@@ -387,6 +387,7 @@ JOBHTML;
 <p>These cover the trades and the Gulf rules in more detail:</p>
 
 <ul>
+    <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a> &mdash; the same Gulf rules for AC work, plus the summer midday break.</li>
     <li><a href="/blog/plumber-salary-in-the-uk-and-usa">Plumber Salary in the UK and USA</a> &mdash; what the trade pays where official statistics actually measure it.</li>
     <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a> &mdash; the certification route where the trade is licensed.</li>
     <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; the licensing route in a country where the trade is regulated.</li>

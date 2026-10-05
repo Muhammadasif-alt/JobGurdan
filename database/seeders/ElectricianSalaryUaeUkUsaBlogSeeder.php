@@ -405,6 +405,7 @@ JOBHTML;
     <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; the wiring regulations, Part P and what CIS takes from a day rate.</li>
     <li><a href="/blog/plumber-salary-in-the-uk-and-usa">Plumber Salary in the UK and USA</a> &mdash; the same comparison for the plumbing trade.</li>
     <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a> &mdash; recruitment costs and the Saudi trade exam.</li>
+    <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a> &mdash; the same Gulf pay rules for AC work, and the summer midday break.</li>
     <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a> &mdash; how the Skilled Worker route and the shortage list work.</li>
 </ul>
 

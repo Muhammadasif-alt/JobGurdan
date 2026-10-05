@@ -423,6 +423,7 @@ JOBHTML;
     <li><a href="/blog/industrial-vs-house-wiring-electrician-which-pays-more">Industrial vs House Wiring Electrician: Which Pays More</a> &mdash; what the BLS industry data shows.</li>
     <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; the wiring regulations, Part P and CIS.</li>
     <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a> &mdash; the same two systems for the plumbing trade.</li>
+    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a> &mdash; another compulsory trade in most provinces, with Job Bank wages.</li>
     <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; how LMIA-based sponsorship works alongside Express Entry.</li>
     <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; employer sponsorship and the lists it runs on.</li>
     <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; another Express Entry trade, and its certification rules.</li>

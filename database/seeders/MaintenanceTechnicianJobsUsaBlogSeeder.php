@@ -406,6 +406,8 @@ JOBHTML;
 <p>Working out the wider US skilled-work picture? These cover it:</p>
 
 <ul>
+    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a> &mdash; the HVAC side of maintenance work, with BLS pay by state.</li>
+    <li><a href="/blog/how-to-start-a-career-in-refrigeration-and-air-conditioning">How to Start a Career in Refrigeration and Air Conditioning</a> &mdash; EPA 608 and the route into plant refrigeration.</li>
     <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a> &mdash; another hands-on trade, its BLS pay and the OSHA card question.</li>
     <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; a warehouse and plant role that often sits alongside maintenance.</li>
     <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; the wider construction picture and the visa reality.</li>
