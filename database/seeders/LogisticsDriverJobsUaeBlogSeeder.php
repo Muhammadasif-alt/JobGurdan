@@ -396,6 +396,8 @@ JOBHTML;
     <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; which American visa routes are open to truck drivers.</li>
     <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; the height and reach rules, what Emirates publishes on pay, and how the Open Day works.</li>
     <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; why Abu Dhabi ground jobs are advertised by a company called Velora.</li>
+    <li><a href="/blog/delivery-driver-and-courier-jobs-how-to-start-in-a-new-country">Delivery Driver and Courier Jobs: How to Start in a New Country</a> &mdash; rider and courier work in the UAE and the UK.</li>
+    <li><a href="/blog/taxi-and-uber-driver-requirements-by-country">Taxi and Uber Driver Requirements by Country</a> &mdash; the Dubai RTA permit and how other countries license drivers.</li>
     <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a> &mdash; the government portal that replaced PetroJobs.</li>
 </ul>
 

@@ -368,6 +368,7 @@ JOBHTML;
 <ul>
     <li><a href="/blog/construction-labourer-jobs-in-dubai-and-saudi-arabia">Construction Labourer Jobs in Dubai and Saudi Arabia</a> &mdash; the helper level, and how to move up to a trade.</li>
     <li><a href="/blog/how-to-become-a-site-supervisor-or-foreman-abroad">How to Become a Site Supervisor or Foreman Abroad</a> &mdash; the next step for an experienced tradesman.</li>
+    <li><a href="/blog/scaffolder-roofer-and-crane-operator-jobs-abroad">Scaffolder, Roofer and Crane Operator Jobs Abroad</a> &mdash; three more site trades and their shortage-list status.</li>
     <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; the wider Saudi construction market.</li>
     <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a> &mdash; the same Gulf rules for another trade.</li>
     <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a> &mdash; the Gulf rules for HVAC work.</li>

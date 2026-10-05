@@ -396,6 +396,7 @@ JOBHTML;
 <ul>
     <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a> &mdash; the US carpentry market.</li>
     <li><a href="/blog/welder-salary-in-usa">Welder Salary in USA</a> &mdash; official pay by industry for another construction trade.</li>
+    <li><a href="/blog/scaffolder-roofer-and-crane-operator-jobs-abroad">Scaffolder, Roofer and Crane Operator Jobs Abroad</a> &mdash; more trades the UK no longer newly sponsors.</li>
     <li><a href="/blog/painter-and-decorator-jobs-in-the-gulf">Painter and Decorator Jobs in the Gulf</a> &mdash; a finishing trade in the UAE and Saudi Arabia.</li>
     <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a> &mdash; the same certification systems for another trade.</li>
     <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; the wider Australian site market.</li>
