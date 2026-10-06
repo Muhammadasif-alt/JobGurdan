@@ -112,6 +112,15 @@ it('keeps the hero eyebrow to claims the listings can back up', function () {
         ->not->toMatch('/verified|all over the world|worldwide/i');
 });
 
+it('centres the hero description under the headline', function () {
+    // The description is capped narrower than the hero column, so without
+    // auto side margins it sits against the left edge of that column.
+    $css = (string) preg_replace('/\s+/', ' ', homeSplitRows()['html']);
+
+    expect($css)->toContain('.utf-banner-headline-text-part > span:not(.hero-eyebrow):not(.accent) { margin: 0 auto 28px !important; }')
+        ->not->toContain('.utf-banner-headline-text-part > span:not(.hero-eyebrow):not(.accent) { margin: 0 0 28px !important; }');
+});
+
 it('does not promise an employer link or a check most listings do not have', function () {
     // Most live listings point at a job-board search page rather than one
     // employer's advert, and employer accounts publish without a review.

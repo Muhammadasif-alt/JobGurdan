@@ -761,7 +761,7 @@
             margin: 0 !important;
         }
         .intro-banner.intro-hero-v2.hero-split .utf-banner-headline-text-part > span:not(.hero-eyebrow):not(.accent) {
-            margin: 0 0 28px !important;
+            margin: 0 auto 28px !important;
         }
         .intro-banner.intro-hero-v2.hero-split .utf-intro-banner-search-form-block {
             margin: 24px 0 0 !important;
