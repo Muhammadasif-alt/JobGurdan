@@ -3,6 +3,7 @@
 use App\Models\Scholarship;
 use Database\Seeders\AnuRtpScholarshipSeeder;
 use Database\Seeders\AustraliaScholarshipsWithoutIeltsScholarshipSeeder;
+use Database\Seeders\CommonwealthScholarshipUkScholarshipSeeder;
 use Database\Seeders\EpflAiCenterFellowshipSeeder;
 use Database\Seeders\FranceScholarshipsWithoutIeltsScholarshipSeeder;
 use Database\Seeders\HarvardFreeOnlineCoursesScholarshipSeeder;
@@ -140,6 +141,7 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'yale' => [YaleUniversityScholarshipSeeder::class, YaleUniversityScholarshipSeeder::SLUG, 2],
     'pearson' => [LesterBPearsonScholarshipSeeder::class, LesterBPearsonScholarshipSeeder::SLUG, 2],
     'epfl ai center' => [EpflAiCenterFellowshipSeeder::class, EpflAiCenterFellowshipSeeder::SLUG, 1],
+    'commonwealth uk' => [CommonwealthScholarshipUkScholarshipSeeder::class, CommonwealthScholarshipUkScholarshipSeeder::SLUG, 1],
     'harvard free courses' => [HarvardFreeOnlineCoursesScholarshipSeeder::class, HarvardFreeOnlineCoursesScholarshipSeeder::SLUG, 0],
 ]);
 
@@ -938,4 +940,24 @@ it('tells Harvard course takers that certificates cost money, that this is no sc
         ->not->toContain('alexandragrants')
         ->not->toContain('UNICEF')
         ->not->toContain('Fully Funded');
+});
+
+it('gives Commonwealth applicants the entry year, the nominator route, the HEC rules and the benefits the brief gets wrong', function () {
+    $this->seed(CommonwealthScholarshipUkScholarshipSeeder::class);
+
+    $scholarship = Scholarship::where('slug', CommonwealthScholarshipUkScholarshipSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->apply_url)->toBe('https://cscuk.fcdo.gov.uk/apply/')
+        ->and($scholarship->deadline->toDateString())->toBe('2026-10-20')
+        ->and($scholarship->content)->toContain('does not take direct applications')
+        ->toContain('Tuesday 20 October 2026')
+        ->toContain('September or October 2027')
+        ->toContain('HAT score of at least 60 out of 100')
+        ->toContain('scholarship.hec.gov.pk')
+        ->toContain('There is no "accommodation support"')
+        ->toContain('&pound;1,712 a month')
+        ->toContain("26 Master's and 30 PhD nominations")
+        ->toContain('Host bids closed on 24 September 2026')
+        ->toContain('/scholarships/'.UniversityOfLeedsCommonwealthMastersScholarshipSeeder::SLUG)
+        ->not->toContain('jpascholarships');
 });
