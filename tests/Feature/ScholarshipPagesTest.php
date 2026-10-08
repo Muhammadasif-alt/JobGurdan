@@ -5,6 +5,7 @@ use Database\Seeders\AnuRtpScholarshipSeeder;
 use Database\Seeders\AustraliaScholarshipsWithoutIeltsScholarshipSeeder;
 use Database\Seeders\EpflAiCenterFellowshipSeeder;
 use Database\Seeders\FranceScholarshipsWithoutIeltsScholarshipSeeder;
+use Database\Seeders\HarvardFreeOnlineCoursesScholarshipSeeder;
 use Database\Seeders\InsubriaScholarshipSeeder;
 use Database\Seeders\IrenaYouthForum2027ScholarshipSeeder;
 use Database\Seeders\KingsCollegeLondonCheveningScholarshipSeeder;
@@ -139,6 +140,7 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'yale' => [YaleUniversityScholarshipSeeder::class, YaleUniversityScholarshipSeeder::SLUG, 2],
     'pearson' => [LesterBPearsonScholarshipSeeder::class, LesterBPearsonScholarshipSeeder::SLUG, 2],
     'epfl ai center' => [EpflAiCenterFellowshipSeeder::class, EpflAiCenterFellowshipSeeder::SLUG, 1],
+    'harvard free courses' => [HarvardFreeOnlineCoursesScholarshipSeeder::class, HarvardFreeOnlineCoursesScholarshipSeeder::SLUG, 0],
 ]);
 
 it('sends UniSA applicants to Adelaide University with the stipend, rounds and contacts the brief gets wrong', function () {
@@ -918,4 +920,22 @@ it('links the two new awards to each other and back from their older siblings', 
             get(route('scholarships.show', $slug))->assertOk();
         }
     }
+});
+
+it('tells Harvard course takers that certificates cost money, that this is no scholarship and which link is official', function () {
+    $this->seed(HarvardFreeOnlineCoursesScholarshipSeeder::class);
+
+    $scholarship = Scholarship::where('slug', HarvardFreeOnlineCoursesScholarshipSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->apply_url)->toBe('https://pll.harvard.edu/catalog/free')
+        ->and($scholarship->deadline)->toBeNull()
+        ->and($scholarship->deadlineLabel())->toBe($scholarship->deadline_note)
+        ->and($scholarship->content)->toContain('not a scholarship and there is nothing to apply for')
+        ->toContain('a <strong>verified certificate usually costs money</strong>')
+        ->toContain('CS50x offers a free certificate of completion')
+        ->toContain('points to a third-party blog')
+        ->toContain('/scholarships/'.YaleUniversityScholarshipSeeder::SLUG)
+        ->not->toContain('alexandragrants')
+        ->not->toContain('UNICEF')
+        ->not->toContain('Fully Funded');
 });
