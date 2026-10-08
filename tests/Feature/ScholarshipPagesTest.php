@@ -3,6 +3,7 @@
 use App\Models\Scholarship;
 use Database\Seeders\AnuRtpScholarshipSeeder;
 use Database\Seeders\AustraliaScholarshipsWithoutIeltsScholarshipSeeder;
+use Database\Seeders\BelgiumGovernmentScholarshipsScholarshipSeeder;
 use Database\Seeders\CommonwealthScholarshipUkScholarshipSeeder;
 use Database\Seeders\EpflAiCenterFellowshipSeeder;
 use Database\Seeders\FranceScholarshipsWithoutIeltsScholarshipSeeder;
@@ -141,6 +142,7 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     'yale' => [YaleUniversityScholarshipSeeder::class, YaleUniversityScholarshipSeeder::SLUG, 2],
     'pearson' => [LesterBPearsonScholarshipSeeder::class, LesterBPearsonScholarshipSeeder::SLUG, 2],
     'epfl ai center' => [EpflAiCenterFellowshipSeeder::class, EpflAiCenterFellowshipSeeder::SLUG, 1],
+    'belgium' => [BelgiumGovernmentScholarshipsScholarshipSeeder::class, BelgiumGovernmentScholarshipsScholarshipSeeder::SLUG, 1],
     'commonwealth uk' => [CommonwealthScholarshipUkScholarshipSeeder::class, CommonwealthScholarshipUkScholarshipSeeder::SLUG, 1],
     'harvard free courses' => [HarvardFreeOnlineCoursesScholarshipSeeder::class, HarvardFreeOnlineCoursesScholarshipSeeder::SLUG, 0],
 ]);
@@ -960,4 +962,23 @@ it('gives Commonwealth applicants the entry year, the nominator route, the HEC r
         ->toContain('Host bids closed on 24 September 2026')
         ->toContain('/scholarships/'.UniversityOfLeedsCommonwealthMastersScholarshipSeeder::SLUG)
         ->not->toContain('jpascholarships');
+});
+
+it('tells Belgium applicants that ARES and VLIR-UOS are country-limited, closed or not yet open, and not for PhDs', function () {
+    $this->seed(BelgiumGovernmentScholarshipsScholarshipSeeder::class);
+
+    $scholarship = Scholarship::where('slug', BelgiumGovernmentScholarshipsScholarshipSeeder::SLUG)->firstOrFail();
+
+    expect($scholarship->apply_url)->toBe('https://www.ares-ac.be/en/scholarships')
+        ->and($scholarship->deadline)->toBeNull()
+        ->and($scholarship->deadlineLabel())->toBe($scholarship->deadline_note)
+        ->and($scholarship->content)->toContain('There is no single "Belgium Government Scholarship"')
+        ->toContain('Pakistan is not on either list')
+        ->toContain('29 eligible countries')
+        ->toContain('closed on 18 September 2026')
+        ->toContain('mid-November 2026')
+        ->toContain('There is no PhD route')
+        ->toContain('Erasmus Mundus Joint Master')
+        ->toContain('/scholarships/'.CommonwealthScholarshipUkScholarshipSeeder::SLUG)
+        ->not->toContain('unicafscholarship.com');
 });
