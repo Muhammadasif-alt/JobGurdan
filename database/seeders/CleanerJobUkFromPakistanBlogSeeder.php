@@ -61,7 +61,7 @@ class CleanerJobUkFromPakistanBlogSeeder extends Seeder
                 'author_id' => $author?->id,
                 'author_name' => $author?->name ?? 'Admin',
                 'title' => 'How Do I Get a Cleaner Job in the UK From Pakistan?',
-                'excerpt' => 'You cannot get a UK cleaner job directly from Pakistan on a work visa. Cleaning is a lower-skilled job that employers cannot normally sponsor. See which visas already allow cleaning work, the steps, pay and the scams to avoid.',
+                'excerpt' => 'You cannot get a UK cleaner job directly from Pakistan on a work visa. See which visas already allow cleaning work, the steps to apply, pay rules and the scams to avoid.',
                 'content' => $content,
                 'featured_image' => 'blogs/how-to-get-cleaner-job-uk-from-pakistan.jpg',
                 'tags' => 'cleaner job uk from pakistan, uk cleaner visa, cleaning jobs uk for foreigners, student visa cleaner job, uk cleaner salary, graduate visa work, uk visa sponsorship scams, janitor job uk',

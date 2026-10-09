@@ -67,7 +67,7 @@ class WarehouseWorkerSalaryCanadaBlogSeeder extends Seeder
                 'author_id' => $author?->id,
                 'author_name' => $author?->name ?? 'Admin',
                 'title' => 'How Much Does a Warehouse Worker Make in Canada in 2026?',
-                'excerpt' => 'The median Canadian warehouse worker (material handler) earns C$22.00 an hour, about C$45,760 a year at 40 hours a week. See the low and high wages, Ontario and Quebec figures, PKR conversions and the work-permit rules.',
+                'excerpt' => 'The median Canadian warehouse worker earns C$22.00 an hour, about C$45,760 a year at 40 hours a week. See low and high wages, Ontario and Quebec figures, PKR conversions and work-permit rules.',
                 'content' => $content,
                 'featured_image' => 'blogs/warehouse-worker-salary-canada.jpg',
                 'tags' => 'warehouse worker salary canada, material handler wages canada, canada warehouse hourly rate, warehouse pay ontario, warehouse salary in pkr, job bank wages, canada work permit warehouse, warehouse jobs canada pakistan',

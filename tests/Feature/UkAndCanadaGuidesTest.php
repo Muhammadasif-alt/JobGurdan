@@ -34,7 +34,7 @@ it('seeds a published guide within the SEO limits', function (string $seeder) {
     expect($blog->status)->toBe('published')
         ->and(strlen($blog->meta_title))->toBeLessThanOrEqual(60)
         ->and(strlen($blog->meta_description))->toBeLessThanOrEqual(160)
-        ->and(strlen($blog->excerpt))->toBeLessThanOrEqual(300)
+        ->and(strlen($blog->excerpt))->toBeLessThanOrEqual(255)
         ->and($tags)->toHaveCount(8)
         ->and($blog->featured_image)->toStartWith('blogs/');
 })->with('guides');

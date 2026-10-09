@@ -63,7 +63,7 @@ class KitchenPorterSalaryUkBlogSeeder extends Seeder
                 'author_id' => $author?->id,
                 'author_name' => $author?->name ?? 'Admin',
                 'title' => 'How Much Does a Kitchen Porter Earn in the UK in 2026?',
-                'excerpt' => 'The legal minimum for a UK kitchen porter aged 21 or over is £12.71 an hour from April 2026, about £2,203 a month before tax. See example rates above the minimum, take-home pay, PKR conversions and the right-to-work rules.',
+                'excerpt' => 'The legal minimum for a UK kitchen porter aged 21 or over is £12.71 an hour from April 2026, about £2,203 a month before tax. See example rates, take-home pay and PKR conversions.',
                 'content' => $content,
                 'featured_image' => 'blogs/kitchen-porter-salary-uk.jpg',
                 'tags' => 'kitchen porter salary uk, kitchen porter hourly rate, national living wage 2026, kitchen porter pay uk, kitchen porter salary in pkr, kitchen porter take home pay, uk hospitality pay, kitchen porter job uk foreigners',

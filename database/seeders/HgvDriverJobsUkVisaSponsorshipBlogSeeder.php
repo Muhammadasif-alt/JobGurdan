@@ -69,7 +69,7 @@ class HgvDriverJobsUkVisaSponsorshipBlogSeeder extends Seeder
                 'author_id' => $author?->id,
                 'author_name' => $author?->name ?? 'Admin',
                 'title' => 'Can a Foreigner Get an HGV Driver Job in the UK With Visa Sponsorship in 2026?',
-                'excerpt' => 'Generally no. Since 22 July 2025 the Skilled Worker visa covers mainly degree-level roles and a few shortage roles, and HGV driver is not on the shortage list. See the rules, the licences needed, which transport jobs can be sponsored and the scams to avoid.',
+                'excerpt' => 'Generally no. Since 22 July 2025 the Skilled Worker visa covers mainly degree-level and shortage roles, and HGV driver is not on the shortage list. See the rules, licences needed, sponsored transport roles and scams.',
                 'content' => $content,
                 'featured_image' => 'blogs/hgv-driver-jobs-uk-visa-sponsorship.jpg',
                 'tags' => 'hgv driver jobs uk, hgv visa sponsorship, uk lorry driver visa, skilled worker visa hgv, hgv driver from pakistan, hgv licence uk, uk visa sponsorship scams, class 1 driver jobs',

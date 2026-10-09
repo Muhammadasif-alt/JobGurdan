@@ -64,7 +64,7 @@ class KitchenPorterJobsUkVisaSponsorshipBlogSeeder extends Seeder
                 'author_id' => $author?->id,
                 'author_name' => $author?->name ?? 'Admin',
                 'title' => 'Can a Foreigner Get a Kitchen Porter Job in the UK With Visa Sponsorship in 2026?',
-                'excerpt' => 'Generally no. Since 22 July 2025 the Skilled Worker visa covers mainly degree-level roles and a few shortage roles, so UK employers cannot normally sponsor a kitchen porter. See the rules, the routes that allow work, why "sponsorship" adverts mislead and the scams to avoid.',
+                'excerpt' => 'Generally no. Since 22 July 2025 the Skilled Worker visa covers mainly degree-level roles, so UK employers cannot normally sponsor a kitchen porter. See the rules, routes that allow work and scams.',
                 'content' => $content,
                 'featured_image' => 'blogs/kitchen-porter-jobs-uk-visa-sponsorship.jpg',
                 'tags' => 'kitchen porter jobs uk, uk kitchen porter visa sponsorship, skilled worker visa kitchen porter, kitchen porter jobs for foreigners, kitchen porter from pakistan, uk visa sponsorship scams, national living wage, uk hospitality jobs',
