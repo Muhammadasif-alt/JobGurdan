@@ -36,6 +36,115 @@ class GuideJobListingsSeeder extends Seeder
         $this->seedTruckDriver($usa);
         $this->seedCaregiver($usa);
         $this->seedUkWarehouse($uk);
+        $this->seedSalaryAndPakistanListings($usa, $uk);
+    }
+
+    /**
+     * Each guide gets its own listing, even when the occupation matches an
+     * existing one, so the salary and from-Pakistan guides are not pointed at
+     * the visa guide's job.
+     */
+    private function seedSalaryAndPakistanListings(Location $usa, Location $uk): void
+    {
+        $h2b = 'https://seasonaljobs.dol.gov/';
+        $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
+        $note = '<p><strong>Note:</strong> visa and wage rules are set by the US Government, not by JobGader. This link opens an official US Government page; it is not an application form, and a visible order does not prove recruitment is still open.</p>';
+
+        $listings = [
+            [
+                'category' => ['hospitality-tourism', 'Hospitality & Tourism'],
+                'advertiser' => ['US Hotels and Resorts (Aggregated)', 'usa-hotels-aggregated'],
+                'location' => $usa,
+                'position' => 'Hotel Housekeeper — US Hotels (Wage Check on H-2B Job Orders)',
+                'intro' => 'Each H-2B job order on the US Department of Labor portal states the hourly wage the employer must pay. Read the wage line before you contact an employer.',
+                'items' => ['The wage on a job order must meet the prevailing wage set for that occupation and area', 'Hours, dates and location are on the order itself', 'The employer must not charge you recruitment or visa fees'],
+                'url' => $h2b,
+                'keywords' => 'hotel housekeeper salary usa, hotel housekeeper pay, h-2b wage rates, housekeeper jobs usa',
+            ],
+            [
+                'category' => ['hospitality-tourism', 'Hospitality & Tourism'],
+                'advertiser' => ['US Hotels and Resorts (Aggregated)', 'usa-hotels-aggregated'],
+                'location' => $usa,
+                'position' => 'Hotel Housekeeper — US Hotels (Applying From Pakistan)',
+                'intro' => 'A worker in Pakistan cannot apply to the US Government for an H-2B visa alone: the US employer files the petition with USCIS first. USCIS explains each step on its H-2B page.',
+                'items' => ['The employer obtains labor certification, then petitions USCIS', 'Only after approval do you apply for the visa at a US embassy or consulate', 'Anyone asking you for a fee to "guarantee" a visa is not following the rules'],
+                'url' => $h2bPage,
+                'keywords' => 'hotel housekeeper job usa from pakistan, h-2b visa pakistan, housekeeper visa usa, how to apply h-2b',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['US Warehouse and Logistics Employers (Aggregated)', 'usa-warehouse-aggregated'],
+                'location' => $usa,
+                'position' => 'Warehouse Worker — US Employers (Wage Check on H-2B Job Orders)',
+                'intro' => 'Each H-2B job order on the US Department of Labor portal states the hourly wage the employer must pay. Read the wage line before you contact an employer.',
+                'items' => ['The wage on a job order must meet the prevailing wage set for that occupation and area', 'Hours, dates and location are on the order itself', 'The employer must not charge you recruitment or visa fees'],
+                'url' => $h2b,
+                'keywords' => 'warehouse worker salary usa, warehouse pay, h-2b wage rates, warehouse jobs usa',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['US Warehouse and Logistics Employers (Aggregated)', 'usa-warehouse-aggregated'],
+                'location' => $usa,
+                'position' => 'Warehouse Worker — US Employers (Applying From Pakistan)',
+                'intro' => 'A worker in Pakistan cannot apply to the US Government for an H-2B visa alone: the US employer files the petition with USCIS first. USCIS explains each step on its H-2B page.',
+                'items' => ['The employer obtains labor certification, then petitions USCIS', 'Only after approval do you apply for the visa at a US embassy or consulate', 'Anyone asking you for a fee to "guarantee" a visa is not following the rules'],
+                'url' => $h2bPage,
+                'keywords' => 'warehouse job usa from pakistan, h-2b visa pakistan, warehouse worker visa, how to apply h-2b',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['US Landscaping Employers (Aggregated)', 'usa-landscaping-aggregated'],
+                'location' => $usa,
+                'position' => 'Landscaper — US Employers (Wage Check on H-2B Job Orders)',
+                'intro' => 'Each H-2B job order on the US Department of Labor portal states the hourly wage the employer must pay. Read the wage line before you contact an employer.',
+                'items' => ['The wage on a job order must meet the prevailing wage set for that occupation and area', 'Hours, dates and location are on the order itself', 'The employer must not charge you recruitment or visa fees'],
+                'url' => $h2b,
+                'keywords' => 'landscaper salary usa, landscaping pay, h-2b wage rates, landscaper jobs usa',
+            ],
+            [
+                'category' => ['transport-logistics', 'Transport & Logistics'],
+                'advertiser' => ['UK Warehouse and Logistics Employers (Aggregated)', 'uk-warehouse-aggregated'],
+                'location' => $uk,
+                'position' => 'Warehouse Operative — UK Employers (Pay Check)',
+                'intro' => 'Find a job is the UK Government\'s official job search. Every advert states its hourly rate; check it against the National Living Wage for your age before you apply.',
+                'items' => ['The National Living Wage is the legal minimum for workers aged 21 and over', 'Hours, shifts and location are in each advert', 'No UK employer or agency may charge you a fee for finding work'],
+                'url' => 'https://findajob.dwp.gov.uk/',
+                'keywords' => 'warehouse operative salary uk, warehouse pay uk, national living wage, warehouse jobs uk',
+            ],
+        ];
+
+        foreach ($listings as $listing) {
+            $category = Category::firstOrCreate(['slug' => $listing['category'][0]], ['name' => $listing['category'][1]]);
+            $advertiser = Advertiser::firstOrCreate(
+                ['name' => $listing['advertiser'][0]],
+                ['type' => 'Private', 'display_reference' => $listing['advertiser'][1]]
+            );
+
+            $items = collect($listing['items'])->map(fn (string $item): string => '    <li>'.$item.'</li>')->implode("\n");
+            $footer = $listing['location']->country === 'United Kingdom'
+                ? '<p><strong>Note:</strong> pay and visa rules are set by the UK Government, not by JobGader. This link opens the official job search; it is not an application form, and a visible advert does not prove the employer is hiring.</p>'
+                : $note;
+
+            Job::updateOrCreate(
+                ['position' => $listing['position'], 'advertiser_id' => $advertiser->id],
+                [
+                    'category_id' => $category->id,
+                    'location_id' => $listing['location']->id,
+                    'description' => '<p>'.$listing['intro']."</p>\n\n<h3>Requirements</h3>\n<ul>\n".$items."\n</ul>\n\n".$footer,
+                    'employment_type' => 'Full-time',
+                    'job_type' => 'On-site',
+                    'work_hours' => 'Set by each employer',
+                    'language' => 'English',
+                    'salary_currency' => null,
+                    'salary_period' => null,
+                    'salary_minimum' => null,
+                    'salary_maximum' => null,
+                    'application_url' => $listing['url'],
+                    'meta_description' => mb_substr(strip_tags($listing['intro']), 0, 157).(mb_strlen(strip_tags($listing['intro'])) > 157 ? '...' : ''),
+                    'seo_keywords' => $listing['keywords'],
+                ]
+            );
+        }
     }
 
     private function seedTruckDriver(Location $location): void
