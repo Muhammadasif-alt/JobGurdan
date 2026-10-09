@@ -18,7 +18,7 @@ beforeEach(function () {
 it('publishes with SEO fields inside the column limits', function () {
     expect($this->blog)->not->toBeNull()
         ->and($this->blog->status)->toBe('published')
-        ->and($this->blog->featured_image)->toBe('blogs/warehouse-worker-jobs-usa-visa-sponsorship.jpg')
+        ->and($this->blog->featured_image)->toBe('blogs/warehouse-worker-jobs-usa-visa-sponsorship-poster.jpg')
         ->and(strlen($this->blog->meta_title))->toBeLessThanOrEqual(60)
         ->and(strlen($this->blog->meta_description))->toBeLessThanOrEqual(160)
         ->and(strlen($this->blog->excerpt))->toBeLessThanOrEqual(255)
@@ -31,7 +31,7 @@ it('publishes with SEO fields inside the column limits', function () {
 
 it('has its images on disk', function (string $image) {
     expect(file_exists(storage_path("app/public/blogs/{$image}.jpg")))->toBeTrue("{$image}.jpg is missing");
-})->with(['warehouse-worker-jobs-usa-visa-sponsorship']);
+})->with(['warehouse-worker-jobs-usa-visa-sponsorship-poster']);
 
 it('carries exactly eight FAQs and eight People Also Search For entries', function () {
     expect(app(StructuredDataService::class)->faqsFromHtml($this->blog->content))->toHaveCount(8);

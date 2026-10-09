@@ -62,7 +62,7 @@ class HgvDriverJobUkFromPakistanBlogSeeder extends Seeder
                 'title' => 'How Do I Get an HGV Driver Job in the UK From Pakistan?',
                 'excerpt' => 'You cannot get a UK HGV driver job directly from Pakistan. No standard work visa sponsors the role and you need a UK HGV licence. See the statuses that allow driving work, the licence steps and scams.',
                 'content' => $content,
-                'featured_image' => 'blogs/how-to-get-hgv-driver-job-uk-from-pakistan.jpg',
+                'featured_image' => 'blogs/how-to-get-hgv-driver-job-uk-from-pakistan-poster.jpg',
                 'tags' => 'hgv driver job uk from pakistan, pakistani hgv driver uk, hgv licence uk, driver cpc, uk lorry driver from pakistan, hgv visa pakistan, uk visa sponsorship scams, class 1 driver jobs',
                 'meta_title' => 'How to Get an HGV Driver Job in the UK From Pakistan',
                 'meta_description' => 'Can Pakistanis get a UK HGV driver job in 2026? The statuses that allow driving work, the licence steps, what employers want and scams to avoid.',

@@ -60,7 +60,7 @@ class CaregiverJobsUsaVisaSponsorshipBlogSeeder extends Seeder
                 'title' => 'Can a Foreigner Get a Caregiver Job in the USA With Visa Sponsorship in 2026?',
                 'excerpt' => 'Yes, mostly through the EB-3 Other Workers green card, not H-2B. Caregiving is year-round work, EB-3 needs a PERM labor certification and takes years, and the employer pays the costs. See the routes, pay, requirements and scam warnings.',
                 'content' => $content,
-                'featured_image' => 'blogs/caregiver-jobs-usa-visa-sponsorship.jpg',
+                'featured_image' => 'blogs/caregiver-jobs-usa-visa-sponsorship-poster.jpg',
                 'tags' => 'caregiver jobs usa, caregiver visa sponsorship, eb-3 other workers, home health aide visa, caregiver jobs for foreigners, caregiver salary usa, careworker visa act, caregiver job from pakistan',
                 'meta_title' => 'Caregiver Jobs in USA With Visa Sponsorship (2026)',
                 'meta_description' => 'Caregiver jobs in the USA with visa sponsorship: the EB-3 green card route, why H-2B rarely fits, pay, requirements and scam warnings.',

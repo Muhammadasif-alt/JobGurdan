@@ -76,7 +76,7 @@ class WarehouseWorkerJobsUsaVisaSponsorshipBlogSeeder extends Seeder
                 'title' => 'Can a Foreigner Get a Warehouse Worker Job in the USA With Visa Sponsorship in 2026?',
                 'excerpt' => 'Yes, but only through limited routes. The H-2B temporary visa covers seasonal or peak-load warehouse work; a permanent EB-3 green card is rare and slow. Here are the requirements, the cap position, pay and how to avoid scams.',
                 'content' => $content,
-                'featured_image' => 'blogs/warehouse-worker-jobs-usa-visa-sponsorship.jpg',
+                'featured_image' => 'blogs/warehouse-worker-jobs-usa-visa-sponsorship-poster.jpg',
                 'tags' => 'warehouse worker jobs usa, warehouse jobs visa sponsorship, h-2b warehouse jobs, warehouse worker visa usa, material mover jobs usa, eb-3 other workers, warehouse jobs for foreigners, warehouse jobs from pakistan',
                 'meta_title' => 'Warehouse Worker Jobs in USA With Visa Sponsorship (2026)',
                 'meta_description' => 'Warehouse worker jobs in the USA with visa sponsorship: H-2B and EB-3 routes, requirements, the cap position, pay and how to avoid job scams.',

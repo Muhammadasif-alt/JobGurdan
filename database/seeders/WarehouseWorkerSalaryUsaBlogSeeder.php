@@ -55,7 +55,7 @@ class WarehouseWorkerSalaryUsaBlogSeeder extends Seeder
                 'title' => 'How Much Does a Warehouse Worker Make in the USA in 2026?',
                 'excerpt' => 'The median US warehouse worker earned $19.35 an hour, or $40,240 a year, in the BLS May 2025 estimates; the mean was $20.32. See the full range, monthly and PKR examples, overtime rules and the pay rules for foreign workers.',
                 'content' => $content,
-                'featured_image' => 'blogs/warehouse-worker-salary-usa.jpg',
+                'featured_image' => 'blogs/warehouse-worker-salary-usa-poster.jpg',
                 'tags' => 'warehouse worker salary usa, warehouse hourly rate usa, warehouse monthly pay, warehouse salary in pkr, material mover wages, warehouse pay for foreigners, h-2b warehouse wages, bls warehouse wages',
                 'meta_title' => 'How Much Does a Warehouse Worker Make in the USA (2026)?',
                 'meta_description' => 'Warehouse worker pay in the USA: BLS median and mean hourly wages, the full pay range, monthly and PKR examples, overtime and H-2B wage rules.',

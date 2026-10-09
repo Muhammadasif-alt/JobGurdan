@@ -62,7 +62,7 @@ class TruckDriverSalaryUsaBlogSeeder extends Seeder
                 'title' => 'How Much Does a Truck Driver Make in the USA in 2026?',
                 'excerpt' => 'The median US heavy truck driver earned $28.19 an hour, or $58,640 a year, in the BLS May 2025 estimates; the mean was $59,710. See the full range, the best-paying states, monthly and PKR examples, and what foreign drivers need first.',
                 'content' => $content,
-                'featured_image' => 'blogs/truck-driver-salary-usa.jpg',
+                'featured_image' => 'blogs/truck-driver-salary-usa-poster.jpg',
                 'tags' => 'truck driver salary usa, truckers pay usa, cdl driver salary, truck driver hourly rate, truck driver monthly pay, truck driver salary in pkr, bls truck driver wages, foreign truck driver usa',
                 'meta_title' => 'How Much Does a Truck Driver Make in the USA (2026)?',
                 'meta_description' => 'Truck driver pay in the USA: BLS median and mean wages, the full pay range, best-paying states, monthly and PKR examples, and rules for foreigners.',

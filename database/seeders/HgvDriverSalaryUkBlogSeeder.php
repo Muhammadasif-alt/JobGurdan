@@ -64,7 +64,7 @@ class HgvDriverSalaryUkBlogSeeder extends Seeder
                 'title' => 'How Much Does an HGV Driver Earn in the UK in 2026?',
                 'excerpt' => 'Pay depends on licence class, shift and employer. See worked examples at £32,000, £37,500 and £42,000 a year, take-home pay, PKR conversions and the UK right-to-work rules.',
                 'content' => $content,
-                'featured_image' => 'blogs/hgv-driver-salary-uk.jpg',
+                'featured_image' => 'blogs/hgv-driver-salary-uk-poster.jpg',
                 'tags' => 'hgv driver salary uk, class 1 driver pay, class 2 driver pay, hgv driver hourly rate, hgv driver monthly pay, hgv salary in pkr, lorry driver take home pay, hgv driver from pakistan',
                 'meta_title' => 'How Much Does an HGV Driver Earn in the UK (2026)?',
                 'meta_description' => 'UK HGV driver pay in 2026: worked examples by year, take-home pay, PKR conversions, what moves pay up or down and the right-to-work rules.',

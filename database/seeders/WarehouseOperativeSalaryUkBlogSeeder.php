@@ -57,7 +57,7 @@ class WarehouseOperativeSalaryUkBlogSeeder extends Seeder
                 'title' => 'How Much Does a Warehouse Operative Earn in the UK in 2026?',
                 'excerpt' => 'The legal minimum for a UK warehouse operative aged 21 or over is 12.71 pounds an hour from April 2026, about 26,437 pounds a year at 40 hours. See what higher rates pay, take-home pay, PKR examples and the rules for foreign workers.',
                 'content' => $content,
-                'featured_image' => 'blogs/warehouse-operative-salary-uk.jpg',
+                'featured_image' => 'blogs/warehouse-operative-salary-uk-poster.jpg',
                 'tags' => 'warehouse operative salary uk, uk warehouse hourly rate, national living wage 2026, warehouse pay uk, warehouse salary in pkr, uk warehouse take home pay, warehouse night shift pay, warehouse job uk foreigners',
                 'meta_title' => 'How Much Does a Warehouse Operative Earn in the UK (2026)?',
                 'meta_description' => 'UK warehouse operative pay in 2026: the National Living Wage, what higher rates pay, take-home and PKR examples, and the right-to-work rules.',

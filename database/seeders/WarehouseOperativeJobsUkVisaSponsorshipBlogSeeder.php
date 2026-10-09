@@ -49,7 +49,7 @@ class WarehouseOperativeJobsUkVisaSponsorshipBlogSeeder extends Seeder
                 'title' => 'Can a Foreigner Get a Warehouse Operative Job in the UK With Visa Sponsorship in 2026?',
                 'excerpt' => 'Generally no. Since 22 July 2025 the Skilled Worker visa covers mainly degree-level roles and a few shortage roles, so UK employers cannot normally sponsor a warehouse operative. See the rules, the routes that do allow work, pay and scam warnings.',
                 'content' => $content,
-                'featured_image' => 'blogs/warehouse-operative-jobs-uk-visa-sponsorship.jpg',
+                'featured_image' => 'blogs/warehouse-operative-jobs-uk-visa-sponsorship-poster.jpg',
                 'tags' => 'warehouse operative jobs uk, uk warehouse visa sponsorship, skilled worker visa warehouse, uk warehouse jobs for foreigners, uk warehouse job from pakistan, uk visa sponsorship scams, national living wage warehouse, uk low skilled work visa',
                 'meta_title' => 'Warehouse Operative Jobs in the UK With Visa Sponsorship',
                 'meta_description' => 'Can foreigners get a UK warehouse operative job with visa sponsorship in 2026? The Skilled Worker rules, routes that allow work, pay and scams.',
