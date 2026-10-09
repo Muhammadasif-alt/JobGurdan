@@ -32,6 +32,9 @@ it('gives each salary and from-Pakistan guide its own job listing', function () 
         'Warehouse Worker — US Employers (Applying From Pakistan)',
         'Landscaper — US Employers (Wage Check on H-2B Job Orders)',
         'Warehouse Operative — UK Employers (Pay Check)',
+        'Landscaper — US Employers (Applying From Pakistan)',
+        'Farm Worker — US Farms (Wage Check on H-2A Job Orders)',
+        'Farm Worker — US Farms (Applying From Pakistan)',
     ];
 
     foreach ($positions as $position) {
