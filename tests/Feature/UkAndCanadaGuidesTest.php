@@ -133,3 +133,19 @@ it('cross-links only to guides that exist once every guide is seeded', function 
         }
     }
 });
+
+it('has its featured image on disk', function (string $seeder) {
+    $this->seed($seeder);
+
+    $image = Blog::where('slug', guideSlug($seeder))->firstOrFail()->featured_image;
+
+    expect(file_exists(storage_path('app/public/'.$image)))->toBeTrue("{$image} is missing");
+})->with([
+    'cleaner pakistan' => [CleanerJobUkFromPakistanBlogSeeder::class],
+    'kitchen porter visa' => [KitchenPorterJobsUkVisaSponsorshipBlogSeeder::class],
+    'kitchen porter salary' => [KitchenPorterSalaryUkBlogSeeder::class],
+    'canada warehouse' => [WarehouseWorkerSalaryCanadaBlogSeeder::class],
+    'hgv visa' => [HgvDriverJobsUkVisaSponsorshipBlogSeeder::class],
+    'hgv salary' => [HgvDriverSalaryUkBlogSeeder::class],
+    'hgv pakistan' => [HgvDriverJobUkFromPakistanBlogSeeder::class],
+]);
