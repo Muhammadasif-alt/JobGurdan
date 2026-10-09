@@ -17,12 +17,16 @@ class BlogController extends Controller
     public function index(Request $request)
     {
         $categorySlug = $request->query('category');
+        $tag = trim((string) $request->query('tag', ''));
 
         $published = Blog::where('status', 'published')->with(['category', 'author']);
         if ($categorySlug) {
             $published->whereHas('category', function ($q) use ($categorySlug) {
                 $q->where('slug', $categorySlug);
             });
+        }
+        if ($tag !== '') {
+            $published->where('tags', 'like', '%'.$tag.'%');
         }
 
         // Load all matching posts in one go and slice in PHP — keeps the layout
@@ -42,6 +46,9 @@ class BlogController extends Controller
                 $q->where('slug', $categorySlug);
             });
         }
+        if ($tag !== '') {
+            $moreNewsQuery->where('tags', 'like', '%'.$tag.'%');
+        }
         $moreNews = $moreNewsQuery->paginate(8)->appends($request->query());
 
         $categories = BlogCatgories::withCount(['blogs' => function ($q) {
@@ -50,7 +57,7 @@ class BlogController extends Controller
 
         return view('user.blogs', compact(
             'featured', 'secondaryFeatured', 'recentNews', 'mostPopular',
-            'recruitmentInsights', 'moreNews', 'categories', 'categorySlug'
+            'recruitmentInsights', 'moreNews', 'categories', 'categorySlug', 'tag'
         ));
     }
 
@@ -76,15 +83,7 @@ class BlogController extends Controller
             ->take(3)
             ->get();
 
-        // Get related posts (same category, exclude current)
-        $relatedPosts = Blog::where('status', 'published')
-            ->where('id', '!=', $blog->id)
-            ->when($blog->blog_catgories_id, function ($q) use ($blog) {
-                $q->where('blog_catgories_id', $blog->blog_catgories_id);
-            })
-            ->latest('published_at')
-            ->take(5)
-            ->get();
+        $relatedPosts = $blog->relatedPosts(5)->load(['category', 'author']);
 
         return view('user.blog-post', compact('blog', 'categories', 'latestBlogs', 'relatedPosts'));
     }

@@ -15,6 +15,12 @@
      * was declared a duplicate and the older guides on it were not being
      * crawled from here. Each page now names and canonicalises itself.
      */
+    $blogTag = trim((string) request('tag', ''));
+    if ($blogTag !== '') {
+        $blogTitle = ucwords($blogTag).' — Career Guides | JobGader';
+        $blogDesc = 'JobGader career guides tagged "'.$blogTag.'": visa rules, pay, requirements and how to avoid scams, checked against official sources.';
+    }
+
     $blogPage = $moreNews->currentPage();
     $blogFirst = $blogPage === 1;
     if (! $blogFirst) {
@@ -30,7 +36,13 @@
 @section('og_title', $blogTitle)
 @section('og_description', 'Career advice, recruitment insights and U.S. employment news — everything you need to advance your career in the United States.')
 @section('og_image', asset('public/user/images/blog-compact-post-01.jpg'))
-@section('canonical', $blogFirst ? route('blog.index') : route('blog.index').'?page='.$blogPage)
+@if ($blogTag !== '')
+    {{-- A tag page is a filtered view of the archive: crawlable for links, not for the index. --}}
+    @section('meta_robots', 'noindex, follow')
+    @section('canonical', route('blog.index', ['tag' => $blogTag]))
+@else
+    @section('canonical', $blogFirst ? route('blog.index') : route('blog.index').'?page='.$blogPage)
+@endif
 
 @push('head')
 <script type="application/ld+json">
