@@ -181,6 +181,16 @@ class GuideJobListingsSeeder extends Seeder
             ],
             [
                 'category' => ['transport-logistics', 'Transport & Logistics'],
+                'advertiser' => ['Canadian Trucking and Freight Employers (Aggregated)', 'canada-trucking-aggregated'],
+                'location' => $canada,
+                'position' => 'Truck Driver — Canadian Employers (Class 1 Licence Needed)',
+                'intro' => 'Job Bank is the Government of Canada\'s official job site. It lists truck driver vacancies from Canadian employers, with the licence class, pay and location set out in each posting.',
+                'items' => ['You need legal permission to work in Canada, such as a valid work permit, and a provincial heavy-vehicle licence (Class 1 in most provinces)', 'A foreign licence is not accepted as it is, so conversion or testing is part of the process', 'No real employer or agency may charge you a fee for a job or a visa'],
+                'url' => 'https://www.jobbank.gc.ca/findajob',
+                'keywords' => 'truck driver jobs abroad, truck driver jobs canada, class 1 driver jobs, job bank truck driver',
+            ],
+            [
+                'category' => ['transport-logistics', 'Transport & Logistics'],
                 'advertiser' => ['UK Warehouse and Logistics Employers (Aggregated)', 'uk-warehouse-aggregated'],
                 'location' => $uk,
                 'position' => 'Warehouse Operative — UK Employers (Pay Check)',
