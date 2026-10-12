@@ -35,6 +35,10 @@ it('gives each salary and from-Pakistan guide its own job listing', function () 
         'Landscaper — US Employers (Applying From Pakistan)',
         'Farm Worker — US Farms (Wage Check on H-2A Job Orders)',
         'Farm Worker — US Farms (Applying From Pakistan)',
+        'Skilled Worker — Canadian Employers (Check Who Can Apply)',
+        'Skilled Trades Worker — Canadian Employers (Welders, Electricians, Truck Drivers)',
+        'Entry-Level Worker — Canada (Working Holiday Route, No Experience)',
+        'Overseas Job Offer Check — Verify a UK Employer Before You Pay',
     ];
 
     foreach ($positions as $position) {

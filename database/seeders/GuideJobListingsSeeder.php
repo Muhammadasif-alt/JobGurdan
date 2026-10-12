@@ -36,7 +36,12 @@ class GuideJobListingsSeeder extends Seeder
         $this->seedTruckDriver($usa);
         $this->seedCaregiver($usa);
         $this->seedUkWarehouse($uk);
-        $this->seedSalaryAndPakistanListings($usa, $uk);
+        $canada = Location::firstOrCreate(
+            ['name' => 'Canada'],
+            ['area' => 'Nationwide', 'country' => 'Canada']
+        );
+
+        $this->seedSalaryAndPakistanListings($usa, $uk, $canada);
     }
 
     /**
@@ -44,7 +49,7 @@ class GuideJobListingsSeeder extends Seeder
      * existing one, so the salary and from-Pakistan guides are not pointed at
      * the visa guide's job.
      */
-    private function seedSalaryAndPakistanListings(Location $usa, Location $uk): void
+    private function seedSalaryAndPakistanListings(Location $usa, Location $uk, Location $canada): void
     {
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -132,6 +137,49 @@ class GuideJobListingsSeeder extends Seeder
                 'keywords' => 'farm worker job usa from pakistan, h-2a visa pakistan, farm work visa usa, how to apply h-2a',
             ],
             [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['Canadian Employers (Aggregated)', 'canada-employers-aggregated'],
+                'location' => $canada,
+                'position' => 'Skilled Worker — Canadian Employers (Check Who Can Apply)',
+                'intro' => 'Job Bank is the Government of Canada\'s official job site. Each posting states the duties, the wage and who may apply, so you can see whether the employer is open to candidates who need a work permit.',
+                'items' => ['You need legal permission to work in Canada, such as a valid work permit, before you can take a job', 'Check the occupation against the official shortage and in-demand lists on the immigration site', 'No real employer or agency may charge you a fee for a job or a visa'],
+                'url' => 'https://www.jobbank.gc.ca/findajob',
+                'keywords' => 'countries hiring foreign workers, jobs for foreigners abroad, canada job bank, work permit canada',
+                'footer' => 'Canada',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['Canadian Employers (Aggregated)', 'canada-employers-aggregated'],
+                'location' => $canada,
+                'position' => 'Skilled Trades Worker — Canadian Employers (Welders, Electricians, Truck Drivers)',
+                'intro' => 'Job Bank is the Government of Canada\'s official job site. It lists trades vacancies such as welders, electricians and truck drivers, with the wage and certification each employer asks for.',
+                'items' => ['Trades usually need a recognised certification; check the requirements for your trade before you apply', 'Wages differ by province, experience and certification, and each posting states its own', 'No real employer or agency may charge you a fee for a job or a visa'],
+                'url' => 'https://www.jobbank.gc.ca/findajob',
+                'keywords' => 'highest paying blue collar jobs abroad, skilled trades jobs canada, welder jobs canada, electrician jobs abroad',
+                'footer' => 'Canada',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['Canadian Employers (Aggregated)', 'canada-employers-aggregated'],
+                'location' => $canada,
+                'position' => 'Entry-Level Worker — Canada (Working Holiday Route, No Experience)',
+                'intro' => 'International Experience Canada is the Government of Canada\'s official page for its working holiday and young professional programmes, which let eligible young people work in Canada without years of experience.',
+                'items' => ['These programmes are open only to citizens of partner countries and have age limits, so check your passport on the official page first', 'Pakistan is not on the UK Youth Mobility Scheme list, and many working holiday schemes use partner lists, so confirm your own eligibility', 'No real employer or agency may charge you a fee for a job or a visa'],
+                'url' => 'https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/iec.html',
+                'keywords' => 'job abroad without experience, working holiday visa, international experience canada, entry level jobs abroad',
+                'footer' => 'Canada',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['UK Employers (Aggregated)', 'uk-employers-aggregated'],
+                'location' => $uk,
+                'position' => 'Overseas Job Offer Check — Verify a UK Employer Before You Pay',
+                'intro' => 'The UK Government publishes the Register of Licensed Sponsors: the list of employers that are allowed to sponsor skilled workers. If a UK job offer says it comes with sponsorship, check that the employer is on this register before you reply.',
+                'items' => ['A sponsor must be on the register, and it still cannot sponsor a role that is not eligible', 'No employer or recruiter can guarantee a visa, and no sponsor should charge you for a Certificate of Sponsorship', 'Never send money, passport scans or bank details until you have verified the employer yourself'],
+                'url' => 'https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers',
+                'keywords' => 'fake overseas job offer, how to verify a job offer, overseas job scams, register of licensed sponsors',
+            ],
+            [
                 'category' => ['transport-logistics', 'Transport & Logistics'],
                 'advertiser' => ['UK Warehouse and Logistics Employers (Aggregated)', 'uk-warehouse-aggregated'],
                 'location' => $uk,
@@ -151,9 +199,11 @@ class GuideJobListingsSeeder extends Seeder
             );
 
             $items = collect($listing['items'])->map(fn (string $item): string => '    <li>'.$item.'</li>')->implode("\n");
-            $footer = $listing['location']->country === 'United Kingdom'
-                ? '<p><strong>Note:</strong> pay and visa rules are set by the UK Government, not by JobGader. This link opens the official job search; it is not an application form, and a visible advert does not prove the employer is hiring.</p>'
-                : $note;
+            $footer = match ($listing['location']->country) {
+                'United Kingdom' => '<p><strong>Note:</strong> pay and visa rules are set by the UK Government, not by JobGader. This link opens the official job search; it is not an application form, and a visible advert does not prove the employer is hiring.</p>',
+                'Canada' => '<p><strong>Note:</strong> immigration and wage rules are set by the Government of Canada and the provinces, not by JobGader. This link opens an official Government of Canada page; it is not an application form, and a visible posting does not prove the employer is hiring.</p>',
+                default => $note,
+            };
 
             Job::updateOrCreate(
                 ['position' => $listing['position'], 'advertiser_id' => $advertiser->id],
