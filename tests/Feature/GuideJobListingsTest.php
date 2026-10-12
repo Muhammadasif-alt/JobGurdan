@@ -46,6 +46,10 @@ it('gives each salary and from-Pakistan guide its own job listing', function () 
         'Overseas Worker — Documents for a UK Skilled Worker Application',
         'Overseas Worker — Canadian Employers Recruiting Internationally',
         'Job Seeker Abroad — European Vacancies (EURES)',
+        'Overseas Worker — Apply Directly to Canadian Employers (No Recruiter)',
+        'Worker Comparing Offers — European Vacancies With Stated Terms (EURES)',
+        'Overseas Worker — Check UK Skilled Worker Costs Before You Budget',
+        'Skilled Worker — Germany Professions in Demand (Make it in Germany)',
     ];
 
     foreach ($positions as $position) {

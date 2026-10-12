@@ -9,6 +9,7 @@ use Database\Seeders\CleanerJobUkFromPakistanBlogSeeder;
 use Database\Seeders\CountriesHiringForeignWorkersBlogSeeder;
 use Database\Seeders\DocumentsNeededToWorkAbroadBlogSeeder;
 use Database\Seeders\FakeOverseasJobOfferBlogSeeder;
+use Database\Seeders\FindJobAbroadWithoutRecruiterBlogSeeder;
 use Database\Seeders\HgvDriverJobsUkVisaSponsorshipBlogSeeder;
 use Database\Seeders\HgvDriverJobUkFromPakistanBlogSeeder;
 use Database\Seeders\HgvDriverSalaryUkBlogSeeder;
@@ -16,11 +17,14 @@ use Database\Seeders\HighestPayingBlueCollarJobsAbroadBlogSeeder;
 use Database\Seeders\HotelHousekeeperJobsUsaVisaSponsorshipBlogSeeder;
 use Database\Seeders\JobAbroadWithoutExperienceBlogSeeder;
 use Database\Seeders\ResumeForJobAbroadBlogSeeder;
+use Database\Seeders\SaveMoneyWorkingAbroadBlogSeeder;
+use Database\Seeders\TopSkillsJobAbroadFastBlogSeeder;
 use Database\Seeders\TruckDriverSalaryUsaBlogSeeder;
 use Database\Seeders\VisaSponsorshipCountriesSkilledWorkersBlogSeeder;
 use Database\Seeders\WarehouseOperativeJobsUkVisaSponsorshipBlogSeeder;
 use Database\Seeders\WarehouseOperativeSalaryUkBlogSeeder;
 use Database\Seeders\WarehouseWorkerJobsUsaVisaSponsorshipBlogSeeder;
+use Database\Seeders\WorkAbroadVsStayHomeBlogSeeder;
 use Database\Seeders\WorkVisaWithoutAgentBlogSeeder;
 
 dataset('abroadGuides', [
@@ -34,6 +38,10 @@ dataset('abroadGuides', [
     'documents' => [DocumentsNeededToWorkAbroadBlogSeeder::class, ['DS-160', 'certified translations', 'Ministry of Foreign Affairs', 'Work Abroad Checklist']],
     'job sites' => [BestJobSitesWorkAbroadBlogSeeder::class, ['SeasonalJobs', 'NHS Jobs', 'Overseas Employment Promoters', 'Official (Canada)']],
     'resume' => [ResumeForJobAbroadBlogSeeder::class, ['Europass', 'reverse-chronological', 'YourName_Resume.pdf', '/resume-writing-services']],
+    'find without recruiter' => [FindJobAbroadWithoutRecruiterBlogSeeder::class, ['Step 8', 'Workforce Australia', 'SeasonalJobs', 'Overseas Employment Promoters', 'Subject:']],
+    'work abroad vs stay home' => [WorkAbroadVsStayHomeBlogSeeder::class, ['$4,000', 'ten months', 'Accredited Employer Work Visa', 'Overseas Employment Promoters']],
+    'save money abroad' => [SaveMoneyWorkingAbroadBlogSeeder::class, ['AED 2,700', '$8,400', '$6,400', 'how-much-it-costs', 'Overseas Employment Promoters']],
+    'top skills' => [TopSkillsJobAbroadFastBlogSeeder::class, ['professions-in-demand', 'skill-occupation-list', 'Pakistan Nursing Council', 'English language requirement']],
     'truck drivers' => [BestCountriesTruckDriversAbroadBlogSeeder::class, ['Code 95', '$58,640', 'Temporary Shortage List', 'FMCSA', 'Pakistani licence is not accepted']],
 ]);
 
@@ -42,7 +50,7 @@ const OFFICIAL_HOSTS = [
     'www.make-it-in-germany.com', 'ind.nl', 'enterprise.gov.ie', 'u.ae', 'www.mom.gov.sg', 'www.moj.go.jp',
     'www.udi.no', 'www.sem.admin.ch', 'jetprogramme.org', 'eures.europa.eu', 'reportfraud.ftc.gov',
     'reportfraud.police.uk', 'antifraudcentre-centreantifraude.ca', 'www.scamwatch.gov.au', 'beoe.gov.pk',
-    'www.fmcsa.dot.gov', 'www.jobs.nhs.uk', 'seasonaljobs.dol.gov', 'travel.state.gov', 'europass.europa.eu', 'nationalcareers.service.gov.uk',
+    'www.fmcsa.dot.gov', 'jobsearch.gov.au', 'www.jobs.nhs.uk', 'seasonaljobs.dol.gov', 'travel.state.gov', 'europass.europa.eu', 'nationalcareers.service.gov.uk',
 ];
 
 it('seeds a published guide within the SEO limits', function (string $seeder) {
@@ -127,6 +135,10 @@ it('cross-links only to guides that exist once they are all seeded', function ()
         DocumentsNeededToWorkAbroadBlogSeeder::class,
         BestJobSitesWorkAbroadBlogSeeder::class,
         ResumeForJobAbroadBlogSeeder::class,
+        FindJobAbroadWithoutRecruiterBlogSeeder::class,
+        WorkAbroadVsStayHomeBlogSeeder::class,
+        SaveMoneyWorkingAbroadBlogSeeder::class,
+        TopSkillsJobAbroadFastBlogSeeder::class,
     ];
 
     foreach ([
