@@ -41,7 +41,12 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Nationwide', 'country' => 'Canada']
         );
 
-        $this->seedSalaryAndPakistanListings($usa, $uk, $canada);
+        $eu = Location::firstOrCreate(
+            ['name' => 'European Union'],
+            ['area' => 'Multiple countries', 'country' => 'European Union']
+        );
+
+        $this->seedSalaryAndPakistanListings($usa, $uk, $canada, $eu);
     }
 
     /**
@@ -49,7 +54,7 @@ class GuideJobListingsSeeder extends Seeder
      * existing one, so the salary and from-Pakistan guides are not pointed at
      * the visa guide's job.
      */
-    private function seedSalaryAndPakistanListings(Location $usa, Location $uk, Location $canada): void
+    private function seedSalaryAndPakistanListings(Location $usa, Location $uk, Location $canada, Location $eu): void
     {
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -190,6 +195,66 @@ class GuideJobListingsSeeder extends Seeder
                 'keywords' => 'truck driver jobs abroad, truck driver jobs canada, class 1 driver jobs, job bank truck driver',
             ],
             [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['UK Employers (Aggregated)', 'uk-employers-aggregated'],
+                'location' => $uk,
+                'position' => 'Skilled Worker — UK Employers (Check the Sponsor Route)',
+                'intro' => 'Find a job is the UK Government\'s official job search. For a skilled worker, each advert states the role and pay, and you then check whether the employer holds a sponsor licence and whether the job is eligible for the Skilled Worker route.',
+                'items' => ['The job must generally be at degree level (RQF Level 6) or on a shortage list, with a salary of at least the general threshold or the going rate', 'An employer on the sponsor register does not sponsor every vacancy it advertises', 'No sponsor may charge you for a Certificate of Sponsorship, and no one can guarantee a visa'],
+                'url' => 'https://findajob.dwp.gov.uk/',
+                'keywords' => 'visa sponsorship countries, skilled worker visa uk, employer sponsored visa, work visa sponsorship 2026',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['UK Employers (Aggregated)', 'uk-employers-aggregated'],
+                'location' => $uk,
+                'position' => 'Work Visa Applicant — Apply Without an Agent (UK Skilled Worker Route)',
+                'intro' => 'GOV.UK explains, step by step, how a worker applies for a Skilled Worker visa from outside the UK. You apply to the Home Office yourself once an approved employer has given you a Certificate of Sponsorship.',
+                'items' => ['The employer must be a licensed sponsor and the job must be eligible; an agent cannot replace either', 'Pay only the official fees through the government payment system', 'No sponsor may charge you for a Certificate of Sponsorship, and no one can guarantee a visa'],
+                'url' => 'https://www.gov.uk/skilled-worker-visa/apply-from-outside-the-uk',
+                'keywords' => 'how to apply work visa without agent, self apply work visa, work visa application guide, avoid visa agent scam',
+            ],
+            [
+                'category' => ['construction-trades', 'Construction Trades'],
+                'advertiser' => ['US Skilled Trades Employers (Aggregated)', 'usa-trades-aggregated'],
+                'location' => $usa,
+                'position' => 'Skilled Trades Worker — US Employers (Electrician, Plumber, HVAC, Welder)',
+                'intro' => 'CareerOneStop is the US Department of Labor job search tool. It lists skilled trades vacancies from US employers, such as electricians, plumbers, HVAC technicians and welders, with the pay and licence each employer asks for.',
+                'items' => ['Most states license electricians, plumbers and HVAC technicians, so check the state requirements first', 'You need the right to work in the US; a trade wage benchmark does not create a visa route', 'No real employer or agency may charge you a fee for a job or a visa'],
+                'url' => 'https://www.careeronestop.org/Toolkit/Jobs/find-jobs.aspx',
+                'keywords' => 'blue collar jobs that pay well abroad, trade jobs 3000 per month, electrician jobs usa, skilled trade jobs salary abroad',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['UK Employers (Aggregated)', 'uk-employers-aggregated'],
+                'location' => $uk,
+                'position' => 'Overseas Worker — Documents for a UK Skilled Worker Application',
+                'intro' => 'GOV.UK lists the documents you must provide when you apply for a Skilled Worker visa, including the sponsorship reference, your passport and any evidence your route asks for. Use it as a checklist before you start the application.',
+                'items' => ['Only the documents your route asks for are needed; check the official list for your case', 'Documents not in English or Welsh need a certified translation', 'Never pay for documents or attestations that the official list does not ask for'],
+                'url' => 'https://www.gov.uk/skilled-worker-visa/documents-you-must-provide',
+                'keywords' => 'documents needed to work abroad, work abroad checklist, work visa documents list, uk skilled worker documents',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['Canadian Employers (Aggregated)', 'canada-employers-aggregated'],
+                'location' => $canada,
+                'position' => 'Overseas Worker — Canadian Employers Recruiting Internationally',
+                'intro' => 'Job Bank is the Government of Canada official job site, and it has a page for candidates outside Canada. Postings show whether an employer is recruiting internationally, and the page links to immigration and credential-recognition information.',
+                'items' => ['An employer willing to consider overseas applicants does not guarantee a work permit', 'Check licensing and credential recognition for your occupation before you pay relocation costs', 'No real employer or agency may charge you a fee for a job or a visa'],
+                'url' => 'https://www.jobbank.gc.ca/findajob/foreign-candidates',
+                'keywords' => 'best job sites for work abroad, canada job bank foreign candidates, where to find overseas jobs, overseas job portals',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['European Employers (Aggregated)', 'eu-employers-aggregated'],
+                'location' => $eu,
+                'position' => 'Job Seeker Abroad — European Vacancies (EURES)',
+                'intro' => 'EURES is the European job mobility portal. It lists vacancies from employers across Europe with the language, qualification and location requirements for each, so you can tailor your CV to the role before you apply.',
+                'items' => ['Applicants from outside the EU or EEA must check immigration eligibility separately', 'Follow the language and formatting instructions in the advert; there is no single mandatory CV format', 'No real employer or agency may charge you a fee for a job'],
+                'url' => 'https://eures.europa.eu/index_en',
+                'keywords' => 'resume for job abroad, international resume format, cv for overseas job, eures vacancies',
+            ],
+            [
                 'category' => ['transport-logistics', 'Transport & Logistics'],
                 'advertiser' => ['UK Warehouse and Logistics Employers (Aggregated)', 'uk-warehouse-aggregated'],
                 'location' => $uk,
@@ -211,6 +276,7 @@ class GuideJobListingsSeeder extends Seeder
             $items = collect($listing['items'])->map(fn (string $item): string => '    <li>'.$item.'</li>')->implode("\n");
             $footer = match ($listing['location']->country) {
                 'United Kingdom' => '<p><strong>Note:</strong> pay and visa rules are set by the UK Government, not by JobGader. This link opens the official job search; it is not an application form, and a visible advert does not prove the employer is hiring.</p>',
+                'European Union' => '<p><strong>Note:</strong> immigration and employment rules are set by each country, not by JobGader. This link opens an official European portal; it is not an application form, and a visible vacancy does not prove the employer is hiring or recruits from outside Europe.</p>',
                 'Canada' => '<p><strong>Note:</strong> immigration and wage rules are set by the Government of Canada and the provinces, not by JobGader. This link opens an official Government of Canada page; it is not an application form, and a visible posting does not prove the employer is hiring.</p>',
                 default => $note,
             };

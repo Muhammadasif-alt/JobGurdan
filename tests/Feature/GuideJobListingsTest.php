@@ -40,6 +40,12 @@ it('gives each salary and from-Pakistan guide its own job listing', function () 
         'Entry-Level Worker — Canada (Working Holiday Route, No Experience)',
         'Overseas Job Offer Check — Verify a UK Employer Before You Pay',
         'Truck Driver — Canadian Employers (Class 1 Licence Needed)',
+        'Skilled Worker — UK Employers (Check the Sponsor Route)',
+        'Work Visa Applicant — Apply Without an Agent (UK Skilled Worker Route)',
+        'Skilled Trades Worker — US Employers (Electrician, Plumber, HVAC, Welder)',
+        'Overseas Worker — Documents for a UK Skilled Worker Application',
+        'Overseas Worker — Canadian Employers Recruiting Internationally',
+        'Job Seeker Abroad — European Vacancies (EURES)',
     ];
 
     foreach ($positions as $position) {
