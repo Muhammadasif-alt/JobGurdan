@@ -14,12 +14,12 @@
     $headlineBudget = 49;
     $shortRole = trim(explode(',', $headlineRole)[0]);
 
+    $employerName = trim(preg_replace('/\s*\(Aggregated\)\s*$/', '', $job->advertiser?->name ?? ''));
+
     $candidates = [];
-    if ($job->advertiser?->name) {
-        $candidates[] = $headlineRole.' at '.$job->advertiser->name.($jobPlace ? ' — '.$jobPlace : '');
-    }
-    if ($job->advertiser?->name) {
-        $candidates[] = $headlineRole.' at '.$job->advertiser->name;
+    if ($employerName !== '') {
+        $candidates[] = $headlineRole.' at '.$employerName.($jobPlace ? ' — '.$jobPlace : '');
+        $candidates[] = $headlineRole.' at '.$employerName;
     }
     $candidates[] = $jobPlace ? $headlineRole.' Jobs in '.$jobPlace : $headlineRole;
     $candidates[] = $jobPlace ? $shortRole.' Jobs in '.$jobPlace : $shortRole;

@@ -63,3 +63,27 @@ it('repairs double-encoded ampersands in a job description', function (): void {
 
     expect($job->fresh()->meta_description)->toBe('Roles at M&S stores');
 });
+
+it('renders the employer in the job page title and prints an ampersand once', function (): void {
+    $location = Location::create(['name' => 'United Kingdom', 'area' => 'UK', 'country' => 'United Kingdom']);
+    $advertiser = Advertiser::create(['name' => 'Marks and Spencer (Aggregated)', 'type' => 'Private', 'display_reference' => 'marks-and-spencer-aggregated']);
+    $category = \App\Models\Category::create(['name' => 'Retail', 'slug' => 'retail']);
+
+    $job = Job::create([
+        'category_id' => $category->id,
+        'advertiser_id' => $advertiser->id,
+        'location_id' => $location->id,
+        'position' => 'Customer Assistant — Marks and Spencer, UK Stores',
+        'description' => '<p>Role</p>',
+        'meta_description' => 'Roles at M&S stores',
+        'employment_type' => 'Full-time',
+        'job_type' => 'On-site',
+    ]);
+
+    $response = $this->get(route('jobs.show', \Illuminate\Support\Str::slug($job->position.'-'.$location->name)));
+
+    $response->assertOk()
+        ->assertSee('<title>Customer Assistant at Marks and Spencer | JobGader</title>', false)
+        ->assertSee('content="Roles at M&amp;S stores"', false)
+        ->assertDontSee('M&amp;amp;S', false);
+});

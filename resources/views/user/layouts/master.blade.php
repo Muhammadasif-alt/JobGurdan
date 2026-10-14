@@ -21,7 +21,7 @@
         crossorigin="anonymous"></script>
     @php
         $metaDescription =
-            trim($__env->yieldContent('meta_description')) ?:
+            html_entity_decode(trim($__env->yieldContent('meta_description')), ENT_QUOTES | ENT_HTML5) ?:
             'Find hand-checked job openings across '.$coverage->shortList().'. Search by location, category and experience level on JobGader — free to apply, no account needed.';
         // Google truncates past roughly 160 characters. The country list is
         // read from the listings now, so an authored description can grow past
@@ -39,9 +39,11 @@
         // og:title used to fall back to one hardcoded slogan, so every page
         // that did not set it shared a single title when shared or previewed.
         // A page's own <title> is always the better default.
-        $ogTitle =
+        $ogTitle = html_entity_decode(
             trim($__env->yieldContent('og_title')) ?:
-            (trim($__env->yieldContent('title')) ?: 'JobGader - Find Your Dream Job Today');
+            (trim($__env->yieldContent('title')) ?: 'JobGader - Find Your Dream Job Today'),
+            ENT_QUOTES | ENT_HTML5
+        );
     @endphp
 
     <meta name="description" content="{{ $metaDescription }}">
