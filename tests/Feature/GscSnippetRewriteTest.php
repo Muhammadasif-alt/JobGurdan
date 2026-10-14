@@ -66,7 +66,7 @@ it('repairs double-encoded ampersands in a job description', function (): void {
 
 it('renders the employer in the job page title and prints an ampersand once', function (): void {
     $location = Location::create(['name' => 'United Kingdom', 'area' => 'UK', 'country' => 'United Kingdom']);
-    $advertiser = Advertiser::create(['name' => 'Marks and Spencer', 'type' => 'Private', 'display_reference' => 'marks-and-spencer-aggregated']);
+    $advertiser = Advertiser::create(['name' => 'Marks and Spencer, United Kingdom', 'type' => 'Private', 'display_reference' => 'marks-and-spencer-aggregated']);
     $category = \App\Models\Category::create(['name' => 'Retail', 'slug' => 'retail']);
 
     $job = Job::create([

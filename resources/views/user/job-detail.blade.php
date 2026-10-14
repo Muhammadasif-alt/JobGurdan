@@ -14,7 +14,7 @@
     $headlineBudget = 49;
     $shortRole = trim(explode(',', $headlineRole)[0]);
 
-    $employerName = trim(preg_replace('/\s*\(Aggregated\)\s*$/', '', $job->advertiser?->name ?? ''));
+    $employerName = trim(explode(',', preg_replace('/\s*\(Aggregated\)\s*$/', '', $job->advertiser?->name ?? ''))[0]);
 
     $candidates = [];
     if ($employerName !== '') {
