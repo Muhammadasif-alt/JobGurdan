@@ -18,6 +18,9 @@
     if ($job->advertiser?->name) {
         $candidates[] = $headlineRole.' at '.$job->advertiser->name.($jobPlace ? ' — '.$jobPlace : '');
     }
+    if ($job->advertiser?->name) {
+        $candidates[] = $headlineRole.' at '.$job->advertiser->name;
+    }
     $candidates[] = $jobPlace ? $headlineRole.' Jobs in '.$jobPlace : $headlineRole;
     $candidates[] = $jobPlace ? $shortRole.' Jobs in '.$jobPlace : $shortRole;
     $candidates[] = $shortRole.' Jobs';
