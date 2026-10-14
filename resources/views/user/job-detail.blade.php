@@ -20,6 +20,7 @@
     if ($employerName !== '') {
         $candidates[] = $headlineRole.' at '.$employerName.($jobPlace ? ' — '.$jobPlace : '');
         $candidates[] = $headlineRole.' at '.$employerName;
+        $candidates[] = $shortRole.' at '.$employerName;
     }
     $candidates[] = $jobPlace ? $headlineRole.' Jobs in '.$jobPlace : $headlineRole;
     $candidates[] = $jobPlace ? $shortRole.' Jobs in '.$jobPlace : $shortRole;
