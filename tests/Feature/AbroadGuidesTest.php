@@ -1,17 +1,20 @@
 <?php
 
 use App\Models\Blog;
+use Database\Seeders\ApprenticeshipTestMathBasicsBlogSeeder;
 use Database\Seeders\AvoidLosingMoneyFakeJobAgentsBlogSeeder;
 use Database\Seeders\BestCountriesTruckDriversAbroadBlogSeeder;
 use Database\Seeders\BestJobSitesWorkAbroadBlogSeeder;
 use Database\Seeders\BestPayingJobsAbroadWithoutDegreeBlogSeeder;
 use Database\Seeders\BestTradesSkillsGulfCountriesBlogSeeder;
 use Database\Seeders\BlueCollarJobsAbroadOver3000BlogSeeder;
+use Database\Seeders\BoilermakerApprenticeshipRequirementsBlogSeeder;
 use Database\Seeders\BringFamilyWorkingAbroadBlogSeeder;
 use Database\Seeders\CaregiverJobsUsaVisaSponsorshipBlogSeeder;
 use Database\Seeders\CleanerJobUkFromPakistanBlogSeeder;
 use Database\Seeders\CountriesHiringForeignWorkersBlogSeeder;
 use Database\Seeders\DocumentsNeededToWorkAbroadBlogSeeder;
+use Database\Seeders\ElevatorApprenticeshipTestNeiepBlogSeeder;
 use Database\Seeders\EmployerCancelsWorkVisaBlogSeeder;
 use Database\Seeders\EnglishLanguageRequirementsWorkingAbroadBlogSeeder;
 use Database\Seeders\FakeOverseasJobOfferBlogSeeder;
@@ -24,19 +27,27 @@ use Database\Seeders\HgvDriverSalaryUkBlogSeeder;
 use Database\Seeders\HighestPayingBlueCollarJobsAbroadBlogSeeder;
 use Database\Seeders\HotelHousekeeperJobsUsaVisaSponsorshipBlogSeeder;
 use Database\Seeders\HowLongWorkVisaTakesBlogSeeder;
+use Database\Seeders\IronworkerAptitudeTestBlogSeeder;
 use Database\Seeders\JobAbroadWithoutExperienceBlogSeeder;
 use Database\Seeders\JobEuropeNonEuCitizenBlogSeeder;
 use Database\Seeders\JobsAbroadFreeHousingFoodBlogSeeder;
+use Database\Seeders\LaborersUnionEntranceExamBlogSeeder;
+use Database\Seeders\MechanicalReasoningQuestionsBlogSeeder;
 use Database\Seeders\MistakesApplyingJobsAbroadBlogSeeder;
 use Database\Seeders\MoveAbroadForWorkStepByStepBlogSeeder;
+use Database\Seeders\OneWeekBeforeApprenticeshipTestBlogSeeder;
 use Database\Seeders\OnlineJobsUsaFromPakistanBlogSeeder;
+use Database\Seeders\OperatingEngineersApprenticeshipTestBlogSeeder;
 use Database\Seeders\PrepareOnlineJobInterviewAbroadBlogSeeder;
 use Database\Seeders\ResumeForJobAbroadBlogSeeder;
+use Database\Seeders\RetakeApprenticeshipAptitudeTestBlogSeeder;
 use Database\Seeders\RightsForeignWorkersAbroadBlogSeeder;
 use Database\Seeders\SaveMoneyWorkingAbroadBlogSeeder;
 use Database\Seeders\SendMoneyHomeWorkingAbroadBlogSeeder;
+use Database\Seeders\SheetMetalWorkersAptitudeTestBlogSeeder;
 use Database\Seeders\TopSkillsJobAbroadFastBlogSeeder;
 use Database\Seeders\TruckDriverSalaryUsaBlogSeeder;
+use Database\Seeders\UaPlumberPipefitterApprenticeshipTestBlogSeeder;
 use Database\Seeders\VerifyOverseasJobOfferBlogSeeder;
 use Database\Seeders\VisaSponsorshipCountriesSkilledWorkersBlogSeeder;
 use Database\Seeders\WarehouseOperativeJobsUkVisaSponsorshipBlogSeeder;
@@ -44,6 +55,7 @@ use Database\Seeders\WarehouseOperativeSalaryUkBlogSeeder;
 use Database\Seeders\WarehouseWorkerJobsUsaVisaSponsorshipBlogSeeder;
 use Database\Seeders\WhatIsVisaSponsorshipBlogSeeder;
 use Database\Seeders\WhatIsWorkPermitBlogSeeder;
+use Database\Seeders\WhatScoreNeededApprenticeshipTestBlogSeeder;
 use Database\Seeders\WorkAbroadVsStayHomeBlogSeeder;
 use Database\Seeders\WorkVisaVsWorkPermitBlogSeeder;
 use Database\Seeders\WorkVisaWithoutAgentBlogSeeder;
@@ -82,6 +94,18 @@ dataset('abroadGuides', [
     'move abroad' => [MoveAbroadForWorkStepByStepBlogSeeder::class, ['Step 10', 'emigrant protection', 'beoe.gov.pk']],
     'free housing food' => [JobsAbroadFreeHousingFoodBlogSeeder::class, ['Fact Sheet 26', 'three meals a day', 'cooking facilities']],
     'best paying no degree' => [BestPayingJobsAbroadWithoutDegreeBlogSeeder::class, ['$109,910', '$63,190', 'May 2025', '$58,640']],
+    'ironworker test' => [IronworkerAptitudeTestBlogSeeder::class, ['minimum of 70% on both tests', 'Grade 10', '60-minute online assessment']],
+    'elevator test' => [ElevatorApprenticeshipTestNeiepBlogSeeder::class, ['100 multiple-choice questions', '70% correct', '15 to 20 minutes', 'tool assessment']],
+    'sheet metal test' => [SheetMetalWorkersAptitudeTestBlogSeeder::class, ['Local 20', 'NexGEN Accuplacer', 'fifteen-minute timed math test', '35 of 45']],
+    'ua plumber test' => [UaPlumberPipefitterApprenticeshipTestBlogSeeder::class, ['Bennett Mechanical Aptitude', 'cumulative score of 17', 'Local 467']],
+    'boilermaker test' => [BoilermakerApprenticeshipRequirementsBlogSeeder::class, ['Written Test: No', 'Local 555', '576 classroom hours', 'Group 4']],
+    'laborers exam' => [LaborersUnionEntranceExamBlogSeeder::class, ['4,000 hours of on-the-job training', '400 hours of classroom training', '60%, 70%, 80%']],
+    'operating engineers test' => [OperatingEngineersApprenticeshipTestBlogSeeder::class, ['Local 49', 'Local 150', 'six-month wait', '6,000']],
+    'apprenticeship math' => [ApprenticeshipTestMathBasicsBlogSeeder::class, ['0.375', '1 5/12', '28.3 square feet', '30 feet per hour']],
+    'mechanical reasoning' => [MechanicalReasoningQuestionsBlogSeeder::class, ['10 teeth', 'fulcrum', 'Bennett Mechanical Aptitude']],
+    'apprenticeship retake' => [RetakeApprenticeshipAptitudeTestBlogSeeder::class, ['seven days', 'six-month wait', 'cannot be retaken']],
+    'apprenticeship score' => [WhatScoreNeededApprenticeshipTestBlogSeeder::class, ['cumulative WorkKeys score of 17', '35 of 45', 'minimum of 70%']],
+    'apprenticeship week plan' => [OneWeekBeforeApprenticeshipTestBlogSeeder::class, ['Day 6', '35 reading, 35 mechanical and 30 maths', 'Apprenticeship.gov']],
     'top skills' => [TopSkillsJobAbroadFastBlogSeeder::class, ['professions-in-demand', 'skill-occupation-list', 'Pakistan Nursing Council', 'English language requirement']],
     'online jobs usa' => [OnlineJobsUsaFromPakistanBlogSeeder::class, ['Form W-8BEN', 'USD 5,000', 'EPD Circular Letter No. 06 of 2026', '$92,650', 'reportfraud.ftc.gov']],
     'truck drivers' => [BestCountriesTruckDriversAbroadBlogSeeder::class, ['Code 95', '$58,640', 'Temporary Shortage List', 'FMCSA', 'Pakistani licence is not accepted']],
@@ -93,6 +117,7 @@ const OFFICIAL_HOSTS = [
     'www.udi.no', 'www.sem.admin.ch', 'jetprogramme.org', 'eures.europa.eu', 'reportfraud.ftc.gov',
     'reportfraud.police.uk', 'antifraudcentre-centreantifraude.ca', 'www.scamwatch.gov.au', 'beoe.gov.pk',
     'www.consumerfinance.gov', 'www.sbp.org.pk', 'find-and-update.company-information.service.gov.uk', 'www.freecodecamp.org', 'learn.microsoft.com', 'www.skillsbuild.org', 'academy.hubspot.com', 'www.open.edu', 'www.fairwork.gov.au', 'www.dol.gov', 'www.hse.gov.uk', 'www.mohre.gov.ae', 'complaint.nccia.gov.pk', 'www.hrsd.gov.sa', 'www.uscis.gov', 'home-affairs.ec.europa.eu', 'european-union.europa.eu', 'eures.europa.eu', 'www.france-visas.gouv.fr', 'employment-social-affairs.ec.europa.eu', 'www.bls.gov', 'www.nmc.org.uk',
+    'iw721.org', 'www.dli.mn.gov', 'www.ironworkers.org', 'www.neiep.org', 'sm88jatc.org', 'smw20training.com', 'www.smart18ecwi.org', 'www.socalsma.org', 'www.sheetmetal-iti.org', 'ua.org', 'www.pftf597.org', 'www.ua190.org', 'www.ualocal467.org', 'sajac-boilermakers.org', 'boilermaker.ca', '555.boilermaker.ca', 'www.dir.ca.gov', 'boilermakers.org', 'www.bnap.com', 'www.liuna.org', 'www.liunatraining.org', 'www.njlaborers.org', 'liunaminnesota.org', 'www.iuoe.org', 'local150.org', 'www.local49training.org', 'www.apprenticeship.gov', 'www.osha.gov', 'openstax.org',
     'www.fmcsa.dot.gov', 'www.irs.gov', 'reportfraud.ftc.gov', 'jobsearch.gov.au', 'www.jobs.nhs.uk', 'seasonaljobs.dol.gov', 'travel.state.gov', 'europass.europa.eu', 'nationalcareers.service.gov.uk',
 ];
 
@@ -182,6 +207,18 @@ it('cross-links only to guides that exist once they are all seeded', function ()
         WorkAbroadVsStayHomeBlogSeeder::class,
         SaveMoneyWorkingAbroadBlogSeeder::class,
         TopSkillsJobAbroadFastBlogSeeder::class,
+        IronworkerAptitudeTestBlogSeeder::class,
+        ElevatorApprenticeshipTestNeiepBlogSeeder::class,
+        SheetMetalWorkersAptitudeTestBlogSeeder::class,
+        UaPlumberPipefitterApprenticeshipTestBlogSeeder::class,
+        BoilermakerApprenticeshipRequirementsBlogSeeder::class,
+        LaborersUnionEntranceExamBlogSeeder::class,
+        OperatingEngineersApprenticeshipTestBlogSeeder::class,
+        ApprenticeshipTestMathBasicsBlogSeeder::class,
+        MechanicalReasoningQuestionsBlogSeeder::class,
+        RetakeApprenticeshipAptitudeTestBlogSeeder::class,
+        WhatScoreNeededApprenticeshipTestBlogSeeder::class,
+        OneWeekBeforeApprenticeshipTestBlogSeeder::class,
         EnglishLanguageRequirementsWorkingAbroadBlogSeeder::class,
         SendMoneyHomeWorkingAbroadBlogSeeder::class,
         WhatIsWorkPermitBlogSeeder::class,
