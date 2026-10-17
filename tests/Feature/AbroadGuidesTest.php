@@ -1,6 +1,8 @@
 <?php
 
 use App\Models\Blog;
+use Database\Seeders\ApplyForTradeApprenticeshipBlogSeeder;
+use Database\Seeders\ApprenticeshipRankingListsBlogSeeder;
 use Database\Seeders\ApprenticeshipTestMathBasicsBlogSeeder;
 use Database\Seeders\AvoidLosingMoneyFakeJobAgentsBlogSeeder;
 use Database\Seeders\BestCountriesTruckDriversAbroadBlogSeeder;
@@ -48,6 +50,7 @@ use Database\Seeders\SheetMetalWorkersAptitudeTestBlogSeeder;
 use Database\Seeders\TopSkillsJobAbroadFastBlogSeeder;
 use Database\Seeders\TruckDriverSalaryUsaBlogSeeder;
 use Database\Seeders\UaPlumberPipefitterApprenticeshipTestBlogSeeder;
+use Database\Seeders\UnionApprenticeshipWaitlistsBlogSeeder;
 use Database\Seeders\VerifyOverseasJobOfferBlogSeeder;
 use Database\Seeders\VisaSponsorshipCountriesSkilledWorkersBlogSeeder;
 use Database\Seeders\WarehouseOperativeJobsUkVisaSponsorshipBlogSeeder;
@@ -106,6 +109,9 @@ dataset('abroadGuides', [
     'apprenticeship retake' => [RetakeApprenticeshipAptitudeTestBlogSeeder::class, ['seven days', 'six-month wait', 'cannot be retaken']],
     'apprenticeship score' => [WhatScoreNeededApprenticeshipTestBlogSeeder::class, ['cumulative WorkKeys score of 17', '35 of 45', 'minimum of 70%']],
     'apprenticeship week plan' => [OneWeekBeforeApprenticeshipTestBlogSeeder::class, ['Day 6', '35 reading, 35 mechanical and 30 maths', 'Apprenticeship.gov']],
+    'apply for trade apprenticeship' => [ApplyForTradeApprenticeshipBlogSeeder::class, ['33 items, 46 minutes', '36 items, 51 minutes', 'official transcript', 'one full year of high school algebra']],
+    'apprenticeship ranking lists' => [ApprenticeshipRankingListsBlogSeeder::class, ['Pool of Eligibles (not yet apprentices)', 'average of the two interviewers', '70% is the minimum', 'two years, or until the recruitment list is exhausted', '1,000 hours']],
+    'union apprenticeship waitlists' => [UnionApprenticeshipWaitlistsBlogSeeder::class, ['March, June, October and December', 'will result in your application being deleted', 'signatory contractor', 'six months before reapplying']],
     'top skills' => [TopSkillsJobAbroadFastBlogSeeder::class, ['professions-in-demand', 'skill-occupation-list', 'Pakistan Nursing Council', 'English language requirement']],
     'online jobs usa' => [OnlineJobsUsaFromPakistanBlogSeeder::class, ['Form W-8BEN', 'USD 5,000', 'EPD Circular Letter No. 06 of 2026', '$92,650', 'reportfraud.ftc.gov']],
     'truck drivers' => [BestCountriesTruckDriversAbroadBlogSeeder::class, ['Code 95', '$58,640', 'Temporary Shortage List', 'FMCSA', 'Pakistani licence is not accepted']],
@@ -117,7 +123,7 @@ const OFFICIAL_HOSTS = [
     'www.udi.no', 'www.sem.admin.ch', 'jetprogramme.org', 'eures.europa.eu', 'reportfraud.ftc.gov',
     'reportfraud.police.uk', 'antifraudcentre-centreantifraude.ca', 'www.scamwatch.gov.au', 'beoe.gov.pk',
     'www.consumerfinance.gov', 'www.sbp.org.pk', 'find-and-update.company-information.service.gov.uk', 'www.freecodecamp.org', 'learn.microsoft.com', 'www.skillsbuild.org', 'academy.hubspot.com', 'www.open.edu', 'www.fairwork.gov.au', 'www.dol.gov', 'www.hse.gov.uk', 'www.mohre.gov.ae', 'complaint.nccia.gov.pk', 'www.hrsd.gov.sa', 'www.uscis.gov', 'home-affairs.ec.europa.eu', 'european-union.europa.eu', 'eures.europa.eu', 'www.france-visas.gouv.fr', 'employment-social-affairs.ec.europa.eu', 'www.bls.gov', 'www.nmc.org.uk',
-    'iw721.org', 'www.dli.mn.gov', 'www.ironworkers.org', 'www.neiep.org', 'sm88jatc.org', 'smw20training.com', 'www.smart18ecwi.org', 'www.socalsma.org', 'www.sheetmetal-iti.org', 'ua.org', 'www.pftf597.org', 'www.ua190.org', 'www.ualocal467.org', 'sajac-boilermakers.org', 'boilermaker.ca', '555.boilermaker.ca', 'www.dir.ca.gov', 'boilermakers.org', 'www.bnap.com', 'www.liuna.org', 'www.liunatraining.org', 'www.njlaborers.org', 'liunaminnesota.org', 'www.iuoe.org', 'local150.org', 'www.local49training.org', 'www.apprenticeship.gov', 'www.osha.gov', 'openstax.org',
+    'iw721.org', 'www.dli.mn.gov', 'www.ironworkers.org', 'www.neiep.org', 'www.electricaltrainingalliance.org', 'www.etasv.org', 'nietc.org', 'www.oregon.gov', 'www.laborerstrainingschool.com', 'sm88jatc.org', 'smw20training.com', 'www.smart18ecwi.org', 'www.socalsma.org', 'www.sheetmetal-iti.org', 'ua.org', 'www.pftf597.org', 'www.ua190.org', 'www.ualocal467.org', 'sajac-boilermakers.org', 'boilermaker.ca', '555.boilermaker.ca', 'www.dir.ca.gov', 'boilermakers.org', 'www.bnap.com', 'www.liuna.org', 'www.liunatraining.org', 'www.njlaborers.org', 'liunaminnesota.org', 'www.iuoe.org', 'local150.org', 'www.local49training.org', 'www.apprenticeship.gov', 'www.osha.gov', 'openstax.org',
     'www.fmcsa.dot.gov', 'www.irs.gov', 'reportfraud.ftc.gov', 'jobsearch.gov.au', 'www.jobs.nhs.uk', 'seasonaljobs.dol.gov', 'travel.state.gov', 'europass.europa.eu', 'nationalcareers.service.gov.uk',
 ];
 
@@ -219,6 +225,9 @@ it('cross-links only to guides that exist once they are all seeded', function ()
         RetakeApprenticeshipAptitudeTestBlogSeeder::class,
         WhatScoreNeededApprenticeshipTestBlogSeeder::class,
         OneWeekBeforeApprenticeshipTestBlogSeeder::class,
+        ApplyForTradeApprenticeshipBlogSeeder::class,
+        ApprenticeshipRankingListsBlogSeeder::class,
+        UnionApprenticeshipWaitlistsBlogSeeder::class,
         EnglishLanguageRequirementsWorkingAbroadBlogSeeder::class,
         SendMoneyHomeWorkingAbroadBlogSeeder::class,
         WhatIsWorkPermitBlogSeeder::class,
