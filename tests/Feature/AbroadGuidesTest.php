@@ -16,6 +16,7 @@ use Database\Seeders\CaregiverJobsUsaVisaSponsorshipBlogSeeder;
 use Database\Seeders\CleanerJobUkFromPakistanBlogSeeder;
 use Database\Seeders\CountriesHiringForeignWorkersBlogSeeder;
 use Database\Seeders\DocumentsNeededToWorkAbroadBlogSeeder;
+use Database\Seeders\ElevatorApprenticeshipChicagoPhiladelphiaBostonBlogSeeder;
 use Database\Seeders\ElevatorApprenticeshipTestNeiepBlogSeeder;
 use Database\Seeders\EmployerCancelsWorkVisaBlogSeeder;
 use Database\Seeders\EnglishLanguageRequirementsWorkingAbroadBlogSeeder;
@@ -29,10 +30,13 @@ use Database\Seeders\HgvDriverSalaryUkBlogSeeder;
 use Database\Seeders\HighestPayingBlueCollarJobsAbroadBlogSeeder;
 use Database\Seeders\HotelHousekeeperJobsUsaVisaSponsorshipBlogSeeder;
 use Database\Seeders\HowLongWorkVisaTakesBlogSeeder;
+use Database\Seeders\IronworkerApprenticeshipNewYorkBlogSeeder;
 use Database\Seeders\IronworkerAptitudeTestBlogSeeder;
 use Database\Seeders\JobAbroadWithoutExperienceBlogSeeder;
 use Database\Seeders\JobEuropeNonEuCitizenBlogSeeder;
 use Database\Seeders\JobsAbroadFreeHousingFoodBlogSeeder;
+use Database\Seeders\JobsHiringNowHoustonTxBlogSeeder;
+use Database\Seeders\JobsInChicagoIlBlogSeeder;
 use Database\Seeders\LaborersUnionEntranceExamBlogSeeder;
 use Database\Seeders\MechanicalReasoningQuestionsBlogSeeder;
 use Database\Seeders\MistakesApplyingJobsAbroadBlogSeeder;
@@ -40,16 +44,22 @@ use Database\Seeders\MoveAbroadForWorkStepByStepBlogSeeder;
 use Database\Seeders\OneWeekBeforeApprenticeshipTestBlogSeeder;
 use Database\Seeders\OnlineJobsUsaFromPakistanBlogSeeder;
 use Database\Seeders\OperatingEngineersApprenticeshipTestBlogSeeder;
+use Database\Seeders\PartTimeJobsSeattleWaBlogSeeder;
+use Database\Seeders\PlumberApprenticeshipSeattleHoustonDetroitBlogSeeder;
 use Database\Seeders\PrepareOnlineJobInterviewAbroadBlogSeeder;
 use Database\Seeders\ResumeForJobAbroadBlogSeeder;
 use Database\Seeders\RetakeApprenticeshipAptitudeTestBlogSeeder;
 use Database\Seeders\RightsForeignWorkersAbroadBlogSeeder;
 use Database\Seeders\SaveMoneyWorkingAbroadBlogSeeder;
 use Database\Seeders\SendMoneyHomeWorkingAbroadBlogSeeder;
+use Database\Seeders\SheetMetalApprenticeshipClevelandPittsburghMinneapolisBlogSeeder;
 use Database\Seeders\SheetMetalWorkersAptitudeTestBlogSeeder;
+use Database\Seeders\SkilledTradesLongIslandHudsonValleyBlogSeeder;
 use Database\Seeders\TopSkillsJobAbroadFastBlogSeeder;
+use Database\Seeders\TradesCareersUpstateNewYorkBlogSeeder;
 use Database\Seeders\TruckDriverSalaryUsaBlogSeeder;
 use Database\Seeders\UaPlumberPipefitterApprenticeshipTestBlogSeeder;
+use Database\Seeders\UnionApprenticeshipsSouthernCaliforniaInlandEmpireBlogSeeder;
 use Database\Seeders\UnionApprenticeshipWaitlistsBlogSeeder;
 use Database\Seeders\VerifyOverseasJobOfferBlogSeeder;
 use Database\Seeders\VisaSponsorshipCountriesSkilledWorkersBlogSeeder;
@@ -109,6 +119,16 @@ dataset('abroadGuides', [
     'apprenticeship retake' => [RetakeApprenticeshipAptitudeTestBlogSeeder::class, ['seven days', 'six-month wait', 'cannot be retaken']],
     'apprenticeship score' => [WhatScoreNeededApprenticeshipTestBlogSeeder::class, ['cumulative WorkKeys score of 17', '35 of 45', 'minimum of 70%']],
     'apprenticeship week plan' => [OneWeekBeforeApprenticeshipTestBlogSeeder::class, ['Day 6', '35 reading, 35 mechanical and 30 maths', 'Apprenticeship.gov']],
+    'elevator cities' => [ElevatorApprenticeshipChicagoPhiladelphiaBostonBlogSeeder::class, ['600 applications', '400 applications', 'America/New_York', 'five-year education programme']],
+    'ironworker new york' => [IronworkerApprenticeshipNewYorkBlogSeeder::class, ['March 2027', '35-foot column climb', 'USD 100 apprenticeship initiation fee', 'six months before recruitment']],
+    'plumber cities' => [PlumberApprenticeshipSeattleHoustonDetroitBlogSeeder::class, ['valid for only 15 days', 'December 18, 2026', 'raw score of 48', '8,500 to 10,000 hours']],
+    'sheet metal cities' => [SheetMetalApprenticeshipClevelandPittsburghMinneapolisBlogSeeder::class, ['verification email', '20 March 2027', '8,000 hours', 'dependent on employment with a contractor']],
+    'upstate trades' => [TradesCareersUpstateNewYorkBlogSeeder::class, ['S. 3546 California Road', '70% or higher', 'Bennett Mechanical Comprehension Test', 'third Wednesday']],
+    'long island hudson' => [SkilledTradesLongIslandHudsonValleyBlogSeeder::class, ['1600 Walt Whitman Road', '270 Motor Parkway', 'only 25 applications', 'Bergen County']],
+    'southern california' => [UnionApprenticeshipsSouthernCaliforniaInlandEmpireBlogSeeder::class, ['76%', 'last Tuesday of each month', '4,800 hours', 'currently closed for Apprenticeship Program applications']],
+    'chicago jobs' => [JobsInChicagoIlBlogSeeder::class, ['upcoming opportunities page', 'does not hire them directly', 'about 90 days']],
+    'houston jobs' => [JobsHiringNowHoustonTxBlogSeeder::class, ['Job Interest Card', 'pass drug testing', 'NEOGOV']],
+    'seattle part time' => [PartTimeJobsSeattleWaBlogSeeder::class, ['at least 10 hours a week', 'work-study eligible', 'typically for about two weeks']],
     'apply for trade apprenticeship' => [ApplyForTradeApprenticeshipBlogSeeder::class, ['33 items, 46 minutes', '36 items, 51 minutes', 'official transcript', 'one full year of high school algebra']],
     'apprenticeship ranking lists' => [ApprenticeshipRankingListsBlogSeeder::class, ['Pool of Eligibles (not yet apprentices)', 'average of the two interviewers', '70% is the minimum', 'two years, or until the recruitment list is exhausted', '1,000 hours']],
     'union apprenticeship waitlists' => [UnionApprenticeshipWaitlistsBlogSeeder::class, ['March, June, October and December', 'will result in your application being deleted', 'signatory contractor', 'six months before reapplying']],
@@ -123,7 +143,7 @@ const OFFICIAL_HOSTS = [
     'www.udi.no', 'www.sem.admin.ch', 'jetprogramme.org', 'eures.europa.eu', 'reportfraud.ftc.gov',
     'reportfraud.police.uk', 'antifraudcentre-centreantifraude.ca', 'www.scamwatch.gov.au', 'beoe.gov.pk',
     'www.consumerfinance.gov', 'www.sbp.org.pk', 'find-and-update.company-information.service.gov.uk', 'www.freecodecamp.org', 'learn.microsoft.com', 'www.skillsbuild.org', 'academy.hubspot.com', 'www.open.edu', 'www.fairwork.gov.au', 'www.dol.gov', 'www.hse.gov.uk', 'www.mohre.gov.ae', 'complaint.nccia.gov.pk', 'www.hrsd.gov.sa', 'www.uscis.gov', 'home-affairs.ec.europa.eu', 'european-union.europa.eu', 'eures.europa.eu', 'www.france-visas.gouv.fr', 'employment-social-affairs.ec.europa.eu', 'www.bls.gov', 'www.nmc.org.uk',
-    'iw721.org', 'www.dli.mn.gov', 'www.ironworkers.org', 'www.neiep.org', 'www.electricaltrainingalliance.org', 'www.etasv.org', 'nietc.org', 'www.oregon.gov', 'www.laborerstrainingschool.com', 'sm88jatc.org', 'smw20training.com', 'www.smart18ecwi.org', 'www.socalsma.org', 'www.sheetmetal-iti.org', 'ua.org', 'www.pftf597.org', 'www.ua190.org', 'www.ualocal467.org', 'sajac-boilermakers.org', 'boilermaker.ca', '555.boilermaker.ca', 'www.dir.ca.gov', 'boilermakers.org', 'www.bnap.com', 'www.liuna.org', 'www.liunatraining.org', 'www.njlaborers.org', 'liunaminnesota.org', 'www.iuoe.org', 'local150.org', 'www.local49training.org', 'www.apprenticeship.gov', 'www.osha.gov', 'openstax.org',
+    'iw721.org', 'www.dli.mn.gov', 'www.ironworkers.org', 'www.neiep.org', 'www.seattlepipetrades.org', 'ualocal32.com', 'www.plu68.com', 'www.plumbers98tc.org', 'lni.wa.gov', 'tsbpe.texas.gov', 'www.michigan.gov', 'cle33sheetmetal.org', 'sheetmetaltraining.org', 'sheetmetalapprenticetraining.com', 'www.smw10.org', 'dli.mn.gov', 'dol.ny.gov', 'www.ieetc.org', 'www.laett.com', 'www.ualocal364.com', 'www.wsctf.org', 'www.cnoett.org', 'www.ua373.com', 'neieprecruitment.org', 'iueclocal4.com', 'nycironworkers.org', 'www.ironworkers580.org', 'www.ironworkers12.org', 'chicago.taleo.net', 'www.transitchicago.com', 'www.cps.edu', 'ides.illinois.gov', 'illinoisjoblink.illinois.gov', 'www.houstontx.gov', 'www.governmentjobs.com', 'jobs.ridemetro.org', 'hrrm.harriscountytx.gov', 'www.workintexas.com', 'www.seattle.gov', 'www.washington.edu', 'hfs.uw.edu', 'www.worksourcewa.com', 'www.electricaltrainingalliance.org', 'www.etasv.org', 'nietc.org', 'www.oregon.gov', 'www.laborerstrainingschool.com', 'sm88jatc.org', 'smw20training.com', 'www.smart18ecwi.org', 'www.socalsma.org', 'www.sheetmetal-iti.org', 'ua.org', 'www.pftf597.org', 'www.ua190.org', 'www.ualocal467.org', 'sajac-boilermakers.org', 'boilermaker.ca', '555.boilermaker.ca', 'www.dir.ca.gov', 'boilermakers.org', 'www.bnap.com', 'www.liuna.org', 'www.liunatraining.org', 'www.njlaborers.org', 'liunaminnesota.org', 'www.iuoe.org', 'local150.org', 'www.local49training.org', 'www.apprenticeship.gov', 'www.osha.gov', 'openstax.org',
     'www.fmcsa.dot.gov', 'www.irs.gov', 'reportfraud.ftc.gov', 'jobsearch.gov.au', 'www.jobs.nhs.uk', 'seasonaljobs.dol.gov', 'travel.state.gov', 'europass.europa.eu', 'nationalcareers.service.gov.uk',
 ];
 
@@ -226,6 +246,16 @@ it('cross-links only to guides that exist once they are all seeded', function ()
         WhatScoreNeededApprenticeshipTestBlogSeeder::class,
         OneWeekBeforeApprenticeshipTestBlogSeeder::class,
         ApplyForTradeApprenticeshipBlogSeeder::class,
+        ElevatorApprenticeshipChicagoPhiladelphiaBostonBlogSeeder::class,
+        IronworkerApprenticeshipNewYorkBlogSeeder::class,
+        PlumberApprenticeshipSeattleHoustonDetroitBlogSeeder::class,
+        SheetMetalApprenticeshipClevelandPittsburghMinneapolisBlogSeeder::class,
+        TradesCareersUpstateNewYorkBlogSeeder::class,
+        SkilledTradesLongIslandHudsonValleyBlogSeeder::class,
+        UnionApprenticeshipsSouthernCaliforniaInlandEmpireBlogSeeder::class,
+        JobsInChicagoIlBlogSeeder::class,
+        JobsHiringNowHoustonTxBlogSeeder::class,
+        PartTimeJobsSeattleWaBlogSeeder::class,
         ApprenticeshipRankingListsBlogSeeder::class,
         UnionApprenticeshipWaitlistsBlogSeeder::class,
         EnglishLanguageRequirementsWorkingAbroadBlogSeeder::class,
