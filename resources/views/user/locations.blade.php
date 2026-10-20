@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 @section('title', 'Browse Jobs by Location | JobGader')
-@section('meta_description', 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . '+ verified jobs across ' . number_format($heroStats['total_states'] ?? 50) . ' U.S. states. Find local opportunities in your city, area, or ZIP — apply free on JobGader.')
+@section('meta_description', 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . '+ jobs across ' . number_format($heroStats['total_states'] ?? 50) . ' U.S. states. Find local opportunities in your city, area, or ZIP — apply free on JobGader.')
 @section('meta_keywords', 'jobs by location usa, jobs near me, find jobs by city, browse jobs by state, jobs by zip code, local jobs america')
 @section('canonical', $locations->currentPage() === 1 ? route('jobs.locations') : route('jobs.locations').'?page='.$locations->currentPage())
 
@@ -601,7 +601,7 @@
             <a href="{{ url('/') }}">Home</a> &nbsp;&rsaquo;&nbsp; Browse Locations
         </div>
         <span class="eyebrow" data-aos="fade-down" data-aos-duration="600">Browse by Location</span>
-        <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Find Verified Jobs in Every <span class="accent">U.S. State &amp; City</span></h1>
+        <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Find Jobs in Every <span class="accent">U.S. State &amp; City</span></h1>
         <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Search {{ number_format($heroStats['total_jobs'] ?? 0) }}+ jobs across {{ number_format($heroStats['total_states'] ?? 50) }} U.S. states. Whether you're looking for opportunities in your hometown or relocating across the country, find roles in the city, area, or ZIP code that fits you best.</p>
         <div class="hero-stats">
             <div class="stat">
@@ -655,7 +655,7 @@
             <div class="loc-seo-content">
                 <span class="eyebrow">Why Search by Location</span>
                 <h2>Find local jobs in the city or state where you actually want to work</h2>
-                <p>Commute matters. So does community. Our location-based search lets you target verified job openings in the exact country, region or city you want to work in — or the place you're relocating to. Every listing shows the country and city it sits in, so you can rule a role out before you read it.</p>
+                <p>Commute matters. So does community. Our location-based search lets you target job openings in the exact country, region or city you want to work in — or the place you're relocating to. Every listing shows the country and city it sits in, so you can rule a role out before you read it.</p>
 
                 <ul class="loc-feature-list">
                     <li><i class="icon-feather-check-circle"></i> Drill down by state, area, and ZIP — find jobs that match your zone</li>
@@ -678,7 +678,7 @@
         <header class="loc-grid-head">
             <span class="eyebrow">All Locations</span>
             <h2>Explore Every Location We Cover</h2>
-            <p>Click any city or state to see the latest verified job openings in that area.</p>
+            <p>Click any city or state to see the latest job openings in that area.</p>
         </header>
 
         <div class="loc-grid">

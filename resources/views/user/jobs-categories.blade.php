@@ -586,7 +586,7 @@
                 <ul class="cat-feature-list">
                     <li><i class="icon-feather-check-circle"></i> Curated job listings across {{ number_format($heroStats['total_categories'] ?? 0) }}+ industries — no irrelevant noise</li>
                     <li><i class="icon-feather-check-circle"></i> Real-time openings count for every category you browse</li>
-                    <li><i class="icon-feather-check-circle"></i> Verified employers only — no scams, no ghost jobs, no surprises</li>
+                    <li><i class="icon-feather-check-circle"></i> We never charge job seekers, and every listing links to its source</li>
                     <li><i class="icon-feather-check-circle"></i> Smart job alerts so you never miss a matching role</li>
                 </ul>
 

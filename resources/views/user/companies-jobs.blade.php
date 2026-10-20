@@ -451,7 +451,7 @@
         <div class="cj-why-grid">
             <div class="cj-why-card">
                 <div class="cj-why-ico"><i class="icon-feather-check-circle"></i></div>
-                <h3>Verified Employers</h3>
+                <h3>Employer Links</h3>
                 <p>Every company is manually screened before any listing goes live on the platform.</p>
             </div>
             <div class="cj-why-card">

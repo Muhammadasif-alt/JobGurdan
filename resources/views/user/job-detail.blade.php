@@ -800,7 +800,7 @@
                                 <span class="ico"><i class="icon-feather-clock"></i></span>
                                 <div>
                                     <strong>Daily Fresh Listings</strong>
-                                    <span>New hand-checked roles added every week across {{ $coverage->shortList() }}.</span>
+                                    <span>New roles added every week across {{ $coverage->shortList() }}.</span>
                                 </div>
                             </li>
                         </ul>

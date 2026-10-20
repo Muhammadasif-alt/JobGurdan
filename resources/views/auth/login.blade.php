@@ -342,7 +342,7 @@
             <h1>Sign in to continue your <span class="accent">job search</span></h1>
             <p>Get back to your saved jobs and applications. An account is optional &mdash; every listing on JobGader can be opened and applied to without one.</p>
             <ul class="auth-trust">
-                <li><i class="bi bi-check-circle-fill"></i> Hand-checked job listings</li>
+                <li><i class="bi bi-check-circle-fill"></i> Every listing links to its source</li>
                 <li><i class="bi bi-check-circle-fill"></i> Track applications in one dashboard</li>
                 <li><i class="bi bi-check-circle-fill"></i> Personalized job recommendations</li>
                 <li><i class="bi bi-check-circle-fill"></i> Trusted by top U.S. employers</li>

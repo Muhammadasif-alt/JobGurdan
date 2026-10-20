@@ -12,7 +12,7 @@
         $srDesc = "Browse {$srPosLbl} job openings across the USA. Apply free with one click on JobGader.";
     } elseif ($srLocLbl) {
         $srTitle = "Jobs in {$srLocLbl} — Search Results | JobGader";
-        $srDesc = "Discover verified jobs in {$srLocLbl} across every industry. Apply free on JobGader.";
+        $srDesc = "Discover jobs in {$srLocLbl} across every industry. Apply free on JobGader.";
     } else {
         $srTitle = 'Job Search Results — Find Verified U.S. Jobs | JobGader';
         $srDesc = 'Browse matched job results across the USA. Filter by category, location and salary — apply free with one click on JobGader.';

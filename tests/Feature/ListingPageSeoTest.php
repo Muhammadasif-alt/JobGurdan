@@ -78,7 +78,7 @@ function titleOf(string $html): ?string
 /** The description every page fell back to when it authored none of its own. */
 function sharedFallbackDescription(): string
 {
-    return 'Find hand-checked job openings across';
+    return 'Find job openings across';
 }
 
 beforeEach(function () {

@@ -385,7 +385,7 @@
             </ul>
             <span class="cat-hero-tag">Verified Listings</span>
             <h1>Find <span>{{ $category->name }}</span> jobs across the USA</h1>
-            <p class="lead">Browse {{ number_format($jobs->total()) }} active {{ strtolower($category->name) }} openings from verified employers nationwide. Filter by location, job type, and salary — and apply with one click. Free for job seekers, always.</p>
+            <p class="lead">Browse {{ number_format($jobs->total()) }} active {{ strtolower($category->name) }} openings from employers nationwide. Filter by location, job type, and salary — and apply with one click. Free for job seekers, always.</p>
             <div class="cat-hero-stats">
                 <div class="cat-hero-stat">
                     <div class="num">{{ number_format($jobs->total()) }}</div>
@@ -397,7 +397,7 @@
                 </div>
                 <div class="cat-hero-stat">
                     <div class="num">100%</div>
-                    <div class="label">Verified Employers</div>
+                    <div class="label">Employer Links</div>
                 </div>
                 <div class="cat-hero-stat">
                     <div class="num">Free</div>
@@ -534,7 +534,7 @@
         <div class="cat-trust-grid">
             <div class="cat-trust-card">
                 <div class="ico"><i class="icon-feather-shield"></i></div>
-                <h4>Verified Employers</h4>
+                <h4>Employer Links</h4>
                 <p>Every employer on our platform is reviewed by our team — no scams, no ghost jobs, no fake listings.</p>
             </div>
             <div class="cat-trust-card">

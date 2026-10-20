@@ -9,13 +9,13 @@
         $pageDesc = "Browse verified {$posLabel} jobs in {$locLabel}. Apply free with one click on JobGader — new openings daily.";
     } elseif ($posLabel) {
         $pageTitle = "{$posLabel} Jobs — Hiring Now, Apply Free | JobGader";
-        $pageDesc = "Search {$posLabel} jobs across {$coverage->shortList()}. Hand-checked listings, free to apply on JobGader with no account needed.";
+        $pageDesc = "Search {$posLabel} jobs across {$coverage->shortList()}. Free to apply on JobGader with no account needed.";
     } elseif ($locLabel) {
         $pageTitle = "Jobs in {$locLabel} — Browse Verified Listings | JobGader";
         $pageDesc = "Find jobs in {$locLabel} across every industry. Verified listings, free to apply on JobGader — updated daily.";
     } else {
         $pageTitle = 'Browse Jobs — Find Verified Listings, Apply Free | JobGader';
-        $pageDesc = 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . ' hand-checked jobs across ' . $coverage->shortList() . '. Filter by location or category. Free to apply, no account needed.';
+        $pageDesc = 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . ' jobs across ' . $coverage->shortList() . '. Filter by location or category. Free to apply, no account needed.';
     }
 
     /*
@@ -872,7 +872,7 @@
             <div class="trust-item">
                 <div class="ico"><i class="icon-feather-shield"></i></div>
                 <div>
-                    <h5>Verified Employers</h5>
+                    <h5>Employer Links</h5>
                     <p>Every employer is reviewed for safety and legitimacy before listing.</p>
                 </div>
             </div>

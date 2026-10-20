@@ -14,7 +14,7 @@
         : $location->name;
 
     $locTitle = 'Jobs in '.$location->name.($locFirst ? '' : ', Page '.$locPage).' | JobGader';
-    $locDesc = 'Browse '.number_format($jobs->total()).' verified job openings in '.$locWhere
+    $locDesc = 'Browse '.number_format($jobs->total()).' job openings in '.$locWhere
         .'. Filter by category and job type, see what each employer asks for, and apply free on JobGader.';
 @endphp
 @section('title', $locTitle)

@@ -22,7 +22,7 @@
     @php
         $metaDescription =
             html_entity_decode(trim($__env->yieldContent('meta_description')), ENT_QUOTES | ENT_HTML5) ?:
-            'Find hand-checked job openings across '.$coverage->shortList().'. Search by location, category and experience level on JobGader — free to apply, no account needed.';
+            'Find job openings across '.$coverage->shortList().'. Search by location, category and experience level on JobGader — free to apply, no account needed.';
         // Google truncates past roughly 160 characters. The country list is
         // read from the listings now, so an authored description can grow past
         // that on its own when a new country is added.
@@ -1727,7 +1727,7 @@
                             <div class="utf-footer-item-links">
                                 <a href="/"><img class="footer-logo" loading="lazy" decoding="async"
                                         src="{{ asset('public/user/images/jobgader-navbar-dark.png') }}" alt="JobGader" width="166" height="40"></a>
-                                <p>JobGader lists hand-checked openings across {{ $coverage->shortList() }},
+                                <p>JobGader lists openings across {{ $coverage->shortList() }},
                                     from general labour and hospitality through to skilled trades and senior
                                     engineering &mdash; alongside guides on which visa sponsorship routes are
                                     genuinely open. Free to search, and no account needed to apply.</p>

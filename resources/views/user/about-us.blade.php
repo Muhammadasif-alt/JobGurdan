@@ -1,9 +1,9 @@
 @extends('user.layouts.master')
 @section('title', 'About JobGader — Jobs and Honest Visa Guides')
-@section('meta_description', 'Why JobGader exists: hand-checked listings across '.$coverage->shortList().', and visa guides that say which routes are open and which are closed.')
+@section('meta_description', 'Why JobGader exists: listings across '.$coverage->shortList().', and visa guides that say which routes are open and which are closed.')
 @section('meta_keywords', 'about jobgader, job board, visa sponsorship guides, jobs usa uk pakistan, free job search, jobs for foreigners, work abroad, hand checked job listings')
 @section('og_title', 'About JobGader — Jobs and Honest Visa Guides')
-@section('og_description', 'Hand-checked jobs across '.$coverage->shortList().', plus visa guides that tell you which sponsorship routes are actually open.')
+@section('og_description', 'Jobs across '.$coverage->shortList().', plus visa guides that tell you which sponsorship routes are actually open.')
 @section('og_image', asset('public/user/images/single-company.jpg'))
 @section('canonical', route('about.us'))
 
@@ -11,7 +11,7 @@
     {{-- Twitter card --}}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="About JobGader — Jobs and Honest Visa Guides">
-    <meta name="twitter:description" content="Hand-checked jobs across {{ $coverage->shortList() }}, plus visa guides that say which routes are open.">
+    <meta name="twitter:description" content="Jobs across {{ $coverage->shortList() }}, plus visa guides that say which routes are open.">
     <meta name="twitter:image" content="{{ asset('public/user/images/single-company.jpg') }}">
     <meta name="author" content="JobGader">
     <meta property="og:type" content="website">
@@ -47,7 +47,7 @@
         "@@type": "AboutPage",
         "name": "About JobGader",
         "url": "{{ route('about.us') }}",
-        "description": "How JobGader works: hand-checked job listings across {{ $coverage->shortList() }}, and visa sponsorship guides that say which routes are open and which have closed.",
+        "description": "How JobGader works: job listings across {{ $coverage->shortList() }}, and visa sponsorship guides that say which routes are open and which have closed.",
         "publisher": {
             "@@type": "Organization",
             "name": "JobGader",
@@ -1011,7 +1011,7 @@
                 <div>
                     <span class="about-hero-tag" data-aos="fade-down" data-aos-duration="600">About JobGader</span>
                     <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Real jobs, and <span>straight answers</span> about the visa routes behind them</h1>
-                    <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">JobGader lists hand-checked openings across {{ $coverage->shortList() }} &mdash; and publishes guides that say which sponsorship routes are genuinely open, which have closed, and what each role actually pays. Free to apply, and you never need an account.</p>
+                    <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">JobGader lists openings across {{ $coverage->shortList() }} &mdash; and publishes guides that say which sponsorship routes are genuinely open, which have closed, and what each role actually pays. Free to apply, and you never need an account.</p>
                     <div class="about-hero-cta" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
                         <a href="{{ route('jobs.index') }}">Browse Open Jobs <i class="icon-feather-arrow-right"></i></a>
                     </div>
@@ -1031,8 +1031,8 @@
                     <div class="about-hero-float br">
                         <div class="ico green"><i class="icon-feather-check-circle"></i></div>
                         <div>
-                            <strong>Hand-checked</strong>
-                            <span>Every listing, before it goes live</span>
+                            <strong>Source-linked</strong>
+                            <span>Every listing links to the employer or source</span>
                         </div>
                     </div>
                 </div>
@@ -1137,7 +1137,7 @@
                 <div class="benefits-list">
                     <div class="benefit-item">
                         <div class="ico"><i class="icon-feather-shield"></i></div>
-                        <h4>Hand-Checked Listings</h4>
+                        <h4>Source-Linked Listings</h4>
                         <p>Added and reviewed by us, not scraped. Each one links to the employer or original posting so you can verify it.</p>
                     </div>
                     <div class="benefit-item">
@@ -1329,7 +1329,7 @@
                     <div class="press-ico"><i class="icon-feather-check-circle"></i></div>
                     <h3>Reviewed Before Publishing</h3>
                     <p>Every listing is added by hand and links through to the employer or the original posting, so you can confirm it exists before spending time on an application.</p>
-                    <span class="press-badge">Hand-Checked</span>
+                    <span class="press-badge">Source-Linked</span>
                 </article>
                 <article class="press-card">
                     <div class="press-ico"><i class="icon-feather-book-open"></i></div>
@@ -1375,8 +1375,8 @@
                 <div class="press-strip-item" role="listitem">
                     <i class="icon-feather-check-circle"></i>
                     <div>
-                        <strong>Hand-Checked</strong>
-                        <span>Every listing reviewed</span>
+                        <strong>Source-Linked</strong>
+                        <span>Every listing links to its source</span>
                     </div>
                 </div>
                 <div class="press-strip-item" role="listitem">
@@ -1696,7 +1696,7 @@
                 </details>
                 <details class="about-faq-item">
                     <summary>What industries and job types are available?</summary>
-                    <div class="faq-answer">We feature verified jobs across every major U.S. industry — including healthcare, IT, software development, construction, warehouse, transportation, retail, customer service, marketing, accounting, hospitality, education, finance, and more. Roles range from entry-level and part-time to executive and remote positions.</div>
+                    <div class="faq-answer">We feature jobs across every major U.S. industry — including healthcare, IT, software development, construction, warehouse, transportation, retail, customer service, marketing, accounting, hospitality, education, finance, and more. Roles range from entry-level and part-time to executive and remote positions.</div>
                 </details>
                 <details class="about-faq-item">
                     <summary>Can I find remote and work-from-home jobs?</summary>
