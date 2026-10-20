@@ -444,30 +444,30 @@
 <section class="cj-why-section">
     <div class="container">
         <header class="cj-section-head">
-            <span class="eyebrow">Why Apply Through Us</span>
-            <h2>Built for U.S. <span class="accent">Job Seekers</span></h2>
-            <p>Every role on JobGader goes through our verification process before it reaches you.</p>
+            <span class="eyebrow">Why Use JobGader</span>
+            <h2>Built for <span class="accent">Job Seekers</span></h2>
+            <p>Each listing links to the employer's own site or an official portal.</p>
         </header>
         <div class="cj-why-grid">
             <div class="cj-why-card">
                 <div class="cj-why-ico"><i class="icon-feather-check-circle"></i></div>
-                <h3>Employer Links</h3>
-                <p>Every company is manually screened before any listing goes live on the platform.</p>
+                <h3>Source Links</h3>
+                <p>Each listing links to the employer or the official portal where you apply.</p>
             </div>
             <div class="cj-why-card">
-                <div class="cj-why-ico"><i class="icon-feather-zap"></i></div>
-                <h3>One-Click Apply</h3>
-                <p>Save your profile once, then apply to dozens of relevant roles in seconds.</p>
+                <div class="cj-why-ico"><i class="icon-feather-bell"></i></div>
+                <h3>Job Alerts</h3>
+                <p>Registered job seekers can set up email alerts for new matching listings.</p>
             </div>
             <div class="cj-why-card">
                 <div class="cj-why-ico"><i class="icon-feather-lock"></i></div>
-                <h3>Safe &amp; Secure</h3>
-                <p>Your personal data is never sold or shared with third parties — guaranteed.</p>
+                <h3>No Application Fees</h3>
+                <p>JobGader never asks job seekers to pay to apply.</p>
             </div>
             <div class="cj-why-card">
                 <div class="cj-why-ico"><i class="icon-feather-clock"></i></div>
-                <h3>Daily Fresh Listings</h3>
-                <p>Our platform refreshes every 24 hours so you see new opportunities first.</p>
+                <h3>Weekly Updates</h3>
+                <p>New listings and guides are added every week.</p>
             </div>
         </div>
     </div>

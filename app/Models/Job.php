@@ -31,6 +31,7 @@ class Job extends Model
         'dedupe_hash',
         'seo_keywords',
         'meta_description',
+        'listing_type',
     ];
 
     /** seo_keywords accessor — split the stored comma-separated string into an array. */
@@ -55,6 +56,16 @@ class Job extends Model
     protected static function booted(): void
     {
         static::saving(function (Job $job) {
+            $advertiserName = $job->advertiser_id
+                ? Advertiser::whereKey($job->advertiser_id)->value('name')
+                : null;
+
+            if (str_contains((string) $advertiserName, self::ROUND_UP_ADVERTISER_MARKER)) {
+                $job->listing_type = self::LISTING_RESOURCE;
+            } elseif (! $job->listing_type) {
+                $job->listing_type = self::LISTING_VACANCY;
+            }
+
             $job->dedupe_hash = self::makeDedupeHash(
                 $job->position,
                 $job->advertiser_id,
@@ -111,14 +122,33 @@ class Job extends Model
 
     public const ROUND_UP_ADVERTISER_MARKER = '(Aggregated)';
 
+    public const LISTING_VACANCY = 'vacancy';
+
+    public const LISTING_RESOURCE = 'resource';
+
     /**
      * Whether this page points readers at an official portal rather than
      * describing one vacancy. Such pages stay reachable but are kept out of
-     * the search index and the sitemap.
+     * the search index, the sitemap, the job counts and the job listings.
      */
+    public function isResource(): bool
+    {
+        return $this->listing_type === self::LISTING_RESOURCE;
+    }
+
     public function isRoundUp(): bool
     {
-        return str_contains((string) ($this->advertiser?->name ?? ''), self::ROUND_UP_ADVERTISER_MARKER);
+        return $this->isResource();
+    }
+
+    public function scopeVacancy($query)
+    {
+        return $query->where('jobs.listing_type', self::LISTING_VACANCY);
+    }
+
+    public function scopeResource($query)
+    {
+        return $query->where('jobs.listing_type', self::LISTING_RESOURCE);
     }
 
     // Scopes and helpers for advanced searching and filtering

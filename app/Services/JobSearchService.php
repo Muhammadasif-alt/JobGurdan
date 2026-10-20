@@ -20,7 +20,7 @@ class JobSearchService
             'category', 'job_type', 'salary_min', 'salary_max', 'experience_level', 'per_page',
         ]);
 
-        $query = Job::with(['advertiser', 'category', 'location'])->active();
+        $query = Job::with(['advertiser', 'category', 'location'])->active()->vacancy();
 
         // Keywords (support multiple terms)
         $keywords = $request->input('keywords') ?? $request->input('position') ?? null;
@@ -122,7 +122,7 @@ class JobSearchService
         $locations = Location::query()
             ->whereHas('jobs', function ($q) {
                 $q->where(function ($qq) {
-                    $qq->where('status', 'active')->orWhereNull('status');
+                    $qq->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                 });
             })
             ->select('name')

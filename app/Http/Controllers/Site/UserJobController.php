@@ -49,7 +49,7 @@ class UserJobController extends Controller
             return [
                 'total_jobs' => (int) DB::table('jobs')
                     ->where(function ($q) {
-                        $q->where('status', 'active')->orWhereNull('status');
+                        $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                     })
                     ->selectRaw(self::dedupedJobCount('c'))
                     ->value('c'),
@@ -62,12 +62,12 @@ class UserJobController extends Controller
                     ->where('country', '!=', '')
                     ->distinct()
                     ->count('country'),
-                'total_companies' => Advertiser::count(),
+                'total_companies' => Advertiser::whereHas('jobs', fn ($q) => $q->active()->vacancy())->count(),
             ];
         });
 
         $trendingKeywords = Cache::remember('home.trendingKeywords', 600, function () {
-            return Job::select('position')
+            return Job::vacancy()->select('position')
                 ->whereNotNull('position')
                 ->where('position', '!=', '')
                 ->groupBy('position')
@@ -87,7 +87,7 @@ class UserJobController extends Controller
                         ->selectRaw(self::dedupedJobCount())
                         ->whereColumn('category_id', 'categories.id')
                         ->where(function ($q) {
-                            $q->where('status', 'active')->orWhereNull('status');
+                            $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                         }),
                     'jobs_count'
                 )
@@ -122,7 +122,7 @@ class UserJobController extends Controller
         // Latest openings for the homepage grid under the hero (4 per row x 2 rows).
         // Only the columns the card renders are selected — keeps the cached payload small.
         $featuredJobs = Cache::remember('home.featuredJobs', 600, function () {
-            return Job::select(['id', 'position', 'employment_type', 'created_at', 'advertiser_id', 'location_id', 'category_id'])
+            return Job::vacancy()->select(['id', 'position', 'employment_type', 'created_at', 'advertiser_id', 'location_id', 'category_id'])
                 ->with([
                     'advertiser:id,name,logo',
                     'location:id,name,area',
@@ -190,11 +190,11 @@ class UserJobController extends Controller
             return [
                 'total_jobs' => (int) DB::table('jobs')
                     ->where(function ($q) {
-                        $q->where('status', 'active')->orWhereNull('status');
+                        $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                     })
                     ->selectRaw(self::dedupedJobCount('c'))
                     ->value('c'),
-                'total_companies' => Advertiser::count(),
+                'total_companies' => Advertiser::whereHas('jobs', fn ($q) => $q->active()->vacancy())->count(),
                 'total_locations' => Location::select('name')->distinct()->count('name'),
             ];
         });
@@ -208,7 +208,7 @@ class UserJobController extends Controller
                         ->selectRaw(self::dedupedJobCount())
                         ->whereColumn('category_id', 'categories.id')
                         ->where(function ($q) {
-                            $q->where('status', 'active')->orWhereNull('status');
+                            $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                         }),
                     'jobs_count'
                 )
@@ -296,7 +296,7 @@ class UserJobController extends Controller
             ->select(DB::raw('MAX(id) as id'))
             ->where('id', '!=', $job->id)
             ->where(function ($q) {
-                $q->where('status', 'active')->orWhereNull('status');
+                $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
             })
             ->where(function ($q) use ($job) {
                 if ($job->category_id) {
@@ -399,7 +399,7 @@ class UserJobController extends Controller
                     ->selectRaw(self::dedupedJobCount())
                     ->whereColumn('category_id', 'categories.id')
                     ->where(function ($q) {
-                        $q->where('status', 'active')->orWhereNull('status');
+                        $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                     }),
                 'jobs_count'
             )
@@ -414,12 +414,12 @@ class UserJobController extends Controller
             return [
                 'total_jobs' => (int) DB::table('jobs')
                     ->where(function ($q) {
-                        $q->where('status', 'active')->orWhereNull('status');
+                        $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                     })
                     ->selectRaw(self::dedupedJobCount('c'))
                     ->value('c'),
                 'total_categories' => Category::count(),
-                'total_companies' => Advertiser::count(),
+                'total_companies' => Advertiser::whereHas('jobs', fn ($q) => $q->active()->vacancy())->count(),
                 'total_locations' => Location::select('name')->distinct()->count('name'),
             ];
         });
@@ -437,7 +437,7 @@ class UserJobController extends Controller
             $query = Job::with(['advertiser', 'category'])
                 ->where('location_id', $location->id)
                 ->where(function ($q) {
-                    $q->where('status', 'active')->orWhereNull('status');
+                    $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                 });
 
             // Filter by job types (supports single or multiple)
@@ -488,7 +488,7 @@ class UserJobController extends Controller
                 ->where('location_id', $location->id)
                 ->whereNotNull('job_type')
                 ->where(function ($q) {
-                    $q->where('status', 'active')->orWhereNull('status');
+                    $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                 })
                 ->groupBy('job_type')
                 ->get();
@@ -496,14 +496,14 @@ class UserJobController extends Controller
             // Sidebar: other locations (exclude current) with active job counts
             $otherLocations = Location::withCount(['jobs' => function ($q) use ($location) {
                 $q->where(function ($q2) {
-                    $q2->where('status', 'active')->orWhereNull('status');
+                    $q2->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                 })->where('id', '!=', $location->id);
             }])->orderBy('name')->take(15)->get();
 
             // Sidebar: categories with counts for this location
             $categories = Category::withCount(['jobs' => function ($q) use ($location) {
                 $q->where(function ($q2) {
-                    $q2->where('status', 'active')->orWhereNull('status');
+                    $q2->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                 })->where('location_id', $location->id);
             }])->orderBy('name')->get();
 
@@ -533,7 +533,7 @@ class UserJobController extends Controller
             $jobCounts = DB::table('jobs')
                 ->select('location_id', DB::raw('COUNT(*) as cnt'))
                 ->where(function ($q) {
-                    $q->where('status', 'active')->orWhereNull('status');
+                    $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                 })
                 ->whereNotNull('location_id')
                 ->groupBy('location_id');
@@ -568,10 +568,10 @@ class UserJobController extends Controller
 
         $heroStats = Cache::remember('locationsPage.heroStats', 600, function () {
             return [
-                'total_jobs' => Job::count(),
+                'total_jobs' => Job::active()->vacancy()->count(),
                 'total_locations' => Location::count(),
                 'total_states' => Location::select('name')->distinct()->count('name'),
-                'total_companies' => Advertiser::count(),
+                'total_companies' => Advertiser::whereHas('jobs', fn ($q) => $q->active()->vacancy())->count(),
             ];
         });
 
@@ -609,7 +609,7 @@ class UserJobController extends Controller
             ->select(DB::raw('MAX(id) as id'))
             ->where('category_id', $category->id)
             ->where(function ($q) {
-                $q->where('status', 'active')->orWhereNull('status');
+                $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
             });
 
         if ($locationFilter !== '') {
@@ -652,7 +652,7 @@ class UserJobController extends Controller
                     ->selectRaw(self::dedupedJobCount())
                     ->whereColumn('category_id', 'categories.id')
                     ->where(function ($q) {
-                        $q->where('status', 'active')->orWhereNull('status');
+                        $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                     }),
                 'jobs_count'
             )
@@ -672,9 +672,9 @@ class UserJobController extends Controller
         $search = trim((string) $request->input('q', ''));
         $sort = $request->input('sort', 'name');
 
-        $query = Advertiser::withCount(['jobs' => function ($q) {
+        $query = Advertiser::whereHas('jobs', fn ($q) => $q->active()->vacancy())->withCount(['jobs' => function ($q) {
             $q->where(function ($qq) {
-                $qq->where('status', 'active')->orWhereNull('status');
+                $qq->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
             });
         }]);
 
@@ -696,13 +696,13 @@ class UserJobController extends Controller
         $companies = $query->paginate(12)->withQueryString();
 
         $stats = [
-            'total_companies' => Advertiser::count(),
+            'total_companies' => Advertiser::whereHas('jobs', fn ($q) => $q->active()->vacancy())->count(),
             'total_jobs' => Job::where(function ($q) {
-                $q->where('status', 'active')->orWhereNull('status');
+                $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
             })->count(),
             'hiring_now' => Advertiser::whereHas('jobs', function ($q) {
                 $q->where(function ($qq) {
-                    $qq->where('status', 'active')->orWhereNull('status');
+                    $qq->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                 });
             })->count(),
         ];
@@ -721,7 +721,7 @@ class UserJobController extends Controller
             ->select(DB::raw('MAX(id) as id'))
             ->where('advertiser_id', $advertiser->id)
             ->where(function ($q) {
-                $q->where('status', 'active')->orWhereNull('status');
+                $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
             })
             ->groupBy('position');
 
@@ -745,7 +745,7 @@ class UserJobController extends Controller
                     ->selectRaw(self::dedupedJobCount())
                     ->whereColumn('category_id', 'categories.id')
                     ->where(function ($q) {
-                        $q->where('status', 'active')->orWhereNull('status');
+                        $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                     }),
                 'jobs_count'
             )
@@ -758,6 +758,35 @@ class UserJobController extends Controller
             'categories' => $categories,
             'locations' => $locations,
         ]);
+    }
+
+    /**
+     * Official portals and guides that are stored as job rows but are not
+     * vacancies. They are kept off the job list and out of the job counts.
+     */
+    public function jobPortals(Request $request)
+    {
+        $country = trim((string) $request->query('country', ''));
+
+        $countries = Location::query()
+            ->whereHas('jobs', fn ($q) => $q->active()->resource())
+            ->whereNotNull('country')
+            ->where('country', '!=', '')
+            ->distinct()
+            ->orderBy('country')
+            ->pluck('country');
+
+        $resources = Job::query()
+            ->active()
+            ->resource()
+            ->with(['location:id,name,country'])
+            ->when($country !== '', fn ($q) => $q->whereHas('location', fn ($l) => $l->where('country', $country)))
+            ->orderBy('location_id')
+            ->orderBy('position')
+            ->paginate(30)
+            ->withQueryString();
+
+        return view('user.job-portals', compact('resources', 'countries', 'country'));
     }
 
     public function about_us()
@@ -809,7 +838,7 @@ class UserJobController extends Controller
                 ->select(DB::raw('MAX(id) as id'))
                 ->where('position', 'like', $like)
                 ->where(function ($qb) {
-                    $qb->where('status', 'active')->orWhereNull('status');
+                    $qb->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
                 })
                 ->groupBy('position', 'advertiser_id');
 

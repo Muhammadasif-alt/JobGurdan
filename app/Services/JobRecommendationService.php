@@ -31,7 +31,7 @@ class JobRecommendationService
     {
         $query = Job::with(['advertiser', 'category', 'location'])
             ->where(function ($q) {
-                $q->where('status', 'active')->orWhereNull('status');
+                $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
             });
 
         // Apply seeker-provided filters

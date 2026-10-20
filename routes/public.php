@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 // Homepage & main job pages
 Route::get('/', [UserJobController::class, 'index'])->name('home');
 Route::get('/jobs', [UserJobController::class, 'showAllJobs'])->name('jobs.index');
+Route::get('/job-portals', [UserJobController::class, 'jobPortals'])->name('jobs.portals');
 
 // Autocomplete API for the search box (returns JSON suggestions)
 Route::get('/api/jobs/autocomplete', [UserJobController::class, 'autocomplete'])->name('jobs.autocomplete');
@@ -187,7 +188,7 @@ $jobsPerSitemap = 45000;
 Route::get('/sitemap.xml', function () use ($jobsPerSitemap) {
     $jobCount = 0;
     try {
-        $jobCount = (int) \App\Models\Job::query()->active()->count();
+        $jobCount = (int) \App\Models\Job::query()->active()->vacancy()->count();
     } catch (\Throwable $e) {
     }
     $jobChunks = (int) ceil($jobCount / $jobsPerSitemap);
@@ -340,13 +341,8 @@ Route::get('/sitemap-jobs-{chunk}.xml', function (int $chunk) use ($sitemapUrl, 
         // pointing Google at pages the site itself treats as gone.
         \DB::table('jobs')
             ->leftJoin('locations', 'jobs.location_id', '=', 'locations.id')
-            ->leftJoin('advertisers', 'jobs.advertiser_id', '=', 'advertisers.id')
             ->where(function ($q) {
-                $q->whereNull('advertisers.name')
-                    ->orWhere('advertisers.name', 'not like', '%'.\App\Models\Job::ROUND_UP_ADVERTISER_MARKER.'%');
-            })
-            ->where(function ($q) {
-                $q->where('jobs.status', 'active')->orWhereNull('jobs.status');
+                $q->where(fn ($status) => $status->where('jobs.status', 'active')->orWhereNull('jobs.status'))->where('jobs.listing_type', 'vacancy');
             })
             ->select('jobs.id', 'jobs.position', 'locations.name as location_name', 'jobs.updated_at')
             ->orderBy('jobs.id', 'desc')

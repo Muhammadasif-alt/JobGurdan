@@ -60,13 +60,9 @@ it('gives scholarship page two a clean canonical and a collection of visible sch
 
 it('keeps portal round-up job pages out of the index and the job sitemap', function () {
     (new MedicalRecordsClerkJobsUsaBlogSeeder)->run();
-    $job = Job::with('advertiser')->firstOrFail();
-    expect($job->isRoundUp())->toBe(str_contains($job->advertiser->name, '(Aggregated)'));
-
-    if (! $job->isRoundUp()) {
-        $job->advertiser->update(['name' => 'US Employers (Aggregated)']);
-        $job->refresh();
-    }
+    $job = Job::firstOrFail();
+    $job->update(['listing_type' => Job::LISTING_RESOURCE]);
+    expect($job->isRoundUp())->toBeTrue();
 
     $this->get('/jobs/medical-records-clerk-health-information-technician-us-employers-united-states')
         ->assertOk()

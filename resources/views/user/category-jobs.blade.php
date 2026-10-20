@@ -17,7 +17,7 @@
 @endphp
 @section('title', $catTitle)
 @section('og_title', $catTitle)
-@section('meta_description', 'Find verified ' . $category->name . ' jobs across ' . $coverage->shortList() . '. Browse ' . $jobs->total() . ' active openings, filter by location and job type, and apply with one click on JobGader.')
+@section('meta_description', 'Find ' . $category->name . ' jobs across ' . $coverage->shortList() . '. Browse ' . $jobs->total() . ' active openings, filter by location and job type, and apply on the employer site.')
 @section('canonical', route('jobs.category', $category->slug).($catFirst ? '' : '?page='.$catPage))
 
 @push('head')
@@ -383,9 +383,9 @@
                 <li><a href="{{ route('jobs.categories') }}">Categories</a></li>
                 <li>{{ $category->name }}</li>
             </ul>
-            <span class="cat-hero-tag">Verified Listings</span>
-            <h1>Find <span>{{ $category->name }}</span> jobs across the USA</h1>
-            <p class="lead">Browse {{ number_format($jobs->total()) }} active {{ strtolower($category->name) }} openings from employers nationwide. Filter by location, job type, and salary — and apply with one click. Free for job seekers, always.</p>
+            <span class="cat-hero-tag">Listings</span>
+            <h1>Find <span>{{ $category->name }}</span> jobs</h1>
+            <p class="lead">Browse {{ number_format($jobs->total()) }} active {{ strtolower($category->name) }} openings from employers nationwide. Filter by location, job type and salary. Free for job seekers.</p>
             <div class="cat-hero-stats">
                 <div class="cat-hero-stat">
                     <div class="num">{{ number_format($jobs->total()) }}</div>
@@ -528,29 +528,29 @@
 <section class="cat-trust-section">
     <div class="container">
         <div class="cat-trust-head">
-            <h2>Why apply for {{ $category->name }} jobs through JobGader?</h2>
-            <p>We've built the most trusted way for American job seekers to find verified roles — with employer transparency, smart matching, and zero spam.</p>
+            <h2>Why use JobGader for {{ $category->name }} jobs?</h2>
+            <p>Each listing links to the employer's own site or an official portal, and reading listings is free.</p>
         </div>
         <div class="cat-trust-grid">
             <div class="cat-trust-card">
                 <div class="ico"><i class="icon-feather-shield"></i></div>
-                <h4>Employer Links</h4>
-                <p>Every employer on our platform is reviewed by our team — no scams, no ghost jobs, no fake listings.</p>
+                <h4>Source Links</h4>
+                <p>Each listing links to the employer or the official portal where you apply.</p>
             </div>
             <div class="cat-trust-card">
-                <div class="ico"><i class="icon-feather-zap"></i></div>
-                <h4>Apply in One Click</h4>
-                <p>Save your resume once and apply to multiple {{ strtolower($category->name) }} roles instantly — no repeat forms.</p>
+                <div class="ico"><i class="icon-feather-external-link"></i></div>
+                <h4>Apply on the Source Site</h4>
+                <p>You apply on the employer's or portal's own website, not on JobGader.</p>
             </div>
             <div class="cat-trust-card">
                 <div class="ico"><i class="icon-feather-bell"></i></div>
-                <h4>Smart Job Alerts</h4>
-                <p>Get notified the moment a new {{ strtolower($category->name) }} role matching your preferences goes live.</p>
+                <h4>Job Alerts</h4>
+                <p>Registered job seekers can get email alerts for new {{ strtolower($category->name) }} listings.</p>
             </div>
             <div class="cat-trust-card">
                 <div class="ico"><i class="icon-feather-users"></i></div>
-                <h4>Trusted by Millions</h4>
-                <p>Over 10 million American job seekers use JobGader to find their next opportunity. Join free today.</p>
+                <h4>Free to Read</h4>
+                <p>No account is needed to read a listing, and we never ask job seekers to pay to apply.</p>
             </div>
         </div>
     </div>

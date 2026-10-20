@@ -79,7 +79,7 @@ class StructuredDataService
                 return false;
             }
 
-            if (str_contains(strtolower($job->advertiser?->name ?? ''), '(aggregated)')) {
+            if ($job->isRoundUp() || str_contains(strtolower($job->advertiser?->name ?? ''), '(aggregated)')) {
                 return false;
             }
 

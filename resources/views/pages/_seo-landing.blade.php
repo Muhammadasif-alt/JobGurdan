@@ -34,7 +34,7 @@
 
     [$totalMatches, $jobIds] = \Illuminate\Support\Facades\Cache::remember($cacheKey, 600, function () use ($filterType, $filterValue) {
         $jobsQuery = \App\Models\Job::query()
-            ->where(function ($q) { $q->where('status', 'active')->orWhereNull('status'); });
+            ->where(function ($q) { $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy'); });
 
         if ($filterType === 'state' && $filterValue) {
             $jobsQuery->whereHas('location', fn ($q) => $q->where('name', $filterValue));

@@ -772,35 +772,35 @@
             <aside>
                 <div class="jd-aside">
                     <div class="jd-why-card">
-                        <span class="eyebrow">Why Apply Through Us</span>
-                        <h4>Trusted by job seekers across the USA</h4>
+                        <span class="eyebrow">Why Use JobGader</span>
+                        <h4>Free to use, with links to the source</h4>
                         <ul class="jd-why-list">
                             <li>
                                 <span class="ico"><i class="icon-feather-check-circle"></i></span>
                                 <div>
-                                    <strong>Verified Employer</strong>
-                                    <span>Every company on JobGader is reviewed by our trust &amp; safety team.</span>
+                                    <strong>Official Links</strong>
+                                    <span>Each listing links to the employer or the official portal where you apply.</span>
                                 </div>
                             </li>
                             <li>
                                 <span class="ico"><i class="icon-feather-zap"></i></span>
                                 <div>
                                     <strong>Free for Job Seekers</strong>
-                                    <span>No hidden fees — applying and creating alerts is 100% free.</span>
+                                    <span>Reading listings and setting up job alerts costs nothing. We never ask you to pay to apply.</span>
                                 </div>
                             </li>
                             <li>
                                 <span class="ico"><i class="icon-feather-shield"></i></span>
                                 <div>
-                                    <strong>Safe &amp; Secure</strong>
-                                    <span>We never share your data without your consent.</span>
+                                    <strong>Your Data</strong>
+                                    <span>Our <a href="{{ url('/privacy-policy') }}">Privacy Policy</a> explains what we collect and how it is used.</span>
                                 </div>
                             </li>
                             <li>
                                 <span class="ico"><i class="icon-feather-clock"></i></span>
                                 <div>
-                                    <strong>Daily Fresh Listings</strong>
-                                    <span>New roles added every week across {{ $coverage->shortList() }}.</span>
+                                    <strong>Weekly Updates</strong>
+                                    <span>New listings and guides are added every week across {{ $coverage->shortList() }}.</span>
                                 </div>
                             </li>
                         </ul>

@@ -47,7 +47,7 @@ class AppServiceProvider extends ServiceProvider
                 return DB::table('categories')
                     ->join('jobs', 'jobs.category_id', '=', 'categories.id')
                     ->where(function ($q) {
-                        $q->where('jobs.status', 'active')->orWhereNull('jobs.status');
+                        $q->where(fn ($status) => $status->where('jobs.status', 'active')->orWhereNull('jobs.status'))->where('jobs.listing_type', 'vacancy');
                     })
                     ->select('categories.name', 'categories.slug', DB::raw('COUNT(jobs.id) as job_count'))
                     ->groupBy('categories.id', 'categories.name', 'categories.slug')
@@ -63,7 +63,7 @@ class AppServiceProvider extends ServiceProvider
                 return DB::table('locations')
                     ->join('jobs', 'jobs.location_id', '=', 'locations.id')
                     ->where(function ($q) {
-                        $q->where('jobs.status', 'active')->orWhereNull('jobs.status');
+                        $q->where(fn ($status) => $status->where('jobs.status', 'active')->orWhereNull('jobs.status'))->where('jobs.listing_type', 'vacancy');
                     })
                     ->select('locations.name', DB::raw('MIN(locations.id) as location_id'), DB::raw('COUNT(jobs.id) as job_count'))
                     ->groupBy('locations.name')

@@ -6,16 +6,16 @@
     $locLabel = $jobLoc !== '' ? ucwords($jobLoc) : '';
     if ($posLabel && $locLabel) {
         $pageTitle = "{$posLabel} Jobs in {$locLabel} — Apply Free | JobGader";
-        $pageDesc = "Browse verified {$posLabel} jobs in {$locLabel}. Apply free with one click on JobGader — new openings daily.";
+        $pageDesc = "Browse {$posLabel} jobs in {$locLabel}. Apply on the employer site. Free to read on JobGader.";
     } elseif ($posLabel) {
         $pageTitle = "{$posLabel} Jobs — Hiring Now, Apply Free | JobGader";
-        $pageDesc = "Search {$posLabel} jobs across {$coverage->shortList()}. Free to apply on JobGader with no account needed.";
+        $pageDesc = "Search {$posLabel} jobs across {$coverage->shortList()}. Free to read, no account needed.";
     } elseif ($locLabel) {
-        $pageTitle = "Jobs in {$locLabel} — Browse Verified Listings | JobGader";
-        $pageDesc = "Find jobs in {$locLabel} across every industry. Verified listings, free to apply on JobGader — updated daily.";
+        $pageTitle = "Jobs in {$locLabel} — Browse Listings | JobGader";
+        $pageDesc = "Find jobs in {$locLabel} across every industry. Free to read on JobGader, with links to the employer or source.";
     } else {
-        $pageTitle = 'Browse Jobs — Find Verified Listings, Apply Free | JobGader';
-        $pageDesc = 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . ' jobs across ' . $coverage->shortList() . '. Filter by location or category. Free to apply, no account needed.';
+        $pageTitle = 'Browse Jobs | Find Listings, Free to Read | JobGader';
+        $pageDesc = 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . ' jobs across ' . $coverage->shortList() . '. Filter by location or category. Free to read, no account needed.';
     }
 
     /*
@@ -595,8 +595,8 @@
                 Job Search
             @endif
         </span>
-        <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Find Your Next <span class="accent">Career Move</span> in the USA</h1>
-        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Every opening on JobGader, across {{ $coverage->shortList() }}. Filter by location or category, then apply straight through to the employer &mdash; free, and without creating an account.</p>
+        <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Find Your Next <span class="accent">Career Move</span></h1>
+        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Current job openings across {{ $coverage->shortList() }}. Filter by location or category, then apply on the employer's own website. Free to read, no account needed. Looking for official job portals instead? See <a href="{{ route('jobs.portals') }}">Job Portals &amp; Resources</a>.</p>
         <div class="hero-stats">
             <div class="stat">
                 <strong>{{ number_format($heroStats['total_jobs'] ?? 0) }}+</strong>
@@ -872,29 +872,29 @@
             <div class="trust-item">
                 <div class="ico"><i class="icon-feather-shield"></i></div>
                 <div>
-                    <h5>Employer Links</h5>
-                    <p>Every employer is reviewed for safety and legitimacy before listing.</p>
+                    <h5>Source Links</h5>
+                    <p>Each listing links to the employer's own site or an official portal.</p>
                 </div>
             </div>
             <div class="trust-item">
-                <div class="ico"><i class="icon-feather-zap"></i></div>
+                <div class="ico"><i class="icon-feather-external-link"></i></div>
                 <div>
-                    <h5>Apply in One Click</h5>
-                    <p>Save your resume once and apply to multiple roles instantly.</p>
+                    <h5>Apply on the Source Site</h5>
+                    <p>You apply on the employer's or portal's own website, not on JobGader.</p>
                 </div>
             </div>
             <div class="trust-item">
                 <div class="ico"><i class="icon-feather-bell"></i></div>
                 <div>
-                    <h5>Smart Job Alerts</h5>
-                    <p>Get notified the moment a matching role goes live in your area.</p>
+                    <h5>Job Alerts</h5>
+                    <p>Registered job seekers can get email alerts for new matching listings.</p>
                 </div>
             </div>
             <div class="trust-item">
                 <div class="ico"><i class="icon-feather-users"></i></div>
                 <div>
-                    <h5>Trusted Nationwide</h5>
-                    <p>Openings across {{ $coverage->shortList() }} &mdash; free to apply, no account needed.</p>
+                    <h5>Free to Read</h5>
+                    <p>Openings across {{ $coverage->shortList() }}. No account is needed to read a listing.</p>
                 </div>
             </div>
         </div>
