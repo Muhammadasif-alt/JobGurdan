@@ -86,3 +86,12 @@ it('hides the section entirely when no jobs exist', function () {
         ->assertOk()
         ->assertDontSee('home-jobs-section');
 });
+
+it('shows the same country count in the hero stat as everywhere else on the page', function () {
+    makeHomepageJob('Hero Count Role');
+    $count = app(\App\Services\SiteCoverage::class)->count();
+
+    $html = $this->get('/')->assertOk()->getContent();
+
+    expect($html)->toMatch('#<strong>'.$count.'</strong>\s*<span>Countries Covered</span>#');
+});

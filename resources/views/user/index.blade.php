@@ -1089,7 +1089,7 @@
                             </div>
                         @else
                             <div class="stat" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="700">
-                                <strong>{{ $stats['total_countries'] ?? 3 }}</strong>
+                                <strong>{{ $coverage->count() }}</strong>
                                 <span>Countries Covered</span>
                             </div>
                             <div class="divider"></div>
