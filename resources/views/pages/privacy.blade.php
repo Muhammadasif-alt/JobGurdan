@@ -101,7 +101,7 @@
     <div class="container">
         <div class="legal-card">
             <h1>Privacy Policy</h1>
-            <span class="updated">Last updated: September 3, 2026</span>
+            <span class="updated">Last updated: October 20, 2026</span>
 
             <p>JobGader ("we", "our", "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.</p>
 
@@ -112,6 +112,7 @@
                     <li><a href="#use">How We Use Your Information</a></li>
                     <li><a href="#share">How We Share Your Information</a></li>
                     <li><a href="#cookies">Cookies &amp; Tracking Technologies</a></li>
+                    <li><a href="#advertising">Advertising</a></li>
                     <li><a href="#security">Data Security</a></li>
                     <li><a href="#retention">Data Retention</a></li>
                     <li><a href="#rights">Your Rights &amp; Choices</a></li>
@@ -166,22 +167,29 @@
             </ul>
 
             <h2 id="cookies">4. Cookies &amp; Tracking Technologies</h2>
-            <p>We use cookies and similar technologies to remember your preferences, keep you signed in, analyze usage, and deliver personalized content. Categories of cookies we use:</p>
+            <p>We use cookies and similar technologies to remember your preferences, keep you signed in, analyze usage, and show ads. Categories of cookies we use:</p>
             <ul>
                 <li><strong>Essential cookies:</strong> required for core functionality such as authentication and security. These cannot be disabled.</li>
                 <li><strong>Performance cookies:</strong> help us understand how visitors use our site so we can improve it.</li>
                 <li><strong>Functional cookies:</strong> remember your settings (language, dark/light mode) for a better experience.</li>
                 <li><strong>Analytics cookies:</strong> we use Google Analytics to collect anonymized usage data.</li>
+                <li><strong>Advertising cookies:</strong> Google AdSense and its partners use cookies to show ads and to measure them. See the <a href="#advertising">Advertising</a> section for how to opt out.</li>
             </ul>
             <p>You can control cookies via your browser settings. Disabling cookies may limit certain features.</p>
 
-            <h2 id="security">5. Data Security</h2>
+            <h2 id="advertising">5. Advertising</h2>
+            <p>We use Google AdSense to show ads on JobGader. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to this website and to other websites.</p>
+            <p>Google's use of advertising cookies enables it and its partners to serve ads to users based on their visits to JobGader and/or other sites on the Internet.</p>
+            <p>You can opt out of personalised advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">Google Ads Settings</a>. You can also opt out of a third-party vendor's use of cookies for personalised advertising by visiting <a href="https://www.aboutads.info" target="_blank" rel="noopener">www.aboutads.info</a>.</p>
+            <p>To learn more about how Google uses information from sites that use its services, read <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps that use our services</a>.</p>
+
+            <h2 id="security">6. Data Security</h2>
             <p>We implement industry-standard security measures including HTTPS encryption, hashed passwords, server-side input validation, and access controls. While we strive to protect your information, no system is 100% secure. We will notify affected users promptly if a breach occurs that materially affects your personal data, as required by law.</p>
 
-            <h2 id="retention">6. Data Retention</h2>
+            <h2 id="retention">7. Data Retention</h2>
             <p>We retain your information for as long as your account is active or as needed to provide our services and comply with legal obligations. When you delete your account, we remove or anonymize your personal data within 30 days, except where retention is required for legal, tax, or fraud-prevention purposes.</p>
 
-            <h2 id="rights">7. Your Rights &amp; Choices</h2>
+            <h2 id="rights">8. Your Rights &amp; Choices</h2>
             <p>Depending on your jurisdiction (including the EU under GDPR and California under CCPA), you may have the following rights:</p>
             <ul>
                 <li><strong>Access:</strong> request a copy of the personal information we hold about you.</li>
@@ -194,19 +202,19 @@
             </ul>
             <p>To exercise these rights, email us at <a href="mailto:{{ config('site.contact_email') }}">{{ config('site.contact_email') }}</a>. We will respond within 30 days.</p>
 
-            <h2 id="children">8. Children's Privacy</h2>
+            <h2 id="children">9. Children's Privacy</h2>
             <p>Our services are intended for users 16 years and older. We do not knowingly collect personal information from children under 16. If we learn we have collected such data, we will delete it promptly. Parents or guardians who believe their child has provided information to us should contact us immediately.</p>
 
-            <h2 id="third">9. Third-Party Services</h2>
+            <h2 id="third">10. Third-Party Services</h2>
             <p>Our site may contain links to third-party websites, employer pages, or applicant tracking systems. We are not responsible for the privacy practices of those third parties. We encourage you to read their privacy policies before providing any personal information.</p>
 
-            <h2 id="international">10. International Users</h2>
+            <h2 id="international">11. International Users</h2>
             <p>JobGader is operated from Lahore, Pakistan. If you access our services from another country, your information may be transferred to, stored and processed in other countries, including those where our hosting and service providers operate, where data protection laws may differ from those of your country.</p>
 
-            <h2 id="changes">11. Changes to This Policy</h2>
+            <h2 id="changes">12. Changes to This Policy</h2>
             <p>We may update this Privacy Policy from time to time. Material changes will be communicated via email or a prominent notice on our website at least 14 days before they take effect. The "Last updated" date at the top of this page indicates the most recent revision.</p>
 
-            <h2 id="contact">12. Contact Us</h2>
+            <h2 id="contact">13. Contact Us</h2>
             <p>If you have questions or concerns about this Privacy Policy or our data practices, please contact us:</p>
             <ul>
                 <li>Email: <a href="mailto:{{ config('site.contact_email') }}">{{ config('site.contact_email') }}</a></li>

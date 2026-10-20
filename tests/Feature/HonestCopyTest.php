@@ -40,3 +40,17 @@ it('keeps trust claims off the sign-up and job seeker pages', function () {
         ->not->toContain('Trusted by top U.S. employers')
         ->not->toContain('Join thousands of job seekers');
 });
+
+it('explains Google AdSense advertising cookies in the privacy policy', function () {
+    $html = $this->get('/privacy-policy')->assertOk()->getContent();
+
+    expect($html)->toContain('id="advertising"')
+        ->toContain('We use Google AdSense to show ads on JobGader')
+        ->toContain('Third-party vendors, including Google, use cookies to serve ads based on a user')
+        ->toContain('enables it and its partners to serve ads')
+        ->toContain('https://www.google.com/settings/ads')
+        ->toContain('https://www.aboutads.info')
+        ->toContain('https://policies.google.com/technologies/partner-sites')
+        ->toContain('Advertising cookies:')
+        ->toContain('Last updated: October 20, 2026');
+});
