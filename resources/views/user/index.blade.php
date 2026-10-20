@@ -1016,7 +1016,7 @@
                     <div class="utf-banner-headline-text-part">
                         <span class="hero-eyebrow" data-aos="fade-down" data-aos-duration="600">
                             <span class="pulse-dot"></span>
-                            Jobs &middot; Scholarships &middot; Real hiring &middot; {{ $coverage->count() }} countries
+                            Jobs &middot; Scholarships &middot; Official sources &middot; {{ $coverage->count() }} countries
                         </span>
                         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                             Find Jobs and Scholarships
@@ -1982,7 +1982,7 @@
                 </div>
                 <div class="home-split-body" data-aos="fade-up" data-aos-delay="120">
                     <span class="home-split-eyebrow">An Independent Site</span>
-                    <h2 id="verified-jobs-heading">Real Hiring From Real Employers <span class="accent">in {{ $coverage->countWord() }} Countries</span></h2>
+                    <h2 id="verified-jobs-heading">Jobs and Guides Linked to Official Sources <span class="accent">in {{ $coverage->countWord() }} Countries</span></h2>
                     <p>JobGader is a third-party information site, not an employer, recruiter or visa agent. We gather openings across {{ $coverage->shortList() }}, explain what each role and visa route really involves, and send you to the employer or job board to apply &mdash; never a fee dressed up as a job offer.</p>
                     <ul class="home-split-points">
                         <li>

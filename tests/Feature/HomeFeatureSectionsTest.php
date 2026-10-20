@@ -35,7 +35,7 @@ it('shows the verified jobs row and the tailored CV row, even before any job is 
     $rows = homeSplitRows();
 
     expect($rows['verified'])->toContain('id="verified-jobs-heading"')
-        ->toContain('Real Hiring')
+        ->toContain('Linked to Official Sources')
         ->and($rows['cv'])->toContain('id="tailored-cv-heading"')
         ->toContain('the Job You Want');
 });
@@ -107,7 +107,7 @@ it('keeps the hero eyebrow to claims the listings can back up', function () {
 
     $text = html_entity_decode(trim(strip_tags($eyebrow[1] ?? '')));
 
-    expect($text)->toContain('Real hiring')
+    expect($text)->toContain('Official sources')
         ->toContain(app(SiteCoverage::class)->count().' countries')
         ->not->toMatch('/verified|all over the world|worldwide/i');
 });
