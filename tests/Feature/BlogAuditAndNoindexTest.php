@@ -112,3 +112,23 @@ it('gives a blog category page a canonical that points at itself', function () {
         ->assertOk()
         ->assertSee('<link rel="canonical" href="'.route('blog.index').'">', false);
 });
+
+it('suggests noindex for an unsourced post published on a bulk day, but keeps a sourced one', function () {
+    foreach (range(1, 21) as $i) {
+        auditPost('bulk-'.$i, 'Bulk Topic '.$i.' Alpha Beta Gamma Delta', longBody(900, $i === 1));
+    }
+    $path = storage_path('app/blog-audit-test3.csv');
+
+    Artisan::call('blogs:audit', ['--path' => $path, '--similarity' => '1.1']);
+
+    $rows = array_map('str_getcsv', file($path, FILE_IGNORE_NEW_LINES));
+    $header = array_shift($rows);
+    $byslug = collect($rows)->mapWithKeys(fn ($r) => [$r[array_search('slug', $header)] => array_combine($header, $r)]);
+
+    expect($byslug['bulk-1']['suggested_action'])->toBe('keep')
+        ->and($byslug['bulk-2']['suggested_action'])->toBe('noindex')
+        ->and($byslug['bulk-2']['flags'])->toContain('bulk_day')
+        ->and($byslug['bulk-2']['posts_that_day'])->toBe('21');
+
+    @unlink($path);
+});

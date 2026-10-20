@@ -15,7 +15,8 @@ class AuditBlogPosts extends Command
     protected $signature = 'blogs:audit
         {--path= : Where to write the CSV (default storage/app/blog-audit.csv)}
         {--min-words=800 : Posts shorter than this are flagged}
-        {--similarity=0.75 : Title overlap (0 to 1) above which two posts count as near duplicates}';
+        {--similarity=0.75 : Title overlap (0 to 1) above which two posts count as near duplicates}
+        {--bulk-day=20 : A publish day with at least this many posts counts as a bulk day}';
 
     protected $description = 'Export every blog post with word count, source links and a suggested action (keep, merge, noindex). Changes nothing.';
 
@@ -40,7 +41,12 @@ class AuditBlogPosts extends Command
 
         $this->markNearDuplicates($rows, $threshold);
 
+        $bulkDay = (int) $this->option('bulk-day');
+        $perDay = collect($rows)->countBy('published_at');
+
         foreach ($rows as &$row) {
+            $row['posts_that_day'] = $perDay[$row['published_at']] ?? 0;
+            $row['bulk_day'] = $row['posts_that_day'] >= $bulkDay;
             $row['flags'] = $this->flags($row, $minWords);
             $row['suggested_action'] = $this->action($row);
             unset($row['tokens'], $row['strength']);
@@ -49,11 +55,11 @@ class AuditBlogPosts extends Command
 
         File::ensureDirectoryExists(dirname($path));
         $handle = fopen($path, 'w');
-        fputcsv($handle, ['id', 'title', 'slug', 'category', 'status', 'published_at', 'word_count', 'source_links', 'has_sources_section', 'noindex', 'flags', 'suggested_action']);
+        fputcsv($handle, ['id', 'title', 'slug', 'category', 'status', 'published_at', 'word_count', 'source_links', 'has_sources_section', 'posts_that_day', 'noindex', 'flags', 'suggested_action']);
         foreach ($rows as $row) {
             fputcsv($handle, [
                 $row['id'], $row['title'], $row['slug'], $row['category'], $row['status'], $row['published_at'],
-                $row['word_count'], $row['source_links'], $row['has_sources'] ? 'yes' : 'no', $row['noindex'] ? 'yes' : 'no',
+                $row['word_count'], $row['source_links'], $row['has_sources'] ? 'yes' : 'no', $row['posts_that_day'], $row['noindex'] ? 'yes' : 'no',
                 $row['flags'], $row['suggested_action'],
             ]);
         }
@@ -99,7 +105,7 @@ class AuditBlogPosts extends Command
             'published_at' => optional($post->published_at)->toDateString(),
             'word_count' => $wordCount,
             'source_links' => $external,
-            'has_sources' => (bool) preg_match('#<h[2-4][^>]*>\s*(Sources?|References?)\b#i', $content),
+            'has_sources' => (bool) preg_match('#<h[2-4][^>]*>[^<]*\b(Sources?|References?)\b#i', $content),
             'noindex' => (bool) $post->noindex,
             'tokens' => $tokens,
             'strength' => $wordCount + 200 * min($external, 10),
@@ -162,6 +168,9 @@ class AuditBlogPosts extends Command
         if (! $row['has_sources']) {
             $flags[] = 'no_sources_section';
         }
+        if ($row['bulk_day']) {
+            $flags[] = 'bulk_day';
+        }
         if ($row['is_duplicate']) {
             $flags[] = 'near_duplicate';
         }
@@ -180,11 +189,13 @@ class AuditBlogPosts extends Command
         $short = str_contains($row['flags'], 'short');
         $noSources = $row['source_links'] === 0;
 
+        $bulk = str_contains($row['flags'], 'bulk_day');
+
         if ($row['is_duplicate']) {
             return $short && $noSources ? 'noindex' : 'merge into '.$row['near_duplicate_of'];
         }
 
-        if ($short && $noSources) {
+        if ($noSources && ($short || $bulk)) {
             return 'noindex';
         }
 
