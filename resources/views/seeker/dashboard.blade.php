@@ -318,7 +318,7 @@
                 <div>
                     <span class="dash-eyebrow"><i class="bi bi-person"></i> Job Seeker</span>
                     <h1>Hi {{ explode(' ', $user->name)[0] ?? 'there' }}, ready to find your next role?</h1>
-                    <p class="sub">Browse fresh openings, save your favourites, and apply with one click.</p>
+                    <p class="sub">Browse openings, save your favourites, and apply on the employer's own website.</p>
                 </div>
             </div>
             <div class="dash-hero-cta">

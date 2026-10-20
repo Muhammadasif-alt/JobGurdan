@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 @section('title', 'Job Categories — Browse Jobs by Industry | JobGader')
-@section('meta_description', 'Browse ' . number_format($heroStats['total_categories'] ?? 0) . '+ job categories on JobGader. Find healthcare, IT, construction, retail, sales, education, finance and more — verified U.S. jobs across every industry.')
+@section('meta_description', 'Browse ' . number_format($heroStats['total_categories'] ?? 0) . '+ job categories on JobGader. Find healthcare, IT, construction, retail, sales, education, finance and more.')
 @section('meta_keywords', 'job categories usa, jobs by industry, healthcare jobs, IT jobs, construction jobs, retail jobs, sales jobs, education jobs, browse jobs by category')
 @section('canonical', $categories->currentPage() === 1 ? route('jobs.categories') : route('jobs.categories').'?page='.$categories->currentPage())
 
@@ -527,7 +527,7 @@
         </div>
         <span class="eyebrow" data-aos="fade-down" data-aos-duration="600">Browse by Industry</span>
         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Find Your Perfect Job <span class="accent">Category</span> in the USA</h1>
-        <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Explore {{ number_format($heroStats['total_categories'] ?? 0) }}+ job categories across every American industry — from healthcare and IT to construction, retail, education, and beyond. Narrow your search and apply to verified roles in seconds.</p>
+        <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Explore {{ number_format($heroStats['total_categories'] ?? 0) }}+ job categories, from healthcare and IT to construction, retail and education. Narrow your search, then apply on the employer's own website.</p>
         <div class="hero-stats">
             <div class="stat">
                 <strong>{{ number_format($heroStats['total_categories'] ?? 0) }}+</strong>
@@ -571,8 +571,8 @@
                 <div class="cat-float-stat bot">
                     <div class="ico"><i class="icon-feather-shield"></i></div>
                     <div class="text">
-                        <strong>Verified</strong>
-                        <span>Trusted employers only</span>
+                        <strong>Source links</strong>
+                        <span>Each listing links to its source</span>
                     </div>
                 </div>
             </div>
@@ -581,7 +581,7 @@
             <div class="cat-seo-content">
                 <span class="eyebrow">Why Browse by Category</span>
                 <h2>Find the right job, faster — by industry that fits your skills</h2>
-                <p>Every career path is different, and so is every job seeker. Our category-based search lets you focus on the industries you know best — whether you're a registered nurse, a software developer, a CDL driver, or a sales professional. Each category is updated daily with new openings from verified U.S. employers.</p>
+                <p>Every career path is different, and so is every job seeker. Our category-based search lets you focus on the industries you know best — whether you're a registered nurse, a software developer, a CDL driver, or a sales professional. New listings are added every week.</p>
 
                 <ul class="cat-feature-list">
                     <li><i class="icon-feather-check-circle"></i> Curated job listings across {{ number_format($heroStats['total_categories'] ?? 0) }}+ industries — no irrelevant noise</li>
@@ -604,7 +604,7 @@
         <header class="cat-grid-head">
             <span class="eyebrow">All Categories</span>
             <h2>Explore Every Job Category We Cover</h2>
-            <p>Click any category to view the latest verified openings, filter by state and ZIP, and apply free in one click.</p>
+            <p>Click any category to view the latest openings and filter by state, then apply on the employer's own website.</p>
         </header>
 
         <div class="cat-grid">

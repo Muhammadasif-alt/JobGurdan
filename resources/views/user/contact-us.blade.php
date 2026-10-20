@@ -61,8 +61,8 @@
             {"@@type":"Question","name":"I'm having trouble logging in. What should I do?","acceptedAnswer":{"@@type":"Answer","text":"Try the Forgot Password link on the login page first. If you still can't access your account, contact us with your registered email and we'll help recover it."}},
             {"@@type":"Question","name":"How do I report a fake or suspicious job listing?","acceptedAnswer":{"@@type":"Answer","text":"Send the job link through our contact form with the subject 'Report Job Listing.' We check reported listings by hand and report and removes fraudulent posts quickly."}},
             {"@@type":"Question","name":"Can I delete my JobGader account?","acceptedAnswer":{"@@type":"Answer","text":"Yes — message us with your registered email and we'll permanently delete your account and associated data within 7 business days, in line with our privacy policy."}},
-            {"@@type":"Question","name":"Do you offer partnership or advertising opportunities?","acceptedAnswer":{"@@type":"Answer","text":"Yes. Use the form and select 'Partnership' or 'Advertising' as your subject. Our partnerships team will share details on plans, reach, and pricing."}},
-            {"@@type":"Question","name":"How do employers post jobs on JobGader?","acceptedAnswer":{"@@type":"Answer","text":"Register an employer account, choose a posting plan, and submit your job through the dashboard. Need a custom plan for bulk hiring? Contact our sales team."}}
+            {"@@type":"Question","name":"Do you offer partnership or advertising opportunities?","acceptedAnswer":{"@@type":"Answer","text":"Yes. Use the form and select 'Partnership' or 'Advertising' as your subject, and tell us what you have in mind. We read every message and reply by email."}},
+            {"@@type":"Question","name":"How do employers post jobs on JobGader?","acceptedAnswer":{"@@type":"Answer","text":"JobGader does not sell job postings. If you are an employer and want to suggest a vacancy, use the form and we will decide what to publish."}}
         ]
     }
     </script>
@@ -139,7 +139,7 @@
     .quick-contact-section { padding: 60px 0 30px; background: #fff; }
     .quick-contact-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
     @media (max-width: 768px) { .quick-contact-grid { grid-template-columns: 1fr; } }
@@ -672,12 +672,6 @@
                 <p>Write to {{ config('site.contact_email') }} for anything &mdash; general help, listings, account questions or partnerships. We reply within 24 hours on business days.</p>
                 <span class="qc-action">{{ config('site.contact_email') }} <i class="icon-feather-arrow-right"></i></span>
             </a>
-            <a href="https://calendly.com/" target="_blank" rel="noopener" class="quick-contact-card">
-                <div class="quick-contact-icon"><i class="icon-feather-calendar"></i></div>
-                <h4>Book a Meeting</h4>
-                <p>Schedule a one-on-one call with our team at a time that fits your schedule.</p>
-                <span class="qc-action">Book Now <i class="icon-feather-arrow-right"></i></span>
-            </a>
         </div>
     </div>
 </section>
@@ -867,11 +861,11 @@
             </details>
             <details class="contact-faq-item">
                 <summary>Do you offer partnership or advertising opportunities?</summary>
-                <div class="faq-answer">Absolutely. Use the form and select "Partnership" or "Advertising" as your subject. Our partnerships team will share details on plans, reach, and pricing within 1–2 business days.</div>
+                <div class="faq-answer">Yes. Use the form and select "Partnership" or "Advertising" as your subject, and tell us what you have in mind. We read every message and reply by email.</div>
             </details>
             <details class="contact-faq-item">
                 <summary>I'm an employer — how do I post jobs?</summary>
-                <div class="faq-answer">Register an employer account, choose a posting plan, and submit your job through the dashboard. If you need a custom plan for bulk hiring, contact our sales team via this form.</div>
+                <div class="faq-answer">JobGader does not sell job postings. If you are an employer and want to suggest a vacancy, use the form and we will decide what to publish.</div>
             </details>
             <details class="contact-faq-item">
                 <summary>How can I update my resume or profile?</summary>

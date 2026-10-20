@@ -659,7 +659,7 @@
 
                 <ul class="loc-feature-list">
                     <li><i class="icon-feather-check-circle"></i> Drill down by state, area, and ZIP — find jobs that match your zone</li>
-                    <li><i class="icon-feather-check-circle"></i> Daily updated listings from verified U.S. employers across every region</li>
+                    <li><i class="icon-feather-check-circle"></i> Listings are added every week across the regions we cover</li>
                     <li><i class="icon-feather-check-circle"></i> Remote &amp; hybrid filters available for flexible work arrangements</li>
                     <li><i class="icon-feather-check-circle"></i> Local job alerts notify you when a role goes live nearby</li>
                 </ul>
@@ -722,7 +722,7 @@
         <header class="top-states-head">
             <span class="eyebrow">Most Active Markets</span>
             <h2 id="top-states-heading">Top Hiring States Right Now</h2>
-            <p>These U.S. states are leading the way with the most active job openings on JobGader. Click any state to explore current verified roles nearby.</p>
+            <p>These U.S. states are leading the way with the most active job openings on JobGader. Click any state to explore current roles nearby.</p>
         </header>
 
         <div class="top-states-grid">

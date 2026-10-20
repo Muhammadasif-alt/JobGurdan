@@ -201,7 +201,7 @@
             <p>Our site may contain links to third-party websites, employer pages, or applicant tracking systems. We are not responsible for the privacy practices of those third parties. We encourage you to read their privacy policies before providing any personal information.</p>
 
             <h2 id="international">10. International Users</h2>
-            <p>JobGader is operated from the United States. If you access our services from outside the U.S., your information may be transferred to, stored, and processed in the United States, where data protection laws may differ from those of your country.</p>
+            <p>JobGader is operated from Lahore, Pakistan. If you access our services from another country, your information may be transferred to, stored and processed in other countries, including those where our hosting and service providers operate, where data protection laws may differ from those of your country.</p>
 
             <h2 id="changes">11. Changes to This Policy</h2>
             <p>We may update this Privacy Policy from time to time. Material changes will be communicated via email or a prominent notice on our website at least 14 days before they take effect. The "Last updated" date at the top of this page indicates the most recent revision.</p>

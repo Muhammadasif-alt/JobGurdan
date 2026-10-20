@@ -478,12 +478,6 @@
                 <p>Drop us a line and we'll respond within 24 hours.</p>
                 <span class="qc-action">{{ config('site.contact_email') }} <i class="icon-feather-arrow-right"></i></span>
             </a>
-            <a href="https://calendly.com/" target="_blank" rel="noopener" class="quick-contact-card">
-                <div class="quick-contact-icon"><i class="icon-feather-calendar"></i></div>
-                <h4>Book a Meeting</h4>
-                <p>Schedule a one-on-one call with our team at a time that works for you.</p>
-                <span class="qc-action">Book Now <i class="icon-feather-arrow-right"></i></span>
-            </a>
         </div>
     </div>
 </div>
@@ -642,11 +636,11 @@
             </details>
             <details class="contact-faq-item">
                 <summary>Do you offer partnership or advertising opportunities?</summary>
-                <div class="faq-answer">Absolutely. Use the form and select "Partnership" or "Advertising" as your subject. Our partnerships team will share details on plans, reach, and pricing.</div>
+                <div class="faq-answer">Yes. Use the form and select "Partnership" or "Advertising" as your subject, and tell us what you have in mind. We read every message and reply by email.</div>
             </details>
             <details class="contact-faq-item">
                 <summary>I'm an employer — how do I post jobs?</summary>
-                <div class="faq-answer">Register an employer/advertiser account, choose a posting plan, and submit your job through the dashboard. If you need a custom plan for bulk hiring, contact our sales team via this form.</div>
+                <div class="faq-answer">JobGader does not sell job postings. If you are an employer and want to suggest a vacancy, use the form and we will decide what to publish.</div>
             </details>
             <details class="contact-faq-item">
                 <summary>How can I update my resume or profile?</summary>

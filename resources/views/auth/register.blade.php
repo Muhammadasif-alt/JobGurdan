@@ -399,7 +399,7 @@
             <div class="auth-form-head">
                 <span class="head-badge"><i class="bi bi-stars"></i> Free Forever</span>
                 <h2>Create your free account</h2>
-                <p>Join thousands of job seekers &amp; employers across the U.S.</p>
+                <p>Save jobs and set up job alerts for free.</p>
             </div>
 
             @if ($errors->any())
@@ -537,9 +537,9 @@
             <p>An account is optional and free. It lets you save jobs and track applications &mdash; you can browse and apply to everything without one.</p>
             <ul class="auth-trust">
                 <li><i class="bi bi-check-circle-fill"></i> Free to register &mdash; no credit card</li>
-                <li><i class="bi bi-check-circle-fill"></i> Apply with one click</li>
-                <li><i class="bi bi-check-circle-fill"></i> Save jobs &amp; get instant matches</li>
-                <li><i class="bi bi-check-circle-fill"></i> Trusted by top U.S. employers</li>
+                <li><i class="bi bi-check-circle-fill"></i> Apply on the employer's own site</li>
+                <li><i class="bi bi-check-circle-fill"></i> Save jobs &amp; get daily or weekly job alerts</li>
+                <li><i class="bi bi-check-circle-fill"></i> We never ask you to pay to apply</li>
             </ul>
         </div>
 

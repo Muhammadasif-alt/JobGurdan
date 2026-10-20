@@ -122,7 +122,7 @@
                 "name": "How are listings checked?",
                 "acceptedAnswer": {
                     "@@type": "Answer",
-                    "text": "Every listing is added and reviewed by our team rather than scraped automatically, and each one links to the employer or original posting so you can verify it yourself before applying."
+                    "text": "Each listing links to the employer or the original posting so you can verify it yourself before applying. Some entries are links to official portals rather than single vacancies, and we label those as Job Portals and Resources."
                 }
             },
             {
@@ -1222,7 +1222,7 @@
                     <h2>Why JobGader <span>exists</span></h2>
                     <p>JobGader started from a specific frustration: search "warehouse jobs UK visa sponsorship" or "caregiver jobs UK" and you get page after page of sites promising sponsorship that the rules no longer allow. Some are years out of date. Some are agencies charging a fee for a visa that does not exist.</p>
                     <p>So we built the opposite. Every guide leads with the current rule and where it comes from &mdash; gov.uk, USCIS, the Department of Labor &mdash; even when the honest answer is that a route closed and is not coming back. The UK care worker visa shut to new overseas applicants in July 2025; our guide says that in the first paragraph rather than burying it.</p>
-                    <p>We are a small team and this is a young site. We would rather publish eight guides we can stand behind than eight thousand listings we have never looked at, and we would rather tell you a route is closed than take the click.</p>
+                    <p>We are a small team and this is a young site. We would rather tell you a route is closed than take the click, and each guide names the official source for its rules.</p>
                 </div>
                 <div class="story-visual">
                     <img src="{{ asset('public/user/images/about-founders.jpg') }}" alt="The JobGader team reviewing job listings and visa guidance" loading="lazy" decoding="async">
@@ -1327,8 +1327,8 @@
             <div class="press-grid">
                 <article class="press-card">
                     <div class="press-ico"><i class="icon-feather-check-circle"></i></div>
-                    <h3>Reviewed Before Publishing</h3>
-                    <p>Every listing is added by hand and links through to the employer or the original posting, so you can confirm it exists before spending time on an application.</p>
+                    <h3>Linked to the Source</h3>
+                    <p>Each listing links through to the employer or the original posting, so you can confirm it exists before spending time on an application.</p>
                     <span class="press-badge">Source-Linked</span>
                 </article>
                 <article class="press-card">
@@ -1688,31 +1688,31 @@
                 </details>
                 <details class="about-faq-item">
                     <summary>Is JobGader free for job seekers?</summary>
-                    <div class="faq-answer">Yes — 100% free. Creating an account, building your profile, browsing listings, applying for jobs, and setting up job alerts are all completely free for job seekers. We make money from employers who pay to post jobs and access advanced hiring features.</div>
+                    <div class="faq-answer">Yes. Browsing listings and guides, and setting up job alerts, is free for job seekers, and you apply on the employer's own website. JobGader earns money from display advertising and from an optional paid CV writing service. We never ask job seekers to pay to apply.</div>
                 </details>
                 <details class="about-faq-item">
-                    <summary>How are job listings verified?</summary>
-                    <div class="faq-answer">Listings are added and checked by hand rather than scraped, and each one links to the employer or the original posting so you can confirm it yourself before applying. If you see something suspicious, report it through our <a href="{{ route('contact.us') }}">Contact page</a> and we will look at it.</div>
+                    <summary>How are job listings checked?</summary>
+                    <div class="faq-answer">Each listing links to the employer or the original posting so you can confirm it yourself before applying. Some entries are links to official portals rather than single vacancies, and we label those as <a href="{{ route('jobs.portals') }}">Job Portals &amp; Resources</a>. If you see something suspicious, report it through our <a href="{{ route('contact.us') }}">Contact page</a> and we will look at it.</div>
                 </details>
                 <details class="about-faq-item">
                     <summary>What industries and job types are available?</summary>
-                    <div class="faq-answer">We feature jobs across every major U.S. industry — including healthcare, IT, software development, construction, warehouse, transportation, retail, customer service, marketing, accounting, hospitality, education, finance, and more. Roles range from entry-level and part-time to executive and remote positions.</div>
+                    <div class="faq-answer">Our listings and guides cover areas such as IT and software, construction and trades, healthcare and care work, transport and logistics, hospitality, cleaning and general labour, across {{ $coverage->shortList() }}. The mix depends on what we have published so far.</div>
                 </details>
                 <details class="about-faq-item">
                     <summary>Can I find remote and work-from-home jobs?</summary>
-                    <div class="faq-answer">Absolutely. JobGader features a dedicated <a href="{{ route('pages.remote-jobs-usa') }}">remote jobs section</a> with thousands of fully remote, hybrid, and work-from-home opportunities across the country. Use the location filter to view only remote roles.</div>
+                    <div class="faq-answer">Some listings and guides are for remote or work-from-home roles. See the <a href="{{ route('pages.remote-jobs-usa') }}">remote jobs page</a>, and read each listing for location rules, because remote does not always mean open to every country.</div>
                 </details>
                 <details class="about-faq-item">
                     <summary>How do I get notified when matching jobs are posted?</summary>
-                    <div class="faq-answer">After creating your free account, set up custom job alerts based on keywords, location, salary, industry, and experience level. We'll email you the moment a matching role goes live — no daily searching required.</div>
+                    <div class="faq-answer">Create a free account, then set up a job alert with keywords, a location and a category. We email matching new listings daily or weekly, whichever you choose.</div>
                 </details>
                 <details class="about-faq-item">
                     <summary>Are my personal details kept private?</summary>
-                    <div class="faq-answer">Yes. Privacy is built in by default. Your profile is only visible to verified employers when you choose to apply. Your current employer cannot see your profile, and you can hide or delete your information anytime from your dashboard.</div>
+                    <div class="faq-answer">A job seeker profile is listed in our directory only if you publish it, and you can unpublish it at any time. Our <a href="{{ url('/privacy-policy') }}">Privacy Policy</a> explains what we collect and how it is used.</div>
                 </details>
                 <details class="about-faq-item">
                     <summary>How can employers post jobs on JobGader?</summary>
-                    <div class="faq-answer">Employers can register an account, choose a posting plan that matches their hiring needs, and submit listings via the dashboard. After our team reviews and verifies the company, the job goes live and reaches qualified candidates nationwide. Visit our <a href="{{ route('contact.us') }}">Contact page</a> for custom enterprise plans.</div>
+                    <div class="faq-answer">JobGader does not sell job postings. If you are an employer and want to suggest a vacancy, write to us through the <a href="{{ route('contact.us') }}">Contact page</a> and we will decide what to publish.</div>
                 </details>
             </div>
         </div>

@@ -478,8 +478,8 @@
                 <span>Hiring Now</span>
             </div>
             <div class="stat">
-                <strong>24/7</strong>
-                <span>Updated Daily</span>
+                <strong>Weekly</strong>
+                <span>New Listings</span>
             </div>
         </div>
     </div>
@@ -661,7 +661,7 @@
             <div class="emp-process-card">
                 <div class="emp-step-num">1</div>
                 <h3>Create Free Account</h3>
-                <p>Sign up in under 2 minutes. No credit card. Get verified within 24 hours.</p>
+                <p>Sign up with an email address. No credit card is needed.</p>
             </div>
             <div class="emp-process-card">
                 <div class="emp-step-num">2</div>

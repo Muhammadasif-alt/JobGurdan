@@ -483,13 +483,10 @@
                 <span class="eyebrow">Hiring Now</span>
                 <h2>Explore opportunities at <span class="accent">{{ $company->name }}</span></h2>
                 <p class="cj-seo-lead">
-                    {{ $company->name }} is one of the verified U.S. employers actively hiring on JobGader.
-                    Browse open roles across {{ $jobs->total() ?? 'multiple' }} positions — apply free, get matched faster, and connect directly with the hiring team.
+                    {{ $company->name }} has listings on JobGader. Browse the {{ $jobs->total() ?? 'open' }} current positions below; each one links to the employer or the original posting.
                 </p>
                 <p>
-                    Whether you're looking for a full-time role, a seasonal opportunity, or a long-term career move,
-                    {{ $company->name }} regularly posts fresh positions. Our verified-employer badge means every
-                    listing comes from a real, screened company — no spam, no recycled posts, no fake recruiters.
+                    Whether you are looking for a full-time role, a seasonal opportunity or a long-term career move, check each listing for its requirements and apply on the employer's own site.
                 </p>
                 <ul class="cj-seo-list">
                     <li><i class="icon-feather-check-circle"></i> Direct application — no third-party redirects</li>
@@ -505,15 +502,15 @@
                 <div class="cj-float-badge tl">
                     <div class="ico green"><i class="icon-feather-check-circle"></i></div>
                     <div class="text">
-                        <strong>Verified</strong>
-                        <span>Trusted employer</span>
+                        <strong>Source link</strong>
+                        <span>Links to the employer</span>
                     </div>
                 </div>
                 <div class="cj-float-badge br">
                     <div class="ico"><i class="icon-feather-zap"></i></div>
                     <div class="text">
                         <strong>{{ $jobs->total() ?? 0 }} Open Roles</strong>
-                        <span>Updated daily</span>
+                        <span>Updated weekly</span>
                     </div>
                 </div>
             </div>

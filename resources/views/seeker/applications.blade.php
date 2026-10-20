@@ -132,7 +132,7 @@
             <div class="empty">
                 <i class="bi bi-file-earmark-text"></i>
                 <h4>You haven't applied to any jobs yet</h4>
-                <p>Start browsing thousands of verified U.S. jobs and apply with one click.</p>
+                <p>Browse current openings and apply on the employer's own website.</p>
                 <a href="{{ route('jobs.index') }}" target="_blank" class="btn btn-primary"><i class="bi bi-search"></i> Browse Jobs</a>
             </div>
         @endforelse

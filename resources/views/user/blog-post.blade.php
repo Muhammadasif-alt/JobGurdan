@@ -45,7 +45,7 @@
             'name' => 'JobGader',
             'url' => url('/'),
             'logo' => asset('public/user/images/favicon.png'),
-            'description' => 'Verified job listings across '.$coverage->shortList().', with guides on which visa sponsorship routes are open.',
+            'description' => 'Job listings and guides across '.$coverage->shortList().', with guides on which visa sponsorship routes are open.',
             'areaServed' => $coverage->areaServed(),
         ];
     @endphp
@@ -756,7 +756,7 @@
                         <div class="avatar">{{ $authorInitial }}</div>
                         <div class="info">
                             <h4>{{ $authorName }}</h4>
-                            <p>Helping U.S. job seekers land verified roles faster — with practical career advice, salary insights, and resume tips written by hiring experts.</p>
+                            <p>Career guides and job search information, with the official sources named in each guide.</p>
                         </div>
                     </div>
                 </article>

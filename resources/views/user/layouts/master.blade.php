@@ -1472,7 +1472,7 @@
                     <div class="cta-inner">
                         <span class="eyebrow">Start your search</span>
                         <h2>Your next job is <span class="accent">one click away</span></h2>
-                        <p>Real openings across {{ $coverage->shortList() }} &mdash; with straight answers on which visa routes are actually open. Free to apply, and you don't need an account.</p>
+                        <p>Current openings across {{ $coverage->shortList() }}, with straight answers on which visa routes are actually open. Free to read, and you do not need an account.</p>
                         <div class="cta-actions">
                             <a href="{{ route('jobs.index') }}" class="btn-cta-primary">
                                 Browse All Jobs
