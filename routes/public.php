@@ -340,6 +340,11 @@ Route::get('/sitemap-jobs-{chunk}.xml', function (int $chunk) use ($sitemapUrl, 
         // pointing Google at pages the site itself treats as gone.
         \DB::table('jobs')
             ->leftJoin('locations', 'jobs.location_id', '=', 'locations.id')
+            ->leftJoin('advertisers', 'jobs.advertiser_id', '=', 'advertisers.id')
+            ->where(function ($q) {
+                $q->whereNull('advertisers.name')
+                    ->orWhere('advertisers.name', 'not like', '%'.\App\Models\Job::ROUND_UP_ADVERTISER_MARKER.'%');
+            })
             ->where(function ($q) {
                 $q->where('jobs.status', 'active')->orWhereNull('jobs.status');
             })

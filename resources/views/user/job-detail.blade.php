@@ -47,6 +47,9 @@
 @section('og_title', $job->position . ' at ' . ($job->advertiser->name ?? 'Top Employer'))
 @section('og_description', \Illuminate\Support\Str::limit(strip_tags($job->description ?? 'Apply now on JobGader.'), 160))
 @section('canonical', route('jobs.show', \Illuminate\Support\Str::slug($job->position . '-' . ($job->location->name ?? ''))))
+@if ($job->isRoundUp())
+    @section('meta_robots', 'noindex, follow')
+@endif
 
 @push('meta')
     {{-- SEO keywords meta tag — auto-extracted from job description --}}
@@ -60,7 +63,9 @@
 @php
     $applyUrl = $job->application_url ?: '#';
     $hasApply = !empty($job->application_url);
-    $jobTypeLabel = $job->employment_type ? ucfirst(str_replace('_',' ',$job->employment_type)) : ($job->job_type ? ucfirst(str_replace('_',' ',$job->job_type)) : 'Open');
+    $jobTypeLabel = $job->isRoundUp()
+        ? 'Official resource'
+        : ($job->employment_type ? ucfirst(str_replace('_',' ',$job->employment_type)) : ($job->job_type ? ucfirst(str_replace('_',' ',$job->job_type)) : 'Open'));
     $salaryRange = null;
     if (($job->salary_minimum ?? 0) > 0 || ($job->salary_maximum ?? 0) > 0) {
         $cur = $job->salary_currency ?? 'USD';

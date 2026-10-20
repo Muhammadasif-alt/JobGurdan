@@ -109,6 +109,18 @@ class Job extends Model
         return $this->belongsTo(State::class);
     }
 
+    public const ROUND_UP_ADVERTISER_MARKER = '(Aggregated)';
+
+    /**
+     * Whether this page points readers at an official portal rather than
+     * describing one vacancy. Such pages stay reachable but are kept out of
+     * the search index and the sitemap.
+     */
+    public function isRoundUp(): bool
+    {
+        return str_contains((string) ($this->advertiser?->name ?? ''), self::ROUND_UP_ADVERTISER_MARKER);
+    }
+
     // Scopes and helpers for advanced searching and filtering
     public function scopeActive($query)
     {
