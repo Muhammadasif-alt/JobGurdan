@@ -29,6 +29,7 @@ class Blog extends Model
         'reading_time',
         'status',
         'is_featured',
+        'noindex',
         'published_at',
     ];
 
@@ -36,6 +37,7 @@ class Blog extends Model
         'published_at' => 'datetime',
         'gallery_images' => 'array',
         'is_featured' => 'boolean',
+        'noindex' => 'boolean',
     ];
 
     public function category()

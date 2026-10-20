@@ -308,7 +308,7 @@ Route::get('/sitemap-blog.xml', function () use ($sitemapUrl, $sitemapResponse) 
     try {
         // BlogController@show aborts on anything that is not published, so an
         // unfiltered sitemap was handing Google URLs that 404.
-        foreach (\App\Models\Blog::query()->where('status', 'published')->whereNotNull('slug')->get(['slug', 'updated_at']) as $b) {
+        foreach (\App\Models\Blog::query()->where('status', 'published')->where('noindex', false)->whereNotNull('slug')->get(['slug', 'updated_at']) as $b) {
             $inner .= $sitemapUrl(url('/blog/'.$b->slug), 'monthly', '0.5',
                 optional($b->updated_at)->toDateString());
         }

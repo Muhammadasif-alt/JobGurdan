@@ -548,6 +548,18 @@
                                 </label>
                             </div>
                         </div>
+                        <div class="field">
+                            <div class="toggle-row">
+                                <div>
+                                    <div class="label">Hide from search engines</div>
+                                    <div class="desc">Adds noindex. The post stays published and reachable.</div>
+                                </div>
+                                <label class="switch">
+                                    <input type="checkbox" name="noindex" value="1" {{ old('noindex') ? 'checked' : '' }}>
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

@@ -40,6 +40,7 @@ class BlogController extends Controller
             'meta_description' => 'nullable|string|max:300',
             'status' => 'nullable|string|in:draft,published',
             'is_featured' => 'nullable|boolean',
+            'noindex' => 'nullable|boolean',
             'published_at' => 'nullable|date',
             'featured_image' => 'nullable|image|max:4096',
             'gallery_images.*' => 'nullable|image|max:4096',
@@ -57,6 +58,7 @@ class BlogController extends Controller
         $validated['featured_image'] = $this->handleFeaturedImageUpload($request);
         $validated['gallery_images'] = $this->handleGalleryUpload($request);
         $validated['is_featured'] = $request->boolean('is_featured');
+        $validated['noindex'] = $request->boolean('noindex');
 
         Blog::create($validated);
 
@@ -92,6 +94,7 @@ class BlogController extends Controller
             'meta_description' => 'nullable|string|max:300',
             'status' => 'nullable|string|in:draft,published',
             'is_featured' => 'nullable|boolean',
+            'noindex' => 'nullable|boolean',
             'published_at' => 'nullable|date',
             'featured_image' => 'nullable|image|max:4096',
             'gallery_images.*' => 'nullable|image|max:4096',
@@ -109,6 +112,7 @@ class BlogController extends Controller
         $validated['featured_image'] = $this->handleFeaturedImageUpload($request, $blog);
         $validated['gallery_images'] = $this->handleGalleryUpload($request, $blog);
         $validated['is_featured'] = $request->boolean('is_featured');
+        $validated['noindex'] = $request->boolean('noindex');
 
         $blog->update($validated);
 

@@ -4,7 +4,7 @@
     if ($blogCat !== '') {
         $blogCatLbl = ucwords(str_replace('-', ' ', $blogCat));
         $blogTitle = "{$blogCatLbl} Articles — Career Blog | JobGader";
-        $blogDesc = "Read {$blogCatLbl} articles on JobGader — expert tips, U.S. employment trends and actionable advice to advance your career.";
+        $blogDesc = "Read {$blogCatLbl} articles on JobGader: guides on jobs, visa routes and pay, with the official sources named in each guide.";
     } else {
         $blogTitle = 'Career Advice — Employment & Business News | JobGader';
         $blogDesc = 'Read the latest career advice, recruitment insights, salary guides, remote work tips and U.S. industry trends. Expert articles to help you land your next job faster.';
@@ -34,12 +34,14 @@
 @section('meta_description', $blogDesc)
 @section('meta_keywords', 'career advice, recruitment insights, employment news, business news, resume writing, interview tips, salary guide usa, remote work tips')
 @section('og_title', $blogTitle)
-@section('og_description', 'Career advice, recruitment insights and U.S. employment news — everything you need to advance your career in the United States.')
+@section('og_description', 'Career guides on jobs, visa routes and pay, with the official sources named in each guide.')
 @section('og_image', asset('public/user/images/blog-compact-post-01.jpg'))
 @if ($blogTag !== '')
     {{-- A tag page is a filtered view of the archive: crawlable for links, not for the index. --}}
     @section('meta_robots', 'noindex, follow')
     @section('canonical', route('blog.index', ['tag' => $blogTag]))
+@elseif ($blogCat !== '')
+    @section('canonical', route('blog.index', ['category' => $blogCat] + ($blogFirst ? [] : ['page' => $blogPage])))
 @else
     @section('canonical', $blogFirst ? route('blog.index') : route('blog.index').'?page='.$blogPage)
 @endif

@@ -24,6 +24,9 @@
 @section('og_title', $blog->title)
 @section('og_description', $blog->excerpt ?? \Illuminate\Support\Str::limit(strip_tags($blog->content), 160))
 @section('canonical', route('blog.show', $blog->slug))
+@if ($blog->noindex)
+    @section('meta_robots', 'noindex, follow')
+@endif
 @section('og_image', $ogImg)
 
 @push('meta')
