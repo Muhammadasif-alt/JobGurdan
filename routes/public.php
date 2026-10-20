@@ -135,6 +135,8 @@ Route::view('/terms-of-service', 'pages.terms')->name('pages.terms');
 // sitemap.
 Route::permanentRedirect('/contact', '/contact-us')->name('pages.contact');
 Route::view('/disclaimer', 'pages.disclaimer')->name('pages.disclaimer');
+Route::view('/editorial-policy', 'pages.editorial-policy')->name('pages.editorial-policy');
+Route::get('/authors/{author:slug}', [\App\Http\Controllers\Public\AuthorController::class, 'show'])->name('authors.show');
 
 // ============================================
 // HTTP-triggered scheduler (fallback for hosts where shell cron is unreliable)
@@ -236,7 +238,7 @@ Route::get('/sitemap-core.xml', function () use ($sitemapUrl, $sitemapResponse) 
     $inner .= $sitemapUrl(url('/scholarships'), 'weekly', '0.7');
     $inner .= $sitemapUrl(url('/resume-writing-services'), 'monthly', '0.8');
 
-    foreach (['/about-us', '/contact-us', '/privacy-policy', '/terms-of-service', '/disclaimer'] as $p) {
+    foreach (['/about-us', '/contact-us', '/privacy-policy', '/terms-of-service', '/disclaimer', '/editorial-policy'] as $p) {
         $inner .= $sitemapUrl(url($p), 'monthly', '0.4');
     }
 

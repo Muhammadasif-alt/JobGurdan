@@ -34,6 +34,25 @@ return [
     'whatsapp' => env('SITE_WHATSAPP'),
 
     /*
+    |--------------------------------------------------------------------------
+    | Owner and Location
+    |--------------------------------------------------------------------------
+    |
+    | Shown on the About and Contact pages only when filled in. Set
+    | SITE_OWNER_NAME, SITE_OWNER_ROLE, SITE_OWNER_LOCATION and
+    | SITE_OWNER_ADDRESS in .env on the server. A name or address that is not
+    | real is worse than none, so nothing is printed until a value exists.
+    |
+    */
+
+    'owner' => [
+        'name' => env('SITE_OWNER_NAME'),
+        'role' => env('SITE_OWNER_ROLE', 'Founder and editor'),
+        'location' => env('SITE_OWNER_LOCATION'),
+        'address' => env('SITE_OWNER_ADDRESS'),
+    ],
+
+    /*
      * Named only when the listings table cannot answer the question — an empty
      * board still has to render a sentence. SiteCoverage reads the real list
      * from the jobs themselves.

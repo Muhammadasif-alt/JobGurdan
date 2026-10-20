@@ -1389,9 +1389,9 @@
         <section class="home-jobs-section" aria-labelledby="latest-jobs-heading">
             <div class="container">
                 <header class="section-head" data-aos="fade-up">
-                    <span class="section-tag">Latest Openings</span>
-                    <h2 id="latest-jobs-heading">Newest Jobs <span class="accent">Hiring Right Now</span></h2>
-                    <p>The newest openings across {{ $coverage->shortList() }}, from entry-level to experienced roles. Each one sends you to the employer or job board to apply, free and with no account needed.</p>
+                    <span class="section-tag">Job Openings</span>
+                    <h2 id="latest-jobs-heading">Recent <span class="accent">Job Openings</span></h2>
+                    <p>Recently added openings across {{ $coverage->shortList() }}, with the date each was added. Each one sends you to the employer or job board to apply, free and with no account needed.</p>
                 </header>
 
                 <div class="home-jobs-grid">

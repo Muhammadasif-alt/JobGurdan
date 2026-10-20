@@ -663,7 +663,7 @@
             <a href="{{ route('jobs.index') }}" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-search"></i></div>
                 <h4>Looking for work?</h4>
-                <p>Browse every opening across {{ $coverage->shortList() }}. No account needed and no fee at any stage.</p>
+                <p>Browse current openings across {{ $coverage->shortList() }}. No account needed and no fee at any stage.</p>
                 <span class="qc-action">Browse all jobs <i class="icon-feather-arrow-right"></i></span>
             </a>
             <a href="mailto:{{ config('site.contact_email') }}" class="quick-contact-card">
@@ -673,6 +673,12 @@
                 <span class="qc-action">{{ config('site.contact_email') }} <i class="icon-feather-arrow-right"></i></span>
             </a>
         </div>
+        @if (config('site.owner.name') || config('site.owner.address') || config('site.owner.location'))
+            <p style="margin-top: 22px; text-align: center; color: #4b5563;">
+                @if (config('site.owner.name')){{ config('site.owner.name') }}, {{ config('site.owner.role') }}.@endif
+                @if (config('site.owner.address')){{ config('site.owner.address') }}@elseif (config('site.owner.location')){{ config('site.owner.location') }}@endif
+            </p>
+        @endif
     </div>
 </section>
 

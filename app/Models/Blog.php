@@ -14,6 +14,7 @@ class Blog extends Model
     protected $fillable = [
         'blog_catgories_id',
         'author_id',
+        'author_profile_id',
         'job_id',
         'author_name',
         'title',
@@ -45,6 +46,35 @@ class Blog extends Model
     public function author()
     {
         return $this->belongsTo(User::class, 'author_id');
+    }
+
+    public function authorProfile()
+    {
+        return $this->belongsTo(Author::class, 'author_profile_id');
+    }
+
+    protected static function booted(): void
+    {
+        static::creating(function (Blog $blog) {
+            if (! $blog->author_profile_id) {
+                $blog->author_profile_id = Author::default()?->id;
+            }
+        });
+    }
+
+    /**
+     * The name shown as the byline. An author profile wins; the generic
+     * "Admin" account name is never shown to readers.
+     */
+    public function getDisplayAuthorNameAttribute(): string
+    {
+        if ($this->authorProfile) {
+            return $this->authorProfile->name;
+        }
+
+        $name = trim((string) ($this->author_name ?: $this->author?->name));
+
+        return ($name === '' || strcasecmp($name, 'admin') === 0) ? 'JobGader Editorial' : $name;
     }
 
     /**

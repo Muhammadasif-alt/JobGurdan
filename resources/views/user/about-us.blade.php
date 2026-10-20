@@ -1223,6 +1223,11 @@
                     <p>JobGader started from a specific frustration: search "warehouse jobs UK visa sponsorship" or "caregiver jobs UK" and you get page after page of sites promising sponsorship that the rules no longer allow. Some are years out of date. Some are agencies charging a fee for a visa that does not exist.</p>
                     <p>So we built the opposite. Every guide leads with the current rule and where it comes from &mdash; gov.uk, USCIS, the Department of Labor &mdash; even when the honest answer is that a route closed and is not coming back. The UK care worker visa shut to new overseas applicants in July 2025; our guide says that in the first paragraph rather than burying it.</p>
                     <p>We are a small team and this is a young site. We would rather tell you a route is closed than take the click, and each guide names the official source for its rules.</p>
+                    @if (config('site.owner.name'))
+                        <p>JobGader is run by {{ config('site.owner.name') }}, {{ config('site.owner.role') }}@if (config('site.owner.location')), from {{ config('site.owner.location') }}@endif. You can reach us at <a href="mailto:{{ config('site.contact_email') }}">{{ config('site.contact_email') }}</a>. See our <a href="{{ route('pages.editorial-policy') }}">Editorial Policy</a> for how guides are researched and corrected.</p>
+                    @else
+                        <p>See our <a href="{{ route('pages.editorial-policy') }}">Editorial Policy</a> for how guides are researched and corrected, and the <a href="{{ route('pages.disclaimer') }}">Disclaimer</a> for what they do and do not promise.</p>
+                    @endif
                 </div>
                 <div class="story-visual">
                     <img src="{{ asset('public/user/images/about-founders.jpg') }}" alt="The JobGader team reviewing job listings and visa guidance" loading="lazy" decoding="async">

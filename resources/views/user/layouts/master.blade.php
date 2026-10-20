@@ -458,13 +458,6 @@
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('job-seekers.index') }}"
-                                        class="{{ request()->routeIs('job-seekers.*') ? 'current' : '' }}">
-                                        Talent
-                                    </a>
-                                </li>
-
-                                <li>
                                     <a href="{{ route('resume-writing') }}"
                                         class="{{ request()->routeIs('resume-writing') ? 'current' : '' }}">
                                         Resume Writing
@@ -1639,6 +1632,8 @@
                 font-size: 13.5px !important;
                 text-align: center;
             }
+            #footer .utf-footer-copyright-item a { color: #b8cee8 !important; text-decoration: underline; }
+            #footer .utf-footer-copyright-item a:hover { color: #fff !important; }
             #footer .utf-footer-copyright-item .container-fluid { padding: 0 60px !important; }
             #footer .utf-footer-copyright-item .row,
             #footer .utf-footer-copyright-item .col-xl-12 {
@@ -1731,11 +1726,13 @@
                                     from general labour and hospitality through to skilled trades and senior
                                     engineering &mdash; alongside guides on which visa sponsorship routes are
                                     genuinely open. Free to search, and no account needed to apply.</p>
-                                <p>
-                                    <a href="{{ url('/privacy-policy') }}">Privacy Policy</a> &nbsp;·&nbsp;
-                                    <a href="{{ url('/terms-of-service') }}">Terms of Service</a> &nbsp;·&nbsp;
-                                    <a href="{{ url('/about-us') }}">About Us</a> &nbsp;·&nbsp;
-                                    <a href="{{ route('contact.us') }}">Contact</a>
+                                <p class="footer-link-group">
+                                    <a href="{{ route('job-seekers.index') }}">Talent</a> &nbsp;&middot;&nbsp;
+                                    <a href="{{ url('/about-us') }}">About Us</a> &nbsp;&middot;&nbsp;
+                                    <a href="{{ route('contact.us') }}">Contact</a> &nbsp;&middot;&nbsp;
+                                    <a href="{{ route('pages.editorial-policy') }}">Editorial Policy</a> &nbsp;&middot;&nbsp;
+                                    <a href="{{ route('pages.disclaimer') }}">Disclaimer</a> &nbsp;&middot;&nbsp;
+                                    <a href="{{ route('jobs.portals') }}">Job Portals &amp; Resources</a>
                                 </p>
                             </div>
                         </div>
@@ -1823,7 +1820,10 @@
                 <div class="utf-footer-copyright-item">
                     <div class="container-fluid px-5">
                         <div class="row">
-                            <div class="col-xl-12">Copyright &copy; 2026 JobGader. All Rights Reserved.</div>
+                            <div class="col-xl-12">Copyright &copy; 2026 JobGader. All Rights Reserved.
+                                &nbsp;&middot;&nbsp; <a href="{{ url('/privacy-policy') }}">Privacy Policy</a>
+                                &nbsp;&middot;&nbsp; <a href="{{ url('/terms-of-service') }}">Terms of Service</a>
+                            </div>
                         </div>
                     </div>
                 </div>

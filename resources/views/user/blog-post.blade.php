@@ -66,7 +66,7 @@
         "image": {!! json_encode($ogImg) !!},
         "datePublished": {!! json_encode(optional($blog->published_at)->toIso8601String()) !!},
         "dateModified": {!! json_encode(optional($blog->updated_at)->toIso8601String()) !!},
-        "author": { "@@type": "Person", "name": {!! json_encode($blog->author_name ?? $blog->author?->name ?? 'JobGader Editorial') !!} },
+        "author": { "@@type": "{{ $blog->authorProfile ? 'Person' : 'Organization' }}", "name": {!! json_encode($blog->display_author_name) !!}@if ($blog->authorProfile), "url": {!! json_encode(route('authors.show', $blog->authorProfile)) !!}@endif },
         "publisher": {
             "@@type": "Organization",
             "name": "JobGader",
@@ -694,7 +694,7 @@
         @endif
         <h1>{{ $blog->title }}</h1>
         <div class="blog-meta">
-            <span><i class="icon-feather-user"></i> By <strong>{{ $blog->author_name ?? $blog->author?->name ?? 'JobGader Editorial' }}</strong></span>
+            <span><i class="icon-feather-user"></i> By <strong>@if ($blog->authorProfile)<a href="{{ route('authors.show', $blog->authorProfile) }}">{{ $blog->display_author_name }}</a>@else{{ $blog->display_author_name }}@endif</strong></span>
             @if($blog->published_at)
                 <span><i class="icon-feather-calendar"></i> {{ $blog->published_at->format('M d, Y') }}</span>
             @endif
@@ -749,14 +749,19 @@
 
                     {{-- Author card --}}
                     @php
-                        $authorName = $blog->author_name ?? $blog->author?->name ?? 'JobGader Editorial';
-                        $authorInitial = mb_strtoupper(mb_substr($authorName, 0, 1));
+                        $authorProfile = $blog->authorProfile;
+                        $authorName = $blog->display_author_name;
                     @endphp
                     <div class="blog-author-card">
-                        <div class="avatar">{{ $authorInitial }}</div>
+                        @if ($authorProfile?->photo_url)
+                            <img class="avatar" src="{{ $authorProfile->photo_url }}" alt="{{ $authorName }}" width="64" height="64" loading="lazy" style="object-fit:cover;">
+                        @else
+                            <div class="avatar">{{ mb_strtoupper(mb_substr($authorName, 0, 1)) }}</div>
+                        @endif
                         <div class="info">
-                            <h4>{{ $authorName }}</h4>
-                            <p>Career guides and job search information, with the official sources named in each guide.</p>
+                            <h4>@if ($authorProfile)<a href="{{ route('authors.show', $authorProfile) }}">{{ $authorName }}</a>@else{{ $authorName }}@endif</h4>
+                            @if ($authorProfile?->job_title)<p><strong>{{ $authorProfile->job_title }}</strong></p>@endif
+                            <p>{{ $authorProfile?->bio ?: 'Career guides and job search information, with the official sources named in each guide.' }} Read our <a href="{{ route('pages.editorial-policy') }}">Editorial Policy</a>.</p>
                         </div>
                     </div>
                 </article>
@@ -834,9 +839,7 @@
                         <div class="related-card-body">
                             <div class="meta">
                                 {{ optional($related->published_at)->format('M d, Y') }}
-                                @if($related->author_name || $related->author?->name)
-                                    · By {{ $related->author_name ?? $related->author?->name }}
-                                @endif
+                                · By {{ $related->display_author_name }}
                             </div>
                             <h4>{{ $related->title }}</h4>
                             <p>{{ $related->excerpt ?? \Illuminate\Support\Str::limit(strip_tags($related->content), 100) }}</p>
