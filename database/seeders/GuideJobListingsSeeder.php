@@ -65,6 +65,11 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Nationwide', 'country' => 'Pakistan']
         );
 
+        $ireland = Location::firstOrCreate(
+            ['name' => 'Ireland'],
+            ['area' => 'Nationwide', 'country' => 'Ireland']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -820,6 +825,39 @@ class GuideJobListingsSeeder extends Seeder
                 'url' => 'https://illinoisjoblink.illinois.gov/job_seeker',
                 'keywords' => 'junior web developer jobs chicago no degree, entry level web developer chicago, illinoisjoblink, junior frontend developer chicago',
                 'note' => '<p><strong>Note:</strong> this link opens an official public-sector or state job portal. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['it-software', 'IT & Software'],
+                'advertiser' => ['US City and Public Employers (Aggregated)', 'usa-public-employers-aggregated'],
+                'location' => $usa,
+                'position' => 'Software Developer — WorkSource Washington Job Search (Seattle)',
+                'intro' => 'WorkSource Washington is the state job search and workforce service. Search it with a Seattle location and read each posting\'s duties, education rules and pay information, because a developer search returns roles at every level.',
+                'items' => ['Washington guidance says employers with 15 or more employees must show a pay range in postings a Washington-based worker could fill', 'Read the education and experience requirements before you apply', 'Keep your portfolio ready, with projects you can explain'],
+                'url' => 'https://www.worksourcewa.com/',
+                'keywords' => 'software developer jobs seattle washington, entry level software developer seattle, software developer salary seattle, worksource washington jobs',
+                'note' => '<p><strong>Note:</strong> this link opens an official public-sector or state job portal. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['it-software', 'IT & Software'],
+                'advertiser' => ['UK Public Employers and Services (Aggregated)', 'uk-public-aggregated'],
+                'location' => $uk,
+                'position' => 'Front-End Developer — Find an Apprenticeship (Manchester, England)',
+                'intro' => 'Find an apprenticeship is the UK Government service for searching apprenticeships. Search software, web and digital roles near Manchester and read each entry requirement and technology focus.',
+                'items' => ['Apprenticeships run from Level 3 up to degree level, and entry rules rise with the level', 'A software engineering apprenticeship is not necessarily about front-end work', 'Check the intake and closing date, because an employer programme can be closed'],
+                'url' => 'https://www.findapprenticeship.service.gov.uk/',
+                'keywords' => 'front end developer jobs manchester, junior frontend developer manchester, frontend apprenticeships manchester, find an apprenticeship',
+                'note' => '<p><strong>Note:</strong> apprenticeship and employment rules are set by the UK Government, not by JobGader. This link opens an official government service; it is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['it-software', 'IT & Software'],
+                'advertiser' => ['Irish Public Employers (Aggregated)', 'ireland-public-aggregated'],
+                'location' => $ireland,
+                'position' => 'Data Analyst — Public Appointments Service (Dublin, Ireland)',
+                'intro' => 'publicjobs.ie is Ireland\'s public sector recruitment website. Search it by category and county for analyst competitions, and read each closing date and eligibility rule.',
+                'items' => ['A non-EEA national, unless exempt, must hold a valid employment permit to work in Ireland', 'A job title does not settle permit eligibility; the duties do', 'Read the closing date and eligibility rules of each competition'],
+                'url' => 'https://www.publicjobs.ie/en/',
+                'keywords' => 'data analyst jobs dublin, junior data analyst jobs ireland, publicjobs ie, data analyst requirements dublin',
+                'note' => '<p><strong>Note:</strong> employment permit and recruitment rules are set by the Irish Government, not by JobGader. This link opens an official public sector recruitment site; it is not an application form for one vacancy, and a listing on it does not guarantee hiring or a work permit.</p>',
             ],
             [
                 'category' => ['transport-logistics', 'Transport & Logistics'],
