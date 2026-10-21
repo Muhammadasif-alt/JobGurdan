@@ -592,13 +592,17 @@
 </style>
 
 <style>
-    .jb-top { background: #fff; border-bottom: 1px solid #e5e7eb; padding: 18px 0 14px; }
-    .jb-top form { display: flex !important; flex-wrap: wrap; gap: 12px; justify-content: center; align-items: center; margin: 0; }
-    .jb-top .jb-search { flex: 0 1 460px !important; width: 460px !important; max-width: 100% !important; margin: 0 !important; height: 46px; border: 1px solid #cfd4dc; border-radius: 6px; padding: 0 14px; font-size: 15px; }
-    .jb-top .jb-search:focus, .jb-top .jb-loc:focus { outline: none; border-color: #2f7fc9; box-shadow: 0 0 0 3px rgba(47,127,201,.15); }
-    .jb-top .jb-loc { flex: 0 0 210px !important; width: 210px !important; max-width: 100% !important; margin: 0 !important; height: 46px; min-width: 190px; border: 1px solid #cfd4dc; border-radius: 6px; padding: 0 12px; font-size: 15px; background: #fff; }
-    .jb-top .jb-find { flex: 0 0 auto !important; width: auto !important; margin: 0 !important; height: 46px; padding: 0 26px; border: 0; border-radius: 999px; background: #2f7fc9; color: #fff; font-weight: 700; font-size: 15px; cursor: pointer; }
-    .jb-top .jb-find:hover { background: #1b3a6b; }
+    .jb-top { background: #fff; border-bottom: 1px solid #e5e7eb; padding: 34px 0 32px; }
+    .jb-top .jb-bar { display: flex; align-items: center; max-width: 1040px; margin: 0 auto; padding: 10px; background: #fff; border: 1px solid #d7dce3; border-radius: 18px; box-shadow: 0 10px 30px rgba(27,58,107,.10); }
+    .jb-top .jb-field { display: flex; align-items: center; gap: 12px; margin: 0; padding: 0 18px; height: 62px; position: relative; }
+    .jb-top .jb-field i { font-size: 22px; color: #2f7fc9; flex: 0 0 auto; }
+    .jb-top .jb-field-grow { flex: 1 1 auto; border-right: 1px solid #e5e7eb; }
+    .jb-top .jb-field-loc { flex: 0 0 280px; }
+    .jb-top .jb-search, .jb-top .jb-loc { width: 100% !important; height: 60px !important; margin: 0 !important; padding: 0 !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; background: transparent !important; font-size: 17px; color: #111827; outline: none; }
+    .jb-top .jb-search::placeholder { color: #8a93a1; }
+    .jb-top .jb-field:focus-within { background: #f5f9fe; border-radius: 12px; }
+    .jb-top .jb-find { flex: 0 0 auto; height: 62px; padding: 0 44px; margin: 0 0 0 8px; border: 0; border-radius: 13px; background: linear-gradient(135deg, #1b3a6b, #2f7fc9); color: #fff; font-weight: 700; font-size: 17px; cursor: pointer; transition: transform .15s ease, box-shadow .15s ease; }
+    .jb-top .jb-find:hover { transform: translateY(-1px); box-shadow: 0 8px 20px rgba(47,127,201,.35); }
     .jb-note { text-align: center; font-size: 13.5px; color: #5b6472; margin: 12px 0 0; }
     .jb-note a { color: #1b3a6b; font-weight: 600; }
     .jb-stats { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 26px; margin-top: 8px; font-size: 13px; color: #5b6472; }
@@ -653,7 +657,7 @@
 
     @media (max-width: 1599px) { .jb-rows { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
     @media (max-width: 1199px) { .jb-board { grid-template-columns: 260px minmax(0, 1fr); } .jb-side { grid-column: 1 / -1; border-left: 0; border-top: 1px solid #eceef1; } }
-    @media (max-width: 767px) { .jb-board { grid-template-columns: 1fr; } .jb-filters { border-right: 0; border-bottom: 1px solid #eceef1; } .jb-col-head { padding: 18px 18px 14px; } .jb-rows { grid-template-columns: 1fr; padding: 16px 14px 4px; } .jb-top .jb-find { flex: 1 1 140px; justify-content: center; } }
+    @media (max-width: 767px) { .jb-top { padding: 22px 0; } .jb-top .jb-bar { flex-direction: column; align-items: stretch; padding: 8px; } .jb-top .jb-field, .jb-top .jb-field-loc { flex: 1 1 auto; border-right: 0; border-bottom: 1px solid #e5e7eb; } .jb-top .jb-find { margin: 8px 0 0; width: 100%; } .jb-board { grid-template-columns: 1fr; } .jb-filters { border-right: 0; border-bottom: 1px solid #eceef1; } .jb-col-head { padding: 18px 18px 14px; } .jb-rows { grid-template-columns: 1fr; padding: 16px 14px 4px; } }
 </style>
 
 @php
@@ -698,21 +702,29 @@
 <section class="jb-top">
     <div class="container">
         <form method="GET" action="{{ route('jobs.index') }}" id="jobSearchForm">
-            <input type="text" name="position" class="jb-search" placeholder="Job title, skill or company"
-                autocomplete="off" data-autocomplete="jobs" value="{{ request('position') }}" aria-label="Job title, skill or company">
-            <select class="jb-loc" id="location" name="location" aria-label="Location">
-                <option value="">All locations</option>
-                @foreach ($uniqueLocations as $loc)
-                    <option value="{{ $loc->name }}" {{ request('location') == $loc->name ? 'selected' : '' }}>{{ $loc->name }}</option>
-                @endforeach
-            </select>
+            <div class="jb-bar">
+                <label class="jb-field jb-field-grow">
+                    <i class="icon-material-outline-search" aria-hidden="true"></i>
+                    <input type="text" name="position" class="jb-search" placeholder="Job title, skill or company"
+                        autocomplete="off" data-autocomplete="jobs" value="{{ request('position') }}" aria-label="Job title, skill or company">
+                </label>
+                <label class="jb-field jb-field-loc">
+                    <i class="icon-material-outline-location-on" aria-hidden="true"></i>
+                    <select class="jb-loc" id="location" name="location" aria-label="Location">
+                        <option value="">All locations</option>
+                        @foreach ($uniqueLocations as $loc)
+                            <option value="{{ $loc->name }}" {{ request('location') == $loc->name ? 'selected' : '' }}>{{ $loc->name }}</option>
+                        @endforeach
+                    </select>
+                </label>
+                <button type="submit" class="jb-find">Find Jobs</button>
+            </div>
             @if (request('category'))
                 <input type="hidden" name="category" value="{{ request('category') }}">
             @endif
             @if ($jbType)
                 <input type="hidden" name="type" value="{{ $jbType }}">
             @endif
-            <button type="submit" class="jb-find">Find Jobs</button>
         </form>
     </div>
 </section>
