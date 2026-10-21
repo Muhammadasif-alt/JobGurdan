@@ -539,19 +539,25 @@
     /* === Trust strip below === */
     .jobs-trust-strip {
         margin-top: 32px;
-        padding: 24px 28px;
-        background: #fff;
-        border: 1px solid #ececec;
-        border-radius: 16px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 22px;
+        gap: 18px;
     }
-    @media (max-width: 768px) { .jobs-trust-strip { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 991px) { .jobs-trust-strip { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 575px) { .jobs-trust-strip { grid-template-columns: 1fr; } }
     .jobs-trust-strip .trust-item {
         display: flex;
         align-items: flex-start;
         gap: 12px;
+        padding: 20px;
+        background: #fff;
+        border: 1px solid #ececec;
+        border-radius: 14px;
+        transition: box-shadow .15s ease, transform .15s ease;
+    }
+    .jobs-trust-strip .trust-item:hover {
+        box-shadow: 0 8px 22px rgba(27,58,107,.1);
+        transform: translateY(-2px);
     }
     .jobs-trust-strip .trust-item .ico {
         width: 38px;
