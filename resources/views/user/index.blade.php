@@ -1,4 +1,7 @@
 @extends('user.layouts.master')
+@push('meta')
+    <link rel="preload" as="image" href="{{ asset('public/user/images/home.webp') }}" type="image/webp" fetchpriority="high">
+@endpush
 @php
     /**
      * One list feeds both the visible FAQ and its FAQPage schema, so the two

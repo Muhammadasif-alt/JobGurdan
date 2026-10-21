@@ -85,7 +85,13 @@
     <link rel="dns-prefetch" href="//www.googletagmanager.com">
 
     <!-- Google Fonts (single request, swap so text shows immediately) -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"></noscript>
+
+    {{-- AOS hides every [data-aos] element until window load, and it is off below 768px, so on a phone the
+         hero text stayed invisible until the very last script finished. Show those elements straight away. --}}
+    <script>if (window.innerWidth < 768) { document.documentElement.classList.add('aos-off'); }</script>
+    <style>html.aos-off [data-aos] { opacity: 1 !important; transform: none !important; transition: none !important; }</style>
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('public/user/css/bootstrap-grid.css') }}">
@@ -1896,7 +1902,7 @@
                         once: true,
                         offset: 80,
                         delay: 0,
-                        disable: function() { return window.innerWidth < 480; }
+                        disable: function() { return window.innerWidth < 768; }
                     });
                 }
             });
