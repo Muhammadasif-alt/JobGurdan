@@ -245,3 +245,17 @@ it('still sends the ordinary contact form back to the home page', function () {
 
     expect(ContactMessage::latest()->first()->message)->not->toContain('WhatsApp:');
 });
+
+it('shows three priced packages that order through WhatsApp and promise no jobs', function () {
+    $this->get('/resume-writing-services')
+        ->assertOk()
+        ->assertSee('Starter')
+        ->assertSee('Standard')
+        ->assertSee('Complete')
+        ->assertSee('$12')
+        ->assertSee('$21')
+        ->assertSee('$35')
+        ->assertSee('https://wa.me/923464929466?text=', false)
+        ->assertSee('we do not apply to jobs')
+        ->assertDontSee('refund');
+});

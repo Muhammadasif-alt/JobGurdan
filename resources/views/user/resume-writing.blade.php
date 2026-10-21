@@ -14,12 +14,54 @@
         : null;
     $contactEmail = config('site.contact_email');
 
+    $rwPackages = [
+        [
+            'name' => 'Starter',
+            'for' => 'One clean, ready-to-send document',
+            'price' => '$12',
+            'featured' => false,
+            'points' => [
+                'Resume or CV written from scratch by a person',
+                'Formatted so applicant tracking systems read it cleanly',
+                'Written for the country you are applying in',
+                'First draft within 1 day',
+                'Free changes until you are happy',
+            ],
+        ],
+        [
+            'name' => 'Standard',
+            'for' => 'Your application and your profile telling one story',
+            'price' => '$21',
+            'featured' => true,
+            'points' => [
+                'Everything in Starter',
+                'One cover letter written for a specific role',
+                'LinkedIn headline and About section rewritten',
+                'Keywords matched to the job you are targeting',
+                'First draft within 1 day',
+            ],
+        ],
+        [
+            'name' => 'Complete',
+            'for' => 'When the deadline is close',
+            'price' => '$35',
+            'featured' => false,
+            'points' => [
+                'Everything in Standard',
+                'Urgent: first draft within hours',
+                'Full LinkedIn rewrite, including your experience section',
+                'A second cover letter for another role',
+                'A short call to go through your last two jobs',
+            ],
+        ],
+    ];
+
     $rwFaqs = [
         ['Who actually writes my resume?', 'A person does, from your details and your existing CV. We do not generate it with AI and we do not drop your history into a template. You deal with the writer directly, so you can explain the parts of your career that a form would never capture.'],
         ['What is ATS, and why does the formatting matter so much?', 'Most medium and large employers run applications through an applicant tracking system before a human opens them. Multi-column layouts, text inside images, headers and footers, and unusual section names are the common reasons a good candidate is filtered out. We write in a structure these systems parse cleanly, without making the document ugly.'],
         ['Do you write CVs as well as resumes?', 'Yes, and they are not the same document. A US resume is short and achievement-led. A CV for the UK, Gulf or Pakistan carries more detail and different conventions around personal information. Tell us which country you are applying in and we write for that market.'],
-        ['How long does it take?', 'We agree a delivery date with you before any money changes hands, based on how much work the role needs. We would rather commit to a date we can keep than quote a number that sounds impressive.'],
-        ['What do you need from me?', 'Your current CV if you have one, the kind of role you are targeting, and a short conversation about what you actually did in your last two jobs. That conversation is where most of the value comes from.'],
+        ['How long does it take?', 'Most first drafts are ready within a day, and an urgent order is delivered within hours. We confirm the time with you on WhatsApp before you pay, because a deadline is only useful if we can keep it.'],
+        ['What do you need from me?', 'Only your work experience: your current CV if you have one, or a few lines about each job you have done, plus the kind of role you are targeting. A short chat about your last two jobs is where most of the value comes from.'],
         ['Do you write cover letters and LinkedIn profiles too?', 'Yes. A cover letter is written per role rather than reused, and a LinkedIn rewrite covers the headline, About section and experience so recruiters searching for your skills can find you.'],
         ['What if I am not happy with the draft?', 'You tell us what is wrong and we rewrite it. The draft is a starting point for a conversation, not a delivery.'],
         ['Can you guarantee I will get a job?', 'No, and be careful with anyone who does. A resume gets you read; the interview and the market decide the rest. What we can do is make sure you are not being filtered out before a person sees your name.'],
@@ -467,6 +509,35 @@
     html.dark-mode .rw-field label { color: #c7d6e6; }
     html.dark-mode .rw-field input,
     html.dark-mode .rw-field textarea { background: rgba(255,255,255,.05); border-color: rgba(255,255,255,.16); color: #f2f7fd; }
+
+    /* ===== Packages ===== */
+    .rw-packages { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: stretch; }
+    .rw-package {
+        position: relative; display: flex; flex-direction: column;
+        background: #fff; border: 1px solid #e4edf8; border-radius: 20px;
+        padding: 34px 28px 30px; box-shadow: 0 2px 10px rgba(27,58,107,.05);
+    }
+    .rw-package h3 { font-size: 22px; font-weight: 800; color: #1b3a6b; margin: 0 0 6px; }
+    .rw-package-for { color: #55657a; font-size: 14.8px; line-height: 1.5; margin: 0 0 16px; min-height: 44px; }
+    .rw-package-price { font-size: 46px; font-weight: 800; color: #1b3a6b; line-height: 1; margin: 0 0 22px; }
+    .rw-package-points { list-style: none; margin: 0 0 28px; padding: 0; display: grid; gap: 12px; flex: 1; align-content: start; }
+    .rw-package-points li { display: flex; gap: 10px; color: #3d4c63; font-size: 15px; line-height: 1.5; }
+    .rw-package-points i { color: #2f7fc9; font-size: 18px; flex: none; margin-top: 1px; }
+    .rw-package .rw-btn { justify-content: center; width: 100%; }
+    .rw-package.is-featured { background: linear-gradient(160deg, #1b3a6b 0%, #2f7fc9 100%); border-color: transparent; box-shadow: 0 22px 50px rgba(27,58,107,.28); }
+    .rw-package.is-featured h3, .rw-package.is-featured .rw-package-price { color: #fff; }
+    .rw-package.is-featured .rw-package-for, .rw-package.is-featured .rw-package-points li { color: rgba(255,255,255,.92); }
+    .rw-package.is-featured .rw-package-points i { color: #bfe0ff; }
+    .rw-package-flag {
+        position: absolute; top: -13px; left: 28px; background: #25d366; color: #fff;
+        font-size: 12px; font-weight: 800; letter-spacing: .8px; text-transform: uppercase;
+        padding: 6px 14px; border-radius: 999px;
+    }
+    @media (max-width: 991px) { .rw-packages { grid-template-columns: 1fr; max-width: 520px; margin: 0 auto; } .rw-package-for { min-height: 0; } }
+    html.dark-mode .rw-package:not(.is-featured) { background: var(--site-card, #1c2230); border-color: rgba(255,255,255,.13); }
+    html.dark-mode .rw-package:not(.is-featured) h3, html.dark-mode .rw-package:not(.is-featured) .rw-package-price { color: #fff; }
+    html.dark-mode .rw-package:not(.is-featured) .rw-package-for, html.dark-mode .rw-package:not(.is-featured) .rw-package-points li { color: var(--site-muted, #b8c0cc); }
+    html.dark-mode .rw-package:not(.is-featured) .rw-package-points i { color: #8fc4f0; }
 </style>
 
 <div class="rw-page">
@@ -583,6 +654,47 @@
                     <h3>Free CV Review</h3>
                     <p>Send what you have and we will tell you what is holding it back. If it only needs small fixes, we will say so rather than sell you a rewrite.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- ============ PACKAGES ============ --}}
+    <section class="rw-section" id="packages">
+        <div class="rw-wrap">
+            <div class="rw-head-center">
+                <span class="rw-eyebrow">Packages</span>
+                <h2>Pick What You Need, <span class="accent">Pay Once</span></h2>
+                <p class="rw-lede">
+                    All we need from you is your work experience. Send your current CV or a few lines about your
+                    jobs and we do the rest. Prices are in US dollars. We write documents only: we do not apply to jobs
+                    for you and we cannot promise an interview.
+                </p>
+            </div>
+            <div class="rw-packages">
+                @foreach($rwPackages as $package)
+                    @php
+                        $waText = 'Hi, I would like the '.$package['name'].' CV package ('.$package['price'].').';
+                        $packageLink = $waNumber !== ''
+                            ? 'https://wa.me/'.$waNumber.'?text='.rawurlencode($waText)
+                            : '#resume-enquiry';
+                    @endphp
+                    <div class="rw-package {{ $package['featured'] ? 'is-featured' : '' }}">
+                        @if($package['featured'])
+                            <span class="rw-package-flag">Most chosen</span>
+                        @endif
+                        <h3>{{ $package['name'] }}</h3>
+                        <p class="rw-package-for">{{ $package['for'] }}</p>
+                        <p class="rw-package-price">{{ $package['price'] }}</p>
+                        <ul class="rw-package-points">
+                            @foreach($package['points'] as $point)
+                                <li><i class="icon-feather-check-circle"></i> {{ $point }}</li>
+                            @endforeach
+                        </ul>
+                        <a href="{{ $packageLink }}" @if($waNumber !== '') target="_blank" rel="noopener" @endif class="rw-btn {{ $package['featured'] ? 'rw-btn-wa' : 'rw-btn-primary' }}">
+                            <i class="icon-feather-message-circle"></i> Order on WhatsApp
+                        </a>
+                    </div>
+                @endforeach
             </div>
         </div>
     </section>
