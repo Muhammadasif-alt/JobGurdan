@@ -340,19 +340,19 @@
         <div class="auth-hero">
             <span class="eyebrow"><span class="dot"></span> Welcome back</span>
             <h1>Sign in to continue your <span class="accent">job search</span></h1>
-            <p>Get back to your saved jobs and applications. An account is optional &mdash; every listing on JobGader can be opened and applied to without one.</p>
+            <p>Get back to your saved jobs and applications. An account is optional. Every listing on JobGader can be opened and applied to without one.</p>
             <ul class="auth-trust">
                 <li><i class="bi bi-check-circle-fill"></i> Every listing links to its source</li>
                 <li><i class="bi bi-check-circle-fill"></i> Track applications in one dashboard</li>
                 <li><i class="bi bi-check-circle-fill"></i> Personalized job recommendations</li>
-                <li><i class="bi bi-check-circle-fill"></i> Trusted by top U.S. employers</li>
+                <li><i class="bi bi-check-circle-fill"></i> Free to read, no account needed</li>
             </ul>
         </div>
 
         <div class="auth-stats">
-            <div class="stat"><strong>3</strong><span>Countries</span></div>
+            <div class="stat"><strong>{{ $coverage->count() }}</strong><span>Countries</span></div>
             <div class="stat"><strong>Weekly</strong><span>New Jobs</span></div>
-            <div class="stat"><strong>50+</strong><span>States</span></div>
+            <div class="stat"><strong>Free</strong><span>To Read</span></div>
         </div>
     </aside>
 

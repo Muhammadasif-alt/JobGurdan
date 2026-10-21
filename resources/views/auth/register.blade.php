@@ -532,11 +532,11 @@
         </a>
 
         <div class="auth-hero">
-            <span class="eyebrow"><span class="dot"></span> Join 100,000+ job seekers</span>
+            <span class="eyebrow"><span class="dot"></span> Create your free account</span>
             <h1>Start your <span class="accent">career journey</span> today</h1>
-            <p>An account is optional and free. It lets you save jobs and track applications &mdash; you can browse and apply to everything without one.</p>
+            <p>An account is optional and free. It lets you save jobs and track applications. You can browse and apply to everything without one.</p>
             <ul class="auth-trust">
-                <li><i class="bi bi-check-circle-fill"></i> Free to register &mdash; no credit card</li>
+                <li><i class="bi bi-check-circle-fill"></i> Free to register, no credit card</li>
                 <li><i class="bi bi-check-circle-fill"></i> Apply on the employer's own site</li>
                 <li><i class="bi bi-check-circle-fill"></i> Save jobs &amp; get daily or weekly job alerts</li>
                 <li><i class="bi bi-check-circle-fill"></i> We never ask you to pay to apply</li>
@@ -544,9 +544,9 @@
         </div>
 
         <div class="auth-stats">
-            <div class="stat"><strong>3</strong><span>Countries</span></div>
+            <div class="stat"><strong>{{ $coverage->count() }}</strong><span>Countries</span></div>
             <div class="stat"><strong>Weekly</strong><span>New Jobs</span></div>
-            <div class="stat"><strong>50+</strong><span>States</span></div>
+            <div class="stat"><strong>Free</strong><span>To Read</span></div>
         </div>
     </aside>
 </div>
