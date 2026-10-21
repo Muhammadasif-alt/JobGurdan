@@ -18,3 +18,13 @@ it('no longer prints the standards strip and shows the founder photo', function 
         ->assertDontSee('aria-label="Standards"', false)
         ->assertSee('public/team/muhammad-asif.jpg', false);
 });
+
+it('explains that JobGader posts verified jobs, does not give jobs and sells CV writing', function () {
+    $this->get('/about-us')
+        ->assertOk()
+        ->assertSee('We post verified jobs')
+        ->assertSee('We do not give jobs')
+        ->assertSee('CV writing is a paid service')
+        ->assertDontSee('no fee at any stage')
+        ->assertDontSee('We will never ask you for money, at any stage');
+});

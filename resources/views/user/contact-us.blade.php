@@ -663,7 +663,7 @@
             <a href="{{ route('jobs.index') }}" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-search"></i></div>
                 <h4>Looking for work?</h4>
-                <p>Browse current openings across {{ $coverage->shortList() }}. No account needed and no fee at any stage.</p>
+                <p>Browse current openings across {{ $coverage->shortList() }}. No account needed and no fee to browse or apply.</p>
                 <span class="qc-action">Browse all jobs <i class="icon-feather-arrow-right"></i></span>
             </a>
             <a href="mailto:{{ config('site.contact_email') }}" class="quick-contact-card">

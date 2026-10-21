@@ -1098,7 +1098,7 @@
             <div class="about-section-head">
                 <span class="tag">How It Works</span>
                 <h2>Find your next role in three simple steps</h2>
-                <p>No sign-up wall and no fees. Pick a country, check what the visa route allows, then apply straight through.</p>
+                <p>No sign-up wall, and no fee to read listings or apply. Pick a country, check what the visa route allows, then apply straight through.</p>
             </div>
             <div class="how-grid">
                 <div class="how-card">
@@ -1158,7 +1158,7 @@
                     <div class="benefit-item">
                         <div class="ico"><i class="icon-feather-slash"></i></div>
                         <h4>Never a Fee</h4>
-                        <p>Charging a worker for sponsorship is illegal in the US and UK. We will never ask you for money, at any stage.</p>
+                        <p>Charging a worker for sponsorship is illegal in the US and UK. We never charge for a job, a listing or sponsorship. Our CV writing is a separate, optional paid service.</p>
                     </div>
                     <div class="benefit-item">
                         <div class="ico"><i class="icon-feather-globe"></i></div>
@@ -1207,7 +1207,7 @@
                 <div class="mvv-card">
                     <div class="ico"><i class="icon-feather-shield"></i></div>
                     <h3>Nothing Behind a Wall</h3>
-                    <p>No sign-up to apply, no fee at any stage, and no data sold on. Charging a worker for visa sponsorship is illegal in both the US and the UK, and we flag the recruiters who try it.</p>
+                    <p>No sign-up to apply, no fee to read listings or apply, and no data sold on. Charging a worker for visa sponsorship is illegal in both the US and the UK, and we flag the recruiters who try it.</p>
                 </div>
             </div>
         </div>
@@ -1231,6 +1231,37 @@
                 </div>
                 <div class="story-visual">
                     <img src="{{ asset('public/user/images/about-founders.jpg') }}" alt="The JobGader team reviewing job listings and visa guidance" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- What we are and are not --}}
+    <section class="about-section gray" id="what-we-are">
+        <div class="container">
+            <div class="about-section-head">
+                <span class="tag">What We Do</span>
+                <h2>What JobGader is, and what it is not</h2>
+                <p>People often think we are an employer or a recruiter. We are not. Here is exactly what we do.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="team-card">
+                        <h3>We post verified jobs</h3>
+                        <p>We check each job against the employer's or the official source's own page before it goes on the site, and every listing links back to that source. Reading listings and applying through them is free.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="team-card">
+                        <h3>We do not give jobs</h3>
+                        <p>We are not the employer and we do not hire, place or send workers abroad. The employer decides who gets the job. We cannot promise an interview, an offer or a visa, and we never charge for a job or for sponsorship.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="team-card">
+                        <h3>CV writing is a paid service</h3>
+                        <p>The one thing we charge for is an optional <a href="{{ route('resume-writing') }}">CV and resume writing service</a>, written by a person. It is separate from the job listings, and buying it does not change which jobs or guides you see.</p>
+                    </div>
                 </div>
             </div>
         </div>
