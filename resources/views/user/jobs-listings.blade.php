@@ -609,7 +609,8 @@
     .jb-stats .stat { display: inline-flex; gap: 6px; align-items: baseline; }
     .jb-stats strong { color: #1b3a6b; font-size: 15px; }
 
-    .jb-board { display: grid; grid-template-columns: 290px minmax(0, 1fr) 330px; gap: 0; background: #fff; border-top: 0; }
+    .jb-wrap { max-width: 1760px; margin: 28px auto 0; padding: 0 28px; }
+    .jb-board { border: 1px solid #e5e7eb; border-radius: 16px; overflow: hidden; display: grid; grid-template-columns: 290px minmax(0, 1fr) 330px; gap: 0; background: #fff; }
     .jb-col { min-width: 0; }
     .jb-col-head { background: #f7f7f8; padding: 26px 24px 20px; margin: 0; font-size: 24px; font-weight: 700; color: #1f2937; }
     .jb-filters { border-right: 1px solid #eceef1; }
@@ -664,7 +665,7 @@
     html.dark-mode .jb-top .jb-search, html.dark-mode .jb-top .jb-loc { background: transparent !important; border: 0 !important; color: var(--site-text, #e5e7eb) !important; }
     html.dark-mode .jb-top .jb-loc option { background: #181b22; color: #e5e7eb; }
     html.dark-mode .jb-top .jb-search::placeholder { color: var(--site-muted, #9ca3af) !important; }
-    html.dark-mode .jb-board { background: var(--site-bg, #0f1115); }
+    html.dark-mode .jb-board { background: var(--site-bg, #0f1115); border-color: var(--site-card-bd, #2a2f3a); }
     html.dark-mode .jb-col-head { background: var(--site-card-bg, #181b22); color: #fff; }
     html.dark-mode .jb-filters, html.dark-mode .jb-side { border-color: var(--site-card-bd, #2a2f3a); }
     html.dark-mode .jb-fgroup { border-top-color: var(--site-card-bd, #2a2f3a); }
@@ -700,7 +701,7 @@
     html.dark-mode .jobs-trust-strip .trust-item { background: var(--site-card-bg, #181b22); border-color: var(--site-card-bd, #2a2f3a); }
     @media (max-width: 1599px) { .jb-rows { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
     @media (max-width: 1199px) { .jb-board { grid-template-columns: 260px minmax(0, 1fr); } .jb-side { grid-column: 1 / -1; border-left: 0; border-top: 1px solid #eceef1; } }
-    @media (max-width: 767px) { .jb-top { padding: 22px 0; } .jb-top .jb-bar { flex-direction: column; align-items: stretch; padding: 8px; } .jb-top .jb-field, .jb-top .jb-field-loc { flex: 1 1 auto; border-right: 0; border-bottom: 1px solid #e5e7eb; } .jb-top .jb-find { margin: 8px 0 0; width: 100%; } .jb-board { grid-template-columns: 1fr; } .jb-filters { border-right: 0; border-bottom: 1px solid #eceef1; } .jb-col-head { padding: 18px 18px 14px; } .jb-rows { grid-template-columns: 1fr; padding: 16px 14px 4px; } }
+    @media (max-width: 767px) { .jb-wrap { padding: 0 12px; margin-top: 18px; } .jb-top { padding: 22px 0; } .jb-top .jb-bar { flex-direction: column; align-items: stretch; padding: 8px; } .jb-top .jb-field, .jb-top .jb-field-loc { flex: 1 1 auto; border-right: 0; border-bottom: 1px solid #e5e7eb; } .jb-top .jb-find { margin: 8px 0 0; width: 100%; } .jb-board { grid-template-columns: 1fr; } .jb-filters { border-right: 0; border-bottom: 1px solid #eceef1; } .jb-col-head { padding: 18px 18px 14px; } .jb-rows { grid-template-columns: 1fr; padding: 16px 14px 4px; } }
 </style>
 
 @php
@@ -772,7 +773,7 @@
     </div>
 </section>
 
-<div class="container-fluid px-0">
+<div class="jb-wrap">
     <div class="jb-board">
         <aside class="jb-col jb-filters" aria-label="Filters">
             <h2 class="jb-col-head">Filters</h2>
