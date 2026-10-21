@@ -24,8 +24,8 @@ Schedule::command('alerts:send')
     ->onOneServer()
     ->runInBackground();
 
-// Expire jobs older than 30 days so stale roles drop out of /jobs, category, and
-// company listings. Jobs are aged out by created_at.
+// Delete jobs that are already marked expired. Jobs are not aged out by created_at:
+// a job with no expiry date stays live.
 // Runs daily at 03:15 UTC (off-peak).
 Schedule::command('jobs:expire-old')
     ->dailyAt('03:15')

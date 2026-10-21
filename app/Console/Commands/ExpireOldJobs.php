@@ -7,25 +7,25 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 
 /**
- * Two-stage job lifecycle:
- *   1. Mark active jobs older than --expire-days (default 30) as expired.
- *      They stop appearing in listings but stay queryable for analytics.
- *   2. Hard-delete expired jobs older than --delete-days (default 60).
- *      Reclaims DB space so the table doesn't grow unbounded.
+ * Job lifecycle:
+ *   1. Optional: mark active jobs older than --expire-days as expired. Off by
+ *      default (0), because a job with no expiry date stays live however old it
+ *      is. Only jobs whose own status is already "expired" are removed.
+ *   2. Hard-delete jobs that have been expired for more than --delete-days
+ *      (counted from when they were marked, default 7).
  *
- * Jobg8 doesn't ship an expiry date, so we age out by created_at.
  * saved_jobs.job_id has cascadeOnDelete so DELETE here is FK-safe.
  */
 class ExpireOldJobs extends Command
 {
     protected $signature = 'jobs:expire-old
-                            {--expire-days=30 : Active jobs older than this become expired}
-                            {--delete-days=60 : Expired jobs older than this are deleted from DB}
+                            {--expire-days=0 : Active jobs older than this many days become expired (0 = never age jobs out)}
+                            {--delete-days=7 : Jobs expired for longer than this many days are deleted from DB}
                             {--skip-expire : Skip the mark-expired pass}
                             {--skip-delete : Skip the delete-old pass}
                             {--dry-run : Show counts without writing}';
 
-    protected $description = 'Mark old jobs as expired (stage 1) and delete long-expired jobs (stage 2) to keep the jobs table from growing unbounded.';
+    protected $description = 'Delete jobs that are already expired (stage 2). Ageing out by created_at (stage 1) only runs when --expire-days is set.';
 
     public function handle(): int
     {
@@ -35,14 +35,14 @@ class ExpireOldJobs extends Command
         $skipExpire = (bool) $this->option('skip-expire');
         $skipDelete = (bool) $this->option('skip-delete');
 
-        if ($deleteDays < $expireDays) {
+        if ($expireDays > 0 && $deleteDays < $expireDays) {
             $this->error("--delete-days ({$deleteDays}) must be >= --expire-days ({$expireDays}). Otherwise jobs would be deleted before they're even marked expired.");
 
             return self::FAILURE;
         }
 
         // Stage 1: mark active old jobs as expired.
-        if (! $skipExpire) {
+        if (! $skipExpire && $expireDays > 0) {
             $this->expirePass($expireDays, $dryRun);
         }
 
@@ -90,7 +90,7 @@ class ExpireOldJobs extends Command
         // hydrating 100k models. FK cascades on saved_jobs still fire at DB level.
         $baseQuery = DB::table('jobs')
             ->where('status', 'expired')
-            ->where('created_at', '<', $cutoff);
+            ->where('updated_at', '<', $cutoff);
 
         $count = $baseQuery->count();
 
@@ -112,7 +112,7 @@ class ExpireOldJobs extends Command
         do {
             $deleted = DB::table('jobs')
                 ->where('status', 'expired')
-                ->where('created_at', '<', $cutoff)
+                ->where('updated_at', '<', $cutoff)
                 ->limit(5000)
                 ->delete();
             $totalDeleted += $deleted;
