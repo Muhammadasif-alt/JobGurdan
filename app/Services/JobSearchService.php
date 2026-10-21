@@ -17,10 +17,16 @@ class JobSearchService
     {
         $filters = $request->only([
             'keywords', 'position', 'location', 'area', 'postal_code', 'sort',
-            'category', 'job_type', 'salary_min', 'salary_max', 'experience_level', 'per_page',
+            'category', 'job_type', 'salary_min', 'salary_max', 'experience_level', 'per_page', 'type',
         ]);
 
-        $query = Job::with(['advertiser', 'category', 'location'])->active()->vacancy();
+        $query = Job::with(['advertiser', 'category', 'location'])->active();
+
+        match ($request->input('type')) {
+            'vacancy' => $query->vacancy(),
+            'resource' => $query->resource(),
+            default => null,
+        };
 
         // Keywords (support multiple terms)
         $keywords = $request->input('keywords') ?? $request->input('position') ?? null;
@@ -121,9 +127,7 @@ class JobSearchService
         $jobs = $query->paginate($perPage)->appends($filters);
         $locations = Location::query()
             ->whereHas('jobs', function ($q) {
-                $q->where(function ($qq) {
-                    $qq->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
-                });
+                $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'));
             })
             ->select('name')
             ->distinct()

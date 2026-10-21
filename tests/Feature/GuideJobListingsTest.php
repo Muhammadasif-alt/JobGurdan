@@ -66,6 +66,7 @@ it('gives each salary and from-Pakistan guide its own job listing', function () 
         'Apprenticeship Applicant — Apprenticeship.gov Job Finder (Check Entry Requirements)',
         'Elevator Constructor Applicant — NEIEP Ranked Hiring List Information',
         'Construction Laborer Applicant — Laborers Training School Waiting List Information',
+        'Remote Customer Support - Employ Florida Marketplace (Florida)',
         'Bug Bounty Learner - HackerOne Getting Started Guide (Karachi, Sindh)',
         'Virtual Assistant - PhilJobNet (Manila, Philippines)',
         'Online Tutor - New Jersey Department of Labor Career Services (New Jersey)',

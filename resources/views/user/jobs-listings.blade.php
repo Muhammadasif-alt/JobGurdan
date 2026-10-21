@@ -763,6 +763,15 @@
             @endif
         </div>
         <div class="sort-by">
+            <span>Type:</span>
+            <select id="typeSelect" onchange="window.location = this.value">
+                <option value="{{ request()->fullUrlWithQuery(['type' => null, 'page' => null]) }}"
+                    {{ request('type') ? '' : 'selected' }}>All</option>
+                <option value="{{ request()->fullUrlWithQuery(['type' => 'vacancy', 'page' => null]) }}"
+                    {{ request('type') == 'vacancy' ? 'selected' : '' }}>Vacancies</option>
+                <option value="{{ request()->fullUrlWithQuery(['type' => 'resource', 'page' => null]) }}"
+                    {{ request('type') == 'resource' ? 'selected' : '' }}>Official resources</option>
+            </select>
             <span>Sort By:</span>
             <select id="sortSelect">
                 <option value="{{ request()->fullUrlWithQuery(['sort' => 'newest']) }}"
@@ -789,7 +798,7 @@
                     </div>
                     <span class="job-card-badge {{ ($job->employment_type ?? '') == 'Part Time' ? 'yellow' : 'green' }}">
                         <i class="icon-material-outline-business-center"></i>
-                        {{ $job->employment_type ?? 'Full Time' }}
+                        {{ $job->isResource() ? 'Official resource' : ($job->employment_type ?? 'Full Time') }}
                     </span>
                 </div>
 

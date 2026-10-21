@@ -57,10 +57,21 @@ it('marks jobs under an aggregated company as resources and the rest as vacancie
         ->and(Job::resource()->pluck('position')->all())->toBe(['Job Seeker - City Job Board']);
 });
 
-it('keeps resources out of the jobs list and shows them on the portals page', function () {
+it('lists vacancies and labelled resources on /jobs, and filters them by type', function () {
     makeVacancyAndResource();
 
-    $this->get('/jobs')->assertOk()->assertSee('Platform Engineer')->assertDontSee('Job Seeker - City Job Board');
+    $this->get('/jobs')
+        ->assertOk()
+        ->assertSee('Platform Engineer')
+        ->assertSee('Job Seeker - City Job Board')
+        ->assertSee('Official resource');
+
+    $this->get('/jobs?type=vacancy')->assertOk()->assertSee('Platform Engineer')->assertDontSee('Job Seeker - City Job Board');
+    $this->get('/jobs?type=resource')->assertOk()->assertSee('Job Seeker - City Job Board')->assertDontSee('Platform Engineer');
+});
+
+it('shows resources on the portals page and keeps that page out of search', function () {
+    makeVacancyAndResource();
 
     $this->get('/job-portals')
         ->assertOk()
