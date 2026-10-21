@@ -2098,7 +2098,7 @@
                 <div class="lp-modal" tabindex="-1">
                     <button type="button" class="lp-close" id="lpClose" aria-label="Close">&times;</button>
                     <div class="lp-icon"><i class="icon-feather-briefcase"></i></div>
-                    <h2 id="lpTitle">Save Jobs and Get Alerts — Free</h2>
+                    <h2 id="lpTitle">Save Jobs and Get Alerts for Free</h2>
                     <p>Create a free account to save listings and get job alerts by email. You apply on each employer's own website; no account is needed to read a listing.</p>
                     <a href="{{ route('login') }}" class="lp-cta">Sign In</a>
                     <a href="{{ route('register') }}" class="lp-secondary">Don't have an account? Register free</a>

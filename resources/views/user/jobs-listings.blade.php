@@ -587,13 +587,13 @@
 
 <style>
     .jb-top { background: #fff; border-bottom: 1px solid #e5e7eb; padding: 18px 0 14px; }
-    .jb-top form { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; align-items: center; }
-    .jb-top .jb-search { flex: 1 1 360px; max-width: 520px; height: 46px; border: 1px solid #cfd4dc; border-radius: 6px; padding: 0 14px; font-size: 15px; }
+    .jb-top form { display: flex !important; flex-wrap: wrap; gap: 12px; justify-content: center; align-items: center; margin: 0; }
+    .jb-top .jb-search { flex: 0 1 460px !important; width: 460px !important; max-width: 100% !important; margin: 0 !important; height: 46px; border: 1px solid #cfd4dc; border-radius: 6px; padding: 0 14px; font-size: 15px; }
     .jb-top .jb-search:focus, .jb-top .jb-loc:focus { outline: none; border-color: #2f7fc9; box-shadow: 0 0 0 3px rgba(47,127,201,.15); }
-    .jb-top .jb-loc { height: 46px; min-width: 190px; border: 1px solid #cfd4dc; border-radius: 6px; padding: 0 12px; font-size: 15px; background: #fff; }
-    .jb-top .jb-find { height: 46px; padding: 0 26px; border: 0; border-radius: 999px; background: #2f7fc9; color: #fff; font-weight: 700; font-size: 15px; cursor: pointer; }
+    .jb-top .jb-loc { flex: 0 0 210px !important; width: 210px !important; max-width: 100% !important; margin: 0 !important; height: 46px; min-width: 190px; border: 1px solid #cfd4dc; border-radius: 6px; padding: 0 12px; font-size: 15px; background: #fff; }
+    .jb-top .jb-find { flex: 0 0 auto !important; width: auto !important; margin: 0 !important; height: 46px; padding: 0 26px; border: 0; border-radius: 999px; background: #2f7fc9; color: #fff; font-weight: 700; font-size: 15px; cursor: pointer; }
     .jb-top .jb-find:hover { background: #1b3a6b; }
-    .jb-top .jb-alert { height: 46px; display: inline-flex; align-items: center; padding: 0 24px; border: 1px solid #cfd4dc; border-radius: 999px; color: #5b6472; font-weight: 700; font-size: 15px; text-decoration: none; }
+    .jb-top .jb-alert { flex: 0 0 auto !important; width: auto !important; margin: 0 !important; height: 46px; display: inline-flex; align-items: center; padding: 0 24px; border: 1px solid #cfd4dc; border-radius: 999px; color: #5b6472; font-weight: 700; font-size: 15px; text-decoration: none; }
     .jb-top .jb-alert:hover { border-color: #1b3a6b; color: #1b3a6b; }
     .jb-note { text-align: center; font-size: 13.5px; color: #5b6472; margin: 12px 0 0; }
     .jb-note a { color: #1b3a6b; font-weight: 600; }
@@ -774,7 +774,7 @@
                     <a href="{{ route('jobs.show', \Illuminate\Support\Str::slug($job->position . '-' . ($job->location->name ?? ''))) }}" class="jb-row">
                         <h2>{{ $job->position }}</h2>
                         <p class="who">{{ $job->advertiser->name ?? 'Employer' }}@if ($job->location), {{ $job->location->name }}@endif</p>
-                        @php($jbDesc = \Illuminate\Support\Str::limit(trim(preg_replace('/\s+/', ' ', html_entity_decode(strip_tags((string) $job->description)))), 190))
+                        @php($jbDesc = \Illuminate\Support\Str::limit(trim(preg_replace('/\s+/', ' ', html_entity_decode(strip_tags(preg_replace('/<[^>]+>/', ' ', (string) $job->description))))), 190))
                         @if ($jbDesc !== '')
                             <p class="desc">{{ $jbDesc }}</p>
                         @endif
