@@ -70,6 +70,16 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Nationwide', 'country' => 'Ireland']
         );
 
+        $kenya = Location::firstOrCreate(
+            ['name' => 'Kenya'],
+            ['area' => 'Nationwide', 'country' => 'Kenya']
+        );
+
+        $philippines = Location::firstOrCreate(
+            ['name' => 'Philippines'],
+            ['area' => 'Nationwide', 'country' => 'Philippines']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -858,6 +868,50 @@ class GuideJobListingsSeeder extends Seeder
                 'url' => 'https://www.publicjobs.ie/en/',
                 'keywords' => 'data analyst jobs dublin, junior data analyst jobs ireland, publicjobs ie, data analyst requirements dublin',
                 'note' => '<p><strong>Note:</strong> employment permit and recruitment rules are set by the Irish Government, not by JobGader. This link opens an official public sector recruitment site; it is not an application form for one vacancy, and a listing on it does not guarantee hiring or a work permit.</p>',
+            ],
+            [
+                'category' => ['it-software', 'IT & Software'],
+                'advertiser' => ['Online Learning and Research Platforms (Aggregated)', 'online-platforms-aggregated'],
+                'location' => $pakistan,
+                'position' => 'Bug Bounty Learner - HackerOne Getting Started Guide (Karachi, Sindh)',
+                'intro' => 'HackerOne\'s own researcher page explains how to start hacking on programs that allow it. It is a learning page, not a vacancy, and a bug bounty is a reward for a qualifying report, not a salary.',
+                'items' => ['Test only the assets a program\'s policy lists as in scope', 'Not every program pays a reward; the security team decides', 'Identity verification, a tax form and a payment method are needed before a payout'],
+                'url' => 'https://www.hackerone.com/hackers/how-to-start-hacking',
+                'keywords' => 'bug bounty hunting karachi, bug bounty pakistan beginners, how to start bug bounty hunting, hackerone getting started',
+                'note' => '<p><strong>Note:</strong> program rules and payments are set by each security team and platform, not by JobGader. This link opens an official platform page; it is not an application form for a job, and it does not promise any reward or income.</p>',
+            ],
+            [
+                'category' => ['customer-support-admin', 'Customer Support & Admin'],
+                'advertiser' => ['Philippine Public Employers (Aggregated)', 'philippines-public-aggregated'],
+                'location' => $philippines,
+                'position' => 'Virtual Assistant - PhilJobNet (Manila, Philippines)',
+                'intro' => 'PhilJobNet is the job-matching portal of the Philippine Department of Labor and Employment, and it says jobseekers can create an account for free. Search it for assistant and administrative roles in Manila and read each requirement and schedule.',
+                'items' => ['Read whether a role is remote, hybrid or needs onsite training', 'Check the shift, because hours can follow a client\'s time zone', 'Never pay a fee to a recruiter or for training to be placed in a job'],
+                'url' => 'https://philjobnet.gov.ph/',
+                'keywords' => 'virtual assistant jobs manila, virtual assistant philippines beginners, remote assistant jobs manila, philjobnet',
+                'note' => '<p><strong>Note:</strong> this link opens an official government job portal. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['education-training', 'Education & Training'],
+                'advertiser' => ['US City and Public Employers (Aggregated)', 'usa-public-employers-aggregated'],
+                'location' => $usa,
+                'position' => 'Online Tutor - New Jersey Department of Labor Career Services (New Jersey)',
+                'intro' => 'The New Jersey Department of Labor career services page points to Job Source, the state\'s job search, and My Career NJ, a suite of career, job and training tools. Use them to compare tutoring work with school and college openings in the state.',
+                'items' => ['Platforms such as Tutor.com, Wyzant and Preply set their own eligibility rules', 'Compare the fee or commission before you set a rate', 'A platform approval does not guarantee student bookings'],
+                'url' => 'https://www.nj.gov/labor/career-services/',
+                'keywords' => 'online tutoring jobs new jersey, remote tutor jobs nj, new jersey department of labor, online tutor requirements',
+                'note' => '<p><strong>Note:</strong> this link opens an official state government page. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['marketing-media', 'Marketing & Media'],
+                'advertiser' => ['Kenyan Public Employers (Aggregated)', 'kenya-public-aggregated'],
+                'location' => $kenya,
+                'position' => 'Freelance Writer - Ajira Digital Programme (Nairobi, Kenya)',
+                'intro' => 'Ajira Digital is the Government of Kenya\'s programme site for digital work and freelancing. Read what it currently offers before you decide which training or online work route to follow.',
+                'items' => ['A first client is more likely with one clear service and two or three honest samples', 'Compare platform fees before you set a price', 'Never pay to be matched with a client'],
+                'url' => 'https://ajiradigital.go.ke/',
+                'keywords' => 'freelance writing jobs nairobi, freelance writing kenya beginners, online writing jobs kenya, ajira digital',
+                'note' => '<p><strong>Note:</strong> this link opens a Government of Kenya programme site. It is not an application form for one vacancy, and it does not guarantee clients or income.</p>',
             ],
             [
                 'category' => ['transport-logistics', 'Transport & Logistics'],

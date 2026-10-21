@@ -1,12 +1,6 @@
 <?php
 
 use App\Models\Blog;
-use Database\Seeders\SoftwareDeveloperJobsSeattleWashingtonBlogSeeder;
-use Database\Seeders\FrontEndDeveloperJobsManchesterEnglandBlogSeeder;
-use Database\Seeders\DataAnalystJobsDublinIrelandBlogSeeder;
-use Database\Seeders\WordPressDeveloperJobsAustinTexasBlogSeeder;
-use Database\Seeders\RemoteWordPressDeveloperJobsTorontoOntarioBlogSeeder;
-use Database\Seeders\JuniorWebDeveloperJobsChicagoNoDegreeBlogSeeder;
 use Database\Seeders\ApplyForTradeApprenticeshipBlogSeeder;
 use Database\Seeders\ApprenticeshipRankingListsBlogSeeder;
 use Database\Seeders\ApprenticeshipTestMathBasicsBlogSeeder;
@@ -18,9 +12,11 @@ use Database\Seeders\BestTradesSkillsGulfCountriesBlogSeeder;
 use Database\Seeders\BlueCollarJobsAbroadOver3000BlogSeeder;
 use Database\Seeders\BoilermakerApprenticeshipRequirementsBlogSeeder;
 use Database\Seeders\BringFamilyWorkingAbroadBlogSeeder;
+use Database\Seeders\BugBountyHuntingKarachiSindhBeginnersBlogSeeder;
 use Database\Seeders\CaregiverJobsUsaVisaSponsorshipBlogSeeder;
 use Database\Seeders\CleanerJobUkFromPakistanBlogSeeder;
 use Database\Seeders\CountriesHiringForeignWorkersBlogSeeder;
+use Database\Seeders\DataAnalystJobsDublinIrelandBlogSeeder;
 use Database\Seeders\DocumentsNeededToWorkAbroadBlogSeeder;
 use Database\Seeders\ElevatorApprenticeshipChicagoPhiladelphiaBostonBlogSeeder;
 use Database\Seeders\ElevatorApprenticeshipTestNeiepBlogSeeder;
@@ -28,7 +24,9 @@ use Database\Seeders\EmployerCancelsWorkVisaBlogSeeder;
 use Database\Seeders\EnglishLanguageRequirementsWorkingAbroadBlogSeeder;
 use Database\Seeders\FakeOverseasJobOfferBlogSeeder;
 use Database\Seeders\FindJobAbroadWithoutRecruiterBlogSeeder;
+use Database\Seeders\FreelanceWritingJobsNairobiKenyaBlogSeeder;
 use Database\Seeders\FreeOnlineCoursesJobAbroadBlogSeeder;
+use Database\Seeders\FrontEndDeveloperJobsManchesterEnglandBlogSeeder;
 use Database\Seeders\GulfVsEuropeForWorkBlogSeeder;
 use Database\Seeders\HgvDriverJobsUkVisaSponsorshipBlogSeeder;
 use Database\Seeders\HgvDriverJobUkFromPakistanBlogSeeder;
@@ -43,16 +41,19 @@ use Database\Seeders\JobEuropeNonEuCitizenBlogSeeder;
 use Database\Seeders\JobsAbroadFreeHousingFoodBlogSeeder;
 use Database\Seeders\JobsHiringNowHoustonTxBlogSeeder;
 use Database\Seeders\JobsInChicagoIlBlogSeeder;
+use Database\Seeders\JuniorWebDeveloperJobsChicagoNoDegreeBlogSeeder;
 use Database\Seeders\LaborersUnionEntranceExamBlogSeeder;
 use Database\Seeders\MechanicalReasoningQuestionsBlogSeeder;
 use Database\Seeders\MistakesApplyingJobsAbroadBlogSeeder;
 use Database\Seeders\MoveAbroadForWorkStepByStepBlogSeeder;
 use Database\Seeders\OneWeekBeforeApprenticeshipTestBlogSeeder;
 use Database\Seeders\OnlineJobsUsaFromPakistanBlogSeeder;
+use Database\Seeders\OnlineTutoringJobsNewJerseyBlogSeeder;
 use Database\Seeders\OperatingEngineersApprenticeshipTestBlogSeeder;
 use Database\Seeders\PartTimeJobsSeattleWaBlogSeeder;
 use Database\Seeders\PlumberApprenticeshipSeattleHoustonDetroitBlogSeeder;
 use Database\Seeders\PrepareOnlineJobInterviewAbroadBlogSeeder;
+use Database\Seeders\RemoteWordPressDeveloperJobsTorontoOntarioBlogSeeder;
 use Database\Seeders\ResumeForJobAbroadBlogSeeder;
 use Database\Seeders\RetakeApprenticeshipAptitudeTestBlogSeeder;
 use Database\Seeders\RightsForeignWorkersAbroadBlogSeeder;
@@ -61,6 +62,7 @@ use Database\Seeders\SendMoneyHomeWorkingAbroadBlogSeeder;
 use Database\Seeders\SheetMetalApprenticeshipClevelandPittsburghMinneapolisBlogSeeder;
 use Database\Seeders\SheetMetalWorkersAptitudeTestBlogSeeder;
 use Database\Seeders\SkilledTradesLongIslandHudsonValleyBlogSeeder;
+use Database\Seeders\SoftwareDeveloperJobsSeattleWashingtonBlogSeeder;
 use Database\Seeders\TopSkillsJobAbroadFastBlogSeeder;
 use Database\Seeders\TradesCareersUpstateNewYorkBlogSeeder;
 use Database\Seeders\TruckDriverSalaryUsaBlogSeeder;
@@ -68,6 +70,7 @@ use Database\Seeders\UaPlumberPipefitterApprenticeshipTestBlogSeeder;
 use Database\Seeders\UnionApprenticeshipsSouthernCaliforniaInlandEmpireBlogSeeder;
 use Database\Seeders\UnionApprenticeshipWaitlistsBlogSeeder;
 use Database\Seeders\VerifyOverseasJobOfferBlogSeeder;
+use Database\Seeders\VirtualAssistantJobsManilaPhilippinesBlogSeeder;
 use Database\Seeders\VisaSponsorshipCountriesSkilledWorkersBlogSeeder;
 use Database\Seeders\WarehouseOperativeJobsUkVisaSponsorshipBlogSeeder;
 use Database\Seeders\WarehouseOperativeSalaryUkBlogSeeder;
@@ -75,6 +78,7 @@ use Database\Seeders\WarehouseWorkerJobsUsaVisaSponsorshipBlogSeeder;
 use Database\Seeders\WhatIsVisaSponsorshipBlogSeeder;
 use Database\Seeders\WhatIsWorkPermitBlogSeeder;
 use Database\Seeders\WhatScoreNeededApprenticeshipTestBlogSeeder;
+use Database\Seeders\WordPressDeveloperJobsAustinTexasBlogSeeder;
 use Database\Seeders\WorkAbroadVsStayHomeBlogSeeder;
 use Database\Seeders\WorkVisaVsWorkPermitBlogSeeder;
 use Database\Seeders\WorkVisaWithoutAgentBlogSeeder;
@@ -125,6 +129,10 @@ dataset('abroadGuides', [
     'apprenticeship retake' => [RetakeApprenticeshipAptitudeTestBlogSeeder::class, ['seven days', 'six-month wait', 'cannot be retaken']],
     'apprenticeship score' => [WhatScoreNeededApprenticeshipTestBlogSeeder::class, ['cumulative WorkKeys score of 17', '35 of 45', 'minimum of 70%']],
     'apprenticeship week plan' => [OneWeekBeforeApprenticeshipTestBlogSeeder::class, ['Day 6', '35 reading, 35 mechanical and 30 maths', 'Apprenticeship.gov']],
+    'bug bounty karachi' => [BugBountyHuntingKarachiSindhBeginnersBlogSeeder::class, ['Veriff', '37 currencies', 'third-party account', 'two-factor authentication', 'entirely at their discretion']],
+    'virtual assistant manila' => [VirtualAssistantJobsManilaPhilippinesBlogSeeder::class, ['PhilJobNet', 'Makati', '25 Mbps', 'graveyard shift']],
+    'online tutoring nj' => [OnlineTutoringJobsNewJerseyBlogSeeder::class, ['5 Mbps', '75%', '33%', 'One-Stop Career Centers', 'H-1B']],
+    'freelance writing nairobi' => [FreelanceWritingJobsNairobiKenyaBlogSeeder::class, ['70,000 Kenyan shillings', '80% of the client-approved payment', '0% to 15%', 'three days']],
     'software seattle' => [SoftwareDeveloperJobsSeattleWashingtonBlogSeeder::class, ['$167,280', '$132,800', '$211,860', '$13,940']],
     'frontend manchester' => [FrontEndDeveloperJobsManchesterEnglandBlogSeeder::class, ['£27,000', '£60,000', 'not accepting applications for 2026', 'Find an apprenticeship']],
     'data analyst dublin' => [DataAnalystJobsDublinIrelandBlogSeeder::class, ['valid employment permit', 'SOC 2010']],
@@ -155,7 +163,7 @@ const OFFICIAL_HOSTS = [
     'www.udi.no', 'www.sem.admin.ch', 'jetprogramme.org', 'eures.europa.eu', 'reportfraud.ftc.gov',
     'reportfraud.police.uk', 'antifraudcentre-centreantifraude.ca', 'www.scamwatch.gov.au', 'beoe.gov.pk',
     'www.consumerfinance.gov', 'www.sbp.org.pk', 'find-and-update.company-information.service.gov.uk', 'www.freecodecamp.org', 'learn.microsoft.com', 'www.skillsbuild.org', 'academy.hubspot.com', 'www.open.edu', 'www.fairwork.gov.au', 'www.dol.gov', 'www.hse.gov.uk', 'www.mohre.gov.ae', 'complaint.nccia.gov.pk', 'www.hrsd.gov.sa', 'www.uscis.gov', 'home-affairs.ec.europa.eu', 'european-union.europa.eu', 'eures.europa.eu', 'www.france-visas.gouv.fr', 'employment-social-affairs.ec.europa.eu', 'www.bls.gov', 'www.nmc.org.uk',
-    'iw721.org', 'www.dli.mn.gov', 'www.ironworkers.org', 'www.neiep.org', 'www.lni.wa.gov', 'www.enterprise.gov.ie', 'developer.wordpress.org', 'developer.mozilla.org', 'www.onetonline.org', 'understand-digital-data-roles-skills.service.gov.uk', 'www.findapprenticeship.service.gov.uk', 'www.ncs.gov.in', 'www.gov.ie', 'www.publicjobs.ie', 'www.csa.ie', 'www.cso.ie', 'www.seattlepipetrades.org', 'ualocal32.com', 'www.plu68.com', 'www.plumbers98tc.org', 'lni.wa.gov', 'tsbpe.texas.gov', 'www.michigan.gov', 'cle33sheetmetal.org', 'sheetmetaltraining.org', 'sheetmetalapprenticetraining.com', 'www.smw10.org', 'dli.mn.gov', 'dol.ny.gov', 'www.ieetc.org', 'www.laett.com', 'www.ualocal364.com', 'www.wsctf.org', 'www.cnoett.org', 'www.ua373.com', 'neieprecruitment.org', 'iueclocal4.com', 'nycironworkers.org', 'www.ironworkers580.org', 'www.ironworkers12.org', 'chicago.taleo.net', 'www.transitchicago.com', 'www.cps.edu', 'ides.illinois.gov', 'illinoisjoblink.illinois.gov', 'www.houstontx.gov', 'www.governmentjobs.com', 'jobs.ridemetro.org', 'hrrm.harriscountytx.gov', 'www.workintexas.com', 'www.seattle.gov', 'www.washington.edu', 'hfs.uw.edu', 'www.worksourcewa.com', 'www.electricaltrainingalliance.org', 'www.etasv.org', 'nietc.org', 'www.oregon.gov', 'www.laborerstrainingschool.com', 'sm88jatc.org', 'smw20training.com', 'www.smart18ecwi.org', 'www.socalsma.org', 'www.sheetmetal-iti.org', 'ua.org', 'www.pftf597.org', 'www.ua190.org', 'www.ualocal467.org', 'sajac-boilermakers.org', 'boilermaker.ca', '555.boilermaker.ca', 'www.dir.ca.gov', 'boilermakers.org', 'www.bnap.com', 'www.liuna.org', 'www.liunatraining.org', 'www.njlaborers.org', 'liunaminnesota.org', 'www.iuoe.org', 'local150.org', 'www.local49training.org', 'www.apprenticeship.gov', 'www.osha.gov', 'openstax.org',
+    'iw721.org', 'www.dli.mn.gov', 'www.ironworkers.org', 'www.neiep.org', 'www.hackerone.com', 'hackerone.com', 'docs.hackerone.com', 'www.bugcrowd.com', 'docs.bugcrowd.com', 'portswigger.net', 'philjobnet.gov.ph', 'www.tutor.com', 'support.wyzant.com', 'preply.com', 'www.nj.gov', 'support.upwork.com', 'help.fiverr.com', 'www.lni.wa.gov', 'www.enterprise.gov.ie', 'developer.wordpress.org', 'developer.mozilla.org', 'www.onetonline.org', 'understand-digital-data-roles-skills.service.gov.uk', 'www.findapprenticeship.service.gov.uk', 'www.ncs.gov.in', 'www.gov.ie', 'www.publicjobs.ie', 'www.csa.ie', 'www.cso.ie', 'www.seattlepipetrades.org', 'ualocal32.com', 'www.plu68.com', 'www.plumbers98tc.org', 'lni.wa.gov', 'tsbpe.texas.gov', 'www.michigan.gov', 'cle33sheetmetal.org', 'sheetmetaltraining.org', 'sheetmetalapprenticetraining.com', 'www.smw10.org', 'dli.mn.gov', 'dol.ny.gov', 'www.ieetc.org', 'www.laett.com', 'www.ualocal364.com', 'www.wsctf.org', 'www.cnoett.org', 'www.ua373.com', 'neieprecruitment.org', 'iueclocal4.com', 'nycironworkers.org', 'www.ironworkers580.org', 'www.ironworkers12.org', 'chicago.taleo.net', 'www.transitchicago.com', 'www.cps.edu', 'ides.illinois.gov', 'illinoisjoblink.illinois.gov', 'www.houstontx.gov', 'www.governmentjobs.com', 'jobs.ridemetro.org', 'hrrm.harriscountytx.gov', 'www.workintexas.com', 'www.seattle.gov', 'www.washington.edu', 'hfs.uw.edu', 'www.worksourcewa.com', 'www.electricaltrainingalliance.org', 'www.etasv.org', 'nietc.org', 'www.oregon.gov', 'www.laborerstrainingschool.com', 'sm88jatc.org', 'smw20training.com', 'www.smart18ecwi.org', 'www.socalsma.org', 'www.sheetmetal-iti.org', 'ua.org', 'www.pftf597.org', 'www.ua190.org', 'www.ualocal467.org', 'sajac-boilermakers.org', 'boilermaker.ca', '555.boilermaker.ca', 'www.dir.ca.gov', 'boilermakers.org', 'www.bnap.com', 'www.liuna.org', 'www.liunatraining.org', 'www.njlaborers.org', 'liunaminnesota.org', 'www.iuoe.org', 'local150.org', 'www.local49training.org', 'www.apprenticeship.gov', 'www.osha.gov', 'openstax.org',
     'www.fmcsa.dot.gov', 'www.irs.gov', 'reportfraud.ftc.gov', 'jobsearch.gov.au', 'www.jobs.nhs.uk', 'seasonaljobs.dol.gov', 'travel.state.gov', 'europass.europa.eu', 'nationalcareers.service.gov.uk',
 ];
 
@@ -258,6 +266,10 @@ it('cross-links only to guides that exist once they are all seeded', function ()
         WhatScoreNeededApprenticeshipTestBlogSeeder::class,
         OneWeekBeforeApprenticeshipTestBlogSeeder::class,
         ApplyForTradeApprenticeshipBlogSeeder::class,
+        BugBountyHuntingKarachiSindhBeginnersBlogSeeder::class,
+        VirtualAssistantJobsManilaPhilippinesBlogSeeder::class,
+        OnlineTutoringJobsNewJerseyBlogSeeder::class,
+        FreelanceWritingJobsNairobiKenyaBlogSeeder::class,
         SoftwareDeveloperJobsSeattleWashingtonBlogSeeder::class,
         FrontEndDeveloperJobsManchesterEnglandBlogSeeder::class,
         DataAnalystJobsDublinIrelandBlogSeeder::class,
