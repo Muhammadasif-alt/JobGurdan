@@ -731,7 +731,7 @@
             </div>
             <div class="stat">
                 <strong>{{ number_format($heroStats['total_companies'] ?? 0) }}+</strong>
-                <span>Employers</span>
+                <span>Employers &amp; Portals</span>
             </div>
             <div class="stat">
                 <strong>{{ number_format($heroStats['total_locations'] ?? 50) }}+</strong>

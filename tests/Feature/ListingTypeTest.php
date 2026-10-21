@@ -81,14 +81,14 @@ it('shows resources on the portals page and keeps that page out of search', func
         ->assertSee('content="noindex, follow"', false);
 });
 
-it('counts only vacancies and real employers in the job stats', function () {
+it('counts every active listing and its source in the job stats, matching the list total', function () {
     makeVacancyAndResource();
 
     $html = $this->get('/jobs')->assertOk()->getContent();
     preg_match('#<strong>([\d,]+)\+</strong>\s*<span>Active Jobs</span>#', $html, $jobs);
-    preg_match('#<strong>([\d,]+)\+</strong>\s*<span>Employers</span>#', $html, $employers);
+    preg_match('#<strong>([\d,]+)\+</strong>\s*<span>Employers &amp; Portals</span>#', $html, $employers);
 
-    expect($jobs[1])->toBe('1')->and($employers[1])->toBe('1');
+    expect($jobs[1])->toBe('2')->and($employers[1])->toBe('2');
 });
 
 it('shows the newest jobs on the homepage with resources labelled, and keeps resources out of the job sitemap', function () {

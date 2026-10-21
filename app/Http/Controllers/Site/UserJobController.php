@@ -48,9 +48,7 @@ class UserJobController extends Controller
         $stats = Cache::remember('home.stats', 600, function () {
             return [
                 'total_jobs' => (int) DB::table('jobs')
-                    ->where(function ($q) {
-                        $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
-                    })
+                    ->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))
                     ->selectRaw(self::dedupedJobCount('c'))
                     ->value('c'),
                 'total_categories' => Category::count(),
@@ -62,7 +60,7 @@ class UserJobController extends Controller
                     ->where('country', '!=', '')
                     ->distinct()
                     ->count('country'),
-                'total_companies' => Advertiser::whereHas('jobs', fn ($q) => $q->active()->vacancy())->count(),
+                'total_companies' => Advertiser::whereHas('jobs', fn ($q) => $q->active())->count(),
             ];
         });
 
@@ -189,12 +187,10 @@ class UserJobController extends Controller
         $heroStats = Cache::remember('jobs.heroStats', 600, function () {
             return [
                 'total_jobs' => (int) DB::table('jobs')
-                    ->where(function ($q) {
-                        $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
-                    })
+                    ->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))
                     ->selectRaw(self::dedupedJobCount('c'))
                     ->value('c'),
-                'total_companies' => Advertiser::whereHas('jobs', fn ($q) => $q->active()->vacancy())->count(),
+                'total_companies' => Advertiser::whereHas('jobs', fn ($q) => $q->active())->count(),
                 'total_locations' => Location::select('name')->distinct()->count('name'),
             ];
         });
@@ -472,13 +468,11 @@ class UserJobController extends Controller
         $heroStats = Cache::remember('categoriesPage.heroStats', 600, function () {
             return [
                 'total_jobs' => (int) DB::table('jobs')
-                    ->where(function ($q) {
-                        $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
-                    })
+                    ->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))
                     ->selectRaw(self::dedupedJobCount('c'))
                     ->value('c'),
                 'total_categories' => Category::count(),
-                'total_companies' => Advertiser::whereHas('jobs', fn ($q) => $q->active()->vacancy())->count(),
+                'total_companies' => Advertiser::whereHas('jobs', fn ($q) => $q->active())->count(),
                 'total_locations' => Location::select('name')->distinct()->count('name'),
             ];
         });
