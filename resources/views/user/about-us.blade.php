@@ -1236,6 +1236,43 @@
         </div>
     </section>
 
+    {{-- Team --}}
+    <section class="about-section">
+        <div class="container">
+            <div class="about-section-head">
+                <span class="tag">The Team</span>
+                <h2>The people behind JobGader</h2>
+            </div>
+            <div class="row">
+                @foreach (config('site.team') as $member)
+                    <div class="col-md-4 mb-4">
+                        <div class="team-card">
+                            @if ($member['photo'])
+                                <img src="{{ asset($member['photo']) }}" alt="{{ $member['name'] }}" loading="lazy" decoding="async" width="96" height="96">
+                            @else
+                                <span class="team-initial" aria-hidden="true">{{ mb_strtoupper(mb_substr($member['name'], 0, 1)) }}</span>
+                            @endif
+                            <h3>{{ $member['name'] }}</h3>
+                            <p class="team-role">{{ $member['role'] }}</p>
+                            <p>{{ $member['bio'] }}</p>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+    <style>
+        .team-card { background: #fff; border: 1px solid #e3e8ef; border-radius: 12px; padding: 24px; text-align: center; height: 100%; }
+        .team-card img, .team-card .team-initial { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; margin: 0 auto 14px; }
+        .team-card .team-initial { display: flex; align-items: center; justify-content: center; background: #1b3a6b; color: #fff; font-size: 36px; font-weight: 700; }
+        .team-card h3 { font-size: 18px; margin: 0 0 4px; color: #1b3a6b; }
+        .team-card .team-role { font-weight: 600; color: #666; margin-bottom: 10px; }
+        .team-card p { font-size: 14px; line-height: 1.6; margin: 0; }
+        html.dark-mode .team-card { background: var(--site-card, #1c2230); border-color: var(--site-border, #2b3342); }
+        html.dark-mode .team-card h3 { color: #fff; }
+        html.dark-mode .team-card .team-role, html.dark-mode .team-card p { color: var(--site-muted, #b8c0cc); }
+    </style>
+
     {{-- Industries We Serve --}}
     <section class="about-section gray">
         <div class="container">

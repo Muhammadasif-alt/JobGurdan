@@ -46,10 +46,21 @@ return [
     */
 
     'owner' => [
-        'name' => env('SITE_OWNER_NAME'),
+        'name' => env('SITE_OWNER_NAME', 'Muhammad Asif'),
         'role' => env('SITE_OWNER_ROLE', 'Founder and editor'),
-        'location' => env('SITE_OWNER_LOCATION'),
+        'location' => env('SITE_OWNER_LOCATION', 'Pakistan'),
         'address' => env('SITE_OWNER_ADDRESS'),
+    ],
+
+    /*
+     * The people who run the site, shown on the About page. Add a photo path
+     * relative to public/ (for example public/team/ali.jpg) only when the file
+     * is a real photo of that person; without one the card shows initials.
+     */
+    'team' => [
+        ['name' => 'Muhammad Asif', 'role' => 'Founder and Editor', 'photo' => null, 'bio' => 'Muhammad Asif is the founder and editor of JobGader. He publishes the job listings and guides and looks after the site development. He has worked in Pakistan for three years.'],
+        ['name' => 'Ali Rehman', 'role' => 'Content Writer', 'photo' => null, 'bio' => 'Ali Rehman writes the career guides and researches job listings for JobGader. He has worked in Pakistan for three years.'],
+        ['name' => 'Abdullah Zeheer', 'role' => 'Social Media Manager', 'photo' => null, 'bio' => 'Abdullah Zeheer manages the JobGader posts on LinkedIn, Facebook and Pinterest. He has worked in Pakistan for three years.'],
     ],
 
     /*
