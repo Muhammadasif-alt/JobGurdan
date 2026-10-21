@@ -914,6 +914,17 @@ class GuideJobListingsSeeder extends Seeder
                 'note' => '<p><strong>Note:</strong> this link opens a Government of Kenya programme site. It is not an application form for one vacancy, and it does not guarantee clients or income.</p>',
             ],
             [
+                'category' => ['customer-support-admin', 'Customer Support & Admin'],
+                'advertiser' => ['US City and Public Employers (Aggregated)', 'usa-public-employers-aggregated'],
+                'location' => $usa,
+                'position' => 'Remote Customer Support - Employ Florida Marketplace (Florida)',
+                'intro' => 'Employ Florida Marketplace is Florida\'s state job search site, run through the CareerSource network. Search it for remote customer support and service roles and read each posting\'s location rules, schedule and equipment needs.',
+                'items' => ['Check whether a remote role needs you to live in Florida', 'Ask who pays for training, licensing and equipment before you accept', 'Never pay for equipment, a background check or training before a written offer'],
+                'url' => 'https://www.employflorida.com/',
+                'keywords' => 'remote customer support jobs florida, work from home customer service florida, employ florida marketplace, remote customer service applications',
+                'note' => '<p><strong>Note:</strong> this link opens an official state job search site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
                 'category' => ['transport-logistics', 'Transport & Logistics'],
                 'advertiser' => ['UK Warehouse and Logistics Employers (Aggregated)', 'uk-warehouse-aggregated'],
                 'location' => $uk,
