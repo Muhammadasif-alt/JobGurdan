@@ -663,6 +663,8 @@
     html.dark-mode .jb-top .jb-field:focus-within { background: rgba(77,163,232,.10); }
     html.dark-mode .jb-top .jb-field i { color: #4da3e8; }
     html.dark-mode .jb-top .jb-search, html.dark-mode .jb-top .jb-loc { background: transparent !important; border: 0 !important; color: var(--site-text, #e5e7eb) !important; }
+    html.dark-mode .jb-top .jb-bar input.jb-search, html.dark-mode .jb-top .jb-bar select.jb-loc { background-color: transparent !important; border: 0 !important; box-shadow: none !important; }
+    html.dark-mode .jobs-hero p a { color: #6db6f2 !important; text-decoration: underline; }
     html.dark-mode .jb-top .jb-loc option { background: #181b22; color: #e5e7eb; }
     html.dark-mode .jb-top .jb-search::placeholder { color: var(--site-muted, #9ca3af) !important; }
     html.dark-mode .jb-board { background: var(--site-bg, #0f1115); border-color: var(--site-card-bd, #2a2f3a); }
