@@ -85,3 +85,8 @@ it('lays companies out four to a row and counts every active job in the open job
         ->and($html)->toMatch('#<strong>3\+</strong>\s*<span>Open Jobs</span>#')
         ->and($html)->toMatch('#<strong>1\+</strong>\s*<span>Employers</span>#');
 });
+
+it('keeps the Job Portals link out of the footer', function () {
+    expect(file_get_contents(resource_path('views/user/layouts/master.blade.php')))
+        ->not->toContain("route('jobs.portals')");
+});
