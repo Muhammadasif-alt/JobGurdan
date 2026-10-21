@@ -504,8 +504,8 @@
     .benefits-list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: min-content;
-        align-items: start;
+        grid-auto-rows: 1fr;
+        align-items: stretch;
         gap: 14px;
         align-content: start;
     }
@@ -518,8 +518,8 @@
         border-radius: 14px;
         padding: 18px 16px;
         text-align: left;
-        height: auto;
-        align-self: start;
+        height: 100%;
+        align-self: stretch;
         transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
     }
     .benefit-item:hover {
@@ -1163,7 +1163,7 @@
                     <div class="benefit-item">
                         <div class="ico"><i class="icon-feather-globe"></i></div>
                         <h4>{{ $coverage->countWord() }} Countries</h4>
-                        <p>{{ $coverage->shortList() }} &mdash; trucking, hospitality, care, construction, cleaning, marketing and software.</p>
+                        <p>Listings and guides for jobseekers looking at work in {{ $coverage->countWord() }} countries, from the US and UK to Pakistan and the Gulf.</p>
                     </div>
                     <div class="benefit-item">
                         <div class="ico"><i class="icon-feather-file-text"></i></div>
@@ -1403,45 +1403,6 @@
                     <p>Light pages that load quickly on a phone and a slow connection, because a lot of people searching for this work are not reading on fast broadband.</p>
                     <span class="press-badge">Fast on Mobile</span>
                 </article>
-            </div>
-
-            {{-- Standards strip --}}
-            <div class="press-strip" role="list" aria-label="Standards">
-                <div class="press-strip-item" role="listitem">
-                    <i class="icon-feather-shield"></i>
-                    <div>
-                        <strong>HTTPS Secured</strong>
-                        <span>Encrypted end to end</span>
-                    </div>
-                </div>
-                <div class="press-strip-item" role="listitem">
-                    <i class="icon-feather-check-circle"></i>
-                    <div>
-                        <strong>Source-Linked</strong>
-                        <span>Every listing links to its source</span>
-                    </div>
-                </div>
-                <div class="press-strip-item" role="listitem">
-                    <i class="icon-feather-globe"></i>
-                    <div>
-                        <strong>{{ $coverage->count() }} Countries</strong>
-                        <span>{{ $coverage->shortList() }}</span>
-                    </div>
-                </div>
-                <div class="press-strip-item" role="listitem">
-                    <i class="icon-feather-refresh-cw"></i>
-                    <div>
-                        <strong>Updated Weekly</strong>
-                        <span>New jobs and guides</span>
-                    </div>
-                </div>
-                <div class="press-strip-item" role="listitem">
-                    <i class="icon-feather-dollar-sign"></i>
-                    <div>
-                        <strong>No Fees</strong>
-                        <span>Free for job seekers</span>
-                    </div>
-                </div>
             </div>
 
             <div class="press-cta">

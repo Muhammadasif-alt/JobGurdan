@@ -11,3 +11,10 @@ it('shows the three team members and the owner on the About page', function () {
         ->assertSee('Social Media Manager')
         ->assertSee('from Pakistan');
 });
+
+it('no longer prints the standards strip and shows the founder photo', function () {
+    $this->get('/about-us')
+        ->assertOk()
+        ->assertDontSee('press-strip-item', false)
+        ->assertSee('public/team/muhammad-asif.jpg', false);
+});
