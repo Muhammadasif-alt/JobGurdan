@@ -91,10 +91,10 @@ it('counts only vacancies and real employers in the job stats', function () {
     expect($jobs[1])->toBe('1')->and($employers[1])->toBe('1');
 });
 
-it('keeps resources off the homepage grid and out of the job sitemap', function () {
+it('shows the newest jobs on the homepage with resources labelled, and keeps resources out of the job sitemap', function () {
     makeVacancyAndResource();
 
-    $this->get('/')->assertOk()->assertSee('Platform Engineer')->assertDontSee('Job Seeker - City Job Board');
+    $this->get('/')->assertOk()->assertSee('Platform Engineer')->assertSee('Job Seeker - City Job Board')->assertSee('Official resource');
 
     $this->get('/sitemap-jobs-1.xml')
         ->assertOk()

@@ -121,8 +121,8 @@ class UserJobController extends Controller
 
         // Latest openings for the homepage grid under the hero (4 per row x 2 rows).
         // Only the columns the card renders are selected — keeps the cached payload small.
-        $featuredJobs = Cache::remember('home.featuredJobs', 600, function () {
-            return Job::vacancy()->select(['id', 'position', 'employment_type', 'created_at', 'advertiser_id', 'location_id', 'category_id'])
+        $featuredJobs = Cache::remember('home.featuredJobs', 60, function () {
+            return Job::active()->select(['id', 'position', 'employment_type', 'listing_type', 'created_at', 'advertiser_id', 'location_id', 'category_id'])
                 ->with([
                     'advertiser:id,name,logo',
                     'location:id,name,area',

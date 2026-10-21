@@ -1405,7 +1405,7 @@
                                     <img src="{{ $job->advertiser?->logo_url ?? asset('public/user/images/jobimages.png') }}"
                                          alt="{{ $job->advertiser->name ?? 'Company' }} logo" loading="lazy" width="52" height="52">
                                 </div>
-                                <span class="type-badge">{{ $job->employment_type ?: 'Full Time' }}</span>
+                                <span class="type-badge">{{ $job->isResource() ? 'Official resource' : ($job->employment_type ?: 'Full Time') }}</span>
                             </div>
 
                             <h3>{{ $job->position }}</h3>
