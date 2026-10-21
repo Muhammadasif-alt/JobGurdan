@@ -656,6 +656,39 @@
     $jbUrl = fn (array $query) => route('jobs.index', array_filter(array_merge(request()->only(['position', 'location', 'category', 'employment', 'type', 'sort']), $query), fn ($v) => $v !== null && $v !== ''));
 @endphp
 
+<!-- Hero Section -->
+<section class="jobs-hero">
+    <div class="container">
+        <span class="eyebrow" data-aos="fade-down" data-aos-duration="600">
+            @if(request()->anyFilled(['position','location','area','postal_code']))
+                Search Results
+            @else
+                Job Search
+            @endif
+        </span>
+        <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Find Your Next <span class="accent">Career Move</span></h1>
+        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Current job openings across {{ $coverage->shortList() }}. Filter by location or category, then apply on the employer's own website. Free to read, no account needed. Looking for official job portals instead? See <a href="{{ route('jobs.portals') }}">Job Portals &amp; Resources</a>.</p>
+        <div class="hero-stats">
+            <div class="stat">
+                <strong>{{ number_format($heroStats['total_jobs'] ?? 0) }}+</strong>
+                <span>Active Jobs</span>
+            </div>
+            <div class="stat">
+                <strong>{{ number_format($heroStats['total_companies'] ?? 0) }}+</strong>
+                <span>Employers</span>
+            </div>
+            <div class="stat">
+                <strong>{{ number_format($heroStats['total_locations'] ?? 50) }}+</strong>
+                <span>Locations</span>
+            </div>
+            <div class="stat">
+                <strong>100%</strong>
+                <span>Free to Apply</span>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="jb-top">
     <div class="container">
         <form method="GET" action="{{ route('jobs.index') }}" id="jobSearchForm">
@@ -675,13 +708,6 @@
             @endif
             <button type="submit" class="jb-find">Find Jobs</button>
         </form>
-        <h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">{{ $jbHasFilter ? 'Job Search Results' : 'Browse Jobs' }}</h1>
-        <p class="jb-note">Current job openings across {{ $coverage->shortList() }}. Apply on the employer's own website. Free to read, no account needed. Looking for official job portals instead? See <a href="{{ route('jobs.portals') }}">Job Portals &amp; Resources</a>.</p>
-        <div class="jb-stats">
-            <div class="stat"><strong>{{ number_format($heroStats['total_jobs'] ?? 0) }}+</strong> <span>Active Jobs</span></div>
-            <div class="stat"><strong>{{ number_format($heroStats['total_companies'] ?? 0) }}+</strong> <span>Employers</span></div>
-            <div class="stat"><strong>{{ number_format($heroStats['total_locations'] ?? 50) }}+</strong> <span>Locations</span></div>
-        </div>
     </div>
 </section>
 
