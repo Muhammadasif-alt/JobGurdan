@@ -514,7 +514,7 @@
                 if ($initials === '') { $initials = '?'; }
                 $palette  = $palettes[crc32($company->name) % count($palettes)];
             @endphp
-            <div class="col-xl-4 col-md-6 col-sm-12 company-card-col">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 company-card-col">
                 <a href="{{ route('companies.show', $company->id) }}" class="company-card"
                    style="--accent-1: {{ $palette[0] }}; --accent-2: {{ $palette[1] }};">
                     <div class="company-card-head">

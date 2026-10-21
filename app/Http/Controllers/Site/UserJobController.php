@@ -750,9 +750,7 @@ class UserJobController extends Controller
 
         $stats = [
             'total_companies' => Advertiser::whereHas('jobs', fn ($q) => $q->active()->vacancy())->count(),
-            'total_jobs' => Job::where(function ($q) {
-                $q->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');
-            })->count(),
+            'total_jobs' => Job::active()->count(),
             'hiring_now' => Advertiser::whereHas('jobs', function ($q) {
                 $q->where(function ($qq) {
                     $qq->where(fn ($status) => $status->where('status', 'active')->orWhereNull('status'))->where('listing_type', 'vacancy');

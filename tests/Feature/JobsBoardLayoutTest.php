@@ -77,3 +77,11 @@ it('keeps the listing type toggle working beside the new filters', function () {
 it('shows a clear message and a way back when nothing matches', function () {
     $this->get('/jobs?category=no-such-category')->assertOk()->assertSee('No jobs match your search')->assertSee('Clear all filters');
 });
+
+it('lays companies out four to a row and counts every active job in the open jobs stat', function () {
+    $html = $this->get('/companies')->assertOk()->getContent();
+
+    expect($html)->toContain('col-xl-3 col-lg-4 col-md-6 col-sm-12 company-card-col')
+        ->and($html)->toMatch('#<strong>3\+</strong>\s*<span>Open Jobs</span>#')
+        ->and($html)->toMatch('#<strong>1\+</strong>\s*<span>Employers</span>#');
+});
