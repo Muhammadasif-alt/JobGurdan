@@ -626,18 +626,18 @@
 
     .jb-list-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; padding: 14px 24px; border-bottom: 1px solid #eceef1; font-size: 14px; color: #5b6472; }
     .jb-list-head select { border: 1px solid #cfd4dc; border-radius: 5px; padding: 5px 8px; font-size: 13.5px; background: #fff; }
-    .jb-rows { display: block; }
-    .jb-row { display: block; position: relative; padding: 24px 24px 22px; border-bottom: 1px solid #eceef1; text-decoration: none !important; color: inherit; }
-    .jb-row:hover { background: #fafbfd; box-shadow: inset 3px 0 0 #2f7fc9; }
-    .jb-row h2 { font-size: 19px; font-weight: 700; margin: 0 0 6px; color: #111827; line-height: 1.3; }
-    .jb-row .who { font-size: 15.5px; color: #4b5563; margin: 0 0 10px; }
-    .jb-row .desc { font-size: 14px; color: #6b7280; line-height: 1.55; margin: 0 0 12px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .jb-row .facts { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 13.5px; color: #6b7280; margin-bottom: 12px; }
+    .jb-rows { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; padding: 22px 24px 8px; }
+    .jb-row { display: flex; flex-direction: column; position: relative; padding: 20px 20px 18px; border: 1px solid #e5e7eb; border-radius: 12px; background: #fff; text-decoration: none !important; color: inherit; transition: box-shadow .15s ease, border-color .15s ease, transform .15s ease; }
+    .jb-row:hover { border-color: #2f7fc9; box-shadow: 0 8px 22px rgba(27,58,107,.12); transform: translateY(-2px); }
+    .jb-row h2 { font-size: 17px; font-weight: 700; margin: 0 0 6px; color: #111827; line-height: 1.35; }
+    .jb-row .who { font-size: 14px; color: #4b5563; margin: 0 0 10px; }
+    .jb-row .desc { font-size: 13.5px; color: #6b7280; line-height: 1.55; margin: 0 0 12px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .jb-row .facts { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b7280; margin: auto 0 12px; padding-top: 4px; }
     .jb-row .facts span { display: inline-flex; gap: 6px; align-items: center; }
     .jb-chips { display: flex; flex-wrap: wrap; gap: 8px; }
-    .jb-chip { background: #f1f3f5; border-radius: 999px; padding: 6px 14px; font-size: 12.5px; color: #374151; }
+    .jb-chip { background: #f1f3f5; border-radius: 999px; padding: 5px 12px; font-size: 12px; color: #374151; }
     .jb-chip.res { background: #e6f4ea; color: #166534; font-weight: 700; }
-    .jb-empty { padding: 60px 24px; text-align: center; color: #6b7280; }
+    .jb-empty { grid-column: 1 / -1; padding: 60px 24px; text-align: center; color: #6b7280; }
 
     .jb-guide { display: block; padding: 14px 0; border-bottom: 1px solid #eceef1; text-decoration: none !important; }
     .jb-guide strong { display: block; color: #111827; font-size: 15px; line-height: 1.35; margin-bottom: 4px; }
@@ -647,8 +647,9 @@
     .jb-side-card { margin-top: 26px; padding: 16px; background: #f7f8fa; border-radius: 8px; font-size: 13.5px; color: #4b5563; line-height: 1.55; }
     .jb-side-card a { color: #1b3a6b; font-weight: 700; }
 
+    @media (max-width: 1599px) { .jb-rows { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
     @media (max-width: 1199px) { .jb-board { grid-template-columns: 260px minmax(0, 1fr); } .jb-side { grid-column: 1 / -1; border-left: 0; border-top: 1px solid #eceef1; } }
-    @media (max-width: 767px) { .jb-board { grid-template-columns: 1fr; } .jb-filters { border-right: 0; border-bottom: 1px solid #eceef1; } .jb-col-head { padding: 18px 18px 14px; } .jb-row { padding: 20px 18px; } .jb-top .jb-find, .jb-top .jb-alert { flex: 1 1 140px; justify-content: center; } }
+    @media (max-width: 767px) { .jb-board { grid-template-columns: 1fr; } .jb-filters { border-right: 0; border-bottom: 1px solid #eceef1; } .jb-col-head { padding: 18px 18px 14px; } .jb-rows { grid-template-columns: 1fr; padding: 16px 14px 4px; } .jb-top .jb-find, .jb-top .jb-alert { flex: 1 1 140px; justify-content: center; } }
 </style>
 
 @php
