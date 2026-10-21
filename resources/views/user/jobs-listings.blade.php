@@ -593,8 +593,6 @@
     .jb-top .jb-loc { flex: 0 0 210px !important; width: 210px !important; max-width: 100% !important; margin: 0 !important; height: 46px; min-width: 190px; border: 1px solid #cfd4dc; border-radius: 6px; padding: 0 12px; font-size: 15px; background: #fff; }
     .jb-top .jb-find { flex: 0 0 auto !important; width: auto !important; margin: 0 !important; height: 46px; padding: 0 26px; border: 0; border-radius: 999px; background: #2f7fc9; color: #fff; font-weight: 700; font-size: 15px; cursor: pointer; }
     .jb-top .jb-find:hover { background: #1b3a6b; }
-    .jb-top .jb-alert { flex: 0 0 auto !important; width: auto !important; margin: 0 !important; height: 46px; display: inline-flex; align-items: center; padding: 0 24px; border: 1px solid #cfd4dc; border-radius: 999px; color: #5b6472; font-weight: 700; font-size: 15px; text-decoration: none; }
-    .jb-top .jb-alert:hover { border-color: #1b3a6b; color: #1b3a6b; }
     .jb-note { text-align: center; font-size: 13.5px; color: #5b6472; margin: 12px 0 0; }
     .jb-note a { color: #1b3a6b; font-weight: 600; }
     .jb-stats { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 26px; margin-top: 8px; font-size: 13px; color: #5b6472; }
@@ -649,7 +647,7 @@
 
     @media (max-width: 1599px) { .jb-rows { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
     @media (max-width: 1199px) { .jb-board { grid-template-columns: 260px minmax(0, 1fr); } .jb-side { grid-column: 1 / -1; border-left: 0; border-top: 1px solid #eceef1; } }
-    @media (max-width: 767px) { .jb-board { grid-template-columns: 1fr; } .jb-filters { border-right: 0; border-bottom: 1px solid #eceef1; } .jb-col-head { padding: 18px 18px 14px; } .jb-rows { grid-template-columns: 1fr; padding: 16px 14px 4px; } .jb-top .jb-find, .jb-top .jb-alert { flex: 1 1 140px; justify-content: center; } }
+    @media (max-width: 767px) { .jb-board { grid-template-columns: 1fr; } .jb-filters { border-right: 0; border-bottom: 1px solid #eceef1; } .jb-col-head { padding: 18px 18px 14px; } .jb-rows { grid-template-columns: 1fr; padding: 16px 14px 4px; } .jb-top .jb-find { flex: 1 1 140px; justify-content: center; } }
 </style>
 
 @php
@@ -676,7 +674,6 @@
                 <input type="hidden" name="type" value="{{ $jbType }}">
             @endif
             <button type="submit" class="jb-find">Find Jobs</button>
-            <a href="{{ route('seeker.job-alerts.create') }}" class="jb-alert">Create Alert</a>
         </form>
         <h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">{{ $jbHasFilter ? 'Job Search Results' : 'Browse Jobs' }}</h1>
         <p class="jb-note">Current job openings across {{ $coverage->shortList() }}. Apply on the employer's own website. Free to read, no account needed. Looking for official job portals instead? See <a href="{{ route('jobs.portals') }}">Job Portals &amp; Resources</a>.</p>

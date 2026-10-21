@@ -45,7 +45,7 @@ it('renders the three column board with filters, jobs and guides', function () {
     $this->get('/jobs')
         ->assertOk()
         ->assertSee('Find Jobs')
-        ->assertSee('Create Alert')
+        ->assertDontSee('Create Alert')
         ->assertSee('Filters')
         ->assertSee('Job Category')
         ->assertSee('Job Type')
