@@ -17,7 +17,7 @@ class JobSearchService
     {
         $filters = $request->only([
             'keywords', 'position', 'location', 'area', 'postal_code', 'sort',
-            'category', 'job_type', 'salary_min', 'salary_max', 'experience_level', 'per_page', 'type',
+            'category', 'job_type', 'salary_min', 'salary_max', 'experience_level', 'per_page', 'type', 'employment',
         ]);
 
         $query = Job::with(['advertiser', 'category', 'location'])->active();
@@ -60,6 +60,10 @@ class JobSearchService
         // Category
         if ($category = $request->input('category')) {
             $query->filterCategory($category);
+        }
+
+        if ($employment = $request->input('employment')) {
+            $query->where('employment_type', 'like', '%'.$employment.'%');
         }
 
         // Job type

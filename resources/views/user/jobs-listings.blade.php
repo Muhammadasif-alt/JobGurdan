@@ -585,260 +585,255 @@
     }
 </style>
 
-<!-- Hero Section -->
-<section class="jobs-hero">
+<style>
+    .jb-top { background: #fff; border-bottom: 1px solid #e5e7eb; padding: 18px 0 14px; }
+    .jb-top form { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; align-items: center; }
+    .jb-top .jb-search { flex: 1 1 360px; max-width: 520px; height: 46px; border: 1px solid #cfd4dc; border-radius: 6px; padding: 0 14px; font-size: 15px; }
+    .jb-top .jb-search:focus, .jb-top .jb-loc:focus { outline: none; border-color: #2f7fc9; box-shadow: 0 0 0 3px rgba(47,127,201,.15); }
+    .jb-top .jb-loc { height: 46px; min-width: 190px; border: 1px solid #cfd4dc; border-radius: 6px; padding: 0 12px; font-size: 15px; background: #fff; }
+    .jb-top .jb-find { height: 46px; padding: 0 26px; border: 0; border-radius: 999px; background: #2f7fc9; color: #fff; font-weight: 700; font-size: 15px; cursor: pointer; }
+    .jb-top .jb-find:hover { background: #1b3a6b; }
+    .jb-top .jb-alert { height: 46px; display: inline-flex; align-items: center; padding: 0 24px; border: 1px solid #cfd4dc; border-radius: 999px; color: #5b6472; font-weight: 700; font-size: 15px; text-decoration: none; }
+    .jb-top .jb-alert:hover { border-color: #1b3a6b; color: #1b3a6b; }
+    .jb-note { text-align: center; font-size: 13.5px; color: #5b6472; margin: 12px 0 0; }
+    .jb-note a { color: #1b3a6b; font-weight: 600; }
+    .jb-stats { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 26px; margin-top: 8px; font-size: 13px; color: #5b6472; }
+    .jb-stats .stat { display: inline-flex; gap: 6px; align-items: baseline; }
+    .jb-stats strong { color: #1b3a6b; font-size: 15px; }
+
+    .jb-board { display: grid; grid-template-columns: 290px minmax(0, 1fr) 330px; gap: 0; background: #fff; border-top: 0; }
+    .jb-col { min-width: 0; }
+    .jb-col-head { background: #f7f7f8; padding: 26px 24px 20px; margin: 0; font-size: 24px; font-weight: 700; color: #1f2937; }
+    .jb-filters { border-right: 1px solid #eceef1; }
+    .jb-side { border-left: 1px solid #eceef1; }
+    .jb-filters-body, .jb-side-body { padding: 20px 20px 28px; }
+    .jb-toggle { display: grid; grid-template-columns: repeat(3, 1fr); border-radius: 5px; overflow: hidden; border: 1px solid #2f7fc9; margin-bottom: 8px; }
+    .jb-toggle a { text-align: center; padding: 9px 4px; font-size: 13px; font-weight: 600; color: #2f7fc9; background: #fff; text-decoration: none; }
+    .jb-toggle a.on { background: #2f7fc9; color: #fff; }
+    .jb-toggle a + a { border-left: 1px solid #2f7fc9; }
+    .jb-fgroup { border-top: 1px solid #eceef1; margin-top: 22px; padding-top: 18px; }
+    .jb-fgroup h3 { font-size: 19px; font-weight: 700; margin: 0 0 14px; color: #1f2937; display: flex; justify-content: space-between; align-items: center; }
+    .jb-fgroup h3 a { font-size: 12px; font-weight: 600; color: #2f7fc9; }
+    .jb-fitem { display: flex; align-items: center; gap: 10px; padding: 8px 0; text-decoration: none !important; color: #374151; font-size: 14.5px; }
+    .jb-fitem .box { width: 18px; height: 18px; flex: 0 0 18px; border: 1px solid #c4c9d1; border-radius: 3px; background: #fafafa; position: relative; }
+    .jb-fitem.on .box { background: #2f7fc9; border-color: #2f7fc9; }
+    .jb-fitem.on .box::after { content: ''; position: absolute; left: 5px; top: 1px; width: 5px; height: 10px; border: solid #fff; border-width: 0 2px 2px 0; transform: rotate(45deg); }
+    .jb-fitem .name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .jb-fitem .num { color: #6b7280; font-size: 13.5px; }
+    .jb-fitem:hover .name { color: #1b3a6b; }
+    .jb-more summary { cursor: pointer; color: #2f7fc9; font-weight: 600; font-size: 13.5px; padding: 6px 0 4px 28px; list-style: none; }
+    .jb-more summary::-webkit-details-marker { display: none; }
+
+    .jb-list-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; padding: 14px 24px; border-bottom: 1px solid #eceef1; font-size: 14px; color: #5b6472; }
+    .jb-list-head select { border: 1px solid #cfd4dc; border-radius: 5px; padding: 5px 8px; font-size: 13.5px; background: #fff; }
+    .jb-rows { display: block; }
+    .jb-row { display: block; position: relative; padding: 24px 24px 22px; border-bottom: 1px solid #eceef1; text-decoration: none !important; color: inherit; }
+    .jb-row:hover { background: #fafbfd; box-shadow: inset 3px 0 0 #2f7fc9; }
+    .jb-row h2 { font-size: 19px; font-weight: 700; margin: 0 0 6px; color: #111827; line-height: 1.3; }
+    .jb-row .who { font-size: 15.5px; color: #4b5563; margin: 0 0 10px; }
+    .jb-row .desc { font-size: 14px; color: #6b7280; line-height: 1.55; margin: 0 0 12px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .jb-row .facts { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 13.5px; color: #6b7280; margin-bottom: 12px; }
+    .jb-row .facts span { display: inline-flex; gap: 6px; align-items: center; }
+    .jb-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .jb-chip { background: #f1f3f5; border-radius: 999px; padding: 6px 14px; font-size: 12.5px; color: #374151; }
+    .jb-chip.res { background: #e6f4ea; color: #166534; font-weight: 700; }
+    .jb-empty { padding: 60px 24px; text-align: center; color: #6b7280; }
+
+    .jb-guide { display: block; padding: 14px 0; border-bottom: 1px solid #eceef1; text-decoration: none !important; }
+    .jb-guide strong { display: block; color: #111827; font-size: 15px; line-height: 1.35; margin-bottom: 4px; }
+    .jb-guide span { display: block; color: #6b7280; font-size: 13px; line-height: 1.45; }
+    .jb-guide:hover strong { color: #1b3a6b; }
+    .jb-side-link { display: inline-block; margin-top: 14px; color: #2f7fc9; font-weight: 700; font-size: 14px; }
+    .jb-side-card { margin-top: 26px; padding: 16px; background: #f7f8fa; border-radius: 8px; font-size: 13.5px; color: #4b5563; line-height: 1.55; }
+    .jb-side-card a { color: #1b3a6b; font-weight: 700; }
+
+    @media (max-width: 1199px) { .jb-board { grid-template-columns: 260px minmax(0, 1fr); } .jb-side { grid-column: 1 / -1; border-left: 0; border-top: 1px solid #eceef1; } }
+    @media (max-width: 767px) { .jb-board { grid-template-columns: 1fr; } .jb-filters { border-right: 0; border-bottom: 1px solid #eceef1; } .jb-col-head { padding: 18px 18px 14px; } .jb-row { padding: 20px 18px; } .jb-top .jb-find, .jb-top .jb-alert { flex: 1 1 140px; justify-content: center; } }
+</style>
+
+@php
+    $jbHasFilter = request()->anyFilled(['position', 'location', 'area', 'postal_code', 'category', 'employment', 'type']);
+    $jbType = request('type');
+    $jbUrl = fn (array $query) => route('jobs.index', array_filter(array_merge(request()->only(['position', 'location', 'category', 'employment', 'type', 'sort']), $query), fn ($v) => $v !== null && $v !== ''));
+@endphp
+
+<section class="jb-top">
     <div class="container">
-        <span class="eyebrow" data-aos="fade-down" data-aos-duration="600">
-            @if(request()->anyFilled(['position','location','area','postal_code']))
-                Search Results
-            @else
-                Job Search
+        <form method="GET" action="{{ route('jobs.index') }}" id="jobSearchForm">
+            <input type="text" name="position" class="jb-search" placeholder="Job title, skill or company"
+                autocomplete="off" data-autocomplete="jobs" value="{{ request('position') }}" aria-label="Job title, skill or company">
+            <select class="jb-loc" id="location" name="location" aria-label="Location">
+                <option value="">All locations</option>
+                @foreach ($uniqueLocations as $loc)
+                    <option value="{{ $loc->name }}" {{ request('location') == $loc->name ? 'selected' : '' }}>{{ $loc->name }}</option>
+                @endforeach
+            </select>
+            @if (request('category'))
+                <input type="hidden" name="category" value="{{ request('category') }}">
             @endif
-        </span>
-        <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Find Your Next <span class="accent">Career Move</span></h1>
-        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Current job openings across {{ $coverage->shortList() }}. Filter by location or category, then apply on the employer's own website. Free to read, no account needed. Looking for official job portals instead? See <a href="{{ route('jobs.portals') }}">Job Portals &amp; Resources</a>.</p>
-        <div class="hero-stats">
-            <div class="stat">
-                <strong>{{ number_format($heroStats['total_jobs'] ?? 0) }}+</strong>
-                <span>Active Jobs</span>
-            </div>
-            <div class="stat">
-                <strong>{{ number_format($heroStats['total_companies'] ?? 0) }}+</strong>
-                <span>Employers</span>
-            </div>
-            <div class="stat">
-                <strong>{{ number_format($heroStats['total_locations'] ?? 50) }}+</strong>
-                <span>Locations</span>
-            </div>
-            <div class="stat">
-                <strong>100%</strong>
-                <span>Free to Apply</span>
-            </div>
+            @if ($jbType)
+                <input type="hidden" name="type" value="{{ $jbType }}">
+            @endif
+            <button type="submit" class="jb-find">Find Jobs</button>
+            <a href="{{ route('seeker.job-alerts.create') }}" class="jb-alert">Create Alert</a>
+        </form>
+        <h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">{{ $jbHasFilter ? 'Job Search Results' : 'Browse Jobs' }}</h1>
+        <p class="jb-note">Current job openings across {{ $coverage->shortList() }}. Apply on the employer's own website. Free to read, no account needed. Looking for official job portals instead? See <a href="{{ route('jobs.portals') }}">Job Portals &amp; Resources</a>.</p>
+        <div class="jb-stats">
+            <div class="stat"><strong>{{ number_format($heroStats['total_jobs'] ?? 0) }}+</strong> <span>Active Jobs</span></div>
+            <div class="stat"><strong>{{ number_format($heroStats['total_companies'] ?? 0) }}+</strong> <span>Employers</span></div>
+            <div class="stat"><strong>{{ number_format($heroStats['total_locations'] ?? 50) }}+</strong> <span>Locations</span></div>
         </div>
     </div>
 </section>
 
-<!-- Filter Bar -->
-<section class="jobs-filter-section">
-    <div class="container">
-        <div class="jobs-filter-bar">
-            <h4 class="filter-head">
-                @if (request()->anyFilled(['position', 'location', 'area', 'postal_code']))
-                    Search Results
-                @else
-                    All Job Listings
-                @endif
-            </h4>
-
-            <form method="GET" action="{{ route('jobs.index') }}" id="jobSearchForm">
-                <div class="row">
-                    <!-- Position Search -->
-                    <div class="col-md-3 mb-2 mb-md-0">
-                        <div class="input-wrap">
-                            <input type="text" name="position" placeholder="Job position, title, keywords"
-                                autocomplete="off" data-autocomplete="jobs"
-                                value="{{ request('position') }}" class="form-control">
-                            <i class="icon-material-outline-work"></i>
-                        </div>
-                    </div>
-
-                    <!-- State / Location Dropdown -->
-                    <div class="col-md-3 mb-2 mb-md-0">
-                        <div class="input-wrap">
-                            <select class="form-control select2" id="location" name="location"
-                                data-placeholder="All States">
-                                <option value="">All States</option>
-                                @foreach ($uniqueLocations as $loc)
-                                    <option value="{{ $loc->name }}"
-                                        {{ request('location') == $loc->name ? 'selected' : '' }}>
-                                        {{ $loc->name }}
-                                    </option>
-                                @endforeach
-                            </select>
-                            <i class="icon-material-outline-location-on"></i>
-                        </div>
-                    </div>
-
-                    <!-- Area Dropdown -->
-                    <div class="col-md-2 mb-2 mb-md-0">
-                        <div class="input-wrap">
-                            <select class="form-control select2" id="area" name="area"
-                                data-placeholder="All Areas" {{ !request('location') ? 'disabled' : '' }}>
-                                <option value="">All Areas</option>
-                                @if (request('location'))
-                                    @foreach ($uniqueAreas->where('name', request('location'))->pluck('area')->unique()->filter() as $area)
-                                        <option value="{{ $area }}"
-                                            {{ request('area') == $area ? 'selected' : '' }}>
-                                            {{ $area }}
-                                        </option>
-                                    @endforeach
-                                @endif
-                            </select>
-                            <i class="icon-material-outline-map"></i>
-                        </div>
-                    </div>
-
-                    <!-- Postal Code Dropdown -->
-                    <div class="col-md-2 mb-2 mb-md-0">
-                        <div class="input-wrap">
-                            <select class="form-control select2" id="postal_code" name="postal_code"
-                                data-placeholder="All ZIPs" {{ !request('area') ? 'disabled' : '' }}>
-                                <option value="">All ZIPs</option>
-                                @if (request('location') && request('area'))
-                                    @foreach ($uniquePostalCodes->where('name', request('location'))->where('area', request('area'))->pluck('postal_code')->unique()->filter() as $postal)
-                                        <option value="{{ $postal }}"
-                                            {{ request('postal_code') == $postal ? 'selected' : '' }}>
-                                            {{ $postal }}
-                                        </option>
-                                    @endforeach
-                                @endif
-                            </select>
-                            <i class="icon-material-outline-pin-drop"></i>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2">
-                        <button type="submit" class="btn-search">Search Jobs</button>
-                    </div>
+<div class="container-fluid px-0">
+    <div class="jb-board">
+        <aside class="jb-col jb-filters" aria-label="Filters">
+            <h2 class="jb-col-head">Filters</h2>
+            <div class="jb-filters-body">
+                <div class="jb-toggle" role="group" aria-label="Listing type">
+                    <a href="{{ $jbUrl(['type' => null]) }}" class="{{ $jbType ? '' : 'on' }}">All</a>
+                    <a href="{{ $jbUrl(['type' => 'vacancy']) }}" class="{{ $jbType === 'vacancy' ? 'on' : '' }}">Vacancies</a>
+                    <a href="{{ $jbUrl(['type' => 'resource']) }}" class="{{ $jbType === 'resource' ? 'on' : '' }}">Resources</a>
                 </div>
-            </form>
+                <p style="font-size:12.5px;color:#6b7280;margin:6px 0 0;">{{ number_format($typeCounts['vacancy'] ?? 0) }} vacancies, {{ number_format($typeCounts['resource'] ?? 0) }} official resources.</p>
 
-            {{-- ===== Quick skill / keyword filters ===== --}}
-            @if(!empty($topSkills))
-                <div class="jobs-skills-strip" aria-label="Filter jobs by skill">
-                    <span class="lbl"><i class="bi bi-stars"></i> Popular skills:</span>
-                    @foreach($topSkills as $skill)
-                        <a href="{{ route('jobs.index', ['position' => $skill]) }}"
-                           class="skill-pill {{ strcasecmp(request('position', ''), $skill) === 0 ? 'is-active' : '' }}">
-                            {{ $skill }}
+                <div class="jb-fgroup">
+                    <h3>Job Category @if (request('category'))<a href="{{ $jbUrl(['category' => null]) }}">Clear</a>@endif</h3>
+                    @foreach ($filterCategories as $i => $row)
+                        @if ($i === 8)
+                            <details class="jb-more" {{ request()->filled('category') && $filterCategories->slice(8)->contains('slug', request('category')) ? 'open' : '' }}><summary>Show More</summary>
+                        @endif
+                        <a href="{{ $jbUrl(['category' => request('category') === $row->slug ? null : $row->slug]) }}" class="jb-fitem {{ request('category') === $row->slug ? 'on' : '' }}">
+                            <span class="box" aria-hidden="true"></span>
+                            <span class="name">{{ $row->name }}</span>
+                            <span class="num">{{ number_format($row->job_count) }}</span>
                         </a>
+                        @if ($loop->last && $i >= 8)
+                            </details>
+                        @endif
                     @endforeach
                 </div>
-                <style>
-                    .jobs-skills-strip {
-                        display: flex; align-items: center; flex-wrap: wrap; gap: 8px;
-                        margin-top: 14px; padding: 12px 4px 0;
-                    }
-                    .jobs-skills-strip .lbl {
-                        font-size: 12.5px; font-weight: 700;
-                        color: #1b3a6b; text-transform: uppercase; letter-spacing: 1px;
-                        margin-right: 6px; display: inline-flex; align-items: center; gap: 5px;
-                    }
-                    .jobs-skills-strip .skill-pill {
-                        display: inline-flex; align-items: center;
-                        background: rgba(255,255,255,.08);
-                        border: 1px solid rgba(255,255,255,.15);
-                        color: #fff !important;
-                        font-size: 12.5px; font-weight: 600;
-                        padding: 5px 12px; border-radius: 999px;
-                        text-decoration: none !important;
-                        transition: all .15s ease;
-                    }
-                    .jobs-skills-strip .skill-pill:hover {
-                        background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
-                        border-color: #1b3a6b;
-                        color: #fff !important;
-                        transform: translateY(-1px);
-                    }
-                    .jobs-skills-strip .skill-pill.is-active {
-                        background: linear-gradient(135deg, #1b3a6b, #2f7fc9);
-                        border-color: #1b3a6b;
-                        color: #fff !important;
-                    }
-                </style>
-            @endif
-        </div>
-    </div>
-</section>
 
-<!-- Results header + sort -->
-<div class="container">
-    <div class="jobs-results-header">
-        <div class="count">
-            @if ($jobs->total() > 0)
-                Showing <strong>{{ $jobs->firstItem() }}–{{ $jobs->lastItem() }}</strong>
-                of <strong>{{ number_format($jobs->total()) }}</strong> jobs
-            @else
-                <strong>No jobs found</strong>
-            @endif
-        </div>
-        <div class="sort-by">
-            <span>Type:</span>
-            <select id="typeSelect" onchange="window.location = this.value">
-                <option value="{{ request()->fullUrlWithQuery(['type' => null, 'page' => null]) }}"
-                    {{ request('type') ? '' : 'selected' }}>All</option>
-                <option value="{{ request()->fullUrlWithQuery(['type' => 'vacancy', 'page' => null]) }}"
-                    {{ request('type') == 'vacancy' ? 'selected' : '' }}>Vacancies</option>
-                <option value="{{ request()->fullUrlWithQuery(['type' => 'resource', 'page' => null]) }}"
-                    {{ request('type') == 'resource' ? 'selected' : '' }}>Official resources</option>
-            </select>
-            <span>Sort By:</span>
-            <select id="sortSelect">
-                <option value="{{ request()->fullUrlWithQuery(['sort' => 'newest']) }}"
-                    {{ request('sort', 'newest') == 'newest' ? 'selected' : '' }}>Newest</option>
-                <option value="{{ request()->fullUrlWithQuery(['sort' => 'oldest']) }}"
-                    {{ request('sort') == 'oldest' ? 'selected' : '' }}>Oldest</option>
-                <option value="{{ request()->fullUrlWithQuery(['sort' => 'position_asc']) }}"
-                    {{ request('sort') == 'position_asc' ? 'selected' : '' }}>Position (A-Z)</option>
-                <option value="{{ request()->fullUrlWithQuery(['sort' => 'position_desc']) }}"
-                    {{ request('sort') == 'position_desc' ? 'selected' : '' }}>Position (Z-A)</option>
-            </select>
-        </div>
-    </div>
-
-    <!-- Job Cards Grid -->
-    <div class="jobs-grid">
-        @forelse($jobs as $job)
-            <a href="{{ route('jobs.show', \Illuminate\Support\Str::slug($job->position . '-' . ($job->location->name ?? ''))) }}"
-                class="job-card">
-                <div class="job-card-top">
-                    <div class="job-card-logo">
-                        <img src="{{ $job->advertiser?->logo_url ?? asset('public/user/images/jobimages.png') }}"
-                            alt="{{ $job->advertiser->name ?? 'Company' }}" loading="lazy">
-                    </div>
-                    <span class="job-card-badge {{ ($job->employment_type ?? '') == 'Part Time' ? 'yellow' : 'green' }}">
-                        <i class="icon-material-outline-business-center"></i>
-                        {{ $job->isResource() ? 'Official resource' : ($job->employment_type ?? 'Full Time') }}
-                    </span>
+                <div class="jb-fgroup">
+                    <h3>Location @if (request('location'))<a href="{{ $jbUrl(['location' => null]) }}">Clear</a>@endif</h3>
+                    @foreach ($filterLocations as $i => $row)
+                        @if ($i === 8)
+                            <details class="jb-more" {{ request()->filled('location') && $filterLocations->slice(8)->contains('name', request('location')) ? 'open' : '' }}><summary>Show More</summary>
+                        @endif
+                        <a href="{{ $jbUrl(['location' => request('location') === $row->name ? null : $row->name]) }}" class="jb-fitem {{ request('location') === $row->name ? 'on' : '' }}">
+                            <span class="box" aria-hidden="true"></span>
+                            <span class="name">{{ $row->name }}</span>
+                            <span class="num">{{ number_format($row->job_count) }}</span>
+                        </a>
+                        @if ($loop->last && $i >= 8)
+                            </details>
+                        @endif
+                    @endforeach
                 </div>
 
-                <h3 class="job-card-title">{{ $job->position }}</h3>
-
-                <ul class="job-card-meta">
-                    <li><i class="icon-feather-briefcase"></i>
-                        {{ $job->category?->name ?? ($job->advertiser->name ?? 'N/A') }}</li>
-                    @if ($job->location)
-                        <li><i class="icon-material-outline-location-on"></i>
-                            {{ $job->location->name }}{{ $job->location->area ? ', ' . $job->location->area : '' }}{{ $job->location->postal_code ? ' (' . $job->location->postal_code . ')' : '' }}
-                        </li>
-                    @endif
-                    <li><i class="icon-material-outline-access-time"></i>
-                        {{ $job->created_at->diffForHumans() }}</li>
-                </ul>
-
-                <span class="job-card-button">Browse Job <i class="icon-feather-arrow-right"></i></span>
-            </a>
-        @empty
-            <div class="no-jobs">
-                <i class="icon-feather-search"></i>
-                <h4>No jobs match your search</h4>
-                <p>Try changing your filters or removing some criteria to see more results.</p>
+                @if ($employmentCounts->isNotEmpty())
+                    <div class="jb-fgroup">
+                        <h3>Job Type @if (request('employment'))<a href="{{ $jbUrl(['employment' => null]) }}">Clear</a>@endif</h3>
+                        @foreach ($employmentCounts as $label => $count)
+                            <a href="{{ $jbUrl(['employment' => request('employment') === $label ? null : $label]) }}" class="jb-fitem {{ request('employment') === $label ? 'on' : '' }}">
+                                <span class="box" aria-hidden="true"></span>
+                                <span class="name">{{ $label }}</span>
+                                <span class="num">{{ number_format($count) }}</span>
+                            </a>
+                        @endforeach
+                    </div>
+                @endif
             </div>
-        @endforelse
-    </div>
+        </aside>
 
-    <!-- Pagination -->
-    @if ($jobs->hasPages())
-        @push('meta')
-            @if($jobs->onFirstPage() === false)
-                <link rel="prev" href="{{ $jobs->previousPageUrl() }}">
+        <main class="jb-col jb-jobs">
+            <h2 class="jb-col-head">Jobs</h2>
+            <div class="jb-list-head">
+                <div class="count">
+                    @if ($jobs->total() > 0)
+                        Showing <strong>{{ $jobs->firstItem() }}-{{ $jobs->lastItem() }}</strong> of <strong>{{ number_format($jobs->total()) }}</strong> jobs
+                    @else
+                        <strong>No jobs found</strong>
+                    @endif
+                </div>
+                <div class="sort-by">
+                    <span>Sort By:</span>
+                    <select id="sortSelect">
+                        <option value="{{ request()->fullUrlWithQuery(['sort' => 'newest']) }}" {{ request('sort', 'newest') == 'newest' ? 'selected' : '' }}>Newest</option>
+                        <option value="{{ request()->fullUrlWithQuery(['sort' => 'oldest']) }}" {{ request('sort') == 'oldest' ? 'selected' : '' }}>Oldest</option>
+                        <option value="{{ request()->fullUrlWithQuery(['sort' => 'position_asc']) }}" {{ request('sort') == 'position_asc' ? 'selected' : '' }}>Position (A-Z)</option>
+                        <option value="{{ request()->fullUrlWithQuery(['sort' => 'position_desc']) }}" {{ request('sort') == 'position_desc' ? 'selected' : '' }}>Position (Z-A)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="jb-rows">
+                @forelse ($jobs as $job)
+                    <a href="{{ route('jobs.show', \Illuminate\Support\Str::slug($job->position . '-' . ($job->location->name ?? ''))) }}" class="jb-row">
+                        <h2>{{ $job->position }}</h2>
+                        <p class="who">{{ $job->advertiser->name ?? 'Employer' }}@if ($job->location), {{ $job->location->name }}@endif</p>
+                        @php($jbDesc = \Illuminate\Support\Str::limit(trim(preg_replace('/\s+/', ' ', html_entity_decode(strip_tags((string) $job->description)))), 190))
+                        @if ($jbDesc !== '')
+                            <p class="desc">{{ $jbDesc }}</p>
+                        @endif
+                        <div class="facts">
+                            <span><i class="icon-material-outline-access-time" aria-hidden="true"></i> {{ $job->created_at->format('M d, Y') }} ({{ $job->created_at->diffForHumans() }})</span>
+                            @if ($job->location)
+                                <span><i class="icon-material-outline-location-on" aria-hidden="true"></i> {{ $job->location->name }}{{ $job->location->area ? ', ' . $job->location->area : '' }}</span>
+                            @endif
+                        </div>
+                        <div class="jb-chips">
+                            @if ($job->isResource())
+                                <span class="jb-chip res">Official resource</span>
+                            @elseif ($job->employment_type)
+                                <span class="jb-chip">{{ $job->employment_type }}</span>
+                            @endif
+                            @if ($job->category)
+                                <span class="jb-chip">{{ $job->category->name }}</span>
+                            @endif
+                        </div>
+                    </a>
+                @empty
+                    <div class="jb-empty">
+                        <h3>No jobs match your search</h3>
+                        <p>Try changing your filters or removing some criteria to see more results.</p>
+                        <a href="{{ route('jobs.index') }}" class="jb-side-link">Clear all filters</a>
+                    </div>
+                @endforelse
+            </div>
+
+            @if ($jobs->hasPages())
+                @push('meta')
+                    @if ($jobs->onFirstPage() === false)
+                        <link rel="prev" href="{{ $jobs->previousPageUrl() }}">
+                    @endif
+                    @if ($jobs->hasMorePages())
+                        <link rel="next" href="{{ $jobs->nextPageUrl() }}">
+                    @endif
+                @endpush
+                {{ $jobs->onEachSide(2)->links() }}
             @endif
-            @if($jobs->hasMorePages())
-                <link rel="next" href="{{ $jobs->nextPageUrl() }}">
-            @endif
-        @endpush
-        {{ $jobs->onEachSide(2)->links() }}
-    @endif
+        </main>
+
+        <aside class="jb-col jb-side" aria-label="Career guides">
+            <h2 class="jb-col-head">Career Guides</h2>
+            <div class="jb-side-body">
+                @foreach ($latestGuides as $guide)
+                    <a href="{{ route('blog.show', $guide->slug) }}" class="jb-guide">
+                        <strong>{{ $guide->title }}</strong>
+                        <span>{{ \Illuminate\Support\Str::limit((string) $guide->excerpt, 110) }}</span>
+                    </a>
+                @endforeach
+                <a href="{{ route('blog.index') }}" class="jb-side-link">Read more guides</a>
+
+                <div class="jb-side-card">
+                    Resource listings link to official public portals, not to one vacancy. Read each portal's own rules before you apply. See <a href="{{ route('jobs.portals') }}">Job Portals &amp; Resources</a>.
+                </div>
+            </div>
+        </aside>
+    </div>
 </div>
 
 <!-- Related Section: Explore by Category & State + Trust Strip -->

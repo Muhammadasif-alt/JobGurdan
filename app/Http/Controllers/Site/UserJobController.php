@@ -153,7 +153,7 @@ class UserJobController extends Controller
         // hits the DB. Logged-in users get fresh markup so dashboard state is
         // never cached.
         if (! auth()->check() && $request->isMethod('GET')) {
-            $cacheKey = 'page.jobs.'.md5($request->fullUrl());
+            $cacheKey = 'page.jobs.v2.'.md5($request->fullUrl());
             $cached = Cache::get($cacheKey);
             if ($cached !== null) {
                 return response($cached, 200)
@@ -257,6 +257,60 @@ class UserJobController extends Controller
             return $top;
         });
 
+        $activeJobs = fn ($q) => $q->where(fn ($status) => $status->where('jobs.status', 'active')->orWhereNull('jobs.status'));
+
+        $filterCategories = Cache::remember('jobs.filterCategories', 600, function () use ($activeJobs) {
+            return DB::table('jobs')
+                ->join('categories', 'jobs.category_id', '=', 'categories.id')
+                ->tap($activeJobs)
+                ->select('categories.name', 'categories.slug', DB::raw('COUNT(jobs.id) as job_count'))
+                ->groupBy('categories.name', 'categories.slug')
+                ->orderByDesc('job_count')
+                ->take(20)
+                ->get();
+        });
+
+        $filterLocations = Cache::remember('jobs.filterLocations', 600, function () use ($activeJobs) {
+            return DB::table('jobs')
+                ->join('locations', 'jobs.location_id', '=', 'locations.id')
+                ->tap($activeJobs)
+                ->select('locations.name', DB::raw('COUNT(jobs.id) as job_count'))
+                ->groupBy('locations.name')
+                ->orderByDesc('job_count')
+                ->take(20)
+                ->get();
+        });
+
+        $employmentCounts = Cache::remember('jobs.employmentCounts', 600, function () use ($activeJobs) {
+            $rows = DB::table('jobs')
+                ->tap($activeJobs)
+                ->whereNotNull('employment_type')
+                ->select('employment_type', DB::raw('COUNT(*) as job_count'))
+                ->groupBy('employment_type')
+                ->pluck('job_count', 'employment_type');
+
+            return collect(['Full-time', 'Part-time', 'Contract', 'Internship', 'Apprenticeship'])
+                ->mapWithKeys(fn ($label) => [$label => $rows->filter(fn ($count, $type) => stripos($type, $label) !== false)->sum()])
+                ->filter();
+        });
+
+        $typeCounts = Cache::remember('jobs.typeCounts', 600, function () use ($activeJobs) {
+            return DB::table('jobs')
+                ->tap($activeJobs)
+                ->select('listing_type', DB::raw('COUNT(*) as job_count'))
+                ->groupBy('listing_type')
+                ->pluck('job_count', 'listing_type');
+        });
+
+        $latestGuides = Cache::remember('jobs.latestGuides', 600, function () {
+            return \App\Models\Blog::query()
+                ->where('status', 'published')
+                ->where('noindex', false)
+                ->latest('published_at')
+                ->take(4)
+                ->get(['title', 'slug', 'excerpt']);
+        });
+
         $html = view('user.jobs-listings', array_merge($result, [
             'uniqueLocations' => $uniqueLocations,
             'uniqueAreas' => $uniqueAreas,
@@ -265,10 +319,15 @@ class UserJobController extends Controller
             'topCategories' => $topCategories,
             'topStates' => $topStates,
             'topSkills' => $topSkills,
+            'filterCategories' => $filterCategories,
+            'filterLocations' => $filterLocations,
+            'typeCounts' => $typeCounts,
+            'employmentCounts' => $employmentCounts,
+            'latestGuides' => $latestGuides,
         ]))->render();
 
         if (! auth()->check() && $request->isMethod('GET')) {
-            Cache::put('page.jobs.'.md5($request->fullUrl()), $html, 600);
+            Cache::put($cacheKey, $html, 60);
         }
 
         return response($html, 200)
