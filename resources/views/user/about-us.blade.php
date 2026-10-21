@@ -1216,7 +1216,7 @@
     {{-- Story --}}
     <section class="about-section">
         <div class="container">
-            <div class="story-row">
+            <div class="story-row" style="grid-template-columns: 1fr; max-width: 860px; margin: 0 auto;">
                 <div class="story-content">
                     <span class="about-hero-tag">Our Story</span>
                     <h2>Why JobGader <span>exists</span></h2>
@@ -1228,9 +1228,6 @@
                     @else
                         <p>See our <a href="{{ route('pages.editorial-policy') }}">Editorial Policy</a> for how guides are researched and corrected, and the <a href="{{ route('pages.disclaimer') }}">Disclaimer</a> for what they do and do not promise.</p>
                     @endif
-                </div>
-                <div class="story-visual">
-                    <img src="{{ asset('public/user/images/about-founders.jpg') }}" alt="The JobGader team reviewing job listings and visa guidance" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>

@@ -28,3 +28,7 @@ it('explains that JobGader posts verified jobs, does not give jobs and sells CV 
         ->assertDontSee('no fee at any stage')
         ->assertDontSee('We will never ask you for money, at any stage');
 });
+
+it('does not show a stock photograph captioned as the JobGader team', function () {
+    $this->get('/about-us')->assertOk()->assertDontSee('about-founders.jpg', false);
+});
