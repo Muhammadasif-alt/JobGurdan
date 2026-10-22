@@ -80,6 +80,61 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Nationwide', 'country' => 'Philippines']
         );
 
+        $newyork = Location::firstOrCreate(
+            ['name' => 'New York City'],
+            ['area' => 'New York', 'country' => 'United States']
+        );
+
+        $denver = Location::firstOrCreate(
+            ['name' => 'Denver'],
+            ['area' => 'Colorado', 'country' => 'United States']
+        );
+
+        $atlanta = Location::firstOrCreate(
+            ['name' => 'Atlanta'],
+            ['area' => 'Georgia', 'country' => 'United States']
+        );
+
+        $birmingham = Location::firstOrCreate(
+            ['name' => 'Birmingham'],
+            ['area' => 'England', 'country' => 'United Kingdom']
+        );
+
+        $vancouver = Location::firstOrCreate(
+            ['name' => 'Vancouver'],
+            ['area' => 'British Columbia', 'country' => 'Canada']
+        );
+
+        $karachi = Location::firstOrCreate(
+            ['name' => 'Karachi'],
+            ['area' => 'Sindh', 'country' => 'Pakistan']
+        );
+
+        $ohio = Location::firstOrCreate(
+            ['name' => 'Ohio'],
+            ['area' => 'Nationwide', 'country' => 'United States']
+        );
+
+        $michigan = Location::firstOrCreate(
+            ['name' => 'Michigan'],
+            ['area' => 'Nationwide', 'country' => 'United States']
+        );
+
+        $melbourne = Location::firstOrCreate(
+            ['name' => 'Melbourne'],
+            ['area' => 'Victoria', 'country' => 'Australia']
+        );
+
+        $mumbai = Location::firstOrCreate(
+            ['name' => 'Mumbai'],
+            ['area' => 'Maharashtra', 'country' => 'India']
+        );
+
+        $lahore = Location::firstOrCreate(
+            ['name' => 'Lahore'],
+            ['area' => 'Punjab', 'country' => 'Pakistan']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -923,6 +978,138 @@ class GuideJobListingsSeeder extends Seeder
                 'url' => 'https://www.employflorida.com/',
                 'keywords' => 'remote customer support jobs florida, work from home customer service florida, employ florida marketplace, remote customer service applications',
                 'note' => '<p><strong>Note:</strong> this link opens an official state job search site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['marketing-media', 'Marketing & Media'],
+                'advertiser' => ['US City and Public Employers (Aggregated)', 'usa-public-employers-aggregated'],
+                'location' => $newyork,
+                'position' => 'SEO Job Seeker - NYC Workforce1 Career Centers (New York City)',
+                'intro' => 'Workforce1 Career Centers are run by the New York City Department of Small Business Services, which says it offers free services at the centres. The page lists centres by borough and describes workshops, one-on-one career counselling and help with resumes and interviews.',
+                'items' => ['Use a free resume and interview review before sending SEO applications', 'Centres are listed by borough with a map of all locations', 'A career centre cannot promise a job or an interview'],
+                'url' => 'https://www.nyc.gov/workforce1',
+                'keywords' => 'entry level seo jobs new york city, seo assistant jobs nyc, workforce1 career centers, seo internships new york',
+                'note' => '<p><strong>Note:</strong> this link opens an official New York City government page. It is not an application form for one vacancy, and it does not guarantee hiring, an interview or income.</p>',
+            ],
+            [
+                'category' => ['marketing-media', 'Marketing & Media'],
+                'advertiser' => ['US City and Public Employers (Aggregated)', 'usa-public-employers-aggregated'],
+                'location' => $denver,
+                'position' => 'Remote SEO Learner - O*NET Search Marketing Strategists (Denver, Colorado)',
+                'intro' => 'O*NET OnLine is the US Department of Labor occupational database. Its Search Marketing Strategists page lists the tasks, skills and software for search marketing work, which helps you compare remote SEO advertisements with what the work involves.',
+                'items' => ['Compare an advertisement\'s tasks with the O*NET task list', 'Check which states a remote employer will hire from', 'Freelance SEO income is self-employment income for tax purposes'],
+                'url' => 'https://www.onetonline.org/link/summary/13-1161.01',
+                'keywords' => 'remote seo jobs denver, seo jobs colorado work from home, search marketing strategist tasks, remote seo specialist denver',
+                'note' => '<p><strong>Note:</strong> this link opens an official US government occupational information page. It is not an application form for one vacancy, and it does not guarantee hiring, an interview or income.</p>',
+            ],
+            [
+                'category' => ['marketing-media', 'Marketing & Media'],
+                'advertiser' => ['Online Learning and Research Platforms (Aggregated)', 'online-platforms-aggregated'],
+                'location' => $atlanta,
+                'position' => 'PPC Specialist Learner - Google Ads Certification Help (Atlanta, Georgia)',
+                'intro' => 'Google\'s own help page explains how Google Ads certification works. It states the pass mark, the time allowed, when you can retake an assessment and how long a certification lasts.',
+                'items' => ['An 80% score is needed and the assessment lasts 75 minutes', 'A failed assessment can be retaken one day later', 'Certification is valid for one year, so record the expiry date'],
+                'url' => 'https://support.google.com/google-ads/answer/9702955',
+                'keywords' => 'ppc specialist jobs atlanta, google ads certification, paid search jobs atlanta georgia, ppc skills and certifications',
+                'note' => '<p><strong>Note:</strong> this link opens a Google help page. It is not an application form for one vacancy, and it does not guarantee hiring, an interview or income.</p>',
+            ],
+            [
+                'category' => ['marketing-media', 'Marketing & Media'],
+                'advertiser' => ['UK Careers and Training Services (Aggregated)', 'uk-careers-training-aggregated'],
+                'location' => $birmingham,
+                'position' => 'Copywriter - National Careers Service Job Profile (Birmingham, England)',
+                'intro' => 'The National Careers Service job profile for advertising copywriters describes the work, the skills and the routes in: university, apprenticeship, direct application and a graduate training scheme. Read it before you decide which route to follow.',
+                'items' => ['Routes in include apprenticeships, direct application and graduate schemes', 'Pay figures on the profile are national, not Birmingham specific', 'A portfolio of three clear samples is the usual starting point'],
+                'url' => 'https://nationalcareers.service.gov.uk/job-profiles/advertising-copywriter',
+                'keywords' => 'copywriter jobs birmingham, junior copywriter birmingham, copywriting apprenticeship, national careers service copywriter',
+                'note' => '<p><strong>Note:</strong> this link opens an official government job profile. It is not an application form for one vacancy, and it does not promise a job, an interview or a salary.</p>',
+            ],
+            [
+                'category' => ['marketing-media', 'Marketing & Media'],
+                'advertiser' => ['Canadian Employers (Aggregated)', 'canada-employers-aggregated'],
+                'location' => $vancouver,
+                'position' => 'Email Marketing - Job Bank Wage Report (Vancouver, British Columbia)',
+                'intro' => 'Job Bank, the Government of Canada job service, publishes a wage report for advertising specialists in Vancouver under NOC 11202. It lists hourly wages for the Lower Mainland-Southwest region, the reference period and the Statistics Canada source.',
+                'items' => ['The wage figures cover a broad marketing group, not email marketing alone', 'Canada\'s anti-spam rules require consent and a working unsubscribe link', 'Check whether a remote role still requires living in British Columbia'],
+                'url' => 'https://www.jobbank.gc.ca/marketreport/wages-occupation/24722/39070',
+                'keywords' => 'email marketing jobs vancouver, lifecycle marketing jobs vancouver, crm marketing jobs british columbia, job bank wages vancouver',
+                'note' => '<p><strong>Note:</strong> this link opens an official Government of Canada wage page. It is not an application form for one vacancy, and the wages shown are regional statistics, not an offer or a promise of a job.</p>',
+            ],
+            [
+                'category' => ['education-training', 'Education & Training'],
+                'advertiser' => ['Online Learning and Research Platforms (Aggregated)', 'online-platforms-aggregated'],
+                'location' => $karachi,
+                'position' => 'Digital Skills Learner - DigiSkills.pk Free Online Courses (Karachi, Sindh)',
+                'intro' => 'DigiSkills.pk is a training programme of the Ministry of IT and Telecom, funded by Ignite and run by the Virtual University of Pakistan, and it describes its online courses as free. Read its current course list and enrolment dates before you decide what to learn.',
+                'items' => ['Batch-05 enrolment opens on 2 November 2026 on a first-come, first-served basis', 'Course lists change between batches, so check the current catalogue', 'Never pay anyone for a place in a free programme'],
+                'url' => 'https://digiskills.pk/',
+                'keywords' => 'affiliate marketing beginners karachi, free digital skills courses pakistan, digiskills karachi, learn online skills sindh',
+                'note' => '<p><strong>Note:</strong> this link opens a public training programme site. It is not an application form for a job, and learning a skill does not promise clients, commission or income.</p>',
+            ],
+            [
+                'category' => ['customer-support-admin', 'Customer Support & Admin'],
+                'advertiser' => ['Ohio Public Employers (Aggregated)', 'ohio-public-aggregated'],
+                'location' => $ohio,
+                'position' => 'Transcriptionist - OhioMeansJobs Job Seeker Page (Ohio)',
+                'intro' => 'OhioMeansJobs is the State of Ohio\'s official job and career service, with tools to find a job, find a job center and build job search and interview skills. Use it to compare transcription and documentation roles from Ohio employers before you take freelance work.',
+                'items' => ['Recording-based pay is not hourly pay, so time every task', 'Freelance income needs self-employment tax set aside', 'Never pay for a kit or training, and never deposit a check an employer sends'],
+                'url' => 'https://ohiomeansjobs.ohio.gov/wps/portal/gov/omj/job-seekers',
+                'keywords' => 'transcription jobs from home ohio, remote transcription jobs ohio, beginner transcription work, ohiomeansjobs',
+                'note' => '<p><strong>Note:</strong> this link opens an official State of Ohio page. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['customer-support-admin', 'Customer Support & Admin'],
+                'advertiser' => ['Michigan Public Employers (Aggregated)', 'michigan-public-aggregated'],
+                'location' => $michigan,
+                'position' => 'Remote Entry Level Support - Michigan Works! American Job Centers (Michigan)',
+                'intro' => 'Michigan Works! gives job seekers access to employment, training and career resources through its American Job Centers, with 16 regional agencies and more than 90 centers across the state. Use it to find a local office and ask about beginner and work from home options.',
+                'items' => ['Enter your zip code or call 1-800-285-9675 to find an office', 'Ask which services are free, as the site does not say', 'Confirm Michigan eligibility before you apply to any remote post'],
+                'url' => 'https://www.michiganworks.org/',
+                'keywords' => 'work from home jobs michigan no experience, entry level remote jobs michigan, michigan works, american job center michigan',
+                'note' => '<p><strong>Note:</strong> this link opens an association site for the Michigan Works! network. It is not an application form for one vacancy, and it does not handle unemployment claims.</p>',
+            ],
+            [
+                'category' => ['it-software', 'IT & Software'],
+                'advertiser' => ['Pakistan Public Training Programmes (Aggregated)', 'pakistan-public-training-aggregated'],
+                'location' => $pakistan,
+                'position' => 'Remote Beginner - DigiSkills.pk Free Training (Islamabad)',
+                'intro' => 'DigiSkills.pk is a free online training programme in Pakistan with 24 courses and an e-certificate from the Virtual University of Pakistan. It is a training programme, not a vacancy, and a certificate does not guarantee clients or a job.',
+                'items' => ['Batch 05 enrolment opens on 2 November 2026, first come first served', 'No minimum educational requirement; a computer or Android phone and stable internet are needed', 'Pair any certificate with honest practice samples'],
+                'url' => 'https://www.digiskills.pk/',
+                'keywords' => 'remote jobs beginners islamabad, work from home jobs pakistan, digiskills free courses, online jobs pakistan beginners',
+                'note' => '<p><strong>Note:</strong> this link opens the DigiSkills.pk training programme page. It is not an application form for a job, and it does not promise work, income or an interview.</p>',
+            ],
+            [
+                'category' => ['marketing-media', 'Marketing & Media'],
+                'advertiser' => ['Australian Public Employers (Aggregated)', 'australia-public-aggregated'],
+                'location' => $melbourne,
+                'position' => 'Social Media Manager - Workforce Australia Job Search (Melbourne, Victoria)',
+                'intro' => 'Workforce Australia, reached through jobsearch.gov.au, is a government employment service where Australians can search and apply for jobs. Search it for social media and digital marketing roles in Melbourne and read each advertisement\'s location and attendance rules.',
+                'items' => ['Check whether a role is remote, hybrid or needs Melbourne attendance', 'Ask whether the arrangement is employment or a contract before you accept', 'Never pay a fee or send identity documents before a written offer'],
+                'url' => 'https://jobsearch.gov.au/',
+                'keywords' => 'social media manager jobs melbourne, remote social media jobs melbourne, work from home marketing jobs victoria, workforce australia job search',
+                'note' => '<p><strong>Note:</strong> this link opens an official government job service. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['marketing-media', 'Marketing & Media'],
+                'advertiser' => ['Indian Public Employers (Aggregated)', 'india-public-aggregated'],
+                'location' => $mumbai,
+                'position' => 'SEO Executive - National Career Service Portal (Mumbai, Maharashtra)',
+                'intro' => 'The National Career Service is the job and career portal of the Ministry of Labour and Employment, Government of India, and it says it charges no fee at any stage of registration, job application or interview processing. Search it for SEO and digital marketing roles and internships in Mumbai.',
+                'items' => ['Compare experience and office requirements line by line', 'Ask whether pay is gross, take-home or a package', 'Never pay a fee to an employer or recruiter for an interview'],
+                'url' => 'https://www.ncs.gov.in/',
+                'keywords' => 'seo executive jobs mumbai, seo jobs for freshers mumbai, seo internship mumbai, national career service',
+                'note' => '<p><strong>Note:</strong> this link opens an official government career portal. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['marketing-media', 'Marketing & Media'],
+                'advertiser' => ['Pakistani Public Employers (Aggregated)', 'pakistan-public-aggregated'],
+                'location' => $lahore,
+                'position' => 'Content Writer - DigiSkills.pk Free Training (Lahore, Punjab)',
+                'intro' => 'DigiSkills.pk offers free online courses with e-certificates; the Ministry of IT and Telecom conceived the programme, Ignite funds it and the Virtual University of Pakistan executes it. It is a training page, not a vacancy, so check its course list for writing or digital marketing subjects.',
+                'items' => ['Check the full course list, because the homepage shows only some courses', 'Batch 05 enrolment was announced to start on 2 November 2026', 'Never pay an agent to get a place or a job'],
+                'url' => 'https://digiskills.pk/',
+                'keywords' => 'content writer jobs lahore, content writing training pakistan, digiskills pk, junior content writer lahore',
+                'note' => '<p><strong>Note:</strong> this link opens an official training programme page. It is not an application form for a job, and it does not guarantee employment or income.</p>',
             ],
             [
                 'category' => ['transport-logistics', 'Transport & Logistics'],

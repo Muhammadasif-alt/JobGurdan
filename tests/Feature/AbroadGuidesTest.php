@@ -1,6 +1,18 @@
 <?php
 
 use App\Models\Blog;
+use Database\Seeders\SocialMediaManagerJobsFromHomeMelbourneBlogSeeder;
+use Database\Seeders\SeoExecutiveJobsMumbaiSalarySkillsBlogSeeder;
+use Database\Seeders\ContentWriterJobsLahoreHowToGetHiredBlogSeeder;
+use Database\Seeders\TranscriptionJobsFromHomeOhioBlogSeeder;
+use Database\Seeders\WorkFromHomeJobsMichiganNoExperienceBlogSeeder;
+use Database\Seeders\RemoteJobsBeginnersIslamabadPakistanBlogSeeder;
+use Database\Seeders\CopywriterJobsBirminghamEnglandBeginnersBlogSeeder;
+use Database\Seeders\EmailMarketingJobsVancouverBritishColumbiaBlogSeeder;
+use Database\Seeders\AffiliateMarketingBeginnersKarachiSindhBlogSeeder;
+use Database\Seeders\EntryLevelSeoJobsNewYorkCityBlogSeeder;
+use Database\Seeders\RemoteSeoJobsDenverColoradoBlogSeeder;
+use Database\Seeders\PpcSpecialistJobsAtlantaSkillsCertificationsBlogSeeder;
 use Database\Seeders\ApplyForTradeApprenticeshipBlogSeeder;
 use Database\Seeders\ApprenticeshipRankingListsBlogSeeder;
 use Database\Seeders\ApprenticeshipTestMathBasicsBlogSeeder;
@@ -130,6 +142,18 @@ dataset('abroadGuides', [
     'apprenticeship retake' => [RetakeApprenticeshipAptitudeTestBlogSeeder::class, ['seven days', 'six-month wait', 'cannot be retaken']],
     'apprenticeship score' => [WhatScoreNeededApprenticeshipTestBlogSeeder::class, ['cumulative WorkKeys score of 17', '35 of 45', 'minimum of 70%']],
     'apprenticeship week plan' => [OneWeekBeforeApprenticeshipTestBlogSeeder::class, ['Day 6', '35 reading, 35 mechanical and 30 maths', 'Apprenticeship.gov']],
+    'social media manager jobs from home melbourne' => [SocialMediaManagerJobsFromHomeMelbourneBlogSeeder::class, ['contractors run their own business and sell their services to others', 'the employer controls how, where and when they do their work', 'having an ABN is not the deciding factor of whether someone is a contractor', 'a place Australians can search and apply for jobs', 'contractors have different responsibilities from employees around insurance, tax and super']],
+    'seo executive jobs mumbai salary skills' => [SeoExecutiveJobsMumbaiSalarySkillsBlogSeeder::class, ['helping search engines understand your content', 'no secrets that will automatically rank your site first in Google', 'does not charge any fee at any stage of registration, job application or interview processing', 'Rs 3,00,000', 'URL Inspection Tool']],
+    'content writer jobs lahore how to get hired' => [ContentWriterJobsLahoreHowToGetHiredBlogSeeder::class, ['Batch 05 would start from 2 November 2026', 'the Ministry of IT and Telecom conceived the programme', 'people-first content is created primarily for people', 'it is critical to manually fact check and review AI-generated content', 'EPD Circular Letter No. 06 of 2026']],
+    'transcription jobs from home ohio' => [TranscriptionJobsFromHomeOhioBlogSeeder::class, ['$40,410 per year ($19.43 per hour)', 'decline 4 percent from 2025 to 2035', 'net earnings from self-employment were $400 or more', 'Social Security and Medicare tax primarily for individuals who work for themselves', 'will ever send you a check to deposit', 'a way to find a job center near you']],
+    'work from home jobs michigan no experience' => [WorkFromHomeJobsMichiganNoExperienceBlogSeeder::class, ['1-800-285-9675', 'more than 90 centers across the state', '$44,770 per year ($21.53 per hour)', 'decline 5% from 2025 to 2035', '$48,310 per year ($23.23 per hour)', 'net earnings from self-employment were $400 or more']],
+    'remote jobs beginners islamabad pakistan' => [RemoteJobsBeginnersIslamabadPakistanBlogSeeder::class, ['no minimum educational requirement', 'Batch 05 of DigiSkills 3.0 opens on 2 November 2026 at 11:00 AM', 'strictly on a first-come, first-served basis', 'up to two courses in one batch', 'USD 5,000 or 50% of proceeds a month, whichever is higher', 'e-certificate issued by the Virtual University of Pakistan']],
+    'copywriter jobs birmingham england beginners' => [CopywriterJobsBirminghamEnglandBeginnersBlogSeeder::class, ['£24,000 a year at the starter level and £45,000 a year at the experienced level', '37 to 40 a week', 'Junior Advertising Creative Level 3 Advanced Apprenticeship', '£12.71 an hour for workers aged 21 and over and £8.00 an hour for apprentices', 'effective 1 April 2026', 'if you are 16 or over']],
+    'email marketing jobs vancouver british columbia' => [EmailMarketingJobsVancouverBritishColumbiaBlogSeeder::class, ['hourly wages of $21.00 at the low end, a median of $33.65 and $56.59 at the high end', 'The reference period is 2023-2024', 'within 10 business days or less', 'up to 2 years, or 6 months for inquiries or applications', 'valid for at least 60 days after sending', 'showed 87 results when we checked it on 22 October 2026']],
+    'affiliate marketing beginners karachi sindh' => [AffiliateMarketingBeginnersKarachiSindhBlogSeeder::class, ['I get commissions for purchases made through links in this post.', 'enrolment for Batch-05 opens on 2 November 2026', 'conceived by the Ministry of IT and Telecom', 'EPD Circular Letter No. 06 of 2026', 'US law applies when it is reasonably foreseeable that the post will affect US consumers', 'Affiliate marketing is not a job']],
+    'entry level seo jobs new york city' => [EntryLevelSeoJobsNewYorkCityBlogSeeder::class, ['offers free services at our network of Workforce1 Career Centers', "there are no secrets here that'll automatically rank your site first in Google", 'how Google crawls, indexes and serves websites', 'honest employers, including the federal government, will never ask you to pay to get a job', 'career workshops and one-on-one career counselling']],
+    'remote seo jobs denver colorado' => [RemoteSeoJobsDenverColoradoBlogSeeder::class, ["there are no secrets here that'll automatically rank your site first in Google", 'net earnings from self-employment are $400 or more', 'identifying key performance indicators', 'honest employers, including the federal government, will never ask you to pay to get a job']],
+    'ppc specialist jobs atlanta skills certifications' => [PpcSpecialistJobsAtlantaSkillsCertificationsBlogSeeder::class, ['You need a score of 80% or greater on the certification assessment', 'You have 75 minutes to take an assessment', 'you can retake it one day later', 'which Google states is one year', 'earning all three gives Microsoft Advertising Certified Expert status']],
     'remote support florida' => [RemoteCustomerSupportJobsFloridaBlogSeeder::class, ['16 jobs', 'Employ Florida', 'bilingual', 'hardwired']],
     'bug bounty karachi' => [BugBountyHuntingKarachiSindhBeginnersBlogSeeder::class, ['Veriff', '37 currencies', 'third-party account', 'two-factor authentication', 'entirely at their discretion']],
     'virtual assistant manila' => [VirtualAssistantJobsManilaPhilippinesBlogSeeder::class, ['PhilJobNet', 'Makati', '25 Mbps', 'graveyard shift']],
@@ -165,7 +189,7 @@ const OFFICIAL_HOSTS = [
     'www.udi.no', 'www.sem.admin.ch', 'jetprogramme.org', 'eures.europa.eu', 'reportfraud.ftc.gov',
     'reportfraud.police.uk', 'antifraudcentre-centreantifraude.ca', 'www.scamwatch.gov.au', 'beoe.gov.pk',
     'www.consumerfinance.gov', 'www.sbp.org.pk', 'find-and-update.company-information.service.gov.uk', 'www.freecodecamp.org', 'learn.microsoft.com', 'www.skillsbuild.org', 'academy.hubspot.com', 'www.open.edu', 'www.fairwork.gov.au', 'www.dol.gov', 'www.hse.gov.uk', 'www.mohre.gov.ae', 'complaint.nccia.gov.pk', 'www.hrsd.gov.sa', 'www.uscis.gov', 'home-affairs.ec.europa.eu', 'european-union.europa.eu', 'eures.europa.eu', 'www.france-visas.gouv.fr', 'employment-social-affairs.ec.europa.eu', 'www.bls.gov', 'www.nmc.org.uk',
-    'iw721.org', 'www.dli.mn.gov', 'www.ironworkers.org', 'www.neiep.org', 'www.employflorida.com', 'www.hackerone.com', 'hackerone.com', 'docs.hackerone.com', 'www.bugcrowd.com', 'docs.bugcrowd.com', 'portswigger.net', 'philjobnet.gov.ph', 'www.tutor.com', 'support.wyzant.com', 'preply.com', 'www.nj.gov', 'support.upwork.com', 'help.fiverr.com', 'www.lni.wa.gov', 'www.enterprise.gov.ie', 'developer.wordpress.org', 'developer.mozilla.org', 'www.onetonline.org', 'understand-digital-data-roles-skills.service.gov.uk', 'www.findapprenticeship.service.gov.uk', 'www.ncs.gov.in', 'www.gov.ie', 'www.publicjobs.ie', 'www.csa.ie', 'www.cso.ie', 'www.seattlepipetrades.org', 'ualocal32.com', 'www.plu68.com', 'www.plumbers98tc.org', 'lni.wa.gov', 'tsbpe.texas.gov', 'www.michigan.gov', 'cle33sheetmetal.org', 'sheetmetaltraining.org', 'sheetmetalapprenticetraining.com', 'www.smw10.org', 'dli.mn.gov', 'dol.ny.gov', 'www.ieetc.org', 'www.laett.com', 'www.ualocal364.com', 'www.wsctf.org', 'www.cnoett.org', 'www.ua373.com', 'neieprecruitment.org', 'iueclocal4.com', 'nycironworkers.org', 'www.ironworkers580.org', 'www.ironworkers12.org', 'chicago.taleo.net', 'www.transitchicago.com', 'www.cps.edu', 'ides.illinois.gov', 'illinoisjoblink.illinois.gov', 'www.houstontx.gov', 'www.governmentjobs.com', 'jobs.ridemetro.org', 'hrrm.harriscountytx.gov', 'www.workintexas.com', 'www.seattle.gov', 'www.washington.edu', 'hfs.uw.edu', 'www.worksourcewa.com', 'www.electricaltrainingalliance.org', 'www.etasv.org', 'nietc.org', 'www.oregon.gov', 'www.laborerstrainingschool.com', 'sm88jatc.org', 'smw20training.com', 'www.smart18ecwi.org', 'www.socalsma.org', 'www.sheetmetal-iti.org', 'ua.org', 'www.pftf597.org', 'www.ua190.org', 'www.ualocal467.org', 'sajac-boilermakers.org', 'boilermaker.ca', '555.boilermaker.ca', 'www.dir.ca.gov', 'boilermakers.org', 'www.bnap.com', 'www.liuna.org', 'www.liunatraining.org', 'www.njlaborers.org', 'liunaminnesota.org', 'www.iuoe.org', 'local150.org', 'www.local49training.org', 'www.apprenticeship.gov', 'www.osha.gov', 'openstax.org',
+    'iw721.org', 'www.dli.mn.gov', 'www.ironworkers.org', 'www.neiep.org', 'business.gov.au', 'ohiomeansjobs.ohio.gov', 'www.digiskills.pk', 'www.michiganworks.org', 'digiskills.pk', 'fightspam-combattrelepourriel.ised-isde.canada.ca', 'www.ftc.gov', 'consumer.ftc.gov', 'developers.google.com', 'support.google.com', 'www.about.ads.microsoft.com', 'www.nyc.gov', 'www.employflorida.com', 'www.hackerone.com', 'hackerone.com', 'docs.hackerone.com', 'www.bugcrowd.com', 'docs.bugcrowd.com', 'portswigger.net', 'philjobnet.gov.ph', 'www.tutor.com', 'support.wyzant.com', 'preply.com', 'www.nj.gov', 'support.upwork.com', 'help.fiverr.com', 'www.lni.wa.gov', 'www.enterprise.gov.ie', 'developer.wordpress.org', 'developer.mozilla.org', 'www.onetonline.org', 'understand-digital-data-roles-skills.service.gov.uk', 'www.findapprenticeship.service.gov.uk', 'www.ncs.gov.in', 'www.gov.ie', 'www.publicjobs.ie', 'www.csa.ie', 'www.cso.ie', 'www.seattlepipetrades.org', 'ualocal32.com', 'www.plu68.com', 'www.plumbers98tc.org', 'lni.wa.gov', 'tsbpe.texas.gov', 'www.michigan.gov', 'cle33sheetmetal.org', 'sheetmetaltraining.org', 'sheetmetalapprenticetraining.com', 'www.smw10.org', 'dli.mn.gov', 'dol.ny.gov', 'www.ieetc.org', 'www.laett.com', 'www.ualocal364.com', 'www.wsctf.org', 'www.cnoett.org', 'www.ua373.com', 'neieprecruitment.org', 'iueclocal4.com', 'nycironworkers.org', 'www.ironworkers580.org', 'www.ironworkers12.org', 'chicago.taleo.net', 'www.transitchicago.com', 'www.cps.edu', 'ides.illinois.gov', 'illinoisjoblink.illinois.gov', 'www.houstontx.gov', 'www.governmentjobs.com', 'jobs.ridemetro.org', 'hrrm.harriscountytx.gov', 'www.workintexas.com', 'www.seattle.gov', 'www.washington.edu', 'hfs.uw.edu', 'www.worksourcewa.com', 'www.electricaltrainingalliance.org', 'www.etasv.org', 'nietc.org', 'www.oregon.gov', 'www.laborerstrainingschool.com', 'sm88jatc.org', 'smw20training.com', 'www.smart18ecwi.org', 'www.socalsma.org', 'www.sheetmetal-iti.org', 'ua.org', 'www.pftf597.org', 'www.ua190.org', 'www.ualocal467.org', 'sajac-boilermakers.org', 'boilermaker.ca', '555.boilermaker.ca', 'www.dir.ca.gov', 'boilermakers.org', 'www.bnap.com', 'www.liuna.org', 'www.liunatraining.org', 'www.njlaborers.org', 'liunaminnesota.org', 'www.iuoe.org', 'local150.org', 'www.local49training.org', 'www.apprenticeship.gov', 'www.osha.gov', 'openstax.org',
     'www.fmcsa.dot.gov', 'www.irs.gov', 'reportfraud.ftc.gov', 'jobsearch.gov.au', 'www.jobs.nhs.uk', 'seasonaljobs.dol.gov', 'travel.state.gov', 'europass.europa.eu', 'nationalcareers.service.gov.uk',
 ];
 
@@ -268,6 +292,18 @@ it('cross-links only to guides that exist once they are all seeded', function ()
         WhatScoreNeededApprenticeshipTestBlogSeeder::class,
         OneWeekBeforeApprenticeshipTestBlogSeeder::class,
         ApplyForTradeApprenticeshipBlogSeeder::class,
+        SocialMediaManagerJobsFromHomeMelbourneBlogSeeder::class,
+        SeoExecutiveJobsMumbaiSalarySkillsBlogSeeder::class,
+        ContentWriterJobsLahoreHowToGetHiredBlogSeeder::class,
+        TranscriptionJobsFromHomeOhioBlogSeeder::class,
+        WorkFromHomeJobsMichiganNoExperienceBlogSeeder::class,
+        RemoteJobsBeginnersIslamabadPakistanBlogSeeder::class,
+        CopywriterJobsBirminghamEnglandBeginnersBlogSeeder::class,
+        EmailMarketingJobsVancouverBritishColumbiaBlogSeeder::class,
+        AffiliateMarketingBeginnersKarachiSindhBlogSeeder::class,
+        EntryLevelSeoJobsNewYorkCityBlogSeeder::class,
+        RemoteSeoJobsDenverColoradoBlogSeeder::class,
+        PpcSpecialistJobsAtlantaSkillsCertificationsBlogSeeder::class,
         RemoteCustomerSupportJobsFloridaBlogSeeder::class,
         BugBountyHuntingKarachiSindhBeginnersBlogSeeder::class,
         VirtualAssistantJobsManilaPhilippinesBlogSeeder::class,
@@ -337,7 +373,7 @@ it('cross-links only to guides that exist once they are all seeded', function ()
         preg_match_all('#href="/blog/([^"]+)"#', $content, $matches);
 
         foreach ($matches[1] as $slug) {
-            if (in_array($slug, ['carpenter-jobs-in-usa', 'virtual-assistant-jobs-in-pakistan', 'remote-frontend-developer-jobs-in-usa'], true)) {
+            if (in_array($slug, ['carpenter-jobs-in-usa', 'virtual-assistant-jobs-in-pakistan', 'remote-frontend-developer-jobs-in-usa', 'on-page-seo-assistant-jobs', 'digital-marketing-jobs-in-usa', 'remote-jobs-in-usa', 'copywriter-jobs-in-usa', 'marketing-jobs-in-uk', 'data-entry-jobs-in-usa', 'social-media-manager-jobs-in-usa', 'content-writer-jobs-in-usa', 'how-to-get-a-remote-customer-service-job-with-no-experience', 'online-jobs-in-pakistan', 'online-jobs-in-usa-for-pakistanis-remote-work', 'remote-jobs-in-pakistan-with-no-experience'], true)) {
                 continue;
             }
 
