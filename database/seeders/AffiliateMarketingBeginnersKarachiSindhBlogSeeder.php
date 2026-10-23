@@ -19,8 +19,8 @@ use Illuminate\Database\Seeder;
  * 4. DigiSkills.pk homepage was read on 22 October 2026: operator, free courses, Batch-05 enrolment from 2 November 2026. No affiliate marketing course was visible, so the guide says to check the catalogue. digiskills.pk is a new host to add to OFFICIAL_HOSTS.
  * 5. The PKR 500 example in the brief is kept as an illustrative sum and labelled as such. There is no poster for this guide, so it is held back from deploy; its job row still goes live.
  *
- * The featured image is not on disk yet; this seeder is held back from deploy
- * until the owner supplies it. The job listing is in GuideJobListingsSeeder.
+ * The featured image is a generated JobGader poster (no owner poster supplied).
+ * The job listing is in GuideJobListingsSeeder.
  *
  * updateOrCreate, so re-running is safe; it overwrites admin-panel edits to
  * this row.
