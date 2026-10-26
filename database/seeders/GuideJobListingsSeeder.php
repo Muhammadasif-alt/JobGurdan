@@ -160,6 +160,11 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Maharashtra', 'country' => 'India']
         );
 
+        $glasgow = Location::firstOrCreate(
+            ['name' => 'Glasgow'],
+            ['area' => 'Scotland', 'country' => 'United Kingdom']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1202,6 +1207,17 @@ class GuideJobListingsSeeder extends Seeder
                 'url' => 'https://www.ncs.gov.in/',
                 'keywords' => 'bpo jobs in pune, bpo jobs pune freshers, customer support jobs pune, national career service pune',
                 'note' => '<p><strong>Note:</strong> this link opens an official government career portal. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['customer-support-admin', 'Customer Support & Admin'],
+                'advertiser' => ['UK Public Sector Employers (Aggregated)', 'uk-public-sector-aggregated'],
+                'location' => $glasgow,
+                'position' => 'Office Assistant - myjobscotland Council Vacancies (Glasgow, Scotland)',
+                'intro' => 'myjobscotland is the recruitment site used by Scotland\'s councils, including Glasgow City Council. Search its Glasgow listings for clerical officer, business support and administrative assistant posts, and read each advert\'s person specification and closing date.',
+                'items' => ['Address each essential criterion with an example; a closed Glasgow clerical officer advert asked for communication, numbers, accuracy and deadlines', 'Council posts state the salary band and hours; ask for the pro rata amount on part-time contracts', 'The right to work in the UK is required; office assistant is not a Skilled Worker visa route'],
+                'url' => 'https://myjobscotland.gov.uk/councils/glasgow/jobs',
+                'keywords' => 'office assistant jobs in glasgow, clerical assistant jobs glasgow, glasgow city council jobs, myjobscotland glasgow',
+                'note' => '<p><strong>Note:</strong> this link opens an official public-sector recruitment site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [
                 'category' => ['transport-logistics', 'Transport & Logistics'],

@@ -66,6 +66,7 @@ it('gives each salary and from-Pakistan guide its own job listing', function () 
         'Apprenticeship Applicant — Apprenticeship.gov Job Finder (Check Entry Requirements)',
         'Elevator Constructor Applicant — NEIEP Ranked Hiring List Information',
         'Construction Laborer Applicant — Laborers Training School Waiting List Information',
+        'Office Assistant - myjobscotland Council Vacancies (Glasgow, Scotland)',
         'Back Office Executive - National Career Service Portal (Delhi)',
         'Receptionist - UAE Government Jobs Information Page (Dubai)',
         'Call Centre Agent - National Job Portal (Karachi, Sindh)',
