@@ -1,18 +1,7 @@
 <?php
 
 use App\Models\Blog;
-use Database\Seeders\SocialMediaManagerJobsFromHomeMelbourneBlogSeeder;
-use Database\Seeders\SeoExecutiveJobsMumbaiSalarySkillsBlogSeeder;
-use Database\Seeders\ContentWriterJobsLahoreHowToGetHiredBlogSeeder;
-use Database\Seeders\TranscriptionJobsFromHomeOhioBlogSeeder;
-use Database\Seeders\WorkFromHomeJobsMichiganNoExperienceBlogSeeder;
-use Database\Seeders\RemoteJobsBeginnersIslamabadPakistanBlogSeeder;
-use Database\Seeders\CopywriterJobsBirminghamEnglandBeginnersBlogSeeder;
-use Database\Seeders\EmailMarketingJobsVancouverBritishColumbiaBlogSeeder;
 use Database\Seeders\AffiliateMarketingBeginnersKarachiSindhBlogSeeder;
-use Database\Seeders\EntryLevelSeoJobsNewYorkCityBlogSeeder;
-use Database\Seeders\RemoteSeoJobsDenverColoradoBlogSeeder;
-use Database\Seeders\PpcSpecialistJobsAtlantaSkillsCertificationsBlogSeeder;
 use Database\Seeders\ApplyForTradeApprenticeshipBlogSeeder;
 use Database\Seeders\ApprenticeshipRankingListsBlogSeeder;
 use Database\Seeders\ApprenticeshipTestMathBasicsBlogSeeder;
@@ -27,13 +16,19 @@ use Database\Seeders\BringFamilyWorkingAbroadBlogSeeder;
 use Database\Seeders\BugBountyHuntingKarachiSindhBeginnersBlogSeeder;
 use Database\Seeders\CaregiverJobsUsaVisaSponsorshipBlogSeeder;
 use Database\Seeders\CleanerJobUkFromPakistanBlogSeeder;
+use Database\Seeders\ContentWriterJobsLahoreHowToGetHiredBlogSeeder;
+use Database\Seeders\CopywriterJobsBirminghamEnglandBeginnersBlogSeeder;
 use Database\Seeders\CountriesHiringForeignWorkersBlogSeeder;
 use Database\Seeders\DataAnalystJobsDublinIrelandBlogSeeder;
+use Database\Seeders\DataEntryJobsHomePennsylvaniaLegitRedFlagsBlogSeeder;
+use Database\Seeders\DataEntryJobsHoustonNoExperienceBlogSeeder;
 use Database\Seeders\DocumentsNeededToWorkAbroadBlogSeeder;
 use Database\Seeders\ElevatorApprenticeshipChicagoPhiladelphiaBostonBlogSeeder;
 use Database\Seeders\ElevatorApprenticeshipTestNeiepBlogSeeder;
+use Database\Seeders\EmailMarketingJobsVancouverBritishColumbiaBlogSeeder;
 use Database\Seeders\EmployerCancelsWorkVisaBlogSeeder;
 use Database\Seeders\EnglishLanguageRequirementsWorkingAbroadBlogSeeder;
+use Database\Seeders\EntryLevelSeoJobsNewYorkCityBlogSeeder;
 use Database\Seeders\FakeOverseasJobOfferBlogSeeder;
 use Database\Seeders\FindJobAbroadWithoutRecruiterBlogSeeder;
 use Database\Seeders\FreelanceWritingJobsNairobiKenyaBlogSeeder;
@@ -64,20 +59,26 @@ use Database\Seeders\OnlineTutoringJobsNewJerseyBlogSeeder;
 use Database\Seeders\OperatingEngineersApprenticeshipTestBlogSeeder;
 use Database\Seeders\PartTimeJobsSeattleWaBlogSeeder;
 use Database\Seeders\PlumberApprenticeshipSeattleHoustonDetroitBlogSeeder;
+use Database\Seeders\PpcSpecialistJobsAtlantaSkillsCertificationsBlogSeeder;
 use Database\Seeders\PrepareOnlineJobInterviewAbroadBlogSeeder;
 use Database\Seeders\RemoteCustomerSupportJobsFloridaBlogSeeder;
+use Database\Seeders\RemoteJobsBeginnersIslamabadPakistanBlogSeeder;
+use Database\Seeders\RemoteSeoJobsDenverColoradoBlogSeeder;
 use Database\Seeders\RemoteWordPressDeveloperJobsTorontoOntarioBlogSeeder;
 use Database\Seeders\ResumeForJobAbroadBlogSeeder;
 use Database\Seeders\RetakeApprenticeshipAptitudeTestBlogSeeder;
 use Database\Seeders\RightsForeignWorkersAbroadBlogSeeder;
 use Database\Seeders\SaveMoneyWorkingAbroadBlogSeeder;
 use Database\Seeders\SendMoneyHomeWorkingAbroadBlogSeeder;
+use Database\Seeders\SeoExecutiveJobsMumbaiSalarySkillsBlogSeeder;
 use Database\Seeders\SheetMetalApprenticeshipClevelandPittsburghMinneapolisBlogSeeder;
 use Database\Seeders\SheetMetalWorkersAptitudeTestBlogSeeder;
 use Database\Seeders\SkilledTradesLongIslandHudsonValleyBlogSeeder;
+use Database\Seeders\SocialMediaManagerJobsFromHomeMelbourneBlogSeeder;
 use Database\Seeders\SoftwareDeveloperJobsSeattleWashingtonBlogSeeder;
 use Database\Seeders\TopSkillsJobAbroadFastBlogSeeder;
 use Database\Seeders\TradesCareersUpstateNewYorkBlogSeeder;
+use Database\Seeders\TranscriptionJobsFromHomeOhioBlogSeeder;
 use Database\Seeders\TruckDriverSalaryUsaBlogSeeder;
 use Database\Seeders\UaPlumberPipefitterApprenticeshipTestBlogSeeder;
 use Database\Seeders\UnionApprenticeshipsSouthernCaliforniaInlandEmpireBlogSeeder;
@@ -93,6 +94,7 @@ use Database\Seeders\WhatIsWorkPermitBlogSeeder;
 use Database\Seeders\WhatScoreNeededApprenticeshipTestBlogSeeder;
 use Database\Seeders\WordPressDeveloperJobsAustinTexasBlogSeeder;
 use Database\Seeders\WorkAbroadVsStayHomeBlogSeeder;
+use Database\Seeders\WorkFromHomeJobsMichiganNoExperienceBlogSeeder;
 use Database\Seeders\WorkVisaVsWorkPermitBlogSeeder;
 use Database\Seeders\WorkVisaWithoutAgentBlogSeeder;
 
@@ -142,6 +144,8 @@ dataset('abroadGuides', [
     'apprenticeship retake' => [RetakeApprenticeshipAptitudeTestBlogSeeder::class, ['seven days', 'six-month wait', 'cannot be retaken']],
     'apprenticeship score' => [WhatScoreNeededApprenticeshipTestBlogSeeder::class, ['cumulative WorkKeys score of 17', '35 of 45', 'minimum of 70%']],
     'apprenticeship week plan' => [OneWeekBeforeApprenticeshipTestBlogSeeder::class, ['Day 6', '35 reading, 35 mechanical and 30 maths', 'Apprenticeship.gov']],
+    'data entry jobs houston no experience' => [DataEntryJobsHoustonNoExperienceBlogSeeder::class, ['$19.00 an hour', '$39,520 a year', '4,430 data entry keyers', 'decline 25.5%', 'posted on 22 October 2026', 'Honest employers, including the federal government, will never ask you to pay to get a job']],
+    'data entry jobs home pennsylvania legit red flags' => [DataEntryJobsHomePennsylvaniaLegitRedFlagsBlogSeeder::class, ['free job-matching system', '$18.66 an hour', '$38,810 a year', 'usually $5 to $20', 'No honest potential employer will ever send you a check and then tell you to send on part of the money', 'Signal Messenger']],
     'social media manager jobs from home melbourne' => [SocialMediaManagerJobsFromHomeMelbourneBlogSeeder::class, ['contractors run their own business and sell their services to others', 'the employer controls how, where and when they do their work', 'having an ABN is not the deciding factor of whether someone is a contractor', 'a place Australians can search and apply for jobs', 'contractors have different responsibilities from employees around insurance, tax and super']],
     'seo executive jobs mumbai salary skills' => [SeoExecutiveJobsMumbaiSalarySkillsBlogSeeder::class, ['helping search engines understand your content', 'no secrets that will automatically rank your site first in Google', 'does not charge any fee at any stage of registration, job application or interview processing', 'Rs 3,00,000', 'URL Inspection Tool']],
     'content writer jobs lahore how to get hired' => [ContentWriterJobsLahoreHowToGetHiredBlogSeeder::class, ['Batch 05 would start from 2 November 2026', 'the Ministry of IT and Telecom conceived the programme', 'people-first content is created primarily for people', 'it is critical to manually fact check and review AI-generated content', 'EPD Circular Letter No. 06 of 2026']],
@@ -189,7 +193,7 @@ const OFFICIAL_HOSTS = [
     'www.udi.no', 'www.sem.admin.ch', 'jetprogramme.org', 'eures.europa.eu', 'reportfraud.ftc.gov',
     'reportfraud.police.uk', 'antifraudcentre-centreantifraude.ca', 'www.scamwatch.gov.au', 'beoe.gov.pk',
     'www.consumerfinance.gov', 'www.sbp.org.pk', 'find-and-update.company-information.service.gov.uk', 'www.freecodecamp.org', 'learn.microsoft.com', 'www.skillsbuild.org', 'academy.hubspot.com', 'www.open.edu', 'www.fairwork.gov.au', 'www.dol.gov', 'www.hse.gov.uk', 'www.mohre.gov.ae', 'complaint.nccia.gov.pk', 'www.hrsd.gov.sa', 'www.uscis.gov', 'home-affairs.ec.europa.eu', 'european-union.europa.eu', 'eures.europa.eu', 'www.france-visas.gouv.fr', 'employment-social-affairs.ec.europa.eu', 'www.bls.gov', 'www.nmc.org.uk',
-    'iw721.org', 'www.dli.mn.gov', 'www.ironworkers.org', 'www.neiep.org', 'business.gov.au', 'ohiomeansjobs.ohio.gov', 'www.digiskills.pk', 'www.michiganworks.org', 'digiskills.pk', 'fightspam-combattrelepourriel.ised-isde.canada.ca', 'www.ftc.gov', 'consumer.ftc.gov', 'developers.google.com', 'support.google.com', 'www.about.ads.microsoft.com', 'www.nyc.gov', 'www.employflorida.com', 'www.hackerone.com', 'hackerone.com', 'docs.hackerone.com', 'www.bugcrowd.com', 'docs.bugcrowd.com', 'portswigger.net', 'philjobnet.gov.ph', 'www.tutor.com', 'support.wyzant.com', 'preply.com', 'www.nj.gov', 'support.upwork.com', 'help.fiverr.com', 'www.lni.wa.gov', 'www.enterprise.gov.ie', 'developer.wordpress.org', 'developer.mozilla.org', 'www.onetonline.org', 'understand-digital-data-roles-skills.service.gov.uk', 'www.findapprenticeship.service.gov.uk', 'www.ncs.gov.in', 'www.gov.ie', 'www.publicjobs.ie', 'www.csa.ie', 'www.cso.ie', 'www.seattlepipetrades.org', 'ualocal32.com', 'www.plu68.com', 'www.plumbers98tc.org', 'lni.wa.gov', 'tsbpe.texas.gov', 'www.michigan.gov', 'cle33sheetmetal.org', 'sheetmetaltraining.org', 'sheetmetalapprenticetraining.com', 'www.smw10.org', 'dli.mn.gov', 'dol.ny.gov', 'www.ieetc.org', 'www.laett.com', 'www.ualocal364.com', 'www.wsctf.org', 'www.cnoett.org', 'www.ua373.com', 'neieprecruitment.org', 'iueclocal4.com', 'nycironworkers.org', 'www.ironworkers580.org', 'www.ironworkers12.org', 'chicago.taleo.net', 'www.transitchicago.com', 'www.cps.edu', 'ides.illinois.gov', 'illinoisjoblink.illinois.gov', 'www.houstontx.gov', 'www.governmentjobs.com', 'jobs.ridemetro.org', 'hrrm.harriscountytx.gov', 'www.workintexas.com', 'www.seattle.gov', 'www.washington.edu', 'hfs.uw.edu', 'www.worksourcewa.com', 'www.electricaltrainingalliance.org', 'www.etasv.org', 'nietc.org', 'www.oregon.gov', 'www.laborerstrainingschool.com', 'sm88jatc.org', 'smw20training.com', 'www.smart18ecwi.org', 'www.socalsma.org', 'www.sheetmetal-iti.org', 'ua.org', 'www.pftf597.org', 'www.ua190.org', 'www.ualocal467.org', 'sajac-boilermakers.org', 'boilermaker.ca', '555.boilermaker.ca', 'www.dir.ca.gov', 'boilermakers.org', 'www.bnap.com', 'www.liuna.org', 'www.liunatraining.org', 'www.njlaborers.org', 'liunaminnesota.org', 'www.iuoe.org', 'local150.org', 'www.local49training.org', 'www.apprenticeship.gov', 'www.osha.gov', 'openstax.org',
+    'iw721.org', 'www.dli.mn.gov', 'www.ironworkers.org', 'www.neiep.org', 'data.bls.gov', 'www.pa.gov', 'www.pacareerlink.pa.gov', 'www.identitytheft.gov', 'hayselectricalservices.applytojob.com', 'www.hayselectrical.com', 'business.gov.au', 'ohiomeansjobs.ohio.gov', 'www.digiskills.pk', 'www.michiganworks.org', 'digiskills.pk', 'fightspam-combattrelepourriel.ised-isde.canada.ca', 'www.ftc.gov', 'consumer.ftc.gov', 'developers.google.com', 'support.google.com', 'www.about.ads.microsoft.com', 'www.nyc.gov', 'www.employflorida.com', 'www.hackerone.com', 'hackerone.com', 'docs.hackerone.com', 'www.bugcrowd.com', 'docs.bugcrowd.com', 'portswigger.net', 'philjobnet.gov.ph', 'www.tutor.com', 'support.wyzant.com', 'preply.com', 'www.nj.gov', 'support.upwork.com', 'help.fiverr.com', 'www.lni.wa.gov', 'www.enterprise.gov.ie', 'developer.wordpress.org', 'developer.mozilla.org', 'www.onetonline.org', 'understand-digital-data-roles-skills.service.gov.uk', 'www.findapprenticeship.service.gov.uk', 'www.ncs.gov.in', 'www.gov.ie', 'www.publicjobs.ie', 'www.csa.ie', 'www.cso.ie', 'www.seattlepipetrades.org', 'ualocal32.com', 'www.plu68.com', 'www.plumbers98tc.org', 'lni.wa.gov', 'tsbpe.texas.gov', 'www.michigan.gov', 'cle33sheetmetal.org', 'sheetmetaltraining.org', 'sheetmetalapprenticetraining.com', 'www.smw10.org', 'dli.mn.gov', 'dol.ny.gov', 'www.ieetc.org', 'www.laett.com', 'www.ualocal364.com', 'www.wsctf.org', 'www.cnoett.org', 'www.ua373.com', 'neieprecruitment.org', 'iueclocal4.com', 'nycironworkers.org', 'www.ironworkers580.org', 'www.ironworkers12.org', 'chicago.taleo.net', 'www.transitchicago.com', 'www.cps.edu', 'ides.illinois.gov', 'illinoisjoblink.illinois.gov', 'www.houstontx.gov', 'www.governmentjobs.com', 'jobs.ridemetro.org', 'hrrm.harriscountytx.gov', 'www.workintexas.com', 'www.seattle.gov', 'www.washington.edu', 'hfs.uw.edu', 'www.worksourcewa.com', 'www.electricaltrainingalliance.org', 'www.etasv.org', 'nietc.org', 'www.oregon.gov', 'www.laborerstrainingschool.com', 'sm88jatc.org', 'smw20training.com', 'www.smart18ecwi.org', 'www.socalsma.org', 'www.sheetmetal-iti.org', 'ua.org', 'www.pftf597.org', 'www.ua190.org', 'www.ualocal467.org', 'sajac-boilermakers.org', 'boilermaker.ca', '555.boilermaker.ca', 'www.dir.ca.gov', 'boilermakers.org', 'www.bnap.com', 'www.liuna.org', 'www.liunatraining.org', 'www.njlaborers.org', 'liunaminnesota.org', 'www.iuoe.org', 'local150.org', 'www.local49training.org', 'www.apprenticeship.gov', 'www.osha.gov', 'openstax.org',
     'www.fmcsa.dot.gov', 'www.irs.gov', 'reportfraud.ftc.gov', 'jobsearch.gov.au', 'www.jobs.nhs.uk', 'seasonaljobs.dol.gov', 'travel.state.gov', 'europass.europa.eu', 'nationalcareers.service.gov.uk',
 ];
 
@@ -292,6 +296,8 @@ it('cross-links only to guides that exist once they are all seeded', function ()
         WhatScoreNeededApprenticeshipTestBlogSeeder::class,
         OneWeekBeforeApprenticeshipTestBlogSeeder::class,
         ApplyForTradeApprenticeshipBlogSeeder::class,
+        DataEntryJobsHoustonNoExperienceBlogSeeder::class,
+        DataEntryJobsHomePennsylvaniaLegitRedFlagsBlogSeeder::class,
         SocialMediaManagerJobsFromHomeMelbourneBlogSeeder::class,
         SeoExecutiveJobsMumbaiSalarySkillsBlogSeeder::class,
         ContentWriterJobsLahoreHowToGetHiredBlogSeeder::class,

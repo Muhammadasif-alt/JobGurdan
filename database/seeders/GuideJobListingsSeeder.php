@@ -135,6 +135,16 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Punjab', 'country' => 'Pakistan']
         );
 
+        $houston = Location::firstOrCreate(
+            ['name' => 'Houston'],
+            ['area' => 'Texas', 'country' => 'United States']
+        );
+
+        $pennsylvania = Location::firstOrCreate(
+            ['name' => 'Pennsylvania'],
+            ['area' => 'Nationwide', 'country' => 'United States']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1112,6 +1122,29 @@ class GuideJobListingsSeeder extends Seeder
                 'note' => '<p><strong>Note:</strong> this link opens an official training programme page. It is not an application form for a job, and it does not guarantee employment or income.</p>',
             ],
             [
+                'category' => ['customer-support-admin', 'Customer Support & Admin'],
+                'advertiser' => ['US City and Public Employers (Aggregated)', 'usa-public-employers-aggregated'],
+                'location' => $houston,
+                'position' => 'Data Entry Clerk - WorkInTexas Job Search (Houston, Texas)',
+                'intro' => 'WorkInTexas.com is the State of Texas job search site run by the Texas Workforce Commission. Search it for data entry, clerical and records roles in Houston, read each posting\'s requirements and apply through the route the posting gives.',
+                'items' => ['Most beginner adverts list skills rather than years of experience; read the actual requirements', 'The May 2025 BLS median for data entry keyers in the Houston metro area is $19.00 an hour, for reference only', 'Never pay for training, equipment or a background check to get a job'],
+                'url' => 'https://www.workintexas.com/',
+                'keywords' => 'data entry jobs houston no experience, data entry clerk jobs houston, workintexas jobs, entry level office jobs houston',
+                'note' => '<p><strong>Note:</strong> this link opens an official state job portal. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['customer-support-admin', 'Customer Support & Admin'],
+                'advertiser' => ['US City and Public Employers (Aggregated)', 'usa-public-employers-aggregated'],
+                'location' => $pennsylvania,
+                'position' => 'Remote Data Entry - PA CareerLink Job Search (Pennsylvania)',
+                'intro' => 'PA CareerLink is the Commonwealth of Pennsylvania\'s resource for job seekers, and the state says it offers a free job-matching system and support services. Search it for remote data entry, records and clerical roles and check each posting\'s location rules before you apply.',
+                'items' => ['Confirm that a remote role accepts Pennsylvania residents and whether any training is onsite', 'Resume workshops, mock interviews and training help are offered through local offices', 'No honest employer sends you a check and asks you to send part of it on'],
+                'url' => 'https://www.pa.gov/services/dli/find-jobs-with-pa-careerlink-',
+                'keywords' => 'data entry jobs from home pennsylvania, remote data entry pennsylvania, pa careerlink jobs, remote clerical jobs pennsylvania',
+                'job_type' => 'Remote',
+                'note' => '<p><strong>Note:</strong> this link opens an official state government page. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
                 'category' => ['transport-logistics', 'Transport & Logistics'],
                 'advertiser' => ['UK Warehouse and Logistics Employers (Aggregated)', 'uk-warehouse-aggregated'],
                 'location' => $uk,
@@ -1147,7 +1180,7 @@ class GuideJobListingsSeeder extends Seeder
                     'location_id' => $listing['location']->id,
                     'description' => '<p>'.$listing['intro']."</p>\n\n<h3>Requirements</h3>\n<ul>\n".$items."\n</ul>\n\n".$footer,
                     'employment_type' => 'Full-time',
-                    'job_type' => 'On-site',
+                    'job_type' => $listing['job_type'] ?? 'On-site',
                     'work_hours' => 'Set by each employer',
                     'language' => 'English',
                     'salary_currency' => null,

@@ -66,6 +66,8 @@ it('gives each salary and from-Pakistan guide its own job listing', function () 
         'Apprenticeship Applicant — Apprenticeship.gov Job Finder (Check Entry Requirements)',
         'Elevator Constructor Applicant — NEIEP Ranked Hiring List Information',
         'Construction Laborer Applicant — Laborers Training School Waiting List Information',
+        'Data Entry Clerk - WorkInTexas Job Search (Houston, Texas)',
+        'Remote Data Entry - PA CareerLink Job Search (Pennsylvania)',
         'Social Media Manager - Workforce Australia Job Search (Melbourne, Victoria)',
         'SEO Executive - National Career Service Portal (Mumbai, Maharashtra)',
         'Content Writer - DigiSkills.pk Free Training (Lahore, Punjab)',
