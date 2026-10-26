@@ -5,7 +5,7 @@
  */
 function landingPageBodies(): array
 {
-    $shared = ['_seo-landing', 'about', 'contact', 'disclaimer', 'privacy', 'terms'];
+    $shared = ['_seo-landing', 'about', 'contact', 'disclaimer', 'editorial-policy', 'privacy', 'terms'];
     $bodies = [];
 
     foreach (glob(resource_path('views/pages/*.blade.php')) as $file) {
