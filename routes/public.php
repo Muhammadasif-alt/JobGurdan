@@ -267,7 +267,9 @@ Route::get('/sitemap-core.xml', function () use ($sitemapUrl, $sitemapResponse) 
 Route::get('/sitemap-categories.xml', function () use ($sitemapUrl, $sitemapResponse) {
     $inner = '';
     try {
-        foreach (\App\Models\Categories::query()->whereNotNull('slug')->get(['slug', 'updated_at']) as $cat) {
+        foreach (\App\Models\Categories::query()->whereNotNull('slug')
+            ->whereIn('id', \App\Models\Job::query()->active()->vacancy()->select('category_id'))
+            ->get(['slug', 'updated_at']) as $cat) {
             $inner .= $sitemapUrl(url('/categories/'.$cat->slug), 'weekly', '0.6',
                 optional($cat->updated_at)->toDateString());
         }
@@ -280,7 +282,9 @@ Route::get('/sitemap-categories.xml', function () use ($sitemapUrl, $sitemapResp
 Route::get('/sitemap-locations.xml', function () use ($sitemapUrl, $sitemapResponse) {
     $inner = '';
     try {
-        foreach (\App\Models\Location::query()->get(['id', 'updated_at']) as $loc) {
+        foreach (\App\Models\Location::query()
+            ->whereIn('id', \App\Models\Job::query()->active()->vacancy()->select('location_id'))
+            ->get(['id', 'updated_at']) as $loc) {
             $inner .= $sitemapUrl(url('/location/'.$loc->id), 'weekly', '0.6',
                 optional($loc->updated_at)->toDateString());
         }
@@ -293,7 +297,10 @@ Route::get('/sitemap-locations.xml', function () use ($sitemapUrl, $sitemapRespo
 Route::get('/sitemap-companies.xml', function () use ($sitemapUrl, $sitemapResponse) {
     $inner = '';
     try {
-        foreach (\App\Models\Advertiser::query()->get(['id', 'updated_at']) as $c) {
+        foreach (\App\Models\Advertiser::query()
+            ->where('name', 'not like', '%'.\App\Models\Job::ROUND_UP_ADVERTISER_MARKER.'%')
+            ->whereIn('id', \App\Models\Job::query()->active()->vacancy()->select('advertiser_id'))
+            ->get(['id', 'updated_at']) as $c) {
             $inner .= $sitemapUrl(url('/companies/'.$c->id), 'weekly', '0.5',
                 optional($c->updated_at)->toDateString());
         }

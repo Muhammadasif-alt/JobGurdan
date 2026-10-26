@@ -98,7 +98,7 @@
     @if (count($faqs) >= 2)
         <script type="application/ld+json">
         {!! json_encode([
-            '@context' => 'https://schema.org',
+            '@'.'context' => 'https://schema.org',
             '@type' => 'FAQPage',
             'mainEntity' => array_map(fn (array $faq) => [
                 '@type' => 'Question',
@@ -125,7 +125,7 @@
     {{-- JSON-LD: Organization — the publisher as its own entity, so the posts,
          the job listings and the site all resolve to one business. --}}
     <script type="application/ld+json">
-    {!! json_encode(['@context' => 'https://schema.org'] + $organisation, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+    {!! json_encode(['@'.'context' => 'https://schema.org'] + $organisation, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
     </script>
 @endpush
 

@@ -23,11 +23,15 @@
 {{-- Built from the route rather than $jobs->url(): the paginator appends the
      active filters, and those belong outside the canonical. --}}
 @section('canonical', route('jobs.location', $location->id).($locFirst ? '' : '?page='.$locPage))
+{{-- A location with no open vacancy is an empty page; keep it reachable but out of the index. --}}
+@if ($jobs->total() === 0)
+    @section('meta_robots', 'noindex, follow')
+@endif
 
 @push('head')
 <script type="application/ld+json">
 {!! json_encode([
-    '@context' => 'https://schema.org',
+    '@'.'context' => 'https://schema.org',
     '@type' => 'BreadcrumbList',
     'itemListElement' => [
         ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
@@ -38,7 +42,7 @@
 </script>
 <script type="application/ld+json">
 {!! json_encode([
-    '@context' => 'https://schema.org',
+    '@'.'context' => 'https://schema.org',
     '@type' => 'CollectionPage',
     'name' => 'Jobs in '.$location->name,
     'description' => $locDesc,

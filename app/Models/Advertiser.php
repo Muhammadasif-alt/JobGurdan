@@ -95,4 +95,14 @@ class Advertiser extends Model
         static::saved(fn () => \App\Support\SiteCache::flush());
         static::deleted(fn () => \App\Support\SiteCache::flush());
     }
+
+    /**
+     * Round-up advertisers such as "UK Employers (Aggregated)" stand for a
+     * group of employers, not a company that hires, so their pages carry no
+     * vacancy and stay out of the index and the sitemap.
+     */
+    public function isAggregated(): bool
+    {
+        return str_contains((string) $this->name, Job::ROUND_UP_ADVERTISER_MARKER);
+    }
 }

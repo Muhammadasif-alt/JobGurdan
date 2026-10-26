@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Site;
 
 use App\Http\Controllers\Controller;
 use App\Models\Advertiser;
+use App\Models\BlogCatgories;
 use App\Models\Category;
 use App\Models\Job;
 use App\Models\Location;
@@ -646,7 +647,15 @@ class UserJobController extends Controller
 
     public function showCategory(Request $request, $categorySlug)
     {
-        $category = Category::where('slug', $categorySlug)->firstOrFail();
+        $category = Category::where('slug', $categorySlug)->first();
+
+        if (! $category) {
+            if (BlogCatgories::where('slug', $categorySlug)->exists()) {
+                return redirect()->route('blog.index', ['category' => $categorySlug], 301);
+            }
+
+            abort(404);
+        }
 
         $locationFilter = trim((string) $request->input('location', ''));
         $jobTypes = (array) $request->input('job_type', []);

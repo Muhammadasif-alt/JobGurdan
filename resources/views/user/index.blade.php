@@ -104,7 +104,7 @@
     {{-- JSON-LD: FAQPage, built from the same list the visible FAQ section renders --}}
     <script type="application/ld+json">
     {!! json_encode([
-        '@context' => 'https://schema.org',
+        '@'.'context' => 'https://schema.org',
         '@type' => 'FAQPage',
         'mainEntity' => array_map(fn (array $faq): array => [
             '@type' => 'Question',

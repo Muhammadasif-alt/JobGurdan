@@ -19,11 +19,15 @@
 @section('og_title', $catTitle)
 @section('meta_description', 'Find ' . $category->name . ' jobs across ' . $coverage->shortList() . '. Browse ' . $jobs->total() . ' active openings, filter by location and job type, and apply on the employer site.')
 @section('canonical', route('jobs.category', $category->slug).($catFirst ? '' : '?page='.$catPage))
+{{-- A category with no open vacancy is an empty page; keep it reachable but out of the index. --}}
+@if ($jobs->total() === 0)
+    @section('meta_robots', 'noindex, follow')
+@endif
 
 @push('head')
 <script type="application/ld+json">
 {!! json_encode([
-    '@context' => 'https://schema.org',
+    '@'.'context' => 'https://schema.org',
     '@type' => 'BreadcrumbList',
     'itemListElement' => [
         ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
@@ -34,7 +38,7 @@
 </script>
 <script type="application/ld+json">
 {!! json_encode([
-    '@context' => 'https://schema.org',
+    '@'.'context' => 'https://schema.org',
     '@type' => 'CollectionPage',
     'name' => $category->name.' jobs',
     'url' => url()->current(),

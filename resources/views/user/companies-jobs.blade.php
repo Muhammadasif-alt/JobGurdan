@@ -43,11 +43,15 @@
 @section('og_title', $coTitle)
 @section('meta_description', $coDesc)
 @section('canonical', route('companies.show', $company->id).($coFirst ? '' : '?page='.$coPage))
+{{-- Aggregated placeholder advertisers and employers with no open vacancy are empty pages; keep them reachable but out of the index. --}}
+@if ($jobs->total() === 0 || $company->isAggregated())
+    @section('meta_robots', 'noindex, follow')
+@endif
 
 @push('head')
 <script type="application/ld+json">
 {!! json_encode([
-    '@context' => 'https://schema.org',
+    '@'.'context' => 'https://schema.org',
     '@type' => 'BreadcrumbList',
     'itemListElement' => [
         ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
@@ -58,7 +62,7 @@
 </script>
 <script type="application/ld+json">
 {!! json_encode([
-    '@context' => 'https://schema.org',
+    '@'.'context' => 'https://schema.org',
     '@type' => 'CollectionPage',
     'name' => $company->name.' jobs',
     'description' => $coDesc,
