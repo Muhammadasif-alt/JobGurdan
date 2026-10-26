@@ -145,6 +145,21 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Nationwide', 'country' => 'United States']
         );
 
+        $delhi = Location::firstOrCreate(
+            ['name' => 'Delhi'],
+            ['area' => 'Delhi', 'country' => 'India']
+        );
+
+        $dubai = Location::firstOrCreate(
+            ['name' => 'Dubai'],
+            ['area' => 'Dubai', 'country' => 'United Arab Emirates']
+        );
+
+        $pune = Location::firstOrCreate(
+            ['name' => 'Pune'],
+            ['area' => 'Maharashtra', 'country' => 'India']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1143,6 +1158,50 @@ class GuideJobListingsSeeder extends Seeder
                 'keywords' => 'data entry jobs from home pennsylvania, remote data entry pennsylvania, pa careerlink jobs, remote clerical jobs pennsylvania',
                 'job_type' => 'Remote',
                 'note' => '<p><strong>Note:</strong> this link opens an official state government page. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['customer-support-admin', 'Customer Support & Admin'],
+                'advertiser' => ['Indian Public Employers (Aggregated)', 'india-public-aggregated'],
+                'location' => $delhi,
+                'position' => 'Back Office Executive - National Career Service Portal (Delhi)',
+                'intro' => 'The National Career Service is the job and career portal of the Ministry of Labour and Employment, Government of India, and it says it charges no fee at any stage of registration, job application or interview processing. Search it for back office, office executive and data entry roles in Delhi and read each posting\'s requirements.',
+                'items' => ['Ask whether a quoted salary is gross, take-home or cost to company', 'Both employer adverts we checked on 26 October 2026 asked for experience; read the requirement before applying', 'Never pay a consultant or employer for an interview or a placement'],
+                'url' => 'https://www.ncs.gov.in/',
+                'keywords' => 'back office executive jobs delhi, back office jobs delhi freshers, office executive jobs delhi, national career service delhi',
+                'note' => '<p><strong>Note:</strong> this link opens an official government career portal. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['hospitality-tourism', 'Hospitality & Tourism'],
+                'advertiser' => ['UAE Government Information Pages (Aggregated)', 'uae-government-aggregated'],
+                'location' => $dubai,
+                'position' => 'Receptionist - UAE Government Jobs Information Page (Dubai)',
+                'intro' => 'The UAE Government portal u.ae sets out the private-sector employment rules a receptionist in Dubai works under: no recruitment costs may be charged to the worker, wages are paid through the Wage Protection System, and the Labour Law sets no minimum salary. Read it before you accept any Dubai front desk offer.',
+                'items' => ['Article 6 of Federal Decree-Law No. 33 of 2021 bars employers from charging workers recruitment and employment costs', 'The night premium does not apply to workers employed on a shift basis, so get any allowance in writing', 'Free zone employees are generally not governed by the UAE Labour Law; ask which rules apply'],
+                'url' => 'https://u.ae/en/information-and-services/jobs',
+                'keywords' => 'receptionist jobs in dubai, front desk jobs dubai, hotel receptionist jobs dubai, uae labour law receptionist',
+                'note' => '<p><strong>Note:</strong> this link opens an official government information page. It is not an application form for one vacancy, and it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['customer-support-admin', 'Customer Support & Admin'],
+                'advertiser' => ['Pakistani Public Employers (Aggregated)', 'pakistan-public-aggregated'],
+                'location' => $karachi,
+                'position' => 'Call Centre Agent - National Job Portal (Karachi, Sindh)',
+                'intro' => 'The National Job Portal is the Government of Pakistan\'s portal for public-sector vacancies, carrying each advert in its original wording with the real deadline. Use it for government and public-body customer service posts in Karachi, and employers\' own careers sites for private call centres.',
+                'items' => ['Private campaigns set their own education, English and shift requirements; the ibex voice advert we checked asked for Matric or O Levels and a CNIC', 'Compare offers on the guaranteed fixed salary before incentives', 'Never pay anyone to be selected'],
+                'url' => 'https://www.njp.gov.pk/',
+                'keywords' => 'call centre jobs in karachi for freshers, customer support jobs karachi, government jobs karachi, national job portal pakistan',
+                'note' => '<p><strong>Note:</strong> this link opens an official government career portal. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['customer-support-admin', 'Customer Support & Admin'],
+                'advertiser' => ['Indian Public Employers (Aggregated)', 'india-public-aggregated'],
+                'location' => $pune,
+                'position' => 'BPO Associate - National Career Service Portal (Pune, Maharashtra)',
+                'intro' => 'The National Career Service is the job and career portal of the Ministry of Labour and Employment, Government of India, and it says it charges no fee at any stage of registration, job application or interview processing. Search it for BPO, customer support and process associate roles in Pune and read each posting\'s channel, shift and experience range.',
+                'items' => ['Read the detailed requirements, not only the headline experience range', 'Confirm the training shift separately from the regular schedule', 'Never pay a consultant to confirm a BPO seat'],
+                'url' => 'https://www.ncs.gov.in/',
+                'keywords' => 'bpo jobs in pune, bpo jobs pune freshers, customer support jobs pune, national career service pune',
+                'note' => '<p><strong>Note:</strong> this link opens an official government career portal. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [
                 'category' => ['transport-logistics', 'Transport & Logistics'],
