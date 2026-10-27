@@ -1285,6 +1285,17 @@ class GuideJobListingsSeeder extends Seeder
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [
+                'category' => ['security', 'Security'],
+                'advertiser' => ['US Security Employers (Aggregated)', 'us-security-aggregated'],
+                'location' => $houston,
+                'position' => 'Security Officer - Texas DPS Private Security Licensing (Houston, Texas)',
+                'intro' => 'Texas DPS licenses private security officers. Unarmed officers need Level II training and a non-commissioned licence; armed officers also need a Level III course of at least 45 hours and a firearm qualification within 90 days of applying. Apply through TOPS with fingerprints before you take a Houston post.',
+                'items' => ['A training certificate is not the licence; apply through TOPS', 'Armed work is never allowed while an application is pending', 'You need existing US work authorisation; guard posts do not sponsor visas'],
+                'url' => 'https://www.dps.texas.gov/section/private-security/licensing-and-registration',
+                'keywords' => 'security guard jobs houston texas, texas security guard license, level ii security training houston, armed security officer requirements texas',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
                 'category' => ['transport-logistics', 'Transport & Logistics'],
                 'advertiser' => ['UK Warehouse and Logistics Employers (Aggregated)', 'uk-warehouse-aggregated'],
                 'location' => $uk,
