@@ -39,6 +39,10 @@ class EmployerVacancyListingsSeeder extends Seeder
 
     public const ACCOR_URL = 'https://careers.accor.com/global/en/job/guest-relations-officer-receptionist-in-queen-elizabeth-2-dubai-united-arab-emirates-jid-114474';
 
+    public const TORONTO_PARAMEDIC_POSITION = 'Primary Care Paramedic (Paramedic Level 1) - Toronto Paramedic Services, City of Toronto';
+
+    public const TORONTO_PARAMEDIC_URL = 'https://www.toronto.ca/home/jobs/information-for-applicants/recruitment-initiatives/toronto-paramedic-services-careers/paramedic-jobs/';
+
     /**
      * @return array<string, array{position: string, url: string}>
      */
@@ -49,6 +53,7 @@ class EmployerVacancyListingsSeeder extends Seeder
             'pocketful' => ['position' => self::POCKETFUL_POSITION, 'url' => self::POCKETFUL_URL],
             'ibex' => ['position' => self::IBEX_POSITION, 'url' => self::IBEX_URL],
             'accor' => ['position' => self::ACCOR_POSITION, 'url' => self::ACCOR_URL],
+            'toronto' => ['position' => self::TORONTO_PARAMEDIC_POSITION, 'url' => self::TORONTO_PARAMEDIC_URL],
         ];
     }
 
@@ -58,6 +63,7 @@ class EmployerVacancyListingsSeeder extends Seeder
         $this->seedPocketfulOperationsAssociate();
         $this->seedIbexCustomerSuccessSpecialist();
         $this->seedAccorQe2Receptionist();
+        $this->seedTorontoParamedic();
     }
 
     private function adminCategory(): Category
@@ -296,6 +302,65 @@ JOBHTML,
                 'application_url' => self::ACCOR_URL,
                 'meta_description' => 'Guest Relations Officer / Receptionist, Accor Queen Elizabeth 2, Dubai: full-time, permanent, UAE hotel front desk experience, Opera, English.',
                 'seo_keywords' => 'receptionist jobs dubai, hotel receptionist jobs dubai, guest relations officer dubai, accor careers dubai',
+            ]
+        );
+    }
+
+    private function seedTorontoParamedic(): void
+    {
+        $category = Category::firstOrCreate(
+            ['slug' => 'healthcare'],
+            ['name' => 'Healthcare']
+        );
+
+        $advertiser = Advertiser::firstOrCreate(
+            ['name' => 'City of Toronto'],
+            ['type' => 'Government', 'display_reference' => 'city-of-toronto']
+        );
+
+        $toronto = Location::firstOrCreate(
+            ['name' => 'Toronto'],
+            ['area' => 'Ontario', 'country' => 'Canada']
+        );
+
+        Job::updateOrCreate(
+            ['position' => self::TORONTO_PARAMEDIC_POSITION, 'advertiser_id' => $advertiser->id],
+            [
+                'category_id' => $category->id,
+                'location_id' => $toronto->id,
+                'description' => <<<'JOBHTML'
+<p>Toronto Paramedic Services, part of the City of Toronto, is recruiting full-time Primary Care Paramedics (Paramedic Level 1) for its spring 2027 classes. The City's recruitment page, checked by JobGader on 27 October 2026, says recruitment is open until November 18, 2026.</p>
+
+<h3>Requirements</h3>
+<ul>
+    <li>A Primary Care Paramedic programme from a College of Applied Arts and Technology or equivalent, and the AEMCA examination passed or AEMCA pending</li>
+    <li>An Ontario Class F driver's licence or better, no more than three demerit points, and a clean suspension record (the Spring 2027 guide asks for five years)</li>
+    <li>A successful OPPAT dated within one year of the start date, unless already working for another service and base-hospital certified</li>
+    <li>Orientation and an OSCE with the Sunnybrook Centre for Prehospital Medicine after a conditional offer, plus a BLS or HCP CPR certificate</li>
+</ul>
+
+<h3>Stages (tentative)</h3>
+<ul>
+    <li>Stage 1 written exam on 12 and 13 December 2026 at 895 Eastern Ave; AEMCA-certified candidates are exempt</li>
+    <li>Stage 2 Multiple Mini Interviews from 4 to 15 January 2027</li>
+    <li>Conditional offers in mid February and early March 2027</li>
+</ul>
+
+<p><strong>Pay:</strong> the recruitment page and guide publish no salary; ask the City for the current Paramedic Level 1 rate.</p>
+
+<p><strong>Note:</strong> this recruitment and its requirements are set by the City of Toronto, not by JobGader. Apply only through the City's job site linked from its recruitment page; the City asks applicants not to email or mail resumes to Toronto Paramedic Services. Never pay anyone for a job or a visa.</p>
+JOBHTML,
+                'employment_type' => 'Full-time',
+                'job_type' => 'On-site',
+                'work_hours' => 'Shifts set by the employer',
+                'language' => 'English',
+                'salary_currency' => null,
+                'salary_period' => null,
+                'salary_minimum' => null,
+                'salary_maximum' => null,
+                'application_url' => self::TORONTO_PARAMEDIC_URL,
+                'meta_description' => 'Primary Care Paramedic, Toronto Paramedic Services: full-time spring 2027 recruitment open to 18 November 2026; PCP diploma, AEMCA, Class F, OPPAT.',
+                'seo_keywords' => 'paramedic jobs toronto, toronto paramedic services careers, primary care paramedic jobs ontario, aemca jobs toronto',
             ]
         );
     }

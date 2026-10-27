@@ -175,6 +175,11 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Uttar Pradesh', 'country' => 'India']
         );
 
+        $chicago = Location::firstOrCreate(
+            ['name' => 'Chicago'],
+            ['area' => 'Illinois', 'country' => 'United States']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1304,6 +1309,17 @@ class GuideJobListingsSeeder extends Seeder
                 'items' => ['SIRA does not ask for past security work, but many employers do; look for adverts that say training is provided', 'The SIRA card is tied to your employer and residency', 'Working on a visit or tourist visa is prohibited, paid or unpaid'],
                 'url' => 'https://www.sira.gov.ae/en/services/security-cadre-card',
                 'keywords' => 'security guard jobs dubai no experience, sira security guard requirements, dubai security guard jobs freshers, entry level security jobs uae',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['government-public-sector', 'Government & Public Sector'],
+                'advertiser' => ['US Public Safety Employers (Aggregated)', 'us-public-safety-aggregated'],
+                'location' => $chicago,
+                'position' => 'Firefighter/EMT - Chicago Fire Department Entrance Examination (Chicago, Illinois)',
+                'intro' => 'The City of Chicago Department of Human Resources periodically holds entrance examinations for Firefighter/EMT. Sign up on Join CFD for email alerts when applications open. Candidates must be 18 by the written exam, appointed by 37, hold a GED and live in Chicago by hire.',
+                'items' => ['No EMT training is needed before applying', 'A CPAT pass within 12 months of hire: eight events in 10 minutes 20 seconds', 'Starting salary $74,626 a year as of January 2026'],
+                'url' => 'https://www.chicago.gov/city/en/depts/cfd/supp_info/Join_CFD.html',
+                'keywords' => 'firefighter jobs in chicago illinois, chicago firefighter application, chicago fire department requirements, chicago cpat test',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [

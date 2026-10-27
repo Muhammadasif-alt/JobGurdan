@@ -66,6 +66,7 @@ it('gives each salary and from-Pakistan guide its own job listing', function () 
         'Apprenticeship Applicant — Apprenticeship.gov Job Finder (Check Entry Requirements)',
         'Elevator Constructor Applicant — NEIEP Ranked Hiring List Information',
         'Construction Laborer Applicant — Laborers Training School Waiting List Information',
+        'Firefighter/EMT - Chicago Fire Department Entrance Examination (Chicago, Illinois)',
         'Security Guard - SIRA Security Cadre Card Requirements (Dubai)',
         'Security Officer - Texas DPS Private Security Licensing (Houston, Texas)',
         'Police Constable - Punjab Police Recruitment Notices (Rahim Yar Khan and Rajanpur)',
