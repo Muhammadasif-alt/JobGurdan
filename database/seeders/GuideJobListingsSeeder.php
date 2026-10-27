@@ -1296,6 +1296,17 @@ class GuideJobListingsSeeder extends Seeder
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [
+                'category' => ['security', 'Security'],
+                'advertiser' => ['UAE Government Information Pages (Aggregated)', 'uae-government-aggregated'],
+                'location' => $dubai,
+                'position' => 'Security Guard - SIRA Security Cadre Card Requirements (Dubai)',
+                'intro' => 'SIRA licenses security guards in Dubai. Its Security Guard category lists an age of 21 to 60, Emirates ID, valid residency, a Dubai Police good conduct certificate, the Security Guard course and fitness, fire safety, life support and People of Determination certificates. A licensed security company applies after hiring you.',
+                'items' => ['SIRA does not ask for past security work, but many employers do; look for adverts that say training is provided', 'The SIRA card is tied to your employer and residency', 'Working on a visit or tourist visa is prohibited, paid or unpaid'],
+                'url' => 'https://www.sira.gov.ae/en/services/security-cadre-card',
+                'keywords' => 'security guard jobs dubai no experience, sira security guard requirements, dubai security guard jobs freshers, entry level security jobs uae',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
                 'category' => ['transport-logistics', 'Transport & Logistics'],
                 'advertiser' => ['UK Warehouse and Logistics Employers (Aggregated)', 'uk-warehouse-aggregated'],
                 'location' => $uk,
