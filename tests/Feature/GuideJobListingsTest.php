@@ -66,6 +66,8 @@ it('gives each salary and from-Pakistan guide its own job listing', function () 
         'Apprenticeship Applicant — Apprenticeship.gov Job Finder (Check Entry Requirements)',
         'Elevator Constructor Applicant — NEIEP Ranked Hiring List Information',
         'Construction Laborer Applicant — Laborers Training School Waiting List Information',
+        'Police Constable - Punjab Police Recruitment Notices (Rahim Yar Khan and Rajanpur)',
+        'Police Constable - UPPRPB Recruitment Notices (Uttar Pradesh)',
         'Overseas Worker - BEOE Foreign Jobs and Promoter Check (Pakistan)',
         'Full-Time Worker - GOV.UK Find a Job Service (United Kingdom)',
         'Qualified Professional - Make it in Germany Job Listings (Germany)',

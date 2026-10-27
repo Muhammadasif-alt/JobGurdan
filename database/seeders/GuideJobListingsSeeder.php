@@ -165,6 +165,16 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Scotland', 'country' => 'United Kingdom']
         );
 
+        $rahimyarkhan = Location::firstOrCreate(
+            ['name' => 'Rahim Yar Khan'],
+            ['area' => 'Punjab', 'country' => 'Pakistan']
+        );
+
+        $uttarpradesh = Location::firstOrCreate(
+            ['name' => 'Uttar Pradesh'],
+            ['area' => 'Uttar Pradesh', 'country' => 'India']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1250,6 +1260,28 @@ class GuideJobListingsSeeder extends Seeder
                 'items' => ['Helper, seasonal and temporary jobs are excluded; the listings are for qualified work', 'Search with the German job title; the search works only partly in English', 'A job offer here still needs a visa: qualified professionals need recognition, experienced workers need two years of experience and a salary of at least EUR 45,630'],
                 'url' => 'https://www.make-it-in-germany.com/en/working-in-germany/job-listings',
                 'keywords' => 'work visas for pakistanis 2026, germany work visa from pakistan, make it in germany jobs, qualified professional visa germany',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['government-public-sector', 'Government & Public Sector'],
+                'advertiser' => ['Pakistan Public Sector Employers (Aggregated)', 'pakistan-public-sector-aggregated'],
+                'location' => $rahimyarkhan,
+                'position' => 'Police Constable - Punjab Police Recruitment Notices (Rahim Yar Khan and Rajanpur)',
+                'intro' => 'Punjab Police advertises constable, lady constable and driver constable posts district by district. The October 2026 intake is reported as open to Rahim Yar Khan and Rajanpur domiciles, with forms submitted at the district Police Lines from 12 to 31 October 2026.',
+                'items' => ['Reported rules: Matric with 50% marks, ages 18 to 22 in settled areas, men 5 feet 7 inches and women 5 feet 2 inches', 'Domicile and CNIC must be from the recruiting district', 'Pay the form fee only by the method on the advertisement, never to a person'],
+                'url' => 'https://punjabpolice.gov.pk/',
+                'keywords' => 'police constable jobs punjab pakistan, punjab police constable eligibility, lady constable jobs punjab, punjab police jobs rahim yar khan',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['government-public-sector', 'Government & Public Sector'],
+                'advertiser' => ['India Public Sector Employers (Aggregated)', 'india-public-sector-aggregated'],
+                'location' => $uttarpradesh,
+                'position' => 'Police Constable - UPPRPB Recruitment Notices (Uttar Pradesh)',
+                'intro' => 'The Uttar Pradesh Police Recruitment and Promotion Board publishes constable advertisements, admit cards, PST and PET schedules and results. The 32,679-post cycle closed for registration on 30 January 2026; watch the board for the next advertisement.',
+                'items' => ['Intermediate (Class 12) is required', 'Reported PET: 4.8 km in 25 minutes for men, 2.4 km in 14 minutes for women', 'Open to Indian nationals only; it is not an overseas job route'],
+                'url' => 'https://uppbpb.gov.in/',
+                'keywords' => 'up police constable eligibility, uttar pradesh police constable recruitment, up police physical test, up police constable running requirements',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [
