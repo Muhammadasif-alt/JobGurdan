@@ -59,7 +59,7 @@ class ParamedicJobsTorontoTrainingCertificationBlogSeeder extends Seeder
                 'title' => 'Paramedic Jobs in Toronto, Ontario: Training and Certification Path',
                 'excerpt' => 'Toronto Paramedic Services is recruiting Primary Care Paramedics for spring 2027 until 18 November 2026. The PCP diploma, AEMCA exam, Class F licence, OPPAT, Sunnybrook OSCE, the stage dates and the equivalency routes, checked against official pages.',
                 'content' => $content,
-                'featured_image' => 'blogs/paramedic-jobs-toronto-training-certification.jpg',
+                'featured_image' => 'blogs/paramedic-jobs-toronto-training-certification-poster.jpg',
                 'tags' => 'paramedic jobs in toronto ontario, toronto paramedic training, aemca certification ontario, primary care paramedic toronto, toronto paramedic application, toronto paramedic recruitment 2027, oppat test, paramedic equivalency ontario',
                 'meta_title' => 'Paramedic Jobs in Toronto: Training and Certification',
                 'meta_description' => 'Toronto paramedic jobs: spring 2027 recruitment open to 18 November 2026, PCP training, AEMCA, Class F licence, OPPAT, Sunnybrook OSCE and equivalency.',

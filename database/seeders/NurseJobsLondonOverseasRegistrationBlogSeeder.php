@@ -58,7 +58,7 @@ class NurseJobsLondonOverseasRegistrationBlogSeeder extends Seeder
                 'title' => 'Nurse Jobs in London, England for Overseas Nurses: Registration Steps',
                 'excerpt' => 'NMC registration for overseas nurses seeking London jobs: IELTS and OET scores, the CBT and OSCE, the fees raised on 1 October 2026 (GBP 1,226 in total), how London trusts handle sponsorship, and the Health and Care Worker visa fee.',
                 'content' => $content,
-                'featured_image' => 'blogs/nurse-jobs-london-overseas-registration.jpg',
+                'featured_image' => 'blogs/nurse-jobs-london-overseas-registration-poster.jpg',
                 'tags' => 'nurse jobs in london for overseas nurses, nmc registration steps, overseas nurse registration uk, london international nursing jobs, cbt osce requirements, nmc fees 2026, ielts for nmc, health and care worker visa nurse',
                 'meta_title' => 'Nurse Jobs in London for Overseas Nurses: NMC Steps',
                 'meta_description' => 'Overseas nurses in London: NMC registration, IELTS and OET scores, CBT and OSCE, the new fees from 1 October 2026, sponsorship and the visa fee.',

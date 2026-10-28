@@ -57,7 +57,7 @@ class NursingJobsRiyadhRequirementsContractBasicsBlogSeeder extends Seeder
                 'title' => 'Nursing Jobs in Riyadh, Saudi Arabia: Requirements and Contract Basics',
                 'excerpt' => 'How overseas nurses get jobs in Riyadh: SCFHS classification from abroad through Mumaris Plus, the one-year experience rule, DataFlow in 15 to 25 working days, Prometric exams, KFSHRC hiring steps and what the employer pays under Article 40.',
                 'content' => $content,
-                'featured_image' => 'blogs/nursing-jobs-riyadh-requirements-contract-basics.jpg',
+                'featured_image' => 'blogs/nursing-jobs-riyadh-requirements-contract-basics-poster.jpg',
                 'tags' => 'nursing jobs in riyadh saudi arabia, saudi nursing requirements, scfhs nurse registration, riyadh nurse contract, overseas nurses saudi arabia, scfhs classification from pakistan, dataflow verification scfhs, nurse jobs saudi arabia for pakistanis',
                 'meta_title' => 'Nursing Jobs in Riyadh: Requirements and Contract Basics',
                 'meta_description' => 'Nursing jobs in Riyadh: SCFHS classification from abroad, the one-year experience rule, DataFlow, Prometric exams and the contract terms to check.',

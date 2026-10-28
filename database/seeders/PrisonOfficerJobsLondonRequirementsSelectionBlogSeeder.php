@@ -61,7 +61,7 @@ class PrisonOfficerJobsLondonRequirementsSelectionBlogSeeder extends Seeder
                 'title' => 'Prison Officer Jobs in London, England: Requirements and Selection Process',
                 'excerpt' => 'How to become an HMPPS prison officer in London: eligibility, the £41,290 to £43,453 London starting pay, online tests and assessment centre, the grip, shield, bleep and agility fitness test, vetting and the 9-week training, checked October 2026.',
                 'content' => $content,
-                'featured_image' => 'blogs/prison-officer-jobs-london-requirements-selection.jpg',
+                'featured_image' => 'blogs/prison-officer-jobs-london-requirements-selection-poster.jpg',
                 'tags' => 'prison officer jobs in london england, london prison officer requirements, prison officer selection process, hmpps prison officer application, prison officer fitness test, prison officer salary london, prison officer training uk, prison officer bleep test',
                 'meta_title' => 'Prison Officer Jobs in London: Requirements and Selection',
                 'meta_description' => 'Prison officer jobs in London: HMPPS eligibility, GBP 41,290 to 43,453 starting pay, online assessments, the fitness test, vetting and 9-week training.',

@@ -59,7 +59,7 @@ class NursingJobsHoustonLicensingEntryRequirementsBlogSeeder extends Seeder
                 'title' => 'Nursing Jobs in Houston, Texas: Licensing and Entry Requirements',
                 'excerpt' => 'How to get a nursing job in Houston: the Texas licence by exam or endorsement, compact licences, what Memorial Hermann, Houston Methodist and Harris Health ask of new graduates, and BLS pay of $99,830 for RNs and $63,670 for LVNs.',
                 'content' => $content,
-                'featured_image' => 'blogs/nursing-jobs-houston-licensing-entry-requirements.jpg',
+                'featured_image' => 'blogs/nursing-jobs-houston-licensing-entry-requirements-poster.jpg',
                 'tags' => 'nursing jobs in houston texas, texas nursing license requirements, houston new graduate nurse jobs, rn jobs houston, nurse residency houston, lvn jobs houston, registered nurse salary houston, nurse licensure compact texas',
                 'meta_title' => 'Nursing Jobs in Houston: Licensing and Entry Requirements',
                 'meta_description' => 'Nursing jobs in Houston: the Texas licence by exam or endorsement, compact licences, new graduate residencies and BLS pay for RNs and LVNs.',
