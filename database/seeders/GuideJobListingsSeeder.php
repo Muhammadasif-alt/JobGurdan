@@ -200,6 +200,21 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Alberta', 'country' => 'Canada']
         );
 
+        $phoenix = Location::firstOrCreate(
+            ['name' => 'Phoenix'],
+            ['area' => 'Arizona', 'country' => 'United States']
+        );
+
+        $columbus = Location::firstOrCreate(
+            ['name' => 'Columbus'],
+            ['area' => 'Ohio', 'country' => 'United States']
+        );
+
+        $brooklyn = Location::firstOrCreate(
+            ['name' => 'Brooklyn'],
+            ['area' => 'New York', 'country' => 'United States']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1417,6 +1432,50 @@ class GuideJobListingsSeeder extends Seeder
                 'items' => ['Employers may not charge you recruitment fees', 'Hospital and continuing care roles usually want an HCA certificate', 'Verify any employer or agent before sending money or documents'],
                 'url' => 'https://www.jobbank.gc.ca/marketreport/wages-occupation/24584/geo25411',
                 'keywords' => 'caregiver jobs in calgary with visa sponsorship, caregiver jobs calgary, home support worker calgary, caregiver salary calgary',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['healthcare', 'Healthcare'],
+                'advertiser' => ['US Hospital Employers (Aggregated)', 'us-hospital-aggregated'],
+                'location' => $phoenix,
+                'position' => 'Medical Assistant - Arizona Job Connection and Training Rules (Phoenix, Arizona)',
+                'intro' => 'Arizona Job Connection is the state\'s official job board. Arizona does not license medical assistants, but supervising providers must confirm an MA\'s training before hiring. Phoenix MAs earned a median of USD 22.51 an hour in May 2025, per the BLS.',
+                'items' => ['Training: a CAAHEP or ABHES accredited programme, an exam route, or 2,000 supervised hours', 'Injections and specimens need direct supervision under A.R.S. 32-1456', 'Employers often prefer CMA, RMA or CCMA certification'],
+                'url' => 'https://www.azjobconnection.gov/',
+                'keywords' => 'medical assistant jobs phoenix no experience, entry level medical assistant phoenix, medical assistant salary phoenix, arizona medical assistant requirements',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['healthcare', 'Healthcare'],
+                'advertiser' => ['US Hospital Employers (Aggregated)', 'us-hospital-aggregated'],
+                'location' => $columbus,
+                'position' => 'Pharmacy Technician - OhioMeansJobs and Board of Pharmacy Registration (Columbus, Ohio)',
+                'intro' => 'OhioMeansJobs is the state\'s official job board. Every Ohio pharmacy technician, trainee included, needs an active Ohio Board of Pharmacy registration and FBI and BCI background checks first. Columbus technicians earned a median of USD 21.75 an hour in May 2025, per the BLS.',
+                'items' => ['Trainee registration lasts 18 months once active', 'Certified status needs PTCB or ExCPT', 'Do no technician duties until your registration shows Active'],
+                'url' => 'https://ohiomeansjobs.ohio.gov/',
+                'keywords' => 'pharmacy technician jobs columbus ohio, ohio pharmacy technician requirements, pharmacy technician trainee ohio, pharmacy technician salary columbus',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['healthcare', 'Healthcare'],
+                'advertiser' => ['US Home Care Agencies (Aggregated)', 'us-home-care-aggregated'],
+                'location' => $brooklyn,
+                'position' => 'Home Health Aide - NY Department of Health Approved Training (Brooklyn, New York)',
+                'intro' => 'New York home health aides need Department of Health approved training of at least 75 hours plus a competency evaluation. Home care aides in New York City earn at least USD 19.65 an hour from 1 January 2026, and some agencies train new aides for free.',
+                'items' => ['59 classroom hours and 16 supervised practical hours', 'An HHA certificate is not the same as a PCA certificate', 'Agencies need US work authorisation; no visa sponsorship'],
+                'url' => 'https://www.health.ny.gov/facilities/home_care/professional.htm',
+                'keywords' => 'home health aide jobs in brooklyn new york, home health aide training, hha certificate, home care agencies in brooklyn hiring',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['healthcare', 'Healthcare'],
+                'advertiser' => ['Pakistan Public Sector Employers (Aggregated)', 'pakistan-public-sector-aggregated'],
+                'location' => $lahore,
+                'position' => 'Lab Technician - Punjab Job Portal and PMF Qualifications (Lahore, Punjab)',
+                'intro' => 'The Punjab Job Portal lists provincial department vacancies, including hospital laboratory posts. Technician posts usually need the Punjab Medical Faculty two-year Medical Laboratory Technician diploma; technologist posts usually need a BSc or BS MLT.',
+                'items' => ['PMF admission: Matric Science, 2nd division, at least 45% in science subjects', 'Medical Laboratory Technology is regulated under the AHPC Act, 2022', 'Government adverts state the pay scale, domicile and age rules'],
+                'url' => 'https://jobs.punjab.gov.pk/',
+                'keywords' => 'lab technician jobs in lahore punjab, medical lab technician jobs in lahore, lab technician jobs in lahore for freshers, government lab technician jobs punjab',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [
