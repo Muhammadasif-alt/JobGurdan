@@ -195,6 +195,11 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Ontario', 'country' => 'Canada']
         );
 
+        $calgary = Location::firstOrCreate(
+            ['name' => 'Calgary'],
+            ['area' => 'Alberta', 'country' => 'Canada']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1401,6 +1406,17 @@ class GuideJobListingsSeeder extends Seeder
                 'items' => ['One year after training to pass both exam parts, three attempts each', 'Renewal: eight paid hours every 24 months under a nurse, no fee', 'CNA posts do not come with visa sponsorship'],
                 'url' => 'https://nurseaide.allianthealth.org/NurseAide/SearchCNA',
                 'keywords' => 'cna jobs in atlanta georgia, cna certification georgia, cna salary atlanta, nursing assistant jobs atlanta',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['healthcare', 'Healthcare'],
+                'advertiser' => ['Canadian Health Employers (Aggregated)', 'canada-health-aggregated'],
+                'location' => $calgary,
+                'position' => 'Caregiver / Home Support Worker - Job Bank Wages and LMIA Route (Calgary, Alberta)',
+                'intro' => 'Job Bank lists Calgary personal support workers (NOC 44101) at CAD 17 to 26 an hour, median CAD 20, updated November 2025. Foreign caregivers need an employer-backed LMIA and a work permit; the Home Care Worker PR pilots take no new applications until 30 March 2030.',
+                'items' => ['Employers may not charge you recruitment fees', 'Hospital and continuing care roles usually want an HCA certificate', 'Verify any employer or agent before sending money or documents'],
+                'url' => 'https://www.jobbank.gc.ca/marketreport/wages-occupation/24584/geo25411',
+                'keywords' => 'caregiver jobs in calgary with visa sponsorship, caregiver jobs calgary, home support worker calgary, caregiver salary calgary',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [
