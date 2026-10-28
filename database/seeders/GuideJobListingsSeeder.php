@@ -185,6 +185,11 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'England', 'country' => 'United Kingdom']
         );
 
+        $riyadh = Location::firstOrCreate(
+            ['name' => 'Riyadh'],
+            ['area' => 'Riyadh', 'country' => 'Saudi Arabia']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1336,6 +1341,39 @@ class GuideJobListingsSeeder extends Seeder
                 'items' => ['At least 18 when you start, with the right to work in the UK and Civil Service nationality rules', 'Fitness test: 25kg grip, 7kg shield for a minute, bleep test to 5.4, agility run in 34 seconds', 'Not a visa-sponsored role'],
                 'url' => 'https://prisonandprobationjobs.gov.uk/current-vacancies/',
                 'keywords' => 'prison officer jobs in london england, london prison officer requirements, hmpps prison officer application, prison officer fitness test',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['healthcare', 'Healthcare'],
+                'advertiser' => ['US Hospital Employers (Aggregated)', 'us-hospital-aggregated'],
+                'location' => $houston,
+                'position' => 'Registered Nurse - Harris Health Nursing Programs (Houston, Texas)',
+                'intro' => 'Harris Health, Harris County\'s public health system, runs a Nurse Residency for graduates with under a year of experience, a Nurse Fellowship for RNs with a year of experience and an ambulatory LVN residency. Houston RNs earned a median of USD 99,830 in May 2025, per the BLS.',
+                'items' => ['You need a Texas RN or LVN licence, or a multistate compact licence', 'Residencies set their own GPA, degree and experience limits', 'A Texas licence is not US work authorisation'],
+                'url' => 'https://jobs.harrishealth.org/nursing-program',
+                'keywords' => 'nursing jobs in houston texas, rn jobs houston, nurse residency houston, lvn jobs houston',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['healthcare', 'Healthcare'],
+                'advertiser' => ['UK Public Sector Employers (Aggregated)', 'uk-public-sector-aggregated'],
+                'location' => $london,
+                'position' => 'Registered Nurse - NHS Jobs Nursing Vacancies (London, England)',
+                'intro' => 'NHS Jobs lists nursing vacancies at London NHS trusts. Overseas nurses need NMC registration (GBP 1,226 in fees and tests since 1 October 2026), IELTS 7 with 6.5 in writing or OET, and a Health and Care Worker visa sponsored by the employer.',
+                'items' => ['Read whether a post needs active NMC registration or accepts registration in progress', 'Sponsorship depends on the post and Home Office rules', 'The visa fee is GBP 324 for up to three years'],
+                'url' => 'https://www.jobs.nhs.uk/candidate/search?keyword=nurse&location=London',
+                'keywords' => 'nurse jobs in london for overseas nurses, nmc registration steps, london international nursing jobs, overseas nurse registration uk',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['healthcare', 'Healthcare'],
+                'advertiser' => ['Saudi Health Employers (Aggregated)', 'saudi-health-aggregated'],
+                'location' => $riyadh,
+                'position' => 'Nurse - SCFHS Classification Through Mumaris Plus (Riyadh, Saudi Arabia)',
+                'intro' => 'The Saudi Commission for Health Specialties classifies and registers nurses. You can apply for classification from Pakistan through Mumaris Plus without a work permit; non-Saudis need at least one year of experience, and DataFlow verification usually takes 15 to 25 working days.',
+                'items' => ['Registration follows hiring and needs an employment letter and residence permit', 'Under Article 40 the employer pays recruitment, residence and work permit fees', 'Probation can be up to 180 days and must be in the contract'],
+                'url' => 'https://scfhs.org.sa/en/mumaris-faq',
+                'keywords' => 'nursing jobs in riyadh saudi arabia, scfhs nurse registration, overseas nurses saudi arabia, saudi nursing requirements',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [
