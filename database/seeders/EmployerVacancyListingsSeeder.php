@@ -43,6 +43,10 @@ class EmployerVacancyListingsSeeder extends Seeder
 
     public const TORONTO_PARAMEDIC_URL = 'https://www.toronto.ca/home/jobs/information-for-applicants/recruitment-initiatives/toronto-paramedic-services-careers/paramedic-jobs/';
 
+    public const CBSA_POSITION = 'Border Services Officer Trainee (FB-02) - Canada Border Services Agency (Vancouver and across Canada)';
+
+    public const CBSA_URL = 'https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page1800?poster=2439948&toggleLanguage=en';
+
     /**
      * @return array<string, array{position: string, url: string}>
      */
@@ -54,6 +58,7 @@ class EmployerVacancyListingsSeeder extends Seeder
             'ibex' => ['position' => self::IBEX_POSITION, 'url' => self::IBEX_URL],
             'accor' => ['position' => self::ACCOR_POSITION, 'url' => self::ACCOR_URL],
             'toronto' => ['position' => self::TORONTO_PARAMEDIC_POSITION, 'url' => self::TORONTO_PARAMEDIC_URL],
+            'cbsa' => ['position' => self::CBSA_POSITION, 'url' => self::CBSA_URL],
         ];
     }
 
@@ -64,6 +69,7 @@ class EmployerVacancyListingsSeeder extends Seeder
         $this->seedIbexCustomerSuccessSpecialist();
         $this->seedAccorQe2Receptionist();
         $this->seedTorontoParamedic();
+        $this->seedCbsaOfficerTrainee();
     }
 
     private function adminCategory(): Category
@@ -361,6 +367,63 @@ JOBHTML,
                 'application_url' => self::TORONTO_PARAMEDIC_URL,
                 'meta_description' => 'Primary Care Paramedic, Toronto Paramedic Services: full-time spring 2027 recruitment open to 18 November 2026; PCP diploma, AEMCA, Class F, OPPAT.',
                 'seo_keywords' => 'paramedic jobs toronto, toronto paramedic services careers, primary care paramedic jobs ontario, aemca jobs toronto',
+            ]
+        );
+    }
+
+    private function seedCbsaOfficerTrainee(): void
+    {
+        $category = Category::firstOrCreate(
+            ['slug' => 'government-public-sector'],
+            ['name' => 'Government & Public Sector']
+        );
+
+        $advertiser = Advertiser::firstOrCreate(
+            ['name' => 'Canada Border Services Agency'],
+            ['type' => 'Government', 'display_reference' => 'canada-border-services-agency']
+        );
+
+        $canada = Location::firstOrCreate(
+            ['name' => 'Canada'],
+            ['area' => 'Nationwide', 'country' => 'Canada']
+        );
+
+        Job::updateOrCreate(
+            ['position' => self::CBSA_POSITION, 'advertiser_id' => $advertiser->id],
+            [
+                'category_id' => $category->id,
+                'location_id' => $canada->id,
+                'description' => <<<'JOBHTML'
+<p>The Canada Border Services Agency is recruiting Border Services Officer Trainees (Developmental), FB-02, for various locations across Canada, including Vancouver. The GC Jobs notice (selection process 2026-EA-OIM-FB-02-0010), checked by JobGader on 28 October 2026, closes on June 24, 2027 at 23:59 Pacific Time. It is an inventory, so candidates are drawn from it as positions arise.</p>
+
+<h3>Requirements</h3>
+<ul>
+    <li>At least 18 years old to start the Officer Induction Training Program</li>
+    <li>A secondary school diploma, or a satisfactory score on the Public Service Commission test accepted as an alternative</li>
+    <li>A valid, unrestricted licence to drive in Canada</li>
+    <li>Willingness to accept an assigned posting anywhere in Canada, a condition of employment</li>
+    <li>Open to persons residing in Canada and to Canadian citizens and permanent residents abroad</li>
+</ul>
+
+<h3>Pay and training</h3>
+<ul>
+    <li>$80,344 to $89,462 a year at FB-02 (under review), then $85,211 to $101,058 as a Border Services Officer (FB-03)</li>
+    <li>Three weeks of online learning and fifteen weeks in residence, with a tax-free allowance of $525 a week, lodging and meals</li>
+</ul>
+
+<p><strong>Note:</strong> this recruitment and its requirements are set by the Canada Border Services Agency, not by JobGader. Apply only through GC Jobs; the agency prohibits AI tools in its assessments. Never pay anyone for a federal job.</p>
+JOBHTML,
+                'employment_type' => 'Full-time',
+                'job_type' => 'On-site',
+                'work_hours' => 'Shifts set by the employer',
+                'language' => 'English or French',
+                'salary_currency' => null,
+                'salary_period' => null,
+                'salary_minimum' => null,
+                'salary_maximum' => null,
+                'application_url' => self::CBSA_URL,
+                'meta_description' => 'CBSA Border Services Officer Trainee, FB-02, across Canada including Vancouver: open to 24 June 2027, $80,344 to $89,462, posting anywhere in Canada.',
+                'seo_keywords' => 'cbsa jobs vancouver, border services officer trainee, customs officer jobs canada, cbsa recruitment 2027',
             ]
         );
     }

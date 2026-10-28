@@ -180,6 +180,11 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Illinois', 'country' => 'United States']
         );
 
+        $london = Location::firstOrCreate(
+            ['name' => 'London'],
+            ['area' => 'England', 'country' => 'United Kingdom']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1320,6 +1325,17 @@ class GuideJobListingsSeeder extends Seeder
                 'items' => ['No EMT training is needed before applying', 'A CPAT pass within 12 months of hire: eight events in 10 minutes 20 seconds', 'Starting salary $74,626 a year as of January 2026'],
                 'url' => 'https://www.chicago.gov/city/en/depts/cfd/supp_info/Join_CFD.html',
                 'keywords' => 'firefighter jobs in chicago illinois, chicago firefighter application, chicago fire department requirements, chicago cpat test',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['government-public-sector', 'Government & Public Sector'],
+                'advertiser' => ['UK Public Sector Employers (Aggregated)', 'uk-public-sector-aggregated'],
+                'location' => $london,
+                'position' => 'Prison Officer - HMPPS Current Vacancies (London, England)',
+                'intro' => 'HMPPS lists prison officer vacancies by area and lets you register interest for a London prison. London starting pay is GBP 41,290 to GBP 43,453 for a 39-hour week including a 20% unsocial hours allowance, and no qualifications are needed.',
+                'items' => ['At least 18 when you start, with the right to work in the UK and Civil Service nationality rules', 'Fitness test: 25kg grip, 7kg shield for a minute, bleep test to 5.4, agility run in 34 seconds', 'Not a visa-sponsored role'],
+                'url' => 'https://prisonandprobationjobs.gov.uk/current-vacancies/',
+                'keywords' => 'prison officer jobs in london england, london prison officer requirements, hmpps prison officer application, prison officer fitness test',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [

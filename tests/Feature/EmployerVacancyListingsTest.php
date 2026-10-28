@@ -13,6 +13,7 @@ dataset('employer vacancies', [
     'ibex karachi' => ['ibex', 'Karachi', 'Sindh', '26 October 2026'],
     'accor dubai' => ['accor', 'Dubai', 'Dubai', '26 October 2026'],
     'toronto paramedic' => ['toronto', 'Toronto', 'Ontario', '27 October 2026'],
+    'cbsa canada' => ['cbsa', 'Canada', 'Nationwide', '28 October 2026'],
 ]);
 
 it('creates each employer vacancy as a real, dated, salary-free listing', function (string $key, string $city, string $area, string $checked) {
