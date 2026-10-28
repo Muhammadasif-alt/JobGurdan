@@ -190,6 +190,11 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Riyadh', 'country' => 'Saudi Arabia']
         );
 
+        $torontoNurse = Location::firstOrCreate(
+            ['name' => 'Toronto'],
+            ['area' => 'Ontario', 'country' => 'Canada']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1374,6 +1379,28 @@ class GuideJobListingsSeeder extends Seeder
                 'items' => ['Registration follows hiring and needs an employment letter and residence permit', 'Under Article 40 the employer pays recruitment, residence and work permit fees', 'Probation can be up to 180 days and must be in the contract'],
                 'url' => 'https://scfhs.org.sa/en/mumaris-faq',
                 'keywords' => 'nursing jobs in riyadh saudi arabia, scfhs nurse registration, overseas nurses saudi arabia, saudi nursing requirements',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['healthcare', 'Healthcare'],
+                'advertiser' => ['Canadian Health Employers (Aggregated)', 'canada-health-aggregated'],
+                'location' => $torontoNurse,
+                'position' => 'Registered Nurse - College of Nurses of Ontario International Applicant Route (Toronto, Ontario)',
+                'intro' => 'The College of Nurses of Ontario registers RNs and RPNs. Internationally educated nurses need a WES, ICAS or ICES credential assessment, the CAD 433 application fee in 2026, NCLEX-RN or REx-PN, the jurisprudence exam, language evidence, Transition to Practice and evidence of recent practice.',
+                'items' => ['Proof of an immigration status that allows nursing work is required', 'IELTS minimums: writing 6.5, speaking 7, listening 7, reading 6.5, overall 7', 'UHN warns it runs no international recruitment campaign'],
+                'url' => 'https://www.cno.org/become-a-nurse/registration-guides/outside-canada',
+                'keywords' => 'nursing jobs in toronto for foreign-trained nurses, internationally educated nurses ontario, cno registration requirements, rpn jobs toronto',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['healthcare', 'Healthcare'],
+                'advertiser' => ['US Hospital Employers (Aggregated)', 'us-hospital-aggregated'],
+                'location' => $atlanta,
+                'position' => 'Certified Nursing Assistant - Georgia Nurse Aide Registry and Training (Atlanta, Georgia)',
+                'intro' => 'The Georgia Nurse Aide Program approves CNA training of at least 85 hours and keeps the registry employers check. Pass the 70-question written exam and five-skill test through Credentia. Atlanta nursing assistants earned a median of USD 18.92 an hour in May 2025, per the BLS.',
+                'items' => ['One year after training to pass both exam parts, three attempts each', 'Renewal: eight paid hours every 24 months under a nurse, no fee', 'CNA posts do not come with visa sponsorship'],
+                'url' => 'https://nurseaide.allianthealth.org/NurseAide/SearchCNA',
+                'keywords' => 'cna jobs in atlanta georgia, cna certification georgia, cna salary atlanta, nursing assistant jobs atlanta',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [

@@ -66,6 +66,8 @@ it('gives each salary and from-Pakistan guide its own job listing', function () 
         'Apprenticeship Applicant — Apprenticeship.gov Job Finder (Check Entry Requirements)',
         'Elevator Constructor Applicant — NEIEP Ranked Hiring List Information',
         'Construction Laborer Applicant — Laborers Training School Waiting List Information',
+        'Registered Nurse - College of Nurses of Ontario International Applicant Route (Toronto, Ontario)',
+        'Certified Nursing Assistant - Georgia Nurse Aide Registry and Training (Atlanta, Georgia)',
         'Registered Nurse - Harris Health Nursing Programs (Houston, Texas)',
         'Registered Nurse - NHS Jobs Nursing Vacancies (London, England)',
         'Nurse - SCFHS Classification Through Mumaris Plus (Riyadh, Saudi Arabia)',
