@@ -1,5 +1,5 @@
 @extends('user.layouts.master')
-@section('title', 'Contact JobGader — Get Help, Partner With Us, Report a Listing')
+@section('title', 'Contact JobGader: Help, Partnerships, Report a Listing')
 @section('meta_description', 'Contact JobGader by email or through the form on this page. We reply within 24 hours on business days to questions about listings, guides and partnerships.')
 @section('meta_keywords', 'contact jobgader, jobgader support, jobgader email, job board contact, report a job listing, employer enquiries')
 @section('og_title', 'Contact JobGader — We\'re Here to Help')
@@ -7,8 +7,6 @@
 @section('canonical', route('contact.us'))
 
 @push('meta')
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
 
     {{-- JSON-LD: ContactPage --}}
     <script type="application/ld+json">

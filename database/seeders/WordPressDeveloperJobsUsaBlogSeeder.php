@@ -134,6 +134,7 @@ class WordPressDeveloperJobsUsaBlogSeeder extends Seeder
                 'salary_minimum' => null,
                 'salary_maximum' => null,
                 'application_url' => self::APPLY_URL,
+                'listing_type' => 'resource',
                 'meta_description' => 'WordPress and WooCommerce roles with US agencies, e-commerce brands and in-house marketing teams, remote and on-site. Apply through the employer listing.',
                 'seo_keywords' => 'wordpress developer jobs in usa, woocommerce developer jobs, freelance wordpress developer, remote wordpress jobs usa, elementor developer jobs',
             ]

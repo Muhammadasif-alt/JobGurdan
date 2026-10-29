@@ -104,6 +104,7 @@ class DigitalMarketingSeoSeeder extends Seeder
                 'salary_minimum' => 80000,
                 'salary_maximum' => 120000,
                 'application_url' => self::APPLY_URL,
+                'listing_type' => 'resource',
                 'meta_description' => 'Remote Digital Marketing Expert (SEO) at Urban Solar, Pakistan — Rs 80,000-120,000/month, 3-4 years, on-page, off-page and technical SEO plus Canva and AI design.',
                 'seo_keywords' => 'seo jobs pakistan, digital marketing jobs pakistan, remote seo jobs, technical seo jobs, seo specialist job, digital marketing salary pakistan, canva designer jobs',
             ]

@@ -55,7 +55,7 @@ class HotelJobsBlogSeeder extends Seeder
                 'content' => $content,
                 'featured_image' => 'blogs/hotel-jobs-in-usa-for-foreigners.jpg',
                 'tags' => 'hotel jobs usa, hotel jobs in usa with visa sponsorship, visa sponsorship, H-2B visa, hotels sponsoring h2b visa, J-1 visa, restaurant jobs usa visa sponsorship, hospitality jobs, housekeeping jobs, front desk jobs, jobs for foreigners',
-                'meta_title' => 'Hotel Jobs in USA for Foreigners with Visa Sponsorship (2026)',
+                'meta_title' => 'Hotel Jobs in USA for Foreigners: Visa Sponsorship 2026',
                 'meta_description' => 'H-2B, J-1 and EB-3 routes into U.S. hotel work, which roles get sponsored, hourly pay by position, and how to avoid recruitment scams.',
                 'reading_time' => max(1, (int) ceil(str_word_count(strip_tags($content)) / 200)),
                 'status' => 'published',

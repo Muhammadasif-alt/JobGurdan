@@ -9,13 +9,7 @@
 
 @push('meta')
     {{-- Twitter card --}}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="About JobGader — Jobs and Honest Visa Guides">
-    <meta name="twitter:description" content="Jobs across {{ $coverage->shortList() }}, plus visa guides that say which routes are open.">
-    <meta name="twitter:image" content="{{ asset('public/user/images/single-company.jpg') }}">
     <meta name="author" content="JobGader">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="JobGader">
     <meta property="og:locale" content="en_US">
 
     {{-- JSON-LD: Organization schema --}}

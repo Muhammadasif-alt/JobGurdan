@@ -60,7 +60,7 @@ class CleanerLondonBlogSeeder extends Seeder
                 'content' => $content,
                 'featured_image' => 'blogs/cleaner-jobs-in-london.jpg',
                 'tags' => 'cleaner jobs london, cleaning jobs no experience, part time cleaner jobs, office cleaner jobs, domestic cleaner jobs, london living wage, immediate start jobs',
-                'meta_title' => 'Cleaner Jobs in London, No Experience Needed (2026 Pay Guide)',
+                'meta_title' => 'Cleaner Jobs in London, No Experience Needed (2026 Pay)',
                 'meta_description' => 'Office, hotel, school and domestic cleaning jobs in London with no experience needed. Shift patterns, 2026 pay rates and the truth about visa sponsorship.',
                 'reading_time' => max(1, (int) ceil(str_word_count(strip_tags($content)) / 200)),
                 'status' => 'published',

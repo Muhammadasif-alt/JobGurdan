@@ -137,6 +137,7 @@ class SabicManufacturingJobsSaudiBlogSeeder extends Seeder
                 'salary_minimum' => null,
                 'salary_maximum' => null,
                 'application_url' => self::APPLY_URL,
+                'listing_type' => 'resource',
                 'meta_description' => 'Process, control, instrument, planning and maintenance engineering roles with SABIC across its Jubail and Yanbu affiliates, for engineers who can meet the Saudi Council of Engineers requirements.',
                 'seo_keywords' => 'sabic jobs saudi arabia, jubail petrochemical jobs, yanbu engineer jobs, saudi council of engineers registration',
             ]

@@ -16,7 +16,7 @@ dataset('employer vacancies', [
     'cbsa canada' => ['cbsa', 'Canada', 'Nationwide', '28 October 2026'],
 ]);
 
-it('creates each employer vacancy as a real, dated, salary-free listing', function (string $key, string $city, string $area, string $checked) {
+it('creates each employer vacancy as a real, dated listing', function (string $key, string $city, string $area, string $checked) {
     $this->seed(EmployerVacancyListingsSeeder::class);
     $this->seed(EmployerVacancyListingsSeeder::class);
 
@@ -32,9 +32,9 @@ it('creates each employer vacancy as a real, dated, salary-free listing', functi
         ->and($job->application_url)->toBe($vacancy['url'])
         ->and($job->location->name)->toBe($city)
         ->and($job->location->area)->toBe($area)
-        ->and($job->salary_minimum)->toBeNull()
-        ->and($job->salary_maximum)->toBeNull()
-        ->and($job->salary_currency)->toBeNull()
+        ->and($job->salary_minimum)->toBe($key === 'cbsa' ? 80344 : null)
+        ->and($job->salary_maximum)->toBe($key === 'cbsa' ? 89462 : null)
+        ->and($job->salary_currency)->toBe($key === 'cbsa' ? 'CAD' : null)
         ->and($job->description)->toContain('not by JobGader')
         ->and($job->description)->toContain($checked)
         ->and(strtolower($job->description))->not->toContain('apply now')

@@ -1,10 +1,8 @@
 @extends('user.layouts.master')
-@section('title', 'Page Not Found — JobGader')
+@section('title', 'Page Not Found | JobGader')
+@section('meta_robots', 'noindex, nofollow')
 @section('meta_description', 'The page you are looking for does not exist. Browse jobs in the USA, contact support, or return to the homepage.')
 
-@push('meta')
-    <meta name="robots" content="noindex, nofollow">
-@endpush
 
 @section('content')
 <style>

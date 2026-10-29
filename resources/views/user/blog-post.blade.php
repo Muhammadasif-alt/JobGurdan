@@ -28,6 +28,7 @@
     @section('meta_robots', 'noindex, follow')
 @endif
 @section('og_image', $ogImg)
+@section('og_type', 'article')
 
 @push('meta')
     @php
@@ -52,10 +53,8 @@
             'areaServed' => $coverage->areaServed(),
         ];
     @endphp
-    <meta property="og:type" content="article">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{ $ogImg }}">
     <meta property="article:published_time" content="{{ optional($blog->published_at)->toIso8601String() }}">
+    <meta property="article:modified_time" content="{{ optional($blog->updated_at)->toIso8601String() }}">
     @if($blog->category)
         <meta property="article:section" content="{{ $blog->category->name }}">
     @endif

@@ -54,13 +54,7 @@
 
 @push('meta')
     {{-- Twitter card --}}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="JobGader — Jobs, Scholarships & Visa Guides for Students">
-    <meta name="twitter:description" content="Jobs across {{ $coverage->shortList() }} and scholarships to study abroad, checked against official sources. Free to apply.">
-    <meta name="twitter:image" content="{{ asset('public/user/images/home-background-03.jpg') }}">
     <meta name="author" content="JobGader">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="JobGader">
     <meta property="og:locale" content="en_US">
 
     {{-- JSON-LD: WebSite with SearchAction --}}

@@ -130,6 +130,7 @@ class BhpMiningJobsAustraliaBlogSeeder extends Seeder
                 'salary_minimum' => null,
                 'salary_maximum' => null,
                 'application_url' => self::APPLY_URL,
+                'listing_type' => 'resource',
                 'meta_description' => 'Entry-level mining, traineeship and apprenticeship roles with BHP across Western Australia, South Australia and Queensland.',
                 'seo_keywords' => 'bhp jobs, mining jobs australia, entry level mining jobs, fifo jobs, bhp futurefit academy',
             ]

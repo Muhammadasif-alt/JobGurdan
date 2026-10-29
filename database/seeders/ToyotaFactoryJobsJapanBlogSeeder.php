@@ -139,6 +139,7 @@ class ToyotaFactoryJobsJapanBlogSeeder extends Seeder
                 'salary_minimum' => 11150,
                 'salary_maximum' => 12450,
                 'application_url' => self::APPLY_URL,
+                'listing_type' => 'resource',
                 'meta_description' => 'Toyota period employee production roles at ten Aichi plants. Toyota publishes a basic daily wage of JPY 11,150 to JPY 12,450 plus free dormitory accommodation.',
                 'seo_keywords' => 'toyota factory jobs, toyota period employee, kikan jugyoin, toyota japan jobs, factory jobs japan',
                 'status' => 'active',

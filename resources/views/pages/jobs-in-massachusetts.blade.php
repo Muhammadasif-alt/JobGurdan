@@ -1,5 +1,5 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Massachusetts — Biotech, Health, Education | JobGader')
+@section('title', 'Jobs in Massachusetts: Biotech, Health, Education | JobGader')
 @section('meta_description', 'Jobs in Massachusetts: Boston and Cambridge biotech, hospitals, universities and technology hiring, and what the high cost of living means.')
 @section('og_title', 'Jobs in Massachusetts — Biotech, Health, Education | JobGader')
 @section('og_description', 'Jobs in Massachusetts: Boston and Cambridge biotech, hospitals, universities and technology hiring, and what the high cost of living means.')

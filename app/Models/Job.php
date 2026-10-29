@@ -32,7 +32,18 @@ class Job extends Model
         'seo_keywords',
         'meta_description',
         'listing_type',
+        'expires_at',
     ];
+
+    /**
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
+            'expires_at' => 'datetime',
+        ];
+    }
 
     /** seo_keywords accessor — split the stored comma-separated string into an array. */
     public function getSeoKeywordsArrayAttribute(): array

@@ -11,15 +11,13 @@
 @section('og_title', $scholarship->title)
 @section('og_description', $summary)
 @section('og_image', $posterUrl)
+@section('og_type', 'article')
 @section('canonical', $pageUrl)
 
 @push('meta')
     @php
         $faqs = app(\App\Services\StructuredDataService::class)->faqsFromHtml($scholarship->content);
     @endphp
-    <meta property="og:type" content="article">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{ $posterUrl }}">
 
     <script type="application/ld+json">
     {!! json_encode([

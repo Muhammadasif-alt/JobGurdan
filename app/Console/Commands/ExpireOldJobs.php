@@ -41,6 +41,11 @@ class ExpireOldJobs extends Command
             return self::FAILURE;
         }
 
+        // Stage 0: vacancies whose closing date has passed.
+        if (! $skipExpire) {
+            $this->expireByDeadline($dryRun);
+        }
+
         // Stage 1: mark active old jobs as expired.
         if (! $skipExpire && $expireDays > 0) {
             $this->expirePass($expireDays, $dryRun);
@@ -52,6 +57,37 @@ class ExpireOldJobs extends Command
         }
 
         return self::SUCCESS;
+    }
+
+    /**
+     * Mark active jobs whose closing date (expires_at) has passed as expired,
+     * so they leave listings, counts and sitemaps.
+     */
+    protected function expireByDeadline(bool $dryRun): void
+    {
+        $query = Job::query()
+            ->whereNotNull('expires_at')
+            ->where('expires_at', '<', now())
+            ->where(function ($q) {
+                $q->where('status', 'active')->orWhereNull('status');
+            });
+
+        $count = (clone $query)->count();
+
+        if ($count === 0) {
+            $this->info('[deadline] No active jobs past their closing date.');
+
+            return;
+        }
+
+        if ($dryRun) {
+            $this->info("[deadline] Would mark {$count} jobs as expired (closing date passed).");
+
+            return;
+        }
+
+        $updated = $query->update(['status' => 'expired']);
+        $this->info("[deadline] Marked {$updated} jobs as expired (closing date passed).");
     }
 
     protected function expirePass(int $days, bool $dryRun): void

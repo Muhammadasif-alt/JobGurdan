@@ -105,6 +105,7 @@ class FrontendDeveloperLahoreSeeder extends Seeder
                 'salary_minimum' => 24130,
                 'salary_maximum' => 133254,
                 'application_url' => self::APPLY_URL,
+                'listing_type' => 'resource',
                 'meta_description' => 'Senior Frontend Developer at ERS Tech, Lahore — 6+ years React, Next.js App Router, TypeScript and MERN. Full-time, on-site.',
                 'seo_keywords' => 'frontend developer jobs lahore, react developer jobs pakistan, nextjs developer jobs, MERN stack developer, senior frontend engineer, typescript jobs lahore',
             ]

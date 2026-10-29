@@ -70,8 +70,6 @@
 
 @push('meta')
     <link rel="preload" as="image" href="{{ asset('public/user/images/resume-writer.jpg') }}" fetchpriority="high">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
 
     {{-- JSON-LD: the service itself --}}
     <script type="application/ld+json">

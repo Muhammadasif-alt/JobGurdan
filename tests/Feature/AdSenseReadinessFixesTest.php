@@ -125,3 +125,41 @@ it('keeps empty category, location and aggregated company pages out of the index
         ->assertSee('<loc>'.url('/companies/'.$employer->id).'</loc>', false)
         ->assertDontSee('<loc>'.url('/companies/'.$aggregated->id).'</loc>', false);
 });
+
+it('serves the 404 page with a single noindex robots tag', function () {
+    $html = $this->get('/no-such-page-for-the-audit')->assertNotFound()->getContent();
+
+    preg_match_all('/<meta name="robots" content="([^"]*)"/', $html, $robots);
+
+    expect($robots[1])->toBe(['noindex, nofollow']);
+});
+
+it('keeps the audited page titles within 60 characters', function (string $path) {
+    $html = $this->get($path)->assertOk()->getContent();
+    preg_match('/<title>(.*?)<\/title>/s', $html, $title);
+
+    expect(mb_strlen(html_entity_decode(trim($title[1]), ENT_QUOTES)))->toBeLessThanOrEqual(60);
+})->with(['/contact-us', '/jobs-in-north-carolina', '/jobs-in-michigan', '/jobs-in-massachusetts']);
+
+it('gives a blog post one og:type, set to article', function () {
+    $this->seed(WorkVisasPakistanis2026CountryGuideBlogSeeder::class);
+    $html = $this->get('/blog/'.WorkVisasPakistanis2026CountryGuideBlogSeeder::SLUG)->assertOk()->getContent();
+
+    preg_match_all('/<meta property="og:type" content="([^"]*)"/', $html, $types);
+    preg_match_all('/<meta name="twitter:card" content="([^"]*)"/', $html, $cards);
+
+    expect($types[1])->toBe(['article'])
+        ->and($cards[1])->toHaveCount(1)
+        ->and($html)->toContain('property="article:modified_time"');
+});
+
+it('treats the portal-link jobs as resources, out of the index and the job sitemap', function () {
+    (new \Database\Seeders\FrontendDeveloperLahoreSeeder)->run();
+    $job = Job::where('position', 'Senior Frontend Developer (React / Next.js / MERN)')->firstOrFail();
+
+    expect($job->listing_type)->toBe(Job::LISTING_RESOURCE);
+
+    $slug = \Illuminate\Support\Str::slug($job->position.'-'.$job->location->name);
+    $this->get('/jobs/'.$slug)->assertOk()->assertSee('content="noindex, follow"', false);
+    $this->get('/sitemap-jobs-1.xml')->assertDontSee('/jobs/'.$slug);
+});
