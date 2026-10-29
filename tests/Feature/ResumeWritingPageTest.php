@@ -189,8 +189,8 @@ it('carries the market and ATS sections that do the long-tail work', function ()
     expect($html)->toContain('Written Four Different Ways')
         ->toContain('Machine-Readable')
         // Each market gets its own conventions rather than one generic answer.
-        ->toContain('United States &mdash; a resume')
-        ->toContain('Saudi Arabia &amp; UAE &mdash; a Gulf CV')
+        ->toContain('United States: a resume')
+        ->toContain('Saudi Arabia &amp; UAE: a Gulf CV')
         ->toContain('transferable visa')
         ->toContain('your time zone and your overlap hours near the top')
         // And the advice warns against the obvious way to game a filter.

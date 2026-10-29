@@ -69,7 +69,7 @@ it('gives the OPT and L-1 detail the draft listed without specifics', function (
     $body = Blog::where('slug', SWDEV_SLUG)->value('content');
 
     expect($body)->toContain('Optional Practical Training gives up to 12 months')
-        ->toContain('24 months &mdash; 36 in total')
+        ->toContain('24 months: 36 in total')
         ->toContain('E-Verify')
         ->toContain('already worked for a related entity of the same employer abroad');
 });

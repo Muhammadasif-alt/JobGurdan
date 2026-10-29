@@ -215,6 +215,16 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'New York', 'country' => 'United States']
         );
 
+        $lasvegas = Location::firstOrCreate(
+            ['name' => 'Las Vegas'],
+            ['area' => 'Nevada', 'country' => 'United States']
+        );
+
+        $orlando = Location::firstOrCreate(
+            ['name' => 'Orlando'],
+            ['area' => 'Florida', 'country' => 'United States']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1476,6 +1486,39 @@ class GuideJobListingsSeeder extends Seeder
                 'items' => ['PMF admission: Matric Science, 2nd division, at least 45% in science subjects', 'Medical Laboratory Technology is regulated under the AHPC Act, 2022', 'Government adverts state the pay scale, domicile and age rules'],
                 'url' => 'https://jobs.punjab.gov.pk/',
                 'keywords' => 'lab technician jobs in lahore punjab, medical lab technician jobs in lahore, lab technician jobs in lahore for freshers, government lab technician jobs punjab',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['hospitality-tourism', 'Hospitality & Tourism'],
+                'advertiser' => ['US Hotels and Resorts (Aggregated)', 'usa-hotels-aggregated'],
+                'location' => $lasvegas,
+                'position' => 'Hotel Housekeeping - EmployNV State Job Board (Las Vegas, Nevada)',
+                'intro' => 'EmployNV is Nevada\'s official job board, run by the Department of Employment, Training and Rehabilitation. Las Vegas guest room attendant adverts differ: some accept training or transferable skills, others prefer resort experience. Maids and housekeeping cleaners in the Las Vegas area earned a median of USD 23.14 an hour in 2025, per BLS data on O*NET.',
+                'items' => ['The Culinary Academy of Las Vegas runs a 60-hour guest room attendant course', 'Nevada minimum wage is USD 12.00 an hour, with no tip credit', 'US work authorisation is needed; no sponsorship was found'],
+                'url' => 'https://www.employnv.gov/',
+                'keywords' => 'housekeeping jobs las vegas no experience, hotel housekeeping jobs in las vegas, guest room attendant jobs las vegas, hotel housekeeping jobs las vegas with training',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['hospitality-tourism', 'Hospitality & Tourism'],
+                'advertiser' => ['UAE Government Information Pages (Aggregated)', 'uae-government-aggregated'],
+                'location' => $dubai,
+                'position' => 'Hotel Jobs for Foreigners - UAE Government Work Permit Information (Dubai)',
+                'intro' => 'Dubai hotels can hire foreigners only once the employer obtains a work permit from the Ministry of Human Resources and Emiratisation, which issues 13 permit types to registered establishments. It is illegal to work in the UAE without a valid work permit, so a visit visa never lets you start a hotel job.',
+                'items' => ['Article 6 of Federal Decree-Law No. 33 of 2021 bars employers from charging workers recruitment and employment costs', 'The UAE Labour Law sets no minimum salary, so compare the written offer', 'Confirm accommodation, meals and insurance in writing'],
+                'url' => 'https://u.ae/en/information-and-services/jobs',
+                'keywords' => 'hotel jobs in dubai uae for foreigners, hotel jobs in dubai with visa sponsorship, dubai hotel jobs apply online, uae work permit hotel jobs',
+                'note' => '<p><strong>Note:</strong> this link opens an official government information page. It is not an application form for one vacancy, and it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['hospitality-tourism', 'Hospitality & Tourism'],
+                'advertiser' => ['US Hotels and Resorts (Aggregated)', 'usa-hotels-aggregated'],
+                'location' => $orlando,
+                'position' => 'Hotel Receptionist - Employ Florida State Job Board (Orlando, Florida)',
+                'intro' => 'Employ Florida is the state\'s official job board. Some Orlando front desk posts need no experience; a Marriott post at Renaissance Orlando at SeaWorld asks only for a high school diploma or G.E.D. Hotel desk clerks in the Orlando area earned a median of USD 17.43 an hour in 2025, per BLS data on O*NET.',
+                'items' => ['Florida minimum wage is USD 15.00 an hour from 30 September 2026', 'Loews advertises Universal Orlando front desk jobs on its own site', 'US work authorisation is needed; no sponsorship was found'],
+                'url' => 'https://www.employflorida.com/',
+                'keywords' => 'hotel receptionist jobs in orlando florida, hotel front desk jobs orlando, hotel receptionist jobs orlando fl no experience, front desk agent jobs orlando',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [

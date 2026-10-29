@@ -71,7 +71,7 @@ it('corrects the cookie deprecation that courses still teach', function () {
 it('prices the certifications the draft listed as equivalent', function () {
     $body = Blog::where('slug', DIGIMKT_SLUG)->value('content');
 
-    expect($body)->toContain('HubSpot Academy &mdash; free')
+    expect($body)->toContain('HubSpot Academy: free')
         ->toContain('$49 a month')
         ->toContain('$99 to $150 each');
 });

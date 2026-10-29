@@ -65,7 +65,7 @@ it('drops the claims carried over from the old site', function () {
 it('renders a landing page with its own copy and FAQ', function () {
     $this->get('/warehouse-jobs')->assertOk()
         ->assertSee('Warehouse Jobs')
-        ->assertSee('Visa Sponsorship — the Straight Answer', false)
+        ->assertSee('Visa Sponsorship: the Straight Answer', false)
         ->assertSee('Can I get UK visa sponsorship for a warehouse job?')
         ->assertSee('"FAQPage"', false)
         ->assertDontSee('50</strong>', false);

@@ -1862,7 +1862,7 @@ it('replaces the receptionist draft salary bands, qualification and apply link w
     $this->seed(Database\Seeders\ReceptionistJobsAustraliaBlogSeeder::class);
 
     expect(Blog::where('slug', 'receptionist-jobs-in-australia')->value('content'))
-        ->toContain('Clerks &mdash; Private Sector Award 2020 (MA000002)')
+        ->toContain('Clerks: Private Sector Award 2020 (MA000002)')
         ->toContain('$1,024.70 a week, $26.97 an hour (Level 1 year 1)')
         ->toContain('$1,182.10')
         ->toContain('about $53,284 a year')
@@ -3494,7 +3494,7 @@ it('fixes the UK warehouse driver draft pay, allowance and sponsorship claims wi
     expect($content)->toContain('Median <strong>&pound;39,141</strong> a year')
         ->toContain('&pound;16.25')
         ->toContain('<strong>&pound;34.90 a night</strong>, not &pound;26.20')
-        ->toContain('<strong>75% of that figure &mdash; &pound;26.18</strong>')
+        ->toContain('<strong>75% of that figure, &pound;26.18</strong>')
         ->toContain('<strong>SOC 8211, heavy and large goods vehicle drivers, is ineligible</strong>')
         ->toContain('<strong>26% of HGV businesses reported driver vacancies in quarter 4 of 2025</strong>')
         ->toContain('<strong>International</strong> Driver CPC training')
@@ -3645,7 +3645,7 @@ it('fixes the Saudi Arabia draft sponsorship, tax and recruitment fee claims wit
         ->toContain('<strong>18 June 2025</strong>')
         ->toContain('5 April 2026')
         ->toContain('<strong>1,009,691 people employed</strong>')
-        ->toContain('764,520 &mdash; 75.7% &mdash; were non-Saudi')
+        ->toContain('764,520, 75.7%, were non-Saudi')
         ->toContain('<strong>15,168,982</strong>')
         ->toContain('<strong>19,390,726</strong>')
         ->toContain('<strong>78.2%</strong>, not 77%')
@@ -4476,7 +4476,7 @@ it('replaces the expired Rozee salary adverts with dated live listings and corre
         ->toContain('This role is open only to U.S. citizens and lawful permanent residents')
         ->toContain('<strong>There is no SEO category on the board at all</strong>')
         // INP replaced FID in 2024; the draft era still cites FID.
-        ->toContain('<strong>INP</strong> (Interaction to Next Paint) &mdash; 200 milliseconds or less.')
+        ->toContain('<strong>INP</strong> (Interaction to Next Paint): 200 milliseconds or less.')
         ->not->toContain('First Input Delay as a stable Core Web Vital in 2025')
         // The RDA is for non-resident Pakistanis only.
         ->toContain('<strong>The common mistake to avoid: a Roshan Digital Account is not for you.</strong>')

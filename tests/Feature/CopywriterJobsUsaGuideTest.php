@@ -55,7 +55,7 @@ it('replaces the never-higher-demand claim with the projection and its exception
     // is this niche. Both halves have to be present or the page misleads.
     $body = Blog::where('slug', COPY_SLUG)->value('content');
 
-    expect($body)->toContain('0 per cent &mdash; little or no change &mdash; from 2025 to 2035')
+    expect($body)->toContain('0 per cent, little or no change, from 2025 to 2035')
         ->toContain('dampen demand for these workers')
         ->toContain('continue to be needed for online media and advertising');
 });
