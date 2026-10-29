@@ -66,6 +66,8 @@ it('gives each salary and from-Pakistan guide its own job listing', function () 
         'Apprenticeship Applicant — Apprenticeship.gov Job Finder (Check Entry Requirements)',
         'Elevator Constructor Applicant — NEIEP Ranked Hiring List Information',
         'Construction Laborer Applicant — Laborers Training School Waiting List Information',
+        'Commis Chef - France Travail Public Job Offers (Paris, France)',
+        'Waiter - ILO Guide to Qatar Minimum Wage and Job Changes (Doha)',
         'Hotel Housekeeping - EmployNV State Job Board (Las Vegas, Nevada)',
         'Hotel Jobs for Foreigners - UAE Government Work Permit Information (Dubai)',
         'Hotel Receptionist - Employ Florida State Job Board (Orlando, Florida)',

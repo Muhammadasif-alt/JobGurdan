@@ -225,6 +225,16 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Florida', 'country' => 'United States']
         );
 
+        $paris = Location::firstOrCreate(
+            ['name' => 'Paris'],
+            ['area' => 'Ile-de-France', 'country' => 'France']
+        );
+
+        $doha = Location::firstOrCreate(
+            ['name' => 'Doha'],
+            ['area' => 'Doha', 'country' => 'Qatar']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1520,6 +1530,28 @@ class GuideJobListingsSeeder extends Seeder
                 'url' => 'https://www.employflorida.com/',
                 'keywords' => 'hotel receptionist jobs in orlando florida, hotel front desk jobs orlando, hotel receptionist jobs orlando fl no experience, front desk agent jobs orlando',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['hospitality-tourism', 'Hospitality & Tourism'],
+                'advertiser' => ['France Public Employment Service (Aggregated)', 'france-public-employment-aggregated'],
+                'location' => $paris,
+                'position' => 'Commis Chef - France Travail Public Job Offers (Paris, France)',
+                'intro' => 'France Travail is the French public employment service and publishes cook (cuisinier) and commis offers from many employers. Most Paris chefs start as a commis; some kitchens accept motivated beginners, others expect a CAP or a year in a restaurant. The SMIC is EUR 12.31 gross an hour, EUR 1,867.02 a month for 35 hours.',
+                'items' => ['Many kitchen contracts are 39 hours a week, with overtime above 35', 'Non-EU nationals usually need the employer to request a work authorisation first', 'Check that an offer is still open before you apply'],
+                'url' => 'https://candidat.francetravail.fr/offres/recherche',
+                'keywords' => 'chef jobs in paris france, commis chef jobs in paris france, chef jobs in paris france for foreigners, cuisinier jobs paris',
+                'note' => '<p><strong>Note:</strong> this link opens the official French public employment service. It is not an application form for one vacancy, and a listing on it does not guarantee hiring or a visa.</p>',
+            ],
+            [
+                'category' => ['hospitality-tourism', 'Hospitality & Tourism'],
+                'advertiser' => ['Qatar Labour Information Pages (Aggregated)', 'qatar-labour-information-aggregated'],
+                'location' => $doha,
+                'position' => 'Waiter - ILO Guide to Qatar Minimum Wage and Job Changes (Doha)',
+                'intro' => 'The International Labour Organization explains the rules a waiter in Doha works under. Law No. 17 of 2020 sets a minimum wage of QAR 1,000 a month basic, plus at least QAR 300 for food and QAR 500 for housing unless the employer provides them. Law No. 19 of 2020 lets workers change jobs without an NOC.',
+                'items' => ['Notice is at least one month for two years of service or less, two months if longer', 'Accor lists Pullman and Banyan Tree Doha waiter jobs on its own careers site', 'Never pay a recruiter for a job or a visa'],
+                'url' => 'https://www.ilo.org/resource/article/dismantling-kafala-system-and-introducing-minimum-wage-mark-new-era-qatar',
+                'keywords' => 'waiter jobs in doha qatar, waiter jobs in qatar for freshers, waiter salary in doha qatar per month, qatar minimum wage',
+                'note' => '<p><strong>Note:</strong> this link opens an International Labour Organization information page. It is not an application form for one vacancy, and it does not guarantee hiring.</p>',
             ],
             [
                 'category' => ['transport-logistics', 'Transport & Logistics'],
