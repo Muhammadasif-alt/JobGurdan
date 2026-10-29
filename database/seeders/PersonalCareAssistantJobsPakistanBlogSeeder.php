@@ -263,11 +263,11 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/home-healthcare-assistant-jobs-in-pakistan">Home Healthcare Assistant Jobs in Pakistan</a> &mdash; where the clinical line sits and how to verify a licence by CNIC.</li>
-    <li><a href="/blog/elderly-care-assistant-jobs-in-pakistan">Elderly Care Assistant Jobs in Pakistan</a> &mdash; the free NAVTTC qualification and what dementia work demands.</li>
-    <li><a href="/blog/disability-support-worker-jobs-in-pakistan">Disability Support Worker Jobs in Pakistan</a> &mdash; the same skills for a different client group, and the 3 per cent employment quota.</li>
-    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; if you want desk work instead, with the same entry-level footing.</li>
-    <li><a href="/blog/residential-care-worker-jobs-in-pakistan">Residential Care Worker Jobs in Pakistan</a> &mdash; what changes again when an institution employs you rather than a household.</li>
+    <li><a href="/blog/home-healthcare-assistant-jobs-in-pakistan">Home Healthcare Assistant Jobs in Pakistan</a>: where the clinical line sits and how to verify a licence by CNIC.</li>
+    <li><a href="/blog/elderly-care-assistant-jobs-in-pakistan">Elderly Care Assistant Jobs in Pakistan</a>: the free NAVTTC qualification and what dementia work demands.</li>
+    <li><a href="/blog/disability-support-worker-jobs-in-pakistan">Disability Support Worker Jobs in Pakistan</a>: the same skills for a different client group, and the 3 per cent employment quota.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a>: if you want desk work instead, with the same entry-level footing.</li>
+    <li><a href="/blog/residential-care-worker-jobs-in-pakistan">Residential Care Worker Jobs in Pakistan</a>: what changes again when an institution employs you rather than a household.</li>
 </ul>
 
 <h2>Official sources</h2>

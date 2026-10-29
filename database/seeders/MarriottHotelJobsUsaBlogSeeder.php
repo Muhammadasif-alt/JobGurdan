@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Marriott Hotel Jobs in the USA" — an employer guide built on
+ * "How to Apply for Marriott Hotel Jobs in the USA": an employer guide built on
  * careers.marriott.com, life.marriott.com, Marriott's 2025 Form 10-K and the BLS
  * Occupational Employment and Wage Statistics, rather than the job-board counts
  * and blanket benefit claims the draft relied on.
@@ -30,9 +30,9 @@ use Illuminate\Support\Str;
  *     International, Inc." The guide makes this its first section.
  *
  *  2. "Apply via Marriott Careers or Indeed" is replaced with Marriott's own
- *     careers site only. Individual Marriott job URLs expire quickly — five
+ *     careers site only. Individual Marriott job URLs expire quickly: five
  *     search-indexed posting URLs returned HTTP 404 while this guide was being
- *     checked — so the guide points at the stable hotel jobs search rather than
+ *     checked, so the guide points at the stable hotel jobs search rather than
  *     any single advert, and JobGader links no aggregator.
  *
  *  3. The draft's "5,446 Marriott Hotel jobs currently listed across the United
@@ -56,8 +56,8 @@ use Illuminate\Support\Str;
  *     signals a franchisee posting. That is the fastest way for an applicant to
  *     tell who the employer is.
  *
- *  7. The draft's benefits claim — "generous hotel and food discounts at
- *     thousands of global properties" — holds for only some applicants.
+ *  7. The draft's benefits claim: "generous hotel and food discounts at
+ *     thousands of global properties": holds for only some applicants.
  *     Marriott's own benefits page says "Marriott benefits do not apply to
  *     employees of businesses operated by independent franchisees", and Explore
  *     by Marriott Bonvoy is limited to "All Marriott associates at hotels and
@@ -191,7 +191,7 @@ class MarriottHotelJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> at most Marriott-branded US hotels the employer is an independent franchisee rather than Marriott International, and that franchisee sets pay, benefits and hiring &mdash; not by JobGader. Apply directly on Marriott's careers site and never pay anyone for a hotel job.</p>
+<p><strong>Note:</strong> at most Marriott-branded US hotels the employer is an independent franchisee rather than Marriott International, and that franchisee sets pay, benefits and hiring, not by JobGader. Apply directly on Marriott's careers site and never pay anyone for a hotel job.</p>
 JOBHTML;
     }
 
@@ -229,7 +229,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>Marriott says it owns or leases very few of its lodging properties, less than one percent of the system. At year-end 2025 it managed the employment of about <strong>414,000 associates</strong> &mdash; roughly 148,000 employed directly by Marriott and 266,000 employed by hotel owners but managed by Marriott. Then comes the line that shows how large the gap is: <strong>"These numbers do not include hotel personnel employed by our independent franchisees and licensees."</strong> Those workers are not in the count at all.</p>
+<p>Marriott says it owns or leases very few of its lodging properties, less than one percent of the system. At year-end 2025 it managed the employment of about <strong>414,000 associates</strong>: roughly 148,000 employed directly by Marriott and 266,000 employed by hotel owners but managed by Marriott. Then comes the line that shows how large the gap is: <strong>"These numbers do not include hotel personnel employed by our independent franchisees and licensees."</strong> Those workers are not in the count at all.</p>
 
 <p>When a Marriott-branded hotel is franchised, its advert on Marriott's own careers site carries this wording:</p>
 
@@ -265,7 +265,7 @@ JOBHTML;
 
 <h2>What It Pays, and What Nobody Can Tell You</h2>
 
-<p><strong>Marriott publishes no national pay figure for any hotel role.</strong> What it does publish is a per-property range, on its own adverts, in the states whose law requires one. Those adverts carry a line in the form "The pay range for this position is $X to $Y per hour" &mdash; sometimes a real spread, often a single fixed rate repeated twice.</p>
+<p><strong>Marriott publishes no national pay figure for any hotel role.</strong> What it does publish is a per-property range, on its own adverts, in the states whose law requires one. Those adverts carry a line in the form "The pay range for this position is $X to $Y per hour": sometimes a real spread, often a single fixed rate repeated twice.</p>
 
 <p>Fourteen states plus the District of Columbia now require a pay range in the advert itself, among them California, Colorado, Washington, New York, Illinois, Minnesota, Maryland, Hawaii, Maine, New Jersey, Massachusetts and Vermont. The practical trick: <strong>search your role in one of those states even if you do not live there</strong>, and you will see real numbers for comparable Marriott properties instead of a job board's crowdsourced estimate.</p>
 
@@ -315,7 +315,7 @@ JOBHTML;
     <li><strong>Never pay for a hotel job.</strong> No legitimate US hotel, franchised or managed, charges an applicant a fee.</li>
 </ol>
 
-<p>If your interest in hotel work is really about moving to the US, the sponsorship question is a separate one and the answer is far narrower than most sites suggest &mdash; our <a href="/blog/hotel-jobs-in-usa-for-foreigners">hotel jobs in USA for foreigners guide</a> covers which routes exist.</p>
+<p>If your interest in hotel work is really about moving to the US, the sponsorship question is a separate one and the answer is far narrower than most sites suggest: our <a href="/blog/hotel-jobs-in-usa-for-foreigners">hotel jobs in USA for foreigners guide</a> covers which routes exist.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -374,16 +374,16 @@ JOBHTML;
 <p>Looking at US entry-level work more widely? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; which hospitality roles actually get sponsored, and which do not.</li>
-    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a> &mdash; another large employer with published hourly pay.</li>
-    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a> &mdash; contract pay rates you can look up before applying.</li>
-    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a> &mdash; one of the fastest no-experience hiring processes in the country.</li>
-    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; the natural next step from a front desk role.</li>
-    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; similar hours, similar pay, different shift patterns.</li>
-    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; what the entry wage really looks like by state.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest version of the visa question.</li>
-    <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a> &mdash; the same work in a market with different sponsorship rules.</li>
-    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry Level Office Job With No Experience</a> &mdash; where hotel front desk experience takes you next.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>, which hospitality roles actually get sponsored, and which do not.</li>
+    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a>: another large employer with published hourly pay.</li>
+    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a>: contract pay rates you can look up before applying.</li>
+    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a>: one of the fastest no-experience hiring processes in the country.</li>
+    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a>: the natural next step from a front desk role.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a>: similar hours, similar pay, different shift patterns.</li>
+    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a>: what the entry wage really looks like by state.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the honest version of the visa question.</li>
+    <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a>: the same work in a market with different sponsorship rules.</li>
+    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry Level Office Job With No Experience</a>: where hotel front desk experience takes you next.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Marriott International's own careers and benefits pages, Marriott job adverts on careers.marriott.com, Marriott's Form 10-K for the year ended 31 December 2025 as filed with the SEC, and the US Bureau of Labor Statistics Occupational Employment and Wage Statistics for May 2025. Marriott publishes no national pay figure for hotel roles, property counts and vacancies change constantly, and pay and benefits at franchised hotels are set by the franchisee. Always check the live advert and confirm who the employer is before you accept an offer.</p>

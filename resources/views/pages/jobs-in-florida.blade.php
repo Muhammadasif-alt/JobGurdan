@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Florida — Tourism, Health and Logistics | JobGader')
+@section('title', 'Jobs in Florida: Tourism, Health and Logistics | JobGader')
 @section('meta_description', 'Jobs in Florida: hospitality, healthcare, aerospace and logistics hiring across Miami, Orlando and Tampa, what they pay, and the seasonal cycle.')
-@section('og_title', 'Jobs in Florida — Tourism, Health and Logistics | JobGader')
+@section('og_title', 'Jobs in Florida: Tourism, Health and Logistics | JobGader')
 @section('og_description', 'Jobs in Florida: hospitality, healthcare, aerospace and logistics hiring across Miami, Orlando and Tampa, what they pay, and the seasonal cycle.')
 @section('canonical', url()->current())
 
@@ -23,7 +23,7 @@
             [
                 'title' => 'Healthcare Is the Bigger Employer',
                 'paragraphs' => [
-                    'Florida has one of the oldest populations in the country, which makes healthcare and elderly care the deepest and most stable job market in the state — nursing, home health aides, care assistants and clinical support are all in continuous demand.',
+                    'Florida has one of the oldest populations in the country, which makes healthcare and elderly care the deepest and most stable job market in the state: nursing, home health aides, care assistants and clinical support are all in continuous demand.',
                     'This is also the sector where credentials pay off fastest. A certified nursing assistant qualification takes weeks and moves you meaningfully above hospitality pay.',
                 ],
             ],

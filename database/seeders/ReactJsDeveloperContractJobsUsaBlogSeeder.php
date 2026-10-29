@@ -147,11 +147,11 @@ HTML;
     private function postBody(): string
     {
         return <<<'HTML'
-<p>A large share of US React adverts come from staffing and consulting firms rather than from the company you would actually work at. You can usually tell from the first two lines: a precise stack, and an eligibility list &mdash; US Citizen, Green Card, OPT-EAD, CPT, H-1B.</p>
+<p>A large share of US React adverts come from staffing and consulting firms rather than from the company you would actually work at. You can usually tell from the first two lines: a precise stack, and an eligibility list: US Citizen, Green Card, OPT-EAD, CPT, H-1B.</p>
 
 <p>These roles are real work and often a genuine route in. They are also where this market treats people worst, and almost nothing written for candidates explains the rules that apply. Most of those rules are not about immigration status at all. They are wage rules, they are enforceable, and the biggest one is this: <strong>if a staffing firm stops paying you because there is no project, that is unlawful.</strong></p>
 
-<p>If you want the market picture instead &mdash; what the work pays and which occupation it is benchmarked against &mdash; that is on our <a href="/blog/react-developer-jobs-in-usa">React developer jobs guide</a>.</p>
+<p>If you want the market picture instead, what the work pays and which occupation it is benchmarked against, that is on our <a href="/blog/react-developer-jobs-in-usa">React developer jobs guide</a>.</p>
 
 <h2 id="benching-is-illegal">Unpaid Bench Time Is Illegal</h2>
 
@@ -161,13 +161,13 @@ HTML;
 
 <p>The Department of Labor states the same thing plainly in its fact sheet on nonproductive time: H-1B workers "must be paid the required wage rate for all nonproductive time caused by conditions related to employment", such as "lack of assigned work, lack of a permit, or studying for a licensing exam".</p>
 
-<p>There are genuine exceptions, and it is worth knowing them so you can tell a real one from an excuse. Under 655.731(c)(7)(ii) the wage need not be paid where the nonproductive period is "due to conditions unrelated to employment which take the nonimmigrant away from his/her duties at his/her voluntary request and convenience" &mdash; the regulation's own examples are touring the US or caring for an ill relative &mdash; or where the worker is unable to work, for instance maternity leave or an accident. It also does not apply after "a bona fide termination of the employment relationship", and a bona fide termination requires the employer to notify immigration authorities so the petition is cancelled.</p>
+<p>There are genuine exceptions, and it is worth knowing them so you can tell a real one from an excuse. Under 655.731(c)(7)(ii) the wage need not be paid where the nonproductive period is "due to conditions unrelated to employment which take the nonimmigrant away from his/her duties at his/her voluntary request and convenience", the regulation's own examples are touring the US or caring for an ill relative, or where the worker is unable to work, for instance maternity leave or an accident. It also does not apply after "a bona fide termination of the employment relationship", and a bona fide termination requires the employer to notify immigration authorities so the petition is cancelled.</p>
 
 <p><strong>The distinction to hold on to:</strong> no work available is the employer's problem, and is paid. Your own voluntary absence is not. "We will put you back on payroll when you are placed" is the first category wearing the language of the second.</p>
 
 <h3>When the wage is supposed to start</h3>
 
-<p>The same regulation removes the other common ambiguity, which is a firm that sponsors you and then keeps you unpaid for months while "looking for a project". Under 655.731(c)(6)(i) you have entered into employment when you "first make yourself available for work or otherwise come under the control of the employer" &mdash; and the regulation's list of examples begins with <strong>"waiting for an assignment"</strong>. Reporting for orientation or training, going to a client interview, and studying for a licensing exam are all in the same list.</p>
+<p>The same regulation removes the other common ambiguity, which is a firm that sponsors you and then keeps you unpaid for months while "looking for a project". Under 655.731(c)(6)(i) you have entered into employment when you "first make yourself available for work or otherwise come under the control of the employer", and the regulation's list of examples begins with <strong>"waiting for an assignment"</strong>. Reporting for orientation or training, going to a client interview, and studying for a licensing exam are all in the same list.</p>
 
 <p>And there is a hard backstop even if none of that has happened. Under 655.731(c)(6)(ii) an employer with a certified LCA and an approved petition must pay the required wage <strong>beginning 30 days after the worker is first admitted to the US</strong> under the petition, or, if the worker is already in the country, <strong>beginning 60 days after becoming eligible to work</strong> for that employer.</p>
 
@@ -180,7 +180,7 @@ HTML;
 <ul>
     <li><strong>The firm's own costs of sponsoring you.</strong> A deduction "may not recoup a business expense(s) of the employer (including attorney fees and other costs connected to the performance of H-1B program functions which are required to be performed by the employer, e.g., preparation and filing of LCA and H-1B petition)".</li>
     <li><strong>A penalty for leaving early.</strong> "The employer is not permitted to require (directly or indirectly) that the nonimmigrant pay a penalty for ceasing employment with the employer prior to an agreed date." The regulation does allow <em>bona fide liquidated damages</em>, which is a real distinction and turns on state law, but a flat exit penalty is not that.</li>
-    <li><strong>The statutory filing fee, even indirectly.</strong> The employer "may not receive, and the H-1B nonimmigrant may not pay, any part of" it, "whether directly or indirectly, voluntarily or involuntarily" &mdash; and the regulation closes the obvious loophole: if a third party pays the fee and you reimburse that third party, the employer is still in violation, "since the employer would in such circumstances have been spared the expense of the fee which the H-1B nonimmigrant paid".</li>
+    <li><strong>The statutory filing fee, even indirectly.</strong> The employer "may not receive, and the H-1B nonimmigrant may not pay, any part of" it, "whether directly or indirectly, voluntarily or involuntarily", and the regulation closes the obvious loophole: if a third party pays the fee and you reimburse that third party, the employer is still in violation, "since the employer would in such circumstances have been spared the expense of the fee which the H-1B nonimmigrant paid".</li>
     <li><strong>Anything you signed for as a condition of the job.</strong> This is the one that surprises people most. The regulation's note to 655.731(c)(9)(iii)(A) states that "an employee's mere acceptance of a job which carries a deduction as a condition of employment does not constitute voluntary authorization, even if such condition were stated in writing".</li>
 </ul>
 
@@ -202,7 +202,7 @@ HTML;
 
 <p>So the arrangement to be wary of is not "a staffing agency is involved". It is <strong>an agency that signs your I-983 while a different company supplies the work</strong>. And if an agency moves you between clients, SEVP is explicit that "the student will need to complete a new Form I-983 for every new training opportunity with each employer".</p>
 
-<p>Three further requirements, from the official overview. Your STEM OPT employer must be <strong>enrolled in E-Verify</strong>, must provide "formal training and learning objectives", and you must <strong>work a minimum of 20 hours per week per employer</strong>. Note also that DHS "may conduct a site visit of any employer" to check that it can actually deliver what the I-983 promises, normally on 48 hours' notice &mdash; and without notice where there has been a complaint.</p>
+<p>Three further requirements, from the official overview. Your STEM OPT employer must be <strong>enrolled in E-Verify</strong>, must provide "formal training and learning objectives", and you must <strong>work a minimum of 20 hours per week per employer</strong>. Note also that DHS "may conduct a site visit of any employer" to check that it can actually deliver what the I-983 promises, normally on 48 hours' notice, and without notice where there has been a complaint.</p>
 
 <h3>The OPT numbers worth knowing exactly</h3>
 <ul>
@@ -220,11 +220,11 @@ HTML;
 
 <p>Adverts in this market lead with eligibility. It is worth knowing precisely what the law says about that, because the popular version of it is wrong in a way that could waste your time.</p>
 
-<p>Federal law does restrict these adverts. The Department of Justice's Immigrant and Employee Rights Section tells employers to avoid, unless legally required, phrasing that limits eligibility by citizenship status &mdash; and its own list of examples includes <em>"Only U.S. Citizens"</em>, <em>"Only U.S. Citizens or Green Card Holders"</em>, <em>"Must have a green card"</em>, and, in the other direction, <em>"H-1Bs Only"</em> and <em>"H-1Bs and OPT Preferred"</em>. The same statute that constrains a citizens-only advert also constrains a firm that recruits only visa holders.</p>
+<p>Federal law does restrict these adverts. The Department of Justice's Immigrant and Employee Rights Section tells employers to avoid, unless legally required, phrasing that limits eligibility by citizenship status, and its own list of examples includes <em>"Only U.S. Citizens"</em>, <em>"Only U.S. Citizens or Green Card Holders"</em>, <em>"Must have a green card"</em>, and, in the other direction, <em>"H-1Bs Only"</em> and <em>"H-1Bs and OPT Preferred"</em>. The same statute that constrains a citizens-only advert also constrains a firm that recruits only visa holders.</p>
 
 <p><strong>But here is the part you need before you rely on it.</strong> The citizenship-status protection at 8 U.S.C. 1324b applies to a defined class of "protected individuals": US citizens and nationals, lawful permanent residents, certain temporary residents, refugees and asylees. <strong>An H-1B worker, an OPT or STEM OPT student and a CPT student are not in that class.</strong> The statute also expressly permits an employer "to prefer to hire, recruit, or refer an individual who is a citizen or national of the United States over another individual who is an alien if the two individuals are equally qualified", and it does not apply where citizenship is "required in order to comply with law, regulation, or executive order, or required by Federal, State, or local government contract".</p>
 
-<p>So if you are on an H-1B or OPT and you meet a "US Citizens or Green Card only" advert, the honest position is that the citizenship-status provision is not your route. What may still be available is a claim of <strong>national origin</strong> discrimination, which protects any individual, or one for <strong>document abuse</strong> &mdash; asking for "more or different documents than are required", or refusing documents that reasonably appear genuine, where done to discriminate.</p>
+<p>So if you are on an H-1B or OPT and you meet a "US Citizens or Green Card only" advert, the honest position is that the citizenship-status provision is not your route. What may still be available is a claim of <strong>national origin</strong> discrimination, which protects any individual, or one for <strong>document abuse</strong>: asking for "more or different documents than are required", or refusing documents that reasonably appear genuine, where done to discriminate.</p>
 
 <p>The practical use of all this is simpler than the law: read the eligibility line first, and do not spend applications on roles that exclude you. The clearance and citizenship filter on the federal part of this market is set out in full in our <a href="/blog/react-developer-jobs-in-usa">React developer guide</a>.</p>
 
@@ -254,7 +254,7 @@ HTML;
 <p>Not by itself. The regulation states that an employee's mere acceptance of a job carrying a deduction as a condition of employment "does not constitute voluntary authorization, even if such condition were stated in writing".</p>
 
 <h3>Can I do STEM OPT through a staffing agency?</h3>
-<p>Yes. SEVP says students may find a training opportunity with a staffing agency's assistance. What the agency cannot do is sign your Form I-983 &mdash; only the E-Verified employer that provides the actual training may sign, and a new I-983 is needed for each employer.</p>
+<p>Yes. SEVP says students may find a training opportunity with a staffing agency's assistance. What the agency cannot do is sign your Form I-983: only the E-Verified employer that provides the actual training may sign, and a new I-983 is needed for each employer.</p>
 
 <h3>How long can I be unemployed on OPT?</h3>
 <p>An aggregate of 90 days during post-completion OPT, rising to a total of 150 days across the whole period if you get the 24-month STEM extension. This is why unpaid bench time carries a second cost on OPT.</p>
@@ -294,28 +294,28 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the main guide: pay bands, the citizenship and clearance filter, and the toolchain that dates a portfolio.</li>
-    <li><a href="/blog/remote-react-developer-jobs-in-usa">Remote React Developer Jobs in USA</a> &mdash; W-2 against 1099, self-employment tax and the misclassification test.</li>
-    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; the prevailing wage levels, which decide the floor on a sponsored senior role.</li>
-    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a> &mdash; what the federal record says about experience, and the paid apprentice route.</li>
-    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage, and the adjustment you are entitled to ask for.</li>
-    <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a> &mdash; the other end of this market, where the offer carries equity and bonus instead of an hourly rate.</li>
-    <li><a href="/blog/react-developer-internship-jobs-in-usa">React Developer Internship Jobs in USA</a> &mdash; CPT and pre-completion OPT, and the year of full-time CPT that costs you post-completion OPT.</li>
-    <li><a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React Developer Jobs in USA</a> &mdash; the mixed-codebase work many of these engagements actually are.</li>
-    <li><a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript Developer Jobs in USA</a> &mdash; the typed codebases at the other end of the same market.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the main guide: pay bands, the citizenship and clearance filter, and the toolchain that dates a portfolio.</li>
+    <li><a href="/blog/remote-react-developer-jobs-in-usa">Remote React Developer Jobs in USA</a>: W-2 against 1099, self-employment tax and the misclassification test.</li>
+    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a>: the prevailing wage levels, which decide the floor on a sponsored senior role.</li>
+    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a>: what the federal record says about experience, and the paid apprentice route.</li>
+    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a>: the assessment stage, and the adjustment you are entitled to ask for.</li>
+    <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a>: the other end of this market, where the offer carries equity and bonus instead of an hourly rate.</li>
+    <li><a href="/blog/react-developer-internship-jobs-in-usa">React Developer Internship Jobs in USA</a>: CPT and pre-completion OPT, and the year of full-time CPT that costs you post-completion OPT.</li>
+    <li><a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React Developer Jobs in USA</a>: the mixed-codebase work many of these engagements actually are.</li>
+    <li><a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript Developer Jobs in USA</a>: the typed codebases at the other end of the same market.</li>
 </ul>
 
 <h2>Official sources</h2>
 
 <ul>
-    <li>20 CFR 655.731 &mdash; the H-1B required wage, nonproductive status, and authorised and prohibited deductions.</li>
-    <li>Department of Labor, Wage and Hour Division &mdash; Fact Sheets 62G, 62H and 62I on the guaranteed wage, deductions and nonproductive time.</li>
-    <li>Department of Homeland Security, Study in the States &mdash; STEM OPT Hub overview, and SEVP guidance on temporary and staffing agencies.</li>
-    <li>8 CFR 214.2(f)(10) &mdash; optional practical training, unemployment limits and employer site visits; and USCIS on OPT for F-1 students.</li>
-    <li>8 U.S.C. 1324b &mdash; unfair immigration-related employment practices; and the Department of Justice Immigrant and Employee Rights Section, best practices for advertising employment positions.</li>
+    <li>20 CFR 655.731: the H-1B required wage, nonproductive status, and authorised and prohibited deductions.</li>
+    <li>Department of Labor, Wage and Hour Division: Fact Sheets 62G, 62H and 62I on the guaranteed wage, deductions and nonproductive time.</li>
+    <li>Department of Homeland Security, Study in the States: STEM OPT Hub overview, and SEVP guidance on temporary and staffing agencies.</li>
+    <li>8 CFR 214.2(f)(10): optional practical training, unemployment limits and employer site visits; and USCIS on OPT for F-1 students.</li>
+    <li>8 U.S.C. 1324b: unfair immigration-related employment practices; and the Department of Justice Immigrant and Employee Rights Section, best practices for advertising employment positions.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Regulations, fee amounts and agency guidance change, and an individual case can turn on facts this page cannot know &mdash; confirm the current position with the Department of Labor, USCIS, the Department of Justice and a licensed adviser before relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Regulations, fee amounts and agency guidance change, and an individual case can turn on facts this page cannot know: confirm the current position with the Department of Labor, USCIS, the Department of Justice and a licensed adviser before relying on any of it.</p>
 HTML;
     }
 }

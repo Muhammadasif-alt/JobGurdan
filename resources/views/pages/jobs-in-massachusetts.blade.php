@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
 @section('title', 'Jobs in Massachusetts: Biotech, Health, Education | JobGader')
 @section('meta_description', 'Jobs in Massachusetts: Boston and Cambridge biotech, hospitals, universities and technology hiring, and what the high cost of living means.')
-@section('og_title', 'Jobs in Massachusetts — Biotech, Health, Education | JobGader')
+@section('og_title', 'Jobs in Massachusetts: Biotech, Health, Education | JobGader')
 @section('og_description', 'Jobs in Massachusetts: Boston and Cambridge biotech, hospitals, universities and technology hiring, and what the high cost of living means.')
 @section('canonical', url()->current())
 
@@ -31,7 +31,7 @@
                 'title' => 'Cost Is the Constraint',
                 'paragraphs' => [
                     'Massachusetts salaries are high by national standards, but Boston housing costs are among the steepest in the country and absorb much of the difference. Roles outside Route 128 pay less but leave more.',
-                    'Public transport around Boston is better than in most US metros, which genuinely widens the area you can live in while working centrally — worth factoring in before ruling out a location.',
+                    'Public transport around Boston is better than in most US metros, which genuinely widens the area you can live in while working centrally: worth factoring in before ruling out a location.',
                 ],
             ],
         ],

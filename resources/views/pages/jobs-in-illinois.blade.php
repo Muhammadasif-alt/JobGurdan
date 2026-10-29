@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Illinois — Chicago, Logistics and Trade | JobGader')
+@section('title', 'Jobs in Illinois: Chicago, Logistics and Trade | JobGader')
 @section('meta_description', 'Jobs in Illinois: what Chicago finance, logistics, manufacturing and healthcare pay, plus where the state hires outside the metro area.')
-@section('og_title', 'Jobs in Illinois — Chicago, Logistics and Trade | JobGader')
+@section('og_title', 'Jobs in Illinois: Chicago, Logistics and Trade | JobGader')
 @section('og_description', 'Jobs in Illinois: what Chicago finance, logistics, manufacturing and healthcare pay, plus where the state hires outside the metro area.')
 @section('canonical', url()->current())
 
@@ -24,7 +24,7 @@
                 'title' => 'Finance, Trading and Professional Services',
                 'paragraphs' => [
                     'Chicago is a global centre for derivatives and commodities trading, and supports a substantial banking, insurance and professional services sector alongside it.',
-                    'These roles concentrate in the Loop and pay well above the state average, with the usual qualification filters — a relevant degree for entry, and specific certifications for compliance and accounting positions.',
+                    'These roles concentrate in the Loop and pay well above the state average, with the usual qualification filters: a relevant degree for entry, and specific certifications for compliance and accounting positions.',
                 ],
             ],
             [

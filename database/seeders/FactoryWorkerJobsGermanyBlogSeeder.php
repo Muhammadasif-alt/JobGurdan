@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Factory Worker Jobs in Germany" — German production work for readers
+ * "Factory Worker Jobs in Germany": German production work for readers
  * outside the EU. Written around the statutory minimum wage, because once it
  * is on the page most of the published salary ranges stop making sense.
  *
@@ -137,14 +137,14 @@ class FactoryWorkerJobsGermanyBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>Automotive, machinery, chemicals, food processing and logistics employers across Germany hire production workers, machine operators, packers and assembly staff. It is one of the highest-volume categories on German job boards and one of the more realistic industrial entry points into the European Union &mdash; provided the visa question is answered before the application, not after.</p>
+<p>Automotive, machinery, chemicals, food processing and logistics employers across Germany hire production workers, machine operators, packers and assembly staff. It is one of the highest-volume categories on German job boards and one of the more realistic industrial entry points into the European Union: provided the visa question is answered before the application, not after.</p>
 
 <h3>What the work involves</h3>
 <p>Operating, feeding and monitoring production or packaging machinery; assembling components to a production target; picking, sorting and reworking parts to specification; documenting each step in the plant's digital system; and following hygiene and safety protocols, which are strict in food and pharmaceutical production.</p>
 
 <h3>Requirements</h3>
 <ul>
-    <li>German language &mdash; basic to conversational for helper roles, with B1 increasingly asked for on machine operation</li>
+    <li>German language: basic to conversational for helper roles, with B1 increasingly asked for on machine operation</li>
     <li>Willingness to work rotating shifts, including nights and weekends, stated in nearly every listing</li>
     <li>Production or logistics experience, preferred rather than mandatory on <em>Produktionshelfer</em> roles</li>
     <li>Technical aptitude for machine operator posts; a forklift licence (<em>Staplerschein</em>) for logistics-adjacent work</li>
@@ -162,7 +162,7 @@ class FactoryWorkerJobsGermanyBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check any advertised rate against EUR 13.90 an hour first.</strong> Several widely published salary ranges for this job quote monthly floors that are below the legal minimum for full-time work, which tells you the data is stale rather than that the job pays badly.</p>
 
-<p><strong>Note:</strong> pay, shift patterns, language requirements and any visa support are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement, and check visa requirements with official German sources, before applying.</p>
+<p><strong>Note:</strong> pay, shift patterns, language requirements and any visa support are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement, and check visa requirements with official German sources, before applying.</p>
 JOBHTML;
     }
 
@@ -186,23 +186,23 @@ JOBHTML;
 <p>Now look at the salary table every guide to this job publishes, and specifically at the bottom of each range:</p>
 
 <ul>
-    <li>Fabrikarbeiter &mdash; from <strong>EUR 1,959</strong> a month. That is about <strong>EUR 11.30 an hour</strong>.</li>
-    <li>Produktionsarbeiter &mdash; from <strong>EUR 2,177</strong>. About <strong>EUR 12.56</strong>.</li>
-    <li>Produktionshelfer &mdash; from <strong>EUR 2,216</strong>. About <strong>EUR 12.78</strong>.</li>
-    <li>Produktionsmitarbeiter &mdash; from <strong>EUR 2,383</strong>. About <strong>EUR 13.75</strong>.</li>
+    <li>Fabrikarbeiter: from <strong>EUR 1,959</strong> a month. That is about <strong>EUR 11.30 an hour</strong>.</li>
+    <li>Produktionsarbeiter: from <strong>EUR 2,177</strong>. About <strong>EUR 12.56</strong>.</li>
+    <li>Produktionshelfer: from <strong>EUR 2,216</strong>. About <strong>EUR 12.78</strong>.</li>
+    <li>Produktionsmitarbeiter: from <strong>EUR 2,383</strong>. About <strong>EUR 13.75</strong>.</li>
 </ul>
 
 <p><strong>All four are below EUR 13.90.</strong> Four of the five range floors published for this occupation describe pay that would be unlawful for a full-time job in 2026.</p>
 
 <p>That does not mean employers are breaking the law. It means the data is old, or it includes part-time and mini-job contracts, or both. Either way the conclusion is the same and it is useful: <strong>the bottom of any published range for German production work is not an offer you should expect or accept.</strong> Anchor on EUR 13.90 an hour and read everything above it as the real market.</p>
 
-<p>By that standard the averages look different too. A quoted average of <strong>EUR 2,552</strong> a month for a Fabrikarbeiter is about <strong>EUR 14.72 an hour</strong> &mdash; only <strong>82 cents above the legal floor</strong>. The better-paid <em>Produktionsmitarbeiter</em> average of EUR 2,908 is about EUR 16.78. That is the actual spread of this occupation: from just above the minimum to a few euros above it, with shift premiums and collective agreements doing most of the work above that.</p>
+<p>By that standard the averages look different too. A quoted average of <strong>EUR 2,552</strong> a month for a Fabrikarbeiter is about <strong>EUR 14.72 an hour</strong>: only <strong>82 cents above the legal floor</strong>. The better-paid <em>Produktionsmitarbeiter</em> average of EUR 2,908 is about EUR 16.78. That is the actual spread of this occupation: from just above the minimum to a few euros above it, with shift premiums and collective agreements doing most of the work above that.</p>
 
 <h2>German Gross Is Not Gross Anywhere Else</h2>
 
 <p>This trips up nearly every international comparison of German pay, and it matters most at exactly this salary level.</p>
 
-<p>The monthly figures above are <strong>gross</strong> (<em>brutto</em>). Out of gross come <strong>statutory social insurance contributions</strong> &mdash; pension, health, unemployment and long-term care insurance &mdash; which together take roughly a fifth of gross from the employee's side, with the employer paying a comparable amount alongside. <strong>Income tax comes out after that</strong>, and how much depends on your <em>Steuerklasse</em>, the tax class set by your marital and family circumstances.</p>
+<p>The monthly figures above are <strong>gross</strong> (<em>brutto</em>). Out of gross come <strong>statutory social insurance contributions</strong>, pension, health, unemployment and long-term care insurance, which together take roughly a fifth of gross from the employee's side, with the employer paying a comparable amount alongside. <strong>Income tax comes out after that</strong>, and how much depends on your <em>Steuerklasse</em>, the tax class set by your marital and family circumstances.</p>
 
 <p>So EUR 2,552 gross does not arrive as EUR 2,552, and it does not arrive as the same proportion for everyone. Two people on identical contracts can take home noticeably different amounts because their tax classes differ.</p>
 
@@ -226,37 +226,37 @@ JOBHTML;
 
 <p><strong>The Skilled Worker route</strong> is for applicants whose vocational training or degree is <strong>recognised in Germany</strong>. Recognition is a formal process, not a judgement call, and it runs through the relevant chamber or the official recognition portal. If your qualification is recognised, this is the route and everything else on this list is a distraction.</p>
 
-<p><strong>The Opportunity Card</strong> (<em>Chancenkarte</em>) is the one most often misrepresented. It is a job-seeker visa introduced under Section 20a of the Residence Act, and it is a <strong>skilled worker instrument</strong>: you either hold a fully recognised qualification, or you score at least <strong>six points</strong> on a grid built around qualifications, professional experience, language, age and previous stays in Germany. It also requires <strong>A1 German or B2 English</strong> as a baseline and proof that you can support yourself. And &mdash; the detail that changes the plan &mdash; while you are on it and searching, <strong>you may work only up to 20 hours a week</strong>, plus short trial periods with prospective employers.</p>
+<p><strong>The Opportunity Card</strong> (<em>Chancenkarte</em>) is the one most often misrepresented. It is a job-seeker visa introduced under Section 20a of the Residence Act, and it is a <strong>skilled worker instrument</strong>: you either hold a fully recognised qualification, or you score at least <strong>six points</strong> on a grid built around qualifications, professional experience, language, age and previous stays in Germany. It also requires <strong>A1 German or B2 English</strong> as a baseline and proof that you can support yourself. And, the detail that changes the plan, while you are on it and searching, <strong>you may work only up to 20 hours a week</strong>, plus short trial periods with prospective employers.</p>
 
 <p>So the Opportunity Card is not a way to arrive and take a full-time factory job. It is a way for a qualified person to job-hunt on the ground while supporting themselves part-time.</p>
 
-<p><strong>The experience route</strong> &mdash; the one guides garble as a "Section 6 Employment Regulation route" &mdash; is Section 6 of the Employment Regulation (<em>Besch&auml;ftigungsverordnung</em>). It exists for people with substantial professional experience and a qualification recognised <em>in their home country</em> rather than in Germany, which sounds ideal for an experienced production worker. There is a condition guides consistently leave out: <strong>the route carries a minimum salary requirement</strong>, set as a share of the pension insurance contribution ceiling and updated annually. Entry-level production pay of EUR 2,400 to EUR 2,900 a month does not reach it. Check the current threshold before you build a plan on this route, because for a Produktionshelfer salary it is usually the point at which the plan fails.</p>
+<p><strong>The experience route</strong>, the one guides garble as a "Section 6 Employment Regulation route", is Section 6 of the Employment Regulation (<em>Besch&auml;ftigungsverordnung</em>). It exists for people with substantial professional experience and a qualification recognised <em>in their home country</em> rather than in Germany, which sounds ideal for an experienced production worker. There is a condition guides consistently leave out: <strong>the route carries a minimum salary requirement</strong>, set as a share of the pension insurance contribution ceiling and updated annually. Entry-level production pay of EUR 2,400 to EUR 2,900 a month does not reach it. Check the current threshold before you build a plan on this route, because for a Produktionshelfer salary it is usually the point at which the plan fails.</p>
 
 <p><strong>The employment visa with a confirmed offer</strong> is what remains, and it depends on the employer securing Federal Employment Agency approval for the specific role. That approval is far easier for an employer to obtain where the position is genuinely hard to fill, which is why the industrial shortage is real and still does not translate into an open door.</p>
 
-<p>One thing is true across every route: <strong>the pay must meet at least the statutory minimum wage, or the higher rate set by any applicable collective agreement.</strong> Underpayment is one of the most common reasons a work permit application is refused &mdash; which is another reason the sub-minimum figures in those salary tables should be treated as data errors rather than as offers.</p>
+<p>One thing is true across every route: <strong>the pay must meet at least the statutory minimum wage, or the higher rate set by any applicable collective agreement.</strong> Underpayment is one of the most common reasons a work permit application is refused, which is another reason the sub-minimum figures in those salary tables should be treated as data errors rather than as offers.</p>
 
 <h2>Search Under the German Titles, Not the English One</h2>
 
 <p>A practical point that changes how many listings you see. German employers do not advertise "factory worker". Search all of these:</p>
 
 <ul>
-    <li><strong>Produktionshelfer</strong> &mdash; production helper, the most accessible entry title.</li>
-    <li><strong>Produktionsmitarbeiter</strong> &mdash; production employee, usually paid slightly better for similar work.</li>
-    <li><strong>Fabrikarbeiter</strong> and <strong>Fabrikhelfer</strong> &mdash; factory worker and factory helper.</li>
-    <li><strong>Maschinenbediener</strong> &mdash; machine operator, the step up in both skill and pay.</li>
-    <li><strong>Verpackungsmitarbeiter</strong> &mdash; packaging worker.</li>
-    <li><strong>Montagemitarbeiter</strong> &mdash; assembly worker.</li>
-    <li><strong>Lagermitarbeiter</strong> and <strong>Logistikmitarbeiter</strong> &mdash; warehouse and logistics, frequently bundled with production listings.</li>
+    <li><strong>Produktionshelfer</strong>: production helper, the most accessible entry title.</li>
+    <li><strong>Produktionsmitarbeiter</strong>: production employee, usually paid slightly better for similar work.</li>
+    <li><strong>Fabrikarbeiter</strong> and <strong>Fabrikhelfer</strong>: factory worker and factory helper.</li>
+    <li><strong>Maschinenbediener</strong>: machine operator, the step up in both skill and pay.</li>
+    <li><strong>Verpackungsmitarbeiter</strong>: packaging worker.</li>
+    <li><strong>Montagemitarbeiter</strong>: assembly worker.</li>
+    <li><strong>Lagermitarbeiter</strong> and <strong>Logistikmitarbeiter</strong>: warehouse and logistics, frequently bundled with production listings.</li>
 </ul>
 
-<p>Two of those titles &mdash; Produktionshelfer and Produktionsmitarbeiter &mdash; often describe identical work at different rates. Apply for both.</p>
+<p>Two of those titles, Produktionshelfer and Produktionsmitarbeiter, often describe identical work at different rates. Apply for both.</p>
 
 <h2>Where the Work Is</h2>
 
 <p>Production hiring follows industry rather than population, so the map is not the one you would guess. Alongside Berlin, Hamburg and Frankfurt, the dense clusters are mid-sized industrial cities: <strong>Hannover, Bielefeld, M&uuml;nster, Essen and Bochum</strong>.</p>
 
-<p>Regionally, <strong>Baden-W&uuml;rttemberg, Bavaria and Hamburg</strong> pay above the national average and cost more to live in; the <strong>eastern states</strong> pay below it and cost considerably less. Plants covered by <strong>collective agreements</strong>, particularly in automotive, pay noticeably above the general market for the same work &mdash; and asking whether a plant is covered by one (<em>Tarifvertrag</em>) is a better pay question than asking about the base rate.</p>
+<p>Regionally, <strong>Baden-W&uuml;rttemberg, Bavaria and Hamburg</strong> pay above the national average and cost more to live in; the <strong>eastern states</strong> pay below it and cost considerably less. Plants covered by <strong>collective agreements</strong>, particularly in automotive, pay noticeably above the general market for the same work, and asking whether a plant is covered by one (<em>Tarifvertrag</em>) is a better pay question than asking about the base rate.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/factory-worker-jobs-in-germany-shifts.jpg"
@@ -314,31 +314,31 @@ JOBHTML;
 <p>Lagermitarbeiter and Logistikmitarbeiter, frequently bundled with production listings and worth searching together.</p>
 
 <h3>Maschinenbediener jobs</h3>
-<p>Machine operator &mdash; the step up in both skill and pay, and where B1 German starts appearing as a requirement.</p>
+<p>Machine operator: the step up in both skill and pay, and where B1 German starts appearing as a requirement.</p>
 
 <h2>More Job Guides</h2>
 
 <p>Comparing international routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; the same kind of work under the British sponsorship tests.</li>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; manual work where the pay floor is set by a published award.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; British entry-level work and the self-employment trap inside it.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; a Gulf route with sponsorship, accommodation and a very different package structure.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; where sponsored manual work genuinely is available.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest American position on entry-level sponsorship.</li>
-    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; a European route where sponsorship is genuinely available.</li>
-    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; office work at home rather than relocation.</li>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the Canadian route, and the difference between its two programs.</li>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; a skilled British trade, and what its certification actually requires.</li>
-    <li><a href="/blog/devops-engineer-jobs-in-germany">DevOps Engineer Jobs in Germany</a> &mdash; the graduate route into Germany, and what the EU Blue Card pays.</li>
-    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a> &mdash; the CE licence and code 95 rules, official pay and the driver visa route.</li>
-    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; the nine plants, the apprenticeship route and the honest visa answer.</li>
-    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a> &mdash; the same question in Italy, where a quota decree decides it.</li>
-    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a> &mdash; a factory employer that lists no factory-floor jobs at all.</li>
-    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a> &mdash; and which of the three Siemens companies actually hires you.</li>
-    <li><a href="/blog/how-to-apply-for-asml-semiconductor-jobs-in-netherlands">How to Apply for ASML Semiconductor Jobs in Netherlands</a> &mdash; published salary ranges, and which of them clear the Dutch visa threshold.</li>
-    <li><a href="/blog/how-to-apply-for-toyota-factory-jobs-in-japan">How to Apply for Toyota Factory Jobs in Japan</a> &mdash; free dormitories, forfeitable bonuses, and the residence status it quietly requires.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: the same kind of work under the British sponsorship tests.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: manual work where the pay floor is set by a published award.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: British entry-level work and the self-employment trap inside it.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: a Gulf route with sponsorship, accommodation and a very different package structure.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: where sponsored manual work genuinely is available.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the honest American position on entry-level sponsorship.</li>
+    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a>: a European route where sponsorship is genuinely available.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a>: office work at home rather than relocation.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: the Canadian route, and the difference between its two programs.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: a skilled British trade, and what its certification actually requires.</li>
+    <li><a href="/blog/devops-engineer-jobs-in-germany">DevOps Engineer Jobs in Germany</a>: the graduate route into Germany, and what the EU Blue Card pays.</li>
+    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a>: the CE licence and code 95 rules, official pay and the driver visa route.</li>
+    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a>: the nine plants, the apprenticeship route and the honest visa answer.</li>
+    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a>: the same question in Italy, where a quota decree decides it.</li>
+    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a>: a factory employer that lists no factory-floor jobs at all.</li>
+    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a>, and which of the three Siemens companies actually hires you.</li>
+    <li><a href="/blog/how-to-apply-for-asml-semiconductor-jobs-in-netherlands">How to Apply for ASML Semiconductor Jobs in Netherlands</a>: published salary ranges, and which of them clear the Dutch visa threshold.</li>
+    <li><a href="/blog/how-to-apply-for-toyota-factory-jobs-in-japan">How to Apply for Toyota Factory Jobs in Japan</a>: free dormitories, forfeitable bonuses, and the residence status it quietly requires.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or immigration advice. Minimum wage rates, salary thresholds, visa rules and recognition procedures change, and salary figures on any job board are a moving average rather than a statistic. Confirm the current position with official German government sources and the employer's own advertisement, or with a qualified immigration adviser, before applying.</p>

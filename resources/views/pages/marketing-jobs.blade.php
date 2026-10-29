@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Marketing Jobs — SEO, Content, Paid and Social | JobGader')
+@section('title', 'Marketing Jobs: SEO, Content, Paid and Social | JobGader')
 @section('meta_description', 'Marketing jobs across '.$coverage->shortList().': SEO, content, paid media and social roles, what they pay, and what a hiring portfolio needs.')
-@section('og_title', 'Marketing Jobs — SEO, Content, Paid and Social | JobGader')
+@section('og_title', 'Marketing Jobs: SEO, Content, Paid and Social | JobGader')
 @section('og_description', 'Marketing jobs across '.$coverage->shortList().': SEO, content, paid media and social roles, what they pay, and what a hiring portfolio needs.')
 @section('canonical', url()->current())
 
@@ -9,7 +9,7 @@
     @include('pages._seo-landing', [
         'headline' => 'Marketing Jobs',
         'intro' => [
-            'Marketing is one of the few fields where a portfolio outranks a degree. Employers want to see campaigns you ran, numbers that moved and what you did to move them — which makes it unusually open to self-taught candidates who can prove results.',
+            'Marketing is one of the few fields where a portfolio outranks a degree. Employers want to see campaigns you ran, numbers that moved and what you did to move them, which makes it unusually open to self-taught candidates who can prove results.',
             'This page pulls together marketing, SEO and digital openings from our listings, with realistic pay bands and a clear account of what a hiring portfolio needs to contain.',
         ],
         'sections' => [
@@ -38,7 +38,7 @@
                 'title' => 'AI Has Changed the Baseline',
                 'paragraphs' => [
                     'Content and design tooling has moved fast, and job ads increasingly assume working knowledge of AI writing and image tools alongside the traditional stack. Familiarity with them is now closer to a baseline expectation than a differentiator.',
-                    'What has not changed is that employers hire for judgement — knowing which keyword is worth targeting, which channel deserves the budget, and when a campaign should be stopped. Lead with the decisions you made, not the tools you used to execute them.',
+                    'What has not changed is that employers hire for judgement: knowing which keyword is worth targeting, which channel deserves the budget, and when a campaign should be stopped. Lead with the decisions you made, not the tools you used to execute them.',
                 ],
             ],
         ],

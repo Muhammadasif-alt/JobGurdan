@@ -1,5 +1,5 @@
 @extends('user.layouts.master')
-@section('title', 'Job Categories — Browse Jobs by Industry | JobGader')
+@section('title', 'Job Categories: Browse Jobs by Industry | JobGader')
 @section('meta_description', 'Browse ' . number_format($heroStats['total_categories'] ?? 0) . '+ job categories on JobGader. Find healthcare, IT, construction, retail, sales, education, finance and more.')
 @section('meta_keywords', 'job categories usa, jobs by industry, healthcare jobs, IT jobs, construction jobs, retail jobs, sales jobs, education jobs, browse jobs by category')
 @section('canonical', $categories->currentPage() === 1 ? route('jobs.categories') : route('jobs.categories').'?page='.$categories->currentPage())
@@ -39,7 +39,7 @@
 @section('content')
 
 <style>
-    /* === Categories Hero (matches home/jobs — light gradient, dark text) === */
+    /* === Categories Hero (matches home/jobs: light gradient, dark text) === */
     .cat-hero {
         position: relative;
         background: linear-gradient(180deg, #f8faff 0%, #ffffff 50%, #f5f5f7 100%);
@@ -448,7 +448,7 @@
     .cat-empty h4 { font-size: 18px; color: #1b3a6b; margin: 14px 0 6px; font-weight: 700; }
     .cat-empty p { color: #777; margin: 0; }
 
-    /* Pagination — dark */
+    /* Pagination: dark */
     .cat-pagination { padding: 40px 0 0; display: flex; justify-content: center; }
     .cat-pagination ul {
         list-style: none;
@@ -494,7 +494,7 @@
 </style>
 
 @php
-    // Friendly icon map for known category names — falls back to briefcase
+    // Friendly icon map for known category names: falls back to briefcase
     $catIconMap = [
         'Healthcare' => 'icon-line-awesome-medkit', 'Healthcare & Medical' => 'icon-line-awesome-medkit',
         'IT' => 'icon-line-awesome-laptop', 'I.T. & Communications' => 'icon-line-awesome-laptop', 'IT Engineer' => 'icon-line-awesome-laptop',
@@ -580,11 +580,11 @@
             <!-- Right: Content + button -->
             <div class="cat-seo-content">
                 <span class="eyebrow">Why Browse by Category</span>
-                <h2>Find the right job, faster — by industry that fits your skills</h2>
-                <p>Every career path is different, and so is every job seeker. Our category-based search lets you focus on the industries you know best — whether you're a registered nurse, a software developer, a CDL driver, or a sales professional. New listings are added every week.</p>
+                <h2>Find the right job, faster: by industry that fits your skills</h2>
+                <p>Every career path is different, and so is every job seeker. Our category-based search lets you focus on the industries you know best: whether you're a registered nurse, a software developer, a CDL driver, or a sales professional. New listings are added every week.</p>
 
                 <ul class="cat-feature-list">
-                    <li><i class="icon-feather-check-circle"></i> Curated job listings across {{ number_format($heroStats['total_categories'] ?? 0) }}+ industries — no irrelevant noise</li>
+                    <li><i class="icon-feather-check-circle"></i> Curated job listings across {{ number_format($heroStats['total_categories'] ?? 0) }}+ industries: no irrelevant noise</li>
                     <li><i class="icon-feather-check-circle"></i> Real-time openings count for every category you browse</li>
                     <li><i class="icon-feather-check-circle"></i> We never charge job seekers, and every listing links to its source</li>
                     <li><i class="icon-feather-check-circle"></i> Smart job alerts so you never miss a matching role</li>
@@ -637,7 +637,7 @@
                 <div class="cat-empty">
                     <i class="icon-feather-folder"></i>
                     <h4>No categories yet</h4>
-                    <p>Check back soon — we're adding new industries every week.</p>
+                    <p>Check back soon: we're adding new industries every week.</p>
                 </div>
             @endforelse
         </div>

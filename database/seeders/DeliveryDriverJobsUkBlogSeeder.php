@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Delivery Driver Jobs in UK" — the UK parcel and multi-drop market, written
+ * "Delivery Driver Jobs in UK": the UK parcel and multi-drop market, written
  * around the one thing that decides what these advertisements are worth: the
  * employed and self-employed figures are not in the same units and cannot be
  * compared as though they were.
@@ -147,7 +147,7 @@ class DeliveryDriverJobsUkBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>Parcel carriers, supermarkets, retailers and independent courier operators across the United Kingdom hire delivery drivers for multi-drop parcel rounds, home delivery and collections work. Roles are advertised in two entirely different shapes &mdash; employed and paid by the hour, or self-employed and paid by the day or the parcel &mdash; and the advertisement does not always make clear which one it is.</p>
+<p>Parcel carriers, supermarkets, retailers and independent courier operators across the United Kingdom hire delivery drivers for multi-drop parcel rounds, home delivery and collections work. Roles are advertised in two entirely different shapes, employed and paid by the hour, or self-employed and paid by the day or the parcel, and the advertisement does not always make clear which one it is.</p>
 
 <h3>What the work involves</h3>
 <p>Loading a round at a depot, running a sequenced route of anything from sixty to two hundred stops, handling failed deliveries and returns, and completing everything on a handheld scanner. Home delivery and appliance work adds two-person lifts and installation. Collections work runs the same route in reverse, picking up returns rather than dropping off.</p>
@@ -155,24 +155,24 @@ class DeliveryDriverJobsUkBlogSeeder extends Seeder
 <h3>Requirements</h3>
 <ul>
     <li>A valid UK driving licence, usually held for at least twelve months, commonly with no more than six penalty points</li>
-    <li>Category B covers vans up to 3,500kg &mdash; the weight almost all parcel work sits under</li>
+    <li>Category B covers vans up to 3,500kg: the weight almost all parcel work sits under</li>
     <li>Category C1 for 3,500&ndash;7,500kg vehicles, plus Driver CPC and a driver medical for anything above 3.5 tonnes</li>
     <li>Comfort with handheld scanners, route apps and satellite navigation</li>
     <li>Physical fitness for repeated lifting and a full day in and out of the vehicle</li>
-    <li>Hire and reward insurance if you supply your own vehicle &mdash; an ordinary van policy does not cover paid delivery</li>
+    <li>Hire and reward insurance if you supply your own vehicle: an ordinary van policy does not cover paid delivery</li>
 </ul>
 
 <h3>Two different pay structures</h3>
 <ul>
     <li><strong>Employed and hourly.</strong> Advertised around &pound;13.70 to &pound;13.96 an hour. Against a National Minimum Wage of &pound;12.71 from 1 April 2026, that is roughly &pound;1 to &pound;1.25 above the legal floor, and it includes paid holiday, sick pay and pension enrolment</li>
-    <li><strong>Self-employed and by the day.</strong> Advertised around &pound;155 a day in England. That is turnover, not pay &mdash; van, fuel, insurance and your own National Insurance come out of it, and there is no holiday pay behind it</li>
+    <li><strong>Self-employed and by the day.</strong> Advertised around &pound;155 a day in England. That is turnover, not pay: van, fuel, insurance and your own National Insurance come out of it, and there is no holiday pay behind it</li>
     <li><strong>Owner driver.</strong> The same day rate with every vehicle cost on your side of the line</li>
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Ask which of the two you are being offered, and ask for the contract.</strong> If it is self-employed, read it for a substitution clause &mdash; the right to send someone else in your place. The Supreme Court treated that clause as decisive when it found Deliveroo riders were not workers, and its absence was part of why Uber drivers were. It is the single line that decides whether the minimum wage and holiday pay reach you at all.</p>
+<p><strong>Ask which of the two you are being offered, and ask for the contract.</strong> If it is self-employed, read it for a substitution clause: the right to send someone else in your place. The Supreme Court treated that clause as decisive when it found Deliveroo riders were not workers, and its absence was part of why Uber drivers were. It is the single line that decides whether the minimum wage and holiday pay reach you at all.</p>
 
-<p><strong>Note:</strong> pay, vehicle arrangements, insurance responsibility and employment status are set by each operator &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, vehicle arrangements, insurance responsibility and employment status are set by each operator, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -207,7 +207,7 @@ JOBHTML;
 
 <p>From <strong>1 April 2026 the National Minimum Wage for workers aged 21 and over is &pound;12.71 an hour</strong>. A full-time employed year at that rate, on 37.5 hours a week, is <strong>&pound;24,784.50</strong>.</p>
 
-<p>The self-employed average is <strong>&pound;2,188.50 below the legal minimum for an employee</strong> &mdash; before the van, before the fuel, before the insurance, and before any of the holiday an employee would have been paid for. Multi-drop rounds are rarely 37.5 hours a week, so the gap on an hourly basis is wider still.</p>
+<p>The self-employed average is <strong>&pound;2,188.50 below the legal minimum for an employee</strong>: before the van, before the fuel, before the insurance, and before any of the holiday an employee would have been paid for. Multi-drop rounds are rarely 37.5 hours a week, so the gap on an hourly basis is wider still.</p>
 
 <p>That is not an accusation against any operator. It is lawful, and the reason it is lawful is the whole point: <strong>the National Minimum Wage does not reach the genuinely self-employed.</strong> When a job advertisement says "self-employed" and "flexible" in the same breath, the flexibility is real and so is the absence of a floor.</p>
 
@@ -221,19 +221,19 @@ JOBHTML;
 
 <p>A smaller point, but it tells you how to read these pages. One operator's day rate is reported as <strong>&pound;183</strong>, described as roughly <strong>29 per cent above the national average</strong>. Two paragraphs earlier the national average is given as <strong>&pound;155</strong>.</p>
 
-<p>&pound;183 against &pound;155 is <strong>18 per cent</strong>, not 29. For 29 per cent to be right, the average being compared against would have to be about &pound;142 &mdash; a different figure from a different sample, quietly swapped in mid-article.</p>
+<p>&pound;183 against &pound;155 is <strong>18 per cent</strong>, not 29. For 29 per cent to be right, the average being compared against would have to be about &pound;142: a different figure from a different sample, quietly swapped in mid-article.</p>
 
 <p>Neither number is dishonest on its own. The lesson is that job board averages are recomputed constantly, over different regions and different mixes of employed and self-employed postings, and two of them in the same paragraph rarely share a base. Treat any "X per cent above average" claim as a marketing line rather than a measurement.</p>
 
-<h2>Self-Employed Is Not a Settled Fact &mdash; Read for the Substitution Clause</h2>
+<h2>Self-Employed Is Not a Settled Fact: Read for the Substitution Clause</h2>
 
 <p>Every guide to this job repeats the word "self-employed" as though it were a property of the work. In UK law it is a conclusion, and the courts have reached it both ways.</p>
 
-<p>In <strong>Uber BV v Aslam</strong> the Supreme Court held in February 2021 that Uber drivers were <strong>workers</strong>, not independent contractors &mdash; entitled to the National Minimum Wage and paid annual leave, counted from the moment the app is switched on and the driver is available, not merely while carrying a passenger. What the contract called them did not decide it.</p>
+<p>In <strong>Uber BV v Aslam</strong> the Supreme Court held in February 2021 that Uber drivers were <strong>workers</strong>, not independent contractors: entitled to the National Minimum Wage and paid annual leave, counted from the moment the app is switched on and the driver is available, not merely while carrying a passenger. What the contract called them did not decide it.</p>
 
 <p>In <strong>IWGB v Central Arbitration Committee</strong> the Supreme Court held in November 2023 that <strong>Deliveroo riders were not workers</strong>. The deciding feature was a substitution clause: riders could send someone else to do the work without approval, which meant there was no obligation of personal service.</p>
 
-<p>Those two results give you something concrete to do. <strong>Ask for the contract before you sign, and look for the right of substitution.</strong> A genuine, unfettered right to send a substitute points towards self-employment and away from minimum wage and holiday rights. Heavy control over your route, hours, appearance and rate, with no realistic ability to send anyone else, points the other way &mdash; whatever the heading on page one says.</p>
+<p>Those two results give you something concrete to do. <strong>Ask for the contract before you sign, and look for the right of substitution.</strong> A genuine, unfettered right to send a substitute points towards self-employment and away from minimum wage and holiday rights. Heavy control over your route, hours, appearance and rate, with no realistic ability to send anyone else, points the other way: whatever the heading on page one says.</p>
 
 <p>If you are weighing this against other entry routes, our <a href="/blog/warehouse-jobs-uk-visa-sponsorship">warehouse jobs UK guide</a> covers the depot side of the same supply chain and its employment terms.</p>
 
@@ -241,7 +241,7 @@ JOBHTML;
 
 <p>This is the most expensive thing a new courier can get wrong, and the draft market guides leave it out completely.</p>
 
-<p>If you carry other people's goods for payment, you need <strong>hire and reward</strong> cover. It is a distinct class of motor insurance. An ordinary van policy does not cover it, and <em>neither does adding "business use"</em> &mdash; business use covers driving to your own work, not carrying goods for a fee.</p>
+<p>If you carry other people's goods for payment, you need <strong>hire and reward</strong> cover. It is a distinct class of motor insurance. An ordinary van policy does not cover it, and <em>neither does adding "business use"</em>: business use covers driving to your own work, not carrying goods for a fee.</p>
 
 <p>Delivering for payment without it means driving without valid insurance under <strong>section 143 of the Road Traffic Act 1988</strong>. The consequences are not limited to a refused claim: it carries a fine, penalty points and the possibility of the vehicle being seized. It applies to parcel rounds, to food delivery, and to app-based work in your own car.</p>
 
@@ -252,8 +252,8 @@ JOBHTML;
 <p>Guides tend to compress these into one line about "additional licensing". They are separate, they trigger at different points, and knowing which is which tells you what a job advertisement is really offering.</p>
 
 <ul>
-    <li><strong>Category B</strong> &mdash; the ordinary car licence &mdash; covers vehicles up to <strong>3,500kg</strong>, rising to <strong>4,250kg for electric and hydrogen vehicles</strong>. Essentially all parcel and multi-drop van work sits under this. You need nothing extra.</li>
-    <li><strong>Category C1</strong> covers <strong>3,500kg to 7,500kg</strong>. If you passed your car test <strong>on or after 1 January 1997</strong> you must take a separate test for it. If you passed <strong>before</strong> that date, you have wider entitlements already on your licence &mdash; worth checking before you pay for training you do not need.</li>
+    <li><strong>Category B</strong>, the ordinary car licence, covers vehicles up to <strong>3,500kg</strong>, rising to <strong>4,250kg for electric and hydrogen vehicles</strong>. Essentially all parcel and multi-drop van work sits under this. You need nothing extra.</li>
+    <li><strong>Category C1</strong> covers <strong>3,500kg to 7,500kg</strong>. If you passed your car test <strong>on or after 1 January 1997</strong> you must take a separate test for it. If you passed <strong>before</strong> that date, you have wider entitlements already on your licence: worth checking before you pay for training you do not need.</li>
     <li><strong>Driver CPC</strong> is not a licence category. It is a professional qualification required to drive goods vehicles <strong>over 3.5 tonnes</strong> for a living, and it is maintained with <strong>35 hours of periodic training every five years</strong>.</li>
 </ul>
 
@@ -286,7 +286,7 @@ JOBHTML;
 
 <p>Asked constantly, so it is worth answering plainly. <strong>Delivery driving is not a realistic UK sponsorship route.</strong> Van-based delivery sits below the skill level the Skilled Worker route requires, and self-employed courier work cannot be sponsored at all, because sponsorship needs an employer and a self-employed contract does not create one.</p>
 
-<p>These jobs are for people who already hold the right to work in the UK &mdash; British and Irish citizens, settled and pre-settled status, dependants with work rights, graduate visa holders, and Youth Mobility Scheme participants. Our <a href="/blog/warehouse-jobs-uk-visa-sponsorship">warehouse jobs UK visa sponsorship guide</a> sets out why operative-level roles fail the same tests and where sponsorship in logistics genuinely does happen.</p>
+<p>These jobs are for people who already hold the right to work in the UK: British and Irish citizens, settled and pre-settled status, dependants with work rights, graduate visa holders, and Youth Mobility Scheme participants. Our <a href="/blog/warehouse-jobs-uk-visa-sponsorship">warehouse jobs UK visa sponsorship guide</a> sets out why operative-level roles fail the same tests and where sponsorship in logistics genuinely does happen.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -345,23 +345,23 @@ JOBHTML;
 <p>Looking at other routes into UK and international work? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; the depot end of the same supply chain, and the honest answer on sponsorship.</li>
-    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London</a> &mdash; another entry-level London route and what it actually pays.</li>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; the same casual-versus-permanent trade-off under Australian award rules.</li>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; driving work on a Gulf sponsorship route instead.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; a licensed Gulf role where the basic-versus-allowance split decides your gratuity.</li>
-    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; where UK sponsorship genuinely is available.</li>
-    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; the care route and its current restrictions.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the equivalent question on the other side of the Atlantic.</li>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; a UK trade with a real qualification barrier, and the same CIS deduction on day rates.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; the American market, where app pay guarantees count only engaged time.</li>
-    <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; shift work in UK kitchens, and the 2024 tips law behind the service charge.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: the depot end of the same supply chain, and the honest answer on sponsorship.</li>
+    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London</a>: another entry-level London route and what it actually pays.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: the same casual-versus-permanent trade-off under Australian award rules.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: driving work on a Gulf sponsorship route instead.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: a licensed Gulf role where the basic-versus-allowance split decides your gratuity.</li>
+    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a>: where UK sponsorship genuinely is available.</li>
+    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a>: the care route and its current restrictions.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the equivalent question on the other side of the Atlantic.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: a UK trade with a real qualification barrier, and the same CIS deduction on day rates.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: the American market, where app pay guarantees count only engaged time.</li>
+    <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a>: shift work in UK kitchens, and the 2024 tips law behind the service charge.</li>
     <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a></li>
-    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a> &mdash; RTA licence types, whose licences can be exchanged, and the visa steps for drivers.</li>
-    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a> &mdash; which licence each role needs, the D4 medical and CPC route, funded training and ONS pay.</li>
-    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a> &mdash; a supermarket that publishes its rate and pays it at every age.</li>
-    <li><a href="/blog/delivery-driver-and-courier-jobs-how-to-start-in-a-new-country">Delivery Driver and Courier Jobs: How to Start in a New Country</a> &mdash; why courier work is not a UK visa route, and the UAE alternative.</li>
-    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a> &mdash; the union pay scale, and why no delivery role can be sponsored.</li>
+    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a>: RTA licence types, whose licences can be exchanged, and the visa steps for drivers.</li>
+    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a>, which licence each role needs, the D4 medical and CPC route, funded training and ONS pay.</li>
+    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a>: a supermarket that publishes its rate and pays it at every age.</li>
+    <li><a href="/blog/delivery-driver-and-courier-jobs-how-to-start-in-a-new-country">Delivery Driver and Courier Jobs: How to Start in a New Country</a>: why courier work is not a UK visa route, and the UAE alternative.</li>
+    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a>: the union pay scale, and why no delivery role can be sponsored.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, insurance, tax or immigration advice. Wage rates, licence rules, insurance requirements and employment status tests change, and pay figures on any job board are a moving average rather than a statistic. Confirm the current position with GOV.UK, your insurer and the employer's own advertisement before applying or paying for any training.</p>

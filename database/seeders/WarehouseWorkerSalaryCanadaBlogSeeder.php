@@ -285,9 +285,9 @@ JOBHTML,
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/warehouse-worker-salary-usa-2026">Warehouse Worker Salary in the USA (2026)</a> &mdash; the US pay picture.</li>
-    <li><a href="/blog/warehouse-worker-jobs-usa-visa-sponsorship-2026">Warehouse Worker Jobs in the USA With Visa Sponsorship (2026)</a> &mdash; the H-2B route.</li>
-    <li><a href="/blog/warehouse-operative-salary-uk-2026">Warehouse Operative Salary in the UK (2026)</a> &mdash; the UK pay picture.</li>
+    <li><a href="/blog/warehouse-worker-salary-usa-2026">Warehouse Worker Salary in the USA (2026)</a>: the US pay picture.</li>
+    <li><a href="/blog/warehouse-worker-jobs-usa-visa-sponsorship-2026">Warehouse Worker Jobs in the USA With Visa Sponsorship (2026)</a>: the H-2B route.</li>
+    <li><a href="/blog/warehouse-operative-salary-uk-2026">Warehouse Operative Salary in the UK (2026)</a>: the UK pay picture.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or financial advice. Wage figures were checked against Job Bank on 9 October 2026 and change often, so confirm them on the official Canadian government sites before you act or pay anyone.</p>

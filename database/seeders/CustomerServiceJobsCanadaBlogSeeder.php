@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Customer Service Jobs in Canada" — the Canadian contact centre, retail and
+ * "Customer Service Jobs in Canada": the Canadian contact centre, retail and
  * public sector market. Written around the measured Job Bank median rather
  * than the job board average, because for a job this close to the legal wage
  * floor the floor explains more than the average does.
@@ -151,23 +151,23 @@ class CustomerServiceJobsCanadaBlogSeeder extends Seeder
 <ul>
     <li>Clear written and spoken English; French as well for national and federal roles</li>
     <li>Comfort moving between phone, chat and email inside one shift</li>
-    <li>CRM, ticketing or contact centre software &mdash; named specifically on most postings</li>
+    <li>CRM, ticketing or contact centre software: named specifically on most postings</li>
     <li>Conflict resolution, and the patience that goes with escalated calls</li>
     <li>Reliable home internet and a quiet space for remote positions</li>
-    <li>Legal authorisation to work in Canada &mdash; federal roles apply a further preference order</li>
+    <li>Legal authorisation to work in Canada: federal roles apply a further preference order</li>
 </ul>
 
 <h3>How the pay is set</h3>
 <ul>
     <li><strong>The measured figure</strong> from Job Bank, drawn from the Labour Force Survey, is a <strong>$22.00 median</strong> for call centre representatives, low $16.00 and high $33.14</li>
-    <li><strong>The floor is provincial,</strong> not national: $18.25 in British Columbia, $17.95 in Ontario, $15.00 in Alberta &mdash; a spread of $3.25 an hour before any employer decides anything</li>
+    <li><strong>The floor is provincial,</strong> not national: $18.25 in British Columbia, $17.95 in Ontario, $15.00 in Alberta: a spread of $3.25 an hour before any employer decides anything</li>
     <li><strong>Bilingual roles pay more</strong> and federal ones attach a bilingualism bonus, but only against a tested linguistic profile rather than a claim on a r&eacute;sum&eacute;</li>
 </ul>
 
 <h3>Before you apply</h3>
 <p><strong>Check your province's minimum wage first, then read the offer against it.</strong> For an occupation whose measured low is $16.00 an hour, the legal floor is doing most of the work. An offer that looks generous in Alberta and one that looks ordinary in British Columbia can be the same number.</p>
 
-<p><strong>Note:</strong> pay, shift patterns, language requirements and any hiring preference are set by each employer and by law &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, shift patterns, language requirements and any hiring preference are set by each employer and by law, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -188,7 +188,7 @@ JOBHTML;
 
 <p>The national average for a customer service representative is <strong>$20.43 an hour</strong>. Entry-level customer service representatives average <strong>$49,142 a year</strong>.</p>
 
-<p>Work the first one out. A standard full-time year is 2,080 hours, so $20.43 an hour is <strong>$42,494 a year</strong>. The entry-level figure is <strong>$6,648 higher than the overall average</strong> &mdash; which cannot be true of the same population, because entry level is inside the average and pulls it down.</p>
+<p>Work the first one out. A standard full-time year is 2,080 hours, so $20.43 an hour is <strong>$42,494 a year</strong>. The entry-level figure is <strong>$6,648 higher than the overall average</strong>, which cannot be true of the same population, because entry level is inside the average and pulls it down.</p>
 
 <p>Both numbers are real. They are simply computed from different sets of postings. Hourly figures come from the hourly-paid end of the market: retail desks, part-time shifts, contact centre seats. Annual figures come from postings written as salaries, which skew towards office-based, full-time, often specialised roles. Averaging one against the other produces a picture of a job that nobody holds.</p>
 
@@ -196,7 +196,7 @@ JOBHTML;
 
 <h2>The Measured Number, and Why It Is Higher</h2>
 
-<p>Canada publishes a real wage measurement for this work. Job Bank reports wages for <strong>customer service representative &mdash; call centre (NOC 64409)</strong> from Statistics Canada's Labour Force Survey:</p>
+<p>Canada publishes a real wage measurement for this work. Job Bank reports wages for <strong>customer service representative: call centre (NOC 64409)</strong> from Statistics Canada's Labour Force Survey:</p>
 
 <ul>
     <li><strong>Low: $16.00 an hour</strong></li>
@@ -219,9 +219,9 @@ JOBHTML;
 <p>For an occupation whose measured low is $16.00 an hour, the legal minimum wage is not background information. It is the main determinant of the offer. And in Canada it is provincial, so it varies enormously:</p>
 
 <ul>
-    <li><strong>British Columbia &mdash; $18.25</strong> an hour from 1 June 2026.</li>
-    <li><strong>Ontario &mdash; $17.95</strong> an hour from 1 October 2026, up from $17.60.</li>
-    <li><strong>Alberta &mdash; $15.00</strong> an hour, unchanged since October 2018.</li>
+    <li><strong>British Columbia: $18.25</strong> an hour from 1 June 2026.</li>
+    <li><strong>Ontario: $17.95</strong> an hour from 1 October 2026, up from $17.60.</li>
+    <li><strong>Alberta: $15.00</strong> an hour, unchanged since October 2018.</li>
 </ul>
 
 <p>That is a <strong>$3.25 spread</strong>, or about $6,760 across a full-time year, decided entirely by which side of a provincial border the job sits on and before any employer makes a single decision.</p>
@@ -234,9 +234,9 @@ JOBHTML;
 
 <p>Before you judge any offer, look up your province's current rate and subtract. The gap between the offer and the floor is the only part the employer chose.</p>
 
-<h2>Bilingual Is Not a Skill Line &mdash; It Is a Tested Profile</h2>
+<h2>Bilingual Is Not a Skill Line: It Is a Tested Profile</h2>
 
-<p>Every guide lists "bilingual ability (English/French)" among the skills, next to multitasking and attention to detail. For private sector work that is roughly fair. For the federal roles those same guides recommend &mdash; Service Canada, the Canada Revenue Agency &mdash; it is a serious understatement.</p>
+<p>Every guide lists "bilingual ability (English/French)" among the skills, next to multitasking and attention to detail. For private sector work that is roughly fair. For the federal roles those same guides recommend, Service Canada, the Canada Revenue Agency, it is a serious understatement.</p>
 
 <p>Federal positions carry a <strong>linguistic profile</strong>: three letters, one each for reading, writing and oral interaction. You will see profiles like <strong>BBB</strong> on frontline roles and <strong>CBC</strong> on supervisory and professional ones. Those letters are levels, and they are established by the <strong>Second Language Evaluation</strong> run by the Public Service Commission, not by what you write on your r&eacute;sum&eacute;.</p>
 
@@ -253,9 +253,9 @@ JOBHTML;
 
 <p>This is the most useful thing on this page for anyone applying to Canada from abroad or on a work permit.</p>
 
-<p>Federal customer service jobs are attractive for the obvious reasons &mdash; security, pension, published pay. But external advertised appointments in the federal public service run under the <strong>Public Service Employment Act</strong>, which sets a statutory order of preference. Eligible veterans come first. Then <strong>Canadian citizens and permanent residents</strong>, who since the 2021 amendments are treated the same as each other.</p>
+<p>Federal customer service jobs are attractive for the obvious reasons: security, pension, published pay. But external advertised appointments in the federal public service run under the <strong>Public Service Employment Act</strong>, which sets a statutory order of preference. Eligible veterans come first. Then <strong>Canadian citizens and permanent residents</strong>, who since the 2021 amendments are treated the same as each other.</p>
 
-<p>Everyone else &mdash; including a fully qualified candidate on a valid work permit &mdash; sits <strong>behind both groups</strong>. Meeting the essential qualifications does not move you up; the preference applies among candidates who all qualify.</p>
+<p>Everyone else, including a fully qualified candidate on a valid work permit, sits <strong>behind both groups</strong>. Meeting the essential qualifications does not move you up; the preference applies among candidates who all qualify.</p>
 
 <p>That does not mean do not apply. It means budget your effort honestly: if you are on a work permit, the private contact centres are your realistic market and the federal process is a long-odds parallel track. If you hold permanent residence, the calculation reverses and federal competitions become one of the strongest things you can be doing.</p>
 
@@ -291,7 +291,7 @@ JOBHTML;
 <h2>Skills That Keep Recurring in Listings</h2>
 
 <ul>
-    <li><strong>CRM and ticketing software</strong> &mdash; name the actual systems you have used, not "CRM experience".</li>
+    <li><strong>CRM and ticketing software</strong>: name the actual systems you have used, not "CRM experience".</li>
     <li><strong>Written English</strong>, because chat and email are now most of the volume on many teams.</li>
     <li><strong>French</strong>, tested rather than claimed for anything federal or national.</li>
     <li><strong>De-escalation</strong>, which is what the interview scenario question is really testing.</li>
@@ -349,30 +349,30 @@ JOBHTML;
 <p>Ontario's floor is $17.95 and British Columbia's is $18.25, which explains most of the gap between the two cities.</p>
 
 <h3>Customer service manager salary Canada</h3>
-<p>Around $72,207 a year on published figures &mdash; the top of the ladder this occupation actually reaches.</p>
+<p>Around $72,207 a year on published figures: the top of the ladder this occupation actually reaches.</p>
 
 <h2>More Job Guides</h2>
 
 <p>Comparing markets and routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; the worldwide version of this role and how to spot a fake posting.</li>
-    <li><a href="/blog/ats-resume-writer-jobs-in-canada">ATS Resume Writer Jobs in Canada</a> &mdash; another Canadian entry route, and how applicant tracking systems actually read a r&eacute;sum&eacute;.</li>
-    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; the adjacent clerical occupation, and the projection you should see before choosing it.</li>
-    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; the same customer-facing work priced against a very different wage floor.</li>
-    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a> &mdash; administrative support under Australian award rules.</li>
-    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; the remote support route from outside North America.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest position on US entry-level sponsorship.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; a Gulf route where the package structure matters more than the headline.</li>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the agricultural route, and which of its two foreign worker programs you can use.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; client-facing work in the Emirates, and who legally pays for the visa.</li>
-    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; customer-facing sales under Australian award minimums, and when commission may replace a wage.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; how employer sponsorship works in Canada, and what CLB 5 really means.</li>
-    <li><a href="/blog/janitor-jobs-in-canada">Janitor Jobs in Canada</a> &mdash; building cleaning work priced by the same provincial minimum wages.</li>
-    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a> &mdash; a clinic job with a short accredited program and a $27 median wage.</li>
-    <li><a href="/blog/recruiter-jobs-in-canada">Recruiter Jobs in Canada</a> &mdash; a common next step from customer service, with a $33.33 median wage.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; what changed in 2026, which sectors hire, and how the LMIA and scams work.</li>
-    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a> &mdash; an airline that publishes its ramp pay, and the clearance that gates it.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: the worldwide version of this role and how to spot a fake posting.</li>
+    <li><a href="/blog/ats-resume-writer-jobs-in-canada">ATS Resume Writer Jobs in Canada</a>: another Canadian entry route, and how applicant tracking systems actually read a r&eacute;sum&eacute;.</li>
+    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a>: the adjacent clerical occupation, and the projection you should see before choosing it.</li>
+    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a>: the same customer-facing work priced against a very different wage floor.</li>
+    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a>: administrative support under Australian award rules.</li>
+    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a>: the remote support route from outside North America.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the honest position on US entry-level sponsorship.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: a Gulf route where the package structure matters more than the headline.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: the agricultural route, and which of its two foreign worker programs you can use.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: client-facing work in the Emirates, and who legally pays for the visa.</li>
+    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a>: customer-facing sales under Australian award minimums, and when commission may replace a wage.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: how employer sponsorship works in Canada, and what CLB 5 really means.</li>
+    <li><a href="/blog/janitor-jobs-in-canada">Janitor Jobs in Canada</a>: building cleaning work priced by the same provincial minimum wages.</li>
+    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a>: a clinic job with a short accredited program and a $27 median wage.</li>
+    <li><a href="/blog/recruiter-jobs-in-canada">Recruiter Jobs in Canada</a>: a common next step from customer service, with a $33.33 median wage.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: what changed in 2026, which sectors hire, and how the LMIA and scams work.</li>
+    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a>: an airline that publishes its ramp pay, and the clearance that gates it.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Minimum wages, wage survey figures, language requirements and hiring preferences change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with Job Bank, your provincial employment standards authority and the employer's own advertisement before applying.</p>

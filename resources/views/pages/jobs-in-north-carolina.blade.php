@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
 @section('title', 'Jobs in North Carolina: Triangle, Banking, Trades | JobGader')
 @section('meta_description', 'Jobs in North Carolina: Research Triangle technology and pharma, Charlotte banking, manufacturing and healthcare, and what each sector pays.')
-@section('og_title', 'Jobs in North Carolina — Triangle, Banking, Trades | JobGader')
+@section('og_title', 'Jobs in North Carolina: Triangle, Banking, Trades | JobGader')
 @section('og_description', 'Jobs in North Carolina: Research Triangle technology and pharma, Charlotte banking, manufacturing and healthcare, and what each sector pays.')
 @section('canonical', url()->current())
 
@@ -17,7 +17,7 @@
                 'title' => 'The Research Triangle',
                 'paragraphs' => [
                     'Raleigh, Durham and Chapel Hill together host a dense cluster of universities, pharmaceutical and biotech companies and technology employers, which makes it one of the strongest markets in the south for research, clinical trial and software roles.',
-                    'Around that sits a large support economy — laboratory technicians, clinical research coordinators, facilities and administrative roles — that is more accessible than the research positions themselves.',
+                    'Around that sits a large support economy, laboratory technicians, clinical research coordinators, facilities and administrative roles, that is more accessible than the research positions themselves.',
                 ],
             ],
             [

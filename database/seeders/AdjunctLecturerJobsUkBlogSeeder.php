@@ -123,7 +123,7 @@ class AdjunctLecturerJobsUkBlogSeeder extends Seeder
 <ul>
     <li><strong>Oxford Brookes University</strong> states it plainly: "Scheduled teaching is paid at a comprehensive rate (2.5 x the simple basic rate), which includes payment for time spent on preparation and marking, pastoral guidance, and dissertation/thesis supervision". Its policy adds the instruction that catches people out: associate lecturers "must not claim for these activities separately in addition to the comprehensive rate".</li>
     <li><strong>The University of Cambridge</strong> goes much further for lectures. Its substitute teaching schedule says its rates "incorporate preparation time, set at 4 hours per 1 hour lecture, and 1.5 hous per 1 hour seminar". That is a 5x multiplier on a lecture and 2.5x on a seminar.</li>
-    <li><strong>The University of St Andrews</strong> takes a third approach entirely, paying preparation as additional claimable hours rather than baking it into a multiplier: "Lecturing &mdash; 3 hours preparation (minimum) per 1" hour of contact time. But it caps the repeat: "Preparation time would only be paid for the first session delivery. Subsequent repeat sessions would be covered by the initial preparation and only contact time should be claimed."</li>
+    <li><strong>The University of St Andrews</strong> takes a third approach entirely, paying preparation as additional claimable hours rather than baking it into a multiplier: "Lecturing: 3 hours preparation (minimum) per 1" hour of contact time. But it caps the repeat: "Preparation time would only be paid for the first session delivery. Subsequent repeat sessions would be covered by the initial preparation and only contact time should be claimed."</li>
 </ul>
 
 <p>So the same phrase, "hourly paid", describes three materially different deals. <strong>The question to ask before you accept anything is not "what is the rate" but "what does the rate include, and what is the multiplier".</strong> If the answer is that the rate is comprehensive, ask what ratio it is built on. If the answer is that preparation is claimed separately, ask whether repeat deliveries are paid.</p>
@@ -228,7 +228,7 @@ class AdjunctLecturerJobsUkBlogSeeder extends Seeder
 
 <ul>
     <li><strong>If you need sponsorship, hourly-paid teaching is not your route.</strong> Target a full-time or substantial fractional lectureship where the actual salary clears &pound;41,700 and the pro-rated going rate.</li>
-    <li><strong>If you already have the right to work in the UK</strong> &mdash; settled status, a dependant visa, a graduate route visa, a partner visa, British or Irish citizenship &mdash; then everything on this page is open to you, and the teaching pool is a genuinely accessible way in.</li>
+    <li><strong>If you already have the right to work in the UK</strong>, settled status, a dependant visa, a graduate route visa, a partner visa, British or Irish citizenship, then everything on this page is open to you, and the teaching pool is a genuinely accessible way in.</li>
     <li><strong>Check your own status on GOV.UK before applying,</strong> and tell the department your status early. Programme leaders will not pursue an applicant they cannot lawfully engage.</li>
 </ul>
 
@@ -304,25 +304,25 @@ class AdjunctLecturerJobsUkBlogSeeder extends Seeder
 <h2 id="more-guides">More Job Guides</h2>
 
 <ul>
-    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the honorary title, why it is conferred rather than applied for, and why it pays nothing.</li>
-    <li><a href="/blog/adjunct-teaching-jobs-in-the-uk">Adjunct Teaching Jobs in the UK</a> &mdash; doing this alongside a full-time career, and the statute that voids the exclusivity clause.</li>
-    <li><a href="/blog/adjunct-faculty-vacancies-in-the-uk">Adjunct Faculty Vacancies in the UK</a> &mdash; which institutions hire, and why the register matters more than any vacancy page.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the sponsorship routes that clear the salary floor.</li>
-    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; teaching income that does not depend on a UK visa.</li>
-    <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a> &mdash; a teaching route with a far more accessible visa.</li>
-    <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a> &mdash; the equivalent entry route into a different education system.</li>
-    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a> &mdash; the international picture: what a US course section pays, and what the job is called in each country.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a>: the honorary title, why it is conferred rather than applied for, and why it pays nothing.</li>
+    <li><a href="/blog/adjunct-teaching-jobs-in-the-uk">Adjunct Teaching Jobs in the UK</a>: doing this alongside a full-time career, and the statute that voids the exclusivity clause.</li>
+    <li><a href="/blog/adjunct-faculty-vacancies-in-the-uk">Adjunct Faculty Vacancies in the UK</a>, which institutions hire, and why the register matters more than any vacancy page.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the sponsorship routes that clear the salary floor.</li>
+    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a>: teaching income that does not depend on a UK visa.</li>
+    <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a>: a teaching route with a far more accessible visa.</li>
+    <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a>: the equivalent entry route into a different education system.</li>
+    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a>: the international picture: what a US course section pays, and what the job is called in each country.</li>
 </ul>
 
 <h2 id="sources">Official Sources</h2>
 
 <ul>
-    <li><a href="https://www.hr.admin.cam.ac.uk/" rel="nofollow noopener" target="_blank">University of Cambridge &mdash; substitute teaching schedule of payment rates</a>, effective from 11 August 2025</li>
-    <li><a href="https://www.brookes.ac.uk/staff/working-at-brookes/employment-policies/recruitment/temporary-and-casual/associate-lecturers/employment-of-associate-lecturers" rel="nofollow noopener" target="_blank">Oxford Brookes University &mdash; Employment of Associate Lecturers</a>, effective 28 May 2026, rates current as of 1 August 2025</li>
-    <li><a href="https://www.st-andrews.ac.uk/policy/staff-pay-and-benefits-pay-rates-arrangements/pay-rates-and-arrangements-for-hourly-paid-teaching-staff-including-pgr-tutors.pdf" rel="nofollow noopener" target="_blank">University of St Andrews &mdash; pay rates and arrangements for hourly paid teaching staff</a>, July 2025</li>
-    <li><a href="https://www.advance-he.ac.uk/fellowship/associate-fellowship" rel="nofollow noopener" target="_blank">Advance HE &mdash; Associate Fellowship</a> and the <a href="https://www.advance-he.ac.uk/teaching-and-learning/psf" rel="nofollow noopener" target="_blank">Professional Standards Framework 2023</a></li>
-    <li><a href="https://www.ucu.org.uk/" rel="nofollow noopener" target="_blank">University and College Union</a> &mdash; <em>Counting the costs of casualisation in higher education</em>, June 2019, and its guidance on calculating hourly rates, which carries the 2004 JNCHES guidance for post-92 institutions</li>
-    <li><a href="https://www.gov.uk/skilled-worker-visa" rel="nofollow noopener" target="_blank">GOV.UK &mdash; Skilled Worker visa</a>, and <a href="https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-skilled-worker" rel="nofollow noopener" target="_blank">Immigration Rules Appendix Skilled Worker</a> for the pro-rating rule at SW 14.4</li>
+    <li><a href="https://www.hr.admin.cam.ac.uk/" rel="nofollow noopener" target="_blank">University of Cambridge: substitute teaching schedule of payment rates</a>, effective from 11 August 2025</li>
+    <li><a href="https://www.brookes.ac.uk/staff/working-at-brookes/employment-policies/recruitment/temporary-and-casual/associate-lecturers/employment-of-associate-lecturers" rel="nofollow noopener" target="_blank">Oxford Brookes University: Employment of Associate Lecturers</a>, effective 28 May 2026, rates current as of 1 August 2025</li>
+    <li><a href="https://www.st-andrews.ac.uk/policy/staff-pay-and-benefits-pay-rates-arrangements/pay-rates-and-arrangements-for-hourly-paid-teaching-staff-including-pgr-tutors.pdf" rel="nofollow noopener" target="_blank">University of St Andrews: pay rates and arrangements for hourly paid teaching staff</a>, July 2025</li>
+    <li><a href="https://www.advance-he.ac.uk/fellowship/associate-fellowship" rel="nofollow noopener" target="_blank">Advance HE: Associate Fellowship</a> and the <a href="https://www.advance-he.ac.uk/teaching-and-learning/psf" rel="nofollow noopener" target="_blank">Professional Standards Framework 2023</a></li>
+    <li><a href="https://www.ucu.org.uk/" rel="nofollow noopener" target="_blank">University and College Union</a>: <em>Counting the costs of casualisation in higher education</em>, June 2019, and its guidance on calculating hourly rates, which carries the 2004 JNCHES guidance for post-92 institutions</li>
+    <li><a href="https://www.gov.uk/skilled-worker-visa" rel="nofollow noopener" target="_blank">GOV.UK: Skilled Worker visa</a>, and <a href="https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-skilled-worker" rel="nofollow noopener" target="_blank">Immigration Rules Appendix Skilled Worker</a> for the pro-rating rule at SW 14.4</li>
 </ul>
 
 <p style="font-size:14px;color:#666;margin-top:26px;">Checked on 30 September 2026. University pay rates are renegotiated annually and immigration rules change; confirm the current figures on the university's own pages and on GOV.UK before acting. JobGader is not a recruiter and does not accept payment from applicants.</p>

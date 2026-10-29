@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Data Scientist Jobs in USA" — the counterweight to the data entry guide.
+ * "Data Scientist Jobs in USA": the counterweight to the data entry guide.
  * Two occupations on this site, same country, same decade, moving in opposite
  * directions: data entry keyers down 25.9 per cent, data scientists up 34.
  *
@@ -34,7 +34,7 @@ use Illuminate\Support\Str;
  *    one to the other that does not exist.
  *
  * 4. It lists Big Data Engineer among data science roles. That is data
- *    engineering — the pipelines that feed the team — and a candidate
+ *    engineering, the pipelines that feed the team, and a candidate
  *    applying from a modelling background is a mismatch on both sides.
  *
  * 5. It undersells the best fact it has. "Fastest-growing" is an adjective;
@@ -147,7 +147,7 @@ class DataScientistJobsUsaBlogSeeder extends Seeder
     <li>Python or R for statistical modelling and machine learning, and <strong>SQL</strong> at a level most candidates underestimate</li>
     <li>Machine learning frameworks, and experience of a model that reached production rather than a notebook</li>
     <li>Cloud analytics platforms for building and scaling, named specifically on most postings</li>
-    <li>Business intelligence tools &mdash; Power BI, Tableau, Alteryx &mdash; on the more analyst-leaning roles</li>
+    <li>Business intelligence tools, Power BI, Tableau, Alteryx, on the more analyst-leaning roles</li>
     <li>The ability to explain a result to someone who will act on it and does not want the method</li>
     <li>Domain knowledge in finance, healthcare or the employer's sector, weighted more heavily than candidates expect</li>
 </ul>
@@ -155,14 +155,14 @@ class DataScientistJobsUsaBlogSeeder extends Seeder
 <h3>How the pay is reported</h3>
 <ul>
     <li><strong>The measured figure</strong> is the federal median of <strong>$112,590</strong> a year for data scientists</li>
-    <li><strong>Job board averages run higher</strong> &mdash; around $131,121 &mdash; because they average advertised postings rather than measuring paid wages</li>
+    <li><strong>Job board averages run higher</strong>, around $131,121, because they average advertised postings rather than measuring paid wages</li>
     <li><strong>Total compensation figures are a different quantity.</strong> Packages quoted above $300,000 are base plus bonus plus equity at a small number of employers, not salaries</li>
 </ul>
 
 <h3>Before you apply</h3>
 <p><strong>Ask which of the several jobs this title covers.</strong> Modelling, experimentation, analytics and machine learning engineering are advertised under one heading and screened very differently. And when a number is quoted, establish whether it is base salary or total compensation before you compare it with anything.</p>
 
-<p><strong>Note:</strong> pay, equity, remote eligibility and any sponsorship decision are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, equity, remote eligibility and any sponsorship decision are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -182,10 +182,10 @@ JOBHTML;
 <p>Read the seniority ladder as it is normally published:</p>
 
 <ul>
-    <li>Junior Data Scientist &mdash; <strong>$82,850</strong></li>
-    <li>Entry-Level Data Scientist &mdash; <strong>$104,847</strong></li>
-    <li>Senior Data Scientist &mdash; <strong>$159,664</strong></li>
-    <li>Principal Data Scientist &mdash; <strong>$180,879</strong></li>
+    <li>Junior Data Scientist: <strong>$82,850</strong></li>
+    <li>Entry-Level Data Scientist: <strong>$104,847</strong></li>
+    <li>Senior Data Scientist: <strong>$159,664</strong></li>
+    <li>Principal Data Scientist: <strong>$180,879</strong></li>
 </ul>
 
 <p>"Junior" and "entry-level" describe the same rung. The figures are <strong>$21,997 apart</strong>.</p>
@@ -202,7 +202,7 @@ JOBHTML;
 
 <p><strong>Average versus median.</strong> Data science pay is skewed hard to the right by a small number of very large packages. An average is dragged up by them; a median is not. For any skewed distribution the median describes the typical person better, which is what you are trying to find out.</p>
 
-<p><strong>Postings versus wages.</strong> Job board figures come from advertisements, which quote what an employer hopes to attract. Federal figures come from what employers report actually paying. Advertised bands run high, and they over-represent employers who advertise at all &mdash; larger, better-funded, in expensive cities.</p>
+<p><strong>Postings versus wages.</strong> Job board figures come from advertisements, which quote what an employer hopes to attract. Federal figures come from what employers report actually paying. Advertised bands run high, and they over-represent employers who advertise at all: larger, better-funded, in expensive cities.</p>
 
 <p>So use $112,590 to judge whether an offer is normal, and treat $131,121 as the top of the market's own marketing.</p>
 
@@ -234,15 +234,15 @@ JOBHTML;
 
 <p>Now the good news, which the drafts describe with adjectives and should describe with figures.</p>
 
-<p>Employment of data scientists is projected to grow <strong>34 per cent between 2024 and 2034</strong> &mdash; among the fastest-growing occupations the federal government publishes, against a total US employment picture growing at a small fraction of that. About <strong>23,400 openings</strong> are projected each year over the decade.</p>
+<p>Employment of data scientists is projected to grow <strong>34 per cent between 2024 and 2034</strong>: among the fastest-growing occupations the federal government publishes, against a total US employment picture growing at a small fraction of that. About <strong>23,400 openings</strong> are projected each year over the decade.</p>
 
-<p>It is worth seeing that next to the occupation at the other end of the same building. <a href="/blog/data-entry-jobs-in-usa">Data entry keyers are projected to fall 25.9 per cent</a> over exactly the same decade, as automation absorbs work that requires no judgement. Same country, same ten years, opposite directions &mdash; and the thing that separates them is whether the job involves a decision.</p>
+<p>It is worth seeing that next to the occupation at the other end of the same building. <a href="/blog/data-entry-jobs-in-usa">Data entry keyers are projected to fall 25.9 per cent</a> over exactly the same decade, as automation absorbs work that requires no judgement. Same country, same ten years, opposite directions, and the thing that separates them is whether the job involves a decision.</p>
 
 <p>That is the honest case for this field, and it is much stronger than a salary figure. You are not being told to chase a high number; you are being told the demand curve is going the right way for a long time.</p>
 
 <h2>"Data Scientist" Is Several Jobs Under One Title</h2>
 
-<p>The lists in most guides quietly include a role that is not data science. <strong>Big Data Engineer</strong> is listed among data science roles, described as designing and maintaining the pipelines that feed data science teams &mdash; which is an accurate description of <strong>data engineering</strong>, a different occupation with a different skill set and a different interview.</p>
+<p>The lists in most guides quietly include a role that is not data science. <strong>Big Data Engineer</strong> is listed among data science roles, described as designing and maintaining the pipelines that feed data science teams, which is an accurate description of <strong>data engineering</strong>, a different occupation with a different skill set and a different interview.</p>
 
 <p>The distinction matters because the fragmentation is real and growing:</p>
 
@@ -290,7 +290,7 @@ JOBHTML;
 <p>Because the two titles reach different employers. "Junior" appears mostly on first jobs at smaller companies; "entry-level" is used by large employers for structured graduate programmes that pay more and screen harder. Search both.</p>
 
 <h3>Is a $300,000 data science job real?</h3>
-<p>Those figures are total compensation &mdash; base plus bonus plus equity &mdash; at a small number of employers, not salaries. Ask any offer to be split into base, target bonus, equity value and vesting schedule before comparing it.</p>
+<p>Those figures are total compensation, base plus bonus plus equity, at a small number of employers, not salaries. Ask any offer to be split into base, target bonus, equity value and vesting schedule before comparing it.</p>
 
 <h3>Is data science still growing as a career?</h3>
 <p>Yes, and strongly. Employment is projected to grow 34 per cent between 2024 and 2034, with about 23,400 openings a year, against data entry work in the same country falling 25.9 per cent over the same decade.</p>
@@ -313,7 +313,7 @@ JOBHTML;
 <p>A federal median of $112,590, against a job board average of $131,121 that measures advertisements rather than wages.</p>
 
 <h3>Entry level data scientist jobs</h3>
-<p>Search both "junior" and "entry-level" &mdash; the two titles reach different employers and are reported $21,997 apart.</p>
+<p>Search both "junior" and "entry-level": the two titles reach different employers and are reported $21,997 apart.</p>
 
 <h3>Remote data scientist jobs</h3>
 <p>Common past entry level, scarcer at the start, where sitting near a team is most of the learning.</p>
@@ -325,7 +325,7 @@ JOBHTML;
 <p>Analyst work is SQL, BI and reporting, and is the most common genuine route into modelling roles.</p>
 
 <h3>Senior data scientist salary</h3>
-<p>Reported around $159,664, with principal roles around $180,879 &mdash; base salary, not total compensation.</p>
+<p>Reported around $159,664, with principal roles around $180,879: base salary, not total compensation.</p>
 
 <h3>Data science job growth 2034</h3>
 <p>34 per cent projected growth and about 23,400 openings a year over the decade to 2034.</p>
@@ -338,16 +338,16 @@ JOBHTML;
 <p>Comparing technical career paths? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; the same country and decade, moving 25.9 per cent the other way.</li>
-    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the engineering side of the same language and the boundary with modelling.</li>
-    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; the occupation machine learning engineering is really counted under.</li>
-    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a> &mdash; the platforms these models actually run on.</li>
-    <li><a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS Cloud Engineer Jobs in USA</a> &mdash; the largest of those platforms, and its certification trap.</li>
-    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; how security clearances work, which gates a lot of government data science.</li>
-    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; another route where one job title covers several jobs.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; the same salary-reporting problems at the other end of the wage scale.</li>
-    <li><a href="/blog/database-administrator-jobs-in-usa">Database Administrator Jobs in USA</a> &mdash; who keeps the data you analyse available, and the certification that no longer exists.</li>
-    <li><a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a> &mdash; the same analytical skills in national security, on the GS pay scale.</li>
+    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a>: the same country and decade, moving 25.9 per cent the other way.</li>
+    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a>: the engineering side of the same language and the boundary with modelling.</li>
+    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a>: the occupation machine learning engineering is really counted under.</li>
+    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a>: the platforms these models actually run on.</li>
+    <li><a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS Cloud Engineer Jobs in USA</a>: the largest of those platforms, and its certification trap.</li>
+    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a>: how security clearances work, which gates a lot of government data science.</li>
+    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a>: another route where one job title covers several jobs.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: the same salary-reporting problems at the other end of the wage scale.</li>
+    <li><a href="/blog/database-administrator-jobs-in-usa">Database Administrator Jobs in USA</a>, who keeps the data you analyse available, and the certification that no longer exists.</li>
+    <li><a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a>: the same analytical skills in national security, on the GS pay scale.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, financial or immigration advice. Wage data, employment projections and visa rules change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics and the employer's own advertisement before applying or paying for any course.</p>

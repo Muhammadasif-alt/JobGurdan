@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Online Jobs Without Investment in Pakistan" — a sector guide rather than one
+ * "Online Jobs Without Investment in Pakistan": a sector guide rather than one
  * vacancy, so the apply link goes to an Indeed search and the post carries no
  * JobPosting markup.
  *
@@ -21,7 +21,7 @@ use Illuminate\Support\Str;
  * costing nothing: Fiverr takes 20% of every order, and Upwork charges a
  * service fee per contract plus Connects at $0.15 each, so a single proposal
  * costs real money before any work exists. "No investment" means no fee to
- * start, not no cost. And it called all of this "jobs" — almost none of it is
+ * start, not no cost. And it called all of this "jobs": almost none of it is
  * employment, which decides whether income is predictable.
  *
  * Both records use updateOrCreate, so re-running is safe; it will overwrite
@@ -121,32 +121,32 @@ class OnlineJobsWithoutInvestmentBlogSeeder extends Seeder
         return <<<'JOBHTML'
 <p>Online work open to candidates in Pakistan with nothing to pay at the start: freelance writing, graphic design and video editing; online tutoring in school subjects, English or Quran; social media management for small businesses; and virtual assistance. Some of it is employment with a fixed monthly salary, and most of it is client work paid per project.</p>
 
-<h3>Employment or client work &mdash; check which you are taking</h3>
-<p>This decides everything about how the money arrives. An <strong>employed</strong> remote role pays a fixed amount on a fixed date, and a full-time one is covered by your province's minimum wage &mdash; PKR 40,000 in Punjab, Sindh and Khyber Pakhtunkhwa, with the federal figure at PKR 40,700 from 1 July 2026. <strong>Client work</strong> has no floor, no pay date until you agree one, and no employer behind it. Neither is better; they are different arrangements and should be judged differently.</p>
+<h3>Employment or client work: check which you are taking</h3>
+<p>This decides everything about how the money arrives. An <strong>employed</strong> remote role pays a fixed amount on a fixed date, and a full-time one is covered by your province's minimum wage: PKR 40,000 in Punjab, Sindh and Khyber Pakhtunkhwa, with the federal figure at PKR 40,700 from 1 July 2026. <strong>Client work</strong> has no floor, no pay date until you agree one, and no employer behind it. Neither is better; they are different arrangements and should be judged differently.</p>
 
 <h3>Requirements</h3>
 <ul>
     <li>A computer or a capable smartphone, and a connection you can rely on</li>
-    <li>One skill someone will pay for &mdash; writing, design, tutoring, spreadsheets, or spoken English</li>
+    <li>One skill someone will pay for: writing, design, tutoring, spreadsheets, or spoken English</li>
     <li>A small portfolio; self-made samples are accepted when starting out</li>
     <li>A Payoneer account or a bank account able to receive foreign remittance</li>
-    <li>No joining fee, no training fee, no security deposit &mdash; ever</li>
+    <li>No joining fee, no training fee, no security deposit: ever</li>
 </ul>
 
 <h3>What "without investment" does and does not mean</h3>
-<p>It means nobody may charge you to start. It does <strong>not</strong> mean the work is free of cost. Fiverr takes <strong>20% of every order</strong>. Upwork charges a freelancer service fee per contract and sells <strong>Connects at about $0.15 each</strong>, with a single proposal costing roughly 6 to 16 of them &mdash; so applying for work has a real price before any work exists. Those costs come out of earnings rather than your pocket up front, and you should price for them.</p>
+<p>It means nobody may charge you to start. It does <strong>not</strong> mean the work is free of cost. Fiverr takes <strong>20% of every order</strong>. Upwork charges a freelancer service fee per contract and sells <strong>Connects at about $0.15 each</strong>, with a single proposal costing roughly 6 to 16 of them, so applying for work has a real price before any work exists. Those costs come out of earnings rather than your pocket up front, and you should price for them.</p>
 
 <h3>Before you apply</h3>
 <p><strong>Any request for money is the end of the conversation.</strong> Registration, training, software, a security deposit, or a fee to release your own payment are all the same fraud. Be equally wary of offers promising large daily payouts for simple tasks such as clicking ads or sharing links; that pattern is the clearest scam signal in this category.</p>
 
-<p><strong>Note:</strong> platform fees, rates and payment terms are set by each platform and client &mdash; not by JobGader. Confirm the current terms at their source before relying on them.</p>
+<p><strong>Note:</strong> platform fees, rates and payment terms are set by each platform and client, not by JobGader. Confirm the current terms at their source before relying on them.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>The promise in this search is real: you can start earning online in Pakistan without paying anyone a rupee to begin. What the guides usually leave out is the rest of the sentence &mdash; what the platforms take out of what you earn, which of these are actually jobs and which are self-employment, and why this exact phrase attracts more fraud than almost any other. All three change what you should do, so this guide covers them alongside the list of options.</p>
+<p>The promise in this search is real: you can start earning online in Pakistan without paying anyone a rupee to begin. What the guides usually leave out is the rest of the sentence: what the platforms take out of what you earn, which of these are actually jobs and which are self-employment, and why this exact phrase attracts more fraud than almost any other. All three change what you should do, so this guide covers them alongside the list of options.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/freelancing-online-work?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -156,66 +156,66 @@ JOBHTML;
 
 <h2>"Without Investment" Does Not Mean "Without Cost"</h2>
 
-<p>Start here, because it is the part that surprises people in month two. Nobody may charge you to start &mdash; that rule is absolute and any breach of it is fraud. But the platforms most of this work runs through are not free:</p>
+<p>Start here, because it is the part that surprises people in month two. Nobody may charge you to start: that rule is absolute and any breach of it is fraud. But the platforms most of this work runs through are not free:</p>
 
 <ul>
     <li><strong>Fiverr</strong> takes <strong>20% of every order</strong>, on every sale, at every seller level, including tips and extras. A 5,000-rupee gig pays you 4,000.</li>
-    <li><strong>Upwork</strong> charges a freelancer service fee per contract, and separately sells <strong>Connects</strong> &mdash; the tokens you spend to submit a proposal &mdash; at roughly <strong>$0.15 each</strong>, with a single proposal costing about 6 to 16 of them. That is $0.90 to $2.40 to <em>apply</em>, before any client has replied.</li>
+    <li><strong>Upwork</strong> charges a freelancer service fee per contract, and separately sells <strong>Connects</strong>, the tokens you spend to submit a proposal, at roughly <strong>$0.15 each</strong>, with a single proposal costing about 6 to 16 of them. That is $0.90 to $2.40 to <em>apply</em>, before any client has replied.</li>
 </ul>
 
-<p>None of that is hidden or improper, and it does not make the platforms a bad deal. But it means "no investment" describes the entry, not the economics. Price your work knowing a fifth of it may not reach you, and treat Connects as an advertising budget rather than a fee &mdash; because that is what they are.</p>
+<p>None of that is hidden or improper, and it does not make the platforms a bad deal. But it means "no investment" describes the entry, not the economics. Price your work knowing a fifth of it may not reach you, and treat Connects as an advertising budget rather than a fee, because that is what they are.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/online-jobs-without-investment-pakistan-no-fees.jpg"
-         alt="Online jobs without investment in Pakistan — no joining fee, no security deposit"
+         alt="Online jobs without investment in Pakistan: no joining fee, no security deposit"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
 <h2>Most of This Is Not a Job. That Matters.</h2>
 
-<p>Freelancing on Fiverr or Upwork, tutoring on a platform, taking on a social media client &mdash; none of these is employment. There is no employer, no fixed pay date until you negotiate one, no notice period, and no minimum wage underneath you.</p>
+<p>Freelancing on Fiverr or Upwork, tutoring on a platform, taking on a social media client: none of these is employment. There is no employer, no fixed pay date until you negotiate one, no notice period, and no minimum wage underneath you.</p>
 
-<p>Employed remote work is a different arrangement entirely: a fixed salary on a fixed date, and for a full-time role at a commercial establishment, your province's notified minimum wage as a floor &mdash; PKR 40,000 in Punjab, Sindh and Khyber Pakhtunkhwa, and PKR 40,700 federally from 1 July 2026. Neither route is better in the abstract. But a beginner who needs predictable money should know that only one of them offers it, and our guide to <a href="/blog/remote-jobs-in-pakistan-with-no-experience">remote jobs in Pakistan with no experience</a> covers the employed side.</p>
+<p>Employed remote work is a different arrangement entirely: a fixed salary on a fixed date, and for a full-time role at a commercial establishment, your province's notified minimum wage as a floor: PKR 40,000 in Punjab, Sindh and Khyber Pakhtunkhwa, and PKR 40,700 federally from 1 July 2026. Neither route is better in the abstract. But a beginner who needs predictable money should know that only one of them offers it, and our guide to <a href="/blog/remote-jobs-in-pakistan-with-no-experience">remote jobs in Pakistan with no experience</a> covers the employed side.</p>
 
 <h2>The Options That Genuinely Cost Nothing to Start</h2>
 
 <ul>
-    <li><strong>Freelance writing, design and video editing</strong> &mdash; sold on Fiverr, Upwork or direct to clients. No joining fee; the platform takes its share from each order.</li>
-    <li><strong>Online tutoring</strong> &mdash; school subjects, English or Quran, over Zoom, Google Meet or WhatsApp, either locally or through a tutoring platform. Among the fastest to start if you can teach.</li>
-    <li><strong>Social media management</strong> &mdash; running pages for small local businesses, with free tools like Canva doing the design work. The easiest to win first clients for, because the buyers are local.</li>
-    <li><strong>Content and assignment writing</strong> &mdash; a real freelance category, paid per piece, per word or per hour depending on the client.</li>
-    <li><strong>Virtual assistance and data work</strong> &mdash; inbox, calendar, research and spreadsheet work for one client at a time.</li>
+    <li><strong>Freelance writing, design and video editing</strong>: sold on Fiverr, Upwork or direct to clients. No joining fee; the platform takes its share from each order.</li>
+    <li><strong>Online tutoring</strong>: school subjects, English or Quran, over Zoom, Google Meet or WhatsApp, either locally or through a tutoring platform. Among the fastest to start if you can teach.</li>
+    <li><strong>Social media management</strong>: running pages for small local businesses, with free tools like Canva doing the design work. The easiest to win first clients for, because the buyers are local.</li>
+    <li><strong>Content and assignment writing</strong>: a real freelance category, paid per piece, per word or per hour depending on the client.</li>
+    <li><strong>Virtual assistance and data work</strong>: inbox, calendar, research and spreadsheet work for one client at a time.</li>
 </ul>
 
 <p>The common requirement is a skill someone will pay for, plus a small portfolio. Self-made samples count. Nobody starting out has client work to show, and every buyer knows it.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/online-jobs-without-investment-pakistan-skills.jpg"
-         alt="Skills used in online jobs without investment in Pakistan — writing, design, support and tutoring"
+         alt="Skills used in online jobs without investment in Pakistan: writing, design, support and tutoring"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
 <h2>Online Jobs With Daily Payment</h2>
 
-<p>Daily payment does exist in genuine freelance work &mdash; small task-based gigs, quick-turnaround writing, some tutoring arrangements. It is the exception. Most stable online income is paid weekly, monthly, or per completed project, because that is how clients and platforms release funds.</p>
+<p>Daily payment does exist in genuine freelance work: small task-based gigs, quick-turnaround writing, some tutoring arrangements. It is the exception. Most stable online income is paid weekly, monthly, or per completed project, because that is how clients and platforms release funds.</p>
 
-<p>Which is why the phrase is worth treating carefully. <strong>An offer of large daily payouts for very simple tasks &mdash; clicking advertisements, watching videos, sharing links, liking posts &mdash; is the single clearest scam pattern in this category.</strong> The model is always the same: small payments arrive at first to build confidence, then a larger "task" requires you to deposit money, and that is the last you see of it. No real business pays meaningful money for a click, because a click is not worth meaningful money to anyone.</p>
+<p>Which is why the phrase is worth treating carefully. <strong>An offer of large daily payouts for very simple tasks, clicking advertisements, watching videos, sharing links, liking posts, is the single clearest scam pattern in this category.</strong> The model is always the same: small payments arrive at first to build confidence, then a larger "task" requires you to deposit money, and that is the last you see of it. No real business pays meaningful money for a click, because a click is not worth meaningful money to anyone.</p>
 
 <h2>Assignment Writing Work</h2>
 
 <p>Academic and assignment writing is a genuine freelance category and sits inside the wider content and research writing market. Clients pay per assignment, per word or per hour, and turnaround is usually short.</p>
 
-<p>Two practical points. No legitimate client or platform charges you a fee before you can start taking assignments &mdash; the "connect you to writing clients" services that ask for money are selling nothing. And be aware that this niche has an ethical edge to it: writing an assignment a student will submit as their own is against the rules of most institutions, and some clients are more honest about that than others. Research summaries, editing and study material sit on firmer ground.</p>
+<p>Two practical points. No legitimate client or platform charges you a fee before you can start taking assignments: the "connect you to writing clients" services that ask for money are selling nothing. And be aware that this niche has an ethical edge to it: writing an assignment a student will submit as their own is against the rules of most institutions, and some clients are more honest about that than others. Research summaries, editing and study material sit on firmer ground.</p>
 
 <h2>Online Jobs for Students in Pakistan</h2>
 
-<p>Remote and flexible hours make this a natural fit around a class timetable, and the roles that need no formal experience &mdash; writing, tutoring, social media management &mdash; are exactly the accessible ones. Tutoring is often the strongest starting point for a student specifically, because you already have the subject knowledge from your own coursework and the pay per hour is usually better than entry-level writing.</p>
+<p>Remote and flexible hours make this a natural fit around a class timetable, and the roles that need no formal experience, writing, tutoring, social media management, are exactly the accessible ones. Tutoring is often the strongest starting point for a student specifically, because you already have the subject knowledge from your own coursework and the pay per hour is usually better than entry-level writing.</p>
 
 <p>Be selective early. Two clients whose names you can use are worth more than six anonymous content-mill assignments, and the mill work teaches habits the better clients screen against.</p>
 
 <h2>Online Work in Urdu</h2>
 
-<p>Urdu-language work is a real and growing niche: content writing, voiceover, subtitling, tutoring, and customer support for businesses serving Urdu-speaking audiences in Pakistan and in the diaspora. These roles value strong Urdu the way English roles value English, and they follow exactly the same rule &mdash; nobody may charge you to work in them.</p>
+<p>Urdu-language work is a real and growing niche: content writing, voiceover, subtitling, tutoring, and customer support for businesses serving Urdu-speaking audiences in Pakistan and in the diaspora. These roles value strong Urdu the way English roles value English, and they follow exactly the same rule: nobody may charge you to work in them.</p>
 
 <p>One advantage worth using: the supply of genuinely good Urdu writers is smaller than the supply of average English writers, so a strong Urdu portfolio faces less competition than a generic English one.</p>
 
@@ -234,7 +234,7 @@ JOBHTML;
 <h2>How to Start Without Spending Anything</h2>
 
 <ol>
-    <li><strong>Pick one skill you can already sell</strong> &mdash; writing, tutoring, design or social media. One, not four.</li>
+    <li><strong>Pick one skill you can already sell</strong>: writing, tutoring, design or social media. One, not four.</li>
     <li><strong>Make three samples.</strong> Self-created work on Google Docs or Canva is enough; buyers are judging the output, not the client list.</li>
     <li><strong>Apply on recognised platforms and job boards</strong> rather than earning groups and unknown pages.</li>
     <li><strong>Budget for the platform, not for a joining fee.</strong> Fiverr's 20% and Upwork's Connects are the real costs; a joining fee is a scam.</li>
@@ -249,7 +249,7 @@ JOBHTML;
 <p>Yes. Freelance writing, design, tutoring, social media management and virtual assistance all require no payment to start. The same phrase also attracts a large volume of fraud, so the test is simple: genuine work never asks you for money.</p>
 
 <h3>Do Fiverr and Upwork cost anything?</h3>
-<p>Nothing to join, but they are not free. Fiverr takes 20% of every order. Upwork charges a service fee per contract and sells Connects at about $0.15 each, with a proposal costing roughly 6 to 16 of them &mdash; so submitting proposals has a real cost before any client replies.</p>
+<p>Nothing to join, but they are not free. Fiverr takes 20% of every order. Upwork charges a service fee per contract and sells Connects at about $0.15 each, with a proposal costing roughly 6 to 16 of them, so submitting proposals has a real cost before any client replies.</p>
 
 <h3>Do these online jobs pay daily?</h3>
 <p>Some small task-based work does, but most stable online income is paid weekly, monthly or per project. Treat promises of large daily payouts for simple tasks like clicking or sharing as a scam, because that is what they almost always are.</p>
@@ -281,7 +281,7 @@ JOBHTML;
 <p>A real freelance niche paid per assignment, per word or per hour. No genuine client charges a fee to let you start taking work.</p>
 
 <h3>Online jobs without investment Pakistan for students</h3>
-<p>Tutoring first, then writing and social media management &mdash; all flexible enough to fit around a class timetable and all free to begin.</p>
+<p>Tutoring first, then writing and social media management: all flexible enough to fit around a class timetable and all free to begin.</p>
 
 <h3>Online jobs without investment Pakistan in Urdu</h3>
 <p>Urdu content, voiceover, subtitling, tutoring and support for audiences in Pakistan and the diaspora, with a thinner field of good candidates.</p>
@@ -300,16 +300,16 @@ JOBHTML;
 <p>Looking at employed remote work alongside freelancing? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; the employed side of remote work, how payment from abroad operates, and the scam patterns in full.</li>
-    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; the largest entry-level remote category, and why the Amazon version of it is a scam.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; steady shift-based remote work with a fixed salary behind it.</li>
-    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a> &mdash; office-based entry-level pay and the minimum wage floor an offer has to clear.</li>
-    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; the salaried version, and why the freelance range is not a band.</li>
-    <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a> &mdash; classroom and online teaching, and the minimum wage many private schools pay below.</li>
-    <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a> &mdash; the money side: State Bank freelancer accounts, dollar retention and the PSEB tax rate.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: the employed side of remote work, how payment from abroad operates, and the scam patterns in full.</li>
+    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a>: the largest entry-level remote category, and why the Amazon version of it is a scam.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: steady shift-based remote work with a fixed salary behind it.</li>
+    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a>: office-based entry-level pay and the minimum wage floor an offer has to clear.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a>: the salaried version, and why the freelance range is not a band.</li>
+    <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a>: classroom and online teaching, and the minimum wage many private schools pay below.</li>
+    <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a>: the money side: State Bank freelancer accounts, dollar retention and the PSEB tax rate.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, financial or careers advice. Platform fees, payment services and minimum wage notifications change &mdash; confirm the current figures at their source before relying on them.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, financial or careers advice. Platform fees, payment services and minimum wage notifications change: confirm the current figures at their source before relying on them.</p>
 HTML;
     }
 }

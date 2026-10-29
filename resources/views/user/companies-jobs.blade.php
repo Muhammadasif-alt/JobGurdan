@@ -20,7 +20,7 @@
      * employer name the same way for the same reason.
      */
     $coSuffix = ' Jobs'.($coFirst ? '' : ', Page '.$coPage).' | JobGader';
-    $coTitle = $company->name.' Jobs'.($coFirst ? '' : ', Page '.$coPage).' — Openings & How to Apply | JobGader';
+    $coTitle = $company->name.' Jobs'.($coFirst ? '' : ', Page '.$coPage).': Openings & How to Apply | JobGader';
 
     if (mb_strlen($coTitle) > 60) {
         $coTitle = $company->name.$coSuffix;
@@ -117,7 +117,7 @@
         background: radial-gradient(circle, rgba(47, 127, 201,.07), transparent 70%);
         pointer-events: none;
     }
-    /* Force breadcrumb ABOVE h1 (legacy theme floats it right — override) */
+    /* Force breadcrumb ABOVE h1 (legacy theme floats it right: override) */
     .utf-page-heading-area #breadcrumbs {
         position: static !important;
         float: none !important;
@@ -278,7 +278,7 @@
                         </ul>
                     </div>
 
-                    <!-- Popular States (uses footer composer data — only states with active jobs) -->
+                    <!-- Popular States (uses footer composer data: only states with active jobs) -->
                     @if(($footerStates ?? collect())->isNotEmpty())
                     <div class="utf-sidebar-widget-item">
                         <h3>Popular States</h3>
@@ -443,7 +443,7 @@
 </div>
 
 {{-- ============================================================
-     Why Apply Here — 4-card horizontal row
+     Why Apply Here: 4-card horizontal row
      ============================================================ --}}
 <section class="cj-why-section">
     <div class="container">
@@ -478,7 +478,7 @@
 </section>
 
 {{-- ============================================================
-     Why this company — SEO row with image + text + floating badges
+     Why this company: SEO row with image + text + floating badges
      ============================================================ --}}
 <section class="cj-seo-section">
     <div class="container">
@@ -493,7 +493,7 @@
                     Whether you are looking for a full-time role, a seasonal opportunity or a long-term career move, check each listing for its requirements and apply on the employer's own site.
                 </p>
                 <ul class="cj-seo-list">
-                    <li><i class="icon-feather-check-circle"></i> Direct application — no third-party redirects</li>
+                    <li><i class="icon-feather-check-circle"></i> Direct application: no third-party redirects</li>
                     <li><i class="icon-feather-check-circle"></i> 100% free to apply for job seekers</li>
                     <li><i class="icon-feather-check-circle"></i> Real-time alerts when new roles post</li>
                     <li><i class="icon-feather-check-circle"></i> Mobile-friendly application flow</li>
@@ -578,7 +578,7 @@
 }
 .cj-section-head p { color: #555; font-size: 16px; line-height: 1.65; margin: 0; }
 
-/* ===== Why Apply — 4 horizontal cards ===== */
+/* ===== Why Apply: 4 horizontal cards ===== */
 .cj-why-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

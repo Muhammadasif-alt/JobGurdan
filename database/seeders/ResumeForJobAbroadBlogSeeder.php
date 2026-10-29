@@ -211,10 +211,10 @@ class ResumeForJobAbroadBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/best-job-sites-work-abroad-2026">Best Job Sites to Find Work Abroad (2026)</a> &mdash; where to send it.</li>
-    <li><a href="/blog/documents-needed-to-work-abroad-2026">What Documents Do You Need to Work Abroad (2026)</a> &mdash; the checklist.</li>
-    <li><a href="/blog/how-to-apply-work-visa-without-agent-2026">How to Apply for a Work Visa Without an Agent (2026)</a> &mdash; the application steps.</li>
-    <li><a href="/blog/how-to-get-a-job-abroad-without-experience-2026">How to Get a Job Abroad Without Experience (2026)</a> &mdash; beginner routes.</li>
+    <li><a href="/blog/best-job-sites-work-abroad-2026">Best Job Sites to Find Work Abroad (2026)</a>: where to send it.</li>
+    <li><a href="/blog/documents-needed-to-work-abroad-2026">What Documents Do You Need to Work Abroad (2026)</a>: the checklist.</li>
+    <li><a href="/blog/how-to-apply-work-visa-without-agent-2026">How to Apply for a Work Visa Without an Agent (2026)</a>: the application steps.</li>
+    <li><a href="/blog/how-to-get-a-job-abroad-without-experience-2026">How to Get a Job Abroad Without Experience (2026)</a>: beginner routes.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Reviewed on 12 October 2026. The examples are fictional templates, not claims about a real applicant, and no job offer or visa sponsorship is guaranteed.</p>

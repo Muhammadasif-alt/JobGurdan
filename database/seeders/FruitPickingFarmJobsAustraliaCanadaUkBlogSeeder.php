@@ -345,9 +345,9 @@ JOBHTML;
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the Canadian route in detail.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; the wider Canadian picture.</li>
-    <li><a href="/blog/cleaner-and-janitor-jobs-with-visa-sponsorship">Cleaner and Janitor Jobs With Visa Sponsorship</a> &mdash; another role where sponsorship claims need checking.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: the Canadian route in detail.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: the wider Canadian picture.</li>
+    <li><a href="/blog/cleaner-and-janitor-jobs-with-visa-sponsorship">Cleaner and Janitor Jobs With Visa Sponsorship</a>: another role where sponsorship claims need checking.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or career advice. Information is drawn from Australian Home Affairs, the Fair Work Ombudsman, the Government of Canada and GOV.UK, reviewed on 6 October 2026. Recruitment availability and immigration rules change, so confirm them with the official authority before applying.</p>

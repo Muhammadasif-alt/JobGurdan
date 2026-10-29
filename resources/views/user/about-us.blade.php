@@ -1,8 +1,8 @@
 @extends('user.layouts.master')
-@section('title', 'About JobGader — Jobs and Honest Visa Guides')
+@section('title', 'About JobGader: Jobs and Honest Visa Guides')
 @section('meta_description', 'Why JobGader exists: listings across '.$coverage->shortList().', and visa guides that say which routes are open and which are closed.')
 @section('meta_keywords', 'about jobgader, job board, visa sponsorship guides, jobs usa uk pakistan, free job search, jobs for foreigners, work abroad, hand checked job listings')
-@section('og_title', 'About JobGader — Jobs and Honest Visa Guides')
+@section('og_title', 'About JobGader: Jobs and Honest Visa Guides')
 @section('og_description', 'Jobs across '.$coverage->shortList().', plus visa guides that tell you which sponsorship routes are actually open.')
 @section('og_image', asset('public/user/images/single-company.jpg'))
 @section('canonical', route('about.us'))
@@ -146,7 +146,7 @@
     .about-page p { color: #555; line-height: 1.75; }
     .about-page h2, .about-page h3 { color: #1b3a6b; }
 
-    /* === Hero — light gradient + dark text (matches home/jobs/companies/categories/locations) === */
+    /* === Hero: light gradient + dark text (matches home/jobs/companies/categories/locations) === */
     .about-hero {
         padding: 80px 0 70px;
         background: linear-gradient(180deg, #f8faff 0%, #ffffff 50%, #f5f5f7 100%);
@@ -228,7 +228,7 @@
         box-shadow: 0 8px 20px rgba(0,0,0,.18);
     }
 
-    /* Square hero image — animated like other pages */
+    /* Square hero image: animated like other pages */
     .about-hero-visual {
         position: relative;
         border-radius: 20px;
@@ -794,7 +794,7 @@
     }
 
     /* =========================================
-       DARK MODE — About Us
+       DARK MODE: About Us
        ========================================= */
     html.dark-mode .about-page p { color: var(--site-muted, #b8c0cc) !important; }
     html.dark-mode .about-page h2,
@@ -867,7 +867,7 @@
         color: #1b3a6b !important;
     }
 
-    /* "Built for job seekers who care about quality" — benefit items */
+    /* "Built for job seekers who care about quality": benefit items */
     html.dark-mode .benefit-item {
         background: var(--site-card-bg, #1c2128) !important;
         border-color: rgba(255,255,255,.10) !important;
@@ -1005,14 +1005,14 @@
                 <div>
                     <span class="about-hero-tag" data-aos="fade-down" data-aos-duration="600">About JobGader</span>
                     <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Real jobs, and <span>straight answers</span> about the visa routes behind them</h1>
-                    <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">JobGader lists openings across {{ $coverage->shortList() }} &mdash; and publishes guides that say which sponsorship routes are genuinely open, which have closed, and what each role actually pays. Free to apply, and you never need an account.</p>
+                    <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">JobGader lists openings across {{ $coverage->shortList() }}, and publishes guides that say which sponsorship routes are genuinely open, which have closed, and what each role actually pays. Free to apply, and you never need an account.</p>
                     <div class="about-hero-cta" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
                         <a href="{{ route('jobs.index') }}">Browse Open Jobs <i class="icon-feather-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="about-hero-visual">
                     <img src="{{ asset('public/user/images/single-company.webp') }}"
-                         alt="About JobGader — job listings and visa sponsorship guides for {{ $coverage->shortList() }}"
+                         alt="About JobGader: job listings and visa sponsorship guides for {{ $coverage->shortList() }}"
                          loading="lazy"
                          onerror="this.onerror=null;this.src='{{ asset('public/user/images/single-company.jpg') }}'">
                     <div class="about-hero-float tl">
@@ -1070,7 +1070,7 @@
                 <div class="mvv-card">
                     <div class="ico"><i class="icon-feather-target"></i></div>
                     <h3>Our Mission</h3>
-                    <p>To make working abroad less of a guessing game &mdash; by pairing real openings with an honest account of the visa route behind each one, so nobody wastes months chasing a job they were never eligible for.</p>
+                    <p>To make working abroad less of a guessing game, by pairing real openings with an honest account of the visa route behind each one, so nobody wastes months chasing a job they were never eligible for.</p>
                 </div>
                 <div class="mvv-card">
                     <div class="ico"><i class="icon-feather-eye"></i></div>
@@ -1080,7 +1080,7 @@
                 <div class="mvv-card">
                     <div class="ico"><i class="icon-feather-heart"></i></div>
                     <h3>Our Values</h3>
-                    <p><strong>Say it plainly</strong>, even when the answer is no. <strong>Cite the source</strong>, not a rumour. <strong>Never charge a job seeker.</strong> <strong>Publish nothing we cannot verify</strong> &mdash; including our own numbers.</p>
+                    <p><strong>Say it plainly</strong>, even when the answer is no. <strong>Cite the source</strong>, not a rumour. <strong>Never charge a job seeker.</strong> <strong>Publish nothing we cannot verify</strong>, including our own numbers.</p>
                 </div>
             </div>
         </div>
@@ -1099,7 +1099,7 @@
                     <div class="step-num">01</div>
                     <div class="ico"><i class="icon-line-awesome-user-plus"></i></div>
                     <h3>Pick Your Country</h3>
-                    <p>Openings across {{ $coverage->shortList() }} &mdash; general labour and hospitality through to skilled trades and senior engineering.</p>
+                    <p>Openings across {{ $coverage->shortList() }}: general labour and hospitality through to skilled trades and senior engineering.</p>
                 </div>
                 <div class="how-card">
                     <div class="step-num">02</div>
@@ -1142,7 +1142,7 @@
                     <div class="benefit-item">
                         <div class="ico"><i class="icon-feather-dollar-sign"></i></div>
                         <h4>Researched Pay Ranges</h4>
-                        <p>Hourly rates and annual bands with the source explained &mdash; not a scraped estimate presented as fact.</p>
+                        <p>Hourly rates and annual bands with the source explained, not a scraped estimate presented as fact.</p>
                     </div>
                     <div class="benefit-item">
                         <div class="ico"><i class="icon-feather-user-x"></i></div>
@@ -1196,7 +1196,7 @@
                 <div class="mvv-card">
                     <div class="ico"><i class="icon-feather-alert-circle"></i></div>
                     <h3>Bad News Goes First</h3>
-                    <p>When a route is closed, the guide opens with that. UK care worker sponsorship shut to new overseas applicants in July 2025, and standard warehouse and cleaning roles have never met the Skilled Worker thresholds &mdash; so those guides say so in the first paragraph.</p>
+                    <p>When a route is closed, the guide opens with that. UK care worker sponsorship shut to new overseas applicants in July 2025, and standard warehouse and cleaning roles have never met the Skilled Worker thresholds, so those guides say so in the first paragraph.</p>
                 </div>
                 <div class="mvv-card">
                     <div class="ico"><i class="icon-feather-shield"></i></div>
@@ -1215,7 +1215,7 @@
                     <span class="about-hero-tag">Our Story</span>
                     <h2>Why JobGader <span>exists</span></h2>
                     <p>JobGader started from a specific frustration: search "warehouse jobs UK visa sponsorship" or "caregiver jobs UK" and you get page after page of sites promising sponsorship that the rules no longer allow. Some are years out of date. Some are agencies charging a fee for a visa that does not exist.</p>
-                    <p>So we built the opposite. Every guide leads with the current rule and where it comes from &mdash; gov.uk, USCIS, the Department of Labor &mdash; even when the honest answer is that a route closed and is not coming back. The UK care worker visa shut to new overseas applicants in July 2025; our guide says that in the first paragraph rather than burying it.</p>
+                    <p>So we built the opposite. Every guide leads with the current rule and where it comes from, gov.uk, USCIS, the Department of Labor, even when the honest answer is that a route closed and is not coming back. The UK care worker visa shut to new overseas applicants in July 2025; our guide says that in the first paragraph rather than burying it.</p>
                     <p>We are a small team and this is a young site. We would rather tell you a route is closed than take the click, and each guide names the official source for its rules.</p>
                     @if (config('site.owner.name'))
                         <p>JobGader is run by {{ config('site.owner.name') }}, {{ config('site.owner.role') }}@if (config('site.owner.location')), from {{ config('site.owner.location') }}@endif. You can reach us at <a href="mailto:{{ config('site.contact_email') }}">{{ config('site.contact_email') }}</a>. See our <a href="{{ route('pages.editorial-policy') }}">Editorial Policy</a> for how guides are researched and corrected.</p>
@@ -1301,7 +1301,7 @@
             <div class="about-section-head">
                 <span class="tag">Industries We Serve</span>
                 <h2>The sectors we cover</h2>
-                <p>From entry-level labour to senior engineering &mdash; the industries where we list openings and publish sponsorship guidance.</p>
+                <p>From entry-level labour to senior engineering: the industries where we list openings and publish sponsorship guidance.</p>
             </div>
             <div class="industries-grid">
                 <a href="{{ route('pages.healthcare-jobs') }}" class="industry-card">
@@ -1356,7 +1356,7 @@
 
             <div style="text-align:center; margin-top:50px;">
                 <h3 style="font-size:22px; font-weight:700; color:#16305a; margin-bottom:8px;">Hiring across {{ $coverage->countWordLower() }} countries</h3>
-                <p style="font-size:14px; color:#5a5a5a; margin:0;">Browse top-paying jobs by state — from coast to coast.</p>
+                <p style="font-size:14px; color:#5a5a5a; margin:0;">Browse top-paying jobs by state: from coast to coast.</p>
                 <div class="states-chips">
                     <a href="{{ route('pages.jobs-in-texas') }}">Texas</a>
                     <a href="{{ route('pages.jobs-in-california') }}">California</a>
@@ -1385,7 +1385,7 @@
             <div class="about-section-head">
                 <span class="tag">How We Operate</span>
                 <h2 id="press-heading">What we can actually stand behind</h2>
-                <p>No awards, no press quotes, no invented user counts &mdash; just the commitments that govern what goes on this site.</p>
+                <p>No awards, no press quotes, no invented user counts: just the commitments that govern what goes on this site.</p>
             </div>
 
             <div class="press-grid">
@@ -1398,7 +1398,7 @@
                 <article class="press-card">
                     <div class="press-ico"><i class="icon-feather-book-open"></i></div>
                     <h3>Guides Cite Their Sources</h3>
-                    <p>Each visa guide names the rule it relies on and where it came from — gov.uk, USCIS or the Department of Labor — along with the date that rule took effect.</p>
+                    <p>Each visa guide names the rule it relies on and where it came from, gov.uk, USCIS or the Department of Labor, along with the date that rule took effect.</p>
                     <span class="press-badge">Sourced</span>
                 </article>
                 <article class="press-card">
@@ -1416,7 +1416,7 @@
                 <article class="press-card">
                     <div class="press-ico"><i class="icon-feather-globe"></i></div>
                     <h3>{{ $coverage->countWord() }} Countries Covered</h3>
-                    <p>The {{ $coverage->shortList() }} — spanning transport, hospitality, care, construction, cleaning, marketing and software roles.</p>
+                    <p>The {{ $coverage->shortList() }}: spanning transport, hospitality, care, construction, cleaning, marketing and software roles.</p>
                     <span class="press-badge">USA · UK · PK</span>
                 </article>
                 <article class="press-card">
@@ -1559,7 +1559,7 @@
             font-weight: 500;
         }
 
-        /* === Dark mode — press / trust strip / states chips / inline heading === */
+        /* === Dark mode: press / trust strip / states chips / inline heading === */
         html.dark-mode .press-card {
             background: var(--site-card-bg, #1c2128) !important;
             border-color: rgba(255,255,255,.10) !important;
@@ -1613,10 +1613,10 @@
         html.dark-mode .about-press + section [style*="color:#5a5a5a"] { color: var(--site-muted, #b8c0cc) !important; }
 
         /* =================================================================
-           DARK MODE — comprehensive catch-all (loaded LAST, highest priority)
+           DARK MODE: comprehensive catch-all (loaded LAST, highest priority)
            ================================================================= */
 
-        /* Gradient text spans — were dark gradient (invisible on dark bg) → orange */
+        /* Gradient text spans: were dark gradient (invisible on dark bg) → orange */
         html.dark-mode .about-page .benefits-head h2 span,
         html.dark-mode .about-page .story-content h2 span,
         html.dark-mode .about-page .about-hero h1 span,

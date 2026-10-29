@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Faculty Careers in the US" — the hub for the whole US faculty workforce:
+ * "Faculty Careers in the US": the hub for the whole US faculty workforce:
  * what the appointment types are, what each one pays, and which of them a
  * reader can realistically reach. The adjunct hub owns part-time teaching
  * in detail and is cross-linked rather than repeated.
@@ -98,7 +98,7 @@ class FacultyCareersUsBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'US Colleges, Universities & Community Colleges — Faculty Appointments (Aggregated)'],
+            ['name' => 'US Colleges, Universities & Community Colleges: Faculty Appointments (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'us-faculty-aggregated']
         );
 
@@ -200,7 +200,7 @@ JOBHTML;
 
 <p>Read the last two rows against the first six. The occupation is growing and pays a solid median, and roughly two thirds of the appointments inside it carry no tenure and no expectation of renewal. Both facts are true, and a career plan built on only the first one will not survive contact with a search committee.</p>
 
-<p>The AAUP's 2025&ndash;26 Faculty Compensation Survey collected full-time salary data from 768 US colleges and universities covering 359,234 full-time faculty, plus 125,149 part-time faculty from 664 institutions. It found average salaries up 2.3 per cent in nominal terms from autumn 2024 to autumn 2025, against a 2.7 per cent rise in the CPI-U &mdash; a real-terms fall of about 0.4 per cent.</p>
+<p>The AAUP's 2025&ndash;26 Faculty Compensation Survey collected full-time salary data from 768 US colleges and universities covering 359,234 full-time faculty, plus 125,149 part-time faculty from 664 institutions. It found average salaries up 2.3 per cent in nominal terms from autumn 2024 to autumn 2025, against a 2.7 per cent rise in the CPI-U: a real-terms fall of about 0.4 per cent.</p>
 
 <h2>What Each Rank Averages</h2>
 
@@ -227,7 +227,7 @@ JOBHTML;
 
 <p>Promotion from assistant to associate professor is worth about $16,000 on these averages; the step from associate to full professor is worth roughly $50,000. That second gap is why the tenure decision matters financially long after it is made.</p>
 
-<p>Among full-time faculty in the same survey, 50.7 per cent held tenure, 18.0 per cent were on the tenure track and 31.4 per cent were in non-tenure-track appointments. That is full-time staff only &mdash; add part-time appointments back in and the contingent share rises sharply.</p>
+<p>Among full-time faculty in the same survey, 50.7 per cent held tenure, 18.0 per cent were on the tenure track and 31.4 per cent were in non-tenure-track appointments. That is full-time staff only: add part-time appointments back in and the contingent share rises sharply.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/faculty-careers-in-the-us-campus.jpg"
@@ -283,7 +283,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>None of these describe adjunct pay. <strong>The AAUP puts the average pay for teaching one standard three-credit course section at $4,093 in 2024&ndash;25, unchanged in cash terms from the year before.</strong> Four sections a semester, eight across an academic year, is around $32,700 before tax for what is in practice a full teaching load &mdash; which is why the BLS median and the adjunct reality are so far apart. If you are weighing part-time teaching, use the per-section figure and not the occupational median.</p>
+<p>None of these describe adjunct pay. <strong>The AAUP puts the average pay for teaching one standard three-credit course section at $4,093 in 2024&ndash;25, unchanged in cash terms from the year before.</strong> Four sections a semester, eight across an academic year, is around $32,700 before tax for what is in practice a full teaching load, which is why the BLS median and the adjunct reality are so far apart. If you are weighing part-time teaching, use the per-section figure and not the occupational median.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/faculty-careers-in-the-us-application.jpg"
@@ -297,8 +297,8 @@ JOBHTML;
 
 <ul>
     <li><strong>Four-year colleges and universities</strong> generally expect a doctorate for tenure-track appointments, and most adverts require it to be in hand by the start date rather than merely in progress.</li>
-    <li><strong>Community and junior colleges</strong> commonly hire with a master's degree in the discipline. The "18 graduate credit hours" figure repeated all over the internet is no longer an accreditation requirement &mdash; the Higher Learning Commission removed that language in November 2023 &mdash; but many colleges still apply it as their own internal benchmark, so check the college's published faculty credentials policy rather than any national rule.</li>
-    <li><strong>Professional and applied fields</strong> &mdash; nursing, accounting, engineering, computing, criminal justice, the trades &mdash; weight licensure and industry experience heavily, and a terminal professional qualification can substitute for a PhD.</li>
+    <li><strong>Community and junior colleges</strong> commonly hire with a master's degree in the discipline. The "18 graduate credit hours" figure repeated all over the internet is no longer an accreditation requirement, the Higher Learning Commission removed that language in November 2023, but many colleges still apply it as their own internal benchmark, so check the college's published faculty credentials policy rather than any national rule.</li>
+    <li><strong>Professional and applied fields</strong>, nursing, accounting, engineering, computing, criminal justice, the trades, weight licensure and industry experience heavily, and a terminal professional qualification can substitute for a PhD.</li>
     <li><strong>Studio and performance disciplines</strong> treat the MFA as the terminal degree.</li>
 </ul>
 
@@ -306,7 +306,7 @@ JOBHTML;
 
 <p>A tenure-track appointment is probationary. The AAUP's standard, which most US institutions follow in their own handbooks, is a probationary period that does not exceed <strong>seven years</strong>, with the tenure decision made in the final year. If tenure is refused, the appointment ends; there is no demotion to a lower rank.</p>
 
-<p>What is assessed varies, but the three headings are near-universal: teaching, scholarship and service. At research-intensive universities the scholarship record &mdash; publications, external grant funding, doctoral supervision &mdash; usually decides the case. At teaching-focused institutions, course evaluations, curriculum work and student outcomes carry far more weight. <strong>Read the department's own tenure criteria before accepting the post</strong>, not in year five.</p>
+<p>What is assessed varies, but the three headings are near-universal: teaching, scholarship and service. At research-intensive universities the scholarship record, publications, external grant funding, doctoral supervision, usually decides the case. At teaching-focused institutions, course evaluations, curriculum work and student outcomes carry far more weight. <strong>Read the department's own tenure criteria before accepting the post</strong>, not in year five.</p>
 
 <h2>Benefits, Hours and Two Federal Multipliers</h2>
 
@@ -391,18 +391,18 @@ JOBHTML;
 <p>These go deeper on the parts of academic work this page summarises:</p>
 
 <ul>
-    <li><a href="/blog/professor-employment-in-the-us">Professor Employment in the US</a> &mdash; the nine-month contract, teaching loads by institution and what promotion is worth.</li>
-    <li><a href="/blog/assistant-professor-jobs-in-the-us">Assistant Professor Jobs in the US</a> &mdash; the hiring calendar, the job talk and what to negotiate at offer stage.</li>
-    <li><a href="/blog/colleges-hiring-professors-in-the-us">Colleges Hiring Professors in the US</a> &mdash; which institutions hire on which credential, and where they publish.</li>
-    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a> &mdash; per-section pay, benefits eligibility and the loan-forgiveness arithmetic in full.</li>
-    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; the school-level route, certification by state.</li>
-    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a> &mdash; teaching work that needs no faculty appointment.</li>
-    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; remote teaching outside the university system.</li>
-    <li><a href="/blog/adjunct-teaching-jobs-in-the-uk">Adjunct Teaching Jobs in the UK</a> &mdash; what the same work is called and paid in Britain.</li>
-    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the honorary title that carries no salary.</li>
-    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; qualified teacher status and the school pay scales.</li>
-    <li><a href="/blog/higher-education-degree-jobs-in-the-us">Higher Education Degree Jobs in the US</a> &mdash; administration, advising and research careers inside the same institutions.</li>
-    <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a> &mdash; the non-teaching roles inside the same institutions.</li>
+    <li><a href="/blog/professor-employment-in-the-us">Professor Employment in the US</a>: the nine-month contract, teaching loads by institution and what promotion is worth.</li>
+    <li><a href="/blog/assistant-professor-jobs-in-the-us">Assistant Professor Jobs in the US</a>: the hiring calendar, the job talk and what to negotiate at offer stage.</li>
+    <li><a href="/blog/colleges-hiring-professors-in-the-us">Colleges Hiring Professors in the US</a>, which institutions hire on which credential, and where they publish.</li>
+    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a>: per-section pay, benefits eligibility and the loan-forgiveness arithmetic in full.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a>: the school-level route, certification by state.</li>
+    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a>: teaching work that needs no faculty appointment.</li>
+    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a>: remote teaching outside the university system.</li>
+    <li><a href="/blog/adjunct-teaching-jobs-in-the-uk">Adjunct Teaching Jobs in the UK</a>: what the same work is called and paid in Britain.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a>: the honorary title that carries no salary.</li>
+    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a>: qualified teacher status and the school pay scales.</li>
+    <li><a href="/blog/higher-education-degree-jobs-in-the-us">Higher Education Degree Jobs in the US</a>: administration, advising and research careers inside the same institutions.</li>
+    <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a>: the non-teaching roles inside the same institutions.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, employment or tax advice. Pay data is from the US Bureau of Labor Statistics and the American Association of University Professors, and institutional policies on tenure, benefits and online teaching vary. Confirm details with the hiring institution before relying on them.</p>

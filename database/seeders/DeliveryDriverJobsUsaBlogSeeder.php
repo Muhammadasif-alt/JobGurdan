@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Delivery Driver Jobs in USA" — the American companion to the UK delivery
+ * "Delivery Driver Jobs in USA": the American companion to the UK delivery
  * driver guide. Same work, a different legal frame, and the same central
  * problem: the hourly figures being compared are not measuring the same hour.
  *
@@ -147,7 +147,7 @@ class DeliveryDriverJobsUsaBlogSeeder extends Seeder
 <h3>Requirements</h3>
 <ul>
     <li>A valid driver's license and a clean driving record, with minimum age and license history set by each employer</li>
-    <li>For app-based work, your own insured vehicle &mdash; check that your policy covers delivering for pay</li>
+    <li>For app-based work, your own insured vehicle: check that your policy covers delivering for pay</li>
     <li>Smartphone navigation and delivery app competence</li>
     <li>Physical ability to lift and carry packages for a full shift</li>
     <li>A commercial driver's license only for heavier vehicles, generally 26,001 pounds gross vehicle weight rating and above</li>
@@ -156,7 +156,7 @@ class DeliveryDriverJobsUsaBlogSeeder extends Seeder
 
 <h3>Three very different pay structures</h3>
 <ul>
-    <li><strong>Employed route driver.</strong> Hourly pay with overtime rules, often in a supplied van. Who the employer actually is &mdash; a carrier or its contractor &mdash; decides the benefits</li>
+    <li><strong>Employed route driver.</strong> Hourly pay with overtime rules, often in a supplied van. Who the employer actually is, a carrier or its contractor, decides the benefits</li>
     <li><strong>App-based driver.</strong> Paid per order. Any guarantee usually counts only engaged time, and the vehicle cost is yours</li>
     <li><strong>Independent courier.</strong> Contract rates with self-employment tax, insurance and vehicle costs all on your side</li>
 </ul>
@@ -164,7 +164,7 @@ class DeliveryDriverJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask who employs you, and price your own car before trusting any app's hourly figure.</strong> At the IRS rate of 76 cents a mile from 1 July 2026, a 100-mile shift represents $76 of vehicle cost before a single tip is counted.</p>
 
-<p><strong>Note:</strong> pay, employment status, vehicle arrangements and insurance requirements are set by each employer and platform &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, employment status, vehicle arrangements and insurance requirements are set by each employer and platform, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -183,7 +183,7 @@ JOBHTML;
 
 <p>App-based delivery is usually described as paying <strong>$15 to $25 or more an hour, including tips</strong>. The figure is not invented. The question is which hours it divides by.</p>
 
-<p>The clearest answer comes from California, where the rules for app-based drivers were settled by <strong>Proposition 22</strong>. On <strong>25 July 2024</strong>, the California Supreme Court unanimously upheld it. Under it, drivers are guaranteed earnings of <strong>120 per cent of the minimum wage</strong> &mdash; but only for <strong>engaged time</strong>, which runs from accepting an order to completing it.</p>
+<p>The clearest answer comes from California, where the rules for app-based drivers were settled by <strong>Proposition 22</strong>. On <strong>25 July 2024</strong>, the California Supreme Court unanimously upheld it. Under it, drivers are guaranteed earnings of <strong>120 per cent of the minimum wage</strong>, but only for <strong>engaged time</strong>, which runs from accepting an order to completing it.</p>
 
 <p>Time spent logged in and waiting for the next order is <strong>not engaged time</strong>, and the guarantee does not cover it.</p>
 
@@ -193,11 +193,11 @@ JOBHTML;
 
 <p>The second thing the published ranges leave out is the vehicle, and for app-based and courier work it is the largest cost you carry.</p>
 
-<p>The most useful measure is the one the tax authorities use. The <strong>IRS standard business mileage rate</strong> was set at <strong>72.5 cents a mile</strong> for the start of 2026, and the IRS raised it to <strong>76 cents a mile from 1 July 2026</strong> &mdash; a rare mid-year increase, made because of rising fuel costs. The rate is meant to reflect the full cost of running a vehicle: fuel, maintenance, tyres, insurance and depreciation.</p>
+<p>The most useful measure is the one the tax authorities use. The <strong>IRS standard business mileage rate</strong> was set at <strong>72.5 cents a mile</strong> for the start of 2026, and the IRS raised it to <strong>76 cents a mile from 1 July 2026</strong>: a rare mid-year increase, made because of rising fuel costs. The rate is meant to reflect the full cost of running a vehicle: fuel, maintenance, tyres, insurance and depreciation.</p>
 
 <p>So do the arithmetic before you judge an offer. <strong>A shift that puts 100 miles on your car costs about $76</strong> at that rate. If the shift paid $180 including tips, the vehicle took more than two-fifths of it, and that is before tax.</p>
 
-<p>You will not pay that $76 in cash on the day &mdash; much of it arrives later as a repair bill, a replacement tyre or a car that is worth less when you sell it. That is exactly why drivers underestimate it. Track your miles from the first shift, both for your own decisions and because business miles are deductible at tax time.</p>
+<p>You will not pay that $76 in cash on the day: much of it arrives later as a repair bill, a replacement tyre or a car that is worth less when you sell it. That is exactly why drivers underestimate it. Track your miles from the first shift, both for your own decisions and because business miles are deductible at tax time.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/delivery-driver-jobs-in-usa-gig.jpg"
@@ -224,7 +224,7 @@ JOBHTML;
 <ul>
     <li><strong>New York City</strong> sets a minimum pay rate for app-based restaurant and grocery delivery workers of <strong>$22.13 an hour before tips</strong> from <strong>1 April 2026</strong>. It adjusts every April, and tips must be paid on top of it rather than counted towards it.</li>
     <li><strong>California</strong> runs the Proposition 22 guarantee described above, at 120 per cent of the minimum wage for engaged time.</li>
-    <li><strong>Employed drivers</strong> elsewhere are covered by the federal minimum wage of <strong>$7.25</strong> or the higher state or city rate where one applies &mdash; and most drivers live somewhere with a higher one.</li>
+    <li><strong>Employed drivers</strong> elsewhere are covered by the federal minimum wage of <strong>$7.25</strong> or the higher state or city rate where one applies, and most drivers live somewhere with a higher one.</li>
     <li><strong>Independent contractors</strong> have <strong>no federal minimum wage at all</strong>. Outside places that legislate for app-based work specifically, there is no floor under a contractor's earnings.</li>
 </ul>
 
@@ -240,7 +240,7 @@ JOBHTML;
 
 <p><strong>Benefits.</strong> No employer health plan, no paid time off and no retirement contribution. Price them in when you compare a contractor role with an employed route driver job at a lower headline rate.</p>
 
-<p>The same arithmetic runs through delivery work in other countries &mdash; our <a href="/blog/delivery-driver-jobs-in-uk">delivery driver jobs in UK guide</a> works through the British version, where the self-employed day rate can fall below a minimum wage year.</p>
+<p>The same arithmetic runs through delivery work in other countries: our <a href="/blog/delivery-driver-jobs-in-uk">delivery driver jobs in UK guide</a> works through the British version, where the self-employed day rate can fall below a minimum wage year.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/delivery-driver-jobs-in-usa-route.jpg"
@@ -250,7 +250,7 @@ JOBHTML;
 
 <h2>When You Need a CDL</h2>
 
-<p>Most package and food delivery is done in cars, minivans and cargo vans on an ordinary driver's license. A <strong>commercial driver's license</strong> generally becomes necessary for heavier vehicles &mdash; a single vehicle with a gross vehicle weight rating of <strong>26,001 pounds or more</strong>, heavier combinations, or vehicles carrying hazardous materials.</p>
+<p>Most package and food delivery is done in cars, minivans and cargo vans on an ordinary driver's license. A <strong>commercial driver's license</strong> generally becomes necessary for heavier vehicles: a single vehicle with a gross vehicle weight rating of <strong>26,001 pounds or more</strong>, heavier combinations, or vehicles carrying hazardous materials.</p>
 
 <p>That changes the job as well as the license: box trucks at that weight and tractor-trailers are a different career with different pay. If that is the direction you want, our <a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">truck driver jobs in USA guide</a> covers CDL requirements and the routes into long-haul work.</p>
 
@@ -326,23 +326,23 @@ JOBHTML;
 <p>Comparing driving work and other entry routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; the British version of this work, and the insurance class new couriers miss.</li>
-    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; CDL requirements and the heavier end of driving work.</li>
-    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; the other big American entry route, and its state-by-state wage floors.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; where genuine entry-level visa routes exist.</li>
-    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; an indoor entry route, and the projection to see before choosing it.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; manual work and the visa categories that reach it.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; the depot end of the delivery chain, in Britain.</li>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; driving work on a sponsored Gulf contract instead.</li>
-    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; hourly work with a state wage floor instead of engaged-time pay.</li>
-    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; hourly passenger driving north of the border, with Job Bank pay by province.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: the British version of this work, and the insurance class new couriers miss.</li>
+    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a>: CDL requirements and the heavier end of driving work.</li>
+    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a>: the other big American entry route, and its state-by-state wage floors.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: where genuine entry-level visa routes exist.</li>
+    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a>: an indoor entry route, and the projection to see before choosing it.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: manual work and the visa categories that reach it.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: the depot end of the delivery chain, in Britain.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: driving work on a sponsored Gulf contract instead.</li>
+    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a>: hourly work with a state wage floor instead of engaged-time pay.</li>
+    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a>: hourly passenger driving north of the border, with Job Bank pay by province.</li>
     <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a></li>
-    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; the heavier licence, the mandatory training and why mileage pay is not an hourly wage.</li>
-    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; the warehouse side of delivery, with a $46,420 BLS median.</li>
-    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a> &mdash; the permit, ELDT training, the 14-day rule and what the first year pays.</li>
-    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a> &mdash; a large employer that does publish its starting pay.</li>
-    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a> &mdash; warehouse work where a union contract publishes the wage scale.</li>
-    <li><a href="/blog/how-to-apply-for-fedex-delivery-jobs-in-the-usa">How to Apply for FedEx Delivery Jobs in the USA</a> &mdash; and how to tell a real FedEx job from a contractor advert.</li>
+    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a>: the heavier licence, the mandatory training and why mileage pay is not an hourly wage.</li>
+    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a>: the warehouse side of delivery, with a $46,420 BLS median.</li>
+    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a>: the permit, ELDT training, the 14-day rule and what the first year pays.</li>
+    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a>: a large employer that does publish its starting pay.</li>
+    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a>: warehouse work where a union contract publishes the wage scale.</li>
+    <li><a href="/blog/how-to-apply-for-fedex-delivery-jobs-in-the-usa">How to Apply for FedEx Delivery Jobs in the USA</a>, and how to tell a real FedEx job from a contractor advert.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax, insurance or immigration advice. Minimum pay rules, mileage rates, tax rates and employment status tests change, and pay figures on any job board or app are a moving average rather than a statistic. Confirm the current position with the IRS, your state and city labor authorities, your insurer and the employer's own advertisement before applying.</p>

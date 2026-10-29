@@ -187,10 +187,10 @@ class JobsAbroadFreeHousingFoodBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/how-much-money-save-working-abroad">How Much Money Can You Save Working Abroad</a> &mdash; budget and savings</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a> &mdash; verify before you pay</li>
-    <li><a href="/blog/which-countries-are-hiring-foreign-workers-2026">Which Countries Are Hiring Foreign Workers in 2026</a> &mdash; where demand is</li>
-    <li><a href="/blog/rights-foreign-workers-abroad">Rights of Foreign Workers Abroad: What You Must Know</a> &mdash; know your rights</li>
+    <li><a href="/blog/how-much-money-save-working-abroad">How Much Money Can You Save Working Abroad</a>: budget and savings</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay</li>
+    <li><a href="/blog/which-countries-are-hiring-foreign-workers-2026">Which Countries Are Hiring Foreign Workers in 2026</a>: where demand is</li>
+    <li><a href="/blog/rights-foreign-workers-abroad">Rights of Foreign Workers Abroad: What You Must Know</a>: know your rights</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>

@@ -212,10 +212,10 @@ HTML;
 <p>"Residential care" describes a setting, not a population, and the population decides the job:</p>
 
 <ul>
-    <li><strong>Children in protective care</strong> &mdash; safeguarding, education and family reunification are central. Expect background checks and a strict reporting culture.</li>
-    <li><strong>Children with disabilities</strong> &mdash; communication and specialist routines matter more than personal care technique.</li>
-    <li><strong>Older residents</strong> &mdash; mobility, continence, medication timing and dementia awareness dominate. Our <a href="/blog/elderly-care-assistant-jobs-in-pakistan">elderly care assistant guide</a> covers the free NAVTTC qualification for this.</li>
-    <li><strong>Adults needing clinical care</strong> &mdash; the line between support and nursing is a legal line, not a matter of confidence. Our <a href="/blog/home-healthcare-assistant-jobs-in-pakistan">home healthcare assistant guide</a> explains where it sits.</li>
+    <li><strong>Children in protective care</strong>: safeguarding, education and family reunification are central. Expect background checks and a strict reporting culture.</li>
+    <li><strong>Children with disabilities</strong>: communication and specialist routines matter more than personal care technique.</li>
+    <li><strong>Older residents</strong>: mobility, continence, medication timing and dementia awareness dominate. Our <a href="/blog/elderly-care-assistant-jobs-in-pakistan">elderly care assistant guide</a> covers the free NAVTTC qualification for this.</li>
+    <li><strong>Adults needing clinical care</strong>: the line between support and nursing is a legal line, not a matter of confidence. Our <a href="/blog/home-healthcare-assistant-jobs-in-pakistan">home healthcare assistant guide</a> explains where it sits.</li>
 </ul>
 
 <p>Do not apply to all four with one CV. An institution reading an application that shows no understanding of its residents will assume you have not read the advert, and it will usually be right.</p>
@@ -281,10 +281,10 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/home-healthcare-assistant-jobs-in-pakistan">Home Healthcare Assistant Jobs in Pakistan</a> &mdash; where the clinical line sits and how to verify a licence.</li>
-    <li><a href="/blog/elderly-care-assistant-jobs-in-pakistan">Elderly Care Assistant Jobs in Pakistan</a> &mdash; the free NAVTTC qualification and dementia work.</li>
-    <li><a href="/blog/personal-care-assistant-jobs-in-pakistan">Personal Care Assistant Jobs in Pakistan</a> &mdash; what a household legally owes you for home-based work.</li>
-    <li><a href="/blog/disability-support-worker-jobs-in-pakistan">Disability Support Worker Jobs in Pakistan</a> &mdash; the real job titles and the statutory employment quota.</li>
+    <li><a href="/blog/home-healthcare-assistant-jobs-in-pakistan">Home Healthcare Assistant Jobs in Pakistan</a>: where the clinical line sits and how to verify a licence.</li>
+    <li><a href="/blog/elderly-care-assistant-jobs-in-pakistan">Elderly Care Assistant Jobs in Pakistan</a>: the free NAVTTC qualification and dementia work.</li>
+    <li><a href="/blog/personal-care-assistant-jobs-in-pakistan">Personal Care Assistant Jobs in Pakistan</a>: what a household legally owes you for home-based work.</li>
+    <li><a href="/blog/disability-support-worker-jobs-in-pakistan">Disability Support Worker Jobs in Pakistan</a>: the real job titles and the statutory employment quota.</li>
 </ul>
 
 <h2>Official sources</h2>

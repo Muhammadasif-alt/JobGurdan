@@ -192,10 +192,10 @@ class SkilledTradesLongIslandHudsonValleyBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/trades-careers-upstate-new-york-buffalo-rochester-syracuse">Trades Careers in Upstate New York</a> &mdash; Buffalo, Rochester, Syracuse</li>
-    <li><a href="/blog/ironworker-apprenticeship-new-york">Ironworker Apprenticeship in New York</a> &mdash; NYC to Upstate</li>
-    <li><a href="/blog/laborers-union-entrance-exam-guide">Laborers Union Entrance Exam Guide</a> &mdash; laborers entry</li>
-    <li><a href="/blog/operating-engineers-apprenticeship-test-preparation-guide">Operating Engineers Apprenticeship Test Preparation Guide</a> &mdash; IUOE entry</li>
+    <li><a href="/blog/trades-careers-upstate-new-york-buffalo-rochester-syracuse">Trades Careers in Upstate New York</a>: Buffalo, Rochester, Syracuse</li>
+    <li><a href="/blog/ironworker-apprenticeship-new-york">Ironworker Apprenticeship in New York</a>: NYC to Upstate</li>
+    <li><a href="/blog/laborers-union-entrance-exam-guide">Laborers Union Entrance Exam Guide</a>: laborers entry</li>
+    <li><a href="/blog/operating-engineers-apprenticeship-test-preparation-guide">Operating Engineers Apprenticeship Test Preparation Guide</a>: IUOE entry</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Recruitment status checked on 17 October 2026 against official notices, which change often. The examples are not an exhaustive list of sponsors, and no vacancy, admission or selection outcome is guaranteed.</p>

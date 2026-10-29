@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "HVAC Technician Jobs in the USA and Canada" — the demand and pay page of
+ * "HVAC Technician Jobs in the USA and Canada": the demand and pay page of
  * the HVAC/R cluster, built on BLS OEWS May 2025, the BLS 2025-2035
  * projections and Job Bank wages for NOC 72402.
  *
@@ -342,7 +342,7 @@ JOBHTML;
 <ol>
     <li><strong>Training.</strong> BLS describes the typical entry route as a postsecondary programme of six months to two years, or an apprenticeship lasting several years.</li>
     <li><strong>EPA Section 608 certification.</strong> Required to maintain, service, repair or dispose of equipment that could release refrigerant. There are four certifications: Type I for small appliances, Type II for high-pressure equipment, Type III for low-pressure equipment, and Universal for all three. Each exam pairs a core section with the type section, and the credential never expires.</li>
-    <li><strong>The apprentice exception is narrow.</strong> An apprentice may work without certification only while closely and continually supervised by a certified technician, and only if registered with the Department of Labor's Office of Apprenticeship or a recognised state council &mdash; for no more than two years from first registration.</li>
+    <li><strong>The apprentice exception is narrow.</strong> An apprentice may work without certification only while closely and continually supervised by a certified technician, and only if registered with the Department of Labor's Office of Apprenticeship or a recognised state council: for no more than two years from first registration.</li>
     <li><strong>State and local licensing.</strong> It varies widely. California, Arizona and Florida license HVAC <em>contractors</em>, so an employed technician works under the contractor's licence. Texas goes further: anyone doing air conditioning and refrigeration work for a licensed contractor must hold a TDLR technician registration or certification. Some states leave licensing to cities and counties.</li>
     <li><strong>Optional credentials.</strong> NATE certification is voluntary but widely recognised by employers.</li>
 </ol>
@@ -427,13 +427,13 @@ JOBHTML;
 <p>The rest of the HVAC/R cluster and related trades:</p>
 
 <ul>
-    <li><a href="/blog/how-to-start-a-career-in-refrigeration-and-air-conditioning">How to Start a Career in Refrigeration and Air Conditioning</a> &mdash; training, EPA 608 and the industrial refrigeration route.</li>
-    <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a> &mdash; the Gulf rules on recruitment costs, summer hours and the Saudi skills exam.</li>
-    <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a> &mdash; building maintenance work that often includes HVAC.</li>
-    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a> &mdash; Canadian trade certification for a neighbouring trade.</li>
-    <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a> &mdash; the same provincial certification system.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; the wider US trades market and its visa routes.</li>
-    <li><a href="/blog/car-mechanic-jobs-in-australia-uk-and-canada">Car Mechanic Jobs in Australia, UK and Canada</a> &mdash; another Red Seal trade, compared across three countries.</li>
+    <li><a href="/blog/how-to-start-a-career-in-refrigeration-and-air-conditioning">How to Start a Career in Refrigeration and Air Conditioning</a>: training, EPA 608 and the industrial refrigeration route.</li>
+    <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a>: the Gulf rules on recruitment costs, summer hours and the Saudi skills exam.</li>
+    <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a>: building maintenance work that often includes HVAC.</li>
+    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a>: Canadian trade certification for a neighbouring trade.</li>
+    <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a>: the same provincial certification system.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: the wider US trades market and its visa routes.</li>
+    <li><a href="/blog/car-mechanic-jobs-in-australia-uk-and-canada">Car Mechanic Jobs in Australia, UK and Canada</a>: another Red Seal trade, compared across three countries.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not career, legal or immigration advice. US pay data is from BLS OEWS May 2025 and projections from the BLS Occupational Outlook Handbook; Canadian wages are from Job Bank. Confirm licensing with your state board or provincial apprenticeship authority.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Microsoft IT Support Jobs in the USA" — an employer guide
+ * "How to Apply for Microsoft IT Support Jobs in the USA": an employer guide
  * whose two decisive facts are both absent from the draft: Microsoft's own
  * postings say these roles are not eligible for visa sponsorship, and the
  * careers platform the draft links was retired.
@@ -171,7 +171,7 @@ class MicrosoftItSupportJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay ranges, work-site rules and eligibility are set and published by Microsoft on each individual posting &mdash; not by JobGader. Microsoft states that frontline US support positions are not eligible for visa sponsorship. Applying to Microsoft is free; any request for payment is a scam.</p>
+<p><strong>Note:</strong> pay ranges, work-site rules and eligibility are set and published by Microsoft on each individual posting, not by JobGader. Microsoft states that frontline US support positions are not eligible for visa sponsorship. Applying to Microsoft is free; any request for payment is a scam.</p>
 JOBHTML;
     }
 
@@ -196,7 +196,7 @@ JOBHTML;
 
 <p>Several go further and require verified US citizenship, using this wording: the position "requires verification of U.S. citizenship due to citizenship-based legal restrictions", and "citizenship will be verified via a valid passport."</p>
 
-<p>Roughly two thirds of the current US support postings are closed to an overseas applicant on one of those two grounds. And the pattern is not random. <strong>Every genuine entry-level frontline role we found carries the no-sponsorship clause</strong> &mdash; the Data Center Technician roles in Phoenix, the Senior Data Center Technician IT Support role in Quincy, Washington, the Critical Environment Support Assistant in Wenatchee. All of them are also listed as fully on-site.</p>
+<p>Roughly two thirds of the current US support postings are closed to an overseas applicant on one of those two grounds. And the pattern is not random. <strong>Every genuine entry-level frontline role we found carries the no-sponsorship clause</strong>: the Data Center Technician roles in Phoenix, the Senior Data Center Technician IT Support role in Quincy, Washington, the Critical Environment Support Assistant in Wenatchee. All of them are also listed as fully on-site.</p>
 
 <p>So the honest summary is this: <strong>there is no remote, sponsored, entry-level Microsoft support job in the United States to apply for from Pakistan.</strong> These jobs are for people who already hold a green card, US citizenship, or another status that carries work authorisation without employer sponsorship.</p>
 
@@ -217,7 +217,7 @@ JOBHTML;
     <li>The old search page at <code>careers.microsoft.com/v2/global/en/search.html</code> returns a 404 page.</li>
 </ul>
 
-<p><strong>The board that actually works is <code>apply.careers.microsoft.com/careers</code>.</strong> That is where every Microsoft-owned page now points. The older <code>careers.microsoft.com</code> domain is still alive and still maintained, but it is now an information hub &mdash; professions, locations, hiring tips &mdash; rather than a place to search vacancies.</p>
+<p><strong>The board that actually works is <code>apply.careers.microsoft.com/careers</code>.</strong> That is where every Microsoft-owned page now points. The older <code>careers.microsoft.com</code> domain is still alive and still maintained, but it is now an information hub, professions, locations, hiring tips, rather than a place to search vacancies.</p>
 
 <p>One caveat Microsoft itself publishes on its hiring pages: a migration notice warning that "it may take a while for all of our job postings to show up on the Microsoft Careers Site." Treat any vacancy count, including the ones below, as a dated snapshot rather than a permanent fact.</p>
 
@@ -230,11 +230,11 @@ JOBHTML;
 <p>Microsoft's own profession taxonomy gives the defensible numbers, and they are far smaller:</p>
 
 <ul>
-    <li><strong>Technical support</strong> &mdash; 57 roles worldwide, 4 in the United States. Two of those four are Principal Data Scientist roles bleeding into the category, so <strong>there are two genuine US Technical Support Engineer vacancies</strong>.</li>
-    <li><strong>Corporate technology support</strong> &mdash; <strong>zero</strong> openings. Worldwide and in the US.</li>
-    <li><strong>Customer success</strong> &mdash; 125 worldwide, 32 in the US.</li>
-    <li><strong>Consulting services</strong> &mdash; 98 worldwide, 23 in the US.</li>
-    <li><strong>Data centre</strong> &mdash; 211 worldwide, 54 in the US. This is where the frontline hands-on work actually is.</li>
+    <li><strong>Technical support</strong>: 57 roles worldwide, 4 in the United States. Two of those four are Principal Data Scientist roles bleeding into the category, so <strong>there are two genuine US Technical Support Engineer vacancies</strong>.</li>
+    <li><strong>Corporate technology support</strong>: <strong>zero</strong> openings. Worldwide and in the US.</li>
+    <li><strong>Customer success</strong>: 125 worldwide, 32 in the US.</li>
+    <li><strong>Consulting services</strong>: 98 worldwide, 23 in the US.</li>
+    <li><strong>Data centre</strong>: 211 worldwide, 54 in the US. This is where the frontline hands-on work actually is.</li>
 </ul>
 
 <p>That third bullet deserves emphasis, because it undoes the premise of most articles on this subject. <strong>Corporate Technology Support is the category every guide names as the closest match to traditional internal IT support, and it currently contains no jobs at all.</strong> The label exists on Microsoft's professions page and the "explore jobs" button beneath it leads to an empty result set. It is a description of a job family, not a place to apply.</p>
@@ -258,9 +258,9 @@ JOBHTML;
 <p>The US Bureau of Labor Statistics publishes the independent figures, and they tell a fuller story than the pay alone:</p>
 
 <ul>
-    <li><strong>Computer user support specialists</strong> &mdash; median annual wage <strong>USD 61,860</strong>, employment 750,600.</li>
-    <li><strong>Computer network support specialists</strong> &mdash; median <strong>USD 76,220</strong>, employment 152,500.</li>
-    <li><strong>All computer support specialists</strong> &mdash; median <strong>USD 62,890</strong>, employment 903,100.</li>
+    <li><strong>Computer user support specialists</strong>: median annual wage <strong>USD 61,860</strong>, employment 750,600.</li>
+    <li><strong>Computer network support specialists</strong>: median <strong>USD 76,220</strong>, employment 152,500.</li>
+    <li><strong>All computer support specialists</strong>: median <strong>USD 62,890</strong>, employment 903,100.</li>
 </ul>
 
 <p>At 40 hours a week, Microsoft's frontline range of USD 23.65 to 37.07 an hour works out at roughly USD 49,000 to 77,000 a year, so the band straddles the national median rather than sitting above it.</p>
@@ -277,10 +277,10 @@ JOBHTML;
 <p>Microsoft's professions directory is worth reading because it tells you which words to search. Its own descriptions, in its own sentence case:</p>
 
 <ul>
-    <li><strong>Corporate technology support</strong> &mdash; "Serve on the Microsoft frontline, leveraging your understanding of end-user technology to help diagnose and troubleshoot issues locally and globally." Currently empty, as above.</li>
-    <li><strong>Technical support</strong> &mdash; "Our technical support professionals help to improve products and onboard customers as they learn to leverage new products, providing technical solutions that align with customer needs."</li>
-    <li><strong>Customer success</strong> &mdash; helping customers achieve digital transformation and drive change management.</li>
-    <li><strong>Consulting services</strong> &mdash; customer-facing delivery work on Microsoft technologies.</li>
+    <li><strong>Corporate technology support</strong>: "Serve on the Microsoft frontline, leveraging your understanding of end-user technology to help diagnose and troubleshoot issues locally and globally." Currently empty, as above.</li>
+    <li><strong>Technical support</strong>: "Our technical support professionals help to improve products and onboard customers as they learn to leverage new products, providing technical solutions that align with customer needs."</li>
+    <li><strong>Customer success</strong>: helping customers achieve digital transformation and drive change management.</li>
+    <li><strong>Consulting services</strong>: customer-facing delivery work on Microsoft technologies.</li>
 </ul>
 
 <p>One correction to a claim that travels widely: "Engineering, development, and services" is <strong>not</strong> three professions. It is one of nine filter group headings, and the professions inside it are software engineering, hardware engineering, security engineering, data centre and quantum computing. There is no Microsoft profession called Development or Services.</p>
@@ -290,9 +290,9 @@ JOBHTML;
 <p>Most guides hand you a list of fifteen search terms. We ran them. Three of the most commonly recommended are dead:</p>
 
 <ul>
-    <li><strong>"Help Desk"</strong> &mdash; 5 US results, none of them help desk roles. The top hits are Commercial Executive, Business Value Lead and Principal Legal Engineer.</li>
-    <li><strong>"Desktop Support"</strong> &mdash; 11 US results, none of them desktop support roles.</li>
-    <li><strong>"Endpoint Support"</strong> &mdash; same problem.</li>
+    <li><strong>"Help Desk"</strong>: 5 US results, none of them help desk roles. The top hits are Commercial Executive, Business Value Lead and Principal Legal Engineer.</li>
+    <li><strong>"Desktop Support"</strong>: 11 US results, none of them desktop support roles.</li>
+    <li><strong>"Endpoint Support"</strong>: same problem.</li>
 </ul>
 
 <p>Microsoft simply does not use those titles. <strong>The terms that return real matches are Technical Support, Support Engineer, Data Center Technician and Customer Success</strong>, and the reliable way to search is the profession filter rather than the keyword box.</p>
@@ -317,7 +317,7 @@ JOBHTML;
 
 <p><strong>Contractor roles.</strong> Microsoft's contractor page is live and genuine, but the US link takes you off Microsoft entirely, to a third-party platform called TalentNet Community. Contractors engaged that way are <strong>not Microsoft employees</strong>; they are placed through supplier staffing firms. Check who the employer of record is before you hand over documents.</p>
 
-<p><strong>The Microsoft Software and Systems Academy.</strong> MSSA is alive and running &mdash; a 17-week programme with cohorts scheduled through 2027 in Cybersecurity Operations, Cloud Application Development, and Server and Cloud Administration. But its eligibility rule is the part guides omit: it is for <strong>service members and veterans of US or UK forces</strong>, within six months of separation or retirement, plus Guard, Reserve and military spouses. No Pakistani applicant qualifies. The same page advertises cleared technology careers, which require an active US security clearance and therefore US citizenship.</p>
+<p><strong>The Microsoft Software and Systems Academy.</strong> MSSA is alive and running: a 17-week programme with cohorts scheduled through 2027 in Cybersecurity Operations, Cloud Application Development, and Server and Cloud Administration. But its eligibility rule is the part guides omit: it is for <strong>service members and veterans of US or UK forces</strong>, within six months of separation or retirement, plus Guard, Reserve and military spouses. No Pakistani applicant qualifies. The same page advertises cleared technology careers, which require an active US security clearance and therefore US citizenship.</p>
 
 <h2>How to Apply, Step by Step</h2>
 
@@ -381,7 +381,7 @@ JOBHTML;
     <li><a href="/blog/how-to-apply-for-telkom-indonesia-it-jobs">How to Apply for Telkom Indonesia IT Jobs</a></li>
     <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a></li>
     <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a></li>
-    <li><a href="/blog/how-to-apply-for-google-data-center-jobs-in-the-usa">How to Apply for Google Data Center Jobs in the USA</a> &mdash; technician work Google prices openly, with no sponsorship on any US posting.</li>
+    <li><a href="/blog/how-to-apply-for-google-data-center-jobs-in-the-usa">How to Apply for Google Data Center Jobs in the USA</a>: technician work Google prices openly, with no sponsorship on any US posting.</li>
 </ul>
 HTML;
     }

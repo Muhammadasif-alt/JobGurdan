@@ -201,10 +201,10 @@ class SheetMetalApprenticeshipClevelandPittsburghMinneapolisBlogSeeder extends S
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/sheet-metal-workers-aptitude-test-study-plan">Sheet Metal Aptitude Test: Sections, Tips, Study Plan</a> &mdash; test preparation</li>
-    <li><a href="/blog/how-to-apply-for-trade-apprenticeship">How to Apply for a Trade Apprenticeship</a> &mdash; application steps</li>
-    <li><a href="/blog/how-apprenticeship-ranking-lists-work">How Apprenticeship Ranking Lists Work</a> &mdash; scores and expiry</li>
-    <li><a href="/blog/can-you-retake-apprenticeship-aptitude-test">Can You Retake the Apprenticeship Aptitude Test?</a> &mdash; retake rules</li>
+    <li><a href="/blog/sheet-metal-workers-aptitude-test-study-plan">Sheet Metal Aptitude Test: Sections, Tips, Study Plan</a>: test preparation</li>
+    <li><a href="/blog/how-to-apply-for-trade-apprenticeship">How to Apply for a Trade Apprenticeship</a>: application steps</li>
+    <li><a href="/blog/how-apprenticeship-ranking-lists-work">How Apprenticeship Ranking Lists Work</a>: scores and expiry</li>
+    <li><a href="/blog/can-you-retake-apprenticeship-aptitude-test">Can You Retake the Apprenticeship Aptitude Test?</a>: retake rules</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Recruitment status checked on 17 October 2026 against official pages, which change often. No vacancy, admission or selection outcome is guaranteed.</p>

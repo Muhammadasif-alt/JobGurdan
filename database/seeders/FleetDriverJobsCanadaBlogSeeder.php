@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Get a Fleet Driver Job in Canada" — provincial licence classes,
+ * "How to Get a Fleet Driver Job in Canada": provincial licence classes,
  * mandatory entry-level training and what Job Bank says the work pays, for
  * drivers choosing between local and long-haul fleets.
  *
@@ -161,14 +161,14 @@ class FleetDriverJobsCanadaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> licensing rules are set by each province and pay by each carrier &mdash; not by JobGader. Check your province's licensing authority and the current posting before applying.</p>
+<p><strong>Note:</strong> licensing rules are set by each province and pay by each carrier, not by JobGader. Check your province's licensing authority and the current posting before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p><strong>To drive for a Canadian fleet you need the right provincial licence class &mdash; Class 1 or Ontario's AZ for tractor-trailers, Class 3 or DZ for straight trucks &mdash; an air brake endorsement, and, in most provinces, mandatory entry-level training before the road test.</strong> Job Bank puts transport truck drivers at a <strong>median of $26.42 an hour</strong>, with Alberta and British Columbia paying the most.</p>
+<p><strong>To drive for a Canadian fleet you need the right provincial licence class, Class 1 or Ontario's AZ for tractor-trailers, Class 3 or DZ for straight trucks, an air brake endorsement, and, in most provinces, mandatory entry-level training before the road test.</strong> Job Bank puts transport truck drivers at a <strong>median of $26.42 an hour</strong>, with Alberta and British Columbia paying the most.</p>
 
 <p>This guide covers the licence classes province by province, the training hours each one requires, what CVOR really is, and what the work pays on official figures.</p>
 
@@ -181,11 +181,11 @@ JOBHTML;
 <h2>Licence Classes: The Naming Changes at the Border of Every Province</h2>
 
 <ul>
-    <li><strong>Ontario</strong> uses letters. <strong>Class A</strong> covers a vehicle towing over 4,600 kg, so tractor-trailers; <strong>Class D</strong> covers a truck over 11,000 kg towing no more than 4,600 kg. The <strong>Z</strong> added to each &mdash; AZ, DZ &mdash; is the air brake endorsement.</li>
+    <li><strong>Ontario</strong> uses letters. <strong>Class A</strong> covers a vehicle towing over 4,600 kg, so tractor-trailers; <strong>Class D</strong> covers a truck over 11,000 kg towing no more than 4,600 kg. The <strong>Z</strong> added to each, AZ, DZ, is the air brake endorsement.</li>
     <li><strong>Most other provinces</strong> use numbers. <strong>Class 1</strong> is the tractor-trailer equivalent of AZ; <strong>Class 3</strong> covers trucks with three or more axles, roughly Ontario's D.</li>
 </ul>
 
-<p>Job adverts print both ("Class 1/AZ") because fleets hire across provinces. If you are moving province, confirm how your licence transfers before you accept &mdash; Ontario, for example, requires its full training course from holders of a commercial licence issued in another country, and from holders of an out-of-province Class 1 held for less than 12 months.</p>
+<p>Job adverts print both ("Class 1/AZ") because fleets hire across provinces. If you are moving province, confirm how your licence transfers before you accept: Ontario, for example, requires its full training course from holders of a commercial licence issued in another country, and from holders of an out-of-province Class 1 held for less than 12 months.</p>
 
 <h2>Mandatory Entry-Level Training, Province by Province</h2>
 
@@ -222,15 +222,15 @@ JOBHTML;
     <figcaption style="font-size:13px;color:#6b7280;margin-top:8px;text-align:center;">Licence classes, training hours and air brake rules all change at provincial borders.</figcaption>
 </figure>
 
-<h2>CVOR Is Not Your Record &mdash; Here Is What Is</h2>
+<h2>CVOR Is Not Your Record: Here Is What Is</h2>
 
-<p>This is the detail most guides get wrong. In Ontario, a <strong>Commercial Vehicle Operator's Registration certificate belongs to the operator</strong> &mdash; the carrier, or an owner-operator running as a business. Anyone operating a commercial vehicle over 4,500 kg registered weight in Ontario must hold one, and a copy travels in the vehicle. As an employee driver you do not "have a CVOR".</p>
+<p>This is the detail most guides get wrong. In Ontario, a <strong>Commercial Vehicle Operator's Registration certificate belongs to the operator</strong>: the carrier, or an owner-operator running as a business. Anyone operating a commercial vehicle over 4,500 kg registered weight in Ontario must hold one, and a copy travels in the vehicle. As an employee driver you do not "have a CVOR".</p>
 
 <p>What employers actually pull about you:</p>
 
 <ul>
-    <li>your <strong>driver's record (abstract)</strong> &mdash; the three-year version is the one commonly used for employment, at <strong>$12</strong> uncertified or $18 certified;</li>
-    <li>a <strong>CVOR driver abstract</strong> &mdash; a five-year record of collisions, safety-related convictions and inspections while you were driving commercially in Ontario, at <strong>$5</strong> uncertified or $10 certified.</li>
+    <li>your <strong>driver's record (abstract)</strong>: the three-year version is the one commonly used for employment, at <strong>$12</strong> uncertified or $18 certified;</li>
+    <li>a <strong>CVOR driver abstract</strong>: a five-year record of collisions, safety-related convictions and inspections while you were driving commercially in Ontario, at <strong>$5</strong> uncertified or $10 certified.</li>
 </ul>
 
 <p>Order both before you apply. Knowing what a recruiter sees is worth more than hoping.</p>
@@ -286,7 +286,7 @@ JOBHTML;
     <li><strong>Long-haul:</strong> multi-day runs, more miles, and cross-border work if the carrier runs into the United States.</li>
 </ul>
 
-<p>For cross-border work, the <strong>FAST</strong> programme run by CBSA and US Customs speeds up clearance for approved low-risk shipments and enrolled drivers. It is an expedited-processing programme, <strong>not a legal requirement</strong> to cross the border &mdash; check what your carrier's lanes actually need.</p>
+<p>For cross-border work, the <strong>FAST</strong> programme run by CBSA and US Customs speeds up clearance for approved low-risk shipments and enrolled drivers. It is an expedited-processing programme, <strong>not a legal requirement</strong> to cross the border: check what your carrier's lanes actually need.</p>
 
 <h2>What Job Bank Says You Need</h2>
 
@@ -301,7 +301,7 @@ JOBHTML;
 
 <h2>Applying From Outside Canada</h2>
 
-<p>Transport truck driver sits in <strong>TEER category 3</strong> of the national occupational classification. One correction worth knowing before you plan a move: the federal <strong>Express Entry transport category does not include truck drivers</strong> &mdash; its listed occupations are aircraft mechanics and inspectors, pilots and flight engineers, avionics technicians, and automotive and truck and bus mechanics. Check the current category-based selection page before acting on any advert that says otherwise.</p>
+<p>Transport truck driver sits in <strong>TEER category 3</strong> of the national occupational classification. One correction worth knowing before you plan a move: the federal <strong>Express Entry transport category does not include truck drivers</strong>: its listed occupations are aircraft mechanics and inspectors, pilots and flight engineers, avionics technicians, and automotive and truck and bus mechanics. Check the current category-based selection page before acting on any advert that says otherwise.</p>
 
 <h2>How to Get Hired</h2>
 
@@ -371,14 +371,14 @@ JOBHTML;
 <p>Comparing driving routes and Canadian work? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; passenger driving, its licence classes and Job Bank pay.</li>
-    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a> &mdash; the American route, its permit rules and pay.</li>
-    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a> &mdash; the European route, where drivers can be sponsored.</li>
-    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a> &mdash; the British licence ladder and what it pays.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; which sectors hire and the routes in.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; the LMIA and the routes to permanent residence.</li>
-    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a> &mdash; award pay, the new gig minimum standards order, ABN and GST rules.</li>
-    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a> &mdash; an airline that publishes its ramp pay, and the clearance that gates it.</li>
+    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a>: passenger driving, its licence classes and Job Bank pay.</li>
+    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a>: the American route, its permit rules and pay.</li>
+    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a>: the European route, where drivers can be sponsored.</li>
+    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a>: the British licence ladder and what it pays.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>, which sectors hire and the routes in.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: the LMIA and the routes to permanent residence.</li>
+    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a>: award pay, the new gig minimum standards order, ABN and GST rules.</li>
+    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a>: an airline that publishes its ramp pay, and the clearance that gates it.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Job Bank data for NOC 73300 and official provincial licensing information from Ontario, Alberta, British Columbia and Saskatchewan, plus CBSA and canada.ca. Rules, fees and wages change. Always check your province's licensing authority and the current posting before applying.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Electrician Jobs Abroad with Visa Sponsorship" — the Canada and Australia
+ * "Electrician Jobs Abroad with Visa Sponsorship": the Canada and Australia
  * route for electricians. The pay comparison and the industrial-versus-house
  * wiring guides own earnings; the existing Electrician Jobs in UK guide owns
  * the UK trade itself. This page owns certification order and visa routes.
@@ -419,14 +419,14 @@ JOBHTML;
 <p>The rest of the electrician cluster, and the routes around it:</p>
 
 <ul>
-    <li><a href="/blog/electrician-salary-in-the-uae-uk-and-usa">Electrician Salary in the UAE, UK and USA</a> &mdash; the BLS figures, the JIB rates and why UAE averages mislead.</li>
-    <li><a href="/blog/industrial-vs-house-wiring-electrician-which-pays-more">Industrial vs House Wiring Electrician: Which Pays More</a> &mdash; what the BLS industry data shows.</li>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; the wiring regulations, Part P and CIS.</li>
-    <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a> &mdash; the same two systems for the plumbing trade.</li>
-    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a> &mdash; another compulsory trade in most provinces, with Job Bank wages.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; how LMIA-based sponsorship works alongside Express Entry.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; employer sponsorship and the lists it runs on.</li>
-    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; another Express Entry trade, and its certification rules.</li>
+    <li><a href="/blog/electrician-salary-in-the-uae-uk-and-usa">Electrician Salary in the UAE, UK and USA</a>: the BLS figures, the JIB rates and why UAE averages mislead.</li>
+    <li><a href="/blog/industrial-vs-house-wiring-electrician-which-pays-more">Industrial vs House Wiring Electrician: Which Pays More</a>: what the BLS industry data shows.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: the wiring regulations, Part P and CIS.</li>
+    <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a>: the same two systems for the plumbing trade.</li>
+    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a>: another compulsory trade in most provinces, with Job Bank wages.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: how LMIA-based sponsorship works alongside Express Entry.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>: employer sponsorship and the lists it runs on.</li>
+    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a>: another Express Entry trade, and its certification rules.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or employment advice. Certification, licensing and immigration rules change; confirm the current position with the provincial apprenticeship authority, the state electrical regulator, canada.ca, tradesrecognitionaustralia.gov.au and immi.homeaffairs.gov.au before applying or relocating.</p>

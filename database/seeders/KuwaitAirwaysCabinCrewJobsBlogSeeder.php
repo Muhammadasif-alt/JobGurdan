@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Kuwait Airways Cabin Crew Jobs" — a guide whose whole
+ * "How to Apply for Kuwait Airways Cabin Crew Jobs": a guide whose whole
  * reason to exist is that the careers portal every other guide says is
  * missing is not missing. It is on a subdomain rather than the main site.
  *
@@ -156,7 +156,7 @@ class KuwaitAirwaysCabinCrewJobsBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> Kuwait Airways publishes no cabin crew pay, and the criteria above come from the airline's own advertised postings, which change &mdash; not by JobGader. Never pay an agent for an interview or a job offer.</p>
+<p><strong>Note:</strong> Kuwait Airways publishes no cabin crew pay, and the criteria above come from the airline's own advertised postings, which change, not by JobGader. Never pay an agent for an interview or a job offer.</p>
 JOBHTML;
     }
 
@@ -233,7 +233,7 @@ JOBHTML;
 
 <p>Kuwait's Public Authority of Manpower publishes national-workforce percentages that private employers must meet, by sector. The published table runs from <strong>banks at 64%</strong> and <strong>telecoms at 60%</strong> down through <strong>petrochemicals at 30%</strong>, <strong>insurance at 18%</strong>, and <strong>manufacturing and agriculture at 3%</strong>.</p>
 
-<p><strong>There is no aviation or airline line in that published table.</strong> That is a meaningful difference from Oman, where a published Omanisation rate directly shapes an airline's hiring. It does not mean Kuwait Airways hires foreigners freely &mdash; it is a national carrier and national employment policy applies to it through other routes &mdash; but it does mean you should not repeat an airline-specific Kuwaitisation percentage, because Kuwait does not publish one.</p>
+<p><strong>There is no aviation or airline line in that published table.</strong> That is a meaningful difference from Oman, where a published Omanisation rate directly shapes an airline's hiring. It does not mean Kuwait Airways hires foreigners freely, it is a national carrier and national employment policy applies to it through other routes, but it does mean you should not repeat an airline-specific Kuwaitisation percentage, because Kuwait does not publish one.</p>
 
 <div style="text-align:center;margin:28px 0;">
     <img src="/public/storage/blogs/how-to-apply-for-kuwait-airways-cabin-crew-jobs-kuwait.jpg" alt="Kuwait Airways aircraft at Kuwait International Airport" style="max-width:100%;height:auto;border-radius:12px;" loading="lazy">
@@ -241,15 +241,15 @@ JOBHTML;
 
 <h2>The Work Permit Is the Employer's Job, Not Yours</h2>
 
-<p>This is the part that separates a real offer from a scam. Under Kuwait's system, <strong>the work permit application is filed by the employer</strong>, and the paperwork the labour authority asks for is employer paperwork &mdash; a wage transfer certificate and the employer's own declaration letter, among other documents. You do not walk in and apply for your own work permit.</p>
+<p>This is the part that separates a real offer from a scam. Under Kuwait's system, <strong>the work permit application is filed by the employer</strong>, and the paperwork the labour authority asks for is employer paperwork: a wage transfer certificate and the employer's own declaration letter, among other documents. You do not walk in and apply for your own work permit.</p>
 
-<p>Once the permit is issued and you enter Kuwait, your residency &mdash; the iqama &mdash; is processed against that employer. So the practical rule is simple: <strong>if there is no employer, there is no permit.</strong> Anyone offering to arrange a Kuwait work permit for you personally, for a fee, is selling something that does not work that way.</p>
+<p>Once the permit is issued and you enter Kuwait, your residency, the iqama, is processed against that employer. So the practical rule is simple: <strong>if there is no employer, there is no permit.</strong> Anyone offering to arrange a Kuwait work permit for you personally, for a fee, is selling something that does not work that way.</p>
 
 <p>Kuwait's own English-language page describing the work permit steps has since been taken offline, so check the current process on the Public Authority of Manpower site rather than trusting a cached copy on a blog.</p>
 
 <h2>Fake Kuwait Airways Job Ads Are a Known Problem</h2>
 
-<p>In April 2025, Kuwaiti media reported that Kuwait Airways had <strong>denied advertisements circulating on social media about job openings</strong>, stressing that applicants should rely only on its official sources &mdash; its website and verified social media accounts &mdash; and saying it had taken legal action over the fake ads.</p>
+<p>In April 2025, Kuwaiti media reported that Kuwait Airways had <strong>denied advertisements circulating on social media about job openings</strong>, stressing that applicants should rely only on its official sources, its website and verified social media accounts, and saying it had taken legal action over the fake ads.</p>
 
 <p>Treat that as the airline's position, reported through the press rather than published as a notice on its own site. The practical defence is the same either way:</p>
 
@@ -328,13 +328,13 @@ JOBHTML;
 <p>Comparing Gulf carriers and routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; the carrier that publishes neither pay nor standing requirements.</li>
-    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; the one Gulf airline that does publish its pay.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; customer-facing Gulf work with lower entry barriers.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; another sponsored Gulf route.</li>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; where to build the hospitality experience airlines ask for.</li>
-    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; why Abu Dhabi ground jobs are advertised by a company called Velora.</li>
-    <li><a href="/blog/how-to-apply-for-singapore-airlines-cabin-crew-jobs">How to Apply for Singapore Airlines Cabin Crew Jobs</a> &mdash; published pay, a five-year contract, and the service bond most guides omit.</li>
+    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a>: the carrier that publishes neither pay nor standing requirements.</li>
+    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a>: the one Gulf airline that does publish its pay.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: customer-facing Gulf work with lower entry barriers.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: another sponsored Gulf route.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>: where to build the hospitality experience airlines ask for.</li>
+    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a>: why Abu Dhabi ground jobs are advertised by a company called Velora.</li>
+    <li><a href="/blog/how-to-apply-for-singapore-airlines-cabin-crew-jobs">How to Apply for Singapore Airlines Cabin Crew Jobs</a>: published pay, a five-year contract, and the service bond most guides omit.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Kuwait Airways' own website and recruitment portal, the wording of its own advertised cabin crew vacancies, the Public Authority of Manpower's published national-workforce percentages, and Kuwaiti press reporting of the airline's statement on fake job advertisements. Kuwait Airways does not publish cabin crew pay or a standing requirements policy, and campaign criteria change. Always follow the criteria in the live posting.</p>

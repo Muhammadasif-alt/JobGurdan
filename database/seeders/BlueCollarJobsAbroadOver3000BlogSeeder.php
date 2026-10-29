@@ -214,10 +214,10 @@ class BlueCollarJobsAbroadOver3000BlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/highest-paying-blue-collar-jobs-abroad-2026">Highest Paying Blue Collar Jobs Abroad (2026)</a> &mdash; ten trades by pay and country.</li>
-    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in the USA</a> &mdash; one trade in detail.</li>
-    <li><a href="/blog/how-to-apply-work-visa-without-agent-2026">How to Apply for a Work Visa Without an Agent (2026)</a> &mdash; the application steps.</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a> &mdash; verify before you pay.</li>
+    <li><a href="/blog/highest-paying-blue-collar-jobs-abroad-2026">Highest Paying Blue Collar Jobs Abroad (2026)</a>: ten trades by pay and country.</li>
+    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in the USA</a>: one trade in detail.</li>
+    <li><a href="/blog/how-to-apply-work-visa-without-agent-2026">How to Apply for a Work Visa Without an Agent (2026)</a>: the application steps.</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not financial or legal advice. Salary benchmarks refer to May 2025 US data and the monthly figures are calculations, not job offers. No current sponsorship opening or salary outside the United States is asserted.</p>

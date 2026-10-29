@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Educational Support Jobs in USA" — a guide to teacher assistant,
+ * "Educational Support Jobs in USA": a guide to teacher assistant,
  * paraprofessional and classroom aide work. The Teacher Jobs in USA guide
  * covers licensed teaching and the Tutor Jobs in USA guide covers tutoring
  * companies, so this one stays on support roles in schools and early learning
@@ -154,7 +154,7 @@ class EducationalSupportJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, hours and hiring decisions are set by each school district, charter network or center &mdash; not by JobGader. Check your state's paraprofessional requirements before applying.</p>
+<p><strong>Note:</strong> pay, hours and hiring decisions are set by each school district, charter network or center, not by JobGader. Check your state's paraprofessional requirements before applying.</p>
 JOBHTML;
     }
 
@@ -369,16 +369,16 @@ JOBHTML;
 <p>Looking at other education jobs? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; the same entry-level teaching question under a different system.</li>
-    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; why "adjunct professor" means something completely different in Britain.</li>
+    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a>: the same entry-level teaching question under a different system.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a>: why "adjunct professor" means something completely different in Britain.</li>
 </ul>
 
 <ul>
-    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; the licensing route from assistant to teacher.</li>
-    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a> &mdash; tutoring companies, pay and requirements.</li>
-    <li><a href="/blog/preschool-teacher-jobs-in-canada">Preschool Teacher Jobs in Canada</a> &mdash; early childhood work in Canada.</li>
-    <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a> &mdash; the same role in Australian schools.</li>
-    <li><a href="/blog/school-administrator-jobs-in-uk">School Administrator Jobs in UK</a> &mdash; school office work in the UK.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a>: the licensing route from assistant to teacher.</li>
+    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a>: tutoring companies, pay and requirements.</li>
+    <li><a href="/blog/preschool-teacher-jobs-in-canada">Preschool Teacher Jobs in Canada</a>: early childhood work in Canada.</li>
+    <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a>: the same role in Australian schools.</li>
+    <li><a href="/blog/school-administrator-jobs-in-uk">School Administrator Jobs in UK</a>: school office work in the UK.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Pay, job postings and paraprofessional requirements change and differ by state, district and employer. Confirm the current requirements with your state education agency and the employer before applying.</p>

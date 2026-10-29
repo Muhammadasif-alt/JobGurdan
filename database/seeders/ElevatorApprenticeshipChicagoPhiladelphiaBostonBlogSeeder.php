@@ -225,10 +225,10 @@ class ElevatorApprenticeshipChicagoPhiladelphiaBostonBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/elevator-apprenticeship-test-neiep-what-to-expect">Elevator Apprenticeship Test (NEIEP): What to Expect</a> &mdash; the EIAT</li>
-    <li><a href="/blog/how-apprenticeship-ranking-lists-work">How Apprenticeship Ranking Lists Work</a> &mdash; scores and expiry</li>
-    <li><a href="/blog/how-to-apply-for-trade-apprenticeship">How to Apply for a Trade Apprenticeship</a> &mdash; the application steps</li>
-    <li><a href="/blog/mechanical-reasoning-questions-explained">Mechanical Reasoning Questions Explained</a> &mdash; mechanical section</li>
+    <li><a href="/blog/elevator-apprenticeship-test-neiep-what-to-expect">Elevator Apprenticeship Test (NEIEP): What to Expect</a>: the EIAT</li>
+    <li><a href="/blog/how-apprenticeship-ranking-lists-work">How Apprenticeship Ranking Lists Work</a>: scores and expiry</li>
+    <li><a href="/blog/how-to-apply-for-trade-apprenticeship">How to Apply for a Trade Apprenticeship</a>: the application steps</li>
+    <li><a href="/blog/mechanical-reasoning-questions-explained">Mechanical Reasoning Questions Explained</a>: mechanical section</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Recruitment status checked on 17 October 2026: Philadelphia is upcoming, and the Chicago and Boston records are filled. Recheck application caps, dates and requirements before submitting; no vacancy or selection outcome is guaranteed.</p>

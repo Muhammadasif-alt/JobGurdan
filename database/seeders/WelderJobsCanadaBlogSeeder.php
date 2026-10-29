@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Welder Jobs in Canada" — structural, pipeline, manufacturing and shipyard
+ * "Welder Jobs in Canada": structural, pipeline, manufacturing and shipyard
  * welding. The farm worker guide covers seasonal agricultural routes into
  * Canada, and this one owns welder wages by province, trade certification,
  * CWB and pressure tickets, and the Express Entry and LMIA rules for trades.
@@ -141,7 +141,7 @@ class WelderJobsCanadaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li><strong>Trade certification where the province requires it</strong> &mdash; compulsory in Alberta and Quebec, voluntary in Ontario, BC, Saskatchewan and Nova Scotia</li>
+    <li><strong>Trade certification where the province requires it</strong>: compulsory in Alberta and Quebec, voluntary in Ontario, BC, Saskatchewan and Nova Scotia</li>
     <li>A CWB welder qualification for work under CSA W47.1, and an ABSA pressure welder certificate for pressure piping in Alberta</li>
     <li>The right to work in Canada, or an employer able to obtain an LMIA for the position</li>
 </ul>
@@ -155,7 +155,7 @@ class WelderJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for a job offer or an LMIA.</strong> The employer pays the $1,000 LMIA fee, and it cannot be recovered from the worker.</p>
 
-<p><strong>Note:</strong> wages, certification rules and immigration eligibility are set by employers, provincial apprenticeship authorities and the Government of Canada &mdash; not by JobGader. Confirm the details with the employer and on canada.ca before applying.</p>
+<p><strong>Note:</strong> wages, certification rules and immigration eligibility are set by employers, provincial apprenticeship authorities and the Government of Canada, not by JobGader. Confirm the details with the employer and on canada.ca before applying.</p>
 JOBHTML;
     }
 
@@ -232,7 +232,7 @@ JOBHTML;
     <li><strong>Ontario:</strong> <strong>Very limited</strong></li>
 </ul>
 
-<p>Alberta still pays best, but more experienced welders are competing for fewer openings there. Shipbuilding is real, too: the National Shipbuilding Strategy's three partner yards are <strong>Irving Shipbuilding in Halifax</strong>, <strong>Seaspan in Vancouver</strong> and <strong>Chantier Davie in L&eacute;vis, Quebec</strong> &mdash; which helps explain Nova Scotia's better rating.</p>
+<p>Alberta still pays best, but more experienced welders are competing for fewer openings there. Shipbuilding is real, too: the National Shipbuilding Strategy's three partner yards are <strong>Irving Shipbuilding in Halifax</strong>, <strong>Seaspan in Vancouver</strong> and <strong>Chantier Davie in L&eacute;vis, Quebec</strong>, which helps explain Nova Scotia's better rating.</p>
 
 <h2>Coming From Abroad: The LMIA Is Harder Than It Looks</h2>
 
@@ -330,18 +330,18 @@ JOBHTML;
 <p>Comparing skilled trades and routes into Canada? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the seasonal agricultural route, and how its LMIA works.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; a Canadian job where bilingual skills set the pay.</li>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; site work in another country with a trade skills route.</li>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; a qualified trade with a real certification barrier.</li>
-    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; a licensed trade, and what the licence takes.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; trades sponsorship across the border.</li>
-    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; another Canadian job, with a Good outlook in most provinces and pay that depends on the city.</li>
-    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a> &mdash; a trade entered by paid apprenticeship rather than certification.</li>
-    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a> &mdash; a Gulf trade where a skills test comes before the work visa.</li>
-    <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a> &mdash; the operators on the same sites, and where crane tickets are compulsory.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; what changed in 2026, which sectors hire, and how the LMIA and scams work.</li>
-    <li><a href="/blog/welder-salary-in-usa">Welder Salary in USA</a> &mdash; BLS pay by percentile and industry south of the border.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: the seasonal agricultural route, and how its LMIA works.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: a Canadian job where bilingual skills set the pay.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: site work in another country with a trade skills route.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: a qualified trade with a real certification barrier.</li>
+    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a>: a licensed trade, and what the licence takes.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: trades sponsorship across the border.</li>
+    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a>: another Canadian job, with a Good outlook in most provinces and pay that depends on the city.</li>
+    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a>: a trade entered by paid apprenticeship rather than certification.</li>
+    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a>: a Gulf trade where a skills test comes before the work visa.</li>
+    <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a>: the operators on the same sites, and where crane tickets are compulsory.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: what changed in 2026, which sectors hire, and how the LMIA and scams work.</li>
+    <li><a href="/blog/welder-salary-in-usa">Welder Salary in USA</a>: BLS pay by percentile and industry south of the border.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, trade certification rules, LMIA thresholds and Express Entry draws change often. Confirm the current position with the employer, the provincial apprenticeship authority, Job Bank and IRCC, or a licensed immigration consultant, before applying.</p>

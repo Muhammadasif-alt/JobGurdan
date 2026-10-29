@@ -259,9 +259,9 @@ JOBHTML,
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/hgv-driver-jobs-uk-visa-sponsorship-2026">HGV Driver Jobs in the UK With Visa Sponsorship (2026)</a> &mdash; why it is generally not available.</li>
-    <li><a href="/blog/hgv-driver-salary-uk-2026">HGV Driver Salary in the UK (2026)</a> &mdash; pay, tax and PKR examples.</li>
-    <li><a href="/blog/warehouse-operative-jobs-uk-visa-sponsorship-2026">Warehouse Operative Jobs in the UK With Visa Sponsorship (2026)</a> &mdash; the same rules for warehouse work.</li>
+    <li><a href="/blog/hgv-driver-jobs-uk-visa-sponsorship-2026">HGV Driver Jobs in the UK With Visa Sponsorship (2026)</a>: why it is generally not available.</li>
+    <li><a href="/blog/hgv-driver-salary-uk-2026">HGV Driver Salary in the UK (2026)</a>: pay, tax and PKR examples.</li>
+    <li><a href="/blog/warehouse-operative-jobs-uk-visa-sponsorship-2026">Warehouse Operative Jobs in the UK With Visa Sponsorship (2026)</a>: the same rules for warehouse work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Rules were checked against GOV.UK on 9 October 2026 and change often, so confirm them on GOV.UK before you act or pay anyone.</p>

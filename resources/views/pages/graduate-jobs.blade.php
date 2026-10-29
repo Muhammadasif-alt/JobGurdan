@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Graduate Jobs — Schemes, Salaries and Timing | JobGader')
+@section('title', 'Graduate Jobs: Schemes, Salaries and Timing | JobGader')
 @section('meta_description', 'Graduate jobs and schemes across '.$coverage->shortList().': typical starting salaries, when applications open, and how the selection process works.')
-@section('og_title', 'Graduate Jobs — Schemes, Salaries and Timing | JobGader')
+@section('og_title', 'Graduate Jobs: Schemes, Salaries and Timing | JobGader')
 @section('og_description', 'Graduate jobs and schemes across '.$coverage->shortList().': typical starting salaries, when applications open, and how the selection process works.')
 @section('canonical', url()->current())
 
@@ -16,7 +16,7 @@
             [
                 'title' => 'The Timing Is the Whole Game',
                 'paragraphs' => [
-                    'Major graduate schemes typically open applications in the autumn for roles starting the following summer, and many operate rolling selection — meaning places go as strong candidates apply rather than after a deadline. Applying in month one and month five of the same window are not equivalent.',
+                    'Major graduate schemes typically open applications in the autumn for roles starting the following summer, and many operate rolling selection: meaning places go as strong candidates apply rather than after a deadline. Applying in month one and month five of the same window are not equivalent.',
                     'Smaller employers hire much closer to the start date and advertise graduate roles year-round. If you have missed the scheme cycle, that is where to look rather than waiting a full year for the next round.',
                 ],
             ],
@@ -30,14 +30,14 @@
             [
                 'title' => 'What Each Selection Stage Tests',
                 'paragraphs' => [
-                    'The online application and situational judgement test screen for basic fit and are usually automated. Numerical and verbal reasoning tests follow, and these are practisable — candidates who have done twenty practice tests score visibly better than those who have done none, regardless of ability.',
+                    'The online application and situational judgement test screen for basic fit and are usually automated. Numerical and verbal reasoning tests follow, and these are practisable: candidates who have done twenty practice tests score visibly better than those who have done none, regardless of ability.',
                     'The video interview stage tests structure more than content: answer in a clear beginning, middle and end. The assessment centre is testing how you behave in a group, and the common failure is either dominating the discussion or disappearing from it.',
                 ],
             ],
             [
                 'title' => 'When Your Degree Is Not in the Field',
                 'paragraphs' => [
-                    'Most graduate schemes outside engineering, medicine and law accept any discipline, and say so. What they screen for instead is evidence of commercial awareness — some understanding of what the employer does, who its competitors are, and what pressure its industry is under.',
+                    'Most graduate schemes outside engineering, medicine and law accept any discipline, and say so. What they screen for instead is evidence of commercial awareness: some understanding of what the employer does, who its competitors are, and what pressure its industry is under.',
                     'An internship, a placement year or a part-time job during study carries more weight than the class of degree at many employers. If you have one, build the application around it.',
                 ],
             ],

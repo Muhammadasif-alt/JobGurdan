@@ -204,10 +204,10 @@ HTML;
 
 <h2>Related career guides</h2>
 <ul>
-<li><a href="/blog/medical-records-clerk-jobs-in-usa">Medical Records Clerk Jobs in USA</a> &mdash; the same clinic's back office, where a $199 exam lifts the median to $51,140.</li>
-<li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the clinical role that front-desk adverts are sometimes quietly describing.</li>
-<li><a href="/blog/entry-level-healthcare-jobs">Entry Level Healthcare Jobs</a> &mdash; how reception compares with the other no-experience ways in.</li>
-<li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; the same office skills outside healthcare.</li>
+<li><a href="/blog/medical-records-clerk-jobs-in-usa">Medical Records Clerk Jobs in USA</a>: the same clinic's back office, where a $199 exam lifts the median to $51,140.</li>
+<li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a>: the clinical role that front-desk adverts are sometimes quietly describing.</li>
+<li><a href="/blog/entry-level-healthcare-jobs">Entry Level Healthcare Jobs</a>: how reception compares with the other no-experience ways in.</li>
+<li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a>: the same office skills outside healthcare.</li>
 </ul>
 <h2>Official sources and verification</h2>
 <p>Checked on 28 September 2026: <a href="https://www.bls.gov/ooh/office-and-administrative-support/receptionists.htm">BLS: Receptionists</a> for national wages, typical education and the 2025-35 projection; the May 2025 OEWS national industry estimates for the pay-by-setting table; and <a href="https://www.kaiserpermanentejobs.org/">Kaiser Permanente Careers</a> for the September 2026 employer observation. Application and resume suggestions are editorial guidance. Employer vacancies close without notice.</p>

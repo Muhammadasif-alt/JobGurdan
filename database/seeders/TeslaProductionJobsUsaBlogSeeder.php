@@ -161,7 +161,7 @@ class TeslaProductionJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> the hourly range, shift pattern and benefits on any given role are set by Tesla and printed on its own posting &mdash; not by JobGader. Apply directly on Tesla Careers and never pay anyone for a Tesla job or an interview slot.</p>
+<p><strong>Note:</strong> the hourly range, shift pattern and benefits on any given role are set by Tesla and printed on its own posting, not by JobGader. Apply directly on Tesla Careers and never pay anyone for a Tesla job or an interview slot.</p>
 JOBHTML;
     }
 
@@ -170,7 +170,7 @@ JOBHTML;
         return <<<'HTML'
 <p><strong>Apply on Tesla Careers, filter by Manufacturing and the site you can reach, and submit the online application.</strong> No degree and no factory background is required, and Tesla prints the hourly range on the posting itself.</p>
 
-<p>Two things are worth knowing before you spend an evening on this. <strong>Tesla publishes its own pay range</strong>, so you never need a job board's estimate. And the posting carries a physical bar that most guides skip entirely &mdash; it is the part that decides whether this job suits you.</p>
+<p>Two things are worth knowing before you spend an evening on this. <strong>Tesla publishes its own pay range</strong>, so you never need a job board's estimate. And the posting carries a physical bar that most guides skip entirely: it is the part that decides whether this job suits you.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://www.tesla.com/careers/search/" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#cc0000;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -289,7 +289,7 @@ JOBHTML;
 
 <ol>
     <li><strong>Open Tesla Careers</strong> and search the Manufacturing job family rather than a job title, because Tesla names lines differently across sites.</li>
-    <li><strong>Filter by the site you can actually commute to</strong> &mdash; Austin, Fremont, Sparks, Lathrop or Kyle. These are on-site roles with no remote option.</li>
+    <li><strong>Filter by the site you can actually commute to</strong>: Austin, Fremont, Sparks, Lathrop or Kyle. These are on-site roles with no remote option.</li>
     <li><strong>Read the Expected Compensation block on that specific posting</strong> before anything else. It tells you the real range for that site.</li>
     <li><strong>Check the physical requirements section</strong> on the same posting, and be honest with yourself about the 12-hour standing day.</li>
     <li><strong>Apply through Tesla's own system.</strong> Applying through a reposting site adds a middle step and can lose your application.</li>
@@ -356,15 +356,15 @@ JOBHTML;
 <p>Comparing entry-level industrial work across the US? These cover the alternatives:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a> &mdash; a union contract that publishes the wage scale in writing.</li>
-    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a> &mdash; the closest comparison on pay and shift patterns.</li>
-    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; the certificate that lifts you off the line and out of the lifting.</li>
-    <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a> &mdash; the usual internal step up from a production line.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; what the work authorisation rules actually allow.</li>
-    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a> &mdash; the retail alternative with predictable hours.</li>
-    <li><a href="/blog/how-to-apply-for-toyota-factory-jobs-in-japan">How to Apply for Toyota Factory Jobs in Japan</a> &mdash; the same question in Japan, where the residence status decides it.</li>
-    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; a car plant that publishes no pay at all, and why.</li>
-    <li><a href="/blog/how-to-apply-for-google-data-center-jobs-in-the-usa">How to Apply for Google Data Center Jobs in the USA</a> &mdash; technician work Google prices openly, with no sponsorship on any US posting.</li>
+    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a>: a union contract that publishes the wage scale in writing.</li>
+    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a>: the closest comparison on pay and shift patterns.</li>
+    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a>: the certificate that lifts you off the line and out of the lifting.</li>
+    <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a>: the usual internal step up from a production line.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: what the work authorisation rules actually allow.</li>
+    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a>: the retail alternative with predictable hours.</li>
+    <li><a href="/blog/how-to-apply-for-toyota-factory-jobs-in-japan">How to Apply for Toyota Factory Jobs in Japan</a>: the same question in Japan, where the residence status decides it.</li>
+    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a>: a car plant that publishes no pay at all, and why.</li>
+    <li><a href="/blog/how-to-apply-for-google-data-center-jobs-in-the-usa">How to Apply for Google Data Center Jobs in the USA</a>: technician work Google prices openly, with no sponsorship on any US posting.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Tesla Careers postings, Tesla's Fremont factory and Gigafactory Nevada pages, Tesla SEC filings and reporting on Cybercab production. Pay ranges, benefits and shift patterns are set by Tesla and differ by site and posting. Always read the live posting before you apply.</p>

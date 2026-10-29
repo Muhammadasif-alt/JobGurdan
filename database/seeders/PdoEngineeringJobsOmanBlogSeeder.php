@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for PDO Engineering Jobs in Oman" — a guide that exists mainly
+ * "How to Apply for PDO Engineering Jobs in Oman": a guide that exists mainly
  * to stop people walking into a door that was bricked up in May 2026. Every
  * other PDO article still points at PetroJobs, which is now a redirect stub.
  *
@@ -158,7 +158,7 @@ class PdoEngineeringJobsOmanBlogSeeder extends Seeder
 <h3>Visas and fees</h3>
 <p>The Royal Oman Police states a work visa is granted at the request and on the responsibility of an employer, and that the occupation on the visa must match the labour permit. Engineers need an additional letter from the labour ministry. Article 31 of Oman's Labour Law prohibits charging any sums from a recruited worker in return for employing him.</p>
 
-<p>Pay, eligibility, nationality rules and visa requirements are set by the operators, the Oman Ministry of Labour and Oman labour law &mdash; not by JobGader. Confirm the requirements on the live posting before you act on anything here.</p>
+<p>Pay, eligibility, nationality rules and visa requirements are set by the operators, the Oman Ministry of Labour and Oman labour law, not by JobGader. Confirm the requirements on the live posting before you act on anything here.</p>
 JOBHTML;
     }
 
@@ -249,9 +249,9 @@ JOBHTML;
 
 <p>You will find a lot written about it. We could verify almost none of it, and we would rather tell you that than repeat it.</p>
 
-<p>The programme is real &mdash; PDO has publicly celebrated Shababuna graduations. But PDO's press-release archive has been restructured and those pages now return 404, and <strong>the word "Shababuna" does not appear once in PDO's own 2025 Sustainability Report</strong>, which refers only generally to "the intake of graduates, trainees, and scholars".</p>
+<p>The programme is real: PDO has publicly celebrated Shababuna graduations. But PDO's press-release archive has been restructured and those pages now return 404, and <strong>the word "Shababuna" does not appear once in PDO's own 2025 Sustainability Report</strong>, which refers only generally to "the intake of graduates, trainees, and scholars".</p>
 
-<p>The specifics circulating online &mdash; a minimum CGPA of 2.50 without rounding, a four-year contract, a cut-off of under three years' experience, and Omani nationality only &mdash; all trace back to a PetroJobs advert that no longer exists, or to aggregator sites. <strong>We cannot quote any of them from a live official page, so we are not going to state them as current requirements.</strong></p>
+<p>The specifics circulating online, a minimum CGPA of 2.50 without rounding, a four-year contract, a cut-off of under three years' experience, and Omani nationality only, all trace back to a PetroJobs advert that no longer exists, or to aggregator sites. <strong>We cannot quote any of them from a live official page, so we are not going to state them as current requirements.</strong></p>
 
 <p>One point does stand regardless: every account of Shababuna agrees it is for Omani nationals. If you are not Omani, this is not your route, and no amount of detail about its CGPA rule would help you.</p>
 
@@ -279,7 +279,7 @@ JOBHTML;
 <p>Three details from the ROP requirements that are worth knowing before you spend money on anything:</p>
 
 <ul>
-    <li><strong>Engineers need an extra letter.</strong> ROP requires a "Letter from the Ministry of Manpower for certain occupations, like engineers." That is nationality-neutral &mdash; it applies to every engineer.</li>
+    <li><strong>Engineers need an extra letter.</strong> ROP requires a "Letter from the Ministry of Manpower for certain occupations, like engineers." That is nationality-neutral: it applies to every engineer.</li>
     <li><strong>Pakistani, Indian, Bangladeshi, Sri Lankan and Nepali applicants need a medical certificate attested by the Ministry of Health</strong>, done before arrival through an approved centre. ROP names those countries specifically, along with the Philippines, Indonesia, Egypt, Sudan, Ethiopia and Syria.</li>
     <li>The applicant must be at least 21. ROP publishes no maximum age, whatever you may have read.</li>
 </ul>
@@ -288,7 +288,7 @@ JOBHTML;
 
 <p>One more, in your favour: Article 14 requires the employer to return a non-Omani worker to his country within 60 days of the contract ending, and to give a clearance letter on request.</p>
 
-<p>Be equally careful with the anti-fraud advice you find elsewhere. PDO has warned the public about a fake recruitment agency before, but the statement it issued told people that recruitment runs solely through petrojobs.om &mdash; the domain that is now a redirect stub. Advice can go stale and still sound authoritative. In 2026 the honest version is: PDO recruitment appears on Kwader, and no legitimate employer charges you a fee.</p>
+<p>Be equally careful with the anti-fraud advice you find elsewhere. PDO has warned the public about a fake recruitment agency before, but the statement it issued told people that recruitment runs solely through petrojobs.om: the domain that is now a redirect stub. Advice can go stale and still sound authoritative. In 2026 the honest version is: PDO recruitment appears on Kwader, and no legitimate employer charges you a fee.</p>
 
 <h2>What to Actually Do</h2>
 
@@ -357,14 +357,14 @@ JOBHTML;
 <p>Widening the search across the Gulf is usually the better move. These cover it:</p>
 
 <ul>
-    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a> &mdash; Omanisation, the work permit and the labour law figures that apply to any job in the Sultanate.</li>
-    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a> &mdash; the region's largest engineering employer, with a live board.</li>
-    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a> &mdash; another famous name whose job board is currently empty.</li>
-    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; the other big Omani employer people search for.</li>
-    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; where the employer everyone searches for turns out to be the wrong one.</li>
-    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a> &mdash; Gulf work with a much shorter queue.</li>
-    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a> &mdash; an employer that publishes real salary bands on its adverts.</li>
-    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a> &mdash; which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
+    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a>: Omanisation, the work permit and the labour law figures that apply to any job in the Sultanate.</li>
+    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a>: the region's largest engineering employer, with a live board.</li>
+    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a>: another famous name whose job board is currently empty.</li>
+    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a>: the other big Omani employer people search for.</li>
+    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a>: where the employer everyone searches for turns out to be the wrong one.</li>
+    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a>: Gulf work with a much shorter queue.</li>
+    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a>: an employer that publishes real salary bands on its adverts.</li>
+    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a>, which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using the live state of petrojobs.om and kwader.mem.gov.om, PDO's own Sustainability Report 2025, pdo.co.om, the Royal Oman Police work-visa requirements and the text of Oman's Labour Law (Royal Decree 53/2023) published by the Ministry of Labour, checked on 22 September 2026. Vacancies, nationality rules and immigration requirements change. Always check the live portal and the official government source before acting, and never pay anyone to secure a job.</p>

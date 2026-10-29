@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Taxi Driver Jobs in Australia" — an occupation where the licensing advice in
+ * "Taxi Driver Jobs in Australia": an occupation where the licensing advice in
  * circulation describes a permit that was abolished nine years ago, and where
  * the published salary figures exclude most of the people doing the job.
  *
@@ -153,7 +153,7 @@ class TaxiDriverJobsAustraliaBlogSeeder extends Seeder
 <h3>Requirements</h3>
 <ul>
     <li>A full or unrestricted driver licence, held for between six months and three years depending on the state</li>
-    <li>Your state's authorisation &mdash; a Driver ID from an authorised service provider in NSW, driver accreditation in Victoria and South Australia, a driver authorisation in Queensland, or a PTD authorisation in Western Australia</li>
+    <li>Your state's authorisation: a Driver ID from an authorised service provider in NSW, driver accreditation in Victoria and South Australia, a driver authorisation in Queensland, or a PTD authorisation in Western Australia</li>
     <li>A medical assessment against the commercial driver standards, and a criminal history check</li>
     <li>Local street knowledge and the ability to communicate with passengers about the hiring</li>
     <li>Separate training or an endorsement if you intend to drive a wheelchair accessible taxi</li>
@@ -162,7 +162,7 @@ class TaxiDriverJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Establish whether you are being offered employment or a bailment.</strong> Under a bailment agreement you are usually not an employee, which changes your pay, your leave, your superannuation and the tribunal you could go to if something goes wrong. Ask for the agreement in writing before you drive.</p>
 
-<p><strong>Note:</strong> accreditation rules, fees, pay arrangements and eligibility are set by each state regulator and operator &mdash; not by JobGader. Confirm the details with your state's transport authority and the operator's own advertisement before applying.</p>
+<p><strong>Note:</strong> accreditation rules, fees, pay arrangements and eligibility are set by each state regulator and operator, not by JobGader. Confirm the details with your state's transport authority and the operator's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -191,7 +191,7 @@ JOBHTML;
     <li><strong>No disqualifying offences</strong>, with criminal history checked before you start and on an ongoing basis afterwards</li>
 </ul>
 
-<p>Two extra conditions apply narrowly rather than statewide. A <strong>Sydney metropolitan taxi driver</strong> must also be able to communicate effectively in English with passengers about a hiring. And any driver of a <strong>wheelchair accessible</strong> taxi, hire or rideshare vehicle anywhere in NSW must demonstrate competence in safe loading, restraint and unloading &mdash; and must remain competent, which is why one-off training is not treated as sufficient.</p>
+<p>Two extra conditions apply narrowly rather than statewide. A <strong>Sydney metropolitan taxi driver</strong> must also be able to communicate effectively in English with passengers about a hiring. And any driver of a <strong>wheelchair accessible</strong> taxi, hire or rideshare vehicle anywhere in NSW must demonstrate competence in safe loading, restraint and unloading, and must remain competent, which is why one-off training is not treated as sufficient.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/taxi-driver-jobs-in-australia-driver.jpg" alt="A taxi driver standing beside a yellow cab in an Australian city" loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
@@ -202,11 +202,11 @@ JOBHTML;
 <p>There is no national taxi driver licence. Each state runs its own scheme under its own name, and the requirement that differs most is how long you must have held a driver licence.</p>
 
 <ul>
-    <li><strong>New South Wales</strong> &mdash; no government authority. A <strong>Driver ID</strong> issued by an authorised service provider. Unrestricted licence held 12 months in the preceding four years</li>
-    <li><strong>Victoria</strong> &mdash; <strong>commercial passenger vehicle driver accreditation</strong>, now administered by <strong>Safe Transport Victoria</strong> after Commercial Passenger Vehicles Victoria was folded into it. A full licence held <strong>at least six months</strong>, probationary excluded. The health check is a <strong>self-assessment</strong> against the Austroads fitness-to-drive guidelines. The accreditation does not expire, but an annual fee is invoiced on its anniversary</li>
-    <li><strong>Queensland</strong> &mdash; <strong>driver authorisation</strong> from the Department of Transport and Main Roads. You must have held an open, restricted, provisional or probationary licence for <strong>at least three years in total, including at least one continuous year</strong>. Drivers aged <strong>75 and over need an annual medical certificate</strong></li>
-    <li><strong>Western Australia</strong> &mdash; a <strong>passenger transport driver (PTD) authorisation</strong>, renewed annually. You must be <strong>at least 20 years old</strong> and have held a licence for <strong>three years</strong>. A medical and a National Police Certificate are required at application and <strong>every five years</strong> after. From 1 July 2026 the fees are <strong>&#36;98.00 to apply and &#36;99.00 a year</strong> for the authorisation</li>
-    <li><strong>South Australia</strong> &mdash; <strong>driver accreditation</strong> from the Department for Infrastructure and Transport. Metropolitan taxi work additionally requires a <strong>certificate of fitness for commercial vehicle drivers dated within the last three months</strong> and completion of an approved <strong>taxi driver training course</strong>. There is <strong>no cost to apply</strong> for the accreditation itself, and it runs for three years or until your working visa, licence or child-related screening expires, whichever comes first</li>
+    <li><strong>New South Wales</strong>: no government authority. A <strong>Driver ID</strong> issued by an authorised service provider. Unrestricted licence held 12 months in the preceding four years</li>
+    <li><strong>Victoria</strong>: <strong>commercial passenger vehicle driver accreditation</strong>, now administered by <strong>Safe Transport Victoria</strong> after Commercial Passenger Vehicles Victoria was folded into it. A full licence held <strong>at least six months</strong>, probationary excluded. The health check is a <strong>self-assessment</strong> against the Austroads fitness-to-drive guidelines. The accreditation does not expire, but an annual fee is invoiced on its anniversary</li>
+    <li><strong>Queensland</strong>: <strong>driver authorisation</strong> from the Department of Transport and Main Roads. You must have held an open, restricted, provisional or probationary licence for <strong>at least three years in total, including at least one continuous year</strong>. Drivers aged <strong>75 and over need an annual medical certificate</strong></li>
+    <li><strong>Western Australia</strong>: a <strong>passenger transport driver (PTD) authorisation</strong>, renewed annually. You must be <strong>at least 20 years old</strong> and have held a licence for <strong>three years</strong>. A medical and a National Police Certificate are required at application and <strong>every five years</strong> after. From 1 July 2026 the fees are <strong>&#36;98.00 to apply and &#36;99.00 a year</strong> for the authorisation</li>
+    <li><strong>South Australia</strong>: <strong>driver accreditation</strong> from the Department for Infrastructure and Transport. Metropolitan taxi work additionally requires a <strong>certificate of fitness for commercial vehicle drivers dated within the last three months</strong> and completion of an approved <strong>taxi driver training course</strong>. There is <strong>no cost to apply</strong> for the accreditation itself, and it runs for three years or until your working visa, licence or child-related screening expires, whichever comes first</li>
 </ul>
 
 <p>The older "F extension" that appears in Western Australian guides belongs to the pre-2019 system and no longer appears in the state's current requirements.</p>
@@ -231,7 +231,7 @@ JOBHTML;
 
 <h2>Bailment Is Not Employment, and That Changes Everything</h2>
 
-<p>The distinction has been tested and settled. In <em>Voros v Alan Dick</em> [2013] FWCFB 9339 a Full Bench of the Fair Work Commission held that a bailee taxi driver was not an employee &mdash; observing that it was the licence holder being paid by the driver, not the other way round &mdash; and dismissed the unfair dismissal application for want of jurisdiction.</p>
+<p>The distinction has been tested and settled. In <em>Voros v Alan Dick</em> [2013] FWCFB 9339 a Full Bench of the Fair Work Commission held that a bailee taxi driver was not an employee, observing that it was the licence holder being paid by the driver, not the other way round, and dismissed the unfair dismissal application for want of jurisdiction.</p>
 
 <p>The consequences are concrete:</p>
 
@@ -249,11 +249,11 @@ JOBHTML;
 
 <h2>The Outlook Is Declining, Not Stable</h2>
 
-<p>Jobs and Skills Australia does not publish projections for taxi driving on its own; they are produced for the parent group, <strong>Automobile Drivers</strong>, which covers taxi and rideshare driving together. That group has <strong>around 50,800 people employed and a projected annual change of about &minus;1,400</strong> &mdash; a shrinking occupation, measured over the May 2024 to May 2034 projection period, against <strong>national employment growth of 13.7 per cent</strong> over the same decade. Taxi driving is also flagged as <strong>no shortage</strong> in the national shortage analysis.</p>
+<p>Jobs and Skills Australia does not publish projections for taxi driving on its own; they are produced for the parent group, <strong>Automobile Drivers</strong>, which covers taxi and rideshare driving together. That group has <strong>around 50,800 people employed and a projected annual change of about &minus;1,400</strong>: a shrinking occupation, measured over the May 2024 to May 2034 projection period, against <strong>national employment growth of 13.7 per cent</strong> over the same decade. Taxi driving is also flagged as <strong>no shortage</strong> in the national shortage analysis.</p>
 
 <p>The passenger data explains why. IPART's survey of point to point transport use in New South Wales found <strong>48 per cent of people had used rideshare in the past six months against 39 per cent for taxis</strong>, with taxi use in Sydney now below its 2019 level and median fares for both falling since the previous survey. The total market has grown; the taxi share of it has not.</p>
 
-<p>Two structural changes sit behind that. New South Wales <strong>removed the restrictions on the number of taxi licences</strong> under its 2022 framework, and paid out a licence assistance package of <strong>&#36;905 million</strong> &mdash; up to <strong>&#36;150,000 per licence in metropolitan Sydney</strong>, capped at six per owner, and between <strong>&#36;40,000 and &#36;195,000</strong> regionally. Those applications closed on 31 May 2023. Victoria ran a comparable scheme after metropolitan licence values fell from roughly <strong>&#36;500,000 in 2009</strong> to around <strong>&#36;150,000</strong> by 2016.</p>
+<p>Two structural changes sit behind that. New South Wales <strong>removed the restrictions on the number of taxi licences</strong> under its 2022 framework, and paid out a licence assistance package of <strong>&#36;905 million</strong>: up to <strong>&#36;150,000 per licence in metropolitan Sydney</strong>, capped at six per owner, and between <strong>&#36;40,000 and &#36;195,000</strong> regionally. Those applications closed on 31 May 2023. Victoria ran a comparable scheme after metropolitan licence values fell from roughly <strong>&#36;500,000 in 2009</strong> to around <strong>&#36;150,000</strong> by 2016.</p>
 
 <p>The practical reading for a driver: this is a job you can start quickly and one where the licence itself is no longer an asset worth buying.</p>
 
@@ -273,7 +273,7 @@ JOBHTML;
 
 <p>If you are checking official data yourself, use the right code. <strong>ANZSCO 7313 is Train and Tram Drivers</strong>, not taxi drivers, and it is quoted wrongly in a great deal of careers material. Taxi Driver is <strong>ANZSCO 731112</strong>, inside unit group <strong>7311 Automobile Drivers</strong>.</p>
 
-<p>The classification is also being replaced. Under <strong>OSCA 2024</strong>, Taxi Driver is <strong>711134</strong> and <strong>Rideshare Driver is 711133</strong> &mdash; the first time the two have been counted as separate occupations, which should finally make it possible to measure them apart.</p>
+<p>The classification is also being replaced. Under <strong>OSCA 2024</strong>, Taxi Driver is <strong>711134</strong> and <strong>Rideshare Driver is 711133</strong>: the first time the two have been counted as separate occupations, which should finally make it possible to measure them apart.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/transport-logistics?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -310,12 +310,12 @@ JOBHTML;
 <h2>People Also Search For</h2>
 
 <ul>
-    <li><strong>Taxi driver requirements NSW</strong> &mdash; an unrestricted licence held 12 months in four years, commercial medical standards, and on-boarding by an authorised service provider</li>
-    <li><strong>How to get a driver authorisation in Queensland</strong> &mdash; three years of licence history including one continuous year, plus a criminal history check through Transport and Main Roads</li>
-    <li><strong>PTD authorisation WA cost</strong> &mdash; &#36;98.00 to apply and &#36;99.00 a year from 1 July 2026</li>
-    <li><strong>Taxi bailment agreement Australia</strong> &mdash; a commercial contract, not employment; check your fare share and vehicle costs before signing</li>
-    <li><strong>Is taxi driver on the skilled occupation list Australia</strong> &mdash; no, it does not appear on the Core Skills Occupation List</li>
-    <li><strong>Taxi vs rideshare driver Australia</strong> &mdash; OSCA 2024 finally counts them separately, as 711134 and 711133</li>
+    <li><strong>Taxi driver requirements NSW</strong>: an unrestricted licence held 12 months in four years, commercial medical standards, and on-boarding by an authorised service provider</li>
+    <li><strong>How to get a driver authorisation in Queensland</strong>: three years of licence history including one continuous year, plus a criminal history check through Transport and Main Roads</li>
+    <li><strong>PTD authorisation WA cost</strong>: &#36;98.00 to apply and &#36;99.00 a year from 1 July 2026</li>
+    <li><strong>Taxi bailment agreement Australia</strong>: a commercial contract, not employment; check your fare share and vehicle costs before signing</li>
+    <li><strong>Is taxi driver on the skilled occupation list Australia</strong>: no, it does not appear on the Core Skills Occupation List</li>
+    <li><strong>Taxi vs rideshare driver Australia</strong>: OSCA 2024 finally counts them separately, as 711134 and 711133</li>
 </ul>
 
 <h2>More Job Guides</h2>
@@ -329,8 +329,8 @@ JOBHTML;
     <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a></li>
     <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a></li>
     <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a></li>
-    <li><a href="/blog/taxi-and-uber-driver-requirements-by-country">Taxi and Uber Driver Requirements by Country</a> &mdash; Dubai, the UK, the USA, Canada and NSW side by side.</li>
-    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a> &mdash; award pay, the new gig minimum standards order, ABN and GST rules.</li>
+    <li><a href="/blog/taxi-and-uber-driver-requirements-by-country">Taxi and Uber Driver Requirements by Country</a>: Dubai, the UK, the USA, Canada and NSW side by side.</li>
+    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a>: award pay, the new gig minimum standards order, ABN and GST rules.</li>
 </ul>
 HTML;
     }

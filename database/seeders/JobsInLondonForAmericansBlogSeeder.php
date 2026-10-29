@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Jobs in London England for American Applicants" — the route map for a US
+ * "Jobs in London England for American Applicants": the route map for a US
  * citizen specifically. The UK hub guide owns the general Skilled Worker
  * mechanics; this one owns what is different for an American: the English
  * test exemption, the Youth Mobility Scheme they cannot use, the High
@@ -33,7 +33,7 @@ use Illuminate\Support\Str;
  *
  * 3. It tells Americans that some "may qualify for a route that does not
  *    depend on employer sponsorship" without naming one. The Youth Mobility
- *    Scheme — the route most such guides imply — does not include the United
+ *    Scheme, the route most such guides imply, does not include the United
  *    States. The sponsor-free route that does exist for Americans is the High
  *    Potential Individual visa, open to graduates of 33 named US universities.
  *
@@ -102,7 +102,7 @@ class JobsInLondonForAmericansBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'London Licensed Sponsors — Finance, Technology, Universities & NHS Trusts (Aggregated)'],
+            ['name' => 'London Licensed Sponsors: Finance, Technology, Universities & NHS Trusts (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'london-american-applicants-aggregated']
         );
 
@@ -169,7 +169,7 @@ class JobsInLondonForAmericansBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the employer on the register of licensed sponsors and then check the occupation code separately.</strong> A licensed sponsor still cannot sponsor a job that is not on the eligible list. Never pay anyone for a certificate of sponsorship.</p>
 
-<p><strong>Note:</strong> visa rules, salary thresholds and fees are set by the Home Office &mdash; not by JobGader. Confirm the current rules on gov.uk before applying.</p>
+<p><strong>Note:</strong> visa rules, salary thresholds and fees are set by the Home Office, not by JobGader. Confirm the current rules on gov.uk before applying.</p>
 JOBHTML;
     }
 
@@ -393,18 +393,18 @@ JOBHTML;
 <p>Working out a London move? These cover the neighbouring questions:</p>
 
 <ul>
-    <li><a href="/blog/vacancies-in-london">Vacancies in London</a> &mdash; the London market in ONS numbers, the pay floors and the right-to-work check.</li>
-    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a> &mdash; how to read the sponsor register and what a Certificate of Sponsorship is.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; every visa route compared, including the ones that closed in 2025.</li>
-    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London (No Experience Needed)</a> &mdash; what London entry-level work really pays, and why none of it can be sponsored.</li>
-    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a> &mdash; the SOC 2431 code worked through end to end.</li>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; a medium-skilled code that only the Temporary Shortage List keeps open.</li>
-    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a> &mdash; ten schemes with published salaries, and their sponsorship answer.</li>
-    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a> &mdash; the five year vetting that decides the application.</li>
-    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; qualified teacher status and the pay scales.</li>
-    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; the clinical routes and the registration that comes before the visa.</li>
-    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a> &mdash; remote UK work, and why it does not solve the right-to-work question.</li>
-    <li><a href="/blog/marketing-jobs-in-uk">Marketing Jobs in UK</a> &mdash; which marketing codes clear the salary threshold.</li>
+    <li><a href="/blog/vacancies-in-london">Vacancies in London</a>: the London market in ONS numbers, the pay floors and the right-to-work check.</li>
+    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a>: how to read the sponsor register and what a Certificate of Sponsorship is.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: every visa route compared, including the ones that closed in 2025.</li>
+    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London (No Experience Needed)</a>: what London entry-level work really pays, and why none of it can be sponsored.</li>
+    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a>: the SOC 2431 code worked through end to end.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: a medium-skilled code that only the Temporary Shortage List keeps open.</li>
+    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a>: ten schemes with published salaries, and their sponsorship answer.</li>
+    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a>: the five year vetting that decides the application.</li>
+    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a>: qualified teacher status and the pay scales.</li>
+    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a>: the clinical routes and the registration that comes before the visa.</li>
+    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a>: remote UK work, and why it does not solve the right-to-work question.</li>
+    <li><a href="/blog/marketing-jobs-in-uk">Marketing Jobs in UK</a>, which marketing codes clear the salary threshold.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not immigration, legal or tax advice. UK visa rules, salary thresholds, fees and eligible occupation lists change often, as do US filing thresholds. Confirm the current rules on gov.uk and irs.gov, or with a regulated adviser, before applying or paying anyone.</p>

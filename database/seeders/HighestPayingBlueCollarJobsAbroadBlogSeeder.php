@@ -221,10 +221,10 @@ class HighestPayingBlueCollarJobsAbroadBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/best-countries-for-truck-drivers-to-work-abroad-2026">Best Countries for Truck Drivers to Work Abroad (2026)</a> &mdash; licence and visa steps by country.</li>
-    <li><a href="/blog/which-countries-are-hiring-foreign-workers-2026">Which Countries Are Hiring Foreign Workers in 2026?</a> &mdash; the top 10 and their visa routes.</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a> &mdash; verify before you pay.</li>
-    <li><a href="/blog/truck-driver-salary-usa-2026">Truck Driver Salary in the USA (2026)</a> &mdash; the US trucking pay picture.</li>
+    <li><a href="/blog/best-countries-for-truck-drivers-to-work-abroad-2026">Best Countries for Truck Drivers to Work Abroad (2026)</a>: licence and visa steps by country.</li>
+    <li><a href="/blog/which-countries-are-hiring-foreign-workers-2026">Which Countries Are Hiring Foreign Workers in 2026?</a>: the top 10 and their visa routes.</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay.</li>
+    <li><a href="/blog/truck-driver-salary-usa-2026">Truck Driver Salary in the USA (2026)</a>: the US trucking pay picture.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or financial advice. Wage figures are from the US Bureau of Labor Statistics (May 2025) and rules were checked against official sources in October 2026; both change, so confirm them on the official site before you act or pay anyone.</p>

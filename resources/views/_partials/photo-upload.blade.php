@@ -1,9 +1,9 @@
 {{--
   Photo upload widget for settings panels.
   Expects:
-    $user            — current user
-    $photoLabel      — e.g. "Profile Photo" or "Company Logo"
-    $removeRoute     — route name for DELETE /settings/photo (e.g. 'seeker.settings.photo.remove')
+    $user: current user
+    $photoLabel: e.g. "Profile Photo" or "Company Logo"
+    $removeRoute: route name for DELETE /settings/photo (e.g. 'seeker.settings.photo.remove')
 --}}
 
 <style>
@@ -104,7 +104,7 @@
     </div>
     <div class="photo-info">
         <p class="label">{{ $photoLabel ?? 'Profile Photo' }}</p>
-        <p class="hint">JPG, PNG or WebP — max 2 MB. {{ ($photoLabel ?? '') === 'Company Logo' ? 'Square images work best (e.g. 400×400).' : 'Square images work best.' }}</p>
+        <p class="hint">JPG, PNG or WebP: max 2 MB. {{ ($photoLabel ?? '') === 'Company Logo' ? 'Square images work best (e.g. 400×400).' : 'Square images work best.' }}</p>
         <span class="selected-name" id="photoSelectedName" style="display:none;"></span>
     </div>
     <div class="photo-actions">
@@ -135,7 +135,7 @@
                 if (!file) return;
                 if (nameEl) {
                     nameEl.style.display = 'block';
-                    nameEl.textContent = '✓ ' + file.name + ' (' + Math.round(file.size / 1024) + ' KB) — save to apply';
+                    nameEl.textContent = '✓ ' + file.name + ' (' + Math.round(file.size / 1024) + ' KB): save to apply';
                 }
                 const reader = new FileReader();
                 reader.onload = ev => {
@@ -145,7 +145,7 @@
             });
         }
 
-        // Remove button — build a dedicated form OUTSIDE the parent form and submit it.
+        // Remove button: build a dedicated form OUTSIDE the parent form and submit it.
         // (Nested <form> inside the account form was causing DELETE to hit the wrong URL.)
         if (removeBtn) {
             removeBtn.addEventListener('click', () => {

@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Warehouse Jobs — Pay, Shifts and Progression | JobGader')
+@section('title', 'Warehouse Jobs: Pay, Shifts and Progression | JobGader')
 @section('meta_description', 'Warehouse jobs in the USA and UK: picker, packer and forklift pay, which shifts pay most, and the honest position on visa sponsorship.')
-@section('og_title', 'Warehouse Jobs — Pay, Shifts and Progression | JobGader')
+@section('og_title', 'Warehouse Jobs: Pay, Shifts and Progression | JobGader')
 @section('og_description', 'Warehouse jobs in the USA and UK: picker, packer and forklift pay, which shifts pay most, and the honest position on visa sponsorship.')
 @section('canonical', url()->current())
 
@@ -35,7 +35,7 @@
                 ],
             ],
             [
-                'title' => 'Visa Sponsorship — the Straight Answer',
+                'title' => 'Visa Sponsorship: the Straight Answer',
                 'paragraphs' => [
                     'UK warehouse operative roles do not qualify for the Skilled Worker visa. They fail both the skill level and the salary threshold, so sponsorship from overseas for a picking or packing job is not available, whatever a listing tag or an agency claims.',
                     'Where UK sponsorship in this sector genuinely happens is at warehouse, distribution and supply chain management level, which meets both tests. Our warehouse guide sets out the thresholds and how to check an employer against the official sponsor register.',

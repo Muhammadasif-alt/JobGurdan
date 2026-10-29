@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Intelligence Analyst Jobs in USA" — the US market guide, priced from the
+ * "Intelligence Analyst Jobs in USA": the US market guide, priced from the
  * 2026 General Schedule and the nearest BLS proxy, and written to be honest
  * with an overseas audience about the citizenship wall.
  *
@@ -138,14 +138,14 @@ class IntelligenceAnalystJobsUsaBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>US federal agencies &mdash; the CIA, FBI, NSA, DIA and others &mdash; and the cleared defense contractors that support them hire intelligence analysts to collect, evaluate and interpret information for decision-makers.</p>
+<p>US federal agencies, the CIA, FBI, NSA, DIA and others, and the cleared defense contractors that support them hire intelligence analysts to collect, evaluate and interpret information for decision-makers.</p>
 
 <h3>What the work involves</h3>
 <p>Gathering data from open-source, signals and human sources, finding patterns and threats in it, writing assessments and briefings, and presenting findings to leadership, often under deadline and always inside secure systems.</p>
 
 <h3>Requirements</h3>
 <ul>
-    <li><strong>US citizenship</strong> &mdash; required for a security clearance and for almost all intelligence roles</li>
+    <li><strong>US citizenship</strong>: required for a security clearance and for almost all intelligence roles</li>
     <li>At least a bachelor's degree, commonly in international relations, political science or a national security field</li>
     <li>The ability to obtain a clearance, usually Top Secret with SCI, including a background investigation and often a polygraph</li>
     <li>Strong analytical writing and briefing skills; a relevant foreign language is an advantage</li>
@@ -160,7 +160,7 @@ class IntelligenceAnalystJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Start the clearance conversation early,</strong> and be ready for a long background investigation. An active clearance makes you far more competitive.</p>
 
-<p><strong>Note:</strong> pay, clearance and eligibility are set by each agency &mdash; not by JobGader. Confirm the requirements on the agency's own site before applying.</p>
+<p><strong>Note:</strong> pay, clearance and eligibility are set by each agency, not by JobGader. Confirm the requirements on the agency's own site before applying.</p>
 JOBHTML;
     }
 
@@ -239,7 +239,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>Against this, the draft's bands &mdash; roughly $55,000 to $70,000 at entry, $70,000 to $95,000 experienced, and $95,000 to $130,000-plus senior &mdash; are broadly right, and map onto GS-7/9, GS-11/12 and GS-12/13 with locality. <strong>Cleared contractor roles often pay more</strong> than the equivalent GS grade, especially for an active TS/SCI clearance, which is in short supply.</p>
+<p>Against this, the draft's bands, roughly $55,000 to $70,000 at entry, $70,000 to $95,000 experienced, and $95,000 to $130,000-plus senior, are broadly right, and map onto GS-7/9, GS-11/12 and GS-12/13 with locality. <strong>Cleared contractor roles often pay more</strong> than the equivalent GS grade, especially for an active TS/SCI clearance, which is in short supply.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/intelligence-analyst-jobs-in-usa-desk.jpg"
@@ -263,13 +263,13 @@ JOBHTML;
     <li><strong>The Intelligence Community.</strong> The ODNI lists <strong>18 member organisations</strong>, including the CIA, FBI, NSA and DIA.</li>
     <li><strong>The military.</strong> Army, Navy, Air Force, Marine Corps and Space Force intelligence units.</li>
     <li><strong>Homeland security and law enforcement.</strong> DHS, state and local fusion centres, and police intelligence units.</li>
-    <li><strong>Private-sector corporate intelligence.</strong> Risk consultancies, banks and multinationals assessing geopolitical and competitive risk &mdash; often hiring people with prior government or military experience.</li>
+    <li><strong>Private-sector corporate intelligence.</strong> Risk consultancies, banks and multinationals assessing geopolitical and competitive risk, often hiring people with prior government or military experience.</li>
     <li><strong>Cyber threat intelligence.</strong> Security firms and contractors tracking cyber risk.</li>
 </ul>
 
 <h2>Qualifications and Skills</h2>
 
-<p>Entry usually needs at least a <strong>bachelor's degree</strong>, commonly in international relations, political science, criminal justice or national security studies; a master's helps for senior or specialised roles. There is <strong>no single licensing body</strong> for intelligence analysts &mdash; no licence or national exam. Employers look for:</p>
+<p>Entry usually needs at least a <strong>bachelor's degree</strong>, commonly in international relations, political science, criminal justice or national security studies; a master's helps for senior or specialised roles. There is <strong>no single licensing body</strong> for intelligence analysts: no licence or national exam. Employers look for:</p>
 
 <ul>
     <li>Strong analytical and critical thinking</li>
@@ -290,7 +290,7 @@ JOBHTML;
 <h2>Where to Find Intelligence Analyst Jobs</h2>
 
 <ol>
-    <li><strong>USAJOBS.</strong> The federal government's official employment site lists many intelligence and homeland security roles &mdash; but not all.</li>
+    <li><strong>USAJOBS.</strong> The federal government's official employment site lists many intelligence and homeland security roles, but not all.</li>
     <li><strong>Agency portals.</strong> The CIA and NSA recruit through their own sites (cia.gov/careers, nsa.gov/careers), and the ODNI runs intelligencecareers.gov for the wider community. The CIA does not post on USAJOBS.</li>
     <li><strong>Defense contractor career pages.</strong> Major contractors post cleared analyst roles directly.</li>
     <li><strong>Job boards.</strong> Search "all-source analyst" and "cleared analyst" as well as "intelligence analyst".</li>
@@ -310,7 +310,7 @@ JOBHTML;
 
 <h2>Career Progression</h2>
 
-<p>The path runs from analyst to senior analyst, then team lead or intelligence supervisor, regional or subject-matter expert, intelligence officer where agencies split the tracks, or director of intelligence or risk in the private sector. Analysts often move between government, military and contractor roles, carrying a clearance and specialism with them &mdash; which is why the clearance, once earned, is as valuable as the experience.</p>
+<p>The path runs from analyst to senior analyst, then team lead or intelligence supervisor, regional or subject-matter expert, intelligence officer where agencies split the tracks, or director of intelligence or risk in the private sector. Analysts often move between government, military and contractor roles, carrying a clearance and specialism with them, which is why the clearance, once earned, is as valuable as the experience.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -369,11 +369,11 @@ JOBHTML;
 <p>Looking at nearby analytical and federal careers? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; the cyber threat side, and the certifications it takes.</li>
-    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a> &mdash; FBI, CBP and other federal roles, their pay and age limits.</li>
-    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a> &mdash; the state and local law-enforcement route.</li>
-    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a> &mdash; the analytical career in the private sector, priced from BLS.</li>
-    <li><a href="/blog/law-enforcement-jobs-in-usa">Law Enforcement Jobs in USA</a> &mdash; patrol, detective, transit, game warden and federal paths compared, with BLS pay and NYPD, FBI and DEA entry rules.</li>
+    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a>: the cyber threat side, and the certifications it takes.</li>
+    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a>: FBI, CBP and other federal roles, their pay and age limits.</li>
+    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a>: the state and local law-enforcement route.</li>
+    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a>: the analytical career in the private sector, priced from BLS.</li>
+    <li><a href="/blog/law-enforcement-jobs-in-usa">Law Enforcement Jobs in USA</a>: patrol, detective, transit, game warden and federal paths compared, with BLS pay and NYPD, FBI and DEA entry rules.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers or immigration advice. GS pay tables, locality rates, clearance rules and agency requirements change. Confirm current details with OPM, ODNI and the hiring agency before applying.</p>

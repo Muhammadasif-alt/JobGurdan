@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Become a Remote Virtual Assistant" — the global VA guide: what the
+ * "How to Become a Remote Virtual Assistant": the global VA guide: what the
  * work really pays once platform fees and tax come out, and how to start
  * without paying anyone for a job.
  *
@@ -158,7 +158,7 @@ class RemoteVirtualAssistantBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> rates, platform fees and tax obligations are set by clients, platforms and tax authorities &mdash; not by JobGader. Never pay a fee to be given a job.</p>
+<p><strong>Note:</strong> rates, platform fees and tax obligations are set by clients, platforms and tax authorities, not by JobGader. Never pay a fee to be given a job.</p>
 JOBHTML;
     }
 
@@ -188,7 +188,7 @@ JOBHTML;
     <li>coordinating between a client's contractors and teams.</li>
 </ul>
 
-<p>The US Bureau of Labor Statistics recognises the arrangement in one line on its administrative assistants page: "Some administrative assistants work out of their own homes as virtual assistants." That sentence is the honest framing of the job &mdash; it is administrative work, done remotely, usually as a contractor.</p>
+<p>The US Bureau of Labor Statistics recognises the arrangement in one line on its administrative assistants page: "Some administrative assistants work out of their own homes as virtual assistants." That sentence is the honest framing of the job: it is administrative work, done remotely, usually as a contractor.</p>
 
 <h2>What the Work Really Pays</h2>
 
@@ -204,7 +204,7 @@ JOBHTML;
         </tr>
     </thead>
     <tbody>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Upwork</strong></td><td style="padding:10px;"><strong>$10&ndash;$20 an hour</strong></td><td style="padding:10px;">Upwork's <em>median</em> for all VAs on the platform &mdash; not a beginner rate. See the caveat below.</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Upwork</strong></td><td style="padding:10px;"><strong>$10&ndash;$20 an hour</strong></td><td style="padding:10px;">Upwork's <em>median</em> for all VAs on the platform, not a beginner rate. See the caveat below.</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>BLS, May 2025</strong></td><td style="padding:10px;"><strong>$47,540</strong> median</td><td style="padding:10px;">Employed administrative assistants (10th percentile $33,280, 90th $66,350)</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">BLS, May 2025</td><td style="padding:10px;"><strong>$76,590</strong> median</td><td style="padding:10px;">Executive assistants (90th percentile $109,850)</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">ONS, 2025</td><td style="padding:10px;">&pound;25,233 all employees; <strong>&pound;34,954</strong> full-time</td><td style="padding:10px;">UK personal assistants and other secretaries (90th percentile &pound;48,675)</td></tr>
@@ -219,11 +219,11 @@ JOBHTML;
 
 <p>This figure is quoted in almost every article about becoming a VA, usually as what beginners earn. Read Upwork's own page carefully and three things change.</p>
 
-<p><strong>It is a median, not a starting rate.</strong> Upwork labels $10 to $20 an hour as the median hourly rate for virtual assistants on the platform &mdash; that is the middle of everyone, experienced freelancers included, not the bottom rung.</p>
+<p><strong>It is a median, not a starting rate.</strong> Upwork labels $10 to $20 an hour as the median hourly rate for virtual assistants on the platform: that is the middle of everyone, experienced freelancers included, not the bottom rung.</p>
 
 <p><strong>The tier table it sits in describes a different market.</strong> Upwork's rate tiers run from $12 to $20 and upwards for administrative and data entry work, $20 to $35 and upwards for marketing and customer service support, and $38 to $50 and upwards for executive-level work. The footnote under that table is the part nobody quotes: the rates <em>"reflect rates charged by freelancers on Upwork in North America with over 1,000 hours and 90% success rate"</em>. So it describes established North American freelancers, not a new account anywhere else.</p>
 
-<p><strong>Upwork's own Pakistan page tells a different story.</strong> On its directory of virtual assistants in Pakistan, advertised profile rates were as low as <strong>$5, $8 and $10 an hour</strong> &mdash; at or below the bottom of that median band.</p>
+<p><strong>Upwork's own Pakistan page tells a different story.</strong> On its directory of virtual assistants in Pakistan, advertised profile rates were as low as <strong>$5, $8 and $10 an hour</strong>: at or below the bottom of that median band.</p>
 
 <p>And all of those are gross. The platform fee comes off the top, and the section below shows what that leaves.</p>
 
@@ -236,7 +236,7 @@ JOBHTML;
     <li><strong>Fiverr:</strong> a <strong>20% commission</strong> on what you earn, which Fiverr tells sellers to factor into their price.</li>
 </ul>
 
-<p>So a $20 hourly rate on Fiverr nets $16, and on Upwork nets between $17 and $20 depending on the contract. Direct clients pay no platform fee at all &mdash; which is why experienced VAs move off the marketplaces once they have testimonials.</p>
+<p>So a $20 hourly rate on Fiverr nets $16, and on Upwork nets between $17 and $20 depending on the contract. Direct clients pay no platform fee at all, which is why experienced VAs move off the marketplaces once they have testimonials.</p>
 
 <figure style="margin:32px 0;">
     <img src="/public/storage/blogs/how-to-become-a-remote-virtual-assistant-home-office.jpg" alt="A virtual assistant working on a laptop calendar at a home desk with a notebook and coffee" style="width:100%;height:auto;border-radius:12px;" loading="lazy">
@@ -251,17 +251,17 @@ JOBHTML;
 
 <h2>Specialise, and Watch the Job Title</h2>
 
-<p>A generalist doing scattered admin competes with everyone. A VA who owns one outcome &mdash; inbox and calendar systems for founders, research and reporting, CRM and pipeline upkeep, or bookkeeping support &mdash; competes with far fewer people and can charge more.</p>
+<p>A generalist doing scattered admin competes with everyone. A VA who owns one outcome, inbox and calendar systems for founders, research and reporting, CRM and pipeline upkeep, or bookkeeping support, competes with far fewer people and can charge more.</p>
 
 <p>The title matters too. The same work advertised as "executive assistant", "research assistant" or "operations assistant" often pays more than the same duties advertised as "virtual assistant", and the BLS gap between administrative and executive assistants shows that is not just perception.</p>
 
 <h2>How to Start, Step by Step</h2>
 
 <ol>
-    <li><strong>List what you can already do.</strong> Every tool you know and every process you have run &mdash; scheduling, invoicing, travel, reporting, customer replies.</li>
+    <li><strong>List what you can already do.</strong> Every tool you know and every process you have run: scheduling, invoicing, travel, reporting, customer replies.</li>
     <li><strong>Pick two or three services</strong> rather than offering everything.</li>
-    <li><strong>Build a small portfolio.</strong> A shared document or Notion page with sample work &mdash; an inbox triage system, a meeting brief template, a research summary &mdash; is enough to start.</li>
-    <li><strong>Set up a clear profile</strong> with a specific headline, such as "Virtual assistant &mdash; inbox and calendar management for founders".</li>
+    <li><strong>Build a small portfolio.</strong> A shared document or Notion page with sample work, an inbox triage system, a meeting brief template, a research summary, is enough to start.</li>
+    <li><strong>Set up a clear profile</strong> with a specific headline, such as "Virtual assistant: inbox and calendar management for founders".</li>
     <li><strong>Price with fees in mind.</strong> Decide your take-home first, then add the platform's cut.</li>
     <li><strong>Pitch specifically.</strong> Name the problem you noticed and what you would take off their plate this week.</li>
     <li><strong>Write outcomes, not duties.</strong> "Cut scheduling time by five hours a week" beats "managed calendar".</li>
@@ -273,7 +273,7 @@ JOBHTML;
 <p>Freelance VA work is self-employment, and the rules are specific.</p>
 
 <ul>
-    <li><strong>United States.</strong> Self-employment tax is <strong>15.3%</strong> &mdash; 12.4% Social Security plus 2.9% Medicare &mdash; and you file Schedule SE once net earnings reach <strong>$400</strong>. Expect to make quarterly estimated payments if you will owe <strong>$1,000</strong> or more. The 1099-NEC reporting threshold is now <strong>$2,000 for tax year 2026</strong>, not the $600 figure still quoted everywhere &mdash; and income is taxable whether or not a form arrives.</li>
+    <li><strong>United States.</strong> Self-employment tax is <strong>15.3%</strong>, 12.4% Social Security plus 2.9% Medicare, and you file Schedule SE once net earnings reach <strong>$400</strong>. Expect to make quarterly estimated payments if you will owe <strong>$1,000</strong> or more. The 1099-NEC reporting threshold is now <strong>$2,000 for tax year 2026</strong>, not the $600 figure still quoted everywhere, and income is taxable whether or not a form arrives.</li>
     <li><strong>United Kingdom.</strong> Register for Self Assessment as a sole trader once you earn more than <strong>&pound;1,000</strong> in a tax year. Register for VAT if taxable turnover passes <strong>&pound;90,000</strong>. Key dates: tell HMRC by 5 October, paper returns by 31 October, online returns and payment by 31 January.</li>
     <li><strong>Everywhere.</strong> Keep invoices, platform statements and expense records from your first client. You are taxed on profit.</li>
 </ul>
@@ -346,19 +346,19 @@ JOBHTML;
 <p>Looking at remote and admin work? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; the local market, rates and how to get paid.</li>
-    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; the employed version of this job, priced from BLS.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; another remote route with real employers.</li>
-    <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a> &mdash; what the work pays and which offers are scams.</li>
-    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a> &mdash; the British remote market.</li>
-    <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a> &mdash; where client-facing admin experience can lead.</li>
-    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a> &mdash; live dated pay in Pakistan, and why remote contracts pay several times local salaries.</li>
-    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a> &mdash; the entry-level remote role, and how to price it so it stays worth doing.</li>
-    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a> &mdash; dated Pakistani pay, and the cold-outreach laws no other guide mentions.</li>
-    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a> &mdash; the titles that actually work, and the tools that get accounts restricted.</li>
-    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a> &mdash; the research craft behind a prospect list, and why a verified email often is not.</li>
-    <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a> &mdash; what the daily quotas really mean once you do the arithmetic.</li>
-    <li><a href="/blog/canva-social-media-jobs">Canva Social Media Jobs</a> &mdash; which Canva features are free, and what the licence allows in client work.</li>
+    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a>: the local market, rates and how to get paid.</li>
+    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a>: the employed version of this job, priced from BLS.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: another remote route with real employers.</li>
+    <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a>: what the work pays and which offers are scams.</li>
+    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a>: the British remote market.</li>
+    <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a>: where client-facing admin experience can lead.</li>
+    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a>: live dated pay in Pakistan, and why remote contracts pay several times local salaries.</li>
+    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a>: the entry-level remote role, and how to price it so it stays worth doing.</li>
+    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a>: dated Pakistani pay, and the cold-outreach laws no other guide mentions.</li>
+    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a>: the titles that actually work, and the tools that get accounts restricted.</li>
+    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a>: the research craft behind a prospect list, and why a verified email often is not.</li>
+    <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a>: what the daily quotas really mean once you do the arithmetic.</li>
+    <li><a href="/blog/canva-social-media-jobs">Canva Social Media Jobs</a>, which Canva features are free, and what the licence allows in client work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using BLS Occupational Outlook Handbook and OEWS data, ONS ASHE 2025, Upwork and Fiverr published fees, IRS and GOV.UK tax guidance and FTC consumer advice. Rates, fees and thresholds change. Always check the current rules before you rely on them.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Dental Assistant Jobs in Canada" — chairside and expanded-duty assistants
+ * "Dental Assistant Jobs in Canada": chairside and expanded-duty assistants
  * in general, orthodontic and pediatric dental clinics. It owns the Job Bank
  * wage and outlook data for NOC 33100, the provincial regulators, the NDAEB
  * exams, the Ontario rules on Level II duties and x-rays, and the immigration
@@ -167,7 +167,7 @@ class DentalAssistantJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the registration rules of the province you want to work in</strong> before you enrol in a program or accept an offer.</p>
 
-<p><strong>Note:</strong> pay, duties and immigration eligibility are set by employers, provincial regulators and IRCC &mdash; not by JobGader. Confirm the details with the employer and the regulator before applying.</p>
+<p><strong>Note:</strong> pay, duties and immigration eligibility are set by employers, provincial regulators and IRCC, not by JobGader. Confirm the details with the employer and the regulator before applying.</p>
 JOBHTML;
     }
 
@@ -376,15 +376,15 @@ JOBHTML;
 <p>Comparing health care support and Canadian jobs? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/dental-assistant-jobs-in-usa">Dental Assistant Jobs in USA</a> &mdash; the same job across the border, where the state dental board, not a province, decides what training you need.</li>
-    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the American clinic role that mixes admin with clinical duties.</li>
-    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; an entry-level health care job with NHS pay bands.</li>
-    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a> &mdash; front-desk work in health care, and the award that sets its pay.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; how the LMIA works, and the limits on low-wage jobs.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; an entry-level Canadian job priced by the provincial minimum wage.</li>
-    <li><a href="/blog/janitor-jobs-in-canada">Janitor Jobs in Canada</a> &mdash; hospital and building cleaning work across the provinces.</li>
-    <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a> &mdash; the allied-health route, its provincial registration and pay.</li>
-    <li><a href="/blog/preschool-teacher-jobs-in-canada">Preschool Teacher Jobs in Canada</a> &mdash; early childhood educator qualifications, provincial registration, wages and how internationally trained educators get recognised.</li>
+    <li><a href="/blog/dental-assistant-jobs-in-usa">Dental Assistant Jobs in USA</a>: the same job across the border, where the state dental board, not a province, decides what training you need.</li>
+    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a>: the American clinic role that mixes admin with clinical duties.</li>
+    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a>: an entry-level health care job with NHS pay bands.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a>: front-desk work in health care, and the award that sets its pay.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: how the LMIA works, and the limits on low-wage jobs.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: an entry-level Canadian job priced by the provincial minimum wage.</li>
+    <li><a href="/blog/janitor-jobs-in-canada">Janitor Jobs in Canada</a>: hospital and building cleaning work across the provinces.</li>
+    <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a>: the allied-health route, its provincial registration and pay.</li>
+    <li><a href="/blog/preschool-teacher-jobs-in-canada">Preschool Teacher Jobs in Canada</a>: early childhood educator qualifications, provincial registration, wages and how internationally trained educators get recognised.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Registration rules, scopes of practice, exam fees, wages and Express Entry categories change and differ between provinces. Confirm the current position with the provincial regulator, NDAEB, Job Bank and IRCC before enrolling, applying or accepting an offer.</p>

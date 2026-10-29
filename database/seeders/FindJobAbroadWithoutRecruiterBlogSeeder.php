@@ -96,7 +96,7 @@ class FindJobAbroadWithoutRecruiterBlogSeeder extends Seeder
 <p>Use the requested method. Where an employer invites email applications, a suitable template is:</p>
 
 <blockquote>
-<p><strong>Subject:</strong> Application for [Position] &mdash; [Your Name]</p>
+<p><strong>Subject:</strong> Application for [Position]: [Your Name]</p>
 <p>Dear Hiring Team, I am based in Pakistan and interested in your advertised [position]. My relevant experience includes [truthful details]. I have attached my CV and am available from [date]. Please confirm whether you consider overseas applicants and support the appropriate work authorisation for this role. Thank you, [Name].</p>
 </blockquote>
 
@@ -197,10 +197,10 @@ class FindJobAbroadWithoutRecruiterBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/best-job-sites-work-abroad-2026">Best Job Sites to Find Work Abroad (2026)</a> &mdash; where to look</li>
-    <li><a href="/blog/how-to-write-resume-job-abroad">How to Write a Resume for a Job Abroad</a> &mdash; the CV layout</li>
-    <li><a href="/blog/how-to-apply-work-visa-without-agent-2026">How to Apply for a Work Visa Without an Agent</a> &mdash; the visa step</li>
-    <li><a href="/blog/documents-needed-to-work-abroad-2026">What Documents Do You Need to Work Abroad (2026)</a> &mdash; the checklist</li>
+    <li><a href="/blog/best-job-sites-work-abroad-2026">Best Job Sites to Find Work Abroad (2026)</a>: where to look</li>
+    <li><a href="/blog/how-to-write-resume-job-abroad">How to Write a Resume for a Job Abroad</a>: the CV layout</li>
+    <li><a href="/blog/how-to-apply-work-visa-without-agent-2026">How to Apply for a Work Visa Without an Agent</a>: the visa step</li>
+    <li><a href="/blog/documents-needed-to-work-abroad-2026">What Documents Do You Need to Work Abroad (2026)</a>: the checklist</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>

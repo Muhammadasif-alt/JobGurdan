@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Internships — Paid, Unpaid and Worth It | JobGader')
+@section('title', 'Internships: Paid, Unpaid and Worth It | JobGader')
 @section('meta_description', 'Internships across '.$coverage->shortList().': which are paid, what the law says about unpaid work, and how to turn a placement into a job offer.')
-@section('og_title', 'Internships — Paid, Unpaid and Worth It | JobGader')
+@section('og_title', 'Internships: Paid, Unpaid and Worth It | JobGader')
 @section('og_description', 'Internships across '.$coverage->shortList().': which are paid, what the law says about unpaid work, and how to turn a placement into a job offer.')
 @section('canonical', url()->current())
 
@@ -59,7 +59,7 @@
             ],
             [
                 'q' => 'Do internships lead to permanent jobs?',
-                'a' => 'Structured programmes at larger employers convert at a meaningful rate. Ask about the conversion rate at interview — a programme that tracks it usually has a good answer, and one that has never considered it tells you something too.',
+                'a' => 'Structured programmes at larger employers convert at a meaningful rate. Ask about the conversion rate at interview: a programme that tracks it usually has a good answer, and one that has never considered it tells you something too.',
             ],
             [
                 'q' => 'Can I do an internship after graduating?',

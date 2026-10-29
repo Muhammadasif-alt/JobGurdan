@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Data Entry Jobs — Pay, Reality and Openings | JobGader')
+@section('title', 'Data Entry Jobs: Pay, Reality and Openings | JobGader')
 @section('meta_description', 'Data entry jobs across '.$coverage->shortList().': what the work pays, which remote listings are genuine, and how to spot the scams in this category.')
-@section('og_title', 'Data Entry Jobs — Pay, Reality and Openings | JobGader')
+@section('og_title', 'Data Entry Jobs: Pay, Reality and Openings | JobGader')
 @section('og_description', 'Data entry jobs across '.$coverage->shortList().': what the work pays, which remote listings are genuine, and how to spot the scams in this category.')
 @section('canonical', url()->current())
 
@@ -31,13 +31,13 @@
                 'title' => 'What the Work Involves',
                 'paragraphs' => [
                     'Typing speed and accuracy are the measurable parts, and many employers test both. Sixty words per minute with high accuracy is a common benchmark, and for numeric work a strong ten-key speed matters more than prose typing.',
-                    'Beyond typing, most roles involve verifying records against source documents, cleaning inconsistent data, and working inside a specific system — often a CRM, an ERP or a records database rather than a spreadsheet.',
+                    'Beyond typing, most roles involve verifying records against source documents, cleaning inconsistent data, and working inside a specific system, often a CRM, an ERP or a records database rather than a spreadsheet.',
                 ],
             ],
             [
                 'title' => 'Where This Career Path Leads',
                 'paragraphs' => [
-                    'Data entry is a genuine entry point into administration and operations. The people who move up are the ones who learn the system rather than just the task — Excel beyond the basics, then Power Query, SQL or the reporting side of whichever platform the employer uses.',
+                    'Data entry is a genuine entry point into administration and operations. The people who move up are the ones who learn the system rather than just the task: Excel beyond the basics, then Power Query, SQL or the reporting side of whichever platform the employer uses.',
                     'Medical records, legal support and finance operations all recruit from data entry backgrounds, and all pay meaningfully more. Framing your experience around accuracy rates and volume handled makes that jump easier.',
                 ],
             ],

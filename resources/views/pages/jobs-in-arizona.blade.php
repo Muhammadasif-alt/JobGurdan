@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Arizona — Semiconductors, Logistics, Care | JobGader')
+@section('title', 'Jobs in Arizona: Semiconductors, Logistics, Care | JobGader')
 @section('meta_description', 'Jobs in Arizona: semiconductor and construction growth around Phoenix, distribution, healthcare and tourism, and what each sector pays.')
-@section('og_title', 'Jobs in Arizona — Semiconductors, Logistics, Care | JobGader')
+@section('og_title', 'Jobs in Arizona: Semiconductors, Logistics, Care | JobGader')
 @section('og_description', 'Jobs in Arizona: semiconductor and construction growth around Phoenix, distribution, healthcare and tourism, and what each sector pays.')
 @section('canonical', url()->current())
 
@@ -16,7 +16,7 @@
             [
                 'title' => 'Semiconductors and Advanced Manufacturing',
                 'paragraphs' => [
-                    'Major semiconductor investment around Phoenix has created a hiring wave that runs well beyond engineering — construction trades to build the facilities, then technicians, maintenance and operations staff to run them.',
+                    'Major semiconductor investment around Phoenix has created a hiring wave that runs well beyond engineering: construction trades to build the facilities, then technicians, maintenance and operations staff to run them.',
                     'Fabrication technician roles are the accessible entry point. They typically want a technical associate degree or relevant military or maintenance experience rather than a four-year degree, and pay well above general manufacturing.',
                 ],
             ],

@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 
-@section('title', $seeker->name.' — Job Seeker Profile | JobGader')
+@section('title', $seeker->name.': Job Seeker Profile | JobGader')
 @section('meta_description', $seeker->name.' is looking for work'.($profile['city'] ? ' in '.$profile['city'] : '').'. View skills, experience and contact details on JobGader.')
 
 {{-- A name and an email is a stub, not a page. Profiles stay out of the
@@ -201,7 +201,7 @@
         box-shadow: 0 10px 22px rgba(27, 58, 107,.45);
     }
 
-    /* === "Why {Name} stands out" — motivational section === */
+    /* === "Why {Name} stands out": motivational section === */
     .sk-why-section {
         margin-top: 36px;
         padding: 48px 36px;
@@ -529,7 +529,7 @@
             <div class="sk-section-head">
                 <span class="eyebrow">About this profile</span>
                 <h2>What {{ $firstName }} has published here</h2>
-                <p>Everything on this page was entered by the candidate. Contact them directly — there is no recruiter fee and no message limit in between.</p>
+                <p>Everything on this page was entered by the candidate. Contact them directly: there is no recruiter fee and no message limit in between.</p>
             </div>
             <div class="sk-why-grid">
                 <div class="sk-why-card">
@@ -560,7 +560,7 @@
                     <div class="sk-why-card">
                         <div class="sk-why-ico"><i class="icon-feather-link"></i></div>
                         <h4>Work You Can Check</h4>
-                        <p>{{ implode(', ', array_keys($profile['links'])) }} — judge the work yourself before you reach out.</p>
+                        <p>{{ implode(', ', array_keys($profile['links'])) }}: judge the work yourself before you reach out.</p>
                     </div>
                 @endif
             </div>
@@ -572,7 +572,7 @@
                 <div class="sk-motivate-text">
                     <span class="eyebrow"><i class="icon-feather-trending-up"></i> Take the next step</span>
                     <h2>One great hire can change everything</h2>
-                    <p>Hiring the right person isn't just a checkbox — it's how teams grow, businesses scale, and great work gets done. Reach out to {{ $firstName }} today, or post a role and let candidates come to you.</p>
+                    <p>Hiring the right person isn't just a checkbox: it's how teams grow, businesses scale, and great work gets done. Reach out to {{ $firstName }} today, or post a role and let candidates come to you.</p>
                     <div class="sk-motivate-stats">
                         <div><strong>14 days</strong><span>Avg. time to interview</span></div>
                         <div><strong>92%</strong><span>Employer satisfaction</span></div>

@@ -198,10 +198,10 @@ class JobAbroadWithoutExperienceBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/which-countries-are-hiring-foreign-workers-2026">Which Countries Are Hiring Foreign Workers in 2026?</a> &mdash; the top 10 and their visa routes.</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a> &mdash; verify before you pay.</li>
-    <li><a href="/blog/how-to-get-cleaner-job-uk-from-pakistan-2026">How to Get a Cleaner Job in the UK From Pakistan (2026)</a> &mdash; an entry-level UK route.</li>
-    <li><a href="/blog/highest-paying-blue-collar-jobs-abroad-2026">Highest Paying Blue Collar Jobs Abroad (2026)</a> &mdash; trades worth training for.</li>
+    <li><a href="/blog/which-countries-are-hiring-foreign-workers-2026">Which Countries Are Hiring Foreign Workers in 2026?</a>: the top 10 and their visa routes.</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay.</li>
+    <li><a href="/blog/how-to-get-cleaner-job-uk-from-pakistan-2026">How to Get a Cleaner Job in the UK From Pakistan (2026)</a>: an entry-level UK route.</li>
+    <li><a href="/blog/highest-paying-blue-collar-jobs-abroad-2026">Highest Paying Blue Collar Jobs Abroad (2026)</a>: trades worth training for.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Age limits, quotas and eligible countries change every year, so confirm them on the official site before you apply or pay anyone.</p>

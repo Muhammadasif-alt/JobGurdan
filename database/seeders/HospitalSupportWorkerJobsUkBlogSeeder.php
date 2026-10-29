@@ -133,9 +133,9 @@ HTML;
 <h2>What a hospital support worker is paid in 2026/27</h2>
 <p>Agenda for Change is negotiated separately in each UK nation, so there is no single Band 2 or Band 3 salary. From 1 April 2026:</p>
 <table><thead><tr><th scope="col">Band</th><th scope="col">England, from 1 April 2026</th><th scope="col">Scotland, from 1 April 2026</th></tr></thead><tbody>
-<tr><td><strong>Band 2</strong></td><td><strong>&pound;25,272</strong>, a single point &mdash; &pound;12.92 an hour</td><td><strong>&pound;26,696 to &pound;28,988</strong> &mdash; &pound;14.22 to &pound;15.44 an hour</td></tr>
-<tr><td><strong>Band 3</strong></td><td><strong>&pound;25,760 to &pound;27,476</strong> &mdash; &pound;13.17 to &pound;14.05 an hour</td><td><strong>&pound;29,103 to &pound;31,409</strong> &mdash; &pound;15.50 to &pound;16.73 an hour</td></tr>
-<tr><td>Band 4</td><td>&pound;28,392 to &pound;31,157 &mdash; &pound;14.52 to &pound;15.93 an hour</td><td>&pound;31,537 to &pound;34,303 &mdash; &pound;16.80 to &pound;18.27 an hour</td></tr>
+<tr><td><strong>Band 2</strong></td><td><strong>&pound;25,272</strong>, a single point, &pound;12.92 an hour</td><td><strong>&pound;26,696 to &pound;28,988</strong>, &pound;14.22 to &pound;15.44 an hour</td></tr>
+<tr><td><strong>Band 3</strong></td><td><strong>&pound;25,760 to &pound;27,476</strong>, &pound;13.17 to &pound;14.05 an hour</td><td><strong>&pound;29,103 to &pound;31,409</strong>, &pound;15.50 to &pound;16.73 an hour</td></tr>
+<tr><td>Band 4</td><td>&pound;28,392 to &pound;31,157, &pound;14.52 to &pound;15.93 an hour</td><td>&pound;31,537 to &pound;34,303, &pound;16.80 to &pound;18.27 an hour</td></tr>
 </tbody></table>
 <p>English hourly rates assume a 37.5-hour week. Scottish ones assume a <strong>36-hour week</strong>, which Scotland moved to on 1 April 2026. Sources: <a href="https://www.nhsemployers.org/articles/pay-scales-202627">NHS Employers, pay scales for 2026/27</a> and <a href="https://www.publications.scot.nhs.uk/files/pcs2026-afc-01.pdf">NHS Circular PCS(AFC)2026/1</a>.</p>
 <p>Two corrections follow from that table. Band 2 in England is <strong>not a range</strong>; it is one pay point, and has been since the bottom of the structure was compressed. And if you have read that Band 3 pays &pound;29,061 to &pound;31,364, that figure is Scottish and it is out of date: the two-year Scottish settlement carried a guarantee that each rise would beat CPI by a percentage point, CPI for 2025 came in at 3.4 per cent, and the rates were recalculated in January 2026. For an English applicant the gap between &pound;29,061 and the real &pound;25,760 is <strong>&pound;3,301 a year</strong>.</p>
@@ -236,10 +236,10 @@ HTML;
 
 <h2>Related career guides</h2>
 <ul>
-<li><a href="/blog/physiotherapy-assistant-jobs-in-the-uk">Physiotherapy Assistant Jobs in the UK</a> &mdash; the same bands in a therapy department, where Band 3 means delegated treatment work.</li>
-<li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; the full sponsorship answer, salary thresholds and sponsor licence checks.</li>
-<li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a> &mdash; the three job titles separated, and the route on to nursing.</li>
-<li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; the wider family of support roles across all seven NHS areas.</li>
+<li><a href="/blog/physiotherapy-assistant-jobs-in-the-uk">Physiotherapy Assistant Jobs in the UK</a>: the same bands in a therapy department, where Band 3 means delegated treatment work.</li>
+<li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a>: the full sponsorship answer, salary thresholds and sponsor licence checks.</li>
+<li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a>: the three job titles separated, and the route on to nursing.</li>
+<li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a>: the wider family of support roles across all seven NHS areas.</li>
 </ul>
 
 <h2>Official sources and verification</h2>

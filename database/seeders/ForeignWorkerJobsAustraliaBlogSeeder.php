@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How Foreign Workers Can Get a Job in Australia" — the question a foreign
+ * "How Foreign Workers Can Get a Job in Australia": the question a foreign
  * worker asks before choosing a visa. The Visa Sponsorship Jobs in Australia
  * guide goes deep on the 482, 186 and 494, so this one compares every route in:
  * employer sponsorship, points-tested visas that need no job offer, working
@@ -153,7 +153,7 @@ class ForeignWorkerJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> sponsorship decisions, pay and visa outcomes are set by each employer and the Department of Home Affairs &mdash; not by JobGader. Never pay an employer or agent in return for a sponsored job.</p>
+<p><strong>Note:</strong> sponsorship decisions, pay and visa outcomes are set by each employer and the Department of Home Affairs, not by JobGader. Never pay an employer or agent in return for a sponsored job.</p>
 JOBHTML;
     }
 
@@ -332,14 +332,14 @@ JOBHTML;
 <p>Comparing countries or looking at a specific job in Australia? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; the 482, 186 and 494 rules in detail.</li>
-    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a> &mdash; aged care, one of the sectors that sponsors most.</li>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; trades work and award pay.</li>
-    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; casual work for working holiday makers and students.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; the same question for Canada.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the UK's Skilled Worker route compared.</li>
-    <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a> &mdash; the job title in each state, WA pay of $34.75 to $43.28 an hour, and the checks and certificates schools ask for.</li>
-    <li><a href="/blog/how-to-apply-for-qantas-ground-staff-jobs-in-australia">How to Apply for Qantas Ground Staff Jobs in Australia</a> &mdash; the pay Qantas will not publish, from the agreement that does.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>: the 482, 186 and 494 rules in detail.</li>
+    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a>: aged care, one of the sectors that sponsors most.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: trades work and award pay.</li>
+    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a>: casual work for working holiday makers and students.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: the same question for Canada.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the UK's Skilled Worker route compared.</li>
+    <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a>: the job title in each state, WA pay of $34.75 to $43.28 an hour, and the checks and certificates schools ask for.</li>
+    <li><a href="/blog/how-to-apply-for-qantas-ground-staff-jobs-in-australia">How to Apply for Qantas Ground Staff Jobs in Australia</a>: the pay Qantas will not publish, from the agreement that does.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not migration advice. Visa rules, income thresholds, occupation lists and eligible countries change. Confirm the current position with the Department of Home Affairs or a registered migration agent before applying.</p>

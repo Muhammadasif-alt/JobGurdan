@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Carpenter Jobs in the UK, Canada and Australia" — the overseas companion
+ * "Carpenter Jobs in the UK, Canada and Australia": the overseas companion
  * to "Carpenter Jobs in USA", covering who can actually be hired from abroad
  * in each country and what the official wage data says.
  *
@@ -394,13 +394,13 @@ JOBHTML;
 <p>Related trades and markets:</p>
 
 <ul>
-    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a> &mdash; the US carpentry market.</li>
-    <li><a href="/blog/welder-salary-in-usa">Welder Salary in USA</a> &mdash; official pay by industry for another construction trade.</li>
-    <li><a href="/blog/scaffolder-roofer-and-crane-operator-jobs-abroad">Scaffolder, Roofer and Crane Operator Jobs Abroad</a> &mdash; more trades the UK no longer newly sponsors.</li>
-    <li><a href="/blog/painter-and-decorator-jobs-in-the-gulf">Painter and Decorator Jobs in the Gulf</a> &mdash; a finishing trade in the UAE and Saudi Arabia.</li>
-    <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a> &mdash; the same certification systems for another trade.</li>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; the wider Australian site market.</li>
-    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a> &mdash; which UK routes are still open.</li>
+    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a>: the US carpentry market.</li>
+    <li><a href="/blog/welder-salary-in-usa">Welder Salary in USA</a>: official pay by industry for another construction trade.</li>
+    <li><a href="/blog/scaffolder-roofer-and-crane-operator-jobs-abroad">Scaffolder, Roofer and Crane Operator Jobs Abroad</a>: more trades the UK no longer newly sponsors.</li>
+    <li><a href="/blog/painter-and-decorator-jobs-in-the-gulf">Painter and Decorator Jobs in the Gulf</a>: a finishing trade in the UAE and Saudi Arabia.</li>
+    <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a>: the same certification systems for another trade.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: the wider Australian site market.</li>
+    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a>, which UK routes are still open.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. UK rules are from gov.uk, Canadian wages from Job Bank, and Australian occupation details from Home Affairs and Trades Recognition Australia. Immigration rules change; confirm the current position before applying.</p>

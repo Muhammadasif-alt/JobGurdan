@@ -252,9 +252,9 @@ class FarmWorkerSalaryUsaBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/farm-worker-jobs-usa-visa-sponsorship-2026">Farm Worker Jobs in USA With Visa Sponsorship (2026)</a> &mdash; H-2A requirements and how to apply.</li>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the Canadian route in detail.</li>
-    <li><a href="/blog/fruit-picking-and-farm-jobs-in-australia-canada-and-the-uk">Fruit Picking and Farm Jobs in Australia, Canada and the UK</a> &mdash; three more seasonal routes.</li>
+    <li><a href="/blog/farm-worker-jobs-usa-visa-sponsorship-2026">Farm Worker Jobs in USA With Visa Sponsorship (2026)</a>: H-2A requirements and how to apply.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: the Canadian route in detail.</li>
+    <li><a href="/blog/fruit-picking-and-farm-jobs-in-australia-canada-and-the-uk">Fruit Picking and Farm Jobs in Australia, Canada and the UK</a>: three more seasonal routes.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or financial advice. Wage figures are from the US Bureau of Labor Statistics, May 2025 national estimates, reviewed on 7 October 2026. Monthly calculations and PKR conversions are editorial examples, not official statistics or job offers.</p>

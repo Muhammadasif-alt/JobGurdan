@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Cashier Jobs in USA" — grocery, retail, pharmacy, fuel and quick-service
+ * "Cashier Jobs in USA": grocery, retail, pharmacy, fuel and quick-service
  * checkout work. It sits beside the retail jobs guide, which already separates
  * cashiers from sales associates and prices retail against state minimum
  * wages, so this one does not repeat that argument; it covers the checkout
@@ -157,7 +157,7 @@ class CashierJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the offer against your state's minimum wage, and ask how till shortages are handled.</strong> An hourly rate below your state floor is not a starting rate; it is below the law.</p>
 
-<p><strong>Note:</strong> pay, schedules and policies are set by each employer and by federal, state and local law &mdash; not by JobGader. Confirm the details on the official advertisement before applying.</p>
+<p><strong>Note:</strong> pay, schedules and policies are set by each employer and by federal, state and local law, not by JobGader. Confirm the details on the official advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -184,7 +184,7 @@ JOBHTML;
     <li><strong>Texas:</strong> the federal $7.25.</li>
 </ul>
 
-<p>So $12 an hour is below the state minimum wage in <strong>three of the five</strong> states the guides name &mdash; California, New York and Florida &mdash; and even $15 is below the floor in California and New York. Washington's statewide minimum of <strong>$17.13</strong> is the highest in the country, and many cities set their own rate above their state's.</p>
+<p>So $12 an hour is below the state minimum wage in <strong>three of the five</strong> states the guides name, California, New York and Florida, and even $15 is below the floor in California and New York. Washington's statewide minimum of <strong>$17.13</strong> is the highest in the country, and many cities set their own rate above their state's.</p>
 
 <p>The practical rule is simple: <strong>your state's minimum wage is where cashier pay starts, not a national range</strong>. Our <a href="/blog/retail-jobs-in-usa">retail jobs in USA guide</a> sets out how far apart state floors sit and why a national average hides them; this guide does not repeat it.</p>
 
@@ -206,7 +206,7 @@ JOBHTML;
 
 <h2>Fast Food Cashiers in California Start at $20</h2>
 
-<p>Guides list fast food cashier as one of the main types of cashier job without mentioning California's separate rule. Since <strong>1 April 2024</strong>, employees at limited-service restaurants belonging to a national chain with <strong>at least 60 establishments</strong> nationwide must be paid at least <strong>$20.00 an hour</strong> &mdash; more than $3 above the state's general minimum wage. A state Fast Food Council can raise that rate.</p>
+<p>Guides list fast food cashier as one of the main types of cashier job without mentioning California's separate rule. Since <strong>1 April 2024</strong>, employees at limited-service restaurants belonging to a national chain with <strong>at least 60 establishments</strong> nationwide must be paid at least <strong>$20.00 an hour</strong>: more than $3 above the state's general minimum wage. A state Fast Food Council can raise that rate.</p>
 
 <p>That means a cashier at a large burger or coffee chain in California starts well above a cashier at an independent café next door. Check which kind of employer you are applying to.</p>
 
@@ -328,18 +328,18 @@ JOBHTML;
 <p>Comparing entry-level work in the US and beyond? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; cashier against sales associate, and how far apart state wage floors really are.</li>
-    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; the step up from the register, and how the big chains run their hiring.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; another fast entry route, and what app pay guarantees leave out.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the H-2B and EB-3 routes, and who can realistically use them.</li>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; seasonal hospitality work and the visas behind it.</li>
-    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; an office route with no degree requirement, and its real pay.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; customer-facing work without the register.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; the same skills priced against provincial wage floors.</li>
-    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a> &mdash; the shop floor route, and why the pay figures everyone quotes are below the law.</li>
-    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a> &mdash; what Walmart actually pays, the benefits most guides skip, and the age rules.</li>
-    <li><a href="/blog/how-to-apply-for-home-depot-retail-jobs-in-the-usa">How to Apply for Home Depot Retail Jobs in the USA</a> &mdash; store pay Home Depot prints itself, and the route from hourly to store leader.</li>
-    <li><a href="/blog/how-to-apply-for-starbucks-barista-jobs-in-the-usa">How to Apply for Starbucks Barista Jobs in the USA</a> &mdash; the hours threshold that decides whether the benefits are yours.</li>
+    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a>: cashier against sales associate, and how far apart state wage floors really are.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a>: the step up from the register, and how the big chains run their hiring.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: another fast entry route, and what app pay guarantees leave out.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the H-2B and EB-3 routes, and who can realistically use them.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>: seasonal hospitality work and the visas behind it.</li>
+    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a>: an office route with no degree requirement, and its real pay.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: customer-facing work without the register.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: the same skills priced against provincial wage floors.</li>
+    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a>: the shop floor route, and why the pay figures everyone quotes are below the law.</li>
+    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a>: what Walmart actually pays, the benefits most guides skip, and the age rules.</li>
+    <li><a href="/blog/how-to-apply-for-home-depot-retail-jobs-in-the-usa">How to Apply for Home Depot Retail Jobs in the USA</a>: store pay Home Depot prints itself, and the route from hourly to store leader.</li>
+    <li><a href="/blog/how-to-apply-for-starbucks-barista-jobs-in-the-usa">How to Apply for Starbucks Barista Jobs in the USA</a>: the hours threshold that decides whether the benefits are yours.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, careers or financial advice. Minimum wage rates, local ordinances, child labor rules and wage deduction rules change and differ by state and city. Confirm the current position with the US Department of Labor, your state labor department and the employer before applying or accepting an offer.</p>

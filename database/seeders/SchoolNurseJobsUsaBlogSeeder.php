@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "School Nurse Jobs in USA" — registered nurses in public, charter and
+ * "School Nurse Jobs in USA": registered nurses in public, charter and
  * private K-12 schools. The registered nurse guide owns national RN pay,
  * licensure and the compact; this one owns what schools pay, the state
  * education credentials on top of the RN license, national certification,
@@ -158,7 +158,7 @@ class SchoolNurseJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check your state education agency's school nurse credential rules</strong> before applying, because a license alone is not enough in every state.</p>
 
-<p><strong>Note:</strong> pay, credentials and hiring rules are set by school districts, state boards of nursing and state education agencies &mdash; not by JobGader. Confirm the details with the district before applying.</p>
+<p><strong>Note:</strong> pay, credentials and hiring rules are set by school districts, state boards of nursing and state education agencies, not by JobGader. Confirm the details with the district before applying.</p>
 JOBHTML;
     }
 
@@ -347,12 +347,12 @@ JOBHTML;
 <p>Comparing nursing and school jobs? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; national RN pay, the multistate license and the NCLEX.</li>
-    <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a> &mdash; the nursing roles and pathways across American health care.</li>
-    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; state teaching licenses and the salary schedules school nurses often share.</li>
-    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the no-degree clinical role, and what it pays by setting.</li>
-    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; an entry-level health care job with NHS pay bands.</li>
-    <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in the USA</a> &mdash; a high-paying allied-health role, its licensing and the visa route.</li>
+    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a>: national RN pay, the multistate license and the NCLEX.</li>
+    <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a>: the nursing roles and pathways across American health care.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a>: state teaching licenses and the salary schedules school nurses often share.</li>
+    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a>: the no-degree clinical role, and what it pays by setting.</li>
+    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a>: an entry-level health care job with NHS pay bands.</li>
+    <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in the USA</a>: a high-paying allied-health role, its licensing and the visa route.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, licensing or careers advice. Wage data, state credential rules, certification fees and school health requirements change and differ by state and district. Confirm the current position with your state board of nursing, your state education agency, NBCSN and the district before applying.</p>

@@ -189,10 +189,10 @@ class BestPayingJobsAbroadWithoutDegreeBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/highest-paying-blue-collar-jobs-abroad-2026">Highest Paying Blue Collar Jobs Abroad</a> &mdash; pay by trade</li>
-    <li><a href="/blog/how-to-get-a-job-abroad-without-experience-2026">How to Get a Job Abroad Without Experience</a> &mdash; starting out</li>
-    <li><a href="/blog/best-trades-skills-working-gulf-countries">Best Trades and Skills for Working in Gulf Countries</a> &mdash; Gulf trades</li>
-    <li><a href="/blog/gulf-vs-europe-for-work">Which is Better: Gulf Countries or Europe for Work</a> &mdash; compare regions</li>
+    <li><a href="/blog/highest-paying-blue-collar-jobs-abroad-2026">Highest Paying Blue Collar Jobs Abroad</a>: pay by trade</li>
+    <li><a href="/blog/how-to-get-a-job-abroad-without-experience-2026">How to Get a Job Abroad Without Experience</a>: starting out</li>
+    <li><a href="/blog/best-trades-skills-working-gulf-countries">Best Trades and Skills for Working in Gulf Countries</a>: Gulf trades</li>
+    <li><a href="/blog/gulf-vs-europe-for-work">Which is Better: Gulf Countries or Europe for Work</a>: compare regions</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>

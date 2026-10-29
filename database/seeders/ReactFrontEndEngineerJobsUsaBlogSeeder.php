@@ -149,9 +149,9 @@ HTML;
 
 <h2 id="no-federal-rule">There Is No Federal Rule</h2>
 
-<p>Start with the thing that explains the patchwork: <strong>no federal law requires a US employer to publish a salary range in a job advertisement.</strong> The Fair Labor Standards Act sets minimum wage, overtime, recordkeeping and poster requirements and says nothing about disclosing pay in a posting. The federal pay discrimination statutes the EEOC enforces &mdash; the Equal Pay Act, Title VII, the ADEA and the ADA &mdash; impose no posting duty either. A federal Salary Transparency Act was introduced in 2023 and got no further than being referred to committee.</p>
+<p>Start with the thing that explains the patchwork: <strong>no federal law requires a US employer to publish a salary range in a job advertisement.</strong> The Fair Labor Standards Act sets minimum wage, overtime, recordkeeping and poster requirements and says nothing about disclosing pay in a posting. The federal pay discrimination statutes the EEOC enforces, the Equal Pay Act, Title VII, the ADEA and the ADA, impose no posting duty either. A federal Salary Transparency Act was introduced in 2023 and got no further than being referred to committee.</p>
 
-<p>One thing sometimes cited as a federal pay transparency rule is not one: the OFCCP provision under Executive Order 11246 protected employees who <em>discuss</em> their pay and never required ranges in adverts &mdash; and that executive order was revoked on <strong>21 January 2025</strong>.</p>
+<p>One thing sometimes cited as a federal pay transparency rule is not one: the OFCCP provision under Executive Order 11246 protected employees who <em>discuss</em> their pay and never required ranges in adverts, and that executive order was revoked on <strong>21 January 2025</strong>.</p>
 
 <p>So everything below is state and city law, which is why the same company's adverts look different depending on where the job is.</p>
 
@@ -160,16 +160,16 @@ HTML;
 <p>Ten states and New York City, on different thresholds and different dates. The ones a React engineer is most likely to meet:</p>
 
 <ul>
-    <li><strong>Colorado</strong> &mdash; the first, from <strong>1 January 2021</strong>, and still the broadest in one respect: no employee-count threshold at all. Since <strong>1 January 2024</strong> the employer must also disclose "THE DATE THE APPLICATION WINDOW IS ANTICIPATED TO CLOSE", alongside the compensation or range and "A GENERAL DESCRIPTION OF THE BENEFITS AND OTHER COMPENSATION".</li>
-    <li><strong>New York City</strong> &mdash; from <strong>1 November 2022</strong>, four or more employees. The Commission on Human Rights is specific that the range must be bounded: "Employers must include both a minimum and a maximum salary; the range cannot be open ended", and it gives the failing examples itself &mdash; "$15 per hour and up" or "maximum $50,000 per year".</li>
-    <li><strong>Washington</strong> &mdash; from <strong>1 January 2023</strong>, 15 or more employees, covering "the wage scale or salary range, and a general description of all benefits and other compensation".</li>
-    <li><strong>California</strong> &mdash; from <strong>1 January 2023</strong>: "An employer with 15 or more employees shall include the pay scale for a position in any job posting." The duty follows the advert to third parties, who must include the scale too. From <strong>1 January 2026</strong> a "pay scale" is defined as "a good faith estimate of the salary or hourly wage range that the employer reasonably expects to pay for the position upon hire".</li>
-    <li><strong>New York State</strong> &mdash; from <strong>17 September 2023</strong>, four or more employees, requiring "the compensation or a range of compensation" and the job description where one exists.</li>
-    <li><strong>Maryland</strong> &mdash; from <strong>1 October 2024</strong>, no employee threshold, for work "physically performed, at least in part, in the State". The range must be set "in good faith".</li>
-    <li><strong>Minnesota</strong> &mdash; from <strong>1 January 2025</strong>, but only for employers with <strong>30 or more</strong> employees in the state, the highest threshold of any of these. An employer with no range "must list a fixed pay rate. A salary range may not be open ended."</li>
-    <li><strong>New Jersey</strong> &mdash; from <strong>1 June 2025</strong>, ten or more employees, covering the wage or range, a description of benefits, and other compensation programmes.</li>
-    <li><strong>Vermont</strong> &mdash; from <strong>1 July 2025</strong>, five or more employees: "An employer shall ensure that any advertisement of a Vermont job opening shall include the compensation or range of compensation for the job opening."</li>
-    <li><strong>Massachusetts</strong> &mdash; from <strong>29 October 2025</strong>, 25 or more employees in the commonwealth. A "pay range" is "the annual salary range or hourly wage range that the covered employer reasonably and in good faith expects to pay for such position at that time".</li>
+    <li><strong>Colorado</strong>: the first, from <strong>1 January 2021</strong>, and still the broadest in one respect: no employee-count threshold at all. Since <strong>1 January 2024</strong> the employer must also disclose "THE DATE THE APPLICATION WINDOW IS ANTICIPATED TO CLOSE", alongside the compensation or range and "A GENERAL DESCRIPTION OF THE BENEFITS AND OTHER COMPENSATION".</li>
+    <li><strong>New York City</strong>: from <strong>1 November 2022</strong>, four or more employees. The Commission on Human Rights is specific that the range must be bounded: "Employers must include both a minimum and a maximum salary; the range cannot be open ended", and it gives the failing examples itself: "$15 per hour and up" or "maximum $50,000 per year".</li>
+    <li><strong>Washington</strong>: from <strong>1 January 2023</strong>, 15 or more employees, covering "the wage scale or salary range, and a general description of all benefits and other compensation".</li>
+    <li><strong>California</strong>: from <strong>1 January 2023</strong>: "An employer with 15 or more employees shall include the pay scale for a position in any job posting." The duty follows the advert to third parties, who must include the scale too. From <strong>1 January 2026</strong> a "pay scale" is defined as "a good faith estimate of the salary or hourly wage range that the employer reasonably expects to pay for the position upon hire".</li>
+    <li><strong>New York State</strong>: from <strong>17 September 2023</strong>, four or more employees, requiring "the compensation or a range of compensation" and the job description where one exists.</li>
+    <li><strong>Maryland</strong>: from <strong>1 October 2024</strong>, no employee threshold, for work "physically performed, at least in part, in the State". The range must be set "in good faith".</li>
+    <li><strong>Minnesota</strong>: from <strong>1 January 2025</strong>, but only for employers with <strong>30 or more</strong> employees in the state, the highest threshold of any of these. An employer with no range "must list a fixed pay rate. A salary range may not be open ended."</li>
+    <li><strong>New Jersey</strong>: from <strong>1 June 2025</strong>, ten or more employees, covering the wage or range, a description of benefits, and other compensation programmes.</li>
+    <li><strong>Vermont</strong>: from <strong>1 July 2025</strong>, five or more employees: "An employer shall ensure that any advertisement of a Vermont job opening shall include the compensation or range of compensation for the job opening."</li>
+    <li><strong>Massachusetts</strong>: from <strong>29 October 2025</strong>, 25 or more employees in the commonwealth. A "pay range" is "the annual salary range or hourly wage range that the covered employer reasonably and in good faith expects to pay for such position at that time".</li>
 </ul>
 
 <p>Illinois is frequently listed alongside these. Its position could not be confirmed against an official state source while this page was being checked, so nothing is asserted about it here rather than repeating a summary.</p>
@@ -178,7 +178,7 @@ HTML;
 
 <h2 id="remote-roles">The Part That Matters If You Are Not In Those States</h2>
 
-<p>This is the useful section, because a remote React role advertised from California or Seattle may have to show you a band wherever you are &mdash; and the tests differ.</p>
+<p>This is the useful section, because a remote React role advertised from California or Seattle may have to show you a band wherever you are, and the tests differ.</p>
 
 <p><strong>Washington reaches furthest, and closes the obvious loophole in terms.</strong> Its labour department states that "engaging in any business... in Washington" includes employers with no physical presence there who "recruit for jobs that could be filled by a Washington-based employee", and that postings for remote work that a Washington-based employee could do must carry the range. Then this:</p>
 
@@ -186,7 +186,7 @@ HTML;
 
 <p><strong>California's test is whether the role could ever be filled there</strong>, which is a very low bar: the Labor Commissioner's Office reads the statute to mean "the pay scale must be included in the job posting if the position may ever be filled in California, either in-person or remotely".</p>
 
-<p><strong>New York State applies a "reports to" test</strong>, written into the statute: it covers a job "that will physically be performed outside of New York but reports to a supervisor, office, or other work site in New York". Its labour department works the boundary through in both directions. Where the employee reports into New York, "the posting must include the pay or pay range, regardless of whether the employee is working from home outside New York State". But where only the supervisor happens to be remote in New York while the company and its leadership sit elsewhere and the role can be done anywhere, the posting is not caught. Occasional presence in New York &mdash; "an occasional meeting or conference" &mdash; is not enough either.</p>
+<p><strong>New York State applies a "reports to" test</strong>, written into the statute: it covers a job "that will physically be performed outside of New York but reports to a supervisor, office, or other work site in New York". Its labour department works the boundary through in both directions. Where the employee reports into New York, "the posting must include the pay or pay range, regardless of whether the employee is working from home outside New York State". But where only the supervisor happens to be remote in New York while the company and its leadership sit elsewhere and the role can be done anywhere, the posting is not caught. Occasional presence in New York, "an occasional meeting or conference", is not enough either.</p>
 
 <p><strong>New York City</strong> covers positions that "can or will be performed, in whole or in part, in New York City, whether from an office, in the field, or remotely from the employee's home". <strong>Massachusetts</strong> uses a primary place of work test, reaching "positions that can be performed remotely to a Massachusetts worksite". <strong>Vermont</strong> writes it into the definition, covering a remote position that "will predominantly perform work for an office or work location that is physically located in Vermont". <strong>Maryland</strong> is the narrowest and cleanest: work physically performed at least in part in the state.</p>
 
@@ -270,17 +270,17 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the main guide: the two occupations, the pay bands and the eligibility filter.</li>
-    <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a> &mdash; the equity and bonus part of an offer, and how each is taxed.</li>
-    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; what seniority changes in law, including your overtime status.</li>
-    <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a> &mdash; why a remote advert can exclude your state, and where you owe tax.</li>
-    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage these ladders hire through.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the main guide: the two occupations, the pay bands and the eligibility filter.</li>
+    <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a>: the equity and bonus part of an offer, and how each is taxed.</li>
+    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a>: what seniority changes in law, including your overtime status.</li>
+    <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a>: why a remote advert can exclude your state, and where you owe tax.</li>
+    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a>: the assessment stage these ladders hire through.</li>
 </ul>
 
 <h2>Official sources</h2>
 
 <ul>
-    <li>Colorado General Assembly &mdash; SB 19-085 and SB 23-105 amending C.R.S. 8-5-201.</li>
+    <li>Colorado General Assembly: SB 19-085 and SB 23-105 amending C.R.S. 8-5-201.</li>
     <li>California Labor Code section 432.3, as amended in 2025; and the Labor Commissioner's Office equal pay guidance.</li>
     <li>New York Labor Law section 194-b and the New York State Department of Labor pay transparency guidance; New York City Commission on Human Rights salary transparency factsheet.</li>
     <li>Washington State Department of Labor and Industries, administrative policy ES.E.2 on job posting requirements.</li>
@@ -288,7 +288,7 @@ HTML;
     <li>US Department of Labor on the Fair Labor Standards Act; EEOC on equal pay and compensation discrimination; Bureau of Labor Statistics Occupational Outlook Handbook, May 2025 wages.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Pay transparency law is changing quickly, thresholds and effective dates differ by jurisdiction, and whether a rule reaches a particular remote role can turn on facts this page cannot know &mdash; confirm the current position with the relevant state labour department before relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Pay transparency law is changing quickly, thresholds and effective dates differ by jurisdiction, and whether a rule reaches a particular remote role can turn on facts this page cannot know: confirm the current position with the relevant state labour department before relying on any of it.</p>
 HTML;
     }
 }

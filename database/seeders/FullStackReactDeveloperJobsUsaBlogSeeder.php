@@ -152,7 +152,7 @@ HTML;
 
 <p>The large half is that you now hold other people's data. In the United States that is not only an engineering responsibility, it is a regulated one, and the rules are specific enough to name secure development practices by name. Almost nothing written for developers explains them, which is a shame, because they are exactly what the senior part of a full stack interview is circling around.</p>
 
-<p>Two things this page does not do. It does not re-argue which pay band the title hides &mdash; our <a href="/blog/full-stack-developer-jobs-in-usa">full stack developer guide</a> does that in full, and the short version is that "full stack" spans two BLS occupations about $43,000 apart at the median. And it does not tell you that you are personally liable for a breach, because you are generally not. What follows is your employer's duty, and how it shapes your job.</p>
+<p>Two things this page does not do. It does not re-argue which pay band the title hides: our <a href="/blog/full-stack-developer-jobs-in-usa">full stack developer guide</a> does that in full, and the short version is that "full stack" spans two BLS occupations about $43,000 apart at the median. And it does not tell you that you are personally liable for a breach, because you are generally not. What follows is your employer's duty, and how it shapes your job.</p>
 
 <h2 id="the-pay-question-briefly">The Pay Question, Briefly</h2>
 
@@ -196,7 +196,7 @@ HTML;
 
 <p>Alongside it, obligations you will feel as engineering constraints:</p>
 <ul>
-    <li><strong>A designated Qualified Individual</strong> responsible for the security programme &mdash; a real role, and a career destination.</li>
+    <li><strong>A designated Qualified Individual</strong> responsible for the security programme: a real role, and a career destination.</li>
     <li><strong>Encryption of customer information "both in transit over external networks and at rest"</strong>, with alternatives only where encryption is infeasible and the Qualified Individual approves compensating controls.</li>
     <li><strong>Multi-factor authentication for any individual accessing any information system</strong>, unless equivalent controls are approved in writing.</li>
     <li><strong>Access limited to what a user needs</strong> "to perform their duties and functions", and logging "to monitor and log the activity of authorized users".</li>
@@ -206,11 +206,11 @@ HTML;
 
 <p>And a reporting duty with hard numbers, at 314.4(j)(1), in force since <strong>13 May 2024</strong>: where a notification event "involves the information of at least <strong>500 consumers</strong>", the FTC must be notified "as soon as possible, and no later than <strong>30 days</strong> after discovery of the event".</p>
 
-<p>Worth knowing: the rule exempts institutions holding information on fewer than five thousand consumers from some duties &mdash; but <em>not</em> from the encryption requirement, <em>not</em> from secure development practices, and <em>not</em> from the FTC notification. A small startup does not escape those three.</p>
+<p>Worth knowing: the rule exempts institutions holding information on fewer than five thousand consumers from some duties, but <em>not</em> from the encryption requirement, <em>not</em> from secure development practices, and <em>not</em> from the FTC notification. A small startup does not escape those three.</p>
 
 <h2 id="health-data">If the Product Touches Health Data</h2>
 
-<p>A common assumption is that HIPAA binds hospitals and that a software vendor is merely contractually exposed. That is wrong. A vendor that creates, receives, maintains or transmits protected health information on a covered entity's behalf is a <strong>business associate</strong> &mdash; and the definition expressly includes "a subcontractor that creates, receives, maintains, or transmits protected health information on behalf of the business associate", so it flows down the chain.</p>
+<p>A common assumption is that HIPAA binds hospitals and that a software vendor is merely contractually exposed. That is wrong. A vendor that creates, receives, maintains or transmits protected health information on a covered entity's behalf is a <strong>business associate</strong>, and the definition expressly includes "a subcontractor that creates, receives, maintains, or transmits protected health information on behalf of the business associate", so it flows down the chain.</p>
 
 <p>The Security Rule then binds business associates directly:</p>
 
@@ -218,7 +218,7 @@ HTML;
 
 <p>Its technical safeguards read like an architecture checklist: <strong>access control</strong>, with unique user identification required; <strong>audit controls</strong> that "record and examine activity in information systems"; <strong>integrity</strong>; <strong>person or entity authentication</strong>; and <strong>transmission security</strong>.</p>
 
-<p>Two precise points that most writing on this gets wrong. Specifications are labelled either <em>required</em> or <em>addressable</em>, and <strong>encryption &mdash; both at rest and in transmission &mdash; is addressable, not required</strong>. But addressable does not mean optional: you must assess it, implement it if reasonable and appropriate, or document why it is not <em>and</em> implement an equivalent alternative. In practice the honest engineering answer is to encrypt and skip the paperwork.</p>
+<p>Two precise points that most writing on this gets wrong. Specifications are labelled either <em>required</em> or <em>addressable</em>, and <strong>encryption, both at rest and in transmission, is addressable, not required</strong>. But addressable does not mean optional: you must assess it, implement it if reasonable and appropriate, or document why it is not <em>and</em> implement an equivalent alternative. In practice the honest engineering answer is to encrypt and skip the paperwork.</p>
 
 <h2 id="breach-notification">When It Goes Wrong: There Is No Federal Rule</h2>
 
@@ -234,13 +234,13 @@ HTML;
 
 <p>This deserves a straight answer, because the sections above can read as alarming.</p>
 
-<p><strong>The duties run to the company, not to you.</strong> The Safeguards Rule defines its regulated parties as the financial institutions themselves and addresses every obligation to them. The HIPAA Security Rule says "covered entities and business associates must" &mdash; and makes the entity responsible for its people, requiring it to "ensure compliance with this subpart by its workforce". <strong>No official source says an individual developer bears legal liability for a security defect in software written for an employer.</strong></p>
+<p><strong>The duties run to the company, not to you.</strong> The Safeguards Rule defines its regulated parties as the financial institutions themselves and addresses every obligation to them. The HIPAA Security Rule says "covered entities and business associates must", and makes the entity responsible for its people, requiring it to "ensure compliance with this subpart by its workforce". <strong>No official source says an individual developer bears legal liability for a security defect in software written for an employer.</strong></p>
 
 <p>Two narrow exceptions, stated precisely so they are not overread:</p>
 
 <ul>
-    <li><strong>Knowing misuse of health data reaches individuals.</strong> Federal law makes it an offence for "a person (including an employee or other individual)" to knowingly obtain or disclose individually identifiable health information without authorisation, with serious penalties. That is about an engineer who looks up records or takes data &mdash; not about writing insecure code.</li>
-    <li><strong>An FTC order can follow a senior officer.</strong> In one settlement the obligation attached personally to a chief executive and would follow him to a future company where he was "a majority owner, CEO, or senior officer with information security responsibilities". That is a real precedent, and it attaches at the point you become the person accountable for security &mdash; which is what the Safeguards Rule's Qualified Individual is.</li>
+    <li><strong>Knowing misuse of health data reaches individuals.</strong> Federal law makes it an offence for "a person (including an employee or other individual)" to knowingly obtain or disclose individually identifiable health information without authorisation, with serious penalties. That is about an engineer who looks up records or takes data, not about writing insecure code.</li>
+    <li><strong>An FTC order can follow a senior officer.</strong> In one settlement the obligation attached personally to a chief executive and would follow him to a future company where he was "a majority owner, CEO, or senior officer with information security responsibilities". That is a real precedent, and it attaches at the point you become the person accountable for security, which is what the Safeguards Rule's Qualified Individual is.</li>
 </ul>
 
 <p>So the accurate framing is: the law puts the duty on the company, and what it does to you is <em>define the job</em>. That is also why these obligations are worth knowing in an interview. An engineer who can say why authorisation belongs on the server, why the schema should not store what it does not need, and what happens on the clock after a breach is describing the higher of the two pay bands.</p>
@@ -249,13 +249,13 @@ HTML;
 
 <p>If the company sells to the federal government, the reference point is NIST's <strong>Secure Software Development Framework</strong>, SP 800-218 version 1.1, published February 2022. Its premise is one most teams recognise: "Few software development life cycle (SDLC) models explicitly address software security in detail, so secure software development practices usually need to be added to each SDLC model."</p>
 
-<p>Its practices sit in four groups &mdash; <strong>Prepare the Organization</strong>, <strong>Protect the Software</strong>, <strong>Produce Well-Secured Software</strong> and <strong>Respond to Vulnerabilities</strong> &mdash; and the individual practice names are a good self-assessment for a full stack engineer: "Design Software to Meet Security Requirements and Mitigate Security Risks"; "Reuse Existing, Well-Secured Software When Feasible Instead of Duplicating Functionality"; "Create Source Code by Adhering to Secure Coding Practices"; "Configure the Compilation, Interpreter, and Build Processes to Improve Executable Security"; "Test Executable Code to Identify Vulnerabilities and Verify Compliance with Security Requirements"; "Archive and Protect Each Software Release"; and "Identify and Confirm Vulnerabilities on an Ongoing Basis".</p>
+<p>Its practices sit in four groups, <strong>Prepare the Organization</strong>, <strong>Protect the Software</strong>, <strong>Produce Well-Secured Software</strong> and <strong>Respond to Vulnerabilities</strong>, and the individual practice names are a good self-assessment for a full stack engineer: "Design Software to Meet Security Requirements and Mitigate Security Risks"; "Reuse Existing, Well-Secured Software When Feasible Instead of Duplicating Functionality"; "Create Source Code by Adhering to Secure Coding Practices"; "Configure the Compilation, Interpreter, and Build Processes to Improve Executable Security"; "Test Executable Code to Identify Vulnerabilities and Verify Compliance with Security Requirements"; "Archive and Protect Each Software Release"; and "Identify and Confirm Vulnerabilities on an Ongoing Basis".</p>
 
 <p>The reuse practice is worth dwelling on, because it is the opposite of what ambitious engineers instinctively do: reuse "lower[s] the costs of software development, expedite[s] software development, and decrease[s] the likelihood of introducing additional security vulnerabilities".</p>
 
 <h2 id="applying">Where To Apply, and What To Build</h2>
 
-<p>Apply through employers' own career systems rather than through an aggregator: the listing is current, the requisition is real, and the sponsorship line is accurate. Large US technology employers publish their own searches, for example <a href="https://www.amazon.jobs/en/job-category/software-development" target="_blank" rel="noopener nofollow">Amazon's software development category</a>, <a href="https://careers.walmart.com/us/en" target="_blank" rel="noopener nofollow">Walmart's US careers site</a> and <a href="https://jobs.careers.microsoft.com/global/en/search" target="_blank" rel="noopener nofollow">Microsoft's careers search</a>. Search several titles &mdash; full stack engineer, software engineer, frontend engineer, application developer &mdash; because "full stack React developer" is only one of the labels for this work.</p>
+<p>Apply through employers' own career systems rather than through an aggregator: the listing is current, the requisition is real, and the sponsorship line is accurate. Large US technology employers publish their own searches, for example <a href="https://www.amazon.jobs/en/job-category/software-development" target="_blank" rel="noopener nofollow">Amazon's software development category</a>, <a href="https://careers.walmart.com/us/en" target="_blank" rel="noopener nofollow">Walmart's US careers site</a> and <a href="https://jobs.careers.microsoft.com/global/en/search" target="_blank" rel="noopener nofollow">Microsoft's careers search</a>. Search several titles, full stack engineer, software engineer, frontend engineer, application developer, because "full stack React developer" is only one of the labels for this work.</p>
 
 <p>For the portfolio, one complete application beats several partial ones, and the things that make it read as full stack are mostly the ones this page has been about: authorisation enforced on the server rather than in the interface; a schema that stores only what the feature needs; secrets that are not in the repository; parameterised queries; a migration history; tests; and a README that explains the decisions rather than listing the technologies.</p>
 
@@ -316,25 +316,25 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; which of two pay bands the title is hiding, and what working for a US company from abroad really involves.</li>
-    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the main guide: the two occupations, the pay bands and the eligibility filter.</li>
-    <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a> &mdash; the equity and bonus part of an enterprise offer, and how it is taxed.</li>
-    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage, and the adjustment you are entitled to ask for.</li>
-    <li><a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript Developer Jobs in USA</a> &mdash; validating data at the API boundary, which is the same problem from the other side.</li>
+    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a>, which of two pay bands the title is hiding, and what working for a US company from abroad really involves.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the main guide: the two occupations, the pay bands and the eligibility filter.</li>
+    <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a>: the equity and bonus part of an enterprise offer, and how it is taxed.</li>
+    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a>: the assessment stage, and the adjustment you are entitled to ask for.</li>
+    <li><a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript Developer Jobs in USA</a>: validating data at the API boundary, which is the same problem from the other side.</li>
 </ul>
 
 <h2>Official sources</h2>
 
 <ul>
-    <li>Federal Trade Commission &mdash; "Start with Security: A Guide for Business", and the Data Breach Response guide.</li>
-    <li>16 CFR Part 314, the Safeguards Rule &mdash; sections 314.1, 314.2, 314.4, 314.5 and 314.6.</li>
-    <li>45 CFR 160.103, 164.306 and 164.312 &mdash; the HIPAA Security Rule and the definition of a business associate.</li>
+    <li>Federal Trade Commission: "Start with Security: A Guide for Business", and the Data Breach Response guide.</li>
+    <li>16 CFR Part 314, the Safeguards Rule: sections 314.1, 314.2, 314.4, 314.5 and 314.6.</li>
+    <li>45 CFR 160.103, 164.306 and 164.312: the HIPAA Security Rule and the definition of a business associate.</li>
     <li>California Civil Code section 1798.82; and the Colorado Attorney General on C.R.S. 6-1-716.</li>
     <li>NIST Special Publication 800-218, Secure Software Development Framework version 1.1.</li>
-    <li>Bureau of Labor Statistics &mdash; Occupational Outlook Handbook, May 2025 wages.</li>
+    <li>Bureau of Labor Statistics: Occupational Outlook Handbook, May 2025 wages.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Regulations and state notification deadlines change, and whether a rule applies turns on facts this page cannot know &mdash; confirm the current position with the Federal Trade Commission, the Department of Health and Human Services, the relevant state attorney general and your employer's counsel before relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Regulations and state notification deadlines change, and whether a rule applies turns on facts this page cannot know: confirm the current position with the Federal Trade Commission, the Department of Health and Human Services, the relevant state attorney general and your employer's counsel before relying on any of it.</p>
 HTML;
     }
 }

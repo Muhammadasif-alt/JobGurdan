@@ -9,7 +9,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Adjunct Teaching Opportunities" — the hub for the generic search term.
+ * "Adjunct Teaching Opportunities": the hub for the generic search term.
  *
  * The four UK pages in this cluster already own their own country queries:
  * adjunct teaching jobs, adjunct faculty vacancies, adjunct professor jobs
@@ -271,15 +271,15 @@ class AdjunctTeachingOpportunitiesBlogSeeder extends Seeder
 <p>The country detail sits in these:</p>
 
 <ul>
-    <li><a href="/blog/faculty-careers-in-the-us">Faculty Careers in the US</a> &mdash; every US appointment type compared, with the BLS pay data for each kind of institution.</li>
-    <li><a href="/blog/adjunct-teaching-jobs-in-the-uk">Adjunct Teaching Jobs in the UK</a> &mdash; what the paid work is really called, and the contracts it comes on.</li>
-    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the honorary title that is not a job and carries no salary.</li>
-    <li><a href="/blog/adjunct-faculty-vacancies-in-the-uk">Adjunct Faculty Vacancies in the UK</a> &mdash; where the hourly-paid vacancies are actually advertised.</li>
-    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; the route in, and why the pay floor rules out sponsorship.</li>
-    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; qualified teacher status and the school pay scales.</li>
-    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; the school-level route in the country where "adjunct" is a real job title.</li>
-    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a> &mdash; teaching work that needs no faculty appointment at all.</li>
-    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; remote teaching outside the university system.</li>
+    <li><a href="/blog/faculty-careers-in-the-us">Faculty Careers in the US</a>: every US appointment type compared, with the BLS pay data for each kind of institution.</li>
+    <li><a href="/blog/adjunct-teaching-jobs-in-the-uk">Adjunct Teaching Jobs in the UK</a>: what the paid work is really called, and the contracts it comes on.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a>: the honorary title that is not a job and carries no salary.</li>
+    <li><a href="/blog/adjunct-faculty-vacancies-in-the-uk">Adjunct Faculty Vacancies in the UK</a>: where the hourly-paid vacancies are actually advertised.</li>
+    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a>: the route in, and why the pay floor rules out sponsorship.</li>
+    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a>: qualified teacher status and the school pay scales.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a>: the school-level route in the country where "adjunct" is a real job title.</li>
+    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a>: teaching work that needs no faculty appointment at all.</li>
+    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a>: remote teaching outside the university system.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or financial advice. Pay surveys, federal rules and institutional policies change. Confirm current figures with BLS, AAUP, the IRS and your own institution before relying on them.</p>

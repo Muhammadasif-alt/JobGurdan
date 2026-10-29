@@ -130,9 +130,9 @@ HTML;
 <h2>Physiotherapy assistant pay in 2026/27</h2>
 <p>NHS pay runs on Agenda for Change, and Agenda for Change is not one UK-wide set of numbers. England and Scotland negotiate separately, and from 1 April 2026 they are a long way apart for exactly the same band.</p>
 <table><thead><tr><th scope="col">Band</th><th scope="col">England, from 1 April 2026</th><th scope="col">Scotland, from 1 April 2026</th></tr></thead><tbody>
-<tr><td>Band 2</td><td>&pound;25,272 (a single point) &mdash; &pound;12.92 an hour</td><td>&pound;26,696 to &pound;28,988 &mdash; &pound;14.22 to &pound;15.44 an hour</td></tr>
-<tr><td><strong>Band 3</strong></td><td><strong>&pound;25,760 to &pound;27,476</strong> &mdash; &pound;13.17 to &pound;14.05 an hour</td><td><strong>&pound;29,103 to &pound;31,409</strong> &mdash; &pound;15.50 to &pound;16.73 an hour</td></tr>
-<tr><td>Band 4</td><td>&pound;28,392 to &pound;31,157 &mdash; &pound;14.52 to &pound;15.93 an hour</td><td>&pound;31,537 to &pound;34,303 &mdash; &pound;16.80 to &pound;18.27 an hour</td></tr>
+<tr><td>Band 2</td><td>&pound;25,272 (a single point), &pound;12.92 an hour</td><td>&pound;26,696 to &pound;28,988, &pound;14.22 to &pound;15.44 an hour</td></tr>
+<tr><td><strong>Band 3</strong></td><td><strong>&pound;25,760 to &pound;27,476</strong>, &pound;13.17 to &pound;14.05 an hour</td><td><strong>&pound;29,103 to &pound;31,409</strong>, &pound;15.50 to &pound;16.73 an hour</td></tr>
+<tr><td>Band 4</td><td>&pound;28,392 to &pound;31,157, &pound;14.52 to &pound;15.93 an hour</td><td>&pound;31,537 to &pound;34,303, &pound;16.80 to &pound;18.27 an hour</td></tr>
 </tbody></table>
 <p>The English hourly rates are based on a 37.5-hour week. The Scottish ones are based on a <strong>36-hour week</strong>, which is why the hourly gap is wider than the annual one. Sources: <a href="https://www.nhsemployers.org/articles/pay-scales-202627">NHS Employers, pay scales for 2026/27</a> and <a href="https://www.publications.scot.nhs.uk/files/pcs2026-afc-01.pdf">NHS Circular PCS(AFC)2026/1</a>, both checked on 28 September 2026.</p>
 
@@ -200,7 +200,7 @@ HTML;
 </ol>
 
 <h2>Where the job leads</h2>
-<p>This is one of the better-mapped routes in the NHS. With experience you can move to team leader, or apply to train as an assistant practitioner at Band 4. With the qualifications needed for university entry you can train as a physiotherapist, which requires a degree and registration with the Health and Care Professions Council, and which puts you on Band 5 &mdash; &pound;32,073 to &pound;39,043 in England from April 2026.</p>
+<p>This is one of the better-mapped routes in the NHS. With experience you can move to team leader, or apply to train as an assistant practitioner at Band 4. With the qualifications needed for university entry you can train as a physiotherapist, which requires a degree and registration with the Health and Care Professions Council, and which puts you on Band 5: &pound;32,073 to &pound;39,043 in England from April 2026.</p>
 <p>Some trusts fund a degree apprenticeship, which lets you keep earning while you qualify. Ask about it at interview even when the advert does not mention it.</p>
 
 <h2>Frequently Asked Questions</h2>
@@ -241,10 +241,10 @@ HTML;
 
 <h2>Related career guides</h2>
 <ul>
-<li><a href="/blog/hospital-support-worker-jobs-in-the-uk">Hospital Support Worker Jobs in the UK</a> &mdash; the same bands and enhancements on a ward instead of in a therapy department.</li>
-<li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a> &mdash; the three job titles this role is most often confused with, correctly separated.</li>
-<li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; the full sponsorship answer for overseas applicants at these bands.</li>
-<li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in USA</a> &mdash; what the qualified profession earns on the other side of the Atlantic.</li>
+<li><a href="/blog/hospital-support-worker-jobs-in-the-uk">Hospital Support Worker Jobs in the UK</a>: the same bands and enhancements on a ward instead of in a therapy department.</li>
+<li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a>: the three job titles this role is most often confused with, correctly separated.</li>
+<li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a>: the full sponsorship answer for overseas applicants at these bands.</li>
+<li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in USA</a>: what the qualified profession earns on the other side of the Atlantic.</li>
 </ul>
 
 <h2>Official sources and verification</h2>

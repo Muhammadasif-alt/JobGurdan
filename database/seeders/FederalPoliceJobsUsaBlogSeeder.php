@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Federal Police Jobs in USA" — uniformed officers and special agents at the
+ * "Federal Police Jobs in USA": uniformed officers and special agents at the
  * FBI, CBP, ICE, US Marshals and other federal agencies. The police officer
  * guide covers state and local departments and non-citizen hiring, and this
  * one owns federal pay tables, availability pay, age limits and retirement.
@@ -156,14 +156,14 @@ class FederalPoliceJobsUsaBlogSeeder extends Seeder
     <li><strong>Retirement.</strong> Special law enforcement retirement at 50 with 20 years of service, or at any age with 25</li>
 </ul>
 
-<p><strong>Note:</strong> pay, eligibility and hiring rules are set by each federal agency and the Office of Personnel Management &mdash; not by JobGader. Confirm the details on the official USAJOBS or agency posting before applying.</p>
+<p><strong>Note:</strong> pay, eligibility and hiring rules are set by each federal agency and the Office of Personnel Management, not by JobGader. Confirm the details on the official USAJOBS or agency posting before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Federal law enforcement covers very different jobs &mdash; officers at ports of entry, deputy marshals, air marshals and FBI special agents &mdash; but they share one pay system, one retirement system and one hard rule: you must be a US citizen. Before you apply, it helps to know four things most guides get wrong: what the 2026 pay tables really say, how much availability pay adds for special agents, which age limit applies to which agency, and where the hiring is right now.</p>
+<p>Federal law enforcement covers very different jobs, officers at ports of entry, deputy marshals, air marshals and FBI special agents, but they share one pay system, one retirement system and one hard rule: you must be a US citizen. Before you apply, it helps to know four things most guides get wrong: what the 2026 pay tables really say, how much availability pay adds for special agents, which age limit applies to which agency, and where the hiring is right now.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/government-public-sector?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -208,7 +208,7 @@ JOBHTML;
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
-<h2>Age Limits Differ by Agency &mdash; and ICE Has None</h2>
+<h2>Age Limits Differ by Agency: and ICE Has None</h2>
 
 <p>Guides give a single age range of 21 to 37. OPM says the maximum entry age for law enforcement jobs varies from agency to agency, and each agency sets its own rule:</p>
 
@@ -234,7 +234,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Federal Protective Service officers</strong> protect federal buildings and the people in them.</li>
-    <li><strong>US Park Police officers</strong> are based in the <strong>Washington DC, New York City and San Francisco</strong> areas, with jurisdiction across federal parks &mdash; not stationed in national parks nationwide, as guides suggest.</li>
+    <li><strong>US Park Police officers</strong> are based in the <strong>Washington DC, New York City and San Francisco</strong> areas, with jurisdiction across federal parks, not stationed in national parks nationwide, as guides suggest.</li>
     <li><strong>CBP officers</strong> inspect travellers and cargo at ports of entry, and <strong>Border Patrol agents</strong> work between them.</li>
     <li><strong>Federal Air Marshals</strong> fly on commercial flights for the TSA.</li>
     <li><strong>Deputy US Marshals</strong> find fugitives, protect federal courts and move prisoners.</li>
@@ -325,17 +325,17 @@ JOBHTML;
 <p>Comparing public service and security careers? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a> &mdash; state and local departments, and which ones hire non-citizens.</li>
-    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; the civilian route into cyber investigations and clearances.</li>
-    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; another public service career, with pay set by state and district.</li>
-    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a> &mdash; private security work in the Gulf.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; the licensing a Gulf security job needs.</li>
-    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; public service careers at home, and how the tests work.</li>
-    <li><a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a> &mdash; the analyst side of federal security work, its GS pay and the TS/SCI clearance.</li>
-    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a> &mdash; federal CSC versus provincial jails, who can apply, training and Job Bank pay.</li>
-    <li><a href="/blog/government-security-jobs-in-australia">Government Security Jobs in Australia</a> &mdash; AFP protective service officer pay, Border Force, ASIO and ASD requirements, and how security clearances work.</li>
-    <li><a href="/blog/emergency-dispatcher-jobs-in-usa">Emergency Dispatcher Jobs in USA</a> &mdash; 911 telecommunicator pay, experience rules, typing and CritiCall tests, and 2026 openings in Houston, NYC and LA County.</li>
-    <li><a href="/blog/law-enforcement-jobs-in-usa">Law Enforcement Jobs in USA</a> &mdash; patrol, detective, transit, game warden and federal paths compared, with BLS pay and NYPD, FBI and DEA entry rules.</li>
+    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a>: state and local departments, and which ones hire non-citizens.</li>
+    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a>: the civilian route into cyber investigations and clearances.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a>: another public service career, with pay set by state and district.</li>
+    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a>: private security work in the Gulf.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: the licensing a Gulf security job needs.</li>
+    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a>: public service careers at home, and how the tests work.</li>
+    <li><a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a>: the analyst side of federal security work, its GS pay and the TS/SCI clearance.</li>
+    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a>: federal CSC versus provincial jails, who can apply, training and Job Bank pay.</li>
+    <li><a href="/blog/government-security-jobs-in-australia">Government Security Jobs in Australia</a>: AFP protective service officer pay, Border Force, ASIO and ASD requirements, and how security clearances work.</li>
+    <li><a href="/blog/emergency-dispatcher-jobs-in-usa">Emergency Dispatcher Jobs in USA</a>: 911 telecommunicator pay, experience rules, typing and CritiCall tests, and 2026 openings in Houston, NYC and LA County.</li>
+    <li><a href="/blog/law-enforcement-jobs-in-usa">Law Enforcement Jobs in USA</a>: patrol, detective, transit, game warden and federal paths compared, with BLS pay and NYPD, FBI and DEA entry rules.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, careers or financial advice. Federal pay tables, special rates, age limits and hiring incentives change every year and differ by agency. Confirm the current position on the OPM website, USAJOBS and the agency's own careers site before applying.</p>

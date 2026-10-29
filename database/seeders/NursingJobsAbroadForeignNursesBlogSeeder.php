@@ -343,11 +343,11 @@ JOBHTML;
 <p>Related healthcare guides:</p>
 
 <ul>
-    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; the Saudi route in detail.</li>
-    <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a> &mdash; the American route.</li>
-    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; licensing and visas.</li>
-    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; roles beyond registered nursing.</li>
-    <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a> &mdash; the support-worker route.</li>
+    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a>: the Saudi route in detail.</li>
+    <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a>: the American route.</li>
+    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a>: licensing and visas.</li>
+    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a>: roles beyond registered nursing.</li>
+    <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a>: the support-worker route.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or career advice. Information is drawn from SCFHS, the NMC, GOV.UK, the NMBA and NSW Health, checked on 6 October 2026. Registration and visa rules change, so confirm them with the official authority before applying or paying for any examination.</p>

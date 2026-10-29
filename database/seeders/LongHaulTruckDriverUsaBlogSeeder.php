@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Become a Long-Haul Truck Driver in USA" — the route from no licence
+ * "How to Become a Long-Haul Truck Driver in USA": the route from no licence
  * to a first over-the-road job: the CLP, ELDT, the skills test, choosing
  * training and what the first year is really like.
  *
@@ -166,7 +166,7 @@ class LongHaulTruckDriverUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, training contracts and hiring rules are set by each carrier and by federal and state law &mdash; not by JobGader. Read the carrier's current posting and training agreement before signing.</p>
+<p><strong>Note:</strong> pay, training contracts and hiring rules are set by each carrier and by federal and state law, not by JobGader. Read the carrier's current posting and training agreement before signing.</p>
 JOBHTML;
     }
 
@@ -200,7 +200,7 @@ JOBHTML;
 
 <p>The federal rules make the timeline arithmetic simple. You cannot take the skills test until <strong>14 days</strong> after your permit is issued, and you cannot take it at all until a <strong>registered ELDT provider</strong> has reported your theory and behind-the-wheel training to the registry. Theory requires a score of at least <strong>80%</strong>.</p>
 
-<p>There is no federal minimum number of behind-the-wheel hours &mdash; the rule says the instructor must cover every topic in the curriculum instead &mdash; which is why school lengths vary from about three weeks to two months. What cannot vary is the permit wait and the registry report, so any advert promising a licence in days is selling something that federal rules do not allow.</p>
+<p>There is no federal minimum number of behind-the-wheel hours, the rule says the instructor must cover every topic in the curriculum instead, which is why school lengths vary from about three weeks to two months. What cannot vary is the permit wait and the registry report, so any advert promising a licence in days is selling something that federal rules do not allow.</p>
 
 <figure style="margin:32px 0;">
     <img src="/public/storage/blogs/how-to-become-a-long-haul-truck-driver-in-usa-highway.jpg" alt="A long-haul truck driver beside his tractor-trailer on an American interstate at sunrise" style="width:100%;height:auto;border-radius:12px;" loading="lazy">
@@ -266,7 +266,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>The BLS confirms the pay structure &mdash; drivers "usually are paid by how many miles they have driven, plus bonuses", and some long-distance drivers, especially owner-operators, take a share of the load revenue &mdash; but <strong>no federal source publishes cents-per-mile rates or average annual mileage</strong>. Treat the CPM ranges and "$50,000 to $55,000 starting" figures in most guides as marketing, not data.</p>
+<p>The BLS confirms the pay structure, drivers "usually are paid by how many miles they have driven, plus bonuses", and some long-distance drivers, especially owner-operators, take a share of the load revenue, but <strong>no federal source publishes cents-per-mile rates or average annual mileage</strong>. Treat the CPM ranges and "$50,000 to $55,000 starting" figures in most guides as marketing, not data.</p>
 
 <p>What to ask a recruiter instead: the carrier's <strong>published average weekly pay</strong> for drivers at your experience level, the <strong>average miles per week actually run</strong> by that fleet, whether detention and layover are paid, and how home time is scheduled. A high cents-per-mile rate on low miles pays less than a lower rate on steady miles.</p>
 
@@ -278,11 +278,11 @@ JOBHTML;
 <h2>Endorsements That Raise What You Can Haul</h2>
 
 <ul>
-    <li><strong>T</strong> &mdash; double and triple trailers (knowledge test only);</li>
-    <li><strong>N</strong> &mdash; tank vehicles (knowledge test only);</li>
-    <li><strong>H</strong> &mdash; hazardous materials (knowledge test plus a TSA security threat assessment);</li>
-    <li><strong>X</strong> &mdash; tank and hazmat combined;</li>
-    <li><strong>P</strong> and <strong>S</strong> &mdash; passenger and school bus (knowledge and skills tests).</li>
+    <li><strong>T</strong>: double and triple trailers (knowledge test only);</li>
+    <li><strong>N</strong>: tank vehicles (knowledge test only);</li>
+    <li><strong>H</strong>: hazardous materials (knowledge test plus a TSA security threat assessment);</li>
+    <li><strong>X</strong>: tank and hazmat combined;</li>
+    <li><strong>P</strong> and <strong>S</strong>: passenger and school bus (knowledge and skills tests).</li>
 </ul>
 
 <p>The hazmat endorsement is the one with a background check: the TSA assessment costs <strong>$85.25</strong> for a new application or renewal, with a reduced rate of $41.00 for existing TWIC holders in some states, and lasts five years.</p>
@@ -308,7 +308,7 @@ JOBHTML;
 
 <h2>Is the Job Outlook Strong?</h2>
 
-<p>The BLS projects employment of heavy and tractor-trailer truck drivers to grow <strong>4% from 2025 to 2035</strong>, about as fast as average, from 2,221,200 jobs in 2025, with about <strong>214,500 openings a year</strong>. The BLS attributes most of those openings to replacing drivers who move to other work or retire, not to growth &mdash; and it does not use the word "shortage".</p>
+<p>The BLS projects employment of heavy and tractor-trailer truck drivers to grow <strong>4% from 2025 to 2035</strong>, about as fast as average, from 2,221,200 jobs in 2025, with about <strong>214,500 openings a year</strong>. The BLS attributes most of those openings to replacing drivers who move to other work or retire, not to growth, and it does not use the word "shortage".</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -367,14 +367,14 @@ JOBHTML;
 <p>Comparing driving routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; pay by state, hours of service, endorsements and owner-operator economics.</li>
-    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; the EB-3 and H-2B routes for drivers abroad.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; van and app work on an ordinary licence.</li>
-    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; passenger driving and Job Bank pay.</li>
-    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a> &mdash; Gulf driving work and its licence rules.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the genuine entry-level visa routes.</li>
-    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a> &mdash; the CE licence and code 95 rules, official pay and the driver visa route.</li>
-    <li><a href="/blog/how-to-get-a-fleet-driver-job-in-canada">How to Get a Fleet Driver Job in Canada</a> &mdash; AZ and Class 1 licences, provincial training hours, air brakes and Job Bank wages.</li>
+    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a>: pay by state, hours of service, endorsements and owner-operator economics.</li>
+    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a>: the EB-3 and H-2B routes for drivers abroad.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: van and app work on an ordinary licence.</li>
+    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a>: passenger driving and Job Bank pay.</li>
+    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a>: Gulf driving work and its licence rules.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the genuine entry-level visa routes.</li>
+    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a>: the CE licence and code 95 rules, official pay and the driver visa route.</li>
+    <li><a href="/blog/how-to-get-a-fleet-driver-job-in-canada">How to Get a Fleet Driver Job in Canada</a>: AZ and Class 1 licences, provincial training hours, air brakes and Job Bank wages.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using the BLS Occupational Outlook Handbook, 49 CFR, FMCSA and TSA guidance. Rules, fees and pay change. Always check the current federal and state requirements and the carrier's own terms before applying.</p>

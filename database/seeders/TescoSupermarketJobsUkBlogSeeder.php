@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Tesco Supermarket Jobs in UK" — rare among these employer
+ * "How to Apply for Tesco Supermarket Jobs in UK": rare among these employer
  * guides because Tesco publishes its hourly rate, negotiates it with a union
  * and announces it in a press release. The figures are checkable, so this
  * guide quotes them and benchmarks them against the legal minimum.
@@ -170,7 +170,7 @@ class TescoSupermarketJobsUkBlogSeeder extends Seeder
 <h3>Right to work</h3>
 <p>Tesco checks your right to work in the UK before you start, as every UK employer is legally required to do. Tesco publishes no statement either way about sponsoring visas for hourly-paid store roles, so do not assume a sponsored route exists.</p>
 
-<p>Pay, hours, benefits and age rules are set by Tesco, Usdaw and UK employment law &mdash; not by JobGader. Confirm the rate and the availability window on the live advert for the store you are applying to.</p>
+<p>Pay, hours, benefits and age rules are set by Tesco, Usdaw and UK employment law, not by JobGader. Confirm the rate and the availability window on the live advert for the store you are applying to.</p>
 JOBHTML;
     }
 
@@ -268,13 +268,13 @@ JOBHTML;
 
 <p><strong>This is the finding worth carrying away.</strong> An employer is allowed to pay an 18-year-old &pound;10.85. Tesco pays &pound;13.28. On a 16-hour contract that gap is worth roughly &pound;2,020 a year, and it is the strongest argument for applying to a large supermarket rather than a smaller shop that pays the legal floor.</p>
 
-<p>And now the catch. <strong>Many Tesco store adverts require you to be over 18.</strong> Tesco recruits from school leaving age in principle, and states it can only accept candidates over 18 where the role involves working before 6:15am or after 9:45pm, or in areas such as the warehouse, beers, wines and spirits, counters, bakery and driving roles. Note the words "areas such as" &mdash; that list is examples, not a complete set. So the age group that gains most from Tesco's flat rate is also the group most likely to find the advert closed to them. Read the age line on each advert before you spend time on it.</p>
+<p>And now the catch. <strong>Many Tesco store adverts require you to be over 18.</strong> Tesco recruits from school leaving age in principle, and states it can only accept candidates over 18 where the role involves working before 6:15am or after 9:45pm, or in areas such as the warehouse, beers, wines and spirits, counters, bakery and driving roles. Note the words "areas such as": that list is examples, not a complete set. So the age group that gains most from Tesco's flat rate is also the group most likely to find the advert closed to them. Read the age line on each advert before you spend time on it.</p>
 
 <h2>What Are the Hours Really Like?</h2>
 
 <p>Tesco's store colleague adverts state a clear policy: a minimum of <strong>16 guaranteed hours</strong> a week, with roles from 12 hours available if you want fewer. That is a genuine guarantee, not a zero-hours arrangement.</p>
 
-<p>Two qualifications. First, this is the store colleague policy. A live Cafe Team Member advert guarantees <strong>eight</strong> hours, so do not carry the 16 across to every Tesco job. Second, every advert prints an availability window &mdash; the days and times you must be free &mdash; and your contracted hours are scheduled inside it. You get at least three weeks' notice of exact shifts. Tesco adds that if your availability is close to what the advert asks for, it still encourages you to apply.</p>
+<p>Two qualifications. First, this is the store colleague policy. A live Cafe Team Member advert guarantees <strong>eight</strong> hours, so do not carry the 16 across to every Tesco job. Second, every advert prints an availability window, the days and times you must be free, and your contracted hours are scheduled inside it. You get at least three weeks' notice of exact shifts. Tesco adds that if your availability is close to what the advert asks for, it still encourages you to apply.</p>
 
 <figure style="margin:28px 0;">
     <img src="/public/storage/blogs/how-to-apply-for-tesco-supermarket-jobs-in-uk-checkout.jpg" alt="A Tesco colleague scanning items at the checkout while customers shop in the background of a UK store" style="width:100%;height:auto;border-radius:10px;">
@@ -374,16 +374,16 @@ JOBHTML;
 <p>Comparing UK retail employers, or working out whether you can take the job at all? These cover the ground:</p>
 
 <ul>
-    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a> &mdash; how to spot a shop advertising below the legal minimum.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the visa routes that exist, and the ones that do not.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; including the licence rules Tesco applies to its own drivers.</li>
-    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a> &mdash; the same job, a different country and a very different floor.</li>
-    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a> &mdash; another large employer that publishes what it pays.</li>
-    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; why Abu Dhabi ground jobs are advertised by a company called Velora.</li>
-    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a> &mdash; the famous employer whose job board is currently empty.</li>
-    <li><a href="/blog/how-to-apply-for-woolworths-supermarket-jobs-in-australia">How to Apply for Woolworths Supermarket Jobs in Australia</a> &mdash; the Australian equivalent, where the rate comes from an enterprise agreement instead.</li>
-    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a> &mdash; the union pay scale, and why no delivery role can be sponsored.</li>
-    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a> &mdash; the hourly rate M and S announces itself, and why no store role can be sponsored.</li>
+    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a>: how to spot a shop advertising below the legal minimum.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the visa routes that exist, and the ones that do not.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>, including the licence rules Tesco applies to its own drivers.</li>
+    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a>: the same job, a different country and a very different floor.</li>
+    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a>: another large employer that publishes what it pays.</li>
+    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a>: why Abu Dhabi ground jobs are advertised by a company called Velora.</li>
+    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a>: the famous employer whose job board is currently empty.</li>
+    <li><a href="/blog/how-to-apply-for-woolworths-supermarket-jobs-in-australia">How to Apply for Woolworths Supermarket Jobs in Australia</a>: the Australian equivalent, where the rate comes from an enterprise agreement instead.</li>
+    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a>: the union pay scale, and why no delivery role can be sponsored.</li>
+    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a>: the hourly rate M and S announces itself, and why no store role can be sponsored.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Tesco's own pay announcement of 18 March 2026, live Tesco Colleague and Cafe adverts, Tesco's careers FAQs and benefits pages, and GOV.UK minimum wage and right to work guidance, checked on 21 September 2026. Tesco's rates, supplements and availability windows vary by store and change over time. Always check the live advert and the official government source before acting.</p>

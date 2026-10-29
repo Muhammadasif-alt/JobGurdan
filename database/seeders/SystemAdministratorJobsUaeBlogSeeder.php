@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "System Administrator Jobs in UAE" — Windows, Linux, Microsoft 365 and
+ * "System Administrator Jobs in UAE": Windows, Linux, Microsoft 365 and
  * infrastructure administration on the mainland and in the free zones. The
  * accountant, receptionist and security guard guides already cover the UAE
  * gratuity arithmetic and the licensing routes, so this one owns the platform
@@ -161,7 +161,7 @@ class SystemAdministratorJobsUaeBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for a UAE work visa or a job offer.</strong> Pakistani applicants should use only a licensed Overseas Employment Promoter.</p>
 
-<p><strong>Note:</strong> pay, shifts, benefits and visa rules are set by each employer and the UAE authorities &mdash; not by JobGader. Confirm the details with the employer and MOHRE before applying.</p>
+<p><strong>Note:</strong> pay, shifts, benefits and visa rules are set by each employer and the UAE authorities, not by JobGader. Confirm the details with the employer and MOHRE before applying.</p>
 JOBHTML;
     }
 
@@ -348,14 +348,14 @@ JOBHTML;
 <p>Comparing IT roles and Gulf routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; the entry-level route into infrastructure work, and the certifications that count.</li>
-    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; the first rung before system administration.</li>
-    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a> &mdash; the neighbouring infrastructure specialism.</li>
-    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a> &mdash; where Azure administration experience leads.</li>
-    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a> &mdash; the Green visa, the DIFC and ADGM rules and the tax deadlines in full.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; the gratuity arithmetic on a basic salary.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; shift work under the same labour law.</li>
-    <li><a href="/blog/security-specialist-jobs-in-uae">Security Specialist Jobs in UAE</a> &mdash; the IT security track, and what CISSP really requires.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: the entry-level route into infrastructure work, and the certifications that count.</li>
+    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a>: the first rung before system administration.</li>
+    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a>: the neighbouring infrastructure specialism.</li>
+    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a>: where Azure administration experience leads.</li>
+    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a>: the Green visa, the DIFC and ADGM rules and the tax deadlines in full.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: the gratuity arithmetic on a basic salary.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: shift work under the same labour law.</li>
+    <li><a href="/blog/security-specialist-jobs-in-uae">Security Specialist Jobs in UAE</a>: the IT security track, and what CISSP really requires.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Labour law, Emiratisation targets, visa conditions, product lifecycles and certification rules change. Confirm the current position with MOHRE, the UAE visa authorities, Microsoft and the employer before applying or accepting an offer.</p>

@@ -244,10 +244,10 @@ class VisaSponsorshipCountriesSkilledWorkersBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/which-countries-are-hiring-foreign-workers-2026">Which Countries Are Hiring Foreign Workers in 2026?</a> &mdash; the wider top 10.</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a> &mdash; verify before you pay.</li>
-    <li><a href="/blog/highest-paying-blue-collar-jobs-abroad-2026">Highest Paying Blue Collar Jobs Abroad (2026)</a> &mdash; trades by pay.</li>
-    <li><a href="/blog/caregiver-jobs-usa-visa-sponsorship-2026">Caregiver Jobs in the USA With Visa Sponsorship (2026)</a> &mdash; how EB-3 works.</li>
+    <li><a href="/blog/which-countries-are-hiring-foreign-workers-2026">Which Countries Are Hiring Foreign Workers in 2026?</a>: the wider top 10.</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay.</li>
+    <li><a href="/blog/highest-paying-blue-collar-jobs-abroad-2026">Highest Paying Blue Collar Jobs Abroad (2026)</a>: trades by pay.</li>
+    <li><a href="/blog/caregiver-jobs-usa-visa-sponsorship-2026">Caregiver Jobs in the USA With Visa Sponsorship (2026)</a>: how EB-3 works.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Reviewed on 12 October 2026 against official sources. Sponsorship is used descriptively across different national systems, and no employer opening or individual approval is guaranteed. Confirm every detail on the official site before you act or pay anyone.</p>

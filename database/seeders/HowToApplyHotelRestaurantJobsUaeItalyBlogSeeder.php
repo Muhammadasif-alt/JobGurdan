@@ -12,7 +12,7 @@ use App\Models\User;
 use Illuminate\Database\Seeder;
 
 /**
- * "How to Apply for Hotel and Restaurant Jobs in the UAE and Italy" — blog-292.
+ * "How to Apply for Hotel and Restaurant Jobs in the UAE and Italy": blog-292.
  *
  * The second hotel brief, published as its own page at the owner's request.
  * It is the application-process guide; the rules guide is blog-289 and is
@@ -314,11 +314,11 @@ HTML;
 <p>Related hospitality and Gulf guides:</p>
 
 <ul>
-    <li><a href="/blog/hotel-and-restaurant-jobs-in-the-uae-and-italy">Hotel and Restaurant Jobs in the UAE and Italy</a> &mdash; the visa routes and the Italian quota.</li>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; the US hotel route.</li>
-    <li><a href="/blog/how-to-apply-for-marriott-hotel-jobs-in-the-usa">How to Apply for Marriott Hotel Jobs in the USA</a> &mdash; one hotel group in detail.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; front desk roles in the Emirates.</li>
-    <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a> &mdash; shift work and the night premium exception.</li>
+    <li><a href="/blog/hotel-and-restaurant-jobs-in-the-uae-and-italy">Hotel and Restaurant Jobs in the UAE and Italy</a>: the visa routes and the Italian quota.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>: the US hotel route.</li>
+    <li><a href="/blog/how-to-apply-for-marriott-hotel-jobs-in-the-usa">How to Apply for Marriott Hotel Jobs in the USA</a>: one hotel group in detail.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: front desk roles in the Emirates.</li>
+    <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a>: shift work and the night premium exception.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or career advice. UAE rules are from u.ae and Italian rules from the Interior and Labour ministries' 2027 Decreto Flussi announcements. Vacancies change, and an employer's portal is not a guarantee of an open vacancy or of sponsorship. Confirm everything with the official authority before you act.</p>

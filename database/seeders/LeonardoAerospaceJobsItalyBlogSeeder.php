@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Leonardo Aerospace Jobs in Italy" — the rare guide where
+ * "How to Apply for Leonardo Aerospace Jobs in Italy": the rare guide where
  * the employer publishes real salary bands and the real barrier turns out to
  * be Italian, not the security clearance everyone assumes.
  *
@@ -164,7 +164,7 @@ class LeonardoAerospaceJobsItalyBlogSeeder extends Seeder
 <h3>Visas</h3>
 <p>Leonardo publishes nothing about visa sponsorship or relocation. For a qualified engineer the EU Blue Card route sits outside the Decreto Flussi quota, so it does not depend on the annual click day.</p>
 
-<p>Pay, eligibility, language requirements and immigration rules are set by Leonardo, the Italian Ministry of the Interior and Italian law &mdash; not by JobGader. Confirm the requirements on the live posting before acting.</p>
+<p>Pay, eligibility, language requirements and immigration rules are set by Leonardo, the Italian Ministry of the Interior and Italian law, not by JobGader. Confirm the requirements on the live posting before acting.</p>
 JOBHTML;
     }
 
@@ -173,7 +173,7 @@ JOBHTML;
         return <<<'HTML'
 <p>Start with the good news, because there genuinely is some, and it is rarer than you would think.</p>
 
-<p><strong>Leonardo publishes what it pays.</strong> Not a vague band on a corporate page &mdash; an actual salary range printed on individual job adverts. Here is one, copied from a live posting:</p>
+<p><strong>Leonardo publishes what it pays.</strong> Not a vague band on a corporate page: an actual salary range printed on individual job adverts. Here is one, copied from a live posting:</p>
 
 <p style="border-left:4px solid #b3151a;padding:12px 18px;background:#faf7f7;margin:22px 0;">ELI - Avionic Systems Engineer<br>Primary Location: IT - Varese - Cascina Costa<br>Contract Type: Permanent<br><strong>Total Base Pay Range: 32.731,92 - 43.000</strong><br>Hybrid Working: Hybrid</p>
 
@@ -199,17 +199,17 @@ JOBHTML;
 <p>Real Italian engineering titles live on it right now, so you can see what the work looks like:</p>
 
 <ul>
-    <li>ELI - Avionic Systems Engineer &mdash; Varese, Cascina Costa</li>
-    <li>Embedded Software Engineer &mdash; Chieti Scalo</li>
-    <li>Radar System Engineer &mdash; Milano, Nerviano</li>
-    <li>SPZ - Satellite Communication Engineer &mdash; Roma</li>
-    <li>Mod Retrofit Engineer &mdash; Cameri</li>
-    <li>Telespazio - System Engineer &mdash; Fucino</li>
+    <li>ELI - Avionic Systems Engineer: Varese, Cascina Costa</li>
+    <li>Embedded Software Engineer: Chieti Scalo</li>
+    <li>Radar System Engineer: Milano, Nerviano</li>
+    <li>SPZ - Satellite Communication Engineer: Roma</li>
+    <li>Mod Retrofit Engineer: Cameri</li>
+    <li>Telespazio - System Engineer: Fucino</li>
 </ul>
 
 <h2>The Real Barrier Is Italian, Not Security Clearance</h2>
 
-<p>Almost every article about Leonardo warns you about security clearance. We went and read the adverts &mdash; hundreds of them, in bulk &mdash; and that framing is the wrong way round.</p>
+<p>Almost every article about Leonardo warns you about security clearance. We went and read the adverts, hundreds of them, in bulk, and that framing is the wrong way round.</p>
 
 <p><strong>No Leonardo Italian advert we scanned carried a citizenship or nationality requirement.</strong> Security clearance appeared in roughly two per cent, and where it did, it was phrased as availability or eligibility to obtain one, not as something you must already hold. A typical engineering advert's full requirements read like this:</p>
 
@@ -217,7 +217,7 @@ JOBHTML;
 
 <p>No clearance. No citizenship. No visa clause.</p>
 
-<p><strong>What will actually stop you is the language.</strong> The overwhelming majority of Leonardo's Italian adverts are written entirely in Italian &mdash; job title in English, everything that matters in Italian: <em>Titolo di studio</em>, <em>Competenze comportamentali</em>, <em>Conoscenze linguistiche</em>. A handful go further and require <strong>"Italiano madrelingua"</strong>, native Italian.</p>
+<p><strong>What will actually stop you is the language.</strong> The overwhelming majority of Leonardo's Italian adverts are written entirely in Italian: job title in English, everything that matters in Italian: <em>Titolo di studio</em>, <em>Competenze comportamentali</em>, <em>Conoscenze linguistiche</em>. A handful go further and require <strong>"Italiano madrelingua"</strong>, native Italian.</p>
 
 <p>If you cannot read the requirements section, you cannot meet it. That is the filter, and it is the one nobody writes about.</p>
 
@@ -225,7 +225,7 @@ JOBHTML;
 
 <p>Yes, and we are not going to pretend otherwise, because Leonardo is an aerospace, defence and security company and roughly 30 per cent of it is held by Italy's Ministry of Economy and Finance.</p>
 
-<p>Where clearance appears, the wording is specific. One cyber role asks you to "possess the requirements to obtain personal security clearance up to EU/ESA/NATO SECRET". Another says eligibility for the <strong>Nulla Osta di Sicurezza</strong> "is appreciated" &mdash; preferred, not required. A supply-chain security role on the GCAP programme asks for eligibility for DV, Developed Vetting.</p>
+<p>Where clearance appears, the wording is specific. One cyber role asks you to "possess the requirements to obtain personal security clearance up to EU/ESA/NATO SECRET". Another says eligibility for the <strong>Nulla Osta di Sicurezza</strong> "is appreciated": preferred, not required. A supply-chain security role on the GCAP programme asks for eligibility for DV, Developed Vetting.</p>
 
 <p>The honest position is this. A Nulla Osta di Sicurezza is issued by the Italian state, and in practice is not something a non-EU national obtains. Leonardo does not publish which roles need one. Its export work is also governed by Italian Law 185/1990 and by US ITAR and EAR rules, which Leonardo's own Integrated Report names as binding constraints.</p>
 
@@ -235,7 +235,7 @@ JOBHTML;
 
 <p>This is where we have to correct something that could cost you months.</p>
 
-<p><strong>Leonardo's Deep Dive thesis programme is closed to you unless you are Italian.</strong> Leonardo's own students and graduates page says the programme is "aimed only at Italian students". It offers up to six months in a Leonardo site with an expense reimbursement of 800 euros a month &mdash; and it is not open to international applicants.</p>
+<p><strong>Leonardo's Deep Dive thesis programme is closed to you unless you are Italian.</strong> Leonardo's own students and graduates page says the programme is "aimed only at Italian students". It offers up to six months in a Leonardo site with an expense reimbursement of 800 euros a month, and it is not open to international applicants.</p>
 
 <p>Two other things worth knowing before you go looking: <strong>Officina Leonardo and the Leonardo Hackathons are all marked COMPLETED</strong> on the live page. Any guide presenting them as open intakes is out of date.</p>
 
@@ -285,9 +285,9 @@ JOBHTML;
 
 <p>There are two doors into Italy for employed work, and they are not remotely equal. Most guides describe the wrong one.</p>
 
-<p><strong>Door one: the Decreto Flussi quota.</strong> Ordinary employed work runs through an annual quota with a literal click day. For 2026 the decree admits 164,850 people in total across all work categories, and for non-seasonal employed work the applications open at 09:00 on <strong>16 February</strong>. Pakistan is on the eligible country list &mdash; that part is genuinely good news &mdash; but it shares an allocation of 25,000 with 37 other nationalities, and the forms must be pre-compiled the previous autumn. Miss the window and you wait a year.</p>
+<p><strong>Door one: the Decreto Flussi quota.</strong> Ordinary employed work runs through an annual quota with a literal click day. For 2026 the decree admits 164,850 people in total across all work categories, and for non-seasonal employed work the applications open at 09:00 on <strong>16 February</strong>. Pakistan is on the eligible country list, that part is genuinely good news, but it shares an allocation of 25,000 with 37 other nationalities, and the forms must be pre-compiled the previous autumn. Miss the window and you wait a year.</p>
 
-<p><strong>Door two: the EU Blue Card, which is outside the quota entirely.</strong> Italian law states that entry for highly qualified workers is permitted "al di fuori delle quote" &mdash; outside the quotas. No click day. Applications year-round. For an engineer with a degree and a real Leonardo offer, <strong>this is the route to ask about</strong>, and it is the one to raise with the employer.</p>
+<p><strong>Door two: the EU Blue Card, which is outside the quota entirely.</strong> Italian law states that entry for highly qualified workers is permitted "al di fuori delle quote": outside the quotas. No click day. Applications year-round. For an engineer with a degree and a real Leonardo offer, <strong>this is the route to ask about</strong>, and it is the one to raise with the employer.</p>
 
 <p>What the Blue Card needs: a higher education qualification of at least three years or EQF level 6, or five years of comparable professional experience; a binding job offer of at least six months; and a salary that is not below the applicable national collective agreement rate and not below the ISTAT national average gross annual salary.</p>
 
@@ -362,15 +362,15 @@ JOBHTML;
 <p>Comparing European engineering employers, or looking wider? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a> &mdash; the other big European engineering name, and a very different visa system.</li>
-    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a> &mdash; Italian industry with the same language barrier.</li>
-    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; manufacturing with a clearer entry route.</li>
-    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a> &mdash; a famous employer whose job board is currently empty.</li>
-    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a> &mdash; Gulf engineering, and the portal that replaced PetroJobs.</li>
-    <li><a href="/blog/how-to-apply-for-telkom-indonesia-it-jobs">How to Apply for Telkom Indonesia IT Jobs</a> &mdash; and the national ID requirement that closes the door first.</li>
-    <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a> &mdash; 622 French vacancies, and how many need a security clearance.</li>
-    <li><a href="/blog/how-to-apply-for-asml-semiconductor-jobs-in-netherlands">How to Apply for ASML Semiconductor Jobs in Netherlands</a> &mdash; published salary ranges, and which of them clear the Dutch visa threshold.</li>
-    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a> &mdash; which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
+    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a>: the other big European engineering name, and a very different visa system.</li>
+    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a>: Italian industry with the same language barrier.</li>
+    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a>: manufacturing with a clearer entry route.</li>
+    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a>: a famous employer whose job board is currently empty.</li>
+    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a>: Gulf engineering, and the portal that replaced PetroJobs.</li>
+    <li><a href="/blog/how-to-apply-for-telkom-indonesia-it-jobs">How to Apply for Telkom Indonesia IT Jobs</a>, and the national ID requirement that closes the door first.</li>
+    <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a>: 622 French vacancies, and how many need a security clearance.</li>
+    <li><a href="/blog/how-to-apply-for-asml-semiconductor-jobs-in-netherlands">How to Apply for ASML Semiconductor Jobs in Netherlands</a>: published salary ranges, and which of them clear the Dutch visa threshold.</li>
+    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a>, which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Leonardo's own careers pages and Workday job API, its Integrated Report 2025, the Italian immigration code on normattiva.it, the Decreto Flussi published in the Gazzetta Ufficiale, and notices from the Italian Embassy in Islamabad, checked on 22 September 2026. Vacancy counts, programme intakes and immigration rules change. Always check the live posting and the official government source before acting, and never pay anyone to secure a job or a visa appointment.</p>

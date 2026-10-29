@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Remote Jobs in USA" — remote and hybrid work with American employers. The
+ * "Remote Jobs in USA": remote and hybrid work with American employers. The
  * remote customer service and data entry guides cover those two roles and
  * the Pakistan guide covers entry-level remote work from Pakistan, so this
  * one owns how much Americans telework, BLS pay for the occupations most
@@ -141,7 +141,7 @@ class RemoteJobsUsaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li><strong>Authorization to work in the US</strong> for a job performed in the US &mdash; the employer completes Form I-9, and can check your documents remotely if it uses E-Verify</li>
+    <li><strong>Authorization to work in the US</strong> for a job performed in the US: the employer completes Form I-9, and can check your documents remotely if it uses E-Verify</li>
     <li>A reliable computer and internet connection, and a quiet place to take calls</li>
     <li>The skills of the role itself, from customer handling to programming</li>
 </ul>
@@ -155,7 +155,7 @@ class RemoteJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay to get a job.</strong> The FTC says honest employers will never ask you to pay for a job, and a company that sends you a cheque to buy equipment and asks for the change back is running a scam.</p>
 
-<p><strong>Note:</strong> pay, hours, benefits and eligibility are set by each employer and by federal and state law &mdash; not by JobGader. Confirm the details on the official advertisement before applying.</p>
+<p><strong>Note:</strong> pay, hours, benefits and eligibility are set by each employer and by federal and state law, not by JobGader. Confirm the details on the official advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -245,7 +245,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Employees are covered by the Fair Labor Standards Act at home too.</strong> The Department of Labor says its protections apply equally to teleworkers: at least the <strong>$7.25</strong> federal minimum wage, or a higher state rate, and overtime at time and a half after 40 hours. Breaks of <strong>20 minutes or less</strong> must be paid even when you work from home, while a meal break of 30 minutes or more in which you are completely relieved of duty need not be.</li>
-    <li><strong>Contractors are not owed minimum wage or overtime</strong>, and pay self-employment tax of <strong>15.3%</strong> &mdash; 12.4% for Social Security and 2.9% for Medicare &mdash; once net earnings reach $400. For payments made after 31 December 2025, a client files Form 1099-NEC once it pays you <strong>$2,000</strong> in a year, up from $600.</li>
+    <li><strong>Contractors are not owed minimum wage or overtime</strong>, and pay self-employment tax of <strong>15.3%</strong>, 12.4% for Social Security and 2.9% for Medicare, once net earnings reach $400. For payments made after 31 December 2025, a client files Form 1099-NEC once it pays you <strong>$2,000</strong> in a year, up from $600.</li>
     <li><strong>The home office deduction.</strong> Employees cannot claim it: the IRS says the deduction for employee business expenses was eliminated for tax years beginning after 2017. The self-employed can use the simplified method of $5 per square foot, for up to 300 square feet.</li>
 </ul>
 
@@ -324,17 +324,17 @@ JOBHTML;
 <p>Looking at a specific remote role, or at the jobs behind these medians? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; the largest remote role, its shifts and the postings that are not really remote.</li>
-    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; real pay, and how the fake version works.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; entry-level remote work from Pakistan, and how payment from abroad works.</li>
-    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; administrative skills sold remotely to overseas clients.</li>
-    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; office support pay, and the part of the field still growing.</li>
-    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; a common remote entry point into IT.</li>
-    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; which occupation a developer title really sits in, and what it pays.</li>
-    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; a well-paid field with many remote roles.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: the largest remote role, its shifts and the postings that are not really remote.</li>
+    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a>: real pay, and how the fake version works.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: entry-level remote work from Pakistan, and how payment from abroad works.</li>
+    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a>: administrative skills sold remotely to overseas clients.</li>
+    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a>: office support pay, and the part of the field still growing.</li>
+    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a>: a common remote entry point into IT.</li>
+    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a>, which occupation a developer title really sits in, and what it pays.</li>
+    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a>: a well-paid field with many remote roles.</li>
     <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a></li>
-    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a> &mdash; W-2 versus 1099 work, the 2026 $2,000 reporting rule and paid breaks at home.</li>
-    <li><a href="/blog/how-to-get-a-remote-customer-service-job-with-no-experience">How to Get a Remote Customer Service Job With No Experience</a> &mdash; what US remote employers really ask for, official pay data and the scams aimed at beginners.</li>
+    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a>: W-2 versus 1099 work, the 2026 $2,000 reporting rule and paid breaks at home.</li>
+    <li><a href="/blog/how-to-get-a-remote-customer-service-job-with-no-experience">How to Get a Remote Customer Service Job With No Experience</a>: what US remote employers really ask for, official pay data and the scams aimed at beginners.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Pay data, telework statistics, tax thresholds and employment rules change often. Confirm the current position with the employer, the IRS, the Department of Labor or USCIS, or a qualified adviser, before applying.</p>

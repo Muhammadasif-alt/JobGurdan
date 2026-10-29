@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Education Assistant Jobs in Australia" — a guide for people who want to
+ * "Education Assistant Jobs in Australia": a guide for people who want to
  * support teachers in Australian schools. Every state names the role
  * differently, so the guide maps the title, pay, requirements and job portal
  * for each state's government schools.
@@ -154,7 +154,7 @@ class EducationAssistantJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, hours and hiring decisions are set by each school, state education department and employer &mdash; not by JobGader. Government school jobs are free to apply for through each state's official job portal.</p>
+<p><strong>Note:</strong> pay, hours and hiring decisions are set by each school, state education department and employer, not by JobGader. Government school jobs are free to apply for through each state's official job portal.</p>
 JOBHTML;
     }
 
@@ -399,13 +399,13 @@ JOBHTML;
 <p>Looking at other education or entry-level work? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a> &mdash; every visa route compared.</li>
-    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a> &mdash; another support role with a Certificate III pathway.</li>
-    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; entry-level work to start with.</li>
-    <li><a href="/blog/preschool-teacher-jobs-in-canada">Preschool Teacher Jobs in Canada</a> &mdash; early childhood education work in Canada.</li>
-    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; the step up to teaching, in the US.</li>
-    <li><a href="/blog/school-administrator-jobs-in-uk">School Administrator Jobs in UK</a> &mdash; school office duties, FTE vs actual pay on term-time contracts, routes in and where schools advertise.</li>
-    <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a> &mdash; teacher assistant and paraprofessional pay, the Title I rule, the ParaPro test and who is hiring.</li>
+    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a>: every visa route compared.</li>
+    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a>: another support role with a Certificate III pathway.</li>
+    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a>: entry-level work to start with.</li>
+    <li><a href="/blog/preschool-teacher-jobs-in-canada">Preschool Teacher Jobs in Canada</a>: early childhood education work in Canada.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a>: the step up to teaching, in the US.</li>
+    <li><a href="/blog/school-administrator-jobs-in-uk">School Administrator Jobs in UK</a>: school office duties, FTE vs actual pay on term-time contracts, routes in and where schools advertise.</li>
+    <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a>: teacher assistant and paraprofessional pay, the Title I rule, the ParaPro test and who is hiring.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Pay rates, qualification requirements, checks and application rules change and differ between states and employers. Confirm the current requirements in the official vacancy and with the relevant state education department before applying.</p>

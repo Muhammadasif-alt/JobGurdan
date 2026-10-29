@@ -132,12 +132,12 @@ HTML;
 <p>Search these instead, and search them separately:</p>
 
 <ul>
-    <li><strong>Special Education Teacher</strong> and <strong>Special Educator</strong> &mdash; the most common government titles</li>
-    <li><strong>Learning Support Assistant</strong> and <strong>Inclusive Education Assistant</strong> &mdash; mainstream schools with integrated pupils</li>
-    <li><strong>Autism Support Assistant</strong> and <strong>Shadow Teacher</strong> &mdash; usually one-to-one with a single child</li>
-    <li><strong>Therapy Assistant</strong>, <strong>Speech Therapy Assistant</strong> and <strong>Occupational Therapy Assistant</strong> &mdash; clinic and rehabilitation centre roles</li>
-    <li><strong>Attendant</strong> and <strong>Caregiver</strong> &mdash; the usual titles for home-based disability support</li>
-    <li><strong>Rehabilitation Assistant</strong> and <strong>Community Inclusion Officer</strong> &mdash; NGO and programme roles</li>
+    <li><strong>Special Education Teacher</strong> and <strong>Special Educator</strong>: the most common government titles</li>
+    <li><strong>Learning Support Assistant</strong> and <strong>Inclusive Education Assistant</strong>: mainstream schools with integrated pupils</li>
+    <li><strong>Autism Support Assistant</strong> and <strong>Shadow Teacher</strong>, usually one-to-one with a single child</li>
+    <li><strong>Therapy Assistant</strong>, <strong>Speech Therapy Assistant</strong> and <strong>Occupational Therapy Assistant</strong>: clinic and rehabilitation centre roles</li>
+    <li><strong>Attendant</strong> and <strong>Caregiver</strong>: the usual titles for home-based disability support</li>
+    <li><strong>Rehabilitation Assistant</strong> and <strong>Community Inclusion Officer</strong>: NGO and programme roles</li>
 </ul>
 
 <p>These are not interchangeable. A shadow teacher post and an attendant post ask for different qualifications and pay differently, even though both are described as supporting a disabled person.</p>
@@ -255,11 +255,11 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/personal-care-assistant-jobs-in-pakistan">Personal Care Assistant Jobs in Pakistan</a> &mdash; what a household legally owes you for home-based support work.</li>
-    <li><a href="/blog/elderly-care-assistant-jobs-in-pakistan">Elderly Care Assistant Jobs in Pakistan</a> &mdash; the free NAVTTC qualification and dementia work.</li>
-    <li><a href="/blog/home-healthcare-assistant-jobs-in-pakistan">Home Healthcare Assistant Jobs in Pakistan</a> &mdash; where the clinical line sits and how to verify a licence.</li>
-    <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a> &mdash; the mainstream education route, including government recruitment.</li>
-    <li><a href="/blog/residential-care-worker-jobs-in-pakistan">Residential Care Worker Jobs in Pakistan</a> &mdash; boarding campuses and child protection institutions, and how statutory bodies recruit.</li>
+    <li><a href="/blog/personal-care-assistant-jobs-in-pakistan">Personal Care Assistant Jobs in Pakistan</a>: what a household legally owes you for home-based support work.</li>
+    <li><a href="/blog/elderly-care-assistant-jobs-in-pakistan">Elderly Care Assistant Jobs in Pakistan</a>: the free NAVTTC qualification and dementia work.</li>
+    <li><a href="/blog/home-healthcare-assistant-jobs-in-pakistan">Home Healthcare Assistant Jobs in Pakistan</a>: where the clinical line sits and how to verify a licence.</li>
+    <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a>: the mainstream education route, including government recruitment.</li>
+    <li><a href="/blog/residential-care-worker-jobs-in-pakistan">Residential Care Worker Jobs in Pakistan</a>: boarding campuses and child protection institutions, and how statutory bodies recruit.</li>
 </ul>
 
 <h2>Official sources</h2>

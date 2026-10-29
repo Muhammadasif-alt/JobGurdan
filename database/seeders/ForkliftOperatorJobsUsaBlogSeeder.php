@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Forklift Operator Jobs in USA" — industrial truck operators in warehouses,
+ * "Forklift Operator Jobs in USA": industrial truck operators in warehouses,
  * distribution centers and plants. The delivery and CDL driver guides own
  * road transport; this one owns BLS wages for industrial truck and tractor
  * operators, the OSHA operator training rule, the federal under-18 ban and
@@ -161,7 +161,7 @@ class ForkliftOperatorJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask which trucks you will operate and whether training and evaluation are paid,</strong> because OSHA requires the employer to train and evaluate you on its own equipment.</p>
 
-<p><strong>Note:</strong> pay, shifts and training arrangements are set by employers under OSHA and Department of Labor rules &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, shifts and training arrangements are set by employers under OSHA and Department of Labor rules, not by JobGader. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 
@@ -336,16 +336,16 @@ JOBHTML;
 <p>Comparing warehouse and driving jobs? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; last-mile driving and how it is paid.</li>
-    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; the licence, training and pay for heavy trucks.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest position on entry-level visas.</li>
-    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; another entry-level job in the same retail supply chain.</li>
-    <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a> &mdash; bigger machines, Red Seal trades and crane tickets.</li>
-    <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a> &mdash; who keeps the plant and warehouse equipment running, and what it pays.</li>
-    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a> &mdash; what Walmart actually pays, the benefits most guides skip, and the age rules.</li>
-    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a> &mdash; a large employer that does publish its starting pay.</li>
-    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a> &mdash; factory work with a published hourly range and stock awards.</li>
-    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a> &mdash; warehouse work where a union contract publishes the wage scale.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: last-mile driving and how it is paid.</li>
+    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a>: the licence, training and pay for heavy trucks.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the honest position on entry-level visas.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a>: another entry-level job in the same retail supply chain.</li>
+    <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a>: bigger machines, Red Seal trades and crane tickets.</li>
+    <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a>, who keeps the plant and warehouse equipment running, and what it pays.</li>
+    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a>: what Walmart actually pays, the benefits most guides skip, and the age rules.</li>
+    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a>: a large employer that does publish its starting pay.</li>
+    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a>: factory work with a published hourly range and stock awards.</li>
+    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a>: warehouse work where a union contract publishes the wage scale.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, OSHA rules, child labor rules and visa processes change. Confirm the current position with OSHA, the Department of Labor, BLS and USCIS before applying or accepting an offer.</p>

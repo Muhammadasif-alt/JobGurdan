@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Teacher Jobs in USA" — public, charter and private school teaching. The
+ * "Teacher Jobs in USA": public, charter and private school teaching. The
  * Pakistan teacher guide covers the home market, and this one owns American
  * teacher pay, state rankings, licensing and the visa routes for teachers.
  *
@@ -160,7 +160,7 @@ class TeacherJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the state before the school.</strong> Your certificate is issued by one state, and moving to another usually means applying for that state's license.</p>
 
-<p><strong>Note:</strong> pay, certification rules and visa eligibility are set by school districts, state education departments and US immigration law &mdash; not by JobGader. Confirm the details with the district and the state before applying, and never pay a recruiter for a teaching job offer.</p>
+<p><strong>Note:</strong> pay, certification rules and visa eligibility are set by school districts, state education departments and US immigration law, not by JobGader. Confirm the details with the district and the state before applying, and never pay a recruiter for a teaching job offer.</p>
 JOBHTML;
     }
 
@@ -193,7 +193,7 @@ JOBHTML;
 
 <p><strong>Substitute teachers</strong> are paid far less. The BLS median for short-term substitutes was <strong>$41,670</strong> a year, and the bottom 10% earned under $28,560, because most are paid by the day and only for the days they work.</p>
 
-<h2>Which States Pay the Most &mdash; and Which Hire the Most</h2>
+<h2>Which States Pay the Most: and Which Hire the Most</h2>
 
 <p>Guides name California, New York and Massachusetts as the best-paying states. The NEA's state averages for 2024-25 put <strong>California ($103,552)</strong>, <strong>New York ($98,655)</strong> and <strong>Washington ($96,589)</strong> at the top, and Mississippi ($54,975), Florida ($56,663) and Louisiana ($56,785) at the bottom. The BLS mean for elementary teachers is highest in <strong>Washington ($97,970)</strong>, ahead of California, the District of Columbia, New York and Massachusetts.</p>
 
@@ -277,7 +277,7 @@ JOBHTML;
 <h3>The H-1B visa</h3>
 
 <ul>
-    <li><strong>The lottery.</strong> School districts are not higher education institutions, so their H-1B petitions are normally subject to the annual cap. From the FY 2027 season, USCIS weights the lottery by wage level, giving a level IV salary four entries and a level I salary one &mdash; which works against new teachers on entry-level pay.</li>
+    <li><strong>The lottery.</strong> School districts are not higher education institutions, so their H-1B petitions are normally subject to the annual cap. From the FY 2027 season, USCIS weights the lottery by wage level, giving a level IV salary four entries and a level I salary one, which works against new teachers on entry-level pay.</li>
     <li><strong>The $100,000 payment.</strong> A presidential proclamation required a $100,000 payment with new H-1B petitions filed from 21 September 2025. In June 2026 a federal court in Massachusetts vacated USCIS's guidance implementing it for certain petitions, and on 24 July 2026 the appeals court refused to pause that order. DHS says it will comply while it considers next steps, and still plans to collect the payment if the order is lifted. Check the current USCIS guidance before relying on either outcome.</li>
 </ul>
 
@@ -357,20 +357,20 @@ JOBHTML;
 <p>Comparing teaching with other licensed and public service work? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a> &mdash; what replaced PTC and CT, and who really employs government school teachers.</li>
-    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; another state-licensed profession, and what it pays by state.</li>
-    <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a> &mdash; the green card route for a licensed profession.</li>
-    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a> &mdash; the other public service career run by states and cities.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the visa routes that do not need a degree.</li>
-    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; how grades, tests and advertisements work across the public sector.</li>
-    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a> &mdash; another public service career, paid on the federal General Schedule.</li>
-    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; four nations, four regulators, and why QTS does not work in Scotland.</li>
-    <li><a href="/blog/school-nurse-jobs-in-usa">School Nurse Jobs in USA</a> &mdash; the health office side of a school, with its own state credential rules.</li>
-    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; the remote alternative, from ESL platforms to tutoring marketplaces.</li>
-    <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a> &mdash; JET, ALT and eikaiwa routes, the degree rule behind the visa, and real pay.</li>
-    <li><a href="/blog/preschool-teacher-jobs-in-canada">Preschool Teacher Jobs in Canada</a> &mdash; early childhood educator qualifications, provincial registration, wages and how internationally trained educators get recognised.</li>
-    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a> &mdash; what tutors earn, what Wyzant, Varsity Tutors, Sylvan, Huntington and Kumon require, and the fees and tax to expect.</li>
-    <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a> &mdash; teacher assistant and paraprofessional pay, the Title I rule, the ParaPro test and who is hiring.</li>
+    <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a>: what replaced PTC and CT, and who really employs government school teachers.</li>
+    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a>: another state-licensed profession, and what it pays by state.</li>
+    <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a>: the green card route for a licensed profession.</li>
+    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a>: the other public service career run by states and cities.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the visa routes that do not need a degree.</li>
+    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a>: how grades, tests and advertisements work across the public sector.</li>
+    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a>: another public service career, paid on the federal General Schedule.</li>
+    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a>: four nations, four regulators, and why QTS does not work in Scotland.</li>
+    <li><a href="/blog/school-nurse-jobs-in-usa">School Nurse Jobs in USA</a>: the health office side of a school, with its own state credential rules.</li>
+    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a>: the remote alternative, from ESL platforms to tutoring marketplaces.</li>
+    <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a>: JET, ALT and eikaiwa routes, the degree rule behind the visa, and real pay.</li>
+    <li><a href="/blog/preschool-teacher-jobs-in-canada">Preschool Teacher Jobs in Canada</a>: early childhood educator qualifications, provincial registration, wages and how internationally trained educators get recognised.</li>
+    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a>: what tutors earn, what Wyzant, Varsity Tutors, Sylvan, Huntington and Kumon require, and the fees and tax to expect.</li>
+    <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a>: teacher assistant and paraprofessional pay, the Title I rule, the ParaPro test and who is hiring.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Teacher pay, certification rules and immigration policy change and differ by state and district, and the H-1B payment is subject to ongoing litigation. Confirm the current position with the state education department, the school district, the State Department and USCIS before applying.</p>

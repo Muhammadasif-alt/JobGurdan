@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Get a Logistics Driver Job in the UAE" — a guide for someone asking
+ * "How to Get a Logistics Driver Job in the UAE": a guide for someone asking
  * what licence, visa and paperwork a UAE driving job needs. The Security Guard
  * Jobs in UAE guide owns the wider UAE labour-law package questions, so this
  * one stays on licensing, the exchange list, the visa sequence and the rules
@@ -166,7 +166,7 @@ class LogisticsDriverJobsUaeBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, licence requirements and visa sponsorship are set by each employer, the RTA and UAE law &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying, and never pay a fee for a job or a visa.</p>
+<p><strong>Note:</strong> pay, licence requirements and visa sponsorship are set by each employer, the RTA and UAE law, not by JobGader. Confirm the details on the employer's own advertisement before applying, and never pay a fee for a job or a visa.</p>
 JOBHTML;
     }
 
@@ -389,16 +389,16 @@ JOBHTML;
 <p>Comparing driving routes and other Gulf jobs? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; the neighbouring Gulf route, and how Saudi licensing and sponsorship work.</li>
-    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a> &mdash; heavy freight work under the Saudi rules.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; another entry route into UAE work, and the labour-law package questions to ask.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; British delivery work and what self-employed really costs.</li>
-    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; which American visa routes are open to truck drivers.</li>
-    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; the height and reach rules, what Emirates publishes on pay, and how the Open Day works.</li>
-    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; why Abu Dhabi ground jobs are advertised by a company called Velora.</li>
-    <li><a href="/blog/delivery-driver-and-courier-jobs-how-to-start-in-a-new-country">Delivery Driver and Courier Jobs: How to Start in a New Country</a> &mdash; rider and courier work in the UAE and the UK.</li>
-    <li><a href="/blog/taxi-and-uber-driver-requirements-by-country">Taxi and Uber Driver Requirements by Country</a> &mdash; the Dubai RTA permit and how other countries license drivers.</li>
-    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a> &mdash; the government portal that replaced PetroJobs.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: the neighbouring Gulf route, and how Saudi licensing and sponsorship work.</li>
+    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a>: heavy freight work under the Saudi rules.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: another entry route into UAE work, and the labour-law package questions to ask.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: British delivery work and what self-employed really costs.</li>
+    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a>, which American visa routes are open to truck drivers.</li>
+    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a>: the height and reach rules, what Emirates publishes on pay, and how the Open Day works.</li>
+    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a>: why Abu Dhabi ground jobs are advertised by a company called Velora.</li>
+    <li><a href="/blog/delivery-driver-and-courier-jobs-how-to-start-in-a-new-country">Delivery Driver and Courier Jobs: How to Start in a New Country</a>: rider and courier work in the UAE and the UK.</li>
+    <li><a href="/blog/taxi-and-uber-driver-requirements-by-country">Taxi and Uber Driver Requirements by Country</a>: the Dubai RTA permit and how other countries license drivers.</li>
+    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a>: the government portal that replaced PetroJobs.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Licence rules, fees, exchange lists and visa procedures change, and each emirate licenses its own drivers. Confirm the current position with the RTA or your emirate's licensing authority, MOHRE and u.ae before relying on it.</p>

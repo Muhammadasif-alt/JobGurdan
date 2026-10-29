@@ -194,10 +194,10 @@ class TopSkillsJobAbroadFastBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/how-to-get-a-job-abroad-without-experience-2026">How to Get a Job Abroad Without Experience (2026)</a> &mdash; starting out</li>
-    <li><a href="/blog/how-to-write-resume-job-abroad">How to Write a Resume for a Job Abroad</a> &mdash; show the skills</li>
-    <li><a href="/blog/highest-paying-blue-collar-jobs-abroad-2026">Highest-Paying Blue Collar Jobs Abroad (2026)</a> &mdash; what skills pay</li>
-    <li><a href="/blog/which-countries-are-hiring-foreign-workers-2026">Which Countries Are Hiring Foreign Workers (2026)</a> &mdash; where the demand is</li>
+    <li><a href="/blog/how-to-get-a-job-abroad-without-experience-2026">How to Get a Job Abroad Without Experience (2026)</a>: starting out</li>
+    <li><a href="/blog/how-to-write-resume-job-abroad">How to Write a Resume for a Job Abroad</a>: show the skills</li>
+    <li><a href="/blog/highest-paying-blue-collar-jobs-abroad-2026">Highest-Paying Blue Collar Jobs Abroad (2026)</a>: what skills pay</li>
+    <li><a href="/blog/which-countries-are-hiring-foreign-workers-2026">Which Countries Are Hiring Foreign Workers (2026)</a>: where the demand is</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>

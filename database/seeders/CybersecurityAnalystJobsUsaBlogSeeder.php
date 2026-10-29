@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Cybersecurity Analyst Jobs in USA" — a sector guide rather than one
+ * "Cybersecurity Analyst Jobs in USA": a sector guide rather than one
  * vacancy, so the apply link goes to an Indeed search and the post carries no
  * JobPosting markup.
  *
@@ -144,10 +144,10 @@ class CybersecurityAnalystJobsUsaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li>A working understanding of networking and operating systems &mdash; you cannot judge whether traffic is suspicious without knowing what normal looks like</li>
+    <li>A working understanding of networking and operating systems: you cannot judge whether traffic is suspicious without knowing what normal looks like</li>
     <li>SIEM and endpoint detection tooling, and alert triage against a documented escalation path</li>
     <li>CompTIA Security+ or an equivalent entry credential for junior roles; senior roles ask for experience first and certification second</li>
-    <li>One compliance framework in depth for GRC work &mdash; NIST SP 800-53 or 800-171 are the most requested</li>
+    <li>One compliance framework in depth for GRC work: NIST SP 800-53 or 800-171 are the most requested</li>
     <li>Cloud platform security on AWS or Azure, increasingly assumed rather than a bonus</li>
     <li>Scripting, most often Python, for anything you have to do more than twice</li>
 </ul>
@@ -156,13 +156,13 @@ class CybersecurityAnalystJobsUsaBlogSeeder extends Seeder
 <ul>
     <li><strong>Salaried roles</strong> sit against the BLS information security analyst occupation: a $129,180 median as of May 2025, with the lowest tenth under $75,090 and the highest tenth above $199,850</li>
     <li><strong>Cleared roles</strong> pay a premium over uncleared equivalents, because the pool of people eligible for them is small</li>
-    <li><strong>Shift work</strong> in a 24x7 operations centre often carries a differential for nights and weekends &mdash; ask, because it is not always advertised</li>
+    <li><strong>Shift work</strong> in a 24x7 operations centre often carries a differential for nights and weekends: ask, because it is not always advertised</li>
 </ul>
 
 <h3>Before you apply</h3>
 <p><strong>Ask whether the role requires a security clearance, and whether the employer sponsors one.</strong> A clearance needs US citizenship and an employer to sponsor it; you cannot obtain one yourself. A large share of the postings around Washington DC, Northern Virginia and Fort Meade are cleared roles, and the requirement is often buried well down the advertisement.</p>
 
-<p><strong>Note:</strong> pay, shift patterns, clearance requirements and any sponsorship decision are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, shift patterns, clearance requirements and any sponsorship decision are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -198,11 +198,11 @@ JOBHTML;
 <p>Almost every guide on this subject lists <strong>Security+, the Google Cybersecurity Certificate, CISSP and CISM together</strong> as certifications that help you enter the field, and adds that certifications substitute for years of experience. The first two are genuinely entry-level. The other two are not certifications you can hold as a beginner at all, and this is checkable rather than a matter of opinion.</p>
 
 <ul>
-    <li><strong>CISSP requires five years</strong> of cumulative full-time experience across at least <strong>two of its eight domains</strong>. If you pass the exam without that, you do not become a CISSP &mdash; you become an <strong>Associate of ISC2</strong>, and you then have <strong>six years to earn the five</strong>. One year can be waived by a four-year degree <em>or</em> by one approved credential, not both. And note that ISC2 <strong>cut that approved-credential list on 1 April 2026</strong>, removing CEH, CISA and OSCP among others while keeping CISM.</li>
+    <li><strong>CISSP requires five years</strong> of cumulative full-time experience across at least <strong>two of its eight domains</strong>. If you pass the exam without that, you do not become a CISSP: you become an <strong>Associate of ISC2</strong>, and you then have <strong>six years to earn the five</strong>. One year can be waived by a four-year degree <em>or</em> by one approved credential, not both. And note that ISC2 <strong>cut that approved-credential list on 1 April 2026</strong>, removing CEH, CISA and OSCP among others while keeping CISM.</li>
     <li><strong>CISM requires five years</strong> of information security experience, of which <strong>at least three must be in security management</strong> across three or more of its domains. Two of the five can be waived by another credential or a postgraduate degree. <strong>The three management years can never be waived.</strong></li>
 </ul>
 
-<p>So the practical position is the reverse of the advice. <strong>Certifications do not substitute for experience at the top; the senior certifications are gated behind the experience.</strong> What certifications actually do at the entry level is get a human to read your application &mdash; Security+ is on a great many US government-adjacent job requirements as a hard filter, which is a different and more limited thing than substituting for a career.</p>
+<p>So the practical position is the reverse of the advice. <strong>Certifications do not substitute for experience at the top; the senior certifications are gated behind the experience.</strong> What certifications actually do at the entry level is get a human to read your application: Security+ is on a great many US government-adjacent job requirements as a hard filter, which is a different and more limited thing than substituting for a career.</p>
 
 <p>If you are planning a route in, plan Security+ now and CISSP for year five. Anyone selling you a CISSP bootcamp as a way into a first job is selling you an exam you can pass and a certificate you cannot receive.</p>
 
@@ -216,7 +216,7 @@ JOBHTML;
 
 <p>BLS states that information security analysts <strong>typically need a bachelor's degree in a computer science field along with related work experience</strong>. That second clause is the one careers content drops, and it is the whole story. This is predominantly a <strong>second job, not a first one</strong>.</p>
 
-<p>The scale matters too. The occupation is projected to <strong>grow 21 per cent from 2025 to 2035</strong> &mdash; far above the 3 per cent average across all occupations, and one of the best projections in the American economy. But it projects <strong>about 14,100 openings a year</strong>, against <strong>106,100 a year</strong> for software developers, quality assurance analysts and testers. The growth rate is excellent and the door is still roughly one seventh as wide. Both facts are true and only one of them usually gets quoted.</p>
+<p>The scale matters too. The occupation is projected to <strong>grow 21 per cent from 2025 to 2035</strong>: far above the 3 per cent average across all occupations, and one of the best projections in the American economy. But it projects <strong>about 14,100 openings a year</strong>, against <strong>106,100 a year</strong> for software developers, quality assurance analysts and testers. The growth rate is excellent and the door is still roughly one seventh as wide. Both facts are true and only one of them usually gets quoted.</p>
 
 <p>What that means in practice is that the reliable routes in are lateral:</p>
 
@@ -241,17 +241,17 @@ JOBHTML;
     <li><strong>The requirement is frequently buried.</strong> It often appears well down the advertisement, sometimes only in the "additional requirements" block, and postings that mention DoD policy or NIST 800-171 are disproportionately likely to carry it.</li>
 </ul>
 
-<p>If you are not a US citizen, read for the clearance line before you invest an hour in the application. The uncleared market &mdash; commercial SOCs, managed detection providers, finance, healthcare, retail and technology companies &mdash; is large, remote-friendly and where your effort belongs. It is simply not the part of the market the DC posting volume represents.</p>
+<p>If you are not a US citizen, read for the clearance line before you invest an hour in the application. The uncleared market, commercial SOCs, managed detection providers, finance, healthcare, retail and technology companies, is large, remote-friendly and where your effort belongs. It is simply not the part of the market the DC posting volume represents.</p>
 
 <h2>The Roles You Will Actually Meet</h2>
 
 <ul>
     <li><strong>SOC Analyst, Tier 1.</strong> Monitoring and first-line triage. The genuine entry point, usually on a rota.</li>
     <li><strong>SOC Analyst, Tier 2 and 3.</strong> Deeper investigation, threat hunting and incident response. Three or more years of hands-on operations work.</li>
-    <li><strong>Information Security Analyst.</strong> The federal job title, and the broadest &mdash; control assessment, policy and support to compliance.</li>
+    <li><strong>Information Security Analyst.</strong> The federal job title, and the broadest: control assessment, policy and support to compliance.</li>
     <li><strong>GRC Analyst.</strong> Governance, risk and compliance. NIST 800-53 and 800-171 assessments, evidence and audit support. Business hours.</li>
     <li><strong>Cloud Security Analyst.</strong> Monitoring and controls on AWS or Azure. Growing fastest, and short of candidates who understand both cloud and security rather than one of the two.</li>
-    <li><strong>Detection Engineer.</strong> Increasingly split out from Tier 3 &mdash; writing and tuning the rules rather than answering them. A better-paid destination for anyone who can script.</li>
+    <li><strong>Detection Engineer.</strong> Increasingly split out from Tier 3: writing and tuning the rules rather than answering them. A better-paid destination for anyone who can script.</li>
 </ul>
 
 <h2>The Shift Reality</h2>
@@ -263,10 +263,10 @@ JOBHTML;
 <h2>Skills That Keep Recurring in Listings</h2>
 
 <ul>
-    <li><strong>SIEM and endpoint tooling</strong>, and MDR platforms &mdash; alert triage and escalation against a documented procedure.</li>
+    <li><strong>SIEM and endpoint tooling</strong>, and MDR platforms: alert triage and escalation against a documented procedure.</li>
     <li><strong>Incident response</strong>: containment, evidence handling and a write-up someone else can act on.</li>
     <li><strong>NIST SP 800-53 and 800-171</strong>, the two frameworks named most often in US postings, especially government-adjacent ones.</li>
-    <li><strong>Cloud security on AWS or Azure</strong> &mdash; identity, logging and misconfiguration, which is where most cloud incidents actually start.</li>
+    <li><strong>Cloud security on AWS or Azure</strong>: identity, logging and misconfiguration, which is where most cloud incidents actually start.</li>
     <li><strong>Python</strong> for automation and detection work. The single highest-leverage skill for moving from Tier 1 to detection engineering.</li>
     <li><strong>Zero Trust and network monitoring</strong>, increasingly as an architectural expectation rather than a buzzword.</li>
     <li><strong>Digital forensics and evidence handling</strong> for senior and regulated roles.</li>
@@ -313,13 +313,13 @@ JOBHTML;
 <p>Widely available at commercial employers. Regulated and cleared work is far more often on-site.</p>
 
 <h3>Cybersecurity analyst salary entry level</h3>
-<p>Roughly $65,000 to $85,000 at Tier 1, with the whole occupation's bottom decile at $75,090 &mdash; a much higher floor than most technology entry points.</p>
+<p>Roughly $65,000 to $85,000 at Tier 1, with the whole occupation's bottom decile at $75,090: a much higher floor than most technology entry points.</p>
 
 <h3>Security clearance jobs cybersecurity</h3>
 <p>US citizenship and an employer sponsor, both required. Pay a premium because the eligible pool is small.</p>
 
 <h3>Cybersecurity vs software developer salary</h3>
-<p>$129,180 against $135,980 at the median &mdash; closer than most people assume. The larger difference is in openings: 14,100 a year against 106,100.</p>
+<p>$129,180 against $135,980 at the median: closer than most people assume. The larger difference is in openings: 14,100 a year against 106,100.</p>
 
 <h3>Cloud security analyst jobs</h3>
 <p>The fastest-growing corner of the field, and short of candidates who genuinely understand both cloud platforms and security rather than one of them.</p>
@@ -329,23 +329,23 @@ JOBHTML;
 <p>Comparing the technical routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; a similar median on seven times the annual openings, and the H-1B position in full.</li>
-    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the widest technical door, and the occupation with the lowest floor of the three.</li>
-    <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a> &mdash; the best-paid application development route, and the store gate in front of a portfolio.</li>
-    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the language that moves a Tier 1 analyst towards detection engineering.</li>
-    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; which of two very different pay bands that title is hiding.</li>
-    <li><a href="/blog/web-developer-jobs-in-usa-2026-market-overview">Web Developer Jobs in USA: 2026 Market Overview</a> &mdash; why the salary ranges you can read in postings are a biased sample.</li>
-    <li><a href="/blog/cybersecurity-engineer-jobs-in-usa">Cybersecurity Engineer Jobs in USA</a> &mdash; the build side of the same field, what separates an engineering CV from an analyst one, and where it pays more.</li>
-    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a> &mdash; the federal investigator route, and who receives its 25 per cent availability pay.</li>
-    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; where many analysts start, handling phishing reports and account lockouts.</li>
-    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a> &mdash; the federal agent route into cybercrime work, and the 25% availability pay.</li>
-    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a> &mdash; how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
-    <li><a href="/blog/entry-level-it-jobs">Entry Level IT Jobs</a> &mdash; the IT jobs to start in before a security role.</li>
-    <li><a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a> &mdash; the national-security analyst route, its GS pay and the clearance it needs.</li>
-    <li><a href="/blog/government-security-jobs-in-australia">Government Security Jobs in Australia</a> &mdash; AFP protective service officer pay, Border Force, ASIO and ASD requirements, and how security clearances work.</li>
+    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a>: a similar median on seven times the annual openings, and the H-1B position in full.</li>
+    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a>: the widest technical door, and the occupation with the lowest floor of the three.</li>
+    <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a>: the best-paid application development route, and the store gate in front of a portfolio.</li>
+    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a>: the language that moves a Tier 1 analyst towards detection engineering.</li>
+    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a>, which of two very different pay bands that title is hiding.</li>
+    <li><a href="/blog/web-developer-jobs-in-usa-2026-market-overview">Web Developer Jobs in USA: 2026 Market Overview</a>: why the salary ranges you can read in postings are a biased sample.</li>
+    <li><a href="/blog/cybersecurity-engineer-jobs-in-usa">Cybersecurity Engineer Jobs in USA</a>: the build side of the same field, what separates an engineering CV from an analyst one, and where it pays more.</li>
+    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a>: the federal investigator route, and who receives its 25 per cent availability pay.</li>
+    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a>: where many analysts start, handling phishing reports and account lockouts.</li>
+    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a>: the federal agent route into cybercrime work, and the 25% availability pay.</li>
+    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a>: how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
+    <li><a href="/blog/entry-level-it-jobs">Entry Level IT Jobs</a>: the IT jobs to start in before a security role.</li>
+    <li><a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a>: the national-security analyst route, its GS pay and the clearance it needs.</li>
+    <li><a href="/blog/government-security-jobs-in-australia">Government Security Jobs in Australia</a>: AFP protective service officer pay, Border Force, ASIO and ASD requirements, and how security clearances work.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, certification requirements and clearance policy change &mdash; ISC2 revised its approved-credential waiver list in April 2026 &mdash; and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics, ISC2, ISACA and the employer's own advertisement before applying or paying for any course.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, certification requirements and clearance policy change, ISC2 revised its approved-credential waiver list in April 2026, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics, ISC2, ISACA and the employer's own advertisement before applying or paying for any course.</p>
 HTML;
     }
 }

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Sales Jobs in Australia" — retail, B2B, telesales and real estate sales,
+ * "Sales Jobs in Australia": retail, B2B, telesales and real estate sales,
  * and the third Australian guide on the site alongside the office and
  * construction ones. Sales is the easiest Australian category to be hired
  * into and the easiest to be underpaid in, because it is quoted three
@@ -156,13 +156,13 @@ class SalesJobsAustraliaBlogSeeder extends Seeder
     <li>No formal qualification for most retail and telesales roles</li>
     <li>CRM experience, such as Salesforce or HubSpot, for most B2B roles</li>
     <li>A driver licence for territory, field and real estate roles</li>
-    <li>For real estate sales, your state's entry-level registration &mdash; such as an Assistant Agent certificate in NSW or an agent's representative in Victoria</li>
+    <li>For real estate sales, your state's entry-level registration: such as an Assistant Agent certificate in NSW or an agent's representative in Victoria</li>
     <li>Full working rights in Australia, stated on most listings</li>
 </ul>
 
 <h3>How the pay is quoted</h3>
 <ul>
-    <li><strong>Retail roles follow the General Retail Industry Award</strong> &mdash; Level 1 is $1,056.80 a week, or $27.81 an hour, from 1 July 2026, with a 25 per cent casual loading</li>
+    <li><strong>Retail roles follow the General Retail Industry Award</strong>: Level 1 is $1,056.80 a week, or $27.81 an hour, from 1 July 2026, with a 25 per cent casual loading</li>
     <li><strong>Field sales representatives</strong> covered by the Commercial Sales Award cannot be paid less than $1,122.80 a week, however much of the pay is commission</li>
     <li><strong>Commission-only employment in real estate</strong> is limited by its award to experienced salespeople aged 21 or over who meet an income threshold and have a written agreement</li>
     <li><strong>Superannuation is 12 per cent</strong>, and advertisements split on whether it is inside the quoted figure or on top of it</li>
@@ -171,14 +171,14 @@ class SalesJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask whether the base is an award wage, whether commission is on top of it, and whether super is included.</strong> A role described as commission-only needs a closer look: an employee's pay cannot fall below the minimum rate for the job however much of it is commission.</p>
 
-<p><strong>Note:</strong> pay, commission structures, registration requirements and eligibility are set by each employer, the relevant award and state law &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, commission structures, registration requirements and eligibility are set by each employer, the relevant award and state law, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Sales is the easiest job category in Australia to get hired into and one of the easiest to be underpaid in. The reason is that sales pay is quoted in three incompatible ways &mdash; an award wage, a base salary plus commission, and commission alone &mdash; and most guides mix all three into one table. This page separates them, corrects the figures that are wrong, and covers the real estate registration that every state names differently.</p>
+<p>Sales is the easiest job category in Australia to get hired into and one of the easiest to be underpaid in. The reason is that sales pay is quoted in three incompatible ways, an award wage, a base salary plus commission, and commission alone, and most guides mix all three into one table. This page separates them, corrects the figures that are wrong, and covers the real estate registration that every state names differently.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/sales?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -190,12 +190,12 @@ JOBHTML;
 
 <p>The figure you will see most often for this job is <strong>"Retail Sales Assistant: AUD $50,000 to $60,000 per year"</strong>. The bottom of that range is not a low offer. For a full-time adult employee, it is an unlawful one.</p>
 
-<p>Australia's <strong>National Minimum Wage from 1 July 2026 is $26.44 an hour</strong>, or $1,004.90 for a 38-hour week. Across a full-time year that is <strong>$52,254.80</strong>. A $50,000 salary is <strong>$2,254.80 short</strong> of it, which works out at about <strong>$25.30 an hour</strong> &mdash; $1.14 below the legal floor.</p>
+<p>Australia's <strong>National Minimum Wage from 1 July 2026 is $26.44 an hour</strong>, or $1,004.90 for a 38-hour week. Across a full-time year that is <strong>$52,254.80</strong>. A $50,000 salary is <strong>$2,254.80 short</strong> of it, which works out at about <strong>$25.30 an hour</strong>: $1.14 below the legal floor.</p>
 
 <p>And the national minimum is not what retail staff are paid anyway. Sales assistants are covered by the <strong>General Retail Industry Award 2020</strong>, which sets its own rates above that floor:</p>
 
 <ul>
-    <li><strong>Level 1</strong>, where most new sales assistants start: <strong>$1,056.80 a week, or $27.81 an hour</strong>, from 1 July 2026 &mdash; about <strong>$54,953.60</strong> across a full-time year</li>
+    <li><strong>Level 1</strong>, where most new sales assistants start: <strong>$1,056.80 a week, or $27.81 an hour</strong>, from 1 July 2026: about <strong>$54,953.60</strong> across a full-time year</li>
     <li><strong>Level 3</strong>: $1,097.80 a week, about $57,085.60 a year</li>
     <li><strong>Level 4</strong>: $1,119.10 a week, about $58,193.20 a year</li>
     <li><strong>Level 8</strong>, the top retail classification: $1,291.80 a week, about $67,173.60 a year</li>
@@ -211,7 +211,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Your classification level.</strong> A new sales assistant usually starts at Level 1; responsibility for keys, stock ordering or supervising others moves you up.</li>
-    <li><strong>Whether you are casual.</strong> Casuals receive a <strong>25 per cent loading</strong> instead of paid annual and personal leave &mdash; at Level 1 that is about <strong>$34.76 an hour</strong>.</li>
+    <li><strong>Whether you are casual.</strong> Casuals receive a <strong>25 per cent loading</strong> instead of paid annual and personal leave: at Level 1 that is about <strong>$34.76 an hour</strong>.</li>
     <li><strong>When you work.</strong> Evenings, Saturdays, Sundays and public holidays attract penalty rates above the base rate, which is why weekend availability matters so much to retail hiring.</li>
     <li><strong>Your age.</strong> Employees under 21 at Levels 1 to 3 can be paid a junior percentage of the adult rate.</li>
 </ul>
@@ -231,18 +231,18 @@ JOBHTML;
 <p>It depends on which award covers the job, and the three that cover most sales work treat it very differently:</p>
 
 <ul>
-    <li><strong>Retail sales staff</strong> &mdash; the General Retail Industry Award has <strong>no commission-only provision</strong>. The minimum rate for your level has to be paid for the hours you work, and commission can only sit on top of it.</li>
-    <li><strong>Field and commercial sales representatives</strong> &mdash; the Commercial Sales Award 2020 covers commercial travellers, and says none "will be remunerated solely by commission payment, salary or retainer, that is lower than the minimum rate". From 1 July 2026 that minimum is <strong>$1,122.80 a week</strong>, about $58,385.60 a year. Commission can make up the pay, but the total can never fall below it.</li>
-    <li><strong>Real estate salespeople</strong> &mdash; the Real Estate Industry Award 2020 is the only one of the three that sets out true commission-only employment, and only under strict conditions.</li>
+    <li><strong>Retail sales staff</strong>: the General Retail Industry Award has <strong>no commission-only provision</strong>. The minimum rate for your level has to be paid for the hours you work, and commission can only sit on top of it.</li>
+    <li><strong>Field and commercial sales representatives</strong>: the Commercial Sales Award 2020 covers commercial travellers, and says none "will be remunerated solely by commission payment, salary or retainer, that is lower than the minimum rate". From 1 July 2026 that minimum is <strong>$1,122.80 a week</strong>, about $58,385.60 a year. Commission can make up the pay, but the total can never fall below it.</li>
+    <li><strong>Real estate salespeople</strong>: the Real Estate Industry Award 2020 is the only one of the three that sets out true commission-only employment, and only under strict conditions.</li>
 </ul>
 
 <p>Under the Real Estate Industry Award, a salesperson can only be paid commission-only if <strong>all</strong> of these apply:</p>
 
 <ul>
-    <li>They are <strong>at least 21</strong> and work at <strong>Level 2 or above</strong> &mdash; never as a Level 1 associate, trainee, junior, part-time or casual employee</li>
+    <li>They are <strong>at least 21</strong> and work at <strong>Level 2 or above</strong>: never as a Level 1 associate, trainee, junior, part-time or casual employee</li>
     <li>They hold a real estate licence or registration, and have worked <strong>at least 12 consecutive months</strong> at Level 2 or above in the past three years, or run their own real estate business</li>
     <li>There is a <strong>written agreement</strong> setting out how the commission is calculated</li>
-    <li>In a 12-month period within the past three years they earned at least <strong>125 per cent of the award rate</strong> for their level, excluding super &mdash; at the Level 2 rate from 1 July 2026 that works out at about <strong>$72,741.50</strong></li>
+    <li>In a 12-month period within the past three years they earned at least <strong>125 per cent of the award rate</strong> for their level, excluding super: at the Level 2 rate from 1 July 2026 that works out at about <strong>$72,741.50</strong></li>
     <li>Their share is at least <strong>31.5 per cent of the agency's gross commission</strong> on their sales</li>
 </ul>
 
@@ -257,7 +257,7 @@ JOBHTML;
 <ul>
     <li><strong>What is the on-target earnings figure, and what share of the current team actually reached it last year?</strong> A generous plan nobody hits is a low salary.</li>
     <li><strong>How is the pay split between base and variable?</strong> A 50/50 split carries twice the risk of an 80/20 one at the same headline figure.</li>
-    <li><strong>When is commission earned</strong> &mdash; on signature, on payment, or after a cancellation period &mdash; and what happens to commission on deals that close after you leave?</li>
+    <li><strong>When is commission earned</strong>, on signature, on payment, or after a cancellation period, and what happens to commission on deals that close after you leave?</li>
     <li><strong>What can be clawed back?</strong> An employer cannot simply deduct clawed-back commission from your wages: under <strong>section 324 of the Fair Work Act</strong>, deductions generally need your written authorisation and must be principally for your benefit.</li>
 </ul>
 
@@ -268,11 +268,11 @@ JOBHTML;
 <p>In every state below, the entry-level role is a <strong>registration</strong> that lets you sell under a licensed agent. The full <strong>licence</strong> is what the agent in charge of the agency holds, and it comes later.</p>
 
 <ul>
-    <li><strong>New South Wales</strong> &mdash; an <strong>Assistant Agent certificate of registration</strong>, requiring five core units (CPPREP4001 to CPPREP4005) of the CPP41419 Certificate IV in Real Estate Practice. It lasts four years and cannot be renewed, so holders must progress to a Class 2 licence, and they work under a Class 1 licensee in charge.</li>
-    <li><strong>Victoria</strong> &mdash; an <strong>agent's representative</strong>. You must be 18 or over and complete 18 units of CPP41419. There is no application to Consumer Affairs Victoria: the employing agent checks your eligibility and notifies the regulator.</li>
-    <li><strong>Queensland</strong> &mdash; a <strong>real estate salesperson registration</strong>, requiring 12 units of CPP41419. Salespeople can only work as employees.</li>
-    <li><strong>Western Australia</strong> &mdash; a <strong>sales representative registration</strong>, requiring 13 units of CPP41419 for sales only or 18 for unrestricted registration, plus a police check dated within three months.</li>
-    <li><strong>South Australia</strong> &mdash; a <strong>registered sales representative</strong> with Consumer and Business Services, requiring 19 units. You can register under supervision while enrolled, with the training expected to be completed within 12 months.</li>
+    <li><strong>New South Wales</strong>: an <strong>Assistant Agent certificate of registration</strong>, requiring five core units (CPPREP4001 to CPPREP4005) of the CPP41419 Certificate IV in Real Estate Practice. It lasts four years and cannot be renewed, so holders must progress to a Class 2 licence, and they work under a Class 1 licensee in charge.</li>
+    <li><strong>Victoria</strong>: an <strong>agent's representative</strong>. You must be 18 or over and complete 18 units of CPP41419. There is no application to Consumer Affairs Victoria: the employing agent checks your eligibility and notifies the regulator.</li>
+    <li><strong>Queensland</strong>: a <strong>real estate salesperson registration</strong>, requiring 12 units of CPP41419. Salespeople can only work as employees.</li>
+    <li><strong>Western Australia</strong>: a <strong>sales representative registration</strong>, requiring 13 units of CPP41419 for sales only or 18 for unrestricted registration, plus a police check dated within three months.</li>
+    <li><strong>South Australia</strong>: a <strong>registered sales representative</strong> with Consumer and Business Services, requiring 19 units. You can register under supervision while enrolled, with the training expected to be completed within 12 months.</li>
 </ul>
 
 <p><strong>Your registration may not cross the border.</strong> Automatic Mutual Recognition lets many occupational registrations work in other states, but real estate sales has two gaps that matter. <strong>Queensland is not part of the scheme</strong>, and <strong>Victoria does not accept interstate salesperson registrations</strong> for agent's representative work. If you are moving to either state for a real estate job, plan to meet that state's requirements rather than assuming your registration carries over.</p>
@@ -291,7 +291,7 @@ JOBHTML;
 
 <p>The most recent official measure is the ABS Employee Earnings survey for <strong>August 2025</strong>, which counts part-time as well as full-time employees. Median weekly earnings were <strong>$742</strong> for sales workers and <strong>$631</strong> for sales assistants and salespersons, against <strong>$1,425</strong> for all employees. We could not find an official measured figure for business development representatives or sales managers, so treat both ranges as what employers advertise rather than what people earn.</p>
 
-<p>There is one official floor for field sales. Commercial travellers and advertising sales representatives covered by the Commercial Sales Award cannot be paid less than <strong>$1,122.80 a week</strong> from 1 July 2026, about <strong>$58,385.60</strong> a year &mdash; so a field sales offer starting at $60,000 is only just above the award minimum.</p>
+<p>There is one official floor for field sales. Commercial travellers and advertising sales representatives covered by the Commercial Sales Award cannot be paid less than <strong>$1,122.80 a week</strong> from 1 July 2026, about <strong>$58,385.60</strong> a year, so a field sales offer starting at $60,000 is only just above the award minimum.</p>
 
 <p>The superannuation question matters more at these salaries. At 12 per cent it is worth <strong>$10,200</strong> on an $85,000 figure and <strong>$15,600</strong> on a $130,000 one. Ask whether the base is "plus super" or a total package before you compare two offers.</p>
 
@@ -302,30 +302,30 @@ JOBHTML;
 <p><strong>On the list:</strong></p>
 
 <ul>
-    <li>Sales Representative (Industrial Products) &mdash; ANZSCO 225411</li>
-    <li>Sales Representative (Medical and Pharmaceutical Products) &mdash; 225412</li>
+    <li>Sales Representative (Industrial Products): ANZSCO 225411</li>
+    <li>Sales Representative (Medical and Pharmaceutical Products): 225412</li>
     <li>ICT Sales Representative (225213), ICT Account Manager (225211) and ICT Business Development Manager (225212)</li>
-    <li>Technical Sales Representatives nec &mdash; 225499</li>
+    <li>Technical Sales Representatives nec: 225499</li>
     <li>Retail Buyer (639211), Retail Manager (General) (142111) and Sales and Marketing Manager (131112)</li>
 </ul>
 
 <p><strong>Not on the list:</strong> Sales Assistant (General) 621111, Retail Supervisor 621511, Real Estate Agent 612114 and Real Estate Representative 612115. The retail, telesales and real estate jobs that make up most sales hiring cannot be sponsored through the Core Skills stream.</p>
 
-<p>The listed roles are technical or senior, and the salary also has to meet an income threshold &mdash; the Core Skills Income Threshold was <strong>$76,515</strong> from 1 July 2025. Check the current figure with the Department of Home Affairs before relying on it.</p>
+<p>The listed roles are technical or senior, and the salary also has to meet an income threshold: the Core Skills Income Threshold was <strong>$76,515</strong> from 1 July 2025. Check the current figure with the Department of Home Affairs before relying on it.</p>
 
-<p>For most readers the realistic route into sales is a <strong>Working Holiday visa</strong>. Its condition 8547 limits you to <strong>six months with one employer</strong> unless you have permission. Since 1 January 2024 some work is exempt &mdash; including working for the same employer at different locations, for no more than six months at each, and work in critical sectors such as tourism and hospitality, health, aged and disability care, childcare, agriculture and food processing. An ordinary shop or office sales job is not in those sectors, so plan to move on, or to change stores within a chain, at the six-month mark.</p>
+<p>For most readers the realistic route into sales is a <strong>Working Holiday visa</strong>. Its condition 8547 limits you to <strong>six months with one employer</strong> unless you have permission. Since 1 January 2024 some work is exempt, including working for the same employer at different locations, for no more than six months at each, and work in critical sectors such as tourism and hospitality, health, aged and disability care, childcare, agriculture and food processing. An ordinary shop or office sales job is not in those sectors, so plan to move on, or to change stores within a chain, at the six-month mark.</p>
 
 <h2>Search Under the Titles Employers Actually Use</h2>
 
 <p>"Sales" on its own returns a mix of everything. These are the titles that separate the markets:</p>
 
 <ul>
-    <li><strong>Retail Assistant</strong>, <strong>Sales Assistant</strong> and <strong>Store Associate</strong> &mdash; award-covered shop-floor roles</li>
-    <li><strong>Sales Development Representative</strong> and <strong>Business Development Representative</strong> &mdash; entry-level B2B prospecting</li>
-    <li><strong>Account Executive</strong> &mdash; the closing role, usually with a quota</li>
-    <li><strong>Account Manager</strong> &mdash; growing existing clients rather than finding new ones</li>
-    <li><strong>Telesales</strong>, <strong>Inside Sales</strong> and <strong>Outbound Sales</strong> &mdash; phone-based selling</li>
-    <li><strong>Sales Associate</strong>, <strong>Property Sales Associate</strong> and <strong>Assistant Agent</strong> &mdash; the entry level in real estate</li>
+    <li><strong>Retail Assistant</strong>, <strong>Sales Assistant</strong> and <strong>Store Associate</strong>: award-covered shop-floor roles</li>
+    <li><strong>Sales Development Representative</strong> and <strong>Business Development Representative</strong>: entry-level B2B prospecting</li>
+    <li><strong>Account Executive</strong>: the closing role, usually with a quota</li>
+    <li><strong>Account Manager</strong>: growing existing clients rather than finding new ones</li>
+    <li><strong>Telesales</strong>, <strong>Inside Sales</strong> and <strong>Outbound Sales</strong>: phone-based selling</li>
+    <li><strong>Sales Associate</strong>, <strong>Property Sales Associate</strong> and <strong>Assistant Agent</strong>: the entry level in real estate</li>
 </ul>
 
 <h2>What Actually Gets You Shortlisted</h2>
@@ -350,7 +350,7 @@ JOBHTML;
 <p>Rarely, for employees. Retail staff must get their award rate with commission on top, commercial travellers cannot be paid below $1,122.80 a week, and real estate commission-only pay needs Level 2 or above, age 21, a written agreement and income of at least 125 per cent of the award rate.</p>
 
 <h3>Do I need a licence to sell real estate in Australia?</h3>
-<p>Yes. Entry-level salespeople need a state registration rather than a full licence &mdash; an Assistant Agent certificate in NSW, an agent's representative in Victoria, or a salesperson or sales representative registration in Queensland, Western Australia and South Australia &mdash; each with its own required training units.</p>
+<p>Yes. Entry-level salespeople need a state registration rather than a full licence, an Assistant Agent certificate in NSW, an agent's representative in Victoria, or a salesperson or sales representative registration in Queensland, Western Australia and South Australia, each with its own required training units.</p>
 
 <h3>Does a real estate registration from one state work in another?</h3>
 <p>Not always. Automatic Mutual Recognition covers many registrations, but Queensland is outside the scheme and Victoria does not accept interstate salesperson registrations for agent's representative work, so check the destination state's rules first.</p>
@@ -395,19 +395,19 @@ JOBHTML;
 <p>Comparing Australian and international routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a> &mdash; administrative work under a different award, and the background check that does not travel between states.</li>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; the casual loading and the Working Holiday route in a trade setting.</li>
-    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; another state-issued credential, and where mutual recognition stops.</li>
-    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; the same shop-floor work under American minimum wage law.</li>
-    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; how American retailers actually hire, and what the big chains start you on.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; customer-facing work under provincial wage floors.</li>
-    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; the checkout side of retail, and the till shortage rule.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; phone and chat skills applied from home.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; client-facing work in the Gulf, and who pays for the visa.</li>
-    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; the award floors for first jobs, junior percentages and the 12% super rate.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; how employer sponsorship actually works, and which occupation list applies.</li>
-    <li><a href="/blog/how-to-become-a-sales-representative-in-australia">How to Become a Sales Representative in Australia</a> &mdash; the licence, working rights and training employers ask for, and the award floor under field sales pay.</li>
-    <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a> &mdash; what the BLS really measures, the pay spread and the titles Salesforce, HubSpot and Adobe use.</li>
+    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a>: administrative work under a different award, and the background check that does not travel between states.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: the casual loading and the Working Holiday route in a trade setting.</li>
+    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a>: another state-issued credential, and where mutual recognition stops.</li>
+    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a>: the same shop-floor work under American minimum wage law.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a>: how American retailers actually hire, and what the big chains start you on.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: customer-facing work under provincial wage floors.</li>
+    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a>: the checkout side of retail, and the till shortage rule.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: phone and chat skills applied from home.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: client-facing work in the Gulf, and who pays for the visa.</li>
+    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a>: the award floors for first jobs, junior percentages and the 12% super rate.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>: how employer sponsorship actually works, and which occupation list applies.</li>
+    <li><a href="/blog/how-to-become-a-sales-representative-in-australia">How to Become a Sales Representative in Australia</a>: the licence, working rights and training employers ask for, and the award floor under field sales pay.</li>
+    <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a>: what the BLS really measures, the pay spread and the titles Salesforce, HubSpot and Adobe use.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, migration or financial advice. Award rates, the national minimum wage, superannuation rules, real estate registration requirements and visa occupation lists change, and salary figures on any job board are a moving average rather than a statistic. Confirm the current position with the Fair Work Ombudsman, your state's real estate regulator, the Department of Home Affairs and the employer's own advertisement before applying.</p>

@@ -205,10 +205,10 @@ class WhatIsWorkPermitBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/what-is-visa-sponsorship-how-it-works">What is Visa Sponsorship and How Does it Work</a> &mdash; how sponsorship works</li>
-    <li><a href="/blog/how-long-work-visa-takes-2026">How Long Does it Take to Get a Work Visa</a> &mdash; realistic timelines</li>
-    <li><a href="/blog/how-to-apply-work-visa-without-agent-2026">How to Apply for a Work Visa Without an Agent (2026)</a> &mdash; apply yourself</li>
-    <li><a href="/blog/english-language-requirements-working-abroad">English Language Requirements for Working Abroad</a> &mdash; tests and exemptions</li>
+    <li><a href="/blog/what-is-visa-sponsorship-how-it-works">What is Visa Sponsorship and How Does it Work</a>: how sponsorship works</li>
+    <li><a href="/blog/how-long-work-visa-takes-2026">How Long Does it Take to Get a Work Visa</a>: realistic timelines</li>
+    <li><a href="/blog/how-to-apply-work-visa-without-agent-2026">How to Apply for a Work Visa Without an Agent (2026)</a>: apply yourself</li>
+    <li><a href="/blog/english-language-requirements-working-abroad">English Language Requirements for Working Abroad</a>: tests and exemptions</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>

@@ -138,8 +138,8 @@ HTML;
 <p>React roles are counted in one of two Bureau of Labor Statistics occupations. Both publish a Quick Facts table, and on the two rows that matter here <strong>both say the same thing</strong>:</p>
 
 <ul>
-    <li><strong>Web Developers and Digital Designers</strong> &mdash; Work Experience in a Related Occupation: <strong>None</strong>. On-the-job Training: <strong>None</strong>.</li>
-    <li><strong>Software Developers, Quality Assurance Analysts, and Testers</strong> &mdash; Work Experience in a Related Occupation: <strong>None</strong>. On-the-job Training: <strong>None</strong>.</li>
+    <li><strong>Web Developers and Digital Designers</strong>: Work Experience in a Related Occupation: <strong>None</strong>. On-the-job Training: <strong>None</strong>.</li>
+    <li><strong>Software Developers, Quality Assurance Analysts, and Testers</strong>: Work Experience in a Related Occupation: <strong>None</strong>. On-the-job Training: <strong>None</strong>.</li>
 </ul>
 
 <p>Both list a bachelor's degree as the typical entry-level education. But the web developer page qualifies even that, and the qualification is the most quotable sentence on it for anyone without a degree: educational requirements "range from a high school diploma to a bachelor's degree", and web developers and digital designers <strong>"may not need specific education credentials if they can demonstrate their abilities through prior work experience or projects"</strong>.</p>
@@ -151,8 +151,8 @@ HTML;
 <p>There is no federal wage line for "junior React developer", and the averages circulating for that title come from job boards, which this site does not republish. What does exist is the bottom of each occupation, as of <strong>May 2025</strong>:</p>
 
 <ul>
-    <li><strong>Web developers</strong> &mdash; median $92,650, with the lowest 10 per cent earning less than <strong>$48,100</strong> and the highest 10 per cent more than $162,290.</li>
-    <li><strong>Software developers</strong> &mdash; median $135,980, with the lowest 10 per cent earning less than <strong>$82,460</strong> and the highest 10 per cent more than $214,670.</li>
+    <li><strong>Web developers</strong>: median $92,650, with the lowest 10 per cent earning less than <strong>$48,100</strong> and the highest 10 per cent more than $162,290.</li>
+    <li><strong>Software developers</strong>: median $135,980, with the lowest 10 per cent earning less than <strong>$82,460</strong> and the highest 10 per cent more than $214,670.</li>
 </ul>
 
 <p>Those tenth percentile numbers are not "entry level pay", and it would be dishonest to present them that way. They are the bottom decile of everyone in the occupation, which includes people well past their first job. What they are useful for is calibration: a first offer near $48,100 is inside the distribution rather than an insult, and the two occupations start from very different floors, which is why it matters which one an advert is benchmarked against.</p>
@@ -168,9 +168,9 @@ HTML;
 <p>React's own documentation is unambiguous about how a new project should start: <strong>"If you want to build a new app or website with React, we recommend starting with a framework."</strong> It names three:</p>
 
 <ul>
-    <li><strong>Next.js (App Router)</strong> &mdash; "a React framework that takes full advantage of React's architecture to enable full-stack React apps"</li>
-    <li><strong>React Router (v7)</strong> &mdash; "the most popular routing library for React and can be paired with Vite to create a full-stack React framework"</li>
-    <li><strong>Expo</strong> &mdash; for "universal Android, iOS, and web apps with truly native UIs"</li>
+    <li><strong>Next.js (App Router)</strong>: "a React framework that takes full advantage of React's architecture to enable full-stack React apps"</li>
+    <li><strong>React Router (v7)</strong>: "the most popular routing library for React and can be paired with Vite to create a full-stack React framework"</li>
+    <li><strong>Expo</strong>: for "universal Android, iOS, and web apps with truly native UIs"</li>
 </ul>
 
 <p>If you would rather not use a framework, React points you at a build tool: <strong>Vite, Parcel or RSbuild</strong>.</p>
@@ -237,9 +237,9 @@ HTML;
 <p>Junior React adverts rarely stop at React, and the additions are worth reading carefully, because one of them has a published standard behind it that most candidates get slightly wrong.</p>
 
 <ul>
-    <li><strong>Accessibility, and which version of it.</strong> Adverts increasingly ask for WCAG 2.2 rather than 2.1. These are not the same bar, and US law currently sits on the older one: the Department of Justice's ADA Title II rule requires <strong>WCAG 2.1 Level AA</strong>, while <strong>WCAG 2.2 became a W3C Recommendation on 12 December 2024</strong> and adds <strong>nine success criteria</strong> on top of 2.1. Only four of those nine are Level AA, and they are the ones worth being able to name: <em>Focus Not Obscured (Minimum)</em>, <em>Dragging Movements</em>, <em>Target Size (Minimum)</em> and <em>Accessible Authentication (Minimum)</em>. An advert asking for 2.2 is asking for more than the federal rule requires &mdash; knowing that, and knowing which four criteria account for the difference, is a genuinely strong answer in a junior interview.</li>
-    <li><strong>TypeScript rather than JavaScript alone.</strong> Treat this as part of the core ask now, not an extra. It is the same language plus a type checker, so it is a days-to-weeks addition for someone who already knows JavaScript &mdash; which makes it one of the cheapest gaps on a junior application to close.</li>
-    <li><strong>A component system, not loose components.</strong> Adverts naming a design system &mdash; or an existing library of primitives &mdash; are describing maintenance of a shared surface rather than building screens. If your portfolio has one reusable, documented component set behind two projects, say so; it answers this directly.</li>
+    <li><strong>Accessibility, and which version of it.</strong> Adverts increasingly ask for WCAG 2.2 rather than 2.1. These are not the same bar, and US law currently sits on the older one: the Department of Justice's ADA Title II rule requires <strong>WCAG 2.1 Level AA</strong>, while <strong>WCAG 2.2 became a W3C Recommendation on 12 December 2024</strong> and adds <strong>nine success criteria</strong> on top of 2.1. Only four of those nine are Level AA, and they are the ones worth being able to name: <em>Focus Not Obscured (Minimum)</em>, <em>Dragging Movements</em>, <em>Target Size (Minimum)</em> and <em>Accessible Authentication (Minimum)</em>. An advert asking for 2.2 is asking for more than the federal rule requires: knowing that, and knowing which four criteria account for the difference, is a genuinely strong answer in a junior interview.</li>
+    <li><strong>TypeScript rather than JavaScript alone.</strong> Treat this as part of the core ask now, not an extra. It is the same language plus a type checker, so it is a days-to-weeks addition for someone who already knows JavaScript, which makes it one of the cheapest gaps on a junior application to close.</li>
+    <li><strong>A component system, not loose components.</strong> Adverts naming a design system, or an existing library of primitives, are describing maintenance of a shared surface rather than building screens. If your portfolio has one reusable, documented component set behind two projects, say so; it answers this directly.</li>
     <li><strong>Tests.</strong> A junior is rarely expected to design a test strategy, but is expected to write a test for the component they just wrote, and to be able to read a failing run. One project with real tests evidences it.</li>
 </ul>
 
@@ -300,16 +300,16 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the main guide: pay bands, the toolchain that dates you, and the clearance filter on federal work.</li>
-    <li><a href="/blog/remote-react-developer-jobs-in-usa">Remote React Developer Jobs in USA</a> &mdash; W-2 against 1099, self-employment tax, and which state ends up taxing you.</li>
-    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the occupation with the lower floor, and how freelance rates work against US tax.</li>
-    <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a> &mdash; accessibility law and Core Web Vitals, the two measurable skills that move an offer.</li>
-    <li><a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">How to Apply for React Developer Jobs in USA</a> &mdash; the application process, what employers may ask, and how to spot a scam.</li>
-    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the coding test and take-home stage, and the accommodation you are entitled to ask for.</li>
-    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; the far end of the same ladder, and the overtime exemption the grade crosses into.</li>
-    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a> &mdash; the staffing route many first roles arrive through, and the STEM OPT rule agencies get wrong.</li>
-    <li><a href="/blog/react-developer-internship-jobs-in-usa">React Developer Internship Jobs in USA</a> &mdash; the step before this one, and whether an internship has to be paid at all.</li>
-    <li><a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React Developer Jobs in USA</a> &mdash; the fundamentals round, and why half of it is not the JavaScript language at all.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the main guide: pay bands, the toolchain that dates you, and the clearance filter on federal work.</li>
+    <li><a href="/blog/remote-react-developer-jobs-in-usa">Remote React Developer Jobs in USA</a>: W-2 against 1099, self-employment tax, and which state ends up taxing you.</li>
+    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a>: the occupation with the lower floor, and how freelance rates work against US tax.</li>
+    <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a>: accessibility law and Core Web Vitals, the two measurable skills that move an offer.</li>
+    <li><a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">How to Apply for React Developer Jobs in USA</a>: the application process, what employers may ask, and how to spot a scam.</li>
+    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a>: the coding test and take-home stage, and the accommodation you are entitled to ask for.</li>
+    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a>: the far end of the same ladder, and the overtime exemption the grade crosses into.</li>
+    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a>: the staffing route many first roles arrive through, and the STEM OPT rule agencies get wrong.</li>
+    <li><a href="/blog/react-developer-internship-jobs-in-usa">React Developer Internship Jobs in USA</a>: the step before this one, and whether an internship has to be paid at all.</li>
+    <li><a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React Developer Jobs in USA</a>: the fundamentals round, and why half of it is not the JavaScript language at all.</li>
 </ul>
 
 <h2>Official sources</h2>
@@ -323,7 +323,7 @@ HTML;
     <li><a href="https://www.apprenticeship.gov/apprenticeship-occupations" target="_blank" rel="noopener nofollow">Apprenticeship.gov, apprenticeable occupations</a></li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers or legal advice. Wage data, projections and library recommendations change &mdash; confirm the current position with the Bureau of Labor Statistics, React's official documentation and the employer's own advertisement before relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers or legal advice. Wage data, projections and library recommendations change: confirm the current position with the Bureau of Labor Statistics, React's official documentation and the employer's own advertisement before relying on any of it.</p>
 HTML;
     }
 }

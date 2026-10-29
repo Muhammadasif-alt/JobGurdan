@@ -264,9 +264,9 @@ JOBHTML,
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/warehouse-operative-jobs-uk-visa-sponsorship-2026">Warehouse Operative Jobs in the UK With Visa Sponsorship (2026)</a> &mdash; the same rules for warehouse work.</li>
-    <li><a href="/blog/kitchen-porter-jobs-uk-visa-sponsorship-2026">Kitchen Porter Jobs in the UK With Visa Sponsorship (2026)</a> &mdash; another lower-skilled role.</li>
-    <li><a href="/blog/hotel-housekeeper-jobs-usa-visa-sponsorship-2026">Hotel Housekeeper Jobs in the USA With Visa Sponsorship (2026)</a> &mdash; the US route for comparison.</li>
+    <li><a href="/blog/warehouse-operative-jobs-uk-visa-sponsorship-2026">Warehouse Operative Jobs in the UK With Visa Sponsorship (2026)</a>: the same rules for warehouse work.</li>
+    <li><a href="/blog/kitchen-porter-jobs-uk-visa-sponsorship-2026">Kitchen Porter Jobs in the UK With Visa Sponsorship (2026)</a>: another lower-skilled role.</li>
+    <li><a href="/blog/hotel-housekeeper-jobs-usa-visa-sponsorship-2026">Hotel Housekeeper Jobs in the USA With Visa Sponsorship (2026)</a>: the US route for comparison.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Rules were checked against GOV.UK on 9 October 2026 and change often, so confirm them on GOV.UK before you act or pay anyone.</p>

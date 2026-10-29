@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Oman Air Cabin Crew Jobs" — an employer guide that leads
+ * "How to Apply for Oman Air Cabin Crew Jobs": an employer guide that leads
  * with the thing the draft left out entirely: Oman Air is running Omanisation
  * at 79.4% and has cut expatriate headcount, which changes the odds for a
  * foreign applicant more than any requirement in the draft.
@@ -153,7 +153,7 @@ class OmanAirCabinCrewJobsBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> Oman Air publishes no cabin crew pay and no standing entry requirements, and Omanisation policy is set by the Omani government &mdash; not by JobGader. Never pay anyone for an interview or a job offer.</p>
+<p><strong>Note:</strong> Oman Air publishes no cabin crew pay and no standing entry requirements, and Omanisation policy is set by the Omani government, not by JobGader. Never pay anyone for an interview or a job offer.</p>
 JOBHTML;
     }
 
@@ -182,7 +182,7 @@ JOBHTML;
 
 <p>You will find a confident list of Oman Air cabin crew requirements on every site: age 18 to 31 for Omanis and 21 to 31 for non-Omanis, able to swim 10 metres unaided, fluent English, minimum 160cm in line with BMI standards, and a secondary school certificate.</p>
 
-<p><strong>Those criteria come from a single Open Day held in Muscat on 19 July 2026, which was open to female applicants only.</strong> That date has passed, and the list reached the wider internet through a third-party site republishing the announcement. <strong>Oman Air's own careers pages publish no standing cabin crew criteria at all</strong> &mdash; the airline says only that candidates must meet its rigorous selection procedures.</p>
+<p><strong>Those criteria come from a single Open Day held in Muscat on 19 July 2026, which was open to female applicants only.</strong> That date has passed, and the list reached the wider internet through a third-party site republishing the announcement. <strong>Oman Air's own careers pages publish no standing cabin crew criteria at all</strong>: the airline says only that candidates must meet its rigorous selection procedures.</p>
 
 <p>So treat that list as a guide to the kind of thing Oman Air asks for, not as rules you can rely on. The next announcement can differ on age, gender and nationality, and the announcement always wins.</p>
 
@@ -261,7 +261,7 @@ JOBHTML;
     <li><strong>Prepare the documents</strong> an Open Day typically asks for: an updated CV, education certificates, passport-size photographs and a passport copy.</li>
     <li><strong>Practise swimming.</strong> A short unaided swim has been part of past assessments and is a normal aviation requirement.</li>
     <li><strong>Work on your English.</strong> Fluency in spoken and written English is the one criterion that appears in every version of the requirements.</li>
-    <li><strong>Never pay for an interview, a referral or a job offer.</strong> Oman Air does not publish a recruitment fraud page, so there is no official notice to point at &mdash; which makes the general rule more important, not less. No legitimate airline charges candidates.</li>
+    <li><strong>Never pay for an interview, a referral or a job offer.</strong> Oman Air does not publish a recruitment fraud page, so there is no official notice to point at, which makes the general rule more important, not less. No legitimate airline charges candidates.</li>
 </ol>
 
 <h2>Frequently Asked Questions</h2>
@@ -321,16 +321,16 @@ JOBHTML;
 <p>Comparing Gulf employers and routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a> &mdash; the ground route with the same employer, and the Omanisation rules that decide whether an expatriate can be hired at all.</li>
-    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; an airline that publishes its pay and recruits worldwide.</li>
-    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a> &mdash; the sponsorship system and Saudization, the parallel of Omanisation.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; customer-facing Gulf work with lower entry barriers.</li>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; where to build the hospitality experience airlines ask for.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; another sponsored Gulf route.</li>
-    <li><a href="/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs">How to Apply for Kuwait Airways Cabin Crew Jobs</a> &mdash; the Gulf carrier whose careers portal most guides cannot find.</li>
-    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; why Abu Dhabi ground jobs are advertised by a company called Velora.</li>
-    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a> &mdash; the government portal that replaced PetroJobs.</li>
-    <li><a href="/blog/how-to-apply-for-singapore-airlines-cabin-crew-jobs">How to Apply for Singapore Airlines Cabin Crew Jobs</a> &mdash; published pay, a five-year contract, and the service bond most guides omit.</li>
+    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a>: the ground route with the same employer, and the Omanisation rules that decide whether an expatriate can be hired at all.</li>
+    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a>: an airline that publishes its pay and recruits worldwide.</li>
+    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a>: the sponsorship system and Saudization, the parallel of Omanisation.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: customer-facing Gulf work with lower entry barriers.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>: where to build the hospitality experience airlines ask for.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: another sponsored Gulf route.</li>
+    <li><a href="/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs">How to Apply for Kuwait Airways Cabin Crew Jobs</a>: the Gulf carrier whose careers portal most guides cannot find.</li>
+    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a>: why Abu Dhabi ground jobs are advertised by a company called Velora.</li>
+    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a>: the government portal that replaced PetroJobs.</li>
+    <li><a href="/blog/how-to-apply-for-singapore-airlines-cabin-crew-jobs">How to Apply for Singapore Airlines Cabin Crew Jobs</a>: published pay, a five-year contract, and the service bond most guides omit.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Oman Air's own careers pages, application guide and press releases, Royal Oman Police visa information and Oman's published ministerial decisions. Oman Air does not publish cabin crew pay or standing entry requirements, and recruitment criteria change between announcements. Always follow the current official announcement.</p>

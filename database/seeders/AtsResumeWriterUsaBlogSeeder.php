@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "ATS Resume Writer Jobs in USA" — a sector guide rather than one vacancy, so
+ * "ATS Resume Writer Jobs in USA": a sector guide rather than one vacancy, so
  * the apply link goes to an Indeed search and the post carries no JobPosting
  * markup.
  *
@@ -133,9 +133,9 @@ class AtsResumeWriterUsaBlogSeeder extends Seeder
 <h3>Requirements</h3>
 <ul>
     <li>Strong written English and the discipline to write in someone else's voice</li>
-    <li>Familiarity with how the major systems parse a document &mdash; Workday, Taleo, iCIMS and Greenhouse are the ones named most often</li>
+    <li>Familiarity with how the major systems parse a document: Workday, Taleo, iCIMS and Greenhouse are the ones named most often</li>
     <li>A portfolio of before-and-after samples; practice pieces are accepted when starting out</li>
-    <li>A recognised certification is an advantage &mdash; the CPRW, or the NRWA's NCRW &mdash; though many firms hire on portfolio alone</li>
+    <li>A recognised certification is an advantage, the CPRW, or the NRWA's NCRW, though many firms hire on portfolio alone</li>
     <li>An HR, recruiting or career coaching background helps but is not usually required</li>
 </ul>
 
@@ -143,20 +143,20 @@ class AtsResumeWriterUsaBlogSeeder extends Seeder
 <ul>
     <li><strong>Staff writer roles</strong> at established firms commonly pay a base salary plus a per-resume bonus</li>
     <li><strong>Freelance and contract work</strong> is priced per project, with the rate varying by the client's industry and seniority</li>
-    <li>Before accepting piecework, confirm the <strong>turnaround time and the revision policy</strong> &mdash; an unlimited-revisions clause turns a fixed fee into an open-ended commitment</li>
+    <li>Before accepting piecework, confirm the <strong>turnaround time and the revision policy</strong>: an unlimited-revisions clause turns a fixed fee into an open-ended commitment</li>
 </ul>
 
 <h3>Before you apply</h3>
 <p><strong>Be careful with the industry's favourite statistic.</strong> The claim that applicant tracking systems automatically reject around three quarters of resumes is not supported by any published research, and recruiters say their systems do not auto-reject on formatting. What actually happens is volume, recruiter keyword searches inside the system, and genuine parsing errors. A writer who understands that difference gives better advice than one repeating the sales line.</p>
 
-<p><strong>Note:</strong> pay, turnaround expectations and certification requirements are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, turnaround expectations and certification requirements are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Resume writing is one of the few writing jobs with steady, year-round demand in the United States, and almost all of it is remote &mdash; the work is a document, a job description and a conversation. It is also an industry built on a claim that is not true, and knowing which parts of the standard pitch hold up is most of what separates a credible writer from a template seller. This guide covers what the job is, what it pays, which credentials mean what, and the statistic you should never repeat to a client.</p>
+<p>Resume writing is one of the few writing jobs with steady, year-round demand in the United States, and almost all of it is remote: the work is a document, a job description and a conversation. It is also an industry built on a claim that is not true, and knowing which parts of the standard pitch hold up is most of what separates a credible writer from a template seller. This guide covers what the job is, what it pays, which credentials mean what, and the statistic you should never repeat to a client.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/writing-content?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -168,13 +168,13 @@ JOBHTML;
 
 <p>The job is to produce a document that survives being read twice: once by software that extracts structured data from it, and once by a person deciding in a few seconds whether to keep reading. Those two readers want different things, and reconciling them is the whole skill.</p>
 
-<p>In practice that means standard section headings the parser recognises, no essential content trapped in a text box, table or image, a font and layout that do not confuse extraction, and the vocabulary of the target job description used honestly &mdash; the terms the employer used, where they are true of the candidate. The other half of the job is editorial: cutting duties down to achievements, putting numbers on results, and getting the top third of page one to say the thing the candidate is applying to do.</p>
+<p>In practice that means standard section headings the parser recognises, no essential content trapped in a text box, table or image, a font and layout that do not confuse extraction, and the vocabulary of the target job description used honestly: the terms the employer used, where they are true of the candidate. The other half of the job is editorial: cutting duties down to achievements, putting numbers on results, and getting the top third of page one to say the thing the candidate is applying to do.</p>
 
-<h2>The Statistic the Industry Sells On — and Why It Is Wrong</h2>
+<h2>The Statistic the Industry Sells On: and Why It Is Wrong</h2>
 
 <p>You will meet this claim within a day of entering the field: that applicant tracking systems automatically reject about 75 per cent of resumes before a human sees them. It is worth knowing that <strong>no published research supports it</strong>. It traces to a 2012 sales pitch by a resume-optimisation company that was out of business by 2013, and no methodology was ever released. Surveys of recruiters find the overwhelming majority saying their systems do not auto-reject resumes on formatting, design or content at all.</p>
 
-<p>What actually happens is less dramatic and more useful to know. An ATS is a database: it stores, sorts and searches. Recruiters run keyword searches inside it and read what surfaces. Applications disappear for three ordinary reasons &mdash; sheer volume, because a popular posting can draw hundreds or thousands of applicants in days; keyword mismatch, because the resume never surfaces in the search the recruiter actually ran; and real parsing failures, where a layout hides content from extraction.</p>
+<p>What actually happens is less dramatic and more useful to know. An ATS is a database: it stores, sorts and searches. Recruiters run keyword searches inside it and read what surfaces. Applications disappear for three ordinary reasons: sheer volume, because a popular posting can draw hundreds or thousands of applicants in days; keyword mismatch, because the resume never surfaces in the search the recruiter actually ran; and real parsing failures, where a layout hides content from extraction.</p>
 
 <p>That correction is not bad for business, it is the business. Every one of those three is something a good writer fixes. A candidate who has been told a robot deleted their resume learns nothing; a candidate who is shown that their resume never matched the search terms the recruiter used can act on it.</p>
 
@@ -183,15 +183,15 @@ JOBHTML;
 <p>Four kinds of employer, and they want different things:</p>
 
 <ul>
-    <li><strong>Career coaching firms and resume services</strong> &mdash; the largest employer of staff writers, usually volume-based with defined turnaround times.</li>
-    <li><strong>Staffing and recruiting agencies</strong> &mdash; writers who reformat candidate resumes to a house standard before submission to clients.</li>
-    <li><strong>HR consultancies and outplacement providers</strong> &mdash; work attached to redundancy programmes, often the best paid and the most seasonal.</li>
-    <li><strong>Direct clients and freelance platforms</strong> &mdash; the most accessible entry point, and the one where your own portfolio does the selling.</li>
+    <li><strong>Career coaching firms and resume services</strong>: the largest employer of staff writers, usually volume-based with defined turnaround times.</li>
+    <li><strong>Staffing and recruiting agencies</strong>: writers who reformat candidate resumes to a house standard before submission to clients.</li>
+    <li><strong>HR consultancies and outplacement providers</strong>: work attached to redundancy programmes, often the best paid and the most seasonal.</li>
+    <li><strong>Direct clients and freelance platforms</strong>: the most accessible entry point, and the one where your own portfolio does the selling.</li>
 </ul>
 
 <h2>How Resume Writers Get Paid</h2>
 
-<p>Staff writer roles at established firms commonly pay a base salary plus a per-resume bonus. Freelance and contract writers are usually paid per project, with rates set by the client's industry and seniority level &mdash; an executive resume is priced differently from a first-job one, and reasonably so.</p>
+<p>Staff writer roles at established firms commonly pay a base salary plus a per-resume bonus. Freelance and contract writers are usually paid per project, with rates set by the client's industry and seniority level: an executive resume is priced differently from a first-job one, and reasonably so.</p>
 
 <p>Before you accept piecework, settle two things that decide what the fee is actually worth: <strong>the turnaround time</strong> and <strong>the revision policy</strong>. An unlimited-revisions clause attached to a flat fee turns a fixed price into an open-ended commitment, and it is the single most common way writers in this field end up underpaid. Two rounds of revisions within a stated window is a normal, professional term to ask for.</p>
 
@@ -200,9 +200,9 @@ JOBHTML;
 <p>This is worth getting right, because the credentials are easy to confuse and one of them is not about resumes at all.</p>
 
 <ul>
-    <li><strong>CPRW</strong> &mdash; Certified Professional Résumé Writer. The most widely recognised resume-writing credential and the one employers name most often.</li>
-    <li><strong>NCRW</strong> &mdash; Nationally Certified Résumé Writer, from the National Résumé Writers' Association. The other established resume credential, with a demanding examination.</li>
-    <li><strong>NCOPE</strong> &mdash; Nationally Certified Online Profile Expert, also from the NRWA. This one is <strong>not a resume certification</strong>: it covers LinkedIn and online career profiles. Useful, frequently sold alongside resume work, and regularly listed in the wrong place in job guides.</li>
+    <li><strong>CPRW</strong>: Certified Professional Résumé Writer. The most widely recognised resume-writing credential and the one employers name most often.</li>
+    <li><strong>NCRW</strong>: Nationally Certified Résumé Writer, from the National Résumé Writers' Association. The other established resume credential, with a demanding examination.</li>
+    <li><strong>NCOPE</strong>: Nationally Certified Online Profile Expert, also from the NRWA. This one is <strong>not a resume certification</strong>: it covers LinkedIn and online career profiles. Useful, frequently sold alongside resume work, and regularly listed in the wrong place in job guides.</li>
 </ul>
 
 <p>None of them is mandatory. Plenty of firms hire on portfolio alone, and a strong set of before-and-after samples will get you further at the start than a certificate with nothing behind it. If you are choosing one, pick the credential that matches the work you intend to sell.</p>
@@ -219,7 +219,7 @@ JOBHTML;
     <li><strong>Writing in someone else's voice.</strong> The resume has to sound like the candidate, not like you.</li>
     <li><strong>Interviewing.</strong> Most of the material worth putting on a resume has to be drawn out of the client, because they do not think of it as an achievement.</li>
     <li><strong>Formatting discipline.</strong> Knowing what parses cleanly and what does not, and being able to explain why to a client who wants a designed template.</li>
-    <li><strong>Familiarity with the major systems</strong> &mdash; Workday, Taleo, iCIMS, Greenhouse &mdash; enough to speak about parsing and search behaviour specifically.</li>
+    <li><strong>Familiarity with the major systems</strong>, Workday, Taleo, iCIMS, Greenhouse, enough to speak about parsing and search behaviour specifically.</li>
     <li><strong>Judgement about keywords.</strong> Using the employer's terminology where it is true, and refusing to stuff terms that are not.</li>
 </ul>
 
@@ -227,7 +227,7 @@ JOBHTML;
 
 <ol>
     <li><strong>Build two or three before-and-after samples.</strong> Practice pieces are fine; what is being assessed is whether you can show the improvement and explain it.</li>
-    <li><strong>Put any certification or HR and recruiting background near the top</strong> of your own resume &mdash; which will be read as a work sample whether or not anyone says so.</li>
+    <li><strong>Put any certification or HR and recruiting background near the top</strong> of your own resume, which will be read as a work sample whether or not anyone says so.</li>
     <li><strong>Learn the major ATS platforms well enough to be specific</strong> in an interview about parsing and how recruiters search inside them.</li>
     <li><strong>Apply through job boards and firms' own careers pages</strong> rather than unsolicited offers with no verifiable client history.</li>
     <li><strong>For contract work, agree the pay structure, turnaround and revision limit in writing</strong> before the first assignment.</li>
@@ -291,14 +291,14 @@ JOBHTML;
 <p>Looking at the rest of the remote writing and support market? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/ats-resume-writer-jobs-in-canada">ATS Resume Writer Jobs in Canada</a> &mdash; the Canadian market, where the credential, the pay data and the tax treatment are all different.</li>
-    <li><a href="/blog/ai-content-writer-jobs-in-usa">AI Content Writer Jobs in USA</a> &mdash; the other fast-growing remote writing category, and what employers actually screen for.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; how international remote work and payment routes actually operate.</li>
-    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; the largest entry-level remote category, and the scam patterns that come with it.</li>
-    <li><a href="/blog/digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan">Digital Marketing Expert (SEO) &mdash; Remote, Pakistan</a> &mdash; an adjacent remote content role with a defined skill set.</li>
+    <li><a href="/blog/ats-resume-writer-jobs-in-canada">ATS Resume Writer Jobs in Canada</a>: the Canadian market, where the credential, the pay data and the tax treatment are all different.</li>
+    <li><a href="/blog/ai-content-writer-jobs-in-usa">AI Content Writer Jobs in USA</a>: the other fast-growing remote writing category, and what employers actually screen for.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: how international remote work and payment routes actually operate.</li>
+    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a>: the largest entry-level remote category, and the scam patterns that come with it.</li>
+    <li><a href="/blog/digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan">Digital Marketing Expert (SEO), Remote, Pakistan</a>, an adjacent remote content role with a defined skill set.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Certification requirements, pay structures and employer terms change &mdash; confirm the current details with the certifying body and on the employer's own advertisement before applying.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Certification requirements, pay structures and employer terms change: confirm the current details with the certifying body and on the employer's own advertisement before applying.</p>
 HTML;
     }
 }

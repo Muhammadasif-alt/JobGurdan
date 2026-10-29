@@ -145,12 +145,12 @@ HTML;
 <p>OPM's competitive hiring process runs in six stages:</p>
 
 <ul>
-    <li><strong>Vacancy announcement</strong> &mdash; the public notice of the opening, with its own open period.</li>
-    <li><strong>Application and assessment</strong> &mdash; candidates apply and are evaluated, which can mean written tests or a review of education and experience.</li>
-    <li><strong>Rating and ranking</strong> &mdash; applicants are rated against job-related competencies.</li>
-    <li><strong>Certification</strong> &mdash; eligible candidates are certified to the hiring manager.</li>
-    <li><strong>Selection</strong> &mdash; the manager selects from the certified candidates.</li>
-    <li><strong>Appointment</strong> &mdash; the successful candidate receives a career or career-conditional appointment.</li>
+    <li><strong>Vacancy announcement</strong>: the public notice of the opening, with its own open period.</li>
+    <li><strong>Application and assessment</strong>: candidates apply and are evaluated, which can mean written tests or a review of education and experience.</li>
+    <li><strong>Rating and ranking</strong>: applicants are rated against job-related competencies.</li>
+    <li><strong>Certification</strong>: eligible candidates are certified to the hiring manager.</li>
+    <li><strong>Selection</strong>: the manager selects from the certified candidates.</li>
+    <li><strong>Appointment</strong>: the successful candidate receives a career or career-conditional appointment.</li>
 </ul>
 
 <p>Two features of that process explain most of the frustration people report with it.</p>
@@ -170,7 +170,7 @@ HTML;
 <p>What that rules out at application stage:</p>
 
 <ul>
-    <li><strong>Job adverts that signal a preference.</strong> An employer may not "publish a job advertisement that shows a preference for or discourages someone from applying for a job" on those grounds. The EEOC's own examples include adverts seeking "females" or <strong>"recent college graduates"</strong> &mdash; which is worth knowing in a field where that phrasing is common.</li>
+    <li><strong>Job adverts that signal a preference.</strong> An employer may not "publish a job advertisement that shows a preference for or discourages someone from applying for a job" on those grounds. The EEOC's own examples include adverts seeking "females" or <strong>"recent college graduates"</strong>, which is worth knowing in a field where that phrasing is common.</li>
     <li><strong>Recruitment that filters people out.</strong> Recruiting "in a way that discriminates" is unlawful, and the EEOC names word-of-mouth hiring that produces a homogeneous workforce as a possible violation.</li>
     <li><strong>Hiring on assumptions.</strong> Decisions may not be "based on stereotypes and assumptions" about protected characteristics.</li>
     <li><strong>Disability questions before an offer.</strong> Employers are "explicitly prohibited from making pre-offer inquiries about disability".</li>
@@ -184,7 +184,7 @@ HTML;
 
 <p>If an employer uses a consumer reporting agency to check you, the Fair Credit Reporting Act applies, and it is unusually specific.</p>
 
-<p><strong>Before the check</strong>, the employer must tell you it "might use the information for decisions about his or her employment", and that notice "must be in writing and in a stand-alone format" &mdash; it cannot be buried in the application form. It must then "get the applicant's or employee's written permission to do the background check".</p>
+<p><strong>Before the check</strong>, the employer must tell you it "might use the information for decisions about his or her employment", and that notice "must be in writing and in a stand-alone format": it cannot be buried in the application form. It must then "get the applicant's or employee's written permission to do the background check".</p>
 
 <p><strong>Before rejecting you</strong> because of what the report says, the employer must give you a pre-adverse action notice that includes <strong>a copy of the consumer report it relied on</strong> and <strong>a copy of "A Summary of Your Rights Under the Fair Credit Reporting Act"</strong>. The point of that step is to let you see the report and challenge anything wrong in it <em>before</em> the decision is final.</p>
 
@@ -198,7 +198,7 @@ HTML;
 
 <p>Employers who fail to complete the form properly risk violating section 274A of the Immigration and Nationality Act and civil penalties, and they may terminate an employee who does not present acceptable documentation inside the three-day window.</p>
 
-<p>Two things follow. Have your documents ready before the start date, because the clock is short and it is not negotiable. And note that this is a verification step after hiring, not a screening question at application &mdash; an employer asking for immigration documents before an offer is not following the normal sequence.</p>
+<p>Two things follow. Have your documents ready before the start date, because the clock is short and it is not negotiable. And note that this is a verification step after hiring, not a screening question at application: an employer asking for immigration documents before an offer is not following the normal sequence.</p>
 
 <img src="/public/storage/blogs/how-to-apply-react-developer-jobs-usa-interview.jpg" alt="React developer technical interview with a live coding exercise" />
 
@@ -214,7 +214,7 @@ HTML;
     <li><strong>System design, for senior roles.</strong> Rendering strategy, where state lives, and what you would choose not to build.</li>
 </ul>
 
-<p>Applying from a standing start is a different problem, and our <a href="/blog/entry-level-react-developer-jobs-in-usa">entry level React guide</a> covers what to build and how to read a junior advert. If the role is remote, settle the employment shape before the offer, because it changes your take-home pay substantially &mdash; our <a href="/blog/remote-react-developer-jobs-in-usa">remote React guide</a> works through it.</p>
+<p>Applying from a standing start is a different problem, and our <a href="/blog/entry-level-react-developer-jobs-in-usa">entry level React guide</a> covers what to build and how to read a junior advert. If the role is remote, settle the employment shape before the offer, because it changes your take-home pay substantially: our <a href="/blog/remote-react-developer-jobs-in-usa">remote React guide</a> works through it.</p>
 
 <h2 id="job-scams">Before You Send Anything, Check It Is Real</h2>
 
@@ -285,12 +285,12 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the main guide: pay bands, the toolchain that dates you, and the clearance filter on federal work.</li>
-    <li><a href="/blog/remote-react-developer-jobs-in-usa">Remote React Developer Jobs in USA</a> &mdash; W-2 against 1099, self-employment tax, and which state ends up taxing you.</li>
-    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a> &mdash; what BLS records about experience, and the paid apprenticeship route.</li>
-    <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a> &mdash; accessibility law and Core Web Vitals, the two measurable skills that move an offer.</li>
-    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage: what federal law calls a coding test, and the adjustment you can ask for.</li>
-    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; what the grade changes legally, and the wage level that prices the title on a sponsored role.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the main guide: pay bands, the toolchain that dates you, and the clearance filter on federal work.</li>
+    <li><a href="/blog/remote-react-developer-jobs-in-usa">Remote React Developer Jobs in USA</a>: W-2 against 1099, self-employment tax, and which state ends up taxing you.</li>
+    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a>: what BLS records about experience, and the paid apprenticeship route.</li>
+    <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a>: accessibility law and Core Web Vitals, the two measurable skills that move an offer.</li>
+    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a>: the assessment stage: what federal law calls a coding test, and the adjustment you can ask for.</li>
+    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a>: what the grade changes legally, and the wage level that prices the title on a sponsored role.</li>
 </ul>
 
 <h2>Official sources</h2>
@@ -304,7 +304,7 @@ HTML;
     <li><a href="https://www.usajobs.gov/" target="_blank" rel="noopener nofollow">USAJOBS, the official federal job site</a></li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Hiring rules, state and local restrictions and agency procedures change &mdash; confirm the current position with OPM, the EEOC, the FTC and USCIS, and take professional advice before relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Hiring rules, state and local restrictions and agency procedures change: confirm the current position with OPM, the EEOC, the FTC and USCIS, and take professional advice before relying on any of it.</p>
 HTML;
     }
 }

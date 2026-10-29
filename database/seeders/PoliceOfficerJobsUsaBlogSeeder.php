@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Police Officer Jobs in USA" — local, state and federal law enforcement.
+ * "Police Officer Jobs in USA": local, state and federal law enforcement.
  * Most readers are outside the United States, so citizenship, firearms and
  * age rules get as much space as pay.
  *
@@ -162,7 +162,7 @@ class PoliceOfficerJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the agency's citizenship, age and education rules before you prepare for the exam.</strong> They differ between departments in the same state.</p>
 
-<p><strong>Note:</strong> pay, eligibility and hiring rules are set by each agency and by federal and state law &mdash; not by JobGader. Confirm the details on the official recruitment page before applying.</p>
+<p><strong>Note:</strong> pay, eligibility and hiring rules are set by each agency and by federal and state law, not by JobGader. Confirm the details on the official recruitment page before applying.</p>
 JOBHTML;
     }
 
@@ -189,11 +189,11 @@ JOBHTML;
 
 <p>The spread matters too. The lowest-paid tenth of patrol officers earned less than <strong>$47,510</strong>, and the highest-paid tenth more than $115,120. So the guides' entry range sits mostly at the very bottom of the market. A large department shows the shape: the NYPD starts officers on $60,884 and pays $126,410 in total salary after five and a half years.</p>
 
-<p>The other two bands are low as well. Patrol officers employed by <strong>state governments</strong> &mdash; the nearest BLS measure of state troopers &mdash; have a median of <strong>$88,400</strong>, above the guides' $85,000 ceiling. <strong>Detectives and criminal investigators in the federal government</strong> have a median of <strong>$119,500</strong>.</p>
+<p>The other two bands are low as well. Patrol officers employed by <strong>state governments</strong>, the nearest BLS measure of state troopers, have a median of <strong>$88,400</strong>, above the guides' $85,000 ceiling. <strong>Detectives and criminal investigators in the federal government</strong> have a median of <strong>$119,500</strong>.</p>
 
 <h2>The Top States for Jobs Are Not the Top States for Pay</h2>
 
-<p>Guides name California, Texas, New York, Florida and Illinois as the top states. That is accurate &mdash; for the number of officers. The BLS figures for patrol officers:</p>
+<p>Guides name California, Texas, New York, Florida and Illinois as the top states. That is accurate: for the number of officers. The BLS figures for patrol officers:</p>
 
 <ul>
     <li><strong>California:</strong> 65,940 officers, mean wage $112,980</li>
@@ -210,22 +210,22 @@ JOBHTML;
 <p>Guides say agencies require "U.S. citizenship or permanent residency, depending on the agency". The real picture is sharper at both ends. The BLS puts it plainly: most states and local jurisdictions require candidates to be US citizens, some do not, and <strong>federal officers must be US citizens</strong>.</p>
 
 <ul>
-    <li><strong>Federal agencies</strong> &mdash; the FBI, DEA, US Marshals and others &mdash; require US citizenship.</li>
+    <li><strong>Federal agencies</strong>, the FBI, DEA, US Marshals and others, require US citizenship.</li>
     <li><strong>New York.</strong> The NYPD requires US citizenship at appointment, and so does the New York State Police. A green card is not enough.</li>
     <li><strong>Texas.</strong> State licensing rules require a US citizen. The only exception is a permanent resident who is an honorably discharged US military veteran with at least two years of service and has applied for citizenship.</li>
     <li><strong>California.</strong> Since <strong>1 January 2026</strong>, state law requires peace officers to be <strong>legally authorized to work in the United States</strong> under federal law, rather than citizens.</li>
     <li><strong>Illinois.</strong> Since <strong>1 January 2024</strong>, a non-citizen legally authorized to work in the US may apply to be a police officer or deputy, provided they are also allowed to possess a firearm under federal law. Each city decides whether to hire them.</li>
 </ul>
 
-<p>So a green card holder is ruled out in New York and in federal agencies, and is ruled in by California and Illinois &mdash; which also accept other work-authorized non-citizens. Check the individual agency, not a national rule.</p>
+<p>So a green card holder is ruled out in New York and in federal agencies, and is ruled in by California and Illinois, which also accept other work-authorized non-citizens. Check the individual agency, not a national rule.</p>
 
 <h2>A Visa Holder Cannot Legally Carry a Gun</h2>
 
-<p>This is the rule that matters most to readers outside the US, and the guides do not mention it. Under <strong>18 U.S.C. 922(g)(5)</strong>, anyone admitted to the United States on a <strong>nonimmigrant visa</strong> &mdash; a work visa, a student visa or a visitor visa &mdash; is generally prohibited from possessing firearms or ammunition.</p>
+<p>This is the rule that matters most to readers outside the US, and the guides do not mention it. Under <strong>18 U.S.C. 922(g)(5)</strong>, anyone admitted to the United States on a <strong>nonimmigrant visa</strong>, a work visa, a student visa or a visitor visa, is generally prohibited from possessing firearms or ammunition.</p>
 
 <p>The exceptions in the law cover hunters with a valid licence, accredited foreign government representatives, officials designated by the State Department and foreign police officers of friendly governments on official business. None of them is written for a visa holder who wants to join a US police department, and every police academy requires firearms qualification.</p>
 
-<p>Recent guidance narrows the options further. On <strong>26 September 2025</strong>, USCIS issued guidance stating that DACA recipients may not lawfully possess or receive firearms &mdash; which undercuts the DACA routes some states opened.</p>
+<p>Recent guidance narrows the options further. On <strong>26 September 2025</strong>, USCIS issued guidance stating that DACA recipients may not lawfully possess or receive firearms, which undercuts the DACA routes some states opened.</p>
 
 <p>The practical route for someone abroad is therefore long: permanent residence first, then an agency that accepts permanent residents or work-authorized non-citizens, or US citizenship for every agency. There is no visa that brings you to the US to work as a police officer.</p>
 
@@ -257,7 +257,7 @@ JOBHTML;
 <ul>
     <li>US citizenship, a bachelor's degree and a valid driver's licence</li>
     <li>Professional experience, or an advanced degree, depending on the grade you enter at</li>
-    <li>A physical fitness test of four events &mdash; pull-ups or chin-ups, a 300-metre sprint, push-ups and a 1.5-mile run &mdash; that <strong>no longer includes sit-ups</strong>, so older preparation guides are out of date</li>
+    <li>A physical fitness test of four events, pull-ups or chin-ups, a 300-metre sprint, push-ups and a 1.5-mile run, that <strong>no longer includes sit-ups</strong>, so older preparation guides are out of date</li>
 </ul>
 
 <p>A recent FBI posting paid <strong>$93,749 to $133,200</strong> in Washington, DC, including locality pay and <strong>availability pay of 25 per cent</strong>. That availability pay goes only to criminal investigators who average at least two hours of unscheduled duty a day, not to every federal officer.</p>
@@ -270,7 +270,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Felony convictions.</strong> Federal law bars anyone convicted of a crime punishable by more than a year in prison from possessing firearms, which ends a police application.</li>
-    <li><strong>Domestic violence.</strong> The Lautenberg Amendment, <strong>18 U.S.C. 922(g)(9)</strong>, bars anyone convicted of a misdemeanor crime of domestic violence from possessing firearms &mdash; and unlike most firearms rules, it applies to officers on duty too.</li>
+    <li><strong>Domestic violence.</strong> The Lautenberg Amendment, <strong>18 U.S.C. 922(g)(9)</strong>, bars anyone convicted of a misdemeanor crime of domestic violence from possessing firearms, and unlike most firearms rules, it applies to officers on duty too.</li>
     <li><strong>Department standards.</strong> Texas bars anyone convicted of an offense above a Class B misdemeanor, or a Class B misdemeanor within ten years, or any family violence offense. The NYPD bars anyone convicted of a felony or a domestic violence misdemeanor.</li>
     <li><strong>The hiring process itself.</strong> Background investigations, psychological and medical evaluations, and fitness tests remove many applicants. Honesty on the background forms matters more than a perfect record.</li>
 </ul>
@@ -342,18 +342,18 @@ JOBHTML;
 <p>Comparing security and public service careers? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; the investigative side of technology, and the clearance rules in full.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; licensed security work in the Gulf, and the licence that only covers one emirate.</li>
-    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a> &mdash; security work under the Saudi system.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the visa routes that do exist for work in the US.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; another route into American work, and what it really pays.</li>
-    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; the most common first job in America, priced state by state.</li>
-    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; public service careers at home, and how the tests work.</li>
-    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a> &mdash; FBI, CBP, ICE and US Marshals jobs, their 2026 pay and age limits.</li>
-    <li><a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a> &mdash; the desk-based intelligence route, its GS pay and the citizenship rule.</li>
-    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a> &mdash; federal CSC versus provincial jails, who can apply, training and Job Bank pay.</li>
-    <li><a href="/blog/emergency-dispatcher-jobs-in-usa">Emergency Dispatcher Jobs in USA</a> &mdash; 911 telecommunicator pay, experience rules, typing and CritiCall tests, and 2026 openings in Houston, NYC and LA County.</li>
-    <li><a href="/blog/law-enforcement-jobs-in-usa">Law Enforcement Jobs in USA</a> &mdash; patrol, detective, transit, game warden and federal paths compared, with BLS pay and NYPD, FBI and DEA entry rules.</li>
+    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a>: the investigative side of technology, and the clearance rules in full.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: licensed security work in the Gulf, and the licence that only covers one emirate.</li>
+    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a>: security work under the Saudi system.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the visa routes that do exist for work in the US.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: another route into American work, and what it really pays.</li>
+    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a>: the most common first job in America, priced state by state.</li>
+    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a>: public service careers at home, and how the tests work.</li>
+    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a>: FBI, CBP, ICE and US Marshals jobs, their 2026 pay and age limits.</li>
+    <li><a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a>: the desk-based intelligence route, its GS pay and the citizenship rule.</li>
+    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a>: federal CSC versus provincial jails, who can apply, training and Job Bank pay.</li>
+    <li><a href="/blog/emergency-dispatcher-jobs-in-usa">Emergency Dispatcher Jobs in USA</a>: 911 telecommunicator pay, experience rules, typing and CritiCall tests, and 2026 openings in Houston, NYC and LA County.</li>
+    <li><a href="/blog/law-enforcement-jobs-in-usa">Law Enforcement Jobs in USA</a>: patrol, detective, transit, game warden and federal paths compared, with BLS pay and NYPD, FBI and DEA entry rules.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Hiring standards, pay, citizenship rules, firearms law and immigration guidance change and differ between agencies and states. Confirm the current position with the agency's official recruitment page, the relevant state and federal authorities and an immigration lawyer before applying.</p>

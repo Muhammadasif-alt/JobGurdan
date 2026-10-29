@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Ferrari Factory Jobs in Italy" — an employer guide whose
+ * "How to Apply for Ferrari Factory Jobs in Italy": an employer guide whose
  * honest centre of gravity is not Ferrari at all. It is Italy's quota-based
  * immigration system, which decides whether a non-EU reader can take a
  * factory job here regardless of how good their application is.
@@ -152,7 +152,7 @@ class FerrariFactoryJobsItalyBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> Ferrari publishes no pay figure for production roles and says nothing about sponsoring non-EU workers. Italy admits non-EU workers through an annual government quota decree &mdash; not by JobGader. Never pay an agent for a job or a visa.</p>
+<p><strong>Note:</strong> Ferrari publishes no pay figure for production roles and says nothing about sponsoring non-EU workers. Italy admits non-EU workers through an annual government quota decree, not by JobGader. Never pay an agent for a job or a visa.</p>
 JOBHTML;
     }
 
@@ -195,7 +195,7 @@ JOBHTML;
 
 <h2>Italy Admits Non-EU Workers by Quota, and the Numbers Are Public</h2>
 
-<p>Italy does not let employers sponsor non-EU workers freely. It sets a national quota by decree &mdash; the <strong>decreto flussi</strong> &mdash; and applications open on fixed "click days" when the quota for each category unlocks.</p>
+<p>Italy does not let employers sponsor non-EU workers freely. It sets a national quota by decree, the <strong>decreto flussi</strong>, and applications open on fixed "click days" when the quota for each category unlocks.</p>
 
 <p>The current decree was made on <strong>2 October 2025</strong> and published in the <strong>Gazzetta Ufficiale on 15 October 2025</strong>. It sets:</p>
 
@@ -226,7 +226,7 @@ JOBHTML;
     </tbody>
 </table>
 
-<p>Those look like large numbers until you see how they are split. <strong>The quota is dominated by seasonal work</strong> &mdash; agriculture and tourism &mdash; along with care work and specific listed trades. Non-seasonal subordinate work in manufacturing is a slice of the remainder, spread across the entire country and every manufacturer in it.</p>
+<p>Those look like large numbers until you see how they are split. <strong>The quota is dominated by seasonal work</strong>, agriculture and tourism, along with care work and specific listed trades. Non-seasonal subordinate work in manufacturing is a slice of the remainder, spread across the entire country and every manufacturer in it.</p>
 
 <h3>The nulla osta is applied for by the employer</h3>
 
@@ -363,15 +363,15 @@ JOBHTML;
 <p>Looking at European manufacturing or comparing employers? These cover the ground:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; the same question in a country with a clearer skilled-worker route.</li>
-    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; general factory work and what it actually pays.</li>
-    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a> &mdash; another route into the EU labour market.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; a sponsorship system that works very differently from Italy's quota.</li>
-    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a> &mdash; another employer that publishes no pay figure.</li>
-    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a> &mdash; a factory employer that lists no factory-floor jobs at all.</li>
-    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a> &mdash; an employer that publishes real salary bands on its adverts.</li>
-    <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a> &mdash; 622 French vacancies, and how many need a security clearance.</li>
-    <li><a href="/blog/how-to-apply-for-toyota-factory-jobs-in-japan">How to Apply for Toyota Factory Jobs in Japan</a> &mdash; free dormitories, forfeitable bonuses, and the residence status it quietly requires.</li>
+    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a>: the same question in a country with a clearer skilled-worker route.</li>
+    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a>: general factory work and what it actually pays.</li>
+    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a>: another route into the EU labour market.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: a sponsorship system that works very differently from Italy's quota.</li>
+    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a>: another employer that publishes no pay figure.</li>
+    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a>: a factory employer that lists no factory-floor jobs at all.</li>
+    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a>: an employer that publishes real salary bands on its adverts.</li>
+    <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a>: 622 French vacancies, and how many need a security clearance.</li>
+    <li><a href="/blog/how-to-apply-for-toyota-factory-jobs-in-japan">How to Apply for Toyota Factory Jobs in Japan</a>: free dormitories, forfeitable bonuses, and the residence status it quietly requires.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Ferrari's own careers portal, Ferrari N.V.'s annual report filed with the US Securities and Exchange Commission, the Gazzetta Ufficiale and the Italian government's integration and labour portals, Federmeccanica's published collective agreement material and ISTAT earnings data. Ferrari publishes no pay figure for production roles and states nothing about sponsoring non-EU workers, and Italian quota rules change every year. Always check the current decree and the live job posting.</p>

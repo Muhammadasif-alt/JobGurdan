@@ -3,10 +3,10 @@
     $blogCat = trim((string) request('category', ''));
     if ($blogCat !== '') {
         $blogCatLbl = ucwords(str_replace('-', ' ', $blogCat));
-        $blogTitle = "{$blogCatLbl} Articles — Career Blog | JobGader";
+        $blogTitle = "{$blogCatLbl} Articles: Career Blog | JobGader";
         $blogDesc = "Read {$blogCatLbl} articles on JobGader: guides on jobs, visa routes and pay, with the official sources named in each guide.";
     } else {
-        $blogTitle = 'Career Advice — Employment & Business News | JobGader';
+        $blogTitle = 'Career Advice: Employment & Business News | JobGader';
         $blogDesc = 'Read the latest career advice, recruitment insights, salary guides, remote work tips and U.S. industry trends. Expert articles to help you land your next job faster.';
     }
 
@@ -17,7 +17,7 @@
      */
     $blogTag = trim((string) request('tag', ''));
     if ($blogTag !== '') {
-        $blogTitle = ucwords($blogTag).' — Career Guides | JobGader';
+        $blogTitle = ucwords($blogTag).': Career Guides | JobGader';
         $blogDesc = 'JobGader career guides tagged "'.$blogTag.'": visa rules, pay, requirements and how to avoid scams, checked against official sources.';
     }
 
@@ -105,11 +105,11 @@
 @endphp
 
 <style>
-    /* === Career Advice — Magazine layout (full-width sections, no sidebars) === */
+    /* === Career Advice: Magazine layout (full-width sections, no sidebars) === */
     .ca-wrap { background: #f7f8fa; padding: 0 0 60px; }
     .ca-wrap .container { max-width: 1280px; }
 
-    /* === Hero — full-width magazine-style banner === */
+    /* === Hero: full-width magazine-style banner === */
     .ca-hero {
         position: relative;
         background:
@@ -442,7 +442,7 @@
     <div class="container">
         <span class="eyebrow">Career & Employment News</span>
         <h1>Insights, advice and stories <br><span class="accent">to help you grow</span></h1>
-        <p class="sub">Guides on visa sponsorship, pay and entry requirements for work in {{ $coverage->shortList() }} &mdash; written from official sources, and clear about which routes are closed.</p>
+        <p class="sub">Guides on visa sponsorship, pay and entry requirements for work in {{ $coverage->shortList() }}: written from official sources, and clear about which routes are closed.</p>
         <div class="ca-hero-stats">
             <div class="stat"><strong>{{ number_format(\App\Models\Blog::where('status','published')->count()) }}+</strong><span>Articles</span></div>
             <div class="stat"><strong>{{ \App\Models\BlogCatgories::count() }}</strong><span>Topics</span></div>

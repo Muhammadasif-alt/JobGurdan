@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Toyota Factory Jobs in Japan" — a guide built around a
+ * "How to Apply for Toyota Factory Jobs in Japan": a guide built around a
  * silence. Toyota's official period-employee site publishes pay, dormitories
  * and bonuses in unusual detail, and says absolutely nothing about nationality,
  * residence status, visas or Japanese language. A scan of all 16 official pages
@@ -170,7 +170,7 @@ class ToyotaFactoryJobsJapanBlogSeeder extends Seeder
 <h3>Contract</h3>
 <p>An initial three-month contract, renewable in steps to a maximum of two years and eleven months. Renewal is at Toyota's discretion based on production outlook and the worker's record. Completion payments totalling JPY 3,064,800 across the full term are forfeited entirely if you resign mid-contract.</p>
 
-<p>Pay, contract terms and eligibility are set by Toyota, and immigration status is decided by the Japanese government &mdash; not by JobGader. Confirm the requirements on the official site, and never pay anyone to secure a job.</p>
+<p>Pay, contract terms and eligibility are set by Toyota, and immigration status is decided by the Japanese government, not by JobGader. Confirm the requirements on the official site, and never pay anyone to secure a job.</p>
 JOBHTML;
     }
 
@@ -205,13 +205,13 @@ JOBHTML;
     <li>Able to do standing and line work in a factory on a continuous two-shift schedule.</li>
 </ul>
 
-<p>That is the complete list. "No experience necessary" is <em>not</em> one of the requirements, although it is true &mdash; Toyota states elsewhere that <strong>about 6 in 10 period employees join with no previous experience</strong>, and training is given.</p>
+<p>That is the complete list. "No experience necessary" is <em>not</em> one of the requirements, although it is true: Toyota states elsewhere that <strong>about 6 in 10 period employees join with no previous experience</strong>, and training is given.</p>
 
 <h2>Where You Will Be Sent</h2>
 
 <p>Aichi Prefecture, and nowhere else. Toyota states the workplace is decided by the company, and that it will be one of <strong>ten</strong> plants: Honsha, Motomachi, Kamigo, Takaoka, Miyoshi, Tsutsumi, Myochi, Shimoyama, Kinuura and Tahara.</p>
 
-<p>Two corrections to what circulates elsewhere. <strong>Kariya is not on the list</strong> &mdash; it appears nowhere on the official site. And Miyoshi, Myochi and Shimoyama are in <strong>Miyoshi City</strong>, not Toyota City, so the common summary "Toyota City, Hekinan and Tahara" misses a city where three of the ten plants sit.</p>
+<p>Two corrections to what circulates elsewhere. <strong>Kariya is not on the list</strong>: it appears nowhere on the official site. And Miyoshi, Myochi and Shimoyama are in <strong>Miyoshi City</strong>, not Toyota City, so the common summary "Toyota City, Hekinan and Tahara" misses a city where three of the ten plants sit.</p>
 
 <p>Also worth knowing: Toyota Motor Kyushu, Toyota Motor Hokkaido, Toyota Motor East Japan, Toyota Motor Hamura, Toyota Auto Body and Daihatsu all hire their own period employees separately. <strong>This programme will not send you to any of them</strong>, and neither will it send you to Teiho.</p>
 
@@ -220,15 +220,15 @@ JOBHTML;
 <p>Toyota publishes exactly which production areas period employees are assigned to. They are not interchangeable, and the physical demands differ a great deal:</p>
 
 <ul>
-    <li><strong>Press</strong> &mdash; stamping body panels from sheet steel.</li>
-    <li><strong>Casting</strong> &mdash; molten metal work, the hottest environment on the list.</li>
-    <li><strong>Body</strong> &mdash; welding and joining the shell.</li>
-    <li><strong>Painting</strong> &mdash; coating lines, with the protective equipment that implies.</li>
-    <li><strong>Molding</strong> &mdash; forming plastic and resin components.</li>
-    <li><strong>Machine assembly</strong> &mdash; engine and powertrain component work.</li>
-    <li><strong>Logistics</strong> &mdash; moving parts and materials to the lines.</li>
-    <li><strong>Vehicle assembly</strong> &mdash; the final line, fitting components into the car.</li>
-    <li><strong>Final inspection</strong> &mdash; checking finished vehicles before they leave.</li>
+    <li><strong>Press</strong>: stamping body panels from sheet steel.</li>
+    <li><strong>Casting</strong>: molten metal work, the hottest environment on the list.</li>
+    <li><strong>Body</strong>: welding and joining the shell.</li>
+    <li><strong>Painting</strong>: coating lines, with the protective equipment that implies.</li>
+    <li><strong>Molding</strong>: forming plastic and resin components.</li>
+    <li><strong>Machine assembly</strong>: engine and powertrain component work.</li>
+    <li><strong>Logistics</strong>: moving parts and materials to the lines.</li>
+    <li><strong>Vehicle assembly</strong>: the final line, fitting components into the car.</li>
+    <li><strong>Final inspection</strong>: checking finished vehicles before they leave.</li>
 </ul>
 
 <p>Toyota states plainly that <strong>you cannot choose your own process.</strong> Assignment follows an aptitude test and whatever the plants need at the time. If you have a physical limitation that rules out heat, height, or repetitive overhead work, raise it at the interview rather than hoping for a particular line.</p>
@@ -239,7 +239,7 @@ JOBHTML;
 
 <p><strong>Toyota's eleven directly operated plants</strong> are Honsha, Motomachi, Kamigo, Takaoka, Miyoshi, Tsutsumi, Myochi, Shimoyama, Kinuura, Tahara and Teiho.</p>
 
-<p><strong>Its affiliated manufacturers</strong> include Toyota Motor Kyushu, Toyota Motor Hokkaido, Toyota Motor East Japan, Toyota Auto Body, Daihatsu Motor, and &mdash; newly &mdash; <strong>Toyota Motor Hamura</strong>, a wholly owned subsidiary in Hamura City, Tokyo that began operating on 1 April 2026 with roughly 5,060 staff, taking over the former Hino Motors plant.</p>
+<p><strong>Its affiliated manufacturers</strong> include Toyota Motor Kyushu, Toyota Motor Hokkaido, Toyota Motor East Japan, Toyota Auto Body, Daihatsu Motor, and, newly, <strong>Toyota Motor Hamura</strong>, a wholly owned subsidiary in Hamura City, Tokyo that began operating on 1 April 2026 with roughly 5,060 staff, taking over the former Hino Motors plant.</p>
 
 <p>Here is the part that matters: <strong>every one of those affiliates recruits its own period employees separately, and none of them is reachable through t-kikan.jp.</strong> Neither is Teiho. Daihatsu in particular is a separate company with its own brand and its own hiring, not a "Toyota factory" you can be posted to. If you want Kyushu or Hokkaido, you apply to that company directly.</p>
 
@@ -270,7 +270,7 @@ JOBHTML;
 
 <p>Toyota is currently advertising a special payment totalling <strong>JPY 1,000,000</strong>: JPY 400,000 with your second month's salary, and JPY 600,000 on completing the six-month contract.</p>
 
-<p>Both halves have absence conditions &mdash; five days for the first, eight days across six months for the second. And the offer carries this line in Toyota's own words: <em>"Limited to those joining from September 2026 onward. The period is subject to change."</em></p>
+<p>Both halves have absence conditions: five days for the first, eight days across six months for the second. And the offer carries this line in Toyota's own words: <em>"Limited to those joining from September 2026 onward. The period is subject to change."</em></p>
 
 <p><strong>This is a promotion, not a permanent term of employment.</strong> If you are reading this months after publication, assume it has changed and check the live page.</p>
 
@@ -308,26 +308,26 @@ JOBHTML;
 
 <p>You are hired for <strong>three months</strong>. Renewal runs in steps to a maximum of <strong>two years and eleven months</strong>, and it is not automatic. Toyota states renewal depends on its production outlook and workload, and on the individual's performance, attitude, ability, health and stamina.</p>
 
-<p>There is a genuine route onwards. Toyota's conversion scheme turned <strong>1,132 period employees into permanent staff between 2021 and 2025</strong> &mdash; 136, 155, 226, 310 and 305 across the five years, a clearly rising trend. The published requirements are at least one year of service, a recommendation from your workplace supervisor, a written test and a group interview.</p>
+<p>There is a genuine route onwards. Toyota's conversion scheme turned <strong>1,132 period employees into permanent staff between 2021 and 2025</strong>: 136, 155, 226, 310 and 305 across the five years, a clearly rising trend. The published requirements are at least one year of service, a recommendation from your workplace supervisor, a written test and a group interview.</p>
 
 <h2>Experience, Students, and Who Else Toyota Hires</h2>
 
 <h3>If you have done this before</h3>
 
-<p>Previous Toyota terms are worth real money, and Toyota publishes the scale. The <strong>experienced-worker allowance runs from JPY 10,000 to JPY 100,000</strong> depending on how much you previously completed, and your basic daily wage starts higher too &mdash; JPY 12,150 for those who completed 18 to 24 months, and <strong>JPY 12,450 for those who completed 30 to 35 months</strong>, against JPY 11,150 for a first-timer. Returning is financially rewarded in a way few employers bother to publish.</p>
+<p>Previous Toyota terms are worth real money, and Toyota publishes the scale. The <strong>experienced-worker allowance runs from JPY 10,000 to JPY 100,000</strong> depending on how much you previously completed, and your basic daily wage starts higher too: JPY 12,150 for those who completed 18 to 24 months, and <strong>JPY 12,450 for those who completed 30 to 35 months</strong>, against JPY 11,150 for a first-timer. Returning is financially rewarded in a way few employers bother to publish.</p>
 
 <h3>If you are a student or new graduate</h3>
 
 <p>This programme is not your route, and Toyota runs separate ones:</p>
 
 <ul>
-    <li><strong>Skilled-employee recruitment</strong> for new school-leavers sits at toyota-monozukuri.jp. Note it is Japanese-only and, when we checked, served over plain HTTP with no working HTTPS &mdash; so avoid entering personal data there until that is fixed.</li>
+    <li><strong>Skilled-employee recruitment</strong> for new school-leavers sits at toyota-monozukuri.jp. Note it is Japanese-only and, when we checked, served over plain HTTP with no working HTTPS, so avoid entering personal data there until that is fixed.</li>
     <li><strong>New-graduate and mid-career professional hiring</strong> sits at recruit.toyota (the old toyota-recruit.com address redirects there). It covers engineering and corporate roles, and does not link to the period employee programme at all.</li>
 </ul>
 
 <h3>Is this work open to women?</h3>
 
-<p>Toyota publishes no gender requirement. The entire eligibility list is the two lines quoted earlier &mdash; age 18 or over, and able to do standing line work on a two-shift rotation. Nothing else is stated, and articles claiming a men-only rule are inventing it.</p>
+<p>Toyota publishes no gender requirement. The entire eligibility list is the two lines quoted earlier: age 18 or over, and able to do standing line work on a two-shift rotation. Nothing else is stated, and articles claiming a men-only rule are inventing it.</p>
 
 <p>What is worth knowing practically: dormitories are <strong>single rooms</strong>, the processes differ sharply in physical demand, and assignment is by aptitude test rather than choice. Ask about the specific process and dormitory at interview rather than assuming.</p>
 
@@ -343,7 +343,7 @@ JOBHTML;
 
 <p><strong>What Toyota says:</strong> nothing. There is no nationality rule on the official site, no visa clause, no Japanese-language requirement. Toyota neither invites foreign applicants nor excludes them. Any article claiming Toyota "welcomes international applicants" is inventing it, and so is any article claiming Toyota bars them.</p>
 
-<p><strong>What the law says</strong> is where the answer actually lives. The period employee programme is a direct fixed-term hire and <strong>Toyota nowhere offers visa sponsorship.</strong> Under Japanese immigration rules, standing production-line work is not covered by the skilled work statuses such as Engineer / Specialist in Humanities / International Services. In practice this job requires a residence status with no work restriction &mdash; permanent resident, long-term resident, spouse of a Japanese national, or spouse of a permanent resident.</p>
+<p><strong>What the law says</strong> is where the answer actually lives. The period employee programme is a direct fixed-term hire and <strong>Toyota nowhere offers visa sponsorship.</strong> Under Japanese immigration rules, standing production-line work is not covered by the skilled work statuses such as Engineer / Specialist in Humanities / International Services. In practice this job requires a residence status with no work restriction: permanent resident, long-term resident, spouse of a Japanese national, or spouse of a permanent resident.</p>
 
 <p><strong>So the honest answer: if you are in Pakistan with no existing Japanese residence status, you cannot take this route.</strong> That is a conclusion from immigration law, not a Toyota statement, and we are separating the two deliberately.</p>
 
@@ -355,11 +355,11 @@ JOBHTML;
 
 <p>What it requires is concrete: a skills test in the field, <strong>plus Japanese at JFT-Basic A2.2 or JLPT N4 or above.</strong> The intake for this field is capped at 199,500 people through the end of March 2029.</p>
 
-<p>Two warnings. Specified Skilled Worker is a separate route and <strong>not a way into the Toyota period employee programme</strong> &mdash; the term does not appear on Toyota's site at all. And do not confuse Industrial Products Manufacturing with the automobile <em>transportation</em> field, which is professional driving.</p>
+<p>Two warnings. Specified Skilled Worker is a separate route and <strong>not a way into the Toyota period employee programme</strong>: the term does not appear on Toyota's site at all. And do not confuse Industrial Products Manufacturing with the automobile <em>transportation</em> field, which is professional driving.</p>
 
 <h2>How to Apply, Step by Step</h2>
 
-<p><strong>Official application route:</strong> <a href="https://www.t-kikan.jp/" rel="nofollow noopener" target="_blank">https://www.t-kikan.jp/</a> &mdash; Toyota's official period employee recruitment site, in Japanese. Note that the English careers path global.toyota/en/careers/ returns a 404; the working corporate careers page is global.toyota/jp/careers/, also Japanese.</p>
+<p><strong>Official application route:</strong> <a href="https://www.t-kikan.jp/" rel="nofollow noopener" target="_blank">https://www.t-kikan.jp/</a>: Toyota's official period employee recruitment site, in Japanese. Note that the English careers path global.toyota/en/careers/ returns a 404; the working corporate careers page is global.toyota/jp/careers/, also Japanese.</p>
 
 <ol>
     <li>Confirm first that you hold a Japanese residence status without work restrictions. Everything below is pointless otherwise.</li>
@@ -428,12 +428,12 @@ JOBHTML;
 <p>If it is factory work abroad you are after rather than this one employer, these cover routes that are actually open:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; another carmaker, another language gate.</li>
-    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; the wider German market and how sponsorship works there.</li>
-    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a> &mdash; small intake, high bar, published detail.</li>
-    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a> &mdash; and the five-year rule most drafts omit.</li>
-    <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a> &mdash; the realistic Japanese route for an overseas applicant, because it has a visa attached.</li>
-    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a> &mdash; factory work with a published hourly range and stock awards.</li>
+    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a>: another carmaker, another language gate.</li>
+    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a>: the wider German market and how sponsorship works there.</li>
+    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a>: small intake, high bar, published detail.</li>
+    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a>, and the five-year rule most drafts omit.</li>
+    <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a>: the realistic Japanese route for an overseas applicant, because it has a visa attached.</li>
+    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a>: factory work with a published hourly range and stock awards.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Toyota's official period employee recruitment site at t-kikan.jp, Toyota's corporate newsroom and Japan's Immigration Services Agency, checked on 22 September 2026. The conclusion about residence status is drawn from Japanese immigration rules, not from any Toyota statement. Pay, bonuses, campaign periods and immigration rules change, and Toyota states its special payment period is subject to change. Always check the official source before acting, and never pay anyone to secure a job.</p>

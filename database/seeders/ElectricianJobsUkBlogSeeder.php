@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Electrician Jobs in UK" — the skilled trade counterpart to the delivery
+ * "Electrician Jobs in UK": the skilled trade counterpart to the delivery
  * driver guide, and the one page in this set with a genuine deadline on it.
  *
  * Corrections to the draft:
@@ -147,7 +147,7 @@ class ElectricianJobsUkBlogSeeder extends Seeder
 <h3>Requirements</h3>
 <ul>
     <li>NVQ Level 3 in Electrical Installation, or an equivalent apprenticeship qualification</li>
-    <li>A current <strong>BS 7671</strong> wiring regulations qualification &mdash; check which amendment, because the older version is withdrawn on 15 October 2026</li>
+    <li>A current <strong>BS 7671</strong> wiring regulations qualification: check which amendment, because the older version is withdrawn on 15 October 2026</li>
     <li>An <strong>ECS card</strong> for site access, which is a contractual requirement rather than a legal one</li>
     <li>City &amp; Guilds 2391 inspection and testing for anything beyond installation work</li>
     <li>Competent Person Scheme registration if you intend to self-certify domestic notifiable work</li>
@@ -157,14 +157,14 @@ class ElectricianJobsUkBlogSeeder extends Seeder
 <h3>Two different pay structures</h3>
 <ul>
     <li><strong>Employed.</strong> Qualified electricians are advertised around &pound;28,000 to &pound;38,000, and experienced or specialist roles from &pound;40,000 upward</li>
-    <li><strong>Self-employed.</strong> Day rates of &pound;150 to &pound;300 or more &mdash; before the <strong>Construction Industry Scheme</strong> takes 20 per cent at source from a registered subcontractor, or 30 per cent from an unregistered one</li>
+    <li><strong>Self-employed.</strong> Day rates of &pound;150 to &pound;300 or more: before the <strong>Construction Industry Scheme</strong> takes 20 per cent at source from a registered subcontractor, or 30 per cent from an unregistered one</li>
     <li><strong>Apprentice.</strong> The apprentice minimum wage rate applies only under 19 or in the first year; after that the ordinary age rate applies</li>
 </ul>
 
 <h3>Before you apply</h3>
 <p><strong>Check the amendment on your wiring regulations certificate before you apply for anything.</strong> BS 7671:2018+A4:2026 was published on 15 April 2026, and the version before it is withdrawn on 15 October 2026. If you are self-employed, work out the day rate after the CIS deduction rather than before it.</p>
 
-<p><strong>Note:</strong> pay, certification requirements, scheme registration and contract type are set by each employer and by regulation &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, certification requirements, scheme registration and contract type are set by each employer and by regulation, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -186,7 +186,7 @@ JOBHTML;
 <p>Here is the current position:</p>
 
 <ul>
-    <li><strong>BS 7671:2018+A4:2026</strong> &mdash; Amendment 4 &mdash; was <strong>published on 15 April 2026</strong>.</li>
+    <li><strong>BS 7671:2018+A4:2026</strong>, Amendment 4, was <strong>published on 15 April 2026</strong>.</li>
     <li>The version before it, <strong>BS 7671:2018+A2:2022+A3:2024</strong>, is <strong>withdrawn on 15 October 2026</strong>.</li>
 </ul>
 
@@ -198,7 +198,7 @@ JOBHTML;
 
 <p>Because Amendment 4 is a substantial change, "19th Edition" courses and study guides have started appearing. <strong>The 19th Edition does not exist.</strong></p>
 
-<p>Amendment 4 is an amendment to the 18th Edition, not a new edition of the regulations. A full rewrite &mdash; a genuine 19th Edition &mdash; is not expected before <strong>2027 or 2028</strong>, and some in the industry expect it closer to 2030.</p>
+<p>Amendment 4 is an amendment to the 18th Edition, not a new edition of the regulations. A full rewrite, a genuine 19th Edition, is not expected before <strong>2027 or 2028</strong>, and some in the industry expect it closer to 2030.</p>
 
 <p>Treat any training provider selling a 19th Edition course as telling you something useful about the provider. What you actually need is the <strong>Amendment 4 update</strong> to your existing 18th Edition qualification.</p>
 
@@ -214,14 +214,14 @@ JOBHTML;
 
 <p><strong>The ECS card is contractual.</strong> It is the electrotechnical industry's competence card, and principal contractors require it for site access. No card, no gate pass. But it is a condition imposed by the people running the site, not a statute.</p>
 
-<p><strong>Part P of the Building Regulations is the law</strong>, and it applies to electrical work in dwellings in England and Wales. Certain work &mdash; new circuits, consumer unit replacement and similar &mdash; is <strong>notifiable</strong>, and there are only two lawful ways to handle it:</p>
+<p><strong>Part P of the Building Regulations is the law</strong>, and it applies to electrical work in dwellings in England and Wales. Certain work, new circuits, consumer unit replacement and similar, is <strong>notifiable</strong>, and there are only two lawful ways to handle it:</p>
 
 <ul>
-    <li><strong>Be registered with a Competent Person Scheme</strong> &mdash; NICEIC, NAPIT and others &mdash; which lets you <strong>self-certify</strong> the work as compliant.</li>
+    <li><strong>Be registered with a Competent Person Scheme</strong>, NICEIC, NAPIT and others, which lets you <strong>self-certify</strong> the work as compliant.</li>
     <li><strong>Notify building control</strong> before the work, and accept the inspection and the fees that come with it.</li>
     </ul>
 
-<p>Here is the part guides never say: <strong>scheme membership is not compulsory.</strong> You can lawfully carry out electrical work without it. What you cannot do is self-certify notifiable domestic work, which in practice makes small domestic jobs uneconomic &mdash; the building control route costs money and time on every single job.</p>
+<p>Here is the part guides never say: <strong>scheme membership is not compulsory.</strong> You can lawfully carry out electrical work without it. What you cannot do is self-certify notifiable domestic work, which in practice makes small domestic jobs uneconomic: the building control route costs money and time on every single job.</p>
 
 <p>And joining a scheme is more than paperwork. Assessment covers your Level 3 qualifications, a current BS 7671, <strong>calibrated test instruments</strong> and a review of sample installations you have completed. The test gear alone is a real capital cost, and it is the thing newly qualified electricians most often have not budgeted for.</p>
 
@@ -260,11 +260,11 @@ JOBHTML;
     <li><strong>0 per cent</strong> if you hold gross payment status, which has its own qualifying conditions.</li>
 </ul>
 
-<p>The deduction applies to the <strong>labour portion only</strong> &mdash; materials you have bought for the job are taken out of the calculation first, which is a good reason to itemise them properly on every invoice.</p>
+<p>The deduction applies to the <strong>labour portion only</strong>: materials you have bought for the job are taken out of the calculation first, which is a good reason to itemise them properly on every invoice.</p>
 
-<p>So a &pound;250 day at 20 per cent is <strong>&pound;200</strong> reaching your account on the labour element, and at 30 per cent it is <strong>&pound;175</strong>. It is not lost money &mdash; it counts against your tax bill and is frequently refunded &mdash; but it is not available to you during the year, and registering rather than staying unregistered is worth ten percentage points of cash flow for one form.</p>
+<p>So a &pound;250 day at 20 per cent is <strong>&pound;200</strong> reaching your account on the labour element, and at 30 per cent it is <strong>&pound;175</strong>. It is not lost money, it counts against your tax bill and is frequently refunded, but it is not available to you during the year, and registering rather than staying unregistered is worth ten percentage points of cash flow for one form.</p>
 
-<p>Add public liability insurance, tools, the van, calibrated test equipment and unpaid days, and the comparison with an employed salary looks different again. The same arithmetic runs through every self-employed trade in Britain &mdash; our <a href="/blog/delivery-driver-jobs-in-uk">delivery driver jobs in UK guide</a> works through the version of it that catches out couriers.</p>
+<p>Add public liability insurance, tools, the van, calibrated test equipment and unpaid days, and the comparison with an employed salary looks different again. The same arithmetic runs through every self-employed trade in Britain: our <a href="/blog/delivery-driver-jobs-in-uk">delivery driver jobs in UK guide</a> works through the version of it that catches out couriers.</p>
 
 <h2>Where the Growth Actually Is</h2>
 
@@ -274,7 +274,7 @@ JOBHTML;
 
 <p><strong>Solar, battery storage and retrofit</strong> work is the other, and it is where the domestic market is heading as older housing stock is upgraded. Both are additive to a standard installation qualification rather than alternatives to it.</p>
 
-<p>Inspection and testing &mdash; <strong>City &amp; Guilds 2391</strong> &mdash; is the least glamorous and possibly the highest-return addition. Periodic inspection work is steady, it is required by law in the rental sector, and it is not going anywhere.</p>
+<p>Inspection and testing, <strong>City &amp; Guilds 2391</strong>, is the least glamorous and possibly the highest-return addition. Periodic inspection work is steady, it is required by law in the rental sector, and it is not going anywhere.</p>
 
 <h2>The Roles You Will Actually Meet</h2>
 
@@ -317,7 +317,7 @@ JOBHTML;
 <p>The Construction Industry Scheme. A contractor deducts 20 per cent at source from a registered subcontractor, 30 per cent from an unregistered one, and nothing from someone with gross payment status. It applies to the labour portion only.</p>
 
 <h3>Is apprentice electrician pay of &pound;15,000 to &pound;22,000 legal?</h3>
-<p>Not necessarily. The &pound;8.00 apprentice rate only applies under 19 or in the first year. A 21-year-old past year one is entitled to &pound;12.71 an hour, which is &pound;24,784.50 across a 37.5-hour year &mdash; above the top of that range.</p>
+<p>Not necessarily. The &pound;8.00 apprentice rate only applies under 19 or in the first year. A 21-year-old past year one is entitled to &pound;12.71 an hour, which is &pound;24,784.50 across a 37.5-hour year: above the top of that range.</p>
 
 <h2>People Also Search For</h2>
 
@@ -350,24 +350,24 @@ JOBHTML;
 <p>Comparing trades and routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/electrician-salary-in-the-uae-uk-and-usa">Electrician Salary in the UAE, UK and USA</a> &mdash; the 2026 JIB rates beside BLS and UAE pay rules.</li>
-    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a> &mdash; certification and visas in Canada and Australia.</li>
-    <li><a href="/blog/industrial-vs-house-wiring-electrician-which-pays-more">Industrial vs House Wiring Electrician: Which Pays More</a> &mdash; pay by industry on BLS data.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; the same self-employed arithmetic in a trade with no qualification barrier.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; why operative-level UK roles fail the sponsorship tests.</li>
-    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; the sector where UK sponsorship is genuinely available.</li>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; site work where a published award sets the legal pay floor.</li>
-    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; skilled and semi-skilled industrial work in the EU.</li>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the Canadian route, and which of its two programs you can use.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; sponsored trade work in the Gulf.</li>
-    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London</a> &mdash; a UK entry route with no qualification requirement at all.</li>
-    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; the licensed trade question in Australia, where each state issues the licence.</li>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; a UK entry route without a degree, and the salary a sponsored support job has to reach.</li>
-    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; another skilled trade, and how Red Seal certification differs by province.</li>
-    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a> &mdash; an American trade that, unlike this one, licenses the business rather than the worker.</li>
-    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a> &mdash; a sponsored Gulf trade, and the skills test auto mechanics sit before recruitment.</li>
-    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a> &mdash; which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
-    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a> &mdash; the medical and drug screening standard, and why the trackside code cannot be sponsored.</li>
+    <li><a href="/blog/electrician-salary-in-the-uae-uk-and-usa">Electrician Salary in the UAE, UK and USA</a>: the 2026 JIB rates beside BLS and UAE pay rules.</li>
+    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a>: certification and visas in Canada and Australia.</li>
+    <li><a href="/blog/industrial-vs-house-wiring-electrician-which-pays-more">Industrial vs House Wiring Electrician: Which Pays More</a>: pay by industry on BLS data.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: the same self-employed arithmetic in a trade with no qualification barrier.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: why operative-level UK roles fail the sponsorship tests.</li>
+    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a>: the sector where UK sponsorship is genuinely available.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: site work where a published award sets the legal pay floor.</li>
+    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a>: skilled and semi-skilled industrial work in the EU.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: the Canadian route, and which of its two programs you can use.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: sponsored trade work in the Gulf.</li>
+    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London</a>: a UK entry route with no qualification requirement at all.</li>
+    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a>: the licensed trade question in Australia, where each state issues the licence.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: a UK entry route without a degree, and the salary a sponsored support job has to reach.</li>
+    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a>: another skilled trade, and how Red Seal certification differs by province.</li>
+    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a>: an American trade that, unlike this one, licenses the business rather than the worker.</li>
+    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a>: a sponsored Gulf trade, and the skills test auto mechanics sit before recruitment.</li>
+    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a>, which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
+    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a>: the medical and drug screening standard, and why the trackside code cannot be sponsored.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage rates, standards, amendment dates, scheme requirements and tax rules change, and pay figures on any job board are a moving average rather than a statistic. Confirm the current position with GOV.UK, the IET, your Competent Person Scheme and HMRC before applying or paying for any course.</p>

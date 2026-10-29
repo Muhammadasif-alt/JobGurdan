@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Medical Records Clerk Jobs in USA" — the health information counterpart to
+ * "Medical Records Clerk Jobs in USA": the health information counterpart to
  * the medical assistant guide. It owns the BLS wage and outlook figures for
  * SOC 29-2072, the distinction between that occupation and SOC 43-4071 file
  * clerks, and AHIMA's entry-level credential route.
@@ -43,8 +43,8 @@ use Illuminate\Support\Str;
  *    count standing in for demand. BLS projects about 14,000 openings a year,
  *    which is a figure a reader can check.
  *
- * 5. The brief's headline answer — "most roles ask for a high school diploma
- *    or GED" — is attached to the pay of an occupation whose typical entry
+ * 5. The brief's headline answer: "most roles ask for a high school diploma
+ *    or GED": is attached to the pay of an occupation whose typical entry
  *    education BLS records as a postsecondary nondegree award. The brief
  *    states that correctly three paragraphs later and never reconciles the
  *    two. A records job that is only filing is SOC 43-4071, file clerks, on a
@@ -185,7 +185,7 @@ class MedicalRecordsClerkJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Read the duties, not the title.</strong> "Medical Records Clerk" is used for two different jobs: one that files and retrieves, and one that abstracts and codes. BLS tracks them as separate occupations with a $7,500 gap between their medians, and only one of the two is growing.</p>
 
-<p><strong>Note:</strong> duties, pay and credential requirements are set by employers and by AHIMA &mdash; not by JobGader. Confirm the requirements with the employer and with AHIMA before enrolling in a program, booking an exam or accepting an offer.</p>
+<p><strong>Note:</strong> duties, pay and credential requirements are set by employers and by AHIMA, not by JobGader. Confirm the requirements with the employer and with AHIMA before enrolling in a program, booking an exam or accepting an offer.</p>
 JOBHTML;
     }
 
@@ -203,7 +203,7 @@ JOBHTML;
     <li><strong>The range:</strong> the lowest tenth earned under <strong>$37,000</strong>; the highest tenth over <strong>$81,150</strong></li>
     <li><strong>Growth:</strong> <strong>8 per cent from 2025 to 2035</strong>, which BLS describes as <strong>much faster than the average</strong> for all occupations. The average across all occupations is 3.5 per cent</li>
     <li><strong>Openings:</strong> about <strong>14,000 a year</strong>, on average, over that decade</li>
-    <li><strong>Typical entry-level education:</strong> a <strong>postsecondary nondegree award</strong> &mdash; a certificate, not a degree</li>
+    <li><strong>Typical entry-level education:</strong> a <strong>postsecondary nondegree award</strong>: a certificate, not a degree</li>
     <li><strong>Work experience required:</strong> none. <strong>On-the-job training:</strong> none</li>
 </ul>
 
@@ -211,7 +211,7 @@ JOBHTML;
 
 <h2>The Two Jobs Behind One Title</h2>
 
-<p>BLS counts the filing job and the records job as different occupations. If an advert describes only retrieving, copying and filing charts, it is describing <strong>file clerks</strong> &mdash; and that occupation is shrinking.</p>
+<p>BLS counts the filing job and the records job as different occupations. If an advert describes only retrieving, copying and filing charts, it is describing <strong>file clerks</strong>, and that occupation is shrinking.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:22px 0;">
     <thead>
@@ -230,7 +230,7 @@ JOBHTML;
     </tbody>
 </table>
 
-<p>Read that column of growth rates from top to bottom. The work that is only handling paper is disappearing; the work that structures and interprets the data is not. A medical records clerk job is worth taking either way &mdash; but take it knowing which rung you are standing on and what the next one costs.</p>
+<p>Read that column of growth rates from top to bottom. The work that is only handling paper is disappearing; the work that structures and interprets the data is not. A medical records clerk job is worth taking either way, but take it knowing which rung you are standing on and what the next one costs.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/medical-records-clerk-jobs-in-usa-overview.jpg"
@@ -242,7 +242,7 @@ JOBHTML;
 
 <ul>
     <li>Retrieving, scanning and filing inpatient and outpatient charts</li>
-    <li>Logging and fulfilling release-of-information requests &mdash; the paperwork that sends a record to another provider, an insurer, a lawyer or the patient</li>
+    <li>Logging and fulfilling release-of-information requests: the paperwork that sends a record to another provider, an insurer, a lawyer or the patient</li>
     <li>Reviewing charts for missing or incomplete documentation, and chasing the clinician who owes it</li>
     <li>Keeping the electronic health record clean enough for coders, billers and auditors to work from</li>
     <li>Protecting patient privacy at every step, which under HIPAA is a legal duty and not an office courtesy</li>
@@ -261,9 +261,9 @@ JOBHTML;
     <p style="margin:0;">The exam is <strong>105 questions in two hours</strong> and costs <strong>$199 for AHIMA members, $299 for non-members</strong>. AHIMA describes it as aimed at early-career professionals starting out in healthcare.</p>
 </div>
 
-<p>If you want the credential most hospital records departments name in their adverts, that is the <strong>RHIT</strong> &mdash; Registered Health Information Technician. It is a bigger commitment: AHIMA requires an <strong>associate degree from a Health Information Management program accredited by CAHIIM</strong>, the Commission on Accreditation for Health Informatics and Information Management Education. The exam is 150 questions in three and a half hours, at $229 for members and $299 for non-members, sat at a Pearson VUE center.</p>
+<p>If you want the credential most hospital records departments name in their adverts, that is the <strong>RHIT</strong>: Registered Health Information Technician. It is a bigger commitment: AHIMA requires an <strong>associate degree from a Health Information Management program accredited by CAHIIM</strong>, the Commission on Accreditation for Health Informatics and Information Management Education. The exam is 150 questions in three and a half hours, at $229 for members and $299 for non-members, sat at a Pearson VUE center.</p>
 
-<p>Both are listed, with AHIMA's other credentials, on <a href="https://www.ahima.org/certification-careers/certifications-overview/" target="_blank" rel="noopener">AHIMA's certifications overview</a>. CAHIIM's accredited programs are searchable at <a href="https://www.cahiim.org/programs/program-directory" target="_blank" rel="noopener">cahiim.org</a> &mdash; and accreditation is not a detail, because an unaccredited program will not make you eligible for the RHIT.</p>
+<p>Both are listed, with AHIMA's other credentials, on <a href="https://www.ahima.org/certification-careers/certifications-overview/" target="_blank" rel="noopener">AHIMA's certifications overview</a>. CAHIIM's accredited programs are searchable at <a href="https://www.cahiim.org/programs/program-directory" target="_blank" rel="noopener">cahiim.org</a>, and accreditation is not a detail, because an unaccredited program will not make you eligible for the RHIT.</p>
 
 <p>The honest order for someone starting from a high school diploma: take the clerk job, sit the CCA while you are in it, and let the employer's tuition assistance pay for the CAHIIM program that leads to the RHIT.</p>
 
@@ -275,7 +275,7 @@ JOBHTML;
 
 <h2>What You Can Expect to Earn</h2>
 
-<p>The national median is <strong>$51,140 a year</strong> (BLS, May 2025) &mdash; almost exactly the median for all American occupations, which is $50,980. Half of medical records specialists earn more and half earn less. Where you work moves it more than anything else:</p>
+<p>The national median is <strong>$51,140 a year</strong> (BLS, May 2025): almost exactly the median for all American occupations, which is $50,980. Half of medical records specialists earn more and half earn less. Where you work moves it more than anything else:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:22px 0;">
     <thead>
@@ -322,7 +322,7 @@ JOBHTML;
 <ol>
     <li><strong>AHIMA's own job board.</strong> <a href="https://careerassist.ahima.org/" target="_blank" rel="noopener">AHIMA CareerAssist</a> is run by the profession's own association and is the one board on this page written for this job rather than for everything. AHIMA links to it from its careers pages.</li>
     <li><strong>Federal health agencies.</strong> The Veterans Health Administration, the Indian Health Service and military treatment facilities hire records staff through <a href="https://www.usajobs.gov/Search/Results?k=medical%20records" target="_blank" rel="noopener">USAJOBS</a>, the federal government's own site, run by the Office of Personnel Management. It is free, and federal roles carry federal benefits and a published pay grade. The VA also runs its own hiring site at <a href="https://vacareers.va.gov/" target="_blank" rel="noopener">vacareers.va.gov</a>.</li>
-    <li><strong>Health system careers pages.</strong> Large systems post everything on their own sites and hire continuously &mdash; for example <a href="https://www.kaiserpermanentejobs.org/" target="_blank" rel="noopener">Kaiser Permanente</a> and <a href="https://jobs.sutterhealth.org/" target="_blank" rel="noopener">Sutter Health</a>. Set up the alert there rather than anywhere else.</li>
+    <li><strong>Health system careers pages.</strong> Large systems post everything on their own sites and hire continuously: for example <a href="https://www.kaiserpermanentejobs.org/" target="_blank" rel="noopener">Kaiser Permanente</a> and <a href="https://jobs.sutterhealth.org/" target="_blank" rel="noopener">Sutter Health</a>. Set up the alert there rather than anywhere else.</li>
     <li><strong>Your local hospital, directly.</strong> Records departments recruit quietly and often internally. A registration or front-desk job in the same building is a common way in.</li>
 </ol>
 
@@ -343,7 +343,7 @@ JOBHTML;
 <p>The national median for medical records specialists is $51,140 a year, or $24.59 an hour, as of May 2025 according to the Bureau of Labor Statistics. The lowest tenth earned under $37,000 and the highest tenth over $81,150. Hospitals pay a $59,120 median against $47,120 in physician offices.</p>
 
 <h3>Can I become a medical records clerk with no experience?</h3>
-<p>Yes. BLS records no required work experience and no on-the-job training period for the occupation. What it does record is a postsecondary nondegree award as the typical entry-level education, so the gap to close is a certificate rather than experience &mdash; and AHIMA's CCA exam asks only for a high school diploma.</p>
+<p>Yes. BLS records no required work experience and no on-the-job training period for the occupation. What it does record is a postsecondary nondegree award as the typical entry-level education, so the gap to close is a certificate rather than experience, and AHIMA's CCA exam asks only for a high school diploma.</p>
 
 <h3>Do I need a degree or certification to work in medical records?</h3>
 <p>Not a degree. AHIMA's Certified Coding Associate requires only a high school diploma and costs $199 for members. The RHIT, which hospital records departments more often ask for, requires an associate degree from a CAHIIM-accredited Health Information Management program.</p>
@@ -355,7 +355,7 @@ JOBHTML;
 <p>The records specialist occupation is. BLS projects 8 per cent growth from 2025 to 2035, which it describes as much faster than the average for all occupations, with about 14,000 openings a year. File clerks, by contrast, are projected to fall 15.8 per cent over the same decade.</p>
 
 <h3>How much does the AHIMA CCA exam cost and what is on it?</h3>
-<p>$199 for AHIMA members and $299 for non-members. It is 105 questions &mdash; 90 scored and 15 pretest &mdash; with two hours to complete it. AHIMA recommends, but does not require, six months of coding experience or a coding training program first.</p>
+<p>$199 for AHIMA members and $299 for non-members. It is 105 questions, 90 scored and 15 pretest, with two hours to complete it. AHIMA recommends, but does not require, six months of coding experience or a coding training program first.</p>
 
 <h3>What qualifications do I need for an RHIT?</h3>
 <p>An associate degree from a Health Information Management program accredited by CAHIIM, or graduation from a foreign program under one of AHIMA's reciprocity agreements. The exam is 150 questions in three and a half hours at a Pearson VUE center, $229 for members and $299 for non-members.</p>
@@ -394,13 +394,13 @@ JOBHTML;
 <p>Comparing health care and office roles you can enter without a degree? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the clinic role that mixes admin with clinical duties, and what it pays.</li>
-    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; the same office skills outside health care, and where they lead.</li>
-    <li><a href="/blog/entry-level-healthcare-jobs">Entry Level Healthcare Jobs</a> &mdash; the roles you can start without a degree, and which ones lead somewhere.</li>
-    <li><a href="/blog/dental-assistant-jobs-in-usa">Dental Assistant Jobs in USA</a> &mdash; another certificate-entry health care job, decided state by state.</li>
-    <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a> &mdash; the front-desk equivalent, priced by NHS pay bands.</li>
-    <li><a href="/blog/clinic-receptionist-jobs-in-usa">Clinic Receptionist Jobs in USA</a> &mdash; the same clinic's front desk, where the median is $13,000 lower.</li>
-    <li><a href="/blog/medical-billing-assistant-jobs-in-pakistan">Medical Billing Assistant Jobs in Pakistan</a> &mdash; the same claims and coding work done offshore for US providers.</li>
+    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a>: the clinic role that mixes admin with clinical duties, and what it pays.</li>
+    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a>: the same office skills outside health care, and where they lead.</li>
+    <li><a href="/blog/entry-level-healthcare-jobs">Entry Level Healthcare Jobs</a>: the roles you can start without a degree, and which ones lead somewhere.</li>
+    <li><a href="/blog/dental-assistant-jobs-in-usa">Dental Assistant Jobs in USA</a>: another certificate-entry health care job, decided state by state.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a>: the front-desk equivalent, priced by NHS pay bands.</li>
+    <li><a href="/blog/clinic-receptionist-jobs-in-usa">Clinic Receptionist Jobs in USA</a>: the same clinic's front desk, where the median is $13,000 lower.</li>
+    <li><a href="/blog/medical-billing-assistant-jobs-in-pakistan">Medical Billing Assistant Jobs in Pakistan</a>: the same claims and coding work done offshore for US providers.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Wages, job outlook figures and certification requirements are published by the Bureau of Labor Statistics and by AHIMA, and they change. Confirm the current position with BLS, AHIMA and the employer before enrolling in a program, booking an exam or accepting an offer.</p>

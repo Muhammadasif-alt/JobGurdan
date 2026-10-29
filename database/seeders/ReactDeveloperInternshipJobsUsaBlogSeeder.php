@@ -139,7 +139,7 @@ HTML;
         return <<<'HTML'
 <p>Internship advice usually starts with the portfolio. Start somewhere else: with whether the internship has to pay you.</p>
 
-<p>That is not a moral question, it is a legal one with a published test, and it is the difference between a first job and several months of unpaid production work. The rest &mdash; what to build, what to search for, and how an F-1 student takes an internship at all &mdash; follows from the same set of official documents.</p>
+<p>That is not a moral question, it is a legal one with a published test, and it is the difference between a first job and several months of unpaid production work. The rest, what to build, what to search for, and how an F-1 student takes an internship at all, follows from the same set of official documents.</p>
 
 <p>If you are past the student stage, our <a href="/blog/entry-level-react-developer-jobs-in-usa">entry level React developer guide</a> covers what the federal record says about needing experience, and the paid apprenticeship route.</p>
 
@@ -175,7 +175,7 @@ HTML;
 
 <p>Two traps, both common enough to be worth naming.</p>
 
-<p><strong>An annualised figure is not what you will be paid.</strong> Large employers frequently state intern pay as an annual salary equivalent even where the internship runs twelve weeks. A twelve-week placement pays roughly a quarter of an annual figure, and the advert is not being dishonest &mdash; it is quoting a rate. Convert it to the hours you will actually work before comparing offers.</p>
+<p><strong>An annualised figure is not what you will be paid.</strong> Large employers frequently state intern pay as an annual salary equivalent even where the internship runs twelve weeks. A twelve-week placement pays roughly a quarter of an annual figure, and the advert is not being dishonest: it is quoting a rate. Convert it to the hours you will actually work before comparing offers.</p>
 
 <p><strong>The occupation median is not an intern wage.</strong> BLS publishes no wage for an intern title. It reports a <strong>$135,980</strong> median for software developers as of May 2025, and that figure describes people doing the job, not people learning it. It is useful as a direction of travel and misleading as a benchmark.</p>
 
@@ -200,7 +200,7 @@ HTML;
 
 <h3>Pre-completion OPT</h3>
 
-<p>The alternative is optional practical training taken before you finish. The total OPT allowance is <strong>12 months</strong>, and any pre-completion OPT used is <strong>deducted from the post-completion period</strong>. So this route spends the same allowance you would otherwise use after graduating, which is why CPT is usually the better instrument for a term-time or summer internship &mdash; up to the one-year limit above.</p>
+<p>The alternative is optional practical training taken before you finish. The total OPT allowance is <strong>12 months</strong>, and any pre-completion OPT used is <strong>deducted from the post-completion period</strong>. So this route spends the same allowance you would otherwise use after graduating, which is why CPT is usually the better instrument for a term-time or summer internship: up to the one-year limit above.</p>
 
 <p>If the internship is offered through a staffing or consulting firm, the rules that apply once you are inside one are set out in our <a href="/blog/react-js-developer-contract-jobs-in-usa">React JS contract jobs guide</a>, including the ones about being paid when there is no assigned work.</p>
 
@@ -214,7 +214,7 @@ HTML;
 
 <p><strong>Build one complete thing rather than five partial ones.</strong> A deployed application with an API, real error and loading states, a test or two and a README that explains the decisions will out-argue a row of tutorial clones. Say plainly what you personally built if it was a group project. Our <a href="/blog/entry-level-react-developer-jobs-in-usa">entry level guide</a> covers what to build in more detail, including which toolchain dates a portfolio instantly.</p>
 
-<p><strong>Expect the assessment stage.</strong> Internship processes usually include a coding exercise. That stage is regulated, and if you need an adjustment for a disability you are entitled to ask for one &mdash; in plain English, at any point, without putting it in writing. Our <a href="/blog/frontend-developer-coding-tests-in-usa">guide to coding tests</a> sets out what applies.</p>
+<p><strong>Expect the assessment stage.</strong> Internship processes usually include a coding exercise. That stage is regulated, and if you need an adjustment for a disability you are entitled to ask for one: in plain English, at any point, without putting it in writing. Our <a href="/blog/frontend-developer-coding-tests-in-usa">guide to coding tests</a> sets out what applies.</p>
 
 <p><strong>Never pay to get an internship.</strong> Placement services charging students for "guaranteed" internships are a recurring scam, and the position is the same as for any job: an honest employer, including the federal government, will not ask you to pay to be hired.</p>
 
@@ -273,23 +273,23 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a> &mdash; the step after this one: what BLS records about experience, and the paid apprentice route.</li>
-    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the main guide: the two occupations, pay bands and the eligibility filter.</li>
-    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage, and the adjustment you are entitled to ask for.</li>
-    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a> &mdash; the staffing route, and the STEM OPT rule agencies get wrong.</li>
+    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a>: the step after this one: what BLS records about experience, and the paid apprentice route.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the main guide: the two occupations, pay bands and the eligibility filter.</li>
+    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a>: the assessment stage, and the adjustment you are entitled to ask for.</li>
+    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a>: the staffing route, and the STEM OPT rule agencies get wrong.</li>
 </ul>
 
 <h2>Official sources</h2>
 
 <ul>
-    <li>Department of Labor, Wage and Hour Division &mdash; Fact Sheet #71 on internship programs under the Fair Labor Standards Act, and Field Assistance Bulletin 2018-2.</li>
-    <li>8 CFR 214.2(f)(10) &mdash; curricular practical training and optional practical training for F-1 students.</li>
-    <li>US Citizenship and Immigration Services &mdash; optional practical training for F-1 students.</li>
-    <li>Bureau of Labor Statistics &mdash; Occupational Outlook Handbook, Software Developers, Quality Assurance Analysts, and Testers.</li>
-    <li>Federal Trade Commission &mdash; guidance on job and employment scams.</li>
+    <li>Department of Labor, Wage and Hour Division: Fact Sheet #71 on internship programs under the Fair Labor Standards Act, and Field Assistance Bulletin 2018-2.</li>
+    <li>8 CFR 214.2(f)(10): curricular practical training and optional practical training for F-1 students.</li>
+    <li>US Citizenship and Immigration Services: optional practical training for F-1 students.</li>
+    <li>Bureau of Labor Statistics: Occupational Outlook Handbook, Software Developers, Quality Assurance Analysts, and Testers.</li>
+    <li>Federal Trade Commission: guidance on job and employment scams.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Whether a particular internship must be paid turns on facts this page cannot know, and immigration rules change &mdash; confirm the current position with the Department of Labor, your Designated School Official and the employer before relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Whether a particular internship must be paid turns on facts this page cannot know, and immigration rules change: confirm the current position with the Department of Labor, your Designated School Official and the employer before relying on any of it.</p>
 HTML;
     }
 }

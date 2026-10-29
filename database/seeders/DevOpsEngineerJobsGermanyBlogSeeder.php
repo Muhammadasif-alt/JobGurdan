@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "DevOps Engineer Jobs in Germany" — cloud, CI/CD and platform engineering
+ * "DevOps Engineer Jobs in Germany": cloud, CI/CD and platform engineering
  * for German employers. The US DevOps guide covers the American market, and
  * this one owns German pay from the Federal Employment Agency, the EU Blue
  * Card thresholds and what a salary is worth after social contributions.
@@ -158,7 +158,7 @@ class DevOpsEngineerJobsGermanyBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the gross annual salary against the Blue Card threshold</strong> before you accept an offer from outside the EU.</p>
 
-<p><strong>Note:</strong> pay, working language and visa eligibility are set by each employer and by German immigration law &mdash; not by JobGader. Confirm the details with the employer and the German mission before applying.</p>
+<p><strong>Note:</strong> pay, working language and visa eligibility are set by each employer and by German immigration law, not by JobGader. Confirm the details with the employer and the German mission before applying.</p>
 JOBHTML;
     }
 
@@ -189,14 +189,14 @@ JOBHTML;
 
 <h2>A &euro;45,000 Junior Offer Misses the Blue Card</h2>
 
-<p>For anyone from outside the EU, the salary is not just pay &mdash; it decides the visa. The <strong>EU Blue Card</strong> minimum gross salaries for 2026 are:</p>
+<p>For anyone from outside the EU, the salary is not just pay: it decides the visa. The <strong>EU Blue Card</strong> minimum gross salaries for 2026 are:</p>
 
 <ul>
     <li><strong>General threshold:</strong> <strong>&euro;50,700</strong> a year</li>
     <li><strong>IT specialists, shortage occupations and recent graduates:</strong> <strong>&euro;45,934.20</strong> a year, with approval from the Federal Employment Agency</li>
 </ul>
 
-<p>The guides' junior floor of &euro;45,000 is <strong>&euro;934.20 below</strong> even the reduced threshold, so a junior offer at that level does not qualify. The thresholds rise every year &mdash; in 2025 they were &euro;48,300 and &euro;43,759.80 &mdash; so an offer that cleared last year's figure may not clear this year's.</p>
+<p>The guides' junior floor of &euro;45,000 is <strong>&euro;934.20 below</strong> even the reduced threshold, so a junior offer at that level does not qualify. The thresholds rise every year, in 2025 they were &euro;48,300 and &euro;43,759.80, so an offer that cleared last year's figure may not clear this year's.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/devops-engineer-jobs-in-germany-berlin.jpg"
@@ -225,7 +225,7 @@ JOBHTML;
 <ul>
     <li>The Federal Employment Agency's <strong>2025 shortage analysis</strong> found <strong>no longer any shortage in software development</strong> or IT sales.</li>
     <li>Its June 2026 report on IT jobs found shortages only in computer science without a specialisation and in technical computer science at specialist level, with software development "under observation".</li>
-    <li><strong>Bitkom</strong>, the German digital industry association, still reports about <strong>109,000 unfilled IT jobs</strong> in its 2025 survey &mdash; down from 149,000 two years earlier &mdash; and says a vacancy takes 7.7 months to fill on average.</li>
+    <li><strong>Bitkom</strong>, the German digital industry association, still reports about <strong>109,000 unfilled IT jobs</strong> in its 2025 survey, down from 149,000 two years earlier, and says a vacancy takes 7.7 months to fill on average.</li>
 </ul>
 
 <p>In practice, experienced DevOps engineers with Kubernetes, cloud and security skills remain in demand, but junior applicants from abroad face more competition than the shortage headlines suggest.</p>
@@ -262,7 +262,7 @@ JOBHTML;
     <li><strong>Long-term care:</strong> 3.6%, of which you pay 1.8%, or more if you have no children</li>
 </ul>
 
-<p>On a &euro;70,000 salary, that comes to about <strong>&euro;1,230 a month</strong>, roughly 21% of gross pay, before income tax &mdash; a little more if you are childless or your health insurer charges above the average. Compare offers on net pay, not on the headline figure.</p>
+<p>On a &euro;70,000 salary, that comes to about <strong>&euro;1,230 a month</strong>, roughly 21% of gross pay, before income tax: a little more if you are childless or your health insurer charges above the average. Compare offers on net pay, not on the headline figure.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -321,16 +321,16 @@ JOBHTML;
 <p>Comparing DevOps and cloud work in Germany and the US? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/devops-engineer-jobs-in-usa">DevOps Engineer Jobs in USA</a> &mdash; the same role in the American market, and the visa routes there.</li>
-    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a> &mdash; the platform work DevOps teams build on.</li>
-    <li><a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS Cloud Engineer Jobs in USA</a> &mdash; the certifications behind the most common cloud platform.</li>
-    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the scripting language most pipelines run on.</li>
-    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a> &mdash; the infrastructure side of operations work.</li>
-    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; the other German route, and why it works so differently.</li>
-    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a> &mdash; the CE licence and code 95 rules, official pay and the driver visa route.</li>
-    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; the nine plants, the apprenticeship route and the honest visa answer.</li>
-    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a> &mdash; and which of the three Siemens companies actually hires you.</li>
-    <li><a href="/blog/how-to-apply-for-sap-consultant-jobs-in-germany">How to Apply for SAP Consultant Jobs in Germany</a> &mdash; the EU Blue Card salary floor for IT, and the route that needs no degree.</li>
+    <li><a href="/blog/devops-engineer-jobs-in-usa">DevOps Engineer Jobs in USA</a>: the same role in the American market, and the visa routes there.</li>
+    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a>: the platform work DevOps teams build on.</li>
+    <li><a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS Cloud Engineer Jobs in USA</a>: the certifications behind the most common cloud platform.</li>
+    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a>: the scripting language most pipelines run on.</li>
+    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a>: the infrastructure side of operations work.</li>
+    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a>: the other German route, and why it works so differently.</li>
+    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a>: the CE licence and code 95 rules, official pay and the driver visa route.</li>
+    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a>: the nine plants, the apprenticeship route and the honest visa answer.</li>
+    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a>, and which of the three Siemens companies actually hires you.</li>
+    <li><a href="/blog/how-to-apply-for-sap-consultant-jobs-in-germany">How to Apply for SAP Consultant Jobs in Germany</a>: the EU Blue Card salary floor for IT, and the route that needs no degree.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, tax or financial advice. Salary thresholds, contribution rates and immigration rules change every year. Confirm the current position with the employer, the German mission, Make it in Germany and a qualified tax adviser before applying or accepting an offer.</p>

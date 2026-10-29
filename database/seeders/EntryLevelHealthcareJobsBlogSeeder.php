@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Entry Level Healthcare Jobs" — a US guide for someone who wants to start
+ * "Entry Level Healthcare Jobs": a US guide for someone who wants to start
  * in healthcare without a degree. The Medical Assistant, Registered Nurse and
  * Nurse guides each cover one occupation in depth, and the Healthcare Jobs
  * landing page covers pay and licensing across the USA and UK, so this one
@@ -165,7 +165,7 @@ class EntryLevelHealthcareJobsBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, training and certification requirements are set by each employer and by state law &mdash; not by JobGader. Confirm the details on the employer's own posting before applying.</p>
+<p><strong>Note:</strong> pay, training and certification requirements are set by each employer and by state law, not by JobGader. Confirm the details on the employer's own posting before applying.</p>
 JOBHTML;
     }
 
@@ -350,14 +350,14 @@ JOBHTML;
 <p>Looking at a specific healthcare career? These go deeper:</p>
 
 <ul>
-    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; training programmes, certification and clinic pay.</li>
-    <li><a href="/blog/dental-assistant-jobs-in-usa">Dental Assistant Jobs in USA</a> &mdash; one of the few clinical roles some states let you start with no formal education at all.</li>
-    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; the degree and NCLEX route once you are ready to move up.</li>
-    <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a> &mdash; nursing roles and licensing across the country.</li>
-    <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in USA</a> &mdash; a longer route into patient care.</li>
-    <li><a href="/blog/medical-records-clerk-jobs-in-usa">Medical Records Clerk Jobs in USA</a> &mdash; a non-clinical entry route where a certificate, not experience, sets the pay.</li>
-    <li><a href="/blog/clinic-receptionist-jobs-in-usa">Clinic Receptionist Jobs in USA</a> &mdash; the one healthcare role BLS lists with no experience needed at entry.</li>
-    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; the same entry roles under NHS rules.</li>
+    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a>: training programmes, certification and clinic pay.</li>
+    <li><a href="/blog/dental-assistant-jobs-in-usa">Dental Assistant Jobs in USA</a>: one of the few clinical roles some states let you start with no formal education at all.</li>
+    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a>: the degree and NCLEX route once you are ready to move up.</li>
+    <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a>: nursing roles and licensing across the country.</li>
+    <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in USA</a>: a longer route into patient care.</li>
+    <li><a href="/blog/medical-records-clerk-jobs-in-usa">Medical Records Clerk Jobs in USA</a>: a non-clinical entry route where a certificate, not experience, sets the pay.</li>
+    <li><a href="/blog/clinic-receptionist-jobs-in-usa">Clinic Receptionist Jobs in USA</a>: the one healthcare role BLS lists with no experience needed at entry.</li>
+    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a>: the same entry roles under NHS rules.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Pay, projections, training rules and job postings change over time. Confirm the current position with the U.S. Bureau of Labor Statistics, your state licensing agency and the employer's own posting before relying on it.</p>

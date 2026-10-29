@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "AC Technician Jobs in Dubai and Saudi Arabia" — the Gulf page of the
+ * "AC Technician Jobs in Dubai and Saudi Arabia": the Gulf page of the
  * HVAC/R cluster. It covers what decides whether an AC technician can take a
  * Gulf job and keep their pay: recruitment costs, the Saudi skills exam,
  * the summer midday break and wage protection.
@@ -375,15 +375,15 @@ JOBHTML;
 <p>The rest of the HVAC/R cluster and the Gulf trades:</p>
 
 <ul>
-    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a> &mdash; demand and official pay data on both sides of the border.</li>
-    <li><a href="/blog/how-to-start-a-career-in-refrigeration-and-air-conditioning">How to Start a Career in Refrigeration and Air Conditioning</a> &mdash; training, certification and the industrial route.</li>
-    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a> &mdash; the same Gulf rules for another facilities trade.</li>
-    <li><a href="/blog/electrician-salary-in-the-uae-uk-and-usa">Electrician Salary in the UAE, UK and USA</a> &mdash; what the UAE pay rules mean for a neighbouring trade.</li>
-    <li><a href="/blog/construction-labourer-jobs-in-dubai-and-saudi-arabia">Construction Labourer Jobs in Dubai and Saudi Arabia</a> &mdash; the same midday break and recruitment-cost rules on building sites.</li>
-    <li><a href="/blog/how-to-become-a-site-supervisor-or-foreman-abroad">How to Become a Site Supervisor or Foreman Abroad</a> &mdash; moving from a trade into supervising MEP and site crews.</li>
-    <li><a href="/blog/painter-and-decorator-jobs-in-the-gulf">Painter and Decorator Jobs in the Gulf</a> &mdash; another facilities trade under the same Gulf rules.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; the wider Saudi construction market.</li>
-    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a> &mdash; the recruitment process end to end.</li>
+    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a>: demand and official pay data on both sides of the border.</li>
+    <li><a href="/blog/how-to-start-a-career-in-refrigeration-and-air-conditioning">How to Start a Career in Refrigeration and Air Conditioning</a>: training, certification and the industrial route.</li>
+    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a>: the same Gulf rules for another facilities trade.</li>
+    <li><a href="/blog/electrician-salary-in-the-uae-uk-and-usa">Electrician Salary in the UAE, UK and USA</a>: what the UAE pay rules mean for a neighbouring trade.</li>
+    <li><a href="/blog/construction-labourer-jobs-in-dubai-and-saudi-arabia">Construction Labourer Jobs in Dubai and Saudi Arabia</a>: the same midday break and recruitment-cost rules on building sites.</li>
+    <li><a href="/blog/how-to-become-a-site-supervisor-or-foreman-abroad">How to Become a Site Supervisor or Foreman Abroad</a>: moving from a trade into supervising MEP and site crews.</li>
+    <li><a href="/blog/painter-and-decorator-jobs-in-the-gulf">Painter and Decorator Jobs in the Gulf</a>: another facilities trade under the same Gulf rules.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: the wider Saudi construction market.</li>
+    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a>: the recruitment process end to end.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or employment advice. UAE and Saudi labour and visa rules change; confirm the current position on u.ae, mohre.gov.ae and hrsd.gov.sa before accepting an offer or paying anyone.</p>

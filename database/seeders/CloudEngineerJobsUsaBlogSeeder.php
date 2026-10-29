@@ -13,13 +13,13 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Cloud Engineer Jobs in USA" — a sector guide rather than one vacancy, so
+ * "Cloud Engineer Jobs in USA": a sector guide rather than one vacancy, so
  * the apply link goes to an Indeed search and the post carries no JobPosting
  * markup.
  *
  * The reading the guide is built around: BLS has no cloud engineer
- * occupation, and the occupation it grew out of — network and computer
- * systems administrators — is projected to *decline* 4 per cent. That decline
+ * occupation, and the occupation it grew out of: network and computer
+ * systems administrators: is projected to *decline* 4 per cent. That decline
  * is not the work disappearing. It is the same work being re-titled and
  * re-tooled, which makes it the clearest possible signal to anyone currently
  * administering servers.
@@ -145,11 +145,11 @@ class CloudEngineerJobsUsaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li>Real operational experience &mdash; systems, networks or applications you have run under load, not only built</li>
+    <li>Real operational experience: systems, networks or applications you have run under load, not only built</li>
     <li>One cloud platform in depth: AWS or Azure most often, GCP in specific sectors</li>
     <li>Infrastructure as code, most often Terraform, treated as software rather than as scripts</li>
     <li>Containers and orchestration, Docker and Kubernetes, and an understanding of what they cost</li>
-    <li>CI/CD pipelines, and enough scripting &mdash; usually Python &mdash; to automate anything done twice</li>
+    <li>CI/CD pipelines, and enough scripting, usually Python, to automate anything done twice</li>
     <li>Identity and access management, which is where most cloud incidents actually begin</li>
 </ul>
 
@@ -163,14 +163,14 @@ class CloudEngineerJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask who owns the cloud bill.</strong> If nobody does, you will inherit it in month three without the authority to change anything, and cost work done without a mandate is the fastest route to a frustrating year.</p>
 
-<p><strong>Note:</strong> pay, on-call expectations, clearance requirements and any sponsorship decision are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, on-call expectations, clearance requirements and any sponsorship decision are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Cloud engineering is one of the best-paid and most portable technical careers in the United States, and it is also one of the hardest to research honestly, because the job did not exist as a category long enough to be counted properly. Everything you read about what it pays is an aggregate of self-reported numbers. This guide starts by working out which occupations the work is actually counted under, which turns out to answer more than a salary question &mdash; including where the people doing these jobs came from, and where the next wave will come from.</p>
+<p>Cloud engineering is one of the best-paid and most portable technical careers in the United States, and it is also one of the hardest to research honestly, because the job did not exist as a category long enough to be counted properly. Everything you read about what it pays is an aggregate of self-reported numbers. This guide starts by working out which occupations the work is actually counted under, which turns out to answer more than a salary question, including where the people doing these jobs came from, and where the next wave will come from.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -185,9 +185,9 @@ JOBHTML;
 <p>Three occupations absorb almost all of it:</p>
 
 <ul>
-    <li><strong>Network and computer systems administrators</strong> &mdash; a <strong>$99,130 median</strong> as of May 2025, the lowest tenth under <strong>$62,640</strong> and the highest tenth above <strong>$155,050</strong>. Running the estate.</li>
-    <li><strong>Computer network architects</strong> &mdash; a <strong>$134,050 median</strong>, the lowest tenth under <strong>$79,900</strong> and the highest tenth above <strong>$202,680</strong>. Designing it. BLS notes this typically needs a bachelor's degree <em>and</em> five years or more in a related occupation.</li>
-    <li><strong>Software developers</strong> &mdash; a <strong>$135,980 median</strong>, the highest tenth above <strong>$214,670</strong>. Building platform tooling as software.</li>
+    <li><strong>Network and computer systems administrators</strong>: a <strong>$99,130 median</strong> as of May 2025, the lowest tenth under <strong>$62,640</strong> and the highest tenth above <strong>$155,050</strong>. Running the estate.</li>
+    <li><strong>Computer network architects</strong>: a <strong>$134,050 median</strong>, the lowest tenth under <strong>$79,900</strong> and the highest tenth above <strong>$202,680</strong>. Designing it. BLS notes this typically needs a bachelor's degree <em>and</em> five years or more in a related occupation.</li>
+    <li><strong>Software developers</strong>: a <strong>$135,980 median</strong>, the highest tenth above <strong>$214,670</strong>. Building platform tooling as software.</li>
 </ul>
 
 <p>So the practical question at offer stage is not "what do cloud engineers earn". It is <strong>which of those three the role actually is</strong>. A job that provisions and maintains environments pays like administration. A job that designs them pays like architecture. A job that builds internal platform software pays like development. The word "cloud" in the title moves the number far less than which of those three verbs the work is.</p>
@@ -202,15 +202,15 @@ JOBHTML;
 
 <h2>The Declining Occupation That Feeds This One</h2>
 
-<p>Here is the number nobody puts in a cloud careers article. BLS projects employment of <strong>network and computer systems administrators to decline 4 per cent from 2025 to 2035</strong>, with about <strong>13,400 openings a year</strong> &mdash; almost all of them replacements rather than growth.</p>
+<p>Here is the number nobody puts in a cloud careers article. BLS projects employment of <strong>network and computer systems administrators to decline 4 per cent from 2025 to 2035</strong>, with about <strong>13,400 openings a year</strong>: almost all of them replacements rather than growth.</p>
 
 <p>Read carelessly, that looks like bad news adjacent to a good career. Read properly, it is the single most useful fact on this page, and it says two things.</p>
 
-<p><strong>First, the work is not disappearing &mdash; it is being re-titled.</strong> Servers still need provisioning, patching, monitoring and recovering. What changed is that the server is now an API call, the configuration is now code, and the job title on the advertisement is now "cloud engineer". The decline in one occupation and the growth of these postings are largely the same phenomenon seen from two sides.</p>
+<p><strong>First, the work is not disappearing: it is being re-titled.</strong> Servers still need provisioning, patching, monitoring and recovering. What changed is that the server is now an API call, the configuration is now code, and the job title on the advertisement is now "cloud engineer". The decline in one occupation and the growth of these postings are largely the same phenomenon seen from two sides.</p>
 
-<p><strong>Second, if you are administering systems today, that projection is addressed to you.</strong> A declining occupation with 13,400 mostly-replacement openings a year is not somewhere to spend a decade. And the migration is unusually achievable, because you already have the thing that is genuinely hard to acquire: operational experience of systems under load. What you are missing &mdash; Terraform, a cloud platform, pipelines &mdash; is learnable, and demonstrably so.</p>
+<p><strong>Second, if you are administering systems today, that projection is addressed to you.</strong> A declining occupation with 13,400 mostly-replacement openings a year is not somewhere to spend a decade. And the migration is unusually achievable, because you already have the thing that is genuinely hard to acquire: operational experience of systems under load. What you are missing, Terraform, a cloud platform, pipelines, is learnable, and demonstrably so.</p>
 
-<p>By contrast, computer network architects are projected to <strong>grow 8 per cent</strong> on <strong>9,600 openings a year</strong>. The direction of travel inside this field is from running things towards designing them, and the pay gap between those two BLS medians &mdash; <strong>$34,920</strong> &mdash; is what that journey is worth.</p>
+<p>By contrast, computer network architects are projected to <strong>grow 8 per cent</strong> on <strong>9,600 openings a year</strong>. The direction of travel inside this field is from running things towards designing them, and the pay gap between those two BLS medians, <strong>$34,920</strong>, is what that journey is worth.</p>
 
 <h2>Why "Learning Terraform" Is Not the Entry Requirement</h2>
 
@@ -226,7 +226,7 @@ JOBHTML;
 
 <p>An engineer who improves reliability has to explain the value of an outage that did not happen. An engineer who takes 30 per cent off a monthly cloud bill has a number their manager can take to a finance meeting. Both matter; only one is legible outside the team.</p>
 
-<p>Practically, that means learning where the money actually goes &mdash; idle compute, over-provisioned instances, storage tiers nobody reviewed, egress, forgotten environments &mdash; and being able to talk about commitments and rightsizing with the people who sign the invoice. It is unglamorous and it is the difference between "runs our infrastructure" and "runs our infrastructure and saved us $400,000 last year" on a promotion case.</p>
+<p>Practically, that means learning where the money actually goes, idle compute, over-provisioned instances, storage tiers nobody reviewed, egress, forgotten environments, and being able to talk about commitments and rightsizing with the people who sign the invoice. It is unglamorous and it is the difference between "runs our infrastructure" and "runs our infrastructure and saved us $400,000 last year" on a promotion case.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/cloud-engineer-jobs-in-usa-cost.jpg"
@@ -244,7 +244,7 @@ JOBHTML;
 
 <h2>GovCloud, Clearance and the Federal Market</h2>
 
-<p>A meaningful share of US cloud postings &mdash; particularly around Washington DC and Northern Virginia &mdash; are federal or defence work, and ask for AWS GovCloud experience alongside an <strong>active security clearance</strong>. A clearance requires <strong>US citizenship</strong> and an <strong>employer to sponsor it</strong>, and cannot be obtained independently.</p>
+<p>A meaningful share of US cloud postings, particularly around Washington DC and Northern Virginia, are federal or defence work, and ask for AWS GovCloud experience alongside an <strong>active security clearance</strong>. A clearance requires <strong>US citizenship</strong> and an <strong>employer to sponsor it</strong>, and cannot be obtained independently.</p>
 
 <p>If you are not a US citizen, read for that line before investing time in the application; the commercial market is large, better paid at the top end, and considerably more remote-friendly. Our <a href="/blog/cybersecurity-analyst-jobs-in-usa">cybersecurity analyst guide</a> covers the clearance rules in full.</p>
 
@@ -255,20 +255,20 @@ JOBHTML;
     <li><strong>Cloud Infrastructure or Systems Engineer.</strong> Compute, storage and networking design. Closest to the architect band.</li>
     <li><strong>Cloud DevOps Engineer.</strong> Infrastructure plus the delivery pipeline. Expect to own both.</li>
     <li><strong>Site Reliability Engineer.</strong> Uptime, scaling and incident response, usually with a software engineering bar and pay to match.</li>
-    <li><strong>Cloud Security Engineer.</strong> Identity, guardrails and compliance &mdash; the strongest premium of the specialisms and covered in our <a href="/blog/cybersecurity-engineer-jobs-in-usa">security engineering guide</a>.</li>
+    <li><strong>Cloud Security Engineer.</strong> Identity, guardrails and compliance: the strongest premium of the specialisms and covered in our <a href="/blog/cybersecurity-engineer-jobs-in-usa">security engineering guide</a>.</li>
     <li><strong>Platform Engineer.</strong> Building the internal tooling other engineers deploy through. The most software-like of these, and paid accordingly.</li>
 </ul>
 
 <h2>Skills That Keep Recurring in Listings</h2>
 
 <ul>
-    <li><strong>Infrastructure as code</strong> &mdash; Terraform above CloudFormation in most postings, and treated as code that gets reviewed.</li>
+    <li><strong>Infrastructure as code</strong>: Terraform above CloudFormation in most postings, and treated as code that gets reviewed.</li>
     <li><strong>One cloud platform in depth</strong>, AWS or Azure, rather than three at surface level.</li>
     <li><strong>Containers and Kubernetes</strong>, including what they cost to run.</li>
-    <li><strong>CI/CD</strong> &mdash; GitHub Actions, GitLab CI or Jenkins &mdash; and the discipline to keep pipelines boring.</li>
+    <li><strong>CI/CD</strong>, GitHub Actions, GitLab CI or Jenkins, and the discipline to keep pipelines boring.</li>
     <li><strong>Identity and access management</strong>, the most common root cause in cloud incidents and the least advertised skill.</li>
     <li><strong>Python</strong> for automation, and enough software practice to write code others maintain.</li>
-    <li><strong>Cost management and capacity planning</strong> &mdash; last on their list, first on your promotion case.</li>
+    <li><strong>Cost management and capacity planning</strong>: last on their list, first on your promotion case.</li>
 </ul>
 
 <h2>Frequently Asked Questions</h2>
@@ -328,21 +328,21 @@ JOBHTML;
 <p>Comparing the infrastructure routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS Cloud Engineer Jobs in USA</a> &mdash; the largest platform market, and why GovCloud and a clearance are two different bars.</li>
-    <li><a href="/blog/azure-cloud-engineer-jobs-in-usa">Azure Cloud Engineer Jobs in USA</a> &mdash; the enterprise platform, its gated exam path, and the M365 work hidden in the job title.</li>
-    <li><a href="/blog/cybersecurity-engineer-jobs-in-usa">Cybersecurity Engineer Jobs in USA</a> &mdash; the security specialisation of this work, and the Kubernetes certification ordering trap.</li>
-    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; the clearance rules in full, and the shorter door into security.</li>
-    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; the best-paid of the three occupations this work is counted under.</li>
-    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the automation language that carries most of this job.</li>
-    <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a> &mdash; the application side, and the store gate in front of a portfolio.</li>
-    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; which of two very different pay bands that title is hiding.</li>
-    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a> &mdash; the occupation the operations work moved out of, and the $34,920 between running a network and designing one.</li>
-    <li><a href="/blog/devops-engineer-jobs-in-usa">DevOps Engineer Jobs in USA</a> &mdash; the delivery half of platform work, and the four measures senior interviews run on.</li>
-    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a> &mdash; the workloads these platforms increasingly exist to run.</li>
-    <li><a href="/blog/devops-engineer-jobs-in-germany">DevOps Engineer Jobs in Germany</a> &mdash; cloud and pipeline work in Europe, with official German pay figures.</li>
-    <li><a href="/blog/database-administrator-jobs-in-usa">Database Administrator Jobs in USA</a> &mdash; where database work sits as it moves into the cloud.</li>
-    <li><a href="/blog/how-to-apply-for-telkom-indonesia-it-jobs">How to Apply for Telkom Indonesia IT Jobs</a> &mdash; and the national ID requirement that closes the door first.</li>
-    <li><a href="/blog/how-to-apply-for-google-data-center-jobs-in-the-usa">How to Apply for Google Data Center Jobs in the USA</a> &mdash; technician work Google prices openly, with no sponsorship on any US posting.</li>
+    <li><a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS Cloud Engineer Jobs in USA</a>: the largest platform market, and why GovCloud and a clearance are two different bars.</li>
+    <li><a href="/blog/azure-cloud-engineer-jobs-in-usa">Azure Cloud Engineer Jobs in USA</a>: the enterprise platform, its gated exam path, and the M365 work hidden in the job title.</li>
+    <li><a href="/blog/cybersecurity-engineer-jobs-in-usa">Cybersecurity Engineer Jobs in USA</a>: the security specialisation of this work, and the Kubernetes certification ordering trap.</li>
+    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a>: the clearance rules in full, and the shorter door into security.</li>
+    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a>: the best-paid of the three occupations this work is counted under.</li>
+    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a>: the automation language that carries most of this job.</li>
+    <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a>: the application side, and the store gate in front of a portfolio.</li>
+    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a>, which of two very different pay bands that title is hiding.</li>
+    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a>: the occupation the operations work moved out of, and the $34,920 between running a network and designing one.</li>
+    <li><a href="/blog/devops-engineer-jobs-in-usa">DevOps Engineer Jobs in USA</a>: the delivery half of platform work, and the four measures senior interviews run on.</li>
+    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a>: the workloads these platforms increasingly exist to run.</li>
+    <li><a href="/blog/devops-engineer-jobs-in-germany">DevOps Engineer Jobs in Germany</a>: cloud and pipeline work in Europe, with official German pay figures.</li>
+    <li><a href="/blog/database-administrator-jobs-in-usa">Database Administrator Jobs in USA</a>: where database work sits as it moves into the cloud.</li>
+    <li><a href="/blog/how-to-apply-for-telkom-indonesia-it-jobs">How to Apply for Telkom Indonesia IT Jobs</a>, and the national ID requirement that closes the door first.</li>
+    <li><a href="/blog/how-to-apply-for-google-data-center-jobs-in-the-usa">How to Apply for Google Data Center Jobs in the USA</a>: technician work Google prices openly, with no sponsorship on any US posting.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, employment projections, certification requirements and clearance policy change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics, your target cloud provider and the employer's own advertisement before applying or paying for any course.</p>

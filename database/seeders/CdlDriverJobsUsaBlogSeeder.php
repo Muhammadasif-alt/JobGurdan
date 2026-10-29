@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "CDL Driver Jobs in USA" — the licensing and working-conditions guide for
+ * "CDL Driver Jobs in USA": the licensing and working-conditions guide for
  * commercial driving, as distinct from the existing visa-sponsorship guide at
  * /blog/truck-driver-jobs-in-usa-with-visa-sponsorship, which covers EB-3 and
  * H-2B and says nothing about ELDT, hours of service or the age rule.
@@ -165,7 +165,7 @@ class CdlDriverJobsUsaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li>A valid Commercial Driver's License of the right class &mdash; Class A for most tractor-trailer work, Class B for heavy single vehicles</li>
+    <li>A valid Commercial Driver's License of the right class: Class A for most tractor-trailer work, Class B for heavy single vehicles</li>
     <li>Entry-Level Driver Training completed with a provider listed on the FMCSA Training Provider Registry, required for a first CDL since 7 February 2022</li>
     <li><strong>Age 21 for interstate driving, hazmat and passenger work.</strong> Drivers aged 18 to 20 are limited to intrastate work in most states</li>
     <li>A current DOT medical certificate and a clean Drug and Alcohol Clearinghouse record</li>
@@ -178,13 +178,13 @@ class CdlDriverJobsUsaBlogSeeder extends Seeder
     <li><strong>Local.</strong> Home daily, lower mileage pay, often hourly</li>
     <li><strong>Regional.</strong> Home most weekends, a middle band of pay</li>
     <li><strong>Over-the-road.</strong> The highest advertised pay and weeks away from home at a time</li>
-    <li><strong>Specialised</strong> &mdash; tanker, flatbed, hazmat. Higher rates, extra endorsements and extra liability</li>
+    <li><strong>Specialised</strong>: tanker, flatbed, hazmat. Higher rates, extra endorsements and extra liability</li>
 </ul>
 
 <h3>Before you apply</h3>
 <p><strong>Ask how you are paid.</strong> Cents per mile is not an hourly rate: detention, loading and traffic are unpaid under most mileage schemes, so two jobs with the same weekly figure can mean very different hourly earnings.</p>
 
-<p><strong>Note:</strong> pay, route assignment, home time and training contracts are set by each carrier &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, route assignment, home time and training contracts are set by each carrier, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -205,11 +205,11 @@ JOBHTML;
 
 <p>In the BLS <strong>Monthly Labor Review</strong>, economists <strong>Stephen Burks</strong> and <strong>Kristen Monaco</strong> examined the long-distance truckload segment and found that while turnover has been high and persistent for decades, <strong>"the overall picture is consistent with a market in which labor supply responds to increasing labor demand over time, and a deeper look does not find evidence of a secular shortage."</strong></p>
 
-<p>Their description of the problem is different from the usual one: long-haul truckload is a <strong>high-turnover secondary labour market</strong>, and high turnover is a sign that the jobs are unattractive to many potential workers &mdash; not that the workers do not exist. The <strong>American Trucking Associations disputes this</strong> and continues to publish shortage figures.</p>
+<p>Their description of the problem is different from the usual one: long-haul truckload is a <strong>high-turnover secondary labour market</strong>, and high turnover is a sign that the jobs are unattractive to many potential workers, not that the workers do not exist. The <strong>American Trucking Associations disputes this</strong> and continues to publish shortage figures.</p>
 
 <p>You do not have to pick a side to use this. The practical point is that <strong>"there is a shortage, so you will be in demand" is a contested claim, not a settled fact</strong>, and it is usually made by someone who wants you to enrol. Judge an offer on its pay, its route and its home time.</p>
 
-<p>The projection supports caution. BLS expects employment of heavy and tractor-trailer truck drivers to grow <strong>4 per cent from 2025 to 2035</strong> &mdash; <strong>about as fast as the average for all occupations</strong>, on a base of <strong>2,221,200 jobs</strong>. That is a stable, large occupation. It is not an exceptional one.</p>
+<p>The projection supports caution. BLS expects employment of heavy and tractor-trailer truck drivers to grow <strong>4 per cent from 2025 to 2035</strong>: <strong>about as fast as the average for all occupations</strong>, on a base of <strong>2,221,200 jobs</strong>. That is a stable, large occupation. It is not an exceptional one.</p>
 
 <h2>What CDL Drivers Actually Earn</h2>
 
@@ -255,7 +255,7 @@ JOBHTML;
 <p>The rule is <strong>not retroactive</strong>: if you held the CDL or the endorsement before 7 February 2022, you do not need to go back and train for it.</p>
 
 <div style="background:#fff8e6;border-left:4px solid #e0a800;padding:16px 20px;margin:26px 0;border-radius:8px;">
-    <p style="margin:0;"><strong>On paid training.</strong> Many carriers do pay for your CDL, and that is a real route in for people without savings. It normally comes with a contract committing you to the company for a period, with the cost repayable if you leave early. Read what you owe, and when, before signing &mdash; it is the difference between a free licence and a debt to your employer.</p>
+    <p style="margin:0;"><strong>On paid training.</strong> Many carriers do pay for your CDL, and that is a real route in for people without savings. It normally comes with a contract committing you to the company for a period, with the cost repayable if you leave early. Read what you owe, and when, before signing: it is the difference between a free licence and a debt to your employer.</p>
 </div>
 
 <h2>You Must Be 21 to Drive Across State Lines</h2>
@@ -263,7 +263,7 @@ JOBHTML;
 <p>The draft never mentions age, which is a significant omission, because it decides what work is open to you.</p>
 
 <ul>
-    <li><strong>21</strong> is the federal minimum for <strong>interstate</strong> driving &mdash; crossing state lines &mdash; and also for <strong>hazardous materials</strong> and <strong>passenger-carrying</strong> work</li>
+    <li><strong>21</strong> is the federal minimum for <strong>interstate</strong> driving, crossing state lines, and also for <strong>hazardous materials</strong> and <strong>passenger-carrying</strong> work</li>
     <li><strong>18</strong> is the minimum for a CDL in nearly every state, but an 18-to-20-year-old is limited to <strong>intrastate</strong> work, inside their own state</li>
     <li>The FMCSA <strong>Safe Driver Apprenticeship Pilot</strong> allows qualified drivers aged 18 to 20 who hold intrastate CDLs to run interstate under the programme's conditions</li>
 </ul>
@@ -389,19 +389,19 @@ JOBHTML;
 <p>Comparing driving work and other routes into American employment? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; the EB-3 and H-2B routes, and what they cannot do for a driver.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; van and app-based work on an ordinary licence, and what your own car costs per mile.</li>
-    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; passenger driving with a provincial licence and Job Bank pay figures.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; where the genuine entry-level visa routes actually are.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; manual work and the visa categories that reach it.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; the depot end of the freight chain, in Britain.</li>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; driving work on a sponsored Gulf contract instead.</li>
-    <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a> &mdash; passenger driving and the accreditation it needs.</li>
-    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; warehouse work at the other end of the load, and the OSHA training rule.</li>
-    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a> &mdash; the permit, ELDT training, the 14-day rule and what the first year pays.</li>
-    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a> &mdash; the CE licence and code 95 rules, official pay and the driver visa route.</li>
-    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a> &mdash; warehouse work where a union contract publishes the wage scale.</li>
-    <li><a href="/blog/how-to-apply-for-fedex-delivery-jobs-in-the-usa">How to Apply for FedEx Delivery Jobs in the USA</a> &mdash; and how to tell a real FedEx job from a contractor advert.</li>
+    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a>: the EB-3 and H-2B routes, and what they cannot do for a driver.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: van and app-based work on an ordinary licence, and what your own car costs per mile.</li>
+    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a>: passenger driving with a provincial licence and Job Bank pay figures.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: where the genuine entry-level visa routes actually are.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: manual work and the visa categories that reach it.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: the depot end of the freight chain, in Britain.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: driving work on a sponsored Gulf contract instead.</li>
+    <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a>: passenger driving and the accreditation it needs.</li>
+    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a>: warehouse work at the other end of the load, and the OSHA training rule.</li>
+    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a>: the permit, ELDT training, the 14-day rule and what the first year pays.</li>
+    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a>: the CE licence and code 95 rules, official pay and the driver visa route.</li>
+    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a>: warehouse work where a union contract publishes the wage scale.</li>
+    <li><a href="/blog/how-to-apply-for-fedex-delivery-jobs-in-the-usa">How to Apply for FedEx Delivery Jobs in the USA</a>, and how to tell a real FedEx job from a contractor advert.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or immigration advice. Federal regulations, wage data and state licensing rules change. Confirm the current position with the FMCSA, the Bureau of Labor Statistics, your state licensing agency and the employer's own advertisement before applying.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Law Enforcement Jobs in USA" — the overview of every law enforcement
+ * "Law Enforcement Jobs in USA": the overview of every law enforcement
  * career path: patrol, detective, transit police, fish and game warden,
  * federal agent and civilian roles. The police officer guide owns state pay
  * and non-citizen hiring, and the federal police guide owns federal pay and
@@ -163,7 +163,7 @@ class LawEnforcementJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, eligibility and hiring rules are set by each agency and by federal and state law &mdash; not by JobGader. Read the official job announcement before applying.</p>
+<p><strong>Note:</strong> pay, eligibility and hiring rules are set by each agency and by federal and state law, not by JobGader. Read the official job announcement before applying.</p>
 JOBHTML;
     }
 
@@ -371,7 +371,7 @@ JOBHTML;
 
 <ul>
     <li><strong>911 dispatcher or police communications technician</strong>;</li>
-    <li><strong>Intelligence analyst</strong> &mdash; see <a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a>;</li>
+    <li><strong>Intelligence analyst</strong>: see <a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a>;</li>
     <li><strong>Forensic specialist</strong> or DEA forensic chemist;</li>
     <li><strong>Diversion investigator</strong> at the DEA;</li>
     <li><strong>Evidence and property control, traffic enforcement and school safety</strong> jobs at city police departments;</li>
@@ -436,12 +436,12 @@ JOBHTML;
 <p>Comparing public safety careers? These go deeper:</p>
 
 <ul>
-    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a> &mdash; state pay, the citizenship and firearms rules and what disqualifies applicants.</li>
-    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a> &mdash; FBI, CBP, ICE and US Marshals pay, availability pay and age limits.</li>
-    <li><a href="/blog/emergency-dispatcher-jobs-in-usa">Emergency Dispatcher Jobs in USA</a> &mdash; 911 pay, typing tests and the civilian route into public safety.</li>
-    <li><a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a> &mdash; the analyst side of federal security work.</li>
-    <li><a href="/blog/public-safety-jobs-in-canada">Public Safety Jobs in Canada</a> &mdash; CBSA, RCMP, Correctional Service Canada and emergency management careers.</li>
-    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a> &mdash; federal and provincial corrections routes.</li>
+    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a>: state pay, the citizenship and firearms rules and what disqualifies applicants.</li>
+    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a>: FBI, CBP, ICE and US Marshals pay, availability pay and age limits.</li>
+    <li><a href="/blog/emergency-dispatcher-jobs-in-usa">Emergency Dispatcher Jobs in USA</a>: 911 pay, typing tests and the civilian route into public safety.</li>
+    <li><a href="/blog/intelligence-analyst-jobs-in-usa">Intelligence Analyst Jobs in USA</a>: the analyst side of federal security work.</li>
+    <li><a href="/blog/public-safety-jobs-in-canada">Public Safety Jobs in Canada</a>: CBSA, RCMP, Correctional Service Canada and emergency management careers.</li>
+    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a>: federal and provincial corrections routes.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using the BLS Occupational Outlook Handbook, NYPD, FBI and DEA career pages. Pay, requirements and exam dates change and differ by agency. Always read the current official job announcement before applying.</p>

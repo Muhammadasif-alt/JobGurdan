@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in New York — City, Upstate and Pay | JobGader')
+@section('title', 'Jobs in New York: City, Upstate and Pay | JobGader')
 @section('meta_description', 'Jobs in New York: how the city and upstate job markets differ, what finance, healthcare and hospitality pay, and how far a salary goes.')
-@section('og_title', 'Jobs in New York — City, Upstate and Pay | JobGader')
+@section('og_title', 'Jobs in New York: City, Upstate and Pay | JobGader')
 @section('og_description', 'Jobs in New York: how the city and upstate job markets differ, what finance, healthcare and hospitality pay, and how far a salary goes.')
 @section('canonical', url()->current())
 
@@ -31,7 +31,7 @@
                 'title' => 'Cost Is the Deciding Factor',
                 'paragraphs' => [
                     'New York City housing costs are among the highest in the country and the state levies personal income tax, with the city adding its own on top for residents. A salary that sounds strong nationally can be tight in Manhattan or Brooklyn.',
-                    'Upstate cities — Buffalo, Rochester, Syracuse, Albany — offer far lower costs and a stable healthcare and education job base, which is why they suit different candidates entirely rather than being a lesser version of the city.',
+                    'Upstate cities, Buffalo, Rochester, Syracuse, Albany, offer far lower costs and a stable healthcare and education job base, which is why they suit different candidates entirely rather than being a lesser version of the city.',
                 ],
             ],
         ],

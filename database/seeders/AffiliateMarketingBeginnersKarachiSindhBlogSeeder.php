@@ -217,9 +217,9 @@ class AffiliateMarketingBeginnersKarachiSindhBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/online-jobs-in-usa-for-pakistanis-remote-work">Online Jobs in USA for Pakistanis</a> &mdash; getting paid from abroad and spotting fake offers.</li>
-    <li><a href="/blog/freelance-writing-jobs-nairobi-kenya">Freelance Writing Jobs in Nairobi, Kenya</a> &mdash; platform fees and getting a first client.</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a> &mdash; check this before you send money or documents.</li>
+    <li><a href="/blog/online-jobs-in-usa-for-pakistanis-remote-work">Online Jobs in USA for Pakistanis</a>: getting paid from abroad and spotting fake offers.</li>
+    <li><a href="/blog/freelance-writing-jobs-nairobi-kenya">Freelance Writing Jobs in Nairobi, Kenya</a>: platform fees and getting a first client.</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or career advice. Reviewed on 22 October 2026 against the pages named in Sources. It does not promise a vacancy, a reward, an income or an offer, and programme rules can change.</p>

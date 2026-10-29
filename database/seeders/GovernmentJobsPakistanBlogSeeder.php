@@ -13,12 +13,12 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Government Jobs in Pakistan" — a sector guide rather than one vacancy, so
+ * "Government Jobs in Pakistan": a sector guide rather than one vacancy, so
  * the apply link goes to an Indeed search and the post carries no JobPosting
  * markup.
  *
  * The distinction the guide is built around is BPS against PPS. Every role
- * people find under this keyword on the job boards is PPS — a project post,
+ * people find under this keyword on the job boards is PPS: a project post,
  * hired directly by the ministry, fixed to the life of the project and outside
  * the civil-service pension. The permanence and pension this keyword is
  * searched for belong to BPS posts, which are recruited through FPSC and PPSC
@@ -63,7 +63,7 @@ class GovernmentJobsPakistanBlogSeeder extends Seeder
                 'content' => $content,
                 'featured_image' => 'blogs/government-jobs-in-pakistan.jpg',
                 'tags' => 'government jobs in pakistan, federal government jobs in pakistan, government jobs in pakistan for female, government jobs in pakistan punjab, fpsc jobs, ppsc jobs, pps scale jobs, bps scale jobs, government jobs online apply pakistan, matric base government jobs',
-                'meta_title' => 'Government Jobs in Pakistan — BPS vs PPS Explained',
+                'meta_title' => 'Government Jobs in Pakistan: BPS vs PPS Explained',
                 'meta_description' => 'Government jobs in Pakistan: why most advertised roles are PPS project posts with no pension, how FPSC and PPSC differ from direct hiring, and how to apply.',
                 'reading_time' => max(1, (int) ceil(str_word_count(strip_tags($content)) / 200)),
                 'status' => 'published',
@@ -119,14 +119,14 @@ class GovernmentJobsPakistanBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>Federal boards, ministries and provincial departments across Pakistan advertise continuously &mdash; policy and research officers, project and finance managers, monitoring and evaluation staff, IT and telecom specialists, communications roles and internships, alongside the permanent civil-service seats filled through competitive examination.</p>
+<p>Federal boards, ministries and provincial departments across Pakistan advertise continuously: policy and research officers, project and finance managers, monitoring and evaluation staff, IT and telecom specialists, communications roles and internships, alongside the permanent civil-service seats filled through competitive examination.</p>
 
 <h3>Which scale you are hired on matters more than the job title</h3>
-<p>Check this before you apply. A <strong>BPS (Basic Pay Scale)</strong> post is the regular civil service: permanent, pensionable, with seniority and a defined promotion path, recruited through the <strong>FPSC</strong> federally or the relevant <strong>Provincial Public Service Commission</strong>. A <strong>PPS (Project Pay Scale)</strong> post belongs to a development project: hired directly by the ministry or board, fixed to the life of that project, normally without the civil-service pension or seniority. The pay on a PPS post is often higher than the equivalent BPS grade &mdash; that is the trade for the security you are giving up. Almost every vacancy people find under &quot;government jobs&quot; on the job boards is PPS.</p>
+<p>Check this before you apply. A <strong>BPS (Basic Pay Scale)</strong> post is the regular civil service: permanent, pensionable, with seniority and a defined promotion path, recruited through the <strong>FPSC</strong> federally or the relevant <strong>Provincial Public Service Commission</strong>. A <strong>PPS (Project Pay Scale)</strong> post belongs to a development project: hired directly by the ministry or board, fixed to the life of that project, normally without the civil-service pension or seniority. The pay on a PPS post is often higher than the equivalent BPS grade: that is the trade for the security you are giving up. Almost every vacancy people find under &quot;government jobs&quot; on the job boards is PPS.</p>
 
 <h3>Requirements</h3>
 <ul>
-    <li>Qualification and experience matching the exact scale on the advertisement &mdash; applications outside the stated criteria are rejected at screening</li>
+    <li>Qualification and experience matching the exact scale on the advertisement: applications outside the stated criteria are rejected at screening</li>
     <li>CNIC, updated CV, attested degree and transcript copies, and a domicile certificate</li>
     <li>For BPS posts, registration and the written examination through FPSC or the provincial commission</li>
     <li>For PPS and contract posts, application through the board or ministry's own careers portal</li>
@@ -142,16 +142,16 @@ class GovernmentJobsPakistanBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Apply only through the official portal named on the advertisement</strong> &mdash; FPSC or the provincial commission for civil-service posts, or the board or ministry's own careers page for project roles. No genuine government recruitment asks for a payment to shortlist you, and the fee for an FPSC or PPSC application is paid to the commission through a bank challan, never to a person. Keep your tracking number; it is what you need to check your shortlist status later.</p>
+<p><strong>Apply only through the official portal named on the advertisement</strong>: FPSC or the provincial commission for civil-service posts, or the board or ministry's own careers page for project roles. No genuine government recruitment asks for a payment to shortlist you, and the fee for an FPSC or PPSC application is paid to the commission through a bank challan, never to a person. Keep your tracking number; it is what you need to check your shortlist status later.</p>
 
-<p><strong>Note:</strong> scales, closing dates and eligibility are set by the recruiting department &mdash; not by JobGader. Verify each vacancy on the official portal before applying.</p>
+<p><strong>Note:</strong> scales, closing dates and eligibility are set by the recruiting department, not by JobGader. Verify each vacancy on the official portal before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Government jobs remain the most searched career path in Pakistan, and the reasons people give are always the same three: security, a defined pay scale, and a pension. What almost nobody explains is that the vacancies you actually find under this search &mdash; the project officer, the research officer, the finance manager on a board &mdash; usually offer none of those three. They sit on a different scale entirely. This guide starts there, because getting it wrong is what makes people take a job they thought was permanent and find out otherwise.</p>
+<p>Government jobs remain the most searched career path in Pakistan, and the reasons people give are always the same three: security, a defined pay scale, and a pension. What almost nobody explains is that the vacancies you actually find under this search, the project officer, the research officer, the finance manager on a board, usually offer none of those three. They sit on a different scale entirely. This guide starts there, because getting it wrong is what makes people take a job they thought was permanent and find out otherwise.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/government-public-sector?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -164,11 +164,11 @@ JOBHTML;
 <p>Read this before any listing. Two people can both say they work a government job in Pakistan and be in completely different positions:</p>
 
 <ul>
-    <li><strong>BPS &mdash; Basic Pay Scale.</strong> The regular civil service. Permanent appointment, pension, seniority and a defined promotion ladder. Recruited through the <strong>Federal Public Service Commission (FPSC)</strong> federally, or the relevant <strong>Provincial Public Service Commission</strong> &mdash; PPSC in Punjab, SPSC in Sindh, KPPSC in Khyber Pakhtunkhwa, BPSC in Balochistan. Entry is by advertised competition and, for most grades, a written examination.</li>
-    <li><strong>PPS &mdash; Project Pay Scale.</strong> A post attached to a specific development project. Hired directly by the ministry or board that runs the project, on a contract fixed to that project's life, normally without the civil-service pension or seniority. There is usually no commission examination; you are shortlisted and interviewed by the organisation itself.</li>
+    <li><strong>BPS: Basic Pay Scale.</strong> The regular civil service. Permanent appointment, pension, seniority and a defined promotion ladder. Recruited through the <strong>Federal Public Service Commission (FPSC)</strong> federally, or the relevant <strong>Provincial Public Service Commission</strong>: PPSC in Punjab, SPSC in Sindh, KPPSC in Khyber Pakhtunkhwa, BPSC in Balochistan. Entry is by advertised competition and, for most grades, a written examination.</li>
+    <li><strong>PPS: Project Pay Scale.</strong> A post attached to a specific development project. Hired directly by the ministry or board that runs the project, on a contract fixed to that project's life, normally without the civil-service pension or seniority. There is usually no commission examination; you are shortlisted and interviewed by the organisation itself.</li>
 </ul>
 
-<p>Neither is a lesser job, and PPS pay is frequently <em>higher</em> than the equivalent BPS grade &mdash; that is the trade you are being offered for the security you give up. But a PPS-9 contract is not the pensionable government seat that this keyword is usually searched for. If an advertisement says PPS, read it as a fixed-term specialist contract with the government, and ask what happens at the end of the project.</p>
+<p>Neither is a lesser job, and PPS pay is frequently <em>higher</em> than the equivalent BPS grade: that is the trade you are being offered for the security you give up. But a PPS-9 contract is not the pensionable government seat that this keyword is usually searched for. If an advertisement says PPS, read it as a fixed-term specialist contract with the government, and ask what happens at the end of the project.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/government-jobs-in-pakistan-islamabad.jpg"
@@ -178,7 +178,7 @@ JOBHTML;
 
 <h2>What Federal Roles Actually Look Like</h2>
 
-<p>The table below is a snapshot of roles that federal boards and ministries were advertising at the time of writing, with the number of applications each had already drawn on Indeed. It is here to show the shape of the market &mdash; the scales used, the experience asked for, and how heavily each level is contested &mdash; not as a live vacancy list. Individual posts close, and the counts move daily. Use the search link for what is open today.</p>
+<p>The table below is a snapshot of roles that federal boards and ministries were advertising at the time of writing, with the number of applications each had already drawn on Indeed. It is here to show the shape of the market, the scales used, the experience asked for, and how heavily each level is contested, not as a live vacancy list. Individual posts close, and the counts move daily. Use the search link for what is open today.</p>
 
 <table>
     <thead>
@@ -203,7 +203,7 @@ JOBHTML;
     </tbody>
 </table>
 
-<p>Two things are worth reading off that table. <strong>Every one of these is PPS</strong> &mdash; project posts, not civil-service seats, which is exactly the confusion this guide opened with. And <strong>competition is inverted</strong>: the entry-level research officer and internship drew 481 and 474 applications, while the senior specialist roles drew ten to twenty. The bottleneck in Pakistani public-sector hiring is not that there are no jobs; it is that everyone applies to the same handful of entry-level ones.</p>
+<p>Two things are worth reading off that table. <strong>Every one of these is PPS</strong>: project posts, not civil-service seats, which is exactly the confusion this guide opened with. And <strong>competition is inverted</strong>: the entry-level research officer and internship drew 481 and 474 applications, while the senior specialist roles drew ten to twenty. The bottleneck in Pakistani public-sector hiring is not that there are no jobs; it is that everyone applies to the same handful of entry-level ones.</p>
 
 <p>The practical read: if you have five or more years in a specialist area, your odds on a PPS-9 post are far better than the general mood around government hiring suggests.</p>
 
@@ -213,21 +213,21 @@ JOBHTML;
 
 <ul>
     <li><strong>FPSC</strong> handles the permanent civil-service (BPS) posts, including the CSS competitive examination and the departmental posts advertised in the commission's consolidated advertisements. You register on the FPSC portal, pay the fee by bank challan, and sit the written test.</li>
-    <li><strong>Direct ministry and board hiring</strong> covers PPS and other contract posts &mdash; PSEB, MOITT, the Planning Ministry and similar. These are advertised on the organisation's own careers page and in the press, skip the commission examination, and move straight to shortlisting and interview. That is why they close faster.</li>
+    <li><strong>Direct ministry and board hiring</strong> covers PPS and other contract posts: PSEB, MOITT, the Planning Ministry and similar. These are advertised on the organisation's own careers page and in the press, skip the commission examination, and move straight to shortlisting and interview. That is why they close faster.</li>
 </ul>
 
 <p>If you are aiming at a permanent seat, your route is the commission and its examination calendar. If you are aiming at specialist project work, watch the boards' own portals, because those vacancies come and go inside a few weeks.</p>
 
 <h2>Government Jobs in Pakistan for Female Candidates</h2>
 
-<p>A women's quota applies to federal recruitment and to the provincial services, and the reserved share is not the same in each &mdash; the federal quota is commonly applied at 10% and Punjab's at 15%, but the figure that governs your application is the one printed on the advertisement itself. Two things about it are widely misunderstood:</p>
+<p>A women's quota applies to federal recruitment and to the provincial services, and the reserved share is not the same in each: the federal quota is commonly applied at 10% and Punjab's at 15%, but the figure that governs your application is the one printed on the advertisement itself. Two things about it are widely misunderstood:</p>
 
 <ul>
     <li><strong>It is a floor, not a ceiling.</strong> Women compete on merit for the open seats as well; the quota only guarantees a minimum share. Being selected on merit does not consume a quota seat.</li>
     <li><strong>It has to be claimed correctly on the form.</strong> If the application asks which quota you are applying against, answer it. A blank field is not treated as a claim.</li>
 </ul>
 
-<p>Policy, research and communications roles in the federal boards and ministries draw a large share of women applicants, and the interview-only PPS route avoids the examination scheduling that makes the commission path harder to fit around other commitments. Field-heavy specialist posts &mdash; maritime, regional connectivity, infrastructure &mdash; carry travel that is worth clarifying at interview rather than assuming either way.</p>
+<p>Policy, research and communications roles in the federal boards and ministries draw a large share of women applicants, and the interview-only PPS route avoids the examination scheduling that makes the commission path harder to fit around other commitments. Field-heavy specialist posts, maritime, regional connectivity, infrastructure, carry travel that is worth clarifying at interview rather than assuming either way.</p>
 
 <h2>Government Jobs in Punjab</h2>
 
@@ -235,7 +235,7 @@ JOBHTML;
 
 <h2>Matric-Base and Entry-Level Government Jobs</h2>
 
-<p>Not every government post needs a degree. Clerical, dispatch, driver, naib qasid and support-staff positions across ministries and departments are advertised regularly for matric and intermediate candidates, and these sit in the lower <strong>BPS</strong> grades &mdash; roughly BPS-1 to BPS-5 &mdash; which means they are the permanent, pensionable kind rather than project contracts.</p>
+<p>Not every government post needs a degree. Clerical, dispatch, driver, naib qasid and support-staff positions across ministries and departments are advertised regularly for matric and intermediate candidates, and these sit in the lower <strong>BPS</strong> grades, roughly BPS-1 to BPS-5, which means they are the permanent, pensionable kind rather than project contracts.</p>
 
 <p>They are also the most heavily contested vacancies in the country. Expect thousands of applications for a handful of seats, expect a written test even for support roles, and apply to every relevant advertisement rather than waiting for the ideal one.</p>
 
@@ -249,10 +249,10 @@ JOBHTML;
 
 <ol>
     <li><strong>Match yourself against the exact scale.</strong> Qualification and years of experience are screened mechanically against what the advertisement states. Applying one grade above your eligibility is a wasted application, not an ambitious one.</li>
-    <li><strong>Prepare the documents before you open the form</strong> &mdash; CNIC, updated CV, attested degree and transcripts, domicile certificate, and a recent photograph at the size the portal specifies.</li>
+    <li><strong>Prepare the documents before you open the form</strong>: CNIC, updated CV, attested degree and transcripts, domicile certificate, and a recent photograph at the size the portal specifies.</li>
     <li><strong>Use the official channel named on the advertisement.</strong> FPSC or your provincial commission for civil-service posts; the board or ministry's own careers page for project roles. Third-party sites that offer to submit on your behalf are not part of the process.</li>
     <li><strong>Pay any fee the way the advertisement says.</strong> Commission fees are paid by bank challan to the commission. Nobody in a genuine process asks you to pay a person to be shortlisted.</li>
-    <li><strong>Check the closing date on the advertisement itself.</strong> Portals close at the stated deadline. Extensions do happen, but they are announced on the same portal &mdash; never plan around one.</li>
+    <li><strong>Check the closing date on the advertisement itself.</strong> Portals close at the stated deadline. Extensions do happen, but they are announced on the same portal: never plan around one.</li>
     <li><strong>Save your tracking or roll number.</strong> It is how you check shortlisting, download the admit card, and follow the result.</li>
 </ol>
 
@@ -271,7 +271,7 @@ JOBHTML;
 <p>No. PSEB, MOITT and Planning Ministry project posts are hired directly by the organisation. You apply on their careers portal and go to shortlisting and interview without a commission examination.</p>
 
 <h3>Are government jobs in Pakistan open to female candidates in every department?</h3>
-<p>Yes, and a women's quota applies across federal and provincial recruitment. The reserved share differs between the federal government and each province, so read the figure on the advertisement. The quota is a minimum, not a limit &mdash; women are also selected on merit against the open seats.</p>
+<p>Yes, and a women's quota applies across federal and provincial recruitment. The reserved share differs between the federal government and each province, so read the figure on the advertisement. The quota is a minimum, not a limit: women are also selected on merit against the open seats.</p>
 
 <h3>Where do I check the last date to apply?</h3>
 <p>On the advertisement itself, and on the portal you are applying through. Dates are occasionally extended and occasionally brought forward, so secondhand listings are not reliable for deadlines.</p>
@@ -319,16 +319,16 @@ JOBHTML;
 <p>Looking at private-sector and overseas options alongside the public sector? These cover the rest:</p>
 
 <ul>
-    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a> &mdash; what entry-level private pay really is, and the minimum wage floor an offer has to clear.</li>
-    <li><a href="/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern">Senior Frontend Developer at ERS Tech, Lahore</a> &mdash; what a mid-senior engineering seat in Lahore actually asks for and pays.</li>
-    <li><a href="/blog/digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan">Digital Marketing Expert (SEO) &mdash; Remote, Pakistan</a> &mdash; a remote private-sector route out of the same graduate pool.</li>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; the Gulf route, and how Saudi sponsorship is really processed.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; giga-project hiring from trades to project management.</li>
-    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; the Data Entry Operator post, its grade range and the practical test.</li>
-    <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a> &mdash; public school teaching, and why a government school post is not always a government job.</li>
+    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a>: what entry-level private pay really is, and the minimum wage floor an offer has to clear.</li>
+    <li><a href="/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern">Senior Frontend Developer at ERS Tech, Lahore</a>: what a mid-senior engineering seat in Lahore actually asks for and pays.</li>
+    <li><a href="/blog/digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan">Digital Marketing Expert (SEO), Remote, Pakistan</a>, a remote private-sector route out of the same graduate pool.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: the Gulf route, and how Saudi sponsorship is really processed.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: giga-project hiring from trades to project management.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a>: the Data Entry Operator post, its grade range and the practical test.</li>
+    <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a>: public school teaching, and why a government school post is not always a government job.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Scales, quotas, age limits and closing dates are set by the recruiting department and change &mdash; confirm every requirement on the official advertisement and on the FPSC or provincial commission portal before applying or paying any fee.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Scales, quotas, age limits and closing dates are set by the recruiting department and change: confirm every requirement on the official advertisement and on the FPSC or provincial commission portal before applying or paying any fee.</p>
 HTML;
     }
 }

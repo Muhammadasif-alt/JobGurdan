@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Amazon Fulfillment Center Jobs in USA" — unusual among
+ * "How to Apply for Amazon Fulfillment Center Jobs in USA": unusual among
  * these employer guides because Amazon does publish its pay. The honest
  * complication is who can take the job: these are in-person US roles that
  * require existing US work authorisation, and Amazon shows no sponsorship
@@ -167,7 +167,7 @@ class AmazonFulfillmentCenterJobsUsaBlogSeeder extends Seeder
 <h3>Fraud warning</h3>
 <p>Amazon states that all genuine Amazon job opportunities are posted on its official job board, and that Amazon will never ask you to provide payment information for products or services.</p>
 
-<p>Pay, shift bands, benefits terms and work-authorisation rules are set by Amazon, the US Department of Labor and USCIS &mdash; not by JobGader. Confirm the rate and the requirements on the live posting for the site you are applying to.</p>
+<p>Pay, shift bands, benefits terms and work-authorisation rules are set by Amazon, the US Department of Labor and USCIS, not by JobGader. Confirm the rate and the requirements on the live posting for the site you are applying to.</p>
 JOBHTML;
     }
 
@@ -264,10 +264,10 @@ JOBHTML;
 <p>Amazon's benefits are genuinely strong, but the phrase "from day one" is doing a lot of work in most articles. Amazon's own benefits page gates several of them behind 90 days:</p>
 
 <ul>
-    <li><strong>Healthcare</strong> &mdash; Amazon describes an Essential Plan at $5 a week with $5 copays for regular full-time employees.</li>
-    <li><strong>Medical Advice Line</strong> &mdash; access to nurses, which Amazon states is available starting on day 1 at no cost.</li>
-    <li><strong>Career Choice</strong> &mdash; prepaid tuition of up to $5,250 a year through more than 475 education partners. Amazon's benefits page states this is <strong>after 90 days of employment</strong>.</li>
-    <li><strong>Dental and vision</strong> &mdash; also <strong>after 90 days</strong>, and covering the employee only.</li>
+    <li><strong>Healthcare</strong>: Amazon describes an Essential Plan at $5 a week with $5 copays for regular full-time employees.</li>
+    <li><strong>Medical Advice Line</strong>: access to nurses, which Amazon states is available starting on day 1 at no cost.</li>
+    <li><strong>Career Choice</strong>: prepaid tuition of up to $5,250 a year through more than 475 education partners. Amazon's benefits page states this is <strong>after 90 days of employment</strong>.</li>
+    <li><strong>Dental and vision</strong>: also <strong>after 90 days</strong>, and covering the employee only.</li>
     <li><strong>401(k)</strong> with company match, paid parental leave, flexible time off and 24/7 mental health support.</li>
 </ul>
 
@@ -303,7 +303,7 @@ JOBHTML;
 <h2>The Scam Warning, in Amazon's Own Words</h2>
 
 <blockquote style="border-left:4px solid #b3151a;padding:12px 18px;margin:20px 0;background:#fafafa;color:#374151;">
-    "Scammers contact people unexpectedly pretending to be recruiters and offering resume review services for a fee. This isn't how legitimate hiring works." &mdash; and &mdash; "All genuine Amazon job opportunities are posted on our official job board at www.amazon.jobs."
+    "Scammers contact people unexpectedly pretending to be recruiters and offering resume review services for a fee. This isn't how legitimate hiring works.", and, "All genuine Amazon job opportunities are posted on our official job board at www.amazon.jobs."
 </blockquote>
 
 <p>Amazon also states it will never ask you to provide payment information, including gift cards, for products or services. A recruiter asking for a fee to place you in an Amazon warehouse is not connected to Amazon.</p>
@@ -365,16 +365,16 @@ JOBHTML;
 <p>Comparing large US employers, or looking for the route that fits your situation? These cover the ground:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a> &mdash; the other giant US hourly employer, compared honestly.</li>
-    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; where PIT certification actually takes you.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; the route that does require an interview.</li>
-    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a> &mdash; if you want off the warehouse floor.</li>
-    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a> &mdash; an employer that publishes no pay at all.</li>
-    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a> &mdash; a supermarket that publishes its rate and pays it at every age.</li>
-    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a> &mdash; factory work with a published hourly range and stock awards.</li>
-    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a> &mdash; warehouse work where a union contract publishes the wage scale.</li>
-    <li><a href="/blog/how-to-apply-for-fedex-delivery-jobs-in-the-usa">How to Apply for FedEx Delivery Jobs in the USA</a> &mdash; and how to tell a real FedEx job from a contractor advert.</li>
-    <li><a href="/blog/how-to-apply-for-home-depot-retail-jobs-in-the-usa">How to Apply for Home Depot Retail Jobs in the USA</a> &mdash; store pay Home Depot prints itself, and the route from hourly to store leader.</li>
+    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a>: the other giant US hourly employer, compared honestly.</li>
+    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a>: where PIT certification actually takes you.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: the route that does require an interview.</li>
+    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a>: if you want off the warehouse floor.</li>
+    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a>: an employer that publishes no pay at all.</li>
+    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a>: a supermarket that publishes its rate and pays it at every age.</li>
+    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a>: factory work with a published hourly range and stock awards.</li>
+    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a>: warehouse work where a union contract publishes the wage scale.</li>
+    <li><a href="/blog/how-to-apply-for-fedex-delivery-jobs-in-the-usa">How to Apply for FedEx Delivery Jobs in the USA</a>, and how to tell a real FedEx job from a contractor advert.</li>
+    <li><a href="/blog/how-to-apply-for-home-depot-retail-jobs-in-the-usa">How to Apply for Home Depot Retail Jobs in the USA</a>: store pay Home Depot prints itself, and the route from hourly to store leader.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Amazon's own newsroom announcement of 16 September 2026, its hiring and benefits pages, US Bureau of Labor Statistics occupational data and US Citizenship and Immigration Services guidance, checked on 21 September 2026. Amazon's pay varies by site and shift, its benefits terms change, and immigration rules change. Always check the live posting and the official government source before acting.</p>

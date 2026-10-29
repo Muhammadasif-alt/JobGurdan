@@ -297,9 +297,9 @@ JOBHTML;
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/warehouse-worker-salary-usa-2026">Warehouse Worker Salary in USA (2026)</a> &mdash; the BLS pay breakdown.</li>
-    <li><a href="/blog/how-to-get-warehouse-worker-job-usa-from-pakistan-2026">How to Get a Warehouse Worker Job in USA From Pakistan</a> &mdash; the step-by-step process.</li>
-    <li><a href="/blog/landscaper-jobs-usa-visa-sponsorship-2026">Landscaper Jobs in USA With Visa Sponsorship (2026)</a> &mdash; the same H-2B route for outdoor work.</li>
+    <li><a href="/blog/warehouse-worker-salary-usa-2026">Warehouse Worker Salary in USA (2026)</a>: the BLS pay breakdown.</li>
+    <li><a href="/blog/how-to-get-warehouse-worker-job-usa-from-pakistan-2026">How to Get a Warehouse Worker Job in USA From Pakistan</a>: the step-by-step process.</li>
+    <li><a href="/blog/landscaper-jobs-usa-visa-sponsorship-2026">Landscaper Jobs in USA With Visa Sponsorship (2026)</a>: the same H-2B route for outdoor work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Wage figures are from the US Bureau of Labor Statistics, May 2025 national estimates; visa rules are drawn from the US Department of Labor, USCIS and the Department of Homeland Security, reviewed on 8 October 2026. It does not confirm cap availability or that a visa will be issued to any individual applicant.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "EV Technician Jobs: Training and Career Guide" — the electric vehicle page
+ * "EV Technician Jobs: Training and Career Guide": the electric vehicle page
  * of the mechanic cluster, built on the IEA Global EV Outlook 2026, BLS OEWS
  * May 2025, the NAVTTC course catalogue and the IMI's high-voltage
  * qualification framework.
@@ -185,10 +185,10 @@ JOBHTML;
 <p>The Institute of the Motor Industry (IMI) electric and hybrid vehicle qualifications are the recognised UK credentials for high-voltage work, and its <strong>IMI TechSafe</strong> standard records who is qualified at which level:</p>
 
 <ul>
-    <li><strong>Level 1</strong> &mdash; awareness, for anyone who works around electric vehicles, such as valeters and service advisers.</li>
-    <li><strong>Level 2</strong> &mdash; routine maintenance on a vehicle whose high-voltage system has been made safe.</li>
-    <li><strong>Level 3</strong> &mdash; isolating, de-energising and repairing high-voltage systems. This is what most EV technician jobs ask for.</li>
-    <li><strong>Level 4</strong> &mdash; working on live high-voltage components, diagnosis and battery repair.</li>
+    <li><strong>Level 1</strong>: awareness, for anyone who works around electric vehicles, such as valeters and service advisers.</li>
+    <li><strong>Level 2</strong>: routine maintenance on a vehicle whose high-voltage system has been made safe.</li>
+    <li><strong>Level 3</strong>: isolating, de-energising and repairing high-voltage systems. This is what most EV technician jobs ask for.</li>
+    <li><strong>Level 4</strong>: working on live high-voltage components, diagnosis and battery repair.</li>
 </ul>
 
 <p>A mechanic already qualified at Level 3 in light vehicles can usually add the EV levels through short courses, often paid for by the employer.</p>
@@ -275,11 +275,11 @@ JOBHTML;
 <p>The rest of the mechanic cluster and related trades:</p>
 
 <ul>
-    <li><a href="/blog/car-mechanic-jobs-in-australia-uk-and-canada">Car Mechanic Jobs in Australia, UK and Canada</a> &mdash; skills assessment and certification in each country.</li>
-    <li><a href="/blog/mechanic-salary-by-country">Mechanic Salary by Country</a> &mdash; official pay figures compared.</li>
-    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a> &mdash; charger installation is electrical work.</li>
-    <li><a href="/blog/industrial-vs-house-wiring-electrician-which-pays-more">Industrial vs House Wiring Electrician: Which Pays More</a> &mdash; the electrical side of the switch to EVs.</li>
-    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a> &mdash; the apprenticeship route.</li>
+    <li><a href="/blog/car-mechanic-jobs-in-australia-uk-and-canada">Car Mechanic Jobs in Australia, UK and Canada</a>: skills assessment and certification in each country.</li>
+    <li><a href="/blog/mechanic-salary-by-country">Mechanic Salary by Country</a>: official pay figures compared.</li>
+    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a>: charger installation is electrical work.</li>
+    <li><a href="/blog/industrial-vs-house-wiring-electrician-which-pays-more">Industrial vs House Wiring Electrician: Which Pays More</a>: the electrical side of the switch to EVs.</li>
+    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a>: the apprenticeship route.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not career, legal or immigration advice. Market figures are from the IEA Global EV Outlook 2026 and US pay from BLS OEWS May 2025. Confirm course details with NAVTTC and qualification levels with the IMI.</p>

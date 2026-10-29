@@ -230,9 +230,9 @@ class CaregiverJobsUsaVisaSponsorshipBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/how-to-get-warehouse-worker-job-usa-from-pakistan-2026">How to Get a Warehouse Worker Job in USA From Pakistan</a> &mdash; how the H-2B process works for Pakistani applicants.</li>
-    <li><a href="/blog/hotel-housekeeper-jobs-usa-visa-sponsorship-2026">Hotel Housekeeper Jobs in USA With Visa Sponsorship (2026)</a> &mdash; another service job with H-2B rules.</li>
-    <li><a href="/blog/truck-driver-salary-usa-2026">Truck Driver Salary in USA (2026)</a> &mdash; pay data for another US occupation.</li>
+    <li><a href="/blog/how-to-get-warehouse-worker-job-usa-from-pakistan-2026">How to Get a Warehouse Worker Job in USA From Pakistan</a>: how the H-2B process works for Pakistani applicants.</li>
+    <li><a href="/blog/hotel-housekeeper-jobs-usa-visa-sponsorship-2026">Hotel Housekeeper Jobs in USA With Visa Sponsorship (2026)</a>: another service job with H-2B rules.</li>
+    <li><a href="/blog/truck-driver-salary-usa-2026">Truck Driver Salary in USA (2026)</a>: pay data for another US occupation.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Wage figures are from the US Bureau of Labor Statistics, May 2025 national and state estimates for occupation 31-1120; the Visa Bulletin date is from the October 2026 bulletin; both were reviewed on 9 October 2026. PKR conversions are editorial examples, not official statistics or job offers. Check current rules with USCIS and the Department of State before you act.</p>

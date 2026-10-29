@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Jobs in UK for Foreigners" — the hub guide to working in the UK without
+ * "Jobs in UK for Foreigners": the hub guide to working in the UK without
  * British or Irish citizenship. The occupation guides (care, healthcare
  * assistant, IT support, teaching, cook, warehouse) each own their own
  * sponsorship detail; this one owns the visa routes side by side, the
@@ -99,7 +99,7 @@ class JobsInUkForForeignersBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'UK Licensed Sponsors — NHS Trusts, Tech, Engineering & Schools (Aggregated)'],
+            ['name' => 'UK Licensed Sponsors: NHS Trusts, Tech, Engineering & Schools (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'uk-foreign-workers-aggregated']
         );
 
@@ -164,7 +164,7 @@ class JobsInUkForForeignersBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check that the employer is on the register of licensed sponsors,</strong> and never pay a recruiter or employer for a certificate of sponsorship.</p>
 
-<p><strong>Note:</strong> visa rules, salary thresholds and fees are set by the Home Office &mdash; not by JobGader. Confirm the current rules on gov.uk before applying.</p>
+<p><strong>Note:</strong> visa rules, salary thresholds and fees are set by the Home Office, not by JobGader. Confirm the current rules on gov.uk before applying.</p>
 JOBHTML;
     }
 
@@ -346,38 +346,38 @@ JOBHTML;
 <p>Looking at a specific UK job? These cover the sponsorship detail:</p>
 
 <ul>
-    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a> &mdash; the employer side: the sponsor register, ratings, the Certificate of Sponsorship and who pays what.</li>
-    <li><a href="/blog/vacancies-in-london">Vacancies in London</a> &mdash; the London market, the statutory pay floors and the right-to-work check.</li>
-    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; university teaching by the hour, and why the salary floor puts it out of sponsorship reach.</li>
-    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the honorary title that is not a job and carries no visa route.</li>
+    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a>: the employer side: the sponsor register, ratings, the Certificate of Sponsorship and who pays what.</li>
+    <li><a href="/blog/vacancies-in-london">Vacancies in London</a>: the London market, the statutory pay floors and the right-to-work check.</li>
+    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a>: university teaching by the hour, and why the salary floor puts it out of sponsorship reach.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a>: the honorary title that is not a job and carries no visa route.</li>
 </ul>
 
 <ul>
-    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; which health care support roles can still be sponsored.</li>
-    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; what the care worker closure means in practice.</li>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; an IT role on the Temporary Shortage List.</li>
-    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; qualified teacher status and pay scales.</li>
-    <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; why cooks cannot be sponsored and chefs rarely can.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; the truth about sponsored warehouse work.</li>
-    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; the NHS and social care support roles, and why the care-worker visa route closed.</li>
-    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a> &mdash; a first UK admin job, the real pay and the visa reality.</li>
-    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a> &mdash; every route in compared: employer sponsorship, skilled visas without a job offer, working holidays, the PALM scheme and student work rights.</li>
-    <li><a href="/blog/school-administrator-jobs-in-uk">School Administrator Jobs in UK</a> &mdash; school office duties, FTE vs actual pay on term-time contracts, routes in and where schools advertise.</li>
-    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a> &mdash; the ONS salary picture, apprenticeship and Civil Service routes, and the SOC 2431 visa rules.</li>
-    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a> &mdash; which licence each role needs, the D4 medical and CPC route, funded training and ONS pay.</li>
-    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; the nine plants, the apprenticeship route and the honest visa answer.</li>
-    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a> &mdash; the same question in Italy, where a quota decree decides it.</li>
-    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a> &mdash; a supermarket that publishes its rate and pays it at every age.</li>
-    <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a> &mdash; a worked example of an employer that sponsors visas but not for these occupations.</li>
-    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a> &mdash; the union pay scale, and why no delivery role can be sponsored.</li>
-    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a> &mdash; which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
-    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a> &mdash; the hourly rate M and S announces itself, and why no store role can be sponsored.</li>
-    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a> &mdash; the medical and drug screening standard, and why the trackside code cannot be sponsored.</li>
-    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a> &mdash; ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
-    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a> &mdash; the five year vetting and counter terrorism check that decide the application.</li>
-    <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a> &mdash; why GP practice pay is not NHS pay, and what care navigation added to the job.</li>
-    <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a> &mdash; the Care Certificate, the ward band rates and the route to registered nurse.</li>
-    <li><a href="/blog/jobs-in-london-england-for-american-applicants">Jobs in London England for American Applicants</a> &mdash; the same rules read from a US passport: the English exemption, no Youth Mobility route, and the HPI visa that needs no sponsor.</li>
+    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a>, which health care support roles can still be sponsored.</li>
+    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a>: what the care worker closure means in practice.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: an IT role on the Temporary Shortage List.</li>
+    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a>: qualified teacher status and pay scales.</li>
+    <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a>: why cooks cannot be sponsored and chefs rarely can.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: the truth about sponsored warehouse work.</li>
+    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a>: the NHS and social care support roles, and why the care-worker visa route closed.</li>
+    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a>: a first UK admin job, the real pay and the visa reality.</li>
+    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a>: every route in compared: employer sponsorship, skilled visas without a job offer, working holidays, the PALM scheme and student work rights.</li>
+    <li><a href="/blog/school-administrator-jobs-in-uk">School Administrator Jobs in UK</a>: school office duties, FTE vs actual pay on term-time contracts, routes in and where schools advertise.</li>
+    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a>: the ONS salary picture, apprenticeship and Civil Service routes, and the SOC 2431 visa rules.</li>
+    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a>, which licence each role needs, the D4 medical and CPC route, funded training and ONS pay.</li>
+    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a>: the nine plants, the apprenticeship route and the honest visa answer.</li>
+    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a>: the same question in Italy, where a quota decree decides it.</li>
+    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a>: a supermarket that publishes its rate and pays it at every age.</li>
+    <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a>: a worked example of an employer that sponsors visas but not for these occupations.</li>
+    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a>: the union pay scale, and why no delivery role can be sponsored.</li>
+    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a>, which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
+    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a>: the hourly rate M and S announces itself, and why no store role can be sponsored.</li>
+    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a>: the medical and drug screening standard, and why the trackside code cannot be sponsored.</li>
+    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a>: ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
+    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a>: the five year vetting and counter terrorism check that decide the application.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a>: why GP practice pay is not NHS pay, and what care navigation added to the job.</li>
+    <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a>: the Care Certificate, the ward band rates and the route to registered nurse.</li>
+    <li><a href="/blog/jobs-in-london-england-for-american-applicants">Jobs in London England for American Applicants</a>: the same rules read from a US passport: the English exemption, no Youth Mobility route, and the HPI visa that needs no sponsor.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not immigration or legal advice. UK visa rules, salary thresholds, fees and eligible occupation lists change often. Confirm the current rules on gov.uk or with a regulated immigration adviser before applying or paying anyone.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Warehouse Jobs UK Visa Sponsorship" — operative-level warehouse work fails
+ * "Warehouse Jobs UK Visa Sponsorship": operative-level warehouse work fails
  * both the Skilled Worker skill and salary tests, so the post says so and the
  * matching listing is written for candidates who already hold the right to
  * work rather than advertising sponsorship that is not available.
@@ -57,7 +57,7 @@ class WarehouseUkBlogSeeder extends Seeder
                 'content' => $content,
                 'featured_image' => 'blogs/warehouse-jobs-uk-visa-sponsorship.jpg',
                 'tags' => 'warehouse jobs uk, visa sponsorship, skilled worker visa, youth mobility scheme, amazon warehouse jobs, packing jobs uk, unskilled jobs uk, warehouse salary uk',
-                'meta_title' => 'Warehouse Jobs UK Visa Sponsorship — The Honest 2026 Answer',
+                'meta_title' => 'Warehouse Jobs UK Visa Sponsorship: The Honest 2026 Answer',
                 'meta_description' => 'Most UK warehouse roles cannot be sponsored - they fail the skill and salary tests. What is real, what is a scam, and where logistics sponsorship happens.',
                 'reading_time' => max(1, (int) ceil(str_word_count(strip_tags($content)) / 200)),
                 'status' => 'published',
@@ -111,17 +111,17 @@ class WarehouseUkBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>UK logistics employers and distribution centres hire warehouse operatives year-round &mdash; picking, packing, sorting, goods-in and forklift work. Most roles need no prior experience and training is given on site.</p>
+<p>UK logistics employers and distribution centres hire warehouse operatives year-round: picking, packing, sorting, goods-in and forklift work. Most roles need no prior experience and training is given on site.</p>
 
-<h3>Important &mdash; visa sponsorship status</h3>
+<h3>Important: visa sponsorship status</h3>
 <p>Operative-level warehouse work does <strong>not</strong> qualify for the UK Skilled Worker visa. The general route requires a role skilled to RQF Level 6 (broadly degree-level) and a salary of &pound;41,700 a year, or the occupation's going rate if higher, with an absolute floor of &pound;25,000. Warehouse operative roles fail both tests, so these positions are open to candidates who <strong>already hold the right to work in the UK</strong>. Sponsorship in this sector genuinely happens at warehouse, distribution, supply chain and logistics <em>management</em> level, where both thresholds can be met.</p>
 
 <h3>Requirements</h3>
 <ul>
-    <li>Right to work in the UK &mdash; citizenship, settled/pre-settled status, or a visa permitting the work</li>
+    <li>Right to work in the UK: citizenship, settled/pre-settled status, or a visa permitting the work</li>
     <li>No formal qualifications needed for most operative roles; training provided</li>
     <li>Physical fitness for lifting, standing and moving throughout the shift</li>
-    <li>Reliability and accuracy &mdash; pick rates and stock accuracy are tracked</li>
+    <li>Reliability and accuracy: pick rates and stock accuracy are tracked</li>
     <li>Counterbalance or reach forklift licence for FLT roles (often funded by the employer)</li>
     <li>Availability for shift work, including nights and weekends</li>
 </ul>
@@ -134,14 +134,14 @@ class WarehouseUkBlogSeeder extends Seeder
     <li>Progression into team leader and management roles, where sponsorship does become possible</li>
 </ul>
 
-<p><strong>Note:</strong> pay, hours and contracts are set by the individual employer or agency &mdash; not by JobGader. Job boards sometimes show a generic "visa sponsorship" benefit tag that does not reflect real eligibility; always check the employer on the gov.uk register of licensed sponsors, and never pay a fee for a job offer or a visa.</p>
+<p><strong>Note:</strong> pay, hours and contracts are set by the individual employer or agency, not by JobGader. Job boards sometimes show a generic "visa sponsorship" benefit tag that does not reflect real eligibility; always check the employer on the gov.uk register of licensed sponsors, and never pay a fee for a job offer or a visa.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Here's the honest starting point for this search: standard <strong>warehouse jobs UK</strong> roles &mdash; pickers, packers, general operatives, forklift drivers &mdash; very rarely come with genuine visa sponsorship, because these positions typically fall below both the skill level and salary threshold the UK's main sponsorship route requires. That doesn't mean there's nothing real to find here, but it does mean a lot of what shows up when you search this phrase is either misleading, outdated, or an outright scam. This guide breaks down exactly what's possible, what isn't, and how to tell the difference.</p>
+<p>Here's the honest starting point for this search: standard <strong>warehouse jobs UK</strong> roles, pickers, packers, general operatives, forklift drivers, very rarely come with genuine visa sponsorship, because these positions typically fall below both the skill level and salary threshold the UK's main sponsorship route requires. That doesn't mean there's nothing real to find here, but it does mean a lot of what shows up when you search this phrase is either misleading, outdated, or an outright scam. This guide breaks down exactly what's possible, what isn't, and how to tell the difference.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/transport-logistics?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -151,28 +151,28 @@ JOBHTML;
 
 <h2>Why Most Warehouse Jobs Don't Qualify for Sponsorship</h2>
 
-<p>The UK's Skilled Worker visa &mdash; the main employer-sponsored route &mdash; has two hard requirements that most warehouse roles simply don't meet:</p>
+<p>The UK's Skilled Worker visa, the main employer-sponsored route, has two hard requirements that most warehouse roles simply don't meet:</p>
 
 <ol>
     <li><strong>Skill level:</strong> as of July 2025, the general route requires a job skilled to RQF Level 6 (broadly degree-level). Warehouse operative, picker/packer, and general labourer roles are classified well below this.</li>
     <li><strong>Salary threshold:</strong> the standard general salary threshold sits at &pound;41,700 a year (or the specific "going rate" for the occupation code, if higher), with an absolute floor of &pound;25,000 even where reduced thresholds apply. Most warehouse pay sits meaningfully below this.</li>
 </ol>
 
-<p>Because a role has to clear <em>both</em> the skill and salary bar, a typical warehouse operative position fails on both counts &mdash; not just one. This is exactly what the Migration Advisory Committee has found when reviewing lower-paid, lower-skilled sectors, and it's why genuine sponsorship in this space is the exception rather than the rule.</p>
+<p>Because a role has to clear <em>both</em> the skill and salary bar, a typical warehouse operative position fails on both counts, not just one. This is exactly what the Migration Advisory Committee has found when reviewing lower-paid, lower-skilled sectors, and it's why genuine sponsorship in this space is the exception rather than the rule.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/warehouse-jobs-uk-visa-sponsorship-floor.jpg"
-         alt="Warehouse operatives packing boxes on a UK distribution centre floor — warehouse jobs UK visa sponsorship"
+         alt="Warehouse operatives packing boxes on a UK distribution centre floor: warehouse jobs UK visa sponsorship"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
 <h2>Amazon Warehouse Jobs in UK with Visa Sponsorship</h2>
 
-<p>This specific search is worth addressing directly because it's so common: <strong>Amazon UK does not sponsor visas for fulfilment centre warehouse associate roles.</strong> These positions (picking, packing, sorting) are classified as lower-skilled and don't meet the Skilled Worker visa's requirements, regardless of how large or well-known the employer is. Amazon does sponsor visas for higher-skilled corporate, engineering, and technical roles in the UK, but that's a completely different hiring pipeline from fulfilment centre warehouse work &mdash; if you see an ad specifically promising Amazon warehouse visa sponsorship, treat it with real skepticism.</p>
+<p>This specific search is worth addressing directly because it's so common: <strong>Amazon UK does not sponsor visas for fulfilment centre warehouse associate roles.</strong> These positions (picking, packing, sorting) are classified as lower-skilled and don't meet the Skilled Worker visa's requirements, regardless of how large or well-known the employer is. Amazon does sponsor visas for higher-skilled corporate, engineering, and technical roles in the UK, but that's a completely different hiring pipeline from fulfilment centre warehouse work: if you see an ad specifically promising Amazon warehouse visa sponsorship, treat it with real skepticism.</p>
 
 <h2>Packing and Food Packing Jobs with Visa Sponsorship</h2>
 
-<p>Same underlying issue applies to <strong>packing jobs in UK with visa sponsorship</strong> and <strong>food packing jobs in UK with visa sponsorship</strong>: these roles sit at the same low skill/salary classification as general warehouse work, so they generally don't qualify for Skilled Worker sponsorship either. The one adjacent route worth knowing about is the <strong>Seasonal Worker visa</strong>, which covers seasonal agricultural work (fruit and vegetable picking on farms) &mdash; but this is specifically for outdoor agricultural harvesting, not factory or warehouse-based food packing, and it's a separate, narrower scheme with its own approved scheme operators.</p>
+<p>Same underlying issue applies to <strong>packing jobs in UK with visa sponsorship</strong> and <strong>food packing jobs in UK with visa sponsorship</strong>: these roles sit at the same low skill/salary classification as general warehouse work, so they generally don't qualify for Skilled Worker sponsorship either. The one adjacent route worth knowing about is the <strong>Seasonal Worker visa</strong>, which covers seasonal agricultural work (fruit and vegetable picking on farms), but this is specifically for outdoor agricultural harvesting, not factory or warehouse-based food packing, and it's a separate, narrower scheme with its own approved scheme operators.</p>
 
 <h2>Unskilled Jobs with Visa Sponsorship UK for Foreigners: The Realistic Picture</h2>
 
@@ -180,32 +180,32 @@ JOBHTML;
 
 <ul>
     <li><strong>Direct employer sponsorship for unskilled/lower-skilled roles is essentially not available</strong> under the general Skilled Worker route, for the reasons above.</li>
-    <li><strong>The Seasonal Worker visa</strong> covers agricultural picking roles specifically &mdash; a genuine, narrow exception.</li>
-    <li><strong>The Youth Mobility Scheme (YMS)</strong> allows eligible nationals to work in <em>any</em> job, including warehouse or packing roles, without needing employer sponsorship at all &mdash; but it's limited to a specific list of partner countries and territories (Australia, Canada, New Zealand, Japan, South Korea, Andorra, Monaco, San Marino, Iceland, Uruguay, Hong Kong, Taiwan, and India), each with its own age limit and, for some, a competitive ballot.</li>
-    <li>Beyond these, someone already holding a UK visa that grants the right to work (student visa work rights, dependant visa, settled/pre-settled status) can apply for warehouse jobs like any other candidate &mdash; no separate sponsorship needed in that case.</li>
+    <li><strong>The Seasonal Worker visa</strong> covers agricultural picking roles specifically: a genuine, narrow exception.</li>
+    <li><strong>The Youth Mobility Scheme (YMS)</strong> allows eligible nationals to work in <em>any</em> job, including warehouse or packing roles, without needing employer sponsorship at all, but it's limited to a specific list of partner countries and territories (Australia, Canada, New Zealand, Japan, South Korea, Andorra, Monaco, San Marino, Iceland, Uruguay, Hong Kong, Taiwan, and India), each with its own age limit and, for some, a competitive ballot.</li>
+    <li>Beyond these, someone already holding a UK visa that grants the right to work (student visa work rights, dependant visa, settled/pre-settled status) can apply for warehouse jobs like any other candidate: no separate sponsorship needed in that case.</li>
 </ul>
 
 <h2>Warehouse Jobs UK Visa Sponsorship for Pakistani Applicants</h2>
 
-<p>To be direct about this specific and very common search: <strong>Pakistan is not on the Youth Mobility Scheme's eligible country list</strong>, and standard warehouse roles don't meet Skilled Worker visa requirements. In practice, this means there currently isn't a realistic direct route from Pakistan into a UK warehouse job via visa sponsorship. The pathways that do exist for Pakistani nationals wanting to work in the UK generally run through routes unrelated to warehouse work specifically &mdash; a genuinely skilled, degree-level, well-paid role that meets Skilled Worker criteria, family/dependant visas, or study routes that include work rights. Any site or agency claiming to offer direct Pakistan-to-UK warehouse visa sponsorship for a fee should be treated as a serious red flag.</p>
+<p>To be direct about this specific and very common search: <strong>Pakistan is not on the Youth Mobility Scheme's eligible country list</strong>, and standard warehouse roles don't meet Skilled Worker visa requirements. In practice, this means there currently isn't a realistic direct route from Pakistan into a UK warehouse job via visa sponsorship. The pathways that do exist for Pakistani nationals wanting to work in the UK generally run through routes unrelated to warehouse work specifically: a genuinely skilled, degree-level, well-paid role that meets Skilled Worker criteria, family/dependant visas, or study routes that include work rights. Any site or agency claiming to offer direct Pakistan-to-UK warehouse visa sponsorship for a fee should be treated as a serious red flag.</p>
 
 <h2>Warning: Watch for Misleading "Visa Sponsorship" Tags</h2>
 
-<p>This is worth calling out clearly, because it trips people up constantly: job boards sometimes display a <strong>"UK visa sponsorship" benefit tag</strong> on listings &mdash; including for delivery driver, warehouse, and general operative roles &mdash; that doesn't necessarily reflect genuine sponsorship eligibility for a new overseas hire. These tags are often self-reported by the employer as a generic benefit checkbox rather than a confirmation that the specific role and salary meet Skilled Worker visa requirements. <strong>Always verify independently</strong> before assuming a listing is a real sponsorship opportunity:</p>
+<p>This is worth calling out clearly, because it trips people up constantly: job boards sometimes display a <strong>"UK visa sponsorship" benefit tag</strong> on listings, including for delivery driver, warehouse, and general operative roles, that doesn't necessarily reflect genuine sponsorship eligibility for a new overseas hire. These tags are often self-reported by the employer as a generic benefit checkbox rather than a confirmation that the specific role and salary meet Skilled Worker visa requirements. <strong>Always verify independently</strong> before assuming a listing is a real sponsorship opportunity:</p>
 
 <ul>
     <li>Check whether the employer holds an active sponsor licence on the <a href="https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers" target="_blank" rel="noopener">official gov.uk register of licensed sponsors</a>.</li>
-    <li>Check the advertised salary against the current Skilled Worker thresholds (&pound;41,700 general / &pound;25,000 absolute floor) &mdash; if the role pays well below this, sponsorship for a new overseas applicant almost certainly isn't genuinely available no matter what the listing implies.</li>
-    <li>Never pay an agency or "consultancy" any fee for visa sponsorship or job placement &mdash; this is illegal for employers to charge under UK rules, and it's one of the most common scam patterns in this exact job category.</li>
+    <li>Check the advertised salary against the current Skilled Worker thresholds (&pound;41,700 general / &pound;25,000 absolute floor): if the role pays well below this, sponsorship for a new overseas applicant almost certainly isn't genuinely available no matter what the listing implies.</li>
+    <li>Never pay an agency or "consultancy" any fee for visa sponsorship or job placement: this is illegal for employers to charge under UK rules, and it's one of the most common scam patterns in this exact job category.</li>
 </ul>
 
 <h2>Where Sponsorship in Logistics Genuinely Does Happen</h2>
 
-<p>Sponsorship isn't impossible in this sector &mdash; it's just concentrated at a different level than most searches assume:</p>
+<p>Sponsorship isn't impossible in this sector: it's just concentrated at a different level than most searches assume:</p>
 
 <ul>
     <li><strong>Warehouse and Distribution Managers</strong>, <strong>Supply Chain Managers</strong>, and <strong>Logistics Managers</strong> are classified at a higher skill level and typically meet or exceed the salary threshold, making them realistic Skilled Worker visa candidates.</li>
-    <li><strong>Specialist technical logistics roles</strong> &mdash; systems analysts, transport planners, and similar &mdash; can also qualify depending on the specific occupation code and salary offered.</li>
+    <li><strong>Specialist technical logistics roles</strong>, systems analysts, transport planners, and similar, can also qualify depending on the specific occupation code and salary offered.</li>
     <li>Large logistics and engineering employers (major construction, distribution, and supply chain firms) sometimes hold active sponsor licences for these higher-level roles, even when their entry-level warehouse positions aren't sponsorable at all.</li>
 </ul>
 
@@ -213,12 +213,12 @@ JOBHTML;
 
 <h2>Warehouse Jobs UK Salary (What the Data Actually Shows)</h2>
 
-<p>For context on what these roles typically pay &mdash; useful whether or not sponsorship applies to your situation:</p>
+<p>For context on what these roles typically pay: useful whether or not sponsorship applies to your situation:</p>
 
 <ul>
     <li><strong>General warehouse operative/picker-packer roles:</strong> commonly &pound;11&ndash;&pound;15 an hour, broadly around &pound;23,000&ndash;&pound;29,000 a year for full-time work, depending on region, shift pattern, and employer.</li>
     <li><strong>Roles combining warehouse and driving duties</strong> often pay toward the higher end of that range, sometimes &pound;27,000&ndash;&pound;29,500+ once fully trained, given the added driving licence and responsibility requirement.</li>
-    <li><strong>Warehouse/distribution management roles</strong> &mdash; the tier more likely to meet sponsorship thresholds &mdash; typically start well above &pound;35,000&ndash;&pound;40,000+ a year, scaling up significantly with seniority.</li>
+    <li><strong>Warehouse/distribution management roles</strong>, the tier more likely to meet sponsorship thresholds, typically start well above &pound;35,000&ndash;&pound;40,000+ a year, scaling up significantly with seniority.</li>
 </ul>
 
 <h2>How to Find Genuine Listings</h2>
@@ -226,7 +226,7 @@ JOBHTML;
 <ul>
     <li>Search major boards like Indeed UK, SimplyHired, and Glassdoor UK, filtering specifically by "visa sponsorship" and then independently verifying each result against the sponsor register.</li>
     <li>Look at supply chain and logistics-focused recruiters rather than generic warehouse job boards if you're targeting management-level sponsorship.</li>
-    <li>If you already have the right to work in the UK, national logistics employers (Amazon, DHL, major retail distribution centres) and large construction/engineering firms with warehouse or stores operations are consistently high-volume hirers &mdash; no sponsorship angle needed in that case.</li>
+    <li>If you already have the right to work in the UK, national logistics employers (Amazon, DHL, major retail distribution centres) and large construction/engineering firms with warehouse or stores operations are consistently high-volume hirers: no sponsorship angle needed in that case.</li>
 </ul>
 
 <h2>Frequently Asked Questions</h2>
@@ -235,13 +235,13 @@ JOBHTML;
 <p>Realistically, standard warehouse roles almost never qualify, since they fall below the Skilled Worker visa's skill and salary thresholds. Warehouse/logistics management roles are a genuine exception.</p>
 
 <h3>Does Amazon sponsor visas for UK warehouse jobs?</h3>
-<p>Not for fulfilment centre warehouse associate roles &mdash; those don't meet sponsorship criteria. Amazon does sponsor for higher-skilled corporate and technical positions, which is a separate hiring track.</p>
+<p>Not for fulfilment centre warehouse associate roles: those don't meet sponsorship criteria. Amazon does sponsor for higher-skilled corporate and technical positions, which is a separate hiring track.</p>
 
 <h3>Is there any visa route for unskilled work in the UK?</h3>
 <p>The Seasonal Worker visa covers agricultural picking specifically. The Youth Mobility Scheme allows any job, including warehouse work, but only for a limited list of eligible nationalities.</p>
 
 <h3>Are warehouse jobs with visa sponsorship available for Pakistani citizens specifically?</h3>
-<p>Not through a realistic direct route &mdash; Pakistan isn't on the Youth Mobility Scheme list, and standard warehouse roles don't meet Skilled Worker criteria regardless of nationality.</p>
+<p>Not through a realistic direct route: Pakistan isn't on the Youth Mobility Scheme list, and standard warehouse roles don't meet Skilled Worker criteria regardless of nationality.</p>
 
 <h3>Why do some warehouse job ads list "UK visa sponsorship" as a benefit?</h3>
 <p>This is often a generic, self-reported tag on job boards rather than a guarantee that the specific role and salary would actually qualify for sponsorship. Always verify independently before relying on it.</p>
@@ -267,30 +267,30 @@ JOBHTML;
 <p>Roughly &pound;11&ndash;&pound;15 an hour for operative and picker-packer roles, about &pound;23,000&ndash;&pound;29,000 a year full-time. Warehouse and driving combined roles pay toward the top of that band.</p>
 
 <h3>Warehouse manager jobs UK visa sponsorship</h3>
-<p>This is where sponsorship genuinely happens &mdash; warehouse, distribution, supply chain and logistics managers are classified higher and typically start above &pound;35,000&ndash;&pound;40,000.</p>
+<p>This is where sponsorship genuinely happens: warehouse, distribution, supply chain and logistics managers are classified higher and typically start above &pound;35,000&ndash;&pound;40,000.</p>
 
 <h3>Youth Mobility Scheme UK eligible countries</h3>
-<p>Australia, Canada, New Zealand, Japan, South Korea, Andorra, Monaco, San Marino, Iceland, Uruguay, Hong Kong, Taiwan and India &mdash; each with its own age limit and, for some, a ballot.</p>
+<p>Australia, Canada, New Zealand, Japan, South Korea, Andorra, Monaco, San Marino, Iceland, Uruguay, Hong Kong, Taiwan and India: each with its own age limit and, for some, a ballot.</p>
 
 <h2>More Job Guides</h2>
 
 <p>Comparing routes across sectors and countries? These guides cover the rest:</p>
 
 <ul>
-    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London (No Experience Needed)</a> &mdash; shift patterns, 2026 pay and the same sponsorship reality check.</li>
-    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; what the July 2025 care worker route closure means.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; H-2B, EB-3 and H-1B routes, where sponsorship is genuinely open.</li>
-    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; EB-3 and H-2B routes and CDL requirements.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; the delivery end of the same supply chain, and what self-employed really costs.</li>
-    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; industrial work in the EU, and which visa route actually applies.</li>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; a skilled UK trade where sponsorship has a real answer.</li>
-    <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; another UK role that cannot be sponsored, and the occupation codes that decide it.</li>
-    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a> &mdash; the shop floor route, and why the pay figures everyone quotes are below the law.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; every UK visa route side by side, and the &pound;41,700 Skilled Worker threshold.</li>
-    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a> &mdash; which licence each role needs, the D4 medical and CPC route, funded training and ONS pay.</li>
-    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a> &mdash; the union pay scale, and why no delivery role can be sponsored.</li>
-    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a> &mdash; the hourly rate M and S announces itself, and why no store role can be sponsored.</li>
-    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a> &mdash; the medical and drug screening standard, and why the trackside code cannot be sponsored.</li>
+    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London (No Experience Needed)</a>: shift patterns, 2026 pay and the same sponsorship reality check.</li>
+    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a>: what the July 2025 care worker route closure means.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: H-2B, EB-3 and H-1B routes, where sponsorship is genuinely open.</li>
+    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a>: EB-3 and H-2B routes and CDL requirements.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: the delivery end of the same supply chain, and what self-employed really costs.</li>
+    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a>: industrial work in the EU, and which visa route actually applies.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: a skilled UK trade where sponsorship has a real answer.</li>
+    <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a>: another UK role that cannot be sponsored, and the occupation codes that decide it.</li>
+    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a>: the shop floor route, and why the pay figures everyone quotes are below the law.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: every UK visa route side by side, and the &pound;41,700 Skilled Worker threshold.</li>
+    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a>, which licence each role needs, the D4 medical and CPC route, funded training and ONS pay.</li>
+    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a>: the union pay scale, and why no delivery role can be sponsored.</li>
+    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a>: the hourly rate M and S announces itself, and why no store role can be sponsored.</li>
+    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a>: the medical and drug screening standard, and why the trackside code cannot be sponsored.</li>
 </ul>
 
 <div style="text-align:center;margin:32px 0;">
@@ -299,7 +299,7 @@ JOBHTML;
     </a>
 </div>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and isn't legal or immigration advice. Visa rules, thresholds, and eligible country lists change &mdash; confirm current requirements directly on gov.uk or with a licensed immigration adviser before making decisions or paying any fees.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and isn't legal or immigration advice. Visa rules, thresholds, and eligible country lists change: confirm current requirements directly on gov.uk or with a licensed immigration adviser before making decisions or paying any fees.</p>
 HTML;
     }
 }

@@ -168,9 +168,9 @@ class AppointmentSettingJobsBlogSeeder extends Seeder
 <p>The TCPA applies to "any person within the United States, or any person outside the United States if the recipient is within the United States". The FTC says the same of its Telemarketing Sales Rule. Calling a US residence outside 8:00 a.m. to 9:00 p.m. in the called party's own time zone breaches the rule, and the client who hired the campaign carries the liability. A script that instructs you to misrepresent who you are or what you are selling is not exempt under any circumstances.</p>
 
 <h3>Before you accept</h3>
-<p>Ask which market you will dial and what the compliance process is: who scrubs the do-not-call list and how often, whether calls are recorded, and what the script discloses in its first sentence. Ask how the pay actually works &mdash; a base plus a fee per attended meeting is very different from commission only.</p>
+<p>Ask which market you will dial and what the compliance process is: who scrubs the do-not-call list and how often, whether calls are recorded, and what the script discloses in its first sentence. Ask how the pay actually works: a base plus a fee per attended meeting is very different from commission only.</p>
 
-<p>Requirements, hours and pay are set by individual employers &mdash; not by JobGader. Never pay anyone to secure a job, and never accept a role that asks you to conceal the identity of the business you are calling for.</p>
+<p>Requirements, hours and pay are set by individual employers, not by JobGader. Never pay anyone to secure a job, and never accept a role that asks you to conceal the identity of the business you are calling for.</p>
 JOBHTML;
     }
 
@@ -179,7 +179,7 @@ JOBHTML;
         return <<<'HTML'
 <p>Appointment setting is the telephone end of sales. Somebody hands you a list, you call people who were not expecting it, and your job is to book a meeting that the person actually turns up to. In Pakistan it is one of the few sales roles that pays well without a degree, and it comes with two things the job adverts underplay: a permanent night shift, and a body of American law that follows the call across the ocean.</p>
 
-<p>This guide is built on 15 live listings from one board and 5 from the other, read on <strong>23 September 2026</strong>, plus the current text of the rules themselves rather than anybody's summary of them. For the written side of outreach &mdash; email and LinkedIn &mdash; see <a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a>.</p>
+<p>This guide is built on 15 live listings from one board and 5 from the other, read on <strong>23 September 2026</strong>, plus the current text of the rules themselves rather than anybody's summary of them. For the written side of outreach, email and LinkedIn, see <a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a>.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/sales?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -194,19 +194,19 @@ JOBHTML;
 <p>That is a small market but a live one, and unusually for this kind of work, much of it advertises a salary. These are the listings that publish a figure, with the details from their own pages:</p>
 
 <ul>
-    <li><strong>Lahore, US real estate management</strong> &mdash; <strong>PKR 150,000 a month</strong>, outbound sales representative calling American residential property owners. Posted 5 September 2026. The highest advertised figure in the whole set.</li>
-    <li><strong>Lahore, USA market, Johar Town</strong> &mdash; <strong>PKR 60,000 to 120,000</strong>, two years of experience, explicitly advertised as a US night shift. Posted 12 September 2026.</li>
-    <li><strong>Islamabad, B2B and B2C</strong> &mdash; <strong>PKR 100,000 a month</strong>, one year of experience. Posted 25 August 2026.</li>
-    <li><strong>Rawalpindi</strong> &mdash; <strong>PKR 60,000 to 100,000</strong>, under a year of experience, night shift. Posted 25 August 2026.</li>
-    <li><strong>Karachi, remote</strong> &mdash; <strong>PKR 60,000 flat</strong> plus performance upside, one year preferred, Pakistan night shift overlapping US business hours. Posted 27 July 2026.</li>
-    <li><strong>Rawalpindi, lead verifier and setter</strong> &mdash; <strong>PKR 50,000 to 60,000</strong> plus what the advert calls uncapped performance bonuses, twelve months of experience, night shift. Posted 24 August 2026.</li>
-    <li><strong>Lahore, onsite</strong> &mdash; <strong>PKR 55,000</strong>, shift stated as 7:00 PM to 4:00 AM, Monday to Friday. Posted 11 September 2026.</li>
-    <li><strong>Lahore, B2B cold caller, USA market</strong> &mdash; advertised band PKR 35,000 to 60,000, with the body text stating <strong>PKR 50,000 plus performance commission</strong>. Posted 4 September 2026.</li>
+    <li><strong>Lahore, US real estate management</strong>: <strong>PKR 150,000 a month</strong>, outbound sales representative calling American residential property owners. Posted 5 September 2026. The highest advertised figure in the whole set.</li>
+    <li><strong>Lahore, USA market, Johar Town</strong>: <strong>PKR 60,000 to 120,000</strong>, two years of experience, explicitly advertised as a US night shift. Posted 12 September 2026.</li>
+    <li><strong>Islamabad, B2B and B2C</strong>: <strong>PKR 100,000 a month</strong>, one year of experience. Posted 25 August 2026.</li>
+    <li><strong>Rawalpindi</strong>: <strong>PKR 60,000 to 100,000</strong>, under a year of experience, night shift. Posted 25 August 2026.</li>
+    <li><strong>Karachi, remote</strong>: <strong>PKR 60,000 flat</strong> plus performance upside, one year preferred, Pakistan night shift overlapping US business hours. Posted 27 July 2026.</li>
+    <li><strong>Rawalpindi, lead verifier and setter</strong>: <strong>PKR 50,000 to 60,000</strong> plus what the advert calls uncapped performance bonuses, twelve months of experience, night shift. Posted 24 August 2026.</li>
+    <li><strong>Lahore, onsite</strong>: <strong>PKR 55,000</strong>, shift stated as 7:00 PM to 4:00 AM, Monday to Friday. Posted 11 September 2026.</li>
+    <li><strong>Lahore, B2B cold caller, USA market</strong>: advertised band PKR 35,000 to 60,000, with the body text stating <strong>PKR 50,000 plus performance commission</strong>. Posted 4 September 2026.</li>
 </ul>
 
 <p>So the honest range is <strong>PKR 30,000 at the very bottom to PKR 150,000 at the top</strong>, clustering at <strong>50,000 to 60,000</strong> for someone with under a year behind them. Experience moves the number, but the market you dial moves it more: the two highest-paying listings both call the United States.</p>
 
-<p>One caution on reading these boards. One of them lets an employer enter a salary and then hide it from jobseekers, and it lets them print a single figure as a range with identical bounds. Where a listing shows no salary, that is a choice the employer made, not a missing field &mdash; and it usually means the number is negotiable downwards.</p>
+<p>One caution on reading these boards. One of them lets an employer enter a salary and then hide it from jobseekers, and it lets them print a single figure as a range with identical bounds. Where a listing shows no salary, that is a choice the employer made, not a missing field, and it usually means the number is negotiable downwards.</p>
 
 <h2>The Dollar Rates That Circulate Online Do Not Exist Here</h2>
 
@@ -214,11 +214,11 @@ JOBHTML;
 
 <p><strong>"$17 to $22.50 an hour."</strong> We checked every dollar amount and every "per hour" string across all 20 live listings on both boards. Nothing came close. <strong>The only US dollar hourly rate actually on offer to a Pakistan-based setter was $3.00 an hour.</strong> The circulating figure is roughly six times the real one.</p>
 
-<p><strong>"$50 per completed appointment"</strong> and <strong>"$500 to $1,000 a week."</strong> Neither appears in any listing. What does exist is one American solar company advertising to remote candidates, with the note that applicants outside the United States are welcome. Its pay structure, in its own words: <strong>$3.00 an hour on the clock, plus $10 when the homeowner actually sits, plus $25 after they sign, plus $465 only after the job installs</strong> &mdash; and not if the customer cancels. The role asks for 40-plus hours a week, six days a week, covering US Eastern evening and night windows.</p>
+<p><strong>"$50 per completed appointment"</strong> and <strong>"$500 to $1,000 a week."</strong> Neither appears in any listing. What does exist is one American solar company advertising to remote candidates, with the note that applicants outside the United States are welcome. Its pay structure, in its own words: <strong>$3.00 an hour on the clock, plus $10 when the homeowner actually sits, plus $25 after they sign, plus $465 only after the job installs</strong>, and not if the customer cancels. The role asks for 40-plus hours a week, six days a week, covering US Eastern evening and night windows.</p>
 
-<p>Do the arithmetic before it is done to you. Forty hours at $3.00 is <strong>$120 a week</strong> guaranteed. Everything above that depends on a homeowner keeping an appointment, signing a contract, and then not cancelling before installation &mdash; three separate events, none of which you control, the last of which can be months later. It is a real offer from a real company and it may still work out; it is simply not $500 to $1,000 a week, and the guaranteed part of it is below what several Lahore listings pay outright.</p>
+<p>Do the arithmetic before it is done to you. Forty hours at $3.00 is <strong>$120 a week</strong> guaranteed. Everything above that depends on a homeowner keeping an appointment, signing a contract, and then not cancelling before installation: three separate events, none of which you control, the last of which can be months later. It is a real offer from a real company and it may still work out; it is simply not $500 to $1,000 a week, and the guaranteed part of it is below what several Lahore listings pay outright.</p>
 
-<p><strong>"PKR 25,000 a month plus 5 percent commission."</strong> No listing in either feed pays PKR 25,000, and <strong>no listing anywhere states a 5 percent commission</strong>. The only percentage commission we found was 30 percent per closed client &mdash; from a UK-market role that is commission-only with no base at all, and which works over direct messages and email rather than the phone.</p>
+<p><strong>"PKR 25,000 a month plus 5 percent commission."</strong> No listing in either feed pays PKR 25,000, and <strong>no listing anywhere states a 5 percent commission</strong>. The only percentage commission we found was 30 percent per closed client: from a UK-market role that is commission-only with no base at all, and which works over direct messages and email rather than the phone.</p>
 
 <p>A note on searching, too. Search engines will summarise an expired listing for this job as paying PKR 75,000 to 200,000. We opened it: it closed in 2023 and its page carries no salary figure whatsoever. The number was invented somewhere between the listing and the summary.</p>
 
@@ -229,7 +229,7 @@ JOBHTML;
 
 <h2>The Night Shift Is Not Negotiable</h2>
 
-<p>Every one of the five listings on the smaller board states an evening or night shift &mdash; four tagged night, one evening. On the larger board only five of fifteen say so outright, but most of the rest name a US, UK or Australian market, which amounts to the same thing. Overall, <strong>around 10 of the 18 distinct listings either state a night shift or target a timezone that requires one</strong>.</p>
+<p>Every one of the five listings on the smaller board states an evening or night shift: four tagged night, one evening. On the larger board only five of fifteen say so outright, but most of the rest name a US, UK or Australian market, which amounts to the same thing. Overall, <strong>around 10 of the 18 distinct listings either state a night shift or target a timezone that requires one</strong>.</p>
 
 <p>Examples of what that means in practice, from the adverts themselves: 7:00 PM to 4:00 AM Monday to Friday, on site in Lahore. An Australian Eastern shift for a fintech client, with 100 to 150 dials a day on an automated dialer. US Eastern evening and night windows, six days a week.</p>
 
@@ -278,7 +278,7 @@ JOBHTML;
 
 <p>Read that honestly: the occupation is <strong>shrinking by more than a fifth over ten years</strong>, and it requires no credential to enter. Those two facts belong together. A job with no entry barrier and a declining headcount is a job you should treat as a starting point, not a destination.</p>
 
-<p>The destination is one rung up. <strong>Sales representatives of services</strong> &mdash; the closer role you are booking meetings for &mdash; numbered <strong>1,272,700</strong> in 2025 and is projected to grow <strong>2.7 percent</strong> to 1,306,700 by 2035, with around 115,700 openings a year and a median wage of <strong>$69,990</strong>. It asks for a high school diploma and moderate-term on-the-job training. That is roughly double the telemarketer median for a job you reach by doing this one well.</p>
+<p>The destination is one rung up. <strong>Sales representatives of services</strong>, the closer role you are booking meetings for, numbered <strong>1,272,700</strong> in 2025 and is projected to grow <strong>2.7 percent</strong> to 1,306,700 by 2035, with around 115,700 openings a year and a median wage of <strong>$69,990</strong>. It asks for a high school diploma and moderate-term on-the-job training. That is roughly double the telemarketer median for a job you reach by doing this one well.</p>
 
 <p>One more official figure, because it describes the day rather than the career. In 2025, external verbal interactions were required <strong>every few minutes</strong> for <strong>68.1 percent</strong> of civilian workers in sales and related occupations, according to the Occupational Requirements Survey. The estimate is preliminary. It is also the clearest statistical description of this job you will find: there is no quiet part of the shift.</p>
 
@@ -296,7 +296,7 @@ JOBHTML;
     <li><strong>Calling hours.</strong> Without prior consent, calls to a person's residence are prohibited outside <strong>8:00 a.m. to 9:00 p.m., local time at the called person's location</strong>. From Pakistan that means computing the US time zone per area code, every call.</li>
     <li><strong>The first sentence of the call.</strong> The rule requires prompt, clear disclosure of the identity of the seller, that the purpose of the call is to sell goods or services, and the nature of those goods or services.</li>
     <li><strong>The do-not-call list, and the interval.</strong> The registry must be scrubbed against a version obtained <strong>no more than 31 days before the call is made</strong>, with records documenting the process. The FCC's parallel rule uses the identical 31-day wording.</li>
-    <li><strong>Consent for automated dialing to mobiles.</strong> Autodialed or prerecorded telemarketing to a cellular number requires prior express written consent &mdash; a signed agreement naming the number.</li>
+    <li><strong>Consent for automated dialing to mobiles.</strong> Autodialed or prerecorded telemarketing to a cellular number requires prior express written consent: a signed agreement naming the number.</li>
     <li><strong>Opting out.</strong> Since 11 April 2025, a consumer may revoke consent by <strong>any reasonable method</strong>, the request must be honoured within <strong>ten business days</strong>, and a caller may not designate an exclusive channel for opting out. Words like "stop", "quit", "end", "revoke", "opt out", "cancel" or "unsubscribe" in a reply text count automatically.</li>
     <li><strong>Records.</strong> Call records, scripts and service contracts must be kept for <strong>five years</strong>, with times recorded to the closest second in UTC.</li>
 </ul>
@@ -318,7 +318,7 @@ JOBHTML;
 
 <h3>What it costs when it goes wrong</h3>
 
-<p>Civil penalties under the FTC Act reach <strong>$53,088 per violation</strong> for penalties assessed after 17 January 2025. Separately, a consumer can sue under the TCPA for <strong>$500 for each violating call</strong>, and a court <em>may</em>, at its discretion, increase that to up to three times the amount if the violation was wilful or knowing. Note the word "may" &mdash; trebling is discretionary, not automatic, and articles that say damages "triple automatically" are overstating it.</p>
+<p>Civil penalties under the FTC Act reach <strong>$53,088 per violation</strong> for penalties assessed after 17 January 2025. Separately, a consumer can sue under the TCPA for <strong>$500 for each violating call</strong>, and a court <em>may</em>, at its discretion, increase that to up to three times the amount if the violation was wilful or knowing. Note the word "may": trebling is discretionary, not automatic, and articles that say damages "triple automatically" are overstating it.</p>
 
 <p>Per call, multiplied by a dialer doing 100 to 150 attempts a day, is how a compliance failure becomes a company-ending number. That is also why serious US clients push scripts, scrub schedules and call-recording requirements down onto their offshore teams. If your employer has none of those things, that is information about your employer.</p>
 
@@ -344,7 +344,7 @@ JOBHTML;
     <li><strong>Log the disposition honestly.</strong> Whether the call connected, was dropped or was transferred is a required record. It is also the only way anyone can tell whether a list is bad or you are.</li>
 </ul>
 
-<p>The research half of the work &mdash; building and cleaning the list you dial &mdash; is a separate craft with its own market, covered in <a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a> and <a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a>.</p>
+<p>The research half of the work, building and cleaning the list you dial, is a separate craft with its own market, covered in <a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a> and <a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a>.</p>
 
 <h2>How to Apply</h2>
 
@@ -398,11 +398,11 @@ JOBHTML;
 <h2>More Job Guides</h2>
 
 <ul>
-    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a> &mdash; the written side of outreach, the pay ladder, and the rules covering email and LinkedIn.</li>
-    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a> &mdash; how the list you dial gets built, and why verification vendors cannot verify what they claim.</li>
-    <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a> &mdash; the quota arithmetic behind list work and what the free tool tiers really allow.</li>
-    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a> &mdash; searching for these roles without wasting weeks.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; realistic entry points and what they pay.</li>
+    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a>: the written side of outreach, the pay ladder, and the rules covering email and LinkedIn.</li>
+    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a>: how the list you dial gets built, and why verification vendors cannot verify what they claim.</li>
+    <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a>: the quota arithmetic behind list work and what the free tool tiers really allow.</li>
+    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a>: searching for these roles without wasting weeks.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: realistic entry points and what they pay.</li>
 </ul>
 HTML;
     }

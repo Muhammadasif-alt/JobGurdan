@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Physical Therapist Jobs in the USA" — pay, licensing and the route in for
+ * "Physical Therapist Jobs in the USA": pay, licensing and the route in for
  * both US-trained and foreign-trained therapists. The licensing section and the
  * internationally-trained pathway are where the mistakes are, so those get the
  * detail, and the pay is pinned to the BLS rather than to the round numbers
@@ -163,7 +163,7 @@ class PhysicalTherapistJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> licensing, exam and immigration rules are set by the state boards, FSBPT, FCCPT, CGFNS and USCIS &mdash; not by JobGader. Confirm current requirements with the board in the state where you intend to practise before applying.</p>
+<p><strong>Note:</strong> licensing, exam and immigration rules are set by the state boards, FSBPT, FCCPT, CGFNS and USCIS, not by JobGader. Confirm current requirements with the board in the state where you intend to practise before applying.</p>
 JOBHTML;
     }
 
@@ -180,7 +180,7 @@ JOBHTML;
 
 <h2>What Physical Therapists Actually Earn</h2>
 
-<p>The number most careers pages quote &mdash; "$99,000 to $101,000" &mdash; is a year or two out of date. The BLS puts the current median at <strong>$102,760 a year, about $49.40 an hour</strong> (May 2025), and the single figure hides a wide spread. Setting matters more than almost anything else.</p>
+<p>The number most careers pages quote, "$99,000 to $101,000", is a year or two out of date. The BLS puts the current median at <strong>$102,760 a year, about $49.40 an hour</strong> (May 2025), and the single figure hides a wide spread. Setting matters more than almost anything else.</p>
 
 <div style="overflow-x:auto;margin:24px 0;">
 <table style="width:100%;border-collapse:collapse;font-size:15px;">
@@ -218,7 +218,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>Travel contracts sit at the top for a reason: they are typically 13 weeks, often in hard-to-staff areas, and part of the pay comes as untaxed housing and per-diem stipends. Home health pays well too, but it is usually per-visit rather than salaried. Geography adds another layer &mdash; California, Nevada, New Jersey and Alaska report the highest averages, while several southern and midwestern states run below the median. Always run an offer against local rent before being impressed by it.</p>
+<p>Travel contracts sit at the top for a reason: they are typically 13 weeks, often in hard-to-staff areas, and part of the pay comes as untaxed housing and per-diem stipends. Home health pays well too, but it is usually per-visit rather than salaried. Geography adds another layer: California, Nevada, New Jersey and Alaska report the highest averages, while several southern and midwestern states run below the median. Always run an offer against local rent before being impressed by it.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/physical-therapist-jobs-in-usa-exercise.jpg"
@@ -237,16 +237,16 @@ JOBHTML;
 
 <h2>Licensing: The Part People Underestimate</h2>
 
-<p>There is no single American license. Every state has its own board, fees and jurisprudence exam. What they share is the <strong>National Physical Therapy Examination (NPTE)</strong>, administered by the FSBPT. Pass the NPTE, meet your chosen state's requirements, and you practise there &mdash; and only there, unless you license in additional states.</p>
+<p>There is no single American license. Every state has its own board, fees and jurisprudence exam. What they share is the <strong>National Physical Therapy Examination (NPTE)</strong>, administered by the FSBPT. Pass the NPTE, meet your chosen state's requirements, and you practise there, and only there, unless you license in additional states.</p>
 
 <ul>
     <li>A Doctor of Physical Therapy (DPT) from a CAPTE-accredited program, or a credential-evaluated foreign equivalent</li>
     <li>A passing NPTE score</li>
-    <li>A state jurisprudence exam in most jurisdictions &mdash; a short test on that state's practice law</li>
+    <li>A state jurisprudence exam in most jurisdictions: a short test on that state's practice law</li>
     <li>A criminal background check and BLS/CPR certification</li>
 </ul>
 
-<p><strong>The PT Compact is worth knowing early.</strong> It lets a licensed therapist work across participating states without a full license in each one. As of 2026, <strong>41 jurisdictions have enacted the compact and about 38 are actively issuing privileges</strong> &mdash; far more than the "30 states" older guides cite. If you plan to take travel contracts, a compact privilege saves months of paperwork and several hundred dollars per state.</p>
+<p><strong>The PT Compact is worth knowing early.</strong> It lets a licensed therapist work across participating states without a full license in each one. As of 2026, <strong>41 jurisdictions have enacted the compact and about 38 are actively issuing privileges</strong>: far more than the "30 states" older guides cite. If you plan to take travel contracts, a compact privilege saves months of paperwork and several hundred dollars per state.</p>
 
 <h2>If You Trained Outside the United States</h2>
 
@@ -256,7 +256,7 @@ JOBHTML;
     <li><strong>Credential evaluation.</strong> An agency such as FCCPT, ICA or CGFNS compares your degree against US DPT standards. If your program falls short, you may need extra coursework.</li>
     <li><strong>English proficiency.</strong> Most states require TOEFL iBT or IELTS; some waive it if you trained in English.</li>
     <li><strong>NPTE eligibility and exam.</strong> You apply through your target state board, which authorises you to sit the exam.</li>
-    <li><strong>Health care worker certificate.</strong> For a work visa you need one of two certificates &mdash; <strong>CGFNS's VisaScreen or FCCPT's Type I certificate</strong>. VisaScreen is issued by CGFNS, not by FCCPT, so choose one path and follow it.</li>
+    <li><strong>Health care worker certificate.</strong> For a work visa you need one of two certificates: <strong>CGFNS's VisaScreen or FCCPT's Type I certificate</strong>. VisaScreen is issued by CGFNS, not by FCCPT, so choose one path and follow it.</li>
     <li><strong>Employment and sponsorship.</strong> Most PTs enter on an H-1B, and because physical therapists are a Schedule A, Group I shortage occupation, EB-3 permanent-residency sponsorship is straightforward with large rehab, SNF and home-health employers.</li>
 </ol>
 
@@ -279,7 +279,7 @@ JOBHTML;
 
 <h2>Where the Profession Is Heading</h2>
 
-<p>BLS projects physical therapist employment to grow <strong>12% from 2025 to 2035</strong>, much faster than the roughly 3-4% average across all occupations, with about 13,400 openings a year. The baby-boomer cohort, better survival after stroke and major surgery, and direct-access laws in all 50 states are the drivers. The counterweight is reimbursement: Medicare fee schedules have trended down, which pushes clinics toward higher productivity expectations &mdash; which is exactly why the questions you ask before signing matter as much as the salary line.</p>
+<p>BLS projects physical therapist employment to grow <strong>12% from 2025 to 2035</strong>, much faster than the roughly 3-4% average across all occupations, with about 13,400 openings a year. The baby-boomer cohort, better survival after stroke and major surgery, and direct-access laws in all 50 states are the drivers. The counterweight is reimbursement: Medicare fee schedules have trended down, which pushes clinics toward higher productivity expectations, which is exactly why the questions you ask before signing matter as much as the salary line.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -287,13 +287,13 @@ JOBHTML;
 <p>The BLS median is $102,760 a year, about $49.40 an hour (May 2025), with the bottom tenth near $74,420 and the top tenth near $132,500. Skilled nursing, home health and travel contracts pay above the median.</p>
 
 <h3>Do I need a national license to work as a physical therapist?</h3>
-<p>No &mdash; there is no national license. Every state licenses independently, and all require passing the NPTE administered by the FSBPT, plus a DPT degree and, in most states, a jurisprudence exam.</p>
+<p>No: there is no national license. Every state licenses independently, and all require passing the NPTE administered by the FSBPT, plus a DPT degree and, in most states, a jurisprudence exam.</p>
 
 <h3>What is the PT Compact and how many states are in it?</h3>
 <p>The PT Compact lets a licensed therapist practise across member states without a full license in each. As of 2026, 41 jurisdictions have enacted it and about 38 are actively issuing privileges.</p>
 
 <h3>Can a foreign-trained physical therapist work in the USA?</h3>
-<p>Yes. You need a credential evaluation (FCCPT, ICA or CGFNS), English proficiency, a passing NPTE, and a health care worker certificate &mdash; CGFNS's VisaScreen or FCCPT's Type I &mdash; for the visa.</p>
+<p>Yes. You need a credential evaluation (FCCPT, ICA or CGFNS), English proficiency, a passing NPTE, and a health care worker certificate, CGFNS's VisaScreen or FCCPT's Type I, for the visa.</p>
 
 <h3>Who issues the VisaScreen certificate?</h3>
 <p>CGFNS issues the VisaScreen certificate, not FCCPT. FCCPT issues its own Type I health care worker certificate. Either one satisfies the federal certificate a foreign PT needs for a work visa.</p>
@@ -338,14 +338,14 @@ JOBHTML;
 <p>Looking at neighbouring US healthcare roles or the routes abroad? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/physiotherapy-assistant-jobs-in-the-uk">Physiotherapy Assistant Jobs in the UK</a> &mdash; the UK assistant role that supports this profession, and its NHS bands.</li>
-    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; the largest US healthcare profession, its pay and its licensing.</li>
-    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; an entry-level clinical route with no license and a faster start.</li>
-    <li><a href="/blog/school-nurse-jobs-in-usa">School Nurse Jobs in USA</a> &mdash; a term-time nursing role and how its certification works.</li>
-    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; the comparable support role across the Atlantic.</li>
-    <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a> &mdash; the neighbouring allied-health market, its registration and pay.</li>
-    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a> &mdash; a care-sector route with a genuine visa pathway.</li>
-    <li><a href="/blog/entry-level-healthcare-jobs">Entry Level Healthcare Jobs</a> &mdash; the US healthcare roles you can start with a high school diploma or a short course, what they pay and how to apply.</li>
+    <li><a href="/blog/physiotherapy-assistant-jobs-in-the-uk">Physiotherapy Assistant Jobs in the UK</a>: the UK assistant role that supports this profession, and its NHS bands.</li>
+    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a>: the largest US healthcare profession, its pay and its licensing.</li>
+    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a>: an entry-level clinical route with no license and a faster start.</li>
+    <li><a href="/blog/school-nurse-jobs-in-usa">School Nurse Jobs in USA</a>: a term-time nursing role and how its certification works.</li>
+    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a>: the comparable support role across the Atlantic.</li>
+    <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a>: the neighbouring allied-health market, its registration and pay.</li>
+    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a>: a care-sector route with a genuine visa pathway.</li>
+    <li><a href="/blog/entry-level-healthcare-jobs">Entry Level Healthcare Jobs</a>: the US healthcare roles you can start with a high school diploma or a short course, what they pay and how to apply.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Salary ranges and licensing requirements change over time. Confirm current requirements with the physical therapy board in the state where you intend to practise, and with FSBPT, FCCPT and CGFNS, before applying.</p>

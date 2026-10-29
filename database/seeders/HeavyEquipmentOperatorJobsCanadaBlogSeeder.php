@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Heavy Equipment Operator Jobs in Canada" — excavator, dozer, loader and
+ * "Heavy Equipment Operator Jobs in Canada": excavator, dozer, loader and
  * grader operators in construction, mining, forestry and road work. The
  * welder guide owns Red Seal compulsory status for welding and the LMIA
  * streams; this one owns Job Bank wages and outlooks for NOC 73400, the Red
@@ -164,7 +164,7 @@ class HeavyEquipmentOperatorJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask which machines you will run, the expected season length and whether camp or travel costs are covered,</strong> before accepting an offer.</p>
 
-<p><strong>Note:</strong> pay, certification and immigration rules are set by employers, provincial apprenticeship authorities and IRCC &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, certification and immigration rules are set by employers, provincial apprenticeship authorities and IRCC, not by JobGader. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 
@@ -275,7 +275,7 @@ JOBHTML;
 <p>Guides give Ontario and Alberta as examples of provinces with a crane operator ticket. The requirement is wider: <strong>mobile crane operator certification, for specified types of cranes, is compulsory in Nova Scotia, New Brunswick, Quebec, Ontario, Manitoba, Alberta and British Columbia</strong>.</p>
 
 <ul>
-    <li><strong>Ontario.</strong> Hoisting Engineer &mdash; Mobile Crane Operator 1 and Mobile Crane Operator 2 are trades with apprenticeship programs administered by Skilled Trades Ontario. Mobile Crane Operator 1 covers lattice and telescopic boom cranes lifting more than 16,000 pounds.</li>
+    <li><strong>Ontario.</strong> Hoisting Engineer: Mobile Crane Operator 1 and Mobile Crane Operator 2 are trades with apprenticeship programs administered by Skilled Trades Ontario. Mobile Crane Operator 1 covers lattice and telescopic boom cranes lifting more than 16,000 pounds.</li>
     <li><strong>Alberta.</strong> You must hold a recognized certificate or be a registered apprentice to operate a boom truck, tower crane or mobile crane, with mobile crane certification applying from 15 tons of lifting capacity.</li>
 </ul>
 
@@ -375,14 +375,14 @@ JOBHTML;
 <p>Comparing trades and driving jobs? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; a Red Seal trade on the same sites, and where certification is compulsory.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; how the LMIA streams work for trades employers.</li>
-    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; another licensed machine job with provincial rules.</li>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; seasonal work on another Canadian program.</li>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; site work under Australian awards and the White Card.</li>
-    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; heavy vehicle work and licence classes across the border.</li>
-    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; warehouse machines in the USA, where OSHA sets the training rule.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; what changed in 2026, which sectors hire, and how the LMIA and scams work.</li>
+    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a>: a Red Seal trade on the same sites, and where certification is compulsory.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: how the LMIA streams work for trades employers.</li>
+    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a>: another licensed machine job with provincial rules.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: seasonal work on another Canadian program.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: site work under Australian awards and the White Card.</li>
+    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a>: heavy vehicle work and licence classes across the border.</li>
+    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a>: warehouse machines in the USA, where OSHA sets the training rule.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: what changed in 2026, which sectors hire, and how the LMIA and scams work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, outlooks, trade certification rules, safety training requirements and Express Entry categories change and differ by province. Confirm the current position with Job Bank, the Red Seal program, your provincial apprenticeship authority and IRCC before training, applying or accepting an offer.</p>

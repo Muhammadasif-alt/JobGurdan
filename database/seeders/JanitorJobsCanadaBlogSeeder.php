@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Janitor Jobs in Canada" — custodians, caretakers and building cleaners.
+ * "Janitor Jobs in Canada": custodians, caretakers and building cleaners.
  * The London and Saudi cleaner guides cover other markets, and this one owns
  * Canadian janitor pay by province, the 2026 minimum wages that set the floor,
  * Job Bank's prospects, and the low-wage LMIA and permanent residence limits.
@@ -154,7 +154,7 @@ class JanitorJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for a job offer or an LMIA.</strong> The employer pays the $1,000 LMIA fee, and it cannot be recovered from the worker.</p>
 
-<p><strong>Note:</strong> wages, shifts and immigration eligibility are set by employers, provincial employment standards and the Government of Canada &mdash; not by JobGader. Confirm the details with the employer and on canada.ca before applying.</p>
+<p><strong>Note:</strong> wages, shifts and immigration eligibility are set by employers, provincial employment standards and the Government of Canada, not by JobGader. Confirm the details with the employer and on canada.ca before applying.</p>
 JOBHTML;
     }
 
@@ -313,14 +313,14 @@ JOBHTML;
 <p>Comparing cleaning jobs and routes into Canada? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London with No Experience</a> &mdash; what UK cleaning pays and why most of it cannot be sponsored.</li>
-    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a> &mdash; the Gulf route for cleaning staff, and the Labour Law split.</li>
-    <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a> &mdash; hotel and care home housekeeping under UK minimum wage rules.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; how the LMIA works, and the 2026 limits on low-wage jobs.</li>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the most-approved LMIA jobs, and which farm program you can use.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; another entry-level Canadian job priced by the provincial minimum wage.</li>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; housekeeping on the American seasonal visa route.</li>
-    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a> &mdash; a regulated Canadian health care job with an 8-month to one-year program.</li>
+    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London with No Experience</a>: what UK cleaning pays and why most of it cannot be sponsored.</li>
+    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a>: the Gulf route for cleaning staff, and the Labour Law split.</li>
+    <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a>: hotel and care home housekeeping under UK minimum wage rules.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: how the LMIA works, and the 2026 limits on low-wage jobs.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: the most-approved LMIA jobs, and which farm program you can use.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: another entry-level Canadian job priced by the provincial minimum wage.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>: housekeeping on the American seasonal visa route.</li>
+    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a>: a regulated Canadian health care job with an 8-month to one-year program.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or employment advice. Wage data, minimum wages, LMIA rules and unemployment lists change often. Confirm the current position with the employer, your provincial employment standards office, Job Bank and IRCC, or a licensed immigration consultant, before applying or paying any fee.</p>

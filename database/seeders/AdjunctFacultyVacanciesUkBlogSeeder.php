@@ -105,11 +105,11 @@ class AdjunctFacultyVacanciesUkBlogSeeder extends Seeder
 
 <p>HESA publishes the only authoritative count of who teaches in UK higher education. Its latest Statistical Bulletin, SB274, was published on 19 February 2026 and reports staff employment as it stood on 1 December 2024. Two of its figures tell you most of what you need to know about this market.</p>
 
-<p><strong>Teaching-only contracts are not a fringe. They are 35% of all academic staff</strong> &mdash; 85,170 people out of 244,755. And they are overwhelmingly part-time: 54,595 of those 85,170 posts are part-time against 30,575 full-time. Teaching-only, part-time work is not the leftovers of the academic job market. It is close to a quarter of the entire academic workforce on its own.</p>
+<p><strong>Teaching-only contracts are not a fringe. They are 35% of all academic staff</strong>: 85,170 people out of 244,755. And they are overwhelmingly part-time: 54,595 of those 85,170 posts are part-time against 30,575 full-time. Teaching-only, part-time work is not the leftovers of the academic job market. It is close to a quarter of the entire academic workforce on its own.</p>
 
 <p>The second figure is the one that explains the hourly rate rather than the headcount. <strong>36% of part-time academic staff were hourly paid in 2024/25, compared with less than 1% of full-time staff.</strong> Being paid by the hour is effectively a part-time condition in this sector, and it is the normal condition of the work this page is about.</p>
 
-<p>There is also a separate population HESA counts apart from all of the above. In 2024/25, <strong>57,365 people held academic atypical contracts &mdash; work that is one-off, shorter than four consecutive weeks, or performed as and when required. Their combined full-time equivalent value was 4,525.</strong> That is roughly one full-time post's worth of work for every thirteen people holding such a contract. It is the clearest evidence available that a very large number of people each do a very small amount of teaching, which is exactly the pattern that never produces an advertised vacancy.</p>
+<p>There is also a separate population HESA counts apart from all of the above. In 2024/25, <strong>57,365 people held academic atypical contracts: work that is one-off, shorter than four consecutive weeks, or performed as and when required. Their combined full-time equivalent value was 4,525.</strong> That is roughly one full-time post's worth of work for every thirteen people holding such a contract. It is the clearest evidence available that a very large number of people each do a very small amount of teaching, which is exactly the pattern that never produces an advertised vacancy.</p>
 
 <p>Now the limits, because they matter more than the numbers. HESA states that academic employment function "relates to the academic contract of employment and not the actual work undertaken", so a teaching-only contract is a description of paperwork rather than of a timetable. The figures are a snapshot of a single day, 1 December 2024, which will miss anyone whose teaching fell in a different term. Atypical staff are returned with only a minimum data set and HESA warns they "form a separate population which is not comparable to those on other contract types". Every count is rounded to the nearest multiple of five.</p>
 
@@ -169,9 +169,9 @@ class AdjunctFacultyVacanciesUkBlogSeeder extends Seeder
 <p>Sessional recruitment follows the academic year rather than a hiring cycle, and approaching at the wrong point in it is the most common avoidable mistake.</p>
 
 <ul>
-    <li><strong>Late spring to early autumn</strong> &mdash; staffing for the autumn term is settled here. This is the single highest-value window and it closes before term starts, not after.</li>
-    <li><strong>Late autumn to January</strong> &mdash; the spring term equivalent, and a smaller window.</li>
-    <li><strong>All year</strong> &mdash; short-notice cover for illness, leave and resignation. This only reaches you if you are already on a register, which is the whole argument for joining one early.</li>
+    <li><strong>Late spring to early autumn</strong>: staffing for the autumn term is settled here. This is the single highest-value window and it closes before term starts, not after.</li>
+    <li><strong>Late autumn to January</strong>: the spring term equivalent, and a smaller window.</li>
+    <li><strong>All year</strong>: short-notice cover for illness, leave and resignation. This only reaches you if you are already on a register, which is the whole argument for joining one early.</li>
 </ul>
 
 <p>Timetables are built weeks before teaching begins. An approach that arrives in week one of term is too late for that term and too early to be remembered for the next, which is why the register matters more than the timing of any single email.</p>
@@ -246,20 +246,20 @@ class AdjunctFacultyVacanciesUkBlogSeeder extends Seeder
 <h2 id="more-guides">More Job Guides</h2>
 
 <ul>
-    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; what a teaching hour actually pays once the multiplier is accounted for.</li>
-    <li><a href="/blog/adjunct-teaching-jobs-in-the-uk">Adjunct Teaching Jobs in the UK</a> &mdash; teaching alongside another career, and the exclusivity clause that does not bind.</li>
-    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the honorary title, conferred by nomination and unpaid.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the sponsorship routes that clear the salary floor.</li>
-    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a> &mdash; the international picture: what a US course section pays, and what the job is called in each country.</li>
+    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a>: what a teaching hour actually pays once the multiplier is accounted for.</li>
+    <li><a href="/blog/adjunct-teaching-jobs-in-the-uk">Adjunct Teaching Jobs in the UK</a>: teaching alongside another career, and the exclusivity clause that does not bind.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a>: the honorary title, conferred by nomination and unpaid.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the sponsorship routes that clear the salary floor.</li>
+    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a>: the international picture: what a US course section pays, and what the job is called in each country.</li>
 </ul>
 
 <h2 id="sources">Official Sources</h2>
 
 <ul>
     <li><a href="https://www.legislation.gov.uk/uksi/2012/2166/made" rel="nofollow noopener" target="_blank">The Further Education Teachers' Qualifications (England) (Amendment) Regulations 2012</a></li>
-    <li><a href="https://www.hesa.ac.uk/news/19-02-2026/sb274-higher-education-staff-statistics" rel="nofollow noopener" target="_blank">HESA &mdash; Statistical Bulletin SB274, Higher Education Staff Statistics: UK, 2024/25</a>, published 19 February 2026, for every staff figure on this page</li>
-    <li><a href="https://www.hesa.ac.uk/support/definitions/staff" rel="nofollow noopener" target="_blank">HESA &mdash; Staff record definitions</a>, for the atypical contract and academic employment function definitions</li>
-    <li><a href="https://www.gov.uk/skilled-worker-visa" rel="nofollow noopener" target="_blank">GOV.UK &mdash; Skilled Worker visa</a>, for the right-to-work position</li>
+    <li><a href="https://www.hesa.ac.uk/news/19-02-2026/sb274-higher-education-staff-statistics" rel="nofollow noopener" target="_blank">HESA: Statistical Bulletin SB274, Higher Education Staff Statistics: UK, 2024/25</a>, published 19 February 2026, for every staff figure on this page</li>
+    <li><a href="https://www.hesa.ac.uk/support/definitions/staff" rel="nofollow noopener" target="_blank">HESA: Staff record definitions</a>, for the atypical contract and academic employment function definitions</li>
+    <li><a href="https://www.gov.uk/skilled-worker-visa" rel="nofollow noopener" target="_blank">GOV.UK: Skilled Worker visa</a>, for the right-to-work position</li>
     <li><a href="https://www.open.ac.uk/" rel="nofollow noopener" target="_blank">The Open University</a>, for its own description of distance tutoring roles</li>
 </ul>
 

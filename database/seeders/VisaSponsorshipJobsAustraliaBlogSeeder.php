@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Visa Sponsorship Jobs in Australia" — the highest-intent migration search
+ * "Visa Sponsorship Jobs in Australia": the highest-intent migration search
  * for Australia, and the one where the standard careers article is written
  * against a visa system that was renamed and restructured underneath it.
  *
@@ -52,7 +52,7 @@ use Illuminate\Support\Str;
  *
  * 6. It never mentions caveats. The departmental page states that caveats
  *    exclude the use of an occupation in certain circumstances and apply to
- *    the ENS Direct Entry stream and the SID visas — which is exactly how an
+ *    the ENS Direct Entry stream and the SID visas, which is exactly how an
  *    otherwise eligible occupation fails a nomination.
  *
  * 7. Its salary bands (AUD 70,000 to 110,000, and 55,000 to 80,000) are not
@@ -173,7 +173,7 @@ class VisaSponsorshipJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check two things in the advertisement: whether the business is an approved sponsor, and whether your occupation carries a caveat.</strong> A caveat can exclude an occupation in particular circumstances even when the occupation itself is eligible, and it is a common reason a nomination fails after an offer has been made.</p>
 
-<p><strong>Note:</strong> salary, sponsorship capacity and eligibility are set by each employer and by the Department of Home Affairs &mdash; not by JobGader. Confirm the current requirements on the departmental website before applying, and never pay an employer for a nomination.</p>
+<p><strong>Note:</strong> salary, sponsorship capacity and eligibility are set by each employer and by the Department of Home Affairs, not by JobGader. Confirm the current requirements on the departmental website before applying, and never pay an employer for a nomination.</p>
 JOBHTML;
     }
 
@@ -191,9 +191,9 @@ JOBHTML;
 <p>If your research keeps returning the phrase "Temporary Skill Shortage (TSS) visa", you are reading material written before the visa was restructured. The Department of Home Affairs now publishes subclass 482 as the <strong>Skills in Demand visa</strong>, and it runs in three streams:</p>
 
 <ul>
-    <li><strong>Core Skills stream</strong> &mdash; the mainstream employer-sponsored route, which uses the Core Skills Occupation List</li>
-    <li><strong>Specialist Skills stream</strong> &mdash; for highly paid specialist roles</li>
-    <li><strong>Labour agreement stream</strong> &mdash; for employers working under a negotiated labour agreement</li>
+    <li><strong>Core Skills stream</strong>: the mainstream employer-sponsored route, which uses the Core Skills Occupation List</li>
+    <li><strong>Specialist Skills stream</strong>: for highly paid specialist roles</li>
+    <li><strong>Labour agreement stream</strong>: for employers working under a negotiated labour agreement</li>
 </ul>
 
 <p>The Core Skills stream lets you stay <strong>up to 4 years</strong>, and <strong>Hong Kong passport holders may stay up to 5 years</strong>. Home Affairs also notes that <strong>from 1 July 2026 a lower visa cost applies to eligible Pacific Island and Timor-Leste citizens</strong> who lodge a valid application.</p>
@@ -204,7 +204,7 @@ JOBHTML;
 
 <p>This is the error that does the most damage, because it sends people to check the wrong list and draw the wrong conclusion about their chances.</p>
 
-<p>Home Affairs publishes a <strong>combined</strong> skilled occupation list. For each occupation it specifies the ANZSCO code, any caveats, the assessing authority for skills assessments, and &mdash; the part that matters &mdash; whether the occupation sits on the:</p>
+<p>Home Affairs publishes a <strong>combined</strong> skilled occupation list. For each occupation it specifies the ANZSCO code, any caveats, the assessing authority for skills assessments, and, the part that matters, whether the occupation sits on the:</p>
 
 <ul>
     <li><strong>Core Skills Occupation List (CSOL)</strong></li>
@@ -217,7 +217,7 @@ JOBHTML;
 
 <p>So "is my occupation on the Skilled Occupation List?" is not a question that has an answer. The question is: <em>is my occupation on the list that my visa stream uses?</em> A nurse, a carpenter and an electrician all appear on the Core Skills Occupation List. A taxi driver does not appear on it at all. Same country, same combined list, entirely different answers.</p>
 
-<p>One more warning that most guides skip entirely. The combined list also flags <strong>caveats, which exclude the use of an occupation in certain circumstances</strong>, and these apply to the ENS Direct Entry stream and to the SID visas. A caveat is how a job that looks eligible on paper fails at nomination &mdash; because of the size of the business, the nature of the position, or the salary attached to it. Check the caveat before you accept an offer, not after.</p>
+<p>One more warning that most guides skip entirely. The combined list also flags <strong>caveats, which exclude the use of an occupation in certain circumstances</strong>, and these apply to the ENS Direct Entry stream and to the SID visas. A caveat is how a job that looks eligible on paper fails at nomination, because of the size of the business, the nature of the position, or the salary attached to it. Check the caveat before you accept an offer, not after.</p>
 
 <p>Finally, treat any list you find on a blog as a summary. Home Affairs is explicit that the current list of eligible skilled occupations for a visa programme is in that programme's <strong>legislative instrument</strong>. That is the authoritative source, and it is the one that changes.</p>
 
@@ -228,8 +228,8 @@ JOBHTML;
 <p>The structure of the obligation is what you need to understand, because it is a two-part test and most readers only know about one part:</p>
 
 <ul>
-    <li><strong>The income threshold</strong> &mdash; a floor below which a nomination cannot be approved at all</li>
-    <li><strong>The annual market salary rate</strong> &mdash; what an Australian doing that same job in that same workplace would be paid</li>
+    <li><strong>The income threshold</strong>: a floor below which a nomination cannot be approved at all</li>
+    <li><strong>The annual market salary rate</strong>: what an Australian doing that same job in that same workplace would be paid</li>
 </ul>
 
 <p><strong>The nomination must satisfy both, which in practice means whichever is higher.</strong> If Australians in that role are paid well above the threshold, meeting the threshold alone is not enough. This is the provision that stops sponsorship from becoming a route to cheap labour, and it is the one to point at if a prospective employer suggests a "sponsorship discount" on your salary.</p>
@@ -246,7 +246,7 @@ JOBHTML;
 
 <p><strong>The Temporary Residence Transition streams in the subclass 186 and 187 programmes do not have an occupation list.</strong> Occupation eligibility is based on <strong>the occupation from your most recently held temporary skilled visa</strong>.</p>
 
-<p>Think about what that means for the order of your decisions. The occupation that decides whether you can transition to permanent residence is the one you were sponsored in years earlier. If your occupation later comes off a list, the transition stream is not reading that list &mdash; it is reading your visa history. And conversely, taking a sponsored role in an occupation that does not match your long-term intentions locks that occupation into your permanent residence pathway.</p>
+<p>Think about what that means for the order of your decisions. The occupation that decides whether you can transition to permanent residence is the one you were sponsored in years earlier. If your occupation later comes off a list, the transition stream is not reading that list: it is reading your visa history. And conversely, taking a sponsored role in an occupation that does not match your long-term intentions locks that occupation into your permanent residence pathway.</p>
 
 <p>The 186 also has a Direct Entry stream, which does use the combined list and is where caveats bite. The two streams behave differently, and knowing which one you are heading for changes what you should check.</p>
 
@@ -254,18 +254,18 @@ JOBHTML;
 
 <p>Subclass 494, the Skilled Employer Sponsored Regional (Provisional) visa, <strong>enables regional employers to address identified labour shortages within their region by sponsoring skilled workers where employers cannot source an appropriately skilled Australian worker</strong>.</p>
 
-<p>Two things follow that guides tend to blur. First, it is a <em>provisional</em> visa: it is a defined stage with its own conditions, not a lighter version of the 482. Second, the incentive that makes regional employers more willing to sponsor is the same fact that makes the shortage real &mdash; they genuinely cannot fill the role locally. That is a strong position for a candidate who actually wants to live regionally, and a poor one for a candidate treating a regional visa as a back door to a capital city.</p>
+<p>Two things follow that guides tend to blur. First, it is a <em>provisional</em> visa: it is a defined stage with its own conditions, not a lighter version of the 482. Second, the incentive that makes regional employers more willing to sponsor is the same fact that makes the shortage real: they genuinely cannot fill the role locally. That is a strong position for a candidate who actually wants to live regionally, and a poor one for a candidate treating a regional visa as a back door to a capital city.</p>
 
 <h2>Where Sponsorship Actually Happens</h2>
 
-<p>Sponsorship follows shortage, and shortage is occupation-specific rather than industry-wide. Healthcare is the clearest case: nursing occupations appear extensively on the Core Skills Occupation List. Construction and the licensed trades are well represented &mdash; carpenters and electricians both appear. Engineering, information technology, agriculture, hospitality at the chef and management level, and teaching in hard-to-staff subjects all generate nominations.</p>
+<p>Sponsorship follows shortage, and shortage is occupation-specific rather than industry-wide. Healthcare is the clearest case: nursing occupations appear extensively on the Core Skills Occupation List. Construction and the licensed trades are well represented: carpenters and electricians both appear. Engineering, information technology, agriculture, hospitality at the chef and management level, and teaching in hard-to-staff subjects all generate nominations.</p>
 
 <p>What does not generate nominations is instructive too. Occupations that Australia has no shortage in do not appear on the list at all, regardless of how many vacancies are advertised. A job being hard to fill locally and an occupation being sponsorable are two different things, and only the second one is decided by the legislative instrument.</p>
 
 <h2>How to Approach It</h2>
 
 <ul>
-    <li><strong>Find your ANZSCO code first.</strong> Everything downstream &mdash; list membership, caveats, assessing authority, market salary comparison &mdash; is organised by occupation code, not job title</li>
+    <li><strong>Find your ANZSCO code first.</strong> Everything downstream, list membership, caveats, assessing authority, market salary comparison, is organised by occupation code, not job title</li>
     <li><strong>Check the list your stream uses,</strong> then check the caveats attached to your occupation, then confirm both in the legislative instrument</li>
     <li><strong>Start the skills assessment early</strong> if your occupation and stream require one; assessing authorities set their own timeframes</li>
     <li><strong>Target approved sponsors.</strong> A business that has sponsored before knows the process; one that has not must first be approved as a sponsor, which adds a stage before your visa can even be lodged</li>
@@ -308,12 +308,12 @@ JOBHTML;
 <h2>People Also Search For</h2>
 
 <ul>
-    <li><strong>Skills in Demand visa 482 occupation list</strong> &mdash; the Core Skills stream uses the Core Skills Occupation List, confirmed in the legislative instrument</li>
-    <li><strong>TSMIT 2026 Australia</strong> &mdash; the threshold for a 482 nomination is now the Core Skills Income Threshold, indexed and published by Home Affairs</li>
-    <li><strong>Companies that sponsor visas in Australia</strong> &mdash; only businesses approved as sponsors can nominate, which is the first of three separate approvals</li>
-    <li><strong>186 visa Temporary Residence Transition requirements</strong> &mdash; no occupation list applies; eligibility follows your most recently held temporary skilled visa</li>
-    <li><strong>494 regional sponsored visa Australia</strong> &mdash; provisional, for regional employers with identified local shortages</li>
-    <li><strong>ANZSCO code list Australia</strong> &mdash; the code, not the job title, decides list membership, caveats and the assessing authority</li>
+    <li><strong>Skills in Demand visa 482 occupation list</strong>: the Core Skills stream uses the Core Skills Occupation List, confirmed in the legislative instrument</li>
+    <li><strong>TSMIT 2026 Australia</strong>: the threshold for a 482 nomination is now the Core Skills Income Threshold, indexed and published by Home Affairs</li>
+    <li><strong>Companies that sponsor visas in Australia</strong>: only businesses approved as sponsors can nominate, which is the first of three separate approvals</li>
+    <li><strong>186 visa Temporary Residence Transition requirements</strong>: no occupation list applies; eligibility follows your most recently held temporary skilled visa</li>
+    <li><strong>494 regional sponsored visa Australia</strong>: provisional, for regional employers with identified local shortages</li>
+    <li><strong>ANZSCO code list Australia</strong>: the code, not the job title, decides list membership, caveats and the assessing authority</li>
 </ul>
 
 <h2>More Job Guides</h2>
@@ -326,15 +326,15 @@ JOBHTML;
     <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a></li>
     <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a></li>
     <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a></li>
-    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a> &mdash; a genuinely sponsorable aged care route and its real award pay.</li>
-    <li><a href="/blog/how-to-become-a-sales-representative-in-australia">How to Become a Sales Representative in Australia</a> &mdash; the licence, working rights and training employers ask for, and the award floor under field sales pay.</li>
-    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a> &mdash; the apprenticeship, the AUR30620 qualification, award pay for apprentices and the routes for overseas-trained mechanics.</li>
-    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a> &mdash; every route in compared: employer sponsorship, skilled visas without a job offer, working holidays, the PALM scheme and student work rights.</li>
-    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a> &mdash; award pay, the new gig minimum standards order, ABN and GST rules.</li>
-    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a> &mdash; the no-experience pathways, what the FutureFit Academy really offers and official pay benchmarks.</li>
-    <li><a href="/blog/how-to-apply-for-qantas-ground-staff-jobs-in-australia">How to Apply for Qantas Ground Staff Jobs in Australia</a> &mdash; the pay Qantas will not publish, from the agreement that does.</li>
-    <li><a href="/blog/how-to-apply-for-woolworths-supermarket-jobs-in-australia">How to Apply for Woolworths Supermarket Jobs in Australia</a> &mdash; why supermarket work sits on no occupation list, and the visas that do allow it.</li>
-    <li><a href="/blog/how-to-apply-for-csl-laboratory-jobs-in-australia">How to Apply for CSL Laboratory Jobs in Australia</a> &mdash; a worked example: which lab codes are sponsorable and which are PR-only.</li>
+    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a>: a genuinely sponsorable aged care route and its real award pay.</li>
+    <li><a href="/blog/how-to-become-a-sales-representative-in-australia">How to Become a Sales Representative in Australia</a>: the licence, working rights and training employers ask for, and the award floor under field sales pay.</li>
+    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a>: the apprenticeship, the AUR30620 qualification, award pay for apprentices and the routes for overseas-trained mechanics.</li>
+    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a>: every route in compared: employer sponsorship, skilled visas without a job offer, working holidays, the PALM scheme and student work rights.</li>
+    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a>: award pay, the new gig minimum standards order, ABN and GST rules.</li>
+    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a>: the no-experience pathways, what the FutureFit Academy really offers and official pay benchmarks.</li>
+    <li><a href="/blog/how-to-apply-for-qantas-ground-staff-jobs-in-australia">How to Apply for Qantas Ground Staff Jobs in Australia</a>: the pay Qantas will not publish, from the agreement that does.</li>
+    <li><a href="/blog/how-to-apply-for-woolworths-supermarket-jobs-in-australia">How to Apply for Woolworths Supermarket Jobs in Australia</a>: why supermarket work sits on no occupation list, and the visas that do allow it.</li>
+    <li><a href="/blog/how-to-apply-for-csl-laboratory-jobs-in-australia">How to Apply for CSL Laboratory Jobs in Australia</a>: a worked example: which lab codes are sponsorable and which are PR-only.</li>
 </ul>
 HTML;
     }

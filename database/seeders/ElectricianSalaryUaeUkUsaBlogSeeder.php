@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Electrician Salary in the UAE, UK and USA" — the pay half of the
+ * "Electrician Salary in the UAE, UK and USA": the pay half of the
  * electrician cluster, built only on figures a government, a statutory body
  * or a collective agreement publishes: BLS OEWS May 2025 for the US, the
  * 2026 JIB national working rules for the UK, and UAE federal law for what
@@ -97,7 +97,7 @@ class ElectricianSalaryUaeUkUsaBlogSeeder extends Seeder
         );
 
         $ukAdvertiser = Advertiser::firstOrCreate(
-            ['name' => 'UK Electrical Contracting Employers — JIB Graded Roles (Aggregated)'],
+            ['name' => 'UK Electrical Contracting Employers: JIB Graded Roles (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'uk-jib-electrician-aggregated']
         );
 
@@ -400,13 +400,13 @@ JOBHTML;
 <p>The rest of the electrician cluster, and the trades around it:</p>
 
 <ul>
-    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a> &mdash; the Canadian and Australian certification and visa routes.</li>
-    <li><a href="/blog/industrial-vs-house-wiring-electrician-which-pays-more">Industrial vs House Wiring Electrician: Which Pays More</a> &mdash; what the BLS industry data shows.</li>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; the wiring regulations, Part P and what CIS takes from a day rate.</li>
-    <li><a href="/blog/plumber-salary-in-the-uk-and-usa">Plumber Salary in the UK and USA</a> &mdash; the same comparison for the plumbing trade.</li>
-    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a> &mdash; recruitment costs and the Saudi trade exam.</li>
-    <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a> &mdash; the same Gulf pay rules for AC work, and the summer midday break.</li>
-    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a> &mdash; how the Skilled Worker route and the shortage list work.</li>
+    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a>: the Canadian and Australian certification and visa routes.</li>
+    <li><a href="/blog/industrial-vs-house-wiring-electrician-which-pays-more">Industrial vs House Wiring Electrician: Which Pays More</a>: what the BLS industry data shows.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: the wiring regulations, Part P and what CIS takes from a day rate.</li>
+    <li><a href="/blog/plumber-salary-in-the-uk-and-usa">Plumber Salary in the UK and USA</a>: the same comparison for the plumbing trade.</li>
+    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a>: recruitment costs and the Saudi trade exam.</li>
+    <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a>: the same Gulf pay rules for AC work, and the summer midday break.</li>
+    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a>: how the Skilled Worker route and the shortage list work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or employment advice. Pay rates and immigration rules change; confirm current figures with bls.gov, the Joint Industry Board, gov.uk and u.ae before relying on them.</p>

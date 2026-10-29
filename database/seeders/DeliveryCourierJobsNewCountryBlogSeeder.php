@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Delivery Driver and Courier Jobs: How to Start in a New Country" — the
+ * "Delivery Driver and Courier Jobs: How to Start in a New Country": the
  * cross-country starter page for delivery work. The country pages already
  * cover pay and employers; this one covers the order of steps: work
  * authorisation first, then the local licence, then the employment status.
@@ -333,12 +333,12 @@ JOBHTML;
 <p>Country guides and related driving work:</p>
 
 <ul>
-    <li><a href="/blog/taxi-and-uber-driver-requirements-by-country">Taxi and Uber Driver Requirements by Country</a> &mdash; the permits for passenger driving.</li>
-    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a> &mdash; licence categories, exchange and the full rider rules.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; UK employers and pay.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; the US market.</li>
-    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a> &mdash; the Australian market.</li>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; the Saudi route.</li>
+    <li><a href="/blog/taxi-and-uber-driver-requirements-by-country">Taxi and Uber Driver Requirements by Country</a>: the permits for passenger driving.</li>
+    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a>: licence categories, exchange and the full rider rules.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: UK employers and pay.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: the US market.</li>
+    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a>: the Australian market.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: the Saudi route.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or career advice. UAE rules are from MOHRE, the RTA and u.ae; UK visa rules from GOV.UK. Confirm them before applying.</p>

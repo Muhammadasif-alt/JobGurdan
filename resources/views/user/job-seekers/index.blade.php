@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 
-@section('title', 'Browse Job Seekers — Hire Verified Talent | JobGader')
+@section('title', 'Browse Job Seekers: Hire Verified Talent | JobGader')
 @section('meta_description', 'Browse job seeker profiles on JobGader. Search by name, username or skill, and contact candidates directly. Free for employers and candidates alike.')
 
 @section('meta_robots', ($stats['total_seekers'] ?? 0) > 0 ? 'index, follow' : 'noindex, follow')
@@ -164,7 +164,7 @@
     /* Pagination */
     .js-pagination { margin-top: 36px; }
 
-    /* === FAQs — 2-column layout (heading+CTA left, accordion right) === */
+    /* === FAQs: 2-column layout (heading+CTA left, accordion right) === */
     .js-faq-section { background: #fff; padding: 70px 0; border-top: 1px solid #ececec; border-bottom: 1px solid #ececec; }
     .js-faq-grid {
         display: grid;
@@ -353,7 +353,7 @@
         <div class="container">
             <span class="eyebrow" data-aos="fade-down" data-aos-duration="600"><i class="icon-feather-users"></i> Candidate Directory</span>
             <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Meet professionals <span class="accent">ready to work</span></h1>
-            <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Candidates who have chosen to make their profile public, searchable by name, username or skill. Free to browse and free to contact — no recruiter subscription, no per-message charge.</p>
+            <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Candidates who have chosen to make their profile public, searchable by name, username or skill. Free to browse and free to contact: no recruiter subscription, no per-message charge.</p>
 
             <form action="{{ route('job-seekers.index') }}" method="GET" class="js-search-box"
                   data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
@@ -409,7 +409,7 @@
                                     </span>
                                 </div>
                             </div>
-                            <p class="js-card-headline">{{ $profile['headline'] ?: 'Profile in progress — no headline yet.' }}</p>
+                            <p class="js-card-headline">{{ $profile['headline'] ? 'Profile in progress: no headline yet.' }}</p>
                             <div class="js-skills">
                                 @foreach(array_slice($profile['skills'], 0, 4) as $skill)
                                     <span class="js-skill">{{ $skill }}</span>
@@ -451,7 +451,7 @@
                 <div class="js-faq-head">
                     <span class="eyebrow">FAQ</span>
                     <h2>Common questions from <span class="accent">employers</span></h2>
-                    <p>Everything you need to know about hiring through JobGader — from contact options to candidate verification and pricing.</p>
+                    <p>Everything you need to know about hiring through JobGader: from contact options to candidate verification and pricing.</p>
                     <a href="{{ route('register') }}" class="js-faq-cta">Get Started Free <i class="icon-feather-arrow-right"></i></a>
                 </div>
 
@@ -462,7 +462,7 @@
                 </details>
                 <details class="js-faq">
                     <summary>Are these candidates verified?</summary>
-                    <div class="js-faq-body">Accounts confirm their email address before they can publish, and every profile is written by the candidate themselves. We do not vet employment history — treat a profile as a candidate's own claim, and check their portfolio links and references as you would with any application.</div>
+                    <div class="js-faq-body">Accounts confirm their email address before they can publish, and every profile is written by the candidate themselves. We do not vet employment history: treat a profile as a candidate's own claim, and check their portfolio links and references as you would with any application.</div>
                 </details>
                 <details class="js-faq">
                     <summary>Is there a cost to browse job seekers?</summary>
@@ -470,7 +470,7 @@
                 </details>
                 <details class="js-faq">
                     <summary>Can I filter candidates by skill or location?</summary>
-                    <div class="js-faq-body">Yes — use the search bar at the top to find candidates by name, username, or specific skills. Each card also shows the candidate's preferred city so you can spot regional matches at a glance.</div>
+                    <div class="js-faq-body">Yes: use the search bar at the top to find candidates by name, username, or specific skills. Each card also shows the candidate's preferred city so you can spot regional matches at a glance.</div>
                 </details>
                 <details class="js-faq">
                     <summary>How fresh are these profiles?</summary>
@@ -478,7 +478,7 @@
                 </details>
                 <details class="js-faq">
                     <summary>Can job seekers reach out to me first?</summary>
-                    <div class="js-faq-body">Absolutely. When you post a job, candidates can apply directly through the listing — those applications appear in your company dashboard alongside the candidate's profile and contact info.</div>
+                    <div class="js-faq-body">Absolutely. When you post a job, candidates can apply directly through the listing: those applications appear in your company dashboard alongside the candidate's profile and contact info.</div>
                 </details>
                 </div>
             </div>
@@ -486,7 +486,7 @@
     </section>
 
     {{-- ============================================================
-         Why Job Seekers Choose Us — 4-card horizontal row
+         Why Job Seekers Choose Us: 4-card horizontal row
          ============================================================ --}}
     <section class="jsk-why-section">
         <div class="container">
@@ -521,7 +521,7 @@
     </section>
 
     {{-- ============================================================
-         Success Rate / Why Job Search With Us — SEO row
+         Success Rate / Why Job Search With Us: SEO row
          ============================================================ --}}
     <section class="jsk-seo-section">
         <div class="container">
@@ -537,10 +537,10 @@
                         You can unpublish at any time, and doing so removes you from this directory straight away.
                     </p>
                     <ul class="jsk-seo-list">
-                        <li><i class="icon-feather-check-circle"></i> <strong>You choose</strong> — nothing is published without your say-so</li>
-                        <li><i class="icon-feather-check-circle"></i> <strong>No fee</strong> — free to list and free for employers to contact you</li>
-                        <li><i class="icon-feather-check-circle"></i> <strong>Reversible</strong> — unpublish and you leave the directory immediately</li>
-                        <li><i class="icon-feather-check-circle"></i> <strong>Never sold</strong> — your details are not passed to data brokers</li>
+                        <li><i class="icon-feather-check-circle"></i> <strong>You choose</strong>: nothing is published without your say-so</li>
+                        <li><i class="icon-feather-check-circle"></i> <strong>No fee</strong>: free to list and free for employers to contact you</li>
+                        <li><i class="icon-feather-check-circle"></i> <strong>Reversible</strong>: unpublish and you leave the directory immediately</li>
+                        <li><i class="icon-feather-check-circle"></i> <strong>Never sold</strong>: your details are not passed to data brokers</li>
                     </ul>
                 </div>
                 <div class="jsk-seo-visual">
@@ -600,7 +600,7 @@
                 <div class="js-spotlight-content">
                     <span class="eyebrow">Your Career, Your Pace</span>
                     <h2>Be found for the roles <span class="accent">nobody advertised</span></h2>
-                    <p>A profile takes a few minutes, costs nothing, and can be unpublished whenever you want. You do not need one to apply for jobs here — every listing is open without an account.</p>
+                    <p>A profile takes a few minutes, costs nothing, and can be unpublished whenever you want. You do not need one to apply for jobs here: every listing is open without an account.</p>
                     <ul class="js-spotlight-list">
                         <li><i class="icon-feather-check"></i> Free to list, and free for employers to contact you</li>
                         <li><i class="icon-feather-check"></i> You decide what is public and can reverse it at any time</li>
@@ -751,8 +751,8 @@
 .jsk-trust-stat strong {
     display: block; font-size: clamp(28px, 3vw, 40px); font-weight: 800;
     letter-spacing: -.5px; margin-bottom: 6px;
-    /* This band is navy, and the gradient used to start on #1b3a6b — the same
-       colour as the background behind it — so the left of every figure was
+    /* This band is navy, and the gradient used to start on #1b3a6b: the same
+       colour as the background behind it, so the left of every figure was
        invisible in both themes. Flat light blue reads against the band. */
     color: #8fc4f0;
 }
@@ -781,15 +781,15 @@ html.dark-mode .jsk-float-badge { background: var(--site-card-bg) !important; bo
 html.dark-mode .jsk-float-badge .text strong { color: #fff !important; }
 html.dark-mode .jsk-float-badge .text span { color: var(--site-muted) !important; }
 
-/* ==== Job Seekers — full dark-mode coverage (hero stats, cards, FAQ, CTA) ==== */
+/* ==== Job Seekers: full dark-mode coverage (hero stats, cards, FAQ, CTA) ==== */
 html.dark-mode .js-page { background: var(--site-bg, #0f1216) !important; }
 
-/* Hero stats — brighten so they read well over the photo + overlay */
+/* Hero stats: brighten so they read well over the photo + overlay */
 html.dark-mode .js-hero-stats { border-top-color: rgba(255,255,255,.20) !important; }
 html.dark-mode .js-hero-stats .stat strong { color: #ffffff !important; text-shadow: 0 1px 4px rgba(0,0,0,.6); }
 html.dark-mode .js-hero-stats .stat span  { color: rgba(255,255,255,.88) !important; text-shadow: 0 1px 3px rgba(0,0,0,.5); }
 
-/* Hero search box — switch button to brand orange so it pops on dark hero */
+/* Hero search box: switch button to brand orange so it pops on dark hero */
 html.dark-mode .js-search-box {
     background: rgba(255,255,255,.96) !important;
     box-shadow: 0 24px 48px rgba(0,0,0,.55) !important;
@@ -902,7 +902,7 @@ html.dark-mode .js-spotlight-btn.outline:hover {
     color: #fff !important;
 }
 
-/* Why-job-seeker icon containers — orange in dark mode (was black) */
+/* Why-job-seeker icon containers: orange in dark mode (was black) */
 html.dark-mode .jsk-why-ico {
     background: linear-gradient(135deg, #1b3a6b, #2f7fc9) !important;
     box-shadow: 0 6px 14px rgba(27, 58, 107,.30) !important;

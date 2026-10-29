@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for BHP Mining Jobs in Australia" — an employer guide built
+ * "How to Apply for BHP Mining Jobs in Australia": an employer guide built
  * on BHP's own careers pages, with the Mining Industry Award and ABS earnings
  * data standing in for the pay BHP does not publish.
  *
@@ -155,7 +155,7 @@ class BhpMiningJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, rosters and eligibility are set by BHP, and minimum rates are set by the Fair Work Commission &mdash; not by JobGader. BHP states it never seeks any funds from job applicants at any stage of recruitment.</p>
+<p><strong>Note:</strong> pay, rosters and eligibility are set by BHP, and minimum rates are set by the Fair Work Commission, not by JobGader. BHP states it never seeks any funds from job applicants at any stage of recruitment.</p>
 JOBHTML;
     }
 
@@ -238,7 +238,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>The number that matters is the comparison: <strong>mining pays roughly 55% above the all-industry average</strong>. That gap, not any particular job board estimate, is the honest reason people move into this work. The award floor is only the legal minimum &mdash; BHP and every other major miner pay above it, and ordinary time earnings exclude the overtime and allowances that make up a large part of a roster worker's income.</p>
+<p>The number that matters is the comparison: <strong>mining pays roughly 55% above the all-industry average</strong>. That gap, not any particular job board estimate, is the honest reason people move into this work. The award floor is only the legal minimum: BHP and every other major miner pay above it, and ordinary time earnings exclude the overtime and allowances that make up a large part of a roster worker's income.</p>
 
 <p>One caution on the direction of travel: Jobs and Skills Australia records employment in the drillers, miners and shot firers occupation <strong>falling by about 1,200 a year</strong>. Mining pays well; it is not a growing headcount.</p>
 
@@ -339,14 +339,14 @@ JOBHTML;
 <p>Looking at Australian work more widely? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; the closest trade market and its award rates.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; which Australian jobs can actually be sponsored.</li>
-    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; other entry-level routes and what they pay.</li>
-    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a> &mdash; award pay and the new gig minimum standards.</li>
-    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; another licensed trade route.</li>
-    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a> &mdash; the visa side for overseas applicants.</li>
-    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a> &mdash; another resources giant that publishes no pay figure.</li>
-    <li><a href="/blog/how-to-apply-for-qantas-ground-staff-jobs-in-australia">How to Apply for Qantas Ground Staff Jobs in Australia</a> &mdash; the pay Qantas will not publish, from the agreement that does.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: the closest trade market and its award rates.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>, which Australian jobs can actually be sponsored.</li>
+    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a>: other entry-level routes and what they pay.</li>
+    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a>: award pay and the new gig minimum standards.</li>
+    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a>: another licensed trade route.</li>
+    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a>: the visa side for overseas applicants.</li>
+    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a>: another resources giant that publishes no pay figure.</li>
+    <li><a href="/blog/how-to-apply-for-qantas-ground-staff-jobs-in-australia">How to Apply for Qantas Ground Staff Jobs in Australia</a>: the pay Qantas will not publish, from the agreement that does.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using BHP's own careers, FutureFit Academy, recruitment process and fraud warning pages, the Fair Work Mining Industry Award pay guide, ABS average weekly earnings and Jobs and Skills Australia occupation data. BHP does not publish pay for individual roles, and rosters and intakes change. Always check the live posting before you apply.</p>

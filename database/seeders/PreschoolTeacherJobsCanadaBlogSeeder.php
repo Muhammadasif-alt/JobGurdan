@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Preschool Teacher Jobs in Canada" — in Canada the job is filed as an early
+ * "Preschool Teacher Jobs in Canada": in Canada the job is filed as an early
  * childhood educator (NOC 42202), so this guide translates the search into the
  * ECE system: the college program, provincial registration, Job Bank wages and
  * provincial wage top-ups, the employers that hire, and what internationally
@@ -157,7 +157,7 @@ class PreschoolTeacherJobsCanadaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> wages, certification levels and hiring requirements are set by each employer and province &mdash; not by JobGader. Confirm the details on the employer's own posting before applying.</p>
+<p><strong>Note:</strong> wages, certification levels and hiring requirements are set by each employer and province, not by JobGader. Confirm the details on the employer's own posting before applying.</p>
 JOBHTML;
     }
 
@@ -367,12 +367,12 @@ JOBHTML;
 <p>Planning a career with children or a move to Canada? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; work permits and the sectors that hire from abroad.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; the LMIA and the routes to permanent residence.</li>
-    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a> &mdash; another provincially regulated career with a college route.</li>
-    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; school teaching certification across the border.</li>
-    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; teaching from home while you get qualified.</li>
-    <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a> &mdash; the job title in each state, WA pay of $34.75 to $43.28 an hour, and the checks and certificates schools ask for.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: work permits and the sectors that hire from abroad.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: the LMIA and the routes to permanent residence.</li>
+    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a>: another provincially regulated career with a college route.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a>: school teaching certification across the border.</li>
+    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a>: teaching from home while you get qualified.</li>
+    <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a>: the job title in each state, WA pay of $34.75 to $43.28 an hour, and the checks and certificates schools ask for.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not immigration advice. Wages, certification rules, wage top-ups and immigration categories change over time. Confirm the current position with Job Bank, your province's early childhood education office, the employer and Immigration, Refugees and Citizenship Canada before relying on it.</p>

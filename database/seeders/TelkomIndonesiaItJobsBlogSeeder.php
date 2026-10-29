@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Telkom Indonesia IT Jobs" — a guide whose central finding is
+ * "How to Apply for Telkom Indonesia IT Jobs": a guide whose central finding is
  * that the registration form asks for a document only Indonesians hold, so for
  * most people searching this phrase the honest answer is no before they start.
  *
@@ -161,7 +161,7 @@ class TelkomIndonesiaItJobsBlogSeeder extends Seeder
 <h3>Pay and fees</h3>
 <p>Telkom publishes no salary for any band or role. It states that it charges no fees at any stage of recruitment, citing its ISO 37001:2016 anti-bribery management system.</p>
 
-<p>Eligibility, documents, recruitment windows and immigration rules are set by Telkom and the Indonesian authorities &mdash; not by JobGader. Confirm the requirements on the live posting, and never pay anyone to secure a job.</p>
+<p>Eligibility, documents, recruitment windows and immigration rules are set by Telkom and the Indonesian authorities, not by JobGader. Confirm the requirements on the live posting, and never pay anyone to secure a job.</p>
 JOBHTML;
     }
 
@@ -184,8 +184,8 @@ JOBHTML;
 <p>We read Telkom's official recruitment FAQ. The KTP appears in five separate places, and together they close the door:</p>
 
 <ul>
-    <li><strong>Creating an account:</strong> "Untuk bisa melakukan registrasi/pendaftaran akun di Website Recruitment Telkom Indonesia, persiapkan <strong>No KTP</strong>, nama lengkap, email yang aktif, dan password." &mdash; prepare your KTP number, full name, an active email and a password.</li>
-    <li><strong>It is the unique account key.</strong> The duplicate-account error reads "alamat email atau KTP Anda sudah terdaftar" &mdash; your email or KTP is already registered.</li>
+    <li><strong>Creating an account:</strong> "Untuk bisa melakukan registrasi/pendaftaran akun di Website Recruitment Telkom Indonesia, persiapkan <strong>No KTP</strong>, nama lengkap, email yang aktif, dan password.": prepare your KTP number, full name, an active email and a password.</li>
+    <li><strong>It is the unique account key.</strong> The duplicate-account error reads "alamat email atau KTP Anda sudah terdaftar": your email or KTP is already registered.</li>
     <li><strong>Re-registration</strong> uses "ID KTP dan alamat email yang sama".</li>
     <li><strong>The helpdesk</strong> asks you to include "Nama Lengkap / No KTP / Email yang didaftarkan".</li>
     <li><strong>It is a mandatory upload.</strong> The document list is headed "dokumen wajib" and the first item is KTP.</li>
@@ -239,7 +239,7 @@ JOBHTML;
     </tbody>
 </table>
 
-<p>Telkom states that "Entry level program rekrut Fresh Graduate Telkom yaitu di Band Posisi VI". Note what that means: <strong>Band VI is not the bottom of the ladder</strong> &mdash; VII sits below it. VI is specifically where the graduate programme starts.</p>
+<p>Telkom states that "Entry level program rekrut Fresh Graduate Telkom yaitu di Band Posisi VI". Note what that means: <strong>Band VI is not the bottom of the ladder</strong>: VII sits below it. VI is specifically where the graduate programme starts.</p>
 
 <p>Telkom publishes no salary for any band. Every "Telkom salary" table online is an estimate site guessing, and we will not repeat a guess.</p>
 
@@ -249,15 +249,15 @@ JOBHTML;
 
 <ul>
     <li>KTP</li>
-    <li>Ijazah &mdash; degree certificate, combined into one PDF if you have several</li>
-    <li>Transkrip nilai &mdash; academic transcript, same rule</li>
+    <li>Ijazah: degree certificate, combined into one PDF if you have several</li>
+    <li>Transkrip nilai: academic transcript, same rule</li>
     <li>An English language certificate such as TOEFL or IELTS</li>
     <li>Kreatif CV</li>
     <li>A photograph, uploaded through the Daftar Riwayat Hidup menu</li>
-    <li>A work experience letter &mdash; only if you already have work experience</li>
+    <li>A work experience letter: only if you already have work experience</li>
 </ul>
 
-<p>One useful quirk: <strong>the roles you are shown depend on your degree.</strong> Telkom's FAQ explains that "Pilihan Job Role/Job Function yang muncul disesuaikan dengan jurusan Anda" &mdash; the options shown are adjusted to your academic major, and roles that do not match your major will not appear at all. If you cannot see the job you want, your major is the likely reason.</p>
+<p>One useful quirk: <strong>the roles you are shown depend on your degree.</strong> Telkom's FAQ explains that "Pilihan Job Role/Job Function yang muncul disesuaikan dengan jurusan Anda": the options shown are adjusted to your academic major, and roles that do not match your major will not appear at all. If you cannot see the job you want, your major is the likely reason.</p>
 
 <p>Once submitted, an "Applicant Journey" appears under the "Lamaran Saya" menu. Telkom says that is how you confirm your application was received, and where you track each selection stage.</p>
 
@@ -265,7 +265,7 @@ JOBHTML;
 
 <p>The internship is genuine. The way it is usually described is not.</p>
 
-<p>Telkom's newsroom announced Digistar Class Intern 2026 Batch 1 on 4 February 2026, describing "program magang intensif selama lima bulan" &mdash; a five-month intensive internship &mdash; focused on <strong>Artificial Intelligence and Business to Business (B2B) Solutions</strong>, open to active students in at least their sixth semester.</p>
+<p>Telkom's newsroom announced Digistar Class Intern 2026 Batch 1 on 4 February 2026, describing "program magang intensif selama lima bulan", a five-month intensive internship, focused on <strong>Artificial Intelligence and Business to Business (B2B) Solutions</strong>, open to active students in at least their sixth semester.</p>
 
 <p>But the dates matter: <strong>registration opened on 31 January 2026 and closed on 8 February 2026.</strong> Not "February", and long closed. A five-month programme starting then has already finished. Any guide writing about it in the present tense is more than seven months out of date.</p>
 
@@ -280,9 +280,9 @@ JOBHTML;
 
 <p>Both are real, and both are worth understanding before you mention them in an interview.</p>
 
-<p><strong>AIcosystem</strong> launched on 4 June 2026 &mdash; "sebuah ekosistem AI terpadu yang menyatukan kapabilitas AI di lingkungan TelkomGroup", an integrated AI ecosystem uniting AI capability across the group, built on three layers: AI Infrastructure, AI Models and Platform, and AI Solutions and Applications.</p>
+<p><strong>AIcosystem</strong> launched on 4 June 2026: "sebuah ekosistem AI terpadu yang menyatukan kapabilitas AI di lingkungan TelkomGroup", an integrated AI ecosystem uniting AI capability across the group, built on three layers: AI Infrastructure, AI Models and Platform, and AI Solutions and Applications.</p>
 
-<p><strong>SCALE</strong> launched on 17 September 2026, aligning technology "architecture, standard, governance, dan compliance" across TelkomGroup. It is an acronym for five pillars &mdash; Synergize, Culture, Automate, Lead, Expand &mdash; covering 13 strategic programmes including an AI Center of Excellence and a cybersecurity operating model.</p>
+<p><strong>SCALE</strong> launched on 17 September 2026, aligning technology "architecture, standard, governance, dan compliance" across TelkomGroup. It is an acronym for five pillars, Synergize, Culture, Automate, Lead, Expand, covering 13 strategic programmes including an AI Center of Excellence and a cybersecurity operating model.</p>
 
 <p><strong>Neither is a hiring announcement.</strong> SCALE in particular is an internal transformation programme. Do not read either as "Telkom is recruiting thousands of AI engineers", because Telkom has not said that.</p>
 
@@ -310,7 +310,7 @@ JOBHTML;
 
 <p>Telkom also states it works with no third party for selection, including for transport or accommodation charged to candidates, and that nobody can guarantee you will pass.</p>
 
-<p>We will add one honest caveat, because it matters. <strong>That notice is from 2024 and it names careers.telkom.co.id as an official channel</strong> &mdash; the domain that currently does not load. An anti-scam page pointing at an unreachable address is exactly the confusion fraudsters exploit. Treat recruitment.telkom.co.id as the channel that actually responds.</p>
+<p>We will add one honest caveat, because it matters. <strong>That notice is from 2024 and it names careers.telkom.co.id as an official channel</strong>: the domain that currently does not load. An anti-scam page pointing at an unreachable address is exactly the confusion fraudsters exploit. Treat recruitment.telkom.co.id as the channel that actually responds.</p>
 
 <h2>Could a Foreigner Be Hired in Indonesia at All?</h2>
 
@@ -319,11 +319,11 @@ JOBHTML;
 <p>Foreign employment runs on Government Regulation 34 of 2021 and Manpower Ministry Regulation 8 of 2021. The key points, from the regulation itself:</p>
 
 <ul>
-    <li><strong>The employer applies, not you.</strong> Every employer of a foreign worker "wajib memiliki RPTKA yang disahkan oleh Menteri" &mdash; must hold a Foreign Worker Utilisation Plan approved by the Minister. There is no self-sponsorship.</li>
-    <li><strong>The employer pays US$100 per month, per foreign worker, in advance</strong> &mdash; "US$100 per jabatan per orang per bulan". A two-year approval means US$2,400 up front before you start.</li>
+    <li><strong>The employer applies, not you.</strong> Every employer of a foreign worker "wajib memiliki RPTKA yang disahkan oleh Menteri": must hold a Foreign Worker Utilisation Plan approved by the Minister. There is no self-sponsorship.</li>
+    <li><strong>The employer pays US$100 per month, per foreign worker, in advance</strong>: "US$100 per jabatan per orang per bulan". A two-year approval means US$2,400 up front before you start.</li>
     <li><strong>You need at least five years of relevant experience</strong>, or a matching competency certificate, plus education fitting the position.</li>
     <li><strong>The employer must appoint an Indonesian counterpart</strong> and you are personally obliged to transfer your expertise to them. Software roles get no exemption from this.</li>
-    <li><strong>HR and personnel positions are barred outright</strong> &mdash; 18 named job titles, including Occupational Safety Specialist.</li>
+    <li><strong>HR and personnel positions are barred outright</strong>: 18 named job titles, including Occupational Safety Specialist.</li>
 </ul>
 
 <p>Two things to strike from older guides: <strong>IMTA and Notifikasi no longer exist as steps.</strong> Neither word appears anywhere in the current regulation. The approved RPTKA is itself the immigration recommendation, and the chain is RPTKA approval, then a limited-stay visa, then a limited-stay permit.</p>
@@ -387,11 +387,11 @@ JOBHTML;
 <p>If the KTP requirement rules you out, these are better uses of your time:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a> &mdash; the other big Indonesian employer people search for.</li>
-    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a> &mdash; a market that does publish its immigration route.</li>
-    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a> &mdash; an employer that publishes real salary bands.</li>
-    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a> &mdash; the same skills, a market open to foreign applicants.</li>
-    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a> &mdash; another employer where the gate is status, not skill.</li>
+    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a>: the other big Indonesian employer people search for.</li>
+    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a>: a market that does publish its immigration route.</li>
+    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a>: an employer that publishes real salary bands.</li>
+    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a>: the same skills, a market open to foreign applicants.</li>
+    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a>: another employer where the gate is status, not skill.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Telkom's own careers and recruitment pages, its recruitment FAQ, its newsroom releases on Digistar Class, AIcosystem and SCALE, and its Form 20-F filed with the US Securities and Exchange Commission for the financial year 2025, checked on 22 September 2026. Recruitment windows, portals and requirements change. Always check the live source before acting, and never pay anyone to secure a job.</p>

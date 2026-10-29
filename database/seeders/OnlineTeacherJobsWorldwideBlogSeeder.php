@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Online Teacher Jobs Worldwide" — the global remote-teaching guide, priced
+ * "Online Teacher Jobs Worldwide": the global remote-teaching guide, priced
  * from BLS tutor pay and the platforms' own published rates, and written for
  * an audience that is largely outside the US/UK "native speaker" shortlist.
  *
@@ -142,7 +142,7 @@ class OnlineTeacherJobsWorldwideBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>Global platforms and tutoring marketplaces hire teachers to work with students anywhere in the world &mdash; teaching English, tutoring school and university subjects, preparing students for exams such as IELTS and the SAT, and running professional training, live over video or through self-paced courses.</p>
+<p>Global platforms and tutoring marketplaces hire teachers to work with students anywhere in the world: teaching English, tutoring school and university subjects, preparing students for exams such as IELTS and the SAT, and running professional training, live over video or through self-paced courses.</p>
 
 <h3>What the work involves</h3>
 <p>Live one-to-one or small-group lessons over video, or building and selling recorded courses. You set your availability around your students' time zones, teach from your own materials or the platform's, and are rated on how well students progress.</p>
@@ -164,14 +164,14 @@ class OnlineTeacherJobsWorldwideBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>No legitimate platform charges you to start teaching.</strong> Check the platform's nationality and qualification rules before you invest time in a demo lesson.</p>
 
-<p><strong>Note:</strong> pay and eligibility are set by each platform &mdash; not by JobGader. Confirm the current terms on the platform's own site before applying.</p>
+<p><strong>Note:</strong> pay and eligibility are set by each platform, not by JobGader. Confirm the current terms on the platform's own site before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Online teaching is a genuine global career: from a laptop you can teach English to a student in another country, tutor maths, or build a course that sells while you sleep. But the market has changed a lot since the boom years, and the pay is usually lower than the adverts suggest. Before you pay for a certificate or record a demo lesson, it helps to know what each type of platform really pays, which market disappeared, and &mdash; if you are not from the US or UK &mdash; who will actually hire you.</p>
+<p>Online teaching is a genuine global career: from a laptop you can teach English to a student in another country, tutor maths, or build a course that sells while you sleep. But the market has changed a lot since the boom years, and the pay is usually lower than the adverts suggest. Before you pay for a certificate or record a demo lesson, it helps to know what each type of platform really pays, which market disappeared, and, if you are not from the US or UK, who will actually hire you.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/freelancing-online-work" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -185,7 +185,7 @@ JOBHTML;
     <li><strong>Teaching English (ESL).</strong> The biggest category, from conversation practice to structured lessons.</li>
     <li><strong>Subject tutoring.</strong> One-to-one help in maths, science, coding or languages.</li>
     <li><strong>Test preparation.</strong> IELTS, TOEFL, SAT and GRE coaching, which pays more where the stakes are high.</li>
-    <li><strong>K-12 online teaching.</strong> Delivering school curriculum through virtual schools &mdash; usually a salaried role that needs a teaching licence.</li>
+    <li><strong>K-12 online teaching.</strong> Delivering school curriculum through virtual schools, usually a salaried role that needs a teaching licence.</li>
     <li><strong>University and adjunct teaching.</strong> Online courses through accredited institutions, needing a relevant degree.</li>
     <li><strong>Course creation.</strong> Building and selling pre-recorded courses rather than teaching live.</li>
 </ul>
@@ -204,7 +204,7 @@ JOBHTML;
 <h3>Marketplaces (you set the price)</h3>
 <p>On <strong>Preply</strong> and <strong>iTalki</strong> you set your own rate and the platform takes a cut:</p>
 <ul>
-    <li><strong>Preply</strong> takes a commission of <strong>18% to 33%</strong> of each lesson &mdash; 33% for new tutors, falling as you teach more hours &mdash; and takes <strong>100% of your first trial lesson</strong> with each student, so you earn nothing on it. English tutors commonly list $15 to $25 an hour.</li>
+    <li><strong>Preply</strong> takes a commission of <strong>18% to 33%</strong> of each lesson, 33% for new tutors, falling as you teach more hours, and takes <strong>100% of your first trial lesson</strong> with each student, so you earn nothing on it. English tutors commonly list $15 to $25 an hour.</li>
     <li><strong>iTalki</strong> also lets you set your rate, with two tiers: Community Tutor, with lighter requirements, and Professional Teacher, which needs an accredited certificate or a degree.</li>
 </ul>
 
@@ -225,7 +225,7 @@ JOBHTML;
 <p>This is the part most guides skip, and it matters most if you are not from the US, UK, Canada, Ireland, Australia or New Zealand:</p>
 
 <ul>
-    <li><strong>Marketplaces (Preply, iTalki, Verbling) are open to any nationality.</strong> You build a profile and students choose you, so non-native speakers and teachers from Pakistan, India and elsewhere can and do teach on them &mdash; often teaching a subject, or English to beginners, or their own first language.</li>
+    <li><strong>Marketplaces (Preply, iTalki, Verbling) are open to any nationality.</strong> You build a profile and students choose you, so non-native speakers and teachers from Pakistan, India and elsewhere can and do teach on them, often teaching a subject, or English to beginners, or their own first language.</li>
     <li><strong>Many child-focused ESL platforms still require native-speaker status</strong> from that short list of countries, plus a degree. If a platform advertises "native speakers only", it means it, and no certificate changes it.</li>
 </ul>
 
@@ -234,9 +234,9 @@ JOBHTML;
 <h2>Qualifications</h2>
 
 <ul>
-    <li><strong>TEFL/TESOL.</strong> A <strong>120-hour certificate</strong> is the common baseline for teaching English. There is <strong>no global regulator</strong> of TEFL, so "accredited" means different things on different courses &mdash; check what body actually backs it before you pay.</li>
+    <li><strong>TEFL/TESOL.</strong> A <strong>120-hour certificate</strong> is the common baseline for teaching English. There is <strong>no global regulator</strong> of TEFL, so "accredited" means different things on different courses: check what body actually backs it before you pay.</li>
     <li><strong>A degree.</strong> Required by many ESL platforms and virtual schools, though not by all marketplaces.</li>
-    <li><strong>A teaching licence.</strong> Needed for accredited K-12 online schools, and for US virtual public schools that means a US state licence &mdash; a real barrier for overseas applicants.</li>
+    <li><strong>A teaching licence.</strong> Needed for accredited K-12 online schools, and for US virtual public schools that means a US state licence: a real barrier for overseas applicants.</li>
     <li><strong>Subject expertise.</strong> For tutoring, demonstrated knowledge or an academic background in the subject.</li>
     <li><strong>Reliable technology.</strong> A stable connection, a quiet room, a webcam and a headset are checked in the demo.</li>
 </ul>
@@ -270,11 +270,11 @@ JOBHTML;
 
 <h2>Avoiding Scams</h2>
 
-<p>The Federal Trade Commission's rule is simple: a legitimate employer or platform <strong>never asks you to pay upfront</strong> &mdash; not for training materials, equipment, or a "registration". Be wary of offers made by text, requests to move to a personal account, and pay far above the platform norms. Apply through the platform's own site, and report suspected scams at ReportFraud.ftc.gov.</p>
+<p>The Federal Trade Commission's rule is simple: a legitimate employer or platform <strong>never asks you to pay upfront</strong>, not for training materials, equipment, or a "registration". Be wary of offers made by text, requests to move to a personal account, and pay far above the platform norms. Apply through the platform's own site, and report suspected scams at ReportFraud.ftc.gov.</p>
 
 <h2>How Big Is the Market?</h2>
 
-<p>Online learning is growing. One widely cited market-research estimate (Grand View Research, not an official statistic) puts the global online language-learning market at about <strong>$22 billion in 2024</strong>, projected to reach <strong>$54.8 billion by 2030</strong> at roughly 16.6% a year. Treat the exact figure with caution, but the direction &mdash; more students learning online each year &mdash; is real, and it is why platforms keep hiring.</p>
+<p>Online learning is growing. One widely cited market-research estimate (Grand View Research, not an official statistic) puts the global online language-learning market at about <strong>$22 billion in 2024</strong>, projected to reach <strong>$54.8 billion by 2030</strong> at roughly 16.6% a year. Treat the exact figure with caution, but the direction, more students learning online each year, is real, and it is why platforms keep hiring.</p>
 
 <h2>Career Progression</h2>
 
@@ -337,18 +337,18 @@ JOBHTML;
 <p>Looking at teaching and remote work more widely? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; paid university teaching by the hour, and what a teaching hour actually covers.</li>
-    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; why the professorial title is conferred rather than applied for, and unpaid.</li>
+    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a>: paid university teaching by the hour, and what a teaching hour actually covers.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a>: why the professorial title is conferred rather than applied for, and unpaid.</li>
 </ul>
 
 <ul>
-    <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a> &mdash; classroom teaching pay and the routes into it at home.</li>
-    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; US teaching pay and the licence it requires.</li>
-    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; the UK route and its pay scale.</li>
-    <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a> &mdash; freelancing and remote work, and how payment from abroad really works.</li>
-    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; another remote path with global clients.</li>
-    <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a> &mdash; JET, ALT and eikaiwa routes, the degree rule behind the visa, and real pay.</li>
-    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a> &mdash; what tutors earn, what Wyzant, Varsity Tutors, Sylvan, Huntington and Kumon require, and the fees and tax to expect.</li>
+    <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a>: classroom teaching pay and the routes into it at home.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a>: US teaching pay and the licence it requires.</li>
+    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a>: the UK route and its pay scale.</li>
+    <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a>: freelancing and remote work, and how payment from abroad really works.</li>
+    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a>: another remote path with global clients.</li>
+    <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a>: JET, ALT and eikaiwa routes, the degree rule behind the visa, and real pay.</li>
+    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a>: what tutors earn, what Wyzant, Varsity Tutors, Sylvan, Huntington and Kumon require, and the fees and tax to expect.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers advice. Platform rates, commissions, nationality rules and market figures change. Confirm the current terms on each platform's own site before you apply or pay for any certification.</p>

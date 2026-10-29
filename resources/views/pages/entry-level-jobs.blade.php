@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Entry Level Jobs — Where to Actually Start | JobGader')
+@section('title', 'Entry Level Jobs: Where to Actually Start | JobGader')
 @section('meta_description', 'Entry level jobs across '.$coverage->shortList().': which sectors genuinely hire with no experience, what they pay, and how to apply free.')
-@section('og_title', 'Entry Level Jobs — Where to Actually Start | JobGader')
+@section('og_title', 'Entry Level Jobs: Where to Actually Start | JobGader')
 @section('og_description', 'Entry level jobs across '.$coverage->shortList().': which sectors genuinely hire with no experience, what they pay, and how to apply free.')
 @section('canonical', url()->current())
 
@@ -17,7 +17,7 @@
                 'title' => 'The Sectors That Genuinely Hire With No Experience',
                 'paragraphs' => [
                     'Retail, hospitality, warehouse and logistics, cleaning, care and customer service are the reliable ones. All train after hiring, all recruit continuously, and all judge applications mainly on availability and reliability rather than background.',
-                    'Construction labouring and delivery driving belong in the same group, with the caveat that both usually need something small first — a safety card in construction, a clean licence in delivery. Neither takes long to obtain.',
+                    'Construction labouring and delivery driving belong in the same group, with the caveat that both usually need something small first: a safety card in construction, a clean licence in delivery. Neither takes long to obtain.',
                 ],
             ],
             [
@@ -31,13 +31,13 @@
                 'title' => 'Writing an Application With No Experience',
                 'paragraphs' => [
                     'Lead with availability. For hourly roles, a candidate who can work weekends, evenings and the full trading week is shortlisted ahead of one who cannot, and that is entirely within your control.',
-                    'Everything counts as evidence if you frame it as evidence. Coursework, volunteering, family business help, sport, a side project — what employers want to see is that you finish things and turn up. Say what you did and what came of it, rather than describing yourself with adjectives.',
+                    'Everything counts as evidence if you frame it as evidence. Coursework, volunteering, family business help, sport, a side project: what employers want to see is that you finish things and turn up. Say what you did and what came of it, rather than describing yourself with adjectives.',
                 ],
             ],
             [
                 'title' => 'Avoiding the Fake Entry Level Listing',
                 'paragraphs' => [
-                    'Two patterns are worth recognising. The first is the listing that promises unusually high pay for unskilled work and asks for a fee for training, equipment or a background check — no legitimate employer charges you to start. The second is commission-only sales advertised as a salaried entry level role.',
+                    'Two patterns are worth recognising. The first is the listing that promises unusually high pay for unskilled work and asks for a fee for training, equipment or a background check: no legitimate employer charges you to start. The second is commission-only sales advertised as a salaried entry level role.',
                     'Read the pay structure before applying. If a listing will not state a rate, or states one only as potential earnings, treat that as the main fact about the job.',
                 ],
             ],
@@ -63,7 +63,7 @@
             ],
             [
                 'q' => 'What should I put on a CV with no work history?',
-                'a' => 'Availability first, then anything that shows you finish what you start — coursework, volunteering, a side project, sport, helping in a family business. Describe what you did and the result, not your personality.',
+                'a' => 'Availability first, then anything that shows you finish what you start: coursework, volunteering, a side project, sport, helping in a family business. Describe what you did and the result, not your personality.',
             ],
             [
                 'q' => 'Should I take a temporary or seasonal role?',

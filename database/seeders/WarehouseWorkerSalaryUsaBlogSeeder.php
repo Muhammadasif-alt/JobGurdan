@@ -211,9 +211,9 @@ class WarehouseWorkerSalaryUsaBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/warehouse-worker-jobs-usa-visa-sponsorship-2026">Warehouse Worker Jobs in USA With Visa Sponsorship (2026)</a> &mdash; H-2B rules and how to apply.</li>
-    <li><a href="/blog/how-to-get-warehouse-worker-job-usa-from-pakistan-2026">How to Get a Warehouse Worker Job in USA From Pakistan</a> &mdash; the step-by-step process.</li>
-    <li><a href="/blog/landscaper-salary-usa-2026">Landscaper Salary in USA (2026)</a> &mdash; the same breakdown for landscaping.</li>
+    <li><a href="/blog/warehouse-worker-jobs-usa-visa-sponsorship-2026">Warehouse Worker Jobs in USA With Visa Sponsorship (2026)</a>: H-2B rules and how to apply.</li>
+    <li><a href="/blog/how-to-get-warehouse-worker-job-usa-from-pakistan-2026">How to Get a Warehouse Worker Job in USA From Pakistan</a>: the step-by-step process.</li>
+    <li><a href="/blog/landscaper-salary-usa-2026">Landscaper Salary in USA (2026)</a>: the same breakdown for landscaping.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or financial advice. Wage figures are from the US Bureau of Labor Statistics, May 2025 national estimates for occupation 53-7062, reviewed on 8 October 2026. PKR conversions are editorial examples, not official statistics or job offers.</p>

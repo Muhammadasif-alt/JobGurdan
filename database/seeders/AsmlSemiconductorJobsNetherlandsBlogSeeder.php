@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for ASML Semiconductor Jobs in Netherlands" — one of the rare
+ * "How to Apply for ASML Semiconductor Jobs in Netherlands": one of the rare
  * employers where the overseas answer is yes. ASML is an IND-recognised
  * sponsor, it publishes salary ranges on its own vacancies, and the Dutch
  * highly skilled migrant threshold is published too.
@@ -28,7 +28,7 @@ use Illuminate\Support\Str;
  * Corrections to the draft (checked against asml.com and ind.nl, 22 September
  * 2026):
  *
- * 1. The draft says ASML publishes no salary figures. It does — an expected
+ * 1. The draft says ASML publishes no salary figures. It does: an expected
  *    fixed annual range sits on each Netherlands vacancy.
  *
  * 2. The draft never tests those salaries against the IND threshold, which is
@@ -158,9 +158,9 @@ class AsmlSemiconductorJobsNetherlandsBlogSeeder extends Seeder
 
 <h3>Where the work is</h3>
 <ul>
-    <li>Veldhoven &mdash; global headquarters, and ASML's biggest R&amp;D and manufacturing site.</li>
-    <li>Eindhoven and Oirschot &mdash; Oirschot focuses on stage motor design and assembly.</li>
-    <li>Delft &mdash; metrology and inspection solutions.</li>
+    <li>Veldhoven: global headquarters, and ASML's biggest R&amp;D and manufacturing site.</li>
+    <li>Eindhoven and Oirschot: Oirschot focuses on stage motor design and assembly.</li>
+    <li>Delft: metrology and inspection solutions.</li>
 </ul>
 
 <h3>Pay</h3>
@@ -172,7 +172,7 @@ class AsmlSemiconductorJobsNetherlandsBlogSeeder extends Seeder
 <h3>Benefits ASML publishes for manufacturing</h3>
 <p>13th month salary, 8 per cent holiday allowance, 40 days of paid leave (27 vacation days and 13 ADV days), variable pay, pension plan, collective health insurance, employee share purchase plan and commuting allowance. ASML notes differences by salary grade and position may apply.</p>
 
-<p>Pay, eligibility and immigration rules are set by ASML and the Dutch IND &mdash; not by JobGader. Confirm the range and requirements on the live vacancy, and never pay anyone to secure a job.</p>
+<p>Pay, eligibility and immigration rules are set by ASML and the Dutch IND, not by JobGader. Confirm the range and requirements on the live vacancy, and never pay anyone to secure a job.</p>
 JOBHTML;
     }
 
@@ -193,7 +193,7 @@ JOBHTML;
 <p>Unlike most of the employers we write up, ASML is a genuine sponsorship route. Three ASML entities appear in the Dutch IND's public register of recognised sponsors, under the labour register:</p>
 
 <ul>
-    <li><strong>ASML Netherlands B.V.</strong> (KVK 17052456) &mdash; the entity that employs highly skilled migrants.</li>
+    <li><strong>ASML Netherlands B.V.</strong> (KVK 17052456): the entity that employs highly skilled migrants.</li>
     <li>ASML Holding N.V. (KVK 17085815).</li>
     <li>ASML Trading B.V. (KVK 69631557).</li>
 </ul>
@@ -207,8 +207,8 @@ JOBHTML;
 <p>The Dutch highly skilled migrant permit has a published salary floor. For 2026 the IND requires, gross per month and <strong>excluding holiday allowance</strong>:</p>
 
 <ul>
-    <li><strong>EUR 5,942</strong> if you are 30 or older &mdash; about EUR 71,304 a year.</li>
-    <li><strong>EUR 4,357</strong> if you are under 30 &mdash; about EUR 52,284 a year.</li>
+    <li><strong>EUR 5,942</strong> if you are 30 or older: about EUR 71,304 a year.</li>
+    <li><strong>EUR 4,357</strong> if you are under 30: about EUR 52,284 a year.</li>
     <li><strong>EUR 3,122</strong> under the reduced salary criterion, which applies only in specific graduate situations described below.</li>
     <li><strong>EUR 5,942</strong> for the EU Blue Card, or <strong>EUR 4,754</strong> under its reduced criterion for recent graduates.</li>
 </ul>
@@ -260,7 +260,7 @@ JOBHTML;
     </tbody>
 </table>
 
-<p><strong>Read the top row again.</strong> A cleanroom technician at the very top of ASML's published band, EUR 53,500, comes to about EUR 49,500 once holiday allowance is excluded &mdash; below even the under-30 threshold of EUR 52,284. Those jobs are open to people who already hold Dutch or EU work rights. They are not a route in from Pakistan.</p>
+<p><strong>Read the top row again.</strong> A cleanroom technician at the very top of ASML's published band, EUR 53,500, comes to about EUR 49,500 once holiday allowance is excluded: below even the under-30 threshold of EUR 52,284. Those jobs are open to people who already hold Dutch or EU work rights. They are not a route in from Pakistan.</p>
 
 <p>Two honest caveats. First, this comparison is ours: ASML publishes the ranges, the IND publishes the thresholds, and we have put them together. Neither organisation states the conclusion. Second, it may be worse than the table shows. The IND counts a 13th month only if it is <em>"transferred monthly"</em> in twelve equal amounts, and ASML's rewards page describes paying it as a lump sum every December. If the IND applies that strictly, every figure above drops by a further 8 per cent or so. Ask ASML's recruiter directly rather than assuming.</p>
 
@@ -278,13 +278,13 @@ JOBHTML;
 
 <h2>Where ASML Actually Is</h2>
 
-<p>ASML's headquarters is in <strong>Veldhoven</strong>, and it is the company's biggest R&amp;D and manufacturing site &mdash; 19,000-plus employees, 121 nationalities, over 225,000 square metres of office space on its own figures.</p>
+<p>ASML's headquarters is in <strong>Veldhoven</strong>, and it is the company's biggest R&amp;D and manufacturing site: 19,000-plus employees, 121 nationalities, over 225,000 square metres of office space on its own figures.</p>
 
 <p>ASML states: <em>"We also have locations in nearby Eindhoven and Oirschot, and further north in Delft. The Netherlands is where most of our R&amp;D and operations are based, and it is home to more than half of all ASML employees."</em> Against a global headcount of more than 44,000, the Dutch sites account for 24,000-plus people across 39 buildings.</p>
 
 <ul>
-    <li><strong>Oirschot</strong> &mdash; ASML's words: <em>"our teams focus on stage motor design and assembly."</em></li>
-    <li><strong>Delft</strong> &mdash; <em>"our teams focus on metrology and inspection solutions."</em> A small office site, with no published headcount.</li>
+    <li><strong>Oirschot</strong>: ASML's words: <em>"our teams focus on stage motor design and assembly."</em></li>
+    <li><strong>Delft</strong>: <em>"our teams focus on metrology and inspection solutions."</em> A small office site, with no published headcount.</li>
 </ul>
 
 <p>One oddity worth knowing if you are checking sources: ASML's corporate locations page lists only two Dutch addresses, Veldhoven and Delft, and its own careers FAQ omits Eindhoven while the paragraph above it includes it. The careers pages are the better guide for job hunting.</p>
@@ -293,9 +293,9 @@ JOBHTML;
 
 <p>Two announcements sit awkwardly together, and any guide that mentions only one is selling you something.</p>
 
-<p><strong>28 January 2026 &mdash; a restructuring with net job losses.</strong> ASML reorganised its Technology and IT organisations so that <em>"most of our engineers will be dedicated to a specific product and module"</em>, with an expected <strong>net reduction of around 1,700 positions, predominantly in the Netherlands</strong>, mostly at leadership level. ASML says it will still create new engineering roles and continue hiring in Manufacturing, Customer Support and Sales.</p>
+<p><strong>28 January 2026: a restructuring with net job losses.</strong> ASML reorganised its Technology and IT organisations so that <em>"most of our engineers will be dedicated to a specific product and module"</em>, with an expected <strong>net reduction of around 1,700 positions, predominantly in the Netherlands</strong>, mostly at leadership level. ASML says it will still create new engineering roles and continue hiring in Manufacturing, Customer Support and Sales.</p>
 
-<p><strong>8 September 2026 &mdash; a new campus.</strong> ASML broke ground on a second industrial campus at Brainport Industries Campus North in Eindhoven: eventually around 350,000 square metres with capacity for up to 20,000 workplaces, with phase one due by 2029 housing at least 3,000 employees.</p>
+<p><strong>8 September 2026: a new campus.</strong> ASML broke ground on a second industrial campus at Brainport Industries Campus North in Eindhoven: eventually around 350,000 square metres with capacity for up to 20,000 workplaces, with phase one due by 2029 housing at least 3,000 employees.</p>
 
 <p>So: fewer leadership and matrix roles, more manufacturing and engineering capacity. If you read that ASML is simply "hiring hard", the article predates January 2026.</p>
 
@@ -360,15 +360,15 @@ JOBHTML;
 
 <p>The allowance is where overseas students need to pay attention. ASML's wording is: <em>"EU students receive a full-time monthly allowance depending on their education level: Vocational (mbo) students &ndash; EUR 400. Associate, Bachelor's and Master's &ndash; EUR 600."</em> The EUR 450 monthly housing allowance is framed the same way, for students living 80km or more away who relocate within 30km of Veldhoven.</p>
 
-<p><strong>What non-EU students receive is not published anywhere on that page.</strong> ASML does not say they get less, and it does not say they get the same. The only non-EU sentence on the page is administrative: students with a non-EU nationality studying in the Netherlands must sign a tripartite agreement with their institution. If this applies to you, ask before you accept &mdash; do not assume either way.</p>
+<p><strong>What non-EU students receive is not published anywhere on that page.</strong> ASML does not say they get less, and it does not say they get the same. The only non-EU sentence on the page is administrative: students with a non-EU nationality studying in the Netherlands must sign a tripartite agreement with their institution. If this applies to you, ask before you accept: do not assume either way.</p>
 
 <p>The selection route is four steps: apply with a CV and motivation letter, complete a pre-recorded video interview, attend an interview, then receive an offer.</p>
 
 <h2>The Work-Study Programme Is Taught in Dutch</h2>
 
-<p>ASML's work-study route pays your salary and your tuition while you study one day a week &mdash; a two to three year mbo assignment or a four-year hbo assignment. ASML publishes the salary for it: <strong>EUR 2,549 to EUR 2,800</strong> a month, with full tuition and book costs reimbursed annually.</p>
+<p>ASML's work-study route pays your salary and your tuition while you study one day a week: a two to three year mbo assignment or a four-year hbo assignment. ASML publishes the salary for it: <strong>EUR 2,549 to EUR 2,800</strong> a month, with full tuition and book costs reimbursed annually.</p>
 
-<p>It is a genuinely good deal, and it is almost certainly closed to you. ASML's Dutch page answers the question directly: <em>"De studie volg je in het Nederlands"</em> &mdash; the study is in Dutch, though ASML also expects you to speak English. The English page omits this.</p>
+<p>It is a genuinely good deal, and it is almost certainly closed to you. ASML's Dutch page answers the question directly: <em>"De studie volg je in het Nederlands"</em>: the study is in Dutch, though ASML also expects you to speak English. The English page omits this.</p>
 
 <p>Note also that the "four days work, one day study" split is not universal: shift workers do three days work, a rest day and one school day. Most vacancies are in precision manufacturing in the cleanrooms, with some in management assistance and HR services.</p>
 
@@ -382,7 +382,7 @@ JOBHTML;
 
 <p>A sponsoring employer in a wealthy country is exactly the brand scammers impersonate, and ASML is impersonated often. The good news is that its real process has several published checkpoints, so the fakes are easy to catch if you know them.</p>
 
-<p><strong>The only legitimate route is asml.com, which hands you to Workday.</strong> Applications land on <code>asml.wd3.myworkdayjobs.com</code>. Anything on a different domain is not ASML. Be especially careful with the old <code>asml.com/careers/vacancies</code> board, which is dead and returns a 404 but still appears in search results &mdash; a "working" version of that page is a forgery.</p>
+<p><strong>The only legitimate route is asml.com, which hands you to Workday.</strong> Applications land on <code>asml.wd3.myworkdayjobs.com</code>. Anything on a different domain is not ASML. Be especially careful with the old <code>asml.com/careers/vacancies</code> board, which is dead and returns a 404 but still appears in search results: a "working" version of that page is a forgery.</p>
 
 <p>Four more checks drawn from how ASML actually operates:</p>
 
@@ -397,7 +397,7 @@ JOBHTML;
 
 <h2>How to Apply, Step by Step</h2>
 
-<p><strong>Official application route:</strong> <a href="https://www.asml.com/en/careers/find-your-job?job_country=Netherlands&amp;job_type=Fix" rel="nofollow noopener" target="_blank">https://www.asml.com/en/careers/find-your-job?job_country=Netherlands&amp;job_type=Fix</a> &mdash; ASML's own job search, filtered to the Netherlands. The apply button hands off to Workday at asml.wd3.myworkdayjobs.com. The old asml.com/careers/vacancies board is gone and returns a 404.</p>
+<p><strong>Official application route:</strong> <a href="https://www.asml.com/en/careers/find-your-job?job_country=Netherlands&amp;job_type=Fix" rel="nofollow noopener" target="_blank">https://www.asml.com/en/careers/find-your-job?job_country=Netherlands&amp;job_type=Fix</a>: ASML's own job search, filtered to the Netherlands. The apply button hands off to Workday at asml.wd3.myworkdayjobs.com. The old asml.com/careers/vacancies board is gone and returns a 404.</p>
 
 <ol>
     <li>Filter the job search to the Netherlands. Use job_type=Internship instead if you are a student.</li>
@@ -466,11 +466,11 @@ JOBHTML;
 <p>If it is European engineering you are after rather than this one employer, these cover the same ground from different angles:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a> &mdash; and the difference between Siemens AG and Siemens Energy that trips most applicants.</li>
-    <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a> &mdash; how many French vacancies need a security clearance.</li>
-    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a> &mdash; published pay bands, and Italian as the real barrier.</li>
-    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; another European factory route with a language gate.</li>
-    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; the wider market around these employers.</li>
+    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a>, and the difference between Siemens AG and Siemens Energy that trips most applicants.</li>
+    <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a>: how many French vacancies need a security clearance.</li>
+    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a>: published pay bands, and Italian as the real barrier.</li>
+    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a>: another European factory route with a language gate.</li>
+    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a>: the wider market around these employers.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using ASML's own careers, locations, benefits and newsroom pages together with the Netherlands Immigration and Naturalisation Service published required amounts, highly skilled migrant conditions and public register of recognised sponsors, checked on 22 September 2026. The comparison between ASML's published salary ranges and the IND thresholds is our own. Vacancies, pay ranges and immigration amounts change, and IND amounts are revised every 1 January. Always check the live vacancy and the official government source before acting, and never pay anyone to secure a job.</p>

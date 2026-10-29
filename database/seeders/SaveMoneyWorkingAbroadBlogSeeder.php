@@ -199,10 +199,10 @@ class SaveMoneyWorkingAbroadBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/work-abroad-vs-stay-home-2026">Work Abroad vs Stay Home: Which is Better in 2026</a> &mdash; the decision</li>
-    <li><a href="/blog/blue-collar-jobs-abroad-over-3000-month">Blue Collar Jobs Abroad Paying Over $3,000 a Month</a> &mdash; what trades pay</li>
-    <li><a href="/blog/highest-paying-blue-collar-jobs-abroad-2026">Highest-Paying Blue Collar Jobs Abroad (2026)</a> &mdash; the pay ranking</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a> &mdash; verify before you pay</li>
+    <li><a href="/blog/work-abroad-vs-stay-home-2026">Work Abroad vs Stay Home: Which is Better in 2026</a>: the decision</li>
+    <li><a href="/blog/blue-collar-jobs-abroad-over-3000-month">Blue Collar Jobs Abroad Paying Over $3,000 a Month</a>: what trades pay</li>
+    <li><a href="/blog/highest-paying-blue-collar-jobs-abroad-2026">Highest-Paying Blue Collar Jobs Abroad (2026)</a>: the pay ranking</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>

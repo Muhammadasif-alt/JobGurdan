@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Administrative Assistant Jobs in USA" — general, executive, medical and
+ * "Administrative Assistant Jobs in USA": general, executive, medical and
  * legal administrative work. The US data entry guide covers clerical entry
  * work and the Pakistan virtual assistant guide covers remote contracting,
  * so this one owns American administrative pay, outlook and certification.
@@ -157,7 +157,7 @@ class AdministrativeAssistantJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check whether the role is employed or contract.</strong> Many virtual assistant roles are independent contracts, which do not carry minimum wage, overtime or benefits.</p>
 
-<p><strong>Note:</strong> pay, hours and benefits are set by each employer and by federal and state law &mdash; not by JobGader. Confirm the details on the official advertisement before applying.</p>
+<p><strong>Note:</strong> pay, hours and benefits are set by each employer and by federal and state law, not by JobGader. Confirm the details on the official advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -178,7 +178,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Secretaries and administrative assistants (general):</strong> a median of <strong>$47,540</strong>, with the bottom 10% under $33,280 and the top 10% over $66,350. The guides' entry-level and experienced bands are broadly right.</li>
-    <li><strong>Executive secretaries and executive administrative assistants:</strong> a median of <strong>$76,590</strong> &mdash; above the top of the guides' range. Even the bottom 10% earned $50,560.</li>
+    <li><strong>Executive secretaries and executive administrative assistants:</strong> a median of <strong>$76,590</strong>: above the top of the guides' range. Even the bottom 10% earned $50,560.</li>
     <li><strong>Legal secretaries and administrative assistants:</strong> a median of $55,570.</li>
     <li><strong>Medical secretaries and administrative assistants:</strong> a median of $45,930.</li>
     <li><strong>First-line supervisors of office workers</strong>, the closest match to most office manager jobs: a median of <strong>$69,500</strong>.</li>
@@ -199,7 +199,7 @@ JOBHTML;
     <li><strong>Medical secretaries and administrative assistants:</strong> <strong>up 5%</strong>, because of growth in healthcare.</li>
 </ul>
 
-<p>The BLS explains why: technology, including <strong>artificial intelligence systems and digital tools</strong>, lets staff prepare their own documents, and many executive assistants now support more than one manager. Jobs still open up &mdash; about <strong>314,400 a year</strong> &mdash; but mostly to replace people who retire or move on. If you are choosing a specialism, medical administration is the one the projections favour.</p>
+<p>The BLS explains why: technology, including <strong>artificial intelligence systems and digital tools</strong>, lets staff prepare their own documents, and many executive assistants now support more than one manager. Jobs still open up, about <strong>314,400 a year</strong>, but mostly to replace people who retire or move on. If you are choosing a specialism, medical administration is the one the projections favour.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/administrative-assistant-jobs-in-usa-desk.jpg"
@@ -219,7 +219,7 @@ JOBHTML;
     <li><strong>Illinois:</strong> 74,280</li>
 </ul>
 
-<p>The highest pay is elsewhere. The mean wage was highest in the <strong>District of Columbia ($61,270)</strong>, followed by Connecticut ($58,390), Massachusetts ($58,380), Washington ($58,130) and California ($57,710). Illinois ranked 11th and New York 12th, Florida 23rd at $48,730, and <strong>Texas 35th at $45,850</strong> &mdash; so the second-largest market pays below the national median.</p>
+<p>The highest pay is elsewhere. The mean wage was highest in the <strong>District of Columbia ($61,270)</strong>, followed by Connecticut ($58,390), Massachusetts ($58,380), Washington ($58,130) and California ($57,710). Illinois ranked 11th and New York 12th, Florida 23rd at $48,730, and <strong>Texas 35th at $45,850</strong>, so the second-largest market pays below the national median.</p>
 
 <h2>Certifications That Carry Weight</h2>
 
@@ -301,18 +301,18 @@ JOBHTML;
 <p>Comparing office work in the US and abroad? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; clerical entry work, and the steeper decline projected for it.</li>
-    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a> &mdash; the same work under Australia's award pay system.</li>
-    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; administrative skills sold remotely to overseas clients.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; front-office work in the Gulf, and the package split behind it.</li>
-    <li><a href="/blog/clinic-receptionist-jobs-in-usa">Clinic Receptionist Jobs in USA</a> &mdash; the same admin skills in a US clinic, paid by setting.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; another office skill set that works from home.</li>
-    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; a technical step up from office support.</li>
-    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the same front-office skills inside a clinic, with clinical duties on top.</li>
-    <li><a href="/blog/medical-records-clerk-jobs-in-usa">Medical Records Clerk Jobs in USA</a> &mdash; admin work that pays more once you hold a health information credential.</li>
-    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a> &mdash; a first UK admin job, the real pay and the visa reality.</li>
-    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a> &mdash; what the work really pays after platform fees, and how to start without paying for a job.</li>
-    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a> &mdash; the real BLS medians and why this group of occupations is shrinking.</li>
+    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a>: clerical entry work, and the steeper decline projected for it.</li>
+    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a>: the same work under Australia's award pay system.</li>
+    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a>: administrative skills sold remotely to overseas clients.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: front-office work in the Gulf, and the package split behind it.</li>
+    <li><a href="/blog/clinic-receptionist-jobs-in-usa">Clinic Receptionist Jobs in USA</a>: the same admin skills in a US clinic, paid by setting.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: another office skill set that works from home.</li>
+    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a>: a technical step up from office support.</li>
+    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a>: the same front-office skills inside a clinic, with clinical duties on top.</li>
+    <li><a href="/blog/medical-records-clerk-jobs-in-usa">Medical Records Clerk Jobs in USA</a>: admin work that pays more once you hold a health information credential.</li>
+    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a>: a first UK admin job, the real pay and the visa reality.</li>
+    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a>: what the work really pays after platform fees, and how to start without paying for a job.</li>
+    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a>: the real BLS medians and why this group of occupations is shrinking.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Wage data, projections, certification fees and employment rules change. Confirm the current position with the employer, the Bureau of Labor Statistics and the certifying body before applying.</p>

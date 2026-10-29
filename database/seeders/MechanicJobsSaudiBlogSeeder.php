@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Mechanic Jobs in Saudi Arabia" — a trade guide rather than one vacancy, so
+ * "Mechanic Jobs in Saudi Arabia": a trade guide rather than one vacancy, so
  * the apply link goes to an Indeed search and the post carries no JobPosting
  * markup. The driver, construction and no-experience guides own their own
  * occupations; this one owns the skills test that stands between a mechanic
@@ -163,7 +163,7 @@ class MechanicJobsSaudiBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>Car dealerships, independent workshops, fleet and logistics operators, construction contractors and industrial plants across Riyadh, Jeddah and Dammam hire foreign mechanics &mdash; light vehicle and auto mechanics, auto electricians, diesel and heavy vehicle mechanics, and heavy equipment and plant mechanics.</p>
+<p>Car dealerships, independent workshops, fleet and logistics operators, construction contractors and industrial plants across Riyadh, Jeddah and Dammam hire foreign mechanics: light vehicle and auto mechanics, auto electricians, diesel and heavy vehicle mechanics, and heavy equipment and plant mechanics.</p>
 
 <h3>The skills test comes before the visa</h3>
 <p>The Ministry of Human Resources and Social Development runs a Professional Examination program with theoretical and practical tests. It was first launched in Pakistan, India and Bangladesh, and automotive mechanics and automotive electricity are among its named specialisations. Where it applies, the certificate is an additional requirement during recruitment, so ask the employer or agency whether your visa profession needs it and book the test early.</p>
@@ -181,14 +181,14 @@ class MechanicJobsSaudiBlogSeeder extends Seeder
 <ul>
     <li>The employer pays recruitment, Iqama and work permit fees, exit and re-entry visas and your return ticket at the end of the contract (Labour Law Article 40)</li>
     <li>An end-of-service award, and at least 21 days of paid annual leave, rising to 30 after five years</li>
-    <li>Accommodation and meals are legally required only in remote locations, mines, quarries and oil exploration centres &mdash; elsewhere, housing, transport and annual tickets are contract terms to get in writing</li>
+    <li>Accommodation and meals are legally required only in remote locations, mines, quarries and oil exploration centres: elsewhere, housing, transport and annual tickets are contract terms to get in writing</li>
     <li>No pay band is quoted here, because the Labour Law sets no wage figure for expatriate workers</li>
 </ul>
 
 <h3>Before you pay anyone anything</h3>
 <p><strong>Never pay for a visa or a job offer.</strong> Pakistani applicants should use only an Overseas Employment Promoter licensed by the Federal Government, check the licence on the Bureau of Emigration and Overseas Employment list or at the Protector of Emigrants office, and insist on a receipt for every payment.</p>
 
-<p><strong>Note:</strong> pay, hours and contract terms are set by the individual employer or agency &mdash; not by JobGader. Listings on aggregator sites vary in quality; verify the employer and the contract before travelling.</p>
+<p><strong>Note:</strong> pay, hours and contract terms are set by the individual employer or agency, not by JobGader. Listings on aggregator sites vary in quality; verify the employer and the contract before travelling.</p>
 JOBHTML;
     }
 
@@ -231,10 +231,10 @@ JOBHTML;
     <li>The certificate is treated as an additional requirement for the worker during the recruitment process.</li>
 </ul>
 
-<p>What this means for you: if you are an auto mechanic or auto electrician from one of the covered countries, expect to sit a practical and theoretical test before your recruitment can go ahead. The announcement does not name heavy equipment or industrial mechanics, so do not assume either way &mdash; ask the employer or agency which profession will be written on your visa and whether that profession needs the certificate. Book the test through the official <strong>SVP</strong> portal (svp-international.pacc.sa) rather than through a middleman, and treat anyone selling a &quot;guaranteed pass&quot; as a scam.</p>
+<p>What this means for you: if you are an auto mechanic or auto electrician from one of the covered countries, expect to sit a practical and theoretical test before your recruitment can go ahead. The announcement does not name heavy equipment or industrial mechanics, so do not assume either way: ask the employer or agency which profession will be written on your visa and whether that profession needs the certificate. Book the test through the official <strong>SVP</strong> portal (svp-international.pacc.sa) rather than through a middleman, and treat anyone selling a &quot;guaranteed pass&quot; as a scam.</p>
 
 <figure style="text-align:center;margin:34px 0;">
-    <img src="/public/storage/blogs/mechanic-jobs-in-saudi-arabia-workshop.jpg" alt="Mechanic working under the bonnet in a Saudi workshop with the Riyadh skyline behind — mechanic jobs in Saudi Arabia" loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+    <img src="/public/storage/blogs/mechanic-jobs-in-saudi-arabia-workshop.jpg" alt="Mechanic working under the bonnet in a Saudi workshop with the Riyadh skyline behind: mechanic jobs in Saudi Arabia" loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
 <h2>What Mechanics in Saudi Arabia Are Paid</h2>
@@ -265,16 +265,16 @@ JOBHTML;
 
 <h3>Guaranteed by the Labour Law</h3>
 <ul>
-    <li><strong>End-of-service award (Article 84)</strong> &mdash; half a month's wage for each of the first five years and one month's wage for each year after that, calculated on your last wage and paid for part years in proportion. If you resign, Article 85 cuts it to one third after two to five years, two thirds after five to ten years, and the full award after ten years.</li>
-    <li><strong>Annual leave (Article 109)</strong> &mdash; paid leave of not less than 21 days a year, rising to not less than 30 days after five consecutive years with the same employer. You cannot give it up or take cash instead while you are employed.</li>
-    <li><strong>Health care (Article 144)</strong> &mdash; the employer must provide preventive and therapeutic health care, taking into account the Cooperative Health Insurance Law.</li>
-    <li><strong>Wages into a bank account (Article 90)</strong> &mdash; firms must pay wages into workers' accounts through approved banks in the Kingdom.</li>
+    <li><strong>End-of-service award (Article 84)</strong>: half a month's wage for each of the first five years and one month's wage for each year after that, calculated on your last wage and paid for part years in proportion. If you resign, Article 85 cuts it to one third after two to five years, two thirds after five to ten years, and the full award after ten years.</li>
+    <li><strong>Annual leave (Article 109)</strong>: paid leave of not less than 21 days a year, rising to not less than 30 days after five consecutive years with the same employer. You cannot give it up or take cash instead while you are employed.</li>
+    <li><strong>Health care (Article 144)</strong>: the employer must provide preventive and therapeutic health care, taking into account the Cooperative Health Insurance Law.</li>
+    <li><strong>Wages into a bank account (Article 90)</strong>: firms must pay wages into workers' accounts through approved banks in the Kingdom.</li>
 </ul>
 
 <h3>Required only in some workplaces</h3>
 <ul>
-    <li><strong>Accommodation and meals (Article 147)</strong> &mdash; required for employers operating in remote locations, mines, quarries and oil exploration centres. This matters for heavy equipment mechanics on project sites.</li>
-    <li><strong>Daily transport (Article 148)</strong> &mdash; required where the workplace is not served by regular transport at times that fit your working hours.</li>
+    <li><strong>Accommodation and meals (Article 147)</strong>: required for employers operating in remote locations, mines, quarries and oil exploration centres. This matters for heavy equipment mechanics on project sites.</li>
+    <li><strong>Daily transport (Article 148)</strong>: required where the workplace is not served by regular transport at times that fit your working hours.</li>
 </ul>
 
 <h3>Contract terms, not legal rights</h3>
@@ -302,13 +302,13 @@ JOBHTML;
 <p>Indian applicants should use a recruiting agent registered on the eMigrate system, and Bangladeshi applicants an agency registered with BMET. Whatever your country, ask for the employer's name and confirm the company exists before you pay for a medical, a test or anything else.</p>
 
 <figure style="text-align:center;margin:34px 0;">
-    <img src="/public/storage/blogs/mechanic-jobs-in-saudi-arabia-garage.jpg" alt="Young mechanic tightening an engine component in a busy Saudi garage — auto mechanic jobs in Saudi Arabia" loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+    <img src="/public/storage/blogs/mechanic-jobs-in-saudi-arabia-garage.jpg" alt="Young mechanic tightening an engine component in a busy Saudi garage: auto mechanic jobs in Saudi Arabia" loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
 <h2>Skills Employers Look For</h2>
 
 <ul>
-    <li><strong>Diagnostics</strong> &mdash; reading fault codes with scan tools and tracing electrical faults, not only replacing parts.</li>
+    <li><strong>Diagnostics</strong>: reading fault codes with scan tools and tracing electrical faults, not only replacing parts.</li>
     <li><strong>Engine, transmission, brake and suspension work</strong> on the vehicle types the employer runs.</li>
     <li><strong>Diesel systems</strong> for fleet, truck and plant roles, including hydraulics for heavy equipment.</li>
     <li><strong>Vehicle air conditioning</strong>, which gets heavy use in the Saudi climate.</li>
@@ -388,19 +388,19 @@ JOBHTML;
 <p>Comparing trade and Gulf routes? These cover the rest:</p>
 
 <ul>
-    <li><a href="/blog/mechanic-salary-by-country">Mechanic Salary by Country</a> &mdash; official pay data for the USA, Australia, UK and Canada, and the Gulf pay rules.</li>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; the Labour Law and Musaned split, and what each driving route pays.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; giga-project hiring, and who actually employs you on site.</li>
-    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a> &mdash; which entry-level roles are still open to foreign workers.</li>
-    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a> &mdash; another Saudi route, and the rules that decide who can hold the job.</li>
-    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; a skilled trade, and how certification differs by province.</li>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; a qualified trade with a real certification barrier.</li>
-    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; heavy vehicles in America, and the licence classes behind them.</li>
-    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a> &mdash; the drivers who run the fleets you would service, and their licence path.</li>
-    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a> &mdash; where the same technical skills go with a degree behind them.</li>
+    <li><a href="/blog/mechanic-salary-by-country">Mechanic Salary by Country</a>: official pay data for the USA, Australia, UK and Canada, and the Gulf pay rules.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: the Labour Law and Musaned split, and what each driving route pays.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: giga-project hiring, and who actually employs you on site.</li>
+    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a>, which entry-level roles are still open to foreign workers.</li>
+    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a>: another Saudi route, and the rules that decide who can hold the job.</li>
+    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a>: a skilled trade, and how certification differs by province.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: a qualified trade with a real certification barrier.</li>
+    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a>: heavy vehicles in America, and the licence classes behind them.</li>
+    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a>: the drivers who run the fleets you would service, and their licence path.</li>
+    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a>: where the same technical skills go with a degree behind them.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Saudi labour and visa rules change &mdash; confirm current requirements through the Ministry of Human Resources and Social Development, the Qiwa platform, or your own country's overseas employment authority before paying any fee or signing a contract.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Saudi labour and visa rules change: confirm current requirements through the Ministry of Human Resources and Social Development, the Qiwa platform, or your own country's overseas employment authority before paying any fee or signing a contract.</p>
 HTML;
     }
 }

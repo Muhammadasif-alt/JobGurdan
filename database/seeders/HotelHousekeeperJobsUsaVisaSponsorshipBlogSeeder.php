@@ -293,9 +293,9 @@ JOBHTML;
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/landscaper-jobs-usa-visa-sponsorship-2026">Landscaper Jobs in USA With Visa Sponsorship (2026)</a> &mdash; the same H-2B route for outdoor work.</li>
-    <li><a href="/blog/how-to-get-landscaper-job-usa-from-pakistan-2026">How to Get a Landscaper Job in USA From Pakistan</a> &mdash; the step-by-step process.</li>
-    <li><a href="/blog/cleaner-and-janitor-jobs-with-visa-sponsorship">Cleaner and Janitor Jobs With Visa Sponsorship</a> &mdash; another cleaning role where sponsorship claims need checking.</li>
+    <li><a href="/blog/landscaper-jobs-usa-visa-sponsorship-2026">Landscaper Jobs in USA With Visa Sponsorship (2026)</a>: the same H-2B route for outdoor work.</li>
+    <li><a href="/blog/how-to-get-landscaper-job-usa-from-pakistan-2026">How to Get a Landscaper Job in USA From Pakistan</a>: the step-by-step process.</li>
+    <li><a href="/blog/cleaner-and-janitor-jobs-with-visa-sponsorship">Cleaner and Janitor Jobs With Visa Sponsorship</a>: another cleaning role where sponsorship claims need checking.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Wage figures are from the US Bureau of Labor Statistics, May 2025 national estimates, and cover housekeeping workplaces beyond hotels; other information is drawn from the US Department of Labor, USCIS, the State Department and the Department of Homeland Security, reviewed on 8 October 2026. It does not confirm cap availability or that a visa will be issued to any individual applicant.</p>

@@ -213,10 +213,10 @@ class BestCountriesTruckDriversAbroadBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/hgv-driver-jobs-uk-visa-sponsorship-2026">HGV Driver Jobs in the UK With Visa Sponsorship (2026)</a> &mdash; why the UK route is generally closed.</li>
-    <li><a href="/blog/truck-driver-salary-usa-2026">Truck Driver Salary in the USA (2026)</a> &mdash; the US pay picture.</li>
-    <li><a href="/blog/highest-paying-blue-collar-jobs-abroad-2026">Highest Paying Blue Collar Jobs Abroad (2026)</a> &mdash; how driving compares with other trades.</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a> &mdash; verify before you pay.</li>
+    <li><a href="/blog/hgv-driver-jobs-uk-visa-sponsorship-2026">HGV Driver Jobs in the UK With Visa Sponsorship (2026)</a>: why the UK route is generally closed.</li>
+    <li><a href="/blog/truck-driver-salary-usa-2026">Truck Driver Salary in the USA (2026)</a>: the US pay picture.</li>
+    <li><a href="/blog/highest-paying-blue-collar-jobs-abroad-2026">Highest Paying Blue Collar Jobs Abroad (2026)</a>: how driving compares with other trades.</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Visa routes, shortage lists and licence rules change often, so confirm every detail on the official site before you apply or pay anyone.</p>

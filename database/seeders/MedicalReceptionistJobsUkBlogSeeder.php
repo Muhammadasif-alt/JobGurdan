@@ -160,7 +160,7 @@ class MedicalReceptionistJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay and terms are set by the individual GP practice or NHS trust &mdash; not by JobGader. A GP practice is an independent business and does not have to follow NHS pay bands. Apply through NHS Jobs or the practice directly, and never pay anyone for a job.</p>
+<p><strong>Note:</strong> pay and terms are set by the individual GP practice or NHS trust, not by JobGader. A GP practice is an independent business and does not have to follow NHS pay bands. Apply through NHS Jobs or the practice directly, and never pay anyone for a job.</p>
 JOBHTML;
     }
 
@@ -182,11 +182,11 @@ JOBHTML;
 <p>Medical receptionist posts are advertised by two kinds of organisation, and they are not the same employer:</p>
 
 <ul>
-    <li><strong>An NHS trust</strong> &mdash; a hospital or community service. Pay follows <strong>Agenda for Change</strong>, with the NHS pension, NHS annual leave and NHS terms.</li>
-    <li><strong>A GP practice</strong> &mdash; an independent business holding a contract with the NHS. It sets its own pay, its own leave and its own terms. Many practices pay around the equivalent band, some pay less, some more.</li>
+    <li><strong>An NHS trust</strong>: a hospital or community service. Pay follows <strong>Agenda for Change</strong>, with the NHS pension, NHS annual leave and NHS terms.</li>
+    <li><strong>A GP practice</strong>: an independent business holding a contract with the NHS. It sets its own pay, its own leave and its own terms. Many practices pay around the equivalent band, some pay less, some more.</li>
 </ul>
 
-<p>Both advertise on NHS Jobs, which is exactly why people assume they are the same. <strong>They are not.</strong> If an advert does not name a band, you are almost certainly looking at a practice, and the salary in the advert is the salary &mdash; there is no national scale behind it.</p>
+<p>Both advertise on NHS Jobs, which is exactly why people assume they are the same. <strong>They are not.</strong> If an advert does not name a band, you are almost certainly looking at a practice, and the salary in the advert is the salary: there is no national scale behind it.</p>
 
 <h2>What It Pays</h2>
 
@@ -219,7 +219,7 @@ JOBHTML;
 
 <h2>Care Navigation Changed the Job</h2>
 
-<p>The old picture of a medical receptionist &mdash; book the appointment, hand over the prescription &mdash; is out of date. Under the GP contract's <strong>Directed Enhanced Service</strong>, reception staff are trained to ask what the call is about and <strong>signpost the patient to the right service or clinician first time</strong>. Many practices now advertise the post as <strong>Receptionist / Care Navigator</strong>.</p>
+<p>The old picture of a medical receptionist, book the appointment, hand over the prescription, is out of date. Under the GP contract's <strong>Directed Enhanced Service</strong>, reception staff are trained to ask what the call is about and <strong>signpost the patient to the right service or clinician first time</strong>. Many practices now advertise the post as <strong>Receptionist / Care Navigator</strong>.</p>
 
 <p>That is why the job is harder than it looks from the waiting room:</p>
 
@@ -237,10 +237,10 @@ JOBHTML;
 
 <ul>
     <li><strong>EMIS Web</strong> and <strong>SystmOne</strong> are the <em>clinical record systems</em>. A practice runs one or the other. Between them they cover most of English general practice, and hospital settings may use something else such as Cerner Millennium.</li>
-    <li><strong>Docman</strong> is <em>document management</em> &mdash; it handles incoming letters and clinical correspondence. It sits alongside the record system, it does not replace it.</li>
+    <li><strong>Docman</strong> is <em>document management</em>: it handles incoming letters and clinical correspondence. It sits alongside the record system, it does not replace it.</li>
 </ul>
 
-<p>So "EMIS or Docman experience" is not an either/or the way a job board makes it sound. <strong>The one that matters most on your application is the record system the practice actually runs</strong>, because that is the one you will be in all day. If you have used one and the practice uses the other, say so plainly &mdash; most practices train for it, and pretending otherwise is found out in week one.</p>
+<p>So "EMIS or Docman experience" is not an either/or the way a job board makes it sound. <strong>The one that matters most on your application is the record system the practice actually runs</strong>, because that is the one you will be in all day. If you have used one and the practice uses the other, say so plainly: most practices train for it, and pretending otherwise is found out in week one.</p>
 
 <h2>Do You Need Experience?</h2>
 
@@ -249,7 +249,7 @@ JOBHTML;
 <p>What genuinely helps:</p>
 
 <ul>
-    <li><strong>Any evidence of handling volume calmly</strong> &mdash; a busy till, a complaints line, a reception desk</li>
+    <li><strong>Any evidence of handling volume calmly</strong>: a busy till, a complaints line, a reception desk</li>
     <li><strong>Discretion you can describe.</strong> You will see neighbours' medical records. Practices ask about confidentiality, and vague answers lose offers</li>
     <li><strong>Typing and system speed</strong>; some practices run a short computer test</li>
     <li><strong>Availability for early starts and late surgeries</strong>, since practices open before and after normal office hours</li>
@@ -270,13 +270,13 @@ JOBHTML;
     <li><strong>The occupation is not a shortage route.</strong> Reception and general administrative work sits below the skill level the Skilled Worker route is built for, so a sponsor licence at the trust or practice does not help you.</li>
 </ul>
 
-<p>If you already have the right to work in the UK &mdash; settled or pre-settled status, a dependant visa, a Graduate visa &mdash; this is a very reachable first UK job. If you do not, treat any agent offering you a sponsored GP reception job as a scam.</p>
+<p>If you already have the right to work in the UK, settled or pre-settled status, a dependant visa, a Graduate visa, this is a very reachable first UK job. If you do not, treat any agent offering you a sponsored GP reception job as a scam.</p>
 
 <h2>How to Apply, Step by Step</h2>
 
 <ol>
     <li><strong>Search NHS Jobs</strong> and filter by your travel distance, because practice hours rarely suit a long commute.</li>
-    <li><strong>Read the employer name and decide which deal you are looking at</strong> &mdash; trust band, or practice rate.</li>
+    <li><strong>Read the employer name and decide which deal you are looking at</strong>: trust band, or practice rate.</li>
     <li><strong>Note the clinical system</strong> named in the advert and mirror it in your application if you have used it.</li>
     <li><strong>Write to the person specification</strong>, not the job title. NHS Jobs applications are scored against it line by line.</li>
     <li><strong>Prepare a confidentiality example</strong> and a busy-day example before the interview.</li>
@@ -343,17 +343,17 @@ JOBHTML;
 <p>Looking across UK healthcare and admin work? These cover the neighbouring routes:</p>
 
 <ul>
-    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; the clinical side of the same setting.</li>
-    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; the wider support workforce and its bands.</li>
-    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; how the sector is structured and who employs whom.</li>
-    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a> &mdash; the same admin skills outside healthcare.</li>
-    <li><a href="/blog/school-administrator-jobs-in-uk">School Administrator Jobs in UK</a> &mdash; another public-facing admin route with term-time hours.</li>
-    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; the honest position on care sponsorship now.</li>
-    <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a> &mdash; the same people skills, on a published salary.</li>
-    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a> &mdash; a faster route into UK hourly work.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; what the sponsorship rules actually allow.</li>
-    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a> &mdash; if the commute to a practice does not work.</li>
-    <li><a href="/blog/healthcare-administrator-jobs-in-pakistan">Healthcare Administrator Jobs in Pakistan</a> &mdash; the same front-office and coordination work in Pakistani hospitals.</li>
+    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a>: the clinical side of the same setting.</li>
+    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a>: the wider support workforce and its bands.</li>
+    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a>: how the sector is structured and who employs whom.</li>
+    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a>: the same admin skills outside healthcare.</li>
+    <li><a href="/blog/school-administrator-jobs-in-uk">School Administrator Jobs in UK</a>: another public-facing admin route with term-time hours.</li>
+    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a>: the honest position on care sponsorship now.</li>
+    <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a>: the same people skills, on a published salary.</li>
+    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a>: a faster route into UK hourly work.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: what the sponsorship rules actually allow.</li>
+    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a>: if the commute to a practice does not work.</li>
+    <li><a href="/blog/healthcare-administrator-jobs-in-pakistan">Healthcare Administrator Jobs in Pakistan</a>: the same front-office and coordination work in Pakistani hospitals.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using NHS Jobs, the NHS Employers Agenda for Change pay scales for 2026/27, NHS England general practice contract material and Home Office immigration guidance. Pay scales, contract terms and immigration rules change, and GP practices set their own terms. Always read the live advert and the person specification before you apply.</p>

@@ -208,9 +208,9 @@ class JuniorWebDeveloperJobsChicagoNoDegreeBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/jobs-in-chicago-il">Jobs in Chicago, IL</a> &mdash; public employers and portals in the city.</li>
-    <li><a href="/blog/wordpress-developer-jobs-austin-texas">WordPress Developer Jobs in Austin, Texas</a> &mdash; another route into web development.</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a> &mdash; check this before you send money or documents.</li>
+    <li><a href="/blog/jobs-in-chicago-il">Jobs in Chicago, IL</a>: public employers and portals in the city.</li>
+    <li><a href="/blog/wordpress-developer-jobs-austin-texas">WordPress Developer Jobs in Austin, Texas</a>: another route into web development.</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 17 October 2026. It links official and public-sector sources; private employers are named in the text so you can search their own career pages. It does not imply visa sponsorship, a confirmed opening or guaranteed hiring.</p>

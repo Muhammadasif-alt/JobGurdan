@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "QA Tester Jobs in Canada" — the standard entry-into-tech article, written
+ * "QA Tester Jobs in Canada": the standard entry-into-tech article, written
  * as though QA were one occupation with one salary band. Canada's own labour
  * market data splits it across two occupation codes with different education
  * requirements, different pay and very different numbers of advertised jobs.
@@ -165,7 +165,7 @@ class QaTesterJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Find out which occupation code the role sits under before you talk about money.</strong> Software testing technicians and information systems specialists are separate classifications in Canada with substantially different prevailing wages, and for an international applicant the code also drives which immigration routes are open.</p>
 
-<p><strong>Note:</strong> pay, tooling and eligibility are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, tooling and eligibility are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -189,30 +189,30 @@ JOBHTML;
 
 <p>These are not two rungs of one ladder. They are separate classifications, and the entry requirement is where they part company. For NOC 22222, Job Bank states the occupation <strong>usually requires a college diploma (community college, institute of technology or CEGEP), an apprenticeship training of 2 or more years, or experience working in a supervisory occupation</strong>. For NOC 21222, it states the occupation <strong>usually requires a university degree</strong>.</p>
 
-<p>That single distinction disposes of the most repeated claim in QA careers advice. It is broadly fair to say testing is an accessible entry point into tech and that a computer science degree is not always required &mdash; but that applies to the technician code. The better-paid analyst code usually does want the degree. Articles that borrow the low barrier from one code and the salary from the other are describing a job that does not exist.</p>
+<p>That single distinction disposes of the most repeated claim in QA careers advice. It is broadly fair to say testing is an accessible entry point into tech and that a computer science degree is not always required, but that applies to the technician code. The better-paid analyst code usually does want the degree. Articles that borrow the low barrier from one code and the salary from the other are describing a job that does not exist.</p>
 
 <h2>What QA Actually Pays in Canada</h2>
 
 <p>Job Bank publishes prevailing wages from the Labour Force Survey, <strong>updated on 19 November 2025</strong> for the 2023-2024 reference period. Per hour, across Canada:</p>
 
 <ul>
-    <li><strong>Software tester (NOC 22222)</strong> &mdash; low <strong>17.50</strong>, median <strong>35.00</strong>, high <strong>51.28</strong></li>
-    <li><strong>Information systems QA analyst (NOC 21222)</strong> &mdash; low <strong>28.85</strong>, median <strong>46.15</strong>, high <strong>68.68</strong></li>
+    <li><strong>Software tester (NOC 22222)</strong>: low <strong>17.50</strong>, median <strong>35.00</strong>, high <strong>51.28</strong></li>
+    <li><strong>Information systems QA analyst (NOC 21222)</strong>: low <strong>28.85</strong>, median <strong>46.15</strong>, high <strong>68.68</strong></li>
 </ul>
 
-<p>Now compare that against the band every guide quotes. A median of 35.00 an hour is roughly 68,000 a year on a 37.5-hour week, which sits comfortably inside the usual "55,000 to 80,000" claim &mdash; so the middle of the article is right. The ends are not.</p>
+<p>Now compare that against the band every guide quotes. A median of 35.00 an hour is roughly 68,000 a year on a 37.5-hour week, which sits comfortably inside the usual "55,000 to 80,000" claim, so the middle of the article is right. The ends are not.</p>
 
 <p><strong>The bottom of the tester market is 17.50 an hour</strong>, about half the quoted floor. So the standard line that entry-level testers "typically start on the lower end of this range" is not true: entry level often starts well below that range entirely. If you are taking a first QA job, budget against the low figure, not the band.</p>
 
 <p>At the other end, the "85,000 to 100,000+" tier that guides attribute to experienced QA testers is really the analyst code doing the work. A high of 68.68 an hour under NOC 21222 is roughly 134,000 a year. The money is real; it is just attached to the classification that usually asks for a degree.</p>
 
-<p>Regional variation is smaller than the city-by-city framing suggests. In Alberta, for instance, testers run 24.37 low, 36.70 median and 52.42 high, and analysts 27.13, 48.08 and 68.00 &mdash; close to the national picture rather than dramatically apart from it.</p>
+<p>Regional variation is smaller than the city-by-city framing suggests. In Alberta, for instance, testers run 24.37 low, 36.70 median and 52.42 high, and analysts 27.13, 48.08 and 68.00: close to the national picture rather than dramatically apart from it.</p>
 
 <h2>The Demand Claim Deserves a Hard Look</h2>
 
 <p>Careers articles on this subject are unanimous that demand is growing and stability is strong. Job Bank is more restrained. It rates job prospects for both codes as <strong>varying across Canada depending on the province or territory</strong> rather than uniformly strong.</p>
 
-<p>The advertised-volume figures are blunter still. At the time of writing, Job Bank listed <strong>5 jobs advertised in Canada</strong> under software tester, against <strong>331</strong> under the information systems specialist code that contains QA analyst. Treat both numbers as a snapshot of one federal job board rather than the whole market &mdash; but the ratio is the signal. Hiring is concentrated in the professional classification, not the technician one.</p>
+<p>The advertised-volume figures are blunter still. At the time of writing, Job Bank listed <strong>5 jobs advertised in Canada</strong> under software tester, against <strong>331</strong> under the information systems specialist code that contains QA analyst. Treat both numbers as a snapshot of one federal job board rather than the whole market, but the ratio is the signal. Hiring is concentrated in the professional classification, not the technician one.</p>
 
 <p>The practical reading is not "avoid QA". It is that the pure manual-testing job title is the thinner end of the market, and that moving toward the analyst and automation side is where the volume and the money both sit. That is the same conclusion the standard career-path advice reaches, arrived at from evidence rather than optimism.</p>
 
@@ -228,7 +228,7 @@ JOBHTML;
 
 <h2>If You Are Applying From Outside Canada</h2>
 
-<p>This is where the two codes stop being trivia. Canadian immigration programmes are organised by NOC code, not by job title, so <strong>the code an employer classifies your offer under is what determines your options</strong> &mdash; and an advertisement calling the role "QA Tester" tells you nothing about which one it is.</p>
+<p>This is where the two codes stop being trivia. Canadian immigration programmes are organised by NOC code, not by job title, so <strong>the code an employer classifies your offer under is what determines your options</strong>, and an advertisement calling the role "QA Tester" tells you nothing about which one it is.</p>
 
 <p>Two things follow. First, ask the employer directly which NOC code the position is being classified under, and get it in writing before you rely on it. Second, remember that the education Job Bank associates with each code is not a formality: a university degree sits behind the analyst classification, and that is the classification carrying both the higher wages and the far larger number of advertised positions.</p>
 
@@ -239,7 +239,7 @@ JOBHTML;
     <li><strong>Learn one automation tool properly.</strong> Beginner-level Selenium or Cypress plus a little Python or JavaScript is what moves you from the thin end of the market to the thick end</li>
     <li><strong>Show a defect report, not a certificate.</strong> A clear, reproducible bug write-up with steps, expected and actual behaviour demonstrates the core skill better than any bullet point</li>
     <li><strong>Treat ISTQB as a tiebreaker,</strong> useful for getting past a first screen, not a substitute for the education the classification expects</li>
-    <li><strong>Benchmark the offer against the right median</strong> &mdash; 35.00 an hour for a testing technician role, 46.15 for a QA analyst role</li>
+    <li><strong>Benchmark the offer against the right median</strong>: 35.00 an hour for a testing technician role, 46.15 for a QA analyst role</li>
     <li><strong>Ask about benefits explicitly,</strong> since most people in this occupation have them</li>
 </ul>
 
@@ -278,12 +278,12 @@ JOBHTML;
 <h2>People Also Search For</h2>
 
 <ul>
-    <li><strong>Software tester salary Canada</strong> &mdash; median 35.00 an hour under NOC 22222, per Job Bank wages updated 19 November 2025</li>
-    <li><strong>QA analyst salary Toronto</strong> &mdash; the higher figures belong to NOC 21222, median 46.15 an hour nationally</li>
-    <li><strong>NOC code for QA tester Canada</strong> &mdash; 22222 for testing technicians, 21222 for QA analysts; the code, not the title, drives immigration eligibility</li>
-    <li><strong>Entry level QA jobs Canada no experience</strong> &mdash; the market low is 17.50 an hour, well below the salary bands usually quoted</li>
-    <li><strong>Manual testing vs automation testing jobs</strong> &mdash; advertised volume concentrates in the specialist classification, not pure manual testing</li>
-    <li><strong>ISTQB certification Canada</strong> &mdash; a screening advantage, not a substitute for the education each code expects</li>
+    <li><strong>Software tester salary Canada</strong>: median 35.00 an hour under NOC 22222, per Job Bank wages updated 19 November 2025</li>
+    <li><strong>QA analyst salary Toronto</strong>: the higher figures belong to NOC 21222, median 46.15 an hour nationally</li>
+    <li><strong>NOC code for QA tester Canada</strong>: 22222 for testing technicians, 21222 for QA analysts; the code, not the title, drives immigration eligibility</li>
+    <li><strong>Entry level QA jobs Canada no experience</strong>: the market low is 17.50 an hour, well below the salary bands usually quoted</li>
+    <li><strong>Manual testing vs automation testing jobs</strong>: advertised volume concentrates in the specialist classification, not pure manual testing</li>
+    <li><strong>ISTQB certification Canada</strong>: a screening advantage, not a substitute for the education each code expects</li>
 </ul>
 
 <h2>More Job Guides</h2>
@@ -295,7 +295,7 @@ JOBHTML;
     <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a></li>
     <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a></li>
     <li><a href="/blog/ats-resume-writer-jobs-in-canada">ATS Resume Writer Jobs in Canada</a></li>
-    <li><a href="/blog/recruiter-jobs-in-canada">Recruiter Jobs in Canada</a> &mdash; how technical recruiters hire, and what they earn.</li>
+    <li><a href="/blog/recruiter-jobs-in-canada">Recruiter Jobs in Canada</a>: how technical recruiters hire, and what they earn.</li>
 </ul>
 HTML;
     }

@@ -163,7 +163,7 @@ class NursingAssistantJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay and terms are set by the employing NHS trust or care provider &mdash; not by JobGader. Private care homes and agencies are not bound by the NHS pay scale. Apply through NHS Jobs or the provider directly, and never pay anyone for a job or a certificate of sponsorship.</p>
+<p><strong>Note:</strong> pay and terms are set by the employing NHS trust or care provider, not by JobGader. Private care homes and agencies are not bound by the NHS pay scale. Apply through NHS Jobs or the provider directly, and never pay anyone for a job or a certificate of sponsorship.</p>
 JOBHTML;
     }
 
@@ -198,7 +198,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>The practical difference: you can apply for nursing assistant and healthcare assistant posts tomorrow with no qualification. <strong>You cannot call yourself a nursing associate</strong> without completing the programme and joining the NMC register &mdash; it is a protected title, not a promotion you are given.</p>
+<p>The practical difference: you can apply for nursing assistant and healthcare assistant posts tomorrow with no qualification. <strong>You cannot call yourself a nursing associate</strong> without completing the programme and joining the NMC register: it is a protected title, not a promotion you are given.</p>
 
 <h2>What the Job Actually Involves</h2>
 
@@ -206,7 +206,7 @@ JOBHTML;
 
 <ul>
     <li>Helping patients wash, dress, eat and move safely</li>
-    <li><strong>Taking and recording clinical observations</strong> &mdash; temperature, pulse, respiration rate, blood pressure and oxygen saturation</li>
+    <li><strong>Taking and recording clinical observations</strong>: temperature, pulse, respiration rate, blood pressure and oxygen saturation</li>
     <li>Assisting with safe transfers and repositioning</li>
     <li>Keeping the bay clean, stocked and safe</li>
     <li><strong>Escalating change.</strong> You are often the first person to notice a patient has deteriorated, and saying so is part of the job</li>
@@ -250,7 +250,7 @@ JOBHTML;
 
 <h2>The Care Certificate</h2>
 
-<p>This is the induction standard the draft guides always miss. The Care Certificate is completed <strong>within twelve weeks of starting</strong>, and since the <strong>March 2025 update it has sixteen standards</strong> &mdash; the new one covering learning disability and autism awareness.</p>
+<p>This is the induction standard the draft guides always miss. The Care Certificate is completed <strong>within twelve weeks of starting</strong>, and since the <strong>March 2025 update it has sixteen standards</strong>: the new one covering learning disability and autism awareness.</p>
 
 <p>Two things follow that matter when you apply:</p>
 
@@ -266,7 +266,7 @@ JOBHTML;
 <ol>
     <li><strong>Nursing assistant or healthcare assistant</strong>, Band 2, learning on the ward</li>
     <li><strong>Band 3</strong> with extended clinical skills and responsibility</li>
-    <li><strong>Trainee nursing associate</strong> &mdash; a two-year programme, often funded by the trust while you keep earning</li>
+    <li><strong>Trainee nursing associate</strong>: a two-year programme, often funded by the trust while you keep earning</li>
     <li><strong>Nursing associate</strong>, registered with the NMC</li>
     <li><strong>Registered nurse</strong>, via a shortened top-up route from nursing associate</li>
 </ol>
@@ -289,7 +289,7 @@ JOBHTML;
 
 <ul>
     <li><strong>If you are outside the UK:</strong> you cannot be sponsored into a care worker role. Anyone offering you one is either misinformed or taking your money.</li>
-    <li><strong>If you are already in the UK with the right to work</strong> &mdash; settled or pre-settled status, a dependant visa, a Graduate visa, or an existing care visa &mdash; these jobs are open to you and are actively recruiting.</li>
+    <li><strong>If you are already in the UK with the right to work</strong>, settled or pre-settled status, a dependant visa, a Graduate visa, or an existing care visa, these jobs are open to you and are actively recruiting.</li>
     <li><strong>The general Skilled Worker threshold is &pound;41,700</strong> a year or the going rate, whichever is higher. A Band 2 post at &pound;26,618 does not reach it, so no ordinary route replaces the closed one.</li>
 </ul>
 
@@ -366,18 +366,18 @@ JOBHTML;
 <p>Looking across UK healthcare work? These cover the neighbouring routes:</p>
 
 <ul>
-    <li><a href="/blog/physiotherapy-assistant-jobs-in-the-uk">Physiotherapy Assistant Jobs in the UK</a> &mdash; the therapy department version, where Band 3 means delegated treatment.</li>
-    <li><a href="/blog/hospital-support-worker-jobs-in-the-uk">Hospital Support Worker Jobs in the UK</a> &mdash; the same ward work under the title acute trusts advertise most.</li>
-    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; the broader support role and where it is advertised.</li>
-    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; the wider support workforce and its bands.</li>
-    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; how the sector is structured and who employs whom.</li>
-    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; what the closed route means in practice.</li>
-    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; the qualified route in another market.</li>
-    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; where nursing pay and sponsorship work differently.</li>
-    <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a> &mdash; another hands-on role in the same settings.</li>
-    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a> &mdash; if you want the admin side instead.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; what the sponsorship rules actually allow.</li>
-    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a> &mdash; a faster route into UK hourly work.</li>
+    <li><a href="/blog/physiotherapy-assistant-jobs-in-the-uk">Physiotherapy Assistant Jobs in the UK</a>: the therapy department version, where Band 3 means delegated treatment.</li>
+    <li><a href="/blog/hospital-support-worker-jobs-in-the-uk">Hospital Support Worker Jobs in the UK</a>: the same ward work under the title acute trusts advertise most.</li>
+    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a>: the broader support role and where it is advertised.</li>
+    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a>: the wider support workforce and its bands.</li>
+    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a>: how the sector is structured and who employs whom.</li>
+    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a>: what the closed route means in practice.</li>
+    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a>: the qualified route in another market.</li>
+    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a>: where nursing pay and sponsorship work differently.</li>
+    <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a>: another hands-on role in the same settings.</li>
+    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a>: if you want the admin side instead.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: what the sponsorship rules actually allow.</li>
+    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a>: a faster route into UK hourly work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using NHS Jobs, the NHS Employers Agenda for Change pay scales for 2026/27, Care Certificate guidance and Home Office immigration rules. Pay scales, training standards and immigration rules change, and private care providers set their own terms. Always read the live advert and the current immigration guidance before you apply.</p>

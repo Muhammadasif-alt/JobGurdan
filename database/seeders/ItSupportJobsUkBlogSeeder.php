@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "IT Support Jobs in UK" — first and second line support, service desks and
+ * "IT Support Jobs in UK": first and second line support, service desks and
  * desktop roles. It sits beside the electrician and delivery driver guides for
  * the UK, using the same National Living Wage arithmetic, and beside the US
  * network, cloud and cybersecurity guides that support careers lead into.
@@ -159,14 +159,14 @@ class ItSupportJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the weekly hours against the salary.</strong> A full-time offer below &pound;24,784.50 for a worker aged 21 or over is below the National Living Wage. If you need sponsorship, the job must pay at least &pound;41,700, or &pound;33,400 for a new entrant, with the certificate of sponsorship issued before 31 December 2026 while the occupation is on the Temporary Shortage List.</p>
 
-<p><strong>Note:</strong> pay, working hours, clearance and eligibility are set by each employer and by UK law and immigration rules &mdash; not by JobGader. Confirm the details on the official advertisement before applying.</p>
+<p><strong>Note:</strong> pay, working hours, clearance and eligibility are set by each employer and by UK law and immigration rules, not by JobGader. Confirm the details on the official advertisement before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>IT support is one of the most common first jobs in UK technology. Every business that runs laptops, email and a network needs someone to keep them working, and the job rarely asks for a degree. It is also a job where the salary ranges most guides publish start below the legal minimum, where the certificate they name is two exams rather than one, and where the question most readers outside the UK are asking &mdash; can I get a visa for it? &mdash; has a clear answer the guides leave out.</p>
+<p>IT support is one of the most common first jobs in UK technology. Every business that runs laptops, email and a network needs someone to keep them working, and the job rarely asks for a degree. It is also a job where the salary ranges most guides publish start below the legal minimum, where the certificate they name is two exams rather than one, and where the question most readers outside the UK are asking: can I get a visa for it? &mdash; has a clear answer the guides leave out.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/it-software?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -201,8 +201,8 @@ JOBHTML;
 <p>Since <strong>22 July 2025</strong>, the Skilled Worker visa has required a job skilled to <strong>RQF level 6</strong>, broadly degree level, for new applicants. The Home Office classifies both support occupations below that:</p>
 
 <ul>
-    <li><strong>3132 IT user support technicians</strong> &mdash; help desk, service desk and desktop support</li>
-    <li><strong>3131 IT operations technicians</strong> &mdash; including network and systems administrators at technician level</li>
+    <li><strong>3132 IT user support technicians</strong>: help desk, service desk and desktop support</li>
+    <li><strong>3131 IT operations technicians</strong>, including network and systems administrators at technician level</li>
 </ul>
 
 <p>Both codes sit in <strong>Table 1a</strong> of Appendix Skilled Occupations, the list of occupations skilled to RQF level 3 to 5. On their own, those codes are open only to workers who already held Skilled Worker permission from before 22 July 2025. What keeps IT support open to new applicants is the <strong>Temporary Shortage List</strong> in Appendix Skilled Worker: both codes are on it, for applications made with a certificate of sponsorship issued <strong>before 31 December 2026</strong>.</p>
@@ -218,7 +218,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Living outside the UK?</strong> Sponsorship is realistic only for a role paying at least &pound;41,700, or &pound;33,400 if you count as a new entrant, with the certificate issued before 31 December 2026. A recruiter offering a sponsored &pound;24,000 help desk job is offering something the rules do not allow.</li>
-    <li><strong>Already in the UK with the right to work</strong> &mdash; on a Graduate visa, as a dependant, or with settled or pre-settled status? You can apply like any other candidate.</li>
+    <li><strong>Already in the UK with the right to work</strong>: on a Graduate visa, as a dependant, or with settled or pre-settled status? You can apply like any other candidate.</li>
     <li><strong>Already a sponsored support technician since before 22 July 2025?</strong> You are inside the transitional rules and can extend or change sponsor in the same code.</li>
 </ul>
 
@@ -242,15 +242,15 @@ JOBHTML;
     <li><strong>Third line (infrastructure).</strong> Servers, networks, cloud platforms and the problems the first two lines cannot solve. Usually titled as an engineer or administrator role.</li>
 </ul>
 
-<p>Where you work changes the job as much as the line. A <strong>managed service provider</strong> (MSP) supports many client businesses at once, which means variety, pace and fast learning. An <strong>in-house team</strong> at one organisation &mdash; an NHS trust, a council, a school or university, or a large company &mdash; usually means steadier hours and deeper knowledge of one environment.</p>
+<p>Where you work changes the job as much as the line. A <strong>managed service provider</strong> (MSP) supports many client businesses at once, which means variety, pace and fast learning. An <strong>in-house team</strong> at one organisation, an NHS trust, a council, a school or university, or a large company, usually means steadier hours and deeper knowledge of one environment.</p>
 
 <h2>Certificates: What CompTIA A+ Actually Involves</h2>
 
 <p>Guides list "CompTIA A+" as if it were one exam. It is two. Since the current version, <strong>V15</strong>, launched on 25 March 2025, you must pass both:</p>
 
 <ul>
-    <li><strong>Core 1 (220-1201)</strong> &mdash; hardware, mobile devices, networking and troubleshooting</li>
-    <li><strong>Core 2 (220-1202)</strong> &mdash; operating systems, security, software troubleshooting and operational procedures</li>
+    <li><strong>Core 1 (220-1201)</strong>: hardware, mobile devices, networking and troubleshooting</li>
+    <li><strong>Core 2 (220-1202)</strong>: operating systems, security, software troubleshooting and operational procedures</li>
 </ul>
 
 <p>Budget for two exam fees and two sets of preparation. CompTIA certifications are valid for three years and are renewed through continuing education.</p>
@@ -258,16 +258,16 @@ JOBHTML;
 <p>After A+, the certificates UK employers name most often are:</p>
 
 <ul>
-    <li><strong>CompTIA Network+</strong> &mdash; the bridge from support to network roles.</li>
-    <li><strong>Microsoft certifications</strong> &mdash; Microsoft 365 Fundamentals to start, and Endpoint Administrator for second line work.</li>
-    <li><strong>ITIL 4 Foundation</strong> &mdash; the service management framework most UK service desks run on.</li>
+    <li><strong>CompTIA Network+</strong>: the bridge from support to network roles.</li>
+    <li><strong>Microsoft certifications</strong>: Microsoft 365 Fundamentals to start, and Endpoint Administrator for second line work.</li>
+    <li><strong>ITIL 4 Foundation</strong>: the service management framework most UK service desks run on.</li>
 </ul>
 
 <p>A certificate gets your CV past a filter. What wins the interview is showing you can troubleshoot calmly and explain a fix to someone who is not technical, so bring real examples: a home lab, a family business network, or a problem you solved in a previous job.</p>
 
 <h2>Security Clearance Can Matter as Much as a Certificate</h2>
 
-<p>This is the other requirement most guides skip. A large share of UK support work is for the public sector, defence, policing, and the managed service providers that hold those contracts &mdash; and those roles need security vetting.</p>
+<p>This is the other requirement most guides skip. A large share of UK support work is for the public sector, defence, policing, and the managed service providers that hold those contracts, and those roles need security vetting.</p>
 
 <ul>
     <li><strong>BPSS</strong>, the Baseline Personnel Security Standard, is the entry level: identity, right to work, employment history and a criminal record declaration.</li>
@@ -280,12 +280,12 @@ JOBHTML;
 <h2>Where the Jobs Are</h2>
 
 <ul>
-    <li><strong>London and the South East</strong> &mdash; the most roles and the highest pay, especially in finance, law and corporate head offices.</li>
-    <li><strong>Manchester and the North West</strong> &mdash; a large technology and MSP sector.</li>
-    <li><strong>Birmingham and the Midlands</strong> &mdash; steady demand from corporate, public sector and industrial employers.</li>
-    <li><strong>Leeds and Yorkshire</strong> &mdash; financial services, health and public sector IT.</li>
-    <li><strong>Glasgow and Edinburgh</strong> &mdash; financial services, government and a growing technology sector.</li>
-    <li><strong>Bristol and the South West</strong> &mdash; aerospace, defence and technology companies, where clearance often applies.</li>
+    <li><strong>London and the South East</strong>: the most roles and the highest pay, especially in finance, law and corporate head offices.</li>
+    <li><strong>Manchester and the North West</strong>: a large technology and MSP sector.</li>
+    <li><strong>Birmingham and the Midlands</strong>: steady demand from corporate, public sector and industrial employers.</li>
+    <li><strong>Leeds and Yorkshire</strong>: financial services, health and public sector IT.</li>
+    <li><strong>Glasgow and Edinburgh</strong>: financial services, government and a growing technology sector.</li>
+    <li><strong>Bristol and the South West</strong>: aerospace, defence and technology companies, where clearance often applies.</li>
 </ul>
 
 <p>Fully remote first line roles exist but are fewer than hybrid ones, because desktop support still means setting up hardware in person. A remote UK role still needs the right to work in the UK, and employers rarely allow the work to be done from another country.</p>
@@ -353,24 +353,24 @@ JOBHTML;
 <p>Comparing UK routes or the technical careers support leads into? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; a UK trade with a real qualification barrier, priced against the same legal minimum.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; the National Living Wage arithmetic in a job with no qualification barrier.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; the same RQF level 6 rule applied to operative roles.</li>
-    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; the sector where UK sponsorship is genuinely available.</li>
-    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a> &mdash; the career most support technicians grow into.</li>
-    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; the security route from a support background.</li>
-    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a> &mdash; where much of the infrastructure work is moving.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; support skills without the technical escalation.</li>
-    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; the same first-line work in America, and why the BLS projects it to shrink.</li>
-    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; public sector pay scales and the pension behind them.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: a UK trade with a real qualification barrier, priced against the same legal minimum.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: the National Living Wage arithmetic in a job with no qualification barrier.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: the same RQF level 6 rule applied to operative roles.</li>
+    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a>: the sector where UK sponsorship is genuinely available.</li>
+    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a>: the career most support technicians grow into.</li>
+    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a>: the security route from a support background.</li>
+    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a>: where much of the infrastructure work is moving.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: support skills without the technical escalation.</li>
+    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a>: the same first-line work in America, and why the BLS projects it to shrink.</li>
+    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a>: public sector pay scales and the pension behind them.</li>
     <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a></li>
-    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a> &mdash; the shop floor route, and why the pay figures everyone quotes are below the law.</li>
-    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a> &mdash; how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
-    <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a> &mdash; the next step up from IT support, in a Gulf market with its own visa and overtime rules.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; why the Temporary Shortage List expires on 31 December 2026.</li>
-    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a> &mdash; the ONS salary picture, apprenticeship and Civil Service routes, and the SOC 2431 visa rules.</li>
-    <li><a href="/blog/how-to-apply-for-microsoft-it-support-jobs-in-the-usa">How to Apply for Microsoft IT Support Jobs in the USA</a> &mdash; the same work in the American market, with Microsoft's own published hourly ranges.</li>
-    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a> &mdash; ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
+    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a>: the shop floor route, and why the pay figures everyone quotes are below the law.</li>
+    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a>: how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
+    <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a>: the next step up from IT support, in a Gulf market with its own visa and overtime rules.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: why the Temporary Shortage List expires on 31 December 2026.</li>
+    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a>: the ONS salary picture, apprenticeship and Civil Service routes, and the SOC 2431 visa rules.</li>
+    <li><a href="/blog/how-to-apply-for-microsoft-it-support-jobs-in-the-usa">How to Apply for Microsoft IT Support Jobs in the USA</a>: the same work in the American market, with Microsoft's own published hourly ranges.</li>
+    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a>: ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Minimum wage rates, immigration rules, occupation codes, certification requirements and security vetting policies change. Confirm the current position with GOV.UK, the certification body and the employer before applying or accepting an offer.</p>

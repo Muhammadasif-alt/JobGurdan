@@ -144,7 +144,7 @@ HTML;
 
 <h2 id="remote-can-exclude-your-state">"Remote" Can Lawfully Exclude Your State</h2>
 
-<p>You will meet adverts that say remote and then list eight states, or say "Remote (US) &mdash; not available in CA, NY, WA". That is lawful, and it is worth understanding why, because candidates routinely read it as a mistake or as discrimination.</p>
+<p>You will meet adverts that say remote and then list eight states, or say "Remote (US), not available in CA, NY, WA". That is lawful, and it is worth understanding why, because candidates routinely read it as a mistake or as discrimination.</p>
 
 <p><strong>There is no federal law requiring an employer to hire in any particular state, or to permit remote work at all.</strong> The characteristics federal law protects in hiring are listed exhaustively by the EEOC: it is illegal to discriminate "because of that person's race, color, religion, sex (including transgender status, sexual orientation, and pregnancy), national origin, age (40 or older), disability or genetic information". Where you live is not on that list.</p>
 
@@ -162,7 +162,7 @@ HTML;
 
 <p>This is the part that costs people money, and it is almost never mentioned in a remote job guide.</p>
 
-<p>The ordinary rule is that wage income is taxed where the work is physically performed. Connecticut states it plainly for nonresidents: wages "are subject to Connecticut income tax withholding if the wages are paid for services rendered in Connecticut", and generally are not "if the wages are paid for services performed entirely outside of Connecticut". Pennsylvania applies the same logic in both directions &mdash; a nonresident "who is required to telework full-time from home in another state should treat his compensation as non-Pennsylvania source income even if his employer is located in Pennsylvania", and in that case "the employer is not required to withhold".</p>
+<p>The ordinary rule is that wage income is taxed where the work is physically performed. Connecticut states it plainly for nonresidents: wages "are subject to Connecticut income tax withholding if the wages are paid for services rendered in Connecticut", and generally are not "if the wages are paid for services performed entirely outside of Connecticut". Pennsylvania applies the same logic in both directions: a nonresident "who is required to telework full-time from home in another state should treat his compensation as non-Pennsylvania source income even if his employer is located in Pennsylvania", and in that case "the employer is not required to withhold".</p>
 
 <h3>The trap: the convenience of the employer rule</h3>
 
@@ -170,7 +170,7 @@ HTML;
 
 <blockquote><p>"If you are a nonresident whose primary office is in New York State, your days telecommuting are considered days worked in the state unless your employer has established a bona fide employer office at your telecommuting location."</p></blockquote>
 
-<p>And the Department is blunt about how rarely that exception is met: "In general, unless your employer specifically acted to establish a bona fide employer office at your telecommuting location, you will continue to owe New York State income tax on income earned while telecommuting." Its guidance treats "normal work days spent at home" as days worked in New York State, and the bona fide office test is deliberately hard &mdash; an office qualifies only by meeting a primary factor, that the home office "contains or is near specialized facilities", or else at least four secondary factors and three others.</p>
+<p>And the Department is blunt about how rarely that exception is met: "In general, unless your employer specifically acted to establish a bona fide employer office at your telecommuting location, you will continue to owe New York State income tax on income earned while telecommuting." Its guidance treats "normal work days spent at home" as days worked in New York State, and the bona fide office test is deliberately hard: an office qualifies only by meeting a primary factor, that the home office "contains or is near specialized facilities", or else at least four secondary factors and three others.</p>
 
 <p>Two more states apply their own version, on official sources:</p>
 
@@ -179,13 +179,13 @@ HTML;
     <li><strong>Nebraska.</strong> Its employer circular defines "convenience rule wages" as wages "paid for work performed outside Nebraska for the nonresident employee's convenience".</li>
 </ul>
 
-<p>And two states mirror whatever rule your home state applies. New Jersey has no convenience rule of its own, but a 2023 law provides "that this State will apply another state's Convenience of the Employer Rule on nonresidents, which would be the same as the one in the nonresident's home state" &mdash; naming Delaware, Nebraska and New York as the states that trigger it. Connecticut does the same: "Residents of states with a 'convenience of the employer' test will be subject to similar rules for work performed for a Connecticut employer."</p>
+<p>And two states mirror whatever rule your home state applies. New Jersey has no convenience rule of its own, but a 2023 law provides "that this State will apply another state's Convenience of the Employer Rule on nonresidents, which would be the same as the one in the nonresident's home state": naming Delaware, Nebraska and New York as the states that trigger it. Connecticut does the same: "Residents of states with a 'convenience of the employer' test will be subject to similar rules for work performed for a Connecticut employer."</p>
 
 <p>Worth saying clearly, because published lists get this wrong: <strong>Pennsylvania is not a convenience of the employer state</strong>, despite appearing on several. Its own guidance, quoted above, says the opposite.</p>
 
 <h3>What limits the damage: reciprocity</h3>
 
-<p>Some neighbouring states agree not to tax each other's residents on wages. Michigan describes the effect: a resident "will be, in effect, exempt from any income tax imposed by a reciprocal state on salaries, wages and commissions earned for personal services performed in the reciprocal state", and conversely. Michigan's agreements run with Wisconsin, Indiana, Kentucky, Illinois, Ohio and Minnesota. Virginia's guidance is the same in shape &mdash; reciprocity "allows Virginia residents who have a limited presence in those states to be taxed only by Virginia" &mdash; with agreements covering the District of Columbia, Kentucky, Maryland, Pennsylvania and West Virginia. Note that a reciprocal agreement usually requires you to file a certificate of non-residence with your employer; Michigan requires "a statement of nonresidence as described by the reciprocal agreement".</p>
+<p>Some neighbouring states agree not to tax each other's residents on wages. Michigan describes the effect: a resident "will be, in effect, exempt from any income tax imposed by a reciprocal state on salaries, wages and commissions earned for personal services performed in the reciprocal state", and conversely. Michigan's agreements run with Wisconsin, Indiana, Kentucky, Illinois, Ohio and Minnesota. Virginia's guidance is the same in shape, reciprocity "allows Virginia residents who have a limited presence in those states to be taxed only by Virginia", with agreements covering the District of Columbia, Kentucky, Maryland, Pennsylvania and West Virginia. Note that a reciprocal agreement usually requires you to file a certificate of non-residence with your employer; Michigan requires "a statement of nonresidence as described by the reciprocal agreement".</p>
 
 <p><strong>The practical question to ask before you accept:</strong> which state will the employer register and withhold in, and is that the state you will be sitting in? If the answer is the employer's state and you live somewhere else, ask specifically whether a convenience rule applies, because the difference can be a full state tax bill you did not budget for.</p>
 
@@ -201,7 +201,7 @@ HTML;
 
 <p>Your laptop at home is not that system. There is also a standing prohibition on discussing classified information "over unsecured telephones, in public conveyances or places, or in any other manner that permits interception by unauthorized persons", which rules out the ordinary remote working day of calls and screen shares.</p>
 
-<p>The Department of Defense states the default explicitly for <strong>its own civilian employees and Service members</strong> &mdash; not for a private contractor's staff, so read it as an indication rather than as a rule that binds a contractor job. Its telework instruction provides that "positions which require the employee or Service member to handle, discuss, or process classified material will be identified as ineligible for routine telework", permitting it only from a facility "accredited by DoD for the handling, discussion, and processing of the classified material", and adding that teleworkers "will not take classified hardcopy documents to their approved alternative worksite". Remote work arrangements must meet the same conditions.</p>
+<p>The Department of Defense states the default explicitly for <strong>its own civilian employees and Service members</strong>, not for a private contractor's staff, so read it as an indication rather than as a rule that binds a contractor job. Its telework instruction provides that "positions which require the employee or Service member to handle, discuss, or process classified material will be identified as ineligible for routine telework", permitting it only from a facility "accredited by DoD for the handling, discussion, and processing of the classified material", and adding that teleworkers "will not take classified hardcopy documents to their approved alternative worksite". Remote work arrangements must meet the same conditions.</p>
 
 <p>So what does a "remote, clearance required" advert actually mean? Usually that the unclassified part of the work can be done from home and the classified part cannot, or that the role is remote within commuting distance of a cleared facility. That is a fair thing to ask on the first call, and the answer tells you how remote the job really is.</p>
 
@@ -218,7 +218,7 @@ HTML;
 
 <ul>
     <li><strong>Which states the role is open in, and why.</strong> If your state is excluded, ask whether it is a payroll registration question. Small employers sometimes add a state for a candidate they want.</li>
-    <li><strong>Which state you will be withheld in</strong> &mdash; and whether a convenience of the employer rule applies to the employer's state. This is the single most expensive thing on this list to get wrong.</li>
+    <li><strong>Which state you will be withheld in</strong>, and whether a convenience of the employer rule applies to the employer's state. This is the single most expensive thing on this list to get wrong.</li>
     <li><strong>The overlap hours, in writing.</strong> "Remote" and "asynchronous" are not the same word. Ask for the required hours, not the time zone.</li>
     <li><strong>Whether pay is indexed to your location</strong>, and what happens to it if you move. Some employers re-band on relocation.</li>
     <li><strong>For a cleared role, where the classified work happens</strong> and how often you must be there.</li>
@@ -280,27 +280,27 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a> &mdash; what the work pays, the current outlook, and the two measurable skills that move you up the band.</li>
-    <li><a href="/blog/remote-react-developer-jobs-in-usa">Remote React Developer Jobs in USA</a> &mdash; the contractor side in full: self-employment tax, quarterly payments and the misclassification test.</li>
-    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the clearance and citizenship filter on the federal part of this market, in full.</li>
-    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage, and the adjustment you are entitled to ask for on a timed test.</li>
-    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; the grade that removes your overtime entitlement, and what to price instead.</li>
-    <li><a href="/blog/react-front-end-engineer-jobs-in-usa">React Front End Engineer Jobs in USA</a> &mdash; the pay transparency rules that reach a remote advert wherever you are reading it.</li>
+    <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a>: what the work pays, the current outlook, and the two measurable skills that move you up the band.</li>
+    <li><a href="/blog/remote-react-developer-jobs-in-usa">Remote React Developer Jobs in USA</a>: the contractor side in full: self-employment tax, quarterly payments and the misclassification test.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the clearance and citizenship filter on the federal part of this market, in full.</li>
+    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a>: the assessment stage, and the adjustment you are entitled to ask for on a timed test.</li>
+    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a>: the grade that removes your overtime entitlement, and what to price instead.</li>
+    <li><a href="/blog/react-front-end-engineer-jobs-in-usa">React Front End Engineer Jobs in USA</a>: the pay transparency rules that reach a remote advert wherever you are reading it.</li>
 </ul>
 
 <h2>Official sources</h2>
 
 <ul>
-    <li>32 CFR Part 117, the National Industrial Security Program Operating Manual rule &mdash; sections 117.10, 117.15 and 117.18; and 32 CFR 2001.43.</li>
-    <li>Defense Counterintelligence and Security Agency &mdash; open storage area approval guidance; and DoD Instruction 1035.01, Telework and Remote Work.</li>
-    <li>US Department of State &mdash; Security Clearance FAQs; and the USAJOBS Help Center on background checks and security clearances.</li>
-    <li>New York State Department of Taxation and Finance &mdash; nonresident FAQs and TSB-M-06(5)I on the convenience of the employer test.</li>
+    <li>32 CFR Part 117, the National Industrial Security Program Operating Manual rule: sections 117.10, 117.15 and 117.18; and 32 CFR 2001.43.</li>
+    <li>Defense Counterintelligence and Security Agency: open storage area approval guidance; and DoD Instruction 1035.01, Telework and Remote Work.</li>
+    <li>US Department of State: Security Clearance FAQs; and the USAJOBS Help Center on background checks and security clearances.</li>
+    <li>New York State Department of Taxation and Finance: nonresident FAQs and TSB-M-06(5)I on the convenience of the employer test.</li>
     <li>Connecticut Department of Revenue Services, Circular CT; Pennsylvania Department of Revenue telework guidance; Delaware Division of Revenue TIM 2022-2; Nebraska Circular EN; New Jersey Division of Taxation convenience rule FAQ.</li>
-    <li>Michigan Department of Treasury &mdash; Revenue Administrative Bulletin 1988-17 on reciprocal agreements, and employer withholding guidance; Virginia Tax on reciprocity.</li>
-    <li>Equal Employment Opportunity Commission &mdash; prohibited employment policies and practices.</li>
+    <li>Michigan Department of Treasury: Revenue Administrative Bulletin 1988-17 on reciprocal agreements, and employer withholding guidance; Virginia Tax on reciprocity.</li>
+    <li>Equal Employment Opportunity Commission: prohibited employment policies and practices.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or tax advice. State tax rules, reciprocal agreements and security requirements change, and an individual position can turn on facts this page cannot know &mdash; confirm the current position with the relevant state revenue department, the Defense Counterintelligence and Security Agency and the employer before relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or tax advice. State tax rules, reciprocal agreements and security requirements change, and an individual position can turn on facts this page cannot know: confirm the current position with the relevant state revenue department, the Defense Counterintelligence and Security Agency and the employer before relying on any of it.</p>
 HTML;
     }
 }

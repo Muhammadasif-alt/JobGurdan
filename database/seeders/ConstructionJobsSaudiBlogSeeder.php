@@ -13,14 +13,14 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Construction Jobs in Saudi Arabia with Visa Sponsorship" — a sector guide
+ * "Construction Jobs in Saudi Arabia with Visa Sponsorship": a sector guide
  * rather than one vacancy, so the apply link goes to an Indeed search and the
  * post carries no JobPosting markup.
  *
  * The distinction the guide is built around is direct employment by the
  * contractor versus employment by a manpower-supply company that deploys you
  * to someone else's site. It decides who owes you wages, whether you can move,
- * and what happens when the project ends — and no other guide on this keyword
+ * and what happens when the project ends, and no other guide on this keyword
  * separates the two.
  *
  * Both records use updateOrCreate, so re-running is safe; it will overwrite
@@ -116,15 +116,15 @@ class ConstructionJobsSaudiBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>International contractors, project management consultancies and licensed recruitment agencies hire foreign construction staff across Riyadh, Jeddah, Dammam and the Vision 2030 giga-project sites &mdash; general labourers, masons, steel fixers, welders, electricians and other skilled trades, plus site and civil engineers, quantity surveyors, HSE officers, planners and project managers.</p>
+<p>International contractors, project management consultancies and licensed recruitment agencies hire foreign construction staff across Riyadh, Jeddah, Dammam and the Vision 2030 giga-project sites: general labourers, masons, steel fixers, welders, electricians and other skilled trades, plus site and civil engineers, quantity surveyors, HSE officers, planners and project managers.</p>
 
 <h3>Who is actually employing you</h3>
-<p>Check this before signing. On a Saudi site you may be <strong>directly employed by the contractor or consultancy</strong> delivering the project, or employed by a <strong>manpower-supply company</strong> that deploys you to that site under a labour-supply contract. Both are legal and both sit under the Saudi Labour Law &mdash; 48-hour week, overtime, end-of-service benefit, wages through the Wage Protection System, contract documented on Qiwa. The difference is who owes you the money and what happens when the project ends. Ask which company appears on your contract and on your Iqama, because that is your employer, not the famous name on the hoarding.</p>
+<p>Check this before signing. On a Saudi site you may be <strong>directly employed by the contractor or consultancy</strong> delivering the project, or employed by a <strong>manpower-supply company</strong> that deploys you to that site under a labour-supply contract. Both are legal and both sit under the Saudi Labour Law: 48-hour week, overtime, end-of-service benefit, wages through the Wage Protection System, contract documented on Qiwa. The difference is who owes you the money and what happens when the project ends. Ask which company appears on your contract and on your Iqama, because that is your employer, not the famous name on the hoarding.</p>
 
 <h3>Requirements</h3>
 <ul>
     <li>Trade certificate for skilled roles, or an engineering or construction-management degree for professional roles</li>
-    <li>Documented experience &mdash; typically 2&ndash;5 years for trades, 5&ndash;10 for engineers, and 10&ndash;15 with GCC experience for senior management</li>
+    <li>Documented experience: typically 2&ndash;5 years for trades, 5&ndash;10 for engineers, and 10&ndash;15 with GCC experience for senior management</li>
     <li>Passport valid for at least one more year, plus police clearance and attested certificates</li>
     <li>Medical fitness certificate from an approved GAMCA / Wafid centre before the visa is issued</li>
     <li>HSE awareness; site-based roles usually need a recognised safety induction, and HSE officers a formal qualification such as NEBOSH or IOSH</li>
@@ -142,9 +142,9 @@ class ConstructionJobsSaudiBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you pay anyone anything</h3>
-<p><strong>Never pay for a visa or a job offer.</strong> Saudi rules place recruitment costs on the employer. Use only an agency licensed by your own government &mdash; the Bureau of Emigration and Overseas Employment in Pakistan, an eMigrate-registered agent in India, a BMET-registered agency in Bangladesh, or a Department of Migrant Workers-licensed agency in the Philippines &mdash; and treat any &quot;free visa&quot; or &quot;azad visa&quot; offer as illegal, because working for anyone other than your registered sponsor exposes you to an absconding (huroob) report and deportation.</p>
+<p><strong>Never pay for a visa or a job offer.</strong> Saudi rules place recruitment costs on the employer. Use only an agency licensed by your own government, the Bureau of Emigration and Overseas Employment in Pakistan, an eMigrate-registered agent in India, a BMET-registered agency in Bangladesh, or a Department of Migrant Workers-licensed agency in the Philippines, and treat any &quot;free visa&quot; or &quot;azad visa&quot; offer as illegal, because working for anyone other than your registered sponsor exposes you to an absconding (huroob) report and deportation.</p>
 
-<p><strong>Note:</strong> pay, hours and contract terms are set by the individual employer or agency &mdash; not by JobGader. Listings on aggregator sites vary in quality; verify the employer and the contract before travelling.</p>
+<p><strong>Note:</strong> pay, hours and contract terms are set by the individual employer or agency, not by JobGader. Listings on aggregator sites vary in quality; verify the employer and the contract before travelling.</p>
 JOBHTML;
     }
 
@@ -174,11 +174,11 @@ JOBHTML;
     <li><strong>Employed by a manpower-supply company.</strong> You work on the famous project, but your employer is a labour-supply business that hired you out to it. This is entirely legal and extremely common. The consequences are real though: your wages come from the supplier rather than the project owner, your pay is usually lower than a direct hire doing the same work, and when the supply contract ends you go back to the supplier, not to the site.</li>
 </ul>
 
-<p>Both routes are covered by the Saudi Labour Law, so both give you the 48-hour week, overtime, end-of-service benefit, wages through the <strong>Wage Protection System</strong> and a contract documented on the government's <strong>Qiwa</strong> platform. Since the <strong>Labour Reform Initiative of March 2021</strong> both can change employer, and obtain exit and re-entry or final exit visas, under defined conditions without the sponsor's permission. What differs is your bargaining position. Ask plainly: <em>&quot;Which company will appear on my contract and my Iqama?&quot;</em> If the answer is not the contractor whose name is in the job advert, you are being hired by a supplier &mdash; which may still be a good job, but price it accordingly.</p>
+<p>Both routes are covered by the Saudi Labour Law, so both give you the 48-hour week, overtime, end-of-service benefit, wages through the <strong>Wage Protection System</strong> and a contract documented on the government's <strong>Qiwa</strong> platform. Since the <strong>Labour Reform Initiative of March 2021</strong> both can change employer, and obtain exit and re-entry or final exit visas, under defined conditions without the sponsor's permission. What differs is your bargaining position. Ask plainly: <em>&quot;Which company will appear on my contract and my Iqama?&quot;</em> If the answer is not the contractor whose name is in the job advert, you are being hired by a supplier, which may still be a good job, but price it accordingly.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/construction-jobs-in-saudi-arabia-site.jpg"
-         alt="Steel fixer tying rebar on a Riyadh construction site — construction jobs in Saudi Arabia with visa sponsorship"
+         alt="Steel fixer tying rebar on a Riyadh construction site: construction jobs in Saudi Arabia with visa sponsorship"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
@@ -241,9 +241,9 @@ JOBHTML;
     </tbody>
 </table>
 
-<p>Three things shift these numbers more than anything on your CV. <strong>Direct hire versus manpower supply</strong> &mdash; the same trade on the same site is routinely paid differently depending on which company holds the contract. <strong>The package</strong> &mdash; housing, messing, transport, medical cover, annual flights and a mobilisation allowance can be worth more than the gap between two base salaries, so get every line itemised in writing. And <strong>there is no statutory minimum wage for expatriate workers</strong> in Saudi Arabia; the SAR 4,000 figure repeated online is the threshold at which a Saudi national counts as a full employee for Saudization purposes and has nothing to do with your pay.</p>
+<p>Three things shift these numbers more than anything on your CV. <strong>Direct hire versus manpower supply</strong>: the same trade on the same site is routinely paid differently depending on which company holds the contract. <strong>The package</strong>: housing, messing, transport, medical cover, annual flights and a mobilisation allowance can be worth more than the gap between two base salaries, so get every line itemised in writing. And <strong>there is no statutory minimum wage for expatriate workers</strong> in Saudi Arabia; the SAR 4,000 figure repeated online is the threshold at which a Saudi national counts as a full employee for Saudization purposes and has nothing to do with your pay.</p>
 
-<h2>The Summer Midday Work Ban &mdash; Know This Before You Arrive</h2>
+<h2>The Summer Midday Work Ban: Know This Before You Arrive</h2>
 
 <p>Saudi Arabia bans outdoor work in direct sunlight between <strong>12pm and 3pm from 15 June to 15 September</strong> every year. It is enforced by the Ministry of Human Resources and Social Development with inspections and fines, and it is not optional or something an employer can waive for a bonus. If a site is asking you to work through the middle of a summer afternoon in the open, it is breaking the law and you are the person carrying the heat-stress risk.</p>
 
@@ -254,7 +254,7 @@ JOBHTML;
 <p>Every legitimate route into <strong>construction jobs in Saudi Arabia with visa sponsorship</strong> follows the same sequence:</p>
 
 <ol>
-    <li><strong>The employer obtains a visa authorisation</strong> (block visa) from the Ministry of Human Resources and Social Development. Without it, no visa exists to give you &mdash; whatever an agent claims.</li>
+    <li><strong>The employer obtains a visa authorisation</strong> (block visa) from the Ministry of Human Resources and Social Development. Without it, no visa exists to give you: whatever an agent claims.</li>
     <li><strong>The job goes to a licensed recruitment agency</strong> in your country, or the contractor hires you directly through its own careers portal.</li>
     <li><strong>You complete a medical examination</strong> at an approved GAMCA / Wafid centre, plus police clearance and attestation of your trade certificate or degree.</li>
     <li><strong>The work visa is stamped</strong> at the Saudi embassy or consulate.</li>
@@ -263,7 +263,7 @@ JOBHTML;
 
 <p>Professional and management roles are usually filled directly rather than through agencies, so if you are an engineer, surveyor or manager, apply on the contractor's own careers page first. There is also a fourth route inside the Kingdom: an <strong>Iqama transfer</strong> between employers, which skips the overseas process entirely and is why so many listings ask for a transferable Iqama.</p>
 
-<h2>What a &quot;Free Visa&quot; Really Means &mdash; and Why It Is a Trap</h2>
+<h2>What a &quot;Free Visa&quot; Really Means: and Why It Is a Trap</h2>
 
 <p>Construction attracts more &quot;free visa&quot; and &quot;azad visa&quot; offers than almost any other sector, because informal site work is easy to find. Understand what is being sold: you enter under one registered sponsor but work for whoever you like, usually paying that sponsor monthly. <strong>This is illegal in Saudi Arabia.</strong> It means:</p>
 
@@ -278,24 +278,24 @@ JOBHTML;
 
 <ul>
     <li><strong>A trade certificate or engineering degree</strong> matching the role, attested for use in Saudi Arabia.</li>
-    <li><strong>Documented experience</strong> &mdash; roughly 2 to 5 years for trades, 5 to 10 for engineers and surveyors, and 10 to 15 with prior GCC work for senior management.</li>
+    <li><strong>Documented experience</strong>: roughly 2 to 5 years for trades, 5 to 10 for engineers and surveyors, and 10 to 15 with prior GCC work for senior management.</li>
     <li><strong>English</strong> for site communication, with Arabic a genuine advantage on authority-facing roles.</li>
     <li><strong>A valid passport</strong>, police clearance and a medical fitness certificate from an approved centre.</li>
-    <li><strong>HSE training</strong> &mdash; a site induction as a minimum, and NEBOSH or IOSH for safety roles.</li>
+    <li><strong>HSE training</strong>: a site induction as a minimum, and NEBOSH or IOSH for safety roles.</li>
     <li><strong>Willingness to relocate</strong> for a multi-year contract, frequently on a remote project camp rather than in a city.</li>
 </ul>
 
 <h2>Construction Jobs in Saudi Arabia for Americans and Western Professionals</h2>
 
-<p>Giga-projects recruit heavily from Europe, North America, Australia and South Africa for senior engineering, commercial and programme roles, where the value sits in prior delivery of comparable scale and in navigating the authority approvals process. These roles are filled almost entirely through global contractor and consultancy career portals rather than local agencies, and packages are structured differently &mdash; typically a higher base with housing and schooling allowances rather than camp accommodation and messing. If you are applying from outside the region, target the contractor directly and expect the process to be slower and more selective than the trades route.</p>
+<p>Giga-projects recruit heavily from Europe, North America, Australia and South Africa for senior engineering, commercial and programme roles, where the value sits in prior delivery of comparable scale and in navigating the authority approvals process. These roles are filled almost entirely through global contractor and consultancy career portals rather than local agencies, and packages are structured differently: typically a higher base with housing and schooling allowances rather than camp accommodation and messing. If you are applying from outside the region, target the contractor directly and expect the process to be slower and more selective than the trades route.</p>
 
 <h2>Construction Jobs by City and Project</h2>
 
 <ul>
-    <li><strong>Riyadh</strong> &mdash; the densest market: metro and infrastructure, mixed-use developments, and the consultancy and client-side offices that manage national programmes.</li>
-    <li><strong>Jeddah</strong> &mdash; coastal and port infrastructure, commercial development, and a gateway for projects on the Red Sea coast.</li>
-    <li><strong>Dammam</strong> and the Eastern Province &mdash; industrial, petrochemical and heavy civil work tied to the energy sector.</li>
-    <li><strong>Giga-project sites</strong> &mdash; NEOM in the north-west, the Red Sea Project, Qiddiya and Diriyah near Riyadh. These are camp-based postings, so ask about rotation, leave cycles and flights specifically.</li>
+    <li><strong>Riyadh</strong>: the densest market: metro and infrastructure, mixed-use developments, and the consultancy and client-side offices that manage national programmes.</li>
+    <li><strong>Jeddah</strong>: coastal and port infrastructure, commercial development, and a gateway for projects on the Red Sea coast.</li>
+    <li><strong>Dammam</strong> and the Eastern Province: industrial, petrochemical and heavy civil work tied to the energy sector.</li>
+    <li><strong>Giga-project sites</strong>: NEOM in the north-west, the Red Sea Project, Qiddiya and Diriyah near Riyadh. These are camp-based postings, so ask about rotation, leave cycles and flights specifically.</li>
 </ul>
 
 <h2>What You Are Owed Once You Arrive</h2>
@@ -303,8 +303,8 @@ JOBHTML;
 <ul>
     <li><strong>Working hours</strong> of 8 a day or 48 a week, reduced to 6 a day for Muslim employees during Ramadan, with overtime paid above that.</li>
     <li><strong>Overtime at 150%</strong> of your basic wage for hours beyond the legal limit.</li>
-    <li><strong>Salary through the Wage Protection System</strong> &mdash; a traceable bank transfer, not cash.</li>
-    <li><strong>End-of-service benefit</strong> &mdash; broadly half a month's wage for each of your first five years and a full month's wage for each year after that.</li>
+    <li><strong>Salary through the Wage Protection System</strong>: a traceable bank transfer, not cash.</li>
+    <li><strong>End-of-service benefit</strong>: broadly half a month's wage for each of your first five years and a full month's wage for each year after that.</li>
     <li><strong>Protection under the midday work ban</strong> from 15 June to 15 September, and PPE provided by the employer at no cost to you.</li>
     <li><strong>Your own passport.</strong> An employer holding it is not a normal condition of employment.</li>
 </ul>
@@ -315,7 +315,7 @@ JOBHTML;
     <li><strong>Write a role-specific CV.</strong> For trades, lead with your certificate, years served and the systems or materials you have worked with. For professionals, lead with project names, contract values and your scope on each.</li>
     <li><strong>Apply where your category is actually hired.</strong> Professionals: contractor and consultancy career portals first, then Bayt, GulfTalent and Indeed. Trades: a licensed agency in your own country.</li>
     <li><strong>Verify the employer independently</strong> through their official careers page before sending documents to any third-party recruiter.</li>
-    <li><strong>Get your certificates attested</strong> early &mdash; it is the step that most often delays mobilisation.</li>
+    <li><strong>Get your certificates attested</strong> early: it is the step that most often delays mobilisation.</li>
     <li><strong>Prepare for a technical interview</strong>; trades are often trade-tested and engineers questioned on drawings and method.</li>
     <li><strong>Confirm the contract type, the employing company and the full package in writing</strong> before completing medical and visa formalities.</li>
 </ol>
@@ -383,24 +383,24 @@ JOBHTML;
 <p>Comparing construction and trade routes across countries? These cover the rest:</p>
 
 <ul>
-    <li><a href="/blog/construction-labourer-jobs-in-dubai-and-saudi-arabia">Construction Labourer Jobs in Dubai and Saudi Arabia</a> &mdash; the labourer and helper level, with the UAE and Saudi protections side by side.</li>
-    <li><a href="/blog/tiler-plasterer-and-mason-jobs-overseas">Tiler, Plasterer and Mason Jobs Overseas</a> &mdash; the finishing trades in the Gulf and the UK.</li>
-    <li><a href="/blog/how-to-become-a-site-supervisor-or-foreman-abroad">How to Become a Site Supervisor or Foreman Abroad</a> &mdash; the step up from skilled trade to running a crew.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; H-2B, EB-3 and H-1B routes and where US sponsorship in the trades is genuinely open.</li>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; the Labour Law and Musaned split applied to driving roles.</li>
-    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a> &mdash; entry-level routes into the Kingdom and what they really pay.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; why most UK operative roles cannot be sponsored at all.</li>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; site work under Australian award rules and the working holiday route.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; a licensed Gulf role, and the licence that only covers one emirate.</li>
-    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a> &mdash; which entry-level roles are still open to foreign workers, and what protects the wage.</li>
-    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a> &mdash; heavy equipment and vehicle trades, and which benefits the law actually guarantees.</li>
-    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a> &mdash; moving Vision 2030 materials by road, and the licence rules for drivers.</li>
-    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a> &mdash; the sponsorship route, Saudization limits and who legally pays your recruitment fee.</li>
-    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a> &mdash; the professional engineering route into the same country.</li>
-    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a> &mdash; the famous employer whose job board is currently empty.</li>
+    <li><a href="/blog/construction-labourer-jobs-in-dubai-and-saudi-arabia">Construction Labourer Jobs in Dubai and Saudi Arabia</a>: the labourer and helper level, with the UAE and Saudi protections side by side.</li>
+    <li><a href="/blog/tiler-plasterer-and-mason-jobs-overseas">Tiler, Plasterer and Mason Jobs Overseas</a>: the finishing trades in the Gulf and the UK.</li>
+    <li><a href="/blog/how-to-become-a-site-supervisor-or-foreman-abroad">How to Become a Site Supervisor or Foreman Abroad</a>: the step up from skilled trade to running a crew.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: H-2B, EB-3 and H-1B routes and where US sponsorship in the trades is genuinely open.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: the Labour Law and Musaned split applied to driving roles.</li>
+    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a>: entry-level routes into the Kingdom and what they really pay.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: why most UK operative roles cannot be sponsored at all.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: site work under Australian award rules and the working holiday route.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: a licensed Gulf role, and the licence that only covers one emirate.</li>
+    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a>, which entry-level roles are still open to foreign workers, and what protects the wage.</li>
+    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a>: heavy equipment and vehicle trades, and which benefits the law actually guarantees.</li>
+    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a>: moving Vision 2030 materials by road, and the licence rules for drivers.</li>
+    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a>: the sponsorship route, Saudization limits and who legally pays your recruitment fee.</li>
+    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a>: the professional engineering route into the same country.</li>
+    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a>: the famous employer whose job board is currently empty.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Saudi labour and visa rules change &mdash; confirm current requirements through the Ministry of Human Resources and Social Development, the Qiwa platform, or your own country's overseas employment authority before paying any fee or signing a contract.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Saudi labour and visa rules change: confirm current requirements through the Ministry of Human Resources and Social Development, the Qiwa platform, or your own country's overseas employment authority before paying any fee or signing a contract.</p>
 HTML;
     }
 }

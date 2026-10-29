@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 
-@section('title', 'Resume & CV Writing Services — Written by a Person')
+@section('title', 'Resume & CV Writing Services: Written by a Person')
 @section('meta_description', 'Professional resume and CV writing, written by a person and formatted so applicant tracking systems can actually read it. Send your details and we reply within one business day.')
 @section('meta_keywords', 'resume writing services, cv writing services, professional cv writer, ats resume writing, cv writing pakistan, resume writing usa, cover letter writing, linkedin profile writing')
 @section('og_title', 'Resume & CV Writing Services | JobGader')
@@ -709,7 +709,7 @@
                 <div class="rw-step">
                     <div class="rw-step-num">1</div>
                     <h3>Send your details</h3>
-                    <p>Your current CV if you have one, and the kind of role and country you are targeting. Use the form below, WhatsApp or email &mdash; whichever suits you.</p>
+                    <p>Your current CV if you have one, and the kind of role and country you are targeting. Use the form below, WhatsApp or email: whichever suits you.</p>
                 </div>
                 <div class="rw-step">
                     <div class="rw-step-num">2</div>
@@ -724,7 +724,7 @@
                 <div class="rw-step">
                     <div class="rw-step-num">4</div>
                     <h3>You get the files</h3>
-                    <p>A .docx you can keep editing yourself and a PDF ready to send. They are yours &mdash; no locked template and nothing to renew.</p>
+                    <p>A .docx you can keep editing yourself and a PDF ready to send. They are yours: no locked template and nothing to renew.</p>
                 </div>
             </div>
         </div>
@@ -801,17 +801,17 @@
             </div>
             <div class="rw-markets">
                 <article class="rw-market">
-                    <h3>United States &mdash; a resume</h3>
+                    <h3>United States: a resume</h3>
                     <p>
                         One page early in a career, two once you have the history to justify it.
                         Achievement-led rather than duty-led, with numbers wherever you have them.
                         <strong>No photograph, no date of birth, no marital status and no
-                        nationality</strong> &mdash; US employers avoid them for discrimination
+                        nationality</strong>: US employers avoid them for discrimination
                         reasons, and including them can work against you.
                     </p>
                 </article>
                 <article class="rw-market">
-                    <h3>United Kingdom &mdash; a CV</h3>
+                    <h3>United Kingdom: a CV</h3>
                     <p>
                         Two pages is the norm and is expected rather than tolerated. A short
                         personal statement opens it, then experience in reverse order. Again
@@ -821,7 +821,7 @@
                     </p>
                 </article>
                 <article class="rw-market">
-                    <h3>Saudi Arabia &amp; UAE &mdash; a Gulf CV</h3>
+                    <h3>Saudi Arabia &amp; UAE: a Gulf CV</h3>
                     <p>
                         Two to three pages, and the conventions are genuinely different: a
                         <strong>photograph, nationality, visa status and notice period are commonly
@@ -831,7 +831,7 @@
                     </p>
                 </article>
                 <article class="rw-market">
-                    <h3>Pakistan &amp; remote roles &mdash; it depends who reads it</h3>
+                    <h3>Pakistan &amp; remote roles: it depends who reads it</h3>
                     <p>
                         For a local employer, a conventional CV with full detail. For a remote role
                         with a US or European company, write the resume that market expects and put
@@ -853,14 +853,14 @@
                 <p class="rw-lede">
                     ATS-friendly gets used as a slogan. In practice it comes down to a handful of
                     formatting decisions. Check your own CV against these before you send it
-                    anywhere &mdash; you may find you do not need us at all.
+                    anywhere: you may find you do not need us at all.
                 </p>
             </div>
             <div class="rw-checklist">
                 <div class="rw-check-col">
                     <h3>Fix these first</h3>
                     <ul>
-                        <li><i class="icon-feather-x"></i> Two-column layouts &mdash; parsers commonly read straight across and scramble both columns together</li>
+                        <li><i class="icon-feather-x"></i> Two-column layouts: parsers commonly read straight across and scramble both columns together</li>
                         <li><i class="icon-feather-x"></i> Your name, phone or email inside the header or footer, where many systems never look</li>
                         <li><i class="icon-feather-x"></i> Skills or contact details set as an image or an icon rather than text</li>
                         <li><i class="icon-feather-x"></i> Invented section names. My Journey is not a heading a parser recognises</li>
@@ -910,7 +910,7 @@
                     </div>
                     <div class="rw-trust-card">
                         <h3>Built for the screening software</h3>
-                        <p>Clean structure, standard section names, no text trapped in images or headers &mdash; so it survives the first automated pass.</p>
+                        <p>Clean structure, standard section names, no text trapped in images or headers, so it survives the first automated pass.</p>
                     </div>
                     <div class="rw-trust-card">
                         <h3>Written for your market</h3>
@@ -961,7 +961,7 @@
                 <h2>Tell Us About the Job <span class="accent">You Want Next</span></h2>
                 <p>
                     Send your details and we will come back to you on WhatsApp or by email within
-                    one business day &mdash; with an honest read on what your CV needs and what it
+                    one business day, with an honest read on what your CV needs and what it
                     would cost. No payment until the scope and the date are agreed.
                 </p>
                 <ul class="rw-contact-list">
@@ -1066,7 +1066,7 @@
                     </button>
                     <p class="rw-form-note">
                         We reply within one business day. Your details are only used to answer your
-                        enquiry &mdash; see our <a href="{{ url('/privacy-policy') }}" style="color:#2f7fc9;">privacy policy</a>.
+                        enquiry: see our <a href="{{ url('/privacy-policy') }}" style="color:#2f7fc9;">privacy policy</a>.
                     </p>
                 </form>
             </div>

@@ -130,7 +130,7 @@
         @media (max-width: 991px) {
             .intro-banner.intro-hero-v2 { min-height: auto; padding: 80px 0 70px !important; display: block; }
         }
-        /* Light overlay on top of image — keeps content readable */
+        /* Light overlay on top of image: keeps content readable */
         .intro-banner.intro-hero-v2::before,
         .intro-banner.intro-hero-v2::after {
             content: "";
@@ -151,7 +151,7 @@
         .intro-banner.intro-hero-v2::after { display: none !important; }
         .intro-banner.intro-hero-v2 .container { position: relative; z-index: 100 !important; }
 
-        /* Floating decorative blobs — hidden (image background replaces them) */
+        /* Floating decorative blobs: hidden (image background replaces them) */
         .hero-blob { display: none !important; position: absolute; border-radius: 50%; filter: blur(80px); opacity: .15; z-index: 1; }
         .hero-blob.b1 { width: 360px; height: 360px; background: #1b3a6b; top: -120px; right: -80px; animation: floaty 9s ease-in-out infinite; }
         .hero-blob.b2 { width: 280px; height: 280px; background: #5e2bff; bottom: -100px; left: -60px; animation: floaty 11s ease-in-out infinite reverse; }
@@ -160,7 +160,7 @@
             50%      { transform: translateY(-22px) scale(1.06); }
         }
 
-        /* Eyebrow badge — clean white pill */
+        /* Eyebrow badge: clean white pill */
         .hero-eyebrow {
             display: inline-flex;
             align-items: center;
@@ -189,7 +189,7 @@
             100% { box-shadow: 0 0 0 0 rgba(34,197,94,0); }
         }
 
-        /* Headline — dark navy ManageWP style */
+        /* Headline: dark navy ManageWP style */
         .intro-banner.intro-hero-v2 .utf-banner-headline-text-part { text-align: center; max-width: 980px; margin: 0 auto; }
         .intro-banner.intro-hero-v2 .utf-banner-headline-text-part h1 {
             color: #1b3a6b !important;
@@ -203,7 +203,7 @@
             word-break: break-word;
             hyphens: auto;
         }
-        /* Clean responsive — based on companies page approach which works flawlessly */
+        /* Clean responsive: based on companies page approach which works flawlessly */
         @media (max-width: 991px) {
             .hero-visual { display: none !important; }
             .hero-2col {
@@ -311,7 +311,7 @@
             display: inline-block !important;
         }
 
-        /* Search form — clean white card with subtle border */
+        /* Search form: clean white card with subtle border */
         .intro-banner.intro-hero-v2 .utf-intro-banner-search-form-block {
             background: #fff !important;
             border: 1px solid #e5e5e7 !important;
@@ -355,7 +355,7 @@
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item + .utf-intro-search-field-item {
             border-left: 1px solid #ececec !important;
         }
-        /* Bootstrap-select trigger button — clean alignment with input */
+        /* Bootstrap-select trigger button: clean alignment with input */
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select {
             width: 100% !important;
             position: static !important;
@@ -427,7 +427,7 @@
             box-shadow: none !important;
             outline: none !important;
         }
-        /* Custom chevron using a CSS-drawn arrow — no font dependency */
+        /* Custom chevron using a CSS-drawn arrow: no font dependency */
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select > .btn::after {
             content: "" !important;
             display: inline-block !important;
@@ -447,7 +447,7 @@
             transform: rotate(-135deg);
             margin-top: 2px;
         }
-        /* Hide every native bootstrap-select indicator/caret/checkmark — we render our own arrow */
+        /* Hide every native bootstrap-select indicator/caret/checkmark: we render our own arrow */
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select .bs-clearfix,
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select .bs-caret,
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select .caret,
@@ -465,7 +465,7 @@
             box-shadow: none !important;
         }
 
-        /* Bootstrap-select dropdown panel — drops DOWN (below the trigger) */
+        /* Bootstrap-select dropdown panel: drops DOWN (below the trigger) */
         .intro-banner.intro-hero-v2 .utf-intro-search-field-item .bootstrap-select .dropdown-menu {
             margin: 8px 0 0 0 !important;
             border: 1px solid #ececec !important;
@@ -618,7 +618,7 @@
             box-shadow: 0 8px 20px rgba(0,0,0,.15);
         }
 
-        /* CTA buttons (primary + outline) — ManageWP style */
+        /* CTA buttons (primary + outline): ManageWP style */
         .hero-cta-row {
             display: inline-flex;
             gap: 12px;
@@ -660,7 +660,7 @@
             transform: translateY(-2px);
         }
 
-        /* Trust list — light text */
+        /* Trust list: light text */
         .intro-banner.intro-hero-v2 .hero-trust-list {
             list-style: none;
             padding: 0;
@@ -683,7 +683,7 @@
             font-size: 16px;
         }
 
-        /* Stats strip — dark text */
+        /* Stats strip: dark text */
         .hero-stats {
             display: flex;
             gap: 28px;
@@ -734,7 +734,7 @@
         }
 
         /* =================================================================
-           HERO 2-COL LAYOUT — content left, MacBook mockup right
+           HERO 2-COL LAYOUT: content left, MacBook mockup right
            ================================================================= */
         .hero-2col {
             display: grid;
@@ -893,7 +893,7 @@
         .macbook-dot.yellow { background: #febc2e; }
         .macbook-dot.green  { background: #28c840; }
 
-        /* Inner UI — looks like the actual job board */
+        /* Inner UI: looks like the actual job board */
         .mb-page { padding: 14px 16px 18px; background: #fff; }
         .mb-header {
             display: flex; align-items: center; justify-content: space-between;
@@ -1189,7 +1189,7 @@
     </div>
 
 
-    {{-- Latest Jobs — 4 per row x 2 rows (8 total), with a link through to the full board --}}
+    {{-- Latest Jobs: 4 per row x 2 rows (8 total), with a link through to the full board --}}
     @if ($featuredJobs->isNotEmpty())
         <style>
             .home-jobs-section {
@@ -1511,7 +1511,7 @@
     @endif
 
     @php
-        // Icon picker — falls back to keyword match so DB names like "Education" or
+        // Icon picker: falls back to keyword match so DB names like "Education" or
         // "Sales & Marketing" pick the right icon even if the exact key isn't listed.
         $industryIconRules = [
             'health'        => 'icon-line-awesome-medkit',
@@ -1574,7 +1574,7 @@
             'utility'       => 'icon-feather-zap',
         ];
 
-        // Display name aliases — turns generic DB labels like "Other" into something
+        // Display name aliases: turns generic DB labels like "Other" into something
         // more meaningful for the homepage (DB row stays untouched).
         $categoryNameAliases = [
             'other'                     => 'General &amp; Other Roles',
@@ -1600,7 +1600,7 @@
             'Other'                      => 'Diverse openings spanning admin, support, operations and specialised roles.',
         ];
 
-        // Resolver — picks the best icon for a given category name.
+        // Resolver: picks the best icon for a given category name.
         $resolveIndustryIcon = function ($name) use ($industryIconRules) {
             $key = mb_strtolower((string) $name);
             foreach ($industryIconRules as $needle => $icon) {
@@ -1806,7 +1806,7 @@
             </div>
         </section>
 
-        {{-- Industry categories — CollectionPage (not Carousel ItemList — categories aren't Carousel-eligible per Google spec) --}}
+        {{-- Industry categories, CollectionPage (not Carousel ItemList, categories aren't Carousel-eligible per Google spec) --}}
         <script type="application/ld+json">
         {
             "@@context": "https://schema.org",
@@ -1980,7 +1980,7 @@
                 <div class="home-split-body" data-aos="fade-up" data-aos-delay="120">
                     <span class="home-split-eyebrow">An Independent Site</span>
                     <h2 id="verified-jobs-heading">Jobs and Guides Linked to Official Sources <span class="accent">in {{ $coverage->countWord() }} Countries</span></h2>
-                    <p>JobGader is a third-party information site, not an employer, recruiter or visa agent. We gather openings across {{ $coverage->shortList() }}, explain what each role and visa route really involves, and send you to the employer or job board to apply &mdash; never a fee dressed up as a job offer.</p>
+                    <p>JobGader is a third-party information site, not an employer, recruiter or visa agent. We gather openings across {{ $coverage->shortList() }}, explain what each role and visa route really involves, and send you to the employer or job board to apply: never a fee dressed up as a job offer.</p>
                     <ul class="home-split-points">
                         <li>
                             <i class="icon-feather-check" aria-hidden="true"></i>
@@ -1992,7 +1992,7 @@
                         </li>
                         <li>
                             <i class="icon-feather-check" aria-hidden="true"></i>
-                            <span><strong>Sponsorship stated up front</strong>Where a role sponsors a visa, the listing says so &mdash; and where it does not, we do not pretend otherwise.</span>
+                            <span><strong>Sponsorship stated up front</strong>Where a role sponsors a visa, the listing says so, and where it does not, we do not pretend otherwise.</span>
                         </li>
                     </ul>
                     <a href="{{ route('jobs.index') }}" class="home-split-cta">
@@ -2017,7 +2017,7 @@
                 <div class="home-split-body" data-aos="fade-up" data-aos-delay="120">
                     <span class="home-split-eyebrow">CV Writing &middot; Paid Service</span>
                     <h2 id="tailored-cv-heading">A CV Written for <span class="accent">the Job You Want</span></h2>
-                    <p>Our one paid service, arranged directly on WhatsApp. We do not drop your name into a template: tell us the role and the country you are applying to, and a writer builds your CV around what that employer is asking for &mdash; the skills, the experience and the wording of the job advert, wherever it is honestly true of you.</p>
+                    <p>Our one paid service, arranged directly on WhatsApp. We do not drop your name into a template: tell us the role and the country you are applying to, and a writer builds your CV around what that employer is asking for: the skills, the experience and the wording of the job advert, wherever it is honestly true of you.</p>
                     <ul class="home-split-points">
                         <li>
                             <i class="icon-feather-check" aria-hidden="true"></i>
@@ -2057,7 +2057,7 @@
         </div>
     </section>
 
-    {{-- How It Works — Step-by-Step Process (SEO-optimized) --}}
+    {{-- How It Works: Step-by-Step Process (SEO-optimized) --}}
     <style>
         .process-section-v2 {
             position: relative;
@@ -2300,7 +2300,7 @@
                              loading="lazy">
                     </div>
                     <h3>Need a Stronger CV?</h3>
-                    <p>If your CV is what holds you back, our paid CV writing service is arranged on WhatsApp. Applying is always free &mdash; never pay anyone who asks for money to guarantee a job, a visa or a scholarship.</p>
+                    <p>If your CV is what holds you back, our paid CV writing service is arranged on WhatsApp. Applying is always free: never pay anyone who asks for money to guarantee a job, a visa or a scholarship.</p>
                     <a href="{{ route('resume-writing') }}" class="card-cta" aria-label="See the CV writing service">
                         CV Writing <i class="icon-feather-arrow-right"></i>
                     </a>
@@ -2357,13 +2357,13 @@
     </script>
 
 
-    {{-- ===== Why JobGader — 2-column "How we're different" ===== --}}
+    {{-- ===== Why JobGader: 2-column "How we're different" ===== --}}
     <section class="why-section" aria-labelledby="why-heading" itemscope itemtype="https://schema.org/Service">
         <div class="container">
             <header class="why-head">
                 <span class="eyebrow">Why JobGader</span>
                 <h2 id="why-heading">How <span class="accent">JobGader</span> is Different</h2>
-                <p>Most job sites tell students what they want to hear about jobs, visas and scholarships. We check what the official rules actually say &mdash; then send you to apply at the source.</p>
+                <p>Most job sites tell students what they want to hear about jobs, visas and scholarships. We check what the official rules actually say, then send you to apply at the source.</p>
             </header>
 
             <div class="why-grid">
@@ -2621,7 +2621,7 @@
     @php
         // Build category filter chip list from the posts on this page
         $careerCats = $careerPosts->map(fn($p) => $p->category)->filter()->unique('id')->values();
-        // Image URL resolver — handles seeder paths ("public/user/images/...") and storage uploads
+        // Image URL resolver: handles seeder paths ("public/user/images/...") and storage uploads
         $blogImg = function ($img) {
             if (! $img) return asset('public/user/images/blog-compact-post-01.jpg');
             if (str_starts_with($img, 'http')) return $img;
@@ -2633,7 +2633,7 @@
         <div class="container">
             <header class="career-head">
                 <h2 id="career-heading">Career Advice to Win Your Job Search</h2>
-                <p>CV tips, visa rules, salary facts and step-by-step career guides &mdash; everything you need for your next job or your move to study abroad.</p>
+                <p>CV tips, visa rules, salary facts and step-by-step career guides: everything you need for your next job or your move to study abroad.</p>
 
                 @if ($careerCats->isNotEmpty())
                     <div class="career-chips" role="tablist" aria-label="Filter career advice by topic">
@@ -2831,7 +2831,7 @@
     </style>
 
     <script>
-        // Topic chip filter — purely client-side (the chips already filter the 6 posts on this page)
+        // Topic chip filter: purely client-side (the chips already filter the 6 posts on this page)
         (function () {
             const chips = document.querySelectorAll('.career-chip');
             const cards = document.querySelectorAll('.career-card');
@@ -2851,7 +2851,7 @@
         })();
     </script>
 
-    {{-- Career-advice articles — Carousel ItemList; each item is a BlogPosting so Google can render the rich carousel. --}}
+    {{-- Career-advice articles: Carousel ItemList; each item is a BlogPosting so Google can render the rich carousel. --}}
     <script type="application/ld+json">
     {
         "@@context": "https://schema.org",
@@ -2884,7 +2884,7 @@
 
 
 
-    <!-- FAQ Section — 2-column split layout -->
+    <!-- FAQ Section: 2-column split layout -->
     <style>
         .home-faq-section {
             background: #fafafa;
@@ -3006,7 +3006,7 @@
                 <div class="faq-left">
                     <span class="eyebrow">FAQ</span>
                     <h2>Got questions? We've got answers.</h2>
-                    <p>The honest version &mdash; what is free, what is paid, how we check information and how to spot someone who wants your money. Still stuck? Message us on WhatsApp or use the Contact page.</p>
+                    <p>The honest version: what is free, what is paid, how we check information and how to spot someone who wants your money. Still stuck? Message us on WhatsApp or use the Contact page.</p>
                     <a href="{{ route('contact.us') }}" class="contact-btn">
                         Contact Support <i class="icon-feather-arrow-right"></i>
                     </a>

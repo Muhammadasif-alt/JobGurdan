@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Vacancies in London" — the general London vacancy guide, written for
+ * "Vacancies in London": the general London vacancy guide, written for
  * someone who already has the right to work here. The American guide owns
  * the visa question and this one deliberately does not repeat it; it owns
  * the market numbers, the contract types, the statutory pay floors and the
@@ -100,7 +100,7 @@ class VacanciesInLondonBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'London Employers — Boroughs, NHS Trusts, Universities & Private Sector (Aggregated)'],
+            ['name' => 'London Employers: Boroughs, NHS Trusts, Universities & Private Sector (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'london-vacancies-aggregated']
         );
 
@@ -210,7 +210,7 @@ JOBHTML;
     <li><strong>Permanent full-time.</strong> No end date. Unfair dismissal protection builds up with service, and redundancy pay becomes available after two years.</li>
     <li><strong>Part-time.</strong> Identical rights to a full-timer, pro-rated. A part-timer may not lawfully be paid a lower hourly rate, given a worse pension or denied training simply for working fewer hours.</li>
     <li><strong>Fixed-term.</strong> An end date or an end event. Fixed-term employees must not be treated less favourably than comparable permanent staff, and four years of continuous fixed-term service can convert the contract to permanent.</li>
-    <li><strong>Agency.</strong> You are paid by the agency, not the hirer. Under the Agency Workers Regulations 2010 you get equal treatment on pay and basic conditions only after <strong>12 weeks in the same role with the same hirer</strong> &mdash; and the 12-week clock can be broken.</li>
+    <li><strong>Agency.</strong> You are paid by the agency, not the hirer. Under the Agency Workers Regulations 2010 you get equal treatment on pay and basic conditions only after <strong>12 weeks in the same role with the same hirer</strong>, and the 12-week clock can be broken.</li>
 </ul>
 
 <p>Whatever the pattern, <strong>5.6 weeks of paid holiday is a statutory minimum</strong>, which is 28 days for someone working five days a week and can include bank holidays. A London advert offering "20 days plus bank holidays" is at the floor, not being generous.</p>
@@ -270,12 +270,12 @@ JOBHTML;
 <p>Large London employers advertise on their own systems first and syndicate afterwards, so the listings you reach through an official portal are both earlier and more complete.</p>
 
 <ul>
-    <li><strong>Find a Job</strong> &mdash; the government's own service, where employers post directly: <a href="https://www.gov.uk/find-a-job" rel="noopener">gov.uk/find-a-job</a></li>
-    <li><strong>NHS Jobs</strong> &mdash; every NHS trust in London, clinical and non-clinical: <a href="https://www.jobs.nhs.uk" rel="noopener">jobs.nhs.uk</a></li>
-    <li><strong>Civil Service Jobs</strong> &mdash; departments and agencies, many of them London-based: <a href="https://www.civilservicejobs.service.gov.uk" rel="noopener">civilservicejobs.service.gov.uk</a></li>
-    <li><strong>Transport for London careers</strong> &mdash; one of the largest single employers in the capital: <a href="https://tfl.gov.uk/corporate/careers/" rel="noopener">tfl.gov.uk/corporate/careers</a></li>
-    <li><strong>Borough council career pages</strong> &mdash; 32 boroughs plus the City of London, each recruiting separately for schools, social care, planning, libraries and environmental services.</li>
-    <li><strong>University and college HR pages</strong> &mdash; academic and professional services posts, usually advertised on the institution's own site well before anywhere else.</li>
+    <li><strong>Find a Job</strong>: the government's own service, where employers post directly: <a href="https://www.gov.uk/find-a-job" rel="noopener">gov.uk/find-a-job</a></li>
+    <li><strong>NHS Jobs</strong>: every NHS trust in London, clinical and non-clinical: <a href="https://www.jobs.nhs.uk" rel="noopener">jobs.nhs.uk</a></li>
+    <li><strong>Civil Service Jobs</strong>: departments and agencies, many of them London-based: <a href="https://www.civilservicejobs.service.gov.uk" rel="noopener">civilservicejobs.service.gov.uk</a></li>
+    <li><strong>Transport for London careers</strong>: one of the largest single employers in the capital: <a href="https://tfl.gov.uk/corporate/careers/" rel="noopener">tfl.gov.uk/corporate/careers</a></li>
+    <li><strong>Borough council career pages</strong>: 32 boroughs plus the City of London, each recruiting separately for schools, social care, planning, libraries and environmental services.</li>
+    <li><strong>University and college HR pages</strong>: academic and professional services posts, usually advertised on the institution's own site well before anywhere else.</li>
 </ul>
 
 <p>Searching by borough rather than by "London" narrows a list of thousands into something you can actually commute to. Zone 1 vacancies attract the most applicants; the same job title in Barking, Croydon or Harrow will have a fraction of the competition.</p>
@@ -283,7 +283,7 @@ JOBHTML;
 <h2>Making an Application That Gets Read</h2>
 
 <ol>
-    <li><strong>Mirror the person specification.</strong> Public sector London employers &mdash; councils, the NHS, universities &mdash; shortlist against the essential criteria mechanically. Answer each one in order, with evidence.</li>
+    <li><strong>Mirror the person specification.</strong> Public sector London employers, councils, the NHS, universities, shortlist against the essential criteria mechanically. Answer each one in order, with evidence.</li>
     <li><strong>Use the employer's form.</strong> Many London public bodies will not accept a CV at all. An attached CV where a form was asked for is usually scored as incomplete.</li>
     <li><strong>Put the right-to-work answer in writing.</strong> If you need no sponsorship, say so plainly. It removes a recruiter's first objection.</li>
     <li><strong>Check the commute before you apply, not after.</strong> Work out the real door-to-door time and the monthly travel cost for the zones involved, then compare it with the advertised salary.</li>
@@ -348,14 +348,14 @@ JOBHTML;
 <p>These cover the questions that come next:</p>
 
 <ul>
-    <li><a href="/blog/jobs-in-london-england-for-american-applicants">Jobs in London England for American Applicants</a> &mdash; the routes, thresholds and tax rules that apply to a US passport holder.</li>
-    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a> &mdash; how to read the sponsor register and what a Certificate of Sponsorship actually is.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; every visa route compared, including the ones that closed.</li>
-    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London (No Experience Needed)</a> &mdash; what London entry-level work really pays.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; why the warehouse sponsorship adverts do not add up.</li>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; a medium-skilled code and what keeps it open.</li>
-    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a> &mdash; one occupation code worked through end to end.</li>
-    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a> &mdash; remote UK work and the right-to-work question it does not solve.</li>
+    <li><a href="/blog/jobs-in-london-england-for-american-applicants">Jobs in London England for American Applicants</a>: the routes, thresholds and tax rules that apply to a US passport holder.</li>
+    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a>: how to read the sponsor register and what a Certificate of Sponsorship actually is.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: every visa route compared, including the ones that closed.</li>
+    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London (No Experience Needed)</a>: what London entry-level work really pays.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: why the warehouse sponsorship adverts do not add up.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: a medium-skilled code and what keeps it open.</li>
+    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a>: one occupation code worked through end to end.</li>
+    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a>: remote UK work and the right-to-work question it does not solve.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, employment or immigration advice. Labour market statistics, wage rates and immigration rules change; confirm the current figures on ons.gov.uk and gov.uk before relying on them.</p>

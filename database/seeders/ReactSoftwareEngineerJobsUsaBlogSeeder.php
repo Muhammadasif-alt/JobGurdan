@@ -147,18 +147,18 @@ HTML;
 
 <p>That third structure is the reason this page exists. The equity is where the money is decided and it is the part almost nobody explains, so candidates accept offers without knowing when they will be taxed, on what, or how much will be withheld. Everything below is from the IRS, the Internal Revenue Code and the SEC.</p>
 
-<p>For the market picture &mdash; which occupation the role is benchmarked against and what separates the bands &mdash; see our <a href="/blog/react-developer-jobs-in-usa">React developer jobs guide</a>. For what the word "senior" changes legally, see the <a href="/blog/senior-react-developer-jobs-in-usa">senior React guide</a>.</p>
+<p>For the market picture, which occupation the role is benchmarked against and what separates the bands, see our <a href="/blog/react-developer-jobs-in-usa">React developer jobs guide</a>. For what the word "senior" changes legally, see the <a href="/blog/senior-react-developer-jobs-in-usa">senior React guide</a>.</p>
 
 <h2 id="what-bls-pays">What the Cash Part Is Measured Against</h2>
 
 <p>No federal source publishes a wage for a React engineer title, and none publishes one by company level either. The occupation figures for <strong>May 2025</strong> are:</p>
 
 <ul>
-    <li><strong>Software developers</strong> &mdash; median <strong>$135,980</strong>, with the lowest tenth under <strong>$82,460</strong> and the highest tenth above <strong>$214,670</strong>.</li>
-    <li><strong>Web developers</strong> &mdash; median <strong>$92,650</strong>, which is where a React role scoped as implementation rather than engineering sits.</li>
+    <li><strong>Software developers</strong>: median <strong>$135,980</strong>, with the lowest tenth under <strong>$82,460</strong> and the highest tenth above <strong>$214,670</strong>.</li>
+    <li><strong>Web developers</strong>: median <strong>$92,650</strong>, which is where a React role scoped as implementation rather than engineering sits.</li>
 </ul>
 
-<p>Those describe base pay in an occupation, not total compensation at a company. An engineer offer with meaningful equity can exceed the ninetieth percentile of the occupation without the base salary coming close to it &mdash; which is exactly why comparing offers on base alone goes wrong. No vacancy count or salary-site average appears on this page.</p>
+<p>Those describe base pay in an occupation, not total compensation at a company. An engineer offer with meaningful equity can exceed the ninetieth percentile of the occupation without the base salary coming close to it, which is exactly why comparing offers on base alone goes wrong. No vacancy count or salary-site average appears on this page.</p>
 
 <h2 id="how-rsus-are-taxed">RSUs: Taxed On the Day They Vest, Sold or Not</h2>
 
@@ -184,7 +184,7 @@ HTML;
 
 <p>An RSU is precisely such a promise. The IRS states the conclusion directly: Restricted Stock Units "are not considered property for purposes of IRC &sect; 83 since no actual property has been transferred, and therefore an IRC &sect; 83(b) election cannot be made with respect to the grant of a Restricted Stock Unit."</p>
 
-<p><strong>Where 83(b) does apply</strong> is <em>restricted stock</em> &mdash; an actual transfer of shares subject to vesting, which start-ups use far more than large employers. There the election lets you be taxed on the value at transfer rather than at vesting, so later appreciation is not compensation income. The deadline is unforgiving: the election "shall be filed not later than 30 days after the date the property was transferred", with no extensions, and it cannot be revoked except with the Commissioner's consent in the narrow case of a mistake of fact. The IRS now publishes Form 15620 for it, so a self-drafted statement is no longer the only route. It also cannot be made on an option, statutory or not.</p>
+<p><strong>Where 83(b) does apply</strong> is <em>restricted stock</em>: an actual transfer of shares subject to vesting, which start-ups use far more than large employers. There the election lets you be taxed on the value at transfer rather than at vesting, so later appreciation is not compensation income. The deadline is unforgiving: the election "shall be filed not later than 30 days after the date the property was transferred", with no extensions, and it cannot be revoked except with the Commissioner's consent in the narrow case of a mistake of fact. The IRS now publishes Form 15620 for it, so a self-drafted statement is no longer the only route. It also cannot be made on an option, statutory or not.</p>
 
 <img src="/public/storage/blogs/react-software-engineer-jobs-usa-equity.jpg" alt="A React software engineer reviewing an equity grant and vesting schedule" />
 
@@ -194,7 +194,7 @@ HTML;
 
 <p>Bonuses are named in the same definition of supplemental wages, alongside commissions, overtime, severance, awards and back pay.</p>
 
-<p>The practical consequence is the one that catches people in their first well-paid US year. Twenty-two per cent is a withholding rate set by rule, not a calculation of what you owe. If your marginal rate is higher than that &mdash; and on a large vest it often is &mdash; too little has been withheld and the difference is due at filing. The IRS does not put it in those words anywhere, so here is what it does say, from its guidance to taxpayers on withholding:</p>
+<p>The practical consequence is the one that catches people in their first well-paid US year. Twenty-two per cent is a withholding rate set by rule, not a calculation of what you owe. If your marginal rate is higher than that, and on a large vest it often is, too little has been withheld and the difference is due at filing. The IRS does not put it in those words anywhere, so here is what it does say, from its guidance to taxpayers on withholding:</p>
 
 <blockquote><p>"You should try to have your withholding match your actual tax liability. If not enough tax is withheld, you will owe tax at the end of the year and may have to pay interest and a penalty."</p></blockquote>
 
@@ -225,7 +225,7 @@ HTML;
 <p>After the event you should receive an information return: <strong>Form 3921</strong> for an ISO exercise, and <strong>Form 3922</strong> for a transfer of stock acquired under an employee stock purchase plan. Keep both; the cost basis reported to you elsewhere is frequently wrong for equity compensation.</p>
 
 <h3>ESPP, briefly</h3>
-<p>If the offer includes a share purchase plan, two statutory limits define it. The purchase price may not be below 85 per cent of the market value &mdash; usually described as a maximum 15 per cent discount, though neither the statute nor the IRS publication uses that number, both expressing it as the 85 per cent floor. And rights may not accrue "at a rate which exceeds $25,000 of fair market value of such stock (determined at the time such option is granted) for each calendar year". Both limits are measured at grant, which is why the $25,000 is so often misdescribed as a cap on what you can spend.</p>
+<p>If the offer includes a share purchase plan, two statutory limits define it. The purchase price may not be below 85 per cent of the market value, usually described as a maximum 15 per cent discount, though neither the statute nor the IRS publication uses that number, both expressing it as the 85 per cent floor. And rights may not accrue "at a rate which exceeds $25,000 of fair market value of such stock (determined at the time such option is granted) for each calendar year". Both limits are measured at grant, which is why the $25,000 is so often misdescribed as a cap on what you can spend.</p>
 
 <img src="/public/storage/blogs/react-software-engineer-jobs-usa-offer.jpg" alt="A React software engineer comparing base salary, equity and bonus in a written offer" />
 
@@ -233,9 +233,9 @@ HTML;
 
 <p>A grant from a listed company and a grant from a private one are different assets, and US securities law draws the line in a way you can check.</p>
 
-<p>A public employer registers employee share offerings on <strong>Form S-8</strong>, which is available for "securities of the registrant to be offered under any employee benefit plan to its employees" &mdash; and only to a company already subject to Exchange Act reporting. A private company instead relies on <strong>Rule 701</strong>, which by its terms "is available to any issuer that is <em>not</em> subject to the reporting requirements" of the Exchange Act, and which caps what may be sold in any twelve months at the greatest of $1,000,000, 15 per cent of the issuer's total assets, or 15 per cent of the outstanding amount of that class.</p>
+<p>A public employer registers employee share offerings on <strong>Form S-8</strong>, which is available for "securities of the registrant to be offered under any employee benefit plan to its employees", and only to a company already subject to Exchange Act reporting. A private company instead relies on <strong>Rule 701</strong>, which by its terms "is available to any issuer that is <em>not</em> subject to the reporting requirements" of the Exchange Act, and which caps what may be sold in any twelve months at the greatest of $1,000,000, 15 per cent of the issuer's total assets, or 15 per cent of the outstanding amount of that class.</p>
 
-<p>Two things follow. First, which exemption your employer uses tells you which side of the line you are on. Second, as the rule's own preliminary note says, these transactions "are not exempt from the antifraud, civil liability, or other provisions of the federal securities laws" &mdash; you are entitled to accurate information about what you are being granted.</p>
+<p>Two things follow. First, which exemption your employer uses tells you which side of the line you are on. Second, as the rule's own preliminary note says, these transactions "are not exempt from the antifraud, civil liability, or other provisions of the federal securities laws": you are entitled to accurate information about what you are being granted.</p>
 
 <h2 id="what-to-ask">What To Ask Before You Accept</h2>
 
@@ -303,26 +303,26 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the main guide: the two occupations, the pay bands and the clearance filter.</li>
-    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; what seniority changes in law, including the overtime exemption.</li>
-    <li><a href="/blog/react-front-end-engineer-jobs-in-usa">React Front End Engineer Jobs in USA</a> &mdash; which states force the base band into the advert, and how the remote rules reach out-of-state roles.</li>
-    <li><a href="/blog/full-stack-react-developer-jobs-in-usa">Full Stack React Developer Jobs in USA</a> &mdash; what changes once you own the backend, and the data duties that come with it.</li>
-    <li><a href="/blog/remote-react-developer-jobs-in-usa">Remote React Developer Jobs in USA</a> &mdash; the contractor side: self-employment tax, quarterly payments and misclassification.</li>
-    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a> &mdash; the staffing layer, where there is no equity and the pay rules are different.</li>
-    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage these ladders hire through.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the main guide: the two occupations, the pay bands and the clearance filter.</li>
+    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a>: what seniority changes in law, including the overtime exemption.</li>
+    <li><a href="/blog/react-front-end-engineer-jobs-in-usa">React Front End Engineer Jobs in USA</a>, which states force the base band into the advert, and how the remote rules reach out-of-state roles.</li>
+    <li><a href="/blog/full-stack-react-developer-jobs-in-usa">Full Stack React Developer Jobs in USA</a>: what changes once you own the backend, and the data duties that come with it.</li>
+    <li><a href="/blog/remote-react-developer-jobs-in-usa">Remote React Developer Jobs in USA</a>: the contractor side: self-employment tax, quarterly payments and misclassification.</li>
+    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a>: the staffing layer, where there is no equity and the pay rules are different.</li>
+    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a>: the assessment stage these ladders hire through.</li>
 </ul>
 
 <h2>Official sources</h2>
 
 <ul>
-    <li>Bureau of Labor Statistics &mdash; Occupational Outlook Handbook for software developers and for web developers and digital designers, May 2025 wages.</li>
-    <li>Internal Revenue Service &mdash; Publication 525 (2025), Publication 15 (2026), Publication 505 (2026), Publication 5992 (Equity (Stock)-Based Compensation Audit Technique Guide) and Information Letter 2024-0010.</li>
+    <li>Bureau of Labor Statistics: Occupational Outlook Handbook for software developers and for web developers and digital designers, May 2025 wages.</li>
+    <li>Internal Revenue Service: Publication 525 (2025), Publication 15 (2026), Publication 505 (2026), Publication 5992 (Equity (Stock)-Based Compensation Audit Technique Guide) and Information Letter 2024-0010.</li>
     <li>26 CFR 1.83-2 and 1.83-3; 26 U.S.C. 422 and 423; IRS Tax Topic 427 on stock options.</li>
-    <li>Social Security Administration &mdash; contribution and benefit base for 2026; and the IRS questions and answers on the Additional Medicare Tax.</li>
-    <li>Securities and Exchange Commission &mdash; Form S-8; and 17 CFR 230.701.</li>
+    <li>Social Security Administration: contribution and benefit base for 2026; and the IRS questions and answers on the Additional Medicare Tax.</li>
+    <li>Securities and Exchange Commission: Form S-8; and 17 CFR 230.701.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not tax, legal or investment advice. Tax rules, thresholds and wage data change, and an individual position can turn on facts this page cannot know &mdash; confirm the current position with the Internal Revenue Service and a qualified adviser before relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not tax, legal or investment advice. Tax rules, thresholds and wage data change, and an individual position can turn on facts this page cannot know: confirm the current position with the Internal Revenue Service and a qualified adviser before relying on any of it.</p>
 HTML;
     }
 }

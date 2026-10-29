@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "WordPress SEO Assistant Jobs" — the optimisation half of a deliberately
+ * "WordPress SEO Assistant Jobs": the optimisation half of a deliberately
  * split pair. Its sibling, the WordPress Content Upload guide, covers the
  * publishing work. The two drafts supplied overlapped almost completely and
  * would have cannibalised each other, so each was rewritten to sit one rung
@@ -163,7 +163,7 @@ class WordpressSeoAssistantJobsBlogSeeder extends Seeder
 <h3>Pay</h3>
 <p>Advertised Pakistani pay in September 2026 ranged from around PKR 10,000 a month for a WordPress internship in Lahore to PKR 95,000 to 190,000 for a remote SEO specialist role requiring two to four years. Many Pakistani employers publish no figure at all. Remote contracts for overseas clients sit higher again.</p>
 
-<p>Requirements, pay and payment arrangements are set by individual employers &mdash; not by JobGader. Confirm them in writing before starting, and never pay anyone to secure work.</p>
+<p>Requirements, pay and payment arrangements are set by individual employers, not by JobGader. Confirm them in writing before starting, and never pay anyone to secure work.</p>
 JOBHTML;
     }
 
@@ -210,27 +210,27 @@ JOBHTML;
     </thead>
     <tbody>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">Rankers Online Solutions &mdash; WordPress Intern, Lahore<br><span style="color:#6b7280;font-size:13px;">posted 24 Aug 2026, night shift</span></td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">Rankers Online Solutions: WordPress Intern, Lahore<br><span style="color:#6b7280;font-size:13px;">posted 24 Aug 2026, night shift</span></td>
             <td style="padding:10px;border:1px solid #e5e7eb;">PKR 10,000 &ndash; 15,000</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">Student</td>
         </tr>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">UBM Technologies &mdash; SEO and Content Writer Interns, Lahore<br><span style="color:#6b7280;font-size:13px;">posted 7 Sep 2026, 18 openings, night shift</span></td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">UBM Technologies: SEO and Content Writer Interns, Lahore<br><span style="color:#6b7280;font-size:13px;">posted 7 Sep 2026, 18 openings, night shift</span></td>
             <td style="padding:10px;border:1px solid #e5e7eb;">PKR 40,000 &ndash; 50,000</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">Under 1 year</td>
         </tr>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">Advisible Tech &mdash; Local SEO Executive and GMB Expert, Lahore<br><span style="color:#6b7280;font-size:13px;">posted 18 Sep 2026, night shift 6pm&ndash;3am</span></td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">Advisible Tech: Local SEO Executive and GMB Expert, Lahore<br><span style="color:#6b7280;font-size:13px;">posted 18 Sep 2026, night shift 6pm&ndash;3am</span></td>
             <td style="padding:10px;border:1px solid #e5e7eb;">PKR 50,000 &ndash; 60,000</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">2 years minimum</td>
         </tr>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">Nokhba.AI &mdash; SEO Specialist, remote<br><span style="color:#6b7280;font-size:13px;">posted 8 Sep 2026</span></td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">Nokhba.AI: SEO Specialist, remote<br><span style="color:#6b7280;font-size:13px;">posted 8 Sep 2026</span></td>
             <td style="padding:10px;border:1px solid #e5e7eb;">PKR 95,000 &ndash; 190,000</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">2 &ndash; 4 years</td>
         </tr>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">Folio3 &mdash; Senior SEO Executive<br><span style="color:#6b7280;font-size:13px;">posted 18 Sep 2026</span></td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">Folio3: Senior SEO Executive<br><span style="color:#6b7280;font-size:13px;">posted 18 Sep 2026</span></td>
             <td style="padding:10px;border:1px solid #e5e7eb;"><strong>Not published</strong></td>
             <td style="padding:10px;border:1px solid #e5e7eb;">5 years minimum</td>
         </tr>
@@ -267,7 +267,7 @@ JOBHTML;
 
 <p>It is real and it is free to post on, but manage your expectations. When we checked, <a href="https://jobs.wordpress.net/" rel="nofollow noopener" target="_blank">jobs.wordpress.net</a> carried <strong>10 open positions worldwide</strong>, across three categories: Development 6, Support 3, Plugin Development 1.</p>
 
-<p>Two things follow. <strong>There is no SEO category on the board at all</strong> &mdash; its eleven categories are Contributor, Design, Development, General, Migration, Performance, Plugin Development, Support, Theme Customization, Translation and Writing. And <strong>listings expire after 21 days</strong>, so any count, including ours, is a snapshot.</p>
+<p>Two things follow. <strong>There is no SEO category on the board at all</strong>: its eleven categories are Contributor, Design, Development, General, Migration, Performance, Plugin Development, Support, Theme Customization, Translation and Writing. And <strong>listings expire after 21 days</strong>, so any count, including ours, is a snapshot.</p>
 
 <p>It is still worth using, for a reason most people miss. The board's own FAQ says:</p>
 
@@ -291,16 +291,16 @@ JOBHTML;
 
 <p>The two SEO plugins you will meet, with their current WordPress.org figures: <strong>Yoast SEO at over 10 million active installs</strong> and <strong>Rank Math at over 4 million</strong>. Both have genuine free versions and both sell a premium tier. Learn one properly; the second takes an afternoon.</p>
 
-<p><strong>Google Search Console is the one non-negotiable tool</strong>, and it is free. It is the only source that tells you what Google actually did with your pages. GA4 is second. Ahrefs, Semrush, Moz and Screaming Frog appear on listings, but they are paid and an employer will normally provide a seat &mdash; do not let a paywall stop you applying.</p>
+<p><strong>Google Search Console is the one non-negotiable tool</strong>, and it is free. It is the only source that tells you what Google actually did with your pages. GA4 is second. Ahrefs, Semrush, Moz and Screaming Frog appear on listings, but they are paid and an employer will normally provide a seat: do not let a paywall stop you applying.</p>
 
 <h2>Core Web Vitals: Get These Three Right</h2>
 
 <p>This is the fastest way to tell whether an article on this subject is current. The three metrics and their official thresholds are:</p>
 
 <ul>
-    <li><strong>LCP</strong> (Largest Contentful Paint) &mdash; 2.5 seconds or less.</li>
-    <li><strong>INP</strong> (Interaction to Next Paint) &mdash; 200 milliseconds or less.</li>
-    <li><strong>CLS</strong> (Cumulative Layout Shift) &mdash; 0.1 or less.</li>
+    <li><strong>LCP</strong> (Largest Contentful Paint): 2.5 seconds or less.</li>
+    <li><strong>INP</strong> (Interaction to Next Paint): 200 milliseconds or less.</li>
+    <li><strong>CLS</strong> (Cumulative Layout Shift): 0.1 or less.</li>
 </ul>
 
 <p><strong>If a guide or a job advert still mentions FID, it is out of date.</strong> INP replaced First Input Delay as a stable Core Web Vital in 2024. Knowing this in an interview is a small thing that signals you read current sources.</p>
@@ -348,11 +348,11 @@ JOBHTML;
 
 <p><strong>You will almost always be a contractor, not an employee.</strong> No paid leave, no notice period, no statutory protections. Price accordingly.</p>
 
-<p><strong>The correct account is an Exporters' Special Foreign Currency Account.</strong> The State Bank of Pakistan's framework for freelancers' accounts allows freelancers to open an ESFCA alongside a normal PKR account, in person or digitally, and permits proceeds to be processed on a self-declaration basis where no formal export contract exists &mdash; which is the usual situation for a freelancer.</p>
+<p><strong>The correct account is an Exporters' Special Foreign Currency Account.</strong> The State Bank of Pakistan's framework for freelancers' accounts allows freelancers to open an ESFCA alongside a normal PKR account, in person or digitally, and permits proceeds to be processed on a self-declaration basis where no formal export contract exists, which is the usual situation for a freelancer.</p>
 
 <p><strong>The common mistake to avoid: a Roshan Digital Account is not for you.</strong> The RDA is for <em>non-resident</em> Pakistanis. If you live in Pakistan and freelance for a foreign client, you are not eligible, no matter how many articles recommend it.</p>
 
-<p><strong>Register with PSEB, because it changes your tax rate.</strong> PSEB now operates its web presence under the Pakistan Tech Destination brand, so the old pseb.org.pk links redirect. Registration is at portal.techdestination.com, helpline 0800-01010. Registered IT and ITeS exporters are taxed on export receipts at a materially lower final rate than unregistered ones, and the unregistered deduction is adjustable rather than final. <strong>Confirm the current fee and the current rates with PSEB and the FBR directly</strong> &mdash; both change, and we would rather you check than trust a blog, including this one.</p>
+<p><strong>Register with PSEB, because it changes your tax rate.</strong> PSEB now operates its web presence under the Pakistan Tech Destination brand, so the old pseb.org.pk links redirect. Registration is at portal.techdestination.com, helpline 0800-01010. Registered IT and ITeS exporters are taxed on export receipts at a materially lower final rate than unregistered ones, and the unregistered deduction is adjustable rather than final. <strong>Confirm the current fee and the current rates with PSEB and the FBR directly</strong>: both change, and we would rather you check than trust a blog, including this one.</p>
 
 <p>On payment rails: PayPal is still not available in Pakistan. Payoneer remains the mainstream route. Agree in writing who absorbs the transfer and conversion fees, because "we pay in USD" is not the same as "you receive USD".</p>
 
@@ -361,7 +361,7 @@ JOBHTML;
 <p>Entry-level remote roles attract fraud because the applicants are new and hard to insure against. The patterns:</p>
 
 <ul>
-    <li><strong>Any request for money</strong> &mdash; registration, training, software, "security deposit". A real employer pays you, never the reverse.</li>
+    <li><strong>Any request for money</strong>: registration, training, software, "security deposit". A real employer pays you, never the reverse.</li>
     <li><strong>A large unpaid "test".</strong> Here is the useful contrast: WPMU DEV, a legitimate employer, runs assessment tasks and then a <strong>four to six week paid trial</strong> before a permanent offer. That is what real looks like. Ten unpaid articles is not.</li>
     <li><strong>Overpayment and refund requests.</strong> You are sent too much and asked to return the difference; the original payment then reverses.</li>
     <li><strong>Hiring entirely on WhatsApp or Telegram</strong>, from a Gmail address, with no company website and no named person.</li>
@@ -449,16 +449,16 @@ JOBHTML;
 <p>These pair with this one if you are building a remote career from Pakistan:</p>
 
 <ul>
-    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a> &mdash; the entry-level role below this one, and how it is priced.</li>
-    <li><a href="/blog/wordpress-developer-jobs-in-usa">WordPress Developer Jobs in USA</a> &mdash; where the technical branch leads.</li>
-    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a> &mdash; the wider market this sits inside.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; realistic starting points, ranked.</li>
-    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a> &mdash; an adjacent remote role with the same payment questions.</li>
-    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a> &mdash; dated Pakistani pay, and the cold-outreach laws no other guide mentions.</li>
-    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a> &mdash; the titles that actually work, and the tools that get accounts restricted.</li>
-    <li><a href="/blog/on-page-seo-assistant-jobs">On-Page SEO Assistant Jobs</a> &mdash; what Google actually documents, and the checklist rules that have no official basis.</li>
-    <li><a href="/blog/local-seo-assistant-jobs">Local SEO Assistant Jobs</a> &mdash; Business Profiles, reviews and maps, and the two instructions worth refusing.</li>
-    <li><a href="/blog/wordpress-elementor-jobs">WordPress Elementor Jobs</a> &mdash; the build side of the same work, and which remote boards accept Pakistan.</li>
+    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a>: the entry-level role below this one, and how it is priced.</li>
+    <li><a href="/blog/wordpress-developer-jobs-in-usa">WordPress Developer Jobs in USA</a>: where the technical branch leads.</li>
+    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a>: the wider market this sits inside.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: realistic starting points, ranked.</li>
+    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a>: an adjacent remote role with the same payment questions.</li>
+    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a>: dated Pakistani pay, and the cold-outreach laws no other guide mentions.</li>
+    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a>: the titles that actually work, and the tools that get accounts restricted.</li>
+    <li><a href="/blog/on-page-seo-assistant-jobs">On-Page SEO Assistant Jobs</a>: what Google actually documents, and the checklist rules that have no official basis.</li>
+    <li><a href="/blog/local-seo-assistant-jobs">Local SEO Assistant Jobs</a>: Business Profiles, reviews and maps, and the two instructions worth refusing.</li>
+    <li><a href="/blog/wordpress-elementor-jobs">WordPress Elementor Jobs</a>: the build side of the same work, and which remote boards accept Pakistan.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Job listings, advertised pay, plugin figures and official portals were checked on 22 September 2026 and change constantly; individual listings expire within weeks. Tax rates, registration fees and banking rules are set by the FBR, PSEB and the State Bank of Pakistan and must be confirmed with them directly before you act. Never pay anyone to secure a job.</p>

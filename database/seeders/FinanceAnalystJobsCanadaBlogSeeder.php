@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Finance Analyst Jobs in Canada" — financial and investment analysts under
+ * "Finance Analyst Jobs in Canada": financial and investment analysts under
  * NOC 11101, priced from Job Bank and set against the four big-bank career
  * portals.
  *
@@ -158,7 +158,7 @@ class FinanceAnalystJobsCanadaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, designations and hiring rules are set by each employer &mdash; not by JobGader. Read the current job posting before applying.</p>
+<p><strong>Note:</strong> pay, designations and hiring rules are set by each employer, not by JobGader. Read the current job posting before applying.</p>
 JOBHTML;
     }
 
@@ -217,7 +217,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>Saskatchewan pays the highest median of any province, and Ontario &mdash; where most of the banking jobs are &mdash; sits on the national median. Job Bank cannot publish wages for Yukon, the Northwest Territories or Nunavut because of data limits. For comparison, financial auditors and accountants (NOC 11100) have a median of <strong>$40.36</strong> an hour.</p>
+<p>Saskatchewan pays the highest median of any province, and Ontario, where most of the banking jobs are, sits on the national median. Job Bank cannot publish wages for Yukon, the Northwest Territories or Nunavut because of data limits. For comparison, financial auditors and accountants (NOC 11100) have a median of <strong>$40.36</strong> an hour.</p>
 
 <p>These are occupation medians from the Labour Force Survey, not an employer's band. Use the salary in the posting you are applying to.</p>
 
@@ -239,16 +239,16 @@ JOBHTML;
 <p>Job Bank rates the competencies for this occupation, and two sit at the top of its scale:</p>
 
 <ul>
-    <li><strong>Digital literacy</strong> and <strong>numeracy</strong> &mdash; level 5, the highest;</li>
-    <li><strong>Reading comprehension</strong>, <strong>oral comprehension</strong>, <strong>evaluation</strong>, <strong>management of financial resources</strong>, <strong>critical thinking</strong> and <strong>systems analysis</strong> &mdash; level 4;</li>
-    <li><strong>Stress tolerance, analytical thinking and attention to detail</strong> &mdash; rated extremely important as personal attributes.</li>
+    <li><strong>Digital literacy</strong> and <strong>numeracy</strong>: level 5, the highest;</li>
+    <li><strong>Reading comprehension</strong>, <strong>oral comprehension</strong>, <strong>evaluation</strong>, <strong>management of financial resources</strong>, <strong>critical thinking</strong> and <strong>systems analysis</strong>: level 4;</li>
+    <li><strong>Stress tolerance, analytical thinking and attention to detail</strong>: rated extremely important as personal attributes.</li>
 </ul>
 
 <p>Employers add their own tool list on top: Excel and financial modelling, ERP and reporting systems, and business intelligence tools. Those come from job postings, not from Job Bank's occupation profile.</p>
 
 <h2>Are Finance Analyst Jobs in Demand in Canada?</h2>
 
-<p>Job Bank's national outlook is <strong>balance</strong>: "labour demand and labour supply are expected to be broadly in line for this occupation over the period of 2024-2033 at the national level". About <strong>77,000</strong> people were employed in the occupation in 2023, <strong>24%</strong> of them aged 50 or over, with a median retirement age of 65 &mdash; so replacement hiring matters.</p>
+<p>Job Bank's national outlook is <strong>balance</strong>: "labour demand and labour supply are expected to be broadly in line for this occupation over the period of 2024-2033 at the national level". About <strong>77,000</strong> people were employed in the occupation in 2023, <strong>24%</strong> of them aged 50 or over, with a median retirement age of 65, so replacement hiring matters.</p>
 
 <p>Job opportunities over the next three years differ a lot by province. Job Bank updated these ratings on <strong>10 December 2025</strong>:</p>
 
@@ -269,7 +269,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>Ontario and British Columbia &mdash; the two provinces most candidates target &mdash; are rated <strong>Limited</strong>, while the Prairies and most of Atlantic Canada are <strong>Moderate</strong>. If you can move, that gap is worth planning around.</p>
+<p>Ontario and British Columbia, the two provinces most candidates target, are rated <strong>Limited</strong>, while the Prairies and most of Atlantic Canada are <strong>Moderate</strong>. If you can move, that gap is worth planning around.</p>
 
 <h2>Where Do Finance Analysts Work?</h2>
 
@@ -316,16 +316,16 @@ JOBHTML;
 <p>Job Bank's answer is firmer than most career guides admit: the <strong>CFA, or another recognised designation such as CFP or CIM, is usually required</strong>, and CPA or CTP may be required by some employers. In practice the split looks like this:</p>
 
 <ul>
-    <li><strong>CFA</strong> &mdash; investment analysis, portfolio management and capital markets;</li>
-    <li><strong>CPA</strong> &mdash; financial reporting, controllership and much of corporate finance;</li>
-    <li><strong>Neither, yet</strong> &mdash; many junior FP&amp;A, reporting and business-analysis roles, where employers accept a degree plus progress towards a designation.</li>
+    <li><strong>CFA</strong>: investment analysis, portfolio management and capital markets;</li>
+    <li><strong>CPA</strong>: financial reporting, controllership and much of corporate finance;</li>
+    <li><strong>Neither, yet</strong>: many junior FP&amp;A, reporting and business-analysis roles, where employers accept a degree plus progress towards a designation.</li>
 </ul>
 
 <p>Read the posting. A job that wants "CFA Level II" is a different career step from one that wants "working towards a designation".</p>
 
 <h2>Can You Get a Finance Analyst Job as a New Graduate?</h2>
 
-<p>Yes, through the bank graduate programs. <strong>RBC's Analyst Program</strong> is a selective early-career pathway for high-performing students in their final year of undergraduate study, with two streams &mdash; <strong>Product &amp; Strategy</strong> and <strong>Data &amp; Analytics</strong>. RBC recruits for it every fall, with onboarding the following summer. <strong>TD</strong> runs Early Talent and Graduate Leadership Programs for students and new graduates.</p>
+<p>Yes, through the bank graduate programs. <strong>RBC's Analyst Program</strong> is a selective early-career pathway for high-performing students in their final year of undergraduate study, with two streams: <strong>Product &amp; Strategy</strong> and <strong>Data &amp; Analytics</strong>. RBC recruits for it every fall, with onboarding the following summer. <strong>TD</strong> runs Early Talent and Graduate Leadership Programs for students and new graduates.</p>
 
 <p>Titles worth searching as a graduate: Financial Analyst, Junior Financial Analyst, Finance Analyst, FP&amp;A Analyst, Investment Analyst, Risk Analyst, Treasury Analyst and Corporate Finance Analyst.</p>
 
@@ -406,12 +406,12 @@ JOBHTML;
 <p>Comparing finance and Canadian career routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a> &mdash; the client-facing commercial career, its pay and titles.</li>
-    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a> &mdash; accounting work in the Gulf, its tax rules and pay.</li>
-    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a> &mdash; the analytics route, priced from BLS.</li>
-    <li><a href="/blog/public-safety-jobs-in-canada">Public Safety Jobs in Canada</a> &mdash; federal careers at CBSA, CSC and the RCMP.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; the LMIA, language rules and routes to permanent residence.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; which sectors actually hire.</li>
+    <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a>: the client-facing commercial career, its pay and titles.</li>
+    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a>: accounting work in the Gulf, its tax rules and pay.</li>
+    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a>: the analytics route, priced from BLS.</li>
+    <li><a href="/blog/public-safety-jobs-in-canada">Public Safety Jobs in Canada</a>: federal careers at CBSA, CSC and the RCMP.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: the LMIA, language rules and routes to permanent residence.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>, which sectors actually hire.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Government of Canada Job Bank data for NOC 11101 and the official career sites of RBC, TD, Scotiabank and BMO. Wages, outlooks and vacancies change. Always read the current official job posting before applying.</p>

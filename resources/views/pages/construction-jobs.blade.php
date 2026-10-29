@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Construction Jobs — Trades, Pay and Openings | JobGader')
+@section('title', 'Construction Jobs: Trades, Pay and Openings | JobGader')
 @section('meta_description', 'Construction jobs across the USA and UK: hourly rates by trade, the cards and licences you need on site, and how to apply free with no account.')
-@section('og_title', 'Construction Jobs — Trades, Pay and Openings | JobGader')
+@section('og_title', 'Construction Jobs: Trades, Pay and Openings | JobGader')
 @section('og_description', 'Construction jobs across the USA and UK: hourly rates by trade, the cards and licences you need on site, and how to apply free with no account.')
 @section('canonical', url()->current())
 
@@ -16,7 +16,7 @@
             [
                 'title' => 'What the Trades Pay',
                 'paragraphs' => [
-                    'In the US, general construction labourers are commonly advertised around $17 to $24 an hour, with skilled trades — electricians, plumbers, welders, heavy equipment operators — frequently in the $25 to $40 range and higher on union and specialist industrial work. Overtime is a real part of the package on most sites, not a bonus.',
+                    'In the US, general construction labourers are commonly advertised around $17 to $24 an hour, with skilled trades, electricians, plumbers, welders, heavy equipment operators, frequently in the $25 to $40 range and higher on union and specialist industrial work. Overtime is a real part of the package on most sites, not a bonus.',
                     'In the UK, labourers with a CSCS card are typically £12 to £16 an hour, while qualified electricians, plumbers and groundworkers commonly reach £18 to £28 depending on region and whether the work is day rate or price work.',
                 ],
             ],
@@ -28,7 +28,7 @@
                 ],
             ],
             [
-                'title' => 'Visa Sponsorship in Construction — the Honest Position',
+                'title' => 'Visa Sponsorship in Construction: the Honest Position',
                 'paragraphs' => [
                     'US construction does have genuine routes for foreign workers, mainly the H-2B seasonal programme for temporary non-agricultural work and EB-3 for permanent positions, though both are capped and employer-driven. Our construction guide sets out how each one actually runs.',
                     'The UK is far more restrictive. General labouring does not meet Skilled Worker thresholds, and sponsorship in this sector is concentrated in site management, quantity surveying and engineering rather than on the tools. Anyone offering you a UK labouring visa for a fee is selling something that does not exist.',

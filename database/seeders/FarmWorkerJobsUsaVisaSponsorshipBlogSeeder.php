@@ -291,9 +291,9 @@ JOBHTML;
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/farm-worker-salary-usa-2026">Farm Worker Salary in USA (2026)</a> &mdash; BLS averages, hourly rates and monthly examples.</li>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the Canadian route in detail.</li>
-    <li><a href="/blog/fruit-picking-and-farm-jobs-in-australia-canada-and-the-uk">Fruit Picking and Farm Jobs in Australia, Canada and the UK</a> &mdash; three more seasonal routes.</li>
+    <li><a href="/blog/farm-worker-salary-usa-2026">Farm Worker Salary in USA (2026)</a>: BLS averages, hourly rates and monthly examples.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: the Canadian route in detail.</li>
+    <li><a href="/blog/fruit-picking-and-farm-jobs-in-australia-canada-and-the-uk">Fruit Picking and Farm Jobs in Australia, Canada and the UK</a>: three more seasonal routes.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or career advice. Information is drawn from the US Department of Labor, the US Department of State and the Department of Homeland Security, reviewed on 7 October 2026. Immigration and wage rules change, so confirm them with the official authority before applying.</p>

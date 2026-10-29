@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Assistant Professor Jobs in the US" — the entry rank and the search that
+ * "Assistant Professor Jobs in the US": the entry rank and the search that
  * leads to it. The faculty hub owns the workforce overview, the professor
  * employment guide owns the contract terms, and the colleges guide owns the
  * institution types. This page owns the hiring cycle, the application packet
@@ -93,7 +93,7 @@ class AssistantProfessorJobsUsBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'US University Departments — Assistant Professor Searches (Aggregated)'],
+            ['name' => 'US University Departments: Assistant Professor Searches (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'us-assistant-professor-aggregated']
         );
 
@@ -141,11 +141,11 @@ class AssistantProfessorJobsUsBlogSeeder extends Seeder
 
 <h3>What is advertised under this title</h3>
 <ul>
-    <li><strong>Assistant Professor</strong> &mdash; normally tenure-track, with a probationary period and a tenure review</li>
-    <li><strong>Research Assistant Professor</strong> &mdash; grant-funded, lasting as long as the award</li>
-    <li><strong>Clinical Assistant Professor</strong> &mdash; professional schools; licensure and practice usually matter most</li>
-    <li><strong>Teaching Assistant Professor</strong> &mdash; teaching-focused, often renewable, outside the tenure system</li>
-    <li><strong>Visiting Assistant Professor</strong> &mdash; a fixed term, often one year</li>
+    <li><strong>Assistant Professor</strong>: normally tenure-track, with a probationary period and a tenure review</li>
+    <li><strong>Research Assistant Professor</strong>: grant-funded, lasting as long as the award</li>
+    <li><strong>Clinical Assistant Professor</strong>: professional schools; licensure and practice usually matter most</li>
+    <li><strong>Teaching Assistant Professor</strong>: teaching-focused, often renewable, outside the tenure system</li>
+    <li><strong>Visiting Assistant Professor</strong>: a fixed term, often one year</li>
 </ul>
 
 <h3>Requirements</h3>
@@ -180,11 +180,11 @@ JOBHTML;
 <p>The modifier in front of the title is the contract. Read it before anything else:</p>
 
 <ul>
-    <li><strong>Assistant Professor</strong> with no modifier &mdash; normally tenure-track, with a probationary period and a tenure review at the end of it.</li>
-    <li><strong>Research Assistant Professor</strong> &mdash; grant-funded. The appointment lasts as long as the award does, and there is usually no tenure route.</li>
-    <li><strong>Clinical Assistant Professor</strong> &mdash; professional schools. Current licensure and practice usually outweigh a publication record.</li>
-    <li><strong>Teaching Assistant Professor</strong> or <strong>Assistant Teaching Professor</strong> &mdash; a teaching-focused appointment, often renewable and promotable within its own ladder, outside the tenure system.</li>
-    <li><strong>Visiting Assistant Professor</strong> &mdash; a fixed term, often one year, usually covering a sabbatical or a failed search.</li>
+    <li><strong>Assistant Professor</strong> with no modifier: normally tenure-track, with a probationary period and a tenure review at the end of it.</li>
+    <li><strong>Research Assistant Professor</strong>: grant-funded. The appointment lasts as long as the award does, and there is usually no tenure route.</li>
+    <li><strong>Clinical Assistant Professor</strong>: professional schools. Current licensure and practice usually outweigh a publication record.</li>
+    <li><strong>Teaching Assistant Professor</strong> or <strong>Assistant Teaching Professor</strong>: a teaching-focused appointment, often renewable and promotable within its own ladder, outside the tenure system.</li>
+    <li><strong>Visiting Assistant Professor</strong>: a fixed term, often one year, usually covering a sabbatical or a failed search.</li>
 </ul>
 
 <p>All five are advertised as assistant professor jobs. Only the first carries a route to tenure, and the advert will not always say so in the headline.</p>
@@ -246,9 +246,9 @@ JOBHTML;
 <p>Salary is only part of what is on the table, and the rest is harder to change later:</p>
 
 <ul>
-    <li><strong>Startup funds</strong> &mdash; equipment, laboratory set-up, research assistance, conference travel, summer salary in the first years.</li>
+    <li><strong>Startup funds</strong>: equipment, laboratory set-up, research assistance, conference travel, summer salary in the first years.</li>
     <li><strong>Course release</strong> in the first year or two, which is the most valuable thing a new assistant professor can be given.</li>
-    <li><strong>The tenure clock itself</strong> &mdash; credit for prior service, or a longer clock, agreed in writing at the start.</li>
+    <li><strong>The tenure clock itself</strong>: credit for prior service, or a longer clock, agreed in writing at the start.</li>
     <li><strong>Moving costs</strong>, which are normal and are often simply not offered unless asked for.</li>
     <li><strong>Partner hiring</strong>, where the institution has a programme. Raise it after the offer, not during the visit.</li>
     <li><strong>Equipment, space and graduate student funding</strong>, named specifically rather than promised generally.</li>
@@ -324,14 +324,14 @@ JOBHTML;
 <p>These cover what sits either side of the entry rank:</p>
 
 <ul>
-    <li><a href="/blog/faculty-careers-in-the-us">Faculty Careers in the US</a> &mdash; every appointment type compared, with the BLS data behind each.</li>
-    <li><a href="/blog/professor-employment-in-the-us">Professor Employment in the US</a> &mdash; the nine-month contract, teaching loads and what promotion is worth.</li>
-    <li><a href="/blog/colleges-hiring-professors-in-the-us">Colleges Hiring Professors in the US</a> &mdash; which kinds of institution hire on which credential.</li>
-    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a> &mdash; the per-section market many candidates enter first.</li>
-    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; the British equivalent of the entry route.</li>
-    <li><a href="/blog/adjunct-faculty-vacancies-in-the-uk">Adjunct Faculty Vacancies in the UK</a> &mdash; where UK hourly-paid academic work is advertised.</li>
-    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; the school-level route and state certification.</li>
-    <li><a href="/blog/higher-education-degree-jobs-in-the-us">Higher Education Degree Jobs in the US</a> &mdash; the non-faculty careers inside the same institutions.</li>
+    <li><a href="/blog/faculty-careers-in-the-us">Faculty Careers in the US</a>: every appointment type compared, with the BLS data behind each.</li>
+    <li><a href="/blog/professor-employment-in-the-us">Professor Employment in the US</a>: the nine-month contract, teaching loads and what promotion is worth.</li>
+    <li><a href="/blog/colleges-hiring-professors-in-the-us">Colleges Hiring Professors in the US</a>, which kinds of institution hire on which credential.</li>
+    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a>: the per-section market many candidates enter first.</li>
+    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a>: the British equivalent of the entry route.</li>
+    <li><a href="/blog/adjunct-faculty-vacancies-in-the-uk">Adjunct Faculty Vacancies in the UK</a>: where UK hourly-paid academic work is advertised.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a>: the school-level route and state certification.</li>
+    <li><a href="/blog/higher-education-degree-jobs-in-the-us">Higher Education Degree Jobs in the US</a>: the non-faculty careers inside the same institutions.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or employment advice. Pay data is from the American Association of University Professors and the US Bureau of Labor Statistics; hiring calendars, tenure criteria and startup packages are set by each institution and department. Confirm the terms in writing before accepting an offer.</p>

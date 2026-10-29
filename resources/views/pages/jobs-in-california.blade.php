@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in California — Regions, Pay and Costs | JobGader')
+@section('title', 'Jobs in California: Regions, Pay and Costs | JobGader')
 @section('meta_description', 'Jobs in California: how the Bay Area, Los Angeles, San Diego and the Central Valley differ, what they pay, and how far that pay actually goes.')
-@section('og_title', 'Jobs in California — Regions, Pay and Costs | JobGader')
+@section('og_title', 'Jobs in California: Regions, Pay and Costs | JobGader')
 @section('og_description', 'Jobs in California: how the Bay Area, Los Angeles, San Diego and the Central Valley differ, what they pay, and how far that pay actually goes.')
 @section('canonical', url()->current())
 
@@ -52,7 +52,7 @@
             ],
             [
                 'q' => 'Are California salaries actually higher?',
-                'a' => 'In nominal terms yes, across most sectors. Whether they go further depends on where in the state — coastal housing costs and state income tax absorb much of the difference, while inland regions are far cheaper.',
+                'a' => 'In nominal terms yes, across most sectors. Whether they go further depends on where in the state: coastal housing costs and state income tax absorb much of the difference, while inland regions are far cheaper.',
             ],
             [
                 'q' => 'What is the minimum wage in California?',

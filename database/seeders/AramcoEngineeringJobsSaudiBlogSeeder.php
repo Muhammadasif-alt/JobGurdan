@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Aramco Engineering Jobs in Saudi Arabia" — an employer
+ * "How to Apply for Aramco Engineering Jobs in Saudi Arabia": an employer
  * guide built on what Aramco itself publishes, which on the two questions
  * readers care about most is less than the drafts circulating online claim.
  *
@@ -151,7 +151,7 @@ class AramcoEngineeringJobsSaudiBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> Aramco publishes no salary figure for any role, and any number you see elsewhere is a third-party estimate &mdash; not by JobGader. Aramco states it will never ask applicants for payment at any point in recruitment.</p>
+<p><strong>Note:</strong> Aramco publishes no salary figure for any role, and any number you see elsewhere is a third-party estimate, not by JobGader. Aramco states it will never ask applicants for payment at any point in recruitment.</p>
 JOBHTML;
     }
 
@@ -191,11 +191,11 @@ JOBHTML;
             <td style="padding:12px;border:1px solid #e5e7eb;">Non-Saudi professionals, generally with five to 10 years of applicable experience</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #e5e7eb;">Saudi applicants &mdash; graduates</td>
+            <td style="padding:12px;border:1px solid #e5e7eb;">Saudi applicants: graduates</td>
             <td style="padding:12px;border:1px solid #e5e7eb;">Saudi nationals entering from university</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #e5e7eb;">Saudi applicants &mdash; experienced professionals</td>
+            <td style="padding:12px;border:1px solid #e5e7eb;">Saudi applicants: experienced professionals</td>
             <td style="padding:12px;border:1px solid #e5e7eb;">Saudi nationals already in the workforce</td>
         </tr>
     </tbody>
@@ -275,7 +275,7 @@ JOBHTML;
 
 <p>That SAR 30,000 housing floor is the only absolute currency amount Aramco publishes in the whole compensation section, and it is an allowance minimum rather than a salary.</p>
 
-<p><strong>So treat every Aramco salary figure you find online as a third-party estimate.</strong> Glassdoor, PayScale and the salary blogs disagree with each other, none of them is sourced from Aramco, and averaging them does not make them true. Ask for the number in writing when you receive an offer &mdash; that is the first time a real figure exists.</p>
+<p><strong>So treat every Aramco salary figure you find online as a third-party estimate.</strong> Glassdoor, PayScale and the salary blogs disagree with each other, none of them is sourced from Aramco, and averaging them does not make them true. Ask for the number in writing when you receive an offer: that is the first time a real figure exists.</p>
 
 <div style="text-align:center;margin:28px 0;">
     <img src="/public/storage/blogs/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia-team.jpg" alt="Aramco engineering team at work in Saudi Arabia" style="max-width:100%;height:auto;border-radius:12px;" loading="lazy">
@@ -296,7 +296,7 @@ JOBHTML;
 
 <h2>Tax: What You Keep</h2>
 
-<p><strong>Saudi Arabia levies no personal income tax on employment income</strong>, for Saudi nationals or expatriates. The Income Tax Law administered by ZATCA applies to corporate profits, non-resident business income and shares held by non-Saudi partners &mdash; ordinary salary does not fall within its scope.</p>
+<p><strong>Saudi Arabia levies no personal income tax on employment income</strong>, for Saudi nationals or expatriates. The Income Tax Law administered by ZATCA applies to corporate profits, non-resident business income and shares held by non-Saudi partners: ordinary salary does not fall within its scope.</p>
 
 <p>What you do pay is <strong>VAT at 15%</strong> on most goods and services, raised from 5% with effect from 1 July 2020. That rate matters more than people expect once you are running a household and paying school fees, rent and utilities locally.</p>
 
@@ -304,7 +304,7 @@ JOBHTML;
 
 <h2>The Link Most Guides Give You Is the Wrong One</h2>
 
-<p>You will repeatedly see <code>careers.aramco.com/expat_us/go/For-US-Applicants/</code> given as the Aramco application link. <strong>That page is genuine, but it sits on the US-scoped branch of Aramco's applicant tracking system</strong> &mdash; the "expat_us" in the path is not decoration. There is a matching "/saudi/" branch for the Saudi-applicant track.</p>
+<p>You will repeatedly see <code>careers.aramco.com/expat_us/go/For-US-Applicants/</code> given as the Aramco application link. <strong>That page is genuine, but it sits on the US-scoped branch of Aramco's applicant tracking system</strong>: the "expat_us" in the path is not decoration. There is a matching "/saudi/" branch for the Saudi-applicant track.</p>
 
 <p>For anyone applying from South Asia, the correct starting point is the global <a href="https://www.aramco.com/en/careers/for-international-applicants" target="_blank" rel="noopener nofollow">for-international-applicants</a> page, which is not region-gated and links onward to the recruitment portal. Aramco also states that it <strong>only accepts resumes uploaded on its Recruitment Portal or Talent Community</strong>, so a CV emailed to a recruiter is not an application.</p>
 
@@ -319,7 +319,7 @@ JOBHTML;
 <p>The warning signs it lists:</p>
 
 <ul>
-    <li>Any request for money &mdash; visa fees, taxes, travel expenses, processing charges</li>
+    <li>Any request for money: visa fees, taxes, travel expenses, processing charges</li>
     <li>Requests for passport or bank details early in the process</li>
     <li>A recruiter writing from a free email account such as Yahoo, Gmail, Hotmail or Live.com</li>
     <li>Hidden caller ID on phone contact</li>
@@ -396,16 +396,16 @@ JOBHTML;
 <p>Working in Saudi Arabia or comparing Gulf employers? These cover the ground:</p>
 
 <ul>
-    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a> &mdash; the sponsorship system, Saudization and what your contract has to say.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; the site-based route into the same country.</li>
-    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a> &mdash; skilled trade work where experience counts more than a degree.</li>
-    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a> &mdash; another resources employer that does not publish pay.</li>
-    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; a Gulf employer with the same missing-salary problem.</li>
-    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a> &mdash; a factory employer that lists no factory-floor jobs at all.</li>
-    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a> &mdash; the famous employer whose job board is currently empty.</li>
-    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a> &mdash; the government portal that replaced PetroJobs.</li>
-    <li><a href="/blog/how-to-apply-for-sabic-manufacturing-jobs-in-saudi-arabia">How to Apply for SABIC Manufacturing Jobs in Saudi Arabia</a> &mdash; the registration and Saudization rules that apply to every Saudi engineer.</li>
-    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a> &mdash; which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
+    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a>: the sponsorship system, Saudization and what your contract has to say.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: the site-based route into the same country.</li>
+    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a>: skilled trade work where experience counts more than a degree.</li>
+    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a>: another resources employer that does not publish pay.</li>
+    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a>: a Gulf employer with the same missing-salary problem.</li>
+    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a>: a factory employer that lists no factory-floor jobs at all.</li>
+    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a>: the famous employer whose job board is currently empty.</li>
+    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a>: the government portal that replaced PetroJobs.</li>
+    <li><a href="/blog/how-to-apply-for-sabic-manufacturing-jobs-in-saudi-arabia">How to Apply for SABIC Manufacturing Jobs in Saudi Arabia</a>: the registration and Saudization rules that apply to every Saudi engineer.</li>
+    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a>, which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Aramco's own careers, hiring process, compensation, benefits and recruitment disclaimer pages and ZATCA's published tax material. Aramco does not publish salary figures for any role, and recruitment criteria and benefits change. Always follow the current official Aramco announcement and the terms of your own written offer.</p>

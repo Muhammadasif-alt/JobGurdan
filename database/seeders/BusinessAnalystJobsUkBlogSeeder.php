@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Business Analyst Jobs in UK" — the analyst route into UK business and
+ * "Business Analyst Jobs in UK": the analyst route into UK business and
  * digital change work. The Jobs in UK for Foreigners guide owns the Skilled
  * Worker rules in general, so this one owns what SOC 2431 means for a
  * business analyst specifically.
@@ -163,7 +163,7 @@ class BusinessAnalystJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, grades, sponsorship and hiring rules are set by each employer and by the Home Office &mdash; not by JobGader. Read the current vacancy before applying.</p>
+<p><strong>Note:</strong> pay, grades, sponsorship and hiring rules are set by each employer and by the Home Office, not by JobGader. Read the current vacancy before applying.</p>
 JOBHTML;
     }
 
@@ -193,7 +193,7 @@ JOBHTML;
     <li>supporting staff to make changes.</li>
 </ul>
 
-<p>Government's own Digital and Data capability framework puts it more sharply: business analysts research how a business area works &mdash; people, organisation, processes, information, data and technology &mdash; identify areas for improvement, explore feasible options, analyse the effects of change and <strong>define success measures</strong>, then use that analysis to decide priorities and the minimum viable product.</p>
+<p>Government's own Digital and Data capability framework puts it more sharply: business analysts research how a business area works, people, organisation, processes, information, data and technology, identify areas for improvement, explore feasible options, analyse the effects of change and <strong>define success measures</strong>, then use that analysis to decide priorities and the minimum viable product.</p>
 
 <p>Typical hours are <strong>37 to 39 a week</strong>, with occasional evening work.</p>
 
@@ -253,15 +253,15 @@ JOBHTML;
 
 <h3>Capgemini</h3>
 
-<p>Capgemini advertises business analysis as its own professional community. Its live <strong>Junior Business Analyst</strong> posting, put up on <strong>3 September 2026</strong>, covers five locations at once &mdash; <strong>London, Manchester, Newcastle upon Tyne, Bristol and Birmingham</strong> &mdash; and names the tools it expects you to meet: <strong>JIRA and Confluence</strong>, modelling with BPMN and UML, and BI tools such as Power BI or Tableau. A <strong>Graduate Business Analyst 2026</strong> vacancy runs alongside it.</p>
+<p>Capgemini advertises business analysis as its own professional community. Its live <strong>Junior Business Analyst</strong> posting, put up on <strong>3 September 2026</strong>, covers five locations at once, <strong>London, Manchester, Newcastle upon Tyne, Bristol and Birmingham</strong>, and names the tools it expects you to meet: <strong>JIRA and Confluence</strong>, modelling with BPMN and UML, and BI tools such as Power BI or Tableau. A <strong>Graduate Business Analyst 2026</strong> vacancy runs alongside it.</p>
 
 <h3>HSBC</h3>
 
-<p>HSBC's careers portal carried two UK business analyst vacancies when we checked, both in <strong>London</strong> and both hybrid, within Asset and Wealth Management: an <strong>Alternatives Senior Business Analyst</strong> and a <strong>Business Analyst &mdash; Operations Design and Delivery</strong> on a two-year fixed-term contract.</p>
+<p>HSBC's careers portal carried two UK business analyst vacancies when we checked, both in <strong>London</strong> and both hybrid, within Asset and Wealth Management: an <strong>Alternatives Senior Business Analyst</strong> and a <strong>Business Analyst: Operations Design and Delivery</strong> on a two-year fixed-term contract.</p>
 
 <h3>Banks, consultancies and Civil Service Jobs</h3>
 
-<p>NatWest, Lloyds, Barclays and the large consultancies all run their own portals, and government vacancies are advertised on <strong>Civil Service Jobs</strong>. Both Civil Service Jobs and the NatWest careers site block automated checks, so we have not published vacancy counts or titles from either &mdash; search them directly.</p>
+<p>NatWest, Lloyds, Barclays and the large consultancies all run their own portals, and government vacancies are advertised on <strong>Civil Service Jobs</strong>. Both Civil Service Jobs and the NatWest careers site block automated checks, so we have not published vacancy counts or titles from either: search them directly.</p>
 
 <h2>What Tools Should a UK Business Analyst Know?</h2>
 
@@ -287,7 +287,7 @@ JOBHTML;
 <ul>
     <li><strong>General Skilled Worker threshold:</strong> at least <strong>&pound;41,700</strong> a year, or the going rate for the job, whichever is higher.</li>
     <li><strong>Standard going rate for SOC 2431:</strong> <strong>&pound;50,200</strong> a year (&pound;25.74 an hour).</li>
-    <li><strong>Lower going rate:</strong> &pound;36,000 &mdash; but only for Health and Care Worker applicants or people whose first certificate of sponsorship predates 4 April 2024.</li>
+    <li><strong>Lower going rate:</strong> &pound;36,000, but only for Health and Care Worker applicants or people whose first certificate of sponsorship predates 4 April 2024.</li>
     <li><strong>Under 26, studying, training or postdoctoral:</strong> 70% of the standard going rate, which is <strong>&pound;35,100</strong> for this code, with an absolute floor of <strong>&pound;33,400</strong>.</li>
     <li><strong>PhD holders:</strong> 80% of the going rate for a STEM PhD, or 90% for a non-STEM PhD with a floor of &pound;37,500.</li>
 </ul>
@@ -366,13 +366,13 @@ JOBHTML;
 <p>Comparing UK and analyst careers? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the Skilled Worker threshold, the salary lists and who can work without a sponsor.</li>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; the technical route into UK technology teams.</li>
-    <li><a href="/blog/marketing-jobs-in-uk">Marketing Jobs in UK</a> &mdash; another office career priced from National Careers Service and ONS figures.</li>
-    <li><a href="/blog/finance-analyst-jobs-in-canada">Finance Analyst Jobs in Canada</a> &mdash; the finance analyst route, with Job Bank pay and the CFA rule.</li>
-    <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a> &mdash; the client-facing commercial career in the US market.</li>
-    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a> &mdash; where analysis meets code, priced from BLS.</li>
-    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a> &mdash; ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the Skilled Worker threshold, the salary lists and who can work without a sponsor.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: the technical route into UK technology teams.</li>
+    <li><a href="/blog/marketing-jobs-in-uk">Marketing Jobs in UK</a>: another office career priced from National Careers Service and ONS figures.</li>
+    <li><a href="/blog/finance-analyst-jobs-in-canada">Finance Analyst Jobs in Canada</a>: the finance analyst route, with Job Bank pay and the CFA rule.</li>
+    <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a>: the client-facing commercial career in the US market.</li>
+    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a>: where analysis meets code, priced from BLS.</li>
+    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a>: ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using the National Careers Service, GOV.UK Skilled Worker guidance, the DDaT capability framework, ONS ASHE data and the Capgemini and HSBC career sites. Salaries, going rates and vacancies change. Always check the current vacancy and immigration rules before applying.</p>

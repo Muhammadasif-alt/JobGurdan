@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "No Experience Jobs in Saudi Arabia" — the entry-level search for the Gulf,
+ * "No Experience Jobs in Saudi Arabia": the entry-level search for the Gulf,
  * written against two things the standard draft gets backwards: which jobs a
  * foreigner may actually hold, and what protects the wage once they hold one.
  *
@@ -171,7 +171,7 @@ class NoExperienceJobsSaudiBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check two things before anything else: that the occupation is not restricted to Saudi nationals, and that the wage is written in the contract.</strong> Saudization decisions have closed a growing list of sales and marketing job titles to foreign workers, and there is no statutory minimum wage for expatriates, so the contract is the only floor you have.</p>
 
-<p><strong>Note:</strong> pay, contract terms, accommodation and eligibility are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying, and never pay a fee for a job offer or a visa.</p>
+<p><strong>Note:</strong> pay, contract terms, accommodation and eligibility are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement before applying, and never pay a fee for a job offer or a visa.</p>
 JOBHTML;
     }
 
@@ -188,7 +188,7 @@ JOBHTML;
 
 <p>On 26 January 2026 the Ministry of Human Resources and Social Development announced two decisions raising Saudization rates in the private sector. The one that matters most to a foreign job seeker raised the <strong>Saudization rate in sales professions to 60 per cent, effective 19/01/2026</strong>, applying to establishments employing three or more workers in sales roles. The ministry named the targeted professions: Sales Manager, <strong>Retail Sales Representative</strong>, Wholesale Sales Representative, Sales Representative, Information and Communications Technology (ICT) Sales Specialist, Sales Specialist, Commercial Specialist and Commodity Broker.</p>
 
-<p>A parallel decision raised Saudization in marketing professions to 60 per cent on the same date, covering Marketing Manager, Advertising Agent, Advertising Manager, Graphic Designer, Advertising Designer, Public Relations Specialist, Advertising and Promotion Specialist, Marketing Specialist, Public Relations Manager and Photographer &mdash; and it set <strong>a minimum monthly wage of SAR 5,500</strong> for those roles. Both decisions come into force three months from announcement, and the ministry has published procedural guides setting out how the rates are calculated and what compliance requires.</p>
+<p>A parallel decision raised Saudization in marketing professions to 60 per cent on the same date, covering Marketing Manager, Advertising Agent, Advertising Manager, Graphic Designer, Advertising Designer, Public Relations Specialist, Advertising and Promotion Specialist, Marketing Specialist, Public Relations Manager and Photographer, and it set <strong>a minimum monthly wage of SAR 5,500</strong> for those roles. Both decisions come into force three months from announcement, and the ministry has published procedural guides setting out how the rates are calculated and what compliance requires.</p>
 
 <p>Read that against the advice you will find elsewhere. "Retail Sales Associate" is the first suggestion in almost every entry-level guide to Saudi Arabia. It is also the job title sitting inside a 60 per cent Saudization quota. An establishment that must fill six in ten of its sales roles with Saudi nationals is not looking to sponsor an inexperienced foreigner into the seventh.</p>
 
@@ -228,7 +228,7 @@ JOBHTML;
 
 <h2>Why Entry-Level Competition Is Tightening</h2>
 
-<p>The Saudization decisions are only half the picture. The other half is money. The ministry's own announcement notes that establishments benefit from a package of incentives through the <strong>Human Resources Development Fund (HRDF &mdash; Hadaf)</strong>: support for recruitment, training and upskilling, employment and job stability, plus priority access to Saudization support programmes.</p>
+<p>The Saudization decisions are only half the picture. The other half is money. The ministry's own announcement notes that establishments benefit from a package of incentives through the <strong>Human Resources Development Fund (HRDF: Hadaf)</strong>: support for recruitment, training and upskilling, employment and job stability, plus priority access to Saudization support programmes.</p>
 
 <p>Put plainly, the state subsidises the cost of hiring and training a Saudi national. An employer weighing an inexperienced Saudi against an inexperienced foreigner is not comparing two equal costs, and in a quota-covered occupation the comparison does not happen at all. This is why "no experience needed" advice written for Western labour markets transfers badly here: in Saudi Arabia, being inexperienced is not the obstacle. Being inexperienced <em>in a quota-covered occupation</em> is.</p>
 
@@ -281,12 +281,12 @@ JOBHTML;
 <h2>People Also Search For</h2>
 
 <ul>
-    <li><strong>Saudization list of jobs for Saudis only</strong> &mdash; occupation-specific decisions, most recently sales and marketing at 60 per cent from 19/01/2026</li>
-    <li><strong>Minimum salary in Saudi Arabia 2026</strong> &mdash; SAR 4,000 is a Nitaqat counting rule for Saudi nationals, not an expatriate minimum wage</li>
-    <li><strong>Saudi Arabia work visa without experience</strong> &mdash; available in warehousing, hospitality, cleaning and construction support, arranged by the employer before travel</li>
-    <li><strong>How to change job in Saudi Arabia</strong> &mdash; permitted without employer consent after one year or at contract expiry, for workers covered by the labour law</li>
-    <li><strong>Saudi Arabia exit re-entry visa rules</strong> &mdash; obtainable without employer approval since 14 March 2021, via a request to the ministry</li>
-    <li><strong>Wage Protection System Saudi Arabia</strong> &mdash; the electronic payroll monitoring that makes unpaid wages visible to the ministry</li>
+    <li><strong>Saudization list of jobs for Saudis only</strong>: occupation-specific decisions, most recently sales and marketing at 60 per cent from 19/01/2026</li>
+    <li><strong>Minimum salary in Saudi Arabia 2026</strong>: SAR 4,000 is a Nitaqat counting rule for Saudi nationals, not an expatriate minimum wage</li>
+    <li><strong>Saudi Arabia work visa without experience</strong>: available in warehousing, hospitality, cleaning and construction support, arranged by the employer before travel</li>
+    <li><strong>How to change job in Saudi Arabia</strong>: permitted without employer consent after one year or at contract expiry, for workers covered by the labour law</li>
+    <li><strong>Saudi Arabia exit re-entry visa rules</strong>: obtainable without employer approval since 14 March 2021, via a request to the ministry</li>
+    <li><strong>Wage Protection System Saudi Arabia</strong>: the electronic payroll monitoring that makes unpaid wages visible to the ministry</li>
 </ul>
 
 <h2>More Job Guides</h2>
@@ -299,8 +299,8 @@ JOBHTML;
     <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a></li>
     <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a></li>
     <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a></li>
-    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a> &mdash; a licensed skilled route, the heavy-licence retest and the WPS pay rule.</li>
-    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a> &mdash; the sponsorship route, Saudization limits and who legally pays your recruitment fee.</li>
+    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a>: a licensed skilled route, the heavy-licence retest and the WPS pay rule.</li>
+    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a>: the sponsorship route, Saudization limits and who legally pays your recruitment fee.</li>
 </ul>
 HTML;
     }

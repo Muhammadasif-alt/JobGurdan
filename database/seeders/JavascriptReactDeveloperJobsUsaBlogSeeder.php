@@ -135,7 +135,7 @@ HTML;
         return <<<'HTML'
 <p>Some US adverts say "React developer". Others say "JavaScript React developer", or list "strong HTML and JavaScript" on a line of its own, above React. That is not padding. It is a signal about the codebase and about the interview, and it is worth reading properly.</p>
 
-<p>Two things usually sit behind it. The team has a mixed codebase &mdash; older JavaScript, perhaps jQuery, being moved to React a piece at a time &mdash; so framework knowledge alone will not carry you. And the technical screen will test the language separately from the library.</p>
+<p>Two things usually sit behind it. The team has a mixed codebase, older JavaScript, perhaps jQuery, being moved to React a piece at a time, so framework knowledge alone will not carry you. And the technical screen will test the language separately from the library.</p>
 
 <p>This page is about that fundamentals round: where its questions actually come from, and the distinction that will make you sound like someone who has read the specifications rather than a tutorial. For the market picture and pay, see our <a href="/blog/react-developer-jobs-in-usa">React developer jobs guide</a>.</p>
 
@@ -145,7 +145,7 @@ HTML;
 
 <p>The JavaScript language is standardised as <strong>ECMA-262</strong>, published by Ecma International and revised every year; the current text is the <strong>ECMAScript 2027 Language Specification</strong>. That document defines the language itself: types and coercion, scope and closures, prototypes, classes, iterators and generators, promises, async functions, modules, and the array and object methods.</p>
 
-<p>It does <em>not</em> define the environment the language runs in. The <strong>event loop</strong>, the task and microtask queues, <code>setTimeout</code> and <code>setInterval</code>, the DOM, <code>fetch</code> and the rest of the browser surface are specified elsewhere &mdash; principally in the <strong>WHATWG HTML Standard</strong> and its companion standards. In the HTML Standard each agent is given its own event loop, and timers are defined in its own Timers section, which states plainly that "the <code>setTimeout()</code> and <code>setInterval()</code> methods allow authors to schedule timer-based callbacks".</p>
+<p>It does <em>not</em> define the environment the language runs in. The <strong>event loop</strong>, the task and microtask queues, <code>setTimeout</code> and <code>setInterval</code>, the DOM, <code>fetch</code> and the rest of the browser surface are specified elsewhere: principally in the <strong>WHATWG HTML Standard</strong> and its companion standards. In the HTML Standard each agent is given its own event loop, and timers are defined in its own Timers section, which states plainly that "the <code>setTimeout()</code> and <code>setInterval()</code> methods allow authors to schedule timer-based callbacks".</p>
 
 <p>So when an interviewer says "explain the event loop", they are asking about a browser specification, not about the JavaScript language. When they ask "what does <code>async</code> actually do", that is ECMA-262. Both are fair questions. Knowing which document each comes from is what separates an answer that recites a diagram from one that explains a mechanism.</p>
 
@@ -193,7 +193,7 @@ HTML;
 
 <p><strong>Environment, from the HTML Standard and its siblings:</strong> the event loop, and the difference between a task and a microtask; where a promise callback runs relative to a timer; the timer clamp above; event propagation, delegation and cancellation; <code>fetch</code>, abort signals and error handling; and what "blocking the main thread" physically means.</p>
 
-<p>The single best answer you can give in this round is one that names the boundary out loud &mdash; that promises are the language, that the queue they resolve on is the host environment, and that this is why the same code behaves differently in a browser and on a server. Very few candidates say it, and it is not a trick; it is just reading the right documents once.</p>
+<p>The single best answer you can give in this round is one that names the boundary out loud: that promises are the language, that the queue they resolve on is the host environment, and that this is why the same code behaves differently in a browser and on a server. Very few candidates say it, and it is not a trick; it is just reading the right documents once.</p>
 
 <p>The assessment stage itself is regulated, and there are things you are entitled to ask for. Our <a href="/blog/frontend-developer-coding-tests-in-usa">guide to coding tests in the USA</a> sets out what applies, including on a timed exercise. If the advert also names TypeScript, our <a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript guide</a> covers what types do and, importantly, do not do at runtime.</p>
 
@@ -252,23 +252,23 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the main guide: pay bands, the toolchain that dates a portfolio, and the eligibility filter.</li>
-    <li><a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript Developer Jobs in USA</a> &mdash; what types do at compile time and, crucially, what they do not do at runtime.</li>
-    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage, and the adjustment you are entitled to ask for.</li>
-    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a> &mdash; the staffing layer many of these adverts come from.</li>
-    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a> &mdash; what to build, and how to read a junior advert.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the main guide: pay bands, the toolchain that dates a portfolio, and the eligibility filter.</li>
+    <li><a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript Developer Jobs in USA</a>: what types do at compile time and, crucially, what they do not do at runtime.</li>
+    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a>: the assessment stage, and the adjustment you are entitled to ask for.</li>
+    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a>: the staffing layer many of these adverts come from.</li>
+    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a>: what to build, and how to read a junior advert.</li>
 </ul>
 
 <h2>Official sources</h2>
 
 <ul>
-    <li>Ecma International &mdash; ECMA-262, the ECMAScript Language Specification, and the June 2015 adoption of the 6th edition as ECMAScript 2015.</li>
-    <li>TC39 &mdash; the current ECMAScript Language Specification draft.</li>
-    <li>WHATWG &mdash; the HTML Standard, web application APIs and the Timers section.</li>
-    <li>Bureau of Labor Statistics &mdash; Occupational Outlook Handbook for software developers and for web developers and digital designers.</li>
+    <li>Ecma International: ECMA-262, the ECMAScript Language Specification, and the June 2015 adoption of the 6th edition as ECMAScript 2015.</li>
+    <li>TC39: the current ECMAScript Language Specification draft.</li>
+    <li>WHATWG: the HTML Standard, web application APIs and the Timers section.</li>
+    <li>Bureau of Labor Statistics: Occupational Outlook Handbook for software developers and for web developers and digital designers.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Specifications are revised and employer practice varies &mdash; confirm the current position with Ecma International, the WHATWG and the employer's own advertisement before relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Specifications are revised and employer practice varies: confirm the current position with Ecma International, the WHATWG and the employer's own advertisement before relying on any of it.</p>
 HTML;
     }
 }

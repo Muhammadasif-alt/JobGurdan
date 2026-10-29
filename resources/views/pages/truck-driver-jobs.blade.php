@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Truck Driver Jobs — CDL, Pay and Visa Routes | JobGader')
+@section('title', 'Truck Driver Jobs: CDL, Pay and Visa Routes | JobGader')
 @section('meta_description', 'Truck driver jobs in the USA and UK: what CDL and HGV drivers earn, how licensing works for foreign drivers, and which visa routes are real.')
-@section('og_title', 'Truck Driver Jobs — CDL, Pay and Visa Routes | JobGader')
+@section('og_title', 'Truck Driver Jobs: CDL, Pay and Visa Routes | JobGader')
 @section('og_description', 'Truck driver jobs in the USA and UK: what CDL and HGV drivers earn, how licensing works for foreign drivers, and which visa routes are real.')
 @section('canonical', url()->current())
 
@@ -16,7 +16,7 @@
             [
                 'title' => 'What Drivers Earn',
                 'paragraphs' => [
-                    'In the US, company CDL-A drivers are commonly advertised between $60,000 and $85,000 a year, with specialised freight — tanker, flatbed, hazmat, oversize — paying above that. Pay is often quoted per mile rather than per year, so check the expected weekly mileage before comparing offers.',
+                    'In the US, company CDL-A drivers are commonly advertised between $60,000 and $85,000 a year, with specialised freight, tanker, flatbed, hazmat, oversize, paying above that. Pay is often quoted per mile rather than per year, so check the expected weekly mileage before comparing offers.',
                     'In the UK, HGV Class 1 drivers commonly earn £35,000 to £45,000, with night trunking and specialist work higher. In Saudi Arabia and the Gulf, heavy truck drivers are commonly advertised around SAR 1,500 to 2,500 a month plus allowances, usually with accommodation provided.',
                 ],
             ],
@@ -37,7 +37,7 @@
             [
                 'title' => 'Types of Haulage Are Different Jobs',
                 'paragraphs' => [
-                    'Over-the-road work means weeks away from home and pays accordingly. Regional runs get you home most weekends. Local and day-cab work gets you home nightly and pays the least of the three. None is better than the others in the abstract — they are different lives.',
+                    'Over-the-road work means weeks away from home and pays accordingly. Regional runs get you home most weekends. Local and day-cab work gets you home nightly and pays the least of the three. None is better than the others in the abstract: they are different lives.',
                     'Endorsements are where the money is. Hazmat, tanker and doubles or triples endorsements in the US, and ADR in the UK, each lift the rate meaningfully and cost far less to obtain than the increase they unlock.',
                 ],
             ],
@@ -63,7 +63,7 @@
             ],
             [
                 'q' => 'Which trucking jobs pay the most?',
-                'a' => 'Specialised freight — tanker, hazmat, flatbed and oversize — along with over-the-road work that keeps you away from home for extended periods. Endorsements typically pay for themselves quickly.',
+                'a' => 'Specialised freight, tanker, hazmat, flatbed and oversize, along with over-the-road work that keeps you away from home for extended periods. Endorsements typically pay for themselves quickly.',
             ],
             [
                 'q' => 'What is the difference between OTR, regional and local driving?',

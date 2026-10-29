@@ -161,12 +161,12 @@ class OnlineResearchAssistantJobsBlogSeeder extends Seeder
 <p>No code in the US Standard Occupational Classification is titled "research assistant" or "online research assistant". The nearest is 19-4061 Social Science Research Assistants, where the phrase appears only as an informal alternate title. Treat any advert that quotes national averages for "online research assistant" as unsourced.</p>
 
 <h3>Check the advert before you send a CV</h3>
-<p>Confirm the host resolves and is not a stray subdomain of an unrelated business. Confirm a real application form exists &mdash; a comment box is not one. Confirm a company name that can be found somewhere else. "Competitive compensation based on project completion" is not a pay figure, and a role with no stated employer and no stated pay is not a role.</p>
+<p>Confirm the host resolves and is not a stray subdomain of an unrelated business. Confirm a real application form exists: a comment box is not one. Confirm a company name that can be found somewhere else. "Competitive compensation based on project completion" is not a pay figure, and a role with no stated employer and no stated pay is not a role.</p>
 
 <h3>Before you accept</h3>
 <p>Ask which of the two jobs it is, and what the output actually is: a literature summary, a spreadsheet of companies, or a list of contacts. Ask who checks the work and against what. Confirm the country the employer will hire from, because a remote listing is frequently restricted to one.</p>
 
-<p>Requirements, hours and pay are set by individual employers &mdash; not by JobGader. Never pay anyone to secure a job, never pay for training or equipment to start one, and never send identity documents before you have confirmed the employer exists.</p>
+<p>Requirements, hours and pay are set by individual employers, not by JobGader. Never pay anyone to secure a job, never pay for training or equipment to start one, and never send identity documents before you have confirmed the employer exists.</p>
 JOBHTML;
     }
 
@@ -189,7 +189,7 @@ JOBHTML;
 
 <p>The nearest real code is <strong>19-4061, Social Science Research Assistants</strong>. O*NET defines it as work that assists social scientists "in laboratory, survey, and other social science research", and explicitly excludes postsecondary teaching assistants. Its own list of reported job titles reads: Clinical Research Assistant, Graduate Assistant, Graduate Research Assistant, Research Aide, Research Assistant, Research Associate, Research Technician, Social Research Assistant.</p>
 
-<p>Notice what is not in that list: anything remote, anything freelance, anything online. The official system sorts this work by <em>what you do</em>, not by who employs you or where you sit. A graduate research assistant is filed by primary duty &mdash; teaching goes to one code, research to another &mdash; never by employer type.</p>
+<p>Notice what is not in that list: anything remote, anything freelance, anything online. The official system sorts this work by <em>what you do</em>, not by who employs you or where you sit. A graduate research assistant is filed by primary duty, teaching goes to one code, research to another, never by employer type.</p>
 
 <p>That matters because it means <strong>no national average exists for the job the adverts describe</strong>. When a listing quotes you a figure for "online research assistant", it did not come from a statistical agency. It came from somewhere else, and you should ask where.</p>
 
@@ -230,13 +230,13 @@ JOBHTML;
 
 <p>Read these correctly or they will mislead you. They describe <strong>degree-holding staff employed in the United States</strong>, mostly on site, mostly full time. They are not a rate card for remote gig research, and quoting them to a client will not get you $29 an hour. What they are good for is showing where the skill leads if you stay in it: the ladder runs from assistant to survey researcher to analyst, and the analyst rung is worth roughly a quarter more than the assistant rung.</p>
 
-<p>Two other codes get quoted in articles about this job &mdash; Statistical Assistants and Data Entry Keyers. We checked both and the sources disagreed with each other, so they are not published here.</p>
+<p>Two other codes get quoted in articles about this job: Statistical Assistants and Data Entry Keyers. We checked both and the sources disagreed with each other, so they are not published here.</p>
 
 <h2>We Checked the Most-Shared Advert for This Job. It Was Not a Job.</h2>
 
 <p>There is one advert for "Online Research Assistant (Flexible Time)" that circulates more than any other. It is worth walking through what it actually was, because the same machinery is still running under other addresses.</p>
 
-<p><strong>The host no longer exists.</strong> It returns NXDOMAIN &mdash; no address record at all &mdash; on both Google's and Cloudflare's public DNS. Clicking the link produces a browser error, not a page. The parent domain resolves normally, which tells you the subdomain specifically was removed.</p>
+<p><strong>The host no longer exists.</strong> It returns NXDOMAIN, no address record at all, on both Google's and Cloudflare's public DNS. Clicking the link produces a browser error, not a page. The parent domain resolves normally, which tells you the subdomain specifically was removed.</p>
 
 <p><strong>It was never the publisher's page.</strong> The address was a subdomain of a well-known American military-news site whose owners had nothing to do with recruitment and nothing to do with this. Somebody took over an abandoned subdomain and built a fake job board on it. The archived copy carries a WordPress installation name belonging to neither the publisher nor any employer.</p>
 
@@ -251,18 +251,18 @@ JOBHTML;
 <p><strong>It was one page out of 627.</strong> The web archive's index for that subdomain holds 627 job-spam pages. Sorted by the brand each one impersonates:</p>
 
 <ul>
-    <li><strong>Amazon</strong> &mdash; 53 pages</li>
-    <li><strong>FedEx</strong> &mdash; 36 pages</li>
-    <li><strong>Disney</strong> &mdash; 25 pages</li>
-    <li><strong>UPS</strong> &mdash; 21 pages</li>
-    <li><strong>Walmart</strong> &mdash; 20 pages</li>
-    <li><strong>Apple</strong> &mdash; 19 pages</li>
-    <li><strong>Delta</strong> &mdash; 18 pages, <strong>American Airlines</strong> &mdash; 17 pages</li>
+    <li><strong>Amazon</strong>: 53 pages</li>
+    <li><strong>FedEx</strong>: 36 pages</li>
+    <li><strong>Disney</strong>: 25 pages</li>
+    <li><strong>UPS</strong>: 21 pages</li>
+    <li><strong>Walmart</strong>: 20 pages</li>
+    <li><strong>Apple</strong>: 19 pages</li>
+    <li><strong>Delta</strong>, 18 pages, <strong>American Airlines</strong>, 17 pages</li>
 </ul>
 
 <p>And sorted by the promise in the web address: <strong>work-from-home</strong> on 155 pages, <strong>data-entry</strong> on 143, <strong>part-time</strong> on 132, <strong>entry-level</strong> on 82, <strong>no-experience</strong> on 80.</p>
 
-<p><strong>The same page existed on a second hijacked site.</strong> An identical listing, with the identical "Indeed Jobs USA" title, sat on an abandoned subdomain of a New York property-news publication. That subdomain is dead now too, while the publication itself is live. The same payload on two unrelated, legitimate media properties is not a coincidence &mdash; it is a campaign.</p>
+<p><strong>The same page existed on a second hijacked site.</strong> An identical listing, with the identical "Indeed Jobs USA" title, sat on an abandoned subdomain of a New York property-news publication. That subdomain is dead now too, while the publication itself is live. The same payload on two unrelated, legitimate media properties is not a coincidence: it is a campaign.</p>
 
 <p>We could not follow what happened after somebody sent their CV, because the sites were taken down first. But the shape is familiar, and the next section is what the regulator says about it.</p>
 
@@ -280,7 +280,7 @@ JOBHTML;
     <li><strong>Look for a brand the site has no right to use.</strong> "Indeed Jobs USA" is not Indeed. A page title or footer claiming a famous jobs brand, on a domain that is not that brand's domain, settles the question on its own.</li>
     <li><strong>Find the application form and look at it.</strong> A real vacancy has an apply button that goes to an employer's system. A comment box, a bare email address, or an instruction to message on WhatsApp is not an application process.</li>
     <li><strong>Demand a number.</strong> "Competitive compensation" and "based on quality of work" are not pay. A genuine employer will state a band, an hourly rate or a salary.</li>
-    <li><strong>Try to find the employer anywhere else.</strong> No registered address, no registration number, no other listing, no staff &mdash; that is a name, not a company.</li>
+    <li><strong>Try to find the employer anywhere else.</strong> No registered address, no registration number, no other listing, no staff: that is a name, not a company.</li>
     <li><strong>Search one full sentence of the job description in quotation marks.</strong> If the identical wording comes back under a different company, you are reading a template that gets refilled.</li>
     <li><strong>Check the page still loads.</strong> A shared link that produces a DNS error means the operation has already been shut down once.</li>
 </ol>
@@ -291,7 +291,7 @@ JOBHTML;
 
 <p>First, that R is the <strong>South African rand</strong>, not the rupee. Second, the listing it came from has been deleted, along with the recruiter's entire careers site. We found their current live advertisements, and the real bands are close to double the quoted figure: a data entry role at <strong>R23,000 to R25,000 a month</strong>, a data administrator role at <strong>R29,000 to R32,000</strong>.</p>
 
-<p>But the decisive detail is in the listings' own wording. Each one says the role is for a UK-based employer, <strong>fully remote from South Africa</strong>. A Pakistani applicant cannot take these jobs at any salary. "Remote" in a job advert almost always carries a country attached to it &mdash; sometimes a tax or right-to-work reason, sometimes a working-hours one. Read the sentence before you spend an evening on the application.</p>
+<p>But the decisive detail is in the listings' own wording. Each one says the role is for a UK-based employer, <strong>fully remote from South Africa</strong>. A Pakistani applicant cannot take these jobs at any salary. "Remote" in a job advert almost always carries a country attached to it: sometimes a tax or right-to-work reason, sometimes a working-hours one. Read the sentence before you spend an evening on the application.</p>
 
 <figure style="margin:28px 0;">
     <img src="/public/storage/blogs/online-research-assistant-jobs-checklist.jpg" alt="A researcher working through job board results at a desk" style="width:100%;height:auto;border-radius:10px;">
@@ -302,20 +302,20 @@ JOBHTML;
 
 <p>We went looking for this job by name on the two main Pakistani boards on <strong>23 September 2026</strong>. The honest answer is that the title barely exists here, and the roles that do exist are not the job the adverts describe.</p>
 
-<p>These category searches returned <strong>zero listings</strong> in Karachi, Lahore, Islamabad and Rawalpindi alike: research assistant, research analyst, research associate, market research, academic writer. The board's "online research" category returns <strong>HTTP 410 Gone</strong> &mdash; it existed once and has been retired.</p>
+<p>These category searches returned <strong>zero listings</strong> in Karachi, Lahore, Islamabad and Rawalpindi alike: research assistant, research analyst, research associate, market research, academic writer. The board's "online research" category returns <strong>HTTP 410 Gone</strong>: it existed once and has been retired.</p>
 
 <p>The broad "researcher" tag returns about <strong>70 listings</strong> across those four cities (Lahore 34, Islamabad 19, Karachi 13, Rawalpindi 4). Reading all of them, roughly <strong>65 are sales, business development, digital marketing or customer support jobs</strong> that were auto-tagged for using the word "research" once in a paragraph. Genuinely research-focused postings: about four.</p>
 
 <p>Those four, with the details from their own pages:</p>
 
 <ul>
-    <li><strong>Clinical research assistant, Islamabad</strong> &mdash; <strong>PKR 100,000 to 250,000 a month</strong>, open to fresh graduates, morning shift, part remote with travel. Clinical trial coordination, participant records, protocol monitoring. Medical terminology required, no specific degree named. Posted 28 August 2026, closes 1 December 2026. This is the best-paid role in the entire set, and it is a health job, not an online one.</li>
-    <li><strong>Medical research writer, Karachi, remote</strong> &mdash; <strong>PKR 50,000 to 90,000 a month</strong>, under a year of experience, morning shift. Literature reviews of peer-reviewed medical sources. MBBS or MD preferred, but a biomedical or health-science background with research experience is accepted. Posted 1 September 2026 &mdash; note that it closed on 30 September 2026, so check for a repost rather than the original.</li>
-    <li><strong>Online research and lead generation executive, Lahore</strong> &mdash; <strong>PKR 30,000 to 40,000 a month</strong>, fresh graduate, morning shift, on site. Web research for prospects and candidates, sourcing from directories, CV formatting, data cleansing, CRM upkeep. Bachelor's required. This is the closest thing on either board to the literal phrase "online research", and it is a business-process outsourcing job.</li>
-    <li><strong>Lead generation assistant, Rawalpindi, part-time remote</strong> &mdash; <strong>PKR 20,000 to 30,000 a month</strong>, one year of experience, evening shift. Market research appears as one duty among many; the core of it is outreach.</li>
+    <li><strong>Clinical research assistant, Islamabad</strong>: <strong>PKR 100,000 to 250,000 a month</strong>, open to fresh graduates, morning shift, part remote with travel. Clinical trial coordination, participant records, protocol monitoring. Medical terminology required, no specific degree named. Posted 28 August 2026, closes 1 December 2026. This is the best-paid role in the entire set, and it is a health job, not an online one.</li>
+    <li><strong>Medical research writer, Karachi, remote</strong>: <strong>PKR 50,000 to 90,000 a month</strong>, under a year of experience, morning shift. Literature reviews of peer-reviewed medical sources. MBBS or MD preferred, but a biomedical or health-science background with research experience is accepted. Posted 1 September 2026: note that it closed on 30 September 2026, so check for a repost rather than the original.</li>
+    <li><strong>Online research and lead generation executive, Lahore</strong>: <strong>PKR 30,000 to 40,000 a month</strong>, fresh graduate, morning shift, on site. Web research for prospects and candidates, sourcing from directories, CV formatting, data cleansing, CRM upkeep. Bachelor's required. This is the closest thing on either board to the literal phrase "online research", and it is a business-process outsourcing job.</li>
+    <li><strong>Lead generation assistant, Rawalpindi, part-time remote</strong>: <strong>PKR 20,000 to 30,000 a month</strong>, one year of experience, evening shift. Market research appears as one duty among many; the core of it is outreach.</li>
 </ul>
 
-<p>The pattern is worth stating plainly, because it decides what you should train for. <strong>The two best-paid research jobs in Pakistan right now are clinical and medical.</strong> The ones that actually match the "online research" wording are commercial sales support, and they pay a third as much. If the medical route is open to you, it is the better one by a wide margin. If it is not, the commercial route is a real job with a real ladder &mdash; see <a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a> and <a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a> for how it is priced and what it demands.</p>
+<p>The pattern is worth stating plainly, because it decides what you should train for. <strong>The two best-paid research jobs in Pakistan right now are clinical and medical.</strong> The ones that actually match the "online research" wording are commercial sales support, and they pay a third as much. If the medical route is open to you, it is the better one by a wide margin. If it is not, the commercial route is a real job with a real ladder: see <a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a> and <a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a> for how it is priced and what it demands.</p>
 
 <p>One caution about the counts above. Both boards run their keyword search in the browser rather than on the server, which means a search that returns nothing has not proved anything. Company pages and individual listings are readable and reliable; search result pages are not. Treat "we found none" as "none found by this route".</p>
 
@@ -344,13 +344,13 @@ JOBHTML;
 
 <p>Strip away the advertising and the work is narrower than it sounds. You are given a question, you find sources that answer it, and you record what you found in a format somebody else can act on. The skill being paid for is not searching. It is <strong>judging a source and recording it consistently</strong>, so that the person downstream does not have to check your work.</p>
 
-<p>On the academic and clinical side that means literature searching in medical databases, reading papers you will not fully understand at first, keeping participant records accurate, and following a protocol exactly. On the commercial side it means confirming a company is real, finding who holds a role, and keeping a spreadsheet clean enough that a salesperson can work from it &mdash; the craft is covered in detail in <a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a>.</p>
+<p>On the academic and clinical side that means literature searching in medical databases, reading papers you will not fully understand at first, keeping participant records accurate, and following a protocol exactly. On the commercial side it means confirming a company is real, finding who holds a role, and keeping a spreadsheet clean enough that a salesperson can work from it: the craft is covered in detail in <a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a>.</p>
 
 <p>Both versions reward the same three habits: writing down where every fact came from, saying "I could not confirm this" instead of guessing, and using the same format every time. Those are also what an employer tests for in a trial task.</p>
 
 <h2>How to Apply</h2>
 
-<p>Search the boards directly rather than following shared links. On <strong>Mustakbil</strong>, <strong>Mustakbil</strong> is server-rendered and shows a salary band on most listings, which makes it the better place to calibrate what the work pays here. Search by the words that appear in real listings &mdash; "research assistant", "clinical research", "research writer", "lead generation" &mdash; rather than by "online research assistant", which the board has retired as a category.</p>
+<p>Search the boards directly rather than following shared links. On <strong>Mustakbil</strong>, <strong>Mustakbil</strong> is server-rendered and shows a salary band on most listings, which makes it the better place to calibrate what the work pays here. Search by the words that appear in real listings, "research assistant", "clinical research", "research writer", "lead generation", rather than by "online research assistant", which the board has retired as a category.</p>
 
 <p>On Rozee, open each listing and read its own posting date and closing date. A closed job there does not always redirect you away; it will also load the full page normally and put a line inside it saying the employer is no longer accepting CVs. A page that opens is not a page that is hiring.</p>
 
@@ -359,7 +359,7 @@ JOBHTML;
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is "online research assistant" a real job?</h3>
-<p>The work is real; the title is not official. No code in the US Standard Occupational Classification is called research assistant or online research assistant, and there is no Occupational Outlook Handbook profile for it. The nearest code is 19-4061 Social Science Research Assistants, where the phrase appears only as an informal alternate title. The label covers two genuinely different jobs &mdash; academic or clinical research support, and commercial sales-support research &mdash; plus a large amount of fake advertising.</p>
+<p>The work is real; the title is not official. No code in the US Standard Occupational Classification is called research assistant or online research assistant, and there is no Occupational Outlook Handbook profile for it. The nearest code is 19-4061 Social Science Research Assistants, where the phrase appears only as an informal alternate title. The label covers two genuinely different jobs, academic or clinical research support, and commercial sales-support research, plus a large amount of fake advertising.</p>
 
 <h3>How much does an online research assistant earn?</h3>
 <p>There is no national average for that title anywhere, because no statistical agency tracks it. For the nearest real occupations in the United States, the May 2025 median hourly wages are $29.81 for Social Science Research Assistants, $33.40 for Survey Researchers and $37.87 for Market Research Analysts. Those describe degree-holding US staff, not remote freelancers. In Pakistan, live listings in September 2026 ran from PKR 20,000 a month for part-time lead research to PKR 100,000 to 250,000 for a clinical research assistant post.</p>
@@ -398,11 +398,11 @@ JOBHTML;
 <h2>More Job Guides</h2>
 
 <ul>
-    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a> &mdash; the commercial research craft in full, and why verification vendors cannot verify what they claim.</li>
-    <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a> &mdash; the quota arithmetic behind list work, and what the free tool tiers actually allow.</li>
-    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a> &mdash; the job this one is most often confused with, and what it pays.</li>
-    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; the adjacent clerical route, including the roles the FTC does name in its scam warnings.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; realistic entry points and what they pay.</li>
+    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a>: the commercial research craft in full, and why verification vendors cannot verify what they claim.</li>
+    <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a>: the quota arithmetic behind list work, and what the free tool tiers actually allow.</li>
+    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a>: the job this one is most often confused with, and what it pays.</li>
+    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a>: the adjacent clerical route, including the roles the FTC does name in its scam warnings.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: realistic entry points and what they pay.</li>
 </ul>
 HTML;
     }

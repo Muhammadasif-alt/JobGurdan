@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Tiler, Plasterer and Mason Jobs Overseas" — the finishing-trades page of
+ * "Tiler, Plasterer and Mason Jobs Overseas": the finishing-trades page of
  * the construction cluster: the Gulf rules, the UK sponsorship position by
  * occupation code, and how the skills are tested before a visa.
  *
@@ -366,12 +366,12 @@ JOBHTML;
 <p>The rest of the construction trades cluster:</p>
 
 <ul>
-    <li><a href="/blog/construction-labourer-jobs-in-dubai-and-saudi-arabia">Construction Labourer Jobs in Dubai and Saudi Arabia</a> &mdash; the helper level, and how to move up to a trade.</li>
-    <li><a href="/blog/how-to-become-a-site-supervisor-or-foreman-abroad">How to Become a Site Supervisor or Foreman Abroad</a> &mdash; the next step for an experienced tradesman.</li>
-    <li><a href="/blog/scaffolder-roofer-and-crane-operator-jobs-abroad">Scaffolder, Roofer and Crane Operator Jobs Abroad</a> &mdash; three more site trades and their shortage-list status.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; the wider Saudi construction market.</li>
-    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a> &mdash; the same Gulf rules for another trade.</li>
-    <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a> &mdash; the Gulf rules for HVAC work.</li>
+    <li><a href="/blog/construction-labourer-jobs-in-dubai-and-saudi-arabia">Construction Labourer Jobs in Dubai and Saudi Arabia</a>: the helper level, and how to move up to a trade.</li>
+    <li><a href="/blog/how-to-become-a-site-supervisor-or-foreman-abroad">How to Become a Site Supervisor or Foreman Abroad</a>: the next step for an experienced tradesman.</li>
+    <li><a href="/blog/scaffolder-roofer-and-crane-operator-jobs-abroad">Scaffolder, Roofer and Crane Operator Jobs Abroad</a>: three more site trades and their shortage-list status.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: the wider Saudi construction market.</li>
+    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a>: the same Gulf rules for another trade.</li>
+    <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a>: the Gulf rules for HVAC work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or employment advice. Visa and labour rules change; confirm the current position on gov.uk, u.ae, mohre.gov.ae and hrsd.gov.sa before accepting an offer or paying anyone.</p>

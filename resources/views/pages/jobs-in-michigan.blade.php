@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
 @section('title', 'Jobs in Michigan: Automotive, Health, Engineering | JobGader')
 @section('meta_description', 'Jobs in Michigan: automotive and EV manufacturing, engineering, healthcare and skilled trades hiring, plus what each sector pays.')
-@section('og_title', 'Jobs in Michigan — Automotive, Health, Engineering | JobGader')
+@section('og_title', 'Jobs in Michigan: Automotive, Health, Engineering | JobGader')
 @section('og_description', 'Jobs in Michigan: automotive and EV manufacturing, engineering, healthcare and skilled trades hiring, plus what each sector pays.')
 @section('canonical', url()->current())
 
@@ -9,7 +9,7 @@
     @include('pages._seo-landing', [
         'headline' => 'Jobs in Michigan',
         'intro' => [
-            'Michigan remains the centre of the American automotive industry, and the shift towards electric vehicles has changed what that means rather than ending it — battery plants, software and new engineering disciplines now sit alongside traditional assembly.',
+            'Michigan remains the centre of the American automotive industry, and the shift towards electric vehicles has changed what that means rather than ending it: battery plants, software and new engineering disciplines now sit alongside traditional assembly.',
             'This page covers what is hiring across Michigan, what the main sectors pay, and where the openings are outside automotive.',
         ],
         'sections' => [
@@ -17,7 +17,7 @@
                 'title' => 'Automotive and What It Became',
                 'paragraphs' => [
                     'Vehicle assembly, parts manufacturing and the engineering base around Detroit and Ann Arbor still employ heavily, and the transition to electric vehicles has brought battery production and vehicle software into the same region.',
-                    'Production operative roles hire without prior experience and train on site. Skilled trades — tool and die, industrial maintenance, controls technicians — are consistently short-supplied and among the best-paid work in the state without a degree.',
+                    'Production operative roles hire without prior experience and train on site. Skilled trades, tool and die, industrial maintenance, controls technicians, are consistently short-supplied and among the best-paid work in the state without a degree.',
                 ],
             ],
             [
@@ -52,7 +52,7 @@
             ],
             [
                 'q' => 'What pays best without a degree in Michigan?',
-                'a' => 'Skilled trades — tool and die, industrial maintenance, controls and CNC machining. All are consistently short-supplied and paid accordingly.',
+                'a' => 'Skilled trades: tool and die, industrial maintenance, controls and CNC machining. All are consistently short-supplied and paid accordingly.',
             ],
             [
                 'q' => 'Do production jobs require experience?',

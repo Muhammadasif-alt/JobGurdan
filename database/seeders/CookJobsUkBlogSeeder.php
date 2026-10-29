@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Cook Jobs in UK" — restaurant, hotel, care home, school and contract
+ * "Cook Jobs in UK": restaurant, hotel, care home, school and contract
  * catering kitchens. It sits beside the cleaner, warehouse and delivery driver
  * guides for the UK, using the same National Living Wage arithmetic, and beside
  * the care worker guide for readers weighing care home kitchens.
@@ -143,7 +143,7 @@ class CookJobsUkBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li><strong>The right to work in the UK</strong> &mdash; cooks and kitchen assistants cannot be sponsored for a Skilled Worker visa</li>
+    <li><strong>The right to work in the UK</strong>: cooks and kitchen assistants cannot be sponsored for a Skilled Worker visa</li>
     <li>Food hygiene training or supervision appropriate to the job, often evidenced by a Level 2 food hygiene certificate</li>
     <li>Knowledge of the 14 allergens and how to label food that contains them</li>
     <li>A DBS check for many school, care home and hospital kitchens</li>
@@ -159,7 +159,7 @@ class CookJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the weekly hours against the salary.</strong> A full-time cook offer below &pound;24,784.50 for a worker aged 21 or over is below the National Living Wage, and a longer week raises the legal floor further.</p>
 
-<p><strong>Note:</strong> pay, hours, training and eligibility are set by each employer and by UK law and immigration rules &mdash; not by JobGader. Confirm the details on the official advertisement before applying.</p>
+<p><strong>Note:</strong> pay, hours, training and eligibility are set by each employer and by UK law and immigration rules, not by JobGader. Confirm the details on the official advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -193,13 +193,13 @@ JOBHTML;
     <li>The care home floor of &pound;20,000 is <strong>&pound;4,784.50 short</strong>.</li>
 </ul>
 
-<p>Kitchens also run long weeks. At <strong>45 hours a week</strong>, the legal minimum comes to <strong>&pound;29,741.40</strong> a year &mdash; above the head cook floor of &pound;26,000 as well. Those published figures only work for a younger worker, an apprentice on the apprentice rate of &pound;8.00 an hour, or someone on fewer hours. So <strong>ask for the weekly hours in writing</strong> and divide the salary by them before you accept.</p>
+<p>Kitchens also run long weeks. At <strong>45 hours a week</strong>, the legal minimum comes to <strong>&pound;29,741.40</strong> a year: above the head cook floor of &pound;26,000 as well. Those published figures only work for a younger worker, an apprentice on the apprentice rate of &pound;8.00 an hour, or someone on fewer hours. So <strong>ask for the weekly hours in writing</strong> and divide the salary by them before you accept.</p>
 
 <h2>You Do Not Legally Need a Food Hygiene Certificate</h2>
 
 <p>Guides say a Level 1 or Level 2 food hygiene certificate is "often expected", and most readers come away thinking it is compulsory. The Food Standards Agency is clear: in the UK, <strong>food handlers don't have to hold a food hygiene certificate to prepare or sell food</strong>.</p>
 
-<p>What the law does require is that food business operators make sure food handlers are <strong>supervised and instructed or trained in food hygiene</strong> in a way that fits their work. A Level 2 certificate is simply the most common way an employer proves that training happened, which is why so many adverts ask for one. It is worth having, and it is cheap and quick to get &mdash; but a kitchen cannot tell you that the law bars you from starting without one.</p>
+<p>What the law does require is that food business operators make sure food handlers are <strong>supervised and instructed or trained in food hygiene</strong> in a way that fits their work. A Level 2 certificate is simply the most common way an employer proves that training happened, which is why so many adverts ask for one. It is worth having, and it is cheap and quick to get, but a kitchen cannot tell you that the law bars you from starting without one.</p>
 
 <p>Two other food rules matter more day to day:</p>
 
@@ -219,12 +219,12 @@ JOBHTML;
 <p>Many recruitment posters for UK kitchen jobs promise "visa sponsorship". For cooks, the Immigration Rules say otherwise, and the answer turns on the occupation code:</p>
 
 <ul>
-    <li><strong>5435 Cooks</strong> &mdash; which includes cook, cook-supervisor, fish fryer and <strong>head cook</strong> &mdash; is listed in <strong>Table 6</strong> of Appendix Skilled Occupations, the codes that are <strong>not eligible</strong> for the Skilled Worker route at all.</li>
+    <li><strong>5435 Cooks</strong>, which includes cook, cook-supervisor, fish fryer and <strong>head cook</strong>, is listed in <strong>Table 6</strong> of Appendix Skilled Occupations, the codes that are <strong>not eligible</strong> for the Skilled Worker route at all.</li>
     <li><strong>9263 Kitchen and catering assistants</strong>, including kitchen porters and fast food crew, are in Table 6 too.</li>
     <li><strong>5434 Chefs</strong> sit in Table 1a. Since 22 July 2025 that table is open only to workers who already held Skilled Worker permission from before that date, and chefs are <strong>not on the Temporary Shortage List</strong> that keeps some lower-skilled codes open.</li>
 </ul>
 
-<p>In plain terms: <strong>a new overseas applicant cannot be sponsored as a cook, kitchen assistant or chef</strong>. Anyone charging you for a sponsored UK kitchen job is selling something the rules do not allow. If you are already in the UK with the right to work &mdash; on a Graduate visa, as a dependant, or with settled or pre-settled status &mdash; you can apply for any of these jobs like any other candidate. Indian nationals aged 18 to 30 can also enter the ballot for the India Young Professionals Scheme, which allows work in any job for up to two years.</p>
+<p>In plain terms: <strong>a new overseas applicant cannot be sponsored as a cook, kitchen assistant or chef</strong>. Anyone charging you for a sponsored UK kitchen job is selling something the rules do not allow. If you are already in the UK with the right to work, on a Graduate visa, as a dependant, or with settled or pre-settled status, you can apply for any of these jobs like any other candidate. Indian nationals aged 18 to 30 can also enter the ballot for the India Young Professionals Scheme, which allows work in any job for up to two years.</p>
 
 <h2>Tips and Service Charges Belong to the Staff</h2>
 
@@ -247,7 +247,7 @@ JOBHTML;
 <p>No qualification is needed to start as a cook. For progression, what counts is training employers recognise:</p>
 
 <ul>
-    <li><strong>A Level 2 food hygiene certificate</strong> &mdash; not compulsory, but the quickest way to evidence training.</li>
+    <li><strong>A Level 2 food hygiene certificate</strong>, not compulsory, but the quickest way to evidence training.</li>
     <li><strong>Apprenticeships</strong> such as commis chef at Level 2 and chef de partie at Level 3, which combine paid work with training.</li>
     <li><strong>Professional cookery diplomas</strong> from awarding bodies such as City &amp; Guilds, which have largely replaced the old NVQ titles.</li>
     <li><strong>Allergen awareness training</strong>, which every kitchen needs and many ask for by name.</li>
@@ -262,11 +262,11 @@ JOBHTML;
 <h2>Where the Jobs Are</h2>
 
 <ul>
-    <li><strong>London and the South East</strong> &mdash; the most restaurants, hotels and contract caterers, and the highest pay.</li>
-    <li><strong>Manchester and the North West</strong> &mdash; a large and growing restaurant scene.</li>
-    <li><strong>Birmingham and the Midlands</strong> &mdash; restaurants, hotels and institutional catering.</li>
-    <li><strong>Edinburgh and Glasgow</strong> &mdash; tourism-driven demand, with seasonal peaks in Edinburgh.</li>
-    <li><strong>Coastal and rural tourist areas</strong> &mdash; seasonal hotel and pub kitchens, some offering live-in accommodation.</li>
+    <li><strong>London and the South East</strong>: the most restaurants, hotels and contract caterers, and the highest pay.</li>
+    <li><strong>Manchester and the North West</strong>: a large and growing restaurant scene.</li>
+    <li><strong>Birmingham and the Midlands</strong>: restaurants, hotels and institutional catering.</li>
+    <li><strong>Edinburgh and Glasgow</strong>: tourism-driven demand, with seasonal peaks in Edinburgh.</li>
+    <li><strong>Coastal and rural tourist areas</strong>: seasonal hotel and pub kitchens, some offering live-in accommodation.</li>
 </ul>
 
 <h2>Frequently Asked Questions</h2>
@@ -326,16 +326,16 @@ JOBHTML;
 <p>Comparing UK routes and hospitality work elsewhere? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London</a> &mdash; another entry-level UK route, and what it really pays.</li>
-    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; care home work, and why the care worker visa route closed.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; why operative roles fail the sponsorship tests too.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; the same National Living Wage arithmetic on the road.</li>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; a UK role that is on the Temporary Shortage List, and the salary it needs.</li>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; a qualified trade with a real certification barrier.</li>
-    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; the sector where sponsorship is genuinely available.</li>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; line cook and kitchen work on the American seasonal visa route.</li>
-    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; the care home and hospital job with a real sponsorship rule, and its 2026 NHS pay.</li>
-    <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a> &mdash; the hotel and care home job next to the kitchen, and the live-in pay rules.</li>
+    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London</a>: another entry-level UK route, and what it really pays.</li>
+    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a>: care home work, and why the care worker visa route closed.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: why operative roles fail the sponsorship tests too.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: the same National Living Wage arithmetic on the road.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: a UK role that is on the Temporary Shortage List, and the salary it needs.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: a qualified trade with a real certification barrier.</li>
+    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a>: the sector where sponsorship is genuinely available.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>: line cook and kitchen work on the American seasonal visa route.</li>
+    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a>: the care home and hospital job with a real sponsorship rule, and its 2026 NHS pay.</li>
+    <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a>: the hotel and care home job next to the kitchen, and the live-in pay rules.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Minimum wage rates, food safety rules, immigration rules and occupation codes change. Confirm the current position with GOV.UK, the Food Standards Agency and the employer before applying or accepting an offer.</p>

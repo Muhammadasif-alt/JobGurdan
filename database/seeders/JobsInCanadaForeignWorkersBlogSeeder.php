@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Jobs in Canada for Foreign Workers" — the entry hub for someone abroad
+ * "Jobs in Canada for Foreign Workers": the entry hub for someone abroad
  * deciding whether Canada is still worth it in 2026: what the levels plan
  * changed, which sectors actually hire, what Job Bank says they pay, the new
  * gatekeeping rules on low-wage jobs and how to spot a scam. The visa
@@ -150,7 +150,7 @@ class JobsInCanadaForeignWorkersBlogSeeder extends Seeder
 <h3>Requirements</h3>
 <ul>
     <li>A genuine job offer from an employer with a positive LMIA, or an LMIA-exempt route such as an intra-company transfer</li>
-    <li>The qualifications and any licence the job needs &mdash; nurses must register with a provincial regulator before they practise</li>
+    <li>The qualifications and any licence the job needs: nurses must register with a provincial regulator before they practise</li>
     <li>No set language test for an LMIA work permit, though permanent residence programs require one</li>
 </ul>
 
@@ -163,7 +163,7 @@ class JobsInCanadaForeignWorkersBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for an LMIA or a job offer.</strong> The employer cannot charge or recover the LMIA fee or any recruitment fee from you, and IRCC says no one can guarantee you a job or a visa.</p>
 
-<p><strong>Note:</strong> LMIA decisions, wages and work permit eligibility are set by employers, ESDC and IRCC &mdash; not by JobGader. Confirm the details on canada.ca before applying.</p>
+<p><strong>Note:</strong> LMIA decisions, wages and work permit eligibility are set by employers, ESDC and IRCC, not by JobGader. Confirm the details on canada.ca before applying.</p>
 JOBHTML;
     }
 
@@ -184,7 +184,7 @@ JOBHTML;
 
 <ul>
     <li><strong>The Temporary Foreign Worker Program (TFWP) target is 60,000 for 2026</strong>, down from 82,000 in the previous plan and falling to 50,000 in 2027 and 2028. Guides that stop here make the door look almost shut.</li>
-    <li><strong>The International Mobility Program (IMP) is far larger, at 170,000.</strong> It covers LMIA-exempt work permits, so the two programs together plan for <strong>230,000 new worker arrivals in 2026</strong> &mdash; part of about 385,000 new temporary residents overall.</li>
+    <li><strong>The International Mobility Program (IMP) is far larger, at 170,000.</strong> It covers LMIA-exempt work permits, so the two programs together plan for <strong>230,000 new worker arrivals in 2026</strong>: part of about 385,000 new temporary residents overall.</li>
     <li><strong>Up to 33,000 workers already in Canada will be moved to permanent residence across 2026 and 2027</strong> under the In-Canada Workers Initiative, weighted toward in-demand jobs in rural and smaller communities.</li>
 </ul>
 
@@ -260,12 +260,12 @@ JOBHTML;
 <h2>How to Apply the Right Way</h2>
 
 <ol>
-    <li><strong>Target high-demand, high-wage sectors</strong> &mdash; healthcare, skilled trades and agriculture see the strongest approvals and the fewest restrictions.</li>
+    <li><strong>Target high-demand, high-wage sectors</strong>: healthcare, skilled trades and agriculture see the strongest approvals and the fewest restrictions.</li>
     <li><strong>Search verified employer postings</strong> rather than agents promising a guaranteed placement.</li>
-    <li><strong>Confirm the employer will handle the LMIA</strong> &mdash; the $1,000 fee is theirs to pay, never yours.</li>
-    <li><strong>Prepare your documents early</strong> &mdash; resume, proof of qualifications, a language test if a PR program needs it, and any licensing for a regulated job.</li>
+    <li><strong>Confirm the employer will handle the LMIA</strong>: the $1,000 fee is theirs to pay, never yours.</li>
+    <li><strong>Prepare your documents early</strong>: resume, proof of qualifications, a language test if a PR program needs it, and any licensing for a regulated job.</li>
     <li><strong>Apply to IRCC for the work permit</strong> once you have the offer and a positive LMIA, within the six-month validity window.</li>
-    <li><strong>Ask about permanent residence</strong> &mdash; Express Entry, a Provincial Nominee Program or the Atlantic Immigration Program, and whether the role fits the In-Canada Workers Initiative.</li>
+    <li><strong>Ask about permanent residence</strong>: Express Entry, a Provincial Nominee Program or the Atlantic Immigration Program, and whether the role fits the In-Canada Workers Initiative.</li>
 </ol>
 
 <h2>How to Avoid Foreign Worker Scams</h2>
@@ -280,7 +280,7 @@ JOBHTML;
 <h2>Frequently Asked Questions</h2>
 
 <h3>Has it become harder to get a job in Canada as a foreign worker in 2026?</h3>
-<p>For general low-wage roles, yes &mdash; reduced targets and new restrictions have tightened the process. For skilled, high-wage and shortage-occupation roles in healthcare, trades and agriculture, demand remains strong.</p>
+<p>For general low-wage roles, yes: reduced targets and new restrictions have tightened the process. For skilled, high-wage and shortage-occupation roles in healthcare, trades and agriculture, demand remains strong.</p>
 
 <h3>Is 60,000 the total number of foreign workers Canada will admit in 2026?</h3>
 <p>No. That is the Temporary Foreign Worker Program target only. The International Mobility Program adds 170,000, so the plan sets 230,000 new worker arrivals in 2026.</p>
@@ -334,20 +334,20 @@ JOBHTML;
 <p>Looking at a specific route into Canada? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; the LMIA in full, the language rules and the routes to permanent residence.</li>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the most-approved LMIA jobs, and which farm program you can use.</li>
-    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; a skilled trade route, and why most welder LMIAs are low-wage.</li>
-    <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a> &mdash; site and resource work, and the tickets each province wants.</li>
-    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; the licence class each province requires, and the rules for foreign drivers.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; an entry-level Canadian job priced by the provincial minimum wage.</li>
-    <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a> &mdash; the allied-health route, its provincial registration and pay.</li>
-    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a> &mdash; federal CSC versus provincial jails, who can apply, training and Job Bank pay.</li>
-    <li><a href="/blog/preschool-teacher-jobs-in-canada">Preschool Teacher Jobs in Canada</a> &mdash; early childhood educator qualifications, provincial registration, wages and how internationally trained educators get recognised.</li>
-    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a> &mdash; every route in compared: employer sponsorship, skilled visas without a job offer, working holidays, the PALM scheme and student work rights.</li>
-    <li><a href="/blog/public-safety-jobs-in-canada">Public Safety Jobs in Canada</a> &mdash; CBSA border officer pay and rules, RCMP and CSC requirements, emergency management jobs and who can apply.</li>
-    <li><a href="/blog/finance-analyst-jobs-in-canada">Finance Analyst Jobs in Canada</a> &mdash; the $43.27 Job Bank median, degree and CFA rules, and where the big banks hire.</li>
-    <li><a href="/blog/how-to-get-a-fleet-driver-job-in-canada">How to Get a Fleet Driver Job in Canada</a> &mdash; AZ and Class 1 licences, provincial training hours, air brakes and Job Bank wages.</li>
-    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a> &mdash; an airline that publishes its ramp pay, and the clearance that gates it.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: the LMIA in full, the language rules and the routes to permanent residence.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: the most-approved LMIA jobs, and which farm program you can use.</li>
+    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a>: a skilled trade route, and why most welder LMIAs are low-wage.</li>
+    <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a>: site and resource work, and the tickets each province wants.</li>
+    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a>: the licence class each province requires, and the rules for foreign drivers.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: an entry-level Canadian job priced by the provincial minimum wage.</li>
+    <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a>: the allied-health route, its provincial registration and pay.</li>
+    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a>: federal CSC versus provincial jails, who can apply, training and Job Bank pay.</li>
+    <li><a href="/blog/preschool-teacher-jobs-in-canada">Preschool Teacher Jobs in Canada</a>: early childhood educator qualifications, provincial registration, wages and how internationally trained educators get recognised.</li>
+    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a>: every route in compared: employer sponsorship, skilled visas without a job offer, working holidays, the PALM scheme and student work rights.</li>
+    <li><a href="/blog/public-safety-jobs-in-canada">Public Safety Jobs in Canada</a>: CBSA border officer pay and rules, RCMP and CSC requirements, emergency management jobs and who can apply.</li>
+    <li><a href="/blog/finance-analyst-jobs-in-canada">Finance Analyst Jobs in Canada</a>: the $43.27 Job Bank median, degree and CFA rules, and where the big banks hire.</li>
+    <li><a href="/blog/how-to-get-a-fleet-driver-job-in-canada">How to Get a Fleet Driver Job in Canada</a>: AZ and Class 1 licences, provincial training hours, air brakes and Job Bank wages.</li>
+    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a>: an airline that publishes its ramp pay, and the clearance that gates it.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. LMIA rules, wage thresholds, unemployment lists and immigration targets change often. Confirm the current position with ESDC and IRCC on canada.ca, or a licensed immigration consultant, before applying or paying any fee.</p>

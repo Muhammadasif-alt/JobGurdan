@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Colleges Hiring Professors in the US" — the institution-type page. The
+ * "Colleges Hiring Professors in the US": the institution-type page. The
  * faculty hub owns the appointment types, the professor employment guide
  * owns the contract and the assistant professor guide owns the search. This
  * page answers the only question the others leave open: which kind of
@@ -95,7 +95,7 @@ class CollegesHiringProfessorsUsBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'US Community Colleges & Four-Year Institutions — Teaching Vacancies (Aggregated)'],
+            ['name' => 'US Community Colleges & Four-Year Institutions: Teaching Vacancies (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'us-colleges-hiring-aggregated']
         );
 
@@ -143,10 +143,10 @@ class CollegesHiringProfessorsUsBlogSeeder extends Seeder
 
 <h3>Who hires on what, and what they pay</h3>
 <ul>
-    <li><strong>State colleges and universities</strong> &mdash; doctorate in hand by the start date. BLS median $96,120</li>
-    <li><strong>Private colleges and universities</strong> &mdash; doctorate, or a terminal professional degree in applied fields. $89,660</li>
-    <li><strong>Local junior colleges</strong> &mdash; master's in the discipline. $81,640</li>
-    <li><strong>State junior colleges</strong> &mdash; master's in the discipline. $68,160</li>
+    <li><strong>State colleges and universities</strong>: doctorate in hand by the start date. BLS median $96,120</li>
+    <li><strong>Private colleges and universities</strong>: doctorate, or a terminal professional degree in applied fields. $89,660</li>
+    <li><strong>Local junior colleges</strong>: master's in the discipline. $81,640</li>
+    <li><strong>State junior colleges</strong>: master's in the discipline. $68,160</li>
 </ul>
 
 <h3>The credential rule, corrected</h3>
@@ -233,7 +233,7 @@ JOBHTML;
     <li><strong>SACSCOC says the same.</strong> Writing in October 2025, the president of the Commission on Colleges and Universities described the master's-plus-18-hours formula as "a historic rule of thumb" that was once a requirement but has "not been for close to two decades", and stated plainly that no federal or state law sets an 18-hour rule.</li>
 </ul>
 
-<p>So the practical position is this: <strong>there is no national credential rule, and the college's own published faculty qualifications policy is the only one that binds.</strong> Many colleges still use 18 graduate hours as their internal benchmark, which is why the figure survives &mdash; but it is their number, not an accreditor's, and some set it differently or use an equivalence route.</p>
+<p>So the practical position is this: <strong>there is no national credential rule, and the college's own published faculty qualifications policy is the only one that binds.</strong> Many colleges still use 18 graduate hours as their internal benchmark, which is why the figure survives, but it is their number, not an accreditor's, and some set it differently or use an equivalence route.</p>
 
 <p>Two things follow:</p>
 
@@ -250,7 +250,7 @@ JOBHTML;
     <li><strong>Doctoral, research-intensive.</strong> Doctorate required, usually in hand at the start date. Hiring turns on publications, external funding and the plausibility of the next five years. Teaching load around two courses a semester.</li>
     <li><strong>Master's institutions.</strong> Doctorate expected, with a real but lighter publication requirement and a three-course load. Often the best balance for someone who wants both research and teaching.</li>
     <li><strong>Baccalaureate and liberal arts colleges.</strong> Doctorate expected, but the teaching demonstration decides the search. Undergraduate research supervision and advising carry weight that they do not at a research university.</li>
-    <li><strong>Professional schools</strong> &mdash; nursing, business, law, education, social work. Licensure and current practice can outweigh publications, and clinical titles are common.</li>
+    <li><strong>Professional schools</strong>: nursing, business, law, education, social work. Licensure and current practice can outweigh publications, and clinical titles are common.</li>
     <li><strong>For-profit and fully online institutions.</strong> Hire heavily, often per course. Check whether the post is employment or piecework before anything else.</li>
 </ul>
 
@@ -342,14 +342,14 @@ JOBHTML;
 <p>These cover the rest of the US academic picture:</p>
 
 <ul>
-    <li><a href="/blog/faculty-careers-in-the-us">Faculty Careers in the US</a> &mdash; every appointment type compared, with the BLS data behind each.</li>
-    <li><a href="/blog/professor-employment-in-the-us">Professor Employment in the US</a> &mdash; the nine-month contract, teaching loads and promotion.</li>
-    <li><a href="/blog/assistant-professor-jobs-in-the-us">Assistant Professor Jobs in the US</a> &mdash; the hiring calendar, the job talk and the offer.</li>
-    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a> &mdash; per-section pay and benefits eligibility in full.</li>
-    <li><a href="/blog/adjunct-faculty-vacancies-in-the-uk">Adjunct Faculty Vacancies in the UK</a> &mdash; where British hourly-paid academic work is advertised.</li>
-    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; the school-level route and state certification.</li>
-    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a> &mdash; teaching work that needs no faculty appointment.</li>
-    <li><a href="/blog/higher-education-degree-jobs-in-the-us">Higher Education Degree Jobs in the US</a> &mdash; administration and advising posts at the same colleges.</li>
+    <li><a href="/blog/faculty-careers-in-the-us">Faculty Careers in the US</a>: every appointment type compared, with the BLS data behind each.</li>
+    <li><a href="/blog/professor-employment-in-the-us">Professor Employment in the US</a>: the nine-month contract, teaching loads and promotion.</li>
+    <li><a href="/blog/assistant-professor-jobs-in-the-us">Assistant Professor Jobs in the US</a>: the hiring calendar, the job talk and the offer.</li>
+    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a>: per-section pay and benefits eligibility in full.</li>
+    <li><a href="/blog/adjunct-faculty-vacancies-in-the-uk">Adjunct Faculty Vacancies in the UK</a>: where British hourly-paid academic work is advertised.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a>: the school-level route and state certification.</li>
+    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a>: teaching work that needs no faculty appointment.</li>
+    <li><a href="/blog/higher-education-degree-jobs-in-the-us">Higher Education Degree Jobs in the US</a>: administration and advising posts at the same colleges.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or employment advice. Pay data is from the US Bureau of Labor Statistics and the American Association of University Professors; faculty credential rules are set by each institution and its accreditor. Confirm requirements with the college before applying.</p>

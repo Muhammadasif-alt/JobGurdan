@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Air Canada Airport Jobs" — a guide that has to tell most of
+ * "How to Apply for Air Canada Airport Jobs": a guide that has to tell most of
  * its likely readers no, and then tell them something useful instead. Air Canada
  * publishes its ramp pay, which is rare and worth having; it also requires a
  * Transport Canada clearance that only an employer can start and that needs five
@@ -147,9 +147,9 @@ class AirCanadaAirportJobsBlogSeeder extends Seeder
 
 <h3>What the work involves</h3>
 <ul>
-    <li>Ramp Agent (Station Attendant) &mdash; baggage and aircraft ground handling, full and part time.</li>
-    <li>Customer Experience Specialist &mdash; check-in, boarding and passenger support in the terminal.</li>
-    <li>Ground Support Equipment Mechanic and Helper &mdash; maintaining airport vehicles and equipment.</li>
+    <li>Ramp Agent (Station Attendant): baggage and aircraft ground handling, full and part time.</li>
+    <li>Customer Experience Specialist: check-in, boarding and passenger support in the terminal.</li>
+    <li>Ground Support Equipment Mechanic and Helper: maintaining airport vehicles and equipment.</li>
 </ul>
 
 <h3>Pay</h3>
@@ -161,7 +161,7 @@ class AirCanadaAirportJobsBlogSeeder extends Seeder
 <h3>Language</h3>
 <p>Requirements vary by station. Quebec City roles require fluent English and French. Toronto and Ottawa adverts ask for English plus one of a list that includes Hindi, Punjabi, Arabic, Mandarin, Cantonese and Spanish. Ramp agent adverts carry no language requirement.</p>
 
-<p>Pay, eligibility, clearance and immigration rules are set by Air Canada, Transport Canada and the Government of Canada &mdash; not by JobGader. Confirm the requirements on the live posting, and never pay anyone to secure a job.</p>
+<p>Pay, eligibility, clearance and immigration rules are set by Air Canada, Transport Canada and the Government of Canada, not by JobGader. Confirm the requirements on the live posting, and never pay anyone to secure a job.</p>
 JOBHTML;
     }
 
@@ -172,7 +172,7 @@ JOBHTML;
 
 <p><strong>If you are reading this from outside Canada with no Canadian status, you cannot be hired into an Air Canada airport job.</strong> Not "it is difficult". Two separate locks, and neither of them opens from abroad.</p>
 
-<p>That is not the end of the article. Air Canada publishes things most airlines hide &mdash; including exactly what a ramp agent earns &mdash; and there is a real route for people already in Canada. Let us go through all of it honestly.</p>
+<p>That is not the end of the article. Air Canada publishes things most airlines hide, including exactly what a ramp agent earns, and there is a real route for people already in Canada. Let us go through all of it honestly.</p>
 
 <figure style="margin:28px 0;">
     <img src="/public/storage/blogs/how-to-apply-for-air-canada-airport-jobs-ramp.jpg" alt="Ground crew loading baggage beside an aircraft on the apron at a Canadian airport" style="width:100%;height:auto;border-radius:10px;">
@@ -194,7 +194,7 @@ JOBHTML;
 <p>Transport Canada's own rules explain why that is decisive:</p>
 
 <ul>
-    <li>The clearance "is a pre-requisite to being issued a Restricted Area Identity Card (RAIC)" &mdash; the pass that lets you go airside at all.</li>
+    <li>The clearance "is a pre-requisite to being issued a Restricted Area Identity Card (RAIC)": the pass that lets you go airside at all.</li>
     <li><strong>"The clearance application process must be initiated by the employer."</strong> You cannot apply for one yourself, in advance, to make yourself more hireable.</li>
     <li>Applicants must provide "verifiable information on the past five years of their work, study and residency", checked with IRCC, the RCMP and CSIS.</li>
     <li>An application is flagged as complex if you have "spent more than six months outside Canada/U.S. in the last 5 years".</li>
@@ -210,23 +210,23 @@ JOBHTML;
 
 <h2>Where the Jobs Actually Are</h2>
 
-<p>The portal moved. Any guide still linking aircanada.taleo.net is out of date &mdash; that address now just redirects.</p>
+<p>The portal moved. Any guide still linking aircanada.taleo.net is out of date: that address now just redirects.</p>
 
 <p style="text-align:center;margin:28px 0;">
     <a href="https://careers.aircanada.com/ca/en/c/airport-operations-jobs" target="_blank" rel="noopener nofollow" style="display:inline-block;background:#b3151a;color:#fff;padding:14px 32px;border-radius:8px;font-weight:700;text-decoration:none;">Open Air Canada Airport Operations Jobs &rarr;</a>
 </p>
 
-<p>The main careers site is careers.aircanada.com/ca/en. When we checked, Air Canada had <strong>57 vacancies company-wide and 13 in Airport Operations</strong> &mdash; a small board, so check it often rather than assuming something is always open.</p>
+<p>The main careers site is careers.aircanada.com/ca/en. When we checked, Air Canada had <strong>57 vacancies company-wide and 13 in Airport Operations</strong>: a small board, so check it often rather than assuming something is always open.</p>
 
 <p>The live airport roles were:</p>
 
 <ul>
-    <li><strong>Ramp Agent (Station Attendant)</strong> &mdash; Dorval, Quebec City, Moncton, Vancouver</li>
-    <li><strong>Bilingual Customer Experience Specialist</strong> &mdash; Toronto, Ottawa, Quebec City</li>
-    <li><strong>Ground Support Equipment Mechanic</strong> and Helper &mdash; Dorval, Vancouver, Toronto</li>
+    <li><strong>Ramp Agent (Station Attendant)</strong>: Dorval, Quebec City, Moncton, Vancouver</li>
+    <li><strong>Bilingual Customer Experience Specialist</strong>: Toronto, Ottawa, Quebec City</li>
+    <li><strong>Ground Support Equipment Mechanic</strong> and Helper: Dorval, Vancouver, Toronto</li>
 </ul>
 
-<p>Two things to note. Several are tagged <strong>"Proactive hiring"</strong>, which means a pipeline requisition rather than a seat waiting for you. And two category names you may have read elsewhere do not exist: there is no "Customer Services (airport &amp; call centre)" category &mdash; Airport Operations and Contact Centre are separate &mdash; and facilities roles sit under <strong>Corporate Real Estate</strong>, not "building and facility maintenance".</p>
+<p>Two things to note. Several are tagged <strong>"Proactive hiring"</strong>, which means a pipeline requisition rather than a seat waiting for you. And two category names you may have read elsewhere do not exist: there is no "Customer Services (airport &amp; call centre)" category, Airport Operations and Contact Centre are separate, and facilities roles sit under <strong>Corporate Real Estate</strong>, not "building and facility maintenance".</p>
 
 <h2>What Does It Pay?</h2>
 
@@ -255,7 +255,7 @@ JOBHTML;
     </tbody>
 </table>
 
-<p>That is Air Canada's own wording, not an estimate. Because these roles are unionised, the progression is contractual rather than discretionary &mdash; the eight-year ladder is written down. Other airport roles carry their own rates on their own adverts, so read the one you are applying to.</p>
+<p>That is Air Canada's own wording, not an estimate. Because these roles are unionised, the progression is contractual rather than discretionary: the eight-year ladder is written down. Other airport roles carry their own rates on their own adverts, so read the one you are applying to.</p>
 
 <p>Relevant if you are aiming at the terminal rather than the ramp: in June 2026 Air Canada ratified a new four-year collective agreement with Unifor covering roughly 6,000 contact centre, customer relations, concierge and airport in-terminal employees, running until 28 February 2030.</p>
 
@@ -263,7 +263,7 @@ JOBHTML;
 
 <p>This is the one part of the picture that genuinely favours South Asian applicants who are already in Canada.</p>
 
-<p>Air Canada's Toronto and Ottawa customer experience adverts ask for English plus one of a specific list &mdash; and that list includes <strong>Hindi, Punjabi, Arabic, Mandarin, Cantonese, Spanish, Japanese, Korean, Italian, Hebrew and Portuguese</strong>. Ottawa's advert does not even require French.</p>
+<p>Air Canada's Toronto and Ottawa customer experience adverts ask for English plus one of a specific list, and that list includes <strong>Hindi, Punjabi, Arabic, Mandarin, Cantonese, Spanish, Japanese, Korean, Italian, Hebrew and Portuguese</strong>. Ottawa's advert does not even require French.</p>
 
 <p>Quebec City is different: there, fluent English <em>and</em> French is a hard requirement. Ramp agent adverts carry no language requirement at all.</p>
 
@@ -365,15 +365,15 @@ JOBHTML;
 <p>If you are working on the Canadian route rather than this one employer, start here:</p>
 
 <ul>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; the immigration route that has to come first.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; employers that actually do sponsor, unlike this one.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; the same skills, a wider set of employers.</li>
-    <li><a href="/blog/how-to-get-a-fleet-driver-job-in-canada">How to Get a Fleet Driver Job in Canada</a> &mdash; shift work with a clearer entry path.</li>
-    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; airport ground work in a market that does recruit from abroad.</li>
-    <li><a href="/blog/how-to-apply-for-telkom-indonesia-it-jobs">How to Apply for Telkom Indonesia IT Jobs</a> &mdash; and the national ID requirement that closes the door first.</li>
-    <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a> &mdash; 622 French vacancies, and how many need a security clearance.</li>
-    <li><a href="/blog/how-to-apply-for-singapore-airlines-cabin-crew-jobs">How to Apply for Singapore Airlines Cabin Crew Jobs</a> &mdash; published pay, a five-year contract, and the service bond most guides omit.</li>
-    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a> &mdash; the five year vetting and counter terrorism check that decide the application.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: the immigration route that has to come first.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: employers that actually do sponsor, unlike this one.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: the same skills, a wider set of employers.</li>
+    <li><a href="/blog/how-to-get-a-fleet-driver-job-in-canada">How to Get a Fleet Driver Job in Canada</a>: shift work with a clearer entry path.</li>
+    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a>: airport ground work in a market that does recruit from abroad.</li>
+    <li><a href="/blog/how-to-apply-for-telkom-indonesia-it-jobs">How to Apply for Telkom Indonesia IT Jobs</a>, and the national ID requirement that closes the door first.</li>
+    <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a>: 622 French vacancies, and how many need a security clearance.</li>
+    <li><a href="/blog/how-to-apply-for-singapore-airlines-cabin-crew-jobs">How to Apply for Singapore Airlines Cabin Crew Jobs</a>: published pay, a five-year contract, and the service bond most guides omit.</li>
+    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a>: the five year vetting and counter terrorism check that decide the application.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Air Canada's own careers portal and job adverts, its careers FAQ and anti-fraud guidance, its newsroom, and Transport Canada's published Transportation Security Clearance requirements, checked on 22 September 2026. Vacancies, pay rates and immigration rules change. Always check the live posting and the official government source before acting, and never pay anyone to secure a job.</p>

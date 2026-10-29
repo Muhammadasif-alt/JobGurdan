@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Healthcare Support Jobs in UK" — the umbrella hub for the family of support
+ * "Healthcare Support Jobs in UK": the umbrella hub for the family of support
  * roles (healthcare assistant, support worker, nursing associate, therapy and
  * maternity support workers), the NHS-versus-social-care split, the Care
  * Certificate and the progression ladder. The healthcare assistant guide owns
@@ -145,7 +145,7 @@ class HealthcareSupportJobsUkBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>NHS trusts, private hospitals, care homes and community services across the UK hire healthcare support workers &mdash; healthcare assistants, support workers, nursing associates and therapy assistants &mdash; to support patients alongside registered nurses and clinical staff.</p>
+<p>NHS trusts, private hospitals, care homes and community services across the UK hire healthcare support workers, healthcare assistants, support workers, nursing associates and therapy assistants, to support patients alongside registered nurses and clinical staff.</p>
 
 <h3>What the work involves</h3>
 <p>Helping patients wash, dress, eat and move, recording observations such as blood pressure, temperature and pulse, keeping the environment safe and clean, offering emotional support, and reporting changes in a patient's condition to nursing staff.</p>
@@ -167,14 +167,14 @@ class HealthcareSupportJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check whether the role is NHS or social care,</strong> the band or hourly rate, and whether the employer funds the Care Certificate and further diplomas.</p>
 
-<p><strong>Note:</strong> pay, bands and training support are set by each employer &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, bands and training support are set by each employer, not by JobGader. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>"Healthcare support" is not one job. It is a family of roles &mdash; healthcare assistant, support worker, nursing associate, therapy and maternity support worker &mdash; that keep the NHS and social care running alongside nurses and doctors. They are among the most accessible ways into healthcare, usually without a degree, and they lead somewhere. But the pay, the employer and even the background check depend on which role and which setting you pick, and there is one recent visa change that overseas readers need to know before they plan around a support role.</p>
+<p>"Healthcare support" is not one job. It is a family of roles, healthcare assistant, support worker, nursing associate, therapy and maternity support worker, that keep the NHS and social care running alongside nurses and doctors. They are among the most accessible ways into healthcare, usually without a degree, and they lead somewhere. But the pay, the employer and even the background check depend on which role and which setting you pick, and there is one recent visa change that overseas readers need to know before they plan around a support role.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/healthcare?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -206,7 +206,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>For the healthcare assistant role specifically &mdash; the most common entry job &mdash; our <a href="/blog/healthcare-assistant-jobs-in-uk">healthcare assistant guide</a> breaks the pay, bands and duties down in detail. This page is the map of the whole family.</p>
+<p>For the healthcare assistant role specifically, the most common entry job, our <a href="/blog/healthcare-assistant-jobs-in-uk">healthcare assistant guide</a> breaks the pay, bands and duties down in detail. This page is the map of the whole family.</p>
 
 <h2>NHS or Social Care: The Split That Changes Everything</h2>
 
@@ -214,7 +214,7 @@ JOBHTML;
 
 <ul>
     <li><strong>The NHS</strong> pays on the Agenda for Change bands, has a national pay deal, and offers a pension and structured progression. HCAs, nursing associates and therapy assistants sit here.</li>
-    <li><strong>Social care</strong> &mdash; care homes and home care run by councils and private providers &mdash; pays hourly rates set by each employer, regulated by the Care Quality Commission rather than employed by the NHS. Care assistant roles sit here.</li>
+    <li><strong>Social care</strong>, care homes and home care run by councils and private providers, pays hourly rates set by each employer, regulated by the Care Quality Commission rather than employed by the NHS. Care assistant roles sit here.</li>
 </ul>
 
 <p>They share skills and often staff move between them, but the pay, the contract and the regulator are not the same. Read which one a listing is before you compare its pay to another.</p>
@@ -241,7 +241,7 @@ JOBHTML;
 </div>
 
 <ul>
-    <li><strong>Band 2 is a single spine point now,</strong> not a range &mdash; the widely quoted "GBP 22,000 to GBP 24,000" band is a few years out of date.</li>
+    <li><strong>Band 2 is a single spine point now,</strong> not a range: the widely quoted "GBP 22,000 to GBP 24,000" band is a few years out of date.</li>
     <li><strong>Scotland pays its HCAs more</strong> than England on the equivalent bands, and Wales and Northern Ireland negotiate their own deals.</li>
     <li><strong>Social care and agency pay differ,</strong> sometimes with a higher hourly rate but less security than an NHS contract, and London weighting lifts NHS pay in the capital.</li>
     <li><strong>Nights, weekends and bank holidays</strong> are paid at enhanced rates on NHS contracts.</li>
@@ -264,11 +264,11 @@ JOBHTML;
     <li><strong>The Level 2 Adult Social Care Certificate qualification.</strong> A newer, Ofqual-regulated qualification built on the same standards. It coexists with the Care Certificate rather than replacing it, and is becoming the preferred route in England.</li>
 </ul>
 
-<p>To progress, many workers take a <strong>Level 2 or Level 3 Diploma in Adult Care</strong>. Note the naming: the old "NVQ" and "QCF" labels are gone &mdash; QCF was replaced by the Regulated Qualifications Framework (RQF), so the current award is the Diploma in Adult Care (RQF), not an "NVQ/QCF in Health and Social Care".</p>
+<p>To progress, many workers take a <strong>Level 2 or Level 3 Diploma in Adult Care</strong>. Note the naming: the old "NVQ" and "QCF" labels are gone: QCF was replaced by the Regulated Qualifications Framework (RQF), so the current award is the Diploma in Adult Care (RQF), not an "NVQ/QCF in Health and Social Care".</p>
 
 <h2>DBS: The Check Depends on the Nation</h2>
 
-<p>Every support role with patient contact needs a criminal record check, because it is regulated activity. It is an <strong>enhanced DBS check</strong> in England and Wales, a <strong>PVG scheme</strong> membership in Scotland, and an <strong>AccessNI</strong> check in Northern Ireland. In every case the <strong>employer arranges and pays for it</strong> as part of onboarding &mdash; it is not something you buy yourself before applying, and anyone asking you to pay upfront for a "mandatory DBS" to get a job is a warning sign.</p>
+<p>Every support role with patient contact needs a criminal record check, because it is regulated activity. It is an <strong>enhanced DBS check</strong> in England and Wales, a <strong>PVG scheme</strong> membership in Scotland, and an <strong>AccessNI</strong> check in Northern Ireland. In every case the <strong>employer arranges and pays for it</strong> as part of onboarding: it is not something you buy yourself before applying, and anyone asking you to pay upfront for a "mandatory DBS" to get a job is a warning sign.</p>
 
 <h2>Can an Overseas Applicant Be Sponsored?</h2>
 
@@ -279,14 +279,14 @@ JOBHTML;
 <ul>
     <li>A social care <strong>care assistant</strong> role can no longer bring you to the UK from abroad on that route.</li>
     <li>The Health and Care Worker visa itself <strong>remains open for other eligible health roles</strong>, such as registered nurses, nursing associates and doctors, on the eligible occupation list.</li>
-    <li>An NHS healthcare support worker post is primarily a <strong>domestic entry job</strong>. Whether any specific vacancy can be sponsored depends on its exact occupation code being on the eligible list &mdash; do not assume a support role is a guaranteed visa route.</li>
+    <li>An NHS healthcare support worker post is primarily a <strong>domestic entry job</strong>. Whether any specific vacancy can be sponsored depends on its exact occupation code being on the eligible list: do not assume a support role is a guaranteed visa route.</li>
 </ul>
 
 <p>For the wider visa picture, our <a href="/blog/jobs-in-uk-for-foreigners">jobs in UK for foreigners guide</a> sets out the Skilled Worker thresholds and the routes that are still open.</p>
 
 <h2>Is Demand Still Strong?</h2>
 
-<p>Yes, though the gap is narrowing. Skills for Care's State of the Adult Social Care Sector 2025 report put the vacancy rate at <strong>6.2 per cent</strong>, about 96,000 vacant posts on any given day &mdash; down from 7.0 per cent (around 108,000) the year before, and the lowest since 2015/16. NHS support roles are recruited year-round. Demand is real, but partly because turnover is high, so read the terms of any role rather than assuming security.</p>
+<p>Yes, though the gap is narrowing. Skills for Care's State of the Adult Social Care Sector 2025 report put the vacancy rate at <strong>6.2 per cent</strong>, about 96,000 vacant posts on any given day: down from 7.0 per cent (around 108,000) the year before, and the lowest since 2015/16. NHS support roles are recruited year-round. Demand is real, but partly because turnover is high, so read the terms of any role rather than assuming security.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/healthcare-support-jobs-in-uk-care.jpg"
@@ -299,10 +299,10 @@ JOBHTML;
 <p>Healthcare support is one of the clearest routes into a clinical career. A common path runs:</p>
 
 <ol>
-    <li><strong>Healthcare assistant (Band 2)</strong> &mdash; the entry role.</li>
-    <li><strong>Senior HCA or Band 3</strong> &mdash; more responsibility and a higher band.</li>
-    <li><strong>Nursing associate (Band 4)</strong> &mdash; a role regulated by the Nursing and Midwifery Council, trained through the Nursing Associate Apprenticeship, that sits between HCA and registered nurse.</li>
-    <li><strong>Registered nurse</strong> &mdash; via a Registered Nurse Degree Apprenticeship (RNDA), which your employer supports while you study part-time, or a shortened route from nursing associate.</li>
+    <li><strong>Healthcare assistant (Band 2)</strong>: the entry role.</li>
+    <li><strong>Senior HCA or Band 3</strong>: more responsibility and a higher band.</li>
+    <li><strong>Nursing associate (Band 4)</strong>: a role regulated by the Nursing and Midwifery Council, trained through the Nursing Associate Apprenticeship, that sits between HCA and registered nurse.</li>
+    <li><strong>Registered nurse</strong>: via a Registered Nurse Degree Apprenticeship (RNDA), which your employer supports while you study part-time, or a shortened route from nursing associate.</li>
 </ol>
 
 <p>Allied health assistants can progress toward therapy roles the same way. Many NHS trusts actively fund staff who want to train as nurses, which is why support work is treated as a first step rather than a dead end.</p>
@@ -342,7 +342,7 @@ JOBHTML;
 <h2>Frequently Asked Questions</h2>
 
 <h3>What is a healthcare support worker?</h3>
-<p>An umbrella term for support roles in health and social care &mdash; healthcare assistants, support workers, nursing associates and therapy assistants &mdash; who help patients alongside nurses and clinical staff.</p>
+<p>An umbrella term for support roles in health and social care, healthcare assistants, support workers, nursing associates and therapy assistants, who help patients alongside nurses and clinical staff.</p>
 
 <h3>How much do healthcare support jobs pay in the UK?</h3>
 <p>For NHS roles in England in 2026/27, Band 2 pays GBP 25,272, Band 3 GBP 25,760 to GBP 27,476 and Band 4 GBP 28,392 to GBP 31,157. Scotland pays more, and social care pay is hourly and set by the employer.</p>
@@ -396,15 +396,15 @@ JOBHTML;
 <p>Working out the wider UK picture? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/hospital-support-worker-jobs-in-the-uk">Hospital Support Worker Jobs in the UK</a> &mdash; the acute hospital end of the same workforce, band by band.</li>
-    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; the HCA pay bands, nights and weekends, and the check by nation, in depth.</li>
-    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; the social care side and what the visa change means.</li>
-    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; the wider NHS and clinical picture.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the Skilled Worker thresholds and the routes still open.</li>
-    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; another public-sector route, with its own pay scale.</li>
-    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a> &mdash; a genuinely sponsorable aged care route and its real award pay.</li>
-    <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a> &mdash; why GP practice pay is not NHS pay, and what care navigation added to the job.</li>
-    <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a> &mdash; the Care Certificate, the ward band rates and the route to registered nurse.</li>
+    <li><a href="/blog/hospital-support-worker-jobs-in-the-uk">Hospital Support Worker Jobs in the UK</a>: the acute hospital end of the same workforce, band by band.</li>
+    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a>: the HCA pay bands, nights and weekends, and the check by nation, in depth.</li>
+    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a>: the social care side and what the visa change means.</li>
+    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a>: the wider NHS and clinical picture.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the Skilled Worker thresholds and the routes still open.</li>
+    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a>: another public-sector route, with its own pay scale.</li>
+    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a>: a genuinely sponsorable aged care route and its real award pay.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a>: why GP practice pay is not NHS pay, and what care navigation added to the job.</li>
+    <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a>: the Care Certificate, the ward band rates and the route to registered nurse.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers or immigration advice. NHS pay scales, the Care Certificate, qualification names and visa rules change and differ across England, Scotland, Wales and Northern Ireland. Confirm the current details with NHS Employers, Skills for Care, gov.uk and the employer before applying.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Help Desk Technician Jobs in USA" — computer user support, measured by the
+ * "Help Desk Technician Jobs in USA": computer user support, measured by the
  * BLS as 15-1232. Most readers want a first IT job, so the outlook and the
  * certification get as much space as the pay.
  *
@@ -158,7 +158,7 @@ class HelpDeskTechnicianJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check which A+ exam version a course teaches.</strong> The current exams are 220-1201 and 220-1202.</p>
 
-<p><strong>Note:</strong> pay, certification and security requirements are set by each employer and contract &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, certification and security requirements are set by each employer and contract, not by JobGader. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 
@@ -253,9 +253,9 @@ JOBHTML;
 <h2>Where Help Desk Careers Lead</h2>
 
 <ul>
-    <li><strong>Network support and administration</strong> &mdash; the median rises from $61,860 to $76,220 for network support specialists.</li>
-    <li><strong>Systems and cloud administration</strong> &mdash; the infrastructure behind the tickets you resolve.</li>
-    <li><strong>Security operations</strong> &mdash; many analysts start by handling phishing reports and account lockouts at the help desk.</li>
+    <li><strong>Network support and administration</strong>: the median rises from $61,860 to $76,220 for network support specialists.</li>
+    <li><strong>Systems and cloud administration</strong>: the infrastructure behind the tickets you resolve.</li>
+    <li><strong>Security operations</strong>: many analysts start by handling phishing reports and account lockouts at the help desk.</li>
 </ul>
 
 <h2>Frequently Asked Questions</h2>
@@ -315,20 +315,20 @@ JOBHTML;
 <p>Planning the next step in IT? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; the same first-line work in Britain, priced against the UK legal minimum.</li>
-    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a> &mdash; where many help desk careers go next.</li>
-    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; the security route, and the clearance rules in full.</li>
-    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a> &mdash; the infrastructure work moving off the desk.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; support skills without the technical escalation.</li>
-    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; another entry-level office role facing automation.</li>
-    <li><a href="/blog/database-administrator-jobs-in-usa">Database Administrator Jobs in USA</a> &mdash; a specialism to aim at from the service desk.</li>
-    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a> &mdash; how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
-    <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a> &mdash; where help desk experience leads abroad, and the Microsoft product names employers now use.</li>
-    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a> &mdash; remote work pay, taxes and who covers your equipment.</li>
-    <li><a href="/blog/entry-level-it-jobs">Entry Level IT Jobs</a> &mdash; every first IT job compared, and why support jobs are projected to shrink.</li>
-    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; general customer service pay and why technical support is the better-paid path.</li>
-    <li><a href="/blog/how-to-apply-for-microsoft-it-support-jobs-in-the-usa">How to Apply for Microsoft IT Support Jobs in the USA</a> &mdash; what the largest employer in this field actually pays, and why it will not sponsor you.</li>
-    <li><a href="/blog/how-to-apply-for-google-data-center-jobs-in-the-usa">How to Apply for Google Data Center Jobs in the USA</a> &mdash; technician work Google prices openly, with no sponsorship on any US posting.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: the same first-line work in Britain, priced against the UK legal minimum.</li>
+    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a>: where many help desk careers go next.</li>
+    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a>: the security route, and the clearance rules in full.</li>
+    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a>: the infrastructure work moving off the desk.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: support skills without the technical escalation.</li>
+    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a>: another entry-level office role facing automation.</li>
+    <li><a href="/blog/database-administrator-jobs-in-usa">Database Administrator Jobs in USA</a>: a specialism to aim at from the service desk.</li>
+    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a>: how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
+    <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a>: where help desk experience leads abroad, and the Microsoft product names employers now use.</li>
+    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a>: remote work pay, taxes and who covers your equipment.</li>
+    <li><a href="/blog/entry-level-it-jobs">Entry Level IT Jobs</a>: every first IT job compared, and why support jobs are projected to shrink.</li>
+    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a>: general customer service pay and why technical support is the better-paid path.</li>
+    <li><a href="/blog/how-to-apply-for-microsoft-it-support-jobs-in-the-usa">How to Apply for Microsoft IT Support Jobs in the USA</a>: what the largest employer in this field actually pays, and why it will not sponsor you.</li>
+    <li><a href="/blog/how-to-apply-for-google-data-center-jobs-in-the-usa">How to Apply for Google Data Center Jobs in the USA</a>: technician work Google prices openly, with no sponsorship on any US posting.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers or financial advice. Pay, projections, certification exams and contract requirements change and differ between employers and states. Confirm the current position with the employer, the BLS and CompTIA before applying or paying for training.</p>

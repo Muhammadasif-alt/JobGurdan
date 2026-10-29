@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Retail Jobs in USA" — the largest entry-level American job market, written
+ * "Retail Jobs in USA": the largest entry-level American job market, written
  * around the fact that makes a national average almost meaningless here: the
  * legal wage floor for the same job ranges from $7.25 to $18.40 depending on
  * the state.
@@ -30,8 +30,8 @@ use Illuminate\Support\Str;
  *
  * 3. It never mentions the federal minimum wage, which is the single most
  *    important number in American retail pay. It has been $7.25 since 24
- *    July 2009 — the longest period without an increase since the Fair
- *    Labor Standards Act was enacted in 1938 — while 30 states and the
+ *    July 2009: the longest period without an increase since the Fair
+ *    Labor Standards Act was enacted in 1938, while 30 states and the
  *    District of Columbia set higher floors, up to $18.40.
  *
  * 4. It lists the highest paying metros without noting that those cities
@@ -145,7 +145,7 @@ class RetailJobsUsaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li>No degree, and for most associate roles no prior experience &mdash; many listings say so outright</li>
+    <li>No degree, and for most associate roles no prior experience: many listings say so outright</li>
     <li>Basic point-of-sale, handheld scanner and smartphone competence</li>
     <li>Availability for evenings, weekends and holiday peak periods</li>
     <li>Physical ability to stand, lift and move stock for a full shift</li>
@@ -155,7 +155,7 @@ class RetailJobsUsaBlogSeeder extends Seeder
 
 <h3>What it pays, and what sets it</h3>
 <ul>
-    <li><strong>The measured medians</strong> are <strong>$17.03 an hour for retail salespersons</strong> and <strong>$14.99 an hour for cashiers</strong> &mdash; two different occupations often advertised under one heading</li>
+    <li><strong>The measured medians</strong> are <strong>$17.03 an hour for retail salespersons</strong> and <strong>$14.99 an hour for cashiers</strong>: two different occupations often advertised under one heading</li>
     <li><strong>The federal minimum wage is $7.25</strong> and has not changed since 2009, but <strong>30 states and DC set higher floors</strong>, reaching <strong>$18.40</strong> in the District of Columbia</li>
     <li><strong>Full-time roles at national chains</strong> commonly add merchandise discounts, retirement plan matching and education benefits, which are worth pricing rather than skimming</li>
 </ul>
@@ -163,7 +163,7 @@ class RetailJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Look up your state and city minimum wage before you judge any advertised rate.</strong> For this occupation the legal floor is doing most of the work, and the same hourly number is a good offer in one state and the bare minimum in another.</p>
 
-<p><strong>Note:</strong> pay, scheduling, benefits and eligibility are set by each employer and by state law &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, scheduling, benefits and eligibility are set by each employer and by state law, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -183,11 +183,11 @@ JOBHTML;
 <p>Here is what the major salary platforms say a retail sales associate earns, all at once, all describing the same job title:</p>
 
 <ul>
-    <li>Indeed &mdash; <strong>$16.31</strong> an hour</li>
-    <li>Glassdoor &mdash; about <strong>$20.00</strong> an hour, or $40,632 a year</li>
-    <li>Salary.com &mdash; about <strong>$19.00</strong> an hour, or $39,500 a year</li>
-    <li>ZipRecruiter &mdash; about <strong>$15.67</strong> an hour, or $32,589 a year</li>
-    <li>PayScale, entry level &mdash; <strong>$12.72 to $14.52</strong> an hour</li>
+    <li>Indeed: <strong>$16.31</strong> an hour</li>
+    <li>Glassdoor: about <strong>$20.00</strong> an hour, or $40,632 a year</li>
+    <li>Salary.com: about <strong>$19.00</strong> an hour, or $39,500 a year</li>
+    <li>ZipRecruiter: about <strong>$15.67</strong> an hour, or $32,589 a year</li>
+    <li>PayScale, entry level: <strong>$12.72 to $14.52</strong> an hour</li>
 </ul>
 
 <p>The lowest and the highest of those are <strong>57 per cent apart</strong>. Presented as a table, they invite you to average them. Do not. A set of estimates that far apart is not five measurements of one thing; it is five different samples of a job title that covers a commission-earning specialty salesperson and a big-box weekend cashier equally.</p>
@@ -195,21 +195,21 @@ JOBHTML;
 <p>The measured figures come from the Bureau of Labor Statistics, and the first thing they do is separate two jobs the table above merges:</p>
 
 <ul>
-    <li><strong>Retail salespersons &mdash; a median of $17.03 an hour</strong> (May 2025).</li>
-    <li><strong>Cashiers &mdash; a median of $14.99 an hour</strong> (May 2024).</li>
+    <li><strong>Retail salespersons: a median of $17.03 an hour</strong> (May 2025).</li>
+    <li><strong>Cashiers: a median of $14.99 an hour</strong> (May 2024).</li>
 </ul>
 
 <p>That is a <strong>$2.04 an hour</strong> difference between two roles routinely advertised in the same posting and applied for interchangeably. Over a full-time year it is worth more than $4,000. If a listing is titled "Retail Sales Associate" but the description is register work, you are looking at the lower of those two markets.</p>
 
 <h2>The Number Every Retail Guide Leaves Out</h2>
 
-<p>The federal minimum wage in the United States is <strong>$7.25 an hour</strong>. It has not changed since <strong>24 July 2009</strong> &mdash; the longest stretch without an increase since the Fair Labor Standards Act was enacted in 1938.</p>
+<p>The federal minimum wage in the United States is <strong>$7.25 an hour</strong>. It has not changed since <strong>24 July 2009</strong>: the longest stretch without an increase since the Fair Labor Standards Act was enacted in 1938.</p>
 
 <p>That number does not describe what most people earn, because <strong>30 states and the District of Columbia set higher floors of their own</strong>, and dozens of cities set higher ones again. The District of Columbia is the highest at <strong>$18.40</strong> an hour, with Washington state at <strong>$17.13</strong> and Connecticut at <strong>$16.94</strong>.</p>
 
 <p>Stop and look at what that means. <strong>The legal minimum in Washington, D.C. is higher than the national median wage for retail salespersons.</strong> Someone earning the bare legal minimum in one part of the country is earning more than half of everyone doing the same job nationwide.</p>
 
-<p>So a "national average" for American retail pay is averaging across a country where the floor itself ranges from $7.25 to $18.40. It is not a useful number for any individual, and it is why the five platform estimates above disagree so violently &mdash; they are weighting different states.</p>
+<p>So a "national average" for American retail pay is averaging across a country where the floor itself ranges from $7.25 to $18.40. It is not a useful number for any individual, and it is why the five platform estimates above disagree so violently: they are weighting different states.</p>
 
 <p><strong>The only figure that matters to you is your state's, and then your city's.</strong> Look it up before you read another salary table. It will tell you more in ten seconds than the rest of this section.</p>
 
@@ -225,7 +225,7 @@ JOBHTML;
 
 <p>Partly. But look at what those three cities have in common: all sit in states or cities with minimum wages far above the federal floor. The ranking is substantially a ranking of <strong>legal minimums</strong>, not of employer generosity, and the premium above the local floor in those cities is much smaller than the gap to the national average suggests.</p>
 
-<p>Which changes the practical advice. Moving to a high-minimum city for a retail job raises your nominal hourly rate and raises your rent by considerably more. The genuine reason to work retail in an expensive metro is the density of employers and the speed of finding a second job or a better one &mdash; not the headline rate.</p>
+<p>Which changes the practical advice. Moving to a high-minimum city for a retail job raises your nominal hourly rate and raises your rent by considerably more. The genuine reason to work retail in an expensive metro is the density of employers and the speed of finding a second job or a better one, not the headline rate.</p>
 
 <h2>Cashier Is Declining. Sales Associate Is Not.</h2>
 
@@ -235,15 +235,15 @@ JOBHTML;
 
 <p><strong>Cashiers</strong> are projected to <strong>decline about 10 per cent from 2024 to 2034</strong>, as self-checkout and automated payment absorb the work.</p>
 
-<p>And yet cashiers still show around <strong>542,600 projected openings every year</strong> &mdash; every one of them from replacing people who leave the occupation or the workforce entirely. That is the shape of a shrinking job that is nevertheless extremely easy to get: enormous churn, no growth.</p>
+<p>And yet cashiers still show around <strong>542,600 projected openings every year</strong>: every one of them from replacing people who leave the occupation or the workforce entirely. That is the shape of a shrinking job that is nevertheless extremely easy to get: enormous churn, no growth.</p>
 
-<p>Both facts are useful together. You can get hired quickly, and you should not plan to still be doing register work in a decade. The durable direction inside retail is towards the parts that need judgement &mdash; specialty and commission sales, inventory and merchandising, and supervision &mdash; which is also where the pay is. Store management roles are the visible ladder, and they screen on three or more years of experience and point-of-sale system knowledge.</p>
+<p>Both facts are useful together. You can get hired quickly, and you should not plan to still be doing register work in a decade. The durable direction inside retail is towards the parts that need judgement, specialty and commission sales, inventory and merchandising, and supervision, which is also where the pay is. Store management roles are the visible ladder, and they screen on three or more years of experience and point-of-sale system knowledge.</p>
 
 <h2>"Flexible Scheduling" Is the Industry's Best Feature and Worst Problem</h2>
 
 <p>Every guide lists flexible scheduling among the benefits. In retail, the exact same property is the most common complaint people have about the work, and which one you get depends entirely on the employer.</p>
 
-<p><strong>Flexible for you</strong> means you can state your availability and the schedule respects it &mdash; the reason retail suits students, carers and people holding two jobs.</p>
+<p><strong>Flexible for you</strong> means you can state your availability and the schedule respects it: the reason retail suits students, carers and people holding two jobs.</p>
 
 <p><strong>Flexible for them</strong> means variable hours week to week, shifts posted with little notice, and being sent home early when the store is quiet. That version makes it impossible to hold a second job, budget a month, or arrange childcare.</p>
 
@@ -271,7 +271,7 @@ JOBHTML;
 <p>At full-time national chains the non-wage package can be a meaningful share of what the job is worth, and it is the part applicants skim:</p>
 
 <ul>
-    <li><strong>Retirement plan matching.</strong> Free money with a vesting schedule attached &mdash; ask what the match is and when it vests.</li>
+    <li><strong>Retirement plan matching.</strong> Free money with a vesting schedule attached: ask what the match is and when it vests.</li>
     <li><strong>Employee discount.</strong> Worth real money if you shop there anyway and nothing at all if you do not.</li>
     <li><strong>Tuition and education programmes.</strong> Several large chains fund study. On a $17 an hour job this is frequently the single most valuable line in the offer.</li>
     <li><strong>Sales incentives.</strong> Genuine in specialty and commission-driven roles. Ask what the average associate actually earns from it, not the top performer.</li>
@@ -283,7 +283,7 @@ JOBHTML;
 <p>The measured medians are $17.03 an hour for retail salespersons and $14.99 for cashiers. Published platform averages range from $12.72 to $20.00, a 57 per cent spread, because they weight states and job types differently.</p>
 
 <h3>What is the federal minimum wage for retail workers?</h3>
-<p>$7.25 an hour, unchanged since 24 July 2009 &mdash; the longest period without an increase since 1938. But 30 states and the District of Columbia set higher floors, up to $18.40 in DC.</p>
+<p>$7.25 an hour, unchanged since 24 July 2009: the longest period without an increase since 1938. But 30 states and the District of Columbia set higher floors, up to $18.40 in DC.</p>
 
 <h3>Why do salary sites disagree so much about retail pay?</h3>
 <p>Because they are averaging across a country where the legal floor ranges from $7.25 to $18.40, and across a job title covering both commission specialty sales and part-time register work.</p>
@@ -298,7 +298,7 @@ JOBHTML;
 <p>New York, Chicago and Minneapolis lead published lists, largely because their local minimum wages are high. The premium above the local floor is smaller than the gap to the national average implies.</p>
 
 <h3>Do I need experience for a retail job?</h3>
-<p>Usually not for associate roles &mdash; many listings state no experience required. Store management is the exception, typically asking for three or more years plus point-of-sale system experience.</p>
+<p>Usually not for associate roles: many listings state no experience required. Store management is the exception, typically asking for three or more years plus point-of-sale system experience.</p>
 
 <h3>Is retail scheduling actually flexible?</h3>
 <p>It depends whether it is flexible for you or for the employer. Ask how far ahead the schedule is posted, how much weekly hours vary, and whether shifts get cut on the day.</p>
@@ -324,7 +324,7 @@ JOBHTML;
 <p>The real pay step in retail, screened on three or more years of experience and point-of-sale knowledge.</p>
 
 <h3>Minimum wage by state</h3>
-<p>$7.25 federally since 2009, with 30 states and DC higher, up to $18.40 &mdash; more than double the federal floor.</p>
+<p>$7.25 federally since 2009, with 30 states and DC higher, up to $18.40: more than double the federal floor.</p>
 
 <h3>Walmart and Target jobs hiring</h3>
 <p>Large chains post across many states at once. Price the retirement match and any tuition programme, not just the hourly rate.</p>
@@ -334,21 +334,21 @@ JOBHTML;
 <p>Comparing entry-level routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; the other big American entry point, and the projection you should see first.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; the same customer-facing work under provincial wage floors.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; the work-from-home version of retail's customer skills.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest answer on entry-level US sponsorship.</li>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; hospitality, and the seasonal visa routes into it.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; manual work and the visa categories that reach it.</li>
-    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a> &mdash; the same seniority level in a legally very different labour market.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; British entry-level work and its employment-status trap.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; the other fast American entry route, and what your own car really costs per mile.</li>
-    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; the checkout side of the store, the California fast food rate and the till shortage rule.</li>
-    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; the hiring process itself, from the online assessment to what each big chain starts you on.</li>
-    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; the same shop-floor work under an award that sets minimum rates by job level.</li>
-    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a> &mdash; what Walmart actually pays, the benefits most guides skip, and the age rules.</li>
-    <li><a href="/blog/how-to-apply-for-home-depot-retail-jobs-in-the-usa">How to Apply for Home Depot Retail Jobs in the USA</a> &mdash; store pay Home Depot prints itself, and the route from hourly to store leader.</li>
-    <li><a href="/blog/how-to-apply-for-starbucks-barista-jobs-in-the-usa">How to Apply for Starbucks Barista Jobs in the USA</a> &mdash; the hours threshold that decides whether the benefits are yours.</li>
+    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a>: the other big American entry point, and the projection you should see first.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: the same customer-facing work under provincial wage floors.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: the work-from-home version of retail's customer skills.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the honest answer on entry-level US sponsorship.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>: hospitality, and the seasonal visa routes into it.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: manual work and the visa categories that reach it.</li>
+    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a>: the same seniority level in a legally very different labour market.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: British entry-level work and its employment-status trap.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: the other fast American entry route, and what your own car really costs per mile.</li>
+    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a>: the checkout side of the store, the California fast food rate and the till shortage rule.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a>: the hiring process itself, from the online assessment to what each big chain starts you on.</li>
+    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a>: the same shop-floor work under an award that sets minimum rates by job level.</li>
+    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a>: what Walmart actually pays, the benefits most guides skip, and the age rules.</li>
+    <li><a href="/blog/how-to-apply-for-home-depot-retail-jobs-in-the-usa">How to Apply for Home Depot Retail Jobs in the USA</a>: store pay Home Depot prints itself, and the route from hourly to store leader.</li>
+    <li><a href="/blog/how-to-apply-for-starbucks-barista-jobs-in-the-usa">How to Apply for Starbucks Barista Jobs in the USA</a>: the hours threshold that decides whether the benefits are yours.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, legal or immigration advice. Minimum wages, wage survey figures and employment projections change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics, your state labor department and the employer's own advertisement before applying.</p>

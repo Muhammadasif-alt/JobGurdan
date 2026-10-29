@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Get an ESL Teaching Job in Japan" — a guide for a graduate, usually
+ * "How to Get an ESL Teaching Job in Japan": a guide for a graduate, usually
  * a native English speaker, choosing between the JET Programme, a dispatch
  * ALT contract and an eikaiwa, and trying to work out whether their degree
  * and nationality will get them a visa. The visa rules decide who can apply at
@@ -180,7 +180,7 @@ class EslTeacherJobsJapanBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> visa eligibility, processing times and fees are set by the Immigration Services Agency of Japan, and JET terms by the JET Programme &mdash; not by JobGader. Confirm the current position with the employer and on the agency's website before applying.</p>
+<p><strong>Note:</strong> visa eligibility, processing times and fees are set by the Immigration Services Agency of Japan, and JET terms by the JET Programme, not by JobGader. Confirm the current position with the employer and on the agency's website before applying.</p>
 JOBHTML;
     }
 
@@ -241,14 +241,14 @@ JOBHTML;
 <p>The <strong>Instructor</strong> status covers teaching at elementary, junior high, high and special-needs schools, which is why JET participants and most ALTs hold it. For a language teacher, the criteria ask for:</p>
 
 <ul>
-    <li><strong>A university degree or equivalent</strong> &mdash; or a qualifying Japanese vocational course, or a teaching licence</li>
-    <li><strong>Twelve or more years of education in the language you teach</strong> &mdash; which a native English speaker educated in English meets automatically</li>
+    <li><strong>A university degree or equivalent</strong>, or a qualifying Japanese vocational course, or a teaching licence</li>
+    <li><strong>Twelve or more years of education in the language you teach</strong>, which a native English speaker educated in English meets automatically</li>
     <li><strong>Pay at least equal to what a Japanese national would receive</strong> for the same work</li>
 </ul>
 
 <h3>Engineer/Specialist in Humanities/International Services: private language schools</h3>
 
-<p>The draft most guides copy calls this the "Specialist in Humanities/International Services visa". Its full name is <strong>Engineer/Specialist in Humanities/International Services</strong>, and the agency lists language teachers at private companies under it &mdash; which covers eikaiwa.</p>
+<p>The draft most guides copy calls this the "Specialist in Humanities/International Services visa". Its full name is <strong>Engineer/Specialist in Humanities/International Services</strong>, and the agency lists language teachers at private companies under it, which covers eikaiwa.</p>
 
 <p>For language teaching, the rule is <strong>three years of relevant experience, waived for university graduates</strong>. That is why a degree matters so much: with one, you qualify on day one; without one, you need three years of documented language-teaching experience. The <strong>ten-year experience route</strong> that is often quoted belongs to the humanities-knowledge part of this status, not to language teaching. The same equal-pay rule applies.</p>
 
@@ -262,7 +262,7 @@ JOBHTML;
     <li><strong>Wait one to three months.</strong> That is the agency's official standard processing period, not the four to eight weeks many guides quote. Since 17 March 2023 the CoE can be sent by email.</li>
     <li><strong>Apply for the visa</strong> at a Japanese embassy or consulate in your country, with your passport and the CoE. The CoE is valid for three months, so you must enter Japan within that window.</li>
     <li><strong>Receive your residence card on landing.</strong> It is issued on the spot at New Chitose, Sendai, Narita, Haneda, Chubu, Kansai, Kobe, Hiroshima, Fukuoka and Naha airports, and is valid from issue. At other ports it is posted to you later.</li>
-    <li><strong>Register your address</strong> at the municipal office within <strong>14 days</strong> of settling. This is a separate legal duty &mdash; it does not "activate" the card, as some guides say.</li>
+    <li><strong>Register your address</strong> at the municipal office within <strong>14 days</strong> of settling. This is a separate legal duty: it does not "activate" the card, as some guides say.</li>
 </ol>
 
 <p><strong>Plan for about two to four months</strong> from job offer to arrival. Japanese schools start their year in <strong>April</strong>, not September, and JET participants usually arrive in <strong>late July or early August</strong>.</p>
@@ -310,7 +310,7 @@ JOBHTML;
 
 <ul>
     <li><strong>A bachelor's degree or higher</strong>, or one obtained by the designated arrival date</li>
-    <li><strong>Citizenship of the country where you apply</strong> &mdash; permanent residence is not enough</li>
+    <li><strong>Citizenship of the country where you apply</strong>: permanent residence is not enough</li>
     <li><strong>One-year appointments</strong>, renewable to three years, or five for participants judged exceptional</li>
     <li><strong>Arrival in late July or early August</strong>, and early April for a few countries</li>
 </ul>
@@ -388,17 +388,17 @@ JOBHTML;
 <p>Weighing Japan against other teaching routes? These cover the neighbouring options:</p>
 
 <ul>
-    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; the UK university route, and the salary floor that decides who can be sponsored.</li>
-    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the honorary title, conferred by nomination and unpaid.</li>
+    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a>: the UK university route, and the salary floor that decides who can be sponsored.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a>: the honorary title, conferred by nomination and unpaid.</li>
 </ul>
 
 <ul>
-    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; teaching English from home, what the platforms really pay, and the nationality rules.</li>
-    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; the UK pay scale and how overseas teachers get QTS recognised.</li>
-    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; state licensure and the J-1 route for teachers trained abroad.</li>
-    <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a> &mdash; government and private school pay, and the qualifications each expects.</li>
-    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a> &mdash; what tutors earn, what Wyzant, Varsity Tutors, Sylvan, Huntington and Kumon require, and the fees and tax to expect.</li>
-    <li><a href="/blog/how-to-apply-for-toyota-factory-jobs-in-japan">How to Apply for Toyota Factory Jobs in Japan</a> &mdash; free dormitories, forfeitable bonuses, and the residence status it quietly requires.</li>
+    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a>: teaching English from home, what the platforms really pay, and the nationality rules.</li>
+    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a>: the UK pay scale and how overseas teachers get QTS recognised.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a>: state licensure and the J-1 route for teachers trained abroad.</li>
+    <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a>: government and private school pay, and the qualifications each expects.</li>
+    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a>: what tutors earn, what Wyzant, Varsity Tutors, Sylvan, Huntington and Kumon require, and the fees and tax to expect.</li>
+    <li><a href="/blog/how-to-apply-for-toyota-factory-jobs-in-japan">How to Apply for Toyota Factory Jobs in Japan</a>: free dormitories, forfeitable bonuses, and the residence status it quietly requires.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not immigration advice. Visa criteria, processing times and fees are set by the Immigration Services Agency of Japan and change over time. Confirm the current position with your employer, the JET Programme and the agency's website before applying.</p>

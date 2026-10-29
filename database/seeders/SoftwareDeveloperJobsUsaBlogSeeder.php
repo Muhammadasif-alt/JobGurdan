@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Software Developer Jobs in USA" — a sector guide rather than one vacancy, so
+ * "Software Developer Jobs in USA": a sector guide rather than one vacancy, so
  * the apply link goes to an Indeed search and the post carries no JobPosting
  * markup. The draft's link carried a ?vjk= search-preview parameter, stripped
  * here.
@@ -152,7 +152,7 @@ class SoftwareDeveloperJobsUsaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li>Proficiency in at least one language used in production &mdash; Python, Java, JavaScript, C#, Go</li>
+    <li>Proficiency in at least one language used in production: Python, Java, JavaScript, C#, Go</li>
     <li>Git, testing, and an understanding of how code reaches production</li>
     <li>Databases and data modelling, and comfort with APIs and system boundaries</li>
     <li>Problem-solving assessed through technical interviews, which are their own skill and worth practising separately</li>
@@ -164,13 +164,13 @@ class SoftwareDeveloperJobsUsaBlogSeeder extends Seeder
 <ul>
     <li><strong>Base salary</strong> sits against a national median of $135,980 as of May 2025, with the lowest tenth under $82,460 and the highest tenth above $214,670</li>
     <li><strong>Total compensation</strong> at larger employers adds bonus and equity, which is where offers diverge most and where the headline figures for big technology companies come from</li>
-    <li><strong>Level, not title,</strong> determines pay at most large employers &mdash; ask which level a role maps to</li>
+    <li><strong>Level, not title,</strong> determines pay at most large employers: ask which level a role maps to</li>
 </ul>
 
 <h3>Before you apply</h3>
 <p><strong>If you need sponsorship, ask before the final round.</strong> Whether an employer sponsors, and whether they are cap-subject or cap-exempt, changes your realistic timeline far more than anything on your resume. It is a normal question and a straight answer saves everyone weeks.</p>
 
-<p><strong>Note:</strong> pay, levelling, remote policy and any sponsorship decision are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, levelling, remote policy and any sponsorship decision are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -189,7 +189,7 @@ JOBHTML;
 
 <p>The Bureau of Labor Statistics puts the <strong>median annual wage for software developers at $135,980 as of May 2025</strong>. The <strong>lowest ten per cent earned under $82,460</strong>; the <strong>highest ten per cent above $214,670</strong>. Those are base wages, before bonus and equity.</p>
 
-<p>Now compare that to the bands most articles print, including the draft this guide is based on: entry level at $65,000 to $90,000, senior at $140,000 to $190,000. <strong>Both are low.</strong> If the bottom tenth of the entire occupation &mdash; which includes people in the lowest-paying regions and industries &mdash; earns $82,460, then quoting $65,000 as a normal starting salary is describing an outlier as the rule. And a senior ceiling of $190,000 sits below where the top decile actually starts.</p>
+<p>Now compare that to the bands most articles print, including the draft this guide is based on: entry level at $65,000 to $90,000, senior at $140,000 to $190,000. <strong>Both are low.</strong> If the bottom tenth of the entire occupation, which includes people in the lowest-paying regions and industries, earns $82,460, then quoting $65,000 as a normal starting salary is describing an outlier as the rule. And a senior ceiling of $190,000 sits below where the top decile actually starts.</p>
 
 <p>A more honest picture:</p>
 
@@ -197,16 +197,16 @@ JOBHTML;
     <li><strong>Entry level and new grad:</strong> commonly $80,000 to $110,000, higher at large technology employers, lower at non-tech companies and in low-cost metros</li>
     <li><strong>Mid-level, two to five years:</strong> roughly $110,000 to $150,000, straddling the median</li>
     <li><strong>Senior:</strong> $150,000 to $215,000 in base alone, with the top tenth beginning above $214,670</li>
-    <li><strong>Large technology employers:</strong> total compensation of $200,000 and up is normal at senior levels once equity is counted &mdash; but it is levelled, so ask what level an offer maps to rather than reading the title</li>
+    <li><strong>Large technology employers:</strong> total compensation of $200,000 and up is normal at senior levels once equity is counted, but it is levelled, so ask what level an offer maps to rather than reading the title</li>
 </ul>
 
 <p>San Francisco, Seattle and New York pay above the national figure and cost more to live in. Increasingly the more useful question is not the city but the employer's compensation band and whether it is adjusted by location.</p>
 
 <h2>The Outlook, Honestly</h2>
 
-<p>BLS projects employment of software developers to <strong>grow 10 per cent from 2025 to 2035</strong> &mdash; much faster than the 3 per cent average across all occupations &mdash; with about <strong>106,100 openings a year</strong> for the combined developer, QA and testing occupation. That is one of the strongest outlooks in the economy, and roughly eight times the annual openings of <a href="/blog/web-developer-jobs-in-usa">web development</a>, which is the adjacent occupation about $43,000 lower at the median.</p>
+<p>BLS projects employment of software developers to <strong>grow 10 per cent from 2025 to 2035</strong>, much faster than the 3 per cent average across all occupations, with about <strong>106,100 openings a year</strong> for the combined developer, QA and testing occupation. That is one of the strongest outlooks in the economy, and roughly eight times the annual openings of <a href="/blog/web-developer-jobs-in-usa">web development</a>, which is the adjacent occupation about $43,000 lower at the median.</p>
 
-<p>One honest qualification. Drafts of articles like this usually cite an "ongoing shortage of skilled tech talent". That is employer-side framing, and it is not quite what the data says. The projection is genuinely strong at the aggregate level, but demand is concentrated in experienced hires, and <strong>the junior end of this market is competitive</strong> &mdash; new graduates compete with each other and with mid-level engineers displaced from other roles. The field is a good bet over a career. The first job is still hard, and anyone telling you otherwise is selling a bootcamp.</p>
+<p>One honest qualification. Drafts of articles like this usually cite an "ongoing shortage of skilled tech talent". That is employer-side framing, and it is not quite what the data says. The projection is genuinely strong at the aggregate level, but demand is concentrated in experienced hires, and <strong>the junior end of this market is competitive</strong>: new graduates compete with each other and with mid-level engineers displaced from other roles. The field is a good bet over a career. The first job is still hard, and anyone telling you otherwise is selling a bootcamp.</p>
 
 <h2>Software Developer Jobs for Foreigners: What Actually Decides It</h2>
 
@@ -217,17 +217,17 @@ JOBHTML;
 
 <h3>Cap-exempt employers: the route almost nobody mentions</h3>
 <p>This is the most useful thing in this guide for anyone who needs sponsorship. <strong>Universities and their affiliated nonprofit entities, nonprofit research organisations and government research organisations are exempt from the H-1B cap.</strong> They can file <strong>at any time of year, with no lottery</strong>.</p>
-<p>Universities, medical centres, research institutes and national laboratories all employ software engineers &mdash; research computing, data platforms, clinical and scientific systems. The pay is typically below a technology company's, and the trade is that the sponsorship path is not a coin flip. For many people it is the difference between a route and no route, and it is worth searching for deliberately rather than waiting for one to appear.</p>
+<p>Universities, medical centres, research institutes and national laboratories all employ software engineers: research computing, data platforms, clinical and scientific systems. The pay is typically below a technology company's, and the trade is that the sponsorship path is not a coin flip. For many people it is the difference between a route and no route, and it is worth searching for deliberately rather than waiting for one to appear.</p>
 
 <h3>OPT and STEM OPT</h3>
-<p>If you study in the United States, <strong>Optional Practical Training gives up to 12 months</strong> of work authorisation after graduation, and graduates of qualifying <strong>STEM programmes can add a further 24 months &mdash; 36 in total</strong>. The STEM extension requires an employer enrolled in <strong>E-Verify</strong> and a formal training plan submitted through your school. Three years is enough time for multiple H-1B lottery attempts, which is the main reason the study route remains the most reliable entry into the US job market.</p>
+<p>If you study in the United States, <strong>Optional Practical Training gives up to 12 months</strong> of work authorisation after graduation, and graduates of qualifying <strong>STEM programmes can add a further 24 months: 36 in total</strong>. The STEM extension requires an employer enrolled in <strong>E-Verify</strong> and a formal training plan submitted through your school. Three years is enough time for multiple H-1B lottery attempts, which is the main reason the study route remains the most reliable entry into the US job market.</p>
 
 <h3>L-1</h3>
-<p>The intra-company transfer route. It has no lottery, but it requires that you have <strong>already worked for a related entity of the same employer abroad</strong>, generally for at least a year. It is a route you plan into over time by joining a multinational's office in your own country &mdash; not one you apply to directly.</p>
+<p>The intra-company transfer route. It has no lottery, but it requires that you have <strong>already worked for a related entity of the same employer abroad</strong>, generally for at least a year. It is a route you plan into over time by joining a multinational's office in your own country, not one you apply to directly.</p>
 
 <h3>The $100,000 payment: where it actually stands</h3>
 <p>This is the most misreported item in the field, so here is the sequence. A presidential proclamation of <strong>19 September 2025</strong> required an additional <strong>$100,000 payment</strong> with certain H-1B petitions filed from <strong>21 September 2025</strong>, directed at beneficiaries outside the United States; petitions for people already in the US seeking an amendment, change of status or extension were not covered. On <strong>8 June 2026</strong> the US District Court for the District of Massachusetts <strong>vacated the guidance implementing it</strong>, and on <strong>24 July 2026</strong> the First Circuit <strong>denied the government's motion to stay</strong>. DHS has said it disagrees but is complying while it considers next steps.</p>
-<p>So it is <strong>not currently being enforced, and the litigation is live.</strong> That can change. Verify the position with USCIS directly before making any decision, and treat with suspicion any recruiter or consultant who states it as settled in either direction &mdash; particularly one charging you for the answer.</p>
+<p>So it is <strong>not currently being enforced, and the litigation is live.</strong> That can change. Verify the position with USCIS directly before making any decision, and treat with suspicion any recruiter or consultant who states it as settled in either direction: particularly one charging you for the answer.</p>
 
 <h2>Junior Roles and Getting the First Job</h2>
 
@@ -265,7 +265,7 @@ JOBHTML;
 <p>Some US employers hire internationally, usually through a contractor arrangement or an employer of record. It avoids the visa question entirely, but pay is often adjusted to your local market and you are taxed where you live, not in the US.</p>
 
 <h3>Do I need a computer science degree?</h3>
-<p>Not for every employer &mdash; bootcamp and self-taught engineers are hired on demonstrable work. But a degree carries more weight in sponsorship cases, where the specialty-occupation argument usually rests on it, so it matters more if you need a visa than if you do not.</p>
+<p>Not for every employer: bootcamp and self-taught engineers are hired on demonstrable work. But a degree carries more weight in sponsorship cases, where the specialty-occupation argument usually rests on it, so it matters more if you need a visa than if you do not.</p>
 
 <h2>People Also Search For</h2>
 
@@ -298,23 +298,23 @@ JOBHTML;
 <p>Comparing the technical paths? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the adjacent occupation, its pay distribution and how to move between the two.</li>
-    <li><a href="/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern">Senior Frontend Developer &mdash; React and Next.js, Lahore</a> &mdash; a live engineering vacancy with a defined stack.</li>
-    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; the title that spans this occupation and web development, and how to tell which one a posting is.</li>
-    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a> &mdash; the non-technical digital path, with the most annual openings.</li>
-    <li><a href="/blog/java-developer-jobs-in-usa">Java Developer Jobs in USA</a> &mdash; the same occupation, plus what W-2, 1099 and corp-to-corp contracts commit you to.</li>
-    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the same occupation, and the data and machine learning demand attached to it.</li>
-    <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; the creative side of the same product teams.</li>
-    <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a> &mdash; the best-paid corner of this same occupation, and the two-week store gate standing in front of a shipped app.</li>
-    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; a similar median on a seventh of the openings, and why its senior certifications are gated behind five years.</li>
-    <li><a href="/blog/cybersecurity-engineer-jobs-in-usa">Cybersecurity Engineer Jobs in USA</a> &mdash; where platform and infrastructure experience turns into a security engineering salary.</li>
-    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a> &mdash; the infrastructure route, and why a declining occupation is the best signal in it.</li>
-    <li><a href="/blog/devops-engineer-jobs-in-usa">DevOps Engineer Jobs in USA</a> &mdash; the delivery specialisation of this occupation, and why job-board salary outliers are not bands.</li>
-    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a> &mdash; the modelling side, and the occupation machine learning engineering is counted under.</li>
-    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a> &mdash; how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
+    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a>: the adjacent occupation, its pay distribution and how to move between the two.</li>
+    <li><a href="/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern">Senior Frontend Developer, React and Next.js, Lahore</a>, a live engineering vacancy with a defined stack.</li>
+    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a>: the title that spans this occupation and web development, and how to tell which one a posting is.</li>
+    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a>: the non-technical digital path, with the most annual openings.</li>
+    <li><a href="/blog/java-developer-jobs-in-usa">Java Developer Jobs in USA</a>: the same occupation, plus what W-2, 1099 and corp-to-corp contracts commit you to.</li>
+    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a>: the same occupation, and the data and machine learning demand attached to it.</li>
+    <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a>: the creative side of the same product teams.</li>
+    <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a>: the best-paid corner of this same occupation, and the two-week store gate standing in front of a shipped app.</li>
+    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a>: a similar median on a seventh of the openings, and why its senior certifications are gated behind five years.</li>
+    <li><a href="/blog/cybersecurity-engineer-jobs-in-usa">Cybersecurity Engineer Jobs in USA</a>: where platform and infrastructure experience turns into a security engineering salary.</li>
+    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a>: the infrastructure route, and why a declining occupation is the best signal in it.</li>
+    <li><a href="/blog/devops-engineer-jobs-in-usa">DevOps Engineer Jobs in USA</a>: the delivery specialisation of this occupation, and why job-board salary outliers are not bands.</li>
+    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a>: the modelling side, and the occupation machine learning engineering is counted under.</li>
+    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a>: how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Wage data, employment projections and immigration rules change, and the H-1B payment described above is subject to ongoing litigation &mdash; confirm the current position with the Bureau of Labor Statistics, USCIS, a licensed immigration attorney and the employer's own advertisement before applying or paying any fee.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Wage data, employment projections and immigration rules change, and the H-1B payment described above is subject to ongoing litigation: confirm the current position with the Bureau of Labor Statistics, USCIS, a licensed immigration attorney and the employer's own advertisement before applying or paying any fee.</p>
 HTML;
     }
 }

@@ -220,10 +220,10 @@ class PlumberApprenticeshipSeattleHoustonDetroitBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/ua-plumber-pipefitter-apprenticeship-test-guide">UA Plumber and Pipefitter Apprenticeship Test Guide</a> &mdash; test preparation</li>
-    <li><a href="/blog/how-to-apply-for-trade-apprenticeship">How to Apply for a Trade Apprenticeship</a> &mdash; application steps</li>
-    <li><a href="/blog/union-apprenticeship-waitlists-how-long">Union Apprenticeship Waitlists: How Long Do They Take?</a> &mdash; waiting times</li>
-    <li><a href="/blog/apprenticeship-test-math-basics">Apprenticeship Test Math: The Basics</a> &mdash; maths revision</li>
+    <li><a href="/blog/ua-plumber-pipefitter-apprenticeship-test-guide">UA Plumber and Pipefitter Apprenticeship Test Guide</a>: test preparation</li>
+    <li><a href="/blog/how-to-apply-for-trade-apprenticeship">How to Apply for a Trade Apprenticeship</a>: application steps</li>
+    <li><a href="/blog/union-apprenticeship-waitlists-how-long">Union Apprenticeship Waitlists: How Long Do They Take?</a>: waiting times</li>
+    <li><a href="/blog/apprenticeship-test-math-basics">Apprenticeship Test Math: The Basics</a>: maths revision</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Recruitment status checked on 17 October 2026 against official pages, which change often. No vacancy, admission or selection outcome is guaranteed.</p>

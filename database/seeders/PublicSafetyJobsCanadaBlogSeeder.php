@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Public Safety Jobs in Canada" — the overview of federal public safety
+ * "Public Safety Jobs in Canada": the overview of federal public safety
  * careers: border services, corrections, the RCMP, Public Safety Canada and
  * emergency management. The correctional officer guide owns CSC and
  * provincial corrections in detail, so this page summarises CSC and links to
@@ -164,7 +164,7 @@ class PublicSafetyJobsCanadaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, eligibility and selection steps are set by each agency and collective agreement &mdash; not by JobGader. Read the official job poster before applying.</p>
+<p><strong>Note:</strong> pay, eligibility and selection steps are set by each agency and collective agreement, not by JobGader. Read the official job poster before applying.</p>
 JOBHTML;
     }
 
@@ -423,12 +423,12 @@ JOBHTML;
 <p>Comparing public safety careers? These go deeper:</p>
 
 <ul>
-    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a> &mdash; federal CSC versus provincial jails, training and pay.</li>
-    <li><a href="/blog/law-enforcement-jobs-in-usa">Law Enforcement Jobs in USA</a> &mdash; patrol, detective, transit and federal paths compared, with BLS pay.</li>
-    <li><a href="/blog/government-security-jobs-in-australia">Government Security Jobs in Australia</a> &mdash; AFP, Border Force and security clearance jobs.</li>
-    <li><a href="/blog/emergency-dispatcher-jobs-in-usa">Emergency Dispatcher Jobs in USA</a> &mdash; 911 pay, typing tests and the civilian route into public safety.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; the sectors that hire and the routes into Canada.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; the LMIA, language rules and routes to permanent residence.</li>
+    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a>: federal CSC versus provincial jails, training and pay.</li>
+    <li><a href="/blog/law-enforcement-jobs-in-usa">Law Enforcement Jobs in USA</a>: patrol, detective, transit and federal paths compared, with BLS pay.</li>
+    <li><a href="/blog/government-security-jobs-in-australia">Government Security Jobs in Australia</a>: AFP, Border Force and security clearance jobs.</li>
+    <li><a href="/blog/emergency-dispatcher-jobs-in-usa">Emergency Dispatcher Jobs in USA</a>: 911 pay, typing tests and the civilian route into public safety.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: the sectors that hire and the routes into Canada.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: the LMIA, language rules and routes to permanent residence.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using CBSA, Correctional Service Canada, RCMP, Public Safety Canada, Government of Canada Jobs and Job Bank information. Pay, requirements and job posters change. Always read the current official job poster before applying.</p>

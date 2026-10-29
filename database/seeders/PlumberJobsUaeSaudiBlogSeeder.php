@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Plumber Jobs in UAE and Saudi Arabia" — the Gulf half of the plumber
+ * "Plumber Jobs in UAE and Saudi Arabia": the Gulf half of the plumber
  * cluster. It owns the two things that actually decide whether a plumber
  * can take a Gulf job: who pays for the recruitment, and the Saudi skills
  * exam that has to be passed before the visa is issued.
@@ -190,7 +190,7 @@ class PlumberJobsUaeSaudiBlogSeeder extends Seeder
 
 <h3>Two things the adverts do not mention</h3>
 <ul>
-    <li><strong>Shift work removes the night premium.</strong> Overtime is the basic wage plus 25 per cent, or plus 50 per cent between 10pm and 4am &mdash; but u.ae states that rule does not apply to workers on shifts. Facilities plumbers are usually on shifts, so get the allowance written into the contract</li>
+    <li><strong>Shift work removes the night premium.</strong> Overtime is the basic wage plus 25 per cent, or plus 50 per cent between 10pm and 4am, but u.ae states that rule does not apply to workers on shifts. Facilities plumbers are usually on shifts, so get the allowance written into the contract</li>
     <li><strong>Free zone employers are outside the Labour Law.</strong> Free zone staff are generally not governed by it, each zone has its own employment rules, and they are sponsored by the free zone authority rather than by the employer</li>
 </ul>
 
@@ -282,7 +282,7 @@ JOBHTML;
 <h2>Two Exceptions That Catch Plumbers Specifically</h2>
 
 <ul>
-    <li><strong>Shift work cancels the night overtime premium.</strong> UAE overtime is the basic wage plus 25 per cent, and plus 50 per cent for work between 10pm and 4am &mdash; but u.ae states plainly that the rule does not apply to workers employed on a shift basis. Facilities management plumbers covering a hotel, an airport or a hospital are almost always on shifts, so that 50 per cent is not automatic. Get it written into the contract or treat it as not existing.</li>
+    <li><strong>Shift work cancels the night overtime premium.</strong> UAE overtime is the basic wage plus 25 per cent, and plus 50 per cent for work between 10pm and 4am, but u.ae states plainly that the rule does not apply to workers employed on a shift basis. Facilities management plumbers covering a hotel, an airport or a hospital are almost always on shifts, so that 50 per cent is not automatic. Get it written into the contract or treat it as not existing.</li>
     <li><strong>Free zone employers sit outside the Labour Law.</strong> Free zone employees are generally not governed by the UAE Labour Law; each zone has its own employment rules, and staff are sponsored by the free zone authority rather than by the employer. Many large contracting and facilities companies are registered in free zones, so check which regime your offer falls under before comparing it with another.</li>
 </ul>
 
@@ -387,18 +387,18 @@ JOBHTML;
 <p>These cover the trades and the Gulf rules in more detail:</p>
 
 <ul>
-    <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a> &mdash; the same Gulf rules for AC work, plus the summer midday break.</li>
-    <li><a href="/blog/construction-labourer-jobs-in-dubai-and-saudi-arabia">Construction Labourer Jobs in Dubai and Saudi Arabia</a> &mdash; the same protections at the labourer and helper level.</li>
-    <li><a href="/blog/tiler-plasterer-and-mason-jobs-overseas">Tiler, Plasterer and Mason Jobs Overseas</a> &mdash; another set of finishing trades recruited into the Gulf.</li>
-    <li><a href="/blog/painter-and-decorator-jobs-in-the-gulf">Painter and Decorator Jobs in the Gulf</a> &mdash; the same permit and wage rules for painters.</li>
-    <li><a href="/blog/plumber-salary-in-the-uk-and-usa">Plumber Salary in the UK and USA</a> &mdash; what the trade pays where official statistics actually measure it.</li>
-    <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a> &mdash; the certification route where the trade is licensed.</li>
-    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; the licensing route in a country where the trade is regulated.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; the wider construction market and its sponsorship rules.</li>
-    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a> &mdash; what the lower-paid end of the Saudi market really offers.</li>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; another trade with a licence conversion step.</li>
-    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a> &mdash; the recruitment process end to end.</li>
-    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a> &mdash; how sponsorship works in a country that does set a wage floor.</li>
+    <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a>: the same Gulf rules for AC work, plus the summer midday break.</li>
+    <li><a href="/blog/construction-labourer-jobs-in-dubai-and-saudi-arabia">Construction Labourer Jobs in Dubai and Saudi Arabia</a>: the same protections at the labourer and helper level.</li>
+    <li><a href="/blog/tiler-plasterer-and-mason-jobs-overseas">Tiler, Plasterer and Mason Jobs Overseas</a>: another set of finishing trades recruited into the Gulf.</li>
+    <li><a href="/blog/painter-and-decorator-jobs-in-the-gulf">Painter and Decorator Jobs in the Gulf</a>: the same permit and wage rules for painters.</li>
+    <li><a href="/blog/plumber-salary-in-the-uk-and-usa">Plumber Salary in the UK and USA</a>: what the trade pays where official statistics actually measure it.</li>
+    <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a>: the certification route where the trade is licensed.</li>
+    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a>: the licensing route in a country where the trade is regulated.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: the wider construction market and its sponsorship rules.</li>
+    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a>: what the lower-paid end of the Saudi market really offers.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: another trade with a licence conversion step.</li>
+    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a>: the recruitment process end to end.</li>
+    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a>: how sponsorship works in a country that does set a wage floor.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or employment advice. UAE and Saudi labour and visa rules change; confirm the current position on u.ae, mohre.gov.ae and hrsd.gov.sa, or with a licensed adviser, before accepting an offer or paying anyone.</p>

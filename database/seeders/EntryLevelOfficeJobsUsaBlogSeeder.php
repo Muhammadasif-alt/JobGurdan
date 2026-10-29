@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Get an Entry-Level Office Job With No Experience" — the US
+ * "How to Get an Entry-Level Office Job With No Experience": the US
  * entry-level office hub, priced from BLS rather than job boards, and honest
  * about an occupational group the BLS projects to shrink.
  *
@@ -168,7 +168,7 @@ class EntryLevelOfficeJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> the wages and employment projections in this guide are published by the Bureau of Labor Statistics &mdash; not by JobGader. No legitimate employer charges you to be hired; the FTC's rule is that honest employers never ask you to pay to get a job.</p>
+<p><strong>Note:</strong> the wages and employment projections in this guide are published by the Bureau of Labor Statistics, not by JobGader. No legitimate employer charges you to be hired; the FTC's rule is that honest employers never ask you to pay to get a job.</p>
 JOBHTML;
     }
 
@@ -211,7 +211,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>Three corrections worth naming, because they run in both directions. Customer service representatives are usually quoted at about <strong>$38,964</strong>; the BLS median is <strong>$44,770</strong>, so that one is understated by nearly $6,000. Order entry clerks are usually quoted at <strong>$48,034</strong> against a real median of <strong>$46,170</strong>. And "medical biller", quoted at <strong>$46,294</strong>, is not really one of these jobs at all &mdash; see below.</p>
+<p>Three corrections worth naming, because they run in both directions. Customer service representatives are usually quoted at about <strong>$38,964</strong>; the BLS median is <strong>$44,770</strong>, so that one is understated by nearly $6,000. Order entry clerks are usually quoted at <strong>$48,034</strong> against a real median of <strong>$46,170</strong>. And "medical biller", quoted at <strong>$46,294</strong>, is not really one of these jobs at all: see below.</p>
 
 <p>Across the whole office and administrative support group, <strong>17.75 million people</strong> are employed at a median of <strong>$47,450</strong>.</p>
 
@@ -219,11 +219,11 @@ JOBHTML;
 
 <p>Every guide presents entry-level office work as a wide-open field. BLS does not. It projects the <strong>office and administrative support group as a whole to decline</strong> through 2035, and the individual declines are not trivial: general office clerks <strong>-6%</strong>, customer service representatives <strong>-5%</strong>, receptionists and administrative assistants <strong>-2%</strong> each.</p>
 
-<p>And yet BLS also projects roughly <strong>1.7 million openings a year</strong> in this group &mdash; about 249,000 for general office clerks and 289,500 for customer service representatives alone. Both things are true at once, and the explanation matters for how you job hunt:</p>
+<p>And yet BLS also projects roughly <strong>1.7 million openings a year</strong> in this group: about 249,000 for general office clerks and 289,500 for customer service representatives alone. Both things are true at once, and the explanation matters for how you job hunt:</p>
 
 <ul>
     <li><strong>The openings are replacement openings.</strong> People leave these roles constantly, for other jobs or out of the workforce. That churn, not growth, is what you are applying into.</li>
-    <li><strong>So getting in is genuinely easy, and staying still is not a plan.</strong> Treat the first office job as a doorway. The people who do well move into a specialism &mdash; records, billing, HR support, scheduling, payroll &mdash; within a couple of years.</li>
+    <li><strong>So getting in is genuinely easy, and staying still is not a plan.</strong> Treat the first office job as a doorway. The people who do well move into a specialism, records, billing, HR support, scheduling, payroll, within a couple of years.</li>
     <li><strong>Avoid the roles automation is hitting hardest.</strong> Pure keying work is the clearest example; our <a href="/blog/data-entry-jobs-in-usa">data entry jobs guide</a> covers how steep that particular decline is.</li>
 </ul>
 
@@ -278,7 +278,7 @@ JOBHTML;
 <p>Entry-level office and data roles are one of the most heavily targeted categories for job scams, because the applicant pool is large and often new to hiring. The Federal Trade Commission's rule is short enough to memorise: <strong>honest employers, including the federal government, will never ask you to pay to get a job.</strong></p>
 
 <ul>
-    <li><strong>Any payment request is the end of the conversation</strong> &mdash; training, equipment, background check, software, "starter kit".</li>
+    <li><strong>Any payment request is the end of the conversation</strong>: training, equipment, background check, software, "starter kit".</li>
     <li><strong>Fake check schemes.</strong> You are sent a check, told to buy equipment and wire back the balance. The check bounces weeks later and the money is yours to repay.</li>
     <li><strong>Reshipping "quality control" roles.</strong> Repackaging goods at home is a way of moving stolen merchandise, and you carry the risk.</li>
     <li><strong>Bank details or your Social Security number before a real offer.</strong> Those belong on payroll paperwork after you are hired, not in an application.</li>
@@ -357,13 +357,13 @@ JOBHTML;
 <p>Looking at the specific roles? These go deeper:</p>
 
 <ul>
-    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; the executive, medical and legal branches and what each pays.</li>
-    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; pay, outlook and the skills that move you up.</li>
-    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; the real median and the steep decline behind it.</li>
-    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a> &mdash; the remote version of this work and what it pays after platform fees.</li>
-    <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a> &mdash; real pay and the scam signs to check first.</li>
-    <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a> &mdash; which office work is genuinely remote.</li>
-    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a> &mdash; a large employer that does publish its starting pay.</li>
+    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a>: the executive, medical and legal branches and what each pays.</li>
+    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a>: pay, outlook and the skills that move you up.</li>
+    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a>: the real median and the steep decline behind it.</li>
+    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a>: the remote version of this work and what it pays after platform fees.</li>
+    <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a>: real pay and the scam signs to check first.</li>
+    <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a>, which office work is genuinely remote.</li>
+    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a>: a large employer that does publish its starting pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Bureau of Labor Statistics Occupational Outlook Handbook profiles, OEWS wage tables and Employment Projections, and Federal Trade Commission consumer guidance. Medians are May 2025; state and metro figures are the May 2023 OEWS tables. Wages and projections are revised regularly, so check the current BLS page before you rely on a number.</p>

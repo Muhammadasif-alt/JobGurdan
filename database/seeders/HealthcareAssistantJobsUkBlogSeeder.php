@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Healthcare Assistant Jobs in UK" — NHS and care sector support work. The
+ * "Healthcare Assistant Jobs in UK": NHS and care sector support work. The
  * broader healthcare guide covers registered clinical roles and the care
  * worker visa page covers the care closure, so this one owns HCA pay, bands,
  * checks and the HCA sponsorship rule.
@@ -163,7 +163,7 @@ class HealthcareAssistantJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the band in the advert against the duties.</strong> Clinical tasks belong to Band 3, not Band 2.</p>
 
-<p><strong>Note:</strong> pay, bands and visa eligibility are set by NHS pay agreements, employers and UK immigration rules &mdash; not by JobGader. Confirm the details with the employer and on gov.uk before applying.</p>
+<p><strong>Note:</strong> pay, bands and visa eligibility are set by NHS pay agreements, employers and UK immigration rules, not by JobGader. Confirm the details with the employer and on gov.uk before applying.</p>
 JOBHTML;
     }
 
@@ -185,22 +185,22 @@ JOBHTML;
 <ul>
     <li><strong>Band 2:</strong> <strong>&pound;25,272</strong> a year, about &pound;12.92 an hour. Band 2 is a single spot rate: there is no pay progression within it.</li>
     <li><strong>Band 3:</strong> <strong>&pound;25,760</strong> on entry, rising to <strong>&pound;27,476</strong> after two years.</li>
-    <li><strong>Band 4:</strong> from &pound;28,392 &mdash; the band for assistant practitioners and registered nursing associates.</li>
+    <li><strong>Band 4:</strong> from &pound;28,392: the band for assistant practitioners and registered nursing associates.</li>
 </ul>
 
 <p>The other nations pay differently:</p>
 
 <ul>
-    <li><strong>Scotland:</strong> Band 2 &pound;26,696, then &pound;28,988; Band 3 &pound;29,103, then &pound;31,409 &mdash; and on a <strong>36-hour week</strong> from April 2026.</li>
+    <li><strong>Scotland:</strong> Band 2 &pound;26,696, then &pound;28,988; Band 3 &pound;29,103, then &pound;31,409, and on a <strong>36-hour week</strong> from April 2026.</li>
     <li><strong>Wales:</strong> Band 2 &pound;26,300; Band 3 &pound;26,300 to &pound;27,890.</li>
     <li><strong>Northern Ireland:</strong> the latest confirmed rates are 2025/26, with Band 2 at &pound;24,465 and Band 3 from &pound;24,937. Its health minister has said the aim is a 3.3% award for 2026/27.</li>
 </ul>
 
 <h2>Band 2 or Band 3: The Duties Decide the Pay</h2>
 
-<p>The NHS job profiles draw the line clearly: <strong>Band 2 is concerned with personal care</strong> &mdash; bathing, toileting, dressing and support with meals &mdash; while <strong>Band 3 covers a limited range of clinical tasks carried out under supervision</strong>, such as taking blood pressure, blood glucose monitoring, wound observations and simple dressings, urinalysis, and removing a peripheral cannula or catheter.</p>
+<p>The NHS job profiles draw the line clearly: <strong>Band 2 is concerned with personal care</strong>, bathing, toileting, dressing and support with meals, while <strong>Band 3 covers a limited range of clinical tasks carried out under supervision</strong>, such as taking blood pressure, blood glucose monitoring, wound observations and simple dressings, urinalysis, and removing a peripheral cannula or catheter.</p>
 
-<p>The gap is small on paper &mdash; <strong>&pound;488 a year</strong> between Band 2 and the Band 3 entry point in England &mdash; but it matters twice. UNISON has campaigned for healthcare assistants who routinely do Band 3 clinical tasks on Band 2 contracts to be re-banded. And as the visa section below explains, <strong>Band 3 is the lowest band that can be sponsored</strong>.</p>
+<p>The gap is small on paper, <strong>&pound;488 a year</strong> between Band 2 and the Band 3 entry point in England, but it matters twice. UNISON has campaigned for healthcare assistants who routinely do Band 3 clinical tasks on Band 2 contracts to be re-banded. And as the visa section below explains, <strong>Band 3 is the lowest band that can be sponsored</strong>.</p>
 
 <p>Before you accept a post, compare the duties in the job description with the band in the advert.</p>
 
@@ -209,7 +209,7 @@ JOBHTML;
 <p>Guides put private care home and home care assistants at <strong>&pound;21,000 to &pound;25,000</strong>. The bottom of that range is not legal for most full-time workers.</p>
 
 <ul>
-    <li>The <strong>National Living Wage</strong> is <strong>&pound;12.71 an hour</strong> from 1 April 2026 for workers aged 21 and over. At 37.5 hours a week for 52 weeks, that is <strong>&pound;24,784.50</strong> a year &mdash; <strong>&pound;3,784.50 more than &pound;21,000</strong>.</li>
+    <li>The <strong>National Living Wage</strong> is <strong>&pound;12.71 an hour</strong> from 1 April 2026 for workers aged 21 and over. At 37.5 hours a week for 52 weeks, that is <strong>&pound;24,784.50</strong> a year: <strong>&pound;3,784.50 more than &pound;21,000</strong>.</li>
     <li>Even the <strong>18 to 20 rate of &pound;10.85</strong> comes to &pound;21,157.50 a year full-time.</li>
     <li>Skills for Care measured the median independent sector care worker at <strong>&pound;12.60 an hour in December 2025</strong>, before the April rise, with London highest at &pound;13.00. It found 49% of care workers paid below the Real Living Wage, and experienced care workers earning just 10 pence an hour more than new starters.</li>
 </ul>
@@ -238,7 +238,7 @@ JOBHTML;
 
 <ul>
     <li><strong>No set entry requirements.</strong> The NHS careers service says there are none for healthcare assistants, though employers may ask for GCSEs in English and maths, or a healthcare qualification such as a BTEC or NVQ.</li>
-    <li><strong>Some care experience.</strong> The same service says employers expect it &mdash; paid, volunteer or caring for a relative all count.</li>
+    <li><strong>Some care experience.</strong> The same service says employers expect it: paid, volunteer or caring for a relative all count.</li>
     <li><strong>The Care Certificate.</strong> New healthcare assistants work towards it after starting. It was updated in March 2025 and now has <strong>16 standards</strong>, including a new one on learning disability and autism. It is a nationally agreed induction standard, not a qualification you must hold before applying.</li>
     <li><strong>The Level 2 Adult Social Care Certificate</strong> is a separate, Ofqual-regulated qualification for social care staff in England. It takes around six to eight months, and employers can claim funding for it. It is optional.</li>
 </ul>
@@ -259,7 +259,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Care workers and senior care workers</strong> (codes 6135 and 6136) closed to new overseas applicants on <strong>22 July 2025</strong>. Only people already in the UK can switch into them, after working for the sponsor for at least three months, and only until <strong>22 July 2028</strong>.</li>
-    <li><strong>Healthcare assistants in hospital settings</strong> are coded <strong>6131, nursing auxiliaries and assistants</strong>, which remains open to new overseas applicants &mdash; with three conditions.</li>
+    <li><strong>Healthcare assistants in hospital settings</strong> are coded <strong>6131, nursing auxiliaries and assistants</strong>, which remains open to new overseas applicants, with three conditions.</li>
     <li><strong>The band.</strong> Band 1 and Band 2 jobs cannot be sponsored. The post must be <strong>Band 3 or higher</strong>.</li>
     <li><strong>The salary.</strong> At least <strong>&pound;25,000 a year</strong> and the going rate for the band.</li>
     <li><strong>The setting.</strong> Code 6131 only applies where registered nurses or other registered healthcare professionals also work, so a care home without nurses does not qualify.</li>
@@ -359,24 +359,24 @@ JOBHTML;
 <p>Comparing healthcare and entry-level work in the UK and abroad? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/physiotherapy-assistant-jobs-in-the-uk">Physiotherapy Assistant Jobs in the UK</a> &mdash; the same bands in physiotherapy, and the nation that pays them best.</li>
-    <li><a href="/blog/hospital-support-worker-jobs-in-the-uk">Hospital Support Worker Jobs in the UK</a> &mdash; why a Band 2 on Saturdays out-earns a Band 3 on weekdays.</li>
-    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; registered clinical roles, NMC registration and how NHS applications are scored.</li>
-    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; the care worker closure and its transitional rules in full.</li>
-    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; what nurses earn in America, state by state.</li>
-    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; the Gulf route for nurses and the SCFHS licence.</li>
-    <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; another job care homes and hospitals hire for, priced against the legal minimum.</li>
-    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London</a> &mdash; entry-level work with no experience needed.</li>
-    <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a> &mdash; hospital and care home housekeeping, and the NHS band it is paid on.</li>
-    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the closest American equivalent, and what it pays by setting.</li>
-    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; another UK public service career, with statutory pay and a two-year induction.</li>
-    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a> &mdash; a non-clinical health care job, and why it cannot be visa-sponsored.</li>
-    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a> &mdash; clinical support in Canadian dentistry, and the NDAEB exams it needs.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the wider UK visa picture, from B2 English to the Graduate visa cut.</li>
-    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; the whole family of support roles, the NHS-versus-social-care split and the progression ladder.</li>
-    <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in the USA</a> &mdash; a high-paying allied-health role, its licensing and the visa route.</li>
-    <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a> &mdash; why GP practice pay is not NHS pay, and what care navigation added to the job.</li>
-    <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a> &mdash; the Care Certificate, the ward band rates and the route to registered nurse.</li>
+    <li><a href="/blog/physiotherapy-assistant-jobs-in-the-uk">Physiotherapy Assistant Jobs in the UK</a>: the same bands in physiotherapy, and the nation that pays them best.</li>
+    <li><a href="/blog/hospital-support-worker-jobs-in-the-uk">Hospital Support Worker Jobs in the UK</a>: why a Band 2 on Saturdays out-earns a Band 3 on weekdays.</li>
+    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a>: registered clinical roles, NMC registration and how NHS applications are scored.</li>
+    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a>: the care worker closure and its transitional rules in full.</li>
+    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a>: what nurses earn in America, state by state.</li>
+    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a>: the Gulf route for nurses and the SCFHS licence.</li>
+    <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a>: another job care homes and hospitals hire for, priced against the legal minimum.</li>
+    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London</a>: entry-level work with no experience needed.</li>
+    <li><a href="/blog/housekeeper-jobs-in-uk">Housekeeper Jobs in UK</a>: hospital and care home housekeeping, and the NHS band it is paid on.</li>
+    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a>: the closest American equivalent, and what it pays by setting.</li>
+    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a>: another UK public service career, with statutory pay and a two-year induction.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a>: a non-clinical health care job, and why it cannot be visa-sponsored.</li>
+    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a>: clinical support in Canadian dentistry, and the NDAEB exams it needs.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the wider UK visa picture, from B2 English to the Graduate visa cut.</li>
+    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a>: the whole family of support roles, the NHS-versus-social-care split and the progression ladder.</li>
+    <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in the USA</a>: a high-paying allied-health role, its licensing and the visa route.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a>: why GP practice pay is not NHS pay, and what care navigation added to the job.</li>
+    <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a>: the Care Certificate, the ward band rates and the route to registered nurse.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Pay awards, minimum wage rates, immigration rules and checking requirements change and differ between the four UK nations. Confirm the current position with the employer, NHS Employers, gov.uk and a regulated immigration adviser before applying.</p>

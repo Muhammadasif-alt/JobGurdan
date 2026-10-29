@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in New Jersey — Pharma, Ports and Finance | JobGader')
+@section('title', 'Jobs in New Jersey: Pharma, Ports and Finance | JobGader')
 @section('meta_description', 'Jobs in New Jersey: pharmaceutical and life sciences, Port Newark logistics, finance and healthcare hiring, and what each sector pays.')
-@section('og_title', 'Jobs in New Jersey — Pharma, Ports and Finance | JobGader')
+@section('og_title', 'Jobs in New Jersey: Pharma, Ports and Finance | JobGader')
 @section('og_description', 'Jobs in New Jersey: pharmaceutical and life sciences, Port Newark logistics, finance and healthcare hiring, and what each sector pays.')
 @section('canonical', url()->current())
 
@@ -17,7 +17,7 @@
                 'title' => 'Pharmaceuticals and Life Sciences',
                 'paragraphs' => [
                     'New Jersey hosts one of the highest concentrations of pharmaceutical and life sciences employers anywhere, spanning research, manufacturing, quality control and regulatory affairs.',
-                    'The accessible roles here are in manufacturing and quality — production technicians, quality control analysts, warehouse and materials handling in regulated environments — which pay above general manufacturing because of the compliance requirements.',
+                    'The accessible roles here are in manufacturing and quality, production technicians, quality control analysts, warehouse and materials handling in regulated environments, which pay above general manufacturing because of the compliance requirements.',
                 ],
             ],
             [
@@ -52,7 +52,7 @@
             ],
             [
                 'q' => 'How do I get into pharmaceutical work without a science degree?',
-                'a' => 'Through manufacturing and materials roles — production technician, warehouse and quality support in regulated environments. These pay above general manufacturing and train on the compliance requirements.',
+                'a' => 'Through manufacturing and materials roles: production technician, warehouse and quality support in regulated environments. These pay above general manufacturing and train on the compliance requirements.',
             ],
             [
                 'q' => 'Is warehouse work plentiful in New Jersey?',

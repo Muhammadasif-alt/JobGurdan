@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Industrial vs House Wiring Electrician: Which Pays More" — the specialism
+ * "Industrial vs House Wiring Electrician: Which Pays More": the specialism
  * comparison in the electrician cluster, built on BLS OEWS May 2025 medians
  * by industry and on the two related BLS occupations that cover industrial
  * electrical repair and power plants.
@@ -332,13 +332,13 @@ JOBHTML;
 <p>The rest of the electrician cluster:</p>
 
 <ul>
-    <li><a href="/blog/electrician-salary-in-the-uae-uk-and-usa">Electrician Salary in the UAE, UK and USA</a> &mdash; BLS by state, JIB rates and the UAE pay rules.</li>
-    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a> &mdash; certification and visas in Canada and Australia.</li>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; the wiring regulations, Part P and CIS.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; the wider US trades market and its visa routes.</li>
-    <li><a href="/blog/plumber-salary-in-the-uk-and-usa">Plumber Salary in the UK and USA</a> &mdash; the same official-data approach for plumbers.</li>
-    <li><a href="/blog/how-to-start-a-career-in-refrigeration-and-air-conditioning">How to Start a Career in Refrigeration and Air Conditioning</a> &mdash; the same residential-versus-industrial question for HVAC/R.</li>
-    <li><a href="/blog/ev-technician-jobs-training-and-career-guide">EV Technician Jobs: Training and Career Guide</a> &mdash; where electrical skills meet vehicle repair.</li>
+    <li><a href="/blog/electrician-salary-in-the-uae-uk-and-usa">Electrician Salary in the UAE, UK and USA</a>: BLS by state, JIB rates and the UAE pay rules.</li>
+    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a>: certification and visas in Canada and Australia.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: the wiring regulations, Part P and CIS.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: the wider US trades market and its visa routes.</li>
+    <li><a href="/blog/plumber-salary-in-the-uk-and-usa">Plumber Salary in the UK and USA</a>: the same official-data approach for plumbers.</li>
+    <li><a href="/blog/how-to-start-a-career-in-refrigeration-and-air-conditioning">How to Start a Career in Refrigeration and Air Conditioning</a>: the same residential-versus-industrial question for HVAC/R.</li>
+    <li><a href="/blog/ev-technician-jobs-training-and-career-guide">EV Technician Jobs: Training and Career Guide</a>: where electrical skills meet vehicle repair.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not career or employment advice. Pay data is from the BLS Occupational Employment and Wage Statistics survey for May 2025; confirm current figures at bls.gov and licensing rules with your state board.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Starbucks Barista Jobs in the USA" — an employer guide
+ * "How to Apply for Starbucks Barista Jobs in the USA": an employer guide
  * built on what Starbucks publishes about itself, rather than the Indeed
  * listings the draft was assembled from.
  *
@@ -191,7 +191,7 @@ class StarbucksBaristaJobsUsaBlogSeeder extends Seeder
 <p>Starbucks hires baristas for its company-operated coffeehouses across the United States. No previous coffee experience is required, because the drink recipes, the equipment and the food safety routines are all taught on the job.</p>
 
 <h3>What the work involves</h3>
-<p>Handcrafting beverages to recipe card standards, taking orders and handling the register, keeping food and the bar area within safety and cleaning standards, and contributing to the store team &mdash; including noticing and reporting changes in partner morale and performance to the store manager, which is written into the role itself.</p>
+<p>Handcrafting beverages to recipe card standards, taking orders and handling the register, keeping food and the bar area within safety and cleaning standards, and contributing to the store team, including noticing and reporting changes in partner morale and performance to the store manager, which is written into the role itself.</p>
 
 <h3>Common requirements</h3>
 <ul>
@@ -202,7 +202,7 @@ class StarbucksBaristaJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> hourly rates, shift patterns and benefits eligibility are set by Starbucks and by state and city wage law &mdash; not by JobGader. Apply directly on the Starbucks careers site, and never pay anyone for a Starbucks application.</p>
+<p><strong>Note:</strong> hourly rates, shift patterns and benefits eligibility are set by Starbucks and by state and city wage law, not by JobGader. Apply directly on the Starbucks careers site, and never pay anyone for a Starbucks application.</p>
 JOBHTML;
     }
 
@@ -211,7 +211,7 @@ JOBHTML;
         return <<<'HTML'
 <p><strong>Apply on the Starbucks careers site, pick a coffeehouse near you, and expect an online questionnaire called Applicant Insights before anyone calls.</strong> No coffee experience is needed and Starbucks trains you from scratch. The real decision is how many hours you can commit to, because that single number controls everything worth having in the offer.</p>
 
-<p>Two things worth knowing before you spend the evening on an application. <strong>Starbucks does publish pay figures about itself</strong>, which most employers do not, so you can check the numbers rather than trust a job board estimate. And the benefits everyone talks about &mdash; the healthcare, the stock, the free degree &mdash; are not automatic for part-time staff. There is a threshold, and the barista advert quietly sits just below it.</p>
+<p>Two things worth knowing before you spend the evening on an application. <strong>Starbucks does publish pay figures about itself</strong>, which most employers do not, so you can check the numbers rather than trust a job board estimate. And the benefits everyone talks about, the healthcare, the stock, the free degree, are not automatic for part-time staff. There is a threshold, and the barista advert quietly sits just below it.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://careers.starbucks.com/discover-opportunities/coffeehouses/" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#00704a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -228,13 +228,13 @@ JOBHTML;
     <li><strong>More than $30 an hour</strong> as the average value of total pay <em>and</em> benefits, which Starbucks says is available from 20 hours a week.</li>
 </ul>
 
-<p>Read that second figure carefully, because it is doing a lot of work. The roughly $11 an hour difference between the two numbers is not cash. It is Starbucks' own valuation of healthcare, stock, tuition and leave &mdash; and it only counts if you clear the hours threshold in the next section.</p>
+<p>Read that second figure carefully, because it is doing a lot of work. The roughly $11 an hour difference between the two numbers is not cash. It is Starbucks' own valuation of healthcare, stock, tuition and leave, and it only counts if you clear the hours threshold in the next section.</p>
 
 <h3>What changed in July 2026</h3>
 
 <p>Starbucks added three things for hourly coffeehouse partners from July 2026: a quarterly <strong>Best of Starbucks Reward</strong> worth <strong>up to $300 a quarter, or $1,200 a year</strong>, expanded tipping across more ordering and payment channels, and <strong>weekly pay</strong> for all US partners. Starbucks says the combination is worth roughly <strong>5 to 8% more on average</strong> on top of current earnings.</p>
 
-<p>An average national figure is also not what you will be offered. Starbucks rates are set store by store against state and city minimum wage law, so the same job in Seattle and in a low-wage state are not the same job financially. Compare it against what the wider market pays before you decide &mdash; our <a href="/blog/retail-jobs-in-usa">retail jobs in USA</a> and <a href="/blog/cashier-jobs-in-usa">cashier jobs in USA</a> guides cover the going rates for equivalent work.</p>
+<p>An average national figure is also not what you will be offered. Starbucks rates are set store by store against state and city minimum wage law, so the same job in Seattle and in a low-wage state are not the same job financially. Compare it against what the wider market pays before you decide: our <a href="/blog/retail-jobs-in-usa">retail jobs in USA</a> and <a href="/blog/cashier-jobs-in-usa">cashier jobs in USA</a> guides cover the going rates for equivalent work.</p>
 
 <div style="text-align:center;margin:28px 0;">
     <img src="/public/storage/blogs/how-to-apply-for-starbucks-barista-jobs-in-the-usa-counter.jpg" alt="Service counter in a coffee shop with cups and equipment ready for customers" style="max-width:100%;height:auto;border-radius:12px;" loading="lazy">
@@ -271,7 +271,7 @@ JOBHTML;
 
 <p>The biggest thing Starbucks offers is not on most lists of Starbucks benefits, which is strange, because it is worth more than everything else combined. The <strong>Starbucks College Achievement Plan</strong> gives benefits eligible US partners <strong>100% upfront tuition coverage</strong> for a <strong>first-time bachelor's degree</strong> through <strong>Arizona State University online</strong>, across <strong>180+ undergraduate programmes</strong>.</p>
 
-<p>The terms are unusually generous, and these are Starbucks' own words: you can <strong>apply on day one</strong>, and there are <strong>no strings attached after you graduate</strong> &mdash; no repayment, no obligation to stay. Partners who do not initially meet ASU's admission requirements can work towards it through <strong>Pathway to Admission</strong>, with credit conversion costs covered. Starbucks says nearly 90% of its US stores have at least one partner enrolled.</p>
+<p>The terms are unusually generous, and these are Starbucks' own words: you can <strong>apply on day one</strong>, and there are <strong>no strings attached after you graduate</strong>: no repayment, no obligation to stay. Partners who do not initially meet ASU's admission requirements can work towards it through <strong>Pathway to Admission</strong>, with credit conversion costs covered. Starbucks says nearly 90% of its US stores have at least one partner enrolled.</p>
 
 <p>"Upfront" is the word doing the work there. This is not a reimbursement you have to fund first and claim back, which is how most retail tuition schemes are built. But it runs on the same 20-hour line as everything else, which is the real reason to care about your schedule.</p>
 
@@ -362,16 +362,16 @@ JOBHTML;
 <p>Weighing Starbucks against the other big US hourly employers? These cover the same ground:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a> &mdash; a published hourly range, and the age rule most guides get wrong.</li>
-    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a> &mdash; warehouse pay, shift patterns and the tuition scheme.</li>
-    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a> &mdash; part-time hours with union terms behind them.</li>
-    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; what the same skills earn across the sector.</li>
-    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; register work on its own, and what it pays.</li>
-    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; where counter experience transfers next.</li>
-    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; the wider market and which employers publish their pay.</li>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; the hospitality route and its visa realities.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; an honest look at what is actually open without a qualification.</li>
-    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry Level Office Job With No Experience</a> &mdash; the step off the shop floor.</li>
+    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a>: a published hourly range, and the age rule most guides get wrong.</li>
+    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a>: warehouse pay, shift patterns and the tuition scheme.</li>
+    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a>: part-time hours with union terms behind them.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a>: what the same skills earn across the sector.</li>
+    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a>: register work on its own, and what it pays.</li>
+    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a>: where counter experience transfers next.</li>
+    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a>: the wider market and which employers publish their pay.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>: the hospitality route and its visa realities.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: an honest look at what is actually open without a qualification.</li>
+    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry Level Office Job With No Experience</a>: the step off the shop floor.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using the Starbucks careers site, the Starbucks partner benefits site, Starbucks press releases and Starbucks investor relations material. Starbucks publishes no pay band for the barista role, and hourly rates are set store by store against state and city wage law. Benefits rules, eligibility thresholds and reward programmes change. Always check the live posting and Starbucks' own benefits pages before you commit.</p>

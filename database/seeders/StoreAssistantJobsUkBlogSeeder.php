@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Store Assistant Jobs in UK" — the most common first job in the country, and
+ * "Store Assistant Jobs in UK": the most common first job in the country, and
  * the one where the pay figures repeated across careers advice are no longer
  * legal to offer.
  *
@@ -166,7 +166,7 @@ class StoreAssistantJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the advertised hourly rate against the National Living Wage for your age.</strong> From 1 April 2026 that is &pound;12.71 for workers aged 21 and over, &pound;10.85 for 18 to 20 year olds, and &pound;8.00 for under-18s and apprentices. A staff discount is not pay and cannot make up a shortfall.</p>
 
-<p><strong>Note:</strong> pay, hours, contract type and benefits are set by each retailer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, hours, contract type and benefits are set by each retailer, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -183,14 +183,14 @@ JOBHTML;
 
 <p>The standard line is that store assistants earn between &pound;10.50 and &pound;12.50 an hour, "in line with or slightly above the National Living Wage". Check it against the rate itself.</p>
 
-<p><strong>From 1 April 2026 the National Living Wage for workers aged 21 and over is &pound;12.71 an hour.</strong> The entire quoted range sits below it. Not slightly above it &mdash; below it, top to bottom. An employer advertising &pound;12.50 an hour to a 22-year-old is advertising an unlawful rate, and the shortfall is recoverable.</p>
+<p><strong>From 1 April 2026 the National Living Wage for workers aged 21 and over is &pound;12.71 an hour.</strong> The entire quoted range sits below it. Not slightly above it: below it, top to bottom. An employer advertising &pound;12.50 an hour to a 22-year-old is advertising an unlawful rate, and the shortfall is recoverable.</p>
 
 <p>The annual figures fail the same test. Multiply &pound;12.71 by a full-time week and by 52 weeks:</p>
 
 <ul>
-    <li><strong>35 hours a week</strong> &mdash; at least &pound;23,132.20 a year</li>
-    <li><strong>37.5 hours a week</strong> &mdash; at least &pound;24,784.50 a year</li>
-    <li><strong>40 hours a week</strong> &mdash; at least &pound;26,436.80 a year</li>
+    <li><strong>35 hours a week</strong>: at least &pound;23,132.20 a year</li>
+    <li><strong>37.5 hours a week</strong>: at least &pound;24,784.50 a year</li>
+    <li><strong>40 hours a week</strong>: at least &pound;26,436.80 a year</li>
 </ul>
 
 <p>So the commonly published band of &pound;21,000 to &pound;24,000 for a full-time store assistant is not a modest salary. At 37.5 hours it is an illegal one, and at 40 hours even the top of the band falls more than &pound;2,400 short. For context, the Office for National Statistics put the median full-time employee across all occupations at <strong>&pound;39,039 a year, or &pound;19.67 an hour</strong>, in April 2025.</p>
@@ -200,13 +200,13 @@ JOBHTML;
 <p>An article about store assistants is an article about people taking their first job, and the minimum wage is not one number. From 1 April 2026:</p>
 
 <ul>
-    <li><strong>21 and over</strong> &mdash; &pound;12.71 an hour (the National Living Wage)</li>
-    <li><strong>18 to 20</strong> &mdash; &pound;10.85 an hour</li>
-    <li><strong>Under 18</strong> &mdash; &pound;8.00 an hour</li>
-    <li><strong>Apprentice</strong> &mdash; &pound;8.00 an hour</li>
+    <li><strong>21 and over</strong>: &pound;12.71 an hour (the National Living Wage)</li>
+    <li><strong>18 to 20</strong>: &pound;10.85 an hour</li>
+    <li><strong>Under 18</strong>: &pound;8.00 an hour</li>
+    <li><strong>Apprentice</strong>: &pound;8.00 an hour</li>
 </ul>
 
-<p>Two practical consequences. First, a rate that is perfectly legal for a 19-year-old becomes unlawful on their 21st birthday, and the employer must move them up &mdash; it does not happen automatically in every payroll, so check your payslip the month after. Second, if you are offered an "apprenticeship" at &pound;8.00 an hour to do exactly the work of a store assistant, ask what training it actually carries; the apprentice rate exists to fund training, not to discount shelf-filling.</p>
+<p>Two practical consequences. First, a rate that is perfectly legal for a 19-year-old becomes unlawful on their 21st birthday, and the employer must move them up: it does not happen automatically in every payroll, so check your payslip the month after. Second, if you are offered an "apprenticeship" at &pound;8.00 an hour to do exactly the work of a store assistant, ask what training it actually carries; the apprentice rate exists to fund training, not to discount shelf-filling.</p>
 
 <h2>What Cannot Be Taken Off Your Pay</h2>
 
@@ -214,7 +214,7 @@ JOBHTML;
 
 <p><strong>A staff discount cannot count towards the minimum wage.</strong> Neither can a bonus scheme, free parking, or a Christmas hamper. The minimum wage is a cash rate per hour worked, and benefits in kind do not fill a gap in it.</p>
 
-<p>Deductions get their own rule. If your employer takes money off your wages for something connected to the job &mdash; a uniform you must buy, a till shortfall, breakages &mdash; that deduction cannot reduce your pay below the minimum wage for the hours you worked. A required uniform charged to a worker on exactly the minimum rate is the classic way a lawful headline rate becomes an unlawful actual one.</p>
+<p>Deductions get their own rule. If your employer takes money off your wages for something connected to the job, a uniform you must buy, a till shortfall, breakages, that deduction cannot reduce your pay below the minimum wage for the hours you worked. A required uniform charged to a worker on exactly the minimum rate is the classic way a lawful headline rate becomes an unlawful actual one.</p>
 
 <p>Unpaid working time is the other leak. Time spent on a required security check at the end of a shift, or cashing up after the doors close, is working time. If your contract pays to closing time but the routine keeps you twenty minutes longer every night, your real hourly rate is not the one on the advert.</p>
 
@@ -224,15 +224,15 @@ JOBHTML;
 
 <h2>"Flexible Hours" Usually Means the Employer's Flexibility</h2>
 
-<p>Retail job adverts sell flexibility, and it is real &mdash; but it generally runs in the employer's direction. Shifts move with trading patterns, hours rise before Christmas and fall in January, and a contract for a small number of guaranteed hours can be topped up or not depending on the rota.</p>
+<p>Retail job adverts sell flexibility, and it is real, but it generally runs in the employer's direction. Shifts move with trading patterns, hours rise before Christmas and fall in January, and a contract for a small number of guaranteed hours can be topped up or not depending on the rota.</p>
 
-<p>Your side of it is a specific legal right, and it is worth knowing precisely. <strong>Since 6 April 2024 the right to request flexible working is a day-one right.</strong> You can make <strong>two statutory requests in any 12-month period</strong>, your employer must <strong>consult you before rejecting</strong> one, and must respond <strong>within two months</strong>. It can still refuse on any of <strong>eight business reasons</strong>. It is a right to ask, not a right to have &mdash; but a written request that names the pattern you need is far more effective than asking a duty manager on the shop floor.</p>
+<p>Your side of it is a specific legal right, and it is worth knowing precisely. <strong>Since 6 April 2024 the right to request flexible working is a day-one right.</strong> You can make <strong>two statutory requests in any 12-month period</strong>, your employer must <strong>consult you before rejecting</strong> one, and must respond <strong>within two months</strong>. It can still refuse on any of <strong>eight business reasons</strong>. It is a right to ask, not a right to have, but a written request that names the pattern you need is far more effective than asking a duty manager on the shop floor.</p>
 
 <p>Before you accept a role, get three things straight: how many hours are <em>guaranteed</em> in the contract, how much notice you get of the rota, and whether evenings, weekends and bank holidays are paid at the same rate. Premium pay for unsocial hours is a contractual matter in the UK, not a statutory one, so it exists only if the contract says so.</p>
 
 <h2>What the Job Is Actually Worth Beyond the Wage</h2>
 
-<p>The honest case for store assistant work is not the pay. It is that it is one of the few jobs available in every town, it trains you in public, and it is the standard entry point into retail management. The progression that guides describe &mdash; assistant, supervisor, assistant manager, store manager &mdash; is real, and retail is unusual in promoting from the shop floor rather than recruiting graduates into it.</p>
+<p>The honest case for store assistant work is not the pay. It is that it is one of the few jobs available in every town, it trains you in public, and it is the standard entry point into retail management. The progression that guides describe, assistant, supervisor, assistant manager, store manager, is real, and retail is unusual in promoting from the shop floor rather than recruiting graduates into it.</p>
 
 <p>It is also transferable. Handling complaints, working a till accurately, managing stock and keeping to a rota are exactly the competencies that customer service, warehousing, hospitality and administrative employers screen for. A year on a shop floor answers the "have you dealt with difficult customers" question in every future interview.</p>
 
@@ -282,12 +282,12 @@ JOBHTML;
 <h2>People Also Search For</h2>
 
 <ul>
-    <li><strong>Store assistant jobs near me no experience</strong> &mdash; most retailers train on the job; availability for evenings and weekends matters more than experience</li>
-    <li><strong>Store assistant salary UK per hour</strong> &mdash; at least &pound;12.71 for workers aged 21 and over from 1 April 2026</li>
-    <li><strong>Part time store assistant jobs</strong> &mdash; the minimum wage applies per hour, so lawful part-time pay can total well under &pound;24,784 a year</li>
-    <li><strong>Christmas temporary retail jobs UK</strong> &mdash; recruitment usually opens in early autumn and is the most common route into a permanent contract</li>
-    <li><strong>What is the minimum wage for a 17 year old UK</strong> &mdash; &pound;8.00 an hour from 1 April 2026, the same as the apprentice rate</li>
-    <li><strong>Flexible working request retail</strong> &mdash; a day-one right since 6 April 2024, twice a year, answerable within two months</li>
+    <li><strong>Store assistant jobs near me no experience</strong>: most retailers train on the job; availability for evenings and weekends matters more than experience</li>
+    <li><strong>Store assistant salary UK per hour</strong>: at least &pound;12.71 for workers aged 21 and over from 1 April 2026</li>
+    <li><strong>Part time store assistant jobs</strong>: the minimum wage applies per hour, so lawful part-time pay can total well under &pound;24,784 a year</li>
+    <li><strong>Christmas temporary retail jobs UK</strong>: recruitment usually opens in early autumn and is the most common route into a permanent contract</li>
+    <li><strong>What is the minimum wage for a 17 year old UK</strong>: &pound;8.00 an hour from 1 April 2026, the same as the apprentice rate</li>
+    <li><strong>Flexible working request retail</strong>: a day-one right since 6 April 2024, twice a year, answerable within two months</li>
 </ul>
 
 <h2>More Job Guides</h2>
@@ -299,10 +299,10 @@ JOBHTML;
     <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a></li>
     <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a></li>
     <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a></li>
-    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a> &mdash; which licence each role needs, the D4 medical and CPC route, funded training and ONS pay.</li>
-    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a> &mdash; a supermarket that publishes its rate and pays it at every age.</li>
-    <li><a href="/blog/how-to-apply-for-woolworths-supermarket-jobs-in-australia">How to Apply for Woolworths Supermarket Jobs in Australia</a> &mdash; the Australian version of this role, and what it actually pays on a Sunday.</li>
-    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a> &mdash; the hourly rate M and S announces itself, and why no store role can be sponsored.</li>
+    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a>, which licence each role needs, the D4 medical and CPC route, funded training and ONS pay.</li>
+    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a>: a supermarket that publishes its rate and pays it at every age.</li>
+    <li><a href="/blog/how-to-apply-for-woolworths-supermarket-jobs-in-australia">How to Apply for Woolworths Supermarket Jobs in Australia</a>: the Australian version of this role, and what it actually pays on a Sunday.</li>
+    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a>: the hourly rate M and S announces itself, and why no store role can be sponsored.</li>
 </ul>
 HTML;
     }

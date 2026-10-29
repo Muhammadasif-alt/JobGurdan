@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 @section('title', 'Browse Jobs by Location | JobGader')
-@section('meta_description', 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . '+ jobs across ' . number_format($heroStats['total_states'] ?? 50) . ' U.S. states. Find local opportunities in your city, area, or ZIP — apply free on JobGader.')
+@section('meta_description', 'Search ' . number_format($heroStats['total_jobs'] ?? 0) . '+ jobs across ' . number_format($heroStats['total_states'] ?? 50) . ' U.S. states. Find local opportunities in your city, area, or ZIP: apply free on JobGader.')
 @section('meta_keywords', 'jobs by location usa, jobs near me, find jobs by city, browse jobs by state, jobs by zip code, local jobs america')
 @section('canonical', $locations->currentPage() === 1 ? route('jobs.locations') : route('jobs.locations').'?page='.$locations->currentPage())
 
@@ -39,7 +39,7 @@
 @section('content')
 
 <style>
-    /* === Locations Hero (light gradient, dark text — matches home/jobs/companies) === */
+    /* === Locations Hero (light gradient, dark text: matches home/jobs/companies) === */
     .loc-hero {
         position: relative;
         background: linear-gradient(180deg, #f8faff 0%, #ffffff 50%, #f5f5f7 100%);
@@ -439,7 +439,7 @@
     .loc-empty h4 { font-size: 18px; color: #1b3a6b; margin: 14px 0 6px; font-weight: 700; }
     .loc-empty p { color: #777; margin: 0; }
 
-    /* Pagination — dark */
+    /* Pagination: dark */
     .loc-pagination { padding: 40px 0 0; display: flex; justify-content: center; }
     .loc-pagination ul {
         list-style: none; margin: 0; padding: 0;
@@ -468,7 +468,7 @@
     }
     .loc-pagination li.disabled span { opacity: .35; cursor: not-allowed; }
 
-    /* === Top Hiring States — eye-catching pre-CTA section === */
+    /* === Top Hiring States: eye-catching pre-CTA section === */
     .top-states-section {
         padding: 80px 0;
         background: #fff;
@@ -655,10 +655,10 @@
             <div class="loc-seo-content">
                 <span class="eyebrow">Why Search by Location</span>
                 <h2>Find local jobs in the city or state where you actually want to work</h2>
-                <p>Commute matters. So does community. Our location-based search lets you target job openings in the exact country, region or city you want to work in — or the place you're relocating to. Every listing shows the country and city it sits in, so you can rule a role out before you read it.</p>
+                <p>Commute matters. So does community. Our location-based search lets you target job openings in the exact country, region or city you want to work in, or the place you're relocating to. Every listing shows the country and city it sits in, so you can rule a role out before you read it.</p>
 
                 <ul class="loc-feature-list">
-                    <li><i class="icon-feather-check-circle"></i> Drill down by state, area, and ZIP — find jobs that match your zone</li>
+                    <li><i class="icon-feather-check-circle"></i> Drill down by state, area, and ZIP: find jobs that match your zone</li>
                     <li><i class="icon-feather-check-circle"></i> Listings are added every week across the regions we cover</li>
                     <li><i class="icon-feather-check-circle"></i> Remote &amp; hybrid filters available for flexible work arrangements</li>
                     <li><i class="icon-feather-check-circle"></i> Local job alerts notify you when a role goes live nearby</li>
@@ -705,7 +705,7 @@
                 <div class="loc-empty">
                     <i class="icon-feather-map"></i>
                     <h4>No locations yet</h4>
-                    <p>Check back soon — we're adding new cities and states every week.</p>
+                    <p>Check back soon: we're adding new cities and states every week.</p>
                 </div>
             @endforelse
         </div>
@@ -715,7 +715,7 @@
     </div>
 </section>
 
-<!-- Top Hiring States — eye-catcher before CTA -->
+<!-- Top Hiring States: eye-catcher before CTA -->
 @if($topStates->count())
 <section class="top-states-section" aria-labelledby="top-states-heading">
     <div class="container">

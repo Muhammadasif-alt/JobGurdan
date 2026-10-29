@@ -296,10 +296,10 @@ HTML;
 
 <h2>Related career guides</h2>
 <ul>
-<li><a href="/blog/healthcare-administrator-jobs-in-pakistan">Healthcare Administrator Jobs in Pakistan</a> &mdash; the hospital and clinic side of healthcare administration, including the public sector route.</li>
-<li><a href="/blog/home-healthcare-assistant-jobs-in-pakistan">Home Healthcare Assistant Jobs in Pakistan</a> &mdash; patient-facing care work, and how to check a nursing licence before you take a job.</li>
-<li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; the other large US-facing sector, with the same night-hours trade-off.</li>
-<li><a href="/blog/medical-records-clerk-jobs-in-usa">Medical Records Clerk Jobs in USA</a> &mdash; what the same records and coding work pays inside the United States.</li>
+<li><a href="/blog/healthcare-administrator-jobs-in-pakistan">Healthcare Administrator Jobs in Pakistan</a>: the hospital and clinic side of healthcare administration, including the public sector route.</li>
+<li><a href="/blog/home-healthcare-assistant-jobs-in-pakistan">Home Healthcare Assistant Jobs in Pakistan</a>: patient-facing care work, and how to check a nursing licence before you take a job.</li>
+<li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a>: the other large US-facing sector, with the same night-hours trade-off.</li>
+<li><a href="/blog/medical-records-clerk-jobs-in-usa">Medical Records Clerk Jobs in USA</a>: what the same records and coding work pays inside the United States.</li>
 </ul>
 
 <h2>Official sources and verification</h2>

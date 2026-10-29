@@ -3,7 +3,7 @@
     $coIdxPage = $companies->currentPage();
     $coIdxFirst = $coIdxPage === 1;
     $coIdxTitle = $coIdxFirst
-        ? 'Employers Hiring on JobGader — Browse Companies'
+        ? 'Employers Hiring on JobGader: Browse Companies'
         : 'Employers Hiring on JobGader, Page '.$coIdxPage;
 @endphp
 @section('title', $coIdxTitle)
@@ -45,7 +45,7 @@
 @section('content')
 
 <style>
-/* === Companies page — matches home/jobs hero (light bg, dark text) === */
+/* === Companies page: matches home/jobs hero (light bg, dark text) === */
 .companies-hero {
     position: relative;
     background: linear-gradient(180deg, #f8faff 0%, #ffffff 50%, #f5f5f7 100%);
@@ -158,7 +158,7 @@
     box-shadow: 0 8px 20px rgba(0,0,0,.18);
 }
 
-/* Stats strip — clean white cards (matches home) */
+/* Stats strip: clean white cards (matches home) */
 .companies-stats {
     display: inline-flex;
     gap: 32px;
@@ -227,7 +227,7 @@
     font-weight: 600;
 }
 
-/* Card column wrapper — guarantees horizontal + vertical gaps */
+/* Card column wrapper: guarantees horizontal + vertical gaps */
 .company-card-col {
     padding: 0 12px 24px;
     display: flex;
@@ -374,7 +374,7 @@
 .empty-state h4 { color: #1b3a6b; margin: 0 0 6px; font-weight: 700; }
 .empty-state p { color: #6b7280; margin: 0; }
 
-/* Pagination — dark (overrides theme orange) */
+/* Pagination: dark (overrides theme orange) */
 .utf-pagination-container-aera { margin-top: 32px; display: flex; justify-content: center; }
 .utf-pagination-container-aera .pagination ul {
     list-style: none;
@@ -452,7 +452,7 @@
         </div>
         <span class="eyebrow" data-aos="fade-down" data-aos-duration="600">Top Employers</span>
         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Employers <span class="accent">hiring right now</span></h1>
-        <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Every employer and agency with a listing on JobGader, across {{ $coverage->shortList() }}. Open one to see its current openings and apply straight through &mdash; no account, no fee.</p>
+        <p class="lead" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">Every employer and agency with a listing on JobGader, across {{ $coverage->shortList() }}. Open one to see its current openings and apply straight through: no account, no fee.</p>
 
         <form method="GET" action="{{ route('jobs.companies') }}" class="companies-search">
             <input type="text" name="q" value="{{ $search ?? '' }}" placeholder="Search by company name…" autocomplete="off">
@@ -490,7 +490,7 @@
     <div class="companies-toolbar">
         <div class="results-info">
             @if(!empty($search))
-                Results for <strong>“{{ $search }}”</strong> &mdash;
+                Results for <strong>“{{ $search }}”</strong>:
             @endif
             Showing <strong>{{ $companies->firstItem() ?? 0 }}–{{ $companies->lastItem() ?? 0 }}</strong>
             of <strong>{{ number_format($companies->total()) }}</strong> companies
@@ -554,7 +554,7 @@
                         @if(!empty($search))
                             We couldn't find any companies matching “{{ $search }}”. Try a different search.
                         @else
-                            Check back soon — new employers join every day.
+                            Check back soon: new employers join every day.
                         @endif
                     </p>
                 </div>
@@ -567,7 +567,7 @@
 </div>
 
 {{-- ============================================================
-     Why Companies Trust JobGader — 4-card horizontal row
+     Why Companies Trust JobGader: 4-card horizontal row
      ============================================================ --}}
 <section class="emp-why-section">
     <div class="container">
@@ -602,7 +602,7 @@
 </section>
 
 {{-- ============================================================
-     SEO row — image + text + floating badges
+     SEO row: image + text + floating badges
      ============================================================ --}}
 <section class="emp-seo-section">
     <div class="container">
@@ -627,7 +627,7 @@
             <div class="emp-seo-visual">
                 <img src="{{ asset('public/user/images/single-company.webp') }}"
                      onerror="this.onerror=null;this.src='{{ asset('public/user/images/single-company.jpg') }}'"
-                     alt="Hire on JobGader — verified employer platform" loading="lazy" decoding="async">
+                     alt="Hire on JobGader: verified employer platform" loading="lazy" decoding="async">
                 <div class="emp-float-badge tl">
                     <div class="ico green"><i class="icon-feather-check-circle"></i></div>
                     <div class="text">
@@ -648,7 +648,7 @@
 </section>
 
 {{-- ============================================================
-     How It Works — 4-step process
+     How It Works: 4-step process
      ============================================================ --}}
 <section class="emp-process-section">
     <div class="container">
@@ -676,7 +676,7 @@
             <div class="emp-process-card">
                 <div class="emp-step-num">4</div>
                 <h3>Hire Confidently</h3>
-                <p>Message, schedule and hire — all from one place. Track candidates through your pipeline.</p>
+                <p>Message, schedule and hire: all from one place. Track candidates through your pipeline.</p>
             </div>
         </div>
     </div>

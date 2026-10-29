@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Emirates Cabin Crew Jobs in the UAE" — an employer guide
+ * "How to Apply for Emirates Cabin Crew Jobs in the UAE": an employer guide
  * written from Emirates' own cabin crew pages, with UAE government sources
  * for the tax and end-of-service rules.
  *
@@ -161,7 +161,7 @@ class EmiratesCabinCrewJobsUaeBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> the requirements, pay and recruitment events are set and published by the Emirates Group &mdash; not by JobGader. Emirates states that any job offer appearing to come from it that asks you for money is fraudulent.</p>
+<p><strong>Note:</strong> the requirements, pay and recruitment events are set and published by the Emirates Group, not by JobGader. Emirates states that any job offer appearing to come from it that asks you for money is fraudulent.</p>
 JOBHTML;
     }
 
@@ -336,19 +336,19 @@ JOBHTML;
 <p>Looking at Gulf and hospitality work more widely? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a> &mdash; the ground route at the same airport, with the shift rules spelled out.</li>
-    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a> &mdash; the ground route in Oman, where Omanisation comes before every other question.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; front-of-house work in Dubai and Abu Dhabi.</li>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; the hospitality experience Emirates asks for, and where to get it.</li>
-    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a> &mdash; the other big Gulf market and how its sponsorship works.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; another route into the Emirates with employer sponsorship.</li>
-    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a> &mdash; the professional end of the UAE market.</li>
-    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a> &mdash; driving and delivery work in the Emirates.</li>
-    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; the Gulf carrier that publishes neither pay nor standing requirements.</li>
-    <li><a href="/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs">How to Apply for Kuwait Airways Cabin Crew Jobs</a> &mdash; the Gulf carrier whose careers portal most guides cannot find.</li>
-    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; why Abu Dhabi ground jobs are advertised by a company called Velora.</li>
-    <li><a href="/blog/how-to-apply-for-singapore-airlines-cabin-crew-jobs">How to Apply for Singapore Airlines Cabin Crew Jobs</a> &mdash; published pay, a five-year contract, and the service bond most guides omit.</li>
-    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a> &mdash; the five year vetting and counter terrorism check that decide the application.</li>
+    <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a>: the ground route at the same airport, with the shift rules spelled out.</li>
+    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a>: the ground route in Oman, where Omanisation comes before every other question.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: front-of-house work in Dubai and Abu Dhabi.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>: the hospitality experience Emirates asks for, and where to get it.</li>
+    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a>: the other big Gulf market and how its sponsorship works.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: another route into the Emirates with employer sponsorship.</li>
+    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a>: the professional end of the UAE market.</li>
+    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a>: driving and delivery work in the Emirates.</li>
+    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a>: the Gulf carrier that publishes neither pay nor standing requirements.</li>
+    <li><a href="/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs">How to Apply for Kuwait Airways Cabin Crew Jobs</a>: the Gulf carrier whose careers portal most guides cannot find.</li>
+    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a>: why Abu Dhabi ground jobs are advertised by a company called Velora.</li>
+    <li><a href="/blog/how-to-apply-for-singapore-airlines-cabin-crew-jobs">How to Apply for Singapore Airlines Cabin Crew Jobs</a>: published pay, a five-year contract, and the service bond most guides omit.</li>
+    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a>: the five year vetting and counter terrorism check that decide the application.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using the Emirates Group Careers cabin crew pages for requirements, pay, process and training, the Emirates recruitment fraud notice, and UAE government guidance for tax and end-of-service rules. Requirements and recruitment events change between hiring cycles. Always check the official cabin crew page before you travel to an Open Day.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "AI Content Writer Jobs in USA" — a sector guide rather than one vacancy, so
+ * "AI Content Writer Jobs in USA": a sector guide rather than one vacancy, so
  * the apply link goes to an Indeed search and the post carries no JobPosting
  * markup.
  *
@@ -126,13 +126,13 @@ class AiContentWriterUsaBlogSeeder extends Seeder
 <p>Marketing agencies, SaaS companies and content platforms across the United States hire writers who work with AI tools rather than around them: building the brief, generating a first draft, then editing it into something accurate, specific and worth publishing. The role is remote-first almost everywhere, because the whole workflow lives on a laptop.</p>
 
 <h3>What is actually being screened</h3>
-<p>Editing judgement, not prompting. Employers want to see that you can catch what a model gets wrong &mdash; invented facts, confident but unsourced claims, generic phrasing, repetition, and a structure that says nothing. The writing and editing skill is still the job; the tool has only moved where in the process it is applied.</p>
+<p>Editing judgement, not prompting. Employers want to see that you can catch what a model gets wrong: invented facts, confident but unsourced claims, generic phrasing, repetition, and a structure that says nothing. The writing and editing skill is still the job; the tool has only moved where in the process it is applied.</p>
 
 <h3>Requirements</h3>
 <ul>
     <li>Strong written English and a demonstrable editing eye</li>
     <li>Working familiarity with at least one major AI writing tool and a workflow you can describe</li>
-    <li>Fact-checking discipline &mdash; you are the last step before a false claim is published under a client's name</li>
+    <li>Fact-checking discipline: you are the last step before a false claim is published under a client's name</li>
     <li>A portfolio, ideally showing a draft beside your edited version</li>
     <li>SEO basics for most agency roles: search intent, structure, and internal linking</li>
 </ul>
@@ -141,20 +141,20 @@ class AiContentWriterUsaBlogSeeder extends Seeder
 <ul>
     <li><strong>Salaried roles</strong> at agencies, SaaS companies and content platforms, usually remote with some time-zone overlap</li>
     <li><strong>Contract and freelance work</strong> priced per article, per hour or per word</li>
-    <li>Where the value you add is editing rather than volume, <strong>per-word pay works against you</strong> &mdash; ask for per-piece or hourly instead</li>
+    <li>Where the value you add is editing rather than volume, <strong>per-word pay works against you</strong>: ask for per-piece or hourly instead</li>
 </ul>
 
 <h3>Before you apply</h3>
 <p><strong>Ask about disclosure and ownership.</strong> Whether AI assistance may be used, whether it must be declared to the end client, and who owns the output are all normal questions and the answers vary by employer. Be equally wary of postings offering unusually high pay for high-volume output with no editing expectation; that is content farming, and it is the part of this market that disappears.</p>
 
-<p><strong>Note:</strong> pay, tooling and disclosure policies are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, tooling and disclosure policies are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>The job title is new; the job mostly is not. What changed is where the writing effort goes. Instead of producing a first draft from a blank page, an AI content writer builds the brief, generates the draft, and then does the part that actually determines whether the piece is publishable &mdash; checking it, cutting it, and making it specific. Employers have worked this out, which is why the screening is on editing judgement rather than on prompting. This guide covers what the role pays, how to be paid fairly for it, and the two questions candidates get wrong in interviews.</p>
+<p>The job title is new; the job mostly is not. What changed is where the writing effort goes. Instead of producing a first draft from a blank page, an AI content writer builds the brief, generates the draft, and then does the part that actually determines whether the piece is publishable: checking it, cutting it, and making it specific. Employers have worked this out, which is why the screening is on editing judgement rather than on prompting. This guide covers what the role pays, how to be paid fairly for it, and the two questions candidates get wrong in interviews.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/writing-content?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -179,24 +179,24 @@ JOBHTML;
 <p>Advertised bands vary by experience, employment type and metro, and they sit in roughly the same place as conventional content roles:</p>
 
 <ul>
-    <li><strong>Entry-level and junior</strong> &mdash; commonly advertised around $35,000 to $50,000 a year.</li>
-    <li><strong>Mid-level with strong editing and SEO skills</strong> &mdash; commonly $50,000 to $75,000.</li>
-    <li><strong>Senior and specialised</strong> &mdash; technical, financial, healthcare or deep SaaS content pays above that, because the fact-checking burden is higher and fewer people can carry it.</li>
+    <li><strong>Entry-level and junior</strong>: commonly advertised around $35,000 to $50,000 a year.</li>
+    <li><strong>Mid-level with strong editing and SEO skills</strong>: commonly $50,000 to $75,000.</li>
+    <li><strong>Senior and specialised</strong>: technical, financial, healthcare or deep SaaS content pays above that, because the fact-checking burden is higher and fewer people can carry it.</li>
 </ul>
 
 <p>Freelance and contract work is priced per article, per hour or per word instead of as a salary. Treat those bands as what gets advertised, not as a ceiling, and remember that a niche where being wrong is expensive pays more than a general one.</p>
 
 <h2>Why Per-Word Pay Is the Wrong Structure Here</h2>
 
-<p>This is the practical point most guides miss. If the value you add is editing &mdash; cutting a bloated draft, removing repetition, replacing vague claims with checked specifics &mdash; then per-word pay pays you less the better you do the job. A 900-word piece that says something is more work and more value than a 1,500-word one that does not, and per-word pricing rewards the wrong one.</p>
+<p>This is the practical point most guides miss. If the value you add is editing, cutting a bloated draft, removing repetition, replacing vague claims with checked specifics, then per-word pay pays you less the better you do the job. A 900-word piece that says something is more work and more value than a 1,500-word one that does not, and per-word pricing rewards the wrong one.</p>
 
 <p>Ask for <strong>per-piece or hourly</strong> instead, and if a client insists on per-word, agree the word count as a range in the brief rather than a target to hit. The same logic applies to turnaround: agree how many revision rounds are included before starting, not after the second one arrives.</p>
 
 <h2>What Google Actually Says About AI Content</h2>
 
-<p>Candidates get asked about this, and the common answer &mdash; that Google penalises AI-written content &mdash; is not what the guidance says. Google's position is that its ranking systems reward helpful, original content demonstrating experience and expertise, regardless of how it was produced. What its spam policies target is <em>scaled content abuse</em>: generating large volumes of content, by any method including automation, primarily to manipulate search rankings rather than to help readers.</p>
+<p>Candidates get asked about this, and the common answer, that Google penalises AI-written content, is not what the guidance says. Google's position is that its ranking systems reward helpful, original content demonstrating experience and expertise, regardless of how it was produced. What its spam policies target is <em>scaled content abuse</em>: generating large volumes of content, by any method including automation, primarily to manipulate search rankings rather than to help readers.</p>
 
-<p>The distinction is the whole job. AI-assisted content that is checked, specific and genuinely useful is not the thing being targeted. Mass-produced, unedited output aimed at rankings is &mdash; and it is also the corner of this market with the least job security, because it is the first thing clients cut when it stops working. Being able to explain that difference in an interview marks you out immediately.</p>
+<p>The distinction is the whole job. AI-assisted content that is checked, specific and genuinely useful is not the thing being targeted. Mass-produced, unedited output aimed at rankings is, and it is also the corner of this market with the least job security, because it is the first thing clients cut when it stops working. Being able to explain that difference in an interview marks you out immediately.</p>
 
 <h2>Freelance AI Content Writer Jobs</h2>
 
@@ -212,7 +212,7 @@ JOBHTML;
 
 <h2>AI Content Writer Jobs with No Experience</h2>
 
-<p>Many employers hiring for junior and freelance roles care more about a strong sample and demonstrable editing judgement than formal experience. If you have no professional history, practice pieces are accepted &mdash; take an AI draft on a subject you actually know, edit it properly, and show both versions with a short note on what you changed and why.</p>
+<p>Many employers hiring for junior and freelance roles care more about a strong sample and demonstrable editing judgement than formal experience. If you have no professional history, practice pieces are accepted: take an AI draft on a subject you actually know, edit it properly, and show both versions with a short note on what you changed and why.</p>
 
 <p>The subject matters. Editing a draft about something you understand demonstrates fact-checking; editing one about something you do not demonstrates only that you can rewrite sentences.</p>
 
@@ -220,17 +220,17 @@ JOBHTML;
 
 <p>Remote-first is the default. Roles range from full-time salaried positions at agencies and SaaS companies to flexible freelance contracts, and the requirement, where there is one, is time-zone overlap with the team rather than a location. Freelance work is usually fully asynchronous.</p>
 
-<p>For writers outside the United States applying to US employers, confirm the payment route in the same conversation as the rate &mdash; our guide to <a href="/blog/remote-jobs-in-pakistan-with-no-experience">remote jobs with no experience</a> covers how that works from Pakistan specifically.</p>
+<p>For writers outside the United States applying to US employers, confirm the payment route in the same conversation as the rate: our guide to <a href="/blog/remote-jobs-in-pakistan-with-no-experience">remote jobs with no experience</a> covers how that works from Pakistan specifically.</p>
 
 <h2>How to Apply for AI Content Writer Jobs</h2>
 
 <ol>
-    <li><strong>Build a portfolio that shows the edit,</strong> not just the finished piece &mdash; draft beside final, with a line on what changed.</li>
+    <li><strong>Build a portfolio that shows the edit,</strong> not just the finished piece: draft beside final, with a line on what changed.</li>
     <li><strong>Get fluent in one major AI writing tool</strong> and be able to describe your workflow in a sentence, because you will be asked.</li>
     <li><strong>Lead with fact-checking and originality</strong> in the application. That is the difference employers are buying.</li>
     <li><strong>Apply through job boards and known agencies,</strong> not vague AI writer gigs promising unusually high pay for little work.</li>
     <li><strong>For freelance work, agree the pay structure and revision policy up front,</strong> and push for per-piece or hourly over per-word.</li>
-    <li><strong>Ask about disclosure and ownership</strong> &mdash; whether AI use is permitted, whether it must be declared, and who owns the output.</li>
+    <li><strong>Ask about disclosure and ownership</strong>: whether AI use is permitted, whether it must be declared, and who owns the output.</li>
 </ol>
 
 <h2>Frequently Asked Questions</h2>
@@ -290,16 +290,16 @@ JOBHTML;
 <p>Looking at the rest of the remote writing market? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/ats-resume-writer-jobs-in-usa">ATS Resume Writer Jobs in USA</a> &mdash; a steadier remote writing niche, its certifications, and the industry statistic that is not true.</li>
-    <li><a href="/blog/copywriter-jobs-in-usa">Copywriter Jobs in USA</a> &mdash; the persuasion side of writing, which BLS names as the part still holding up.</li>
-    <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; the same AI pressure on the visual side, plus what the copyright position means for client work.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; how international remote work and payment routes actually operate.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; the steadiest remote category, its shifts and its monitoring.</li>
-    <li><a href="/blog/digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan">Digital Marketing Expert (SEO) &mdash; Remote, Pakistan</a> &mdash; an adjacent content role with a defined skill set.</li>
-    <li><a href="/blog/content-writer-jobs-in-usa">Content Writer Jobs in USA</a> &mdash; the wider content market the editing work sits inside, and which niches hold their rate.</li>
+    <li><a href="/blog/ats-resume-writer-jobs-in-usa">ATS Resume Writer Jobs in USA</a>: a steadier remote writing niche, its certifications, and the industry statistic that is not true.</li>
+    <li><a href="/blog/copywriter-jobs-in-usa">Copywriter Jobs in USA</a>: the persuasion side of writing, which BLS names as the part still holding up.</li>
+    <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a>: the same AI pressure on the visual side, plus what the copyright position means for client work.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: how international remote work and payment routes actually operate.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: the steadiest remote category, its shifts and its monitoring.</li>
+    <li><a href="/blog/digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan">Digital Marketing Expert (SEO), Remote, Pakistan</a>, an adjacent content role with a defined skill set.</li>
+    <li><a href="/blog/content-writer-jobs-in-usa">Content Writer Jobs in USA</a>: the wider content market the editing work sits inside, and which niches hold their rate.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Pay bands, platform policies and search engine guidance change &mdash; confirm current terms with the employer and the current guidance at its source before relying on either.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Pay bands, platform policies and search engine guidance change: confirm current terms with the employer and the current guidance at its source before relying on either.</p>
 HTML;
     }
 }

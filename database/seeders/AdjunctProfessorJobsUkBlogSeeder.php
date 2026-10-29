@@ -263,24 +263,24 @@ class AdjunctProfessorJobsUkBlogSeeder extends Seeder
 <h2 id="more-guides">More Job Guides</h2>
 
 <ul>
-    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; the paid route, what a "teaching hour" actually buys, and why hourly work cannot usually be sponsored.</li>
-    <li><a href="/blog/adjunct-teaching-jobs-in-the-uk">Adjunct Teaching Jobs in the UK</a> &mdash; teaching alongside another career, and the exclusivity clause that turns out to be unenforceable.</li>
-    <li><a href="/blog/adjunct-faculty-vacancies-in-the-uk">Adjunct Faculty Vacancies in the UK</a> &mdash; the four kinds of institution that hire part-time teachers, and why so little is advertised.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the sponsorship routes that do work, and the ones that do not.</li>
-    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; teaching income that does not depend on a UK visa.</li>
-    <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a> &mdash; a teaching route with a far more accessible visa.</li>
-    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a> &mdash; UK employment with a different vetting and sponsorship picture.</li>
-    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a> &mdash; the international picture: what a US course section pays, and what the job is called in each country.</li>
+    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a>: the paid route, what a "teaching hour" actually buys, and why hourly work cannot usually be sponsored.</li>
+    <li><a href="/blog/adjunct-teaching-jobs-in-the-uk">Adjunct Teaching Jobs in the UK</a>: teaching alongside another career, and the exclusivity clause that turns out to be unenforceable.</li>
+    <li><a href="/blog/adjunct-faculty-vacancies-in-the-uk">Adjunct Faculty Vacancies in the UK</a>: the four kinds of institution that hire part-time teachers, and why so little is advertised.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the sponsorship routes that do work, and the ones that do not.</li>
+    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a>: teaching income that does not depend on a UK visa.</li>
+    <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a>: a teaching route with a far more accessible visa.</li>
+    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a>: UK employment with a different vetting and sponsorship picture.</li>
+    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a>: the international picture: what a US course section pays, and what the job is called in each country.</li>
 </ul>
 
 <h2 id="sources">Official Sources</h2>
 
 <ul>
-    <li><a href="https://www.bath.ac.uk/legal-information/honorary-and-visiting-academic-appointments/" rel="nofollow noopener" target="_blank">University of Bath &mdash; Honorary and Visiting Academic Appointments</a>, code of practice, approved 13 March 2024</li>
-    <li><a href="https://www.hw.ac.uk/uk/services/policy-governance/senate/honorary-titles.htm" rel="nofollow noopener" target="_blank">Heriot-Watt University &mdash; Honorary, Visiting and Emeritus Titles Policy</a>, last reviewed 27 April 2022</li>
-    <li><a href="https://www.essex.ac.uk/-/media/documents/directories/human-resources/visiting-and-honorary-academic-titles-policy-procedure.pdf" rel="nofollow noopener" target="_blank">University of Essex &mdash; Visiting and Honorary Academic Titles Policy and Procedure</a>, amended February 2026</li>
-    <li><a href="https://www.qmul.ac.uk/human-resources/" rel="nofollow noopener" target="_blank">Queen Mary University of London &mdash; Honorary and Visiting Status and Titles Policy</a>, last reviewed January 2026</li>
-    <li><a href="https://www.gov.uk/skilled-worker-visa" rel="nofollow noopener" target="_blank">GOV.UK &mdash; Skilled Worker visa</a>, including the eligibility and salary requirements</li>
+    <li><a href="https://www.bath.ac.uk/legal-information/honorary-and-visiting-academic-appointments/" rel="nofollow noopener" target="_blank">University of Bath: Honorary and Visiting Academic Appointments</a>, code of practice, approved 13 March 2024</li>
+    <li><a href="https://www.hw.ac.uk/uk/services/policy-governance/senate/honorary-titles.htm" rel="nofollow noopener" target="_blank">Heriot-Watt University: Honorary, Visiting and Emeritus Titles Policy</a>, last reviewed 27 April 2022</li>
+    <li><a href="https://www.essex.ac.uk/-/media/documents/directories/human-resources/visiting-and-honorary-academic-titles-policy-procedure.pdf" rel="nofollow noopener" target="_blank">University of Essex: Visiting and Honorary Academic Titles Policy and Procedure</a>, amended February 2026</li>
+    <li><a href="https://www.qmul.ac.uk/human-resources/" rel="nofollow noopener" target="_blank">Queen Mary University of London: Honorary and Visiting Status and Titles Policy</a>, last reviewed January 2026</li>
+    <li><a href="https://www.gov.uk/skilled-worker-visa" rel="nofollow noopener" target="_blank">GOV.UK: Skilled Worker visa</a>, including the eligibility and salary requirements</li>
 </ul>
 
 <p style="font-size:14px;color:#666;margin-top:26px;">Checked on 30 September 2026. University policies and immigration rules change; read the policy of the institution you are dealing with and confirm visa requirements on GOV.UK before acting. JobGader is not a recruiter and does not accept payment from applicants.</p>

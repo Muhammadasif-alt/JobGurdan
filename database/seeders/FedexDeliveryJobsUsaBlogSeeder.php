@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for FedEx Delivery Jobs in the USA" — an employer guide built on
+ * "How to Apply for FedEx Delivery Jobs in the USA": an employer guide built on
  * FedEx's own careers site, FedEx's own contracting site for FedEx Ground
  * service providers, FedEx investor announcements and Bureau of Labor
  * Statistics wage data, rather than the aggregator listings the draft relied on.
@@ -206,7 +206,7 @@ class FedexDeliveryJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay rates, shift lengths and hiring standards are set by FedEx and by each independent service provider &mdash; not by JobGader. Apply directly on FedEx Careers, check whether the advert comes from FedEx or from a contractor, and never pay anyone for a FedEx job.</p>
+<p><strong>Note:</strong> pay rates, shift lengths and hiring standards are set by FedEx and by each independent service provider, not by JobGader. Apply directly on FedEx Careers, check whether the advert comes from FedEx or from a contractor, and never pay anyone for a FedEx job.</p>
 JOBHTML;
     }
 
@@ -308,7 +308,7 @@ JOBHTML;
 
 <ul>
     <li><strong>You do not need a driver's licence to be a package handler.</strong> FedEx's page says only that "Material Handlers must possess a valid driver's license." Material Handler is a separate title that involves moving vehicles and powered equipment. Standard package handler roles carry no licence requirement at all.</li>
-    <li><strong>The hours are short by design.</strong> FedEx's own wording: "Part time Federal Express Corporation (FEC) employees work one shift a day; full time Federal Express Corporation (FEC) employees work two shifts. Shift lengths vary based on package volume &mdash; generally part time employees work between 3 and 6 hours a day." Casual handlers work up to 24 hours a week.</li>
+    <li><strong>The hours are short by design.</strong> FedEx's own wording: "Part time Federal Express Corporation (FEC) employees work one shift a day; full time Federal Express Corporation (FEC) employees work two shifts. Shift lengths vary based on package volume: generally part time employees work between 3 and 6 hours a day." Casual handlers work up to 24 hours a week.</li>
 </ul>
 
 <p>That volume clause matters more than the headline rate. A three-hour shift at $20.20 is about $60 before tax. Treat part-time handler work as a second income or a foot in the door, not as a full-time wage.</p>
@@ -396,16 +396,16 @@ JOBHTML;
 <p>Comparing US delivery and warehouse employers? These cover the rest of the market:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a> &mdash; the union contract that sets the pay scale, shift by shift.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; the wider market beyond the two big carriers.</li>
-    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; the licence classes and endorsements, and what each one unlocks.</li>
-    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long Haul Truck Driver in USA</a> &mdash; the step up from local delivery routes.</li>
-    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a> &mdash; the closest warehouse comparison on pay and shift length.</li>
-    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; the certification that lifts you out of hand sorting.</li>
-    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a> &mdash; another employer that publishes its own starting rates.</li>
-    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a> &mdash; factory work with a published hourly range and stock awards.</li>
-    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; the honest answer on sponsorship for driving work.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; which entry-level routes are genuinely open from abroad.</li>
+    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a>: the union contract that sets the pay scale, shift by shift.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: the wider market beyond the two big carriers.</li>
+    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a>: the licence classes and endorsements, and what each one unlocks.</li>
+    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long Haul Truck Driver in USA</a>: the step up from local delivery routes.</li>
+    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a>: the closest warehouse comparison on pay and shift length.</li>
+    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a>: the certification that lifts you out of hand sorting.</li>
+    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a>: another employer that publishes its own starting rates.</li>
+    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a>: factory work with a published hourly range and stock awards.</li>
+    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a>: the honest answer on sponsorship for driving work.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>, which entry-level routes are genuinely open from abroad.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using FedEx Careers career-area pages and FedEx's own job postings, FedEx's published contracting standards for FedEx Ground service providers, FedEx investor and newsroom announcements on the 2024 operating company consolidation and the 2026 FedEx Freight spin-off, and Bureau of Labor Statistics occupational wage data. FedEx pay rates are set locally and postings expire quickly, and service provider terms are set by each independent business. Always check the live posting, and confirm who your employer would be, before you accept an offer.</p>

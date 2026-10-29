@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Etihad Airport Jobs in UAE" — the guide whose answer is
+ * "How to Apply for Etihad Airport Jobs in UAE": the guide whose answer is
  * that the reader is applying to the wrong company. Ground handling at Zayed
  * International Airport left Etihad for ADQ and now trades as Velora, so the
  * ramp, baggage and check-in jobs people search for under Etihad's name are
@@ -172,7 +172,7 @@ class EtihadAirportJobsUaeBlogSeeder extends Seeder
 <h3>Recruitment fees</h3>
 <p>Article 6(4) of Federal Decree-Law No. 33 of 2021 states that the employer is prohibited from charging the worker the fees and costs of recruitment and employment, or collecting them from him, whether directly or indirectly. The UAE Government puts it plainly: if a company or agency asks you for money to process a visa or a medical test, it is not a genuine company.</p>
 
-<p>Pay, shifts, eligibility and visa rules are set by the employer, the Ministry of Human Resources and Emiratisation and UAE labour law &mdash; not by JobGader. Confirm the requirements on the live posting, and verify any job offer with MOHRE before you travel.</p>
+<p>Pay, shifts, eligibility and visa rules are set by the employer, the Ministry of Human Resources and Emiratisation and UAE labour law, not by JobGader. Confirm the requirements on the live posting, and verify any job offer with MOHRE before you travel.</p>
 JOBHTML;
     }
 
@@ -213,7 +213,7 @@ JOBHTML;
 <p>Velora groups its vacancies into categories that do not expire, so these are safe to bookmark:</p>
 
 <ul>
-    <li><a href="https://careers.velora.ae/go/Ground-Service/4197322/" target="_blank" rel="noopener nofollow">Ground Service</a> &mdash; the ramp, baggage and passenger-handling roles.</li>
+    <li><a href="https://careers.velora.ae/go/Ground-Service/4197322/" target="_blank" rel="noopener nofollow">Ground Service</a>: the ramp, baggage and passenger-handling roles.</li>
     <li><a href="https://careers.velora.ae/go/Cargo-Services/4197522/" target="_blank" rel="noopener nofollow">Cargo Services</a></li>
     <li><a href="https://careers.velora.ae/go/Security-Services/4197422/" target="_blank" rel="noopener nofollow">Security Services</a></li>
 </ul>
@@ -228,7 +228,7 @@ JOBHTML;
 
 <p>Two more things worth clearing up, because guides get them wrong:</p>
 
-<p><strong>The "International" category is not a route into Abu Dhabi ground work.</strong> It is outstation management &mdash; Airport Manager and Duty Supervisor roles at overseas stations such as Manama, Asmara, Harare, Male and Zurich. Those are management jobs abroad, not ramp jobs at home.</p>
+<p><strong>The "International" category is not a route into Abu Dhabi ground work.</strong> It is outstation management: Airport Manager and Duty Supervisor roles at overseas stations such as Manama, Asmara, Harare, Male and Zurich. Those are management jobs abroad, not ramp jobs at home.</p>
 
 <p><strong>Etihad's airport trainee programmes are for UAE Nationals.</strong> Etihad's Airports and Ground Operations Programmes do rotate trainees through check-in, boarding, transfer services, baggage operations and arrivals at Zayed International Airport, combined with classroom learning. But Etihad describes them as part of its Emiratisation strategy, creating career pathways for UAE Nationals. If you are not Emirati, this route is closed.</p>
 
@@ -260,7 +260,7 @@ JOBHTML;
         </tr>
         <tr>
             <td style="padding:10px;border:1px solid #e5e7eb;">Working hours</td>
-            <td style="padding:10px;border:1px solid #e5e7eb;">8 hours a day or 48 a week; overtime at basic wage +25%, or +50% between 10pm and 4am &mdash; but the UAE Government adds that "this rule does not apply on workers who work on basis of shifts", which is what a ground roster is</td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">8 hours a day or 48 a week; overtime at basic wage +25%, or +50% between 10pm and 4am, but the UAE Government adds that "this rule does not apply on workers who work on basis of shifts", which is what a ground roster is</td>
         </tr>
         <tr>
             <td style="padding:10px;border:1px solid #e5e7eb;">Getting paid</td>
@@ -375,18 +375,18 @@ JOBHTML;
 <p>Looking at the Gulf more broadly, or at the airline side rather than the ground? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a> &mdash; the same work at DXB, and why the night shift premium may not reach you.</li>
-    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a> &mdash; the same work in Oman, where the first question is whether an expatriate can get a permit at all.</li>
-    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; the other big UAE airline, and what it really asks for.</li>
-    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a> &mdash; ground work you can actually get hired into.</li>
-    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; a smaller Gulf carrier with clearer entry rules.</li>
-    <li><a href="/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs">How to Apply for Kuwait Airways Cabin Crew Jobs</a> &mdash; and the age limits that actually apply.</li>
-    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a> &mdash; an employer that does publish what it pays.</li>
-    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a> &mdash; the famous employer whose job board is currently empty.</li>
-    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a> &mdash; the government portal that replaced PetroJobs.</li>
-    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a> &mdash; an airline that publishes its ramp pay, and the clearance that gates it.</li>
-    <li><a href="/blog/how-to-apply-for-singapore-airlines-cabin-crew-jobs">How to Apply for Singapore Airlines Cabin Crew Jobs</a> &mdash; published pay, a five-year contract, and the service bond most guides omit.</li>
-    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a> &mdash; the five year vetting and counter terrorism check that decide the application.</li>
+    <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a>: the same work at DXB, and why the night shift premium may not reach you.</li>
+    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a>: the same work in Oman, where the first question is whether an expatriate can get a permit at all.</li>
+    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a>: the other big UAE airline, and what it really asks for.</li>
+    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a>: ground work you can actually get hired into.</li>
+    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a>: a smaller Gulf carrier with clearer entry rules.</li>
+    <li><a href="/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs">How to Apply for Kuwait Airways Cabin Crew Jobs</a>, and the age limits that actually apply.</li>
+    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a>: an employer that does publish what it pays.</li>
+    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a>: the famous employer whose job board is currently empty.</li>
+    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a>: the government portal that replaced PetroJobs.</li>
+    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a>: an airline that publishes its ramp pay, and the clearance that gates it.</li>
+    <li><a href="/blog/how-to-apply-for-singapore-airlines-cabin-crew-jobs">How to Apply for Singapore Airlines Cabin Crew Jobs</a>: published pay, a five-year contract, and the service bond most guides omit.</li>
+    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a>: the five year vetting and counter terrorism check that decide the application.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Etihad's own newsroom and careers pages, Velora's corporate and careers sites, the IATA Ground Handling Partner directory, the UAE Government portal u.ae, and the official text of Federal Decree-Law No. 33 of 2021, checked on 22 September 2026. Vacancies, programme intakes and immigration rules change. Always check the live posting and the official government source before acting, and never pay anyone to secure a job.</p>

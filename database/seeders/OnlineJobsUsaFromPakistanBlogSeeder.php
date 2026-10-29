@@ -188,10 +188,10 @@ class OnlineJobsUsaFromPakistanBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a> &mdash; verify before you pay</li>
-    <li><a href="/blog/countries-visa-sponsorship-skilled-workers-2026">Countries That Offer Visa Sponsorship for Skilled Workers</a> &mdash; if you want to move</li>
-    <li><a href="/blog/top-skills-job-abroad-fast">Top Skills That Get You a Job Abroad Fast</a> &mdash; what clients pay for</li>
-    <li><a href="/blog/how-much-money-save-working-abroad">How Much Money Can You Save Working Abroad</a> &mdash; budget and remittances</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay</li>
+    <li><a href="/blog/countries-visa-sponsorship-skilled-workers-2026">Countries That Offer Visa Sponsorship for Skilled Workers</a>: if you want to move</li>
+    <li><a href="/blog/top-skills-job-abroad-fast">Top Skills That Get You a Job Abroad Fast</a>: what clients pay for</li>
+    <li><a href="/blog/how-much-money-save-working-abroad">How Much Money Can You Save Working Abroad</a>: budget and remittances</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>

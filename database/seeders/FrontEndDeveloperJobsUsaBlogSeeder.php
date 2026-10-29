@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Front End Developer Jobs in USA" — a sector guide rather than one vacancy,
+ * "Front End Developer Jobs in USA": a sector guide rather than one vacancy,
  * so the apply link goes to an Indeed search and the post carries no JobPosting
  * markup.
  *
@@ -141,14 +141,14 @@ class FrontEndDeveloperJobsUsaBlogSeeder extends Seeder
 <p>Product teams, agencies and e-commerce brands across the United States hire front end developers to turn designs into working interfaces and keep them fast, accessible and consistent across devices. Because the work is browser-based and reviewable through a pull request, most of these roles are remote or offer a remote option.</p>
 
 <h3>What the work involves</h3>
-<p>Implementing interfaces from design files, building and maintaining a component library, wiring those components to APIs and handling the states nobody designs for &mdash; loading, empty and error. Beyond that, the two things a front end role is actually measured on: whether the interface is usable with a keyboard and a screen reader, and whether it is fast on a mid-range phone.</p>
+<p>Implementing interfaces from design files, building and maintaining a component library, wiring those components to APIs and handling the states nobody designs for: loading, empty and error. Beyond that, the two things a front end role is actually measured on: whether the interface is usable with a keyboard and a screen reader, and whether it is fast on a mid-range phone.</p>
 
 <h3>Requirements</h3>
 <ul>
-    <li>Genuinely strong HTML, CSS and JavaScript &mdash; frameworks change, these transfer</li>
+    <li>Genuinely strong HTML, CSS and JavaScript: frameworks change, these transfer</li>
     <li>One modern framework in depth: React and Next.js are the most requested, with Vue and Angular common in specific sectors</li>
     <li>Responsive layout and cross-browser behaviour, and a working styling approach such as Tailwind or CSS modules</li>
-    <li>Accessibility to WCAG 2.1 Level AA &mdash; semantic markup, keyboard operability, focus management, ARIA used sparingly and correctly</li>
+    <li>Accessibility to WCAG 2.1 Level AA: semantic markup, keyboard operability, focus management, ARIA used sparingly and correctly</li>
     <li>Core Web Vitals literacy: what LCP, INP and CLS measure and how to move them</li>
     <li>Git, testing and enough build-tooling knowledge to debug a broken pipeline</li>
 </ul>
@@ -163,14 +163,14 @@ class FrontEndDeveloperJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask who owns accessibility.</strong> If the answer is nobody, that work will land on you eventually, without the time budgeted for it. If the answer is that the team tests for it, you are joining somewhere that takes engineering seriously.</p>
 
-<p><strong>Note:</strong> pay, remote policy and stack requirements are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, remote policy and stack requirements are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Front end is the most common way into US software work, and the easiest place to get stuck. The entry bar is low, so the bottom of this market is crowded with people who can style a page, and the pay reflects it. What separates the developers earning at the top of the band from the ones stuck at the bottom is not another framework &mdash; it is being able to point at a number. This guide covers what the work pays, and then the two things in front end engineering that are actually measured, one of which now has federal law behind it and almost no careers guide mentions.</p>
+<p>Front end is the most common way into US software work, and the easiest place to get stuck. The entry bar is low, so the bottom of this market is crowded with people who can style a page, and the pay reflects it. What separates the developers earning at the top of the band from the ones stuck at the bottom is not another framework: it is being able to point at a number. This guide covers what the work pays, and then the two things in front end engineering that are actually measured, one of which now has federal law behind it and almost no careers guide mentions.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -180,11 +180,11 @@ JOBHTML;
 
 <h2>Is Front End Development Still Growing?</h2>
 
-<p>Yes, but more slowly than the figure in circulation, and that figure is now out of date. BLS projects employment of <strong>web developers and digital designers to grow 5 per cent from 2025 to 2035</strong>, which it classes as <strong>faster than the average for all occupations</strong> &mdash; not "much faster". That is a rise of <strong>11,300 jobs</strong> on a <strong>2025 base of 220,100</strong>, with <strong>about 13,600 openings projected each year</strong> over the decade, most of them replacing people who change occupation or leave the workforce rather than newly created posts.</p>
+<p>Yes, but more slowly than the figure in circulation, and that figure is now out of date. BLS projects employment of <strong>web developers and digital designers to grow 5 per cent from 2025 to 2035</strong>, which it classes as <strong>faster than the average for all occupations</strong>, not "much faster". That is a rise of <strong>11,300 jobs</strong> on a <strong>2025 base of 220,100</strong>, with <strong>about 13,600 openings projected each year</strong> over the decade, most of them replacing people who change occupation or leave the workforce rather than newly created posts.</p>
 
 <p>If you meet 7 per cent growth over 2024 to 2034, or 15,500 jobs added, or a base of 214,900, those belong to the previous projection round and have been superseded. The same goes for a $90,930 median, which was the May 2024 figure.</p>
 
-<p>Where that 5 per cent sits matters more than the number itself. The wider <strong>software developer</strong> occupation is projected to grow <strong>10 per cent</strong> over the same decade, with <strong>about 106,100 openings a year</strong>. Front end work classed as software engineering rather than web development therefore sits in the faster-growing and better-paid of the two occupations &mdash; which is the most useful thing to know when deciding which postings to chase. Our <a href="/blog/web-developer-jobs-in-usa">web developer guide</a> covers this occupation in full, and <a href="/blog/software-developer-jobs-in-usa">the software developer guide</a> covers the one above it.</p>
+<p>Where that 5 per cent sits matters more than the number itself. The wider <strong>software developer</strong> occupation is projected to grow <strong>10 per cent</strong> over the same decade, with <strong>about 106,100 openings a year</strong>. Front end work classed as software engineering rather than web development therefore sits in the faster-growing and better-paid of the two occupations, which is the most useful thing to know when deciding which postings to chase. Our <a href="/blog/web-developer-jobs-in-usa">web developer guide</a> covers this occupation in full, and <a href="/blog/software-developer-jobs-in-usa">the software developer guide</a> covers the one above it.</p>
 
 <p>No vacancy count appears on this page. Job board totals count adverts rather than jobs, repeat the same role across several boards, and keep expired postings listed, so they cannot be reconciled with the official series.</p>
 
@@ -195,7 +195,7 @@ JOBHTML;
 <p>Against that, the usual progression:</p>
 
 <ul>
-    <li><strong>Entry level:</strong> $65,000 to $90,000 at product companies and in major metros &mdash; but note that with a tenth of the occupation under $48,100, first offers below $60,000 at agencies and outside the big cities are ordinary rather than insulting</li>
+    <li><strong>Entry level:</strong> $65,000 to $90,000 at product companies and in major metros, but note that with a tenth of the occupation under $48,100, first offers below $60,000 at agencies and outside the big cities are ordinary rather than insulting</li>
     <li><strong>Mid-level, two to five years:</strong> $90,000 to $125,000</li>
     <li><strong>Senior:</strong> $130,000 to $165,000, with the top tenth beginning above $162,290</li>
     <li><strong>Freelance and contract:</strong> $35 to $90+ an hour, before self-employment tax and unpaid time</li>
@@ -215,18 +215,18 @@ JOBHTML;
 
 <p>This is the most valuable thing a front end developer can know about the US market right now, and it is missing from essentially every guide on the subject.</p>
 
-<p>In 2024 the Department of Justice finalised its <strong>ADA Title II rule requiring state and local government web content and mobile apps to meet WCAG 2.1 Level AA</strong>. In April 2026 the DOJ extended the deadlines by a year: entities serving <strong>50,000 people or more must comply by 26 April 2027</strong>, and <strong>smaller entities and special districts by 26 April 2028</strong>. Critically, the rule reaches not only what a public body builds itself but content <strong>provided through its vendors and licensors</strong> &mdash; so agencies and contractors building for cities, counties, transit authorities, school districts and public universities are inside its scope, not beside it.</p>
+<p>In 2024 the Department of Justice finalised its <strong>ADA Title II rule requiring state and local government web content and mobile apps to meet WCAG 2.1 Level AA</strong>. In April 2026 the DOJ extended the deadlines by a year: entities serving <strong>50,000 people or more must comply by 26 April 2027</strong>, and <strong>smaller entities and special districts by 26 April 2028</strong>. Critically, the rule reaches not only what a public body builds itself but content <strong>provided through its vendors and licensors</strong>, so agencies and contractors building for cities, counties, transit authorities, school districts and public universities are inside its scope, not beside it.</p>
 
-<p>The private sector is driven by litigation rather than a rule. <strong>3,117 federal website accessibility lawsuits were filed in 2025</strong> under ADA Title III &mdash; up <strong>27 per cent</strong> on the previous year, the second-highest annual total on record, and <strong>36 per cent of all Title III federal filings</strong>, up from 28 per cent. Counting state courts, the combined total runs past <strong>5,000 a year</strong>.</p>
+<p>The private sector is driven by litigation rather than a rule. <strong>3,117 federal website accessibility lawsuits were filed in 2025</strong> under ADA Title III: up <strong>27 per cent</strong> on the previous year, the second-highest annual total on record, and <strong>36 per cent of all Title III federal filings</strong>, up from 28 per cent. Counting state courts, the combined total runs past <strong>5,000 a year</strong>.</p>
 
-<p>Put those together and the picture is simple. There is a legal deadline creating budgeted work on the public side, and a steady litigation risk creating budgeted work on the private side. <strong>The person who does that work is a front end developer.</strong> Not a designer, not a QA analyst &mdash; whoever writes the markup, manages focus, and decides whether a component is operable by keyboard.</p>
+<p>Put those together and the picture is simple. There is a legal deadline creating budgeted work on the public side, and a steady litigation risk creating budgeted work on the private side. <strong>The person who does that work is a front end developer.</strong> Not a designer, not a QA analyst: whoever writes the markup, manages focus, and decides whether a component is operable by keyboard.</p>
 
 <h3>What to actually learn</h3>
 <ul>
     <li><strong>Semantic HTML first.</strong> Most accessibility failures are a <code>div</code> doing a button's job. Native elements come with keyboard behaviour and screen reader semantics for free.</li>
     <li><strong>Keyboard operability and focus management.</strong> Every interactive thing reachable and usable by keyboard; focus visible; focus moved deliberately when a dialog opens and returned when it closes.</li>
     <li><strong>ARIA sparingly.</strong> The first rule of ARIA is not to use it where native HTML would do. Incorrect ARIA is worse than none.</li>
-    <li><strong>Colour contrast and text sizing</strong> to the WCAG AA thresholds &mdash; the most common automated failure, and the easiest to fix.</li>
+    <li><strong>Colour contrast and text sizing</strong> to the WCAG AA thresholds: the most common automated failure, and the easiest to fix.</li>
     <li><strong>Test with a screen reader.</strong> An hour with VoiceOver or NVDA teaches more than any checklist, and it is the thing that makes the skill real in an interview.</li>
 </ul>
 
@@ -262,7 +262,7 @@ JOBHTML;
 
 <p>Remote work is close to standard in front end, since the deliverable is reviewable in a pull request. Settle the same two questions as with any remote role: the <strong>hours of overlap</strong> expected, and whether the <strong>salary is indexed to your location</strong>.</p>
 
-<p>Freelance work is steady here &mdash; landing pages, marketing sites, e-commerce storefronts, UI implementation from Figma files, and performance and accessibility audits, which are increasingly commissioned on their own. If you are US-based, the rate has to absorb the <strong>federal self-employment tax of 15.3%</strong>, <strong>Schedule C</strong> filing, <strong>1099-NEC</strong> forms and <strong>quarterly estimated payments</strong> due 15 April, 15 June, 15 September and 15 January.</p>
+<p>Freelance work is steady here: landing pages, marketing sites, e-commerce storefronts, UI implementation from Figma files, and performance and accessibility audits, which are increasingly commissioned on their own. If you are US-based, the rate has to absorb the <strong>federal self-employment tax of 15.3%</strong>, <strong>Schedule C</strong> filing, <strong>1099-NEC</strong> forms and <strong>quarterly estimated payments</strong> due 15 April, 15 June, 15 September and 15 January.</p>
 
 <p>On working for a US company from outside the US: it is a real and common route, but be careful with the claim that it pays US rates. Most employers benchmark to your local market, and whether you are engaged as a contractor or through an employer of record changes your protections substantially. Our <a href="/blog/full-stack-developer-jobs-in-usa">full stack developer guide</a> covers that arrangement in detail, including the misclassification test applied under your own country's labour law.</p>
 
@@ -272,7 +272,7 @@ JOBHTML;
 <p>Front end sits in the BLS web developer occupation, at a $92,650 median as of May 2025, with the lowest ten per cent under $48,100 and the highest ten per cent above $162,290. Product and platform teams pay from the top of that band, marketing-site and CMS work from the bottom.</p>
 
 <h3>Is front end development still a good career?</h3>
-<p>Yes, but the bottom of the market is crowded. What separates the pay bands is measurable skill rather than another framework — accessibility and performance are the two areas where you can state your work as a number.</p>
+<p>Yes, but the bottom of the market is crowded. What separates the pay bands is measurable skill rather than another framework: accessibility and performance are the two areas where you can state your work as a number.</p>
 
 <h3>Why is accessibility suddenly worth learning?</h3>
 <p>Because it now has deadlines and litigation behind it. The DOJ's Title II rule requires WCAG 2.1 AA of state and local government web content by 26 April 2027 for larger entities and 26 April 2028 for smaller ones, and 3,117 federal website accessibility lawsuits were filed against private businesses in 2025 alone.</p>
@@ -287,7 +287,7 @@ JOBHTML;
 <p>React, with Next.js, opens the most US postings. Vue and Angular are common in specific sectors and enterprises. Depth in one interviews far better than passing familiarity with several.</p>
 
 <h3>Can I get a front end job with no degree?</h3>
-<p>Frequently, yes. BLS notes employer requirements in this occupation range from a high school diploma upward, and a small number of live, well-built projects carries real weight — particularly if one of them is demonstrably accessible.</p>
+<p>Frequently, yes. BLS notes employer requirements in this occupation range from a high school diploma upward, and a small number of live, well-built projects carries real weight: particularly if one of them is demonstrably accessible.</p>
 
 <h3>Do US companies pay international front end developers US rates?</h3>
 <p>Usually not. Most benchmark the offer to your local market. Whether you are a contractor or employed through an employer of record also changes your protections considerably, which is worth settling before you accept.</p>
@@ -304,7 +304,7 @@ JOBHTML;
 <p>$65,000 to $90,000 at product companies, lower at agencies and outside major metros. Two or three live projects beat ten tutorial builds.</p>
 
 <h3>UI developer jobs USA</h3>
-<p>Often the same role with a design-systems emphasis — component libraries, tokens and consistency across products.</p>
+<p>Often the same role with a design-systems emphasis: component libraries, tokens and consistency across products.</p>
 
 <h3>Front end developer salary entry level</h3>
 <p>With a tenth of the occupation under $48,100, first offers below $60,000 outside the big metros are ordinary rather than a red flag.</p>
@@ -323,18 +323,18 @@ JOBHTML;
 <p>Comparing the engineering routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage, what federal law calls it, and the adjustment you are entitled to ask for.</li>
-    <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a> &mdash; what "remote" means on a US advert, and where you owe tax when you work from home.</li>
-    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the same BLS occupation in full, and how to move up its distribution.</li>
-    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; which pay band that title is hiding, and what working for a US company from abroad really involves.</li>
-    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; the higher band, the H-1B lottery and the cap-exempt employers that avoid it.</li>
-    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the dominant library in this discipline, and the toolchain change that dates a portfolio.</li>
-    <li><a href="/blog/wordpress-developer-jobs-in-usa">WordPress Developer Jobs in USA</a> &mdash; where accessibility and performance work is most often billed on client sites.</li>
-    <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; who hands you the design files, and what their market looks like.</li>
-    <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a> &mdash; the same interface work on a device, priced against the $135,980 median rather than the $92,650 one.</li>
+    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a>: the assessment stage, what federal law calls it, and the adjustment you are entitled to ask for.</li>
+    <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a>: what "remote" means on a US advert, and where you owe tax when you work from home.</li>
+    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a>: the same BLS occupation in full, and how to move up its distribution.</li>
+    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a>, which pay band that title is hiding, and what working for a US company from abroad really involves.</li>
+    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a>: the higher band, the H-1B lottery and the cap-exempt employers that avoid it.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the dominant library in this discipline, and the toolchain change that dates a portfolio.</li>
+    <li><a href="/blog/wordpress-developer-jobs-in-usa">WordPress Developer Jobs in USA</a>: where accessibility and performance work is most often billed on client sites.</li>
+    <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a>, who hands you the design files, and what their market looks like.</li>
+    <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a>: the same interface work on a device, priced against the $135,980 median rather than the $92,650 one.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage data, accessibility regulations, compliance deadlines and performance thresholds change &mdash; confirm the current position with the Bureau of Labor Statistics, the Department of Justice, Google's published guidance and the employer's own advertisement before applying or relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage data, accessibility regulations, compliance deadlines and performance thresholds change: confirm the current position with the Bureau of Labor Statistics, the Department of Justice, Google's published guidance and the employer's own advertisement before applying or relying on any of it.</p>
 HTML;
     }
 }

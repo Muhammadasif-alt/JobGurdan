@@ -217,9 +217,9 @@ class FarmWorkerJobUsaFromPakistanBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/farm-worker-jobs-usa-visa-sponsorship-2026">Farm Worker Jobs in USA With Visa Sponsorship (2026)</a> &mdash; H-2A rules and requirements.</li>
-    <li><a href="/blog/farm-worker-salary-usa-2026">Farm Worker Salary in USA (2026)</a> &mdash; BLS averages and monthly examples.</li>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the Canadian route in detail.</li>
+    <li><a href="/blog/farm-worker-jobs-usa-visa-sponsorship-2026">Farm Worker Jobs in USA With Visa Sponsorship (2026)</a>: H-2A rules and requirements.</li>
+    <li><a href="/blog/farm-worker-salary-usa-2026">Farm Worker Salary in USA (2026)</a>: BLS averages and monthly examples.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: the Canadian route in detail.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Information is drawn from the US Department of Labor, the US Department of State and the Department of Homeland Security, reviewed on 8 October 2026. It does not confirm that a visa will be issued to any individual applicant, so check the US Embassy in Pakistan before you pay for anything.</p>

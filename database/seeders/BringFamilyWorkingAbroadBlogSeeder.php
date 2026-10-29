@@ -204,10 +204,10 @@ class BringFamilyWorkingAbroadBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/how-much-money-save-working-abroad">How Much Money Can You Save Working Abroad</a> &mdash; budget and family costs</li>
-    <li><a href="/blog/what-is-work-permit-how-it-works">What is a Work Permit and How Does it Work</a> &mdash; permit explained</li>
-    <li><a href="/blog/what-is-visa-sponsorship-how-it-works">What is Visa Sponsorship and How Does it Work</a> &mdash; how sponsorship works</li>
-    <li><a href="/blog/documents-needed-to-work-abroad-2026">Documents Needed to Work Abroad (2026)</a> &mdash; what to prepare</li>
+    <li><a href="/blog/how-much-money-save-working-abroad">How Much Money Can You Save Working Abroad</a>: budget and family costs</li>
+    <li><a href="/blog/what-is-work-permit-how-it-works">What is a Work Permit and How Does it Work</a>: permit explained</li>
+    <li><a href="/blog/what-is-visa-sponsorship-how-it-works">What is Visa Sponsorship and How Does it Work</a>: how sponsorship works</li>
+    <li><a href="/blog/documents-needed-to-work-abroad-2026">Documents Needed to Work Abroad (2026)</a>: what to prepare</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>

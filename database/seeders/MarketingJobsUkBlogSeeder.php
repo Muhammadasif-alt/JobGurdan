@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Marketing Jobs in UK" — a sector guide rather than one vacancy, so the apply
+ * "Marketing Jobs in UK": a sector guide rather than one vacancy, so the apply
  * link goes to an Indeed search and the post carries no JobPosting markup. It is
  * the UK generalist hub; the channel deep-dive lives in the digital marketing
  * guide, which this page cross-links to rather than repeating.
@@ -145,7 +145,7 @@ class MarketingJobsUkBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>Agencies, in-house brand teams, e-commerce companies, SaaS firms, charities and the public sector across the UK hire marketers &mdash; marketing assistants, executives, specialists and managers &mdash; to plan campaigns, run channels and grow demand.</p>
+<p>Agencies, in-house brand teams, e-commerce companies, SaaS firms, charities and the public sector across the UK hire marketers, marketing assistants, executives, specialists and managers, to plan campaigns, run channels and grow demand.</p>
 
 <h3>What the work involves</h3>
 <p>Planning and running campaigns across digital and traditional channels, writing and commissioning content, managing social media and email, measuring performance in analytics tools, and reporting results back to the business.</p>
@@ -165,16 +165,16 @@ class MarketingJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Check which rung the title really is</strong> &mdash; "executive", "manager" and "director" carry very different pay &mdash; and whether the role is office-based, hybrid or remote.</p>
+<p><strong>Check which rung the title really is</strong>, "executive", "manager" and "director" carry very different pay, and whether the role is office-based, hybrid or remote.</p>
 
-<p><strong>Note:</strong> pay, benefits and requirements are set by each employer &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, benefits and requirements are set by each employer, not by JobGader. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Marketing is one of the most accessible professional careers in the UK &mdash; you can enter from almost any degree, or none &mdash; and one of the most misunderstood when it comes to pay. "The average marketing salary" is a number that hides more than it tells, because a marketing assistant and a marketing director are both "in marketing" and earn three times apart. This guide sets out the real roles, what the official sources actually say the work pays, which qualifications are worth money and which are free, and how to break in.</p>
+<p>Marketing is one of the most accessible professional careers in the UK, you can enter from almost any degree, or none, and one of the most misunderstood when it comes to pay. "The average marketing salary" is a number that hides more than it tells, because a marketing assistant and a marketing director are both "in marketing" and earn three times apart. This guide sets out the real roles, what the official sources actually say the work pays, which qualifications are worth money and which are free, and how to break in.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/marketing?location=United%20Kingdom" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#0b5cab;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -206,15 +206,15 @@ JOBHTML;
 </table>
 </div>
 
-<p>Many marketers specialise early; in smaller companies one person wears several of these hats at once. For the channel side in depth &mdash; SEO, PPC, email and paid social &mdash; our <a href="/blog/digital-marketing-jobs-in-usa">digital marketing guide</a> breaks down the craft; this page is the map of the whole UK field.</p>
+<p>Many marketers specialise early; in smaller companies one person wears several of these hats at once. For the channel side in depth, SEO, PPC, email and paid social, our <a href="/blog/digital-marketing-jobs-in-usa">digital marketing guide</a> breaks down the craft; this page is the map of the whole UK field.</p>
 
 <h2>There Is No Single "Marketing" Salary</h2>
 
 <p>This is the correction that matters most. The UK's official statistics do not have one "marketing" occupation. The Office for National Statistics splits the field across two very different codes, and the gap between them is the whole story:</p>
 
 <ul>
-    <li><strong>SOC 3554 &mdash; Advertising and marketing associate professionals</strong> (executives and specialists). ONS ASHE 2025 provisional full-time median: about <strong>GBP 32,760</strong>.</li>
-    <li><strong>SOC 1132 &mdash; Marketing, sales and advertising directors.</strong> ONS ASHE 2025 provisional full-time median: about <strong>GBP 89,700</strong>.</li>
+    <li><strong>SOC 3554: Advertising and marketing associate professionals</strong> (executives and specialists). ONS ASHE 2025 provisional full-time median: about <strong>GBP 32,760</strong>.</li>
+    <li><strong>SOC 1132: Marketing, sales and advertising directors.</strong> ONS ASHE 2025 provisional full-time median: about <strong>GBP 89,700</strong>.</li>
 </ul>
 
 <p>So a single "average marketing salary" averages a GBP 33k executive with a GBP 90k director and describes neither. Read any range against the rung it belongs to.</p>
@@ -281,7 +281,7 @@ JOBHTML;
 
 <ul>
     <li>Strong written and verbal communication</li>
-    <li>Analytical ability &mdash; reading campaign data and acting on it</li>
+    <li>Analytical ability: reading campaign data and acting on it</li>
     <li>Familiarity with digital tools: Google Analytics (GA4), Google Ads, Meta Ads Manager, a CMS, an email platform</li>
     <li>Creativity and strategic thinking for brand and content work</li>
     <li>Project management, because marketers coordinate across teams, agencies and suppliers</li>
@@ -292,29 +292,29 @@ JOBHTML;
 <p>The formal professional body is the <strong>Chartered Institute of Marketing (CIM)</strong>, which holds a Royal Charter (granted 1989) and awards Chartered Marketer status. Its qualification ladder:</p>
 
 <ul>
-    <li><strong>Level 3 Foundation Certificate</strong> in Professional and Digital Marketing &mdash; entry level.</li>
-    <li><strong>Level 4 Certificate</strong> &mdash; marketing-executive level.</li>
-    <li><strong>Level 6 Diploma</strong> &mdash; marketing-manager level, broadly degree-equivalent.</li>
-    <li><strong>Level 7 Marketing Leadership Programme</strong> &mdash; senior and leadership level.</li>
+    <li><strong>Level 3 Foundation Certificate</strong> in Professional and Digital Marketing: entry level.</li>
+    <li><strong>Level 4 Certificate</strong>: marketing-executive level.</li>
+    <li><strong>Level 6 Diploma</strong>: marketing-manager level, broadly degree-equivalent.</li>
+    <li><strong>Level 7 Marketing Leadership Programme</strong>: senior and leadership level.</li>
 </ul>
 
-<p>CIM qualifications are <strong>paid</strong> and are a recognised professional credential &mdash; a different thing from the free platform badges below.</p>
+<p>CIM qualifications are <strong>paid</strong> and are a recognised professional credential: a different thing from the free platform badges below.</p>
 
 <h2>Which Certifications Are Free (and Which Are Not)</h2>
 
 <p>A common draft mistake is to list all certifications as one tier. They are not. Several of the most useful digital-marketing certifications cost nothing:</p>
 
 <ul>
-    <li><strong>Google Ads certification</strong> &mdash; free, via Google Skillshop.</li>
-    <li><strong>Google Analytics (GA4) certification</strong> &mdash; free, via Google Skillshop.</li>
-    <li><strong>HubSpot Academy</strong> &mdash; every certification (inbound, content, email, social and more) is 100% free.</li>
+    <li><strong>Google Ads certification</strong>: free, via Google Skillshop.</li>
+    <li><strong>Google Analytics (GA4) certification</strong>: free, via Google Skillshop.</li>
+    <li><strong>HubSpot Academy</strong>: every certification (inbound, content, email, social and more) is 100% free.</li>
 </ul>
 
 <p>These are the fastest way for a newcomer to show job-ready skills. CIM sits above them as the paid, chartered route. Do both in the right order: free platform certs to get hired, CIM later to progress.</p>
 
 <h2>Digital Skills Now Cut Across Every Role</h2>
 
-<p>Even traditionally "brand" or "PR" roles now expect digital fluency. SEO, paid media and analytics have become baseline expectations rather than a separate specialism, so a candidate who can read a GA4 report and run a small paid campaign is more employable across the board &mdash; not only in roles labelled "digital".</p>
+<p>Even traditionally "brand" or "PR" roles now expect digital fluency. SEO, paid media and analytics have become baseline expectations rather than a separate specialism, so a candidate who can read a GA4 report and run a small paid campaign is more employable across the board, not only in roles labelled "digital".</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/marketing-jobs-in-uk-search.jpg"
@@ -337,7 +337,7 @@ JOBHTML;
 <ul>
     <li><strong>Build a portfolio.</strong> Campaigns, writing samples or case studies set you apart, especially for content and digital roles.</li>
     <li><strong>Get the free certifications.</strong> Google Ads, GA4 and HubSpot show practical skills at no cost.</li>
-    <li><strong>Show measurable results.</strong> Traffic growth, conversion rates, engagement &mdash; numbers, not adjectives.</li>
+    <li><strong>Show measurable results.</strong> Traffic growth, conversion rates, engagement: numbers, not adjectives.</li>
     <li><strong>Tailor to the brand.</strong> Research its tone, channels and recent campaigns before you apply.</li>
     <li><strong>Stay current.</strong> Platforms and algorithms change fast; awareness of that signals adaptability.</li>
 </ul>
@@ -347,7 +347,7 @@ JOBHTML;
 <p>Marketing has a clear ladder:</p>
 
 <ol>
-    <li><strong>Marketing assistant</strong> &mdash; the entry rung.</li>
+    <li><strong>Marketing assistant</strong>: the entry rung.</li>
     <li><strong>Marketing executive</strong> then <strong>senior executive / specialist</strong>.</li>
     <li><strong>Marketing manager</strong> or digital marketing manager.</li>
     <li><strong>Head of marketing</strong> or marketing director.</li>
@@ -365,7 +365,7 @@ JOBHTML;
 <p>It depends on the rung. The National Careers Service puts marketing executives at GBP 23,000 to GBP 50,000 and marketing managers at GBP 30,000 to GBP 65,000. ONS ASHE 2025 gives a director median of about GBP 89,700 and an associate-professional median of about GBP 32,760.</p>
 
 <h3>Is there one "average" marketing salary?</h3>
-<p>No, and that is the key point. ONS splits marketing across two codes &mdash; associate professionals (SOC 3554) and directors (SOC 1132) &mdash; whose medians are nearly three times apart, so any single "average" is misleading.</p>
+<p>No, and that is the key point. ONS splits marketing across two codes, associate professionals (SOC 3554) and directors (SOC 1132), whose medians are nearly three times apart, so any single "average" is misleading.</p>
 
 <h3>What is CIM and do I need it?</h3>
 <p>The Chartered Institute of Marketing is the UK's chartered professional body (Royal Charter 1989). Its Level 3 to Level 7 qualifications are respected and paid, but not legally required. Many marketers start with free certifications and take CIM later to progress.</p>
@@ -374,7 +374,7 @@ JOBHTML;
 <p>Google Ads and Google Analytics (GA4) certifications through Google Skillshop, and every HubSpot Academy certification, are free. CIM qualifications are paid.</p>
 
 <h3>What is the difference between a marketing executive and a marketing manager?</h3>
-<p>An executive runs campaigns and channels day to day; a manager owns strategy, budget and often a team. Pay reflects that &mdash; roughly GBP 23,000 to GBP 50,000 for executives against GBP 30,000 to GBP 65,000 for managers &mdash; but titles vary by company.</p>
+<p>An executive runs campaigns and channels day to day; a manager owns strategy, budget and often a team. Pay reflects that, roughly GBP 23,000 to GBP 50,000 for executives against GBP 30,000 to GBP 65,000 for managers, but titles vary by company.</p>
 
 <h3>Can I get a marketing job with no experience?</h3>
 <p>Yes, usually starting as a marketing assistant or junior executive. A portfolio of small projects, free certifications and any content, social or campaign work you can show will do more than experience you do not yet have.</p>
@@ -406,21 +406,21 @@ JOBHTML;
 <p>London and the South East pay above the rest of the UK to reflect cost of living, though hybrid roles have narrowed the gap.</p>
 
 <h3>How to become a marketing manager</h3>
-<p>Assistant, then executive and senior executive, then manager &mdash; often with a CIM Level 6 Diploma and a track record of measurable results.</p>
+<p>Assistant, then executive and senior executive, then manager, often with a CIM Level 6 Diploma and a track record of measurable results.</p>
 
 <h2>More Job Guides</h2>
 
 <p>Working out the wider picture? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a> &mdash; the channels &mdash; SEO, PPC, email, paid social &mdash; and their pay, in depth.</li>
-    <li><a href="/blog/social-media-manager-jobs-in-usa">Social Media Manager Jobs in USA</a> &mdash; one of the most common specialist marketing roles, priced.</li>
-    <li><a href="/blog/content-writer-jobs-in-usa">Content Writer Jobs in USA</a> &mdash; the writing side of marketing, and what it earns.</li>
-    <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; the design partner every marketing team relies on.</li>
-    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a> &mdash; the remote and hybrid picture, and the UK pay floor that applies.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the Skilled Worker thresholds if you need sponsorship.</li>
-    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a> &mdash; the ONS salary picture, apprenticeship and Civil Service routes, and the SOC 2431 visa rules.</li>
-    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a> &mdash; ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
+    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a>, the channels, SEO, PPC, email, paid social, and their pay, in depth.</li>
+    <li><a href="/blog/social-media-manager-jobs-in-usa">Social Media Manager Jobs in USA</a>: one of the most common specialist marketing roles, priced.</li>
+    <li><a href="/blog/content-writer-jobs-in-usa">Content Writer Jobs in USA</a>: the writing side of marketing, and what it earns.</li>
+    <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a>: the design partner every marketing team relies on.</li>
+    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a>: the remote and hybrid picture, and the UK pay floor that applies.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the Skilled Worker thresholds if you need sponsorship.</li>
+    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a>: the ONS salary picture, apprenticeship and Civil Service routes, and the SOC 2431 visa rules.</li>
+    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a>: ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers advice. Pay figures come from the National Careers Service and ONS ASHE and change over time; aggregator estimates are labelled as such. Confirm the current details with the employer and official sources before applying.</p>

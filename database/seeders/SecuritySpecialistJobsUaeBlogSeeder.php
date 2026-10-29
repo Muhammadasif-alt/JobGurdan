@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Security Specialist Jobs in UAE" — a job title UAE employers use for two
+ * "Security Specialist Jobs in UAE": a job title UAE employers use for two
  * different careers: licensed physical security above guard level, and
  * information security. The security guard guide owns entry-level guarding
  * pay and the basic salary split; this one owns the licensing map for
@@ -161,7 +161,7 @@ class SecuritySpecialistJobsUaeBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask which emirate's licence the role needs and how the package splits basic salary and allowances,</strong> before accepting an offer.</p>
 
-<p><strong>Note:</strong> pay, licensing and visa rules are set by employers, SIRA, Abu Dhabi Police and the Ministry of Human Resources and Emiratisation &mdash; not by JobGader. Confirm the details with the employer and the regulator before applying.</p>
+<p><strong>Note:</strong> pay, licensing and visa rules are set by employers, SIRA, Abu Dhabi Police and the Ministry of Human Resources and Emiratisation, not by JobGader. Confirm the details with the employer and the regulator before applying.</p>
 JOBHTML;
     }
 
@@ -348,12 +348,12 @@ JOBHTML;
 <p>Comparing security and UAE jobs? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; entry-level guarding, and why the basic salary split decides your gratuity.</li>
-    <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a> &mdash; the IT route into security, and the law on on-call work.</li>
-    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a> &mdash; professional work under the same labour law.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; front-desk work, and how a package split changes gratuity.</li>
-    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a> &mdash; public law enforcement careers in the United States.</li>
-    <li><a href="/blog/government-security-jobs-in-australia">Government Security Jobs in Australia</a> &mdash; AFP protective service officer pay, Border Force, ASIO and ASD requirements, and how security clearances work.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: entry-level guarding, and why the basic salary split decides your gratuity.</li>
+    <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a>: the IT route into security, and the law on on-call work.</li>
+    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a>: professional work under the same labour law.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: front-desk work, and how a package split changes gratuity.</li>
+    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a>: public law enforcement careers in the United States.</li>
+    <li><a href="/blog/government-security-jobs-in-australia">Government Security Jobs in Australia</a>: AFP protective service officer pay, Border Force, ASIO and ASD requirements, and how security clearances work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Licensing rules, certification requirements, exam fees and labour law provisions change. Confirm the current position with SIRA, Abu Dhabi Police, ISC2, CompTIA, EC-Council and the Ministry of Human Resources and Emiratisation before applying or accepting an offer.</p>

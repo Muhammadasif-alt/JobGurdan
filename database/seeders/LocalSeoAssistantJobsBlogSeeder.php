@@ -157,7 +157,7 @@ class LocalSeoAssistantJobsBlogSeeder extends Seeder
 <h3>Before you accept</h3>
 <p>Ask to be added as a manager, never as owner, and never share passwords. Confirm the shift, because agency work on American accounts is frequently evening or night hours.</p>
 
-<p>Requirements, hours and pay are set by individual employers &mdash; not by JobGader. Never pay anyone to secure a job, and never claim a Business Profile without the owner's written consent.</p>
+<p>Requirements, hours and pay are set by individual employers, not by JobGader. Never pay anyone to secure a job, and never claim a Business Profile without the owner's written consent.</p>
 JOBHTML;
     }
 
@@ -217,11 +217,11 @@ JOBHTML;
 <p>Google then lists exactly what counts as unnecessary, with its own examples. All of these must be removed from the name:</p>
 
 <ul>
-    <li><strong>Service or product information</strong> &mdash; Google's example: "Midas Auto Service Experts" should be "Midas".</li>
-    <li><strong>Location information</strong> &mdash; "Equinox near SOHO" should be "Equinox SOHO".</li>
-    <li><strong>Marketing taglines</strong> &mdash; "GNC Live Well" should be "GNC".</li>
-    <li><strong>Business hours</strong> &mdash; "Regal Pizzeria Open 24 hours" should be "Regal Pizzeria".</li>
-    <li><strong>Phone numbers or web addresses</strong>, <strong>store codes</strong>, <strong>trademark symbols</strong>, and <strong>fully capitalised words</strong> &mdash; "SUBWAY" should be "Subway".</li>
+    <li><strong>Service or product information</strong>: Google's example: "Midas Auto Service Experts" should be "Midas".</li>
+    <li><strong>Location information</strong>: "Equinox near SOHO" should be "Equinox SOHO".</li>
+    <li><strong>Marketing taglines</strong>: "GNC Live Well" should be "GNC".</li>
+    <li><strong>Business hours</strong>: "Regal Pizzeria Open 24 hours" should be "Regal Pizzeria".</li>
+    <li><strong>Phone numbers or web addresses</strong>, <strong>store codes</strong>, <strong>trademark symbols</strong>, and <strong>fully capitalised words</strong>: "SUBWAY" should be "Subway".</li>
 </ul>
 
 <p>Google adds that the information belongs elsewhere: <em>"Add additional details like address, service area, business hours, and category in the other sections of your business information."</em></p>
@@ -246,7 +246,7 @@ JOBHTML;
     <tbody>
         <tr>
             <td style="border:1px solid #e5e7eb;padding:10px;"><strong>Relevance</strong></td>
-            <td style="border:1px solid #e5e7eb;padding:10px;">"How well a Business Profile matches what someone is searching for" &mdash; improved by complete, detailed business information.</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;">"How well a Business Profile matches what someone is searching for": improved by complete, detailed business information.</td>
         </tr>
         <tr>
             <td style="border:1px solid #e5e7eb;padding:10px;"><strong>Distance</strong></td>
@@ -273,7 +273,7 @@ JOBHTML;
     <li><strong>Paying for reviews, in money or in kind.</strong> Prohibited: content posted "due to an incentive offered by a business - such as payment, discounts, free goods and/or services". This includes incentives offered to get a bad review changed or removed.</li>
     <li><strong>Review gating.</strong> Google's exact wording is that merchants may not "discourage or prohibit negative reviews, or selectively solicit positive reviews from customers". Asking only the happy customers is the single most common instruction in these jobs, and it is named in the policy.</li>
     <li><strong>Bulk or patterned solicitation.</strong> Google removes "content exhibiting unusual volumes or patterns of review contributions that are indicative of efforts to manipulate a place's rating". A quota of reviews per month is exactly such a pattern.</li>
-    <li><strong>Reviews from people connected to the business,</strong> including "a contractual or consultory relationship" &mdash; which is you, if you review your own client.</li>
+    <li><strong>Reviews from people connected to the business,</strong> including "a contractual or consultory relationship", which is you, if you review your own client.</li>
 </ul>
 
 <p>What is allowed is narrower and simpler: asking for honest reviews from real customers, without incentives and without steering the rating or the wording. Google's own tips page adds advice worth repeating to a nervous client: <em>"A mix of positive and negative feedback often feels more trustworthy."</em></p>
@@ -357,7 +357,7 @@ JOBHTML;
 
 <h2>The Tools, and What a Beginner Can Genuinely Use</h2>
 
-<p>The important thing first: <strong>the main tool is free.</strong> Google says so directly &mdash; <em>"creating a Business Profile and listing your business on Google is free"</em> &mdash; and it requires agencies to tell clients this, stating that if you charge a management fee you must let customers know the profile itself costs nothing.</p>
+<p>The important thing first: <strong>the main tool is free.</strong> Google says so directly, <em>"creating a Business Profile and listing your business on Google is free"</em>, and it requires agencies to tell clients this, stating that if you charge a management fee you must let customers know the profile itself costs nothing.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
     <thead>
@@ -386,7 +386,7 @@ JOBHTML;
         <tr style="background:#ecfdf5;">
             <td style="border:1px solid #e5e7eb;padding:10px;"><strong>BrightLocal trial</strong></td>
             <td style="border:1px solid #e5e7eb;padding:10px;">14 days full access, then about USD 41 a month</td>
-            <td style="border:1px solid #e5e7eb;padding:10px;"><strong>No &mdash; "no card needed"</strong></td>
+            <td style="border:1px solid #e5e7eb;padding:10px;"><strong>No: "no card needed"</strong></td>
         </tr>
         <tr>
             <td style="border:1px solid #e5e7eb;padding:10px;">Semrush Local</td>
@@ -396,7 +396,7 @@ JOBHTML;
     </tbody>
 </table>
 
-<p>The BrightLocal row is the one to use. A 14 day full-access trial that <strong>explicitly requires no credit card</strong> is rare, and it is the practical answer for anyone in Pakistan without an international card &mdash; which is the real barrier here, more than the price. Run a complete audit of one business during those 14 days and you have a portfolio piece. BrightLocal also states you keep read-only access to that data afterwards.</p>
+<p>The BrightLocal row is the one to use. A 14 day full-access trial that <strong>explicitly requires no credit card</strong> is rare, and it is the practical answer for anyone in Pakistan without an international card, which is the real barrier here, more than the price. Run a complete audit of one business during those 14 days and you have a portfolio piece. BrightLocal also states you keep read-only access to that data afterwards.</p>
 
 <p>Semrush's permanent free plan does not include the Local toolkit, so do not plan around it.</p>
 
@@ -417,7 +417,7 @@ JOBHTML;
 
 <h2>How to Apply</h2>
 
-<p><strong>Start here:</strong> of the Pakistani boards, <strong>Mustakbil</strong> is the one to search first, for a practical reason &mdash; it publishes a salary band on effectively every listing. Of 46 SEO job cards we pulled across six cities, every one carried a salary. Rozee shows a figure on roughly half, and LinkedIn Pakistan almost never does, so use Mustakbil to learn what the market pays before you negotiate anywhere else.</p>
+<p><strong>Start here:</strong> of the Pakistani boards, <strong>Mustakbil</strong> is the one to search first, for a practical reason: it publishes a salary band on effectively every listing. Of 46 SEO job cards we pulled across six cities, every one carried a salary. Rozee shows a figure on roughly half, and LinkedIn Pakistan almost never does, so use Mustakbil to learn what the market pays before you negotiate anywhere else.</p>
 
 <ol>
     <li><strong>Search titles, not the phrase.</strong> Very few listings say "local SEO assistant". Search SEO Executive, SEO Specialist, Digital Marketing Executive and GMB, then read the descriptions for Business Profile work.</li>
@@ -450,7 +450,7 @@ JOBHTML;
 <p>No. Google's guidelines state that including unnecessary information in a business name is not permitted and could result in suspension of the profile, and they specifically name service descriptions, locations, taglines, hours and phone numbers as things that must be removed. It is the most commonly taught local SEO tactic and it is explicitly against the rules.</p>
 
 <h3>Do citations and NAP consistency improve local rankings?</h3>
-<p>Google has never documented that they do. Its only published page on local ranking names relevance, distance and prominence, and describes prominence as based on links and reviews. Google does say it builds profiles partly from crawled and licensed third-party data, so correcting wrong information across the web is genuine accuracy work &mdash; just not the ranking lever the tools sell it as.</p>
+<p>Google has never documented that they do. Its only published page on local ranking names relevance, distance and prominence, and describes prominence as based on links and reviews. Google does say it builds profiles partly from crawled and licensed third-party data, so correcting wrong information across the web is genuine accuracy work: just not the ranking lever the tools sell it as.</p>
 
 <h3>Is it safe to ask customers for reviews?</h3>
 <p>Asking for honest reviews from real customers is allowed. What is prohibited is offering payment, discounts or free goods for a review, discouraging negative reviews, selectively asking only happy customers, and soliciting volumes or patterns that look like rating manipulation. Reviewing a business you have a contractual relationship with is also prohibited.</p>
@@ -483,11 +483,11 @@ JOBHTML;
 <h2>More Job Guides</h2>
 
 <ul>
-    <li><a href="/blog/on-page-seo-assistant-jobs">On-Page SEO Assistant Jobs</a> &mdash; what Google documents about page-level work, and the checklist rules with no official basis.</li>
-    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a> &mdash; who hires, the pay ladder, and how to spot a fake SEO agency.</li>
-    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a> &mdash; the production role next door, and how it is priced.</li>
-    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a> &mdash; where this skill set leads internationally.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; realistic entry points and what they pay.</li>
+    <li><a href="/blog/on-page-seo-assistant-jobs">On-Page SEO Assistant Jobs</a>: what Google documents about page-level work, and the checklist rules with no official basis.</li>
+    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a>, who hires, the pay ladder, and how to spot a fake SEO agency.</li>
+    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a>: the production role next door, and how it is priced.</li>
+    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a>: where this skill set leads internationally.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: realistic entry points and what they pay.</li>
 </ul>
 HTML;
     }

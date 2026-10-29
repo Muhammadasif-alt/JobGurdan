@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Welder Salary in USA" — the US pay page for welders, built on BLS OEWS
+ * "Welder Salary in USA": the US pay page for welders, built on BLS OEWS
  * May 2025 (SOC 51-4121), the BLS 2025-2035 projections and Job Bank wages
  * for NOC 72106. Canada is kept short and handed to "Welder Jobs in Canada".
  *
@@ -328,11 +328,11 @@ JOBHTML;
 <p>Related trades and markets:</p>
 
 <ul>
-    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; provincial certification, wages and applying from abroad.</li>
-    <li><a href="/blog/carpenter-jobs-in-the-uk-canada-and-australia">Carpenter Jobs in the UK, Canada and Australia</a> &mdash; another construction trade across three visa systems.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; the wider US trades market and its visa routes.</li>
-    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a> &mdash; official pay data for a neighbouring trade.</li>
-    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a> &mdash; the US carpentry market.</li>
+    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a>: provincial certification, wages and applying from abroad.</li>
+    <li><a href="/blog/carpenter-jobs-in-the-uk-canada-and-australia">Carpenter Jobs in the UK, Canada and Australia</a>: another construction trade across three visa systems.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: the wider US trades market and its visa routes.</li>
+    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a>: official pay data for a neighbouring trade.</li>
+    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a>: the US carpentry market.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not career, legal or immigration advice. US pay data is from BLS OEWS May 2025 and projections from the BLS Occupational Outlook Handbook; Canadian wages are from Job Bank. Individual employers set their own rates.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Get a Delivery Job in Australia" — the employee award route beside
+ * "How to Get a Delivery Job in Australia": the employee award route beside
  * the gig platform route, both priced from the current Fair Work pay guide
  * and the first minimum standards order for on-demand delivery.
  *
@@ -158,7 +158,7 @@ class DeliveryJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> award rates, minimum standards and tax rules are set by the Fair Work Commission, the Fair Work Ombudsman and the ATO &mdash; not by JobGader. Check the current pay guide and platform terms before you start.</p>
+<p><strong>Note:</strong> award rates, minimum standards and tax rules are set by the Fair Work Commission, the Fair Work Ombudsman and the ATO, not by JobGader. Check the current pay guide and platform terms before you start.</p>
 JOBHTML;
     }
 
@@ -207,7 +207,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Casual loading is 25%</strong>, which is where the casual column comes from.</li>
-    <li><strong>Saturday</strong> pays 150% and <strong>Sunday</strong> 200% of the ordinary hourly rate &mdash; for a grade 2 driver, $41.27 and $55.02.</li>
+    <li><strong>Saturday</strong> pays 150% and <strong>Sunday</strong> 200% of the ordinary hourly rate: for a grade 2 driver, $41.27 and $55.02.</li>
     <li>A full-time grade 2 driver's weekly rate of $1,045.50 works out at about <strong>$54,366 a year</strong>, not the $49,953 quoted in older guides.</li>
     <li>The <strong>national minimum wage</strong> from 1 July 2026 is $26.44 an hour, or $1,004.90 a week.</li>
 </ul>
@@ -250,7 +250,7 @@ JOBHTML;
 
 <ul>
     <li><strong>ABN.</strong> Every major platform requires one. Apply through the Australian Business Register; a successful online application usually returns the number immediately.</li>
-    <li><strong>GST.</strong> Food delivery follows the ordinary rule: register once your turnover reaches <strong>$75,000</strong>. The rule that forces registration from the first dollar applies to <strong>passenger ride-sourcing</strong>, which the ATO treats as taxi travel &mdash; not to delivering meals or parcels.</li>
+    <li><strong>GST.</strong> Food delivery follows the ordinary rule: register once your turnover reaches <strong>$75,000</strong>. The rule that forces registration from the first dollar applies to <strong>passenger ride-sourcing</strong>, which the ATO treats as taxi travel, not to delivering meals or parcels.</li>
     <li><strong>Car expenses.</strong> The cents per kilometre rate is <strong>91 cents</strong> for 2026-27, capped at 5,000 work-related kilometres per car, and it already covers fuel, servicing, registration, insurance and depreciation. The alternative is the logbook method, claiming the work-related percentage of actual costs with no cap.</li>
     <li><strong>Records.</strong> You pay tax on profit, not on gross earnings, so keep the kilometres, the phone bills and the equipment receipts from day one.</li>
 </ul>
@@ -294,7 +294,7 @@ JOBHTML;
 <h2>How to Get Started</h2>
 
 <ol>
-    <li><strong>Decide employee or contractor</strong> first &mdash; award conditions and leave, or flexible hours and your own costs.</li>
+    <li><strong>Decide employee or contractor</strong> first: award conditions and leave, or flexible hours and your own costs.</li>
     <li><strong>Check the award rate</strong> against any employed offer, using the grade that matches the vehicle.</li>
     <li><strong>Get your ABN</strong> before signing up to a platform.</li>
     <li><strong>Match the licence to the vehicle</strong>, and check the platform's state-by-state licence rules.</li>
@@ -359,12 +359,12 @@ JOBHTML;
 <p>Comparing delivery and driving routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a> &mdash; passenger work, its licensing and what it pays.</li>
-    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a> &mdash; the British licence ladder and ONS pay.</li>
-    <li><a href="/blog/how-to-get-a-fleet-driver-job-in-canada">How to Get a Fleet Driver Job in Canada</a> &mdash; provincial licences, training hours and Job Bank wages.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; the American van and app market.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; which Australian jobs can actually be sponsored.</li>
-    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; other entry-level routes and their award rates.</li>
+    <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a>: passenger work, its licensing and what it pays.</li>
+    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a>: the British licence ladder and ONS pay.</li>
+    <li><a href="/blog/how-to-get-a-fleet-driver-job-in-canada">How to Get a Fleet Driver Job in Canada</a>: provincial licences, training hours and Job Bank wages.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: the American van and app market.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>, which Australian jobs can actually be sponsored.</li>
+    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a>: other entry-level routes and their award rates.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using the Fair Work Ombudsman pay guide for MA000038, Fair Work Commission decisions and orders, ATO guidance, AFP fees and the platforms' own requirement pages. Award rates change every July and platform rules change often. Always check the current pay guide and platform terms before you start.</p>

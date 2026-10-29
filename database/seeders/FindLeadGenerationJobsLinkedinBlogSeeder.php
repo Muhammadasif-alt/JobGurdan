@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Find Lead Generation Jobs on LinkedIn" — deliberately narrow. The
+ * "How to Find Lead Generation Jobs on LinkedIn": deliberately narrow. The
  * role, the pay and the compliance position live on the sibling Lead
  * Generation Assistant guide; this one covers only searching, presenting
  * yourself, and what not to do. Written that way because the supplied draft
@@ -157,7 +157,7 @@ class FindLeadGenerationJobsLinkedinBlogSeeder extends Seeder
 <h3>Remote does not mean open to Pakistan</h3>
 <p>Every LinkedIn job post carries a country. Employers can add work authorisation and visa screening questions, mark them as must-have, and automatically archive and reject candidates who do not pass.</p>
 
-<p>Platform rules, eligibility and pay are set by LinkedIn and individual employers &mdash; not by JobGader. Never pay anyone to secure a job, and never run automation from an account you cannot afford to lose.</p>
+<p>Platform rules, eligibility and pay are set by LinkedIn and individual employers, not by JobGader. Never pay anyone to secure a job, and never run automation from an account you cannot afford to lose.</p>
 JOBHTML;
     }
 
@@ -188,20 +188,20 @@ JOBHTML;
 <h3>Search these</h3>
 
 <ul>
-    <li><strong>SDR</strong> and <strong>Sales Development Representative</strong> &mdash; the strongest of the set, used by Notion, Atlassian, Cisco, Salesforce, Oracle and LinkedIn itself.</li>
-    <li><strong>BDR</strong> and <strong>Business Development Representative</strong> &mdash; the same function under a different house style.</li>
-    <li><strong>Appointment Setter</strong> &mdash; the biggest omission from most guides. High volume, heavily remote, genuinely entry level.</li>
-    <li><strong>Lead Generation Specialist</strong> &mdash; the most literal title of all, and often skipped.</li>
-    <li><strong>Market Development Representative</strong> &mdash; one verified job description describes spending "roughly 80% of the time on the phone prospecting new clients".</li>
-    <li><strong>Business Development Associate</strong> &mdash; broader than pure prospecting, but worth including.</li>
-    <li><strong>Virtual Assistant &ndash; Lead Generation</strong> &mdash; the framing most often open to offshore applicants.</li>
+    <li><strong>SDR</strong> and <strong>Sales Development Representative</strong>: the strongest of the set, used by Notion, Atlassian, Cisco, Salesforce, Oracle and LinkedIn itself.</li>
+    <li><strong>BDR</strong> and <strong>Business Development Representative</strong>: the same function under a different house style.</li>
+    <li><strong>Appointment Setter</strong>: the biggest omission from most guides. High volume, heavily remote, genuinely entry level.</li>
+    <li><strong>Lead Generation Specialist</strong>: the most literal title of all, and often skipped.</li>
+    <li><strong>Market Development Representative</strong>: one verified job description describes spending "roughly 80% of the time on the phone prospecting new clients".</li>
+    <li><strong>Business Development Associate</strong>: broader than pure prospecting, but worth including.</li>
+    <li><strong>Virtual Assistant &ndash; Lead Generation</strong>: the framing most often open to offshore applicants.</li>
 </ul>
 
 <h3>Do not bother with these</h3>
 
-<p><strong>"Outreach Specialist" is a trap.</strong> On LinkedIn this search is dominated by American <em>healthcare and nonprofit community outreach</em> roles &mdash; Cityblock Health, Wounded Warrior Project, Oak Street Health. They need local presence and often a clinical or social-services background. You will waste days on it. The word works as a modifier inside a title, such as "SDR &ndash; US Outreach", never on its own.</p>
+<p><strong>"Outreach Specialist" is a trap.</strong> On LinkedIn this search is dominated by American <em>healthcare and nonprofit community outreach</em> roles: Cityblock Health, Wounded Warrior Project, Oak Street Health. They need local presence and often a clinical or social-services background. You will waste days on it. The word works as a modifier inside a title, such as "SDR &ndash; US Outreach", never on its own.</p>
 
-<p><strong>"Growth Associate" is a real title for the wrong job</strong> &mdash; growth marketing, meaning paid media and analytics, not prospecting.</p>
+<p><strong>"Growth Associate" is a real title for the wrong job</strong>: growth marketing, meaning paid media and analytics, not prospecting.</p>
 
 <p><strong>"Demand Generation Associate" is marketing, not sales.</strong> A verified job description for one covers email campaigns, paid ads, webinars and landing pages, with no cold calling and no meeting quota. Change one word, though, and it becomes useful: <strong>Demand Generation <em>Representative</em></strong> is a genuine outbound title, used by Amazon's cloud sales centre among others. <strong>Associate is marketing. Representative is sales.</strong></p>
 
@@ -210,11 +210,11 @@ JOBHTML;
 <p>This is where the international advice quietly fails. Search the US titles alone and you will miss most of what is actually hiring in Lahore and Karachi. The local vocabulary is different:</p>
 
 <ul>
-    <li><strong>Lead Generation Executive</strong> &mdash; the dominant local title.</li>
-    <li><strong>Business Development Executive (Lead Generation)</strong> &mdash; the most common umbrella, sometimes as "Business Development Executive (LinkedIn/Upwork)".</li>
-    <li><strong>Business Development Lead Generation Officer</strong> &mdash; note "Officer", a South Asian convention that barely exists in US listings.</li>
+    <li><strong>Lead Generation Executive</strong>: the dominant local title.</li>
+    <li><strong>Business Development Executive (Lead Generation)</strong>: the most common umbrella, sometimes as "Business Development Executive (LinkedIn/Upwork)".</li>
+    <li><strong>Business Development Lead Generation Officer</strong>: note "Officer", a South Asian convention that barely exists in US listings.</li>
     <li><strong>Online Research and Lead Generation Executive</strong>.</li>
-    <li><strong>Upwork Bidder</strong>, <strong>Online Bidder</strong>, <strong>Bidding Expert</strong> &mdash; genuinely Pakistan-specific, with no US equivalent at all.</li>
+    <li><strong>Upwork Bidder</strong>, <strong>Online Bidder</strong>, <strong>Bidding Expert</strong>: genuinely Pakistan-specific, with no US equivalent at all.</li>
 </ul>
 
 <p>One thing worth knowing before you apply: <strong>SDR is used in Pakistan, but it usually means night shift.</strong> Real listings include "Sales Development Representative (SDR) &ndash; US" in Lahore running 6:00pm to 3:00am, and "SDR &ndash; US Outreach (Night Shift)" in Karachi running 9:00pm to 5:30am. The clients are American, so the hours follow them. Factor that in rather than discovering it at the offer stage.</p>
@@ -246,14 +246,14 @@ JOBHTML;
 
 <p><strong>The one free exception is worth knowing:</strong> <em>"If a member has the Open Profile Premium feature enabled, you can message them for free."</em> That is a setting the recipient switches on, so you cannot control it, but you can check for it before assuming you are locked out.</p>
 
-<p>And the personalised note on a connection request, which is the usual workaround, is also capped. LinkedIn's most recently updated help page states you can add a personalised message to <strong>up to three connection requests per month</strong>, at <strong>up to 200 characters</strong>. An older page says five and 300 characters, so LinkedIn's own documentation disagrees with itself &mdash; assume the lower figure and check your account.</p>
+<p>And the personalised note on a connection request, which is the usual workaround, is also capped. LinkedIn's most recently updated help page states you can add a personalised message to <strong>up to three connection requests per month</strong>, at <strong>up to 200 characters</strong>. An older page says five and 300 characters, so LinkedIn's own documentation disagrees with itself: assume the lower figure and check your account.</p>
 
 <p><strong>What this means in practice.</strong> You are not sending twenty personalised messages a week. You get roughly three notes a month, of two hundred characters. So:</p>
 
 <ul>
     <li><strong>Spend them deliberately</strong> on the three people most worth reaching, not the first three you find.</li>
     <li><strong>Connect first, message after acceptance.</strong> Once connected, messaging is free and unlimited.</li>
-    <li><strong>Reply properly to recruiters who contact you first</strong> &mdash; that conversation costs you nothing and is already open.</li>
+    <li><strong>Reply properly to recruiters who contact you first</strong>: that conversation costs you nothing and is already open.</li>
     <li><strong>Two hundred characters is about two sentences.</strong> Name the role, name one relevant number from your own work, stop.</li>
 </ul>
 
@@ -280,8 +280,8 @@ JOBHTML;
 <p>Turn it on from your profile under "Open to" and "Finding a new job". There are two settings, and the difference matters:</p>
 
 <ul>
-    <li><strong>All LinkedIn members</strong> &mdash; adds the green #OpenToWork photo frame, and includes <em>"recruiters and people at your current company"</em>.</li>
-    <li><strong>Recruiters only</strong> &mdash; visible to LinkedIn Recruiter users. LinkedIn adds its own caveat, worth quoting exactly: <em>"we take steps to prevent LinkedIn Recruiter users who work at your current company from seeing your shared career interests, but we can't guarantee complete privacy."</em></li>
+    <li><strong>All LinkedIn members</strong>: adds the green #OpenToWork photo frame, and includes <em>"recruiters and people at your current company"</em>.</li>
+    <li><strong>Recruiters only</strong>: visible to LinkedIn Recruiter users. LinkedIn adds its own caveat, worth quoting exactly: <em>"we take steps to prevent LinkedIn Recruiter users who work at your current company from seeing your shared career interests, but we can't guarantee complete privacy."</em></li>
 </ul>
 
 <p>You will see claims elsewhere that the public frame makes you a certain percentage more likely to receive messages. <strong>We could not find that figure in any LinkedIn source</strong>, including its own launch announcement, so we are not repeating it.</p>
@@ -296,7 +296,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Put a number in the headline.</strong> "Booked 40+ qualified meetings a month through LinkedIn outreach" outperforms "Lead Generation Specialist" because it is a claim rather than a label.</li>
-    <li><strong>Name the actual stack</strong> you have used &mdash; a CRM, a data source, a spreadsheet discipline. Employers screen on tool familiarity more than on years.</li>
+    <li><strong>Name the actual stack</strong> you have used: a CRM, a data source, a spreadsheet discipline. Employers screen on tool familiarity more than on years.</li>
     <li><strong>Show one campaign properly.</strong> Who you targeted, how you found them, what you sent, what came back. If you have never had a client, run one small campaign for a real local business and report the real numbers, including the bad ones.</li>
     <li><strong>Write it in the English you will actually send.</strong> A profile full of errors answers the only question the employer has.</li>
 </ul>
@@ -328,10 +328,10 @@ JOBHTML;
     <li><strong>Expandi:</strong> <em>"Warming up your account is a precaution that you should take to prevent your LinkedIn account from getting restricted or banned."</em> Its warm-up starts at five actions a day.</li>
     <li><strong>Waalaxy</strong> describes building <em>"an undetectable extension"</em>, explaining that its developers created a security feature that intercepts LinkedIn's detection message and replaces it with one saying <em>"Everything is fine, this user is not using any of the banned extensions"</em>, so that <em>"LinkedIn will never know."</em></li>
     <li><strong>Dripify</strong> concedes <em>"no automatization can overcome the limits set by LinkedIn"</em>, and warns you not to browse LinkedIn yourself while it runs because the two sign-ins <em>"could be flagged as suspicious activity."</em></li>
-    <li><strong>GetSales</strong> advertises its ban rate as <em>"as low as 0.5%, versus industry averages of 5-10%"</em> &mdash; a vendor conceding that this industry bans between one in twenty and one in ten accounts.</li>
+    <li><strong>GetSales</strong> advertises its ban rate as <em>"as low as 0.5%, versus industry averages of 5-10%"</em>: a vendor conceding that this industry bans between one in twenty and one in ten accounts.</li>
 </ul>
 
-<p>Read the Waalaxy one again. A vendor is publicly describing how it falsifies the answer LinkedIn's own detection code expects &mdash; which also confirms it is on the banned list.</p>
+<p>Read the Waalaxy one again. A vendor is publicly describing how it falsifies the answer LinkedIn's own detection code expects, which also confirms it is on the banned list.</p>
 
 <h3>And the daily limits they recommend are made up</h3>
 
@@ -351,7 +351,7 @@ JOBHTML;
 
 <p>The belief that "a court ruled scraping is legal" is a misreading of the hiQ Labs case. The appeal court addressed only whether scraping public profiles breaches a specific American computer-misuse statute. <strong>On the contract question, LinkedIn won outright:</strong> hiQ was found to have breached the user agreement, and in December 2022 a consent judgment imposed <strong>USD 500,000</strong> and a permanent injunction requiring it to delete the data and code. hiQ stopped operating.</p>
 
-<p>It was not an isolated result. LinkedIn settled against Mantheos in 2022, and against Proxycurl in 2025 &mdash; that service <strong>shut down its API in July 2025</strong> under a permanent injunction. In March 2025 several lead-generation vendors, Apollo among them, had their LinkedIn company pages removed over scraping terms.</p>
+<p>It was not an isolated result. LinkedIn settled against Mantheos in 2022, and against Proxycurl in 2025: that service <strong>shut down its API in July 2025</strong> under a permanent injunction. In March 2025 several lead-generation vendors, Apollo among them, had their LinkedIn company pages removed over scraping terms.</p>
 
 <p><strong>The distinction to carry:</strong> whether scraping is a <em>crime</em> is one question. Whether LinkedIn can <em>close your account</em> is a contract question, and on that it has not lost.</p>
 
@@ -382,7 +382,7 @@ JOBHTML;
 <ul>
     <li><strong>Any financial request.</strong> LinkedIn's own instruction: do not provide payment or account credentials as part of an application.</li>
     <li><strong>Pressure to move off LinkedIn</strong> to WhatsApp or Telegram early.</li>
-    <li><strong>A generic email domain</strong> &mdash; Gmail or Yahoo rather than the company's own.</li>
+    <li><strong>A generic email domain</strong>: Gmail or Yahoo rather than the company's own.</li>
     <li><strong>Requests for identity or banking details</strong> before any formal hiring.</li>
     <li><strong>Company profiles with incomplete details and few connections.</strong></li>
     <li><strong>Being asked to buy equipment</strong> and ship it or be reimbursed later.</li>
@@ -467,14 +467,14 @@ JOBHTML;
 <p>These pair with this one:</p>
 
 <ul>
-    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a> &mdash; what the job involves, dated Pakistani pay, and the cold outreach laws.</li>
-    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a> &mdash; a remote role with similar entry requirements and no account risk.</li>
-    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a> &mdash; the lowest-barrier remote work on this site.</li>
-    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a> &mdash; a wider remote role with the same payment questions.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; realistic starting points, ranked.</li>
-    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a> &mdash; the research craft behind a prospect list, and why a verified email often is not.</li>
-    <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a> &mdash; what the daily quotas really mean once you do the arithmetic.</li>
-    <li><a href="/blog/appointment-setting-jobs">Appointment Setting Jobs</a> &mdash; the phone role these searches surface most, and what it really pays.</li>
+    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a>: what the job involves, dated Pakistani pay, and the cold outreach laws.</li>
+    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a>: a remote role with similar entry requirements and no account risk.</li>
+    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a>: the lowest-barrier remote work on this site.</li>
+    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a>: a wider remote role with the same payment questions.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: realistic starting points, ranked.</li>
+    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a>: the research craft behind a prospect list, and why a verified email often is not.</li>
+    <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a>: what the daily quotas really mean once you do the arithmetic.</li>
+    <li><a href="/blog/appointment-setting-jobs">Appointment Setting Jobs</a>: the phone role these searches surface most, and what it really pays.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. LinkedIn's features, limits, pricing and documentation change frequently, and in places its own help pages disagree with each other; check your own account before relying on any specific limit. Platform rules and enforcement are set by LinkedIn, not by JobGader. Never pay anyone to secure a job, and never run automation from an account you cannot afford to lose.</p>

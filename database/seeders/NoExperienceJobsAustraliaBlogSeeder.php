@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "No Experience Jobs in Australia" — entry-level retail, hospitality, aged
+ * "No Experience Jobs in Australia": entry-level retail, hospitality, aged
  * care, warehouse and office work. The construction, office assistant, sales
  * and plumber guides each own one occupation, so this one owns the award
  * floors for entry-level work, junior rates, the checks aged care needs and
@@ -153,7 +153,7 @@ class NoExperienceJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask whether the rate is "plus super" or "inclusive of super", in writing</strong>, and whether the job is casual, part-time or permanent.</p>
 
-<p><strong>Note:</strong> pay, hours and entitlements are set by the Fair Work Commission's awards and by each employer &mdash; not by JobGader. Check the current pay guide on fairwork.gov.au before you accept an offer.</p>
+<p><strong>Note:</strong> pay, hours and entitlements are set by the Fair Work Commission's awards and by each employer, not by JobGader. Check the current pay guide on fairwork.gov.au before you accept an offer.</p>
 JOBHTML;
     }
 
@@ -173,12 +173,12 @@ JOBHTML;
 <p>The Fair Work Commission raised award wages by <strong>4.75%</strong> from 1 July 2026. The <strong>National Minimum Wage is $26.44 an hour</strong>, or $1,004.90 a week, which is about <strong>$52,255</strong> across a full-time year. Entry classifications in the awards that cover these jobs:</p>
 
 <ul>
-    <li><strong>Retail, Level 1:</strong> <strong>$1,056.80</strong> a week, or $27.81 an hour &mdash; about $54,954 a year</li>
-    <li><strong>Hospitality, food and beverage attendant grade 1:</strong> $1,004.90 a week &mdash; about $52,255. The introductory level is $978.10.</li>
-    <li><strong>Warehouse, storeworker grade 1:</strong> $1,029.10 a week, or $27.08 an hour, on commencement, rising to $1,041.60 after three months &mdash; about $53,513 a year</li>
-    <li><strong>Office, clerk Level 1 Year 1:</strong> $1,024.70 a week, or $26.97 an hour &mdash; about $53,284</li>
-    <li><strong>Aged care, direct carer:</strong> <strong>$1,307.80</strong> a week &mdash; about $68,006 a year, after the work value case increases. The introductory rate is $1,239.00.</li>
-    <li><strong>Disability and community services (SCHADS), Level 1:</strong> $1,046.90 a week &mdash; about $54,439</li>
+    <li><strong>Retail, Level 1:</strong> <strong>$1,056.80</strong> a week, or $27.81 an hour: about $54,954 a year</li>
+    <li><strong>Hospitality, food and beverage attendant grade 1:</strong> $1,004.90 a week: about $52,255. The introductory level is $978.10.</li>
+    <li><strong>Warehouse, storeworker grade 1:</strong> $1,029.10 a week, or $27.08 an hour, on commencement, rising to $1,041.60 after three months: about $53,513 a year</li>
+    <li><strong>Office, clerk Level 1 Year 1:</strong> $1,024.70 a week, or $26.97 an hour: about $53,284</li>
+    <li><strong>Aged care, direct carer:</strong> <strong>$1,307.80</strong> a week: about $68,006 a year, after the work value case increases. The introductory rate is $1,239.00.</li>
+    <li><strong>Disability and community services (SCHADS), Level 1:</strong> $1,046.90 a week: about $54,439</li>
 </ul>
 
 <p>So the guides' $45,000 floor for retail and hospitality is below the legal minimum, their $55,000 floor for warehousing is above what the award actually starts at, and aged care pays more than the $65,000 ceiling they give it. Casuals are paid a <strong>25% loading</strong> instead of paid leave: a Level 1 hospitality casual must get at least <strong>$33.05 an hour</strong>.</p>
@@ -247,7 +247,7 @@ JOBHTML;
 <p>$26.44 an hour, or $1,004.90 a week, from 1 July 2026, after a 4.75% increase. That is about $52,255 a year full-time.</p>
 
 <h3>How much does an entry-level retail job pay?</h3>
-<p>Retail Level 1 is $1,056.80 a week, or $27.81 an hour, for an adult from 1 July 2026 &mdash; about $54,954 a year, plus 12% super.</p>
+<p>Retail Level 1 is $1,056.80 a week, or $27.81 an hour, for an adult from 1 July 2026: about $54,954 a year, plus 12% super.</p>
 
 <h3>Is superannuation 11.5% or 12%?</h3>
 <p>12%. The rate rose on 1 July 2025 and that was the final scheduled increase.</p>
@@ -298,23 +298,23 @@ JOBHTML;
 <p>Comparing entry-level work in Australia and elsewhere? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; the award floor, the casual loading and what the White Card really requires.</li>
-    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a> &mdash; administrative pay against the same minimum wage.</li>
-    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; retail and field sales pay, and when commission may replace a wage.</li>
-    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; where an apprenticeship leads, and what the licence takes.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest position on American entry-level visas.</li>
-    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; the same counter work priced by state wage floors.</li>
-    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; the American version of a first shop-floor job, and how its hiring works.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: the award floor, the casual loading and what the White Card really requires.</li>
+    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a>: administrative pay against the same minimum wage.</li>
+    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a>: retail and field sales pay, and when commission may replace a wage.</li>
+    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a>: where an apprenticeship leads, and what the licence takes.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the honest position on American entry-level visas.</li>
+    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a>: the same counter work priced by state wage floors.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a>: the American version of a first shop-floor job, and how its hiring works.</li>
     <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a></li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; how employer sponsorship actually works, and which occupation list applies.</li>
-    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a> &mdash; a part-time-friendly health admin job, its award and its privacy rules.</li>
-    <li><a href="/blog/receptionist-jobs-in-australia">Receptionist Jobs in Australia</a> &mdash; an entry-level office job, and what the Clerks Award pays in year one.</li>
-    <li><a href="/blog/how-to-become-a-sales-representative-in-australia">How to Become a Sales Representative in Australia</a> &mdash; the licence, working rights and training employers ask for, and the award floor under field sales pay.</li>
-    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a> &mdash; the apprenticeship, the AUR30620 qualification, award pay for apprentices and the routes for overseas-trained mechanics.</li>
-    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a> &mdash; every route in compared: employer sponsorship, skilled visas without a job offer, working holidays, the PALM scheme and student work rights.</li>
-    <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a> &mdash; the job title in each state, WA pay of $34.75 to $43.28 an hour, and the checks and certificates schools ask for.</li>
-    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a> &mdash; the no-experience pathways, what the FutureFit Academy really offers and official pay benchmarks.</li>
-    <li><a href="/blog/how-to-apply-for-qantas-ground-staff-jobs-in-australia">How to Apply for Qantas Ground Staff Jobs in Australia</a> &mdash; the pay Qantas will not publish, from the agreement that does.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>: how employer sponsorship actually works, and which occupation list applies.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a>: a part-time-friendly health admin job, its award and its privacy rules.</li>
+    <li><a href="/blog/receptionist-jobs-in-australia">Receptionist Jobs in Australia</a>: an entry-level office job, and what the Clerks Award pays in year one.</li>
+    <li><a href="/blog/how-to-become-a-sales-representative-in-australia">How to Become a Sales Representative in Australia</a>: the licence, working rights and training employers ask for, and the award floor under field sales pay.</li>
+    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a>: the apprenticeship, the AUR30620 qualification, award pay for apprentices and the routes for overseas-trained mechanics.</li>
+    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a>: every route in compared: employer sponsorship, skilled visas without a job offer, working holidays, the PALM scheme and student work rights.</li>
+    <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a>: the job title in each state, WA pay of $34.75 to $43.28 an hour, and the checks and certificates schools ask for.</li>
+    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a>: the no-experience pathways, what the FutureFit Academy really offers and official pay benchmarks.</li>
+    <li><a href="/blog/how-to-apply-for-qantas-ground-staff-jobs-in-australia">How to Apply for Qantas Ground Staff Jobs in Australia</a>: the pay Qantas will not publish, from the agreement that does.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Award rates, superannuation, screening rules and visa conditions change. Check the current pay guide on fairwork.gov.au and your visa conditions on immi.homeaffairs.gov.au before accepting a job.</p>

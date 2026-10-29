@@ -314,9 +314,9 @@ JOBHTML;
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a> &mdash; the UAE route in detail.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; the wider Canadian picture.</li>
-    <li><a href="/blog/sales-executive-and-customer-support-jobs-abroad">Sales Executive and Customer Support Jobs Abroad</a> &mdash; other UAE office roles.</li>
+    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a>: the UAE route in detail.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: the wider Canadian picture.</li>
+    <li><a href="/blog/sales-executive-and-customer-support-jobs-abroad">Sales Executive and Customer Support Jobs Abroad</a>: other UAE office roles.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, tax or career advice. Information is drawn from u.ae, the European Commission, Job Bank and the Government of Canada, reviewed on 6 October 2026. Recruitment links do not guarantee vacancies, sponsorship or professional recognition, and requirements change, so confirm them with the official authority before applying.</p>

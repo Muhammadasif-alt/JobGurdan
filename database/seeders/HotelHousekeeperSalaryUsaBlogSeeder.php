@@ -241,9 +241,9 @@ class HotelHousekeeperSalaryUsaBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/hotel-housekeeper-jobs-usa-visa-sponsorship-2026">Hotel Housekeeper Jobs in USA With Visa Sponsorship (2026)</a> &mdash; H-2B rules and how to apply.</li>
-    <li><a href="/blog/landscaper-salary-usa-2026">Landscaper Salary in USA (2026)</a> &mdash; the same breakdown for landscaping.</li>
-    <li><a href="/blog/farm-worker-salary-usa-2026">Farm Worker Salary in USA (2026)</a> &mdash; the same breakdown for farm work.</li>
+    <li><a href="/blog/hotel-housekeeper-jobs-usa-visa-sponsorship-2026">Hotel Housekeeper Jobs in USA With Visa Sponsorship (2026)</a>: H-2B rules and how to apply.</li>
+    <li><a href="/blog/landscaper-salary-usa-2026">Landscaper Salary in USA (2026)</a>: the same breakdown for landscaping.</li>
+    <li><a href="/blog/farm-worker-salary-usa-2026">Farm Worker Salary in USA (2026)</a>: the same breakdown for farm work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or financial advice. Wage figures are from the US Bureau of Labor Statistics (2025 accommodation-industry data and May 2025 national estimates), reviewed on 8 October 2026. Accommodation data are not hotel-only figures. Monthly calculations and PKR conversions are editorial examples, not official statistics or job offers.</p>

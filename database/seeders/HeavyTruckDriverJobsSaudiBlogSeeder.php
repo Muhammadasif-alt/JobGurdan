@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Heavy Truck Driver Jobs in Saudi Arabia" — a sector guide rather than one
+ * "Heavy Truck Driver Jobs in Saudi Arabia": a sector guide rather than one
  * vacancy, so the apply link goes to an Indeed search and the post carries no
  * JobPosting markup. It is scoped to the heavy-vehicle specialism (licence
  * class, conversion, long-haul and tanker work); the general driver guide owns
@@ -163,7 +163,7 @@ class HeavyTruckDriverJobsSaudiBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li>A Saudi <strong>public / heavy-transport driving licence</strong> &mdash; a foreign licence is only valid temporarily (about a year), and drivers from India, Pakistan, Bangladesh and the Philippines must pass the full Saudi test, not simply convert</li>
+    <li>A Saudi <strong>public / heavy-transport driving licence</strong>: a foreign licence is only valid temporarily (about a year), and drivers from India, Pakistan, Bangladesh and the Philippines must pass the full Saudi test, not simply convert</li>
     <li>Several years of verified heavy-vehicle experience, a medical fitness certificate and a clean driving record</li>
     <li>An employer-sponsored Iqama (residency permit)</li>
 </ul>
@@ -176,9 +176,9 @@ class HeavyTruckDriverJobsSaudiBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Confirm the licence path for your nationality, the salary in writing, and that pay runs through WPS</strong> &mdash; and use only a licensed recruiter.</p>
+<p><strong>Confirm the licence path for your nationality, the salary in writing, and that pay runs through WPS</strong>, and use only a licensed recruiter.</p>
 
-<p><strong>Note:</strong> pay, benefits and requirements are set by each employer &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, benefits and requirements are set by each employer, not by JobGader. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 
@@ -196,7 +196,7 @@ JOBHTML;
 <h2>What a Heavy Truck Driver Does in Saudi Arabia</h2>
 
 <ul>
-    <li>Operating heavy trucks, trailers and specialised vehicles &mdash; tankers, flatbeds, dump trucks</li>
+    <li>Operating heavy trucks, trailers and specialised vehicles: tankers, flatbeds, dump trucks</li>
     <li>Loading and unloading cargo safely, often with a ground crew</li>
     <li>Pre-trip and post-trip vehicle inspections</li>
     <li>Following designated routes and Saudi road-safety regulations</li>
@@ -209,14 +209,14 @@ JOBHTML;
 
 <h2>The Licence: The One Thing Most Guides Get Wrong</h2>
 
-<p>This is the single most important fact for an overseas driver, and the point where the standard advice fails. A heavy truck needs the Saudi <strong>public / heavy-transport licence</strong> &mdash; not the private-car licence &mdash; and its minimum age is higher than the private licence's 18 (commonly cited as 20 to 22; confirm with Absher).</p>
+<p>This is the single most important fact for an overseas driver, and the point where the standard advice fails. A heavy truck needs the Saudi <strong>public / heavy-transport licence</strong>, not the private-car licence, and its minimum age is higher than the private licence's 18 (commonly cited as 20 to 22; confirm with Absher).</p>
 
 <p>Whether you can convert your existing licence <strong>depends entirely on your nationality</strong>:</p>
 
 <ul>
     <li><strong>Reciprocal-list countries convert without a test.</strong> The GCC states, the USA, the UK, EU members, Canada, Australia, New Zealand, Japan, South Korea and Singapore are on the approved list.</li>
     <li><strong>Most South Asian and source nationalities are not.</strong> Drivers from <strong>India, Pakistan, Bangladesh and the Philippines cannot simply convert</strong>. They must complete the full Saudi process: theory lessons, a computer theory test, practical lessons and a road test.</li>
-    <li><strong>A foreign or international licence is temporary.</strong> It can be used for roughly one year after arrival &mdash; it is not a Saudi licence, and it does not remove the need to obtain one.</li>
+    <li><strong>A foreign or international licence is temporary.</strong> It can be used for roughly one year after arrival: it is not a Saudi licence, and it does not remove the need to obtain one.</li>
 </ul>
 
 <p>So the common line "you can convert your international licence locally after arrival" is misleading for exactly the drivers most likely to read it. Budget time and money for the Saudi driving test unless you hold a licence from a reciprocal-list country.</p>
@@ -229,7 +229,7 @@ JOBHTML;
 
 <h2>Pay: There Is No Minimum Wage for Expats</h2>
 
-<p>The second correction. Saudi Arabia has <strong>no statutory minimum wage for expatriate private-sector workers</strong>. Your pay is whatever your contract says &mdash; nothing more, nothing less. The SAR 4,000 figure that circulates is a <strong>Nitaqat/Saudization counting threshold for Saudi nationals</strong>, not a legal floor for foreign workers.</p>
+<p>The second correction. Saudi Arabia has <strong>no statutory minimum wage for expatriate private-sector workers</strong>. Your pay is whatever your contract says: nothing more, nothing less. The SAR 4,000 figure that circulates is a <strong>Nitaqat/Saudization counting threshold for Saudi nationals</strong>, not a legal floor for foreign workers.</p>
 
 <p>What protects you is not a minimum wage but the <strong>Wage Protection System (WPS)</strong>: whatever the contract sets must be paid through WPS, on time and in full, and the ministry can act against employers who underpay or delay.</p>
 
@@ -252,14 +252,14 @@ JOBHTML;
 </table>
 </div>
 
-<p>Treat these as a rough guide, not a promise. The contract, not the internet, is what will be paid &mdash; so get it in writing and confirm accommodation, flights and the pay schedule before you accept.</p>
+<p>Treat these as a rough guide, not a promise. The contract, not the internet, is what will be paid, so get it in writing and confirm accommodation, flights and the pay schedule before you accept.</p>
 
 <h2>Saudization: What Is Open and What Is Not</h2>
 
 <p>Not every driving job is open to foreigners, and the difference matters:</p>
 
 <ul>
-    <li><strong>App-based ride-hailing (Uber, Careem) is closed.</strong> Those "captain" roles have been 100% reserved for Saudi nationals since January 2021 &mdash; not an expat route.</li>
+    <li><strong>App-based ride-hailing (Uber, Careem) is closed.</strong> Those "captain" roles have been 100% reserved for Saudi nationals since January 2021, not an expat route.</li>
     <li><strong>Heavy and long-haul truck driving remains open</strong> to expatriates as of September 2026.</li>
     <li><strong>Watch the trend.</strong> MHRSD announced a 2026-2028 drive to localise hundreds of thousands of private-sector jobs, and transport is regulated by the Transport General Authority, so the rules can tighten. Check the current position before you commit.</li>
 </ul>
@@ -279,7 +279,7 @@ JOBHTML;
 <h2>How to Apply Safely</h2>
 
 <ol>
-    <li><strong>Use a licensed recruiter.</strong> Musaned is for domestic workers only, not truck drivers. Drivers go through licensed recruitment agencies plus their own country's official emigration system &mdash; Pakistan's Bureau of Emigration &amp; Overseas Employment (BEOE) / Protector of Emigrants, or India's eMigrate.</li>
+    <li><strong>Use a licensed recruiter.</strong> Musaned is for domestic workers only, not truck drivers. Drivers go through licensed recruitment agencies plus their own country's official emigration system: Pakistan's Bureau of Emigration &amp; Overseas Employment (BEOE) / Protector of Emigrants, or India's eMigrate.</li>
     <li><strong>Never pay an illegal fee.</strong> Charging workers for a job is against the rules; verify the agency's licence and walk away from anyone demanding cash for a placement.</li>
     <li><strong>Get the contract in writing</strong> before you travel, with salary, hours, accommodation and flights stated.</li>
     <li><strong>Confirm the licence path</strong> for your nationality so you are not stranded unable to drive.</li>
@@ -310,10 +310,10 @@ JOBHTML;
 
 <ul>
     <li><strong>Verify the agency's licence</strong> before anything else.</li>
-    <li><strong>List your vehicle experience precisely</strong> &mdash; tankers, flatbeds, trailers.</li>
-    <li><strong>Prepare documents early</strong> &mdash; licence, medical certificate, experience records.</li>
+    <li><strong>List your vehicle experience precisely</strong>: tankers, flatbeds, trailers.</li>
+    <li><strong>Prepare documents early</strong>: licence, medical certificate, experience records.</li>
     <li><strong>Lead with your safety record;</strong> a clean history is heavily weighted.</li>
-    <li><strong>Settle contract terms first</strong> &mdash; accommodation, pay schedule, duration.</li>
+    <li><strong>Settle contract terms first</strong>: accommodation, pay schedule, duration.</li>
 </ul>
 
 <h2>Career Progression</h2>
@@ -321,7 +321,7 @@ JOBHTML;
 <ul>
     <li>Senior or lead driver overseeing a small fleet</li>
     <li>Fleet supervisor or transport coordinator</li>
-    <li>Specialised driver &mdash; hazardous materials, oversized loads, oil-and-gas logistics</li>
+    <li>Specialised driver: hazardous materials, oversized loads, oil-and-gas logistics</li>
     <li>Logistics or dispatch operations, with further training</li>
     <li>Driving instructor or safety trainer</li>
 </ul>
@@ -329,7 +329,7 @@ JOBHTML;
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I convert my licence to drive trucks in Saudi Arabia?</h3>
-<p>Only if it is from a reciprocal-list country (GCC states, USA, UK, EU, Canada, Australia, New Zealand, Japan, South Korea, Singapore). Drivers from India, Pakistan, Bangladesh and the Philippines must pass the full Saudi test &mdash; theory and a road test &mdash; not simply convert.</p>
+<p>Only if it is from a reciprocal-list country (GCC states, USA, UK, EU, Canada, Australia, New Zealand, Japan, South Korea, Singapore). Drivers from India, Pakistan, Bangladesh and the Philippines must pass the full Saudi test, theory and a road test, not simply convert.</p>
 
 <h3>Is there a minimum wage for truck drivers in Saudi Arabia?</h3>
 <p>No. There is no statutory minimum wage for expatriate private-sector workers; pay is set by the contract. The SAR 4,000 figure often quoted is a Saudization counting threshold for Saudi nationals, not a legal floor for foreign workers.</p>
@@ -338,10 +338,10 @@ JOBHTML;
 <p>It depends entirely on the contract. Third-party aggregators (not official) estimate roughly SAR 1,500-2,500 for local delivery, SAR 2,500-4,000 for regional routes and SAR 4,500-7,000+ for long-haul, often plus accommodation and flights.</p>
 
 <h3>Do I need a special licence for heavy trucks?</h3>
-<p>Yes &mdash; the Saudi public / heavy-transport licence, not the private-car licence. Its minimum age is higher than 18 (commonly cited as 20 to 22); confirm the exact figure with Absher.</p>
+<p>Yes: the Saudi public / heavy-transport licence, not the private-car licence. Its minimum age is higher than 18 (commonly cited as 20 to 22); confirm the exact figure with Absher.</p>
 
 <h3>Are foreign truck drivers still allowed in Saudi Arabia?</h3>
-<p>Heavy and long-haul truck driving remains open to expatriates as of September 2026. App-based ride-hailing (Uber, Careem) is closed &mdash; reserved for Saudi nationals since 2021 &mdash; and further localisation is planned for 2026-2028, so check the current rules.</p>
+<p>Heavy and long-haul truck driving remains open to expatriates as of September 2026. App-based ride-hailing (Uber, Careem) is closed, reserved for Saudi nationals since 2021, and further localisation is planned for 2026-2028, so check the current rules.</p>
 
 <h3>How is my salary protected?</h3>
 <p>Through the Wage Protection System (WPS). Whatever your contract states must be paid through WPS, on time and in full, and the ministry can act against employers who underpay or delay.</p>
@@ -373,7 +373,7 @@ JOBHTML;
 <p>The best-paid route type, estimated at SAR 4,500-7,000+ a month by aggregators, often with accommodation.</p>
 
 <h3>Uber and Careem driver jobs Saudi Arabia</h3>
-<p>Closed to expatriates &mdash; app-based ride-hailing has been reserved for Saudi nationals since 2021.</p>
+<p>Closed to expatriates: app-based ride-hailing has been reserved for Saudi nationals since 2021.</p>
 
 <h3>Wage Protection System Saudi Arabia</h3>
 <p>The mandatory system through which private-sector salaries must be paid, protecting workers where no minimum wage applies.</p>
@@ -383,12 +383,12 @@ JOBHTML;
 <p>Planning a move to the Kingdom? These cover the wider picture:</p>
 
 <ul>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; the visa mechanics and the company-versus-house-driver split, in depth.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; the biggest Vision 2030 employer of foreign labour.</li>
-    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a> &mdash; a related trade that keeps the fleets running.</li>
-    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a> &mdash; entry routes and the same minimum-wage and recruitment rules.</li>
-    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a> &mdash; RTA licence types, whose licences can be exchanged, and the visa steps for drivers.</li>
-    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a> &mdash; the permit, ELDT training, the 14-day rule and what the first year pays.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: the visa mechanics and the company-versus-house-driver split, in depth.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: the biggest Vision 2030 employer of foreign labour.</li>
+    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a>: a related trade that keeps the fleets running.</li>
+    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a>: entry routes and the same minimum-wage and recruitment rules.</li>
+    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a>: RTA licence types, whose licences can be exchanged, and the visa steps for drivers.</li>
+    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a>: the permit, ELDT training, the 14-day rule and what the first year pays.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers or immigration advice. Licence rules, Saudization decisions and pay practices change and are set by Saudi authorities and each employer. Confirm the current details with Absher, MHRSD, a licensed recruiter and the employer before applying.</p>

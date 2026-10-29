@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Qantas Ground Staff Jobs in Australia" — the guide that
+ * "How to Apply for Qantas Ground Staff Jobs in Australia": the guide that
  * splits one job title into two. Qantas outsourced ramp and baggage loading
  * in 2020 and still employs airport customer service directly, so "ground
  * staff" points at two employers depending on which half you mean.
@@ -172,7 +172,7 @@ class QantasGroundStaffJobsAustraliaBlogSeeder extends Seeder
 <h3>Work rights</h3>
 <p>Qantas Group adverts for these roles require the right to work in Australia or New Zealand without restrictions or sponsorship. None of these occupations appear on Australia's Core Skills Occupation List, so there is no employer-sponsored visa route into them.</p>
 
-<p>Pay, rosters, security clearances and visa rules are set by the Qantas Group, the Fair Work Commission, AusCheck and the Department of Home Affairs &mdash; not by JobGader. Confirm the requirements on the live posting before you apply.</p>
+<p>Pay, rosters, security clearances and visa rules are set by the Qantas Group, the Fair Work Commission, AusCheck and the Department of Home Affairs, not by JobGader. Confirm the requirements on the live posting before you apply.</p>
 JOBHTML;
     }
 
@@ -303,7 +303,7 @@ JOBHTML;
     <li>Background checks <strong>take six to eight weeks</strong>, and AusCheck advises applying at least six weeks before you need the card.</li>
 </ul>
 
-<p>Two things worth knowing that the adverts do not spell out. <strong>There is no Australian citizenship requirement for an ASIC</strong> &mdash; AusCheck's own identity document list accepts an Australian visa with a foreign passport, and an ImmiCard. The barrier for visa holders is the employer's work-rights rule, not the security card. And on cost: the Qantas agreement says the employer reimburses the application fee, but <strong>it does not reimburse costs incurred before your employment starts, or unsuccessful applications and renewals.</strong></p>
+<p>Two things worth knowing that the adverts do not spell out. <strong>There is no Australian citizenship requirement for an ASIC</strong>: AusCheck's own identity document list accepts an Australian visa with a foreign passport, and an ImmiCard. The barrier for visa holders is the employer's work-rights rule, not the security card. And on cost: the Qantas agreement says the employer reimburses the application fee, but <strong>it does not reimburse costs incurred before your employment starts, or unsuccessful applications and renewals.</strong></p>
 
 <h2>What Else Do You Need?</h2>
 
@@ -389,13 +389,13 @@ JOBHTML;
 <p>Working out whether Australia is open to you at all, or comparing airline employers? Start here:</p>
 
 <ul>
-    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a> &mdash; the routes that exist, before you apply to anything.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; which occupations are actually sponsored.</li>
-    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a> &mdash; another Australian employer that keeps its pay quiet.</li>
-    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; where a rotating roster and no experience is enough.</li>
-    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; the same twist, at Abu Dhabi: the airline is not the employer.</li>
-    <li><a href="/blog/how-to-apply-for-singapore-airlines-cabin-crew-jobs">How to Apply for Singapore Airlines Cabin Crew Jobs</a> &mdash; published pay, a five-year contract, and the service bond most guides omit.</li>
-    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a> &mdash; the five year vetting and counter terrorism check that decide the application.</li>
+    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a>: the routes that exist, before you apply to anything.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>, which occupations are actually sponsored.</li>
+    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a>: another Australian employer that keeps its pay quiet.</li>
+    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a>: where a rotating roster and no experience is enough.</li>
+    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a>: the same twist, at Abu Dhabi: the airline is not the employer.</li>
+    <li><a href="/blog/how-to-apply-for-singapore-airlines-cabin-crew-jobs">How to Apply for Singapore Airlines Cabin Crew Jobs</a>: published pay, a five-year contract, and the service bond most guides omit.</li>
+    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a>: the five year vetting and counter terrorism check that decide the application.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Qantas's own newsroom statements and careers pages, the Fair Work Commission's published enterprise agreement AE531839, the Airline Operations Ground Staff Award MA000048, Fair Work Ombudsman minimum wage data, AusCheck guidance on the Aviation Security Identification Card, the Department of Home Affairs Core Skills Occupation List and Australian Taxation Office superannuation rates, checked on 22 September 2026. Agreements are renegotiated, award rates change each July and immigration rules change. Always check the live posting and the official government source before acting.</p>

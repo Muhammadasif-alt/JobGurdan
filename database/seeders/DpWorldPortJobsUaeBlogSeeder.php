@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for DP World Port Jobs in UAE" — a guide for readers who can
+ * "How to Apply for DP World Port Jobs in UAE": a guide for readers who can
  * genuinely reach this employer, so the value is not "can you go" but what the
  * terms actually are and which advertised routes are shut.
  *
@@ -158,7 +158,7 @@ class DpWorldPortJobsUaeBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> employment terms come from UAE Federal Decree-Law 33 of 2021 and, for free zone staff, the zone authority's own rules; recruitment fee limits in Pakistan come from the Emigration Ordinance 1979 &mdash; not by JobGader. DP World states it will never charge or collect any fee or require money deposits from jobseekers at any stage. Applying is free; any request for payment is a scam.</p>
+<p><strong>Note:</strong> employment terms come from UAE Federal Decree-Law 33 of 2021 and, for free zone staff, the zone authority's own rules; recruitment fee limits in Pakistan come from the Emigration Ordinance 1979, not by JobGader. DP World states it will never charge or collect any fee or require money deposits from jobseekers at any stage. Applying is free; any request for payment is a scam.</p>
 JOBHTML;
     }
 
@@ -186,17 +186,17 @@ JOBHTML;
 <p>Everything that sits under that path requires a Family Book, and DP World's own wording says so in the requirements list of each one:</p>
 
 <ul>
-    <li><strong>Ruwad Graduate Programme (bachelor's)</strong> &mdash; "Family Book/Junsiya (For UAE Nationals Only)", plus a National Service Completion Letter for men. 12-month development plan, minimum GPA 2.8.</li>
-    <li><strong>Ruwad (high school and diploma)</strong> &mdash; same nationality requirement, minimum 70 per cent. Note its plan is <strong>six months</strong>, not the 12 that gets quoted; the 12-month figure belongs to the bachelor's track.</li>
-    <li><strong>Ta'heel Scholarship</strong> &mdash; "UAE Nationals (Family Book)", minimum GPA 3.0.</li>
-    <li><strong>Bedaya Summer Training</strong> &mdash; "UAE Nationals (Family Book)".</li>
-    <li><strong>Forsa Internship</strong> and <strong>Tumoohi</strong> &mdash; both the same.</li>
+    <li><strong>Ruwad Graduate Programme (bachelor's)</strong>: "Family Book/Junsiya (For UAE Nationals Only)", plus a National Service Completion Letter for men. 12-month development plan, minimum GPA 2.8.</li>
+    <li><strong>Ruwad (high school and diploma)</strong>: same nationality requirement, minimum 70 per cent. Note its plan is <strong>six months</strong>, not the 12 that gets quoted; the 12-month figure belongs to the bachelor's track.</li>
+    <li><strong>Ta'heel Scholarship</strong>: "UAE Nationals (Family Book)", minimum GPA 3.0.</li>
+    <li><strong>Bedaya Summer Training</strong>: "UAE Nationals (Family Book)".</li>
+    <li><strong>Forsa Internship</strong> and <strong>Tumoohi</strong>: both the same.</li>
     <li><strong>Even the "Experienced Professionals" pathway</strong>, which guides present as the general route, sits on the Emiratisation path and opens with "The Emiratisation career opportunities at DP World include the following fields". Its "minimum of two years of experience" is real, but it is an Emirati pathway.</li>
 </ul>
 
 <p>There is a reason for all of this, and it is worth understanding rather than resenting. Under the <strong>Nafis</strong> programme, UAE private firms with 50 or more staff must raise Emirati employment in skilled roles by two percentage points a year to reach 10 per cent, with a penalty of <strong>AED 6,000 a month for every unfilled Emirati post</strong>. These programmes exist to meet that quota.</p>
 
-<p><strong>So what is open to you?</strong> The ordinary global vacancy board, and only that. DP World's general internship page advertises a 12-week programme with no nationality bar, but its application button leads to a board carrying <strong>zero live internship postings</strong>, and across all 570 of DP World's global vacancies only two carry an early-career title &mdash; an apprentice in Australia and an intern in Mozambique. Neither is in the UAE.</p>
+<p><strong>So what is open to you?</strong> The ordinary global vacancy board, and only that. DP World's general internship page advertises a 12-week programme with no nationality bar, but its application button leads to a board carrying <strong>zero live internship postings</strong>, and across all 570 of DP World's global vacancies only two carry an early-career title: an apprentice in Australia and an intern in Mozambique. Neither is in the UAE.</p>
 
 <p>The honest summary: <strong>DP World currently offers non-Emiratis no early-career entry point in the UAE.</strong> You need to arrive with experience.</p>
 
@@ -213,7 +213,7 @@ JOBHTML;
 
 <p style="border-left:4px solid #0a5c8f;padding-left:16px;margin:20px 0;"><strong>"Those working in free zones are generally not governed by the UAE Labour Law. Each free zone authority has its own employment law... Moreover, free zone employees are sponsored by the respective free zone authority and not by their employer."</strong></p>
 
-<p>Two practical effects. First, <strong>your residence visa is held by the zone authority</strong>, not by DP World. Second, and more importantly, <strong>the Ministry of Human Resources and Emiratisation complaint route does not apply to you</strong> &mdash; disputes go through the free zone's own channel instead. Any article that tells you "MOHRE will protect you" without this caveat is giving you advice you cannot use.</p>
+<p>Two practical effects. First, <strong>your residence visa is held by the zone authority</strong>, not by DP World. Second, and more importantly, <strong>the Ministry of Human Resources and Emiratisation complaint route does not apply to you</strong>: disputes go through the free zone's own channel instead. Any article that tells you "MOHRE will protect you" without this caveat is giving you advice you cannot use.</p>
 
 <p>The free zone's rules must still be consistent with the federal Labour Law, so the substantive protections below remain your benchmark. But know which door you would knock on.</p>
 
@@ -225,7 +225,7 @@ JOBHTML;
 
 <ul>
     <li><strong>AED 4,000</strong> is the threshold for <strong>sponsoring your family</strong> to join you, or AED 3,000 plus accommodation. It is an immigration test, not a wage floor.</li>
-    <li><strong>AED 6,000</strong> is a genuine minimum, in force since 1 January 2026 &mdash; <strong>for Emiratis in the private sector only</strong>.</li>
+    <li><strong>AED 6,000</strong> is a genuine minimum, in force since 1 January 2026: <strong>for Emiratis in the private sector only</strong>.</li>
 </ul>
 
 <p>DP World publishes no salary on any of its 19 UAE vacancies; we checked every one through the board's own data. So treat any salary figure you read about these jobs as invented.</p>
@@ -233,13 +233,13 @@ JOBHTML;
 <p><strong>The number that really matters is your gratuity</strong>, because it is a large part of Gulf pay and most guides get it wrong. Under Article 51:</p>
 
 <ul>
-    <li>Under one year of service &mdash; <strong>nothing</strong></li>
-    <li>One to five years &mdash; <strong>21 days' basic pay for each year</strong></li>
-    <li>Beyond five years &mdash; <strong>30 days' basic pay for each additional year</strong></li>
+    <li>Under one year of service: <strong>nothing</strong></li>
+    <li>One to five years: <strong>21 days' basic pay for each year</strong></li>
+    <li>Beyond five years: <strong>30 days' basic pay for each additional year</strong></li>
     <li><strong>Capped at two years' wages</strong> in total</li>
 </ul>
 
-<p><strong>It is calculated on basic salary only.</strong> Housing, transport, utilities and furniture allowances are excluded &mdash; and in Gulf packages those allowances are often a third or more of the total. When you compare two offers, compare the <em>basic</em>, not the headline. Gratuity must be paid within 14 days of the contract ending.</p>
+<p><strong>It is calculated on basic salary only.</strong> Housing, transport, utilities and furniture allowances are excluded, and in Gulf packages those allowances are often a third or more of the total. When you compare two offers, compare the <em>basic</em>, not the headline. Gratuity must be paid within 14 days of the contract ending.</p>
 
 <p>There is also a newer voluntary savings scheme in which the employer pays 5.83 per cent of basic monthly (or 8.33 per cent after five years) into an approved fund instead. Ask which system applies to you.</p>
 
@@ -247,7 +247,7 @@ JOBHTML;
 
 <p>These come from Federal Decree-Law 33 of 2021 as amended, and several of them are commonly reported wrongly.</p>
 
-<p><strong>Contracts are fixed-term, and the three-year cap is gone.</strong> Unlimited contracts were abolished. Article 8 now places no maximum on the term. Be aware that one page on the UAE Government's own portal still says "not exceeding three years" &mdash; the statute governs, and the page is stale.</p>
+<p><strong>Contracts are fixed-term, and the three-year cap is gone.</strong> Unlimited contracts were abolished. Article 8 now places no maximum on the term. Be aware that one page on the UAE Government's own portal still says "not exceeding three years": the statute governs, and the page is stale.</p>
 
 <p><strong>Probation is a maximum of six months and cannot be extended.</strong> The employer terminates on 14 days' written notice. If you want to leave during probation for another UAE employer you give <strong>one month</strong>; if you are leaving the country you give <strong>14 days</strong>. And here is the part people get wrong: <strong>the recruitment cost is repaid by your new employer, not by you.</strong> The law puts that obligation on the incoming company.</p>
 
@@ -255,7 +255,7 @@ JOBHTML;
 
 <p><strong>Annual leave</strong> is 30 days a year after your first year, and two days per month between six and twelve months' service.</p>
 
-<p><strong>Hours and overtime:</strong> eight hours a day or 48 a week, reduced by two hours a day during Ramadan. Overtime is capped at two extra hours a day and paid at basic plus 25 per cent &mdash; rising to <strong>basic plus 50 per cent for hours worked between 10pm and 4am</strong>, though shift workers are excluded from that uplift. Work on your rest day earns a substitute day or basic plus 50 per cent.</p>
+<p><strong>Hours and overtime:</strong> eight hours a day or 48 a week, reduced by two hours a day during Ramadan. Overtime is capped at two extra hours a day and paid at basic plus 25 per cent: rising to <strong>basic plus 50 per cent for hours worked between 10pm and 4am</strong>, though shift workers are excluded from that uplift. Work on your rest day earns a substitute day or basic plus 50 per cent.</p>
 
 <p><strong>The weekend is not Friday by law.</strong> The statute requires only "not less than one day" of paid rest a week, set by your contract or the employer's work regulations. The Saturday&ndash;Sunday change applied to federal government bodies, not the private sector.</p>
 
@@ -265,7 +265,7 @@ JOBHTML;
 
 <p><strong>The Wages Protection System.</strong> Since Ministerial Resolution 340 of 2026, wages for the previous month fall due on the <strong>first day of each month</strong>, and employers must transfer at least <strong>85 per cent</strong> of total wages on time. If they do not, the consequences escalate on a published timetable: alerts from day two, new work permits suspended from day five, fines and reclassification from day eleven, automatic registration of a labour dispute from day sixteen, and by day twenty-one an executive instrument for payment, precautionary attachment, <strong>a travel ban on the person in charge of the establishment</strong>, and referral to the Public Prosecution. Any guide still saying employers have fifteen days to pay is quoting the old rule.</p>
 
-<p><strong>Unemployment insurance is compulsory and it covers you.</strong> The scheme applies to all private-sector employees, not just Emiratis. It costs <strong>AED 5 a month</strong> if your basic salary is under AED 16,000, or AED 10 above that &mdash; and you pay it, not your employer. If you lose your job through no fault of your own you receive <strong>60 per cent of your subscription salary for up to three months</strong>, capped at AED 10,000 or AED 20,000 a month depending on your band. You need twelve consecutive months of subscription to qualify, you must claim within 30 days and be in the country, and there is a lifetime ceiling of twelve months of benefit. <strong>Not subscribing carries an AED 400 fine</strong>, so check it is being deducted.</p>
+<p><strong>Unemployment insurance is compulsory and it covers you.</strong> The scheme applies to all private-sector employees, not just Emiratis. It costs <strong>AED 5 a month</strong> if your basic salary is under AED 16,000, or AED 10 above that, and you pay it, not your employer. If you lose your job through no fault of your own you receive <strong>60 per cent of your subscription salary for up to three months</strong>, capped at AED 10,000 or AED 20,000 a month depending on your band. You need twelve consecutive months of subscription to qualify, you must claim within 30 days and be in the country, and there is a lifetime ceiling of twelve months of benefit. <strong>Not subscribing carries an AED 400 fine</strong>, so check it is being deducted.</p>
 
 <figure style="margin:28px 0;">
     <img src="/public/storage/blogs/how-to-apply-for-dp-world-port-jobs-in-uae-crane.jpg" alt="Ship-to-shore cranes working a container vessel" style="width:100%;height:auto;border-radius:10px;">
@@ -274,13 +274,13 @@ JOBHTML;
 
 <h2>What Is Actually on the Board</h2>
 
-<p>DP World had <strong>570 live vacancies worldwide and 19 in the UAE</strong>. That second number deserves attention, because the UAE is DP World's home market and yet it ranks <strong>tenth</strong> by vacancy count &mdash; behind India with 141, Germany 64, the United States 44, Turkey 43, Australia 36 and the United Kingdom 30.</p>
+<p>DP World had <strong>570 live vacancies worldwide and 19 in the UAE</strong>. That second number deserves attention, because the UAE is DP World's home market and yet it ranks <strong>tenth</strong> by vacancy count: behind India with 141, Germany 64, the United States 44, Turkey 43, Australia 36 and the United Kingdom 30.</p>
 
 <p>Within the UAE: <strong>Dubai 14, unspecified UAE 4, Fujairah 1.</strong> And despite Jebel Ali being the flagship, <strong>only one vacancy carried a Jebel Ali badge</strong>. Do not plan around a large Jebel Ali intake that is not there.</p>
 
 <p>Real titles live today: Global Manager for Project Management in Logistics (Dubai); Supervisor (Dubai); Administrator (UAE); Site Project Management Officer on a fixed-term contract (UAE); Project HSE Manager on a two-year contract (Fujairah); Manager Contract (Dubai); Credit Manager (Dubai); and <strong>Technician &ndash; Welding (Dubai)</strong>, described as carrying out welding on port plant and equipment from fabrication to structural repairs.</p>
 
-<p><strong>That welding role is the clearest blue-collar entry point on the board</strong>, and along with Supervisor and Administrator it is one of only three genuinely junior roles open regardless of nationality. One further UAE listing, "Emirati Talent &ndash; Future Opportunities", is restricted on its face and has sat open since November 2024 &mdash; it is a pipeline post, not a vacancy.</p>
+<p><strong>That welding role is the clearest blue-collar entry point on the board</strong>, and along with Supervisor and Administrator it is one of only three genuinely junior roles open regardless of nationality. One further UAE listing, "Emirati Talent &ndash; Future Opportunities", is restricted on its face and has sat open since November 2024: it is a pipeline post, not a vacancy.</p>
 
 <p>Two things to correct while you are reading DP World's own material. Its headcount is published three different ways across its site; the <strong>Annual Report 2025 figure is more than 125,000 people across more than 80 countries, with 169 nationalities</strong>. And the marine brands were renamed in 2025: Unifeeder is now <strong>Shipping Solutions</strong>, P&amp;O Ferrymasters is <strong>Multimodal Solutions</strong>, and P&amp;O Maritime Logistics is <strong>Maritime Solutions</strong>. Guides still using the old names are out of date, though one stale DP World posting uses them too.</p>
 
@@ -299,14 +299,14 @@ JOBHTML;
 <p><strong>Then know the Pakistani law, because this is where the money is taken from you.</strong></p>
 
 <ul>
-    <li>A licensed Overseas Employment Promoter may take <strong>Rs 15,000</strong> &mdash; and it is not a fee, it is a <strong>refundable deposit</strong>. It is released to the promoter only once the Protector of Emigrants certifies you actually took up the job; if the promoter fails to place you, <strong>the money comes back to you</strong>. That is your main protection and most workers do not know it exists.</li>
-    <li>On top of that, only <strong>documented actual costs with receipts</strong> &mdash; ticketing, medical, work permit, levy, visa, documentation. Nothing else. The published total through an OEP is <strong>Rs 22,200</strong> (the Rs 15,000 deposit, Rs 4,000 OPF welfare fund, Rs 2,500 insurance, Rs 500 registration, Rs 200 OEC), or Rs 9,200 for direct employment.</li>
+    <li>A licensed Overseas Employment Promoter may take <strong>Rs 15,000</strong>, and it is not a fee, it is a <strong>refundable deposit</strong>. It is released to the promoter only once the Protector of Emigrants certifies you actually took up the job; if the promoter fails to place you, <strong>the money comes back to you</strong>. That is your main protection and most workers do not know it exists.</li>
+    <li>On top of that, only <strong>documented actual costs with receipts</strong>: ticketing, medical, work permit, levy, visa, documentation. Nothing else. The published total through an OEP is <strong>Rs 22,200</strong> (the Rs 15,000 deposit, Rs 4,000 OPF welfare fund, Rs 2,500 insurance, Rs 500 registration, Rs 200 OEC), or Rs 9,200 for direct employment.</li>
     <li><strong>Registration with the Protector of Emigrants before you leave is mandatory</strong>, and insurance of Rs 1 million for two years comes with it.</li>
-    <li><strong>The penalties are severe on both sides.</strong> An unlicensed agent, or a licensed one charging above the prescribed amount, faces up to <strong>14 years</strong>. But note that a worker who emigrates outside the Ordinance faces up to <strong>five years</strong> &mdash; going around the system does not only risk your money.</li>
+    <li><strong>The penalties are severe on both sides.</strong> An unlicensed agent, or a licensed one charging above the prescribed amount, faces up to <strong>14 years</strong>. But note that a worker who emigrates outside the Ordinance faces up to <strong>five years</strong>: going around the system does not only risk your money.</li>
     <li>Promoters are explicitly barred from helping anyone use a <strong>visit, study or Umrah visa</strong> for employment. If that is the plan being offered to you, it is illegal for them to offer it.</li>
 </ul>
 
-<p><strong>Practical checks before you pay anyone anything:</strong> verify the promoter's licence on the Bureau of Emigration's published list of active OEPs; verify the job offer's reference number through the MOHRE enquiry service; and check the company exists on the UAE National Economic Register. Your signed job offer must match the contract you sign on arrival &mdash; keep a copy, because that match is enforceable. The offer must be given to you in Arabic, English and a third language you understand, and <strong>Urdu is on the approved list</strong>.</p>
+<p><strong>Practical checks before you pay anyone anything:</strong> verify the promoter's licence on the Bureau of Emigration's published list of active OEPs; verify the job offer's reference number through the MOHRE enquiry service; and check the company exists on the UAE National Economic Register. Your signed job offer must match the contract you sign on arrival: keep a copy, because that match is enforceable. The offer must be given to you in Arabic, English and a third language you understand, and <strong>Urdu is on the approved list</strong>.</p>
 
 <p>If something goes wrong: MOHRE's labour advisory line is 80084 in the UAE. In Pakistan, complaints go to the Bureau of Emigration, and cases against unlicensed agents go to the FIA's Anti-Human Trafficking wing.</p>
 
@@ -318,7 +318,7 @@ JOBHTML;
     <li><strong>Apply through the careers site only.</strong> DP World states on its contact page that the recruitment team cannot process applications sent through the enquiry form.</li>
     <li><strong>Read the work location.</strong> A JAFZA address tells you the free zone will be your sponsor.</li>
     <li><strong>Check the basic salary, not the package.</strong> Your gratuity, and a large part of what you take home over years, depends on it.</li>
-    <li><strong>Prepare operational examples</strong> &mdash; a safety concern you raised, a problem you solved under time pressure, a handover you coordinated across teams. Port work is judged on judgement, not qualifications alone.</li>
+    <li><strong>Prepare operational examples</strong>: a safety concern you raised, a problem you solved under time pressure, a handover you coordinated across teams. Port work is judged on judgement, not qualifications alone.</li>
 </ol>
 
 <p>For neighbouring markets and routes, see our guides to <a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">logistics driver jobs in the UAE</a>, <a href="/blog/security-guard-jobs-in-uae">security guard jobs in UAE</a> and <a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">how to get a job in Saudi Arabia as a foreigner</a>.</p>
@@ -341,7 +341,7 @@ JOBHTML;
 <p>Nineteen when we checked, out of 570 worldwide, which puts the UAE tenth by country behind India, Germany, the United States, Turkey, Australia and the United Kingdom. The split was 14 in Dubai, four unspecified and one in Fujairah, with only one carrying a Jebel Ali badge.</p>
 
 <h3>How much can a Pakistani recruitment agent legally charge for a Gulf job?</h3>
-<p>Rs 15,000, and it is a refundable deposit rather than a fee &mdash; released to the promoter only once the Protector of Emigrants certifies you joined the job, and returned to you if they fail to place you. Beyond that, only documented actual costs with receipts. The published total through a licensed promoter is Rs 22,200. Charging more carries up to 14 years' imprisonment.</p>
+<p>Rs 15,000, and it is a refundable deposit rather than a fee: released to the promoter only once the Protector of Emigrants certifies you joined the job, and returned to you if they fail to place you. Beyond that, only documented actual costs with receipts. The published total through a licensed promoter is Rs 22,200. Charging more carries up to 14 years' imprisonment.</p>
 
 <h3>Does the UAE private sector get a two-day weekend?</h3>
 <p>Not by law. The statute requires at least one paid rest day a week, with the day set by your contract or the employer's work regulations. The Saturday and Sunday change in January 2022 applied to federal government entities, not to private employers.</p>

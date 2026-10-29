@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Ohio — Manufacturing, Health, Logistics | JobGader')
+@section('title', 'Jobs in Ohio: Manufacturing, Health, Logistics | JobGader')
 @section('meta_description', 'Jobs in Ohio: manufacturing, healthcare and distribution hiring across Columbus, Cleveland and Cincinnati, what they pay, and where to start.')
-@section('og_title', 'Jobs in Ohio — Manufacturing, Health, Logistics | JobGader')
+@section('og_title', 'Jobs in Ohio: Manufacturing, Health, Logistics | JobGader')
 @section('og_description', 'Jobs in Ohio: manufacturing, healthcare and distribution hiring across Columbus, Cleveland and Cincinnati, what they pay, and where to start.')
 @section('canonical', url()->current())
 
@@ -31,7 +31,7 @@
                 'title' => 'Distribution Around Columbus',
                 'paragraphs' => [
                     'Columbus sits within a day drive of a very large share of the US population, which has made it a national distribution centre and a continuous source of warehouse, fulfilment and driving work.',
-                    'Combined with low housing costs, this is one of the better states for entry-level workers in absolute terms — the pay is below coastal levels but so is nearly everything else.',
+                    'Combined with low housing costs, this is one of the better states for entry-level workers in absolute terms: the pay is below coastal levels but so is nearly everything else.',
                 ],
             ],
         ],

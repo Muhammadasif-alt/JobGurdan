@@ -8,7 +8,7 @@
      * headline itself has to fit in forty-nine. Aggregated listings put the
      * role, the employer and the place into one comma-separated position
      * ("Factory Operator, Ferrari, Maranello Based"), which overflows on its
-     * own — so the title steps down through progressively shorter forms and
+     * own, so the title steps down through progressively shorter forms and
      * takes the first that fits, rather than being truncated mid-phrase.
      */
     $headlineBudget = 49;
@@ -18,7 +18,7 @@
 
     $candidates = [];
     if ($employerName !== '') {
-        $candidates[] = $headlineRole.' at '.$employerName.($jobPlace ? ' — '.$jobPlace : '');
+        $candidates[] = $headlineRole.' at '.$employerName.($jobPlace ? ': '.$jobPlace : '');
         $candidates[] = $headlineRole.' at '.$employerName;
         $candidates[] = $shortRole.' at '.$employerName;
     }
@@ -52,7 +52,7 @@
 @endif
 
 @push('meta')
-    {{-- SEO keywords meta tag — auto-extracted from job description --}}
+    {{-- SEO keywords meta tag: auto-extracted from job description --}}
     @if($job->seo_keywords)
         <meta name="keywords" content="{{ $job->seo_keywords }}">
     @endif
@@ -75,7 +75,7 @@
 @endphp
 
 <style>
-    /* === Hero — light gradient + dark text (matches home theme) === */
+    /* === Hero: light gradient + dark text (matches home theme) === */
     .jd-hero {
         position: relative;
         padding: 50px 0 60px;
@@ -332,8 +332,8 @@
     /* Sidebar */
     .jd-aside { position: sticky; top: 90px; }
 
-    /* Apply card — dark with brand-color glow (matches modern CTA) */
-    /* === Sidebar — Why Apply Through Us card === */
+    /* Apply card: dark with brand-color glow (matches modern CTA) */
+    /* === Sidebar: Why Apply Through Us card === */
     .jd-why-card {
         background: #fff;
         border: 1px solid #ececec;
@@ -455,7 +455,7 @@
     .jd-overview-list .label { font-size: 11px; color: #888; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px; }
     .jd-overview-list .value { font-size: 14px; color: #1b3a6b; font-weight: 700; line-height: 1.3; }
 
-    /* Apply CTA banner — dark theme */
+    /* Apply CTA banner: dark theme */
     .jd-apply-banner {
         background: #1b3a6b;
         color: #fff;
@@ -648,7 +648,7 @@
                 @php $isSaved = auth()->check() && auth()->user()->hasSavedJob($job); @endphp
                 <div class="jd-apply-banner">
                     <h3>Ready to apply for this {{ $job->position }} role?</h3>
-                    <p>Take the next step in your career — submit your application directly with the employer.</p>
+                    <p>Take the next step in your career: submit your application directly with the employer.</p>
                     <div class="jd-apply-actions">
                         <a href="{{ $applyUrl }}"
                            class="jd-apply-primary {{ !$hasApply ? 'disabled' : '' }}"
@@ -668,7 +668,7 @@
                     </div>
                 </div>
 
-                {{-- ===== Auto-extracted skills / keywords (clickable) — placed below the apply CTA ===== --}}
+                {{-- ===== Auto-extracted skills / keywords (clickable): placed below the apply CTA ===== --}}
                 @php $skills = $job->seo_keywords_array ?? []; @endphp
                 @if(!empty($skills))
                     <div class="jd-card">
@@ -912,10 +912,10 @@
 @endsection
 
 {{--
-    JSON-LD JobPosting + BreadcrumbList — pushed into <head> so Google's crawler picks the schema
+    JSON-LD JobPosting + BreadcrumbList: pushed into <head> so Google's crawler picks the schema
     up before parsing body content. Audited against Google's "JobPosting" structured data spec:
       - validThrough is guaranteed to be in the future (60 days from now or job->valid_through,
-        whichever is later) — past dates cause Google to deindex the listing.
+        whichever is later): past dates cause Google to deindex the listing.
       - directApply removed because applications redirect to the advertiser's own ATS, not ours.
       - baseSalary uses median when only one bound is set; min/max only when both are present.
       - employmentType is normalized to Google's enum (FULL_TIME, PART_TIME, CONTRACTOR, …).

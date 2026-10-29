@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Receptionist Jobs in UAE" — front-desk work across hotels, clinics and
+ * "Receptionist Jobs in UAE": front-desk work across hotels, clinics and
  * corporate offices, and the indoor companion to the UAE security guard
  * guide. The two share a labour law and the same package trap; this one adds
  * the free zone that runs a different law altogether.
@@ -148,7 +148,7 @@ class ReceptionistJobsUaeBlogSeeder extends Seeder
     <li>Fluent spoken and written English; Arabic is a genuine advantage, especially with government-linked employers</li>
     <li>MS Office and a booking, reservation or clinic management system</li>
     <li>Front-desk, hospitality or customer service experience, preferred rather than always required</li>
-    <li>A professional manner &mdash; the desk is the first thing a client sees</li>
+    <li>A professional manner: the desk is the first thing a client sees</li>
     <li>An employment visa and work permit arranged by the employer before you start work</li>
 </ul>
 
@@ -162,7 +162,7 @@ class ReceptionistJobsUaeBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask for the basic salary figure in writing, and ask which employment law the role sits under.</strong> Two offers with the same monthly total can build very different end-of-service entitlements, and a DIFC contract works on a different system from one in any other free zone.</p>
 
-<p><strong>Note:</strong> salary, package structure, visa arrangements and working hours are set by each employer and by UAE law &mdash; not by JobGader. Never pay an agent to be placed. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> salary, package structure, visa arrangements and working hours are set by each employer and by UAE law, not by JobGader. Never pay an agent to be placed. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -179,7 +179,7 @@ JOBHTML;
 
 <h2>Your Gratuity Is Built on Basic Salary, Not the Package</h2>
 
-<p>Guides list the benefits that come with a UAE receptionist job &mdash; housing allowance, transportation, medical insurance, annual flights &mdash; as though every one of them added to what the job is worth. For your monthly budget, they do. For what you leave the country with, most of them add nothing.</p>
+<p>Guides list the benefits that come with a UAE receptionist job, housing allowance, transportation, medical insurance, annual flights, as though every one of them added to what the job is worth. For your monthly budget, they do. For what you leave the country with, most of them add nothing.</p>
 
 <p>Under <strong>Federal Decree-Law No. 33 of 2021</strong>, end-of-service gratuity is calculated on <strong>basic salary only</strong>. Housing, transport and other allowances are excluded. For the first five years of service it builds at <strong>21 days of basic salary per year</strong>, and at 30 days for each year after that.</p>
 
@@ -190,7 +190,7 @@ JOBHTML;
     <li><strong>Offer B:</strong> AED 2,700 basic plus AED 1,800 in housing and transport allowances. Each year builds roughly <strong>AED 1,890</strong>.</li>
 </ul>
 
-<p>Same monthly total, same payday feeling &mdash; and a difference of about <strong>AED 1,260 a year</strong>, or around <strong>AED 6,300</strong> across five years, decided entirely by a line in the contract that nobody reads aloud at the interview.</p>
+<p>Same monthly total, same payday feeling, and a difference of about <strong>AED 1,260 a year</strong>, or around <strong>AED 6,300</strong> across five years, decided entirely by a line in the contract that nobody reads aloud at the interview.</p>
 
 <p><strong>Ask for the basic salary figure, in writing, before you accept.</strong> It is a completely normal question in the Gulf, and the answer tells you more than the headline does. Our <a href="/blog/security-guard-jobs-in-uae">security guard jobs in UAE guide</a> works through the same trap at a lower salary level, where it bites even harder.</p>
 
@@ -198,11 +198,11 @@ JOBHTML;
 
 <p>Guides list <strong>JAFZA, DMCC and DIFC</strong> together as free zones with steady demand for corporate front-desk staff. The demand is real. But one of those three runs on a different legal system, and it changes what happens when you leave.</p>
 
-<p>The <strong>Dubai International Financial Centre</strong> has its own employment law. And since <strong>1 February 2020</strong> it has replaced end-of-service gratuity for expatriate employees with <strong>DEWS</strong> &mdash; the DIFC Employee Workplace Savings plan.</p>
+<p>The <strong>Dubai International Financial Centre</strong> has its own employment law. And since <strong>1 February 2020</strong> it has replaced end-of-service gratuity for expatriate employees with <strong>DEWS</strong>: the DIFC Employee Workplace Savings plan.</p>
 
 <p>Instead of a lump sum calculated when your contract ends, your employer pays contributions into a managed savings plan while you work: <strong>5.83 per cent of basic salary</strong> for employees with fewer than five years' service, and <strong>8.33 per cent</strong> from five years onward. The rates are set to broadly match what gratuity would have cost, but the money is invested and held for you rather than owed to you.</p>
 
-<p>That has real consequences. The entitlement does not depend on the employer still having the cash on your last day, and it is visible while you work. It is also invested, so its value moves. Neither system is simply better &mdash; but they are different, and a receptionist comparing a DIFC offer with a JAFZA one needs to know that before comparing the two as like for like. <strong>Ask which employment law the contract sits under.</strong></p>
+<p>That has real consequences. The entitlement does not depend on the employer still having the cash on your last day, and it is visible while you work. It is also invested, so its value moves. Neither system is simply better, but they are different, and a receptionist comparing a DIFC offer with a JAFZA one needs to know that before comparing the two as like for like. <strong>Ask which employment law the contract sits under.</strong></p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/receptionist-jobs-in-uae-freezone.jpg"
@@ -214,7 +214,7 @@ JOBHTML;
 
 <p>Guides tell candidates from abroad to "confirm visa sponsorship details before applying". That advice is right and incomplete, and the missing half is the part that protects you.</p>
 
-<p>Under <strong>Federal Decree-Law No. 33 of 2021</strong>, recruitment costs &mdash; hiring, the visa, the medical examination, the residence permit &mdash; are the <strong>employer's</strong> to bear. The employer is prohibited from collecting them from the worker, <strong>directly or indirectly</strong>. Deducting visa costs from your salary to "recover" them is a violation, and it is one you can complain to the Ministry of Human Resources and Emiratisation about.</p>
+<p>Under <strong>Federal Decree-Law No. 33 of 2021</strong>, recruitment costs, hiring, the visa, the medical examination, the residence permit, are the <strong>employer's</strong> to bear. The employer is prohibited from collecting them from the worker, <strong>directly or indirectly</strong>. Deducting visa costs from your salary to "recover" them is a violation, and it is one you can complain to the Ministry of Human Resources and Emiratisation about.</p>
 
 <p>Which gives you a very simple rule for the whole process: <strong>if you are being asked to pay for your own visa, or to pay an agent to be placed, something is wrong.</strong> Legitimate employers in hotels, clinics and corporate offices know this and do not ask.</p>
 
@@ -222,7 +222,7 @@ JOBHTML;
 
 <p>A common route for receptionist candidates is to arrive on a visit visa, interview in person, and look for an offer. Interviewing on a visit visa is fine. <strong>Working on one is not.</strong></p>
 
-<p>Starting work &mdash; including a "trial week" or an unpaid "training period" &mdash; before your work permit has been issued is illegal, and the penalties fall on both sides: fines for the employer, and fines with a real risk of deportation for the worker. A front desk is a very visible place to be working without a permit.</p>
+<p>Starting work, including a "trial week" or an unpaid "training period", before your work permit has been issued is illegal, and the penalties fall on both sides: fines for the employer, and fines with a real risk of deportation for the worker. A front desk is a very visible place to be working without a permit.</p>
 
 <p>If an employer suggests you start while the paperwork catches up, the correct answer is that you will start on the day the permit is issued. An employer who presses the point is telling you how they will treat the rest of your contract.</p>
 
@@ -260,11 +260,11 @@ JOBHTML;
 <h2>Where the Work Is</h2>
 
 <ul>
-    <li><strong>Dubai</strong> &mdash; the largest market, across hospitality, corporate offices and real estate.</li>
-    <li><strong>Abu Dhabi</strong> &mdash; government-linked companies, healthcare and corporate offices, where Arabic is most valuable.</li>
-    <li><strong>Sharjah</strong> &mdash; retail, healthcare and smaller offices, with lower living costs than Dubai.</li>
-    <li><strong>Ajman and Ras Al Khaimah</strong> &mdash; growing hospitality and real estate demand.</li>
-    <li><strong>Free zones</strong> &mdash; steady corporate front-desk demand, with DIFC on its own employment law and DEWS rather than gratuity.</li>
+    <li><strong>Dubai</strong>: the largest market, across hospitality, corporate offices and real estate.</li>
+    <li><strong>Abu Dhabi</strong>: government-linked companies, healthcare and corporate offices, where Arabic is most valuable.</li>
+    <li><strong>Sharjah</strong>: retail, healthcare and smaller offices, with lower living costs than Dubai.</li>
+    <li><strong>Ajman and Ras Al Khaimah</strong>: growing hospitality and real estate demand.</li>
+    <li><strong>Free zones</strong>: steady corporate front-desk demand, with DIFC on its own employment law and DEWS rather than gratuity.</li>
 </ul>
 
 <h2>Frequently Asked Questions</h2>
@@ -282,7 +282,7 @@ JOBHTML;
 <p>The employer. Under Federal Decree-Law No. 33 of 2021, recruitment costs including the visa, medical and residence permit are the employer's, and cannot be collected from the worker directly or indirectly.</p>
 
 <h3>Can I work while I am on a visit visa?</h3>
-<p>No. You can interview on a visit visa, but starting work &mdash; including a trial or training period &mdash; before your work permit is issued is illegal, with fines for the employer and fines and deportation risk for the worker.</p>
+<p>No. You can interview on a visit visa, but starting work, including a trial or training period, before your work permit is issued is illegal, with fines for the employer and fines and deportation risk for the worker.</p>
 
 <h3>Is Arabic required for receptionist jobs in the UAE?</h3>
 <p>Not usually required, but a strong advantage, especially with government-linked employers and businesses serving local clients. English is the baseline for almost every role.</p>
@@ -324,22 +324,22 @@ JOBHTML;
 <p>Comparing Gulf routes and front-office work elsewhere? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; the same gratuity trap, and the licence that only covers one emirate.</li>
-    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a> &mdash; Gulf work under the Saudi system instead.</li>
-    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a> &mdash; the package questions applied to a Saudi contract.</li>
-    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a> &mdash; front-office work where the pay floor is published by law.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; client-facing work under provincial wage floors.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; the same skills without relocating.</li>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; hospitality front office on the American visa system.</li>
-    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; office work at home rather than a Gulf contract.</li>
-    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a> &mdash; finance work under the same labour law, and the licence an auditor needs before signing anything.</li>
-    <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a> &mdash; IT work under the same labour law, and the overtime limits behind on-call rotas.</li>
-    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a> &mdash; reception work in health care, where a published award sets the pay.</li>
-    <li><a href="/blog/receptionist-jobs-in-australia">Receptionist Jobs in Australia</a> &mdash; the same job in Australia, where the award sets a legal minimum salary.</li>
-    <li><a href="/blog/security-specialist-jobs-in-uae">Security Specialist Jobs in UAE</a> &mdash; supervisory and control room security, and which emirate's licence applies.</li>
-    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; the height and reach rules, what Emirates publishes on pay, and how the Open Day works.</li>
-    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; customer-facing Gulf work with an airline employer.</li>
-    <li><a href="/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs">How to Apply for Kuwait Airways Cabin Crew Jobs</a> &mdash; the Gulf carrier whose careers portal most guides cannot find.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: the same gratuity trap, and the licence that only covers one emirate.</li>
+    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a>: Gulf work under the Saudi system instead.</li>
+    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a>: the package questions applied to a Saudi contract.</li>
+    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a>: front-office work where the pay floor is published by law.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: client-facing work under provincial wage floors.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: the same skills without relocating.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>: hospitality front office on the American visa system.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a>: office work at home rather than a Gulf contract.</li>
+    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a>: finance work under the same labour law, and the licence an auditor needs before signing anything.</li>
+    <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a>: IT work under the same labour law, and the overtime limits behind on-call rotas.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a>: reception work in health care, where a published award sets the pay.</li>
+    <li><a href="/blog/receptionist-jobs-in-australia">Receptionist Jobs in Australia</a>: the same job in Australia, where the award sets a legal minimum salary.</li>
+    <li><a href="/blog/security-specialist-jobs-in-uae">Security Specialist Jobs in UAE</a>: supervisory and control room security, and which emirate's licence applies.</li>
+    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a>: the height and reach rules, what Emirates publishes on pay, and how the Open Day works.</li>
+    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a>: customer-facing Gulf work with an airline employer.</li>
+    <li><a href="/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs">How to Apply for Kuwait Airways Cabin Crew Jobs</a>: the Gulf carrier whose careers portal most guides cannot find.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or financial advice. Labour law provisions, DIFC rules, visa requirements and salary levels change, and figures on any job board are a moving average rather than a statistic. Confirm the current position with the Ministry of Human Resources and Emiratisation, the DIFC and the employer's own advertisement before applying or accepting an offer.</p>

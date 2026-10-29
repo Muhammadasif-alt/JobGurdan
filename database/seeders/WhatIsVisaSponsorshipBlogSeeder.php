@@ -197,10 +197,10 @@ class WhatIsVisaSponsorshipBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/countries-visa-sponsorship-skilled-workers-2026">Countries That Offer Visa Sponsorship for Skilled Workers</a> &mdash; compare routes</li>
-    <li><a href="/blog/what-is-work-permit-how-it-works">What is a Work Permit and How Does it Work</a> &mdash; permit versus visa</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a> &mdash; verify before you pay</li>
-    <li><a href="/blog/find-job-abroad-without-recruiter">How to Find a Job Abroad Without a Recruiter</a> &mdash; search yourself</li>
+    <li><a href="/blog/countries-visa-sponsorship-skilled-workers-2026">Countries That Offer Visa Sponsorship for Skilled Workers</a>: compare routes</li>
+    <li><a href="/blog/what-is-work-permit-how-it-works">What is a Work Permit and How Does it Work</a>: permit versus visa</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay</li>
+    <li><a href="/blog/find-job-abroad-without-recruiter">How to Find a Job Abroad Without a Recruiter</a>: search yourself</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>

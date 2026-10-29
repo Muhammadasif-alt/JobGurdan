@@ -168,7 +168,7 @@ class UpsPackageHandlerJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay and conditions for these roles are set by UPS and the Teamsters national agreement &mdash; not by JobGader. Apply directly on the UPS careers site, and never pay anyone for a UPS job or a shift.</p>
+<p><strong>Note:</strong> pay and conditions for these roles are set by UPS and the Teamsters national agreement, not by JobGader. Apply directly on the UPS careers site, and never pay anyone for a UPS job or a shift.</p>
 JOBHTML;
     }
 
@@ -263,7 +263,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Weekly pay</strong></li>
-    <li><strong>Full healthcare</strong> &mdash; medical, dental and vision &mdash; after a waiting period</li>
+    <li><strong>Full healthcare</strong>, medical, dental and vision, after a waiting period</li>
     <li><strong>401(k)</strong></li>
     <li>A relaxed dress code and an emphasis on safety</li>
     <li>Money for college at some locations</li>
@@ -302,7 +302,7 @@ JOBHTML;
     <li>Martin Luther King Day became a full holiday for all UPS Teamsters for the first time</li>
 </ul>
 
-<p>So treat driving as a real destination with an unpredictable timeline. Ask your building how many full-time openings it posted last year &mdash; that number tells you more than any general estimate.</p>
+<p>So treat driving as a real destination with an unpredictable timeline. Ask your building how many full-time openings it posted last year: that number tells you more than any general estimate.</p>
 
 <h2>How to Apply, Step by Step</h2>
 
@@ -375,15 +375,15 @@ JOBHTML;
 <p>Comparing entry-level work across the US? These cover the alternatives:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a> &mdash; factory work with a published hourly range and stock awards.</li>
-    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a> &mdash; the closest warehouse comparison on pay and shifts.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; the next step if driving is where you are heading.</li>
-    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; the licence that opens the better-paid driving work.</li>
-    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; a short certificate that moves you off the belt.</li>
-    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a> &mdash; the long-distance route and what it really pays.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; what the work authorisation rules actually allow.</li>
-    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a> &mdash; retail hours instead of sort hours.</li>
-    <li><a href="/blog/how-to-apply-for-fedex-delivery-jobs-in-the-usa">How to Apply for FedEx Delivery Jobs in the USA</a> &mdash; and how to tell a real FedEx job from a contractor advert.</li>
+    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a>: factory work with a published hourly range and stock awards.</li>
+    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a>: the closest warehouse comparison on pay and shifts.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: the next step if driving is where you are heading.</li>
+    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a>: the licence that opens the better-paid driving work.</li>
+    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a>: a short certificate that moves you off the belt.</li>
+    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a>: the long-distance route and what it really pays.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: what the work authorisation rules actually allow.</li>
+    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a>: retail hours instead of sort hours.</li>
+    <li><a href="/blog/how-to-apply-for-fedex-delivery-jobs-in-the-usa">How to Apply for FedEx Delivery Jobs in the USA</a>, and how to tell a real FedEx job from a contractor advert.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using the UPS careers site, UPS corporate pages and the 2023-2028 UPS Teamsters National Master Agreement. Pay, shift times, tuition support and benefits vary by facility and by local supplement. Always read the live posting for the building you are applying to.</p>

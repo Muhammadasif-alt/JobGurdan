@@ -211,10 +211,10 @@ class DocumentsNeededToWorkAbroadBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-work-visa-without-agent-2026">How to Apply for a Work Visa Without an Agent (2026)</a> &mdash; the application steps.</li>
-    <li><a href="/blog/how-to-write-resume-job-abroad">How to Write a Resume for a Job Abroad</a> &mdash; the CV that goes with these documents.</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a> &mdash; verify before you pay.</li>
-    <li><a href="/blog/countries-visa-sponsorship-skilled-workers-2026">Countries That Offer Visa Sponsorship for Skilled Workers</a> &mdash; eight routes compared.</li>
+    <li><a href="/blog/how-to-apply-work-visa-without-agent-2026">How to Apply for a Work Visa Without an Agent (2026)</a>: the application steps.</li>
+    <li><a href="/blog/how-to-write-resume-job-abroad">How to Write a Resume for a Job Abroad</a>: the CV that goes with these documents.</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay.</li>
+    <li><a href="/blog/countries-visa-sponsorship-skilled-workers-2026">Countries That Offer Visa Sponsorship for Skilled Workers</a>: eight routes compared.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general planning checklist, not legal advice or a universal submission list. Reviewed on 12 October 2026 against official sources. Select your own route and follow its current instructions.</p>

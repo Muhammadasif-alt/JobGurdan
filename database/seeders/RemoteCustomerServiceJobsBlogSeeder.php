@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Remote Customer Service Jobs" — a sector guide rather than one vacancy, so
+ * "Remote Customer Service Jobs": a sector guide rather than one vacancy, so
  * the apply link goes to an Indeed search and the post carries no JobPosting
  * markup.
  *
@@ -65,7 +65,7 @@ class RemoteCustomerServiceJobsBlogSeeder extends Seeder
                 'content' => $content,
                 'featured_image' => 'blogs/remote-customer-service-jobs.jpg',
                 'tags' => 'remote customer service jobs, customer service jobs pakistan, work from home customer support, customer service jobs multan, customer service jobs bahawalpur, customer support no experience, remote jobs for students pakistan, call centre jobs pakistan',
-                'meta_title' => 'Remote Customer Service Jobs — Pay and Shifts',
+                'meta_title' => 'Remote Customer Service Jobs: Pay and Shifts',
                 'meta_description' => 'Remote customer service jobs: real pay bands, the minimum wage floor, shift and monitoring realities, and how to apply from anywhere in Pakistan.',
                 'reading_time' => max(1, (int) ceil(str_word_count(strip_tags($content)) / 200)),
                 'status' => 'published',
@@ -121,7 +121,7 @@ class RemoteCustomerServiceJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>Remote customer service covers three channels &mdash; voice, live chat and email tickets &mdash; handled through the employer's own helpdesk software. Hiring runs continuously at telecom operators, e-commerce sellers and the outsourcing firms in Karachi, Lahore and Islamabad that service international accounts. Training on the tools, scripts and product knowledge is provided before you take live contacts.</p>
+<p>Remote customer service covers three channels, voice, live chat and email tickets, handled through the employer's own helpdesk software. Hiring runs continuously at telecom operators, e-commerce sellers and the outsourcing firms in Karachi, Lahore and Islamabad that service international accounts. Training on the tools, scripts and product knowledge is provided before you take live contacts.</p>
 
 <h3>What the role is screened on</h3>
 <p>Spoken and written English, a calm tone under pressure, and typing speed for chat roles. Most employers run a short phone or video screening before anything else, because communication is the whole job. Prior call-centre experience helps but is not required for entry-level accounts.</p>
@@ -130,31 +130,31 @@ class RemoteCustomerServiceJobsBlogSeeder extends Seeder
 <ul>
     <li>Clear spoken English for voice accounts; strong written English for chat and email</li>
     <li>A headset, a reliable connection, and a quiet space where calls will not be interrupted</li>
-    <li>A backup power arrangement &mdash; a dropped call is measured against you</li>
+    <li>A backup power arrangement: a dropped call is measured against you</li>
     <li>Availability for the shift stated, including nights on US-client accounts</li>
     <li>CNIC for onboarding, and a bank account for salary</li>
 </ul>
 
 <h3>Things to confirm before accepting</h3>
 <ul>
-    <li><strong>Whether the role is genuinely remote</strong> or hybrid with office days &mdash; both are advertised in the same words</li>
+    <li><strong>Whether the role is genuinely remote</strong> or hybrid with office days: both are advertised in the same words</li>
     <li>The shift, in local hours, and whether it rotates</li>
     <li>Whether equipment is provided or expected to be your own</li>
     <li>What is monitored: call recording, screen recording and activity tracking are common in this field</li>
-    <li>The gross salary against the minimum wage notified in your province &mdash; PKR 40,000 in Punjab, Sindh and Khyber Pakhtunkhwa, with the federal figure at PKR 40,700 from 1 July 2026</li>
+    <li>The gross salary against the minimum wage notified in your province: PKR 40,000 in Punjab, Sindh and Khyber Pakhtunkhwa, with the federal figure at PKR 40,700 from 1 July 2026</li>
 </ul>
 
 <h3>Before you apply</h3>
 <p><strong>No genuine employer charges you for training, a headset, software or a security deposit.</strong> Apply through job boards or the company's own careers page rather than replying to unsolicited offers on social media, and get the shift, rate and pay date in writing before you start.</p>
 
-<p><strong>Note:</strong> pay, shifts and monitoring policies are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, shifts and monitoring policies are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Customer service is the steadiest hiring category in remote work, because every company that sells anything needs someone answering the customer. It is taught from scratch, it is open to freshers and students, and it does not care which city you live in. What it does care about is your English, your connection, and whether you can be reached on a fixed shift &mdash; and there are a few things about the offer worth checking before you accept one.</p>
+<p>Customer service is the steadiest hiring category in remote work, because every company that sells anything needs someone answering the customer. It is taught from scratch, it is open to freshers and students, and it does not care which city you live in. What it does care about is your English, your connection, and whether you can be reached on a fixed shift, and there are a few things about the offer worth checking before you accept one.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/customer-support-admin?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -166,7 +166,7 @@ JOBHTML;
 
 <p>Three channels, and they are not the same job. <strong>Voice</strong> means live calls, and it is screened hardest on spoken English and composure. <strong>Live chat</strong> means several conversations at once through a helpdesk tool, and it is screened on typing speed and written clarity. <strong>Email or ticket support</strong> is the slowest paced and usually the easiest entry point, but it is also the smallest of the three by volume.</p>
 
-<p>All three run through the employer's own software, with scripts, canned responses and a knowledge base, and all three are measured &mdash; response time, resolution rate, call quality scores and customer satisfaction ratings. That measurement is the part most guides leave out, and it is worth knowing before you start rather than after your first review.</p>
+<p>All three run through the employer's own software, with scripts, canned responses and a knowledge base, and all three are measured: response time, resolution rate, call quality scores and customer satisfaction ratings. That measurement is the part most guides leave out, and it is worth knowing before you start rather than after your first review.</p>
 
 <h2>What It Pays, and the Floor to Measure It Against</h2>
 
@@ -176,7 +176,7 @@ JOBHTML;
 
 <h2>The &quot;Remote&quot; Postings That Are Not Remote</h2>
 
-<p>This is the most common disappointment in this category. A large share of listings tagged remote in Pakistan are hybrid &mdash; some days on site, or on site after the training period &mdash; and a smaller share are ordinary call-centre jobs using the word to widen the applicant pool. The advertisement rarely distinguishes them.</p>
+<p>This is the most common disappointment in this category. A large share of listings tagged remote in Pakistan are hybrid, some days on site, or on site after the training period, and a smaller share are ordinary call-centre jobs using the word to widen the applicant pool. The advertisement rarely distinguishes them.</p>
 
 <p>Ask one question at the screening stage: <em>is this role fully remote permanently, or remote during training only?</em> The answer takes ten seconds and saves people from accepting a job they cannot physically reach. It matters most for candidates outside the three big cities, which is exactly who these listings attract.</p>
 
@@ -188,7 +188,7 @@ JOBHTML;
 
 <h2>Remote Customer Service Jobs Near Bahawalpur</h2>
 
-<p>The same holds in Bahawalpur and across South Punjab. National postings are open to you on equal terms, and local BPOs and e-commerce sellers sometimes advertise remote or hybrid support roles aimed at candidates in the region specifically &mdash; worth checking alongside the national listings rather than instead of them.</p>
+<p>The same holds in Bahawalpur and across South Punjab. National postings are open to you on equal terms, and local BPOs and e-commerce sellers sometimes advertise remote or hybrid support roles aimed at candidates in the region specifically: worth checking alongside the national listings rather than instead of them.</p>
 
 <p>Where a listing names a city, read it carefully before assuming it excludes you. Many name the head office location out of habit while hiring nationally, and the screening call is the fastest way to find out which kind it is.</p>
 
@@ -200,7 +200,7 @@ JOBHTML;
 
 <h2>Remote Customer Service Jobs in Pakistan</h2>
 
-<p>The market splits in two. Local support &mdash; telecom, e-commerce, banking and delivery &mdash; runs in Urdu and English on daytime and evening shifts. Outsourced international support runs through BPOs in Karachi, Lahore and Islamabad, serving US, UK and Gulf clients, and pays more because it runs on their clock.</p>
+<p>The market splits in two. Local support, telecom, e-commerce, banking and delivery, runs in Urdu and English on daytime and evening shifts. Outsourced international support runs through BPOs in Karachi, Lahore and Islamabad, serving US, UK and Gulf clients, and pays more because it runs on their clock.</p>
 
 <p>Decide which of those you can sustain before you apply, not after. A US-hours account means working through the night in Pakistan indefinitely; a UK or Gulf account is a far easier shift to hold for years.</p>
 
@@ -208,14 +208,14 @@ JOBHTML;
 
 <p>International employers hire support agents remotely regardless of location, as long as the candidate meets the time zone and language requirements. E-commerce, SaaS and travel companies do the most of this, because support has to run across time zones without an office in each one.</p>
 
-<p>The constraint is usually payment rather than eligibility. Confirm how you will be paid before accepting &mdash; for candidates in Pakistan, Payoneer or a direct bank remittance are the routes that work, and PayPal does not operate for Pakistani accounts. Our guide to <a href="/blog/remote-jobs-in-pakistan-with-no-experience">remote jobs in Pakistan with no experience</a> covers that in detail.</p>
+<p>The constraint is usually payment rather than eligibility. Confirm how you will be paid before accepting: for candidates in Pakistan, Payoneer or a direct bank remittance are the routes that work, and PayPal does not operate for Pakistani accounts. Our guide to <a href="/blog/remote-jobs-in-pakistan-with-no-experience">remote jobs in Pakistan with no experience</a> covers that in detail.</p>
 
 <h2>What You Need at Home</h2>
 
 <p>The equipment list is short and every item on it is checked during onboarding:</p>
 
 <ul>
-    <li><strong>A headset with a microphone</strong> &mdash; a phone earpiece is not enough for a voice account, and call quality is scored.</li>
+    <li><strong>A headset with a microphone</strong>: a phone earpiece is not enough for a voice account, and call quality is scored.</li>
     <li><strong>A connection you can rely on</strong>, plus a backup. A dropped call counts against you regardless of the reason.</li>
     <li><strong>A backup power arrangement.</strong> Employers ask about load shedding directly; answering it concretely helps your application.</li>
     <li><strong>A quiet, dedicated space.</strong> Background noise is audible to the customer and shows up in quality scores.</li>
@@ -244,7 +244,7 @@ JOBHTML;
 
 <ol>
     <li><strong>Prepare a short, clear self-introduction.</strong> Most employers screen with a quick phone or video call before looking at anything else.</li>
-    <li><strong>Sort the equipment before you apply</strong> &mdash; headset, connection, backup power, quiet space. These are checked at onboarding, not assumed.</li>
+    <li><strong>Sort the equipment before you apply</strong>: headset, connection, backup power, quiet space. These are checked at onboarding, not assumed.</li>
     <li><strong>State your availability precisely:</strong> full-time or part-time, and which shift hours in local time. Support hiring is built around rotas.</li>
     <li><strong>Ask whether the role is permanently remote or remote for training only,</strong> before the paperwork stage.</li>
     <li><strong>Confirm the gross salary in writing</strong> and check it against your province's notified minimum wage.</li>
@@ -262,7 +262,7 @@ JOBHTML;
 <p>No. Remote support is hired nationally, so candidates in Multan, Bahawalpur and elsewhere apply on the same terms. What matters is a stable connection, a backup power arrangement and a quiet space for calls.</p>
 
 <h3>What does remote customer service pay in Pakistan?</h3>
-<p>Entry-level roles are commonly advertised between PKR 30,000 and 50,000 a month, with night shifts and international accounts at the higher end. For full-time work, measure any offer against your province's notified minimum wage &mdash; PKR 40,000 in Punjab, Sindh and Khyber Pakhtunkhwa, and PKR 40,700 federally from 1 July 2026.</p>
+<p>Entry-level roles are commonly advertised between PKR 30,000 and 50,000 a month, with night shifts and international accounts at the higher end. For full-time work, measure any offer against your province's notified minimum wage: PKR 40,000 in Punjab, Sindh and Khyber Pakhtunkhwa, and PKR 40,700 federally from 1 July 2026.</p>
 
 <h3>How do I know whether a job is really remote?</h3>
 <p>Ask at the screening stage whether it is fully remote permanently or remote during training only. A significant share of listings tagged remote in Pakistan are hybrid, and the advertisement usually does not say which.</p>
@@ -310,25 +310,25 @@ JOBHTML;
 <p>Looking at the rest of the entry-level market alongside support work? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; the wider remote market, how payment from abroad works, and the scam patterns in full.</li>
-    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; the other large entry-level remote category, and why the Amazon version of it is a scam.</li>
-    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a> &mdash; office-based entry-level pay and the trainee titles that need no experience.</li>
-    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; why almost everything advertised is a PPS project post, and how FPSC and PPSC differ.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; the Canadian market, and why the provincial minimum wage sets the offer.</li>
-    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; the same customer skills on a shop floor, priced by state.</li>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; where service desk skills lead in UK technology, and what the entry salary must legally be.</li>
-    <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a> &mdash; the wider US remote market, how many Americans telework, and what the roles pay.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: the wider remote market, how payment from abroad works, and the scam patterns in full.</li>
+    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a>: the other large entry-level remote category, and why the Amazon version of it is a scam.</li>
+    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a>: office-based entry-level pay and the trainee titles that need no experience.</li>
+    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a>: why almost everything advertised is a PPS project post, and how FPSC and PPSC differ.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: the Canadian market, and why the provincial minimum wage sets the offer.</li>
+    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a>: the same customer skills on a shop floor, priced by state.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: where service desk skills lead in UK technology, and what the entry salary must legally be.</li>
+    <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a>: the wider US remote market, how many Americans telework, and what the roles pay.</li>
     <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a></li>
-    <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a> &mdash; freelancing against salaried remote work, and the fees and tax on each dollar.</li>
-    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; the US market, BLS pay and why the field is projected to shrink even as openings stay high.</li>
-    <li><a href="/blog/call-center-jobs-in-pakistan">Call Center Jobs in Pakistan</a> &mdash; inbound vs outbound, real pay by city, and how to avoid scams.</li>
-    <li><a href="/blog/how-to-get-a-remote-customer-service-job-with-no-experience">How to Get a Remote Customer Service Job With No Experience</a> &mdash; what US remote employers really ask for, official pay data and the scams aimed at beginners.</li>
-    <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a> &mdash; what the BLS really measures, the pay spread and the titles Salesforce, HubSpot and Adobe use.</li>
-    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a> &mdash; what the work really pays after platform fees, and how to start without paying for a job.</li>
-    <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a> &mdash; which of these roles are genuinely hybrid and which are branch work in disguise.</li>
+    <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a>: freelancing against salaried remote work, and the fees and tax on each dollar.</li>
+    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a>: the US market, BLS pay and why the field is projected to shrink even as openings stay high.</li>
+    <li><a href="/blog/call-center-jobs-in-pakistan">Call Center Jobs in Pakistan</a>: inbound vs outbound, real pay by city, and how to avoid scams.</li>
+    <li><a href="/blog/how-to-get-a-remote-customer-service-job-with-no-experience">How to Get a Remote Customer Service Job With No Experience</a>: what US remote employers really ask for, official pay data and the scams aimed at beginners.</li>
+    <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a>: what the BLS really measures, the pay spread and the titles Salesforce, HubSpot and Adobe use.</li>
+    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a>: what the work really pays after platform fees, and how to start without paying for a job.</li>
+    <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a>, which of these roles are genuinely hybrid and which are branch work in disguise.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Pay bands, minimum wage notifications, shift arrangements and monitoring policies change and are set by each province and each employer &mdash; confirm the current figures and the terms on the employer's own advertisement before accepting any offer.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Pay bands, minimum wage notifications, shift arrangements and monitoring policies change and are set by each province and each employer: confirm the current figures and the terms on the employer's own advertisement before accepting any offer.</p>
 HTML;
     }
 }

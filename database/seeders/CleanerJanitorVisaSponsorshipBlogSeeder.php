@@ -12,7 +12,7 @@ use App\Models\User;
 use Illuminate\Database\Seeder;
 
 /**
- * "Cleaner and Janitor Jobs With Visa Sponsorship" — blog-290.
+ * "Cleaner and Janitor Jobs With Visa Sponsorship": blog-290.
  *
  * The draft was rewritten. What it carried could not be published as sent:
  *
@@ -321,11 +321,11 @@ JOBHTML;
 <p>Related cleaning and visa guides:</p>
 
 <ul>
-    <li><a href="/blog/janitor-jobs-in-canada">Janitor Jobs in Canada</a> &mdash; pay, provinces and the narrow visa route.</li>
-    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a> &mdash; the Saudi route in detail.</li>
-    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London, No Experience Needed</a> &mdash; for people who already have the right to work.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; the wider Canadian picture.</li>
-    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a> &mdash; visas and agencies.</li>
+    <li><a href="/blog/janitor-jobs-in-canada">Janitor Jobs in Canada</a>: pay, provinces and the narrow visa route.</li>
+    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a>: the Saudi route in detail.</li>
+    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London, No Experience Needed</a>: for people who already have the right to work.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: the wider Canadian picture.</li>
+    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a>: visas and agencies.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or career advice. UK rules are from GOV.UK; Canadian rules from Job Bank and the Government of Canada; Saudi offers from BEOE. These rules change often, so confirm them with the official authority before applying.</p>

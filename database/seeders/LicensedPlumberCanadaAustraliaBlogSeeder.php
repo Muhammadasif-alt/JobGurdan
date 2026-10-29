@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Become a Licensed Plumber in Canada or Australia" — the licensing
+ * "How to Become a Licensed Plumber in Canada or Australia": the licensing
  * half of the plumber cluster. The Gulf guide owns recruitment cost and the
  * Saudi exam, the pay guide owns BLS and ONS earnings, and the existing
  * Plumber Jobs in Australia guide owns that country's vacancies. This page
@@ -294,7 +294,7 @@ JOBHTML;
 
 <p><strong>CRS points for arranged employment were removed on 25 March 2025.</strong> A job offer used to be worth 50 points, or 200 for senior management. It is now worth zero in the ranking.</p>
 
-<p>Crucially, that did not change eligibility. Where a job offer is part of the entry criteria for a programme &mdash; and it is one of the two ways into the Federal Skilled Trades Program &mdash; it still counts for that purpose. It just no longer lifts your score.</p>
+<p>Crucially, that did not change eligibility. Where a job offer is part of the entry criteria for a programme, and it is one of the two ways into the Federal Skilled Trades Program, it still counts for that purpose. It just no longer lifts your score.</p>
 
 <h3>The Federal Skilled Trades Program, as it stands</h3>
 
@@ -360,10 +360,10 @@ JOBHTML;
     <tbody>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Training length</strong></td><td style="padding:10px;">4 to 5 years</td><td style="padding:10px;">About 4 years</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Who licenses you</strong></td><td style="padding:10px;">The province or territory</td><td style="padding:10px;">The state or territory</td></tr>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Is it compulsory everywhere?</strong></td><td style="padding:10px;">No &mdash; 7 provinces compulsory, 6 voluntary</td><td style="padding:10px;">Yes &mdash; every state and territory licenses plumbing</td></tr>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Does it travel internally?</strong></td><td style="padding:10px;">With the Red Seal endorsement, yes</td><td style="padding:10px;">Often, under Automatic Mutual Recognition &mdash; but not to Queensland, and several plumbing classes are excluded</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Is it compulsory everywhere?</strong></td><td style="padding:10px;">No, 7 provinces compulsory, 6 voluntary</td><td style="padding:10px;">Yes, every state and territory licenses plumbing</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Does it travel internally?</strong></td><td style="padding:10px;">With the Red Seal endorsement, yes</td><td style="padding:10px;">Often, under Automatic Mutual Recognition, but not to Queensland, and several plumbing classes are excluded</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Overseas credential route</strong></td><td style="padding:10px;">Provincial certificate of qualification, which also satisfies FSTP</td><td style="padding:10px;">Trades Recognition Australia assessment, then a state licence</td></tr>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Does a job offer score points?</strong></td><td style="padding:10px;">No, not since 25 March 2025 &mdash; but it still establishes FSTP eligibility</td><td style="padding:10px;">Employer sponsorship is a separate visa route rather than a points add-on</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Does a job offer score points?</strong></td><td style="padding:10px;">No, not since 25 March 2025, but it still establishes FSTP eligibility</td><td style="padding:10px;">Employer sponsorship is a separate visa route rather than a points add-on</td></tr>
     </tbody>
 </table>
 </div>
@@ -425,13 +425,13 @@ JOBHTML;
 <p>The rest of the plumbing cluster, and the routes around it:</p>
 
 <ul>
-    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a> &mdash; the same two countries for electricians, where certification comes first.</li>
-    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; the vacancies, the award floor and the visa routes in detail.</li>
-    <li><a href="/blog/plumber-salary-in-the-uk-and-usa">Plumber Salary in the UK and USA</a> &mdash; the BLS and ONS figures, and why other sources disagree.</li>
-    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a> &mdash; who pays the recruitment cost, and the Saudi trade exam.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; how LMIA-based sponsorship works alongside Express Entry.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; employer sponsorship and the lists it runs on.</li>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; the award floor and the credential that travels.</li>
+    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a>: the same two countries for electricians, where certification comes first.</li>
+    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a>: the vacancies, the award floor and the visa routes in detail.</li>
+    <li><a href="/blog/plumber-salary-in-the-uk-and-usa">Plumber Salary in the UK and USA</a>: the BLS and ONS figures, and why other sources disagree.</li>
+    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a>, who pays the recruitment cost, and the Saudi trade exam.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: how LMIA-based sponsorship works alongside Express Entry.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>: employer sponsorship and the lists it runs on.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: the award floor and the credential that travels.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or employment advice. Certification, licensing and immigration rules in Canada and Australia change; confirm the current position with the provincial apprenticeship authority, the state plumbing regulator, canada.ca and immi.homeaffairs.gov.au before applying or relocating.</p>

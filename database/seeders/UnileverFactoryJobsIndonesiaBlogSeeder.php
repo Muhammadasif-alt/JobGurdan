@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Unilever Factory Jobs in Indonesia" — an employer guide
+ * "How to Apply for Unilever Factory Jobs in Indonesia": an employer guide
  * whose honest centre is not Unilever's hiring process. It is Indonesia's
  * foreign worker law, which requires five years of relevant experience before
  * a foreign national can hold any sponsored job at all, and which therefore
@@ -165,7 +165,7 @@ class UnileverFactoryJobsIndonesiaBlogSeeder extends Seeder
 <h3>Fraud warning</h3>
 <p>Unilever states on its own postings: "We will never ask for the exchange of money or credit card details in the Recruitment process."</p>
 
-<p>Pay, requirements, closing dates and work-permit eligibility are set by Unilever and Indonesia's Ministry of Manpower &mdash; not by JobGader. Confirm the details on the live posting and against the current regency wage decree before you apply.</p>
+<p>Pay, requirements, closing dates and work-permit eligibility are set by Unilever and Indonesia's Ministry of Manpower, not by JobGader. Confirm the details on the live posting and against the current regency wage decree before you apply.</p>
 JOBHTML;
     }
 
@@ -343,13 +343,13 @@ JOBHTML;
 <p>Comparing manufacturing employers, or looking for a route that is actually open to you? These cover the ground:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; a country with a real skilled-worker route for foreigners.</li>
-    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; general factory work and what it actually pays.</li>
-    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a> &mdash; another employer that publishes no pay, in a quota system.</li>
-    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a> &mdash; a large employer that does publish its starting pay.</li>
-    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a> &mdash; engineering work in a country built around foreign hiring.</li>
-    <li><a href="/blog/how-to-apply-for-telkom-indonesia-it-jobs">How to Apply for Telkom Indonesia IT Jobs</a> &mdash; and the national ID requirement that closes the door first.</li>
-    <li><a href="/blog/how-to-apply-for-toyota-factory-jobs-in-japan">How to Apply for Toyota Factory Jobs in Japan</a> &mdash; free dormitories, forfeitable bonuses, and the residence status it quietly requires.</li>
+    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a>: a country with a real skilled-worker route for foreigners.</li>
+    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a>: general factory work and what it actually pays.</li>
+    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a>: another employer that publishes no pay, in a quota system.</li>
+    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a>: a large employer that does publish its starting pay.</li>
+    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a>: engineering work in a country built around foreign hiring.</li>
+    <li><a href="/blog/how-to-apply-for-telkom-indonesia-it-jobs">How to Apply for Telkom Indonesia IT Jobs</a>, and the national ID requirement that closes the door first.</li>
+    <li><a href="/blog/how-to-apply-for-toyota-factory-jobs-in-japan">How to Apply for Toyota Factory Jobs in Japan</a>: free dormitories, forfeitable bonuses, and the residence status it quietly requires.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Unilever's own careers site and the Indonesian Ministry of Manpower's foreign worker portal, checked on 21 September 2026. Unilever publishes no pay figure for Indonesian roles, its listings change constantly, and Indonesian wage decrees are reissued every year. Always check the live posting and the current decree before acting.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Accountant Jobs in UAE" — general, senior, tax and audit roles on the
+ * "Accountant Jobs in UAE": general, senior, tax and audit roles on the
  * mainland and in the free zones. It sits beside the receptionist and security
  * guard guides for the UAE, which already work through the basic-salary
  * gratuity arithmetic and the DIFC savings scheme, so this one points to them
@@ -163,7 +163,7 @@ class AccountantJobsUaeBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for a UAE work visa, and check whether the role involves signing audits or tax filings on behalf of clients.</strong> Those need a UAE licence or registration that an overseas qualification does not give you.</p>
 
-<p><strong>Note:</strong> pay, contract terms, licensing and visa rules are set by each employer, the UAE authorities and your home country &mdash; not by JobGader. Confirm the details with the employer and the official sources before applying.</p>
+<p><strong>Note:</strong> pay, contract terms, licensing and visa rules are set by each employer, the UAE authorities and your home country, not by JobGader. Confirm the details with the employer and the official sources before applying.</p>
 JOBHTML;
     }
 
@@ -238,7 +238,7 @@ JOBHTML;
     <li><strong>Government entities:</strong> go live by 1 October 2027.</li>
 </ul>
 
-<p>An accountant who can talk through e-invoicing readiness &mdash; data fields, provider selection, and changes to the invoicing process &mdash; is ahead of most candidates in 2026 interviews.</p>
+<p>An accountant who can talk through e-invoicing readiness, data fields, provider selection, and changes to the invoicing process, is ahead of most candidates in 2026 interviews.</p>
 
 <h2>Tax-Free in the UAE, Not Necessarily at Home</h2>
 
@@ -265,7 +265,7 @@ JOBHTML;
 
 <ul>
     <li><strong>There is no general minimum wage for private sector employees.</strong> The only official salary floor is the <strong>AED 6,000</strong> a month that, from 1 January 2026, an Emirati must be paid to count towards a company's Emiratisation target. It does not apply to expatriate staff.</li>
-    <li><strong>End-of-service gratuity is calculated on basic salary only</strong> &mdash; 21 days' basic pay for each of the first five years and 30 days for each year after. Housing, transport and other allowances do not count, so two offers with the same monthly total can build very different gratuities. Our <a href="/blog/receptionist-jobs-in-uae">receptionist jobs in UAE guide</a> works through the arithmetic.</li>
+    <li><strong>End-of-service gratuity is calculated on basic salary only</strong>: 21 days' basic pay for each of the first five years and 30 days for each year after. Housing, transport and other allowances do not count, so two offers with the same monthly total can build very different gratuities. Our <a href="/blog/receptionist-jobs-in-uae">receptionist jobs in UAE guide</a> works through the arithmetic.</li>
 </ul>
 
 <h2>DIFC and ADGM Are Different Jurisdictions</h2>
@@ -342,17 +342,17 @@ JOBHTML;
 <p>Comparing Gulf routes and office work elsewhere? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; the gratuity arithmetic on a basic salary, and the DIFC savings plan in full.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; a licensed UAE role, and the licence that only covers one emirate.</li>
-    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; a licensed profession in the Gulf, and the registration steps behind it.</li>
-    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a> &mdash; Gulf work under the Saudi system instead.</li>
-    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; office work at home, and how public sector pay grades read.</li>
-    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; the public sector alternative for finance graduates at home.</li>
-    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a> &mdash; where analytical finance skills lead in the US market.</li>
-    <li><a href="/blog/security-specialist-jobs-in-uae">Security Specialist Jobs in UAE</a> &mdash; security and cybersecurity roles under the same labour law.</li>
-    <li><a href="/blog/finance-analyst-jobs-in-canada">Finance Analyst Jobs in Canada</a> &mdash; the $43.27 Job Bank median, degree and CFA rules, and where the big banks hire.</li>
-    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; the height and reach rules, what Emirates publishes on pay, and how the Open Day works.</li>
-    <li><a href="/blog/how-to-apply-for-dp-world-port-jobs-in-uae">How to Apply for DP World Port Jobs in UAE</a> &mdash; what UAE employment law actually guarantees you, and what it does not.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: the gratuity arithmetic on a basic salary, and the DIFC savings plan in full.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: a licensed UAE role, and the licence that only covers one emirate.</li>
+    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a>: a licensed profession in the Gulf, and the registration steps behind it.</li>
+    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a>: Gulf work under the Saudi system instead.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a>: office work at home, and how public sector pay grades read.</li>
+    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a>: the public sector alternative for finance graduates at home.</li>
+    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a>: where analytical finance skills lead in the US market.</li>
+    <li><a href="/blog/security-specialist-jobs-in-uae">Security Specialist Jobs in UAE</a>: security and cybersecurity roles under the same labour law.</li>
+    <li><a href="/blog/finance-analyst-jobs-in-canada">Finance Analyst Jobs in Canada</a>: the $43.27 Job Bank median, degree and CFA rules, and where the big banks hire.</li>
+    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a>: the height and reach rules, what Emirates publishes on pay, and how the Open Day works.</li>
+    <li><a href="/blog/how-to-apply-for-dp-world-port-jobs-in-uae">How to Apply for DP World Port Jobs in UAE</a>: what UAE employment law actually guarantees you, and what it does not.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax, careers or financial advice. Tax rules, e-invoicing timelines, licensing conditions and employment laws change, and your home country's tax rules depend on your own circumstances. Confirm the current position with the Ministry of Finance, the Federal Tax Authority, MOHRE, a qualified tax adviser and the employer before applying or accepting an offer.</p>

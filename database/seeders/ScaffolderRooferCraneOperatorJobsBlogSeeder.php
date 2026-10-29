@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Scaffolder, Roofer and Crane Operator Jobs Abroad" — three height trades
+ * "Scaffolder, Roofer and Crane Operator Jobs Abroad": three height trades
  * in the three markets the brief chose: scaffolding in the UK, crane work in
  * Canada and roofing in Australia.
  *
@@ -184,7 +184,7 @@ JOBHTML;
 
 <h3>Requirements</h3>
 <ul>
-    <li>Provincial certification for the crane class. In Ontario, Hoisting Engineer &mdash; Mobile Crane Operator is a compulsory trade, with Branch 1 (339A) covering cranes of any capacity</li>
+    <li>Provincial certification for the crane class. In Ontario, Hoisting Engineer: Mobile Crane Operator is a compulsory trade, with Branch 1 (339A) covering cranes of any capacity</li>
     <li>Red Seal endorsement, available for mobile and tower crane operators, allows work across provinces</li>
     <li>Logged hours on the crane types you will operate, and rigging and signalling knowledge</li>
 </ul>
@@ -214,7 +214,7 @@ JOBHTML;
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Scaffolding, roofing and crane work all happen at height, all pay above general labouring, and all are gated by a licence or card that employers check on the first day. They differ sharply on the question most overseas applicants care about: whether the country will let you in to do the job. This page takes each trade in the market the question is usually asked about &mdash; scaffolders in the UK, crane operators in Canada and roofers in Australia &mdash; and answers it from official sources.</p>
+<p>Scaffolding, roofing and crane work all happen at height, all pay above general labouring, and all are gated by a licence or card that employers check on the first day. They differ sharply on the question most overseas applicants care about: whether the country will let you in to do the job. This page takes each trade in the market the question is usually asked about, scaffolders in the UK, crane operators in Canada and roofers in Australia, and answers it from official sources.</p>
 
 <h2>The Three Trades at a Glance</h2>
 
@@ -296,7 +296,7 @@ JOBHTML;
 
 <ul>
     <li><strong>It is provincial.</strong> Each province sets its own certification for crane operators, by crane type and capacity.</li>
-    <li><strong>Ontario makes it compulsory.</strong> Hoisting Engineer &mdash; Mobile Crane Operator Branch 1 (339A) covers mobile cranes of any capacity and is a Red Seal trade; Branch 2 (339C) covers smaller cranes up to 15 tonnes. Ontario residents must register as apprentices before training.</li>
+    <li><strong>Ontario makes it compulsory.</strong> Hoisting Engineer: Mobile Crane Operator Branch 1 (339A) covers mobile cranes of any capacity and is a Red Seal trade; Branch 2 (339C) covers smaller cranes up to 15 tonnes. Ontario residents must register as apprentices before training.</li>
     <li><strong>Red Seal travels.</strong> Mobile and tower crane operators can earn the interprovincial Red Seal endorsement, which lets them work across provinces.</li>
 </ul>
 
@@ -368,7 +368,7 @@ JOBHTML;
 <p>Job Bank reports a national median of C$42.77 an hour, from C$26.50 to C$52.19. Alberta has the highest provincial median at C$45.00.</p>
 
 <h3>Do crane operators need a licence in Canada?</h3>
-<p>Yes, under provincial rules. In Ontario, Hoisting Engineer &mdash; Mobile Crane Operator is a compulsory trade, and Branch 1 (339A) is a Red Seal trade.</p>
+<p>Yes, under provincial rules. In Ontario, Hoisting Engineer: Mobile Crane Operator is a compulsory trade, and Branch 1 (339A) is a Red Seal trade.</p>
 
 <h3>Are roofers on the UK shortage list?</h3>
 <p>No. Roofers, roof tilers and slaters (SOC 5313) are not on the Temporary Shortage List.</p>
@@ -410,11 +410,11 @@ JOBHTML;
 <p>The rest of the construction trades guides:</p>
 
 <ul>
-    <li><a href="/blog/how-to-become-a-site-supervisor-or-foreman-abroad">How to Become a Site Supervisor or Foreman Abroad</a> &mdash; the step from trade to supervision.</li>
-    <li><a href="/blog/tiler-plasterer-and-mason-jobs-overseas">Tiler, Plasterer and Mason Jobs Overseas</a> &mdash; the finishing trades and their shortage-list status.</li>
-    <li><a href="/blog/carpenter-jobs-in-the-uk-canada-and-australia">Carpenter Jobs in the UK, Canada and Australia</a> &mdash; another trade the UK no longer newly sponsors.</li>
-    <li><a href="/blog/construction-labourer-jobs-in-dubai-and-saudi-arabia">Construction Labourer Jobs in Dubai and Saudi Arabia</a> &mdash; Gulf site work and its legal protections.</li>
-    <li><a href="/blog/welder-salary-in-usa">Welder Salary in USA</a> &mdash; another structural trade, on BLS data.</li>
+    <li><a href="/blog/how-to-become-a-site-supervisor-or-foreman-abroad">How to Become a Site Supervisor or Foreman Abroad</a>: the step from trade to supervision.</li>
+    <li><a href="/blog/tiler-plasterer-and-mason-jobs-overseas">Tiler, Plasterer and Mason Jobs Overseas</a>: the finishing trades and their shortage-list status.</li>
+    <li><a href="/blog/carpenter-jobs-in-the-uk-canada-and-australia">Carpenter Jobs in the UK, Canada and Australia</a>: another trade the UK no longer newly sponsors.</li>
+    <li><a href="/blog/construction-labourer-jobs-in-dubai-and-saudi-arabia">Construction Labourer Jobs in Dubai and Saudi Arabia</a>: Gulf site work and its legal protections.</li>
+    <li><a href="/blog/welder-salary-in-usa">Welder Salary in USA</a>: another structural trade, on BLS data.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or career advice. UK pay is from the National Careers Service and visa rules from GOV.UK; Canadian wages are from Job Bank. Confirm licensing with the provincial or state regulator before applying.</p>

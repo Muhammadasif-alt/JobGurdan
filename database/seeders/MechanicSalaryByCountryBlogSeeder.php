@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Mechanic Salary by Country" — the pay page of the mechanic cluster, built
+ * "Mechanic Salary by Country": the pay page of the mechanic cluster, built
  * on BLS OEWS May 2025 (SOC 49-3023 and 49-3031), the BLS 2025-2035
  * projections, Jobs and Skills Australia, the National Careers Service and
  * Job Bank (NOC 72410).
@@ -329,12 +329,12 @@ JOBHTML;
 <p>The rest of the mechanic cluster and related trades:</p>
 
 <ul>
-    <li><a href="/blog/car-mechanic-jobs-in-australia-uk-and-canada">Car Mechanic Jobs in Australia, UK and Canada</a> &mdash; skills assessment, visas and certification in each country.</li>
-    <li><a href="/blog/ev-technician-jobs-training-and-career-guide">EV Technician Jobs: Training and Career Guide</a> &mdash; high-voltage training and the EV market.</li>
-    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a> &mdash; the Gulf route for mechanics.</li>
-    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a> &mdash; apprenticeships and award pay.</li>
-    <li><a href="/blog/industrial-vs-house-wiring-electrician-which-pays-more">Industrial vs House Wiring Electrician: Which Pays More</a> &mdash; the same pay question for electricians.</li>
-    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a> &mdash; a neighbouring trade on BLS and Job Bank data.</li>
+    <li><a href="/blog/car-mechanic-jobs-in-australia-uk-and-canada">Car Mechanic Jobs in Australia, UK and Canada</a>: skills assessment, visas and certification in each country.</li>
+    <li><a href="/blog/ev-technician-jobs-training-and-career-guide">EV Technician Jobs: Training and Career Guide</a>: high-voltage training and the EV market.</li>
+    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a>: the Gulf route for mechanics.</li>
+    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a>: apprenticeships and award pay.</li>
+    <li><a href="/blog/industrial-vs-house-wiring-electrician-which-pays-more">Industrial vs House Wiring Electrician: Which Pays More</a>: the same pay question for electricians.</li>
+    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a>: a neighbouring trade on BLS and Job Bank data.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not career, legal or immigration advice. US pay is from BLS OEWS May 2025 and projections from the BLS Occupational Outlook Handbook; Australian data is from Jobs and Skills Australia, UK pay from the National Careers Service and Canadian wages from Job Bank. UAE rules are from Federal Decree-Law No. 33 of 2021 and its implementing resolutions.</p>

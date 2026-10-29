@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Construction Worker Jobs in Australia" — the labouring and civil market,
+ * "Construction Worker Jobs in Australia": the labouring and civil market,
  * written around the fact that Australia publishes a legally binding minimum
  * for this exact job. Once the award rate is on the page, the quoted average
  * stops looking like a market signal and starts looking like what it is.
@@ -147,32 +147,32 @@ class ConstructionWorkerJobsAustraliaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li>A construction induction card &mdash; the White Card &mdash; before you set foot on site. This is a legal condition, not a preference</li>
+    <li>A construction induction card, the White Card, before you set foot on site. This is a legal condition, not a preference</li>
     <li>Physical fitness for sustained outdoor work and repeated manual handling</li>
     <li>Steel-capped boots, hard hat, hi-vis and safety glasses, sometimes supplied and sometimes not</li>
     <li>Reliability and an early start, which labour hire firms weight above everything else</li>
-    <li>Full working rights in Australia &mdash; almost every listing states this outright</li>
+    <li>Full working rights in Australia: almost every listing states this outright</li>
     <li>Tickets for specific tasks where relevant: traffic control, working at heights, confined spaces, forklift</li>
 </ul>
 
 <h3>How the pay is structured</h3>
 <ul>
     <li><strong>The award floor</strong> for a CW1 labourer is <strong>$26.67 an hour</strong> from 1 July 2026, which on 38 ordinary hours is about <strong>$52,700 a year</strong> permanent full-time</li>
-    <li><strong>Casual engagement</strong> adds a <strong>25 per cent loading</strong> in place of paid leave &mdash; roughly $33.34 an hour, or about $65,880 across a full year of ordinary hours</li>
+    <li><strong>Casual engagement</strong> adds a <strong>25 per cent loading</strong> in place of paid leave: roughly $33.34 an hour, or about $65,880 across a full year of ordinary hours</li>
     <li><strong>Superannuation is 12 per cent</strong> on top, and whether a quoted figure includes it changes that figure by thousands</li>
 </ul>
 
 <h3>Before you apply</h3>
 <p><strong>Ask two questions before you accept: casual or permanent, and is super inside the number or on top of it.</strong> A casual rate looks higher because it is buying out your annual leave, sick leave, notice and redundancy. Neither answer is wrong, but they are different jobs and the difference is worth more than the headline gap between states.</p>
 
-<p><strong>Note:</strong> pay, engagement type, allowances and ticket requirements are set by each employer and by the applicable award or agreement &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, engagement type, allowances and ticket requirements are set by each employer and by the applicable award or agreement, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Australia is unusual, and unusually helpful, in one respect: for most jobs there is a legally binding minimum rate published by name, and construction labouring is one of them. That single fact changes how you should read every salary figure in every guide to this work &mdash; because once you know the floor, you can see what the average is actually made of.</p>
+<p>Australia is unusual, and unusually helpful, in one respect: for most jobs there is a legally binding minimum rate published by name, and construction labouring is one of them. That single fact changes how you should read every salary figure in every guide to this work, because once you know the floor, you can see what the average is actually made of.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/construction-trades?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -193,7 +193,7 @@ JOBHTML;
 
 <p>The quoted average of $71,059 sits about <strong>8 per cent above the casual minimum</strong> and roughly <strong>35 per cent above the permanent one</strong>. That tells you what the sample is: this is a <strong>casual, labour-hire number</strong>. Which is exactly what you would expect, because labour hire dominates the entry end of this market and the draft guides say so themselves without joining the dots.</p>
 
-<p>The practical consequence is important. If you are comparing a construction labouring job against a salaried role somewhere else, <strong>you are not comparing like with like.</strong> The 25 per cent is not a bonus. It is the price of your annual leave, your sick leave, your notice period and your redundancy entitlement, paid to you weekly instead of held for you. Take the casual role by all means &mdash; plenty of people should &mdash; but budget for the four weeks a year you will not be paid for.</p>
+<p>The practical consequence is important. If you are comparing a construction labouring job against a salaried role somewhere else, <strong>you are not comparing like with like.</strong> The 25 per cent is not a bonus. It is the price of your annual leave, your sick leave, your notice period and your redundancy entitlement, paid to you weekly instead of held for you. Take the casual role by all means, plenty of people should, but budget for the four weeks a year you will not be paid for.</p>
 
 <p>For context on the wider floor: the <strong>National Minimum Wage from 1 July 2026 is $26.44 an hour</strong>, or $1,004.90 a week. The construction award base sits barely above it, which is why the tickets, the allowances and the engagement type matter more here than the base rate does.</p>
 
@@ -201,7 +201,7 @@ JOBHTML;
 
 <p>This is the question that changes an Australian offer most, and no salary guide asks it.</p>
 
-<p>The <strong>Superannuation Guarantee is 12 per cent</strong>. Australian job advertisements are genuinely inconsistent about whether a quoted figure is base pay with super on top, or a total package including it. On $71,059 the difference is <strong>$7,613</strong> &mdash; more than twice the entire spread between the highest and lowest state averages the same guides publish.</p>
+<p>The <strong>Superannuation Guarantee is 12 per cent</strong>. Australian job advertisements are genuinely inconsistent about whether a quoted figure is base pay with super on top, or a total package including it. On $71,059 the difference is <strong>$7,613</strong>: more than twice the entire spread between the highest and lowest state averages the same guides publish.</p>
 
 <p>So $71,059 means either roughly $71,059 in your hand plus $8,527 into your fund, or roughly $63,446 in your hand with $7,613 going into the fund. Those are two very different jobs wearing the same number.</p>
 
@@ -217,11 +217,11 @@ JOBHTML;
 
 <p>Guides list the White Card among "skills in demand", between physical fitness and teamwork. That undersells it badly.</p>
 
-<p>The construction induction card is a <strong>legal condition of entering a construction site in Australia</strong> &mdash; for labourers, for trades, and for supervisors, engineers and visitors who go on site routinely. No card, no entry. It is not something to obtain once you have the job; without it, you cannot start.</p>
+<p>The construction induction card is a <strong>legal condition of entering a construction site in Australia</strong>: for labourers, for trades, and for supervisors, engineers and visitors who go on site routinely. No card, no entry. It is not something to obtain once you have the job; without it, you cannot start.</p>
 
 <p>Two features of it are worth knowing precisely, because they are the ones people get wrong.</p>
 
-<p><strong>It works in every state and territory.</strong> A card issued in one jurisdiction is recognised across Australia. If you are moving between states for work, you do not repeat the course. That is genuinely unusual among Australian work credentials &mdash; the Working with Children Check, for instance, does not transfer the same way &mdash; so it is worth knowing that this one does.</p>
+<p><strong>It works in every state and territory.</strong> A card issued in one jurisdiction is recognised across Australia. If you are moving between states for work, you do not repeat the course. That is genuinely unusual among Australian work credentials, the Working with Children Check, for instance, does not transfer the same way, so it is worth knowing that this one does.</p>
 
 <p><strong>It lapses through disuse, not through time.</strong> The card does not carry a simple expiry date, but it becomes void if you carry out <strong>no construction work for two consecutive years</strong>. Anyone returning to the industry after a break of that length needs to redo it. Check the date of your last construction work before assuming an old card still stands.</p>
 
@@ -233,7 +233,7 @@ JOBHTML;
 
 <p>Look at the size of it. The whole spread from top to bottom is <strong>$3,344</strong>, about 4.8 per cent. That is smaller than the superannuation question above, smaller than the gap between a casual and a permanent engagement, and far smaller than the difference in what it costs to live in Adelaide versus Sydney.</p>
 
-<p>Notice also which way round it is. The highest average belongs to the <strong>cheapest capital city</strong> on the list, and Sydney &mdash; comfortably the most expensive place to live in the country &mdash; sits below it. In real terms, after housing, the ranking is not close, and it is the opposite of what a "highest paying state" headline implies.</p>
+<p>Notice also which way round it is. The highest average belongs to the <strong>cheapest capital city</strong> on the list, and Sydney, comfortably the most expensive place to live in the country, sits below it. In real terms, after housing, the ranking is not close, and it is the opposite of what a "highest paying state" headline implies.</p>
 
 <p>Move for the project, the employer or the tickets you will pick up. Do not move for $3,344.</p>
 
@@ -250,7 +250,7 @@ JOBHTML;
     <li>On the <strong>subclass 462</strong>, construction also counts, in Northern Australia or regional Australia, with the same 88-day and 179-day thresholds.</li>
 </ul>
 
-<p>That makes regional construction labouring one of the more sensible ways to extend a working holiday &mdash; better paid and more reliably available than the fruit picking it is usually compared with. Check the eligible postcodes for the specific site before you take the job, because the work only counts if the location does. Trade-qualified applicants are in a different conversation entirely, and should be looking at skills assessment and sponsored routes rather than this one.</p>
+<p>That makes regional construction labouring one of the more sensible ways to extend a working holiday: better paid and more reliably available than the fruit picking it is usually compared with. Check the eligible postcodes for the specific site before you take the job, because the work only counts if the location does. Trade-qualified applicants are in a different conversation entirely, and should be looking at skills assessment and sponsored routes rather than this one.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/construction-worker-jobs-in-australia-casual.jpg"
@@ -274,12 +274,12 @@ JOBHTML;
 <p>Because the base rate is close to the national floor, the tickets are what separate two labourers on the same site. In rough order of how often listings ask for them:</p>
 
 <ul>
-    <li><strong>White Card</strong> &mdash; not a differentiator, a precondition.</li>
-    <li><strong>Traffic control and implement traffic management plans</strong> &mdash; widely needed on civil projects.</li>
-    <li><strong>Working at heights</strong> and <strong>confined spaces</strong> &mdash; common on commercial and infrastructure sites.</li>
-    <li><strong>Forklift licence</strong> and <strong>elevated work platform</strong> tickets &mdash; steady demand across all sectors.</li>
-    <li><strong>First aid</strong> &mdash; cheap, quick, and disproportionately useful to a crew.</li>
-    <li><strong>Asbestos awareness</strong> &mdash; increasingly asked for on demolition and refurbishment.</li>
+    <li><strong>White Card</strong>, not a differentiator, a precondition.</li>
+    <li><strong>Traffic control and implement traffic management plans</strong>: widely needed on civil projects.</li>
+    <li><strong>Working at heights</strong> and <strong>confined spaces</strong>: common on commercial and infrastructure sites.</li>
+    <li><strong>Forklift licence</strong> and <strong>elevated work platform</strong> tickets: steady demand across all sectors.</li>
+    <li><strong>First aid</strong>: cheap, quick, and disproportionately useful to a crew.</li>
+    <li><strong>Asbestos awareness</strong>: increasingly asked for on demolition and refurbishment.</li>
 </ul>
 
 <h2>Frequently Asked Questions</h2>
@@ -306,7 +306,7 @@ JOBHTML;
 <p>Not realistically. General labouring is not a skilled migration occupation. The Working Holiday visa is the route that works, and construction counts towards it.</p>
 
 <h3>Does construction work count for a second year Working Holiday visa?</h3>
-<p>Yes. On the subclass 417 it counts anywhere in regional Australia, and on the 462 in Northern or regional Australia &mdash; 88 days for a second year and 179 days for a third. Check the postcode of the site before you start.</p>
+<p>Yes. On the subclass 417 it counts anywhere in regional Australia, and on the 462 in Northern or regional Australia: 88 days for a second year and 179 days for a third. Check the postcode of the site before you start.</p>
 
 <h2>People Also Search For</h2>
 
@@ -329,7 +329,7 @@ JOBHTML;
 <p>Counts in regional Australia on both the 417 and the 462. 88 days for a second year, 179 for a third.</p>
 
 <h3>Construction jobs Sydney and Melbourne</h3>
-<p>High volume, and averages within about 4.8 per cent of every other state &mdash; a smaller gap than the cost of living between them.</p>
+<p>High volume, and averages within about 4.8 per cent of every other state: a smaller gap than the cost of living between them.</p>
 
 <h3>No experience construction jobs Australia</h3>
 <p>Genuinely available through labour hire. The White Card, boots and a reliable early start matter more than a r&eacute;sum&eacute;.</p>
@@ -339,25 +339,25 @@ JOBHTML;
 <p>Comparing markets and entry routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a> &mdash; the indoor Australian entry route, and the checks that do not transfer between states.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; the same trade on the American visa system.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; the Gulf route, where sponsorship genuinely exists.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; the same employed-versus-independent trade-off under British rules.</li>
-    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; industrial work in the EU and what the visa routes really require.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; why operative-level roles fail the UK sponsorship tests.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; a licensed Gulf role with accommodation and visa included.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest position on American entry-level sponsorship.</li>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; the same trade under British certification rules.</li>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; seasonal work in Canada, and which program your passport allows.</li>
-    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; the licensed trade route, and the two places a plumbing licence does not travel.</li>
-    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; the commission side of the Australian market, and what the awards say about commission-only pay.</li>
-    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; a certified trade in another Commonwealth market, and where its licence is compulsory.</li>
-    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; entry-level award rates from 1 July 2026, junior rates and the tickets site work needs.</li>
-    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a> &mdash; the American version of the same trade, and who actually needs a licence.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; how employer sponsorship actually works, and which occupation list applies.</li>
-    <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a> &mdash; the Canadian machine side of construction, and its Red Seal trades.</li>
-    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a> &mdash; the apprenticeship, the AUR30620 qualification, award pay for apprentices and the routes for overseas-trained mechanics.</li>
-    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a> &mdash; the no-experience pathways, what the FutureFit Academy really offers and official pay benchmarks.</li>
+    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a>: the indoor Australian entry route, and the checks that do not transfer between states.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: the same trade on the American visa system.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: the Gulf route, where sponsorship genuinely exists.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: the same employed-versus-independent trade-off under British rules.</li>
+    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a>: industrial work in the EU and what the visa routes really require.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: why operative-level roles fail the UK sponsorship tests.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: a licensed Gulf role with accommodation and visa included.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the honest position on American entry-level sponsorship.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: the same trade under British certification rules.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: seasonal work in Canada, and which program your passport allows.</li>
+    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a>: the licensed trade route, and the two places a plumbing licence does not travel.</li>
+    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a>: the commission side of the Australian market, and what the awards say about commission-only pay.</li>
+    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a>: a certified trade in another Commonwealth market, and where its licence is compulsory.</li>
+    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a>: entry-level award rates from 1 July 2026, junior rates and the tickets site work needs.</li>
+    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a>: the American version of the same trade, and who actually needs a licence.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>: how employer sponsorship actually works, and which occupation list applies.</li>
+    <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a>: the Canadian machine side of construction, and its Red Seal trades.</li>
+    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a>: the apprenticeship, the AUR30620 qualification, award pay for apprentices and the routes for overseas-trained mechanics.</li>
+    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a>: the no-experience pathways, what the FutureFit Academy really offers and official pay benchmarks.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, migration or financial advice. Award rates, the national minimum wage, superannuation rules and visa conditions change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Fair Work Ombudsman, the Department of Home Affairs and the employer's own advertisement before applying.</p>

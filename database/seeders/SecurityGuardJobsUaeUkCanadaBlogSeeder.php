@@ -12,7 +12,7 @@ use App\Models\User;
 use Illuminate\Database\Seeder;
 
 /**
- * "Security Guard Jobs in the UAE, UK and Canada" — blog-291.
+ * "Security Guard Jobs in the UAE, UK and Canada": blog-291.
  *
  * The draft was rewritten. What it carried could not be published as sent:
  *
@@ -360,10 +360,10 @@ JOBHTML;
 <p>Related security and visa guides:</p>
 
 <ul>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; why SIRA covers Dubai only.</li>
-    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a> &mdash; the Saudi route.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; the wider Canadian picture.</li>
-    <li><a href="/blog/cleaner-and-janitor-jobs-with-visa-sponsorship">Cleaner and Janitor Jobs With Visa Sponsorship</a> &mdash; another role where sponsorship claims need checking.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: why SIRA covers Dubai only.</li>
+    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a>: the Saudi route.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: the wider Canadian picture.</li>
+    <li><a href="/blog/cleaner-and-janitor-jobs-with-visa-sponsorship">Cleaner and Janitor Jobs With Visa Sponsorship</a>: another role where sponsorship claims need checking.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or career advice. UK rules are from the Security Industry Authority and GOV.UK; Ontario rules from the Ontario government's private security licensing. Licence rules and fees change, so confirm them with the official authority before paying for a course.</p>

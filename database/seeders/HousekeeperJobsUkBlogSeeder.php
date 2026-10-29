@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Housekeeper Jobs in UK" — hotel, hospital, care home and private household
+ * "Housekeeper Jobs in UK": hotel, hospital, care home and private household
  * housekeeping. The London cleaner guide covers office and contract cleaning,
  * the healthcare assistant guide covers NHS pay bands in full, and this one
  * owns housekeeper pay, the live-in accommodation rule, checks and visas.
@@ -148,7 +148,7 @@ class HousekeeperJobsUkBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li><strong>The right to work in the UK</strong> &mdash; housekeepers and cleaners cannot be sponsored for a Skilled Worker visa</li>
+    <li><strong>The right to work in the UK</strong>: housekeepers and cleaners cannot be sponsored for a Skilled Worker visa</li>
     <li>A criminal record check where the role is eligible: standard or enhanced DBS for hospitals and care homes, PVG in Scotland, AccessNI in Northern Ireland</li>
     <li>Safe use of cleaning chemicals under COSHH, and safe manual handling</li>
     <li>Availability for early, weekend and bank holiday shifts in hotels and hospitals</li>
@@ -164,7 +164,7 @@ class HousekeeperJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Get the weekly hours in writing.</strong> Divide the salary by the hours to check it against the National Living Wage, especially for live-in roles.</p>
 
-<p><strong>Note:</strong> pay, hours, checks and visa eligibility are set by each employer, NHS pay agreements and UK law &mdash; not by JobGader. Confirm the details with the employer and on gov.uk before applying, and never pay a fee for a job offer.</p>
+<p><strong>Note:</strong> pay, hours, checks and visa eligibility are set by each employer, NHS pay agreements and UK law, not by JobGader. Confirm the details with the employer and on gov.uk before applying, and never pay a fee for a job offer.</p>
 JOBHTML;
     }
 
@@ -378,15 +378,15 @@ JOBHTML;
 <p>Comparing housekeeping with other entry-level work in the UK and abroad? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London</a> &mdash; office, school and contract cleaning across the capital.</li>
-    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; the NHS bands in full, and the one care job that can still be sponsored.</li>
-    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; the care worker visa closure and its transitional rules.</li>
-    <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; the kitchen job in the same hotels and care homes, and its tips rules.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; another UK entry-level job that cannot be sponsored.</li>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; housekeeping on the American seasonal visa route.</li>
-    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a> &mdash; the Gulf route for cleaning and housekeeping staff.</li>
-    <li><a href="/blog/janitor-jobs-in-canada">Janitor Jobs in Canada</a> &mdash; custodian pay by province, and the 2026 minimum wages that set the floor.</li>
-    <li><a href="/blog/how-to-apply-for-marriott-hotel-jobs-in-the-usa">How to Apply for Marriott Hotel Jobs in the USA</a> &mdash; why most Marriott hotels are not run by Marriott, and what that changes.</li>
+    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London</a>: office, school and contract cleaning across the capital.</li>
+    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a>: the NHS bands in full, and the one care job that can still be sponsored.</li>
+    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a>: the care worker visa closure and its transitional rules.</li>
+    <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a>: the kitchen job in the same hotels and care homes, and its tips rules.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: another UK entry-level job that cannot be sponsored.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>: housekeeping on the American seasonal visa route.</li>
+    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a>: the Gulf route for cleaning and housekeeping staff.</li>
+    <li><a href="/blog/janitor-jobs-in-canada">Janitor Jobs in Canada</a>: custodian pay by province, and the 2026 minimum wages that set the floor.</li>
+    <li><a href="/blog/how-to-apply-for-marriott-hotel-jobs-in-the-usa">How to Apply for Marriott Hotel Jobs in the USA</a>: why most Marriott hotels are not run by Marriott, and what that changes.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, careers or financial advice. Minimum wage rates, NHS pay awards, checking rules and immigration rules change and differ between the four UK nations. Confirm the current position with the employer, GOV.UK, NHS Employers and a regulated immigration adviser before applying or accepting an offer.</p>

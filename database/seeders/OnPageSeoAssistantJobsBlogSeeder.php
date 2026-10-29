@@ -151,7 +151,7 @@ class OnPageSeoAssistantJobsBlogSeeder extends Seeder
 <h3>Before you accept</h3>
 <p>Agency roles serving American clients are frequently night shift, and that is often stated only at interview. Ask about hours early. Ask also whether a salary figure exists, because a minority of Pakistani listings publish one at all.</p>
 
-<p>Requirements, hours and pay are set by individual employers &mdash; not by JobGader. Never pay anyone to secure a job or a training place.</p>
+<p>Requirements, hours and pay are set by individual employers, not by JobGader. Never pay anyone to secure a job or a training place.</p>
 JOBHTML;
     }
 
@@ -168,7 +168,7 @@ JOBHTML;
     </a>
 </div>
 
-<p>For the employer side of this job &mdash; who hires, the pay ladder, and how to spot a fake SEO agency &mdash; see our companion guide on <a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a>. This page is about the work itself.</p>
+<p>For the employer side of this job, who hires, the pay ladder, and how to spot a fake SEO agency, see our companion guide on <a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a>. This page is about the work itself.</p>
 
 <figure style="margin:28px 0;">
     <img src="/public/storage/blogs/on-page-seo-assistant-jobs-checklist.jpg" alt="An on-page SEO checklist being worked through on a laptop" style="width:100%;height:auto;border-radius:10px;">
@@ -199,7 +199,7 @@ JOBHTML;
 
 <p>Asked whether the title and the H1 must match, the same team answered: <em>"No, just do whatever makes sense from a user's perspective."</em></p>
 
-<p>There is a trap here worth naming, because it is how this myth survives. Google does publish a page saying each page should have a unique H1 &mdash; in its <em>developer documentation style guide</em>, which is an internal writing standard for Google's own technical docs. It is not search guidance, and citing it as such is a category error.</p>
+<p>There is a trap here worth naming, because it is how this myth survives. Google does publish a page saying each page should have a unique H1: in its <em>developer documentation style guide</em>, which is an internal writing standard for Google's own technical docs. It is not search guidance, and citing it as such is a category error.</p>
 
 <p><strong>"Aim for a keyword density of one to two per cent."</strong> Google has never published a density target. What it publishes is a definition of the failure mode: keyword stuffing is <em>"the practice of filling a web page with keywords or numbers in an attempt to manipulate rankings"</em>, with examples including <em>"repeating the same words or phrases so often that it sounds unnatural"</em>. There is a spam threshold, not an optimum.</p>
 
@@ -477,12 +477,12 @@ JOBHTML;
 <h2>More Job Guides</h2>
 
 <ul>
-    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a> &mdash; the employer side of this role, the pay ladder and how to spot a fake SEO agency.</li>
-    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a> &mdash; the production role next door, and how it is priced.</li>
-    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a> &mdash; where this skill set leads internationally.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; realistic entry points and what they pay.</li>
-    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a> &mdash; another research-led remote route with a low barrier to entry.</li>
-    <li><a href="/blog/local-seo-assistant-jobs">Local SEO Assistant Jobs</a> &mdash; Business Profiles, reviews and maps, and the two instructions worth refusing.</li>
+    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a>: the employer side of this role, the pay ladder and how to spot a fake SEO agency.</li>
+    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a>: the production role next door, and how it is priced.</li>
+    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a>: where this skill set leads internationally.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: realistic entry points and what they pay.</li>
+    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a>: another research-led remote route with a low barrier to entry.</li>
+    <li><a href="/blog/local-seo-assistant-jobs">Local SEO Assistant Jobs</a>: Business Profiles, reviews and maps, and the two instructions worth refusing.</li>
 </ul>
 HTML;
     }

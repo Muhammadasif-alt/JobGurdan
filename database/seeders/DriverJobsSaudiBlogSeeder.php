@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Driver Jobs in Saudi Arabia for Foreigners" — a sector guide rather than one
+ * "Driver Jobs in Saudi Arabia for Foreigners": a sector guide rather than one
  * vacancy, so the apply link goes to an Indeed search and the post carries no
  * JobPosting markup.
  *
@@ -61,7 +61,7 @@ class DriverJobsSaudiBlogSeeder extends Seeder
                 'content' => $content,
                 'featured_image' => 'blogs/driver-jobs-in-saudi-arabia-for-foreigners.jpg',
                 'tags' => 'driver jobs in saudi arabia, house driver jobs saudi arabia, truck driver jobs saudi arabia, delivery driver jobs riyadh, driver salary in saudi arabia, saudi arabia work visa, musaned, driver jobs for pakistani, driving jobs jeddah',
-                'meta_title' => 'Driver Jobs in Saudi Arabia for Foreigners — 2026 Guide',
+                'meta_title' => 'Driver Jobs in Saudi Arabia for Foreigners: 2026 Guide',
                 'meta_description' => 'Driver jobs in Saudi Arabia for foreigners: real SAR salary ranges, how visa sponsorship actually works, licence rules, and how to apply without paying a fee.',
                 'reading_time' => max(1, (int) ceil(str_word_count(strip_tags($content)) / 200)),
                 'status' => 'published',
@@ -115,14 +115,14 @@ class DriverJobsSaudiBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>Saudi employers and licensed recruitment agencies hire foreign drivers year-round across Riyadh, Jeddah and Dammam &mdash; private and family drivers, delivery and courier riders, corporate staff drivers, bus drivers, and heavy truck and trailer operators for logistics, construction and oil and gas contractors.</p>
+<p>Saudi employers and licensed recruitment agencies hire foreign drivers year-round across Riyadh, Jeddah and Dammam: private and family drivers, delivery and courier riders, corporate staff drivers, bus drivers, and heavy truck and trailer operators for logistics, construction and oil and gas contractors.</p>
 
 <h3>Which category you are hired under matters</h3>
-<p>This is the single most important thing to check before signing. A <strong>company driver</strong> is employed under the Saudi Labour Law: 48-hour week, end-of-service benefit, salary paid through the Wage Protection System, and the job-mobility rights introduced by the 2021 Labour Reform Initiative. A <strong>private house driver</strong> is classified as a domestic worker under a separate regulation, is recruited through the government's Musaned platform, and was <strong>not</strong> included in that mobility reform. Same job title, different legal position &mdash; ask which one your contract falls under.</p>
+<p>This is the single most important thing to check before signing. A <strong>company driver</strong> is employed under the Saudi Labour Law: 48-hour week, end-of-service benefit, salary paid through the Wage Protection System, and the job-mobility rights introduced by the 2021 Labour Reform Initiative. A <strong>private house driver</strong> is classified as a domestic worker under a separate regulation, is recruited through the government's Musaned platform, and was <strong>not</strong> included in that mobility reform. Same job title, different legal position: ask which one your contract falls under.</p>
 
 <h3>Requirements</h3>
 <ul>
-    <li>Valid driving licence &mdash; light vehicle for private, delivery and corporate roles; heavy vehicle for truck, trailer and bus work</li>
+    <li>Valid driving licence: light vehicle for private, delivery and corporate roles; heavy vehicle for truck, trailer and bus work</li>
     <li>Typically 2&ndash;7 years of driving experience, depending on the employer and vehicle class</li>
     <li>Clean driving record with no major traffic violations</li>
     <li>Passport valid for at least one more year, plus police clearance and attested documents</li>
@@ -138,20 +138,20 @@ class DriverJobsSaudiBlogSeeder extends Seeder
     <li>Roughly SAR 2,000&ndash;3,900 a month for delivery and courier drivers, often part commission</li>
     <li>Roughly SAR 1,500&ndash;2,500 and up for heavy truck and trailer drivers, plus trip allowances and overtime</li>
     <li>Employer-sponsored work visa and Iqama, medical insurance, and end-of-service benefit for Labour Law contracts</li>
-    <li>Accommodation, transport and annual return flights are commonly included &mdash; confirm each one in writing</li>
+    <li>Accommodation, transport and annual return flights are commonly included: confirm each one in writing</li>
 </ul>
 
 <h3>Before you pay anyone anything</h3>
-<p><strong>Never pay for a visa or a job offer.</strong> Saudi rules place recruitment costs on the employer, and this is where nearly every scam in this category starts. Use only an agency licensed by your own government &mdash; the Bureau of Emigration and Overseas Employment in Pakistan, an eMigrate-registered agent in India, or a BMET-registered agency in Bangladesh &mdash; and treat any &quot;free visa&quot; or &quot;azad visa&quot; offer as illegal, because working for anyone other than your registered sponsor exposes you to an absconding (huroob) report and deportation.</p>
+<p><strong>Never pay for a visa or a job offer.</strong> Saudi rules place recruitment costs on the employer, and this is where nearly every scam in this category starts. Use only an agency licensed by your own government, the Bureau of Emigration and Overseas Employment in Pakistan, an eMigrate-registered agent in India, or a BMET-registered agency in Bangladesh, and treat any &quot;free visa&quot; or &quot;azad visa&quot; offer as illegal, because working for anyone other than your registered sponsor exposes you to an absconding (huroob) report and deportation.</p>
 
-<p><strong>Note:</strong> pay, hours and contract terms are set by the individual employer or agency &mdash; not by JobGader. Listings on aggregator sites vary in quality; verify the employer and the contract before travelling.</p>
+<p><strong>Note:</strong> pay, hours and contract terms are set by the individual employer or agency, not by JobGader. Listings on aggregator sites vary in quality; verify the employer and the contract before travelling.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Saudi Arabia hires more foreign drivers than almost anywhere else on earth, and the demand is real &mdash; Vision 2030 construction, a fast-growing delivery economy, and hundreds of thousands of households that employ a private driver. But <strong>driver jobs in Saudi Arabia for foreigners</strong> is also one of the most scam-heavy search terms in the Gulf recruitment market. This guide covers what the roles actually pay in SAR, how sponsorship is really processed, and the one contract distinction that decides what rights you have once you land.</p>
+<p>Saudi Arabia hires more foreign drivers than almost anywhere else on earth, and the demand is real: Vision 2030 construction, a fast-growing delivery economy, and hundreds of thousands of households that employ a private driver. But <strong>driver jobs in Saudi Arabia for foreigners</strong> is also one of the most scam-heavy search terms in the Gulf recruitment market. This guide covers what the roles actually pay in SAR, how sponsorship is really processed, and the one contract distinction that decides what rights you have once you land.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/transport-logistics?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -168,22 +168,22 @@ JOBHTML;
 <p>Read this section before any salary table. Two people can both be called &quot;driver in Saudi Arabia&quot; and be in completely different legal positions:</p>
 
 <ul>
-    <li><strong>Company driver &mdash; covered by the Saudi Labour Law.</strong> This includes corporate, delivery, bus and truck drivers employed by a registered establishment. You get the standard 48-hour week, overtime rules, end-of-service benefit, wages paid through the <strong>Wage Protection System</strong> (a bank transfer the ministry can audit), and a contract documented on the government's <strong>Qiwa</strong> platform. Since the <strong>Labour Reform Initiative of March 2021</strong>, workers on this route can change employer, and obtain exit and re-entry or final exit visas, under defined conditions without needing the sponsor's permission.</li>
-    <li><strong>Private or house driver &mdash; a domestic worker.</strong> Private and family drivers are classified alongside housemaids and gardeners under a separate domestic-labour regulation, and are recruited through the government's <strong>Musaned</strong> platform rather than the ordinary company hiring route. Crucially, <strong>domestic workers were not included in the 2021 mobility reform</strong>, so the freedom to change employer that company drivers gained does not apply in the same way.</li>
+    <li><strong>Company driver: covered by the Saudi Labour Law.</strong> This includes corporate, delivery, bus and truck drivers employed by a registered establishment. You get the standard 48-hour week, overtime rules, end-of-service benefit, wages paid through the <strong>Wage Protection System</strong> (a bank transfer the ministry can audit), and a contract documented on the government's <strong>Qiwa</strong> platform. Since the <strong>Labour Reform Initiative of March 2021</strong>, workers on this route can change employer, and obtain exit and re-entry or final exit visas, under defined conditions without needing the sponsor's permission.</li>
+    <li><strong>Private or house driver: a domestic worker.</strong> Private and family drivers are classified alongside housemaids and gardeners under a separate domestic-labour regulation, and are recruited through the government's <strong>Musaned</strong> platform rather than the ordinary company hiring route. Crucially, <strong>domestic workers were not included in the 2021 mobility reform</strong>, so the freedom to change employer that company drivers gained does not apply in the same way.</li>
 </ul>
 
 <p>Neither route is a scam and both are legitimate work. But a <strong>house driver job in Saudi Arabia</strong> is a materially more restrictive contract than a company driver job on the same salary, and you should know which one you are signing before you leave home. Ask the agency directly: <em>&quot;Is this contract under the Labour Law on Qiwa, or a domestic worker contract through Musaned?&quot;</em> A licensed agency will answer without hesitation.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/driver-jobs-in-saudi-arabia-riyadh.jpg"
-         alt="Foreign driver at the wheel of a company van in front of the Riyadh skyline — driver jobs in Saudi Arabia for foreigners"
+         alt="Foreign driver at the wheel of a company van in front of the Riyadh skyline: driver jobs in Saudi Arabia for foreigners"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
 <h2>Types of Driver Jobs Available for Foreigners</h2>
 
 <h3>1. House and Private Drivers</h3>
-<p>Driving for one household or individual &mdash; school runs, shopping, family transport. This is the most-searched category, under phrases like <strong>house driver job in Saudi Arabia</strong> and <strong>family driver jobs in Saudi Arabia</strong>. Accommodation and meals are normally provided. Recruitment runs through Musaned, and the domestic worker rules above apply.</p>
+<p>Driving for one household or individual: school runs, shopping, family transport. This is the most-searched category, under phrases like <strong>house driver job in Saudi Arabia</strong> and <strong>family driver jobs in Saudi Arabia</strong>. Accommodation and meals are normally provided. Recruitment runs through Musaned, and the domestic worker rules above apply.</p>
 
 <h3>2. Delivery and Courier Drivers</h3>
 <p>The fastest-growing category. Food delivery and e-commerce across Riyadh and Jeddah run on cars and motorcycles, and pay is frequently a base salary plus per-order commission, which is why advertised ranges for <strong>delivery driver jobs in Saudi Arabia</strong> look wider than other roles. Ask what the base is on its own before counting the commission.</p>
@@ -199,7 +199,7 @@ JOBHTML;
 
 <h2>Driver Salary in Saudi Arabia for Foreigners</h2>
 
-<p>These are the ranges commonly advertised for foreign applicants. Treat them as a market picture, not a guarantee &mdash; pay varies by employer, city, experience and vehicle class:</p>
+<p>These are the ranges commonly advertised for foreign applicants. Treat them as a market picture, not a guarantee: pay varies by employer, city, experience and vehicle class:</p>
 
 <table>
     <thead>
@@ -228,14 +228,14 @@ JOBHTML;
     </tbody>
 </table>
 
-<p>Two things worth understanding about these numbers. First, <strong>Saudi Arabia has no statutory minimum wage for expatriate workers</strong> &mdash; the SAR 4,000 figure people quote is the threshold at which a Saudi national counts as a full employee for Saudization purposes, and it does not apply to you. Second, the base salary alone tells you very little. SAR 1,200 with free accommodation, meals, medical insurance and an annual return flight is a completely different offer from SAR 1,200 with none of those. Get the full package in writing, itemised.</p>
+<p>Two things worth understanding about these numbers. First, <strong>Saudi Arabia has no statutory minimum wage for expatriate workers</strong>: the SAR 4,000 figure people quote is the threshold at which a Saudi national counts as a full employee for Saudization purposes, and it does not apply to you. Second, the base salary alone tells you very little. SAR 1,200 with free accommodation, meals, medical insurance and an annual return flight is a completely different offer from SAR 1,200 with none of those. Get the full package in writing, itemised.</p>
 
 <h2>Visa Sponsorship: How It Actually Works</h2>
 
 <p>Almost all legitimate <strong>driver jobs in Saudi Arabia with visa sponsorship</strong> follow the same sequence. Knowing it is the fastest way to spot an agent who is inventing a shortcut:</p>
 
 <ol>
-    <li><strong>The employer obtains a visa authorisation</strong> (block visa) from the Ministry of Human Resources and Social Development. Without this, no visa exists to give you &mdash; whatever an agent claims.</li>
+    <li><strong>The employer obtains a visa authorisation</strong> (block visa) from the Ministry of Human Resources and Social Development. Without this, no visa exists to give you: whatever an agent claims.</li>
     <li><strong>The job goes to a licensed recruitment agency</strong> in your country, or the employer hires you directly.</li>
     <li><strong>You complete a medical examination</strong> at an approved GAMCA / Wafid centre, plus police clearance and document attestation.</li>
     <li><strong>The work visa is stamped</strong> at the Saudi embassy or consulate.</li>
@@ -244,7 +244,7 @@ JOBHTML;
 
 <p>There is also a fourth, faster route if you are already in the Kingdom: an <strong>Iqama transfer</strong> from one employer to another, which skips the overseas process entirely. This is why so many corporate listings say &quot;transferable Iqama required&quot;.</p>
 
-<h2>What a &quot;Free Visa&quot; Really Means &mdash; and Why It Is a Trap</h2>
+<h2>What a &quot;Free Visa&quot; Really Means: and Why It Is a Trap</h2>
 
 <p>You will see offers advertised as a <strong>Saudi Arabia house driver visa free</strong> arrangement, or an &quot;azad visa&quot;. Understand what is being sold: the arrangement is that you enter under one registered sponsor but work for whoever you like, usually after paying that sponsor a monthly amount. <strong>This is illegal in Saudi Arabia.</strong> Your residency stays tied to a sponsor you do not actually work for, which means:</p>
 
@@ -259,13 +259,13 @@ JOBHTML;
 <h2>Requirements for Foreign Driver Applicants</h2>
 
 <ul>
-    <li><strong>A valid driving licence</strong> &mdash; light vehicle for private, delivery and corporate work, heavy vehicle for trucks, trailers and buses.</li>
+    <li><strong>A valid driving licence</strong>: light vehicle for private, delivery and corporate work, heavy vehicle for trucks, trailers and buses.</li>
     <li><strong>A clean driving record</strong> with no serious traffic violations.</li>
     <li><strong>Basic English or Arabic</strong> for navigation, instructions and deliveries.</li>
     <li><strong>A passport</strong> valid for at least one more year.</li>
     <li><strong>A medical fitness certificate</strong> from an approved centre, required before the visa is issued.</li>
-    <li><strong>Experience</strong> &mdash; usually 1 to 7 years depending on the employer and vehicle class, with heavy vehicle roles demanding the most.</li>
-    <li><strong>Age</strong> &mdash; most employers advertise a range of roughly 20 to 45.</li>
+    <li><strong>Experience</strong>, usually 1 to 7 years depending on the employer and vehicle class, with heavy vehicle roles demanding the most.</li>
+    <li><strong>Age</strong>: most employers advertise a range of roughly 20 to 45.</li>
 </ul>
 
 <h2>Your Saudi Driving Licence</h2>
@@ -277,7 +277,7 @@ JOBHTML;
 <p>South Asia supplies the largest share of Saudi Arabia's foreign drivers, and demand for <strong>driving jobs in Saudi Arabia for Pakistani</strong> applicants in particular stays strong in logistics and private household work. The single most useful thing you can do is verify before you pay:</p>
 
 <ul>
-    <li><strong>Pakistan:</strong> use only an Overseas Employment Promoter licensed by the <strong>Bureau of Emigration and Overseas Employment</strong>, and check that the licence is current. The BEOE prescribes what an agency may charge &mdash; anything above that is not a service fee, it is an extraction.</li>
+    <li><strong>Pakistan:</strong> use only an Overseas Employment Promoter licensed by the <strong>Bureau of Emigration and Overseas Employment</strong>, and check that the licence is current. The BEOE prescribes what an agency may charge: anything above that is not a service fee, it is an extraction.</li>
     <li><strong>India:</strong> use a Recruiting Agent registered on the Ministry of External Affairs <strong>eMigrate</strong> system, and complete emigration clearance where it applies to you.</li>
     <li><strong>Bangladesh:</strong> use an agency registered with <strong>BMET</strong>, and keep your smart card and clearance documents.</li>
     <li><strong>All three:</strong> ask for the employer's name and the visa authorisation number, then confirm the employer exists rather than taking the agency's word for it. Keep every receipt.</li>
@@ -286,19 +286,19 @@ JOBHTML;
 <h2>Driver Jobs by City: Riyadh, Jeddah and Dammam</h2>
 
 <ul>
-    <li><strong>Riyadh</strong> &mdash; the capital, and the densest market for corporate, government-linked, private household and delivery driver roles.</li>
-    <li><strong>Jeddah</strong> &mdash; the Red Sea port city, strongest for logistics, port trucking, distribution and delivery work.</li>
-    <li><strong>Dammam</strong> and the Eastern Province &mdash; oil, gas and heavy industry, which makes it the centre of demand for heavy-duty, tanker and trailer drivers.</li>
+    <li><strong>Riyadh</strong>: the capital, and the densest market for corporate, government-linked, private household and delivery driver roles.</li>
+    <li><strong>Jeddah</strong>: the Red Sea port city, strongest for logistics, port trucking, distribution and delivery work.</li>
+    <li><strong>Dammam</strong> and the Eastern Province: oil, gas and heavy industry, which makes it the centre of demand for heavy-duty, tanker and trailer drivers.</li>
 </ul>
 
 <h2>What You Are Owed Once You Arrive</h2>
 
-<p>If your contract is under the Saudi Labour Law, these are not favours from your employer &mdash; they are the baseline:</p>
+<p>If your contract is under the Saudi Labour Law, these are not favours from your employer: they are the baseline:</p>
 
 <ul>
     <li><strong>Working hours</strong> of 8 a day or 48 a week, reduced to 6 a day for Muslim employees during Ramadan, with overtime paid above that.</li>
     <li><strong>Salary through the Wage Protection System</strong>, meaning a traceable bank transfer rather than cash.</li>
-    <li><strong>End-of-service benefit</strong> &mdash; broadly half a month's wage for each of your first five years and a full month's wage for each year after that.</li>
+    <li><strong>End-of-service benefit</strong>: broadly half a month's wage for each of your first five years and a full month's wage for each year after that.</li>
     <li><strong>A documented contract on Qiwa</strong> that you can view yourself. If your employer will not show it to you, that is a signal.</li>
     <li><strong>Your own passport.</strong> An employer holding your passport is not a normal condition of employment.</li>
 </ul>
@@ -307,11 +307,11 @@ JOBHTML;
 
 <ol>
     <li><strong>Update your CV</strong> with your licence category, exact years of experience, vehicle types driven and languages spoken. Licence class is the first thing a Gulf recruiter looks for.</li>
-    <li><strong>Search verified portals</strong> &mdash; Bayt, NaukriGulf, GulfTalent and Indeed all carry active Saudi driver listings.</li>
+    <li><strong>Search verified portals</strong>: Bayt, NaukriGulf, GulfTalent and Indeed all carry active Saudi driver listings.</li>
     <li><strong>Shortlist employers you can name and verify.</strong> Ignore unsolicited WhatsApp offers that ask for money up front; that pattern is the scam, not an unlucky version of the real thing.</li>
     <li><strong>Apply through the official portal or a licensed agency</strong>, never through an individual agent operating on their own.</li>
     <li><strong>Prepare for the interview</strong>, which for driving roles often includes a practical assessment.</li>
-    <li><strong>Complete medical and visa formalities</strong> once a written offer is confirmed &mdash; and read the contract type before signing.</li>
+    <li><strong>Complete medical and visa formalities</strong> once a written offer is confirmed, and read the contract type before signing.</li>
 </ol>
 
 <div style="text-align:center;margin:32px 0;">
@@ -380,25 +380,25 @@ JOBHTML;
 <p>Comparing driving and labour routes across countries? These cover the rest:</p>
 
 <ul>
-    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; EB-3 and H-2B routes and what CDL conversion involves.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; why most UK operative roles cannot be sponsored at all.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; where US sponsorship in the trades is genuinely open.</li>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; seasonal hospitality routes and how they are filled.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; driving work in Britain, and the insurance class most new couriers miss.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; another Gulf route, and how the basic salary split decides your gratuity.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; driving work in the US, and the employer hiding behind the name on the van.</li>
-    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; passenger driving in Canada, and the licence class each province asks for.</li>
-    <li><a href="/blog/kitchen-helper-jobs-in-saudi-arabia">Kitchen Helper Jobs in Saudi Arabia</a> &mdash; entry-level kitchen work, the referral wage floor and the health certificate it needs.</li>
+    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a>: EB-3 and H-2B routes and what CDL conversion involves.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: why most UK operative roles cannot be sponsored at all.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: where US sponsorship in the trades is genuinely open.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>: seasonal hospitality routes and how they are filled.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: driving work in Britain, and the insurance class most new couriers miss.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: another Gulf route, and how the basic salary split decides your gratuity.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: driving work in the US, and the employer hiding behind the name on the van.</li>
+    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a>: passenger driving in Canada, and the licence class each province asks for.</li>
+    <li><a href="/blog/kitchen-helper-jobs-in-saudi-arabia">Kitchen Helper Jobs in Saudi Arabia</a>: entry-level kitchen work, the referral wage floor and the health certificate it needs.</li>
     <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a></li>
-    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a> &mdash; which entry-level roles are still open to foreign workers, and what protects the wage.</li>
-    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; American commercial driving, its licence classes and the federal hours limits.</li>
-    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a> &mdash; the workshop side of the fleet, and the skills test before the visa.</li>
-    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a> &mdash; the heavy-vehicle specialism, the licence retest rule and long-haul pay.</li>
-    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a> &mdash; RTA licence types, whose licences can be exchanged, and the visa steps for drivers.</li>
-    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a> &mdash; the sponsorship route, Saudization limits and who legally pays your recruitment fee.</li>
+    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a>, which entry-level roles are still open to foreign workers, and what protects the wage.</li>
+    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a>: American commercial driving, its licence classes and the federal hours limits.</li>
+    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a>: the workshop side of the fleet, and the skills test before the visa.</li>
+    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a>: the heavy-vehicle specialism, the licence retest rule and long-haul pay.</li>
+    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a>: RTA licence types, whose licences can be exchanged, and the visa steps for drivers.</li>
+    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a>: the sponsorship route, Saudization limits and who legally pays your recruitment fee.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Saudi labour and visa rules change &mdash; confirm current requirements through the Ministry of Human Resources and Social Development, the Musaned and Qiwa platforms, or your own country's overseas employment authority before paying any fee or signing a contract.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Saudi labour and visa rules change: confirm current requirements through the Ministry of Human Resources and Social Development, the Musaned and Qiwa platforms, or your own country's overseas employment authority before paying any fee or signing a contract.</p>
 HTML;
     }
 }

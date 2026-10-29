@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Security Guard Jobs in UAE" — the Gulf companion to the Saudi security
+ * "Security Guard Jobs in UAE": the Gulf companion to the Saudi security
  * guide. Built around two facts the draft gets wrong or omits, both of which
  * cost a candidate real money.
  *
@@ -141,11 +141,11 @@ class SecurityGuardJobsUaeBlogSeeder extends Seeder
 <p>Malls, hotels, hospitals, residential communities, construction camps, free zones and logistics sites across the United Arab Emirates hire licensed security guards through manned guarding and facilities management companies. Most listings are open to candidates from South Asia and Africa, and the majority include visa sponsorship, accommodation and transport.</p>
 
 <h3>What the work involves</h3>
-<p>Access control, patrolling, CCTV monitoring, incident reporting, crowd and queue management, and escorting where the site requires it. The specialisation changes the day considerably &mdash; a hospital post, a mall post and a labour camp post are different jobs sharing a job title.</p>
+<p>Access control, patrolling, CCTV monitoring, incident reporting, crowd and queue management, and escorting where the site requires it. The specialisation changes the day considerably: a hospital post, a mall post and a labour camp post are different jobs sharing a job title.</p>
 
 <h3>Requirements</h3>
 <ul>
-    <li>A valid security licence <strong>for the emirate the site is in</strong> &mdash; SIRA for Dubai, PSBD for Abu Dhabi and the northern emirates</li>
+    <li>A valid security licence <strong>for the emirate the site is in</strong>: SIRA for Dubai, PSBD for Abu Dhabi and the northern emirates</li>
     <li>Prior security, military or police experience, typically one to five years depending on the role</li>
     <li>High school diploma or equivalent</li>
     <li>Medical fitness, and a certificate of good conduct or police clearance</li>
@@ -163,7 +163,7 @@ class SecurityGuardJobsUaeBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask for the basic-to-allowance split in writing, and ask which regulator licenses the site.</strong> Two offers with the same monthly total can differ substantially in what you leave with after several years, and a licence for the wrong emirate is money spent on a job you cannot take.</p>
 
-<p><strong>Note:</strong> salary, package structure, licensing responsibility and visa terms are set by each employer &mdash; not by JobGader. Be cautious of any agent asking you to pay to be placed. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> salary, package structure, licensing responsibility and visa terms are set by each employer, not by JobGader. Be cautious of any agent asking you to pay to be placed. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -185,15 +185,15 @@ JOBHTML;
 <p>Guides routinely say a SIRA card is "widely recognised across the UAE" and "preferred even where it isn't mandatory". That is not how the UAE regulates private security.</p>
 
 <ul>
-    <li><strong>SIRA</strong> &mdash; the Security Industry Regulatory Agency, established under <strong>Dubai Police</strong> &mdash; licenses private security companies and individual security personnel <strong>in the Emirate of Dubai</strong>.</li>
-    <li><strong>PSBD</strong> &mdash; the Private Security Business Department, a unit of <strong>Abu Dhabi Police</strong> under the Ministry of Interior &mdash; is the competent authority for <strong>Abu Dhabi, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah and Fujairah</strong>.</li>
+    <li><strong>SIRA</strong>, the Security Industry Regulatory Agency, established under <strong>Dubai Police</strong>, licenses private security companies and individual security personnel <strong>in the Emirate of Dubai</strong>.</li>
+    <li><strong>PSBD</strong>, the Private Security Business Department, a unit of <strong>Abu Dhabi Police</strong> under the Ministry of Interior, is the competent authority for <strong>Abu Dhabi, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah and Fujairah</strong>.</li>
 </ul>
 
 <p>They are separate regimes with separate examinations and separate cards, and <strong>a guard licensed under one cannot work in the other's territory.</strong></p>
 
 <p>Now read that against the guides themselves, which list current vacancies "across Dubai, Abu Dhabi, Sharjah and Ras Al Khaimah". <strong>Three of those four emirates are PSBD territory.</strong> A candidate who reads "get SIRA-ready" and pays for a SIRA course has prepared for one of the four markets on that list.</p>
 
-<p>So the first question about any UAE security vacancy is not what it pays. It is: <strong>which emirate is the site in, and which authority licenses it?</strong> Then match your training to the answer. If you are keeping options open across emirates, ask the employer directly which licence they will sponsor &mdash; because most reputable manned guarding and facilities companies do sponsor it as part of onboarding, which makes this a question to settle at interview rather than an expense to take on yourself.</p>
+<p>So the first question about any UAE security vacancy is not what it pays. It is: <strong>which emirate is the site in, and which authority licenses it?</strong> Then match your training to the answer. If you are keeping options open across emirates, ask the employer directly which licence they will sponsor, because most reputable manned guarding and facilities companies do sponsor it as part of onboarding, which makes this a question to settle at interview rather than an expense to take on yourself.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/security-guard-jobs-in-uae-sira.jpg"
@@ -238,7 +238,7 @@ Offer B: <strong>AED 1,200 basic plus AED 800 in allowances</strong>, same accom
 
 <h2>Getting Licensed, Step by Step</h2>
 
-<p>The process is similar under both regulators, and in both cases it is normally handled <strong>through a licensed security company rather than by you individually</strong> &mdash; which is why the licence question belongs at interview.</p>
+<p>The process is similar under both regulators, and in both cases it is normally handled <strong>through a licensed security company rather than by you individually</strong>, which is why the licence question belongs at interview.</p>
 
 <ol>
     <li><strong>Confirm the role category.</strong> Guard, event security, cash escort, CCTV operator and supervisor are licensed separately, and the training differs.</li>
@@ -249,7 +249,7 @@ Offer B: <strong>AED 1,200 basic plus AED 800 in allowances</strong>, same accom
     <li><strong>Submit through the employer</strong>, since licensing is tied to a licensed security company.</li>
 </ol>
 
-<p>Processing typically takes a few weeks once training and documents are complete. If an employer says they sponsor the licence, get that in writing alongside the salary &mdash; it is a real benefit worth naming.</p>
+<p>Processing typically takes a few weeks once training and documents are complete. If an employer says they sponsor the licence, get that in writing alongside the salary: it is a real benefit worth naming.</p>
 
 <h2>The Roles You Will Actually Meet</h2>
 
@@ -266,7 +266,7 @@ Offer B: <strong>AED 1,200 basic plus AED 800 in allowances</strong>, same accom
 
 <p>Recruitment for Gulf security work runs heavily through agents, and most are legitimate. A few are not, and the pattern is consistent enough to name.</p>
 
-<p><strong>Be extremely cautious of any agent asking you for money to be placed.</strong> Ask who bears the recruitment cost, get the answer in writing, and check that the employing company is a licensed security company under the authority for the emirate concerned &mdash; both regulators license the companies as well as the individuals, so the employer's own licence is verifiable.</p>
+<p><strong>Be extremely cautious of any agent asking you for money to be placed.</strong> Ask who bears the recruitment cost, get the answer in writing, and check that the employing company is a licensed security company under the authority for the emirate concerned: both regulators license the companies as well as the individuals, so the employer's own licence is verifiable.</p>
 
 <p>Ask specifically: who pays for the licence and training, who pays for the visa and medical, what the accommodation is and how many share a room, and whether transport to site is provided or deducted. Those five answers describe the job far better than the salary does. Our <a href="/blog/security-guard-jobs-in-saudi-arabia">security guard jobs in Saudi Arabia guide</a> covers the same questions under the Saudi system, where the sponsorship rules work differently.</p>
 
@@ -291,7 +291,7 @@ Offer B: <strong>AED 1,200 basic plus AED 800 in allowances</strong>, same accom
 <p>Many larger facilities management and manned guarding companies sponsor it as part of onboarding. Confirm it at interview and get it in writing rather than paying out of pocket first.</p>
 
 <h3>Do security guard jobs in the UAE include visa and accommodation?</h3>
-<p>Commonly yes &mdash; employment visa, shared accommodation, transport to site and medical insurance are frequently included. Ask specifically how many share a room and whether transport is provided or deducted.</p>
+<p>Commonly yes: employment visa, shared accommodation, transport to site and medical insurance are frequently included. Ask specifically how many share a room and whether transport is provided or deducted.</p>
 
 <h3>What working hours should I expect?</h3>
 <p>Manned guarding commonly runs twelve-hour shifts. A monthly salary quoted against a twelve-hour day is a very different rate from the same figure against eight hours, so ask about shift length, days off and how overtime is treated.</p>
@@ -302,7 +302,7 @@ Offer B: <strong>AED 1,200 basic plus AED 800 in allowances</strong>, same accom
 <p>SIRA territory. The largest single market, concentrated in malls, hotels and towers.</p>
 
 <h3>SIRA licence requirements</h3>
-<p>Residency and Emirates ID, good conduct and medical certificates, approved training, and a written and practical exam &mdash; normally submitted through the employer.</p>
+<p>Residency and Emirates ID, good conduct and medical certificates, approved training, and a written and practical exam: normally submitted through the employer.</p>
 
 <h3>PSBD licence Abu Dhabi</h3>
 <p>The authority for Abu Dhabi, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah and Fujairah. A separate card from SIRA.</p>
@@ -327,23 +327,23 @@ Offer B: <strong>AED 1,200 basic plus AED 800 in allowances</strong>, same accom
 <p>Comparing Gulf routes and other markets? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a> &mdash; the same trade under the Saudi Labour Law and sponsorship system.</li>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; another Gulf route, and how Musaned processing really works.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; site work on a sponsored Gulf contract.</li>
-    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a> &mdash; the same package questions applied to cleaning contracts.</li>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; a non-Gulf route where the pay floor is set by law.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; British entry-level work and what self-employed really costs.</li>
-    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; the European industrial route and its visa requirements.</li>
-    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; office work at home instead of a Gulf contract.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; front-desk work under the same labour law, and the free zone that runs a different one.</li>
-    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a> &mdash; a graduate route into the Emirates, and the tax deadlines driving its hiring.</li>
-    <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a> &mdash; shift and on-call IT work, and what the law says about overtime and air tickets.</li>
-    <li><a href="/blog/security-specialist-jobs-in-uae">Security Specialist Jobs in UAE</a> &mdash; the step above guarding, and the certifications cybersecurity roles need.</li>
-    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a> &mdash; RTA licence types, whose licences can be exchanged, and the visa steps for drivers.</li>
-    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; the height and reach rules, what Emirates publishes on pay, and how the Open Day works.</li>
-    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; another sponsored Gulf route, in Oman rather than the UAE.</li>
-    <li><a href="/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs">How to Apply for Kuwait Airways Cabin Crew Jobs</a> &mdash; the Gulf carrier whose careers portal most guides cannot find.</li>
-    <li><a href="/blog/how-to-apply-for-dp-world-port-jobs-in-uae">How to Apply for DP World Port Jobs in UAE</a> &mdash; UAE gratuity, the free zone sponsor trap and how to check an offer is real.</li>
+    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a>: the same trade under the Saudi Labour Law and sponsorship system.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: another Gulf route, and how Musaned processing really works.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: site work on a sponsored Gulf contract.</li>
+    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a>: the same package questions applied to cleaning contracts.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: a non-Gulf route where the pay floor is set by law.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: British entry-level work and what self-employed really costs.</li>
+    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a>: the European industrial route and its visa requirements.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a>: office work at home instead of a Gulf contract.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: front-desk work under the same labour law, and the free zone that runs a different one.</li>
+    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a>: a graduate route into the Emirates, and the tax deadlines driving its hiring.</li>
+    <li><a href="/blog/system-administrator-jobs-in-uae">System Administrator Jobs in UAE</a>: shift and on-call IT work, and what the law says about overtime and air tickets.</li>
+    <li><a href="/blog/security-specialist-jobs-in-uae">Security Specialist Jobs in UAE</a>: the step above guarding, and the certifications cybersecurity roles need.</li>
+    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a>: RTA licence types, whose licences can be exchanged, and the visa steps for drivers.</li>
+    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a>: the height and reach rules, what Emirates publishes on pay, and how the Open Day works.</li>
+    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a>: another sponsored Gulf route, in Oman rather than the UAE.</li>
+    <li><a href="/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs">How to Apply for Kuwait Airways Cabin Crew Jobs</a>: the Gulf carrier whose careers portal most guides cannot find.</li>
+    <li><a href="/blog/how-to-apply-for-dp-world-port-jobs-in-uae">How to Apply for DP World Port Jobs in UAE</a>: UAE gratuity, the free zone sponsor trap and how to check an offer is real.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or financial advice. Licensing rules, labour law provisions and salary levels change, and figures on any job board are a moving average rather than a statistic. Confirm the current position with SIRA or the Private Security Business Department as applicable, and with the employer's own advertisement, before applying or paying for any training.</p>

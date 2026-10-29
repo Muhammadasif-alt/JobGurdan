@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Azure Cloud Engineer Jobs in USA" — the second platform companion to the
+ * "Azure Cloud Engineer Jobs in USA": the second platform companion to the
  * cloud engineer guide, which stays the pillar. Covers only what is true of
  * Azure specifically so it does not compete with the pillar or with the AWS
  * guide for the same query.
@@ -144,9 +144,9 @@ class AzureCloudEngineerJobsUsaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li>Real operational experience &mdash; systems you have run under load, not only built</li>
+    <li>Real operational experience: systems you have run under load, not only built</li>
     <li>Core Azure: virtual machines, storage, networking, and Entra ID in depth</li>
-    <li>Hybrid identity and networking &mdash; site-to-site VPN, ExpressRoute, DNS, firewalls</li>
+    <li>Hybrid identity and networking: site-to-site VPN, ExpressRoute, DNS, firewalls</li>
     <li>Infrastructure as code, Terraform or Bicep, treated as software rather than as scripts</li>
     <li>Governance, compliance and cost management, which enterprises weight heavily</li>
     <li>PowerShell, and enough Python or Bash to automate anything done twice</li>
@@ -154,22 +154,22 @@ class AzureCloudEngineerJobsUsaBlogSeeder extends Seeder
 
 <h3>How the pay is structured</h3>
 <ul>
-    <li><strong>There is no federal figure for this title,</strong> and the published averages disagree sharply &mdash; $169,202 from one source, $145,221 from another, for the same job title</li>
+    <li><strong>There is no federal figure for this title,</strong> and the published averages disagree sharply: $169,202 from one source, $145,221 from another, for the same job title</li>
     <li><strong>The measured anchors</strong> are network and computer systems administrators at a $99,130 median, computer network architects at $134,050, and software developers at $135,980</li>
     <li><strong>Check what share of the role is Microsoft 365 tenant administration.</strong> That work is real and needed, and it is counted and paid as administration rather than engineering</li>
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Read the job description for the split.</strong> A title of "Cloud Engineer (Azure / M365 / Infrastructure)" is describing at least two jobs. Ask in the first interview what proportion of the week is tenant administration, licensing and user support versus infrastructure design &mdash; the answer sets the band and the next role you can reach from it.</p>
+<p><strong>Read the job description for the split.</strong> A title of "Cloud Engineer (Azure / M365 / Infrastructure)" is describing at least two jobs. Ask in the first interview what proportion of the week is tenant administration, licensing and user support versus infrastructure design: the answer sets the band and the next role you can reach from it.</p>
 
-<p><strong>Note:</strong> pay, on-call expectations, clearance requirements and any sponsorship decision are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, on-call expectations, clearance requirements and any sponsorship decision are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Microsoft Azure is the second major cloud platform in the United States and the first one in a great many of the organisations most likely to hire you: banks, insurers, health systems, manufacturers, universities and government contractors that were Microsoft customers long before any of this moved to the cloud. That shapes the work, and it shapes two things about these job advertisements that nobody warns you about &mdash; what the published salary figures are worth, and how much of the job is not engineering at all.</p>
+<p>Microsoft Azure is the second major cloud platform in the United States and the first one in a great many of the organisations most likely to hire you: banks, insurers, health systems, manufacturers, universities and government contractors that were Microsoft customers long before any of this moved to the cloud. That shapes the work, and it shapes two things about these job advertisements that nobody warns you about: what the published salary figures are worth, and how much of the job is not engineering at all.</p>
 
 <p>If you are still choosing a platform, our <a href="/blog/cloud-engineer-jobs-in-usa">cloud engineer jobs in USA guide</a> covers the occupation as a whole and our <a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS cloud engineer guide</a> covers the other side. This page assumes you have picked Azure.</p>
 
@@ -183,19 +183,19 @@ JOBHTML;
 
 <p>Here is the state of published salary data for this exact job title. Glassdoor puts the average Azure cloud engineer salary at <strong>$169,202</strong> a year. Salary.com puts it at <strong>$145,221</strong>.</p>
 
-<p>Those are both described as national averages for the same title, and they are <strong>$23,981 apart</strong> &mdash; a gap wider than the entire distance between the median network administrator and the median network architect in the federal wage data. Both cannot be right, and the disagreement is the finding.</p>
+<p>Those are both described as national averages for the same title, and they are <strong>$23,981 apart</strong>: a gap wider than the entire distance between the median network administrator and the median network architect in the federal wage data. Both cannot be right, and the disagreement is the finding.</p>
 
 <p>It happens because neither is a measurement. Both are models built on self-reported submissions, and they differ in who submits, which job titles get folded in, and how seniority is weighted. Quote either at an interview and you are quoting a sample of strangers, not a market rate.</p>
 
 <p>The measured figures come from the Bureau of Labor Statistics, which has no cloud engineer occupation. The work is counted under three:</p>
 
 <ul>
-    <li><strong>Network and computer systems administrators</strong> &mdash; a <strong>$99,130 median</strong>, the lowest tenth under <strong>$62,640</strong> and the highest tenth above <strong>$155,050</strong>.</li>
-    <li><strong>Computer network architects</strong> &mdash; a <strong>$134,050 median</strong>, the highest tenth above <strong>$202,680</strong>.</li>
-    <li><strong>Software developers</strong> &mdash; a <strong>$135,980 median</strong>, the highest tenth above <strong>$214,670</strong>.</li>
+    <li><strong>Network and computer systems administrators</strong>: a <strong>$99,130 median</strong>, the lowest tenth under <strong>$62,640</strong> and the highest tenth above <strong>$155,050</strong>.</li>
+    <li><strong>Computer network architects</strong>: a <strong>$134,050 median</strong>, the highest tenth above <strong>$202,680</strong>.</li>
+    <li><strong>Software developers</strong>: a <strong>$135,980 median</strong>, the highest tenth above <strong>$214,670</strong>.</li>
 </ul>
 
-<p>That also gives the entry-level figure some meaning. Junior Azure roles are advertised from around <strong>$79,800</strong>, often with a cost-of-living adjustment for Los Angeles, New York, San Francisco, Seattle and Washington DC. Against a tenth percentile of $62,640 for the administrator occupation, that is a sound starting number rather than a disappointing one &mdash; it is above the bottom of the band the work is counted in.</p>
+<p>That also gives the entry-level figure some meaning. Junior Azure roles are advertised from around <strong>$79,800</strong>, often with a cost-of-living adjustment for Los Angeles, New York, San Francisco, Seattle and Washington DC. Against a tenth percentile of $62,640 for the administrator occupation, that is a sound starting number rather than a disappointing one: it is above the bottom of the band the work is counted in.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/azure-cloud-engineer-jobs-in-usa-hybrid.jpg"
@@ -209,13 +209,13 @@ JOBHTML;
 
 <p>Those titles are describing <strong>at least two different jobs</strong>, and the ratio between them is not in the advertisement.</p>
 
-<p>Microsoft 365 tenant administration &mdash; licences, mailboxes, Teams policies, SharePoint permissions, user support escalations &mdash; is real work that organisations genuinely need. It is also, on every wage table that exists, <strong>administration rather than engineering</strong>, and it sits at the $99,130 end of the range rather than the $134,050 end. This bundling happens on Azure far more than on AWS, for the obvious reason: the same vendor sells both, so the same team ends up owning both.</p>
+<p>Microsoft 365 tenant administration, licences, mailboxes, Teams policies, SharePoint permissions, user support escalations, is real work that organisations genuinely need. It is also, on every wage table that exists, <strong>administration rather than engineering</strong>, and it sits at the $99,130 end of the range rather than the $134,050 end. This bundling happens on Azure far more than on AWS, for the obvious reason: the same vendor sells both, so the same team ends up owning both.</p>
 
 <p>Two consequences worth planning around.</p>
 
 <p><strong>It sets your pay band.</strong> A role that is 70 per cent tenant administration will be priced as administration no matter what the title says, and the published averages above will feel wildly optimistic when your offer arrives.</p>
 
-<p><strong>It sets what you can do next.</strong> Three years of M365 administration is a weaker platform for reaching an architecture role than three years of infrastructure design, because the interview for the next job asks what you designed and why. This is the mechanism behind the career ladder every Azure guide describes &mdash; junior engineer to engineer to senior to architect &mdash; quietly stalling for people who never got the infrastructure half.</p>
+<p><strong>It sets what you can do next.</strong> Three years of M365 administration is a weaker platform for reaching an architecture role than three years of infrastructure design, because the interview for the next job asks what you designed and why. This is the mechanism behind the career ladder every Azure guide describes, junior engineer to engineer to senior to architect, quietly stalling for people who never got the infrastructure half.</p>
 
 <p>The fix costs one question. <strong>Ask, in the first interview, what proportion of the week is Microsoft 365 administration and user support versus infrastructure design and automation.</strong> It is an entirely reasonable question, the answer is usually honest, and it tells you more about the offer than any salary survey will.</p>
 
@@ -224,15 +224,15 @@ JOBHTML;
 <p>Azure guides list four exams as though you could pick any of them: <strong>AZ-104, AZ-400, AZ-305 and AZ-500</strong>. You cannot, and Microsoft enforces the order.</p>
 
 <ul>
-    <li><strong>AZ-104 &mdash; Azure Administrator Associate.</strong> The foundation of the whole path and, in practice, the one most Azure postings actually name. No prerequisite.</li>
-    <li><strong>AZ-500 &mdash; Azure Security Engineer Associate.</strong> Also associate level, no prerequisite certification. The security specialisation.</li>
-    <li><strong>AZ-305 &mdash; Azure Solutions Architect Expert.</strong> <strong>Requires the Azure Administrator Associate certification first.</strong> Microsoft will not award the Expert credential without it.</li>
-    <li><strong>AZ-400 &mdash; DevOps Engineer Expert.</strong> <strong>Requires either the Azure Administrator Associate or the Azure Developer Associate.</strong></li>
+    <li><strong>AZ-104: Azure Administrator Associate.</strong> The foundation of the whole path and, in practice, the one most Azure postings actually name. No prerequisite.</li>
+    <li><strong>AZ-500: Azure Security Engineer Associate.</strong> Also associate level, no prerequisite certification. The security specialisation.</li>
+    <li><strong>AZ-305: Azure Solutions Architect Expert.</strong> <strong>Requires the Azure Administrator Associate certification first.</strong> Microsoft will not award the Expert credential without it.</li>
+    <li><strong>AZ-400: DevOps Engineer Expert.</strong> <strong>Requires either the Azure Administrator Associate or the Azure Developer Associate.</strong></li>
 </ul>
 
 <p>So the real sequence for an infrastructure career is <strong>AZ-104 first</strong>, then AZ-305 if you are heading towards architecture, AZ-400 if you are heading towards delivery, or AZ-500 if you are heading towards security. That is two exams and a real gap of experience between them, not a shopping list you work through in a quarter.</p>
 
-<p>This is worth knowing because it is not how every vendor works. <a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS removed its exam prerequisites in 2018</a>, so nothing there stops you booking a Professional paper on day one &mdash; a different problem with the same root. Kubernetes goes the other way and gates CKS behind an active CKA, as covered in our <a href="/blog/cybersecurity-engineer-jobs-in-usa">cybersecurity engineer guide</a>. Treat any course selling an "Azure architect certification" without mentioning AZ-104 as a signal about the course.</p>
+<p>This is worth knowing because it is not how every vendor works. <a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS removed its exam prerequisites in 2018</a>, so nothing there stops you booking a Professional paper on day one: a different problem with the same root. Kubernetes goes the other way and gates CKS behind an active CKA, as covered in our <a href="/blog/cybersecurity-engineer-jobs-in-usa">cybersecurity engineer guide</a>. Treat any course selling an "Azure architect certification" without mentioning AZ-104 as a signal about the course.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/azure-cloud-engineer-jobs-in-usa-identity.jpg"
@@ -270,14 +270,14 @@ JOBHTML;
 <h2>Skills That Keep Recurring in Listings</h2>
 
 <ul>
-    <li><strong>Core Azure</strong> &mdash; virtual machines, storage, virtual networks, and the governance layer enterprises care about.</li>
+    <li><strong>Core Azure</strong>: virtual machines, storage, virtual networks, and the governance layer enterprises care about.</li>
     <li><strong>Entra ID and hybrid identity</strong>, the most underrated line in these advertisements.</li>
     <li><strong>Microsoft 365 administration</strong>, present in a large share of postings. Know whether you are taking it on.</li>
-    <li><strong>Networking fundamentals</strong> &mdash; DNS, VPN, ExpressRoute, firewalls &mdash; because the on-premise side does not disappear.</li>
+    <li><strong>Networking fundamentals</strong>, DNS, VPN, ExpressRoute, firewalls, because the on-premise side does not disappear.</li>
     <li><strong>Infrastructure as code</strong>, Terraform or Bicep, and PowerShell for everything Microsoft.</li>
     <li><strong>Compliance and governance</strong>, weighted more heavily here than in AWS-native shops.</li>
     <li><strong>Multi-cloud exposure</strong>, usually Azure plus AWS, which enterprises increasingly ask for outright.</li>
-    <li><strong>Cost management</strong> &mdash; last on their list, first on your promotion case.</li>
+    <li><strong>Cost management</strong>: last on their list, first on your promotion case.</li>
 </ul>
 
 <h2>Where the Jobs Are</h2>
@@ -289,7 +289,7 @@ JOBHTML;
 <h2>Frequently Asked Questions</h2>
 
 <h3>How much do Azure cloud engineers make in the USA?</h3>
-<p>Published averages disagree sharply &mdash; $169,202 from Glassdoor and $145,221 from Salary.com for the same title, $23,981 apart. Neither is a measurement. The federal medians for the occupations this work is counted under are $99,130, $134,050 and $135,980.</p>
+<p>Published averages disagree sharply: $169,202 from Glassdoor and $145,221 from Salary.com for the same title, $23,981 apart. Neither is a measurement. The federal medians for the occupations this work is counted under are $99,130, $134,050 and $135,980.</p>
 
 <h3>Do I need AZ-104 before AZ-305?</h3>
 <p>Yes. Microsoft requires the Azure Administrator Associate certification before awarding the Azure Solutions Architect Expert credential. AZ-400 requires either the Administrator or the Developer Associate. AZ-500 is associate level and has no certification prerequisite.</p>
@@ -343,14 +343,14 @@ JOBHTML;
 <p>Comparing platforms and routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a> &mdash; the occupation as a whole, and the declining job title that feeds it.</li>
-    <li><a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS Cloud Engineer Jobs in USA</a> &mdash; the other major platform, its missing certification gate, and the difference between GovCloud eligibility and a clearance.</li>
-    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a> &mdash; the networking half of hybrid work, and the $34,920 between running a network and designing one.</li>
-    <li><a href="/blog/devops-engineer-jobs-in-usa">DevOps Engineer Jobs in USA</a> &mdash; the delivery half of platform work, and the four measures senior interviews run on.</li>
-    <li><a href="/blog/cybersecurity-engineer-jobs-in-usa">Cybersecurity Engineer Jobs in USA</a> &mdash; the security specialisation, and the Kubernetes certification ordering trap.</li>
-    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; the clearance rules in full.</li>
-    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; the best-paid of the three occupations this work is counted under.</li>
-    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the automation language that carries most of this job.</li>
+    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a>: the occupation as a whole, and the declining job title that feeds it.</li>
+    <li><a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS Cloud Engineer Jobs in USA</a>: the other major platform, its missing certification gate, and the difference between GovCloud eligibility and a clearance.</li>
+    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a>: the networking half of hybrid work, and the $34,920 between running a network and designing one.</li>
+    <li><a href="/blog/devops-engineer-jobs-in-usa">DevOps Engineer Jobs in USA</a>: the delivery half of platform work, and the four measures senior interviews run on.</li>
+    <li><a href="/blog/cybersecurity-engineer-jobs-in-usa">Cybersecurity Engineer Jobs in USA</a>: the security specialisation, and the Kubernetes certification ordering trap.</li>
+    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a>: the clearance rules in full.</li>
+    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a>: the best-paid of the three occupations this work is counted under.</li>
+    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a>: the automation language that carries most of this job.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, employment projections, certification requirements and prerequisites change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics, Microsoft Learn and the employer's own advertisement before applying or paying for any course.</p>

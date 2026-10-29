@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Visa Sponsorship Jobs in Canada" — employer-supported work permits across
+ * "Visa Sponsorship Jobs in Canada": employer-supported work permits across
  * sectors. The welder, bus driver and farm worker guides cover single
  * occupations, so this one owns how the LMIA and its exemptions work, where
  * ESDC actually approves positions, the 2026 limits, the language rules and
@@ -145,7 +145,7 @@ class VisaSponsorshipJobsCanadaBlogSeeder extends Seeder
 <h3>Requirements</h3>
 <ul>
     <li>A genuine job offer from an employer with a positive LMIA, or an LMIA-exempt route such as an intra-company transfer</li>
-    <li>The qualifications and any licence the job needs &mdash; nurses must register with a provincial regulator</li>
+    <li>The qualifications and any licence the job needs: nurses must register with a provincial regulator</li>
     <li>No set language test for an LMIA work permit, though permanent residence programs require one</li>
 </ul>
 
@@ -158,7 +158,7 @@ class VisaSponsorshipJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for an LMIA or a job offer.</strong> The employer cannot charge or recover the LMIA fee or any recruitment fee from you, and IRCC says no one can guarantee you a job or a visa.</p>
 
-<p><strong>Note:</strong> LMIA decisions, wages and work permit eligibility are set by employers, ESDC and IRCC &mdash; not by JobGader. Confirm the details on canada.ca before applying.</p>
+<p><strong>Note:</strong> LMIA decisions, wages and work permit eligibility are set by employers, ESDC and IRCC, not by JobGader. Confirm the details on canada.ca before applying.</p>
 JOBHTML;
     }
 
@@ -190,7 +190,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Permanent residents:</strong> <strong>380,000</strong> a year from 2026 to 2028</li>
-    <li><strong>New temporary workers in 2026:</strong> 230,000 &mdash; 170,000 through the International Mobility Program and <strong>60,000</strong> through the Temporary Foreign Worker Program, falling to 50,000 in 2027</li>
+    <li><strong>New temporary workers in 2026:</strong> 230,000: 170,000 through the International Mobility Program and <strong>60,000</strong> through the Temporary Foreign Worker Program, falling to 50,000 in 2027</li>
 </ul>
 
 <h2>Where Sponsored Jobs Really Are: ESDC's Data</h2>
@@ -358,24 +358,24 @@ JOBHTML;
 <p>Looking at a specific sponsored job in Canada? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a> &mdash; the same mechanics under the UK sponsor licence system.</li>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the most-approved LMIA jobs, and which farm program you can use.</li>
-    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; a skilled trade route, and why most welder LMIAs are low-wage.</li>
-    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; the licence class each province requires, and the rules for foreign drivers.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; an entry-level Canadian job priced by the provincial minimum wage.</li>
-    <li><a href="/blog/ats-resume-writer-jobs-in-canada">ATS Resume Writer Jobs in Canada</a> &mdash; how Canadian applicant tracking systems read what you send.</li>
-    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; another sponsored nursing route, and why the exam is not the licence.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; how employer sponsorship actually works, and which occupation list applies.</li>
-    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a> &mdash; how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
-    <li><a href="/blog/janitor-jobs-in-canada">Janitor Jobs in Canada</a> &mdash; a TEER 5 job where every LMIA is low-wage and Express Entry does not apply.</li>
-    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a> &mdash; a TEER 3 health job that is not in the Express Entry health care category.</li>
-    <li><a href="/blog/recruiter-jobs-in-canada">Recruiter Jobs in Canada</a> &mdash; the hiring side, including Ontario's licence for recruiting for a fee.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; what changed in 2026, which sectors hire, and how the LMIA and scams work.</li>
-    <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a> &mdash; the allied-health route, its provincial registration and pay.</li>
-    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a> &mdash; federal CSC versus provincial jails, who can apply, training and Job Bank pay.</li>
-    <li><a href="/blog/preschool-teacher-jobs-in-canada">Preschool Teacher Jobs in Canada</a> &mdash; early childhood educator qualifications, provincial registration, wages and how internationally trained educators get recognised.</li>
-    <li><a href="/blog/finance-analyst-jobs-in-canada">Finance Analyst Jobs in Canada</a> &mdash; the $43.27 Job Bank median, degree and CFA rules, and where the big banks hire.</li>
-    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a> &mdash; an airline that publishes its ramp pay, and the clearance that gates it.</li>
+    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a>: the same mechanics under the UK sponsor licence system.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: the most-approved LMIA jobs, and which farm program you can use.</li>
+    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a>: a skilled trade route, and why most welder LMIAs are low-wage.</li>
+    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a>: the licence class each province requires, and the rules for foreign drivers.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: an entry-level Canadian job priced by the provincial minimum wage.</li>
+    <li><a href="/blog/ats-resume-writer-jobs-in-canada">ATS Resume Writer Jobs in Canada</a>: how Canadian applicant tracking systems read what you send.</li>
+    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a>: another sponsored nursing route, and why the exam is not the licence.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>: how employer sponsorship actually works, and which occupation list applies.</li>
+    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a>: how Canada classifies QA work, and why the quoted salary band misses both ends.</li>
+    <li><a href="/blog/janitor-jobs-in-canada">Janitor Jobs in Canada</a>: a TEER 5 job where every LMIA is low-wage and Express Entry does not apply.</li>
+    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a>: a TEER 3 health job that is not in the Express Entry health care category.</li>
+    <li><a href="/blog/recruiter-jobs-in-canada">Recruiter Jobs in Canada</a>: the hiring side, including Ontario's licence for recruiting for a fee.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: what changed in 2026, which sectors hire, and how the LMIA and scams work.</li>
+    <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a>: the allied-health route, its provincial registration and pay.</li>
+    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a>: federal CSC versus provincial jails, who can apply, training and Job Bank pay.</li>
+    <li><a href="/blog/preschool-teacher-jobs-in-canada">Preschool Teacher Jobs in Canada</a>: early childhood educator qualifications, provincial registration, wages and how internationally trained educators get recognised.</li>
+    <li><a href="/blog/finance-analyst-jobs-in-canada">Finance Analyst Jobs in Canada</a>: the $43.27 Job Bank median, degree and CFA rules, and where the big banks hire.</li>
+    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a>: an airline that publishes its ramp pay, and the clearance that gates it.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. LMIA rules, wage thresholds, unemployment lists and immigration targets change often. Confirm the current position with ESDC and IRCC on canada.ca, or a licensed immigration consultant, before applying or paying any fee.</p>

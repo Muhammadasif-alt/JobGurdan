@@ -2,15 +2,15 @@
 @php
     /*
      * The old title repeated the category name twice and claimed "in the USA",
-     * which ran every one of these past 60 characters — Google was truncating
-     * all of them — and was wrong now that the board lists other countries.
+     * which ran every one of these past 60 characters: Google was truncating
+     * all of them, and was wrong now that the board lists other countries.
      * The short form is used whenever the counted form would still overflow.
      */
     $catPage = $jobs->currentPage();
     $catFirst = $catPage === 1;
     $catSuffix = $catFirst ? '' : ', Page '.$catPage;
 
-    $catTitle = $category->name.' Jobs'.$catSuffix.' — '.number_format($jobs->total()).' Openings | JobGader';
+    $catTitle = $category->name.' Jobs'.$catSuffix.': '.number_format($jobs->total()).' Openings | JobGader';
     if (mb_strlen($catTitle) > 60) {
         $catTitle = $category->name.' Jobs'.$catSuffix.' | JobGader';
     }
@@ -60,7 +60,7 @@
 @section('content')
 
 <style>
-    /* === Hero — light brand gradient with dark accents === */
+    /* === Hero: light brand gradient with dark accents === */
     .cat-hero {
         position: relative;
         padding: 80px 0 70px;
@@ -482,7 +482,7 @@
 
                 @if($jobs->isEmpty())
                     <div class="cat-sidebar" style="text-align:center;padding:40px 20px;">
-                        <p style="margin:0;color:#666;">No jobs found in this category yet. Please check back soon — we add new listings every day.</p>
+                        <p style="margin:0;color:#666;">No jobs found in this category yet. Please check back soon: we add new listings every day.</p>
                     </div>
                 @else
                     <div class="cat-job-grid">

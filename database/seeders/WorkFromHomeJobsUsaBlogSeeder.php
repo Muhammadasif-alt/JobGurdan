@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Work From Home Jobs in USA" — the money and rights side of working from
+ * "Work From Home Jobs in USA": the money and rights side of working from
  * home for an American employer or client. The remote jobs guide owns the
  * telework rate, the I-9 and who a US remote job is open to; this one owns
  * BLS pay for the categories people search for, W-2 versus 1099 work and the
@@ -159,7 +159,7 @@ class WorkFromHomeJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for training, equipment or access to work,</strong> and confirm whether the role is W-2 employment or 1099 contract work.</p>
 
-<p><strong>Note:</strong> pay, classification and equipment policies are set by employers under federal and state law &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, classification and equipment policies are set by employers under federal and state law, not by JobGader. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 
@@ -268,14 +268,14 @@ JOBHTML;
 <h2>Popular Work From Home Job Categories</h2>
 
 <ul>
-    <li><strong>Customer service and support</strong> &mdash; phone, chat and email support, often hourly with scheduled shifts</li>
-    <li><strong>Administrative and virtual assistant work</strong> &mdash; scheduling, inbox and document support</li>
-    <li><strong>Medical coding and billing</strong> &mdash; usually needs a coding credential and experience</li>
-    <li><strong>Sales and account management</strong> &mdash; inside sales with base pay plus commission</li>
-    <li><strong>Writing, editing and marketing</strong> &mdash; often contract work paid per project</li>
-    <li><strong>IT, software and QA</strong> &mdash; the highest-paid remote category</li>
-    <li><strong>Tutoring and online teaching</strong> &mdash; often part-time or contract</li>
-    <li><strong>Bookkeeping and accounting</strong> &mdash; W-2 and freelance roles</li>
+    <li><strong>Customer service and support</strong>: phone, chat and email support, often hourly with scheduled shifts</li>
+    <li><strong>Administrative and virtual assistant work</strong>: scheduling, inbox and document support</li>
+    <li><strong>Medical coding and billing</strong>, usually needs a coding credential and experience</li>
+    <li><strong>Sales and account management</strong>: inside sales with base pay plus commission</li>
+    <li><strong>Writing, editing and marketing</strong>, often contract work paid per project</li>
+    <li><strong>IT, software and QA</strong>: the highest-paid remote category</li>
+    <li><strong>Tutoring and online teaching</strong>, often part-time or contract</li>
+    <li><strong>Bookkeeping and accounting</strong>: W-2 and freelance roles</li>
 </ul>
 
 <h2>Where to Find Legitimate Work From Home Jobs</h2>
@@ -354,15 +354,15 @@ JOBHTML;
 <p>Comparing remote and office jobs? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a> &mdash; how many Americans telework, the I-9 and who remote jobs are open to.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; the most common home-based job, in detail.</li>
-    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; what data entry pays and how the work is changing.</li>
-    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; remote IT support and the certifications it asks for.</li>
-    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a> &mdash; the UK version, with flexible working rights.</li>
-    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; one of the most common remote categories, with BLS pay and the real outlook.</li>
-    <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a> &mdash; one of the most common work-from-home roles, its real pay and its scams.</li>
-    <li><a href="/blog/how-to-get-a-remote-customer-service-job-with-no-experience">How to Get a Remote Customer Service Job With No Experience</a> &mdash; what US remote employers really ask for, official pay data and the scams aimed at beginners.</li>
-    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a> &mdash; what tutors earn, what Wyzant, Varsity Tutors, Sylvan, Huntington and Kumon require, and the fees and tax to expect.</li>
+    <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a>: how many Americans telework, the I-9 and who remote jobs are open to.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: the most common home-based job, in detail.</li>
+    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a>: what data entry pays and how the work is changing.</li>
+    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a>: remote IT support and the certifications it asks for.</li>
+    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a>: the UK version, with flexible working rights.</li>
+    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a>: one of the most common remote categories, with BLS pay and the real outlook.</li>
+    <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a>: one of the most common work-from-home roles, its real pay and its scams.</li>
+    <li><a href="/blog/how-to-get-a-remote-customer-service-job-with-no-experience">How to Get a Remote Customer Service Job With No Experience</a>: what US remote employers really ask for, official pay data and the scams aimed at beginners.</li>
+    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a>: what tutors earn, what Wyzant, Varsity Tutors, Sylvan, Huntington and Kumon require, and the fees and tax to expect.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage data, tax thresholds, reimbursement rules and scam patterns change and differ by state. Confirm the current position with the IRS, the Department of Labor, your state labor agency and the FTC before accepting work.</p>

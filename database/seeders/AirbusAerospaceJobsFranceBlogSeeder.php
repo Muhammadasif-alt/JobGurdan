@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Airbus Aerospace Jobs in France" — a guide about an employer
+ * "How to Apply for Airbus Aerospace Jobs in France": a guide about an employer
  * with 622 open French vacancies, two in five of which need a French security
  * clearance, and whose internship rules quietly exclude most of the audience
  * that searches for it.
@@ -158,7 +158,7 @@ class AirbusAerospaceJobsFranceBlogSeeder extends Seeder
 <h3>Visas</h3>
 <p>Airbus states that visa and relocation support depend on the role, country and applicable legislation, and may be discussed during recruitment where relevant. No French advert mentions a visa or work permit. Airbus also states it never requests payment for interviews, background checks, visa processing, training or IT equipment.</p>
 
-<p>Pay, eligibility, clearance and immigration rules are set by Airbus and the French authorities &mdash; not by JobGader. Confirm the requirements on the live posting before acting.</p>
+<p>Pay, eligibility, clearance and immigration rules are set by Airbus and the French authorities, not by JobGader. Confirm the requirements on the live posting before acting.</p>
 JOBHTML;
     }
 
@@ -267,7 +267,7 @@ JOBHTML;
 
 <ul>
     <li>Apprenticeships run <strong>1 to 3 years</strong>, from <strong>CAP to BAC +5</strong> level, with applications open <strong>February to June</strong>.</li>
-    <li>There is an <strong>age limit of 29</strong> &mdash; "a maximum of 29 years old (30 years old minus 1 day)" &mdash; extended to 35 in specific cases such as progressing to a higher diploma.</li>
+    <li>There is an <strong>age limit of 29</strong>, "a maximum of 29 years old (30 years old minus 1 day)", extended to 35 in specific cases such as progressing to a higher diploma.</li>
 </ul>
 
 <p>The selection process for both is the same shape: a video interview reviewed by a recruiter, then a one-to-one with your future manager.</p>
@@ -291,19 +291,19 @@ JOBHTML;
     </thead>
     <tbody>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">talent &mdash; salarié qualifié</td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">talent: salarié qualifié</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">A master-level diploma <strong>obtained in France</strong></td>
             <td style="padding:10px;border:1px solid #e5e7eb;"><strong>&euro;39,582</strong> a year</td>
         </tr>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">talent &mdash; carte bleue européenne</td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">talent: carte bleue européenne</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">3 years of higher education <strong>or</strong> 5 years of comparable experience</td>
             <td style="padding:10px;border:1px solid #e5e7eb;"><strong>&euro;59,373</strong> a year</td>
         </tr>
     </tbody>
 </table>
 
-<p><strong>Read the qualification column again.</strong> The salarié qualifié route requires a diploma "obtenu en France". A Pakistani or Indian master's does not satisfy it. So despite the higher salary bar, <strong>the EU Blue Card is the route to ask Airbus about</strong> &mdash; it accepts a foreign three-year degree, or five years of experience instead.</p>
+<p><strong>Read the qualification column again.</strong> The salarié qualifié route requires a diploma "obtenu en France". A Pakistani or Indian master's does not satisfy it. So despite the higher salary bar, <strong>the EU Blue Card is the route to ask Airbus about</strong>: it accepts a foreign three-year degree, or five years of experience instead.</p>
 
 <p>One genuinely helpful detail: a talent card holder does not need a separate work permit. French guidance states that the talent card allows you to do the work that earned it, and the employer is exempt from applying for a work authorisation.</p>
 
@@ -382,13 +382,13 @@ JOBHTML;
 <p>Comparing European aerospace and engineering employers? These cover the same ground:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a> &mdash; the same industry, and an employer that publishes its pay bands.</li>
-    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a> &mdash; a much lower Blue Card threshold next door.</li>
-    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a> &mdash; aviation work with a very different set of gates.</li>
-    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a> &mdash; European manufacturing with the same language barrier.</li>
-    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; production work with a clearer entry path.</li>
-    <li><a href="/blog/how-to-apply-for-asml-semiconductor-jobs-in-netherlands">How to Apply for ASML Semiconductor Jobs in Netherlands</a> &mdash; published salary ranges, and which of them clear the Dutch visa threshold.</li>
-    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a> &mdash; which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
+    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a>: the same industry, and an employer that publishes its pay bands.</li>
+    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a>: a much lower Blue Card threshold next door.</li>
+    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a>: aviation work with a very different set of gates.</li>
+    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a>: European manufacturing with the same language barrier.</li>
+    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a>: production work with a clearer entry path.</li>
+    <li><a href="/blog/how-to-apply-for-asml-semiconductor-jobs-in-netherlands">How to Apply for ASML Semiconductor Jobs in Netherlands</a>: published salary ranges, and which of them clear the Dutch visa threshold.</li>
+    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a>, which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Airbus's own careers pages, FAQ and Workday job API, its press releases, service-public.gouv.fr, the French Code du travail on Legifrance, and the French Embassy in Pakistan, checked on 22 September 2026. Vacancy counts, salary thresholds and immigration rules change. Always check the live posting and the official government source before acting, and never pay anyone to secure a job or a visa appointment.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Personal Care Assistant Jobs in Australia" — aged care is one of the few
+ * "Personal Care Assistant Jobs in Australia": aged care is one of the few
  * entry-level roles in Australia that is genuinely sponsorable, so the visa
  * pathway and the real award pay are the heart of the guide. The sponsorship
  * guide owns the wider Skills in Demand mechanics; this one covers the aged
@@ -143,7 +143,7 @@ class PersonalCareAssistantJobsAustraliaBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>Australia's aged care sector has one of the country's most persistent labour shortages, which makes Personal Care Assistant (PCA) roles among the most consistently available &mdash; and genuinely sponsorable &mdash; jobs for local and international candidates. A PCA supports elderly residents or clients with daily living: showering, dressing, mobility, meals, medication reminders under a nurse's direction, and companionship.</p>
+<p>Australia's aged care sector has one of the country's most persistent labour shortages, which makes Personal Care Assistant (PCA) roles among the most consistently available, and genuinely sponsorable, jobs for local and international candidates. A PCA supports elderly residents or clients with daily living: showering, dressing, mobility, meals, medication reminders under a nurse's direction, and companionship.</p>
 
 <h3>How it works</h3>
 <p>Work is delivered under a Registered or Enrolled Nurse across residential aged care, disability support (NDIS) and home care. Sponsorship, where offered, runs through the Aged Care Industry Labour Agreement on the Skills in Demand visa (subclass 482).</p>
@@ -159,18 +159,18 @@ class PersonalCareAssistantJobsAustraliaBlogSeeder extends Seeder
 <h3>How the pay works</h3>
 <ul>
     <li><strong>Aged Care Award.</strong> A Certificate III direct-care worker (Level 3) is on about $36.23 an hour after the 1 October 2025 increase, roughly $71,600 a year full-time; casual base is about $45.29</li>
-    <li><strong>Sponsorship floor.</strong> The ACILA concession is $51,222 or the annual market salary rate, whichever is higher &mdash; a visa rule, not the market wage</li>
+    <li><strong>Sponsorship floor.</strong> The ACILA concession is $51,222 or the annual market salary rate, whichever is higher: a visa rule, not the market wage</li>
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> award rates, screening rules and visa requirements are set by the Fair Work Commission, the Department of Health and the Department of Home Affairs &mdash; not by JobGader. Confirm current rules on fairwork.gov.au and immi.homeaffairs.gov.au before applying.</p>
+<p><strong>Note:</strong> award rates, screening rules and visa requirements are set by the Fair Work Commission, the Department of Health and the Department of Home Affairs, not by JobGader. Confirm current rules on fairwork.gov.au and immi.homeaffairs.gov.au before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Australia's aged care sector faces one of the country's most persistent labour shortages in 2026, which makes Personal Care Assistant (PCA) roles among the most consistently available &mdash; and genuinely sponsorable &mdash; jobs for both local and international candidates. With an ageing population driving demand, providers are hiring and, in many cases, supporting skilled visa pathways. Here is what the role involves, what it really pays under the award, and how sponsorship actually works.</p>
+<p>Australia's aged care sector faces one of the country's most persistent labour shortages in 2026, which makes Personal Care Assistant (PCA) roles among the most consistently available, and genuinely sponsorable, jobs for both local and international candidates. With an ageing population driving demand, providers are hiring and, in many cases, supporting skilled visa pathways. Here is what the role involves, what it really pays under the award, and how sponsorship actually works.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/healthcare?location=Australia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#00247d;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -192,7 +192,7 @@ JOBHTML;
 
 <h2>What the Job Really Pays</h2>
 
-<p>Most guides quote a band with no source, and their entry figures are now below the law. The Aged Care Award (MA000018) sets the floor, and after the Aged Care Work Value Case &mdash; a total increase of about 23%, with the final stage on <strong>1 October 2025</strong> &mdash; those floors rose sharply.</p>
+<p>Most guides quote a band with no source, and their entry figures are now below the law. The Aged Care Award (MA000018) sets the floor, and after the Aged Care Work Value Case, a total increase of about 23%, with the final stage on <strong>1 October 2025</strong>, those floors rose sharply.</p>
 
 <div style="overflow-x:auto;margin:24px 0;">
 <table style="width:100%;border-collapse:collapse;font-size:15px;">
@@ -213,7 +213,7 @@ JOBHTML;
 <p style="font-size:13px;color:#6b7280;margin-top:8px;">Aged Care Award MA000018 direct-care rates after the 1 October 2025 work-value increase; rates are indexed again each 1 July.</p>
 </div>
 
-<p>Two things follow. First, a full-time Certificate III worker cannot lawfully be paid the "$51,000" some older guides quote &mdash; that echoes the visa floor, not the award. Second, casual rates of "$48 to $80 an hour" are only reachable with weekend, evening and public-holiday penalties or agency loading; the casual base is about $45.29.</p>
+<p>Two things follow. First, a full-time Certificate III worker cannot lawfully be paid the "$51,000" some older guides quote: that echoes the visa floor, not the award. Second, casual rates of "$48 to $80 an hour" are only reachable with weekend, evening and public-holiday penalties or agency loading; the casual base is about $45.29.</p>
 
 <p>Many aged care employers are not-for-profit Public Benevolent Institutions, so their staff can salary-package up to <strong>$15,900 of tax-free benefits a year</strong>, plus a separate meal-entertainment card of about $5,000 grossed-up. That can lift take-home pay meaningfully beyond the base rate.</p>
 
@@ -227,19 +227,19 @@ JOBHTML;
 
 <ul>
     <li><strong>Certificate III in Individual Support (Ageing)</strong> is the standard entry qualification; Certificate IV in Ageing Support is valued for senior roles. Some employers accept substantial caregiving experience instead, particularly for casual or home care work.</li>
-    <li><strong>A National Police Certificate (within three years) or an NDIS Worker Screening Clearance.</strong> These are alternatives &mdash; an NDIS clearance is accepted in aged care and removes the need for a separate police check. Disability roles require the NDIS check specifically.</li>
+    <li><strong>A National Police Certificate (within three years) or an NDIS Worker Screening Clearance.</strong> These are alternatives: an NDIS clearance is accepted in aged care and removes the need for a separate police check. Disability roles require the NDIS check specifically.</li>
     <li><strong>Valid work rights</strong>, strong communication, and genuine compassion for client wellbeing.</li>
 </ul>
 
 <h2>Visa Sponsorship: The Aged Care Labour Agreement Route</h2>
 
-<p>Unlike many entry-level roles, PCA positions can genuinely be sponsored &mdash; this is one of the more reliable sponsored occupations in Australia.</p>
+<p>Unlike many entry-level roles, PCA positions can genuinely be sponsored: this is one of the more reliable sponsored occupations in Australia.</p>
 
 <ul>
-    <li><strong>The visa.</strong> Sponsorship is on the <strong>Skills in Demand visa (subclass 482)</strong> &mdash; the number is unchanged, but the visa was renamed from the TSS visa on 7 December 2024, with Core Skills and Specialist Skills streams.</li>
+    <li><strong>The visa.</strong> Sponsorship is on the <strong>Skills in Demand visa (subclass 482)</strong>: the number is unchanged, but the visa was renamed from the TSS visa on 7 December 2024, with Core Skills and Specialist Skills streams.</li>
     <li><strong>The pathway.</strong> Aged care is sponsored through the <strong>Aged Care Industry Labour Agreement (ACILA)</strong>, which covers Personal Care Assistant (ANZSCO 423313) and Aged or Disabled Carer (423111). Only employers who hold access to the agreement can use it, so confirm this before applying.</li>
     <li><strong>The requirement.</strong> A Certificate III-equivalent qualification or at least 12 months of relevant experience.</li>
-    <li><strong>The salary rule.</strong> The role must pay at least the ACILA concession of <strong>$51,222</strong>, or the annual market salary rate, whichever is higher. This concession sits below the general Core Skills Income Threshold, which is $79,499 from 1 July 2026, precisely because aged care wages are lower &mdash; it is a visa floor, not a market wage.</li>
+    <li><strong>The salary rule.</strong> The role must pay at least the ACILA concession of <strong>$51,222</strong>, or the annual market salary rate, whichever is higher. This concession sits below the general Core Skills Income Threshold, which is $79,499 from 1 July 2026, precisely because aged care wages are lower: it is a visa floor, not a market wage.</li>
     <li><strong>The pathway to PR.</strong> After <strong>two years</strong> of full-time work under this pathway, PCAs can be nominated for the subclass <strong>186</strong> visa, leading to permanent residency. Since 7 December 2024 those two years no longer need to be with the same employer.</li>
 </ul>
 
@@ -252,11 +252,11 @@ JOBHTML;
 <h2>How to Apply for a PCA Job in Australia</h2>
 
 <ol>
-    <li><strong>Complete or plan your Certificate III in Individual Support (Ageing)</strong> if you do not already hold it &mdash; it is the standard entry qualification.</li>
-    <li><strong>Target employers with Labour Agreement access</strong> if you need sponsorship &mdash; not all providers hold it.</li>
+    <li><strong>Complete or plan your Certificate III in Individual Support (Ageing)</strong> if you do not already hold it: it is the standard entry qualification.</li>
+    <li><strong>Target employers with Labour Agreement access</strong> if you need sponsorship, not all providers hold it.</li>
     <li><strong>Prepare your CV</strong> to highlight caregiving experience, certifications and English proficiency.</li>
-    <li><strong>Apply through verified channels</strong> &mdash; job boards, established aged care recruiters, or provider career pages.</li>
-    <li><strong>Complete required checks</strong> &mdash; a police certificate or NDIS Worker Screening Clearance.</li>
+    <li><strong>Apply through verified channels</strong>: job boards, established aged care recruiters, or provider career pages.</li>
+    <li><strong>Complete required checks</strong>: a police certificate or NDIS Worker Screening Clearance.</li>
     <li><strong>Ask directly about the ACILA pathway</strong> during interview, including whether the employer currently holds access.</li>
 </ol>
 
@@ -317,13 +317,13 @@ JOBHTML;
 <p>Weighing aged care against other Australian and care-sector routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; the Skills in Demand visa, the occupation lists and the PR routes in full.</li>
-    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a> &mdash; a front-desk healthcare role and what it pays.</li>
-    <li><a href="/blog/receptionist-jobs-in-australia">Receptionist Jobs in Australia</a> &mdash; an entry-level office route priced against the award.</li>
-    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; the comparable care role in the UK, and its sponsorship reality.</li>
-    <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a> &mdash; an allied-health route with a clear registration path.</li>
-    <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in the USA</a> &mdash; a higher-paid allied-health market and how sponsorship works there.</li>
-    <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a> &mdash; the job title in each state, WA pay of $34.75 to $43.28 an hour, and the checks and certificates schools ask for.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>: the Skills in Demand visa, the occupation lists and the PR routes in full.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a>: a front-desk healthcare role and what it pays.</li>
+    <li><a href="/blog/receptionist-jobs-in-australia">Receptionist Jobs in Australia</a>: an entry-level office route priced against the award.</li>
+    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a>: the comparable care role in the UK, and its sponsorship reality.</li>
+    <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a>: an allied-health route with a clear registration path.</li>
+    <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in the USA</a>: a higher-paid allied-health market and how sponsorship works there.</li>
+    <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a>: the job title in each state, WA pay of $34.75 to $43.28 an hour, and the checks and certificates schools ask for.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Award rates, screening rules and visa requirements change over time. Confirm the current position with the Fair Work Ombudsman, the Department of Health and the Department of Home Affairs before applying.</p>

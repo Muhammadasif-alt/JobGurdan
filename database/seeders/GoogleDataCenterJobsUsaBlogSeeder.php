@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Google Data Center Jobs in the USA" — an employer guide
+ * "How to Apply for Google Data Center Jobs in the USA": an employer guide
  * built on the pay, qualifications and sponsorship wording Google prints on
  * its own live postings, rather than the job-board numbers the draft used.
  *
@@ -200,7 +200,7 @@ class GoogleDataCenterJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> salary bands, qualifications and eligibility are set and published by Google on each individual posting &mdash; not by JobGader. Google states on these US postings that the role is not eligible for U.S. immigration sponsorship. Applying to Google is free, and any request for payment is a scam.</p>
+<p><strong>Note:</strong> salary bands, qualifications and eligibility are set and published by Google on each individual posting, not by JobGader. Google states on these US postings that the role is not eligible for U.S. immigration sponsorship. Applying to Google is free, and any request for payment is a scam.</p>
 JOBHTML;
     }
 
@@ -249,7 +249,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>Every one of those bands is followed on the posting by the same line: <strong>"+ 15% bonus target + equity + benefits"</strong>. Google also states that "Individual pay is determined by factors including job-related skills, experience, and relevant education or training", and the band itself moves with location and scope &mdash; one Technician II posting in Amarillo, Texas prints the $105,000 to $145,000 band rather than the usual $86,000 to $118,000.</p>
+<p>Every one of those bands is followed on the posting by the same line: <strong>"+ 15% bonus target + equity + benefits"</strong>. Google also states that "Individual pay is determined by factors including job-related skills, experience, and relevant education or training", and the band itself moves with location and scope: one Technician II posting in Amarillo, Texas prints the $105,000 to $145,000 band rather than the usual $86,000 to $118,000.</p>
 
 <p>Numbers you may have seen elsewhere, such as $86,000 to $119,000 or $105,000 to $146,000, are a thousand dollars out at the top of each band. Read the band off the posting you are applying to and trust that over every other source, including this one.</p>
 
@@ -282,7 +282,7 @@ JOBHTML;
 
 <h3>Data Center Facilities Technician: the trades side</h3>
 
-<p>This is the electrical, mechanical, controls, generator and fire and life safety work that keeps the building running. Here Google does set an education line in the minimum qualifications: <strong>"Associate's degree, trade school certification, or other certified training in a related technical field, or equivalent practical experience"</strong>, plus trade experience &mdash; two years for the electrical postings, five years in controls or automation in an industrial or commercial environment for the controls postings.</p>
+<p>This is the electrical, mechanical, controls, generator and fire and life safety work that keeps the building running. Here Google does set an education line in the minimum qualifications: <strong>"Associate's degree, trade school certification, or other certified training in a related technical field, or equivalent practical experience"</strong>, plus trade experience: two years for the electrical postings, five years in controls or automation in an industrial or commercial environment for the controls postings.</p>
 
 <p>If you are a licensed electrician, HVAC technician or building controls specialist, this is your route and it starts at the same $86,000 band. If you are a server or networking person, apply to the technician track instead; the facilities minimums will screen you out.</p>
 
@@ -292,7 +292,7 @@ JOBHTML;
 
 <p style="border-left:4px solid #1a73e8;padding-left:16px;margin:20px 0;"><strong>"Ability to lift/move 50lb (23kg) of equipment and ability to exert yourself physically over extended periods of time, including frequent bending, kneeling, climbing, pushing/pulling and lifting."</strong></p>
 
-<p>Facilities postings word it differently: "Ability to participate in material handling tasks such as lifting, carrying or moving up to 50 lbs of equipment", together with the required use of OSHA standard safety equipment. Add the shift line &mdash; weekends, nights, holidays and rotating schedules &mdash; and the honest summary is that this is physical, on-site, around-the-clock work, paid accordingly.</p>
+<p>Facilities postings word it differently: "Ability to participate in material handling tasks such as lifting, carrying or moving up to 50 lbs of equipment", together with the required use of OSHA standard safety equipment. Add the shift line, weekends, nights, holidays and rotating schedules, and the honest summary is that this is physical, on-site, around-the-clock work, paid accordingly.</p>
 
 <div style="text-align:center;margin:28px 0;">
     <img src="/public/storage/blogs/how-to-apply-for-google-data-center-jobs-in-the-usa-technician.jpg" alt="Technician working on data centre hardware" style="max-width:100%;height:auto;border-radius:12px;" loading="lazy">
@@ -302,7 +302,7 @@ JOBHTML;
 
 <p>The live technician postings sit in small industrial towns, not tech cities. Current posting locations include <strong>Council Bluffs and Cedar Rapids, Iowa; Pryor, Stillwater and Muskogee, Oklahoma; Moncks Corner, Ridgeville and Saint George, South Carolina; Amarillo, Haskell, Wichita Falls and Red Oak, Texas; Reno, Sparks, Henderson and Las Vegas, Nevada; Leesburg and Sterling, Virginia; Fort Wayne and Monrovia, Indiana; Lithia Springs and LaGrange, Georgia; Lenoir, North Carolina; Lancaster and Lima, Ohio; Mesa, Arizona; Bridgeport, Alabama; and West Memphis, Arkansas.</strong></p>
 
-<p>Two corrections to the location list that circulates in other guides. Google lists <strong>no Reston, Virginia data center</strong> &mdash; its Virginia campuses are in Loudoun, Prince William and Chesterfield Counties, which is why the postings say Leesburg and Sterling. And "Council Bluffs / West Memphis AR" runs two states together: Council Bluffs is in Iowa, West Memphis is in Arkansas.</p>
+<p>Two corrections to the location list that circulates in other guides. Google lists <strong>no Reston, Virginia data center</strong>: its Virginia campuses are in Loudoun, Prince William and Chesterfield Counties, which is why the postings say Leesburg and Sterling. And "Council Bluffs / West Memphis AR" runs two states together: Council Bluffs is in Iowa, West Memphis is in Arkansas.</p>
 
 <p>Why it keeps growing is on Google's own blog. Google has announced <strong>$40 billion in Texas through 2027</strong>, including new campuses in Armstrong and Haskell Counties, <strong>$9 billion in Virginia</strong>, and <strong>$1.5 billion to expand the Jackson County, Alabama campus</strong> across 2026 and 2027. The Texas postings in Amarillo and Haskell are that money turning into vacancies.</p>
 
@@ -385,16 +385,16 @@ JOBHTML;
 <p>Looking at other large US employers and the roles next door to this one? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-microsoft-it-support-jobs-in-the-usa">How to Apply for Microsoft IT Support Jobs in the USA</a> &mdash; the same sponsorship wall, and published hourly pay.</li>
-    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a> &mdash; warehouse work with a published starting wage.</li>
-    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a> &mdash; factory work with a published hourly range and stock awards.</li>
-    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a> &mdash; union-set pay and the part-time route in.</li>
-    <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a> &mdash; the wider trades market a facilities technician competes in.</li>
-    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; the experience Google names as a preferred background.</li>
-    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a> &mdash; where a networking-heavy technician career goes next.</li>
-    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a> &mdash; the software side of the same infrastructure.</li>
-    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; another physical role with a certification route.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; an honest look at what sponsorship really covers.</li>
+    <li><a href="/blog/how-to-apply-for-microsoft-it-support-jobs-in-the-usa">How to Apply for Microsoft IT Support Jobs in the USA</a>: the same sponsorship wall, and published hourly pay.</li>
+    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a>: warehouse work with a published starting wage.</li>
+    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a>: factory work with a published hourly range and stock awards.</li>
+    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a>: union-set pay and the part-time route in.</li>
+    <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a>: the wider trades market a facilities technician competes in.</li>
+    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a>: the experience Google names as a preferred background.</li>
+    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a>: where a networking-heavy technician career goes next.</li>
+    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a>: the software side of the same infrastructure.</li>
+    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a>: another physical role with a certification route.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: an honest look at what sponsorship really covers.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Google's own careers search and live job postings, the Google Data Centers locations and workforce development pages, Google's careers benefits page and Google's company announcement blog, all checked on 24 September 2026. No salary figure here comes from a job board or salary estimate site. Salary bands, qualifications and eligibility wording change from posting to posting and week to week, so always read the live posting before you apply.</p>

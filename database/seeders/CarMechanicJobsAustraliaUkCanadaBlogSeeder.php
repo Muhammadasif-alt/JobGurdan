@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Car Mechanic Jobs in Australia, UK and Canada" — the demand and
+ * "Car Mechanic Jobs in Australia, UK and Canada": the demand and
  * qualification page of the mechanic cluster, built on Jobs and Skills
  * Australia, the National Careers Service and Job Bank (NOC 72410).
  *
@@ -343,12 +343,12 @@ JOBHTML;
 <p>The rest of the mechanic cluster and related trades:</p>
 
 <ul>
-    <li><a href="/blog/mechanic-salary-by-country">Mechanic Salary by Country</a> &mdash; official pay figures for the USA, Australia, the UK, Canada and the Gulf rules.</li>
-    <li><a href="/blog/ev-technician-jobs-training-and-career-guide">EV Technician Jobs: Training and Career Guide</a> &mdash; high-voltage qualifications and where the work is.</li>
-    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a> &mdash; apprenticeships, award pay and state licences.</li>
-    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a> &mdash; the Gulf route for mechanics.</li>
-    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a> &mdash; the same certification systems for a neighbouring trade.</li>
-    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a> &mdash; another Red Seal trade in demand.</li>
+    <li><a href="/blog/mechanic-salary-by-country">Mechanic Salary by Country</a>: official pay figures for the USA, Australia, the UK, Canada and the Gulf rules.</li>
+    <li><a href="/blog/ev-technician-jobs-training-and-career-guide">EV Technician Jobs: Training and Career Guide</a>: high-voltage qualifications and where the work is.</li>
+    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a>: apprenticeships, award pay and state licences.</li>
+    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a>: the Gulf route for mechanics.</li>
+    <li><a href="/blog/electrician-jobs-abroad-with-visa-sponsorship">Electrician Jobs Abroad with Visa Sponsorship</a>: the same certification systems for a neighbouring trade.</li>
+    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a>: another Red Seal trade in demand.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not career, legal or immigration advice. Australian data is from Jobs and Skills Australia, UK pay from the National Careers Service and Canadian wages from Job Bank. Confirm visa and licensing rules with Home Affairs, TRA, UK Visas and Immigration or the provincial apprenticeship authority.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Receptionist Jobs in Australia" — front-desk work in corporate offices,
+ * "Receptionist Jobs in Australia": front-desk work in corporate offices,
  * professional services, hotels and clinics. The medical receptionist guide
  * owns the health practice award and Medicare billing; this one owns the
  * Clerks Award rates most receptionists are paid on, the hotel front office
@@ -155,7 +155,7 @@ class ReceptionistJobsAustraliaBlogSeeder extends Seeder
 
 <h3>How the pay works</h3>
 <ul>
-    <li><strong>Offices.</strong> Clerks &mdash; Private Sector Award 2020, from $1,024.70 a week ($26.97 an hour) at Level 1 year 1 from 1 July 2026</li>
+    <li><strong>Offices.</strong> Clerks: Private Sector Award 2020, from $1,024.70 a week ($26.97 an hour) at Level 1 year 1 from 1 July 2026</li>
     <li><strong>Hotels.</strong> Hospitality Industry (General) Award 2020, front office grade 1, from $1,029.10 a week</li>
     <li><strong>Casuals.</strong> A 25 per cent casual loading on top of the hourly rate</li>
 </ul>
@@ -163,7 +163,7 @@ class ReceptionistJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask which award or enterprise agreement covers the job,</strong> and check its current pay guide on fairwork.gov.au before accepting an offer.</p>
 
-<p><strong>Note:</strong> pay, hours and visa eligibility are set by employers, the Fair Work Commission and the Department of Home Affairs &mdash; not by JobGader. Confirm the details with the employer and on fairwork.gov.au before applying.</p>
+<p><strong>Note:</strong> pay, hours and visa eligibility are set by employers, the Fair Work Commission and the Department of Home Affairs, not by JobGader. Confirm the details with the employer and on fairwork.gov.au before applying.</p>
 JOBHTML;
     }
 
@@ -225,7 +225,7 @@ JOBHTML;
     <tbody>
         <tr style="border-bottom:1px solid #e5e7eb;">
             <td style="padding:10px;">Corporate offices, law and accounting firms, real estate agencies, dealerships</td>
-            <td style="padding:10px;">Clerks &mdash; Private Sector Award 2020 (MA000002)</td>
+            <td style="padding:10px;">Clerks: Private Sector Award 2020 (MA000002)</td>
             <td style="padding:10px;">$1,024.70 a week, $26.97 an hour (Level 1 year 1)</td>
         </tr>
         <tr style="border-bottom:1px solid #e5e7eb;">
@@ -259,11 +259,11 @@ JOBHTML;
         </tr>
     </thead>
     <tbody>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Level 1 &mdash; year 1</td><td style="padding:10px;">$1,024.70</td><td style="padding:10px;">$26.97</td><td style="padding:10px;">$53,284</td></tr>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Level 1 &mdash; year 2</td><td style="padding:10px;">$1,073.10</td><td style="padding:10px;">$28.24</td><td style="padding:10px;">$55,801</td></tr>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Level 1 &mdash; year 3</td><td style="padding:10px;">$1,106.20</td><td style="padding:10px;">$29.11</td><td style="padding:10px;">$57,522</td></tr>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Level 2 &mdash; year 1</td><td style="padding:10px;">$1,119.10</td><td style="padding:10px;">$29.45</td><td style="padding:10px;">$58,193</td></tr>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Level 2 &mdash; year 2</td><td style="padding:10px;">$1,139.90</td><td style="padding:10px;">$30.00</td><td style="padding:10px;">$59,275</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Level 1: year 1</td><td style="padding:10px;">$1,024.70</td><td style="padding:10px;">$26.97</td><td style="padding:10px;">$53,284</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Level 1: year 2</td><td style="padding:10px;">$1,073.10</td><td style="padding:10px;">$28.24</td><td style="padding:10px;">$55,801</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Level 1: year 3</td><td style="padding:10px;">$1,106.20</td><td style="padding:10px;">$29.11</td><td style="padding:10px;">$57,522</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Level 2: year 1</td><td style="padding:10px;">$1,119.10</td><td style="padding:10px;">$29.45</td><td style="padding:10px;">$58,193</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Level 2: year 2</td><td style="padding:10px;">$1,139.90</td><td style="padding:10px;">$30.00</td><td style="padding:10px;">$59,275</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Level 3</td><td style="padding:10px;">$1,182.10</td><td style="padding:10px;">$31.11</td><td style="padding:10px;">$61,469</td></tr>
     </tbody>
 </table>
@@ -333,7 +333,7 @@ JOBHTML;
 <p>Most office receptionists are covered by the Clerks Award, which starts at $1,024.70 a week, or $26.97 an hour, from 1 July 2026. That is about $53,284 a year full-time, rising to about $61,469 at Level 3.</p>
 
 <h3>Which award covers receptionists?</h3>
-<p>Office receptionists are usually covered by the Clerks &mdash; Private Sector Award 2020, hotel receptionists by the Hospitality Industry (General) Award 2020, and medical and dental receptionists by the Health Professionals and Support Services Award 2020.</p>
+<p>Office receptionists are usually covered by the Clerks: Private Sector Award 2020, hotel receptionists by the Hospitality Industry (General) Award 2020, and medical and dental receptionists by the Health Professionals and Support Services Award 2020.</p>
 
 <h3>Is AU$50,000 a normal starting salary for a receptionist?</h3>
 <p>Not for a full-time adult. The Clerks Award minimum works out to about $53,284 a year, and the National Minimum Wage alone is about $52,255 a year.</p>
@@ -384,13 +384,13 @@ JOBHTML;
 <p>Comparing front-desk and office jobs? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a> &mdash; the health practice award, Medicare billing and privacy rules.</li>
-    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a> &mdash; clerical work under the same Clerks Award, and the checks employers run.</li>
-    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; entry-level award rates, junior pay and visa work limits.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; how the Skills in Demand visa and its occupation list work.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; front-desk work in the Gulf, and the gratuity on a basic salary.</li>
-    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; American office pay by state, and what an executive assistant earns.</li>
-    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a> &mdash; a genuinely sponsorable aged care route and its real award pay.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a>: the health practice award, Medicare billing and privacy rules.</li>
+    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a>: clerical work under the same Clerks Award, and the checks employers run.</li>
+    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a>: entry-level award rates, junior pay and visa work limits.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>: how the Skills in Demand visa and its occupation list work.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: front-desk work in the Gulf, and the gratuity on a basic salary.</li>
+    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a>: American office pay by state, and what an executive assistant earns.</li>
+    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a>: a genuinely sponsorable aged care route and its real award pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Award rates, the National Minimum Wage, qualification codes and visa occupation lists change. Confirm the current position with the Fair Work Ombudsman, training.gov.au and the Department of Home Affairs before applying or accepting an offer.</p>

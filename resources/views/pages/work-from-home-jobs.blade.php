@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Work From Home Jobs — Real Options | JobGader')
+@section('title', 'Work From Home Jobs: Real Options | JobGader')
 @section('meta_description', 'Work from home jobs across '.$coverage->shortList().': which roles are genuine, what they pay, and how to filter out the fee-charging scams.')
-@section('og_title', 'Work From Home Jobs — Real Options | JobGader')
+@section('og_title', 'Work From Home Jobs: Real Options | JobGader')
 @section('og_description', 'Work from home jobs across '.$coverage->shortList().': which roles are genuine, what they pay, and how to filter out the fee-charging scams.')
 @section('canonical', url()->current())
 
@@ -59,7 +59,7 @@
             ],
             [
                 'q' => 'How do I spot a work from home scam?',
-                'a' => 'Money moving towards the employer is the giveaway — fees for training, software, equipment or background checks. Also refuse any role that asks you to forward payments or reship parcels.',
+                'a' => 'Money moving towards the employer is the giveaway: fees for training, software, equipment or background checks. Also refuse any role that asks you to forward payments or reship parcels.',
             ],
             [
                 'q' => 'What equipment do I need?',

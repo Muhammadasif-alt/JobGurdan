@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Washington — Tech, Aerospace and Trade | JobGader')
+@section('title', 'Jobs in Washington: Tech, Aerospace and Trade | JobGader')
 @section('meta_description', 'Jobs in Washington State: Seattle technology, aerospace manufacturing, agriculture and port logistics, and how no state income tax affects pay.')
-@section('og_title', 'Jobs in Washington — Tech, Aerospace and Trade | JobGader')
+@section('og_title', 'Jobs in Washington: Tech, Aerospace and Trade | JobGader')
 @section('og_description', 'Jobs in Washington State: Seattle technology, aerospace manufacturing, agriculture and port logistics, and how no state income tax affects pay.')
 @section('canonical', url()->current())
 
@@ -30,7 +30,7 @@
             [
                 'title' => 'Agriculture, Ports and Taxes',
                 'paragraphs' => [
-                    'Eastern Washington is one of the most productive agricultural regions in the country — apples, wine, hops and potatoes — with substantial seasonal hiring and food processing work year-round.',
+                    'Eastern Washington is one of the most productive agricultural regions in the country, apples, wine, hops and potatoes, with substantial seasonal hiring and food processing work year-round.',
                     'Washington levies no personal state income tax, which lifts take-home pay relative to states that do. The offset is a high sales tax and, in the Seattle area, housing costs among the highest in the country.',
                 ],
             ],

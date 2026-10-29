@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Virginia — Federal, Data Centres, Defence | JobGader')
+@section('title', 'Jobs in Virginia: Federal, Data Centres, Defence | JobGader')
 @section('meta_description', 'Jobs in Virginia: federal contracting and security clearances, the worlds largest data centre cluster, defence work and healthcare hiring.')
-@section('og_title', 'Jobs in Virginia — Federal, Data Centres, Defence | JobGader')
+@section('og_title', 'Jobs in Virginia: Federal, Data Centres, Defence | JobGader')
 @section('og_description', 'Jobs in Virginia: federal contracting and security clearances, the worlds largest data centre cluster, defence work and healthcare hiring.')
 @section('canonical', url()->current())
 
@@ -24,13 +24,13 @@
                 'title' => 'The Data Centre Cluster',
                 'paragraphs' => [
                     'Loudoun County hosts the densest concentration of data centres in the world, and the sector has kept expanding across the region. It employs far more than engineers.',
-                    'Data centre technicians, facilities and electrical maintenance staff, security officers and construction trades all hire continuously around these campuses, and much of it does not require a degree — an electrical or mechanical background is worth more.',
+                    'Data centre technicians, facilities and electrical maintenance staff, security officers and construction trades all hire continuously around these campuses, and much of it does not require a degree: an electrical or mechanical background is worth more.',
                 ],
             ],
             [
                 'title' => 'Defence, Ports and Healthcare',
                 'paragraphs' => [
-                    'Hampton Roads hosts one of the largest concentrations of naval activity in the world, supporting shipbuilding, ship repair, logistics and a very large skilled trades workforce — welders, pipefitters, electricians and machinists.',
+                    'Hampton Roads hosts one of the largest concentrations of naval activity in the world, supporting shipbuilding, ship repair, logistics and a very large skilled trades workforce: welders, pipefitters, electricians and machinists.',
                     'Healthcare employs across the state as everywhere, and the Richmond area adds state government and finance to the mix.',
                 ],
             ],
@@ -56,7 +56,7 @@
             ],
             [
                 'q' => 'What work is available around Hampton Roads?',
-                'a' => 'Shipbuilding and ship repair support a very large skilled trades workforce — welders, pipefitters, electricians and machinists — alongside naval logistics.',
+                'a' => 'Shipbuilding and ship repair support a very large skilled trades workforce, welders, pipefitters, electricians and machinists, alongside naval logistics.',
             ],
             [
                 'q' => 'Can I get federal contracting work without a clearance?',

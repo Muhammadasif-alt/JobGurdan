@@ -2,8 +2,8 @@
 @section('title', 'Contact JobGader: Help, Partnerships, Report a Listing')
 @section('meta_description', 'Contact JobGader by email or through the form on this page. We reply within 24 hours on business days to questions about listings, guides and partnerships.')
 @section('meta_keywords', 'contact jobgader, jobgader support, jobgader email, job board contact, report a job listing, employer enquiries')
-@section('og_title', 'Contact JobGader — We\'re Here to Help')
-@section('og_description', 'Reach our support team within 24 hours. Phone, email, or message — we\'re ready to help job seekers, employers, and partners.')
+@section('og_title', 'Contact JobGader: We\'re Here to Help')
+@section('og_description', 'Reach our support team within 24 hours. Phone, email, or message: we\'re ready to help job seekers, employers, and partners.')
 @section('canonical', route('contact.us'))
 
 @push('meta')
@@ -58,7 +58,7 @@
             {"@@type":"Question","name":"How quickly will I receive a response from JobGader?","acceptedAnswer":{"@@type":"Answer","text":"Our support team typically responds within 24 hours on business days. For urgent matters, please mention 'Urgent' in your subject line."}},
             {"@@type":"Question","name":"I'm having trouble logging in. What should I do?","acceptedAnswer":{"@@type":"Answer","text":"Try the Forgot Password link on the login page first. If you still can't access your account, contact us with your registered email and we'll help recover it."}},
             {"@@type":"Question","name":"How do I report a fake or suspicious job listing?","acceptedAnswer":{"@@type":"Answer","text":"Send the job link through our contact form with the subject 'Report Job Listing.' We check reported listings by hand and report and removes fraudulent posts quickly."}},
-            {"@@type":"Question","name":"Can I delete my JobGader account?","acceptedAnswer":{"@@type":"Answer","text":"Yes — message us with your registered email and we'll permanently delete your account and associated data within 7 business days, in line with our privacy policy."}},
+            {"@@type":"Question","name":"Can I delete my JobGader account?","acceptedAnswer":{"@@type":"Answer","text":"Yes: message us with your registered email and we'll permanently delete your account and associated data within 7 business days, in line with our privacy policy."}},
             {"@@type":"Question","name":"Do you offer partnership or advertising opportunities?","acceptedAnswer":{"@@type":"Answer","text":"Yes. Use the form and select 'Partnership' or 'Advertising' as your subject, and tell us what you have in mind. We read every message and reply by email."}},
             {"@@type":"Question","name":"How do employers post jobs on JobGader?","acceptedAnswer":{"@@type":"Answer","text":"JobGader does not sell job postings. If you are an employer and want to suggest a vacancy, use the form and we will decide what to publish."}}
         ]
@@ -77,7 +77,7 @@
 @endphp
 
 <style>
-    /* === Hero (light gradient + dark text — matches home theme) === */
+    /* === Hero (light gradient + dark text: matches home theme) === */
     .contact-hero {
         position: relative;
         background: linear-gradient(180deg, #f8faff 0%, #ffffff 50%, #f5f5f7 100%);
@@ -286,7 +286,7 @@
         box-shadow: 0 8px 20px rgba(0,0,0,.18);
     }
 
-    /* Contact info card — dark with brand glow */
+    /* Contact info card: dark with brand glow */
     .contact-info-card {
         background: #1b3a6b;
         color: #fff;
@@ -667,7 +667,7 @@
             <a href="mailto:{{ config('site.contact_email') }}" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-mail"></i></div>
                 <h4>Email Us</h4>
-                <p>Write to {{ config('site.contact_email') }} for anything &mdash; general help, listings, account questions or partnerships. We reply within 24 hours on business days.</p>
+                <p>Write to {{ config('site.contact_email') }} for anything: general help, listings, account questions or partnerships. We reply within 24 hours on business days.</p>
                 <span class="qc-action">{{ config('site.contact_email') }} <i class="icon-feather-arrow-right"></i></span>
             </a>
         </div>
@@ -698,14 +698,14 @@
 
                     <form method="POST" action="{{ route('contact.store') }}">
                         @csrf
-                        {{-- Honeypot fields — hidden from users, bots typically auto-fill these --}}
+                        {{-- Honeypot fields: hidden from users, bots typically auto-fill these --}}
                         <div style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden;" aria-hidden="true">
                             <label>Website (leave blank)</label>
                             <input type="text" name="website" tabindex="-1" autocomplete="off" value="">
                             <label>Phone (leave blank)</label>
                             <input type="text" name="hp_phone" tabindex="-1" autocomplete="off" value="">
                         </div>
-                        {{-- Submission timestamp — bots usually submit in <2s, real users take longer --}}
+                        {{-- Submission timestamp: bots usually submit in <2s, real users take longer --}}
                         <input type="hidden" name="form_started_at" value="{{ now()->timestamp }}">
 
                         <div class="row">
@@ -766,7 +766,7 @@
                             <div class="ico"><i class="icon-feather-clock"></i></div>
                             <div>
                                 <strong>Working Hours</strong>
-                                Mon — Fri: 9:00 AM – 6:00 PM PST
+                                Mon: Fri: 9:00 AM – 6:00 PM PST
                             </div>
                         </li>
                     </ul>
@@ -861,14 +861,14 @@
             </details>
             <details class="contact-faq-item">
                 <summary>Can I delete my JobGader account?</summary>
-                <div class="faq-answer">Yes — message us with your registered email and we'll permanently delete your account and associated data within 7 business days, in line with our privacy policy.</div>
+                <div class="faq-answer">Yes: message us with your registered email and we'll permanently delete your account and associated data within 7 business days, in line with our privacy policy.</div>
             </details>
             <details class="contact-faq-item">
                 <summary>Do you offer partnership or advertising opportunities?</summary>
                 <div class="faq-answer">Yes. Use the form and select "Partnership" or "Advertising" as your subject, and tell us what you have in mind. We read every message and reply by email.</div>
             </details>
             <details class="contact-faq-item">
-                <summary>I'm an employer — how do I post jobs?</summary>
+                <summary>I'm an employer: how do I post jobs?</summary>
                 <div class="faq-answer">JobGader does not sell job postings. If you are an employer and want to suggest a vacancy, use the form and we will decide what to publish.</div>
             </details>
             <details class="contact-faq-item">

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Entry Level IT Jobs" — the hub for first jobs in American IT. The help
+ * "Entry Level IT Jobs": the hub for first jobs in American IT. The help
  * desk, network engineer, cybersecurity analyst and web developer guides own
  * each role in depth; this one owns the first-job comparison: BLS starting
  * pay (the lowest-paid tenth) against the medians, which roles are genuinely
@@ -165,7 +165,7 @@ class EntryLevelItJobsBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask what the ticket volume and escalation path look like,</strong> and whether the employer pays for certification exams.</p>
 
-<p><strong>Note:</strong> pay, requirements and training support are set by employers &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, requirements and training support are set by employers, not by JobGader. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 
@@ -349,13 +349,13 @@ JOBHTML;
 <p>Ready to go deeper on one role? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; the most common first IT job in detail.</li>
-    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a> &mdash; where networking experience leads.</li>
-    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; the security role and what it takes to get there.</li>
-    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the development route and its pay.</li>
-    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a> &mdash; testing work across the border.</li>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; the same first job in Britain.</li>
-    <li><a href="/blog/how-to-apply-for-microsoft-it-support-jobs-in-the-usa">How to Apply for Microsoft IT Support Jobs in the USA</a> &mdash; the real entry-level pay band at Microsoft, and the categories that have no jobs in them.</li>
+    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a>: the most common first IT job in detail.</li>
+    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a>: where networking experience leads.</li>
+    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a>: the security role and what it takes to get there.</li>
+    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a>: the development route and its pay.</li>
+    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a>: testing work across the border.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: the same first job in Britain.</li>
+    <li><a href="/blog/how-to-apply-for-microsoft-it-support-jobs-in-the-usa">How to Apply for Microsoft IT Support Jobs in the USA</a>: the real entry-level pay band at Microsoft, and the categories that have no jobs in them.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers advice. Wage data, employment projections and certification exam versions change. Confirm current details with BLS, CompTIA and employers before choosing a course or applying.</p>

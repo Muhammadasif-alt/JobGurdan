@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for BMW Factory Jobs in Germany" — an employer guide built on
+ * "How to Apply for BMW Factory Jobs in Germany": an employer guide built on
  * BMW Group Careers, the IG Metall collective agreement and Make it in
  * Germany, rather than the job-board estimates the draft relied on.
  *
@@ -156,7 +156,7 @@ class BmwFactoryJobsGermanyBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay is set by the metal and electrical industry collective agreement and by BMW, and visa rules are set by the German authorities &mdash; not by JobGader. Apply directly on BMW Group Careers and never pay an agent for a BMW job.</p>
+<p><strong>Note:</strong> pay is set by the metal and electrical industry collective agreement and by BMW, and visa rules are set by the German authorities, not by JobGader. Apply directly on BMW Group Careers and never pay an agent for a BMW job.</p>
 JOBHTML;
     }
 
@@ -165,7 +165,7 @@ JOBHTML;
         return <<<'HTML'
 <p><strong>Apply on BMW Group Careers, filter the Production job field by a German plant, and submit online.</strong> BMW runs nine German locations, roughly 30 apprenticeship trades and 14 dual study programmes.</p>
 
-<p>Before you spend time on it, two honest answers. <strong>BMW publishes no pay figure for any role</strong>, so every salary you have read for a BMW factory job is a job board's estimate. And if you are outside the EU without a recognised qualification, there is effectively no visa route into this work at all &mdash; that part deserves a straight answer rather than "it is competitive".</p>
+<p>Before you spend time on it, two honest answers. <strong>BMW publishes no pay figure for any role</strong>, so every salary you have read for a BMW factory job is a job board's estimate. And if you are outside the EU without a recognised qualification, there is effectively no visa route into this work at all: that part deserves a straight answer rather than "it is competitive".</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://www.bmwgroup.jobs/de/en/job-fields/production.html" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -317,20 +317,20 @@ JOBHTML;
 <p>Looking at German and European work more widely? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; the wider market, the minimum wage and what German gross really means.</li>
-    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a> &mdash; the driver shortage and the licence route.</li>
-    <li><a href="/blog/devops-engineer-jobs-in-germany">DevOps Engineer Jobs in Germany</a> &mdash; the skilled route where English is often enough.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the nearest alternative market and its sponsorship rules.</li>
-    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a> &mdash; another large employer with real no-experience pathways.</li>
-    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a> &mdash; the same question in Italy, where a quota decree decides it.</li>
-    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a> &mdash; a factory employer that lists no factory-floor jobs at all.</li>
-    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a> &mdash; and which of the three Siemens companies actually hires you.</li>
-    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a> &mdash; an employer that publishes real salary bands on its adverts.</li>
-    <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a> &mdash; 622 French vacancies, and how many need a security clearance.</li>
-    <li><a href="/blog/how-to-apply-for-asml-semiconductor-jobs-in-netherlands">How to Apply for ASML Semiconductor Jobs in Netherlands</a> &mdash; published salary ranges, and which of them clear the Dutch visa threshold.</li>
-    <li><a href="/blog/how-to-apply-for-toyota-factory-jobs-in-japan">How to Apply for Toyota Factory Jobs in Japan</a> &mdash; free dormitories, forfeitable bonuses, and the residence status it quietly requires.</li>
-    <li><a href="/blog/how-to-apply-for-sap-consultant-jobs-in-germany">How to Apply for SAP Consultant Jobs in Germany</a> &mdash; what a German professional salary looks like after tax, and the anabin degree check.</li>
-    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a> &mdash; factory work with a published hourly range and stock awards.</li>
+    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a>: the wider market, the minimum wage and what German gross really means.</li>
+    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a>: the driver shortage and the licence route.</li>
+    <li><a href="/blog/devops-engineer-jobs-in-germany">DevOps Engineer Jobs in Germany</a>: the skilled route where English is often enough.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the nearest alternative market and its sponsorship rules.</li>
+    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a>: another large employer with real no-experience pathways.</li>
+    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a>: the same question in Italy, where a quota decree decides it.</li>
+    <li><a href="/blog/how-to-apply-for-unilever-factory-jobs-in-indonesia">How to Apply for Unilever Factory Jobs in Indonesia</a>: a factory employer that lists no factory-floor jobs at all.</li>
+    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a>, and which of the three Siemens companies actually hires you.</li>
+    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a>: an employer that publishes real salary bands on its adverts.</li>
+    <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a>: 622 French vacancies, and how many need a security clearance.</li>
+    <li><a href="/blog/how-to-apply-for-asml-semiconductor-jobs-in-netherlands">How to Apply for ASML Semiconductor Jobs in Netherlands</a>: published salary ranges, and which of them clear the Dutch visa threshold.</li>
+    <li><a href="/blog/how-to-apply-for-toyota-factory-jobs-in-japan">How to Apply for Toyota Factory Jobs in Japan</a>: free dormitories, forfeitable bonuses, and the residence status it quietly requires.</li>
+    <li><a href="/blog/how-to-apply-for-sap-consultant-jobs-in-germany">How to Apply for SAP Consultant Jobs in Germany</a>: what a German professional salary looks like after tax, and the anabin degree check.</li>
+    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a>: factory work with a published hourly range and stock awards.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using BMW Group Careers and BMW plant pages, BMW Group press releases, IG Metall collective agreement terms, Federal Statistical Office earnings data and the official Make it in Germany information on visas. BMW does not publish pay for individual roles, and collective agreements and visa thresholds change. Always check the live posting and the official visa guidance before you commit.</p>

@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Entry Level Remote Jobs — Realistic Routes | JobGader')
+@section('title', 'Entry Level Remote Jobs: Realistic Routes | JobGader')
 @section('meta_description', 'Entry level remote jobs across '.$coverage->shortList().': which junior roles hire remotely, what they pay, and how to compete without experience.')
-@section('og_title', 'Entry Level Remote Jobs — Realistic Routes | JobGader')
+@section('og_title', 'Entry Level Remote Jobs: Realistic Routes | JobGader')
 @section('og_description', 'Entry level remote jobs across '.$coverage->shortList().': which junior roles hire remotely, what they pay, and how to compete without experience.')
 @section('canonical', url()->current())
 
@@ -16,7 +16,7 @@
             [
                 'title' => 'Where Junior Remote Roles Actually Exist',
                 'paragraphs' => [
-                    'Customer support and live chat, content writing, social media coordination, data entry and verification, and junior SEO work are the realistic categories. All are structured, measurable and reviewable without anyone looking over your shoulder — which is exactly why they can be done remotely at entry level.',
+                    'Customer support and live chat, content writing, social media coordination, data entry and verification, and junior SEO work are the realistic categories. All are structured, measurable and reviewable without anyone looking over your shoulder, which is exactly why they can be done remotely at entry level.',
                     'Junior software and design roles do exist remotely but are far more competitive, and most employers prefer at least some office time in the first year. Expect a harder market there rather than an impossible one.',
                 ],
             ],
@@ -37,7 +37,7 @@
             [
                 'title' => 'The Scam Risk Is Higher Here',
                 'paragraphs' => [
-                    'Entry level plus remote is the exact keyword combination fraudulent listings target, because the audience is least able to evaluate an offer. The pattern is always money moving towards the employer — training fees, equipment deposits, background check charges.',
+                    'Entry level plus remote is the exact keyword combination fraudulent listings target, because the audience is least able to evaluate an offer. The pattern is always money moving towards the employer: training fees, equipment deposits, background check charges.',
                     'A legitimate junior remote role will name the company, describe the actual work, run an interview, and never ask you for money. Anything missing those is not worth your time regardless of how good the pay sounds.',
                 ],
             ],
@@ -63,7 +63,7 @@
             ],
             [
                 'q' => 'How do I compete with no experience?',
-                'a' => 'Write an exceptionally clear application, since written communication is the job, and build one piece of self-directed proof — a site you optimised, an account you grew, or a small portfolio.',
+                'a' => 'Write an exceptionally clear application, since written communication is the job, and build one piece of self-directed proof: a site you optimised, an account you grew, or a small portfolio.',
             ],
             [
                 'q' => 'Are entry level remote listings often scams?',

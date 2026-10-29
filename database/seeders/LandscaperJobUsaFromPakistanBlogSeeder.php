@@ -203,9 +203,9 @@ class LandscaperJobUsaFromPakistanBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/landscaper-jobs-usa-visa-sponsorship-2026">Landscaper Jobs in USA With Visa Sponsorship (2026)</a> &mdash; H-2B rules and requirements.</li>
-    <li><a href="/blog/landscaper-salary-usa-2026">Landscaper Salary in USA (2026)</a> &mdash; BLS averages and monthly examples.</li>
-    <li><a href="/blog/how-to-get-farm-worker-job-usa-from-pakistan-2026">How to Get a Farm Worker Job in USA From Pakistan</a> &mdash; the agricultural route.</li>
+    <li><a href="/blog/landscaper-jobs-usa-visa-sponsorship-2026">Landscaper Jobs in USA With Visa Sponsorship (2026)</a>: H-2B rules and requirements.</li>
+    <li><a href="/blog/landscaper-salary-usa-2026">Landscaper Salary in USA (2026)</a>: BLS averages and monthly examples.</li>
+    <li><a href="/blog/how-to-get-farm-worker-job-usa-from-pakistan-2026">How to Get a Farm Worker Job in USA From Pakistan</a>: the agricultural route.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Information is drawn from the US Department of Labor, USCIS, the US Department of State, the Department of Homeland Security and the Bureau of Labor Statistics, reviewed on 8 October 2026. It does not confirm that a visa will be issued to any individual applicant, so check the US Embassy in Pakistan before you pay for anything.</p>

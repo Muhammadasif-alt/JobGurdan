@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "School Administrator Jobs in UK" — a guide for office and admin workers who
+ * "School Administrator Jobs in UK": a guide for office and admin workers who
  * want to run a school office. The Office Assistant Jobs in UK guide covers
  * general office work, so this one stays on schools: the titles, the gap
  * between FTE and actual pay on term-time contracts, the routes in, the
@@ -150,7 +150,7 @@ class SchoolAdministratorJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, hours and hiring decisions are set by each school, academy trust and local authority &mdash; not by JobGader. Many jobs are term-time only, so check the actual salary as well as the FTE salary.</p>
+<p><strong>Note:</strong> pay, hours and hiring decisions are set by each school, academy trust and local authority, not by JobGader. Many jobs are term-time only, so check the actual salary as well as the FTE salary.</p>
 JOBHTML;
     }
 
@@ -415,13 +415,13 @@ JOBHTML;
 <p>Looking at other office or education work? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a> &mdash; general office work outside schools.</li>
-    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; the teaching side of UK schools.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; work rights and sponsored routes.</li>
-    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a> &mdash; remote admin and support roles.</li>
-    <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a> &mdash; school support work in Australia.</li>
-    <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a> &mdash; teacher assistant and paraprofessional pay, the Title I rule, the ParaPro test and who is hiring.</li>
-    <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a> &mdash; why GP practice pay is not NHS pay, and what care navigation added to the job.</li>
+    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a>: general office work outside schools.</li>
+    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a>: the teaching side of UK schools.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: work rights and sponsored routes.</li>
+    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a>: remote admin and support roles.</li>
+    <li><a href="/blog/education-assistant-jobs-in-australia">Education Assistant Jobs in Australia</a>: school support work in Australia.</li>
+    <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a>: teacher assistant and paraprofessional pay, the Title I rule, the ParaPro test and who is hiring.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a>: why GP practice pay is not NHS pay, and what care navigation added to the job.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Salaries, vacancies, apprenticeship standards and visa rules change. Check the live advert, the National Careers Service and GOV.UK before applying.</p>

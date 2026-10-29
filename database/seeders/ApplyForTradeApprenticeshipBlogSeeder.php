@@ -231,10 +231,10 @@ class ApplyForTradeApprenticeshipBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/what-score-needed-apprenticeship-test">What Score Do You Need on an Apprenticeship Test?</a> &mdash; pass marks and ranking</li>
-    <li><a href="/blog/can-you-retake-apprenticeship-aptitude-test">Can You Retake the Apprenticeship Aptitude Test?</a> &mdash; retake rules</li>
-    <li><a href="/blog/how-apprenticeship-ranking-lists-work">How Apprenticeship Ranking Lists Work</a> &mdash; scores, ranks and expiry</li>
-    <li><a href="/blog/union-apprenticeship-waitlists-how-long">Union Apprenticeship Waitlists: How Long Do They Take?</a> &mdash; waiting times</li>
+    <li><a href="/blog/what-score-needed-apprenticeship-test">What Score Do You Need on an Apprenticeship Test?</a>: pass marks and ranking</li>
+    <li><a href="/blog/can-you-retake-apprenticeship-aptitude-test">Can You Retake the Apprenticeship Aptitude Test?</a>: retake rules</li>
+    <li><a href="/blog/how-apprenticeship-ranking-lists-work">How Apprenticeship Ranking Lists Work</a>: scores, ranks and expiry</li>
+    <li><a href="/blog/union-apprenticeship-waitlists-how-long">Union Apprenticeship Waitlists: How Long Do They Take?</a>: waiting times</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 17 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case. It describes a US application framework, not a verified current vacancy.</p>

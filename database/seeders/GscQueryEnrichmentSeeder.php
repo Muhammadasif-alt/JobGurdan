@@ -145,7 +145,7 @@ class GscQueryEnrichmentSeeder extends Seeder
         $links = '';
 
         foreach ($entry['links'] as [$href, $text, $why]) {
-            $links .= '    <li><a href="'.$href.'">'.$text.'</a> &mdash; '.$why."</li>\n";
+            $links .= '    <li><a href="'.$href.'">'.$text.'</a>: '.$why."</li>\n";
         }
 
         return $html."<p>Related guides:</p>\n\n<ul>\n".$links.'</ul>';

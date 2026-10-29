@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Account Manager Jobs in USA" — the client-facing commercial career. The
+ * "Account Manager Jobs in USA": the client-facing commercial career. The
  * title is not a BLS occupation, so the guide prices it from the sales
  * representative occupations that actually contain these jobs and shows the
  * real titles three large employers use.
@@ -160,7 +160,7 @@ class AccountManagerJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, quotas, remote policy and sponsorship rules are set by each employer &mdash; not by JobGader. Read the current job posting before applying.</p>
+<p><strong>Note:</strong> pay, quotas, remote policy and sponsorship rules are set by each employer, not by JobGader. Read the current job posting before applying.</p>
 JOBHTML;
     }
 
@@ -247,7 +247,7 @@ JOBHTML;
     </thead>
     <tbody>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Salesforce</strong></td><td style="padding:10px;">Account Executive, Account Partner, Customer Success Manager</td><td style="padding:10px;">Small, Medium and Growth Business Account Executive (San Francisco, New York, Irvine, Atlanta); Account Partner Director, CPG (Atlanta)</td></tr>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>HubSpot</strong></td><td style="padding:10px;">Account Executive, BDR &mdash; <strong>no "Account Manager"</strong></td><td style="padding:10px;">Account Executive, Enterprise and Small Business (Remote - USA); Senior Account Executive, Mid-Market (Remote - USA)</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>HubSpot</strong></td><td style="padding:10px;">Account Executive, BDR: <strong>no "Account Manager"</strong></td><td style="padding:10px;">Account Executive, Enterprise and Small Business (Remote - USA); Senior Account Executive, Mid-Market (Remote - USA)</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Adobe</strong></td><td style="padding:10px;">Account Manager, Account Director</td><td style="padding:10px;">Enterprise Sales Account Manager, State &amp; Local Government (Remote, Minnesota); Enterprise Sales Account Director (Seattle)</td></tr>
     </tbody>
 </table>
@@ -255,7 +255,7 @@ JOBHTML;
 
 <p>In plain terms: an <strong>account executive</strong> is usually measured on new business, an <strong>account manager</strong> on retaining and growing existing customers, and a <strong>customer success manager</strong> on adoption and outcomes. Titles blur, so read the responsibilities and the target before the title.</p>
 
-<p>Pay transparency laws mean some postings publish the band. Adobe's Seattle Enterprise Sales Account Director listing, for example, showed a US range of <strong>$229,000 to $369,600</strong> a year, with a Washington-specific range of $250,300 to $362,375 &mdash; a reminder that senior enterprise account roles sit far above the occupation median.</p>
+<p>Pay transparency laws mean some postings publish the band. Adobe's Seattle Enterprise Sales Account Director listing, for example, showed a US range of <strong>$229,000 to $369,600</strong> a year, with a Washington-specific range of $250,300 to $362,375: a reminder that senior enterprise account roles sit far above the occupation median.</p>
 
 <h2>What Qualifications Do You Need?</h2>
 
@@ -274,14 +274,14 @@ JOBHTML;
 <p>The BLS lists these qualities for sales managers, and they map directly onto account management:</p>
 
 <ul>
-    <li><strong>Analytical skills</strong> &mdash; tracking and interpreting data to evaluate trends and set goals;</li>
+    <li><strong>Analytical skills</strong>: tracking and interpreting data to evaluate trends and set goals;</li>
     <li><strong>Communication</strong> and <strong>interpersonal skills</strong>;</li>
     <li><strong>Customer-service skills</strong>;</li>
     <li><strong>Computer skills</strong>;</li>
     <li><strong>Leadership</strong> and <strong>organizational skills</strong>.</li>
 </ul>
 
-<p>Employers add the commercial layer: CRM fluency (Salesforce, HubSpot, Microsoft Dynamics or Zoho), negotiation and renewals, forecasting, presentation skills and enough project coordination to keep internal teams moving. You do not need every CRM &mdash; showing that you kept clean records, tracked opportunities and reported accurately matters more.</p>
+<p>Employers add the commercial layer: CRM fluency (Salesforce, HubSpot, Microsoft Dynamics or Zoho), negotiation and renewals, forecasting, presentation skills and enough project coordination to keep internal teams moving. You do not need every CRM: showing that you kept clean records, tracked opportunities and reported accurately matters more.</p>
 
 <h2>Are Account Manager Jobs Remote?</h2>
 
@@ -308,7 +308,7 @@ JOBHTML;
 
 <h2>Can You Become an Account Manager Without Experience?</h2>
 
-<p>Rarely straight away, but the feeder roles are well worn: customer service representative, sales development or business development representative, account coordinator, customer success associate, client services assistant and marketing coordinator. Each gives you the three things postings screen for &mdash; customer conversations, CRM records and reporting.</p>
+<p>Rarely straight away, but the feeder roles are well worn: customer service representative, sales development or business development representative, account coordinator, customer success associate, client services assistant and marketing coordinator. Each gives you the three things postings screen for: customer conversations, CRM records and reporting.</p>
 
 <p>Our <a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> guide covers the most common entry point and what it pays.</p>
 
@@ -318,7 +318,7 @@ JOBHTML;
 
 <h2>Can Foreign Workers Apply?</h2>
 
-<p>Private employers set their own work-authorization rules, and we could not find a general sponsorship statement on the Salesforce, HubSpot or Adobe careers pages &mdash; which means <strong>the individual posting is the only reliable source</strong>. Look for the work authorization question in the application form before you invest time in it.</p>
+<p>Private employers set their own work-authorization rules, and we could not find a general sponsorship statement on the Salesforce, HubSpot or Adobe careers pages, which means <strong>the individual posting is the only reliable source</strong>. Look for the work authorization question in the application form before you invest time in it.</p>
 
 <p>If you are weighing up routes into the US, see our <a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> guide for the visa realities.</p>
 
@@ -328,7 +328,7 @@ JOBHTML;
     <li><strong>Pick an industry</strong> where your background already means something: software, agency, healthcare, logistics, manufacturing.</li>
     <li><strong>Search every title:</strong> Account Manager, Senior/Strategic/Key/National/Enterprise Account Manager, Client Account Manager, Account Director, Client Services Manager, Customer Success Manager and Account Executive.</li>
     <li><strong>Quantify your resume:</strong> accounts managed, revenue or renewal targets, retention and renewal rates, expansion sold, satisfaction scores, contract values.</li>
-    <li><strong>Name the CRM</strong> you have used and what you did in it &mdash; records, pipeline, reporting, account reviews.</li>
+    <li><strong>Name the CRM</strong> you have used and what you did in it: records, pipeline, reporting, account reviews.</li>
     <li><strong>Apply on the employer's own careers site,</strong> such as <a href="https://www.salesforce.com/company/careers/" target="_blank" rel="noopener">Salesforce</a>, <a href="https://www.hubspot.com/careers/jobs" target="_blank" rel="noopener">HubSpot</a> or <a href="https://careers.adobe.com/us/en" target="_blank" rel="noopener">Adobe</a>, where the posting and the pay range are current.</li>
 </ol>
 
@@ -393,12 +393,12 @@ JOBHTML;
 <p>Looking at client-facing and commercial careers? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; the most common route into account management, priced from BLS.</li>
-    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a> &mdash; the marketing side of the same accounts.</li>
-    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; the same career in a different market.</li>
-    <li><a href="/blog/finance-analyst-jobs-in-canada">Finance Analyst Jobs in Canada</a> &mdash; the numbers career, with Job Bank pay and the CFA rule.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; remote client work and what it really pays.</li>
-    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a> &mdash; the analytics route for people who prefer the data to the meetings.</li>
+    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a>: the most common route into account management, priced from BLS.</li>
+    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a>: the marketing side of the same accounts.</li>
+    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a>: the same career in a different market.</li>
+    <li><a href="/blog/finance-analyst-jobs-in-canada">Finance Analyst Jobs in Canada</a>: the numbers career, with Job Bank pay and the CFA rule.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: remote client work and what it really pays.</li>
+    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a>: the analytics route for people who prefer the data to the meetings.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using BLS Occupational Outlook Handbook and OEWS data and the official career sites of Salesforce, HubSpot and Adobe. Pay, openings and remote policies change. Always read the current official job posting before applying.</p>

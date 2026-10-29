@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Pennsylvania — Health, Freight, Energy | JobGader')
+@section('title', 'Jobs in Pennsylvania: Health, Freight, Energy | JobGader')
 @section('meta_description', 'Jobs in Pennsylvania: healthcare and education in Philadelphia and Pittsburgh, the I-78 freight corridor, and energy work in the north.')
-@section('og_title', 'Jobs in Pennsylvania — Health, Freight, Energy | JobGader')
+@section('og_title', 'Jobs in Pennsylvania: Health, Freight, Energy | JobGader')
 @section('og_description', 'Jobs in Pennsylvania: healthcare and education in Philadelphia and Pittsburgh, the I-78 freight corridor, and energy work in the north.')
 @section('canonical', url()->current())
 
@@ -17,7 +17,7 @@
                 'title' => 'Hospitals and Universities Lead',
                 'paragraphs' => [
                     'Philadelphia and Pittsburgh are both anchored by large health systems and universities, which together form the biggest employment base in the state and hire continuously across clinical, research, administrative and support roles.',
-                    'This makes healthcare support work — nursing assistants, home health aides, patient services, medical records — one of the most reliable entry points anywhere in the state, with short certification routes into better pay.',
+                    'This makes healthcare support work, nursing assistants, home health aides, patient services, medical records, one of the most reliable entry points anywhere in the state, with short certification routes into better pay.',
                 ],
             ],
             [
@@ -31,7 +31,7 @@
                 'title' => 'Energy and Manufacturing',
                 'paragraphs' => [
                     'Natural gas extraction across the northern and western parts of the state supports engineering, plant, driving and skilled trade roles, with pay well above the regional average for those willing to work rotational schedules.',
-                    'Manufacturing persists in specialised form — food processing, pharmaceuticals, machinery and metals — rather than at the scale of the past, and skilled trades and maintenance technicians remain in steady demand within it.',
+                    'Manufacturing persists in specialised form, food processing, pharmaceuticals, machinery and metals, rather than at the scale of the past, and skilled trades and maintenance technicians remain in steady demand within it.',
                 ],
             ],
         ],
@@ -56,7 +56,7 @@
             ],
             [
                 'q' => 'Is there still manufacturing work?',
-                'a' => 'Yes, in specialised form — food processing, pharmaceuticals, machinery and metals — rather than at historic scale. Skilled trades and maintenance technicians are in steady demand.',
+                'a' => 'Yes, in specialised form, food processing, pharmaceuticals, machinery and metals, rather than at historic scale. Skilled trades and maintenance technicians are in steady demand.',
             ],
             [
                 'q' => 'What pays best without a degree?',

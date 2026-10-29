@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Remote Jobs in Pakistan with No Experience" — a sector guide rather than one
+ * "Remote Jobs in Pakistan with No Experience": a sector guide rather than one
  * vacancy, so the apply link goes to an Indeed search and the post carries no
  * JobPosting markup.
  *
@@ -22,7 +22,7 @@ use Illuminate\Support\Str;
  * accounts the multi-currency balances that makes it useful, and PayPal does
  * not operate here at all, so Payoneer and a bank remittance are the routes
  * that actually work. It also described an unpaid onboarding period as routine
- * — unpaid work that produces real output for an employer is the single most
+ *: unpaid work that produces real output for an employer is the single most
  * common shape of the scams this keyword attracts, so the guide says so.
  *
  * Both records use updateOrCreate, so re-running is safe; it will overwrite
@@ -130,17 +130,17 @@ class RemoteJobsNoExperienceBlogSeeder extends Seeder
     <li>Written English good enough to answer a customer without a script</li>
     <li>A laptop or desktop, a stable connection, and a plan for load shedding</li>
     <li>Comfort with Google Sheets or Excel, and willingness to learn a helpdesk or CRM tool</li>
-    <li>Availability for a fixed shift &mdash; international employers usually need overlap with US or UK hours</li>
+    <li>Availability for a fixed shift: international employers usually need overlap with US or UK hours</li>
     <li>CNIC for onboarding, and a Payoneer or bank account for payment</li>
 </ul>
 
 <h3>How payment works from Pakistan</h3>
-<p>Local employers pay into a Pakistani bank account in rupees. International employers normally pay in dollars through <strong>Payoneer</strong>, which you withdraw to your own bank, or by direct bank remittance. <strong>PayPal does not operate for accounts in Pakistan</strong>, and Wise does not give Pakistan-resident accounts the multi-currency balances that make it useful elsewhere &mdash; so confirm the payment route before you accept, not after your first month. Agree the rate, the currency, the pay date and the method in writing.</p>
+<p>Local employers pay into a Pakistani bank account in rupees. International employers normally pay in dollars through <strong>Payoneer</strong>, which you withdraw to your own bank, or by direct bank remittance. <strong>PayPal does not operate for accounts in Pakistan</strong>, and Wise does not give Pakistan-resident accounts the multi-currency balances that make it useful elsewhere, so confirm the payment route before you accept, not after your first month. Agree the rate, the currency, the pay date and the method in writing.</p>
 
 <h3>Before you apply</h3>
 <p><strong>No genuine employer asks you to pay to be hired.</strong> Registration fees, training fees, a deposit for equipment, or a charge to &quot;release&quot; your first payment are all the same fraud. Be equally careful with unpaid trial work: a short assessment is normal, but producing real output for a company for days without pay is not a trial, it is unpaid labour. Ask for the offer in writing with the rate and payment method stated before you start.</p>
 
-<p><strong>Note:</strong> pay, hours and payment terms are set by each employer &mdash; not by JobGader. Verify every posting on the employer's own site before sharing documents or starting work.</p>
+<p><strong>Note:</strong> pay, hours and payment terms are set by each employer, not by JobGader. Verify every posting on the employer's own site before sharing documents or starting work.</p>
 JOBHTML;
     }
 
@@ -160,7 +160,7 @@ JOBHTML;
 <p>This belongs first, not in a footnote. &quot;Remote, no experience&quot; is the most impersonated job category there is, and the tells are consistent:</p>
 
 <ul>
-    <li><strong>Any payment you are asked to make is the end of the conversation.</strong> Registration, training, a software licence, a refundable equipment deposit, a fee to release your first payment &mdash; all the same fraud in different words. Employment runs one way: they pay you.</li>
+    <li><strong>Any payment you are asked to make is the end of the conversation.</strong> Registration, training, a software licence, a refundable equipment deposit, a fee to release your first payment: all the same fraud in different words. Employment runs one way: they pay you.</li>
     <li><strong>Unpaid work dressed as training.</strong> A short assessment or a sample task is normal. Days of real output for a live client with no pay is not a trial period, and it usually ends with the &quot;employer&quot; disappearing.</li>
     <li><strong>Hiring conducted entirely on WhatsApp or Telegram,</strong> with no company email domain, no website you can find independently, and no named person you can look up.</li>
     <li><strong>Pay that is far above the role.</strong> Data entry at the rate of a senior developer is not an opportunity.</li>
@@ -180,14 +180,14 @@ JOBHTML;
 <p>Five categories carry most of the genuine entry-level hiring, and they ask for different things:</p>
 
 <ul>
-    <li><strong>Live chat and email support</strong> &mdash; the largest category. Screened on written English and typing speed. Almost always shift work.</li>
-    <li><strong>Data entry and data cleaning</strong> &mdash; screened on accuracy and spreadsheet basics. Frequently paid per batch rather than monthly.</li>
-    <li><strong>Virtual assistance</strong> &mdash; calendar, inbox, research and follow-up for one client. Broad rather than deep, and it teaches you more than the others.</li>
-    <li><strong>Content writing and transcription</strong> &mdash; screened on a writing sample. The easiest to start and the hardest to be paid well for early on.</li>
-    <li><strong>Appointment setting and outbound support</strong> &mdash; spoken English matters here, and pay usually includes a commission element.</li>
+    <li><strong>Live chat and email support</strong>: the largest category. Screened on written English and typing speed. Almost always shift work.</li>
+    <li><strong>Data entry and data cleaning</strong>: screened on accuracy and spreadsheet basics. Frequently paid per batch rather than monthly.</li>
+    <li><strong>Virtual assistance</strong>: calendar, inbox, research and follow-up for one client. Broad rather than deep, and it teaches you more than the others.</li>
+    <li><strong>Content writing and transcription</strong>: screened on a writing sample. The easiest to start and the hardest to be paid well for early on.</li>
+    <li><strong>Appointment setting and outbound support</strong>: spoken English matters here, and pay usually includes a commission element.</li>
 </ul>
 
-<h2>Remote Jobs in Pakistan with No Experience — Part-Time</h2>
+<h2>Remote Jobs in Pakistan with No Experience: Part-Time</h2>
 
 <p>Part-time remote work is the easiest starting point if you are studying, already working, or managing responsibilities at home. Live chat support, social media assistance, data entry and online tutoring are the common part-time categories, usually three to five hours a day and paid hourly or per task rather than as a fixed monthly salary.</p>
 
@@ -213,13 +213,13 @@ JOBHTML;
 
 <p>This is worth settling before the first interview, not after the first month. Local employers pay into a Pakistani bank account in rupees. International employers normally pay in dollars through <strong>Payoneer</strong>, which you then withdraw to your own bank, or by direct bank remittance.</p>
 
-<p>Two corrections to what circulates on this topic. <strong>PayPal does not operate for accounts in Pakistan</strong>, so any employer who offers to pay you that way either does not know the market or is not what they claim. And Wise, despite being named in most guides, does not give Pakistan-resident accounts the multi-currency balances that make it useful elsewhere &mdash; check what is actually available to you before you rely on it. Agree the rate, the currency, the pay date and the method in writing, and remember that foreign earnings should be received through formal banking channels and declared.</p>
+<p>Two corrections to what circulates on this topic. <strong>PayPal does not operate for accounts in Pakistan</strong>, so any employer who offers to pay you that way either does not know the market or is not what they claim. And Wise, despite being named in most guides, does not give Pakistan-resident accounts the multi-currency balances that make it useful elsewhere: check what is actually available to you before you rely on it. Agree the rate, the currency, the pay date and the method in writing, and remember that foreign earnings should be received through formal banking channels and declared.</p>
 
 <h2>Remote Jobs with Training Provided</h2>
 
 <p>Plenty of international employers do advertise &quot;no experience necessary, training provided&quot; for chat support, email support and data annotation, and the training is usually a few days to two weeks on the tools and scripts before you go live.</p>
 
-<p>The question to ask is whether that period is paid. Structured onboarding at a real company is paid, or it is short enough that nobody argues about it. If you are asked to produce real work for real customers for a week or two with no pay, that is not training &mdash; and it is the most common shape the scams in this category take. Ask directly, and get the answer in writing.</p>
+<p>The question to ask is whether that period is paid. Structured onboarding at a real company is paid, or it is short enough that nobody argues about it. If you are asked to produce real work for real customers for a week or two with no pay, that is not training, and it is the most common shape the scams in this category take. Ask directly, and get the answer in writing.</p>
 
 <h2>Remote Jobs in Pakistan for Females</h2>
 
@@ -229,24 +229,24 @@ JOBHTML;
 
 <h2>Remote Jobs for Freshers in Pakistan</h2>
 
-<p>If you have a degree and no work history, target the titles written for exactly that: junior virtual assistant, remote customer support representative, junior content writer, data entry associate. These are structured as first jobs &mdash; lower expectations, more onboarding, and commonly used as a stepping stone into better-paid remote or on-site work within six to twelve months.</p>
+<p>If you have a degree and no work history, target the titles written for exactly that: junior virtual assistant, remote customer support representative, junior content writer, data entry associate. These are structured as first jobs: lower expectations, more onboarding, and commonly used as a stepping stone into better-paid remote or on-site work within six to twelve months.</p>
 
-<p>Treat the first role as paid training. What you are collecting is a reference, a tool you can name on a CV, and a record of showing up on shift &mdash; those three things are what the second job is hired on.</p>
+<p>Treat the first role as paid training. What you are collecting is a reference, a tool you can name on a CV, and a record of showing up on shift: those three things are what the second job is hired on.</p>
 
 <h2>Freelancing or a Remote Job?</h2>
 
 <p>Work-from-home income also exists on freelancing platforms and micro-task apps, but it is a different proposition. Freelancing has no floor: you build a profile, compete on price at the start, and the income is uneven for months. A company-hired remote role pays a fixed amount on a fixed date while you learn.</p>
 
-<p>For a beginner, the employed route is usually the safer start, and freelancing is easier to add later once you have a skill someone has already paid you for. Pakistan's software and marketing sectors hire remotely at the next level up &mdash; our guides to <a href="/blog/digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan">remote digital marketing roles</a> and <a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">private jobs for fresh graduates</a> cover where that leads.</p>
+<p>For a beginner, the employed route is usually the safer start, and freelancing is easier to add later once you have a skill someone has already paid you for. Pakistan's software and marketing sectors hire remotely at the next level up: our guides to <a href="/blog/digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan">remote digital marketing roles</a> and <a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">private jobs for fresh graduates</a> cover where that leads.</p>
 
 <h2>How to Apply for Remote Jobs with No Experience</h2>
 
 <ol>
-    <li><strong>Set up a professional email address and a one-page CV.</strong> List typing speed, English level, and the tools you know &mdash; MS Office, Google Sheets, Canva, any helpdesk or CRM software.</li>
+    <li><strong>Set up a professional email address and a one-page CV.</strong> List typing speed, English level, and the tools you know: MS Office, Google Sheets, Canva, any helpdesk or CRM software.</li>
     <li><strong>Apply through job boards and official careers pages only.</strong> This single habit removes most of the risk in this category.</li>
     <li><strong>Expect a written or recorded screening.</strong> Remote employers assess communication directly rather than trusting a CV, and it is usually short.</li>
     <li><strong>Answer the infrastructure questions concretely.</strong> Your connection speed, your backup power arrangement and the exact hours you can cover carry real weight in a remote hire.</li>
-    <li><strong>Confirm the pay structure and the payment method before accepting</strong> &mdash; hourly, per task or fixed monthly, and Payoneer or bank transfer.</li>
+    <li><strong>Confirm the pay structure and the payment method before accepting</strong>: hourly, per task or fixed monthly, and Payoneer or bank transfer.</li>
     <li><strong>Get the offer in writing,</strong> even for a part-time role. Rate, hours, pay date, and who to report to.</li>
     <li><strong>Treat the first weeks as a trial in both directions.</strong> Track your own output and ask for feedback, because a remote manager judges on results rather than presence.</li>
 </ol>
@@ -269,7 +269,7 @@ JOBHTML;
 <p>Live chat support and data entry are the largest entry-level categories, followed by virtual assistance, transcription and content writing. Support roles pay more predictably; task-based data work is more flexible but less steady.</p>
 
 <h3>Are remote jobs suitable for students?</h3>
-<p>Yes, and part-time shifts of three to five hours are common. Check the time zone before you commit &mdash; a US-hours support shift means working overnight in Pakistan, while UK and Gulf coverage sits far more comfortably alongside classes.</p>
+<p>Yes, and part-time shifts of three to five hours are common. Check the time zone before you commit: a US-hours support shift means working overnight in Pakistan, while UK and Gulf coverage sits far more comfortably alongside classes.</p>
 
 <h3>Do I need my own laptop and internet connection?</h3>
 <p>For almost every remote role, yes. Employers also ask how you handle load shedding, so a UPS or a backup connection is worth mentioning in the application rather than waiting to be asked.</p>
@@ -308,25 +308,25 @@ JOBHTML;
 <p>Looking at office-based or overseas options alongside remote work? These cover the rest:</p>
 
 <ul>
-    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; the largest entry-level remote category, what it pays, and why the Amazon version of it is a scam.</li>
-    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a> &mdash; entry-level pay, the minimum wage floor, and the trainee titles that need no experience.</li>
-    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; why almost everything advertised is a PPS project post, and how FPSC and PPSC differ.</li>
-    <li><a href="/blog/digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan">Digital Marketing Expert (SEO) &mdash; Remote, Pakistan</a> &mdash; what a remote role looks like once you have a skill behind you.</li>
-    <li><a href="/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern">Senior Frontend Developer at ERS Tech, Lahore</a> &mdash; the on-site software route in the same market.</li>
-    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; the office-based alternative, and what each sector actually pays.</li>
-    <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a> &mdash; the American remote market, and why a US job usually needs US work authorization.</li>
+    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a>: the largest entry-level remote category, what it pays, and why the Amazon version of it is a scam.</li>
+    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a>: entry-level pay, the minimum wage floor, and the trainee titles that need no experience.</li>
+    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a>: why almost everything advertised is a PPS project post, and how FPSC and PPSC differ.</li>
+    <li><a href="/blog/digital-marketing-expert-seo-job-at-urban-solar-remote-pakistan">Digital Marketing Expert (SEO), Remote, Pakistan</a>, what a remote role looks like once you have a skill behind you.</li>
+    <li><a href="/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern">Senior Frontend Developer at ERS Tech, Lahore</a>: the on-site software route in the same market.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a>: the office-based alternative, and what each sector actually pays.</li>
+    <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a>: the American remote market, and why a US job usually needs US work authorization.</li>
     <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a></li>
-    <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a> &mdash; platform fees, State Bank freelancer accounts and the tax on IT export income.</li>
-    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a> &mdash; live dated pay in Pakistan, and why remote contracts pay several times local salaries.</li>
-    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a> &mdash; the entry-level remote role, and how to price it so it stays worth doing.</li>
-    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a> &mdash; dated Pakistani pay, and the cold-outreach laws no other guide mentions.</li>
-    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a> &mdash; the titles that actually work, and the tools that get accounts restricted.</li>
-    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a> &mdash; the research craft behind a prospect list, and why a verified email often is not.</li>
-    <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a> &mdash; what the daily quotas really mean once you do the arithmetic.</li>
-    <li><a href="/blog/on-page-seo-assistant-jobs">On-Page SEO Assistant Jobs</a> &mdash; what Google actually documents, and the checklist rules that have no official basis.</li>
+    <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a>: platform fees, State Bank freelancer accounts and the tax on IT export income.</li>
+    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a>: live dated pay in Pakistan, and why remote contracts pay several times local salaries.</li>
+    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a>: the entry-level remote role, and how to price it so it stays worth doing.</li>
+    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a>: dated Pakistani pay, and the cold-outreach laws no other guide mentions.</li>
+    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a>: the titles that actually work, and the tools that get accounts restricted.</li>
+    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a>: the research craft behind a prospect list, and why a verified email often is not.</li>
+    <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a>: what the daily quotas really mean once you do the arithmetic.</li>
+    <li><a href="/blog/on-page-seo-assistant-jobs">On-Page SEO Assistant Jobs</a>: what Google actually documents, and the checklist rules that have no official basis.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, financial or careers advice. Payment platforms, their availability in Pakistan, and employer terms change &mdash; confirm what is currently available to you and get every offer in writing before starting work or sharing personal documents.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, financial or careers advice. Payment platforms, their availability in Pakistan, and employer terms change: confirm what is currently available to you and get every offer in writing before starting work or sharing personal documents.</p>
 HTML;
     }
 }

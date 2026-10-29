@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Plumber Salary in the UK and USA" — the pay half of the plumber cluster.
+ * "Plumber Salary in the UK and USA": the pay half of the plumber cluster.
  * The Gulf guide owns recruitment cost and the Saudi exam; the Canada and
  * Australia guide owns licensing; this one owns what the trade pays and why
  * every source disagrees about it.
@@ -335,7 +335,7 @@ JOBHTML;
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Statutory wage floor</strong></td><td style="padding:10px;">£12.71 an hour at 21 and over, from 1 April 2026</td><td style="padding:10px;">Federal minimum wage, with higher state and city floors</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Apprentice floor</strong></td><td style="padding:10px;">£8.00 an hour</td><td style="padding:10px;">Set by the apprenticeship programme and state law</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Paid holiday</strong></td><td style="padding:10px;">5.6 weeks a year by law</td><td style="padding:10px;">No federal entitlement</td></tr>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Is plumbing licensed?</strong></td><td style="padding:10px;">No &mdash; but gas work is, by law</td><td style="padding:10px;">Yes, state by state and often by city</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Is plumbing licensed?</strong></td><td style="padding:10px;">No, but gas work is, by law</td><td style="padding:10px;">Yes, state by state and often by city</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>Does the licence travel?</strong></td><td style="padding:10px;">Gas Safe registration is UK-wide</td><td style="padding:10px;">No. A state licence does not transfer automatically</td></tr>
     </tbody>
 </table>
@@ -347,7 +347,7 @@ JOBHTML;
     <li><strong>In the UK, get Gas Safe registered.</strong> It is the one credential that changes which jobs you may legally do, and therefore the one that changes the rate.</li>
     <li><strong>In the US, check which state you are licensed in before you move.</strong> There is no national licence; the board in your destination state decides whether your experience counts.</li>
     <li><strong>Follow the industry, not the job title.</strong> US government and manufacturing employers pay above the contractor median. The work is less varied and more secure.</li>
-    <li><strong>Add the certifications that gate work</strong> &mdash; unvented hot water, water regulations, commercial heating in the UK; medical gas, backflow and process piping endorsements in the US.</li>
+    <li><strong>Add the certifications that gate work</strong>: unvented hot water, water regulations, commercial heating in the UK; medical gas, backflow and process piping endorsements in the US.</li>
     <li><strong>Ask what the call-out rota is worth</strong> in writing. Emergency and out-of-hours work is where service plumbing pay is actually made, and it is rarely in the headline figure.</li>
     <li><strong>Count the apprenticeship as paid training.</strong> Four to five years on the tools with no fees, ending in a credential, is a different proposition from a degree.</li>
 </ol>
@@ -409,14 +409,14 @@ JOBHTML;
 <p>The rest of the plumbing cluster:</p>
 
 <ul>
-    <li><a href="/blog/electrician-salary-in-the-uae-uk-and-usa">Electrician Salary in the UAE, UK and USA</a> &mdash; the same official-data comparison for electricians.</li>
-    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a> &mdash; who pays the recruitment cost, and the Saudi trade exam sat before the visa.</li>
-    <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a> &mdash; the Red Seal, the compulsory provinces and the state licence.</li>
-    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; the licensing route in a country where the trade is fully regulated.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; the wider US trades market and its visa routes.</li>
-    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a> &mdash; what a trade has to pay to be sponsorable in the UK.</li>
-    <li><a href="/blog/vacancies-in-london">Vacancies in London</a> &mdash; the statutory pay floors and the right-to-work check.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; why low-paid UK sponsorship adverts do not add up.</li>
+    <li><a href="/blog/electrician-salary-in-the-uae-uk-and-usa">Electrician Salary in the UAE, UK and USA</a>: the same official-data comparison for electricians.</li>
+    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a>, who pays the recruitment cost, and the Saudi trade exam sat before the visa.</li>
+    <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a>: the Red Seal, the compulsory provinces and the state licence.</li>
+    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a>: the licensing route in a country where the trade is fully regulated.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: the wider US trades market and its visa routes.</li>
+    <li><a href="/blog/uk-jobs-with-visa-sponsorship">UK Jobs with Visa Sponsorship</a>: what a trade has to pay to be sponsorable in the UK.</li>
+    <li><a href="/blog/vacancies-in-london">Vacancies in London</a>: the statutory pay floors and the right-to-work check.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: why low-paid UK sponsorship adverts do not add up.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, employment or financial advice. US pay and projection data is from the Bureau of Labor Statistics, UK earnings data from the Office for National Statistics, and gas safety law from the Health and Safety Executive. Figures are updated annually; confirm the current ones on bls.gov, ons.gov.uk and hse.gov.uk.</p>

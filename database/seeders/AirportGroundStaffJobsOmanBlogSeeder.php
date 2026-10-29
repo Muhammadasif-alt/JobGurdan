@@ -333,13 +333,13 @@ JOBHTML;
 <h2 id="more-guides">More Job Guides</h2>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; the cabin route with the same airline, and a different selection process entirely.</li>
-    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a> &mdash; the employer behind several of the interior airfields listed above.</li>
-    <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a> &mdash; the same work across the border, where the decisive rule is the shift-worker exception to the overtime premium rather than Omanisation.</li>
-    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">Etihad Airport Jobs in the UAE</a> &mdash; the UAE entitlements table, and how airline recruitment differs from airport recruitment.</li>
-    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">Emirates Cabin Crew Jobs in the UAE</a> &mdash; the cabin side of the same industry, with its own selection process.</li>
-    <li><a href="/blog/how-to-apply-for-dp-world-port-jobs-in-uae">DP World Port Jobs in the UAE</a> &mdash; the Pakistani emigration paperwork and costs, set out in full.</li>
-    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">Heathrow Airport Jobs in the UK</a> &mdash; the same job under an entirely different immigration system.</li>
+    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a>: the cabin route with the same airline, and a different selection process entirely.</li>
+    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a>: the employer behind several of the interior airfields listed above.</li>
+    <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a>: the same work across the border, where the decisive rule is the shift-worker exception to the overtime premium rather than Omanisation.</li>
+    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">Etihad Airport Jobs in the UAE</a>: the UAE entitlements table, and how airline recruitment differs from airport recruitment.</li>
+    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">Emirates Cabin Crew Jobs in the UAE</a>: the cabin side of the same industry, with its own selection process.</li>
+    <li><a href="/blog/how-to-apply-for-dp-world-port-jobs-in-uae">DP World Port Jobs in the UAE</a>: the Pakistani emigration paperwork and costs, set out in full.</li>
+    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">Heathrow Airport Jobs in the UK</a>: the same job under an entirely different immigration system.</li>
 </ul>
 
 <h2 id="sources">Official Sources</h2>

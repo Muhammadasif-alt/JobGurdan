@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Professor Employment in the US" — the employment relationship itself:
+ * "Professor Employment in the US": the employment relationship itself:
  * what the contract covers, how the week divides, what promotion is worth
  * and why a US professorship is not the same office as a British one. The
  * faculty hub owns the workforce overview and the rank averages table; the
@@ -94,7 +94,7 @@ class ProfessorEmploymentUsBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'US Universities & Four-Year Colleges — Professorial Ranks (Aggregated)'],
+            ['name' => 'US Universities & Four-Year Colleges: Professorial Ranks (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'us-professor-ranks-aggregated']
         );
 
@@ -245,7 +245,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Assistant to associate</strong> is normally decided together with tenure, on a fixed clock. The AAUP standard, which most institutions write into their handbooks, is a probationary period not exceeding <strong>seven years</strong>, with notice at least a year before it ends. It is worth roughly $16,000 on the averages above, and failing it ends the appointment rather than freezing it.</li>
-    <li><strong>Associate to full professor</strong> usually has <strong>no clock at all</strong>. You apply when your department believes the record supports it, which for many people is six to ten years later and for some is never. It is worth around $50,000 &mdash; the largest single jump in the structure, and the one nobody schedules for you.</li>
+    <li><strong>Associate to full professor</strong> usually has <strong>no clock at all</strong>. You apply when your department believes the record supports it, which for many people is six to ten years later and for some is never. It is worth around $50,000: the largest single jump in the structure, and the one nobody schedules for you.</li>
 </ul>
 
 <p>Because the second step is unscheduled, associate professor is where US academic careers most often stall. If that rank matters to you, ask the department how many associates it has promoted in the last five years before you accept the first job.</p>
@@ -261,11 +261,11 @@ JOBHTML;
 <p>Many US appointments carry "professor" in the title and no tenure anywhere near them. Read the modifier, because it is doing all the work:</p>
 
 <ul>
-    <li><strong>Teaching professor</strong> or <strong>professor of practice</strong> &mdash; full-time, salaried, usually promotable within its own ladder, no tenure, heavier teaching.</li>
-    <li><strong>Clinical professor</strong> &mdash; professional schools. A licence and current practice usually matter more than publications.</li>
-    <li><strong>Research professor</strong> &mdash; funded by grants. The appointment lasts as long as the award.</li>
-    <li><strong>Visiting professor</strong> &mdash; a defined term, often one year, frequently covering a sabbatical.</li>
-    <li><strong>Adjunct professor</strong> &mdash; paid per course section, averaging $4,093 for a standard three-credit section, usually without benefits.</li>
+    <li><strong>Teaching professor</strong> or <strong>professor of practice</strong>: full-time, salaried, usually promotable within its own ladder, no tenure, heavier teaching.</li>
+    <li><strong>Clinical professor</strong>: professional schools. A licence and current practice usually matter more than publications.</li>
+    <li><strong>Research professor</strong>: funded by grants. The appointment lasts as long as the award.</li>
+    <li><strong>Visiting professor</strong>: a defined term, often one year, frequently covering a sabbatical.</li>
+    <li><strong>Adjunct professor</strong>: paid per course section, averaging $4,093 for a standard three-credit section, usually without benefits.</li>
 </ul>
 
 <p>Across full-time faculty, 50.7 per cent hold tenure, 18.0 per cent are on the tenure track and 31.4 per cent are in non-tenure-track appointments. Include part-time staff and the non-tenured share is far larger again.</p>
@@ -342,14 +342,14 @@ JOBHTML;
 <p>These cover the parts of the academic career this page assumes:</p>
 
 <ul>
-    <li><a href="/blog/faculty-careers-in-the-us">Faculty Careers in the US</a> &mdash; every appointment type compared, with the BLS data behind each.</li>
-    <li><a href="/blog/assistant-professor-jobs-in-the-us">Assistant Professor Jobs in the US</a> &mdash; the entry rank, the hiring calendar and the job packet.</li>
-    <li><a href="/blog/colleges-hiring-professors-in-the-us">Colleges Hiring Professors in the US</a> &mdash; which kinds of institution hire on which credential.</li>
-    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a> &mdash; per-section pay and benefits eligibility in full.</li>
-    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the British title that carries no salary at all.</li>
-    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; qualified teacher status and the school pay scales.</li>
-    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; the school-level route and state certification.</li>
-    <li><a href="/blog/higher-education-degree-jobs-in-the-us">Higher Education Degree Jobs in the US</a> &mdash; the administrative careers inside the same institutions, and what they pay.</li>
+    <li><a href="/blog/faculty-careers-in-the-us">Faculty Careers in the US</a>: every appointment type compared, with the BLS data behind each.</li>
+    <li><a href="/blog/assistant-professor-jobs-in-the-us">Assistant Professor Jobs in the US</a>: the entry rank, the hiring calendar and the job packet.</li>
+    <li><a href="/blog/colleges-hiring-professors-in-the-us">Colleges Hiring Professors in the US</a>, which kinds of institution hire on which credential.</li>
+    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a>: per-section pay and benefits eligibility in full.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a>: the British title that carries no salary at all.</li>
+    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a>: qualified teacher status and the school pay scales.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a>: the school-level route and state certification.</li>
+    <li><a href="/blog/higher-education-degree-jobs-in-the-us">Higher Education Degree Jobs in the US</a>: the administrative careers inside the same institutions, and what they pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, employment or tax advice. Pay data is from the American Association of University Professors and the US Bureau of Labor Statistics; workload, promotion and benefits policies are set by each institution. Confirm the terms with the hiring department before relying on them.</p>

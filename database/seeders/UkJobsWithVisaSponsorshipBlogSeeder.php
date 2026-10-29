@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "UK Jobs with Visa Sponsorship" — the UK sibling of the Australia and
+ * "UK Jobs with Visa Sponsorship": the UK sibling of the Australia and
  * Canada sponsorship guides, which this site already carries. It owns the
  * employer side of sponsorship: how to read the register of licensed
  * sponsors, what a Certificate of Sponsorship is and who pays for what.
@@ -97,7 +97,7 @@ class UkJobsWithVisaSponsorshipBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'UK Licensed Sponsors — Skilled Worker Route Employers (Aggregated)'],
+            ['name' => 'UK Licensed Sponsors: Skilled Worker Route Employers (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'uk-licensed-sponsors-aggregated']
         );
 
@@ -166,7 +166,7 @@ class UkJobsWithVisaSponsorshipBlogSeeder extends Seeder
 </ul>
 
 <h3>What the employer pays</h3>
-<p><strong>The Immigration Skills Charge is the sponsor's own liability</strong> &mdash; &pound;1,320 per 12 months for a medium or large sponsor, &pound;480 for a small or charitable one &mdash; and it may not be recovered from the worker.</p>
+<p><strong>The Immigration Skills Charge is the sponsor's own liability</strong>, &pound;1,320 per 12 months for a medium or large sponsor, &pound;480 for a small or charitable one, and it may not be recovered from the worker.</p>
 
 <p><strong>Never pay for sponsorship.</strong> There is no lawful payment from a worker for a sponsor licence or a Certificate of Sponsorship. Visa rules, thresholds and fees are set by the Home Office, not by JobGader; confirm them on gov.uk before applying.</p>
 JOBHTML;
@@ -367,14 +367,14 @@ JOBHTML;
 <p>These pick up where this one stops:</p>
 
 <ul>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; every visa route compared, including the ones that closed.</li>
-    <li><a href="/blog/jobs-in-london-england-for-american-applicants">Jobs in London England for American Applicants</a> &mdash; what changes when the passport is American.</li>
-    <li><a href="/blog/vacancies-in-london">Vacancies in London</a> &mdash; the London market, the pay floors and the right-to-work check.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; the same mechanics under a different system.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; LMIA-based sponsorship compared.</li>
-    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; the care route and what changed.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; why these adverts almost never add up.</li>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; a medium-skilled code and what keeps it sponsorable.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: every visa route compared, including the ones that closed.</li>
+    <li><a href="/blog/jobs-in-london-england-for-american-applicants">Jobs in London England for American Applicants</a>: what changes when the passport is American.</li>
+    <li><a href="/blog/vacancies-in-london">Vacancies in London</a>: the London market, the pay floors and the right-to-work check.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>: the same mechanics under a different system.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: LMIA-based sponsorship compared.</li>
+    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a>: the care route and what changed.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: why these adverts almost never add up.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: a medium-skilled code and what keeps it sponsorable.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not immigration or legal advice. UK visa rules, salary thresholds, fees and eligible occupation lists change often. Confirm the current rules on gov.uk, or with a regulated adviser, before applying or paying anyone.</p>

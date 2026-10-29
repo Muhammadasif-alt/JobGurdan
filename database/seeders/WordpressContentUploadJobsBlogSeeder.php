@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "WordPress Content Upload Jobs" — the production half of a deliberately
+ * "WordPress Content Upload Jobs": the production half of a deliberately
  * split pair. This guide covers publishing and formatting work; its sibling,
  * the WordPress SEO Assistant guide, covers the optimisation work. They are
  * written to be complementary rather than competing, because the drafts
@@ -21,8 +21,8 @@ use Illuminate\Support\Str;
  *
  * Unlike the employer guides on this site, the honest answer here is yes: a
  * reader in Pakistan really can do this job today. So the guide spends its
- * effort on the two things that actually decide whether it pays — how the work
- * is priced, and how to tell a real client from a scam — rather than on the
+ * effort on the two things that actually decide whether it pays: how the work
+ * is priced, and how to tell a real client from a scam: rather than on the
  * generic skills lists the draft supplied.
  *
  * Corrections and additions to the draft:
@@ -159,7 +159,7 @@ class WordpressContentUploadJobsBlogSeeder extends Seeder
 <h3>Pay</h3>
 <p>Set by the individual client. The structure matters more than the headline: a per-post rate protects you, while a monthly rate against uncapped volume does not. Establish the expected number of posts, their length and the image workload before agreeing anything.</p>
 
-<p>Requirements, pay and payment arrangements are set by individual employers &mdash; not by JobGader. Confirm them in writing before you start, and never pay anyone to secure work.</p>
+<p>Requirements, pay and payment arrangements are set by individual employers, not by JobGader. Confirm them in writing before you start, and never pay anyone to secure work.</p>
 JOBHTML;
     }
 
@@ -269,9 +269,9 @@ JOBHTML;
 <p>Three samples covering different shapes of content is enough:</p>
 
 <ol>
-    <li><strong>A standard blog article</strong> &mdash; clean H2 and H3 structure, a featured image, two or three internal links, filled metadata.</li>
-    <li><strong>A service or product page</strong> &mdash; short sections, buttons, structured information, a clear call to action.</li>
-    <li><strong>A long-form guide</strong> &mdash; a table of contents, multiple heading levels, a table, an FAQ section, external references.</li>
+    <li><strong>A standard blog article</strong>: clean H2 and H3 structure, a featured image, two or three internal links, filled metadata.</li>
+    <li><strong>A service or product page</strong>: short sections, buttons, structured information, a clear call to action.</li>
+    <li><strong>A long-form guide</strong>: a table of contents, multiple heading levels, a table, an FAQ section, external references.</li>
 </ol>
 
 <p>Then do the thing almost nobody does: <strong>write two paragraphs explaining what you did and why.</strong> "I compressed these images from 3.2MB to 180KB", "I used H3 here rather than H2 because it sits under the previous section". That short explanation separates someone who understands the work from someone who has watched a tutorial.</p>
@@ -458,17 +458,17 @@ JOBHTML;
 <p>If you are building a remote career from Pakistan, these are the guides that pair with this one:</p>
 
 <ul>
-    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a> &mdash; the optimisation role this one leads into, and what it pays.</li>
-    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a> &mdash; a wider remote role with the same payment questions.</li>
-    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; adjacent work, and how to tell the real listings from the fake ones.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; the realistic starting points, ranked.</li>
-    <li><a href="/blog/wordpress-developer-jobs-in-usa">WordPress Developer Jobs in USA</a> &mdash; where the technical path leads, and what it requires.</li>
-    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a> &mdash; dated Pakistani pay, and the cold-outreach laws no other guide mentions.</li>
-    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a> &mdash; the titles that actually work, and the tools that get accounts restricted.</li>
-    <li><a href="/blog/on-page-seo-assistant-jobs">On-Page SEO Assistant Jobs</a> &mdash; what Google actually documents, and the checklist rules that have no official basis.</li>
-    <li><a href="/blog/local-seo-assistant-jobs">Local SEO Assistant Jobs</a> &mdash; Business Profiles, reviews and maps, and the two instructions worth refusing.</li>
-    <li><a href="/blog/canva-social-media-jobs">Canva Social Media Jobs</a> &mdash; which Canva features are free, and what the licence allows in client work.</li>
-    <li><a href="/blog/wordpress-elementor-jobs">WordPress Elementor Jobs</a> &mdash; the page-builder skill these roles ask for, and what it pays in PKR.</li>
+    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a>: the optimisation role this one leads into, and what it pays.</li>
+    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a>: a wider remote role with the same payment questions.</li>
+    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a>: adjacent work, and how to tell the real listings from the fake ones.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: the realistic starting points, ranked.</li>
+    <li><a href="/blog/wordpress-developer-jobs-in-usa">WordPress Developer Jobs in USA</a>: where the technical path leads, and what it requires.</li>
+    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a>: dated Pakistani pay, and the cold-outreach laws no other guide mentions.</li>
+    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a>: the titles that actually work, and the tools that get accounts restricted.</li>
+    <li><a href="/blog/on-page-seo-assistant-jobs">On-Page SEO Assistant Jobs</a>: what Google actually documents, and the checklist rules that have no official basis.</li>
+    <li><a href="/blog/local-seo-assistant-jobs">Local SEO Assistant Jobs</a>: Business Profiles, reviews and maps, and the two instructions worth refusing.</li>
+    <li><a href="/blog/canva-social-media-jobs">Canva Social Media Jobs</a>, which Canva features are free, and what the licence allows in client work.</li>
+    <li><a href="/blog/wordpress-elementor-jobs">WordPress Elementor Jobs</a>: the page-builder skill these roles ask for, and what it pays in PKR.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Rates, client requirements and payment arrangements vary widely and change, so confirm everything in writing with the individual employer before starting work. Never pay anyone to secure a job, and never return an "overpayment" to a client.</p>

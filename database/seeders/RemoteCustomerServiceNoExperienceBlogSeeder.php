@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Get a Remote Customer Service Job With No Experience" — a US-focused
+ * "How to Get a Remote Customer Service Job With No Experience": a US-focused
  * guide for a beginner asking how to land a first work-from-home support job.
  * The Remote Customer Service Jobs guide covers the Pakistani market and the
  * Customer Service Jobs in USA guide covers on-site American roles, so this one
@@ -162,7 +162,7 @@ class RemoteCustomerServiceNoExperienceBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, equipment and eligibility are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own careers site, and never pay for a job, training or equipment.</p>
+<p><strong>Note:</strong> pay, equipment and eligibility are set by each employer, not by JobGader. Confirm the details on the employer's own careers site, and never pay for a job, training or equipment.</p>
 JOBHTML;
     }
 
@@ -365,11 +365,11 @@ JOBHTML;
 <p>Looking at other remote or entry-level routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; the same work from Pakistan, with local pay floors and shift realities.</li>
-    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; on-site American roles, which often build the experience remote postings ask for.</li>
-    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a> &mdash; other remote roles and how to tell real listings from scams.</li>
-    <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a> &mdash; the wider remote market beyond customer support.</li>
-    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; another entry-level remote route, and its own scam warnings.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: the same work from Pakistan, with local pay floors and shift realities.</li>
+    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a>: on-site American roles, which often build the experience remote postings ask for.</li>
+    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a>: other remote roles and how to tell real listings from scams.</li>
+    <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a>: the wider remote market beyond customer support.</li>
+    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a>: another entry-level remote route, and its own scam warnings.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Pay, eligibility and equipment requirements come from individual job postings checked in September 2026 and change often. Confirm the details on the employer's own careers site and with the Bureau of Labor Statistics before relying on them.</p>

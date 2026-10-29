@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "AWS Cloud Engineer Jobs in USA" — the platform-specific companion to the
+ * "AWS Cloud Engineer Jobs in USA": the platform-specific companion to the
  * cloud engineer guide, which stays the pillar. This one only covers what is
  * true of AWS specifically, so the two do not compete for the same query.
  *
@@ -39,7 +39,7 @@ use Illuminate\Support\Str;
  *    years of hands-on experience before that paper.
  *
  * 4. It lists "AWS Hardware Engineer" among cloud engineering roles. That is
- *    data centre hardware work inside Amazon — a different occupation with a
+ *    data centre hardware work inside Amazon: a different occupation with a
  *    different skill set, and misleading in a list someone applies from.
  *
  * 5. It reports an openings count as though it were a statistic. Board counts
@@ -147,7 +147,7 @@ class AwsCloudEngineerJobsUsaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li>Real operational experience &mdash; systems you have run under load, not only built</li>
+    <li>Real operational experience: systems you have run under load, not only built</li>
     <li>Core AWS in depth: EC2, S3, VPC, IAM and Lambda, with EKS on container-heavy teams</li>
     <li>Infrastructure as code, most often Terraform, treated as software rather than as scripts</li>
     <li>Containers and orchestration, and an understanding of what they cost to run</li>
@@ -167,7 +167,7 @@ class AwsCloudEngineerJobsUsaBlogSeeder extends Seeder
 
 <p><strong>Ask who owns the AWS bill.</strong> If nobody does, you will inherit it in month three without the authority to change anything.</p>
 
-<p><strong>Note:</strong> pay, on-call expectations, clearance requirements and any sponsorship decision are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, on-call expectations, clearance requirements and any sponsorship decision are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -190,14 +190,14 @@ JOBHTML;
 
 <p>Read those together. <strong>The AWS-specific number is lower than the general one.</strong> If AWS commanded a premium, that figure would be the higher of the two. Nobody is lying; the two numbers are drawn from different sample sizes, different job titles and different self-reported submissions, and the gap between them is measurement noise rather than a finding about AWS pay.</p>
 
-<p>The same applies to the wider range you will see quoted, roughly <strong>$88,973 to $208,034</strong>, and to city averages like Seattle at <strong>$160,429</strong>, New York at <strong>$146,578</strong> and Washington DC at <strong>$142,475</strong>. They are directionally useful &mdash; the expensive cities do pay more, and the top of the market is genuinely near $200,000 &mdash; and they are not measurements.</p>
+<p>The same applies to the wider range you will see quoted, roughly <strong>$88,973 to $208,034</strong>, and to city averages like Seattle at <strong>$160,429</strong>, New York at <strong>$146,578</strong> and Washington DC at <strong>$142,475</strong>. They are directionally useful, the expensive cities do pay more, and the top of the market is genuinely near $200,000, and they are not measurements.</p>
 
 <p>The measured figures come from the Bureau of Labor Statistics, which has no cloud engineer occupation at all. The work is counted under three others:</p>
 
 <ul>
-    <li><strong>Network and computer systems administrators</strong> &mdash; a <strong>$99,130 median</strong>, the highest tenth above <strong>$155,050</strong>. Running the estate.</li>
-    <li><strong>Computer network architects</strong> &mdash; a <strong>$134,050 median</strong>, the highest tenth above <strong>$202,680</strong>. Designing it.</li>
-    <li><strong>Software developers</strong> &mdash; a <strong>$135,980 median</strong>, the highest tenth above <strong>$214,670</strong>. Building platform tooling as software.</li>
+    <li><strong>Network and computer systems administrators</strong>: a <strong>$99,130 median</strong>, the highest tenth above <strong>$155,050</strong>. Running the estate.</li>
+    <li><strong>Computer network architects</strong>: a <strong>$134,050 median</strong>, the highest tenth above <strong>$202,680</strong>. Designing it.</li>
+    <li><strong>Software developers</strong>: a <strong>$135,980 median</strong>, the highest tenth above <strong>$214,670</strong>. Building platform tooling as software.</li>
 </ul>
 
 <p>So the useful question at offer stage is not what AWS engineers earn. It is <strong>which of those three the role is</strong>. Read the requirements: provisioning and maintaining pays like administration, designing environments pays like architecture, building internal platform software pays like development. The word AWS in the title moves the number far less than which of those verbs the job is.</p>
@@ -212,13 +212,13 @@ JOBHTML;
 
 <p>This is the most consequential thing on the page, and almost every guide flattens it into one sentence about federal work.</p>
 
-<p>A large share of US AWS postings &mdash; concentrated around Washington DC, Northern Virginia and Columbia, Maryland &mdash; are federal, defence or intelligence work. Those advertisements ask for two different things, and they are not the same requirement.</p>
+<p>A large share of US AWS postings, concentrated around Washington DC, Northern Virginia and Columbia, Maryland, are federal, defence or intelligence work. Those advertisements ask for two different things, and they are not the same requirement.</p>
 
-<p><strong>AWS GovCloud (US) requires a US Person.</strong> AWS restricts GovCloud access to customers who are US Persons and who comply with US export control law, because the regions exist to hold ITAR and export-controlled data. Under those rules a <strong>US Person is a US citizen <em>or</em> a lawful permanent resident</strong> &mdash; a green card holder. Working on a GovCloud environment does not, by itself, require citizenship.</p>
+<p><strong>AWS GovCloud (US) requires a US Person.</strong> AWS restricts GovCloud access to customers who are US Persons and who comply with US export control law, because the regions exist to hold ITAR and export-controlled data. Under those rules a <strong>US Person is a US citizen <em>or</em> a lawful permanent resident</strong>: a green card holder. Working on a GovCloud environment does not, by itself, require citizenship.</p>
 
 <p><strong>A security clearance requires US citizenship.</strong> It also cannot be applied for independently: you need an employer with a contract who is willing to sponsor the investigation, and the process takes months. No amount of AWS skill substitutes for it.</p>
 
-<p>Why this matters practically: <strong>if you hold a green card, the cleared postings are closed to you and a meaningful number of GovCloud postings are not.</strong> If you are on a work visa, both are generally closed, and the commercial market is where your time is better spent &mdash; it is larger, better paid at the top end, and far more remote-friendly.</p>
+<p>Why this matters practically: <strong>if you hold a green card, the cleared postings are closed to you and a meaningful number of GovCloud postings are not.</strong> If you are on a work visa, both are generally closed, and the commercial market is where your time is better spent: it is larger, better paid at the top end, and far more remote-friendly.</p>
 
 <p>Read the eligibility line before you read anything else in a federal posting. Our <a href="/blog/cybersecurity-analyst-jobs-in-usa">cybersecurity analyst guide</a> covers the clearance process in full.</p>
 
@@ -237,7 +237,7 @@ JOBHTML;
     <li><strong>Kubernetes gates its security exam.</strong> The Linux Foundation will not register you for CKS without an active CKA. Covered in our <a href="/blog/cybersecurity-engineer-jobs-in-usa">cybersecurity engineer guide</a>.</li>
 </ul>
 
-<p>The sensible AWS sequence is Solutions Architect &ndash; Associate, or SysOps Administrator &ndash; Associate if your work is operational, backed by a project you can describe in detail &mdash; then Professional once you have the experience AWS is describing. An associate certificate with real work behind it interviews better than a professional one with nothing, because the conversation goes straight to what you actually did.</p>
+<p>The sensible AWS sequence is Solutions Architect &ndash; Associate, or SysOps Administrator &ndash; Associate if your work is operational, backed by a project you can describe in detail, then Professional once you have the experience AWS is describing. An associate certificate with real work behind it interviews better than a professional one with nothing, because the conversation goes straight to what you actually did.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/aws-cloud-engineer-jobs-in-usa-certification.jpg"
@@ -249,20 +249,20 @@ JOBHTML;
 
 <p>AWS holding the largest share of US cloud postings is usually presented as a reason to choose it. It is, but the same fact has a second edge that nobody mentions: <strong>the largest pool of postings attracts the largest pool of applicants.</strong> Every bootcamp, every career-change course and every certification mill defaults to AWS, which means the associate-level AWS certificate is the most common single credential in the pile.</p>
 
-<p>That does not make it worthless &mdash; it makes it the baseline rather than the differentiator. What separates applications in an AWS-heavy market is the thing that is scarce: production operational experience, IAM design you can reason about, and a cost story with a number attached.</p>
+<p>That does not make it worthless: it makes it the baseline rather than the differentiator. What separates applications in an AWS-heavy market is the thing that is scarce: production operational experience, IAM design you can reason about, and a cost story with a number attached.</p>
 
 <p>It also means the narrower specialisms are worth more here than they are elsewhere. GovCloud eligibility, EKS at scale, and cost engineering all shrink the applicant pool sharply, and all three appear constantly in senior postings.</p>
 
 <h2>The Services That Actually Recur in Postings</h2>
 
 <ul>
-    <li><strong>EC2, S3, VPC and IAM</strong> &mdash; the four that appear in nearly every advertisement. IAM is the one candidates underprepare and the one interviews probe hardest.</li>
+    <li><strong>EC2, S3, VPC and IAM</strong>: the four that appear in nearly every advertisement. IAM is the one candidates underprepare and the one interviews probe hardest.</li>
     <li><strong>Lambda</strong> and event-driven patterns, increasingly assumed rather than listed as a specialism.</li>
     <li><strong>EKS</strong> on container-heavy teams, along with what a cluster costs to run.</li>
     <li><strong>Terraform above CloudFormation</strong> in most postings, treated as code that gets reviewed rather than as scripts.</li>
-    <li><strong>CI/CD</strong> &mdash; GitHub Actions, GitLab CI or CodePipeline &mdash; and the discipline to keep pipelines boring.</li>
+    <li><strong>CI/CD</strong>, GitHub Actions, GitLab CI or CodePipeline, and the discipline to keep pipelines boring.</li>
     <li><strong>Python and Bash</strong> for automation, with enough software practice to write code others maintain.</li>
-    <li><strong>Cost management</strong> &mdash; last on their requirements list, first on your promotion case, because it is the only part of the job with a dollar figure attached.</li>
+    <li><strong>Cost management</strong>: last on their requirements list, first on your promotion case, because it is the only part of the job with a dollar figure attached.</li>
     <li><strong>Hybrid and multi-cloud</strong>, usually AWS alongside Azure or an on-premise estate that is not going anywhere.</li>
 </ul>
 
@@ -276,7 +276,7 @@ JOBHTML;
     <li><strong>Cloud Platform or Infrastructure Engineer.</strong> Broader infrastructure with heavy AWS reliance. Closest to the <a href="/blog/network-engineer-jobs-in-usa">network engineering</a> side.</li>
 </ul>
 
-<p>One correction worth making, because it appears in role lists on this subject: <strong>"AWS Hardware Engineer" is not a cloud engineering job.</strong> Those are data centre and hardware roles inside Amazon itself &mdash; server design, racks, physical infrastructure. It is a different occupation with a different skill set, and applying to it from a cloud engineering background is a mismatch on both sides.</p>
+<p>One correction worth making, because it appears in role lists on this subject: <strong>"AWS Hardware Engineer" is not a cloud engineering job.</strong> Those are data centre and hardware roles inside Amazon itself: server design, racks, physical infrastructure. It is a different occupation with a different skill set, and applying to it from a cloud engineering background is a mismatch on both sides.</p>
 
 <h2>Where the Jobs Are</h2>
 
@@ -287,7 +287,7 @@ JOBHTML;
 <h2>Frequently Asked Questions</h2>
 
 <h3>How much do AWS cloud engineers make in the USA?</h3>
-<p>There is no federal figure for the title. Job boards quote averages around $130,000 to $136,000, but those are self-reported estimates that disagree with each other. The measured medians are $99,130 for network and computer systems administrators, $134,050 for computer network architects and $135,980 for software developers &mdash; and which one the role resembles matters more than the platform.</p>
+<p>There is no federal figure for the title. Job boards quote averages around $130,000 to $136,000, but those are self-reported estimates that disagree with each other. The measured medians are $99,130 for network and computer systems administrators, $134,050 for computer network architects and $135,980 for software developers, and which one the role resembles matters more than the platform.</p>
 
 <h3>Do AWS GovCloud jobs require a security clearance?</h3>
 <p>Not necessarily, and this is the distinction that matters most. GovCloud requires US Person status, which includes lawful permanent residents. A security clearance is a separate, higher bar requiring US citizenship and an employer to sponsor the investigation. Read which one a posting is actually asking for.</p>
@@ -316,7 +316,7 @@ JOBHTML;
 <p>Board averages cluster around $130,000 to $136,000 and contradict one another. The measured medians are $99,130, $134,050 and $135,980 depending on which occupation the role belongs to.</p>
 
 <h3>AWS GovCloud jobs</h3>
-<p>Federal and defence work requiring US Person status &mdash; citizens and green card holders. Not the same thing as a cleared posting.</p>
+<p>Federal and defence work requiring US Person status: citizens and green card holders. Not the same thing as a cleared posting.</p>
 
 <h3>Remote AWS engineer jobs</h3>
 <p>Common with commercial employers past entry level, rare in cleared work. Ask about the on-call rotation before offer stage.</p>
@@ -341,14 +341,14 @@ JOBHTML;
 <p>Comparing platforms and routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a> &mdash; the occupation as a whole, and the declining job title that feeds it.</li>
-    <li><a href="/blog/azure-cloud-engineer-jobs-in-usa">Azure Cloud Engineer Jobs in USA</a> &mdash; the other major platform, its gated certification path, and the Microsoft 365 work bundled into a lot of those postings.</li>
-    <li><a href="/blog/devops-engineer-jobs-in-usa">DevOps Engineer Jobs in USA</a> &mdash; the delivery half of platform work, and the four measures senior interviews run on.</li>
-    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a> &mdash; the $34,920 between running a network and designing one.</li>
-    <li><a href="/blog/cybersecurity-engineer-jobs-in-usa">Cybersecurity Engineer Jobs in USA</a> &mdash; the security specialisation, and the Kubernetes certification ordering trap.</li>
-    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; the clearance rules in full.</li>
-    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; the best-paid of the three occupations this work is counted under.</li>
-    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the automation language that carries most of this job.</li>
+    <li><a href="/blog/cloud-engineer-jobs-in-usa">Cloud Engineer Jobs in USA</a>: the occupation as a whole, and the declining job title that feeds it.</li>
+    <li><a href="/blog/azure-cloud-engineer-jobs-in-usa">Azure Cloud Engineer Jobs in USA</a>: the other major platform, its gated certification path, and the Microsoft 365 work bundled into a lot of those postings.</li>
+    <li><a href="/blog/devops-engineer-jobs-in-usa">DevOps Engineer Jobs in USA</a>: the delivery half of platform work, and the four measures senior interviews run on.</li>
+    <li><a href="/blog/network-engineer-jobs-in-usa">Network Engineer Jobs in USA</a>: the $34,920 between running a network and designing one.</li>
+    <li><a href="/blog/cybersecurity-engineer-jobs-in-usa">Cybersecurity Engineer Jobs in USA</a>: the security specialisation, and the Kubernetes certification ordering trap.</li>
+    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a>: the clearance rules in full.</li>
+    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a>: the best-paid of the three occupations this work is counted under.</li>
+    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a>: the automation language that carries most of this job.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, employment projections, certification requirements, export control rules and clearance policy change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics, AWS and the employer's own advertisement before applying or paying for any course.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Government Security Jobs in Australia" — a guide to protective, border,
+ * "Government Security Jobs in Australia": a guide to protective, border,
  * intelligence and security vetting work with Australian Government agencies:
  * who hires, what each agency pays and requires, how security clearances work,
  * and why most roles are open only to Australian citizens.
@@ -153,7 +153,7 @@ class GovernmentSecurityJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> eligibility, clearances and hiring decisions are set by each agency &mdash; not by JobGader. Apply only through official government career sites and APSJobs.</p>
+<p><strong>Note:</strong> eligibility, clearances and hiring decisions are set by each agency, not by JobGader. Apply only through official government career sites and APSJobs.</p>
 JOBHTML;
     }
 
@@ -337,13 +337,13 @@ JOBHTML;
 <p>Comparing security and law enforcement careers? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a> &mdash; federal law enforcement careers in the US.</li>
-    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a> &mdash; the cyber side of security work.</li>
-    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a> &mdash; another public safety career.</li>
-    <li><a href="/blog/security-specialist-jobs-in-uae">Security Specialist Jobs in UAE</a> &mdash; security roles in the Gulf.</li>
-    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a> &mdash; visa routes for non-citizens.</li>
-    <li><a href="/blog/emergency-dispatcher-jobs-in-usa">Emergency Dispatcher Jobs in USA</a> &mdash; 911 telecommunicator pay, experience rules, typing and CritiCall tests, and 2026 openings in Houston, NYC and LA County.</li>
-    <li><a href="/blog/public-safety-jobs-in-canada">Public Safety Jobs in Canada</a> &mdash; CBSA border officer pay and rules, RCMP and CSC requirements, emergency management jobs and who can apply.</li>
+    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a>: federal law enforcement careers in the US.</li>
+    <li><a href="/blog/cybersecurity-analyst-jobs-in-usa">Cybersecurity Analyst Jobs in USA</a>: the cyber side of security work.</li>
+    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a>: another public safety career.</li>
+    <li><a href="/blog/security-specialist-jobs-in-uae">Security Specialist Jobs in UAE</a>: security roles in the Gulf.</li>
+    <li><a href="/blog/how-foreign-workers-can-get-a-job-in-australia">How Foreign Workers Can Get a Job in Australia</a>: visa routes for non-citizens.</li>
+    <li><a href="/blog/emergency-dispatcher-jobs-in-usa">Emergency Dispatcher Jobs in USA</a>: 911 telecommunicator pay, experience rules, typing and CritiCall tests, and 2026 openings in Houston, NYC and LA County.</li>
+    <li><a href="/blog/public-safety-jobs-in-canada">Public Safety Jobs in Canada</a>: CBSA border officer pay and rules, RCMP and CSC requirements, emergency management jobs and who can apply.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Vacancies, pay, eligibility rules and clearance requirements change. Confirm the current requirements in the official vacancy and on each agency's careers site before applying.</p>

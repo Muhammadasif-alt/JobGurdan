@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Teacher Jobs in Pakistan" — school and college teaching across the public,
+ * "Teacher Jobs in Pakistan": school and college teaching across the public,
  * private and Cambridge sectors. It sits beside the data entry and government
  * jobs guides, and borrows the basic-versus-gross reading of BPS pay from the
  * first rather than repeating it.
@@ -145,7 +145,7 @@ class TeacherJobsPakistanBlogSeeder extends Seeder
 <h3>Requirements</h3>
 <ul>
     <li>A bachelor's degree in the subject, or in education, depending on the level taught</li>
-    <li>For new entrants, the <strong>Associate Degree in Education</strong> or the four-year <strong>B.Ed (Hons)</strong> &mdash; PTC and CT are no longer awarded</li>
+    <li>For new entrants, the <strong>Associate Degree in Education</strong> or the four-year <strong>B.Ed (Hons)</strong>: PTC and CT are no longer awarded</li>
     <li>A master's or MPhil for higher secondary, college and university posts</li>
     <li>For Cambridge and international schools, experience with O and A Level or another foreign curriculum</li>
     <li>Clear English and Urdu, and classroom management that holds up in a demonstration lesson</li>
@@ -162,7 +162,7 @@ class TeacherJobsPakistanBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask who actually employs you.</strong> A post in a school with a government name may be a civil service appointment, a contract, or a job with a private operator or NGO running the school. Then read the salary against the minimum wage for your province.</p>
 
-<p><strong>Note:</strong> pay, qualifications, contract terms and recruitment rules are set by each school and recruiting authority &mdash; not by JobGader. Confirm the details on the official advertisement before applying.</p>
+<p><strong>Note:</strong> pay, qualifications, contract terms and recruitment rules are set by each school and recruiting authority, not by JobGader. Confirm the details on the official advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -184,13 +184,13 @@ JOBHTML;
 <p><strong>PTC and CT were discontinued.</strong> The Primary Teaching Certificate and the Certificate in Teaching were phased out under the National Education Policy 2009, and both programmes ceased from the <strong>2011-12 academic session</strong> onwards. In their place came two linked qualifications:</p>
 
 <ul>
-    <li>The <strong>Associate Degree in Education</strong> (ADE) &mdash; two years.</li>
-    <li>The <strong>B.Ed (Hons)</strong> &mdash; four years, with the ADE counting towards it.</li>
+    <li>The <strong>Associate Degree in Education</strong> (ADE): two years.</li>
+    <li>The <strong>B.Ed (Hons)</strong>: four years, with the ADE counting towards it.</li>
 </ul>
 
 <p>Teachers who already hold PTC or CT have not lost them, and some recruitment rules written for serving teachers still refer to them. But a new candidate cannot enrol for either, and should not pay anyone offering to arrange one. <strong>If you are planning a teaching career today, the route is the ADE or the B.Ed (Hons)</strong>, or a subject degree followed by a B.Ed for the levels that accept that combination.</p>
 
-<p>Read every advertisement's eligibility line carefully rather than relying on a general list. Requirements differ between primary, elementary and secondary posts, between provinces, and between public and private employers &mdash; and the post you want will state its own.</p>
+<p>Read every advertisement's eligibility line carefully rather than relying on a general list. Requirements differ between primary, elementary and secondary posts, between provinces, and between public and private employers, and the post you want will state its own.</p>
 
 <h2>The Lowest Private Salary Quoted Is Below the Minimum Wage</h2>
 
@@ -198,7 +198,7 @@ JOBHTML;
 
 <p>For 2026-27, the federal budget set a minimum wage of <strong>PKR 40,700</strong> a month. The provinces set their own, and they sit around or above it: <strong>PKR 40,000</strong> in Punjab, <strong>PKR 43,000</strong> in Sindh and <strong>PKR 45,000</strong> in Khyber Pakhtunkhwa.</p>
 
-<p>That minimum wage is set for an <strong>unskilled worker</strong>. So a teacher &mdash; a graduate, often with a professional degree on top &mdash; being offered PKR 25,000 is being offered less than the legal floor for someone with no qualifications at all. The bottom of that published range is <strong>below the minimum wage for an unskilled worker in every province</strong>.</p>
+<p>That minimum wage is set for an <strong>unskilled worker</strong>. So a teacher, a graduate, often with a professional degree on top, being offered PKR 25,000 is being offered less than the legal floor for someone with no qualifications at all. The bottom of that published range is <strong>below the minimum wage for an unskilled worker in every province</strong>.</p>
 
 <p>That tells you something true about the market rather than something false about the guides: a great many low-fee private schools genuinely do pay this. It does not make it a fair benchmark for you. <strong>Check the offer against your province's current minimum wage</strong>, and treat anything below it as the school telling you how it values the job.</p>
 
@@ -212,15 +212,15 @@ JOBHTML;
 
 <p>This is the change that most guides have not caught up with, and it matters more than any salary figure.</p>
 
-<p>In <strong>Punjab</strong>, the government has handed thousands of public schools to NGOs and private operators to run, through the <strong>Punjab Education Foundation</strong> and <strong>PEIMA</strong>, the Punjab Education Initiatives Management Authority. A further <strong>2,735</strong> schools were approved for outsourcing in 2025. The buildings are still public schools, and the children still attend free. But a teacher hired to work in one is hired by the <strong>operator</strong>, on the operator's terms &mdash; not onto a BPS grade, and not with a civil servant's security or pension.</p>
+<p>In <strong>Punjab</strong>, the government has handed thousands of public schools to NGOs and private operators to run, through the <strong>Punjab Education Foundation</strong> and <strong>PEIMA</strong>, the Punjab Education Initiatives Management Authority. A further <strong>2,735</strong> schools were approved for outsourcing in 2025. The buildings are still public schools, and the children still attend free. But a teacher hired to work in one is hired by the <strong>operator</strong>, on the operator's terms, not onto a BPS grade, and not with a civil servant's security or pension.</p>
 
-<p>In <strong>Sindh</strong>, schools funded through the <strong>Sindh Education Foundation</strong> work on a similar principle, and the pay can be very different from the public scale. The Express Tribune has reported teachers at such schools receiving <strong>PKR 10,000 to PKR 15,000</strong> a month &mdash; less than a third of Sindh's PKR 43,000 minimum wage.</p>
+<p>In <strong>Sindh</strong>, schools funded through the <strong>Sindh Education Foundation</strong> work on a similar principle, and the pay can be very different from the public scale. The Express Tribune has reported teachers at such schools receiving <strong>PKR 10,000 to PKR 15,000</strong> a month: less than a third of Sindh's PKR 43,000 minimum wage.</p>
 
 <p>None of this makes these jobs worthless. Operator-run schools can be well managed, and for a fresh graduate the classroom experience is real. But the question to ask at interview is no longer "is this a government school?" It is <strong>who actually employs you</strong>: the School Education Department on a sanctioned post, a contract with the department, or a private operator or foundation-supported school. Each answer comes with a different salary structure, different security, and a different future.</p>
 
 <h2>Government Pay: Basic Is Not the Salary</h2>
 
-<p>Guides quote government school teachers at <strong>PKR 30,000 to 60,000</strong> a month. For a public appointment on a BPS grade, that range does not say whether it is <strong>basic pay</strong> or what actually arrives &mdash; and in BPS, those are very different numbers, because house rent, conveyance, medical and other allowances sit outside basic.</p>
+<p>Guides quote government school teachers at <strong>PKR 30,000 to 60,000</strong> a month. For a public appointment on a BPS grade, that range does not say whether it is <strong>basic pay</strong> or what actually arrives, and in BPS, those are very different numbers, because house rent, conveyance, medical and other allowances sit outside basic.</p>
 
 <p>There is a second complication specific to this year. The <strong>Revised Basic Pay Scales 2026</strong>, effective from 1 July 2026, merged earlier ad hoc relief allowances into basic pay. So a salary chart published before July 2026 and one published after it are not measuring the same thing, and comparing them will mislead you.</p>
 
@@ -234,11 +234,11 @@ JOBHTML;
 
 <h2>Cambridge and International Schools</h2>
 
-<p>The top of the private market &mdash; O and A Level and international schools &mdash; is quoted at <strong>PKR 50,000 to 100,000 or more</strong> a month, and it is genuinely a different market rather than a better-paid version of the same one.</p>
+<p>The top of the private market, O and A Level and international schools, is quoted at <strong>PKR 50,000 to 100,000 or more</strong> a month, and it is genuinely a different market rather than a better-paid version of the same one.</p>
 
 <p>What these schools screen for is specific: subject depth, fluent English in the classroom, and experience teaching to Cambridge or another foreign syllabus and its examination style. A strong demonstration lesson counts for more here than anywhere else. Karachi, Lahore and Islamabad hold most of these posts, and the best-paid of them are competitive in a way that a degree alone will not win.</p>
 
-<p>The usual route in is through a subject specialism in demand &mdash; mathematics, the sciences, English and computer science &mdash; plus a track record of results, often built first in a good private school.</p>
+<p>The usual route in is through a subject specialism in demand, mathematics, the sciences, English and computer science, plus a track record of results, often built first in a good private school.</p>
 
 <h2>The Roles You Will Actually Meet</h2>
 
@@ -254,10 +254,10 @@ JOBHTML;
 <h2>Where the Posts Are</h2>
 
 <ul>
-    <li><strong>Karachi</strong> &mdash; the largest private and international school market, alongside Sindh's public and foundation-supported schools.</li>
-    <li><strong>Lahore</strong> &mdash; strong demand across public, private and Cambridge schools, and the centre of Punjab's outsourcing programme.</li>
-    <li><strong>Islamabad and Rawalpindi</strong> &mdash; federal schools, well-funded private institutions and international schools.</li>
-    <li><strong>Faisalabad, Multan, Peshawar and other cities</strong> &mdash; steady public and private hiring at lower living costs.</li>
+    <li><strong>Karachi</strong>: the largest private and international school market, alongside Sindh's public and foundation-supported schools.</li>
+    <li><strong>Lahore</strong>: strong demand across public, private and Cambridge schools, and the centre of Punjab's outsourcing programme.</li>
+    <li><strong>Islamabad and Rawalpindi</strong>: federal schools, well-funded private institutions and international schools.</li>
+    <li><strong>Faisalabad, Multan, Peshawar and other cities</strong>: steady public and private hiring at lower living costs.</li>
 </ul>
 
 <h2>Teaching Online</h2>
@@ -321,19 +321,19 @@ JOBHTML;
 <p>Comparing routes for graduates in Pakistan? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; how grades, tests and advertisements work across the public sector.</li>
-    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a> &mdash; the wider private entry market.</li>
-    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; how to read a BPS figure, and what the 2026 pay scale revision changed.</li>
-    <li><a href="/blog/online-jobs-without-investment-in-pakistan">Online Jobs Without Investment in Pakistan</a> &mdash; the honest version of working from home, including tutoring.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; remote routes that do not need a track record.</li>
-    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; administrative skills paid in foreign currency.</li>
-    <li><a href="/blog/disability-support-worker-jobs-in-pakistan">Disability Support Worker Jobs in Pakistan</a> &mdash; special education posts across 118 Punjab institutions, and the titles they are advertised under.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; client-facing work from home for international employers.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; a Gulf office route, and what to check in the package before accepting.</li>
-    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; what American teachers earn by state, and the J-1 route for teachers trained abroad.</li>
-    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a> &mdash; British pay scales and how overseas teachers get QTS recognised.</li>
-    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; teaching online from home, what the platforms really pay, and who they hire.</li>
-    <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a> &mdash; JET, ALT and eikaiwa routes, the degree rule behind the visa, and real pay.</li>
+    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a>: how grades, tests and advertisements work across the public sector.</li>
+    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a>: the wider private entry market.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a>: how to read a BPS figure, and what the 2026 pay scale revision changed.</li>
+    <li><a href="/blog/online-jobs-without-investment-in-pakistan">Online Jobs Without Investment in Pakistan</a>: the honest version of working from home, including tutoring.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: remote routes that do not need a track record.</li>
+    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a>: administrative skills paid in foreign currency.</li>
+    <li><a href="/blog/disability-support-worker-jobs-in-pakistan">Disability Support Worker Jobs in Pakistan</a>: special education posts across 118 Punjab institutions, and the titles they are advertised under.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: client-facing work from home for international employers.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: a Gulf office route, and what to check in the package before accepting.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a>: what American teachers earn by state, and the J-1 route for teachers trained abroad.</li>
+    <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a>: British pay scales and how overseas teachers get QTS recognised.</li>
+    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a>: teaching online from home, what the platforms really pay, and who they hire.</li>
+    <li><a href="/blog/how-to-get-an-esl-teaching-job-in-japan">How to Get an ESL Teaching Job in Japan</a>: JET, ALT and eikaiwa routes, the degree rule behind the visa, and real pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, careers or financial advice. Qualification rules, recruitment criteria, pay scales, minimum wages and school management arrangements change and differ between provinces. Confirm the current position with the official recruitment advertisement, your provincial education department and the relevant minimum wage notification before applying or accepting an offer.</p>

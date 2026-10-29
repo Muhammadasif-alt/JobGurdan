@@ -1,5 +1,5 @@
 @extends('user.layouts.master')
-@section('title', 'Contact Us — Get Support & Inquiries | JobGader')
+@section('title', 'Contact Us: Get Support & Inquiries | JobGader')
 @section('meta_description', 'Contact JobGader for support, inquiries, or partnership opportunities.')
 @section('content')
 
@@ -369,7 +369,7 @@
     }
 
     /* =========================================
-       DARK MODE — Contact page sections
+       DARK MODE: Contact page sections
        ========================================= */
     html.dark-mode .contact-section {
         background: var(--site-bg, #0f1216) !important;
@@ -440,7 +440,7 @@
     html.dark-mode .contact-faq-item summary { color: #fff !important; }
     html.dark-mode .contact-faq-item .faq-answer { color: var(--site-muted, #b8c0cc) !important; }
 
-    /* Contact info card (dark gradient — keep but tighten on dark theme) */
+    /* Contact info card (dark gradient: keep but tighten on dark theme) */
     html.dark-mode .contact-info-card {
         background: linear-gradient(135deg, #1c2128 0%, #15181d 100%) !important;
         border: 1px solid rgba(255,255,255,.08) !important;
@@ -469,7 +469,7 @@
             <a href="{{ route('jobs.index') }}" class="quick-contact-card">
                 <div class="quick-contact-icon"><i class="icon-feather-search"></i></div>
                 <h4>Looking for work?</h4>
-                <p>Browse every opening across {{ $coverage->shortList() }} &mdash; free, and no account needed.</p>
+                <p>Browse every opening across {{ $coverage->shortList() }}: free, and no account needed.</p>
                 <span class="qc-action">Browse all jobs <i class="icon-feather-arrow-right"></i></span>
             </a>
             <a href="mailto:{{ config('site.contact_email') }}" class="quick-contact-card">
@@ -548,7 +548,7 @@
                             <i class="icon-feather-dollar-sign"></i>
                             <div>
                                 <strong>Our Fee</strong>
-                                None &mdash; free for job seekers
+                                None: free for job seekers
                             </div>
                         </li>
                         <li>
@@ -632,14 +632,14 @@
             </details>
             <details class="contact-faq-item">
                 <summary>Can I delete my account?</summary>
-                <div class="faq-answer">Yes — message us with your registered email and we'll permanently delete your account and associated data within 7 business days, in line with our privacy policy.</div>
+                <div class="faq-answer">Yes: message us with your registered email and we'll permanently delete your account and associated data within 7 business days, in line with our privacy policy.</div>
             </details>
             <details class="contact-faq-item">
                 <summary>Do you offer partnership or advertising opportunities?</summary>
                 <div class="faq-answer">Yes. Use the form and select "Partnership" or "Advertising" as your subject, and tell us what you have in mind. We read every message and reply by email.</div>
             </details>
             <details class="contact-faq-item">
-                <summary>I'm an employer — how do I post jobs?</summary>
+                <summary>I'm an employer: how do I post jobs?</summary>
                 <div class="faq-answer">JobGader does not sell job postings. If you are an employer and want to suggest a vacancy, use the form and we will decide what to publish.</div>
             </details>
             <details class="contact-faq-item">

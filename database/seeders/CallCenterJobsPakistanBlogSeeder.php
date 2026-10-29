@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Call Center Jobs in Pakistan" — the entry hub for one of the most common
+ * "Call Center Jobs in Pakistan": the entry hub for one of the most common
  * first formal jobs in Pakistan. The virtual assistant, data entry and online
  * jobs guides own the freelance side; this one owns the call-centre reality:
  * inbound vs outbound, what campaigns really pay against the minimum wage,
@@ -163,7 +163,7 @@ class CallCenterJobsPakistanBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay a "registration" or "processing" fee,</strong> and confirm the company and its client are real before you share documents.</p>
 
-<p><strong>Note:</strong> pay, shifts and campaign details are set by employers &mdash; not by JobGader. Confirm them with the company before accepting an offer.</p>
+<p><strong>Note:</strong> pay, shifts and campaign details are set by employers, not by JobGader. Confirm them with the company before accepting an offer.</p>
 JOBHTML;
     }
 
@@ -240,8 +240,8 @@ JOBHTML;
 
 <ul>
     <li><strong>A stable, wired connection.</strong> Around 25 Mbps is the common minimum, but a wired Ethernet link matters as much as raw speed for VoIP stability. 50 Mbps or more is preferred.</li>
-    <li><strong>A USB noise-cancelling headset.</strong> Not optional &mdash; background noise on a live call is a serious problem at most BPOs.</li>
-    <li><strong>A Windows 10 or 11 machine.</strong> Not because CRMs need it &mdash; Salesforce and Zendesk run in a browser on a Mac &mdash; but because the predictive dialers and softphones many campaigns use are Windows-only.</li>
+    <li><strong>A USB noise-cancelling headset.</strong> Not optional: background noise on a live call is a serious problem at most BPOs.</li>
+    <li><strong>A Windows 10 or 11 machine.</strong> Not because CRMs need it, Salesforce and Zendesk run in a browser on a Mac, but because the predictive dialers and softphones many campaigns use are Windows-only.</li>
     <li><strong>A quiet, dedicated workspace</strong> for the length of the shift.</li>
 </ul>
 
@@ -266,9 +266,9 @@ JOBHTML;
 <ol>
     <li><strong>Choose inbound or outbound</strong> based on how you handle sales pressure versus steady support work.</li>
     <li><strong>Target international campaigns</strong> if your English is strong and you want higher pay.</li>
-    <li><strong>Use verified sources</strong> &mdash; Indeed Pakistan, LinkedIn and company career pages, not unverified group chats.</li>
+    <li><strong>Use verified sources</strong>: Indeed Pakistan, LinkedIn and company career pages, not unverified group chats.</li>
     <li><strong>Keep a simple resume</strong> that leads with communication skills, computer literacy and any relevant experience.</li>
-    <li><strong>Prepare for a spoken assessment</strong> &mdash; most interviews test English and basic problem-solving on the spot.</li>
+    <li><strong>Prepare for a spoken assessment</strong>: most interviews test English and basic problem-solving on the spot.</li>
     <li><strong>Verify the employer</strong> and the campaign's client before you accept or hand over documents.</li>
 </ol>
 
@@ -338,13 +338,13 @@ JOBHTML;
 <p>Exploring other ways to earn in Pakistan? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; remote support work for overseas clients, and what it pays.</li>
-    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; an entry-level desk role, and how to avoid the scams around it.</li>
-    <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a> &mdash; the wider remote and freelance market beyond the phones.</li>
-    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a> &mdash; where call-centre work fits among first jobs.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; the same skills for international remote employers.</li>
-    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; how the same role is paid and structured abroad.</li>
-    <li><a href="/blog/healthcare-administrator-jobs-in-pakistan">Healthcare Administrator Jobs in Pakistan</a> &mdash; a daytime alternative to the night rota, in hospitals and clinic groups.</li>
+    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a>: remote support work for overseas clients, and what it pays.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a>: an entry-level desk role, and how to avoid the scams around it.</li>
+    <li><a href="/blog/online-jobs-in-pakistan">Online Jobs in Pakistan</a>: the wider remote and freelance market beyond the phones.</li>
+    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a>: where call-centre work fits among first jobs.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: the same skills for international remote employers.</li>
+    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a>: how the same role is paid and structured abroad.</li>
+    <li><a href="/blog/healthcare-administrator-jobs-in-pakistan">Healthcare Administrator Jobs in Pakistan</a>: a daytime alternative to the night rota, in hospitals and clinic groups.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and reflects publicly available hiring and pay trends as of 2026. Salaries, minimum-wage rates and campaign details change. Confirm current pay and verify any employer before accepting an offer or sharing personal documents.</p>

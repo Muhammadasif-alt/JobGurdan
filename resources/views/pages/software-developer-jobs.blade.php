@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Software Developer Jobs — Stacks, Pay, Hiring | JobGader')
+@section('title', 'Software Developer Jobs: Stacks, Pay, Hiring | JobGader')
 @section('meta_description', 'Software developer jobs across '.$coverage->shortList().': what each level pays, which stacks are hiring, and how technical interviews actually run.')
-@section('og_title', 'Software Developer Jobs — Stacks, Pay, Hiring | JobGader')
+@section('og_title', 'Software Developer Jobs: Stacks, Pay, Hiring | JobGader')
 @section('og_description', 'Software developer jobs across '.$coverage->shortList().': what each level pays, which stacks are hiring, and how technical interviews actually run.')
 @section('canonical', url()->current())
 
@@ -63,7 +63,7 @@
             ],
             [
                 'q' => 'How should I prepare for a technical interview?',
-                'a' => 'Practise reasoning out loud while coding, since that is what the stage assesses. For mid-level and above, put real time into system design — it is where most candidates lose offers and it responds well to preparation.',
+                'a' => 'Practise reasoning out loud while coding, since that is what the stage assesses. For mid-level and above, put real time into system design: it is where most candidates lose offers and it responds well to preparation.',
             ],
             [
                 'q' => 'Are developer jobs sponsorable for a visa?',

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Maintenance Technician Jobs in USA" — a sector guide rather than one vacancy,
+ * "Maintenance Technician Jobs in USA": a sector guide rather than one vacancy,
  * so the apply link goes to an Indeed search and the post carries no JobPosting
  * markup.
  *
@@ -167,16 +167,16 @@ class MaintenanceTechnicianJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Check the setting and the certifications required</strong> &mdash; industrial and specialised roles pay well above general facilities work &mdash; and whether the role carries on-call or shift duties.</p>
+<p><strong>Check the setting and the certifications required</strong>, industrial and specialised roles pay well above general facilities work, and whether the role carries on-call or shift duties.</p>
 
-<p><strong>Note:</strong> pay, benefits and requirements are set by each employer &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, benefits and requirements are set by each employer, not by JobGader. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Maintenance technicians keep the physical infrastructure of the country running &mdash; factories, warehouses, apartment blocks, hospitals and office buildings all depend on someone who can service the HVAC, fix the electrics and stop a small fault becoming an expensive one. It is hands-on, practical work with a low barrier to entry and a real ladder above it. But two things circulate about this job that are worth correcting: how much experienced technicians actually earn, and what "OSHA certified" really means.</p>
+<p>Maintenance technicians keep the physical infrastructure of the country running: factories, warehouses, apartment blocks, hospitals and office buildings all depend on someone who can service the HVAC, fix the electrics and stop a small fault becoming an expensive one. It is hands-on, practical work with a low barrier to entry and a real ladder above it. But two things circulate about this job that are worth correcting: how much experienced technicians actually earn, and what "OSHA certified" really means.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/construction-trades?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -198,7 +198,7 @@ JOBHTML;
     <li>Basic carpentry, painting and general facility upkeep</li>
 </ul>
 
-<p>The exact mix depends heavily on the setting &mdash; a manufacturing plant, an apartment community, a hospital or a commercial office are very different jobs under the same title.</p>
+<p>The exact mix depends heavily on the setting: a manufacturing plant, an apartment community, a hospital or a commercial office are very different jobs under the same title.</p>
 
 <h2>Types of Maintenance Technician Roles</h2>
 
@@ -279,24 +279,24 @@ JOBHTML;
 </table>
 </div>
 
-<p>All three medians clear $60,000, so a specialised technician at the median already earns more than the draft's specialised floor. Moving from general maintenance into industrial machinery or HVAC is the clearest pay rise available in this field &mdash; roughly $11,000 to $15,000 above the general median.</p>
+<p>All three medians clear $60,000, so a specialised technician at the median already earns more than the draft's specialised floor. Moving from general maintenance into industrial machinery or HVAC is the clearest pay rise available in this field: roughly $11,000 to $15,000 above the general median.</p>
 
 <h2>Certifications: EPA 608 Is Required, "OSHA Certified" Is a Myth</h2>
 
 <p>Two credentials come up constantly, and only one of them works the way people think.</p>
 
-<h3>EPA Section 608 &mdash; a legal requirement</h3>
+<h3>EPA Section 608: a legal requirement</h3>
 <p>Under the Clean Air Act, anyone who maintains, services, repairs or disposes of equipment that could release refrigerants must hold <strong>EPA Section 608 certification</strong>. It comes in four types:</p>
 <ul>
-    <li><strong>Type I</strong> &mdash; small appliances</li>
-    <li><strong>Type II</strong> &mdash; high-pressure appliances</li>
-    <li><strong>Type III</strong> &mdash; low-pressure appliances</li>
-    <li><strong>Universal</strong> &mdash; all of the above</li>
+    <li><strong>Type I</strong>: small appliances</li>
+    <li><strong>Type II</strong>: high-pressure appliances</li>
+    <li><strong>Type III</strong>: low-pressure appliances</li>
+    <li><strong>Universal</strong>: all of the above</li>
 </ul>
-<p>It does not expire &mdash; it is a lifetime credential. If a role touches HVAC or refrigeration, this is not optional.</p>
+<p>It does not expire: it is a lifetime credential. If a role touches HVAC or refrigeration, this is not optional.</p>
 
-<h3>OSHA &mdash; not a certification</h3>
-<p>"OSHA certified" is one of the most common misstatements in trade listings. <strong>OSHA does not certify individuals.</strong> Its Outreach Training Program issues voluntary <strong>10-hour and 30-hour completion cards</strong> through authorised trainers, and OSHA states plainly that these are not a certification or a license and do not fulfil an employer's own training duties. They are still worth having &mdash; many employers ask for the 10-hour or 30-hour card &mdash; but describe it accurately: an "OSHA 10-hour card", not "OSHA certified".</p>
+<h3>OSHA: not a certification</h3>
+<p>"OSHA certified" is one of the most common misstatements in trade listings. <strong>OSHA does not certify individuals.</strong> Its Outreach Training Program issues voluntary <strong>10-hour and 30-hour completion cards</strong> through authorised trainers, and OSHA states plainly that these are not a certification or a license and do not fulfil an employer's own training duties. They are still worth having, many employers ask for the 10-hour or 30-hour card, but describe it accurately: an "OSHA 10-hour card", not "OSHA certified".</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/maintenance-technician-jobs-in-usa-field.jpg"
@@ -306,7 +306,7 @@ JOBHTML;
 
 <h2>Is Demand Really "Steady"?</h2>
 
-<p>Yes, but not for the reason usually given. BLS projects employment for general maintenance and repair workers to grow <strong>4% from 2025 to 2035</strong> &mdash; "about as fast as the average for all occupations", which is average, not strong. The real basis for the job's security is different and more durable: about <strong>148,700 openings a year</strong> on a base near 1.6 million workers, and roughly <strong>95% of those openings come from replacement</strong> &mdash; people retiring or moving to other work &mdash; rather than from new jobs. A large, stable workforce that constantly needs replacing is why this trade rarely runs short of vacancies, even when growth is modest.</p>
+<p>Yes, but not for the reason usually given. BLS projects employment for general maintenance and repair workers to grow <strong>4% from 2025 to 2035</strong>: "about as fast as the average for all occupations", which is average, not strong. The real basis for the job's security is different and more durable: about <strong>148,700 openings a year</strong> on a base near 1.6 million workers, and roughly <strong>95% of those openings come from replacement</strong>, people retiring or moving to other work, rather than from new jobs. A large, stable workforce that constantly needs replacing is why this trade rarely runs short of vacancies, even when growth is modest.</p>
 
 <h2>Skills Employers Look For</h2>
 
@@ -332,7 +332,7 @@ JOBHTML;
 <h2>Tips for Landing a Maintenance Technician Job</h2>
 
 <ul>
-    <li><strong>List the systems you know.</strong> HVAC, electrical, plumbing, specific machinery &mdash; be concrete.</li>
+    <li><strong>List the systems you know.</strong> HVAC, electrical, plumbing, specific machinery: be concrete.</li>
     <li><strong>Get EPA 608 if you touch refrigerant,</strong> and add the OSHA 10-hour or 30-hour card.</li>
     <li><strong>Describe real fixes.</strong> Specific problems you diagnosed and resolved beat generic claims.</li>
     <li><strong>Show flexibility for on-call work,</strong> which many roles require.</li>
@@ -342,11 +342,11 @@ JOBHTML;
 <h2>Career Progression</h2>
 
 <ol>
-    <li><strong>Maintenance technician</strong> &mdash; the entry role.</li>
-    <li><strong>Senior or lead technician</strong> &mdash; more responsibility and pay.</li>
+    <li><strong>Maintenance technician</strong>: the entry role.</li>
+    <li><strong>Senior or lead technician</strong>: more responsibility and pay.</li>
     <li><strong>Maintenance supervisor or manager.</strong></li>
     <li><strong>Facilities manager.</strong></li>
-    <li><strong>Specialist track</strong> &mdash; industrial machinery, HVAC or electrical &mdash; or, with more study, reliability or plant engineer.</li>
+    <li><strong>Specialist track</strong>, industrial machinery, HVAC or electrical, or, with more study, reliability or plant engineer.</li>
 </ol>
 
 <h2>Frequently Asked Questions</h2>
@@ -358,19 +358,19 @@ JOBHTML;
 <p>No. That figure sits below the 75th percentile of $62,620. Experienced general maintenance workers routinely earn $62k and above, and the top tenth clears $77,180.</p>
 
 <h3>Do maintenance technician jobs pay more if you specialise?</h3>
-<p>Yes. BLS May 2025 medians are $64,520 for industrial machinery mechanics, $61,010 for HVACR mechanics and $60,850 for machinery maintenance workers &mdash; each above the general median.</p>
+<p>Yes. BLS May 2025 medians are $64,520 for industrial machinery mechanics, $61,010 for HVACR mechanics and $60,850 for machinery maintenance workers: each above the general median.</p>
 
 <h3>Do I need a degree to become a maintenance technician?</h3>
 <p>No. The typical entry-level education is a high school diploma or equivalent, with vocational or technical training a strong advantage.</p>
 
 <h3>What is EPA 608 certification?</h3>
-<p>A Clean Air Act requirement for anyone servicing equipment that could release refrigerants. It comes in four types (I, II, III and Universal) and does not expire &mdash; it is a lifetime credential.</p>
+<p>A Clean Air Act requirement for anyone servicing equipment that could release refrigerants. It comes in four types (I, II, III and Universal) and does not expire: it is a lifetime credential.</p>
 
 <h3>Is there such a thing as OSHA certification?</h3>
 <p>Not for individuals. OSHA does not certify people; its Outreach Training Program issues voluntary 10-hour and 30-hour completion cards, which OSHA says are not a certification or a license. Call it an "OSHA 10-hour card", not "OSHA certified".</p>
 
 <h3>Is demand for maintenance technicians growing?</h3>
-<p>Modestly. BLS projects 4% growth from 2025 to 2035, about as fast as average. Job security comes mainly from replacement demand &mdash; about 148,700 openings a year, roughly 95% from retirements and workers leaving the occupation.</p>
+<p>Modestly. BLS projects 4% growth from 2025 to 2035, about as fast as average. Job security comes mainly from replacement demand: about 148,700 openings a year, roughly 95% from retirements and workers leaving the occupation.</p>
 
 <h3>What industries pay maintenance technicians the most?</h3>
 <p>Industrial and manufacturing roles, and specialised HVAC and electrical positions, pay above general property and facilities maintenance because of the higher skill and certification required.</p>
@@ -406,14 +406,14 @@ JOBHTML;
 <p>Working out the wider US skilled-work picture? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a> &mdash; the HVAC side of maintenance work, with BLS pay by state.</li>
-    <li><a href="/blog/how-to-start-a-career-in-refrigeration-and-air-conditioning">How to Start a Career in Refrigeration and Air Conditioning</a> &mdash; EPA 608 and the route into plant refrigeration.</li>
-    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a> &mdash; another hands-on trade, its BLS pay and the OSHA card question.</li>
-    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; a warehouse and plant role that often sits alongside maintenance.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; the wider construction picture and the visa reality.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; entry routes into US hands-on work.</li>
-    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a> &mdash; factory work with a published hourly range and stock awards.</li>
-    <li><a href="/blog/how-to-apply-for-google-data-center-jobs-in-the-usa">How to Apply for Google Data Center Jobs in the USA</a> &mdash; technician work Google prices openly, with no sponsorship on any US posting.</li>
+    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a>: the HVAC side of maintenance work, with BLS pay by state.</li>
+    <li><a href="/blog/how-to-start-a-career-in-refrigeration-and-air-conditioning">How to Start a Career in Refrigeration and Air Conditioning</a>: EPA 608 and the route into plant refrigeration.</li>
+    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a>: another hands-on trade, its BLS pay and the OSHA card question.</li>
+    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a>: a warehouse and plant role that often sits alongside maintenance.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: the wider construction picture and the visa reality.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: entry routes into US hands-on work.</li>
+    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a>: factory work with a published hourly range and stock awards.</li>
+    <li><a href="/blog/how-to-apply-for-google-data-center-jobs-in-the-usa">How to Apply for Google Data Center Jobs in the USA</a>: technician work Google prices openly, with no sponsorship on any US posting.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers advice. Pay figures are BLS OEWS May 2025 and the Occupational Outlook Handbook and change over time; EPA and OSHA rules are summarised, not quoted in full. Confirm the current details with the employer and official sources before applying.</p>

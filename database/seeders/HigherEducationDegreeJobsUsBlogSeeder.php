@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Higher Education Degree Jobs in the US" — the non-faculty side of a
+ * "Higher Education Degree Jobs in the US": the non-faculty side of a
  * university. The faculty hub and the three professor guides own teaching
  * and research; this page owns administration, advising, admissions,
  * student affairs and institutional research, which is where most people
@@ -98,7 +98,7 @@ class HigherEducationDegreeJobsUsBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'US Colleges & Universities — Administration, Advising and Student Services (Aggregated)'],
+            ['name' => 'US Colleges & Universities: Administration, Advising and Student Services (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'us-higher-ed-admin-aggregated']
         );
 
@@ -146,11 +146,11 @@ class HigherEducationDegreeJobsUsBlogSeeder extends Seeder
 
 <h3>The roles and what they pay</h3>
 <ul>
-    <li><strong>Postsecondary education administrators</strong> &mdash; deans, registrars, admissions and student affairs directors. BLS median $104,590 across 231,800 jobs, master's typical</li>
-    <li><strong>Instructional coordinators</strong> &mdash; curriculum and instructional design. $77,440 across 248,700 jobs</li>
-    <li><strong>Librarians and media collections specialists</strong> &mdash; $68,270; academic libraries pay $74,490 at state institutions</li>
-    <li><strong>School and career counsellors and advisers</strong>, the category that holds academic advising &mdash; $64,330, but $58,870 inside public colleges</li>
-    <li><strong>Archivists, curators and museum workers</strong> &mdash; $60,330 across 38,500 jobs</li>
+    <li><strong>Postsecondary education administrators</strong>: deans, registrars, admissions and student affairs directors. BLS median $104,590 across 231,800 jobs, master's typical</li>
+    <li><strong>Instructional coordinators</strong>: curriculum and instructional design. $77,440 across 248,700 jobs</li>
+    <li><strong>Librarians and media collections specialists</strong>: $68,270; academic libraries pay $74,490 at state institutions</li>
+    <li><strong>School and career counsellors and advisers</strong>, the category that holds academic advising: $64,330, but $58,870 inside public colleges</li>
+    <li><strong>Archivists, curators and museum workers</strong>: $60,330 across 38,500 jobs</li>
 </ul>
 
 <h3>What the institution looks for</h3>
@@ -197,7 +197,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>Two things stand out. First, <strong>the administrative side out-earns the teaching median</strong>: $104,590 against $85,330. Second, it is growing far more slowly &mdash; 2 per cent against 7 per cent. The opportunity is in turnover rather than expansion: BLS projects about <strong>14,500 openings a year</strong> for postsecondary education administrators even while net employment barely moves.</p>
+<p>Two things stand out. First, <strong>the administrative side out-earns the teaching median</strong>: $104,590 against $85,330. Second, it is growing far more slowly: 2 per cent against 7 per cent. The opportunity is in turnover rather than expansion: BLS projects about <strong>14,500 openings a year</strong> for postsecondary education administrators even while net employment barely moves.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/higher-education-degree-jobs-in-the-us-campus.jpg"
@@ -228,19 +228,19 @@ JOBHTML;
 
 <p>Notice how narrow that band is. On the teaching side the same four employer types span $68,160 to $96,120; on the administrative side they span $98,840 to $107,540. <strong>Administration pays more consistently across institution types than teaching does</strong>, which matters if you are tied to one region and cannot choose your employer freely.</p>
 
-<p>BLS lists a master's degree as the typical entry-level education, with less than five years of related work experience and no on-the-job training. In practice the common route is three to six years in a specialist function &mdash; admissions, advising, financial aid, residence life &mdash; before a director-level post.</p>
+<p>BLS lists a master's degree as the typical entry-level education, with less than five years of related work experience and no on-the-job training. In practice the common route is three to six years in a specialist function, admissions, advising, financial aid, residence life, before a director-level post.</p>
 
 <h2>Academic Advising: the Title That Confuses the Data</h2>
 
 <p>There is no separate BLS occupation called "academic advisor". The data sits inside <strong>school and career counsellors and advisers</strong>, median $64,330 across 389,500 jobs, growing 3 per cent with about 11,400 jobs added by 2035. Typical entry-level education is a master's degree.</p>
 
-<p>Inside higher education specifically the medians are lower than the headline: <strong>$58,870</strong> at state and local colleges, universities, junior colleges and professional schools, and <strong>$58,720</strong> at private ones. That gap is worth knowing before you accept a salary that looks below the occupational median &mdash; inside a university, it may not be.</p>
+<p>Inside higher education specifically the medians are lower than the headline: <strong>$58,870</strong> at state and local colleges, universities, junior colleges and professional schools, and <strong>$58,720</strong> at private ones. That gap is worth knowing before you accept a salary that looks below the occupational median: inside a university, it may not be.</p>
 
 <p>Advising is also the most common entry point into higher education administration, because it builds exactly the record a director-level search is looking for: student caseloads, retention outcomes, policy knowledge and systems experience.</p>
 
 <h2>Instructional Design and Academic Programme Work</h2>
 
-<p><strong>Instructional coordinators</strong> &mdash; the BLS category covering curriculum specialists, instructional designers and academic programme developers &mdash; have a median of <strong>$77,440</strong> across 248,700 jobs, with 2 per cent growth and a master's degree as typical entry. Within higher education, private colleges and universities pay a median of $73,070 and state ones $61,810.</p>
+<p><strong>Instructional coordinators</strong>, the BLS category covering curriculum specialists, instructional designers and academic programme developers, have a median of <strong>$77,440</strong> across 248,700 jobs, with 2 per cent growth and a master's degree as typical entry. Within higher education, private colleges and universities pay a median of $73,070 and state ones $61,810.</p>
 
 <p>This is the function that grew fastest when online teaching expanded, and it is the one where skills transfer most easily out of higher education, into corporate learning and development or edtech, if the academic job market disappoints.</p>
 
@@ -253,8 +253,8 @@ JOBHTML;
 <h2>Library, Archives and Collections</h2>
 
 <ul>
-    <li><strong>Librarians and media collections specialists</strong> &mdash; median $68,270 across 142,300 jobs, 3 per cent growth, master's degree typical. Academic libraries pay above the occupational median: $74,490 at state colleges and universities and $73,700 at private ones.</li>
-    <li><strong>Archivists</strong> &mdash; median $64,550. <strong>Curators</strong> &mdash; $63,420. <strong>Museum technicians and conservators</strong> &mdash; $51,440. The combined category sits at $60,330 across 38,500 jobs, growing 4 per cent.</li>
+    <li><strong>Librarians and media collections specialists</strong>: median $68,270 across 142,300 jobs, 3 per cent growth, master's degree typical. Academic libraries pay above the occupational median: $74,490 at state colleges and universities and $73,700 at private ones.</li>
+    <li><strong>Archivists</strong>: median $64,550. <strong>Curators</strong>: $63,420. <strong>Museum technicians and conservators</strong>: $51,440. The combined category sits at $60,330 across 38,500 jobs, growing 4 per cent.</li>
 </ul>
 
 <p>These are small occupations, so vacancies are infrequent and competition for each is heavy. If this is the target, geographic flexibility matters more than in any other route on this page.</p>
@@ -337,14 +337,14 @@ JOBHTML;
 <p>These cover the teaching side of the same institutions:</p>
 
 <ul>
-    <li><a href="/blog/faculty-careers-in-the-us">Faculty Careers in the US</a> &mdash; every academic appointment type compared, with the BLS data behind each.</li>
-    <li><a href="/blog/professor-employment-in-the-us">Professor Employment in the US</a> &mdash; the nine-month contract, teaching loads and promotion.</li>
-    <li><a href="/blog/assistant-professor-jobs-in-the-us">Assistant Professor Jobs in the US</a> &mdash; the hiring calendar, the job talk and the offer.</li>
-    <li><a href="/blog/colleges-hiring-professors-in-the-us">Colleges Hiring Professors in the US</a> &mdash; which institutions hire on which credential.</li>
-    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a> &mdash; per-section pay and benefits eligibility.</li>
-    <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a> &mdash; school-level support roles and what they pay.</li>
-    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a> &mdash; the school route and state certification.</li>
-    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a> &mdash; teaching work that needs no institutional appointment.</li>
+    <li><a href="/blog/faculty-careers-in-the-us">Faculty Careers in the US</a>: every academic appointment type compared, with the BLS data behind each.</li>
+    <li><a href="/blog/professor-employment-in-the-us">Professor Employment in the US</a>: the nine-month contract, teaching loads and promotion.</li>
+    <li><a href="/blog/assistant-professor-jobs-in-the-us">Assistant Professor Jobs in the US</a>: the hiring calendar, the job talk and the offer.</li>
+    <li><a href="/blog/colleges-hiring-professors-in-the-us">Colleges Hiring Professors in the US</a>, which institutions hire on which credential.</li>
+    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a>: per-section pay and benefits eligibility.</li>
+    <li><a href="/blog/educational-support-jobs-in-usa">Educational Support Jobs in USA</a>: school-level support roles and what they pay.</li>
+    <li><a href="/blog/teacher-jobs-in-usa">Teacher Jobs in USA</a>: the school route and state certification.</li>
+    <li><a href="/blog/tutor-jobs-in-usa">Tutor Jobs in USA</a>: teaching work that needs no institutional appointment.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not career, legal or employment advice. Pay and projection data is from the US Bureau of Labor Statistics Occupational Outlook Handbook, with wages for May 2025 and projections for 2025 to 2035. Individual institutions set their own job titles, salary bands and qualification requirements.</p>

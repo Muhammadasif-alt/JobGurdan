@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Get a Transport Job in Germany" — the licence, the Code 95
+ * "How to Get a Transport Job in Germany": the licence, the Code 95
  * qualification and the visa route for professional drivers, priced from the
  * Bundesagentur's own pay statistics rather than recruitment blogs.
  *
@@ -165,7 +165,7 @@ class TransportJobsGermanyBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, licence recognition and visa decisions are made by employers and German authorities &mdash; not by JobGader. Check the current rules with the German mission in your country before you pay anyone a fee.</p>
+<p><strong>Note:</strong> pay, licence recognition and visa decisions are made by employers and German authorities, not by JobGader. Check the current rules with the German mission in your country before you pay anyone a fee.</p>
 JOBHTML;
     }
 
@@ -188,15 +188,15 @@ JOBHTML;
 
 <ul>
     <li><strong>More than 70,000</strong> drivers are missing in Germany today.</li>
-    <li><strong>30,000 to 35,000</strong> drivers retire every year, against only <strong>15,000 to 20,000</strong> new entrants &mdash; guides usually print those two figures the wrong way round.</li>
+    <li><strong>30,000 to 35,000</strong> drivers retire every year, against only <strong>15,000 to 20,000</strong> new entrants: guides usually print those two figures the wrong way round.</li>
     <li>About <strong>one third</strong> of freight drivers are older than 55, not the 75% often claimed.</li>
 </ul>
 
-<p>The Bundesagentur f&uuml;r Arbeit backs the demand up from the official side: professional drivers appear among the occupations it names as being in shortage in its 2025 analysis. BALM, the federal logistics office, reports the same thing from the employer end &mdash; firms say they struggle to fill driver vacancies, and some park vehicles or shrink their fleets because they cannot staff them.</p>
+<p>The Bundesagentur f&uuml;r Arbeit backs the demand up from the official side: professional drivers appear among the occupations it names as being in shortage in its 2025 analysis. BALM, the federal logistics office, reports the same thing from the employer end: firms say they struggle to fill driver vacancies, and some park vehicles or shrink their fleets because they cannot staff them.</p>
 
 <h2>What Transport Jobs in Germany Actually Pay</h2>
 
-<p>The official anchor is the Bundesagentur's pay statistics, not recruitment blogs. At <strong>31 December 2024</strong>, full-time employees in <strong>Berufskraftfahrer (G&uuml;terverkehr/LKW)</strong> at skilled-worker level had a <strong>median gross wage of 3,048 euros a month</strong> &mdash; about 36,600 euros a year &mdash; which was 30% higher than in 2016.</p>
+<p>The official anchor is the Bundesagentur's pay statistics, not recruitment blogs. At <strong>31 December 2024</strong>, full-time employees in <strong>Berufskraftfahrer (G&uuml;terverkehr/LKW)</strong> at skilled-worker level had a <strong>median gross wage of 3,048 euros a month</strong>, about 36,600 euros a year, which was 30% higher than in 2016.</p>
 
 <p>Two things follow. First, the "average of 34,200 euros a year" repeated across guides has no official source: the agency states plainly that <strong>an arithmetic mean cannot be determined</strong> for this data. Second, the floor is the statutory minimum wage, which rose to <strong>13.90 euros an hour on 1 January 2026</strong> and rises to <strong>14.60 euros on 1 January 2027</strong>.</p>
 
@@ -213,10 +213,10 @@ JOBHTML;
 
 <ul>
     <li><strong>Category C:</strong> vehicles over <strong>3,500 kg</strong> built to carry no more than eight passengers besides the driver, with a trailer up to 750 kg.</li>
-    <li><strong>Category CE:</strong> a category C tractor unit with trailers or a semi-trailer over 750 kg &mdash; the licence international freight work asks for.</li>
+    <li><strong>Category CE:</strong> a category C tractor unit with trailers or a semi-trailer over 750 kg: the licence international freight work asks for.</li>
 </ul>
 
-<p><strong>The age rule is stricter than most guides say.</strong> C and CE are normally issued at <strong>21</strong>. You can hold them at <strong>18 only with the full Grundqualifikation</strong> &mdash; the complete basic qualification with an IHK examination. The shorter <em>accelerated</em> basic qualification does not lower the age to 18.</p>
+<p><strong>The age rule is stricter than most guides say.</strong> C and CE are normally issued at <strong>21</strong>. You can hold them at <strong>18 only with the full Grundqualifikation</strong>: the complete basic qualification with an IHK examination. The shorter <em>accelerated</em> basic qualification does not lower the age to 18.</p>
 
 <h2>Code 95: The Qualification That Makes You Employable</h2>
 
@@ -233,7 +233,7 @@ JOBHTML;
 <h2>The Driver Card and ADR</h2>
 
 <ul>
-    <li><strong>Driver card (Fahrerkarte).</strong> Required for the digital tachograph under EU Regulation 165/2014. In Germany it is issued by the <strong>authorities designated by each federal state</strong> &mdash; not by the KBA, which produces the cards and runs the register. A first-generation card stores 28 days of driving; the second-generation version 2 card stores 56.</li>
+    <li><strong>Driver card (Fahrerkarte).</strong> Required for the digital tachograph under EU Regulation 165/2014. In Germany it is issued by the <strong>authorities designated by each federal state</strong>, not by the KBA, which produces the cards and runs the register. A first-generation card stores 28 days of driving; the second-generation version 2 card stores 56.</li>
     <li><strong>ADR certificate</strong> for dangerous goods. Training, examinations and the certificate are handled by the <strong>chambers of industry and commerce</strong>, and the law requires the training and examination to be in <strong>German</strong>.</li>
 </ul>
 
@@ -245,7 +245,7 @@ JOBHTML;
 
 <h2>The Visa Route Nobody Explains Properly</h2>
 
-<p>Section <strong>24a of the Employment Ordinance (BeschV)</strong> is not a visa. It is the rule that lets the <strong>Federal Employment Agency consent</strong> to employing a foreign professional driver in road freight or bus transport &mdash; and it goes further than most guides realise:</p>
+<p>Section <strong>24a of the Employment Ordinance (BeschV)</strong> is not a visa. It is the rule that lets the <strong>Federal Employment Agency consent</strong> to employing a foreign professional driver in road freight or bus transport, and it goes further than most guides realise:</p>
 
 <ul>
     <li>Consent can be given <strong>even if you do not yet hold the German licence or code 95</strong>, provided your contract obliges you to obtain them.</li>
@@ -254,7 +254,7 @@ JOBHTML;
     <li>Consent is granted for <strong>up to 15 months</strong>, and in justified cases up to six months more.</li>
 </ul>
 
-<p>So a driver from outside the EU does not need a recognised German vocational qualification to start &mdash; but does need an employer, a contract and the agency's approval.</p>
+<p>So a driver from outside the EU does not need a recognised German vocational qualification to start, but does need an employer, a contract and the agency's approval.</p>
 
 <h3>Skilled Worker residence permit</h3>
 
@@ -268,7 +268,7 @@ JOBHTML;
     <li>a state-recognised foreign vocational qualification requiring at least <strong>two years</strong> of training, or a recognised higher-education degree;</li>
     <li><strong>A1 German or B2 English</strong>;</li>
     <li>at least <strong>six points</strong> on the statutory scale;</li>
-    <li>proof that your living costs are covered &mdash; which the law defines as including <strong>adequate health insurance</strong>.</li>
+    <li>proof that your living costs are covered, which the law defines as including <strong>adequate health insurance</strong>.</li>
 </ul>
 
 <p>It is issued for up to <strong>one year</strong> to search, allows <strong>20 hours a week</strong> of work plus two-week trial employment, and can be extended for up to two more years once you hold a contract or binding job offer with agency consent.</p>
@@ -280,13 +280,13 @@ JOBHTML;
 
 <h2>How Many People Do This Job?</h2>
 
-<p>Official headcounts are sparse. The BGL's own statistics compendium, built from federal data, reports <strong>652,557 people employed</strong> in commercial road freight, of whom <strong>481,180 were drivers</strong> &mdash; a figure collected only every five years, most recently in 2020. That is the best official order of magnitude available; be sceptical of any newer number quoted without a source.</p>
+<p>Official headcounts are sparse. The BGL's own statistics compendium, built from federal data, reports <strong>652,557 people employed</strong> in commercial road freight, of whom <strong>481,180 were drivers</strong>: a figure collected only every five years, most recently in 2020. That is the best official order of magnitude available; be sceptical of any newer number quoted without a source.</p>
 
 <h2>How to Apply, Step by Step</h2>
 
 <ol>
     <li><strong>Check your licence category</strong> against C and CE, and confirm what Germany requires to recognise or convert it.</li>
-    <li><strong>Plan the code 95 route</strong> &mdash; full or accelerated basic qualification &mdash; and budget for the IHK examination.</li>
+    <li><strong>Plan the code 95 route</strong>, full or accelerated basic qualification, and budget for the IHK examination.</li>
     <li><strong>Find an employer first</strong> if you are outside the EU, because the section 24a route runs through a contract and agency consent.</li>
     <li><strong>Apply for the right title:</strong> a work visa with agency consent, a skilled worker permit if your qualification is recognised, or the Opportunity Card to search on the spot.</li>
     <li><strong>Arrange health insurance</strong> before the visa appointment: covering your living costs, including insurance, is a legal condition.</li>
@@ -350,15 +350,15 @@ JOBHTML;
 <p>Comparing driving and European work routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; another route into German employment and what it pays.</li>
-    <li><a href="/blog/devops-engineer-jobs-in-germany">DevOps Engineer Jobs in Germany</a> &mdash; the skilled worker visa from the technology side.</li>
-    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a> &mdash; the American route, its permit rules and pay.</li>
-    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; US licensing, hours of service and what the work really pays.</li>
-    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a> &mdash; Gulf driving work and its licence rules.</li>
-    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a> &mdash; passenger driving with a provincial licence and Job Bank pay.</li>
-    <li><a href="/blog/how-to-get-a-fleet-driver-job-in-canada">How to Get a Fleet Driver Job in Canada</a> &mdash; AZ and Class 1 licences, provincial training hours, air brakes and Job Bank wages.</li>
-    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; the nine plants, the apprenticeship route and the honest visa answer.</li>
-    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a> &mdash; the same question in Italy, where a quota decree decides it.</li>
+    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a>: another route into German employment and what it pays.</li>
+    <li><a href="/blog/devops-engineer-jobs-in-germany">DevOps Engineer Jobs in Germany</a>: the skilled worker visa from the technology side.</li>
+    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a>: the American route, its permit rules and pay.</li>
+    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a>: US licensing, hours of service and what the work really pays.</li>
+    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a>: Gulf driving work and its licence rules.</li>
+    <li><a href="/blog/bus-driver-jobs-in-canada">Bus Driver Jobs in Canada</a>: passenger driving with a provincial licence and Job Bank pay.</li>
+    <li><a href="/blog/how-to-get-a-fleet-driver-job-in-canada">How to Get a Fleet Driver Job in Canada</a>: AZ and Class 1 licences, provincial training hours, air brakes and Job Bank wages.</li>
+    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a>: the nine plants, the apprenticeship route and the honest visa answer.</li>
+    <li><a href="/blog/how-to-apply-for-ferrari-factory-jobs-in-italy">How to Apply for Ferrari Factory Jobs in Italy</a>: the same question in Italy, where a quota decree decides it.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using BGL, Bundesagentur f&uuml;r Arbeit and BALM publications and German law (FeV, BKrFQG, FPersV, BeschV and AufenthG). Rules, pay and visa conditions change. Always confirm with the German authorities or the employer before applying.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Online Jobs in Pakistan" — the head term for the Pakistan remote cluster.
+ * "Online Jobs in Pakistan": the head term for the Pakistan remote cluster.
  * The platform lists, the no-experience roles and the scam patterns already
  * live in the Online Jobs Without Investment, Remote Jobs in Pakistan with No
  * Experience and Virtual Assistant guides, so this one takes the money side:
@@ -35,7 +35,7 @@ use Illuminate\Support\Str;
  *    survey of freelance earnings sits behind either band. The guide sets
  *    them against the 2026-27 budget announcements instead: Sindh from
  *    PKR 40,000 to PKR 43,000, Khyber Pakhtunkhwa a proposed PKR 45,000, and
- *    a proposed ten per cent federal increase — and notes that freelance
+ *    a proposed ten per cent federal increase, and notes that freelance
  *    income has no minimum at all.
  *
  * 3. It lists Upwork, Fiverr and Freelancer without a word on fees. Fiverr's
@@ -168,7 +168,7 @@ class OnlineJobsPakistanBlogSeeder extends Seeder
     <li>A skill a client will pay for, with a portfolio or work samples to prove it</li>
     <li>Reliable internet, a computer and a backup power plan</li>
     <li>Written English good enough to agree scope and handle revisions</li>
-    <li>A CNIC and a bank account able to receive foreign remittances &mdash; PayPal does not serve Pakistan</li>
+    <li>A CNIC and a bank account able to receive foreign remittances: PayPal does not serve Pakistan</li>
     <li>For IT and IT-enabled services, registration with the Pakistan Software Export Board to be taxed at the lower rate</li>
 </ul>
 
@@ -182,7 +182,7 @@ class OnlineJobsPakistanBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Price the work after the fee and the tax, not before.</strong> A 100-dollar Fiverr order pays 80 dollars before tax, and nobody genuine will ask you to pay a deposit to unlock tasks or release earnings.</p>
 
-<p><strong>Note:</strong> pay, platform fees, payment methods and contract terms are set by each client, employer and platform &mdash; not by JobGader. Confirm the details on the platform or the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, platform fees, payment methods and contract terms are set by each client, employer and platform, not by JobGader. Confirm the details on the platform or the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -303,7 +303,7 @@ JOBHTML;
 
 <h2>The Scam Shape to Recognise</h2>
 
-<p>The most common fraud around this search does not look like a job advertisement. It looks like easy tasks &mdash; liking videos, rating products, writing reviews &mdash; offered on WhatsApp or Telegram, with a small payment for the first few to build trust. Then the tasks start requiring a deposit, a "recharge" or a fee to unlock higher commission or to withdraw what you have supposedly earned.</p>
+<p>The most common fraud around this search does not look like a job advertisement. It looks like easy tasks, liking videos, rating products, writing reviews, offered on WhatsApp or Telegram, with a small payment for the first few to build trust. Then the tasks start requiring a deposit, a "recharge" or a fee to unlock higher commission or to withdraw what you have supposedly earned.</p>
 
 <p>The rule that catches all of it: <strong>money flows from the client to you, never from you to the client</strong>. No genuine client, platform or employer asks you to pay to receive work or to release your earnings. The platform fee is taken from what you earn, not paid in advance. If you are asked to send money first, stop, and do not send more to recover what you have already sent.</p>
 
@@ -375,19 +375,19 @@ JOBHTML;
 <p>Choosing the work, not just the payment route? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/online-jobs-without-investment-in-pakistan">Online Jobs Without Investment in Pakistan</a> &mdash; the work that costs nothing to start, and the Connects cost of bidding on Upwork.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; the employed remote roles that hire beginners, and the scam patterns in full.</li>
-    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; contract work for one foreign client, and the paid course industry around it.</li>
-    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; the most searched remote category, and why the Amazon version of it is a scam.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; salaried remote support work with a shift and a fixed pay date.</li>
-    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; the office-based version, and why a freelance range is not a salary band.</li>
-    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a> &mdash; entry-level salaried pay and the minimum wage floor an offer has to clear.</li>
-    <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a> &mdash; the American remote market, and why a US job usually needs US work authorization.</li>
-    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; teaching online for global students, and which platforms hire from Pakistan.</li>
-    <li><a href="/blog/call-center-jobs-in-pakistan">Call Center Jobs in Pakistan</a> &mdash; inbound vs outbound, real pay by city, and how to avoid scams.</li>
+    <li><a href="/blog/online-jobs-without-investment-in-pakistan">Online Jobs Without Investment in Pakistan</a>: the work that costs nothing to start, and the Connects cost of bidding on Upwork.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: the employed remote roles that hire beginners, and the scam patterns in full.</li>
+    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a>: contract work for one foreign client, and the paid course industry around it.</li>
+    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a>: the most searched remote category, and why the Amazon version of it is a scam.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: salaried remote support work with a shift and a fixed pay date.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a>: the office-based version, and why a freelance range is not a salary band.</li>
+    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a>: entry-level salaried pay and the minimum wage floor an offer has to clear.</li>
+    <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a>: the American remote market, and why a US job usually needs US work authorization.</li>
+    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a>: teaching online for global students, and which platforms hire from Pakistan.</li>
+    <li><a href="/blog/call-center-jobs-in-pakistan">Call Center Jobs in Pakistan</a>: inbound vs outbound, real pay by city, and how to avoid scams.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or financial advice. Platform fees, State Bank instructions, tax rates and minimum wage notifications change &mdash; confirm the current position with the platform, your bank, FBR, PSEB and your provincial labour department before relying on it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or financial advice. Platform fees, State Bank instructions, tax rates and minimum wage notifications change: confirm the current position with the platform, your bank, FBR, PSEB and your provincial labour department before relying on it.</p>
 HTML;
     }
 }

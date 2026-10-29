@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Online Jobs — Employed, Freelance or Gig | JobGader')
+@section('title', 'Online Jobs: Employed, Freelance or Gig | JobGader')
 @section('meta_description', 'Online jobs across '.$coverage->shortList().': the difference between employed, freelance and gig work, what each pays, and how to get paid safely.')
-@section('og_title', 'Online Jobs — Employed, Freelance or Gig | JobGader')
+@section('og_title', 'Online Jobs: Employed, Freelance or Gig | JobGader')
 @section('og_description', 'Online jobs across '.$coverage->shortList().': the difference between employed, freelance and gig work, what each pays, and how to get paid safely.')
 @section('canonical', url()->current())
 
@@ -17,7 +17,7 @@
                 'title' => 'Employed, Freelance or Gig',
                 'paragraphs' => [
                     'An employed remote role gives you a salary, leave and employer contributions, and in exchange fixed hours and a single employer. Freelance client work pays more per hour but you carry the gaps between contracts, chase your own invoices and handle your own tax.',
-                    'Platform gig work — micro-tasks, short transcription jobs, survey and data labelling work — pays least of the three and usually well below an hourly wage once unpaid time between tasks is counted. It is useful as a supplement, rarely as an income.',
+                    'Platform gig work, micro-tasks, short transcription jobs, survey and data labelling work, pays least of the three and usually well below an hourly wage once unpaid time between tasks is counted. It is useful as a supplement, rarely as an income.',
                 ],
             ],
             [
@@ -30,7 +30,7 @@
             [
                 'title' => 'Getting Paid Across Borders',
                 'paragraphs' => [
-                    'This is where online work most often goes wrong for people in Pakistan, India and similar markets. Agree the payment method and the currency before starting, and use a route that leaves a record — a platform with escrow, or a recognised international transfer service.',
+                    'This is where online work most often goes wrong for people in Pakistan, India and similar markets. Agree the payment method and the currency before starting, and use a route that leaves a record: a platform with escrow, or a recognised international transfer service.',
                     'For direct client work, ask for a deposit before beginning and invoice on milestones rather than at the end. A client unwilling to pay anything upfront on a first engagement is the most common way freelancers lose a month of work.',
                 ],
             ],

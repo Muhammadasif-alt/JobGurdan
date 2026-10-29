@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\DB;
  * React TypeScript developer jobs in the USA, checked on 30 September 2026.
  *
  * A spoke off the React developer hub. The brief named a real technical
- * problem &mdash; keeping type safety over data from a backend whose responses
- * change &mdash; and then gave the wrong answer to it, which is the reason this
+ * problem: keeping type safety over data from a backend whose responses
+ * change, and then gave the wrong answer to it, which is the reason this
  * page is worth writing.
  *
  * The brief's advice was to keep interfaces updated and use type guards. The
@@ -143,11 +143,11 @@ HTML;
 
 <p>And the mechanism:</p>
 
-<blockquote><p>"Type annotations aren't part of JavaScript (or ECMAScript to be pedantic), so there really aren't any browsers or other runtimes that can just run TypeScript unmodified. That's why TypeScript needs a compiler in the first place &mdash; it needs some way to strip out or transform any TypeScript-specific code so that you can run it. Most TypeScript-specific code gets erased away, and likewise, here our type annotations were completely erased."</p></blockquote>
+<blockquote><p>"Type annotations aren't part of JavaScript (or ECMAScript to be pedantic), so there really aren't any browsers or other runtimes that can just run TypeScript unmodified. That's why TypeScript needs a compiler in the first place: it needs some way to strip out or transform any TypeScript-specific code so that you can run it. Most TypeScript-specific code gets erased away, and likewise, here our type annotations were completely erased."</p></blockquote>
 
 <p>So a compiled React application contains no types at all. The compiler checked what it could see, then deleted the annotations, and what ships is JavaScript.</p>
 
-<p>The direction of travel confirms it rather than changing it. There is a TC39 proposal to allow type annotation syntax in JavaScript itself, whose stated design is that "at runtime, a JavaScript engine ignores them, treating the types as comments". It is at <strong>stage 1</strong>, which is early, so it is a signal and not a fact about today &mdash; but the signal is that annotations are documentation for tools, not instructions to the runtime.</p>
+<p>The direction of travel confirms it rather than changing it. There is a TC39 proposal to allow type annotation syntax in JavaScript itself, whose stated design is that "at runtime, a JavaScript engine ignores them, treating the types as comments". It is at <strong>stage 1</strong>, which is early, so it is a signal and not a fact about today, but the signal is that annotations are documentation for tools, not instructions to the runtime.</p>
 
 <h2 id="the-api-boundary">Why That Makes the API Boundary the Real Problem</h2>
 
@@ -155,7 +155,7 @@ HTML;
 
 <p>You write an interface describing what the server returns. You annotate the response with it. Everything compiles. But nothing about that annotation inspects the bytes that arrive: the type was erased, and <code>fetch</code> hands your code whatever the server sent. <strong>An interface describing an API response is a claim about data you have not received yet.</strong> If the backend renames a field, sends a string where you expected a number, or returns <code>null</code> for something you marked required, TypeScript raises nothing. The failure surfaces three components later, as an error about a property of undefined, and the type system has actively made it harder to find by asserting the shape was fine.</p>
 
-<p>This is why the brief-style advice &mdash; keep your interfaces in step with the backend, add type guards &mdash; is only half right. Interfaces going stale is a symptom. The structural answer is:</p>
+<p>This is why the brief-style advice, keep your interfaces in step with the backend, add type guards, is only half right. Interfaces going stale is a symptom. The structural answer is:</p>
 
 <ul>
     <li><strong>Validate at the boundary, at runtime.</strong> Parse the response into your type rather than asserting it is one. The check must be real code that runs, because the type is not.</li>
@@ -173,13 +173,13 @@ HTML;
 
 <p>JavaScript is a standard. It is <strong>ECMA-262</strong>, published by Ecma International and revised annually, and no single company decides what goes into it.</p>
 
-<p>TypeScript is not that. It is a language and compiler maintained by Microsoft, and its own documentation is explicit that type annotations "aren't part of JavaScript (or ECMAScript to be pedantic)". That is not a criticism &mdash; it is why TypeScript can move quickly &mdash; but it has a practical consequence worth understanding when you read an advert asking for a specific version: your type-level code is tied to one vendor's compiler and its release cadence, while the JavaScript it compiles to is tied to a standard. When a codebase pins an old compiler, that is usually what is being pinned.</p>
+<p>TypeScript is not that. It is a language and compiler maintained by Microsoft, and its own documentation is explicit that type annotations "aren't part of JavaScript (or ECMAScript to be pedantic)". That is not a criticism, it is why TypeScript can move quickly, but it has a practical consequence worth understanding when you read an advert asking for a specific version: your type-level code is tied to one vendor's compiler and its release cadence, while the JavaScript it compiles to is tied to a standard. When a codebase pins an old compiler, that is usually what is being pinned.</p>
 
 <p>The TC39 proposal above is the attempt to close that gap. Its champions come from Microsoft, Igalia and Bloomberg, which tells you the intent is serious even at stage 1.</p>
 
 <h2 id="what-the-interview-tests">What the Interview Actually Tests</h2>
 
-<p>Expect two parts, and prepare them separately &mdash; the same structure our <a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React guide</a> describes for the language round.</p>
+<p>Expect two parts, and prepare them separately: the same structure our <a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React guide</a> describes for the language round.</p>
 
 <p><strong>The type system:</strong> the difference between an interface and a type alias and when it matters; unions and discriminated unions, which are the ones that model real API responses; narrowing, and what actually narrows a type; generics, and writing a function whose return type depends on its argument; <code>unknown</code> against <code>any</code>, which is the single most revealing question on this list; readonly and immutability; and utility types such as <code>Partial</code>, <code>Pick</code>, <code>Omit</code> and <code>Record</code>.</p>
 
@@ -250,24 +250,24 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the main guide: the two occupations, the pay bands and the eligibility filter.</li>
-    <li><a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React Developer Jobs in USA</a> &mdash; the language round, and the two standards a fundamentals interview draws on.</li>
-    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage, and the adjustment you are entitled to ask for.</li>
-    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a> &mdash; the staffing layer, and the pay rules inside it.</li>
-    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; what the grade changes, including your overtime status.</li>
-    <li><a href="/blog/full-stack-react-developer-jobs-in-usa">Full Stack React Developer Jobs in USA</a> &mdash; the same boundary from the server side, where validation is a legal duty rather than a preference.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the main guide: the two occupations, the pay bands and the eligibility filter.</li>
+    <li><a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React Developer Jobs in USA</a>: the language round, and the two standards a fundamentals interview draws on.</li>
+    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a>: the assessment stage, and the adjustment you are entitled to ask for.</li>
+    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a>: the staffing layer, and the pay rules inside it.</li>
+    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a>: what the grade changes, including your overtime status.</li>
+    <li><a href="/blog/full-stack-react-developer-jobs-in-usa">Full Stack React Developer Jobs in USA</a>: the same boundary from the server side, where validation is a legal duty rather than a preference.</li>
 </ul>
 
 <h2>Official sources</h2>
 
 <ul>
-    <li>TypeScript documentation &mdash; the handbook on type annotations, runtime behaviour and erasure.</li>
-    <li>TC39 &mdash; the type annotations proposal, its stage and its stated design.</li>
-    <li>Ecma International &mdash; ECMA-262, the ECMAScript Language Specification.</li>
-    <li>Bureau of Labor Statistics &mdash; Occupational Outlook Handbook for software developers and for web developers and digital designers, May 2025 wages.</li>
+    <li>TypeScript documentation: the handbook on type annotations, runtime behaviour and erasure.</li>
+    <li>TC39: the type annotations proposal, its stage and its stated design.</li>
+    <li>Ecma International: ECMA-262, the ECMAScript Language Specification.</li>
+    <li>Bureau of Labor Statistics: Occupational Outlook Handbook for software developers and for web developers and digital designers, May 2025 wages.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Language specifications, compiler behaviour and wage data change &mdash; confirm the current position with the TypeScript documentation, TC39, Ecma International and the Bureau of Labor Statistics before relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Language specifications, compiler behaviour and wage data change: confirm the current position with the TypeScript documentation, TC39, Ecma International and the Bureau of Labor Statistics before relying on any of it.</p>
 HTML;
     }
 }

@@ -199,9 +199,9 @@ class WorkFromHomeJobsMichiganNoExperienceBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/how-to-get-a-remote-customer-service-job-with-no-experience">How to Get a Remote Customer Service Job With No Experience</a> &mdash; the support route in more detail.</li>
-    <li><a href="/blog/transcription-jobs-from-home-ohio">Transcription Jobs From Home in Ohio</a> &mdash; how recording-based pay works.</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a> &mdash; check this before you send money or documents.</li>
+    <li><a href="/blog/how-to-get-a-remote-customer-service-job-with-no-experience">How to Get a Remote Customer Service Job With No Experience</a>: the support route in more detail.</li>
+    <li><a href="/blog/transcription-jobs-from-home-ohio">Transcription Jobs From Home in Ohio</a>: how recording-based pay works.</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, tax, financial or career advice. Reviewed on 22 October 2026 against the pages named in Sources. It does not promise a vacancy, an income or an interview, and platform rules and postings can change.</p>

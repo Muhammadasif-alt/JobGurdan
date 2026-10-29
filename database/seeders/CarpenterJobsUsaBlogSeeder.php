@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Carpenter Jobs in USA" — the largest of the American building trades, and
+ * "Carpenter Jobs in USA": the largest of the American building trades, and
  * the one whose careers guides repeat two pieces of advice that send readers
  * looking for things that do not exist.
  *
@@ -46,7 +46,7 @@ use Illuminate\Support\Str;
  * 5. Its "$40,000 to $65,000" is right at the floor and wrong at the ceiling.
  *    $40,410 is the 10th percentile, but $65,000 is roughly the 57th, so the
  *    band omits the top 40 per cent of the trade. The median is $60,580, the
- *    75th percentile $76,830 and the 90th $99,910 — and the occupation's own
+ *    75th percentile $76,830 and the 90th $99,910, and the occupation's own
  *    mean, $65,630, is above the quoted maximum.
  *
  * 6. It describes carpentry as an employee job throughout. About 25 per cent
@@ -164,7 +164,7 @@ class CarpenterJobsUsaBlogSeeder extends Seeder
     <li>No degree. Most carpenters enter through a registered apprenticeship, vocational training or on-the-job experience</li>
     <li>Blueprint reading and practical trade mathematics for layout and material take-offs</li>
     <li>Confidence with hand and power tools, and with the safety rules that govern them</li>
-    <li>An OSHA 10 or 30 card where the employer, the contract, the state or the city requires one &mdash; it is training, not a certification</li>
+    <li>An OSHA 10 or 30 card where the employer, the contract, the state or the city requires one: it is training, not a certification</li>
     <li>A driver licence for travel between sites, commonly asked for</li>
     <li>A contractor licence only if you intend to contract for the work yourself, and then only where your state requires it</li>
 </ul>
@@ -172,7 +172,7 @@ class CarpenterJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Work out whether the advertisement wants an employee or a subcontractor.</strong> This is the trade where that distinction changes your tax, your insurance and your liability more than any other, and the job title rarely makes it clear.</p>
 
-<p><strong>Note:</strong> pay, safety training requirements, licensing and eligibility are set by each employer, state and city &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, safety training requirements, licensing and eligibility are set by each employer, state and city, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -192,28 +192,28 @@ JOBHTML;
 <p>The figure in circulation is <strong>"$40,000 to $65,000 a year, or roughly $19 to $31 an hour"</strong>. The bottom of it is accurate. The top is not. Here is what the Bureau of Labor Statistics measured across <strong>670,090 employed carpenters in May 2025</strong>:</p>
 
 <ul>
-    <li><strong>10th percentile &mdash; $40,410</strong> a year, $19.43 an hour</li>
-    <li><strong>25th percentile &mdash; $48,510</strong> a year, $23.32 an hour</li>
-    <li><strong>Median &mdash; $60,580</strong> a year, <strong>$29.12</strong> an hour</li>
-    <li><strong>75th percentile &mdash; $76,830</strong> a year, $36.94 an hour</li>
-    <li><strong>90th percentile &mdash; $99,910</strong> a year, <strong>$48.03</strong> an hour</li>
+    <li><strong>10th percentile: $40,410</strong> a year, $19.43 an hour</li>
+    <li><strong>25th percentile: $48,510</strong> a year, $23.32 an hour</li>
+    <li><strong>Median: $60,580</strong> a year, <strong>$29.12</strong> an hour</li>
+    <li><strong>75th percentile: $76,830</strong> a year, $36.94 an hour</li>
+    <li><strong>90th percentile: $99,910</strong> a year, <strong>$48.03</strong> an hour</li>
 </ul>
 
-<p>So $65,000 sits between the median and the 75th percentile &mdash; around the <strong>57th percentile</strong>. The quoted band describes roughly the bottom half of the trade and leaves out the top 40 per cent of it. <strong>A quarter of carpenters earn $76,830 or more, and a tenth clear $99,910.</strong> Even the <strong>mean of $65,630</strong> is above the figure presented as a ceiling.</p>
+<p>So $65,000 sits between the median and the 75th percentile: around the <strong>57th percentile</strong>. The quoted band describes roughly the bottom half of the trade and leaves out the top 40 per cent of it. <strong>A quarter of carpenters earn $76,830 or more, and a tenth clear $99,910.</strong> Even the <strong>mean of $65,630</strong> is above the figure presented as a ceiling.</p>
 
-<p>Against the wider labour market, carpentry pays well for a job with no degree requirement: the median for <strong>all US occupations is $50,980</strong>, so the carpenter median runs about <strong>19 per cent above it</strong>. Against the neighbouring trades it sits slightly lower &mdash; <strong>electricians $63,190</strong> and <strong>plumbers $63,800</strong>, both licensed trades &mdash; but well above <strong>construction labourers at $47,120</strong>. The supervisor step, first-line supervisor of construction trades, pays <strong>$79,920</strong>.</p>
+<p>Against the wider labour market, carpentry pays well for a job with no degree requirement: the median for <strong>all US occupations is $50,980</strong>, so the carpenter median runs about <strong>19 per cent above it</strong>. Against the neighbouring trades it sits slightly lower, <strong>electricians $63,190</strong> and <strong>plumbers $63,800</strong>, both licensed trades, but well above <strong>construction labourers at $47,120</strong>. The supervisor step, first-line supervisor of construction trades, pays <strong>$79,920</strong>.</p>
 
-<p>Where you work moves this more than almost anything else. The highest state medians are <strong>Hawaii at $85,280</strong>, <strong>Illinois at $79,000</strong>, <strong>California at $75,920</strong>, <strong>Massachusetts at $75,200</strong> and <strong>Washington at $74,190</strong>. The lowest are <strong>Oklahoma at $46,910</strong>, <strong>Arkansas at $47,760</strong> and <strong>South Dakota at $48,140</strong>. Note that two of the biggest employers of carpenters, <strong>Florida</strong> and <strong>Texas</strong>, are high-volume and low-wage at <strong>$49,870</strong> and <strong>$48,900</strong> &mdash; plenty of work, below-median pay.</p>
+<p>Where you work moves this more than almost anything else. The highest state medians are <strong>Hawaii at $85,280</strong>, <strong>Illinois at $79,000</strong>, <strong>California at $75,920</strong>, <strong>Massachusetts at $75,200</strong> and <strong>Washington at $74,190</strong>. The lowest are <strong>Oklahoma at $46,910</strong>, <strong>Arkansas at $47,760</strong> and <strong>South Dakota at $48,140</strong>. Note that two of the biggest employers of carpenters, <strong>Florida</strong> and <strong>Texas</strong>, are high-volume and low-wage at <strong>$49,870</strong> and <strong>$48,900</strong>: plenty of work, below-median pay.</p>
 
 <h2>A Quarter of the Trade Is Not Employed by Anyone</h2>
 
-<p>This is the structural fact every carpenter guide leaves out, and it changes how you should read every number above. <strong>About 25 per cent of carpenters are self-employed</strong> &mdash; the single largest category in the occupation.</p>
+<p>This is the structural fact every carpenter guide leaves out, and it changes how you should read every number above. <strong>About 25 per cent of carpenters are self-employed</strong>: the single largest category in the occupation.</p>
 
 <p>You can see it in the data itself. The wage survey counts <strong>670,090</strong> carpenters, because it only counts employees. The occupational handbook counts <strong>889,700</strong>, because it includes the self-employed. The <strong>219,610</strong> gap between those two numbers is the self-employed quarter of the trade.</p>
 
 <p>Which means: <strong>every percentile on this page describes the three-quarters of carpenters who work for somebody else.</strong> Nobody publishes a reliable earnings distribution for the self-employed quarter, and anyone who quotes you one is estimating.</p>
 
-<p>It also means the trade has a second career track built into it that the guides treat as an afterthought. If you end up self-employed, your income stops being a wage and becomes a business result &mdash; after tools, a vehicle, insurance, unpaid time between jobs, and the contractor licensing thresholds set out further down this page, which become your problem rather than your employer's.</p>
+<p>It also means the trade has a second career track built into it that the guides treat as an afterthought. If you end up self-employed, your income stops being a wage and becomes a business result: after tools, a vehicle, insurance, unpaid time between jobs, and the contractor licensing thresholds set out further down this page, which become your problem rather than your employer's.</p>
 
 <h2>There Is No Such Thing as OSHA Certification</h2>
 
@@ -222,9 +222,9 @@ JOBHTML;
 <p>What actually exists is the <strong>OSHA Outreach Training Program</strong>, delivered by <strong>OSHA-authorised trainers</strong> rather than by OSHA itself, which issues <strong>course completion cards</strong>:</p>
 
 <ul>
-    <li><strong>OSHA 10</strong> &mdash; intended for entry-level workers.</li>
-    <li><strong>OSHA 30</strong> &mdash; intended for workers with some safety responsibility.</li>
-    <li>Construction courses must cover the <strong>Focus Four Hazards</strong> &mdash; falls, struck-by, caught-in or between, and electrocution &mdash; for at least half an hour each. The training emphasises <strong>hazard recognition and avoidance</strong>, not the text of the standards.</li>
+    <li><strong>OSHA 10</strong>: intended for entry-level workers.</li>
+    <li><strong>OSHA 30</strong>: intended for workers with some safety responsibility.</li>
+    <li>Construction courses must cover the <strong>Focus Four Hazards</strong>, falls, struck-by, caught-in or between, and electrocution, for at least half an hour each. The training emphasises <strong>hazard recognition and avoidance</strong>, not the text of the standards.</li>
     <li><strong>The federal card does not expire.</strong></li>
 </ul>
 
@@ -233,7 +233,7 @@ JOBHTML;
 <ul>
     <li><strong>Nevada</strong> is the strictest and the broadest: OSHA 10 for non-supervisory construction workers and OSHA 30 for supervisors, produced <strong>within 15 days of being hired</strong>, across construction generally rather than only public work.</li>
     <li><strong>New York City</strong> goes much further than an OSHA card. Under Local Law 196, site workers need a <strong>Site Safety Training card showing at least 40 hours</strong> of training and supervisors <strong>62 hours</strong>. OSHA 10 counts toward that total but does not satisfy it, and <strong>SST cards run for five years</strong>.</li>
-    <li><strong>Massachusetts</strong> requires OSHA 10 on public work estimated at <strong>over $10,000</strong> &mdash; a far lower trigger than other states, so it catches small jobs.</li>
+    <li><strong>Massachusetts</strong> requires OSHA 10 on public work estimated at <strong>over $10,000</strong>: a far lower trigger than other states, so it catches small jobs.</li>
     <li><strong>Connecticut</strong> and <strong>New Hampshire</strong> require it on public projects of <strong>$100,000 or more</strong>, and Connecticut will not accept a card issued <strong>more than five years</strong> before the project starts.</li>
     <li><strong>Missouri</strong> gives public works employees <strong>60 days</strong> from starting to complete it, with penalties of $2,500 plus $100 a day per non-compliant worker.</li>
     <li><strong>Rhode Island</strong> requires it on public works projects of $100,000 or more.</li>
@@ -251,7 +251,7 @@ JOBHTML;
 
 <p>The second piece of standard advice is that apprentices work "under a licensed journeyman or master carpenter". In most of the United States there is no such licence to hold.</p>
 
-<p>Electricians and plumbers are licensed as individuals almost everywhere. Carpenters are not. Virginia sets it out cleanly by listing the trades that require individual state certification &mdash; electrical, plumbing, HVAC, gas fitting, water well construction, elevator mechanics, backflow prevention and building energy analysis &mdash; and <strong>carpentry is not among them</strong>.</p>
+<p>Electricians and plumbers are licensed as individuals almost everywhere. Carpenters are not. Virginia sets it out cleanly by listing the trades that require individual state certification, electrical, plumbing, HVAC, gas fitting, water well construction, elevator mechanics, backflow prevention and building energy analysis, and <strong>carpentry is not among them</strong>.</p>
 
 <p>Two distinctions follow, and they decide what you personally need:</p>
 
@@ -280,13 +280,13 @@ JOBHTML;
 <p>The numbers, stated carefully:</p>
 
 <ul>
-    <li>Carpentry apprenticeships typically run <strong>about four years</strong> and roughly <strong>8,000 hours</strong> of on-the-job learning, with a recommended <strong>144 hours of classroom instruction a year</strong>. Those are the standard figures used by sponsors, not a single federal rule &mdash; programmes may be time-based, competency-based or a hybrid.</li>
+    <li>Carpentry apprenticeships typically run <strong>about four years</strong> and roughly <strong>8,000 hours</strong> of on-the-job learning, with a recommended <strong>144 hours of classroom instruction a year</strong>. Those are the standard figures used by sponsors, not a single federal rule: programmes may be time-based, competency-based or a hybrid.</li>
     <li>The <strong>federal minimum age is 16</strong>, though many construction programmes set 18 in practice.</li>
     <li><strong>A high school diploma is not universally required to start an apprenticeship</strong>, even though BLS records one as the typical entry-level education for the occupation. Each sponsor sets its own standard, and the Department of Labor's own sample qualifications allow alternatives such as assessment scores or relevant experience. Do not rule yourself out on this without checking the sponsor.</li>
     <li>The <strong>United Brotherhood of Carpenters</strong> runs a four-year programme through its training fund, and describes graduates as finishing with four years of experience and no debt.</li>
 </ul>
 
-<p>One honest note on the union question. Guides routinely claim union carpenters earn more. That may well be so, but <strong>the UBC publishes no wage figures</strong> of its own &mdash; no pay scale, no union premium. Any percentage you see quoted for it comes from somewhere else, so treat it accordingly and ask your local for its actual published wage schedule.</p>
+<p>One honest note on the union question. Guides routinely claim union carpenters earn more. That may well be so, but <strong>the UBC publishes no wage figures</strong> of its own: no pay scale, no union premium. Any percentage you see quoted for it comes from somewhere else, so treat it accordingly and ask your local for its actual published wage schedule.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/carpenter-jobs-in-usa-deck.jpg"
@@ -296,14 +296,14 @@ JOBHTML;
 
 <h2>Steady Growth, and the Risk Nobody Prints</h2>
 
-<p>On demand, the guides overstate a figure that is decent on its own terms. Employment is projected to grow <strong>4 per cent from 2025 to 2035</strong>, which BLS calls "as fast as average" &mdash; against <strong>3.5 per cent for all occupations</strong>. That is a real but modest half-point edge, adding <strong>35,000 jobs</strong> on a base of 889,700, with about <strong>62,800 openings a year</strong> once replacement is counted.</p>
+<p>On demand, the guides overstate a figure that is decent on its own terms. Employment is projected to grow <strong>4 per cent from 2025 to 2035</strong>, which BLS calls "as fast as average": against <strong>3.5 per cent for all occupations</strong>. That is a real but modest half-point edge, adding <strong>35,000 jobs</strong> on a base of 889,700, with about <strong>62,800 openings a year</strong> once replacement is counted.</p>
 
 <p>What no careers guide mentions is the other side of the trade, and it is a citable number rather than an impression:</p>
 
 <ul>
     <li><strong>89 carpenters died at work in 2024</strong>, a fatal injury rate of <strong>7.5 per 100,000 full-time equivalent workers</strong>.</li>
     <li>The rate for <strong>all US workers is 3.3</strong>. Carpentry is therefore about <strong>2.3 times</strong> the national average.</li>
-    <li><strong>Falls, slips and trips caused 51 of those 89 deaths</strong> &mdash; well over half, and the reason fall protection dominates site safety training.</li>
+    <li><strong>Falls, slips and trips caused 51 of those 89 deaths</strong>: well over half, and the reason fall protection dominates site safety training.</li>
     <li>Non-fatal injury is common rather than rare: <strong>165.2 cases with days away from work per 10,000 full-time workers</strong>.</li>
     <li>For context, construction and extraction occupations as a whole run at <strong>12.6</strong>, so carpentry is safer than the construction average while remaining well above the national one.</li>
 </ul>
@@ -316,10 +316,10 @@ JOBHTML;
 
 <p><strong>H-1B does not fit.</strong> That route is for specialty occupations, and the test is a bachelor's degree or higher <strong>in a directly related specific specialty</strong> as the normal minimum for entry, with general degrees excluded. Carpentry has no degree entry requirement, so it fails that test on its face.</p>
 
-<p><strong>H-2B is the realistic route</strong>, and carpentry roles genuinely are certified under it &mdash; the Department of Labor's own seasonal jobs portal carries helper-carpenter postings. Three things to understand about it:</p>
+<p><strong>H-2B is the realistic route</strong>, and carpentry roles genuinely are certified under it: the Department of Labor's own seasonal jobs portal carries helper-carpenter postings. Three things to understand about it:</p>
 
 <ul>
-    <li>It covers <strong>temporary</strong> need only &mdash; one-time, seasonal, peakload or intermittent.</li>
+    <li>It covers <strong>temporary</strong> need only: one-time, seasonal, peakload or intermittent.</li>
     <li>The cap is <strong>66,000 a year</strong>, split into 33,000 for each half of the year.</li>
     <li><strong>The employer drives it.</strong> The employer must obtain a temporary labour certification from the Department of Labor first. You cannot apply for an H-2B by yourself, and anyone offering to sell you one is not describing the process correctly.</li>
 </ul>
@@ -342,7 +342,7 @@ JOBHTML;
 <p>It depends where. Nevada requires it for construction workers within 15 days of hire, New York City requires a 40-hour Site Safety Training card, and Massachusetts, Connecticut, New Hampshire, Missouri and Rhode Island require it on public projects. Elsewhere it is an employer or contract requirement rather than a legal one.</p>
 
 <h3>Do carpenters need a licence in the USA?</h3>
-<p>Most states do not license carpenters as individuals, unlike electricians and plumbers. Licensing generally applies to the contracting business above a dollar threshold &mdash; $1,000 in California and Virginia, and any amount at all in Oregon. An employee of a licensed contractor usually needs no personal licence.</p>
+<p>Most states do not license carpenters as individuals, unlike electricians and plumbers. Licensing generally applies to the contracting business above a dollar threshold: $1,000 in California and Virginia, and any amount at all in Oregon. An employee of a licensed contractor usually needs no personal licence.</p>
 
 <h3>How long is a carpentry apprenticeship?</h3>
 <p>Typically about four years and roughly 8,000 hours of paid on-the-job learning, with around 144 hours of classroom instruction a year. Apprentices are paid from day one, with increases tied to skills gained rather than time served.</p>
@@ -365,7 +365,7 @@ JOBHTML;
 <p>Two different trades in practice, and California licenses them separately as C-5 framing and rough carpentry and C-6 cabinet, millwork and finish carpentry.</p>
 
 <h3>Journeyman carpenter meaning</h3>
-<p>Apprenticeship completion, and a step on an employer or union pay scale &mdash; not a licence a regulator issues in most states.</p>
+<p>Apprenticeship completion, and a step on an employer or union pay scale, not a licence a regulator issues in most states.</p>
 
 <h3>Carpenter apprenticeship entry requirements</h3>
 <p>Set by each sponsor. A diploma is common but not universal, DOL sample qualifications allow alternatives, and the federal minimum age is 16.</p>
@@ -390,16 +390,16 @@ JOBHTML;
 <p>Comparing trades and construction routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; the wider American site trades and the visa categories that reach them.</li>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; the same work under award pay and the White Card.</li>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; a trade that genuinely does license individuals, and what that takes.</li>
-    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; another licensed trade, and where mutual recognition stops.</li>
-    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; certification by province and what it is worth.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest position on entry-level American sponsorship.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; another route that turns on employee versus contractor status.</li>
-    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; the largest no-degree entry route, for comparison.</li>
-    <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a> &mdash; the facilities and industrial repair trade, its BLS pay and the EPA 608 and OSHA cards.</li>
-    <li><a href="/blog/carpenter-jobs-in-the-uk-canada-and-australia">Carpenter Jobs in the UK, Canada and Australia</a> &mdash; the same trade abroad, and why UK sponsorship is now closed to new carpenters.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: the wider American site trades and the visa categories that reach them.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: the same work under award pay and the White Card.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: a trade that genuinely does license individuals, and what that takes.</li>
+    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a>: another licensed trade, and where mutual recognition stops.</li>
+    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a>: certification by province and what it is worth.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the honest position on entry-level American sponsorship.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: another route that turns on employee versus contractor status.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a>: the largest no-degree entry route, for comparison.</li>
+    <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a>: the facilities and industrial repair trade, its BLS pay and the EPA 608 and OSHA cards.</li>
+    <li><a href="/blog/carpenter-jobs-in-the-uk-canada-and-australia">Carpenter Jobs in the UK, Canada and Australia</a>: the same trade abroad, and why UK sponsorship is now closed to new carpenters.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, legal or immigration advice. Wage figures, safety training mandates, contractor licensing thresholds and visa rules change and differ by state and city. Confirm the current position with the Bureau of Labor Statistics, OSHA, your state licensing board and the employer's own advertisement before applying.</p>

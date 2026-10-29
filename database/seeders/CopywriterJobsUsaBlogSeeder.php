@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Copywriter Jobs in USA" — a sector guide rather than one vacancy, so the
+ * "Copywriter Jobs in USA": a sector guide rather than one vacancy, so the
  * apply link goes to an Indeed search and the post carries no JobPosting
  * markup. The draft's link carried a ?vjk= search-preview parameter, stripped
  * here.
@@ -26,8 +26,8 @@ use Illuminate\Support\Str;
  * Corrections to the draft:
  *
  * 1. It opened on demand for writers never being higher and called this a
- *    fast-growing path. BLS projects writers and authors at 0% — little or no
- *    change — for 2025-35, and names AI directly: "Increasing use of artificial
+ *    fast-growing path. BLS projects writers and authors at 0%: little or no
+ *    change: for 2025-35, and names AI directly: "Increasing use of artificial
  *    intelligence (AI) for writing is projected to dampen demand for these
  *    workers." The same sentence continues that these workers will still be
  *    needed for online media and advertising, which is this niche, so the
@@ -38,7 +38,7 @@ use Illuminate\Support\Str;
  *
  * 3. It listed freelancing as one of five "types" of copywriter job. BLS puts
  *    65% of writers and authors in self-employment, so freelancing is the
- *    default state of this occupation, not one branch of it — which is why the
+ *    default state of this occupation, not one branch of it, which is why the
  *    business and legal sections are central here rather than a footnote.
  *
  * 4. Two legal points a freelance copywriter carries and is rarely told about:
@@ -154,11 +154,11 @@ class CopywriterJobsUsaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li>Persuasive writing that survives being measured &mdash; the copy is usually attached to a conversion rate</li>
+    <li>Persuasive writing that survives being measured: the copy is usually attached to a conversion rate</li>
     <li>A portfolio of real samples; speculative pieces are accepted when starting out, provided they are marked as such</li>
     <li>The ability to write in someone else's voice and hold it consistently</li>
     <li>Research speed: understanding a new product or industry well enough to write about it in days</li>
-    <li>SEO literacy for web and content-adjacent roles &mdash; search intent rather than keyword density</li>
+    <li>SEO literacy for web and content-adjacent roles: search intent rather than keyword density</li>
     <li>A bachelor's degree is the typical stated requirement, though a portfolio routinely substitutes for it here</li>
 </ul>
 
@@ -172,7 +172,7 @@ class CopywriterJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Get the ownership terms in writing.</strong> For a freelance copywriter, whether the client owns the copy depends on the contract, not on having been paid. Settle it before the work starts, not at invoice time.</p>
 
-<p><strong>Note:</strong> pay, deadlines, revision policies and contract terms are set by each employer or client &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, deadlines, revision policies and contract terms are set by each employer or client, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -189,7 +189,7 @@ JOBHTML;
 
 <h2>Copywriting Is Not Content Writing</h2>
 
-<p>Start here, because it decides what you are paid. <strong>Copywriting is writing to cause an action</strong> &mdash; a purchase, a signup, a click, a booking. It is measured: the page converted at some rate or it did not. <strong>Content writing builds awareness and trust over time</strong> &mdash; blog posts, guides, SEO articles &mdash; and is measured in traffic and rankings.</p>
+<p>Start here, because it decides what you are paid. <strong>Copywriting is writing to cause an action</strong>: a purchase, a signup, a click, a booking. It is measured: the page converted at some rate or it did not. <strong>Content writing builds awareness and trust over time</strong>, blog posts, guides, SEO articles, and is measured in traffic and rankings.</p>
 
 <p>They pay differently because they carry different risk. A blog post that underperforms costs a slot in a calendar; a sales page that underperforms costs the campaign. Writers who describe themselves as "content and copy" generalists are usually paid content rates for both. If you can attach a number to what your words did, you are a copywriter and should be priced as one. Our <a href="/blog/ai-content-writer-jobs-in-usa">guide to AI content writer jobs in the USA</a> covers the content side, including what Google actually says about AI-assisted material.</p>
 
@@ -200,7 +200,7 @@ JOBHTML;
 <ul>
     <li><strong>Entry level and junior:</strong> commonly $45,000 to $60,000 in staff roles, at the bottom of that distribution</li>
     <li><strong>Mid-level:</strong> around $65,000 to $95,000, straddling the median</li>
-    <li><strong>Senior, lead and specialist:</strong> $100,000 upward, with the top tenth past $139,870 &mdash; concentrated in direct response, SaaS, finance and health, where the copy is tied to revenue that can be counted</li>
+    <li><strong>Senior, lead and specialist:</strong> $100,000 upward, with the top tenth past $139,870: concentrated in direct response, SaaS, finance and health, where the copy is tied to revenue that can be counted</li>
     <li><strong>Freelance:</strong> priced per project or retainer rather than hourly, which is the right structure here and is explained below</li>
 </ul>
 
@@ -214,9 +214,9 @@ JOBHTML;
 
 <p>This is the correction worth making carefully, because the honest answer is not simply "bad".</p>
 
-<p>BLS projects employment of writers and authors at <strong>0 per cent &mdash; little or no change &mdash; from 2025 to 2035</strong>, with about <strong>11,900 openings a year</strong>. And it names the cause directly: <em>"Increasing use of artificial intelligence (AI) for writing is projected to dampen demand for these workers."</em> An article claiming demand for writers has never been higher is not describing the same occupation the federal statisticians are.</p>
+<p>BLS projects employment of writers and authors at <strong>0 per cent, little or no change, from 2025 to 2035</strong>, with about <strong>11,900 openings a year</strong>. And it names the cause directly: <em>"Increasing use of artificial intelligence (AI) for writing is projected to dampen demand for these workers."</em> An article claiming demand for writers has never been higher is not describing the same occupation the federal statisticians are.</p>
 
-<p>But read the very next sentence, because it is the one that matters to you: <em>"However, these workers will continue to be needed for online media and advertising."</em> <strong>Advertising is this niche.</strong> The part of the writing occupation BLS singles out as continuing is precisely the persuasion and conversion work described above &mdash; not general article production, which is where the AI pressure lands hardest.</p>
+<p>But read the very next sentence, because it is the one that matters to you: <em>"However, these workers will continue to be needed for online media and advertising."</em> <strong>Advertising is this niche.</strong> The part of the writing occupation BLS singles out as continuing is precisely the persuasion and conversion work described above, not general article production, which is where the AI pressure lands hardest.</p>
 
 <p>So the strategy follows from the data rather than from optimism: the flat headline is real, the squeeze is real, and the sheltered ground inside it is copy that someone measures. Writers who sell volume are competing with a tool that produces volume for free. Writers who can say "this page lifted signups by nine per cent" are selling something a tool cannot claim.</p>
 
@@ -224,7 +224,7 @@ JOBHTML;
 
 <p>Here is the structural fact that reframes everything and that most guides bury under a subheading: <strong>65 per cent of writers and authors are self-employed</strong>. Freelancing is not one of five "types" of copywriter job. It is the default condition of the field, and roughly two thirds of the people doing this work are running a business whether or not they think of it that way.</p>
 
-<p>Which means the business side is not optional reading. You owe the <strong>federal self-employment tax of 15.3%</strong> on top of income tax, file on <strong>Schedule C</strong>, receive <strong>1099-NEC</strong> forms from clients, and must make <strong>quarterly estimated payments</strong> &mdash; due 15 April, 15 June, 15 September and 15 January &mdash; once you expect to owe more than $1,000.</p>
+<p>Which means the business side is not optional reading. You owe the <strong>federal self-employment tax of 15.3%</strong> on top of income tax, file on <strong>Schedule C</strong>, receive <strong>1099-NEC</strong> forms from clients, and must make <strong>quarterly estimated payments</strong>, due 15 April, 15 June, 15 September and 15 January, once you expect to owe more than $1,000.</p>
 
 <h3>Price per project, not per word</h3>
 <p>Per-word pricing is the single most damaging habit in this field. A sales page that converts might be 400 words that took three days of research; an article that does nothing might be 2,000 words written in an afternoon. Per-word pricing pays you more for the second, which is exactly backwards, and it puts you in direct price competition with generative tools whose marginal cost is zero. Price the outcome and the research, cap revision rounds in writing, and charge for the strategy call.</p>
@@ -238,7 +238,7 @@ JOBHTML;
 <p>In practice a client will ask you to write "clinically proven", "doubles your revenue", or a specific percentage, and will have nothing behind it. The professional move is to ask what the evidence is before you write the line, and to offer honest alternatives when there is none. You are not the advertiser and the liability is primarily theirs, but you are the person putting the words on the page, and a copywriter who raises this is worth more to a serious client than one who does not.</p>
 
 <h3>Getting paid does not transfer the copyright</h3>
-<p>This surprises almost everyone. Under US copyright law a <strong>work made for hire</strong> by an independent contractor requires <strong>both</strong> that the work falls within one of nine statutory categories <strong>and</strong> that there is a <strong>signed written agreement</strong> saying it is a work made for hire. If either element is missing, <strong>the copyright stays with the writer</strong>, whatever the invoice says &mdash; and ownership can then only move by a written assignment.</p>
+<p>This surprises almost everyone. Under US copyright law a <strong>work made for hire</strong> by an independent contractor requires <strong>both</strong> that the work falls within one of nine statutory categories <strong>and</strong> that there is a <strong>signed written agreement</strong> saying it is a work made for hire. If either element is missing, <strong>the copyright stays with the writer</strong>, whatever the invoice says, and ownership can then only move by a written assignment.</p>
 <p>Two consequences. If you are the client's writer, they may not own what they paid for, which is a real problem for them and something you can solve by using a clear agreement. And if you are the freelancer, your rights are worth something: retaining the ability to show work in your portfolio, or licensing rather than assigning, is negotiable. Settle it in writing before the work starts.</p>
 
 <figure style="text-align:center;margin:34px 0;">
@@ -254,7 +254,7 @@ JOBHTML;
 <p>For a first role, the useful moves are narrow and specific:</p>
 
 <ul>
-    <li><strong>Write three to five speculative pieces for real companies</strong> &mdash; a landing page, an email sequence, a set of ads &mdash; and label them as speculative. Include a short note on who the reader is and what the piece is trying to make them do. That note is what gets you hired; it shows you think about the reader rather than the sentence.</li>
+    <li><strong>Write three to five speculative pieces for real companies</strong>, a landing page, an email sequence, a set of ads, and label them as speculative. Include a short note on who the reader is and what the piece is trying to make them do. That note is what gets you hired; it shows you think about the reader rather than the sentence.</li>
     <li><strong>Pick a niche early.</strong> SaaS, health and wellness, finance, e-commerce, real estate. Specialists are hired faster and paid more because the research cost falls with every project.</li>
     <li><strong>Consider an agency first.</strong> Lower pay, faster learning, and a volume of brands and formats you cannot get in-house.</li>
     <li><strong>Pitch small businesses directly.</strong> Most have nobody writing their copy and are not posting jobs. This is the least contested route into paid work.</li>
@@ -318,14 +318,14 @@ JOBHTML;
 <p>Comparing this against the other writing and digital paths? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/ai-content-writer-jobs-in-usa">AI Content Writer Jobs in USA</a> &mdash; the content side of the same market, and what Google actually says about AI-assisted writing.</li>
-    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a> &mdash; the discipline copy sits inside, and the one with roughly seven times the annual openings.</li>
-    <li><a href="/blog/ats-resume-writer-jobs-in-usa">ATS Resume Writer Jobs in USA</a> &mdash; another writing niche with steadier, year-round demand.</li>
-    <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; the visual half of the same campaigns, facing the same pressure.</li>
-    <li><a href="/blog/content-writer-jobs-in-usa">Content Writer Jobs in USA</a> &mdash; the content side of the same occupation, and the attribution trap that leaves writers with no portfolio.</li>
+    <li><a href="/blog/ai-content-writer-jobs-in-usa">AI Content Writer Jobs in USA</a>: the content side of the same market, and what Google actually says about AI-assisted writing.</li>
+    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a>: the discipline copy sits inside, and the one with roughly seven times the annual openings.</li>
+    <li><a href="/blog/ats-resume-writer-jobs-in-usa">ATS Resume Writer Jobs in USA</a>: another writing niche with steadier, year-round demand.</li>
+    <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a>: the visual half of the same campaigns, facing the same pressure.</li>
+    <li><a href="/blog/content-writer-jobs-in-usa">Content Writer Jobs in USA</a>: the content side of the same occupation, and the attribution trap that leaves writers with no portfolio.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage data, employment projections, advertising rules and copyright law change, and contract terms vary &mdash; confirm the current position with the Bureau of Labor Statistics, the IRS, the FTC, a qualified adviser and the employer's own advertisement before applying or signing anything.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or careers advice. Wage data, employment projections, advertising rules and copyright law change, and contract terms vary: confirm the current position with the Bureau of Labor Statistics, the IRS, the FTC, a qualified adviser and the employer's own advertisement before applying or signing anything.</p>
 HTML;
     }
 }

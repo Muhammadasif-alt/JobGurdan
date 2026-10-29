@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Work From Home Jobs in UK" — the search term where the standard careers
+ * "Work From Home Jobs in UK": the search term where the standard careers
  * advice quotes pay that would be unlawful to offer and tax relief that no
  * longer exists.
  *
@@ -173,7 +173,7 @@ class WorkFromHomeJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Work out two things from the advertisement: the hourly rate, and whether it is a job or a contract.</strong> Divide any annual figure by the hours expected and compare it against the National Living Wage. If the listing signs you up as self-employed, the minimum wage, paid holiday and sick pay do not come with it.</p>
 
-<p><strong>Note:</strong> pay, contract type, equipment and eligibility are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying, and never pay a fee to be found work.</p>
+<p><strong>Note:</strong> pay, contract type, equipment and eligibility are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement before applying, and never pay a fee to be found work.</p>
 JOBHTML;
     }
 
@@ -193,18 +193,18 @@ JOBHTML;
 <p>The figure in circulation is <strong>"GBP 18,000 to GBP 24,000 a year"</strong> for entry-level remote work such as customer service or data entry. Set it against the rate the law requires. From <strong>1 April 2026</strong> the National Minimum Wage and National Living Wage rates are:</p>
 
 <ul>
-    <li><strong>21 and over (National Living Wage) &mdash; &pound;12.71</strong> an hour</li>
-    <li><strong>18 to 20 &mdash; &pound;10.85</strong> an hour</li>
-    <li><strong>Under 18 &mdash; &pound;8.00</strong> an hour</li>
-    <li><strong>Apprentice &mdash; &pound;8.00</strong> an hour</li>
+    <li><strong>21 and over (National Living Wage): &pound;12.71</strong> an hour</li>
+    <li><strong>18 to 20: &pound;10.85</strong> an hour</li>
+    <li><strong>Under 18: &pound;8.00</strong> an hour</li>
+    <li><strong>Apprentice: &pound;8.00</strong> an hour</li>
 </ul>
 
 <p>For someone aged 21 or over, that means a full-time year cannot lawfully pay less than:</p>
 
 <ul>
-    <li><strong>35 hours a week &mdash; &pound;23,132.20</strong> a year</li>
-    <li><strong>37.5 hours a week &mdash; &pound;24,784.50</strong> a year</li>
-    <li><strong>40 hours a week &mdash; &pound;26,436.80</strong> a year</li>
+    <li><strong>35 hours a week: &pound;23,132.20</strong> a year</li>
+    <li><strong>37.5 hours a week: &pound;24,784.50</strong> a year</li>
+    <li><strong>40 hours a week: &pound;26,436.80</strong> a year</li>
 </ul>
 
 <p>So <strong>&pound;18,000 a year buys about 1,416 hours, or roughly 27 hours a week</strong>. As a full-time salary it is not low, it is unlawful. And the top of the quoted band fails the same test: <strong>&pound;24,000 covers only about 36 hours a week</strong>, so a 37.5-hour or 40-hour role advertised at that salary is also paying below the minimum. If you see that band attached to full-time hours, the advertisement is the problem, not your expectations.</p>
@@ -213,7 +213,7 @@ JOBHTML;
 
 <h2>Working From Home Does Not Suspend the Minimum Wage</h2>
 
-<p>This matters because a large share of home-based work is offered by the piece &mdash; so much per record typed, per audio minute transcribed, per item assembled. HMRC's internal manual on home workers is direct: they <strong>are usually entitled to the National Minimum Wage even if the supplier of the work tells them that they are self-employed</strong>.</p>
+<p>This matters because a large share of home-based work is offered by the piece, so much per record typed, per audio minute transcribed, per item assembled. HMRC's internal manual on home workers is direct: they <strong>are usually entitled to the National Minimum Wage even if the supplier of the work tells them that they are self-employed</strong>.</p>
 
 <p>Where you are genuinely paid per task rather than per hour, the employer must either pay at least the minimum wage for every hour worked, or set a <strong>fair rate</strong> using a statutory method: test how much an average worker produces in an hour, <strong>divide that average by 1.2</strong> so newer workers are not penalised for being slower, then divide the hourly minimum wage by the result. You must be told the piece rate and the assumed hourly output <strong>in writing before you start</strong>. If you are not, you are entitled to the full hourly minimum wage instead.</p>
 
@@ -223,14 +223,14 @@ JOBHTML;
 
 <h2>How Much of the UK Actually Works From Home</h2>
 
-<p>The claim that remote demand "shows no signs of slowing down" overstates what the official statistics say. The ONS, using its Opinions and Lifestyle Survey for <strong>8 January to 30 March 2025</strong>, found that <strong>28 per cent of workers in Great Britain were hybrid workers</strong>. Its own description of the trend is that the proportion of hybrid workers has risen while travel-to-work-only has declined &mdash; a gradual shift since 2022 that now looks settled rather than surging.</p>
+<p>The claim that remote demand "shows no signs of slowing down" overstates what the official statistics say. The ONS, using its Opinions and Lifestyle Survey for <strong>8 January to 30 March 2025</strong>, found that <strong>28 per cent of workers in Great Britain were hybrid workers</strong>. Its own description of the trend is that the proportion of hybrid workers has risen while travel-to-work-only has declined: a gradual shift since 2022 that now looks settled rather than surging.</p>
 
 <p>Where those roles are concentrated matters more to a job search than the headline:</p>
 
 <ul>
-    <li><strong>Highest by occupation</strong> &mdash; managers, directors and senior officials; professional; associate professional; and administrative and secretarial roles</li>
-    <li><strong>Highest by industry</strong> &mdash; information and communication, and professional, scientific and technical activities</li>
-    <li><strong>Lowest</strong> &mdash; retail, construction and hospitality</li>
+    <li><strong>Highest by occupation</strong>: managers, directors and senior officials; professional; associate professional; and administrative and secretarial roles</li>
+    <li><strong>Highest by industry</strong>: information and communication, and professional, scientific and technical activities</li>
+    <li><strong>Lowest</strong>: retail, construction and hospitality</li>
 </ul>
 
 <p>The honest reading is that home working is now normal in office-based and professional work and remains rare everywhere else. If your experience is in retail, care or hospitality, moving to home-based work usually means changing occupation, not just changing employer.</p>
@@ -240,16 +240,16 @@ JOBHTML;
 <p>These are the role types that appear most consistently in UK home-based listings:</p>
 
 <ul>
-    <li><strong>Customer service adviser</strong> &mdash; phone, email or live chat support, often on shifts</li>
-    <li><strong>Virtual assistant</strong> &mdash; diary, inbox and administrative support for businesses or executives</li>
-    <li><strong>Data entry and transcription</strong> &mdash; frequently paid per piece, so check the fair-rate rules above</li>
-    <li><strong>Bookkeeper or accounts assistant</strong> &mdash; ledgers, invoicing and payroll support</li>
-    <li><strong>Content writer or copywriter</strong> &mdash; website, blog and marketing copy</li>
-    <li><strong>Digital marketing and SEO</strong> &mdash; campaigns, social media and analytics</li>
-    <li><strong>IT support technician</strong> &mdash; remote troubleshooting and service desk work</li>
-    <li><strong>Online tutor</strong> &mdash; lessons delivered by video call</li>
-    <li><strong>Recruitment consultant</strong> &mdash; sourcing and screening candidates</li>
-    <li><strong>Inside sales or account management</strong> &mdash; client relationships handled by phone and video</li>
+    <li><strong>Customer service adviser</strong>: phone, email or live chat support, often on shifts</li>
+    <li><strong>Virtual assistant</strong>: diary, inbox and administrative support for businesses or executives</li>
+    <li><strong>Data entry and transcription</strong>: frequently paid per piece, so check the fair-rate rules above</li>
+    <li><strong>Bookkeeper or accounts assistant</strong>: ledgers, invoicing and payroll support</li>
+    <li><strong>Content writer or copywriter</strong>: website, blog and marketing copy</li>
+    <li><strong>Digital marketing and SEO</strong>: campaigns, social media and analytics</li>
+    <li><strong>IT support technician</strong>: remote troubleshooting and service desk work</li>
+    <li><strong>Online tutor</strong>: lessons delivered by video call</li>
+    <li><strong>Recruitment consultant</strong>: sourcing and screening candidates</li>
+    <li><strong>Inside sales or account management</strong>: client relationships handled by phone and video</li>
 </ul>
 
 <h2>Your Right to Request Flexible Working</h2>
@@ -260,18 +260,18 @@ JOBHTML;
     <li>You may make <strong>two statutory requests in any 12-month period</strong></li>
     <li>Your employer must decide <strong>within two months</strong> of receiving the request, unless you agree a longer period</li>
     <li>Your employer <strong>must consult you before rejecting</strong> the request</li>
-    <li>There is <strong>no statutory right of appeal</strong> &mdash; offering one is good practice, not law</li>
+    <li>There is <strong>no statutory right of appeal</strong>: offering one is good practice, not law</li>
 </ul>
 
 <p>An employer may refuse only for one of <strong>eight business reasons</strong>: the burden of additional costs; a detrimental effect on meeting customer demand; inability to reorganise work among existing staff; inability to recruit additional staff; a detrimental impact on quality; a detrimental impact on performance; insufficiency of work during the periods you propose to work; or planned structural changes.</p>
 
-<p>Two limits are worth stating plainly. It is a right to <strong>request</strong>, not a right to have &mdash; the government's own wording is that the reforms do not introduce an entitlement to work flexibly. And it belongs to <strong>employees only</strong>. If you are engaged as a worker rather than an employee, the right to request flexible working is not one of yours.</p>
+<p>Two limits are worth stating plainly. It is a right to <strong>request</strong>, not a right to have: the government's own wording is that the reforms do not introduce an entitlement to work flexibly. And it belongs to <strong>employees only</strong>. If you are engaged as a worker rather than an employee, the right to request flexible working is not one of yours.</p>
 
 <h2>What the Employment Rights Act 2025 Changes, and When</h2>
 
 <p>The Employment Rights Act 2025 received Royal Assent on <strong>18 December 2025</strong>. Its section 9 would tighten the refusal test: an employer rejecting a request would have to say which of the eight business reasons applies <em>and</em> explain why it considers the refusal reasonable, so the reasonableness can be tested rather than just the sincerity.</p>
 
-<p><strong>That change is not in force.</strong> Section 9 was commenced on 6 January 2026 for one narrow purpose only &mdash; making the regulations &mdash; not as a duty on employers. The government's implementation timeline, updated on <strong>25 August 2026</strong>, lists flexible working among the measures taking effect in <strong>2027</strong>, with no specific date. Anyone telling you today that your employer must already justify a refusal as reasonable is ahead of the law.</p>
+<p><strong>That change is not in force.</strong> Section 9 was commenced on 6 January 2026 for one narrow purpose only, making the regulations, not as a duty on employers. The government's implementation timeline, updated on <strong>25 August 2026</strong>, lists flexible working among the measures taking effect in <strong>2027</strong>, with no specific date. Anyone telling you today that your employer must already justify a refusal as reasonable is ahead of the law.</p>
 
 <p>Parts of the Act that <em>are</em> already in force include day-one paternity leave and whistleblowing protections from 6 April 2026, the Fair Work Agency from 7 April 2026, and the extension of employment tribunal time limits from three months to six on 1 October 2026.</p>
 
@@ -288,9 +288,9 @@ JOBHTML;
 <p>A great many home-based listings are contracts rather than jobs, and the difference is not cosmetic. GOV.UK recognises three statuses that matter here:</p>
 
 <ul>
-    <li><strong>Employee</strong> &mdash; everything a worker gets, plus unfair dismissal protection, statutory redundancy pay, minimum notice, family leave and the right to request flexible working</li>
-    <li><strong>Worker</strong> &mdash; the National Minimum Wage, statutory paid holiday, rest breaks, protection from unlawful deductions, discrimination and whistleblowing protection, and no less favourable treatment for part-time work. No unfair dismissal protection, no redundancy pay, no minimum notice, and no right to request flexible working</li>
-    <li><strong>Self-employed</strong> &mdash; employment law does not cover you in most cases. <strong>No minimum wage, no paid holiday, no sick pay.</strong> You keep health and safety protection, discrimination protection in some circumstances, and whatever your contract gives you</li>
+    <li><strong>Employee</strong>: everything a worker gets, plus unfair dismissal protection, statutory redundancy pay, minimum notice, family leave and the right to request flexible working</li>
+    <li><strong>Worker</strong>: the National Minimum Wage, statutory paid holiday, rest breaks, protection from unlawful deductions, discrimination and whistleblowing protection, and no less favourable treatment for part-time work. No unfair dismissal protection, no redundancy pay, no minimum notice, and no right to request flexible working</li>
+    <li><strong>Self-employed</strong>: employment law does not cover you in most cases. <strong>No minimum wage, no paid holiday, no sick pay.</strong> You keep health and safety protection, discrimination protection in some circumstances, and whatever your contract gives you</li>
 </ul>
 
 <p>One useful exception sits inside that last line: GOV.UK is explicit that <strong>homeworkers paid by the number of items they make are entitled to the minimum wage</strong>, even though genuinely self-employed people running their own business are not. Being labelled self-employed by whoever sends you the work does not settle the question.</p>
@@ -300,18 +300,18 @@ JOBHTML;
 <p>The HSE is unambiguous: an employer has <strong>the same health and safety responsibilities for people working at home as for any other worker</strong>. In practice that means three concrete duties.</p>
 
 <ul>
-    <li><strong>Risk assessment.</strong> It must cover home workers, including stress and mental health, use of computers and laptops, and the working environment. The HSE expects a proportionate approach &mdash; self-assessment tools, guidance and video calls, rather than home visits</li>
-    <li><strong>Display screen equipment.</strong> The DSE Regulations 1992 apply at home to DSE "users" &mdash; people using screens daily for continuous periods of an hour or more, whether permanently home-based or hybrid. They do not cover occasional short use. Assessment and training are required, and self-assessment is acceptable if you have been trained</li>
+    <li><strong>Risk assessment.</strong> It must cover home workers, including stress and mental health, use of computers and laptops, and the working environment. The HSE expects a proportionate approach: self-assessment tools, guidance and video calls, rather than home visits</li>
+    <li><strong>Display screen equipment.</strong> The DSE Regulations 1992 apply at home to DSE "users": people using screens daily for continuous periods of an hour or more, whether permanently home-based or hybrid. They do not cover occasional short use. Assessment and training are required, and self-assessment is acceptable if you have been trained</li>
     <li><strong>Employers' liability insurance.</strong> Compulsory from the moment someone becomes an employer, with cover of <strong>at least &pound;5 million</strong>. The fine is <strong>&pound;2,500 for every day</strong> uninsured and <strong>&pound;1,000</strong> for failing to display the certificate</li>
 </ul>
 
-<p>The decisive sentence on cost is the HSE's own: where a workstation assessment shows you need a piece of DSE equipment, <strong>your workers cannot be charged for this</strong>. What is <em>not</em> a legal requirement is a general home-office allowance or a contribution to your broadband. GOV.UK treats those as benefits that trigger tax and reporting obligations when an employer provides them &mdash; not as duties. So an equipment budget is a perk worth asking about, while a chair or monitor identified by a DSE assessment is something your employer has to provide.</p>
+<p>The decisive sentence on cost is the HSE's own: where a workstation assessment shows you need a piece of DSE equipment, <strong>your workers cannot be charged for this</strong>. What is <em>not</em> a legal requirement is a general home-office allowance or a contribution to your broadband. GOV.UK treats those as benefits that trigger tax and reporting obligations when an employer provides them, not as duties. So an equipment budget is a perk worth asking about, while a chair or monitor identified by a DSE assessment is something your employer has to provide.</p>
 
 <h2>The Tax Relief Most Guides Still Recommend Is Gone</h2>
 
 <p>The familiar advice is to claim tax relief of &pound;6 a week, or your exact costs, for working from home. Two things are wrong with repeating it now.</p>
 
-<p>First, it never applied to people who <em>chose</em> to work from home. GOV.UK's conditions are that you can claim if you <strong>have to</strong> work from home &mdash; for example because your job requires you to live far from the office, or your employer has no office. You <strong>cannot</strong> claim if your contract merely lets you work from home some or all of the time, or if the office is full when you want to go in. That excludes most hybrid workers.</p>
+<p>First, it never applied to people who <em>chose</em> to work from home. GOV.UK's conditions are that you can claim if you <strong>have to</strong> work from home: for example because your job requires you to live far from the office, or your employer has no office. You <strong>cannot</strong> claim if your contract merely lets you work from home some or all of the time, or if the office is full when you want to go in. That excludes most hybrid workers.</p>
 
 <p>Second, and more simply: GOV.UK states that <strong>from the tax year 6 April 2026 to 5 April 2027 you will not be able to claim tax relief for working from home</strong>. For the current tax year the relief is unavailable to everyone. Claims for earlier tax years can still be made within the normal time limits, so it is worth checking whether you qualified in a year when you were required to work from home and did not claim.</p>
 
@@ -325,7 +325,7 @@ JOBHTML;
 
 <h2>Can a Work From Home Job Be Sponsored for a Visa?</h2>
 
-<p>This deserves a straight answer because home-based listings attract a lot of hopeful applications from outside the UK. An employer <strong>must conduct a right to work check before you start</strong>, and the civil penalty for getting it wrong is up to <strong>&pound;60,000 per illegal worker</strong> &mdash; which is why employers will not simply take your word for it.</p>
+<p>This deserves a straight answer because home-based listings attract a lot of hopeful applications from outside the UK. An employer <strong>must conduct a right to work check before you start</strong>, and the civil penalty for getting it wrong is up to <strong>&pound;60,000 per illegal worker</strong>, which is why employers will not simply take your word for it.</p>
 
 <p>On sponsorship, the Home Office guidance for sponsors is telling. A sponsor must <strong>report when a worker is, or will be, working remotely from home on a permanent or full-time basis</strong>, with little or no requirement to attend a workplace. Routine hybrid patterns do not need reporting; permanent home-based work does. The Skilled Worker route exists to recruit people to work <em>in the UK</em>, so a fully home-based role is a poor candidate for sponsorship and invites the question of why UK sponsorship is needed at all. Treat any advertisement promising visa sponsorship for a fully remote job with real caution.</p>
 
@@ -336,7 +336,7 @@ JOBHTML;
     <li><strong>Check the contract type in the advert.</strong> "Self-employed", "freelance" and "contractor" mean no minimum wage, no holiday pay and no sick pay</li>
     <li><strong>Search by occupation, not by the phrase.</strong> Home-based work clusters in IT, professional and administrative roles, so searching those job titles plus "remote" or "hybrid" returns far more than searching "work from home"</li>
     <li><strong>Use the day-one right in your current job.</strong> If you already work somewhere, a properly made flexible working request is often faster than changing employer</li>
-    <li><strong>Describe your setup concretely</strong> &mdash; connection, workspace, and how you keep data secure. Employers ask because they carry the health, safety and data duties</li>
+    <li><strong>Describe your setup concretely</strong>: connection, workspace, and how you keep data secure. Employers ask because they carry the health, safety and data duties</li>
     <li><strong>Never pay a fee.</strong> It is a criminal offence to charge you one</li>
 </ul>
 
@@ -375,12 +375,12 @@ JOBHTML;
 <h2>People Also Search For</h2>
 
 <ul>
-    <li><strong>Work from home jobs UK no experience</strong> &mdash; entry-level home-based work exists mainly in customer service and data entry; check the hourly rate against &pound;12.71 before applying</li>
-    <li><strong>Part time work from home jobs UK</strong> &mdash; the minimum wage applies per hour, so part-time hours at a lawful rate can legitimately total less than &pound;24,784 a year</li>
-    <li><strong>Is working from home a legal right in the UK</strong> &mdash; no; it is a right to request, held by employees from day one since 6 April 2024</li>
-    <li><strong>Flexible working request template UK</strong> &mdash; the Acas statutory Code of Practice that took effect on 6 April 2024 sets out what a request must contain</li>
-    <li><strong>Work from home tax relief 2026</strong> &mdash; unavailable for the 6 April 2026 to 5 April 2027 tax year</li>
-    <li><strong>Work from home job scams UK</strong> &mdash; charging a work-seeker a fee is a criminal offence; report fake adverts to Action Fraud on 0300 123 2040</li>
+    <li><strong>Work from home jobs UK no experience</strong>: entry-level home-based work exists mainly in customer service and data entry; check the hourly rate against &pound;12.71 before applying</li>
+    <li><strong>Part time work from home jobs UK</strong>: the minimum wage applies per hour, so part-time hours at a lawful rate can legitimately total less than &pound;24,784 a year</li>
+    <li><strong>Is working from home a legal right in the UK</strong>: no; it is a right to request, held by employees from day one since 6 April 2024</li>
+    <li><strong>Flexible working request template UK</strong>: the Acas statutory Code of Practice that took effect on 6 April 2024 sets out what a request must contain</li>
+    <li><strong>Work from home tax relief 2026</strong>: unavailable for the 6 April 2026 to 5 April 2027 tax year</li>
+    <li><strong>Work from home job scams UK</strong>: charging a work-seeker a fee is a criminal offence; report fake adverts to Action Fraud on 0300 123 2040</li>
 </ul>
 
 <h2>More Job Guides</h2>
@@ -393,8 +393,8 @@ JOBHTML;
     <li><a href="/blog/remote-jobs-in-usa">Remote Jobs in USA</a></li>
     <li><a href="/blog/teaching-jobs-in-uk">Teaching Jobs in UK</a></li>
     <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a></li>
-    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a> &mdash; the American version, with contractor tax and home office rules.</li>
-    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a> &mdash; a first UK admin job, the real pay and the visa reality.</li>
+    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a>: the American version, with contractor tax and home office rules.</li>
+    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a>: a first UK admin job, the real pay and the visa reality.</li>
 </ul>
 HTML;
     }

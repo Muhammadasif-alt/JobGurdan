@@ -224,14 +224,14 @@ class BpEngineeringJobsUkBlogSeeder extends Seeder
 <h3>Common requirements</h3>
 <ul>
     <li>A relevant engineering degree, or an apprenticeship-trained technician background for maintenance and operations roles</li>
-    <li>Chartered or incorporated registration through an Engineering Council licensed institution &mdash; IMechE, IChemE, IET, the Energy Institute or BCS for IT &mdash; is valued on senior roles</li>
+    <li>Chartered or incorporated registration through an Engineering Council licensed institution, IMechE, IChemE, IET, the Energy Institute or BCS for IT, is valued on senior roles</li>
     <li>The right to work in the United Kingdom, or an engineering occupation code that meets the Skilled Worker threshold of &pound;41,700 or the going rate, whichever is higher</li>
     <li>Willingness to travel to plant, and to work offshore on rotation for some roles</li>
     <li>A CV kept current and tailored to each posting, which bp asks for explicitly</li>
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, hiring steps and benefits for these roles are set by bp, and visa rules are set by the Home Office &mdash; not by JobGader. Apply directly on bp's own careers site. bp says it never allows recruitment agencies or third parties to apply for roles on its behalf, and never asks candidates for money for visa fees, taxes or travel.</p>
+<p><strong>Note:</strong> pay, hiring steps and benefits for these roles are set by bp, and visa rules are set by the Home Office, not by JobGader. Apply directly on bp's own careers site. bp says it never allows recruitment agencies or third parties to apply for roles on its behalf, and never asks candidates for money for visa fees, taxes or travel.</p>
 JOBHTML;
     }
 
@@ -240,7 +240,7 @@ JOBHTML;
         return <<<'HTML'
 <p><strong>Apply on bp's own careers search at careers.bp.com, filter by United Kingdom and by the Engineering job category, and work through the five steps bp publishes: apply online, application review, a first conversation, interviews and assessments, then offer and welcome.</strong> No agency can put you through that door: bp states on its own recruitment fraud page that it will never allow recruitment agencies or third parties to apply for roles on behalf of candidates.</p>
 
-<p>Two things before you spend an evening on this. <strong>bp publishes no salary on its experienced engineering adverts</strong> &mdash; the figure circulating for "bp engineers in the UK" is job-board data and is not repeated here. And <strong>the bp you are applying to changed shape in 2026</strong>: a new chief executive, two business segments instead of a sprawl of them, a UK North Sea business up for sale, and a departure from the Sunbury campus that most guides still call its UK technology hub.</p>
+<p>Two things before you spend an evening on this. <strong>bp publishes no salary on its experienced engineering adverts</strong>: the figure circulating for "bp engineers in the UK" is job-board data and is not repeated here. And <strong>the bp you are applying to changed shape in 2026</strong>: a new chief executive, two business segments instead of a sprawl of them, a UK North Sea business up for sale, and a departure from the Sunbury campus that most guides still call its UK technology hub.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://careers.bp.com/listing" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#007f3d;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -254,7 +254,7 @@ JOBHTML;
 
 <p><strong>Meg O'Neill became chief executive on 1 April 2026.</strong> bp reorganised into two business segments, <strong>upstream and downstream</strong>, with the restructure taking effect at the start of July 2026, dismantling the separate low carbon division. An internal memo reported that month put the cuts at <strong>around 700 of roughly 8,500 non-frontline roles</strong>, with frontline operators, technicians and maintenance staff expected to be left alone. bp employs about <strong>93,700 people across 61 countries</strong>, of whom roughly <strong>13,960 are in the UK</strong>.</p>
 
-<p>The biggest UK change is in bp's own filing rather than in any press summary. Its <strong>Q2 2026 Form 6-K</strong> records, flatly: "In July bp announced its intention to market its North Sea business for a potential sale." The announcement came on <strong>31 July 2026</strong>, after sixty years of North Sea production. The business is <strong>five production hubs</strong> &mdash; two in the central North Sea, three west of Shetland &mdash; employing about <strong>1,100 people</strong> and producing around <strong>117,000 barrels of oil equivalent a day in 2025</strong>. O'Neill's stated reasoning was that as bp focuses its portfolio, "we believe our North Sea business will be better positioned as part of another company".</p>
+<p>The biggest UK change is in bp's own filing rather than in any press summary. Its <strong>Q2 2026 Form 6-K</strong> records, flatly: "In July bp announced its intention to market its North Sea business for a potential sale." The announcement came on <strong>31 July 2026</strong>, after sixty years of North Sea production. The business is <strong>five production hubs</strong>, two in the central North Sea, three west of Shetland, employing about <strong>1,100 people</strong> and producing around <strong>117,000 barrels of oil equivalent a day in 2025</strong>. O'Neill's stated reasoning was that as bp focuses its portfolio, "we believe our North Sea business will be better positioned as part of another company".</p>
 
 <p>That does not mean stop applying to Aberdeen. It means read an Aberdeen advert knowing the asset may sit with a different owner within a year or two, which in the North Sea is an ordinary fact of a career rather than a disaster. What it should stop you doing is treating a bp North Sea role as a fixed point in a visa plan.</p>
 
@@ -278,7 +278,7 @@ JOBHTML;
 
 <h2>What bp Pays, and the Number You Should Ignore</h2>
 
-<p>The figure doing the rounds &mdash; "bp engineers in the UK earn an average of around GBP 57,364, 51% above the national average" &mdash; comes from a job aggregator's user-submitted data. It is not a bp figure, it is not tied to any discipline or grade, and it is not repeated in this guide.</p>
+<p>The figure doing the rounds, "bp engineers in the UK earn an average of around GBP 57,364, 51% above the national average", comes from a job aggregator's user-submitted data. It is not a bp figure, it is not tied to any discipline or grade, and it is not repeated in this guide.</p>
 
 <p>bp's own position is stated in its professionals FAQ: <em>"We offer a competitive salary which takes into consideration your experience, as well as internal and external market data."</em> That is all. UK law does not require pay transparency in adverts, so unlike bp's postings in several US states, its UK engineering adverts carry no band.</p>
 
@@ -306,23 +306,23 @@ JOBHTML;
 
 <p>This is the section the brief left out entirely, and for anyone reading from outside the UK it is the only one that settles anything.</p>
 
-<p>Start with the licence. On the <strong>Home Office register of licensed sponsors dated 24 September 2026</strong>, <strong>BP plc, London</strong> appears with a <strong>Worker (A rating)</strong> licence for <strong>Skilled Worker</strong> and separately for <strong>Global Business Mobility: Senior or Specialist Worker</strong>. <strong>BP Oil UK Ltd</strong> in Central Milton Keynes holds a Skilled Worker licence too. Be careful reading that register, though: it also lists dozens of unrelated entries beginning "BP" &mdash; service stations, convenience stores, carpet firms &mdash; that have nothing to do with the energy company.</p>
+<p>Start with the licence. On the <strong>Home Office register of licensed sponsors dated 24 September 2026</strong>, <strong>BP plc, London</strong> appears with a <strong>Worker (A rating)</strong> licence for <strong>Skilled Worker</strong> and separately for <strong>Global Business Mobility: Senior or Specialist Worker</strong>. <strong>BP Oil UK Ltd</strong> in Central Milton Keynes holds a Skilled Worker licence too. Be careful reading that register, though: it also lists dozens of unrelated entries beginning "BP", service stations, convenience stores, carpet firms, that have nothing to do with the energy company.</p>
 
 <p>Then understand what a licence is worth on its own, which is almost nothing. Sponsorship is decided per occupation, not per employer. The good news for engineers is that the codes are eligible. Under the rules in force since <strong>22 July 2025</strong>, these are all classified <strong>Higher Skilled</strong> and eligible for the Skilled Worker route, with the going rates the Home Office publishes for them:</p>
 
 <ul>
-    <li><strong>2121 Civil engineers</strong> &mdash; &pound;50,400 a year</li>
-    <li><strong>2122 Mechanical engineers</strong> &mdash; &pound;46,800</li>
-    <li><strong>2123 Electrical engineers</strong> &mdash; &pound;58,700</li>
-    <li><strong>2124 Electronics engineers</strong> &mdash; &pound;52,000</li>
-    <li><strong>2125 Production and process engineers</strong> &mdash; &pound;45,000</li>
-    <li><strong>2126 Aerospace engineers</strong> &mdash; &pound;52,400</li>
-    <li><strong>2127 Engineering project managers</strong> &mdash; &pound;51,900</li>
-    <li><strong>2129 Engineering professionals n.e.c.</strong> &mdash; &pound;46,100</li>
-    <li><strong>2134 Programmers and software development professionals</strong> &mdash; &pound;54,700</li>
+    <li><strong>2121 Civil engineers</strong>: &pound;50,400 a year</li>
+    <li><strong>2122 Mechanical engineers</strong>: &pound;46,800</li>
+    <li><strong>2123 Electrical engineers</strong>: &pound;58,700</li>
+    <li><strong>2124 Electronics engineers</strong>: &pound;52,000</li>
+    <li><strong>2125 Production and process engineers</strong>: &pound;45,000</li>
+    <li><strong>2126 Aerospace engineers</strong>: &pound;52,400</li>
+    <li><strong>2127 Engineering project managers</strong>: &pound;51,900</li>
+    <li><strong>2129 Engineering professionals n.e.c.</strong>: &pound;46,100</li>
+    <li><strong>2134 Programmers and software development professionals</strong>: &pound;54,700</li>
 </ul>
 
-<p>On top of that sits the <strong>general salary threshold of &pound;41,700 a year</strong>, with an hourly floor of <strong>&pound;17.13</strong> based on a 37.5-hour week. The rule is the higher of the two: threshold or going rate. So a mechanical engineering job must pay at least &pound;46,800 to be sponsorable, an electrical engineering job at least &pound;58,700, and the general &pound;41,700 only binds where the going rate is lower. New entrants and PhD holders have reduced thresholds &mdash; &pound;33,400 and &pound;37,500 respectively &mdash; and the second table of lower going rates applies to those routes.</p>
+<p>On top of that sits the <strong>general salary threshold of &pound;41,700 a year</strong>, with an hourly floor of <strong>&pound;17.13</strong> based on a 37.5-hour week. The rule is the higher of the two: threshold or going rate. So a mechanical engineering job must pay at least &pound;46,800 to be sponsorable, an electrical engineering job at least &pound;58,700, and the general &pound;41,700 only binds where the going rate is lower. New entrants and PhD holders have reduced thresholds, &pound;33,400 and &pound;37,500 respectively, and the second table of lower going rates applies to those routes.</p>
 
 <p>The practical consequence: bp <em>can</em> sponsor an engineer, but only into a role priced above that floor, and only where it has chosen to sponsor rather than hire from the resident labour market. Its graduate programme pays from &pound;37,000, which sits below the &pound;41,700 general threshold and below every engineering going rate in the table above, so a graduate offer is not automatically a sponsorable one. If you are applying from abroad, read the advert for what it says about work authorisation and ask the recruiter directly before you build a plan on it. Our guide to <a href="/blog/jobs-in-uk-for-foreigners">jobs in UK for foreigners</a> sets out which routes actually exist.</p>
 
@@ -336,7 +336,7 @@ JOBHTML;
 
 <p><strong>The degree list is from the wrong department.</strong> "A graduate degree in Engineering, Business, Mathematics or Economics" is what a trading or analyst intake asks for. bp's own graduate page describes its streams as "business, digital, engineering, science or supply, trading &amp; shipping". If you want engineering, apply into engineering; the maths-and-economics wording belongs to supply and trading.</p>
 
-<p><strong>"NVQ level 3 or equivalent" is agency phrasing.</strong> The technician route bp names on its own pages is <strong>APTUS</strong> &mdash; "previously known as the Oil and Gas Technical Apprenticeships Programme (OGTAP)", which bp says has been "offering prestigious onshore and offshore work experience for over 25 years". bp "supports the APTUS apprenticeship programme by providing site placement opportunities for apprentice technicians" in four disciplines: <strong>electrical maintenance, mechanical maintenance, process operations, and instrumentation and control maintenance</strong>.</p>
+<p><strong>"NVQ level 3 or equivalent" is agency phrasing.</strong> The technician route bp names on its own pages is <strong>APTUS</strong>: "previously known as the Oil and Gas Technical Apprenticeships Programme (OGTAP)", which bp says has been "offering prestigious onshore and offshore work experience for over 25 years". bp "supports the APTUS apprenticeship programme by providing site placement opportunities for apprentice technicians" in four disciplines: <strong>electrical maintenance, mechanical maintenance, process operations, and instrumentation and control maintenance</strong>.</p>
 
 <p><strong>IEEE cannot make you a Chartered Engineer in the UK.</strong> The <strong>Engineering Council</strong> licenses the professional engineering institutions that assess for CEng, IEng and EngTech. <strong>IMechE, IChemE, IET, the Energy Institute and BCS</strong> are all licensed; <strong>IEEE is not on the list at all</strong>. IEEE membership is worth having for an international software or electronics career, but if your goal is post-nominals a UK employer recognises, route your application through a licensed institution.</p>
 
@@ -344,7 +344,7 @@ JOBHTML;
 
 <h2>Benefits: What bp Lists, and What It Does Not</h2>
 
-<p>bp describes its total reward package as <strong>direct pay</strong> &mdash; base pay, bonus and share options &mdash; alongside a range of <strong>core and flexible benefits</strong> it calls cafeteria elements. Named on its own pages: a discretionary annual bonus, the <strong>Energize</strong> recognition points programme and spot awards, private medical insurance and access to online doctors, an employee assistance programme, the <strong>Thrive</strong> global wellbeing portal, free access to mindfulness resources, retirement and savings plans, life insurance, sick and compassionate leave, annual leave on top of public holidays, and a hybrid model of work for certain roles with flexible arrangements considered.</p>
+<p>bp describes its total reward package as <strong>direct pay</strong>, base pay, bonus and share options, alongside a range of <strong>core and flexible benefits</strong> it calls cafeteria elements. Named on its own pages: a discretionary annual bonus, the <strong>Energize</strong> recognition points programme and spot awards, private medical insurance and access to online doctors, an employee assistance programme, the <strong>Thrive</strong> global wellbeing portal, free access to mindfulness resources, retirement and savings plans, life insurance, sick and compassionate leave, annual leave on top of public holidays, and a hybrid model of work for certain roles with flexible arrangements considered.</p>
 
 <p>What bp does <em>not</em> publish is a country-by-country breakdown, which is exactly where the draft's "free single medical cover and digital GP service for UK employees at some BP-affiliated contractors" came from. Read that clause again: <em>at some BP-affiliated contractors</em>. That is a staffing agency's benefit sheet with bp's name attached to it, and it tells you nothing about what bp itself will give you. The same applies to "potential equity or stock options": share options do appear in bp's description of direct pay, but for UK early careers what bp actually prints is a flexible allowance of 20% of base salary. Take the benefits list from your own offer letter, not from a guide.</p>
 
@@ -360,7 +360,7 @@ JOBHTML;
     <li><strong>Never pay anyone for a bp job.</strong> bp says it will never request money for visa fees, taxes or a percentage of travel expenses, never ask for passport and bank details early on, never email from Yahoo, Gmail or Live.com accounts, and never allow agencies or third parties to apply on a candidate's behalf.</li>
 </ol>
 
-<p>If bp's UK vacancy list is thin in your discipline this quarter &mdash; and after a 700-role cut and a North Sea sale it may well be &mdash; the same qualifications travel. Our <a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">Siemens engineering jobs in Germany</a> guide covers the nearest large European equivalent, and <a href="/blog/electrician-jobs-in-uk">electrician jobs in UK</a> covers the trade route into the same plants.</p>
+<p>If bp's UK vacancy list is thin in your discipline this quarter, and after a 700-role cut and a North Sea sale it may well be, the same qualifications travel. Our <a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">Siemens engineering jobs in Germany</a> guide covers the nearest large European equivalent, and <a href="/blog/electrician-jobs-in-uk">electrician jobs in UK</a> covers the trade route into the same plants.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -419,20 +419,20 @@ JOBHTML;
 <p>If bp is one option rather than the only one, these cover the rest of the engineering market and the UK jobs around it:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a> &mdash; the nearest large European employer, in a country that does publish collective pay.</li>
-    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a> &mdash; the Gulf route for the same upstream disciplines.</li>
-    <li><a href="/blog/how-to-apply-for-sabic-manufacturing-jobs-in-saudi-arabia">How to Apply for SABIC Manufacturing Jobs in Saudi Arabia</a> &mdash; process and plant engineering on the petrochemical side.</li>
-    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a> &mdash; oil and gas engineering where local hiring rules bite hardest.</li>
-    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a> &mdash; where an aerospace occupation code goes instead.</li>
-    <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a> &mdash; the other half of the same European aerospace market.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the routes that exist once the salary thresholds are taken seriously.</li>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; the digital side of the same employers, at a lower entry bar.</li>
-    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a> &mdash; where an engineering brain goes when it stops touching plant.</li>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; the trade route into the same sites and refineries.</li>
-    <li><a href="/blog/marketing-jobs-in-uk">Marketing Jobs in UK</a> &mdash; the commercial side of an energy business.</li>
-    <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a> &mdash; a large UK employer that does print a salary on its adverts.</li>
-    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a> &mdash; the medical and drug screening standard, and why the trackside code cannot be sponsored.</li>
-    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a> &mdash; ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
+    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a>: the nearest large European employer, in a country that does publish collective pay.</li>
+    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a>: the Gulf route for the same upstream disciplines.</li>
+    <li><a href="/blog/how-to-apply-for-sabic-manufacturing-jobs-in-saudi-arabia">How to Apply for SABIC Manufacturing Jobs in Saudi Arabia</a>: process and plant engineering on the petrochemical side.</li>
+    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a>: oil and gas engineering where local hiring rules bite hardest.</li>
+    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a>: where an aerospace occupation code goes instead.</li>
+    <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a>: the other half of the same European aerospace market.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the routes that exist once the salary thresholds are taken seriously.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: the digital side of the same employers, at a lower entry bar.</li>
+    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a>: where an engineering brain goes when it stops touching plant.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: the trade route into the same sites and refineries.</li>
+    <li><a href="/blog/marketing-jobs-in-uk">Marketing Jobs in UK</a>: the commercial side of an energy business.</li>
+    <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a>: a large UK employer that does print a salary on its adverts.</li>
+    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a>: the medical and drug screening standard, and why the trackside code cannot be sponsored.</li>
+    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a>: ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using bp's own careers site for job categories, application steps, early careers programmes, published early careers pay and its recruitment fraud warnings; bp's Q2 2026 Form 6-K and its Castrol press release for the North Sea and Castrol positions; Spelthorne Borough Council coverage for the Sunbury departure; the NZT Power project's own site for the Teesside figures; the Engineering Council's register of licensed institutions for chartership; and the Home Office register of licensed sponsors, the eligible occupations list and Appendix Skilled Occupations for the visa position and going rates. bp vacancies, pay and immigration rules change. Always check the live advert and the official guidance before you commit.</p>

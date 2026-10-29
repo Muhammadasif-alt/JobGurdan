@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Recruiter Jobs in Canada" — agency, in-house, technical and executive
+ * "Recruiter Jobs in Canada": agency, in-house, technical and executive
  * recruiters. The ATS resume writer guide owns the candidate side of
  * applicant tracking systems; this one owns the Job Bank wage data for NOC
  * 12101, the provincial licensing of recruiters, the 2026 job posting rules
@@ -162,7 +162,7 @@ class RecruiterJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask how the base salary and commission are split,</strong> and whether commission is paid on placement or after a guarantee period.</p>
 
-<p><strong>Note:</strong> pay, licensing and posting rules are set by employers and provincial governments &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, licensing and posting rules are set by employers and provincial governments, not by JobGader. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 
@@ -374,12 +374,12 @@ JOBHTML;
 <p>Comparing hiring and Canadian office jobs? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/ats-resume-writer-jobs-in-canada">ATS Resume Writer Jobs in Canada</a> &mdash; the candidate side of the applicant tracking systems recruiters use.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; the background many recruiters start from.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; how the LMIA works for the employers recruiters hire for.</li>
-    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a> &mdash; a technical role technical recruiters hire for.</li>
-    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; office support work and its pay across the border.</li>
-    <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a> &mdash; the allied-health route, its provincial registration and pay.</li>
+    <li><a href="/blog/ats-resume-writer-jobs-in-canada">ATS Resume Writer Jobs in Canada</a>: the candidate side of the applicant tracking systems recruiters use.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: the background many recruiters start from.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: how the LMIA works for the employers recruiters hire for.</li>
+    <li><a href="/blog/qa-tester-jobs-in-canada">QA Tester Jobs in Canada</a>: a technical role technical recruiters hire for.</li>
+    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a>: office support work and its pay across the border.</li>
+    <li><a href="/blog/occupational-therapist-jobs-in-canada">Occupational Therapist Jobs in Canada</a>: the allied-health route, its provincial registration and pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, labour market figures, licensing rules, job posting requirements and HR designations change and differ by province. Confirm the current position with Job Bank, Statistics Canada, your provincial employment standards office and the relevant HR association before applying.</p>

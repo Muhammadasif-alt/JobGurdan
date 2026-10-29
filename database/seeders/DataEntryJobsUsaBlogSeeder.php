@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Data Entry Jobs in USA" — the American market for this occupation, and the
+ * "Data Entry Jobs in USA": the American market for this occupation, and the
  * pillar for the data entry cluster. The existing Remote Data Entry Jobs post
  * owns the scam mechanics and the worldwide geography; this one owns the US
  * pay picture and the projection, and the two link rather than overlap.
@@ -140,24 +140,24 @@ class DataEntryJobsUsaBlogSeeder extends Seeder
 
 <h3>What the role is screened on</h3>
 <ul>
-    <li>Typing speed with accuracy &mdash; commonly 50 words per minute at 95 per cent or better, and accuracy is weighted above speed</li>
+    <li>Typing speed with accuracy: commonly 50 words per minute at 95 per cent or better, and accuracy is weighted above speed</li>
     <li>Microsoft Excel and Word, Google Sheets, and whatever database or records system the employer runs</li>
-    <li>Attention to detail, tested rather than asserted &mdash; expect a timed assessment during the application</li>
+    <li>Attention to detail, tested rather than asserted: expect a timed assessment during the application</li>
     <li>A high school diploma; a degree is rarely required</li>
     <li>Reliable internet and a quiet workspace for remote positions</li>
 </ul>
 
 <h3>What it pays</h3>
 <ul>
-    <li><strong>The federal median</strong> for data entry keyers is <strong>$39,850 a year, or $19.16 an hour</strong> &mdash; about 19.5 per cent below the $49,500 median across all US occupations</li>
+    <li><strong>The federal median</strong> for data entry keyers is <strong>$39,850 a year, or $19.16 an hour</strong>: about 19.5 per cent below the $49,500 median across all US occupations</li>
     <li><strong>Remote roles pay at, not above, that median.</strong> Advertised remote rates of $19 to $21 an hour straddle it</li>
-    <li><strong>The specialised versions pay more</strong> &mdash; medical records, claims and legal document work, where judgement and terminology are part of the job</li>
+    <li><strong>The specialised versions pay more</strong>: medical records, claims and legal document work, where judgement and terminology are part of the job</li>
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Treat this as an entry point with a deadline on it.</strong> The Bureau of Labor Statistics projects data entry keyer employment down 25.9 per cent between 2024 and 2034. Take the role, and use it to reach exception handling, verification, medical or legal records, or analysis &mdash; the parts of the work that involve a decision rather than a keystroke.</p>
+<p><strong>Treat this as an entry point with a deadline on it.</strong> The Bureau of Labor Statistics projects data entry keyer employment down 25.9 per cent between 2024 and 2034. Take the role, and use it to reach exception handling, verification, medical or legal records, or analysis: the parts of the work that involve a decision rather than a keystroke.</p>
 
-<p><strong>Note:</strong> pay, schedule, equipment and remote eligibility are set by each employer &mdash; not by JobGader. Legitimate employers never ask you to pay for training or equipment. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, schedule, equipment and remote eligibility are set by each employer, not by JobGader. Legitimate employers never ask you to pay for training or equipment. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -195,7 +195,7 @@ JOBHTML;
 
 <p>That is <strong>19.5 per cent below the $49,500 median across all US occupations</strong>. It is an honest entry-level wage, and it is lower than the tables in most guides suggest.</p>
 
-<p>Compare it against a typical published table. Those tables give "Data Entry Clerk" as <strong>$40,000 to $48,000 a year</strong>. The federal median of $39,850 sits <strong>below the bottom of that band</strong> &mdash; meaning half of everyone doing this job earns less than the least the table admits to. Every row in those tables is drawn from job postings and self-reported figures, both of which skew high: employers advertise the top of a band, and people report their pay when they are pleased with it.</p>
+<p>Compare it against a typical published table. Those tables give "Data Entry Clerk" as <strong>$40,000 to $48,000 a year</strong>. The federal median of $39,850 sits <strong>below the bottom of that band</strong>: meaning half of everyone doing this job earns less than the least the table admits to. Every row in those tables is drawn from job postings and self-reported figures, both of which skew high: employers advertise the top of a band, and people report their pay when they are pleased with it.</p>
 
 <p>There is a second problem with those tables that is easy to miss. <strong>They mix units.</strong> One row is hourly, the next is annual, the one after that is hourly again. No two adjacent rows can be compared without converting them yourself, and once you convert them the ranking usually changes.</p>
 
@@ -213,7 +213,7 @@ JOBHTML;
 
 <p>The national median is <strong>$19.16</strong>. The quoted remote band straddles it. Remote data entry is paying <strong>the median</strong>, not a premium over it.</p>
 
-<p>This matters because it reorders how you should choose. If remote and on-site pay the same, then remote is worth taking for the commute, the flexibility and the geographic reach &mdash; all real benefits &mdash; and not because it pays better. And it means you should be suspicious of any remote data entry posting advertising well above that band. Which brings us to the one thing everyone should know before applying to a remote listing.</p>
+<p>This matters because it reorders how you should choose. If remote and on-site pay the same, then remote is worth taking for the commute, the flexibility and the geographic reach, all real benefits, and not because it pays better. And it means you should be suspicious of any remote data entry posting advertising well above that band. Which brings us to the one thing everyone should know before applying to a remote listing.</p>
 
 <h2>The Screening Rule Worth Memorising</h2>
 
@@ -223,7 +223,7 @@ JOBHTML;
 
 <p>The second rule is arithmetic, and this page has just given you it. <strong>The median is $19.16 an hour.</strong> A remote listing offering $40 an hour for no experience is offering more than double the federal median for an occupation with no barrier to entry, and there is no economic reason for that to exist.</p>
 
-<p>Our <a href="/blog/remote-data-entry-jobs">remote data entry jobs guide</a> covers the mechanics in full &mdash; how the fake version is structured, what it is actually after, and how the genuine remote market works outside the United States. This page does not repeat it.</p>
+<p>Our <a href="/blog/remote-data-entry-jobs">remote data entry jobs guide</a> covers the mechanics in full: how the fake version is structured, what it is actually after, and how the genuine remote market works outside the United States. This page does not repeat it.</p>
 
 <h2>What Automation Is Actually Taking</h2>
 
@@ -240,7 +240,7 @@ JOBHTML;
     <li><strong>Messy input.</strong> Handwriting, damaged scans, non-standard forms and anything a human filled in badly.</li>
 </ul>
 
-<p>So the strategy is direct: get hired on typing, then move towards the parts of the job the automation escalates rather than the parts it replaces. Add Excel properly &mdash; lookups, pivot tables, cleaning &mdash; and the route to coordinator, quality assurance and analyst roles opens from inside the job you already have.</p>
+<p>So the strategy is direct: get hired on typing, then move towards the parts of the job the automation escalates rather than the parts it replaces. Add Excel properly, lookups, pivot tables, cleaning, and the route to coordinator, quality assurance and analyst roles opens from inside the job you already have.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/data-entry-jobs-in-usa-skills.jpg"
@@ -275,7 +275,7 @@ JOBHTML;
 <p>The federal median for data entry keyers is $39,850 a year, or $19.16 an hour. That is about 19.5 per cent below the $49,500 median across all US occupations, and below the bottom of most published salary tables.</p>
 
 <h3>Is data entry a dying career?</h3>
-<p>The Bureau of Labor Statistics projects employment down 25.9 per cent between 2024 and 2034, one of the steepest declines it publishes. Openings still appear monthly to replace leavers, so the job is gettable &mdash; it is just not a ten-year plan.</p>
+<p>The Bureau of Labor Statistics projects employment down 25.9 per cent between 2024 and 2034, one of the steepest declines it publishes. Openings still appear monthly to replace leavers, so the job is gettable: it is just not a ten-year plan.</p>
 
 <h3>Do remote data entry jobs pay more than on-site?</h3>
 <p>No. Advertised remote rates of $19 to $21 an hour straddle the national median of $19.16. Remote is worth taking for the flexibility and the geographic reach, not for the rate.</p>
@@ -326,19 +326,19 @@ JOBHTML;
 <p>Choosing between entry routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; the worldwide remote market and exactly how the fake version works.</li>
-    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; the same occupation in a market where it is growing rather than shrinking.</li>
-    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; the other high-volume American entry point, and its very different wage floor.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; the adjacent service occupation north of the border.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; a remote route with a healthier projection behind it.</li>
-    <li><a href="/blog/ats-resume-writer-jobs-in-usa">ATS Resume Writer Jobs in USA</a> &mdash; how applicant tracking systems actually read what you send them.</li>
-    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; where administrative skills earn in foreign currency.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest answer on US entry-level sponsorship.</li>
-    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a> &mdash; the same country and decade, growing 34 per cent instead of shrinking.</li>
-    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; the office job one step up, and the medical specialism still growing.</li>
-    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a> &mdash; home-based data and admin work, and how today's job scams operate.</li>
-    <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a> &mdash; the beginner and scam-aware view of the same work, and how to spot a fake listing.</li>
-    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a> &mdash; the real BLS medians and why this group of occupations is shrinking.</li>
+    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a>: the worldwide remote market and exactly how the fake version works.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a>: the same occupation in a market where it is growing rather than shrinking.</li>
+    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a>: the other high-volume American entry point, and its very different wage floor.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: the adjacent service occupation north of the border.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: a remote route with a healthier projection behind it.</li>
+    <li><a href="/blog/ats-resume-writer-jobs-in-usa">ATS Resume Writer Jobs in USA</a>: how applicant tracking systems actually read what you send them.</li>
+    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a>: where administrative skills earn in foreign currency.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the honest answer on US entry-level sponsorship.</li>
+    <li><a href="/blog/data-scientist-jobs-in-usa">Data Scientist Jobs in USA</a>: the same country and decade, growing 34 per cent instead of shrinking.</li>
+    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a>: the office job one step up, and the medical specialism still growing.</li>
+    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a>: home-based data and admin work, and how today's job scams operate.</li>
+    <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a>: the beginner and scam-aware view of the same work, and how to spot a fake listing.</li>
+    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a>: the real BLS medians and why this group of occupations is shrinking.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, financial or immigration advice. Wage data and employment projections are revised periodically, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics and the employer's own advertisement before applying or paying for any course.</p>

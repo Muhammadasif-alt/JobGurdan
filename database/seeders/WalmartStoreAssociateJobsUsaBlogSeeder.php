@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Walmart Store Associate Jobs in the USA" — an employer
+ * "How to Apply for Walmart Store Associate Jobs in the USA": an employer
  * guide built on what Walmart publishes about itself, with BLS wages for
  * comparison and the Department of Labor for the youth employment rules.
  *
@@ -158,7 +158,7 @@ class WalmartStoreAssociateJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay ranges, benefits and eligibility are set and published by Walmart, and the youth employment rules are set by the US Department of Labor and the states &mdash; not by JobGader. Applying to Walmart is free; any request for payment is a scam.</p>
+<p><strong>Note:</strong> pay ranges, benefits and eligibility are set and published by Walmart, and the youth employment rules are set by the US Department of Labor and the states, not by JobGader. Applying to Walmart is free; any request for payment is a scam.</p>
 JOBHTML;
     }
 
@@ -167,7 +167,7 @@ JOBHTML;
         return <<<'HTML'
 <p><strong>Apply on Walmart's own careers site, pick a store near you, and expect an application of about 20 to 25 minutes plus an assessment for some roles.</strong> Walmart says it aims to respond within a week of submission.</p>
 
-<p>The part worth reading first is the pay. Walmart publishes its own figures, and they are considerably better than the "$14 to $19 an hour" that circulates in most guides &mdash; which appears to be copied from a Walmart fact sheet that has not been updated since 2023.</p>
+<p>The part worth reading first is the pay. Walmart publishes its own figures, and they are considerably better than the "$14 to $19 an hour" that circulates in most guides, which appears to be copied from a Walmart fact sheet that has not been updated since 2023.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://careers.walmart.com/us/en/home/careers-areas/stores-and-clubs" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -331,18 +331,18 @@ JOBHTML;
 <p>Comparing retail employers and roles? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; the wider market, pay and what the work involves.</li>
-    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; front-end work and the outlook for it.</li>
-    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; the sector overview and where the openings are.</li>
-    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">Entry-Level Office Jobs With No Experience</a> &mdash; the office alternative and what it pays.</li>
-    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; a certificated step up from stocking work.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; which US routes actually sponsor a visa.</li>
-    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a> &mdash; a large employer that does publish its starting pay.</li>
-    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a> &mdash; a supermarket that publishes its rate and pays it at every age.</li>
-    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a> &mdash; factory work with a published hourly range and stock awards.</li>
-    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a> &mdash; warehouse work where a union contract publishes the wage scale.</li>
-    <li><a href="/blog/how-to-apply-for-home-depot-retail-jobs-in-the-usa">How to Apply for Home Depot Retail Jobs in the USA</a> &mdash; store pay Home Depot prints itself, and the route from hourly to store leader.</li>
-    <li><a href="/blog/how-to-apply-for-starbucks-barista-jobs-in-the-usa">How to Apply for Starbucks Barista Jobs in the USA</a> &mdash; the hours threshold that decides whether the benefits are yours.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a>: the wider market, pay and what the work involves.</li>
+    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a>: front-end work and the outlook for it.</li>
+    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a>: the sector overview and where the openings are.</li>
+    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">Entry-Level Office Jobs With No Experience</a>: the office alternative and what it pays.</li>
+    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a>: a certificated step up from stocking work.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>, which US routes actually sponsor a visa.</li>
+    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a>: a large employer that does publish its starting pay.</li>
+    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a>: a supermarket that publishes its rate and pays it at every age.</li>
+    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a>: factory work with a published hourly range and stock awards.</li>
+    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a>: warehouse work where a union contract publishes the wage scale.</li>
+    <li><a href="/blog/how-to-apply-for-home-depot-retail-jobs-in-the-usa">How to Apply for Home Depot Retail Jobs in the USA</a>: store pay Home Depot prints itself, and the route from hourly to store leader.</li>
+    <li><a href="/blog/how-to-apply-for-starbucks-barista-jobs-in-the-usa">How to Apply for Starbucks Barista Jobs in the USA</a>: the hours threshold that decides whether the benefits are yours.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Walmart's own corporate and careers pages for pay, benefits and hiring information, Bureau of Labor Statistics wage and projection data for occupational context, and US Department of Labor guidance for the youth employment and minimum wage rules. Pay ranges vary by store and state and change over time. Always check the live posting for the role and location you want.</p>

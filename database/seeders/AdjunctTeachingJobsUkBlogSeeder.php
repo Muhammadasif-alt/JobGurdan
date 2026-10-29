@@ -122,7 +122,7 @@ class AdjunctTeachingJobsUkBlogSeeder extends Seeder
 
 <p>The protection is not merely that the clause fails. A worker also has the right not to be subjected to a detriment for breaching such a term, with a route to an employment tribunal.</p>
 
-<p><strong>One number is worth knowing before you read your own contract, because it cuts both ways.</strong> HESA's Statistical Bulletin SB274, published on 19 February 2026, records only 3,440 academic staff on zero hours contracts across UK higher education in 2024/25 &mdash; 92% of them paid by the hour. Against the scale of hourly-paid teaching in the sector, that is a strikingly small figure, and the reason is instructive: it counts what providers recorded against a contract marker, and it leaves out the tens of thousands of people on academic atypical contracts, who are returned with only a minimum data set. So the figure tells you how many contracts are <em>labelled</em> zero hours. It does not tell you how many meet the section 27A test, which turns on what a contract says rather than what it is called.</p>
+<p><strong>One number is worth knowing before you read your own contract, because it cuts both ways.</strong> HESA's Statistical Bulletin SB274, published on 19 February 2026, records only 3,440 academic staff on zero hours contracts across UK higher education in 2024/25: 92% of them paid by the hour. Against the scale of hourly-paid teaching in the sector, that is a strikingly small figure, and the reason is instructive: it counts what providers recorded against a contract marker, and it leaves out the tens of thousands of people on academic atypical contracts, who are returned with only a minimum data set. So the figure tells you how many contracts are <em>labelled</em> zero hours. It does not tell you how many meet the section 27A test, which turns on what a contract says rather than what it is called.</p>
 
 <p>One honest caveat, because this is law and not a slogan: whether a particular contract meets the section 27A definition turns on its own wording. The page gives you the test. Read your offer against it, and if the answer is unclear, put the question to the department in writing or ask your union branch.</p>
 
@@ -145,7 +145,7 @@ class AdjunctTeachingJobsUkBlogSeeder extends Seeder
 
 <p>You must be legally allowed to work in the UK before you start. GOV.UK's requirements for a Skilled Worker visa are an approved sponsor, a certificate of sponsorship, an eligible occupation and a salary of at least &pound;41,700 a year or the going rate for the job, whichever is higher.</p>
 
-<p>Hourly-paid teaching cannot reach that floor, which is explained in detail in our lecturer guide. The practical consequence for this page is simple: <strong>part-time university teaching is realistically open to people who already hold the right to work in the UK</strong> &mdash; British and Irish citizens, settled and pre-settled status, dependant and partner visas, and graduate route visas, among others.</p>
+<p>Hourly-paid teaching cannot reach that floor, which is explained in detail in our lecturer guide. The practical consequence for this page is simple: <strong>part-time university teaching is realistically open to people who already hold the right to work in the UK</strong>: British and Irish citizens, settled and pre-settled status, dependant and partner visas, and graduate route visas, among others.</p>
 
 <p>If you already have status through your main job, check whether your visa route permits supplementary employment before you take teaching work, because some routes restrict it. Verify your own position on GOV.UK rather than relying on what a colleague did.</p>
 
@@ -235,22 +235,22 @@ class AdjunctTeachingJobsUkBlogSeeder extends Seeder
 <h2 id="more-guides">More Job Guides</h2>
 
 <ul>
-    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a> &mdash; what a teaching hour actually pays once the multiplier is accounted for.</li>
-    <li><a href="/blog/adjunct-faculty-vacancies-in-the-uk">Adjunct Faculty Vacancies in the UK</a> &mdash; the four kinds of institution that hire, and why further education is the easiest door.</li>
-    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; the honorary title, conferred by nomination and unpaid.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the sponsorship routes that clear the salary floor.</li>
-    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a> &mdash; teaching income that does not depend on a UK visa.</li>
-    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a> &mdash; the international picture: what a US course section pays, and what the job is called in each country.</li>
+    <li><a href="/blog/how-to-become-an-adjunct-lecturer-in-the-uk">How to Become an Adjunct Lecturer in the UK</a>: what a teaching hour actually pays once the multiplier is accounted for.</li>
+    <li><a href="/blog/adjunct-faculty-vacancies-in-the-uk">Adjunct Faculty Vacancies in the UK</a>: the four kinds of institution that hire, and why further education is the easiest door.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a>: the honorary title, conferred by nomination and unpaid.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the sponsorship routes that clear the salary floor.</li>
+    <li><a href="/blog/online-teacher-jobs-worldwide">Online Teacher Jobs Worldwide</a>: teaching income that does not depend on a UK visa.</li>
+    <li><a href="/blog/adjunct-teaching-opportunities">Adjunct Teaching Opportunities</a>: the international picture: what a US course section pays, and what the job is called in each country.</li>
 </ul>
 
 <h2 id="sources">Official Sources</h2>
 
 <ul>
-    <li><a href="https://www.legislation.gov.uk/ukpga/1996/18/section/27A" rel="nofollow noopener" target="_blank">Employment Rights Act 1996, section 27A</a> &mdash; exclusivity terms unenforceable in zero hours contracts</li>
+    <li><a href="https://www.legislation.gov.uk/ukpga/1996/18/section/27A" rel="nofollow noopener" target="_blank">Employment Rights Act 1996, section 27A</a>: exclusivity terms unenforceable in zero hours contracts</li>
     <li><a href="https://www.legislation.gov.uk/uksi/2022/1145/made" rel="nofollow noopener" target="_blank">The Exclusivity Terms for Zero Hours Workers (Unenforceability and Redress) Regulations 2022</a></li>
-    <li><a href="https://www.hesa.ac.uk/news/19-02-2026/sb274-higher-education-staff-statistics" rel="nofollow noopener" target="_blank">HESA &mdash; Statistical Bulletin SB274, Higher Education Staff Statistics: UK, 2024/25</a>, published 19 February 2026, for the zero hours contract count</li>
-    <li><a href="https://www.gov.uk/skilled-worker-visa" rel="nofollow noopener" target="_blank">GOV.UK &mdash; Skilled Worker visa</a>, for the sponsorship and salary requirements</li>
-    <li><a href="https://www.advance-he.ac.uk/fellowship" rel="nofollow noopener" target="_blank">Advance HE &mdash; Fellowship</a>, for the recognised teaching credential</li>
+    <li><a href="https://www.hesa.ac.uk/news/19-02-2026/sb274-higher-education-staff-statistics" rel="nofollow noopener" target="_blank">HESA: Statistical Bulletin SB274, Higher Education Staff Statistics: UK, 2024/25</a>, published 19 February 2026, for the zero hours contract count</li>
+    <li><a href="https://www.gov.uk/skilled-worker-visa" rel="nofollow noopener" target="_blank">GOV.UK: Skilled Worker visa</a>, for the sponsorship and salary requirements</li>
+    <li><a href="https://www.advance-he.ac.uk/fellowship" rel="nofollow noopener" target="_blank">Advance HE: Fellowship</a>, for the recognised teaching credential</li>
 </ul>
 
 <p style="font-size:14px;color:#666;margin-top:26px;">Checked on 30 September 2026. This is general information, not legal advice; whether a particular contract falls within section 27A depends on its own terms. Confirm your immigration position on GOV.UK before accepting work. JobGader is not a recruiter and does not accept payment from applicants.</p>

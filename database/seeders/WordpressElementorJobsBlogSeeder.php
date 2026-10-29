@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "WordPress Elementor Jobs" — a guide whose central finding is that the job
+ * "WordPress Elementor Jobs": a guide whose central finding is that the job
  * title the draft is built around does not exist, and that "remote" on the
  * boards it recommends usually means a country other than this one.
  *
@@ -157,7 +157,7 @@ class WordpressElementorJobsBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> salaries, eligibility and location restrictions are set and published by each employer &mdash; not by JobGader. A role advertised as "remote" is frequently restricted to one country or region, so read the eligibility line before applying. Applying is free; any request for payment is a scam.</p>
+<p><strong>Note:</strong> salaries, eligibility and location restrictions are set and published by each employer, not by JobGader. A role advertised as "remote" is frequently restricted to one country or region, so read the eligibility line before applying. Applying is free; any request for payment is a scam.</p>
 JOBHTML;
     }
 
@@ -178,9 +178,9 @@ JOBHTML;
 
 <p>Here is the count, in full, so you can see how one-sided it is.</p>
 
-<p>Across the 52 live titles on <strong>Elementor's own careers board, Automattic, WP Engine, Fueled and Kinsta</strong>: titles containing "Elementor Developer" &mdash; <strong>zero</strong>. Titles containing the word "Elementor" at all &mdash; <strong>zero</strong>. Titles containing "WordPress" &mdash; nine.</p>
+<p>Across the 52 live titles on <strong>Elementor's own careers board, Automattic, WP Engine, Fueled and Kinsta</strong>: titles containing "Elementor Developer": <strong>zero</strong>. Titles containing the word "Elementor" at all: <strong>zero</strong>. Titles containing "WordPress": nine.</p>
 
-<p>On the Pakistani boards, the picture is the same. Rozee's live-jobs feed carries <strong>eight</strong> adverts with "WordPress" in the title, of which <strong>three</strong> are literally "WordPress Developer". It carries exactly <strong>one</strong> advert with "Elementor" in the title &mdash; "Elementor Designer &amp; Developer" &mdash; and none called "Elementor Developer". Mustakbil carries three WordPress titles and <strong>zero</strong> Elementor titles across all 883 of its Pakistani listings.</p>
+<p>On the Pakistani boards, the picture is the same. Rozee's live-jobs feed carries <strong>eight</strong> adverts with "WordPress" in the title, of which <strong>three</strong> are literally "WordPress Developer". It carries exactly <strong>one</strong> advert with "Elementor" in the title, "Elementor Designer &amp; Developer", and none called "Elementor Developer". Mustakbil carries three WordPress titles and <strong>zero</strong> Elementor titles across all 883 of its Pakistani listings.</p>
 
 <p>Where Elementor does appear, it appears inside the job description as one option among several. These are real phrases from live adverts:</p>
 
@@ -191,7 +191,7 @@ JOBHTML;
     <li>"experience with <strong>Elementor or Gutenberg</strong>"</li>
 </ul>
 
-<p>Counting both boards together, there is <strong>one Elementor-titled advert against seven where it is merely a listed skill</strong>. And here is the detail that settles the argument: of the twelve web design and UI/UX adverts on Rozee &mdash; the Figma, Adobe XD, wireframing jobs &mdash; <strong>not one mentions Elementor at all</strong>. Those employers are hiring designers, not page-builder operators.</p>
+<p>Counting both boards together, there is <strong>one Elementor-titled advert against seven where it is merely a listed skill</strong>. And here is the detail that settles the argument: of the twelve web design and UI/UX adverts on Rozee, the Figma, Adobe XD, wireframing jobs, <strong>not one mentions Elementor at all</strong>. Those employers are hiring designers, not page-builder operators.</p>
 
 <p><strong>What to do instead:</strong> search <strong>"WordPress Developer", "Web Developer" and "Web Designer"</strong>. Put Elementor in your skills section and in your portfolio descriptions, where it belongs.</p>
 
@@ -204,19 +204,19 @@ JOBHTML;
 
 <p>Most guides to this subject publish no pay figure at all, or quote an aggregator. These are figures published by the employers themselves, on their own adverts, on the date above.</p>
 
-<p><strong>The two boards behave very differently, and you should know which you are reading.</strong> Rozee publishes a salary on roughly <strong>a third</strong> of its adverts &mdash; twelve of the thirty-four we opened &mdash; and gives a single monthly number. Mustakbil publishes one on <strong>96 per cent</strong> of its Pakistani listings, 845 out of 883, and gives a range.</p>
+<p><strong>The two boards behave very differently, and you should know which you are reading.</strong> Rozee publishes a salary on roughly <strong>a third</strong> of its adverts, twelve of the thirty-four we opened, and gives a single monthly number. Mustakbil publishes one on <strong>96 per cent</strong> of its Pakistani listings, 845 out of 883, and gives a range.</p>
 
 <p>From Rozee, the published monthly figures ran from <strong>PKR 15,000 to PKR 170,000</strong>, with a median of <strong>PKR 50,000</strong>:</p>
 
 <ul>
-    <li><strong>PKR 170,000</strong> &mdash; Elementor Designer &amp; Developer, remote</li>
-    <li><strong>PKR 100,000</strong> &mdash; Web Design Lead Associate</li>
-    <li><strong>PKR 65,000</strong> &mdash; UI/UX Designer</li>
-    <li><strong>PKR 50,000</strong> &mdash; WordPress Developer, and separately a Shopify/WordPress product upload role</li>
-    <li><strong>PKR 45,000</strong> &mdash; Senior Web Developer, part-time</li>
-    <li><strong>PKR 40,000</strong> &mdash; WordPress Developer</li>
-    <li><strong>PKR 20,000</strong> &mdash; Junior Web Developer, paid internship</li>
-    <li><strong>PKR 15,000</strong> &mdash; WordPress Intern</li>
+    <li><strong>PKR 170,000</strong>: Elementor Designer &amp; Developer, remote</li>
+    <li><strong>PKR 100,000</strong>: Web Design Lead Associate</li>
+    <li><strong>PKR 65,000</strong>: UI/UX Designer</li>
+    <li><strong>PKR 50,000</strong>: WordPress Developer, and separately a Shopify/WordPress product upload role</li>
+    <li><strong>PKR 45,000</strong>: Senior Web Developer, part-time</li>
+    <li><strong>PKR 40,000</strong>: WordPress Developer</li>
+    <li><strong>PKR 20,000</strong>: Junior Web Developer, paid internship</li>
+    <li><strong>PKR 15,000</strong>: WordPress Intern</li>
 </ul>
 
 <p>From Mustakbil, where every relevant listing published a range: WordPress Intern <strong>20,000 to 35,000</strong>; another WordPress Intern <strong>10,000 to 15,000</strong>; Junior WordPress/PHP Developer and DevOps Trainee <strong>25,000 to 55,000</strong>; Web Developer <strong>40,000 to 100,000</strong>; Website Support Assistant <strong>50,000 to 80,000</strong>; Senior Frontend Engineer <strong>150,000 to 220,000</strong>.</p>
@@ -231,11 +231,11 @@ JOBHTML;
 
 <p><strong>Elementor itself.</strong> One open role, worldwide: an AppSec Architect in Ramat Gan, Israel, listed as on-site. It is not a WordPress role, it is not remote, and it is not open to you. An article that tells you to apply at Elementor is sending you to a single on-site security vacancy.</p>
 
-<p><strong>Automattic</strong> &mdash; the company behind WordPress.com. Sixteen roles, all tagged "Remote", but only two confirmed worldwide. The best fit is "Experienced Software Engineer", whose posting says Automattic is "always looking for talented and experienced engineers worldwide". Two others are the opposite: the VIP Support Engineer and Customer Success Engineer roles state that candidates must be based in the United States and <strong>hold American citizenship</strong>. A "Remote" tag told you none of that.</p>
+<p><strong>Automattic</strong>: the company behind WordPress.com. Sixteen roles, all tagged "Remote", but only two confirmed worldwide. The best fit is "Experienced Software Engineer", whose posting says Automattic is "always looking for talented and experienced engineers worldwide". Two others are the opposite: the VIP Support Engineer and Customer Success Engineer roles state that candidates must be based in the United States and <strong>hold American citizenship</strong>. A "Remote" tag told you none of that.</p>
 
 <p><strong>WP Engine.</strong> Thirteen roles, <strong>none</strong> open to Pakistan. Its marketing says it embraces a virtual-first approach so you can work "from wherever you're most productive". Its own careers FAQ then lists where it actually hires: the United States, Poland, Ireland, the UK and Australia. Only three of the thirteen are engineering roles, and they are in Krakow and Australia.</p>
 
-<p><strong>10up no longer exists as an employer.</strong> Its WordPress practice has been absorbed into <strong>Fueled</strong>, and its careers page still says "all of our positions are remote and are open to candidates all around the globe" while listing no positions at all. The real Fueled board has eleven roles: four are genuinely open worldwide, including three senior engineering contracts. The other seven are locked to Latin America, the Americas, the US or EMEA &mdash; and Pakistan is South Asia, not EMEA.</p>
+<p><strong>10up no longer exists as an employer.</strong> Its WordPress practice has been absorbed into <strong>Fueled</strong>, and its careers page still says "all of our positions are remote and are open to candidates all around the globe" while listing no positions at all. The real Fueled board has eleven roles: four are genuinely open worldwide, including three senior engineering contracts. The other seven are locked to Latin America, the Americas, the US or EMEA, and Pakistan is South Asia, not EMEA.</p>
 
 <p><strong>Kinsta.</strong> One open role, a Senior Product Designer in Budapest. Not a WordPress role.</p>
 
@@ -248,7 +248,7 @@ JOBHTML;
 <p>Three things make it the most useful destination in this article:</p>
 
 <ul>
-    <li><strong>Listings expire after 21 days.</strong> That is a hard rule, so nothing on it is stale &mdash; the opposite of the aggregators, where a closed job can sit indexed for a year.</li>
+    <li><strong>Listings expire after 21 days.</strong> That is a hard rule, so nothing on it is stale: the opposite of the aggregators, where a closed job can sit indexed for a year.</li>
     <li><strong>Posting is free</strong>, and every listing is moderated by volunteers within 24 to 36 hours. Small agencies post here who cannot afford a job board.</li>
     <li>It is the only one of these sources with roles genuinely open to Pakistan. The two <strong>WPMU DEV</strong> listings say it plainly: "Our talented, inspirational team is located globally, with team members working from every continent. Location is unimportant as long as you are available and enthusiastic." The shift is 4pm to midnight UTC.</li>
 </ul>
@@ -266,7 +266,7 @@ JOBHTML;
 
 <p><strong>Editor V4 is not a preview. It shipped.</strong> Elementor 4.0 was released on <strong>31 March 2026</strong>, and Elementor's own FAQ states that atomic features "are stable, safe for production, and are already used in real production environments", and that "starting in April 2026, all new Elementor sites will run on version 4 by default." Existing sites are untouched: "Nothing breaks. Your current v3 workflows work seamlessly together with new atomic v4 workflows."</p>
 
-<p>The current stable release is <strong>4.3.0</strong>, published on 22 September 2026 &mdash; the day before we checked. It requires WordPress 6.8 and PHP 7.4. On WordPress.org the plugin reports <strong>10 million or more active installations</strong> and a 4.5 out of 5 rating from 7,303 reviews. Elementor's own careers page says the product powers <strong>over 22 million websites</strong> and about <strong>13 per cent of the web</strong>; the independent W3Techs survey puts it at 12.7 per cent of all websites, which is close enough to treat the claim as sound.</p>
+<p>The current stable release is <strong>4.3.0</strong>, published on 22 September 2026: the day before we checked. It requires WordPress 6.8 and PHP 7.4. On WordPress.org the plugin reports <strong>10 million or more active installations</strong> and a 4.5 out of 5 rating from 7,303 reviews. Elementor's own careers page says the product powers <strong>over 22 million websites</strong> and about <strong>13 per cent of the web</strong>; the independent W3Techs survey puts it at 12.7 per cent of all websites, which is close enough to treat the claim as sound.</p>
 
 <p>The vocabulary a 2026 interviewer will use: <strong>Atomic Elements, Components, Variables, Global Classes, Atomic Forms</strong>, the unified Style tab, and the single-DIV wrapper per element. Version 4.3.0 also introduced <strong>Elementor MCP</strong>, which lets AI tools build pages and work with your design system directly.</p>
 
@@ -277,7 +277,7 @@ JOBHTML;
 <p>Elementor on its own is a narrow skill and a crowded one. The adverts we read make the progression fairly clear.</p>
 
 <ol>
-    <li><strong>WordPress itself before the builder.</strong> Themes, child themes, the template hierarchy, plugins, users, media, and the admin. Most real problems are not Elementor problems &mdash; they are plugin conflicts, caching, or hosting.</li>
+    <li><strong>WordPress itself before the builder.</strong> Themes, child themes, the template hierarchy, plugins, users, media, and the admin. Most real problems are not Elementor problems: they are plugin conflicts, caching, or hosting.</li>
     <li><strong>CSS properly, then Flexbox containers.</strong> The most common paid task is fixing a layout that breaks on a phone. That is a CSS diagnosis, not a settings change.</li>
     <li><strong>Enough PHP and JavaScript to read an error.</strong> You do not need to be a backend engineer. You need to tell whether the fault is the theme, a plugin, custom code or the host.</li>
     <li><strong>Performance and on-page SEO.</strong> Image sizes, fonts, scripts, caching, headings, internal links, alt text, canonicals. This is what separates a page assembler from someone an agency keeps.</li>
@@ -292,7 +292,7 @@ JOBHTML;
     <li><strong>Search the right words.</strong> "WordPress Developer", "Web Developer", "Web Designer", "Front-End Developer". Not "Elementor Developer".</li>
     <li><strong>Read the eligibility line before the salary.</strong> On every board in this article, "Remote" appeared on roles restricted to one country and on roles requiring citizenship. It is a work-arrangement tag, not a permission.</li>
     <li><strong>Start at jobs.wordpress.net.</strong> Nothing there is older than 21 days, and it is where the genuinely global employers post.</li>
-    <li><strong>Check the time zone, not just the country.</strong> The global roles we found specify overlap windows &mdash; 4pm to midnight UTC on one, Indian Standard Time core hours on another. That decides whether the job fits your life.</li>
+    <li><strong>Check the time zone, not just the country.</strong> The global roles we found specify overlap windows: 4pm to midnight UTC on one, Indian Standard Time core hours on another. That decides whether the job fits your life.</li>
     <li><strong>Lead with links, not adjectives.</strong> For this work a portfolio the employer can open and inspect outweighs any certificate.</li>
     <li><strong>Verify a Rozee listing is alive.</strong> A Rozee page that loads is not necessarily an open job. We found one showing a 23 September deadline whose body read "This employer is no longer accepting CVs."</li>
 </ol>

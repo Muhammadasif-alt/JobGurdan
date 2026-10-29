@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for NEOM Construction Jobs in Saudi Arabia" — a guide whose
+ * "How to Apply for NEOM Construction Jobs in Saudi Arabia": a guide whose
  * central fact is one no other NEOM article will tell you: the official job
  * board is empty. Every query against NEOM's own careers API returns zero.
  *
@@ -165,7 +165,7 @@ class NeomConstructionJobsSaudiArabiaBlogSeeder extends Seeder
 <h3>Visas and fees</h3>
 <p>NEOM states that all offers are subject to the candidate being able to successfully obtain a work visa to enter and work in the Kingdom of Saudi Arabia. NEOM also states that its recruiters, including appointed third-party agents, will never ask candidates to make or facilitate any bank payments or fees at any stage of the recruitment process.</p>
 
-<p>Pay, shifts, eligibility and visa rules are set by NEOM, the Saudi Ministry of Human Resources and Social Development and Saudi labour law &mdash; not by JobGader. Confirm the requirements on the live posting, and verify any offer through the official NEOM portal before you travel.</p>
+<p>Pay, shifts, eligibility and visa rules are set by NEOM, the Saudi Ministry of Human Resources and Social Development and Saudi labour law, not by JobGader. Confirm the requirements on the live posting, and verify any offer through the official NEOM portal before you travel.</p>
 JOBHTML;
     }
 
@@ -176,7 +176,7 @@ JOBHTML;
 
 <p><strong>NEOM's official careers portal currently has zero open vacancies.</strong></p>
 
-<p>Not few. Zero. We queried NEOM's own job-board API directly &mdash; the same one the page itself calls &mdash; with no filters, then with "engineer", "construction", "project manager" and "architect". Every single query returned a count of zero and an empty results list. Every filter facet came back empty too: no sectors, no locations, no skills. That is what an empty requisition table looks like.</p>
+<p>Not few. Zero. We queried NEOM's own job-board API directly, the same one the page itself calls, with no filters, then with "engineer", "construction", "project manager" and "architect". Every single query returned a count of zero and an empty results list. Every filter facet came back empty too: no sectors, no locations, no skills. That is what an empty requisition table looks like.</p>
 
 <p>If you have been sending CVs into NEOM for weeks and hearing nothing, this is probably why. Here is the honest picture, and what you can actually do with it.</p>
 
@@ -193,7 +193,7 @@ JOBHTML;
     <a href="https://careers.neom.com/careers" target="_blank" rel="noopener nofollow" style="display:inline-block;background:#b3151a;color:#fff;padding:14px 32px;border-radius:8px;font-weight:700;text-decoration:none;">Open the Official NEOM Careers Portal &rarr;</a>
 </p>
 
-<p>Now here is the part that explains a lot of wasted effort. <strong>NEOM's main website does not link to its own job board.</strong> If you go to neom.com and click careers, you land on a page called "Work at NEOM" that talks about culture, communities and benefits &mdash; and contains no link to any vacancy list anywhere on it. The only outbound links are social media.</p>
+<p>Now here is the part that explains a lot of wasted effort. <strong>NEOM's main website does not link to its own job board.</strong> If you go to neom.com and click careers, you land on a page called "Work at NEOM" that talks about culture, communities and benefits, and contains no link to any vacancy list anywhere on it. The only outbound links are social media.</p>
 
 <p>So people search, land on the brochure page, find nothing to apply to, and end up on a scam site that promises them a list. Use the careers.neom.com address above and nothing else.</p>
 
@@ -209,13 +209,13 @@ JOBHTML;
 
 <p>On the financial side, the Public Investment Fund recorded an <strong>8 billion dollar write-down</strong> on its gigaprojects at the end of 2024, its first on-record impairment of this kind, with gigaproject investment falling to a smaller share of the fund's assets.</p>
 
-<p>And in May 2026, Semafor reported that NEOM had delayed further work on The Line &mdash; the 170-kilometre linear city &mdash; until at least after 2030, with the 2030 population target cut to around 100,000 from an original 1.5 million, and Red Sea tourism destinations postponed. <strong>Those reports cite unnamed sources and NEOM has not confirmed them, so treat them as journalism rather than established fact.</strong> We will not pretend otherwise. But they match what the empty job board is telling you.</p>
+<p>And in May 2026, Semafor reported that NEOM had delayed further work on The Line, the 170-kilometre linear city, until at least after 2030, with the 2030 population target cut to around 100,000 from an original 1.5 million, and Red Sea tourism destinations postponed. <strong>Those reports cite unnamed sources and NEOM has not confirmed them, so treat them as journalism rather than established fact.</strong> We will not pretend otherwise. But they match what the empty job board is telling you.</p>
 
 <h2>Is Anything at NEOM Still Being Built?</h2>
 
 <p>Yes, and this is the one genuinely positive part of the picture. <strong>Oxagon is the exception.</strong></p>
 
-<p>On 31 August 2026 an AI data centre project at Oxagon moved into construction. The announcement was made by <strong>HUMAIN and DataVolt, not by NEOM</strong> &mdash; NEOM is the location, not the developer. The release states they are developing 100MW of a 360MW AI-ready data centre at Oxagon, with the first 100MW anticipated to be available in 2028, and that the 360MW is the first phase of a wider planned 1.5GW campus.</p>
+<p>On 31 August 2026 an AI data centre project at Oxagon moved into construction. The announcement was made by <strong>HUMAIN and DataVolt, not by NEOM</strong>: NEOM is the location, not the developer. The release states they are developing 100MW of a 360MW AI-ready data centre at Oxagon, with the first 100MW anticipated to be available in 2028, and that the 360MW is the first phase of a wider planned 1.5GW campus.</p>
 
 <p>If you have seen a guide saying NEOM announced a "planned 360 MW campus", that is wrong twice over: wrong company, and 360MW is one phase of something much larger.</p>
 
@@ -251,7 +251,7 @@ JOBHTML;
     <tbody>
         <tr>
             <td style="padding:10px;border:1px solid #e5e7eb;">Accommodation</td>
-            <td style="padding:10px;border:1px solid #e5e7eb;">"private accommodation within one of our secure gated communities &mdash; conveniently located near your workplace"</td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">"private accommodation within one of our secure gated communities: conveniently located near your workplace"</td>
         </tr>
         <tr>
             <td style="padding:10px;border:1px solid #e5e7eb;">Workforce</td>
@@ -293,7 +293,7 @@ JOBHTML;
 
 <p style="border-left:4px solid #b3151a;padding:12px 18px;background:#faf7f7;margin:22px 0;">"NEOM recruiters, including our appointed third-party agents, will never ask candidates to make or facilitate any bank payments or fees at any stage of the recruitment process. NEOM will never ask you for personal passwords, log-in details or any other private information related to any other platform, private or public. All of our recruitment conversations will be initiated and managed exclusively through NEOM.COM emails or official channels."</p>
 
-<p>Combine that with the fact that the job board is empty and you have a simple fraud test. <strong>Anyone offering you a NEOM construction job right now, for a fee, is lying to you</strong> &mdash; there is no vacancy for them to be offering.</p>
+<p>Combine that with the fact that the job board is empty and you have a simple fraud test. <strong>Anyone offering you a NEOM construction job right now, for a fee, is lying to you</strong>: there is no vacancy for them to be offering.</p>
 
 <p>Saudi law backs this up, and it is worth knowing the article number. <strong>Article 40 of the Saudi Labour Law puts the cost of recruiting a non-Saudi worker on the employer</strong>, along with the Iqama and work-permit fees, profession-change fees, exit and re-entry visas, and your return ticket home at the end of the contract. One honest caveat, because we would rather you knew: Article 40 assigns those costs to the employer. It does not, in itself, make it a crime for someone to ask you for money, and it binds the Saudi employer rather than an agent operating in your own country.</p>
 
@@ -366,14 +366,14 @@ JOBHTML;
 <p>Saudi Arabia has employers that are actually hiring right now. These cover them:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a> &mdash; the Kingdom's largest engineering employer, with a live board.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; the wider market beyond the gigaprojects.</li>
-    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a> &mdash; how hiring and sponsorship work in the Kingdom.</li>
-    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; another guide where the employer everyone searches for is the wrong one.</li>
-    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a> &mdash; an employer that does publish what it pays.</li>
-    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a> &mdash; and which of the three Siemens companies actually hires you.</li>
-    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a> &mdash; an employer that publishes real salary bands on its adverts.</li>
-    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a> &mdash; the government portal that replaced PetroJobs.</li>
+    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a>: the Kingdom's largest engineering employer, with a live board.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: the wider market beyond the gigaprojects.</li>
+    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a>: how hiring and sponsorship work in the Kingdom.</li>
+    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a>: another guide where the employer everyone searches for is the wrong one.</li>
+    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a>: an employer that does publish what it pays.</li>
+    <li><a href="/blog/how-to-apply-for-siemens-engineering-jobs-in-germany">How to Apply for Siemens Engineering Jobs in Germany</a>, and which of the three Siemens companies actually hires you.</li>
+    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a>: an employer that publishes real salary bands on its adverts.</li>
+    <li><a href="/blog/how-to-apply-for-pdo-engineering-jobs-in-oman">How to Apply for PDO Engineering Jobs in Oman</a>: the government portal that replaced PetroJobs.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using NEOM's own careers pages and newsroom, the careers.neom.com job API, PIF financial reporting, named press coverage, and the Saudi Labour Law as published by the Ministry of Human Resources and Social Development, checked on 22 September 2026. Vacancy counts, programmes and immigration rules change. Always check the live portal and the official government source before acting, and never pay anyone to secure a job.</p>

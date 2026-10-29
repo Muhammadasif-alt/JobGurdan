@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Occupational Therapist Jobs in Canada" — a guide for a therapist, at home or
+ * "Occupational Therapist Jobs in Canada": a guide for a therapist, at home or
  * abroad, weighing where to work, what registration really involves and how
  * long it takes. Registration and the internationally-educated route are the
  * questions that decide whether the pay is even reachable, so those get the
@@ -165,14 +165,14 @@ class OccupationalTherapistJobsCanadaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> registration standards, exam eligibility and immigration rules are set by the provincial colleges, CAOT, ACOTRO and IRCC &mdash; not by JobGader. Confirm the current position with your provincial regulator and on canada.ca before applying.</p>
+<p><strong>Note:</strong> registration standards, exam eligibility and immigration rules are set by the provincial colleges, CAOT, ACOTRO and IRCC, not by JobGader. Confirm the current position with your provincial regulator and on canada.ca before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Canada has a real and uneven shortage of occupational therapists. A permanent hospital posting in Toronto or Vancouver draws dozens of applicants, while a community role in northern Ontario or rural Saskatchewan can sit open for months. For a therapist deciding where to aim, the useful questions are not whether jobs exist &mdash; they do &mdash; but which setting suits you, what registration actually involves, and how long it takes if you trained abroad. This guide answers all three, with pay anchored to Job Bank rather than to the bands most articles copy.</p>
+<p>Canada has a real and uneven shortage of occupational therapists. A permanent hospital posting in Toronto or Vancouver draws dozens of applicants, while a community role in northern Ontario or rural Saskatchewan can sit open for months. For a therapist deciding where to aim, the useful questions are not whether jobs exist, they do, but which setting suits you, what registration actually involves, and how long it takes if you trained abroad. This guide answers all three, with pay anchored to Job Bank rather than to the bands most articles copy.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/healthcare?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -224,7 +224,7 @@ JOBHTML;
 </table>
 </div>
 
-<p><strong>One caution on the biggest numbers.</strong> You will see "$130,000" and "$145,000+" quoted for community and northern work. Job Bank's national high wage is $55.00 an hour, about $107,000&ndash;$114,000 full-time. Salaried grid roles do not reach $130,000. Those figures are exceptional fee-for-service, insurer-funded or northern-premium arrangements &mdash; real for some, but not a base salary you should plan around.</p>
+<p><strong>One caution on the biggest numbers.</strong> You will see "$130,000" and "$145,000+" quoted for community and northern work. Job Bank's national high wage is $55.00 an hour, about $107,000&ndash;$114,000 full-time. Salaried grid roles do not reach $130,000. Those figures are exceptional fee-for-service, insurer-funded or northern-premium arrangements: real for some, but not a base salary you should plan around.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/occupational-therapist-jobs-in-canada-therapy.jpg"
@@ -239,12 +239,12 @@ JOBHTML;
     <li><strong>British Columbia.</strong> High demand across health authorities, but high housing costs in the Lower Mainland; Vancouver Island and the interior are easier to enter.</li>
     <li><strong>Alberta.</strong> Strong hospital and continuing-care hiring, competitive grid salaries, a lower cost of living than Toronto or Vancouver.</li>
     <li><strong>Atlantic provinces.</strong> Smaller markets but chronic vacancies and active recruitment incentives.</li>
-    <li><strong>Northern and rural regions.</strong> The shortest hiring timelines and the largest financial incentives &mdash; a northern living allowance, subsidised housing and paid travel home are common.</li>
+    <li><strong>Northern and rural regions.</strong> The shortest hiring timelines and the largest financial incentives: a northern living allowance, subsidised housing and paid travel home are common.</li>
 </ul>
 
 <h2>Registration: Provincial, Not National</h2>
 
-<p>Occupational therapy is regulated in every province, and each has its own college &mdash; the College of Occupational Therapists of Ontario in Ontario, and the Ordre des ergoth&eacute;rapeutes du Qu&eacute;bec in Quebec. You register in the province where you will practise, and if you move provinces later, you register again.</p>
+<p>Occupational therapy is regulated in every province, and each has its own college: the College of Occupational Therapists of Ontario in Ontario, and the Ordre des ergoth&eacute;rapeutes du Qu&eacute;bec in Quebec. You register in the province where you will practise, and if you move provinces later, you register again.</p>
 
 <p>The common thread nationally is the <strong>National Occupational Therapy Certification Examination (NOTCE)</strong>, administered by the Canadian Association of Occupational Therapists (CAOT). Passing it is a registration requirement in every province <strong>except Quebec</strong>, which runs its own process. The exam is case-based, and from <strong>30 September 2026</strong> it is measured against the Competencies for Occupational Therapists in Canada (2021/2024).</p>
 
@@ -252,7 +252,7 @@ JOBHTML;
 
 <h2>If You Were Educated Outside Canada</h2>
 
-<p>Internationally educated therapists &mdash; including Canadians who trained abroad &mdash; take one extra step first, and most of the delays people report come from starting in the wrong place.</p>
+<p>Internationally educated therapists, including Canadians who trained abroad, take one extra step first, and most of the delays people report come from starting in the wrong place.</p>
 
 <ol>
     <li><strong>SEAS.</strong> The Substantial Equivalency Assessment System, run by ACOTRO since 2015, decides how closely your education matches a Canadian-trained OT. It includes an academic credential review, a curriculum and fieldwork review, a jurisprudence knowledge test, a competency assessment and a language readiness assessment.</li>
@@ -280,7 +280,7 @@ JOBHTML;
     <li><strong>Write for the setting, not the profession.</strong> A hospital wants acute discharge planning and functional assessment; a community provider wants home safety assessments and assistive-device prescription; a paediatric employer wants sensory processing and school collaboration. Same degree, three different r&eacute;sum&eacute;s.</li>
     <li><strong>Say whether you drive.</strong> A large share of Canadian OT work is community-based, and postings routinely require a licence and a vehicle. If you have both, put them near the top; if not, filter for hospital, clinic and school roles.</li>
     <li><strong>Name your funders and documentation.</strong> Experience with auto-insurance, workers' compensation and long-term-disability files is directly valuable in private and community practice, because those reports follow a specific standard.</li>
-    <li><strong>Ask about caseload size and travel radius.</strong> The two questions that predict your quality of life are how many active clients you carry and how far apart they are &mdash; ask how mileage and documentation time are paid, not just the salary.</li>
+    <li><strong>Ask about caseload size and travel radius.</strong> The two questions that predict your quality of life are how many active clients you carry and how far apart they are: ask how mileage and documentation time are paid, not just the salary.</li>
 </ul>
 
 <h2>Frequently Asked Questions</h2>
@@ -301,13 +301,13 @@ JOBHTML;
 <p>Usually yes. Most provinces grant provisional or restricted registration so you can start working under conditions while you wait for a NOTCE sitting, which is offered only a few times a year.</p>
 
 <h3>Is occupational therapy a good route for Express Entry?</h3>
-<p>It is favourable. OT is NOC 31203, TEER 1, eligible for Express Entry and included in the Healthcare and Social Services category draws &mdash; but since 18 February 2026 you need one year of qualifying work experience, not six months, to qualify for those draws.</p>
+<p>It is favourable. OT is NOC 31203, TEER 1, eligible for Express Entry and included in the Healthcare and Social Services category draws, but since 18 February 2026 you need one year of qualifying work experience, not six months, to qualify for those draws.</p>
 
 <h3>Which provinces are easiest to get hired in?</h3>
 <p>Northern, rural and Atlantic regions have the shortest timelines and the largest incentives. Ontario has the most roles by volume, and Alberta pairs strong hospital hiring with a lower cost of living than Toronto or Vancouver.</p>
 
 <h3>Do I need a driver's licence?</h3>
-<p>For community and home-care roles, usually yes &mdash; postings routinely require a valid licence and a vehicle. Hospital, clinic and school-based roles are the alternative if you do not drive.</p>
+<p>For community and home-care roles, usually yes: postings routinely require a valid licence and a vehicle. Hospital, clinic and school-based roles are the alternative if you do not drive.</p>
 
 <h2>People Also Search For</h2>
 
@@ -340,12 +340,12 @@ JOBHTML;
 <p>Weighing a move into Canadian healthcare or a work permit? These cover the neighbouring routes:</p>
 
 <ul>
-    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a> &mdash; another regulated Canadian health role, and how its provincial certification works.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; the LMIA, the language rules and the routes to permanent residence in full.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; what the 2026 levels plan changed and which sectors actually hire.</li>
-    <li><a href="/blog/recruiter-jobs-in-canada">Recruiter Jobs in Canada</a> &mdash; the people on the other side of the healthcare hiring process.</li>
-    <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in the USA</a> &mdash; the neighbouring allied-health market, its licensing and pay.</li>
-    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a> &mdash; a care-sector route with a genuine visa pathway.</li>
+    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a>: another regulated Canadian health role, and how its provincial certification works.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: the LMIA, the language rules and the routes to permanent residence in full.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: what the 2026 levels plan changed and which sectors actually hire.</li>
+    <li><a href="/blog/recruiter-jobs-in-canada">Recruiter Jobs in Canada</a>: the people on the other side of the healthcare hiring process.</li>
+    <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in the USA</a>: the neighbouring allied-health market, its licensing and pay.</li>
+    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a>: a care-sector route with a genuine visa pathway.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not immigration or professional-registration advice. Registration requirements are set by each provincial college and change over time. Confirm the current position with your provincial regulator, and with ACOTRO and CAOT for SEAS and NOTCE, before applying.</p>

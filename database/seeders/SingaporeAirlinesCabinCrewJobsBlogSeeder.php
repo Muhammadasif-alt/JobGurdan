@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Singapore Airlines Cabin Crew Jobs" — an airline that
+ * "How to Apply for Singapore Airlines Cabin Crew Jobs": an airline that
  * publishes its cabin crew pay, which almost none of them do, and that runs
  * recruitment country by country rather than opening one global door. Pakistan
  * is not one of those countries, and saying so plainly is the point of the page.
@@ -161,7 +161,7 @@ class SingaporeAirlinesCabinCrewJobsBlogSeeder extends Seeder
 <h3>Requirements</h3>
 <p>Minimum age 18. Fluent English. Minimum height of 1.58m for females and 1.65m for males, which SIA ties to safety and emergency procedures. Education differs by campaign: five GCE O-Level credits including English or Higher Nitec and above for Singapore, a junior college or university qualification for Japan, and a bachelor's degree for Taiwan.</p>
 
-<p>Pay, eligibility, contract terms and recruitment schedules are set by Singapore Airlines &mdash; not by JobGader. SIA states it conducts direct recruitment and engages no third-party agencies for cabin crew. Confirm the requirements on the live posting, and never pay anyone to secure a job.</p>
+<p>Pay, eligibility, contract terms and recruitment schedules are set by Singapore Airlines, not by JobGader. SIA states it conducts direct recruitment and engages no third-party agencies for cabin crew. Confirm the requirements on the live posting, and never pay anyone to secure a job.</p>
 JOBHTML;
     }
 
@@ -200,21 +200,21 @@ JOBHTML;
 <p>Singapore Airlines does not run one global cabin crew vacancy. It runs <strong>country campaigns</strong>, each with its own requirements, its own interview city and its own closing behaviour. When we checked, there were four:</p>
 
 <ul>
-    <li><strong>Singapore</strong> &mdash; interviews held in Singapore.</li>
-    <li><strong>Malaysia</strong> &mdash; interviews held in Kuala Lumpur.</li>
-    <li><strong>Japan</strong> &mdash; interviews held in Tokyo.</li>
-    <li><strong>Taiwan</strong> &mdash; interviews held in Taipei.</li>
+    <li><strong>Singapore</strong>: interviews held in Singapore.</li>
+    <li><strong>Malaysia</strong>: interviews held in Kuala Lumpur.</li>
+    <li><strong>Japan</strong>: interviews held in Tokyo.</li>
+    <li><strong>Taiwan</strong>: interviews held in Taipei.</li>
 </ul>
 
 <p><strong>Here is the part that confuses people: the country name is where the interview happens, not where the job is.</strong> All four roles are Singapore-based. You do not become "Singapore Airlines cabin crew in Malaysia". You relocate to Singapore.</p>
 
-<p>SIA also lists several countries as explicitly closed &mdash; India, Sri Lanka, South Korea, Hong Kong SAR (China) and Thailand &mdash; each reading <em>"Please note that applications for Cabin Crew positions in Singapore are currently closed. Do check our career website for future recruitment."</em> Pakistan is absent from both lists. There is nothing to monitor.</p>
+<p>SIA also lists several countries as explicitly closed, India, Sri Lanka, South Korea, Hong Kong SAR (China) and Thailand, each reading <em>"Please note that applications for Cabin Crew positions in Singapore are currently closed. Do check our career website for future recruitment."</em> Pakistan is absent from both lists. There is nothing to monitor.</p>
 
 <h2>Why We Are Not Printing Interview Dates</h2>
 
 <p>Most articles on this topic lead with a date. We are not going to, and the reason is instructive.</p>
 
-<p>SIA's own marketing page said interviews would be held in Singapore on 26 September 2026. When we opened the actual job listing, reposted the same day we checked, the date was <strong>gone</strong> &mdash; replaced with a flat <em>"We will be conducting interviews for Cabin Crew in Singapore."</em> The airline had stripped it on repost.</p>
+<p>SIA's own marketing page said interviews would be held in Singapore on 26 September 2026. When we opened the actual job listing, reposted the same day we checked, the date was <strong>gone</strong>: replaced with a flat <em>"We will be conducting interviews for Cabin Crew in Singapore."</em> The airline had stripped it on repost.</p>
 
 <p>Of the campaigns that still carried dates when we looked, Malaysia showed 17 October 2026 and Taiwan showed 21 November 2026, with Japan giving only "October 2026" with no day. <strong>Treat all of those as already expired.</strong> SIA rotates these continuously. The only reliable move is to open the live listing yourself, which is linked at the bottom of this guide.</p>
 
@@ -232,7 +232,7 @@ JOBHTML;
 
 <h2>The Service Bond Nobody Mentions</h2>
 
-<p>Both overseas campaigns &mdash; Japan and Taiwan &mdash; carry a requirement most guides omit entirely: <em>"Willingness and commitment to serve a compulsory service bond."</em></p>
+<p>Both overseas campaigns, Japan and Taiwan, carry a requirement most guides omit entirely: <em>"Willingness and commitment to serve a compulsory service bond."</em></p>
 
 <p>A service bond is a contractual commitment to stay for a fixed period, with money owed back if you leave early. SIA does not publish the amount or duration on the listing, which means <strong>you must ask before you sign anything.</strong> For someone relocating internationally on a five-year contract, this is the single most important financial term on the page, and it is the one that gets left out.</p>
 
@@ -274,7 +274,7 @@ JOBHTML;
 
 <p>SIA describes it as <em>"a comprehensive four-month training programme, from safety procedures to product knowledge to grooming, equipping you with the knowledge and skillsets you need to operate as a SIA Cabin Crew."</em></p>
 
-<p>Those three areas &mdash; <strong>safety procedures, product knowledge, grooming</strong> &mdash; are the only subjects SIA publishes. Longer syllabus lists you see elsewhere are invented. The airline does add that crew get opportunities to expand their skillsets, "whether it is becoming a sommelier, mastering a new language, or deepening your expertise in customer service".</p>
+<p>Those three areas, <strong>safety procedures, product knowledge, grooming</strong>, are the only subjects SIA publishes. Longer syllabus lists you see elsewhere are invented. The airline does add that crew get opportunities to expand their skillsets, "whether it is becoming a sommelier, mastering a new language, or deepening your expertise in customer service".</p>
 
 <h2>What You Actually Get If You Are Hired</h2>
 
@@ -308,7 +308,7 @@ JOBHTML;
 <p>What genuinely helps, and what you can evidence:</p>
 
 <ul>
-    <li><strong>Customer-facing work of any kind</strong> &mdash; retail, hospitality, call centre, front desk. It shows you can hold composure with a difficult member of the public.</li>
+    <li><strong>Customer-facing work of any kind</strong>: retail, hospitality, call centre, front desk. It shows you can hold composure with a difficult member of the public.</li>
     <li><strong>A second language.</strong> SIA explicitly names "mastering a new language" among the skillsets crew can develop, and an airline flying a wide network values it.</li>
     <li><strong>Grooming and presentation</strong>, because it is one of only three training subjects SIA publishes.</li>
     <li><strong>Evidence you can follow a procedure exactly.</strong> This is a safety job.</li>
@@ -318,7 +318,7 @@ JOBHTML;
 
 <h2>What Comes After Cabin Crew</h2>
 
-<p>Be sceptical of career-ladder diagrams in other articles; SIA does not publish one for cabin crew. What it does publish is that crew get <em>"opportunities to expand your skillsets &mdash; whether it is becoming a sommelier, mastering a new language, or deepening your expertise in customer service"</em>, and that the initial five-year contract can be extended on performance.</p>
+<p>Be sceptical of career-ladder diagrams in other articles; SIA does not publish one for cabin crew. What it does publish is that crew get <em>"opportunities to expand your skillsets: whether it is becoming a sommelier, mastering a new language, or deepening your expertise in customer service"</em>, and that the initial five-year contract can be extended on performance.</p>
 
 <p>Treat it accordingly: a five-year commitment with real skill development and an extension decision at the end, not a guaranteed escalator into management. Plan the exit as deliberately as the entry.</p>
 
@@ -330,12 +330,12 @@ JOBHTML;
 
 <h2>How to Apply, Step by Step</h2>
 
-<p><strong>Official application route:</strong> <a href="https://careers.singaporeair.com/sia/go/Cabin-Crew/689244/" rel="nofollow noopener" target="_blank">https://careers.singaporeair.com/sia/go/Cabin-Crew/689244/</a> &mdash; this is the live cabin crew listing page on Singapore Airlines' own careers portal. The salary and benefits detail sits separately on <a href="https://www.singaporeair.com/en_UK/sg/careers/cabin-crew-career/" rel="nofollow noopener" target="_blank">singaporeair.com/en_UK/sg/careers/cabin-crew-career/</a>.</p>
+<p><strong>Official application route:</strong> <a href="https://careers.singaporeair.com/sia/go/Cabin-Crew/689244/" rel="nofollow noopener" target="_blank">https://careers.singaporeair.com/sia/go/Cabin-Crew/689244/</a>: this is the live cabin crew listing page on Singapore Airlines' own careers portal. The salary and benefits detail sits separately on <a href="https://www.singaporeair.com/en_UK/sg/careers/cabin-crew-career/" rel="nofollow noopener" target="_blank">singaporeair.com/en_UK/sg/careers/cabin-crew-career/</a>.</p>
 
 <ol>
     <li>Open the official cabin crew listings at careers.singaporeair.com and see which campaigns are live today.</li>
     <li>Check which campaign you are actually eligible for, including its education bar, which differs by country.</li>
-    <li>Read the commencement window &mdash; three months for most, six for Japan &mdash; and be honest about whether you can meet it.</li>
+    <li>Read the commencement window, three months for most, six for Japan, and be honest about whether you can meet it.</li>
     <li>If it is Japan or Taiwan, ask about the service bond amount and duration before committing.</li>
     <li>Submit through the official portal only. Selected applicants receive a link to complete a video interview online.</li>
     <li>Shortlisted candidates are invited to the final interviews; Japan's listing describes face-to-face interviews after the video stage.</li>
@@ -399,12 +399,12 @@ JOBHTML;
 <p>If cabin crew is the goal and Singapore is closed to you, these are the routes that actually recruit from Pakistan and the Gulf:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; the largest recruiter of cabin crew from South Asia.</li>
-    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; a smaller fleet, and a clearer path in.</li>
-    <li><a href="/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs">How to Apply for Kuwait Airways Cabin Crew Jobs</a> &mdash; and the age limits its own pages contradict.</li>
-    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; ground roles in a market that does recruit from abroad.</li>
-    <li><a href="/blog/how-to-apply-for-qantas-ground-staff-jobs-in-australia">How to Apply for Qantas Ground Staff Jobs in Australia</a> &mdash; published enterprise agreement pay, and who can realistically apply.</li>
-    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a> &mdash; another airline that publishes its pay, and two locks that close it from abroad.</li>
+    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a>: the largest recruiter of cabin crew from South Asia.</li>
+    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a>: a smaller fleet, and a clearer path in.</li>
+    <li><a href="/blog/how-to-apply-for-kuwait-airways-cabin-crew-jobs">How to Apply for Kuwait Airways Cabin Crew Jobs</a>, and the age limits its own pages contradict.</li>
+    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a>: ground roles in a market that does recruit from abroad.</li>
+    <li><a href="/blog/how-to-apply-for-qantas-ground-staff-jobs-in-australia">How to Apply for Qantas Ground Staff Jobs in Australia</a>: published enterprise agreement pay, and who can realistically apply.</li>
+    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a>: another airline that publishes its pay, and two locks that close it from abroad.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Singapore Airlines' own cabin crew careers page, its live listings on careers.singaporeair.com and its phishing advisory, checked on 22 September 2026. Campaigns, interview dates, pay and requirements change without notice. Always check the live listing before acting, and never pay anyone to secure a job.</p>

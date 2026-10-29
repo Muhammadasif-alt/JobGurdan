@@ -299,10 +299,10 @@ JOBHTML;
 <p>Related healthcare guides:</p>
 
 <ul>
-    <li><a href="/blog/nursing-jobs-abroad-requirements-for-foreign-nurses">Nursing Jobs Abroad: Requirements for Foreign Nurses</a> &mdash; registration in Saudi Arabia, the UK and Australia.</li>
-    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; roles beyond registered clinical work.</li>
-    <li><a href="/blog/hospital-support-worker-jobs-in-the-uk">Hospital Support Worker Jobs in the UK</a> &mdash; another UK support route.</li>
-    <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a> &mdash; the care-support route.</li>
+    <li><a href="/blog/nursing-jobs-abroad-requirements-for-foreign-nurses">Nursing Jobs Abroad: Requirements for Foreign Nurses</a>: registration in Saudi Arabia, the UK and Australia.</li>
+    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a>: roles beyond registered clinical work.</li>
+    <li><a href="/blog/hospital-support-worker-jobs-in-the-uk">Hospital Support Worker Jobs in the UK</a>: another UK support route.</li>
+    <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a>: the care-support route.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or career advice. UAE information is from the Department of Health Abu Dhabi, the Dubai Health Authority and u.ae; UK information from the National Careers Service and GOV.UK, reviewed on 6 October 2026. Requirements change, so confirm them with the official authority before applying.</p>

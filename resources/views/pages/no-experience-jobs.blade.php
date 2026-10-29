@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs With No Experience — Honest Options | JobGader')
+@section('title', 'Jobs With No Experience: Honest Options | JobGader')
 @section('meta_description', 'Jobs with no experience needed across the USA and UK: which roles genuinely train from scratch, what they pay, and which listings to avoid.')
-@section('og_title', 'Jobs With No Experience — Honest Options | JobGader')
+@section('og_title', 'Jobs With No Experience: Honest Options | JobGader')
 @section('og_description', 'Jobs with no experience needed across the USA and UK: which roles genuinely train from scratch, what they pay, and which listings to avoid.')
 @section('canonical', url()->current())
 
@@ -16,7 +16,7 @@
             [
                 'title' => 'Roles That Genuinely Train From Scratch',
                 'paragraphs' => [
-                    'Cleaning, warehouse operative work, kitchen and hospitality roles, care assistant positions, retail and customer service all hire without experience and train on the job. These are not consolation prizes — several of them pay above entry-level office work, particularly on night and weekend shifts.',
+                    'Cleaning, warehouse operative work, kitchen and hospitality roles, care assistant positions, retail and customer service all hire without experience and train on the job. These are not consolation prizes: several of them pay above entry-level office work, particularly on night and weekend shifts.',
                     'Security guarding and delivery driving belong here too but need one document first: a licence or guard card for security, a clean driving licence for delivery. Both are obtainable in weeks rather than years.',
                 ],
             ],
@@ -38,7 +38,7 @@
                 'title' => 'How to Tell a Fake Listing',
                 'paragraphs' => [
                     'The tells are consistent: pay far above the market rate for unskilled work, no interview, contact through WhatsApp or Telegram rather than a company email, and at some point a request for money for training, equipment, a starter kit or a background check.',
-                    'No legitimate employer charges you to begin work. Be equally wary of listings that will not name the employer, and of anything offering visa sponsorship for unskilled work — that combination is almost always a fee scam.',
+                    'No legitimate employer charges you to begin work. Be equally wary of listings that will not name the employer, and of anything offering visa sponsorship for unskilled work: that combination is almost always a fee scam.',
                 ],
             ],
         ],

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Become an Auto Mechanic in Australia" — a guide for someone asking
+ * "How to Become an Auto Mechanic in Australia": a guide for someone asking
  * how to qualify as a light vehicle mechanic. The Mechanic Jobs in Saudi Arabia
  * guide covers the Gulf market, and the Visa Sponsorship Jobs in Australia
  * guide covers sponsorship in general, so this one stays on the apprenticeship,
@@ -165,7 +165,7 @@ class AutoMechanicJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, licence requirements and apprenticeship terms are set by each employer, the award and state law &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, licence requirements and apprenticeship terms are set by each employer, the award and state law, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -358,13 +358,13 @@ JOBHTML;
 <p>Comparing trades and routes into work in Australia? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; another licensed trade, and how its apprenticeship and licensing work.</li>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; entry into the building trades and the award pay behind it.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; how employer sponsorship works and which occupation lists apply.</li>
-    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; entry-level roles while you look for an apprenticeship.</li>
-    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a> &mdash; the same trade in the Gulf, under Saudi sponsorship rules.</li>
-    <li><a href="/blog/car-mechanic-jobs-in-australia-uk-and-canada">Car Mechanic Jobs in Australia, UK and Canada</a> &mdash; the same trade compared across three countries.</li>
-    <li><a href="/blog/ev-technician-jobs-training-and-career-guide">EV Technician Jobs: Training and Career Guide</a> &mdash; adding high-voltage skills to a mechanic's trade.</li>
+    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a>: another licensed trade, and how its apprenticeship and licensing work.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: entry into the building trades and the award pay behind it.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>: how employer sponsorship works and which occupation lists apply.</li>
+    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a>: entry-level roles while you look for an apprenticeship.</li>
+    <li><a href="/blog/mechanic-jobs-in-saudi-arabia">Mechanic Jobs in Saudi Arabia</a>: the same trade in the Gulf, under Saudi sponsorship rules.</li>
+    <li><a href="/blog/car-mechanic-jobs-in-australia-uk-and-canada">Car Mechanic Jobs in Australia, UK and Canada</a>: the same trade compared across three countries.</li>
+    <li><a href="/blog/ev-technician-jobs-training-and-career-guide">EV Technician Jobs: Training and Career Guide</a>: adding high-voltage skills to a mechanic's trade.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or migration advice. Award rates, licence rules, apprenticeship terms and occupation lists change over time. Confirm the current position with training.gov.au, the Fair Work Ombudsman, your state's apprenticeship and licensing bodies and the Department of Home Affairs before relying on it.</p>

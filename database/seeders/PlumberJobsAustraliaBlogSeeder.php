@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Plumber Jobs in Australia" — the licensed trade companion to the
+ * "Plumber Jobs in Australia": the licensed trade companion to the
  * construction labouring and office assistant guides. Together those three
  * pages answer a question Australians get wrong constantly: which credential
  * travels between states. The White Card does, a working with children check
@@ -42,7 +42,7 @@ use Illuminate\Support\Str;
  *    travel.
  *
  * 5. It says nothing about work rights, on a site read mostly from outside
- *    Australia — and unlike labouring, this is an occupation where the
+ *    Australia, and unlike labouring, this is an occupation where the
  *    answer is genuinely positive.
  *
  * Both records use updateOrCreate, so re-running is safe; it will overwrite
@@ -141,7 +141,7 @@ class PlumberJobsAustraliaBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>Plumbing contractors, builders, facilities managers and utilities across Australia hire licensed plumbers, gasfitters and drainers for residential, commercial and infrastructure work. It is a licensed trade, which means the qualification is only half the requirement &mdash; the other half is a licence issued by the state you intend to work in.</p>
+<p>Plumbing contractors, builders, facilities managers and utilities across Australia hire licensed plumbers, gasfitters and drainers for residential, commercial and infrastructure work. It is a licensed trade, which means the qualification is only half the requirement: the other half is a licence issued by the state you intend to work in.</p>
 
 <h3>What the work involves</h3>
 <p>Installing and repairing water, waste and drainage systems; fitting fixtures and hot water units; roof and stormwater work; and fault finding on existing installations. Commercial and industrial work adds larger pipework and mechanical services; gasfitting is a separately authorised specialisation on top.</p>
@@ -149,10 +149,10 @@ class PlumberJobsAustraliaBlogSeeder extends Seeder
 <h3>Requirements</h3>
 <ul>
     <li><strong>Certificate III in Plumbing</strong>, completed through an apprenticeship of about four years</li>
-    <li><strong>A plumbing licence from the relevant state or territory authority</strong> &mdash; this is what makes the work lawful, not the certificate alone</li>
+    <li><strong>A plumbing licence from the relevant state or territory authority</strong>: this is what makes the work lawful, not the certificate alone</li>
     <li><strong>White Card</strong> construction induction training for site access, recognised across every state and territory</li>
     <li>Working knowledge of the Plumbing Code of Australia and the relevant standards</li>
-    <li><strong>A separate gasfitting authorisation</strong> for any gas work &mdash; always separate, never bundled</li>
+    <li><strong>A separate gasfitting authorisation</strong> for any gas work: always separate, never bundled</li>
     <li>Physical fitness, fault-finding ability, and a driver's licence for almost every role</li>
 </ul>
 
@@ -166,7 +166,7 @@ class PlumberJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check which state licence the role needs, and whether it includes gas.</strong> Automatic Mutual Recognition lets most licences travel between states, but Queensland sits outside the scheme in both directions and gasfitting classes are exempt from it even where it applies.</p>
 
-<p><strong>Note:</strong> pay, licensing requirements, contract type and any sponsorship decision are set by each employer and by state regulators &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, licensing requirements, contract type and any sponsorship decision are set by each employer and by state regulators, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -186,13 +186,13 @@ JOBHTML;
 <p>Every guide to this trade puts these two lines near each other:</p>
 
 <ul>
-    <li>Qualified plumber, employed &mdash; <strong>$70,000 to $90,000</strong> a year.</li>
-    <li>Self-employed contractor &mdash; <strong>$80 to $150 an hour</strong>.</li>
+    <li>Qualified plumber, employed: <strong>$70,000 to $90,000</strong> a year.</li>
+    <li>Self-employed contractor: <strong>$80 to $150 an hour</strong>.</li>
 </ul>
 
 <p>Read together they say something dramatic. $100 an hour across a 38-hour week and 48 working weeks is $182,400, against $80,000 employed. Nobody says it out loud, but the comparison is doing the work.</p>
 
-<p>It is wrong, and the reason is not that the rate is fake. The rate is real. It is a <strong>charge-out rate</strong> &mdash; what the customer is billed &mdash; and it is not an hourly wage.</p>
+<p>It is wrong, and the reason is not that the rate is fake. The rate is real. It is a <strong>charge-out rate</strong>, what the customer is billed, and it is not an hourly wage.</p>
 
 <p>Four things come out of it before anything reaches you:</p>
 
@@ -204,17 +204,17 @@ JOBHTML;
 
 <p><strong>Every day you do not work.</strong> No annual leave, no sick leave, no public holidays paid.</p>
 
-<p>None of that is an argument against going out on your own &mdash; plenty of plumbers should and do. It is an argument against comparing a charge-out rate with a salary. <strong>Work out your realistic billable hours first</strong>, subtract the costs, and then compare. The honest comparison is usually much closer than the headline, and it turns on how good you are at filling the diary rather than on the rate.</p>
+<p>None of that is an argument against going out on your own: plenty of plumbers should and do. It is an argument against comparing a charge-out rate with a salary. <strong>Work out your realistic billable hours first</strong>, subtract the costs, and then compare. The honest comparison is usually much closer than the headline, and it turns on how good you are at filling the diary rather than on the rate.</p>
 
 <h2>Apprentice Pay Below the Minimum Wage Is Lawful Here</h2>
 
 <p>Apprentice plumbers are quoted at <strong>$45,000 to $60,000</strong> a year. Check the bottom of that against the floor and something looks wrong.</p>
 
-<p>The <strong>National Minimum Wage from 1 July 2026 is $26.44 an hour</strong>, or $1,004.90 a week, which is about <strong>$52,255</strong> across a full-time year. So $45,000 works out at roughly <strong>$22.77 an hour</strong> &mdash; well below it.</p>
+<p>The <strong>National Minimum Wage from 1 July 2026 is $26.44 an hour</strong>, or $1,004.90 a week, which is about <strong>$52,255</strong> across a full-time year. So $45,000 works out at roughly <strong>$22.77 an hour</strong>: well below it.</p>
 
 <p>That is not an error and it is not underpayment. <strong>Award apprentice rates are set as percentages of the qualified tradesperson's rate</strong>, rising each year of the apprenticeship, and they legitimately sit below the national minimum wage in the early years. It is the trade-off at the heart of an apprenticeship: you are paid less because you are being trained, and the qualification at the end is worth considerably more than the difference.</p>
 
-<p>The practical consequence is a specific one. <strong>Do not check your apprentice pay against the national minimum wage &mdash; check it against the award percentage for your year and your qualification stage.</strong> Those percentages step up on anniversaries and on completed training milestones, and an increase you are entitled to does not always arrive by itself. That is the check worth doing every year, and almost nobody does it.</p>
+<p>The practical consequence is a specific one. <strong>Do not check your apprentice pay against the national minimum wage: check it against the award percentage for your year and your qualification stage.</strong> Those percentages step up on anniversaries and on completed training milestones, and an increase you are entitled to does not always arrive by itself. That is the check worth doing every year, and almost nobody does it.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/plumber-jobs-in-australia-licence.jpg"
@@ -222,21 +222,21 @@ JOBHTML;
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
-<h2>Your Licence Travels &mdash; Except to Queensland, and Except for Gas</h2>
+<h2>Your Licence Travels: Except to Queensland, and Except for Gas</h2>
 
 <p>Guides say plumbing is a licensed trade and that you need "a plumbing license, issued by the relevant state or territory licensing authority". True, and it leaves the important question unanswered: what happens when you move?</p>
 
 <p>Australia has <strong>Automatic Mutual Recognition</strong>, a national scheme that lets you use your home state licence to work in other participating states without applying for a second one. For a mobile trade that is genuinely useful. But it has two holes, and they are both in places that matter.</p>
 
-<p><strong>Queensland is outside the scheme, in both directions.</strong> AMR operates in every state and territory except Queensland. A practitioner whose home registration is Queensland cannot use AMR to work elsewhere under it, and practitioners from other states cannot work in Queensland under it either. Given that Queensland is one of the strongest markets in the country for plumbers, this is not a footnote &mdash; if Brisbane or the Gold Coast is your plan, budget for a Queensland licence application rather than assuming your existing one carries.</p>
+<p><strong>Queensland is outside the scheme, in both directions.</strong> AMR operates in every state and territory except Queensland. A practitioner whose home registration is Queensland cannot use AMR to work elsewhere under it, and practitioners from other states cannot work in Queensland under it either. Given that Queensland is one of the strongest markets in the country for plumbers, this is not a footnote: if Brisbane or the Gold Coast is your plan, budget for a Queensland licence application rather than assuming your existing one carries.</p>
 
-<p><strong>Gasfitting classes are exempt from AMR.</strong> Even where AMR applies, the gas-related registration classes &mdash; gasfitting, Type A and Type B work, and several mechanical and fire protection classes &mdash; are carved out of it. So the part of your ticket that earns the most is the part least likely to travel.</p>
+<p><strong>Gasfitting classes are exempt from AMR.</strong> Even where AMR applies, the gas-related registration classes, gasfitting, Type A and Type B work, and several mechanical and fire protection classes, are carved out of it. So the part of your ticket that earns the most is the part least likely to travel.</p>
 
 <p>It is worth seeing this next to the other two Australian credentials covered on this site, because they behave three different ways:</p>
 
 <ul>
-    <li><strong>The White Card is recognised everywhere.</strong> One card, every state and territory &mdash; covered in our <a href="/blog/construction-worker-jobs-in-australia">construction worker jobs in Australia guide</a>.</li>
-    <li><strong>A working with children check does not transfer at all</strong>, and Queensland refuses interstate checks outright &mdash; covered in our <a href="/blog/office-assistant-jobs-in-australia">office assistant jobs in Australia guide</a>.</li>
+    <li><strong>The White Card is recognised everywhere.</strong> One card, every state and territory: covered in our <a href="/blog/construction-worker-jobs-in-australia">construction worker jobs in Australia guide</a>.</li>
+    <li><strong>A working with children check does not transfer at all</strong>, and Queensland refuses interstate checks outright: covered in our <a href="/blog/office-assistant-jobs-in-australia">office assistant jobs in Australia guide</a>.</li>
     <li><strong>A plumbing licence travels under AMR</strong>, with Queensland and gasfitting carved out.</li>
 </ul>
 
@@ -244,7 +244,7 @@ JOBHTML;
 
 <h2>Gasfitting Is Always Separate, Not "Often"</h2>
 
-<p>Guides describe gasfitting as something where "a separate gasfitting license is often required". Drop the "often". Gas work carries its own authorisation, and doing it without one is not a paperwork problem &mdash; it is the kind of unlicensed work that ends careers and, occasionally, worse.</p>
+<p>Guides describe gasfitting as something where "a separate gasfitting license is often required". Drop the "often". Gas work carries its own authorisation, and doing it without one is not a paperwork problem: it is the kind of unlicensed work that ends careers and, occasionally, worse.</p>
 
 <p>Two things follow. Gasfitting is one of the clearest ways to raise your rate inside the trade, because it is a genuinely restricted class rather than a training badge. And it is, as above, the class most likely to need a fresh application when you cross a border. Add it for the earnings, and plan the paperwork if you move.</p>
 
@@ -292,7 +292,7 @@ JOBHTML;
 <ul>
     <li><strong>New South Wales.</strong> The largest market, driven by construction and infrastructure around Sydney.</li>
     <li><strong>Victoria.</strong> Strong residential and commercial volume around Melbourne.</li>
-    <li><strong>Queensland.</strong> Booming housing and population growth &mdash; and the state your interstate licence will not carry you into.</li>
+    <li><strong>Queensland.</strong> Booming housing and population growth, and the state your interstate licence will not carry you into.</li>
     <li><strong>Western Australia.</strong> Resource-linked infrastructure alongside residential construction.</li>
     <li><strong>South Australia.</strong> Steady residential and commercial demand at a much lower cost of living.</li>
     <li><strong>Regional areas.</strong> Often the strongest demand of all, because the shortage bites hardest where there are fewest tradespeople.</li>
@@ -310,7 +310,7 @@ JOBHTML;
 <p>Yes. Award apprentice rates are percentages of the qualified trade rate and lawfully sit below the national minimum wage of $26.44 an hour in the early years. Check your award percentage for your year rather than the minimum wage.</p>
 
 <h3>Does my plumbing licence work in another Australian state?</h3>
-<p>Usually, through Automatic Mutual Recognition &mdash; with two exceptions. Queensland is outside the scheme in both directions, and gasfitting classes are exempt from AMR even where it applies.</p>
+<p>Usually, through Automatic Mutual Recognition, with two exceptions. Queensland is outside the scheme in both directions, and gasfitting classes are exempt from AMR even where it applies.</p>
 
 <h3>Can I work in Queensland on an interstate plumbing licence?</h3>
 <p>Not under Automatic Mutual Recognition. Queensland does not participate, so plan for a Queensland application rather than assuming your existing licence carries.</p>
@@ -322,7 +322,7 @@ JOBHTML;
 <p>Australian advertisements split both ways, so ask. At the 12 per cent guarantee rate it is worth $9,600 on an $80,000 figure.</p>
 
 <h3>Can I migrate to Australia as a plumber?</h3>
-<p>Yes &mdash; unlike general labouring, this is a skilled trade inside the migration framework. It needs a formal skills assessment against the Australian standard, then a visa, then a separate state licence after arrival. The assessment does not license you.</p>
+<p>Yes: unlike general labouring, this is a skilled trade inside the migration framework. It needs a formal skills assessment against the Australian standard, then a visa, then a separate state licence after arrival. The assessment does not license you.</p>
 
 <h2>People Also Search For</h2>
 
@@ -339,7 +339,7 @@ JOBHTML;
 <p>Separately authorised and better paid, and the class most likely to need a fresh application interstate.</p>
 
 <h3>Certificate III in Plumbing</h3>
-<p>The qualification, completed over about four years. It is not the licence &mdash; the state regulator issues that separately.</p>
+<p>The qualification, completed over about four years. It is not the licence: the state regulator issues that separately.</p>
 
 <h3>Self employed plumber hourly rate</h3>
 <p>$80 to $150 charged out. Work out billable hours and costs before comparing it with a salary.</p>
@@ -355,22 +355,22 @@ JOBHTML;
 <p>Comparing trades and routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a> &mdash; the Gulf route, where nobody sets a wage floor and Saudi Arabia tests the trade before the visa.</li>
-    <li><a href="/blog/plumber-salary-in-the-uk-and-usa">Plumber Salary in the UK and USA</a> &mdash; the BLS and ONS figures, and why every other source disagrees.</li>
-    <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a> &mdash; the Red Seal route compared with state licensing here.</li>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; the award floor, the casual loading, and the credential that does travel everywhere.</li>
-    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a> &mdash; the Australian check that does not transfer between states at all.</li>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; the same licensed-trade question under British rules, with a certification deadline attached.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; the same self-employed arithmetic without the qualification barrier.</li>
-    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; European industrial work and what its visa routes really require.</li>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the Canadian route, and which of its two programs your passport allows.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; sponsored trade work in the Gulf.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; a licensed Gulf role, and the licence that only covers one emirate.</li>
-    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; another state-registered occupation in real estate sales, and the entry-level certificate each state names differently.</li>
-    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a> &mdash; where a trade licence attaches to the contractor, not the tradesperson.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; how employer sponsorship actually works, and which occupation list applies.</li>
-    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a> &mdash; the apprenticeship, the AUR30620 qualification, award pay for apprentices and the routes for overseas-trained mechanics.</li>
-    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a> &mdash; the no-experience pathways, what the FutureFit Academy really offers and official pay benchmarks.</li>
+    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a>: the Gulf route, where nobody sets a wage floor and Saudi Arabia tests the trade before the visa.</li>
+    <li><a href="/blog/plumber-salary-in-the-uk-and-usa">Plumber Salary in the UK and USA</a>: the BLS and ONS figures, and why every other source disagrees.</li>
+    <li><a href="/blog/how-to-become-a-licensed-plumber-in-canada-or-australia">How to Become a Licensed Plumber in Canada or Australia</a>: the Red Seal route compared with state licensing here.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: the award floor, the casual loading, and the credential that does travel everywhere.</li>
+    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a>: the Australian check that does not transfer between states at all.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: the same licensed-trade question under British rules, with a certification deadline attached.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: the same self-employed arithmetic without the qualification barrier.</li>
+    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a>: European industrial work and what its visa routes really require.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: the Canadian route, and which of its two programs your passport allows.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: sponsored trade work in the Gulf.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: a licensed Gulf role, and the licence that only covers one emirate.</li>
+    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a>: another state-registered occupation in real estate sales, and the entry-level certificate each state names differently.</li>
+    <li><a href="/blog/carpenter-jobs-in-usa">Carpenter Jobs in USA</a>: where a trade licence attaches to the contractor, not the tradesperson.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>: how employer sponsorship actually works, and which occupation list applies.</li>
+    <li><a href="/blog/how-to-become-an-auto-mechanic-in-australia">How to Become an Auto Mechanic in Australia</a>: the apprenticeship, the AUR30620 qualification, award pay for apprentices and the routes for overseas-trained mechanics.</li>
+    <li><a href="/blog/how-to-apply-for-bhp-mining-jobs-in-australia">How to Apply for BHP Mining Jobs in Australia</a>: the no-experience pathways, what the FutureFit Academy really offers and official pay benchmarks.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, migration or financial advice. Award rates, licensing rules, mutual recognition arrangements and visa requirements change, and pay figures on any job board are a moving average rather than a statistic. Confirm the current position with the Fair Work Ombudsman, your state plumbing regulator and the employer's own advertisement before applying.</p>

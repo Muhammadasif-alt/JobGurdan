@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Data Entry Jobs in Pakistan" — the domestic market: office roles, the
+ * "Data Entry Jobs in Pakistan": the domestic market: office roles, the
  * government grades and the city picture. The remote, freelance and scam
  * side belongs to the existing Remote Data Entry Jobs post, which this one
  * links to instead of repeating.
@@ -153,7 +153,7 @@ class DataEntryJobsPakistanBlogSeeder extends Seeder
 <h3>Requirements</h3>
 <ul>
     <li>Matric or Intermediate for most entry-level and government posts; a bachelor's degree opens supervisory and specialised roles</li>
-    <li>Typing speed with accuracy &mdash; government advertisements commonly specify a minimum, and the practical test is separate from the written paper</li>
+    <li>Typing speed with accuracy: government advertisements commonly specify a minimum, and the practical test is separate from the written paper</li>
     <li>MS Word, MS Excel and Google Sheets as a baseline; ERP or database experience is a strong advantage</li>
     <li>English and Urdu literacy; strong written English for BPO work serving international clients</li>
     <li>CNIC, CV, educational certificates, photographs and experience letters where applicable</li>
@@ -169,14 +169,14 @@ class DataEntryJobsPakistanBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>For a government post, check the grade in the advertisement and treat basic pay and gross salary as different numbers.</strong> For a private post, ask whether the role is day shift or night shift before comparing it with anything, because that difference is worth more than one year of experience.</p>
 
-<p><strong>Note:</strong> pay, grade, shift pattern and test requirements are set by each employer and department &mdash; not by JobGader. Legitimate employers never charge a registration or training fee. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, grade, shift pattern and test requirements are set by each employer and department, not by JobGader. Legitimate employers never charge a registration or training fee. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Data entry is one of the few jobs in Pakistan genuinely open to a fresh Intermediate graduate, a student, or someone returning to work after a break. It also has the most confused salary reporting of any role on the market, and the confusion is not random &mdash; it comes from three different pay systems being averaged together as though they were one.</p>
+<p>Data entry is one of the few jobs in Pakistan genuinely open to a fresh Intermediate graduate, a student, or someone returning to work after a break. It also has the most confused salary reporting of any role on the market, and the confusion is not random: it comes from three different pay systems being averaged together as though they were one.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/customer-support-admin?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -200,7 +200,7 @@ JOBHTML;
 
 <p>This is the most consequential misunderstanding in this whole subject, and it is a structural feature of the BPS system rather than anyone's mistake.</p>
 
-<p>A Basic Pay Scale figure is <strong>basic pay</strong>. What reaches you is basic pay <em>plus</em> allowances &mdash; house rent, conveyance, medical, and whatever ad hoc relief allowances are in force. Those allowances are a substantial share of a junior government salary. So a guide quoting <strong>"PKR 35,000&ndash;55,000 (fixed grade)"</strong> is describing one of two very different things and does not say which.</p>
+<p>A Basic Pay Scale figure is <strong>basic pay</strong>. What reaches you is basic pay <em>plus</em> allowances: house rent, conveyance, medical, and whatever ad hoc relief allowances are in force. Those allowances are a substantial share of a junior government salary. So a guide quoting <strong>"PKR 35,000&ndash;55,000 (fixed grade)"</strong> is describing one of two very different things and does not say which.</p>
 
 <p>There is a second reason to be careful right now, and it is specific to 2026.</p>
 
@@ -218,9 +218,9 @@ JOBHTML;
 
 <p>Guides fix the Data Entry Operator post at BPS-11 or BPS-12. In practice it is advertised <strong>anywhere from BPS-11 to BPS-14</strong>, and which one it is depends on the department rather than on the duties, which are much the same everywhere.</p>
 
-<p>Since pay is entirely determined by grade in this system, <strong>the grade in the advertisement is the salary</strong>. Three grades of difference on the same job description is a large gap in both starting pay and where the scale eventually takes you. Read the grade first and the duties second &mdash; the reverse of how you would read a private advertisement.</p>
+<p>Since pay is entirely determined by grade in this system, <strong>the grade in the advertisement is the salary</strong>. Three grades of difference on the same job description is a large gap in both starting pay and where the scale eventually takes you. Read the grade first and the duties second: the reverse of how you would read a private advertisement.</p>
 
-<p>One more correction worth having. Guides list the Federal Public Service Commission alongside NTS, PTS and OTS as though all four were places where data entry vacancies appear. They are different kinds of body. Most Data Entry Operator posts are <strong>advertised by the hiring department itself</strong> &mdash; a police department, a provincial authority, a federal organisation &mdash; and then <strong>tested by a testing service</strong> engaged for that recruitment. Watching a single commission's website and waiting is a common way to miss the advertisements entirely. Watch the departments, the newspapers and the testing services together.</p>
+<p>One more correction worth having. Guides list the Federal Public Service Commission alongside NTS, PTS and OTS as though all four were places where data entry vacancies appear. They are different kinds of body. Most Data Entry Operator posts are <strong>advertised by the hiring department itself</strong>, a police department, a provincial authority, a federal organisation, and then <strong>tested by a testing service</strong> engaged for that recruitment. Watching a single commission's website and waiting is a common way to miss the advertisements entirely. Watch the departments, the newspapers and the testing services together.</p>
 
 <h2>The Test That Actually Decides It</h2>
 
@@ -228,7 +228,7 @@ JOBHTML;
 
 <p>There are generally <strong>two separate hurdles</strong>: a written paper of multiple-choice questions covering general knowledge, English, mathematics and basic computer literacy, and a <strong>practical typing and computer test</strong>. The practical test is normally <strong>pass or fail on its own</strong>. Clearing the written paper does not carry you through it, and a strong written score does not compensate for missing the typing threshold.</p>
 
-<p>Candidates prepare for the MCQs because past papers are everywhere and typing practice is boring. It is the wrong way round. <strong>Practise typing to the advertised speed, in the language the test is set in, with accuracy measured</strong> &mdash; and do it before the advertisement appears, because the gap between advertisement and test date is rarely long enough to build speed from scratch.</p>
+<p>Candidates prepare for the MCQs because past papers are everywhere and typing practice is boring. It is the wrong way round. <strong>Practise typing to the advertised speed, in the language the test is set in, with accuracy measured</strong>, and do it before the advertisement appears, because the gap between advertisement and test date is rarely long enough to build speed from scratch.</p>
 
 <h2>The Freelance Range That Is Not a Range</h2>
 
@@ -236,7 +236,7 @@ JOBHTML;
 
 <p>That is an <strong>eightfold spread</strong>. A number and another number eight times larger, presented as one band, is not a measurement of anything. The bottom is somebody doing occasional small tasks; the top is somebody running a small operation with international clients, English proficiency and years of platform reputation behind them. They share a job title and nothing else.</p>
 
-<p>Treat the top of that range as a description of a business rather than a job, and plan for the bottom of it while you build towards the middle. The freelance and remote side of this work &mdash; how the platforms actually work, and how the fake postings are structured &mdash; is covered properly in our <a href="/blog/remote-data-entry-jobs">remote data entry jobs guide</a>, so this page does not repeat it.</p>
+<p>Treat the top of that range as a description of a business rather than a job, and plan for the bottom of it while you build towards the middle. The freelance and remote side of this work, how the platforms actually work, and how the fake postings are structured, is covered properly in our <a href="/blog/remote-data-entry-jobs">remote data entry jobs guide</a>, so this page does not repeat it.</p>
 
 <h2>The Bonus Figure, Priced</h2>
 
@@ -250,7 +250,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Lahore.</strong> The highest volume of hiring, concentrated in Gulberg, DHA and Johar Town, across logistics, textiles and BPO. Genuinely open to fresh graduates.</li>
-    <li><strong>Karachi.</strong> The widest range of sectors &mdash; healthcare, manufacturing, clearing agents, IT &mdash; and the most ERP and warehouse records work, which pays above general office entry.</li>
+    <li><strong>Karachi.</strong> The widest range of sectors, healthcare, manufacturing, clearing agents, IT, and the most ERP and warehouse records work, which pays above general office entry.</li>
     <li><strong>Islamabad and Rawalpindi.</strong> Government posts, NGOs and international organisations. The international organisation roles are the ones that pay well above local market, and they are also the most competitive.</li>
     <li><strong>Faisalabad, Multan, Sialkot, Peshawar, Gujranwala, Quetta, Hyderabad.</strong> Manufacturing, textiles and regional government. Lower nominal pay, and a much lower cost of living against it.</li>
 </ul>
@@ -259,9 +259,9 @@ JOBHTML;
 
 <h2>A Note on Where This Occupation Is Going</h2>
 
-<p>Worth knowing, because it cuts the opposite way from the English-language guides you will read. In the United States, data entry is a <a href="/blog/data-entry-jobs-in-usa">sharply declining occupation</a> &mdash; the federal projection is a fall of about a quarter over the decade to 2034, as automation absorbs straightforward transcription.</p>
+<p>Worth knowing, because it cuts the opposite way from the English-language guides you will read. In the United States, data entry is a <a href="/blog/data-entry-jobs-in-usa">sharply declining occupation</a>: the federal projection is a fall of about a quarter over the decade to 2034, as automation absorbs straightforward transcription.</p>
 
-<p>Pakistan sits on the other side of that same trend. A large share of this work is offshored here precisely because it is cost-sensitive, so the domestic market for it has held up while the American one contracts. That is good news for finding a job now, and it is not a reason to be complacent: the automation reaching American desks reaches offshore desks too, just later. The durable skills are the same everywhere &mdash; verification, exception handling, Excel done properly, and domain knowledge in records that carry rules.</p>
+<p>Pakistan sits on the other side of that same trend. A large share of this work is offshored here precisely because it is cost-sensitive, so the domestic market for it has held up while the American one contracts. That is good news for finding a job now, and it is not a reason to be complacent: the automation reaching American desks reaches offshore desks too, just later. The durable skills are the same everywhere: verification, exception handling, Excel done properly, and domain knowledge in records that carry rules.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -320,20 +320,20 @@ JOBHTML;
 <p>Looking at other routes from Pakistan? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; the freelance and remote half of this work, and how the fake postings are built.</li>
-    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; the same occupation where it is shrinking, and why that matters here.</li>
-    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; the natural step up, paid in foreign currency.</li>
-    <li><a href="/blog/online-jobs-without-investment-in-pakistan">Online Jobs Without Investment in Pakistan</a> &mdash; the honest version of the work-from-home question.</li>
-    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; how the grades, tests and advertisements work across the public sector.</li>
-    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a> &mdash; the wider entry-level private market.</li>
-    <li><a href="/blog/personal-care-assistant-jobs-in-pakistan">Personal Care Assistant Jobs in Pakistan</a> &mdash; entry-level work away from a desk, and the written terms a household owes you.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; remote routes that do not require a track record.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; a Gulf route with visa and accommodation, and what to check in the package.</li>
-    <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a> &mdash; another degree-level entry route, and the teaching qualification that no longer exists.</li>
-    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a> &mdash; where accounting skills travel, and the home tax residence rules that follow you.</li>
-    <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a> &mdash; the online and freelance side, what transcription really pays and the scam red flags.</li>
-    <li><a href="/blog/call-center-jobs-in-pakistan">Call Center Jobs in Pakistan</a> &mdash; inbound vs outbound, real pay by city, and how to avoid scams.</li>
-    <li><a href="/blog/home-healthcare-assistant-jobs-in-pakistan">Home Healthcare Assistant Jobs in Pakistan</a> &mdash; patient care work for candidates who would rather not sit at a screen.</li>
+    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a>: the freelance and remote half of this work, and how the fake postings are built.</li>
+    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a>: the same occupation where it is shrinking, and why that matters here.</li>
+    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a>: the natural step up, paid in foreign currency.</li>
+    <li><a href="/blog/online-jobs-without-investment-in-pakistan">Online Jobs Without Investment in Pakistan</a>: the honest version of the work-from-home question.</li>
+    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a>: how the grades, tests and advertisements work across the public sector.</li>
+    <li><a href="/blog/private-jobs-in-pakistan-for-fresh-graduates">Private Jobs in Pakistan for Fresh Graduates</a>: the wider entry-level private market.</li>
+    <li><a href="/blog/personal-care-assistant-jobs-in-pakistan">Personal Care Assistant Jobs in Pakistan</a>: entry-level work away from a desk, and the written terms a household owes you.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: remote routes that do not require a track record.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: a Gulf route with visa and accommodation, and what to check in the package.</li>
+    <li><a href="/blog/teacher-jobs-in-pakistan">Teacher Jobs in Pakistan</a>: another degree-level entry route, and the teaching qualification that no longer exists.</li>
+    <li><a href="/blog/accountant-jobs-in-uae">Accountant Jobs in UAE</a>: where accounting skills travel, and the home tax residence rules that follow you.</li>
+    <li><a href="/blog/online-data-entry-jobs">Online Data Entry Jobs</a>: the online and freelance side, what transcription really pays and the scam red flags.</li>
+    <li><a href="/blog/call-center-jobs-in-pakistan">Call Center Jobs in Pakistan</a>: inbound vs outbound, real pay by city, and how to avoid scams.</li>
+    <li><a href="/blog/home-healthcare-assistant-jobs-in-pakistan">Home Healthcare Assistant Jobs in Pakistan</a>: patient care work for candidates who would rather not sit at a screen.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, financial or legal advice. Pay scales, allowances, recruitment procedures and test requirements change, and salary figures on any job portal are a moving average rather than a statistic. Confirm the current position with the hiring department's own advertisement, the relevant testing service and the Finance Division's notified pay scales before applying or paying for any course.</p>

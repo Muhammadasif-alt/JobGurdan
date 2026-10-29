@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'IT Jobs — Support, Infrastructure and Cloud | JobGader')
+@section('title', 'IT Jobs: Support, Infrastructure and Cloud | JobGader')
 @section('meta_description', 'IT jobs across '.$coverage->shortList().': support, systems, networking and cloud roles, what each pays, and the certifications worth having.')
-@section('og_title', 'IT Jobs — Support, Infrastructure and Cloud | JobGader')
+@section('og_title', 'IT Jobs: Support, Infrastructure and Cloud | JobGader')
 @section('og_description', 'IT jobs across '.$coverage->shortList().': support, systems, networking and cloud roles, what each pays, and the certifications worth having.')
 @section('canonical', url()->current())
 
@@ -30,7 +30,7 @@
             [
                 'title' => 'The Service Desk Is Not a Dead End',
                 'paragraphs' => [
-                    'Most infrastructure and cloud engineers started on a service desk, and hiring managers know it. What separates the people who move on is documenting what they fixed and automating what they repeated — a support engineer who writes PowerShell or Bash scripts to close tickets is already halfway to the next role.',
+                    'Most infrastructure and cloud engineers started on a service desk, and hiring managers know it. What separates the people who move on is documenting what they fixed and automating what they repeated: a support engineer who writes PowerShell or Bash scripts to close tickets is already halfway to the next role.',
                     'Ticketing systems, Active Directory, Microsoft 365 administration and basic networking are the four areas that show up in nearly every progression job spec. Being demonstrably solid on those beats being vaguely familiar with ten technologies.',
                 ],
             ],

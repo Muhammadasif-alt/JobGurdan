@@ -166,7 +166,7 @@
     <div class="container">
         <span class="scholar-eyebrow" data-aos="fade-down" data-aos-duration="600">{{ $isFiltered ? 'Search Results' : 'Scholarships' }}</span>
         <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Scholarships to <span class="accent">Study Abroad</span></h1>
-        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">Each scholarship explained in plain English &mdash; what it pays, who can apply, the deadlines and the exact steps &mdash; with a link to apply on the official page.</p>
+        <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">Each scholarship explained in plain English, what it pays, who can apply, the deadlines and the exact steps, with a link to apply on the official page.</p>
         <div class="scholar-hero-stats">
             <div>
                 <strong>{{ number_format($totalScholarships) }}</strong>

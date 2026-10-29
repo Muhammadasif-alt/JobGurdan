@@ -149,7 +149,7 @@ class ContactListBuildingJobsBlogSeeder extends Seeder
 <h3>The question that protects you</h3>
 <p>Ask whose account and whose tooling the extraction runs on. Where an employer expects bulk export from a platform whose terms prohibit it, the restriction falls on the account that did it. If that is your personal profile, the cost of the job is your profile.</p>
 
-<p>Requirements, quotas and pay are set by individual employers &mdash; not by JobGader. Never pay anyone to secure a job, and never publish a client's contact data in a portfolio.</p>
+<p>Requirements, quotas and pay are set by individual employers, not by JobGader. Never pay anyone to secure a job, and never publish a client's contact data in a portfolio.</p>
 JOBHTML;
     }
 
@@ -245,7 +245,7 @@ JOBHTML;
 
 <p><strong>One thing worth knowing if you do sign up.</strong> Apollo publishes two separate numbers for free accounts: the credits your plan grants, and a much higher fair-use ceiling that applies only to accounts registered on a verified corporate domain. An account opened with a personal Gmail address sits under the lower ceiling. That is not a workaround for the maths above, but it does explain why some people online report free allowances far larger than the ones you will see, and it is a reason to register with a work domain if you have one.</p>
 
-<p>The employer's premise &mdash; 500 to 1,000 verified contacts daily on mostly free tools &mdash; is not difficult. It is <strong>arithmetically impossible</strong>. Any article that repeats it as achievable is setting readers up to fail a target, and then to blame themselves.</p>
+<p>The employer's premise, 500 to 1,000 verified contacts daily on mostly free tools, is not difficult. It is <strong>arithmetically impossible</strong>. Any article that repeats it as achievable is setting readers up to fail a target, and then to blame themselves.</p>
 
 <h2>The Export Is Blocked Before the Credits Even Run Out</h2>
 
@@ -317,7 +317,7 @@ JOBHTML;
     <li><strong>"It is only business data" is not correct either.</strong> The UK regulator states directly that <em>"if you can identify an individual either directly or indirectly it will constitute personal data even if they are acting in their business capacity"</em>, and that <em>"a name and a corporate email address clearly relates to a particular individual and is therefore personal data"</em>.</li>
 </ul>
 
-<p>There is also a specific obligation that falls on exactly this work. Where personal data is collected from somewhere other than the person themselves &mdash; which is what a prospect list is &mdash; the regulator requires that the person be told, including <strong>the source of the data</strong>, <em>"within a reasonable period of obtaining the personal data and no later than one month"</em>, or at the latest when they are first contacted.</p>
+<p>There is also a specific obligation that falls on exactly this work. Where personal data is collected from somewhere other than the person themselves, which is what a prospect list is, the regulator requires that the person be told, including <strong>the source of the data</strong>, <em>"within a reasonable period of obtaining the personal data and no later than one month"</em>, or at the latest when they are first contacted.</p>
 
 <p>That duty sits with your client, not with you. But it is the reason a source column against every record is not bureaucracy: a client who cannot say where a record came from cannot comply, and the regulator that fined Kaspr specifically found it could not answer that question. Keeping the column is you doing your job properly and protecting the person who hired you at the same time.</p>
 
@@ -463,12 +463,12 @@ JOBHTML;
 <h2>More Job Guides</h2>
 
 <ul>
-    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a> &mdash; the research craft behind the list, and why a verified email often is not.</li>
-    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a> &mdash; what these roles pay in Pakistan, and the outreach rules once you start sending.</li>
-    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a> &mdash; the titles that surface vacancies, and the tools that get accounts restricted.</li>
-    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; the adjacent role, and how to spot a scam listing.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; realistic entry points and what they pay.</li>
-    <li><a href="/blog/online-research-assistant-jobs">Online Research Assistant Jobs</a> &mdash; the wider research job market, and the advert pattern to refuse.</li>
+    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a>: the research craft behind the list, and why a verified email often is not.</li>
+    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a>: what these roles pay in Pakistan, and the outreach rules once you start sending.</li>
+    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a>: the titles that surface vacancies, and the tools that get accounts restricted.</li>
+    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a>: the adjacent role, and how to spot a scam listing.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: realistic entry points and what they pay.</li>
+    <li><a href="/blog/online-research-assistant-jobs">Online Research Assistant Jobs</a>: the wider research job market, and the advert pattern to refuse.</li>
 </ul>
 HTML;
     }

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Online Data Entry Jobs" — a sector guide rather than one vacancy, so the
+ * "Online Data Entry Jobs": a sector guide rather than one vacancy, so the
  * apply link goes to an Indeed search and the post carries no JobPosting markup.
  * It is the scam-aware beginner hub; the US pay deep-dive lives in the data
  * entry USA guide, the Pakistan grades in that guide, and the remote framing in
@@ -142,7 +142,7 @@ class OnlineDataEntryJobsBlogSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>Companies across healthcare, finance, e-commerce and research, and freelance platforms worldwide, hire online data entry workers to input, clean and organise information remotely &mdash; as employees, part-timers or project-based freelancers.</p>
+<p>Companies across healthcare, finance, e-commerce and research, and freelance platforms worldwide, hire online data entry workers to input, clean and organise information remotely: as employees, part-timers or project-based freelancers.</p>
 
 <h3>What the work involves</h3>
 <p>Entering data into spreadsheets, databases and company systems; transcription; product-listing updates; survey and research entry; and reviewing and correcting existing datasets for accuracy.</p>
@@ -150,7 +150,7 @@ class OnlineDataEntryJobsBlogSeeder extends Seeder
 <h3>Requirements</h3>
 <ul>
     <li>A high school diploma or equivalent; formal education requirements are minimal</li>
-    <li>Typing speed and accuracy &mdash; commonly 40 to 60 words a minute with 95%+ accuracy</li>
+    <li>Typing speed and accuracy: commonly 40 to 60 words a minute with 95%+ accuracy</li>
     <li>Comfort with Excel or Google Sheets and basic database tools</li>
     <li>Confidentiality for roles handling personal, financial or medical data</li>
 </ul>
@@ -162,16 +162,16 @@ class OnlineDataEntryJobsBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Never pay to get a job.</strong> Legitimate employers do not charge for kits, training or placement. Confirm the pay structure &mdash; hourly, salaried or per-piece &mdash; before you start.</p>
+<p><strong>Never pay to get a job.</strong> Legitimate employers do not charge for kits, training or placement. Confirm the pay structure, hourly, salaried or per-piece, before you start.</p>
 
-<p><strong>Note:</strong> pay, terms and requirements are set by each employer &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, terms and requirements are set by each employer, not by JobGader. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Online data entry is one of the easiest remote jobs to start &mdash; minimal qualifications, work from anywhere, flexible hours. It is also one of the most misrepresented, in two directions: guides oversell how much it pays and how secure it is, and scammers use the "data entry" label more than almost any other to trap beginners. This guide is the honest version: what the work really is, what it really pays, why the field is shrinking, and exactly how to tell a real job from a scam.</p>
+<p>Online data entry is one of the easiest remote jobs to start: minimal qualifications, work from anywhere, flexible hours. It is also one of the most misrepresented, in two directions: guides oversell how much it pays and how secure it is, and scammers use the "data entry" label more than almost any other to trap beginners. This guide is the honest version: what the work really is, what it really pays, why the field is shrinking, and exactly how to tell a real job from a scam.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/customer-support-admin?location=Remote" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1f3a8a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -188,21 +188,21 @@ JOBHTML;
     <li><strong>Word Processors and Typists (43-9022): down 36.1%</strong> over the same period.</li>
 </ul>
 
-<p>Both sit on the BLS list of the fastest-declining occupations, and the cause is exactly what you would expect &mdash; OCR, automation and AI now do much of the routine keying. That does not make data entry worthless: it is genuine, accessible income, and the almost 9,500 openings a year (from people leaving the field) are real. But treat it as <strong>short-term income or a bridge to more durable skills</strong>, not a career you expect to grow into.</p>
+<p>Both sit on the BLS list of the fastest-declining occupations, and the cause is exactly what you would expect: OCR, automation and AI now do much of the routine keying. That does not make data entry worthless: it is genuine, accessible income, and the almost 9,500 openings a year (from people leaving the field) are real. But treat it as <strong>short-term income or a bridge to more durable skills</strong>, not a career you expect to grow into.</p>
 
 <h2>Types of Online Data Entry Work</h2>
 
 <ul>
-    <li><strong>General data entry clerk</strong> &mdash; inputting into spreadsheets, databases and company systems</li>
-    <li><strong>Transcription</strong> &mdash; converting audio or video to text</li>
-    <li><strong>Medical records entry</strong> &mdash; patient data, often needing medical terminology</li>
-    <li><strong>E-commerce product listing</strong> &mdash; uploading and updating product details and pricing</li>
-    <li><strong>Survey and market research entry</strong> &mdash; recording and organising responses</li>
-    <li><strong>Virtual assistant data tasks</strong> &mdash; entry plus scheduling and email support</li>
-    <li><strong>Data cleaning and validation</strong> &mdash; reviewing and correcting existing datasets</li>
+    <li><strong>General data entry clerk</strong>: inputting into spreadsheets, databases and company systems</li>
+    <li><strong>Transcription</strong>: converting audio or video to text</li>
+    <li><strong>Medical records entry</strong>: patient data, often needing medical terminology</li>
+    <li><strong>E-commerce product listing</strong>: uploading and updating product details and pricing</li>
+    <li><strong>Survey and market research entry</strong>: recording and organising responses</li>
+    <li><strong>Virtual assistant data tasks</strong>: entry plus scheduling and email support</li>
+    <li><strong>Data cleaning and validation</strong>: reviewing and correcting existing datasets</li>
 </ul>
 
-<p>Some roles are ongoing employee positions with one company; others are freelance or project-based &mdash; more flexible, less predictable.</p>
+<p>Some roles are ongoing employee positions with one company; others are freelance or project-based: more flexible, less predictable.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/online-data-entry-jobs-tools.jpg"
@@ -213,9 +213,9 @@ JOBHTML;
 <h2>Skills You Actually Need</h2>
 
 <ul>
-    <li><strong>Typing speed and accuracy.</strong> Average adult speed is about 40 words a minute; data entry postings usually want 40 to 60, and competitive roles 60 to 80+. Accuracy matters more than raw speed &mdash; employers expect 95% and up.</li>
+    <li><strong>Typing speed and accuracy.</strong> Average adult speed is about 40 words a minute; data entry postings usually want 40 to 60, and competitive roles 60 to 80+. Accuracy matters more than raw speed: employers expect 95% and up.</li>
     <li><strong>Attention to detail,</strong> especially in healthcare and finance where an error is costly.</li>
-    <li><strong>Basic computer literacy</strong> &mdash; Excel or Google Sheets and simple databases.</li>
+    <li><strong>Basic computer literacy</strong>: Excel or Google Sheets and simple databases.</li>
     <li><strong>Time management</strong> for freelance deadlines.</li>
     <li><strong>Confidentiality</strong> for sensitive personal, financial or medical data.</li>
 </ul>
@@ -246,12 +246,12 @@ JOBHTML;
 <ul>
     <li><strong>The full-time median is $41,340,</strong> so a quoted salary that stops at $40,000 sits just below the middle of the occupation.</li>
     <li><strong>$13 an hour is below the floor.</strong> The BLS 10th percentile is $15.00, so a realistic entry rate starts nearer $15, not $13.</li>
-    <li><strong>Specialised entry pays more</strong> &mdash; medical, legal and financial roles cluster from the median up toward the $28.26 top-tenth rate.</li>
+    <li><strong>Specialised entry pays more</strong>: medical, legal and financial roles cluster from the median up toward the $28.26 top-tenth rate.</li>
 </ul>
 
 <h3>Transcription: read the "per audio minute" trap</h3>
 
-<p>Freelance transcription is paid <strong>per audio minute</strong>, and a paid audio minute is not a worked minute &mdash; a beginner takes roughly four working hours to finish one hour of audio. The platforms' own published rates:</p>
+<p>Freelance transcription is paid <strong>per audio minute</strong>, and a paid audio minute is not a worked minute: a beginner takes roughly four working hours to finish one hour of audio. The platforms' own published rates:</p>
 
 <div style="overflow-x:auto;margin:24px 0;">
 <table style="width:100%;border-collapse:collapse;font-size:15px;">
@@ -270,7 +270,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>So the common "$0.50 to $1.50 per audio minute" is a ceiling, not a floor. At Rev's $0.40 a minute, one audio hour pays about $24 &mdash; but takes about four hours to do, so it is nearer <strong>$6 an actual hour</strong> for a beginner. Rates rise with speed and with legal or rare-language work.</p>
+<p>So the common "$0.50 to $1.50 per audio minute" is a ceiling, not a floor. At Rev's $0.40 a minute, one audio hour pays about $24, but takes about four hours to do, so it is nearer <strong>$6 an actual hour</strong> for a beginner. Rates rise with speed and with legal or rare-language work.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/online-data-entry-jobs-desk.jpg"
@@ -284,11 +284,11 @@ JOBHTML;
 
 <ul>
     <li><strong>Any upfront payment</strong> for "starter kits", training, software or a certification. This is the number-one tell.</li>
-    <li><strong>Pay that is too good for the work</strong> &mdash; high money for simple tasks and no real interview.</li>
+    <li><strong>Pay that is too good for the work</strong>: high money for simple tasks and no real interview.</li>
     <li><strong>A cheque you must deposit and partly send back.</strong> This is the fake-cheque scam; the cheque bounces after your money has gone.</li>
-    <li><strong>Being asked to receive and reship packages,</strong> or to move money &mdash; that is a reshipping or money-mule operation, and it is a crime.</li>
+    <li><strong>Being asked to receive and reship packages,</strong> or to move money: that is a reshipping or money-mule operation, and it is a crime.</li>
     <li><strong>Requests for bank or ID details</strong> very early, before any real hiring.</li>
-    <li><strong>No verifiable company</strong> &mdash; vague description, no real online presence, contact only by chat app.</li>
+    <li><strong>No verifiable company</strong>: vague description, no real online presence, contact only by chat app.</li>
 </ul>
 
 <p>A legitimate employer has a verifiable presence, a clear application process, and never asks a candidate for money. If in doubt, walk away and report it to the FTC at reportfraud.ftc.gov.</p>
@@ -307,7 +307,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Test and state your typing speed;</strong> free tools measure words a minute and accuracy.</li>
-    <li><strong>List your software</strong> &mdash; Excel, Google Sheets, any specific systems.</li>
+    <li><strong>List your software</strong>: Excel, Google Sheets, any specific systems.</li>
     <li><strong>Emphasise reliability</strong> and a record of meeting deadlines.</li>
     <li><strong>Start on reputable platforms</strong> to cut the scam risk.</li>
     <li><strong>Be clear on availability</strong> and turnaround times.</li>
@@ -319,9 +319,9 @@ JOBHTML;
 
 <ul>
     <li><strong>Senior data entry specialist or team lead.</strong></li>
-    <li><strong>Data analyst</strong> &mdash; with training in spreadsheets, SQL and analytics tools.</li>
+    <li><strong>Data analyst</strong>, with training in spreadsheets, SQL and analytics tools.</li>
     <li><strong>Administrative or virtual assistant.</strong></li>
-    <li><strong>Database administrator</strong> &mdash; with further technical training.</li>
+    <li><strong>Database administrator</strong>, with further technical training.</li>
     <li><strong>Operations or office coordinator.</strong></li>
 </ul>
 
@@ -342,7 +342,7 @@ JOBHTML;
 <p>Usually 40 to 60 words a minute, with competitive roles wanting 60 to 80+. Accuracy of 95% or higher matters more than raw speed.</p>
 
 <h3>How much does online transcription pay?</h3>
-<p>Per audio minute: Rev from $0.40, GoTranscript up to $1.75, TranscribeMe about $0.25 and Scribie about $0.10. Because an audio hour takes roughly four working hours, the real hourly pay for beginners is low &mdash; often around $6.</p>
+<p>Per audio minute: Rev from $0.40, GoTranscript up to $1.75, TranscribeMe about $0.25 and Scribie about $0.10. Because an audio hour takes roughly four working hours, the real hourly pay for beginners is low, often around $6.</p>
 
 <h3>Do I need to pay for training or a starter kit?</h3>
 <p>No, and being asked to is the clearest sign of a scam. Honest employers never charge candidates for kits, training or placement.</p>
@@ -384,12 +384,12 @@ JOBHTML;
 <p>Comparing remote and entry-level options? These cover the detail:</p>
 
 <ul>
-    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; the full BLS pay picture and the automation projection, in depth.</li>
-    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; the remote framing, who can be hired and the scam data.</li>
-    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a> &mdash; the government grades and the basic-versus-gross pay reading.</li>
-    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a> &mdash; the wider remote market and its real pay floors.</li>
-    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a> &mdash; what the work really pays after platform fees, and how to start without paying for a job.</li>
-    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a> &mdash; the real BLS medians and why this group of occupations is shrinking.</li>
+    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a>: the full BLS pay picture and the automation projection, in depth.</li>
+    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a>: the remote framing, who can be hired and the scam data.</li>
+    <li><a href="/blog/data-entry-jobs-in-pakistan">Data Entry Jobs in Pakistan</a>: the government grades and the basic-versus-gross pay reading.</li>
+    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a>: the wider remote market and its real pay floors.</li>
+    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a>: what the work really pays after platform fees, and how to start without paying for a job.</li>
+    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a>: the real BLS medians and why this group of occupations is shrinking.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers advice. Pay figures are BLS OEWS May 2025 and platform-published rates and change over time; projections are BLS 2024-34. Confirm the current details with the employer and official sources, and never pay to get a job.</p>

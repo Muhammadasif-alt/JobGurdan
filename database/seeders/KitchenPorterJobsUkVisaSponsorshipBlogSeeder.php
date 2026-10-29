@@ -277,9 +277,9 @@ JOBHTML,
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/kitchen-porter-salary-uk-2026">Kitchen Porter Salary in the UK (2026)</a> &mdash; pay, tax and PKR examples.</li>
-    <li><a href="/blog/how-to-get-cleaner-job-uk-from-pakistan-2026">How to Get a Cleaner Job in the UK From Pakistan (2026)</a> &mdash; the same legal routes step by step.</li>
-    <li><a href="/blog/hotel-housekeeper-jobs-usa-visa-sponsorship-2026">Hotel Housekeeper Jobs in the USA With Visa Sponsorship (2026)</a> &mdash; the US route for comparison.</li>
+    <li><a href="/blog/kitchen-porter-salary-uk-2026">Kitchen Porter Salary in the UK (2026)</a>: pay, tax and PKR examples.</li>
+    <li><a href="/blog/how-to-get-cleaner-job-uk-from-pakistan-2026">How to Get a Cleaner Job in the UK From Pakistan (2026)</a>: the same legal routes step by step.</li>
+    <li><a href="/blog/hotel-housekeeper-jobs-usa-visa-sponsorship-2026">Hotel Housekeeper Jobs in the USA With Visa Sponsorship (2026)</a>: the US route for comparison.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Rules were checked against GOV.UK on 9 October 2026 and change often, so confirm them on GOV.UK before you act or pay anyone.</p>

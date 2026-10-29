@@ -1,5 +1,5 @@
 @extends('user.layouts.master')
-@section('title', 'Privacy Policy — JobGader')
+@section('title', 'Privacy Policy: JobGader')
 @section('meta_description', 'Read the JobGader Privacy Policy describing how we collect, use, share and protect your information, your rights, and our cookie practices.')
 @section('content')
 

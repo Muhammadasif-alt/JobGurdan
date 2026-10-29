@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Nurse Jobs in Saudi Arabia" — hospital nursing for foreign-trained nurses.
+ * "Nurse Jobs in Saudi Arabia": hospital nursing for foreign-trained nurses.
  * It sits beside the security guard, driver and cleaner guides for the Kingdom
  * and borrows their Labour Law and no-minimum-wage reading rather than
  * repeating it, and beside the US and UK nursing and healthcare guides.
@@ -158,7 +158,7 @@ class NurseJobsSaudiBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Use a legal recruitment route and never pay for a visa.</strong> Indian nurses are recruited only through eMigrate. Pakistani nurses should use an agency licensed by the Bureau of Emigration and Overseas Employment, and Filipino nurses a Department of Migrant Workers-licensed agency.</p>
 
-<p><strong>Note:</strong> pay, licensing requirements, contract terms and recruitment rules are set by each hospital, SCFHS and the authorities in your home country &mdash; not by JobGader. Confirm the details with the employer and the official sources before applying.</p>
+<p><strong>Note:</strong> pay, licensing requirements, contract terms and recruitment rules are set by each hospital, SCFHS and the authorities in your home country, not by JobGader. Confirm the details with the employer and the official sources before applying.</p>
 JOBHTML;
     }
 
@@ -187,11 +187,11 @@ JOBHTML;
     <li><strong>Register with SCFHS</strong>, which is what allows you to practise in the Kingdom.</li>
 </ol>
 
-<p>The practical lesson is that <strong>verification is where most applications slow down</strong>. If DataFlow cannot confirm a document with the institution that issued it, the application waits. Before you pay for anything, check that your college, your nursing council and your past employers will answer a verification request &mdash; and be wary of anyone offering to "arrange" a pass or a classification for a fee.</p>
+<p>The practical lesson is that <strong>verification is where most applications slow down</strong>. If DataFlow cannot confirm a document with the institution that issued it, the application waits. Before you pay for anything, check that your college, your nursing council and your past employers will answer a verification request, and be wary of anyone offering to "arrange" a pass or a classification for a fee.</p>
 
 <h2>Diploma or Degree: Your Classification Sets the Grade</h2>
 
-<p>The same guides list the requirement as "a Bachelor's degree in Nursing (BSN) or equivalent nursing diploma", as though the two open the same doors. They do not. SCFHS classifies each nurse on <strong>verified qualifications and experience</strong>, and that classification &mdash; not the job title in an advert &mdash; decides the grade you are registered at. A diploma and a bachelor's degree are not classified at the same grade, and the grade shapes which posts and which salary band a hospital can offer you.</p>
+<p>The same guides list the requirement as "a Bachelor's degree in Nursing (BSN) or equivalent nursing diploma", as though the two open the same doors. They do not. SCFHS classifies each nurse on <strong>verified qualifications and experience</strong>, and that classification, not the job title in an advert, decides the grade you are registered at. A diploma and a bachelor's degree are not classified at the same grade, and the grade shapes which posts and which salary band a hospital can offer you.</p>
 
 <p>So ask the recruiter <strong>which SCFHS classification the post needs</strong> before you pay for verification or an exam. A diploma nurse who applies for a post written for a degree-level classification can pass every step and still not be registered for that job.</p>
 
@@ -245,17 +245,17 @@ JOBHTML;
     <li><strong>Bangladesh:</strong> an agency registered with BMET.</li>
 </ul>
 
-<p>The wider rules on Saudi contracts &mdash; the 48-hour week, the Qiwa platform, the Wage Protection System and changing employer &mdash; apply to private hospital contracts under the Labour Law. Our <a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">driver jobs in Saudi Arabia guide</a> sets them out.</p>
+<p>The wider rules on Saudi contracts, the 48-hour week, the Qiwa platform, the Wage Protection System and changing employer, apply to private hospital contracts under the Labour Law. Our <a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">driver jobs in Saudi Arabia guide</a> sets them out.</p>
 
 <h2>Where the Jobs Are</h2>
 
 <p>Nursing posts sit with four kinds of employer, and each recruits a little differently:</p>
 
 <ul>
-    <li><strong>Ministry of Health hospitals</strong> &mdash; the largest employer, recruiting in large campaigns through designated agencies.</li>
-    <li><strong>Military and National Guard hospitals</strong> &mdash; large medical cities with their own recruitment programmes and specialist units.</li>
-    <li><strong>University hospitals</strong> &mdash; teaching hospitals attached to the major universities.</li>
-    <li><strong>Private hospital groups</strong> &mdash; the fastest-growing part of the market, hiring for new hospitals and clinics in every major city.</li>
+    <li><strong>Ministry of Health hospitals</strong>: the largest employer, recruiting in large campaigns through designated agencies.</li>
+    <li><strong>Military and National Guard hospitals</strong>: large medical cities with their own recruitment programmes and specialist units.</li>
+    <li><strong>University hospitals</strong>: teaching hospitals attached to the major universities.</li>
+    <li><strong>Private hospital groups</strong>: the fastest-growing part of the market, hiring for new hospitals and clinics in every major city.</li>
 </ul>
 
 <p>By city, <strong>Riyadh</strong> has the largest concentration of hospitals and specialist centres, <strong>Jeddah</strong> is the main hub on the west coast, <strong>Dammam and the Eastern Province</strong> have growing hospital networks, and <strong>Makkah and Madinah</strong> add staffing demand around the Hajj and Umrah seasons.</p>
@@ -342,18 +342,18 @@ JOBHTML;
 <p>Comparing nursing destinations or other Gulf routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a> &mdash; the American route for registered nurses, and the green card queue behind it.</li>
-    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; where UK sponsorship is genuinely available for clinical staff.</li>
-    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; why the care worker route closed to overseas applicants in July 2025.</li>
-    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a> &mdash; the SAR 4,000 Saudization threshold, explained in full.</li>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; the Labour Law, Qiwa and Wage Protection System rules on a Saudi contract.</li>
-    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a> &mdash; hospital and hotel cleaning routes into the Kingdom.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; a Gulf contract where the basic salary split decides your gratuity.</li>
-    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a> &mdash; American nursing pay by state, measured by the BLS.</li>
-    <li><a href="/blog/kitchen-helper-jobs-in-saudi-arabia">Kitchen Helper Jobs in Saudi Arabia</a> &mdash; the entry-level end of the same labour market, and what Article 40 makes the employer pay.</li>
-    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a> &mdash; which entry-level roles are still open to foreign workers, and what protects the wage.</li>
-    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a> &mdash; the sponsorship route, Saudization limits and who legally pays your recruitment fee.</li>
-    <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a> &mdash; the Care Certificate, the ward band rates and the route to registered nurse.</li>
+    <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a>: the American route for registered nurses, and the green card queue behind it.</li>
+    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a>: where UK sponsorship is genuinely available for clinical staff.</li>
+    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a>: why the care worker route closed to overseas applicants in July 2025.</li>
+    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a>: the SAR 4,000 Saudization threshold, explained in full.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: the Labour Law, Qiwa and Wage Protection System rules on a Saudi contract.</li>
+    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a>: hospital and hotel cleaning routes into the Kingdom.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: a Gulf contract where the basic salary split decides your gratuity.</li>
+    <li><a href="/blog/registered-nurse-jobs-in-usa">Registered Nurse Jobs in USA</a>: American nursing pay by state, measured by the BLS.</li>
+    <li><a href="/blog/kitchen-helper-jobs-in-saudi-arabia">Kitchen Helper Jobs in Saudi Arabia</a>: the entry-level end of the same labour market, and what Article 40 makes the employer pay.</li>
+    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a>, which entry-level roles are still open to foreign workers, and what protects the wage.</li>
+    <li><a href="/blog/how-to-get-a-job-in-saudi-arabia-as-a-foreigner">How to Get a Job in Saudi Arabia as a Foreigner</a>: the sponsorship route, Saudization limits and who legally pays your recruitment fee.</li>
+    <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a>: the Care Certificate, the ward band rates and the route to registered nurse.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, careers or financial advice. Licensing requirements, recruitment rules, salaries and contract terms change and differ by employer and by country of origin. Confirm the current position with the Saudi Commission for Health Specialties, your home country's emigration authority and the employer before applying or accepting an offer.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Registered Nurse Jobs in USA" — pay, states, settings and the multistate
+ * "Registered Nurse Jobs in USA": pay, states, settings and the multistate
  * license. The older "Nurse Jobs in the US" guide owns the visa and
  * VisaScreen route for nurses trained abroad, so this one only points to it.
  *
@@ -160,7 +160,7 @@ class RegisteredNurseJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check which license the post accepts.</strong> A multistate license is not valid in states outside the compact, including California and New York.</p>
 
-<p><strong>Note:</strong> pay, licensing and immigration rules are set by employers, state boards of nursing and federal law &mdash; not by JobGader. Confirm the details with the employer and the state board before applying.</p>
+<p><strong>Note:</strong> pay, licensing and immigration rules are set by employers, state boards of nursing and federal law, not by JobGader. Confirm the details with the employer and the state board before applying.</p>
 JOBHTML;
     }
 
@@ -191,7 +191,7 @@ JOBHTML;
 
 <h2>Specialty Pay: What the Data Cannot Tell You</h2>
 
-<p>Guides put ICU and ER nurses at <strong>$80,000 to $100,000 or more</strong>. The BLS does not publish RN pay by specialty, so no official figure backs that range &mdash; and the mean for all RNs is already $101,420. What it does publish is pay by setting:</p>
+<p>Guides put ICU and ER nurses at <strong>$80,000 to $100,000 or more</strong>. The BLS does not publish RN pay by specialty, so no official figure backs that range, and the mean for all RNs is already $101,420. What it does publish is pay by setting:</p>
 
 <ul>
     <li><strong>Government:</strong> median $110,780 (5% of RN jobs)</li>
@@ -248,7 +248,7 @@ JOBHTML;
 <h2>CCRN and CEN: The Hours Behind the Letters</h2>
 
 <ul>
-    <li><strong>CCRN (Adult)</strong>, from the AACN Certification Corporation, needs <strong>1,750 hours</strong> of direct care of acutely or critically ill adults in the previous two years, with 875 in the most recent year &mdash; or 2,000 hours over five years, with 144 in the most recent year.</li>
+    <li><strong>CCRN (Adult)</strong>, from the AACN Certification Corporation, needs <strong>1,750 hours</strong> of direct care of acutely or critically ill adults in the previous two years, with 875 in the most recent year, or 2,000 hours over five years, with 144 in the most recent year.</li>
     <li><strong>CEN</strong>, from the Board of Certification for Emergency Nursing, has no required experience. BCEN recommends two years in emergency nursing.</li>
 </ul>
 
@@ -342,17 +342,17 @@ JOBHTML;
 <p>Comparing nursing and healthcare careers in different countries? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a> &mdash; the licensing and green card route for nurses trained abroad.</li>
-    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; NHS support work, its 2026 pay bands and the HCA visa rule.</li>
-    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a> &mdash; registered clinical roles and NMC registration.</li>
-    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; the Gulf route for nurses and the SCFHS licence.</li>
-    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; another entry into American work, with its own outlook problem.</li>
-    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a> &mdash; public service pay in America, state by state.</li>
-    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the clinical role most nurses pass through first, and what it pays.</li>
-    <li><a href="/blog/school-nurse-jobs-in-usa">School Nurse Jobs in USA</a> &mdash; what schools pay RNs, and the states that want a bachelor's degree and a credential.</li>
-    <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in the USA</a> &mdash; a high-paying allied-health role, its licensing and the visa route.</li>
-    <li><a href="/blog/entry-level-healthcare-jobs">Entry Level Healthcare Jobs</a> &mdash; the US healthcare roles you can start with a high school diploma or a short course, what they pay and how to apply.</li>
-    <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a> &mdash; the Care Certificate, the ward band rates and the route to registered nurse.</li>
+    <li><a href="/blog/nurse-jobs-in-the-us">Nurse Jobs in the US</a>: the licensing and green card route for nurses trained abroad.</li>
+    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a>: NHS support work, its 2026 pay bands and the HCA visa rule.</li>
+    <li><a href="/blog/healthcare-jobs-in-the-uk">Healthcare Jobs in the UK</a>: registered clinical roles and NMC registration.</li>
+    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a>: the Gulf route for nurses and the SCFHS licence.</li>
+    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a>: another entry into American work, with its own outlook problem.</li>
+    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a>: public service pay in America, state by state.</li>
+    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a>: the clinical role most nurses pass through first, and what it pays.</li>
+    <li><a href="/blog/school-nurse-jobs-in-usa">School Nurse Jobs in USA</a>: what schools pay RNs, and the states that want a bachelor's degree and a credential.</li>
+    <li><a href="/blog/physical-therapist-jobs-in-usa">Physical Therapist Jobs in the USA</a>: a high-paying allied-health role, its licensing and the visa route.</li>
+    <li><a href="/blog/entry-level-healthcare-jobs">Entry Level Healthcare Jobs</a>: the US healthcare roles you can start with a high school diploma or a short course, what they pay and how to apply.</li>
+    <li><a href="/blog/nursing-assistant-jobs-in-the-uk">Nursing Assistant Jobs in the UK</a>: the Care Certificate, the ward band rates and the route to registered nurse.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration, tax, careers or financial advice. Pay, licensing rules, exam fees, compact membership and immigration policy change and differ between states. Confirm the current position with the employer, your state board of nursing, NCSBN, the IRS and an immigration lawyer before applying.</p>

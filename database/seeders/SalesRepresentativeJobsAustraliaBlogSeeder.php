@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Become a Sales Representative in Australia" — a guide for someone
+ * "How to Become a Sales Representative in Australia": a guide for someone
  * aiming at a field, territory or B2B sales representative role and asking
  * what they need to be hired. The Sales Jobs in Australia guide owns the wider
  * market, retail award pay and the state-by-state real estate registrations,
@@ -173,7 +173,7 @@ class SalesRepresentativeJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, commission terms and eligibility are set by each employer, the relevant award and the Fair Work Act &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, commission terms and eligibility are set by each employer, the relevant award and the Fair Work Act, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -238,8 +238,8 @@ JOBHTML;
     <li><strong>A driver's licence.</strong> Field and territory roles mean visiting customers across a region, so postings routinely ask for a current licence, often a full or unrestricted one. Inside sales roles are the alternative if you do not drive.</li>
     <li><strong>Working rights in Australia.</strong> Most postings ask for full working rights up front. For general sales representatives that is not a formality: the occupation is <strong>not on the Core Skills Occupation List</strong>, so employer sponsorship through that route is not available.</li>
     <li><strong>Communication and negotiation.</strong> Written and spoken communication, negotiation and problem-solving are listed far more often than any credential.</li>
-    <li><strong>Evidence of results.</strong> Targets met, accounts grown or conversion rates &mdash; even from retail or hospitality &mdash; are what sales managers look for.</li>
-    <li><strong>Industry licences where they apply.</strong> Real estate is the main one, and it differs by state. In NSW the entry-level credential is the <strong>Assistant Agent certificate of registration</strong>, issued for four years and not renewable, since the March 2020 reforms &mdash; not an "Agent's Representative Certificate", which is Victoria's term.</li>
+    <li><strong>Evidence of results.</strong> Targets met, accounts grown or conversion rates, even from retail or hospitality, are what sales managers look for.</li>
+    <li><strong>Industry licences where they apply.</strong> Real estate is the main one, and it differs by state. In NSW the entry-level credential is the <strong>Assistant Agent certificate of registration</strong>, issued for four years and not renewable, since the March 2020 reforms, not an "Agent's Representative Certificate", which is Victoria's term.</li>
 </ul>
 
 <h2>What Sales Representatives Earn</h2>
@@ -278,7 +278,7 @@ JOBHTML;
 
 <p><strong>Advances and clawbacks.</strong> Many guides say a guaranteed base can be treated as an advance and "clawed back if you leave early". An employer cannot simply take that money out of your pay. Under Fair Work rules, a deduction needs your <strong>written agreement</strong> and must be <strong>mainly for your benefit</strong>, and a term that benefits the employer and is unreasonable has no effect. Get any advance or clawback arrangement explained in writing before you accept.</p>
 
-<p><strong>Subcontractor arrangements.</strong> Some businesses engage sales reps as contractors, with no sick pay, annual leave or superannuation from the business. That is lawful for genuine contractors. But it is illegal to represent a worker as a contractor when the business does not reasonably believe that &mdash; <strong>sham contracting</strong>. A role with set hours, a manager and targets set by someone else looks like employment, whatever the contract is called.</p>
+<p><strong>Subcontractor arrangements.</strong> Some businesses engage sales reps as contractors, with no sick pay, annual leave or superannuation from the business. That is lawful for genuine contractors. But it is illegal to represent a worker as a contractor when the business does not reasonably believe that: <strong>sham contracting</strong>. A role with set hours, a manager and targets set by someone else looks like employment, whatever the contract is called.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/how-to-become-a-sales-representative-in-australia-prospecting.jpg"
@@ -291,10 +291,10 @@ JOBHTML;
 <p>The draft most guides copy says sponsorship is "uncommon" for sales representatives. For <strong>general sales representatives (ANZSCO 6113)</strong> it is not available through the Core Skills Occupation List at all. Only technical sales roles are listed:</p>
 
 <ul>
-    <li>Sales Representative (Industrial Products) &mdash; 225411</li>
-    <li>Sales Representative (Medical and Pharmaceutical Products) &mdash; 225412</li>
-    <li>ICT Sales Representative &mdash; 225213</li>
-    <li>Technical Sales Representatives nec &mdash; 225499</li>
+    <li>Sales Representative (Industrial Products): 225411</li>
+    <li>Sales Representative (Medical and Pharmaceutical Products): 225412</li>
+    <li>ICT Sales Representative: 225213</li>
+    <li>Technical Sales Representatives nec: 225499</li>
 </ul>
 
 <p>If you are not an Australian citizen or permanent resident, plan around working rights you already hold. Our <a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> guide covers how employer sponsorship works.</p>
@@ -367,11 +367,11 @@ JOBHTML;
 <p>Looking at other ways into work in Australia? These cover the neighbouring routes:</p>
 
 <ul>
-    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; retail award pay, when commission-only is legal and each state's real estate registration.</li>
-    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; entry-level roles that build the customer-facing record sales managers look for.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; how employer sponsorship actually works, and which occupation list applies.</li>
-    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a> &mdash; another entry route into Australian business, and its award pay.</li>
-    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; the customer-facing route in the American market.</li>
+    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a>: retail award pay, when commission-only is legal and each state's real estate registration.</li>
+    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a>: entry-level roles that build the customer-facing record sales managers look for.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>: how employer sponsorship actually works, and which occupation list applies.</li>
+    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a>: another entry route into Australian business, and its award pay.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a>: the customer-facing route in the American market.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or financial advice. Pay rates, award terms and visa lists change over time. Confirm the current position with the Fair Work Ombudsman, training.gov.au and the Department of Home Affairs before relying on it.</p>

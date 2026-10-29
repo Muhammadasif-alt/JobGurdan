@@ -168,7 +168,7 @@ class HeathrowAirportJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, vetting standards and benefits here are set by Heathrow and the Department for Transport &mdash; not by JobGader. Apply directly on Heathrow's careers site, and never pay anyone for an airport job or an airside pass.</p>
+<p><strong>Note:</strong> pay, vetting standards and benefits here are set by Heathrow and the Department for Transport, not by JobGader. Apply directly on Heathrow's careers site, and never pay anyone for an airport job or an airside pass.</p>
 JOBHTML;
     }
 
@@ -190,22 +190,22 @@ JOBHTML;
 <p>Heathrow is regulated by the Department for Transport, and its own application process page is direct about what that means:</p>
 
 <ul>
-    <li><strong>Five years of employment history, including any gaps.</strong> Every new employee must provide it, and it must be referenceable. Not a CV &mdash; contactable references covering the whole five years.</li>
+    <li><strong>Five years of employment history, including any gaps.</strong> Every new employee must provide it, and it must be referenceable. Not a CV: contactable references covering the whole five years.</li>
     <li><strong>A Criminal Record Check</strong>, because of the DfT regulation.</li>
     <li><strong>A Counter Terrorism Check</strong> for Heathrow Security positions and any role with access to restricted zones or restricted files.</li>
 </ul>
 
 <p>Heathrow says referencing <strong>typically takes six to eight weeks, and can take up to fourteen weeks</strong> depending on complexity. So if you need money next month, this is not that job.</p>
 
-<p>Two honest readings of this. First, if you have lived in the UK for less than five years, or your last five years span employers abroad who will not answer a reference request, this is the part that will stop you &mdash; not your CV. Second, <strong>a criminal record does not automatically disqualify you.</strong> Heathrow says you can still apply, and an offer then depends on qualifying criteria; the check covers the last five years.</p>
+<p>Two honest readings of this. First, if you have lived in the UK for less than five years, or your last five years span employers abroad who will not answer a reference request, this is the part that will stop you, not your CV. Second, <strong>a criminal record does not automatically disqualify you.</strong> Heathrow says you can still apply, and an offer then depends on qualifying criteria; the check covers the last five years.</p>
 
 <h2>Who Actually Employs You</h2>
 
-<p>This trips people up constantly. Heathrow the company employs a few thousand people. The airport as a place hosts hundreds of other employers &mdash; airlines, ground handling companies, retail brands, hotels, cargo and logistics firms.</p>
+<p>This trips people up constantly. Heathrow the company employs a few thousand people. The airport as a place hosts hundreds of other employers: airlines, ground handling companies, retail brands, hotels, cargo and logistics firms.</p>
 
 <p><strong>Heathrow does not employ the staff in the shops, the lounges or the hotels.</strong> A job advertised at a retail brand in Terminal 5 is that brand's job, on that brand's pay and terms. Heathrow's London Living Wage commitment, its pension and its Heathrow Express travel do not reach those staff.</p>
 
-<p>What that means practically: read the employer name on the advert before anything else. If it is not Heathrow, the rest of this article's pay and benefits section does not apply to you &mdash; though the airside vetting usually still does.</p>
+<p>What that means practically: read the employer name on the advert before anything else. If it is not Heathrow, the rest of this article's pay and benefits section does not apply to you, though the airside vetting usually still does.</p>
 
 <div style="text-align:center;margin:28px 0;">
     <img src="/public/storage/blogs/how-to-apply-for-heathrow-airport-jobs-in-the-uk-terminal.jpg" alt="Passengers moving through a large airport terminal building" style="max-width:100%;height:auto;border-radius:12px;" loading="lazy">
@@ -257,7 +257,7 @@ JOBHTML;
     <li><strong>The vetting is the harder wall.</strong> Even where a role is sponsorable on paper, five years of referenceable UK-checkable history is not something a new arrival can produce.</li>
 </ul>
 
-<p>If you are outside the UK, the honest answer is that Heathrow's hourly roles are not a migration route. Anyone charging you for an "airside pass" or a guaranteed Heathrow job is running a scam &mdash; the pass is issued through the employer after vetting and cannot be bought.</p>
+<p>If you are outside the UK, the honest answer is that Heathrow's hourly roles are not a migration route. Anyone charging you for an "airside pass" or a guaranteed Heathrow job is running a scam: the pass is issued through the employer after vetting and cannot be bought.</p>
 
 <h2>How to Apply, Step by Step</h2>
 
@@ -330,19 +330,19 @@ JOBHTML;
 <p>Comparing airport and transport employers? These cover the alternatives:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-qantas-ground-staff-jobs-in-australia">How to Apply for Qantas Ground Staff Jobs in Australia</a> &mdash; the same work under a different security regime.</li>
-    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a> &mdash; an airport employer that publishes its ramp rate.</li>
-    <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a> &mdash; the same ground work at DXB, under UAE shift and wage rules.</li>
-    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a> &mdash; the same ground work in Oman, where Omanisation gates the work permit.</li>
-    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a> &mdash; another UK role that is widely misunderstood, and which carries no salary at all.</li>
-    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; where the sponsorship answer is different.</li>
-    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; the cabin route rather than the ground route.</li>
-    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a> &mdash; another safety-critical UK employer with medical screening.</li>
-    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a> &mdash; a union pay scale published in writing.</li>
-    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a> &mdash; a faster route into UK hourly work.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; what the sponsorship rules actually allow.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; the honest position on sponsored warehouse work.</li>
-    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a> &mdash; retail hours instead of airport shifts.</li>
+    <li><a href="/blog/how-to-apply-for-qantas-ground-staff-jobs-in-australia">How to Apply for Qantas Ground Staff Jobs in Australia</a>: the same work under a different security regime.</li>
+    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a>: an airport employer that publishes its ramp rate.</li>
+    <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a>: the same ground work at DXB, under UAE shift and wage rules.</li>
+    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a>: the same ground work in Oman, where Omanisation gates the work permit.</li>
+    <li><a href="/blog/adjunct-professor-jobs-in-the-uk">Adjunct Professor Jobs in the UK</a>: another UK role that is widely misunderstood, and which carries no salary at all.</li>
+    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a>: where the sponsorship answer is different.</li>
+    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a>: the cabin route rather than the ground route.</li>
+    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a>: another safety-critical UK employer with medical screening.</li>
+    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a>: a union pay scale published in writing.</li>
+    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a>: a faster route into UK hourly work.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: what the sponsorship rules actually allow.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: the honest position on sponsored warehouse work.</li>
+    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a>: retail hours instead of airport shifts.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Heathrow's own careers, benefits and application process pages, Heathrow's 2025 results, Living Wage Foundation rates and Home Office immigration guidance. Pay, vetting standards, benefits and immigration rules change, and most employers at the airport are not Heathrow. Always read the live advert and check the employer name before you apply.</p>

@@ -218,10 +218,10 @@ class BestJobSitesWorkAbroadBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/how-to-write-resume-job-abroad">How to Write a Resume for a Job Abroad</a> &mdash; the CV to send.</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a> &mdash; verify before you pay.</li>
-    <li><a href="/blog/which-countries-are-hiring-foreign-workers-2026">Which Countries Are Hiring Foreign Workers in 2026?</a> &mdash; the top 10.</li>
-    <li><a href="/blog/documents-needed-to-work-abroad-2026">What Documents Do You Need to Work Abroad (2026)</a> &mdash; the checklist.</li>
+    <li><a href="/blog/how-to-write-resume-job-abroad">How to Write a Resume for a Job Abroad</a>: the CV to send.</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay.</li>
+    <li><a href="/blog/which-countries-are-hiring-foreign-workers-2026">Which Countries Are Hiring Foreign Workers in 2026?</a>: the top 10.</li>
+    <li><a href="/blog/documents-needed-to-work-abroad-2026">What Documents Do You Need to Work Abroad (2026)</a>: the checklist.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Reviewed on 12 October 2026. The selection reflects destination and occupation fit, not independently verified rankings or placement rates. Select a vacancy and follow the employer's own instructions.</p>

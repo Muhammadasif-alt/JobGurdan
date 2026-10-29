@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Security Guard Jobs — Licence, Pay and Shifts | JobGader')
+@section('title', 'Security Guard Jobs: Licence, Pay and Shifts | JobGader')
 @section('meta_description', 'Security guard jobs across the USA and UK: the licence you need first, what the shifts pay, and which sectors pay above the standard rate.')
-@section('og_title', 'Security Guard Jobs — Licence, Pay and Shifts | JobGader')
+@section('og_title', 'Security Guard Jobs: Licence, Pay and Shifts | JobGader')
 @section('og_description', 'Security guard jobs across the USA and UK: the licence you need first, what the shifts pay, and which sectors pay above the standard rate.')
 @section('canonical', url()->current())
 
@@ -17,7 +17,7 @@
                 'title' => 'The Licence Comes First',
                 'paragraphs' => [
                     'In the UK, you need an SIA licence before you can work in most security roles. Door supervision covers licensed premises and is the more flexible card; the security guarding licence covers static and patrol work. Both require a short training course and a criminal record check, and the licence is tied to you rather than to an employer.',
-                    'In the US, licensing is set at state level and terminology varies — a guard card, a security officer licence or a registration, depending on where you are. Armed positions require a separate and considerably stricter permit. Check your state before paying for any training.',
+                    'In the US, licensing is set at state level and terminology varies: a guard card, a security officer licence or a registration, depending on where you are. Armed positions require a separate and considerably stricter permit. Check your state before paying for any training.',
                 ],
             ],
             [
@@ -55,7 +55,7 @@
         'faqs' => [
             [
                 'q' => 'Do I need a licence to work in security?',
-                'a' => 'In the UK, yes — an SIA licence is required for most roles and must be in place before you start. In the US, requirements are set state by state, and armed work always needs a separate and stricter permit.',
+                'a' => 'In the UK, yes: an SIA licence is required for most roles and must be in place before you start. In the US, requirements are set state by state, and armed work always needs a separate and stricter permit.',
             ],
             [
                 'q' => 'How long does it take to get licensed?',

@@ -40,12 +40,12 @@ class DigitalMarketingSeoSeeder extends Seeder
             ['slug' => 'job-spotlights'],
             [
                 'name' => 'Job Spotlights',
-                'description' => 'Deep dives on specific openings — what the role involves, what employers actually want, and how to apply.',
+                'description' => 'Deep dives on specific openings: what the role involves, what employers actually want, and how to apply.',
             ]
         );
 
         $author = User::where('role', 'admin')->first();
-        $title = 'Digital Marketing Expert (SEO) Job at Urban Solar — Remote, Pakistan';
+        $title = 'Digital Marketing Expert (SEO) Job at Urban Solar: Remote, Pakistan';
 
         Blog::updateOrCreate(
             ['slug' => Str::slug($title)],
@@ -55,7 +55,7 @@ class DigitalMarketingSeoSeeder extends Seeder
                 'job_id' => $job->id,
                 'author_name' => $author?->name ?? 'Admin',
                 'title' => $title,
-                'excerpt' => 'Urban Solar is hiring a fully remote Digital Marketing Expert (SEO) across Pakistan — Rs 80,000–120,000 a month, 3–4 years, on-page, off-page and technical SEO plus Canva and AI design work.',
+                'excerpt' => 'Urban Solar is hiring a fully remote Digital Marketing Expert (SEO) across Pakistan: Rs 80,000–120,000 a month, 3–4 years, on-page, off-page and technical SEO plus Canva and AI design work.',
                 'content' => $content,
                 'featured_image' => 'blogs/digital-marketing-expert-seo-pakistan.jpg',
                 'tags' => 'seo jobs pakistan, digital marketing jobs, remote seo jobs, technical seo, digital marketing salary pakistan, Urban Solar, canva jobs, AI design tools',
@@ -105,7 +105,7 @@ class DigitalMarketingSeoSeeder extends Seeder
                 'salary_maximum' => 120000,
                 'application_url' => self::APPLY_URL,
                 'listing_type' => 'resource',
-                'meta_description' => 'Remote Digital Marketing Expert (SEO) at Urban Solar, Pakistan — Rs 80,000-120,000/month, 3-4 years, on-page, off-page and technical SEO plus Canva and AI design.',
+                'meta_description' => 'Remote Digital Marketing Expert (SEO) at Urban Solar, Pakistan: Rs 80,000-120,000/month, 3-4 years, on-page, off-page and technical SEO plus Canva and AI design.',
                 'seo_keywords' => 'seo jobs pakistan, digital marketing jobs pakistan, remote seo jobs, technical seo jobs, seo specialist job, digital marketing salary pakistan, canva designer jobs',
             ]
         );
@@ -118,9 +118,9 @@ class DigitalMarketingSeoSeeder extends Seeder
 
 <h3>SEO &amp; digital marketing</h3>
 <ul>
-    <li><strong>On-page SEO</strong> &mdash; keyword optimisation, meta tags, content structuring, internal linking, image SEO</li>
-    <li><strong>Off-page SEO</strong> &mdash; backlink building, guest posting, directory submissions, influencer and blogger outreach</li>
-    <li><strong>Technical SEO</strong> &mdash; site speed, crawlability, indexing, XML sitemaps, robots.txt, schema markup, mobile-friendliness and Core Web Vitals</li>
+    <li><strong>On-page SEO</strong>: keyword optimisation, meta tags, content structuring, internal linking, image SEO</li>
+    <li><strong>Off-page SEO</strong>: backlink building, guest posting, directory submissions, influencer and blogger outreach</li>
+    <li><strong>Technical SEO</strong>: site speed, crawlability, indexing, XML sitemaps, robots.txt, schema markup, mobile-friendliness and Core Web Vitals</li>
     <li>Keyword research and competitor analysis to find growth opportunities</li>
     <li>Tracking and reporting through Google Analytics, Search Console and SEMrush/Ahrefs/Moz</li>
     <li>Keeping strategy current with algorithm updates, and briefing content writers on SEO best practice</li>
@@ -129,13 +129,13 @@ class DigitalMarketingSeoSeeder extends Seeder
 <h3>Design &amp; creative support</h3>
 <ul>
     <li>Website banners, product images and landing page visuals in Canva or similar</li>
-    <li>Original visuals for web and social using AI image tools &mdash; Midjourney, DALL&middot;E, Adobe Firefly, Canva AI</li>
+    <li>Original visuals for web and social using AI image tools: Midjourney, DALL&middot;E, Adobe Firefly, Canva AI</li>
 </ul>
 
 <h3>Requirements</h3>
 <ul>
     <li>3&ndash;4 years of hands-on SEO experience across on-page, off-page and technical work</li>
-    <li>Bachelor's in Marketing, Communications, IT or related &mdash; preferred but <strong>not mandatory</strong>; a strong portfolio carries equal weight</li>
+    <li>Bachelor's in Marketing, Communications, IT or related: preferred but <strong>not mandatory</strong>; a strong portfolio carries equal weight</li>
     <li>At least one major SEO toolset: Google Analytics, Search Console, SEMrush, Ahrefs, Moz or Screaming Frog</li>
     <li>Working knowledge of Canva or a similar tool (Adobe Express, Figma)</li>
     <li>Practical experience with AI image and design generation tools</li>
@@ -145,7 +145,7 @@ class DigitalMarketingSeoSeeder extends Seeder
 
 <h3>What's on offer</h3>
 <ul>
-    <li>Rs 80,000&ndash;Rs 120,000 a month &mdash; a narrow, employer-set band rather than an auto-generated estimate, negotiable on experience and portfolio</li>
+    <li>Rs 80,000&ndash;Rs 120,000 a month: a narrow, employer-set band rather than an auto-generated estimate, negotiable on experience and portfolio</li>
     <li>Fully remote, full-time, open to candidates anywhere in Pakistan</li>
     <li>End-to-end ownership of both the SEO strategy and the creative that supports it</li>
 </ul>
@@ -157,7 +157,7 @@ JOBHTML;
     private function postBody(): string
     {
         return <<<'HTML'
-<p>If you're an SEO specialist who can also hold your own on the design side, this listing is worth a look: <strong>Urban Solar Pvt Ltd.</strong> is hiring a <strong>Digital Marketing Expert (SEO)</strong> for a full-time, fully remote role open across Pakistan. It's a hybrid position &mdash; real SEO ownership paired with hands-on creative work &mdash; which makes it a slightly different ask than a typical pure-SEO role.</p>
+<p>If you're an SEO specialist who can also hold your own on the design side, this listing is worth a look: <strong>Urban Solar Pvt Ltd.</strong> is hiring a <strong>Digital Marketing Expert (SEO)</strong> for a full-time, fully remote role open across Pakistan. It's a hybrid position, real SEO ownership paired with hands-on creative work, which makes it a slightly different ask than a typical pure-SEO role.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/marketing?location=Pakistan" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -170,17 +170,17 @@ JOBHTML;
 <ul>
     <li><strong>Title:</strong> Digital Marketing Expert (SEO)</li>
     <li><strong>Company:</strong> Urban Solar Pvt Ltd. (3.0&#9733; on Indeed)</li>
-    <li><strong>Location:</strong> Pakistan &mdash; fully remote</li>
+    <li><strong>Location:</strong> Pakistan: fully remote</li>
     <li><strong>Job type:</strong> Full-time</li>
     <li><strong>Experience required:</strong> 3&ndash;4 years</li>
     <li><strong>Advertised pay:</strong> Rs 80,000 &ndash; Rs 120,000 a month</li>
 </ul>
 
-<p>Unlike some auto-generated Indeed salary ranges, this one is specific and narrow (Rs 80,000&ndash;120,000), which usually signals the employer set the range deliberately rather than Indeed estimating it &mdash; a good sign that the number is realistic and negotiable within that band based on your experience and portfolio.</p>
+<p>Unlike some auto-generated Indeed salary ranges, this one is specific and narrow (Rs 80,000&ndash;120,000), which usually signals the employer set the range deliberately rather than Indeed estimating it: a good sign that the number is realistic and negotiable within that band based on your experience and portfolio.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/digital-marketing-expert-seo-pakistan-desk.jpg"
-         alt="SEO specialist reviewing organic traffic, keyword rankings and backlink dashboards — Digital Marketing Expert SEO job at Urban Solar, remote Pakistan"
+         alt="SEO specialist reviewing organic traffic, keyword rankings and backlink dashboards: Digital Marketing Expert SEO job at Urban Solar, remote Pakistan"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
@@ -190,9 +190,9 @@ JOBHTML;
 
 <h3>SEO &amp; Digital Marketing (the core of the job)</h3>
 <ul>
-    <li>Full <strong>On-Page SEO</strong> &mdash; keyword optimization, meta tags, content structuring, internal linking, image SEO</li>
-    <li><strong>Off-Page SEO</strong> &mdash; backlink building, guest posting, directory submissions, influencer/blogger outreach</li>
-    <li><strong>Technical SEO</strong> &mdash; site speed, crawlability, indexing, XML sitemaps, robots.txt, schema markup, mobile-friendliness, and Core Web Vitals</li>
+    <li>Full <strong>On-Page SEO</strong>: keyword optimization, meta tags, content structuring, internal linking, image SEO</li>
+    <li><strong>Off-Page SEO</strong>: backlink building, guest posting, directory submissions, influencer/blogger outreach</li>
+    <li><strong>Technical SEO</strong>: site speed, crawlability, indexing, XML sitemaps, robots.txt, schema markup, mobile-friendliness, and Core Web Vitals</li>
     <li>Keyword research and competitor analysis to find growth opportunities</li>
     <li>Performance tracking and reporting via Google Analytics, Search Console, and tools like SEMrush/Ahrefs/Moz</li>
     <li>Staying current on algorithm updates and adjusting strategy accordingly</li>
@@ -205,29 +205,29 @@ JOBHTML;
     <li>Using AI-based design/image tools (Midjourney, DALL&middot;E, Adobe Firefly, Canva AI, etc.) to produce original visuals for web and social</li>
 </ul>
 
-<p>That second half is what makes this posting stand out from a typical SEO opening &mdash; Urban Solar isn't just looking for someone who can move rankings, they want someone who can also visually execute the campaigns those rankings support.</p>
+<p>That second half is what makes this posting stand out from a typical SEO opening: Urban Solar isn't just looking for someone who can move rankings, they want someone who can also visually execute the campaigns those rankings support.</p>
 
 <h2>What They're Looking For</h2>
 
 <ul>
-    <li>A bachelor's degree in Marketing, Communications, IT, or a related field &mdash; preferred but explicitly <strong>not mandatory</strong>, so a strong portfolio can carry equal or more weight</li>
-    <li>Solid, hands-on experience across On-Page, Off-Page, and Technical SEO &mdash; not just theory</li>
+    <li>A bachelor's degree in Marketing, Communications, IT, or a related field: preferred but explicitly <strong>not mandatory</strong>, so a strong portfolio can carry equal or more weight</li>
+    <li>Solid, hands-on experience across On-Page, Off-Page, and Technical SEO, not just theory</li>
     <li>Familiarity with at least one major SEO toolset: Google Analytics, Search Console, SEMrush, Ahrefs, Moz, or Screaming Frog</li>
     <li>Working knowledge of Canva or a similar design tool (Adobe Express, Figma, etc.)</li>
     <li>Real experience using AI image/design generation tools as part of the workflow</li>
-    <li>Basic HTML/CSS is a plus &mdash; useful for hands-on technical SEO fixes rather than always relying on a developer</li>
+    <li>Basic HTML/CSS is a plus: useful for hands-on technical SEO fixes rather than always relying on a developer</li>
     <li>Strong communication skills and the ability to work independently, since this is a remote role</li>
 </ul>
 
 <h2>Who This Role Suits Best</h2>
 
-<p>This is a strong fit if you're an SEO generalist who has picked up genuine design fluency along the way &mdash; someone comfortable moving between a technical SEO audit in the morning and knocking out social creatives in Canva by the afternoon. It's less suited to a pure technical SEO specialist with no design interest, or a designer with only surface-level SEO knowledge &mdash; the posting is clearly looking for someone credible on both fronts, not just one.</p>
+<p>This is a strong fit if you're an SEO generalist who has picked up genuine design fluency along the way: someone comfortable moving between a technical SEO audit in the morning and knocking out social creatives in Canva by the afternoon. It's less suited to a pure technical SEO specialist with no design interest, or a designer with only surface-level SEO knowledge: the posting is clearly looking for someone credible on both fronts, not just one.</p>
 
-<p>The "not mandatory" note on the degree requirement, combined with the emphasis on "proven work experience... with a strong portfolio," suggests Urban Solar is prioritizing demonstrated results (rankings moved, traffic grown, campaigns designed) over formal credentials &mdash; worth leading with concrete numbers and portfolio examples in your application.</p>
+<p>The "not mandatory" note on the degree requirement, combined with the emphasis on "proven work experience... with a strong portfolio," suggests Urban Solar is prioritizing demonstrated results (rankings moved, traffic grown, campaigns designed) over formal credentials: worth leading with concrete numbers and portfolio examples in your application.</p>
 
 <h2>How to Apply</h2>
 
-<p>If your background covers both sides of this role &mdash; solid SEO fundamentals and comfort with Canva/AI design tools &mdash; it's worth applying directly with a portfolio or case studies that show measurable SEO results alongside a few examples of your design work.</p>
+<p>If your background covers both sides of this role, solid SEO fundamentals and comfort with Canva/AI design tools, it's worth applying directly with a portfolio or case studies that show measurable SEO results alongside a few examples of your design work.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -235,7 +235,7 @@ JOBHTML;
 <p>This role advertises Rs 80,000&ndash;Rs 120,000 a month. Because the band is narrow and specific rather than a wide auto-generated estimate, it is likely the employer's own figure and negotiable within that range based on your experience and portfolio.</p>
 
 <h3>Is this SEO job remote?</h3>
-<p>Yes &mdash; it is a fully remote, full-time position open to candidates across Pakistan.</p>
+<p>Yes: it is a fully remote, full-time position open to candidates across Pakistan.</p>
 
 <h3>How much experience do I need?</h3>
 <p>Three to four years of hands-on SEO experience covering on-page, off-page and technical work.</p>
@@ -244,7 +244,7 @@ JOBHTML;
 <p>No. A bachelor's in Marketing, Communications or IT is preferred but explicitly not mandatory, so a strong portfolio with measurable results can carry equal weight.</p>
 
 <h3>Why does an SEO role ask for design skills?</h3>
-<p>Urban Solar wants one person who can both move rankings and produce the visuals those campaigns need &mdash; banners, product images and landing page creatives in Canva, plus AI image tools like Midjourney, DALL&middot;E or Adobe Firefly.</p>
+<p>Urban Solar wants one person who can both move rankings and produce the visuals those campaigns need: banners, product images and landing page creatives in Canva, plus AI image tools like Midjourney, DALL&middot;E or Adobe Firefly.</p>
 
 <h2>People Also Search For</h2>
 
@@ -271,11 +271,11 @@ JOBHTML;
 <p>Looking at other roles or countries? These guides cover the rest of what we track:</p>
 
 <ul>
-    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; why almost everything advertised is a PPS project post, and how FPSC and PPSC differ.</li>
-    <li><a href="/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern">Senior Frontend Developer at ERS Tech, Lahore</a> &mdash; React, Next.js and MERN, on-site in Lahore.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; H-2B, EB-3 and H-1B routes plus 2026 pay benchmarks.</li>
-    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London (No Experience Needed)</a> &mdash; shift patterns, 2026 pay and the truth about sponsorship.</li>
-    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a> &mdash; what the July 2025 care worker route closure means.</li>
+    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a>: why almost everything advertised is a PPS project post, and how FPSC and PPSC differ.</li>
+    <li><a href="/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern">Senior Frontend Developer at ERS Tech, Lahore</a>: React, Next.js and MERN, on-site in Lahore.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: H-2B, EB-3 and H-1B routes plus 2026 pay benchmarks.</li>
+    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London (No Experience Needed)</a>: shift patterns, 2026 pay and the truth about sponsorship.</li>
+    <li><a href="/blog/caregiver-jobs-in-uk-with-visa-sponsorship">Caregiver Jobs in UK with Visa Sponsorship</a>: what the July 2025 care worker route closure means.</li>
 </ul>
 
 <div style="text-align:center;margin:32px 0;">

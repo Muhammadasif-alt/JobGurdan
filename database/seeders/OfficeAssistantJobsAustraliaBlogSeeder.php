@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Office Assistant Jobs in Australia" — administrative support work, and the
+ * "Office Assistant Jobs in Australia": administrative support work, and the
  * indoor companion to the construction guide. The two share a country and a
  * seniority level and disagree about one thing readers get wrong constantly:
  * which Australian work credential travels between states.
@@ -144,7 +144,7 @@ class OfficeAssistantJobsAustraliaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li>Microsoft Word, Excel and Outlook &mdash; named in almost every listing</li>
+    <li>Microsoft Word, Excel and Outlook: named in almost every listing</li>
     <li>Clear written and verbal communication</li>
     <li>Prior administration, reception or customer-facing experience, usually desirable rather than mandatory</li>
     <li>Full working rights in Australia, stated explicitly on most listings</li>
@@ -160,9 +160,9 @@ class OfficeAssistantJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Ask whether the figure includes superannuation, and check which state's clearance the role needs.</strong> The super question is worth about $7,464 on a $62,200 figure, and a working with children check from another state will not transfer &mdash; Queensland does not recognise interstate checks at all.</p>
+<p><strong>Ask whether the figure includes superannuation, and check which state's clearance the role needs.</strong> The super question is worth about $7,464 on a $62,200 figure, and a working with children check from another state will not transfer: Queensland does not recognise interstate checks at all.</p>
 
-<p><strong>Note:</strong> pay, hours, clearance requirements and eligibility are set by each employer and by state law &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, hours, clearance requirements and eligibility are set by each employer and by state law, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -196,15 +196,15 @@ JOBHTML;
 <p>Here is what the platforms say about this job:</p>
 
 <ul>
-    <li>Indeed &mdash; about <strong>$62,200</strong>, range $52,880 to $83,624</li>
-    <li>Jora &mdash; about <strong>$62,500</strong></li>
-    <li>SEEK &mdash; <strong>$60,000 to $70,000</strong></li>
-    <li>Glassdoor &mdash; about <strong>$56,000</strong>, range $50,475 to $67,000</li>
+    <li>Indeed: about <strong>$62,200</strong>, range $52,880 to $83,624</li>
+    <li>Jora: about <strong>$62,500</strong></li>
+    <li>SEEK: <strong>$60,000 to $70,000</strong></li>
+    <li>Glassdoor: about <strong>$56,000</strong>, range $50,475 to $67,000</li>
 </ul>
 
 <p>The averages differ by about <strong>$6,500</strong>, which is manageable. The ranges are where the problem is.</p>
 
-<p>Australia's <strong>National Minimum Wage from 1 July 2026 is $1,004.90 a week</strong>, which annualises to about <strong>$52,255</strong> for a full-time adult employee. Most office assistant roles are covered by the Clerks &mdash; Private Sector Award, which sets its own minimums above that floor.</p>
+<p>Australia's <strong>National Minimum Wage from 1 July 2026 is $1,004.90 a week</strong>, which annualises to about <strong>$52,255</strong> for a full-time adult employee. Most office assistant roles are covered by the Clerks: Private Sector Award, which sets its own minimums above that floor.</p>
 
 <p>Against $52,255:</p>
 
@@ -225,11 +225,11 @@ JOBHTML;
 
 <p>Guides note that "most full-time roles are quoted with superannuation on top" and leave it there. They do not say whether their own averages include it, which means none of those four figures can be compared with an offer until you ask.</p>
 
-<p>The <strong>Superannuation Guarantee is 12 per cent</strong>. On a $62,200 figure that is <strong>$7,464</strong> &mdash; larger than the entire spread between the four averages above, and larger than the gap between the national figure and the Sydney one.</p>
+<p>The <strong>Superannuation Guarantee is 12 per cent</strong>. On a $62,200 figure that is <strong>$7,464</strong>: larger than the entire spread between the four averages above, and larger than the gap between the national figure and the Sydney one.</p>
 
 <p>So $62,200 is either $62,200 in your hand with $7,464 going into your fund, or about <strong>$55,536</strong> in your hand with the rest being super. Two materially different jobs wearing one number.</p>
 
-<p><strong>Ask whether the rate is "plus super" or "inclusive of super", in writing.</strong> It is an ordinary Australian question and nobody will think it odd. The same question applies to any Australian role &mdash; our <a href="/blog/construction-worker-jobs-in-australia">construction worker jobs in Australia guide</a> covers it on the other side of the labour market, where the casual loading complicates it further.</p>
+<p><strong>Ask whether the rate is "plus super" or "inclusive of super", in writing.</strong> It is an ordinary Australian question and nobody will think it odd. The same question applies to any Australian role: our <a href="/blog/construction-worker-jobs-in-australia">construction worker jobs in Australia guide</a> covers it on the other side of the labour market, where the casual loading complicates it further.</p>
 
 <h2>The Check That Does Not Travel Between States</h2>
 
@@ -239,11 +239,11 @@ JOBHTML;
 
 <p><strong>A National Police Check is national.</strong> The name means what it says, and it is portable across the country.</p>
 
-<p><strong>Working with children checks are not.</strong> They are issued by each state and territory, they are <strong>not transferable between them</strong>, and the names differ &mdash; a Working with Children Check in New South Wales, Victoria, South Australia, the Northern Territory and Queensland, a <strong>Blue Card</strong> in Queensland specifically, and a Working with Vulnerable People check in the ACT and Tasmania.</p>
+<p><strong>Working with children checks are not.</strong> They are issued by each state and territory, they are <strong>not transferable between them</strong>, and the names differ: a Working with Children Check in New South Wales, Victoria, South Australia, the Northern Territory and Queensland, a <strong>Blue Card</strong> in Queensland specifically, and a Working with Vulnerable People check in the ACT and Tasmania.</p>
 
 <p><strong>Queensland is the strictest case: it does not recognise checks issued by another state or territory at all.</strong> A valid NSW check does not let you start a Queensland role that requires one. Elsewhere, a valid check from your home state will usually cover brief interstate work, but not an ongoing job.</p>
 
-<p>Two things follow. If you are applying across state lines into education, healthcare, community services or a council role, <strong>start the clearance for the destination state early</strong>, because processing time is what delays start dates. And if you already hold one, do not assume it counts &mdash; check the destination's rules before you tell an employer you are cleared.</p>
+<p>Two things follow. If you are applying across state lines into education, healthcare, community services or a council role, <strong>start the clearance for the destination state early</strong>, because processing time is what delays start dates. And if you already hold one, do not assume it counts: check the destination's rules before you tell an employer you are cleared.</p>
 
 <p>It is worth contrasting this with the construction industry's White Card, which <em>is</em> recognised in every state and territory. Australians move between states constantly and assume all credentials behave the same way. They do not, and this is the one that catches people.</p>
 
@@ -273,7 +273,7 @@ JOBHTML;
 
 <p><strong>Office assistant is not a skilled migration occupation.</strong> There is no employer-sponsored permanent route for general administrative support, and applying from overseas asking for sponsorship is not a plan that works for this role.</p>
 
-<p>The people who realistically hold these jobs are citizens and permanent residents, partners and dependants with work rights, graduates on a post-study work visa, and <strong>Working Holiday visa holders</strong> &mdash; for whom office work is a genuine and under-used option, though it does not count as specified work towards a second-year visa the way regional construction or agriculture does.</p>
+<p>The people who realistically hold these jobs are citizens and permanent residents, partners and dependants with work rights, graduates on a post-study work visa, and <strong>Working Holiday visa holders</strong>: for whom office work is a genuine and under-used option, though it does not count as specified work towards a second-year visa the way regional construction or agriculture does.</p>
 
 <p>If relocation is the goal rather than this job specifically, the routes that do carry sponsorship are in healthcare, trades and technical occupations, not office support.</p>
 
@@ -281,7 +281,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Excel beyond data entry.</strong> Named in nearly every listing and rarely tested for, so demonstrating it separates you immediately.</li>
-    <li><strong>Reception experience from anywhere</strong> &mdash; retail, hospitality, a clinic. The transferable half is dealing with people who arrive with a problem.</li>
+    <li><strong>Reception experience from anywhere</strong>: retail, hospitality, a clinic. The transferable half is dealing with people who arrive with a problem.</li>
     <li><strong>Specific software.</strong> Name the practice management, case management or booking system you have used rather than "computer literate".</li>
     <li><strong>Discretion.</strong> Legal, healthcare and council roles screen for it, and it is worth a line in your application rather than a bullet.</li>
     <li><strong>A Certificate III or IV in Business Administration.</strong> Not required, and useful for standing out on more senior office support roles.</li>
@@ -297,7 +297,7 @@ JOBHTML;
 <p>Not on the published figures. Sydney is commonly quoted at $59,000 to $60,500 while the national average is given as $62,200, which puts Sydney below it despite being described as above it.</p>
 
 <h3>Does the advertised salary include superannuation?</h3>
-<p>Australian advertisements split both ways, so ask. At the 12 per cent guarantee rate it is worth $7,464 on a $62,200 figure &mdash; more than the gap between the published averages.</p>
+<p>Australian advertisements split both ways, so ask. At the 12 per cent guarantee rate it is worth $7,464 on a $62,200 figure: more than the gap between the published averages.</p>
 
 <h3>Does a Working with Children Check work in another state?</h3>
 <p>No. They are issued by each state and territory and are not transferable. Queensland does not recognise interstate checks at all, so a Blue Card application is required there.</p>
@@ -345,23 +345,23 @@ JOBHTML;
 <p>Comparing Australian and international routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a> &mdash; the other Australian entry route, where the credential does transfer between states.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; the same seniority level under Canadian provincial wage floors.</li>
-    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; American entry-level work and its very different minimum wage picture.</li>
-    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; the adjacent clerical occupation and its projection.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; administrative skills applied remotely.</li>
-    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a> &mdash; the same skills paid in foreign currency from home.</li>
-    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; a European route and what its visa options really require.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; a Gulf route with sponsorship genuinely available.</li>
-    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a> &mdash; a licensed Australian trade, and how its interstate recognition differs from the checks here.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; front-office work in the Gulf, where the package split decides the gratuity.</li>
-    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; retail and commission sales under the same award system, and the registration real estate sales needs.</li>
-    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; American office pay by state, and what an executive assistant earns.</li>
-    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; what every entry-level Australian sector pays, and why age changes the rate.</li>
-    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a> &mdash; front-desk admin in general practice, under a different award from office clerks.</li>
-    <li><a href="/blog/receptionist-jobs-in-australia">Receptionist Jobs in Australia</a> &mdash; front-desk work under the same Clerks Award, and where the salary guides go wrong.</li>
-    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a> &mdash; a first UK admin job, the real pay and the visa reality.</li>
-    <li><a href="/blog/how-to-become-a-sales-representative-in-australia">How to Become a Sales Representative in Australia</a> &mdash; the licence, working rights and training employers ask for, and the award floor under field sales pay.</li>
+    <li><a href="/blog/construction-worker-jobs-in-australia">Construction Worker Jobs in Australia</a>: the other Australian entry route, where the credential does transfer between states.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: the same seniority level under Canadian provincial wage floors.</li>
+    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a>: American entry-level work and its very different minimum wage picture.</li>
+    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a>: the adjacent clerical occupation and its projection.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: administrative skills applied remotely.</li>
+    <li><a href="/blog/virtual-assistant-jobs-in-pakistan">Virtual Assistant Jobs in Pakistan</a>: the same skills paid in foreign currency from home.</li>
+    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a>: a European route and what its visa options really require.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: a Gulf route with sponsorship genuinely available.</li>
+    <li><a href="/blog/plumber-jobs-in-australia">Plumber Jobs in Australia</a>: a licensed Australian trade, and how its interstate recognition differs from the checks here.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: front-office work in the Gulf, where the package split decides the gratuity.</li>
+    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a>: retail and commission sales under the same award system, and the registration real estate sales needs.</li>
+    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a>: American office pay by state, and what an executive assistant earns.</li>
+    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a>: what every entry-level Australian sector pays, and why age changes the rate.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a>: front-desk admin in general practice, under a different award from office clerks.</li>
+    <li><a href="/blog/receptionist-jobs-in-australia">Receptionist Jobs in Australia</a>: front-desk work under the same Clerks Award, and where the salary guides go wrong.</li>
+    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a>: a first UK admin job, the real pay and the visa reality.</li>
+    <li><a href="/blog/how-to-become-a-sales-representative-in-australia">How to Become a Sales Representative in Australia</a>: the licence, working rights and training employers ask for, and the award floor under field sales pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, migration or financial advice. Award rates, the national minimum wage, superannuation rules and screening requirements change, and salary figures on any job board are a moving average rather than a statistic. Confirm the current position with the Fair Work Ombudsman, the relevant state screening authority and the employer's own advertisement before applying.</p>

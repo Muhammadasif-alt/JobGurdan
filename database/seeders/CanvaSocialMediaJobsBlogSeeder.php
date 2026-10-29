@@ -138,12 +138,12 @@ class CanvaSocialMediaJobsBlogSeeder extends Seeder
 <p>Working from a brief and a brand guide to produce social posts, carousels, stories and promotional graphics, adapting one design across platform formats, formatting captions, keeping files organised and preparing approved content for scheduling.</p>
 
 <h3>Two questions to ask before accepting</h3>
-<p>Does the client provide the Canva seat, or are you expected to pay for it? Several features these briefs assume &mdash; brand kits, resizing and in-app scheduling &mdash; sit on a paid plan. And is the pay per design, per week or per hour? Carousel work is priced per slide by some clients and per post by others, which is a large difference.</p>
+<p>Does the client provide the Canva seat, or are you expected to pay for it? Several features these briefs assume, brand kits, resizing and in-app scheduling, sit on a paid plan. And is the pay per design, per week or per hour? Carousel work is priced per slide by some clients and per post by others, which is a large difference.</p>
 
 <h3>The licence matters</h3>
 <p>Canva's content licence restricts some commercial uses of its stock elements and templates, including in logos and resale products. Read it before agreeing to produce anything beyond social posts.</p>
 
-<p>Requirements, rates and deliverables are set by individual clients &mdash; not by JobGader. Never pay anyone to secure work, and never publish a client's material in a portfolio without permission.</p>
+<p>Requirements, rates and deliverables are set by individual clients, not by JobGader. Never pay anyone to secure work, and never publish a client's material in a portfolio without permission.</p>
 JOBHTML;
     }
 
@@ -206,7 +206,7 @@ JOBHTML;
         </tr>
         <tr style="background:#fef2f2;">
             <td style="border:1px solid #e5e7eb;padding:10px;"><strong>Content Planner</strong> (scheduling from Canva)</td>
-            <td style="border:1px solid #e5e7eb;padding:10px;"><strong>No.</strong> Paid only &mdash; but you can still share to socials from the editor.</td>
+            <td style="border:1px solid #e5e7eb;padding:10px;"><strong>No.</strong> Paid only, but you can still share to socials from the editor.</td>
         </tr>
         <tr style="background:#fef2f2;">
             <td style="border:1px solid #e5e7eb;padding:10px;"><strong>Background Remover</strong></td>
@@ -227,11 +227,11 @@ JOBHTML;
     </tbody>
 </table>
 
-<p>Premium elements are not blocked outright on a free account &mdash; they are <strong>watermarked</strong> until you either buy that one design's licence or subscribe.</p>
+<p>Premium elements are not blocked outright on a free account: they are <strong>watermarked</strong> until you either buy that one design's licence or subscribe.</p>
 
 <p>One more correction worth having, because guides to this job get it wrong constantly: <strong>Canva cannot schedule posts to TikTok or YouTube.</strong> Its Content Planner schedules to Facebook Pages, Instagram business accounts, LinkedIn, Pinterest, Twitter, Tumblr and Slack. YouTube is share-only from the editor, and the TikTok integration is for TikTok <em>Ads</em>, not organic posting. If a client expects their TikTok calendar run from Canva, that is a conversation to have on day one rather than week three.</p>
 
-<p>The Instagram path has its own conditions that catch people out: it must be a <strong>business account linked to a Facebook Page</strong> &mdash; creator accounts are not supported &mdash; scheduling must be done from a desktop browser, and there is a cap of 25 scheduled posts in a rolling 24 hours.</p>
+<p>The Instagram path has its own conditions that catch people out: it must be a <strong>business account linked to a Facebook Page</strong>, creator accounts are not supported, scheduling must be done from a desktop browser, and there is a cap of 25 scheduled posts in a rolling 24 hours.</p>
 
 <p>Two practical points follow:</p>
 
@@ -244,9 +244,9 @@ JOBHTML;
 
 <p>Two further things worth knowing before you plan around a price. Canva quotes Pakistani visitors in <strong>rupees</strong>, not dollars, so the USD figures in international articles will not match what you see. And the cheaper <strong>Pro Lite</strong> tier is currently offered in India and Indonesia but <strong>not Pakistan</strong>, so do not plan around it.</p>
 
-<p>There is no free route around this either. Canva's free access programmes are for registered nonprofits and for currently-employed certified school teachers, and its licence states that education accounts may be used only for <em>"educational, non-commercial purposes"</em> &mdash; using one for client work is a breach, not a loophole.</p>
+<p>There is no free route around this either. Canva's free access programmes are for registered nonprofits and for currently-employed certified school teachers, and its licence states that education accounts may be used only for <em>"educational, non-commercial purposes"</em>: using one for client work is a breach, not a loophole.</p>
 
-<p>Check the current limits on Canva's own pricing page on the day you need them rather than trusting any article, including this one &mdash; the split between free and paid features moves.</p>
+<p>Check the current limits on Canva's own pricing page on the day you need them rather than trusting any article, including this one: the split between free and paid features moves.</p>
 
 <h2>The Licence: What You May and May Not Do With Canva Content</h2>
 
@@ -283,9 +283,9 @@ JOBHTML;
 
 <p><strong>Freelance project work</strong> starts very low. Entry-level Canva projects on the freelance platforms are frequently posted as small fixed-price briefs, sometimes only a few dollars, explicitly framed as a trial that may lead to ongoing work. Weekly retainers for a set number of posts are the next rung up. These are individual postings, not a market rate, and you should read them as the client testing you rather than as what the work is worth.</p>
 
-<p><strong>Salaried Pakistani roles</strong> are the steadier end, and the real picture differs from what gets written about it. We checked every live Pakistani listing on the board that publishes salary bands &mdash; 884 of them &mdash; and read the full description of each. <strong>Thirty mention Canva: about one in thirty.</strong> Ten of those thirty are remote. Here is the spread:</p>
+<p><strong>Salaried Pakistani roles</strong> are the steadier end, and the real picture differs from what gets written about it. We checked every live Pakistani listing on the board that publishes salary bands, 884 of them, and read the full description of each. <strong>Thirty mention Canva: about one in thirty.</strong> Ten of those thirty are remote. Here is the spread:</p>
 
-<p>A second check on the other main board, on the same day, found <strong>48 more live listings</strong> that name Canva &mdash; concentrated in Lahore, Karachi and Islamabad, with no employer appearing on both boards. So the national figure is roughly <strong>78 live vacancies</strong> asking for Canva, not the handful the courses imply and not the flood they promise either. One caveat about that second board: <strong>only 8 of its 48 Canva listings publish a salary at all</strong>, because it lets employers hide the figure. Any "typical Canva salary" drawn from it rests on a small, self-selected sample, which is why the bands below come from the board that shows its numbers.</p>
+<p>A second check on the other main board, on the same day, found <strong>48 more live listings</strong> that name Canva: concentrated in Lahore, Karachi and Islamabad, with no employer appearing on both boards. So the national figure is roughly <strong>78 live vacancies</strong> asking for Canva, not the handful the courses imply and not the flood they promise either. One caveat about that second board: <strong>only 8 of its 48 Canva listings publish a salary at all</strong>, because it lets employers hide the figure. Any "typical Canva salary" drawn from it rests on a small, self-selected sample, which is why the bands below come from the board that shows its numbers.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
     <thead>
@@ -338,7 +338,7 @@ JOBHTML;
 
 <p>Three findings matter more than the individual numbers.</p>
 
-<p><strong>Remote salaried work in this field does exist in Pakistan, and it is the best paid.</strong> A third of the Canva-naming listings were remote, and the two highest bands in the whole set &mdash; PKR 75,000 to 150,000 and PKR 60,000 to 100,000 &mdash; were both remote roles. That is the opposite of what most career articles imply about this work.</p>
+<p><strong>Remote salaried work in this field does exist in Pakistan, and it is the best paid.</strong> A third of the Canva-naming listings were remote, and the two highest bands in the whole set, PKR 75,000 to 150,000 and PKR 60,000 to 100,000, were both remote roles. That is the opposite of what most career articles imply about this work.</p>
 
 <p><strong>Nobody hires for Canva alone.</strong> In every one of those listings Canva sat beside Adobe, Premiere Pro, After Effects, CapCut, Meta Business Suite or analytics tools, as one acceptable skill among several. Canva gets you considered; the second skill is what gets you the higher band. The PKR 75,000 to 150,000 listing wanted Canva <em>and</em> Meta Business Suite <em>and</em> scheduling platforms <em>and</em> analytics.</p>
 
@@ -353,20 +353,20 @@ JOBHTML;
 <ol>
     <li><strong>Invent two brands</strong> and give each a short brand sheet: two fonts, four colours, a logo mark, and a one-line description of its tone.</li>
     <li><strong>Produce a consistent set for each:</strong> three feed posts, one five-slide carousel, two stories and one promotional graphic.</li>
-    <li><strong>Show one design adapted across formats</strong> &mdash; the same message as a square post, a story and a LinkedIn graphic. This is the single most requested skill and the easiest to demonstrate.</li>
+    <li><strong>Show one design adapted across formats</strong>: the same message as a square post, a story and a LinkedIn graphic. This is the single most requested skill and the easiest to demonstrate.</li>
     <li><strong>Include a before and after.</strong> Take a plain paragraph of raw information and show the finished post it became. That proves you can work from a brief, which is what clients actually need.</li>
     <li><strong>Add a one-week content calendar</strong> showing what posts when and on which platform.</li>
 </ol>
 
 <p>Use invented brands, or real work you have written permission to show. Do not put a client's unpublished material in a public portfolio.</p>
 
-<p>Most clients ask for three to five examples. Send your strongest five, in one link, in the same style &mdash; consistency is the thing being assessed.</p>
+<p>Most clients ask for three to five examples. Send your strongest five, in one link, in the same style: consistency is the thing being assessed.</p>
 
 <h2>What to Learn, in Order</h2>
 
 <ul>
     <li><strong>Canva itself,</strong> properly: templates, text hierarchy, alignment, image handling and export settings. Making something that looks deliberate rather than assembled is the whole job.</li>
-    <li><strong>Platform formats</strong> and what actually differs between them &mdash; dimensions, where text gets cropped, and what a safe margin is.</li>
+    <li><strong>Platform formats</strong> and what actually differs between them: dimensions, where text gets cropped, and what a safe margin is.</li>
     <li><strong>Caption writing.</strong> The assistants who can write move up fastest, because the client stops needing a second person.</li>
     <li><strong>One scheduling workflow,</strong> whichever the client uses.</li>
     <li><strong>Short-form video basics</strong> last. It is a genuine differentiator, but only once the static work is reliable.</li>
@@ -374,7 +374,7 @@ JOBHTML;
 
 <h2>Where This Leads</h2>
 
-<p>The usual progression runs Canva assistant, then social media assistant, then coordinator, then manager. The step that actually changes your income is moving from producing assets to owning the calendar &mdash; deciding what goes out and when, not just making it.</p>
+<p>The usual progression runs Canva assistant, then social media assistant, then coordinator, then manager. The step that actually changes your income is moving from producing assets to owning the calendar: deciding what goes out and when, not just making it.</p>
 
 <p>The other route is specialising by industry rather than by seniority. An assistant who understands e-commerce, property or personal-brand content can charge more than a generalist at the same skill level, because the client spends less time explaining.</p>
 
@@ -397,7 +397,7 @@ JOBHTML;
     <li>Is a carousel priced as one deliverable or per slide?</li>
     <li>Does the client supply copy, or are you writing it too?</li>
     <li>How many revisions are included?</li>
-    <li>Is anything being asked for beyond social posts &mdash; a logo, merchandise, resale templates?</li>
+    <li>Is anything being asked for beyond social posts: a logo, merchandise, resale templates?</li>
     <li>Are you paid per deliverable or per hour, and which suits the volume?</li>
 </ul>
 
@@ -410,7 +410,7 @@ JOBHTML;
 <p>No. This part of the field hires on portfolio and reliability. A consistent set of samples built around two invented brands will do more for you than any certificate, because it shows the exact thing the client is buying.</p>
 
 <h3>Can I do this work on the free Canva plan?</h3>
-<p>Partly. Magic Resize, the Content Planner and Background Remover are paid only. A Brand Kit exists on the free plan but holds just three colours. Premium elements are watermarked until licensed. You can still design, export and share to socials for free, so a portfolio is entirely possible &mdash; just do not plan it around a paid feature, and ask a client to add you to their account rather than buying your own.</p>
+<p>Partly. Magic Resize, the Content Planner and Background Remover are paid only. A Brand Kit exists on the free plan but holds just three colours. Premium elements are watermarked until licensed. You can still design, export and share to socials for free, so a portfolio is entirely possible: just do not plan it around a paid feature, and ask a client to add you to their account rather than buying your own.</p>
 
 <h3>Can I use Canva templates for paid client work?</h3>
 <p>For ordinary social media designs, yes. The restrictions bite on adjacent requests: using Canva stock content in a logo or trademark, reselling designs as template packs, handing over stock elements as standalone files, and merchandise for resale. Read Canva's content licence once and keep client work to finished designs.</p>
@@ -443,11 +443,11 @@ JOBHTML;
 <h2>More Job Guides</h2>
 
 <ul>
-    <li><a href="/blog/social-media-manager-jobs-in-usa">Social Media Manager Jobs in USA</a> &mdash; where this skill set leads, and the platform rules that govern account growth.</li>
-    <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a> &mdash; the design route, and what it pays internationally.</li>
-    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a> &mdash; adjacent production work, and the trap in per-post pricing.</li>
-    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a> &mdash; the broader remote route that often includes design tasks.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; realistic entry points and what they pay.</li>
+    <li><a href="/blog/social-media-manager-jobs-in-usa">Social Media Manager Jobs in USA</a>: where this skill set leads, and the platform rules that govern account growth.</li>
+    <li><a href="/blog/graphic-designer-jobs-in-usa">Graphic Designer Jobs in USA</a>: the design route, and what it pays internationally.</li>
+    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a>: adjacent production work, and the trap in per-post pricing.</li>
+    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a>: the broader remote route that often includes design tasks.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: realistic entry points and what they pay.</li>
 </ul>
 HTML;
     }

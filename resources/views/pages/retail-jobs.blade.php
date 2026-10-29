@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Retail Jobs — Store, Stockroom and Management | JobGader')
+@section('title', 'Retail Jobs: Store, Stockroom and Management | JobGader')
 @section('meta_description', 'Retail jobs across the USA and UK: sales assistant, stockroom and store management pay, seasonal hiring cycles, and how to apply free.')
-@section('og_title', 'Retail Jobs — Store, Stockroom and Management | JobGader')
+@section('og_title', 'Retail Jobs: Store, Stockroom and Management | JobGader')
 @section('og_description', 'Retail jobs across the USA and UK: sales assistant, stockroom and store management pay, seasonal hiring cycles, and how to apply free.')
 @section('canonical', url()->current())
 
@@ -31,7 +31,7 @@
                 'title' => 'Shop Floor, Stockroom or Online Fulfilment',
                 'paragraphs' => [
                     'These are different jobs with different hours. Shop floor work is customer-facing and scheduled around trading hours. Stockroom and replenishment work often starts before the store opens or runs overnight, and pays a premium for it.',
-                    'Online fulfilment inside stores — picking and packing click-and-collect orders — has grown into a category of its own and sits somewhere between retail and warehouse work in both pace and pay.',
+                    'Online fulfilment inside stores, picking and packing click-and-collect orders, has grown into a category of its own and sits somewhere between retail and warehouse work in both pace and pay.',
                 ],
             ],
             [

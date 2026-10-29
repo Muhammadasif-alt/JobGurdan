@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Get a Warehouse Driver Job in UK" — the route from a car licence to
+ * "How to Get a Warehouse Driver Job in UK": the route from a car licence to
  * an HGV licence, priced from ONS earnings rather than recruiter blogs, with
  * the Skilled Worker position stated plainly because it decides whether an
  * overseas reader should read on at all.
@@ -166,7 +166,7 @@ class WarehouseDriverJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, licence checks and training support are set by each employer, and licensing rules by DVLA and DVSA &mdash; not by JobGader. Check the current vacancy and gov.uk before applying.</p>
+<p><strong>Note:</strong> pay, licence checks and training support are set by each employer, and licensing rules by DVLA and DVSA, not by JobGader. Check the current vacancy and gov.uk before applying.</p>
 JOBHTML;
     }
 
@@ -187,8 +187,8 @@ JOBHTML;
 
 <ul>
     <li><strong>Van and site driving.</strong> Multi-drop delivery, warehouse-to-customer runs and internal site transport usually ask for a full UK car licence and nothing more.</li>
-    <li><strong>Category C (informally "class 2").</strong> Vehicles over 3,500 kg with a trailer up to 750 kg &mdash; rigid lorries.</li>
-    <li><strong>Category CE (informally "class 1").</strong> Category C vehicles with a trailer over 750 kg &mdash; articulated work.</li>
+    <li><strong>Category C (informally "class 2").</strong> Vehicles over 3,500 kg with a trailer up to 750 kg: rigid lorries.</li>
+    <li><strong>Category CE (informally "class 1").</strong> Category C vehicles with a trailer over 750 kg: articulated work.</li>
 </ul>
 
 <p>"Class 1" and "class 2" are industry shorthand: they appear in employers' adverts, not in DVLA's own categories, so search for both spellings when you look for work.</p>
@@ -198,7 +198,7 @@ JOBHTML;
 <ol>
     <li><strong>Hold a full car licence</strong> and be over 18. The default age for category C and CE is 21, reduced to <strong>18</strong> if you hold the Driver CPC initial qualification.</li>
     <li><strong>Apply for provisional lorry entitlement</strong> with form <strong>D2</strong>, together with a <strong>D4 medical examination report</strong> completed by a doctor. There is <strong>no DVLA application fee</strong>, and the licence normally arrives within three weeks.</li>
-    <li><strong>Pass the Driver CPC modules:</strong> the theory module &mdash; booked as two separate parts, multiple choice and hazard perception &mdash; then case studies, the off-road exercises, the on-road driving test, and the practical demonstration test.</li>
+    <li><strong>Pass the Driver CPC modules:</strong> the theory module, booked as two separate parts, multiple choice and hazard perception, then case studies, the off-road exercises, the on-road driving test, and the practical demonstration test.</li>
     <li><strong>Keep it current:</strong> 35 hours of periodic training every five years, or you cannot drive professionally.</li>
 </ol>
 
@@ -221,7 +221,7 @@ JOBHTML;
 
 <p>England runs government-funded <strong>Skills Bootcamps in HGV driving</strong>, free and lasting up to <strong>16 weeks</strong>. You must be <strong>19 or older</strong> with a full category B car licence. The funding covers getting the provisional licence <strong>including the medical</strong>, each of the Driver CPC tests, and one re-sit per test. Funding allocations run into 2026 to 2027.</p>
 
-<p>Outside that, the National Careers Service route is an <strong>LGV Driver C and E Level 2 apprenticeship</strong>, about a year long, or an employer that sponsors your licence &mdash; which is what "warehouse now, class C within 6 to 12 months" adverts are offering. Get that promise in writing, with who pays if you leave.</p>
+<p>Outside that, the National Careers Service route is an <strong>LGV Driver C and E Level 2 apprenticeship</strong>, about a year long, or an employer that sponsors your licence, which is what "warehouse now, class C within 6 to 12 months" adverts are offering. Get that promise in writing, with who pays if you leave.</p>
 
 <h2>What Warehouse and Lorry Drivers Actually Earn</h2>
 
@@ -247,7 +247,7 @@ JOBHTML;
 
 <h3>The night-out allowance most guides get wrong</h3>
 
-<p>HMRC's approved overnight subsistence amount for lorry drivers is <strong>&pound;34.90 a night</strong>, not &pound;26.20. Where the driver sleeps in a <strong>sleeper cab</strong>, HMRC accepts <strong>75% of that figure &mdash; &pound;26.18</strong> &mdash; which is where the number in circulation comes from. Paying it tax-free needs an HMRC approval notice, so ask how your employer handles it.</p>
+<p>HMRC's approved overnight subsistence amount for lorry drivers is <strong>&pound;34.90 a night</strong>, not &pound;26.20. Where the driver sleeps in a <strong>sleeper cab</strong>, HMRC accepts <strong>75% of that figure, &pound;26.18</strong>, which is where the number in circulation comes from. Paying it tax-free needs an HMRC approval notice, so ask how your employer handles it.</p>
 
 <h2>Where the Demand Actually Is</h2>
 
@@ -268,13 +268,13 @@ JOBHTML;
 
 <h2>Do Penalty Points Stop You Being Hired?</h2>
 
-<p>Employers and their insurers often set a limit &mdash; six points is a common one &mdash; but that is company policy, not law. The statutory thresholds are <strong>12 or more points in three years</strong> for disqualification, and, for drivers within two years of passing their first test, <strong>6 or more points revokes the licence</strong>. Ask the employer what its insurer accepts rather than assuming.</p>
+<p>Employers and their insurers often set a limit, six points is a common one, but that is company policy, not law. The statutory thresholds are <strong>12 or more points in three years</strong> for disqualification, and, for drivers within two years of passing their first test, <strong>6 or more points revokes the licence</strong>. Ask the employer what its insurer accepts rather than assuming.</p>
 
 <h2>How to Get Hired</h2>
 
 <ol>
     <li><strong>Start on the licence you already hold.</strong> Van and site driver roles hire on a car licence and get you inside a depot.</li>
-    <li><strong>Book the D4 medical early</strong> &mdash; the provisional application needs it, and it is the step people leave too late.</li>
+    <li><strong>Book the D4 medical early</strong>: the provisional application needs it, and it is the step people leave too late.</li>
     <li><strong>Check Skills Bootcamps</strong> if you are in England and 19 or over before you pay a training school.</li>
     <li><strong>Get employer-funded training in writing</strong>, including the repayment terms if you leave.</li>
     <li><strong>Decide C or CE.</strong> C is quicker and cheaper; CE is where the money is.</li>
@@ -299,7 +299,7 @@ JOBHTML;
 <p>It can be. Skills Bootcamps in England are free for people 19 or over with a car licence, and cover the provisional licence, the medical and the CPC tests with one re-sit each.</p>
 
 <h3>How much is the night-out allowance?</h3>
-<p>HMRC's approved rate is &pound;34.90 a night, or 75% of it &mdash; &pound;26.18 &mdash; where the driver uses a sleeper cab, subject to an HMRC approval notice.</p>
+<p>HMRC's approved rate is &pound;34.90 a night, or 75% of it, &pound;26.18, where the driver uses a sleeper cab, subject to an HMRC approval notice.</p>
 
 <h3>Can I get a UK visa as a lorry driver?</h3>
 <p>No. SOC 8211 is ineligible for the Skilled Worker visa, so HGV driving jobs cannot be sponsored.</p>
@@ -338,15 +338,15 @@ JOBHTML;
 <p>Comparing UK and driving routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; van and courier work, its pay and the gig platforms.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; the honest answer on sponsorship for warehouse work.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the Skilled Worker threshold and which jobs qualify.</li>
-    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a> &mdash; the European route, where drivers can be sponsored.</li>
-    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a> &mdash; the American licence route and its pay.</li>
-    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a> &mdash; another entry-level route into UK retail and logistics.</li>
-    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a> &mdash; award pay, the new gig minimum standards order, ABN and GST rules.</li>
-    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a> &mdash; the union pay scale, and why no delivery role can be sponsored.</li>
-    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a> &mdash; the medical and drug screening standard, and why the trackside code cannot be sponsored.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: van and courier work, its pay and the gig platforms.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: the honest answer on sponsorship for warehouse work.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the Skilled Worker threshold and which jobs qualify.</li>
+    <li><a href="/blog/how-to-get-a-transport-job-in-germany">How to Get a Transport Job in Germany</a>: the European route, where drivers can be sponsored.</li>
+    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a>: the American licence route and its pay.</li>
+    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a>: another entry-level route into UK retail and logistics.</li>
+    <li><a href="/blog/how-to-get-a-delivery-job-in-australia">How to Get a Delivery Job in Australia</a>: award pay, the new gig minimum standards order, ABN and GST rules.</li>
+    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a>: the union pay scale, and why no delivery role can be sponsored.</li>
+    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a>: the medical and drug screening standard, and why the trackside code cannot be sponsored.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using gov.uk licensing and Driver CPC guidance, DVSA fees, ONS ASHE 2025, HMRC manual EIM66110 and DfT road freight statistics. Rules, fees and pay change. Always check gov.uk and the current vacancy before applying.</p>

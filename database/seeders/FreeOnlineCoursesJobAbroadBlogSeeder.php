@@ -179,10 +179,10 @@ class FreeOnlineCoursesJobAbroadBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/top-skills-job-abroad-fast">Top Skills That Get You a Job Abroad Fast</a> &mdash; what employers want</li>
-    <li><a href="/blog/how-to-write-resume-job-abroad">How to Write a Resume for a Job Abroad</a> &mdash; tailor your CV</li>
-    <li><a href="/blog/english-language-requirements-working-abroad">English Language Requirements for Working Abroad</a> &mdash; tests and exemptions</li>
-    <li><a href="/blog/find-job-abroad-without-recruiter">How to Find a Job Abroad Without a Recruiter</a> &mdash; search yourself</li>
+    <li><a href="/blog/top-skills-job-abroad-fast">Top Skills That Get You a Job Abroad Fast</a>: what employers want</li>
+    <li><a href="/blog/how-to-write-resume-job-abroad">How to Write a Resume for a Job Abroad</a>: tailor your CV</li>
+    <li><a href="/blog/english-language-requirements-working-abroad">English Language Requirements for Working Abroad</a>: tests and exemptions</li>
+    <li><a href="/blog/find-job-abroad-without-recruiter">How to Find a Job Abroad Without a Recruiter</a>: search yourself</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>

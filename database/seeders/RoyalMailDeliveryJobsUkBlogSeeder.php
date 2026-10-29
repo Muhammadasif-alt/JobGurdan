@@ -200,7 +200,7 @@ class RoyalMailDeliveryJobsUkBlogSeeder extends Seeder
 
 <h3>Common requirements</h3>
 <ul>
-    <li>The existing right to work in the United Kingdom &mdash; these occupation codes cannot be sponsored</li>
+    <li>The existing right to work in the United Kingdom: these occupation codes cannot be sponsored</li>
     <li>A full UK driving licence registered to your current address for driving roles, within the penalty point limit stated on the advert</li>
     <li>Comfortable carrying a mailbag weighing up to 16kg and walking around 20,000 steps a day</li>
     <li>Flexibility across early, late, night and weekend shifts in a 24/7 operation</li>
@@ -208,7 +208,7 @@ class RoyalMailDeliveryJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay and conditions for these roles are set by Royal Mail and the CWU agreement, and visa rules are set by the Home Office &mdash; not by JobGader. Apply directly on Royal Mail's own careers site and never pay anyone for a Royal Mail job or a shift.</p>
+<p><strong>Note:</strong> pay and conditions for these roles are set by Royal Mail and the CWU agreement, and visa rules are set by the Home Office, not by JobGader. Apply directly on Royal Mail's own careers site and never pay anyone for a Royal Mail job or a shift.</p>
 JOBHTML;
     }
 
@@ -217,7 +217,7 @@ JOBHTML;
         return <<<'HTML'
 <p><strong>Apply on Royal Mail's own Delivery and Sorting careers page, choose the delivery office you would actually report to, and work through the six steps Royal Mail publishes: apply online, online tests if applicable, interview, offer and checks, onboarding, and a driving assessment for driving roles.</strong> There is no shortcut, and no agent who can skip a step for you.</p>
 
-<p>Two answers before you spend an hour on this. <strong>A Royal Mail delivery job cannot be sponsored for a UK work visa</strong> &mdash; the Home Office lists these occupation codes as ineligible, so you need a right to work you already hold. And the hourly rates circulating for these roles are job-board spreads; the figures that can actually be sourced sit in the CWU and Royal Mail pay agreement, and those are the ones used below.</p>
+<p>Two answers before you spend an hour on this. <strong>A Royal Mail delivery job cannot be sponsored for a UK work visa</strong>: the Home Office lists these occupation codes as ineligible, so you need a right to work you already hold. And the hourly rates circulating for these roles are job-board spreads; the figures that can actually be sourced sit in the CWU and Royal Mail pay agreement, and those are the ones used below.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://careers.royalmailgroup.com/gb/en/Delivery_and_sorting" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#e4002b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -227,7 +227,7 @@ JOBHTML;
 
 <h2>Who You Are Actually Applying To</h2>
 
-<p>It is still Royal Mail on the van, but the company behind it changed hands and most guides have not caught up. The parent is <strong>International Distribution Services</strong> &mdash; singular "Distribution" &mdash; and it is <strong>no longer a plc</strong>. EP Group, the Czech group led by Daniel K&#345;et&#237;nsk&#253;, completed its takeover at the end of April 2025, and <strong>IDS was delisted from the London Stock Exchange on 2 June 2025</strong>. The old corporate address, royalmailgroup.com, now redirects to internationaldistributionservices.com. A guide still calling the owner "International Distributions Services plc" has two errors in four words.</p>
+<p>It is still Royal Mail on the van, but the company behind it changed hands and most guides have not caught up. The parent is <strong>International Distribution Services</strong>, singular "Distribution", and it is <strong>no longer a plc</strong>. EP Group, the Czech group led by Daniel K&#345;et&#237;nsk&#253; completed its takeover at the end of April 2025, and <strong>IDS was delisted from the London Stock Exchange on 2 June 2025</strong>. The old corporate address, royalmailgroup.com, now redirects to internationaldistributionservices.com. A guide still calling the owner "International Distributions Services plc" has two errors in four words.</p>
 
 <p>The UK government cleared the <strong>&pound;3.6 billion</strong> deal in December 2024 only against binding undertakings: the Royal Mail name and brand are kept, the headquarters and tax residency stay in the UK, the <strong>universal service obligation</strong> is protected, employee benefits are maintained, and dividends are barred unless financial and service targets are met. The government also holds a golden share over the headquarters and tax residency commitments. So the brief's instinct on the undertakings was right, even if its company name was not.</p>
 
@@ -267,7 +267,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>Put the first two rows together and the honest band is roughly <strong>&pound;13.06 an hour for a new entrant</strong> &mdash; the &pound;15.04 national rate less the &pound;1.98 gap the union itself quotes &mdash; up to <strong>&pound;15.04</strong> on a legacy contract, before the April 2026 uplifts and before London weighting. That is arithmetic on two published union figures, and the working is shown so you can check it rather than trust it.</p>
+<p>Put the first two rows together and the honest band is roughly <strong>&pound;13.06 an hour for a new entrant</strong>, the &pound;15.04 national rate less the &pound;1.98 gap the union itself quotes, up to <strong>&pound;15.04</strong> on a legacy contract, before the April 2026 uplifts and before London weighting. That is arithmetic on two published union figures, and the working is shown so you can check it rather than trust it.</p>
 
 <p>What this guide will not do is repeat the "&pound;12.54 to &pound;16.24" spread you will see elsewhere. Those numbers are scraped from expired adverts and user submissions across different contracts, regions and London weightings, and they tell you nothing about the office you are applying to. The number that matters is the one printed on the live advert in front of you.</p>
 
@@ -282,7 +282,7 @@ JOBHTML;
 <ul>
     <li><strong>Postperson with Driving.</strong> Royal Mail's adverts ask for a full UK manual driving licence (Category B, up to 3.5t) registered to your current address, with <strong>no more than 6 penalty points</strong>.</li>
     <li><strong>Parcelforce collection and delivery drivers.</strong> The frontline careers page states a "full UK manual driving licence (Cat C1) with no more than 6 penalty points".</li>
-    <li><strong>Class 1 LGV.</strong> The Drivers page asks for a valid UK Large Goods Vehicle Class 1 licence (C+E) "with <strong>less than</strong> 6 penalty points" &mdash; less than six, so five is the practical ceiling, not six.</li>
+    <li><strong>Class 1 LGV.</strong> The Drivers page asks for a valid UK Large Goods Vehicle Class 1 licence (C+E) "with <strong>less than</strong> 6 penalty points": less than six, so five is the practical ceiling, not six.</li>
     <li><strong>Class 2 and MGV.</strong> A valid UK Category C1 licence "registered to your current address, with less than 6 penalty points".</li>
 </ul>
 
@@ -295,13 +295,13 @@ JOBHTML;
 <p>Under the Skilled Worker rules in force since <strong>22 July 2025</strong>, the Home Office publishes every occupation code and marks it eligible or not. On that list:</p>
 
 <ul>
-    <li><strong>9211 Postal workers, mail sorters and messengers</strong> &mdash; Ineligible</li>
-    <li><strong>8214 Delivery drivers and couriers</strong> &mdash; Ineligible</li>
-    <li><strong>8211 Heavy and large goods vehicle drivers</strong> &mdash; Ineligible</li>
-    <li><strong>7123 Van salespersons and roundspersons</strong> &mdash; Ineligible</li>
+    <li><strong>9211 Postal workers, mail sorters and messengers</strong>: Ineligible</li>
+    <li><strong>8214 Delivery drivers and couriers</strong>: Ineligible</li>
+    <li><strong>8211 Heavy and large goods vehicle drivers</strong>: Ineligible</li>
+    <li><strong>7123 Van salespersons and roundspersons</strong>: Ineligible</li>
 </ul>
 
-<p>"Ineligible" means no employer can sponsor that job, however short-staffed it is. The skill threshold for the route rose to degree level in July 2025, with narrow time-limited exceptions on the Temporary Shortage List that do not cover postal or delivery work, and the general salary floor is <strong>&pound;41,700 a year</strong> or the going rate for the occupation, whichever is higher &mdash; which a delivery round would not reach in any event.</p>
+<p>"Ineligible" means no employer can sponsor that job, however short-staffed it is. The skill threshold for the route rose to degree level in July 2025, with narrow time-limited exceptions on the Temporary Shortage List that do not cover postal or delivery work, and the general salary floor is <strong>&pound;41,700 a year</strong> or the going rate for the occupation, whichever is higher, which a delivery round would not reach in any event.</p>
 
 <p>So Royal Mail delivery work is open to you if you already hold the right to work: British or Irish citizenship, settled or pre-settled status, indefinite leave to remain, a partner or family visa, a graduate visa, or a dependant visa that permits work. It is not a route into the UK. Anyone offering you a sponsored Royal Mail postperson job is running a scam. If you are looking from abroad, <a href="/blog/jobs-in-uk-for-foreigners">our guide to jobs in UK for foreigners</a> sets out the routes that genuinely exist.</p>
 
@@ -386,19 +386,19 @@ JOBHTML;
 <p>If Royal Mail is one option rather than the only one, these cover the rest of the UK market:</p>
 
 <ul>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; the wider delivery market, and what the same licence is worth elsewhere.</li>
-    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a> &mdash; the indoor alternative when the weather stops being romantic.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; what sponsorship really covers in logistics, and what it does not.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the routes that exist once the ineligible occupation codes are ruled out.</li>
-    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a> &mdash; an employer that does publish its hourly rate, at every age.</li>
-    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a> &mdash; similar entry requirements, indoors and on fixed hours.</li>
-    <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a> &mdash; the desk-based step up from a frontline role.</li>
-    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a> &mdash; where the same reliability gets you off your feet.</li>
-    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a> &mdash; the opposite end of the same job market.</li>
-    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a> &mdash; the same kind of work under a union contract, on the other side of the Atlantic.</li>
-    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a> &mdash; the hourly rate M and S announces itself, and why no store role can be sponsored.</li>
-    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a> &mdash; the medical and drug screening standard, and why the trackside code cannot be sponsored.</li>
-    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a> &mdash; the five year vetting and counter terrorism check that decide the application.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: the wider delivery market, and what the same licence is worth elsewhere.</li>
+    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a>: the indoor alternative when the weather stops being romantic.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: what sponsorship really covers in logistics, and what it does not.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the routes that exist once the ineligible occupation codes are ruled out.</li>
+    <li><a href="/blog/how-to-apply-for-tesco-supermarket-jobs-in-uk">How to Apply for Tesco Supermarket Jobs in UK</a>: an employer that does publish its hourly rate, at every age.</li>
+    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a>: similar entry requirements, indoors and on fixed hours.</li>
+    <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a>: the desk-based step up from a frontline role.</li>
+    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a>: where the same reliability gets you off your feet.</li>
+    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a>: the opposite end of the same job market.</li>
+    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a>: the same kind of work under a union contract, on the other side of the Atlantic.</li>
+    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a>: the hourly rate M and S announces itself, and why no store role can be sponsored.</li>
+    <li><a href="/blog/how-to-apply-for-network-rail-maintenance-jobs-in-the-uk">How to Apply for Network Rail Maintenance Jobs in the UK</a>: the medical and drug screening standard, and why the trackside code cannot be sponsored.</li>
+    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a>: the five year vetting and counter terrorism check that decide the application.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Royal Mail Group's own careers pages for roles, hiring steps, licence requirements, benefits and annual leave wording; the CWU and Royal Mail Group pay agreement and CWU letters to branches for pay figures and contract hours; International Distribution Services and UK government announcements for ownership and undertakings; Ofcom's July 2025 universal service statement; and the Home Office eligible occupation list and Skilled Worker guidance for the visa position. Royal Mail vacancy adverts expire quickly, and pay, hours and immigration rules change. Always check the live advert and the official guidance before you commit.</p>

@@ -155,7 +155,7 @@ HTML;
 
 <p>Start here, because it explains why published "senior" averages disagree with each other so wildly.</p>
 
-<p>The Standard Occupational Classification, which is the framework all US federal wage data is published against, has no seniority tier. The 2018 definition of <strong>15-1252 Software Developers</strong> lists illustrative examples &mdash; Computer Applications Engineer, Computer Systems Engineer, Mobile Applications Developer, Software Applications Architect, Software Engineer, Systems Software Developer &mdash; and not one of them contains the word "senior". There is no SOC code for a front end developer either; the nearest are 15-1252, 15-1254 Web Developers and 15-1255 Web and Digital Interface Designers.</p>
+<p>The Standard Occupational Classification, which is the framework all US federal wage data is published against, has no seniority tier. The 2018 definition of <strong>15-1252 Software Developers</strong> lists illustrative examples, Computer Applications Engineer, Computer Systems Engineer, Mobile Applications Developer, Software Applications Architect, Software Engineer, Systems Software Developer, and not one of them contains the word "senior". There is no SOC code for a front end developer either; the nearest are 15-1252, 15-1254 Web Developers and 15-1255 Web and Digital Interface Designers.</p>
 
 <p>Federal wage law is blunter still. <strong>29 CFR 541.400(a)</strong>, on computer employees, says:</p>
 
@@ -170,14 +170,14 @@ HTML;
 <p>Federal data is published by occupation, not by grade. As of <strong>May 2025</strong>:</p>
 
 <ul>
-    <li><strong>Software developers</strong> &mdash; median <strong>$135,980</strong>. The lowest 10 per cent earned less than <strong>$82,460</strong>, and the highest 10 per cent more than <strong>$214,670</strong>.</li>
-    <li><strong>Software quality assurance analysts and testers</strong> &mdash; median <strong>$104,300</strong>, with the lowest tenth under <strong>$61,440</strong> and the highest tenth above <strong>$167,010</strong>.</li>
-    <li><strong>Web developers</strong> &mdash; median <strong>$92,650</strong>, which is the occupation a React role scoped as implementation rather than engineering is benchmarked against.</li>
+    <li><strong>Software developers</strong>: median <strong>$135,980</strong>. The lowest 10 per cent earned less than <strong>$82,460</strong>, and the highest 10 per cent more than <strong>$214,670</strong>.</li>
+    <li><strong>Software quality assurance analysts and testers</strong>: median <strong>$104,300</strong>, with the lowest tenth under <strong>$61,440</strong> and the highest tenth above <strong>$167,010</strong>.</li>
+    <li><strong>Web developers</strong>: median <strong>$92,650</strong>, which is the occupation a React role scoped as implementation rather than engineering is benchmarked against.</li>
 </ul>
 
 <p>Two things about those numbers that nearly every salary article gets wrong.</p>
 
-<p><strong>The percentiles are a wage distribution, not a career ladder.</strong> The 90th percentile is not "senior pay" and the 10th is not "junior pay". A senior developer at a small agency and a mid-level engineer at a large platform company can sit on opposite sides of the median. The Occupational Employment and Wage Statistics programme defines the median as the boundary "between the highest paid 50 percent and the lowest paid 50 percent of workers in that occupation" &mdash; it describes workers, not grades.</p>
+<p><strong>The percentiles are a wage distribution, not a career ladder.</strong> The 90th percentile is not "senior pay" and the 10th is not "junior pay". A senior developer at a small agency and a mid-level engineer at a large platform company can sit on opposite sides of the median. The Occupational Employment and Wage Statistics programme defines the median as the boundary "between the highest paid 50 percent and the lowest paid 50 percent of workers in that occupation": it describes workers, not grades.</p>
 
 <p><strong>The mean is not the median.</strong> The same May 2025 survey puts the <em>mean</em> annual wage for software developers at <strong>$148,100</strong>, about nine per cent above the median, because high earners pull an average upward and a median ignores them. A large share of "average salary" figures in circulation are means quoted as if they were typical. If you are comparing an offer, compare it against the median.</p>
 
@@ -227,10 +227,10 @@ HTML;
 <p>There is one place, and it is the reason this section exists: the Department of Labor's prevailing wage system for sponsored roles. Wage determinations are issued at four levels, and the official definitions are the only federal wording that grades seniority:</p>
 
 <ul>
-    <li><strong>Level I (entry)</strong> &mdash; "beginning level employees who have only a basic understanding of the occupation", performing routine tasks "that require limited, if any, exercise of judgment", working "under close supervision".</li>
-    <li><strong>Level II (qualified)</strong> &mdash; employees "who have attained, either through education or experience, a good understanding of the occupation", performing "moderately complex tasks that require limited judgment".</li>
-    <li><strong>Level III (experienced)</strong> &mdash; employees "who have a sound understanding of the occupation and have attained, either through education or experience, special skills or knowledge", performing "tasks that require exercising judgment", who "may coordinate the activities of other staff" and "may have supervisory authority over those staff".</li>
-    <li><strong>Level IV (fully competent)</strong> &mdash; employees with "sufficient experience in the occupation to plan and conduct work requiring judgment and the independent evaluation, selection, modification, and application of standard procedures and techniques", using "advanced skills and diversified knowledge to solve unusual and complex problems", who "generally have management and/or supervisory responsibilities".</li>
+    <li><strong>Level I (entry)</strong>: "beginning level employees who have only a basic understanding of the occupation", performing routine tasks "that require limited, if any, exercise of judgment", working "under close supervision".</li>
+    <li><strong>Level II (qualified)</strong>: employees "who have attained, either through education or experience, a good understanding of the occupation", performing "moderately complex tasks that require limited judgment".</li>
+    <li><strong>Level III (experienced)</strong>: employees "who have a sound understanding of the occupation and have attained, either through education or experience, special skills or knowledge", performing "tasks that require exercising judgment", who "may coordinate the activities of other staff" and "may have supervisory authority over those staff".</li>
+    <li><strong>Level IV (fully competent)</strong>: employees with "sufficient experience in the occupation to plan and conduct work requiring judgment and the independent evaluation, selection, modification, and application of standard procedures and techniques", using "advanced skills and diversified knowledge to solve unusual and complex problems", who "generally have management and/or supervisory responsibilities".</li>
 </ul>
 
 <p>Now the part that makes this concrete. The same guidance names the job title itself as evidence:</p>
@@ -308,30 +308,30 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the main guide: the two occupations, the pay bands, and the toolchain that dates a portfolio.</li>
-    <li><a href="/blog/remote-react-developer-jobs-in-usa">Remote React Developer Jobs in USA</a> &mdash; W-2 against 1099, self-employment tax and the misclassification test, which matter most on senior contract work.</li>
-    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a> &mdash; the other end of the same ladder, and what the federal record says about experience.</li>
-    <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a> &mdash; state restrictions, the convenience of the employer rule, and cleared remote work.</li>
-    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a> &mdash; the staffing layer, and why unpaid time between projects is non-payment of wages.</li>
-    <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a> &mdash; the levelled ladder, and how equity and bonus are taxed at this grade.</li>
-    <li><a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript Developer Jobs in USA</a> &mdash; the typed codebases senior roles usually own, and where type safety actually stops.</li>
-    <li><a href="/blog/react-front-end-engineer-jobs-in-usa">React Front End Engineer Jobs in USA</a> &mdash; the numbered ladder, and the states that require the band to be published.</li>
-    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a> &mdash; the assessment stage, what federal law calls it, and the adjustment you can ask for.</li>
-    <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a> &mdash; accessibility law and Core Web Vitals, the two measurable skills that move you up the band.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the main guide: the two occupations, the pay bands, and the toolchain that dates a portfolio.</li>
+    <li><a href="/blog/remote-react-developer-jobs-in-usa">Remote React Developer Jobs in USA</a>: W-2 against 1099, self-employment tax and the misclassification test, which matter most on senior contract work.</li>
+    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a>: the other end of the same ladder, and what the federal record says about experience.</li>
+    <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a>: state restrictions, the convenience of the employer rule, and cleared remote work.</li>
+    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a>: the staffing layer, and why unpaid time between projects is non-payment of wages.</li>
+    <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a>: the levelled ladder, and how equity and bonus are taxed at this grade.</li>
+    <li><a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript Developer Jobs in USA</a>: the typed codebases senior roles usually own, and where type safety actually stops.</li>
+    <li><a href="/blog/react-front-end-engineer-jobs-in-usa">React Front End Engineer Jobs in USA</a>: the numbered ladder, and the states that require the band to be published.</li>
+    <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a>: the assessment stage, what federal law calls it, and the adjustment you can ask for.</li>
+    <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a>: accessibility law and Core Web Vitals, the two measurable skills that move you up the band.</li>
 </ul>
 
 <h2>Official sources</h2>
 
 <ul>
-    <li>Bureau of Labor Statistics &mdash; Occupational Outlook Handbook, Software Developers, Quality Assurance Analysts, and Testers; and the Occupational Employment and Wage Statistics national table for May 2025.</li>
+    <li>Bureau of Labor Statistics: Occupational Outlook Handbook, Software Developers, Quality Assurance Analysts, and Testers; and the Occupational Employment and Wage Statistics national table for May 2025.</li>
     <li>2018 Standard Occupational Classification definitions, 15-1252, 15-1254 and 15-1255.</li>
-    <li>29 CFR Part 541 &mdash; sections 541.400, 541.401, 541.402 and 541.600, as republished by technical amendment at 91 FR 27833 (15 May 2026) following the vacatur of the 2024 rule.</li>
-    <li>Department of Labor, Wage and Hour Division &mdash; Fact Sheet #17A and Fact Sheet #17E on the computer employee exemption.</li>
-    <li>Employment and Training Administration &mdash; Prevailing Wage Determination Policy Guidance, Nonagricultural Immigration Programs, revised November 2009; and 20 CFR 655.731 with Fact Sheet #62G.</li>
-    <li>Office of Personnel Management &mdash; Information Technology Management Series, GS-2210.</li>
+    <li>29 CFR Part 541: sections 541.400, 541.401, 541.402 and 541.600, as republished by technical amendment at 91 FR 27833 (15 May 2026) following the vacatur of the 2024 rule.</li>
+    <li>Department of Labor, Wage and Hour Division: Fact Sheet #17A and Fact Sheet #17E on the computer employee exemption.</li>
+    <li>Employment and Training Administration: Prevailing Wage Determination Policy Guidance, Nonagricultural Immigration Programs, revised November 2009; and 20 CFR 655.731 with Fact Sheet #62G.</li>
+    <li>Office of Personnel Management: Information Technology Management Series, GS-2210.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or immigration advice. Wage data, exemption thresholds and prevailing wage guidance change, and exempt status turns on the facts of an individual job &mdash; confirm the current position with the Bureau of Labor Statistics, the Department of Labor and the employer before relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or immigration advice. Wage data, exemption thresholds and prevailing wage guidance change, and exempt status turns on the facts of an individual job: confirm the current position with the Bureau of Labor Statistics, the Department of Labor and the employer before relying on any of it.</p>
 HTML;
     }
 }

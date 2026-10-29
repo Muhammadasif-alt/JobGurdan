@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Lead Generation Assistant Jobs" — a role whose whole function is collecting
+ * "Lead Generation Assistant Jobs": a role whose whole function is collecting
  * strangers' contact details and emailing them, written for an audience nobody
  * warns about the consequences of doing that badly.
  *
@@ -160,7 +160,7 @@ class LeadGenerationAssistantJobsBlogSeeder extends Seeder
 <h3>Pay</h3>
 <p>Set per employer, and most publish nothing. Where figures were published, remote roles ran from around PKR 20,000 to 30,000 at student level up to PKR 75,000 to 150,000 for experienced sales roles.</p>
 
-<p>Requirements, pay and compliance obligations are set by individual employers and by the law of the country you are emailing &mdash; not by JobGader. Confirm terms in writing before starting, and never pay anyone to secure work.</p>
+<p>Requirements, pay and compliance obligations are set by individual employers and by the law of the country you are emailing, not by JobGader. Confirm terms in writing before starting, and never pay anyone to secure work.</p>
 JOBHTML;
     }
 
@@ -169,7 +169,7 @@ JOBHTML;
         return <<<'HTML'
 <p>Every other guide to this job will tell you it is an easy way into sales. Before we get to that, here is what none of them mention.</p>
 
-<p>This job asks you to <strong>collect strangers' contact details and email them</strong>. In the United States that is governed by a law carrying a penalty of <strong>up to USD 53,088 per email</strong>. In Europe you owe those people a disclosure within one month of taking their data. And LinkedIn's own user agreement <strong>bans the tools most of these jobs will hand you</strong> &mdash; usually to run on your own personal account.</p>
+<p>This job asks you to <strong>collect strangers' contact details and email them</strong>. In the United States that is governed by a law carrying a penalty of <strong>up to USD 53,088 per email</strong>. In Europe you owe those people a disclosure within one month of taking their data. And LinkedIn's own user agreement <strong>bans the tools most of these jobs will hand you</strong>, usually to run on your own personal account.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/sales" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -210,49 +210,49 @@ JOBHTML;
     </thead>
     <tbody>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">AAA Digital &mdash; SDR (Cold Caller), Lahore</td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">AAA Digital: SDR (Cold Caller), Lahore</td>
             <td style="padding:10px;border:1px solid #e5e7eb;"><strong>Onsite</strong></td>
             <td style="padding:10px;border:1px solid #e5e7eb;">90,000 &ndash; 100,000 + commission</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">1 year</td>
         </tr>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">Nokhba.AI &mdash; Sales Executive, HR Tech / SaaS</td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">Nokhba.AI: Sales Executive, HR Tech / SaaS</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">Remote</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">75,000 &ndash; 150,000</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">3 years</td>
         </tr>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">Revora AI &mdash; Online Sales Agent</td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">Revora AI: Online Sales Agent</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">Remote, part time</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">75,000 &ndash; 120,000</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">Fresh graduate</td>
         </tr>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">Freight Hop &mdash; Cold Caller / Outbound SDR</td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">Freight Hop: Cold Caller / Outbound SDR</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">Remote</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">60,000 &ndash; 80,000</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">1 year</td>
         </tr>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">HomeCrestProperty &mdash; Real Estate Cold Caller (USA)</td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">HomeCrestProperty: Real Estate Cold Caller (USA)</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">Remote</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">50,000 &ndash; 55,000</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">1 year</td>
         </tr>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">DevCore System &mdash; Business Development Executive</td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">DevCore System: Business Development Executive</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">Remote</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">20,000 &ndash; 30,000</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">Student</td>
         </tr>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">Empire Digital &mdash; Cold Caller, Karachi</td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">Empire Digital: Cold Caller, Karachi</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">Part time</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">10,000 &ndash; 15,000</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">Under 1 year</td>
         </tr>
         <tr>
-            <td style="padding:10px;border:1px solid #e5e7eb;">Imaginex Dynamics &mdash; BD and Outreach Interns, Karachi</td>
+            <td style="padding:10px;border:1px solid #e5e7eb;">Imaginex Dynamics: BD and Outreach Interns, Karachi</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">Part time</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">7,000 &ndash; 10,000</td>
             <td style="padding:10px;border:1px solid #e5e7eb;">Intern</td>
@@ -272,9 +272,9 @@ JOBHTML;
 
 <p>You will see "$64,820" quoted in articles on this job. It is a real number, and using it is still a mistake.</p>
 
-<p>It comes from the US Bureau of Labor Statistics for <strong>advertising sales agents</strong> &mdash; people who sell advertising space against a quota. That is a closing role, not a research role. <strong>BLS has no occupation at all for lead generation, SDR or appointment setting</strong>, and saying so plainly is more honest than borrowing a number that does not fit.</p>
+<p>It comes from the US Bureau of Labor Statistics for <strong>advertising sales agents</strong>: people who sell advertising space against a quota. That is a closing role, not a research role. <strong>BLS has no occupation at all for lead generation, SDR or appointment setting</strong>, and saying so plainly is more honest than borrowing a number that does not fit.</p>
 
-<p>Two further problems. The same BLS table shows a <em>mean</em> of $80,670, which several articles misquote as the median. And BLS projects advertising sales agents to <strong>decline 7 per cent between 2025 and 2035</strong> &mdash; an odd anchor for an article selling a growth career.</p>
+<p>Two further problems. The same BLS table shows a <em>mean</em> of $80,670, which several articles misquote as the median. And BLS projects advertising sales agents to <strong>decline 7 per cent between 2025 and 2035</strong>: an odd anchor for an article selling a growth career.</p>
 
 <p>If you want a US comparison, the closest honest buckets are <strong>Sales and Related Workers, All Other</strong> at roughly $48,280, which is where an unclassified lead-gen assistant most likely lands, or <strong>Sales Representatives, Wholesale and Manufacturing</strong> at $72,080 for a full SDR path. And remember it is a <strong>US wage for a US worker</strong>. It is not what you will be offered.</p>
 
@@ -320,11 +320,11 @@ JOBHTML;
 
 <p>Two separate rules apply: GDPR governs <em>holding</em> the data, and the ePrivacy rules govern <em>sending</em> the email. Passing one does not satisfy the other.</p>
 
-<p><strong>Article 14 is the one nobody mentions.</strong> When you obtain someone's data from anywhere other than the person themselves &mdash; scraping, a data platform, a purchased list &mdash; you must inform them <em>"within a reasonable period after obtaining the personal data, but at the latest within one month"</em>, and you must tell them <em>"from which source the personal data originate"</em>.</p>
+<p><strong>Article 14 is the one nobody mentions.</strong> When you obtain someone's data from anywhere other than the person themselves, scraping, a data platform, a purchased list, you must inform them <em>"within a reasonable period after obtaining the personal data, but at the latest within one month"</em>, and you must tell them <em>"from which source the personal data originate"</em>.</p>
 
 <p>Read that again with your job in mind. <strong>Scrape someone's email, and a one-month clock starts.</strong></p>
 
-<p><strong>Article 21 gives an absolute right to object</strong> to direct marketing. Not a balancing test &mdash; once they object, processing for that purpose stops. And the right must be <em>"explicitly brought to the attention of the data subject... at the latest at the time of the first communication"</em> and <em>"presented clearly and separately from any other information"</em>. An opt-out buried in grey text at the bottom does not meet that standard.</p>
+<p><strong>Article 21 gives an absolute right to object</strong> to direct marketing. Not a balancing test: once they object, processing for that purpose stops. And the right must be <em>"explicitly brought to the attention of the data subject... at the latest at the time of the first communication"</em> and <em>"presented clearly and separately from any other information"</em>. An opt-out buried in grey text at the bottom does not meet that standard.</p>
 
 <p>Legitimate interest is available for direct marketing, but it is not automatic: it <em>"may be regarded as"</em> a legitimate interest, subject to a three-part test.</p>
 
@@ -333,7 +333,7 @@ JOBHTML;
 <p>The UK rule has a split that trips up every scraped list:</p>
 
 <ul>
-    <li><strong>Corporate subscribers</strong> &mdash; a company, LLP or government body &mdash; can be emailed without prior consent.</li>
+    <li><strong>Corporate subscribers</strong>, a company, LLP or government body, can be emailed without prior consent.</li>
     <li><strong>Sole traders and some partnerships are treated as individuals</strong>, and can only be emailed with consent or an existing customer relationship.</li>
 </ul>
 
@@ -362,7 +362,7 @@ JOBHTML;
 
 <p>It separately bans using <em>"bots or other unauthorized automated methods to access the Services, add or download contacts, send or redirect messages"</em>, and copying or distributing information obtained from the Services <em>"whether directly or through third parties (such as search tools or data aggregators or brokers)"</em>. LinkedIn's prohibited-software policy states members <em>"risk having their accounts restricted or shut down"</em>.</p>
 
-<p>Now connect that to the job. <strong>A large share of lead generation adverts instruct the hire to run exactly these tools &mdash; and to run them on their own personal LinkedIn account, not the employer's.</strong> The employer keeps the leads. You absorb the restriction.</p>
+<p>Now connect that to the job. <strong>A large share of lead generation adverts instruct the hire to run exactly these tools, and to run them on their own personal LinkedIn account, not the employer's.</strong> The employer keeps the leads. You absorb the restriction.</p>
 
 <p>For someone in Pakistan whose LinkedIn profile is their main route to international work, a permanent restriction is a career-level loss taken on someone else's behalf.</p>
 
@@ -426,7 +426,7 @@ JOBHTML;
 
 <p><strong>The card-free stack that actually works from Pakistan:</strong> HubSpot free CRM, Hunter, Clay's free tier and the Salesforce Developer Edition. That is enough to learn the whole workflow and build a portfolio without paying anything.</p>
 
-<p>A practical note: <strong>PayPal is still unavailable in Pakistan</strong>, and international transactions are switched off by default on most Pakistani bank cards. If you need to pay for a tool, you will need that enabled or a Payoneer card. Do not let a paywall stop you applying &mdash; a serious employer provides the seats.</p>
+<p>A practical note: <strong>PayPal is still unavailable in Pakistan</strong>, and international transactions are switched off by default on most Pakistani bank cards. If you need to pay for a tool, you will need that enabled or a Payoneer card. Do not let a paywall stop you applying: a serious employer provides the seats.</p>
 
 <h2>Do You Need Experience?</h2>
 
@@ -436,11 +436,11 @@ JOBHTML;
 
 <h2>Building a Portfolio Without Breaking the Rules</h2>
 
-<p>You can demonstrate this whole skill set without touching a single real person's data &mdash; and given the previous two sections, you should.</p>
+<p>You can demonstrate this whole skill set without touching a single real person's data, and given the previous two sections, you should.</p>
 
 <ol>
     <li>Write an <strong>ideal customer profile</strong> for a fictional product, with your reasoning.</li>
-    <li>Build a list of <strong>20 to 30 real, publicly listed businesses</strong> that match it &mdash; company-level information only.</li>
+    <li>Build a list of <strong>20 to 30 real, publicly listed businesses</strong> that match it: company-level information only.</li>
     <li>Name the <strong>decision-maker roles</strong> you would target, by title rather than by person.</li>
     <li>Show a <strong>clean spreadsheet structure</strong> with consistent fields and a source column.</li>
     <li>Write your <strong>qualification criteria</strong> and apply them, showing which you rejected and why.</li>
@@ -466,7 +466,7 @@ JOBHTML;
 
 <p><strong>A Roshan Digital Account is not for you.</strong> The RDA is for <em>non-resident</em> Pakistanis. If you live in Pakistan, you are not eligible, however often that advice is repeated.</p>
 
-<p><strong>Register with PSEB.</strong> It materially reduces the tax applied to export receipts, and the deduction for unregistered exporters is adjustable rather than final. PSEB now operates under the Pakistan Tech Destination brand, so older pseb.org.pk links redirect; registration is at portal.techdestination.com, helpline 0800-01010. <strong>Confirm the current fee and current rates with PSEB and the FBR directly</strong> &mdash; they change, and this is the one area where acting on a blog post can cost you money.</p>
+<p><strong>Register with PSEB.</strong> It materially reduces the tax applied to export receipts, and the deduction for unregistered exporters is adjustable rather than final. PSEB now operates under the Pakistan Tech Destination brand, so older pseb.org.pk links redirect; registration is at portal.techdestination.com, helpline 0800-01010. <strong>Confirm the current fee and current rates with PSEB and the FBR directly</strong>: they change, and this is the one area where acting on a blog post can cost you money.</p>
 
 <h2>How to Spot a Fake Lead Generation Job</h2>
 
@@ -503,8 +503,8 @@ JOBHTML;
 <p>What is genuinely free and open right now:</p>
 
 <ul>
-    <li><strong>HubSpot Academy</strong> &mdash; free account, free courses, free certificates, no card. Start with Inbound Sales, then Sales Hub Software, then Email Marketing. Note the correct product certificate is <em>Sales Hub Software</em>; there is no "HubSpot CRM Certification".</li>
-    <li><strong>LinkedIn Sales Solutions Learning Center</strong> &mdash; free, and you do <em>not</em> need a Sales Navigator subscription to use it. Given the subscription costs about PKR 34,000 a month, this is the best free resource on this page.</li>
+    <li><strong>HubSpot Academy</strong>: free account, free courses, free certificates, no card. Start with Inbound Sales, then Sales Hub Software, then Email Marketing. Note the correct product certificate is <em>Sales Hub Software</em>; there is no "HubSpot CRM Certification".</li>
+    <li><strong>LinkedIn Sales Solutions Learning Center</strong>: free, and you do <em>not</em> need a Sales Navigator subscription to use it. Given the subscription costs about PKR 34,000 a month, this is the best free resource on this page.</li>
     <li><strong>Google Skillshop</strong> for GA4 and digital marketing fundamentals, and Applied Digital Skills for spreadsheets.</li>
 </ul>
 
@@ -604,16 +604,16 @@ JOBHTML;
 <p>These pair with this one if you are building a remote career from Pakistan:</p>
 
 <ul>
-    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a> &mdash; a remote role with similar entry requirements and no cold-outreach risk.</li>
-    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a> &mdash; the lowest-barrier remote work on this site, and how to price it.</li>
-    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a> &mdash; a wider remote role with the same payment questions.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; the realistic starting points, ranked.</li>
-    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a> &mdash; the wider market this role sits inside.</li>
-    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a> &mdash; the titles that actually work, and the tools that get accounts restricted.</li>
-    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a> &mdash; the research craft behind a prospect list, and why a verified email often is not.</li>
-    <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a> &mdash; what the daily quotas really mean once you do the arithmetic.</li>
-    <li><a href="/blog/online-research-assistant-jobs">Online Research Assistant Jobs</a> &mdash; what official data covers research work, and what does not.</li>
-    <li><a href="/blog/appointment-setting-jobs">Appointment Setting Jobs</a> &mdash; the telephone half of outreach, its night shift, and the US calling rules.</li>
+    <li><a href="/blog/wordpress-seo-assistant-jobs">WordPress SEO Assistant Jobs</a>: a remote role with similar entry requirements and no cold-outreach risk.</li>
+    <li><a href="/blog/wordpress-content-upload-jobs">WordPress Content Upload Jobs</a>: the lowest-barrier remote work on this site, and how to price it.</li>
+    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a>: a wider remote role with the same payment questions.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: the realistic starting points, ranked.</li>
+    <li><a href="/blog/digital-marketing-jobs-in-usa">Digital Marketing Jobs in USA</a>: the wider market this role sits inside.</li>
+    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a>: the titles that actually work, and the tools that get accounts restricted.</li>
+    <li><a href="/blog/b2b-lead-research-jobs">B2B Lead Research Jobs</a>: the research craft behind a prospect list, and why a verified email often is not.</li>
+    <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a>: what the daily quotas really mean once you do the arithmetic.</li>
+    <li><a href="/blog/online-research-assistant-jobs">Online Research Assistant Jobs</a>: what official data covers research work, and what does not.</li>
+    <li><a href="/blog/appointment-setting-jobs">Appointment Setting Jobs</a>: the telephone half of outreach, its night shift, and the US calling rules.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Job listings and advertised pay were checked on 22 September 2026 and expire within weeks. Data protection, anti-spam and platform rules differ by country and change; confirm your obligations for the markets you contact, and take professional advice before running outreach at scale. Tax rates, registration fees and banking rules are set by the FBR, PSEB and the State Bank of Pakistan. Never pay anyone to secure a job.</p>

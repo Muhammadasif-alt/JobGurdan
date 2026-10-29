@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Retail Associate Jobs in USA" — the hiring side of American retail, written
+ * "Retail Associate Jobs in USA": the hiring side of American retail, written
  * to sit beside the existing "Retail Jobs in USA" market guide rather than
  * repeat it. That page explains what the work pays and why state law decides
  * it; this one explains how you are actually hired into it.
@@ -27,8 +27,8 @@ use Illuminate\Support\Str;
  *
  * 2. It never mentions the minimum wage, which decides more of an American
  *    retail offer than any other single fact. The federal floor has been
- *    $7.25 since 24 July 2009, and five states — Alabama, Louisiana,
- *    Mississippi, South Carolina and Tennessee — have no state minimum wage
+ *    $7.25 since 24 July 2009, and five states: Alabama, Louisiana,
+ *    Mississippi, South Carolina and Tennessee: have no state minimum wage
  *    law of their own at all.
  *
  * 3. It lists "a high school diploma or GED (preferred, not always
@@ -39,7 +39,7 @@ use Illuminate\Support\Str;
  * 4. It says "many store managers started as associates" without the numbers
  *    that make the claim useful. First-line retail supervisors earn a median
  *    of $23.33 an hour against $17.03, a $6.30 step, and there are 1,121,800
- *    of them against 3,897,860 associates — roughly one supervisor per three
+ *    of them against 3,897,860 associates: roughly one supervisor per three
  *    and a half associates.
  *
  * 5. It omits the outlook entirely. Employment is projected to change by 0
@@ -153,7 +153,7 @@ class RetailAssociateJobsUsaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li>No degree and no prior experience for associate roles &mdash; a diploma is commonly listed as preferred rather than required</li>
+    <li>No degree and no prior experience for associate roles: a diploma is commonly listed as preferred rather than required</li>
     <li>Basic point-of-sale, handheld scanner and smartphone competence</li>
     <li>Availability for evenings, weekends and holiday peak periods</li>
     <li>Physical ability to stand, lift and move stock for a full shift</li>
@@ -170,7 +170,7 @@ class RetailAssociateJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Look up your state and city minimum wage before you judge any advertised rate.</strong> The same hourly number is a strong offer in one state and the bare legal minimum in another.</p>
 
-<p><strong>Note:</strong> pay, scheduling, benefits and eligibility are set by each employer and by state law &mdash; not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
+<p><strong>Note:</strong> pay, scheduling, benefits and eligibility are set by each employer and by state law, not by JobGader. Confirm the details on the employer's own advertisement before applying.</p>
 JOBHTML;
     }
 
@@ -190,11 +190,11 @@ JOBHTML;
 <p>It is the range you will see on nearly every retail careers page. Set it against what the Bureau of Labor Statistics measured for <strong>retail salespersons in May 2025</strong>, across <strong>3,897,860</strong> of them:</p>
 
 <ul>
-    <li><strong>10th percentile &mdash; $13.08 an hour.</strong> Nine out of ten earn more than this.</li>
-    <li><strong>25th percentile &mdash; $14.38 an hour.</strong></li>
-    <li><strong>Median &mdash; $17.03 an hour</strong>, or about $35,400 across a full-time year.</li>
-    <li><strong>75th percentile &mdash; $18.59 an hour.</strong></li>
-    <li><strong>90th percentile &mdash; $23.02 an hour.</strong></li>
+    <li><strong>10th percentile: $13.08 an hour.</strong> Nine out of ten earn more than this.</li>
+    <li><strong>25th percentile: $14.38 an hour.</strong></li>
+    <li><strong>Median: $17.03 an hour</strong>, or about $35,400 across a full-time year.</li>
+    <li><strong>75th percentile: $18.59 an hour.</strong></li>
+    <li><strong>90th percentile: $23.02 an hour.</strong></li>
 </ul>
 
 <p>So <strong>$12 sits below the bottom tenth of the occupation</strong>, and <strong>$18 sits below the top quarter</strong>. The published range describes neither the floor nor the ceiling of this job. The honest summary is that a typical retail associate earns <strong>$17.03 an hour</strong>, the middle half earn between <strong>$14.38 and $18.59</strong>, and the best-paid tenth clear <strong>$23.02</strong>.</p>
@@ -210,7 +210,7 @@ JOBHTML;
 <ul>
     <li><strong>The District of Columbia is highest at $18.40</strong>, with <strong>Washington at $17.13</strong>, <strong>New York at $17.00</strong> in the New York City area, <strong>Connecticut at $16.94</strong> and <strong>California at $16.90</strong>.</li>
     <li><strong>States including Texas, Pennsylvania, North Carolina, Wisconsin and Idaho</strong> still sit at exactly <strong>$7.25</strong>.</li>
-    <li><strong>Five states &mdash; Alabama, Louisiana, Mississippi, South Carolina and Tennessee &mdash; have no state minimum wage law at all.</strong> The federal $7.25 applies by default.</li>
+    <li><strong>Five states, Alabama, Louisiana, Mississippi, South Carolina and Tennessee, have no state minimum wage law at all.</strong> The federal $7.25 applies by default.</li>
 </ul>
 
 <p>Now look at what that does to the same job. The <strong>median</strong> for a retail associate is <strong>$19.02 in Washington</strong>, <strong>$18.48 in California</strong>, <strong>$18.25 in Colorado</strong>, <strong>$18.17 in Hawaii</strong> and <strong>$18.13 in New York</strong>. At the other end it is <strong>$13.77 in Mississippi</strong>, <strong>$13.92 in West Virginia</strong> and <strong>$14.07 in Arkansas</strong>.</p>
@@ -253,15 +253,15 @@ JOBHTML;
 <p>Almost every figure you will read about retailer pay comes from third-party salary sites. Here is only what the companies publish themselves, which is less than you would expect and tells you something in itself:</p>
 
 <ul>
-    <li><strong>Target</strong> publishes a starting range of <strong>$15 to $24 an hour</strong> and an average frontline wage <strong>above $18.50</strong>, on a fact sheet it dates and updates &mdash; the most citable document any large US retailer publishes.</li>
+    <li><strong>Target</strong> publishes a starting range of <strong>$15 to $24 an hour</strong> and an average frontline wage <strong>above $18.50</strong>, on a fact sheet it dates and updates: the most citable document any large US retailer publishes.</li>
     <li><strong>Walmart</strong> publishes an average of <strong>more than $18.50 an hour</strong> for frontline associates, with starting rates from <strong>$14</strong> depending on role and store. Its pages carry no publication date.</li>
     <li><strong>Amazon</strong> publishes an average of <strong>more than $23 an hour</strong> for fulfilment and transportation staff, though a second Amazon page still shows a lower minimum and average. Cite the press release, not the evergreen page.</li>
     <li><strong>Best Buy</strong>'s most recent official wage figure is a <strong>$15 minimum set in August 2020</strong>. Nothing newer appears in its own newsroom.</li>
-    <li><strong>Aldi</strong> publishes rates only inside individual postings &mdash; commonly <strong>$19.00</strong> full time and <strong>$17.00</strong> part time in stores &mdash; and is the one chain that states a <strong>minimum age of 18</strong>, with a diploma "preferred".</li>
+    <li><strong>Aldi</strong> publishes rates only inside individual postings, commonly <strong>$19.00</strong> full time and <strong>$17.00</strong> part time in stores, and is the one chain that states a <strong>minimum age of 18</strong>, with a diploma "preferred".</li>
     <li><strong>Costco, Home Depot and Trader Joe's publish no company-wide hourly figure at all.</strong> Costco is routinely named the best payer in American retail on numbers it does not itself publish.</li>
 </ul>
 
-<p>Two practical conclusions. First, <strong>a chain that publishes a dated range is telling you something a chain that publishes nothing is not</strong>. Second, none of the eight largest retailers publishes a minimum hiring age except Aldi, and <strong>neither Walmart's nor Target's entry-level store postings list a diploma requirement</strong> &mdash; which matches what BLS records for the occupation.</p>
+<p>Two practical conclusions. First, <strong>a chain that publishes a dated range is telling you something a chain that publishes nothing is not</strong>. Second, none of the eight largest retailers publishes a minimum hiring age except Aldi, and <strong>neither Walmart's nor Target's entry-level store postings list a diploma requirement</strong>, which matches what BLS records for the occupation.</p>
 
 <h2>The Benefit Worth More Than a Dollar an Hour</h2>
 
@@ -281,7 +281,7 @@ JOBHTML;
 <p>It is the single most repeated claim about retail hiring, and no large retailer supports it in its own words.</p>
 
 <ul>
-    <li><strong>Walmart</strong> says only that it aims to <strong>respond to applicants within a week</strong> of submission &mdash; a reply, not a start date.</li>
+    <li><strong>Walmart</strong> says only that it aims to <strong>respond to applicants within a week</strong> of submission: a reply, not a start date.</li>
     <li><strong>Target</strong> publishes a six-stage hiring process with <strong>no duration attached to any stage</strong>.</li>
     <li><strong>Costco</strong> goes the other way: applications <strong>expire after 90 days</strong>, and it advises reapplying if you have not heard back in that time.</li>
     <li>The one official example of fast hiring is <strong>Home Depot</strong>, which said in <strong>2022</strong> that applicants could receive an offer within a day. That is one chain, and four years old.</li>
@@ -293,7 +293,7 @@ JOBHTML;
 
 <p>"Many store managers started as associates" is true, and worth pricing rather than repeating. The first rung up is <strong>first-line supervisor of retail sales workers</strong>, and BLS measures it at a median of <strong>$23.33 an hour</strong>, or <strong>$48,520</strong> a year.</p>
 
-<p>Against the associate median of $17.03, that is a step of <strong>$6.30 an hour</strong> &mdash; worth around <strong>$13,000</strong> across a full-time year, and a bigger raise than moving between states.</p>
+<p>Against the associate median of $17.03, that is a step of <strong>$6.30 an hour</strong>: worth around <strong>$13,000</strong> across a full-time year, and a bigger raise than moving between states.</p>
 
 <p>The limit is how many of those posts exist. There are <strong>1,121,800</strong> first-line retail supervisors against <strong>3,897,860</strong> associates, <strong>about one supervisor for every three and a half associates</strong>. The ladder is genuine, the rungs are real money, and there is nothing automatic about reaching them. Say early and often that you want key-holder and supervisor responsibility, and take the cross-training that leads there.</p>
 
@@ -307,7 +307,7 @@ JOBHTML;
 
 <p>Both halves of this matter, and guides normally print only the friendly one.</p>
 
-<p>Employment of retail sales workers is projected to show <strong>no change at all from 2025 to 2035</strong> &mdash; a fall of <strong>5,700</strong> jobs across the decade, which on a base of <strong>4,271,400</strong> rounds to zero per cent. The retail trade sector as a whole is equally still: <strong>15.49 million jobs in August 2026</strong>, up <strong>0.31 per cent</strong> on the year.</p>
+<p>Employment of retail sales workers is projected to show <strong>no change at all from 2025 to 2035</strong>: a fall of <strong>5,700</strong> jobs across the decade, which on a base of <strong>4,271,400</strong> rounds to zero per cent. The retail trade sector as a whole is equally still: <strong>15.49 million jobs in August 2026</strong>, up <strong>0.31 per cent</strong> on the year.</p>
 
 <p>And yet the occupation is expected to produce about <strong>550,600 openings every year</strong> across the decade. Every one of them comes from replacing people who move on, not from growth.</p>
 
@@ -337,7 +337,7 @@ JOBHTML;
 <p>Not to BLS, and the gap is worth about $1.22 an hour: a $17.03 median for retail salespersons against $15.81 for cashiers. Read the duties in the posting rather than the job title.</p>
 
 <h3>How much more do retail supervisors earn?</h3>
-<p>First-line supervisors of retail sales workers have a median of $23.33 an hour, or $48,520 a year &mdash; $6.30 an hour above the associate median. There are 1,121,800 of those posts against 3,897,860 associates.</p>
+<p>First-line supervisors of retail sales workers have a median of $23.33 an hour, or $48,520 a year: $6.30 an hour above the associate median. There are 1,121,800 of those posts against 3,897,860 associates.</p>
 
 <h2>People Also Search For</h2>
 
@@ -370,20 +370,20 @@ JOBHTML;
 <p>Comparing entry-level routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; the wider market, why published averages disagree by 57 per cent, and the scheduling question to ask at interview.</li>
-    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; the register side of the same store, and the till shortage rule that protects your pay.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; the other fast American entry route, and what your own car really costs per mile.</li>
-    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a> &mdash; an office route with no degree requirement, and the projection you should see first.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; the same customer skills applied from home.</li>
-    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a> &mdash; the honest answer on entry-level US sponsorship.</li>
-    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; the same first job under award wages instead of state minimums.</li>
-    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a> &mdash; shop-floor work where pay is set by job level rather than by state.</li>
-    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a> &mdash; the shop floor route, and why the pay figures everyone quotes are below the law.</li>
-    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; the same customer skills off the shop floor, priced from BLS.</li>
-    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a> &mdash; what Walmart actually pays, the benefits most guides skip, and the age rules.</li>
-    <li><a href="/blog/how-to-apply-for-woolworths-supermarket-jobs-in-australia">How to Apply for Woolworths Supermarket Jobs in Australia</a> &mdash; the same job in Australia, with published weekend loadings and junior rates by age.</li>
-    <li><a href="/blog/how-to-apply-for-home-depot-retail-jobs-in-the-usa">How to Apply for Home Depot Retail Jobs in the USA</a> &mdash; store pay Home Depot prints itself, and the route from hourly to store leader.</li>
-    <li><a href="/blog/how-to-apply-for-starbucks-barista-jobs-in-the-usa">How to Apply for Starbucks Barista Jobs in the USA</a> &mdash; the hours threshold that decides whether the benefits are yours.</li>
+    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a>: the wider market, why published averages disagree by 57 per cent, and the scheduling question to ask at interview.</li>
+    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a>: the register side of the same store, and the till shortage rule that protects your pay.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: the other fast American entry route, and what your own car really costs per mile.</li>
+    <li><a href="/blog/data-entry-jobs-in-usa">Data Entry Jobs in USA</a>: an office route with no degree requirement, and the projection you should see first.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: the same customer skills applied from home.</li>
+    <li><a href="/blog/unskilled-jobs-in-usa-for-foreigners">Unskilled Jobs in USA for Foreigners</a>: the honest answer on entry-level US sponsorship.</li>
+    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a>: the same first job under award wages instead of state minimums.</li>
+    <li><a href="/blog/sales-jobs-in-australia">Sales Jobs in Australia</a>: shop-floor work where pay is set by job level rather than by state.</li>
+    <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a>: the shop floor route, and why the pay figures everyone quotes are below the law.</li>
+    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a>: the same customer skills off the shop floor, priced from BLS.</li>
+    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a>: what Walmart actually pays, the benefits most guides skip, and the age rules.</li>
+    <li><a href="/blog/how-to-apply-for-woolworths-supermarket-jobs-in-australia">How to Apply for Woolworths Supermarket Jobs in Australia</a>: the same job in Australia, with published weekend loadings and junior rates by age.</li>
+    <li><a href="/blog/how-to-apply-for-home-depot-retail-jobs-in-the-usa">How to Apply for Home Depot Retail Jobs in the USA</a>: store pay Home Depot prints itself, and the route from hourly to store leader.</li>
+    <li><a href="/blog/how-to-apply-for-starbucks-barista-jobs-in-the-usa">How to Apply for Starbucks Barista Jobs in the USA</a>: the hours threshold that decides whether the benefits are yours.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers, legal or immigration advice. Minimum wage rates, wage survey figures, employment projections and employer benefits change, and posting counts on any job board are a moving figure rather than a statistic. Confirm the current position with the Bureau of Labor Statistics, the US Department of Labor, your state labor department and the employer's own advertisement before applying.</p>

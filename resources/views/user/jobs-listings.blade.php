@@ -5,13 +5,13 @@
     $posLabel = $jobPos !== '' ? ucwords($jobPos) : '';
     $locLabel = $jobLoc !== '' ? ucwords($jobLoc) : '';
     if ($posLabel && $locLabel) {
-        $pageTitle = "{$posLabel} Jobs in {$locLabel} — Apply Free | JobGader";
+        $pageTitle = "{$posLabel} Jobs in {$locLabel}: Apply Free | JobGader";
         $pageDesc = "Browse {$posLabel} jobs in {$locLabel}. Apply on the employer site. Free to read on JobGader.";
     } elseif ($posLabel) {
-        $pageTitle = "{$posLabel} Jobs — Hiring Now, Apply Free | JobGader";
+        $pageTitle = "{$posLabel} Jobs: Hiring Now, Apply Free | JobGader";
         $pageDesc = "Search {$posLabel} jobs across {$coverage->shortList()}. Free to read, no account needed.";
     } elseif ($locLabel) {
-        $pageTitle = "Jobs in {$locLabel} — Browse Listings | JobGader";
+        $pageTitle = "Jobs in {$locLabel}: Browse Listings | JobGader";
         $pageDesc = "Find jobs in {$locLabel} across every industry. Free to read on JobGader, with links to the employer or source.";
     } else {
         $pageTitle = 'Browse Jobs | Find Listings, Free to Read | JobGader';
@@ -21,7 +21,7 @@
     /*
      * url()->current() drops the query string, so every paginated page was
      * canonicalising to page 1 and telling Google the deeper pages were
-     * duplicates — the listings past page 1 were not being crawled. The page
+     * duplicates: the listings past page 1 were not being crawled. The page
      * number is the one parameter that belongs in the canonical; the search
      * filters stay out of it deliberately, so filter permutations still fold
      * back into /jobs instead of bloating the index.
@@ -81,7 +81,7 @@
 @section('content')
 
 <style>
-    /* === Jobs Hero (matches home — light gradient, dark text) === */
+    /* === Jobs Hero (matches home: light gradient, dark text) === */
     .jobs-hero {
         position: relative;
         background: linear-gradient(180deg, #f8faff 0%, #ffffff 50%, #f5f5f7 100%);
@@ -395,7 +395,7 @@
     .no-jobs h4 { font-size: 18px; color: #1b3a6b; margin: 14px 0 6px; font-weight: 700; }
     .no-jobs p { color: #777; margin: 0; }
 
-    /* Pagination — dark */
+    /* Pagination: dark */
     .jobs-pagination { padding: 30px 0 20px; display: flex; justify-content: center; }
     .jobs-pagination ul {
         list-style: none;
@@ -930,7 +930,7 @@
         <header class="section-head">
             <span class="eyebrow">Explore More</span>
             <h2 id="explore-heading">Browse Jobs by Industry &amp; State</h2>
-            <p>Narrow your search to the role and location that fits you best — explore the top hiring industries and most active U.S. job markets right now.</p>
+            <p>Narrow your search to the role and location that fits you best: explore the top hiring industries and most active U.S. job markets right now.</p>
         </header>
 
         <div class="explore-grid">

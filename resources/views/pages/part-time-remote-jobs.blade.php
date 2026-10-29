@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Part Time Remote Jobs — Hours That Fit | JobGader')
+@section('title', 'Part Time Remote Jobs: Hours That Fit | JobGader')
 @section('meta_description', 'Part time remote jobs across '.$coverage->shortList().': which roles offer real flexibility, what they pay pro rata, and what to confirm first.')
-@section('og_title', 'Part Time Remote Jobs — Hours That Fit | JobGader')
+@section('og_title', 'Part Time Remote Jobs: Hours That Fit | JobGader')
 @section('og_description', 'Part time remote jobs across '.$coverage->shortList().': which roles offer real flexibility, what they pay pro rata, and what to confirm first.')
 @section('canonical', url()->current())
 
@@ -23,7 +23,7 @@
             [
                 'title' => 'Fixed Hours or Flexible Hours',
                 'paragraphs' => [
-                    'These are very different arrangements. Customer support and tutoring are usually fixed — you cover a specific shift and must be present for it. Writing, bookkeeping and social media work are more often output-based, where the deadline matters and the hours do not.',
+                    'These are very different arrangements. Customer support and tutoring are usually fixed: you cover a specific shift and must be present for it. Writing, bookkeeping and social media work are more often output-based, where the deadline matters and the hours do not.',
                     'Ask which one you are being offered before accepting, because a role described as flexible that turns out to need presence from nine to one every weekday is not flexible in any sense that helps.',
                 ],
             ],

@@ -41,7 +41,7 @@ class FrontendDeveloperLahoreSeeder extends Seeder
             ['slug' => 'job-spotlights'],
             [
                 'name' => 'Job Spotlights',
-                'description' => 'Deep dives on specific openings — what the role involves, what employers actually want, and how to apply.',
+                'description' => 'Deep dives on specific openings: what the role involves, what employers actually want, and how to apply.',
             ]
         );
 
@@ -56,7 +56,7 @@ class FrontendDeveloperLahoreSeeder extends Seeder
                 'job_id' => $job->id,
                 'author_name' => $author?->name ?? 'Admin',
                 'title' => $title,
-                'excerpt' => 'ERS Tech is hiring a Senior Frontend Developer in Lahore — 6+ years, React and Next.js App Router, MERN fluency. Full breakdown of the stack, the salary range, and who the role actually suits.',
+                'excerpt' => 'ERS Tech is hiring a Senior Frontend Developer in Lahore: 6+ years, React and Next.js App Router, MERN fluency. Full breakdown of the stack, the salary range, and who the role actually suits.',
                 'content' => $content,
                 'featured_image' => 'blogs/senior-frontend-developer-lahore.jpg',
                 'tags' => 'frontend developer jobs, react jobs lahore, nextjs developer, MERN stack jobs, senior developer pakistan, ERS Tech, typescript jobs',
@@ -106,7 +106,7 @@ class FrontendDeveloperLahoreSeeder extends Seeder
                 'salary_maximum' => 133254,
                 'application_url' => self::APPLY_URL,
                 'listing_type' => 'resource',
-                'meta_description' => 'Senior Frontend Developer at ERS Tech, Lahore — 6+ years React, Next.js App Router, TypeScript and MERN. Full-time, on-site.',
+                'meta_description' => 'Senior Frontend Developer at ERS Tech, Lahore: 6+ years React, Next.js App Router, TypeScript and MERN. Full-time, on-site.',
                 'seo_keywords' => 'frontend developer jobs lahore, react developer jobs pakistan, nextjs developer jobs, MERN stack developer, senior frontend engineer, typescript jobs lahore',
             ]
         );
@@ -115,20 +115,20 @@ class FrontendDeveloperLahoreSeeder extends Seeder
     private function jobDescription(): string
     {
         return <<<'JOBHTML'
-<p>ERS Tech, a Lahore-based development company, is hiring a Senior Frontend Developer to own the frontend lifecycle end to end &mdash; turning Figma, Adobe XD and Sketch designs into pixel-perfect production interfaces, building scalable component architecture, integrating REST and third-party APIs, and optimising for performance, SEO and accessibility.</p>
+<p>ERS Tech, a Lahore-based development company, is hiring a Senior Frontend Developer to own the frontend lifecycle end to end: turning Figma, Adobe XD and Sketch designs into pixel-perfect production interfaces, building scalable component architecture, integrating REST and third-party APIs, and optimising for performance, SEO and accessibility.</p>
 
 <p>You would work across dashboards, admin panels, customer portals, fintech interfaces and SaaS platforms, alongside UI/UX designers, backend developers, QA and project managers. Code reviews, coding standards and frontend architecture decisions are part of the role, so this is pitched at genuine senior/ownership level rather than pure execution.</p>
 
 <h3>Requirements</h3>
 <ul>
     <li>6+ years of professional frontend development experience</li>
-    <li><strong>React.js</strong> &mdash; hooks, functional components, component architecture, state management, Context API, performance optimisation</li>
-    <li><strong>Next.js</strong> &mdash; App Router, SSR, SSG, Server/Client Components, dynamic routing, middleware, SEO and performance work</li>
+    <li><strong>React.js</strong>: hooks, functional components, component architecture, state management, Context API, performance optimisation</li>
+    <li><strong>Next.js</strong>: App Router, SSR, SSG, Server/Client Components, dynamic routing, middleware, SEO and performance work</li>
     <li>JavaScript (ES6+) and strong TypeScript</li>
     <li>HTML5, CSS3, responsive and mobile-first design, Flexbox, Grid, CSS animations</li>
     <li>Tailwind CSS, Bootstrap, and a UI framework such as Material UI or Ant Design</li>
     <li>REST APIs, JWT, OAuth, payment gateway integrations, Postman</li>
-    <li>MERN stack fluency &mdash; MongoDB, Express.js, React, Node.js (hands-on Node/Express is a strong advantage)</li>
+    <li>MERN stack fluency: MongoDB, Express.js, React, Node.js (hands-on Node/Express is a strong advantage)</li>
     <li>Git/GitHub/GitLab, npm/Yarn/PNPM, Figma, Chrome DevTools, ESLint, Prettier, CI/CD</li>
 </ul>
 
@@ -142,7 +142,7 @@ class FrontendDeveloperLahoreSeeder extends Seeder
 <h3>What's on offer</h3>
 <ul>
     <li>Exposure to international projects across FinTech, Blockchain, AI and SaaS</li>
-    <li>Competitive salary based on experience &mdash; the advertised Rs 24,130&ndash;Rs 133,254 a month is an Indeed-generated estimate, so confirm the real figure during interview</li>
+    <li>Competitive salary based on experience: the advertised Rs 24,130&ndash;Rs 133,254 a month is an Indeed-generated estimate, so confirm the real figure during interview</li>
     <li>Collaborative environment and career growth opportunities</li>
 </ul>
 
@@ -166,23 +166,23 @@ JOBHTML;
 <ul>
     <li><strong>Title:</strong> Senior Frontend Developer &ndash; React / Next.js / MERN</li>
     <li><strong>Company:</strong> ERS Tech (4.7&#9733;, 3 reviews on Indeed)</li>
-    <li><strong>Location:</strong> Lahore &mdash; on-site, in-person</li>
+    <li><strong>Location:</strong> Lahore: on-site, in-person</li>
     <li><strong>Job type:</strong> Full-time</li>
     <li><strong>Experience required:</strong> 6+ years of professional frontend development</li>
     <li><strong>Advertised pay:</strong> Rs 24,130 &ndash; Rs 133,254 a month</li>
 </ul>
 
-<p>A quick note on that salary range: it's unusually wide, which typically means Indeed has generated an estimated range rather than the employer publishing an exact figure. For a genuinely senior, 6+ years React/Next.js hire in Lahore's current market, expect the real offer to land well above the lower end of that bracket &mdash; it's worth confirming the exact number directly with ERS Tech during the interview process rather than anchoring to the posted range.</p>
+<p>A quick note on that salary range: it's unusually wide, which typically means Indeed has generated an estimated range rather than the employer publishing an exact figure. For a genuinely senior, 6+ years React/Next.js hire in Lahore's current market, expect the real offer to land well above the lower end of that bracket: it's worth confirming the exact number directly with ERS Tech during the interview process rather than anchoring to the posted range.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/senior-frontend-developer-lahore-desk.jpg"
-         alt="Senior frontend developer working on React and Next.js code — Senior Frontend Developer job at ERS Tech, Lahore"
+         alt="Senior frontend developer working on React and Next.js code: Senior Frontend Developer job at ERS Tech, Lahore"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
 <h2>What You'd Actually Be Doing</h2>
 
-<p>This isn't a "just wire up components" role &mdash; ERS Tech is looking for someone who owns the frontend lifecycle end to end: turning Figma/Adobe XD/Sketch designs into pixel-perfect, production-ready interfaces, building and maintaining scalable component architecture, integrating REST and third-party APIs, and optimizing for performance, SEO, and accessibility. You'd be working across desktop, tablet, and mobile, building things like dashboards, admin panels, customer portals, fintech interfaces, and SaaS platforms &mdash; and collaborating closely with UI/UX designers, backend developers, QA, and project managers along the way.</p>
+<p>This isn't a "just wire up components" role: ERS Tech is looking for someone who owns the frontend lifecycle end to end: turning Figma/Adobe XD/Sketch designs into pixel-perfect, production-ready interfaces, building and maintaining scalable component architecture, integrating REST and third-party APIs, and optimizing for performance, SEO, and accessibility. You'd be working across desktop, tablet, and mobile, building things like dashboards, admin panels, customer portals, fintech interfaces, and SaaS platforms, and collaborating closely with UI/UX designers, backend developers, QA, and project managers along the way.</p>
 
 <p>Code reviews, coding standards, and contributing to frontend architecture decisions are explicitly part of the job too, so this is pitched at a genuine senior/ownership level rather than a pure execution role.</p>
 
@@ -190,8 +190,8 @@ JOBHTML;
 
 <h3>Core</h3>
 <ul>
-    <li><strong>React.js</strong> &mdash; hooks, functional components, component architecture, state management, Context API, performance optimization</li>
-    <li><strong>Next.js</strong> &mdash; App Router, SSR, SSG, Server/Client Components, dynamic routing, middleware, Next.js-specific performance and SEO work</li>
+    <li><strong>React.js</strong>: hooks, functional components, component architecture, state management, Context API, performance optimization</li>
+    <li><strong>Next.js</strong>: App Router, SSR, SSG, Server/Client Components, dynamic routing, middleware, Next.js-specific performance and SEO work</li>
     <li><strong>JavaScript (ES6+)</strong> and strong <strong>TypeScript</strong></li>
 </ul>
 
@@ -204,7 +204,7 @@ JOBHTML;
 <h3>API &amp; Backend Awareness</h3>
 <ul>
     <li>REST APIs, JWT, OAuth, payment gateway integrations, Postman</li>
-    <li>MERN stack fluency &mdash; MongoDB, Express.js, React, Node.js &mdash; with hands-on Node/Express experience called out as "a strong advantage"</li>
+    <li>MERN stack fluency, MongoDB, Express.js, React, Node.js, with hands-on Node/Express experience called out as "a strong advantage"</li>
 </ul>
 
 <h3>Tooling</h3>
@@ -219,31 +219,31 @@ JOBHTML;
     <li>Docker, AWS, GraphQL, microservices, WebSockets</li>
 </ul>
 
-<p>If your background touches fintech, SaaS dashboards, or blockchain/Web3 products, this posting specifically flags that as an advantage &mdash; worth highlighting prominently in your application if it applies to you.</p>
+<p>If your background touches fintech, SaaS dashboards, or blockchain/Web3 products, this posting specifically flags that as an advantage: worth highlighting prominently in your application if it applies to you.</p>
 
 <h2>Who This Role Is a Strong Fit For</h2>
 
 <p>This posting reads less like a generic "React developer" ad and more like a role built for someone who:</p>
 
 <ul>
-    <li>Has genuinely shipped production Next.js applications (not just React SPAs) &mdash; SSR, SSG, and App Router experience are called out specifically, not just "Next.js familiarity."</li>
-    <li>Is comfortable being the frontend authority in the room &mdash; someone who can push back on designs where needed and make architecture calls, not just implement tickets.</li>
-    <li>Has some backend literacy even if frontend is the focus &mdash; the MERN and Node/Express mentions suggest they value engineers who understand the full data flow, not just the UI layer.</li>
-    <li>Has a strong design eye &mdash; the repeated emphasis on "pixel-perfect," spacing, typography, and visual hierarchy suggests UI craftsmanship is weighted heavily in how candidates get evaluated, not just technical correctness.</li>
+    <li>Has genuinely shipped production Next.js applications (not just React SPAs): SSR, SSG, and App Router experience are called out specifically, not just "Next.js familiarity."</li>
+    <li>Is comfortable being the frontend authority in the room: someone who can push back on designs where needed and make architecture calls, not just implement tickets.</li>
+    <li>Has some backend literacy even if frontend is the focus: the MERN and Node/Express mentions suggest they value engineers who understand the full data flow, not just the UI layer.</li>
+    <li>Has a strong design eye: the repeated emphasis on "pixel-perfect," spacing, typography, and visual hierarchy suggests UI craftsmanship is weighted heavily in how candidates get evaluated, not just technical correctness.</li>
 </ul>
 
 <h2>What's In It for You</h2>
 
-<p>Per the listing, ERS Tech is offering exposure to international projects and modern tech across FinTech, Blockchain, AI, and SaaS &mdash; plus a collaborative environment and career growth opportunities. As with most listings, "competitive salary based on experience" means the real number is negotiable, so come prepared with a clear sense of your own market rate (senior React/Next.js talent in Lahore with 6+ years and fintech/SaaS exposure is in genuine demand right now) rather than accepting the first figure offered.</p>
+<p>Per the listing, ERS Tech is offering exposure to international projects and modern tech across FinTech, Blockchain, AI, and SaaS, plus a collaborative environment and career growth opportunities. As with most listings, "competitive salary based on experience" means the real number is negotiable, so come prepared with a clear sense of your own market rate (senior React/Next.js talent in Lahore with 6+ years and fintech/SaaS exposure is in genuine demand right now) rather than accepting the first figure offered.</p>
 
 <h2>How to Apply</h2>
 
-<p>The listing is live on Indeed Pakistan. If you meet the core bar &mdash; 6+ years, strong React and Next.js, comfortable with API integration and pixel-perfect UI work &mdash; it's worth applying directly and tailoring your CV to highlight any fintech, SaaS dashboard, or design-to-code work you've shipped, since those are the specific differentiators this posting calls out.</p>
+<p>The listing is live on Indeed Pakistan. If you meet the core bar, 6+ years, strong React and Next.js, comfortable with API integration and pixel-perfect UI work, it's worth applying directly and tailoring your CV to highlight any fintech, SaaS dashboard, or design-to-code work you've shipped, since those are the specific differentiators this posting calls out.</p>
 
 <h2>Frequently Asked Questions</h2>
 
 <h3>How much does a Senior Frontend Developer earn in Lahore?</h3>
-<p>This posting advertises Rs 24,130&ndash;Rs 133,254 a month, but that wide bracket is an Indeed-generated estimate rather than a published figure. For a 6+ year React/Next.js engineer in Lahore, the realistic offer sits well above the bottom of that range &mdash; confirm the exact number during the interview.</p>
+<p>This posting advertises Rs 24,130&ndash;Rs 133,254 a month, but that wide bracket is an Indeed-generated estimate rather than a published figure. For a 6+ year React/Next.js engineer in Lahore, the realistic offer sits well above the bottom of that range: confirm the exact number during the interview.</p>
 
 <h3>Is this role remote or on-site?</h3>
 <p>On-site, in person, at ERS Tech's Lahore office. It is a full-time position.</p>
@@ -282,11 +282,11 @@ JOBHTML;
 <p>Looking further afield? These guides cover overseas routes we track:</p>
 
 <ul>
-    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a> &mdash; why almost everything advertised is a PPS project post, and how FPSC and PPSC differ.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; H-2B, EB-3 and H-1B routes plus 2026 pay benchmarks.</li>
-    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; EB-3 and H-2B routes and CDL requirements.</li>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; H-2B and J-1 hospitality sponsorship.</li>
-    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London (No Experience Needed)</a> &mdash; shift patterns, 2026 pay and the truth about sponsorship.</li>
+    <li><a href="/blog/government-jobs-in-pakistan">Government Jobs in Pakistan</a>: why almost everything advertised is a PPS project post, and how FPSC and PPSC differ.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: H-2B, EB-3 and H-1B routes plus 2026 pay benchmarks.</li>
+    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a>: EB-3 and H-2B routes and CDL requirements.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>: H-2B and J-1 hospitality sponsorship.</li>
+    <li><a href="/blog/cleaner-jobs-in-london-no-experience-needed">Cleaner Jobs in London (No Experience Needed)</a>: shift patterns, 2026 pay and the truth about sponsorship.</li>
 </ul>
 
 <div style="text-align:center;margin:32px 0;">

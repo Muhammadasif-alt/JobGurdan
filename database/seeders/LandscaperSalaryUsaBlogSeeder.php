@@ -248,9 +248,9 @@ class LandscaperSalaryUsaBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/landscaper-jobs-usa-visa-sponsorship-2026">Landscaper Jobs in USA With Visa Sponsorship (2026)</a> &mdash; H-2B rules and how to apply.</li>
-    <li><a href="/blog/farm-worker-salary-usa-2026">Farm Worker Salary in USA (2026)</a> &mdash; the same breakdown for farm work.</li>
-    <li><a href="/blog/landscaper-and-gardener-jobs-in-canada-and-the-uae">Landscaper and Gardener Jobs in Canada and the UAE</a> &mdash; the same trade elsewhere.</li>
+    <li><a href="/blog/landscaper-jobs-usa-visa-sponsorship-2026">Landscaper Jobs in USA With Visa Sponsorship (2026)</a>: H-2B rules and how to apply.</li>
+    <li><a href="/blog/farm-worker-salary-usa-2026">Farm Worker Salary in USA (2026)</a>: the same breakdown for farm work.</li>
+    <li><a href="/blog/landscaper-and-gardener-jobs-in-canada-and-the-uae">Landscaper and Gardener Jobs in Canada and the UAE</a>: the same trade elsewhere.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or financial advice. Wage figures are from the US Bureau of Labor Statistics, May 2025 national estimates, reviewed on 8 October 2026. Monthly calculations and PKR conversions are editorial examples, not official statistics or job offers.</p>

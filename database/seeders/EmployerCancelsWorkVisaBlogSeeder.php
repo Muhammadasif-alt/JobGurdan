@@ -201,10 +201,10 @@ class EmployerCancelsWorkVisaBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/bring-family-working-abroad">Can You Bring Your Family When Working Abroad</a> &mdash; dependants</li>
-    <li><a href="/blog/what-is-visa-sponsorship-how-it-works">What is Visa Sponsorship and How Does it Work</a> &mdash; how sponsorship works</li>
-    <li><a href="/blog/what-is-work-permit-how-it-works">What is a Work Permit and How Does it Work</a> &mdash; permit explained</li>
-    <li><a href="/blog/how-long-work-visa-takes-2026">How Long Does it Take to Get a Work Visa</a> &mdash; realistic timelines</li>
+    <li><a href="/blog/bring-family-working-abroad">Can You Bring Your Family When Working Abroad</a>: dependants</li>
+    <li><a href="/blog/what-is-visa-sponsorship-how-it-works">What is Visa Sponsorship and How Does it Work</a>: how sponsorship works</li>
+    <li><a href="/blog/what-is-work-permit-how-it-works">What is a Work Permit and How Does it Work</a>: permit explained</li>
+    <li><a href="/blog/how-long-work-visa-takes-2026">How Long Does it Take to Get a Work Visa</a>: realistic timelines</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>

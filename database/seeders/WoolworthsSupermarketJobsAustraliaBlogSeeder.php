@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Woolworths Supermarket Jobs in Australia" — an employer
+ * "How to Apply for Woolworths Supermarket Jobs in Australia": an employer
  * guide that answers the pay question the draft refuses to answer, because
  * Australian retail pay is set by a legally binding instrument with published
  * dollar figures.
@@ -168,7 +168,7 @@ class WoolworthsSupermarketJobsAustraliaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay rates are set by the Woolworths enterprise agreement and the General Retail Industry Award, and visa rules are set by the Department of Home Affairs &mdash; not by JobGader. Woolworths warns that anyone contacted about a store job while living outside Australia or New Zealand is likely being scammed. Applying to Woolworths is free; any request for payment is a scam.</p>
+<p><strong>Note:</strong> pay rates are set by the Woolworths enterprise agreement and the General Retail Industry Award, and visa rules are set by the Department of Home Affairs, not by JobGader. Woolworths warns that anyone contacted about a store job while living outside Australia or New Zealand is likely being scammed. Applying to Woolworths is free; any request for payment is a scam.</p>
 JOBHTML;
     }
 
@@ -212,19 +212,19 @@ JOBHTML;
 <p><strong>If you are permanent (full-time or part-time):</strong></p>
 
 <ul>
-    <li>Monday to Friday after 6pm &mdash; 125 per cent, <strong>$34.76 an hour</strong></li>
-    <li>Saturday &mdash; 125 per cent, <strong>$34.76 an hour</strong></li>
-    <li>Sunday &mdash; 150 per cent, <strong>$41.72 an hour</strong></li>
-    <li>Public holiday &mdash; 225 per cent, <strong>$62.57 an hour</strong></li>
+    <li>Monday to Friday after 6pm: 125 per cent, <strong>$34.76 an hour</strong></li>
+    <li>Saturday: 125 per cent, <strong>$34.76 an hour</strong></li>
+    <li>Sunday: 150 per cent, <strong>$41.72 an hour</strong></li>
+    <li>Public holiday: 225 per cent, <strong>$62.57 an hour</strong></li>
 </ul>
 
 <p><strong>If you are casual:</strong></p>
 
 <ul>
-    <li>Monday to Friday after 6pm &mdash; 150 per cent, <strong>$41.72 an hour</strong></li>
-    <li>Saturday &mdash; 150 per cent, <strong>$41.72 an hour</strong></li>
-    <li>Sunday &mdash; 175 per cent, <strong>$48.67 an hour</strong></li>
-    <li>Public holiday &mdash; 250 per cent, <strong>$69.53 an hour</strong></li>
+    <li>Monday to Friday after 6pm: 150 per cent, <strong>$41.72 an hour</strong></li>
+    <li>Saturday: 150 per cent, <strong>$41.72 an hour</strong></li>
+    <li>Sunday: 175 per cent, <strong>$48.67 an hour</strong></li>
+    <li>Public holiday: 250 per cent, <strong>$69.53 an hour</strong></li>
 </ul>
 
 <p>One technical point that trips people up: <strong>the casual loading is added to the penalty, not multiplied by it.</strong> A casual Sunday is 175 per cent of the base, not 150 per cent multiplied by 1.25. If someone quotes you a higher number than the one above, they have done the sum wrong.</p>
@@ -243,11 +243,11 @@ JOBHTML;
 <p>The Woolworths agreement is slightly more generous than the Award here, which is worth knowing:</p>
 
 <ul>
-    <li><strong>16 and under</strong> &mdash; 50 per cent (the Award pays 45 per cent under 16)</li>
-    <li><strong>17</strong> &mdash; 60 per cent</li>
-    <li><strong>18</strong> &mdash; 70 per cent</li>
-    <li><strong>19</strong> &mdash; 80 per cent</li>
-    <li><strong>20</strong> &mdash; <strong>100 per cent immediately</strong>, where the Award pays 90 per cent until six months' service</li>
+    <li><strong>16 and under</strong>: 50 per cent (the Award pays 45 per cent under 16)</li>
+    <li><strong>17</strong>: 60 per cent</li>
+    <li><strong>18</strong>: 70 per cent</li>
+    <li><strong>19</strong>: 80 per cent</li>
+    <li><strong>20</strong>: <strong>100 per cent immediately</strong>, where the Award pays 90 per cent until six months' service</li>
 </ul>
 
 <p>In Award dollars at Level 1, that means a 16-year-old earns <strong>$13.91 an hour</strong> permanent or $17.39 casual; a 17-year-old $16.69 or $20.86; an 18-year-old $19.47 or $24.34; a 19-year-old $22.25 or $27.81. Only at 20 do you reach the full $27.81 or $34.76.</p>
@@ -260,7 +260,7 @@ JOBHTML;
 
 <p>If you are reading this from Pakistan, India or Bangladesh, this is the section that decides everything.</p>
 
-<p><strong>A supermarket floor job cannot be sponsored.</strong> The occupation code that covers this work, ANZSCO 621111 Sales Assistant (General), appears on <strong>no Australian skilled occupation list at all</strong> &mdash; not the Core Skills Occupation List, not the medium or short-term lists, not the regional list. We checked the Department of Home Affairs' own occupation dataset and the published Core Skills list against each other, and they agree. Retail Supervisor, code 621511, is also absent. There is no nomination an employer could lodge even if it wanted to.</p>
+<p><strong>A supermarket floor job cannot be sponsored.</strong> The occupation code that covers this work, ANZSCO 621111 Sales Assistant (General), appears on <strong>no Australian skilled occupation list at all</strong>, not the Core Skills Occupation List, not the medium or short-term lists, not the regional list. We checked the Department of Home Affairs' own occupation dataset and the published Core Skills list against each other, and they agree. Retail Supervisor, code 621511, is also absent. There is no nomination an employer could lodge even if it wanted to.</p>
 
 <p>The only related code with a pathway is <strong>142111 Retail Manager (General)</strong>, which is on the Core Skills Occupation List and can be sponsored on a subclass 482, 186 or 494. That requires a skills assessment and a salary at or above the Core Skills Income Threshold, currently <strong>AUD 79,423</strong>. It is a store management career, not a first job.</p>
 
@@ -284,15 +284,15 @@ JOBHTML;
 
 <p>Woolworths also states plainly that it will never ask you to pay money for a job, flights, training or recruitment fees.</p>
 
-<p>There is an awkward footnote to this. <strong>That same anti-scam page tells you to confirm a job exists on the "WOWcareers" site &mdash; and wowcareers.com.au no longer loads.</strong> The domain still resolves in DNS but the server accepts no connection on either port. The advice is sound; the link Woolworths gives for it is broken. Verify jobs on <strong>careers.woolworthsgroup.com.au</strong> instead.</p>
+<p>There is an awkward footnote to this. <strong>That same anti-scam page tells you to confirm a job exists on the "WOWcareers" site, and wowcareers.com.au no longer loads.</strong> The domain still resolves in DNS but the server accepts no connection on either port. The advice is sound; the link Woolworths gives for it is broken. Verify jobs on <strong>careers.woolworthsgroup.com.au</strong> instead.</p>
 
 <h2>What Is Actually on the Board</h2>
 
 <p>We read the whole Australian board rather than trusting a headline count. On the day we checked there were <strong>1,966 live vacancies across all Woolworths Group brands in Australia</strong>:</p>
 
 <ul>
-    <li>Woolworths Supermarkets &mdash; <strong>1,705</strong>, plus 43 at Woolworths Metro</li>
-    <li>BIG W &mdash; 135. Primary Connect &mdash; 21. Woolworths Group support &mdash; 21</li>
+    <li>Woolworths Supermarkets: <strong>1,705</strong>, plus 43 at Woolworths Metro</li>
+    <li>BIG W: 135. Primary Connect: 21. Woolworths Group support: 21</li>
 </ul>
 
 <p><strong>Store Team Member alone accounts for 1,076 of them</strong>, of which 908 are at Woolworths Supermarkets. The other titles worth searching: Cleaning and Trolley Collection (361), Baker (99), Trolley Collection Driver (60), Nightfill Manager (26), Assistant Nightfill Manager (25), Bakery Manager (17), Assistant Grocery Manager (15), Nightfill Team Member (13).</p>
@@ -314,7 +314,7 @@ JOBHTML;
 
 <p>Woolworths does not even show a "this job has closed" message. You simply get an error, with no way to tell whether the job ended or the link was wrong.</p>
 
-<p>The scale of the rot is easy to measure. Live Australian requisition numbers currently run from about 49,907 to 113,654. <strong>The newest ID cited in the guides we checked is 54,171 &mdash; and exactly one of the 1,966 live vacancies sits below it.</strong> Two of the linked IDs are below 27,000, where nothing at all is live. Those links are somewhere between 59,000 and 90,000 requisitions out of date.</p>
+<p>The scale of the rot is easy to measure. Live Australian requisition numbers currently run from about 49,907 to 113,654. <strong>The newest ID cited in the guides we checked is 54,171, and exactly one of the 1,966 live vacancies sits below it.</strong> Two of the linked IDs are below 27,000, where nothing at all is live. Those links are somewhere between 59,000 and 90,000 requisitions out of date.</p>
 
 <p>It is not surprising when you look at the turnover: <strong>90 per cent of live Australian vacancies were posted in the last 30 days</strong>, and 37 per cent in the last seven. A supermarket job board is a stream, not a catalogue. Bookmark the search, never a vacancy.</p>
 
@@ -324,7 +324,7 @@ JOBHTML;
 
 <p>Live adverts also mention team discounts across Woolworths Group brands and 24/7 wellbeing support through the Sonder app.</p>
 
-<p>One claim to be careful with, because it circulates widely: Woolworths' Regional Australia Reports are <strong>often cited as saying regional supermarket jobs are "entry-level roles requiring minimal work experience". Neither the 2024 nor the 2025 report contains that phrase or that claim.</strong> What the 2024 report does say is that over 15,700 of its regional team members are under 25 and 55 per cent of the team are female &mdash; which supports the same point honestly.</p>
+<p>One claim to be careful with, because it circulates widely: Woolworths' Regional Australia Reports are <strong>often cited as saying regional supermarket jobs are "entry-level roles requiring minimal work experience". Neither the 2024 nor the 2025 report contains that phrase or that claim.</strong> What the 2024 report does say is that over 15,700 of its regional team members are under 25 and 55 per cent of the team are female, which supports the same point honestly.</p>
 
 <p>Similarly, the widely quoted "70 per cent of the Australian Supermarkets team are multiskilled, with at least 44 per cent working in a second department each month" is real, but it is from the <strong>2025</strong> Sustainability Report and describes financial year 2025. Woolworths' 2026 reporting does not repeat it. The multiskilling point still stands; the vintage should be stated.</p>
 
@@ -334,7 +334,7 @@ JOBHTML;
 
 <p>Two announcements are worth knowing if you are choosing where to look.</p>
 
-<p><strong>Tasmania.</strong> In September 2026 Woolworths began construction on a $29 million shopping centre at Lauderdale, expected to create more than 300 jobs over the life of the project, including more than 260 ongoing roles across the whole centre and 75 during construction. Lauderdale is one of four new Tasmanian supermarkets planned, together expected to create around 650 direct ongoing jobs. Woolworths already employs 5,200 people in Tasmania across 32 supermarkets &mdash; useful perspective for a state that currently shows only 15 live vacancies.</p>
+<p><strong>Tasmania.</strong> In September 2026 Woolworths began construction on a $29 million shopping centre at Lauderdale, expected to create more than 300 jobs over the life of the project, including more than 260 ongoing roles across the whole centre and 75 during construction. Lauderdale is one of four new Tasmanian supermarkets planned, together expected to create around 650 direct ongoing jobs. Woolworths already employs 5,200 people in Tasmania across 32 supermarkets: useful perspective for a state that currently shows only 15 live vacancies.</p>
 
 <p><strong>Western Sydney.</strong> The St Marys eStore opened in 2026 with 150 new roles, including 15 refugees from the area through a community partnership, and Woolworths noted that many of the roles were people's first job. It is the third eStore after Maroochydore and Carrum Downs.</p>
 
@@ -401,7 +401,7 @@ JOBHTML;
     <li><a href="/blog/store-assistant-jobs-in-uk">Store Assistant Jobs in UK</a></li>
     <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a></li>
     <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a></li>
-    <li><a href="/blog/how-to-apply-for-csl-laboratory-jobs-in-australia">How to Apply for CSL Laboratory Jobs in Australia</a> &mdash; an Australian occupation that IS on the skilled list, and what it pays.</li>
+    <li><a href="/blog/how-to-apply-for-csl-laboratory-jobs-in-australia">How to Apply for CSL Laboratory Jobs in Australia</a>: an Australian occupation that IS on the skilled list, and what it pays.</li>
 </ul>
 HTML;
     }

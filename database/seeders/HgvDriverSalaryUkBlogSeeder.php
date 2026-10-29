@@ -273,9 +273,9 @@ JOBHTML,
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/hgv-driver-jobs-uk-visa-sponsorship-2026">HGV Driver Jobs in the UK With Visa Sponsorship (2026)</a> &mdash; why it is generally not available.</li>
-    <li><a href="/blog/how-to-get-hgv-driver-job-uk-from-pakistan-2026">How to Get an HGV Driver Job in the UK From Pakistan (2026)</a> &mdash; the legal route step by step.</li>
-    <li><a href="/blog/truck-driver-salary-usa-2026">Truck Driver Salary in the USA (2026)</a> &mdash; the US picture for comparison.</li>
+    <li><a href="/blog/hgv-driver-jobs-uk-visa-sponsorship-2026">HGV Driver Jobs in the UK With Visa Sponsorship (2026)</a>: why it is generally not available.</li>
+    <li><a href="/blog/how-to-get-hgv-driver-job-uk-from-pakistan-2026">How to Get an HGV Driver Job in the UK From Pakistan (2026)</a>: the legal route step by step.</li>
+    <li><a href="/blog/truck-driver-salary-usa-2026">Truck Driver Salary in the USA (2026)</a>: the US picture for comparison.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or financial advice. Tax and wage figures were checked on 9 October 2026 and change often, so confirm them on GOV.UK before you act or pay anyone.</p>

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Become a Site Supervisor or Foreman Abroad" — the top rung of the
+ * "How to Become a Site Supervisor or Foreman Abroad": the top rung of the
  * construction cluster: foreman versus supervisor, the progression ladder,
  * the skills employers test, and the safety qualifications that matter.
  *
@@ -300,12 +300,12 @@ JOBHTML;
 <p>The rest of the construction cluster:</p>
 
 <ul>
-    <li><a href="/blog/construction-labourer-jobs-in-dubai-and-saudi-arabia">Construction Labourer Jobs in Dubai and Saudi Arabia</a> &mdash; the bottom of the ladder and how to start climbing it.</li>
-    <li><a href="/blog/tiler-plasterer-and-mason-jobs-overseas">Tiler, Plasterer and Mason Jobs Overseas</a> &mdash; the skilled trades most foremen come from.</li>
-    <li><a href="/blog/scaffolder-roofer-and-crane-operator-jobs-abroad">Scaffolder, Roofer and Crane Operator Jobs Abroad</a> &mdash; the height trades and the cards they need.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; the Saudi market from labourer to project manager.</li>
-    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a> &mdash; the Gulf rules for a building services trade.</li>
-    <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a> &mdash; the Gulf rules for HVAC work.</li>
+    <li><a href="/blog/construction-labourer-jobs-in-dubai-and-saudi-arabia">Construction Labourer Jobs in Dubai and Saudi Arabia</a>: the bottom of the ladder and how to start climbing it.</li>
+    <li><a href="/blog/tiler-plasterer-and-mason-jobs-overseas">Tiler, Plasterer and Mason Jobs Overseas</a>: the skilled trades most foremen come from.</li>
+    <li><a href="/blog/scaffolder-roofer-and-crane-operator-jobs-abroad">Scaffolder, Roofer and Crane Operator Jobs Abroad</a>: the height trades and the cards they need.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: the Saudi market from labourer to project manager.</li>
+    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a>: the Gulf rules for a building services trade.</li>
+    <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a>: the Gulf rules for HVAC work.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or employment advice. Visa and labour rules change; confirm the current position on u.ae, mohre.gov.ae and hrsd.gov.sa before accepting an offer or paying anyone.</p>

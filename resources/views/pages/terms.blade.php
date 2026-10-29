@@ -1,5 +1,5 @@
 @extends('user.layouts.master')
-@section('title', 'Terms of Service — JobGader')
+@section('title', 'Terms of Service: JobGader')
 @section('meta_description', 'The JobGader Terms of Service: account registration, acceptable use, employer and job seeker responsibilities, and limitation of liability.')
 @section('content')
 

@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Start a Career in Refrigeration and Air Conditioning" — the
+ * "How to Start a Career in Refrigeration and Air Conditioning": the
  * training and specialisation page of the HVAC/R cluster. It owns the route
  * in (training, EPA 608, the apprentice rule) and the move into commercial
  * and industrial refrigeration; the pay and demand comparison lives on the
@@ -157,7 +157,7 @@ JOBHTML;
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Refrigeration and air conditioning is one trade with two directions. Most people enter it the same way &mdash; training, then a federal refrigerant certificate, then a first job under an experienced technician &mdash; and then choose between comfort cooling in homes and offices, or refrigeration in supermarkets, cold stores and food plants. This page sets out the route in and what the official data says about where specialising pays.</p>
+<p>Refrigeration and air conditioning is one trade with two directions. Most people enter it the same way, training, then a federal refrigerant certificate, then a first job under an experienced technician, and then choose between comfort cooling in homes and offices, or refrigeration in supermarkets, cold stores and food plants. This page sets out the route in and what the official data says about where specialising pays.</p>
 
 <p>The official name for the trade is HVAC/R: heating, ventilation, air conditioning and refrigeration. BLS counts all of it as one occupation, heating, air conditioning and refrigeration mechanics and installers, with a May 2025 median of <strong>$61,010</strong>.</p>
 
@@ -190,10 +190,10 @@ JOBHTML;
 <p>Federal rules under Section 608 of the Clean Air Act require anyone who maintains, services, repairs or disposes of equipment that could release refrigerant to be certified. The EPA issues four certifications:</p>
 
 <ul>
-    <li><strong>Type I</strong> &mdash; small appliances</li>
-    <li><strong>Type II</strong> &mdash; high-pressure and very high-pressure equipment</li>
-    <li><strong>Type III</strong> &mdash; low-pressure equipment</li>
-    <li><strong>Universal</strong> &mdash; all types of equipment</li>
+    <li><strong>Type I</strong>: small appliances</li>
+    <li><strong>Type II</strong>: high-pressure and very high-pressure equipment</li>
+    <li><strong>Type III</strong>: low-pressure equipment</li>
+    <li><strong>Universal</strong>: all types of equipment</li>
 </ul>
 
 <p>Each exam pairs a <strong>core section</strong> with the type section. For Universal certification the core test must be taken proctored; an open-book core result does not count. <strong>Section 608 credentials do not expire.</strong> Commercial and industrial refrigeration employers almost always ask for Universal.</p>
@@ -213,8 +213,8 @@ JOBHTML;
 <h2>Step 5: Add Credentials That Match the Direction You Choose</h2>
 
 <ul>
-    <li><strong>NATE</strong> (North American Technician Excellence) &mdash; the best-known voluntary credential for HVAC/R service technicians.</li>
-    <li><strong>RETA CARO and CIRO</strong> &mdash; the Refrigerating Engineers and Technicians Association's Certified Assistant Refrigeration Operator and Certified Industrial Refrigeration Operator credentials. They are voluntary, but ammonia plants ask for them often, and many employers pay for them once you are hired.</li>
+    <li><strong>NATE</strong> (North American Technician Excellence): the best-known voluntary credential for HVAC/R service technicians.</li>
+    <li><strong>RETA CARO and CIRO</strong>: the Refrigerating Engineers and Technicians Association's Certified Assistant Refrigeration Operator and Certified Industrial Refrigeration Operator credentials. They are voluntary, but ammonia plants ask for them often, and many employers pay for them once you are hired.</li>
     <li><strong>Manufacturer training</strong> on specific compressor, rack and control systems.</li>
 </ul>
 
@@ -276,10 +276,10 @@ JOBHTML;
 <h2>Where Refrigeration Technicians Work</h2>
 
 <ul>
-    <li><strong>Cold storage and logistics</strong> &mdash; warehouses holding frozen and chilled goods, often on ammonia systems.</li>
-    <li><strong>Food and beverage plants</strong> &mdash; meat, dairy, breweries and processed food, with large industrial systems.</li>
-    <li><strong>Commercial refrigeration contractors</strong> &mdash; supermarket racks, display cases and walk-ins.</li>
-    <li><strong>Ice rinks and sports facilities</strong> &mdash; a small but specialised niche.</li>
+    <li><strong>Cold storage and logistics</strong>: warehouses holding frozen and chilled goods, often on ammonia systems.</li>
+    <li><strong>Food and beverage plants</strong>: meat, dairy, breweries and processed food, with large industrial systems.</li>
+    <li><strong>Commercial refrigeration contractors</strong>: supermarket racks, display cases and walk-ins.</li>
+    <li><strong>Ice rinks and sports facilities</strong>: a small but specialised niche.</li>
 </ul>
 
 <p>Apply through the employer's own careers page. Search "refrigeration technician", "refrigeration operator" or "maintenance technician &ndash; refrigeration" rather than "HVAC", which mostly returns comfort-cooling jobs.</p>
@@ -341,11 +341,11 @@ JOBHTML;
 <p>The rest of the HVAC/R cluster and related trades:</p>
 
 <ul>
-    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a> &mdash; demand, pay by state and province, and Canadian certification.</li>
-    <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a> &mdash; Gulf recruitment rules and the Saudi skills exam.</li>
-    <li><a href="/blog/industrial-vs-house-wiring-electrician-which-pays-more">Industrial vs House Wiring Electrician: Which Pays More</a> &mdash; the same residential-versus-industrial question for electricians.</li>
-    <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a> &mdash; plant and building maintenance roles.</li>
-    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a> &mdash; the wider US trades market and its visa routes.</li>
+    <li><a href="/blog/hvac-technician-jobs-in-the-usa-and-canada">HVAC Technician Jobs in the USA and Canada</a>: demand, pay by state and province, and Canadian certification.</li>
+    <li><a href="/blog/ac-technician-jobs-in-dubai-and-saudi-arabia">AC Technician Jobs in Dubai and Saudi Arabia</a>: Gulf recruitment rules and the Saudi skills exam.</li>
+    <li><a href="/blog/industrial-vs-house-wiring-electrician-which-pays-more">Industrial vs House Wiring Electrician: Which Pays More</a>: the same residential-versus-industrial question for electricians.</li>
+    <li><a href="/blog/maintenance-technician-jobs-in-usa">Maintenance Technician Jobs in USA</a>: plant and building maintenance roles.</li>
+    <li><a href="/blog/construction-jobs-in-usa-for-foreigners">Construction Jobs in USA for Foreigners</a>: the wider US trades market and its visa routes.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not career or legal advice. Pay data is from the BLS Occupational Employment and Wage Statistics survey for May 2025; certification rules are from the EPA and the Texas Department of Licensing and Regulation. Confirm current rules with your state board.</p>

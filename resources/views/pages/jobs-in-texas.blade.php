@@ -1,7 +1,7 @@
 @extends('user.layouts.master')
-@section('title', 'Jobs in Texas — Industries, Cities and Pay | JobGader')
+@section('title', 'Jobs in Texas: Industries, Cities and Pay | JobGader')
 @section('meta_description', 'Jobs in Texas: which industries are hiring in Houston, Dallas, Austin and San Antonio, what they pay, and why take-home pay goes further here.')
-@section('og_title', 'Jobs in Texas — Industries, Cities and Pay | JobGader')
+@section('og_title', 'Jobs in Texas: Industries, Cities and Pay | JobGader')
 @section('og_description', 'Jobs in Texas: which industries are hiring in Houston, Dallas, Austin and San Antonio, what they pay, and why take-home pay goes further here.')
 @section('canonical', url()->current())
 

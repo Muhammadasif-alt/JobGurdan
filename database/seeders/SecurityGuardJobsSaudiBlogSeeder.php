@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Security Guard Jobs in Saudi Arabia" — a sector guide rather than one
+ * "Security Guard Jobs in Saudi Arabia": a sector guide rather than one
  * vacancy, so the apply link goes to an Indeed search and the post carries no
  * JobPosting markup.
  *
@@ -61,7 +61,7 @@ class SecurityGuardJobsSaudiBlogSeeder extends Seeder
                 'content' => $content,
                 'featured_image' => 'blogs/security-guard-jobs-in-saudi-arabia.jpg',
                 'tags' => 'security guard jobs in saudi arabia, security guard salary in saudi arabia, security jobs riyadh, security guard jobs for pakistani, moi security licence, security jobs saudi arabia visa sponsorship, watchman jobs saudi arabia, security supervisor jobs jeddah',
-                'meta_title' => 'Security Guard Jobs in Saudi Arabia — Salary Guide',
+                'meta_title' => 'Security Guard Jobs in Saudi Arabia: Salary Guide',
                 'meta_description' => 'Security guard jobs in Saudi Arabia: real SAR salary ranges, why the quoted SAR 4,000-6,500 is a contract price not a wage, the MOI licence, and how to apply.',
                 'reading_time' => max(1, (int) ceil(str_word_count(strip_tags($content)) / 200)),
                 'status' => 'published',
@@ -123,7 +123,7 @@ class SecurityGuardJobsSaudiBlogSeeder extends Seeder
 <h3>Requirements</h3>
 <ul>
     <li>Usually 21 or older, with a basic physical fitness assessment</li>
-    <li>Able to read and write in Arabic or the company's working language &mdash; incident reports are a core part of the job</li>
+    <li>Able to read and write in Arabic or the company's working language: incident reports are a core part of the job</li>
     <li>A Ministry of Interior civilian security licence, arranged by the employer and issued to you as an individual</li>
     <li>Clean police record and a medical fitness certificate from an approved GAMCA / Wafid centre</li>
     <li>Employer-sponsored work visa, or a transferable Iqama if you are already in the Kingdom</li>
@@ -135,21 +135,21 @@ class SecurityGuardJobsSaudiBlogSeeder extends Seeder
     <li>Accommodation, transport to site and often meals, on top of base salary</li>
     <li>Overtime at 150% of basic wage for hours beyond the legal limit</li>
     <li>Employer-sponsored Iqama, medical insurance and end-of-service benefit</li>
-    <li>Annual return flight on most agency contracts &mdash; confirm it in writing</li>
+    <li>Annual return flight on most agency contracts: confirm it in writing</li>
     <li>Progression to supervisor and shift-in-charge roles with experience and language ability</li>
 </ul>
 
 <h3>Before you pay anyone anything</h3>
-<p><strong>Never pay for a visa or a job offer.</strong> Saudi rules place recruitment costs on the employer. In Pakistan, use only an Overseas Employment Promoter licensed by the <strong>Bureau of Emigration and Overseas Employment</strong> &mdash; that is the licensing authority, not any trade association &mdash; and equivalently an eMigrate-registered agent in India, a BMET-registered agency in Bangladesh, or a Department of Migrant Workers-licensed agency in the Philippines. Treat any &quot;free visa&quot; or &quot;azad visa&quot; offer as illegal; working for anyone other than your registered sponsor exposes you to an absconding (huroob) report and deportation.</p>
+<p><strong>Never pay for a visa or a job offer.</strong> Saudi rules place recruitment costs on the employer. In Pakistan, use only an Overseas Employment Promoter licensed by the <strong>Bureau of Emigration and Overseas Employment</strong>, that is the licensing authority, not any trade association, and equivalently an eMigrate-registered agent in India, a BMET-registered agency in Bangladesh, or a Department of Migrant Workers-licensed agency in the Philippines. Treat any &quot;free visa&quot; or &quot;azad visa&quot; offer as illegal; working for anyone other than your registered sponsor exposes you to an absconding (huroob) report and deportation.</p>
 
-<p><strong>Note:</strong> pay, hours and contract terms are set by the individual employer or agency &mdash; not by JobGader. Listings on aggregator sites vary in quality; verify the employer and the contract before travelling.</p>
+<p><strong>Note:</strong> pay, hours and contract terms are set by the individual employer or agency, not by JobGader. Listings on aggregator sites vary in quality; verify the employer and the contract before travelling.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Malls, hotels, hospitals, compounds, warehouses and every active construction site in the Kingdom needs manned security, and Vision 2030 has added all of them at once. That makes <strong>security guard jobs in Saudi Arabia</strong> one of the few routes into the GCC that needs no degree and no trade certificate. It is also a role where the salary figures circulating online are wrong by roughly three times &mdash; not because anyone is lying, but because two different numbers get confused. This guide starts there, because it is the thing most likely to cost you money.</p>
+<p>Malls, hotels, hospitals, compounds, warehouses and every active construction site in the Kingdom needs manned security, and Vision 2030 has added all of them at once. That makes <strong>security guard jobs in Saudi Arabia</strong> one of the few routes into the GCC that needs no degree and no trade certificate. It is also a role where the salary figures circulating online are wrong by roughly three times, not because anyone is lying, but because two different numbers get confused. This guide starts there, because it is the thing most likely to cost you money.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/security?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -161,7 +161,7 @@ JOBHTML;
 
 <p>You will find pages quoting <strong>SAR 4,200 to 6,500 a month for &quot;24-hour coverage&quot;</strong>, and others quoting an average of SAR 55,000 to 77,000 a year. Both come from real data. Neither is an entry-level guard's wage.</p>
 
-<p>A <strong>manned guarding post</strong> covered 24 hours a day cannot be staffed by one person. Saudi Labour Law caps you at 8 hours a day and 48 hours a week, so a round-the-clock post takes three guards on rotation plus relief cover for rest days and leave. The SAR 4,200 to 6,500 figure is what a client company pays a security firm each month <em>for that post</em> &mdash; it covers three or more salaries, the firm's licensing and insurance, uniforms, supervision and margin. Divided across the people actually standing there, it is nothing like a per-person wage.</p>
+<p>A <strong>manned guarding post</strong> covered 24 hours a day cannot be staffed by one person. Saudi Labour Law caps you at 8 hours a day and 48 hours a week, so a round-the-clock post takes three guards on rotation plus relief cover for rest days and leave. The SAR 4,200 to 6,500 figure is what a client company pays a security firm each month <em>for that post</em>: it covers three or more salaries, the firm's licensing and insurance, uniforms, supervision and margin. Divided across the people actually standing there, it is nothing like a per-person wage.</p>
 
 <p>The annual averages have a different problem: they blend experienced, licensed and supervisory guards, including Saudi nationals, into one mean. Useful for the sector, misleading for someone applying to their first post from abroad.</p>
 
@@ -200,27 +200,27 @@ JOBHTML;
     </tbody>
 </table>
 
-<p>Two rules make these numbers comparable. First, <strong>overtime beyond the legal limit is paid at 150% of your basic wage</strong> under the Saudi Labour Law, and for Muslim employees the working week drops to 36 hours during Ramadan. If a long-shift package looks generous, check how much of it is overtime you are legally owed anyway. Second, <strong>Saudi Arabia has no statutory minimum wage for expatriate workers</strong> &mdash; the SAR 4,000 figure repeated online is the Saudization threshold for counting a Saudi national as a full employee and has nothing to do with your pay.</p>
+<p>Two rules make these numbers comparable. First, <strong>overtime beyond the legal limit is paid at 150% of your basic wage</strong> under the Saudi Labour Law, and for Muslim employees the working week drops to 36 hours during Ramadan. If a long-shift package looks generous, check how much of it is overtime you are legally owed anyway. Second, <strong>Saudi Arabia has no statutory minimum wage for expatriate workers</strong>: the SAR 4,000 figure repeated online is the Saudization threshold for counting a Saudi national as a full employee and has nothing to do with your pay.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/security-guard-jobs-in-saudi-arabia-riyadh.jpg"
-         alt="Security guard on duty outside a corporate building in Riyadh — security guard jobs in Saudi Arabia"
+         alt="Security guard on duty outside a corporate building in Riyadh: security guard jobs in Saudi Arabia"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
-<h2>The Ministry of Interior Licence &mdash; and Who Pays for It</h2>
+<h2>The Ministry of Interior Licence: and Who Pays for It</h2>
 
 <p>Private security in Saudi Arabia is regulated by the <strong>Ministry of Interior</strong>. The security company must be licensed to operate, and guards are vetted and licensed as individuals rather than covered by a blanket company permit. In practice this means your name, your record and your medical clearance go through the process, and the licence follows you rather than the employer.</p>
 
 <p>Two consequences worth knowing. The vetting is why a <strong>clean police record</strong> is non-negotiable in this sector, more so than in cleaning or construction. And because the licence is arranged by your employer as part of hiring you, <strong>you should not be asked to pay for it</strong>. An agent charging you a fee for a security licence is charging you for the employer's obligation.</p>
 
-<p>Before you accept an offer, check that the employer is a licensed security company rather than an intermediary. Ask for the company's licence details and the name that will appear on your Iqama &mdash; a legitimate employer answers this without hesitation.</p>
+<p>Before you accept an offer, check that the employer is a licensed security company rather than an intermediary. Ask for the company's licence details and the name that will appear on your Iqama: a legitimate employer answers this without hesitation.</p>
 
 <h2>Requirements for Foreign Applicants</h2>
 
 <ul>
-    <li><strong>Age</strong> &mdash; typically 21 or older.</li>
-    <li><strong>Physical fitness</strong> &mdash; a basic strength and endurance assessment is standard, and posts are largely standing work across a full shift.</li>
+    <li><strong>Age</strong>: typically 21 or older.</li>
+    <li><strong>Physical fitness</strong>: a basic strength and endurance assessment is standard, and posts are largely standing work across a full shift.</li>
     <li><strong>Literacy in Arabic or the company's working language.</strong> This is a real requirement, not a formality: writing incident reports and logging entries is a core part of the job, and it is the most common reason applicants are turned down at interview.</li>
     <li><strong>A Ministry of Interior civilian guard licence</strong>, arranged by the employer and issued to you personally.</li>
     <li><strong>A valid Iqama sponsored by the employer</strong>, or a transferable Iqama if you are already in the Kingdom.</li>
@@ -232,24 +232,24 @@ JOBHTML;
 <h2>Where Security Guards Work</h2>
 
 <ul>
-    <li><strong>Malls and retail</strong> &mdash; the largest single employer of guards, with fixed posts, patrols and CCTV monitoring roles.</li>
-    <li><strong>Hotels and hospitality</strong> &mdash; front-of-house presence, so appearance, manner and language matter more here than elsewhere.</li>
-    <li><strong>Hospitals and clinics</strong> &mdash; access control and de-escalation, often with additional training provided.</li>
-    <li><strong>Residential compounds</strong> &mdash; gate control and visitor management, usually quieter posts on longer shifts.</li>
-    <li><strong>Construction sites and warehouses</strong> &mdash; asset protection, often night shifts and often on the project camp.</li>
-    <li><strong>Corporate and industrial premises</strong> &mdash; the best-paid non-supervisory posts, with stricter vetting.</li>
+    <li><strong>Malls and retail</strong>: the largest single employer of guards, with fixed posts, patrols and CCTV monitoring roles.</li>
+    <li><strong>Hotels and hospitality</strong>: front-of-house presence, so appearance, manner and language matter more here than elsewhere.</li>
+    <li><strong>Hospitals and clinics</strong>: access control and de-escalation, often with additional training provided.</li>
+    <li><strong>Residential compounds</strong>: gate control and visitor management, usually quieter posts on longer shifts.</li>
+    <li><strong>Construction sites and warehouses</strong>: asset protection, often night shifts and often on the project camp.</li>
+    <li><strong>Corporate and industrial premises</strong>: the best-paid non-supervisory posts, with stricter vetting.</li>
 </ul>
 
 <h2>Women in Saudi Security Roles</h2>
 
-<p>Licensed female security guards are a relatively recent addition to the Saudi market and are concentrated in healthcare, retail and venues where female staff are needed for search and access control. Demand in those settings has grown faster than the number of licensed women available to fill it, so employers recruiting for these posts tend to compete harder on package than for equivalent male posts. Treat any specific percentage premium you read online with caution &mdash; the roles exist and are growing, but the numbers quoted for them are rarely sourced.</p>
+<p>Licensed female security guards are a relatively recent addition to the Saudi market and are concentrated in healthcare, retail and venues where female staff are needed for search and access control. Demand in those settings has grown faster than the number of licensed women available to fill it, so employers recruiting for these posts tend to compete harder on package than for equivalent male posts. Treat any specific percentage premium you read online with caution: the roles exist and are growing, but the numbers quoted for them are rarely sourced.</p>
 
 <h2>The Visa Process from Pakistan, India and Bangladesh</h2>
 
 <ol>
-    <li><strong>A job offer comes first.</strong> There is no legal route to a Saudi work visa without employer sponsorship &mdash; nobody can sell you one in advance.</li>
+    <li><strong>A job offer comes first.</strong> There is no legal route to a Saudi work visa without employer sponsorship: nobody can sell you one in advance.</li>
     <li><strong>The employer obtains work authorisation</strong> from the Ministry of Human Resources and Social Development.</li>
-    <li><strong>You prepare documents</strong> &mdash; passport, attested certificates, police clearance certificate, medical report and the employment contract.</li>
+    <li><strong>You prepare documents</strong>: passport, attested certificates, police clearance certificate, medical report and the employment contract.</li>
     <li><strong>The visa is stamped</strong> at the Saudi embassy or consulate. Budget roughly two to six weeks from complete documents, longer if attestation is outstanding.</li>
     <li><strong>You travel and the employer issues your Iqama</strong>, and arranges your Ministry of Interior guard licence.</li>
 </ol>
@@ -261,7 +261,7 @@ JOBHTML;
 <p>This is worth being precise about, because scam agents rely on people not knowing the difference:</p>
 
 <ul>
-    <li><strong>Pakistan:</strong> the licensing authority is the <strong>Bureau of Emigration and Overseas Employment</strong>, and licensed agencies are Overseas Employment Promoters. Industry associations are not licensing bodies &mdash; check the OEP licence itself and confirm it is current.</li>
+    <li><strong>Pakistan:</strong> the licensing authority is the <strong>Bureau of Emigration and Overseas Employment</strong>, and licensed agencies are Overseas Employment Promoters. Industry associations are not licensing bodies: check the OEP licence itself and confirm it is current.</li>
     <li><strong>India:</strong> use a Recruiting Agent registered on the Ministry of External Affairs <strong>eMigrate</strong> system, and complete emigration clearance where it applies to you.</li>
     <li><strong>Bangladesh:</strong> use an agency registered with <strong>BMET</strong> and keep your smart card and clearance documents.</li>
     <li><strong>Philippines:</strong> use an agency licensed by the <strong>Department of Migrant Workers</strong> and insist on a verified employment contract.</li>
@@ -279,9 +279,9 @@ JOBHTML;
     <li><strong>Search &quot;Security Guard&quot; with &quot;Saudi Arabia&quot;</strong> as the location, or narrow to Riyadh, Jeddah or Dammam. From Pakistan, the Ministry of Human Resources and Social Development's own portal lists the same licensed security employers.</li>
     <li><strong>Filter to full-time</strong> and, where the option appears, to listings mentioning visa sponsorship.</li>
     <li><strong>Open the company profile before applying.</strong> A legitimate employer is a licensed Saudi security company, not an individual agent posting from a personal account.</li>
-    <li><strong>Apply and upload your CV.</strong> Lead with any security, military or police service, your Arabic and English level, your fitness, and your visa or Iqama status &mdash; those four decide the shortlist.</li>
+    <li><strong>Apply and upload your CV.</strong> Lead with any security, military or police service, your Arabic and English level, your fitness, and your visa or Iqama status: those four decide the shortlist.</li>
     <li><strong>Check the company's own careers page too.</strong> Direct listings are often more current than the aggregated copy.</li>
-    <li><strong>Confirm the package in writing</strong> &mdash; base salary, shift pattern, overtime, accommodation, food, transport, medical cover and flight &mdash; before you complete any medical or visa step.</li>
+    <li><strong>Confirm the package in writing</strong>, base salary, shift pattern, overtime, accommodation, food, transport, medical cover and flight, before you complete any medical or visa step.</li>
 </ol>
 
 <p><strong>One rule above all:</strong> if a listing or an agent asks for an upfront payment for a visa or for processing, stop. Legitimate Saudi employers carry recruitment costs themselves. That single test filters out most of the fraud in this category.</p>
@@ -310,7 +310,7 @@ JOBHTML;
 <p>Yes. Entry-level posts in malls, compounds and warehouses are open to applicants with no security background. Prior security, military or police service is preferred and often moves you up a pay band.</p>
 
 <h3>How long does the visa process take from Pakistan?</h3>
-<p>Roughly two to six weeks from the point your documents are complete, and longer if attestation or police clearance is outstanding. A job offer must exist first &mdash; there is no legal way to obtain a Saudi work visa without employer sponsorship.</p>
+<p>Roughly two to six weeks from the point your documents are complete, and longer if attestation or police clearance is outstanding. A job offer must exist first: there is no legal way to obtain a Saudi work visa without employer sponsorship.</p>
 
 <h3>Should I ever pay an agent for a Saudi security job?</h3>
 <p>No. Saudi rules place recruitment costs on the employer, and your own government caps what a licensed agency may charge. In Pakistan check the Overseas Employment Promoter licence issued by the Bureau of Emigration and Overseas Employment, not membership of any trade association.</p>
@@ -349,19 +349,19 @@ JOBHTML;
 <p>Comparing entry-level routes into the Gulf and beyond? These cover the rest:</p>
 
 <ul>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; the Labour Law and Musaned split, and what each route pays.</li>
-    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a> &mdash; hotel, hospital and household cleaning routes into the Kingdom.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; giga-project hiring from trades to project management.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; why most UK operative roles cannot be sponsored at all.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; the same trade in the Emirates, where two regulators split the country.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; an indoor Gulf role, and why allowances do not count towards gratuity.</li>
-    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; a licensed healthcare route into the Kingdom, and the recruitment rules for Indian nurses.</li>
-    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a> &mdash; sworn law enforcement in the US, and the citizenship and firearms rules that decide who can apply.</li>
-    <li><a href="/blog/kitchen-helper-jobs-in-saudi-arabia">Kitchen Helper Jobs in Saudi Arabia</a> &mdash; kitchen work in hotels and catering, and the Saudization rules in hospitality.</li>
-    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a> &mdash; which entry-level roles are still open to foreign workers, and what protects the wage.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: the Labour Law and Musaned split, and what each route pays.</li>
+    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a>: hotel, hospital and household cleaning routes into the Kingdom.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: giga-project hiring from trades to project management.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: why most UK operative roles cannot be sponsored at all.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: the same trade in the Emirates, where two regulators split the country.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: an indoor Gulf role, and why allowances do not count towards gratuity.</li>
+    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a>: a licensed healthcare route into the Kingdom, and the recruitment rules for Indian nurses.</li>
+    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a>: sworn law enforcement in the US, and the citizenship and firearms rules that decide who can apply.</li>
+    <li><a href="/blog/kitchen-helper-jobs-in-saudi-arabia">Kitchen Helper Jobs in Saudi Arabia</a>: kitchen work in hotels and catering, and the Saudization rules in hospitality.</li>
+    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a>, which entry-level roles are still open to foreign workers, and what protects the wage.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Saudi labour, security-licensing and visa rules change &mdash; confirm current requirements through the Ministry of Human Resources and Social Development, the Ministry of Interior, or your own country's overseas employment authority before paying any fee or signing a contract.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Saudi labour, security-licensing and visa rules change: confirm current requirements through the Ministry of Human Resources and Social Development, the Ministry of Interior, or your own country's overseas employment authority before paying any fee or signing a contract.</p>
 HTML;
     }
 }

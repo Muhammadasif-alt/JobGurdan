@@ -205,10 +205,10 @@ class UnionApprenticeshipWaitlistsBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/how-apprenticeship-ranking-lists-work">How Apprenticeship Ranking Lists Work</a> &mdash; scores, ranks and expiry</li>
-    <li><a href="/blog/laborers-union-entrance-exam-guide">Laborers Union Entrance Exam Guide</a> &mdash; LiUNA entry</li>
-    <li><a href="/blog/can-you-retake-apprenticeship-aptitude-test">Can You Retake the Apprenticeship Aptitude Test?</a> &mdash; retake rules</li>
-    <li><a href="/blog/what-score-needed-apprenticeship-test">What Score Do You Need on an Apprenticeship Test?</a> &mdash; pass marks</li>
+    <li><a href="/blog/how-apprenticeship-ranking-lists-work">How Apprenticeship Ranking Lists Work</a>: scores, ranks and expiry</li>
+    <li><a href="/blog/laborers-union-entrance-exam-guide">Laborers Union Entrance Exam Guide</a>: LiUNA entry</li>
+    <li><a href="/blog/can-you-retake-apprenticeship-aptitude-test">Can You Retake the Apprenticeship Aptitude Test?</a>: retake rules</li>
+    <li><a href="/blog/what-score-needed-apprenticeship-test">What Score Do You Need on an Apprenticeship Test?</a>: pass marks</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 17 October 2026 against official sources. Examples describe individual programmes and do not establish national average waiting times or guarantee selection.</p>

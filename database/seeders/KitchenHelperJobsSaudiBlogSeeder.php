@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Kitchen Helper Jobs in Saudi Arabia" — entry-level kitchen work in hotels,
+ * "Kitchen Helper Jobs in Saudi Arabia": entry-level kitchen work in hotels,
  * restaurants, hospitals and catering. The cleaner, driver, security guard and
  * construction guides own their own occupations, so this one owns kitchen pay
  * against the referral wages, the food handler health certificate, the Labour
@@ -157,7 +157,7 @@ class KitchenHelperJobsSaudiBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for the visa.</strong> Under Article 40 of the Labour Law the employer pays recruitment, iqama and work permit fees, profession changes, exit and re-entry visas and your return ticket, and no employer may keep your passport.</p>
 
-<p><strong>Note:</strong> wages, contracts and visa rules are set by employers, the Ministry of Human Resources and Social Development and your own country's emigration authority &mdash; not by JobGader. Confirm the terms before you pay any agency or sign.</p>
+<p><strong>Note:</strong> wages, contracts and visa rules are set by employers, the Ministry of Human Resources and Social Development and your own country's emigration authority, not by JobGader. Confirm the terms before you pay any agency or sign.</p>
 JOBHTML;
     }
 
@@ -302,13 +302,13 @@ JOBHTML;
 <p>Comparing Gulf routes and kitchen work elsewhere? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; the Labour Law and Musaned split, and what it means for your contract.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; sponsored manual work and how the package is structured.</li>
-    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a> &mdash; another entry-level Saudi route and its licensing.</li>
-    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; the licensed end of the same labour market.</li>
-    <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a> &mdash; kitchen work in Britain, and what the law says about tips.</li>
-    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a> &mdash; seasonal hospitality routes on the other side of the world.</li>
-    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a> &mdash; which entry-level roles are still open to foreign workers, and what protects the wage.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: the Labour Law and Musaned split, and what it means for your contract.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: sponsored manual work and how the package is structured.</li>
+    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a>: another entry-level Saudi route and its licensing.</li>
+    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a>: the licensed end of the same labour market.</li>
+    <li><a href="/blog/cook-jobs-in-uk">Cook Jobs in UK</a>: kitchen work in Britain, and what the law says about tips.</li>
+    <li><a href="/blog/hotel-jobs-in-usa-for-foreigners">Hotel Jobs in USA for Foreigners</a>: seasonal hospitality routes on the other side of the world.</li>
+    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a>, which entry-level roles are still open to foreign workers, and what protects the wage.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. Saudi labour rules, localization decisions and referral wages change. Confirm current requirements with the Ministry of Human Resources and Social Development, the Qiwa and Balady platforms, or your own country's emigration authority, before paying any fee or signing a contract.</p>

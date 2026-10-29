@@ -211,8 +211,8 @@ class WarehouseOperativeSalaryUkBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/warehouse-operative-jobs-uk-visa-sponsorship-2026">Warehouse Operative Jobs in the UK With Visa Sponsorship (2026)</a> &mdash; why sponsorship is generally not available.</li>
-    <li><a href="/blog/warehouse-worker-salary-usa-2026">Warehouse Worker Salary in USA (2026)</a> &mdash; the same breakdown for the US.</li>
+    <li><a href="/blog/warehouse-operative-jobs-uk-visa-sponsorship-2026">Warehouse Operative Jobs in the UK With Visa Sponsorship (2026)</a>: why sponsorship is generally not available.</li>
+    <li><a href="/blog/warehouse-worker-salary-usa-2026">Warehouse Worker Salary in USA (2026)</a>: the same breakdown for the US.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax or financial advice. The National Living Wage was checked against GOV.UK on 9 October 2026; rates above the legal minimum are examples, not statistics or job offers. Tax and National Insurance figures are estimates for England. PKR conversions are editorial examples.</p>

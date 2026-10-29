@@ -232,7 +232,7 @@ class LloydsGraduateJobsUkBlogSeeder extends Seeder
 
 <h3>Common requirements</h3>
 <ul>
-    <li>The existing right to work in the United Kingdom &mdash; Lloyds states plainly that sponsorship is not offered for graduate schemes</li>
+    <li>The existing right to work in the United Kingdom: Lloyds states plainly that sponsorship is not offered for graduate schemes</li>
     <li>A degree held or on track, ideally a 2:2 or above, with subject requirements on some schemes</li>
     <li>Technical evidence where the scheme is technical, such as Python and SQL for Data Science and AI</li>
     <li>Willingness to spend a minimum of two days a week in your assigned office, and five days for some roles</li>
@@ -240,7 +240,7 @@ class LloydsGraduateJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> salaries, scheme lengths, locations and closing dates are set and published by Lloyds Banking Group, and immigration rules are set by the Home Office &mdash; not by JobGader. Apply directly on Lloyds' own talent site and never pay anyone for a graduate place, an interview slot or a referral.</p>
+<p><strong>Note:</strong> salaries, scheme lengths, locations and closing dates are set and published by Lloyds Banking Group, and immigration rules are set by the Home Office, not by JobGader. Apply directly on Lloyds' own talent site and never pay anyone for a graduate place, an interview slot or a referral.</p>
 JOBHTML;
     }
 
@@ -249,7 +249,7 @@ JOBHTML;
         return <<<'HTML'
 <p><strong>Apply on Lloyds Banking Group's own graduate hub, pick one scheme, and get it in early: applications for the September 2027 intake opened on 10 September 2026 and the first closing dates fall on 4 October 2026.</strong> Lloyds publishes a salary on every scheme page, from &pound;42,000 to &pound;55,000, and it runs a three-stage process rather than the five stages most guides describe.</p>
 
-<p>Two answers before you start filling anything in. <strong>Lloyds cannot sponsor a work visa for any graduate scheme</strong> &mdash; its own FAQ answers the question with a single word, "No" &mdash; so you need a right to work you already hold. And <strong>you get one application per year</strong>, not a shortlist of three preferences. Choosing which scheme to apply to is therefore the most consequential decision in this whole process, and it is the one most guides skip past.</p>
+<p>Two answers before you start filling anything in. <strong>Lloyds cannot sponsor a work visa for any graduate scheme</strong>, its own FAQ answers the question with a single word, "No", so you need a right to work you already hold. And <strong>you get one application per year</strong>, not a shortlist of three preferences. Choosing which scheme to apply to is therefore the most consequential decision in this whole process, and it is the one most guides skip past.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#006a4d;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -261,13 +261,13 @@ JOBHTML;
 
 <p>Most write-ups of the Lloyds graduate scheme hedge this. They say sponsorship "varies by programme", or that "some schemes such as Corporate Banking do not sponsor". That hedge is wrong, and it wastes months of people's lives.</p>
 
-<p>Lloyds' graduate FAQ asks whether sponsorship is available and answers: <strong>"No. Sponsorship is not offered for graduate schemes."</strong> Every individual scheme page repeats it in its own words &mdash; "We cannot sponsor visas" on Software Engineer and Cyber Security Engineer, "Please note that we cannot sponsor visas" on Risk, Corporate Banking and Markets and Accounting &amp; Business Insights, "we cannot support visas" on Product and Partnerships. There is no scheme on the list that is an exception, and there is no quiet route in for a strong enough candidate.</p>
+<p>Lloyds' graduate FAQ asks whether sponsorship is available and answers: <strong>"No. Sponsorship is not offered for graduate schemes."</strong> Every individual scheme page repeats it in its own words: "We cannot sponsor visas" on Software Engineer and Cyber Security Engineer, "Please note that we cannot sponsor visas" on Risk, Corporate Banking and Markets and Accounting &amp; Business Insights, "we cannot support visas" on Product and Partnerships. There is no scheme on the list that is an exception, and there is no quiet route in for a strong enough candidate.</p>
 
-<p>What that means in practice is that a Lloyds graduate scheme is open to you if you <em>already</em> hold the right to work: British or Irish citizenship, settled or pre-settled status, indefinite leave to remain, a partner or family visa, a dependant visa that permits work, or a Graduate visa from a UK degree. The Graduate route is the realistic one for most international students reading this &mdash; but note that it is time-limited and does not convert into sponsorship at the end of the programme, so you would need a separate plan for year three. Anyone telling you they can arrange a sponsored Lloyds graduate place is selling you something that does not exist. If you are applying from outside the UK, our guide to <a href="/blog/jobs-in-uk-for-foreigners">jobs in UK for foreigners</a> sets out the routes that genuinely are open.</p>
+<p>What that means in practice is that a Lloyds graduate scheme is open to you if you <em>already</em> hold the right to work: British or Irish citizenship, settled or pre-settled status, indefinite leave to remain, a partner or family visa, a dependant visa that permits work, or a Graduate visa from a UK degree. The Graduate route is the realistic one for most international students reading this, but note that it is time-limited and does not convert into sponsorship at the end of the programme, so you would need a separate plan for year three. Anyone telling you they can arrange a sponsored Lloyds graduate place is selling you something that does not exist. If you are applying from outside the UK, our guide to <a href="/blog/jobs-in-uk-for-foreigners">jobs in UK for foreigners</a> sets out the routes that genuinely are open.</p>
 
 <h2>The Ten Schemes Lloyds Actually Runs</h2>
 
-<p>This is where recycled guides fall over. You will still find articles listing Technology Engineering, Consumer Banking, Human Resources, Finance, Actuarial, Internal Audit and Marketing as Lloyds graduate schemes. Those are previous-cycle names whose old pages still sit in search indexes. None of them is on the current list. The live schemes number <strong>ten</strong>, not "more than 12", with an eleventh &mdash; Commercial and Wealth Relationship Management &mdash; flagged as coming soon.</p>
+<p>This is where recycled guides fall over. You will still find articles listing Technology Engineering, Consumer Banking, Human Resources, Finance, Actuarial, Internal Audit and Marketing as Lloyds graduate schemes. Those are previous-cycle names whose old pages still sit in search indexes. None of them is on the current list. The live schemes number <strong>ten</strong>, not "more than 12", with an eleventh, Commercial and Wealth Relationship Management, flagged as coming soon.</p>
 
 <div style="overflow-x:auto;margin:24px 0;">
 <table style="width:100%;border-collapse:collapse;font-size:15px;">
@@ -294,7 +294,7 @@ JOBHTML;
 </table>
 </div>
 
-<p>Two things that table settles. The often-quoted band of "&pound;42,000 to &pound;45,000" has the floor right and the ceiling wrong by &pound;10,000 &mdash; and the gap between the cheapest and dearest scheme is a <strong>31% pay difference for the same year of your life</strong>. And "each running 2 years" is not true either: Corporate Banking and Markets is two and a half, and Accounting &amp; Business Insights is three, because it carries you to chartered status.</p>
+<p>Two things that table settles. The often-quoted band of "&pound;42,000 to &pound;45,000" has the floor right and the ceiling wrong by &pound;10,000, and the gap between the cheapest and dearest scheme is a <strong>31% pay difference for the same year of your life</strong>. And "each running 2 years" is not true either: Corporate Banking and Markets is two and a half, and Accounting &amp; Business Insights is three, because it carries you to chartered status.</p>
 
 <p>Notice too how few schemes are London schemes. Cyber Security Engineer runs only in Edinburgh, Leeds and Manchester. People Science and Occupational Psychology run only in Bristol, Leeds and Edinburgh. If you assumed a banking graduate scheme meant moving to London, several of the best-paid technical options say otherwise.</p>
 
@@ -304,23 +304,23 @@ JOBHTML;
 
 <h2>The Deadlines, and Why London Closes First</h2>
 
-<p>Applications for the September 2027 intake opened on <strong>10 September 2026</strong>. Closing dates are not uniform &mdash; they vary by scheme <em>and</em> by location, and London consistently closes weeks before anywhere else.</p>
+<p>Applications for the September 2027 intake opened on <strong>10 September 2026</strong>. Closing dates are not uniform: they vary by scheme <em>and</em> by location, and London consistently closes weeks before anywhere else.</p>
 
 <ul>
-    <li><strong>4 October 2026</strong> &mdash; Corporate Banking and Markets; Risk (London); Accounting &amp; Business Insights (London).</li>
-    <li><strong>11 October 2026</strong> &mdash; Business and Commercial Banking; Software Engineer (London); Data Science and AI (London).</li>
-    <li><strong>25 October 2026</strong> &mdash; Risk (Edinburgh, Bristol, Birmingham); Accounting &amp; Business Insights (Edinburgh); People Science and Occupational Psychology (Bristol, Edinburgh).</li>
-    <li><strong>8 November 2026</strong> &mdash; Risk (Leeds); Accounting &amp; Business Insights (South West, West Yorkshire); People Science and Occupational Psychology (Leeds); Product and Partnerships.</li>
-    <li><strong>29 November 2026</strong> &mdash; Cyber Security Engineer; Software Engineer and Data Science and AI outside London.</li>
+    <li><strong>4 October 2026</strong>: Corporate Banking and Markets; Risk (London); Accounting &amp; Business Insights (London).</li>
+    <li><strong>11 October 2026</strong>: Business and Commercial Banking; Software Engineer (London); Data Science and AI (London).</li>
+    <li><strong>25 October 2026</strong>: Risk (Edinburgh, Bristol, Birmingham); Accounting &amp; Business Insights (Edinburgh); People Science and Occupational Psychology (Bristol, Edinburgh).</li>
+    <li><strong>8 November 2026</strong>: Risk (Leeds); Accounting &amp; Business Insights (South West, West Yorkshire); People Science and Occupational Psychology (Leeds); Product and Partnerships.</li>
+    <li><strong>29 November 2026</strong>: Cyber Security Engineer; Software Engineer and Data Science and AI outside London.</li>
 </ul>
 
-<p>Lloyds attaches a warning to these dates that is worth taking literally: programmes <strong>may close early</strong> if they receive a high number of applications. A published deadline is the last possible date, not a safe one. Combine that with the one-application-a-year rule and the strategy writes itself &mdash; decide early, apply early, and do not sit on a London application waiting to see whether you prefer Leeds.</p>
+<p>Lloyds attaches a warning to these dates that is worth taking literally: programmes <strong>may close early</strong> if they receive a high number of applications. A published deadline is the last possible date, not a safe one. Combine that with the one-application-a-year rule and the strategy writes itself: decide early, apply early, and do not sit on a London application waiting to see whether you prefer Leeds.</p>
 
 <h2>One Application a Year, Not Three Choices</h2>
 
 <p>The single most repeated error about this scheme is that you can rank two or three preferences. You cannot. Lloyds' FAQ is unambiguous: <strong>"Only one application per candidate is accepted per year."</strong></p>
 
-<p>So the choice is real and it is binding for the cycle. Some things worth weighing before you commit: the pay gap between schemes is large; the technical schemes pay more but screen you on a technical assessment you cannot bluff; the Accounting scheme is a year longer but hands you a chartered qualification; and the location list differs enough that a scheme you like may not run anywhere you can live. Read the individual scheme page in full, not the summary table &mdash; including this one.</p>
+<p>So the choice is real and it is binding for the cycle. Some things worth weighing before you commit: the pay gap between schemes is large; the technical schemes pay more but screen you on a technical assessment you cannot bluff; the Accounting scheme is a year longer but hands you a chartered qualification; and the location list differs enough that a scheme you like may not run anywhere you can live. Read the individual scheme page in full, not the summary table, including this one.</p>
 
 <h2>The Process Lloyds Publishes: Three Stages, Not Five</h2>
 
@@ -332,9 +332,9 @@ JOBHTML;
     <li><strong>Assessment centre.</strong> A <strong>one-to-one interview, a group exercise and individual assessments</strong> relating to pre-work you are given well in advance. You also get to meet current graduates and ask about the culture.</li>
 </ol>
 
-<p>Three schemes run a variant. For <strong>Data Science and AI, Software Engineer and Cyber Security Engineer</strong>, the first-stage online assessment is replaced by a technical coding or analytical assessment &mdash; <strong>130 minutes</strong> for Software Engineer and Cyber Security Engineer, <strong>120 minutes</strong> for Data Science and AI &mdash; and the final stage becomes a virtual assessment day that adds a <strong>technical exercise</strong> to the interview, group exercise and individual assessments.</p>
+<p>Three schemes run a variant. For <strong>Data Science and AI, Software Engineer and Cyber Security Engineer</strong>, the first-stage online assessment is replaced by a technical coding or analytical assessment, <strong>130 minutes</strong> for Software Engineer and Cyber Security Engineer, <strong>120 minutes</strong> for Data Science and AI, and the final stage becomes a virtual assessment day that adds a <strong>technical exercise</strong> to the interview, group exercise and individual assessments.</p>
 
-<p>Two practical notes from Lloyds' own pages. There is an <strong>Assessment Practice Zone</strong> that previews the kind of assessments you will face, and it is free &mdash; use it rather than paying a third party for practice tests. And if you need accessibility support at any stage, or a laptop and a quiet room for a virtual assessment centre, Lloyds says to ask: it offers access to a laptop within an office plus travel expenses where needed, via its recruitment partner's support line.</p>
+<p>Two practical notes from Lloyds' own pages. There is an <strong>Assessment Practice Zone</strong> that previews the kind of assessments you will face, and it is free: use it rather than paying a third party for practice tests. And if you need accessibility support at any stage, or a laptop and a quiet room for a virtual assessment centre, Lloyds says to ask: it offers access to a laptop within an office plus travel expenses where needed, via its recruitment partner's support line.</p>
 
 <div style="text-align:center;margin:28px 0;">
     <img src="/public/storage/blogs/how-to-apply-for-lloyds-graduate-jobs-in-the-uk-team.jpg" alt="Colleagues collaborating in a team meeting during a graduate scheme rotation" style="max-width:100%;height:auto;border-radius:12px;" loading="lazy">
@@ -342,25 +342,25 @@ JOBHTML;
 
 <h2>Degrees, Grades and Overseas Qualifications</h2>
 
-<p>Lloyds' wording on grades is softer than the "2:2 minimum" most guides quote: <strong>"you must hold or be on track to obtain a degree, ideally a 2:2 or above."</strong> The word doing the work there is <em>ideally</em>. What the scheme pages emphasise instead is evidence that you can do the job &mdash; "sound knowledge, understanding and technical skills aligned to the role".</p>
+<p>Lloyds' wording on grades is softer than the "2:2 minimum" most guides quote: <strong>"you must hold or be on track to obtain a degree, ideally a 2:2 or above."</strong> The word doing the work there is <em>ideally</em>. What the scheme pages emphasise instead is evidence that you can do the job: "sound knowledge, understanding and technical skills aligned to the role".</p>
 
 <p>"Any subject" is also not quite true. Most schemes are subject-open, but <strong>Occupational Psychology requires a BPS-accredited Master's in Occupational Psychology</strong>, completed or in progress, and pays for a fully funded Stage 2 Chartership on top. The technical schemes expect demonstrable skills rather than a specific degree title: Data Science and AI asks for Python, SQL and statistical modelling; Software Engineer asks for an understanding of cloud development, automation and continuous testing, and treats Java, Python, TypeScript, Kotlin, Swift, Rust or Golang as advantageous.</p>
 
-<p>If your degree is from outside the UK, Lloyds asks for full details of the qualification and converts it to a UK equivalent. Its FAQ still calls this "the NARIC tool" &mdash; but <strong>UK NARIC was renamed UK ENIC on 1 March 2021</strong> and the service is delivered by Ecctis. If you go looking for NARIC you will find a wall of lookalike resellers; the official body is UK ENIC. Have your transcripts and certificates ready, because the conversion is done on the detail you supply.</p>
+<p>If your degree is from outside the UK, Lloyds asks for full details of the qualification and converts it to a UK equivalent. Its FAQ still calls this "the NARIC tool", but <strong>UK NARIC was renamed UK ENIC on 1 March 2021</strong> and the service is delivered by Ecctis. If you go looking for NARIC you will find a wall of lookalike resellers; the official body is UK ENIC. Have your transcripts and certificates ready, because the conversion is done on the detail you supply.</p>
 
 <h2>Hybrid Working, Benefits and Qualifications</h2>
 
 <p>The hybrid policy is routinely reported as "only two days a week in the office", which reads as a ceiling. Lloyds' sentence says the opposite: <strong>"All colleagues are expected to spend a minimum of two days each week in the office, some roles are five days per week."</strong> Two days is the floor, and some roles are fully office-based. Several scheme pages add that the two days are in the office <em>where you have been placed</em>, which matters if you were planning to commute in from another city.</p>
 
-<p>On professional qualifications, the blanket promise of "full sponsorship" is not how Lloyds describes it. <strong>Accounting &amp; Business Insights</strong> takes you to a professional accountancy qualification recognised in the UK and internationally, chartered on completion &mdash; which is why it runs three years. <strong>Occupational Psychology</strong> includes a fully funded Stage 2 Chartership. <strong>Risk</strong> lists optional certifications including the Financial Risk Manager (FRM), the Global Credit Certificate, the Chartered Banker Diploma and the ICA Diploma in Governance, Risk and Compliance. Optional is not the same as automatic, and the technical schemes are built around engineering practice rather than a certificate.</p>
+<p>On professional qualifications, the blanket promise of "full sponsorship" is not how Lloyds describes it. <strong>Accounting &amp; Business Insights</strong> takes you to a professional accountancy qualification recognised in the UK and internationally, chartered on completion, which is why it runs three years. <strong>Occupational Psychology</strong> includes a fully funded Stage 2 Chartership. <strong>Risk</strong> lists optional certifications including the Financial Risk Manager (FRM), the Global Credit Certificate, the Chartered Banker Diploma and the ICA Diploma in Governance, Risk and Compliance. Optional is not the same as automatic, and the technical schemes are built around engineering practice rather than a certificate.</p>
 
 <h2>Who You Are Actually Joining</h2>
 
-<p>Lloyds Banking Group is one of the UK's largest retail and digital banking groups, and it operates through brands most people know separately: <strong>Lloyds Bank, Halifax, Bank of Scotland and Scottish Widows</strong>, among others. Its 2025 Annual Review puts the customer base at <strong>28 million customers and around one million businesses</strong>, with roughly <strong>21.5 million customers using the app</strong> &mdash; a rise of about 45% since 2021. The "more than 26 million" figure that circulates is a few years out of date.</p>
+<p>Lloyds Banking Group is one of the UK's largest retail and digital banking groups, and it operates through brands most people know separately: <strong>Lloyds Bank, Halifax, Bank of Scotland and Scottish Widows</strong>, among others. Its 2025 Annual Review puts the customer base at <strong>28 million customers and around one million businesses</strong>, with roughly <strong>21.5 million customers using the app</strong>: a rise of about 45% since 2021. The "more than 26 million" figure that circulates is a few years out of date.</p>
 
-<p>The investment number is worth correcting too, because it gets quoted at roughly three times its real size. Lloyds committed <strong>around &pound;3 billion of strategic investment across 2022 to 2024 in total</strong>, rising to about &pound;4 billion through 2026 &mdash; not &pound;3 billion a year. Around two thirds of that first phase went on growing and diversifying revenue, and the Group now expects around &pound;2 billion of additional revenues from strategic initiatives by the end of 2026, ahead of its original &pound;1.5 billion target. That is the transformation the technology and data schemes plug into, and it is a good thing to be able to talk about accurately at an assessment centre.</p>
+<p>The investment number is worth correcting too, because it gets quoted at roughly three times its real size. Lloyds committed <strong>around &pound;3 billion of strategic investment across 2022 to 2024 in total</strong>, rising to about &pound;4 billion through 2026, not &pound;3 billion a year. Around two thirds of that first phase went on growing and diversifying revenue, and the Group now expects around &pound;2 billion of additional revenues from strategic initiatives by the end of 2026, ahead of its original &pound;1.5 billion target. That is the transformation the technology and data schemes plug into, and it is a good thing to be able to talk about accurately at an assessment centre.</p>
 
-<p>On reputation: rather than the vague claim that Lloyds appears in the Times list "every year", the citable fact is better. Lloyds ranked <strong>10th in The Times Top 100 Graduate Employers 2026</strong>, its highest ever placing, up from 40th in 2021 &mdash; and <strong>6th in the Top 100 Apprenticeship Employers 2026</strong>, up from 54th in 2024. It has also expanded its early-careers range recently, adding Wealth and Commercial Management, Product and Partnerships and People Science alongside the Cyber Security Engineering and Software Engineering pathways.</p>
+<p>On reputation: rather than the vague claim that Lloyds appears in the Times list "every year", the citable fact is better. Lloyds ranked <strong>10th in The Times Top 100 Graduate Employers 2026</strong>, its highest ever placing, up from 40th in 2021, and <strong>6th in the Top 100 Apprenticeship Employers 2026</strong>, up from 54th in 2024. It has also expanded its early-careers range recently, adding Wealth and Commercial Management, Product and Partnerships and People Science alongside the Cyber Security Engineering and Software Engineering pathways.</p>
 
 <h2>How to Apply</h2>
 
@@ -371,12 +371,12 @@ JOBHTML;
     <li><strong>Check the closing date for your specific location,</strong> not the scheme in general. London usually closes four to seven weeks before everywhere else.</li>
     <li><strong>Apply well before the deadline.</strong> Lloyds warns that programmes may close early when applications run high.</li>
     <li><strong>Budget 60 minutes for the online assessment,</strong> or 120 to 130 minutes if you are applying to Data Science and AI, Software Engineer or Cyber Security Engineer.</li>
-    <li><strong>Prepare for video and written answers</strong> at the Job Insight Assessment, and do the pre-work properly before the assessment centre &mdash; the individual assessments on the day are built on it.</li>
+    <li><strong>Prepare for video and written answers</strong> at the Job Insight Assessment, and do the pre-work properly before the assessment centre: the individual assessments on the day are built on it.</li>
     <li><strong>Use the free Assessment Practice Zone,</strong> and ask for accessibility support or equipment if you need it rather than struggling through.</li>
     <li><strong>Never pay for a graduate place, an interview slot or a referral.</strong> Lloyds does not charge candidates, and nobody can sell you a place.</li>
 </ol>
 
-<p>If Lloyds is not the right fit, or the one application you had this year did not land, the same degree and the same right-to-work position carry across to other employers &mdash; our <a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">Barclays customer service</a> guide covers the other end of the same bank's hiring, and <a href="/blog/business-analyst-jobs-in-uk">business analyst jobs in UK</a> covers a common landing spot for the same candidates.</p>
+<p>If Lloyds is not the right fit, or the one application you had this year did not land, the same degree and the same right-to-work position carry across to other employers: our <a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">Barclays customer service</a> guide covers the other end of the same bank's hiring, and <a href="/blog/business-analyst-jobs-in-uk">business analyst jobs in UK</a> covers a common landing spot for the same candidates.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -435,16 +435,16 @@ JOBHTML;
 <p>If a graduate scheme is one option rather than the only one, these cover the rest of the UK market:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a> &mdash; the same industry through a different door, with no degree required.</li>
-    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a> &mdash; where a lot of banking graduates end up, and what the market pays for it.</li>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; the entry route into technology that does not need a graduate scheme.</li>
-    <li><a href="/blog/marketing-jobs-in-uk">Marketing Jobs in UK</a> &mdash; the discipline Lloyds dropped from its current graduate list, and where it hires instead.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the routes that still exist once unsponsored schemes are ruled out.</li>
-    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a> &mdash; another large UK employer with a structured early-careers pipeline.</li>
-    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a> &mdash; how to get into a corporate office without a graduate programme.</li>
-    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a> &mdash; the opposite of a minimum two days in the office.</li>
-    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a> &mdash; an employer that publishes its hourly rate, and why no store role is sponsored.</li>
-    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a> &mdash; the union pay agreement behind the rates, and the ineligible occupation codes.</li>
+    <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a>: the same industry through a different door, with no degree required.</li>
+    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a>: where a lot of banking graduates end up, and what the market pays for it.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: the entry route into technology that does not need a graduate scheme.</li>
+    <li><a href="/blog/marketing-jobs-in-uk">Marketing Jobs in UK</a>: the discipline Lloyds dropped from its current graduate list, and where it hires instead.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the routes that still exist once unsponsored schemes are ruled out.</li>
+    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a>: another large UK employer with a structured early-careers pipeline.</li>
+    <li><a href="/blog/office-assistant-jobs-in-uk">Office Assistant Jobs in UK</a>: how to get into a corporate office without a graduate programme.</li>
+    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a>: the opposite of a minimum two days in the office.</li>
+    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a>: an employer that publishes its hourly rate, and why no store role is sponsored.</li>
+    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a>: the union pay agreement behind the rates, and the ineligible occupation codes.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Lloyds Banking Group's own talent site for scheme names, salaries, programme lengths, locations, closing dates, eligibility, hybrid working and the application stages; its graduate FAQs for the sponsorship position, degree wording, overseas qualification checks and the one-application-a-year rule; Lloyds Banking Group's 2025 Annual Review and strategy pages for customer numbers and investment figures; The Times Top 100 Graduate Employers 2026 and the Top 100 Apprenticeship Employers 2026 for the rankings; and UK ENIC for the NARIC rename. Graduate schemes close early when applications run high, and salaries, locations and dates change each cycle. Always check the live scheme page before you apply.</p>

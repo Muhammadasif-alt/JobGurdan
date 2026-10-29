@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Dental Assistant Jobs in USA" — the American counterpart to the Canadian
+ * "Dental Assistant Jobs in USA": the American counterpart to the Canadian
  * guide. It owns the BLS wage and outlook figures for SOC 31-9091, the way
  * state dental boards decide what training and licensing you need, DANB's
  * certifications and their eligibility pathways, and the CODA route into an
@@ -32,7 +32,7 @@ use Illuminate\Support\Str;
  * 2. The brief's second route, the "ADAA Career Center" at jobs.adaausa.org,
  *    does not resolve at all. The ADAA's own site is a temporary one marked
  *    "under construction" whose menu is Home, FAQ, Radiography Coursework and
- *    Journals — there is no job board behind it.
+ *    Journals: there is no job board behind it.
  *
  * 3. "Indeed currently shows roughly 27,000 Dental Assistant openings" is a
  *    count from an aggregator. BLS projects about 53,000 openings a year,
@@ -181,14 +181,14 @@ class DentalAssistantJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Look up your state's rules first.</strong> DANB publishes the requirements for all 50 states and the District of Columbia, including which duties you may perform and which exams your state accepts.</p>
 
-<p><strong>Note:</strong> duties, permits and pay are set by state dental boards and by employers &mdash; not by JobGader. Confirm the requirements with your state board before enrolling in a program or accepting an offer.</p>
+<p><strong>Note:</strong> duties, permits and pay are set by state dental boards and by employers, not by JobGader. Confirm the requirements with your state board before enrolling in a program or accepting an offer.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Dental assisting is one of the few clinical jobs in American health care you can sometimes enter without a degree &mdash; and one of the few where the rules change completely when you cross a state line. In one state you need an accredited program and a board exam before you touch a patient. In the next there is no formal educational requirement at all.</p>
+<p>Dental assisting is one of the few clinical jobs in American health care you can sometimes enter without a degree, and one of the few where the rules change completely when you cross a state line. In one state you need an accredited program and a board exam before you touch a patient. In the next there is no formal educational requirement at all.</p>
 
 <p>This guide uses the figures the Bureau of Labor Statistics publishes, the requirements the Dental Assisting National Board (DANB) lists for each state, and the program list the American Dental Association's Commission on Dental Accreditation (CODA) maintains. It does not send you to a job aggregator, and it does not quote pay from one.</p>
 
@@ -213,7 +213,7 @@ JOBHTML;
     <li>Scheduling, billing support and ordering supplies</li>
 </ul>
 
-<p>Expanded functions &mdash; coronal polishing, sealants, topical fluoride, taking impressions &mdash; are the part that varies. Each state decides which of them an assistant may perform and what permit is needed first.</p>
+<p>Expanded functions, coronal polishing, sealants, topical fluoride, taking impressions, are the part that varies. Each state decides which of them an assistant may perform and what permit is needed first.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/dental-assistant-jobs-in-usa-chairside.jpg"
@@ -225,7 +225,7 @@ JOBHTML;
 
 <p>BLS puts it plainly: <em>"Some states require assistants to graduate from an accredited program and pass an exam. In other states, there are no formal educational requirements."</em> On licensing it adds that states <em>"typically do not require licenses for entry-level dental assistants"</em>, though some require assistants to be licensed, registered or certified to enter the job or to move up.</p>
 
-<p>So there is no national answer. There are fifty-one of them, and the body that holds yours is your <strong>state dental board</strong>. DANB publishes the requirements for <strong>all 50 states and the District of Columbia</strong> &mdash; job titles, allowable duties, which exams count and which state practice act governs them &mdash; at <a href="https://www.danb.org/state-requirements" target="_blank" rel="noopener">danb.org/state-requirements</a>. DANB also administers state-specific exams in seven states: <strong>Arizona, Maryland, Missouri, New Jersey, New York, Oregon and Washington</strong>.</p>
+<p>So there is no national answer. There are fifty-one of them, and the body that holds yours is your <strong>state dental board</strong>. DANB publishes the requirements for <strong>all 50 states and the District of Columbia</strong>, job titles, allowable duties, which exams count and which state practice act governs them, at <a href="https://www.danb.org/state-requirements" target="_blank" rel="noopener">danb.org/state-requirements</a>. DANB also administers state-specific exams in seven states: <strong>Arizona, Maryland, Missouri, New Jersey, New York, Oregon and Washington</strong>.</p>
 
 <div style="background:#f5f8fc;border-left:3px solid #2f7fc9;border-radius:0 12px 12px 0;padding:18px 22px;margin:26px 0;">
     <p style="margin:0;"><strong>Radiography is usually its own permit.</strong> BLS notes that states may require assistants to meet specific licensing requirements to work in radiography, infection control or other specialties. Many job ads ask for an x-ray certification precisely because the practice cannot let you take images without one.</p>
@@ -255,7 +255,7 @@ JOBHTML;
 
 <h2>Finding an Accredited Program</h2>
 
-<p>If your state requires an accredited program &mdash; or you want Pathway I rather than 3,500 hours &mdash; the list you need is CODA's. The Commission on Dental Accreditation is the American Dental Association's accrediting body and it evaluates more than 1,400 dental and dental-related programs, including allied programs in <strong>dental assisting</strong>. Search it by state or city at <a href="https://coda.ada.org/find-a-program" target="_blank" rel="noopener">coda.ada.org/find-a-program</a>.</p>
+<p>If your state requires an accredited program, or you want Pathway I rather than 3,500 hours, the list you need is CODA's. The Commission on Dental Accreditation is the American Dental Association's accrediting body and it evaluates more than 1,400 dental and dental-related programs, including allied programs in <strong>dental assisting</strong>. Search it by state or city at <a href="https://coda.ada.org/find-a-program" target="_blank" rel="noopener">coda.ada.org/find-a-program</a>.</p>
 
 <p>Accreditation is not a detail. A program that CODA has not accredited may leave you ineligible for Pathway I and, in some states, unable to sit the board exam at all.</p>
 
@@ -301,7 +301,7 @@ JOBHTML;
 
 <ol>
     <li><strong>Federal dental clinics.</strong> The Department of Veterans Affairs, the Indian Health Service and military dental clinics hire assistants through <a href="https://www.usajobs.gov/Search/Results?k=dental%20assistant" target="_blank" rel="noopener">USAJOBS</a>, the federal government's own job site. It is run by the Office of Personnel Management, it is free, and federal roles carry federal benefits.</li>
-    <li><strong>Dental group careers pages.</strong> Multi-location groups post their own openings and hire continuously &mdash; for example <a href="https://smilebrands.com/careers/" target="_blank" rel="noopener">Smile Brands</a> and <a href="https://careers.aspendental.com/" target="_blank" rel="noopener">Aspen Dental</a>.</li>
+    <li><strong>Dental group careers pages.</strong> Multi-location groups post their own openings and hire continuously: for example <a href="https://smilebrands.com/careers/" target="_blank" rel="noopener">Smile Brands</a> and <a href="https://careers.aspendental.com/" target="_blank" rel="noopener">Aspen Dental</a>.</li>
     <li><strong>Independent practices near you.</strong> Most American dentistry is single-site. Many of those practices never advertise beyond a sign in the window and a note on their own site, so a short email with your résumé attached reaches people no search ever will.</li>
     <li><strong>Your program's externship.</strong> If you take an accredited program, the clinical placement is the single most common route to a first offer.</li>
     <li><strong>Community health centers.</strong> Federally Qualified Health Centers run dental clinics and hire assistants, often with loan-repayment programs attached.</li>
@@ -310,10 +310,10 @@ JOBHTML;
 <h2>How to Apply, Step by Step</h2>
 
 <ol>
-    <li><strong>Look up your state first</strong> on <a href="https://www.danb.org/state-requirements" target="_blank" rel="noopener">DANB's state requirements</a>. This decides everything that follows &mdash; whether you need a program, an exam, a registration, an x-ray permit.</li>
+    <li><strong>Look up your state first</strong> on <a href="https://www.danb.org/state-requirements" target="_blank" rel="noopener">DANB's state requirements</a>. This decides everything that follows: whether you need a program, an exam, a registration, an x-ray permit.</li>
     <li><strong>Get the CPR card.</strong> Hands-on BLS from an accepted provider. Every DANB pathway needs it and most employers ask regardless.</li>
     <li><strong>Close the training gap</strong> if your state has one: a CODA-accredited program, or start counting toward Pathway II's 3,500 hours in a practice that will train you.</li>
-    <li><strong>Sit the exams your state accepts</strong> &mdash; the state exam where there is one, or DANB's RHS, ICE and GC toward the CDA.</li>
+    <li><strong>Sit the exams your state accepts</strong>: the state exam where there is one, or DANB's RHS, ICE and GC toward the CDA.</li>
     <li><strong>Write the résumé around the words in the ad:</strong> sterilization and infection control, chairside assisting, radiographs, the practice software, and the permits you hold with their numbers.</li>
     <li><strong>Apply through the employer</strong>, not through a middleman, and say in the first line which permits you already hold.</li>
 </ol>
@@ -396,11 +396,11 @@ JOBHTML;
 <p>Comparing health care support roles, or the same job in another country? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a> &mdash; the same job across the border, where registration is required in every province except Ontario and Quebec.</li>
-    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the clinic role that mixes admin with clinical duties, and what it pays.</li>
-    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; an entry-level health care job priced by NHS pay bands.</li>
-    <li><a href="/blog/entry-level-healthcare-jobs">Entry Level Healthcare Jobs</a> &mdash; the roles you can start without a degree, and which ones lead somewhere.</li>
-    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a> &mdash; front-desk health care work and the award that sets its pay.</li>
+    <li><a href="/blog/dental-assistant-jobs-in-canada">Dental Assistant Jobs in Canada</a>: the same job across the border, where registration is required in every province except Ontario and Quebec.</li>
+    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a>: the clinic role that mixes admin with clinical duties, and what it pays.</li>
+    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a>: an entry-level health care job priced by NHS pay bands.</li>
+    <li><a href="/blog/entry-level-healthcare-jobs">Entry Level Healthcare Jobs</a>: the roles you can start without a degree, and which ones lead somewhere.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-australia">Medical Receptionist Jobs in Australia</a>: front-desk health care work and the award that sets its pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or careers advice. Dental assisting duties, permits, exams and wages are set by individual state dental boards and by employers, and they change. Confirm the current position with your state board, DANB and BLS before enrolling in a program, sitting an exam or accepting an offer.</p>

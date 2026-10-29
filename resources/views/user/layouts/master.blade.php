@@ -22,7 +22,7 @@
     @php
         $metaDescription =
             html_entity_decode(trim($__env->yieldContent('meta_description')), ENT_QUOTES | ENT_HTML5) ?:
-            'Find job openings across '.$coverage->shortList().'. Search by location, category and experience level on JobGader — free to apply, no account needed.';
+            'Find job openings across '.$coverage->shortList().'. Search by location, category and experience level on JobGader: free to apply, no account needed.';
         // Google truncates past roughly 160 characters. The country list is
         // read from the listings now, so an authored description can grow past
         // that on its own when a new country is added.
@@ -107,7 +107,7 @@
         /* Prevent horizontal scroll on mobile */
         html, body { overflow-x: hidden; max-width: 100%; }
 
-        /* === Unified hero layout (size, position, overlay) — image is per-page below === */
+        /* === Unified hero layout (size, position, overlay): image is per-page below === */
         body .intro-banner.intro-hero-v2,
         body .about-hero,
         body .contact-hero,
@@ -130,7 +130,7 @@
         }
 
         /* === Per-page hero background images ===
-           WebP with PNG/JPG fallback via image-set() — ~83% smaller on supporting browsers (97% of users).
+           WebP with PNG/JPG fallback via image-set(): ~83% smaller on supporting browsers (97% of users).
            Pages without a dedicated upload fall back to hero-diverse-professionals. */
         body .intro-banner.intro-hero-v2 {
             background-image: url('{{ asset('public/user/images/home.jpg') }}') !important;
@@ -318,7 +318,7 @@
         body .js-hero-stats { border-top-color: rgba(27, 58, 107,.10) !important; }
         body .js-hero-stats .stat strong { color: #1b3a6b !important; }
         body .js-hero-stats .stat span { color: #555 !important; }
-        /* Accent gradient text — re-tune to brand orange (against light bg) */
+        /* Accent gradient text: re-tune to brand orange (against light bg) */
         body .js-hero h1 .accent,
         body .seeker-hero h1 .accent {
             background: linear-gradient(90deg, #2f7fc9, #1b3a6b 60%, #4a90d9) !important;
@@ -327,7 +327,7 @@
             -webkit-text-fill-color: transparent !important;
             color: transparent !important;
         }
-        /* Global brand override — back-to-top, pagination active */
+        /* Global brand override: back-to-top, pagination active */
         #backtotop a {
             background-color: #1b3a6b !important;
             color: #fff !important;
@@ -339,17 +339,17 @@
             color: #fff !important;
             border-color: #1b3a6b !important;
         }
-        /* Hide preloader fast — fallback if JS hides it later */
+        /* Hide preloader fast: fallback if JS hides it later */
         .preloader { transition: opacity .25s ease; }
     </style>
 
-    <!-- Select2 CSS — non-blocking; only the jobs filter / a few selects use it -->
+    <!-- Select2 CSS: non-blocking; only the jobs filter / a few selects use it -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
           media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"></noscript>
 
     {{-- Google Analytics 4 and Tag Manager. Both IDs come from config, so
-         nothing is emitted until they are set — the previous hardcoded IDs
+         nothing is emitted until they are set: the previous hardcoded IDs
          belonged to a different property and sent this site's traffic there.
          Loaded on window load so they never block first paint. --}}
     @php
@@ -381,10 +381,10 @@
     </script>
     @endif
 
-    {{-- AOS (Animate On Scroll) — lightweight animation library. Lazy-loaded so it doesn't block first paint. --}}
+    {{-- AOS (Animate On Scroll): lightweight animation library. Lazy-loaded so it doesn't block first paint. --}}
     <link rel="preload" href="https://unpkg.com/aos@2.3.4/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"></noscript>
-    {{-- Bootstrap Icons — used across auth, seeker, admin. Lazy-loaded; icons appear when CSS resolves. --}}
+    {{-- Bootstrap Icons: used across auth, seeker, admin. Lazy-loaded; icons appear when CSS resolves. --}}
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"></noscript>
     <link rel="stylesheet" href="{{ asset('public/user/css/site-dark.css') }}?v={{ $assetVersion('user/css/site-dark.css') }}">
@@ -497,7 +497,7 @@
                     </div>
 
                     <div class="utf-right-side">
-                        {{-- Theme toggle (light / dark) — works for guests + authed --}}
+                        {{-- Theme toggle (light / dark): works for guests + authed --}}
                         <button type="button" class="theme-toggle" id="themeToggle"
                                 aria-label="Toggle light/dark mode" title="Toggle light/dark mode">
                             <span class="tt-thumb">
@@ -557,7 +557,7 @@
                         </span>
                     </div>
                     <style>
-                        /* === Post a Job (guest navbar) — the employer's entry point and the
+                        /* === Post a Job (guest navbar): the employer's entry point and the
                               only filled call to action in the header. Sign In covers the
                               seeker who wants an account. === */
                         .utf-header-widget-item .post-job-btn {
@@ -719,7 +719,7 @@
                             height: 76px !important;
                         }
 
-                        /* Logo — light + dark variants swap via dark-mode class on <html> */
+                        /* Logo: light + dark variants swap via dark-mode class on <html> */
                         #header #logo {
                             flex: 0 0 auto;
                             display: inline-flex !important;
@@ -754,7 +754,7 @@
                         html.dark-mode #header #logo img.logo-light { display: none !important; }
                         html.dark-mode #header #logo img.logo-dark  { display: inline-block !important; }
 
-                        /* Nav menu — centered between logo and right-side via flex */
+                        /* Nav menu: centered between logo and right-side via flex */
                         #header #navigation {
                             flex: 1 1 auto;
                             display: flex;
@@ -813,7 +813,7 @@
                         #header #navigation > ul > li > a::after,
                         #header #navigation > ul > li > a::before { display: none !important; }
 
-                        /* Right-side widget container — every direct wrapper aligned identically */
+                        /* Right-side widget container: every direct wrapper aligned identically */
                         #header .utf-right-side .utf-header-widget-item {
                             display: inline-flex !important;
                             align-items: center !important;
@@ -838,7 +838,7 @@
                             white-space: nowrap !important;
                         }
 
-                        /* === Authenticated user chip — kill ALL inherited positioning from template === */
+                        /* === Authenticated user chip: kill ALL inherited positioning from template === */
                         #header .utf-right-side .utf-header-notifications,
                         #header .utf-right-side .user-menu,
                         #header .utf-right-side .utf-header-notifications-trigger,
@@ -955,7 +955,7 @@
                         }
                         #header .utf-right-side .user-profile-title .user-name::after { display: none !important; }
 
-                        /* Login / Logout button — outlined dark, fixed 46px height to match user chip */
+                        /* Login / Logout button: outlined dark, fixed 46px height to match user chip */
                         #header .utf-right-side .log-in-button {
                             display: inline-flex !important;
                             align-items: center;
@@ -998,7 +998,7 @@
                         }
                         #header .utf-right-side .log-in-button:hover i { color: #fff !important; }
 
-                        /* Logout form — make it inline & remove default button chrome */
+                        /* Logout form: make it inline & remove default button chrome */
                         #header .utf-right-side .logout-form {
                             display: inline-flex !important;
                             align-items: center !important;
@@ -1017,7 +1017,7 @@
                             vertical-align: middle !important;
                         }
 
-                        /* Sign Up button — filled black, same 46px height */
+                        /* Sign Up button: filled black, same 46px height */
                         #header .utf-right-side .utf-button-header-bg {
                             display: inline-flex !important;
                             align-items: center;
@@ -1104,7 +1104,7 @@
                             #header #navigation .mobile-only-auth { display: none !important; }
                         }
 
-                        /* Mobile/tablet — only Logo + Hamburger in header; Sign In/Up moved into menu */
+                        /* Mobile/tablet: only Logo + Hamburger in header; Sign In/Up moved into menu */
                         @media (max-width: 1099px) {
                             #header .container { gap: 8px !important; padding: 0 14px !important; }
                             #header .utf-right-side { gap: 8px !important; }
@@ -1176,7 +1176,7 @@
                             #header .container { padding: 0 10px !important; gap: 6px !important; }
                         }
 
-                        /* === Mobile menu (mmenu) — visual feedback on items === */
+                        /* === Mobile menu (mmenu): visual feedback on items === */
                         .mm-menu { --mm-color-background: #16305a; }
                         .mm-menu .mm-navbar { color: #fff !important; font-weight: 700; }
                         .mm-menu .mm-listitem { position: relative; }
@@ -1225,7 +1225,7 @@
                             border-color: #1b3a6b;
                             right: 18px;
                         }
-                        /* Sign Up — accent pill style to stand out */
+                        /* Sign Up: accent pill style to stand out */
                         .mm-menu .mm-listitem.mobile-only-auth:last-child > a,
                         .mm-menu .mm-listitem.mobile-only-auth:last-child .mm-listitem__text {
                             background: #1b3a6b !important;
@@ -1239,7 +1239,7 @@
                         .mm-menu .mm-listitem.mobile-only-auth:last-child:after { display: none !important; }
                         .mm-menu .mm-listitem.mobile-only-auth:last-child > a::after,
                         .mm-menu .mm-listitem.mobile-only-auth:last-child .mm-listitem__text::after { display: none !important; }
-                        /* Sign In — outlined style above Sign Up */
+                        /* Sign In: outlined style above Sign Up */
                         .mm-menu .mm-listitem.mobile-only-auth:nth-last-child(2) > a,
                         .mm-menu .mm-listitem.mobile-only-auth:nth-last-child(2) .mm-listitem__text {
                             border: 1.5px solid rgba(255,255,255,.25) !important;
@@ -1326,7 +1326,7 @@
 
         @yield('content')
 
-        <!-- CTA Block — Modern, oversized, no privacy button -->
+        <!-- CTA Block: Modern, oversized, no privacy button -->
         <style>
             .modern-cta-section {
                 padding: 90px 0;
@@ -1493,10 +1493,10 @@
         </section>
         <!-- CTA Block End -->
 
-        <!-- Footer — ManageWP-inspired dark navy with blue glow -->
+        <!-- Footer: ManageWP-inspired dark navy with blue glow -->
         <style>
             /* === Footer: dark navy gradient with subtle blue radial glow === */
-            /* Brand blue over a recruitment scene — the image is texture, not
+            /* Brand blue over a recruitment scene: the image is texture, not
                subject, so it sits under a heavy gradient. It used to be a crop of
                the theme's stock collage (sushi, a barber, a masseur), which had
                nothing to do with a job board. */
@@ -1552,7 +1552,7 @@
             }
             #footer .utf-footer-item-links p a:hover { color: #ffffff !important; }
 
-            /* Section headings — bright blue ManageWP style */
+            /* Section headings: bright blue ManageWP style */
             #footer .utf-footer-item-links h3 {
                 color: #ffffff !important;
                 font-size: 14px !important;
@@ -1601,7 +1601,7 @@
             }
             #footer .utf-footer-item-links ul li::before { display: none !important; }
 
-            /* Hub link — promotes the "All Categories" / "All Locations" landing pages */
+            /* Hub link: promotes the "All Categories" / "All Locations" landing pages */
             #footer .utf-footer-item-links ul li a.footer-hub-link {
                 color: #fff !important;
                 background: rgba(255,255,255,.14) !important;
@@ -1653,7 +1653,7 @@
                 #footer::before { width: 100%; height: 320px; }
             }
 
-            /* === Dark mode — match site bg + brand orange (replaces navy blue look) === */
+            /* === Dark mode: match site bg + brand orange (replaces navy blue look) === */
             /* Same photograph and the same brand hues as the light footer, but
                taken far darker so it settles against the dark page instead of
                glowing at the bottom of it. */
@@ -1730,7 +1730,7 @@
                                         src="{{ asset('public/user/images/jobgader-navbar-dark.png') }}" alt="JobGader" width="166" height="40"></a>
                                 <p>JobGader lists openings across {{ $coverage->shortList() }},
                                     from general labour and hospitality through to skilled trades and senior
-                                    engineering &mdash; alongside guides on which visa sponsorship routes are
+                                    engineering: alongside guides on which visa sponsorship routes are
                                     genuinely open. Free to search, and no account needed to apply.</p>
                                 <p class="footer-link-group">
                                     <a href="{{ route('job-seekers.index') }}">Talent</a> &nbsp;&middot;&nbsp;
@@ -1890,7 +1890,7 @@
             })();
         </script>
 
-        {{-- AOS init — scroll animations --}}
+        {{-- AOS init: scroll animations --}}
         <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
         <script>
             window.addEventListener('load', function () {
@@ -2023,7 +2023,7 @@
                 const render = (suggestions, query) => {
                     items = suggestions || [];
                     if (items.length === 0) {
-                        dropdown.innerHTML = '<div class="ac-empty">No matches — try a different keyword</div>';
+                        dropdown.innerHTML = '<div class="ac-empty">No matches: try a different keyword</div>';
                         dropdown.classList.add('show');
                         return;
                     }
@@ -2098,7 +2098,7 @@
         </script>
 
         @guest
-            {{-- Login-prompt popup — appears 10s after page load, once per browser session --}}
+            {{-- Login-prompt popup: appears 10s after page load, once per browser session --}}
             <div id="loginPromptModal" class="lp-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="lpTitle">
                 <div class="lp-modal" tabindex="-1">
                     <button type="button" class="lp-close" id="lpClose" aria-label="Close">&times;</button>
@@ -2258,7 +2258,7 @@
             </a>
             <style>
                 /* Sits directly above #backtotop, which is 42px square and 25px in
-                   from the bottom right — so its centre line is 46px from the
+                   from the bottom right, so its centre line is 46px from the
                    right edge and its top edge is at 67px. */
                 .wa-float {
                     position: fixed; right: 19px; bottom: 80px; z-index: 998;

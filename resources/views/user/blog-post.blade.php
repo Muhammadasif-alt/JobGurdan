@@ -3,7 +3,7 @@
 @php
     // Resolves both seeder paths ("public/user/images/...") and admin uploads
     // ("blogs/..."). Declared up here rather than inside @push so og_image can
-    // be set as a section — the layout renders its own og:image tag after the
+    // be set as a section: the layout renders its own og:image tag after the
     // meta stack, so a pushed tag was being overridden by the site default.
     $resolveImg = function ($path, $fallback = 'public/user/images/blog-single-post-01.jpg') {
         if (! $path) {
@@ -36,7 +36,7 @@
         $faqs = $structuredData->faqsFromHtml($blog->content);
 
         // A spotlight post is written about one specific vacancy. Guides are
-        // round-ups, so they carry no JobPosting markup — the page would not be
+        // round-ups, so they carry no JobPosting markup: the page would not be
         // describing a single opening, which is what Google requires.
         $spotlightJob = $blog->job;
         if ($spotlightJob && ! $structuredData->describesSingleVacancy($spotlightJob->application_url, $spotlightJob)) {
@@ -92,7 +92,7 @@
     }
     </script>
 
-    {{-- JSON-LD: FAQPage — built from the post's own FAQ section, so the markup
+    {{-- JSON-LD: FAQPage: built from the post's own FAQ section, so the markup
          always matches text a reader can actually see on the page. --}}
     @if (count($faqs) >= 2)
         <script type="application/ld+json">
@@ -108,7 +108,7 @@
         </script>
     @endif
 
-    {{-- JSON-LD: JobPosting — spotlight posts only. The @@id matches the job
+    {{-- JSON-LD: JobPosting: spotlight posts only. The @@id matches the job
          detail page's node so Google reads one vacancy mentioned twice, not two
          competing postings. --}}
     @if ($spotlightJob)
@@ -121,7 +121,7 @@
         </script>
     @endif
 
-    {{-- JSON-LD: Organization — the publisher as its own entity, so the posts,
+    {{-- JSON-LD: Organization: the publisher as its own entity, so the posts,
          the job listings and the site all resolve to one business. --}}
     <script type="application/ld+json">
     {!! json_encode(['@'.'context' => 'https://schema.org'] + $organisation, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
@@ -742,7 +742,7 @@
                             <li><a href="https://www.linkedin.com/sharing/share-offsite/?url={{ urlencode(route('blog.show', $blog->slug)) }}" target="_blank" rel="noopener" title="LinkedIn" aria-label="Share on LinkedIn">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34v-8H5.67v8h2.67zM7 8.96a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zm11.34 9.38v-4.6c0-2.32-1.24-3.4-2.9-3.4-1.34 0-1.94.74-2.28 1.26v-1.08h-2.66c.04.74 0 8 0 8h2.66v-4.46c0-.24.02-.48.09-.66.18-.48.62-.98 1.36-.98.96 0 1.34.73 1.34 1.8v4.3h2.39z"/></svg>
                             </a></li>
-                            <li><a href="https://wa.me/?text={{ urlencode($blog->title . ' — ' . route('blog.show', $blog->slug)) }}" target="_blank" rel="noopener" title="WhatsApp" aria-label="Share on WhatsApp">
+                            <li><a href="https://wa.me/?text={{ urlencode($blog->title . ': ' . route('blog.show', $blog->slug)) }}" target="_blank" rel="noopener" title="WhatsApp" aria-label="Share on WhatsApp">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.91 9.91 0 0 0 4.79 1.22c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.02zM12.04 20.15a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23a8.2 8.2 0 0 1 5.82 2.41 8.2 8.2 0 0 1 2.41 5.82c0 4.54-3.69 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.7-.8-.23-.09-.39-.13-.56.12-.16.25-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.02 2.57.12.16 1.76 2.69 4.27 3.77.6.26 1.06.41 1.43.53.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.16-.48-.28z"/></svg>
                             </a></li>
                             <li><a href="mailto:?subject={{ urlencode($blog->title) }}&body={{ urlencode(route('blog.show', $blog->slug)) }}" title="Email"><i class="icon-feather-mail"></i></a></li>
@@ -776,7 +776,7 @@
                     <div class="blog-side-promo">
                         <span class="eyebrow">Get Hired Faster</span>
                         <h4>Browse jobs and visa guides</h4>
-                        <p>Sign up free, set your preferences, and let matching jobs come to you — no scams, no ghost listings.</p>
+                        <p>Sign up free, set your preferences, and let matching jobs come to you: no scams, no ghost listings.</p>
                         <a href="{{ route('register') }}" class="btn">
                             Create Free Account <i class="icon-feather-arrow-right"></i>
                         </a>

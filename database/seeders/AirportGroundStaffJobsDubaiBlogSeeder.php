@@ -181,7 +181,7 @@ JOBHTML;
 
 <ul>
     <li><strong>The Emirates Group</strong> recruits through one careers site, <a href="https://www.emiratesgroupcareers.com/search-and-apply/" rel="nofollow noopener" target="_blank">emiratesgroupcareers.com</a>. Its <a href="https://www.emiratesgroupcareers.com/customer-services/" rel="nofollow noopener" target="_blank">customer services</a> and <a href="https://www.emiratesgroupcareers.com/airline-airport-operations/" rel="nofollow noopener" target="_blank">airline and airport operations</a> areas are where the passenger-facing and operational airport roles sit.</li>
-    <li><strong>dnata</strong> appears on both. The Emirates Group lists it among its brands &mdash; "dnata is one of the world's largest air services providers, offering ground handling, cargo, catering and travel services across six continents" &mdash; and dnata <em>also</em> runs its own job board at <a href="https://www.dnata.com/en/careers/" rel="nofollow noopener" target="_blank">dnata.com</a>, filtered by location, job category and <em>brand</em>. Its service lines are ground handling, cargo, premium services, private aviation, catering and retail, and travel. If you have seen a vacancy for a <em>marhaba</em> service agent and could not work out who the employer was, that is why: marhaba is one of the Group's brands. Two genuine doors is also exactly why fake "dnata recruitment" pages work, so use one of those two addresses and no other.</li>
+    <li><strong>dnata</strong> appears on both. The Emirates Group lists it among its brands, "dnata is one of the world's largest air services providers, offering ground handling, cargo, catering and travel services across six continents", and dnata <em>also</em> runs its own job board at <a href="https://www.dnata.com/en/careers/" rel="nofollow noopener" target="_blank">dnata.com</a>, filtered by location, job category and <em>brand</em>. Its service lines are ground handling, cargo, premium services, private aviation, catering and retail, and travel. If you have seen a vacancy for a <em>marhaba</em> service agent and could not work out who the employer was, that is why: marhaba is one of the Group's brands. Two genuine doors is also exactly why fake "dnata recruitment" pages work, so use one of those two addresses and no other.</li>
     <li><strong>Dubai Airports</strong> runs the airport itself and recruits separately at <a href="https://careers.dubaiairports.ae/en/search-and-apply/" rel="nofollow noopener" target="_blank">careers.dubaiairports.ae</a>. Terminal operations, airside services, facilities and technology roles are advertised here rather than by any airline.</li>
     <li><strong>Everyone else.</strong> An airport terminal also holds retail, food, cleaning, transport and other contracted operations, run by employers whose names never come up in a search for "Dubai airport jobs". They are real vacancies, and every rule in this guide applies to them in exactly the same way.</li>
 </ul>
@@ -235,7 +235,7 @@ JOBHTML;
 
 <h2 id="pay">What It Pays, and Why No Number Appears Here</h2>
 
-<p>None of the airport employers publishes a salary for ground staff roles, and <strong>"there is no minimum salary stipulated in the UAE Labour Law"</strong> &mdash; only a general requirement that wages must be sufficient to meet an employee's basic needs. Any figure you have seen for Dubai ground staff pay came from a salary-estimate site guessing, and we will not repeat a guess.</p>
+<p>None of the airport employers publishes a salary for ground staff roles, and <strong>"there is no minimum salary stipulated in the UAE Labour Law"</strong>: only a general requirement that wages must be sufficient to meet an employee's basic needs. Any figure you have seen for Dubai ground staff pay came from a salary-estimate site guessing, and we will not repeat a guess.</p>
 
 <p>What we can give you instead is the part of your pay that is guaranteed, and the rules that now govern whether it arrives.</p>
 
@@ -244,12 +244,12 @@ JOBHTML;
 <p>The resolution replaces that single deadline with an escalating timetable, which is worth knowing because it tells you what is already happening while you wait:</p>
 
 <ul>
-    <li><strong>From the due date</strong> &mdash; electronic monitoring of the establishment until payment is proven.</li>
-    <li><strong>From the second day</strong> &mdash; notifications and alerts to the non-compliant employer.</li>
-    <li><strong>On the 5th day</strong> &mdash; new work permits for that employer are suspended.</li>
-    <li><strong>On the 11th day</strong> &mdash; an administrative fine, and reclassification into the third category, on a repeated violation within six months.</li>
-    <li><strong>On the 16th day</strong> &mdash; "automatic registration of an individual or collective labour dispute for the affected workers". This step names <strong>transport and storage</strong> among the sectors it reaches, which is where airport ground handling sits.</li>
-    <li><strong>On the 21st day</strong> &mdash; an executive instrument for payment, precautionary attachment against the establishment, and "imposing a travel ban on the person in charge of the establishment".</li>
+    <li><strong>From the due date</strong>: electronic monitoring of the establishment until payment is proven.</li>
+    <li><strong>From the second day</strong>: notifications and alerts to the non-compliant employer.</li>
+    <li><strong>On the 5th day</strong>: new work permits for that employer are suspended.</li>
+    <li><strong>On the 11th day</strong>: an administrative fine, and reclassification into the third category, on a repeated violation within six months.</li>
+    <li><strong>On the 16th day</strong>: "automatic registration of an individual or collective labour dispute for the affected workers". This step names <strong>transport and storage</strong> among the sectors it reaches, which is where airport ground handling sits.</li>
+    <li><strong>On the 21st day</strong>: an executive instrument for payment, precautionary attachment against the establishment, and "imposing a travel ban on the person in charge of the establishment".</li>
 </ul>
 
 <p>Salaries reach you "through banks, exchange houses or financial institutions authorised by the Central Bank of the UAE". A cash envelope from a supervisor is not the Wage Protection System.</p>
@@ -271,14 +271,14 @@ JOBHTML;
 
 <h2 id="visa">The Visa Sequence, in Order</h2>
 
-<p>The employer applies for the work permit; you do not. "It is illegal for a person to work in the UAE without a valid work permit issued by the Ministry of Human Resources and Emiratisation", and employers "may not recruit or employ any worker unless a work permit is issued in accordance with MoHRE procedures". A permit to recruit a worker from outside the UAE is valid for two years &mdash; do not confuse that with the entry permit, which is valid for two months. The order matters, because getting it wrong is what visit-visa job scams rely on.</p>
+<p>The employer applies for the work permit; you do not. "It is illegal for a person to work in the UAE without a valid work permit issued by the Ministry of Human Resources and Emiratisation", and employers "may not recruit or employ any worker unless a work permit is issued in accordance with MoHRE procedures". A permit to recruit a worker from outside the UAE is valid for two years: do not confuse that with the entry permit, which is valid for two months. The order matters, because getting it wrong is what visit-visa job scams rely on.</p>
 
 <ol>
     <li><strong>Your passport must be valid for at least six months</strong> before you can obtain an entry permit.</li>
     <li><strong>You sign the job offer in your home country.</strong> The employer "must sign the job offer electronically and send it to the worker in their home country either directly, through a recruitment agency, or via any designated entity, for review and approval by the worker".</li>
     <li><strong>The signed offer goes with the work permit application.</strong> "The signed job offer must be attached to the application for initial work permit approval... This approval allows the worker to enter the UAE."</li>
     <li><strong>You travel on an entry permit</strong>, which "remains valid for two months from the date of issue".</li>
-    <li><strong>Within one month of arriving</strong> you complete the residency procedures &mdash; the medical, the security check, the Emirates ID &mdash; for a residency visa "which is valid for two years".</li>
+    <li><strong>Within one month of arriving</strong> you complete the residency procedures, the medical, the security check, the Emirates ID, for a residency visa "which is valid for two years".</li>
     <li><strong>You sign the contract on arrival, and it is registered.</strong> "Upon arrival, both the employer and worker must sign the job offer, which is then officially registered with MoHRE as a legally binding employment contract", and it "must be submitted to MoHRE within 14 days of the employee's arrival in the UAE".</li>
 </ol>
 
@@ -317,7 +317,7 @@ JOBHTML;
 
 <ul>
     <li><strong>An offer you did not apply for.</strong> Real recruitment at these employers starts with an application on their own site.</li>
-    <li><strong>A fee with a respectable name</strong> &mdash; visa processing, medical, uniform, training, "security deposit". All of them are the employer's cost by law.</li>
+    <li><strong>A fee with a respectable name</strong>: visa processing, medical, uniform, training, "security deposit". All of them are the employer's cost by law.</li>
     <li><strong>An email address that is not the company's domain.</strong> A genuine Emirates Group or Dubai Airports message does not arrive from a free webmail account.</li>
     <li><strong>Pressure and a deadline.</strong> Genuine work permits run on government timetables, not on a countdown.</li>
     <li><strong>A logo instead of a licence.</strong> Anyone can copy a crest. Ask for the licence number and check it.</li>
@@ -396,28 +396,28 @@ JOBHTML;
 <h2>More Job Guides</h2>
 
 <ul>
-    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a> &mdash; the same work across the border, where Omanisation decides whether an expatriate may hold the job at all.</li>
-    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a> &mdash; the same work in Abu Dhabi, where the employer is not the airline.</li>
-    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a> &mdash; the cabin route instead of the ground route, and the gratuity rule applicants misjudge.</li>
-    <li><a href="/blog/how-to-apply-for-dp-world-port-jobs-in-uae">How to Apply for DP World Port Jobs in UAE</a> &mdash; what a licensed Pakistani promoter may lawfully charge, and what is refundable.</li>
-    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a> &mdash; the five-year vetting and counter terrorism check that decide the UK equivalent.</li>
-    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a> &mdash; an airport employer that does publish its ramp rate.</li>
-    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a> &mdash; other shift work in the Emirates with employer sponsorship.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; another sponsored route into the UAE labour market.</li>
+    <li><a href="/blog/airport-ground-staff-jobs-in-oman">Airport Ground Staff Jobs in Oman</a>: the same work across the border, where Omanisation decides whether an expatriate may hold the job at all.</li>
+    <li><a href="/blog/how-to-apply-for-etihad-airport-jobs-in-uae">How to Apply for Etihad Airport Jobs in UAE</a>: the same work in Abu Dhabi, where the employer is not the airline.</li>
+    <li><a href="/blog/how-to-apply-for-emirates-cabin-crew-jobs-in-uae">How to Apply for Emirates Cabin Crew Jobs in UAE</a>: the cabin route instead of the ground route, and the gratuity rule applicants misjudge.</li>
+    <li><a href="/blog/how-to-apply-for-dp-world-port-jobs-in-uae">How to Apply for DP World Port Jobs in UAE</a>: what a licensed Pakistani promoter may lawfully charge, and what is refundable.</li>
+    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a>: the five-year vetting and counter terrorism check that decide the UK equivalent.</li>
+    <li><a href="/blog/how-to-apply-for-air-canada-airport-jobs">How to Apply for Air Canada Airport Jobs</a>: an airport employer that does publish its ramp rate.</li>
+    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a>: other shift work in the Emirates with employer sponsorship.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: another sponsored route into the UAE labour market.</li>
 </ul>
 
 <h2>Official sources</h2>
 
 <ul>
-    <li>The Official Portal of the UAE Government (u.ae) &mdash; protection of workers' rights; working hours and overtime; payment of salaries and wages; types of leaves; end of service benefits; expatriates' employment in the private sector; preparing to work; work permits; working in free zones; general provisions for the residence visa; labour disputes.</li>
-    <li>General Civil Aviation Authority &mdash; Civil Aviation Regulations Part VII, Aviation Security, on background checks and airport identification systems; and Part IX, Aerodromes, with Appendix 16 on the airside driving permit scheme.</li>
-    <li>Dubai Airports &mdash; the Airport Security Pass issuance procedure and the terms and conditions for pass holders; the Emirates Group and Dubai Airports recruitment fraud advisories.</li>
+    <li>The Official Portal of the UAE Government (u.ae): protection of workers' rights; working hours and overtime; payment of salaries and wages; types of leaves; end of service benefits; expatriates' employment in the private sector; preparing to work; work permits; working in free zones; general provisions for the residence visa; labour disputes.</li>
+    <li>General Civil Aviation Authority: Civil Aviation Regulations Part VII, Aviation Security, on background checks and airport identification systems; and Part IX, Aerodromes, with Appendix 16 on the airside driving permit scheme.</li>
+    <li>Dubai Airports: the Airport Security Pass issuance procedure and the terms and conditions for pass holders; the Emirates Group and Dubai Airports recruitment fraud advisories.</li>
     <li>Federal Decree-Law No. 33 of 2021 on the Regulation of Labour Relations in the Private Sector, as cited by the UAE Government portal; Ministerial Resolution No. 340 of 2026 on the Wage Protection System; Ministerial Resolution No. 44 of 2022 on the midday break; Cabinet Resolution No. 5 of 2016 on medical testing.</li>
-    <li>Emigration Ordinance 1979 as amended to 2021, published by the Ministry of Overseas Pakistanis and Human Resource Development &mdash; sections 12, 15, 18 and 22.</li>
+    <li>Emigration Ordinance 1979 as amended to 2021, published by the Ministry of Overseas Pakistanis and Human Resource Development: sections 12, 15, 18 and 22.</li>
     <li>The Emirates Group, dnata and Dubai Airports careers sites, each checked for this guide.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. UAE labour regulations and Pakistani emigration rules change, and how a rule applies can turn on facts this page cannot know &mdash; confirm the current position with MoHRE and with the Bureau of Emigration and Overseas Employment before relying on any of it. JobGader is not a recruiter and charges nothing.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal or immigration advice. UAE labour regulations and Pakistani emigration rules change, and how a rule applies can turn on facts this page cannot know: confirm the current position with MoHRE and with the Bureau of Emigration and Overseas Employment before relying on any of it. JobGader is not a recruiter and charges nothing.</p>
 HTML;
     }
 }

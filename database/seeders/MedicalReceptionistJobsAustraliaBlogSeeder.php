@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Medical Receptionist Jobs in Australia" — front-desk staff in general
+ * "Medical Receptionist Jobs in Australia": front-desk staff in general
  * practice, specialist rooms, radiology and allied health. The office
  * assistant guide covers clerical work under the Clerks Award, and this one
  * owns the award that covers health practice receptionists, the Medicare
@@ -156,7 +156,7 @@ class MedicalReceptionistJobsAustraliaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Check the current award pay guide on fairwork.gov.au before accepting an offer,</strong> because rates under this award are changing in stages.</p>
 
-<p><strong>Note:</strong> pay, hours and visa eligibility are set by employers, the Fair Work Commission and the Department of Home Affairs &mdash; not by JobGader. Confirm the details with the employer and on fairwork.gov.au before applying.</p>
+<p><strong>Note:</strong> pay, hours and visa eligibility are set by employers, the Fair Work Commission and the Department of Home Affairs, not by JobGader. Confirm the details with the employer and on fairwork.gov.au before applying.</p>
 JOBHTML;
     }
 
@@ -307,14 +307,14 @@ JOBHTML;
 <p>Comparing admin and health care jobs? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a> &mdash; clerical work under the Clerks Award, and how it compares.</li>
-    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a> &mdash; entry-level award rates, junior pay and visa work limits.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a> &mdash; how the Skills in Demand visa and its occupation list work.</li>
-    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a> &mdash; front-desk work in the Gulf, and the gratuity on a basic salary.</li>
-    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a> &mdash; the clinic role that mixes admin with clinical duties.</li>
-    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a> &mdash; an entry-level health care job with NHS pay bands.</li>
-    <li><a href="/blog/receptionist-jobs-in-australia">Receptionist Jobs in Australia</a> &mdash; office and hotel front desks, and the Clerks Award rates they start on.</li>
-    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a> &mdash; a genuinely sponsorable aged care route and its real award pay.</li>
+    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a>: clerical work under the Clerks Award, and how it compares.</li>
+    <li><a href="/blog/no-experience-jobs-in-australia">No Experience Jobs in Australia</a>: entry-level award rates, junior pay and visa work limits.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-australia">Visa Sponsorship Jobs in Australia</a>: how the Skills in Demand visa and its occupation list work.</li>
+    <li><a href="/blog/receptionist-jobs-in-uae">Receptionist Jobs in UAE</a>: front-desk work in the Gulf, and the gratuity on a basic salary.</li>
+    <li><a href="/blog/medical-assistant-jobs-in-usa">Medical Assistant Jobs in USA</a>: the clinic role that mixes admin with clinical duties.</li>
+    <li><a href="/blog/healthcare-assistant-jobs-in-uk">Healthcare Assistant Jobs in UK</a>: an entry-level health care job with NHS pay bands.</li>
+    <li><a href="/blog/receptionist-jobs-in-australia">Receptionist Jobs in Australia</a>: office and hotel front desks, and the Clerks Award rates they start on.</li>
+    <li><a href="/blog/personal-care-assistant-jobs-in-australia">Personal Care Assistant Jobs in Australia</a>: a genuinely sponsorable aged care route and its real award pay.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Award rates, Medicare billing rules, privacy obligations and visa occupation lists change. Confirm the current position with the Fair Work Ombudsman, Services Australia, the OAIC and the Department of Home Affairs before applying or accepting an offer.</p>

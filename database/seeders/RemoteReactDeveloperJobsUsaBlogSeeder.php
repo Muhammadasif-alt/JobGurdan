@@ -148,9 +148,9 @@ HTML;
 <p>You do not get to choose your classification, and neither, strictly, does the employer. The IRS applies a common law test across three categories of evidence:</p>
 
 <ul>
-    <li><strong>Behavioural control</strong> &mdash; "does the company control or have the right to control what the worker does and how the worker does his or her job?"</li>
-    <li><strong>Financial control</strong> &mdash; who decides how you are paid, who reimburses expenses, and who supplies the tools.</li>
-    <li><strong>Type of relationship</strong> &mdash; written contracts, benefits, how permanent the arrangement is, and whether your work is central to the business.</li>
+    <li><strong>Behavioural control</strong>: "does the company control or have the right to control what the worker does and how the worker does his or her job?"</li>
+    <li><strong>Financial control</strong>, who decides how you are paid, who reimburses expenses, and who supplies the tools.</li>
+    <li><strong>Type of relationship</strong>: written contracts, benefits, how permanent the arrangement is, and whether your work is central to the business.</li>
 </ul>
 
 <p>Crucially, the IRS says "there is no 'magic' or set number of factors that 'makes' the worker an employee or an independent contractor and no one factor stands alone", and that you must weigh "the entire relationship". A contract that calls you a contractor does not make you one.</p>
@@ -173,7 +173,7 @@ HTML;
 <p>Two things work back in your favour, and both are easy to miss:</p>
 
 <ul>
-    <li><strong>Half of the self-employment tax is deductible</strong> in figuring adjusted gross income &mdash; the IRS calls it "the employer-equivalent portion". It is an above-the-line deduction, so you get it without itemising.</li>
+    <li><strong>Half of the self-employment tax is deductible</strong> in figuring adjusted gross income: the IRS calls it "the employer-equivalent portion". It is an above-the-line deduction, so you get it without itemising.</li>
     <li><strong>The qualified business income deduction</strong> under Section 199A can take up to <strong>20 per cent</strong> of qualified business income, and it is available to sole proprietors and pass-through entities but explicitly <em>not</em> to employees. It is subject to taxable-income limitations, so check the current thresholds rather than assuming you clear them.</li>
 </ul>
 
@@ -198,10 +198,10 @@ HTML;
 <p>Contractors pay through <strong>Form 1040-ES</strong>, required if you "expect to owe tax of $1,000 or more when their return is filed". The instalment dates are not evenly spaced calendar quarters, which catches people out in their first year:</p>
 
 <ul>
-    <li><strong>15 April</strong> &mdash; for income earned 1 January to 31 March</li>
-    <li><strong>15 June</strong> &mdash; for 1 April to 31 May</li>
-    <li><strong>15 September</strong> &mdash; for 1 June to 31 August</li>
-    <li><strong>15 January</strong> &mdash; for 1 September to 31 December</li>
+    <li><strong>15 April</strong>: for income earned 1 January to 31 March</li>
+    <li><strong>15 June</strong>: for 1 April to 31 May</li>
+    <li><strong>15 September</strong>: for 1 June to 31 August</li>
+    <li><strong>15 January</strong>: for 1 September to 31 December</li>
 </ul>
 
 <p>A due date falling on a weekend or holiday rolls to the next business day. At year end you file <strong>Schedule C</strong> to compute net earnings and <strong>Schedule SE</strong> to compute the self-employment tax, both attached to Form 1040.</p>
@@ -244,7 +244,7 @@ HTML;
 <h2 id="w2-protections">What a W-2 Buys That a 1099 Does Not</h2>
 
 <ul>
-    <li><strong>The employer's half of payroll tax</strong> &mdash; 6.2 per cent Social Security and 1.45 per cent Medicare that you would otherwise pay yourself.</li>
+    <li><strong>The employer's half of payroll tax</strong>: 6.2 per cent Social Security and 1.45 per cent Medicare that you would otherwise pay yourself.</li>
     <li><strong>Overtime under the FLSA.</strong> Covered employees "must receive overtime pay for hours worked over 40 in a workweek at a rate not less than time and one-half their regular rates of pay". Many developer roles are exempt from this, so check rather than assume.</li>
     <li><strong>Unemployment insurance funding.</strong> Federal unemployment tax is paid by employers and "is not withheld from employee wages", at 6.0 per cent on the first $7,000 of each employee's wages with a credit of up to 5.4 per cent for state unemployment taxes.</li>
     <li><strong>Workers' compensation</strong>, which for private-sector workers is administered by state boards rather than federally.</li>
@@ -318,15 +318,15 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the main guide: pay bands, the toolchain that dates you, and which React work carries a rate.</li>
-    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a> &mdash; the first role, the portfolio that gets read, and the paid apprenticeship route.</li>
-    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the BLS occupation most React roles are counted in, with freelance rates worked through.</li>
-    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; the grade that changes your overtime status, and what it means for hourly contract work.</li>
-    <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a> &mdash; the employee side: why adverts exclude states, and the convenience of the employer rule.</li>
-    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a> &mdash; staffing and consulting engagements, unpaid bench time, and what may not be deducted.</li>
-    <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a> &mdash; the employed side of the same market, where the offer is base plus equity plus bonus.</li>
-    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; the higher benchmark, and the misclassification tests that apply to cross-border contracting.</li>
-    <li><a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">How to Apply for React Developer Jobs in USA</a> &mdash; the application process, what employers may ask, and how to spot a scam.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the main guide: pay bands, the toolchain that dates you, and which React work carries a rate.</li>
+    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a>: the first role, the portfolio that gets read, and the paid apprenticeship route.</li>
+    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a>: the BLS occupation most React roles are counted in, with freelance rates worked through.</li>
+    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a>: the grade that changes your overtime status, and what it means for hourly contract work.</li>
+    <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a>: the employee side: why adverts exclude states, and the convenience of the employer rule.</li>
+    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a>: staffing and consulting engagements, unpaid bench time, and what may not be deducted.</li>
+    <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a>: the employed side of the same market, where the offer is base plus equity plus bonus.</li>
+    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a>: the higher benchmark, and the misclassification tests that apply to cross-border contracting.</li>
+    <li><a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">How to Apply for React Developer Jobs in USA</a>: the application process, what employers may ask, and how to spot a scam.</li>
 </ul>
 
 <h2>Official sources</h2>

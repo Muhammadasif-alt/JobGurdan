@@ -226,9 +226,9 @@ class SocialMediaManagerJobsFromHomeMelbourneBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/social-media-manager-jobs-in-usa">Social Media Manager Jobs in USA</a> &mdash; how the same role is advertised in the United States.</li>
-    <li><a href="/blog/virtual-assistant-jobs-manila-philippines">Virtual Assistant Jobs in Manila, Philippines</a> &mdash; another remote route with equipment to check.</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a> &mdash; check this before you send money or documents.</li>
+    <li><a href="/blog/social-media-manager-jobs-in-usa">Social Media Manager Jobs in USA</a>: how the same role is advertised in the United States.</li>
+    <li><a href="/blog/virtual-assistant-jobs-manila-philippines">Virtual Assistant Jobs in Manila, Philippines</a>: another remote route with equipment to check.</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or career advice. Reviewed on 22 October 2026 against the pages named in Sources. It does not promise a vacancy, an income, an interview or an offer, and postings and rules can change.</p>

@@ -207,10 +207,10 @@ class WorkVisaWithoutAgentBlogSeeder extends Seeder
 <p>Related guides:</p>
 
 <ul>
-    <li><a href="/blog/documents-needed-to-work-abroad-2026">What Documents Do You Need to Work Abroad (2026)</a> &mdash; the full checklist.</li>
-    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a> &mdash; verify before you pay.</li>
-    <li><a href="/blog/countries-visa-sponsorship-skilled-workers-2026">Countries That Offer Visa Sponsorship for Skilled Workers</a> &mdash; eight routes compared.</li>
-    <li><a href="/blog/best-job-sites-work-abroad-2026">Best Job Sites to Find Work Abroad (2026)</a> &mdash; where to look.</li>
+    <li><a href="/blog/documents-needed-to-work-abroad-2026">What Documents Do You Need to Work Abroad (2026)</a>: the full checklist.</li>
+    <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay.</li>
+    <li><a href="/blog/countries-visa-sponsorship-skilled-workers-2026">Countries That Offer Visa Sponsorship for Skilled Workers</a>: eight routes compared.</li>
+    <li><a href="/blog/best-job-sites-work-abroad-2026">Best Job Sites to Find Work Abroad (2026)</a>: where to look.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal advice. Reviewed on 12 October 2026 against official sources. Document lists and processes vary by route, so follow the official instructions for your own application.</p>

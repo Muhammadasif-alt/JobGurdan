@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Get a Job in Saudi Arabia as a Foreigner" — the umbrella guide for
+ * "How to Get a Job in Saudi Arabia as a Foreigner": the umbrella guide for
  * the Saudi cluster. It owns the sponsorship route, the 2021 labour reforms,
  * the skill tiers, Saudization and the money rules, and hands the role-level
  * queries to the cleaner, construction, driver, nurse and other Saudi guides.
@@ -190,7 +190,7 @@ class SaudiArabiaJobsForeignersBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> visa quotas, Saudization percentages, work permit fees and Labour Law rights are set by the Ministry of Human Resources and Social Development, ZATCA and GOSI &mdash; not by JobGader. Under article 40 of the Labour Law the employer pays recruitment and work permit costs, not you.</p>
+<p><strong>Note:</strong> visa quotas, Saudization percentages, work permit fees and Labour Law rights are set by the Ministry of Human Resources and Social Development, ZATCA and GOSI, not by JobGader. Under article 40 of the Labour Law the employer pays recruitment and work permit costs, not you.</p>
 JOBHTML;
     }
 
@@ -199,7 +199,7 @@ JOBHTML;
         return <<<'HTML'
 <p><strong>You cannot move to Saudi Arabia to look for work. A Saudi employer has to hold a visa quota and request a visa authorisation before any work visa exists, and there is no job-seeker route that lets you arrive first and find an employer later.</strong> What has changed is what happens after you get there: since <strong>14 March 2021</strong> the Labour Reform Initiative lets private sector expatriates move between employers at contract expiry, travel out and back, and leave for good without the employer's consent.</p>
 
-<p>This guide covers the route itself, the two checks that stop most people before the embassy, what Saudization actually blocks, and the money rules &mdash; including the one that decides whether an agency asking you for a fee is breaking the law.</p>
+<p>This guide covers the route itself, the two checks that stop most people before the embassy, what Saudization actually blocks, and the money rules, including the one that decides whether an agency asking you for a fee is breaking the law.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/general-labour?location=Saudi%20Arabia" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -265,7 +265,7 @@ JOBHTML;
 
 <h2>Saudization: What You Can and Cannot Be Hired For</h2>
 
-<p>Saudi employers must fill a set share of their roles with Saudi nationals under <strong>Nitaqat</strong>. Firms sit in bands &mdash; Platinum, High Green, Mid Green, Low Green and Red &mdash; and the band controls how many foreign visas the firm gets and how freely it can renew them. A Platinum employer can hire you easily; a Red one often cannot hire you at all.</p>
+<p>Saudi employers must fill a set share of their roles with Saudi nationals under <strong>Nitaqat</strong>. Firms sit in bands, Platinum, High Green, Mid Green, Low Green and Red, and the band controls how many foreign visas the firm gets and how freely it can renew them. A Platinum employer can hire you easily; a Red one often cannot hire you at all.</p>
 
 <p>Separately, the ministry closes or restricts named professions on a rolling schedule. These are real decisions with dates, and they are the reason a job that existed two years ago may not be open to you now:</p>
 
@@ -293,7 +293,7 @@ JOBHTML;
 
 <h2>What the Official Numbers Actually Say</h2>
 
-<p>You will see "expatriates are 77% of the Saudi workforce, about 14 million out of 18.1 million" repeated everywhere. That figure is real, and it comes from GASTAT's register-based labour market statistics &mdash; but it is the <strong>first quarter of 2025</strong>, and the market has moved since.</p>
+<p>You will see "expatriates are 77% of the Saudi workforce, about 14 million out of 18.1 million" repeated everywhere. That figure is real, and it comes from GASTAT's register-based labour market statistics, but it is the <strong>first quarter of 2025</strong>, and the market has moved since.</p>
 
 <div style="overflow-x:auto;margin:24px 0;">
 <table style="width:100%;border-collapse:collapse;font-size:15px;">
@@ -318,13 +318,13 @@ JOBHTML;
 
 <p>The rates come from a different GASTAT series and are not directly comparable to those headcounts, but they are worth knowing. In the fourth quarter of 2025, Saudi unemployment stood at <strong>7.2%</strong>, and the employment-to-population ratio was <strong>45.9% for Saudis against 80.7% for non-Saudis</strong>. Almost every non-Saudi in the country is there to work, while a much smaller share of the Saudi population is in the labour market at all. On population, GASTAT's 2024 estimates put the Kingdom at <strong>35.3 million people</strong>, of whom <strong>15.7 million (44.4%) are non-Saudi</strong>.</p>
 
-<p>The one sector with a clean official split is tourism. GASTAT's tourism establishments statistics for the third quarter of 2025 counted <strong>1,009,691 people employed</strong> in the sector, of whom <strong>764,520 &mdash; 75.7% &mdash; were non-Saudi</strong>. The tourism figures circulating in most guides are, unusually, correct.</p>
+<p>The one sector with a clean official split is tourism. GASTAT's tourism establishments statistics for the third quarter of 2025 counted <strong>1,009,691 people employed</strong> in the sector, of whom <strong>764,520, 75.7%, were non-Saudi</strong>. The tourism figures circulating in most guides are, unusually, correct.</p>
 
-<p>For scale, the Ministry of Tourism's 2025 annual report counted about <strong>123 million visits</strong> &mdash; 29.3 million international and 93.3 million domestic &mdash; with tourism spending of SAR 304 billion. You will also see a "150 million visitors by 2030" target quoted as though it were published policy; it is repeated by ministers but does not appear among the numbered targets on the Vision 2030 site, so treat it as an ambition rather than a figure you can cite.</p>
+<p>For scale, the Ministry of Tourism's 2025 annual report counted about <strong>123 million visits</strong>, 29.3 million international and 93.3 million domestic, with tourism spending of SAR 304 billion. You will also see a "150 million visitors by 2030" target quoted as though it were published policy; it is repeated by ministers but does not appear among the numbered targets on the Vision 2030 site, so treat it as an ambition rather than a figure you can cite.</p>
 
 <h2>Pay: What Can Be Verified and What Cannot</h2>
 
-<p>Here is the uncomfortable part. <strong>Saudi Arabia does not publish an occupational wage survey for expatriate workers.</strong> There is no Saudi equivalent of the American OEWS tables or British ONS earnings data that would let you look up what a foreign site engineer or nurse earns. Every "average expat salary in Saudi Arabia" table you find online &mdash; including the SAR 12,000 to 25,000 range and the sector bands quoted in most guides &mdash; traces back to job boards, recruitment agencies and relocation blogs, not to any Saudi authority.</p>
+<p>Here is the uncomfortable part. <strong>Saudi Arabia does not publish an occupational wage survey for expatriate workers.</strong> There is no Saudi equivalent of the American OEWS tables or British ONS earnings data that would let you look up what a foreign site engineer or nurse earns. Every "average expat salary in Saudi Arabia" table you find online, including the SAR 12,000 to 25,000 range and the sector bands quoted in most guides, traces back to job boards, recruitment agencies and relocation blogs, not to any Saudi authority.</p>
 
 <p>So treat those numbers as marketing, and price your own offer from things you can check instead:</p>
 
@@ -390,11 +390,11 @@ JOBHTML;
 
 <h2>Premium Residency Is Not a Job-Seeking Route</h2>
 
-<p>Premium residency is often presented as a back door into the job market. It is not. It is a status for people who already qualify on investment, property, talent or achievement, and the portal is <strong>pr.gov.sa</strong> &mdash; note that, because the domain quoted in several guides does not exist.</p>
+<p>Premium residency is often presented as a back door into the job market. It is not. It is a status for people who already qualify on investment, property, talent or achievement, and the portal is <strong>pr.gov.sa</strong>: note that, because the domain quoted in several guides does not exist.</p>
 
 <p>The Premium Residency Center offers products including <strong>Special Talent, Gifted, Investor, Entrepreneur and Real Estate Owner</strong> residencies alongside limited and unlimited duration options. Holders can run a business without a local sponsor, own property, sponsor family and travel in and out without a visa.</p>
 
-<p>For the <strong>Special Talent</strong> product the portal's published conditions are an employment contract with an approved entity in a priority specialisation, a bachelor's degree or higher, more than three years of relevant experience, an employer recommendation, a minimum score on a points system and a <strong>minimum monthly wage of SAR 35,000</strong>. The tiered figures quoted elsewhere &mdash; SAR 14,000 for researchers, SAR 80,000 for executives &mdash; are not what the portal publishes today, so check pr.gov.sa directly before planning around them.</p>
+<p>For the <strong>Special Talent</strong> product the portal's published conditions are an employment contract with an approved entity in a priority specialisation, a bachelor's degree or higher, more than three years of relevant experience, an employer recommendation, a minimum score on a points system and a <strong>minimum monthly wage of SAR 35,000</strong>. The tiered figures quoted elsewhere, SAR 14,000 for researchers, SAR 80,000 for executives, are not what the portal publishes today, so check pr.gov.sa directly before planning around them.</p>
 
 <p>The sensible way to use this: take the ordinary sponsored route first, build a senior profile over a few years, and look at premium residency once you actually clear the threshold.</p>
 
@@ -455,17 +455,17 @@ JOBHTML;
 <p>Going for a specific role in Saudi Arabia? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a> &mdash; the trade exam that has to be passed before the Saudi visa is issued.</li>
-    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a> &mdash; the biggest sponsored sector and what the contracts look like.</li>
-    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a> &mdash; SCFHS registration, hospital employers and the licensing route.</li>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; licence conversion and what driving work pays.</li>
-    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a> &mdash; entry-level routes and the rules that protect you.</li>
-    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a> &mdash; licensing, employers and shift patterns.</li>
-    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a> &mdash; contract cleaning work and how it is recruited.</li>
-    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a> &mdash; the licence ladder for heavy vehicles.</li>
-    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a> &mdash; Omanisation, the Gulf parallel to Saudization, from an employer side.</li>
-    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a> &mdash; the country largest employer, and what it does and does not publish.</li>
-    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a> &mdash; the famous employer whose job board is currently empty.</li>
+    <li><a href="/blog/plumber-jobs-in-uae-and-saudi-arabia">Plumber Jobs in UAE and Saudi Arabia</a>: the trade exam that has to be passed before the Saudi visa is issued.</li>
+    <li><a href="/blog/construction-jobs-in-saudi-arabia-with-visa-sponsorship">Construction Jobs in Saudi Arabia with Visa Sponsorship</a>: the biggest sponsored sector and what the contracts look like.</li>
+    <li><a href="/blog/nurse-jobs-in-saudi-arabia">Nurse Jobs in Saudi Arabia</a>: SCFHS registration, hospital employers and the licensing route.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: licence conversion and what driving work pays.</li>
+    <li><a href="/blog/no-experience-jobs-in-saudi-arabia">No Experience Jobs in Saudi Arabia</a>: entry-level routes and the rules that protect you.</li>
+    <li><a href="/blog/security-guard-jobs-in-saudi-arabia">Security Guard Jobs in Saudi Arabia</a>: licensing, employers and shift patterns.</li>
+    <li><a href="/blog/cleaner-jobs-in-saudi-arabia-for-foreigners">Cleaner Jobs in Saudi Arabia for Foreigners</a>: contract cleaning work and how it is recruited.</li>
+    <li><a href="/blog/heavy-truck-driver-jobs-in-saudi-arabia">Heavy Truck Driver Jobs in Saudi Arabia</a>: the licence ladder for heavy vehicles.</li>
+    <li><a href="/blog/how-to-apply-for-oman-air-cabin-crew-jobs">How to Apply for Oman Air Cabin Crew Jobs</a>: Omanisation, the Gulf parallel to Saudization, from an employer side.</li>
+    <li><a href="/blog/how-to-apply-for-aramco-engineering-jobs-in-saudi-arabia">How to Apply for Aramco Engineering Jobs in Saudi Arabia</a>: the country largest employer, and what it does and does not publish.</li>
+    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a>: the famous employer whose job board is currently empty.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using GASTAT labour market, population and tourism statistics, Ministry of Human Resources and Social Development announcements and Labour Law articles, ZATCA guidance, Qiwa and Musaned rules and the Premium Residency Center portal. Saudization decisions, fees and thresholds change often. Always check the current official page for your own profession before you commit.</p>

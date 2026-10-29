@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Hotel Jobs in USA for Foreigners" — the hospitality visa-sponsorship guide,
+ * "Hotel Jobs in USA for Foreigners": the hospitality visa-sponsorship guide,
  * plus the matching job listing the article links out to.
  *
  * Both use updateOrCreate, so re-running is safe; note that it will overwrite
@@ -51,7 +51,7 @@ class HotelJobsBlogSeeder extends Seeder
                 'author_id' => $author?->id,
                 'author_name' => $author?->name ?? 'Admin',
                 'title' => $title,
-                'excerpt' => 'H-2B, J-1, H-1B and EB-3 explained for hospitality work — which roles U.S. hotels actually sponsor, realistic hourly pay by position, and how to spot a recruitment scam.',
+                'excerpt' => 'H-2B, J-1, H-1B and EB-3 explained for hospitality work, which roles U.S. hotels actually sponsor, realistic hourly pay by position, and how to spot a recruitment scam.',
                 'content' => $content,
                 'featured_image' => 'blogs/hotel-jobs-in-usa-for-foreigners.jpg',
                 'tags' => 'hotel jobs usa, hotel jobs in usa with visa sponsorship, visa sponsorship, H-2B visa, hotels sponsoring h2b visa, J-1 visa, restaurant jobs usa visa sponsorship, hospitality jobs, housekeeping jobs, front desk jobs, jobs for foreigners',
@@ -100,7 +100,7 @@ class HotelJobsBlogSeeder extends Seeder
                 'salary_minimum' => 14,
                 'salary_maximum' => 21,
                 'application_url' => self::APPLY_URL,
-                'meta_description' => 'U.S. hotel and resort openings with visa sponsorship — housekeeping, front desk and kitchen roles on H-2B and J-1 routes, $14-$21/hour.',
+                'meta_description' => 'U.S. hotel and resort openings with visa sponsorship: housekeeping, front desk and kitchen roles on H-2B and J-1 routes, $14-$21/hour.',
                 'seo_keywords' => 'hotel jobs usa, visa sponsorship, H-2B visa, J-1 visa, housekeeping jobs, front desk jobs, hospitality jobs for foreigners',
             ]
         );
@@ -116,7 +116,7 @@ class HotelJobsBlogSeeder extends Seeder
     <li>Room attendant / housekeeper</li>
     <li>Front desk &amp; guest services representative</li>
     <li>Breakfast attendant and banquet staff</li>
-    <li>Kitchen back-of-house &mdash; dishwasher, prep cook</li>
+    <li>Kitchen back-of-house: dishwasher, prep cook</li>
 </ul>
 
 <h3>Requirements</h3>
@@ -125,7 +125,7 @@ class HotelJobsBlogSeeder extends Seeder
     <li>English sufficient to serve guests and follow shift instructions</li>
     <li>Availability for shift work, including weekends and holidays during peak season</li>
     <li>Ability to pass a standard background check</li>
-    <li>Physical stamina &mdash; most roles involve standing, lifting and moving throughout the shift</li>
+    <li>Physical stamina: most roles involve standing, lifting and moving throughout the shift</li>
 </ul>
 
 <h3>What's on offer</h3>
@@ -136,14 +136,14 @@ class HotelJobsBlogSeeder extends Seeder
     <li>Management and specialised roles (H-1B / EB-3 track) run well above these ranges</li>
 </ul>
 
-<p><strong>Note:</strong> sponsorship terms, timelines and eligibility are set by the individual hotel or staffing agency and by USCIS &mdash; not by JobGader. Read each posting in full before applying, and never pay an upfront "guaranteed job" fee for sponsorship.</p>
+<p><strong>Note:</strong> sponsorship terms, timelines and eligibility are set by the individual hotel or staffing agency and by USCIS, not by JobGader. Read each posting in full before applying, and never pay an upfront "guaranteed job" fee for sponsorship.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>America's hospitality industry runs on seasonal peaks &mdash; ski resorts in winter, beach towns in summer, convention hotels year-round &mdash; and staffing those peaks with domestic workers alone has never been enough. That gap is what makes <strong>hotel jobs in USA</strong> one of the more accessible visa-sponsored entry points into the American job market for foreign workers, from housekeeping and front desk roles to culinary and management positions. Here's how the process actually works, what it pays, and how to avoid the scams that circle this space.</p>
+<p>America's hospitality industry runs on seasonal peaks, ski resorts in winter, beach towns in summer, convention hotels year-round, and staffing those peaks with domestic workers alone has never been enough. That gap is what makes <strong>hotel jobs in USA</strong> one of the more accessible visa-sponsored entry points into the American job market for foreign workers, from housekeeping and front desk roles to culinary and management positions. Here's how the process actually works, what it pays, and how to avoid the scams that circle this space.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/hospitality-tourism?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -153,11 +153,11 @@ JOBHTML;
 
 <h2>Why Hotels Sponsor Foreign Workers</h2>
 
-<p>Resort towns and seasonal destinations regularly can't fill entry-level roles &mdash; housekeeping, breakfast service, dishwashing, guest services &mdash; fast enough with local labor, especially during peak season. Large chains and independent resorts alike turn to visa programs to bridge that gap, which is exactly why postings for <strong>usa hotel jobs salary</strong> and sponsorship show up year-round on major job boards, not just around holidays.</p>
+<p>Resort towns and seasonal destinations regularly can't fill entry-level roles, housekeeping, breakfast service, dishwashing, guest services, fast enough with local labor, especially during peak season. Large chains and independent resorts alike turn to visa programs to bridge that gap, which is exactly why postings for <strong>usa hotel jobs salary</strong> and sponsorship show up year-round on major job boards, not just around holidays.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/hotel-jobs-in-usa-front-desk.jpg"
-         alt="Hotel front desk agent greeting a guest — hotel jobs in USA for foreigners with visa sponsorship"
+         alt="Hotel front desk agent greeting a guest: hotel jobs in USA for foreigners with visa sponsorship"
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
@@ -173,7 +173,7 @@ JOBHTML;
 
 <h3>H-2B Visa (Seasonal / Temporary)</h3>
 
-<p>The most common route for line-level hotel roles &mdash; housekeeping, front desk, breakfast attendants, dishwashers, banquet staff. It's tied to a specific employer and a defined season of need, and it does not lead to permanent residency on its own. The annual statutory cap sits at 66,000 visas split across two half-year allocations, and demand from resort and hospitality employers regularly pushes that cap to its limit &mdash; in fiscal year 2026, the government released a temporary allocation of over 64,000 additional visas across sectors that included hospitality, and even that expanded pool filled quickly. Employers post current temporary hospitality roles on the <a href="https://seasonaljobs.dol.gov/jobs" target="_blank" rel="noopener">U.S. Department of Labor's Seasonal Jobs portal</a>, which is a genuinely useful place to see real H-2B postings rather than recycled aggregator listings.</p>
+<p>The most common route for line-level hotel roles: housekeeping, front desk, breakfast attendants, dishwashers, banquet staff. It's tied to a specific employer and a defined season of need, and it does not lead to permanent residency on its own. The annual statutory cap sits at 66,000 visas split across two half-year allocations, and demand from resort and hospitality employers regularly pushes that cap to its limit: in fiscal year 2026, the government released a temporary allocation of over 64,000 additional visas across sectors that included hospitality, and even that expanded pool filled quickly. Employers post current temporary hospitality roles on the <a href="https://seasonaljobs.dol.gov/jobs" target="_blank" rel="noopener">U.S. Department of Labor's Seasonal Jobs portal</a>, which is a genuinely useful place to see real H-2B postings rather than recycled aggregator listings.</p>
 
 <h3>J-1 Visa (Exchange Visitor / Internship-Training)</h3>
 
@@ -181,15 +181,15 @@ JOBHTML;
 
 <h3>H-1B Visa (Specialty Occupation)</h3>
 
-<p>Reserved for higher-skill, degree-requiring roles &mdash; think revenue management, hotel operations management, or corporate hospitality positions &mdash; not entry-level service jobs. It's also subject to an annual lottery, which makes it far more competitive and less predictable than H-2B for hospitality staffing.</p>
+<p>Reserved for higher-skill, degree-requiring roles, think revenue management, hotel operations management, or corporate hospitality positions, not entry-level service jobs. It's also subject to an annual lottery, which makes it far more competitive and less predictable than H-2B for hospitality staffing.</p>
 
 <h3>EB-3 Visa (Permanent / Green Card)</h3>
 
-<p>Used less often for hotel roles than H-2B, but it exists for employers willing to sponsor permanent, year-round positions and complete PERM labor certification. It's the slower, more committed route &mdash; better suited to someone aiming for long-term settlement than a seasonal contract.</p>
+<p>Used less often for hotel roles than H-2B, but it exists for employers willing to sponsor permanent, year-round positions and complete PERM labor certification. It's the slower, more committed route: better suited to someone aiming for long-term settlement than a seasonal contract.</p>
 
 <h2>What Roles Are Typically Sponsored</h2>
 
-<p>Real postings from hotel groups (High Hotels, Marriott-branded properties, and independent resorts) show the pattern clearly: seasonal and year-round openings for room attendants/housekeepers, breakfast attendants, guest services representatives, and back-of-house kitchen roles like dishwashers are the volume hires &mdash; and dishwasher and housekeeping roles are among the most common H-2B-eligible positions at resort hotels. For example, a mountain-resort hotel in Colorado recently advertised an H-2B dishwasher role at <strong>$20.53 an hour</strong> plus resort discounts and employee meals &mdash; a useful real-world reference point, though pay like this varies heavily by location and cost of living.</p>
+<p>Real postings from hotel groups (High Hotels, Marriott-branded properties, and independent resorts) show the pattern clearly: seasonal and year-round openings for room attendants/housekeepers, breakfast attendants, guest services representatives, and back-of-house kitchen roles like dishwashers are the volume hires, and dishwasher and housekeeping roles are among the most common H-2B-eligible positions at resort hotels. For example, a mountain-resort hotel in Colorado recently advertised an H-2B dishwasher role at <strong>$20.53 an hour</strong> plus resort discounts and employee meals: a useful real-world reference point, though pay like this varies heavily by location and cost of living.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/hotel-jobs-in-usa-hotel-team.jpg"
@@ -201,13 +201,13 @@ JOBHTML;
 
 <p>Searches for restaurant jobs in the USA with visa sponsorship land in almost the same place as hotel searches, because most hotels run their own dining rooms, bars and banquet operations. Line cooks, dishwashers, servers, bussers and bartenders at a hotel property are sponsored through the same H-2B route as housekeeping, and they appear on the same employer petitions.</p>
 
-<p>Two practical differences are worth knowing. Back-of-house roles &mdash; dishwasher, prep, line cook &mdash; are the easier ones to be hired into from abroad, because they screen on reliability rather than on spoken English. Front-of-house roles that carry tips, such as server and bartender, are more likely to go to local hires for exactly that reason, and tipped pay makes the advertised hourly rate a poor guide to actual earnings. Ask what the tipped and non-tipped hours look like before comparing an offer to a flat-rate kitchen job.</p>
+<p>Two practical differences are worth knowing. Back-of-house roles, dishwasher, prep, line cook, are the easier ones to be hired into from abroad, because they screen on reliability rather than on spoken English. Front-of-house roles that carry tips, such as server and bartender, are more likely to go to local hires for exactly that reason, and tipped pay makes the advertised hourly rate a poor guide to actual earnings. Ask what the tipped and non-tipped hours look like before comparing an offer to a flat-rate kitchen job.</p>
 
 <h2>Applying as a UK, Irish or EU National</h2>
 
-<p>There is no separate hospitality visa for UK or EU citizens &mdash; the same H-2B, J-1 and H-1B routes apply, on the same terms as for any other nationality. What does differ is which route tends to fit: the J-1 exchange route is the one most used by younger UK and EU applicants, because the designated sponsor organisations that run it place trainees into structured hotel programmes lasting roughly twelve to eighteen months.</p>
+<p>There is no separate hospitality visa for UK or EU citizens: the same H-2B, J-1 and H-1B routes apply, on the same terms as for any other nationality. What does differ is which route tends to fit: the J-1 exchange route is the one most used by younger UK and EU applicants, because the designated sponsor organisations that run it place trainees into structured hotel programmes lasting roughly twelve to eighteen months.</p>
 
-<p>One caution specific to this group. Because the J-1 runs through designated sponsor organisations rather than employer petitions, there is a real market of intermediaries around it. Confirm that the programme sponsor appears on the US State Department's list of designated sponsors before paying any programme fee &mdash; a programme fee to a designated sponsor is a normal part of J-1, which is exactly why impostors exist.</p>
+<p>One caution specific to this group. Because the J-1 runs through designated sponsor organisations rather than employer petitions, there is a real market of intermediaries around it. Confirm that the programme sponsor appears on the US State Department's list of designated sponsors before paying any programme fee: a programme fee to a designated sponsor is a normal part of J-1, which is exactly why impostors exist.</p>
 
 <h2>Hotel Jobs in USA for Foreigners: Salary Expectations</h2>
 
@@ -224,7 +224,7 @@ JOBHTML;
 
 <h2>Applying as an Indian, Pakistani, or Other Foreign National</h2>
 
-<p>For <strong>motel jobs in USA for Indian</strong> applicants and other foreign nationals more broadly, the process doesn't differ by nationality &mdash; it comes down to which visa category the employer is set up to sponsor. Two practical things matter more than where you're from:</p>
+<p>For <strong>motel jobs in USA for Indian</strong> applicants and other foreign nationals more broadly, the process doesn't differ by nationality: it comes down to which visa category the employer is set up to sponsor. Two practical things matter more than where you're from:</p>
 
 <ol>
     <li><strong>Which visa the employer already uses.</strong> Large hotel chains and staffing agencies that have sponsored H-2B or J-1 workers before tend to have a repeatable, faster process than a small independent motel doing it for the first time.</li>
@@ -233,11 +233,11 @@ JOBHTML;
 
 <h2>Using a Hotel Jobs Abroad Recruitment Agency</h2>
 
-<p>A legitimate <strong>hotel jobs abroad recruitment agency</strong> can be a genuine shortcut &mdash; connecting you with vetted H-2B or J-1 program employers &mdash; but this space also attracts scams. Before paying any agency:</p>
+<p>A legitimate <strong>hotel jobs abroad recruitment agency</strong> can be a genuine shortcut, connecting you with vetted H-2B or J-1 program employers, but this space also attracts scams. Before paying any agency:</p>
 
 <ul>
     <li>Confirm they're a registered, licensed H-2B recruiter or a designated J-1 sponsor organization (J-1 sponsors are listed on the U.S. State Department's exchange visitor program directory).</li>
-    <li>Never pay large upfront "guaranteed job" fees &mdash; legitimate H-2B recruitment fees are regulated, and reputable agencies are transparent about them in writing.</li>
+    <li>Never pay large upfront "guaranteed job" fees: legitimate H-2B recruitment fees are regulated, and reputable agencies are transparent about them in writing.</li>
     <li>Cross-check any hotel or resort name they mention directly with the hotel's own careers page.</li>
 </ul>
 
@@ -246,28 +246,28 @@ JOBHTML;
 <p>Search interest around <strong>free visa hotel job in Europe</strong> and <strong>hotel jobs in Europe for foreigners</strong> often overlaps with USA hotel job searches, since candidates are usually comparing destinations rather than committed to one country. A few honest points if you're weighing both:</p>
 
 <ul>
-    <li>No visa is truly "free" &mdash; there are always some processing costs, even when the employer covers sponsorship fees, and "free visa" is a phrase heavily used in recruitment scams to create urgency.</li>
+    <li>No visa is truly "free": there are always some processing costs, even when the employer covers sponsorship fees, and "free visa" is a phrase heavily used in recruitment scams to create urgency.</li>
     <li>European hospitality visas (seasonal work permits, EU Blue Card for higher-skill roles) work similarly to the U.S. system: an employer or program sponsors you, and you still need to meet language, documentation, and sometimes bilateral-agreement requirements specific to the country.</li>
-    <li>If comparing offers, evaluate net pay after cost of living, contract length, and whether the visa can be renewed or leads to longer-term status &mdash; not just the sponsorship claim itself.</li>
+    <li>If comparing offers, evaluate net pay after cost of living, contract length, and whether the visa can be renewed or leads to longer-term status, not just the sponsorship claim itself.</li>
 </ul>
 
 <h2>5-Star Hotel Jobs in America</h2>
 
-<p>Luxury and 5-star properties (Four Seasons, Ritz-Carlton, major resort brands) do sponsor foreign talent, particularly for specialized culinary, spa, and management roles, but competition is steeper than for standard H-2B service roles. Checking a brand's own careers portal directly &mdash; for example <a href="https://careers.fourseasons.com/us/en/search-results" target="_blank" rel="noopener">Four Seasons Careers</a> &mdash; is usually more productive than searching <strong>5 star hotel job vacancy in America</strong> on generic aggregators, since luxury brands often route international hiring through their own corporate recruitment teams rather than mass job boards.</p>
+<p>Luxury and 5-star properties (Four Seasons, Ritz-Carlton, major resort brands) do sponsor foreign talent, particularly for specialized culinary, spa, and management roles, but competition is steeper than for standard H-2B service roles. Checking a brand's own careers portal directly, for example <a href="https://careers.fourseasons.com/us/en/search-results" target="_blank" rel="noopener">Four Seasons Careers</a>, is usually more productive than searching <strong>5 star hotel job vacancy in America</strong> on generic aggregators, since luxury brands often route international hiring through their own corporate recruitment teams rather than mass job boards.</p>
 
 <h2>Frequently Asked Questions</h2>
 
 <h3>What's the fastest visa route into a U.S. hotel job?</h3>
-<p>H-2B is generally the fastest to start working under, since it's built for seasonal hospitality demand &mdash; but it's temporary and tied to one employer, unlike EB-3's permanent (but much slower) path.</p>
+<p>H-2B is generally the fastest to start working under, since it's built for seasonal hospitality demand, but it's temporary and tied to one employer, unlike EB-3's permanent (but much slower) path.</p>
 
 <h3>Do I need hospitality experience to qualify?</h3>
 <p>Not always for entry-level roles like housekeeping or dishwashing, but prior experience makes you more competitive, especially with employers who receive many applications per opening.</p>
 
 <h3>Can H-2B lead to a green card later?</h3>
-<p>Not directly &mdash; H-2B is a temporary, non-immigrant visa. Some workers later pursue EB-3 sponsorship with the same or a different employer, but that's a separate application process.</p>
+<p>Not directly: H-2B is a temporary, non-immigrant visa. Some workers later pursue EB-3 sponsorship with the same or a different employer, but that's a separate application process.</p>
 
 <h3>Are unpaid or "training only" hotel placements legitimate?</h3>
-<p>Be cautious. Legitimate J-1 training programs are structured, paid, and run through State Department-designated sponsors &mdash; a placement asking you to pay heavily upfront with no clear sponsor organization is a red flag.</p>
+<p>Be cautious. Legitimate J-1 training programs are structured, paid, and run through State Department-designated sponsors: a placement asking you to pay heavily upfront with no clear sponsor organization is a red flag.</p>
 
 <h3>Where can I find real, current openings?</h3>
 <p>Start with the platforms below, and check individual hotel brand career pages directly for higher-end roles.</p>
@@ -278,7 +278,7 @@ JOBHTML;
     </a>
 </div>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and isn't legal or immigration advice. Visa eligibility, caps, and requirements change &mdash; confirm current rules with USCIS, the U.S. Department of State, or a licensed immigration attorney before making decisions.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and isn't legal or immigration advice. Visa eligibility, caps, and requirements change: confirm current rules with USCIS, the U.S. Department of State, or a licensed immigration attorney before making decisions.</p>
 HTML;
     }
 }

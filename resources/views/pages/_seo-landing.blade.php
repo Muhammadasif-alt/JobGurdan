@@ -757,11 +757,11 @@
 </section>
 
 @php
-    // Fallback only — every landing page supplies its own FAQ set, so this
+    // Fallback only: every landing page supplies its own FAQ set, so this
     // exists to keep the section from breaking if a new page forgets to.
     $faqs = $faqs ?? [
         ['q' => 'Is it free to apply for ' . strtolower($headline) . '?',
-         'a' => 'Yes. Applying is free, and you do not need an account — every listing links straight through to the employer or the original posting.'],
+         'a' => 'Yes. Applying is free, and you do not need an account: every listing links straight through to the employer or the original posting.'],
         ['q' => 'Should I ever pay a fee for a job or a visa?',
          'a' => 'No. Charging a worker for a job offer or for visa sponsorship is illegal in the US and the UK. Treat any upfront fee as a scam.'],
         ['q' => 'Which countries does JobGader cover?',
@@ -776,7 +776,7 @@
     <div class="container">
         <header class="seo-faq-head">
             <span class="eyebrow">Frequently Asked</span>
-            <h2 id="seo-faq-heading">{{ $headline }} — Common Questions</h2>
+            <h2 id="seo-faq-heading">{{ $headline }}: Common Questions</h2>
         </header>
         <div class="seo-faq-list">
             @foreach ($faqs as $idx => $faq)

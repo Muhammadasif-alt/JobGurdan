@@ -5,17 +5,17 @@
     $srPosLbl = $srPos !== '' ? ucwords($srPos) : '';
     $srLocLbl = $srLoc !== '' ? ucwords($srLoc) : '';
     if ($srPosLbl && $srLocLbl) {
-        $srTitle = "{$srPosLbl} Jobs in {$srLocLbl} — Search Results | JobGader";
-        $srDesc = "Find {$srPosLbl} jobs in {$srLocLbl} — with links to the employer or source. Free on JobGader.";
+        $srTitle = "{$srPosLbl} Jobs in {$srLocLbl}: Search Results | JobGader";
+        $srDesc = "Find {$srPosLbl} jobs in {$srLocLbl}, with links to the employer or source. Free on JobGader.";
     } elseif ($srPosLbl) {
-        $srTitle = "{$srPosLbl} Jobs — Search Results | JobGader";
+        $srTitle = "{$srPosLbl} Jobs: Search Results | JobGader";
         $srDesc = "Browse {$srPosLbl} job openings across the countries we cover. Apply on the employer site.";
     } elseif ($srLocLbl) {
-        $srTitle = "Jobs in {$srLocLbl} — Search Results | JobGader";
+        $srTitle = "Jobs in {$srLocLbl}: Search Results | JobGader";
         $srDesc = "Discover jobs in {$srLocLbl} across every industry. Apply free on JobGader.";
     } else {
         $srTitle = 'Job Search Results | JobGader';
-        $srDesc = 'Browse matched job results across the USA. Filter by category, location and salary — apply on the employer site.';
+        $srDesc = 'Browse matched job results across the USA. Filter by category, location and salary: apply on the employer site.';
     }
 
     /*

@@ -1,5 +1,5 @@
 @extends('user.layouts.master')
-@section('title', 'My Saved Jobs — JobGader')
+@section('title', 'My Saved Jobs: JobGader')
 @section('meta_description', 'Review and apply to jobs you have saved for later on JobGader.')
 
 @push('meta')

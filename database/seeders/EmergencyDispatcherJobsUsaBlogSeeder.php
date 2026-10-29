@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Emergency Dispatcher Jobs in USA" — a guide to 911 call-taker, telecommunicator
+ * "Emergency Dispatcher Jobs in USA": a guide to 911 call-taker, telecommunicator
  * and dispatcher work in US city and county emergency communications centers.
  * The Police Officer and Federal Police guides cover sworn officers and the
  * Customer Service guide covers private call centers, so this one stays on
@@ -166,7 +166,7 @@ class EmergencyDispatcherJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, hiring and training are set by each city, county or agency &mdash; not by JobGader. Read the official job announcement for the current requirements and deadline.</p>
+<p><strong>Note:</strong> pay, hiring and training are set by each city, county or agency, not by JobGader. Read the official job announcement for the current requirements and deadline.</p>
 JOBHTML;
     }
 
@@ -247,11 +247,11 @@ JOBHTML;
         </tr>
     </thead>
     <tbody>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">City of Houston &mdash; 9-1-1 Telecommunicator</td><td style="padding:10px;"><strong>$20.91&ndash;$23.23/hour</strong></td><td style="padding:10px;">Opened 5 Aug 2026, continuous</td></tr>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Los Angeles County Sheriff &mdash; Public Response Dispatcher I</td><td style="padding:10px;"><strong>$54,648&ndash;$73,644/year</strong></td><td style="padding:10px;">Filing from 10 Sep 2026, continuous</td></tr>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Los Angeles County Fire &mdash; Fire Dispatcher I</td><td style="padding:10px;"><strong>$54,648&ndash;$73,644/year</strong></td><td style="padding:10px;">2025 posting, filing closed</td></tr>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">NYPD &mdash; Police Communications Technician</td><td style="padding:10px;"><strong>$51,790 minimum/year</strong></td><td style="padding:10px;">Exam 6329, applications closed 17 Jul 2026</td></tr>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Denver 9-1-1 &mdash; Call Taker</td><td style="padding:10px;"><strong>$29.00/hour</strong></td><td style="padding:10px;">June 2026 academy</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">City of Houston: 9-1-1 Telecommunicator</td><td style="padding:10px;"><strong>$20.91&ndash;$23.23/hour</strong></td><td style="padding:10px;">Opened 5 Aug 2026, continuous</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Los Angeles County Sheriff: Public Response Dispatcher I</td><td style="padding:10px;"><strong>$54,648&ndash;$73,644/year</strong></td><td style="padding:10px;">Filing from 10 Sep 2026, continuous</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Los Angeles County Fire: Fire Dispatcher I</td><td style="padding:10px;"><strong>$54,648&ndash;$73,644/year</strong></td><td style="padding:10px;">2025 posting, filing closed</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">NYPD: Police Communications Technician</td><td style="padding:10px;"><strong>$51,790 minimum/year</strong></td><td style="padding:10px;">Exam 6329, applications closed 17 Jul 2026</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;">Denver 9-1-1: Call Taker</td><td style="padding:10px;"><strong>$29.00/hour</strong></td><td style="padding:10px;">June 2026 academy</td></tr>
     </tbody>
 </table>
 <p style="font-size:13px;color:#6b7280;margin-top:8px;">BLS Occupational Outlook Handbook and OEWS, May 2025; official City of Houston, Los Angeles County, NYC DCAS and Denver job postings, checked September 2026. Pay changes, so check the live announcement.</p>
@@ -310,19 +310,19 @@ JOBHTML;
 
 <p>Most 911 centers are run by cities and counties, so hiring happens on government career sites rather than through recruiters.</p>
 
-<h3>1. City of Houston &mdash; 9-1-1 Telecommunicator</h3>
+<h3>1. City of Houston: 9-1-1 Telecommunicator</h3>
 <p>The Houston Emergency Center answers 911 calls for police, fire and EMS, decides the nature and priority of each emergency and transfers calls to the right agency. The 2026 posting pays <strong>$20.91&ndash;$23.23 an hour</strong>, is full time and accepts applications from all interested persons. Apply at <a href="https://www.governmentjobs.com/careers/houston" target="_blank" rel="noopener">City of Houston jobs</a>.</p>
 
-<h3>2. New York City Police Department &mdash; Police Communications Technician</h3>
+<h3>2. New York City Police Department: Police Communications Technician</h3>
 <p>NYPD Police Communications Technicians are 911 call takers and radio dispatchers, and they review photos, videos and audio sent through Text to 911. Hiring runs through civil service exam 6329: applications (fee $68) closed on 17 July 2026, and testing began on 8 September 2026. City residency is not required. Watch for the next exam on <a href="https://www.nyc.gov/examsforjobs" target="_blank" rel="noopener">NYC Exams for Jobs</a> and the <a href="https://www.nyc.gov/site/nypd/careers/civilians/police-communications-technicians.page" target="_blank" rel="noopener">NYPD careers page</a>.</p>
 
-<h3>3. Los Angeles County &mdash; Sheriff and Fire Dispatchers</h3>
+<h3>3. Los Angeles County: Sheriff and Fire Dispatchers</h3>
 <p>The Sheriff's Department is filling <strong>Public Response Dispatcher I</strong> jobs at <strong>$54,648&ndash;$73,644</strong>, with filing open from 10 September 2026 until enough candidates apply. The Fire Department's <strong>Fire Dispatcher I</strong> exam, at the same pay, last opened in 2025 and capped filing at the first 1,000 applications. Fire Dispatcher II is a promotion open only to County Fire employees with a year as Fire Dispatcher I. Search <a href="https://www.governmentjobs.com/careers/lacounty" target="_blank" rel="noopener">Los Angeles County jobs</a>.</p>
 
-<h3>4. Seattle CARE Department &mdash; 911 Communications Center</h3>
+<h3>4. Seattle CARE Department: 911 Communications Center</h3>
 <p>Seattle's Community Assisted Response and Engagement (CARE) Department runs the city's 911 Communications Center. It answers 911 calls, texts to 911 and the non-emergency line, and sends police, firefighters, medics and Community Crisis Responders. Its call takers can translate nearly 300 languages. In 2025 the center handled <strong>675,801 emergency calls</strong> (1,852 a day) and <strong>176,573 non-emergency calls</strong>, and answered <strong>94.14% of 911 calls in under 15 seconds</strong>, against a national standard of 90%. See <a href="https://www.seattle.gov/care/jobs" target="_blank" rel="noopener">Seattle CARE jobs</a>.</p>
 
-<h3>5. City and County of Denver &mdash; Denver 9-1-1</h3>
+<h3>5. City and County of Denver: Denver 9-1-1</h3>
 <p>Denver 9-1-1 works with Denver Police, Denver Fire and Denver Health Paramedics. It trains new call takers in academy classes; the June 2026 academy paid <strong>$29.00 an hour</strong>. Experienced dispatchers can apply for police dispatcher jobs. Check <a href="https://denver.wd1.myworkdayjobs.com/CCD-denver-department-of-safety" target="_blank" rel="noopener">Denver Department of Safety jobs</a> for the next academy.</p>
 
 <figure style="margin:32px 0;">
@@ -406,13 +406,13 @@ JOBHTML;
 <p>Comparing public safety and phone-based careers? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a> &mdash; the sworn officer route in state and local departments.</li>
-    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a> &mdash; FBI, CBP, ICE and US Marshals jobs and their pay.</li>
-    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; the phone experience many 911 centers ask for.</li>
-    <li><a href="/blog/government-security-jobs-in-australia">Government Security Jobs in Australia</a> &mdash; public safety and security careers in Australia.</li>
-    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a> &mdash; another public safety career.</li>
-    <li><a href="/blog/law-enforcement-jobs-in-usa">Law Enforcement Jobs in USA</a> &mdash; patrol, detective, transit, game warden and federal paths compared, with BLS pay and NYPD, FBI and DEA entry rules.</li>
-    <li><a href="/blog/public-safety-jobs-in-canada">Public Safety Jobs in Canada</a> &mdash; CBSA border officer pay and rules, RCMP and CSC requirements, emergency management jobs and who can apply.</li>
+    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a>: the sworn officer route in state and local departments.</li>
+    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a>: FBI, CBP, ICE and US Marshals jobs and their pay.</li>
+    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a>: the phone experience many 911 centers ask for.</li>
+    <li><a href="/blog/government-security-jobs-in-australia">Government Security Jobs in Australia</a>: public safety and security careers in Australia.</li>
+    <li><a href="/blog/how-to-become-a-correctional-officer-in-canada">How to Become a Correctional Officer in Canada</a>: another public safety career.</li>
+    <li><a href="/blog/law-enforcement-jobs-in-usa">Law Enforcement Jobs in USA</a>: patrol, detective, transit, game warden and federal paths compared, with BLS pay and NYPD, FBI and DEA entry rules.</li>
+    <li><a href="/blog/public-safety-jobs-in-canada">Public Safety Jobs in Canada</a>: CBSA border officer pay and rules, RCMP and CSC requirements, emergency management jobs and who can apply.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Pay, requirements, exams and application dates change and differ by city, county and agency. Always read the current official job announcement before applying.</p>

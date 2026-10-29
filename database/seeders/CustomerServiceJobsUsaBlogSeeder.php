@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Customer Service Jobs in USA" — the US market guide for customer service
+ * "Customer Service Jobs in USA": the US market guide for customer service
  * representatives, priced from BLS and scoped apart from the remote customer
  * service guide (which is Pakistan-facing) and the help desk guide (which owns
  * technical support).
@@ -159,14 +159,14 @@ class CustomerServiceJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Ask whether the role is on-site, hybrid or fully remote,</strong> what the performance metrics are, and whether pay includes bonuses tied to satisfaction scores.</p>
 
-<p><strong>Note:</strong> pay, schedules and metrics are set by employers &mdash; not by JobGader. Confirm the details with the employer before applying.</p>
+<p><strong>Note:</strong> pay, schedules and metrics are set by employers, not by JobGader. Confirm the details with the employer before applying.</p>
 JOBHTML;
     }
 
     private function postBody(): string
     {
         return <<<'HTML'
-<p>Customer service is one of the easiest fields to enter in the United States: nearly every industry hires for it, most roles ask only for a high school diploma, and remote openings are common. But the market is not quite what the job ads promise. Before you apply, it helps to know what these jobs really pay, why the number of them is projected to fall even as openings stay high, and where "technical support" and "customer success" sit &mdash; because they are not the same job.</p>
+<p>Customer service is one of the easiest fields to enter in the United States: nearly every industry hires for it, most roles ask only for a high school diploma, and remote openings are common. But the market is not quite what the job ads promise. Before you apply, it helps to know what these jobs really pay, why the number of them is projected to fall even as openings stay high, and where "technical support" and "customer success" sit, because they are not the same job.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/customer-support-admin?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -214,11 +214,11 @@ JOBHTML;
 </table>
 </div>
 
-<p>The common guide bands &mdash; roughly $30,000 to $38,000 at entry, $38,000 to $48,000 with experience, and $48,000 upward for senior roles &mdash; track this distribution well. The one thing to note: <strong>"$65,000 and up" is above the 90th percentile</strong> for customer service reps, so only the very top of the field reaches it in this occupation.</p>
+<p>The common guide bands, roughly $30,000 to $38,000 at entry, $38,000 to $48,000 with experience, and $48,000 upward for senior roles, track this distribution well. The one thing to note: <strong>"$65,000 and up" is above the 90th percentile</strong> for customer service reps, so only the very top of the field reaches it in this occupation.</p>
 
 <h2>"Technical Support" Is a Different, Better-Paid Job</h2>
 
-<p>Guides often list "technical support specialist" alongside general reps in the same pay band. BLS does not. IT help desk work is a separate occupation, <strong>computer user support specialists (SOC 15-1232)</strong>, with a May 2025 <strong>median of $61,860</strong> &mdash; the lowest-paid tenth still earned under $40,980, and the top tenth over $100,540. If you can support software, hardware or networks, that is a materially higher-paid path than general customer service, and it is worth pursuing as its own career. Our <a href="/blog/help-desk-technician-jobs-in-usa">help desk technician guide</a> covers it in detail.</p>
+<p>Guides often list "technical support specialist" alongside general reps in the same pay band. BLS does not. IT help desk work is a separate occupation, <strong>computer user support specialists (SOC 15-1232)</strong>, with a May 2025 <strong>median of $61,860</strong>: the lowest-paid tenth still earned under $40,980, and the top tenth over $100,540. If you can support software, hardware or networks, that is a materially higher-paid path than general customer service, and it is worth pursuing as its own career. Our <a href="/blog/help-desk-technician-jobs-in-usa">help desk technician guide</a> covers it in detail.</p>
 
 <h2>The Outlook: Openings Are High, but Employment Is Shrinking</h2>
 
@@ -226,10 +226,10 @@ JOBHTML;
 
 <ul>
     <li><strong>Employment is projected to fall 5 per cent from 2025 to 2035</strong>, a loss of about <strong>141,800 jobs</strong>, as chatbots, self-service tools and automation absorb routine contacts.</li>
-    <li><strong>About 289,500 openings are still projected each year</strong>, on average, over the decade &mdash; almost all from people leaving the occupation rather than new positions being created.</li>
+    <li><strong>About 289,500 openings are still projected each year</strong>, on average, over the decade: almost all from people leaving the occupation rather than new positions being created.</li>
 </ul>
 
-<p>For a job seeker that is good news in the short term: there is always hiring. But it means the work at the routine end is under pressure, and the reps who stay employed are increasingly the ones handling the harder cases a bot cannot &mdash; another reason to build toward technical support, a specialism or a team-lead role.</p>
+<p>For a job seeker that is good news in the short term: there is always hiring. But it means the work at the routine end is under pressure, and the reps who stay employed are increasingly the ones handling the harder cases a bot cannot: another reason to build toward technical support, a specialism or a team-lead role.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/customer-service-jobs-in-usa-team.jpg"
@@ -244,7 +244,7 @@ JOBHTML;
     <li><strong>Live chat and email support.</strong> Written support, often several conversations at once, screened on typing speed and clarity.</li>
     <li><strong>Retail customer service associate.</strong> In-person help, transactions and returns on a shop floor.</li>
     <li><strong>Technical support.</strong> Product or IT support; where it means help desk work, it is the higher-paid 15-1232 occupation above.</li>
-    <li><strong>Remote customer service representative.</strong> Home-based roles, common but often advertised interchangeably with hybrid ones &mdash; confirm which before you accept.</li>
+    <li><strong>Remote customer service representative.</strong> Home-based roles, common but often advertised interchangeably with hybrid ones: confirm which before you accept.</li>
     <li><strong>Customer success representative.</strong> A relationship and retention role common at B2B and SaaS companies. Note this is an <strong>industry job title, not a BLS occupation</strong>, so it has no official wage; pay varies widely and overlaps with sales and account management.</li>
 </ul>
 
@@ -294,7 +294,7 @@ JOBHTML;
 
 <h2>Career Progression</h2>
 
-<p>Customer service has a clear ladder. With experience, reps move into senior rep or team lead roles, then supervisor or manager, customer success manager, training and quality assurance, or operations and call center management. Many people in sales, HR and operations began in customer service. Because employment in the base role is projected to shrink, moving up &mdash; or across into technical support &mdash; is the way to keep earnings rising rather than staying at the routine end.</p>
+<p>Customer service has a clear ladder. With experience, reps move into senior rep or team lead roles, then supervisor or manager, customer success manager, training and quality assurance, or operations and call center management. Many people in sales, HR and operations began in customer service. Because employment in the base role is projected to shrink, moving up, or across into technical support, is the way to keep earnings rising rather than staying at the routine end.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -308,7 +308,7 @@ JOBHTML;
 <p>No. BLS projects employment of customer service representatives to fall 5 per cent from 2025 to 2035, a loss of about 141,800 jobs. About 289,500 openings a year are still projected, but they come mainly from turnover.</p>
 
 <h3>Is technical support the same as customer service?</h3>
-<p>Not in the pay data. IT help desk work is a separate BLS occupation, computer user support specialists, with a May 2025 median of $61,860 &mdash; well above the customer service median.</p>
+<p>Not in the pay data. IT help desk work is a separate BLS occupation, computer user support specialists, with a May 2025 median of $61,860: well above the customer service median.</p>
 
 <h3>What is a customer success manager?</h3>
 <p>It is a relationship and retention role common at software and B2B companies. It is an industry job title rather than a BLS occupation, so it has no official wage; pay varies and overlaps with sales and account management.</p>
@@ -331,7 +331,7 @@ JOBHTML;
 <p>Open with a high school diploma and short-term training; the lowest tenth start around $31,750.</p>
 
 <h3>Remote customer service jobs</h3>
-<p>Common, but often advertised interchangeably with hybrid roles &mdash; confirm which before accepting.</p>
+<p>Common, but often advertised interchangeably with hybrid roles: confirm which before accepting.</p>
 
 <h3>Call center jobs</h3>
 <p>High-volume phone support, frequently with evening, weekend and holiday shift differentials.</p>
@@ -353,20 +353,20 @@ JOBHTML;
 <p>Looking at nearby entry-level and support work? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a> &mdash; the higher-paid technical support route, in detail.</li>
-    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a> &mdash; how remote support hiring and shifts really work.</li>
-    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; the same customer skills on a shop floor, priced by state.</li>
-    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a> &mdash; the wider US remote market and what it pays.</li>
-    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; the office-support alternative and its pay.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; the Canadian market, priced by provincial minimum wage.</li>
-    <li><a href="/blog/call-center-jobs-in-pakistan">Call Center Jobs in Pakistan</a> &mdash; inbound vs outbound, real pay by city, and how to avoid scams.</li>
-    <li><a href="/blog/how-to-get-a-remote-customer-service-job-with-no-experience">How to Get a Remote Customer Service Job With No Experience</a> &mdash; what US remote employers really ask for, official pay data and the scams aimed at beginners.</li>
-    <li><a href="/blog/emergency-dispatcher-jobs-in-usa">Emergency Dispatcher Jobs in USA</a> &mdash; 911 telecommunicator pay, experience rules, typing and CritiCall tests, and 2026 openings in Houston, NYC and LA County.</li>
-    <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a> &mdash; what the BLS really measures, the pay spread and the titles Salesforce, HubSpot and Adobe use.</li>
-    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a> &mdash; the real BLS medians and why this group of occupations is shrinking.</li>
-    <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a> &mdash; what a large British bank pays for the same work, benchmarked against the UK median.</li>
-    <li><a href="/blog/how-to-apply-for-starbucks-barista-jobs-in-the-usa">How to Apply for Starbucks Barista Jobs in the USA</a> &mdash; the hours threshold that decides whether the benefits are yours.</li>
-    <li><a href="/blog/how-to-apply-for-marriott-hotel-jobs-in-the-usa">How to Apply for Marriott Hotel Jobs in the USA</a> &mdash; why most Marriott hotels are not run by Marriott, and what that changes.</li>
+    <li><a href="/blog/help-desk-technician-jobs-in-usa">Help Desk Technician Jobs in USA</a>: the higher-paid technical support route, in detail.</li>
+    <li><a href="/blog/remote-customer-service-jobs">Remote Customer Service Jobs</a>: how remote support hiring and shifts really work.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a>: the same customer skills on a shop floor, priced by state.</li>
+    <li><a href="/blog/work-from-home-jobs-in-usa">Work From Home Jobs in USA</a>: the wider US remote market and what it pays.</li>
+    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a>: the office-support alternative and its pay.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: the Canadian market, priced by provincial minimum wage.</li>
+    <li><a href="/blog/call-center-jobs-in-pakistan">Call Center Jobs in Pakistan</a>: inbound vs outbound, real pay by city, and how to avoid scams.</li>
+    <li><a href="/blog/how-to-get-a-remote-customer-service-job-with-no-experience">How to Get a Remote Customer Service Job With No Experience</a>: what US remote employers really ask for, official pay data and the scams aimed at beginners.</li>
+    <li><a href="/blog/emergency-dispatcher-jobs-in-usa">Emergency Dispatcher Jobs in USA</a>: 911 telecommunicator pay, experience rules, typing and CritiCall tests, and 2026 openings in Houston, NYC and LA County.</li>
+    <li><a href="/blog/account-manager-jobs-in-usa">Account Manager Jobs in USA</a>: what the BLS really measures, the pay spread and the titles Salesforce, HubSpot and Adobe use.</li>
+    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a>: the real BLS medians and why this group of occupations is shrinking.</li>
+    <li><a href="/blog/how-to-apply-for-barclays-customer-service-jobs-in-the-uk">How to Apply for Barclays Customer Service Jobs in the UK</a>: what a large British bank pays for the same work, benchmarked against the UK median.</li>
+    <li><a href="/blog/how-to-apply-for-starbucks-barista-jobs-in-the-usa">How to Apply for Starbucks Barista Jobs in the USA</a>: the hours threshold that decides whether the benefits are yours.</li>
+    <li><a href="/blog/how-to-apply-for-marriott-hotel-jobs-in-the-usa">How to Apply for Marriott Hotel Jobs in the USA</a>: why most Marriott hotels are not run by Marriott, and what that changes.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not careers advice. Wage data and employment projections come from the U.S. Bureau of Labor Statistics and change with each release. Confirm current pay, schedules and metrics with employers before applying.</p>

@@ -147,7 +147,7 @@ HTML;
 
 <blockquote><p>"Any measure, combination of measures, or procedure used as a basis for any employment decision. Selection procedures include the full range of assessment techniques from traditional paper and pencil tests, performance tests, training programs, or probationary periods and physical, educational, and work experience requirements through informal or casual interviews and unscored application forms."</p></blockquote>
 
-<p>Read the second sentence twice. <strong>Performance tests</strong> are named, which is what a coding exercise is. So are <strong>probationary periods</strong>, <strong>work experience requirements</strong>, and &mdash; the part that surprises people &mdash; <strong>informal or casual interviews and unscored application forms</strong>.</p>
+<p>Read the second sentence twice. <strong>Performance tests</strong> are named, which is what a coding exercise is. So are <strong>probationary periods</strong>, <strong>work experience requirements</strong>, and, the part that surprises people, <strong>informal or casual interviews and unscored application forms</strong>.</p>
 
 <p>That matters because of a widespread belief that a company reduces its legal exposure by keeping the process casual: no scoring, no rubric, just a chat and a gut call. The opposite is closer to the truth. An unstructured chat is a selection procedure exactly as a scored test is, and it is considerably harder to defend as job related, because there is no record of what was measured.</p>
 
@@ -183,7 +183,7 @@ HTML;
 
 <blockquote><p>"This '4/5ths' or '80%' rule of thumb is not intended as a legal definition, but is a practical means of keeping the attention of the enforcement agencies on serious discrepancies in rates of hiring, promotion and other selection decisions."</p></blockquote>
 
-<p>And, in the same document: <strong>"The 4/5ths rule of thumb speaks only to the question of adverse impact, and is not intended to resolve the ultimate question of unlawful discrimination."</strong> Section 1607.4(D) says as much itself &mdash; smaller differences can still constitute adverse impact where they are significant "in both statistical and practical terms".</p>
+<p>And, in the same document: <strong>"The 4/5ths rule of thumb speaks only to the question of adverse impact, and is not intended to resolve the ultimate question of unlawful discrimination."</strong> Section 1607.4(D) says as much itself: smaller differences can still constitute adverse impact where they are significant "in both statistical and practical terms".</p>
 
 <p>There is also a preference in the regulation that hiring teams rarely know about, at section 1607.3(B): where two procedures are available which serve the employer's interest and are "substantially equally valid for a given purpose", the employer "should use the procedure which has been demonstrated to have the lesser adverse impact". A realistic take-home and a whiteboard puzzle that predicts the same thing are not equivalent under that sentence.</p>
 
@@ -211,10 +211,10 @@ HTML;
     <li><strong>You do have to ask.</strong> "Generally, the individual with a disability must inform the employer that an accommodation is needed." The employer is not required to guess.</li>
     <li><strong>Plain language is enough.</strong> An individual "may use 'plain English' and need not mention the ADA or use the phrase 'reasonable accommodation'".</li>
     <li><strong>It does not have to be in writing.</strong> "Requests for reasonable accommodation do not need to be in writing."</li>
-    <li><strong>Timing is open.</strong> A request may be made "at any time during the application process or during the period of employment" &mdash; and the appendix to Part 1630 covers the case where you only realise mid-test, in which case you must tell them "upon becoming aware of the need".</li>
+    <li><strong>Timing is open.</strong> A request may be made "at any time during the application process or during the period of employment", and the appendix to Part 1630 covers the case where you only realise mid-test, in which case you must tell them "upon becoming aware of the need".</li>
 </ul>
 
-<p>The guidance also states the employer's side, which is the sentence worth quoting back if a request is treated as an odd one: an employer "must provide a reasonable accommodation to a qualified applicant with a disability that will enable the individual to have an equal opportunity to participate in the application process and to be considered for a job", short of undue hardship. Employers are expressly permitted to ask about it up front, too &mdash; they "may tell applicants what the hiring process involves (e.g., an interview, timed written test, or job demonstration), and may ask applicants whether they will need a reasonable accommodation for this process".</p>
+<p>The guidance also states the employer's side, which is the sentence worth quoting back if a request is treated as an odd one: an employer "must provide a reasonable accommodation to a qualified applicant with a disability that will enable the individual to have an equal opportunity to participate in the application process and to be considered for a job", short of undue hardship. Employers are expressly permitted to ask about it up front, too: they "may tell applicants what the hiring process involves (e.g. an interview, timed written test, or job demonstration), and may ask applicants whether they will need a reasonable accommodation for this process".</p>
 
 <p>The guidance's own illustration of getting this wrong is blunt: an employer that cancelled an interview rather than provide a sign language interpreter "has violated the ADA".</p>
 
@@ -232,13 +232,13 @@ HTML;
 
 <p>That is a definition about employees, and an applicant is generally not yet one. But it is the reason the line moves when an assignment stops looking like an assessment and starts looking like delivery. A four-hour exercise against a synthetic brief is an assessment. Building a working feature against the company's real backlog, to be merged, is the thing that definition was written about.</p>
 
-<p>The nearest official test for an unpaid work-like arrangement at a for-profit employer is the <strong>seven-factor "primary beneficiary" test</strong> in Fact Sheet #71 &mdash; but be careful with it, because it was written for interns and students, and three of its seven factors are about formal education programmes, academic credit and the academic calendar. Those do not map onto a take-home given to an experienced candidate. Its first factor does, though, and it is the useful one: "The extent to which the intern and the employer clearly understand that there is no expectation of compensation. Any promise of compensation, express or implied, suggests that the intern is an employee."</p>
+<p>The nearest official test for an unpaid work-like arrangement at a for-profit employer is the <strong>seven-factor "primary beneficiary" test</strong> in Fact Sheet #71, but be careful with it, because it was written for interns and students, and three of its seven factors are about formal education programmes, academic credit and the academic calendar. Those do not map onto a take-home given to an experienced candidate. Its first factor does, though, and it is the useful one: "The extent to which the intern and the employer clearly understand that there is no expectation of compensation. Any promise of compensation, express or implied, suggests that the intern is an employee."</p>
 
 <p>One historical note, since out-of-date versions circulate: the Department of Labor formally rescinded its previous six-factor internship test in <strong>January 2018</strong>, in Field Assistance Bulletin 2018-2, and adopted the courts' primary beneficiary test instead. If a guide quotes six factors, it is eight years stale.</p>
 
 <h3>The practical position</h3>
 <ul>
-    <li><strong>Scope, not principle, is the argument to have.</strong> "Is this paid?" invites a no. "This looks like about twelve hours &mdash; would a four-hour version answer the same question?" is a scoping conversation, and a reasonable employer will take it.</li>
+    <li><strong>Scope, not principle, is the argument to have.</strong> "Is this paid?" invites a no. "This looks like about twelve hours: would a four-hour version answer the same question?" is a scoping conversation, and a reasonable employer will take it.</li>
     <li><strong>Ask what happens to the work.</strong> If the output ships, you are not being assessed, you are delivering. That is a fair thing to say out loud.</li>
     <li><strong>Ask what is being measured and how.</strong> An employer who can answer has a job-related procedure. One who cannot has a vibe check, and you have learned something either way.</li>
     <li><strong>Get the time limit in writing before you start.</strong> It is the thing most often left vague and most often disputed afterwards.</li>
@@ -310,32 +310,32 @@ HTML;
 <h2>Related career guides</h2>
 
 <ul>
-    <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a> &mdash; what the work pays, the outlook on the current projection round, and the two skills that are measurable.</li>
-    <li><a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">How to Apply for Developer Jobs in the USA</a> &mdash; the rest of the process, from the vacancy announcement to the background check and the I-9.</li>
-    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a> &mdash; what to build before you are assessed, and how to read a junior advert.</li>
-    <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a> &mdash; what the word remote hides on a US advert, including where you owe tax.</li>
-    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a> &mdash; the staffing and consulting layer, and the pay rules that apply inside it.</li>
-    <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a> &mdash; the levelled enterprise ladder, and how equity and bonus are taxed.</li>
-    <li><a href="/blog/react-developer-internship-jobs-in-usa">React Developer Internship Jobs in USA</a> &mdash; the student route, and whether an internship has to be paid.</li>
-    <li><a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React Developer Jobs in USA</a> &mdash; the fundamentals round, and the two standards its questions are drawn from.</li>
-    <li><a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript Developer Jobs in USA</a> &mdash; what the type system round tests, and what types do not do at runtime.</li>
-    <li><a href="/blog/react-front-end-engineer-jobs-in-usa">React Front End Engineer Jobs in USA</a> &mdash; the levelled ladder, and which states require the band in the advert.</li>
-    <li><a href="/blog/full-stack-react-developer-jobs-in-usa">Full Stack React Developer Jobs in USA</a> &mdash; the backend half, and the security questions a senior round is really asking.</li>
-    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a> &mdash; senior processes add architecture and system design, and the grade changes your overtime status.</li>
-    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the BLS occupation front end work is counted in, in full.</li>
+    <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a>: what the work pays, the outlook on the current projection round, and the two skills that are measurable.</li>
+    <li><a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">How to Apply for Developer Jobs in the USA</a>: the rest of the process, from the vacancy announcement to the background check and the I-9.</li>
+    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a>: what to build before you are assessed, and how to read a junior advert.</li>
+    <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a>: what the word remote hides on a US advert, including where you owe tax.</li>
+    <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a>: the staffing and consulting layer, and the pay rules that apply inside it.</li>
+    <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a>: the levelled enterprise ladder, and how equity and bonus are taxed.</li>
+    <li><a href="/blog/react-developer-internship-jobs-in-usa">React Developer Internship Jobs in USA</a>: the student route, and whether an internship has to be paid.</li>
+    <li><a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React Developer Jobs in USA</a>: the fundamentals round, and the two standards its questions are drawn from.</li>
+    <li><a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript Developer Jobs in USA</a>: what the type system round tests, and what types do not do at runtime.</li>
+    <li><a href="/blog/react-front-end-engineer-jobs-in-usa">React Front End Engineer Jobs in USA</a>: the levelled ladder, and which states require the band in the advert.</li>
+    <li><a href="/blog/full-stack-react-developer-jobs-in-usa">Full Stack React Developer Jobs in USA</a>: the backend half, and the security questions a senior round is really asking.</li>
+    <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a>: senior processes add architecture and system design, and the grade changes your overtime status.</li>
+    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a>: the BLS occupation front end work is counted in, in full.</li>
 </ul>
 
 <h2>Official sources</h2>
 
 <ul>
-    <li>Uniform Guidelines on Employee Selection Procedures, 29 CFR Part 1607 &mdash; sections 1607.3, 1607.4(D) and 1607.16(Q), 2025 edition of the Code of Federal Regulations.</li>
-    <li>Equal Employment Opportunity Commission &mdash; "Employment Tests and Selection Procedures", and the questions and answers interpreting the Uniform Guidelines.</li>
-    <li>Equal Employment Opportunity Commission &mdash; Enforcement Guidance on Reasonable Accommodation and Undue Hardship under the ADA.</li>
+    <li>Uniform Guidelines on Employee Selection Procedures, 29 CFR Part 1607: sections 1607.3, 1607.4(D) and 1607.16(Q), 2025 edition of the Code of Federal Regulations.</li>
+    <li>Equal Employment Opportunity Commission: "Employment Tests and Selection Procedures", and the questions and answers interpreting the Uniform Guidelines.</li>
+    <li>Equal Employment Opportunity Commission: Enforcement Guidance on Reasonable Accommodation and Undue Hardship under the ADA.</li>
     <li>ADA regulations, 29 CFR 1630.9 and 1630.11 with the interpretive appendix to Part 1630.</li>
-    <li>Department of Labor, Wage and Hour Division &mdash; Fact Sheet #22 (Hours Worked), Fact Sheet #71 (Internship Programs) and Field Assistance Bulletin 2018-2.</li>
+    <li>Department of Labor, Wage and Hour Division: Fact Sheet #22 (Hours Worked), Fact Sheet #71 (Internship Programs) and Field Assistance Bulletin 2018-2.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Regulations, enforcement guidance and wage data change, and an individual situation can turn on facts this page cannot know &mdash; confirm the current position with the EEOC, the Department of Labor and the employer's own process before relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal advice. Regulations, enforcement guidance and wage data change, and an individual situation can turn on facts this page cannot know: confirm the current position with the EEOC, the Department of Labor and the employer's own process before relying on any of it.</p>
 HTML;
     }
 }

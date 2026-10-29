@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Bus Driver Jobs in Canada" — transit, school bus, coach and paratransit
+ * "Bus Driver Jobs in Canada": transit, school bus, coach and paratransit
  * driving. The welder guide covers the skilled trades route into Canada and
  * the delivery and Saudi driver guides cover goods and sponsored driving, so
  * this one owns Canadian bus licence classes, Job Bank pay by province and
@@ -147,7 +147,7 @@ class BusDriverJobsCanadaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li><strong>The right licence class for the bus</strong> &mdash; Class 2 or 4 in most provinces, Class B, C, E or F in Ontario and Class 2 or 4B in Quebec, often gained through employer training</li>
+    <li><strong>The right licence class for the bus</strong>: Class 2 or 4 in most provinces, Class B, C, E or F in Ontario and Class 2 or 4B in Quebec, often gained through employer training</li>
     <li>A clean driving record, a medical report and a criminal record check, with a vulnerable sector check for many school routes</li>
     <li>The right to work in Canada, or an employer able to obtain an LMIA for the position</li>
 </ul>
@@ -161,7 +161,7 @@ class BusDriverJobsCanadaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Never pay for a job offer or an LMIA.</strong> The employer pays the $1,000 LMIA fee, and it cannot be recovered from the worker.</p>
 
-<p><strong>Note:</strong> wages, licence rules and immigration eligibility are set by employers, provincial licensing authorities and the Government of Canada &mdash; not by JobGader. Confirm the details with the employer and your province's licensing office before applying.</p>
+<p><strong>Note:</strong> wages, licence rules and immigration eligibility are set by employers, provincial licensing authorities and the Government of Canada, not by JobGader. Confirm the details with the employer and your province's licensing office before applying.</p>
 JOBHTML;
     }
 
@@ -183,10 +183,10 @@ JOBHTML;
 <h3>Ontario: Classes B, C, E and F</h3>
 
 <ul>
-    <li><strong>Class B</strong> &mdash; a school bus with seating for more than 24 passengers</li>
-    <li><strong>Class C</strong> &mdash; a regular, non-school bus with seating for more than 24 passengers</li>
-    <li><strong>Class E</strong> &mdash; a school bus with seating for up to 24 passengers</li>
-    <li><strong>Class F</strong> &mdash; a regular bus with seating for up to 24 passengers, including a 15-passenger van and an ambulance</li>
+    <li><strong>Class B</strong>: a school bus with seating for more than 24 passengers</li>
+    <li><strong>Class C</strong>: a regular, non-school bus with seating for more than 24 passengers</li>
+    <li><strong>Class E</strong>: a school bus with seating for up to 24 passengers</li>
+    <li><strong>Class F</strong>: a regular bus with seating for up to 24 passengers, including a 15-passenger van and an ambulance</li>
 </ul>
 
 <p>You must be <strong>at least 21</strong> for a school bus licence (B or E) and at least 18 for C or F, and already hold a full licence rather than a G1 or G2. Every applicant passes a vision test and a road test, submits a medical report and needs a <strong>criminal record and judicial matters (CRJM) check</strong>. School bus drivers must also complete a government-approved <strong>School Bus Driver Improvement Course</strong> of at least 6.25 hours, and its certificate is valid for 5 years. A bus with air brakes needs a <strong>Z endorsement</strong>.</p>
@@ -292,7 +292,7 @@ JOBHTML;
 
 <ul>
     <li><strong>Express Entry programs.</strong> Bus drivers (NOC 73301, TEER 3) are in NOC Major Group 73, which the Federal Skilled Trades Program accepts, and Canadian experience in the job counts toward the Canadian Experience Class. A job offer no longer adds points since 25 March 2025.</li>
-    <li><strong>No 2026 category for bus drivers.</strong> The Transport category that returned in 2026 covers pilots, aircraft mechanics and inspectors, avionics technicians, and automotive service technicians and truck and bus mechanics &mdash; not drivers.</li>
+    <li><strong>No 2026 category for bus drivers.</strong> The Transport category that returned in 2026 covers pilots, aircraft mechanics and inspectors, avionics technicians, and automotive service technicians and truck and bus mechanics, not drivers.</li>
     <li><strong>Ontario.</strong> The Workforce Priority stream accepts bus driver job offers but requires at least 6 months of consecutive paid experience, and Ontario has named NOC 73301 in regional Employer Job Offer draws in 2026.</li>
     <li><strong>Atlantic Canada.</strong> The Atlantic Immigration Program accepts TEER 3 job offers of at least a year, and Job Bank rates the outlook Good in three of the four Atlantic provinces.</li>
 </ul>
@@ -360,20 +360,20 @@ JOBHTML;
 <p>Comparing driving jobs and routes into Canada? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a> &mdash; a skilled trade route into Canada, and why most welder LMIAs are low-wage too.</li>
-    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a> &mdash; the seasonal agricultural route, and how its LMIA works.</li>
-    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a> &mdash; another Canadian job with no degree needed, priced by the provincial minimum wage.</li>
-    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a> &mdash; commercial driving south of the border, and what a CDL takes.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a> &mdash; driving work where app pay counts only engaged time.</li>
-    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a> &mdash; courier driving in Britain, and the insurance class new drivers miss.</li>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; sponsored driving work in the Gulf.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; the LMIA and its 2026 limits across every sector.</li>
+    <li><a href="/blog/welder-jobs-in-canada">Welder Jobs in Canada</a>: a skilled trade route into Canada, and why most welder LMIAs are low-wage too.</li>
+    <li><a href="/blog/farm-worker-jobs-in-canada">Farm Worker Jobs in Canada</a>: the seasonal agricultural route, and how its LMIA works.</li>
+    <li><a href="/blog/customer-service-jobs-in-canada">Customer Service Jobs in Canada</a>: another Canadian job with no degree needed, priced by the provincial minimum wage.</li>
+    <li><a href="/blog/truck-driver-jobs-in-usa-with-visa-sponsorship">Truck Driver Jobs in USA with Visa Sponsorship</a>: commercial driving south of the border, and what a CDL takes.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-usa">Delivery Driver Jobs in USA</a>: driving work where app pay counts only engaged time.</li>
+    <li><a href="/blog/delivery-driver-jobs-in-uk">Delivery Driver Jobs in UK</a>: courier driving in Britain, and the insurance class new drivers miss.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: sponsored driving work in the Gulf.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: the LMIA and its 2026 limits across every sector.</li>
     <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a></li>
-    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; the licence classes, the hours limits and what American commercial driving really pays.</li>
-    <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a> &mdash; machine work paid from a $32.50 median, with a seasonal year.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; what changed in 2026, which sectors hire, and how the LMIA and scams work.</li>
-    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a> &mdash; the permit, ELDT training, the 14-day rule and what the first year pays.</li>
-    <li><a href="/blog/how-to-get-a-fleet-driver-job-in-canada">How to Get a Fleet Driver Job in Canada</a> &mdash; AZ and Class 1 licences, provincial training hours, air brakes and Job Bank wages.</li>
+    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a>: the licence classes, the hours limits and what American commercial driving really pays.</li>
+    <li><a href="/blog/heavy-equipment-operator-jobs-in-canada">Heavy Equipment Operator Jobs in Canada</a>: machine work paid from a $32.50 median, with a seasonal year.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: what changed in 2026, which sectors hire, and how the LMIA and scams work.</li>
+    <li><a href="/blog/how-to-become-a-long-haul-truck-driver-in-usa">How to Become a Long-Haul Truck Driver in USA</a>: the permit, ELDT training, the 14-day rule and what the first year pays.</li>
+    <li><a href="/blog/how-to-get-a-fleet-driver-job-in-canada">How to Get a Fleet Driver Job in Canada</a>: AZ and Class 1 licences, provincial training hours, air brakes and Job Bank wages.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or careers advice. Wage data, licensing rules, LMIA thresholds and immigration programs change often. Confirm the current position with the employer, your provincial licensing authority, Job Bank and IRCC, or a licensed immigration consultant, before applying.</p>

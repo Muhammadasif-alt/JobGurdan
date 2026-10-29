@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Taxi and Uber Driver Requirements by Country" — the permit-by-permit page
+ * "Taxi and Uber Driver Requirements by Country": the permit-by-permit page
  * for passenger driving in the UAE, UK, US, Canada and Australia. The
  * Australian taxi page already covers that market's jobs; this one compares
  * the licensing gate across countries.
@@ -337,11 +337,11 @@ JOBHTML;
 <p>Related driving guides:</p>
 
 <ul>
-    <li><a href="/blog/delivery-driver-and-courier-jobs-how-to-start-in-a-new-country">Delivery Driver and Courier Jobs: How to Start in a New Country</a> &mdash; work permit, licence and employment status for courier work.</li>
-    <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a> &mdash; the Australian taxi market in detail.</li>
-    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a> &mdash; UAE licence categories and exchange.</li>
-    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a> &mdash; the Saudi route.</li>
-    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a> &mdash; commercial driving in the US.</li>
+    <li><a href="/blog/delivery-driver-and-courier-jobs-how-to-start-in-a-new-country">Delivery Driver and Courier Jobs: How to Start in a New Country</a>: work permit, licence and employment status for courier work.</li>
+    <li><a href="/blog/taxi-driver-jobs-in-australia">Taxi Driver Jobs in Australia</a>: the Australian taxi market in detail.</li>
+    <li><a href="/blog/how-to-get-a-logistics-driver-job-in-the-uae">How to Get a Logistics Driver Job in the UAE</a>: UAE licence categories and exchange.</li>
+    <li><a href="/blog/driver-jobs-in-saudi-arabia-for-foreigners">Driver Jobs in Saudi Arabia for Foreigners</a>: the Saudi route.</li>
+    <li><a href="/blog/cdl-driver-jobs-in-usa">CDL Driver Jobs in USA</a>: commercial driving in the US.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, immigration or career advice. Requirements are from the RTA, GOV.UK, the National Careers Service, Uber and Transport for NSW. Confirm them with the licensing authority before applying.</p>

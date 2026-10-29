@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Java Developer Jobs in USA" — a sector guide rather than one vacancy, so the
+ * "Java Developer Jobs in USA": a sector guide rather than one vacancy, so the
  * apply link goes to an Indeed search and the post carries no JobPosting markup.
  * The draft's link was https://indeed.com/q-java-developer-usa-jobs.html, which
  * is not a live search path; normalised to the canonical query URL.
@@ -149,11 +149,11 @@ class JavaDeveloperJobsUsaBlogSeeder extends Seeder
 
 <h3>Requirements</h3>
 <ul>
-    <li>Core Java in depth &mdash; collections, concurrency, memory behaviour, exception handling, and the differences between recent LTS releases</li>
+    <li>Core Java in depth: collections, concurrency, memory behaviour, exception handling, and the differences between recent LTS releases</li>
     <li>Spring and Spring Boot, which appear on the overwhelming majority of US Java postings</li>
     <li>SQL and a real understanding of transactions, indexes and query plans; Hibernate or JPA is commonly requested</li>
     <li>REST API design, plus messaging such as Kafka or JMS on higher-band roles</li>
-    <li>Cloud platform experience &mdash; AWS, Azure or GCP &mdash; increasingly expected rather than a bonus</li>
+    <li>Cloud platform experience, AWS, Azure or GCP, increasingly expected rather than a bonus</li>
     <li>Testing with JUnit, plus Git, Maven or Gradle, and CI you can debug</li>
 </ul>
 
@@ -167,7 +167,7 @@ class JavaDeveloperJobsUsaBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Establish the engagement type in the first conversation.</strong> W-2, 1099 and corp-to-corp are three different legal relationships with different tax, benefit and liability consequences, and recruiters routinely leave it until the offer. Ask which one this is, and how many vendors sit between you and the client.</p>
 
-<p><strong>Note:</strong> pay, engagement type and work authorisation requirements are set by each employer &mdash; not by JobGader. Confirm the details on the employer's own advertisement, and take professional advice before signing a contract structure you have not used before.</p>
+<p><strong>Note:</strong> pay, engagement type and work authorisation requirements are set by each employer, not by JobGader. Confirm the details on the employer's own advertisement, and take professional advice before signing a contract structure you have not used before.</p>
 JOBHTML;
     }
 
@@ -176,7 +176,7 @@ JOBHTML;
         return <<<'HTML'
 <p>Java is not the language people write blog posts about, which is roughly why the jobs are still there. Core banking, insurance, claims processing, payments, telecom billing and public-sector platforms all run on it, and none of those get rewritten because a newer language became popular. The result is a steady US market with an unusual feature: <strong>a very large share of it is sold through staffing and consulting firms rather than hired directly</strong>.</p>
 
-<p>That is what this guide is really about. The pay numbers take one section. The part that costs Java developers money &mdash; and the part almost no careers guide explains &mdash; is what W-2, 1099 and corp-to-corp actually commit you to, and who is taking a cut between the client and your bank account.</p>
+<p>That is what this guide is really about. The pay numbers take one section. The part that costs Java developers money, and the part almost no careers guide explains, is what W-2, 1099 and corp-to-corp actually commit you to, and who is taking a cut between the client and your bank account.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -186,13 +186,13 @@ JOBHTML;
 
 <h2>Java Developer Salary in the USA</h2>
 
-<p>Java developers sit in the BLS software developer occupation. As of <strong>May 2025</strong> that occupation has a <strong>median of $135,980</strong>, with the <strong>highest tenth above $214,670</strong>, and employment projected to grow <strong>10 per cent between 2025 and 2035</strong> &mdash; faster than the average across all occupations.</p>
+<p>Java developers sit in the BLS software developer occupation. As of <strong>May 2025</strong> that occupation has a <strong>median of $135,980</strong>, with the <strong>highest tenth above $214,670</strong>, and employment projected to grow <strong>10 per cent between 2025 and 2035</strong>: faster than the average across all occupations.</p>
 
 <p>That median is worth pausing on, because most Java salary guides are pitched below it:</p>
 
 <ul>
     <li><strong>Junior and entry level:</strong> $65,000 to $90,000. Realistic, and the lower end is common outside the major metros and in the public sector.</li>
-    <li><strong>Two to five years:</strong> $95,000 to $130,000 &mdash; still below the occupation median.</li>
+    <li><strong>Two to five years:</strong> $95,000 to $130,000: still below the occupation median.</li>
     <li><strong>Senior:</strong> commonly quoted as "$135,000 to $180,000". Note that $135,980 <em>is</em> the median for the whole occupation, so a senior offer at $135,000 is the middle of the distribution rather than the top of it. If you are senior in Java with Spring Boot and cloud, that is your floor to negotiate up from, not your target.</li>
     <li><strong>Top of the market:</strong> above $214,670, which is where the highest tenth begins.</li>
 </ul>
@@ -206,8 +206,8 @@ JOBHTML;
 <p>Search Java jobs in the US for an afternoon and you will see "W2 only", "C2C welcome" and "1099" in the adverts without any explanation of what they mean. They are three different legal relationships:</p>
 
 <ul>
-    <li><strong>W-2.</strong> You are an employee &mdash; of the client, or of the staffing firm placing you. Payroll taxes are withheld, the employer pays half of them, and benefits, unemployment insurance and workers' compensation apply. Fixed-term W-2 contracts are common in this market.</li>
-    <li><strong>1099.</strong> You are an independent contractor as an individual. Nothing is withheld, you carry the full self-employment tax yourself, and there are no benefits. Our <a href="/blog/web-developer-jobs-in-usa">web developer guide</a> sets out the mechanics &mdash; the 15.3 per cent self-employment tax, Schedule C, the 1099-NEC and quarterly estimated payments &mdash; and they apply identically here.</li>
+    <li><strong>W-2.</strong> You are an employee: of the client, or of the staffing firm placing you. Payroll taxes are withheld, the employer pays half of them, and benefits, unemployment insurance and workers' compensation apply. Fixed-term W-2 contracts are common in this market.</li>
+    <li><strong>1099.</strong> You are an independent contractor as an individual. Nothing is withheld, you carry the full self-employment tax yourself, and there are no benefits. Our <a href="/blog/web-developer-jobs-in-usa">web developer guide</a> sets out the mechanics, the 15.3 per cent self-employment tax, Schedule C, the 1099-NEC and quarterly estimated payments, and they apply identically here.</li>
     <li><strong>C2C, or corp-to-corp.</strong> Your company contracts with their company. There is no individual in the contract at all: it is one business entity engaging another.</li>
 </ul>
 
@@ -216,14 +216,14 @@ JOBHTML;
 <p>C2C is the arrangement most misunderstood by developers new to the US contract market, because the name makes it sound like a payment preference. It is not. To work C2C you need to genuinely <strong>be</strong> a company:</p>
 
 <ul>
-    <li>A registered US business entity &mdash; an LLC, S-corp or C-corp</li>
+    <li>A registered US business entity: an LLC, S-corp or C-corp</li>
     <li>An EIN, the federal tax identification number for that entity</li>
     <li>A business bank account, because payment is made to the company and not to you</li>
     <li>Usually a certificate of insurance, since most vendors will not sign without general liability and sometimes professional liability cover</li>
     <li>Your own accounting, quarterly filings and, if the entity employs you, payroll</li>
 </ul>
 
-<p>And in every case, <strong>the person doing the work must be authorised to work in the United States</strong> &mdash; through citizenship, a green card, an EAD or a valid work visa. C2C is a contract structure. It is not a work authorisation, and no arrangement of companies creates one.</p>
+<p>And in every case, <strong>the person doing the work must be authorised to work in the United States</strong>: through citizenship, a green card, an EAD or a valid work visa. C2C is a contract structure. It is not a work authorisation, and no arrangement of companies creates one.</p>
 
 <h3>The H-1B point that catches people out</h3>
 
@@ -231,7 +231,7 @@ JOBHTML;
 
 <p>What actually happens on an H-1B "C2C" placement is that the consultant is a <strong>W-2 employee of a consulting or staffing firm</strong> that holds the visa, and the corp-to-corp agreement sits between that firm and the vendor or client. USCIS also applies third-party worksite rules to these placements, so the documentation of who directs and controls the work has to hold up. If a recruiter tells you that you can set up an LLC and go C2C while on an H-1B, they are either mistaken or telling you something that will not survive scrutiny.</p>
 
-<p>The visa routes themselves &mdash; the lottery, the cap and the cap-exempt employers who sit outside it &mdash; are covered in our <a href="/blog/software-developer-jobs-in-usa">software developer guide</a> rather than repeated here.</p>
+<p>The visa routes themselves, the lottery, the cap and the cap-exempt employers who sit outside it, are covered in our <a href="/blog/software-developer-jobs-in-usa">software developer guide</a> rather than repeated here.</p>
 
 <h3>Why the rate you are quoted is not the rate the client is paying</h3>
 
@@ -256,7 +256,7 @@ JOBHTML;
     <li>The comment period closed on <strong>28 April 2026</strong>, and the proposal had not been finalised at the time of writing</li>
 </ul>
 
-<p>Two practical consequences. First, audits did not stop while the rule was unsettled, so how the relationship actually works still matters more than what the contract calls it. Second, if a "contract" role has you working fixed hours, under the client's direction, on the client's equipment, with no ability to profit from your own efficiency, that arrangement looks like employment under either version of the test &mdash; regardless of the label on the paperwork. Check the current position with the DOL before relying on any of this, and take advice before choosing a structure.</p>
+<p>Two practical consequences. First, audits did not stop while the rule was unsettled, so how the relationship actually works still matters more than what the contract calls it. Second, if a "contract" role has you working fixed hours, under the client's direction, on the client's equipment, with no ability to profit from your own efficiency, that arrangement looks like employment under either version of the test: regardless of the label on the paperwork. Check the current position with the DOL before relying on any of this, and take advice before choosing a structure.</p>
 
 <h2>Junior and Entry-Level Java Developer Jobs</h2>
 
@@ -265,28 +265,28 @@ JOBHTML;
 <p>What gets juniors through:</p>
 
 <ul>
-    <li>Core Java properly &mdash; collections, the equals and hashCode contract, exception handling, basic concurrency</li>
+    <li>Core Java properly: collections, the equals and hashCode contract, exception handling, basic concurrency</li>
     <li>Spring Boot, which is close to a hard requirement rather than a nice-to-have</li>
     <li><strong>SQL and transactions.</strong> Enterprise Java is database work; candidates who cannot reason about a join or a transaction boundary do not get past the technical round</li>
     <li>JUnit, Git and Maven or Gradle</li>
     <li>One finished project that talks to a real database and has tests, in preference to several tutorials</li>
 </ul>
 
-<p>One caution: entry-level candidates are heavily targeted for W-2 contract roles by staffing firms. That is not automatically a bad first job &mdash; it can be a fast route to enterprise experience &mdash; but read the contract for non-compete and training-repayment clauses before you sign, and be sceptical of any firm that asks you to pay them for placement.</p>
+<p>One caution: entry-level candidates are heavily targeted for W-2 contract roles by staffing firms. That is not automatically a bad first job, it can be a fast route to enterprise experience, but read the contract for non-compete and training-repayment clauses before you sign, and be sceptical of any firm that asks you to pay them for placement.</p>
 
 <h2>Remote Java Developer Jobs</h2>
 
 <p><img src="/public/storage/blogs/java-developer-jobs-in-usa-remote.jpg" alt="Remote Java developer jobs in USA banner covering full-time and contract enterprise roles" style="width:100%;height:auto;border-radius:14px;margin:24px 0;" loading="lazy"></p>
 
-<p>Remote Java work exists in volume, but less of it than in the rest of the engineering cluster, and for a specific reason: the industries that use the most Java &mdash; banking, insurance, healthcare and government contracting &mdash; are also the ones with the strictest data-residency, security and on-site requirements. Fintech and SaaS companies building microservices are the most reliably remote employers of Java developers.</p>
+<p>Remote Java work exists in volume, but less of it than in the rest of the engineering cluster, and for a specific reason: the industries that use the most Java, banking, insurance, healthcare and government contracting, are also the ones with the strictest data-residency, security and on-site requirements. Fintech and SaaS companies building microservices are the most reliably remote employers of Java developers.</p>
 
 <p>Expect three patterns: fully remote with full benefits, hybrid with a set number of office days, and fully on-site, which remains genuinely common in banking and public-sector-adjacent work. Ask which one it is early, because "remote" in an enterprise advert sometimes means "remote until the client says otherwise".</p>
 
-<p>If you are outside the US: the same caution applies here as everywhere else in this cluster &mdash; most employers benchmark pay to the market you live in, not to theirs. Our <a href="/blog/full-stack-developer-jobs-in-usa">full stack developer guide</a> covers employer-of-record arrangements and the misclassification tests applied under your own country's labour law.</p>
+<p>If you are outside the US: the same caution applies here as everywhere else in this cluster: most employers benchmark pay to the market you live in, not to theirs. Our <a href="/blog/full-stack-developer-jobs-in-usa">full stack developer guide</a> covers employer-of-record arrangements and the misclassification tests applied under your own country's labour law.</p>
 
 <h2>How to Apply</h2>
 
-<p>Java postings turn over quickly, particularly contract requirements, which can close within days. Set separate alerts for "Java developer", "Spring Boot developer" and "Java C2C" &mdash; the last surfaces a different market from the first two.</p>
+<p>Java postings turn over quickly, particularly contract requirements, which can close within days. Set separate alerts for "Java developer", "Spring Boot developer" and "Java C2C": the last surfaces a different market from the first two.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/it-software?location=United%20States" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -309,7 +309,7 @@ JOBHTML;
 <p>Java developers sit in the BLS software developer occupation, which had a median of $135,980 as of May 2025 and a top tenth above $214,670. Most published Java salary bands are pitched below that median.</p>
 
 <h3>What does C2C mean in a Java job advert?</h3>
-<p>Corp-to-corp: your registered business entity contracts with theirs. It requires a real US company &mdash; an LLC, S-corp or C-corp with an EIN, a business bank account and usually a certificate of insurance &mdash; and the person doing the work still needs US work authorisation.</p>
+<p>Corp-to-corp: your registered business entity contracts with theirs. It requires a real US company, an LLC, S-corp or C-corp with an EIN, a business bank account and usually a certificate of insurance, and the person doing the work still needs US work authorisation.</p>
 
 <h3>Can I work corp-to-corp on an H-1B?</h3>
 <p>Not through your own company. H-1B status requires a sponsoring employer, so an H-1B consultant on a "C2C" project is a W-2 employee of the consulting firm holding the visa, with the corp-to-corp contract sitting between that firm and the vendor or client.</p>
@@ -360,15 +360,15 @@ JOBHTML;
 <p>Comparing the engineering routes? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a> &mdash; the same $135,980 occupation, the H-1B lottery and the cap-exempt employers that avoid it.</li>
-    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a> &mdash; the other major backend language, and where its data and machine learning demand sits.</li>
-    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a> &mdash; the front end most often paired with a Java backend.</li>
-    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a> &mdash; which pay band a job title is hiding, and working for a US company from abroad.</li>
-    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a> &mdash; the lower band, and how freelance rates work against US self-employment tax.</li>
-    <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a> &mdash; Android work and the mobile band, counted under software developers rather than web.</li>
+    <li><a href="/blog/software-developer-jobs-in-usa">Software Developer Jobs in USA</a>: the same $135,980 occupation, the H-1B lottery and the cap-exempt employers that avoid it.</li>
+    <li><a href="/blog/python-developer-jobs-in-usa">Python Developer Jobs in USA</a>: the other major backend language, and where its data and machine learning demand sits.</li>
+    <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the front end most often paired with a Java backend.</li>
+    <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a>, which pay band a job title is hiding, and working for a US company from abroad.</li>
+    <li><a href="/blog/web-developer-jobs-in-usa">Web Developer Jobs in USA</a>: the lower band, and how freelance rates work against US self-employment tax.</li>
+    <li><a href="/blog/mobile-app-developer-jobs-in-usa">Mobile App Developer Jobs in USA</a>: Android work and the mobile band, counted under software developers rather than web.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax, immigration or careers advice. Wage data, worker-classification rules and immigration requirements change, and the federal contractor-classification rule was unsettled at the time of writing &mdash; confirm the current position with the Bureau of Labor Statistics, the Department of Labor, USCIS and a qualified professional before choosing a contract structure or relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not legal, tax, immigration or careers advice. Wage data, worker-classification rules and immigration requirements change, and the federal contractor-classification rule was unsettled at the time of writing: confirm the current position with the Bureau of Labor Statistics, the Department of Labor, USCIS and a qualified professional before choosing a contract structure or relying on any of it.</p>
 HTML;
     }
 }

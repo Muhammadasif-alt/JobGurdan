@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Become a Correctional Officer in Canada" — a guide for someone
+ * "How to Become a Correctional Officer in Canada": a guide for someone
  * deciding between federal and provincial corrections, and working out which
  * rules, training and pay apply to them. Every employer runs its own process,
  * so the guide sets the federal Correctional Service of Canada beside two
@@ -180,7 +180,7 @@ class CorrectionalOfficerJobsCanadaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> eligibility, testing and pay are set by the Correctional Service of Canada and each provincial or territorial government &mdash; not by JobGader. Confirm the current requirements on the employer's own job posting before applying.</p>
+<p><strong>Note:</strong> eligibility, testing and pay are set by the Correctional Service of Canada and each provincial or territorial government, not by JobGader. Confirm the current requirements on the employer's own job posting before applying.</p>
 JOBHTML;
     }
 
@@ -189,7 +189,7 @@ JOBHTML;
         return <<<'HTML'
 <p><strong>To become a correctional officer in Canada you need at least a high school diploma, current first aid and CPR, and to pass medical, fitness and security screening, then complete your employer's paid training.</strong> You apply either to the federal Correctional Service of Canada (CSC) or to a provincial or territorial corrections ministry, and each one sets its own rules on age, citizenship and education. Job Bank puts the national median wage at <strong>$36.15 an hour</strong>.</p>
 
-<p>This guide sets the federal route beside two provincial examples, Ontario and Prince Edward Island, because there is no single national hiring process &mdash; and several of the rules most guides repeat only apply to one employer.</p>
+<p>This guide sets the federal route beside two provincial examples, Ontario and Prince Edward Island, because there is no single national hiring process, and several of the rules most guides repeat only apply to one employer.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://jobgader.com/categories/government-public-sector?location=Canada" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#b3151a;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -232,7 +232,7 @@ JOBHTML;
 <p>Most guides give one national rule: "at least 18, and a Canadian citizen or permanent resident". In practice, each employer sets its own:</p>
 
 <ul>
-    <li><strong>Ontario</strong> asks you to be <strong>at least 18</strong> and to show <strong>proof of eligibility to work in Canada</strong> on your first day &mdash; not specifically citizenship or permanent residence.</li>
+    <li><strong>Ontario</strong> asks you to be <strong>at least 18</strong> and to show <strong>proof of eligibility to work in Canada</strong> on your first day, not specifically citizenship or permanent residence.</li>
     <li><strong>Prince Edward Island's</strong> training program asks for <strong>Canadian citizenship or permanent residence</strong> and that you are <strong>19</strong> by the program start date.</li>
     <li><strong>CSC's</strong> most recent national recruitment poster was open to <strong>people residing in Canada</strong>, and to <strong>Canadian citizens and permanent residents living abroad</strong>.</li>
 </ul>
@@ -241,7 +241,7 @@ JOBHTML;
 
 <h2>Minimum Requirements</h2>
 
-<p><strong>Education.</strong> Job Bank's national requirement is <strong>completion of secondary school</strong>. It adds that <strong>post-secondary education in correctional services, police studies or criminology is required in New Brunswick, Quebec, Alberta and Prince Edward Island</strong>. That is Job Bank's wording, not a college diploma rule, and PEI's own training program admits applicants with Grade 12 &mdash; the program is the post-secondary training. Federally, CSC has accepted a secondary school diploma or a satisfactory score on the Public Service Commission test.</p>
+<p><strong>Education.</strong> Job Bank's national requirement is <strong>completion of secondary school</strong>. It adds that <strong>post-secondary education in correctional services, police studies or criminology is required in New Brunswick, Quebec, Alberta and Prince Edward Island</strong>. That is Job Bank's wording, not a college diploma rule, and PEI's own training program admits applicants with Grade 12: the program is the post-secondary training. Federally, CSC has accepted a secondary school diploma or a satisfactory score on the Public Service Commission test.</p>
 
 <p><strong>First aid and CPR.</strong> CSC asks for standard first aid, <strong>CPR Level C and an AED certificate</strong>. Ontario requires emergency first aid, CPR and AED certification by your first day of employment.</p>
 
@@ -249,7 +249,7 @@ JOBHTML;
 
 <p><strong>Fitness.</strong> The test differs by employer. Ontario uses the <strong>FITCO</strong> (Fitness Test for Ontario Correctional Officer Applicants). PEI uses <strong>COPAT</strong>, with four minutes allowed at the start and 3 minutes 20 seconds required to graduate. CSC's careers page names no entry test, but by the end of training you are expected to be able to <strong>run 5 km</strong>.</p>
 
-<p><strong>Screening.</strong> Expect a pre-employment medical exam and a security check &mdash; in Ontario, a Vulnerable Sector Screening Check.</p>
+<p><strong>Screening.</strong> Expect a pre-employment medical exam and a security check: in Ontario, a Vulnerable Sector Screening Check.</p>
 
 <p><strong>Language.</strong> CSC positions are English-only, French-only or bilingual depending on the region. Ontario's bilingual positions require oral French at the <strong>advanced-minus</strong> level.</p>
 
@@ -258,7 +258,7 @@ JOBHTML;
 <ol>
     <li><strong>Complete the self-assessment questionnaire.</strong> CSC encourages it before you apply, so you understand the job first. It is not an official assessment.</li>
     <li><strong>Apply</strong> to a correctional officer poster on the federal government jobs site.</li>
-    <li><strong>Pass the assessments and screening</strong> &mdash; testing, interviews, medical and a security clearance.</li>
+    <li><strong>Pass the assessments and screening</strong>: testing, interviews, medical and a security clearance.</li>
     <li><strong>Stage 1:</strong> about <strong>80 hours of learning over four weeks</strong>.</li>
     <li><strong>Stage 2:</strong> about <strong>40 hours of learning over three to four weeks</strong>. Most guides quote only this stage.</li>
     <li><strong>Receive a conditional offer</strong> that names where you will work if you complete Stage 3.</li>
@@ -269,14 +269,14 @@ JOBHTML;
 
 <h2>Provincial Routes: Ontario and PEI</h2>
 
-<p><strong>Ontario</strong> runs its own recruitment for provincial institutions. Successful applicants complete <strong>Corrections Foundational Training for Correctional Officers (CFT-CO)</strong>, an <strong>eight-week</strong> training and assessment program with a stipend &mdash; not "COTA", as some guides call it. Officers start at <strong>$32.15 an hour</strong>, rising to <strong>$37.79</strong>. Two conditions matter if you live elsewhere:</p>
+<p><strong>Ontario</strong> runs its own recruitment for provincial institutions. Successful applicants complete <strong>Corrections Foundational Training for Correctional Officers (CFT-CO)</strong>, an <strong>eight-week</strong> training and assessment program with a stipend, not "COTA", as some guides call it. Officers start at <strong>$32.15 an hour</strong>, rising to <strong>$37.79</strong>. Two conditions matter if you live elsewhere:</p>
 
 <ul>
     <li>Canadian citizens living outside Canada can apply, but you must <strong>travel to Ontario at your own expense</strong> for the selection process.</li>
     <li>If you are hired, you <strong>pay your own moving and relocation costs</strong>.</li>
 </ul>
 
-<p><strong>Prince Edward Island</strong> runs a six-month Correctional Officer Training Program in partnership with the <strong>Atlantic Police Academy</strong>: <strong>17 weeks of course work and seven weeks of on-the-job training</strong>. The current intake began on 17 August 2026. Students pay for their own food and accommodation, and graduates are guaranteed an <strong>interview for casual employment</strong>, not a job. Seventeen weeks is PEI's figure, not a typical provincial length &mdash; Ontario's is eight.</p>
+<p><strong>Prince Edward Island</strong> runs a six-month Correctional Officer Training Program in partnership with the <strong>Atlantic Police Academy</strong>: <strong>17 weeks of course work and seven weeks of on-the-job training</strong>. The current intake began on 17 August 2026. Students pay for their own food and accommodation, and graduates are guaranteed an <strong>interview for casual employment</strong>, not a job. Seventeen weeks is PEI's figure, not a typical provincial length: Ontario's is eight.</p>
 
 <figure style="text-align:center;margin:34px 0;">
     <img src="/public/storage/blogs/how-to-become-a-correctional-officer-in-canada-institution.jpg"
@@ -369,13 +369,13 @@ JOBHTML;
 <p>Considering public safety work in Canada or elsewhere? These cover the neighbouring routes:</p>
 
 <ul>
-    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a> &mdash; state and local departments, and which ones hire non-citizens.</li>
-    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a> &mdash; FBI, CBP, ICE and US Marshals jobs, their pay and age limits.</li>
-    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a> &mdash; what the 2026 levels plan changed and which sectors actually hire.</li>
-    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a> &mdash; the LMIA, the language rules and the routes to permanent residence.</li>
-    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a> &mdash; licensed security work in the Gulf.</li>
-    <li><a href="/blog/government-security-jobs-in-australia">Government Security Jobs in Australia</a> &mdash; AFP protective service officer pay, Border Force, ASIO and ASD requirements, and how security clearances work.</li>
-    <li><a href="/blog/public-safety-jobs-in-canada">Public Safety Jobs in Canada</a> &mdash; CBSA border officer pay and rules, RCMP and CSC requirements, emergency management jobs and who can apply.</li>
+    <li><a href="/blog/police-officer-jobs-in-usa">Police Officer Jobs in USA</a>: state and local departments, and which ones hire non-citizens.</li>
+    <li><a href="/blog/federal-police-jobs-in-usa">Federal Police Jobs in USA</a>: FBI, CBP, ICE and US Marshals jobs, their pay and age limits.</li>
+    <li><a href="/blog/jobs-in-canada-for-foreign-workers">Jobs in Canada for Foreign Workers</a>: what the 2026 levels plan changed and which sectors actually hire.</li>
+    <li><a href="/blog/visa-sponsorship-jobs-in-canada">Visa Sponsorship Jobs in Canada</a>: the LMIA, the language rules and the routes to permanent residence.</li>
+    <li><a href="/blog/security-guard-jobs-in-uae">Security Guard Jobs in UAE</a>: licensed security work in the Gulf.</li>
+    <li><a href="/blog/government-security-jobs-in-australia">Government Security Jobs in Australia</a>: AFP protective service officer pay, Border Force, ASIO and ASD requirements, and how security clearances work.</li>
+    <li><a href="/blog/public-safety-jobs-in-canada">Public Safety Jobs in Canada</a>: CBSA border officer pay and rules, RCMP and CSC requirements, emergency management jobs and who can apply.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not employment or legal advice. Eligibility, training and pay are set by the Correctional Service of Canada and each provincial or territorial government, and change over time. Confirm the current requirements on the employer's own job posting before applying.</p>

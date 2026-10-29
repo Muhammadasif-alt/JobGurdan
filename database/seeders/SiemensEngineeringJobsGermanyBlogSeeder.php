@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Siemens Engineering Jobs in Germany" — a guide that has to
+ * "How to Apply for Siemens Engineering Jobs in Germany": a guide that has to
  * start by separating three different companies people think are one, and by
  * replacing a careers link that Siemens itself retired.
  *
@@ -164,7 +164,7 @@ class SiemensEngineeringJobsGermanyBlogSeeder extends Seeder
 <h3>Recruitment fraud</h3>
 <p>Siemens states it will never ask for financial information during the selection process, and that interviews always come from an official Siemens email address.</p>
 
-<p>Pay, eligibility, language requirements and immigration rules are set by Siemens, the German authorities and German law &mdash; not by JobGader. Confirm the requirements on the live posting before acting.</p>
+<p>Pay, eligibility, language requirements and immigration rules are set by Siemens, the German authorities and German law, not by JobGader. Confirm the requirements on the live posting before acting.</p>
 JOBHTML;
     }
 
@@ -230,18 +230,18 @@ JOBHTML;
 <p>Real current German engineering roles to show you what this looks like:</p>
 
 <ul>
-    <li>Senior Hardware Platform Expert (w/m/d) &ndash; Embedded Electronics &mdash; Digital Industries, Amberg, Chemnitz, Erlangen, Fürth, Karlsruhe</li>
-    <li>Systemarchitekt Fahrzeugsteuerung (w/m/d) &mdash; Siemens Mobility GmbH, Erlangen</li>
-    <li>R&amp;D Electronics Test Engineer (f/m/d) Safety and EMC &mdash; Smart Infrastructure, Berlin</li>
-    <li>Softwareentwickler (w/m/d) Smart Buildings &mdash; Smart Infrastructure, Karlsruhe</li>
-    <li>Junior Ingenieur (w/m/d) Elektrotechnik für Mobility Projekte &mdash; Erlangen, marked Recent College Graduate</li>
+    <li>Senior Hardware Platform Expert (w/m/d) &ndash; Embedded Electronics: Digital Industries, Amberg, Chemnitz, Erlangen, Fürth, Karlsruhe</li>
+    <li>Systemarchitekt Fahrzeugsteuerung (w/m/d): Siemens Mobility GmbH, Erlangen</li>
+    <li>R&amp;D Electronics Test Engineer (f/m/d) Safety and EMC: Smart Infrastructure, Berlin</li>
+    <li>Softwareentwickler (w/m/d) Smart Buildings: Smart Infrastructure, Karlsruhe</li>
+    <li>Junior Ingenieur (w/m/d) Elektrotechnik für Mobility Projekte: Erlangen, marked Recent College Graduate</li>
 </ul>
 
 <p><strong>Note the "(w/m/d)" and the German titles.</strong> That is the real filter on international applicants, and we would rather you saw it now than after twenty applications.</p>
 
 <h2>Do Not Send a Speculative Application</h2>
 
-<p>This one is easy to get wrong because it is standard advice everywhere else. Siemens' own German FAQ says: <strong>"Zurzeit akzeptieren wir keine Initiativbewerbungen"</strong> &mdash; at present we do not accept speculative applications.</p>
+<p>This one is easy to get wrong because it is standard advice everywhere else. Siemens' own German FAQ says: <strong>"Zurzeit akzeptieren wir keine Initiativbewerbungen"</strong>: at present we do not accept speculative applications.</p>
 
 <p>Apply to specific adverts. Two more practical details from the same FAQ: you can upload a CV and get AI-matched suggestions <em>without</em> registering, but an unregistered CV and its temporary profile are deleted after 24 hours. Accepted formats are .doc, .pdf or .rtf up to 10 MB. And Siemens states plainly that AI makes no decision on your application.</p>
 
@@ -253,7 +253,7 @@ JOBHTML;
 
 <p>In March 2025 Siemens announced measures in its automation business affecting <strong>around 5,600 jobs worldwide, including about 2,600 in Germany</strong>, to be implemented by the end of fiscal 2027, plus <strong>around 450 jobs worldwide in electric vehicle charging, including about 250 in Germany</strong>.</p>
 
-<p>Two things temper that, and both come from Siemens itself. The release states: <strong>"Operational-related layoffs in Germany are ruled out."</strong> And German headcount did not actually fall &mdash; Siemens reported 86,401 employees in Germany at 30 September 2025, having guided that total German headcount would tend to remain stable because of hiring in growing areas.</p>
+<p>Two things temper that, and both come from Siemens itself. The release states: <strong>"Operational-related layoffs in Germany are ruled out."</strong> And German headcount did not actually fall: Siemens reported 86,401 employees in Germany at 30 September 2025, having guided that total German headcount would tend to remain stable because of hiring in growing areas.</p>
 
 <p>So: the automation side is contracting, other areas are hiring, and around 450 German vacancies are open today. Do not let anyone tell you Siemens has stopped hiring, and do not assume automation is a safe bet.</p>
 
@@ -264,7 +264,7 @@ JOBHTML;
 <p>They come from the VDI/IW Ingenieurmonitor. Here is what they actually say:</p>
 
 <ul>
-    <li><strong>120,702</strong> is the number of foreign nationals in social-insurance-liable employment in engineering occupations <strong>as at the end of March 2025</strong> &mdash; a snapshot date, not a year, and 11.4 per cent of all such employees.</li>
+    <li><strong>120,702</strong> is the number of foreign nationals in social-insurance-liable employment in engineering occupations <strong>as at the end of March 2025</strong>: a snapshot date, not a year, and 11.4 per cent of all such employees.</li>
     <li><strong>71,146</strong> is third-country nationals <strong>excluding refugee-origin countries and the UK</strong>. It is not "engineers from outside the EU", and the true non-EU figure is higher.</li>
     <li><strong>76,160</strong> is the <strong>average number of open positions per month in Q3 2025</strong> in classic engineering occupations, out of 99,470 including IT. It is not a count of posts left unfilled over a year.</li>
 </ul>
@@ -308,7 +308,7 @@ JOBHTML;
 
 <p><strong>Engineering is on the official shortage-occupation list</strong>, so the lower threshold applies: civil, mechanical, chemical, environmental, industrial and production engineers, electrical, electronics and telecommunications engineers are all named.</p>
 
-<p>Two things most guides miss. The lower threshold is <strong>not</strong> shortage-occupations-only &mdash; it also covers anyone who obtained their degree within the last three years. And the lower route requires Federal Employment Agency approval, which checks that your pay and conditions match domestic comparables, so in practice it can push the real figure above the floor.</p>
+<p>Two things most guides miss. The lower threshold is <strong>not</strong> shortage-occupations-only: it also covers anyone who obtained their degree within the last three years. And the lower route requires Federal Employment Agency approval, which checks that your pay and conditions match domestic comparables, so in practice it can push the real figure above the floor.</p>
 
 <p>These thresholds are reset every year and published by 31 December for the year ahead. Check them before you rely on them.</p>
 
@@ -318,7 +318,7 @@ JOBHTML;
 
 <p>The federal government publishes a chart titled "Required German Language Skills Depending on the Type of Visa", dated January 2026. Against "Work visa for qualified professionals" it says <strong>"No legal requirement"</strong>. Against "EU Blue Card" it says <strong>"No legal requirement"</strong>. We also read Section 18g of the Residence Act in full: the word Sprachkenntnisse does not appear in it once.</p>
 
-<p>The honest caveat is in the government's own footnote: other language requirements may apply as part of a recognition procedure, or at the German mission abroad. And employers set their own bar &mdash; which, given how many Siemens adverts are in German, is the bar that will actually decide your application.</p>
+<p>The honest caveat is in the government's own footnote: other language requirements may apply as part of a recognition procedure, or at the German mission abroad. And employers set their own bar, which, given how many Siemens adverts are in German, is the bar that will actually decide your application.</p>
 
 <h2>Do You Need Your Degree Recognised?</h2>
 
@@ -330,13 +330,13 @@ JOBHTML;
 
 <p>Check anabin first. Your degree is comparable only if your university is rated H+ or H+/- and the qualification itself matches a German one. That check is free and takes minutes.</p>
 
-<p>One warning: an anabin entry or ZAB statement <strong>does not</strong> replace the recognition procedure if you want the protected title. And the language requirement for that title procedure varies by state &mdash; B2 in Berlin, B1 in Saxony-Anhalt, none at all in Bavaria, Baden-Württemberg, Schleswig-Holstein or Lower Saxony.</p>
+<p>One warning: an anabin entry or ZAB statement <strong>does not</strong> replace the recognition procedure if you want the protected title. And the language requirement for that title procedure varies by state: B2 in Berlin, B1 in Saxony-Anhalt, none at all in Bavaria, Baden-Württemberg, Schleswig-Holstein or Lower Saxony.</p>
 
 <h2>Siemens Ausbildung and Dual Study</h2>
 
 <p>Siemens runs Ausbildung and duales Studium programmes at ausbildung.siemens.com, across Elektrotechnik &amp; Mechatronik, Wirtschaft &amp; Logistik, Informatik &amp; Wirtschaftsinformatik, Mechanik &amp; Maschinenbau, Wirtschaftsingenieurwesen and Gastronomie &amp; Hotellerie. More than 6,500 people are in them, and there are no application deadlines.</p>
 
-<p>But read the entry requirement before you get excited. Siemens states you need <strong>a CV in German, a translated and German-recognised certificate, and proof of a German language certificate</strong> &mdash; and that the translation service must be state-certified and authorised. This is not an easy international entry route.</p>
+<p>But read the entry requirement before you get excited. Siemens states you need <strong>a CV in German, a translated and German-recognised certificate, and proof of a German language certificate</strong>, and that the translation service must be state-certified and authorised. This is not an easy international entry route.</p>
 
 <h2>Nobody at Siemens Will Ask You for Money</h2>
 
@@ -346,7 +346,7 @@ JOBHTML;
 
 <p>The German version names the domain explicitly: invitations come from official Siemens addresses such as @siemens.com, never from private mail services.</p>
 
-<p>One more thing to be straight about: <strong>Siemens publishes nothing whatsoever about visa sponsorship or relocation.</strong> We searched its careers pages, its full FAQ and every German advert we pulled for Visum, Arbeitserlaubnis, relocation and sponsor. Zero mentions. That is not a no &mdash; it means you must ask the recruiter directly rather than assume.</p>
+<p>One more thing to be straight about: <strong>Siemens publishes nothing whatsoever about visa sponsorship or relocation.</strong> We searched its careers pages, its full FAQ and every German advert we pulled for Visum, Arbeitserlaubnis, relocation and sponsor. Zero mentions. That is not a no: it means you must ask the recruiter directly rather than assume.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -360,7 +360,7 @@ JOBHTML;
 <p>50,700 euros gross a year standard, or 45,934.20 euros for shortage occupations and for anyone who graduated within the last three years. Engineering is on the official shortage list, so the lower figure normally applies.</p>
 
 <h3>Do I need German to work at Siemens in Germany?</h3>
-<p>Not for the visa &mdash; the government's own January 2026 chart says there is no legal requirement for a work visa or EU Blue Card. For the job, very often yes, because a large share of Siemens' German adverts are written in German.</p>
+<p>Not for the visa: the government's own January 2026 chart says there is no legal requirement for a work visa or EU Blue Card. For the job, very often yes, because a large share of Siemens' German adverts are written in German.</p>
 
 <h3>Does Siemens sponsor work visas?</h3>
 <p>Siemens publishes nothing about it, in any of its careers material or its job adverts. Ask the recruiter directly. It is neither promised nor refused in writing.</p>
@@ -405,16 +405,16 @@ JOBHTML;
 <p>Comparing European employers, or looking at the wider German market? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a> &mdash; the Italian equivalent, and a much harder visa system.</li>
-    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a> &mdash; German manufacturing with a clearer entry route.</li>
-    <li><a href="/blog/devops-engineer-jobs-in-germany">DevOps Engineer Jobs in Germany</a> &mdash; the software side, where the market has cooled most.</li>
-    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a> &mdash; entry-level German work without a degree.</li>
-    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a> &mdash; a famous employer whose job board is currently empty.</li>
-    <li><a href="/blog/how-to-apply-for-telkom-indonesia-it-jobs">How to Apply for Telkom Indonesia IT Jobs</a> &mdash; and the national ID requirement that closes the door first.</li>
-    <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a> &mdash; 622 French vacancies, and how many need a security clearance.</li>
-    <li><a href="/blog/how-to-apply-for-asml-semiconductor-jobs-in-netherlands">How to Apply for ASML Semiconductor Jobs in Netherlands</a> &mdash; published salary ranges, and which of them clear the Dutch visa threshold.</li>
-    <li><a href="/blog/how-to-apply-for-sap-consultant-jobs-in-germany">How to Apply for SAP Consultant Jobs in Germany</a> &mdash; the same visa rules applied to Germany's largest software employer.</li>
-    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a> &mdash; which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
+    <li><a href="/blog/how-to-apply-for-leonardo-aerospace-jobs-in-italy">How to Apply for Leonardo Aerospace Jobs in Italy</a>: the Italian equivalent, and a much harder visa system.</li>
+    <li><a href="/blog/how-to-apply-for-bmw-factory-jobs-in-germany">How to Apply for BMW Factory Jobs in Germany</a>: German manufacturing with a clearer entry route.</li>
+    <li><a href="/blog/devops-engineer-jobs-in-germany">DevOps Engineer Jobs in Germany</a>: the software side, where the market has cooled most.</li>
+    <li><a href="/blog/factory-worker-jobs-in-germany">Factory Worker Jobs in Germany</a>: entry-level German work without a degree.</li>
+    <li><a href="/blog/how-to-apply-for-neom-construction-jobs-in-saudi-arabia">How to Apply for NEOM Construction Jobs in Saudi Arabia</a>: a famous employer whose job board is currently empty.</li>
+    <li><a href="/blog/how-to-apply-for-telkom-indonesia-it-jobs">How to Apply for Telkom Indonesia IT Jobs</a>, and the national ID requirement that closes the door first.</li>
+    <li><a href="/blog/how-to-apply-for-airbus-aerospace-jobs-in-france">How to Apply for Airbus Aerospace Jobs in France</a>: 622 French vacancies, and how many need a security clearance.</li>
+    <li><a href="/blog/how-to-apply-for-asml-semiconductor-jobs-in-netherlands">How to Apply for ASML Semiconductor Jobs in Netherlands</a>: published salary ranges, and which of them clear the Dutch visa threshold.</li>
+    <li><a href="/blog/how-to-apply-for-sap-consultant-jobs-in-germany">How to Apply for SAP Consultant Jobs in Germany</a>: the same visa rules applied to Germany's largest software employer.</li>
+    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a>, which engineering codes clear the UK salary threshold, and which bp adverts are really agencies.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Siemens' own careers pages, job portal and March 2025 press release, the German Residence Act and 2026 contribution-ceiling ordinance on gesetze-im-internet.de, the Federal Ministry's January 2026 language chart, anerkennung-in-deutschland.de and the VDI/IW Ingenieurmonitor 2025/III, checked on 22 September 2026. Vacancy counts, salary thresholds and immigration rules change every year. Always check the live posting and the official government source before acting, and never pay anyone to secure a job.</p>

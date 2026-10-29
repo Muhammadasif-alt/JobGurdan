@@ -246,7 +246,7 @@ class NetworkRailMaintenanceJobsUkBlogSeeder extends Seeder
 
 <h3>Common requirements</h3>
 <ul>
-    <li>The right to work in the United Kingdom &mdash; rail construction and maintenance operative work is not a sponsorable occupation code</li>
+    <li>The right to work in the United Kingdom: rail construction and maintenance operative work is not a sponsorable occupation code</li>
     <li>Aged 18 or over by the start date, because of the safety checks that apply on the railway</li>
     <li>A pre-employment medical, which includes the drug and alcohol screening that applies to every Network Rail role</li>
     <li>Willingness to work rostered nights, weekends and bank holidays outdoors in all weather</li>
@@ -254,7 +254,7 @@ class NetworkRailMaintenanceJobsUkBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, rosters and medical standards for these roles are set by Network Rail and the rail industry standards bodies, and visa rules are set by the Home Office &mdash; not by JobGader. Apply directly through Network Rail's own careers site and never pay anyone for a Network Rail job, a medical or a PTS card.</p>
+<p><strong>Note:</strong> pay, rosters and medical standards for these roles are set by Network Rail and the rail industry standards bodies, and visa rules are set by the Home Office, not by JobGader. Apply directly through Network Rail's own careers site and never pay anyone for a Network Rail job, a medical or a PTS card.</p>
 JOBHTML;
     }
 
@@ -263,7 +263,7 @@ JOBHTML;
         return <<<'HTML'
 <p><strong>Apply through Network Rail's own careers site, which feeds its external candidate portal and sorts vacancies into Operations, Maintenance and Corporate Services.</strong> Pick the depot you would actually report to, read the rate printed on that advert, and expect a pre-employment medical that includes drug and alcohol screening before any offer is confirmed. There is no agent who can shorten that, and no shortcut worth paying for.</p>
 
-<p>Two answers before you spend an evening on this. <strong>A track maintenance operative job at Network Rail cannot be sponsored for a UK work visa</strong> &mdash; the occupation code does not appear on the Home Office's eligible list at all, and holding a sponsor licence does not change that. And the salary figures circulating for these roles are job-board estimates; the only pay Network Rail publishes and keeps current is its apprenticeship rate, which is set out below with its scope attached rather than dressed up as a technician salary.</p>
+<p>Two answers before you spend an evening on this. <strong>A track maintenance operative job at Network Rail cannot be sponsored for a UK work visa</strong>: the occupation code does not appear on the Home Office's eligible list at all, and holding a sponsor licence does not change that. And the salary figures circulating for these roles are job-board estimates; the only pay Network Rail publishes and keeps current is its apprenticeship rate, which is set out below with its scope attached rather than dressed up as a technician salary.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://www.networkrail.co.uk/careers/" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#0072ce;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -273,7 +273,7 @@ JOBHTML;
 
 <h2>What Network Rail Actually Looks After</h2>
 
-<p>Get the scale right, because most guides do not. Network Rail's own figure is <strong>20,000 miles of track</strong> and <strong>30,000 bridges, tunnels and viaducts</strong>, together with thousands of signals, level crossings and stations. It is not "more than 20,000 miles of track, signals, bridges and level crossings" &mdash; that sentence inflates one number and quietly deletes the 30,000 structures that a maintenance workforce actually spends its nights on.</p>
+<p>Get the scale right, because most guides do not. Network Rail's own figure is <strong>20,000 miles of track</strong> and <strong>30,000 bridges, tunnels and viaducts</strong>, together with thousands of signals, level crossings and stations. It is not "more than 20,000 miles of track, signals, bridges and level crossings": that sentence inflates one number and quietly deletes the 30,000 structures that a maintenance workforce actually spends its nights on.</p>
 
 <p>One more distinction worth carrying into an interview: Network Rail manages <strong>20 of the country's largest stations</strong> directly. The other 2,500-plus are operated by train companies. If you are applying for station-based work, check whose payroll you would be on.</p>
 
@@ -285,7 +285,7 @@ JOBHTML;
 
 <p>You will see rail maintenance jobs advertised as "part of Railway 200". They are not, and the claim dates the guide that makes it.</p>
 
-<p><strong>Railway 200 ran through 2025</strong>, marking two centuries since the first fare-paying steam passenger journey on the Stockton and Darlington Railway on <strong>27 September 1825</strong>. It was a partnership campaign to celebrate the railway's history and to push rail careers at young people &mdash; genuinely useful, but a celebration, not a hiring programme. Its Inspiration exhibition train toured Britain into <strong>June 2026</strong> and has finished. No vacancy on Network Rail's portal today sits under that banner.</p>
+<p><strong>Railway 200 ran through 2025</strong>, marking two centuries since the first fare-paying steam passenger journey on the Stockton and Darlington Railway on <strong>27 September 1825</strong>. It was a partnership campaign to celebrate the railway's history and to push rail careers at young people: genuinely useful, but a celebration, not a hiring programme. Its Inspiration exhibition train toured Britain into <strong>June 2026</strong> and has finished. No vacancy on Network Rail's portal today sits under that banner.</p>
 
 <p>Nor is there a "national recruitment drive". Network Rail does not publish one. It recruits continuously, depot by depot, through its own portal. If a guide tells you a special window is open, ask it for the source.</p>
 
@@ -315,7 +315,7 @@ JOBHTML;
 
 <p>Network Rail's own wording is precise and worth learning. You will be asked to <strong>attend a medical before an offer is confirmed</strong>, as part of pre-employment checks, and <strong>all roles at Network Rail include a drug and alcohol screening process which forms part of that medical</strong>. It is not a separate hurdle you can prepare for afterwards.</p>
 
-<p>"Zero tolerance" is a slogan. The railway uses a number. Under RSSB's rail industry standard <strong>RIS-8070-TOM</strong>, a positive alcohol result for someone doing safety-critical work is <strong>more than 29mg of alcohol per 100ml of blood</strong> &mdash; roughly a quarter of the road driving limit in England and Wales &mdash; within the framework set by the <strong>Transport and Works Act 1992</strong>. Safety-sensitive roles explicitly include maintenance staff, their supervisors and lookouts, not just drivers and signallers.</p>
+<p>"Zero tolerance" is a slogan. The railway uses a number. Under RSSB's rail industry standard <strong>RIS-8070-TOM</strong>, a positive alcohol result for someone doing safety-critical work is <strong>more than 29mg of alcohol per 100ml of blood</strong>, roughly a quarter of the road driving limit in England and Wales, within the framework set by the <strong>Transport and Works Act 1992</strong>. Safety-sensitive roles explicitly include maintenance staff, their supervisors and lookouts, not just drivers and signallers.</p>
 
 <p>On the medical itself, safety-critical rail work carries sight and hearing standards, and the commonly applied hearing threshold is no more than <strong>30dB average loss over 0.5, 1 and 2 kHz</strong>. The brief's instinct that sight and hearing are tested is right; what it missed is that these are defined industry standards, so if you have a known hearing or vision issue it is worth getting the numbers checked before you apply rather than after.</p>
 
@@ -333,13 +333,13 @@ JOBHTML;
     <li><strong>28 days' annual leave, plus bank holidays</strong></li>
     <li><strong>5 volunteer days</strong> to contribute to your favourite causes</li>
     <li><strong>Up to 75% off leisure travel</strong> for you and your family</li>
-    <li><strong>75% subsidy on rail and underground season tickets</strong> &mdash; a separate benefit from the leisure discount</li>
+    <li><strong>75% subsidy on rail and underground season tickets</strong>: a separate benefit from the leisure discount</li>
     <li>Access to a range of <strong>pension and insurance schemes</strong></li>
     <li>Employee assistance programme, cycle to work scheme, discounted online shopping</li>
     <li><strong>Two weeks' paid reserve leave</strong> for members of the Armed Forces community</li>
 </ul>
 
-<p>The travel benefit is the one most guides mangle into a flat "75% off". It is not flat. The leisure half runs through the rail industry's staff travel scheme: the <strong>Rail Staff Leisure Card</strong> gives 75% off Anytime and Off-Peak fares and some Rover and Ranger tickets, and privilege-rate tickets are <strong>leisure only</strong> &mdash; they cannot be used for commuting, duty or business travel. The underlying train operator privilege arrangement is <strong>non-contractual</strong>, reviewed annually by the operators and capable of being withdrawn. Commuting is covered instead by the separate 75% season ticket subsidy. Two schemes, two sets of rules.</p>
+<p>The travel benefit is the one most guides mangle into a flat "75% off". It is not flat. The leisure half runs through the rail industry's staff travel scheme: the <strong>Rail Staff Leisure Card</strong> gives 75% off Anytime and Off-Peak fares and some Rover and Ranger tickets, and privilege-rate tickets are <strong>leisure only</strong>: they cannot be used for commuting, duty or business travel. The underlying train operator privilege arrangement is <strong>non-contractual</strong>, reviewed annually by the operators and capable of being withdrawn. Commuting is covered instead by the separate 75% season ticket subsidy. Two schemes, two sets of rules.</p>
 
 <p>On employer reputation, the claim that Network Rail "has featured in Glassdoor's Top 50 Best Places to Work" is true but stale. Network Rail's own media centre dates it to <strong>13 January 2021</strong>: 29th place, an overall rating of 4.2 out of 5, and described at the time as a first. Treat it as a five-year-old data point, not a current standing.</p>
 
@@ -363,7 +363,7 @@ JOBHTML;
         </tr>
     </thead>
     <tbody>
-        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>8153</strong></td><td style="padding:10px;">Rail construction and maintenance operatives</td><td style="padding:10px;">Not on the list &mdash; cannot be sponsored</td></tr>
+        <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>8153</strong></td><td style="padding:10px;">Rail construction and maintenance operatives</td><td style="padding:10px;">Not on the list: cannot be sponsored</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>3113</strong></td><td style="padding:10px;">Engineering technicians</td><td style="padding:10px;">&pound;42,500</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>5236</strong></td><td style="padding:10px;">Rail and rolling stock builders and repairers</td><td style="padding:10px;">&pound;57,000</td></tr>
         <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:10px;"><strong>5249</strong></td><td style="padding:10px;">Electrical and electronic trades n.e.c.</td><td style="padding:10px;">&pound;45,800</td></tr>
@@ -375,7 +375,7 @@ JOBHTML;
 
 <p>Read that table next to the thresholds. Since <strong>22 July 2025</strong> the general Skilled Worker salary floor has been <strong>&pound;41,700 a year</strong>, and a sponsor must pay <strong>the higher</strong> of that floor and the occupation's going rate. The <strong>Temporary Shortage List</strong> is a narrower door for some RQF 3 to 5 roles at a reduced floor of <strong>&pound;33,400</strong> plus the going rate, and it only covers certificates of sponsorship issued <strong>before 31 December 2026</strong>. None of that rescues a maintenance operative role whose code is not listed in the first place.</p>
 
-<p>Network Rail itself is blunt about the practical position on its schemes: you need the right to work in the UK, and if you hold a student visa you will need to move to a <strong>Graduate visa</strong> before you can join. So this work is open to you if you already hold a right to work &mdash; British or Irish citizenship, settled or pre-settled status, indefinite leave to remain, a partner or family visa, a Graduate visa, or a dependant visa that permits work. It is not a route into the country. If you are applying from abroad, <a href="/blog/jobs-in-uk-for-foreigners">our guide to jobs in UK for foreigners</a> sets out the routes that genuinely exist, and <a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">our BP engineering jobs guide</a> covers the engineering codes that can clear the threshold.</p>
+<p>Network Rail itself is blunt about the practical position on its schemes: you need the right to work in the UK, and if you hold a student visa you will need to move to a <strong>Graduate visa</strong> before you can join. So this work is open to you if you already hold a right to work: British or Irish citizenship, settled or pre-settled status, indefinite leave to remain, a partner or family visa, a Graduate visa, or a dependant visa that permits work. It is not a route into the country. If you are applying from abroad, <a href="/blog/jobs-in-uk-for-foreigners">our guide to jobs in UK for foreigners</a> sets out the routes that genuinely exist, and <a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">our BP engineering jobs guide</a> covers the engineering codes that can clear the threshold.</p>
 
 <h2>Great British Railways May Change Who Employs You</h2>
 
@@ -454,15 +454,15 @@ JOBHTML;
 <p>If Network Rail is one option rather than the only one, these cover the rest of the UK market:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a> &mdash; the engineering codes that can actually clear the sponsorship threshold.</li>
-    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a> &mdash; the nearest eligible trade code to overhead line and distribution work.</li>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the routes that remain once the ineligible occupation codes are ruled out.</li>
-    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a> &mdash; what sponsorship really covers in logistics, and what it does not.</li>
-    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a> &mdash; another large employer where the occupation codes rule out sponsorship.</li>
-    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a> &mdash; shift work indoors, for anyone who has had enough of night possessions.</li>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; the desk-based route for people drawn to the telecoms and signalling side.</li>
-    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a> &mdash; an employer that does publish its hourly rate up front.</li>
-    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a> &mdash; the five year vetting and counter terrorism check that decide the application.</li>
+    <li><a href="/blog/how-to-apply-for-bp-engineering-jobs-in-the-uk">How to Apply for BP Engineering Jobs in the UK</a>: the engineering codes that can actually clear the sponsorship threshold.</li>
+    <li><a href="/blog/electrician-jobs-in-uk">Electrician Jobs in UK</a>: the nearest eligible trade code to overhead line and distribution work.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the routes that remain once the ineligible occupation codes are ruled out.</li>
+    <li><a href="/blog/warehouse-jobs-uk-visa-sponsorship">Warehouse Jobs UK Visa Sponsorship</a>: what sponsorship really covers in logistics, and what it does not.</li>
+    <li><a href="/blog/how-to-apply-for-royal-mail-delivery-jobs-in-the-uk">How to Apply for Royal Mail Delivery Jobs in the UK</a>: another large employer where the occupation codes rule out sponsorship.</li>
+    <li><a href="/blog/how-to-get-a-warehouse-driver-job-in-uk">How to Get a Warehouse Driver Job in UK</a>: shift work indoors, for anyone who has had enough of night possessions.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: the desk-based route for people drawn to the telecoms and signalling side.</li>
+    <li><a href="/blog/how-to-apply-for-marks-and-spencer-retail-jobs-in-the-uk">How to Apply for Marks and Spencer Retail Jobs in the UK</a>: an employer that does publish its hourly rate up front.</li>
+    <li><a href="/blog/how-to-apply-for-heathrow-airport-jobs-in-the-uk">How to Apply for Heathrow Airport Jobs in the UK</a>: the five year vetting and counter terrorism check that decide the application.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using Network Rail's own corporate, careers and early careers pages for network size, roles, apprenticeship pay, entry requirements, medical and drug and alcohol screening, benefits and right-to-work wording; Network Rail's media centre for the Glassdoor ranking; Rail Delivery Group's Rail Staff Travel scheme for privilege travel terms; RSSB rail industry standard RIS-8070-TOM and the Transport and Works Act 1992 for the safety-critical alcohol limit; ONS SOC 2020 for occupation codes; and the Home Office Appendix Skilled Occupations, Temporary Shortage List and Skilled Worker guidance for the visa position. Network Rail vacancy adverts expire quickly, and pay, rosters, industry standards and immigration rules change. Always check the live advert and the official guidance before you commit.</p>

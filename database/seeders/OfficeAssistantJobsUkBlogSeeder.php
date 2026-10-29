@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "Office Assistant Jobs in UK" — a first administrative job in Britain. The
+ * "Office Assistant Jobs in UK": a first administrative job in Britain. The
  * UK-for-foreigners guide owns the Skilled Worker visa in general and the
  * healthcare and IT support guides own their sectors; this one owns the office
  * assistant reality: what the role really pays against the minimum wage, why
@@ -151,7 +151,7 @@ class OfficeAssistantJobsUkBlogSeeder extends Seeder
 <ul>
     <li>GCSEs at grades 9 to 4 (A* to C) including English and maths, or an equivalent</li>
     <li>Practical Microsoft 365 skills and comfortable, accurate typing</li>
-    <li>The right to work in the UK &mdash; most office assistant roles cannot be sponsored</li>
+    <li>The right to work in the UK: most office assistant roles cannot be sponsored</li>
 </ul>
 
 <h3>How the pay works</h3>
@@ -163,7 +163,7 @@ class OfficeAssistantJobsUkBlogSeeder extends Seeder
 <h3>Before you apply</h3>
 <p><strong>Confirm your right to work first,</strong> since it decides which roles are open to you, and be wary of any listing paying below the legal minimum wage.</p>
 
-<p><strong>Note:</strong> pay, requirements and visa eligibility are set by employers and the Home Office &mdash; not by JobGader. Confirm current rules on gov.uk before applying.</p>
+<p><strong>Note:</strong> pay, requirements and visa eligibility are set by employers and the Home Office, not by JobGader. Confirm current rules on gov.uk before applying.</p>
 JOBHTML;
     }
 
@@ -192,7 +192,7 @@ JOBHTML;
     <li>Helping with invoicing or basic finance admin in smaller offices</li>
 </ul>
 
-<p>Listings blend into related titles &mdash; <strong>Administrative Assistant, Office Administrator and Receptionist</strong> &mdash; so search all of them when job hunting.</p>
+<p>Listings blend into related titles, <strong>Administrative Assistant, Office Administrator and Receptionist</strong>, so search all of them when job hunting.</p>
 
 <h2>What Office Assistant Jobs Really Pay in 2026</h2>
 
@@ -237,9 +237,9 @@ JOBHTML;
 
 <ul>
     <li><strong>Settled or pre-settled status</strong> under the EU Settlement Scheme.</li>
-    <li><strong>Graduate visa</strong> &mdash; work in almost any job. It runs 2 years for applications up to 31 December 2026, then 18 months from 1 January 2027 (36 months for PhDs).</li>
-    <li><strong>Youth Mobility Scheme</strong> &mdash; most work allowed, no job offer or sponsor needed.</li>
-    <li><strong>Dependant or partner visa</strong> &mdash; generally permits work without separate sponsorship.</li>
+    <li><strong>Graduate visa</strong>: work in almost any job. It runs 2 years for applications up to 31 December 2026, then 18 months from 1 January 2027 (36 months for PhDs).</li>
+    <li><strong>Youth Mobility Scheme</strong>: most work allowed, no job offer or sponsor needed.</li>
+    <li><strong>Dependant or partner visa</strong>: generally permits work without separate sponsorship.</li>
 </ul>
 
 <figure style="text-align:center;margin:34px 0;">
@@ -253,22 +253,22 @@ JOBHTML;
 <ul>
     <li>GCSEs at grades 9 to 4 (A* to C) including English and maths, or an equivalent</li>
     <li>Practical Microsoft 365 skills (Word, Excel, Outlook, Teams)</li>
-    <li>Fast, accurate typing &mdash; many employers value around 40 WPM, though this is an employer expectation, not an official requirement</li>
+    <li>Fast, accurate typing: many employers value around 40 WPM, though this is an employer expectation, not an official requirement</li>
     <li>Strong organisation, attention to detail and clear communication</li>
     <li>The right to work in the UK</li>
 </ul>
 
-<p>Experience is not always required &mdash; many part-time and junior listings are genuinely open to first-time candidates.</p>
+<p>Experience is not always required: many part-time and junior listings are genuinely open to first-time candidates.</p>
 
 <h2>How to Apply for an Office Assistant Job</h2>
 
 <ol>
     <li><strong>Confirm your right-to-work status</strong> first, since it decides which roles are realistically open to you.</li>
-    <li><strong>Search broadly</strong> &mdash; add "Administrative Assistant", "Office Administrator" and "Receptionist" to "Office Assistant".</li>
+    <li><strong>Search broadly</strong>: add "Administrative Assistant", "Office Administrator" and "Receptionist" to "Office Assistant".</li>
     <li><strong>Tailor your CV</strong> to organisation, IT skills and any clerical or customer-facing experience.</li>
     <li><strong>Apply through Indeed, LinkedIn or company career pages</strong> rather than unverified agencies.</li>
-    <li><strong>Prepare for a practical interview</strong> &mdash; many employers test basic Microsoft Office skills or typing.</li>
-    <li><strong>Ask about progression</strong> &mdash; office assistant roles often lead to office manager, executive assistant or coordinator jobs.</li>
+    <li><strong>Prepare for a practical interview</strong>: many employers test basic Microsoft Office skills or typing.</li>
+    <li><strong>Ask about progression</strong>: office assistant roles often lead to office manager, executive assistant or coordinator jobs.</li>
 </ol>
 
 <h2>Frequently Asked Questions</h2>
@@ -328,16 +328,16 @@ JOBHTML;
 <p>Looking at other UK routes and related roles? These cover them:</p>
 
 <ul>
-    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a> &mdash; the Skilled Worker visa in full, the thresholds and which jobs can be sponsored.</li>
-    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a> &mdash; the same role and its pay across the Atlantic.</li>
-    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a> &mdash; the role, the award pay and the visa position in Australia.</li>
-    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a> &mdash; remote and hybrid admin roles, and how the pay compares.</li>
-    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a> &mdash; an entry route that can still be sponsored, and the NHS pay bands.</li>
-    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a> &mdash; another first job in Britain, and what it pays.</li>
-    <li><a href="/blog/school-administrator-jobs-in-uk">School Administrator Jobs in UK</a> &mdash; school office duties, FTE vs actual pay on term-time contracts, routes in and where schools advertise.</li>
-    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a> &mdash; the ONS salary picture, apprenticeship and Civil Service routes, and the SOC 2431 visa rules.</li>
-    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a> &mdash; ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
-    <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a> &mdash; why GP practice pay is not NHS pay, and what care navigation added to the job.</li>
+    <li><a href="/blog/jobs-in-uk-for-foreigners">Jobs in UK for Foreigners</a>: the Skilled Worker visa in full, the thresholds and which jobs can be sponsored.</li>
+    <li><a href="/blog/administrative-assistant-jobs-in-usa">Administrative Assistant Jobs in USA</a>: the same role and its pay across the Atlantic.</li>
+    <li><a href="/blog/office-assistant-jobs-in-australia">Office Assistant Jobs in Australia</a>: the role, the award pay and the visa position in Australia.</li>
+    <li><a href="/blog/work-from-home-jobs-in-uk">Work From Home Jobs in UK</a>: remote and hybrid admin roles, and how the pay compares.</li>
+    <li><a href="/blog/healthcare-support-jobs-in-uk">Healthcare Support Jobs in UK</a>: an entry route that can still be sponsored, and the NHS pay bands.</li>
+    <li><a href="/blog/it-support-jobs-in-uk">IT Support Jobs in UK</a>: another first job in Britain, and what it pays.</li>
+    <li><a href="/blog/school-administrator-jobs-in-uk">School Administrator Jobs in UK</a>: school office duties, FTE vs actual pay on term-time contracts, routes in and where schools advertise.</li>
+    <li><a href="/blog/business-analyst-jobs-in-uk">Business Analyst Jobs in UK</a>: the ONS salary picture, apprenticeship and Civil Service routes, and the SOC 2431 visa rules.</li>
+    <li><a href="/blog/how-to-apply-for-lloyds-graduate-jobs-in-the-uk">How to Apply for Lloyds Graduate Jobs in the UK</a>: ten schemes with published salaries, and the sponsorship answer that rules most readers out.</li>
+    <li><a href="/blog/medical-receptionist-jobs-in-the-uk">Medical Receptionist Jobs in the UK</a>: why GP practice pay is not NHS pay, and what care navigation added to the job.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes and is not immigration or careers advice. Minimum wage rates, visa thresholds and skill rules change. Confirm current pay and right-to-work and Skilled Worker requirements with gov.uk before applying.</p>

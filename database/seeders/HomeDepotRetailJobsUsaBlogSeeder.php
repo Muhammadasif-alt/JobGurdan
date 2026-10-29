@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
 /**
- * "How to Apply for Home Depot Retail Jobs in the USA" — an employer guide
+ * "How to Apply for Home Depot Retail Jobs in the USA": an employer guide
  * built on Home Depot's own careers site, its own live job postings, its
  * fiscal 2025 Form 10-K and its own newsroom, rather than the job-board
  * averages the draft relied on.
@@ -185,7 +185,7 @@ class HomeDepotRetailJobsUsaBlogSeeder extends Seeder
 </ul>
 
 <h3>Before you apply</h3>
-<p><strong>Note:</strong> pay, shifts and hiring decisions are set by The Home Depot, and work authorisation rules are set by the US authorities &mdash; not by JobGader. Apply directly on Home Depot's own careers site and never pay anyone for a Home Depot job.</p>
+<p><strong>Note:</strong> pay, shifts and hiring decisions are set by The Home Depot, and work authorisation rules are set by the US authorities, not by JobGader. Apply directly on Home Depot's own careers site and never pay anyone for a Home Depot job.</p>
 JOBHTML;
     }
 
@@ -194,7 +194,7 @@ JOBHTML;
         return <<<'HTML'
 <p><strong>Apply on Home Depot's own careers site, pick the retail career area, choose a store near you and apply from your phone or a desktop.</strong> Home Depot runs 2,035 stores in the United States and employs about 422,500 people here, the overwhelming majority of them hourly.</p>
 
-<p>One thing to get straight before you read another guide. <strong>Home Depot does publish pay itself</strong>, on its own job postings, in every state that requires it. So there is no reason to quote a job board's guess at a "Home Depot average" &mdash; and this guide does not.</p>
+<p>One thing to get straight before you read another guide. <strong>Home Depot does publish pay itself</strong>, on its own job postings, in every state that requires it. So there is no reason to quote a job board's guess at a "Home Depot average", and this guide does not.</p>
 
 <div style="text-align:center;margin:32px 0;">
     <a href="https://careers.homedepot.com/career-areas/retail/" target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:#f96302;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
@@ -282,12 +282,12 @@ JOBHTML;
 
 <ul>
     <li><strong>Vision cover</strong> on the $120 plan free to <em>all</em> associates, with dental also open to all; medical, spending accounts and an HSA are full-time only</li>
-    <li><strong>Paid vacation</strong> &mdash; 40 hours for full-time hourly and 20 hours for part-time hourly, both after six months of continuous service; temporary associates are not eligible</li>
+    <li><strong>Paid vacation</strong>: 40 hours for full-time hourly and 20 hours for part-time hourly, both after six months of continuous service; temporary associates are not eligible</li>
     <li><strong>Six paid holidays</strong>, paid sick leave, and paid parental leave for eligible associates</li>
     <li><strong>Profit-sharing bonuses</strong>, described as financial incentives on top of the hourly wage, with the percentage varying by location and company performance</li>
     <li><strong>Employee Stock Purchase Plan</strong> at a 15% discount, subject to a cap, through payroll deduction</li>
     <li><strong>401(k) with company match</strong>, tuition reimbursement, scholarships and discounted tuition at partner colleges</li>
-    <li><strong>Employee Assistance Program</strong> &mdash; six free counselling sessions per situation per year, extended to spouses, children and household members</li>
+    <li><strong>Employee Assistance Program</strong>: six free counselling sessions per situation per year, extended to spouses, children and household members</li>
 </ul>
 
 <p>On pay investment specifically, Home Depot announced on 21 February 2023 that it would put approximately <strong>$1 billion in additional annualised compensation</strong> into frontline hourly associates from the first quarter of fiscal 2023, covering wage, benefits, training and career development. It did not attach a per-hour figure to that announcement, and neither should anyone else.</p>
@@ -297,10 +297,10 @@ JOBHTML;
 <p>Home Depot's retail page states that <strong>roughly 90% of its store leaders started as hourly associates</strong>, and that the company puts over a million hours a year into front-line training and development through Home Depot University. The named in-store ladder runs:</p>
 
 <ol>
-    <li><strong>Department Supervisor</strong> &mdash; develops a team through training and coaching across multiple departments.</li>
-    <li><strong>Customer Experience Manager</strong> &mdash; handles customer escalations and supports associates.</li>
-    <li><strong>Night Replenishment Manager</strong> &mdash; works with night operations so product flows from unloading to overhead stock.</li>
-    <li><strong>Assistant Store Manager</strong> &mdash; hands-on development of associates and running a business area.</li>
+    <li><strong>Department Supervisor</strong>: develops a team through training and coaching across multiple departments.</li>
+    <li><strong>Customer Experience Manager</strong>: handles customer escalations and supports associates.</li>
+    <li><strong>Night Replenishment Manager</strong>: works with night operations so product flows from unloading to overhead stock.</li>
+    <li><strong>Assistant Store Manager</strong>: hands-on development of associates and running a business area.</li>
 </ol>
 
 <p>In the Washington store above, the step from Cashier to Department Supervisor was worth <strong>$3 to $4 an hour</strong> on the published ranges. That is the realistic first promotion, not a jump to management.</p>
@@ -327,7 +327,7 @@ JOBHTML;
 
 <p>If you are reading this from outside the United States, here is the part most guides skip. <strong>Home Depot advertises no visa sponsorship on any of its hourly store role pages.</strong> Those adverts assume you already hold US work authorisation, and every US employer must verify eligibility before you start.</p>
 
-<p>The only permanent category aimed at work needing less than two years of training is <strong>EB-3 Other Workers</strong>. US Citizenship and Immigration Services states it requires an approved labor certification and a <strong>permanent, full-time job offer from a US employer</strong> &mdash; meaning the employer must file first, and large hourly retailers do not do this for shop-floor roles. If an agent offers you a sponsored Home Depot store job, that is the claim to test, and it will not survive.</p>
+<p>The only permanent category aimed at work needing less than two years of training is <strong>EB-3 Other Workers</strong>. US Citizenship and Immigration Services states it requires an approved labor certification and a <strong>permanent, full-time job offer from a US employer</strong>: meaning the employer must file first, and large hourly retailers do not do this for shop-floor roles. If an agent offers you a sponsored Home Depot store job, that is the claim to test, and it will not survive.</p>
 
 <p>If you already have work authorisation, none of this applies to you and the process is exactly as described above. Our <a href="/blog/unskilled-jobs-in-usa-for-foreigners">guide to unskilled jobs in the USA for foreigners</a> sets out which routes genuinely exist.</p>
 
@@ -388,16 +388,16 @@ JOBHTML;
 <p>Comparing the big US hourly employers, or looking at the wider retail market? These cover it:</p>
 
 <ul>
-    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a> &mdash; the closest comparison, and the pay Walmart publishes itself.</li>
-    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a> &mdash; warehouse work at the other end of the same supply chain.</li>
-    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a> &mdash; part-time shifts with union contract pay.</li>
-    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a> &mdash; factory work with a published hourly range.</li>
-    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a> &mdash; what the role pays across employers, not just one.</li>
-    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a> &mdash; the checkout route in, and where it leads.</li>
-    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a> &mdash; the wider market and which chains are actually hiring.</li>
-    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a> &mdash; the same skills, in and out of store.</li>
-    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a> &mdash; what the certification is worth once you have it.</li>
-    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a> &mdash; the desk-based alternative if shifts do not suit.</li>
+    <li><a href="/blog/how-to-apply-for-walmart-store-associate-jobs-in-the-usa">How to Apply for Walmart Store Associate Jobs in the USA</a>: the closest comparison, and the pay Walmart publishes itself.</li>
+    <li><a href="/blog/how-to-apply-for-amazon-fulfillment-center-jobs-in-usa">How to Apply for Amazon Fulfillment Center Jobs in USA</a>: warehouse work at the other end of the same supply chain.</li>
+    <li><a href="/blog/how-to-apply-for-ups-package-handler-jobs-in-the-usa">How to Apply for UPS Package Handler Jobs in the USA</a>: part-time shifts with union contract pay.</li>
+    <li><a href="/blog/how-to-apply-for-tesla-production-jobs-in-the-usa">How to Apply for Tesla Production Jobs in the USA</a>: factory work with a published hourly range.</li>
+    <li><a href="/blog/retail-associate-jobs-in-usa">Retail Associate Jobs in USA</a>: what the role pays across employers, not just one.</li>
+    <li><a href="/blog/cashier-jobs-in-usa">Cashier Jobs in USA</a>: the checkout route in, and where it leads.</li>
+    <li><a href="/blog/retail-jobs-in-usa">Retail Jobs in USA</a>: the wider market and which chains are actually hiring.</li>
+    <li><a href="/blog/customer-service-jobs-in-usa">Customer Service Jobs in USA</a>: the same skills, in and out of store.</li>
+    <li><a href="/blog/forklift-operator-jobs-in-usa">Forklift Operator Jobs in USA</a>: what the certification is worth once you have it.</li>
+    <li><a href="/blog/how-to-get-an-entry-level-office-job-with-no-experience">How to Get an Entry-Level Office Job With No Experience</a>: the desk-based alternative if shifts do not suit.</li>
 </ul>
 
 <p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes, using The Home Depot's own careers site and live job postings, its fiscal 2025 Form 10-K filed on 18 March 2026, its corporate newsroom and investor relations releases, its published benefits pages, Bureau of Labor Statistics wage data, the US Department of Labor on the federal minimum wage, and US Citizenship and Immigration Services on employment-based immigration. Published pay ranges are store and state specific and change without notice. Always read the live advert for the store you are applying to before you commit.</p>

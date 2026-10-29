@@ -153,7 +153,7 @@ class B2bLeadResearchJobsBlogSeeder extends Seeder
 <h3>Tools that appear in listings</h3>
 <p>Apollo, LinkedIn Sales Navigator, Google Sheets, Excel and a CRM are the common four. Learn the ones named in the listing you are applying to rather than paying for a stack in advance.</p>
 
-<p>Requirements, eligibility and pay are set by individual employers &mdash; not by JobGader. Never pay anyone to secure a job, and never publish a client's prospect data in a portfolio.</p>
+<p>Requirements, eligibility and pay are set by individual employers, not by JobGader. Never pay anyone to secure a job, and never publish a client's prospect data in a portfolio.</p>
 JOBHTML;
     }
 
@@ -190,13 +190,13 @@ JOBHTML;
 <p>"B2B Lead Researcher" is a real title but not a common one. Searching only that phrase will show you a fraction of the market. The same work is advertised as:</p>
 
 <ul>
-    <li><strong>Lead Generation Specialist</strong> and <strong>Lead Research Specialist</strong> &mdash; the closest international equivalents.</li>
-    <li><strong>Market Research Executive</strong> &mdash; broader, sometimes genuinely analytical rather than list building.</li>
-    <li><strong>Data Enrichment Specialist</strong> and <strong>List Building Specialist</strong> &mdash; agency and freelance phrasing.</li>
-    <li><strong>Prospect Researcher</strong> &mdash; also used in charity fundraising, where it means something different, so check the sector before applying.</li>
-    <li><strong>Sales Research Analyst</strong> and <strong>Account Researcher</strong> &mdash; used inside larger sales organisations.</li>
-    <li><strong>Business Development Executive (Lead Generation)</strong> &mdash; the standard Pakistani phrasing, and usually includes outreach.</li>
-    <li><strong>Online Bidder</strong> &mdash; a Pakistani title with no international equivalent. It is Upwork and Fiverr proposal work, not research, despite often being grouped with it.</li>
+    <li><strong>Lead Generation Specialist</strong> and <strong>Lead Research Specialist</strong>: the closest international equivalents.</li>
+    <li><strong>Market Research Executive</strong>: broader, sometimes genuinely analytical rather than list building.</li>
+    <li><strong>Data Enrichment Specialist</strong> and <strong>List Building Specialist</strong>: agency and freelance phrasing.</li>
+    <li><strong>Prospect Researcher</strong>: also used in charity fundraising, where it means something different, so check the sector before applying.</li>
+    <li><strong>Sales Research Analyst</strong> and <strong>Account Researcher</strong>: used inside larger sales organisations.</li>
+    <li><strong>Business Development Executive (Lead Generation)</strong>: the standard Pakistani phrasing, and usually includes outreach.</li>
+    <li><strong>Online Bidder</strong>: a Pakistani title with no international equivalent. It is Upwork and Fiverr proposal work, not research, despite often being grouped with it.</li>
 </ul>
 
 <p>Search several of these rather than one. On the Pakistani boards the research-only roles are the minority; most local listings bundle research with outreach.</p>
@@ -328,7 +328,7 @@ JOBHTML;
 
 <p>Every firmographic field in a prospecting database has a provenance, and almost none of them are filed figures. Knowing which is which stops you from qualifying accounts on numbers that were never true.</p>
 
-<p><strong>The employee count on a professional network is not headcount.</strong> LinkedIn's own help pages define the figure as <em>"the total number of LinkedIn members employed at the company over time"</em> &mdash; that is, a count of profiles, not of staff. LinkedIn then warns directly that <em>"actual employee counts may differ from what we have computed"</em>, citing the company's industry, how often it updates its self-reported numbers, and <em>"differences between what a company counts as an employee and how an employee represents themself on LinkedIn"</em>.</p>
+<p><strong>The employee count on a professional network is not headcount.</strong> LinkedIn's own help pages define the figure as <em>"the total number of LinkedIn members employed at the company over time"</em>: that is, a count of profiles, not of staff. LinkedIn then warns directly that <em>"actual employee counts may differ from what we have computed"</em>, citing the company's industry, how often it updates its self-reported numbers, and <em>"differences between what a company counts as an employee and how an employee represents themself on LinkedIn"</em>.</p>
 
 <p>In practice that means the number runs high where ex-employees never updated their profiles, and low in industries and countries where fewer people use the platform at all. It is a proxy, and LinkedIn says so.</p>
 
@@ -549,11 +549,11 @@ JOBHTML;
 <p>Research roles are reported on separately from outreach roles, and you should agree which numbers are yours before you start:</p>
 
 <ul>
-    <li><strong>Accounts researched</strong> and <strong>accounts qualified</strong> &mdash; volume, and the share that met the brief.</li>
-    <li><strong>Data accuracy rate</strong> &mdash; usually sampled by a reviewer rather than measured on the whole list.</li>
-    <li><strong>Bounce rate on delivered contacts</strong> &mdash; fair to measure you on, but only if unconfirmed rows were excluded from sending.</li>
-    <li><strong>Duplicate rate</strong> &mdash; should be near zero if you deduplicate on the domain.</li>
-    <li><strong>Coverage</strong> &mdash; the share of target accounts where a relevant decision maker was found at all.</li>
+    <li><strong>Accounts researched</strong> and <strong>accounts qualified</strong>: volume, and the share that met the brief.</li>
+    <li><strong>Data accuracy rate</strong>, usually sampled by a reviewer rather than measured on the whole list.</li>
+    <li><strong>Bounce rate on delivered contacts</strong>: fair to measure you on, but only if unconfirmed rows were excluded from sending.</li>
+    <li><strong>Duplicate rate</strong>: should be near zero if you deduplicate on the domain.</li>
+    <li><strong>Coverage</strong>: the share of target accounts where a relevant decision maker was found at all.</li>
 </ul>
 
 <p>Reply rate, meetings booked and revenue are <em>not</em> research metrics. They depend on the message, the offer, the timing and the sender's reputation, none of which you control. Push back politely if a contract ties your pay to them while your role stops at the list.</p>
@@ -633,14 +633,14 @@ JOBHTML;
 <h2>More Job Guides</h2>
 
 <ul>
-    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a> &mdash; what these roles pay in Pakistan, and the outreach rules that apply once you start sending.</li>
-    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a> &mdash; the titles that actually surface vacancies, and the tools that get accounts restricted.</li>
-    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a> &mdash; the adjacent role, and how to tell a genuine listing from a scam.</li>
-    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a> &mdash; realistic entry points and what they pay.</li>
-    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a> &mdash; a broader remote route that often includes research work.</li>
-    <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a> &mdash; what the daily quotas really mean once you do the arithmetic.</li>
-    <li><a href="/blog/online-research-assistant-jobs">Online Research Assistant Jobs</a> &mdash; the same label used by academic, commercial and fake listings alike, and how to tell them apart.</li>
-    <li><a href="/blog/appointment-setting-jobs">Appointment Setting Jobs</a> &mdash; what happens to the list once it is built, and the calling law that governs it.</li>
+    <li><a href="/blog/lead-generation-assistant-jobs">Lead Generation Assistant Jobs</a>: what these roles pay in Pakistan, and the outreach rules that apply once you start sending.</li>
+    <li><a href="/blog/how-to-find-lead-generation-jobs-on-linkedin">How to Find Lead Generation Jobs on LinkedIn</a>: the titles that actually surface vacancies, and the tools that get accounts restricted.</li>
+    <li><a href="/blog/remote-data-entry-jobs">Remote Data Entry Jobs</a>: the adjacent role, and how to tell a genuine listing from a scam.</li>
+    <li><a href="/blog/remote-jobs-in-pakistan-with-no-experience">Remote Jobs in Pakistan with No Experience</a>: realistic entry points and what they pay.</li>
+    <li><a href="/blog/how-to-become-a-remote-virtual-assistant">How to Become a Remote Virtual Assistant</a>: a broader remote route that often includes research work.</li>
+    <li><a href="/blog/contact-list-building-jobs">Contact List Building Jobs</a>: what the daily quotas really mean once you do the arithmetic.</li>
+    <li><a href="/blog/online-research-assistant-jobs">Online Research Assistant Jobs</a>: the same label used by academic, commercial and fake listings alike, and how to tell them apart.</li>
+    <li><a href="/blog/appointment-setting-jobs">Appointment Setting Jobs</a>: what happens to the list once it is built, and the calling law that governs it.</li>
 </ul>
 HTML;
     }
