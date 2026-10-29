@@ -155,7 +155,7 @@ it('replaces the job-board specialisation table with BLS industry medians', func
     'food manufacturing' => '$64,760',
     'warehousing' => '$66,150',
     'local government' => '$79,360',
-    'epa types' => 'Type III</strong> &mdash; low-pressure equipment',
+    'epa types' => 'Type III</strong>: low-pressure equipment',
     'no expiry' => 'Section 608 credentials do not expire',
     'reta voluntary' => 'They are voluntary',
     'texas contractor' => '48 months of practical experience',

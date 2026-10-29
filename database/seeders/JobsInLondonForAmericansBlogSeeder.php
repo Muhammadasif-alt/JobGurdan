@@ -102,7 +102,7 @@ class JobsInLondonForAmericansBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'London Licensed Sponsors: Finance, Technology, Universities & NHS Trusts (Aggregated)'],
+            ['name' => 'London Licensed Sponsors — Finance, Technology, Universities & NHS Trusts (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'london-american-applicants-aggregated']
         );
 

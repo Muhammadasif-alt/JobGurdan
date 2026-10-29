@@ -95,7 +95,7 @@ class CollegesHiringProfessorsUsBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'US Community Colleges & Four-Year Institutions: Teaching Vacancies (Aggregated)'],
+            ['name' => 'US Community Colleges & Four-Year Institutions — Teaching Vacancies (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'us-colleges-hiring-aggregated']
         );
 

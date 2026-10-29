@@ -100,7 +100,7 @@ class VacanciesInLondonBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'London Employers: Boroughs, NHS Trusts, Universities & Private Sector (Aggregated)'],
+            ['name' => 'London Employers — Boroughs, NHS Trusts, Universities & Private Sector (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'london-vacancies-aggregated']
         );
 

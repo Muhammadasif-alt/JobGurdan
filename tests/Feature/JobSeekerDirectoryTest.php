@@ -96,6 +96,15 @@ it('finds candidates by skill, which is what the page promises', function () {
         ->assertDontSee('Other Person');
 });
 
+it('lists a candidate without a headline under a placeholder line', function () {
+    seeker(['skills' => 'PHP, Laravel']);
+    seeker(['name' => 'Other Person', 'username' => 'other.person', 'email' => 'other@example.test', 'headline' => 'Laravel developer', 'skills' => 'PHP']);
+
+    get('/job-seekers')->assertOk()
+        ->assertSee('Profile in progress: no headline yet.')
+        ->assertSee('Laravel developer');
+});
+
 it('seeds only consenting candidates, with no password and no invented detail', function () {
     $this->seed(RealJobSeekersSeeder::class);
 

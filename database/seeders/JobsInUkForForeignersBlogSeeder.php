@@ -99,7 +99,7 @@ class JobsInUkForForeignersBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'UK Licensed Sponsors: NHS Trusts, Tech, Engineering & Schools (Aggregated)'],
+            ['name' => 'UK Licensed Sponsors — NHS Trusts, Tech, Engineering & Schools (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'uk-foreign-workers-aggregated']
         );
 

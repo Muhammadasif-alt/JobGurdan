@@ -409,7 +409,7 @@
                                     </span>
                                 </div>
                             </div>
-                            <p class="js-card-headline">{{ $profile['headline'] ? 'Profile in progress: no headline yet.' }}</p>
+                            <p class="js-card-headline">{{ $profile['headline'] ?: 'Profile in progress: no headline yet.' }}</p>
                             <div class="js-skills">
                                 @foreach(array_slice($profile['skills'], 0, 4) as $skill)
                                     <span class="js-skill">{{ $skill }}</span>

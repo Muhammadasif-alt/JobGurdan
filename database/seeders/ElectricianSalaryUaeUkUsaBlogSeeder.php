@@ -97,7 +97,7 @@ class ElectricianSalaryUaeUkUsaBlogSeeder extends Seeder
         );
 
         $ukAdvertiser = Advertiser::firstOrCreate(
-            ['name' => 'UK Electrical Contracting Employers: JIB Graded Roles (Aggregated)'],
+            ['name' => 'UK Electrical Contracting Employers — JIB Graded Roles (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'uk-jib-electrician-aggregated']
         );
 

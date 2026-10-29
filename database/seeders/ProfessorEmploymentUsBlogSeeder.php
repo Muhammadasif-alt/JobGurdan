@@ -94,7 +94,7 @@ class ProfessorEmploymentUsBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'US Universities & Four-Year Colleges: Professorial Ranks (Aggregated)'],
+            ['name' => 'US Universities & Four-Year Colleges — Professorial Ranks (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'us-professor-ranks-aggregated']
         );
 

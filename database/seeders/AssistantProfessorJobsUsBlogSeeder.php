@@ -93,7 +93,7 @@ class AssistantProfessorJobsUsBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'US University Departments: Assistant Professor Searches (Aggregated)'],
+            ['name' => 'US University Departments — Assistant Professor Searches (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'us-assistant-professor-aggregated']
         );
 

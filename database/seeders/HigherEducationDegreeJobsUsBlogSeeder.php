@@ -98,7 +98,7 @@ class HigherEducationDegreeJobsUsBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'US Colleges & Universities: Administration, Advising and Student Services (Aggregated)'],
+            ['name' => 'US Colleges & Universities — Administration, Advising and Student Services (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'us-higher-ed-admin-aggregated']
         );
 

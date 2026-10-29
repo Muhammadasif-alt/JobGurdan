@@ -98,7 +98,7 @@ class FacultyCareersUsBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'US Colleges, Universities & Community Colleges: Faculty Appointments (Aggregated)'],
+            ['name' => 'US Colleges, Universities & Community Colleges — Faculty Appointments (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'us-faculty-aggregated']
         );
 

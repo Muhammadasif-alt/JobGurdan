@@ -97,7 +97,7 @@ class UkJobsWithVisaSponsorshipBlogSeeder extends Seeder
     private function seedJob(): void
     {
         $advertiser = Advertiser::firstOrCreate(
-            ['name' => 'UK Licensed Sponsors: Skilled Worker Route Employers (Aggregated)'],
+            ['name' => 'UK Licensed Sponsors — Skilled Worker Route Employers (Aggregated)'],
             ['type' => 'Private', 'display_reference' => 'uk-licensed-sponsors-aggregated']
         );
 
