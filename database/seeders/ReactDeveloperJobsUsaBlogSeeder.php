@@ -341,9 +341,9 @@ JOBHTML;
 
 <p>At the other end of the same market, large product companies and banks advertise the same work as "software engineer" and pay in base, equity and bonus rather than salary alone. Our <a href="/blog/react-software-engineer-jobs-in-usa">React software engineer guide</a> covers what that structure is worth and how each part is taxed, including the day your shares become a payday and the election you will be told to file that cannot be filed.</p>
 
-<p>And if you are still studying, the way in is an internship. Our <a href="/blog/react-developer-internship-jobs-in-usa">React developer internship guide</a> covers the question that decides whether one is worth taking, which is whether it has to be paid, and how an F-1 student takes one at all.</p>
+<p>And if you are still studying, the way in is an internship. Our <a href="/blog/entry-level-react-developer-jobs-in-usa">React developer internship guide</a> covers the question that decides whether one is worth taking, which is whether it has to be paid, and how an F-1 student takes one at all.</p>
 
-<p>Two of the commonest variants of this advert are worth reading properly rather than skipping. When one names JavaScript separately from React, it means to test the language separately, and our <a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React guide</a> shows which of those questions come from the language standard and which from the browser one. When it names TypeScript, our <a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript guide</a> explains what the types do at compile time and why they cannot protect you from an API response.</p>
+<p>Two of the commonest variants of this advert are worth reading properly rather than skipping. When one names JavaScript separately from React, it means to test the language separately, and our <a href="/blog/react-typescript-developer-jobs-in-usa">JavaScript React guide</a> shows which of those questions come from the language standard and which from the browser one. When it names TypeScript, our <a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript guide</a> explains what the types do at compile time and why they cannot protect you from an API response.</p>
 
 <p>One last thing about reading these adverts. Whether the pay band appears at all is often not the employer's choice: ten US states and New York City now require the range in the posting, and several of those rules reach remote roles advertised from anywhere. Our <a href="/blog/react-front-end-engineer-jobs-in-usa">React front end engineer guide</a> sets out which states, which tests, and how to use them to see bands before you spend an application.</p>
 
@@ -369,7 +369,7 @@ JOBHTML;
     <li>For freelance work, include one short case study with a before-and-after number: load time, bundle size, conversion.</li>
 </ul>
 
-<p>Our <a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">guide to applying for React developer jobs</a> takes the process itself apart: what a federal application demands that a commercial one does not, what an employer is allowed to ask you, when a background check needs your written permission, and how to spot a job scam before it costs you.</p>
+<p>Our <a href="/blog/entry-level-react-developer-jobs-in-usa">guide to applying for React developer jobs</a> takes the process itself apart: what a federal application demands that a commercial one does not, what an employer is allowed to ask you, when a background check needs your written permission, and how to spot a job scam before it costs you.</p>
 
 <h2>Frequently Asked Questions</h2>
 

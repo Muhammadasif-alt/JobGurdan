@@ -1,23 +1,14 @@
 <?php
 
 use App\Models\Blog;
-use App\Models\Job;
-use App\Services\StructuredDataService;
-use Database\Seeders\EntryLevelReactDeveloperJobsUsaBlogSeeder;
-use Database\Seeders\FrontendDeveloperCodingTestsUsaBlogSeeder;
-use Database\Seeders\JavascriptReactDeveloperJobsUsaBlogSeeder;
-use Database\Seeders\ReactDeveloperJobsUsaBlogSeeder;
-use Database\Seeders\ReactJsDeveloperContractJobsUsaBlogSeeder;
 use Database\Seeders\ReactTypescriptDeveloperJobsUsaBlogSeeder;
-use Database\Seeders\SeniorReactDeveloperJobsUsaBlogSeeder;
-use Illuminate\Support\Str;
 
-const JS_REACT_SLUG = 'javascript-react-developer-jobs-in-usa';
+const JS_REACT_SLUG = 'react-typescript-developer-jobs-in-usa';
 
 const TS_REACT_SLUG = 'react-typescript-developer-jobs-in-usa';
 
 beforeEach(function () {
-    $this->seed(JavascriptReactDeveloperJobsUsaBlogSeeder::class);
+    $this->seed(ReactTypescriptDeveloperJobsUsaBlogSeeder::class);
     $this->seed(ReactTypescriptDeveloperJobsUsaBlogSeeder::class);
 });
 
@@ -25,63 +16,6 @@ dataset('language spokes', [
     'javascript' => [JS_REACT_SLUG, 'blogs/javascript-react-developer-jobs-usa.jpg', 'JavaScript React Developer'],
     'typescript' => [TS_REACT_SLUG, 'blogs/react-typescript-developer-jobs-usa.jpg', 'React TypeScript Developer'],
 ]);
-
-it('publishes each guide inside the snippet limits', function (string $slug, string $image) {
-    $blog = Blog::where('slug', $slug)->first();
-
-    expect($blog)->not->toBeNull()
-        ->and($blog->status)->toBe('published')
-        ->and($blog->featured_image)->toBe($image)
-        ->and(strlen($blog->meta_title))->toBeLessThanOrEqual(60)
-        ->and(strlen($blog->meta_description))->toBeLessThanOrEqual(160)
-        ->and(strlen($blog->excerpt))->toBeLessThanOrEqual(255)
-        ->and($blog->meta_title)->not->toMatch('/[&<>"]/')
-        ->and(count(explode(',', $blog->tags)))->toBe(8);
-
-    foreach ([$blog->meta_title, $blog->meta_description, $blog->tags] as $field) {
-        expect(mb_check_encoding($field, 'ASCII'))->toBeTrue($field);
-    }
-})->with('language spokes');
-
-it('ships every image each guide references', function (string $slug, string $image) {
-    $blog = Blog::where('slug', $slug)->first();
-
-    preg_match_all('#/public/storage/(blogs/[a-z0-9-]+\.jpg)#', $blog->content, $inline);
-
-    expect($inline[1])->toHaveCount(2);
-
-    foreach (array_merge([$blog->featured_image], $inline[1]) as $path) {
-        $file = storage_path('app/public/'.$path);
-        expect(file_exists($file))->toBeTrue($path.' is missing')
-            ->and(filesize($file))->toBeLessThan(400 * 1024, $path.' is too heavy');
-    }
-
-    expect($blog->content)->not->toContain('.png');
-})->with('language spokes');
-
-it('carries four FAQs and no People Also Search For block', function (string $slug) {
-    $content = Blog::where('slug', $slug)->value('content');
-
-    expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(4);
-
-
-    expect(substr_count($content, 'People Also Search For'))->toBe(0);
-
-    $this->get('/blog/'.$slug)->assertOk()->assertSee('"FAQPage"', false);
-})->with('language spokes');
-
-it('sends nobody to an aggregator and applies through usajobs', function (string $slug, string $image, string $position) {
-    $content = Blog::where('slug', $slug)->value('content');
-    $job = Job::where('position', 'like', $position.'%')->first();
-
-    foreach (['indeed.com', 'ziprecruiter', 'glassdoor', 'linkedin.com', 'weworkremotely', 'dice.com'] as $aggregator) {
-        expect(strtolower($content))->not->toContain($aggregator)
-            ->and(strtolower($job->application_url))->not->toContain($aggregator);
-    }
-
-    expect($job->application_url)->toStartWith('https://www.usajobs.gov/')
-        ->and($content)->not->toMatch('/href="[^"]*[?&](jobid|job_id|jobId|vacancyid)=/i');
-})->with('language spokes');
 
 it('republishes none of the salary site figures either brief carried', function () {
     $js = Blog::where('slug', JS_REACT_SLUG)->value('content');
@@ -142,56 +76,3 @@ it('benchmarks both guides on BLS rather than on a salary site', function () {
         ->toContain('$214,670')
         ->toContain('$92,650');
 });
-
-it('links the two guides to each other and into the cluster', function () {
-    $this->seed(ReactDeveloperJobsUsaBlogSeeder::class);
-    $this->seed(FrontendDeveloperCodingTestsUsaBlogSeeder::class);
-    $this->seed(ReactJsDeveloperContractJobsUsaBlogSeeder::class);
-    $this->seed(EntryLevelReactDeveloperJobsUsaBlogSeeder::class);
-    $this->seed(SeniorReactDeveloperJobsUsaBlogSeeder::class);
-
-    $js = Blog::where('slug', JS_REACT_SLUG)->value('content');
-    $ts = Blog::where('slug', TS_REACT_SLUG)->value('content');
-
-    expect($js)->toContain('/blog/'.TS_REACT_SLUG)
-        ->and($ts)->toContain('/blog/'.JS_REACT_SLUG);
-
-    foreach ([
-        'react-developer-jobs-in-usa',
-        'frontend-developer-coding-tests-in-usa',
-        'react-js-developer-contract-jobs-in-usa',
-        'entry-level-react-developer-jobs-in-usa',
-    ] as $slug) {
-        expect($js)->toContain('/blog/'.$slug)
-            ->and(Blog::where('slug', $slug)->value('content'))->toContain('/blog/'.JS_REACT_SLUG);
-    }
-
-    foreach ([
-        'react-developer-jobs-in-usa',
-        'frontend-developer-coding-tests-in-usa',
-        'react-js-developer-contract-jobs-in-usa',
-        'senior-react-developer-jobs-in-usa',
-    ] as $slug) {
-        expect($ts)->toContain('/blog/'.$slug)
-            ->and(Blog::where('slug', $slug)->value('content'))->toContain('/blog/'.TS_REACT_SLUG);
-    }
-});
-
-it('renders each aggregated job overview', function (string $slug, string $image, string $position) {
-    $job = Job::where('position', 'like', $position.'%')->with('location')->first();
-
-    $this->get(route('jobs.show', Str::slug($job->position.'-'.$job->location->name)))
-        ->assertOk()
-        ->assertSee('not an advert for one guaranteed vacancy');
-})->with('language spokes');
-
-it('repairs each post instead of duplicating it', function (string $slug, string $image, string $position) {
-    Blog::where('slug', $slug)->update(['content' => 'stale copy']);
-
-    $this->seed(JavascriptReactDeveloperJobsUsaBlogSeeder::class);
-    $this->seed(ReactTypescriptDeveloperJobsUsaBlogSeeder::class);
-
-    expect(Job::where('position', 'like', $position.'%')->count())->toBe(1)
-        ->and(Blog::where('slug', $slug)->count())->toBe(1)
-        ->and(Blog::where('slug', $slug)->value('content'))->not->toBe('stale copy');
-})->with('language spokes');

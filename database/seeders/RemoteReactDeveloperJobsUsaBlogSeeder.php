@@ -288,7 +288,6 @@ HTML;
     <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a>: staffing and consulting engagements, unpaid bench time, and what may not be deducted.</li>
     <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a>: the employed side of the same market, where the offer is base plus equity plus bonus.</li>
     <li><a href="/blog/full-stack-developer-jobs-in-usa">Full Stack Developer Jobs in USA</a>: the higher benchmark, and the misclassification tests that apply to cross-border contracting.</li>
-    <li><a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">How to Apply for React Developer Jobs in USA</a>: the application process, what employers may ask, and how to spot a scam.</li>
 </ul>
 
 <h2>Official sources</h2>

@@ -139,7 +139,7 @@ HTML;
 
 <p>That advice is fine and it is also missing the point. The coding test is the most heavily regulated part of the whole hiring process, and almost nothing written for candidates says so. In federal law it is not a conversation. It is a <em>selection procedure</em>, and once something is a selection procedure, obligations attach to it and rights attach to you.</p>
 
-<p>This page sets out what those are, from the regulations and the enforcement guidance rather than from opinion. If you want the pay and skills picture instead, that is on our <a href="/blog/front-end-developer-jobs-in-usa">front end developer jobs guide</a>, and the application process end to end is covered in <a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">how to apply for developer jobs in the USA</a>.</p>
+<p>This page sets out what those are, from the regulations and the enforcement guidance rather than from opinion. If you want the pay and skills picture instead, that is on our <a href="/blog/front-end-developer-jobs-in-usa">front end developer jobs guide</a>, and the application process end to end is covered in <a href="/blog/entry-level-react-developer-jobs-in-usa">how to apply for developer jobs in the USA</a>.</p>
 
 <h2 id="what-the-law-calls-a-coding-test">What the Law Calls a Coding Test</h2>
 
@@ -273,14 +273,11 @@ HTML;
 
 <ul>
     <li><a href="/blog/front-end-developer-jobs-in-usa">Front End Developer Jobs in USA</a>: what the work pays, the outlook on the current projection round, and the two skills that are measurable.</li>
-    <li><a href="/blog/how-to-apply-for-react-developer-jobs-in-usa">How to Apply for Developer Jobs in the USA</a>: the rest of the process, from the vacancy announcement to the background check and the I-9.</li>
-    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a>: what to build before you are assessed, and how to read a junior advert.</li>
+    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">How to Apply for Developer Jobs in the USA</a>: the rest of the process, from the vacancy announcement to the background check and the I-9.</li>
     <li><a href="/blog/remote-frontend-developer-jobs-in-usa">Remote Frontend Developer Jobs in USA</a>: what the word remote hides on a US advert, including where you owe tax.</li>
     <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a>: the staffing and consulting layer, and the pay rules that apply inside it.</li>
     <li><a href="/blog/react-software-engineer-jobs-in-usa">React Software Engineer Jobs in USA</a>: the levelled enterprise ladder, and how equity and bonus are taxed.</li>
-    <li><a href="/blog/react-developer-internship-jobs-in-usa">React Developer Internship Jobs in USA</a>: the student route, and whether an internship has to be paid.</li>
-    <li><a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React Developer Jobs in USA</a>: the fundamentals round, and the two standards its questions are drawn from.</li>
-    <li><a href="/blog/react-typescript-developer-jobs-in-usa">React TypeScript Developer Jobs in USA</a>: what the type system round tests, and what types do not do at runtime.</li>
+    <li><a href="/blog/react-typescript-developer-jobs-in-usa">JavaScript React Developer Jobs in USA</a>: the fundamentals round, and the two standards its questions are drawn from.</li>
     <li><a href="/blog/react-front-end-engineer-jobs-in-usa">React Front End Engineer Jobs in USA</a>: the levelled ladder, and which states require the band in the advert.</li>
     <li><a href="/blog/full-stack-react-developer-jobs-in-usa">Full Stack React Developer Jobs in USA</a>: the backend half, and the security questions a senior round is really asking.</li>
     <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a>: senior processes add architecture and system design, and the grade changes your overtime status.</li>

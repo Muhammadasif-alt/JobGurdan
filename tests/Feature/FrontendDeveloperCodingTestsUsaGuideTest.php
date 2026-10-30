@@ -6,7 +6,6 @@ use App\Services\StructuredDataService;
 use Database\Seeders\EntryLevelReactDeveloperJobsUsaBlogSeeder;
 use Database\Seeders\FrontendDeveloperCodingTestsUsaBlogSeeder;
 use Database\Seeders\FrontEndDeveloperJobsUsaBlogSeeder;
-use Database\Seeders\HowToApplyReactDeveloperJobsUsaBlogSeeder;
 use Illuminate\Support\Str;
 
 const FE_CODING_TESTS_SLUG = 'frontend-developer-coding-tests-in-usa';
@@ -135,14 +134,14 @@ it('answers the unpaid question without inventing a federal rule', function () {
 
 it('links into the cluster in both directions', function () {
     $this->seed(FrontEndDeveloperJobsUsaBlogSeeder::class);
-    $this->seed(HowToApplyReactDeveloperJobsUsaBlogSeeder::class);
+    $this->seed(EntryLevelReactDeveloperJobsUsaBlogSeeder::class);
     $this->seed(EntryLevelReactDeveloperJobsUsaBlogSeeder::class);
 
     $content = Blog::where('slug', FE_CODING_TESTS_SLUG)->value('content');
 
     foreach ([
         'front-end-developer-jobs-in-usa',
-        'how-to-apply-for-react-developer-jobs-in-usa',
+        'entry-level-react-developer-jobs-in-usa',
         'entry-level-react-developer-jobs-in-usa',
     ] as $slug) {
         expect($content)->toContain('/blog/'.$slug)

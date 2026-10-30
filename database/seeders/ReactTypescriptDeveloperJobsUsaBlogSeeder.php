@@ -43,6 +43,8 @@ use Illuminate\Support\Facades\DB;
  * Deliberately not claimed: that TypeScript reduces defects by any measured
  * amount. Studies exist, they are contested, and none is an official source.
  * The page argues from what the tool does rather than from an effect size.
+ *
+ * Merged on 30 October 2026 with the JavaScript React guide, whose old URL 301s here (config/blog_redirects.php).
  */
 class ReactTypescriptDeveloperJobsUsaBlogSeeder extends Seeder
 {
@@ -101,13 +103,13 @@ class ReactTypescriptDeveloperJobsUsaBlogSeeder extends Seeder
                     'blog_catgories_id' => $blogCategory->id,
                     'author_id' => $author?->id,
                     'author_name' => $author?->name ?? 'JobGader Editorial',
-                    'title' => 'React TypeScript Developer Jobs in USA',
+                    'title' => 'React TypeScript and JavaScript Developer Jobs in USA: The Interview',
                     'excerpt' => 'These adverts name a real problem: keeping type safety over backend data that changes. The usual answer, keep your interfaces updated, is wrong, because types are erased before your code ever meets the data.',
                     'content' => $content,
                     'featured_image' => 'blogs/react-typescript-developer-jobs-usa.jpg',
                     'tags' => 'react typescript developer jobs, typescript developer jobs usa, typescript interview questions, runtime validation typescript, type safety api responses, typescript vs javascript jobs, frontend developer jobs usa, react developer jobs usa',
-                    'meta_title' => 'React TypeScript Developer Jobs in USA: What Types Do',
-                    'meta_description' => 'React TypeScript jobs in the USA: why an interface cannot protect you from an API response, what types are erased, and how the interview tests it.',
+                    'meta_title' => 'React TypeScript and JavaScript Jobs in USA: The Interview',
+                    'meta_description' => 'React TypeScript and JavaScript jobs in the USA: the two standards a fundamentals round draws on, why types are erased, and how interviews test both.',
                     'reading_time' => max(1, (int) ceil(str_word_count(strip_tags($content)) / 200)),
                     'status' => 'published',
                     'is_featured' => false,
@@ -129,11 +131,67 @@ HTML;
     private function postBody(): string
     {
         return <<<'HTML'
-<p>When a US advert asks for React <em>and</em> TypeScript rather than React alone, it is telling you something about the codebase: bigger, older, more people touching it, and a cost attached to runtime errors. It is also telling you the interview will test the type system on its own.</p>
+<p>Some US adverts say "React developer". Others say "JavaScript React developer", or ask for React <em>and</em> TypeScript. That is not padding. It is a signal about the codebase, and it tells you the technical screen will test the language and the type system separately from the library.</p>
 
-<p>These adverts often name the hardest part of the job themselves, and they name it correctly: keeping type safety over data that comes back from a backend that changes. Then they give the wrong answer to it. The usual advice is to keep your interfaces updated and use type guards. That advice misses what types actually are, and this page is about that gap, because understanding it is both the right engineering answer and the best thing you can say in the interview.</p>
+<p>This guide is about those two rounds: where the JavaScript fundamentals questions actually come from, and what TypeScript does and does not do once your code meets real data. For the market picture and pay, see our <a href="/blog/react-developer-jobs-in-usa">React developer jobs guide</a>.</p>
 
-<p>For pay and the market picture, see our <a href="/blog/react-developer-jobs-in-usa">React developer jobs guide</a>.</p>
+<h2 id="two-standards">A "JavaScript Fundamentals" Round Draws On Two Different Standards</h2>
+
+<p>This is the useful part, and very few candidates can state it.</p>
+
+<p>The JavaScript language is standardised as <strong>ECMA-262</strong>, published by Ecma International and revised every year; the current text is the <strong>ECMAScript 2027 Language Specification</strong>. That document defines the language itself: types and coercion, scope and closures, prototypes, classes, iterators and generators, promises, async functions, modules, and the array and object methods.</p>
+
+<p>It does <em>not</em> define the environment the language runs in. The <strong>event loop</strong>, the task and microtask queues, <code>setTimeout</code> and <code>setInterval</code>, the DOM, <code>fetch</code> and the rest of the browser surface are specified elsewhere: principally in the <strong>WHATWG HTML Standard</strong> and its companion standards. In the HTML Standard each agent is given its own event loop, and timers are defined in its own Timers section, which states plainly that "the <code>setTimeout()</code> and <code>setInterval()</code> methods allow authors to schedule timer-based callbacks".</p>
+
+<p>So when an interviewer says "explain the event loop", they are asking about a browser specification, not about the JavaScript language. When they ask "what does <code>async</code> actually do", that is ECMA-262. Both are fair questions. Knowing which document each comes from is what separates an answer that recites a diagram from one that explains a mechanism.</p>
+
+<h3>A detail worth having ready</h3>
+
+<p>Here is a specific, verifiable fact from the HTML Standard's timers section that almost no candidate knows, and which answers the classic "why doesn't <code>setTimeout(fn, 0)</code> run immediately" question properly: timers nest, and <strong>"after five such nested timers, however, the interval is forced to be at least four milliseconds"</strong>. That is a clamp written into the standard, not a browser quirk and not a consequence of the event loop being busy.</p>
+
+<img src="/public/storage/blogs/javascript-react-developer-jobs-usa-fundamentals.jpg" alt="A JavaScript React developer preparing for a fundamentals technical interview" />
+
+<h2 id="es6-is-old">"ES6+" Names a Baseline From 2015</h2>
+
+<p>Adverts almost universally ask for "ES6+" or "modern JavaScript (ES6)". It is worth knowing what that phrase actually refers to, because it dates the advert and sometimes the codebase.</p>
+
+<p><strong>ES6 is the sixth edition of ECMA-262, adopted by the Ecma General Assembly on 17 June 2015</strong> as ECMAScript 2015. It was the largest revision since 1999, and it brought in the things now taken for granted: modules, class declarations, block scoping with <code>let</code> and <code>const</code>, iterators and generators, promises and destructuring.</p>
+
+<p>What changed after it matters more for how you read the advert. TC39 moved to an <strong>annual release cycle</strong>, publishing a new edition each June: the 7th in 2016 through to the <strong>16th edition in June 2025</strong>. There is no "ES7 developer" or "ES12 developer" because nobody counts that way any more; the editions are named by year.</p>
+
+<p>Two practical readings follow:</p>
+<ul>
+    <li><strong>"ES6+" means "not the language as it was before 2015".</strong> It is a floor, not a target, and it has been a floor for a decade. Do not treat it as the ceiling of what to learn.</li>
+    <li><strong>An advert that stops at ES6 may be describing its codebase.</strong> In a modernisation role that is useful information rather than a red flag: it tells you what you will be reading.</li>
+</ul>
+
+<h2 id="modernisation-work">What the Modernisation Work Actually Is</h2>
+
+<p>A large share of adverts with this phrasing are about moving an existing application to React piece by piece rather than building a new one. It is unfashionable work and it is a genuinely good place to learn, because you cannot get through it on framework knowledge alone.</p>
+
+<p>What it tends to require:</p>
+<ul>
+    <li><strong>Reading code you did not write</strong>, in styles that predate the conventions you learned. This is the actual skill, and it is the one that transfers everywhere.</li>
+    <li><strong>Making two paradigms coexist.</strong> React owning part of a page while older code owns the rest means being deliberate about who controls the DOM node, and what happens on teardown.</li>
+    <li><strong>Understanding the language rather than the framework's idioms</strong>, because half the code you meet will not be using them.</li>
+    <li><strong>Not breaking what works.</strong> Incremental migration is judged on the absence of regressions, which is a different discipline from shipping features.</li>
+</ul>
+
+<p>If you are weighing this against a greenfield role: the greenfield role teaches you one stack, and this one teaches you how software actually ages. Both are defensible. Only one of them is usually available to someone without a long CV.</p>
+
+<img src="/public/storage/blogs/javascript-react-developer-jobs-usa-event-loop.jpg" alt="A developer tracing the JavaScript event loop and task queue while debugging" />
+
+<h2 id="how-to-prepare">How To Prepare For the Two-Part Interview</h2>
+
+<p>Prepare them as two subjects, because that is how they will be asked.</p>
+
+<p><strong>Language, from ECMA-262 territory:</strong> scope and closures; <code>this</code> and how it is determined; prototypes and the class syntax over them; value and reference; equality and coercion; the array and object methods you would otherwise reach for a library for; promises, and what <code>async</code> and <code>await</code> desugar to; modules and what a circular import does; iterators and generators.</p>
+
+<p><strong>Environment, from the HTML Standard and its siblings:</strong> the event loop, and the difference between a task and a microtask; where a promise callback runs relative to a timer; the timer clamp above; event propagation, delegation and cancellation; <code>fetch</code>, abort signals and error handling; and what "blocking the main thread" physically means.</p>
+
+<p>The single best answer you can give in this round is one that names the boundary out loud: that promises are the language, that the queue they resolve on is the host environment, and that this is why the same code behaves differently in a browser and on a server. Very few candidates say it, and it is not a trick; it is just reading the right documents once.</p>
+
+<p>The assessment stage itself is regulated, and there are things you are entitled to ask for. Our <a href="/blog/frontend-developer-coding-tests-in-usa">guide to coding tests in the USA</a> sets out what applies, including on a timed exercise. If the advert also names TypeScript, the next section covers what types do and, importantly, do not do at runtime.</p>
 
 <h2 id="types-are-erased">Your Types Are Not There At Runtime</h2>
 
@@ -179,7 +237,7 @@ HTML;
 
 <h2 id="what-the-interview-tests">What the Interview Actually Tests</h2>
 
-<p>Expect two parts, and prepare them separately: the same structure our <a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React guide</a> describes for the language round.</p>
+<p>Expect two parts, and prepare them separately: the same structure as the language round above.</p>
 
 <p><strong>The type system:</strong> the difference between an interface and a type alias and when it matters; unions and discriminated unions, which are the ones that model real API responses; narrowing, and what actually narrows a type; generics, and writing a function whose return type depends on its argument; <code>unknown</code> against <code>any</code>, which is the single most revealing question on this list; readonly and immutability; and utility types such as <code>Partial</code>, <code>Pick</code>, <code>Omit</code> and <code>Record</code>.</p>
 
@@ -197,14 +255,20 @@ HTML;
 
 <h2>Frequently Asked Questions</h2>
 
-<h3>Why do employers ask for TypeScript specifically?</h3>
-<p>Usually because the codebase is large and long-lived enough that the cost of a runtime error exceeds the cost of the type discipline. It is also a signal that the interview will test the type system separately from React.</p>
+<h3>Why do adverts say "JavaScript React developer" rather than "React developer"?</h3>
+<p>Usually because the codebase is mixed and framework knowledge alone will not carry the work, and because the interview will test the language separately from the library. Both are worth knowing before you apply.</p>
+
+<h3>Is the event loop part of JavaScript?</h3>
+<p>Not of the language specification. ECMA-262 defines the language; the event loop, task queues and timers are defined in the WHATWG HTML Standard, which gives each agent its own event loop. Interviewers ask about both under one heading.</p>
+
+<h3>What does "ES6+" actually mean?</h3>
+<p>The sixth edition of ECMA-262, adopted on 17 June 2015 as ECMAScript 2015, and everything after it. The standard has been annual since, reaching its 16th edition in June 2025, so ES6 is a floor rather than a target.</p>
+
+<h3>Why doesn't setTimeout with zero delay run immediately?</h3>
+<p>Partly because the callback is queued rather than called, and partly because the HTML Standard clamps nested timers: after five nested timers the interval is forced to at least four milliseconds.</p>
 
 <h3>Does TypeScript protect me from bad API data?</h3>
 <p>No. Type annotations never change runtime behaviour and are erased at compile time, so nothing inspects the response when it arrives. Protection requires a runtime parse at the boundary.</p>
-
-<h3>What happens to my types when the code runs?</h3>
-<p>They are gone. TypeScript's documentation states that most TypeScript-specific code "gets erased away" by the compiler, because no browser or runtime executes TypeScript directly.</p>
 
 <h3>What is the difference between unknown and any?</h3>
 <p><code>unknown</code> accepts any value but forces you to narrow it before use. <code>any</code> turns the checker off for that value. For anything crossing a boundary, <code>unknown</code> is the correct starting point.</p>
@@ -213,23 +277,27 @@ HTML;
 
 <ul>
     <li><a href="/blog/react-developer-jobs-in-usa">React Developer Jobs in USA</a>: the main guide: the two occupations, the pay bands and the eligibility filter.</li>
-    <li><a href="/blog/javascript-react-developer-jobs-in-usa">JavaScript React Developer Jobs in USA</a>: the language round, and the two standards a fundamentals interview draws on.</li>
     <li><a href="/blog/frontend-developer-coding-tests-in-usa">Frontend Developer Coding Tests in USA</a>: the assessment stage, and the adjustment you are entitled to ask for.</li>
     <li><a href="/blog/react-js-developer-contract-jobs-in-usa">React JS Developer Contract Jobs in USA</a>: the staffing layer, and the pay rules inside it.</li>
     <li><a href="/blog/senior-react-developer-jobs-in-usa">Senior React Developer Jobs in USA</a>: what the grade changes, including your overtime status.</li>
     <li><a href="/blog/full-stack-react-developer-jobs-in-usa">Full Stack React Developer Jobs in USA</a>: the same boundary from the server side, where validation is a legal duty rather than a preference.</li>
+    <li><a href="/blog/entry-level-react-developer-jobs-in-usa">Entry Level React Developer Jobs in USA</a>: what to build, and how to read a junior advert.</li>
 </ul>
 
 <h2>Official sources</h2>
 
 <ul>
+    <li>Ecma International: ECMA-262, the ECMAScript Language Specification, and the June 2015 adoption of the 6th edition as ECMAScript 2015.</li>
+    <li>TC39: the current ECMAScript Language Specification draft.</li>
+    <li>WHATWG: the HTML Standard, web application APIs and the Timers section.</li>
+    <li>Bureau of Labor Statistics: Occupational Outlook Handbook for software developers and for web developers and digital designers.</li>
     <li>TypeScript documentation: the handbook on type annotations, runtime behaviour and erasure.</li>
     <li>TC39: the type annotations proposal, its stage and its stated design.</li>
     <li>Ecma International: ECMA-262, the ECMAScript Language Specification.</li>
     <li>Bureau of Labor Statistics: Occupational Outlook Handbook for software developers and for web developers and digital designers, May 2025 wages.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Language specifications, compiler behaviour and wage data change: confirm the current position with the TypeScript documentation, TC39, Ecma International and the Bureau of Labor Statistics before relying on any of it.</p>
+<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is for general informational purposes. Specifications, compiler behaviour and wage data change: confirm the current position with the official sources above before relying on any of it.</p>
 HTML;
     }
 }

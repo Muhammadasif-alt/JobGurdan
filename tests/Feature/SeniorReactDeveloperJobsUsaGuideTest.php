@@ -5,7 +5,6 @@ use App\Models\Job;
 use App\Services\StructuredDataService;
 use Database\Seeders\EntryLevelReactDeveloperJobsUsaBlogSeeder;
 use Database\Seeders\FrontendDeveloperCodingTestsUsaBlogSeeder;
-use Database\Seeders\HowToApplyReactDeveloperJobsUsaBlogSeeder;
 use Database\Seeders\ReactDeveloperJobsUsaBlogSeeder;
 use Database\Seeders\RemoteReactDeveloperJobsUsaBlogSeeder;
 use Database\Seeders\SeniorReactDeveloperJobsUsaBlogSeeder;
@@ -157,7 +156,7 @@ it('links across the React cluster in both directions', function () {
     $this->seed(ReactDeveloperJobsUsaBlogSeeder::class);
     $this->seed(RemoteReactDeveloperJobsUsaBlogSeeder::class);
     $this->seed(EntryLevelReactDeveloperJobsUsaBlogSeeder::class);
-    $this->seed(HowToApplyReactDeveloperJobsUsaBlogSeeder::class);
+    $this->seed(EntryLevelReactDeveloperJobsUsaBlogSeeder::class);
     $this->seed(FrontendDeveloperCodingTestsUsaBlogSeeder::class);
 
     $content = Blog::where('slug', SENIOR_REACT_SLUG)->value('content');
@@ -172,7 +171,7 @@ it('links across the React cluster in both directions', function () {
             ->and(Blog::where('slug', $slug)->value('content'))->toContain('/blog/'.SENIOR_REACT_SLUG);
     }
 
-    expect(Blog::where('slug', 'how-to-apply-for-react-developer-jobs-in-usa')->value('content'))
+    expect(Blog::where('slug', 'entry-level-react-developer-jobs-in-usa')->value('content'))
         ->toContain('/blog/'.SENIOR_REACT_SLUG);
 });
 

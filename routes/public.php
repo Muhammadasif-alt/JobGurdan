@@ -67,6 +67,9 @@ Route::get('/jobs/{slug}', [UserJobController::class, 'showJobBySlug'])
 
 // Blog routes (public)
 Route::get('/blog', [PublicBlogController::class, 'index'])->name('blog.index');
+foreach (config('blog_redirects', []) as $mergedSlug => $survivingSlug) {
+    Route::permanentRedirect('/blog/'.$mergedSlug, '/blog/'.$survivingSlug);
+}
 Route::get('/blog/{blog:slug}', [PublicBlogController::class, 'show'])->name('blog.show');
 
 // Scholarships (public)
