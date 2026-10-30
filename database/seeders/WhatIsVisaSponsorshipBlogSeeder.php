@@ -154,18 +154,6 @@ class WhatIsVisaSponsorshipBlogSeeder extends Seeder
 <h3>Can I sponsor myself through an employer route?</h3>
 <p>No. Employer-led routes need the employer. Other categories have separate rules.</p>
 
-<h3>Does the employer pay all costs?</h3>
-<p>Not necessarily. Check the written cost breakdown against the official rules.</p>
-
-<h3>Does sponsorship lead to permanent residence?</h3>
-<p>Not automatically. Permanent residence has separate conditions.</p>
-
-<h3>Is a sponsor licence the same as a sponsored job?</h3>
-<p>No. A licence says the employer may sponsor; the specific vacancy must be eligible.</p>
-
-<h3>How do I know a sponsored offer is real?</h3>
-<p>Verify the employer and route independently and never pay for a job offer.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -177,7 +165,6 @@ class WhatIsVisaSponsorshipBlogSeeder extends Seeder
     <li><a href="/blog/find-job-abroad-without-recruiter">How to Find a Job Abroad Without a Recruiter</a>: search yourself</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

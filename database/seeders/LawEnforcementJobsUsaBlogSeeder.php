@@ -390,18 +390,6 @@ JOBHTML;
 <h3>Can I apply for federal law enforcement without police experience?</h3>
 <p>Yes, for some jobs. The FBI accepts special agents with a bachelor's degree and two years of full-time professional work, or an advanced degree and one year. Detectives in local departments, by contrast, typically start as police officers.</p>
 
-<h3>Are law enforcement jobs full-time?</h3>
-<p>Mostly. The BLS says most police and detectives work full time, shift work is needed to cover every hour, and paid overtime is common.</p>
-
-<h3>How much do law enforcement officers make?</h3>
-<p>The BLS median was $77,310 in May 2025: $76,210 for patrol officers, $93,790 for detectives, $90,230 for transit and railroad police and $74,060 for fish and game wardens.</p>
-
-<h3>Which law enforcement job pays the most?</h3>
-<p>Of the four BLS occupations, detectives and criminal investigators have the highest median, $93,790. Federal special agents also receive availability pay on top of base salary.</p>
-
-<h3>Can non-citizens work in US law enforcement?</h3>
-<p>Federal agencies, the NYPD and most states require US citizenship. A few states accept some work-authorized non-citizens, but most visa holders cannot legally carry a firearm.</p>
-
 <h3>Where can I find legitimate law enforcement jobs?</h3>
 <p>Use official city, county, state and federal career sites, such as NYPD Recruit, FBI Jobs, DEA Careers and USAJOBS. Check that the web address is the agency's own before you apply.</p>
 

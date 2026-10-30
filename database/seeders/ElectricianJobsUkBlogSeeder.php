@@ -304,20 +304,8 @@ JOBHTML;
 <h3>Do I legally need an ECS card to work as an electrician?</h3>
 <p>No. The ECS card is a contractual requirement imposed by principal contractors for site access, not a legal one. The legal regime for domestic work is Part P of the Building Regulations.</p>
 
-<h3>Do I have to join NICEIC or NAPIT?</h3>
-<p>No, scheme membership is not compulsory. But without it you cannot self-certify notifiable domestic work, and every such job has to be notified to building control with inspection and fees, which makes small domestic work uneconomic.</p>
-
-<h3>What does joining a Competent Person Scheme require?</h3>
-<p>Your Level 3 qualifications, a current BS 7671, calibrated test instruments and a review of sample installations you have completed. The test equipment is a real capital cost that newly qualified electricians often have not budgeted for.</p>
-
 <h3>How much do electricians earn in the UK?</h3>
 <p>Qualified electricians are advertised around &pound;28,000 to &pound;38,000, with experienced and specialist roles from &pound;40,000 upward. Self-employed day rates of &pound;150 to &pound;300 are quoted before CIS deductions.</p>
-
-<h3>What is CIS and how much does it take?</h3>
-<p>The Construction Industry Scheme. A contractor deducts 20 per cent at source from a registered subcontractor, 30 per cent from an unregistered one, and nothing from someone with gross payment status. It applies to the labour portion only.</p>
-
-<h3>Is apprentice electrician pay of &pound;15,000 to &pound;22,000 legal?</h3>
-<p>Not necessarily. The &pound;8.00 apprentice rate only applies under 19 or in the first year. A 21-year-old past year one is entitled to &pound;12.71 an hour, which is &pound;24,784.50 across a 37.5-hour year: above the top of that range.</p>
 
 <h2>More Job Guides</h2>
 

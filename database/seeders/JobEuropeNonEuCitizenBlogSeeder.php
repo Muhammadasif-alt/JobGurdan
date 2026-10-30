@@ -137,20 +137,8 @@ class JobEuropeNonEuCitizenBlogSeeder extends Seeder
 <h3>Can I work on a tourist visa?</h3>
 <p>Do not assume so. Check the destination's official rules.</p>
 
-<h3>Is English enough?</h3>
-<p>It depends on the employer, role and route. Local language ability widens your options.</p>
-
-<h3>Does an EU Blue Card let me work in any EU country?</h3>
-<p>No. Mobility rights have conditions and the card is tied to its own rules.</p>
-
 <h3>Is the UK part of this?</h3>
 <p>No. The UK is outside the EU and has its own Skilled Worker system.</p>
-
-<h3>Does a listed EURES vacancy mean sponsorship?</h3>
-<p>No. Check each employer's eligibility wording.</p>
-
-<h3>Do I need my qualification recognised?</h3>
-<p>For regulated professions, yes. Check the destination's recognition rules.</p>
 
 <h2>More Job Guides</h2>
 
@@ -163,7 +151,6 @@ class JobEuropeNonEuCitizenBlogSeeder extends Seeder
     <li><a href="/blog/english-language-requirements-working-abroad">English Language Requirements for Working Abroad</a>: tests and exemptions</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

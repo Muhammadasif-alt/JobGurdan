@@ -311,20 +311,8 @@ JOBHTML;
 <h3>How many PDO engineering jobs are open right now?</h3>
 <p>None on the official portal. Kwader carried three adverts in total when checked, two from OQ and one from CC Energy Development. PDO's partner page on Kwader shows no job listings tab at all.</p>
 
-<h3>Can Pakistani and Indian engineers get a job at PDO?</h3>
-<p>It is possible but structurally hard. PDO is 92 per cent Omanised and employed about 701 non-Omanis in 2025, down from 792 the year before. Specialist and senior technical roles are the realistic target; graduate programmes are not.</p>
-
 <h3>Is the Shababuna programme open to foreigners?</h3>
 <p>No account of it suggests so; every version describes it as being for Omani nationals. Note that the detailed entry rules circulating online cannot be verified from any live official PDO page.</p>
-
-<h3>What does a PDO engineer earn?</h3>
-<p>PDO publishes no salary figure, and no operator publishes pay on Kwader. Any range you have seen is an aggregator's estimate.</p>
-
-<h3>Who applies for an Oman work visa?</h3>
-<p>The employer. ROP states it "is granted at the request and on the responsibility of an employer", and the occupation on the visa must match the labour permit. Engineers also need a letter from the labour ministry. You cannot apply for your own.</p>
-
-<h3>Does pdo.co.om list vacancies?</h3>
-<p>No. PDO's own careers page carries no vacancy list, no application instructions and no link to any recruitment portal. Use Kwader instead.</p>
 
 <h2>More Job Guides</h2>
 

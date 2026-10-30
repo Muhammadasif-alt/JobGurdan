@@ -146,12 +146,6 @@ class OnlineTutoringJobsNewJerseyBlogSeeder extends Seeder
 
 <p>Review your weekly workload regularly and adjust availability before accepting more lessons than manageable.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can College Students Apply?</h3>
@@ -165,18 +159,6 @@ class OnlineTutoringJobsNewJerseyBlogSeeder extends Seeder
 
 <h3>Does Tutor.com accept applicants who need visa sponsorship?</h3>
 <p>It says applicants who need employment visa sponsorship, such as H-1B, F-1 or OPT, cannot currently be accepted.</p>
-
-<h3>How much does Wyzant keep?</h3>
-<p>Its help centre says tutors keep 75% of their posted hourly rate and Wyzant keeps a 25% platform fee, with an exception for lessons with a new student the tutor refers.</p>
-
-<h3>How much commission does Preply take?</h3>
-<p>Preply says it takes 100% of the fee for a trial lesson with a new student, then 33% on later lessons, falling to 18% as you teach more hours.</p>
-
-<h3>What computer do I need for Tutor.com?</h3>
-<p>It lists a Windows 10 or 11 computer with at least 4 GB of RAM, 15 Mbps down and 5 Mbps up, a microphone and a webcam. Check the current page before you buy anything.</p>
-
-<h3>Where can I find New Jersey career help?</h3>
-<p>The New Jersey Department of Labor career services page points to Job Source, My Career NJ and One-Stop Career Centers.</p>
 
 <h2>Bottom Line</h2>
 
@@ -201,7 +183,6 @@ class OnlineTutoringJobsNewJerseyBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or career advice. Reviewed on 21 October 2026 against the pages named in Sources. It does not promise a vacancy, a reward, an income or an offer, and platform rules and postings can change.</p>
 HTML;
     }
 }

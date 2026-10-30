@@ -274,20 +274,8 @@ JOBHTML;
 
 <h2>Frequently Asked Questions</h2>
 
-<h3>How much do cybersecurity analysts make in the USA?</h3>
-<p>BLS puts the median annual wage for information security analysts at $129,180 as of May 2025, with the lowest ten per cent under $75,090 and the highest ten per cent above $199,850.</p>
-
-<h3>Can I get a CISSP as an entry-level candidate?</h3>
-<p>No. CISSP requires five years of cumulative full-time experience across at least two of its eight domains. Passing the exam without that makes you an Associate of ISC2, with six years to earn the five. A four-year degree or one approved credential waives one year, not more.</p>
-
 <h3>What about CISM?</h3>
 <p>CISM requires five years of information security experience including at least three years in security management across three or more domains. Two years can be waived by another credential or a postgraduate degree, but the three management years cannot be waived at all.</p>
-
-<h3>Which certification should I actually start with?</h3>
-<p>CompTIA Security+ for most people, because it appears as a hard requirement on a large number of US government-adjacent postings. The Google Cybersecurity Certificate is a reasonable first step before it. Treat CISSP and CISM as year-five goals, not entry tickets.</p>
-
-<h3>Is cybersecurity really accessible to career changers?</h3>
-<p>Partly. GRC and compliance work is genuinely open to people coming from audit and risk backgrounds. Security operations is mostly entered laterally from IT support, networking or systems administration, because BLS lists related work experience alongside the degree as the typical requirement.</p>
 
 <h3>Is the job market as big as the posting counts suggest?</h3>
 <p>Posting counts include reposts and aggregator duplicates for the same vacancy. The more reliable figure is the BLS projection of about 14,100 openings a year, against 106,100 for software developers. The 21 per cent growth rate is genuine; the absolute number of doors is smaller than the headline implies.</p>

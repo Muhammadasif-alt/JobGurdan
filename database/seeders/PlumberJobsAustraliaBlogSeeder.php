@@ -309,20 +309,8 @@ JOBHTML;
 <h3>Is apprentice pay of $45,000 legal if the minimum wage is higher?</h3>
 <p>Yes. Award apprentice rates are percentages of the qualified trade rate and lawfully sit below the national minimum wage of $26.44 an hour in the early years. Check your award percentage for your year rather than the minimum wage.</p>
 
-<h3>Does my plumbing licence work in another Australian state?</h3>
-<p>Usually, through Automatic Mutual Recognition, with two exceptions. Queensland is outside the scheme in both directions, and gasfitting classes are exempt from AMR even where it applies.</p>
-
 <h3>Can I work in Queensland on an interstate plumbing licence?</h3>
 <p>Not under Automatic Mutual Recognition. Queensland does not participate, so plan for a Queensland application rather than assuming your existing licence carries.</p>
-
-<h3>Do I need a separate licence for gas work?</h3>
-<p>Always, not "often". Gasfitting is a separately authorised class, it pays better for exactly that reason, and it is the part of your ticket least likely to transfer interstate.</p>
-
-<h3>Does the advertised salary include superannuation?</h3>
-<p>Australian advertisements split both ways, so ask. At the 12 per cent guarantee rate it is worth $9,600 on an $80,000 figure.</p>
-
-<h3>Can I migrate to Australia as a plumber?</h3>
-<p>Yes: unlike general labouring, this is a skilled trade inside the migration framework. It needs a formal skills assessment against the Australian standard, then a visa, then a separate state licence after arrival. The assessment does not license you.</p>
 
 <h2>More Job Guides</h2>
 

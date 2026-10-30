@@ -355,18 +355,6 @@ JOBHTML;
 <h3>Can a recruiter charge me a fee for a Dubai airport job?</h3>
 <p>No. The UAE Government states that charging recruitment fees to prospective employees is illegal and that the employer bears recruitment, travel and residency costs. In Pakistan, anyone unlicensed who takes money for foreign employment faces up to fourteen years' imprisonment under the Emigration Ordinance 1979.</p>
 
-<h3>What medical tests are required for a UAE work visa?</h3>
-<p>Tests for HIV/AIDS, hepatitis B, leprosy, syphilis and tuberculosis, under Cabinet Resolution No. 5 of 2016. A positive HIV or leprosy result means residency is denied or not renewed, so it is worth knowing where you stand before you spend money on the move.</p>
-
-<h3>Can I go to Dubai on a visit visa and start work while the paperwork is processed?</h3>
-<p>No. UAE law strictly prohibits working on a visit or tourist visa, paid or unpaid, and both the worker and the employer face fines and legal accountability. You travel on an entry permit, valid two months, and complete residency within a month of arriving.</p>
-
-<h3>Can I get the job offer in Urdu?</h3>
-<p>Yes. The job offer must be provided in Arabic and English plus a third language the worker understands, and Urdu is one of the nine listed options alongside Bengali, Chinese, Dari, Hindi, Malayalam, Nepalese, Sinhalese and Tamil.</p>
-
-<h3>Do freshers get hired for Dubai airport ground jobs?</h3>
-<p>Some passenger-service and operational roles are open to candidates without aviation experience, while others require prior airline or airport work. Check each vacancy rather than each employer, and lead with shift, customer service, hospitality, retail or logistics experience.</p>
-
 <h2>More Job Guides</h2>
 
 <ul>

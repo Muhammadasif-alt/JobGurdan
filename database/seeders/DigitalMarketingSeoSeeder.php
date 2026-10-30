@@ -243,9 +243,6 @@ JOBHTML;
 <h3>Do I need a degree to apply?</h3>
 <p>No. A bachelor's in Marketing, Communications or IT is preferred but explicitly not mandatory, so a strong portfolio with measurable results can carry equal weight.</p>
 
-<h3>Why does an SEO role ask for design skills?</h3>
-<p>Urban Solar wants one person who can both move rankings and produce the visuals those campaigns need: banners, product images and landing page creatives in Canva, plus AI image tools like Midjourney, DALL&middot;E or Adobe Firefly.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other roles or countries? These guides cover the rest of what we track:</p>

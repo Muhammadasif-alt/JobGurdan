@@ -40,7 +40,7 @@ it('carries FAQ markup built from the post body', function () {
 
     // The "People Also Search For" block uses the same h3/p shape, so the
     // extractor must stop at the end of the FAQ section rather than sweep it up.
-    expect($faqs)->toHaveCount(8)
+    expect($faqs)->toHaveCount(4)
         ->and(array_column($faqs, 'question'))
         ->not->toContain('Driver salary in Saudi Arabia per month');
 

@@ -282,29 +282,17 @@ JOBHTML;
 
 <h2>Frequently Asked Questions</h2>
 
-<h3>What jobs can you get with a higher education degree?</h3>
-<p>University and college administration, academic advising, admissions and enrolment management, student affairs, institutional research, instructional design, library and archive work, and teaching. Most of these are non-faculty roles.</p>
-
 <h3>How much do university administrators earn in the US?</h3>
 <p>A median of $104,590 in May 2025 across 231,800 jobs, from $98,840 at state junior colleges to $107,540 at state colleges and universities.</p>
 
-<h3>Can you work at a university without being a professor?</h3>
-<p>Yes, and most staff do. Administration, advising, admissions, student affairs, institutional research, library services, IT, finance and communications are all career tracks inside the institution.</p>
-
 <h3>Do higher education jobs require a master's degree?</h3>
 <p>BLS lists a master's as the typical entry-level education for postsecondary education administrators, instructional coordinators, librarians, and school and career counsellors and advisers. Entry-level coordinator and admissions posts often accept a bachelor's.</p>
-
-<h3>How much does an academic advisor earn?</h3>
-<p>There is no separate BLS category. The occupation is school and career counsellors and advisers, median $64,330; inside colleges and universities the medians are $58,870 at public institutions and $58,720 at private ones.</p>
 
 <h3>Are higher education administration jobs growing?</h3>
 <p>Slowly. Employment is projected to grow 2 per cent from 2025 to 2035, an increase of 4,100 jobs, against 7 per cent for postsecondary teachers. The opportunity is in the roughly 14,500 openings a year from turnover.</p>
 
 <h3>What does an instructional coordinator earn in higher education?</h3>
 <p>The occupational median is $77,440. Within higher education, private colleges and universities pay a median of $73,070 and state ones $61,810.</p>
-
-<h3>Which higher education job pays best?</h3>
-<p>Administration, at a $104,590 median, which is above the $85,330 median for postsecondary teachers and well above advising at $64,330.</p>
 
 <h2>More Job Guides</h2>
 

@@ -343,18 +343,6 @@ JOBHTML;
 <h3>How many penalty points can you have to drive for Royal Mail?</h3>
 <p>It depends on the role. Postperson with Driving and Parcelforce adverts say no more than 6 penalty points. The Class 1 LGV and Class 2 and MGV pages say less than 6, which means five or fewer.</p>
 
-<h3>Do I need a manual driving licence?</h3>
-<p>For Postperson with Driving and Parcelforce collection and delivery roles, Royal Mail's adverts specify a full UK manual licence registered to your current address. The LGV and MGV pages specify only the licence category, so check the individual advert.</p>
-
-<h3>How much holiday do Royal Mail delivery staff get?</h3>
-<p>Royal Mail says at least 22.5 days of annual leave, increasing the longer you are with the company, and footnotes that some roles start higher. It is a minimum rather than a fixed figure, so read the advert.</p>
-
-<h3>Who owns Royal Mail now?</h3>
-<p>EP Group, led by Daniel K&#345;et&#237;nsk&#253;, through International Distribution Services. The &pound;3.6 billion takeover completed at the end of April 2025 and IDS was delisted from the London Stock Exchange on 2 June 2025, with binding undertakings protecting the universal service.</p>
-
-<h3>Is there an online test, and do I need a CV?</h3>
-<p>Royal Mail lists online tests as a step that applies to some roles rather than all, and it does not say a CV is unnecessary. Assume you will need your work history to hand, plus licence details for driving roles.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If Royal Mail is one option rather than the only one, these cover the rest of the UK market:</p>

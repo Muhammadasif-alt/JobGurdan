@@ -385,18 +385,6 @@ JOBHTML;
 <h3>How long is a Toyota period employee contract?</h3>
 <p>Three months initially, renewable in steps to a maximum of two years and eleven months. Renewal is at Toyota's discretion, based on production outlook and the individual's performance, attitude, ability and health.</p>
 
-<h3>What happens if I quit a Toyota contract early?</h3>
-<p>You forfeit the completion payments entirely. Toyota states that no payment is made if you leave part-way through a contract term. Across a full 35-month run those payments total JPY 3,064,800.</p>
-
-<h3>Do I need to speak Japanese for Toyota factory jobs?</h3>
-<p>Toyota publishes no language requirement, but the recruitment site is Japanese-only, the application uses a Japanese-format resume and the 30 to 60 minute selection interview is conducted in Japanese. Treat Japanese as a practical necessity.</p>
-
-<h3>Can period employees become permanent Toyota staff?</h3>
-<p>Yes. Toyota reports 1,132 conversions between 2021 and 2025, rising year on year. It requires at least one year of service, a supervisor's recommendation, a written test and a group interview.</p>
-
-<h3>Which Toyota plants hire period employees?</h3>
-<p>Ten plants in Aichi Prefecture only: Honsha, Motomachi, Kamigo, Takaoka, Miyoshi, Tsutsumi, Myochi, Shimoyama, Kinuura and Tahara. Kariya is not among them, and Toyota's subsidiary manufacturers recruit separately.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If it is factory work abroad you are after rather than this one employer, these cover routes that are actually open:</p>

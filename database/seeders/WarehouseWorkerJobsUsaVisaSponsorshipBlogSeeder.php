@@ -248,18 +248,6 @@ JOBHTML;
 <h3>Can I bring my family on an H-2B visa?</h3>
 <p>Spouses and unmarried children under 21 may apply for H-4 visas, but they generally cannot work.</p>
 
-<h3>Can I change employers on an H-2B visa?</h3>
-<p>Only through a new employer's own petition for you. You cannot simply switch jobs, so check the current portability rules.</p>
-
-<h3>Is it possible to apply from Pakistan?</h3>
-<p>Yes, there is no longer a country list at the petition stage, but you need an employer that recruits from Pakistan and a visa decision. Check the embassy's current instructions.</p>
-
-<h3>Do I need experience to work in a US warehouse?</h3>
-<p>Usually not. Most hand-labour roles train new hires on the job.</p>
-
-<h3>How long can I stay on an H-2B visa?</h3>
-<p>Stays are granted in steps, up to a three-year maximum, and the work is temporary.</p>
-
 <h3>Is there a limit on H-2B visas?</h3>
 <p>Yes, 66,000 new workers a year, with supplemental allocations in some years. Check USCIS's current notices.</p>
 

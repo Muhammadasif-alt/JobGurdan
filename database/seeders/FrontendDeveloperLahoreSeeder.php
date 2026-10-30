@@ -254,9 +254,6 @@ JOBHTML;
 <h3>Do I need backend experience for this frontend role?</h3>
 <p>Not strictly, but hands-on Node.js and Express experience is called out as a strong advantage, and MERN stack fluency is listed among the requirements.</p>
 
-<h3>What makes an application stand out for this job?</h3>
-<p>Shipped production Next.js apps, fintech or SaaS dashboard work, blockchain/Web3 exposure, and a portfolio that demonstrates pixel-perfect design-to-code craftsmanship.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking further afield? These guides cover overseas routes we track:</p>

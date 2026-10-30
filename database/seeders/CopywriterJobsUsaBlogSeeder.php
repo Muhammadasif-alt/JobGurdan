@@ -275,18 +275,6 @@ JOBHTML;
 <h3>Do I need a degree to become a copywriter?</h3>
 <p>No. A bachelor's is the typical stated requirement, but a portfolio substitutes for it more readily in copywriting than in almost any comparable field. Speculative samples count if you label them honestly.</p>
 
-<h3>Should I charge per word or per project?</h3>
-<p>Per project. Per-word pricing rewards length rather than effect, undervalues short high-stakes work like a sales page, and puts you in direct price competition with tools whose output costs nothing. Price the outcome, the research and a capped number of revisions.</p>
-
-<h3>Is freelance copywriting common or is it a fallback?</h3>
-<p>It is the norm. BLS reports 65 per cent of writers and authors are self-employed, so budget for 15.3% self-employment tax, Schedule C and quarterly estimated payments from your first client rather than your first busy year.</p>
-
-<h3>Who owns the copy after the client pays for it?</h3>
-<p>Not automatically the client. A work made for hire by a contractor needs both a qualifying statutory category and a signed written agreement; without both, the copyright stays with the writer and only a written assignment transfers it. Agree the terms before starting.</p>
-
-<h3>What if a client asks me to write a claim they cannot prove?</h3>
-<p>Ask what the evidence is first. The FTC requires an advertiser to hold a reasonable basis for an objective claim before the advertisement runs, and lacking one breaches Section 5 of the FTC Act. Offering an honest alternative is part of the job, not an obstacle to it.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing this against the other writing and digital paths? These cover them:</p>

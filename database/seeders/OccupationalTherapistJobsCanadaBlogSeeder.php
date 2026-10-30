@@ -297,18 +297,6 @@ JOBHTML;
 <h3>I trained abroad. What is the first step?</h3>
 <p>Start with SEAS, the Substantial Equivalency Assessment System run by ACOTRO. It reviews your credentials, curriculum, fieldwork, jurisprudence knowledge, competencies and language before you apply to a provincial regulator or sit the NOTCE.</p>
 
-<h3>Can I work while I wait for the exam?</h3>
-<p>Usually yes. Most provinces grant provisional or restricted registration so you can start working under conditions while you wait for a NOTCE sitting, which is offered only a few times a year.</p>
-
-<h3>Is occupational therapy a good route for Express Entry?</h3>
-<p>It is favourable. OT is NOC 31203, TEER 1, eligible for Express Entry and included in the Healthcare and Social Services category draws, but since 18 February 2026 you need one year of qualifying work experience, not six months, to qualify for those draws.</p>
-
-<h3>Which provinces are easiest to get hired in?</h3>
-<p>Northern, rural and Atlantic regions have the shortest timelines and the largest incentives. Ontario has the most roles by volume, and Alberta pairs strong hospital hiring with a lower cost of living than Toronto or Vancouver.</p>
-
-<h3>Do I need a driver's licence?</h3>
-<p>For community and home-care roles, usually yes: postings routinely require a valid licence and a vehicle. Hospital, clinic and school-based roles are the alternative if you do not drive.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Weighing a move into Canadian healthcare or a work permit? These cover the neighbouring routes:</p>

@@ -357,20 +357,8 @@ JOBHTML;
 <h3>Is $55,000 the ceiling for experienced maintenance technicians?</h3>
 <p>No. That figure sits below the 75th percentile of $62,620. Experienced general maintenance workers routinely earn $62k and above, and the top tenth clears $77,180.</p>
 
-<h3>Do maintenance technician jobs pay more if you specialise?</h3>
-<p>Yes. BLS May 2025 medians are $64,520 for industrial machinery mechanics, $61,010 for HVACR mechanics and $60,850 for machinery maintenance workers: each above the general median.</p>
-
 <h3>Do I need a degree to become a maintenance technician?</h3>
 <p>No. The typical entry-level education is a high school diploma or equivalent, with vocational or technical training a strong advantage.</p>
-
-<h3>What is EPA 608 certification?</h3>
-<p>A Clean Air Act requirement for anyone servicing equipment that could release refrigerants. It comes in four types (I, II, III and Universal) and does not expire: it is a lifetime credential.</p>
-
-<h3>Is there such a thing as OSHA certification?</h3>
-<p>Not for individuals. OSHA does not certify people; its Outreach Training Program issues voluntary 10-hour and 30-hour completion cards, which OSHA says are not a certification or a license. Call it an "OSHA 10-hour card", not "OSHA certified".</p>
-
-<h3>Is demand for maintenance technicians growing?</h3>
-<p>Modestly. BLS projects 4% growth from 2025 to 2035, about as fast as average. Job security comes mainly from replacement demand: about 148,700 openings a year, roughly 95% from retirements and workers leaving the occupation.</p>
 
 <h3>What industries pay maintenance technicians the most?</h3>
 <p>Industrial and manufacturing roles, and specialised HVAC and electrical positions, pay above general property and facilities maintenance because of the higher skill and certification required.</p>

@@ -195,18 +195,6 @@ class HotelHousekeeperSalaryUsaBlogSeeder extends Seeder
 <h3>Can monthly gross income exceed $3,000?</h3>
 <p>Suitable rates and hours can produce that amount, but it is not guaranteed.</p>
 
-<h3>Are the PKR figures take-home salary?</h3>
-<p>No. They convert gross earnings at an assumed rate, before expenses and fees.</p>
-
-<h3>Do hotel housekeepers get overtime?</h3>
-<p>Covered, non-exempt workers generally do, at one and a half times the regular rate after 40 hours a week. Check coverage and your state's rules.</p>
-
-<h3>Do housekeepers earn tips?</h3>
-<p>Sometimes, but tips are uncertain. Do not count them as guaranteed income.</p>
-
-<h3>Is accommodation included in H-2B hotel jobs?</h3>
-<p>Do not assume it is. Ask for the housing terms and any deductions in writing.</p>
-
 <h3>Does every hotel offer visa sponsorship?</h3>
 <p>No. Confirm the employer's participation and overseas recruitment directly.</p>
 

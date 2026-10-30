@@ -376,18 +376,6 @@ JOBHTML;
 <h3>Do I need a Red Seal to immigrate to Canada as an electrician?</h3>
 <p>No. The Red Seal is an optional endorsement. A provincial certificate of qualification is what can be compulsory, and it also satisfies the certificate option of the Federal Skilled Trades Program.</p>
 
-<h3>Is Electrician (General) on Australia's MLTSSL?</h3>
-<p>Yes. ANZSCO 341111 is on the MLTSSL and the Core Skills Occupation List, so the 189, 190, 491, 482 and 186 routes are all open to it.</p>
-
-<h3>What is an Offshore Technical Skills Record?</h3>
-<p>The document an overseas electrician receives after a successful OSAP assessment. It shows partial completion of the Australian Certificate III and lets you apply for a provisional licence while you finish gap training.</p>
-
-<h3>Does a 482 visa let me work as an electrician straight away?</h3>
-<p>No. The visa gives you the right to work for your sponsor; the state or territory licence is what lets you do electrical work. Plan the licence into your start date.</p>
-
-<h3>Should I pay an agent for an electrician job abroad?</h3>
-<p>No. Neither Canadian nor Australian sponsorship requires the worker to pay for a job offer. Treat any request for a fee for an offer as a warning sign.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the electrician cluster, and the routes around it:</p>

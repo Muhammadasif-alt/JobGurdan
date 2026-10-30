@@ -141,12 +141,6 @@ class FirefighterJobsChicagoApplicationPhysicalTestBlogSeeder extends Seeder
 
 <p>CFD hiring requires Chicago residency and a US driver's licence by hire, and city employment needs existing US work authorisation; it is not a visa route. If you are looking for public-safety work at home, read <a href="/blog/police-constable-jobs-punjab-pakistan">Police Constable Jobs in Punjab, Pakistan</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Do I need an EMT licence first?</h3>
@@ -161,21 +155,9 @@ class FirefighterJobsChicagoApplicationPhysicalTestBlogSeeder extends Seeder
 <h3>Is CPAT the written examination?</h3>
 <p>No. CPAT is the physical test; the written examination is a separate requirement.</p>
 
-<h3>How long do I have to finish the CPAT?</h3>
-<p>10 minutes and 20 seconds for all eight events, wearing a 50 lb vest.</p>
-
-<h3>Do I have to live in Chicago?</h3>
-<p>Yes, within the city limits by your date of hire.</p>
-
-<h3>Are firefighter applications open today?</h3>
-<p>No window was open when we checked on 27 October 2026. Sign up for the city's email alerts on Join CFD.</p>
-
-<h3>How does the eligibility list work?</h3>
-<p>Candidates from the 2022 requisition got a lottery number, and those who passed the written test a processing order number that decides when they are contacted.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Sign up for the city's alerts, check that you will meet the age, education, residency and licence rules at hire, prepare for the written test from the city's guide, and train for the CPAT through official orientation and practice runs. Apply only through the city's process when the examination opens. This guide cannot promise selection.</p>
+<p>Sign up for the city's alerts, check that you will meet the age, education, residency and licence rules at hire, prepare for the written test from the city's guide, and train for the CPAT through official orientation and practice runs. Apply only through the city's process when the examination opens.</p>
 
 <h2>Sources</h2>
 
@@ -198,7 +180,6 @@ class FirefighterJobsChicagoApplicationPhysicalTestBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, the warning signs of a recruitment scam.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 27 October 2026 against the pages named in Sources. It is not an announcement of open applications and does not promise selection; requirements and pay can change.</p>
 HTML;
     }
 }

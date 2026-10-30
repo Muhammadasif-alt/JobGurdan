@@ -321,20 +321,8 @@ JOBHTML;
 <h3>Is a driver's licence really necessary?</h3>
 <p>For field and territory roles, usually yes, because you travel to customers across a region, and many ads ask for a full or unrestricted licence. Inside sales roles based in an office or call centre often do not need one.</p>
 
-<h3>What course should I do to become a sales representative?</h3>
-<p>The sales-specific qualification is SIR30316 Certificate III in Business to Business Sales. BSB30120 Certificate III in Business is the general alternative. The Certificate III in Customer Engagement was superseded in October 2020.</p>
-
-<h3>Is commission-only pay legal in Australia?</h3>
-<p>For employees, only where an award or enterprise agreement allows it. Commercial travellers under the Commercial Sales Award must receive at least the award minimum, however much of their pay is commission, and award-free employees must receive at least the National Minimum Wage.</p>
-
-<h3>Can my employer claw back commission or an advance if I leave?</h3>
-<p>They cannot simply deduct it from your pay. A deduction needs your written agreement and must be mainly for your benefit. Get any clawback arrangement in writing and ask how it works before you sign.</p>
-
 <h3>Can I get visa sponsorship as a sales representative?</h3>
 <p>Not as a general sales representative through the Core Skills Occupation List. Technical sales roles such as Sales Representative (Industrial Products) 225411 and (Medical and Pharmaceutical Products) 225412 are on the list.</p>
-
-<h3>Do I need a licence to sell real estate?</h3>
-<p>Yes, and it depends on the state. In NSW you need an Assistant Agent certificate of registration, which lasts four years and cannot be renewed. Other states use different names and training requirements.</p>
 
 <h2>More Job Guides</h2>
 

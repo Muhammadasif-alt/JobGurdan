@@ -266,20 +266,8 @@ JOBHTML;
 <h3>Are Dubai sales salaries always fixed?</h3>
 <p>No. Offers can combine fixed pay and commission or use another structure. Ask for the complete written compensation plan.</p>
 
-<h3>Is sponsorship guaranteed?</h3>
-<p>No. Ask the employer about the specific vacancy and verify the immigration requirements.</p>
-
-<h3>Can I work in Dubai on a visit visa?</h3>
-<p>No. You need a work permit arranged by the employer.</p>
-
 <h3>Who pays recruitment costs for a UAE sales job?</h3>
 <p>The employer. Article 6 of Federal Decree-Law No. 33 of 2021 bars it from charging you recruitment and employment costs.</p>
-
-<h3>Am I an employee or a contractor in a remote role?</h3>
-<p>It depends on the offer. Ask which company signs the agreement and who pays for equipment.</p>
-
-<h3>What is a commission-only sales job?</h3>
-<p>A role with no fixed salary, where your income depends on what you sell. Check for this before you relocate.</p>
 
 <h2>More Job Guides</h2>
 

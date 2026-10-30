@@ -334,18 +334,6 @@ JOBHTML;
 <h3>How is the Saudi end-of-service award calculated if I resign?</h3>
 <p>On a sliding scale. Nothing under two years; one third of the award between two and five years; two thirds between five and ten; the full award at ten years or more. If the employer ends the contract instead, you receive the full award: half a month's wage per year for the first five years and a full month per year thereafter, on your last wage.</p>
 
-<h3>Does SABIC pay the Saudi expat levy?</h3>
-<p>It does not arise. The levy of SAR 700 or 800 a month per foreign worker is the employer's, and passing it to the worker is a listed labour violation. In any case the Cabinet cancelled it for licensed industrial establishments on 17 December 2025, and SABIC is one.</p>
-
-<h3>What is the Saudi dependant fee and who pays it?</h3>
-<p>SAR 400 per dependant per month, and the worker pays it, not the employer. It has been at that level since July 2020 and is collected in advance at Iqama issue or renewal and on exit-and-return or final-exit visas. A spouse and two children costs SAR 1,200 a month, or SAR 14,400 a year.</p>
-
-<h3>Where are SABIC's manufacturing jobs located?</h3>
-<p>Jubail and Yanbu. The careers page lists fifteen entries across the two cities, counting branches: eleven in Jubail including Petrokemya, KEMYA, Ibn Zahr, SAMAC, SHARQ, United, SABIC Agri-Nutrients, Saudi Kayan and Al-Razi, and four in Yanbu including YANPET and YANSAB. Riyadh is the headquarters and carries corporate rather than plant roles.</p>
-
-<h3>How do I check a Saudi job offer is genuine?</h3>
-<p>Through Qiwa, where the employer files the contract and you can approve, reject or propose an amendment. Do not use Musaned, which covers domestic workers only. Note that Qiwa is tied to your residency identity, so a pre-departure check is not something you can rely on. In Pakistan, verify the promoter's licence on the Bureau of Emigration's active list before paying anything.</p>
-
 <h2>More Job Guides</h2>
 
 <ul>

@@ -341,20 +341,8 @@ JOBHTML;
 <h3>What is the typical cleaner salary in Saudi Arabia for foreigners?</h3>
 <p>Entry-level cleaning roles are commonly advertised at SAR 700 to 1,500 a month, with hospital, industrial and airport cleaning nearer SAR 1,000 to 1,800. Accommodation and transport are usually included, so compare the full package rather than the base figure.</p>
 
-<h3>Do I need a Saudi driving licence for a cleaning job?</h3>
-<p>Only for specific roles: residential or facilities positions that involve travelling between properties in a company vehicle. The large majority of hotel, hospital and office cleaning jobs do not require one.</p>
-
-<h3>Is a house cleaner job the same as a hotel or hospital cleaning job?</h3>
-<p>No, and it is the most important difference in this guide. A cleaner employed by a company works under the Saudi Labour Law with Wage Protection System pay and the job-mobility rights introduced in 2021. A cleaner working for a private family is a domestic worker recruited through Musaned under a separate regulation, and domestic workers were not included in that reform.</p>
-
 <h3>Should I ever pay an agent for a Saudi work visa?</h3>
 <p>No. Saudi rules place recruitment costs on the employer, and your own government caps what a licensed agency may charge for its service. Being asked for a large payment to secure a visa is the clearest scam signal in this market.</p>
-
-<h3>How do I know if a cleaning job offer is legitimate?</h3>
-<p>Ask for the employer's name and the visa authorisation number, then verify the employer independently rather than through the agent. Check the agency's licence with your own country's overseas employment authority, and never pay upfront for a visa or placement.</p>
-
-<h3>How long does the visa process take?</h3>
-<p>Budget for several weeks to a few months from signed offer to travel. The medical, police clearance, document attestation and embassy stamping run in sequence, so any agent promising a Saudi work visa in a few days is not describing the real process.</p>
 
 <h3>Can women apply for cleaning jobs in Saudi Arabia?</h3>
 <p>Yes. Housekeeping in hotels, hospitals and private homes employs large numbers of women, and household roles are recruited almost entirely through Musaned. The domestic worker regulation above applies to those contracts, so check which route the offer uses.</p>

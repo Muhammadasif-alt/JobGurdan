@@ -321,20 +321,8 @@ JOBHTML;
 <h3>Can I work in a preschool without an ECE diploma?</h3>
 <p>Often as an ECE assistant. Job Bank says assistants need secondary school and child care experience, and an assistant certificate may be required. In Ontario, ECE assistants do not need to register with the College.</p>
 
-<h3>How much do preschool teachers earn in Canada?</h3>
-<p>Job Bank lists a median of $22.30 an hour for early childhood educators and assistants in Canada. Ontario's 2026 wage floor for RECEs in the Canada-Wide Early Learning and Child Care system is $25.86 an hour.</p>
-
-<h3>Do I need to register as an ECE in Ontario?</h3>
-<p>Yes. Ontario says you need to be registered with the College of Early Childhood Educators to work as an early childhood educator or use the ECE or RECE title.</p>
-
 <h3>Are early childhood educators in demand in Canada?</h3>
 <p>Yes. The Government of Canada expects over 100,000 new job openings between now and 2031, and federal projections rate the occupation at strong risk of shortage for 2024 to 2033.</p>
-
-<h3>Can internationally trained teachers work as ECEs in Canada?</h3>
-<p>Yes, once the province recognises the credential. Ontario's College can assess your education individually, and British Columbia requires a BCIT International Credential Evaluation Service report.</p>
-
-<h3>Can early childhood educators immigrate to Canada through Express Entry?</h3>
-<p>Early childhood educators and assistants (NOC 42202) are in the Express Entry education category, which needs at least 12 months of full-time experience in the occupation within the past three years.</p>
 
 <h2>More Job Guides</h2>
 

@@ -116,12 +116,6 @@ class LaborersUnionEntranceExamBlogSeeder extends Seeder
 
 <p>Never pay anyone for a "guaranteed" union place. Fees and dues are paid to your local, so verify any payment request with the local itself. See <a href="/blog/can-you-retake-apprenticeship-aptitude-test">our retake guide</a> if a test does not go well.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is there a written test to join the Laborers Union?</h3>
@@ -133,20 +127,8 @@ class LaborersUnionEntranceExamBlogSeeder extends Seeder
 <h3>Do I need experience to join?</h3>
 <p>Often no. The NJ programme states that no prior experience is required.</p>
 
-<h3>How much does it cost?</h3>
-<p>Training in the NJ programme is free to qualified candidates; ask your local for dues and fees in writing.</p>
-
-<h3>Is a drug test required?</h3>
-<p>Both example programmes list a drug test (Minnesota says it may be required).</p>
-
-<h3>How long is the apprenticeship?</h3>
-<p>The NJ programme is 4,000 hours on the job plus 400 classroom hours, about 3 to 4 years.</p>
-
 <h3>Can women and minorities apply?</h3>
 <p>Yes. Unions and training programmes recruit from all backgrounds; contact your local or the training fund.</p>
-
-<h3>Where do I find my local?</h3>
-<p>Start at liuna.org or the LiUNA Training and Education Fund training centre finder.</p>
 
 <h2>More Job Guides</h2>
 
@@ -159,7 +141,6 @@ class LaborersUnionEntranceExamBlogSeeder extends Seeder
     <li><a href="/blog/operating-engineers-apprenticeship-test-preparation-guide">Operating Engineers Apprenticeship Test Prep Guide</a>: IUOE locals</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 16 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

@@ -348,18 +348,6 @@ JOBHTML;
 <h3>How much does a carpenter earn in Canada?</h3>
 <p>Job Bank reports a national median of C$32.12 an hour for NOC 72310, from C$22.00 to C$44.23. Quebec has the highest provincial median at C$36.84.</p>
 
-<h3>What is the ANZSCO code for carpenter?</h3>
-<p>331212. Trades Recognition Australia is the assessing authority.</p>
-
-<h3>Which Australian visa do carpenters use?</h3>
-<p>Employer-sponsored carpenters usually apply for the Skills in Demand visa (subclass 482), which replaced the Temporary Skill Shortage visa in December 2024. Check the occupation lists before applying.</p>
-
-<h3>Is carpentry a Red Seal trade?</h3>
-<p>Yes. Red Seal certification lets a carpenter work across Canadian provinces. Whether certification is compulsory depends on the province.</p>
-
-<h3>Do I need a CSCS card to work as a carpenter in the UK?</h3>
-<p>Most construction sites require one. It shows you have the training and qualifications for the work you do on site.</p>
-
 <h3>Which country is easiest for a foreign carpenter?</h3>
 <p>Canada and Australia, because both still sponsor carpenters through employers. The UK currently does not for new applicants.</p>
 

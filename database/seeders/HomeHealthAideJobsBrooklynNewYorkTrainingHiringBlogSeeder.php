@@ -115,12 +115,6 @@ class HomeHealthAideJobsBrooklynNewYorkTrainingHiringBlogSeeder extends Seeder
 
 <p>Home health aide posts need existing US work authorisation, and agencies do not sponsor visas for them. Read <a href="/blog/how-to-find-job-abroad-from-pakistan-2026">how to find a job abroad from Pakistan</a> for routes that do accept overseas applicants.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>How long is HHA training in New York?</h3>
@@ -132,24 +126,12 @@ class HomeHealthAideJobsBrooklynNewYorkTrainingHiringBlogSeeder extends Seeder
 <h3>What is the minimum wage for home health aides in Brooklyn?</h3>
 <p>$19.65 an hour from 1 January 2026.</p>
 
-<h3>What do agencies actually pay?</h3>
-<p>A VNS Health Brooklyn posting listed $19.86 to $22.00 an hour on 28 October 2026.</p>
-
-<h3>Is an HHA the same as a PCA?</h3>
-<p>No. PCA training is at least 40 hours; HHA core training is at least 75 hours.</p>
-
 <h3>Can I apply with no experience?</h3>
 <p>Yes, once certified. Agencies like VNS Health welcome new and returning workers.</p>
 
-<h3>Are overtime hours paid more?</h3>
-<p>Yes, one and a half times the regular rate over 40 hours a week, or 44 for residential employees.</p>
-
-<h3>Can foreigners apply?</h3>
-<p>Only with existing US work authorisation; no sponsorship is offered for these posts.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Choose a Department of Health approved programme, compare agencies on hours, supervision and pay above the $19.65 floor, and get every term in writing before accepting a case. This guide cannot promise a job, hours or a wage.</p>
+<p>Choose a Department of Health approved programme, compare agencies on hours, supervision and pay above the $19.65 floor, and get every term in writing before accepting a case.</p>
 
 <h2>Sources</h2>
 
@@ -172,7 +154,6 @@ class HomeHealthAideJobsBrooklynNewYorkTrainingHiringBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, the warning signs of a recruitment scam.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 28 October 2026 against the pages named in Sources. It does not promise a job, hours, training places or a wage.</p>
 HTML;
     }
 }

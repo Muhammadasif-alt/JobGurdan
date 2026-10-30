@@ -288,20 +288,8 @@ JOBHTML;
 <h3>Who pays for the LMIA, me or the employer?</h3>
 <p>The employer applies for and pays the $1,000 LMIA fee. By law it cannot be charged to or recovered from the worker, and neither can recruitment fees.</p>
 
-<h3>Which sectors have the best chance of an LMIA in 2026?</h3>
-<p>Agriculture by volume, then healthcare, skilled trades and trucking. Primary agriculture and several care sectors are also exempt from the low-wage city and cap rules.</p>
-
 <h3>Can a foreign-worker job lead to permanent residence?</h3>
 <p>Yes, but less directly than before. Since 25 March 2025 a job offer adds no Express Entry points, so Canadian work experience, language scores and category-based draws now carry the weight.</p>
-
-<h3>Do I need to work in a big city like Toronto?</h3>
-<p>Often the opposite. Low-wage LMIAs are not processed where a city's unemployment is 6% or more, which includes Toronto, so many approved jobs are in smaller centres and rural areas.</p>
-
-<h3>How long is an LMIA valid, and how long can I work?</h3>
-<p>A positive LMIA is valid for six months, the window to apply for your work permit. A low-wage position can be filled for a maximum of one year; high-wage and agricultural roles can run longer.</p>
-
-<h3>How do I avoid Canada job scams?</h3>
-<p>Never pay for a job or an LMIA, distrust guaranteed placements, and verify the employer. IRCC states that no one can guarantee you a job or a visa.</p>
 
 <h2>More Job Guides</h2>
 

@@ -185,15 +185,6 @@ class AdjunctTeachingJobsUkBlogSeeder extends Seeder
 <h3>Can I teach at a UK university while working full time?</h3>
 <p>Yes, and most sessional teachers do. The teaching contract usually cannot stop you: section 27A of the Employment Rights Act 1996 makes an exclusivity term in a zero hours contract "unenforceable against the worker". The constraint that does bind you is your main employer's own policy on outside work.</p>
 
-<h3>Is an exclusivity clause in a sessional teaching contract enforceable?</h3>
-<p>Not if the contract is a zero hours contract, which most hourly-paid teaching engagements are, because nothing guarantees you hours. The 2022 Regulations extend the same protection to workers on other contracts earning at or below the lower earnings limit. Whether a specific contract qualifies depends on its wording, so read it against the statutory test.</p>
-
-<h3>Do I need to tell my employer I am teaching?</h3>
-<p>Usually yes, and this is the obligation that actually matters. Many employment contracts require secondary employment to be declared or approved. That duty runs to your main employer and is unaffected by the protection in section 27A.</p>
-
-<h3>Can I teach at more than one university at the same time?</h3>
-<p>Yes. Many practitioners hold sessional work at two or three institutions. Concentrating hours at one of them is usually the better strategy if you eventually want a fractional contract, because some universities only count hours accrued within one faculty.</p>
-
 <h3>How do I get my first UK teaching booking with no experience?</h3>
 <p>Offer one free guest lecture on something only you can teach, to a named module, and use it to get into the room with the person who books sessional staff. Then ask explicitly to be added to the department's register of approved hourly-paid teaching staff.</p>
 
@@ -202,9 +193,6 @@ class AdjunctTeachingJobsUkBlogSeeder extends Seeder
 
 <h3>Do I need the right to work in the UK for part-time teaching?</h3>
 <p>Yes, before you start. Hourly-paid teaching cannot meet the Skilled Worker salary floor of GBP 41,700 a year or the going rate, so it is realistically open to people who already hold permission to work. If your status comes through another job, check whether your route permits supplementary employment.</p>
-
-<h3>When in the year should I approach a department?</h3>
-<p>Before the term you want to teach, not during it. Timetables are built weeks ahead, so approaches land best in the late spring for the autumn term and in the late autumn for the spring term. Cover requests also appear at short notice throughout the year once you are on the register.</p>
 
 <h2 id="more-guides">More Job Guides</h2>
 

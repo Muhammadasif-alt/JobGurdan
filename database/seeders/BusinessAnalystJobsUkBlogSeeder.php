@@ -320,20 +320,8 @@ JOBHTML;
 <h3>Can I get a business analyst job with no experience?</h3>
 <p>Through apprenticeships and graduate schemes. The Civil Service TechTrack apprenticeship runs 18 months, the Digital Fast Stream rotates through business analysis, and employers such as Capgemini advertise junior and graduate business analyst roles.</p>
 
-<h3>Can a business analyst get a Skilled Worker visa?</h3>
-<p>Yes. SOC 2431 is a higher-skilled eligible occupation. You normally need at least &pound;41,700 or the &pound;50,200 going rate, whichever is higher, from a licensed sponsor.</p>
-
-<h3>What is the going rate for SOC 2431?</h3>
-<p>&pound;50,200 a year, or &pound;25.74 an hour. Reduced rates apply if you are under 26, studying, training, in a postdoctoral role or hold a PhD.</p>
-
-<h3>Which tools should I learn first?</h3>
-<p>Jira and Confluence, process modelling with BPMN or UML, Excel, then SQL and Power BI or Tableau.</p>
-
 <h3>What hours do business analysts work?</h3>
 <p>Typically 37 to 39 hours a week, with occasional evening work, according to the National Careers Service.</p>
-
-<h3>Which employers hire business analysts in the UK?</h3>
-<p>Banks, consultancies, technology firms, retailers, insurers and government departments. Capgemini, HSBC and the Civil Service all advertise business analysis roles directly.</p>
 
 <h2>More Job Guides</h2>
 

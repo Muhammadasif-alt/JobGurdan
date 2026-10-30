@@ -347,23 +347,11 @@ JOBHTML;
 <h3>How much do healthcare support jobs pay in the UK?</h3>
 <p>For NHS roles in England in 2026/27, Band 2 pays GBP 25,272, Band 3 GBP 25,760 to GBP 27,476 and Band 4 GBP 28,392 to GBP 31,157. Scotland pays more, and social care pay is hourly and set by the employer.</p>
 
-<h3>Do I need a qualification to become a healthcare support worker?</h3>
-<p>No degree is required. Employers expect good literacy and numeracy, sometimes GCSEs, and value care experience. New staff usually complete the Care Certificate in their first 12 weeks.</p>
-
-<h3>How many standards are in the Care Certificate?</h3>
-<p>Sixteen, since the March 2025 update added learning disability and autism awareness. A separate Level 2 Adult Social Care Certificate qualification builds on the same standards.</p>
-
-<h3>Do I need a DBS check?</h3>
-<p>Yes. Patient-facing roles need an enhanced DBS check in England and Wales, PVG in Scotland or AccessNI in Northern Ireland, arranged and paid for by the employer.</p>
-
 <h3>Can I move to the UK from abroad as a care worker?</h3>
 <p>Not on the care-worker route as of 22 July 2025, when it closed to new overseas applicants. In-country switching runs until 22 July 2028, and the Health and Care Worker visa stays open for nurses and other eligible health roles.</p>
 
 <h3>What is a nursing associate?</h3>
 <p>A role regulated by the Nursing and Midwifery Council, usually Band 4, that sits between a healthcare assistant and a registered nurse and is trained through an apprenticeship.</p>
-
-<h3>Can a healthcare support worker become a nurse?</h3>
-<p>Yes. A common route is HCA to nursing associate to registered nurse, often through a Registered Nurse Degree Apprenticeship that the employer supports while you study part-time.</p>
 
 <h2>More Job Guides</h2>
 

@@ -305,20 +305,8 @@ JOBHTML;
 <h3>How much do WordPress and Elementor jobs pay in Pakistan?</h3>
 <p>Published monthly figures on Rozee ran from PKR 15,000 for an internship to PKR 170,000, with a median of PKR 50,000. On Mustakbil, where 96 per cent of listings publish a range, relevant roles ran from PKR 10,000 to 15,000 for an intern up to PKR 150,000 to 220,000 for a senior frontend engineer. Only about a third of Rozee adverts publish any figure at all.</p>
 
-<h3>Is Elementor hiring?</h3>
-<p>Barely. Elementor the company had exactly one open position worldwide when we checked: an AppSec Architect based in Ramat Gan, Israel, listed as on-site. It is not a WordPress role and it is not remote. The work this article describes is at agencies and hosting companies, not at Elementor.</p>
-
 <h3>Can I get a remote WordPress job from Pakistan?</h3>
 <p>Yes, but far fewer than the boards suggest. Of 42 live roles across the five companies most guides recommend, six were open to an applicant in Pakistan. The reliable sources are the WPMU DEV listings on jobs.wordpress.net, which state that location is unimportant, and Fueled's four contract roles marked "Remote, Anywhere".</p>
-
-<h3>What is the official WordPress job board?</h3>
-<p>jobs.wordpress.net. It is alive and recently redesigned, showed 10 open positions when we checked, is free to post on, and is moderated by volunteers within 24 to 36 hours. Listings expire after 21 days, so nothing on it is stale.</p>
-
-<h3>Do I need to know coding for an Elementor job?</h3>
-<p>HTML and CSS, yes, in practice. Most paid Elementor work involves diagnosing a broken responsive layout or a plugin conflict, which is a CSS or debugging problem rather than a settings problem. Basic PHP and JavaScript let you tell whether a fault lies in the theme, a plugin, custom code or the host.</p>
-
-<h3>Is Elementor Editor V4 stable enough to learn?</h3>
-<p>Yes. Elementor 4.0 shipped on 31 March 2026, and Elementor states the atomic features are stable and safe for production and that all new sites have run on version 4 by default since April 2026. The current stable release is 4.3.0. Learn Atomic Elements, Components, Variables and Global Classes; sections and columns are legacy.</p>
 
 <h3>Why do remote WordPress jobs reject applicants from Pakistan?</h3>
 <p>Usually tax, payroll or right-to-work reasons rather than skill. WP Engine hires only in five named countries. Two Automattic roles require United States citizenship. One listing on the official WordPress board is restricted to India and another to US citizens and green card holders, while both are tagged Remote. Always read the eligibility sentence.</p>

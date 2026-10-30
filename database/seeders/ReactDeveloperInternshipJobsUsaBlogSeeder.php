@@ -226,20 +226,8 @@ HTML;
 <h3>When is an unpaid internship allowed?</h3>
 <p>Unpaid internships "for public sector and non-profit charitable organizations, where the intern volunteers without expectation of compensation, are generally permissible". At a commercial software company the primary beneficiary test decides it, and no single factor is determinative.</p>
 
-<h3>What is the primary beneficiary test?</h3>
-<p>A seven-factor examination of the economic reality of the relationship, asking which party benefits more. It replaced the Department of Labor's earlier six-factor test, which was rescinded on 5 January 2018.</p>
-
-<h3>Which factor matters most for a software internship?</h3>
-<p>Usually the sixth: whether your work "complements, rather than displaces, the work of paid employees while providing significant educational benefits to the intern". Shipping the team's backlog is displacement.</p>
-
-<h3>How do F-1 students take an internship?</h3>
-<p>Through CPT, which must be an integral part of an established curriculum and is authorised by your DSO, or through pre-completion OPT. You may not begin CPT before your Form I-20 carries the DSO endorsement.</p>
-
 <h3>Does CPT affect my OPT later?</h3>
 <p>It can, permanently. Students who receive one year or more of full-time CPT are ineligible for post-completion practical training. Part-time CPT and shorter full-time periods do not trigger it.</p>
-
-<h3>Is the advertised internship salary what I will receive?</h3>
-<p>Not if it is annualised. A twelve-week internship quoted as an annual figure pays roughly a quarter of it. Convert to the hours you will work before comparing offers.</p>
 
 <h3>Do I need experience to get a React internship?</h3>
 <p>No. BLS records work experience in a related occupation as None for the occupation this work sits in. Employers set their own bars, but projects and coursework are the recognised substitute.</p>

@@ -312,20 +312,8 @@ JOBHTML;
 <h3>Is WordPress still worth learning in 2026?</h3>
 <p>For maintenance, e-commerce and custom development, yes. It runs 40.7 per cent of all websites, and that installed base needs looking after. Building simple brochure sites is the part being taken by hosted builders, so aim past it.</p>
 
-<h3>What is a WordPress maintenance retainer and what should it include?</h3>
-<p>A monthly plan covering updates applied on staging, tested backups, uptime and security monitoring, a capped allowance of small changes, and a short report. Everything outside that, new features, redesigns, content entry, should be quoted separately and said so in writing.</p>
-
-<h3>How risky are WordPress plugins really?</h3>
-<p>Patchstack recorded 11,334 new vulnerabilities across the ecosystem in 2025, up 42 per cent on the previous year, with 91 per cent of them in plugins and 9 per cent in themes. Auditing and pruning a client's plugin list is genuinely valuable work.</p>
-
-<h3>Do I need to know PHP for WordPress jobs?</h3>
-<p>To move past the bottom of the pay band, yes. It is the difference between configuring a site and building one, and it is the most common thing separating candidates at junior level.</p>
-
 <h3>Block themes or Elementor: which should I learn?</h3>
 <p>Both, for now. Block themes and the site editor are where WordPress is heading and where new builds are going, while most existing client sites still run classic themes or a page builder. The paid work sits in maintaining and migrating the old while building the new.</p>
-
-<h3>Are remote WordPress developer jobs common?</h3>
-<p>Very. Agencies, in-house marketing teams and e-commerce brands hire remotely as a matter of course, and scheduled maintenance work suits distributed teams particularly well.</p>
 
 <h2>More Job Guides</h2>
 

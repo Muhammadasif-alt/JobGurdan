@@ -314,18 +314,6 @@ JOBHTML;
 <h3>Which country is best for a first security job abroad?</h3>
 <p>It depends on your permission to work. In the UAE, employers hire guards directly and often state the licence requirement upfront. In the UK and Canada you must already be allowed to work before you can be licensed.</p>
 
-<h3>Does a SIRA certificate work in the whole UAE?</h3>
-<p>No. SIRA licenses Dubai. Other emirates have their own regulator, so ask which one covers the site.</p>
-
-<h3>Can I get an SIA licence from outside the UK?</h3>
-<p>In most cases no, because you need the right to work in the UK, which the SIA checks against Home Office records.</p>
-
-<h3>Can a work permit holder get an Ontario security licence?</h3>
-<p>Yes. You must be 18 or over and legally entitled to work in Canada; a work permit counts, and citizenship or permanent residence is not required.</p>
-
-<h3>Is security guard work a route to a UK Skilled Worker visa?</h3>
-<p>No. Check any sponsorship claim on GOV.UK before you reply to it.</p>
-
 <h3>Who pays for security guard licence training?</h3>
 <p>It varies. Ask in writing before you accept, and in the UAE remember the employer may not charge you recruitment costs.</p>
 

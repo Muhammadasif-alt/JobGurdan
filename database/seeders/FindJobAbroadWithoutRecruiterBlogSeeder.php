@@ -154,18 +154,6 @@ class FindJobAbroadWithoutRecruiterBlogSeeder extends Seeder
 <h3>Should I contact employers who have no vacancy?</h3>
 <p>Only where they welcome speculative applications; otherwise follow the published recruitment instructions.</p>
 
-<h3>Is it legal to get a job abroad without an agent?</h3>
-<p>Generally yes, but Pakistan's emigration rules and the destination's work-permit rules still apply. Check both.</p>
-
-<h3>How long should I wait before following up?</h3>
-<p>Respect the advertised timeline; where none is given, a single polite follow-up after one to two weeks is reasonable.</p>
-
-<h3>Can an employer charge me for a job?</h3>
-<p>A sponsor should not charge a worker for a sponsorship certificate, and fees for a job offer are a scam warning sign.</p>
-
-<h3>Do job portals submit my application?</h3>
-<p>No. They show vacancies; you apply through the employer's stated process.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -177,7 +165,6 @@ class FindJobAbroadWithoutRecruiterBlogSeeder extends Seeder
     <li><a href="/blog/documents-needed-to-work-abroad-2026">What Documents Do You Need to Work Abroad (2026)</a>: the checklist</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

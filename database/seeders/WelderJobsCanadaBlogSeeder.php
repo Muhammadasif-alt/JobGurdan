@@ -287,18 +287,6 @@ JOBHTML;
 <h3>What is a CWB ticket?</h3>
 <p>A Canadian Welding Bureau qualification for work under CSA W47.1 and related standards. It is only valid while you work for a CWB-certified company, and most last two years with continuous employment.</p>
 
-<h3>Can foreign welders get an LMIA job in Canada?</h3>
-<p>Yes, but at median wages most welder positions outside Alberta fall in the low-wage stream, which cannot be processed in Toronto, Calgary, Edmonton or Vancouver while unemployment there is 6% or more, unless the job is in construction.</p>
-
-<h3>Do welders qualify for Express Entry?</h3>
-<p>Yes, through the Federal Skilled Trades Program and the trade occupations category. The latest trades draw, on 2 April 2026, had a minimum score of 477, and job offers no longer add points.</p>
-
-<h3>How long is a welding apprenticeship in Canada?</h3>
-<p>About three years. Alberta has three periods of 1,560 hours each, and Ontario's program is 6,000 hours including 720 hours of school.</p>
-
-<h3>Do I need a special certificate for pressure welding in Alberta?</h3>
-<p>Yes. You must hold an ABSA Pressure Welder Certificate of Competency, usually Grade B, and a valid performance qualification card.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing skilled trades and routes into Canada? These cover it:</p>

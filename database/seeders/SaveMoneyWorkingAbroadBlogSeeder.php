@@ -156,18 +156,6 @@ class SaveMoneyWorkingAbroadBlogSeeder extends Seeder
 <h3>Can employer accommodation improve savings?</h3>
 <p>It can reduce costs if the terms are suitable. Confirm charges and conditions.</p>
 
-<h3>What savings percentage should I aim for?</h3>
-<p>There is no universal percentage. Build it from your contract and household costs.</p>
-
-<h3>Should I count overtime in my budget?</h3>
-<p>Not as guaranteed income. Budget from ordinary hours and treat overtime as extra.</p>
-
-<h3>How do relocation costs change first-year savings?</h3>
-<p>Subtract unreimbursed upfront costs from the first year's retained savings.</p>
-
-<h3>Do I pay tax on overseas earnings?</h3>
-<p>Tax rules differ by country and by your residence, so check the destination's rules and your own obligations.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -179,7 +167,6 @@ class SaveMoneyWorkingAbroadBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

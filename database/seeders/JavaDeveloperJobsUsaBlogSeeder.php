@@ -311,9 +311,6 @@ JOBHTML;
 <h3>What does C2C mean in a Java job advert?</h3>
 <p>Corp-to-corp: your registered business entity contracts with theirs. It requires a real US company, an LLC, S-corp or C-corp with an EIN, a business bank account and usually a certificate of insurance, and the person doing the work still needs US work authorisation.</p>
 
-<h3>Can I work corp-to-corp on an H-1B?</h3>
-<p>Not through your own company. H-1B status requires a sponsoring employer, so an H-1B consultant on a "C2C" project is a W-2 employee of the consulting firm holding the visa, with the corp-to-corp contract sitting between that firm and the vendor or client.</p>
-
 <h3>Is W-2 or C2C better for a Java contractor?</h3>
 <p>They are different trades rather than better and worse. W-2 gives you withholding, benefits and the employer's half of payroll taxes; C2C gives you a higher headline rate and the costs and administration of running a company. Compare them after tax and benefits, not on the hourly figure.</p>
 
@@ -325,9 +322,6 @@ JOBHTML;
 
 <h3>Java or Python for a US career?</h3>
 <p>Both sit in the same occupation at the same $135,980 median, so the choice is about market shape rather than pay. Java has the larger enterprise contract and consulting market; Python has the data and machine learning demand, projected to grow 35 per cent to 2035. Our <a href="/blog/python-developer-jobs-in-usa">Python developer guide</a> covers that side.</p>
-
-<h3>Are remote Java jobs common?</h3>
-<p>Less common than in the rest of software, because banking, insurance, healthcare and government contracting carry on-site and data-residency requirements. Fintech and SaaS employers are the most reliably remote.</p>
 
 <h2>More Job Guides</h2>
 

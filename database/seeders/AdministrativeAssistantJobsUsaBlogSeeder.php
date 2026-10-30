@@ -258,18 +258,6 @@ JOBHTML;
 <h3>Do I need a degree to become an administrative assistant?</h3>
 <p>No. The BLS lists a high school diploma as the typical entry education, though many executive assistant roles prefer a degree.</p>
 
-<h3>Which state pays administrative assistants the most?</h3>
-<p>The District of Columbia, with a mean of $61,270 in May 2025, followed by Connecticut, Massachusetts, Washington and California. Texas ranked 35th.</p>
-
-<h3>What is the CAP certification?</h3>
-<p>The Certified Administrative Professional credential from IAAP. It needs two to four years of experience depending on your education, costs $375 for members or $575 for non-members, and is renewed every three years.</p>
-
-<h3>How much does an office manager make?</h3>
-<p>First-line supervisors of office workers earned a median of $69,500 in May 2025, and administrative services managers, who usually need a bachelor's degree, $114,130.</p>
-
-<h3>Are virtual assistants covered by minimum wage?</h3>
-<p>Only if they are employees. Independent contractors are not covered by federal minimum wage and overtime rules, so check the contract before accepting a remote role.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing office work in the US and abroad? These cover it:</p>

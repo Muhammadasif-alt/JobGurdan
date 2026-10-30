@@ -338,18 +338,6 @@ JOBHTML;
 <h3>Is AU$50,000 a normal starting salary for a receptionist?</h3>
 <p>Not for a full-time adult. The Clerks Award minimum works out to about $53,284 a year, and the National Minimum Wage alone is about $52,255 a year.</p>
 
-<h3>Do I need a qualification to be a receptionist in Australia?</h3>
-<p>No. A Certificate III in Business (BSB30120), which replaced the Certificate III in Business Administration, can help, but customer service experience often matters more.</p>
-
-<h3>Are receptionist jobs mostly part-time?</h3>
-<p>Yes. Jobs and Skills Australia reports that about 43 per cent of receptionists work full-time.</p>
-
-<h3>How much does a casual receptionist earn?</h3>
-<p>Casuals get a 25 per cent loading, so a Level 1 year 1 casual under the Clerks Award earns $33.71 an hour from 1 July 2026.</p>
-
-<h3>What does a hotel receptionist earn in Australia?</h3>
-<p>Hotel receptionists are usually front office grade 1 under the Hospitality Award, paid at least $1,029.10 a week, or $27.08 an hour, from 1 July 2026, plus penalty rates for evenings and weekends.</p>
-
 <h3>Can I get visa sponsorship as a receptionist in Australia?</h3>
 <p>Very rarely. Receptionist occupations are not on the Core Skills Occupation List, so they cannot be sponsored through the Skills in Demand visa's Core Skills stream.</p>
 

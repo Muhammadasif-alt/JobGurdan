@@ -63,11 +63,11 @@ it('renders with its long-tail sections', function () {
         ->assertSee('cpwb.punjab.gov.pk');
 });
 
-it('carries eight FAQs in markup built from the post body', function () {
+it('carries four FAQs in markup built from the post body', function () {
     $faqs = app(StructuredDataService::class)
         ->faqsFromHtml(Blog::where('slug', RCW_SLUG)->value('content'));
 
-    expect($faqs)->toHaveCount(8);
+    expect($faqs)->toHaveCount(4);
 
     $this->get('/blog/'.RCW_SLUG)->assertSee('"FAQPage"', false);
 });

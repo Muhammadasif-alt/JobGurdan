@@ -295,18 +295,6 @@ JOBHTML;
 <h3>Can a foreign-trained physical therapist work in the USA?</h3>
 <p>Yes. You need a credential evaluation (FCCPT, ICA or CGFNS), English proficiency, a passing NPTE, and a health care worker certificate, CGFNS's VisaScreen or FCCPT's Type I, for the visa.</p>
 
-<h3>Who issues the VisaScreen certificate?</h3>
-<p>CGFNS issues the VisaScreen certificate, not FCCPT. FCCPT issues its own Type I health care worker certificate. Either one satisfies the federal certificate a foreign PT needs for a work visa.</p>
-
-<h3>Which visa do foreign physical therapists usually use?</h3>
-<p>Most enter on an H-1B. Because physical therapists are a Schedule A, Group I shortage occupation, EB-3 permanent-residency sponsorship is straightforward, though the green-card wait depends on your country of birth.</p>
-
-<h3>How long does the foreign credentialing process take?</h3>
-<p>Plan for nine to eighteen months and $3,000-$5,000 for credentialing, certification and licensing. That is separate from the immigrant-visa wait, which can be longer for high-demand countries.</p>
-
-<h3>Is physical therapy a growing field?</h3>
-<p>Yes. The BLS projects 12% growth from 2025 to 2035, much faster than the all-occupation average, with about 13,400 openings a year.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at neighbouring US healthcare roles or the routes abroad? These cover them:</p>

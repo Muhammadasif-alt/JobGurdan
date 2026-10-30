@@ -291,18 +291,6 @@ JOBHTML;
 <h3>Do I need to speak Italian to work as a waiter in Italy?</h3>
 <p>In practice, yes. Employers expect you to communicate with guests and staff, so learn basic restaurant Italian before applying.</p>
 
-<h3>Can a non-EU citizen get a hotel or restaurant job in Italy?</h3>
-<p>Yes, through the Decreto Flussi quota. An Italian employer must request a nulla osta for you, and seasonal tourism applications for 2027 open on 9 February 2027.</p>
-
-<h3>How many seasonal workers does Italy admit for 2027?</h3>
-<p>The 2027 decree allows 89,000 seasonal entries across agriculture and tourism.</p>
-
-<h3>Can I apply for the Italian quota myself?</h3>
-<p>No. The employer files the request through the Interior Ministry's ALI portal. You need a written job offer first.</p>
-
-<h3>Is a job board enough, or should I also use official sites?</h3>
-<p>Use both. A board shows the widest range of listings, while the employer's own careers page confirms which roles are genuine.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related hospitality and Gulf guides:</p>

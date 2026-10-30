@@ -317,18 +317,6 @@ JOBHTML;
 <h3>What is the official NEOM careers website?</h3>
 <p>careers.neom.com/careers. NEOM's anti-fraud notice names that address itself. Note that neom.com does not link to it from anywhere on its careers page.</p>
 
-<h3>Does NEOM hire civil engineers and project managers?</h3>
-<p>Those disciplines are relevant to NEOM's work, but no civil engineering, project management or architecture vacancy is listed on the portal at present. Guides claiming otherwise are quoting the job board software's placeholder examples.</p>
-
-<h3>Has NEOM been cancelled?</h3>
-<p>No. The zone is operating and Oxagon is still attracting investment. But work on The Line is reported delayed until after 2030, PIF has written down gigaproject value, and NEOM describes itself as transitioning from project to enterprise. Hiring has contracted sharply.</p>
-
-<h3>Does NEOM provide accommodation?</h3>
-<p>NEOM states that employees have private accommodation within secure gated communities near their workplace, with recreational amenities. What an individual actually receives depends on their contract.</p>
-
-<h3>Does NEOM sponsor work visas for foreigners?</h3>
-<p>NEOM makes no such promise. Its published wording is that offers are conditional on the candidate being able to obtain a Saudi work visa. Ask the employer directly who applies and who pays before you accept.</p>
-
 <h3>Is there a NEOM graduate programme?</h3>
 <p>Not one that NEOM names or publishes. Its only statement is that development programmes range from internships to coaching for senior staff. Any site advertising a named NEOM graduate scheme with deadlines has made it up.</p>
 

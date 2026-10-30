@@ -316,18 +316,6 @@ JOBHTML;
 <h3>Can I get a healthcare assistant job in the UK with visa sponsorship?</h3>
 <p>Only for a Band 3 or higher post paying at least &pound;25,000, in a setting where registered nurses also work. Band 1 and 2 posts cannot be sponsored, and care worker roles closed to new overseas applicants on 22 July 2025.</p>
 
-<h3>Do I need qualifications to become a healthcare assistant?</h3>
-<p>There are no set entry requirements. Employers may ask for GCSEs in English and maths and usually expect some care experience, and you work towards the Care Certificate once you start.</p>
-
-<h3>Is a DBS check required in Scotland?</h3>
-<p>Scotland uses the PVG scheme run by Disclosure Scotland instead, and joining it is a legal requirement for regulated roles. Northern Ireland uses AccessNI.</p>
-
-<h3>How many standards are in the Care Certificate?</h3>
-<p>Sixteen, since the March 2025 update added a standard on learning disability and autism.</p>
-
-<h3>How do I become a nurse from a healthcare assistant job?</h3>
-<p>Through a two-year trainee nursing associate apprenticeship, usually paid at Band 3, then a registered nurse degree apprenticeship, which nursing associate training can shorten to two years.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing healthcare and entry-level work in the UK and abroad? These cover it:</p>

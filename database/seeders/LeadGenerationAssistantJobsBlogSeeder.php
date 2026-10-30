@@ -558,20 +558,8 @@ JOBHTML;
 <h3>Is a lead generation assistant the same as an SDR?</h3>
 <p>No. An assistant researches, builds lists and keeps the CRM clean with no quota. An SDR carries a quota, cold calls and books meetings. Verified adverts show roughly a tenfold pay difference, so check the listing for a quota before accepting the title.</p>
 
-<h3>Is cold emailing legal?</h3>
-<p>It is regulated, not banned. US law allows it with strict conditions and penalties of up to USD 53,088 per non-compliant email. EU rules require you to tell people within one month when their data came from elsewhere, and to offer a prominent objection right in the first message. UK rules permit emailing companies but not sole traders without consent.</p>
-
-<h3>Can I use scraping tools on LinkedIn?</h3>
-<p>LinkedIn's user agreement prohibits scrapers, bots and browser extensions that copy profile data or automate activity, and states accounts may be restricted or shut down. The serious risk is that many employers ask you to run these on your own account, so ask whose account will be used.</p>
-
-<h3>Which lead generation tools are actually free?</h3>
-<p>HubSpot CRM, Hunter, Salesforce's free suite and Clay's small free tier. Instantly, Smartlead, GoHighLevel and Pipedrive offer trials only. Apollo is free but drops to 100 credits a month if you sign up with a Gmail address rather than a corporate domain.</p>
-
 <h3>Do I need sales experience to start?</h3>
 <p>Not necessarily. Student-level and intern roles exist, though they pay PKR 7,000 to 30,000. Understanding the difference between a prospect, a lead, a qualified lead and a customer matters more at entry level than previous sales employment.</p>
-
-<h3>How do I get paid from Pakistan for remote lead generation work?</h3>
-<p>Through an Exporters' Special Foreign Currency Account alongside a PKR account, under the State Bank framework for freelancers. A Roshan Digital Account is for non-resident Pakistanis only. PayPal is unavailable in Pakistan; Payoneer is the mainstream route.</p>
 
 <h2>More Job Guides</h2>
 

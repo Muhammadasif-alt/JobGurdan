@@ -357,20 +357,8 @@ JOBHTML;
 <h3>Can I still claim the GBP 6 a week working from home tax relief?</h3>
 <p>Not for the current tax year. GOV.UK states that from 6 April 2026 to 5 April 2027 you cannot claim tax relief for working from home. Even before that it was limited to people who had to work from home, not those who chose to, which excluded most hybrid workers.</p>
 
-<h3>Does my employer have to pay for my desk, chair or broadband?</h3>
-<p>Not as a general allowance. But if a display screen equipment assessment shows you need a particular piece of equipment, the HSE is clear that you cannot be charged for it. Your employer must also include you in its risk assessment and hold at least &pound;5 million of employers' liability insurance.</p>
-
-<h3>Can a work from home job be sponsored for a visa?</h3>
-<p>It is a poor candidate. The Skilled Worker route is for people working in the UK, and a sponsor must report to the Home Office when a worker becomes permanently home-based. Employers must also complete a right to work check before you start, with penalties of up to &pound;60,000 per illegal worker.</p>
-
 <h3>What is the difference between an employee, a worker and a self-employed contractor?</h3>
 <p>Workers get the minimum wage, paid holiday and rest breaks but not unfair dismissal protection, redundancy pay or the right to request flexible working. Employees get all of it. Self-employed contractors get none of the pay protections, though homeworkers paid per item are still entitled to the minimum wage.</p>
-
-<h3>Is it legal for an agency to charge me a fee to find remote work?</h3>
-<p>No. Section 6 of the Employment Agencies Act 1973 makes it a criminal offence to charge a work-seeker a fee for finding them employment, with only narrow exceptions for certain entertainment and modelling work. Report it to the Fair Work Agency, which took over enforcement on 7 April 2026.</p>
-
-<h3>How many people in the UK actually work from home?</h3>
-<p>ONS figures for January to March 2025 put hybrid workers at 28 per cent of workers in Great Britain. The proportion has risen gradually since 2022 and now looks settled rather than accelerating, and it is concentrated in information and communication, professional and administrative occupations.</p>
 
 <h2>More Job Guides</h2>
 

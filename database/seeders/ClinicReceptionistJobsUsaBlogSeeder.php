@@ -171,16 +171,8 @@ HTML;
 <p>The national median for receptionists was $18.27 an hour, or $38,010 a year, in May 2025. In ambulatory health care it was $19.54 and in nursing and residential care $17.23, so the setting matters.</p>
 <h3>Can I become a clinic receptionist without experience?</h3>
 <p>BLS records no prior work experience as the typical requirement, with short-term on-the-job training. Individual clinics still set their own bar, so read each advert rather than assuming.</p>
-<h3>How do I find clinic receptionist jobs near me?</h3>
-<p>Search employer careers pages with your city and terms such as medical receptionist, patient services representative and clinic front desk. Compare duties and working hours before applying.</p>
-<h3>Is the national median a guaranteed starting wage?</h3>
-<p>No. A median describes a whole group of workers. Half earn less. Your advertised rate and final offer depend on the employer, the setting and the location.</p>
-<h3>Are all clinic receptionist jobs full time?</h3>
-<p>No. Read the schedule carefully. On-call and part-time reception roles are common, and a high hourly rate on an on-call advert is not a promise of full-time hours.</p>
 <h3>Do I need to know medical terminology?</h3>
 <p>It is usually listed as preferred rather than required for reception roles. Employers more often require accurate data entry and clear telephone communication.</p>
-<h3>Is a clinic receptionist the same as a medical records clerk?</h3>
-<p>No. A front-desk role centres on reception and patient contact. A records role focuses on health information and, once certified, pays a higher median. Compare the actual duties rather than the title.</p>
 <h3>Does this guide promise visa sponsorship?</h3>
 <p>No. Nothing here establishes that sponsorship is available for these roles. Check the employer's eligibility information on the particular vacancy.</p>
 

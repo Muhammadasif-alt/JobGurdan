@@ -342,20 +342,8 @@ JOBHTML;
 <h3>How long does it take to get a work visa to teach in Japan?</h3>
 <p>The Certificate of Eligibility takes one to three months, the agency's official standard processing period, not four to eight weeks. Add the embassy visa step and travel, and plan for about two to four months from job offer to arrival.</p>
 
-<h3>Can I teach English in Japan without a degree?</h3>
-<p>It is hard. The Instructor status needs a degree or equivalent, and language teaching under International Services needs three years of relevant experience unless you are a graduate. The ten-year experience route does not apply to language teaching. A Working Holiday visa is the realistic alternative for eligible nationalities.</p>
-
-<h3>How much does the JET Programme pay?</h3>
-<p>4.02 million yen in the first year, 4.14 million in the second, 4.26 million in the third and 4.32 million in the fourth and fifth, before tax and deductions.</p>
-
-<h3>Is a TEFL certificate required?</h3>
-<p>Not by immigration law. Many employers prefer a 120-hour TEFL certificate, and it strengthens an application with no teaching experience, but the visa turns on your degree, not your TEFL.</p>
-
 <h3>When do teaching jobs in Japan start?</h3>
 <p>The Japanese school year starts in April, so dispatch and school hiring peaks ahead of it. JET participants arrive in late July or early August. Eikaiwa hire year-round.</p>
-
-<h3>How much does it cost to renew a Japanese work visa?</h3>
-<p>From 1 October 2026 the fee depends on the length of stay granted: 33,000 yen at the counter or 27,000 yen online for one year, up from a flat 6,000 yen. Applications received by 30 September 2026 pay the old fee.</p>
 
 <h2>More Job Guides</h2>
 

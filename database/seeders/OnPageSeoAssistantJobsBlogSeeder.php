@@ -446,18 +446,6 @@ JOBHTML;
 <h3>Does every page need exactly one H1?</h3>
 <p>No, and this is one of the most repeated myths in the field. Google's own starter guide states that heading order does not matter from a Search perspective and that there is no ideal number of headings. Sensible heading structure still matters a great deal for readers and for screen readers, which is the real reason to get it right.</p>
 
-<h3>Should I add FAQ schema to win rich results?</h3>
-<p>Not for that reason. Since August 2023 Google has shown FAQ rich results only for well-known, authoritative government and health sites, and HowTo results were deprecated entirely in September 2023. Google says there is no need to remove existing markup, but expecting it to change how your result looks is out of date advice.</p>
-
-<h3>What is a realistic starting salary in Pakistan?</h3>
-<p>Based on listings live in September 2026, internships are advertised from about PKR 10,000 to 25,000 a month and junior executive roles from about PKR 25,000 to 35,000. Listings at PKR 50,000 to 60,000 asked for two or more years of experience. Figures higher than that circulating online usually come from forums rather than advertisements.</p>
-
-<h3>Do I need to know coding?</h3>
-<p>No. Basic familiarity with HTML helps you understand headings, links, images and page structure, and it lets you spot the common defect of navigation built without real anchor elements. Beyond that, advanced programming belongs to technical SEO roles rather than assistant ones.</p>
-
-<h3>Are the Yoast and Rank Math scores reliable?</h3>
-<p>They are reliable as completeness checks and unreliable as predictions. Google states that third-party tools have no access to its ranking data and cannot guarantee performance. Use the plugin to catch what you forgot, and be prepared to explain any item you deliberately chose to ignore.</p>
-
 <h3>Can I do this job remotely from Pakistan?</h3>
 <p>Yes, and many listings are remote or hybrid. Check the shift, because agency work serving American clients is frequently night hours, and check whether the role is employment or contract. Salary transparency also varies by board, so compare on a platform that publishes bands before negotiating on one that does not.</p>
 

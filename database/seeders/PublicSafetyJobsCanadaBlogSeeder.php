@@ -380,18 +380,6 @@ JOBHTML;
 <h3>What is the age limit for CBSA and the RCMP?</h3>
 <p>Neither has a maximum age. CBSA trainees must be 18 before training starts, and the RCMP accepts applications at 18 but hires police officers from 19.</p>
 
-<h3>Can permanent residents apply for public safety jobs?</h3>
-<p>Yes. CBSA and CSC accept permanent residents, and the RCMP accepts permanent residents who have lived in Canada for 1,095 days in the past five years.</p>
-
-<h3>Is the CBSA hiring in 2026?</h3>
-<p>Yes. CBSA accepts officer trainee applications year-round through a continuous inventory, and the current poster is open until 24 June 2027.</p>
-
-<h3>Are public safety jobs available across Canada?</h3>
-<p>Yes. CBSA officers work at 1,200 points of service, and CBSA and RCMP recruits must be willing to work anywhere in Canada.</p>
-
-<h3>Where can I find legitimate public safety jobs in Canada?</h3>
-<p>Use the Government of Canada Jobs portal and the official CBSA, CSC, RCMP and Public Safety Canada career pages, plus provincial and municipal government sites for local jobs.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing public safety careers? These go deeper:</p>

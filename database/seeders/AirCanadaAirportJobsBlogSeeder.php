@@ -319,18 +319,6 @@ JOBHTML;
 <h3>What does an Air Canada ramp agent earn?</h3>
 <p>Air Canada publishes it on the advert: $23.36 per hour to start, rising to $38.15 after eight years of continuous service under the applicable collective agreement. The role is unionised with the IAMAW.</p>
 
-<h3>What is a RAIC and can I get one in advance?</h3>
-<p>A Restricted Area Identity Card, the pass for airside areas. You cannot get one in advance. Transport Canada states the clearance application must be initiated by the employer and only by someone whose job requires restricted-area access.</p>
-
-<h3>Do I need to speak French for Air Canada airport jobs?</h3>
-<p>It depends on the station. Quebec City requires fluent English and French. Toronto asks for English plus French, German or Greek. Ottawa does not list French at all, asking instead for languages including Hindi, Punjabi and Arabic.</p>
-
-<h3>What is the official Air Canada careers website?</h3>
-<p>careers.aircanada.com/ca/en, with airport roles at /c/airport-operations-jobs. The old aircanada.taleo.net address is retired and redirects.</p>
-
-<h3>Does Air Canada hire people with no airport experience?</h3>
-<p>Ramp agent and customer experience roles are entry points, but requirements sit on each advert. Read the qualifications section rather than assuming.</p>
-
 <h3>How do I know an Air Canada job offer is real?</h3>
 <p>Air Canada advertises only on its own careers portal, LinkedIn and Indeed. It never asks for payment, and never asks for passports or licences through social media. Anything else is a scam.</p>
 

@@ -150,12 +150,6 @@ class SocialMediaManagerJobsFromHomeMelbourneBlogSeeder extends Seeder
 
 <p>Keep a simple sheet with the employer, the date you applied, the location rules, the contact and the next step. Check each employer's own site rather than trusting a forwarded message, and never pay a fee, buy software or send identity documents before you have a written offer from a business you have verified.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can beginners get social media manager jobs from home?</h3>
@@ -169,18 +163,6 @@ class SocialMediaManagerJobsFromHomeMelbourneBlogSeeder extends Seeder
 
 <h3>Will I need to appear on camera?</h3>
 <p>Some roles ask for on-camera content and others do not. Check the advertisement and ask in the interview, because it changes the job.</p>
-
-<h3>Are links in a job guide live vacancies?</h3>
-<p>No. Guides like this one point to routes and official pages. A vacancy exists only on the employer's own advertisement, so confirm it there.</p>
-
-<h3>Is a freelance social media job the same as a job?</h3>
-<p>No. A contractor runs their own business and handles their own tax and insurance, so read the agreement and compare the terms before you accept.</p>
-
-<h3>How do I show results if I have no clients?</h3>
-<p>Run a practice account, build a content calendar for a small business you know, and write a short report on what you planned and why. Label it as practice.</p>
-
-<h3>Should I accept an unpaid trial task?</h3>
-<p>Keep it short and clearly scoped, and ask whether your work will be used publicly. Be wary of long unpaid tasks that look like real client work.</p>
 
 <h2>Bottom Line</h2>
 
@@ -203,7 +185,6 @@ class SocialMediaManagerJobsFromHomeMelbourneBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or career advice. Reviewed on 22 October 2026 against the pages named in Sources. It does not promise a vacancy, an income, an interview or an offer, and postings and rules can change.</p>
 HTML;
     }
 }

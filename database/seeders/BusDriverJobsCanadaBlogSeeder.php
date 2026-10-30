@@ -317,18 +317,6 @@ JOBHTML;
 <h3>Do I need experience to become a bus driver?</h3>
 <p>Often not. Many employers hire drivers with a regular licence and a clean record and train them for the bus class, and some pay during training.</p>
 
-<h3>Are bus driver jobs part-time?</h3>
-<p>Many are. In Ontario 37% of bus drivers work part-time, against 19% of all workers, and 54% work only part of the year.</p>
-
-<h3>Which provinces have the best outlook for bus drivers?</h3>
-<p>Job Bank rates the 2025-2027 outlook Good in Ontario, Alberta, BC, Manitoba, Saskatchewan, Nova Scotia, New Brunswick and Newfoundland and Labrador, and Moderate in Quebec and Prince Edward Island.</p>
-
-<h3>Can foreigners get bus driver jobs in Canada?</h3>
-<p>It is hard. A commercial licence from outside Canada converts at most to a car licence in Ontario, most bus driver jobs fall in the low-wage LMIA stream, which is not processed in Toronto, Montr&eacute;al, Calgary, Edmonton or Vancouver while unemployment there is 6% or more, and no 2026 Express Entry category covers bus drivers.</p>
-
-<h3>What is the School Bus Driver Improvement Course?</h3>
-<p>A government-approved course of at least 6.25 hours that Ontario requires for a Class B or E licence. The certificate is valid for 5 years.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing driving jobs and routes into Canada? These cover it:</p>

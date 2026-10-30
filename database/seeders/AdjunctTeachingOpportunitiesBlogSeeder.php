@@ -228,18 +228,6 @@ class AdjunctTeachingOpportunitiesBlogSeeder extends Seeder
 <h3>Do adjunct teachers need a PhD?</h3>
 <p>Not always. The BLS handbook says a master's degree may be enough at community colleges, while four-year institutions typically require a doctorate for upper-division and graduate courses.</p>
 
-<h3>Can adjunct faculty qualify for Public Service Loan Forgiveness?</h3>
-<p>Yes. The Department of Education requires employers to credit at least 3.35 hours per credit hour taught, so nine credit hours a week reaches the 30 hour full-time standard at a qualifying employer.</p>
-
-<h3>Do adjuncts get health insurance?</h3>
-<p>It depends on how the employer counts hours. The IRS sets out a method crediting 2.25 hours of service per hour of classroom teaching, plus one hour a week for each required hour outside it, measured against a 30 hour threshold.</p>
-
-<h3>Are adjunct positions available online?</h3>
-<p>Yes, and they are common. Postings often restrict applicants to particular states because employing someone there obliges the institution to register for payroll tax in that state.</p>
-
-<h3>What is an adjunct called in the UK?</h3>
-<p>The paid work is advertised as hourly-paid lecturer, associate lecturer, visiting lecturer or graduate teaching assistant. An adjunct or honorary professorship in the UK is normally an unpaid title.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The country detail sits in these:</p>

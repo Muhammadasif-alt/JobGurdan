@@ -248,26 +248,14 @@ JOBHTML;
 <h3>Are online jobs without investment in Pakistan real?</h3>
 <p>Yes. Freelance writing, design, tutoring, social media management and virtual assistance all require no payment to start. The same phrase also attracts a large volume of fraud, so the test is simple: genuine work never asks you for money.</p>
 
-<h3>Do Fiverr and Upwork cost anything?</h3>
-<p>Nothing to join, but they are not free. Fiverr takes 20% of every order. Upwork charges a service fee per contract and sells Connects at about $0.15 each, with a proposal costing roughly 6 to 16 of them, so submitting proposals has a real cost before any client replies.</p>
-
-<h3>Do these online jobs pay daily?</h3>
-<p>Some small task-based work does, but most stable online income is paid weekly, monthly or per project. Treat promises of large daily payouts for simple tasks like clicking or sharing as a scam, because that is what they almost always are.</p>
-
 <h3>Can students in Pakistan do this work?</h3>
 <p>Yes, and tutoring in particular suits students, because the subject knowledge is already there and the hourly rate is usually better than entry-level writing. Writing and social media management are the other common starting points.</p>
 
 <h3>Is online work in Urdu paid as well as English work?</h3>
 <p>It varies by client, but the competition is thinner. Fewer people write Urdu well than write average English, so a strong Urdu portfolio often faces a smaller field for the same work.</p>
 
-<h3>How do I get paid from international clients?</h3>
-<p>Usually in dollars through Payoneer, which you withdraw to a Pakistani bank, or by direct bank remittance. PayPal does not operate for accounts in Pakistan, so an offer to pay that way is a warning sign in itself.</p>
-
 <h3>Is it safe to take work offered on WhatsApp?</h3>
 <p>Only after you have verified the company independently. Legitimate clients will use email or a platform; an opportunity that exists solely on an unknown number, with no website and no named person, should be treated as an advertisement rather than a job.</p>
-
-<h3>Is freelancing better than a remote job for a beginner?</h3>
-<p>Usually not at the start. Employed remote work pays a fixed amount on a fixed date while you learn; freelance income is uneven until you have a track record. Freelancing is easier to add once someone has already paid you for a skill.</p>
 
 <h2>More Job Guides</h2>
 

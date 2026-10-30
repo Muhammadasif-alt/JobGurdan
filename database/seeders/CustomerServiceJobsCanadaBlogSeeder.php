@@ -310,20 +310,8 @@ JOBHTML;
 <h3>Which province pays customer service best?</h3>
 <p>Largely the one with the highest minimum wage, because this occupation sits close to the floor. British Columbia is $18.25 an hour, Ontario $17.95, and Alberta $15.00 and unchanged since 2018.</p>
 
-<h3>What does bilingual imperative mean on a federal job posting?</h3>
-<p>That you must already meet the position's linguistic profile when you are appointed. Bilingual non-imperative lets you be appointed first and complete language training afterwards, so those are the postings to target while you are still learning.</p>
-
-<h3>Can I apply for CRA or Service Canada jobs on a work permit?</h3>
-<p>You can apply, but the Public Service Employment Act gives preference to veterans first and then to Canadian citizens and permanent residents. A qualified candidate without either sits behind both groups in external advertised processes.</p>
-
-<h3>What is a linguistic profile like BBB or CBC?</h3>
-<p>Three levels covering reading, writing and oral interaction, assessed by the Public Service Commission's Second Language Evaluation. BBB is common on frontline roles, CBC on supervisory and professional ones.</p>
-
 <h3>Are remote customer service jobs in Canada legitimate?</h3>
 <p>Many are, particularly with established carriers, banks and outsourcers. Confirm which province you are employed in, because your minimum wage and overtime rules follow that rather than where the employer's head office is.</p>
-
-<h3>Do I need Canadian experience to get hired?</h3>
-<p>Usually not for contact centre work, which is one of the reasons it is such a common first Canadian job. Named software, clear written English and shift availability count for more than where your previous employer was based.</p>
 
 <h2>More Job Guides</h2>
 

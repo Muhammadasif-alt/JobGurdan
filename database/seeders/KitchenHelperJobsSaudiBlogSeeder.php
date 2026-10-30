@@ -259,18 +259,6 @@ JOBHTML;
 <h3>What is the Balady health certificate?</h3>
 <p>The certificate workers in food establishments must hold. It is issued electronically after a medical examination at a Ministry of Health-approved centre, with a health education course in some regions, and takes about 10 days.</p>
 
-<h3>How many hours does a kitchen helper work?</h3>
-<p>Up to 8 hours a day and 48 a week, or 6 and 36 for Muslim workers in Ramadan, with a 30-minute break after five hours and a weekly rest day.</p>
-
-<h3>Is overtime paid in Saudi Arabia?</h3>
-<p>Yes, at the hourly wage plus 50% of the basic wage, or as compensatory paid leave if you agree.</p>
-
-<h3>Is there an age limit for kitchen helper jobs?</h3>
-<p>The law sets 15 as the minimum working age and no ceiling at 30. Basic-skill work permits set an upper limit of 60.</p>
-
-<h3>Do I need to speak Arabic?</h3>
-<p>Basic English is usually enough in hotel and catering kitchens. Arabic helps but is rarely a strict requirement.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing Gulf routes and kitchen work elsewhere? These cover it:</p>

@@ -289,23 +289,11 @@ JOBHTML;
 <h3>What is the difference between class 1 and class 2?</h3>
 <p>Industry shorthand: class 2 is category C, a rigid lorry over 3,500 kg with a trailer up to 750 kg, and class 1 is category CE, which adds a trailer over 750 kg.</p>
 
-<h3>How much do lorry drivers earn in the UK?</h3>
-<p>ONS puts large goods vehicle drivers at a median of &pound;39,141 a year for all employees and &pound;39,905 for full-time, at &pound;16.25 an hour, in its 2025 survey.</p>
-
-<h3>What is Driver CPC?</h3>
-<p>The professional driving qualification taken alongside the licence: four modules to qualify, then 35 hours of periodic training every five years. Driving professionally without it can cost up to &pound;1,000.</p>
-
 <h3>Is HGV training free in the UK?</h3>
 <p>It can be. Skills Bootcamps in England are free for people 19 or over with a car licence, and cover the provisional licence, the medical and the CPC tests with one re-sit each.</p>
 
 <h3>How much is the night-out allowance?</h3>
 <p>HMRC's approved rate is &pound;34.90 a night, or 75% of it, &pound;26.18, where the driver uses a sleeper cab, subject to an HMRC approval notice.</p>
-
-<h3>Can I get a UK visa as a lorry driver?</h3>
-<p>No. SOC 8211 is ineligible for the Skilled Worker visa, so HGV driving jobs cannot be sponsored.</p>
-
-<h3>Are HGV drivers still in short supply?</h3>
-<p>Partly. DfT found 26% of HGV businesses had driver vacancies in quarter 4 of 2025, up from 24% a year earlier but well below the 43% peak in 2021.</p>
 
 <h2>More Job Guides</h2>
 

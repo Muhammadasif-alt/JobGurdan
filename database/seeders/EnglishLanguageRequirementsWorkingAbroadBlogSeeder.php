@@ -151,18 +151,6 @@ class EnglishLanguageRequirementsWorkingAbroadBlogSeeder extends Seeder
 <h3>Does New Zealand ask for English for every job?</h3>
 <p>No. It applies to skill level 3 to 5 jobs; skill level 1 or 2 jobs do not need it.</p>
 
-<h3>Is the Canadian work permit test the same as Express Entry?</h3>
-<p>No. Express Entry has its own accepted tests; a work permit has separate eligibility.</p>
-
-<h3>Is a nursing English score the same as a visa score?</h3>
-<p>Not always. The regulator publishes its own accepted evidence.</p>
-
-<h3>Does passing an English test guarantee a visa?</h3>
-<p>No. Language is one part of eligibility.</p>
-
-<h3>Should I use old score tables?</h3>
-<p>No. Check the current official page before you book.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -174,7 +162,6 @@ class EnglishLanguageRequirementsWorkingAbroadBlogSeeder extends Seeder
     <li><a href="/blog/how-long-work-visa-takes-2026">How Long Does it Take to Get a Work Visa</a>: realistic timelines</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

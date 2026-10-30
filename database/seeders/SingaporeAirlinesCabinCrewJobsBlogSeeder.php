@@ -356,18 +356,6 @@ JOBHTML;
 <h3>Do I need a degree to be Singapore Airlines cabin crew?</h3>
 <p>It depends entirely on the campaign. Singapore accepts five GCE 'O' Level credits including English or Higher Nitec and above. Japan requires junior college or a degree, and Taiwan requires a bachelor's degree from a recognised university.</p>
 
-<h3>What is the Singapore Airlines cabin crew service bond?</h3>
-<p>Both the Japan and Taiwan campaigns require willingness to serve a compulsory service bond, a commitment to stay for a fixed period with money repayable if you leave early. SIA does not publish the amount or duration, so ask before signing.</p>
-
-<h3>Are Singapore Airlines cabin crew jobs based in the country of the interview?</h3>
-<p>No. Every campaign leads to a Singapore-based role on an initial five-year contract. The country in the listing title is where interviews are held, not where you will live.</p>
-
-<h3>How long is Singapore Airlines cabin crew training?</h3>
-<p>Four months. SIA publishes only three subject areas for it: safety procedures, product knowledge and grooming. You are paid a basic salary throughout.</p>
-
-<h3>Does Singapore Airlines use recruitment agents in Pakistan?</h3>
-<p>No. SIA states it conducts direct recruitment and does not engage any third-party agencies for cabin crew recruitment, and that it never requests payment or fees to process applications. Anyone charging you for an SIA interview is running a scam.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If cabin crew is the goal and Singapore is closed to you, these are the routes that actually recruit from Pakistan and the Gulf:</p>

@@ -319,20 +319,8 @@ JOBHTML;
 <h3>Do I need experience or a resume?</h3>
 <p>Amazon states most hourly roles need no resume and no interview, and that you can get a job offer the same day.</p>
 
-<h3>Can I apply from outside the USA?</h3>
-<p>No. These are in-person US roles and Amazon checks proof of identity and employment eligibility before you start. You need existing US work authorisation, and Amazon publishes no sponsorship route for hourly warehouse roles.</p>
-
-<h3>Does Amazon sponsor visas for warehouse jobs?</h3>
-<p>Not for hourly fulfillment centre roles. The only government route for unskilled work, the employment-based third preference "other workers" category, is employer-driven, capped at 10,000 visas a year worldwide and heavily backlogged.</p>
-
-<h3>When do Amazon benefits start?</h3>
-<p>Not all on day one. The Medical Advice Line is day-one, while Amazon's benefits page places Career Choice tuition, dental and vision after 90 days of employment.</p>
-
 <h3>Can I learn to drive a forklift?</h3>
 <p>Some roles operate Power Industrial Trucks including reach trucks and order pickers, and Amazon states training is provided. This work can reach heights of up to 35 feet.</p>
-
-<h3>How heavy is the lifting?</h3>
-<p>A 49-pound limit is widely quoted but does not appear on Amazon's hiring pages. Check the physical requirements on the specific posting.</p>
 
 <h2>More Job Guides</h2>
 

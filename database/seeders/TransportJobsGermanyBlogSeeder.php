@@ -301,23 +301,11 @@ JOBHTML;
 <h3>How short of drivers is Germany really?</h3>
 <p>The industry position paper of January 2026 says more than 70,000 drivers are missing, with 30,000 to 35,000 retiring each year against 15,000 to 20,000 new entrants.</p>
 
-<h3>What is code 95?</h3>
-<p>The EU harmonised code entered on a licence to show the professional driver qualification under the BKrFQG. It is separate from the driving licence and must be refreshed every five years.</p>
-
 <h3>Can I drive in Germany on a non-EU licence?</h3>
 <p>For six months after establishing residence, extendable by up to six more months in some cases. After that you need a German licence, and for most third countries that means passing the theory and practical tests.</p>
 
-<h3>Can I get a visa as a driver without a German licence?</h3>
-<p>Yes, in principle. Section 24a of the Employment Ordinance lets the Federal Employment Agency consent for up to 15 months where your contract obliges you to obtain the licence and code 95 within that time.</p>
-
 <h3>What is the Opportunity Card?</h3>
 <p>A points-based card to come and look for work without a job offer. It needs a two-year qualification or a degree, A1 German or B2 English, at least six points and secured living costs including health insurance.</p>
-
-<h3>Do I need German to work as a driver?</h3>
-<p>It depends on the employer and the routes. The ADR dangerous goods training and examination, however, must be in German.</p>
-
-<h3>Who issues the driver card in Germany?</h3>
-<p>The authorities designated by each federal state, under the Fahrpersonalverordnung. The KBA produces the cards and maintains the register.</p>
 
 <h2>More Job Guides</h2>
 

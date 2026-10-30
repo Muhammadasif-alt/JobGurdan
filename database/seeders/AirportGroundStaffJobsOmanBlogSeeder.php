@@ -292,18 +292,6 @@ JOBHTML;
 <h3>How many hours a week do airport staff work in Oman?</h3>
 <p>Oman Labour Law sets 8 hours a day and a maximum of 40 hours a week, with normal hours plus overtime capped at 12 hours in a single day. That is eight hours a week fewer than the UAE, so do not apply Dubai figures to an Omani roster.</p>
 
-<h3>Is overtime compulsory in Oman?</h3>
-<p>Not normally. Under ordinary circumstances overtime requires the employee's consent. An employer may require it without consent for defined annual tasks such as stocktaking and closing accounts, capped at 15 days a year, and in genuine emergencies. Overtime is paid at the basic wage plus at least 25 per cent by day and at least 50 per cent at night, or time off in lieu if you agree.</p>
-
-<h3>How much annual leave will I get?</h3>
-<p>At least 21 days of paid annual leave, plus up to 30 days of paid sick leave a year on a valid medical certificate. Working a weekly rest day or a public holiday entitles you to an extra day's basic pay on top of your normal daily pay, or an additional day of leave.</p>
-
-<h3>Do I still need a No Objection Certificate to change employer in Oman?</h3>
-<p>No. Royal Oman Police Decision 157/2020 removed the requirement from 1 January 2021, ending the two-year ban that previously followed leaving without one. A transfer still requires proof the previous employment ended, and the new employer must have labour clearance and a licence to employ foreigners.</p>
-
-<h3>Are there airport jobs in Oman outside Muscat?</h3>
-<p>Yes. The Oman Airports recruitment portal filters by location and covers Sohar, Al Duqm, Adam and airfields including Marmul, Qarn Alam and Fahud serving the oil and gas interior. These attract far fewer applications than Muscat.</p>
-
 <h2 id="more-guides">More Job Guides</h2>
 
 <ul>

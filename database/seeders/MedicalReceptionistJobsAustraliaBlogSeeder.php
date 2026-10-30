@@ -261,20 +261,8 @@ JOBHTML;
 <h3>Are medical receptionist jobs mostly part-time?</h3>
 <p>Yes. Jobs and Skills Australia reports that only 33 per cent of medical receptionists work full-time.</p>
 
-<h3>Which award covers medical receptionists?</h3>
-<p>The Health Professionals and Support Services Award 2020, known as the Health Services Award. Receptionists progress to support services level 2 or 3 with responsibility and experience.</p>
-
 <h3>Can a medical receptionist job get visa sponsorship in Australia?</h3>
 <p>Very rarely. Medical Receptionist is not on the Core Skills Occupation List, so it cannot be sponsored through the Skills in Demand visa's Core Skills stream.</p>
-
-<h3>What software do medical receptionists use?</h3>
-<p>Best Practice and MedicalDirector are common in general practice, and Genie in specialist practices.</p>
-
-<h3>What changed in bulk billing in November 2025?</h3>
-<p>From 1 November 2025, bulk billing incentives apply to every Medicare-eligible patient, and practices that bulk bill every eligible service can receive a 12.5 per cent incentive payment.</p>
-
-<h3>Does the Privacy Act apply to small medical clinics?</h3>
-<p>Yes. Every organisation that provides a health service and holds health information is covered, whatever its size.</p>
 
 <h2>More Job Guides</h2>
 

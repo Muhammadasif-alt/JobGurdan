@@ -349,20 +349,8 @@ JOBHTML;
 <h3>Can a sales job in Australia be commission-only?</h3>
 <p>Rarely, for employees. Retail staff must get their award rate with commission on top, commercial travellers cannot be paid below $1,122.80 a week, and real estate commission-only pay needs Level 2 or above, age 21, a written agreement and income of at least 125 per cent of the award rate.</p>
 
-<h3>Do I need a licence to sell real estate in Australia?</h3>
-<p>Yes. Entry-level salespeople need a state registration rather than a full licence, an Assistant Agent certificate in NSW, an agent's representative in Victoria, or a salesperson or sales representative registration in Queensland, Western Australia and South Australia, each with its own required training units.</p>
-
-<h3>Does a real estate registration from one state work in another?</h3>
-<p>Not always. Automatic Mutual Recognition covers many registrations, but Queensland is outside the scheme and Victoria does not accept interstate salesperson registrations for agent's representative work, so check the destination state's rules first.</p>
-
-<h3>Does the advertised sales salary include superannuation?</h3>
-<p>Australian advertisements split both ways, so ask. At the 12 per cent guarantee rate the difference is worth $10,200 on an $85,000 figure and $15,600 on a $130,000 one.</p>
-
 <h3>Can I get visa sponsorship for a sales job in Australia?</h3>
 <p>Only for some roles. Technical and ICT sales representatives, retail buyers, retail managers and sales and marketing managers are on the Core Skills Occupation List. Sales assistants, retail supervisors, and real estate agents and representatives are not.</p>
-
-<h3>Do I need experience to get a sales job in Australia?</h3>
-<p>Not for most retail and telesales roles. Weekend availability, clear communication and any customer-facing experience matter more at entry level, while B2B roles usually want CRM experience and measurable results.</p>
 
 <h2>More Job Guides</h2>
 

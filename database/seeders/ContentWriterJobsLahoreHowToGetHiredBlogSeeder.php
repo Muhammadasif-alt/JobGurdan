@@ -143,12 +143,6 @@ class ContentWriterJobsLahoreHowToGetHiredBlogSeeder extends Seeder
 
 <p>Keep a sheet with the employer, the role, the date, the contact and the next step. If you hear nothing after a reasonable time, send one short, polite follow-up. In an interview, ask who reviews drafts and what the first month looks like. Check every employer on its own website before you share documents.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can beginners get content writing jobs in Lahore?</h3>
@@ -162,18 +156,6 @@ class ContentWriterJobsLahoreHowToGetHiredBlogSeeder extends Seeder
 
 <h3>Are all content writing roles remote?</h3>
 <p>No. Many Lahore roles are on site or hybrid with fixed hours. Check each advertisement and ask before you apply.</p>
-
-<h3>Should I accept every writing test?</h3>
-<p>No. Accept short, clearly scoped tests, and ask whether the work will be published. Decline long tasks that look like free client work.</p>
-
-<h3>Can I use AI tools in a writing test?</h3>
-<p>Follow the employer's rules. If tools are allowed, check every fact yourself, because Google says it is critical to manually fact check AI-generated content.</p>
-
-<h3>Do I need SEO knowledge?</h3>
-<p>It helps. Learn how titles, headings and internal links work from the free Google SEO Starter Guide.</p>
-
-<h3>Is a free course enough?</h3>
-<p>A course can teach the basics, but employers value samples. Use training to build pieces you can show.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 
@@ -202,7 +184,6 @@ class ContentWriterJobsLahoreHowToGetHiredBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or career advice. Reviewed on 22 October 2026 against the pages named in Sources. It does not promise a vacancy, a salary, an interview or an offer, and postings and rules can change.</p>
 HTML;
     }
 }

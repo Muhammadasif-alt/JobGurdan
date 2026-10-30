@@ -134,12 +134,6 @@ class HotelJobsDubaiForeignersRolesRequirementsBlogSeeder extends Seeder
 
 <p>Pakistani workers going abroad through a recruitment agent should use one licensed by the Bureau of Emigration and Overseas Employment, and the UAE rule still applies: the employer bears recruitment costs. Read <a href="/blog/how-to-find-job-abroad-from-pakistan-2026">how to find a job abroad from Pakistan</a> and <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you pay anyone.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can foreigners get hotel jobs in Dubai?</h3>
@@ -154,21 +148,9 @@ class HotelJobsDubaiForeignersRolesRequirementsBlogSeeder extends Seeder
 <h3>Do I have to pay for my visa or recruitment?</h3>
 <p>No. Article 6 of Federal Decree-Law No. 33 of 2021 bars employers from charging these costs to workers.</p>
 
-<h3>Is there a minimum salary for hotel staff in Dubai?</h3>
-<p>The UAE Labour Law sets no minimum salary, so the written offer decides your pay.</p>
-
-<h3>Can freshers get hotel jobs in Dubai?</h3>
-<p>Yes, in junior roles whose adverts accept beginners.</p>
-
-<h3>Is accommodation always included?</h3>
-<p>No. Confirm the location, sharing and any deductions in writing.</p>
-
-<h3>Does nationality decide eligibility?</h3>
-<p>No. Each role's requirements and the permit process apply to every applicant.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Choose a role you fit, apply through the hotel's own site, insist that the employer handles and pays for the work permit, and compare salary, housing and meals in writing before you travel. This guide cannot promise a job, a visa or a wage.</p>
+<p>Choose a role you fit, apply through the hotel's own site, insist that the employer handles and pays for the work permit, and compare salary, housing and meals in writing before you travel.</p>
 
 <h2>Sources</h2>
 
@@ -190,7 +172,6 @@ class HotelJobsDubaiForeignersRolesRequirementsBlogSeeder extends Seeder
     <li><a href="/blog/airport-ground-staff-jobs-in-dubai">Airport Ground Staff Jobs in Dubai</a>, guest-facing work at DXB.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 29 October 2026 against the pages named in Sources. It does not promise a job, a visa, accommodation or a wage.</p>
 HTML;
     }
 }

@@ -278,18 +278,6 @@ JOBHTML;
 <h3>Does "LMIA requested" mean I will get a visa?</h3>
 <p>No. It means the employer has applied. The application can be refused, and a work permit must still be approved.</p>
 
-<h3>Why can a Canadian janitor LMIA be refused outright?</h3>
-<p>Low-wage LMIAs are not processed in areas where unemployment is 6 percent or higher, and cleaning is not an exempt sector.</p>
-
-<h3>Is a UK "visa sponsorship cleaner" advert real?</h3>
-<p>Treat it with suspicion. Cleaning is below the Skilled Worker skill level, so check GOV.UK before replying.</p>
-
-<h3>Should I pay a recruiter for a cleaner visa?</h3>
-<p>No. In every country the employer starts the process, and genuine employers do not charge you for a job or a visa.</p>
-
-<h3>How do I check a Saudi recruitment agency?</h3>
-<p>Pakistani applicants can match the agency's licence number on the BEOE site. Others should check their own government's overseas employment office.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related cleaning and visa guides:</p>

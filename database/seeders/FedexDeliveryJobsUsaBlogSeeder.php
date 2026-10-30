@@ -350,20 +350,8 @@ JOBHTML;
 <h3>What does FedEx pay package handlers?</h3>
 <p>FedEx publishes the rate on its own postings. A part-time Package Handler role in Henderson, Colorado showed $20.20 to $21.70 an hour to start in September 2026. Rates are set locally, so check the posting for your own city.</p>
 
-<h3>Do I need a CDL to drive for FedEx?</h3>
-<p>Not for ordinary delivery work. Some larger-vehicle courier titles are marked CDL, and certain postings ask you to obtain a Class C non-CDL licence within 60 days of employment. Heavy freight driving now belongs to FedEx Freight, a separate company.</p>
-
-<h3>How much do you have to lift at FedEx?</h3>
-<p>FedEx's wording is "Ability to lift 50 lbs. Ability to maneuver packages of any weight above 50 lbs. with appropriate equipment and/or assistance." Fifty pounds is what you lift unaided; above that there is no stated upper limit.</p>
-
 <h3>How many hours is a FedEx part-time shift?</h3>
 <p>FedEx says shift lengths vary with package volume, and part-time employees generally work between three and six hours a day. Part-time employees work one shift, full-time employees work two. Casual handlers work up to 24 hours a week.</p>
-
-<h3>Does a package handler need a driver's licence?</h3>
-<p>No. FedEx's package handler page states only that Material Handlers must possess a valid driver's licence. That is a separate job title involving vehicle and powered-equipment movement.</p>
-
-<h3>Is FedEx Freight still part of FedEx?</h3>
-<p>No. FedEx completed the spin-off on 1 June 2026, establishing FedEx Freight as an independent, publicly traded company on the New York Stock Exchange under the ticker FDXF, with FedEx retaining 19.9% of the shares. It recruits through its own careers site.</p>
 
 <h2>More Job Guides</h2>
 

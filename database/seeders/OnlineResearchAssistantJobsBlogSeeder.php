@@ -367,18 +367,6 @@ JOBHTML;
 <h3>How do I tell a fake research assistant job from a real one?</h3>
 <p>Check that the web address is not a stray subdomain of an unrelated business, that no famous jobs brand is being claimed by a site that does not own it, that a real application form exists rather than a comment box or a WhatsApp number, that an actual pay figure is stated, and that the employer can be found somewhere else. Then search one full sentence of the description in quotation marks; if it comes back under a different company name, it is a template.</p>
 
-<h3>Are there online research assistant jobs in Pakistan?</h3>
-<p>Under that name, almost none. On 23 September 2026 the exact categories for research assistant, research analyst, research associate, market research and academic writer all returned zero listings in Karachi, Lahore, Islamabad and Rawalpindi, and the "online research" category has been retired entirely. Of roughly 70 listings under the broad "researcher" tag, about four were genuinely research roles. Two were clinical or medical and two were commercial lead research.</p>
-
-<h3>Do I need a degree to work as a research assistant?</h3>
-<p>It depends which of the two jobs you mean. The clinical post we found was open to fresh graduates with no specific degree named, although it required knowledge of medical terminology. The medical writing role preferred MBBS or MD but accepted a biomedical or health-science background with research experience. The commercial lead research roles asked for a bachelor's degree in anything, and several were open to fresh graduates.</p>
-
-<h3>Why do so many of these adverts say "flexible hours, no experience needed"?</h3>
-<p>Because those two phrases select for people who need work urgently and cannot easily check an employer. Note that they are also true of plenty of legitimate entry-level listings, so they are not proof of anything on their own. Judge the advert on whether it names an employer, states a pay figure and provides a real way to apply. Of the four genuine Pakistani listings we found, three accepted entry-level candidates and none advertised itself on flexibility.</p>
-
-<h3>What is a task scam?</h3>
-<p>The FTC describes it as being asked to do simple repetitive tasks such as liking videos or rating product images, inside an app that creates the illusion that commissions are accumulating, until you are asked to deposit your own money to unlock the next set. It usually begins with an unexpected text or WhatsApp message offering online work with no specifics. Reported losses to job scams overall rose from $90 million in 2020 to $501 million in 2024.</p>
-
 <h3>Should I ever pay for training, software or a background check to start a job?</h3>
 <p>No. The FTC's wording is unconditional: never pay anyone to get paid, or to get a job. A genuine employer buys its own tools and pays for its own checks. This includes requests framed as refundable deposits, registration fees, or buying a subscription to a research tool before your first shift.</p>
 

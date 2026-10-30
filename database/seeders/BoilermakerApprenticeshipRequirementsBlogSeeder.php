@@ -132,12 +132,6 @@ class BoilermakerApprenticeshipRequirementsBlogSeeder extends Seeder
 
 <p>Identify the sponsor and check eligibility, collect your education documents and genuine experience evidence, and submit exactly as instructed, keeping the confirmation. Keep your contact details current, ask about training costs, starting pay and travel expectations before you accept, and avoid building a budget around uninterrupted overtime or employment. If you have a question about the essential duties, ask about the accommodation process instead of attempting unsafe exercises to prove readiness.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Must I already know welding?</h3>
@@ -152,18 +146,6 @@ class BoilermakerApprenticeshipRequirementsBlogSeeder extends Seeder
 <h3>Does passing guarantee selection?</h3>
 <p>No. Further stages and available places may matter.</p>
 
-<h3>Is there an entrance exam in California?</h3>
-<p>The state listing for the Western States JAC shows no written test and no oral exam.</p>
-
-<h3>How long is the apprenticeship?</h3>
-<p>BNAP describes four years with at least 576 classroom hours and 6,000 field hours.</p>
-
-<h3>How old must I be?</h3>
-<p>The Southeastern programme requires 18 and a high school education.</p>
-
-<h3>Where do Canadians apply?</h3>
-<p>Contact the provincial representatives listed by the Canadian Boilermakers.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -175,7 +157,6 @@ class BoilermakerApprenticeshipRequirementsBlogSeeder extends Seeder
     <li><a href="/blog/ua-plumber-pipefitter-apprenticeship-test-guide">UA Plumber and Pipefitter Apprenticeship Test Guide</a>: UA locals</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 16 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

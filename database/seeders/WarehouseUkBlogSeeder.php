@@ -243,9 +243,6 @@ JOBHTML;
 <h3>Are warehouse jobs with visa sponsorship available for Pakistani citizens specifically?</h3>
 <p>Not through a realistic direct route: Pakistan isn't on the Youth Mobility Scheme list, and standard warehouse roles don't meet Skilled Worker criteria regardless of nationality.</p>
 
-<h3>Why do some warehouse job ads list "UK visa sponsorship" as a benefit?</h3>
-<p>This is often a generic, self-reported tag on job boards rather than a guarantee that the specific role and salary would actually qualify for sponsorship. Always verify independently before relying on it.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing routes across sectors and countries? These guides cover the rest:</p>

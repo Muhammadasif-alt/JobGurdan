@@ -142,12 +142,6 @@ class FreelanceWritingJobsNairobiKenyaBlogSeeder extends Seeder
 
 <p>Deliver on the agreed date and explain how the draft addresses the brief. Ask focused questions when feedback is unclear, and keep revisions within the agreed scope. After approval, request permission before displaying the work publicly or quoting a testimonial. Suggest a relevant next assignment only when it serves the client's needs. Reliable communication and careful editing give clients practical reasons to work with you again.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Do I Need a Degree?</h3>
@@ -161,18 +155,6 @@ class FreelanceWritingJobsNairobiKenyaBlogSeeder extends Seeder
 
 <h3>Can I get paid through M-Pesa?</h3>
 <p>Upwork supports M-Pesa withdrawals in Kenya. The name on the M-Pesa account must exactly match your verified Upwork name, and M-Pesa sets a limit of up to 70,000 shillings per transaction.</p>
-
-<h3>How much of a Fiverr order do I keep?</h3>
-<p>Fiverr's help centre says a freelancer receives 80% of the client-approved payment once an order is completed, after a 14-day clearance period.</p>
-
-<h3>Should I work for free to get a sample?</h3>
-<p>Create original practice samples instead, and label them honestly. Offering a short outline is different from writing a full commercial article without pay.</p>
-
-<h3>Is a job board listing a guaranteed job?</h3>
-<p>No. It is a lead to assess. Check the advertiser, the pay terms and any location limits before you share personal details.</p>
-
-<h3>How do I avoid a fake client?</h3>
-<p>Check the business through its own website, use the platform's contract and payment process, and be wary of anyone who asks you to send money or deposit a cheque.</p>
 
 <h2>Bottom Line</h2>
 
@@ -195,7 +177,6 @@ class FreelanceWritingJobsNairobiKenyaBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or career advice. Reviewed on 21 October 2026 against the pages named in Sources. It does not promise a vacancy, a reward, an income or an offer, and platform rules and postings can change.</p>
 HTML;
     }
 }

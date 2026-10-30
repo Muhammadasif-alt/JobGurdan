@@ -115,12 +115,6 @@ class NursingJobsTorontoForeignTrainedNursesBlogSeeder extends Seeder
 
 <p>State your qualification, overseas registration, CNO status, experience and certifications exactly. Budget separately for the credential assessment, the $433 CNO fee, the NCLEX or REx-PN, language tests, the TTP course and living costs, keep receipts, and avoid paid "packages" that promise to skip assessment. CNO registration is not a work permit; read <a href="/blog/work-visas-pakistanis-2026-country-guide">Work Visas for Pakistanis in 2026</a> for the Canadian permit rules.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>How much is the CNO application fee?</h3>
@@ -135,21 +129,9 @@ class NursingJobsTorontoForeignTrainedNursesBlogSeeder extends Seeder
 <h3>How long is Transition to Practice?</h3>
 <p>Approved courses typically take 7 to 14 weeks online and have no clinical component.</p>
 
-<h3>What if I have not practised recently?</h3>
-<p>RNs out of practice for 3 to 10 years need 400 hours of extra clinical experience and coursework.</p>
-
-<h3>Does passing the NCLEX guarantee a Toronto job?</h3>
-<p>No. Other CNO requirements and the employer's selection still apply.</p>
-
-<h3>Is UHN recruiting nurses from overseas?</h3>
-<p>UHN says it is not running an international recruitment campaign and warns of scams using its name.</p>
-
-<h3>Does CNO registration give me a work permit?</h3>
-<p>No. Registration and immigration are separate.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Start with CNO's current pathway, get the right credential assessment and clear each registration requirement, then apply to Toronto employers with an accurate account of your status. Verify every recruitment claim. This guide cannot promise registration, a job or a work permit.</p>
+<p>Start with CNO's current pathway, get the right credential assessment and clear each registration requirement, then apply to Toronto employers with an accurate account of your status. Verify every recruitment claim.</p>
 
 <h2>Sources</h2>
 
@@ -173,7 +155,6 @@ class NursingJobsTorontoForeignTrainedNursesBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, the warning signs of a recruitment scam.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, immigration or career advice. Reviewed on 28 October 2026 against the pages named in Sources. It does not promise registration, a job or sponsorship; fees and requirements can change.</p>
 HTML;
     }
 }

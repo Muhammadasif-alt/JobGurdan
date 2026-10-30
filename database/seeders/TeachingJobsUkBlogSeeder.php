@@ -317,20 +317,8 @@ JOBHTML;
 <h3>Can I teach in Scotland with QTS from England?</h3>
 <p>Not automatically. GTC Scotland states that QTS does not make you eligible to teach in Scottish schools; registration with GTCS is a legal requirement. Assessment takes up to three months and QTS gained through an employment-based route may be refused.</p>
 
-<h3>Is NQT still the correct term?</h3>
-<p>No. It was replaced by early career teacher on 1 September 2021, and statutory induction is now two years rather than one. The training framework was renamed the early career teacher entitlement in September 2025.</p>
-
 <h3>Do I need a PGCE to teach in England?</h3>
 <p>No. QTS is the legal requirement; a PGCE is an academic qualification that does not by itself confer QTS. Several routes award QTS without one, including assessment only for experienced teachers with a degree.</p>
-
-<h3>Does a DBS check expire?</h3>
-<p>No. There is no official expiry date; a certificate is accurate only as at the day it was issued. Teaching requires an enhanced check with barred list, and the enhanced fee falls from &pound;49.50 to &pound;41.00 on 5 October 2026.</p>
-
-<h3>Do supply teachers get the national pay scales?</h3>
-<p>Not through an agency. Agency supply teachers sit outside the statutory pay document and the agency sets the rate. After 12 weeks in the same role with the same school or authority, the Agency Workers Regulations give equal pay and basic conditions.</p>
-
-<h3>Can overseas teachers get QTS in England?</h3>
-<p>From a defined list of countries, yes, through the apply for QTS in England service. From 9 September 2026 teachers trained in Ghana, India or Nigeria are no longer eligible for it, and should look at assessment only or iQTS instead.</p>
 
 <h2>More Job Guides</h2>
 

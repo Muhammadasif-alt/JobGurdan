@@ -364,20 +364,8 @@ JOBHTML;
 <h3>How much does Woolworths pay a 16 year old?</h3>
 <p>Half the adult rate. Under the Woolworths agreement a 16-year-old and under is paid 50 per cent, a 17-year-old 60 per cent, an 18-year-old 70 per cent and a 19-year-old 80 per cent, reaching the full adult rate at 20. In Award dollars that is about $13.91 an hour permanent or $17.39 casual at 16.</p>
 
-<h3>Can Woolworths sponsor a work visa for a supermarket job?</h3>
-<p>No. The occupation code for this work, ANZSCO 621111 Sales Assistant (General), is on no Australian skilled occupation list, so there is no nomination an employer could lodge. Retail Supervisor is also absent. Only Retail Manager (General), code 142111, has a sponsorship pathway, and it requires a skills assessment and a salary of at least AUD 79,423.</p>
-
-<h3>Can Pakistanis get a working holiday visa for Australia?</h3>
-<p>No. Pakistan is not among the nineteen countries eligible for subclass 417 or the thirty eligible for subclass 462. India appears on the 462 list subject to a ballot; Pakistan and Bangladesh do not appear on either. The realistic routes into this work are a student visa with its 48-hour fortnightly cap, or a Temporary Graduate visa with unrestricted work rights.</p>
-
-<h3>How many Woolworths jobs are open right now?</h3>
-<p>About 1,966 across all Woolworths Group brands in Australia, of which 1,705 are at Woolworths Supermarkets and 1,076 carry the title Store Team Member. The split by type is 942 casual, 659 part-time and 341 full-time, and Queensland and New South Wales together account for roughly 70 per cent of them.</p>
-
 <h3>Why do Woolworths job links in other articles not work?</h3>
 <p>Because they point at individual requisition IDs, which turn over extremely fast. Every one we tested returns a 404 and redirects to a page reading only "An error has occurred. Page not found." Ninety per cent of live Australian vacancies were posted within the last 30 days, and only one of nearly 2,000 live jobs has an ID lower than the newest one those articles link.</p>
-
-<h3>Is there really no Online Assistant job at Woolworths?</h3>
-<p>Not under that title. There are zero live vacancies called Online Assistant; searching it appears to return results only because it partially matches Assistant Online Manager. For online grocery work the real titles are Assistant Online Manager, Online Manager, Fulfilment Team Member and Dispatch Team Member.</p>
 
 <h2>More Job Guides</h2>
 

@@ -226,23 +226,11 @@ JOBHTML;
 <h3>How many electric cars were sold in 2025?</h3>
 <p>More than 20 million, up 20 per cent on 2024, according to the IEA Global EV Outlook 2026. About 23 million are expected in 2026.</p>
 
-<h3>Which qualification do I need for EV work in the UK?</h3>
-<p>An IMI electric and hybrid vehicle qualification. Level 3 covers isolating and repairing high-voltage systems; Level 4 covers live work and battery repair.</p>
-
-<h3>What is IMI TechSafe?</h3>
-<p>The IMI's professional standard that records which technicians hold which level of high-voltage qualification.</p>
-
-<h3>Is the NAVTTC EV technician course free?</h3>
-<p>Yes. NAVTTC lists it as a free, six-month course certified at NVQF Level 3. Check intakes and eligibility on the NAVTTC website.</p>
-
 <h3>Do I need to be a mechanic before training on EVs?</h3>
 <p>For Level 3 and above, yes in practice. Employers expect a light vehicle qualification first, with EV levels added on top.</p>
 
 <h3>How much does an EV technician earn?</h3>
 <p>There is no separate official figure. In the US the median for automotive technicians is $50,620 and for diesel technicians $61,770.</p>
-
-<h3>Can I get an EV technician visa?</h3>
-<p>There is no EV-specific visa. Technicians use the same routes as mechanics, which in the UK are now narrow for roles below degree level.</p>
 
 <h2>More Job Guides</h2>
 

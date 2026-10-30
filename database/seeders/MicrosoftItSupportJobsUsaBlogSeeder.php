@@ -338,23 +338,11 @@ JOBHTML;
 <h3>Does Microsoft sponsor visas for IT support jobs in the USA?</h3>
 <p>Not for frontline support roles. Microsoft's own postings state: "This position is not eligible for visa sponsorship. Candidates must have authorization to work in the United States that does not now or in the future require employer sponsorship." Several support roles go further and require verified US citizenship. Microsoft does sponsor for some senior engineering roles, but those are a different job.</p>
 
-<h3>What does Microsoft pay for IT support in the USA?</h3>
-<p>Microsoft publishes a range on every US posting. Data Center Technician and Critical Environment Support Assistant roles pay USD 23.65 to 37.07 an hour, and Senior Data Center Technician IT Support pays USD 34.13 to 56.54 an hour, with higher bands in the San Francisco Bay Area and New York City. The USD 130,900 to 277,200 figure that circulates belongs to IC6 roles requiring fifteen or more years of experience.</p>
-
 <h3>Why do the Microsoft careers links in other guides not work?</h3>
 <p>Because Microsoft migrated its recruiting platform. Links to careers.microsoft.com with an <code>l=en_us</code> parameter now redirect to a marketing homepage and discard the parameter, and jobs.careers.microsoft.com permanently redirects to the new board while stripping the search terms. The working board is apply.careers.microsoft.com/careers.</p>
 
-<h3>How many Microsoft IT support jobs are open in the USA?</h3>
-<p>Fewer than the search box suggests. Using Microsoft's own profession filter there are four US technical support listings, of which two are genuine support roles, and 54 US data centre roles. The Corporate Technology Support category has zero openings worldwide. Keyword searches return much larger numbers because the search ranks on relevance rather than filtering.</p>
-
-<h3>Are Microsoft IT support jobs remote?</h3>
-<p>Not at entry level. Every frontline support and data centre posting we checked lists a work site of "Fully on-site". Remote and low-office-day arrangements appear on senior architect and specialist roles. Each posting carries an explicit work-site field, so check it rather than assuming.</p>
-
 <h3>Do I need a degree for a Microsoft IT support job?</h3>
 <p>There is no single rule; each posting sets its own qualifications. For context, the US Bureau of Labor Statistics says network support specialists typically need an associate degree and user support specialists typically need some college courses, rather than a four-year degree.</p>
-
-<h3>Is IT support a growing career in the USA?</h3>
-<p>Not according to the official projection. BLS expects employment of computer support specialists to decline 3 per cent between 2025 and 2035, about 26,200 fewer jobs, while still generating roughly 48,700 openings a year mostly from people leaving the occupation.</p>
 
 <h3>Can I join the Microsoft Software and Systems Academy?</h3>
 <p>Only if you served in the US or UK armed forces. MSSA is a 17-week programme for transitioning service members, veterans, Guard and Reserve members and military spouses of US or UK MoD forces, generally within six months of separation. It is not open to civilian applicants from other countries.</p>

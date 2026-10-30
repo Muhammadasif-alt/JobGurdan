@@ -329,20 +329,11 @@ JOBHTML;
 <h3>How much does Fiverr take from sellers?</h3>
 <p>Fiverr's commission is 20 per cent of the order amount, so a 100-dollar order pays the seller 80 dollars. Where the seller offers a discount, the 20 per cent is calculated on the discounted price.</p>
 
-<h3>What is Upwork's fee for freelancers?</h3>
-<p>Upwork's freelancer service fee ranges from 0 per cent to 15 per cent per contract. The percentage is shown when a client sends an offer or when you submit a proposal, and it is fixed once the contract begins.</p>
-
-<h3>Can I use PayPal to get paid in Pakistan?</h3>
-<p>No. PayPal's list of the countries it serves does not include Pakistan. Freelancers are normally paid through Payoneer, withdrawn to a Pakistani bank, or by direct bank remittance.</p>
-
 <h3>What is a freelancer account under the State Bank's rules?</h3>
 <p>Under BPRD Circular No. 5 of 2023, freelancers can open bank accounts digitally or in a branch with minimum documentation, with an Exporters' Special Foreign Currency Account opened alongside the rupee account. They can keep 50 per cent of export proceeds or USD 5,000 a month, whichever is higher, in foreign currency.</p>
 
 <h3>How much tax do freelancers pay on IT export income?</h3>
 <p>Under section 154A, FBR's rate card sets 0.25 per cent for persons registered with the Pakistan Software Export Board and 1 per cent otherwise, doubled for anyone not on the Active Taxpayers' List, for tax years 2024 to 2026. The Finance Bill 2026 extends that end year to 2029.</p>
-
-<h3>Do freelancers need to register with PSEB?</h3>
-<p>It is not required to freelance, but it is what qualifies IT and IT-enabled services export income for the 0.25 per cent rate instead of 1 per cent. PSEB states that registered exporters pay 0.25 per cent against 1 per cent for those not registered.</p>
 
 <h2>More Job Guides</h2>
 

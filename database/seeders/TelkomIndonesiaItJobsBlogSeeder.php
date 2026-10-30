@@ -344,18 +344,6 @@ JOBHTML;
 <h3>What does Band Posisi VI mean at Telkom?</h3>
 <p>It is the entry level for Telkom's Fresh Graduate recruitment programme. Bands V, VI and VII are all Officer level; Band I is equivalent to Vice President.</p>
 
-<h3>Is Digistar Class still open?</h3>
-<p>No. Digistar Class Intern 2026 Batch 1 took registrations from 31 January to 8 February 2026, for a five-month programme in AI and B2B Solutions. It closed months ago.</p>
-
-<h3>How many people work at Telkom Indonesia?</h3>
-<p>21,151 at 31 December 2025 according to Telkom's SEC filing, down from 23,064 at the end of 2023. Figures around 68,000 come from aggregators and contradict the company's own disclosure.</p>
-
-<h3>Does Telkom charge recruitment fees?</h3>
-<p>No. Telkom states it charges no fees whatsoever in recruitment, citing its ISO 37001:2016 anti-bribery management system, and works with no third party for selection.</p>
-
-<h3>What documents does Telkom require?</h3>
-<p>KTP, degree certificate, academic transcript, an English certificate such as TOEFL or IELTS, a creative CV, a photograph, and a work experience letter if you have one.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If the KTP requirement rules you out, these are better uses of your time:</p>

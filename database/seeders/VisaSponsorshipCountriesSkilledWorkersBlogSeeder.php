@@ -195,20 +195,8 @@ class VisaSponsorshipCountriesSkilledWorkersBlogSeeder extends Seeder
 <h3>Is a degree always necessary?</h3>
 <p>No universal rule applies. Requirements depend on the occupation and the route, and some trades are eligible without a degree.</p>
 
-<h3>Can Pakistani applicants use these routes?</h3>
-<p>Applicants must meet the chosen route and the current entry requirements for their passport. A country appearing here does not guarantee individual eligibility.</p>
-
-<h3>Does sponsorship automatically give permanent residence?</h3>
-<p>No. Temporary work permission and permanent residence have separate conditions.</p>
-
 <h3>Do I need a job offer first?</h3>
 <p>For most of these routes, yes. Germany's Opportunity Card is a job-seeker route that does not need an offer, but it has its own points and funds rules.</p>
-
-<h3>Can a recruiter guarantee my visa?</h3>
-<p>No. Only the immigration authority decides, and a promise of guaranteed approval is a sign of fraud.</p>
-
-<h3>Which salary threshold applies to the German Blue Card?</h3>
-<p>€50,700 as the standard 2026 figure, with €45,934.20 for eligible shortage occupations and certain other groups, subject to the stated conditions.</p>
 
 <h3>Where do I check an employer is allowed to sponsor?</h3>
 <p>On the official register or portal of the country, such as the GOV.UK Register of Licensed Sponsors or the IND list of recognised sponsors.</p>

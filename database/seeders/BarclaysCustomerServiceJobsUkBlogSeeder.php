@@ -349,18 +349,6 @@ JOBHTML;
 <h3>How many Barclays customer service jobs are actually open right now?</h3>
 <p>Eleven in the UK. The board displays fifteen results, but two are miscategorised roles in India and New York that are not customer service at all, and two are in Douglas, Isle of Man, which is outside the UK immigration system.</p>
 
-<h3>Do I need banking experience to apply to Barclays?</h3>
-<p>Not for most roles. Barclays states you do not need customer service experience or financial services expertise, and that it can teach the rest to people with the right attitude. Specialist roles are different: the Glasgow mortgages vacancy lists proven telephony customer service experience as essential and values CeMAP progress.</p>
-
-<h3>Are Barclays customer service jobs remote or hybrid?</h3>
-<p>It depends on the type of role rather than on Barclays' general policy. Contact centre and specialist telephony roles are hybrid, and the Sunderland role says so explicitly. Branch roles describe you as the face-to-face colleague in branch or at a local hub, which is not compatible with home working.</p>
-
-<h3>Why do the Barclays job links in other guides not work?</h3>
-<p>Because they point at individual job IDs. The Glasgow Customer Service Associate vacancy that most guides use as their main apply link now returns a 404 reading "We are sorry this job post no longer exists." Worse, Barclays' numbered category URLs return HTTP 200 with zero results when the facet number changes, so a broken link looks like an empty job board rather than an error.</p>
-
-<h3>Can I still apply for the 2027 Customer Care Apprenticeship?</h3>
-<p>Only if you are reading this before 25 September 2026, and only if you already have UK work rights. Barclays states the programme carries a three-year residence requirement and that you must hold the right to work for the full August 2027 to August 2029 period with no dependency on future visa applications.</p>
-
 <h2>More Job Guides</h2>
 
 <ul>

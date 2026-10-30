@@ -141,12 +141,6 @@ class PrisonOfficerJobsLondonRequirementsSelectionBlogSeeder extends Seeder
 
 <p>Prison officer posts need existing UK right to work and are not on the Skilled Worker route, so no agent can sell you one from Pakistan. Read <a href="/blog/work-visas-pakistanis-2026-country-guide">Work Visas for Pakistanis in 2026</a> for the UK routes that do exist.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Do I need qualifications?</h3>
@@ -158,24 +152,12 @@ class PrisonOfficerJobsLondonRequirementsSelectionBlogSeeder extends Seeder
 <h3>How long does recruitment take?</h3>
 <p>Six to seven months on average from application to first day, according to HMPPS.</p>
 
-<h3>What is in the fitness test?</h3>
-<p>A 25kg grip, a 7kg shield hold for a minute, a bleep test to level 5.4 and an agility run in 34 seconds.</p>
-
-<h3>Is the assessment entirely physical?</h3>
-<p>No. The online tests and assessment centre check judgement, communication and writing; the fitness test is a separate stage.</p>
-
-<h3>How long is training?</h3>
-<p>A 10-day induction plus 7 weeks of foundation training, on full pay.</p>
-
 <h3>Can I apply from overseas?</h3>
 <p>Only if you already have the right to work in the UK and meet Civil Service nationality rules. The role is not visa sponsored.</p>
 
-<h3>Does passing guarantee a job?</h3>
-<p>No. Appointment also depends on checks, vacancy availability and a 12-month probation.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Choose a London prison you can reach at shift times, confirm your right to work, practise for the online stages and the four fitness tests, and keep your documents ready for vetting. Follow HMPPS's instructions throughout and wait for a confirmed start date before making big commitments. This guide cannot promise selection.</p>
+<p>Choose a London prison you can reach at shift times, confirm your right to work, practise for the online stages and the four fitness tests, and keep your documents ready for vetting. Follow HMPPS's instructions throughout and wait for a confirmed start date before making big commitments.</p>
 
 <h2>Sources</h2>
 
@@ -200,7 +182,6 @@ class PrisonOfficerJobsLondonRequirementsSelectionBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, the warning signs of a recruitment scam.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, immigration or career advice. Reviewed on 28 October 2026 against the pages named in Sources. It does not confirm an individual London vacancy or promise selection; pay and requirements can change.</p>
 HTML;
     }
 }

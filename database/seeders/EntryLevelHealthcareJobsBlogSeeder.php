@@ -307,18 +307,6 @@ JOBHTML;
 <h3>How long is nursing assistant training?</h3>
 <p>For nurse aides in nursing homes, federal rules require at least 75 clock hours of training, including at least 16 hours of supervised practical training, followed by a competency evaluation. Some states require more hours.</p>
 
-<h3>Do phlebotomists need a license?</h3>
-<p>It depends on the state. BLS says states may require phlebotomists to complete an accredited training program, hold a license or certification, or meet other requirements, so check with your state licensing agency.</p>
-
-<h3>Are healthcare jobs in demand in the US?</h3>
-<p>Yes. BLS projects healthcare occupations to grow much faster than average from 2025 to 2035, with about 1.9 million openings a year. Home health and personal care aides are projected to grow 18 percent.</p>
-
-<h3>Do hospitals offer paid training for entry level jobs?</h3>
-<p>Some do. Mayo Clinic advertises a Patient Care Assistant role with paid training at $21.96 to $29.02 an hour, and Cleveland Clinic runs an orientation of about four weeks for new patient care nursing assistants.</p>
-
-<h3>Is a medical assistant job entry level?</h3>
-<p>Partly. BLS lists a postsecondary nondegree award as typical, and many employers, including a Cleveland Clinic posting checked in 2026, require completion of a medical assisting program before you start.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at a specific healthcare career? These go deeper:</p>

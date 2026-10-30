@@ -137,12 +137,6 @@ class TranscriptionJobsFromHomeOhioBlogSeeder extends Seeder
 
 <p>Before you accept a task, check the file length, the deadline, the audio quality and the payment terms. Leave time for a final read through instead of judging by typing speed alone. Keep a private log of tasks, pay and feedback. If jobs keep taking longer than you planned, take fewer, practise the skill that slows you down and avoid harder files until your accuracy improves.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I start without previous experience?</h3>
@@ -157,21 +151,9 @@ class TranscriptionJobsFromHomeOhioBlogSeeder extends Seeder
 <h3>Will AI replace transcription work?</h3>
 <p>The BLS projects employment of medical transcriptionists to decline 4 percent from 2025 to 2035 and notes that the work includes editing speech recognition drafts. Accuracy and editing skills matter more than typing speed.</p>
 
-<h3>Can I use AI tools for a client's audio?</h3>
-<p>Only if the client allows it. Do not upload recordings to outside services without permission. You remain responsible for accuracy and confidentiality.</p>
-
-<h3>Do I pay tax on transcription income?</h3>
-<p>If you are a contractor you are self-employed. The IRS says you must file a return if your net self-employment earnings were $400 or more, and you generally pay estimated tax quarterly.</p>
-
-<h3>Should I pay for a transcription course or kit?</h3>
-<p>Not before you have confirmed it is required. The FTC lists paying for starter kits, so-called training or certifications that are useless as a common result of job scams.</p>
-
-<h3>Are there confirmed Ohio vacancies in this guide?</h3>
-<p>No. It explains how to assess opportunities. Check current Ohio eligibility and availability yourself, starting with OhioMeansJobs.</p>
-
 <h2>Bottom Line</h2>
 
-<p>To explore transcription jobs from home in Ohio, practise accuracy, understand that recording-based pay is not hourly pay, and check each company's own current rules before you rely on it. Compare direct employer posts on OhioMeansJobs with freelance work, set money aside for self-employment tax, and walk away from any offer that asks you to pay first. This guide cannot promise work, income or an interview.</p>
+<p>To explore transcription jobs from home in Ohio, practise accuracy, understand that recording-based pay is not hourly pay, and check each company's own current rules before you rely on it. Compare direct employer posts on OhioMeansJobs with freelance work, set money aside for self-employment tax, and walk away from any offer that asks you to pay first.</p>
 
 <h2>Sources</h2>
 
@@ -192,7 +174,6 @@ class TranscriptionJobsFromHomeOhioBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, tax, financial or career advice. Reviewed on 22 October 2026 against the pages named in Sources. It does not promise a vacancy, an income or an interview, and platform rules and postings can change.</p>
 HTML;
     }
 }

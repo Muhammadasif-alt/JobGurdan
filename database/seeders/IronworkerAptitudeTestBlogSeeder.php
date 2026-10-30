@@ -142,12 +142,6 @@ class IronworkerAptitudeTestBlogSeeder extends Seeder
 
 <p>Keep an error log that separates misunderstanding from arithmetic slips. Time yourself only after you know the real conditions. On the day, bring the identification listed in your invitation, confirm the location and reporting time, and ask early about any accommodation. Eight right answers here show success on eight exercises only, so use a fresh set to check you understand the method rather than remember the answers. See also <a href="/blog/apprenticeship-test-math-basics">apprenticeship test maths basics</a> and <a href="/blog/can-you-retake-apprenticeship-aptitude-test">retake rules</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is there a single ironworker aptitude test?</h3>
@@ -162,18 +156,6 @@ class IronworkerAptitudeTestBlogSeeder extends Seeder
 <h3>Does passing guarantee admission?</h3>
 <p>No. Other selection stages and available places can matter.</p>
 
-<h3>How hard is the maths?</h3>
-<p>Local 721 says its tests are based on Grade 10 equivalency. Confirm your own sponsor's level.</p>
-
-<h3>Is there an online ironworker test?</h3>
-<p>Ironworkers 512 in Minnesota uses a 60-minute online assessment according to the state listing.</p>
-
-<h3>Should I buy a preparation package?</h3>
-<p>Review official samples first. Paid preparation is optional.</p>
-
-<h3>Do all ironworker programmes test?</h3>
-<p>No. One Minnesota programme lists no aptitude test at all.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -185,7 +167,6 @@ class IronworkerAptitudeTestBlogSeeder extends Seeder
     <li><a href="/blog/sheet-metal-workers-aptitude-test-study-plan">Sheet Metal Aptitude Test: Sections, Tips, Study Plan</a>: sheet metal entry</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 16 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

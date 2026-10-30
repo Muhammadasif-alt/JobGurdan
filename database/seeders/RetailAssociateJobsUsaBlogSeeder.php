@@ -327,18 +327,6 @@ JOBHTML;
 <h3>Which states pay retail associates the most?</h3>
 <p>By median hourly wage: Washington at $19.02, the District of Columbia at $18.51, California at $18.48, Colorado at $18.25, Hawaii at $18.17 and New York at $18.13. The lowest are Mississippi at $13.77, West Virginia at $13.92 and Arkansas at $14.07.</p>
 
-<h3>Can a retail associate be paid a tipped minimum wage?</h3>
-<p>No. The tip credit applies only to employees who customarily and regularly receive more than $30 a month in tips, which does not cover general retail sales work. You are owed the full applicable minimum wage in direct cash wages.</p>
-
-<h3>Is retail associate a growing job?</h3>
-<p>No. Employment is projected to change by 0 per cent from 2025 to 2035, a fall of 5,700 jobs. It still produces about 550,600 openings a year, all from replacing people who leave, which is why it stays easy to enter.</p>
-
-<h3>Is a retail associate the same as a cashier?</h3>
-<p>Not to BLS, and the gap is worth about $1.22 an hour: a $17.03 median for retail salespersons against $15.81 for cashiers. Read the duties in the posting rather than the job title.</p>
-
-<h3>How much more do retail supervisors earn?</h3>
-<p>First-line supervisors of retail sales workers have a median of $23.33 an hour, or $48,520 a year: $6.30 an hour above the associate median. There are 1,121,800 of those posts against 3,897,860 associates.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing entry-level routes? These cover them:</p>

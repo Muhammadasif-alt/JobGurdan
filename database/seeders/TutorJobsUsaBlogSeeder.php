@@ -313,20 +313,8 @@ JOBHTML;
 <h3>How much does Wyzant take from tutors?</h3>
 <p>Wyzant keeps a 25% platform fee, so tutors keep 75% of their posted hourly rate. Tutors keep 100% for students they refer to Wyzant themselves.</p>
 
-<h3>Can I tutor online in the USA without a degree?</h3>
-<p>On some platforms. Wyzant requires you to be 18, live in the US and hold a valid Social Security Number, but not a teaching certificate. Varsity Tutors asks for proof of higher education and official transcripts.</p>
-
-<h3>Are tutors employees or contractors?</h3>
-<p>It depends. Center staff are usually employees of the local franchise owner, while Varsity Tutors says its tutors are independent contractors. Self-employed tutors pay 15.3% self-employment tax once net earnings reach $400.</p>
-
-<h3>Does Kumon hire tutors?</h3>
-<p>Kumon centers hire center assistants who grade and prepare classwork. The centers are independently owned franchises, so your employer is the local center owner, not Kumon.</p>
-
 <h3>Is tutoring a growing job in the USA?</h3>
 <p>BLS projects little or no change in tutor employment from 2025 to 2035, but about 34,200 openings a year as tutors leave or change jobs.</p>
-
-<h3>Do tutors need a background check?</h3>
-<p>Often. Varsity Tutors applicants must be able to pass one, Wyzant tutors must pass one if a student requests it, and states such as Washington require fingerprint checks for school contractors with unsupervised access to children.</p>
 
 <h2>More Job Guides</h2>
 

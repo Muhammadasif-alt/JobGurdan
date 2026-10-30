@@ -300,18 +300,6 @@ JOBHTML;
 <h3>Are UPLIFT intakes in February and August?</h3>
 <p>February and September, based on Unilever's live requisition data. We could find no evidence of an August intake.</p>
 
-<h3>How much does a Unilever factory job pay in Indonesia?</h3>
-<p>Unilever publishes no pay figure for any Indonesian role. The only reliable number is the legally binding regency minimum wage, set annually by governor's decree.</p>
-
-<h3>Where are Unilever's Indonesian factories?</h3>
-<p>Cikarang in West Java is the site named on current postings, and the head office is Grha Unilever in BSD City, Tangerang. Other sites are widely reported but were not confirmable on a live Unilever page when we checked.</p>
-
-<h3>Do I need to speak English?</h3>
-<p>The current Cikarang posting asks for fluent business English alongside Bahasa Indonesia.</p>
-
-<h3>Does Unilever charge anything to apply?</h3>
-<p>No. Unilever states it will never ask for money or credit card details during recruitment.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing manufacturing employers, or looking for a route that is actually open to you? These cover the ground:</p>

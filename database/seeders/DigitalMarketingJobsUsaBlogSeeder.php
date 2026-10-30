@@ -282,18 +282,6 @@ JOBHTML;
 <h3>Do I need a degree or a certification to get hired?</h3>
 <p>A bachelor's is the typical stated requirement, but demonstrable campaign results substitute for it more readily here than in most fields. No certification is required. One documented before-and-after with real numbers outperforms any certificate.</p>
 
-<h3>What does a digital marketing course cost?</h3>
-<p>HubSpot Academy is entirely free, including certifications. Google's Coursera certificate runs about $49 a month after a seven-day trial, so roughly $147 to $294 over three to six months. Meta Blueprint training is free but each exam costs $99 to $150.</p>
-
-<h3>Are third-party cookies going away?</h3>
-<p>No. Google confirmed on 22 April 2025 that it will not deprecate third-party cookies in Chrome, and will not launch the proposed choice prompt either. Any course still teaching you to prepare for a cookie deprecation deadline is out of date.</p>
-
-<h3>Do I need to disclose sponsored posts for clients?</h3>
-<p>Yes. Under the FTC Endorsement Guides, effective 26 July 2023, any material connection must be disclosed clearly and conspicuously and in a form suited to the platform: at the start of an Instagram caption, spoken early in a TikTok, both spoken and written on YouTube. Hashtags at the end are not sufficient.</p>
-
-<h3>Should I start at an agency or in-house?</h3>
-<p>An agency usually pays less at the same title and teaches faster, because you handle more accounts and more channels in a year than an in-house junior does in three. In-house gives you depth on one brand and calmer weeks.</p>
-
 <h3>What does a freelance digital marketer actually keep?</h3>
 <p>Less than the rate implies. Subtract 15.3% self-employment tax, income tax, your own health insurance, unpaid time between clients, and the hours spent pitching and invoicing that nobody pays for.</p>
 

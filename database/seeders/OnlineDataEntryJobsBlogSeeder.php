@@ -335,20 +335,8 @@ JOBHTML;
 <h3>How much do online data entry jobs pay?</h3>
 <p>The BLS OEWS May 2025 median for data entry keyers is $41,340 a year ($19.88 an hour). The 10th percentile is $15.00 an hour and the 90th is $28.26. Freelance transcription is paid per audio minute and works out far lower per hour worked.</p>
 
-<h3>Is data entry a good long-term career?</h3>
-<p>No. BLS projects data entry keyers to decline 25.9% and word processors and typists 36.1% from 2024 to 2034, as automation takes over routine keying. It is best used as short-term income or a bridge to other skills.</p>
-
-<h3>What typing speed do I need for data entry?</h3>
-<p>Usually 40 to 60 words a minute, with competitive roles wanting 60 to 80+. Accuracy of 95% or higher matters more than raw speed.</p>
-
 <h3>How much does online transcription pay?</h3>
 <p>Per audio minute: Rev from $0.40, GoTranscript up to $1.75, TranscribeMe about $0.25 and Scribie about $0.10. Because an audio hour takes roughly four working hours, the real hourly pay for beginners is low, often around $6.</p>
-
-<h3>Do I need to pay for training or a starter kit?</h3>
-<p>No, and being asked to is the clearest sign of a scam. Honest employers never charge candidates for kits, training or placement.</p>
-
-<h3>What is the fake-cheque data entry scam?</h3>
-<p>You are sent a cheque, told to deposit it and send part of the money back or buy supplies. The cheque later bounces and your own money is gone. Never move money for an employer.</p>
 
 <h3>Can I do online data entry from anywhere?</h3>
 <p>Many roles are fully remote, but pay, taxes and eligibility depend on the employer and your country. Confirm you can be hired and paid where you live before you start.</p>

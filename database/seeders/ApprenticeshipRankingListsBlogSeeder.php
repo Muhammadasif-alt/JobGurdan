@@ -133,12 +133,6 @@ class ApprenticeshipRankingListsBlogSeeder extends Seeder
 
 <p>Before you contact the office, write down focused questions: Is my application active? Which date controls expiry? Are new applicants added continuously? What documents support an improvement request? Note the answers and the date you received them.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Does passing the entrance test guarantee acceptance?</h3>
@@ -152,18 +146,6 @@ class ApprenticeshipRankingListsBlogSeeder extends Seeder
 
 <h3>Can I pay to move up the list?</h3>
 <p>No. Do not pay anyone claiming to sell a better rank. Verify genuine charges directly with the official programme.</p>
-
-<h3>What if my result appears incorrect?</h3>
-<p>Contact the sponsor with your applicant details and the specific discrepancy, and ask about its review procedure and deadlines.</p>
-
-<h3>How long does a ranking last?</h3>
-<p>It depends. NEIEP says two years or until the list is exhausted; Portland says applications expire two years after the first interview.</p>
-
-<h3>Can I re-interview to raise my score?</h3>
-<p>Only if your programme allows it. Portland requires 180 days plus qualifying experience or education, and approval is not guaranteed.</p>
-
-<h3>Is there a pass mark for the interview?</h3>
-<p>NEIEP uses 70% as the minimum to receive a rank. Other programmes set their own.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 
@@ -191,7 +173,6 @@ class ApprenticeshipRankingListsBlogSeeder extends Seeder
     <li><a href="/blog/elevator-apprenticeship-test-neiep-what-to-expect">Elevator Apprenticeship Test (NEIEP): What to Expect</a>: the NEIEP test</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 17 October 2026 against official sources. Local examples illustrate differences between programmes and do not establish a current vacancy or guarantee selection.</p>
 HTML;
     }
 }

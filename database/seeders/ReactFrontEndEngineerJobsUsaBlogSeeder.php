@@ -229,18 +229,6 @@ HTML;
 <h3>Can an employer avoid it by saying it will not hire in that state?</h3>
 <p>Not in Washington. Its labour department states that an employer "cannot avoid disclosing wage and salary information requirements by indicating within a posting that the employer will not accept Washington applicants".</p>
 
-<h3>Is "from $120,000" an acceptable range?</h3>
-<p>Not where these laws apply. New York City requires both a minimum and a maximum and says the range "cannot be open ended", giving "$15 per hour and up" as a failing example. Minnesota likewise bars an open-ended range.</p>
-
-<h3>Does the published range mean I can get the top of it?</h3>
-<p>No. The statutes require a good faith estimate of what the employer expects to pay for the position. A wide band usually spans more than one level of the ladder, so ask which level you are being considered at.</p>
-
-<h3>Why do two engineers with similar experience get very different offers?</h3>
-<p>Mostly the level assigned on the company's own ladder, and the scope that comes with it. No federal source defines those levels, which our senior React guide covers.</p>
-
-<h3>Do these laws cover benefits as well as salary?</h3>
-<p>Several do. Colorado, Washington, Minnesota and New Jersey each require a general description of benefits or other compensation alongside the pay figure.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

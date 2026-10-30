@@ -316,18 +316,6 @@ JOBHTML;
 <h3>What does Starbucks pay baristas per hour?</h3>
 <p>Starbucks publishes no barista pay band. It states an average of more than $19 an hour across US hourly retail partners, and values total pay plus benefits at more than $30 an hour at 20 or more hours a week.</p>
 
-<h3>Is the Starbucks free degree real?</h3>
-<p>Yes. The Starbucks College Achievement Plan covers 100% of tuition upfront for a first-time bachelor's degree through Arizona State University online, across 180+ programmes, with no obligation to stay after graduating.</p>
-
-<h3>What is Applicant Insights?</h3>
-<p>An online questionnaire of about 20 minutes with no time limit, no right or wrong answers and no pass or fail. Your responses carry over to applications for the same job for 90 days.</p>
-
-<h3>How old do you have to be to work at Starbucks?</h3>
-<p>Starbucks' own customer service answer sets the minimum at 16 in most states, with state child labour law creating the exceptions. Some individual postings require 18.</p>
-
-<h3>How long does Starbucks take to hire?</h3>
-<p>Starbucks publishes no hiring timeline. It says only that a recruiter or coffeehouse leader will contact you to schedule next steps, and that retail hourly postings refresh every 90 days.</p>
-
 <h3>What is Bean Stock and when do I get it?</h3>
 <p>An annual November restricted stock unit grant for store partners hired by 1 May with no break in service. Half vests one year after the grant date and half after two years.</p>
 

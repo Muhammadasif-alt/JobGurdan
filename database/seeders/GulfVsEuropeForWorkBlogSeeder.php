@@ -151,18 +151,6 @@ class GulfVsEuropeForWorkBlogSeeder extends Seeder
 <h3>Is a UAE salary entirely spendable?</h3>
 <p>No. Living costs and other obligations still apply.</p>
 
-<h3>Does the UAE charge personal income tax?</h3>
-<p>The UAE government portal states that it does not levy personal income tax on individuals.</p>
-
-<h3>Does the UAE Golden visa mean citizenship?</h3>
-<p>No. It is long-term residence for eligible categories under conditions.</p>
-
-<h3>Should beginners choose the Gulf?</h3>
-<p>Choose a verified role that matches your skills and eligibility with clear terms.</p>
-
-<h3>Can I bring my family to the Gulf or Europe?</h3>
-<p>Sometimes. Eligibility depends on the country, route and occupation.</p>
-
 <h3>Which has better job security?</h3>
 <p>It depends on the contract, the employer and the country, not the region.</p>
 
@@ -177,7 +165,6 @@ class GulfVsEuropeForWorkBlogSeeder extends Seeder
     <li><a href="/blog/best-trades-skills-working-gulf-countries">Best Trades and Skills for Working in Gulf Countries</a>: Gulf trades</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

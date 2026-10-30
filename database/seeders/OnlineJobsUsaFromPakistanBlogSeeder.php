@@ -139,20 +139,8 @@ class OnlineJobsUsaFromPakistanBlogSeeder extends Seeder
 <h3>Do I need a US visa for a remote job?</h3>
 <p>No, not to work from Pakistan. A US visa is needed only to work physically inside the United States.</p>
 
-<h3>Which remote jobs are open to Pakistanis?</h3>
-<p>Freelance and contract work such as writing, data entry, support, design and development, plus roles with remote-first companies that hire worldwide.</p>
-
-<h3>How do I get paid from the USA?</h3>
-<p>Through a bank transfer or an account that pays into a Pakistani bank; PayPal is not available as a normal Pakistani account.</p>
-
 <h3>How much can I keep in dollars?</h3>
 <p>Under SBP EPD Circular Letter No. 06 of 2026 freelancers may retain USD 5,000 or 50% of proceeds a month, whichever is higher.</p>
-
-<h3>Do I need Form W-8BEN?</h3>
-<p>US clients often ask for it to confirm you are a foreign person. Confirm your own tax position with an adviser.</p>
-
-<h3>How do I know a remote job is fake?</h3>
-<p>Fees up front, cheques, text-only interviews and daily-payment promises are the usual warning signs.</p>
 
 <h3>Is there a US government remote job site for Pakistanis?</h3>
 <p>No. Official US job boards list US positions with their own eligibility rules, so read each advert.</p>
@@ -168,7 +156,6 @@ class OnlineJobsUsaFromPakistanBlogSeeder extends Seeder
     <li><a href="/blog/how-much-money-save-working-abroad">How Much Money Can You Save Working Abroad</a>: budget and remittances</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

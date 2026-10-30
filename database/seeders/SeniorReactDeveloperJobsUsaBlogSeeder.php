@@ -267,18 +267,6 @@ HTML;
 <h3>Is the overtime salary threshold $684 or $1,128 a week?</h3>
 <p>$684. The 2024 rule that raised it to $1,128 was vacated by two federal courts in November and December 2024, and the Department of Labor has since republished the earlier regulatory text. Any page still quoting $1,128 or $58,656 is out of date.</p>
 
-<h3>Does mentoring juniors change my legal status?</h3>
-<p>It can. 29 CFR 541.402 states that a senior or lead programmer who manages two or more other programmers, and whose views on their advancement are given particular weight, generally meets the duties test for the executive exemption. Price that work into the salary, because it will not be paid hourly.</p>
-
-<h3>What is a Level III prevailing wage?</h3>
-<p>One of four levels DOL issues wage determinations at, for experienced employees with a sound understanding of the occupation who exercise judgment and may coordinate or supervise others. The guidance names "senior (senior programmer)" as an indicator that Level III should be considered.</p>
-
-<h3>Can a sponsored senior role be paid below what the team earns?</h3>
-<p>No. Under 20 CFR 655.731(a) the required wage is the greater of the prevailing wage and the actual wage, and the actual wage is what the employer pays its other people with similar experience and qualifications for that work.</p>
-
-<h3>Why do published senior salary averages disagree so much?</h3>
-<p>Partly because no source defines the title, and partly because many quote a mean as though it were typical. For software developers the May 2025 mean is $148,100 against a $135,980 median, which is about nine per cent of apparent difference from arithmetic alone.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

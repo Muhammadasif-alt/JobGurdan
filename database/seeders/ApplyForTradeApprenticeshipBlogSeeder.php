@@ -154,12 +154,6 @@ class ApplyForTradeApprenticeshipBlogSeeder extends Seeder
 
 <p>An apprenticeship is paid employment and training, not a visa. If you live in Pakistan or another country, a US programme will normally expect you to be authorised to work in the United States, as NEIEP's elevator recruitment page does. Never pay anyone for a guaranteed apprenticeship place or a work visa linked to one, and read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before sending money or documents.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I apply without trade experience?</h3>
@@ -173,18 +167,6 @@ class ApplyForTradeApprenticeshipBlogSeeder extends Seeder
 
 <h3>Does passing the test guarantee a place?</h3>
 <p>No. Ask how results, interviews, available jobs and any ranking affect selection.</p>
-
-<h3>Where should I apply?</h3>
-<p>Through the employer or programme sponsor named in the official listing, following its current recruitment instructions.</p>
-
-<h3>Do I need official transcripts?</h3>
-<p>Some programmes do. The Electrical Training ALLIANCE page asks for official transcripts, so check whether a copy is acceptable for yours.</p>
-
-<h3>Can I apply to more than one programme?</h3>
-<p>Check each programme's rules, and keep separate notes on deadlines and requirements for each.</p>
-
-<h3>Should I pay anyone to get a place?</h3>
-<p>No. Do not pay anyone promising a guaranteed place. Verify any genuine charge directly with the official sponsor.</p>
 
 <h2>Bottom Line</h2>
 
@@ -211,7 +193,6 @@ class ApplyForTradeApprenticeshipBlogSeeder extends Seeder
     <li><a href="/blog/union-apprenticeship-waitlists-how-long">Union Apprenticeship Waitlists: How Long Do They Take?</a>: waiting times</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 17 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case. It describes a US application framework, not a verified current vacancy.</p>
 HTML;
     }
 }

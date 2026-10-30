@@ -283,18 +283,6 @@ JOBHTML;
 <h3>Is &pound;18,000 a legal salary for a full-time cook?</h3>
 <p>Not for a worker aged 21 or over on 37.5 hours a week. The National Living Wage of &pound;12.71 an hour comes to &pound;24,784.50 a year, so &pound;18,000 is &pound;6,784.50 short.</p>
 
-<h3>Can I get a UK visa to work as a cook or chef?</h3>
-<p>Not as a new overseas applicant. Cooks (5435) and kitchen assistants (9263) cannot be sponsored at all, and chefs (5434) can only be sponsored for workers already on the Skilled Worker route before 22 July 2025.</p>
-
-<h3>What is the difference between a cook and a chef?</h3>
-<p>The Home Office uses separate occupation codes: 5434 Chefs and 5435 Cooks, with head cooks counted as cooks. In kitchens the titles overlap, but the code matters for visas.</p>
-
-<h3>Do kitchen staff get a share of tips in the UK?</h3>
-<p>They can. Since 1 October 2024, employers must pass on tips and service charges in full and allocate them fairly under a written policy, and a fair split can include kitchen staff.</p>
-
-<h3>Can I work as a cook part-time?</h3>
-<p>Yes. Restaurants, cafés, schools and caterers all use part-time cooks, and the National Living Wage applies to every hour you work.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing UK routes and hospitality work elsewhere? These cover them:</p>

@@ -275,20 +275,8 @@ JOBHTML;
 <h3>How much does an assistant professor earn in the US?</h3>
 <p>$97,232 on the AAUP 2025&ndash;26 average. The BLS medians by institution type run from $96,120 at state universities to $68,160 at state junior colleges.</p>
 
-<h3>When should I apply for assistant professor jobs?</h3>
-<p>From late summer through autumn for the following autumn start. Deadlines cluster between October and December, with campus visits in the new year and offers in spring.</p>
-
-<h3>Do you need a PhD to be an assistant professor?</h3>
-<p>For tenure-track posts at four-year institutions, almost always, and most adverts require it in hand by the start date rather than in progress. Professional fields may accept another terminal qualification with relevant practice.</p>
-
-<h3>What happens at a campus visit?</h3>
-<p>A job talk on your research, a teaching demonstration, meetings with faculty, students and the dean, usually over one or two days. The talk and the teaching demonstration decide most searches.</p>
-
 <h3>What can you negotiate in an assistant professor offer?</h3>
 <p>Salary, startup funds, course release, moving costs, equipment and space, graduate student funding, partner hiring and the tenure clock itself. It is settled once, so get it in the offer letter.</p>
-
-<h3>How long is the tenure clock?</h3>
-<p>Normally no more than seven years, following the AAUP standard, with a third-year review along the way and notice at least a year before the end if tenure is refused.</p>
 
 <h3>Is a research assistant professor a tenure-track job?</h3>
 <p>Usually not. Research, clinical, teaching and visiting assistant professor titles sit outside the tenure system, and the research ones last only as long as the grant funding them.</p>

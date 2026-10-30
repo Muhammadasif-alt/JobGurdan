@@ -140,20 +140,8 @@ class MistakesApplyingJobsAbroadBlogSeeder extends Seeder
 <h3>Should I follow up repeatedly?</h3>
 <p>Respect the employer's instructions and timeline and keep any follow-up brief.</p>
 
-<h3>Can beginners apply abroad?</h3>
-<p>Yes, to roles that match their actual experience and eligibility.</p>
-
 <h3>Why do overseas applications fail?</h3>
 <p>Causes include missing criteria, work-authorisation limits, a generic CV and competition.</p>
-
-<h3>Should I use the same CV for every job?</h3>
-<p>No. Keep a master version and tailor the emphasis truthfully.</p>
-
-<h3>Is an offer letter proof of a visa?</h3>
-<p>No. Only the immigration authority grants permission.</p>
-
-<h3>Is a recruiter's promise enough?</h3>
-<p>No. Verify the employer and the route yourself.</p>
 
 <h2>More Job Guides</h2>
 
@@ -166,7 +154,6 @@ class MistakesApplyingJobsAbroadBlogSeeder extends Seeder
     <li><a href="/blog/prepare-online-job-interview-abroad">How to Prepare for an Online Job Interview Abroad</a>: video interview</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

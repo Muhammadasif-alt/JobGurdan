@@ -291,18 +291,6 @@ JOBHTML;
 <h3>Is resume writing in Canada a job or self-employment?</h3>
 <p>Usually self-employment. That means no provincial minimum wage applies to your contract, no EI unless you opt into special benefits, both halves of CPP at 11.9% on net business income for 2026, and income reported on form T2125.</p>
 
-<h3>Do I have to register for GST/HST as a freelance resume writer?</h3>
-<p>Once your taxable revenue passes $30,000 in one calendar quarter or across four consecutive quarters, yes. Work billed to non-resident clients is zero-rated, so you charge 0% on it, but it still counts toward that $30,000, which surprises writers whose clients are all American.</p>
-
-<h3>Do applicant tracking systems really reject 75% of resumes?</h3>
-<p>No. There is no published research behind that figure; it traces to a 2012 vendor sales pitch, and recruiters say their systems do not auto-reject on formatting. Rejections come from volume, from recruiter keyword searches inside the database, and from genuine parsing failures.</p>
-
-<h3>Should a Canadian resume include a photo?</h3>
-<p>No. Leave out the photograph, date of birth, marital status and SIN. Human rights legislation prevents employers from screening on those grounds, so including them creates a problem for the employer rather than an edge for the candidate.</p>
-
-<h3>What should I tell a newcomer client asking about Canadian experience?</h3>
-<p>That the requirement stands on weak ground. The Ontario Human Rights Commission has held since July 2013 that a strict Canadian experience requirement is prima facie discrimination under the Human Rights Code. Present the client's overseas record in Canadian terms rather than hiding it.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Working in writing or looking at remote work more broadly? These cover the nearby ground:</p>

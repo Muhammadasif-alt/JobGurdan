@@ -326,18 +326,6 @@ JOBHTML;
 <h3>What is the ParaPro test?</h3>
 <p>An ETS assessment with 90 selected-response questions in reading, math and writing, lasting 150 minutes. It is one way to meet the Title I assessment option where your state or district accepts it.</p>
 
-<h3>Is there demand for teacher assistants?</h3>
-<p>Yes. Employment is projected to stay flat from 2025 to 2035, but about 176,200 openings are expected each year as workers leave or change jobs.</p>
-
-<h3>Are teacher assistant jobs part-time?</h3>
-<p>Most are full time, but part-time work is common, and many teacher assistants do not work in the summer.</p>
-
-<h3>Do special education paraprofessionals need extra qualifications?</h3>
-<p>Often. The BLS says most states require teacher assistants who work with special-needs students to pass a skills test.</p>
-
-<h3>Where can I apply for educational support jobs?</h3>
-<p>Start with your local school district's job board, then check charter networks such as KIPP and early learning centers such as KinderCare, Primrose and The Goddard School.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other education jobs? These cover it:</p>

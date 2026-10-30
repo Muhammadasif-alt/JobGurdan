@@ -338,18 +338,6 @@ JOBHTML;
 <h3>Is there an OSHA certification for carpenters?</h3>
 <p>No. OSHA does not certify individual workers. The 10-hour and 30-hour courses are part of the voluntary OSHA Outreach Training Program, delivered by authorised trainers, and OSHA states that none of its Outreach courses is considered a certification. The card does not expire.</p>
 
-<h3>Do I need an OSHA 10 card to work as a carpenter?</h3>
-<p>It depends where. Nevada requires it for construction workers within 15 days of hire, New York City requires a 40-hour Site Safety Training card, and Massachusetts, Connecticut, New Hampshire, Missouri and Rhode Island require it on public projects. Elsewhere it is an employer or contract requirement rather than a legal one.</p>
-
-<h3>Do carpenters need a licence in the USA?</h3>
-<p>Most states do not license carpenters as individuals, unlike electricians and plumbers. Licensing generally applies to the contracting business above a dollar threshold: $1,000 in California and Virginia, and any amount at all in Oregon. An employee of a licensed contractor usually needs no personal licence.</p>
-
-<h3>How long is a carpentry apprenticeship?</h3>
-<p>Typically about four years and roughly 8,000 hours of paid on-the-job learning, with around 144 hours of classroom instruction a year. Apprentices are paid from day one, with increases tied to skills gained rather than time served.</p>
-
-<h3>Can a carpenter get a US work visa?</h3>
-<p>Not through H-1B, which requires a bachelor's degree in a specific specialty as the normal entry route. H-2B covers temporary and seasonal carpentry work, is capped at 66,000 a year, and must be started by the employer through a Department of Labor labour certification.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing trades and construction routes? These cover them:</p>

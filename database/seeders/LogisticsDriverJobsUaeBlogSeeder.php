@@ -346,18 +346,6 @@ JOBHTML;
 <h3>How old do you have to be to drive a truck in the UAE?</h3>
 <p>In Dubai, 20 for a heavy vehicle licence and 21 for a light or heavy bus licence. A light vehicle licence is issued from 18. Bus and equipment licences also need 6/6 vision in both eyes.</p>
 
-<h3>Can I work as a driver on a visit visa while I wait for my employment visa?</h3>
-<p>No. UAE law prohibits working on a visit or tourist visa, paid or unpaid. Your employer must first obtain a work permit; a new entry permit is then issued and your status is changed inside the country.</p>
-
-<h3>Is there a 30-day grace period to convert my licence?</h3>
-<p>Not according to the RTA. Residents must exchange or obtain a UAE licence before driving. Only visitors can drive on a GCC, exchange-country or international licence, and only light vehicles and motorcycles.</p>
-
-<h3>What is the minimum salary for a driver in the UAE?</h3>
-<p>There is none for expatriate workers: the UAE Labour Law sets no minimum salary. The AED 6,000 minimum applies to Emiratis in the private sector, and sponsoring your family needs a salary of AED 4,000, or AED 3,000 with accommodation.</p>
-
-<h3>Who pays for my visa and recruitment as a driver?</h3>
-<p>The employer. The UAE Labour Law prohibits charging workers recruitment and employment fees and costs, and the UAE government portal says recruitment, travel and residency permit costs are borne by the employer.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing driving routes and other Gulf jobs? These cover them:</p>

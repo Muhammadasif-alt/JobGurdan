@@ -216,23 +216,11 @@ HTML;
 <h3>Do I need a nursing qualification?</h3>
 <p>Not for personal care. You do need registration for nursing acts such as injections, wound dressing or catheter care. Accepting clinical tasks without registration exposes you personally.</p>
 
-<h3>Is a written contract required for private home care work?</h3>
-<p>In Punjab, yes. Section 5 of the Punjab Domestic Workers Act 2019 requires a letter of employment in the prescribed form setting out nature of work and wages, with a copy sent to the Inspector concerned.</p>
-
 <h3>How many days off is a live-in carer entitled to?</h3>
 <p>In Punjab, at least one whole day a week under section 6(1), plus eight days paid sick leave a year and ten days of festival holidays on full wages.</p>
 
-<h3>Can an employer keep my CNIC while I work for them?</h3>
-<p>Not in Punjab. Section 14 bars retaining a domestic worker's identification documents and personal belongings, and provides a Dispute Resolution Committee route to recover them.</p>
-
-<h3>Does this law apply outside Punjab?</h3>
-<p>No. The Punjab Domestic Workers Act 2019 is provincial. Sindh, Khyber Pakhtunkhwa, Balochistan and the federal territory have their own arrangements, so a Karachi post is not covered by it.</p>
-
 <h3>Can I start personal care work with no experience?</h3>
 <p>Yes, with a provider that trains. Sahara Home Healthcare states training is provided on its Home Health Aide opening. Private households and complex clients usually want prior experience.</p>
-
-<h3>How much do personal care assistants earn in Pakistan?</h3>
-<p>There is no reliable published range. Pay moves with live-in versus shift work, night duty, client complexity, city, and whether a provider or a household employs you. Settle the figure in writing first.</p>
 
 <h2>Related career guides</h2>
 

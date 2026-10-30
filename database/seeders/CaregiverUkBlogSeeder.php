@@ -300,9 +300,6 @@ JOBHTML;
 <h3>Do I need IELTS specifically?</h3>
 <p>No: IELTS is one accepted English test among several recognized options, but the more important question right now is whether the underlying visa route applies to you at all.</p>
 
-<h3>What's a realistic monthly salary for a UK care role?</h3>
-<p>Roughly &pound;1,800&ndash;&pound;2,300 a month for entry-level hourly roles, more for NHS-banded support worker positions or senior/specialist care roles.</p>
-
 <h2>Still Looking for Sponsored Work?</h2>
 
 <p>If the UK care route is closed to you right now, it's worth comparing countries where sponsorship for non-clinical roles is still open. Two guides worth reading next:</p>

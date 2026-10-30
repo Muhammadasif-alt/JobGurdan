@@ -238,20 +238,8 @@ JOBHTML;
 
 <h2>Frequently Asked Questions</h2>
 
-<h3>Which visa can cover seasonal hotel housekeeping?</h3>
-<p>Eligible temporary non-agricultural work can use H-2B when the programme's requirements are met.</p>
-
 <h3>Is previous experience compulsory?</h3>
 <p>Only where the vacancy requires it. Beginner eligibility varies by employer.</p>
-
-<h3>Does every hotel offer sponsorship?</h3>
-<p>No. Confirm the employer's participation and overseas recruitment directly.</p>
-
-<h3>Does sponsorship lead to permanent residence?</h3>
-<p>No. H-2B is temporary work authorisation, not automatic permanent residence.</p>
-
-<h3>Is accommodation free for hotel housekeepers?</h3>
-<p>Do not assume it is. Ask for the housing terms and any deductions in writing.</p>
 
 <h3>Is there a limit on H-2B visas?</h3>
 <p>Yes, an annual statutory limit applies, with supplemental allocations in some years. Check USCIS's current notices.</p>

@@ -288,18 +288,6 @@ JOBHTML;
 <h3>Do AI and machine learning Python roles really pay $150,000 or more?</h3>
 <p>Some do, but it is not the typical figure. The data scientist median is $120,230 and the top tenth begins above $199,130, so $150,000 sits well above the middle of that occupation rather than at its normal level.</p>
 
-<h3>Django, Flask or FastAPI: which should I learn?</h3>
-<p>Django for the most US web postings and the fullest toolkit out of the box; FastAPI if you are aiming at API and services work, which is where the higher band tends to be. Depth in one interviews far better than familiarity with all three.</p>
-
-<h3>Are there remote entry-level Python jobs?</h3>
-<p>Yes, though fewer than at mid level, because juniors are harder to support remotely. Look specifically at remote-first companies, and at contract work as a way to build a first verifiable track record.</p>
-
-<h3>Can I get a Python job without a computer science degree?</h3>
-<p>Frequently, yes. BLS records employer education requirements in web development ranging from a high school diploma upward, and two or three deployed projects with tests carry real weight. Data science roles ask for a degree more often than web or backend roles do.</p>
-
-<h3>Which pays more, Python or Java?</h3>
-<p>Neither, as such: both sit in the same software developer occupation at a $135,980 median. What differs is the shape of the market: Java has a large enterprise contract and consulting sector, and Python has the data and machine learning demand, projected to grow 35 per cent to 2035.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing the engineering routes? These cover them:</p>

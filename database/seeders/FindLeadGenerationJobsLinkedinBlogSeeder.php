@@ -424,18 +424,6 @@ JOBHTML;
 <h3>Do I need LinkedIn Premium to find these jobs?</h3>
 <p>No. If you do buy, buy Premium Career at around USD 39.99 a month, not Sales Navigator at around USD 119.99. Sales Navigator is a sales tool with no job search features, and costs three times as much.</p>
 
-<h3>Are LinkedIn automation tools safe to use?</h3>
-<p>LinkedIn prohibits them and says accounts may be restricted or shut down. The vendors concede the point themselves, one stating outright that automation violates LinkedIn's terms, another describing how it falsifies LinkedIn's detection response. Their recommended daily limits differ by a factor of twenty.</p>
-
-<h3>How many connection requests can I send per week?</h3>
-<p>LinkedIn publishes no number. It says restrictions follow sending many invitations in a short time, having invitations ignored, or sending an excessive number where it suspects an automation tool. Restrictions typically last about a week.</p>
-
-<h3>Does the Open to Work badge have a downside?</h3>
-<p>Yes. It is visible to everyone including your current employer, and security researchers have documented fake recruiters targeting job seekers who display it with phishing designed to capture passwords and two-factor codes. Keep two-factor authentication on.</p>
-
-<h3>Why do remote jobs reject me instantly?</h3>
-<p>Every LinkedIn job is posted against a country, and employers can add work authorisation and visa screening questions marked must-have. Failing them can trigger an automatic archive and rejection email within minutes of applying.</p>
-
 <h2>More Job Guides</h2>
 
 <p>These pair with this one:</p>

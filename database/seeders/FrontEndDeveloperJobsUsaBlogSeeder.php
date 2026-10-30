@@ -280,18 +280,6 @@ JOBHTML;
 <h3>Does the accessibility rule affect me if I work at an agency?</h3>
 <p>If your clients include public bodies, yes. The rule reaches content provided through a public entity's vendors and licensors, not only what it builds in-house, so agencies building for cities, school districts, transit authorities and public universities are within scope.</p>
 
-<h3>What are Core Web Vitals and which ones matter?</h3>
-<p>LCP, INP and CLS. INP replaced First Input Delay on 12 March 2024 because it measures every interaction rather than only the first. A good INP is 200 milliseconds or less at the 75th percentile, and you need 75 per cent of real visits in the good range to pass.</p>
-
-<h3>React or Vue or Angular for US jobs?</h3>
-<p>React, with Next.js, opens the most US postings. Vue and Angular are common in specific sectors and enterprises. Depth in one interviews far better than passing familiarity with several.</p>
-
-<h3>Can I get a front end job with no degree?</h3>
-<p>Frequently, yes. BLS notes employer requirements in this occupation range from a high school diploma upward, and a small number of live, well-built projects carries real weight: particularly if one of them is demonstrably accessible.</p>
-
-<h3>Do US companies pay international front end developers US rates?</h3>
-<p>Usually not. Most benchmark the offer to your local market. Whether you are a contractor or employed through an employer of record also changes your protections considerably, which is worth settling before you accept.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing the engineering routes? These cover them:</p>

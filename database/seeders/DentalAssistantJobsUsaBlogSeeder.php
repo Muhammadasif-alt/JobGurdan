@@ -347,23 +347,11 @@ JOBHTML;
 <h3>Can I become a dental assistant with no experience?</h3>
 <p>In some states, yes. BLS says that in some states there are no formal educational requirements and assistants learn on the job, while other states require graduation from an accredited program and an exam first. Your state dental board decides, and DANB lists the rules for all 51 jurisdictions.</p>
 
-<h3>Do I need a certification to work as a dental assistant?</h3>
-<p>States typically do not license entry-level assistants, but some require registration or certification to enter the job or to advance. A separate radiography permit is commonly required before you may take x-rays.</p>
-
-<h3>What is the DANB CDA and how do I qualify for it?</h3>
-<p>The Certified Dental Assistant is made up of three exams: General Chairside Assisting, Infection Control, and Radiation Health and Safety. You qualify through a CODA-accredited program, through 3,500 hours of approved work experience with a high school diploma, or through one of the dental-degree routes. All of them need current hands-on CPR, BLS or ACLS.</p>
-
 <h3>How long does dental assistant training take?</h3>
 <p>It depends on the route. A CODA-accredited certificate or diploma program is the usual one; the alternative is DANB's Pathway II, which asks for 3,500 hours of approved work experience instead of a program.</p>
 
 <h3>Are dental assistants in demand?</h3>
 <p>BLS projects employment to grow 7 per cent from 2025 to 2035, which it describes as much faster than the average for all occupations, with about 53,000 openings a year over the decade.</p>
-
-<h3>Where can I apply for dental assistant jobs without using a job aggregator?</h3>
-<p>USAJOBS carries federal dental clinic roles at the VA, the Indian Health Service and military clinics. Dental groups such as Smile Brands and Aspen Dental post on their own careers sites. Beyond that, most American dentistry is single-site, so applying directly to practices near you reaches jobs that are never advertised.</p>
-
-<h3>What is the difference between a dental assistant and a dental hygienist?</h3>
-<p>An assistant supports the dentist chairside and handles preparation, sterilization, x-rays and records. A hygienist performs cleanings and preventive care, needs an associate's degree, is licensed in every state, and had a median wage of $98,100 in May 2025 against the assistant's $48,070.</p>
 
 <h2>More Job Guides</h2>
 

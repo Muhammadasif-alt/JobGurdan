@@ -264,18 +264,6 @@ JOBHTML;
 <h3>What does remote customer service pay in Pakistan?</h3>
 <p>Entry-level roles are commonly advertised between PKR 30,000 and 50,000 a month, with night shifts and international accounts at the higher end. For full-time work, measure any offer against your province's notified minimum wage: PKR 40,000 in Punjab, Sindh and Khyber Pakhtunkhwa, and PKR 40,700 federally from 1 July 2026.</p>
 
-<h3>How do I know whether a job is really remote?</h3>
-<p>Ask at the screening stage whether it is fully remote permanently or remote during training only. A significant share of listings tagged remote in Pakistan are hybrid, and the advertisement usually does not say which.</p>
-
-<h3>What equipment do I need?</h3>
-<p>A headset with a microphone, a reliable connection with a backup, a power arrangement that survives load shedding, and a quiet space. These are checked during onboarding rather than taken on trust.</p>
-
-<h3>Are these jobs suitable for students?</h3>
-<p>Yes, and part-time evening and weekend shifts are a normal arrangement rather than an exception. Check the shift in local hours against your timetable before accepting.</p>
-
-<h3>Will my calls and screen be monitored?</h3>
-<p>Call recording is standard across the industry, and screen recording and activity tracking are common. Ask which are switched on before you accept, so the quality scoring is not a surprise.</p>
-
 <h3>Is a night shift worth the extra pay?</h3>
 <p>It pays more for a reason. A US-hours account means working overnight from Pakistan indefinitely, which is sustainable for some people and not for others. UK and Gulf accounts pay less of a premium and are far easier to hold long term.</p>
 

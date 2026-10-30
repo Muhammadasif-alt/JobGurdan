@@ -100,12 +100,6 @@ class JobsHiringNowHoustonTxBlogSeeder extends Seeder
 
 <p>Where a vacancy appears on a third-party aggregator site, confirm it on the employer's own careers page before you share personal details. Check whether a listing is direct or agency-posted, and remember repeated adverts do not always mean separate openings. Use the employer's own application, keep the job number, and avoid sending the same application twice.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I get hired without experience?</h3>
@@ -114,23 +108,11 @@ class JobsHiringNowHoustonTxBlogSeeder extends Seeder
 <h3>Does hiring now mean starting tomorrow?</h3>
 <p>No. Employers may still need interviews, assessments and checks. Ask about the timeline.</p>
 
-<h3>How should I compare pay?</h3>
-<p>Compare base wage, expected hours, benefits and commuting costs. Do not budget around bonuses, tips or overtime unless the terms are clear.</p>
-
 <h3>How do I avoid fake offers?</h3>
 <p>Verify the employer through its official site. Be wary of requests for interview payments, gift cards or depositing cheques to buy equipment.</p>
 
 <h3>What should I prepare before applying?</h3>
 <p>A clear resume, accurate employment dates, relevant certificates, references who agreed to be listed, and a professional email and voicemail.</p>
-
-<h3>Is the City of Houston the same as Harris County?</h3>
-<p>No. They recruit separately, with their own portals and rules.</p>
-
-<h3>Do METRO jobs need a drug test?</h3>
-<p>METRO states applicants must pass drug testing before employment.</p>
-
-<h3>Where can I find state help?</h3>
-<p>WorkInTexas, run by the Texas Workforce Commission, offers job search and resume tools.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 
@@ -161,7 +143,6 @@ class JobsHiringNowHoustonTxBlogSeeder extends Seeder
     <li><a href="/blog/plumber-apprenticeship-seattle-houston-detroit">Plumber Apprenticeship in Seattle, Houston, and Detroit</a>: trade route</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 17 October 2026. It links public-sector and state portals; private employers are named in the text so you can search their own career pages. It does not imply visa sponsorship, a confirmed opening or guaranteed hiring.</p>
 HTML;
     }
 }

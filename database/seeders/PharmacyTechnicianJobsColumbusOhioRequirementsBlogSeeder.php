@@ -152,12 +152,6 @@ class PharmacyTechnicianJobsColumbusOhioRequirementsBlogSeeder extends Seeder
 
 <p>Ohio technician registration requires being in the US with work authorisation; it is not a visa route. If you are qualified in pharmacy in Pakistan, look at roles at home or read <a href="/blog/how-to-find-job-abroad-from-pakistan-2026">how to find a job abroad from Pakistan</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Do I need a license to be a pharmacy technician in Ohio?</h3>
@@ -169,24 +163,12 @@ class PharmacyTechnicianJobsColumbusOhioRequirementsBlogSeeder extends Seeder
 <h3>How long does trainee registration last?</h3>
 <p>18 months once active, with an 18-month reinstatement if you need more time.</p>
 
-<h3>Do I need PTCB or ExCPT certification?</h3>
-<p>Only for the Certified Pharmacy Technician category.</p>
-
-<h3>How much is the trainee application?</h3>
-<p>$45, according to the Board's fee notice effective 30 September 2025.</p>
-
-<h3>How much do pharmacy technicians earn in Columbus?</h3>
-<p>A median of $21.75 an hour, or $45,240 a year, in May 2025.</p>
-
-<h3>How long is the Columbus State programme?</h3>
-<p>Two semesters, 26 to 32 weeks full time, with a 140-hour externship.</p>
-
 <h3>Can I work part time?</h3>
 <p>Yes. Part-time roles are common in retail and community pharmacies.</p>
 
 <h2>Bottom Line</h2>
 
-<p>Get your background checks, register as a trainee and wait for active status, complete approved training, then move up to registered or certified status before the trainee registration ends. This guide cannot promise a job or a wage.</p>
+<p>Get your background checks, register as a trainee and wait for active status, complete approved training, then move up to registered or certified status before the trainee registration ends.</p>
 
 <h2>Sources</h2>
 
@@ -209,7 +191,6 @@ class PharmacyTechnicianJobsColumbusOhioRequirementsBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, the warning signs of a recruitment scam.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 28 October 2026; the Ohio Board of Pharmacy website did not load from our network, so confirm its current rules and fees. It does not promise a job or a wage.</p>
 HTML;
     }
 }

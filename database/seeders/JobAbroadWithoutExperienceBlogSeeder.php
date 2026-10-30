@@ -155,18 +155,6 @@ class JobAbroadWithoutExperienceBlogSeeder extends Seeder
 <h3>How much money should I save before moving?</h3>
 <p>Plan for flights, visa fees, first-month housing and a buffer until your first paycheque. Some visas require proof of funds, so check the requirement for your chosen visa on the official page.</p>
 
-<h3>Can Pakistanis use a working holiday visa?</h3>
-<p>Generally not. These schemes are limited to partner countries and Pakistan is missing from several of them, including the UK Youth Mobility Scheme. Check your passport on each official page.</p>
-
-<h3>Is the Germany Opportunity Card open to Pakistanis?</h3>
-<p>Yes, it is points-based and open to qualified applicants of any nationality, but you need the points, the language level and the funds.</p>
-
-<h3>Should I pay an agent to find me a job abroad?</h3>
-<p>No. Legitimate employers do not charge you to be hired, and a licensed recruiter should be verifiable on the official register.</p>
-
-<h3>Can I switch from a student visa to a work visa?</h3>
-<p>Sometimes, but each country has its own rules, and a student visa limits your work hours. Check the official immigration site before you plan on it.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

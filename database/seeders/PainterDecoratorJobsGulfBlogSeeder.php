@@ -334,18 +334,6 @@ JOBHTML;
 <h3>Who pays for a UAE work visa?</h3>
 <p>The employer. Article 6 of Federal Decree-Law No. 33 of 2021 bars employers from charging workers recruitment and employment costs, directly or indirectly.</p>
 
-<h3>Can painters work outside at midday in summer?</h3>
-<p>No. In the UAE, outdoor work under direct sun stops from 12:30pm to 3pm between 15 June and 15 September. Saudi Arabia bans it from noon to 3pm in summer.</p>
-
-<h3>How do I check a UAE job offer is real?</h3>
-<p>Ask for the details of the offer letter and check the permit status with MOHRE through its website or app. Never pay a fee to receive an offer.</p>
-
-<h3>What skills do Gulf employers want in a painter?</h3>
-<p>Surface preparation, interior and exterior coatings, spray painting and safe work at height. Decorative finishes and wallpaper hanging help for decorator roles.</p>
-
-<h3>Is a painter job in the Gulf free of recruitment fees?</h3>
-<p>It should be. In the UAE charging a worker recruitment costs is prohibited, and in Saudi Arabia the employer bears recruitment, iqama and work permit fees.</p>
-
 <h3>Can a painter work in the UK instead?</h3>
 <p>Painters and decorators (SOC 5323) were on the UK Temporary Shortage List when we checked, unlike carpenters. The list is temporary, so check it on gov.uk before applying.</p>
 

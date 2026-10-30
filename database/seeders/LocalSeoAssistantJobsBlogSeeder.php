@@ -452,18 +452,6 @@ JOBHTML;
 <h3>Do citations and NAP consistency improve local rankings?</h3>
 <p>Google has never documented that they do. Its only published page on local ranking names relevance, distance and prominence, and describes prominence as based on links and reviews. Google does say it builds profiles partly from crawled and licensed third-party data, so correcting wrong information across the web is genuine accuracy work: just not the ranking lever the tools sell it as.</p>
 
-<h3>Is it safe to ask customers for reviews?</h3>
-<p>Asking for honest reviews from real customers is allowed. What is prohibited is offering payment, discounts or free goods for a review, discouraging negative reviews, selectively asking only happy customers, and soliciting volumes or patterns that look like rating manipulation. Reviewing a business you have a contractual relationship with is also prohibited.</p>
-
-<h3>What happens if a client asks me to break the rules?</h3>
-<p>The consequence can reach you personally. Google states it may suspend the Business Profile and the Google Account used to manage it, that repeat or serious violations can bar you from managing profiles at all, and that it may contact the client's customers. Manage profiles from an account you can afford to lose, or decline the instruction.</p>
-
-<h3>How many local SEO jobs are there in Pakistan?</h3>
-<p>Fewer than the courses imply. Counting across three boards on the same day found roughly eight to twelve live listings mentioning local SEO or Business Profiles, of which about three carried it in the job title, and most were in Lahore. Learn it as part of a broader SEO skill set rather than as a standalone career.</p>
-
-<h3>What does local SEO work pay?</h3>
-<p>Domestic listings for a titled local SEO role topped out around PKR 60,000 a month in September 2026, with entry-level and adjacent roles from PKR 10,000 to 40,000. A remote listing for a foreign agency advertised PKR 270,000 to 450,000 for the same skill set. The gap between local and foreign clients is far larger than the gap between junior and senior.</p>
-
 <h3>Which tools do I need to buy?</h3>
 <p>None to start. The Business Profile itself is free, Search Console is free, and Whitespark offers free tools plus a free citation-finder tier. BrightLocal's 14 day trial requires no credit card, which makes it the practical option in Pakistan where an international card is usually the real obstacle. Paid subscriptions are for agencies with many locations to report on.</p>
 

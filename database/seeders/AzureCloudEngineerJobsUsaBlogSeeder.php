@@ -300,18 +300,6 @@ JOBHTML;
 <h3>Why do so many Azure jobs mention Microsoft 365?</h3>
 <p>Because the same vendor sells both, so the same team usually owns both. It is real work, but it is counted and paid as administration rather than engineering. Ask what proportion of the week it takes up before you accept.</p>
 
-<h3>Is Azure or AWS better for getting a job in the USA?</h3>
-<p>AWS carries the larger overall share of postings; Azure is stronger inside enterprises already committed to Microsoft, and in a lot of government-adjacent work. Match the platform to the employers you are actually targeting, and go deep in one.</p>
-
-<h3>What is the entry-level Azure cloud engineer salary?</h3>
-<p>Junior roles are advertised from around $79,800, often with a cost-of-living adjustment in expensive cities. That sits above the $62,640 tenth percentile for the administrator occupation this work is counted under.</p>
-
-<h3>Are Azure cloud engineer jobs remote?</h3>
-<p>Many are past entry level, some with occasional on-site visits. Public sector and clearance-gated roles are much less likely to be remote.</p>
-
-<h3>Can I move into Azure engineering from Windows systems administration?</h3>
-<p>It is the most common route there is. Active Directory, Windows Server and networking experience transfers directly into hybrid identity work, which is the part of the job that is hardest to learn from scratch.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing platforms and routes? These cover them:</p>

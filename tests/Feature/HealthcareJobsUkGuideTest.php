@@ -82,7 +82,7 @@ it('carries FAQ markup built from the post body', function () {
     $faqs = app(StructuredDataService::class)
         ->faqsFromHtml(Blog::where('slug', HEALTH_UK_SLUG)->value('content'));
 
-    expect($faqs)->toHaveCount(8)
+    expect($faqs)->toHaveCount(4)
         ->and(array_column($faqs, 'question'))->not->toContain('TRAC jobs NHS');
 
     get('/blog/'.HEALTH_UK_SLUG)->assertSee('"FAQPage"', false);

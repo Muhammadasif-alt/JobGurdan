@@ -126,12 +126,6 @@ class CnaJobsAtlantaGeorgiaCertificationPayBlogSeeder extends Seeder
 
 <p>Georgia CNA training and jobs need existing US work authorisation, and CNA posts do not lead to visa sponsorship. Read <a href="/blog/how-to-find-job-abroad-from-pakistan-2026">how to find a job abroad from Pakistan</a> for routes that do accept overseas applicants.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>How many training hours does Georgia require?</h3>
@@ -143,24 +137,12 @@ class CnaJobsAtlantaGeorgiaCertificationPayBlogSeeder extends Seeder
 <h3>How many skills are tested?</h3>
 <p>Five randomly selected nurse aide skills.</p>
 
-<h3>How much do CNAs earn in Atlanta?</h3>
-<p>The median is $18.92 an hour, or $39,350 a year, for May 2025.</p>
-
-<h3>How do I keep my certification?</h3>
-<p>Work at least eight paid nursing-related hours every 24 months under a nurse and document it before expiry. There is no fee.</p>
-
-<h3>Can I become a CNA without a college degree?</h3>
-<p>Yes. The standard route is an approved training course and the exam.</p>
-
-<h3>Can I transfer certification from another state?</h3>
-<p>Georgia has a separate eligibility route for out-of-state nurse aides; ask the registry before enrolling again.</p>
-
 <h3>Is a patient care technician always a CNA?</h3>
 <p>No. Employers use different titles and requirements, so read the posting.</p>
 
 <h2>Bottom Line</h2>
 
-<p>Start with approved training and the NNAAP exam, get your registry listing, then compare Atlanta offers against the BLS benchmarks and the real working conditions. This guide cannot promise a job or a wage.</p>
+<p>Start with approved training and the NNAAP exam, get your registry listing, then compare Atlanta offers against the BLS benchmarks and the real working conditions.</p>
 
 <h2>Sources</h2>
 
@@ -182,7 +164,6 @@ class CnaJobsAtlantaGeorgiaCertificationPayBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, the warning signs of a recruitment scam.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 28 October 2026 against the pages named in Sources. Pay figures are metro-wide benchmarks, not offers. It does not promise a job or a wage.</p>
 HTML;
     }
 }

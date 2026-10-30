@@ -109,31 +109,13 @@ class UnionApprenticeshipsSouthernCaliforniaInlandEmpireBlogSeeder extends Seede
 
 <p>Ask for the current apprentice wage schedule, how raises depend on hours and classroom progress, and when health cover starts. Keep cash wages separate from employer benefit contributions, and budget for transport, parking, tools, dues and training costs the sponsor names. Do not base your household budget on journeyworker pay or assumed overtime. IEETC's descriptions show why different classifications have different timelines, so compare the actual commitment, not an advertised maximum salary.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can beginners apply?</h3>
 <p>Some routes accept beginners. The Western States Carpenters fund and the Laborers Training School say prior experience is not needed. Each sponsor still sets its own rules.</p>
 
-<h3>Is every union accepting applications now?</h3>
-<p>No. Windows, monthly schedules and closed periods vary. IEETC says its September intake is full and Local 12 operating engineers are closed.</p>
-
 <h3>Does passing the test guarantee employment?</h3>
 <p>No. Interviews, applicant pools and employer demand all affect selection.</p>
-
-<h3>Should I buy a preparation course?</h3>
-<p>Start with the official exam guidance and check that any paid course matches your programme's test before you pay.</p>
-
-<h3>What should I do while waiting?</h3>
-<p>Keep working or studying, improve the relevant maths, keep reliable transport and watch official announcements.</p>
-
-<h3>How often does Local 364 take applications?</h3>
-<p>On the last Tuesday of each month from January to November, 1 to 4 p.m., in person.</p>
 
 <h3>What is the Local 364 pass mark?</h3>
 <p>At least 76% on the 50-question exam to get an interview.</p>
@@ -173,7 +155,6 @@ class UnionApprenticeshipsSouthernCaliforniaInlandEmpireBlogSeeder extends Seede
     <li><a href="/blog/ua-plumber-pipefitter-apprenticeship-test-guide">UA Plumber and Pipefitter Apprenticeship Test Guide</a>: plumber test</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Recruitment status checked on 17 October 2026 against official notices, which change often. The examples are not an exhaustive list of sponsors, and no vacancy, admission or selection outcome is guaranteed.</p>
 HTML;
     }
 }

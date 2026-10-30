@@ -300,23 +300,11 @@ JOBHTML;
 <h3>Can I get an IT job without a degree?</h3>
 <p>Yes, especially in support. BLS says user support specialists may qualify with some college or a high school diploma plus IT certifications.</p>
 
-<h3>Is cybersecurity an entry level job?</h3>
-<p>Rarely. BLS gives a bachelor's degree plus work experience in a related occupation as the typical path into information security analysis.</p>
-
 <h3>Are IT support jobs growing?</h3>
 <p>No. BLS projects employment of computer support specialists to fall 3 per cent from 2025 to 2035, though about 48,700 openings a year will still arise from turnover.</p>
 
-<h3>What are the current CompTIA A+ exams?</h3>
-<p>The V15 exams, 220-1201 (Core 1) and 220-1202 (Core 2), launched on 25 March 2025.</p>
-
-<h3>Which certification should I get first?</h3>
-<p>CompTIA A+ for help desk roles, then Network+ or Security+ depending on whether you are aiming at networking or security.</p>
-
 <h3>Is QA testing a good entry level IT job?</h3>
 <p>It can be. The lowest-paid tenth of software QA analysts and testers earned under $61,440 and the median was $104,300, but roles are competitive.</p>
-
-<h3>What is the best first IT job?</h3>
-<p>Help desk or IT support. It has the most openings for beginners and leads to networking, systems, cloud and security roles.</p>
 
 <h2>More Job Guides</h2>
 

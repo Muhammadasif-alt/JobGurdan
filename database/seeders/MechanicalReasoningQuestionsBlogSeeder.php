@@ -122,12 +122,6 @@ class MechanicalReasoningQuestionsBlogSeeder extends Seeder
 
 <p>The maths involved is usually simple ratios, such as gear-tooth counts or lever-arm lengths; the main challenge is visualising how the system behaves. See <a href="/blog/apprenticeship-test-math-basics">apprenticeship test maths basics</a>, <a href="/blog/can-you-retake-apprenticeship-aptitude-test">retake rules</a> and the <a href="/blog/ironworker-aptitude-test-practice-guide">ironworker test guide</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Are mechanical reasoning questions hard to prepare for?</h3>
@@ -142,18 +136,6 @@ class MechanicalReasoningQuestionsBlogSeeder extends Seeder
 <h3>Can I improve quickly if I am weak here?</h3>
 <p>Yes, with focused practice. Drawing examples by hand helps more than only reading.</p>
 
-<h3>Is there math involved?</h3>
-<p>Some simple ratios, such as gear-tooth counts or lever-arm lengths. The math is usually basic.</p>
-
-<h3>Which direction does the second of two meshed gears turn?</h3>
-<p>The opposite direction to the first.</p>
-
-<h3>Does a longer lever need more or less force?</h3>
-<p>Less force, because a longer distance from the fulcrum gives more leverage.</p>
-
-<h3>Is the format the same everywhere?</h3>
-<p>No. Confirm your programme's test format before relying on a single practice guide.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -165,7 +147,6 @@ class MechanicalReasoningQuestionsBlogSeeder extends Seeder
     <li><a href="/blog/can-you-retake-apprenticeship-aptitude-test">Can You Retake the Apprenticeship Aptitude Test?</a>: retake rules</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 16 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

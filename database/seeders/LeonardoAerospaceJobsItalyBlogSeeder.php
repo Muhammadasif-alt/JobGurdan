@@ -316,20 +316,8 @@ JOBHTML;
 <h3>Do I need to speak Italian to work at Leonardo?</h3>
 <p>For most Italian vacancies, realistically yes. The large majority of adverts are written in Italian, including their requirement sections, and a few ask for native Italian.</p>
 
-<h3>How much does Leonardo pay engineers in Italy?</h3>
-<p>Leonardo publishes a Total Base Pay Range on many adverts. A live junior avionics systems engineering role at Cascina Costa showed 32.731,92 to 43.000. Read the band on the advert you are applying to.</p>
-
-<h3>Can Pakistani engineers apply to Leonardo?</h3>
-<p>Yes, Leonardo publishes no nationality bar. The practical obstacles are Italian-language requirements, the Italian visa route, and the nulla osta suspension affecting Pakistani nationals that was still being unwound in September 2026.</p>
-
-<h3>Is the Leonardo Deep Dive thesis programme open to international students?</h3>
-<p>No. Leonardo's own page states the programme is aimed only at Italian students. Officina Leonardo and the Leonardo Hackathons are marked completed.</p>
-
 <h3>Does Leonardo sponsor work visas?</h3>
 <p>Leonardo publishes nothing about visa sponsorship or relocation, and its adverts are silent on it. Ask directly, and ask specifically about the EU Blue Card, which sits outside the Italian quota system.</p>
-
-<h3>What is the EU Blue Card salary threshold in Italy?</h3>
-<p>There is no single figure in Italian law. The salary must meet the applicable national collective agreement rate and be no lower than the ISTAT average annual gross salary. The often-quoted 24,789 euros belongs to a repealed 2012 regime.</p>
 
 <h2>More Job Guides</h2>
 

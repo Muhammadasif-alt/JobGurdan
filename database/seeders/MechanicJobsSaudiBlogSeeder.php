@@ -351,18 +351,6 @@ JOBHTML;
 <h3>Who pays for the Saudi work visa and Iqama?</h3>
 <p>The employer. Article 40 of the Labour Law puts recruitment fees, Iqama and work permit fees and renewals, exit and re-entry visas and the return ticket at the end of the contract on the employer.</p>
 
-<h3>Is free accommodation guaranteed for mechanics?</h3>
-<p>Only in some workplaces. The law requires accommodation and meals in remote locations, mines, quarries and oil exploration centres. For a workshop job in a city, housing is a contract term you should get in writing.</p>
-
-<h3>How much annual leave does a mechanic get in Saudi Arabia?</h3>
-<p>At least 21 days of paid leave a year, rising to at least 30 days after five consecutive years with the same employer, under Article 109 of the Labour Law.</p>
-
-<h3>How can Pakistani mechanics check a recruitment agent?</h3>
-<p>Use only a licensed Overseas Employment Promoter, check the licence on the BE&amp;OE list or at the Protector of Emigrants office, get a receipt for every payment, and report fake agents, whose cases go to the FIA.</p>
-
-<h3>Can heavy equipment mechanics apply?</h3>
-<p>Yes. Construction, mining and industrial contractors hire them. The skills test announcement names automotive trades rather than heavy equipment, so ask which profession your visa will carry and whether it needs the certificate.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing trade and Gulf routes? These cover the rest:</p>

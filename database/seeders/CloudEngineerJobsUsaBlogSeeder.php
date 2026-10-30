@@ -285,18 +285,6 @@ JOBHTML;
 <h3>Which cloud certification should I take?</h3>
 <p>An associate-level certification on the platform your target employers actually run, backed by a project you can describe in detail. A current certificate signals current knowledge in a fast-moving field, but it does not substitute for having run something.</p>
 
-<h3>AWS or Azure?</h3>
-<p>Whichever appears in the postings you want. AWS dominates overall US listings; Azure is stronger in enterprises already committed to Microsoft, and in a great deal of government-adjacent work.</p>
-
-<h3>What actually gets a cloud engineer promoted?</h3>
-<p>Cost. It is the only part of the job with a dollar figure attached, so it is the part a manager can take to a finance meeting. Reliability matters as much and argues for itself far less.</p>
-
-<h3>Do cloud engineer jobs require a security clearance?</h3>
-<p>Federal and GovCloud roles usually do, which means US citizenship and an employer sponsor. The commercial market does not, and is larger and more remote-friendly.</p>
-
-<h3>Are these roles remote?</h3>
-<p>A large share are, particularly at mid and senior level with commercial employers. Expect an on-call rotation on most platform teams regardless of where you sit.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing the infrastructure routes? These cover them:</p>

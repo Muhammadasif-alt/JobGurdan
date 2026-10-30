@@ -277,20 +277,8 @@ JOBHTML;
 <h3>How much does a car mechanic earn in the USA?</h3>
 <p>BLS reports a May 2025 median of $50,620 a year, or $24.34 an hour. The bottom tenth earned under $34,660 and the top tenth over $81,790.</p>
 
-<h3>Do diesel mechanics earn more?</h3>
-<p>Yes. The BLS median for diesel service technicians and mechanics is $61,770, against $50,620 for automotive technicians.</p>
-
 <h3>Is mechanic demand growing in the USA?</h3>
 <p>BLS projects 5 per cent growth from 2025 to 2035, with about 66,200 openings a year.</p>
-
-<h3>How much does a mechanic earn in Australia?</h3>
-<p>Jobs and Skills Australia reports median full-time earnings of A$1,622 a week, on an average 44-hour week.</p>
-
-<h3>How much does a mechanic earn in the UK?</h3>
-<p>The National Careers Service gives &pound;22,000 for a starter and &pound;42,000 for an experienced motor mechanic.</p>
-
-<h3>How much does a mechanic earn in Canada?</h3>
-<p>Job Bank reports a national median of C$29.89 an hour, with C$35.00 in British Columbia and C$30.00 in Alberta and Ontario.</p>
 
 <h3>Is there a minimum wage for mechanics in the UAE?</h3>
 <p>No. The UAE sets no statutory minimum wage for expatriate workers, so the contract decides your pay. Salaries must be paid through the Wage Protection System.</p>

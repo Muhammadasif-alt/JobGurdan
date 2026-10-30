@@ -332,18 +332,6 @@ JOBHTML;
 <h3>Can AC technicians work on rooftops at midday in summer?</h3>
 <p>No. In the UAE, outdoor work under direct sun stops from 12:30pm to 3pm between 15 June and 15 September. Saudi Arabia bans it from noon to 3pm over the same period.</p>
 
-<h3>Is AC technician demand seasonal in the Gulf?</h3>
-<p>Yes. Breakdowns and call-outs peak in the hottest months, so maintenance contractors staff up in spring. That makes late winter and early spring a good time to apply.</p>
-
-<h3>Do Gulf AC technicians get night overtime?</h3>
-<p>Not automatically. The 50 per cent rate for work between 10pm and 4am does not apply to workers on shifts, which covers most facilities technicians. Have it written into the contract.</p>
-
-<h3>Which qualifications help most?</h3>
-<p>A trade diploma in refrigeration and air conditioning, chiller and VRF experience, and manufacturer training. These matter more than whether the job is in Dubai or Riyadh.</p>
-
-<h3>Which pays more, Dubai or Saudi Arabia?</h3>
-<p>Neither country publishes official pay data for the trade. Compare offers on the full package: basic wage, housing, transport, overtime, ticket and medical cover.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the HVAC/R cluster and the Gulf trades:</p>

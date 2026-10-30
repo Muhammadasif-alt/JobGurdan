@@ -299,18 +299,6 @@ JOBHTML;
 <h3>How many courses does a US professor teach?</h3>
 <p>Roughly two a semester at research-intensive universities, three at master's and baccalaureate institutions, and five at community colleges. Ask for the written workload assignment before accepting.</p>
 
-<h3>How long does it take to become a full professor?</h3>
-<p>Tenure and promotion to associate normally come within a probationary period of no more than seven years. Promotion to full professor has no fixed clock and commonly takes another six to ten years, if it happens at all.</p>
-
-<h3>What is the difference between a professor and a lecturer in the US?</h3>
-<p>Professor ranks are usually tenure-track or tenured. Lecturer and instructor titles are normally teaching-focused appointments outside the tenure system, averaging $84,292 and $74,087 respectively.</p>
-
-<h3>Are most US professors tenured?</h3>
-<p>Among full-time faculty, 50.7 per cent hold tenure and 18.0 per cent are on the tenure track, leaving 31.4 per cent in non-tenure-track appointments. Counting part-time staff, the non-tenured majority is much larger.</p>
-
-<h3>Is a US professor the same as a UK professor?</h3>
-<p>No. In the US it is an ordinary career rank held by many faculty. In the UK it is a senior title held by few, and the usual equivalent of a US assistant or associate professor is Lecturer or Senior Lecturer.</p>
-
 <h2>More Job Guides</h2>
 
 <p>These cover the parts of the academic career this page assumes:</p>

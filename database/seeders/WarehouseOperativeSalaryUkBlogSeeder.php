@@ -168,18 +168,6 @@ class WarehouseOperativeSalaryUkBlogSeeder extends Seeder
 <h3>Can I work as a warehouse operative in the UK from Pakistan?</h3>
 <p>Only if you already have the legal right to work. There is no standard visa for this job, and the Skilled Worker visa generally does not cover it, so be wary of paid "sponsorship" offers.</p>
 
-<h3>Are the higher rates in the table real pay rates?</h3>
-<p>They are examples of what a higher hourly rate adds up to. Only the £12.71 minimum is a legal figure, so read the rate in each job ad.</p>
-
-<h3>Is the PKR figure take-home pay?</h3>
-<p>No. It converts gross pounds at an assumed rate, before tax, expenses and transfer costs.</p>
-
-<h3>Do I get paid holiday?</h3>
-<p>Yes. A full-time worker is entitled to 5.6 weeks of statutory paid holiday a year.</p>
-
-<h3>Do foreign workers earn the same as British workers?</h3>
-<p>Yes, UK minimum wage law applies to everyone who works legally, whatever their nationality.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

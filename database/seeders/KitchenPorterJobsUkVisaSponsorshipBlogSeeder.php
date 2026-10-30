@@ -222,23 +222,11 @@ JOBHTML,
 
 <h2>Frequently Asked Questions</h2>
 
-<h3>Can I get a Skilled Worker visa as a kitchen porter?</h3>
-<p>Generally no. Kitchen porter roles are not at degree level and are not normally eligible, so legitimate UK employers cannot normally sponsor them.</p>
-
 <h3>Do UK restaurants sponsor kitchen porters?</h3>
 <p>Rarely, and only if the role qualifies under the current list. Most kitchen porter jobs are filled by people who already have the right to work.</p>
 
-<h3>How much does a kitchen porter earn in the UK?</h3>
-<p>At least the National Living Wage of £12.71 an hour for those aged 21 and over. Each advert states the actual rate.</p>
-
-<h3>Can I apply for a UK kitchen porter job from Pakistan?</h3>
-<p>You can apply, but without the right to work you cannot take the job. There is no standard visa for this role, so be cautious of agents who say otherwise.</p>
-
 <h3>Is there a UK work visa for low-skilled jobs?</h3>
 <p>No general one. The care worker route also closed to new overseas applicants on 22 July 2025.</p>
-
-<h3>Can a student visa holder work as a kitchen porter?</h3>
-<p>Yes, as an employee within the visa's hour limits, usually 20 hours a week in term time on a degree-level course.</p>
 
 <h3>Is the Youth Mobility Scheme open to Pakistanis?</h3>
 <p>No. Pakistan is not on the list of eligible countries.</p>

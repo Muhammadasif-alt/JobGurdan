@@ -187,18 +187,6 @@ class CaregiverJobsUsaVisaSponsorshipBlogSeeder extends Seeder
 <h3>Can I apply for a caregiver job from Pakistan?</h3>
 <p>You can apply for roles that offer EB-3 sponsorship, but few employers sponsor from abroad, and H-2B is not a normal option for caregivers. Verify every offer and never pay a fee.</p>
 
-<h3>How much does a caregiver earn in the USA?</h3>
-<p>The national median is $17.21 an hour or $35,800 a year (BLS, May 2025), but pay varies widely by state.</p>
-
-<h3>How long does EB-3 sponsorship take?</h3>
-<p>Years. The October 2026 Visa Bulletin final action date for EB-3 Other Workers was 1 January 2022, and the date changes every month.</p>
-
-<h3>Is there a W visa for caregivers?</h3>
-<p>Not yet. The Careworker Visa Act of 2026 is only a bill, so any offer of a W visa is a scam.</p>
-
-<h3>Who pays for the sponsorship?</h3>
-<p>The employer must pay the labor certification costs. Never pay an agent or employer for a sponsored job.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

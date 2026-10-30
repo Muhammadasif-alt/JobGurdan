@@ -315,18 +315,6 @@ JOBHTML;
 <h3>Do I need a language test for a Canadian work permit?</h3>
 <p>Not for an LMIA work permit, unless the employer asks for one. Permanent residence programs set minimum CLB scores.</p>
 
-<h3>How much does an LMIA cost, and who pays?</h3>
-<p>$1,000 per position, paid by the employer. It cannot be charged to or recovered from the worker, and neither can recruitment fees.</p>
-
-<h3>Can employers in Toronto sponsor low-wage workers?</h3>
-<p>Not for most jobs while Toronto's unemployment rate is 6% or more. It was 7.3% for applications from 10 July to 8 October 2026. Agriculture, construction, food manufacturing, hospitals and nursing care are exempt.</p>
-
-<h3>Which jobs get the most LMIA approvals?</h3>
-<p>Farm jobs. Harvesting labourers had 61,584 positions on positive LMIAs in 2025, followed by nursery and greenhouse labourers, livestock labourers, food service supervisors and cooks.</p>
-
-<h3>How many immigrants will Canada accept in 2026?</h3>
-<p>The levels plan targets 380,000 new permanent residents a year from 2026 to 2028, and 60,000 new arrivals through the Temporary Foreign Worker Program in 2026.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at a specific sponsored job in Canada? These cover it:</p>

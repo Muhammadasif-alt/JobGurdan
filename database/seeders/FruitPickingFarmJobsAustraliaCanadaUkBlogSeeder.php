@@ -296,20 +296,8 @@ JOBHTML;
 <h3>Can every nationality use every seasonal programme?</h3>
 <p>No. Australia's working holiday and PALM routes and Canada's SAWP have nationality restrictions. Canada's Agricultural Stream has different conditions.</p>
 
-<h3>Does a farm job offer guarantee a visa?</h3>
-<p>No. Recruitment and immigration approval are separate, so verify the actual route and the employer's arrangements.</p>
-
-<h3>Is accommodation always free?</h3>
-<p>No. Ask for written housing terms and lawful deductions. Arrangements vary by programme and employer.</p>
-
 <h3>How long can I work on the UK Seasonal Worker route?</h3>
 <p>Horticulture work is limited to a maximum of six months, and the route does not allow dependants or an extension from inside the UK.</p>
-
-<h3>Is piecework pay legal in Australia?</h3>
-<p>Yes, but for workers covered by the Horticulture Award piecework has a minimum wage guarantee, so pay per tray or bin does not remove that protection.</p>
-
-<h3>What does "LMIA requested" mean on Job Bank?</h3>
-<p>The employer has applied to hire a foreign worker. It is not an approval, and a work permit still has to be granted.</p>
 
 <h3>Should I pay a recruiter for a farm job abroad?</h3>
 <p>Be very careful. For the UK route, check with the approved operator before sending money, and never pay for a "guaranteed" visa.</p>

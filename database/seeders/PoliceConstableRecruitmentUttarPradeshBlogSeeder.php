@@ -134,12 +134,6 @@ class PoliceConstableRecruitmentUttarPradeshBlogSeeder extends Seeder
 
 <p>UP Police recruitment is for Indian nationals and is not open to applicants from Pakistan. If you are looking for a constable post at home, read <a href="/blog/police-constable-jobs-punjab-pakistan">Police Constable Jobs in Punjab, Pakistan</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is Class 10 alone sufficient?</h3>
@@ -154,21 +148,9 @@ class PoliceConstableRecruitmentUttarPradeshBlogSeeder extends Seeder
 <h3>What is the height requirement?</h3>
 <p>168 cm for general and OBC men, 160 cm for ST men, 152 cm for women and 147 cm for ST women, as reported. Check SC men's height in the notification.</p>
 
-<h3>What age limit applies?</h3>
-<p>The last cycle gave 22 for men and 25 for women plus a one-time three-year relaxation. The next notification sets its own limits.</p>
-
-<h3>Does passing the run guarantee selection?</h3>
-<p>No. The written merit, document verification and other conditions still apply.</p>
-
-<h3>Can I apply to the completed cycle now?</h3>
-<p>No. Registration closed on 30 January 2026. Wait for the next advertisement on the board's website.</p>
-
-<h3>Can someone from Pakistan apply?</h3>
-<p>No. This is an Indian state police recruitment for Indian nationals.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Confirm the recruitment cycle, eligibility, amendments and documents first, prepare separately for measurement and the run, and follow the board's latest notices throughout selection. This guide cannot promise selection or appointment.</p>
+<p>Confirm the recruitment cycle, eligibility, amendments and documents first, prepare separately for measurement and the run, and follow the board's latest notices throughout selection.</p>
 
 <h2>Sources</h2>
 
@@ -188,7 +170,6 @@ class PoliceConstableRecruitmentUttarPradeshBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, the warning signs of a recruitment scam.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 27 October 2026; the board's website and notification could not be opened, so the reported figures must be confirmed with the UPPRPB. It is not an announcement of open applications and does not promise selection.</p>
 HTML;
     }
 }

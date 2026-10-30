@@ -215,23 +215,11 @@ JOBHTML,
 <h3>Can I get a cleaner job in the UK without experience?</h3>
 <p>Yes, many employers train new cleaners. The challenge for people abroad is the legal right to work, not experience.</p>
 
-<h3>Can I work as a cleaner on a student visa?</h3>
-<p>Yes, as an employee within your visa's hour limits, usually 20 hours a week in term time for degree-level courses. You cannot be self-employed or take a permanent full-time role.</p>
-
-<h3>Should I pay an agent for a UK cleaner visa?</h3>
-<p>No. A job that cannot be sponsored cannot be sold to you legitimately. Treat any paid offer as a scam.</p>
-
 <h3>Can I work on a visitor visa?</h3>
 <p>No. A visitor visa does not allow you to work, and working on it can lead to a ban.</p>
 
-<h3>What is the minimum pay for a cleaner in the UK?</h3>
-<p>The National Living Wage, £12.71 an hour for workers aged 21 and over from April 2026.</p>
-
 <h3>Is the Youth Mobility Scheme open to Pakistanis?</h3>
 <p>No. Pakistan is not on the list of eligible countries.</p>
-
-<h3>How do I prove my right to work to an employer?</h3>
-<p>Most visa holders generate a share code from their online GOV.UK immigration account, and the employer checks it.</p>
 
 <h2>More Job Guides</h2>
 

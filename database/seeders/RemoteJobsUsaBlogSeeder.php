@@ -275,20 +275,8 @@ JOBHTML;
 <h3>Do remote jobs pay well in the USA?</h3>
 <p>Many do. The BLS does not track remote pay separately, but its May 2025 medians run from $44,770 for customer service representatives to $135,980 for software developers.</p>
 
-<h3>Can I get a US remote job from Pakistan?</h3>
-<p>A US company can pay you for work done from Pakistan. No Form I-9 is needed for work done outside the US, the pay is foreign-source income, and the company will ask for a Form W-8 such as the W-8BEN. Check the location line, because a posting marked remote can still require you to live in the US.</p>
-
 <h3>Do remote employees get minimum wage and overtime?</h3>
 <p>Yes, if they are employees. The Fair Labor Standards Act applies to teleworkers as it does in an office, including overtime after 40 hours. Independent contractors are not covered.</p>
-
-<h3>Can I deduct my home office if I work remotely?</h3>
-<p>Not as an employee: the IRS eliminated that deduction for tax years beginning after 2017. The self-employed can deduct $5 per square foot for up to 300 square feet.</p>
-
-<h3>How do I spot a remote job scam?</h3>
-<p>Walk away from anyone who asks you to pay for the job, training or equipment, sends a cheque and asks for money back, or offers work in an unexpected text or WhatsApp message.</p>
-
-<h3>Which remote jobs pay the most?</h3>
-<p>Among common remote occupations, software developers ($135,980), information security analysts ($129,180) and data scientists ($120,230) had the highest BLS medians in May 2025.</p>
 
 <h3>How do employers verify remote workers?</h3>
 <p>With Form I-9. Since 1 August 2023, employers enrolled in E-Verify can examine documents over a live video call; others must see them in person.</p>

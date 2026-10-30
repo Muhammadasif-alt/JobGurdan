@@ -155,14 +155,8 @@ class WarehouseOperativeJobsUkVisaSponsorshipBlogSeeder extends Seeder
 <h3>Can I get a Skilled Worker visa as a warehouse operative?</h3>
 <p>Generally no. Since 22 July 2025, new Skilled Worker jobs must be at RQF Level 6 or on a shortage list, and warehouse operative roles do not meet that standard.</p>
 
-<h3>Do UK warehouses sponsor foreign workers?</h3>
-<p>Rarely, and only for roles that qualify, such as degree-level logistics or engineering jobs. Warehouse floor jobs are not normally sponsored.</p>
-
 <h3>How much does a warehouse operative earn in the UK?</h3>
 <p>At least the National Living Wage of £12.71 an hour for those aged 21 and over. Many jobs pay somewhat more for nights, overtime or forklift work.</p>
-
-<h3>Can I apply for a UK warehouse job from Pakistan?</h3>
-<p>You can apply, but without the right to work you cannot take the job. There is no standard visa for this role, so be cautious of any agent who says otherwise.</p>
 
 <h3>Is there a UK work visa for low-skilled jobs?</h3>
 <p>No general one. The care worker route closed to new overseas applicants on 22 July 2025.</p>

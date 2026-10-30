@@ -137,12 +137,6 @@ class DataAnalystJobsDublinIrelandBlogSeeder extends Seeder
 
 <p>Then finish one portfolio project and ask someone unfamiliar with it to read your explanation. If they cannot name the business decision, simplify. Finally, rehearse a short walkthrough and apply selectively while you keep improving the project. This sequence organises your preparation; it does not promise a job in a set number of weeks.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can beginners apply for data analyst jobs in Dublin?</h3>
@@ -151,23 +145,11 @@ class DataAnalystJobsDublinIrelandBlogSeeder extends Seeder
 <h3>Is Python always mandatory?</h3>
 <p>No. Follow the vacancy's requirements while you build strong SQL and analysis fundamentals.</p>
 
-<h3>Does every role offer sponsorship?</h3>
-<p>No. Confirm eligibility and employer support for each role before you commit to relocating.</p>
-
 <h3>Are Dublin roles fully remote?</h3>
 <p>Check each advert. Hybrid working can mean regular office attendance.</p>
 
 <h3>Do I need a work permit to work in Ireland?</h3>
 <p>A non-EEA national, unless exempt, must hold a valid employment permit, according to the Irish government.</p>
-
-<h3>Does a job title decide permit eligibility?</h3>
-<p>No. The Department's guidance treats the duties of the job as the main basis for the SOC code and says the majority of tasks must fall under the selected code.</p>
-
-<h3>Where are public sector analyst jobs advertised?</h3>
-<p>publicjobs.ie advertises Civil Service and wider public sector competitions, and you can search by category and county.</p>
-
-<h3>How do I avoid a fake job offer?</h3>
-<p>Never pay for an interview, a permit or a guaranteed offer, and check the employer on its own website.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 
@@ -195,7 +177,6 @@ class DataAnalystJobsDublinIrelandBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 17 October 2026. It links official and public-sector sources; private employers are named in the text so you can search their own career pages. It does not imply visa sponsorship, a confirmed opening or guaranteed hiring.</p>
 HTML;
     }
 }

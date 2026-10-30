@@ -130,12 +130,6 @@ class NursingJobsHoustonLicensingEntryRequirementsBlogSeeder extends Seeder
 
 <p>Nurses educated outside the US apply to the Texas Board by examination with a credential evaluation, licence verification and English evidence where required. A Texas licence is not US work authorisation, and passing the NCLEX does not create a visa or a sponsorship offer. Read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before paying any agency.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is a BSN compulsory for every Houston nursing job?</h3>
@@ -150,21 +144,9 @@ class NursingJobsHoustonLicensingEntryRequirementsBlogSeeder extends Seeder
 <h3>Can I work immediately after passing the NCLEX?</h3>
 <p>Only once the Board has issued your licence or permit and the employer has cleared you.</p>
 
-<h3>Can nurses from another state work in Houston?</h3>
-<p>Yes, by Texas endorsement or with a multistate compact licence from their home state.</p>
-
-<h3>How long do I have to switch my compact licence after moving?</h3>
-<p>60 days from the move, according to the Nurse Licensure Compact.</p>
-
-<h3>When do Houston residencies take applications?</h3>
-<p>Memorial Hermann takes cohorts at least three times a year; check each system's current posting.</p>
-
-<h3>Does a Texas licence give me a US visa?</h3>
-<p>No. Licensing and immigration are separate.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Pick the right licence route, confirm your Texas authorisation, and compare each hospital's degree, GPA and experience rules before applying. Licensing, residency admission and a job offer are separate decisions. This guide cannot promise a job or a licence.</p>
+<p>Pick the right licence route, confirm your Texas authorisation, and compare each hospital's degree, GPA and experience rules before applying. Licensing, residency admission and a job offer are separate decisions.</p>
 
 <h2>Sources</h2>
 
@@ -188,7 +170,6 @@ class NursingJobsHoustonLicensingEntryRequirementsBlogSeeder extends Seeder
     <li><a href="/blog/data-entry-jobs-houston-no-experience">Data Entry Jobs in Houston</a>, another Houston entry route.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, immigration or career advice. Reviewed on 28 October 2026 against the pages named in Sources. It does not promise a job, a residency place, a licence or sponsorship.</p>
 HTML;
     }
 }

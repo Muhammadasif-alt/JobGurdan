@@ -237,20 +237,8 @@ HTML;
 <h3>Who is the largest residential care employer in Punjab?</h3>
 <p>The Child Protection and Welfare Bureau, a statutory body the Punjab Destitute and Neglected Children Act 2004 requires the Government to establish. It runs the residential Child Protection Institutions and reports 79,106 children admitted from 2004 to 2024.</p>
 
-<h3>How do I apply to a government residential institution?</h3>
-<p>Through the route named in the advert, usually the Punjab Public Service Commission or a nominated testing service, by the closing date. Adverts appear on the Bureau's own jobs page as PDFs. Applications sent directly to the department are normally not entertained.</p>
-
-<h3>Do I need a nursing degree?</h3>
-<p>Not for general residential and attendant posts. Clinical posts inside residential settings do require professional qualifications and valid registration, and that distinction is a legal one rather than a matter of experience.</p>
-
-<h3>Are night shifts common in residential care?</h3>
-<p>Yes, and they are permanent posts rather than overtime, because a residential facility is staffed around the clock. They are often the easiest vacancies to obtain, and they carry more solo responsibility than day shifts.</p>
-
 <h3>Can beginners get residential care jobs?</h3>
 <p>General support and night attendant posts are realistic entry points, and internships at specialist campuses are another. Posts involving children in protective care or clinical duties expect checks, qualifications or prior experience.</p>
-
-<h3>What should I confirm before accepting a residential post?</h3>
-<p>Exact shift times, whether sleeping is permitted and paid, overnight staffing levels, the emergency escalation route, transport at shift end, and whether the night rate differs from the day rate. Get the answers in writing where you can.</p>
 
 <h2>Related career guides</h2>
 

@@ -361,23 +361,11 @@ JOBHTML;
 <h3>What does an appointment setter actually do?</h3>
 <p>Calls people who were not expecting the call, establishes quickly whether there is a genuine need, and books a meeting for a closer to run. You are measured on meetings that are attended rather than on dials or on bookings. In Pakistan the role is usually attached to an American, British or Australian client, which is what sets the shift.</p>
 
-<h3>How much do appointment setters earn in Pakistan?</h3>
-<p>Advertised salaries in live listings on 23 September 2026 ran from PKR 30,000 to PKR 150,000 a month, clustering at PKR 50,000 to 60,000 for candidates with under a year of experience. The highest figures went to roles dialling the United States. Several listings add commission on top, usually described as uncapped and rarely quantified.</p>
-
 <h3>Do appointment setter jobs really pay $17 to $22.50 an hour?</h3>
 <p>Not in any listing we could find. We checked every dollar figure across 20 live listings on both Pakistani boards, and the only US dollar hourly rate open to a Pakistan-based setter was $3.00 an hour, attached to a role also paying milestone bonuses of $10, $25 and $465 at different stages. Treat the higher figures as unsourced until you see them in an advert you can open.</p>
 
-<h3>Is appointment setting a night shift job?</h3>
-<p>Almost always. Every listing on one board stated an evening or night shift, and most of the rest named a US, UK or Australian market, which requires one. Advertised shifts included 7:00 PM to 4:00 AM Monday to Friday on site, and US Eastern evening windows six days a week. Treat the shift as the defining condition of the role.</p>
-
 <h3>Do American calling laws apply to someone dialling from Pakistan?</h3>
 <p>Yes, by their own wording. The TCPA statute covers "any person within the United States, or any person outside the United States if the recipient is within the United States", and the FTC states that it makes no difference whether the calls originate outside the US so long as they reach US consumers. The client who commissioned the campaign carries the main liability, but the rules also reach anyone giving substantial assistance while knowing of a violation.</p>
-
-<h3>What are the US calling hours and the do-not-call rule?</h3>
-<p>Without prior consent, calls to a residence are prohibited outside 8:00 a.m. to 9:00 p.m. local time at the called person's location. The national do-not-call registry must be scrubbed using a version obtained no more than 31 days before any call, with records kept of the process. Business-to-business calls are largely exempt from both, but not from the ban on misrepresentation.</p>
-
-<h3>How long must telemarketing records be kept?</h3>
-<p>Five years. Many articles and the FTC's own older guidance page still say two years, but the rule was amended in April 2024 and now requires five years for call records, scripts and service contracts, with call times recorded to the closest second in UTC. Where the guidance page and the rule disagree, the rule governs.</p>
 
 <h3>Is appointment setting a good long-term career?</h3>
 <p>As a starting point rather than a destination. US employment in the nearest occupation, telemarketers, is projected to fall 21.4 percent between 2025 and 2035, from 60,900 to 47,800, and it requires no formal credential to enter. The step up is the closing role: sales representatives of services numbered 1.27 million in 2025, are projected to grow 2.7 percent, and carry a median wage of $69,990 against $35,450 for telemarketers.</p>

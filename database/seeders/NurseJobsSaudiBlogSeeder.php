@@ -293,23 +293,11 @@ JOBHTML;
 <h3>Is the Prometric exam the same as the SCFHS licence?</h3>
 <p>No. Prometric runs the test centres for the SCFHS classification exam. The exam is one step; the licence is SCFHS classification and registration, which also needs DataFlow verification of your documents.</p>
 
-<h3>What is DataFlow verification?</h3>
-<p>Primary source verification. DataFlow confirms your qualification, licence and experience directly with the institutions that issued them, and SCFHS relies on that report before classifying you.</p>
-
-<h3>How much do nurses earn in Saudi Arabia?</h3>
-<p>Guides quote SAR 4,000 to 6,500 a month for staff nurses and more for ICU and senior nurses. The real figure depends on your SCFHS classification, the hospital and the agency, so compare the full package line by line.</p>
-
-<h3>Is there a minimum wage for foreign nurses in Saudi Arabia?</h3>
-<p>No. There is no statutory minimum wage for expatriate workers. The SAR 4,000 figure often quoted is the threshold at which a Saudi national counts as a full employee for Saudization.</p>
-
 <h3>Can Indian nurses go to Saudi Arabia through any agency?</h3>
 <p>No. The Embassy of India in Riyadh says nurses are recruited only through eMigrate: designated agents for Ministry of Health and military hospitals, and six State-run agencies, including NORKA Roots and ODEPC, for every other hospital.</p>
 
 <h3>Is a nursing salary in Saudi Arabia tax-free?</h3>
 <p>Saudi Arabia does not tax employment income. Your home country may still tax you until you meet its non-resident rules, so check before you assume the whole salary is tax-free.</p>
-
-<h3>Do I need to speak Arabic to work as a nurse in Saudi Arabia?</h3>
-<p>Usually not. English is the working language in most hospitals, but basic Arabic helps with patients and families and counts in your favour.</p>
 
 <h2>More Job Guides</h2>
 

@@ -289,18 +289,6 @@ JOBHTML;
 <h3>Does a 482 visa lead to permanent residence?</h3>
 <p>It can. The 186 Temporary Residence Transition stream asks for 2 years of eligible sponsored employment in the 3 years before you apply.</p>
 
-<h3>What English score do I need for a 186 visa?</h3>
-<p>The Direct Entry stream needs Competent English. For IELTS, that is at least 6 in each of the four test components, not an overall score.</p>
-
-<h3>Can Pakistani citizens get a working holiday visa for Australia?</h3>
-<p>No. Pakistan is not in Australia's Working Holiday Maker program. Indian citizens can apply for the Work and Holiday (462) visa only if they are selected in the ballot.</p>
-
-<h3>How many hours can international students work in Australia?</h3>
-<p>Up to 48 hours a fortnight while the course is in session. Students studying a masters by research or a doctorate have no work limit.</p>
-
-<h3>Is there an age limit for skilled visas?</h3>
-<p>Yes. The 189 needs you to be under 45 when invited, and the 186 Direct Entry stream and the 494 usually need you to be under 45 when you apply, with some exemptions.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing countries or looking at a specific job in Australia? These cover it:</p>

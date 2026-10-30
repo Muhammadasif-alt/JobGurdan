@@ -250,23 +250,11 @@ HTML;
 <h3>Can I get a React developer job with no experience?</h3>
 <p>The occupation does not require it. The Bureau of Labor Statistics lists work experience in a related occupation as None, and on-the-job training as None, for both occupations React work is counted in. Individual employers set their own bars, but the field has no structural one.</p>
 
-<h3>Do I need a degree to be a React developer?</h3>
-<p>BLS lists a bachelor's degree as the typical entry-level education, but its web developer page says requirements "range from a high school diploma to a bachelor's degree" and that candidates "may not need specific education credentials if they can demonstrate their abilities through prior work experience or projects".</p>
-
 <h3>How much do entry level React developers earn in the USA?</h3>
 <p>There is no federal wage for a junior React title. As calibration, the lowest 10 per cent of web developers earned less than $48,100 in May 2025, and the lowest 10 per cent of software developers less than $82,460. Those are occupation-wide tenth percentiles, not entry level averages.</p>
 
-<h3>What should I build for a React portfolio?</h3>
-<p>Two or three deployed applications, built the way React currently recommends: with Next.js, React Router or Expo, or with a build tool such as Vite, Parcel or RSbuild. A deployed app that handles its own error states beats a prettier one that does not.</p>
-
-<h3>Is Create React App still fine for a portfolio project?</h3>
-<p>No. React deprecated it on 14 February 2025 and its installation page states plainly that Create React App has been deprecated. A CRA build signals out-of-date information before a reviewer reads your code.</p>
-
 <h3>Are there paid React apprenticeships in the USA?</h3>
 <p>Registered Apprenticeship covers IT and software work, and payment is a regulatory requirement: programmes must set a progressively increasing wage schedule with an entry wage not below the FLSA minimum. An unpaid apprenticeship is not a Registered Apprenticeship.</p>
-
-<h3>How long is a registered apprenticeship?</h3>
-<p>An apprenticeable occupation must require at least 2,000 hours of supervised on-the-job learning, with a recommended minimum of 144 hours of related instruction for each year.</p>
 
 <h3>Is junior different from entry level?</h3>
 <p>Mostly they are the same posting under two names, so search both. "Entry level" appears more often on graduate engineering tracks and "junior" on supervised agency work, but it is a tendency and not worth filtering on.</p>

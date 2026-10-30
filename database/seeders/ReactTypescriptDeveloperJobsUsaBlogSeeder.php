@@ -209,18 +209,6 @@ HTML;
 <h3>What is the difference between unknown and any?</h3>
 <p><code>unknown</code> accepts any value but forces you to narrow it before use. <code>any</code> turns the checker off for that value. For anything crossing a boundary, <code>unknown</code> is the correct starting point.</p>
 
-<h3>Will JavaScript ever have types built in?</h3>
-<p>There is a TC39 proposal for type annotation syntax, designed so that an engine "ignores them, treating the types as comments". It is at stage 1, so treat it as a direction rather than a plan.</p>
-
-<h3>Is TypeScript a standard like JavaScript?</h3>
-<p>No. JavaScript is standardised as ECMA-262 by Ecma International. TypeScript is maintained by Microsoft, and its own documentation notes that type annotations are not part of ECMAScript.</p>
-
-<h3>Do TypeScript roles pay more than JavaScript roles?</h3>
-<p>No federal source distinguishes them, and salary-site figures for the title move too much month to month to be reliable. Scope decides the band, not the language.</p>
-
-<h3>How do I show TypeScript experience without a job?</h3>
-<p>One project that validates its API responses at the boundary and derives its types from that validation demonstrates the thing these roles actually hire for.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

@@ -382,18 +382,6 @@ JOBHTML;
 <h3>How long is a Canadian plumbing apprenticeship?</h3>
 <p>Four to five years. Ontario requires 9,000 hours, made up of 8,280 on the job and 720 in school. Saskatchewan requires 7,200 trade hours over at least four years with four eight-week technical levels.</p>
 
-<h3>Do Express Entry trade draws give you 600 extra points?</h3>
-<p>No. Category-based rounds award no CRS points at all; they only decide who is invited, and those candidates are ranked on the score they already have. The 600 points come solely from a provincial or territorial nomination, which is granted separately.</p>
-
-<h3>Does a job offer still help a plumber under Express Entry?</h3>
-<p>For eligibility, yes; for points, no. CRS points for arranged employment were removed on 25 March 2025, but a job offer of at least one year is still one of the two ways to qualify for the Federal Skilled Trades Program.</p>
-
-<h3>What do I need for the Federal Skilled Trades Program?</h3>
-<p>Two years of full-time experience, or 3,120 hours, in the trade within the last five years; either a one-year job offer or a Canadian certificate of qualification; CLB 5 speaking and listening with CLB 4 reading and writing; and a plan to live outside Quebec. There is no education requirement.</p>
-
-<h3>Is a Certificate III in Plumbing enough to work in Australia?</h3>
-<p>No. The certificate is the trade qualification; the licence is issued separately by the state or territory regulator, and it is the licence that authorises the work. A licence from one state does not automatically authorise work in another.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the plumbing cluster, and the routes around it:</p>

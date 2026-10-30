@@ -137,12 +137,6 @@ class NurseJobsLondonOverseasRegistrationBlogSeeder extends Seeder
 
 <p>Many Pakistani nurses reach London through NHS trusts that recruit internationally. Apply only to trusts and agencies you can verify, check any agent's licence with the Bureau of Emigration and Overseas Employment, and never pay for a "guaranteed" NHS job. Read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> first.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Which English tests does the NMC accept?</h3>
@@ -154,24 +148,12 @@ class NurseJobsLondonOverseasRegistrationBlogSeeder extends Seeder
 <h3>How much does NMC registration cost from overseas?</h3>
 <p>£1,226 in total since 1 October 2026, before any resits.</p>
 
-<h3>Do I take the CBT or OSCE first?</h3>
-<p>Either order is allowed, but you must pass both.</p>
-
-<h3>Can I apply for jobs before NMC registration?</h3>
-<p>Yes, where the advert accepts registration in progress. Some posts need active registration.</p>
-
 <h3>Does every London hospital sponsor overseas nurses?</h3>
 <p>No. Check each vacancy and get written confirmation.</p>
 
-<h3>How much is the Health and Care Worker visa?</h3>
-<p>£324 for up to three years or £628 for longer.</p>
-
-<h3>Is passing the OSCE the final step?</h3>
-<p>Not always; identity checks and outstanding evidence may remain before the NMC registers you.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Follow the NMC's current route, meet the English and Test of Competence requirements, budget from the October 2026 fees and apply only to roles that match your registration status. Treat registration, the job and the visa as separate approvals. This guide cannot promise registration, a job or a visa.</p>
+<p>Follow the NMC's current route, meet the English and Test of Competence requirements, budget from the October 2026 fees and apply only to roles that match your registration status. Treat registration, the job and the visa as separate approvals.</p>
 
 <h2>Sources</h2>
 
@@ -195,7 +177,6 @@ class NurseJobsLondonOverseasRegistrationBlogSeeder extends Seeder
     <li><a href="/blog/how-to-find-job-abroad-from-pakistan-2026">How to Find a Job Abroad From Pakistan (2026)</a>, the checks before you leave.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, immigration or career advice. Reviewed on 28 October 2026 against the pages named in Sources. It does not promise registration, a job, sponsorship or a visa; fees can change.</p>
 HTML;
     }
 }

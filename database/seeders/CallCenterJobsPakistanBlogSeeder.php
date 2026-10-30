@@ -295,18 +295,6 @@ JOBHTML;
 <h3>Is PKR 30,000 a month legal for a call centre job?</h3>
 <p>No. Pakistan's minimum wage is PKR 40,000 a month for 2025-26 (PKR 37,000 in 2024-25), so a full-time role should not pay below it.</p>
 
-<h3>Can top agents really earn PKR 1 million a month?</h3>
-<p>Only rarely. That is a best case for elite commission closers in an exceptional month. A strong top agent more typically clears PKR 200,000 or more.</p>
-
-<h3>Do I need a Windows laptop, or is a Mac fine?</h3>
-<p>Many international campaigns require Windows because their dialers and softphones are Windows-only, even though mainstream CRMs run on a Mac. Check the tools before you buy hardware.</p>
-
-<h3>Are remote call centre jobs in Pakistan legitimate?</h3>
-<p>Genuine remote roles exist through established BPOs, but they need reliable wired internet, a proper headset and a verified employer. Avoid listings promising high pay for little work.</p>
-
-<h3>How do I avoid call centre job scams?</h3>
-<p>Never pay a fee, never trust a guaranteed job, and verify the company and its client. For overseas offers, check with the Bureau of Emigration and report suspicious ones to the FIA.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Exploring other ways to earn in Pakistan? These cover them:</p>

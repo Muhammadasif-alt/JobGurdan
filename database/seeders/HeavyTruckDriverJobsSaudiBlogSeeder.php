@@ -337,20 +337,8 @@ JOBHTML;
 <h3>How much do heavy truck drivers earn in Saudi Arabia?</h3>
 <p>It depends entirely on the contract. Third-party aggregators (not official) estimate roughly SAR 1,500-2,500 for local delivery, SAR 2,500-4,000 for regional routes and SAR 4,500-7,000+ for long-haul, often plus accommodation and flights.</p>
 
-<h3>Do I need a special licence for heavy trucks?</h3>
-<p>Yes: the Saudi public / heavy-transport licence, not the private-car licence. Its minimum age is higher than 18 (commonly cited as 20 to 22); confirm the exact figure with Absher.</p>
-
-<h3>Are foreign truck drivers still allowed in Saudi Arabia?</h3>
-<p>Heavy and long-haul truck driving remains open to expatriates as of September 2026. App-based ride-hailing (Uber, Careem) is closed, reserved for Saudi nationals since 2021, and further localisation is planned for 2026-2028, so check the current rules.</p>
-
-<h3>How is my salary protected?</h3>
-<p>Through the Wage Protection System (WPS). Whatever your contract states must be paid through WPS, on time and in full, and the ministry can act against employers who underpay or delay.</p>
-
 <h3>How do I apply without being scammed?</h3>
 <p>Use a licensed recruitment agency together with your country's official emigration system (Pakistan's BEOE, India's eMigrate). Musaned is for domestic workers, not drivers. Never pay an illegal recruitment fee.</p>
-
-<h3>Can I change employers once I am there?</h3>
-<p>Since the Labour Reform Initiative of 14 March 2021, private-sector expat workers can transfer to a new employer on contract expiry and request exit/re-entry and final-exit through Absher and Qiwa under stated conditions.</p>
 
 <h2>More Job Guides</h2>
 

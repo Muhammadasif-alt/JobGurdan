@@ -272,23 +272,11 @@ JOBHTML;
 <h3>How much do unskilled workers earn in the USA?</h3>
 <p>Broadly $14 to $25 an hour, but on sponsored routes the figure is not the employer's choice: H-2A pays at least the state Adverse Effect Wage Rate and H-2B at least a Department of Labor prevailing wage for that occupation and area. Both are published, so you can check what a job must pay.</p>
 
-<h3>How can I get an unskilled job in the USA as a foreigner?</h3>
-<p>Through employer sponsorship on H-2A for seasonal farm work, H-2B for seasonal non-farm work, or EB-3 &quot;other workers&quot; for permanent roles. You cannot apply for these visas without an employer petition, and you may not be charged a recruitment fee for one.</p>
-
-<h3>How long does the EB-3 other worker green card take?</h3>
-<p>Longer than commonly advertised. The category is retrogressed for every country of birth, with final action dates in early 2026 ranging from November 2013 for India to 2023 for the Philippines and Mexico, and &quot;other workers&quot; moves more slowly than the rest of EB-3. Check the current Visa Bulletin rather than any quoted timeline.</p>
-
 <h3>Which unskilled jobs include free housing and flights?</h3>
 <p>H-2A agricultural jobs must provide housing at no cost and reimburse inbound and outbound travel: that is a programme requirement. On H-2B it varies by employer and should be confirmed in writing before you accept.</p>
 
-<h3>Can I be asked to pay for a US job offer or visa?</h3>
-<p>No. Both the H-2A and H-2B programmes prohibit charging workers recruitment fees, and petition costs belong to the employer. Any request for payment to secure an offer, an appointment or a place on a list is the fraud this category attracts.</p>
-
 <h3>Is there a cap on these visas?</h3>
 <p>H-2A has no annual cap. H-2B is capped at 66,000 a year across two half-year allocations, with supplemental releases in some years, and demand regularly exhausts it, so applying early in the cycle genuinely matters.</p>
-
-<h3>Can a seasonal visa lead to a green card?</h3>
-<p>Not on its own. H-2A and H-2B are temporary and employer-tied. A move to permanent residence needs a separate employer petition on an immigrant route such as EB-3, with its own timeline.</p>
 
 <h3>What is the easiest unskilled job to get sponsored?</h3>
 <p>Seasonal agricultural work through H-2A, because there is no annual cap and the volume is the largest. Dishwashing, housekeeping and groundskeeping on H-2B are next, subject to the cap.</p>

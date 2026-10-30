@@ -211,18 +211,6 @@ HTML;
 <h3>Why doesn't setTimeout with zero delay run immediately?</h3>
 <p>Partly because the callback is queued rather than called, and partly because the HTML Standard clamps nested timers: after five nested timers the interval is forced to at least four milliseconds.</p>
 
-<h3>What is the difference between a task and a microtask?</h3>
-<p>Both are concepts from the HTML Standard rather than from the language. Promise callbacks are processed as microtasks and run before the next task, which is why a resolved promise runs ahead of a zero-delay timer.</p>
-
-<h3>Do I need jQuery for a modernisation role?</h3>
-<p>You need to be able to read it, which is not the same as writing it. The skill these roles actually test is reading unfamiliar code and making two paradigms coexist safely.</p>
-
-<h3>Is modernisation work bad for my career?</h3>
-<p>No. It teaches you to read code you did not write and to migrate without regressions, which transfers to every codebase. It is also more often open to candidates without a long CV.</p>
-
-<h3>Does this title pay differently?</h3>
-<p>There is no separate federal wage for it. It sits in the same occupations as the rest of React work, which the main React guide explains, and the scope of the role rather than the title decides the band.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

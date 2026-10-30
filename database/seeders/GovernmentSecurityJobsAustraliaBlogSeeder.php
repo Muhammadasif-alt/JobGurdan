@@ -294,18 +294,6 @@ JOBHTML;
 <h3>What security clearance do I need?</h3>
 <p>It depends on the role. Home Affairs requires at least a Baseline clearance for all staff, while ASIO requires TOP SECRET-Privileged Access.</p>
 
-<h3>Can I get a security clearance before I apply for a job?</h3>
-<p>No. The agency or employer that hires you sponsors the clearance during recruitment.</p>
-
-<h3>Do I need a degree for a government security job?</h3>
-<p>Not for all of them. AFP protective service officers need no degree, while graduate intelligence pathways such as the AGGP Intelligence Stream require a bachelor degree or higher.</p>
-
-<h3>How long does recruitment take?</h3>
-<p>The AFP's PSO process often takes 6 to 9 months, and ASD says its process can take 3 to 18 months because of suitability and clearance checks.</p>
-
-<h3>Where do I apply for government security jobs?</h3>
-<p>On APSJobs and on each agency's official careers site: AFP, Home Affairs, ASIO, ASD and Defence.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing security and law enforcement careers? These cover it:</p>

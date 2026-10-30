@@ -296,20 +296,8 @@ JOBHTML;
 <h3>Which states employ the most registered nurses?</h3>
 <p>California, Texas, Florida, New York and Pennsylvania, in that order.</p>
 
-<h3>Can I use a multistate license in California or New York?</h3>
-<p>No. Neither state is in the Nurse Licensure Compact, so you need a license from each. A multistate license is also only issued if your primary state of residence is a compact state.</p>
-
-<h3>How much does the NCLEX-RN cost?</h3>
-<p>$200, plus $150 to test outside the US. The US registration fee rises to $350 on 1 February 2027.</p>
-
 <h3>Can I take the NCLEX in Pakistan?</h3>
 <p>Yes. Pakistan is on the NCSBN's list of international testing locations, along with India and the Philippines.</p>
-
-<h3>How much do travel nurses make?</h3>
-<p>No official source publishes travel nurse pay. Weekly figures include stipends, and untaxed stipends depend on keeping a genuine tax home under IRS rules.</p>
-
-<h3>How many hours do I need for the CCRN?</h3>
-<p>1,750 hours of direct care of acutely or critically ill adults in the previous two years, with 875 in the most recent year, or 2,000 hours over five years with 144 in the most recent year.</p>
 
 <h2>More Job Guides</h2>
 

@@ -162,18 +162,6 @@ class WhatIsWorkPermitBlogSeeder extends Seeder
 <h3>What is an open work permit?</h3>
 <p>A permit that is not tied to one employer, with its own eligibility rules, as in Canada.</p>
 
-<h3>Is a work permit permanent residence?</h3>
-<p>No. Permanent residence has separate eligibility requirements.</p>
-
-<h3>Is every work permit a separate card?</h3>
-<p>No. Documents and digital proof differ between countries.</p>
-
-<h3>Does a work permit allow me to practise a regulated profession?</h3>
-<p>No. Registration with the professional regulator is a separate step.</p>
-
-<h3>Can an agent guarantee a permit?</h3>
-<p>No. Only the government authority decides.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -185,7 +173,6 @@ class WhatIsWorkPermitBlogSeeder extends Seeder
     <li><a href="/blog/english-language-requirements-working-abroad">English Language Requirements for Working Abroad</a>: tests and exemptions</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

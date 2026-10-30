@@ -284,18 +284,6 @@ Offer B: <strong>AED 1,200 basic plus AED 800 in allowances</strong>, same accom
 <h3>How is end-of-service gratuity calculated in the UAE?</h3>
 <p>On basic salary alone under Federal Decree-Law No. 33 of 2021. Housing, transport and other allowances are excluded. Eligibility begins after one year of continuous service, the total is capped at two years' wage, and final dues are payable within 14 days.</p>
 
-<h3>Should I accept a lower basic salary for better allowances?</h3>
-<p>It is fine for monthly cash flow and costly for gratuity. AED 1,200 basic plus AED 800 allowances builds gratuity on a base 40 per cent smaller than AED 2,000 basic, for the same monthly total.</p>
-
-<h3>Who pays for SIRA or PSBD training?</h3>
-<p>Many larger facilities management and manned guarding companies sponsor it as part of onboarding. Confirm it at interview and get it in writing rather than paying out of pocket first.</p>
-
-<h3>Do security guard jobs in the UAE include visa and accommodation?</h3>
-<p>Commonly yes: employment visa, shared accommodation, transport to site and medical insurance are frequently included. Ask specifically how many share a room and whether transport is provided or deducted.</p>
-
-<h3>What working hours should I expect?</h3>
-<p>Manned guarding commonly runs twelve-hour shifts. A monthly salary quoted against a twelve-hour day is a very different rate from the same figure against eight hours, so ask about shift length, days off and how overtime is treated.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing Gulf routes and other markets? These cover them:</p>

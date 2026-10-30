@@ -304,18 +304,6 @@ JOBHTML;
 <h3>How do I become a Nationally Certified School Nurse?</h3>
 <p>Through NBCSN. You need an RN license, a bachelor's degree in nursing or a qualifying master's, and at least 1,000 hours of school nursing in the three years before the exam.</p>
 
-<h3>How much does the NCSN exam cost?</h3>
-<p>The 2026 application fee is $380 early bird or $400 regular, with a $50 late fee.</p>
-
-<h3>Do all schools have a nurse?</h3>
-<p>No. The National School Nurse Workforce Study 2.0 found 65.7 per cent of schools had a full-time nurse and 18.1 per cent had no paid nurse.</p>
-
-<h3>Do school nurses get summers off?</h3>
-<p>Many work a school-year contract with summers off, but that contract usually pays for fewer working days than a hospital job.</p>
-
-<h3>Can an LPN or ADN nurse work as a school nurse?</h3>
-<p>An ADN-prepared RN can in states without a bachelor's requirement. Some districts also hire LPNs as health aides under an RN's supervision, but the school nurse title usually requires an RN.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing nursing and school jobs? These cover them:</p>

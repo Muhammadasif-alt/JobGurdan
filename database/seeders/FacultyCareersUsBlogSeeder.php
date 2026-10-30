@@ -348,18 +348,6 @@ JOBHTML;
 <h3>Do you need a PhD for a faculty job?</h3>
 <p>For tenure-track posts at four-year institutions, almost always, and usually in hand by the start date. Community colleges commonly hire with a master's in the discipline, and professional fields may accept a terminal professional qualification plus experience.</p>
 
-<h3>What is the tenure clock?</h3>
-<p>The probationary period before a tenure decision. The AAUP standard, followed by most US institutions, is that it should not exceed seven years, with the decision taken in the final year.</p>
-
-<h3>What proportion of US faculty are tenured?</h3>
-<p>A minority. On AAUP figures, 68.2 per cent of faculty appointments are contingent and 48.6 per cent are part-time, so most people teaching in US higher education are not on a tenure track at all.</p>
-
-<h3>What does an adjunct get paid per course?</h3>
-<p>An average of $4,093 a section on AAUP figures. Eight sections across an academic year comes to roughly $32,700 before tax, usually with no benefits.</p>
-
-<h3>Can faculty members work fully remotely?</h3>
-<p>Sometimes, but the limit is regulatory rather than academic. The institution must be authorised to operate and to run payroll in your state, which is why online faculty adverts list eligible states.</p>
-
 <h2>More Job Guides</h2>
 
 <p>These go deeper on the parts of academic work this page summarises:</p>

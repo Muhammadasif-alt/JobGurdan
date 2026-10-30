@@ -282,23 +282,11 @@ JOBHTML;
 <h3>How old do you have to be to work at Walmart?</h3>
 <p>Walmart does not publish a single minimum age, and its live postings carry a line stating you must be at least 18. Requirements vary by role and state, so check the individual posting.</p>
 
-<h3>Does Walmart pay for your degree?</h3>
-<p>Yes. Live Better U covers 100% of tuition, fees and books at partner schools with no cap, and you are eligible from your first day. It excludes people who already have a bachelor's degree.</p>
-
-<h3>When does the Walmart associate discount start?</h3>
-<p>After 90 days. It is 10% on general merchandise and most food, extends to a spouse or domestic partner, and becomes a lifetime benefit after twenty years of service.</p>
-
 <h3>Does Walmart give bonuses to hourly workers?</h3>
 <p>Yes. Hourly store associates can receive an annual cash bonus of up to $1,000, scaled by length of service and store performance.</p>
 
 <h3>How long does Walmart take to hire?</h3>
 <p>Walmart says it aims to respond to applicants within a week of submission. The full process through interview and orientation depends on the store's staffing needs.</p>
-
-<h3>Do I need experience to work at Walmart?</h3>
-<p>No, not for most entry-level store roles. Stocking roles do expect you to lift boxes over 25 pounds, and front-end roles benefit from any customer service background.</p>
-
-<h3>Can Walmart associates become managers?</h3>
-<p>Walmart says approximately 75% of its salaried store, club and supply chain leaders began as hourly associates, with a published store manager base range of $95,000 to $170,000.</p>
 
 <h2>More Job Guides</h2>
 

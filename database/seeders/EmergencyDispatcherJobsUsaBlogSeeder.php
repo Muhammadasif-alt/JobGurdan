@@ -363,18 +363,6 @@ JOBHTML;
 <h3>What tests do 911 dispatchers take?</h3>
 <p>Usually a typing test, often 30 words per minute, plus a dispatcher skills or written test such as CritiCall, the Entry Level Dispatcher Selection Battery or a civil service exam. Background, drug, hearing and psychological checks often follow.</p>
 
-<h3>How long is 911 dispatcher training?</h3>
-<p>Months. Los Angeles County Fire trains for about 10 months, Denver's academy runs 11 weeks in class plus 13 weeks on the job, and NYC has an 18-month probation.</p>
-
-<h3>Do emergency dispatchers work nights and weekends?</h3>
-<p>Yes. 911 centers run 24 hours a day, so rotating shifts that include nights, weekends and holidays are normal, and overtime can be mandatory.</p>
-
-<h3>Can foreign workers apply for 911 dispatcher jobs?</h3>
-<p>Only with existing US work authorization. Employers such as NYC require proof of your right to work before hiring, and none of the postings reviewed offer visa sponsorship.</p>
-
-<h3>Where can I find legitimate emergency dispatcher jobs?</h3>
-<p>On official city and county career sites, such as City of Houston jobs, NYC Exams for Jobs, Los Angeles County jobs, Seattle CARE jobs and Denver's Department of Safety jobs.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing public safety and phone-based careers? These cover it:</p>

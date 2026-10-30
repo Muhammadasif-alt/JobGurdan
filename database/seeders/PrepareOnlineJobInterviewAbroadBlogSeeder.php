@@ -145,18 +145,6 @@ class PrepareOnlineJobInterviewAbroadBlogSeeder extends Seeder
 <h3>Does an interview guarantee sponsorship?</h3>
 <p>No. Ask about the employer's actual process and the immigration route.</p>
 
-<h3>What if the connection fails?</h3>
-<p>Use the verified backup contact and explain promptly.</p>
-
-<h3>How do I handle the time zone?</h3>
-<p>Confirm the date with a calendar and write it in Pakistan time too.</p>
-
-<h3>Should I ask about pay?</h3>
-<p>At an appropriate stage, and get any important terms in writing.</p>
-
-<h3>Is a video interview a sign the job is real?</h3>
-<p>Not by itself. Verify the employer separately.</p>
-
 <h3>Should I send documents after the call?</h3>
 <p>Only to a verified employer contact and only what is needed.</p>
 
@@ -171,7 +159,6 @@ class PrepareOnlineJobInterviewAbroadBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

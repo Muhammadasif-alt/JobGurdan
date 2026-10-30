@@ -126,12 +126,6 @@ class FrontEndDeveloperJobsManchesterEnglandBlogSeeder extends Seeder
 
 <p>Practise explaining a layout bug, a JavaScript interaction and a decision you made in a project. Explain your approach instead of guessing when you do not know an answer. Before an assessment, clarify its scope, deadline and allowed tools, and ask about mentoring, code review and what you will do in your first months.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Do I need a degree to be a front-end developer?</h3>
@@ -140,20 +134,8 @@ class FrontEndDeveloperJobsManchesterEnglandBlogSeeder extends Seeder
 <h3>Is React compulsory?</h3>
 <p>Only where the employer requires it. Build strong HTML, CSS and JavaScript foundations, then learn the tools your target vacancies ask for.</p>
 
-<h3>Can I apply without commercial experience?</h3>
-<p>Look for genuinely junior or trainee roles. Explain personal projects clearly and show that you can learn, communicate and finish tasks.</p>
-
-<h3>How can I improve after a rejection?</h3>
-<p>Check whether your applications matched the essential requirements, ask for feedback where it is offered, fix portfolio problems and practise explaining your decisions. Look for patterns across several responses before changing your plan.</p>
-
 <h3>What does a front-end developer earn in the UK?</h3>
 <p>The National Careers Service gives £27,000 for starters up to £60,000 for experienced workers, as national guidance.</p>
-
-<h3>Can I start with an apprenticeship?</h3>
-<p>Yes. The National Careers Service lists apprenticeships from Level 3 to degree level. Search Find an apprenticeship and read each entry requirement.</p>
-
-<h3>Is the Booking.com apprenticeship open?</h3>
-<p>Its page says it is not accepting applications for 2026, so watch for later announcements.</p>
 
 <h3>Do I need to live in Manchester?</h3>
 <p>Check each advert. Some roles are hybrid with set office days, and a remote label may still have location limits.</p>
@@ -185,7 +167,6 @@ class FrontEndDeveloperJobsManchesterEnglandBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 17 October 2026. It links official and public-sector sources; private employers are named in the text so you can search their own career pages. It does not imply visa sponsorship, a confirmed opening or guaranteed hiring.</p>
 HTML;
     }
 }

@@ -359,20 +359,8 @@ JOBHTML;
 <h3>What is the EU Blue Card salary threshold for engineers in 2026?</h3>
 <p>50,700 euros gross a year standard, or 45,934.20 euros for shortage occupations and for anyone who graduated within the last three years. Engineering is on the official shortage list, so the lower figure normally applies.</p>
 
-<h3>Do I need German to work at Siemens in Germany?</h3>
-<p>Not for the visa: the government's own January 2026 chart says there is no legal requirement for a work visa or EU Blue Card. For the job, very often yes, because a large share of Siemens' German adverts are written in German.</p>
-
 <h3>Does Siemens sponsor work visas?</h3>
 <p>Siemens publishes nothing about it, in any of its careers material or its job adverts. Ask the recruiter directly. It is neither promised nor refused in writing.</p>
-
-<h3>Can I send Siemens a speculative application?</h3>
-<p>No. Siemens' German FAQ states it currently accepts no speculative applications. Apply to specific vacancies instead.</p>
-
-<h3>Do I need my engineering degree recognised in Germany?</h3>
-<p>To work, usually not. To use the protected title "Ingenieur", yes. For the visa, an anabin extract or a ZAB Statement of Comparability is what is needed, and the portal states an anabin extract is sufficient evidence for entry.</p>
-
-<h3>Is Siemens cutting engineering jobs in Germany?</h3>
-<p>Siemens announced measures in automation affecting about 2,600 jobs in Germany by the end of fiscal 2027, while ruling out operational layoffs. It published no engineering-specific figure, and German headcount held roughly steady at 86,401 at the end of fiscal 2025.</p>
 
 <h2>More Job Guides</h2>
 

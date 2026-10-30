@@ -305,18 +305,6 @@ JOBHTML;
 <h3>Is an annual air ticket a legal right in the UAE?</h3>
 <p>No. The law requires the employer to pay the repatriation ticket at the end of employment; an annual ticket is a contract term.</p>
 
-<h3>How is end-of-service gratuity calculated?</h3>
-<p>On basic salary alone: 21 days for each of the first five years and 30 days for each year after, capped at two years' wage.</p>
-
-<h3>What are the overtime limits for security jobs in the UAE?</h3>
-<p>Overtime is capped at two hours a day and 144 hours in any three weeks, paid at a premium on basic wage.</p>
-
-<h3>Do I need five years of experience for CISSP?</h3>
-<p>Yes, five years of cumulative paid work in two or more of the eight domains, with one year waivable. Without it you become an Associate of ISC2.</p>
-
-<h3>Can I get a security licence before I have a job?</h3>
-<p>Usually not. Individual licences are processed through a licensed security company for a specific emirate and role category.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing security and UAE jobs? These cover them:</p>

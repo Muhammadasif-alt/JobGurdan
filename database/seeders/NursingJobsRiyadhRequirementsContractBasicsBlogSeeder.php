@@ -112,12 +112,6 @@ class NursingJobsRiyadhRequirementsContractBasicsBlogSeeder extends Seeder
 
 <p>Article 40 of the Labour Law, as published by HRSD, says the employer bears the non-Saudi worker's recruitment fees, residence fees, work permit and their renewal, fines caused by the employer, change-of-profession and exit and re-entry fees, and the worker's return ticket home at the end of the contract. That does not automatically cover your SCFHS, DataFlow or Prometric fees, so ask about those separately and keep receipts for everything. Source: <a href="https://www.hrsd.gov.sa/en/knowledge-centre/articles/64434" rel="noopener">HRSD: What does the employer bear?</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I begin classification from Pakistan?</h3>
@@ -132,21 +126,9 @@ class NursingJobsRiyadhRequirementsContractBasicsBlogSeeder extends Seeder
 <h3>Does DataFlow completion guarantee a licence?</h3>
 <p>No. It is one step; SCFHS still decides classification and registration.</p>
 
-<h3>Where do I book the SCFHS exam?</h3>
-<p>Through Prometric, from the SCFHS classification exams page.</p>
-
-<h3>Do I need IELTS for KFSHRC?</h3>
-<p>KFSHRC uses its own English test; candidates with IELTS 5.5 or above are exempt.</p>
-
-<h3>Who pays the visa and residence fees?</h3>
-<p>The employer, under Article 40 of the Labour Law, along with recruitment and work permit fees.</p>
-
-<h3>How long can probation last?</h3>
-<p>Up to 180 days under the amended Labour Law, and it must be written in the contract.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Start SCFHS classification early, get your documents verified, apply through verified hospital channels and read the full contract before you travel. Keep professional approval, the job and the visa separate, and guaranteed pay separate from optional benefits. This guide cannot promise a job, a licence or sponsorship.</p>
+<p>Start SCFHS classification early, get your documents verified, apply through verified hospital channels and read the full contract before you travel. Keep professional approval, the job and the visa separate, and guaranteed pay separate from optional benefits.</p>
 
 <h2>Sources</h2>
 
@@ -170,7 +152,6 @@ class NursingJobsRiyadhRequirementsContractBasicsBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, the warning signs of a recruitment scam.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, immigration or career advice. Reviewed on 28 October 2026 against the pages named in Sources. Labour Law provisions apply to employment under that law. It does not promise a job, a licence, a package or sponsorship.</p>
 HTML;
     }
 }

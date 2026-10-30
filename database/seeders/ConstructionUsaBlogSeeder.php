@@ -243,9 +243,6 @@ JOBHTML;
 <h3>Do I need a U.S. trade license to work construction here?</h3>
 <p>It depends on the trade and state. General labor roles usually don't require licensing, but electrical, plumbing, and some HVAC work require state-specific licenses regardless of visa status.</p>
 
-<h3>Can H-2B construction work lead to a green card later?</h3>
-<p>Not directly. H-2B is a temporary, non-immigrant visa. Some workers later pursue EB-3 sponsorship, either with the same employer or a new one, but that's a separate application process.</p>
-
 <h3>Is "construction jobs with visa sponsorship" a common scam target?</h3>
 <p>Yes: be wary of listings that guarantee sponsorship with no experience, ask for upfront payment, or can't be matched to a verifiable, licensed contractor.</p>
 

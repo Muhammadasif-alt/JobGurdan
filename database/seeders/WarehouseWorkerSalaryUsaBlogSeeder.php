@@ -165,20 +165,8 @@ class WarehouseWorkerSalaryUsaBlogSeeder extends Seeder
 <h3>Do warehouse workers get overtime pay?</h3>
 <p>Most do. Federal law generally requires one and a half times the regular rate after 40 hours in a workweek, and some states have extra rules.</p>
 
-<h3>Is the median the same as the average?</h3>
-<p>No. The median was $19.35 an hour and the mean was $20.32.</p>
-
-<h3>Is the PKR figure take-home pay?</h3>
-<p>No. It converts gross dollars at an assumed rate, before expenses and transfer costs.</p>
-
 <h3>Can I get a warehouse job in the USA from Pakistan?</h3>
 <p>The country lists were removed in January 2025, so you need an employer that recruits from Pakistan, an approved petition and a visa decision. The process is in the Pakistan guide.</p>
-
-<h3>Does a seasonal contract pay a full year?</h3>
-<p>No. Use the contract's dates and hours to calculate what the season will pay.</p>
-
-<h3>Do night shifts pay more?</h3>
-<p>Often, but it depends on the employer. Check the job order.</p>
 
 <h2>More Job Guides</h2>
 

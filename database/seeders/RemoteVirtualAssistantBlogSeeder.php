@@ -297,23 +297,11 @@ JOBHTML;
 <h3>What should a beginner charge?</h3>
 <p>Do not price from the $10 to $20 figure without reading the caveat above it. Set your take-home first, then add the platform fee on top.</p>
 
-<h3>Is there an official virtual assistant salary?</h3>
-<p>No. There is no government occupation by that name. The closest official medians for May 2025 are $47,540 for administrative assistants and $76,590 for executive assistants.</p>
-
-<h3>What do Upwork and Fiverr charge?</h3>
-<p>Upwork charges a freelancer service fee of 0% to 15% per contract, plus $0.15 per Connect. Fiverr takes a 20% commission on your earnings.</p>
-
 <h3>Do virtual assistant jobs pay more in the UK?</h3>
 <p>ONS puts personal assistants and other secretaries at a median of &pound;25,233 for all employees and &pound;34,954 full-time, with the 90th percentile at &pound;48,675. Claims of &pound;60,000 and above sit outside that range.</p>
 
-<h3>Is virtual assistant work growing?</h3>
-<p>The occupation it sits closest to is projected to decline 2% to 2035, but with about 314,400 openings a year from turnover, and the remote share of admin work is high.</p>
-
 <h3>What tax do I pay as a freelance VA?</h3>
 <p>In the US, self-employment tax of 15.3% and a return once net earnings reach $400. In the UK, Self Assessment once you earn over &pound;1,000, and VAT registration above &pound;90,000.</p>
-
-<h3>How do I avoid VA scams?</h3>
-<p>Follow the FTC rule: honest employers never ask you to pay to get a job. Avoid upfront fees, equipment payments and cheque overpayments.</p>
 
 <h2>More Job Guides</h2>
 

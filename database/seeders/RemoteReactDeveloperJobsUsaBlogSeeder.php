@@ -277,18 +277,6 @@ HTML;
 <h3>Can I deduct my home office as a remote employee?</h3>
 <p>No. The IRS is explicit that employees are not eligible for the home office deduction. Self-employed people can claim it if the space passes the exclusive use and regular use tests, with a simplified option of $5 per square foot up to 300 square feet.</p>
 
-<h3>Which US states have no income tax?</h3>
-<p>Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas, Washington and Wyoming. Washington introduces a 9.9 per cent tax on adjusted gross income above $1 million from 1 January 2028.</p>
-
-<h3>Why do remote job adverts limit which states you can live in?</h3>
-<p>Because a remote employee can create tax nexus for the employer in that state, obliging it to register, file and withhold there. The federal protection in P.L. 86-272 covers tangible goods and does not help a software employer.</p>
-
-<h3>What is an employer of record?</h3>
-<p>A commercial service, not a legal status. Neither the IRS nor the Department of Labor defines the term. The comparable official status is the IRS Certified Professional Employer Organization under section 7705.</p>
-
-<h3>When are quarterly estimated taxes due?</h3>
-<p>15 April, 15 June, 15 September and 15 January, covering unevenly sized periods. Estimated payments are required if you expect to owe $1,000 or more when the return is filed.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

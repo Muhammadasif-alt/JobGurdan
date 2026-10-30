@@ -264,18 +264,6 @@ JOBHTML;
 <h3>Does a staff discount count towards the minimum wage?</h3>
 <p>No. The minimum wage is a cash rate for each hour worked. Discounts, bonuses and other benefits in kind sit on top of it and cannot be used to make up a shortfall.</p>
 
-<h3>Can my employer deduct the cost of a uniform from my wages?</h3>
-<p>Not if the deduction takes your pay below the minimum wage for the hours you worked. The same applies to deductions for till shortfalls or breakages. A lawful headline rate can become an unlawful actual rate this way.</p>
-
-<h3>Do I need qualifications to be a store assistant?</h3>
-<p>Generally no. Most retailers train on the job and treat GCSE maths and English as useful rather than essential. The one legal requirement is that your employer completes a right to work check before your first shift.</p>
-
-<h3>Can I ask for set shifts instead of a changing rota?</h3>
-<p>You can make a statutory flexible working request from your first day, twice in any 12-month period. Your employer must consult you before refusing and must respond within two months, but it can still refuse for any of eight business reasons.</p>
-
-<h3>Do store assistants get paid more for evenings, weekends and bank holidays?</h3>
-<p>Only if the contract says so. Premium rates for unsocial hours are contractual in the UK, not statutory, so check whether they exist before accepting a role built around those shifts.</p>
-
 <h3>What can a store assistant job lead to?</h3>
 <p>Retail promotes from the shop floor, so the route to supervisor, assistant manager and store manager is a normal one. The skills also transfer directly into customer service, warehousing, hospitality and administrative work.</p>
 

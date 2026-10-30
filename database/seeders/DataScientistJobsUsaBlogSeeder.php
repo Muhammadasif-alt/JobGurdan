@@ -295,18 +295,6 @@ JOBHTML;
 <h3>Is data science still growing as a career?</h3>
 <p>Yes, and strongly. Employment is projected to grow 34 per cent between 2024 and 2034, with about 23,400 openings a year, against data entry work in the same country falling 25.9 per cent over the same decade.</p>
 
-<h3>What is the difference between a data scientist and a data engineer?</h3>
-<p>A data scientist builds models and runs experiments; a data engineer builds and maintains the pipelines and warehouses that feed them, and rarely builds models. They are separate occupations frequently advertised under one title.</p>
-
-<h3>What skill do data science candidates most underestimate?</h3>
-<p>SQL. It appears in nearly every screening round, and candidates who spent their preparation on machine learning are the ones who fail it.</p>
-
-<h3>Are data scientist jobs remote?</h3>
-<p>Many mid-to-senior roles are fully remote. Entry-level positions are much less likely to be, because early learning depends on working alongside a team.</p>
-
-<h3>Can I get H-1B sponsorship as a data scientist?</h3>
-<p>It is one of the better-placed occupations for it, and larger technology, finance and pharmaceutical employers do sponsor. The route runs through an annual lottery rather than on merit, and government or defence work is often clearance-gated, which requires citizenship.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing technical career paths? These cover them:</p>

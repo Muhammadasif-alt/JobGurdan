@@ -286,18 +286,6 @@ JOBHTML;
 <h3>Is it true industrial electricians earn 30 to 40 per cent more?</h3>
 <p>Not as a rule. The official data shows a gap of about 17 per cent in general manufacturing and about 70 per cent in petroleum refining, compared with residential building construction.</p>
 
-<h3>How much does a house wiring electrician earn in the US?</h3>
-<p>BLS reported a $63,580 median for electricians employed by residential builders and $61,570 for electrical contractors, who employ most electricians who wire homes.</p>
-
-<h3>What is an inside wireman?</h3>
-<p>A union journeyman electrician trained through an IBEW and NECA apprenticeship, typically five years with at least 8,000 on-the-job hours, working on commercial and industrial installations.</p>
-
-<h3>Does the training differ between industrial and residential electricians?</h3>
-<p>The starting route is the same four- or five-year apprenticeship and state licence. Industrial electricians add motor control, drives and PLC skills afterwards.</p>
-
-<h3>Does overtime count in these pay figures?</h3>
-<p>No. The BLS medians are straight-time pay. Industrial shift work often adds time-and-a-half overtime under the Fair Labor Standards Act, which widens the real gap.</p>
-
 <h3>What does wireman mean in Gulf job adverts?</h3>
 <p>A general trade title for an electrician working on building wiring, often asking for an ITI-type trade certificate. It is not a licence grade.</p>
 

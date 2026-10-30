@@ -254,18 +254,6 @@ JOBHTML;
 <h3>Do I need a degree to become a site supervisor?</h3>
 <p>Not usually. Many supervisors come up from a trade. A diploma in civil or building works helps, especially for larger contractors.</p>
 
-<h3>Is NEBOSH required for a site supervisor job?</h3>
-<p>It is usually required for HSE roles and an advantage for site supervisors. IOSH Managing Safely is a shorter first step for foremen.</p>
-
-<h3>What is a toolbox talk?</h3>
-<p>A short safety briefing at the start of the shift covering the day's hazards. On Gulf sites the foreman usually gives it.</p>
-
-<h3>Who pays for a UAE work visa for a supervisor?</h3>
-<p>The employer. Article 6 of Federal Decree-Law No. 33 of 2021 bars employers from charging workers recruitment and employment costs.</p>
-
-<h3>Can I be promoted from mason to foreman in Saudi Arabia?</h3>
-<p>Yes, but the profession on your work permit has to be changed officially. Working in a profession different from your permit is not allowed.</p>
-
 <h3>Is OSHA training useful outside the USA?</h3>
 <p>Some international contractors, especially on American-managed projects, ask for OSHA 30-hour construction training. NEBOSH and IOSH are more widely recognised in the Gulf.</p>
 

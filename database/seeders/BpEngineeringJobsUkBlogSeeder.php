@@ -373,20 +373,8 @@ JOBHTML;
 <h3>What does the bp graduate programme pay, and when does it open?</h3>
 <p>bp's own UK page gives a starting salary of &pound;37k to &pound;50k depending on business area, a one-off settling-in allowance of &pound;3k to &pound;5k, and a flexible allowance of 20% of base salary. Applications open on 14 October 2026.</p>
 
-<h3>Does bp sponsor Skilled Worker visas for engineers?</h3>
-<p>bp plc holds a Worker (A rating) Skilled Worker licence on the Home Office register, but a licence alone decides nothing. The role must sit in an eligible occupation code and pay at least &pound;41,700 or the published going rate for that code, whichever is higher.</p>
-
-<h3>Which engineering occupation codes are eligible for sponsorship?</h3>
-<p>Civil (2121), mechanical (2122), electrical (2123), electronics (2124), production and process (2125), aerospace (2126), engineering project managers (2127), engineering professionals n.e.c. (2129) and software development (2134) are all classified Higher Skilled and eligible.</p>
-
-<h3>Is bp still based at Sunbury-on-Thames?</h3>
-<p>Not for much longer. bp has told Spelthorne Borough Council it intends to leave the Sunbury campus between 2027 and 2028. Around 1,800 staff are based there, the council owns the site, and one lease runs to 2036.</p>
-
 <h3>Do I need chartered status through IEEE to work for bp?</h3>
 <p>No, and IEEE could not give you UK chartered status anyway. The Engineering Council licenses the institutions that assess for CEng, IEng and EngTech; IMechE, IChemE, IET, the Energy Institute and BCS are licensed, IEEE is not.</p>
-
-<h3>Does a bp engineering job need SC or BPSS security clearance?</h3>
-<p>No. BPSS and SC are UK government vetting standards for people with access to government assets and classified material, not bp's own checks. bp describes its screening as qualifications, employment history and references, and right to work in the region of employment.</p>
 
 <h2>More Job Guides</h2>
 

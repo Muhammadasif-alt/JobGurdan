@@ -278,18 +278,6 @@ JOBHTML;
 <h3>Is that gross or net pay?</h3>
 <p>Gross. Social insurance contributions take roughly a fifth from the employee side, and income tax follows and depends on your tax class. Ask for a net estimate for your circumstances before comparing with any non-German salary.</p>
 
-<h3>Can I move to Germany on the Opportunity Card for factory work?</h3>
-<p>Not for full-time factory work. It is a skilled worker job-seeker visa needing a recognised qualification or six points on a grid built around one, with A1 German or B2 English, and it permits only 20 hours of work a week while you search.</p>
-
-<h3>What about the experience route for workers without German recognition?</h3>
-<p>Section 6 of the Employment Regulation exists for exactly that, but it carries a minimum salary requirement tied to the pension insurance contribution ceiling. Entry-level production pay does not reach it, so check the current threshold before relying on this route.</p>
-
-<h3>Do I need to speak German to work in a German factory?</h3>
-<p>Basic to conversational German is specified on most listings, and B1 is increasingly asked for on machine operator roles. It also widens the number of listings you can realistically apply to.</p>
-
-<h3>Which German job titles should I search for?</h3>
-<p>Produktionshelfer, Produktionsmitarbeiter, Fabrikarbeiter, Fabrikhelfer, Maschinenbediener, Verpackungsmitarbeiter, Montagemitarbeiter and Lagermitarbeiter. The first two often describe the same work at different rates.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing international routes? These cover them:</p>

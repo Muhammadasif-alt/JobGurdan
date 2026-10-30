@@ -164,18 +164,6 @@ class WorkVisaWithoutAgentBlogSeeder extends Seeder
 <h3>When should I seek professional help?</h3>
 <p>Consider qualified advice when eligibility, a previous refusal or a complex situation needs interpretation.</p>
 
-<h3>Do I save money by applying without an agent?</h3>
-<p>You save optional service fees. Government fees, health charges and appointment costs still apply.</p>
-
-<h3>Can I pay the visa fee to the employer or recruiter?</h3>
-<p>Official fees are paid through the government's own payment system. Treat a request to pay a personal account as a scam.</p>
-
-<h3>Can a recruiter guarantee approval?</h3>
-<p>No. Only the immigration authority decides, and a guarantee is a sign of fraud.</p>
-
-<h3>What if my application is refused?</h3>
-<p>Read the decision and follow its instructions, rather than resubmitting the same application unchanged.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -187,7 +175,6 @@ class WorkVisaWithoutAgentBlogSeeder extends Seeder
     <li><a href="/blog/best-job-sites-work-abroad-2026">Best Job Sites to Find Work Abroad (2026)</a>: where to look.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal advice. Reviewed on 12 October 2026 against official sources. Document lists and processes vary by route, so follow the official instructions for your own application.</p>
 HTML;
     }
 }

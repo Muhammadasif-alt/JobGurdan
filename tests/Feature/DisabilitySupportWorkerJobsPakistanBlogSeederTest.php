@@ -59,11 +59,11 @@ it('renders with its long-tail sections', function () {
         ->assertSee('sed.punjab.gov.pk');
 });
 
-it('carries eight FAQs in markup built from the post body', function () {
+it('carries four FAQs in markup built from the post body', function () {
     $faqs = app(StructuredDataService::class)
         ->faqsFromHtml(Blog::where('slug', DSW_SLUG)->value('content'));
 
-    expect($faqs)->toHaveCount(8);
+    expect($faqs)->toHaveCount(4);
 
     $this->get('/blog/'.DSW_SLUG)->assertSee('"FAQPage"', false);
 });

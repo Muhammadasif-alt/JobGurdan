@@ -126,12 +126,6 @@ class ElevatorApprenticeshipTestNeiepBlogSeeder extends Seeder
 
 <p>In week one rebuild arithmetic and reading accuracy. In week two mix topics and revisit mistakes without looking at old solutions. Record whether each error came from misunderstanding, calculation or rushing; if you keep losing decimal places, practise that operation until you can explain every step. Confirm your appointment, transport, identification and any accommodation request before test day.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is prior elevator experience required?</h3>
@@ -146,18 +140,6 @@ class ElevatorApprenticeshipTestNeiepBlogSeeder extends Seeder
 <h3>Does passing guarantee a job?</h3>
 <p>No. Interview performance and the hiring list process still matter.</p>
 
-<h3>Can I retake the EIAT?</h3>
-<p>Applicants who fail may reapply in the next or a later recruitment period.</p>
-
-<h3>How old must I be?</h3>
-<p>At least 17 to apply and 18 to be registered by the Local Joint Apprenticeship Committee.</p>
-
-<h3>Is paid preparation necessary?</h3>
-<p>No. Start with NEIEP's free official study guide.</p>
-
-<h3>What does the interview involve?</h3>
-<p>An interview of about 15 to 20 minutes with two committee members.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -169,7 +151,6 @@ class ElevatorApprenticeshipTestNeiepBlogSeeder extends Seeder
     <li><a href="/blog/sheet-metal-workers-aptitude-test-study-plan">Sheet Metal Aptitude Test: Sections, Tips, Study Plan</a>: sheet metal entry</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 16 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

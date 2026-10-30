@@ -206,20 +206,8 @@ class FarmWorkerSalaryUsaBlogSeeder extends Seeder
 <h3>Can farmworkers earn $3,000 a month?</h3>
 <p>That is arithmetically possible with suitable rates and hours, but no national average guarantees it.</p>
 
-<h3>Is the PKR amount money I can send home?</h3>
-<p>No. Convert only your savings after expenses, using the actual remittance rate and fees.</p>
-
-<h3>Does a seasonal offer guarantee annual employment?</h3>
-<p>No. Use the contract's dates and hours to calculate what a season will pay.</p>
-
 <h3>Do H-2A workers pay for their own housing?</h3>
 <p>Eligible workers who cannot return home daily must receive housing at no cost, but check the contract for the terms.</p>
-
-<h3>Do farmworkers get overtime?</h3>
-<p>Not automatically. Federal agricultural exemptions and state rules decide it, so check before you count on it.</p>
-
-<h3>Which farm job pays most?</h3>
-<p>In the BLS table, agricultural equipment operators have the highest mean wage, but they need experience that beginners may not have.</p>
 
 <h2>More Job Guides</h2>
 

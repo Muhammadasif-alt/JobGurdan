@@ -143,12 +143,6 @@ class ElevatorApprenticeshipChicagoPhiladelphiaBostonBlogSeeder extends Seeder
 
 <p>Choose a city where you can reach both classes and job sites. Write down monthly housing, transport and living costs, compare them with the real starting wage, and move only after the programme gives you clear written instructions. An open window alone is not a reason to move.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I apply without elevator experience?</h3>
@@ -162,18 +156,6 @@ class ElevatorApprenticeshipChicagoPhiladelphiaBostonBlogSeeder extends Seeder
 
 <h3>Does passing the EIAT guarantee a job?</h3>
 <p>No. It qualifies you for the interview. Hiring depends on your rank and the openings that companies have.</p>
-
-<h3>Can I submit after a recruitment fills?</h3>
-<p>Follow the official notice. Do not assume late applications are accepted or that paying reserves a future place.</p>
-
-<h3>How much does it cost to apply?</h3>
-<p>Each of the three notices states a USD 25 nonrefundable fee. Never pay anyone else for a place.</p>
-
-<h3>Can I apply to more than one city?</h3>
-<p>The notices restrict only people who already accepted an IUEC apprentice job. Check each notice and its dates.</p>
-
-<h3>How old must I be?</h3>
-<p>At least 17 to apply and 18 to be registered, according to the NEIEP FAQ.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 
@@ -205,7 +187,6 @@ class ElevatorApprenticeshipChicagoPhiladelphiaBostonBlogSeeder extends Seeder
     <li><a href="/blog/mechanical-reasoning-questions-explained">Mechanical Reasoning Questions Explained</a>: mechanical section</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Recruitment status checked on 17 October 2026: Philadelphia is upcoming, and the Chicago and Boston records are filled. Recheck application caps, dates and requirements before submitting; no vacancy or selection outcome is guaranteed.</p>
 HTML;
     }
 }

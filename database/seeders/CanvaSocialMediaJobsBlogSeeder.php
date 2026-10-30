@@ -409,20 +409,8 @@ JOBHTML;
 <h3>Do I need a design degree?</h3>
 <p>No. This part of the field hires on portfolio and reliability. A consistent set of samples built around two invented brands will do more for you than any certificate, because it shows the exact thing the client is buying.</p>
 
-<h3>Can I do this work on the free Canva plan?</h3>
-<p>Partly. Magic Resize, the Content Planner and Background Remover are paid only. A Brand Kit exists on the free plan but holds just three colours. Premium elements are watermarked until licensed. You can still design, export and share to socials for free, so a portfolio is entirely possible: just do not plan it around a paid feature, and ask a client to add you to their account rather than buying your own.</p>
-
-<h3>Can I use Canva templates for paid client work?</h3>
-<p>For ordinary social media designs, yes. The restrictions bite on adjacent requests: using Canva stock content in a logo or trademark, reselling designs as template packs, handing over stock elements as standalone files, and merchandise for resale. Read Canva's content licence once and keep client work to finished designs.</p>
-
-<h3>What do Canva social media jobs pay?</h3>
-<p>The spread is very wide. Entry-level freelance briefs can be a few dollars as a trial, while salaried Pakistani listings naming Canva have advertised roughly PKR 30,000 to 50,000 a month. The step that raises pay is taking on the content calendar and the captions rather than only producing graphics.</p>
-
 <h3>Is Canva enough to become a social media manager?</h3>
 <p>No. Canva is the production tool. A manager role adds content strategy, scheduling, community management, analytics and campaign planning. Canva skill gets you in the door; those skills are what move you up.</p>
-
-<h3>How many portfolio pieces do I need?</h3>
-<p>Five strong, consistent examples in one link. Most clients ask for three to five. A large portfolio of varied styles is weaker than a small one that shows you can hold a brand steady across a set.</p>
 
 <h3>Can I get this work from Pakistan?</h3>
 <p>Yes. It is among the more accessible remote categories because the output is a file and the assessment is a portfolio. Check each listing's country requirement, confirm who pays for the tools, and agree the deliverable definition in writing before starting.</p>

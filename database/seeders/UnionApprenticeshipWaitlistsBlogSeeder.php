@@ -128,12 +128,6 @@ class UnionApprenticeshipWaitlistsBlogSeeder extends Seeder
 
 <p>Keep earning or studying, and do not quit a job just because your rank looks promising until you have clear start arrangements. Keep documents organised, keep reliable transport, check email and voicemail often and be ready to answer an invitation within its deadline. Consider other suitable openings without assuming your score or rank transfers, and compare location, training, costs, pay and working conditions. Our guide on <a href="/blog/how-to-apply-for-trade-apprenticeship">how to apply for a trade apprenticeship</a> covers the application side. Set a monthly reminder to review your records and deadlines.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Does being waitlisted mean I was rejected?</h3>
@@ -145,20 +139,8 @@ class UnionApprenticeshipWaitlistsBlogSeeder extends Seeder
 <h3>Should I call every week?</h3>
 <p>Follow the programme's communication rules. Required check-ins and voluntary status requests are different things.</p>
 
-<h3>Can I apply elsewhere while waiting?</h3>
-<p>Check each programme's rules, and keep each application's deadlines separate.</p>
-
-<h3>Should I pay someone to speed up selection?</h3>
-<p>No. Do not pay anyone promising a better position or guaranteed admission. Verify genuine charges with the official sponsor.</p>
-
 <h3>What happens if I miss a check-in?</h3>
 <p>At the Laborers Training School, missing a required month results in application deletion. Check your own programme's rule.</p>
-
-<h3>Can a contractor help me skip the list?</h3>
-<p>The Laborers Training School says a signatory contractor can sponsor an applicant to skip its waiting list. Other programmes may differ.</p>
-
-<h3>Does a high rank mean I start soon?</h3>
-<p>Not by itself. Hiring depends on contractor demand and the economy as well as your position.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 
@@ -185,7 +167,6 @@ class UnionApprenticeshipWaitlistsBlogSeeder extends Seeder
     <li><a href="/blog/what-score-needed-apprenticeship-test">What Score Do You Need on an Apprenticeship Test?</a>: pass marks</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 17 October 2026 against official sources. Examples describe individual programmes and do not establish national average waiting times or guarantee selection.</p>
 HTML;
     }
 }

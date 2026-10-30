@@ -293,18 +293,6 @@ JOBHTML;
 <h3>Do I need my occupation on a list to get permanent residence?</h3>
 <p>Not on the main employer route. The Temporary Residence Transition streams of subclass 186 and 187 have no occupation list; eligibility is based on the occupation from your most recently held temporary skilled visa. The 186 Direct Entry stream does use the combined list.</p>
 
-<h3>What salary must a sponsor pay me?</h3>
-<p>The nomination must meet the Core Skills Income Threshold and the annual market salary rate for the position, so in practice the higher of the two. The threshold is indexed, so check the current amount on the Home Affairs salary requirements page rather than relying on a figure quoted in an article.</p>
-
-<h3>Do I always need a skills assessment?</h3>
-<p>No. The combined list names an assessing authority for each occupation, but whether you need an assessment depends on your visa stream and your occupation. Check the requirement for your specific stream rather than assuming it applies to all sponsored visas.</p>
-
-<h3>What is a caveat and why does it matter?</h3>
-<p>A caveat excludes the use of an occupation in certain circumstances, and caveats apply to the ENS Direct Entry stream and the SID visas. It is how an otherwise eligible occupation fails at nomination, so check it before accepting an offer rather than afterwards.</p>
-
-<h3>Is the regional 494 visa easier to get?</h3>
-<p>It is a different visa, not an easier one. It lets regional employers sponsor skilled workers where they cannot source an appropriately skilled Australian worker in their region, and it is provisional, with conditions attached to where you live and work.</p>
-
 <h2>More Job Guides</h2>
 
 <ul>

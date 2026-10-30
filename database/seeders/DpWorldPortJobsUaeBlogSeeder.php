@@ -334,20 +334,8 @@ JOBHTML;
 <h3>How is UAE gratuity calculated?</h3>
 <p>Nothing under one year of service. From one to five years, 21 days' basic pay per year. Beyond five years, 30 days' basic pay per additional year. The total is capped at two years' wages, it is calculated on <strong>basic salary only</strong> with housing and transport allowances excluded, and it must be paid within 14 days of the contract ending.</p>
 
-<h3>Who sponsors a DP World employee in the UAE?</h3>
-<p>Usually the Jebel Ali Free Zone Authority rather than DP World. Its registered office is in JAFZA and its UAE vacancies carry that address. Free zone employees are sponsored by the zone authority, are generally outside the federal Labour Law's direct application, and use the free zone's dispute channel rather than MOHRE's.</p>
-
-<h3>How many DP World jobs are open in the UAE?</h3>
-<p>Nineteen when we checked, out of 570 worldwide, which puts the UAE tenth by country behind India, Germany, the United States, Turkey, Australia and the United Kingdom. The split was 14 in Dubai, four unspecified and one in Fujairah, with only one carrying a Jebel Ali badge.</p>
-
-<h3>How much can a Pakistani recruitment agent legally charge for a Gulf job?</h3>
-<p>Rs 15,000, and it is a refundable deposit rather than a fee: released to the promoter only once the Protector of Emigrants certifies you joined the job, and returned to you if they fail to place you. Beyond that, only documented actual costs with receipts. The published total through a licensed promoter is Rs 22,200. Charging more carries up to 14 years' imprisonment.</p>
-
 <h3>Does the UAE private sector get a two-day weekend?</h3>
 <p>Not by law. The statute requires at least one paid rest day a week, with the day set by your contract or the employer's work regulations. The Saturday and Sunday change in January 2022 applied to federal government entities, not to private employers.</p>
-
-<h3>Am I covered by UAE unemployment insurance as an expatriate?</h3>
-<p>Yes, and it is compulsory. It costs AED 5 a month if your basic salary is below AED 16,000 and AED 10 above, paid by you. The benefit is 60 per cent of your subscription salary for up to three months, capped at AED 10,000 or AED 20,000 monthly. You need twelve consecutive months of subscription, and there is an AED 400 fine for not subscribing.</p>
 
 <h2>More Job Guides</h2>
 

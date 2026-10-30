@@ -275,18 +275,6 @@ JOBHTML;
 <h3>How long does the EB-3 green card take for nurses?</h3>
 <p>It depends on your country of birth and it is currently retrogressed for everyone. Filipino and Indian nurses have faced backlogs of roughly three to seven years on new petitions; other countries move faster but still wait. Check the current Visa Bulletin, because the dates move in both directions.</p>
 
-<h3>What is Schedule A and why does it matter for nurses?</h3>
-<p>Schedule A is a pre-certified shortage list that includes registered nursing. It lets an employer skip the labour certification stage, which removes months from the front of the process. It does not remove the visa queue behind it.</p>
-
-<h3>Which English test do US nursing boards accept?</h3>
-<p>IELTS Academic, OET and TOEFL are the usual options, with minimum scores set by each state board and by CGFNS for VisaScreen. Nurses educated in certain English-speaking countries may be exempt, so check your specific board's rule.</p>
-
-<h3>Can I work in the US as a nurse without the NCLEX?</h3>
-<p>Not as a registered nurse. Support roles such as nursing assistant or patient care technician do not require it, but they pay far less, have a narrower scope, and are generally not sponsorable from overseas.</p>
-
-<h3>What does a registered nurse earn in the US?</h3>
-<p>Broadly $60,000 to $70,000 for a new graduate, $75,000 to $95,000 with experience, and $95,000 to $120,000 or more in ICU, emergency and specialised roles. State and shift differentials move those figures more than years of experience do.</p>
-
 <h3>Should I sign a multi-year contract with a nurse recruitment agency?</h3>
 <p>It is a normal structure, but read the early-exit sum, what triggers it, whether it reduces over the term, and who bears the cost of NCLEX, VisaScreen and travel. Never pay a placement fee to be hired.</p>
 

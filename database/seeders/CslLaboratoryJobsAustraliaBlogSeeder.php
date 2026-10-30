@@ -334,20 +334,8 @@ JOBHTML;
 <h3>How much does CSL pay laboratory staff in Australia?</h3>
 <p>CSL publishes no salary on its job adverts, but its enterprise agreement does. The scale starts at AUD 77,276 at classification CSL 1.1 from September 2026, rising through AUD 80,093 at CSL 1.2 and AUD 95,257 at CSL 3.1 to AUD 134,765 at CSL 5. The agreement notes these are floors rather than actual salaries.</p>
 
-<h3>Why can CSL not sponsor at entry level?</h3>
-<p>Because of where two numbers fall. The Core Skills Income Threshold is AUD 79,423, and CSL's entry classification pays AUD 77,276: just under it. The next classification up pays AUD 80,093, just over. So a sponsored role realistically starts at about CSL 1.2 or 1.3 rather than at graduate level.</p>
-
-<h3>How many CSL jobs are open in Australia?</h3>
-<p>Twenty-eight when we checked: 17 at CSL Behring and 11 at CSL Seqirus, with none at CSL Vifor or CSL Plasma. By location, 18 in Melbourne, 6 in Broadmeadows, 3 in Tullamarine and 1 in Woodend, with none in Parkville or Bendigo. Twelve are in quality or research and development.</p>
-
-<h3>Can international students apply for the CSL Graduate Program?</h3>
-<p>No. CSL requires Australian or New Zealand citizenship, or Australian permanent residency, at the time of application. That excludes offshore applicants and international students on a Temporary Graduate visa. There is also no dedicated science stream; the laboratory-adjacent one is Quality.</p>
-
 <h3>Why do CSL job links in other articles not work?</h3>
 <p>Because CSL deletes closed requisitions rather than marking them closed. The URL then returns a generic "404 error. Page not found." that is identical to what a mistyped address returns, so you cannot tell a withdrawn job from a typo. Always search from jobs.csl.com.</p>
-
-<h3>Does CSL still hire at Parkville?</h3>
-<p>CSL still employs research staff at Parkville, its current enterprise agreement names both Parkville sites as covered workplaces, but influenza manufacturing has transferred to Tullamarine and there are no Parkville vacancies at present. Seqirus hiring is now at Tullamarine and Woodend.</p>
 
 <h2>More Job Guides</h2>
 

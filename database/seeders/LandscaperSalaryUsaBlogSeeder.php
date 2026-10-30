@@ -202,20 +202,8 @@ class LandscaperSalaryUsaBlogSeeder extends Seeder
 <h3>Can a landscaper earn more than $3,000 a month?</h3>
 <p>Suitable wages and hours can produce that gross amount, but it is not guaranteed.</p>
 
-<h3>Is the PKR figure take-home salary?</h3>
-<p>No. It converts gross dollars at an assumed rate, before expenses and transfer costs.</p>
-
 <h3>Does every landscaping vacancy offer visa sponsorship?</h3>
 <p>No. Confirm the employer's participation and the immigration requirements independently.</p>
-
-<h3>Do landscapers get overtime?</h3>
-<p>Covered, non-exempt workers generally do, at one and a half times the regular rate after 40 hours a week. Check coverage and your state's rules.</p>
-
-<h3>Who earns more, a landscaper or a supervisor?</h3>
-<p>In the BLS table, supervisors have the higher mean wage, but they are a separate occupation and need experience.</p>
-
-<h3>Is accommodation included in H-2B landscaping jobs?</h3>
-<p>Do not assume it is. Ask for the housing terms and any deductions in writing.</p>
 
 <h2>More Job Guides</h2>
 

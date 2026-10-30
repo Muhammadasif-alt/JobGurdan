@@ -224,18 +224,6 @@ JOBHTML,
 <h3>Can I work as a kitchen porter in the UK from Pakistan?</h3>
 <p>Only if you already have the legal right to work. There is no standard visa for this job, and the Skilled Worker visa generally does not cover it, so be wary of paid "sponsorship" offers.</p>
 
-<h3>How much tax does a kitchen porter pay?</h3>
-<p>In England on £26,437 with a standard tax code, about £2,773 income tax and £1,109 National Insurance a year.</p>
-
-<h3>How much holiday does a kitchen porter get?</h3>
-<p>A full-time worker is entitled to 5.6 weeks of statutory paid holiday a year.</p>
-
-<h3>Can a student visa holder work as a kitchen porter?</h3>
-<p>Yes, as an employee within the visa's hour limits, usually 20 hours a week in term time on a degree-level course.</p>
-
-<h3>Do foreign workers earn the same as British workers?</h3>
-<p>Yes. UK minimum wage law applies to everyone working legally.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

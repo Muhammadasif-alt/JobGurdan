@@ -283,18 +283,6 @@ JOBHTML;
 <h3>How can I tell a fake remote data entry job?</h3>
 <p>A legitimate employer never asks you to pay for training, software, equipment or checks. And measure the offer against the median: $40 an hour for no experience is more than double the federal figure for a job with no barrier to entry.</p>
 
-<h3>What typing speed do I need for data entry?</h3>
-<p>Around 50 words per minute with 95 per cent or better accuracy is the common bar. Accuracy is weighted above raw speed in most hiring decisions, and many applications include a timed test.</p>
-
-<h3>Do I need a degree for data entry work?</h3>
-<p>No. A high school diploma is typically sufficient. Excel skill and any named records system you have used matter far more than education level.</p>
-
-<h3>Which data entry roles are safest from automation?</h3>
-<p>Exception handling, verification and quality assurance, and domain records such as medical, claims and legal work. What automates cleanly is transcription without judgement.</p>
-
-<h3>What can data entry lead to?</h3>
-<p>Administrative coordinator, quality assurance, claims processing and data analyst roles. Excel done properly is the most reliable bridge, and it can be built inside the job you already hold.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Choosing between entry routes? These cover them:</p>

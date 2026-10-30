@@ -117,12 +117,6 @@ class GasStationJobsHoustonHiringAgeRequirementsBlogSeeder extends Seeder
 
 <p>Gas station jobs in Houston need existing US work authorisation; store chains do not sponsor visas for them. Read <a href="/blog/how-to-find-job-abroad-from-pakistan-2026">how to find a job abroad from Pakistan</a> and <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you pay anyone.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can a 16-year-old work at a Houston gas station?</h3>
@@ -134,24 +128,12 @@ class GasStationJobsHoustonHiringAgeRequirementsBlogSeeder extends Seeder
 <h3>Do I need to be 21 to sell beer at a convenience store?</h3>
 <p>No. TABC sets no minimum employee age at off-premise beer and wine stores.</p>
 
-<h3>Can I sell tobacco if I am under 21?</h3>
-<p>Yes, where your job requires it, after signing the employee notification form.</p>
-
-<h3>Is TABC certification required?</h3>
-<p>Not by law for every store, but many employers require it.</p>
-
-<h3>What is the minimum wage in Texas?</h3>
-<p>$7.25 an hour, the same as the federal rate.</p>
-
-<h3>Do I need experience?</h3>
-<p>Often not; 7-Eleven's Houston crew post is entry level.</p>
-
 <h3>Are manager jobs open to beginners?</h3>
 <p>Rarely; they usually need retail or supervisory experience.</p>
 
 <h2>Bottom Line</h2>
 
-<p>Check each store's minimum age, duties and pay, apply on the chain's own site, and ask about training and safety on night shifts. This guide cannot promise a job, hours or a wage.</p>
+<p>Check each store's minimum age, duties and pay, apply on the chain's own site, and ask about training and safety on night shifts.</p>
 
 <h2>Sources</h2>
 
@@ -174,7 +156,6 @@ class GasStationJobsHoustonHiringAgeRequirementsBlogSeeder extends Seeder
     <li><a href="/blog/janitor-jobs-philadelphia-no-experience">Janitor Jobs in Philadelphia</a>, entry-level work with no experience.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 30 October 2026 against the pages named in Sources. It does not promise a job, hours or a wage.</p>
 HTML;
     }
 }

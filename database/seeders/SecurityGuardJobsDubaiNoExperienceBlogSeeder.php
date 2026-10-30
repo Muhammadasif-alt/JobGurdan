@@ -115,12 +115,6 @@ class SecurityGuardJobsDubaiNoExperienceBlogSeeder extends Seeder
 
 <p>Track each role, employer, date, experience condition and reply. Apply to adverts you genuinely fit, and use silence to improve your CV or search terms. Ask whether training is provided instead of assuming it, never pay anyone to guarantee selection, and read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you send money or documents. For the wider licence picture across countries, see <a href="/blog/security-guard-jobs-in-the-uae-uk-and-canada">security guard jobs in the UAE, UK and Canada</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can a complete beginner become a Dubai security guard?</h3>
@@ -135,21 +129,9 @@ class SecurityGuardJobsDubaiNoExperienceBlogSeeder extends Seeder
 <h3>Can I get a SIRA card before I have a job?</h3>
 <p>No. The licensed security company applies for it after hiring you, and it is tied to that employer.</p>
 
-<h3>Does a training certificate guarantee a job?</h3>
-<p>No. Recruitment, training, licensing and the work permit are separate steps.</p>
-
-<h3>Is accommodation always free?</h3>
-<p>No. Check housing, utilities, meals, transport and deductions in the contract.</p>
-
-<h3>Can I start working on a tourist visa?</h3>
-<p>No. The UAE Government prohibits work on a visit or tourist visa, paid or unpaid.</p>
-
-<h3>Does G4S charge recruitment fees?</h3>
-<p>No. G4S says it never asks for money during the interview process and writes only from G4S email addresses.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Look for employers who say they hire and train beginners, understand that the SIRA card comes through your employer, and build evidence of reliability and communication. Confirm the written package and a lawful work permit before you travel or start duties. This guide cannot promise a job, a licence or an income.</p>
+<p>Look for employers who say they hire and train beginners, understand that the SIRA card comes through your employer, and build evidence of reliability and communication. Confirm the written package and a lawful work permit before you travel or start duties.</p>
 
 <h2>Sources</h2>
 
@@ -170,7 +152,6 @@ class SecurityGuardJobsDubaiNoExperienceBlogSeeder extends Seeder
     <li><a href="/blog/how-to-find-job-abroad-from-pakistan-2026">How to Find a Job Abroad From Pakistan (2026)</a>, routes and checks before you travel.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, immigration or career advice. Reviewed on 27 October 2026; SIRA's website did not load from our network, so confirm the requirements with SIRA or your employer. It does not promise a job, a licence or an income.</p>
 HTML;
     }
 }

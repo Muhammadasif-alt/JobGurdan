@@ -274,18 +274,6 @@ JOBHTML;
 <h3>What is TRAC Jobs?</h3>
 <p>The applicant tracking system most NHS trusts use to advertise vacancies and manage applications. You build one profile and apply through it, tracking each application's progress in the same place.</p>
 
-<h3>What is the easiest NHS job to get?</h3>
-<p>Healthcare assistant and other support roles, which need no prior degree and recruit continuously: mostly for people who already hold the right to work in the UK, since entry-level Band 2 posts cannot be sponsored from overseas.</p>
-
-<h3>How do NHS pay bands work?</h3>
-<p>NHS pay in England follows Agenda for Change, set nationally in bands, so the band in the advertisement tells you the salary and it is the same at every trust. What varies is the high cost area supplement near London and the enhancements for nights and weekends.</p>
-
-<h3>What registration do I need as an overseas nurse?</h3>
-<p>NMC registration, reached through a computer-based test, an OSCE practical examination taken in the UK, and an approved English test. Many employers sponsor and prepare candidates for the OSCE, which is why the job and the registration are usually arranged together.</p>
-
-<h3>Why was my NHS application rejected without an interview?</h3>
-<p>Usually because the supporting statement did not address every essential criterion in the person specification. Shortlisting is scored against that list, so an unaddressed essential line is normally an automatic rejection whatever else the application says.</p>
-
 <h3>Can a support role lead to a registered clinical career?</h3>
 <p>Yes. Trainee nursing associate and registered nurse degree apprenticeship routes take existing support staff into registered practice while they continue earning. It is one of the strongest reasons to take an entry-level NHS post.</p>
 

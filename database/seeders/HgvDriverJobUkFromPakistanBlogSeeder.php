@@ -207,20 +207,11 @@ JOBHTML,
 <h3>Can Pakistanis get a UK work visa as HGV drivers?</h3>
 <p>No standard visa covers HGV driving. Pakistanis who do this work usually have another status that already allows it, such as a Graduate or family visa.</p>
 
-<h3>Can I use my Pakistani driving licence to drive a lorry in the UK?</h3>
-<p>No. You need UK HGV entitlement and Driver CPC, and you must have the legal right to work. Start with the process on GOV.UK.</p>
-
 <h3>Can I get an HGV driver job in the UK without experience?</h3>
 <p>Some employers hire newly qualified drivers, but many prefer experience. The main barrier for people abroad is the legal right to work and the UK licence, not experience.</p>
 
-<h3>Should I pay an agent for an HGV driver visa?</h3>
-<p>No. A job that cannot be sold to you legitimately as sponsored should not be bought. Treat any paid offer as a scam.</p>
-
 <h3>Can I drive an HGV on a visitor visa?</h3>
 <p>No. A visitor visa does not allow you to work.</p>
-
-<h3>Can a student visa holder drive an HGV for work?</h3>
-<p>Only within the visa's hour limits, usually 20 hours a week in term time at degree level. A permanent full-time driving job is not allowed.</p>
 
 <h3>What licence do I need for an articulated lorry?</h3>
 <p>Category C+E (Class 1), together with Driver CPC and a digital tachograph card.</p>

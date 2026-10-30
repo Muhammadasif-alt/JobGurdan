@@ -249,18 +249,6 @@ HTML;
 <h3>Is there a CNA certification in Pakistan?</h3>
 <p>No. CNA is a United States state credential and Pakistan does not issue one. Employers here use the title loosely. The Pakistani regulator is the Pakistan Nursing and Midwifery Council, whose categories include nurse, midwife, LHV, community midwife and nursing assistant.</p>
 
-<h3>How do I check whether a nurse is really registered?</h3>
-<p>Use the council's public register at online.pnmc.gov.pk, which lets you look up a nurse, midwife, LHV, community midwife or family welfare worker by CNIC number and see whether they are currently licensed.</p>
-
-<h3>Can beginners get home healthcare jobs?</h3>
-<p>Yes, into non-clinical caregiver and aide roles, and some employers train new staff. Aga Khan University Hospital also runs a four-week traineeship for home care, though it is a training programme with a stipend on completion rather than a salaried post from day one.</p>
-
-<h3>Are live-in home care jobs available?</h3>
-<p>Yes. Providers in the twin cities advertise 24/7 live-in placements alongside 12-hour day and night shifts, part-time work and per-procedure visits. Confirm rest hours, days off, accommodation and relief cover before accepting.</p>
-
-<h3>What is the difference between a home health aide and a home care nurse?</h3>
-<p>A home health aide supports daily living and comfort within the limits of their training. A home care nurse is a registered professional who can assess, administer medication and perform clinical procedures within their scope of practice.</p>
-
 <h3>Which cities have the most home healthcare work?</h3>
 <p>Karachi has the most established providers, with active recruitment across Islamabad and Rawalpindi and a growing market in Lahore. Demand follows elderly populations and post-surgical discharge.</p>
 

@@ -392,18 +392,6 @@ JOBHTML;
 <h3>Can I apply to more than one Lloyds scheme?</h3>
 <p>No. Lloyds accepts only one application per candidate per year, so there is no ranking of preferences. Pick the scheme deliberately, because the choice is fixed for that recruitment cycle.</p>
 
-<h3>When do applications open and close?</h3>
-<p>Applications for the September 2027 intake opened on 10 September 2026. Closing dates run from 4 October to 29 November 2026 depending on scheme and location, with London closing first, and Lloyds warns that programmes may close early if applications are high.</p>
-
-<h3>What degree do I need for a Lloyds graduate scheme?</h3>
-<p>Lloyds says you must hold or be on track to obtain a degree, ideally a 2:2 or above. Most schemes are open on subject, but Occupational Psychology requires a BPS-accredited Master's in Occupational Psychology, and the technical schemes expect demonstrable coding or analytical skills.</p>
-
-<h3>What is the assessment process?</h3>
-<p>Three stages: an online application with an assessment of around 60 minutes, a Job Insight Assessment answered by video, written responses and preference indications, then an assessment centre with a one-to-one interview, a group exercise and individual assessments based on pre-work.</p>
-
-<h3>How many days a week are graduates in the office?</h3>
-<p>A minimum of two days each week in the office you are placed in, and Lloyds notes that some roles are five days per week. Two days is the floor rather than the cap, so check the specific scheme page.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If a graduate scheme is one option rather than the only one, these cover the rest of the UK market:</p>

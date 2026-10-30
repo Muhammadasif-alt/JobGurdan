@@ -134,12 +134,6 @@ class ApprenticeshipTestMathBasicsBlogSeeder extends Seeder
 
 <p>Official programme information is on <a href="https://www.apprenticeship.gov" rel="noopener">Apprenticeship.gov</a>. Never pay anyone for a guaranteed apprenticeship spot, and verify all fees with the programme. See also <a href="/blog/mechanical-reasoning-questions-explained">mechanical reasoning</a> and <a href="/blog/can-you-retake-apprenticeship-aptitude-test">retake rules</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I use a calculator on the apprenticeship test?</h3>
@@ -154,18 +148,6 @@ class ApprenticeshipTestMathBasicsBlogSeeder extends Seeder
 <h3>Do I need to memorise formulas?</h3>
 <p>Often yes. Ask whether your programme provides a formula sheet.</p>
 
-<h3>How long should I study?</h3>
-<p>Plan a few weeks of consistent practice, starting with your weakest topics.</p>
-
-<h3>Is there a test at every programme?</h3>
-<p>No. Some programmes list no aptitude test, so check first.</p>
-
-<h3>Which topics matter most?</h3>
-<p>Fractions, percentages, unit conversions, area, volume and basic algebra.</p>
-
-<h3>Where can I practise?</h3>
-<p>Use OpenStax Prealgebra and your programme's own samples.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -177,7 +159,6 @@ class ApprenticeshipTestMathBasicsBlogSeeder extends Seeder
     <li><a href="/blog/sheet-metal-workers-aptitude-test-study-plan">Sheet Metal Aptitude Test: Sections, Tips, Study Plan</a>: sheet metal entry</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 16 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

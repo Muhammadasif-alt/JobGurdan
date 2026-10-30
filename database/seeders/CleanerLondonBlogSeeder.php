@@ -265,9 +265,6 @@ JOBHTML;
 <h3>Is cash-in-hand cleaning work legal?</h3>
 <p>Being paid cash isn't automatically illegal, but the income must still be declared for tax purposes. Fully undeclared work carries tax risk and offers no employment protections if something goes wrong.</p>
 
-<h3>Where's the fastest way to find an immediate-start cleaning job?</h3>
-<p>Job boards filtered by "immediate start," and registering directly with a cleaning agency, are typically the two fastest routes since agencies often have same-week placements available.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other sectors or countries? These guides cover the routes we track:</p>

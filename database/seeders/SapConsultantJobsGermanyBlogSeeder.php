@@ -382,23 +382,11 @@ JOBHTML;
 <h3>Can I get a Blue Card for IT without a degree?</h3>
 <p>Yes. Section 18g(2) of the Residence Act allows it on <strong>three years of relevant experience gained in the last seven</strong>, in an IT occupation, at a salary of at least EUR 45,934.20, with a job offer of at least six months and Federal Employment Agency approval. The permit expressly sets aside the qualification-recognition requirement, so no anabin check or ZAB evaluation is needed. No German is required either.</p>
 
-<h3>Do I need German to work at SAP in Germany?</h3>
-<p>Not for the visa, but usually for the job. Of SAP's 20 distinct German consulting vacancies, 13 require or prefer German, and several English-language postings demand fluent German in the body text. Requirements seen include "Deutsch auf muttersprachlichem Niveau" and "C1 oder hoeher". Check the requirements section, not the language the advert is written in.</p>
-
-<h3>How much do SAP consultants earn in Germany?</h3>
-<p>SAP publishes no salary on any of its 271 live German postings. The Federal Employment Agency's official median for highly complex IT application consulting is <strong>EUR 6,244 a month</strong>, around EUR 74,900 a year, rising to EUR 6,443 in Baden-Wuerttemberg and EUR 6,676 in Bavaria. That is roughly 63 per cent above the Blue Card shortage threshold.</p>
-
-<h3>How much of a German salary do you keep after tax?</h3>
-<p>Roughly 60 to 65 per cent, and the share falls as pay rises. For a single person with no children in 2026, EUR 50,000 gross leaves about EUR 32,337 net, EUR 60,000 leaves about EUR 37,561, and EUR 75,000 leaves about EUR 45,351. Deductions cover health, long-term care, pension and unemployment insurance.</p>
-
 <h3>Why do the SAP job links in other articles not work?</h3>
 <p>Because SAP is migrating its careers site. jobs.sap.com now serves a near-empty shell whose only eleven entries are test records titled "DO NOT APPLY", and the live board is careers.sap.com. Separately, two of the three individual vacancies those articles link are already filled, and both still return a normal-looking page carrying the line "Diese Stelle wurde leider bereits besetzt."</p>
 
 <h3>What is the Opportunity Card and do I qualify?</h3>
 <p>It is a job-search visa needing <strong>six points</strong> from an official table covering German and English level, experience, age, shortage occupation, previous stay in Germany and a partner applying with you. The baseline is a recognised degree or a two-year vocational qualification plus A1 German or B2 English. It lasts up to a year, allows 20 hours of work a week, and requires proof of about EUR 1,091 a month in a blocked account.</p>
-
-<h3>Does SAP sponsor visas for consultants in Germany?</h3>
-<p>It does not say so anywhere. Zero of 271 live German postings mention a visa, sponsorship or a work permit, and only one mentions relocation support: a Berlin engineering role, not a consulting one. This is not a rejection: under German law you apply for the Blue Card yourself on the strength of the offer and the salary, so no employer petition is needed.</p>
 
 <h2>More Job Guides</h2>
 

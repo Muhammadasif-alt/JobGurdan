@@ -269,18 +269,6 @@ HTML;
 <h3>Do I have to disclose a diagnosis to get an adjustment?</h3>
 <p>You have to let the employer know you need an adjustment for a reason related to a medical condition, but the EEOC's guidance says you may use "plain English", need not mention the ADA or the phrase "reasonable accommodation", and need not put the request in writing.</p>
 
-<h3>When should I ask for an accommodation?</h3>
-<p>A request may be made at any point in the application process. If you only realise partway through a test, the appendix to Part 1630 says you must tell the employer on becoming aware of the need, so say so then rather than afterwards.</p>
-
-<h3>Should a take-home assignment be paid?</h3>
-<p>There is no federal rule specifically on unpaid assignments for applicants, so the honest answer is that it depends on what is being asked. The distinction that matters is assessment against delivery: an exercise on a synthetic brief is one thing, work against the company's real backlog that will ship is another.</p>
-
-<h3>What does the four-fifths rule actually mean?</h3>
-<p>It is a rule of thumb for spotting adverse impact: a selection rate for a group below four-fifths of the highest group's rate is generally treated as evidence of it. The EEOC is explicit that it "is not intended as a legal definition" and "speaks only to the question of adverse impact".</p>
-
-<h3>Is an informal chat safer for an employer than a scored test?</h3>
-<p>No, and the assumption is common. Part 1607 covers informal or casual interviews and unscored application forms as selection procedures too, and an unstructured process is harder rather than easier to defend as job related, because nothing records what was measured.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

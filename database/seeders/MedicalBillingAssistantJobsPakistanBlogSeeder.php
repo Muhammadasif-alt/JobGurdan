@@ -247,20 +247,8 @@ HTML;
 <h3>What does a medical billing assistant do?</h3>
 <p>You verify patient insurance, prepare and submit claims to United States payers, post payments, work denied and unpaid claims, and keep billing records accurate. It is administrative and financial work inside healthcare, with no clinical duties.</p>
 
-<h3>What salary should a fresher expect in Pakistan?</h3>
-<p>Elevate Revenue Group publishes a market benchmark of PKR 30,000 to PKR 40,000 a month for a fresher and is careful to say it is not a guaranteed offer. Punjab's notified minimum wage for an unskilled adult worker is PKR 40,000 a month, so the top of that band equals the legal floor. Get any figure in writing before you accept.</p>
-
 <h3>Can I get a medical billing job with no experience?</h3>
 <p>Yes. Several Pakistani revenue cycle employers advertise entry-level assistant roles for freshers with structured training. Elevate Revenue Group's Medical Billing Assistant role is explicitly entry-level and invites applicants with no prior billing experience.</p>
-
-<h3>Do I need a medical degree or a certification?</h3>
-<p>No. There is no licence to practise medical billing in Pakistan and no mandatory qualification. AAPC and AHIMA certifications help experienced staff, but an AAPC core exam costs USD 425 for one attempt, which is months of an entry salary. Get hired first and ask about employer support later.</p>
-
-<h3>Is the night shift compulsory?</h3>
-<p>Almost always, because the clients are American. A common pattern is 6:00 PM to 3:00 AM PKT, Monday to Friday. Confirm the exact hours, the days off and whether transport is provided before accepting.</p>
-
-<h3>Are there remote medical billing jobs for freshers?</h3>
-<p>Very few. Most employers keep new staff onsite during training because of supervision and client data security requirements. A fully remote, high-paying offer made to a complete beginner is the classic shape of a scam.</p>
 
 <h3>Which cities have the most medical billing work?</h3>
 <p>Lahore has the largest concentration, with further clusters in Karachi, Islamabad and Rawalpindi. Within Lahore, Gulberg and Johar Town hold a large share of the offices.</p>

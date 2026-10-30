@@ -162,12 +162,6 @@ class MedicalAssistantJobsPhoenixNoExperienceBlogSeeder extends Seeder
 
 <p>MA posts in Phoenix need existing US work authorisation, and employers do not sponsor visas for them. Read <a href="/blog/how-to-find-job-abroad-from-pakistan-2026">how to find a job abroad from Pakistan</a> for routes that accept overseas applicants, and <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before paying anyone.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I become a medical assistant in Phoenix without certification?</h3>
@@ -179,24 +173,12 @@ class MedicalAssistantJobsPhoenixNoExperienceBlogSeeder extends Seeder
 <h3>What can an MA do without a doctor in the room?</h3>
 <p>Billing, coding, insurance checks, scheduling, charting, vitals and history, and visual acuity screening, under A.R.S. 32-1456.</p>
 
-<h3>Can an MA give injections in Arizona?</h3>
-<p>Yes, under the direct supervision of a doctor, physician assistant or nurse practitioner.</p>
-
-<h3>How much do MAs earn in Phoenix?</h3>
-<p>A median of $22.51 an hour, or $46,830 a year, in May 2025.</p>
-
-<h3>How long does MA training take?</h3>
-<p>Certificate and diploma programmes usually take under a year; associate degrees take longer. Check each school.</p>
-
 <h3>Are there part-time MA jobs with no experience?</h3>
 <p>Yes, some clinics and urgent care centres hire part-time trainees.</p>
 
-<h3>Is a high school diploma enough?</h3>
-<p>It is the baseline, but you still need MA training to meet Arizona's rule.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Complete an accredited MA programme, get certified, and apply to Phoenix clinics and health systems with a skills-first resume. Arizona sets what MAs may do and makes supervisors check your training, so training matters more than paid experience. This guide cannot promise a job or a wage.</p>
+<p>Complete an accredited MA programme, get certified, and apply to Phoenix clinics and health systems with a skills-first resume. Arizona sets what MAs may do and makes supervisors check your training, so training matters more than paid experience.</p>
 
 <h2>Sources</h2>
 
@@ -219,7 +201,6 @@ class MedicalAssistantJobsPhoenixNoExperienceBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, the warning signs of a recruitment scam.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 28 October 2026 against the pages named in Sources. Confirm the current training rule with the Arizona Medical Board before you enrol. It does not promise a job or a wage.</p>
 HTML;
     }
 }

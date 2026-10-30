@@ -406,18 +406,6 @@ JOBHTML;
 <h3>Do WordPress SEO jobs require coding?</h3>
 <p>Not usually. Basic HTML and CSS help you make small fixes and understand what you are looking at. Roles demanding PHP or JavaScript are developer positions and should pay developer rates.</p>
 
-<h3>Yoast SEO or Rank Math, which should I learn?</h3>
-<p>Either. Yoast has over 10 million active installs and Rank Math over 4 million, both have free versions, and the concepts transfer directly. Learn one well and the second takes an afternoon.</p>
-
-<h3>What are the current Core Web Vitals thresholds?</h3>
-<p>LCP at 2.5 seconds or less, INP at 200 milliseconds or less, and CLS at 0.1 or less, measured at the 75th percentile of page loads. INP replaced FID in 2024, so any source still citing FID is out of date.</p>
-
-<h3>Is there an official Google SEO certification?</h3>
-<p>No. Google publishes an SEO Starter Guide but certifies nobody as an SEO. Google does offer free GA4 courses and a certification through Analytics Academy on Skillshop, which is genuinely free.</p>
-
-<h3>How do I receive payment from a foreign client in Pakistan?</h3>
-<p>Through an Exporters' Special Foreign Currency Account alongside a normal PKR account, under the State Bank framework for freelancers. A Roshan Digital Account is for non-resident Pakistanis and is not available to you if you live in Pakistan.</p>
-
 <h2>More Job Guides</h2>
 
 <p>These pair with this one if you are building a remote career from Pakistan:</p>

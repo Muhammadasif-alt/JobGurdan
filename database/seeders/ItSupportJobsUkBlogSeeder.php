@@ -304,18 +304,6 @@ JOBHTML;
 <h3>How much do IT support jobs pay in the UK?</h3>
 <p>Guides quote &pound;20,000 to &pound;26,000 for entry-level help desk roles, rising to &pound;38,000 to &pound;50,000 or more for team leads. For a full-time worker aged 21 or over, nothing below &pound;24,784.50 a year on a 37.5-hour week is lawful.</p>
 
-<h3>Is &pound;20,000 a legal salary for a full-time IT support job?</h3>
-<p>Not for a worker aged 21 or over on 37.5 hours a week. The National Living Wage of &pound;12.71 an hour comes to &pound;24,784.50 a year, so &pound;20,000 is &pound;4,784.50 short.</p>
-
-<h3>Can I get a UK visa for an IT support job?</h3>
-<p>Only if the salary is high enough. IT user support technicians (3132) and IT operations technicians (3131) are on the Temporary Shortage List for certificates of sponsorship issued before 31 December 2026, but the job must pay at least &pound;41,700, or &pound;33,400 for a new entrant.</p>
-
-<h3>Is CompTIA A+ one exam or two?</h3>
-<p>Two. The current V15 version, launched on 25 March 2025, needs both Core 1 (220-1201) and Core 2 (220-1202).</p>
-
-<h3>Which IT support certificate should I get first?</h3>
-<p>CompTIA A+ for most people, followed by Network+, a Microsoft certification or ITIL 4 Foundation depending on the roles you are targeting.</p>
-
 <h3>Do IT support jobs need security clearance?</h3>
 <p>Many public sector and contract roles do. BPSS is the baseline, and SC clearance normally expects five years of UK residence.</p>
 

@@ -270,18 +270,6 @@ JOBHTML;
 <h3>What is the minimum wage for cleaners in Ontario?</h3>
 <p>$17.60 an hour, rising to $17.95 on 1 October 2026. Cleaners working for federally regulated employers get at least the federal minimum of $18.15.</p>
 
-<h3>Can foreigners get janitor jobs in Canada with an LMIA?</h3>
-<p>It is possible but narrow. Every janitor LMIA is low-wage, so it cannot be processed in Toronto, Montreal, Vancouver, Calgary or Edmonton between 10 July and 8 October 2026 unless the job is in a hospital or nursing care, and the permit lasts at most a year.</p>
-
-<h3>Can a janitor job lead to permanent residence in Canada?</h3>
-<p>Not through Express Entry, because janitors are TEER 5. A provincial nominee stream is the main possibility, and its rules change often.</p>
-
-<h3>Do gig cleaners in Canada keep all their tips?</h3>
-<p>Only if the platform promises it. Many apps treat cleaners as independent contractors, and Ontario's platform-worker law names ride share, delivery and courier work.</p>
-
-<h3>Who pays the LMIA fee for a janitor job?</h3>
-<p>The employer. The $1,000 fee cannot be paid by or recovered from the worker.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing cleaning jobs and routes into Canada? These cover it:</p>

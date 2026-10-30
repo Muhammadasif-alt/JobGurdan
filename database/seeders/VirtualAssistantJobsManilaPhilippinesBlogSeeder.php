@@ -151,12 +151,6 @@ class VirtualAssistantJobsManilaPhilippinesBlogSeeder extends Seeder
 
 <p>Keep a simple record of feedback and recurring requirements. If interviews reveal weak calendar skills, practise scheduling rather than immediately buying another course. If employers ask for clearer samples, improve your portfolio descriptions. Set manageable weekly goals for applications and learning. A consistent routine helps you identify progress while avoiding rushed submissions that overlook important details or instructions.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I Apply With No VA Experience?</h3>
@@ -170,18 +164,6 @@ class VirtualAssistantJobsManilaPhilippinesBlogSeeder extends Seeder
 
 <h3>Is PhilJobNet free?</h3>
 <p>Its About page says jobseekers can create an account for free and that the portal is free for all users.</p>
-
-<h3>Do virtual assistants work night shifts?</h3>
-<p>Some do, because the hours follow the client's time zone. The Wing role described above included a graveyard shift, so read the schedule before you accept.</p>
-
-<h3>Do I need my own equipment?</h3>
-<p>Often yes. Check the posting for headset, webcam, computer and internet requirements, and buy nothing until the employer confirms them in writing.</p>
-
-<h3>Is a virtual assistant an employee or a freelancer?</h3>
-<p>It depends on the arrangement. Ask for the terms in writing, because a contractor rate does not include employee benefits.</p>
-
-<h3>How do I avoid a fake job offer?</h3>
-<p>Verify the recruiter through the company's own website, and never pay for a job, training or unpaid client work.</p>
 
 <h2>Bottom Line</h2>
 
@@ -203,7 +185,6 @@ class VirtualAssistantJobsManilaPhilippinesBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or career advice. Reviewed on 21 October 2026 against the pages named in Sources. It does not promise a vacancy, a reward, an income or an offer, and platform rules and postings can change.</p>
 HTML;
     }
 }

@@ -144,18 +144,6 @@ class JobsAbroadFreeHousingFoodBlogSeeder extends Seeder
 <h3>Can beginners apply?</h3>
 <p>Some roles accept beginners; others need experience, certificates or existing work rights.</p>
 
-<h3>Is H-2A housing free?</h3>
-<p>Housing is provided without charge to covered workers; meals are separate and may carry an allowed charge.</p>
-
-<h3>Does a housing allowance mean a free room?</h3>
-<p>No. It is cash support and may not cover the rent.</p>
-
-<h3>Is food included on rest days?</h3>
-<p>Not always. Ask specifically.</p>
-
-<h3>What if the job ends?</h3>
-<p>Ask when you must leave the accommodation and plan where to stay.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -167,7 +155,6 @@ class JobsAbroadFreeHousingFoodBlogSeeder extends Seeder
     <li><a href="/blog/rights-foreign-workers-abroad">Rights of Foreign Workers Abroad: What You Must Know</a>: know your rights</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

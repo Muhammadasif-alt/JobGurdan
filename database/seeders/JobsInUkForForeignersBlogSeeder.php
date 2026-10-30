@@ -303,18 +303,6 @@ JOBHTML;
 <h3>What English level do I need for a Skilled Worker visa?</h3>
 <p>Level B2 for new applicants. Level B1 applies only to people extending a visa they held before 8 January 2026.</p>
 
-<h3>How long is the UK Graduate visa?</h3>
-<p>Two years if you apply by 31 December 2026, 18 months if you apply on or after 1 January 2027, and three years for doctorate graduates.</p>
-
-<h3>Which countries can use the Youth Mobility Scheme?</h3>
-<p>Australia, Canada, New Zealand and South Korea (ages 18 to 35), Andorra, Iceland, Japan, Monaco, San Marino and Uruguay (18 to 30), and Hong Kong and Taiwan by ballot.</p>
-
-<h3>How much does a Skilled Worker visa cost?</h3>
-<p>£819 for up to three years or £1,618 for longer when applying from outside the UK, plus the healthcare surcharge, usually £1,035 a year.</p>
-
-<h3>How do I know if a UK employer can sponsor me?</h3>
-<p>Search the register of licensed sponsors on gov.uk, then confirm the job's occupation code is eligible for the route.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at a specific UK job? These cover the sponsorship detail:</p>

@@ -153,18 +153,6 @@ class HotelHousekeeperJobUsaFromPakistanBlogSeeder extends Seeder
 <h3>Is previous hotel experience compulsory?</h3>
 <p>Only where the vacancy requires it. Beginner eligibility differs between employers.</p>
 
-<h3>Do all housekeeping jobs offer sponsorship?</h3>
-<p>No. Confirm overseas recruitment and the employer's immigration process directly.</p>
-
-<h3>Does H-2B lead to permanent residence?</h3>
-<p>No. It is a temporary work route, not automatic permanent residence.</p>
-
-<h3>Does the official job portal submit my application?</h3>
-<p>No. It lists job orders across many occupations. Select a relevant one and contact its employer.</p>
-
-<h3>Can I work on a tourist visa?</h3>
-<p>No. Do not start work without the correct authorisation.</p>
-
 <h3>Should I pay an agent?</h3>
 <p>Be very careful. H-2B workers must not pay the employer's recruitment or petition costs, and nobody can guarantee a visa.</p>
 

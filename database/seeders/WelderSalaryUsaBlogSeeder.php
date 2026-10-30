@@ -279,23 +279,11 @@ JOBHTML;
 <h3>Which welding industry pays the most?</h3>
 <p>Among the industries BLS publishes, heavy and civil engineering construction has the highest median at $76,690. Specialty trade contractors follow at $59,440.</p>
 
-<h3>Do TIG welders earn more than MIG welders?</h3>
-<p>BLS does not split pay by process. TIG skills often lead to pipe, aerospace and precision work that pays more, but it is the code and the industry that set the rate.</p>
-
 <h3>Is welding a growing job?</h3>
 <p>BLS projects 2 per cent growth from 2025 to 2035, slower than average, but about 40,300 openings a year because of retirements and people leaving the trade.</p>
 
-<h3>Does AWS certification increase pay?</h3>
-<p>It helps you get hired into code work, which pays more. The certification records which tests you have passed so employers can check them.</p>
-
 <h3>How long does it take to become a welder?</h3>
 <p>BLS lists a high school diploma plus technical training and moderate on-the-job training. Programmes run from a few months to two years; union apprenticeships take longer.</p>
-
-<h3>What does a welder earn in Canada?</h3>
-<p>Job Bank reports a national median of C$30.00 an hour for NOC 72106, with C$38.00 in Alberta and C$35.00 in British Columbia.</p>
-
-<h3>Can a foreign welder get a US work visa?</h3>
-<p>Only through an employer. Permanent routes usually mean labour certification and an EB-3 petition; H-2B covers temporary needs only and is capped.</p>
 
 <h2>More Job Guides</h2>
 

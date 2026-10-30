@@ -92,7 +92,7 @@ it('carries FAQ markup built from each post body', function (string $seeder, str
 
     // The "People Also Search For" block uses the same h3/p shape, so the
     // extractor must stop at the end of the FAQ section rather than sweep it up.
-    expect($faqs)->toHaveCount(8);
+    expect($faqs)->toHaveCount(4);
 
     get('/blog/'.$slug)->assertSee('"FAQPage"', false);
 })->with(saudiGuides());

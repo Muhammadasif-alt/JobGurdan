@@ -344,23 +344,11 @@ JOBHTML;
 <h3>What salary does a London job need to pay to sponsor an American?</h3>
 <p>At least £41,700 a year or the going rate for the occupation code, whichever is higher. Lower floors of £37,500 or £33,400 apply with a relevant PhD, a STEM PhD, an Immigration Salary List job or new entrant status.</p>
 
-<h3>Do Americans need to take an English test for a UK work visa?</h3>
-<p>No. The requirement is level B2 since 8 January 2026, but US nationals are exempt as citizens of a majority English-speaking country.</p>
-
 <h3>Can Americans use the UK Youth Mobility Scheme?</h3>
 <p>No. The United States is not one of the participating countries. The sponsor-free routes open to Americans are the High Potential Individual visa, Global Talent, and the Graduate visa for those who studied in the UK.</p>
 
-<h3>Which US universities qualify for the High Potential Individual visa?</h3>
-<p>Thirty-three, including Harvard, MIT, Stanford, Yale, Columbia, Berkeley, Michigan, Purdue and Washington University in St Louis. The list is matched to the year your degree was awarded.</p>
-
-<h3>Do I need an ETA to fly to London for a job interview?</h3>
-<p>Yes. Americans need an Electronic Travel Authorisation, which costs £20 and covers visits of up to six months. Interviews are permitted; starting work is not.</p>
-
 <h3>How much does a UK Skilled Worker visa cost an American?</h3>
 <p>£819 from outside the UK for up to three years or £1,618 for longer, plus the healthcare surcharge at usually £1,035 a year, and £1,270 in savings unless the sponsor certifies maintenance.</p>
-
-<h3>Do I still file US taxes while working in London?</h3>
-<p>Yes. US citizens are taxed on worldwide income. For 2026 the Foreign Earned Income Exclusion is $132,900 on Form 2555, and foreign accounts over $10,000 in total require FinCEN Form 114.</p>
 
 <h2>More Job Guides</h2>
 

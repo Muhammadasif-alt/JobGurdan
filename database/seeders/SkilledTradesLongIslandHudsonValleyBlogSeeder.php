@@ -107,12 +107,6 @@ class SkilledTradesLongIslandHudsonValleyBlogSeeder extends Seeder
 
 <p>Ask each sponsor for its current apprentice wage schedule, progression, benefit eligibility and likely hours, and keep cash wages separate from the benefits package. Do not budget around journeyworker rates or guaranteed overtime. Estimate fuel, tolls, parking, tools and unpaid travel time, and test the commute at the real reporting hour. The <a href="https://dol.ny.gov/career-centers" rel="noopener">New York career centres</a> can help you find regional employment support.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Do I need a college degree?</h3>
@@ -124,20 +118,8 @@ class SkilledTradesLongIslandHudsonValleyBlogSeeder extends Seeder
 <h3>Does applying guarantee a place?</h3>
 <p>No. Advertised apprentice numbers do not guarantee acceptance, steady work or a start date.</p>
 
-<h3>Should I pay for training first?</h3>
-<p>Ask whether the apprenticeship requires or recognises the course, and get total costs in writing before you pay.</p>
-
-<h3>What should I ask before accepting?</h3>
-<p>Ask who employs you, where classes meet, how attendance affects progression and whom to contact if work slows.</p>
-
 <h3>How can I strengthen my interview?</h3>
 <p>Explain why you chose the trade, describe a task you finished or a mistake you corrected, and keep answers short and honest.</p>
-
-<h3>Which counties qualify for Local 66?</h3>
-<p>Nassau and Suffolk, with six months of prior residence.</p>
-
-<h3>Which counties qualify for Local 825?</h3>
-<p>Rockland, Orange, Ulster, Sullivan and Delaware.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 
@@ -172,7 +154,6 @@ class SkilledTradesLongIslandHudsonValleyBlogSeeder extends Seeder
     <li><a href="/blog/operating-engineers-apprenticeship-test-preparation-guide">Operating Engineers Apprenticeship Test Preparation Guide</a>: IUOE entry</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Recruitment status checked on 17 October 2026 against official notices, which change often. The examples are not an exhaustive list of sponsors, and no vacancy, admission or selection outcome is guaranteed.</p>
 HTML;
     }
 }

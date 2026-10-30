@@ -308,23 +308,11 @@ JOBHTML;
 <h3>Which state pays teachers the most?</h3>
 <p>California, with an NEA average of $103,552 in 2024-25, followed by New York at $98,655 and Washington at $96,589. Washington has the highest BLS mean for elementary teachers, at $97,970.</p>
 
-<h3>Which states hire the most teachers?</h3>
-<p>California, Texas, New York, Florida and Illinois employ the most elementary teachers. Arizona ranks 23rd, and Texas employs the most high school teachers.</p>
-
 <h3>Is there a teacher shortage in the USA?</h3>
 <p>In specific subjects rather than everywhere. For 2026-27, states most often report shortages in special education, mathematics and science, while the BLS projects little or no change in overall teacher employment to 2035.</p>
 
 <h3>Do I need a teaching certificate to teach in the USA?</h3>
 <p>For public schools, yes: every state requires a certificate or license, usually after a bachelor's degree, a preparation program and state tests. Private school teachers typically do not need one.</p>
-
-<h3>Can a foreign teacher get a US visa?</h3>
-<p>Through the J-1 Teacher program, with a bachelor's-equivalent degree, two years of experience and English proficiency, for three years plus an extension. The H-1B route needs a lottery win and faces a $100,000 payment that is tied up in court.</p>
-
-<h3>How much do substitute teachers make?</h3>
-<p>The BLS median for short-term substitute teachers was $41,670 a year in May 2025. Most are paid a daily rate for the days they work.</p>
-
-<h3>Do school counselors need a master's degree?</h3>
-<p>Usually, yes. The BLS lists a master's degree as the typical entry requirement, and public school counselors also need a state credential.</p>
 
 <h2>More Job Guides</h2>
 

@@ -227,18 +227,6 @@ JOBHTML,
 <h3>Can I get a Skilled Worker visa as a lorry driver?</h3>
 <p>Generally no. HGV driving is not currently eligible, so legitimate UK employers cannot normally sponsor it.</p>
 
-<h3>Can I convert a Pakistani driving licence to drive an HGV in the UK?</h3>
-<p>No. You need UK HGV entitlement, Driver CPC and the legal right to work. Start with the process on GOV.UK.</p>
-
-<h3>Is there a visa scheme for HGV drivers?</h3>
-<p>Not now. The 2021 scheme for food haulage drivers was a one-off and has closed.</p>
-
-<h3>Which licence do I need for an articulated lorry?</h3>
-<p>Category C+E (Class 1), together with Driver CPC and a digital tachograph card.</p>
-
-<h3>Can I work as an HGV driver on a student visa?</h3>
-<p>Only within the visa's hour limits, and you still need a UK HGV licence. A permanent full-time driving job is not allowed.</p>
-
 <h3>Should I pay an agent for an HGV driver visa?</h3>
 <p>No. A job that cannot be sponsored cannot be sold to you legitimately. Treat any paid offer as a scam.</p>
 

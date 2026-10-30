@@ -409,18 +409,6 @@ JOBHTML;
 <h3>Should I pay a recruitment agency to find me a Saudi job?</h3>
 <p>No. Article 40 of the Labour Law puts recruitment fees, residence fees and work permit costs on the employer. Anyone asking you for a percentage of your salary or a visa fee is asking for money the law says you do not owe.</p>
 
-<h3>Is salary in Saudi Arabia really tax-free?</h3>
-<p>Yes, there is no personal income tax on employment income. VAT is 15% on what you buy, though, and a dependent fee applies monthly for each family member on your Iqama.</p>
-
-<h3>Which jobs are closed to foreigners in Saudi Arabia?</h3>
-<p>A rolling list. Most recently 69 administrative support professions went to 100% Saudi from 5 April 2026, and procurement, engineering and project management all carry Saudization percentages.</p>
-
-<h3>What is the Professional Verification Programme?</h3>
-<p>A check on your qualifications and experience before the work visa is issued. It began on 1 October 2023 and covered 128 countries by August 2024, so start it as soon as you have an offer.</p>
-
-<h3>How long does it take to get an Iqama after arriving?</h3>
-<p>Your employer is responsible for issuing it after you enter on the work visa, normally within 90 days of arrival. Chase it, because your legal status and your ability to open a bank account depend on it.</p>
-
 <h3>What happens to my end-of-service pay if I resign?</h3>
 <p>Article 85 scales it by service: nothing under two years, a third of the award at two to five years, two thirds at five to ten years, and the full award at ten years or more. Check your years before you hand in notice.</p>
 

@@ -296,23 +296,11 @@ JOBHTML;
 <h3>Is $35,000 to $45,000 an accurate medical assistant salary?</h3>
 <p>No. The top of that range sits below the national median of $45,690, so more than half of all medical assistants earn above the figure it presents as a maximum. The measured spread runs to $59,310 at the 90th percentile.</p>
 
-<h3>Which setting pays medical assistants the most?</h3>
-<p>Outpatient care centres, at a $53,130 mean, ahead of hospitals at $47,660 and physicians' offices at $45,060. That is about $8,000 a year between the highest and the setting where most medical assistants actually work.</p>
-
-<h3>Can you get certified as a medical assistant with work experience instead of a programme?</h3>
-<p>For some certifications, not all. RMA (AMT) accepts three years of employment, NCMA (NCCT) one year, and CCMA (NHA) one year within the last three. CMA (AAMA) has no work-experience route at all: every route requires a CAAHEP- or ABHES-accredited programme.</p>
-
 <h3>Is medical assistant a fast-growing job?</h3>
 <p>Yes, genuinely. Employment is projected to grow 13 per cent from 2025 to 2035 against 3.5 per cent for all occupations, adding 107,600 jobs and producing about 109,700 openings a year.</p>
 
 <h3>Do you need a degree to become a medical assistant?</h3>
 <p>No. BLS records the typical entry-level education as a postsecondary nondegree award, a certificate or diploma, with no prior work experience and no formal on-the-job training period required.</p>
-
-<h3>How much more do LPNs and RNs earn than medical assistants?</h3>
-<p>Licensed practical nurses earn a $64,400 median, 41 per cent more, and registered nurses $97,550, 113 per cent more. Both are the usual next step, often funded through an employer's tuition assistance.</p>
-
-<h3>Can medical assistants give injections and draw blood?</h3>
-<p>In most states yes, but only as a delegated act under a licensed practitioner and with the supervision each state prescribes. Washington requires a state credential first, New Jersey requires national certification, and California bars any task that is invasive or requires assessment, including reading a skin test result.</p>
 
 <h2>More Job Guides</h2>
 

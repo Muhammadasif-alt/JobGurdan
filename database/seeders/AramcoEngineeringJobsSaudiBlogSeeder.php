@@ -353,18 +353,6 @@ JOBHTML;
 <h3>What conditions are attached to an Aramco offer?</h3>
 <p>Five: medical examinations, background investigations, housing confirmation, enrollment of dependent children in Aramco Expatriate Schools where applicable, and government permission to secure a work and residence visa.</p>
 
-<h3>How much annual leave do Aramco expatriate employees get?</h3>
-<p>38 days of vacation leave per year plus travel days, with a further 9 to 11 paid company holidays.</p>
-
-<h3>Does Aramco pay for flights home?</h3>
-<p>Yes. Employees and eligible dependents residing in-country are paid annually for round-trip travel costs from Saudi Arabia to their home country.</p>
-
-<h3>Is salary in Saudi Arabia tax free?</h3>
-<p>There is no personal income tax on employment income in Saudi Arabia. VAT is charged at 15% on most goods and services, and your home country may still tax worldwide income.</p>
-
-<h3>Does Aramco ever charge applicants a fee?</h3>
-<p>No. Aramco states that neither the company nor any organisation recruiting on its behalf will ever ask for payments from applicants at any point in the recruitment process.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Working in Saudi Arabia or comparing Gulf employers? These cover the ground:</p>

@@ -121,12 +121,6 @@ class LabTechnicianJobsLahorePunjabQualificationsSalaryBlogSeeder extends Seeder
 
 <p>Prepare a focused CV, certificates, transcripts, any registration evidence and references, and list placements separately from jobs. Check posting and closing dates, because reposted adverts are often expired. Before interviews, review specimen labelling, contamination prevention, quality control and how results are escalated. Never pay for a "guaranteed" job; read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake job offer</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>What qualification do I need for a lab technician job in Lahore?</h3>
@@ -138,24 +132,12 @@ class LabTechnicianJobsLahorePunjabQualificationsSalaryBlogSeeder extends Seeder
 <h3>Is a BSc MLT needed?</h3>
 <p>For technologist posts, often yes; Chughtai's technologist specification asks for a BSc MLT and one year of experience.</p>
 
-<h3>Do I need AHPC registration?</h3>
-<p>Medical Laboratory Technology is regulated under the AHPC Act, 2022; ask the employer whether registration is needed.</p>
-
-<h3>Is experience always required?</h3>
-<p>No. Some posts accept freshers with supervised placements; others ask for a year or more.</p>
-
 <h3>What is the salary for lab technicians in Lahore?</h3>
 <p>It varies by sector; government adverts state the pay scale, and private offers should be compared in writing.</p>
 
-<h3>Can women apply?</h3>
-<p>Yes. Chughtai's specification, for example, states no gender preference.</p>
-
-<h3>Does a diploma guarantee a job?</h3>
-<p>No. Recognition, practical skill, vacancies and selection still decide.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Choose recognised training, apply at the right level, check registration and compare written salary terms. Verified employers and official portals are a stronger route than promises of instant jobs. This guide cannot promise a job or a salary.</p>
+<p>Choose recognised training, apply at the right level, check registration and compare written salary terms. Verified employers and official portals are a stronger route than promises of instant jobs.</p>
 
 <h2>Sources</h2>
 
@@ -178,7 +160,6 @@ class LabTechnicianJobsLahorePunjabQualificationsSalaryBlogSeeder extends Seeder
     <li><a href="/blog/how-to-find-job-abroad-from-pakistan-2026">How to Find a Job Abroad From Pakistan (2026)</a>, the checks before you leave.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 28 October 2026 against the pages named in Sources. It does not promise a vacancy or a salary; verify qualifications, registration and deadlines with the employer.</p>
 HTML;
     }
 }

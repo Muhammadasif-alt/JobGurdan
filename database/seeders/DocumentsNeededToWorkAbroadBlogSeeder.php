@@ -168,18 +168,6 @@ class DocumentsNeededToWorkAbroadBlogSeeder extends Seeder
 <h3>Should I attest every document first?</h3>
 <p>Check the actual requirements before paying for certification or legalisation.</p>
 
-<h3>Do complete documents guarantee approval?</h3>
-<p>No. The authority assesses eligibility and the evidence provided.</p>
-
-<h3>Do I need a certified translation?</h3>
-<p>Only if your documents are not in a language the authority accepts. Check its translation standard first.</p>
-
-<h3>How long should my passport be valid?</h3>
-<p>It depends on the destination and route. Check the official page rather than assuming one rule.</p>
-
-<h3>Can my family use my documents?</h3>
-<p>Dependants have separate eligibility and document conditions. Your approval does not establish theirs.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

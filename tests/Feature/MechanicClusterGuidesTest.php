@@ -43,12 +43,12 @@ it('publishes each guide with its own images and SEO fields', function (string $
     expect(count(array_filter(array_map('trim', explode(',', $blog->tags)))))->toBe(8);
 })->with('mechanic guides');
 
-it('carries exactly eight FAQs and no People Also Search For block', function (string $seeder, string $slug) {
+it('carries exactly four FAQs and no People Also Search For block', function (string $seeder, string $slug) {
     $this->seed($seeder);
 
     $content = Blog::where('slug', $slug)->value('content');
 
-    expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(8);
+    expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(4);
 
 
     expect(substr_count($content, 'People Also Search For'))->toBe(0);

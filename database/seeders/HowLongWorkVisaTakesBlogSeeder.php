@@ -154,23 +154,11 @@ class HowLongWorkVisaTakesBlogSeeder extends Seeder
 <h3>Does the estimate guarantee approval?</h3>
 <p>No. It describes timing, not eligibility or outcome.</p>
 
-<h3>Does processing start when I get an offer?</h3>
-<p>No. The authority defines the stage the estimate begins from.</p>
-
 <h3>Can an agent guarantee a faster visa?</h3>
 <p>No. Check any official expedited service yourself.</p>
 
 <h3>How long does a UK Skilled Worker visa take from outside the UK?</h3>
 <p>Usually a decision within 3 weeks once you have applied, proved identity and provided documents.</p>
-
-<h3>How long does the New Zealand AEWV take?</h3>
-<p>The official page shows 80% processed within 5 weeks.</p>
-
-<h3>Is the Singapore 10 business days an approval time?</h3>
-<p>No. Applications are processed or given an update in that time.</p>
-
-<h3>Should I resign before approval?</h3>
-<p>Not until you know the decision and the entry rules, because the commitment is hard to undo.</p>
 
 <h2>More Job Guides</h2>
 
@@ -183,7 +171,6 @@ class HowLongWorkVisaTakesBlogSeeder extends Seeder
     <li><a href="/blog/documents-needed-to-work-abroad-2026">Documents Needed to Work Abroad (2026)</a>: what to prepare</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

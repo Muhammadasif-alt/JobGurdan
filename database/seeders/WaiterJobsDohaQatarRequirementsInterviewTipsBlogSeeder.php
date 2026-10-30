@@ -136,12 +136,6 @@ class WaiterJobsDohaQatarRequirementsInterviewTipsBlogSeeder extends Seeder
 
 <p>Pakistani workers going abroad through a recruitment agent should use one licensed by the Bureau of Emigration and Overseas Employment, and never pay for a "guaranteed" job. Read <a href="/blog/how-to-find-job-abroad-from-pakistan-2026">how to find a job abroad from Pakistan</a> and <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> first.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can freshers get waiter jobs in Doha?</h3>
@@ -153,24 +147,12 @@ class WaiterJobsDohaQatarRequirementsInterviewTipsBlogSeeder extends Seeder
 <h3>Do I need to speak English?</h3>
 <p>Usually; Accor's Doha post asks for fluent English.</p>
 
-<h3>Can I change jobs in Qatar without an NOC?</h3>
-<p>Yes, since Law No. 19 of 2020, after giving the required notice.</p>
-
-<h3>How much notice must I give?</h3>
-<p>At least one month for two years' service or less, two months if longer.</p>
-
-<h3>Is accommodation provided?</h3>
-<p>Often, but confirm the address, sharing and facilities in writing.</p>
-
 <h3>Is visa sponsorship guaranteed?</h3>
 <p>No. Get written confirmation from the employer before you travel.</p>
 
-<h3>Do nationality or gender decide eligibility?</h3>
-<p>No. Each role's requirements and the visa process apply individually.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Apply through the hotel's own site, compare basic pay, allowances, housing and meals in writing, and prepare real service examples for the interview. This guide cannot promise a job, a visa or a wage.</p>
+<p>Apply through the hotel's own site, compare basic pay, allowances, housing and meals in writing, and prepare real service examples for the interview.</p>
 
 <h2>Sources</h2>
 
@@ -192,7 +174,6 @@ class WaiterJobsDohaQatarRequirementsInterviewTipsBlogSeeder extends Seeder
     <li><a href="/blog/hotel-and-restaurant-jobs-in-the-uae-and-italy">Hotel and Restaurant Jobs in the UAE and Italy</a>, hospitality in two markets.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 29 October 2026 against the pages named in Sources. It does not promise a job, a visa, accommodation or a wage.</p>
 HTML;
     }
 }

@@ -126,12 +126,6 @@ class RemoteJobsBeginnersIslamabadPakistanBlogSeeder extends Seeder
 
 <p>Check the company on its own website and compare the recruiter's contact details with what is published. Be careful with any request to pay for access to a job or to buy equipment through an unfamiliar middleman. A reasonable hiring task has clear instructions and does not turn into large amounts of unpaid client work.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I start without experience?</h3>
@@ -146,25 +140,13 @@ class RemoteJobsBeginnersIslamabadPakistanBlogSeeder extends Seeder
 <h3>Are remote jobs open worldwide?</h3>
 <p>No. Employers can restrict hiring by country, city or time zone. Confirm that working from Islamabad is allowed even when a post says remote.</p>
 
-<h3>How much of my earnings do platforms keep?</h3>
-<p>Upwork's freelancer service fee is a variable 0% to 15% per contract, and Fiverr's help centre says freelancers receive 80% of the client-approved payment. Check the current text before pricing.</p>
-
-<h3>How much foreign currency can I keep?</h3>
-<p>Under SBP EPD Circular Letter No. 06 of 2026, freelancers may retain USD 5,000 or 50% of proceeds a month, whichever is higher. Confirm with your bank.</p>
-
-<h3>Do I need my own equipment?</h3>
-<p>Usually a computer and reliable internet, and sometimes a headset or webcam. Ask who supplies what and do not buy expensive equipment before the employer confirms the specification.</p>
-
-<h3>Are these confirmed vacancies?</h3>
-<p>No. The guide explains routes and checks. Verify current availability and eligibility on the employer's or platform's own site before you apply.</p>
-
 <h2>A Note for Applicants in Pakistan</h2>
 
 <p>Never pay an agent, a "training fee" or a deposit to be placed with a client or a platform, and check any recruiter on the company's own website first. Suspected online fraud can be reported through the <a href="https://complaint.nccia.gov.pk/" rel="noopener">National Cyber Crime Investigation Agency complaint portal</a>; confirm the portal in your browser before you need it. Read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you send money or documents.</p>
 
 <h2>Bottom Line</h2>
 
-<p>To find remote work as a beginner in Islamabad, choose one realistic route, build a skill with free training such as DigiSkills.pk, and make honest samples. Apply selectively, confirm that employers accept applicants in Pakistan, read the full working arrangement and never pay to be placed. This guide cannot promise work, income or an interview.</p>
+<p>To find remote work as a beginner in Islamabad, choose one realistic route, build a skill with free training such as DigiSkills.pk, and make honest samples. Apply selectively, confirm that employers accept applicants in Pakistan, read the full working arrangement and never pay to be placed.</p>
 
 <h2>Sources</h2>
 
@@ -186,7 +168,6 @@ class RemoteJobsBeginnersIslamabadPakistanBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, tax, financial or career advice. Reviewed on 22 October 2026 against the pages named in Sources. It does not promise a vacancy, an income or an interview, and platform rules and postings can change.</p>
 HTML;
     }
 }

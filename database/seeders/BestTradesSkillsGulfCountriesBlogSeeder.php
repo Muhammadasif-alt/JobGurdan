@@ -138,20 +138,8 @@ class BestTradesSkillsGulfCountriesBlogSeeder extends Seeder
 <h3>Do I need a university degree?</h3>
 <p>Not for every trade. Requirements depend on the occupation, employer and immigration route.</p>
 
-<h3>Does a certificate guarantee sponsorship?</h3>
-<p>No. Employers also assess experience, eligibility and business needs.</p>
-
 <h3>Can I apply from Pakistan?</h3>
 <p>Yes, where employers accept overseas applicants. Check the destination and Pakistan departure rules.</p>
-
-<h3>Is there one Gulf trade visa?</h3>
-<p>No. Each country has its own procedures.</p>
-
-<h3>Do I need Arabic?</h3>
-<p>Not always, but basic Arabic and good workplace English help.</p>
-
-<h3>Should I pay a fee for a trade test?</h3>
-<p>Only after confirming who requires it and who arranges it.</p>
 
 <h3>Are these trades ranked by pay?</h3>
 <p>No. This is an editorial list, not a salary or vacancy ranking.</p>
@@ -167,7 +155,6 @@ class BestTradesSkillsGulfCountriesBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer (2026)</a>: verify before you pay</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

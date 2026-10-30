@@ -271,20 +271,8 @@ JOBHTML;
 <h3>Do I need a qualification to work as a PCA?</h3>
 <p>Most employers require a Certificate III in Individual Support (Ageing), though some accept 12 months or more of relevant caregiving experience instead.</p>
 
-<h3>What is the minimum salary for sponsorship?</h3>
-<p>The Aged Care Industry Labour Agreement sets a concessional floor of $51,222, or the annual market salary rate, whichever is higher. That is below the general Core Skills Income Threshold of $79,499 because aged care wages are lower.</p>
-
-<h3>Which police or background check do I need?</h3>
-<p>A National Police Certificate issued within three years, or an NDIS Worker Screening Clearance. The NDIS clearance is accepted in aged care, and disability roles require it specifically.</p>
-
 <h3>Can PCA work lead to permanent residency?</h3>
 <p>Yes. After two years of full-time work under the labour-agreement pathway, PCAs can be nominated for the subclass 186 visa for permanent residency, and since 7 December 2024 those years need not be with one employer.</p>
-
-<h3>Is the 482 visa still called that?</h3>
-<p>The subclass number is still 482, but the visa was renamed the Skills in Demand visa on 7 December 2024, with Core Skills and Specialist Skills streams.</p>
-
-<h3>Can I salary-package as an aged care worker?</h3>
-<p>If your employer is a not-for-profit Public Benevolent Institution, you can package up to $15,900 of tax-free benefits a year, plus a separate meal-entertainment card, which lifts your take-home pay.</p>
 
 <h2>More Job Guides</h2>
 

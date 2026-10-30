@@ -295,18 +295,6 @@ JOBHTML;
 <h3>Can a green card holder work on AWS GovCloud?</h3>
 <p>Generally yes. A lawful permanent resident is a US Person under the export control rules GovCloud exists to satisfy. Cleared roles are a different matter and require citizenship.</p>
 
-<h3>Which AWS certification should I take first?</h3>
-<p>Solutions Architect &ndash; Associate, or SysOps Administrator &ndash; Associate if your work is operational. AWS removed exam prerequisites in 2018, so nothing stops you booking a Professional exam, but AWS recommends two or more years of hands-on AWS experience before those papers.</p>
-
-<h3>Is an AWS certification enough to get hired?</h3>
-<p>It gets your application read. In the largest and most certified platform market in US cloud, an associate certificate is the baseline rather than the differentiator. Production operational experience is what is scarce.</p>
-
-<h3>AWS or Azure for a US job search?</h3>
-<p>Whichever appears in the postings you want. AWS carries the largest overall share; Azure is stronger inside enterprises already committed to Microsoft. Depth in one beats familiarity with both.</p>
-
-<h3>Are AWS cloud engineer jobs remote?</h3>
-<p>Many commercial ones are, especially at mid and senior level. Cleared and GovCloud work is far more likely to be on-site. Expect an on-call rotation either way.</p>
-
 <h3>Can I get an AWS cloud engineer job with no experience?</h3>
 <p>Rarely straight away. Terraform and the AWS services are learnable in months; judgement about systems under load is not. This is usually a second job, reached from support, systems administration, networking or development.</p>
 

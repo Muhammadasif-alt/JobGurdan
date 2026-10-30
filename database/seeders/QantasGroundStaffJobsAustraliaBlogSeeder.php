@@ -346,18 +346,6 @@ JOBHTML;
 <h3>Does Qantas sponsor visas for ground staff?</h3>
 <p>No. Qantas Group adverts require the right to work without restrictions or sponsorship, and none of these occupations appear on the Core Skills Occupation List.</p>
 
-<h3>What is an ASIC and what does it cost?</h3>
-<p>An Aviation Security Identification Card, issued after an AusCheck background check. The government fee is $262 for a two-year adult card, plus whatever the issuing body charges on top.</p>
-
-<h3>How long does the ASIC take?</h3>
-<p>Six to eight weeks for the background check. AusCheck advises applying at least six weeks before you need the card.</p>
-
-<h3>Can I get an ASIC if I am not an Australian citizen?</h3>
-<p>There is no citizenship requirement for the card itself, and AusCheck accepts an Australian visa with a foreign passport as identity. The employer's work rights rule is the real barrier.</p>
-
-<h3>How heavy is the lifting?</h3>
-<p>A live Qantas Ground Services freight advert requires the ability to repetitively lift items up to 32 kg. Check the physical requirements on the specific posting.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Working out whether Australia is open to you at all, or comparing airline employers? Start here:</p>

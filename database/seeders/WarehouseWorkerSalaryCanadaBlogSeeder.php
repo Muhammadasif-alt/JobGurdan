@@ -245,15 +245,6 @@ JOBHTML,
 <h3>What is the minimum wage for a warehouse worker in Canada?</h3>
 <p>Minimum wages are set by each province, so check the rate where the job is. Job Bank's national low figure for the occupation is C$16.55 an hour.</p>
 
-<h3>Where do these wage figures come from?</h3>
-<p>From the Government of Canada Job Bank wage report for material handlers (NOC 75101), published 19 November 2025.</p>
-
-<h3>Do Canadian warehouse jobs come with benefits?</h3>
-<p>Job Bank reports that about 82% of material handlers receive at least one non-wage benefit, such as health coverage or a pension plan.</p>
-
-<h3>Can an international student work in a warehouse in Canada?</h3>
-<p>Some can, within limited off-campus hours. Check the current rules on the official IRCC website.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

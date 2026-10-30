@@ -174,20 +174,8 @@ class WebDeveloperJobsUsa2026MarketBlogSeeder extends Seeder
 <h3>Are there really thousands of web developer jobs open in the USA?</h3>
 <p>Job boards do list openings in that order of magnitude, but the counts include duplicates, reposts and aggregator entries for the same vacancy. The more reliable figure is the BLS projection of about 13,600 openings a year for web developers and digital designers across the decade.</p>
 
-<h3>Why do the salaries in job postings look higher than the national median?</h3>
-<p>Because postings that state a salary are not a random sample. Fourteen states require disclosure, several of them the most expensive in the country, and the rule usually applies above an employer-size threshold. Smaller employers, cheaper regions and junior roles are underrepresented among the postings you can read a number off.</p>
-
-<h3>Which states require a salary range in the job posting?</h3>
-<p>As of 2026: California, Colorado, Connecticut, Hawaii, Illinois, Maryland, Massachusetts, Minnesota, Nevada, New Jersey, New York, Rhode Island, Vermont and Washington, plus the District of Columbia. Virginia joins on 1 July 2026 and Maine on 29 July 2026. Requirements and employer-size thresholds differ by state.</p>
-
 <h3>What is the difference between Web Developer and Software Engineer postings?</h3>
 <p>In the federal data they are different occupations with a $43,330 gap in median pay: $92,650 against $135,980. Some employers use "Software Engineer" for web work and some mean applications engineering. Read the requirements rather than the title.</p>
-
-<h3>Is a .NET web developer role different from a React one?</h3>
-<p>In practice, yes. .NET and C# work concentrates in enterprise, finance, healthcare and government, is more often on-site or hybrid, and a noticeable share of it asks for a security clearance, which narrows the field to authorised US persons.</p>
-
-<h3>Do I need a degree to apply for these postings?</h3>
-<p>A bachelor's is the typical stated requirement, but BLS notes employer requirements in this field range from a high school diploma upward, and a deployed portfolio carries real weight. Apply anyway if the stack matches.</p>
 
 <h3>How many of these jobs are genuinely remote?</h3>
 <p>A large share, and more than in most fields. Check three things before applying: the required hours of overlap, whether pay is indexed to your location, and whether "remote" means remote within the United States.</p>

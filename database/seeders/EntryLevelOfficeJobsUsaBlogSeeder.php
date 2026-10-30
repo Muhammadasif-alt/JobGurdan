@@ -311,18 +311,6 @@ JOBHTML;
 <h3>Is the blended "$18.94 an hour" figure accurate?</h3>
 <p>It is close to the receptionist median and low for the others, and it does not support the $46,000 to $52,000 annual range quoted beside it. That hourly rate works out at $39,395 a year.</p>
 
-<h3>Are office jobs a growing field?</h3>
-<p>No. BLS projects the office and administrative support group to decline through 2035, with general office clerks down 6% and customer service representatives down 5%. The openings come from turnover.</p>
-
-<h3>If the field is shrinking, is it still worth entering?</h3>
-<p>Yes, because roughly 1.7 million openings a year still arise from replacement. Treat it as an entry point and move toward a specialism rather than staying in a general clerical role indefinitely.</p>
-
-<h3>Which entry-level office job pays best?</h3>
-<p>Medical records specialist, at a median of $51,140, and it is the only one BLS projects to grow. It needs a postsecondary nondegree award rather than just a diploma.</p>
-
-<h3>What software should I learn before applying?</h3>
-<p>Word, Excel and Outlook, or the Google Workspace equivalents. It is the most consistently requested requirement across these postings and free tutorials are enough to start.</p>
-
 <h3>How do I spot an entry-level office job scam?</h3>
 <p>Any request for payment ends it. The FTC's rule is that honest employers never ask you to pay to get a job, and fake-check and reshipping schemes target this category heavily.</p>
 

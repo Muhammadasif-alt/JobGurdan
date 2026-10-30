@@ -322,18 +322,6 @@ JOBHTML;
 <h3>Is customer service a growing career?</h3>
 <p>No. The BLS projects employment of customer service representatives to decline 5 percent from 2025 to 2035. It still expects about 289,500 openings a year, mostly from people leaving the job.</p>
 
-<h3>Do remote employers provide a computer?</h3>
-<p>It depends on the employer and role. TTEC says most of its work-from-home roles require your own Windows PC, high-speed internet and headset. One Concentrix posting says a computer may be provided but is not guaranteed.</p>
-
-<h3>Can I work remote customer service from any state?</h3>
-<p>Not always. TTEC's remote posting excludes applicants in Alaska, California, Hawaii, Illinois and Montana. The Concentrix postings require you to live in the United States.</p>
-
-<h3>Do I have to pay for training?</h3>
-<p>No. TTEC and Concentrix pay new starters during training. The FTC warns that paying for starter kits, training or certifications is a hallmark of job scams.</p>
-
-<h3>How do I spot a work-from-home job scam?</h3>
-<p>The FTC says honest employers never ask you to pay to get a job, never send a cheque for you to deposit and forward part of, and a request for personal details "for payroll" before a real offer can lead to identity theft.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other remote or entry-level routes? These cover them:</p>

@@ -59,11 +59,11 @@ it('renders with its long-tail sections', function () {
         ->assertSee('labour.punjab.gov.pk/minimum-wages-notification');
 });
 
-it('carries eight FAQs in markup built from the post body', function () {
+it('carries four FAQs in markup built from the post body', function () {
     $faqs = app(StructuredDataService::class)
         ->faqsFromHtml(Blog::where('slug', BILLING_SLUG)->value('content'));
 
-    expect($faqs)->toHaveCount(8);
+    expect($faqs)->toHaveCount(4);
 
     $this->get('/blog/'.BILLING_SLUG)->assertSee('"FAQPage"', false);
 });

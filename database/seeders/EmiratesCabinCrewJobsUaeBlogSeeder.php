@@ -290,20 +290,8 @@ JOBHTML;
 <h3>Do I need a degree to be Emirates cabin crew?</h3>
 <p>No. A minimum of high school, Grade 12, education is required, along with at least one year of hospitality or customer service experience.</p>
 
-<h3>Can I have tattoos as Emirates cabin crew?</h3>
-<p>Emirates requires no visible tattoos while in the cabin crew uniform. The rule is about visibility in uniform, not about having tattoos at all.</p>
-
-<h3>Is there an online assessment for Emirates cabin crew?</h3>
-<p>Not currently. Emirates says it is not offering online assessment days, so you need to attend an Open Day or assessment day in person.</p>
-
-<h3>How long is Emirates cabin crew training?</h3>
-<p>Seven and a half weeks in Dubai, covering induction, safety and emergency procedures, medical training, security, hospitality, uniform and service.</p>
-
 <h3>Is Emirates cabin crew salary tax-free?</h3>
 <p>The UAE does not levy income tax on individuals, so the salary is not reduced by payroll tax. Accommodation and utilities are also provided free.</p>
-
-<h3>Does Emirates charge a fee to apply?</h3>
-<p>No. Emirates states that any job offer seemingly from it that asks you for money is fraudulent, and that it never asks applicants for payment of any kind.</p>
 
 <h2>More Job Guides</h2>
 

@@ -59,11 +59,11 @@ it('renders with its long-tail sections', function () {
         ->assertSee('nhsemployers.org/articles/pay-scales-202627');
 });
 
-it('carries eight FAQs in markup built from the post body', function () {
+it('carries four FAQs in markup built from the post body', function () {
     $faqs = app(StructuredDataService::class)
         ->faqsFromHtml(Blog::where('slug', PHYSIO_SLUG)->value('content'));
 
-    expect($faqs)->toHaveCount(8);
+    expect($faqs)->toHaveCount(4);
 
     $this->get('/blog/'.PHYSIO_SLUG)->assertSee('"FAQPage"', false);
 });

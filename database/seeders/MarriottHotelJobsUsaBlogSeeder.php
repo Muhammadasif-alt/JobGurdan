@@ -328,18 +328,6 @@ JOBHTML;
 <h3>Does Marriott publish what it pays?</h3>
 <p>Not nationally. It prints a per-property pay range on its own adverts in the states that require one, so searching a pay-transparency state such as California, Washington or Colorado is the way to see real figures.</p>
 
-<h3>Do I get the employee hotel discount at any Marriott hotel?</h3>
-<p>No. Marriott's wording is that all Marriott associates at hotels and locations managed by Marriott are eligible for Explore by Marriott Bonvoy. Marriott's benefits do not apply to employees of businesses operated by independent franchisees.</p>
-
-<h3>What is the front desk job called at a Marriott-managed hotel?</h3>
-<p>Guest Experience Expert. If the advert says Front Desk Agent or Guest Service Agent, it is most likely a franchisee posting rather than a Marriott-managed one.</p>
-
-<h3>Do I need a high school diploma for a Marriott hotel job?</h3>
-<p>For the front desk role, yes, Marriott's adverts ask for a high school diploma or G.E.D. equivalent. For housekeeping, Marriott's own adverts state that no diploma is required.</p>
-
-<h3>Should I apply through a job board instead of Marriott's site?</h3>
-<p>No. Boards duplicate the same vacancy and their links expire; several Marriott posting URLs returned a 404 while this guide was being checked. Marriott's own search carries both managed and franchised vacancies anyway.</p>
-
 <h3>How many Marriott hotels are there in the US?</h3>
 <p>Marriott reports 6,360 properties with 1,065,108 rooms in the United States and Canada, part of 9,805 properties across 145 countries and territories under more than 30 brands.</p>
 

@@ -328,18 +328,6 @@ JOBHTML;
 <h3>What must a job posting include in Ontario in 2026?</h3>
 <p>For employers with 25 or more employees: the pay or a range no wider than $50,000, whether AI is used in screening, whether the vacancy exists, and no Canadian experience requirement.</p>
 
-<h3>Does British Columbia require salary ranges in job ads?</h3>
-<p>Yes. The Pay Transparency Act has required wage or salary ranges on publicly advertised job postings since 1 November 2023.</p>
-
-<h3>Is the CPHR recognized in Ontario?</h3>
-<p>Ontario uses the HRPA's CHRP, CHRL and CHRE designations instead. Quebec uses the CRHA.</p>
-
-<h3>Do I need a degree to become a recruiter?</h3>
-<p>No. A degree in HR or business helps, but many recruiters come from sales and customer service backgrounds.</p>
-
-<h3>What NOC code is a recruiter in Canada?</h3>
-<p>NOC 12101, human resources and recruitment officers, a TEER 2 occupation.</p>
-
 <h3>Is it a good time to become a recruiter in Canada?</h3>
 <p>Hiring is slower than guides suggest: unemployment was 6.4 per cent in August 2026 and employment fell by 42,000 that month, which hits commission-based agency roles hardest.</p>
 

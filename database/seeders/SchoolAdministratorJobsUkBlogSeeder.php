@@ -369,20 +369,8 @@ JOBHTML;
 <h3>Are school administrator jobs term-time only?</h3>
 <p>Some are. The National Careers Service says school secretaries may be employed term-time only, and working weeks range from a few hours to full time.</p>
 
-<h3>What is the difference between FTE and actual salary?</h3>
-<p>FTE is what the job would pay full time, all year. Actual salary is what you are paid for your real hours and weeks, for example £11,651.76 on a £25,721 FTE part-time listing.</p>
-
-<h3>Do school administrators need a DBS check?</h3>
-<p>Yes. The National Careers Service says you need to pass enhanced background checks, and Keeping children safe in education sets out enhanced DBS checks for school staff.</p>
-
-<h3>Can a school sponsor a visa for a school administrator?</h3>
-<p>No. School secretaries (SOC code 4213) are ineligible for the Skilled Worker visa, so you need existing UK work rights.</p>
-
 <h3>Where are school administrator jobs advertised?</h3>
 <p>In England, on GOV.UK Teaching Vacancies. Also check GOV.UK Find a job, council careers sites, academy trust websites and independent school websites.</p>
-
-<h3>What is the difference between a school administrator and a school secretary?</h3>
-<p>The roles overlap. A school secretary is usually the first contact for parents and visitors, while a school administrator title may carry more data, admissions, attendance or finance work.</p>
 
 <h2>More Job Guides</h2>
 

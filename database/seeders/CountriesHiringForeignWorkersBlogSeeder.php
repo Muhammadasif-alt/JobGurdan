@@ -153,18 +153,6 @@ class CountriesHiringForeignWorkersBlogSeeder extends Seeder
 <h3>Is a job board a safe way to find jobs abroad?</h3>
 <p>Job boards list genuine vacancies, but they are not a government service. Use them to find employers, then confirm sponsorship and visa details on the official immigration website.</p>
 
-<h3>Do I need to speak the local language?</h3>
-<p>Not always. English is enough for many roles in Canada, Australia, Ireland, New Zealand, Singapore and the UAE. Germany and Japan often require at least basic local-language skills, especially in healthcare and care work.</p>
-
-<h3>Which countries sponsor low-skilled workers?</h3>
-<p>Few do. The UK's Skilled Worker route now covers mainly degree-level roles, and most routes in this list are for skilled or shortage occupations.</p>
-
-<h3>Can a recruiter guarantee my visa?</h3>
-<p>No. Only the immigration authority decides, and a promise of guaranteed approval is a strong sign of fraud.</p>
-
-<h3>Is the UAE open to foreign workers?</h3>
-<p>Yes, through employer-sponsored residence visas, but contracts vary widely, so read the terms and check the employer before you sign.</p>
-
 <h3>Where do I check a country's shortage list?</h3>
 <p>On the official immigration or labour site of that country, such as GOV.UK for the UK Temporary Shortage List or the Home Affairs site for Australia.</p>
 

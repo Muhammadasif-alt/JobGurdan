@@ -230,18 +230,6 @@ JOBHTML,
 <h3>What is the minimum an HGV driver can be paid?</h3>
 <p>No less than the National Living Wage, which is £12.71 an hour for workers aged 21 and over from April 2026.</p>
 
-<h3>How much tax does an HGV driver pay?</h3>
-<p>In England on £37,500 with a standard tax code, about £4,986 income tax and £1,994 National Insurance a year.</p>
-
-<h3>Can I work as an HGV driver in the UK from Pakistan?</h3>
-<p>Only if you already have the legal right to work in the UK and hold, or can gain, a UK HGV licence. There is no standard sponsorship route.</p>
-
-<h3>How many hours can an HGV driver work?</h3>
-<p>The average working week is limited to 48 hours unless you opt out, and daily driving is capped at 9 hours, or 10 hours twice a week.</p>
-
-<h3>Do foreign drivers earn the same as British drivers?</h3>
-<p>Yes. UK pay and minimum wage laws apply to everyone working legally.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

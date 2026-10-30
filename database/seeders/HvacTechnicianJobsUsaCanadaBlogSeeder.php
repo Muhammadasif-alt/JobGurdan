@@ -381,20 +381,8 @@ JOBHTML;
 <h3>Is HVAC technician demand growing?</h3>
 <p>Yes. BLS projects 11 per cent growth from 2025 to 2035 in the United States, much faster than average, with about 40,600 openings a year.</p>
 
-<h3>Do I need EPA 608 certification?</h3>
-<p>In the United States, yes, to work on equipment that could release refrigerant. A registered apprentice may work under close supervision for up to two years. The certification never expires.</p>
-
 <h3>Do I need EPA 608 in Canada?</h3>
 <p>No. Canada uses provincial rules. In Ontario, refrigerant handling needs an Ozone Depletion Prevention card, alongside the trade certificate.</p>
-
-<h3>In which provinces is HVAC certification compulsory?</h3>
-<p>Nova Scotia, New Brunswick, Quebec, Ontario, Manitoba, Saskatchewan and Alberta. It is voluntary in the other provinces and the territories.</p>
-
-<h3>Which US states license HVAC technicians?</h3>
-<p>It varies. Texas requires technicians working for a licensed contractor to hold a TDLR registration or certification. California, Arizona and Florida license contractors rather than employed technicians. Check your state board and city.</p>
-
-<h3>How long does it take to become an HVAC technician?</h3>
-<p>In the US, a postsecondary programme takes six months to two years and an apprenticeship several years. In Canada, the certification route is a three- to five-year apprenticeship.</p>
 
 <h2>More Job Guides</h2>
 

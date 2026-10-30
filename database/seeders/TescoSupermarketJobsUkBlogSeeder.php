@@ -331,18 +331,6 @@ JOBHTML;
 <h3>Can 16 and 17 year olds work at Tesco?</h3>
 <p>Tesco recruits from school leaving age, but many store adverts require you to be over 18, including roles working before 6:15am or after 9:45pm. Check the age line on the advert.</p>
 
-<h3>Does Tesco pay more in London?</h3>
-<p>Yes. The London Location Allowance of &pound;1.27 an hour takes the rate to &pound;14.55 for colleagues inside the M25.</p>
-
-<h3>When does the Tesco staff discount start?</h3>
-<p>Not on day one. Tesco's benefits page places the Colleague Clubcard at four weeks for permanent colleagues, and adverts place the second family card at 12 weeks of service.</p>
-
-<h3>Does Tesco sponsor visas for store jobs?</h3>
-<p>Tesco publishes no statement either way. You need the right to work in the UK before you can be employed, and it is checked before you start.</p>
-
-<h3>How long does a Tesco application take?</h3>
-<p>Tesco says an application for a role in its stores or distribution centres can take up to five weeks to review.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing UK retail employers, or working out whether you can take the job at all? These cover the ground:</p>

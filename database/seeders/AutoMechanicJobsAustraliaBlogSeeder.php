@@ -312,20 +312,8 @@ JOBHTML;
 <h3>Do I need Year 10 or Year 12 to start?</h3>
 <p>No. AUR30620 lists no entry requirements, and the award sets apprentice rates for people who have not completed Year 12. Individual employers can still set their own preferences.</p>
 
-<h3>What qualification do mechanics need in Australia?</h3>
-<p>AUR30620 Certificate III in Light Vehicle Mechanical Technology, which has 36 units and replaced AUR30616. AUR20520 Certificate II in Automotive Servicing Technology is an optional pre-apprenticeship course.</p>
-
 <h3>How much do apprentice mechanics earn?</h3>
 <p>Under the Vehicle Repair, Services and Retail Award from 1 July 2026, junior apprentices earn 50 to 55 per cent of the $1,119.10 tradesperson rate in the first year, rising to 88 per cent. Adult apprentices start at $895.28 a week.</p>
-
-<h3>How much does a qualified mechanic earn in Australia?</h3>
-<p>Your Career lists $1,405 a week for Motor Mechanics (General), about $73,000 a year. The award minimum for a qualified tradesperson is $1,119.10 a week from 1 July 2026.</p>
-
-<h3>Do mechanics need a licence in Australia?</h3>
-<p>In some states. NSW requires a motor vehicle tradesperson certificate and WA a motor vehicle repairer's certificate to work unsupervised. Vehicle air conditioning work needs an automotive air conditioning licence everywhere.</p>
-
-<h3>Can overseas mechanics get a visa for Australia?</h3>
-<p>Motor Mechanic (General), 321211, is on the Core Skills Occupation List and the Medium and Long-term Strategic Skills List, with Trades Recognition Australia as the assessing authority.</p>
 
 <h2>More Job Guides</h2>
 

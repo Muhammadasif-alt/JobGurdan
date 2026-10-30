@@ -335,18 +335,6 @@ JOBHTML;
 <h3>What band is an NHS housekeeper or domestic?</h3>
 <p>Band 2, which pays &pound;25,272 in England in 2026/27. Supervisors are Band 3 and above, and Band 1 closed to new starters in England in December 2018.</p>
 
-<h3>Do housekeepers need a DBS check?</h3>
-<p>It depends on the workplace. Care home domestics usually get an enhanced check without the barred lists, hospital ward domestics a standard check, and hotel and private household housekeepers a basic check at most. Scotland uses PVG and Northern Ireland uses AccessNI.</p>
-
-<h3>Can I get a UK visa to work as a housekeeper?</h3>
-<p>No. Housekeepers (6231), cleaners and domestics (9223) and cleaning and housekeeping supervisors (6240) are all in Table 6 of Appendix Skilled Occupations and cannot be sponsored. The Overseas Domestic Worker visa only covers staff who have worked for a household abroad for a year, for up to 6 months.</p>
-
-<h3>Do hotel housekeepers get a share of tips?</h3>
-<p>Where the hotel handles tips or service charges, it must pass them all on and share them fairly under a written policy, under the Employment (Allocation of Tips) Act 2023 in force since 1 October 2024.</p>
-
-<h3>Do I need experience to become a housekeeper?</h3>
-<p>No. Most hotels, hospitals and care homes train new starters, including safe use of cleaning chemicals and manual handling. Experience and reliable references help for private household roles.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing housekeeping with other entry-level work in the UK and abroad? These cover it:</p>

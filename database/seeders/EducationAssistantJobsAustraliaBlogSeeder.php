@@ -356,18 +356,6 @@ JOBHTML;
 <h3>Do education assistants need a working with children check?</h3>
 <p>Yes. NSW lists a Working with Children Check clearance as essential, South Australia requires a valid check, and Queensland teacher aides must hold a blue card.</p>
 
-<h3>Are there part-time education assistant jobs?</h3>
-<p>Yes. Most WA listings offer full-time and part-time work, and South Australian SSOs can be employed for school terms only, with a 16% loading, or casually, with a 25% loading.</p>
-
-<h3>Can I work as an education assistant while studying teaching?</h3>
-<p>Yes. South Australia's Work While You Study program employs pre-service teachers as SSOs or early childhood workers. Registrations for 2026 have closed, and 2027 registrations open later in the year.</p>
-
-<h3>Can international applicants apply for education assistant jobs?</h3>
-<p>Only with existing work rights. South Australia, for example, requires Australian residency or a current work visa, and every state requires its own working with children check.</p>
-
-<h3>Where do I apply for education assistant jobs in government schools?</h3>
-<p>Through WA Department of Education current jobs, NSW Department of Education careers, School Jobs Vic, EduJobs in South Australia and the Queensland Department of Education vacancies page.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other education or entry-level work? These cover it:</p>

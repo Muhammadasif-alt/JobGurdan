@@ -136,12 +136,6 @@ class UaPlumberPipefitterApprenticeshipTestBlogSeeder extends Seeder
 
 <p>Use fresh questions to test understanding, and build accuracy before practising to the time limits your assessment really has. Confirm your appointment, identification and permitted materials, and listen to section directions because scoring and navigation rules can differ. Prepare truthful interview examples of reliability, teamwork and willingness to learn: the problem, your action and the outcome. If you are stuck, list what the question gives you, check whether it asks for the amount used, remaining or total, and estimate before you calculate. See <a href="/blog/can-you-retake-apprenticeship-aptitude-test">retake rules</a> and the <a href="/blog/sheet-metal-workers-aptitude-test-study-plan">sheet metal test guide</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is every UA entrance test the same?</h3>
@@ -156,18 +150,6 @@ class UaPlumberPipefitterApprenticeshipTestBlogSeeder extends Seeder
 <h3>Must I buy a preparation course?</h3>
 <p>No universal purchase requirement exists. Ask about approved resources first.</p>
 
-<h3>What does Local 597 test?</h3>
-<p>Numerical reasoning, numerical comprehension, spatial reasoning, reading and Bennett mechanical aptitude.</p>
-
-<h3>How old must I be?</h3>
-<p>The UA says applicants must typically be at least 18 with a high school diploma or GED.</p>
-
-<h3>Is there an interview?</h3>
-<p>The UA says the process may include an interview, an aptitude test and physical requirements.</p>
-
-<h3>Does passing give me a trade licence?</h3>
-<p>No. A test result does not grant a licence or a guaranteed placement.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -179,7 +161,6 @@ class UaPlumberPipefitterApprenticeshipTestBlogSeeder extends Seeder
     <li><a href="/blog/sheet-metal-workers-aptitude-test-study-plan">Sheet Metal Aptitude Test: Sections, Tips, Study Plan</a>: sheet metal entry</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 16 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

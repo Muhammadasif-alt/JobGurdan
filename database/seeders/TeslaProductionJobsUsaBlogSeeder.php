@@ -310,18 +310,6 @@ JOBHTML;
 <h3>How much lifting does the job involve?</h3>
 <p>Tesla's posting requires frequently and repetitively lifting, pushing and carrying up to 35 lbs, plus standing and walking for up to 12 hours a day.</p>
 
-<h3>Which US sites hire Production Associates?</h3>
-<p>Austin and Kyle in Texas, Fremont and Lathrop in California, and Sparks in Nevada. All are on-site roles with no remote option.</p>
-
-<h3>Does Tesla match 401(k) contributions?</h3>
-<p>Yes. Tesla matches 50% of your contribution up to 3% of eligible pay, with a cap of $3,000 a year.</p>
-
-<h3>Are night and weekend shifts compulsory?</h3>
-<p>Effectively yes. The posting requires openness to days, nights, overnight and weekends plus potential overtime, because the plants run continuously.</p>
-
-<h3>Is Tesla really building Cybercab already?</h3>
-<p>Yes, but early. Production started at Giga Texas during 2026, and Tesla said the initial ramp would be slow because the manufacturing approach is new.</p>
-
 <h3>Can I apply to Tesla from outside the United States?</h3>
 <p>These are on-site production roles that require the legal right to work in the US. Tesla does not sponsor visas for entry-level production work.</p>
 

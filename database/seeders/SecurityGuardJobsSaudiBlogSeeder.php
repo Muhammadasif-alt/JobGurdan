@@ -306,18 +306,6 @@ JOBHTML;
 <h3>Do I need to speak Arabic?</h3>
 <p>You need to read and write in Arabic or in the company's working language, because incident reporting and log-keeping are core parts of the job. This is a genuine requirement and the most common reason applicants are rejected at interview.</p>
 
-<h3>Can I get a security guard job in Saudi Arabia without experience?</h3>
-<p>Yes. Entry-level posts in malls, compounds and warehouses are open to applicants with no security background. Prior security, military or police service is preferred and often moves you up a pay band.</p>
-
-<h3>How long does the visa process take from Pakistan?</h3>
-<p>Roughly two to six weeks from the point your documents are complete, and longer if attestation or police clearance is outstanding. A job offer must exist first: there is no legal way to obtain a Saudi work visa without employer sponsorship.</p>
-
-<h3>Should I ever pay an agent for a Saudi security job?</h3>
-<p>No. Saudi rules place recruitment costs on the employer, and your own government caps what a licensed agency may charge. In Pakistan check the Overseas Employment Promoter licence issued by the Bureau of Emigration and Overseas Employment, not membership of any trade association.</p>
-
-<h3>What are the working hours and overtime rules?</h3>
-<p>Eight hours a day and 48 a week under the Saudi Labour Law, dropping to 36 hours a week for Muslim employees during Ramadan. Hours beyond the legal limit are paid at 150% of your basic wage, which is an entitlement rather than a bonus.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing entry-level routes into the Gulf and beyond? These cover the rest:</p>

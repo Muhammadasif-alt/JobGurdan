@@ -272,18 +272,6 @@ JOBHTML;
 <h3>Which state pays help desk technicians the most?</h3>
 <p>The District of Columbia, with a mean of $85,690, followed by California, Washington, Colorado and Massachusetts.</p>
 
-<h3>Are help desk jobs in demand?</h3>
-<p>The BLS projects employment of computer user support specialists to fall 3% from 2025 to 2035 as organizations automate troubleshooting, though about 48,700 openings a year come up across computer support roles as people leave.</p>
-
-<h3>Do I need a degree for a help desk job?</h3>
-<p>Not necessarily. The BLS says user support specialists typically need some college, but a high school diploma plus relevant IT certifications can qualify.</p>
-
-<h3>What are the current CompTIA A+ exams?</h3>
-<p>The V15 exams, 220-1201 (Core 1) and 220-1202 (Core 2), launched on 25 March 2025. Each has up to 90 questions in 90 minutes.</p>
-
-<h3>What is the passing score for CompTIA A+?</h3>
-<p>675 for Core 1 and 700 for Core 2, on a scale of 100 to 900.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Planning the next step in IT? These cover it:</p>

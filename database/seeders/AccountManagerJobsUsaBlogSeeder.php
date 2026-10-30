@@ -350,18 +350,6 @@ JOBHTML;
 <h3>Do account managers need a degree?</h3>
 <p>Often preferred, not always required. The BLS gives sales managers a bachelor's degree, but for wholesale and manufacturing sales reps education varies by product type, and advertising sales agents typically need a high school diploma.</p>
 
-<h3>Are account manager jobs remote in the USA?</h3>
-<p>Many software roles are. HubSpot lists Remote - USA on its US sales jobs and says 72% of staff work @home, while Salesforce says many roles offer location flexibility.</p>
-
-<h3>Are account manager jobs in demand?</h3>
-<p>Openings come mostly from turnover. Wholesale and manufacturing sales reps are projected at 0% growth with about 123,400 openings a year; sales managers grow 4% with about 47,300 openings a year.</p>
-
-<h3>What CRM should I learn?</h3>
-<p>Salesforce and HubSpot cover most postings, with Microsoft Dynamics and Zoho common in smaller companies. Employers care more that you can keep accurate records and report from them.</p>
-
-<h3>Can I move into account management from customer service?</h3>
-<p>Yes, that is one of the most common routes, along with sales development, account coordination and client services.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at client-facing and commercial careers? These cover them:</p>

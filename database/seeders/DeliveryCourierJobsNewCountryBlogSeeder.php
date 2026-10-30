@@ -287,20 +287,8 @@ JOBHTML;
 <h3>Who pays for a UAE delivery job visa?</h3>
 <p>The employer. Article 6 of Federal Decree-Law No. 33 of 2021 bars employers from charging workers recruitment and employment costs.</p>
 
-<h3>Can I get a UK Skilled Worker visa as a delivery driver?</h3>
-<p>No. Delivery drivers and couriers (SOC 8214) are listed as ineligible for the Skilled Worker visa.</p>
-
-<h3>Can I work as a self-employed courier in the UK without a visa?</h3>
-<p>No. Self-employed courier networks still require the right to work in the UK.</p>
-
-<h3>What is the difference between an employed and a self-employed courier?</h3>
-<p>Employed drivers usually get a vehicle, fuel and tax deducted from pay. Self-employed couriers cover their own vehicle, fuel, insurance and tax.</p>
-
 <h3>What documents do delivery companies ask for?</h3>
 <p>A passport, proof of the right to work, a licence valid in the country, a police certificate and, for some roles, vehicle insurance.</p>
-
-<h3>How do I spot a fake delivery job offer?</h3>
-<p>It asks for a fee, promises a visa the country does not offer for the role, or cannot be found on the employer's own site or an official job portal.</p>
 
 <h2>More Job Guides</h2>
 

@@ -241,18 +241,6 @@ HTML;
 <h3>Do I have to be ranked first for a federal job?</h3>
 <p>No. Under category rating, agencies place candidates into two or more quality categories and the manager may select anyone in the highest one. Veterans' preference operates as absolute preference within each category.</p>
 
-<h3>What can an employer not ask me in a job application?</h3>
-<p>Anything used to discriminate on race, colour, religion, sex including transgender status, sexual orientation and pregnancy, national origin, age 40 or over, disability or genetic information. Pre-offer questions about disability are explicitly prohibited.</p>
-
-<h3>Can an employer ask my salary history?</h3>
-<p>There is no single federal ban. Restrictions exist but are set by state and local law and vary, so check the rule where the role is based.</p>
-
-<h3>What are my rights if an employer runs a background check?</h3>
-<p>You must be told in writing, in a stand-alone notice, and give written permission. Before rejecting you over the report the employer must give you a copy of it and a Summary of Your Rights under the FCRA, and afterwards must tell you who produced it and that you may dispute it and get a free copy within 60 days.</p>
-
-<h3>When do I complete Form I-9?</h3>
-<p>The employer must complete Section 2 within three business days of the date employment begins, or by the first day if the job lasts fewer than three business days. It is a post-hire verification step, not an application screening question.</p>
-
 <h3>How do I tell if a developer job advert is a scam?</h3>
 <p>The clearest test is money. The FTC states that honest employers, including the federal government, will never ask you to pay to get a job. Treat forwarded cheques, equipment fees and quick-money promises as scams.</p>
 

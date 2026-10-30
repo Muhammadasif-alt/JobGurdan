@@ -250,18 +250,6 @@ JOBHTML;
 <h3>Is it legal to buy followers for a client?</h3>
 <p>No. The FTC's Consumer Reviews and Testimonials Rule, effective 21 October 2024, prohibits buying or selling fake indicators of social media influence such as bot-generated or hijacked-account followers and views, with civil penalties currently up to $51,744 per violation.</p>
 
-<h3>Do I have to disclose sponsored content I post for a brand?</h3>
-<p>Yes. Under the FTC Endorsement Guides, effective 26 July 2023, material connections must be disclosed clearly and conspicuously in a form suited to the platform: at the start of an Instagram caption, spoken early in a TikTok, and both spoken and written on YouTube.</p>
-
-<h3>How do I earn more as a social media manager?</h3>
-<p>Take responsibility for paid budget. Managing ad spend and reporting on return moves you from being priced as a content producer to being priced as a marketer, and it is the largest single step in this field.</p>
-
-<h3>What should a freelance social media retainer include?</h3>
-<p>Define the deliverables, the community management response window and volume, and the revision limits in writing. Community management is the item that expands without limit if it is left undefined.</p>
-
-<h3>Who should own the client's social accounts?</h3>
-<p>The client, always, including the login credentials and any business manager assets. Agree it before you start; withholding account access is the fastest way to end a freelance career.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking across the rest of the marketing and creative market? These cover it:</p>

@@ -286,14 +286,14 @@ it('seeds a published guide within the SEO limits', function (string $seeder) {
         ->and($blog->featured_image)->toStartWith('blogs/');
 })->with('abroadGuides');
 
-it('has eight FAQs and no People Also Search For block', function (string $seeder) {
+it('has at least four FAQs and no People Also Search For block', function (string $seeder) {
     $this->seed($seeder);
 
     $content = Blog::where('slug', $seeder::SLUG)->firstOrFail()->content;
     [, $faq] = explode('<h2>Frequently Asked Questions</h2>', $content);
     [$faq] = explode('<h2>', $faq);
 
-    expect(substr_count($faq, '<h3>'))->toBe(8)
+    expect(substr_count($faq, '<h3>'))->toBeGreaterThanOrEqual(4)
         ->and($content)->not->toContain('People Also Search For');
 })->with('abroadGuides');
 

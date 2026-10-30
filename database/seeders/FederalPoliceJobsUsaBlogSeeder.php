@@ -282,18 +282,6 @@ JOBHTML;
 <h3>What is the age limit for federal law enforcement?</h3>
 <p>It depends on the agency: the FBI takes applications before the 38th birthday, CBP refers candidates before the 40th, the DEA and US Marshals appoint up to 36, and ICE has had no maximum age since August 2025.</p>
 
-<h3>Do I need a degree for federal law enforcement?</h3>
-<p>Not for every job. CBP officers can qualify with three years of work experience, but FBI special agents need a bachelor's degree and two years of professional experience.</p>
-
-<h3>What is LEAP pay?</h3>
-<p>Law Enforcement Availability Pay: 25% of basic pay, including locality, for criminal investigators in the GS-1811 and GS-1812 series who average two or more hours a day of unscheduled duty.</p>
-
-<h3>Where do federal agents train?</h3>
-<p>Many train at the Federal Law Enforcement Training Centers, where the Criminal Investigator Training Program runs 59 training days. FBI special agents train at Quantico.</p>
-
-<h3>Can a green card holder become a federal police officer?</h3>
-<p>No. Federal law enforcement jobs require US citizenship. Some state and local police departments hire permanent residents.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing public service and security careers? These cover it:</p>

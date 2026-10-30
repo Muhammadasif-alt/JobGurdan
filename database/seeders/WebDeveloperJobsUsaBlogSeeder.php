@@ -281,18 +281,6 @@ JOBHTML;
 <h3>Can I get a web developer job without a degree?</h3>
 <p>Often, yes. A bachelor's is the typical stated requirement, but BLS notes employer requirements in this field range from a high school diploma upward, and a deployed portfolio with readable commit history carries real weight.</p>
 
-<h3>Is Toptal a bidding marketplace like Upwork?</h3>
-<p>No. Toptal accepts fewer than 3 per cent of applicants through a five-stage screen taking three to eight weeks, and matches clients to candidates through human matchers rather than bidding. Treat it as a selective employer you apply to, not a platform you sign up for.</p>
-
-<h3>What does a freelance web developer actually keep?</h3>
-<p>Less than the hourly rate suggests. Subtract 15.3% self-employment tax, income tax, your own health insurance, unpaid time between contracts, and any platform fee: Upwork's is now a per-contract 0% to 15% rather than a flat 10%.</p>
-
-<h3>Is the $100,000 H-1B fee still in effect?</h3>
-<p>Not currently. The September 2025 proclamation imposed it on certain petitions, but a Massachusetts federal court vacated the implementing guidance on 8 June 2026 and the First Circuit denied a stay on 24 July 2026, so USCIS is not enforcing it while DHS considers next steps. It is active litigation, so verify the current position with USCIS before relying on it.</p>
-
-<h3>What should I learn after landing a junior role?</h3>
-<p>Backend depth if you want the software developer band, which BLS puts at a $135,980 median with 10 per cent projected growth. Design systems and accessibility if you want the digital interface designer band at a $104,000 median. Both are reachable from a web developer role within a few years.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking across the rest of the remote and digital market? These cover it:</p>

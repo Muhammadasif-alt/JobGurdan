@@ -286,23 +286,11 @@ JOBHTML;
 
 <h2>Frequently Asked Questions</h2>
 
-<h3>What is the difference between an HVAC technician and a refrigeration technician?</h3>
-<p>BLS counts them as one occupation. In practice, HVAC technicians focus on heating and comfort cooling in homes and offices, while refrigeration technicians work on cold storage, supermarket and food plant systems. Both need EPA 608 certification.</p>
-
 <h3>What are the EPA 608 certification types?</h3>
 <p>Type I for small appliances, Type II for high-pressure equipment, Type III for low-pressure equipment, and Universal for all three. Each exam combines a core section with the type section, and certification does not expire.</p>
 
-<h3>Can an apprentice work on refrigerant without EPA 608?</h3>
-<p>Only if registered with the Department of Labor's Office of Apprenticeship or a recognised state council, closely supervised by a certified technician, and within two years of first registering.</p>
-
 <h3>Do refrigeration technicians earn more than HVAC technicians?</h3>
 <p>Modestly, on BLS data. The occupation's median was $66,150 in warehousing and storage and $64,760 in food manufacturing, against $60,070 at building equipment contractors. Overtime on plant shifts widens the gap.</p>
-
-<h3>Is RETA certification required?</h3>
-<p>No. CARO and CIRO are voluntary, but ammonia plants ask for them often and many employers pay for them after hiring.</p>
-
-<h3>Do I need a licence to be a refrigeration technician?</h3>
-<p>EPA 608 is required everywhere in the US. State rules vary: Texas requires a TDLR technician registration or certification, while other states license only contractors or leave it to cities.</p>
 
 <h3>Can I start in refrigeration with no experience?</h3>
 <p>Yes. Large cold storage and food companies hire entry-level candidates with trade school coursework or an EPA Universal certificate and train them on industrial systems.</p>

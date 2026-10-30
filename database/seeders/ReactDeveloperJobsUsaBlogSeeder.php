@@ -385,18 +385,6 @@ JOBHTML;
 <h3>Do I need TypeScript for React jobs in the USA?</h3>
 <p>In practice, yes. It appears on the majority of US React postings, and its absence is one of the more common reasons a CV is filtered out before a human reads it.</p>
 
-<h3>What is the entry-level salary for a React developer?</h3>
-<p>$65,000 to $90,000 at product companies and in the major metros. Lower is common at agencies and outside the big cities, given that a tenth of the occupation earns under $48,100.</p>
-
-<h3>Is freelance React work worth it?</h3>
-<p>It can be, but the rate depends on which work you take. Figma-to-React conversion is the most substitutable and the most price-shopped; state architecture, performance and refactoring carry a real rate. Price the states and revisions, or bill hourly.</p>
-
-<h3>Are remote React jobs common in the USA?</h3>
-<p>Very. Front end work is reviewable through a pull request, so SaaS, e-commerce and dashboard-heavy companies hire remotely as a matter of course. Confirm overlap hours and whether pay is indexed to your location before the offer stage.</p>
-
-<h3>React or Angular or Vue for US jobs?</h3>
-<p>React opens the most US postings by a wide margin, usually alongside Next.js. Vue and Angular are common in particular sectors and enterprises. Depth in one interviews far better than a list of three.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing the engineering routes? These cover them:</p>

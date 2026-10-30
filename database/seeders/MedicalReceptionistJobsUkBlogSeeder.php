@@ -300,18 +300,6 @@ JOBHTML;
 <h3>Do I need EMIS or SystmOne experience?</h3>
 <p>It helps, but most practices train. EMIS Web and SystmOne are the clinical record systems; Docman is separate document management software.</p>
 
-<h3>Do I need experience to be a medical receptionist?</h3>
-<p>Often not. Practices recruit from retail, contact centres and hospitality, because handling people under pressure is the transferable skill.</p>
-
-<h3>How busy is GP reception work?</h3>
-<p>Busy. Adverts commonly describe 40 to 60 calls a session, alongside the desk, prescriptions and the clinical system.</p>
-
-<h3>Is a DBS check required?</h3>
-<p>A background check appropriate to a patient-facing role is standard. The level depends on the post and the setting, and the employer arranges it.</p>
-
-<h3>Can I get a visa for a medical receptionist job?</h3>
-<p>No. The Skilled Worker threshold is &pound;41,700 or the going rate, and the occupation is below the skill level the route is built for.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking across UK healthcare and admin work? These cover the neighbouring routes:</p>

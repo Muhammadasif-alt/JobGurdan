@@ -316,23 +316,11 @@ JOBHTML;
 <h3>Why do some sites say database administrators earn $126,760?</h3>
 <p>Because that is the Occupational Outlook Handbook figure for the combined Database Administrators and Architects group. Administrators alone have a median of $104,620; architects have $139,500.</p>
 
-<h3>Is the AWS Certified Database Specialty still available?</h3>
-<p>No. AWS retired it and the last day the exam was offered was 29 April 2024. AWS named no replacement. Credentials already earned stay active for three years from the date they were awarded.</p>
-
-<h3>Which database certification is worth taking now?</h3>
-<p>Microsoft Certified: Azure Database Administrator Associate, exam DP-300, is current, as is Google's Professional Cloud Database Engineer at $200. Oracle's track is now called Oracle AI Database Administration Certified Professional, exam 1Z0-183. Note that the Microsoft credential is valid for twelve months and renews free online only during the six months before it expires.</p>
-
 <h3>Is database administration a growing field?</h3>
 <p>Modestly. Employment is projected to grow 4 per cent from 2025 to 2035 against 3.5 per cent for all occupations, adding about 6,500 jobs while producing roughly 7,300 openings a year, mostly from replacement. The wider computer and mathematical group grows 7.3 per cent.</p>
 
 <h3>Do you need a degree to become a database administrator?</h3>
 <p>BLS records the typical entry-level education as a bachelor's degree, and lists no on-the-job training for the occupation. Employers do accept equivalent experience, but the degree is the documented norm rather than the exception.</p>
-
-<h3>Which states and industries pay database administrators the most?</h3>
-<p>Massachusetts at $126,790, Maryland at $126,510, New Jersey at $125,070, Washington at $122,310 and California at $121,500. By industry, securities and commodity contracts at $133,100 and computer systems design at $124,290 lead, while hospitals at $107,630 pay below the occupational mean.</p>
-
-<h3>Does a US database administrator need to know HIPAA and GDPR?</h3>
-<p>Only where they apply. HIPAA binds covered entities and their business associates; GDPR reaches a US employer only through Article 3(2) targeting or monitoring. The CCPA as amended by the CPRA, SOX section 404 and the PCI DSS standard are more commonly relevant.</p>
 
 <h2>More Job Guides</h2>
 

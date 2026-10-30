@@ -316,18 +316,6 @@ JOBHTML;
 <h3>How do I find an employer who can sponsor me?</h3>
 <p>Canada has no sponsorship for work permits. What you are looking for is an employer with a positive LMIA. Search for "LMIA approved" rather than "sponsorship", and never pay a placement fee to anyone.</p>
 
-<h3>How much do farm workers earn in Canada?</h3>
-<p>Commonly quoted as CAD $16 to $22 an hour, but $16 is below the general minimum wage in both British Columbia ($18.25) and Ontario ($17.95). Check the province's rate and read the offer against that.</p>
-
-<h3>Is housing provided for farm workers in Canada?</h3>
-<p>Where employer-provided accommodation applies under the Agricultural Stream, the employer must file proof of an inspection carried out within the last eight months as part of the LMIA. Ask what is deducted for it before you travel.</p>
-
-<h3>Does farm work lead to permanent residence in Canada?</h3>
-<p>The Agri-Food Pilot was the pathway for this sector and it is closed. Its 1,010 places filled before the scheduled end date of 14 May 2025, and only applications submitted before 13 February 2025 are still being processed.</p>
-
-<h3>Is farm work in Canada seasonal or year round?</h3>
-<p>Both. Field harvesting is seasonal, while greenhouse, dairy, poultry and livestock operations run all year, and those year-round roles suit the Agricultural Stream's longer permits better than the eight-month seasonal programme.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing routes into Canada and elsewhere? These cover them:</p>

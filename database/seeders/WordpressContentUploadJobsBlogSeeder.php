@@ -412,20 +412,8 @@ JOBHTML;
 <h3>Do WordPress content upload jobs need coding?</h3>
 <p>No. Advanced coding is not required. Basic HTML helps you fix broken layouts quickly. Any listing demanding PHP, custom JavaScript, theme or plugin development is a developer role and should pay developer rates.</p>
 
-<h3>How long does it take to learn WordPress content uploading?</h3>
-<p>The mechanics take a few days. What takes longer is consistency at volume, and the judgement to notice a broken link, a bad slug or an error in the source text before the public does.</p>
-
-<h3>Should I charge per post or per month?</h3>
-<p>Per post is safer, because each unit of work has a known value. If you agree a monthly retainer, cap the volume in writing, for example up to 25 posts of up to 2,000 words with up to 5 images each, with a per-post rate beyond that.</p>
-
-<h3>Is a large unpaid test normal for these jobs?</h3>
-<p>No. One sample post is a reasonable test. A request for several unpaid posts is usually a way of obtaining free work, and the account frequently goes quiet once they are delivered. Ask for a small paid trial instead.</p>
-
 <h3>Do I need a WordPress certification?</h3>
 <p>No. No certification is generally required or expected. A portfolio of three well-formatted posts with a short explanation of the decisions you made is far more persuasive to a client than any certificate.</p>
-
-<h3>What is the difference between content upload and SEO assistant work?</h3>
-<p>The uploader executes: formatting, media, links, metadata and scheduling. The SEO assistant decides: keywords, structure, internal linking strategy and reporting. The second pays more and is the usual next step from the first.</p>
 
 <h2>More Job Guides</h2>
 

@@ -167,20 +167,8 @@ class BestCountriesTruckDriversAbroadBlogSeeder extends Seeder
 <h3>Do I need experience to get a truck driver visa?</h3>
 <p>Most sponsoring employers want verifiable driving experience, often one to two years or more, and a clean driving record. Requirements differ by country, so check the job posting and visa rules.</p>
 
-<h3>Can I drive a truck in the US without a US licence?</h3>
-<p>No. You need a US commercial driver's licence, and foreign applicants face federal and state rules, including language and residency requirements. Verify the current rules on the FMCSA site.</p>
-
 <h3>Is HGV driver a sponsored job in the UK?</h3>
 <p>Generally no. Since 22 July 2025 it is not on the Temporary Shortage List. See our UK HGV visa guide.</p>
-
-<h3>What is Code 95?</h3>
-<p>The Driver Certificate of Professional Competence code on European licences, needed for professional drivers.</p>
-
-<h3>Are truck driver offers online legitimate?</h3>
-<p>Many are, but scams exist. Verify the company on its official website, never pay to be hired and confirm sponsorship on the government's immigration site.</p>
-
-<h3>How much does a truck driver earn abroad?</h3>
-<p>It varies widely. As a benchmark, the US median is $58,640 a year for heavy and tractor-trailer drivers (BLS, May 2025). Each country publishes its own wage data.</p>
 
 <h2>More Job Guides</h2>
 

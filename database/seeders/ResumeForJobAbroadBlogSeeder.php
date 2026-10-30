@@ -168,18 +168,6 @@ class ResumeForJobAbroadBlogSeeder extends Seeder
 <h3>Does a good resume guarantee sponsorship?</h3>
 <p>No. Employer recruitment and immigration eligibility are separate checks.</p>
 
-<h3>How long should my resume be?</h3>
-<p>One or two pages is a practical target for most applications. Follow any limit the employer states.</p>
-
-<h3>Should I write a cover letter?</h3>
-<p>Only when the role asks for one. Use it to explain why your relevant background fits that position.</p>
-
-<h3>Can I use AI to write my CV?</h3>
-<p>You can, but review every sentence for accuracy and remove invented results or exaggerated skills.</p>
-
-<h3>Should I send my passport with my CV?</h3>
-<p>No. Provide identity documents only through a verified process when they are requested.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

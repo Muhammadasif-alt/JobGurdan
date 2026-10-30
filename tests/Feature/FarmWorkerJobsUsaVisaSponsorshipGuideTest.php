@@ -33,8 +33,8 @@ it('has its featured image on disk', function () {
     expect(file_exists(storage_path('app/public/blogs/farm-worker-jobs-usa-visa-sponsorship.jpg')))->toBeTrue();
 });
 
-it('carries exactly eight FAQs and no People Also Search For block', function () {
-    expect(app(StructuredDataService::class)->faqsFromHtml($this->blog->content))->toHaveCount(8);
+it('carries exactly four FAQs and no People Also Search For block', function () {
+    expect(app(StructuredDataService::class)->faqsFromHtml($this->blog->content))->toHaveCount(4);
 
 
     expect(substr_count($this->blog->content, 'People Also Search For'))->toBe(0);

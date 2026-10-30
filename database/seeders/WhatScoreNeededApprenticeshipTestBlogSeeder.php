@@ -132,12 +132,6 @@ class WhatScoreNeededApprenticeshipTestBlogSeeder extends Seeder
 
 <p>If you only just pass, prepare strong interview answers, and ask whether you can retake the test for the next cycle (see <a href="/blog/can-you-retake-apprenticeship-aptitude-test">retake rules</a>). Never pay anyone for a guaranteed score or placement.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is 70% the passing score for apprenticeship tests?</h3>
@@ -149,20 +143,8 @@ class WhatScoreNeededApprenticeshipTestBlogSeeder extends Seeder
 <h3>Can I ask what score I need?</h3>
 <p>Yes, and you should. Asking directly is more reliable than assuming a number.</p>
 
-<h3>What if I fail by a small margin?</h3>
-<p>Policies differ: some allow a retest after a wait, others require a new application cycle.</p>
-
-<h3>Does the interview matter if my score is high?</h3>
-<p>Often yes. At NEIEP the interview score decides the ranking.</p>
-
 <h3>What is a WorkKeys cumulative score?</h3>
 <p>UA Local 190 requires a cumulative score of 17 or higher across its WorkKeys subjects.</p>
-
-<h3>Do all programmes rank applicants?</h3>
-<p>No. Some use a cutoff, some rank, and some combine both.</p>
-
-<h3>Can I pay to improve my chances?</h3>
-<p>No. Never pay anyone for a guaranteed score or placement.</p>
 
 <h2>More Job Guides</h2>
 
@@ -175,7 +157,6 @@ class WhatScoreNeededApprenticeshipTestBlogSeeder extends Seeder
     <li><a href="/blog/one-week-before-apprenticeship-test-study-plan">One Week Before the Apprenticeship Test: Study Plan</a>: 7-day plan</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 16 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

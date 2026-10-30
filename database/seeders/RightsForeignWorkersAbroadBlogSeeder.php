@@ -139,18 +139,6 @@ class RightsForeignWorkersAbroadBlogSeeder extends Seeder
 <h3>Can a sponsor deport me?</h3>
 <p>Immigration decisions belong to the authorities, but losing a job can affect permission, so get official advice quickly.</p>
 
-<h3>Can my employer keep my passport?</h3>
-<p>Check local law. In Canada's temporary worker programme employers cannot take personal documents.</p>
-
-<h3>Do migrant workers get the same wages?</h3>
-<p>In Australia migrant workers have the same entitlements as other employees; check your own country.</p>
-
-<h3>Where do I report unpaid wages?</h3>
-<p>To the labour regulator in the country where you work.</p>
-
-<h3>Does a complaint protect my visa?</h3>
-<p>Not automatically. Check your immigration options separately.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -162,7 +150,6 @@ class RightsForeignWorkersAbroadBlogSeeder extends Seeder
     <li><a href="/blog/bring-family-working-abroad">Can You Bring Your Family When Working Abroad</a>: dependants</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

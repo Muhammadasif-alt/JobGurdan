@@ -131,12 +131,6 @@ class ParamedicJobsTorontoTrainingCertificationBlogSeeder extends Seeder
 
 <p>A paramedic qualification from Pakistan or another country is not Ontario certification. Start with the Ministry's equivalency guidance, and sort out Canadian work authorisation separately; Toronto's recruitment does not sponsor visas. Read <a href="/blog/work-visas-pakistanis-2026-country-guide">Work Visas for Pakistanis in 2026</a> for the Canadian permit rules.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is Toronto hiring paramedics now?</h3>
@@ -151,21 +145,9 @@ class ParamedicJobsTorontoTrainingCertificationBlogSeeder extends Seeder
 <h3>Do AEMCA-certified paramedics take the written test?</h3>
 <p>No. They are exempt from Stage 1 and go to the interviews.</p>
 
-<h3>What is the OPPAT?</h3>
-<p>The Ottawa Paramedic Physical Abilities Test. Toronto needs a pass dated within one year of your start date.</p>
-
-<h3>Which CPR course counts?</h3>
-<p>BLS or HCP, valid on your first day. CPR Level C is not accepted.</p>
-
-<h3>Does AEMCA guarantee a Toronto job?</h3>
-<p>No. You still pass the City's stages, the OPPAT and the Sunnybrook evaluation.</p>
-
-<h3>Can an overseas paramedic transfer directly?</h3>
-<p>No. Apply for an individual equivalency decision from the Ministry first.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Build your Toronto paramedic career on a recognised PCP diploma, the AEMCA exam, a clean driving record and the OPPAT, then follow the Spring 2027 guide stage by stage. Apply before 18 November 2026 if you qualify. This guide cannot promise selection.</p>
+<p>Build your Toronto paramedic career on a recognised PCP diploma, the AEMCA exam, a clean driving record and the OPPAT, then follow the Spring 2027 guide stage by stage. Apply before 18 November 2026 if you qualify.</p>
 
 <h2>Sources</h2>
 
@@ -189,7 +171,6 @@ class ParamedicJobsTorontoTrainingCertificationBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, the warning signs of a recruitment scam.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, immigration or career advice. Reviewed on 27 October 2026 against the pages named in Sources. Stage dates in the recruitment guide are tentative and can change; follow your own invitations. It does not promise selection.</p>
 HTML;
     }
 }

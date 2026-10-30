@@ -305,18 +305,6 @@ JOBHTML;
 <h3>Can a UAE employer make me work 24/7 on call?</h3>
 <p>Overtime is limited to two hours a day and 144 hours in any three weeks under Federal Decree-Law No. 33 of 2021, paid at least 25 per cent extra, or 50 per cent between 10 pm and 4 am.</p>
 
-<h3>Do UAE IT jobs include a free annual air ticket?</h3>
-<p>Only if the contract says so. The annual ticket is not a statutory entitlement; the law requires the employer to pay repatriation at the end of the job.</p>
-
-<h3>Who pays for a system administrator's UAE work visa?</h3>
-<p>The employer. Federal Decree-Law No. 33 of 2021 bars employers from charging workers recruitment or employment costs.</p>
-
-<h3>Can a system administrator get a UAE Golden visa?</h3>
-<p>Yes, at MOHRE level 1 or 2 with a bachelor's degree and a basic salary of at least AED 30,000 a month. The Green visa needs AED 15,000.</p>
-
-<h3>Why are some UAE IT jobs for Emiratis only?</h3>
-<p>Emiratisation targets require larger companies to reach 10 per cent Emiratis in skilled roles by the end of 2026, and government-linked entities often recruit nationals first.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing IT roles and Gulf routes? These cover them:</p>

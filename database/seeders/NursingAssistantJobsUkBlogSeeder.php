@@ -323,18 +323,6 @@ JOBHTML;
 <h3>How many standards are in the Care Certificate?</h3>
 <p>Sixteen, since the March 2025 update added a standard covering learning disability and autism awareness.</p>
 
-<h3>Can I get a visa as a care worker in the UK?</h3>
-<p>Not as a new overseas applicant. The care worker and senior care worker routes closed on 22 July 2025, with in-country switching only until 22 July 2028.</p>
-
-<h3>What observations does a nursing assistant take?</h3>
-<p>Temperature, pulse, respiration rate, blood pressure and oxygen saturation, recorded so the nursing team can act on any change.</p>
-
-<h3>Can a nursing assistant become a registered nurse?</h3>
-<p>Yes. The usual route is trainee nursing associate, then nursing associate, then a shortened top-up to registered nurse, often funded by the trust.</p>
-
-<h3>Is agency work better paid than NHS work?</h3>
-<p>Per shift, often yes. But the NHS post carries the pension, the band progression and the funded route to a qualification the agency does not pay for.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking across UK healthcare work? These cover the neighbouring routes:</p>

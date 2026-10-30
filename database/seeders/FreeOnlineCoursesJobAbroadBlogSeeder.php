@@ -133,18 +133,6 @@ class FreeOnlineCoursesJobAbroadBlogSeeder extends Seeder
 <h3>Can a short course replace a professional licence?</h3>
 <p>No. Check the regulator's requirements.</p>
 
-<h3>Is the OpenLearn English course an IELTS substitute?</h3>
-<p>No. Visa language evidence must come from an accepted test or route.</p>
-
-<h3>Should beginners take these courses?</h3>
-<p>Yes, at an introductory level, without overstating what was learned.</p>
-
-<h3>Are the labs free?</h3>
-<p>Not always. Some practice environments use paid services.</p>
-
-<h3>How many courses should I list?</h3>
-<p>Only those relevant to the job, with accurate dates.</p>
-
 <h3>Will employers recognise these certificates?</h3>
 <p>Recognition varies. A practical project helps more than a badge alone.</p>
 
@@ -159,7 +147,6 @@ class FreeOnlineCoursesJobAbroadBlogSeeder extends Seeder
     <li><a href="/blog/find-job-abroad-without-recruiter">How to Find a Job Abroad Without a Recruiter</a>: search yourself</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

@@ -198,26 +198,14 @@ HTML;
 <h3>Is there a recognised elderly care qualification in Pakistan?</h3>
 <p>Yes. NAVTTC publishes an Elderly Care Giver qualification, code 090921ECG, listed at nine weeks within its Domestic Worker Program. It is a vocational qualification, not a nursing registration.</p>
 
-<h3>Do I need a nursing degree to work as an elderly care assistant?</h3>
-<p>No, for non-clinical elderly support. You do need registration to perform nursing acts such as injections, wound care or catheter management. Never accept clinical tasks you are not registered and trained to do.</p>
-
 <h3>Can I get an elderly care job with no experience?</h3>
 <p>Yes, with a provider that trains. Sahara Home Healthcare states training is provided on its Home Health Aide opening. Private families and dementia posts are far more likely to require prior experience.</p>
 
 <h3>How much do elderly caregivers earn in Pakistan?</h3>
 <p>No dependable published range exists, and the figures circulating online are taken from individual adverts. Pay moves with live-in versus shift work, dementia involvement, night duty, city and whether a provider or a family employs you. Get the figure in writing before accepting.</p>
 
-<h3>What is the difference between elderly care and dementia care?</h3>
-<p>Dementia care adds disorientation, disrupted sleep, resistance to personal care and wandering risk to the same physical tasks. It is specialist work, frequently advertised at the general rate. Ask about diagnosis and night-time behaviour before agreeing terms.</p>
-
-<h3>Are live-in elderly care jobs common?</h3>
-<p>Yes. Care Nest lists 24/7 live-in among its shift options. Before accepting one, settle rest hours, accommodation, meals, weekly time off and night duties in writing, because a live-in post in a private home carries specific legal entitlements.</p>
-
 <h3>Which employers are hiring elderly carers in Pakistan?</h3>
 <p>Care Nest recruits caregivers and elder support staff across Islamabad and Rawalpindi. Sahara Home Healthcare recruits Home Health Aides across Karachi. Both publish their own application routes rather than advertising through intermediaries.</p>
-
-<h3>Is elderly care a career or a stopgap?</h3>
-<p>It can be either. Workers who document their posts, take the vocational qualification and add dementia or palliative training progress into senior caregiver and coordination roles. Without a record of what you have done, progression is difficult because the field has no formal ladder.</p>
 
 <h2>Related career guides</h2>
 

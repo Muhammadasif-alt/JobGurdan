@@ -290,18 +290,6 @@ JOBHTML;
 <h3>Is network engineering a declining field?</h3>
 <p>Half of it. BLS projects network and computer systems administrators to decline 4 per cent from 2025 to 2035, while computer network architects grow 8 per cent. The operations end is contracting and the design end is expanding, under the same job title.</p>
 
-<h3>Why is the operations side shrinking?</h3>
-<p>The estate moved to cloud providers, configuration became code, and monitoring improved. All three reduce the human hours a network needs, and all three reward engineers who build automation and designs over those who only operate.</p>
-
-<h3>How long does it take to become a network architect?</h3>
-<p>BLS says computer network architects typically need a bachelor's degree in a computer-related field plus five years or more in a related occupation. Five years is a realistic horizon, and taking design work early shortens it.</p>
-
-<h3>Is CCNA still worth it?</h3>
-<p>Yes, more than in most fields. The equipment is vendor-specific and the exam tests configuration, so it genuinely changes screening outcomes, and it is frequently a stated requirement on federal and defence contracts.</p>
-
-<h3>Do I need to learn programming as a network engineer?</h3>
-<p>Enough to automate. Python, PowerShell or Ansible plus version control. In an occupation projected to decline, automation is what separates the roles that shrink from the ones that move up.</p>
-
 <h3>Do network engineer jobs need a security clearance?</h3>
 <p>Many around Washington DC and Virginia do. A clearance requires US citizenship and an employer sponsor and cannot be obtained independently. The commercial market does not require one.</p>
 

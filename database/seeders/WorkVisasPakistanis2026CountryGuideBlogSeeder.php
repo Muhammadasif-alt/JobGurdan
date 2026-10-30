@@ -112,12 +112,6 @@ class WorkVisasPakistanis2026CountryGuideBlogSeeder extends Seeder
 
 <p>Check the emigrant registration and Protector requirements that apply to your departure through the Bureau of Emigration and Overseas Employment, which runs the Direct Emigrant Registration service for people who found their job without a promoter. Follow its document and payment instructions, keep receipts and copies of your contract, and never treat an interview, offer letter or recruitment payment as approval. Read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you send money or documents. Source: <a href="https://beoe.gov.pk/" rel="noopener">Bureau of Emigration and Overseas Employment</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can an agent guarantee approval?</h3>
@@ -132,21 +126,9 @@ class WorkVisasPakistanis2026CountryGuideBlogSeeder extends Seeder
 <h3>How much is the UK Skilled Worker visa from Pakistan?</h3>
 <p>£819 for up to three years or £1,618 for longer, plus the healthcare surcharge of usually £1,035 a year and £1,270 in savings unless your sponsor certifies maintenance.</p>
 
-<h3>What does a Canadian work permit cost?</h3>
-<p>C$155 per person, plus C$100 for an open work permit holder and C$85 for biometrics; the employer pays the C$230 compliance fee on exempt offers.</p>
-
-<h3>Do I need my degree recognised for Germany?</h3>
-<p>For the qualified professionals visa, yes, or a degree comparable to a German one. The professionally experienced workers route and the EU Blue Card have different rules.</p>
-
-<h3>Who pays the UAE work permit fee?</h3>
-<p>The company applies and the AED 250 to AED 3,450 fee depends on its classification. A worker asked to pay it, or any recruitment charge, should treat that as a warning sign.</p>
-
-<h3>Where do Pakistani applicants submit German applications?</h3>
-<p>Through the Consular Services Portal: Islamabad covers the capital territory, Gilgit-Baltistan, Khyber Pakhtunkhwa, Azad Jammu and Kashmir and Punjab, and Karachi covers Sindh and Balochistan.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Choose the correct route, verify the sponsor or employer, follow the official checklist and budget beyond the headline fee. Keep travel plans flexible until the approval is in your passport. This guide cannot promise approval, a vacancy or an income.</p>
+<p>Choose the correct route, verify the sponsor or employer, follow the official checklist and budget beyond the headline fee. Keep travel plans flexible until the approval is in your passport.</p>
 
 <h2>Sources</h2>
 
@@ -172,7 +154,6 @@ class WorkVisasPakistanis2026CountryGuideBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, immigration, financial or career advice. Reviewed on 26 October 2026 against the pages named in Sources. Fees and processing estimates change and do not guarantee approval, and the official links are starting points, not a promise that an individual can submit an employer-only application.</p>
 HTML;
     }
 }

@@ -129,12 +129,6 @@ class RemoteWordPressDeveloperJobsTorontoOntarioBlogSeeder extends Seeder
 
 <p>Before you accept, confirm whether pay is in Canadian dollars, how many hours are expected and whether the arrangement is employment or contracting. Compare benefits, equipment and unpaid admin time alongside the headline rate. For assessments, agree the scope, the expected time and the tools allowed. Follow up only through the employer's stated channel, and if a recruiter contacts you, compare the role with the official advert and clear up any difference in location, pay or duties before you share documents.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can beginners find remote WordPress work?</h3>
@@ -148,18 +142,6 @@ class RemoteWordPressDeveloperJobsTorontoOntarioBlogSeeder extends Seeder
 
 <h3>Should I apply outside Toronto?</h3>
 <p>Yes, if the role explicitly accepts your location. Canada-wide and international searches can add to local applications without changing your eligibility.</p>
-
-<h3>What is Job Bank?</h3>
-<p>It is the Government of Canada's official job site, where each posting states the wage, hours and who may apply.</p>
-
-<h3>Do I need permission to work in Canada?</h3>
-<p>Yes. You need legal permission to work in Canada before you can take a job there, and a remote advert does not change that.</p>
-
-<h3>Are 10up jobs open worldwide?</h3>
-<p>Its careers page says positions are remote and open to candidates around the globe unless a posting says otherwise, so read each one.</p>
-
-<h3>How do I spot a fake recruiter?</h3>
-<p>Check that the message comes from the company's own email domain, and never pay for equipment, training or an interview.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 
@@ -186,7 +168,6 @@ class RemoteWordPressDeveloperJobsTorontoOntarioBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 17 October 2026. It links official and public-sector sources; private employers are named in the text so you can search their own career pages. It does not imply visa sponsorship, a confirmed opening or guaranteed hiring.</p>
 HTML;
     }
 }

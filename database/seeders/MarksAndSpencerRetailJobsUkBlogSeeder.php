@@ -393,18 +393,6 @@ JOBHTML;
 <h3>Can Marks and Spencer sponsor a work visa?</h3>
 <p>Not for a Customer Assistant. The Home Office lists occupation code 7111, sales and retail assistants, as ineligible for the Skilled Worker route, so no employer can sponsor it. M&amp;S holding a sponsor licence does not change that, because eligibility is set per occupation code.</p>
 
-<h3>When does the 20% M&amp;S colleague discount start?</h3>
-<p>M&amp;S's own wording is that you receive it after completing your probation period, covering all M&amp;S products and many third-party brands, for you and a member of your household. M&amp;S publishes no first-day exception for seasonal contracts.</p>
-
-<h3>Do you have to be 18 to work at M&amp;S?</h3>
-<p>Not for every role, but early morning and overnight Customer Assistant shifts are restricted to applicants aged 18 and over, which M&amp;S ties to health and safety legislation. The requirement is printed on the adverts it applies to, so read each one.</p>
-
-<h3>What is the M&amp;S online assessment like?</h3>
-<p>For Customer Assistant roles M&amp;S describes it as an interactive assessment built around real-life store scenarios, taking around 20 minutes, and it says you need to complete it in one go. It is separate from the 45-minute application form.</p>
-
-<h3>Can I use AI to write my M&amp;S application?</h3>
-<p>To a point. M&amp;S publishes guidance saying to use AI to improve rather than define your application: no pasted generic answers, no invented examples, no live help during interviews or assessments, and do not treat AI as your only research about the business.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If M&amp;S is one option rather than the only one, these cover the rest of the UK market:</p>

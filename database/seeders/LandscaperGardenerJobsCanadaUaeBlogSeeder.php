@@ -264,20 +264,8 @@ JOBHTML;
 <h3>Does a Canadian job offer guarantee a work permit?</h3>
 <p>No. The employer's documents and your own immigration eligibility are assessed separately.</p>
 
-<h3>Can I work in the UAE on a tourist visa?</h3>
-<p>No. A visit or tourist visa does not authorise employment.</p>
-
-<h3>Do I need a licence to spray pesticides in Canada?</h3>
-<p>Provincial licensing may be needed to apply certain chemicals, including pesticides and herbicides. Check the rules where you will work.</p>
-
-<h3>Is landscaping the same as agricultural work for a Canadian permit?</h3>
-<p>Not automatically. The duties and the immigration category decide which route applies.</p>
-
 <h3>Who pays recruitment costs for a UAE gardener job?</h3>
 <p>The employer. Under Article 6 of Federal Decree-Law No. 33 of 2021 it may not charge you recruitment and employment costs.</p>
-
-<h3>Is accommodation included in gardener jobs?</h3>
-<p>Not always. Ask for housing, meals and transport terms in writing.</p>
 
 <h2>More Job Guides</h2>
 

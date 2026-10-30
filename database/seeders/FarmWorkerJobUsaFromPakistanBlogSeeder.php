@@ -168,23 +168,11 @@ class FarmWorkerJobUsaFromPakistanBlogSeeder extends Seeder
 <h3>Is previous farm experience compulsory?</h3>
 <p>Only where the job order requires it. Target vacancies that fit your actual background.</p>
 
-<h3>Can I get the visa before finding an employer?</h3>
-<p>No. The usual H-2A route needs employer participation and an approved petition before the visa application.</p>
-
-<h3>Does the official job portal submit my application?</h3>
-<p>No. It lists job orders. Select one and follow that employer's instructions.</p>
-
-<h3>Can I work on a tourist visa?</h3>
-<p>No. Do not start farm work without the correct work authorisation.</p>
-
 <h3>Should I pay an agent?</h3>
 <p>Be very careful. Nobody can guarantee a visa, and H-2A workers must not be charged the employer's certification or recruitment costs.</p>
 
 <h3>How long does the process take?</h3>
 <p>It varies with the employer's petition, the appointment queue and the consulate, so avoid anyone who promises a date.</p>
-
-<h3>Can I change to another farm once I arrive?</h3>
-<p>Not without the necessary authorisation. Check the conditions attached to your employment first.</p>
 
 <h2>More Job Guides</h2>
 

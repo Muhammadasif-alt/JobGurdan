@@ -296,23 +296,11 @@ JOBHTML;
 <h3>Does Sydney pay more than the national average?</h3>
 <p>Not on the published figures. Sydney is commonly quoted at $59,000 to $60,500 while the national average is given as $62,200, which puts Sydney below it despite being described as above it.</p>
 
-<h3>Does the advertised salary include superannuation?</h3>
-<p>Australian advertisements split both ways, so ask. At the 12 per cent guarantee rate it is worth $7,464 on a $62,200 figure: more than the gap between the published averages.</p>
-
-<h3>Does a Working with Children Check work in another state?</h3>
-<p>No. They are issued by each state and territory and are not transferable. Queensland does not recognise interstate checks at all, so a Blue Card application is required there.</p>
-
-<h3>Is a National Police Check the same thing?</h3>
-<p>No. A National Police Check is nationally recognised and portable. The two are frequently listed in the same bullet point and behave completely differently.</p>
-
 <h3>Do I need a qualification to be an office assistant in Australia?</h3>
 <p>Usually not. A Certificate III or IV in Business Administration helps for more senior office support roles, but Microsoft Office skills and any customer-facing experience matter more for entry level.</p>
 
 <h3>Can I get visa sponsorship as an office assistant in Australia?</h3>
 <p>Realistically no. It is not a skilled migration occupation. The people holding these roles are citizens, permanent residents, partners and dependants, graduates on post-study work visas, and working holiday makers.</p>
-
-<h3>Which job titles should I search for?</h3>
-<p>Office Assistant, Office Administrator, Administration Assistant, Administrative Assistant, Receptionist and Office Assistant, and Front Office Assistant. They overlap heavily and searching one hides most of the market.</p>
 
 <h2>More Job Guides</h2>
 

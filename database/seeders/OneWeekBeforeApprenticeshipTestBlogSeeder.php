@@ -150,12 +150,6 @@ class OneWeekBeforeApprenticeshipTestBlogSeeder extends Seeder
 
 <p>Revise the maths with <a href="/blog/apprenticeship-test-math-basics">apprenticeship test maths basics</a>. Programme information is on <a href="https://www.apprenticeship.gov" rel="noopener">Apprenticeship.gov</a>, and an OSHA 10-hour course from <a href="https://www.osha.gov/training" rel="noopener">OSHA training</a> shows safety awareness while you wait for your result. If the test does not go well, see <a href="/blog/can-you-retake-apprenticeship-aptitude-test">retake rules</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is one week enough to prepare for an apprenticeship test?</h3>
@@ -170,18 +164,6 @@ class OneWeekBeforeApprenticeshipTestBlogSeeder extends Seeder
 <h3>Can I use this plan for any trade?</h3>
 <p>The core sections cover many programmes, but confirm your test and adjust the daily focus.</p>
 
-<h3>What should I bring on test day?</h3>
-<p>Typically photo ID and the documents your programme requested. Confirm in advance.</p>
-
-<h3>Do I need a full practice test?</h3>
-<p>One timed practice test on day 6 shows your weak areas under realistic conditions.</p>
-
-<h3>Should I use a calculator?</h3>
-<p>Only if your test allows one. Practise without it in case.</p>
-
-<h3>What if my test has different sections?</h3>
-<p>Replace the daily focus with the sections your programme confirms.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -193,7 +175,6 @@ class OneWeekBeforeApprenticeshipTestBlogSeeder extends Seeder
     <li><a href="/blog/can-you-retake-apprenticeship-aptitude-test">Can You Retake the Apprenticeship Aptitude Test?</a>: retake rules</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 16 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

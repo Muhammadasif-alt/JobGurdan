@@ -138,12 +138,6 @@ class EmailMarketingJobsVancouverBritishColumbiaBlogSeeder extends Seeder
 
 <p>Put a link to your portfolio at the top of your CV and name the sample closest to the role. Read the advertisement for the tools and metrics mentioned, and be honest about what you have used. Ask in the interview how consent, customer preferences and unsubscribe requests are handled, how success is measured and who approves campaigns before they go out.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can beginners enter email marketing?</h3>
@@ -157,18 +151,6 @@ class EmailMarketingJobsVancouverBritishColumbiaBlogSeeder extends Seeder
 
 <h3>Are Vancouver email marketing jobs remote?</h3>
 <p>Some are, but a remote role may still require you to live in British Columbia or come to the office on set days. Check the posting.</p>
-
-<h3>What do Job Bank wages show for this kind of work?</h3>
-<p>For an advertising specialist (NOC 11202) in Vancouver, Job Bank lists hourly wages of $21.00 low, $33.65 median and $56.59 high for 2023-2024. It is a broad group, not an offer.</p>
-
-<h3>Do I need consent to email people in Canada?</h3>
-<p>Yes. The Government of Canada says commercial emails need express or implied consent, identification details and a working unsubscribe mechanism.</p>
-
-<h3>How fast must an unsubscribe request be handled?</h3>
-<p>The Government of Canada says each request must be handled within 10 business days or less, at no cost to the recipient.</p>
-
-<h3>Is lifecycle marketing the same as email marketing?</h3>
-<p>They overlap. Lifecycle marketing looks at the whole customer journey and may include text and app messages as well as email.</p>
 
 <h2>Bottom Line</h2>
 
@@ -192,7 +174,6 @@ class EmailMarketingJobsVancouverBritishColumbiaBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or career advice. Reviewed on 22 October 2026 against the pages named in Sources. It does not promise a vacancy, an interview, an income or an offer, and wage data and postings can change.</p>
 HTML;
     }
 }

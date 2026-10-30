@@ -293,18 +293,6 @@ JOBHTML;
 <h3>How old do you have to be to drive a forklift?</h3>
 <p>At least 18 in nonagricultural jobs. Hazardous Occupations Order No. 7 bars younger workers from operating forklifts.</p>
 
-<h3>Which states pay forklift operators the most?</h3>
-<p>Among the states guides name, California ($47,770) and Illinois ($47,720) have medians slightly above the national $46,420, while Texas ($45,450) is below it.</p>
-
-<h3>Are forklift operator jobs growing?</h3>
-<p>Slowly. BLS projects about 1 per cent employment growth for industrial truck and tractor operators over the decade.</p>
-
-<h3>Do forklift jobs sponsor visas?</h3>
-<p>Rarely. Where it happens, it is usually an EB-3 other worker green card through PERM labor certification, which takes years.</p>
-
-<h3>Can I get forklift certified online?</h3>
-<p>You can complete the formal instruction online, but OSHA also requires practical training and an evaluation of your performance in the workplace.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing warehouse and driving jobs? These cover them:</p>

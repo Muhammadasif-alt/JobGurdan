@@ -137,12 +137,6 @@ class SweeperJobsKarachiGovernmentPrivateOptionsBlogSeeder extends Seeder
 
 <p>"Urgent" adverts do not mean you start tomorrow. OLX adverts can be leads, but check the advertiser yourself. Complaint helplines are not recruitment numbers. Never pay anyone who promises guaranteed selection.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>What is the minimum salary for a sweeper in Karachi?</h3>
@@ -154,24 +148,12 @@ class SweeperJobsKarachiGovernmentPrivateOptionsBlogSeeder extends Seeder
 <h3>What education do I need?</h3>
 <p>It varies; Aga Khan's Domestic Aide post preferred Middle school.</p>
 
-<h3>Is a municipal sweeper job a government job?</h3>
-<p>Not always. SSWMB outsources its municipal functions, so many jobs are with contractors.</p>
-
-<h3>How do I apply for hospital cleaning jobs at Aga Khan?</h3>
-<p>Through AKU's vacancies page; Pakistan ancillary posts are applied for by email.</p>
-
-<h3>Are government applications always online?</h3>
-<p>No. Follow each advert; some need a physical application.</p>
-
 <h3>Is there one contact number for sweeper jobs?</h3>
 <p>No. Use the number in the employer's verified advert.</p>
 
-<h3>Is accommodation free?</h3>
-<p>Not unless the offer says so in writing, with any deductions.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Search widely, check who really employs you, compare pay with the Sindh minimum and choose duties and shifts you can do safely. This guide cannot promise a job or a wage.</p>
+<p>Search widely, check who really employs you, compare pay with the Sindh minimum and choose duties and shifts you can do safely.</p>
 
 <h2>Sources</h2>
 
@@ -193,7 +175,6 @@ class SweeperJobsKarachiGovernmentPrivateOptionsBlogSeeder extends Seeder
     <li><a href="/blog/how-to-find-job-abroad-from-pakistan-2026">How to Find a Job Abroad From Pakistan</a>, routes overseas.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 30 October 2026 against the pages named in Sources. It does not promise a job or a wage.</p>
 HTML;
     }
 }

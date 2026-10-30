@@ -139,12 +139,6 @@ class SheetMetalWorkersAptitudeTestBlogSeeder extends Seeder
 
 <p>On the day, check the address, arrival time and transport, bring the identification in your invitation, and read the directions for each section; do not carry assumptions from one section to another. Keep feet, inches and square units separate, and use a supplied drawing's labels rather than judging by its appearance.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is there one passing score?</h3>
@@ -156,20 +150,8 @@ class SheetMetalWorkersAptitudeTestBlogSeeder extends Seeder
 <h3>Is previous sheet metal experience essential?</h3>
 <p>Requirements vary. Ask the programme about eligibility.</p>
 
-<h3>Does passing guarantee acceptance?</h3>
-<p>No. Interviews, eligibility and available positions can matter.</p>
-
 <h3>Are the tests timed?</h3>
 <p>It depends: one Wisconsin programme is untimed and Southern California has a 15-minute timed maths test.</p>
-
-<h3>What does Local 20 test?</h3>
-<p>Applied mathematics, applied technology, workplace observation and locating information.</p>
-
-<h3>What maths is on the test?</h3>
-<p>Typically arithmetic, fractions, decimals, percentages and basic algebra, but check your local.</p>
-
-<h3>Is there a spatial test?</h3>
-<p>Southern California lists a paper board test of three-dimensional visualisation.</p>
 
 <h2>More Job Guides</h2>
 
@@ -182,7 +164,6 @@ class SheetMetalWorkersAptitudeTestBlogSeeder extends Seeder
     <li><a href="/blog/ua-plumber-pipefitter-apprenticeship-test-guide">UA Plumber and Pipefitter Apprenticeship Test Guide</a>: UA locals</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 16 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

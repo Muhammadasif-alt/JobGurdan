@@ -296,23 +296,11 @@ JOBHTML;
 <h3>How many vacancies are there in London right now?</h3>
 <p>The ONS does not publish a separate vacancy count for London. The UK-wide figure was 702,000 in the June to August 2026 early estimate, the lowest since February to April 2021, with 2.5 unemployed people per vacancy.</p>
 
-<h3>Is it hard to find a job in London?</h3>
-<p>Harder than anywhere else in the UK on the official measure. London's unemployment rate was 6.8 per cent in May to July 2026 against 4.9 per cent for the UK, the highest of any UK region, and its employment rate was below the UK average.</p>
-
 <h3>What is the minimum wage for a London job in 2026?</h3>
 <p>£12.71 an hour for workers aged 21 and over from 1 April 2026, £10.85 for 18 to 20 year olds, and £8.00 for 16 to 17 year olds and apprentices. There is no higher legal rate for London.</p>
 
-<h3>What is the London Living Wage and is it compulsory?</h3>
-<p>£14.80 an hour. It is set by the Living Wage Foundation and is entirely voluntary, so only accredited employers pay it.</p>
-
-<h3>How much holiday does a London job have to give?</h3>
-<p>5.6 weeks a year, which is 28 days for someone working five days a week. Bank holidays can be counted within that minimum. Part-time workers get the same entitlement pro-rated.</p>
-
 <h3>Do agency workers in London get the same pay as permanent staff?</h3>
 <p>Only after 12 weeks in the same role with the same hirer, under the Agency Workers Regulations 2010. Before that, equal treatment on pay does not apply.</p>
-
-<h3>Can a London retail or hospitality vacancy sponsor a visa?</h3>
-<p>Almost never. The Skilled Worker threshold is £41,700 or the occupation's going rate, and a full-time London Living Wage job pays around £28,900. An advert promising sponsorship for that kind of role should be treated as a scam.</p>
 
 <h3>Where should I look for London vacancies first?</h3>
 <p>The government's Find a Job service, NHS Jobs, Civil Service Jobs, Transport for London careers, the 32 borough council career pages and university HR pages. Large London employers publish on their own systems before anywhere else.</p>

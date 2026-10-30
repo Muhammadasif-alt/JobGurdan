@@ -245,18 +245,6 @@ JOBHTML;
 <h3>What is the difference between CPRW, NCRW and NCOPE?</h3>
 <p>CPRW and NCRW are resume-writing credentials, the NCRW being the National Résumé Writers' Association's examination-based designation. NCOPE, also from the NRWA, covers LinkedIn and online career profiles rather than resumes, and is frequently listed as a resume certification by mistake.</p>
 
-<h3>Are ATS resume writer jobs mostly remote?</h3>
-<p>Yes. The work is entirely document-based, so most roles are remote or offer a remote option, and employers often prefer it because it widens the hiring pool across time zones.</p>
-
-<h3>How are resume writers paid?</h3>
-<p>Staff roles at established firms typically pay a base salary plus a per-resume bonus. Freelance and contract writers are paid per project, with rates depending on the client's industry and seniority level.</p>
-
-<h3>What should I check before accepting per-resume work?</h3>
-<p>The turnaround time and the revision policy. An unlimited-revisions clause attached to a flat fee makes the effective rate impossible to predict; two rounds within a stated window is a normal term to ask for.</p>
-
-<h3>Can I do this as freelance work instead of a job?</h3>
-<p>Yes, and many writers do. Freelance and contract work through platforms, agencies or your own client base is the most common entry point, since clients weigh sample quality more heavily than formal credentials.</p>
-
 <h3>Which ATS platforms should I know?</h3>
 <p>Workday, Taleo, iCIMS and Greenhouse come up most often. You do not need administrator-level knowledge; you need to be able to speak specifically about how documents are parsed and how recruiters search inside them.</p>
 

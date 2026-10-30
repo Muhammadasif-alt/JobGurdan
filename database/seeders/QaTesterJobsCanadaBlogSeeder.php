@@ -260,20 +260,8 @@ JOBHTML;
 <h3>Do I need a degree to work in QA in Canada?</h3>
 <p>For the testing technician code, Job Bank says the occupation usually requires a college diploma, two or more years of apprenticeship training, or supervisory experience. For the QA analyst code, it says a university degree is usually required.</p>
 
-<h3>What is the difference between NOC 22222 and NOC 21222?</h3>
-<p>NOC 22222 is Information systems testing technicians, where software tester sits. NOC 21222 is Information systems specialists, where software QA analyst sits. They differ in expected education, in prevailing wages, and in how many positions are advertised.</p>
-
-<h3>Is QA testing in high demand in Canada?</h3>
-<p>Job Bank rates prospects for both codes as varying by province or territory rather than strong everywhere. At the time of writing it listed 5 jobs advertised in Canada under software tester against 331 under the specialist code, so hiring concentrates in the professional classification.</p>
-
 <h3>Does the NOC code matter if I am applying from abroad?</h3>
 <p>Yes, more than the job title does. Canadian immigration programmes are organised by NOC code, so the code your offer is classified under decides which routes are open. Ask the employer which code applies and get the answer in writing.</p>
-
-<h3>Do QA jobs in Canada come with benefits?</h3>
-<p>Usually. Job Bank reports that 85.8 per cent of workers in NOC 22222 nationally receive at least one type of non-wage benefit, so an offer without them is below the norm for the occupation.</p>
-
-<h3>Is ISTQB certification worth it?</h3>
-<p>It is a recognised credential that can help an application past a first screen, particularly for entry-level candidates. It does not replace the college diploma or degree that Job Bank associates with each occupation code.</p>
 
 <h2>More Job Guides</h2>
 

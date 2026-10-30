@@ -122,12 +122,6 @@ class PoliceConstableJobsPunjabPakistanBlogSeeder extends Seeder
 
 <p>The avoidable errors are the wrong district, an outdated form, a missing signature, details that do not match your CNIC and a late submission. Keep copies of the notice and your receipt, and report anyone demanding money for selection to the district police through a verified number. Read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake job offer</a> for the warning signs that apply to government posts too.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is Matric enough for every constable post?</h3>
@@ -142,21 +136,9 @@ class PoliceConstableJobsPunjabPakistanBlogSeeder extends Seeder
 <h3>What is the last date?</h3>
 <p>31 October 2026, according to the press reports. Confirm it at your Police Lines.</p>
 
-<h3>How much is the form fee?</h3>
-<p>Rs. 300 is reported. Pay only through the method stated on the advertisement, never to an individual.</p>
-
-<h3>What height do lady constables need?</h3>
-<p>5 feet 2 inches in settled and tribal areas and 5 feet 1 inch in Tehsil Rojhan, as reported. Women have no chest measurement.</p>
-
-<h3>Is there age relaxation?</h3>
-<p>The summary we checked says there is no relaxation in age, height, chest or education for this intake. Ask the office if you believe a government rule applies to you.</p>
-
-<h3>Are the reported standards final?</h3>
-<p>No. They come from press summaries; the advertisement and the board's measurements decide.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Check your district, category, education, age and physical eligibility first, collect the official form, submit it at your Police Lines before 31 October 2026 and confirm every figure against the advertisement. This guide cannot promise selection or appointment.</p>
+<p>Check your district, category, education, age and physical eligibility first, collect the official form, submit it at your Police Lines before 31 October 2026 and confirm every figure against the advertisement.</p>
 
 <h2>Sources</h2>
 
@@ -177,7 +159,6 @@ class PoliceConstableJobsPunjabPakistanBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, the warning signs of a recruitment scam.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 27 October 2026; the official advertisement could not be opened, so the reported figures must be confirmed with Punjab Police. It does not promise selection, and dates and rules can change.</p>
 HTML;
     }
 }

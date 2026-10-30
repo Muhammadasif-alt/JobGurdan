@@ -35,7 +35,7 @@ it('carries FAQ markup built from the post body', function () {
     $faqs = app(App\Services\StructuredDataService::class)
         ->faqsFromHtml(Blog::where('slug', CLOUD_ENGINEER_SLUG)->value('content'));
 
-    expect($faqs)->toHaveCount(8)
+    expect($faqs)->toHaveCount(4)
         ->and(array_column($faqs, 'question'))
         ->not->toContain('AWS cloud engineer jobs USA');
 

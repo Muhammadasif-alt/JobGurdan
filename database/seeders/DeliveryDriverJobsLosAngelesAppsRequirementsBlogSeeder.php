@@ -120,12 +120,6 @@ class DeliveryDriverJobsLosAngelesAppsRequirementsBlogSeeder extends Seeder
 
 <p>Delivery jobs in Los Angeles need existing US work authorisation and a US driving licence; neither the apps nor the DSPs sponsor visas. Read <a href="/blog/how-to-find-job-abroad-from-pakistan-2026">how to find a job abroad from Pakistan</a> and <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you pay anyone.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>How old do you have to be to deliver by car in Los Angeles?</h3>
@@ -140,21 +134,9 @@ class DeliveryDriverJobsLosAngelesAppsRequirementsBlogSeeder extends Seeder
 <h3>Do I need a CDL for Amazon DSP vans?</h3>
 <p>No, not for the standard delivery vans.</p>
 
-<h3>What is the minimum wage in Los Angeles?</h3>
-<p>$18.42 an hour from 1 July 2026 in the city; $16.90 statewide.</p>
-
-<h3>What is the Prop 22 mileage rate in 2026?</h3>
-<p>$0.37 per engaged mile, on top of 120% of minimum wage for engaged time.</p>
-
-<h3>Do app drivers get paid while waiting for orders?</h3>
-<p>Not under the Prop 22 floor, which covers engaged time only.</p>
-
-<h3>Can I start delivering immediately?</h3>
-<p>Not usually; screening and activation take time.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Decide between app work and an employee route, check the age and vehicle rules before you sign up, and compare what you earn after costs. This guide cannot promise orders, a job or a wage.</p>
+<p>Decide between app work and an employee route, check the age and vehicle rules before you sign up, and compare what you earn after costs.</p>
 
 <h2>Sources</h2>
 
@@ -177,7 +159,6 @@ class DeliveryDriverJobsLosAngelesAppsRequirementsBlogSeeder extends Seeder
     <li><a href="/blog/how-to-get-warehouse-worker-job-usa-from-pakistan-2026">How to Get a Warehouse Worker Job in the USA From Pakistan</a>, logistics work.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 30 October 2026 against the pages named in Sources. It does not promise orders, a job or a wage.</p>
 HTML;
     }
 }

@@ -274,18 +274,6 @@ JOBHTML;
 <h3>Is the BPS figure I see online my take-home pay?</h3>
 <p>No. A BPS figure is basic pay. House rent, conveyance, medical and ad hoc relief allowances sit outside it, and on junior grades they are a large share of what arrives.</p>
 
-<h3>Why do BPS charts from 2025 and 2026 look so different?</h3>
-<p>Because the Revised Basic Pay Scales 2026, effective 1 July 2026, merged the 2022 and 2025 ad hoc relief allowances into basic pay before applying a further increase. Money moved between columns, so the two charts are not directly comparable.</p>
-
-<h3>Who advertises government data entry jobs in Pakistan?</h3>
-<p>Usually the hiring department itself, with a testing service such as NTS, PTS or OTS conducting the test. Watching only a federal commission's site is a common way to miss the advertisements.</p>
-
-<h3>What typing speed do I need for a government data entry post?</h3>
-<p>The advertisement will specify it. What matters more is that the practical typing test is normally a separate pass or fail gate from the written MCQ paper, so a strong written score will not carry you past it.</p>
-
-<h3>Can I earn PKR 200,000 a month doing freelance data entry?</h3>
-<p>The published range runs from about PKR 27,000 to PKR 218,000, an eightfold spread. The top of it describes a small business with international clients and years of platform reputation, not a job you apply for.</p>
-
 <h3>Which city pays best for data entry in Pakistan?</h3>
 <p>Islamabad on nominal figures, largely because of NGO and international organisation roles. But the bigger lever is sector: BPO work on a night shift for overseas clients pays a premium anywhere in the country.</p>
 

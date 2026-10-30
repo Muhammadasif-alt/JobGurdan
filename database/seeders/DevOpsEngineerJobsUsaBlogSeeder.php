@@ -295,18 +295,6 @@ JOBHTML;
 <h3>What is the difference between DevOps and SRE?</h3>
 <p>Considerable overlap, but SRE usually carries a higher software engineering bar and focuses on reliability, error budgets and scale, and it tends to pay at or above the DevOps band.</p>
 
-<h3>What do senior DevOps interviews actually test?</h3>
-<p>Whether you can discuss delivery as a system rather than list tools. The four DORA measures, deployment frequency, lead time for changes, change failure rate and time to restore service, are the standard vocabulary for that.</p>
-
-<h3>Do DevOps engineers have to be on call?</h3>
-<p>Almost always. Ask how often the rotation comes round, how often it fires overnight, whether standby is paid, and what happens the morning after a bad night. Badly-run on-call is the most common reason people leave these roles.</p>
-
-<h3>Do I need a clearance for DevOps work?</h3>
-<p>Only for federal and defence roles, which are concentrated around Washington DC and Maryland. TS/SCI in particular requires US citizenship, an employer sponsor, a full-scope investigation and often a polygraph, and cannot be obtained independently.</p>
-
-<h3>Are DevOps jobs remote?</h3>
-<p>A large share are, especially at mid and senior level with commercial employers. Cleared work is far more often on-site, and the on-call rotation applies wherever you sit.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing the engineering routes? These cover them:</p>

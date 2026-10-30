@@ -196,26 +196,14 @@ class AdjunctFacultyVacanciesUkBlogSeeder extends Seeder
 <h3>Why can I not find adjunct faculty vacancies in the UK?</h3>
 <p>Because most of this work is never advertised. Departments allocate sessional teaching from registers of approved hourly-paid staff, so the effective application is asking to join the register rather than answering a posted vacancy.</p>
 
-<h3>What is the UK term for adjunct faculty?</h3>
-<p>There is no single one. Universities advertise hourly-paid lecturer, associate lecturer, sessional lecturer, sessional tutor, teaching associate, visiting lecturer and graduate teaching assistant. Colleges usually say part-time lecturer or tutor.</p>
-
 <h3>Do I need a teaching qualification to teach in an FE college?</h3>
 <p>Not as a matter of law in England. The Further Education Teachers' Qualifications (England) (Amendment) Regulations 2012 removed the statutory requirements, and since 2013 colleges have set their own criteria. Many still prefer a Level 5 Diploma in Education and Training or a PGCE, and some will fund one while you teach.</p>
-
-<h3>Which institutions hire part-time teachers in the UK?</h3>
-<p>Four kinds: universities, further education colleges, distance and online providers such as the Open University model, and professional or executive education providers. They have different entry bars, and searching only universities is why the market looks empty.</p>
-
-<h3>When should I apply for sessional teaching work?</h3>
-<p>Late spring to early autumn for the autumn term, and late autumn to January for the spring term. Short-notice cover arises all year but only reaches people already on a departmental register.</p>
 
 <h3>Who should I contact at a university about sessional teaching?</h3>
 <p>The programme leader, course leader or head of department for your subject, not the central HR inbox. Name the specific modules you could teach and ask to be added to the approved list.</p>
 
 <h3>Is there more sessional teaching in some subjects than others?</h3>
 <p>Almost certainly, but we are not going to publish a ranked list. HESA does not publish a breakdown of sessional or hourly-paid staff by subject in a form that would support one, and a plausible-sounding list would be a guess.</p>
-
-<h3>Can I teach at a college and a university at the same time?</h3>
-<p>Yes, and many practitioners do. Check your primary employer's policy on outside work, which is the constraint that actually binds; the teaching contract's own exclusivity term usually does not.</p>
 
 <h2 id="more-guides">More Job Guides</h2>
 

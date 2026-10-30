@@ -139,18 +139,6 @@ class AvoidLosingMoneyFakeJobAgentsBlogSeeder extends Seeder
 <h3>Can my bank recover the payment?</h3>
 <p>Possibly. Contact it at once; recovery depends on the method, timing and circumstances.</p>
 
-<h3>Who regulates overseas recruiters in Pakistan?</h3>
-<p>The Bureau of Emigration and Overseas Employment licenses Overseas Employment Promoters.</p>
-
-<h3>Should I pay to be shortlisted?</h3>
-<p>No. Be very careful with any payment before a verified written offer.</p>
-
-<h3>What if the agent has my passport?</h3>
-<p>Ask for the return arrangements in writing and contact the BEOE if it is not returned.</p>
-
-<h3>Can a recovery agent get my money back?</h3>
-<p>Be suspicious of anyone who asks for an upfront fee to recover money.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -162,7 +150,6 @@ class AvoidLosingMoneyFakeJobAgentsBlogSeeder extends Seeder
     <li><a href="/blog/send-money-home-working-abroad">How to Send Money Home While Working Abroad</a>: remittance checks</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

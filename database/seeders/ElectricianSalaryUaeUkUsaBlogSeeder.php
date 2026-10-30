@@ -354,20 +354,8 @@ JOBHTML;
 <h3>What is the JIB rate for an electrician in 2026?</h3>
 <p>£18.38 an hour on the national standard rate with transport provided, £19.54 with own transport, and £20.58 on the London rate, from 5 January 2026.</p>
 
-<h3>How much does an Approved Electrician earn in the UK?</h3>
-<p>The 2026 JIB minimum is £20.08 an hour, about £39,156 a year on a 37.5-hour week before overtime.</p>
-
-<h3>Can a UK employer sponsor an electrician?</h3>
-<p>Yes. SOC 5241 is on the Temporary Shortage List, with a going rate of £38,800, or £31,500 for new entrants.</p>
-
-<h3>Is there a minimum wage for electricians in the UAE?</h3>
-<p>No. The UAE sets no statutory minimum wage, so the wage in your offer letter is the figure that binds. Make sure it is written down before you travel.</p>
-
 <h3>Why do UAE electrician salary figures vary so much?</h3>
 <p>Because they come from job boards and self-reported surveys mixing very different roles, from site electricians to certified offshore specialists. There is no official UAE wage figure for the occupation.</p>
-
-<h3>Who pays visa and recruitment costs for a UAE electrician job?</h3>
-<p>The employer. Article 6 of Federal Decree-Law No. 33 of 2021 prohibits charging the worker recruitment and employment costs, directly or indirectly.</p>
 
 <h2>More Job Guides</h2>
 

@@ -296,20 +296,8 @@ JOBHTML;
 <h3>Do I need ACCA or CPA to work as an accountant in the UAE?</h3>
 <p>Not by law for an employed accounting role, although many employers prefer them. A UAE licence is needed to sign audit reports, and FTA registration to act as a tax agent.</p>
 
-<h3>Can I sign audit reports in the UAE with an overseas qualification?</h3>
-<p>No. You need a Ministry of Economy and Tourism licence under Federal Decree-Law No. 41 of 2023, which requires a fellowship certificate, five years of audit experience and, for non-citizens, an additional period.</p>
-
 <h3>How do I become a registered tax agent in the UAE?</h3>
 <p>Register with the Federal Tax Authority with a relevant degree, three years of experience, Arabic and English proficiency, a pass in the FTA exam and professional indemnity insurance, then be appointed by a registered tax agency.</p>
-
-<h3>How much do accountants earn in the UAE?</h3>
-<p>Advertised ranges run from AED 4,000 a month for junior roles to AED 25,000 or more for finance managers, but no official pay data exists. Compare basic salary separately, because gratuity is calculated on basic pay only.</p>
-
-<h3>When does e-invoicing become mandatory in the UAE?</h3>
-<p>From 1 January 2027 for businesses with revenue of AED 50 million or more, which must appoint a provider by 30 October 2026, and from 1 July 2027 for smaller businesses.</p>
-
-<h3>Is working in DIFC different from other free zones?</h3>
-<p>Yes. DIFC has its own Employment Law and a savings plan called DEWS instead of end-of-service gratuity. ADGM also runs its own employment regulations.</p>
 
 <h2>More Job Guides</h2>
 

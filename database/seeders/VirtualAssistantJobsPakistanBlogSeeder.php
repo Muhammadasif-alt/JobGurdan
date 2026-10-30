@@ -323,20 +323,8 @@ JOBHTML;
 <h3>What does virtual assistant work pay in Pakistan?</h3>
 <p>Commonly $2 to $4 an hour for general admin, $5 to $8 for specialised work, and $8 to $15 or more for medical, Amazon and executive niches. Around $3 an hour over a 30-hour week is roughly PKR 100,000 a month at current rates.</p>
 
-<h3>Does Amazon hire virtual assistants directly?</h3>
-<p>No. The work comes from third-party Amazon sellers and the agencies that manage their storefronts, under their own names. Anything presented as an Amazon-issued VA job is an impersonation, and one that asks for money is a documented fraud.</p>
-
-<h3>Do I need a paid course to become a VA?</h3>
-<p>No. Courses can teach the tools, and that is a legitimate thing to buy. Placement is not: no training provider controls client hiring, so treat any promise of guaranteed work or clients as a sales line rather than an offer.</p>
-
 <h3>What does a medical virtual assistant actually do?</h3>
 <p>Insurance verification, denied claims follow-up, processing Explanation of Benefits documents, tracking patient balances and preparing reports for a US practice. It usually asks for about a year of prior US healthcare support and familiarity with CPT and ICD-10 coding.</p>
-
-<h3>What is a Business Associate Agreement and why does it matter?</h3>
-<p>Under HIPAA, a US practice giving a contractor access to patient data must have a Business Associate Agreement with them. Ask whether one is in place before starting medical VA work: a client who has one runs a compliant operation, and one who has never heard of it is exposing both of you.</p>
-
-<h3>How do international clients pay virtual assistants in Pakistan?</h3>
-<p>Usually in dollars through Payoneer, which you withdraw to a Pakistani bank, or by direct bank remittance. PayPal does not operate for accounts in Pakistan, so confirm the route before accepting a contract.</p>
 
 <h2>More Job Guides</h2>
 

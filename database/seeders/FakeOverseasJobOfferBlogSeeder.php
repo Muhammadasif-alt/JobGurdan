@@ -163,17 +163,8 @@ class FakeOverseasJobOfferBlogSeeder extends Seeder
 <h3>Can a fake offer look professional?</h3>
 <p>Yes. Scammers copy real company logos, names and staff photos. A professional appearance proves nothing, so rely on independent verification instead.</p>
 
-<h3>Are job boards safe?</h3>
-<p>Job boards are generally legitimate, but scam listings can slip through. Treat any listing that moves you quickly to private messaging or asks for payment as suspicious, and report it.</p>
-
 <h3>What if the employer says the visa fee must go to them?</h3>
 <p>Official visa fees are paid through the government's own payment system. If the employer asks you to send visa money to a personal or third-party account, stop and verify on the official immigration website.</p>
-
-<h3>Is a "visa approval letter" from a recruiter real?</h3>
-<p>Not unless you can verify it on the government's own system. Only the immigration authority issues approvals.</p>
-
-<h3>Can I get my money back?</h3>
-<p>Sometimes, if you act fast. Contact your bank at once and report the scam, but recovery is never guaranteed.</p>
 
 <h3>Is a company on the UK sponsor register guaranteed to sponsor me?</h3>
 <p>No. It only shows the employer is licensed. The job must also be an eligible occupation and meet the salary and English rules.</p>

@@ -134,18 +134,6 @@ class VerifyOverseasJobOfferBlogSeeder extends Seeder
 <h3>Can a genuine company be impersonated?</h3>
 <p>Yes. Confirm the representative and the specific offer, not just the company.</p>
 
-<h3>What if the employer is not on the New Zealand list?</h3>
-<p>Some employers are not published. Ask the employer to confirm its accreditation.</p>
-
-<h3>How do I check a Pakistani recruiter?</h3>
-<p>Use the BEOE licensed promoter directory and contact the registered office independently.</p>
-
-<h3>What if I have already paid?</h3>
-<p>Contact your bank or payment provider immediately and keep all evidence.</p>
-
-<h3>Is a video interview proof the job is real?</h3>
-<p>No. It supports your checks but cannot replace them.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -157,7 +145,6 @@ class VerifyOverseasJobOfferBlogSeeder extends Seeder
     <li><a href="/blog/documents-needed-to-work-abroad-2026">Documents Needed to Work Abroad (2026)</a>: what to prepare</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

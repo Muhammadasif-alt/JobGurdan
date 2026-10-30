@@ -328,18 +328,6 @@ JOBHTML;
 <h3>How many training hours do I need?</h3>
 <p>Ontario requires at least 103.5 hours, British Columbia 140, and Saskatchewan and Manitoba 121.5. Alberta replaced MELT with the Class 1 Learning Pathway in 2025.</p>
 
-<h3>Do I need a manual transmission for the road test?</h3>
-<p>In Ontario, yes, for an unrestricted Class A: the test vehicle must have a manual transmission with at least eight forward gears and a high-low range.</p>
-
-<h3>Is there a truck driver shortage in Canada?</h3>
-<p>Job Bank rates it a moderate risk of labour shortage to 2033. Almost half of drivers are 50 or older, so replacement demand is the main driver.</p>
-
-<h3>Do I need a FAST card to cross into the United States?</h3>
-<p>No. FAST is an expedited clearance programme for approved low-risk shipments and enrolled drivers, not a requirement to cross.</p>
-
-<h3>Can truck drivers immigrate through Express Entry?</h3>
-<p>Not through the transport category, which covers aviation and mechanic occupations. Check the current category-based selection rules before relying on any other claim.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing driving routes and Canadian work? These cover them:</p>

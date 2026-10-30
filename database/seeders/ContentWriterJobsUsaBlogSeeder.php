@@ -327,18 +327,6 @@ JOBHTML;
 <h3>Do I keep the byline on content I write?</h3>
 <p>Often not. Most content work is work for hire, which assigns the copyright and usually the credit to the client. Ask about attribution and portfolio permission at contract stage: many clients grant the second even when they cannot grant the first.</p>
 
-<h3>Which content niches pay the most?</h3>
-<p>Health and medical, finance and legal, technical and developer content, and specialised B2B. What they share is that being wrong has consequences, which is what supports the rate.</p>
-
-<h3>Do I need a degree to be a content writer?</h3>
-<p>Rarely as a hard requirement. Postings screen on samples relevant to the niche. In health and finance, a relevant credential or a named expert reviewer often matters more than a degree in writing.</p>
-
-<h3>Will AI replace content writers?</h3>
-<p>The commodity end is already compressing, and BLS's flat projection is a projection made in a world that has these tools. Research, subject expertise, fact-checking and accountability are what hold value, and editing AI drafts is now a paid category in its own right.</p>
-
-<h3>Are content writer jobs remote?</h3>
-<p>Most are, which is genuinely one of the field's advantages. It also means you are competing nationally rather than locally, which is part of why the niche matters so much.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking across the rest of the writing and digital market? These cover it:</p>

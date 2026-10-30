@@ -307,20 +307,8 @@ JOBHTML;
 <h3>Is customer service a growing field?</h3>
 <p>No. BLS projects employment of customer service representatives to fall 5 per cent from 2025 to 2035, a loss of about 141,800 jobs. About 289,500 openings a year are still projected, but they come mainly from turnover.</p>
 
-<h3>Is technical support the same as customer service?</h3>
-<p>Not in the pay data. IT help desk work is a separate BLS occupation, computer user support specialists, with a May 2025 median of $61,860: well above the customer service median.</p>
-
-<h3>What is a customer success manager?</h3>
-<p>It is a relationship and retention role common at software and B2B companies. It is an industry job title rather than a BLS occupation, so it has no official wage; pay varies and overlaps with sales and account management.</p>
-
 <h3>Can I do customer service from home?</h3>
 <p>Often, yes. BLS notes remote work is possible at some employers, and customer service is one of the most common remote categories. Confirm whether a role is permanently remote or remote only during training.</p>
-
-<h3>What shifts do customer service jobs involve?</h3>
-<p>BLS notes reps often work during busy times, including evenings, weekends and holidays. Call centers and retail commonly pay shift differentials for these hours.</p>
-
-<h3>Which industries hire the most customer service reps?</h3>
-<p>Retail trade, insurance carriers, business support services including telephone call centers, and professional and technical services employ the largest shares.</p>
 
 <h2>More Job Guides</h2>
 

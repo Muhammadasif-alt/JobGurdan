@@ -152,18 +152,6 @@ class WorkVisaVsWorkPermitBlogSeeder extends Seeder
 <h3>Can I change employers with valid permission?</h3>
 <p>Possibly. Employer-specific routes may need new authorisation first.</p>
 
-<h3>Does a valid visa guarantee entry?</h3>
-<p>No. Admission is decided under the border and immigration rules.</p>
-
-<h3>Is a Canadian work permit a visa?</h3>
-<p>No. You may need a visa or an electronic travel authorisation as well.</p>
-
-<h3>Does my spouse get the same work rights?</h3>
-<p>Not automatically. Family permission has separate rules.</p>
-
-<h3>Which document proves my right to work?</h3>
-<p>The one your authority issues for your route. Check its conditions.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -175,7 +163,6 @@ class WorkVisaVsWorkPermitBlogSeeder extends Seeder
     <li><a href="/blog/employer-cancels-work-visa">What Happens if Your Employer Cancels Your Visa</a>: job loss and status</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

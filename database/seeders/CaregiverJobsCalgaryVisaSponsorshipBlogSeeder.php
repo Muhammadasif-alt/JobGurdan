@@ -158,12 +158,6 @@ class CaregiverJobsCalgaryVisaSponsorshipBlogSeeder extends Seeder
 
 <p>Check any Pakistani agent's licence with the Bureau of Emigration and Overseas Employment before paying anything, and remember that a genuine Canadian employer applies for the LMIA itself. Read <a href="/blog/how-to-find-job-abroad-from-pakistan-2026">how to find a job abroad from Pakistan</a> for the checks before you leave.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can foreigners apply for caregiver jobs in Calgary?</h3>
@@ -178,21 +172,9 @@ class CaregiverJobsCalgaryVisaSponsorshipBlogSeeder extends Seeder
 <h3>How much is that per year?</h3>
 <p>About $41,600 before tax at $20 an hour full time; many roles are part time, so actual earnings are often lower.</p>
 
-<h3>Do Calgary caregiver jobs offer accommodation?</h3>
-<p>Some live-in roles include a room. Get the terms, any deduction and your time-off rights in writing.</p>
-
-<h3>Do I need an HCA certificate?</h3>
-<p>For hospital and continuing care roles, usually yes; private home roles may accept less training.</p>
-
-<h3>Can an employer charge me for the job?</h3>
-<p>No. Temporary Foreign Worker Program employers may not charge or recover recruitment fees from workers.</p>
-
-<h3>What is the best website for caregiver jobs in Calgary?</h3>
-<p>Job Bank, the official government board, plus home care agencies' own careers pages.</p>
-
 <h2>Bottom Line</h2>
 
-<p>A Calgary caregiver job with sponsorship is possible through an employer's LMIA, but it is a temporary work permit while the PR pilots are paused until March 2030. Compare offers against Job Bank's $17 to $26 range, get the HCA and First Aid certificates, and verify every employer before you pay or share documents. This guide cannot promise a job, a work permit or PR.</p>
+<p>A Calgary caregiver job with sponsorship is possible through an employer's LMIA, but it is a temporary work permit while the PR pilots are paused until March 2030. Compare offers against Job Bank's $17 to $26 range, get the HCA and First Aid certificates, and verify every employer before you pay or share documents.</p>
 
 <h2>Sources</h2>
 
@@ -215,7 +197,6 @@ class CaregiverJobsCalgaryVisaSponsorshipBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, the warning signs of a recruitment scam.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, immigration or career advice. Reviewed on 28 October 2026 against the pages named in Sources. Confirm current rules on canada.ca before paying anyone or applying. It does not promise a job, a work permit, sponsorship or PR.</p>
 HTML;
     }
 }

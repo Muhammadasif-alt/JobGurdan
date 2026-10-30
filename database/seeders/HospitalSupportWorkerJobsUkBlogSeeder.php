@@ -205,17 +205,8 @@ HTML;
 <p>Often yes. Most posts carry no formal academic entry requirement and trusts train on the job. Caring experience of any kind, including unpaid and voluntary work, strengthens an application considerably.</p>
 <h3>What is the difference between Band 2 and Band 3?</h3>
 <p>What you are trusted to do unsupervised. Band 2 covers personal care, mobility and ward duties. Band 3 adds delegated clinical tasks, most commonly taking and escalating observations, after training and assessment.</p>
-<h3>Do hospital support workers get paid more for nights and weekends?</h3>
-<p>Yes, and the enhancement is largest at the lowest bands. A Band 2 is paid time plus 41 per cent on Saturdays and weekday nights and time plus 83 per cent on Sundays and public holidays, which takes an English Band 2 Saturday rate to &pound;18.22 an hour.</p>
 <h3>Can a hospital support worker be sponsored from abroad?</h3>
 <p>It depends on the occupation code. Nursing auxiliaries and assistants, code 6131, remain eligible for a new Health and Care Worker visa. Care workers and senior care workers, codes 6135 and 6136, closed to new overseas applications on 22 July 2025.</p>
-<h3>What is the difference between a support worker and a nurse?</h3>
-<p>A support worker delivers care under the direction of a registered professional. A nurse holds a degree and professional registration, assesses patients and is accountable for planning their care.</p>
-<h3>How long does the Care Certificate take?</h3>
-<p>It has 16 standards and most employers expect it within twelve weeks of induction. It is completed during paid working time, and the twelve weeks is an employer expectation rather than a legal deadline.</p>
-<h3>What shifts do hospital support workers work?</h3>
-<p>Inpatient wards run day and night patterns including weekends and bank holidays. Outpatient clinics, day units and community teams are more likely to be daytime only. Every advert states the pattern, and it is worth more than the band in pay terms.</p>
-
 <h2>Related career guides</h2>
 <ul>
 <li><a href="/blog/physiotherapy-assistant-jobs-in-the-uk">Physiotherapy Assistant Jobs in the UK</a>: the same bands in a therapy department, where Band 3 means delegated treatment work.</li>

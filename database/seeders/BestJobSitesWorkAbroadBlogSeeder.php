@@ -172,20 +172,8 @@ class BestJobSitesWorkAbroadBlogSeeder extends Seeder
 <h3>Does a remote job let me relocate?</h3>
 <p>Not automatically. Remote employment and immigration permission are separate matters.</p>
 
-<h3>Should I use every portal?</h3>
-<p>Start with those that match your destination and occupation, then broaden your search if you need to.</p>
-
-<h3>Are commercial job boards safe?</h3>
-<p>They list genuine vacancies, but scam listings can appear. Verify the employer and never pay for a job.</p>
-
 <h3>Which portal is best for nurses?</h3>
 <p>NHS Jobs for the UK, plus the national health portals of other countries; check each registration requirement.</p>
-
-<h3>Where do I find US seasonal jobs?</h3>
-<p>On the US Department of Labor's SeasonalJobs portal, which lists H-2A and H-2B job orders.</p>
-
-<h3>How do I know an advert is real?</h3>
-<p>Find the same role on the employer's own website, and confirm the contact details yourself.</p>
 
 <h2>More Job Guides</h2>
 

@@ -423,18 +423,6 @@ JOBHTML;
 <h3>How much does ASML pay in the Netherlands?</h3>
 <p>ASML prints an expected fixed annual range on each vacancy. Live examples when we checked ran from EUR 47,500 to EUR 53,500 for a cleanroom technician up to EUR 88,000 to EUR 100,000 for a facility layout engineer. The ranges include holiday allowance and a 13th month but exclude profit sharing and shift allowance.</p>
 
-<h3>Do I need to speak Dutch to work at ASML?</h3>
-<p>Generally no for professional roles, where English is the working language. But the work-study programme is studied in Dutch, and ASML expects English on top of it, so that route is effectively closed without Dutch.</p>
-
-<h3>Where are ASML's offices in the Netherlands?</h3>
-<p>Veldhoven is the headquarters and the largest R&amp;D and manufacturing site, with further locations in Eindhoven, Oirschot and Delft. Oirschot focuses on stage motor design and assembly, Delft on metrology and inspection.</p>
-
-<h3>Is ASML still hiring after the 2026 restructuring?</h3>
-<p>Yes, but selectively. ASML announced a net reduction of around 1,700 positions in January 2026, predominantly in the Netherlands and mostly at leadership level, while saying it will keep creating engineering roles and hiring in manufacturing, customer support and sales.</p>
-
-<h3>Do non-EU students get the ASML internship allowance?</h3>
-<p>ASML does not publish an answer. It frames both the monthly allowance and the housing allowance as entitlements for EU students, and says nothing about non-EU students beyond a tripartite agreement requirement. Ask the recruiter before accepting.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If it is European engineering you are after rather than this one employer, these cover the same ground from different angles:</p>

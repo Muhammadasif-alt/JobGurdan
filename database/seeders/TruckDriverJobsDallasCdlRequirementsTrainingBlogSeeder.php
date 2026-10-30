@@ -133,12 +133,6 @@ class TruckDriverJobsDallasCdlRequirementsTrainingBlogSeeder extends Seeder
 
 <p>Work authorisation alone does not make you eligible for a Texas CDL. DPS resumed issuing non-domiciled CLPs and CDLs on 1 June 2026 only for H-2A agricultural workers; H-2B and E-2 holders were pending federal approval. Check the current DPS page before enrolling in any course. Readers in Pakistan should read <a href="/blog/best-countries-for-truck-drivers-to-work-abroad-2026">the best countries for truck drivers to work abroad</a> and <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a>. Official page: <a href="https://www.dps.texas.gov/section/driver-license/non-domicile-commercial-driver-license-cdl" rel="noopener">Texas DPS: Non-domicile CDL and CLP</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I get a truck driving job in Dallas with no experience?</h3>
@@ -153,21 +147,9 @@ class TruckDriverJobsDallasCdlRequirementsTrainingBlogSeeder extends Seeder
 <h3>Is training required?</h3>
 <p>Yes. First-time Class A and B applicants must finish ELDT with a registered provider.</p>
 
-<h3>Can I take the Texas CDL test in Spanish?</h3>
-<p>No. Knowledge tests have been English-only since 1 June 2026.</p>
-
-<h3>How old must I be?</h3>
-<p>18 to drive inside Texas; generally 21 for interstate freight.</p>
-
-<h3>What do truck drivers earn?</h3>
-<p>The national median was $58,640 a year in May 2025.</p>
-
-<h3>Does company-paid training guarantee a job?</h3>
-<p>No, and leaving early can mean repaying the cost.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Pick the right CDL class, train with a registered provider, prepare for the tests in English, and compare written offers on pay, home time and repayment terms. This guide cannot promise a licence, a job or a wage.</p>
+<p>Pick the right CDL class, train with a registered provider, prepare for the tests in English, and compare written offers on pay, home time and repayment terms.</p>
 
 <h2>Sources</h2>
 
@@ -190,7 +172,6 @@ class TruckDriverJobsDallasCdlRequirementsTrainingBlogSeeder extends Seeder
     <li><a href="/blog/gas-station-jobs-houston-hiring-age-requirements">Gas Station Jobs in Houston</a>, another Texas beginner job.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 30 October 2026 against the pages named in Sources. It does not promise a licence, a job or a wage.</p>
 HTML;
     }
 }

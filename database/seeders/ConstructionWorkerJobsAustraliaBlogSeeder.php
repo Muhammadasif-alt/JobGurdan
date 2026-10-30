@@ -293,20 +293,8 @@ JOBHTML;
 <h3>Does the quoted salary include superannuation?</h3>
 <p>Australian advertisements split both ways, so you have to ask. At the 12 per cent guarantee rate, the answer is worth $7,613 on a $71,059 figure.</p>
 
-<h3>Do I need a White Card to work in construction in Australia?</h3>
-<p>Yes. It is a legal condition of entering a construction site, not a preferred qualification, and you need it before you start rather than after you are hired.</p>
-
-<h3>Does a White Card work in another state?</h3>
-<p>Yes. It is recognised across every Australian state and territory, so you do not repeat the course when you move for work.</p>
-
-<h3>Does a White Card expire?</h3>
-<p>It has no simple expiry date, but it becomes void if you do no construction work for two consecutive years. Anyone returning after a longer break has to redo it.</p>
-
 <h3>Can I get visa sponsorship as a construction labourer in Australia?</h3>
 <p>Not realistically. General labouring is not a skilled migration occupation. The Working Holiday visa is the route that works, and construction counts towards it.</p>
-
-<h3>Does construction work count for a second year Working Holiday visa?</h3>
-<p>Yes. On the subclass 417 it counts anywhere in regional Australia, and on the 462 in Northern or regional Australia: 88 days for a second year and 179 days for a third. Check the postcode of the site before you start.</p>
 
 <h2>More Job Guides</h2>
 

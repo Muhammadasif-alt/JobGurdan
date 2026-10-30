@@ -254,18 +254,6 @@ class AdjunctLecturerJobsUkBlogSeeder extends Seeder
 <h3>What is an adjunct lecturer called in the UK?</h3>
 <p>Hourly-paid lecturer, associate lecturer, sessional lecturer or visiting lecturer. "Adjunct" is a United States term and UK universities do not advertise with it, so search the UK titles instead.</p>
 
-<h3>How much does an hourly-paid lecturer earn in the UK?</h3>
-<p>It depends on the multiplier, not just the rate. Oxford Brookes publishes a comprehensive rate of GBP 50.26 at scale point 30, being 2.5 times its simple basic rate of GBP 20.10. Cambridge publishes GBP 92.10 an hour for a lecture, which is its GBP 18.42 basic rate times five, because its lecture rate includes four hours of preparation.</p>
-
-<h3>Does the hourly rate include preparation and marking?</h3>
-<p>Usually yes, and that is the point. A comprehensive rate bundles preparation, marking and administration into the figure you claim for each teaching hour, and Oxford Brookes states that associate lecturers "must not claim for these activities separately in addition to the comprehensive rate". Some universities, such as St Andrews, instead pay preparation as separate claimable hours, but only for the first delivery of a session.</p>
-
-<h3>How much marking time am I actually paid for?</h3>
-<p>Less than you will need. Oxford Brookes states that its comprehensive rate "includes payment for 20 minutes (0.333 hours) of marking for every scheduled teaching hour worked". Extra allocation is possible where an assessment is more complex than the norm, but it has to be agreed with your line manager in advance.</p>
-
-<h3>Do I need a PhD to be an adjunct lecturer in the UK?</h3>
-<p>Not always. Academic departments usually expect a PhD or one near completion, while vocational and professional subjects often accept a Master's with substantial industry experience. What every department wants is a match to a specific module.</p>
-
 <h3>Can I get a Skilled Worker visa as an hourly-paid lecturer?</h3>
 <p>Almost never, and for a structural reason. Going rates pro-rate down to your working pattern under the Immigration Rules, but the GBP 41,700 general threshold does not, so part-time hourly teaching cannot reach the floor. You would need a full-time or substantial fractional post paying at least GBP 41,700 and the pro-rated going rate for SOC code 2311, which is GBP 52,600 at full time.</p>
 

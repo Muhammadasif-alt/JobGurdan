@@ -293,23 +293,11 @@ JOBHTML;
 <h3>Can a green card holder become a police officer in the USA?</h3>
 <p>In some places. Federal agencies, the NYPD and Texas require US citizenship, with a narrow veterans' exception in Texas. California, since 1 January 2026, and Illinois, since 1 January 2024, accept non-citizens with federal work authorization.</p>
 
-<h3>Can I become a US police officer on a work or student visa?</h3>
-<p>No, in practice. Under 18 U.S.C. 922(g)(5), nonimmigrant visa holders are generally barred from possessing firearms, and every police academy requires firearms qualification.</p>
-
 <h3>What is the minimum age to become a police officer?</h3>
 <p>Usually 21. Texas allows 18 with an associate degree, 60 semester hours of college or military service, and the NYPD appoints officers from 20 years and 6 months.</p>
 
-<h3>Do federal agents attend a police academy?</h3>
-<p>They attend federal academies rather than state ones. FBI special agents, for example, train at the FBI Academy at Quantico.</p>
-
-<h3>What is on the FBI physical fitness test?</h3>
-<p>Four events: pull-ups or chin-ups, a 300-metre sprint, push-ups and a 1.5-mile run. Sit-ups are no longer part of it.</p>
-
 <h3>Does a police certificate transfer to another state?</h3>
 <p>Not automatically. Each state certifies its own officers. California, for example, requires out-of-state officers to obtain a Basic Course Waiver, and a 160-hour requalification course once the waiver expires.</p>
-
-<h3>What disqualifies you from becoming a police officer?</h3>
-<p>A felony conviction, a misdemeanor domestic violence conviction under the Lautenberg Amendment, or failing the background, psychological or medical evaluation. Departments add their own standards on top.</p>
 
 <h2>More Job Guides</h2>
 

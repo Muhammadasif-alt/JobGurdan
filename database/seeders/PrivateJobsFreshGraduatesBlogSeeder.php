@@ -246,18 +246,6 @@ JOBHTML;
 <h3>Are private jobs better than government jobs after graduation?</h3>
 <p>Neither is better in general. Private jobs start you earning within weeks; government posts offer permanence and a pension but run on a commission calendar that takes months. Most graduates apply to both at once.</p>
 
-<h3>What is an MTO programme?</h3>
-<p>Management Trainee Officer: a structured annual intake, most common at banks, FMCG companies and telecom operators, that rotates you through departments for six to eighteen months before confirming you into a permanent role.</p>
-
-<h3>Should I accept a job without an appointment letter?</h3>
-<p>No. The letter is what fixes your title, gross salary, probation period, hours and notice period. A verbal offer is not enforceable, and asking for the letter in writing is normal rather than presumptuous.</p>
-
-<h3>Which cities hire the most fresh graduates in Pakistan?</h3>
-<p>Karachi first, then Lahore and Islamabad. Faisalabad, Multan and Peshawar hire steadily in retail, telecom and BPO, usually at the lower end of the advertised bands.</p>
-
-<h3>How long does private-sector hiring take?</h3>
-<p>Two to three weeks is common from application to joining date for entry-level roles. Bank and multinational trainee programmes take longer because they add aptitude tests and multiple interview rounds.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at the public sector or overseas options alongside private hiring? These cover the rest:</p>

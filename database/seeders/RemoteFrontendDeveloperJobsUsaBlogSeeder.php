@@ -239,18 +239,6 @@ HTML;
 <h3>What is the convenience of the employer rule?</h3>
 <p>A rule in a few states treating days you work from home as days worked in your employer's state, and taxing them there. New York applies it unless the employer has established a bona fide employer office at your location, a test its own guidance says is rarely met.</p>
 
-<h3>Which states use a convenience of the employer rule?</h3>
-<p>On official sources, New York, Delaware and Nebraska apply one directly. New Jersey and Connecticut mirror whatever rule the worker's home state applies. Pennsylvania does not, despite appearing on published lists.</p>
-
-<h3>Can I be taxed by two states on the same wages?</h3>
-<p>It is possible where a convenience rule and your home state's rules overlap, which is why reciprocal agreements exist. Michigan, for example, exempts residents of six named states from tax on wages earned there, on filing a statement of non-residence.</p>
-
-<h3>Can classified work be done from home?</h3>
-<p>Not in the ordinary sense. Classified material must be stored in GSA-approved containers, vaults or an approved open storage area, and a system must be authorised by the cognisant security agency before it processes classified information. A home office is neither.</p>
-
-<h3>Why do adverts say remote and then require a clearance?</h3>
-<p>Usually because the unclassified work can be done remotely and the classified work cannot, or because the role is remote within reach of a cleared facility. Ask which it is on the first call.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

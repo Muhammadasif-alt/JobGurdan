@@ -133,12 +133,6 @@ class ReceptionistJobsDubaiRequirementsInterviewTipsBlogSeeder extends Seeder
 
 <p>Never pay an agent, a "processing fee" or a deposit for a Dubai reception job or a visa, and check the employer on its own website first. Read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you send money or documents, and use only promoters licensed by the <a href="https://beoe.gov.pk" rel="noopener">Bureau of Emigration and Overseas Employment</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can freshers apply for receptionist jobs in Dubai?</h3>
@@ -153,21 +147,9 @@ class ReceptionistJobsDubaiRequirementsInterviewTipsBlogSeeder extends Seeder
 <h3>What is the minimum salary for a receptionist in Dubai?</h3>
 <p>There is none. u.ae says the Labour Law sets no minimum salary, so compare written offers and the cost of living rather than online estimates.</p>
 
-<h3>Do I get extra pay for night shifts?</h3>
-<p>Not automatically. The basic wage plus 50 per cent for work between 10pm and 4am does not apply to workers employed on a shift basis, so negotiate a written allowance.</p>
-
-<h3>Can an employer charge me for the visa or recruitment?</h3>
-<p>No. Article 6 of Federal Decree-Law No. 33 of 2021 bars employers from charging workers recruitment and employment costs, directly or indirectly.</p>
-
-<h3>Which software should I learn for hotel reception?</h3>
-<p>Read each advert. The Accor advert named Opera and Microsoft; other properties use other systems. Describe honestly what you have used and how you learn new ones.</p>
-
-<h3>What should I wear to the interview?</h3>
-<p>Clean, professional clothing suited to the workplace, and follow any instructions the employer gives.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Choose receptionist jobs in Dubai that match your experience, languages and availability. Prepare specific interview examples, show accuracy and courtesy, and verify the complete written offer, including wages through the Wage Protection System and any shift allowance, before you accept. This guide cannot promise work, income, a visa or an interview.</p>
+<p>Choose receptionist jobs in Dubai that match your experience, languages and availability. Prepare specific interview examples, show accuracy and courtesy, and verify the complete written offer, including wages through the Wage Protection System and any shift allowance, before you accept.</p>
 
 <h2>Sources</h2>
 
@@ -189,7 +171,6 @@ class ReceptionistJobsDubaiRequirementsInterviewTipsBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, immigration, financial or career advice. Reviewed on 26 October 2026 against the pages named in Sources. It does not promise a vacancy, an income, a visa or an interview, and employer adverts, pay and rules can change.</p>
 HTML;
     }
 }

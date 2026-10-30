@@ -100,12 +100,6 @@ class PartTimeJobsSeattleWaBlogSeeder extends Seeder
 
 <p>Match your resume honestly to each posting, with clear examples from study, volunteering or earlier work. Keep written notes of interview talks, including availability, training dates and promised follow-up. Compare hourly pay with expected weekly hours, travel cost and benefits; tips and optional extra shifts are not dependable income. Ask when benefits begin and which hours qualify, because eligibility varies by employer and role.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I find weekend-only work?</h3>
@@ -119,18 +113,6 @@ class PartTimeJobsSeattleWaBlogSeeder extends Seeder
 
 <h3>Does part-time work include benefits?</h3>
 <p>It varies by employer and role. Ask about qualifying hours, waiting periods and which benefits apply.</p>
-
-<h3>Can students work at the University of Washington?</h3>
-<p>UW lists student jobs separately, and HFS hires students who can work at least 10 hours a week.</p>
-
-<h3>How long are City of Seattle internships open?</h3>
-<p>The City says applications are only accepted while a post is open, typically for about two weeks.</p>
-
-<h3>Do I need a resume for every application?</h3>
-<p>Most employers expect one. Tailor it to each posting and check that it matches the application form.</p>
-
-<h3>Is a part-time job always flexible?</h3>
-<p>No. Read the posted schedule and ask about required days, early starts and weekends.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 
@@ -161,7 +143,6 @@ class PartTimeJobsSeattleWaBlogSeeder extends Seeder
     <li><a href="/blog/plumber-apprenticeship-seattle-houston-detroit">Plumber Apprenticeship in Seattle, Houston, and Detroit</a>: trade route</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 17 October 2026. It links public-sector and state portals; private employers are named in the text so you can search their own career pages. It does not imply visa sponsorship, a confirmed opening or guaranteed hiring.</p>
 HTML;
     }
 }

@@ -363,18 +363,6 @@ JOBHTML;
 <h3>What degree do finance analysts need?</h3>
 <p>Job Bank says a bachelor's degree in commerce, business administration, accounting, finance or economics is usually required, and an MBA or master's in finance may be required for some roles.</p>
 
-<h3>Is finance analyst a good career in Canada?</h3>
-<p>The national outlook for 2024-2033 is balance: demand and supply broadly in line. Prospects over the next three years are Moderate in most provinces but Limited in Ontario, British Columbia and Prince Edward Island.</p>
-
-<h3>How many finance analysts work in Canada?</h3>
-<p>About 77,000 in 2023, according to Job Bank, with 24% of them aged 50 or over.</p>
-
-<h3>Can a new graduate become a finance analyst?</h3>
-<p>Yes. RBC's Analyst Program takes final-year undergraduates into Product &amp; Strategy or Data &amp; Analytics streams, and TD runs Early Talent and Graduate Leadership Programs.</p>
-
-<h3>Where can I find legitimate finance analyst jobs in Canada?</h3>
-<p>Use Job Bank, Government of Canada Jobs and the banks' own portals: jobs.rbc.com, careers.td.com, jobs.scotiabank.com and jobs.bmo.com.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing finance and Canadian career routes? These cover them:</p>

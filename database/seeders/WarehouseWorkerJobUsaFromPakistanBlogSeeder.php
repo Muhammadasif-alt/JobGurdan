@@ -154,12 +154,6 @@ class WarehouseWorkerJobUsaFromPakistanBlogSeeder extends Seeder
 
 <h2>Frequently Asked Questions</h2>
 
-<h3>Can Pakistanis get H-2B visas?</h3>
-<p>The eligible-country lists were removed in January 2025, so nationality alone no longer blocks a petition. You still need an employer that recruits from Pakistan, an approved petition and a visa decision.</p>
-
-<h3>Can I get a warehouse job in the USA without experience?</h3>
-<p>Yes. Most warehouse jobs train new hires on the job. The hard part for Pakistanis is finding an employer that recruits abroad, not the experience.</p>
-
 <h3>How much does a warehouse worker earn in the USA?</h3>
 <p>The national median is about $19.35 an hour, or $40,240 a year (BLS, May 2025).</p>
 
@@ -171,9 +165,6 @@ class WarehouseWorkerJobUsaFromPakistanBlogSeeder extends Seeder
 
 <h3>Can my family come with me?</h3>
 <p>Spouses and unmarried children under 21 may apply for H-4 visas, but they generally cannot work.</p>
-
-<h3>Does H-2B lead to permanent residence?</h3>
-<p>No. It is a temporary work route, and a green card through EB-3 is rare and slow.</p>
 
 <h3>Is there a limit on H-2B visas?</h3>
 <p>Yes, 66,000 new workers a year, with supplemental allocations in some years. Check USCIS's current notices.</p>

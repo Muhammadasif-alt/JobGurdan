@@ -158,18 +158,6 @@ class EmployerCancelsWorkVisaBlogSeeder extends Seeder
 <h3>Can I stay in Singapore after my pass is cancelled?</h3>
 <p>You can request a Short-Term Visit Pass for up to 90 days, which is not permission to work.</p>
 
-<h3>Does an open work permit end with my job?</h3>
-<p>No. An open permit is not tied to one employer, within its conditions.</p>
-
-<h3>Can I ignore a verbal cancellation claim?</h3>
-<p>No. Verify it promptly and ask for the notice in writing.</p>
-
-<h3>Does a complaint extend my visa?</h3>
-<p>Do not assume it does. Check your immigration options separately.</p>
-
-<h3>Can an agent fix this for a fee?</h3>
-<p>No one can guarantee a visa transfer. Verify the lawful route first.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -181,7 +169,6 @@ class EmployerCancelsWorkVisaBlogSeeder extends Seeder
     <li><a href="/blog/how-long-work-visa-takes-2026">How Long Does it Take to Get a Work Visa</a>: realistic timelines</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

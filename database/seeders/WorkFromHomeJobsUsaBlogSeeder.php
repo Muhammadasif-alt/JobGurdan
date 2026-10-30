@@ -311,18 +311,6 @@ JOBHTML;
 <h3>Can I deduct my home office if I work from home as an employee?</h3>
 <p>No. The IRS says W-2 employees are not eligible for the home office deduction. Self-employed workers who use space regularly and exclusively for business can claim it.</p>
 
-<h3>Does my employer have to pay for my internet when I work from home?</h3>
-<p>Not under federal law, unless the costs push pay below the minimum wage. Some states, such as California, require employers to reimburse necessary work expenses.</p>
-
-<h3>Are breaks paid when working from home?</h3>
-<p>For hourly nonexempt employees, breaks of 20 minutes or less count as hours worked, whether at home or in an office.</p>
-
-<h3>What is a task scam?</h3>
-<p>A fake online job, usually offered by text or WhatsApp, that pays small amounts at first and then asks you to deposit money to unlock earnings you never receive.</p>
-
-<h3>How can I tell if a work from home job is legitimate?</h3>
-<p>A real employer interviews you, never charges you to work, never sends checks for you to forward, and verifies work authorization through a formal onboarding process.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing remote and office jobs? These cover them:</p>

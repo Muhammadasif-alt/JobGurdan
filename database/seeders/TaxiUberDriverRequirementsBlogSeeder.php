@@ -291,20 +291,8 @@ JOBHTML;
 <h3>Who issues taxi licences in the UK?</h3>
 <p>The local council, or Transport for London in London.</p>
 
-<h3>Can I get a UK visa as a taxi driver?</h3>
-<p>No. Taxi and cab drivers and chauffeurs (SOC 8213) are ineligible for the Skilled Worker visa.</p>
-
-<h3>How much do taxi drivers earn in the UK?</h3>
-<p>The National Careers Service gives about £20,000 for starters and £35,000 for experienced drivers.</p>
-
-<h3>Can I drive for Uber in the US with a foreign licence?</h3>
-<p>No. Uber requires a valid US licence and at least one year of US driving experience, three if you are under 25.</p>
-
 <h3>What are Uber driver requirements in Canada?</h3>
 <p>They vary by city. Check the city's rules and that your work permit allows self-employed driving.</p>
-
-<h3>What is a Passenger Transport Licence Code in NSW?</h3>
-<p>The code taxi and rideshare drivers need in NSW. It requires an unrestricted Australian licence for 12 months in the last 4 years and commercial vehicle medical standards.</p>
 
 <h2>More Job Guides</h2>
 

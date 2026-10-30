@@ -290,26 +290,14 @@ JOBHTML;
 <h3>Which US colleges hire professors without a PhD?</h3>
 <p>Mostly community and junior colleges, along with career and technical programmes and some adjunct teaching at four-year institutions. A master's in the discipline is the usual expectation, and the exact coursework requirement is set by each college rather than by an accreditor.</p>
 
-<h3>Do community colleges require 18 graduate credit hours?</h3>
-<p>Not as an accreditation rule. The Higher Learning Commission removed that language in November 2023, and SACSCOC says it has not been a requirement for close to two decades. Many colleges still use 18 hours as their own benchmark, so check the college's published faculty credentials policy.</p>
-
 <h3>Which kind of college pays professors the most?</h3>
 <p>State colleges and universities, at a $96,120 median in May 2025, against $89,660 at private ones, $81,640 at local junior colleges and $68,160 at state junior colleges.</p>
-
-<h3>Do community colleges pay adjuncts less per course?</h3>
-<p>Yes. AAUP figures for 2024&ndash;25 average $5,115 a section at doctoral institutions and $3,348 at associate's institutions without ranks, against $4,093 across all institutions.</p>
 
 <h3>Where do US colleges advertise faculty vacancies?</h3>
 <p>On their own HR systems first, then state system portals for public institutions, discipline association listings, and USAJOBS for federal institutions. National boards carry a later and partial copy.</p>
 
-<h3>When do colleges hire professors?</h3>
-<p>Four-year tenure-track searches advertise in autumn for an August start. Community colleges often run full-time searches in spring and recruit adjuncts all year. Visiting posts appear late.</p>
-
 <h3>Do for-profit and online colleges hire professors?</h3>
 <p>Yes, and heavily, but often course by course rather than as salaried employment. Check whether the post carries a contract and benefits before applying.</p>
-
-<h3>Can I teach online for a US college from another state?</h3>
-<p>Only where the institution is authorised to operate and registered for payroll. That is why online faculty adverts list eligible states.</p>
 
 <h2>More Job Guides</h2>
 

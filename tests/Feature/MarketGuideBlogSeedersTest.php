@@ -6,7 +6,7 @@ use App\Services\StructuredDataService;
 
 /**
  * The nine 2026 market guides share a shape: a published post with its own
- * images and SEO fields, eight FAQs, a People Also Search For block, and an
+ * images and SEO fields, four FAQs, a People Also Search For block, and an
  * aggregated listing that quotes no salary it cannot support. Asserting that
  * shape once against a dataset is worth more than nine near-identical files,
  * and it means a tenth guide only has to add a row.
@@ -1268,13 +1268,13 @@ it('renders with its long-tail sections and the search link', function (string $
         ->toBeTrue();
 })->with('market guides');
 
-it('carries exactly eight FAQs built from the post body', function (string $slug, string $seeder) {
+it('carries at least four FAQs built from the post body', function (string $slug, string $seeder) {
     $this->seed($seeder);
 
     $faqs = app(StructuredDataService::class)
         ->faqsFromHtml(Blog::where('slug', $slug)->value('content'));
 
-    expect($faqs)->toHaveCount(8);
+    expect(count($faqs))->toBeGreaterThanOrEqual(4);
 
     foreach ($faqs as $faq) {
         expect($faq['question'])->not->toBeEmpty()

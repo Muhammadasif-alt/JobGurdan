@@ -222,18 +222,6 @@ class AdjunctProfessorJobsUkBlogSeeder extends Seeder
 <h3>Can I get a UK visa with an honorary professorship?</h3>
 <p>No. A Skilled Worker visa requires an approved sponsor, a certificate of sponsorship, an eligible occupation and a salary of at least GBP 41,700 a year or the going rate, whichever is higher. An unpaid honorary title involves no employer, no certificate of sponsorship and no salary, so it fails every requirement.</p>
 
-<h3>Can I hold an honorary title and a paid university job at the same time?</h3>
-<p>Generally no, at the same institution. Heriot-Watt requires the honorary title to be "put into abeyance for the period of the paid work". Essex suspends the honorary agreement and issues a separate fixed-term contract for the paid work, reinstating the title only afterwards. Bath will not confer the title until any employment contract with the university has ended.</p>
-
-<h3>How long does an honorary professorship last?</h3>
-<p>Three years is the normal period at Bath, and it is renewable. Policies typically make titles subject to review, with Emeritus titles the usual exception to a fixed term.</p>
-
-<h3>What do I actually get from the title?</h3>
-<p>At Bath: membership of the university, library membership and a computing account, use of sports and social facilities, the possibility of supervising taught projects and research students where approved, and eligibility to be named as a co-investigator on research funding where the funder allows.</p>
-
-<h3>Is "Visiting Professor" the same as "Honorary Professor" in the UK?</h3>
-<p>Not in the policies. Heriot-Watt separates them explicitly: honorary and emeritus holders may not be paid, visiting holders may be. Always ask which category an offer falls into before assuming anything about money.</p>
-
 <h2 id="more-guides">More Job Guides</h2>
 
 <ul>

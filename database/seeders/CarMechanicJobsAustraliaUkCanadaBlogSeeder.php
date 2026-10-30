@@ -294,20 +294,8 @@ JOBHTML;
 <h3>Who assesses overseas mechanics for Australia?</h3>
 <p>Trades Recognition Australia (TRA), for the motor mechanic (general) occupation ANZSCO 321211, usually through an approved training organisation.</p>
 
-<h3>How much does a mechanic earn in the UK?</h3>
-<p>The National Careers Service gives &pound;22,000 a year for a starter and &pound;42,000 for an experienced motor mechanic.</p>
-
 <h3>Can I get a UK Skilled Worker visa as a mechanic?</h3>
 <p>Only in limited cases. Since 22 July 2025 new Skilled Worker visas generally need an RQF level 6 job; roles below that qualify only through the Temporary Shortage List or Immigration Salary List. Check SOC code 5231 on gov.uk.</p>
-
-<h3>How much does an automotive service technician earn in Canada?</h3>
-<p>Job Bank reports a national median of C$29.89 an hour for NOC 72410, with C$35.00 in British Columbia.</p>
-
-<h3>Is automotive service technician a Red Seal trade?</h3>
-<p>Yes. A Red Seal endorsement lets a certified technician work across Canadian provinces.</p>
-
-<h3>Is certification compulsory in Ontario?</h3>
-<p>Yes. 310S Automotive Service Technician is a compulsory trade in Ontario, so you must be certified or a registered apprentice.</p>
 
 <h3>Which country is easiest for a foreign mechanic?</h3>
 <p>Australia has the clearest skills assessment route through TRA. Canada needs provincial certification, and the UK visa route narrowed in July 2025.</p>

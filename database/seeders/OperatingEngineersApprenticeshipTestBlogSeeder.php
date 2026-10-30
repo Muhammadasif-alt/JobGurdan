@@ -118,12 +118,6 @@ class OperatingEngineersApprenticeshipTestBlogSeeder extends Seeder
 
 <p>Never pay anyone for a guaranteed apprenticeship place; apply through your local and verify any fee with it directly. See our <a href="/blog/can-you-retake-apprenticeship-aptitude-test">retake guide</a> too.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is there a national operating engineers apprenticeship test?</h3>
@@ -138,18 +132,6 @@ class OperatingEngineersApprenticeshipTestBlogSeeder extends Seeder
 <h3>How long is the apprenticeship?</h3>
 <p>Local 49 states a minimum of 6,000 hours with 432 classroom hours; Local 150 says 6,000 or more hours.</p>
 
-<h3>Can I retake the Local 49 exam?</h3>
-<p>Its page says you may re-test in seven days, with a six-month wait after two failed attempts.</p>
-
-<h3>Is there an application fee?</h3>
-<p>Local 150 lists $25 per programme by money order; fees differ by local.</p>
-
-<h3>Is a drug test required?</h3>
-<p>Local 150 states applicants will be drug tested. Confirm with your local.</p>
-
-<h3>How much do apprentices earn?</h3>
-<p>Apprentices earn a percentage of the journeyman wage that rises with progress; ask your local for its scale.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -161,7 +143,6 @@ class OperatingEngineersApprenticeshipTestBlogSeeder extends Seeder
     <li><a href="/blog/laborers-union-entrance-exam-guide">Laborers Union Entrance Exam: What Gets Asked</a>: LiUNA</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 16 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

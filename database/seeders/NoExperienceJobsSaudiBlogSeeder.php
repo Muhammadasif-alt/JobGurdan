@@ -260,23 +260,11 @@ JOBHTML;
 <h3>What is the minimum wage in Saudi Arabia for foreign workers?</h3>
 <p>There is none. No statutory minimum wage applies to expatriate private-sector workers, so your pay is whatever the contract states. The widely quoted SAR 4,000 is a Nitaqat counting threshold for Saudi nationals, raised from SAR 3,000, not a floor for foreigners.</p>
 
-<h3>Has Saudi Arabia abolished the Kafala system?</h3>
-<p>It has been reformed rather than abolished. Since 14 March 2021, workers covered by the labour law can change employer without consent after a year or at contract expiry, and can arrange exit, re-entry and final exit without the employer's approval, though the request still goes through the ministry, which notifies the employer.</p>
-
-<h3>Do the 2021 reforms apply to every worker?</h3>
-<p>No. Domestic workers and farm workers are excluded because they fall outside the labour law. That exclusion is the reason to check the exact occupation on any offer, rather than the job title used in the advertisement.</p>
-
 <h3>Do I need experience to get a job in Saudi Arabia?</h3>
 <p>For warehousing, hospitality, cleaning, facilities and construction support, generally no, and training is given on the job. The real barrier is not experience but whether the occupation is open to non-Saudi workers.</p>
 
-<h3>Can I change employer in Saudi Arabia without permission?</h3>
-<p>If you are covered by the labour law, yes, after completing one year with your current employer or when your contract expires. Transfer during a contract is possible where you give notice within the prescribed period.</p>
-
 <h3>How do I know a Saudi job offer is genuine?</h3>
 <p>A real offer is documented by an employer with a valid visa allocation, results in an Iqama after arrival, and pays through the Wage Protection System. Any request that you pay for the job or the visa is the signal to stop; recruitment costs are the employer's.</p>
-
-<h3>Is there a wage floor for any private-sector job in Saudi Arabia?</h3>
-<p>Only where a specific decision creates one. The ministry's marketing Saudization decision set a minimum monthly wage of SAR 5,500 for the covered marketing professions. Floors like that attach to an occupation under a named decision; they are not a general rule.</p>
 
 <h2>More Job Guides</h2>
 

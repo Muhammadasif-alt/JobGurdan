@@ -62,11 +62,11 @@ it('renders with its long-tail sections', function () {
         ->assertSee('bls.gov/ooh/office-and-administrative-support/receptionists.htm');
 });
 
-it('carries eight FAQs in markup built from the post body', function () {
+it('carries four FAQs in markup built from the post body', function () {
     $faqs = app(StructuredDataService::class)
         ->faqsFromHtml(Blog::where('slug', CLINIC_SLUG)->value('content'));
 
-    expect($faqs)->toHaveCount(8)
+    expect($faqs)->toHaveCount(4)
         ->and(array_column($faqs, 'question'))
         ->not->toContain('Clinic receptionist salary');
 

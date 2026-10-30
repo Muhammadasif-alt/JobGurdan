@@ -326,18 +326,6 @@ JOBHTML;
 <h3>How long is correctional officer training?</h3>
 <p>CSC's Correctional Training Program has about 80 hours of online learning over four weeks, about 40 hours over three to four weeks, then about 14 weeks in person. Ontario's CFT-CO is eight weeks. PEI's program is 17 weeks of course work plus seven weeks on the job.</p>
 
-<h3>Is correctional officer training paid?</h3>
-<p>CSC pays a $400-a-week allowance during the 14-week Stage 3, up to $5,600, plus meals and lodging. Ontario offers a training stipend. PEI's students pay for their own food and accommodation.</p>
-
-<h3>What fitness test do correctional officers take?</h3>
-<p>It depends on the employer. Ontario uses FITCO and PEI uses COPAT. CSC's careers page names no entry test but expects recruits to be able to run 5 km by the end of training.</p>
-
-<h3>How much does a correctional officer earn in Canada?</h3>
-<p>Job Bank puts the national median at $36.15 an hour, with a low of $28.85 and a high of $46.15. Federal CX-01 officers earn $77,510 to $97,266 a year, and Ontario starts officers at $32.15 an hour.</p>
-
-<h3>Can I apply from outside Canada or another province?</h3>
-<p>Canadian citizens living abroad can apply to Ontario, but must travel there at their own expense for selection and pay their own relocation if hired. CSC's most recent poster accepted citizens and permanent residents abroad.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Considering public safety work in Canada or elsewhere? These cover the neighbouring routes:</p>

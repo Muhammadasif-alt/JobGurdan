@@ -331,26 +331,14 @@ JOBHTML;
 <h3>How much is the salary of a construction worker in Saudi Arabia?</h3>
 <p>General labourers are commonly advertised at SAR 1,500 to 2,500 a month with accommodation and meals, skilled trades at SAR 2,500 to 5,000, site and civil engineers at SAR 6,000 to 12,000, and construction or project managers from SAR 20,000 upwards with GCC experience. Compare the whole package, not the base figure.</p>
 
-<h3>Which construction jobs are in highest demand in Saudi Arabia?</h3>
-<p>Civil and site engineering, quantity surveying, HSE officers, and skilled trades such as electricians, welders and steel fixers. Demand is driven by the volume of active giga-projects rather than by any short-term shortage.</p>
-
 <h3>Do construction jobs in Saudi Arabia include visa sponsorship?</h3>
 <p>Yes, for foreign workers it is the standard route. The employer must first obtain a visa authorisation from the Ministry of Human Resources and Social Development, and recruitment costs are the employer's responsibility, not yours.</p>
-
-<h3>Is there a limit on outdoor work in the Saudi summer?</h3>
-<p>Yes. Outdoor work in direct sunlight is banned between 12pm and 3pm from 15 June to 15 September each year, enforced by the ministry with inspections and fines. Sites normally split into early morning and late afternoon or night shifts during that period.</p>
 
 <h3>Can I get a government construction job in Saudi Arabia as a foreigner?</h3>
 <p>Generally no. Government posts are reserved for Saudi nationals under Saudization (Nitaqat). Foreign workers join government-backed megaprojects through the private contractors and consultancies delivering them, not through direct government employment.</p>
 
-<h3>Which construction company is best to work for in Saudi Arabia?</h3>
-<p>There is no single answer, but the useful test is contract length and who employs you. A firm with a multi-year package on a flagship programme offers more stability than a short subcontract, and a direct contract with that firm is worth more than the same role through a manpower supplier.</p>
-
 <h3>Should I ever pay an agent for a Saudi construction job?</h3>
 <p>No. Saudi rules place recruitment costs on the employer, and your own government caps what a licensed agency may charge for its service. A large upfront payment for a visa is the clearest scam signal in this market.</p>
-
-<h3>Do I need Arabic to work in construction in Saudi Arabia?</h3>
-<p>Not for most site and trade roles, where English is the working language on international projects. Arabic matters for stakeholder, interface and authority-facing positions, where it is often a requirement rather than a preference.</p>
 
 <h2>More Job Guides</h2>
 

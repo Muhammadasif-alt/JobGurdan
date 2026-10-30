@@ -282,18 +282,6 @@ JOBHTML;
 <h3>What height does Kuwait Airways require?</h3>
 <p>Its postings have specified a minimum of 160 cm for female applicants. No reach measurement appears in the airline's own wording.</p>
 
-<h3>How much do Kuwait Airways cabin crew earn?</h3>
-<p>Kuwait Airways does not publish a salary, allowance or benefit figure in its job postings. Every number circulating online is a third-party estimate.</p>
-
-<h3>Can non-Kuwaitis apply to Kuwait Airways?</h3>
-<p>Yes. Its postings set a separate, lower age ceiling for non-Kuwaiti applicants, which shows non-Kuwaitis are within scope. Individual campaigns may still restrict nationality or gender.</p>
-
-<h3>Does Kuwait Airways use a recruitment agency?</h3>
-<p>The airline publishes no agency name anywhere official. Any agency claiming to be its hiring partner, particularly one charging a fee, is not backed by anything Kuwait Airways has stated.</p>
-
-<h3>Who applies for a Kuwait work permit?</h3>
-<p>The employer. The documents the labour authority requires are employer documents, including a wage transfer certificate and an employer declaration letter.</p>
-
 <h3>Is there a Kuwaitisation quota for airlines?</h3>
 <p>Kuwait's Public Authority of Manpower publishes national-workforce percentages by sector, and no aviation or airline category appears in that published table.</p>
 

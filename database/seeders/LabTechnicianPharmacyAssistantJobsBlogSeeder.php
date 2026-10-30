@@ -253,20 +253,8 @@ JOBHTML;
 <h3>Is a pharmacy assistant a registered pharmacy technician?</h3>
 <p>No. The roles have different duties and training pathways, and the titles are not interchangeable.</p>
 
-<h3>Which health authority licenses a UAE lab technician?</h3>
-<p>It depends on the facility: the DHA in Dubai, the Department of Health in Abu Dhabi, or the Ministry of Health and Prevention in other emirates. Ask the employer.</p>
-
-<h3>Do I have to pay a recruitment fee for a UAE job?</h3>
-<p>No. Under Article 6 of Federal Decree-Law No. 33 of 2021 the employer may not charge you recruitment and employment costs.</p>
-
 <h3>Can I work as a lab technician in the UAE on a visit visa?</h3>
 <p>No. You need a work permit and the professional licence for the facility's regulator.</p>
-
-<h3>Is overseas sponsorship guaranteed?</h3>
-<p>No. Ask the employer and check current immigration eligibility before making relocation plans.</p>
-
-<h3>Does an overseas pharmacy qualification work in the UK?</h3>
-<p>Not automatically. It does not establish UK eligibility as a pharmacist or pharmacy technician.</p>
 
 <h2>More Job Guides</h2>
 

@@ -105,12 +105,6 @@ class JobsInChicagoIlBlogSeeder extends Seeder
 
 <p>Match your resume to the posting honestly and proofread it. Include contact details, relevant experience, education and skills with clear examples of results. Use accurate dates, ask references for permission before listing them, and keep a professional email address and voicemail. Save each job description, tailor the relevant resume sections and check your email daily so you can respond to invitations quickly. Prepare interview examples of solving a problem and working with others. Choose openings that suit your qualifications instead of sending identical applications everywhere.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I find entry level jobs in Chicago?</h3>
@@ -124,18 +118,6 @@ class JobsInChicagoIlBlogSeeder extends Seeder
 
 <h3>How can I avoid scams?</h3>
 <p>Check the employer on its official website. Be wary of requests to pay for an interview, buy gift cards or deposit a cheque for equipment.</p>
-
-<h3>Should I apply to several employers?</h3>
-<p>Yes, if you fit the roles. Tailor each application and track dates and replies.</p>
-
-<h3>Are the portals here guaranteed to have openings?</h3>
-<p>No. They are search and application portals, and any posting can close at any time.</p>
-
-<h3>Does the CTA always have open jobs?</h3>
-<p>Not always. Its upcoming opportunities page says postings depend on staffing needs and budget.</p>
-
-<h3>Do CPS bus driver applicants apply to CPS?</h3>
-<p>CPS says it does not hire bus drivers directly; resumes go to outside companies that manage that hiring.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 
@@ -167,7 +149,6 @@ class JobsInChicagoIlBlogSeeder extends Seeder
     <li><a href="/blog/elevator-mechanic-apprenticeship-chicago-philadelphia-boston">Elevator Mechanic Apprenticeship in Chicago, Philadelphia, and Boston</a>: trade route</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 17 October 2026. It links public-sector and state portals; private employers are named in the text so you can search their own career pages. It does not imply visa sponsorship, a confirmed opening or guaranteed hiring.</p>
 HTML;
     }
 }

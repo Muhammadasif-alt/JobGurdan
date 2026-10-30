@@ -271,18 +271,6 @@ JOBHTML;
 <h3>Are remote bookkeeping roles available worldwide?</h3>
 <p>Not automatically. Confirm the permitted work locations, the employment arrangement and any authorisation requirements.</p>
 
-<h3>Can I work in the UAE as an accountant on a visit visa?</h3>
-<p>No. You need a work permit arranged by the employer.</p>
-
-<h3>Is bookkeeping the same as regulated accounting in Canada?</h3>
-<p>No. Bookkeeping does not authorise you to use a protected accounting designation or do regulated public accounting work.</p>
-
-<h3>Does a Canadian job offer guarantee a work permit?</h3>
-<p>No. The employer's LMIA documents and your own eligibility are assessed separately.</p>
-
-<h3>Do I need the local language for an accounting job in Europe?</h3>
-<p>Often, for client communication, invoices, payroll or statutory reporting. Check what the advert specifies.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

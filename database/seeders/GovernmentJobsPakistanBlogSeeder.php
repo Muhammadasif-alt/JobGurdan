@@ -273,18 +273,6 @@ JOBHTML;
 <h3>Are government jobs in Pakistan open to female candidates in every department?</h3>
 <p>Yes, and a women's quota applies across federal and provincial recruitment. The reserved share differs between the federal government and each province, so read the figure on the advertisement. The quota is a minimum, not a limit: women are also selected on merit against the open seats.</p>
 
-<h3>Where do I check the last date to apply?</h3>
-<p>On the advertisement itself, and on the portal you are applying through. Dates are occasionally extended and occasionally brought forward, so secondhand listings are not reliable for deadlines.</p>
-
-<h3>Can I apply for government jobs on a matric certificate?</h3>
-<p>Yes. Clerical, dispatch, driver, naib qasid and support-staff posts in roughly BPS-1 to BPS-5 are advertised for matric and intermediate candidates. They are permanent posts, and they are the most heavily contested vacancies advertised.</p>
-
-<h3>Is Punjab recruitment separate from federal recruitment?</h3>
-<p>Yes. Punjab hires through the Punjab Public Service Commission on its own portal, calendar and criteria. Sindh, Khyber Pakhtunkhwa and Balochistan each run their own commission the same way. Federal eligibility rules do not carry across.</p>
-
-<h3>Should I ever pay someone to get a government job?</h3>
-<p>No. Application fees for FPSC and the provincial commissions are paid by bank challan to the commission itself. Any request to pay a person for shortlisting, a test result or an appointment letter is a fraud, whatever documents are shown to you.</p>
-
 <h3>Which government jobs are least competitive?</h3>
 <p>Senior specialist posts. In the snapshot above, entry-level research and internship positions drew over 470 applications each while PPS-9 specialist roles drew ten to twenty. Experience in a defined specialism is worth far more here than it is in the general market.</p>
 

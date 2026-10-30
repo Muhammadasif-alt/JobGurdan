@@ -411,18 +411,6 @@ JOBHTML;
 <h3>How old do you have to be to work for Network Rail?</h3>
 <p>You can apply to Network Rail's schemes from age 16 if you meet the minimum criteria, but you must be 18 or older by the start of the programme because of the safety checks that apply on the railway. It is a start-date requirement, not an application one.</p>
 
-<h3>What happens at the Network Rail medical?</h3>
-<p>Network Rail asks you to attend a medical before it confirms an offer, and says all roles include a drug and alcohol screening process which forms part of that medical. Safety-critical rail work also carries defined sight and hearing standards, with hearing commonly assessed at no more than 30dB average loss over 0.5, 1 and 2 kHz.</p>
-
-<h3>What is the alcohol limit for railway maintenance workers?</h3>
-<p>Under rail industry standard RIS-8070-TOM, a positive result for safety-critical work is more than 29mg of alcohol per 100ml of blood, roughly a quarter of the road driving limit in England and Wales, within the Transport and Works Act 1992 framework. Maintenance staff, their supervisors and lookouts are all covered.</p>
-
-<h3>Which maintenance disciplines can I train in?</h3>
-<p>Network Rail's Level 3 Rail Engineering Technician Apprenticeship lists six: Track, Signalling, Telecommunications, Overhead Lines, Locking Fitter, and Distribution and Plant. Your discipline is allocated according to your geography and what your local depot needs, rather than chosen by you.</p>
-
-<h3>Will Great British Railways change Network Rail jobs?</h3>
-<p>The Railways Bill, introduced on 5 November 2025, is intended to fold Network Rail's infrastructure role into Great British Railways, with the consolidation targeted for the end of 2027. It does not change how you apply today, but the employer name on the contract may change during your career.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If Network Rail is one option rather than the only one, these cover the rest of the UK market:</p>

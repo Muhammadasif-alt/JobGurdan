@@ -36,12 +36,12 @@ it('publishes the guide with its own images and SEO fields', function () {
     expect(count(array_filter(array_map('trim', explode(',', $blog->tags)))))->toBe(8);
 });
 
-it('carries exactly eight FAQs and no People Also Search For block', function () {
+it('carries exactly four FAQs and no People Also Search For block', function () {
     $this->seed(LicensedPlumberCanadaAustraliaBlogSeeder::class);
 
     $content = Blog::where('slug', PLUMBER_LICENCE_SLUG)->value('content');
 
-    expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(8);
+    expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(4);
 
 
     expect(substr_count($content, 'People Also Search For'))->toBe(0);

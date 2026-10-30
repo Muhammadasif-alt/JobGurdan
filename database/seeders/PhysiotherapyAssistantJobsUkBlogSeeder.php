@@ -208,16 +208,8 @@ HTML;
 <p>From April 2026 an English NHS Band 3 pays &pound;25,760 to &pound;27,476 a year and Band 2 pays &pound;25,272. In Scotland the same bands pay &pound;29,103 to &pound;31,409 and &pound;26,696 to &pound;28,988. Private clinics set their own rates.</p>
 <h3>Do I need qualifications to be a physiotherapy assistant?</h3>
 <p>No. The Chartered Society of Physiotherapy records no national recognised entry qualification. Employers expect good numeracy and literacy and often ask for GCSEs in English and maths, but a health or social care qualification at level 2 or 3 is an advantage rather than a requirement.</p>
-<h3>What band is a physiotherapy assistant?</h3>
-<p>Usually Band 2 or Band 3, with assistant practitioner posts at Band 4. Band 2 covers personal care and general duties, Band 3 covers delegated treatment work carried out independently to a plan.</p>
 <h3>Why does Scotland pay so much more for the same band?</h3>
 <p>Agenda for Change is negotiated separately in each nation. Scotland settled a two-year deal with an inflation guarantee attached and also moved to a 36-hour standard week from April 2026, so both the annual salary and the hourly rate are higher than in England.</p>
-<h3>Is a physiotherapy assistant the same as a physiotherapist?</h3>
-<p>No. An assistant carries out work delegated by a physiotherapist. A physiotherapist assesses patients, plans treatment, holds a degree and must be registered with the Health and Care Professions Council.</p>
-<h3>Do physiotherapy assistants work nights and weekends?</h3>
-<p>Many do, especially on acute wards. Those hours attract percentage enhancements, and at Band 2 the enhancement is 41 per cent on Saturdays and weekday nights and 83 per cent on Sundays and public holidays, so they make a large difference to take-home pay.</p>
-<h3>Can I become a physiotherapist from an assistant post?</h3>
-<p>Yes. With university entry qualifications you can apply for a physiotherapy degree, and some trusts fund a degree apprenticeship so you can keep earning while you study. Assistant practitioner at Band 4 is the intermediate step.</p>
 <h3>How long does the Care Certificate take?</h3>
 <p>It has 16 standards and most employers expect it to be completed within twelve weeks of induction. That deadline is set by the employer, not by a national rule, and the certificate is completed while you are working and being paid.</p>
 

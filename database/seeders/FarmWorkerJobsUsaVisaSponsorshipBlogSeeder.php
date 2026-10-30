@@ -242,20 +242,8 @@ JOBHTML;
 <h3>Is sponsorship an offer of permanent residence?</h3>
 <p>No. H-2A is a temporary work route and does not automatically lead to permanent residence.</p>
 
-<h3>Can I apply without an agent?</h3>
-<p>Yes, you can contact employers using the instructions in their job orders. The employer still has to take part in the petition process.</p>
-
-<h3>Is accommodation always free?</h3>
-<p>The H-2A housing duty covers eligible workers who cannot return home daily. Check your contract for the exact terms.</p>
-
 <h3>Does an official job listing guarantee that I will be selected?</h3>
 <p>No. Employers decide recruitment through their own stated process, and a listed order may already be filled.</p>
-
-<h3>What is the difference between H-2A and H-2B?</h3>
-<p>H-2A is for temporary agricultural work. H-2B is for temporary non-agricultural work, so a vacancy's duties decide which applies.</p>
-
-<h3>Can Pakistani citizens get H-2A visas?</h3>
-<p>The eligible-country lists were removed in January 2025, so nationality alone is not the test. You still need an employer who recruits from Pakistan, an approved petition and a visa decision.</p>
 
 <h3>Should I pay an agent for a farm job in the USA?</h3>
 <p>Be very careful. H-2A workers must not be charged employer recruitment or certification costs, and nobody can guarantee a visa.</p>

@@ -155,12 +155,6 @@ class IronworkerApprenticeshipNewYorkBlogSeeder extends Seeder
 
 <p>Ask for the current apprentice wage schedule, progression rules, expected hours, benefits eligibility and required expenses. A journeyworker rate or total benefits package is not your starting cash wage. Ask what happens during gaps between work assignments, whether class attendance affects your schedule, and whether tools, clothing, travel or union payments are due before your first pay cheque.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can beginners apply?</h3>
@@ -174,18 +168,6 @@ class IronworkerApprenticeshipNewYorkBlogSeeder extends Seeder
 
 <h3>Is there one statewide entrance test?</h3>
 <p>No. These notices show different assessments, from a general knowledge exam to an agility test.</p>
-
-<h3>Is admission guaranteed after applying?</h3>
-<p>No. Eligibility, assessments, selection and available openings decide the outcome.</p>
-
-<h3>Do I have to pay to apply?</h3>
-<p>Locals 40/361 charge a USD 25 testing fee. Local 33 apprentices pay a USD 100 initiation fee and monthly dues. Check each notice and never pay an agent.</p>
-
-<h3>Do I need a driver's licence?</h3>
-<p>Local 6 and Local 33 require a valid New York driver's licence to drive company vehicles.</p>
-
-<h3>Why does Local 580 send me elsewhere?</h3>
-<p>It uses direct-entry programmes, and its page says applicants not accepted into one are not eligible to join Local 580.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 
@@ -218,7 +200,6 @@ class IronworkerApprenticeshipNewYorkBlogSeeder extends Seeder
     <li><a href="/blog/laborers-union-entrance-exam-guide">Laborers Union Entrance Exam Guide</a>: another union route</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Recruitment status checked on 17 October 2026 against official notices, which change often. The regional examples are not an exhaustive directory of New York sponsors and no vacancy or selection outcome is guaranteed.</p>
 HTML;
     }
 }

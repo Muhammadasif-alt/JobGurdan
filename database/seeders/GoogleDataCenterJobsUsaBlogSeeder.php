@@ -342,18 +342,6 @@ JOBHTML;
 <h3>Is $17.35 an hour a real Google data center wage?</h3>
 <p>Not for a Google role. Google publishes no hourly rate and its lowest published annual band is $73,500. Hourly, weekly-paid data center work is normally a staffing agency contract, with the agency as your employer.</p>
 
-<h3>What is the lifting requirement for Google data center jobs?</h3>
-<p>Google asks for the ability to lift or move 50lb (23kg) of equipment and to exert yourself physically for extended periods, including frequent bending, kneeling, climbing, pushing or pulling and lifting.</p>
-
-<h3>What is the difference between a Data Center Technician and a Facilities Technician?</h3>
-<p>Technicians work on servers, networking and hardware repair. Facilities Technicians work on electrical distribution, mechanical plant, controls, generators and life safety, and their minimum qualifications ask for an associate's degree or trade certification plus trade experience.</p>
-
-<h3>Which US states does Google hire data center staff in?</h3>
-<p>Current postings sit in Iowa, Oklahoma, South Carolina, Texas, Nevada, Virginia, Indiana, Georgia, North Carolina, Ohio, Arizona, Alabama and Arkansas.</p>
-
-<h3>Does the Google IT Support Professional Certificate help?</h3>
-<p>Yes, directly. Google lists "Completion of the online Google IT Support Professional Certificate program" as a preferred qualification on its data center technician postings.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other large US employers and the roles next door to this one? These cover them:</p>

@@ -325,26 +325,14 @@ JOBHTML;
 <h3>Do I need a Saudi driving licence to work as a driver?</h3>
 <p>Eventually, yes. Many employers accept a valid home-country or international licence when you arrive, but as a resident you will need to convert to a Saudi licence. Some nationalities can convert directly after a medical and eye test; others must take a course and test at an approved driving school.</p>
 
-<h3>Do I need an Iqama to apply from outside Saudi Arabia?</h3>
-<p>No. Overseas applicants are sponsored through a work visa arranged by the employer and a licensed recruitment agency, and the Iqama is issued after you arrive. A transferable Iqama is only relevant if you are already in the Kingdom.</p>
-
 <h3>What is the average driver salary in Saudi Arabia for foreigners?</h3>
 <p>It depends entirely on the category. Private and house drivers are commonly advertised at around SAR 1,200 to 1,500 a month with accommodation and meals, delivery drivers at roughly SAR 2,000 to 3,900 including commission, and heavy truck drivers from about SAR 1,500 to 2,500 plus allowances.</p>
 
 <h3>Are driver jobs in Saudi Arabia open to women?</h3>
 <p>Women have been able to drive in Saudi Arabia since June 2018, and roles do exist, particularly for private family transport and some ride-hailing work. The market is still much smaller than for male drivers, so expect fewer openings rather than none.</p>
 
-<h3>Is a house driver job the same as a company driver job?</h3>
-<p>No, and it is the most important difference in this whole guide. A company driver is employed under the Saudi Labour Law with Wage Protection System pay and the job-mobility rights introduced in 2021. A private house driver is a domestic worker recruited through Musaned under a separate regulation, and domestic workers were not included in that mobility reform.</p>
-
 <h3>Should I ever pay an agent for a Saudi work visa?</h3>
 <p>No. Saudi rules place recruitment costs on the employer, and your own government caps what a licensed agency may charge for its service. Being asked for a large payment to secure a visa is the clearest scam signal in this market.</p>
-
-<h3>What is a &quot;free visa&quot; or &quot;azad visa&quot;?</h3>
-<p>It is an illegal arrangement where you enter under one sponsor but work for others, usually paying that sponsor monthly. It exposes you to an absconding report, unpaid wages with no formal record, and deportation with a re-entry ban. Avoid it.</p>
-
-<h3>How long does the visa process take?</h3>
-<p>It varies by employer and country, but budget for several weeks to a few months from signed offer to travel, since the medical, police clearance, document attestation and embassy stamping all run in sequence. Any agent promising a Saudi work visa in a few days is not describing the real process.</p>
 
 <h2>More Job Guides</h2>
 

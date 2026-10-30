@@ -320,18 +320,6 @@ JOBHTML;
 <h3>Can I do labour work without experience in the Gulf?</h3>
 <p>Yes. Many general labourer and helper jobs do not require site experience, though employers prefer it and test physical fitness.</p>
 
-<h3>Do labourers work in the afternoon heat?</h3>
-<p>Not legally in summer. The UAE stops outdoor work from 12:30pm to 3pm between 15 June and 15 September; Saudi Arabia from noon to 3pm.</p>
-
-<h3>What happens if my wages are late in the UAE?</h3>
-<p>Under Ministerial Resolution No. 340 of 2026, the employer's new permits are suspended from day five, a labour dispute opens on day sixteen, and a travel ban is possible from day twenty-one.</p>
-
-<h3>Can a helper become a mason or steel fixer?</h3>
-<p>Yes, and it is the main way pay improves. In Saudi Arabia the profession on your permit has to be changed officially, and a new trade visa usually needs a Professional Verification test.</p>
-
-<h3>Which is better for labourers, Dubai or Saudi Arabia?</h3>
-<p>Neither publishes official pay for the job. Compare the full package: basic wage, food, accommodation, transport, overtime and ticket.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the construction cluster:</p>

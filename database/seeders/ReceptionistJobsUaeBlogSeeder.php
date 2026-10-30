@@ -281,18 +281,6 @@ JOBHTML;
 <h3>Who pays for my UAE work visa?</h3>
 <p>The employer. Under Federal Decree-Law No. 33 of 2021, recruitment costs including the visa, medical and residence permit are the employer's, and cannot be collected from the worker directly or indirectly.</p>
 
-<h3>Can I work while I am on a visit visa?</h3>
-<p>No. You can interview on a visit visa, but starting work, including a trial or training period, before your work permit is issued is illegal, with fines for the employer and fines and deportation risk for the worker.</p>
-
-<h3>Is Arabic required for receptionist jobs in the UAE?</h3>
-<p>Not usually required, but a strong advantage, especially with government-linked employers and businesses serving local clients. English is the baseline for almost every role.</p>
-
-<h3>Do I need experience to become a receptionist in the UAE?</h3>
-<p>Not always. Many salon, retail and small-office roles accept candidates with little experience, while hotel and corporate desks often prefer at least a year of front-desk work.</p>
-
-<h3>What should I ask before accepting a receptionist offer?</h3>
-<p>The basic salary figure, which employment law the contract sits under, who pays for the visa, what the working hours and shifts are, and whether benefits such as annual flights are written into the contract.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing Gulf routes and front-office work elsewhere? These cover them:</p>

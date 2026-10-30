@@ -119,12 +119,6 @@ class OfficeAssistantJobsGlasgowEntryGuideBlogSeeder extends Seeder
 
 <p>Office assistant is not a role that normally qualifies for a UK Skilled Worker visa, so these vacancies are realistic only if you already have the right to work in the UK. Never pay an agent for a "guaranteed" UK office job or visa, and read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you send money or documents.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Do I need a university degree?</h3>
@@ -133,27 +127,15 @@ class OfficeAssistantJobsGlasgowEntryGuideBlogSeeder extends Seeder
 <h3>Can I apply without office experience?</h3>
 <p>Some roles accept beginners. Show relevant skills from other activities and avoid vacancies whose essential experience requirements you cannot meet.</p>
 
-<h3>How much do office assistants earn in Glasgow?</h3>
-<p>The National Careers Service gives £21,000 as a starter and £28,000 when experienced across the UK, and the closed Glasgow City Council clerical advert paid £26,031.26 to £27,680.96 for 35 hours. Each advert states its own figure.</p>
-
 <h3>What is a Modern Apprenticeship?</h3>
 <p>Scotland's apprenticeship route: you are employed, paid and work towards a qualification at the same time. The apprentice minimum wage is £8.00 an hour for those under 19 or in their first year.</p>
-
-<h3>Why are some university adverts closed to me?</h3>
-<p>Some are open to current staff only. The University of Glasgow's Administrative Assistant advert we checked was internal, so read the eligibility line before applying.</p>
 
 <h3>Are office assistant jobs remote?</h3>
 <p>Some offer flexibility; others require attendance. Confirm the arrangement for the specific vacancy rather than relying on a search filter.</p>
 
-<h3>Which skill should I practise first?</h3>
-<p>Accurate document and spreadsheet work, then email communication and task organisation against the vacancy requirements.</p>
-
-<h3>Where do Glasgow council jobs appear?</h3>
-<p>On myjobscotland, the recruitment site used by Scotland's councils. Search the Glasgow City Council listings and check each closing date.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Target Glasgow office assistant roles that match your qualifications and evidence, build practical computer skills, tailor each application to the person specification and confirm the duties, hours, pay and training before you accept. This guide cannot promise work, income or an interview.</p>
+<p>Target Glasgow office assistant roles that match your qualifications and evidence, build practical computer skills, tailor each application to the person specification and confirm the duties, hours, pay and training before you accept.</p>
 
 <h2>Sources</h2>
 
@@ -177,7 +159,6 @@ class OfficeAssistantJobsGlasgowEntryGuideBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, immigration, financial or career advice. Reviewed on 26 October 2026 against the pages named in Sources. It does not promise a vacancy, an income or an interview, and employer adverts, pay and postings can change.</p>
 HTML;
     }
 }

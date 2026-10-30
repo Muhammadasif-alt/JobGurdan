@@ -320,17 +320,8 @@ JOBHTML;
 
 <h2>Frequently Asked Questions</h2>
 
-<h3>Does Etihad hire baggage handlers at Abu Dhabi?</h3>
-<p>No. Ground handling moved to ADQ and now trades as Velora. Etihad advertises no baggage, ramp or check-in vacancy anywhere in its live postings.</p>
-
-<h3>What is Velora?</h3>
-<p>The renamed Etihad Airport Services. It rebranded on 5 November 2025, is part of ADQ, employs more than 5,000 people and runs ground services, cargo and security at Zayed International Airport.</p>
-
 <h3>Can Pakistanis or Indians apply for Abu Dhabi airport jobs?</h3>
 <p>For Velora roles, yes, subject to the requirements on each posting. Etihad's one Abu Dhabi airport role is marked UAE Nationals Only, and its airport trainee programmes are part of its Emiratisation strategy.</p>
-
-<h3>What do Abu Dhabi airport ground jobs pay?</h3>
-<p>Neither employer publishes a figure, and the UAE has no statutory minimum wage. Treat any number you see elsewhere as an estimate rather than an offer.</p>
 
 <h3>Do I have to pay a recruitment fee?</h3>
 <p>No, and it is illegal to ask. Article 6(4) of Federal Decree-Law 33 of 2021 prohibits an employer from charging you recruitment costs directly or indirectly, and agencies are bound by the same article.</p>
@@ -340,9 +331,6 @@ JOBHTML;
 
 <h3>Can I work in the UAE on a visit visa while I look?</h3>
 <p>No. UAE law strictly prohibits working on a visit or tourist visa, paid or unpaid, and both worker and employer face penalties.</p>
-
-<h3>How do I check a UAE job offer is real?</h3>
-<p>A genuine offer is issued by MOHRE. Verify it by reference number through the application-status service on the MOHRE website, and check the company in the National Economic Register.</p>
 
 <h2>More Job Guides</h2>
 

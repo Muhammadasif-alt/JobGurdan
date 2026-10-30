@@ -117,7 +117,7 @@ it('carries FAQ markup built from the post body', function () {
         ->faqsFromHtml(Blog::where('slug', JAVA_SLUG)->value('content'));
 
     // "People Also Search For" uses the same h3/p shape and must stay out.
-    expect($faqs)->toHaveCount(8)
+    expect($faqs)->toHaveCount(6)
         ->and(array_column($faqs, 'question'))
         ->not->toContain('Java C2C jobs');
 

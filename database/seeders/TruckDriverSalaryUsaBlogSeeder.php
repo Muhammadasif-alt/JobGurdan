@@ -191,18 +191,6 @@ class TruckDriverSalaryUsaBlogSeeder extends Seeder
 <h3>Is the median the same as the average?</h3>
 <p>No. The median was $58,640 a year and the mean was $59,710.</p>
 
-<h3>Is the PKR figure take-home pay?</h3>
-<p>No. It converts gross dollars at an assumed rate, before expenses and transfer costs.</p>
-
-<h3>Can I become a truck driver in the USA from Pakistan?</h3>
-<p>Not directly. You must first have legal permission to work in the US, then earn a CDL there. Be wary of agents who sell "truck driver visas" for a fee.</p>
-
-<h3>Which states pay truck drivers the most?</h3>
-<p>Alaska ($70,100), Washington ($64,760) and the District of Columbia ($64,170) had the highest medians in May 2025.</p>
-
-<h3>Do truck drivers get overtime?</h3>
-<p>It depends. Many drivers are paid by the mile and are exempt from federal overtime rules, so check how an employer pays before you accept a job.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

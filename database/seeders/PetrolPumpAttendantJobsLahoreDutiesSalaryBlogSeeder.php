@@ -129,12 +129,6 @@ class PetrolPumpAttendantJobsLahoreDutiesSalaryBlogSeeder extends Seeder
 
 <p>Prepare a one-page CV with your phone number, education, experience and availability. Ask the station manager, at a quiet time and away from the pumps, whether they are hiring and how to apply. There is no single application form for every pump. Verify any "contact number" through the station or company itself; OLX and WhatsApp adverts are leads, not proof. Never pay anyone to get a job. Before joining, ask how cash shortages, customer disputes and equipment faults are handled, and keep copies of your offer, attendance and pay.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>What is the minimum salary for a petrol pump attendant in Lahore?</h3>
@@ -149,21 +143,9 @@ class PetrolPumpAttendantJobsLahoreDutiesSalaryBlogSeeder extends Seeder
 <h3>Do PSO or Shell hire pump attendants directly?</h3>
 <p>Usually the station's dealer or operator hires forecourt staff; ask whose name is on the contract.</p>
 
-<h3>Can freshers apply?</h3>
-<p>Yes, where the station trains new staff.</p>
-
-<h3>What education do I need?</h3>
-<p>Often Matric for attendants; cashier posts may ask for Intermediate.</p>
-
-<h3>Are these jobs only for men?</h3>
-<p>No law says so; check each employer, and women must get equal pay for equal work.</p>
-
-<h3>Is there one application form for all pumps?</h3>
-<p>No. Follow each station's or company's instructions.</p>
-
 <h2>Bottom Line</h2>
 
-<p>Find out who employs you, learn the duties properly, and compare hours, pay and deductions with the Punjab minimum before you accept. This guide cannot promise a job or a wage.</p>
+<p>Find out who employs you, learn the duties properly, and compare hours, pay and deductions with the Punjab minimum before you accept.</p>
 
 <h2>Sources</h2>
 
@@ -185,7 +167,6 @@ class PetrolPumpAttendantJobsLahoreDutiesSalaryBlogSeeder extends Seeder
     <li><a href="/blog/how-to-find-job-abroad-from-pakistan-2026">How to Find a Job Abroad From Pakistan</a>, routes overseas.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal or career advice. Reviewed on 30 October 2026 against the pages named in Sources. It does not promise a job or a wage.</p>
 HTML;
     }
 }

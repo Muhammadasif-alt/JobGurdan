@@ -364,18 +364,6 @@ JOBHTML;
 <h3>How much do marketing jobs pay in the UK?</h3>
 <p>It depends on the rung. The National Careers Service puts marketing executives at GBP 23,000 to GBP 50,000 and marketing managers at GBP 30,000 to GBP 65,000. ONS ASHE 2025 gives a director median of about GBP 89,700 and an associate-professional median of about GBP 32,760.</p>
 
-<h3>Is there one "average" marketing salary?</h3>
-<p>No, and that is the key point. ONS splits marketing across two codes, associate professionals (SOC 3554) and directors (SOC 1132), whose medians are nearly three times apart, so any single "average" is misleading.</p>
-
-<h3>What is CIM and do I need it?</h3>
-<p>The Chartered Institute of Marketing is the UK's chartered professional body (Royal Charter 1989). Its Level 3 to Level 7 qualifications are respected and paid, but not legally required. Many marketers start with free certifications and take CIM later to progress.</p>
-
-<h3>Which marketing certifications are free?</h3>
-<p>Google Ads and Google Analytics (GA4) certifications through Google Skillshop, and every HubSpot Academy certification, are free. CIM qualifications are paid.</p>
-
-<h3>What is the difference between a marketing executive and a marketing manager?</h3>
-<p>An executive runs campaigns and channels day to day; a manager owns strategy, budget and often a team. Pay reflects that, roughly GBP 23,000 to GBP 50,000 for executives against GBP 30,000 to GBP 65,000 for managers, but titles vary by company.</p>
-
 <h3>Can I get a marketing job with no experience?</h3>
 <p>Yes, usually starting as a marketing assistant or junior executive. A portfolio of small projects, free certifications and any content, social or campaign work you can show will do more than experience you do not yet have.</p>
 

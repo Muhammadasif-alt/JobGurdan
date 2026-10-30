@@ -252,20 +252,8 @@ JOBHTML;
 <h3>Is software development still growing?</h3>
 <p>Yes. BLS projects 10 per cent growth from 2025 to 2035 with about 106,100 annual openings, among the strongest outlooks tracked. The qualification is that demand concentrates in experienced hires, so the first job remains competitive.</p>
 
-<h3>Which visa do I need as a foreign software developer?</h3>
-<p>Usually the H-1B, capped at 65,000 plus 20,000 for US advanced degree holders and allocated by lottery. If you studied in the US, OPT gives 12 months with a 24-month STEM extension. The L-1 requires prior employment with a related foreign entity of the same company.</p>
-
-<h3>What is a cap-exempt H-1B employer?</h3>
-<p>Universities and their affiliated nonprofits, nonprofit research organisations and government research organisations. They are exempt from the annual cap and can file at any time with no lottery, which makes them the most reliable sponsorship route for many engineers.</p>
-
-<h3>Is the $100,000 H-1B fee still being charged?</h3>
-<p>Not currently. The September 2025 proclamation imposed it on certain petitions, but a Massachusetts federal court vacated the implementing guidance on 8 June 2026 and the First Circuit denied a stay on 24 July 2026. It is active litigation, so confirm the current position with USCIS.</p>
-
 <h3>Can I work for a US company remotely from my own country?</h3>
 <p>Some US employers hire internationally, usually through a contractor arrangement or an employer of record. It avoids the visa question entirely, but pay is often adjusted to your local market and you are taxed where you live, not in the US.</p>
-
-<h3>Do I need a computer science degree?</h3>
-<p>Not for every employer: bootcamp and self-taught engineers are hired on demonstrable work. But a degree carries more weight in sponsorship cases, where the specialty-occupation argument usually rests on it, so it matters more if you need a visa than if you do not.</p>
 
 <h2>More Job Guides</h2>
 

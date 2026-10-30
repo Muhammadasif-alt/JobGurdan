@@ -336,20 +336,8 @@ JOBHTML;
 <h3>Can Pakistani engineers apply to Airbus in France?</h3>
 <p>You can apply to roles without a clearance requirement, and Airbus publishes no blanket nationality bar. The practical obstacles are French language, the clearance concentration in the most sought-after roles, and the fact that no advert mentions visa sponsorship.</p>
 
-<h3>Are Airbus internships in France open to international students?</h3>
-<p>Only if you already have the right to be there. Airbus requires you to be "a French/EU citizen or have authorization to live and work in France with an appropriate Visa", plus a university willing to sign the Convention de Stage.</p>
-
-<h3>Are Airbus apprenticeships open to foreigners?</h3>
-<p>Yes by nationality, no by location. Airbus says apprenticeships are open to students of all nationalities but you must be a student in a French school to be eligible for the contract. There is also an age limit of 29.</p>
-
 <h3>What is the EU Blue Card salary threshold in France?</h3>
 <p>&euro;59,373 gross a year in 2026, which is 1.5 times the official reference salary. The cheaper talent card route at &euro;39,582 requires a master-level diploma obtained in France.</p>
-
-<h3>How many people does Airbus employ in France?</h3>
-<p>More than 56,000 across 46 locations according to its corporate page, with around 35,000 in Toulouse and nearly 9,000 at Marignane. Its careers page still says "over 50,000".</p>
-
-<h3>Does Airbus sponsor visas?</h3>
-<p>It does not commit either way. Its FAQ says visa and relocation support depend on the role, country and legislation, and may be discussed where relevant. None of its 622 French adverts mentions a visa.</p>
 
 <h2>More Job Guides</h2>
 

@@ -280,20 +280,8 @@ JOBHTML;
 <h3>Does Amazon hire people for work-from-home data entry?</h3>
 <p>No. Amazon does not advertise work-from-home data entry, and offers using its name are a documented impersonation scam that ends in a request to buy an enrolment kit. Genuine Amazon-adjacent work is hired by third-party sellers and agencies under their own names, and Amazon's real remote roles appear on its official careers site.</p>
 
-<h3>What does remote data entry pay in Pakistan?</h3>
-<p>Advertised pay commonly runs from around PKR 25,000 to 45,000 a month. For a full-time role, measure that against your province's notified minimum wage: PKR 40,000 in Punjab, Sindh and Khyber Pakhtunkhwa, with the federal figure at PKR 40,700 from 1 July 2026.</p>
-
-<h3>Can I do remote data entry as a student?</h3>
-<p>Yes. Part-time listings of three to four hours a day are common and need no prior experience. Check the time zone before accepting, since a US-hours role means working overnight from Pakistan.</p>
-
-<h3>What typing speed do I need?</h3>
-<p>Around 30 to 40 words per minute is the usual minimum, but accuracy is weighted more heavily than raw speed. A clean 35 beats a careless 60 in almost every screening.</p>
-
 <h3>Is fixed-schedule or task-based work better?</h3>
 <p>Fixed-schedule work is the safer start: predictable income, a supervisor, and real onboarding. Task-based work pays per batch and the batches arrive on the client's timetable, so income varies month to month.</p>
-
-<h3>Are remote data entry jobs available worldwide?</h3>
-<p>Both patterns exist. Some employers hire for a specific country, others hire globally as long as you meet the time zone, language and tooling requirements. The practical limit is usually how you can be paid rather than where you live.</p>
 
 <h3>How do I know a data entry posting is genuine?</h3>
 <p>It is advertised on a job board or the company's own careers page, the company can be verified independently, the interview happens on email or a company platform rather than only on WhatsApp, and nobody asks you for money at any point.</p>

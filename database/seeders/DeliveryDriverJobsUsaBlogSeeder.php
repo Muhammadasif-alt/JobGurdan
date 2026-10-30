@@ -280,20 +280,8 @@ JOBHTML;
 <h3>How much does it cost to use my own car for deliveries?</h3>
 <p>The IRS standard business mileage rate is 72.5 cents a mile for the first half of 2026 and 76 cents a mile from 1 July 2026. At that rate a 100-mile shift represents about $76 of fuel, maintenance, insurance and depreciation.</p>
 
-<h3>Do Amazon delivery drivers work for Amazon?</h3>
-<p>Most do not. Drivers in Amazon-branded vans are usually employed by independent Delivery Service Partners, each of which sets its own wages, bonuses and benefits. FedEx Ground similarly contracts routes to businesses that hire the drivers, while UPS drivers are UPS employees.</p>
-
-<h3>What is the minimum pay for delivery workers in New York City?</h3>
-<p>$22.13 an hour before tips for app-based restaurant and grocery delivery workers from 1 April 2026. The rate adjusts every April, and tips must be paid on top of it.</p>
-
 <h3>Do independent contractor drivers pay more tax?</h3>
 <p>They pay self-employment tax of 15.3 per cent of net earnings, covering both halves of Social Security and Medicare, on top of income tax. Business miles are deductible, which is a good reason to track them from the first shift.</p>
-
-<h3>Do I need a CDL to be a delivery driver?</h3>
-<p>Not for most package and food delivery, which uses cars and vans on an ordinary license. A CDL is generally required for single vehicles of 26,001 pounds gross vehicle weight rating or more, heavier combinations and hazardous materials.</p>
-
-<h3>Can I get a US visa to work as a delivery driver?</h3>
-<p>No. There is no US work visa category for delivery driving, and platforms and carriers require existing authorisation to work before they will hire or activate you.</p>
 
 <h2>More Job Guides</h2>
 

@@ -129,12 +129,6 @@ class PpcSpecialistJobsAtlantaSkillsCertificationsBlogSeeder extends Seeder
 
 <p>If you paid a scammer, the FTC advises contacting the company you used to send the money straight away and asking to reverse the transaction if possible. Report the scam at <a href="https://reportfraud.ftc.gov/" rel="noopener">ReportFraud.ftc.gov</a>. Read the FTC's page on <a href="https://consumer.ftc.gov/articles/job-scams" rel="noopener">job scams</a> for the warning signs.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Do certifications guarantee a PPC job?</h3>
@@ -146,20 +140,8 @@ class PpcSpecialistJobsAtlantaSkillsCertificationsBlogSeeder extends Seeder
 <h3>What score do I need for Google Ads certification?</h3>
 <p>Google's help page says you need a score of 80% or greater, you have 75 minutes, and if you do not pass you can retake the assessment one day later.</p>
 
-<h3>How long does Google Ads certification last?</h3>
-<p>Google states it remains valid until the product area certification expires, which is one year. Renew before it lapses if you list it on your résumé.</p>
-
-<h3>Is a degree compulsory for PPC jobs?</h3>
-<p>It depends on the employer. Some advertisements require a degree, while others accept practice projects, so read what is required and what is preferred.</p>
-
-<h3>Can beginners apply for specialist jobs?</h3>
-<p>You can, but specialist advertisements often ask for years of paid search experience. Searching for coordinator, assistant and junior roles is more realistic for a beginner.</p>
-
 <h3>Does Microsoft Advertising certification cost money?</h3>
 <p>The Learning Lab page does not state a cost for the exams, so check the page for current terms before you start.</p>
-
-<h3>How do I avoid PPC job scams?</h3>
-<p>Never pay for training, certifications or equipment to get a job, and never deposit a cheque and send part of it on. The FTC says no honest employer will do that.</p>
 
 <h2>Bottom Line</h2>
 
@@ -184,7 +166,6 @@ class PpcSpecialistJobsAtlantaSkillsCertificationsBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or career advice. Reviewed on 22 October 2026 against the pages named in Sources. It does not promise a vacancy, a reward, an income, an interview or an offer, and platform rules and postings can change.</p>
 HTML;
     }
 }

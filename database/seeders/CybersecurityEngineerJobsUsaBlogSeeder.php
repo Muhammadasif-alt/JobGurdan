@@ -287,20 +287,8 @@ JOBHTML;
 <h3>Can I become a security engineer without prior experience?</h3>
 <p>Rarely, and not by learning compliance frameworks: that describes the GRC path. Security engineering usually follows systems administration, network engineering or platform work, because you cannot harden infrastructure you have never built.</p>
 
-<h3>Is CKA a security certification?</h3>
-<p>No. CKA is the Certified Kubernetes Administrator, a general operations exam. The security one is CKS, and the Linux Foundation requires an active CKA, passed within the last three years, before you can register for CKS.</p>
-
-<h3>Which cloud certification helps most?</h3>
-<p>The security specialty of whichever platform your target employers actually run, backed by hands-on work. Cloud security engineering carries the strongest premium of the specialisms because few candidates genuinely understand both sides.</p>
-
 <h3>Do cybersecurity engineer jobs need a security clearance?</h3>
 <p>Many around Washington DC and Northern Virginia do, and Information Systems Security Engineer roles almost always do. A clearance requires US citizenship and an employer sponsor and cannot be obtained independently. The commercial market does not require one.</p>
-
-<h3>Are these roles remote?</h3>
-<p>A meaningful share are, particularly at mid and senior level with commercial employers. Federal, defence and cleared work is far more often on-site, and most platform teams carry an on-call rotation regardless.</p>
-
-<h3>Should I move from analyst to engineer?</h3>
-<p>It is a well-worn path and it pays more. The route is to take the build work inside your current role, detection rules, hardening, automation, and lead with it on your CV rather than with the monitoring.</p>
 
 <h2>More Job Guides</h2>
 

@@ -279,23 +279,11 @@ JOBHTML;
 <h3>Does mobile pay more than web development?</h3>
 <p>Yes, and the floor is the bigger part of the story. The medians are $43,330 apart, $135,980 against $92,650, but the bottom decile is $82,460 against $48,100. Web development has a long tail below $50,000; mobile, as classified, does not.</p>
 
-<h3>Should I learn iOS, Android or React Native?</h3>
-<p>iOS reports the highest averages, Android somewhat lower with a narrowing gap at senior level, and React Native close to iOS but covering two different jobs. Depth in one platform beats familiarity with three. If you pick React Native, learn to write native modules: that is what separates the two React Native pay bands.</p>
-
 <h3>Is it hard to publish an app on Google Play now?</h3>
 <p>For a personal account created after 13 November 2023, yes. You must run a closed test with at least 12 testers opted in continuously for 14 days before you can apply for production access, and Google checks the testers genuinely used the app. Organisation accounts are exempt but need a D-U-N-S number, which can take up to 30 days.</p>
 
-<h3>What does it cost to publish an app?</h3>
-<p>Apple charges $99 a year and your apps are removed if you stop paying. Google charges $25 once. The real cost on Android is the two-week testing period, not the fee.</p>
-
-<h3>Do I need a shipped app to get hired?</h3>
-<p>Not formally, but it is the most effective filter employers have, precisely because React Native and Flutter appear on so many CVs after a tutorial. A public App Store or Play link answers the question a repository cannot.</p>
-
 <h3>Are mobile developer jobs growing?</h3>
 <p>BLS projects 10 per cent growth for software developers, quality assurance analysts and testers from 2025 to 2035, much faster than the 3 per cent average across all occupations, with about 106,100 openings a year across the decade.</p>
-
-<h3>Is the $100,000 H-1B fee still in effect?</h3>
-<p>Not currently. A Massachusetts federal court vacated the implementing guidance on 8 June 2026 and the First Circuit denied a stay on 24 July 2026. The appeal is still live, and the proclamation's own twelve-month term runs out on 20 September 2026 unless extended. Verify the current position with USCIS before relying on it.</p>
 
 <h2>More Job Guides</h2>
 

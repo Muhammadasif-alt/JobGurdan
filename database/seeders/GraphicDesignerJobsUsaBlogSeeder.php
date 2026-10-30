@@ -281,18 +281,6 @@ JOBHTML;
 <h3>Can I get a graphic design job without a degree?</h3>
 <p>Often, yes. A bachelor's degree is the typical stated requirement, but portfolios carry more weight in practice than in most professions. Self-initiated and mock client projects count, provided the case studies explain your reasoning.</p>
 
-<h3>What do freelance graphic designers charge in the USA?</h3>
-<p>Commonly $30 to $100+ an hour depending on niche and portfolio. That rate is not a salary equivalent: it has to absorb 15.3% self-employment tax, roughly $660 to $840 a year in Adobe subscriptions, platform fees, your own health insurance, and unpaid time between briefs.</p>
-
-<h3>How much does Fiverr or Upwork take from a designer?</h3>
-<p>Fiverr takes a flat 20% of every order, so a $100 gig pays $80. Upwork moved off its flat 10% on 1 May 2025 to a variable 0% to 15% fee set per contract and shown before you accept it.</p>
-
-<h3>Do remote design jobs pay the same everywhere?</h3>
-<p>Not necessarily. Some US employers pay a flat rate wherever you live; others adjust to your local market, which can change an offer substantially. Ask early rather than at offer stage.</p>
-
-<h3>Can I use AI images in client work?</h3>
-<p>Carefully, and transparently. The US Copyright Office requires human authorship for copyright protection, so wholly AI-generated output is not copyrightable, and registering a work with more than a de minimis amount of AI material means disclosing it and disclaiming those parts. Clients buying a logo or brand system usually assume they can own and register it, so tell them what went into the file.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking across the rest of the remote and creative market? These cover it:</p>

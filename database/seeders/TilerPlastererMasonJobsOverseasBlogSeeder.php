@@ -320,20 +320,8 @@ JOBHTML;
 <h3>Can a tiler get a UK Skilled Worker visa?</h3>
 <p>Yes, if a licensed sponsor offers the job under SOC 5322 floorers and wall tilers, which is on the Temporary Shortage List, and the pay meets the going rate.</p>
 
-<h3>Do I need a trade test for Saudi Arabia?</h3>
-<p>Yes. The Professional Verification programme requires a theoretical and practical assessment in your home country before the Saudi work visa is issued.</p>
-
 <h3>Who pays the visa costs for a UAE mason job?</h3>
 <p>The employer. Article 6 of Federal Decree-Law No. 33 of 2021 bars employers from charging workers recruitment and employment costs.</p>
-
-<h3>Can I switch from mason to tiler after arriving in Saudi Arabia?</h3>
-<p>Not on the same permit. Working in a profession different from the one on your work permit is not allowed; the employer has to change the profession officially.</p>
-
-<h3>Is stone masonry in demand abroad?</h3>
-<p>It is a smaller market than blockwork. Heritage, villa and landscaping projects hire stone masons, but most Gulf mason jobs are concrete blockwork.</p>
-
-<h3>How do I know a recruiter is genuine?</h3>
-<p>A genuine recruiter names the employer, gives you a written contract before travel and never charges you a fee. Check the agency's licence with your own country's overseas employment authority.</p>
 
 <h2>More Job Guides</h2>
 

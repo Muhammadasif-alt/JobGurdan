@@ -282,20 +282,8 @@ JOBHTML;
 <h3>What does an office assistant earn in the UK?</h3>
 <p>The National Careers Service puts admin assistants at GBP 21,000 starter to GBP 28,000 experienced. Full-time pay cannot legally fall below about GBP 24,800, the April 2026 minimum wage.</p>
 
-<h3>Is GBP 18,000 a year legal for a full-time office assistant?</h3>
-<p>No. At full-time hours that is below the National Living Wage of GBP 12.71 an hour, which works out to about GBP 24,800 a year.</p>
-
 <h3>What is the Skilled Worker salary threshold in 2026?</h3>
 <p>GBP 41,700 a year, or the occupation's going rate if that is higher. It rose from GBP 38,700 on 22 July 2025.</p>
-
-<h3>Can office assistant work lead to career progression?</h3>
-<p>Yes. It is a common stepping stone to office manager, executive assistant, HR assistant or department coordinator roles.</p>
-
-<h3>Which right-to-work routes let me take an office job without sponsorship?</h3>
-<p>Settled or pre-settled status, a Graduate visa, the Youth Mobility Scheme and most dependant or partner visas all allow office work without employer sponsorship.</p>
-
-<h3>What skills and qualifications do I need?</h3>
-<p>GCSE English and maths at grades 9 to 4, practical Microsoft 365 skills, accurate typing and strong organisation.</p>
 
 <h2>More Job Guides</h2>
 

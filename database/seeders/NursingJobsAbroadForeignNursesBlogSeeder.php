@@ -300,18 +300,6 @@ JOBHTML;
 <h3>What salary does the UK Health and Care Worker visa need?</h3>
 <p>At least GBP 25,000 or the going rate for the job, whichever is higher, plus an approved sponsor and a Certificate of Sponsorship.</p>
 
-<h3>Do I need 24 months of experience to work in Australia?</h3>
-<p>Not as a registration rule. NSW Health says you will usually need at least that for its public facilities and visa sponsorship, so check the employer you are applying to.</p>
-
-<h3>What is the OSCE?</h3>
-<p>The Objective Structured Clinical Examination, the practical part of the NMC Test of Competence, taken after the computer-based test where your route requires it.</p>
-
-<h3>Which destination should I choose?</h3>
-<p>Compare qualification eligibility, experience, language evidence, assessment costs, employer support and living expenses before deciding.</p>
-
-<h3>Should I pay a recruiter for registration?</h3>
-<p>No. Apply to the regulator yourself and check anything a recruiter claims against the regulator's own page.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related healthcare guides:</p>

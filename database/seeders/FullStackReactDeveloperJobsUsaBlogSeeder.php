@@ -275,18 +275,6 @@ HTML;
 <h3>What are the exceptions to that?</h3>
 <p>Two, both narrow. Knowingly obtaining or disclosing health information without authorisation is an offence that names individuals including employees. And an FTC order can attach personally to a senior officer with information security responsibilities.</p>
 
-<h3>Does the FTC Safeguards Rule apply to a startup?</h3>
-<p>It can. Its scope reaches lenders, finance companies, tax preparers, financial advisers and others. Smaller institutions are exempt from some duties but not from encryption, not from secure development practices, and not from notifying the FTC.</p>
-
-<h3>When must a breach be reported?</h3>
-<p>Under the Safeguards Rule, the FTC must be told no later than 30 days after discovery where at least 500 consumers are affected. For general consumer data there is no federal rule and the deadlines are set by each state.</p>
-
-<h3>Does HIPAA require encryption?</h3>
-<p>Not as a required specification. Encryption at rest and in transmission are addressable, which means you must assess it and either implement it or document why not and put an equivalent measure in place. Encrypting is usually the simpler path.</p>
-
-<h3>What is the NIST Secure Software Development Framework?</h3>
-<p>NIST SP 800-218, a set of practices in four groups covering preparing the organisation, protecting the software, producing well-secured software and responding to vulnerabilities. It is the reference point for federal suppliers.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

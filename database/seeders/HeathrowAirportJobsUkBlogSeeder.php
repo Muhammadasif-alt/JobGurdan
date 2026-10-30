@@ -287,18 +287,6 @@ JOBHTML;
 <h3>Can I work at Heathrow with a criminal record?</h3>
 <p>You can apply. Heathrow says an offer then depends on qualifying criteria, and the check covers the last five years. It is not an automatic bar.</p>
 
-<h3>Does Heathrow sponsor work visas?</h3>
-<p>Heathrow asks applicants to already hold a valid work permit or right to work documentation. An hourly airport role is also far below the &pound;41,700 Skilled Worker salary threshold.</p>
-
-<h3>Is every job at Heathrow airport a Heathrow job?</h3>
-<p>No. Airlines, ground handlers, retailers, hotels and cargo firms employ most of the people on site. Heathrow's pay and benefits apply only to its own colleagues.</p>
-
-<h3>How many passengers does Heathrow handle?</h3>
-<p>84.5 million in 2025, its busiest year on record, on just under 480,000 flights. Its busiest single day was 1 August 2025 at around 270,000 passengers.</p>
-
-<h3>Do I need airport experience to apply?</h3>
-<p>Not for most entry-level roles. The vetting and the shift pattern matter more than prior aviation experience.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing airport and transport employers? These cover the alternatives:</p>

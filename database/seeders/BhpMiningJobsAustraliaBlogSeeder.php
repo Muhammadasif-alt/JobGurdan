@@ -296,18 +296,6 @@ JOBHTML;
 <h3>Does BHP pay to relocate you for the academy?</h3>
 <p>No. You must live within travelling distance of the Perth or Mackay academy, and BHP does not provide accommodation during training. Camp accommodation comes later, on site.</p>
 
-<h3>What do BHP mining jobs pay?</h3>
-<p>BHP does not publish a pay scale. The Mining Industry Award floor is $27.53 an hour, and ABS puts average full-time mining earnings at $3,224.20 a week against $2,083.70 across all industries.</p>
-
-<h3>Are all BHP jobs fly-in fly-out?</h3>
-<p>No. Rosters are role and site specific, and listings include FIFO patterns such as 9/5, 5/2 and 4/3 as well as residential roles with subsidised accommodation.</p>
-
-<h3>What is the BHP assessment like?</h3>
-<p>It is delivered virtually, using video and game-based exercises, before an interview or engagement centre stage and then pre-employment checks.</p>
-
-<h3>Does BHP charge applicants any fee?</h3>
-<p>No. BHP states it will never request funds, require a transfer of money or seek advance fees at any stage of recruitment.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at Australian work more widely? These cover it:</p>

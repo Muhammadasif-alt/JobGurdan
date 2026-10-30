@@ -129,12 +129,6 @@ class CustomsOfficerJobsVancouverHowToApplyBlogSeeder extends Seeder
 
 <p>Only people residing in Canada, or Canadian citizens and permanent residents abroad, can apply, so this is not a route for applicants in Pakistan without Canadian status. Read <a href="/blog/work-visas-pakistanis-2026-country-guide">Work Visas for Pakistanis in 2026</a> for the Canadian routes that do exist.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/blog?category=career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is CBSA hiring now?</h3>
@@ -146,24 +140,12 @@ class CustomsOfficerJobsVancouverHowToApplyBlogSeeder extends Seeder
 <h3>Is a university degree mandatory?</h3>
 <p>No. A secondary school diploma or the accepted Public Service Commission test is required.</p>
 
-<h3>Can I insist on Vancouver?</h3>
-<p>No. You can state preferences, but accepting a posting anywhere in Canada is a condition of employment.</p>
-
-<h3>Do I need a firearms licence?</h3>
-<p>No. You need to pass the CFSC and CRFSC tests before college, not hold a possession and acquisition licence.</p>
-
-<h3>Is the fitness test pass or fail?</h3>
-<p>No. The PAT during training is an evaluation, but a low result raises the risk of failing the programme.</p>
-
-<h3>Are trainees paid during training?</h3>
-<p>Recruits receive a tax-free $525 a week, plus lodging and meals in residence.</p>
-
 <h3>Can I apply directly from Pakistan?</h3>
 <p>Only if you are a Canadian citizen or permanent resident living abroad.</p>
 
 <h2>Bottom Line</h2>
 
-<p>Apply through the official trainee notice before 24 June 2027, prepare accurate documents, complete the firearms safety courses early and accept that CBSA decides your posting. A Vancouver preference is worth stating, but it is not a promise. This guide cannot promise selection or a posting.</p>
+<p>Apply through the official trainee notice before 24 June 2027, prepare accurate documents, complete the firearms safety courses early and accept that CBSA decides your posting. A Vancouver preference is worth stating, but it is not a promise.</p>
 
 <h2>Sources</h2>
 
@@ -187,7 +169,6 @@ class CustomsOfficerJobsVancouverHowToApplyBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, the warning signs of a recruitment scam.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, immigration or career advice. Reviewed on 28 October 2026 against the pages named in Sources. It does not promise a Vancouver posting, selection or immigration sponsorship; pay and timelines can change.</p>
 HTML;
     }
 }

@@ -344,18 +344,6 @@ JOBHTML;
 <h3>When do I take the Saudi trade exam, before or after I travel?</h3>
 <p>Before. The accreditation certificate is part of the visa process, so the assessment must be completed in the country you are recruited from.</p>
 
-<h3>How is my salary protected in the UAE?</h3>
-<p>Through the Wage Protection System under Ministerial Resolution No. 340 of 2026. Wages are due on the first day of each Gregorian month and at least 85 per cent must be transferred on time, with new work permits suspended from day five and a travel ban possible on the person in charge from day twenty-one.</p>
-
-<h3>Do UAE plumbers get the 50 per cent night overtime rate?</h3>
-<p>Not automatically. The basic wage plus 50 per cent applies to work between 10pm and 4am, but u.ae states the rule does not apply to workers employed on a shift basis, which covers most facilities maintenance plumbers. Have the allowance written into the contract.</p>
-
-<h3>Does the UAE Labour Law cover a job in a free zone?</h3>
-<p>Generally not. Free zone employees are not governed by the UAE Labour Law, each zone has its own employment rules, and staff are sponsored by the free zone authority rather than by the employer.</p>
-
-<h3>How much experience do Gulf employers want from a plumber?</h3>
-<p>Typically two to six years. Hotel engineering and facilities management roles favour experience on large buildings, pumps, pressure systems and planned preventive maintenance over domestic repair work.</p>
-
 <h2>More Job Guides</h2>
 
 <p>These cover the trades and the Gulf rules in more detail:</p>

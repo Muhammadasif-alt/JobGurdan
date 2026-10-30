@@ -265,23 +265,11 @@ HTML;
 <h3>Is visa sponsorship guaranteed?</h3>
 <p>No. Ask the employer directly. Neither a job advert nor an official careers portal guarantees sponsorship or immigration approval.</p>
 
-<h3>Do the apply links on this page submit my application?</h3>
-<p>No. They open the employer's recruitment page. Choose a vacancy, read its requirements and complete the application there.</p>
-
-<h3>Should I pay to secure a UAE job?</h3>
-<p>No. UAE employers cannot charge workers recruitment and employment costs. Question any payment request, and verify the employer through official channels.</p>
-
 <h3>Do I need Italian to apply for a restaurant job in Italy?</h3>
 <p>Employers usually expect you to communicate with guests and staff, so learn basic restaurant Italian before you apply.</p>
 
 <h3>Can I work in a hotel on a visit visa?</h3>
 <p>No. You need a work permit arranged through the employer, and a visit or tourist visa does not allow you to work.</p>
-
-<h3>How do I know a hotel job offer is real?</h3>
-<p>Find the same vacancy on the hotel group's own careers page, check that the email comes from its official domain, and insist on a formal written contract before you pay or travel.</p>
-
-<h3>What should I check before accepting an offer?</h3>
-<p>The employer's legal name and the hotel's address, plus the duties, pay, hours, accommodation and contract length. Ask for clarification when the advert, the interview and the contract describe different terms.</p>
 
 <h2>More Job Guides</h2>
 

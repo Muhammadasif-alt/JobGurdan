@@ -43,12 +43,12 @@ it('publishes each guide with its banner and SEO fields', function (string $slug
     expect(count(array_filter(array_map('trim', explode(',', $blog->tags)))))->toBe(8);
 })->with('us professor cluster');
 
-it('carries exactly eight FAQs and no People Also Search For block', function (string $slug, string $seeder) {
+it('carries exactly four FAQs and no People Also Search For block', function (string $slug, string $seeder) {
     $this->seed($seeder);
 
     $content = Blog::where('slug', $slug)->value('content');
 
-    expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(8);
+    expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(4);
 
 
     expect(substr_count($content, 'People Also Search For'))->toBe(0);

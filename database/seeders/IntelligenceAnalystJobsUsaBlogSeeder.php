@@ -326,18 +326,6 @@ JOBHTML;
 <h3>Is there a BLS salary for intelligence analysts?</h3>
 <p>No. BLS has no dedicated series; single "average" figures online come from job-ad sites. The closest official occupation is detectives and criminal investigators.</p>
 
-<h3>What degree do I need?</h3>
-<p>Usually at least a bachelor's, commonly in international relations, political science or national security. A master's helps for senior roles. There is no licence for the role.</p>
-
-<h3>Which agencies hire intelligence analysts?</h3>
-<p>The 18 members of the Intelligence Community, including the CIA, FBI, NSA and DIA, plus the military, DHS, fusion centres, contractors and private risk firms.</p>
-
-<h3>Do all these jobs post on USAJOBS?</h3>
-<p>No. Many do, but the CIA and some others recruit only through their own portals, such as cia.gov/careers and intelligencecareers.gov.</p>
-
-<h3>Does an active clearance raise my pay?</h3>
-<p>Often, on the contractor side. An active TS/SCI clearance is in short supply, so cleared contractor roles frequently pay a premium over the equivalent GS grade.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at nearby analytical and federal careers? These cover them:</p>

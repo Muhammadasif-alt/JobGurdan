@@ -137,12 +137,6 @@ class PlumberApprenticeshipSeattleHoustonDetroitBlogSeeder extends Seeder
 
 <p>Ask each programme for its current starting wage and progression, when benefits begin and which costs fall on you. Compare cash wages with housing, transport, parking, tools, books and test fees; benefits are not spendable weekly pay. Think about reaching changing job sites, not only the training centre, and keep your current job or studies until you have clear start instructions.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is there one entrance test for all three cities?</h3>
@@ -156,18 +150,6 @@ class PlumberApprenticeshipSeattleHoustonDetroitBlogSeeder extends Seeder
 
 <h3>Can I work independently after registration?</h3>
 <p>No. Trainee or apprentice registration is not a full plumber's licence, so confirm supervision rules.</p>
-
-<h3>Which city is best?</h3>
-<p>It depends on eligibility, living costs, transport and the places actually open to you.</p>
-
-<h3>How long are Seattle drug-test results valid?</h3>
-<p>The Seattle page says a non-DOT urinalysis result is only good for 15 days.</p>
-
-<h3>When does Houston close applications?</h3>
-<p>The reviewed notice gives no closing date. Confirm with the training centre.</p>
-
-<h3>How old must I be in Detroit?</h3>
-<p>The page says 18 at class start in one place and 18 at application in another. Ask the centre.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 
@@ -200,7 +182,6 @@ class PlumberApprenticeshipSeattleHoustonDetroitBlogSeeder extends Seeder
     <li><a href="/blog/apprenticeship-test-math-basics">Apprenticeship Test Math: The Basics</a>: maths revision</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Recruitment status checked on 17 October 2026 against official pages, which change often. No vacancy, admission or selection outcome is guaranteed.</p>
 HTML;
     }
 }

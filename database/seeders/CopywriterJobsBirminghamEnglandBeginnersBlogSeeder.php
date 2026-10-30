@@ -141,12 +141,6 @@ class CopywriterJobsBirminghamEnglandBeginnersBlogSeeder extends Seeder
 
 <p>Decide how far you can travel, and search for the wider set of titles: content, marketing, communications, social media and copywriting. Keep a simple log with the date, role, link, what you sent and the closing date. Ask in the interview who reviews junior work and what feedback you can expect in the first months.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can I apply without paid writing experience?</h3>
@@ -158,20 +152,8 @@ class CopywriterJobsBirminghamEnglandBeginnersBlogSeeder extends Seeder
 <h3>How many portfolio samples do I need?</h3>
 <p>There is no official number. Three clear samples that match the roles you want are more useful than a long list of weak ones.</p>
 
-<h3>Are content writing and copywriting the same job?</h3>
-<p>They overlap but are not identical. Copywriting aims to persuade a reader to act, while content writing often informs or explains. Read each job description for the actual duties.</p>
-
 <h3>Can beginners work remotely as copywriters?</h3>
 <p>Some can, but junior roles often involve feedback and team work, so many employers ask for office days. Check the working arrangement in the posting.</p>
-
-<h3>What is the national minimum wage for an apprentice?</h3>
-<p>GOV.UK lists £8.00 an hour for apprentices from 1 April 2026, for those under 19 or in the first year of an apprenticeship. Many employers pay more, so read the advert.</p>
-
-<h3>How long does an apprenticeship take?</h3>
-<p>The National Careers Service says advertising apprenticeships can take up to 2 years. The length depends on the level and the provider.</p>
-
-<h3>Should I pay for a copywriting course to get a job?</h3>
-<p>You never need to pay anyone to be placed in a job. Free portfolio practice costs nothing, and any course should be judged on what you can produce afterwards.</p>
 
 <h2>Bottom Line</h2>
 
@@ -196,7 +178,6 @@ class CopywriterJobsBirminghamEnglandBeginnersBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or career advice. Reviewed on 22 October 2026 against the pages named in Sources. It does not promise a vacancy, an interview, an income or an offer, and pay rules and postings can change.</p>
 HTML;
     }
 }

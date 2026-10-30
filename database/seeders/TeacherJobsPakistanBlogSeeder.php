@@ -275,18 +275,6 @@ JOBHTML;
 <h3>How much do private school teachers earn in Pakistan?</h3>
 <p>Guides quote PKR 25,000 to 50,000 a month, with O and A Level schools higher. The bottom of that range is below the minimum wage for an unskilled worker in every province, so read any offer against your province's rate.</p>
 
-<h3>What is the minimum wage in Pakistan for 2026-27?</h3>
-<p>The federal budget set PKR 40,700 a month. Provincial rates are PKR 40,000 in Punjab, PKR 43,000 in Sindh and PKR 45,000 in Khyber Pakhtunkhwa, and the provincial notification is what binds employers in that province.</p>
-
-<h3>Is a job at a government school always a government job?</h3>
-<p>No. Punjab has handed thousands of public schools to private operators and NGOs through the Punjab Education Foundation and PEIMA, and Sindh funds schools through the Sindh Education Foundation. Teachers there are employed by the operator, not placed on a BPS grade.</p>
-
-<h3>How much do government school teachers earn?</h3>
-<p>Public appointments are paid by BPS grade, and quoted figures often do not say whether they are basic pay or what arrives with allowances. The Revised Basic Pay Scales 2026 also changed how basic pay is built from 1 July 2026.</p>
-
-<h3>What do O and A Level schools look for in a teacher?</h3>
-<p>Subject depth, fluent classroom English, experience with the Cambridge syllabus and its examinations, and a strong demonstration lesson. Shortage subjects such as mathematics and the sciences give you the best position.</p>
-
 <h3>Can I teach online from Pakistan?</h3>
 <p>Yes, and it has grown into a real option for subject specialists. A genuine academy or platform will never charge you a fee to be given students.</p>
 

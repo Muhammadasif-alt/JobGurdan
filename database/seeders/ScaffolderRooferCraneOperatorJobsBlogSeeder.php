@@ -364,20 +364,8 @@ JOBHTML;
 <h3>What is a CISRS card?</h3>
 <p>The Construction Industry Scaffolders Record Scheme card shows your scaffolding level, from trainee through Part 1, Part 2 and Advanced. UK sites expect it or an equivalent.</p>
 
-<h3>How much do crane operators earn in Canada?</h3>
-<p>Job Bank reports a national median of C$42.77 an hour, from C$26.50 to C$52.19. Alberta has the highest provincial median at C$45.00.</p>
-
-<h3>Do crane operators need a licence in Canada?</h3>
-<p>Yes, under provincial rules. In Ontario, Hoisting Engineer: Mobile Crane Operator is a compulsory trade, and Branch 1 (339A) is a Red Seal trade.</p>
-
 <h3>Are roofers on the UK shortage list?</h3>
 <p>No. Roofers, roof tilers and slaters (SOC 5313) are not on the Temporary Shortage List.</p>
-
-<h3>What do I need to work as a roofer in Australia?</h3>
-<p>A White Card, working-at-heights training and Australian work rights. Roof plumbing also needs a state licence where it applies.</p>
-
-<h3>Do I need a licence to put up scaffolding in Australia?</h3>
-<p>Yes. Scaffolding is high risk work and needs a basic, intermediate or advanced high risk work licence from the state regulator.</p>
 
 <h2>More Job Guides</h2>
 

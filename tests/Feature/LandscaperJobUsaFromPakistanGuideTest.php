@@ -32,8 +32,8 @@ it('has its images on disk', function (string $image) {
     expect(file_exists(storage_path("app/public/blogs/{$image}.jpg")))->toBeTrue("{$image}.jpg is missing");
 })->with(['landscaper-job-usa-from-pakistan']);
 
-it('carries exactly eight FAQs and no People Also Search For block', function () {
-    expect(app(StructuredDataService::class)->faqsFromHtml($this->blog->content))->toHaveCount(8);
+it('carries exactly four FAQs and no People Also Search For block', function () {
+    expect(app(StructuredDataService::class)->faqsFromHtml($this->blog->content))->toHaveCount(4);
 
 
     expect(substr_count($this->blog->content, 'People Also Search For'))->toBe(0);

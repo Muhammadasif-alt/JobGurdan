@@ -256,23 +256,11 @@ HTML;
 <h3>When are RSUs taxed?</h3>
 <p>At vesting, as ordinary wages. The IRS treats equity compensation such as RSUs as wages subject to income tax withholding, reported in box 1 of your W-2 and subject to FICA. You are taxed on the vest-date value whether or not you sell.</p>
 
-<h3>Should I file an 83(b) election on my RSUs?</h3>
-<p>You cannot. An RSU is an unfunded, unsecured promise, which 26 CFR 1.83-3(e) excludes from the definition of property, so no section 83(b) election can be made on it. The election applies to restricted stock, and must be filed within 30 days of transfer.</p>
-
-<h3>Why was only 22 per cent withheld from my vest?</h3>
-<p>Because equity and bonuses are supplemental wages, withheld at a flat 22 per cent, rising to 37 per cent above $1 million in a year. That is a withholding rate, not your liability. If your marginal rate is higher, the difference is due at filing.</p>
-
 <h3>What is the difference between an ISO and an NSO?</h3>
 <p>An NSO is taxed at exercise on the spread, as wages on your W-2. An ISO is not taxed at exercise for regular tax, but the spread is an AMT adjustment on Form 6251, line 2i.</p>
 
 <h3>How do I avoid the AMT problem on ISOs?</h3>
 <p>The regulation's own answer is that no adjustment is required if you dispose of the stock in the same year you exercise. Holding across a year end is what creates the exposure, and the favourable holding period requires two years from grant and one year from exercise.</p>
-
-<h3>What are Forms 3921 and 3922?</h3>
-<p>Form 3921 reports the exercise of an incentive stock option; Form 3922 reports a transfer of stock acquired under an employee stock purchase plan. Keep both, because reported cost basis for equity compensation is often wrong.</p>
-
-<h3>How do I know if my private company shares are worth anything?</h3>
-<p>Ask which exemption the plan uses. A reporting company registers on Form S-8; a non-reporting one relies on Rule 701, which caps twelve-month sales at the greatest of $1,000,000, 15 per cent of total assets, or 15 per cent of the class.</p>
 
 <h2>Related career guides</h2>
 

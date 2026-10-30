@@ -320,18 +320,6 @@ JOBHTML;
 <h3>What does Ferrari pay factory workers?</h3>
 <p>Ferrari publishes no pay figure for any production role. Minimum pay for this work is set by the Italian metalworkers' national collective agreement, renewed on 22 November 2025.</p>
 
-<h3>What is the decreto flussi?</h3>
-<p>Italy's annual quota decree for admitting non-EU workers. The decree of 2 October 2025 sets 497,550 places across 2026 to 2028, unlocked on fixed click days by category.</p>
-
-<h3>Who applies for the nulla osta?</h3>
-<p>The employer, on a click day, before you can apply for a visa. You cannot obtain it yourself and no agent can obtain it for you.</p>
-
-<h3>Is there an EU Blue Card route in Italy?</h3>
-<p>Yes. It was introduced by Legislative Decree 152/2023, transposing EU Directive 2021/1883, with an implementing circular of 28 March 2024. It targets highly qualified workers and sits outside the quota.</p>
-
-<h3>Do I need Italian to work at Ferrari?</h3>
-<p>Ferrari publishes no language requirement. In practice production work in Maranello is carried out in Italian, and Italy applies its own language conditions to longer-term residence permits.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at European manufacturing or comparing employers? These cover the ground:</p>

@@ -161,18 +161,6 @@ class BringFamilyWorkingAbroadBlogSeeder extends Seeder
 <h3>Can my spouse work in Singapore on a Dependant's Pass?</h3>
 <p>Only with a work pass; the Dependant's Pass itself is not permission to work.</p>
 
-<h3>Can parents join under the spouse route?</h3>
-<p>Not automatically. Check the separate category for parents.</p>
-
-<h3>Will all family members be approved together?</h3>
-<p>No. Each application is decided on its own.</p>
-
-<h3>Does employer accommodation cover a family?</h3>
-<p>Only if the written terms say so. Confirm before accepting.</p>
-
-<h3>What if my job ends?</h3>
-<p>Dependants usually depend on your status, so check what changes before you move.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -184,7 +172,6 @@ class BringFamilyWorkingAbroadBlogSeeder extends Seeder
     <li><a href="/blog/documents-needed-to-work-abroad-2026">Documents Needed to Work Abroad (2026)</a>: what to prepare</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

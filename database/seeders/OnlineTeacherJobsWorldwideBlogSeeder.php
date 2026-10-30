@@ -291,20 +291,8 @@ JOBHTML;
 <h3>Do I need a degree to teach online?</h3>
 <p>Not on all marketplaces, but many ESL platforms and virtual schools require one. A 120-hour TEFL certificate is the common baseline for teaching English.</p>
 
-<h3>Is teaching English to students in China still an option?</h3>
-<p>No. China's 2021 Double Reduction policy banned for-profit core-subject tutoring for grades 1 to 9 and the use of foreign-based tutors; VIPKid ended its China programme that year.</p>
-
-<h3>What is the best platform to start on?</h3>
-<p>For teachers outside the US/UK, a marketplace such as Preply or iTalki, where you set your rate and compete on quality rather than being filtered by nationality.</p>
-
-<h3>Is a TEFL certificate worth it?</h3>
-<p>It is the common baseline for English teaching and required by many platforms. Because TEFL is unregulated, check which body backs a course before paying.</p>
-
 <h3>Can I teach K-12 online from another country?</h3>
 <p>Rarely. Accredited US online public schools require a US state teaching licence and work authorisation, which most overseas applicants do not have.</p>
-
-<h3>Do online teaching platforms charge a fee to join?</h3>
-<p>No legitimate one does. Any platform or "employer" asking you to pay for training, materials or registration is a scam.</p>
 
 <h2>More Job Guides</h2>
 

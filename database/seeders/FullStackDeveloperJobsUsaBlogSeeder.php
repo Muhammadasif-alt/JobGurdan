@@ -272,18 +272,6 @@ JOBHTML;
 <h3>Can I work for a US company without a visa?</h3>
 <p>Yes, as a contractor or through an employer of record, working from your own country. You are taxed where you live rather than in the US, and you receive no US benefits or employment protections.</p>
 
-<h3>Will a US company pay me US rates if I work remotely from abroad?</h3>
-<p>Usually not. Most benchmark the offer to your local market rather than to US pay, and the difference can be large. It is often still well above local rates, but expect a local-plus offer and ask how the range was set.</p>
-
-<h3>What is an employer of record and should I want one?</h3>
-<p>An EOR such as Deel or Papaya Global legally employs you in your own country on the US company's behalf, so you get local payroll, statutory benefits and employment protections. For a long-term full-time role it is meaningfully better than a plain contractor arrangement, and worth asking for.</p>
-
-<h3>What is contractor misclassification and why does it matter to me?</h3>
-<p>Whether you are truly a contractor is judged under your own country's labour law, based on control, set hours, integration into the core business and how long the arrangement has run. A single client at full-time hours for years is the classic reclassification pattern, and companies often end such arrangements abruptly once flagged, leaving you with no notice and no protections.</p>
-
-<h3>Is full stack a good route for a first developer job?</h3>
-<p>Yes, because one deployed application can prove both halves at once. Build a single real product with authentication, a real data model and a live deployment rather than several tutorial clones.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing the engineering paths? These cover them:</p>

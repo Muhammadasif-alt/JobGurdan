@@ -316,18 +316,6 @@ JOBHTML;
 <h3>Do food delivery riders have to register for GST?</h3>
 <p>Only once turnover reaches $75,000. The register-from-the-first-dollar rule applies to passenger ride-sourcing, not to food or parcel delivery.</p>
 
-<h3>What can I claim at tax time?</h3>
-<p>Work-related car costs, either at 91 cents a kilometre up to 5,000 kilometres for 2026-27 or by logbook, plus phone, equipment and other work expenses. You are taxed on profit.</p>
-
-<h3>What licence do I need?</h3>
-<p>A car licence for van and car work, a rider licence for motorcycles and scooters, and no licence for bicycle delivery. Amazon Flex requires a full unrestricted licence.</p>
-
-<h3>How much is a police check?</h3>
-<p>An AFP national police check costs $56, or $113 if fingerprints are needed.</p>
-
-<h3>Is Amazon Flex the same as being an Amazon driver?</h3>
-<p>No. Flex is contractor work with your own vehicle and ABN. Amazon's Delivery Service Partners are separate businesses that employ their drivers.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing delivery and driving routes? These cover them:</p>

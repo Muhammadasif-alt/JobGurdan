@@ -255,18 +255,6 @@ JOBHTML;
 <h3>Do I need a Certificate III to work in aged care?</h3>
 <p>Not to start. The award has a pay point for a direct carer with less than three months' experience, but you do need a police certificate or an NDIS worker screening check.</p>
 
-<h3>What do juniors get paid?</h3>
-<p>A percentage of the adult rate: 45% under 16, 50% at 16, 60% at 17, 70% at 18, 80% at 19 and 90% or 100% at 20, depending on how long you have been with the employer.</p>
-
-<h3>What is the casual loading?</h3>
-<p>25% on top of the base rate, in place of paid leave. A Level 1 hospitality casual must receive at least $33.05 an hour.</p>
-
-<h3>Can I get a mining job with no experience?</h3>
-<p>Entry-level site roles exist, but Queensland coal mines require the Standard 11 induction first, and most mining jobs are in Western Australia and Queensland.</p>
-
-<h3>How many hours can I work on a student visa?</h3>
-<p>48 hours a fortnight while studying, and unlimited hours during course breaks.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing entry-level work in Australia and elsewhere? These cover it:</p>

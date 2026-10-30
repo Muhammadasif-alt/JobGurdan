@@ -154,18 +154,6 @@ class WorkAbroadVsStayHomeBlogSeeder extends Seeder
 <h3>Can I assume permanent residence will follow?</h3>
 <p>No. Each country has separate residence requirements.</p>
 
-<h3>How long does it take to recover relocation costs?</h3>
-<p>Divide upfront costs by the monthly increase in savings; the result is only as good as your assumptions.</p>
-
-<h3>Can my family come with me?</h3>
-<p>Only if the route allows dependants; check the conditions for each family member.</p>
-
-<h3>What if the job ends early?</h3>
-<p>Check the route's rules on changing employers and how long you may stay without a job.</p>
-
-<h3>Should I resign before the visa is approved?</h3>
-<p>No. Keep your job until the permission and contract are confirmed in writing.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -177,7 +165,6 @@ class WorkAbroadVsStayHomeBlogSeeder extends Seeder
     <li><a href="/blog/documents-needed-to-work-abroad-2026">What Documents Do You Need to Work Abroad (2026)</a>: the checklist</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

@@ -345,23 +345,11 @@ JOBHTML;
 <h3>Can I become a medical records clerk with no experience?</h3>
 <p>Yes. BLS records no required work experience and no on-the-job training period for the occupation. What it does record is a postsecondary nondegree award as the typical entry-level education, so the gap to close is a certificate rather than experience, and AHIMA's CCA exam asks only for a high school diploma.</p>
 
-<h3>Do I need a degree or certification to work in medical records?</h3>
-<p>Not a degree. AHIMA's Certified Coding Associate requires only a high school diploma and costs $199 for members. The RHIT, which hospital records departments more often ask for, requires an associate degree from a CAHIIM-accredited Health Information Management program.</p>
-
-<h3>What is the difference between a medical records clerk and a medical coder?</h3>
-<p>A clerk files, retrieves and processes records and fulfils release-of-information requests. A coder abstracts clinical detail from the chart and assigns ICD and CPT codes for billing and reporting. BLS counts the filing-only role as file clerks, median $43,600, and the coding role within medical records specialists, median $51,140.</p>
-
 <h3>Are medical records clerk jobs in demand in 2026?</h3>
 <p>The records specialist occupation is. BLS projects 8 per cent growth from 2025 to 2035, which it describes as much faster than the average for all occupations, with about 14,000 openings a year. File clerks, by contrast, are projected to fall 15.8 per cent over the same decade.</p>
 
 <h3>How much does the AHIMA CCA exam cost and what is on it?</h3>
 <p>$199 for AHIMA members and $299 for non-members. It is 105 questions, 90 scored and 15 pretest, with two hours to complete it. AHIMA recommends, but does not require, six months of coding experience or a coding training program first.</p>
-
-<h3>What qualifications do I need for an RHIT?</h3>
-<p>An associate degree from a Health Information Management program accredited by CAHIIM, or graduation from a foreign program under one of AHIMA's reciprocity agreements. The exam is 150 questions in three and a half hours at a Pearson VUE center, $229 for members and $299 for non-members.</p>
-
-<h3>Where can I apply for medical records jobs without using a job aggregator?</h3>
-<p>AHIMA runs its own board, CareerAssist, for this profession. Federal records roles at the VA, the Indian Health Service and military facilities are advertised on USAJOBS. Large health systems such as Kaiser Permanente and Sutter Health post everything on their own careers sites.</p>
 
 <h2>More Job Guides</h2>
 

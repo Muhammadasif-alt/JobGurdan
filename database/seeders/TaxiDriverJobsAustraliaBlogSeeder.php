@@ -292,18 +292,6 @@ JOBHTML;
 <h3>Can I drive a taxi in Australia on a temporary visa?</h3>
 <p>Yes, in the states that publish the rule. Queensland accepts a visa with work rights through a VEVO check, and South Australia accepts a valid working visa but ties your accreditation to its expiry. No state was found to require permanent residency.</p>
 
-<h3>How much do taxi drivers earn in Australia?</h3>
-<p>There is no reliable official figure. Australia's earnings statistics cover employees, and most taxi drivers work under bailment agreements rather than as employees, so they fall outside the surveys. What matters is your share of the fares and what you pay for the vehicle and fuel.</p>
-
-<h3>Is a taxi driver an employee?</h3>
-<p>Usually not. Bailment was held in Voros v Alan Dick to fall outside employment, so unfair dismissal, award coverage and superannuation generally do not apply. Sydney metropolitan bailees are the exception, covered by the Taxi Industry (Contract Drivers) Contract Determination 1984.</p>
-
-<h3>Can I get visa sponsorship to drive a taxi in Australia?</h3>
-<p>No. Taxi Driver does not appear on the Core Skills Occupation List, which governs skilled nomination, and the occupation is assessed as being in no shortage. Any advertisement promising sponsorship for taxi driving should be treated with suspicion.</p>
-
-<h3>Do I pay the New South Wales passenger service levy?</h3>
-<p>No. The &#36;1.20 per trip levy is payable by authorised taxi and booking service providers, not by drivers. Providers may pass it on to passengers, in which case it attracts GST and appears as &#36;1.32.</p>
-
 <h3>What extra training do I need for a wheelchair accessible taxi?</h3>
 <p>It varies. Victoria issues a formal WAV endorsement on the accreditation after a theory and practical assessment. Queensland requires mandatory training before an operator may engage you. New South Wales has no endorsement but requires you to be assessed as competent and to remain so.</p>
 

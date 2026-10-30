@@ -299,18 +299,6 @@ JOBHTML;
 <h3>Do self-employed delivery drivers get the minimum wage?</h3>
 <p>Not if they are genuinely self-employed. The minimum wage reaches employees and workers, not independent contractors. Whether you fall inside it depends on the reality of the arrangement, not the label on the contract.</p>
 
-<h3>What is a substitution clause and why does it matter?</h3>
-<p>It is the right to send someone else to do your work. The Supreme Court treated an almost unfettered substitution right as decisive when it found Deliveroo riders were not workers in 2023. Its presence or absence is the clearest signal in the contract.</p>
-
-<h3>What insurance do I need to deliver parcels in my own van?</h3>
-<p>Hire and reward cover. An ordinary van policy will not do, and adding business use is not enough. Delivering for payment without it is driving uninsured under section 143 of the Road Traffic Act 1988. Goods in transit cover, for the parcels themselves, is separate.</p>
-
-<h3>Do I need a Driver CPC to be a delivery driver?</h3>
-<p>Not for vans up to 3.5 tonnes, which is virtually all parcel and multi-drop work. The CPC applies above 3.5 tonnes and is kept current with 35 hours of periodic training every five years. An advert offering to fund your CPC is describing a larger vehicle.</p>
-
-<h3>Can I drive a 7.5-tonne lorry on a normal car licence?</h3>
-<p>Only if you passed your car test before 1 January 1997, in which case wider entitlements are already on your licence. Anyone who passed on or after that date needs a separate category C1 test, plus a CPC and a medical for professional work.</p>
-
 <h3>Can I get UK visa sponsorship as a delivery driver?</h3>
 <p>Realistically no. The role sits below the Skilled Worker skill threshold, and self-employed courier work cannot be sponsored because there is no employer to sponsor it. These jobs suit people who already hold the right to work.</p>
 

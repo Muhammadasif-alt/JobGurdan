@@ -333,18 +333,6 @@ JOBHTML;
 <h3>Does NDAEB accredit dental assisting programs?</h3>
 <p>No. The Commission on Dental Accreditation of Canada accredits programs. NDAEB runs the Theory Exam and the Clinical Practice Evaluation.</p>
 
-<h3>What changed in the NDAEB exams in 2026?</h3>
-<p>From 1 January 2026, graduates of non-accredited programs must pass the Clinical Practice Evaluation before taking the Theory Exam.</p>
-
-<h3>How long does dental assistant training take?</h3>
-<p>Accredited dental assisting programs run for about 8 months to a year.</p>
-
-<h3>Is CPR required to work as a dental assistant?</h3>
-<p>Not always. The College of Alberta Dental Assistants says CPR is not needed to renew a practice permit unless you work on a sedation team, though many employers still ask for it.</p>
-
-<h3>Can dental assistants immigrate through Express Entry?</h3>
-<p>The job is TEER 3, so it can count for the Federal Skilled Worker Program, but dental assistants are not on the Express Entry health care and social services category list.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing health care support and Canadian jobs? These cover them:</p>

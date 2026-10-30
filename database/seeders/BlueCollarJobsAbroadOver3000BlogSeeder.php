@@ -171,18 +171,6 @@ class BlueCollarJobsAbroadOver3000BlogSeeder extends Seeder
 <h3>Do these salaries apply worldwide?</h3>
 <p>No. They are US benchmarks; other countries need separate wage research.</p>
 
-<h3>Which trade pays most in the table?</h3>
-<p>Industrial machinery mechanics, with a US median of $31.02 an hour, about $5,377 a month gross.</p>
-
-<h3>How is the monthly figure calculated?</h3>
-<p>Hourly wage times 40 hours times 52 weeks, divided by 12.</p>
-
-<h3>Do I need a licence?</h3>
-<p>For electricians, plumbers and HVAC technicians in most US states, yes. Check the state and the trade.</p>
-
-<h3>Can I rely on overtime to reach $3,000?</h3>
-<p>Not unless the contract guarantees it. Judge an offer on base pay and scheduled hours.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

@@ -275,20 +275,8 @@ JOBHTML;
 <h3>Does Oman Air hire non-Omani cabin crew?</h3>
 <p>Yes, but Omanisation at the airline has reached 79.4%, up from 74.8% in 2023, and expatriate headcount fell by 487 in its restructuring. Plan accordingly.</p>
 
-<h3>How long does Oman Air take to respond?</h3>
-<p>Within 6 weeks if it wants to meet you. Oman Air says that if you have not heard in 6 weeks, you should assume you were not shortlisted.</p>
-
-<h3>Where can I find Oman Air vacancies?</h3>
-<p>Through the careers page and Oman Air's LinkedIn jobs listings. Its own eRecruit vacancy tools currently redirect away or return a server error.</p>
-
-<h3>Is there a minimum wage for expatriates in Oman?</h3>
-<p>No. The ministerial decision setting the private sector wage floor applies to Omanis working in the private sector, so your contract is the only binding figure.</p>
-
 <h3>What does an Oman work visa cost?</h3>
 <p>OMR 20 for a two-year multiple entry employment visa issued by the Royal Oman Police, with a late renewal fine of OMR 50 a month.</p>
-
-<h3>Do I need to swim for the cabin crew assessment?</h3>
-<p>The July 2026 Open Day required swimming 10 metres unaided, assessed on the day. Swimming ability is a normal aviation requirement, so prepare for it.</p>
 
 <h2>More Job Guides</h2>
 

@@ -429,20 +429,11 @@ JOBHTML;
 <h3>Can you really build 500 to 1,000 verified contacts a day with free tools?</h3>
 <p>No. The published free allowances of the tools these listings name add up to roughly 275 credits a month between them, against a requirement of 10,000 to 22,000 a month. That is 36 to 80 times short, and one of those tools separately caps free users at selecting 25 records at a time. The claim is not ambitious, it is impossible.</p>
 
-<h3>Is contact list building the same as lead generation?</h3>
-<p>It is the research and data stage of it. Lead generation as a whole usually includes outreach and follow-up, which is regulated and measured differently. If a listing bundles both, you are being hired for two jobs and should price it as two.</p>
-
-<h3>Can I export leads from LinkedIn Sales Navigator to a spreadsheet?</h3>
-<p>No. LinkedIn's own documentation states that it does not offer the option to export account and lead information from Sales Navigator into a CSV or XLS file. The only sanctioned route out is a CRM sync available on a higher tier. Any tool that offers you a CSV export is operating against the platform's terms, and the consequences fall on the account used.</p>
-
 <h3>Do I need coding skills for contact list building?</h3>
 <p>No. Spreadsheet fluency matters far more, particularly text functions for normalising domains and the habit of deduplicating on the domain rather than the company name. Coding is not required at any level of this work.</p>
 
 <h3>What does it pay?</h3>
 <p>Figures quoted in career articles for this role are mostly attached to an advertisement that states no salary at all, so treat them carefully. The useful step is to convert any offer into a rate per contact using the quota. Skill-defined enrichment roles advertise materially more than volume-defined list building ones.</p>
-
-<h3>Can beginners get contact list building jobs?</h3>
-<p>Yes, and it is one of the more accessible remote entry points, because a short sample demonstrates competence directly. Build thirty rows with honest status labels and a source column, and apply to roles that describe the work rather than a daily number.</p>
 
 <h3>Is this a good route into sales?</h3>
 <p>It can be, because it teaches target profiles, decision maker mapping and the tools that sales teams run on. The usual next steps are lead generation specialist and then sales development. The quieter and often better paid route runs through data and CRM work instead.</p>

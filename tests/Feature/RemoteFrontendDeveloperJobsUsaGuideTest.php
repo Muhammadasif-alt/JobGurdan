@@ -50,10 +50,10 @@ it('ships every image it references', function () {
     expect($blog->content)->not->toContain('.png');
 });
 
-it('carries eight FAQs and no People Also Search For block', function () {
+it('carries four FAQs and no People Also Search For block', function () {
     $content = Blog::where('slug', REMOTE_FE_SLUG)->value('content');
 
-    expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(8);
+    expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(4);
 
 
     expect(substr_count($content, 'People Also Search For'))->toBe(0);

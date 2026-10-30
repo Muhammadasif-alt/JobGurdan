@@ -342,20 +342,8 @@ JOBHTML;
 <h3>Do I need experience to work at Home Depot?</h3>
 <p>No. Home Depot states on its Cashier, Customer Service/Sales and Freight pages that it welcomes all experience levels, from entry-level to people with a prior career.</p>
 
-<h3>Which Home Depot roles are entry-level?</h3>
-<p>Home Depot lists Cashier, Customer Service/Sales Associate, Support Associate, Freight Associate and General Warehouse Associate as its hourly in-store and distribution centre roles, plus Order Fulfillment and Merchandising Execution.</p>
-
 <h3>Does Home Depot let you operate a forklift without a licence?</h3>
 <p>Home Depot says Freight and Receiving associates may operate forklifts. Powered industrial truck operators must be trained and certified by the employer under federal safety rules, and that training is provided by the employer.</p>
-
-<h3>Does Home Depot sponsor work visas for store jobs?</h3>
-<p>It advertises no sponsorship on any hourly store role page. The only permanent category for work needing under two years of training, EB-3 Other Workers, requires the employer to file a labor certification and offer a permanent full-time job.</p>
-
-<h3>What benefits do part-time Home Depot associates get?</h3>
-<p>Dental and the $120 vision plan are open to all associates, part-time hourly associates accrue 20 hours of paid vacation after six months, and the stock purchase plan, 401(k) match and tuition reimbursement are published company-wide. Medical is full-time only.</p>
-
-<h3>How long does the Home Depot application take?</h3>
-<p>Home Depot no longer publishes a time. The "15 minutes" figure comes from a March 2017 press release. Its fiscal 2025 filing says only that you can apply from any device and then self-schedule pre-hire activities from your phone.</p>
 
 <h2>More Job Guides</h2>
 

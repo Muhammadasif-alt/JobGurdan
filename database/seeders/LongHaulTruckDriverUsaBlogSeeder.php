@@ -324,18 +324,6 @@ JOBHTML;
 <h3>Is a "CDL in 3 days" program legitimate?</h3>
 <p>No. The 14-day permit rule and mandatory ELDT from a registered provider make that timeline impossible under federal rules.</p>
 
-<h3>How much do long-haul truck drivers earn?</h3>
-<p>The BLS median was $58,640 in May 2025. The lowest 10% earned under $40,140 and the highest 10% over $79,380.</p>
-
-<h3>What does the hazmat endorsement involve?</h3>
-<p>A knowledge test plus a TSA security threat assessment costing $85.25, valid for five years.</p>
-
-<h3>Do I need training if I already have a CDL?</h3>
-<p>ELDT is not retroactive. It applies to a first Class A or Class B CDL, an upgrade from Class B to Class A, and a first school bus, passenger or hazmat endorsement.</p>
-
-<h3>What can stop me driving after I qualify?</h3>
-<p>A lapsed DOT medical certificate, or prohibited status in the FMCSA Drug and Alcohol Clearinghouse, which states must act on by removing your commercial driving privilege.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing driving routes? These cover them:</p>

@@ -360,20 +360,8 @@ JOBHTML;
 <h3>Is plumbing a growing trade in the US?</h3>
 <p>Yes. BLS projects 7 per cent growth from 2025 to 2035, an increase of 34,500 jobs, with about 42,000 openings a year. Figures of 4 per cent and 44,000 openings come from the superseded 2024 to 2034 round.</p>
 
-<h3>What is the average plumber salary in the UK?</h3>
-<p>ONS does not publish a reachable median for plumbers as a separate occupation. The benchmark it does publish is £39,039, the median gross annual pay for all UK full-time employees in April 2025. Treat any precise "ONS plumber median" with caution.</p>
-
-<h3>Do you need a licence to be a plumber in the UK?</h3>
-<p>Not for plumbing itself. Gas work is different: the Gas Safety (Installation and Use) Regulations 1998 require anyone carrying it out to be on the Gas Safe Register and qualified for that category of work, and doing it unregistered is illegal.</p>
-
-<h3>Why does the US plumber average differ from the median?</h3>
-<p>BLS counts plumbers, pipefitters and steamfitters as one occupation. Industrial pipefitters and steamfitters earn more and pull the mean up, so the median is the better guide for a residential service plumber.</p>
-
 <h3>Does a US plumbing licence work in another state?</h3>
 <p>Not automatically. There is no national plumbing licence; each state, and often each city or county, licenses separately. Check the destination state's board before moving.</p>
-
-<h3>What does a plumbing apprentice earn?</h3>
-<p>In the UK the apprentice minimum is £8.00 an hour from 1 April 2026, rising to the age-related rate as the apprenticeship progresses. In the US, apprentice pay is set by the programme and rises in steps through a four to five year term.</p>
 
 <h3>Which pays better, employed or self-employed plumbing?</h3>
 <p>Self-employment usually pays more per hour worked and carries no sick pay, holiday pay, pension contribution or guaranteed work. Compare the day rate against the whole employed package, not against the headline salary.</p>

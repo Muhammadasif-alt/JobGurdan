@@ -278,18 +278,6 @@ JOBHTML;
 <h3>Do I need to speak German to work as a DevOps engineer in Germany?</h3>
 <p>Not for the Blue Card, and many international teams work in English. German does shorten the route to permanent residence, from 27 months with A1 to 21 months with B1.</p>
 
-<h3>Which German city pays DevOps engineers the most?</h3>
-<p>Stuttgart, with a median of &euro;6,394 a month for the DevOps occupation group at the end of 2025, followed by Munich at &euro;6,258 and Berlin at &euro;6,049.</p>
-
-<h3>Is there a shortage of DevOps engineers in Germany?</h3>
-<p>Less than guides suggest. The Federal Employment Agency no longer lists software development as a shortage occupation, although the industry association Bitkom still reports about 109,000 unfilled IT jobs.</p>
-
-<h3>How much tax and social insurance do I pay in Germany?</h3>
-<p>Employee social contributions take roughly 21% of a &euro;70,000 salary in 2026, before income tax, depending on your health insurer and whether you have children.</p>
-
-<h3>Can I move to Germany to look for a DevOps job?</h3>
-<p>With the Opportunity Card, if you score at least six points and show about &euro;1,091 a month in funds. You can work up to 20 hours a week while you search.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing DevOps and cloud work in Germany and the US? These cover it:</p>

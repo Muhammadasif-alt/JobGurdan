@@ -321,20 +321,8 @@ JOBHTML;
 <h3>What is the salary requirement for a sponsored UK job in 2026?</h3>
 <p>£41,700 a year or the occupation's going rate, whichever is higher. It falls to £37,500 with a relevant PhD, and to £33,400 with a STEM PhD, on the Immigration Salary List, or as a new entrant.</p>
 
-<h3>What is a Certificate of Sponsorship and how long is it valid?</h3>
-<p>An electronic record created by the sponsor containing the job details, identified by a reference number. You must make your visa application within three months of it being assigned.</p>
-
-<h3>Who pays the Immigration Skills Charge?</h3>
-<p>The employer, at £1,320 per 12 months for a medium or large sponsor and £480 for a small or charitable one. It cannot lawfully be recovered from the worker.</p>
-
-<h3>What does a B-rated sponsor mean on the register?</h3>
-<p>The sponsor is on a Home Office action plan and cannot assign a Certificate of Sponsorship to a new worker until the rating is restored. It appears on the same register as an A-rated sponsor.</p>
-
 <h3>Do I need an English test for a sponsored UK job?</h3>
 <p>Level B2 since 8 January 2026. Nationals of majority English-speaking countries such as the USA, Canada, Australia, New Zealand and Ireland are exempt, as is anyone holding a degree taught in English.</p>
-
-<h3>Can a UK employer charge me for sponsorship?</h3>
-<p>No. There is no lawful payment from a worker to an employer or agent for a sponsor licence, a Certificate of Sponsorship or the Immigration Skills Charge. A request for one is a scam.</p>
 
 <h2>More Job Guides</h2>
 

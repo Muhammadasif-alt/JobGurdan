@@ -211,18 +211,6 @@ HTML;
 <h3>Who is the biggest employer of disability support staff?</h3>
 <p>Government. The Punjab Special Education Department alone reports roughly 118 specialised institutions, including 45 for hearing impaired and 36 for slow learner pupils, and advertises on its own jobs page.</p>
 
-<h3>Do I need a degree for disability support work?</h3>
-<p>For education and therapy posts, usually yes: special education, psychology, speech therapy, occupational therapy or social work. Home-based attendant and caregiver posts weigh reliability and experience more heavily.</p>
-
-<h3>Can I work in autism support without ABA training?</h3>
-<p>As a classroom or shadow assistant, often yes. As an ABA practitioner, no. That role expects registered behaviour technician training or equivalent coursework with supervised hours, and short online courses are not a substitute.</p>
-
-<h3>Is home-based disability support the same as personal care?</h3>
-<p>In practice, largely yes: personal care, mobility, routine and communication in someone's home. If a family employs you directly in Punjab, the Domestic Workers Act entitlements apply to the arrangement.</p>
-
-<h3>How much do disability support workers earn in Pakistan?</h3>
-<p>Government posts follow published scales tied to the advertised grade. Private centres and home-based work are negotiated individually, and no reliable published range exists for either.</p>
-
 <h3>Where should I look for these jobs?</h3>
 <p>The Punjab Special Education Department jobs page, therapy and rehabilitation centres directly, home healthcare providers for attendant work, and disability-focused NGOs for programme roles. Government vacancies often close before job boards index them.</p>
 

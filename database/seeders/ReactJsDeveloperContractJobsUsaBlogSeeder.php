@@ -253,18 +253,6 @@ HTML;
 <h3>I signed a contract agreeing to a deduction. Does that make it valid?</h3>
 <p>Not by itself. The regulation states that an employee's mere acceptance of a job carrying a deduction as a condition of employment "does not constitute voluntary authorization, even if such condition were stated in writing".</p>
 
-<h3>Can I do STEM OPT through a staffing agency?</h3>
-<p>Yes. SEVP says students may find a training opportunity with a staffing agency's assistance. What the agency cannot do is sign your Form I-983: only the E-Verified employer that provides the actual training may sign, and a new I-983 is needed for each employer.</p>
-
-<h3>How long can I be unemployed on OPT?</h3>
-<p>An aggregate of 90 days during post-completion OPT, rising to a total of 150 days across the whole period if you get the 24-month STEM extension. This is why unpaid bench time carries a second cost on OPT.</p>
-
-<h3>Is a "US Citizens only" job advert illegal?</h3>
-<p>It can be, and the Department of Justice tells employers to avoid such phrasing unless a law, regulation, executive order or government contract requires it. But the citizenship-status protection covers citizens, permanent residents, refugees and asylees, not H-1B or OPT holders.</p>
-
-<h3>What claim do I have if an advert excludes my visa status?</h3>
-<p>Not a citizenship-status claim, because H-1B, OPT and CPT holders are not protected individuals for that purpose. National origin discrimination, which protects any individual, and document abuse are the provisions that may apply.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

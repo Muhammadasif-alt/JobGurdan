@@ -247,18 +247,6 @@ JOBHTML;
 <h3>Does Google penalise AI-generated content?</h3>
 <p>Not for being AI-generated. Google's systems aim to reward helpful, original content however it is produced; the spam policies target scaled content abuse, meaning large volumes of content produced primarily to manipulate rankings rather than to help readers.</p>
 
-<h3>Should I be paid per word for AI-assisted writing?</h3>
-<p>Preferably not. When the value you add is editing, per-word pay penalises you for cutting a draft down. Ask for per-piece or hourly, and if per-word is unavoidable, agree the count as a range in the brief.</p>
-
-<h3>What do employers actually screen for?</h3>
-<p>Editing judgement: catching invented facts, unsourced statistics, generic phrasing and repetition. Prompting skill is assumed and rarely tested on its own.</p>
-
-<h3>Which niches pay the most?</h3>
-<p>Technical, financial, healthcare and deep SaaS content, because the fact-checking burden is higher and fewer writers can carry it credibly.</p>
-
-<h3>Do I need to disclose that I used AI?</h3>
-<p>It depends on the employer and the end client, and it is a fair question to ask before starting. Some contracts require disclosure, some prohibit AI use entirely, and some are indifferent as long as the work is accurate and original.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at the rest of the remote writing market? These cover it:</p>

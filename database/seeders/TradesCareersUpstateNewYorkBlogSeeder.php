@@ -117,12 +117,6 @@ class TradesCareersUpstateNewYorkBlogSeeder extends Seeder
 
 <p>Ask each sponsor for its starting apprentice wage, progression schedule, benefit eligibility and expected costs. A journeyworker wage is not your starting rate, and employer benefit contributions are not cash. Estimate housing, fuel, vehicle upkeep, parking, tools, books and test costs, and think about early starts and changing job sites. Do not leave a job or move city on an application receipt alone, because a recruitment period describes when applicants are considered, not a start date.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Do I need a college degree?</h3>
@@ -134,20 +128,8 @@ class TradesCareersUpstateNewYorkBlogSeeder extends Seeder
 <h3>Is there one entrance exam for all trades?</h3>
 <p>No. The notices use a maths test, a mechanical comprehension test and an electrical aptitude test, and other programmes differ.</p>
 
-<h3>Are all advertised places immediately available?</h3>
-<p>No. Totals and windows do not mean immediate hiring. Ask the sponsor how selection and placement work.</p>
-
-<h3>Which city is best for a beginner?</h3>
-<p>Choose eligible programmes with manageable travel, affordable living costs and work that suits you.</p>
-
-<h3>Do I have to pay to apply?</h3>
-<p>Local 13 charges USD 20, waivable with proof of need. Others state no fee. Never pay an agent.</p>
-
 <h3>How old must I be?</h3>
 <p>It varies: 17 for Local 81 and the Finishing Trades Institute, 18 for Locals 41, 6, 13, 33 and 633.</p>
-
-<h3>Can I apply online?</h3>
-<p>Some can: Local 13, Local 33, Local 81 and the Finishing Trades Institute. Local 41, Local 6 and Local 633 need in-person pickup or completion.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 
@@ -180,7 +162,6 @@ class TradesCareersUpstateNewYorkBlogSeeder extends Seeder
     <li><a href="/blog/laborers-union-entrance-exam-guide">Laborers Union Entrance Exam Guide</a>: laborers entry</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Recruitment status checked on 17 October 2026 against official notices, which change often. The examples are not an exhaustive list of sponsors, and no vacancy, admission or selection outcome is guaranteed.</p>
 HTML;
     }
 }

@@ -332,18 +332,6 @@ JOBHTML;
 <h3>Do I need a ticket to operate a crane in Canada?</h3>
 <p>For specified types of mobile cranes, certification is compulsory in Nova Scotia, New Brunswick, Quebec, Ontario, Manitoba, Alberta and British Columbia.</p>
 
-<h3>Is working at heights training required in Ontario?</h3>
-<p>Yes, for construction workers who use fall protection. The training must be approved by the Chief Prevention Officer and is valid for three years.</p>
-
-<h3>Is the job outlook good in Alberta?</h3>
-<p>Job Bank rates the 2025-2027 outlook for heavy equipment operators as Limited in Alberta and British Columbia, and Good in Saskatchewan.</p>
-
-<h3>Are heavy equipment operators in the Express Entry trades category?</h3>
-<p>No. The trade occupations list does not include NOC 73400, although heavy-duty equipment mechanics are included.</p>
-
-<h3>How long does heavy equipment operator training take?</h3>
-<p>Operator courses usually run from a few weeks to several months; a Red Seal apprenticeship takes longer and combines on-site hours with technical training.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing trades and driving jobs? These cover them:</p>

@@ -244,26 +244,14 @@ JOBHTML;
 <h3>Is landscaping usually H-2A or H-2B?</h3>
 <p>Qualifying temporary non-agricultural landscaping generally falls under H-2B. Agricultural roles need their own classification check.</p>
 
-<h3>Is experience always required?</h3>
-<p>No universal experience requirement applies to every vacancy. Read the job order.</p>
-
-<h3>Does sponsorship lead to permanent residence?</h3>
-<p>No. H-2B is a temporary work route and does not automatically lead to permanent residence.</p>
-
 <h3>Is free housing compulsory?</h3>
 <p>Do not assume it is included. Check the employer's written housing and deduction terms.</p>
 
 <h3>Is there a limit on H-2B visas?</h3>
 <p>Yes, a statutory annual limit applies, with separate supplemental allocations in some years. Check USCIS's current notices.</p>
 
-<h3>Can Pakistani citizens get H-2B visas?</h3>
-<p>The eligible-country lists were removed in January 2025, but you still need an employer that recruits from Pakistan, an approved petition and a visa decision.</p>
-
 <h3>Should I pay an agent for a landscaping job in the USA?</h3>
 <p>Be very careful. H-2B workers should not pay the employer's recruitment or petition costs, and nobody can guarantee a visa.</p>
-
-<h3>Do landscapers need a licence?</h3>
-<p>Not generally for basic grounds work, but some chemical-application tasks need state licensing.</p>
 
 <h2>More Job Guides</h2>
 

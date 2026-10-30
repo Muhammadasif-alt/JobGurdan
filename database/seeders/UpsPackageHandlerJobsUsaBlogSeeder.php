@@ -332,18 +332,6 @@ JOBHTML;
 <h3>How many hours is a part-time UPS shift?</h3>
 <p>Usually 3 to 5 hours, though hours rise during peak shipping season between late November and the new year.</p>
 
-<h3>Do I need experience to be a UPS package handler?</h3>
-<p>No. You need to be 18, legally able to work in the US, able to pass a background check and physically able to keep pace through the shift.</p>
-
-<h3>Does UPS help pay for college?</h3>
-<p>Yes, at some locations. The Earn and Learn programme offers up to $25,000 towards tuition, books and fees for students at approved institutions.</p>
-
-<h3>How long does it take to become a UPS driver?</h3>
-<p>It depends on seniority and full-time openings at your building, so no national figure is meaningful. The 2023 contract created 7,500 new full-time jobs and filled 22,500 open positions.</p>
-
-<h3>When does UPS hire the most package handlers?</h3>
-<p>Ahead of peak shipping season. Seasonal hiring ramps up from the autumn into the new year, and some seasonal workers are kept on.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing entry-level work across the US? These cover the alternatives:</p>

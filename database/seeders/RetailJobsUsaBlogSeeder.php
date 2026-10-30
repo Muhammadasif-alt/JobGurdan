@@ -288,20 +288,8 @@ JOBHTML;
 <h3>Why do salary sites disagree so much about retail pay?</h3>
 <p>Because they are averaging across a country where the legal floor ranges from $7.25 to $18.40, and across a job title covering both commission specialty sales and part-time register work.</p>
 
-<h3>Is a cashier job the same as a retail sales associate job?</h3>
-<p>No, and the difference is worth about $2.04 an hour. BLS treats them as separate occupations, and their outlooks differ too. Read the duties in the posting rather than the title.</p>
-
-<h3>Are cashier jobs disappearing?</h3>
-<p>Employment is projected to decline about 10 per cent from 2024 to 2034. Even so, roughly 542,600 openings appear each year, all from replacing people who leave, so the job stays easy to get.</p>
-
-<h3>Which US cities pay retail workers best?</h3>
-<p>New York, Chicago and Minneapolis lead published lists, largely because their local minimum wages are high. The premium above the local floor is smaller than the gap to the national average implies.</p>
-
 <h3>Do I need experience for a retail job?</h3>
 <p>Usually not for associate roles: many listings state no experience required. Store management is the exception, typically asking for three or more years plus point-of-sale system experience.</p>
-
-<h3>Is retail scheduling actually flexible?</h3>
-<p>It depends whether it is flexible for you or for the employer. Ask how far ahead the schedule is posted, how much weekly hours vary, and whether shifts get cut on the day.</p>
 
 <h2>More Job Guides</h2>
 

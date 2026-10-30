@@ -144,18 +144,6 @@ class MoveAbroadForWorkStepByStepBlogSeeder extends Seeder
 <h3>How much money should I prepare?</h3>
 <p>Calculate relocation costs, initial living expenses and an emergency reserve.</p>
 
-<h3>What is the first step?</h3>
-<p>Check eligibility and set a realistic budget.</p>
-
-<h3>Who checks recruiters in Pakistan?</h3>
-<p>The Bureau of Emigration and Overseas Employment licenses promoters.</p>
-
-<h3>Can my family join straight away?</h3>
-<p>Not automatically. Each family member has separate eligibility.</p>
-
-<h3>When can I start work?</h3>
-<p>Only when your permission and its conditions allow it.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -167,7 +155,6 @@ class MoveAbroadForWorkStepByStepBlogSeeder extends Seeder
     <li><a href="/blog/bring-family-working-abroad">Can You Bring Your Family When Working Abroad</a>: dependants</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

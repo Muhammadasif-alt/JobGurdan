@@ -343,18 +343,6 @@ JOBHTML;
 <h3>Do I need to attend a CDL school?</h3>
 <p>Yes. Since 7 February 2022 the FMCSA Entry-Level Driver Training rule requires theory and behind-the-wheel instruction before the skills test, from a provider listed on the Training Provider Registry, for a first Class A or B CDL, a Class B to Class A upgrade, and first-time H, P or S endorsements.</p>
 
-<h3>How old do you have to be to drive a truck across state lines?</h3>
-<p>21. Drivers aged 18 to 20 can hold a CDL in nearly every state but are restricted to intrastate work, unless they are in the FMCSA Safe Driver Apprenticeship Pilot. Hazmat and passenger work also require 21.</p>
-
-<h3>How many hours can a CDL driver drive in a day?</h3>
-<p>Up to 11 hours, after 10 consecutive hours off duty, and never beyond the 14th consecutive hour after coming on duty. A 30-minute break is required after 8 cumulative hours of driving.</p>
-
-<h3>What does a hazmat endorsement require?</h3>
-<p>A TSA security threat assessment under 49 CFR Part 1572, including a fingerprint-based FBI criminal history records check and identity verification, plus ELDT for a first-time endorsement. Some convictions are permanently disqualifying.</p>
-
-<h3>Is being an owner-operator more profitable than driving for a company?</h3>
-<p>Not automatically. Owner-operator figures are gross revenue, and the truck, fuel, insurance, maintenance, permits and self-employment tax of 15.3 per cent come out of it before you are paid.</p>
-
 <h3>Is the job outlook for truck drivers strong?</h3>
 <p>Steady rather than strong. BLS projects 4 per cent growth from 2025 to 2035, about as fast as the average for all occupations, from a base of 2,221,200 jobs.</p>
 

@@ -151,20 +151,8 @@ class SendMoneyHomeWorkingAbroadBlogSeeder extends Seeder
 <h3>Can my family receive cash?</h3>
 <p>Only where the provider supports cash pickup and the recipient meets its ID requirements.</p>
 
-<h3>Is hundi or hawala a safe way to send money?</h3>
-<p>It is not a formal channel and gives no protection if the money goes missing. Use banks and licensed providers.</p>
-
 <h3>Should I resend a delayed transfer immediately?</h3>
 <p>No. Check tracking and contact official support first to avoid a duplicate payment.</p>
-
-<h3>How do I check the recipient details?</h3>
-<p>Confirm the name and account, IBAN or wallet number with your family by a separate call.</p>
-
-<h3>Can I cancel a transfer?</h3>
-<p>Sometimes. Cancellation rights vary by provider and country, so check before you pay.</p>
-
-<h3>Do I lose money on the exchange rate?</h3>
-<p>Possibly. A provider can earn through the rate as well as the fee, so compare the final amount received.</p>
 
 <h2>More Job Guides</h2>
 
@@ -177,7 +165,6 @@ class SendMoneyHomeWorkingAbroadBlogSeeder extends Seeder
     <li><a href="/blog/which-countries-are-hiring-foreign-workers-2026">Which Countries Are Hiring Foreign Workers in 2026</a>: where demand is</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 12 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

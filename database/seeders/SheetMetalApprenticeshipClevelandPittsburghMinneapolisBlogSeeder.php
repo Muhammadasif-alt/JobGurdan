@@ -117,12 +117,6 @@ class SheetMetalApprenticeshipClevelandPittsburghMinneapolisBlogSeeder extends S
 
 <p>Local 10 publishes separate Metro wage schedules for commercial, residential and architectural work, effective 1 May 2026 to 30 April 2027, as linked PDFs. Ask each programme for its current schedule and progression, and compare cash wages with housing and transport costs. Employer benefit contributions are not money in your pay packet. Ask about tools, books, testing and dues, when benefits begin, and how work interruptions affect training, and do not relocate or quit a job on an application confirmation alone.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>Do I need previous sheet metal experience?</h3>
@@ -136,18 +130,6 @@ class SheetMetalApprenticeshipClevelandPittsburghMinneapolisBlogSeeder extends S
 
 <h3>Does passing an exam guarantee employment?</h3>
 <p>No. Tests, interviews, eligibility lists and employer demand all affect selection.</p>
-
-<h3>Which city should I choose?</h3>
-<p>Pick the programme whose rules, work area, training schedule and living costs fit you.</p>
-
-<h3>How long is the Cleveland programme?</h3>
-<p>The page says both four and five years. Confirm the length in your written agreement.</p>
-
-<h3>Can I apply for Minneapolis without an employer?</h3>
-<p>You can apply year-round, but acceptance depends on employment with a contractor.</p>
-
-<h3>Is there an application fee in Cleveland?</h3>
-<p>The steps page mentions no fee. Ask before booking the exam.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 
@@ -181,7 +163,6 @@ class SheetMetalApprenticeshipClevelandPittsburghMinneapolisBlogSeeder extends S
     <li><a href="/blog/can-you-retake-apprenticeship-aptitude-test">Can You Retake the Apprenticeship Aptitude Test?</a>: retake rules</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Recruitment status checked on 17 October 2026 against official pages, which change often. No vacancy, admission or selection outcome is guaranteed.</p>
 HTML;
     }
 }

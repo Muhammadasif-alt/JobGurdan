@@ -135,12 +135,6 @@ class RetakeApprenticeshipAptitudeTestBlogSeeder extends Seeder
 
 <p>Never pay anyone to skip a waiting period or to guarantee a pass, and verify all policies and fees with the programme directly. Programme information is also on <a href="https://www.apprenticeship.gov" rel="noopener">Apprenticeship.gov</a>.</p>
 
-<div style="text-align:center;margin:32px 0;">
-    <a href="/categories/career-advice" style="display:inline-flex;align-items:center;gap:10px;background:#1b3a6b;color:#fff;padding:14px 30px;border-radius:999px;font-weight:700;text-decoration:none;">
-        Browse Career Advice Guides on JobGader →
-    </a>
-</div>
-
 <h2>Frequently Asked Questions</h2>
 
 <h3>How long must I wait before retaking an apprenticeship test?</h3>
@@ -155,18 +149,6 @@ class RetakeApprenticeshipAptitudeTestBlogSeeder extends Seeder
 <h3>Will my first score affect my second attempt?</h3>
 <p>Usually not, but confirm with your programme.</p>
 
-<h3>Can I retake the NEIEP elevator test?</h3>
-<p>Applicants who fail may reapply in the next or a later recruitment period.</p>
-
-<h3>Can I retake the UA Local 190 exam?</h3>
-<p>Its FAQ says no, you cannot retake the exam, and you must reapply at a later time. Confirm with the training office.</p>
-
-<h3>What should I do differently the second time?</h3>
-<p>Focus on the topics you missed, use the whole waiting period and practise under the real test conditions.</p>
-
-<h3>Can I pay to retake sooner?</h3>
-<p>No. Never pay anyone to skip a waiting period; verify fees with the programme.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>
@@ -178,7 +160,6 @@ class RetakeApprenticeshipAptitudeTestBlogSeeder extends Seeder
     <li><a href="/blog/operating-engineers-apprenticeship-test-preparation-guide">Operating Engineers Apprenticeship Test Prep Guide</a>: IUOE locals</li>
 </ul>
 
-<p style="font-size:14px;color:#6b7280;font-style:italic;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:32px;">This article is a general guide and not legal, financial or immigration advice. Reviewed on 16 October 2026 against official sources. Rules, fees and requirements change, so follow the official instructions for your own case.</p>
 HTML;
     }
 }

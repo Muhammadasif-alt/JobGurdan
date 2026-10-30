@@ -76,7 +76,7 @@ it('carries FAQ markup built from the post body', function () {
     $faqs = app(StructuredDataService::class)
         ->faqsFromHtml(Blog::where('slug', NURSE_SLUG)->value('content'));
 
-    expect($faqs)->toHaveCount(8)
+    expect($faqs)->toHaveCount(4)
         ->and(array_column($faqs, 'question'))->not->toContain('EB-3 nurse green card');
 
     get('/blog/'.NURSE_SLUG)->assertSee('"FAQPage"', false);

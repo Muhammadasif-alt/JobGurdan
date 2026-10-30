@@ -274,18 +274,6 @@ JOBHTML;
 <h3>Can a non-EU citizen get an unskilled factory job at BMW?</h3>
 <p>Realistically no. Both the skilled worker visa and the Opportunity Card require a recognised vocational qualification or degree, so there is no general route for unskilled work.</p>
 
-<h3>What is the Opportunity Card worth to a factory applicant?</h3>
-<p>It lets you job hunt in Germany for up to a year if you score six points, have German at A1 or English at B2, and can show &euro;1,091 a month in funds. It still needs a qualification behind it.</p>
-
-<h3>When do BMW apprenticeship applications open?</h3>
-<p>In the summer of the previous year, on staggered dates by location. For the 2027 intake they ran from 1 June 2026 for Bavarian dual study places through to 1 October for Mannheim.</p>
-
-<h3>How long is a BMW apprenticeship?</h3>
-<p>German apprenticeships typically run two to three and a half years depending on the trade, paid throughout, with an IHK qualification at the end.</p>
-
-<h3>Does BMW pay more than other German manufacturers?</h3>
-<p>BMW is covered by the same metal and electrical collective agreement as its peers, so the framework is common. What differs is the grade you are placed in and plant-level supplements.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at German and European work more widely? These cover it:</p>

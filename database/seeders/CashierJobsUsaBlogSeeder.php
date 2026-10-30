@@ -279,20 +279,8 @@ JOBHTML;
 <h3>How much do cashiers earn in the USA?</h3>
 <p>The BLS median was $15.81 an hour in May 2025. Grocery and home improvement stores pay more than that, and fuel stations less, and your state's minimum wage sets the floor.</p>
 
-<h3>Is $12 an hour legal for a cashier?</h3>
-<p>It depends on the state. It is below the 2026 minimum wage in California ($16.90), New York ($16.00 to $17.00) and Florida ($14.00), but legal in states that use the federal $7.25, such as Texas.</p>
-
-<h3>How much do fast food cashiers make in California?</h3>
-<p>At least $20.00 an hour since 1 April 2024 at limited-service restaurants in national chains with at least 60 establishments. Other restaurants follow the state minimum of $16.90.</p>
-
-<h3>Can my employer take a cash shortage out of my pay?</h3>
-<p>Not if the deduction takes your pay below the minimum wage or cuts overtime you are owed, according to the US Department of Labor. Several states restrict these deductions further.</p>
-
 <h3>Can a 14-year-old work as a cashier?</h3>
 <p>Yes, under federal law, with limits: no more than 3 hours on a school day, 18 hours in a school week, and only between 7 a.m. and 7 p.m. outside summer. States can set stricter rules.</p>
-
-<h3>Are cashier jobs disappearing because of self-checkout?</h3>
-<p>Shrinking, not disappearing. The BLS projects a 6 per cent decline from 2025 to 2035, but about 521,300 openings a year as workers move on.</p>
 
 <h3>Can foreigners get cashier jobs in the USA with visa sponsorship?</h3>
 <p>No. Employers do not sponsor work visas for cashier jobs. You need existing authorization to work in the US, which every employer checks on Form I-9.</p>
