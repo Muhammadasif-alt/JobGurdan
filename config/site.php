@@ -59,7 +59,7 @@ return [
      */
     'team' => [
         ['name' => 'Muhammad Asif', 'role' => 'Founder and Editor', 'photo' => 'public/team/muhammad-asif.jpg', 'bio' => 'Muhammad Asif is the founder and editor of JobGader. He publishes the job listings and guides and looks after the site development. He has worked in Pakistan for three years.'],
-        ['name' => 'Ali Rehman', 'role' => 'Content Writer', 'photo' => null, 'bio' => 'Ali Rehman writes the career guides and researches job listings for JobGader. He has worked in Pakistan for three years.'],
+        ['name' => 'Ali Rehman', 'role' => 'Content Writer', 'photo' => 'public/team/ali-rehman.jpg', 'bio' => 'Ali Rehman writes the career guides and researches job listings for JobGader. He has worked in Pakistan for three years.'],
         ['name' => 'Abdullah Zeheer', 'role' => 'Social Media Manager', 'photo' => null, 'bio' => 'Abdullah Zeheer manages the JobGader posts on LinkedIn, Facebook and Pinterest. He has worked in Pakistan for three years.'],
     ],
 

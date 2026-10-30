@@ -19,6 +19,15 @@ it('no longer prints the standards strip and shows the founder photo', function 
         ->assertSee('public/team/muhammad-asif.jpg', false);
 });
 
+it('shows Ali Rehman with his photo and Abdullah Zeheer with initials', function () {
+    expect(file_exists(public_path('team/ali-rehman.jpg')))->toBeTrue();
+
+    $this->get('/about-us')
+        ->assertOk()
+        ->assertSee('public/team/ali-rehman.jpg', false)
+        ->assertSee('Abdullah Zeheer');
+});
+
 it('explains that JobGader posts verified jobs, does not give jobs and sells CV writing', function () {
     $this->get('/about-us')
         ->assertOk()

@@ -59,7 +59,7 @@ class Blog extends Model
     {
         static::creating(function (Blog $blog) {
             if (! $blog->author_profile_id) {
-                $blog->author_profile_id = Author::default()?->id;
+                $blog->author_profile_id = Author::nextForNewPost()?->id;
             }
         });
     }

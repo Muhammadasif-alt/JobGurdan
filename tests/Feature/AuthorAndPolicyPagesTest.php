@@ -70,6 +70,43 @@ it('gives new posts the default author automatically and lets one command assign
         ->and(Blog::count())->toBe(2);
 });
 
+it('shares the posts between the named authors in turn without touching updated_at', function () {
+    $asif = Author::create(['name' => 'Muhammad Asif', 'slug' => 'muhammad-asif', 'is_default' => true]);
+    $ali = Author::create(['name' => 'Ali Rehman', 'slug' => 'ali-rehman']);
+    $abdullah = Author::create(['name' => 'Abdullah Zeheer', 'slug' => 'abdullah-zeheer']);
+    $posts = collect(range(1, 7))->map(fn () => makePublishedPost(['author_profile_id' => $asif->id]));
+    Blog::query()->toBase()->update(['updated_at' => now()->subYear()]);
+
+    Artisan::call('authors:spread', ['slugs' => ['ali-rehman', 'muhammad-asif', 'abdullah-zeheer'], '--dry-run' => true]);
+    expect(Blog::where('author_profile_id', $asif->id)->count())->toBe(7);
+
+    Artisan::call('authors:spread', ['slugs' => ['ali-rehman', 'muhammad-asif', 'abdullah-zeheer']]);
+
+    expect(Blog::where('author_profile_id', $ali->id)->count())->toBe(3)
+        ->and(Blog::where('author_profile_id', $asif->id)->count())->toBe(2)
+        ->and(Blog::where('author_profile_id', $abdullah->id)->count())->toBe(2)
+        ->and(Blog::whereNull('author_profile_id')->count())->toBe(0)
+        ->and($posts->first()->fresh()->author_name)->toBe('Ali Rehman')
+        ->and($posts->first()->fresh()->updated_at->isToday())->toBeFalse();
+});
+
+it('refuses to spread posts to an author that does not exist', function () {
+    Author::create(['name' => 'Ali Rehman', 'slug' => 'ali-rehman']);
+    $post = makePublishedPost();
+
+    expect(Artisan::call('authors:spread', ['slugs' => ['ali-rehman', 'nobody']]))->toBe(1)
+        ->and($post->fresh()->author_profile_id)->toBe(Author::first()->id);
+});
+
+it('gives a new post to the author with the fewest posts', function () {
+    $asif = Author::create(['name' => 'Muhammad Asif', 'slug' => 'muhammad-asif', 'is_default' => true]);
+    $ali = Author::create(['name' => 'Ali Rehman', 'slug' => 'ali-rehman']);
+
+    expect(makePublishedPost()->author_profile_id)->toBe($asif->id)
+        ->and(makePublishedPost()->author_profile_id)->toBe($ali->id)
+        ->and(makePublishedPost()->author_profile_id)->toBe($asif->id);
+});
+
 it('publishes an editorial policy and a disclaimer and links them in the footer', function () {
     $this->get('/editorial-policy')
         ->assertOk()

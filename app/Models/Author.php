@@ -45,4 +45,18 @@ class Author extends Model
     {
         return static::query()->where('is_default', true)->first();
     }
+
+    /**
+     * The author a new post goes to: whoever has written the fewest posts, so
+     * the byline keeps rotating across the team. Ties go to the default author.
+     */
+    public static function nextForNewPost(): ?self
+    {
+        return static::query()
+            ->withCount('blogs')
+            ->orderBy('blogs_count')
+            ->orderByDesc('is_default')
+            ->orderBy('id')
+            ->first();
+    }
 }
