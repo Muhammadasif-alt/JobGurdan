@@ -344,32 +344,6 @@ JOBHTML;
 <h3>How do I check a UAE job offer is real?</h3>
 <p>A genuine offer is issued by MOHRE. Verify it by reference number through the application-status service on the MOHRE website, and check the company in the National Economic Register.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Velora careers Abu Dhabi</h3>
-<p>The careers site of the company that runs ground handling at Zayed International Airport, with categories for Ground Service, Cargo Services and Security Services.</p>
-
-<h3>Zayed International Airport jobs</h3>
-<p>Three separate employers operate there: Velora for ground handling, Abu Dhabi Airports for the airport itself, and Etihad Airways for airline roles.</p>
-
-<h3>Etihad careers official site</h3>
-<p>careers.etihad.com, with vacancies listed on SmartRecruiters. The older etihad.com careers address no longer resolves.</p>
-
-<h3>Etihad cabin crew requirements</h3>
-<p>Minimum age 21 at application, minimum height 163 cm, fluent written and spoken English, and Grade 12 or equivalent. These are cabin crew rules, not airport rules.</p>
-
-<h3>UAE minimum wage 2026</h3>
-<p>There is none. UAE Labour Law sets no minimum salary, requiring only that wages meet an employee's basic needs.</p>
-
-<h3>UAE end of service gratuity calculation</h3>
-<p>After one year of service, 21 days' basic wage for each of the first five years and 30 days a year after that, capped at two years' wage.</p>
-
-<h3>MOHRE complaint number</h3>
-<p>80084 toll free inside the UAE for labour claims, or 009716-802-7666 for jobseekers contacting from outside the country.</p>
-
-<h3>UAE recruitment fee law</h3>
-<p>Article 6(4) of Federal Decree-Law No. 33 of 2021, which forbids an employer from charging or collecting recruitment costs from a worker, directly or indirectly.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at the Gulf more broadly, or at the airline side rather than the ground? These cover it:</p>

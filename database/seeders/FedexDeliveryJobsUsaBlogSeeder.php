@@ -365,32 +365,6 @@ JOBHTML;
 <h3>Is FedEx Freight still part of FedEx?</h3>
 <p>No. FedEx completed the spin-off on 1 June 2026, establishing FedEx Freight as an independent, publicly traded company on the New York Stock Exchange under the ticker FDXF, with FedEx retaining 19.9% of the shares. It recruits through its own careers site.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>FedEx courier pay per hour</h3>
-<p>A Courier/DOT posting in Phoenix, Arizona showed $22.10 an hour in September 2026. FedEx publishes the rate on the advert itself.</p>
-
-<h3>FedEx package handler hours</h3>
-<p>Generally three to six hours a day for part-time staff, varying with package volume; casual handlers work up to 24 hours a week.</p>
-
-<h3>FedEx Ground contractor requirements</h3>
-<p>FedEx contracts only with businesses established under state law as for-profit corporations, not with LLCs, sole proprietorships or partnerships.</p>
-
-<h3>FedEx tuition reimbursement amount</h3>
-<p>$5,250 a year with no lifetime cap, available from the first day of employment according to FedEx's own postings.</p>
-
-<h3>FedEx driver age requirement 21</h3>
-<p>Courier/DOT roles require you to be 21 with three years of licensed driving, under section 391 of the Federal Motor Carrier Safety Regulations.</p>
-
-<h3>FedEx open driver jobs count</h3>
-<p>The driver search on FedEx Careers showed 1,073 results across all countries in September 2026. The figure moves daily and excludes contractor vacancies entirely.</p>
-
-<h3>Delivery truck driver median pay USA</h3>
-<p>$21.13 an hour, or $43,950 a year, per Bureau of Labor Statistics 2025 data across 1,511,400 jobs.</p>
-
-<h3>FedEx job scam warning</h3>
-<p>FedEx never charges candidates at any stage, including training, visa processing or background checks. Any request for payment is fraud.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing US delivery and warehouse employers? These cover the rest of the market:</p>

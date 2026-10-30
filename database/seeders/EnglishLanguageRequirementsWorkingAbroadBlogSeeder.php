@@ -163,32 +163,6 @@ class EnglishLanguageRequirementsWorkingAbroadBlogSeeder extends Seeder
 <h3>Should I use old score tables?</h3>
 <p>No. Check the current official page before you book.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>English requirement for working abroad</h3>
-<p>Set by the visa route, employer and regulator.</p>
-
-<h3>IELTS for work visa</h3>
-<p>Needed only where the route accepts or asks for it.</p>
-
-<h3>Do you need English to work overseas</h3>
-<p>Often for the job, not always for the visa.</p>
-
-<h3>Language test for work visa</h3>
-<p>Use only an approved provider.</p>
-
-<h3>UK Skilled Worker English B2</h3>
-<p>Level B2, B1 for some extensions.</p>
-
-<h3>New Zealand AEWV English</h3>
-<p>Skill level 3 to 5 jobs.</p>
-
-<h3>Express Entry language test</h3>
-<p>Separate approved tests.</p>
-
-<h3>NMC English requirements</h3>
-<p>Published by the regulator.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

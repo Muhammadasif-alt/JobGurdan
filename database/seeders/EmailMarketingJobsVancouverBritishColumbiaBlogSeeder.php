@@ -170,34 +170,6 @@ class EmailMarketingJobsVancouverBritishColumbiaBlogSeeder extends Seeder
 <h3>Is lifecycle marketing the same as email marketing?</h3>
 <p>They overlap. Lifecycle marketing looks at the whole customer journey and may include text and app messages as well as email.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Email marketing jobs Vancouver</h3>
-<p>Search several titles and compare duties, experience and working arrangements.</p>
-
-<h3>Lifecycle marketing jobs Vancouver</h3>
-<p>These roles often cover email, text and app messages across the customer journey.</p>
-
-<h3>CRM marketing jobs British Columbia</h3>
-<p>CRM roles use customer data to decide who receives which message.</p>
-
-<h3>Email marketing specialist Vancouver BC</h3>
-<p>Check whether the job is about writing, building campaigns or analysing results.</p>
-
-<h3>Email marketing coordinator entry level</h3>
-<p>Coordinator and assistant roles are the usual way in for beginners.</p>
-
-<h3>CASL email rules</h3>
-<p>The Government of Canada explains consent, identification and unsubscribe rules for commercial email.</p>
-
-<h3>Email marketing portfolio examples</h3>
-<p>A welcome sequence, a campaign calendar and a sample results report show your decisions.</p>
-
-<h3>Marketing wages Vancouver Job Bank</h3>
-<p>Job Bank lists regional hourly wages for NOC 11202 and shows the reference period.</p>
-
-
-
 <h2>Bottom Line</h2>
 
 <p>Match your search to your experience, show clear decisions in a small portfolio, learn the consent rules that apply to email in Canada and check the working arrangement before you accept. Official wage data is context, not a promise, and no guide can guarantee a vacancy or an interview.</p>

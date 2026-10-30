@@ -158,32 +158,6 @@ class FrontEndDeveloperJobsManchesterEnglandBlogSeeder extends Seeder
 <h3>Do I need to live in Manchester?</h3>
 <p>Check each advert. Some roles are hybrid with set office days, and a remote label may still have location limits.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Front end developer jobs Manchester</h3>
-<p>Search junior, trainee and graduate titles and check each role's technology and workplace.</p>
-
-<h3>Junior frontend developer Manchester</h3>
-<p>Show HTML, CSS and JavaScript projects you can explain.</p>
-
-<h3>Beginner web developer jobs England</h3>
-<p>Look at junior roles, apprenticeships and trainee schemes.</p>
-
-<h3>Frontend apprenticeships Manchester</h3>
-<p>Use Find an apprenticeship and read each entry requirement.</p>
-
-<h3>Web developer salary UK</h3>
-<p>The National Careers Service gives £27,000 for starters up to £60,000 for experienced workers.</p>
-
-<h3>How to become a web developer</h3>
-<p>The National Careers Service lists university, college, apprenticeship and working-up routes.</p>
-
-<h3>Learn HTML CSS JavaScript free</h3>
-<p>MDN's Learn web development curriculum is free and structured.</p>
-
-<h3>Frontend developer portfolio</h3>
-<p>Build a responsive site, an interactive app and an improved personal project.</p>
-
 <h2>A Note for Applicants in Pakistan</h2>
 
 <p>You need the right to work in the United Kingdom before you can take a job there, and an advertised developer role does not sponsor a visa on its own. Never pay an agent for an interview or a "guaranteed" offer, and read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you send money or documents.</p>

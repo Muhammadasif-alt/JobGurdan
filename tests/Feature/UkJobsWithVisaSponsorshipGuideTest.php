@@ -35,17 +35,15 @@ it('publishes the guide with its own images and SEO fields', function () {
     expect(count(array_filter(array_map('trim', explode(',', $blog->tags)))))->toBe(8);
 });
 
-it('carries exactly eight FAQs and eight People Also Search For entries', function () {
+it('carries exactly eight FAQs and no People Also Search For block', function () {
     $this->seed(UkJobsWithVisaSponsorshipBlogSeeder::class);
 
     $content = Blog::where('slug', UK_SPONSORSHIP_SLUG)->value('content');
 
     expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(8);
 
-    $pasf = substr($content, (int) strpos($content, 'People Also Search For'));
-    $pasf = substr($pasf, 0, (int) strpos($pasf, '<h2>More Job Guides'));
 
-    expect(substr_count($pasf, '<h3>'))->toBe(8);
+    expect(substr_count($content, 'People Also Search For'))->toBe(0);
 });
 
 it('states the sponsorship mechanics the draft left vague', function (string $claim) {
@@ -114,7 +112,7 @@ it('renders the page with its long-tail sections', function () {
     get('/blog/'.UK_SPONSORSHIP_SLUG)
         ->assertOk()
         ->assertSee('UK Jobs with Visa Sponsorship')
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('"FAQPage"', false);
 });
 

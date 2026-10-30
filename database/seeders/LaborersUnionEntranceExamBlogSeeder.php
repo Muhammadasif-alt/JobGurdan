@@ -148,32 +148,6 @@ class LaborersUnionEntranceExamBlogSeeder extends Seeder
 <h3>Where do I find my local?</h3>
 <p>Start at liuna.org or the LiUNA Training and Education Fund training centre finder.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Laborers union entrance exam</h3>
-<p>Set by the local.</p>
-
-<h3>LiUNA apprenticeship</h3>
-<p>Find your local.</p>
-
-<h3>LiUNA aptitude test</h3>
-<p>Not in every programme.</p>
-
-<h3>Laborers apprenticeship requirements</h3>
-<p>Age, licence, drug test.</p>
-
-<h3>Construction craft laborer apprenticeship</h3>
-<p>4,000 plus 400 hours in NJ.</p>
-
-<h3>How to join laborers union</h3>
-<p>Apply to your local.</p>
-
-<h3>LiUNA drug test</h3>
-<p>Common requirement.</p>
-
-<h3>Laborers union test prep</h3>
-<p>Maths, reading, mechanics.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

@@ -343,32 +343,6 @@ JOBHTML;
 <h3>How many Marriott hotels are there in the US?</h3>
 <p>Marriott reports 6,360 properties with 1,065,108 rooms in the United States and Canada, part of 9,805 properties across 145 countries and territories under more than 30 brands.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Marriott careers front desk</h3>
-<p>Posted as Guest Experience Expert at Marriott-managed hotels; asks for a high school diploma and no related work experience.</p>
-
-<h3>Marriott housekeeping requirements</h3>
-<p>No diploma and no related work experience, but the ability to push a loaded housekeeping cart over sloping and uneven surfaces.</p>
-
-<h3>Marriott Explore rate eligibility</h3>
-<p>Open to Marriott associates at hotels and locations managed by Marriott, plus eligible immediate family. Not a franchised-hotel entitlement.</p>
-
-<h3>Marriott franchised vs managed hotels</h3>
-<p>7,644 franchised, licensed or other properties against 2,017 company-operated ones at year-end 2025.</p>
-
-<h3>Hotel front desk salary USA</h3>
-<p>The BLS median for hotel, motel and resort desk clerks is $16.86 an hour, or $35,070 a year, as of May 2025.</p>
-
-<h3>Housekeeping salary USA</h3>
-<p>The BLS median for maids and housekeeping cleaners is $17.07 an hour, or $35,510 a year, across 860,670 workers.</p>
-
-<h3>Marriott 401k match</h3>
-<p>Marriott states it matches 100% of your 401(k) contributions up to 5% of your weekly pay, for its own associates.</p>
-
-<h3>Guest Experience Expert meaning</h3>
-<p>Marriott's brand title for the front desk and guest services role at hotels it manages, covering check-in, requests and problem solving.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at US entry-level work more widely? These cover it:</p>

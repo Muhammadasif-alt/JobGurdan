@@ -268,35 +268,6 @@ JOBHTML;
 <h3>Where's the fastest way to find an immediate-start cleaning job?</h3>
 <p>Job boards filtered by "immediate start," and registering directly with a cleaning agency, are typically the two fastest routes since agencies often have same-week placements available.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Cleaning jobs in London no experience</h3>
-<p>Office, hotel, retail and school cleaning roles rarely require prior experience. Employers look for reliability, attention to detail and a reference; training is given on the job.</p>
-
-<h3>Cleaner jobs London part time</h3>
-<p>Early morning and evening shifts of 2&ndash;4 hours a day are the most common part-time patterns, mainly in office and retail cleaning contracts.</p>
-
-<h3>Cleaner jobs London immediate start</h3>
-<p>Registering with a cleaning agency is usually the fastest route: many hold same-week placements. Filtering job boards by "immediate start" is the other quick option.</p>
-
-<h3>Cleaner jobs London cash in hand</h3>
-<p>Cash payment is not automatically illegal, but the income must still be declared for tax and National Insurance. Fully undeclared work leaves you with no employment protections and real tax risk.</p>
-
-<h3>Cleaner jobs London visa sponsorship</h3>
-<p>Standard cleaning roles sit below the Skilled Worker visa's RQF Level 6 threshold, so they cannot be sponsored. The Youth Mobility Scheme, or any existing right to work, is the realistic route.</p>
-
-<h3>How much do cleaners get paid in London</h3>
-<p>From the &pound;12.71 National Living Wage to around &pound;16 an hour employed, at least &pound;24,784.50 a year full-time, and &pound;20&ndash;&pound;30 an hour for booked domestic cleans before the agency's cut.</p>
-
-<h3>Self employed cleaner jobs London</h3>
-<p>Higher hourly rates but you register with HMRC and handle your own tax, National Insurance, insurance and bookings. Domestic sessions in London commonly bill at &pound;22&ndash;&pound;26 an hour.</p>
-
-<h3>Airbnb and end of tenancy cleaner jobs London</h3>
-<p>Short-let turnovers pay per clean rather than per hour, so earnings depend on how many properties you cover in a day. End-of-tenancy and deep cleans pay above routine maintenance work.</p>
-
-<h3>Office cleaner jobs London evening</h3>
-<p>The highest-volume postings in the city: commercial buildings need cleaning before staff arrive or after close, so early morning and evening slots dominate.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other sectors or countries? These guides cover the routes we track:</p>

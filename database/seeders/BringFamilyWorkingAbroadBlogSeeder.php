@@ -173,32 +173,6 @@ class BringFamilyWorkingAbroadBlogSeeder extends Seeder
 <h3>What if my job ends?</h3>
 <p>Dependants usually depend on your status, so check what changes before you move.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Bring family while working abroad</h3>
-<p>Depends on the route.</p>
-
-<h3>Dependent visa for spouse</h3>
-<p>Separate application.</p>
-
-<h3>Family visa work permit</h3>
-<p>Joining and working differ.</p>
-
-<h3>Can spouse join on work visa</h3>
-<p>Often yes, check the route.</p>
-
-<h3>UK Skilled Worker dependants</h3>
-<p>Care workers are restricted.</p>
-
-<h3>Singapore Dependant's Pass</h3>
-<p>For EP and S Pass families.</p>
-
-<h3>New Zealand partner work visa</h3>
-<p>Needs an eligible worker visa.</p>
-
-<h3>Family relocation costs abroad</h3>
-<p>Budget before you accept.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

@@ -353,32 +353,6 @@ JOBHTML;
 <h3>Can I do online data entry from anywhere?</h3>
 <p>Many roles are fully remote, but pay, taxes and eligibility depend on the employer and your country. Confirm you can be hired and paid where you live before you start.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Remote data entry jobs</h3>
-<p>The same work framed as remote employment; check whether a listing is employee or freelance before comparing pay.</p>
-
-<h3>Work from home data entry</h3>
-<p>Accessible and flexible, but low-paid and shrinking; treat it as a bridge, not a destination.</p>
-
-<h3>Data entry jobs from home no experience</h3>
-<p>Open with a high school diploma and decent typing; the barrier to entry is low, which is exactly why scammers target it.</p>
-
-<h3>Online transcription jobs</h3>
-<p>Paid per audio minute from about $0.10 to $1.10; real hourly pay is far lower once editing time is counted.</p>
-
-<h3>Data entry salary</h3>
-<p>BLS median $41,340 a year; 10th percentile $15.00 an hour, 90th $28.26.</p>
-
-<h3>Legitimate online jobs no fees</h3>
-<p>Any job that charges you to start is a scam; legitimate employers never ask candidates to pay.</p>
-
-<h3>Data entry scams</h3>
-<p>Watch for upfront fees, fake cheques, reshipping and requests to move money; report them to the FTC.</p>
-
-<h3>Data entry to data analyst</h3>
-<p>The best progression: add spreadsheets, SQL and analytics to move into a role automation is not erasing.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing remote and entry-level options? These cover the detail:</p>

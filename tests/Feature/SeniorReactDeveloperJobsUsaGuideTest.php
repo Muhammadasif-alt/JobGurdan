@@ -50,15 +50,13 @@ it('ships every image it references', function () {
     expect($blog->content)->not->toContain('.png');
 });
 
-it('carries eight FAQs and eight People Also Search For entries', function () {
+it('carries eight FAQs and no People Also Search For block', function () {
     $content = Blog::where('slug', SENIOR_REACT_SLUG)->value('content');
 
     expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(8);
 
-    $tail = substr($content, strpos($content, 'People Also Search For'));
-    $tail = substr($tail, 0, strpos($tail, 'Related career guides'));
 
-    expect(substr_count($tail, '<h3>'))->toBe(8);
+    expect(substr_count($content, 'People Also Search For'))->toBe(0);
 
     $this->get('/blog/'.SENIOR_REACT_SLUG)->assertOk()->assertSee('"FAQPage"', false);
 });

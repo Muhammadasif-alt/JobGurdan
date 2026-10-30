@@ -336,32 +336,6 @@ JOBHTML;
 <h3>Can early childhood educators immigrate to Canada through Express Entry?</h3>
 <p>Early childhood educators and assistants (NOC 42202) are in the Express Entry education category, which needs at least 12 months of full-time experience in the occupation within the past three years.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Early childhood educator jobs Canada</h3>
-<p>The job title most Canadian preschools and child care centres advertise under.</p>
-
-<h3>RECE jobs Ontario</h3>
-<p>Registered early childhood educator roles that need College of ECE membership.</p>
-
-<h3>ECE assistant jobs</h3>
-<p>Support roles needing secondary school and child care experience.</p>
-
-<h3>ECE salary in Canada</h3>
-<p>A national median of $22.30 an hour on Job Bank, with provincial top-ups.</p>
-
-<h3>ECE certification BC</h3>
-<p>ECE Assistant, One Year and Five Year certificates from the ECE Registry.</p>
-
-<h3>Alberta ECE Level 3</h3>
-<p>Certification that needs a two-year diploma and carries an $8.62 hourly top-up.</p>
-
-<h3>NOC 42202</h3>
-<p>Early childhood educators and assistants, a TEER 2 occupation.</p>
-
-<h3>Daycare jobs in Canada for foreigners</h3>
-<p>Possible once your credential is recognised and you hold a valid work permit.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Planning a career with children or a move to Canada? These cover it:</p>

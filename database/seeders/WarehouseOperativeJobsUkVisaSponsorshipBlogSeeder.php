@@ -176,32 +176,6 @@ class WarehouseOperativeJobsUkVisaSponsorshipBlogSeeder extends Seeder
 <h3>Should I pay an agent for a UK warehouse visa?</h3>
 <p>No. A job that cannot be sponsored cannot be sold to you legitimately. Treat any paid offer as a scam.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Warehouse jobs UK visa sponsorship</h3>
-<p>Generally not available for warehouse operatives.</p>
-
-<h3>Warehouse operative Skilled Worker visa</h3>
-<p>The role is below the degree-level requirement.</p>
-
-<h3>UK low skilled work visa</h3>
-<p>There is no general route.</p>
-
-<h3>Warehouse operative salary UK</h3>
-<p>At least £12.71 an hour from April 2026.</p>
-
-<h3>UK warehouse job from Pakistan</h3>
-<p>Only with an existing right to work.</p>
-
-<h3>UK visa sponsorship scams</h3>
-<p>Any fee for sponsorship is a warning sign.</p>
-
-<h3>Register of Licensed Sponsors</h3>
-<p>The official GOV.UK list of employers that can sponsor.</p>
-
-<h3>Warehouse jobs in USA with visa sponsorship</h3>
-<p>The US has a different, seasonal route covered in our guide.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

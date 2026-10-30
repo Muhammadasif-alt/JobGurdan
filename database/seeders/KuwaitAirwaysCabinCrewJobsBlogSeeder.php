@@ -297,32 +297,6 @@ JOBHTML;
 <h3>Is there a Kuwaitisation quota for airlines?</h3>
 <p>Kuwait's Public Authority of Manpower publishes national-workforce percentages by sector, and no aviation or airline category appears in that published table.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Kuwait Airways careers login</h3>
-<p>Candidate accounts are created on the recruitment portal at careers.kuwaitairways.com, not on the main airline website.</p>
-
-<h3>Kuwait Airways cabin crew recruitment 2026</h3>
-<p>Campaigns are announced through the careers portal and the airline's verified social accounts. There is no fixed annual recruitment calendar published.</p>
-
-<h3>Kuwait Airways cabin crew salary in KD</h3>
-<p>Not published by the airline. Figures quoted in Kuwaiti dinar come from estimate sites rather than from Kuwait Airways.</p>
-
-<h3>Kuwait Airways cabin crew height requirement</h3>
-<p>A minimum of 160 cm has appeared for female applicants in the airline's own postings.</p>
-
-<h3>Kuwait Airways jobs for freshers</h3>
-<p>Cabin crew postings have asked for 12 years of schooling and strong English rather than prior aviation experience, so freshers are within scope when a campaign is open.</p>
-
-<h3>Kuwait work visa process</h3>
-<p>Employer-led. The employer files the work permit, and the residency is then processed against that employer once you arrive.</p>
-
-<h3>Kuwait Airways fake job offer</h3>
-<p>Kuwaiti media reported in April 2025 that the airline denied job advertisements circulating on social media and said it had taken legal action. Apply only through the portal.</p>
-
-<h3>Cabin crew jobs in Gulf airlines</h3>
-<p>Emirates publishes pay and runs regular worldwide Open Days; Oman Air publishes neither pay nor standing requirements. The Gulf carriers differ more than they look.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing Gulf carriers and routes? These cover them:</p>

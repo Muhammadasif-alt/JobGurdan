@@ -246,26 +246,6 @@ JOBHTML;
 <h3>Why does an SEO role ask for design skills?</h3>
 <p>Urban Solar wants one person who can both move rankings and produce the visuals those campaigns need: banners, product images and landing page creatives in Canva, plus AI image tools like Midjourney, DALL&middot;E or Adobe Firefly.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>SEO jobs in Pakistan remote</h3>
-<p>Fully remote SEO roles are increasingly common with Pakistani companies serving local and international clients, usually asking for on-page, off-page and technical SEO in one person.</p>
-
-<h3>Digital marketing salary in Pakistan per month</h3>
-<p>Mid-level digital marketing and SEO roles with three to four years of experience commonly advertise in the Rs 80,000&ndash;Rs 120,000 a month range, rising with proven results and specialist skills.</p>
-
-<h3>SEO specialist job description</h3>
-<p>On-page optimization, backlink building and outreach, technical audits covering crawlability, sitemaps, schema and Core Web Vitals, keyword and competitor research, and reporting through Google Analytics and Search Console.</p>
-
-<h3>Technical SEO jobs Pakistan</h3>
-<p>Employers increasingly ask for Core Web Vitals, schema markup, robots.txt and indexing experience alongside basic HTML/CSS, so fixes do not always need a developer.</p>
-
-<h3>Digital marketing jobs with Canva and AI tools</h3>
-<p>A growing number of listings pair SEO with hands-on creative work in Canva plus AI image generation (Midjourney, DALL&middot;E, Adobe Firefly), looking for one hire who can plan and execute campaigns.</p>
-
-<h3>Urban Solar Pvt Ltd jobs and reviews</h3>
-<p>Urban Solar Pvt Ltd. is rated 3.0 out of 5 on Indeed and is hiring remotely across Pakistan for this full-time digital marketing role.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other roles or countries? These guides cover the rest of what we track:</p>

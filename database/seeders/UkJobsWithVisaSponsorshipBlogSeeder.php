@@ -336,32 +336,6 @@ JOBHTML;
 <h3>Can a UK employer charge me for sponsorship?</h3>
 <p>No. There is no lawful payment from a worker to an employer or agent for a sponsor licence, a Certificate of Sponsorship or the Immigration Skills Charge. A request for one is a scam.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Skilled Worker visa jobs UK</h3>
-<p>The main sponsored route; eligibility runs from the SOC 2020 occupation code, not the job title.</p>
-
-<h3>Register of licensed sponsors</h3>
-<p>A Home Office list of organisations and routes, with A or B ratings. It carries no vacancies.</p>
-
-<h3>Certificate of Sponsorship</h3>
-<p>An electronic record with a reference number. The visa application must follow within three months.</p>
-
-<h3>Immigration Skills Charge</h3>
-<p>£1,320 or £480 per 12 months, paid by the sponsor and never by the worker.</p>
-
-<h3>Immigration Salary List</h3>
-<p>Lowers the floor to £33,400 and 80 per cent of the going rate for listed occupations.</p>
-
-<h3>Temporary Shortage List</h3>
-<p>The only route by which a medium-skilled occupation code can currently be sponsored.</p>
-
-<h3>Skilled Worker salary threshold 2026</h3>
-<p>£41,700 or the going rate, with no London weighting anywhere in the calculation.</p>
-
-<h3>UK sponsor licence check</h3>
-<p>Search the register by legal entity name and confirm the route and rating, not the brand.</p>
-
 <h2>More Job Guides</h2>
 
 <p>These pick up where this one stops:</p>

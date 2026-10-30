@@ -300,32 +300,6 @@ JOBHTML;
 <h3>Can Walmart associates become managers?</h3>
 <p>Walmart says approximately 75% of its salaried store, club and supply chain leaders began as hourly associates, with a published store manager base range of $95,000 to $170,000.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Walmart starting pay 2026</h3>
-<p>A $14 an hour floor in Walmart stores and $16 at Sam's Club, with an average above $18.50.</p>
-
-<h3>Walmart 401k match</h3>
-<p>Dollar for dollar on your contributions, up to 6% of eligible pay.</p>
-
-<h3>Live Better U eligibility</h3>
-<p>Available from day one, covering tuition, fees and books, excluding those who already hold a bachelor's degree.</p>
-
-<h3>Walmart overnight stocker pay</h3>
-<p>Within the Team Associate range, with stockers and order fillers earning a BLS median of $17.95 an hour across the industry.</p>
-
-<h3>Walmart store manager salary</h3>
-<p>A published base range of $95,000 to $170,000 a year, before bonus and stock.</p>
-
-<h3>Sam's Club jobs pay</h3>
-<p>A published range of $16 to $37 an hour.</p>
-
-<h3>Working at Walmart at 16</h3>
-<p>Walmart does not publish a 16 minimum and its postings state 18; federal law permits retail work from 14 with strict hour limits.</p>
-
-<h3>Walmart application assessment</h3>
-<p>Part of the online application for some roles, after a form that takes about 20 to 25 minutes.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing retail employers and roles? These cover them:</p>

@@ -400,19 +400,6 @@ JOBHTML;
 <h3>Does SAP sponsor visas for consultants in Germany?</h3>
 <p>It does not say so anywhere. Zero of 271 live German postings mention a visa, sponsorship or a work permit, and only one mentions relocation support: a Berlin engineering role, not a consulting one. This is not a rejection: under German law you apply for the Blue Card yourself on the strength of the offer and the salary, so no employer petition is needed.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li>EU Blue Card Germany salary 2026</li>
-    <li>Blue Card IT specialist without degree</li>
-    <li>Opportunity Card Germany points calculator</li>
-    <li>SAP careers Walldorf vacancies</li>
-    <li>Germany work visa from Pakistan requirements</li>
-    <li>anabin check Pakistani university</li>
-    <li>SAP consultant salary Germany net</li>
-    <li>Niederlassungserlaubnis after Blue Card</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

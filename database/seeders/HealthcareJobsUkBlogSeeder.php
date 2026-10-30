@@ -289,32 +289,6 @@ JOBHTML;
 <h3>Can a support role lead to a registered clinical career?</h3>
 <p>Yes. Trainee nursing associate and registered nurse degree apprenticeship routes take existing support staff into registered practice while they continue earning. It is one of the strongest reasons to take an entry-level NHS post.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Healthcare jobs in UK for foreigners</h3>
-<p>Registered clinical roles remain sponsorable. Care worker roles closed to overseas applicants in July 2025, and healthcare assistant roles can only be sponsored at Band 3 or higher.</p>
-
-<h3>Healthcare jobs in UK with visa sponsorship</h3>
-<p>Nurses, midwives, doctors and allied health professionals, where professional registration rather than the visa is the limiting step.</p>
-
-<h3>NHS healthcare jobs in UK</h3>
-<p>Advertised by individual trusts and applied for through TRAC, with pay set nationally under Agenda for Change bands.</p>
-
-<h3>TRAC jobs NHS</h3>
-<p>The recruitment system behind most NHS vacancies. One profile, repeated applications, and shortlisting scored against the person specification.</p>
-
-<h3>TRAC jobs NHS healthcare assistant</h3>
-<p>Among the most frequently advertised NHS roles, needing no prior degree: open to candidates who already hold the right to work in the UK.</p>
-
-<h3>Health care jobs in UK salary</h3>
-<p>Around &pound;24,000 to &pound;26,000 for entry support roles, from about &pound;31,000 for a newly registered Band 5 nurse, with enhancements for unsocial hours on top.</p>
-
-<h3>Highest paying jobs in healthcare UK</h3>
-<p>Consultants, senior and specialist nurses, and advanced practitioners, reached through registration and years of practice rather than by moving employer.</p>
-
-<h3>NHS pay bands explained</h3>
-<p>Agenda for Change sets pay nationally by band, so the same band pays the same at every English trust, adjusted for the high cost area supplement.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at care roles or other destinations? These cover them:</p>

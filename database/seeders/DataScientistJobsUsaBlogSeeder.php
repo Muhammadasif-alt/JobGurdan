@@ -307,32 +307,6 @@ JOBHTML;
 <h3>Can I get H-1B sponsorship as a data scientist?</h3>
 <p>It is one of the better-placed occupations for it, and larger technology, finance and pharmaceutical employers do sponsor. The route runs through an annual lottery rather than on merit, and government or defence work is often clearance-gated, which requires citizenship.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Data scientist salary USA</h3>
-<p>A federal median of $112,590, against a job board average of $131,121 that measures advertisements rather than wages.</p>
-
-<h3>Entry level data scientist jobs</h3>
-<p>Search both "junior" and "entry-level": the two titles reach different employers and are reported $21,997 apart.</p>
-
-<h3>Remote data scientist jobs</h3>
-<p>Common past entry level, scarcer at the start, where sitting near a team is most of the learning.</p>
-
-<h3>Machine learning engineer jobs</h3>
-<p>The production half of the field, closer to software engineering than to statistics.</p>
-
-<h3>Data scientist vs data analyst</h3>
-<p>Analyst work is SQL, BI and reporting, and is the most common genuine route into modelling roles.</p>
-
-<h3>Senior data scientist salary</h3>
-<p>Reported around $159,664, with principal roles around $180,879: base salary, not total compensation.</p>
-
-<h3>Data science job growth 2034</h3>
-<p>34 per cent projected growth and about 23,400 openings a year over the decade to 2034.</p>
-
-<h3>Data scientist jobs with visa sponsorship</h3>
-<p>Genuinely available at larger employers through H-1B, subject to an annual lottery. Clearance-gated roles need citizenship.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing technical career paths? These cover them:</p>

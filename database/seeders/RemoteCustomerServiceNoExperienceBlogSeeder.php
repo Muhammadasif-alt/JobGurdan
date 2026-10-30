@@ -334,32 +334,6 @@ JOBHTML;
 <h3>How do I spot a work-from-home job scam?</h3>
 <p>The FTC says honest employers never ask you to pay to get a job, never send a cheque for you to deposit and forward part of, and a request for personal details "for payroll" before a real offer can lead to identity theft.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Work from home customer service jobs no experience</h3>
-<p>Possible, but many large remote employers ask for six to twelve months of experience.</p>
-
-<h3>TTEC work from home pay</h3>
-<p>$13.00 to $16.35 an hour base in the remote posting we checked.</p>
-
-<h3>Concentrix work from home pay</h3>
-<p>$15 to $18.31 an hour in the remote postings we checked.</p>
-
-<h3>Customer service representative salary</h3>
-<p>A BLS median of $21.53 an hour, or $44,770 a year, in May 2025.</p>
-
-<h3>Amazon remote customer service jobs</h3>
-<p>Amazon advertises remote Customer Service Associate roles and may run an internet speed test.</p>
-
-<h3>Entry level remote jobs</h3>
-<p>Customer service is one of the few with no degree requirement and short on-the-job training.</p>
-
-<h3>Is customer service a dying job</h3>
-<p>The BLS projects a 5 percent decline by 2035, with about 289,500 openings a year.</p>
-
-<h3>Work from home job scams</h3>
-<p>Never pay for training, equipment or a starter kit, and never forward money from a cheque.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other remote or entry-level routes? These cover them:</p>

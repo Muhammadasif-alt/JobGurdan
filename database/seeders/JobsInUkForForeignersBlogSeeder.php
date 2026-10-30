@@ -315,32 +315,6 @@ JOBHTML;
 <h3>How do I know if a UK employer can sponsor me?</h3>
 <p>Search the register of licensed sponsors on gov.uk, then confirm the job's occupation code is eligible for the route.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>UK visa sponsorship jobs</h3>
-<p>Roles with licensed sponsors that meet the skill and salary rules.</p>
-
-<h3>Skilled Worker visa salary threshold 2026</h3>
-<p>£41,700 or the going rate, whichever is higher.</p>
-
-<h3>Immigration Salary List</h3>
-<p>The replacement for the shortage occupation list, expiring 31 December 2026.</p>
-
-<h3>Temporary Shortage List</h3>
-<p>Keeps some medium-skilled jobs sponsorable until 31 December 2026.</p>
-
-<h3>Care worker visa UK closed</h3>
-<p>Closed to new overseas applicants since 22 July 2025.</p>
-
-<h3>Graduate visa 18 months</h3>
-<p>Applies to applications made on or after 1 January 2027.</p>
-
-<h3>Youth Mobility Scheme countries</h3>
-<p>Ten countries plus Hong Kong and Taiwan by ballot.</p>
-
-<h3>Register of licensed sponsors</h3>
-<p>The gov.uk list of employers allowed to sponsor workers.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at a specific UK job? These cover the sponsorship detail:</p>

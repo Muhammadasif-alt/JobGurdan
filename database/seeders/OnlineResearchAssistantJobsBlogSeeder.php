@@ -382,19 +382,6 @@ JOBHTML;
 <h3>Should I ever pay for training, software or a background check to start a job?</h3>
 <p>No. The FTC's wording is unconditional: never pay anyone to get paid, or to get a job. A genuine employer buys its own tools and pays for its own checks. This includes requests framed as refundable deposits, registration fees, or buying a subscription to a research tool before your first shift.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li>Online research assistant jobs in Pakistan</li>
-    <li>Research assistant salary Pakistan per month</li>
-    <li>Work from home research jobs without investment</li>
-    <li>How to spot a fake job posting</li>
-    <li>Clinical research assistant jobs Islamabad</li>
-    <li>Market research jobs for freshers in Pakistan</li>
-    <li>Is online research assistant job real or fake</li>
-    <li>Remote research jobs that pay in dollars</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

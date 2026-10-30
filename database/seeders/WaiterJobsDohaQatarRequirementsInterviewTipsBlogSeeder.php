@@ -22,7 +22,7 @@ use Illuminate\Database\Seeder;
  *    wage (Law No. 17 of 2020: QAR 1,000 basic, plus at least QAR 300 food and QAR 500 housing unless provided) and the
  *    NOC change (Law No. 19 of 2020, adopted 30 August 2020; notice under Law No. 18 of 2020 of one month for two years'
  *    service or less, two months above) are taken from the ILO, which was fetched.
- * 4. FAQs expanded to eight; eight People Also Search For entries and a note for readers in Pakistan added.
+ * 4. FAQs expanded to eight and a note for readers in Pakistan added.
  *
  * Posters are the owner's (blog-355, 28 Oct 11.12 and 11.13 PM). The portal listing is in GuideJobListingsSeeder.
  * updateOrCreate, so re-running is safe.
@@ -167,32 +167,6 @@ class WaiterJobsDohaQatarRequirementsInterviewTipsBlogSeeder extends Seeder
 
 <h3>Do nationality or gender decide eligibility?</h3>
 <p>No. Each role's requirements and the visa process apply individually.</p>
-
-<h2>People Also Search For</h2>
-
-<h3>Waiter jobs in Doha Qatar</h3>
-<p>Hotel, restaurant, cafe and banquet service.</p>
-
-<h3>Waiter jobs in Qatar for freshers</h3>
-<p>Roles whose adverts accept beginners.</p>
-
-<h3>Hotel waiter jobs in Doha Qatar</h3>
-<p>Listed on the hotel groups' own careers sites.</p>
-
-<h3>Waiter salary in Doha Qatar per month</h3>
-<p>From QAR 1,000 basic plus food and housing.</p>
-
-<h3>Waiter jobs in Doha Qatar with visa sponsorship</h3>
-<p>The employer arranges the work visa and residence.</p>
-
-<h3>Qatar minimum wage</h3>
-<p>QAR 1,000 basic under Law No. 17 of 2020.</p>
-
-<h3>Change job in Qatar without NOC</h3>
-<p>Allowed since 2020, with notice.</p>
-
-<h3>Waiter interview questions</h3>
-<p>Complaints, allergies, billing and busy tables.</p>
 
 <h2>Bottom Line</h2>
 

@@ -290,32 +290,6 @@ JOBHTML;
 <h3>Which German job titles should I search for?</h3>
 <p>Produktionshelfer, Produktionsmitarbeiter, Fabrikarbeiter, Fabrikhelfer, Maschinenbediener, Verpackungsmitarbeiter, Montagemitarbeiter and Lagermitarbeiter. The first two often describe the same work at different rates.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Produktionshelfer jobs Germany</h3>
-<p>The most accessible entry title, and the one where the sub-minimum published figures most often appear.</p>
-
-<h3>Factory worker salary in Germany per month</h3>
-<p>About EUR 2,552 to EUR 2,908 gross on published averages. Gross, before roughly a fifth in social contributions and then income tax.</p>
-
-<h3>Germany work visa for unskilled workers</h3>
-<p>There is no general route. The realistic paths need a recognised qualification, or an employer offer with Federal Employment Agency approval.</p>
-
-<h3>Opportunity Card Germany requirements</h3>
-<p>A recognised qualification or six points on the grid, A1 German or B2 English, proof of funds, and a 20-hour weekly work limit while searching.</p>
-
-<h3>Germany minimum wage 2026</h3>
-<p>EUR 13.90 an hour from 1 January 2026, and EUR 14.60 from 1 January 2027.</p>
-
-<h3>Jobs in Germany for foreigners without German language</h3>
-<p>Rare in production, where shift instructions and safety documentation are in German. Basic German widens the market more than any other single step.</p>
-
-<h3>Warehouse jobs Germany</h3>
-<p>Lagermitarbeiter and Logistikmitarbeiter, frequently bundled with production listings and worth searching together.</p>
-
-<h3>Maschinenbediener jobs</h3>
-<p>Machine operator: the step up in both skill and pay, and where B1 German starts appearing as a requirement.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing international routes? These cover them:</p>

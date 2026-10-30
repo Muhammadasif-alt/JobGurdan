@@ -141,32 +141,6 @@ class UnionApprenticeshipsSouthernCaliforniaInlandEmpireBlogSeeder extends Seede
 <h3>How old must I be?</h3>
 <p>Eighteen for IEETC, LAETI and the Laborers Training School; the carpenters fund allows 17 with parent or guardian approval.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Union apprenticeships Southern California</h3>
-<p>Several sponsors, separate schedules.</p>
-
-<h3>Inland Empire apprenticeships</h3>
-<p>IEETC in San Bernardino.</p>
-
-<h3>Union trade programs California</h3>
-<p>DAS directory lists registered programmes.</p>
-
-<h3>Paid apprenticeships Riverside San Bernardino</h3>
-<p>Check county rules.</p>
-
-<h3>IEETC apprenticeship</h3>
-<p>September intake full.</p>
-
-<h3>UA Local 364 apprenticeship</h3>
-<p>76% exam minimum.</p>
-
-<h3>Western States Carpenters Training Fund</h3>
-<p>Age 18, or 17 with approval.</p>
-
-<h3>Operating engineers Local 12</h3>
-<p>Applications closed.</p>
-
 <h2>A Note for Applicants in Pakistan</h2>
 
 <p>These programmes need work authorisation in the United States, and an apprenticeship notice does not sponsor a visa. Never pay an agent for a place in a union programme, and read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you send money or documents.</p>

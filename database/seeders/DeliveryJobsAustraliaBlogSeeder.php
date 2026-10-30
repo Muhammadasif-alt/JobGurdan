@@ -328,32 +328,6 @@ JOBHTML;
 <h3>Is Amazon Flex the same as being an Amazon driver?</h3>
 <p>No. Flex is contractor work with your own vehicle and ABN. Amazon's Delivery Service Partners are separate businesses that employ their drivers.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Delivery driver pay rate Australia</h3>
-<p>$27.51 an hour for award grade 2 from July 2026.</p>
-
-<h3>Uber Eats requirements Australia</h3>
-<p>ABN, ID, background and work-rights checks, and a licence that matches your state.</p>
-
-<h3>Amazon Flex Australia</h3>
-<p>20 or older, full unrestricted licence, eligible vehicle and an ABN in your own name.</p>
-
-<h3>Gig worker minimum standards</h3>
-<p>The first order took effect on 17 August 2026 with an engaged-time floor.</p>
-
-<h3>ABN for delivery driver</h3>
-<p>Free to apply through the Australian Business Register and required by every platform.</p>
-
-<h3>GST threshold Australia</h3>
-<p>$75,000 for delivery work; ride-sourcing must register from the first dollar.</p>
-
-<h3>Cents per kilometre 2026-27</h3>
-<p>91 cents, capped at 5,000 work-related kilometres per car.</p>
-
-<h3>Casual loading Australia</h3>
-<p>25% on the ordinary hourly rate under this award.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing delivery and driving routes? These cover them:</p>

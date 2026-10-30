@@ -338,32 +338,6 @@ JOBHTML;
 <h3>Where can I apply for educational support jobs?</h3>
 <p>Start with your local school district's job board, then check charter networks such as KIPP and early learning centers such as KinderCare, Primrose and The Goddard School.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Paraprofessional jobs near me</h3>
-<p>Check your school district's job board first; local schools employ 72% of teacher assistants.</p>
-
-<h3>Teacher assistant salary</h3>
-<p>$36,780 median in May 2025.</p>
-
-<h3>Paraprofessional requirements</h3>
-<p>A high school diploma plus 2 years of college, an associate degree or a passed assessment.</p>
-
-<h3>ParaPro assessment</h3>
-<p>90 questions in reading, math and writing, 150 minutes.</p>
-
-<h3>Special education aide jobs</h3>
-<p>Most states require a skills test for special-needs teacher assistants.</p>
-
-<h3>Instructional aide jobs</h3>
-<p>The same work as a paraprofessional under a different title.</p>
-
-<h3>Teacher assistant job outlook</h3>
-<p>0% growth, but 176,200 openings a year to 2035.</p>
-
-<h3>Assistant teacher jobs at daycare</h3>
-<p>Child day care services pay a $34,920 median.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other education jobs? These cover it:</p>

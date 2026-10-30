@@ -319,32 +319,6 @@ JOBHTML;
 <h3>Is apprentice electrician pay of &pound;15,000 to &pound;22,000 legal?</h3>
 <p>Not necessarily. The &pound;8.00 apprentice rate only applies under 19 or in the first year. A 21-year-old past year one is entitled to &pound;12.71 an hour, which is &pound;24,784.50 across a 37.5-hour year: above the top of that range.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Electrician salary UK</h3>
-<p>Around &pound;28,000 to &pound;38,000 employed. Day rates are quoted before a CIS deduction of 20 or 30 per cent.</p>
-
-<h3>18th Edition Amendment 4</h3>
-<p>BS 7671:2018+A4:2026, published 15 April 2026. The previous version is withdrawn on 15 October 2026.</p>
-
-<h3>19th Edition wiring regulations</h3>
-<p>Does not exist. A full rewrite is not expected before 2027 or 2028.</p>
-
-<h3>Part P building regulations</h3>
-<p>The law for domestic electrical work. Notifiable jobs need either scheme self-certification or a building control notification.</p>
-
-<h3>ECS card application</h3>
-<p>Site access, required by contractors rather than by statute. Separate from Part P entirely.</p>
-
-<h3>EV charging point installer jobs UK</h3>
-<p>The fastest-growing specialism in the trade, with its own credential on top of Level 3.</p>
-
-<h3>Electrical apprenticeship UK</h3>
-<p>Three to four years. Check your rate against your age and apprenticeship year, because the entitlement changes on an anniversary.</p>
-
-<h3>Self employed electrician day rate</h3>
-<p>&pound;150 to &pound;300 quoted, less 20 per cent CIS if registered, plus insurance, van, tools and calibrated test gear.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing trades and routes? These cover them:</p>

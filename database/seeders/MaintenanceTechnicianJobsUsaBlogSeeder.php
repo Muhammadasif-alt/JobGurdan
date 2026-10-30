@@ -375,32 +375,6 @@ JOBHTML;
 <h3>What industries pay maintenance technicians the most?</h3>
 <p>Industrial and manufacturing roles, and specialised HVAC and electrical positions, pay above general property and facilities maintenance because of the higher skill and certification required.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Maintenance technician salary</h3>
-<p>BLS May 2025 median $49,590 a year; 75th percentile $62,620; 90th percentile above $77,180.</p>
-
-<h3>Industrial maintenance technician jobs</h3>
-<p>Higher-paid factory and plant work; industrial machinery mechanics earn a median of $64,520.</p>
-
-<h3>HVAC technician jobs</h3>
-<p>Requires EPA 608; HVACR mechanics earn a median of $61,010 and are in constant demand.</p>
-
-<h3>Apartment maintenance technician</h3>
-<p>Property maintenance in residential communities, often with on-call duties and basic-tool expectations.</p>
-
-<h3>EPA 608 certification</h3>
-<p>The Clean Air Act refrigerant credential; four types, lifetime, required to service HVAC and refrigeration.</p>
-
-<h3>OSHA 10 vs OSHA 30</h3>
-<p>Voluntary Outreach completion cards, not certifications; the 30-hour card suits supervisory and industrial roles.</p>
-
-<h3>Facilities maintenance jobs</h3>
-<p>General building upkeep in commercial and institutional settings; the broad, generalist end of the field.</p>
-
-<h3>Maintenance technician jobs near me</h3>
-<p>Search "maintenance technician", "industrial maintenance" and "HVAC technician" separately, and set alerts.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Working out the wider US skilled-work picture? These cover it:</p>

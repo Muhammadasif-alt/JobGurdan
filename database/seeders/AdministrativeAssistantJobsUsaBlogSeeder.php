@@ -270,32 +270,6 @@ JOBHTML;
 <h3>Are virtual assistants covered by minimum wage?</h3>
 <p>Only if they are employees. Independent contractors are not covered by federal minimum wage and overtime rules, so check the contract before accepting a remote role.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Executive assistant salary</h3>
-<p>A BLS median of $76,590 in May 2025.</p>
-
-<h3>Medical administrative assistant jobs</h3>
-<p>The one part of the field projected to grow, by 5% to 2035, with a median of $45,930.</p>
-
-<h3>Legal secretary salary</h3>
-<p>A median of $55,570, in a job projected to shrink 5% by 2035.</p>
-
-<h3>Administrative assistant salary by state</h3>
-<p>Highest in DC at a $61,270 mean, then Connecticut, Massachusetts, Washington and California.</p>
-
-<h3>Remote administrative assistant jobs</h3>
-<p>Available, but often as independent contracts without minimum wage, overtime or benefits.</p>
-
-<h3>CMAA certification requirements</h3>
-<p>A high school diploma plus a training program in the last five years or a year of experience in the last three.</p>
-
-<h3>Office manager salary</h3>
-<p>A $69,500 median for office supervisors and $114,130 for administrative services managers.</p>
-
-<h3>Entry level administrative assistant jobs</h3>
-<p>A high school diploma is typical, and the bottom 10% of general assistants earned under $33,280 in May 2025.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing office work in the US and abroad? These cover it:</p>

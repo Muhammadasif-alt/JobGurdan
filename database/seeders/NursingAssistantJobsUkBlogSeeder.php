@@ -335,32 +335,6 @@ JOBHTML;
 <h3>Is agency work better paid than NHS work?</h3>
 <p>Per shift, often yes. But the NHS post carries the pension, the band progression and the funded route to a qualification the agency does not pay for.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>NHS Band 2 pay 2026/27</h3>
-<p>&pound;26,618 a year, &pound;13.61 an hour, a single flat rate with no step points.</p>
-
-<h3>Care Certificate 16 standards</h3>
-<p>Completed within twelve weeks of starting; the sixteenth standard covers learning disability and autism awareness.</p>
-
-<h3>Nursing associate NMC register</h3>
-<p>A regulated profession with a protected title, reached through a two-year training programme.</p>
-
-<h3>Care worker visa UK closed</h3>
-<p>Closed to new overseas applicants on 22 July 2025; in-country switching and extensions run to 22 July 2028.</p>
-
-<h3>Healthcare assistant vs nursing assistant</h3>
-<p>The same family of work. Trusts tend to use nursing assistant on wards, often with more clinical task training.</p>
-
-<h3>NHS unsocial hours enhancement</h3>
-<p>Paid on top of the band for nights, weekends and bank holidays, which is why headline hourly figures vary so much.</p>
-
-<h3>Trainee nursing associate programme</h3>
-<p>A two-year funded route that lets you keep earning while you qualify.</p>
-
-<h3>National Living Wage 2026</h3>
-<p>&pound;12.71 an hour from 1 April 2026 for workers aged 21 and over, the legal floor for private care providers.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking across UK healthcare work? These cover the neighbouring routes:</p>

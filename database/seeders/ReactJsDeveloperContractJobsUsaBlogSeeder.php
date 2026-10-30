@@ -265,32 +265,6 @@ HTML;
 <h3>What claim do I have if an advert excludes my visa status?</h3>
 <p>Not a citizenship-status claim, because H-1B, OPT and CPT holders are not protected individuals for that purpose. National origin discrimination, which protects any individual, and document abuse are the provisions that may apply.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>React JS developer contract jobs</h3>
-<p>Usually offered through staffing firms. The arrangement, not the stack, decides which protections follow you.</p>
-
-<h3>React developer C2C jobs USA</h3>
-<p>Corp-to-corp means a second company employs you. Establish who your legal employer is before anything else.</p>
-
-<h3>H-1B React developer jobs</h3>
-<p>The wage must be paid during nonproductive time caused by the employer, and starts on a deadline you can count from your admission date.</p>
-
-<h3>H-1B benching rules</h3>
-<p>Unpaid bench time due to lack of assigned work is non-payment of wages under 20 CFR 655.731(c)(7), and is recoverable as back wages.</p>
-
-<h3>OPT React developer jobs</h3>
-<p>Watch the unemployment clock: 90 days on post-completion OPT, 150 days in total with the STEM extension.</p>
-
-<h3>STEM OPT staffing agency</h3>
-<p>Permitted. But only the E-Verified employer providing the actual training may sign your Form I-983, and each employer needs its own.</p>
-
-<h3>React contract to hire USA</h3>
-<p>Ask what the conversion date is, what triggers it, and whether an exit penalty applies before it.</p>
-
-<h3>React developer jobs USA</h3>
-<p>The market picture, the two occupations React work is benchmarked against, and the pay bands are on the main React guide.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

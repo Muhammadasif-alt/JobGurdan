@@ -173,32 +173,6 @@ class PrisonOfficerJobsLondonRequirementsSelectionBlogSeeder extends Seeder
 <h3>Does passing guarantee a job?</h3>
 <p>No. Appointment also depends on checks, vacancy availability and a 12-month probation.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Prison officer jobs in London England</h3>
-<p>HMPPS posts at London prisons, listed on the current vacancies page.</p>
-
-<h3>London prison officer requirements</h3>
-<p>18 at start, right to work, Civil Service nationality rules, checks and fitness.</p>
-
-<h3>Prison officer selection process</h3>
-<p>Online test, assessment centre, medical, fitness test and vetting.</p>
-
-<h3>HMPPS prison officer application</h3>
-<p>About 10 minutes online with your National Insurance number.</p>
-
-<h3>Prison officer fitness test</h3>
-<p>Grip, shield hold, bleep test to 5.4 and a 34-second agility run.</p>
-
-<h3>Prison officer salary London</h3>
-<p>£41,290 to £43,453 for a 39-hour week.</p>
-
-<h3>Prison officer training UK</h3>
-<p>A 10-day induction and 7-week foundation programme.</p>
-
-<h3>Prison officer bleep test</h3>
-<p>Level 5.4 over 15-metre shuttles, 35 runs.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Choose a London prison you can reach at shift times, confirm your right to work, practise for the online stages and the four fitness tests, and keep your documents ready for vetting. Follow HMPPS's instructions throughout and wait for a confirmed start date before making big commitments. This guide cannot promise selection.</p>

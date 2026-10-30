@@ -344,32 +344,6 @@ JOBHTML;
 <h3>How long does heavy equipment operator training take?</h3>
 <p>Operator courses usually run from a few weeks to several months; a Red Seal apprenticeship takes longer and combines on-site hours with technical training.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Excavator operator jobs Canada</h3>
-<p>The most common operator posting, with a Red Seal trade of its own.</p>
-
-<h3>Heavy equipment operator salary Alberta</h3>
-<p>A Job Bank median of $34.30 an hour, with a Limited outlook for 2025-2027.</p>
-
-<h3>Heavy equipment operator jobs BC</h3>
-<p>A $35.75 median, but a Limited outlook.</p>
-
-<h3>Red Seal excavator</h3>
-<p>One of three Red Seal heavy equipment operator trades.</p>
-
-<h3>Mobile crane operator certification</h3>
-<p>Compulsory for specified cranes in seven provinces.</p>
-
-<h3>Working at heights Ontario</h3>
-<p>Required with fall protection on construction projects, valid three years.</p>
-
-<h3>Operating engineers union Canada</h3>
-<p>IUOE locals run hiring halls and training for operators.</p>
-
-<h3>Heavy equipment operator NOC code</h3>
-<p>NOC 73400, a TEER 3 occupation.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing trades and driving jobs? These cover them:</p>

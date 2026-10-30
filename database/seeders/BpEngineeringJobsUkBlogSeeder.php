@@ -388,32 +388,6 @@ JOBHTML;
 <h3>Does a bp engineering job need SC or BPSS security clearance?</h3>
 <p>No. BPSS and SC are UK government vetting standards for people with access to government assets and classified material, not bp's own checks. bp describes its screening as qualifications, employment history and references, and right to work in the region of employment.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>bp careers UK</h3>
-<p>All of it runs through careers.bp.com, with country and job category filters; individual advert URLs carry a requisition number and expire with the vacancy.</p>
-
-<h3>bp graduate scheme 2026</h3>
-<p>Streams in business, digital, engineering, science and supply, trading and shipping, rotational, with applications opening on 14 October 2026.</p>
-
-<h3>APTUS apprenticeship</h3>
-<p>Formerly the Oil and Gas Technical Apprenticeships Programme, covering electrical maintenance, mechanical maintenance, process operations and instrumentation and control maintenance. Applications open 4 November 2026.</p>
-
-<h3>bp North Sea sale</h3>
-<p>Announced 31 July 2026: five production hubs, about 1,100 staff and around 117,000 barrels of oil equivalent a day in 2025, put up for sale after sixty years of production.</p>
-
-<h3>bp Sunbury closure</h3>
-<p>bp intends to leave the Spelthorne-owned campus between 2027 and 2028, affecting around 1,800 staff, with one lease running to 2036.</p>
-
-<h3>Castrol Stonepeak deal</h3>
-<p>bp agreed on 24 December 2025 to sell 65% of Castrol to Stonepeak at a USD 10 billion enterprise value, about USD 6 billion cash, completing by the end of 2026, with bp retaining 35%.</p>
-
-<h3>Net Zero Teesside jobs</h3>
-<p>NZT Power, the bp and Equinor joint venture, is under construction with start-up expected in 2028: up to 742 megawatts and around 2 million tonnes of CO&#8322; captured a year.</p>
-
-<h3>Skilled Worker going rate for engineers</h3>
-<p>&pound;46,800 for mechanical, &pound;58,700 for electrical, &pound;45,000 for production and process, against a general threshold of &pound;41,700, with the higher of the two applying.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If bp is one option rather than the only one, these cover the rest of the engineering market and the UK jobs around it:</p>

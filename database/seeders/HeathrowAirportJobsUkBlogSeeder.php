@@ -299,32 +299,6 @@ JOBHTML;
 <h3>Do I need airport experience to apply?</h3>
 <p>Not for most entry-level roles. The vetting and the shift pattern matter more than prior aviation experience.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Heathrow airside pass requirements</h3>
-<p>Five years of referenced employment history, a Criminal Record Check, and a Counter Terrorism Check for restricted zone access.</p>
-
-<h3>Heathrow security officer jobs</h3>
-<p>Employed directly by Heathrow, and among the roles that always need the Counter Terrorism Check.</p>
-
-<h3>London Living Wage 2026</h3>
-<p>&pound;14.80 an hour, against a UK rate of &pound;13.45. The next rates are announced on 15 October 2026.</p>
-
-<h3>Heathrow employee benefits</h3>
-<p>Free Heathrow Express travel, up to 31 days free airport parking a year, a DC pension with life assurance, and interest-free travel loans.</p>
-
-<h3>Heathrow passenger numbers 2025</h3>
-<p>84.5 million, a record, on just under 480,000 flights, making it Europe's busiest hub.</p>
-
-<h3>Counter Terrorism Check UK airport</h3>
-<p>Required for Heathrow Security roles and any position with access to restricted zones or restricted files.</p>
-
-<h3>Airport jobs no experience UK</h3>
-<p>Most entry-level airport roles train you. The barrier is vetting and shift availability, not experience.</p>
-
-<h3>Heathrow jobs visa sponsorship</h3>
-<p>Heathrow asks for existing right to work. Hourly roles sit far below the &pound;41,700 Skilled Worker threshold.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing airport and transport employers? These cover the alternatives:</p>

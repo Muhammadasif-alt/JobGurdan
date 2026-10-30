@@ -167,32 +167,6 @@ class JobAbroadWithoutExperienceBlogSeeder extends Seeder
 <h3>Can I switch from a student visa to a work visa?</h3>
 <p>Sometimes, but each country has its own rules, and a student visa limits your work hours. Check the official immigration site before you plan on it.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Job abroad without experience</h3>
-<p>Possible through beginner visas and entry-level work.</p>
-
-<h3>Working holiday visa</h3>
-<p>For young people from partner countries.</p>
-
-<h3>Entry level jobs abroad</h3>
-<p>Hospitality, seasonal, teaching and customer service.</p>
-
-<h3>Youth Mobility Scheme UK</h3>
-<p>Pakistan is not an eligible country.</p>
-
-<h3>Germany Opportunity Card</h3>
-<p>6 points, language and funds needed.</p>
-
-<h3>JET Programme</h3>
-<p>For graduates from participating countries.</p>
-
-<h3>Work abroad for freshers</h3>
-<p>Start with the routes your passport allows.</p>
-
-<h3>Fake job offers abroad</h3>
-<p>Any upfront fee is a warning sign.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

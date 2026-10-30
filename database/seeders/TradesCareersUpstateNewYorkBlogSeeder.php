@@ -149,32 +149,6 @@ class TradesCareersUpstateNewYorkBlogSeeder extends Seeder
 <h3>Can I apply online?</h3>
 <p>Some can: Local 13, Local 33, Local 81 and the Finishing Trades Institute. Local 41, Local 6 and Local 633 need in-person pickup or completion.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Trades careers Upstate New York</h3>
-<p>Notices list several sponsors.</p>
-
-<h3>Apprenticeships Buffalo NY</h3>
-<p>Locals 41 and 6.</p>
-
-<h3>Skilled trades Rochester NY</h3>
-<p>Locals 13 and 33.</p>
-
-<h3>Trade apprenticeships Syracuse NY</h3>
-<p>Locals 81 and 633, plus finishing trades.</p>
-
-<h3>Electrician apprenticeship Buffalo</h3>
-<p>Local 41, Wednesday pickup.</p>
-
-<h3>Plumber apprenticeship Rochester</h3>
-<p>Local 13, 70% maths test.</p>
-
-<h3>Laborers apprenticeship Syracuse</h3>
-<p>Local 633, monthly pickup.</p>
-
-<h3>New York apprenticeship notices</h3>
-<p>NYSDOL announcements.</p>
-
 <h2>A Note for Applicants in Pakistan</h2>
 
 <p>These programmes need work authorisation in the United States, and an apprenticeship notice does not sponsor a visa. Never pay an agent for a place in a union programme, and read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you send money or documents.</p>

@@ -312,32 +312,6 @@ JOBHTML;
 <h3>Can I move into Azure engineering from Windows systems administration?</h3>
 <p>It is the most common route there is. Active Directory, Windows Server and networking experience transfers directly into hybrid identity work, which is the part of the job that is hardest to learn from scratch.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Azure cloud engineer salary USA</h3>
-<p>Published averages sit $23,981 apart depending on the source. The measured medians are $99,130, $134,050 and $135,980 by occupation.</p>
-
-<h3>AZ-104 jobs</h3>
-<p>The certification named most often in Azure postings, and the prerequisite for both Expert credentials.</p>
-
-<h3>Azure administrator jobs</h3>
-<p>The administration end of this work, and a genuine route in. Priced at the $99,130 band rather than the architect one.</p>
-
-<h3>Remote Azure engineer jobs</h3>
-<p>Common past entry level with commercial employers, rarer in public sector work.</p>
-
-<h3>Entra ID and Azure AD jobs</h3>
-<p>The identity specialism, and the Azure skill with the least transferable competition from AWS.</p>
-
-<h3>Hybrid cloud engineer jobs</h3>
-<p>The seam between an on-premise estate and Azure. In this market it is the job rather than a bonus skill.</p>
-
-<h3>Azure DevOps engineer jobs</h3>
-<p>Pipelines and delivery. Note that AZ-400 requires an associate certification first.</p>
-
-<h3>Entry level Azure cloud engineer jobs</h3>
-<p>Advertised from around $79,800. Scarcer than the courses suggest, and usually reached from support or systems administration.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing platforms and routes? These cover them:</p>

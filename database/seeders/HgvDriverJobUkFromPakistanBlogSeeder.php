@@ -228,32 +228,6 @@ JOBHTML,
 <h3>How much does an HGV driver earn in the UK?</h3>
 <p>It depends on licence class, shift and employer. See the <a href="/blog/hgv-driver-salary-uk-2026">HGV salary guide</a> for worked examples.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>HGV driver job UK from Pakistan</h3>
-<p>Only with an existing right to work.</p>
-
-<h3>UK lorry driver visa</h3>
-<p>There is no open visa scheme.</p>
-
-<h3>HGV licence UK</h3>
-<p>Category C or C+E, plus Driver CPC.</p>
-
-<h3>Driver CPC</h3>
-<p>The Certificate of Professional Competence needed for professional drivers.</p>
-
-<h3>HGV driver visa sponsorship</h3>
-<p>Generally not available.</p>
-
-<h3>HGV driver salary UK</h3>
-<p>Set by each employer; see the pay guide.</p>
-
-<h3>Graduate visa work rights</h3>
-<p>Allows most jobs, including full time.</p>
-
-<h3>UK visa sponsorship scams</h3>
-<p>Any fee for sponsorship is a warning sign.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

@@ -332,32 +332,6 @@ JOBHTML;
 <h3>Which is better for labourers, Dubai or Saudi Arabia?</h3>
 <p>Neither publishes official pay for the job. Compare the full package: basic wage, food, accommodation, transport, overtime and ticket.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Labour jobs in Dubai</h3>
-<p>On MOHRE work permits, with recruitment costs owed by the employer.</p>
-
-<h3>Construction helper jobs in Saudi Arabia</h3>
-<p>Contracts registered on Qiwa; no expatriate minimum wage.</p>
-
-<h3>Labour visa for Saudi Arabia</h3>
-<p>Paid for by the employer under Labour Law Article 40.</p>
-
-<h3>Free visa Saudi Arabia</h3>
-<p>Working outside your sponsor and profession leaves you unprotected.</p>
-
-<h3>UAE Wage Protection System</h3>
-<p>Ministerial Resolution No. 340 of 2026.</p>
-
-<h3>UAE midday break 2026</h3>
-<p>12:30pm to 3pm, from 15 June to 15 September.</p>
-
-<h3>General labourer jobs Gulf</h3>
-<p>Ask which trade you would be helping.</p>
-
-<h3>Helper to mason career</h3>
-<p>Get the trade on paper and the profession changed on your permit.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the construction cluster:</p>

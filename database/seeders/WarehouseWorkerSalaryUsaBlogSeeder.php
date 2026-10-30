@@ -180,32 +180,6 @@ class WarehouseWorkerSalaryUsaBlogSeeder extends Seeder
 <h3>Do night shifts pay more?</h3>
 <p>Often, but it depends on the employer. Check the job order.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Warehouse worker salary in USA</h3>
-<p>$19.35 an hour at the median, BLS May 2025.</p>
-
-<h3>Average warehouse hourly rate USA</h3>
-<p>The mean was $20.32 an hour.</p>
-
-<h3>Warehouse worker monthly pay USA</h3>
-<p>About $3,353 gross at the median and full-time hours.</p>
-
-<h3>Warehouse worker salary in PKR</h3>
-<p>Convert at your provider's real rate, after expenses.</p>
-
-<h3>Warehouse pay for foreigners USA</h3>
-<p>H-2B workers must be paid the wage the programme requires.</p>
-
-<h3>Material mover wages</h3>
-<p>The same BLS occupation as hand laborers and stock movers.</p>
-
-<h3>Warehouse overtime pay</h3>
-<p>One and a half times the regular rate after 40 hours, for covered workers.</p>
-
-<h3>Warehouse jobs with visa sponsorship</h3>
-<p>Covered in the visa sponsorship guide.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

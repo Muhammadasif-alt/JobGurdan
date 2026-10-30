@@ -148,32 +148,6 @@ class FreeOnlineCoursesJobAbroadBlogSeeder extends Seeder
 <h3>Will employers recognise these certificates?</h3>
 <p>Recognition varies. A practical project helps more than a badge alone.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Free courses to get job abroad</h3>
-<p>Match real vacancies.</p>
-
-<h3>Online courses for overseas jobs</h3>
-<p>Finish one at a time.</p>
-
-<h3>Certifications for international jobs</h3>
-<p>Check exam fees.</p>
-
-<h3>Free skills courses 2026</h3>
-<p>Read the conditions.</p>
-
-<h3>freeCodeCamp for jobs</h3>
-<p>Project-based coding.</p>
-
-<h3>Microsoft Learn free</h3>
-<p>Exams cost extra.</p>
-
-<h3>IBM SkillsBuild free</h3>
-<p>AI, data, cybersecurity.</p>
-
-<h3>HubSpot Academy certification</h3>
-<p>Marketing and sales.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

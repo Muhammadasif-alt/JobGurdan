@@ -163,32 +163,6 @@ class ParamedicJobsTorontoTrainingCertificationBlogSeeder extends Seeder
 <h3>Can an overseas paramedic transfer directly?</h3>
 <p>No. Apply for an individual equivalency decision from the Ministry first.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Paramedic jobs in Toronto Ontario</h3>
-<p>Full-time Paramedic Level 1 posts, recruiting until 18 November 2026.</p>
-
-<h3>Toronto paramedic training</h3>
-<p>A PCP college diploma, such as Humber's four semesters.</p>
-
-<h3>AEMCA certification Ontario</h3>
-<p>The Ministry exam that certifies Primary Care Paramedics.</p>
-
-<h3>Primary Care Paramedic Toronto</h3>
-<p>The entry level for Toronto Paramedic Services.</p>
-
-<h3>Toronto paramedic application</h3>
-<p>Online through the City only; no emailed resumes.</p>
-
-<h3>Toronto paramedic recruitment 2027</h3>
-<p>Written exam in December 2026, interviews in January 2027.</p>
-
-<h3>OPPAT test</h3>
-<p>Required within one year of your start date.</p>
-
-<h3>Paramedic equivalency Ontario</h3>
-<p>Labour Mobility for Canadian paramedics; a separate route for others.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Build your Toronto paramedic career on a recognised PCP diploma, the AEMCA exam, a clean driving record and the OPPAT, then follow the Spring 2027 guide stage by stage. Apply before 18 November 2026 if you qualify. This guide cannot promise selection.</p>

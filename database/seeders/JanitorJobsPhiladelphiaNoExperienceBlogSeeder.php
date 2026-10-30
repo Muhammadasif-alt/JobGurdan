@@ -26,7 +26,7 @@ use Illuminate\Database\Seeder;
  * 5. City of Philadelphia fetched: apply online at phila.gov/jobs; civil service jobs need an exam and one year's
  *    residence in Philadelphia before appointment; non-civil service jobs need a move within six months; job interest
  *    form for alerts. Pennsylvania L&I fetched: $7.25 minimum wage and overtime at 1.5 times after 40 hours.
- * 6. FAQs expanded to eight; eight People Also Search For entries and a note for readers in Pakistan added.
+ * 6. FAQs expanded to eight and a note for readers in Pakistan added.
  *
  * Posters are the owner's (blog-355, 29 Oct 10.47 and 10.51 PM). The portal listing is in GuideJobListingsSeeder.
  * updateOrCreate, so re-running is safe.
@@ -164,32 +164,6 @@ class JanitorJobsPhiladelphiaNoExperienceBlogSeeder extends Seeder
 
 <h3>Do union cleaning jobs pay more?</h3>
 <p>Compare the agreement, base pay, hours and benefits rather than assuming.</p>
-
-<h2>People Also Search For</h2>
-
-<h3>Janitor jobs in Philadelphia</h3>
-<p>Contractors, universities, offices and public buildings.</p>
-
-<h3>Janitor jobs in Philadelphia no experience</h3>
-<p>Look for adverts where experience is only preferred.</p>
-
-<h3>Entry level janitor jobs in Philadelphia PA</h3>
-<p>Contractor posts are the usual way in.</p>
-
-<h3>Part time janitor jobs in Philadelphia</h3>
-<p>SSC advertises part-time schedules at La Salle.</p>
-
-<h3>Custodian jobs in Philadelphia PA</h3>
-<p>School District posts need experience and an exam.</p>
-
-<h3>School District of Philadelphia general cleaner</h3>
-<p>$34,910 a year to start, six months' experience required.</p>
-
-<h3>City of Philadelphia jobs</h3>
-<p>Posted at phila.gov/jobs, with exams for civil service.</p>
-
-<h3>Pennsylvania minimum wage</h3>
-<p>$7.25 an hour.</p>
 
 <h2>Bottom Line</h2>
 

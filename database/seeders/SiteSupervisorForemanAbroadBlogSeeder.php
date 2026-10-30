@@ -269,32 +269,6 @@ JOBHTML;
 <h3>Is OSHA training useful outside the USA?</h3>
 <p>Some international contractors, especially on American-managed projects, ask for OSHA 30-hour construction training. NEBOSH and IOSH are more widely recognised in the Gulf.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Site supervisor jobs in Dubai</h3>
-<p>Recruited on MOHRE work permits, with recruitment costs owed by the employer.</p>
-
-<h3>Construction foreman jobs abroad</h3>
-<p>Lead with the crews you ran and the projects you delivered.</p>
-
-<h3>Foreman vs supervisor</h3>
-<p>One crew versus several; on the tools versus coordinating.</p>
-
-<h3>NEBOSH IGC for supervisors</h3>
-<p>Essential for HSE roles, an advantage for site supervisors.</p>
-
-<h3>IOSH Managing Safely</h3>
-<p>A shorter safety course aimed at supervisors and managers.</p>
-
-<h3>MEP foreman jobs in UAE</h3>
-<p>Add services and coordination drawings to your skills.</p>
-
-<h3>Site supervisor experience requirements</h3>
-<p>Often 5 to 10 years, including time leading a crew.</p>
-
-<h3>Toolbox talk topics</h3>
-<p>Work at height, lifting, excavations and heat stress.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the construction cluster:</p>

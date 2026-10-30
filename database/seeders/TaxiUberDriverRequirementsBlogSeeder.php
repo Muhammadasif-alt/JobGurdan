@@ -306,32 +306,6 @@ JOBHTML;
 <h3>What is a Passenger Transport Licence Code in NSW?</h3>
 <p>The code taxi and rideshare drivers need in NSW. It requires an unrestricted Australian licence for 12 months in the last 4 years and commercial vehicle medical standards.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>RTA driver permit Dubai</h3>
-<p>Required for taxi and limousine drivers, with English and psychological tests.</p>
-
-<h3>Uber driver requirements USA</h3>
-<p>One year of US driving, three if under 25, and a US licence.</p>
-
-<h3>TfL private hire licence</h3>
-<p>London's licence for private hire drivers, issued by Transport for London.</p>
-
-<h3>Taxi licence UK requirements</h3>
-<p>Right to work, 12 months' full licence and fit and proper checks.</p>
-
-<h3>SOC 8213 Skilled Worker</h3>
-<p>Taxi and cab drivers and chauffeurs are listed as ineligible.</p>
-
-<h3>Passenger Transport Licence Code NSW</h3>
-<p>12 months on an unrestricted Australian licence in the last 4 years.</p>
-
-<h3>Uber driver Canada requirements</h3>
-<p>Set city by city on top of Uber's minimums.</p>
-
-<h3>Delivery driver jobs abroad</h3>
-<p>The work permit and licence steps for courier work.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related driving guides:</p>

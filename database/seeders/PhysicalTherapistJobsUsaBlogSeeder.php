@@ -307,32 +307,6 @@ JOBHTML;
 <h3>Is physical therapy a growing field?</h3>
 <p>Yes. The BLS projects 12% growth from 2025 to 2035, much faster than the all-occupation average, with about 13,400 openings a year.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>NPTE exam FSBPT</h3>
-<p>The National Physical Therapy Examination, administered by the Federation of State Boards of Physical Therapy, required in every state.</p>
-
-<h3>PT Compact states</h3>
-<p>The 41 jurisdictions that have enacted the compact, about 38 of them actively issuing privileges to practise across member states.</p>
-
-<h3>Physical therapist salary by state</h3>
-<p>California, Nevada, New Jersey and Alaska report the highest averages; several southern and midwestern states run below the $102,760 median.</p>
-
-<h3>DPT degree requirements</h3>
-<p>A Doctor of Physical Therapy from a CAPTE-accredited program, or a credential-evaluated foreign equivalent, is the entry qualification.</p>
-
-<h3>Physical therapist visa sponsorship</h3>
-<p>Foreign PTs usually enter on an H-1B and, as a Schedule A shortage occupation, can be sponsored for an EB-3 green card.</p>
-
-<h3>CGFNS VisaScreen certificate</h3>
-<p>The health care worker certificate issued by CGFNS that a foreign physical therapist needs for a US work visa, alongside FCCPT's Type I alternative.</p>
-
-<h3>Travel physical therapist pay</h3>
-<p>Typically $110,000-$150,000+ on 13-week contracts, part of it as untaxed housing and per-diem stipends.</p>
-
-<h3>Highest paying physical therapy settings</h3>
-<p>Home health, skilled nursing and travel contracts pay the most; hospitals and entry outpatient roles pay least.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at neighbouring US healthcare roles or the routes abroad? These cover them:</p>

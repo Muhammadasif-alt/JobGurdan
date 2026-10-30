@@ -303,32 +303,6 @@ JOBHTML;
 <h3>What's a realistic monthly salary for a UK care role?</h3>
 <p>Roughly &pound;1,800&ndash;&pound;2,300 a month for entry-level hourly roles, more for NHS-banded support worker positions or senior/specialist care roles.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Caregiver jobs in UK salary</h3>
-<p>Entry-level care roles typically pay &pound;11&ndash;&pound;14 an hour in the private sector, rising to roughly &pound;24,000&ndash;&pound;27,000+ a year for structured public-sector/NHS-banded support worker posts. Senior, specialist, and clinical roles pay more.</p>
-
-<h3>Caregiver jobs in UK for foreigners</h3>
-<p>Direct overseas sponsorship into a standard care assistant role is currently closed (since 22 July 2025). Foreigners already holding a UK visa that grants the right to work can apply like any other domestic candidate; those with nursing or allied health qualifications may still qualify for sponsorship under the narrower clinical routes.</p>
-
-<h3>UK caregiver jobs with visa sponsorship salary</h3>
-<p>Before the closure, sponsored care worker roles generally had to meet a minimum salary threshold around &pound;25,000 a year (or the going rate for the role, if higher). That threshold is now mostly relevant to the clinical roles still open to sponsorship, since new non-clinical care worker sponsorship from overseas isn't available.</p>
-
-<h3>Caregiver jobs in UK with visa sponsorship no experience</h3>
-<p>Domestically, many UK care providers hire without prior experience and offer paid induction training. For overseas applicants, this question is currently moot for standard care worker roles since new overseas sponsorship in that occupation code is closed regardless of experience level.</p>
-
-<h3>UK caregiver jobs with visa sponsorship 2026</h3>
-<p>Still closed to new overseas care worker/senior care worker applicants as of 2026, with the transitional period for existing visa holders running to 22 July 2028. No reversal has been announced.</p>
-
-<h3>Caregiver jobs in UK without IELTS</h3>
-<p>IELTS is one of several accepted English tests: others, or a degree taught in English, may qualify depending on the route. The bigger issue for most searchers isn't which English test to take, but whether the underlying visa route is open to them at all right now.</p>
-
-<h3>Caregiver jobs in UK requirements</h3>
-<p>Right to work in the UK, an enhanced DBS check, adequate English proficiency, and often references: formal prior experience is frequently not required for entry-level domestic hires, since many employers train on the job.</p>
-
-<h3>Caregiver jobs in UK salary per month</h3>
-<p>Roughly &pound;1,800&ndash;&pound;2,300 a month before tax for typical entry-level, full-time hourly roles; higher for NHS-banded or senior/specialist positions, and variable for live-in care arrangements that combine pay with accommodation.</p>
-
 <h2>Still Looking for Sponsored Work?</h2>
 
 <p>If the UK care route is closed to you right now, it's worth comparing countries where sponsorship for non-clinical roles is still open. Two guides worth reading next:</p>

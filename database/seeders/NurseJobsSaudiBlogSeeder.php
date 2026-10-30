@@ -311,32 +311,6 @@ JOBHTML;
 <h3>Do I need to speak Arabic to work as a nurse in Saudi Arabia?</h3>
 <p>Usually not. English is the working language in most hospitals, but basic Arabic helps with patients and families and counts in your favour.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Saudi Prometric exam for nurses</h3>
-<p>The SCFHS classification exam, booked through Prometric once SCFHS confirms your eligibility. It is one step of registration, not the licence.</p>
-
-<h3>Mumaris Plus registration for nurses</h3>
-<p>The SCFHS online portal where you create your profile, upload documents and pay fees for classification and registration.</p>
-
-<h3>DataFlow verification for SCFHS</h3>
-<p>Checks your degree, licence and experience at source. Delays usually come from institutions slow to answer, so start early.</p>
-
-<h3>Staff nurse salary in Saudi Arabia</h3>
-<p>Quoted from SAR 4,000 a month, which is not a minimum wage. Compare basic salary, housing, transport and flights separately.</p>
-
-<h3>ICU nurse jobs in Riyadh</h3>
-<p>Among the hardest posts to fill, in government, military and private hospitals. Specialist experience is the strongest bargaining position.</p>
-
-<h3>MOH nurse jobs for Indian nurses</h3>
-<p>Recruited through Indian agents designated for the Ministry of Health, and only through eMigrate.</p>
-
-<h3>Nurse jobs in Saudi Arabia for Pakistani nurses</h3>
-<p>Through an agency licensed by the Bureau of Emigration and Overseas Employment, with Pakistan Nursing and Midwifery Council registration verified by DataFlow.</p>
-
-<h3>Female nurse jobs in Saudi Arabia</h3>
-<p>Most nursing posts are open to women, and many hospitals recruit female nurses in large numbers for women's and children's services.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing nursing destinations or other Gulf routes? These cover them:</p>

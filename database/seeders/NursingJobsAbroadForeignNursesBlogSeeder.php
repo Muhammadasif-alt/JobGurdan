@@ -312,32 +312,6 @@ JOBHTML;
 <h3>Should I pay a recruiter for registration?</h3>
 <p>No. Apply to the regulator yourself and check anything a recruiter claims against the regulator's own page.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Nursing jobs in Saudi Arabia</h3>
-<p>Classification through SCFHS comes first, then hospital recruitment.</p>
-
-<h3>NHS nurse jobs for overseas nurses</h3>
-<p>NMC registration, English evidence and, where required, the Test of Competence.</p>
-
-<h3>Nurse jobs in Australia</h3>
-<p>NMBA registration through the pathway that matches your qualification.</p>
-
-<h3>SCFHS classification</h3>
-<p>The Saudi process that assesses your qualifications and professional standing.</p>
-
-<h3>NMC OSCE</h3>
-<p>The practical examination in the Test of Competence.</p>
-
-<h3>Health and Care Worker visa for nurses</h3>
-<p>Needs an eligible job, an approved sponsor and a Certificate of Sponsorship.</p>
-
-<h3>Ahpra overseas nurse registration</h3>
-<p>Applications are administered by Ahpra for the NMBA.</p>
-
-<h3>Foreign nurse requirements</h3>
-<p>Qualification, registration, English, an employer and immigration permission, each separately.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related healthcare guides:</p>

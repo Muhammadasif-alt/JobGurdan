@@ -314,32 +314,6 @@ JOBHTML;
 <h3>Which job titles should I search for?</h3>
 <p>Office Assistant, Office Administrator, Administration Assistant, Administrative Assistant, Receptionist and Office Assistant, and Front Office Assistant. They overlap heavily and searching one hides most of the market.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Office assistant salary Australia</h3>
-<p>About $56,000 to $62,500 on published averages, and the superannuation question is worth more than the spread between them.</p>
-
-<h3>Administration assistant jobs</h3>
-<p>The same work under another title, often at a different rate. Search both.</p>
-
-<h3>Receptionist jobs Australia</h3>
-<p>Heavily overlapping duties, and the most common route into office support from retail or hospitality.</p>
-
-<h3>Entry level office jobs Australia</h3>
-<p>Genuinely open without a qualification. Excel and customer-facing experience do most of the shortlisting.</p>
-
-<h3>Working with children check Australia</h3>
-<p>State-issued and not transferable. Queensland requires its own Blue Card regardless of what you hold elsewhere.</p>
-
-<h3>Office jobs Sydney and Melbourne</h3>
-<p>The highest volume markets. Sydney sits below the national average on published figures despite being the most expensive city.</p>
-
-<h3>Certificate III in Business Administration jobs</h3>
-<p>Not required for entry level, and useful for senior office support and coordination roles.</p>
-
-<h3>Office assistant jobs for working holiday visa</h3>
-<p>A genuine and under-used option, though office work does not count as specified work for a second-year visa.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing Australian and international routes? These cover them:</p>

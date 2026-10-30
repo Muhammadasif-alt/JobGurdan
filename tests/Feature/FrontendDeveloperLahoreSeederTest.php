@@ -29,7 +29,7 @@ it('renders the post with its long-tail sections and sibling guides', function (
         ->assertOk()
         ->assertSee('ERS Tech')
         ->assertSee('The Tech Stack They')
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('/blog/cleaner-jobs-in-london-no-experience-needed', false)
         ->assertSee(ERS_APPLY_URL, false);
 });

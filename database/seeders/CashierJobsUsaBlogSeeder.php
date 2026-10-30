@@ -297,32 +297,6 @@ JOBHTML;
 <h3>Can foreigners get cashier jobs in the USA with visa sponsorship?</h3>
 <p>No. Employers do not sponsor work visas for cashier jobs. You need existing authorization to work in the US, which every employer checks on Form I-9.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Grocery store cashier jobs</h3>
-<p>Among the better-paid cashier work, with a BLS median of $16.45 an hour in food and beverage retail.</p>
-
-<h3>Gas station cashier pay</h3>
-<p>The lowest industry median, $14.68 an hour, often with night shifts and stocking duties.</p>
-
-<h3>Fast food cashier jobs California</h3>
-<p>At least $20.00 an hour at national chains with 60 or more establishments.</p>
-
-<h3>Cashier minimum wage by state</h3>
-<p>From the federal $7.25 in states such as Texas to $16.90 in California and $17.13 in Washington in 2026.</p>
-
-<h3>Part-time cashier jobs</h3>
-<p>Common across grocery, retail and fast food, with evening and weekend shifts the easiest to get.</p>
-
-<h3>Cashier jobs for 14 and 15 year olds</h3>
-<p>Allowed under federal law with school-day limits of 3 hours and a 7 a.m. to 7 p.m. window outside summer.</p>
-
-<h3>Self-checkout attendant jobs</h3>
-<p>One worker supervising several machines, clearing errors and checking ID for age-restricted sales.</p>
-
-<h3>Cashier cash shortage deduction</h3>
-<p>Illegal under federal law if it takes your pay below the minimum wage or cuts overtime you are owed.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing entry-level work in the US and beyond? These cover it:</p>

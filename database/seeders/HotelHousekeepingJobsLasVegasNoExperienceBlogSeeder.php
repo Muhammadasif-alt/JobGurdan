@@ -30,7 +30,7 @@ use Illuminate\Database\Seeder;
  *    hour ($48,140), 25th percentile $36,060 a year ($17.34), 75th $50,370 ($24.22), 10th $15.00, 90th $27.20.
  * 6. Added the Nevada minimum wage ($12.00 an hour, Labor Commissioner bulletin effective 1 July 2026) and the Culinary
  *    Union's role at unionised Strip properties, without the union's own wage estimates.
- * 7. FAQs expanded to eight; eight People Also Search For entries and a note for readers in Pakistan added.
+ * 7. FAQs expanded to eight and a note for readers in Pakistan added.
  *
  * Posters are the owner's (blog-355, 28 Oct 10.54 and 10.55 PM). The portal listing is in GuideJobListingsSeeder.
  * updateOrCreate, so re-running is safe.
@@ -170,32 +170,6 @@ class HotelHousekeepingJobsLasVegasNoExperienceBlogSeeder extends Seeder
 
 <h3>Do Las Vegas hotels sponsor visas for housekeepers?</h3>
 <p>None of the adverts reviewed here does; you need existing US work authorisation.</p>
-
-<h2>People Also Search For</h2>
-
-<h3>Housekeeping jobs Las Vegas no experience</h3>
-<p>Possible where the advert accepts training or related work.</p>
-
-<h3>Hotel housekeeping jobs in Las Vegas</h3>
-<p>Guest room, public area, house person and laundry roles.</p>
-
-<h3>Guest room attendant jobs Las Vegas</h3>
-<p>The core housekeeping title at Strip resorts.</p>
-
-<h3>MGM housekeeping jobs</h3>
-<p>Listed per property on MGM's own careers site.</p>
-
-<h3>Hotel housekeeping jobs Las Vegas with training</h3>
-<p>Ask whether training follows hiring and is paid.</p>
-
-<h3>Culinary Academy housekeeping course</h3>
-<p>60 hours, $1,200, with tuition assistance.</p>
-
-<h3>Housekeeper pay Las Vegas</h3>
-<p>$23.14 median an hour in 2025.</p>
-
-<h3>Las Vegas Strip hotel jobs</h3>
-<p>Compare commute, shifts and union coverage.</p>
 
 <h2>Bottom Line</h2>
 

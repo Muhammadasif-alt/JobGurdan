@@ -242,32 +242,6 @@ JOBHTML,
 <h3>Do foreign drivers earn the same as British drivers?</h3>
 <p>Yes. UK pay and minimum wage laws apply to everyone working legally.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>HGV driver salary UK</h3>
-<p>Set by each employer; see the worked examples.</p>
-
-<h3>Class 1 driver pay</h3>
-<p>Usually higher than Class 2.</p>
-
-<h3>Class 2 driver pay</h3>
-<p>Varies by employer and experience.</p>
-
-<h3>HGV driver hourly rate</h3>
-<p>At least £12.71 an hour at age 21 and over.</p>
-
-<h3>HGV driver take-home pay</h3>
-<p>About £2,543 a month on £37,500.</p>
-
-<h3>HGV driver salary in PKR</h3>
-<p>About PKR 1.17 million gross a month on £37,500.</p>
-
-<h3>HGV visa sponsorship</h3>
-<p>Generally not available for lorry drivers.</p>
-
-<h3>Truck driver salary USA</h3>
-<p>The US pay picture is in our truck driver guide.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

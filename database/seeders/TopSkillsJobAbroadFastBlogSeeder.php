@@ -163,32 +163,6 @@ class TopSkillsJobAbroadFastBlogSeeder extends Seeder
 <h3>Can a skills course get me a visa?</h3>
 <p>No. A course does not create a work route; the employer and immigration rules decide.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Skills needed to work abroad</h3>
-<p>Job-specific skills plus language and safety.</p>
-
-<h3>In demand skills overseas</h3>
-<p>Vary by country and occupation.</p>
-
-<h3>Skills for international jobs</h3>
-<p>Communication, reliability and technical evidence.</p>
-
-<h3>What skills do employers want abroad</h3>
-<p>Those named in the advertisement.</p>
-
-<h3>Nursing skills for abroad</h3>
-<p>Registration and language readiness come first.</p>
-
-<h3>Trade skills abroad</h3>
-<p>Show actual tasks and tools.</p>
-
-<h3>IT skills for jobs overseas</h3>
-<p>A portfolio with your own contribution.</p>
-
-<h3>Skills gap for overseas jobs</h3>
-<p>Fix one important gap at a time.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

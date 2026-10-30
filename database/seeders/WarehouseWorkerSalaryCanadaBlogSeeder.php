@@ -254,32 +254,6 @@ JOBHTML,
 <h3>Can an international student work in a warehouse in Canada?</h3>
 <p>Some can, within limited off-campus hours. Check the current rules on the official IRCC website.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Warehouse worker salary Canada</h3>
-<p>Median C$22.00 an hour per Job Bank.</p>
-
-<h3>Material handler wages Canada</h3>
-<p>C$16.55 to C$30.29 an hour nationally.</p>
-
-<h3>Warehouse pay Ontario</h3>
-<p>Median C$21.50 an hour per Job Bank.</p>
-
-<h3>Warehouse pay Quebec</h3>
-<p>Median C$22.00 an hour per Job Bank.</p>
-
-<h3>Warehouse salary in PKR</h3>
-<p>About PKR 762,600 gross a month at the median.</p>
-
-<h3>Canada work permit warehouse</h3>
-<p>Legal permission to work is needed first.</p>
-
-<h3>Job Bank warehouse jobs</h3>
-<p>The official Government of Canada job site.</p>
-
-<h3>Warehouse jobs USA visa sponsorship</h3>
-<p>The US has a different, seasonal route covered in our guide.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

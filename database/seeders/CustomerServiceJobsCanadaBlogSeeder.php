@@ -325,32 +325,6 @@ JOBHTML;
 <h3>Do I need Canadian experience to get hired?</h3>
 <p>Usually not for contact centre work, which is one of the reasons it is such a common first Canadian job. Named software, clear written English and shift availability count for more than where your previous employer was based.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Customer service representative salary Canada</h3>
-<p>A measured median of $22.00 an hour, well above the $20.43 job board average usually quoted.</p>
-
-<h3>Call centre jobs Canada</h3>
-<p>The highest volume entry point, and typically the fastest hiring process in the sector.</p>
-
-<h3>Bilingual customer service jobs Canada</h3>
-<p>A genuine pay premium. For federal roles, a tested profile rather than a claim on a r&eacute;sum&eacute;.</p>
-
-<h3>Remote customer service jobs Canada</h3>
-<p>Widely available. Confirm your province of employment, because your wage floor and overtime rules follow it.</p>
-
-<h3>Government customer service jobs Canada</h3>
-<p>Service Canada and CRA work, behind a statutory preference for veterans, citizens and permanent residents.</p>
-
-<h3>Entry level customer service jobs Canada</h3>
-<p>Open to candidates with no Canadian experience. Priced off the provincial minimum wage more than anything else.</p>
-
-<h3>Customer service jobs Toronto and Vancouver</h3>
-<p>Ontario's floor is $17.95 and British Columbia's is $18.25, which explains most of the gap between the two cities.</p>
-
-<h3>Customer service manager salary Canada</h3>
-<p>Around $72,207 a year on published figures: the top of the ladder this occupation actually reaches.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing markets and routes? These cover them:</p>

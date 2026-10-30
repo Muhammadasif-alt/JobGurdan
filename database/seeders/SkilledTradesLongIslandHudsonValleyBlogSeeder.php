@@ -139,32 +139,6 @@ class SkilledTradesLongIslandHudsonValleyBlogSeeder extends Seeder
 <h3>Which counties qualify for Local 825?</h3>
 <p>Rockland, Orange, Ulster, Sullivan and Delaware.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Skilled trades Long Island</h3>
-<p>Local 66 and the carpenters fund.</p>
-
-<h3>Hudson Valley apprenticeships</h3>
-<p>USIS, Local 1, Local 825, Local 373.</p>
-
-<h3>Trade careers Nassau Suffolk</h3>
-<p>Residence in both counties is required.</p>
-
-<h3>Construction apprenticeships New York</h3>
-<p>NYSDOL lists the notices.</p>
-
-<h3>Local 66 laborers Long Island</h3>
-<p>In-person on Monday and Wednesday.</p>
-
-<h3>Carpenters apprenticeship Hauppauge</h3>
-<p>Info session first Monday monthly.</p>
-
-<h3>Operating engineers Local 825</h3>
-<p>Opens 22 October 2026.</p>
-
-<h3>USIS Electric apprenticeship</h3>
-<p>Pearl River, in person.</p>
-
 <h2>A Note for Applicants in Pakistan</h2>
 
 <p>These programmes need work authorisation in the United States, and an apprenticeship notice does not sponsor a visa. Never pay an agent for a place in a union programme, and read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you send money or documents.</p>

@@ -307,32 +307,6 @@ JOBHTML;
 <h3>Are DevOps jobs remote?</h3>
 <p>A large share are, especially at mid and senior level with commercial employers. Cleared work is far more often on-site, and the on-call rotation applies wherever you sit.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>SRE jobs USA</h3>
-<p>Reliability, error budgets and scale, with a higher software engineering bar and pay at or above the DevOps band.</p>
-
-<h3>Remote DevOps engineer jobs</h3>
-<p>Common at commercial employers. Ask about the on-call rotation before the offer, not after.</p>
-
-<h3>Entry level DevOps engineer jobs</h3>
-<p>Scarce and often mislabelled. Enter from development or systems administration instead.</p>
-
-<h3>DevOps engineer salary USA</h3>
-<p>$135,980 at the median for the occupation this work is counted under. Job-board maximums are self-reported and not a band.</p>
-
-<h3>Kubernetes jobs USA</h3>
-<p>Near-universal in these postings. Knowing failure modes matters more than knowing the manifests.</p>
-
-<h3>DevSecOps jobs</h3>
-<p>Security controls built into the pipeline, and a well-paid bridge into security engineering.</p>
-
-<h3>Platform engineer jobs</h3>
-<p>Building the internal platform other teams deploy through. The most software-like of these roles and increasingly the best paid.</p>
-
-<h3>DevOps clearance TS/SCI jobs</h3>
-<p>US citizenship, a sponsor, a full-scope investigation and often a polygraph. Months, not weeks, and not obtainable on your own.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing the engineering routes? These cover them:</p>

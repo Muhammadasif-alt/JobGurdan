@@ -388,32 +388,6 @@ JOBHTML;
 <h3>Should I pay an agent for an electrician job abroad?</h3>
 <p>No. Neither Canadian nor Australian sponsorship requires the worker to pay for a job offer. Treat any request for a fee for an offer as a warning sign.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Electrician jobs in Canada with visa sponsorship</h3>
-<p>Certification is compulsory in ten provinces, so most sponsored electricians start as registered apprentices.</p>
-
-<h3>Electrician jobs in Australia with visa sponsorship</h3>
-<p>482 and 186 through an employer, or 189 on the MLTSSL.</p>
-
-<h3>NOC 72200 electrician</h3>
-<p>TEER 2, on the 2026 Express Entry trade occupations list.</p>
-
-<h3>ANZSCO 341111 skills assessment</h3>
-<p>OSAP for permanent visas, the TSS program for the 482.</p>
-
-<h3>Express Entry trades draw 2026</h3>
-<p>3,500 invitations at 476 on 1 October 2026.</p>
-
-<h3>Red Seal electrician</h3>
-<p>Optional endorsement that lets a provincial certificate travel across Canada.</p>
-
-<h3>Provisional electrical licence Australia</h3>
-<p>Issued on an OTSR so you can work under supervision during gap training.</p>
-
-<h3>BC compulsory trades electrician</h3>
-<p>Compulsory since 1 December 2022.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the electrician cluster, and the routes around it:</p>

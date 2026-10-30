@@ -28,7 +28,7 @@ it('renders the post with its long-tail sections and sibling guides', function (
     $this->get('/blog/'.MOBILE_BLOG_SLUG)
         ->assertOk()
         ->assertSee('Mobile App Developer Jobs in USA')
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('/blog/software-developer-jobs-in-usa', false)
         ->assertSee('/blog/web-developer-jobs-in-usa', false)
         ->assertSee('https://jobgader.com/categories/it-software?location=United%20States', false);

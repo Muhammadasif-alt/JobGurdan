@@ -290,32 +290,6 @@ JOBHTML;
 <h3>Should I sign a multi-year contract with a nurse recruitment agency?</h3>
 <p>It is a normal structure, but read the early-exit sum, what triggers it, whether it reduces over the term, and who bears the cost of NCLEX, VisaScreen and travel. Never pay a placement fee to be hired.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Nursing jobs in USA with visa sponsorship</h3>
-<p>Sponsorship is real but usually means an employment-based green card rather than a temporary work visa, so plan against the Visa Bulletin for your country of birth.</p>
-
-<h3>Nurse jobs in US for foreigners</h3>
-<p>Credentials evaluation, NCLEX-RN, English test, VisaScreen and a state licence, then employer sponsorship. Licensing is per state, not national.</p>
-
-<h3>USA nursing job requirements</h3>
-<p>NCLEX-RN, an approved credentials evaluation, English proficiency at your board's score, VisaScreen from CGFNS, and BLS with ACLS or PALS for acute specialties.</p>
-
-<h3>Nursing jobs in USA without NCLEX</h3>
-<p>Support roles such as nursing assistant or patient care technician, which pay far less, have a narrower scope, and are generally not sponsorable from abroad.</p>
-
-<h3>EB-3 nurse green card</h3>
-<p>The main immigration route for nurses. Nursing sits on Schedule A, which skips labour certification, but the category is retrogressed for every country.</p>
-
-<h3>Hospital nurse jobs in US</h3>
-<p>ICU, emergency, medical-surgical and labour and delivery are the volume specialties, and hospitals offer the most structured orientation for internationally educated nurses.</p>
-
-<h3>Nursing jobs in USA salary per month</h3>
-<p>Most registered nurses land between roughly $5,000 and $8,000 a month before shift differentials, with specialised and travel roles higher.</p>
-
-<h3>International nurse recruitment agencies</h3>
-<p>They coordinate credentialing and immigration in exchange for a multi-year commitment. Read the early-exit clause, and never pay a placement fee.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing destinations or other sponsored routes? These cover the rest:</p>

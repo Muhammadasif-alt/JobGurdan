@@ -305,32 +305,6 @@ JOBHTML;
 <h3>Can I get forklift certified online?</h3>
 <p>You can complete the formal instruction online, but OSHA also requires practical training and an evaluation of your performance in the workplace.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Forklift certification near me</h3>
-<p>Useful for the basics, but your employer must still evaluate you on site.</p>
-
-<h3>OSHA forklift training requirements</h3>
-<p>29 CFR 1910.178(l): instruction, practical training and a workplace evaluation.</p>
-
-<h3>Forklift operator salary per hour</h3>
-<p>A BLS mean of $23.25 an hour in May 2025.</p>
-
-<h3>Reach truck operator jobs</h3>
-<p>A different truck type, which needs its own training.</p>
-
-<h3>Forklift age requirement</h3>
-<p>18 under federal child labor rules.</p>
-
-<h3>Night shift forklift jobs</h3>
-<p>Often paid with a shift differential.</p>
-
-<h3>Forklift jobs with visa sponsorship</h3>
-<p>Rare; usually an EB-3 other worker route.</p>
-
-<h3>Warehouse forklift jobs near me</h3>
-<p>Distribution centers, retailers and staffing agencies hire year-round.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing warehouse and driving jobs? These cover them:</p>

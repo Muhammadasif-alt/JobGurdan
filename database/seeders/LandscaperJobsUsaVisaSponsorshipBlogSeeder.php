@@ -265,32 +265,6 @@ JOBHTML;
 <h3>Do landscapers need a licence?</h3>
 <p>Not generally for basic grounds work, but some chemical-application tasks need state licensing.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Landscaper jobs in USA with visa sponsorship</h3>
-<p>Seasonal landscaping work sponsored through the H-2B visa.</p>
-
-<h3>Landscaper visa sponsorship USA</h3>
-<p>The employer files first; the worker applies for the visa after approval.</p>
-
-<h3>Landscaper jobs for foreigners in USA</h3>
-<p>Open to foreign workers only through an eligible visa route.</p>
-
-<h3>H-2B visa landscaper</h3>
-<p>Temporary non-agricultural work, subject to an annual limit.</p>
-
-<h3>Landscaper vacancies USA 2026</h3>
-<p>Check start dates, because older orders stay visible.</p>
-
-<h3>Apply for a landscaper job in the USA from Pakistan</h3>
-<p>Ask whether the employer recruits in Pakistan and check consular instructions.</p>
-
-<h3>Landscaper salary in USA</h3>
-<p>$20.33 an hour on average in the BLS May 2025 estimates.</p>
-
-<h3>Groundskeeper jobs in USA</h3>
-<p>The BLS groups them with landscaping workers.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

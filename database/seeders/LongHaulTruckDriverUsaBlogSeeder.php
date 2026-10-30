@@ -336,32 +336,6 @@ JOBHTML;
 <h3>What can stop me driving after I qualify?</h3>
 <p>A lapsed DOT medical certificate, or prohibited status in the FMCSA Drug and Alcohol Clearinghouse, which states must act on by removing your commercial driving privilege.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>CDL training cost</h3>
-<p>Varies by school; company-sponsored training trades tuition for a work commitment.</p>
-
-<h3>ELDT requirements</h3>
-<p>Theory at 80% plus behind-the-wheel training from a Training Provider Registry provider.</p>
-
-<h3>Commercial learner's permit rules</h3>
-<p>Required before a CDL, with no skills test in the first 14 days.</p>
-
-<h3>OTR driver pay</h3>
-<p>$58,640 median; carriers publish weekly averages rather than salaries.</p>
-
-<h3>Truck driver age requirement</h3>
-<p>21 for interstate driving; 18 intrastate in most states.</p>
-
-<h3>Hazmat endorsement cost</h3>
-<p>$85.25 for the TSA security threat assessment, valid five years.</p>
-
-<h3>FMCSA Clearinghouse</h3>
-<p>Employers query it before hiring and once a year; states act on prohibited status.</p>
-
-<h3>Company sponsored CDL training</h3>
-<p>Legitimate, but check the contract length and the buyout figure.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing driving routes? These cover them:</p>

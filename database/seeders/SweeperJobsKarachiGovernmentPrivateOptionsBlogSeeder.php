@@ -24,7 +24,7 @@ use Illuminate\Database\Seeder;
  *    dusting, bins, bathrooms, mopping and reporting wear and tear, preferred Middle school, basic hygiene, simple Urdu
  *    instructions and shift work. AKU's vacancies page says Pakistan ancillary and non-management posts are applied for
  *    by email.
- * 5. FAQs expanded to eight; eight People Also Search For entries added.
+ * 5. FAQs expanded to eight.
  *
  * No Karachi poster was supplied; the featured image and steps graphic were generated in the house style. The portal
  * listing is in GuideJobListingsSeeder. updateOrCreate, so re-running is safe.
@@ -93,7 +93,7 @@ class SweeperJobsKarachiGovernmentPrivateOptionsBlogSeeder extends Seeder
 
 <h2>Hospitals and Schools</h2>
 
-<p>Hospital cleaning needs extra care with hygiene and waste. Ask who trains you, who supplies protective equipment and how clinical waste is separated, and never pick up needles or unknown waste without the procedure and supervision. As an example of what hospitals ask for, Aga Khan Hospital, Garden advertised a <strong>Domestic Aide</strong> post in its housekeeping department that closed on 25 October 2025. It covered dusting, emptying bins, cleaning bathrooms, mopping floors and reporting wear and tear, and asked for Middle school preferably, basic knowledge of hygiene, the ability to follow simple instructions in Urdu, physical fitness and willingness to work shifts. That post is closed; it shows the requirements, not a current opening. Source: <a href="https://www.aku.edu/vacancies/pages/job-detail.aspx?JobID=10198" rel="noopener">Aga Khan University: Domestic Aide, Aga Khan Hospital, Garden</a>.</p>
+<p>Hospital cleaning needs extra care with hygiene and waste. Ask who trains you, who supplies protective equipment and how clinical waste is separated, and never pick up needles or unknown waste without the procedure and supervision. As an example of what hospitals ask for, Aga Khan Hospital, Garden advertised a <strong>Domestic Aide</strong> post in its housekeeping department that closed on 25 October 2025. It covered dusting, emptying bins, cleaning bathrooms, mopping floors and reporting wear and tear, and asked for Middle school preferably, basic knowledge of hygiene, the ability to follow simple instructions in Urdu, physical fitness and willingness to work shifts. That post is closed; it shows the requirements, not a current opening. Source: Aga Khan University, Domestic Aide advert for Aga Khan Hospital, Garden, read on 30 October 2026.</p>
 
 <p>For current posts, use AKU's vacancies page: in Pakistan, ancillary and non-management staff positions are applied for by email, as each advert explains. School cleaning jobs cover classrooms, playgrounds and toilets; ask about holiday hours and any checks. Official page: <a href="https://www.aku.edu/vacancies/Pages/home.aspx" rel="noopener">Aga Khan University: Vacancies</a>.</p>
 
@@ -169,32 +169,6 @@ class SweeperJobsKarachiGovernmentPrivateOptionsBlogSeeder extends Seeder
 <h3>Is accommodation free?</h3>
 <p>Not unless the offer says so in writing, with any deductions.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Sweeper jobs in Karachi</h3>
-<p>Government, hospital, office and contractor posts.</p>
-
-<h3>Government sweeper jobs in Karachi</h3>
-<p>Often advertised as sanitary worker.</p>
-
-<h3>Private sweeper jobs in Karachi</h3>
-<p>Offices, malls, factories and contractors.</p>
-
-<h3>Hospital sweeper jobs in Karachi</h3>
-<p>Ask about waste handling and protective equipment.</p>
-
-<h3>Office cleaner job in Karachi</h3>
-<p>Usually one fixed workplace.</p>
-
-<h3>Sweeper salary in Karachi</h3>
-<p>At least Rs 43,000 a month from July 2026.</p>
-
-<h3>Sindh minimum wage 2026</h3>
-<p>Rs 43,000 unskilled, Rs 53,350 skilled.</p>
-
-<h3>Safai ki jobs Karachi</h3>
-<p>Search cleaner and housekeeping titles too.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Search widely, check who really employs you, compare pay with the Sindh minimum and choose duties and shifts you can do safely. This guide cannot promise a job or a wage.</p>
@@ -204,7 +178,7 @@ class SweeperJobsKarachiGovernmentPrivateOptionsBlogSeeder extends Seeder
 <ol>
 <li><a href="https://lhr.sindh.gov.pk/news/minimum-wage-unskilled-rs-43000-skilled-rs-53350-semi-skilled-rs-44484-highly-skilled-rs-55626-wef-17082026" rel="noopener">Sindh Labour and HR Department: Minimum wage from 1 July 2026</a></li>
 <li><a href="https://sswmb.gos.pk/careers/" rel="noopener">Sindh Solid Waste Management Board: Careers</a></li>
-<li><a href="https://www.aku.edu/vacancies/pages/job-detail.aspx?JobID=10198" rel="noopener">Aga Khan University: Domestic Aide (closed)</a></li>
+<li>Aga Khan University: Domestic Aide advert, Aga Khan Hospital, Garden (closed 25 October 2025)</li>
 <li><a href="https://www.aku.edu/vacancies/Pages/home.aspx" rel="noopener">Aga Khan University: Vacancies</a>, all checked 30 October 2026</li>
 </ol>
 

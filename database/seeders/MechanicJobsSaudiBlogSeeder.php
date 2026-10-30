@@ -363,26 +363,6 @@ JOBHTML;
 <h3>Can heavy equipment mechanics apply?</h3>
 <p>Yes. Construction, mining and industrial contractors hire them. The skills test announcement names automotive trades rather than heavy equipment, so ask which profession your visa will carry and whether it needs the certificate.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Auto mechanic jobs in Saudi Arabia</h3>
-<p>Dealerships and workshops in Riyadh, Jeddah and Dammam hire foreign auto mechanics. Expect the ministry's skills test if your country and specialisation are covered.</p>
-
-<h3>Diesel mechanic jobs in Saudi Arabia</h3>
-<p>Fleet, logistics and transport operators hire diesel and heavy vehicle mechanics, often on shift work at depots.</p>
-
-<h3>Heavy equipment mechanic jobs in Saudi Arabia</h3>
-<p>Mostly with construction, mining and industrial contractors, often on remote sites where the employer must provide accommodation and meals by law.</p>
-
-<h3>Saudi skills verification program for mechanics</h3>
-<p>The Professional Examination program runs theoretical and practical tests. Book through the official portal, never through a middleman.</p>
-
-<h3>Mechanic jobs in Saudi Arabia for Pakistani applicants</h3>
-<p>Apply through a licensed Overseas Employment Promoter, check the licence with BE&amp;OE, and register for protection before you travel.</p>
-
-<h3>Mechanic jobs in Saudi Arabia with free visa</h3>
-<p>The employer pays recruitment and Iqama fees by law. Anyone charging you for the visa itself is asking for money the law says the employer pays.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing trade and Gulf routes? These cover the rest:</p>

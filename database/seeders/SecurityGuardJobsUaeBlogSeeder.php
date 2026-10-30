@@ -296,32 +296,6 @@ Offer B: <strong>AED 1,200 basic plus AED 800 in allowances</strong>, same accom
 <h3>What working hours should I expect?</h3>
 <p>Manned guarding commonly runs twelve-hour shifts. A monthly salary quoted against a twelve-hour day is a very different rate from the same figure against eight hours, so ask about shift length, days off and how overtime is treated.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Security guard jobs in Dubai</h3>
-<p>SIRA territory. The largest single market, concentrated in malls, hotels and towers.</p>
-
-<h3>SIRA licence requirements</h3>
-<p>Residency and Emirates ID, good conduct and medical certificates, approved training, and a written and practical exam: normally submitted through the employer.</p>
-
-<h3>PSBD licence Abu Dhabi</h3>
-<p>The authority for Abu Dhabi, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah and Fujairah. A separate card from SIRA.</p>
-
-<h3>Security guard salary in UAE per month</h3>
-<p>Around AED 1,800 to 3,000 for general guards. Read it against the shift length and the basic-to-allowance split.</p>
-
-<h3>Security jobs in UAE with visa sponsorship</h3>
-<p>Widely available through manned guarding and facilities management companies, usually with accommodation and transport.</p>
-
-<h3>Mall security jobs Dubai</h3>
-<p>The most common Dubai posting. Customer-facing, long standing shifts, SIRA licensed.</p>
-
-<h3>Camp security guard jobs UAE</h3>
-<p>Construction and labour accommodation sites, typically with accommodation and transport included as standard.</p>
-
-<h3>Security supervisor jobs UAE</h3>
-<p>Quoted from AED 4,000 upward. Note the gap in the published data between guard and supervisor bands.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing Gulf routes and other markets? These cover them:</p>

@@ -447,19 +447,6 @@ JOBHTML;
 <h3>Is this a good route into sales?</h3>
 <p>It can be, because it teaches target profiles, decision maker mapping and the tools that sales teams run on. The usual next steps are lead generation specialist and then sales development. The quieter and often better paid route runs through data and CRM work instead.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li>Contact list building jobs remote</li>
-    <li>Lead list builder job description</li>
-    <li>Data extractor job meaning</li>
-    <li>Apollo io free plan credits per month</li>
-    <li>Can you export leads from Sales Navigator</li>
-    <li>How many leads per day is realistic</li>
-    <li>List building portfolio sample</li>
-    <li>Remote lead generation jobs Pakistan</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

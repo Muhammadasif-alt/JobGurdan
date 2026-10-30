@@ -169,32 +169,6 @@ class NurseJobsLondonOverseasRegistrationBlogSeeder extends Seeder
 <h3>Is passing the OSCE the final step?</h3>
 <p>Not always; identity checks and outstanding evidence may remain before the NMC registers you.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Nurse jobs in London for overseas nurses</h3>
-<p>NHS trust posts through NHS Jobs, with NMC registration and sponsorship.</p>
-
-<h3>NMC registration steps</h3>
-<p>Evaluation, English, Test of Competence, registration and an ID check.</p>
-
-<h3>Overseas nurse registration UK</h3>
-<p>£1,226 in NMC fees and tests since October 2026.</p>
-
-<h3>London international nursing jobs</h3>
-<p>Trusts such as Imperial recruit where Home Office rules allow.</p>
-
-<h3>CBT OSCE requirements</h3>
-<p>CBT £83 at Pearson VUE; OSCE £794 in the UK.</p>
-
-<h3>NMC fees 2026</h3>
-<p>Evaluation £167 and registration £182 from 1 October 2026.</p>
-
-<h3>IELTS for NMC</h3>
-<p>7, 7, 6.5 writing, 7.</p>
-
-<h3>Health and Care Worker visa nurse</h3>
-<p>A confirmed job offer, a certificate of sponsorship and a £324 or £628 fee.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Follow the NMC's current route, meet the English and Test of Competence requirements, budget from the October 2026 fees and apply only to roles that match your registration status. Treat registration, the job and the visa as separate approvals. This guide cannot promise registration, a job or a visa.</p>

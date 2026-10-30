@@ -283,32 +283,6 @@ HTML;
 <h3>What should I check before accepting an offer?</h3>
 <p>The employer's legal name and the hotel's address, plus the duties, pay, hours, accommodation and contract length. Ask for clarification when the advert, the interview and the contract describe different terms.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>How to apply for hotel jobs in Dubai</h3>
-<p>Use the hotel group's own careers page and apply to a specific vacancy.</p>
-
-<h3>Rotana careers</h3>
-<p>Rotana runs its own careers portal with hotel vacancies in the UAE and other countries.</p>
-
-<h3>Jumeirah careers</h3>
-<p>Jumeirah lists hotel roles on its official careers page.</p>
-
-<h3>Accor careers Italy</h3>
-<p>Accor's Italy page includes student and graduate routes.</p>
-
-<h3>Cameriere jobs in Italy</h3>
-<p>Search with the Italian title for waiter roles.</p>
-
-<h3>Housekeeping jobs in the UAE</h3>
-<p>A common entry route; the employer arranges the work permit.</p>
-
-<h3>Hotel CV tips</h3>
-<p>Match your CV to one role and give honest, specific examples.</p>
-
-<h3>Work permit for hotel jobs in Italy</h3>
-<p>The employer requests a nulla osta under the Decreto Flussi quota.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related hospitality and Gulf guides:</p>

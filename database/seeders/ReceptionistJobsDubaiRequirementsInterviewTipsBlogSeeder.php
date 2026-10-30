@@ -165,32 +165,6 @@ class ReceptionistJobsDubaiRequirementsInterviewTipsBlogSeeder extends Seeder
 <h3>What should I wear to the interview?</h3>
 <p>Clean, professional clothing suited to the workplace, and follow any instructions the employer gives.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Receptionist jobs in Dubai</h3>
-<p>Search employer careers sites and read the full requirements.</p>
-
-<h3>Dubai receptionist requirements</h3>
-<p>Experience, English, a property system and sometimes Arabic, depending on the advert.</p>
-
-<h3>Receptionist interview tips UAE</h3>
-<p>Prepare examples of handling a complaint and competing requests.</p>
-
-<h3>Front desk jobs Dubai</h3>
-<p>Hotel front desks are shift work; get any night allowance in writing.</p>
-
-<h3>Hotel receptionist jobs Dubai</h3>
-<p>Accor's QE2 advert asked for UAE hotel experience and Opera.</p>
-
-<h3>Receptionist jobs Dubai for freshers</h3>
-<p>Look for adverts that accept beginners and show transferable skills.</p>
-
-<h3>Receptionist salary Dubai</h3>
-<p>No statutory minimum; the written offer is the only figure that counts.</p>
-
-<h3>Receptionist visa Dubai</h3>
-<p>The employer may not charge you recruitment costs under Article 6.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Choose receptionist jobs in Dubai that match your experience, languages and availability. Prepare specific interview examples, show accuracy and courtesy, and verify the complete written offer, including wages through the Wage Protection System and any shift allowance, before you accept. This guide cannot promise work, income, a visa or an interview.</p>

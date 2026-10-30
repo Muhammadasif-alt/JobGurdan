@@ -427,19 +427,6 @@ JOBHTML;
 <h3>Can I get this work from Pakistan?</h3>
 <p>Yes. It is among the more accessible remote categories because the output is a file and the assessment is a portfolio. Check each listing's country requirement, confirm who pays for the tools, and agree the deliverable definition in writing before starting.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li>Canva social media jobs in Pakistan</li>
-    <li>Canva assistant job description</li>
-    <li>Is Canva Pro needed for client work</li>
-    <li>Canva licence commercial use</li>
-    <li>Social media designer salary Pakistan</li>
-    <li>Instagram carousel design rates</li>
-    <li>Canva portfolio examples for beginners</li>
-    <li>Remote social media assistant jobs</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

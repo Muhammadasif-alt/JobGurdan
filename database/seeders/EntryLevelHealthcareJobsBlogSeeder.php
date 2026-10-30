@@ -319,32 +319,6 @@ JOBHTML;
 <h3>Is a medical assistant job entry level?</h3>
 <p>Partly. BLS lists a postsecondary nondegree award as typical, and many employers, including a Cleveland Clinic posting checked in 2026, require completion of a medical assisting program before you start.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Healthcare jobs with no experience</h3>
-<p>Home health aide, personal care aide and patient care assistant roles with paid training.</p>
-
-<h3>Healthcare jobs without a degree</h3>
-<p>Nursing assistant, phlebotomist, medical records specialist and medical equipment preparer.</p>
-
-<h3>Patient care assistant paid training</h3>
-<p>Offered by some hospital systems, including Mayo Clinic, with pay during training.</p>
-
-<h3>CNA training hours</h3>
-<p>At least 75 clock hours for nursing home nurse aides under federal rules, including 16 supervised.</p>
-
-<h3>Home health aide salary</h3>
-<p>A median of $35,800 a year, or $17.21 an hour, in May 2025.</p>
-
-<h3>Phlebotomist salary</h3>
-<p>A median of $45,230 a year, or $21.75 an hour, in May 2025.</p>
-
-<h3>Medical records specialist salary</h3>
-<p>A median of $51,140 a year, the highest of the no-degree roles compared here.</p>
-
-<h3>Fastest growing entry level healthcare jobs</h3>
-<p>Home health and personal care aides at 18 percent and medical assistants at 13 percent to 2035.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at a specific healthcare career? These go deeper:</p>

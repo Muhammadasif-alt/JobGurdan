@@ -329,32 +329,6 @@ JOBHTML;
 <h3>What is the School Bus Driver Improvement Course?</h3>
 <p>A government-approved course of at least 6.25 hours that Ontario requires for a Class B or E licence. The certificate is valid for 5 years.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Class B licence Ontario</h3>
-<p>For school buses with more than 24 passengers, from age 21, with a knowledge test, road test and improvement course.</p>
-
-<h3>Class 2 licence Alberta</h3>
-<p>Covers any bus, from age 18 with a full Class 5 licence, after mandatory entry-level training.</p>
-
-<h3>TransLink bus driver salary</h3>
-<p>Coast Mountain Bus Company pays $29.20 an hour in training and $41.72 at the top rate, from April 2025.</p>
-
-<h3>Bus driver jobs Vancouver</h3>
-<p>A Job Bank median of $35.00 an hour in the Lower Mainland&ndash;Southwest region, with a Good outlook for BC.</p>
-
-<h3>Bus driver jobs Nova Scotia</h3>
-<p>A Good outlook, where employers usually ask only for a Class 5 licence and provide free Class 2 training.</p>
-
-<h3>Bus driver LMIA</h3>
-<p>Usually in the low-wage stream at Job Bank medians, with no exemption from the 6% unemployment rule in big cities.</p>
-
-<h3>Quebec school bus certificate</h3>
-<p>15 hours of training, then a 6-hour refresher every three years.</p>
-
-<h3>Air brake endorsement for bus drivers</h3>
-<p>Z in Ontario, Q in Alberta and A in Manitoba and Saskatchewan.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing driving jobs and routes into Canada? These cover it:</p>

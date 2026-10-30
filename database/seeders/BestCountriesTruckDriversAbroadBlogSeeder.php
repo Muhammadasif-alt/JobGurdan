@@ -182,32 +182,6 @@ class BestCountriesTruckDriversAbroadBlogSeeder extends Seeder
 <h3>How much does a truck driver earn abroad?</h3>
 <p>It varies widely. As a benchmark, the US median is $58,640 a year for heavy and tractor-trailer drivers (BLS, May 2025). Each country publishes its own wage data.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Truck driver jobs abroad</h3>
-<p>Best in Canada, Australia, New Zealand and parts of Europe.</p>
-
-<h3>HGV driver overseas</h3>
-<p>Generally not sponsored in the UK.</p>
-
-<h3>CDL driver jobs abroad</h3>
-<p>The US has tight rules for foreign drivers.</p>
-
-<h3>Truck driver visa sponsorship</h3>
-<p>Depends on the country's occupation lists.</p>
-
-<h3>Truck driver jobs Canada</h3>
-<p>Class 1 licence and permission to work needed.</p>
-
-<h3>Driver CPC Code 95</h3>
-<p>Needed for professional drivers in Europe.</p>
-
-<h3>Truck driver salary USA</h3>
-<p>$58,640 median for heavy truck drivers (BLS, May 2025).</p>
-
-<h3>Fake driver job offers</h3>
-<p>Any upfront fee is a warning sign.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

@@ -302,32 +302,6 @@ JOBHTML;
 <h3>Should I move from analyst to engineer?</h3>
 <p>It is a well-worn path and it pays more. The route is to take the build work inside your current role, detection rules, hardening, automation, and lead with it on your CV rather than with the monitoring.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Security engineer jobs USA</h3>
-<p>The broader title. Search it alongside "cybersecurity engineer": many employers use only one of the two.</p>
-
-<h3>Cloud security engineer jobs AWS Azure</h3>
-<p>The strongest premium in this field, and the shortest supply of candidates who understand both cloud and security.</p>
-
-<h3>Network security engineer jobs</h3>
-<p>Firewalls, segmentation and traffic inspection. The most direct crossover from a network engineering background.</p>
-
-<h3>Entry level cybersecurity engineer jobs</h3>
-<p>Genuinely scarce. The realistic entry point is analyst work or a platform role where you take on the hardening.</p>
-
-<h3>ISSE jobs security clearance</h3>
-<p>Government and defence contracting, RMF-heavy, and cleared almost without exception, so US citizenship and a sponsor.</p>
-
-<h3>Cybersecurity engineer vs analyst salary</h3>
-<p>Engineering pays more at the same seniority, though both are counted in one occupation at a $129,180 median, so the gap is market data rather than federal.</p>
-
-<h3>Kubernetes security engineer jobs</h3>
-<p>Growing fast. Plan CKA then CKS, in that order, because the second requires the first.</p>
-
-<h3>Remote cybersecurity engineer jobs</h3>
-<p>Common at commercial employers, rare in cleared work. Ask about the on-call rotation before the offer stage.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing the security and engineering routes? These cover them:</p>

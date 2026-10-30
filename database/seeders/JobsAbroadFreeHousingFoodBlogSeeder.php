@@ -156,32 +156,6 @@ class JobsAbroadFreeHousingFoodBlogSeeder extends Seeder
 <h3>What if the job ends?</h3>
 <p>Ask when you must leave the accommodation and plan where to stay.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Jobs abroad with free accommodation</h3>
-<p>Check deductions.</p>
-
-<h3>Overseas jobs with housing included</h3>
-<p>Compare the package.</p>
-
-<h3>Work abroad free food and housing</h3>
-<p>Ask in writing.</p>
-
-<h3>Live in jobs abroad</h3>
-<p>Check rest rules.</p>
-
-<h3>H-2A housing and meals</h3>
-<p>Housing free, meals may be charged.</p>
-
-<h3>Hotel staff accommodation</h3>
-<p>Duty meals only.</p>
-
-<h3>Cruise ship crew cabin</h3>
-<p>Shared cabins.</p>
-
-<h3>Accommodation offset minimum wage</h3>
-<p>UK rules apply.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

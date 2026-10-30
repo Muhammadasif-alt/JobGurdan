@@ -26,7 +26,7 @@ it('renders the post with its long-tail sections and sibling guides', function (
         ->assertOk()
         ->assertSee('Cleaner Jobs in London')
         ->assertSee('Types of Cleaner Jobs in London')
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('/blog/construction-jobs-in-usa-for-foreigners', false)
         ->assertSee(CLEANER_APPLY_URL, false);
 });

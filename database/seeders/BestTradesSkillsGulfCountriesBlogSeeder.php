@@ -156,32 +156,6 @@ class BestTradesSkillsGulfCountriesBlogSeeder extends Seeder
 <h3>Are these trades ranked by pay?</h3>
 <p>No. This is an editorial list, not a salary or vacancy ranking.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Best trade jobs Gulf countries</h3>
-<p>Pick one specialist skill.</p>
-
-<h3>Skilled jobs UAE Saudi Arabia</h3>
-<p>Apply to real employers.</p>
-
-<h3>Which skills are in demand in Gulf</h3>
-<p>Read current adverts.</p>
-
-<h3>Trade worker Gulf visa</h3>
-<p>Per-country procedure.</p>
-
-<h3>Electrician jobs Gulf</h3>
-<p>Name your equipment.</p>
-
-<h3>HVAC technician Gulf</h3>
-<p>Commercial experience.</p>
-
-<h3>Welder jobs Saudi Arabia</h3>
-<p>Check test rules.</p>
-
-<h3>Gulf work authorisation</h3>
-<p>Verify before travel.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

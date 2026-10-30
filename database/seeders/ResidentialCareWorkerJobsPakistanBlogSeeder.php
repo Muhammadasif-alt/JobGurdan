@@ -252,32 +252,6 @@ HTML;
 <h3>What should I confirm before accepting a residential post?</h3>
 <p>Exact shift times, whether sleeping is permitted and paid, overnight staffing levels, the emergency escalation route, transport at shift end, and whether the night rate differs from the day rate. Get the answers in writing where you can.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Care home jobs in Lahore</h3>
-<p>Mostly advertised as attendant, caregiver or warden posts by special education campuses and private providers rather than under a care home label.</p>
-
-<h3>Night attendant jobs in Pakistan</h3>
-<p>Permanent residential posts, not overtime. Confirm sleeping arrangements, overnight staffing and the emergency escalation route before accepting.</p>
-
-<h3>Child Protection and Welfare Bureau jobs</h3>
-<p>Advertised on the Bureau's own jobs page and recruited through the Punjab Public Service Commission, with a fixed closing date and no walk-in route.</p>
-
-<h3>SOS Children's Villages Pakistan careers</h3>
-<p>Family-model residential care. The current listing is an Assistant Director (Trainee) Residential post, applied for by email with the job title in the subject line.</p>
-
-<h3>House parent jobs in Pakistan</h3>
-<p>The family-model title: a consistent carer living with a household group of children rather than staffing a dormitory shift.</p>
-
-<h3>Live in caregiver jobs Pakistan</h3>
-<p>Offered by private home care providers as 24/7 arrangements. In Punjab, direct employment by a household carries statutory entitlements.</p>
-
-<h3>Warden jobs in Pakistan</h3>
-<p>The usual institutional title for supervising a residential facility, common in government and boarding education adverts.</p>
-
-<h3>Residential support worker jobs</h3>
-<p>The closest international equivalent of this title. In Pakistan the work is advertised under attendant, caregiver and support titles instead.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

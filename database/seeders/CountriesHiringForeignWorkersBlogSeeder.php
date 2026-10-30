@@ -168,32 +168,6 @@ class CountriesHiringForeignWorkersBlogSeeder extends Seeder
 <h3>Where do I check a country's shortage list?</h3>
 <p>On the official immigration or labour site of that country, such as GOV.UK for the UK Temporary Shortage List or the Home Affairs site for Australia.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Countries hiring foreign workers 2026</h3>
-<p>Canada, Germany, Australia, the UK and six others in this list.</p>
-
-<h3>Jobs abroad with visa sponsorship</h3>
-<p>Available mainly for skilled and shortage occupations.</p>
-
-<h3>Easiest country to get a work visa</h3>
-<p>Depends on your occupation and passport.</p>
-
-<h3>Shortage occupation list</h3>
-<p>The official list of roles a country is short of.</p>
-
-<h3>Jobs for foreigners in Canada</h3>
-<p>Via an employer-supported work permit or Express Entry.</p>
-
-<h3>Germany Opportunity Card</h3>
-<p>A points-based visa to look for skilled work.</p>
-
-<h3>UK Skilled Worker visa</h3>
-<p>Needs a licensed sponsor and an eligible job.</p>
-
-<h3>Fake overseas job offers</h3>
-<p>Any upfront fee or guaranteed visa is a warning sign.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

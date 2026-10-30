@@ -149,32 +149,6 @@ class SheetMetalApprenticeshipClevelandPittsburghMinneapolisBlogSeeder extends S
 <h3>Is there an application fee in Cleveland?</h3>
 <p>The steps page mentions no fee. Ask before booking the exam.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Sheet metal apprenticeship Cleveland</h3>
-<p>Local 33 Cleveland/Vermilion.</p>
-
-<h3>Sheet metal apprenticeship Pittsburgh</h3>
-<p>Local 12, year-round applications.</p>
-
-<h3>Sheet metal apprenticeship Minneapolis</h3>
-<p>Local 10 Metro, contractor employment.</p>
-
-<h3>SMART union apprenticeship requirements</h3>
-<p>Set by each local.</p>
-
-<h3>Sheet metal local 33</h3>
-<p>Verification email required.</p>
-
-<h3>Sheet metal local 12 test date</h3>
-<p>20 March 2027 listed.</p>
-
-<h3>Sheet metal local 10 Metro</h3>
-<p>Four years, 8,000 hours.</p>
-
-<h3>Sheet metal entrance exam</h3>
-<p>Format differs by local.</p>
-
 <h2>A Note for Applicants in Pakistan</h2>
 
 <p>These programmes need work authorisation in the United States, and an apprenticeship notice does not sponsor a visa. Never pay an agent for a place in a union programme, and read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you send money or documents.</p>

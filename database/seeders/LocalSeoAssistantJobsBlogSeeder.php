@@ -467,19 +467,6 @@ JOBHTML;
 <h3>Which tools do I need to buy?</h3>
 <p>None to start. The Business Profile itself is free, Search Console is free, and Whitespark offers free tools plus a free citation-finder tier. BrightLocal's 14 day trial requires no credit card, which makes it the practical option in Pakistan where an international card is usually the real obstacle. Paid subscriptions are for agencies with many locations to report on.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li>Local SEO assistant jobs in Pakistan</li>
-    <li>GMB expert jobs Lahore salary</li>
-    <li>Can you put keywords in Google Business Profile name</li>
-    <li>Do citations help local SEO ranking</li>
-    <li>Google review policy for businesses</li>
-    <li>Google Business Profile suspended reinstatement</li>
-    <li>Local SEO tools free for beginners</li>
-    <li>Remote local SEO jobs for Pakistanis</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

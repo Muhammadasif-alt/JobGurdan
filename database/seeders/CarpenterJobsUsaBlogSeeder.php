@@ -350,41 +350,6 @@ JOBHTML;
 <h3>Can a carpenter get a US work visa?</h3>
 <p>Not through H-1B, which requires a bachelor's degree in a specific specialty as the normal entry route. H-2B covers temporary and seasonal carpentry work, is capped at 66,000 a year, and must be started by the employer through a Department of Labor labour certification.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Carpentry apprenticeship near me</h3>
-<p>Paid from day one, typically four years and about 8,000 hours, ending in a nationally recognised credential without tuition debt.</p>
-
-<h3>OSHA 10 construction card</h3>
-<p>Voluntary federal training that does not expire, but legally mandated in Nevada, New York City and five states on public work.</p>
-
-<h3>Contractor licence requirements by state</h3>
-<p>No threshold at all in Oregon, $1,000 in California and Virginia, business-level only in Minnesota, and registration rather than licensing in New Jersey.</p>
-
-<h3>Framing vs finish carpentry</h3>
-<p>Two different trades in practice, and California licenses them separately as C-5 framing and rough carpentry and C-6 cabinet, millwork and finish carpentry.</p>
-
-<h3>Journeyman carpenter meaning</h3>
-<p>Apprenticeship completion, and a step on an employer or union pay scale, not a licence a regulator issues in most states.</p>
-
-<h3>Carpenter apprenticeship entry requirements</h3>
-<p>Set by each sponsor. A diploma is common but not universal, DOL sample qualifications allow alternatives, and the federal minimum age is 16.</p>
-
-<h3>Union carpenter pay</h3>
-<p>Often claimed to be higher, but the United Brotherhood of Carpenters publishes no wage figures, so ask your local for its own schedule.</p>
-
-<h3>H-2B carpenter jobs</h3>
-<p>The realistic visa route for this trade, capped at 66,000 a year and started by the employer rather than the worker.</p>
-
-<h3>Carpenter salary USA</h3>
-<p>A $60,580 median and $29.12 an hour, with the top quarter above $76,830 and the top tenth above $99,910.</p>
-
-<h3>Highest paying states for carpenters</h3>
-<p>Hawaii at $85,280, Illinois at $79,000, California at $75,920, Massachusetts at $75,200 and Washington at $74,190.</p>
-
-<h3>Self employed carpenter</h3>
-<p>About a quarter of the trade. No official earnings distribution exists for it, so treat any self-employed income figure as an estimate.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing trades and construction routes? These cover them:</p>

@@ -244,32 +244,6 @@ JOBHTML;
 <h3>Can I get an EV technician visa?</h3>
 <p>There is no EV-specific visa. Technicians use the same routes as mechanics, which in the UK are now narrow for roles below degree level.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>EV technician course</h3>
-<p>IMI Levels 1 to 4 in the UK; NAVTTC in Pakistan.</p>
-
-<h3>IMI Level 3 electric vehicle</h3>
-<p>Isolating and repairing high-voltage systems.</p>
-
-<h3>IMI Level 4 EV</h3>
-<p>Live high-voltage work and battery repair.</p>
-
-<h3>NAVTTC EV technician course</h3>
-<p>Free, six months, NVQF Level 3.</p>
-
-<h3>Global EV sales 2025</h3>
-<p>More than 20 million, one in four new cars.</p>
-
-<h3>EV technician salary</h3>
-<p>Paid within the mechanic trade; $50,620 US median for auto technicians.</p>
-
-<h3>Hybrid vehicle technician training</h3>
-<p>The same IMI electric and hybrid levels apply.</p>
-
-<h3>High voltage vehicle safety training</h3>
-<p>Level 2 and above covers working on a made-safe vehicle.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the mechanic cluster and related trades:</p>

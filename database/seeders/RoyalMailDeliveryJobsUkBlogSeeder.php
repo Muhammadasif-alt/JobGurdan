@@ -355,32 +355,6 @@ JOBHTML;
 <h3>Is there an online test, and do I need a CV?</h3>
 <p>Royal Mail lists online tests as a step that applies to some roles rather than all, and it does not say a CV is unnecessary. Assume you will need your work history to hand, plus licence details for driving roles.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Royal Mail jobs near me</h3>
-<p>Filter the Delivery and Sorting page by location; vacancies are tied to a specific delivery office rather than a general area.</p>
-
-<h3>Postperson with Driving</h3>
-<p>The most advertised delivery role, needing a full UK manual licence registered to your current address with no more than 6 penalty points.</p>
-
-<h3>Royal Mail Christmas jobs</h3>
-<p>Seasonal Mail Sorter, Parcel Delivery Driver, LGV and MGV Driver and Customer Service Assistant roles, with Northern Ireland handled by Angard Staffing.</p>
-
-<h3>CWU pay deal 2026</h3>
-<p>3% from 1 April 2026 for existing staff, backdated, and 4.75% for new entrants including a 1.75% equalisation step.</p>
-
-<h3>Royal Mail 37 hour contract</h3>
-<p>From 1 June 2026 Royal Mail employs new full-time staff only on 37-hour contracts, replacing the previous 40-hour recruitment practice.</p>
-
-<h3>Angard Staffing</h3>
-<p>Royal Mail Group's own dedicated recruitment partner, covering delivery driver, mail sorter and customer service roles, and all Northern Ireland vacancies.</p>
-
-<h3>Royal Mail second class alternate days</h3>
-<p>Ofcom allowed it from 28 July 2025, still within three working days, with estimated savings of &pound;250m to &pound;425m a year.</p>
-
-<h3>Skilled Worker visa salary threshold</h3>
-<p>&pound;41,700 a year or the occupation's going rate, whichever is higher, under the rules in force since 22 July 2025.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If Royal Mail is one option rather than the only one, these cover the rest of the UK market:</p>

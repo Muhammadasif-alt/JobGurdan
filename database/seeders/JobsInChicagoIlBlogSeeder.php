@@ -137,32 +137,6 @@ class JobsInChicagoIlBlogSeeder extends Seeder
 <h3>Do CPS bus driver applicants apply to CPS?</h3>
 <p>CPS says it does not hire bus drivers directly; resumes go to outside companies that manage that hiring.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Jobs in Chicago IL</h3>
-<p>Start with official portals.</p>
-
-<h3>Chicago jobs hiring</h3>
-<p>Check each posting date.</p>
-
-<h3>Entry level jobs Chicago</h3>
-<p>Match minimum qualifications.</p>
-
-<h3>Full time jobs Chicago</h3>
-<p>Confirm hours and schedule.</p>
-
-<h3>City of Chicago jobs</h3>
-<p>Public CAREERS portal.</p>
-
-<h3>CTA careers</h3>
-<p>Active versus upcoming roles.</p>
-
-<h3>Chicago Public Schools jobs</h3>
-<p>Teaching and non-teaching routes.</p>
-
-<h3>IllinoisJobLink</h3>
-<p>Free state job matching.</p>
-
 <h2>A Note for Applicants in Pakistan</h2>
 
 <p>A job listing on an employer's portal is not a visa offer, and most of these employers do not sponsor workers for entry-level roles. Never pay an agent for an interview or a "guaranteed" US job, and read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> first.</p>

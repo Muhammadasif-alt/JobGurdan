@@ -166,32 +166,6 @@ class PoliceConstableRecruitmentUttarPradeshBlogSeeder extends Seeder
 <h3>Can someone from Pakistan apply?</h3>
 <p>No. This is an Indian state police recruitment for Indian nationals.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>UP Police constable eligibility</h3>
-<p>Intermediate, the age band in the notification and the PST for your category.</p>
-
-<h3>Uttar Pradesh police constable recruitment</h3>
-<p>Written test, document verification, PST and PET, run by the UPPRPB.</p>
-
-<h3>UP Police physical test</h3>
-<p>The PST measures; the PET is the run.</p>
-
-<h3>UP Police constable running requirements</h3>
-<p>4.8 km in 25 minutes for men, 2.4 km in 14 minutes for women.</p>
-
-<h3>UP Police PST height</h3>
-<p>168 cm for general and OBC men, 152 cm for women.</p>
-
-<h3>UP Police PET 4.8 km</h3>
-<p>The men's run; it qualifies but adds no marks.</p>
-
-<h3>UP Police age relaxation</h3>
-<p>A one-time three-year relaxation for the 32,679-post cycle only.</p>
-
-<h3>UPPBPB constable recruitment</h3>
-<p>Notices, admit cards and results appear on the board's website.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Confirm the recruitment cycle, eligibility, amendments and documents first, prepare separately for measurement and the run, and follow the board's latest notices throughout selection. This guide cannot promise selection or appointment.</p>

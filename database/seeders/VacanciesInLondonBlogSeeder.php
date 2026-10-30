@@ -317,32 +317,6 @@ JOBHTML;
 <h3>Where should I look for London vacancies first?</h3>
 <p>The government's Find a Job service, NHS Jobs, Civil Service Jobs, Transport for London careers, the 32 borough council career pages and university HR pages. Large London employers publish on their own systems before anywhere else.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Jobs in London</h3>
-<p>The same market, searched more broadly; narrowing by borough cuts the competition sharply.</p>
-
-<h3>Part-time jobs in London</h3>
-<p>Identical legal rights to full-time work, pro-rated, including the 5.6 week holiday minimum.</p>
-
-<h3>Full-time jobs London</h3>
-<p>Permanent full-time work carries unfair dismissal protection and redundancy rights with service.</p>
-
-<h3>Entry-level jobs London</h3>
-<p>Graduate, trainee and apprentice routes; the apprentice minimum is £8.00 an hour.</p>
-
-<h3>Immediate start jobs London</h3>
-<p>Usually agency work, where equal pay treatment only begins after 12 weeks with the same hirer.</p>
-
-<h3>London minimum wage 2026</h3>
-<p>£12.71 for 21 and over. There is no statutory London weighting.</p>
-
-<h3>London jobs with visa sponsorship</h3>
-<p>Graduate and professional roles only; the floor is £41,700 or the going rate.</p>
-
-<h3>London unemployment rate</h3>
-<p>6.8 per cent in May to July 2026, the highest rate of any UK region.</p>
-
 <h2>More Job Guides</h2>
 
 <p>These cover the questions that come next:</p>

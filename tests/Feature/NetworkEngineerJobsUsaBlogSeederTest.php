@@ -27,7 +27,7 @@ it('renders with its long-tail sections and the search link', function () {
     $this->get('/blog/'.NETWORK_ENGINEER_SLUG)
         ->assertOk()
         ->assertSee('Network Engineer Jobs in USA')
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('https://jobgader.com/categories/it-software?location=United%20States', false);
 });
 

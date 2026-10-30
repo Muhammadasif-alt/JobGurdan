@@ -346,19 +346,6 @@ JOBHTML;
 <h3>How do I check a Saudi job offer is genuine?</h3>
 <p>Through Qiwa, where the employer files the contract and you can approve, reject or propose an amendment. Do not use Musaned, which covers domestic workers only. Note that Qiwa is tied to your residency identity, so a pre-departure check is not something you can rely on. In Pakistan, verify the promoter's licence on the Bureau of Emigration's active list before paying anything.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li>Saudi Council of Engineers registration requirements</li>
-    <li>SABIC Jubail engineer vacancies</li>
-    <li>Saudi end of service benefits resignation calculator</li>
-    <li>Saudization engineering 30 percent 2026</li>
-    <li>Saudi dependant fee SAR 400</li>
-    <li>TADARRUJ program eligibility</li>
-    <li>Qiwa contract authentication expat</li>
-    <li>Professional verification exam Pakistan Saudi</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

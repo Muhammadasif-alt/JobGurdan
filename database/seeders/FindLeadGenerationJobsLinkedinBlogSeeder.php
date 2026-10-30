@@ -436,32 +436,6 @@ JOBHTML;
 <h3>Why do remote jobs reject me instantly?</h3>
 <p>Every LinkedIn job is posted against a country, and employers can add work authorisation and visa screening questions marked must-have. Failing them can trigger an automatic archive and rejection email within minutes of applying.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>LinkedIn job alerts not working</h3>
-<p>Alerts arrive daily or weekly, never instantly, and you can hold up to twenty at once. If you need to be early to a posting, run the search manually with date posted set to past 24 hours instead.</p>
-
-<h3>LinkedIn Easy Apply vs company website</h3>
-<p>Easy Apply is convenient and therefore crowded. Where an employer has its own careers page, applying there as well costs little and puts you in a smaller pool.</p>
-
-<h3>Under 10 applicants LinkedIn filter</h3>
-<p>It filters to postings with fewer than ten applicants so far, which is the most useful filter on the page. Some advanced filtering is sold with Premium, so check what your own account shows.</p>
-
-<h3>Is LinkedIn Sales Navigator worth it for job seekers</h3>
-<p>No. It is a sales prospecting tool with no job search features, at around USD 119.99 a month. Premium Career at about USD 39.99 is the job seeker product, and even that is optional.</p>
-
-<h3>LinkedIn account restricted automation</h3>
-<p>LinkedIn restricts accounts where it suspects an automation tool, and says prohibited tools may stop working without notice. Restrictions typically last about a week, and recovery requires disabling the software.</p>
-
-<h3>Appointment setter jobs remote</h3>
-<p>One of the most accessible entry points in this field and a title most guides omit. High volume, heavily remote, and usually advertised without a degree requirement.</p>
-
-<h3>Night shift SDR jobs Lahore</h3>
-<p>Pakistani SDR roles are typically night shift because the clients are American. Real listings run from around 6:00pm to 3:00am in Lahore and 9:00pm to 5:30am in Karachi.</p>
-
-<h3>LinkedIn fake recruiter report</h3>
-<p>Open the profile, choose More then Report, and select impersonation or not a real person. For a job posting use More then Report this job, then spam or scam. LinkedIn does not tell the reported member who reported them.</p>
-
 <h2>More Job Guides</h2>
 
 <p>These pair with this one:</p>

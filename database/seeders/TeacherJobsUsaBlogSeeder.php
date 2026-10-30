@@ -326,32 +326,6 @@ JOBHTML;
 <h3>Do school counselors need a master's degree?</h3>
 <p>Usually, yes. The BLS lists a master's degree as the typical entry requirement, and public school counselors also need a state credential.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Teacher salary by state</h3>
-<p>From $103,552 in California to $54,975 in Mississippi, on the NEA's 2024-25 averages.</p>
-
-<h3>Starting teacher salary</h3>
-<p>$48,112 on average in 2024-25, from $64,640 in the District of Columbia to $36,682 in Montana, with 35% of districts starting at $50,000 or more.</p>
-
-<h3>J-1 teacher visa requirements</h3>
-<p>A bachelor's-equivalent degree, two years of teaching experience, English proficiency and meeting the host state's standards.</p>
-
-<h3>Teaching jobs in USA for foreigners</h3>
-<p>Mostly through J-1 exchange sponsors and districts willing to file H-1B petitions, after a credential evaluation and a state license.</p>
-
-<h3>Special education teacher salary</h3>
-<p>A BLS median of $67,170 in May 2025, and $74,260 for secondary special education teachers.</p>
-
-<h3>Substitute teacher jobs</h3>
-<p>A median of $41,670 a year, paid by the day. Each state sets its own substitute requirements.</p>
-
-<h3>Praxis test states</h3>
-<p>ETS lists 44 states, but California, Texas, Florida and New York use their own exams for most teaching certificates.</p>
-
-<h3>Arizona teacher jobs</h3>
-<p>Arizona ranks 23rd for elementary teacher jobs and 41st for their pay, with a mean of $58,920 in May 2025.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing teaching with other licensed and public service work? These cover it:</p>

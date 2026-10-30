@@ -332,32 +332,6 @@ JOBHTML;
 <h3>Can overseas teachers get QTS in England?</h3>
 <p>From a defined list of countries, yes, through the apply for QTS in England service. From 9 September 2026 teachers trained in Ghana, India or Nigeria are no longer eligible for it, and should look at assessment only or iQTS instead.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Teacher salary UK 2026</h3>
-<p>A &pound;34,069 start outside London, rising to &pound;46,940 on the main range, with an average teacher salary above &pound;52,800.</p>
-
-<h3>How to become a teacher in the UK</h3>
-<p>Gain QTS through one of four core training routes. The PGCE is optional; the QTS is not.</p>
-
-<h3>QTS vs PGCE</h3>
-<p>QTS is the legal qualification to teach. A PGCE is an academic award that does not confer it on its own.</p>
-
-<h3>Teaching jobs in Scotland</h3>
-<p>Require GTC Scotland registration rather than QTS, with a main grade scale of &pound;43,383 to &pound;54,453.</p>
-
-<h3>Supply teacher pay UK</h3>
-<p>Set by the agency, outside the statutory document, with equal treatment rights after 12 weeks in the same role.</p>
-
-<h3>Teachers' pension contributions</h3>
-<p>A career average scheme accruing at 1/57th, with member contributions from 7.4 to 12 per cent and 28.68 per cent from the employer.</p>
-
-<h3>Teacher training bursary 2026</h3>
-<p>Still the main draw into shortage subjects, but the maths scholarship has gone for 2026/27 and several subjects get nothing.</p>
-
-<h3>Teaching jobs UK for foreigners</h3>
-<p>QTS recognition covers a defined country list; Ghana, India and Nigeria left it on 9 September 2026. iQTS remains open to everyone.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing teaching and other UK routes? These cover them:</p>

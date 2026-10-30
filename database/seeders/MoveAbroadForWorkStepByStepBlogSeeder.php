@@ -156,32 +156,6 @@ class MoveAbroadForWorkStepByStepBlogSeeder extends Seeder
 <h3>When can I start work?</h3>
 <p>Only when your permission and its conditions allow it.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>How to move abroad for work</h3>
-<p>Eligibility first.</p>
-
-<h3>Step by step guide to work overseas</h3>
-<p>Ten steps.</p>
-
-<h3>Relocate for job abroad</h3>
-<p>Verify the offer.</p>
-
-<h3>Moving abroad checklist</h3>
-<p>Use the table.</p>
-
-<h3>Work abroad budget</h3>
-<p>Plan an emergency reserve.</p>
-
-<h3>Verified job offer</h3>
-<p>Confirm independently.</p>
-
-<h3>Emigrant protection Pakistan</h3>
-<p>Check with the BEOE.</p>
-
-<h3>First month abroad</h3>
-<p>Check the first payslip.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

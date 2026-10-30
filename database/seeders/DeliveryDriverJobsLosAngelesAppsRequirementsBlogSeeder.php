@@ -24,7 +24,7 @@ use Illuminate\Database\Seeder;
  *    Prop 22 mileage rate of $0.37 for 2026 is from the Treasurer's 23 December 2025 release via search.
  * 4. City of Los Angeles Office of Wage Standards fetched via the server: $18.42 from 1 July 2026. DIR fetched: $16.90
  *    statewide from 1 January 2026.
- * 5. FAQs expanded to eight; eight People Also Search For entries and a note for readers in Pakistan added.
+ * 5. FAQs expanded to eight and a note for readers in Pakistan added.
  *
  * Posters are the owner's (blog-355, 29 Oct 10.26 and 10.29 PM). The portal listing is in GuideJobListingsSeeder.
  * updateOrCreate, so re-running is safe.
@@ -151,32 +151,6 @@ class DeliveryDriverJobsLosAngelesAppsRequirementsBlogSeeder extends Seeder
 
 <h3>Can I start delivering immediately?</h3>
 <p>Not usually; screening and activation take time.</p>
-
-<h2>People Also Search For</h2>
-
-<h3>Delivery driver jobs in Los Angeles California</h3>
-<p>App work or employee routes.</p>
-
-<h3>Delivery driver apps Los Angeles</h3>
-<p>Uber Eats, DoorDash and Amazon Flex.</p>
-
-<h3>Delivery jobs own car</h3>
-<p>App contractor work; budget for costs.</p>
-
-<h3>Amazon delivery jobs Los Angeles</h3>
-<p>Flex with your car, or a DSP van job.</p>
-
-<h3>Amazon Flex requirements</h3>
-<p>21, licence, SSN, midsize four-door car or larger.</p>
-
-<h3>Part time delivery driver jobs Los Angeles</h3>
-<p>Apps allow flexible hours; employee jobs vary.</p>
-
-<h3>Prop 22 driver pay</h3>
-<p>120% of minimum wage for engaged time plus $0.37 a mile.</p>
-
-<h3>Los Angeles minimum wage 2026</h3>
-<p>$18.42 an hour from 1 July 2026.</p>
 
 <h2>Bottom Line</h2>
 

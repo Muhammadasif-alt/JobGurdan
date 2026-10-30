@@ -168,32 +168,6 @@ class SaveMoneyWorkingAbroadBlogSeeder extends Seeder
 <h3>Do I pay tax on overseas earnings?</h3>
 <p>Tax rules differ by country and by your residence, so check the destination's rules and your own obligations.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>How much can you save working abroad</h3>
-<p>Take-home income minus spending and commitments.</p>
-
-<h3>Savings working overseas</h3>
-<p>Depend on the contract and the cost of living.</p>
-
-<h3>Expat salary savings</h3>
-<p>Compare take-home pay, not gross salary.</p>
-
-<h3>Money working in Gulf countries</h3>
-<p>Compare the full package in local currency.</p>
-
-<h3>Overseas savings calculator</h3>
-<p>The formula in Step 1 works in a spreadsheet.</p>
-
-<h3>Remittances from abroad</h3>
-<p>Track them separately from savings.</p>
-
-<h3>Cost of relocating for work</h3>
-<p>List every upfront cost and who pays it.</p>
-
-<h3>Accommodation provided by employer</h3>
-<p>Confirm conditions and charges in writing.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

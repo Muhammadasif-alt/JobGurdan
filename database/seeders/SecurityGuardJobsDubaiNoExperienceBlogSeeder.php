@@ -147,32 +147,6 @@ class SecurityGuardJobsDubaiNoExperienceBlogSeeder extends Seeder
 <h3>Does G4S charge recruitment fees?</h3>
 <p>No. G4S says it never asks for money during the interview process and writes only from G4S email addresses.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Security guard jobs Dubai no experience</h3>
-<p>Look for employers who train beginners and sponsor the SIRA card.</p>
-
-<h3>Dubai security guard jobs freshers</h3>
-<p>Adverts saying "training provided" are the realistic target.</p>
-
-<h3>SIRA security guard requirements</h3>
-<p>Age 21 to 60, Emirates ID, residency, good conduct certificate, training and fitness.</p>
-
-<h3>Entry level security jobs UAE</h3>
-<p>Each emirate has its own regulator; SIRA covers Dubai.</p>
-
-<h3>SIRA card for beginners</h3>
-<p>Applied for by your employer after you are hired.</p>
-
-<h3>Security guard jobs Dubai for Pakistanis</h3>
-<p>Check the employer and any agent with BEOE before paying anything.</p>
-
-<h3>G4S jobs Dubai</h3>
-<p>Search G4S careers directly; it never charges candidates.</p>
-
-<h3>Security guard salary Dubai</h3>
-<p>No legal minimum; compare the fixed pay, overtime and housing in writing.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Look for employers who say they hire and train beginners, understand that the SIRA card comes through your employer, and build evidence of reliability and communication. Confirm the written package and a lawful work permit before you travel or start duties. This guide cannot promise a job, a licence or an income.</p>

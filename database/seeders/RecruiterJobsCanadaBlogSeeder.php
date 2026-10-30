@@ -343,32 +343,6 @@ JOBHTML;
 <h3>Is it a good time to become a recruiter in Canada?</h3>
 <p>Hiring is slower than guides suggest: unemployment was 6.4 per cent in August 2026 and employment fell by 42,000 that month, which hits commission-based agency roles hardest.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Talent acquisition specialist jobs Canada</h3>
-<p>The corporate title for in-house recruiters.</p>
-
-<h3>Recruiter salary Toronto</h3>
-<p>Ontario's Job Bank median is $34.87 an hour, before commission.</p>
-
-<h3>Ontario recruiter licence</h3>
-<p>Required since 1 July 2024 for recruiting for a fee, with a $1,500 application fee.</p>
-
-<h3>Ontario pay transparency job postings</h3>
-<p>Pay or a range no wider than $50,000 on postings from 1 January 2026.</p>
-
-<h3>CHRP vs CPHR</h3>
-<p>The CHRP is Ontario's entry designation; the CPHR is used in most other provinces.</p>
-
-<h3>Agency recruiter commission</h3>
-<p>Paid on top of base salary, usually per placement.</p>
-
-<h3>Technical recruiter jobs Canada</h3>
-<p>IT and engineering hiring, often at the higher end of the wage range.</p>
-
-<h3>Entry level recruiter jobs</h3>
-<p>Often filled from sales and customer service backgrounds.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing hiring and Canadian office jobs? These cover them:</p>

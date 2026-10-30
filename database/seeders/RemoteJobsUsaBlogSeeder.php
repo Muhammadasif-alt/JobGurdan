@@ -293,32 +293,6 @@ JOBHTML;
 <h3>How do employers verify remote workers?</h3>
 <p>With Form I-9. Since 1 August 2023, employers enrolled in E-Verify can examine documents over a live video call; others must see them in person.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Telework rate US 2026</h3>
-<p>21.6% in August 2026, against 22.1% a year earlier.</p>
-
-<h3>Remote customer service jobs USA pay</h3>
-<p>A BLS median of $44,770 for customer service representatives in May 2025.</p>
-
-<h3>Remote software developer salary</h3>
-<p>A median of $135,980, with the lowest-paid tenth at $82,460.</p>
-
-<h3>Remote data entry jobs USA</h3>
-<p>A median of $41,340 for data entry keyers, and a common target for fake job offers.</p>
-
-<h3>1099 remote jobs taxes</h3>
-<p>Self-employment tax of 15.3%, and a Form 1099-NEC once a client pays you $2,000 in a year.</p>
-
-<h3>Remote jobs for foreigners in USA</h3>
-<p>Work done abroad needs no Form I-9, is paid as foreign-source income and uses a Form W-8.</p>
-
-<h3>Task scams</h3>
-<p>Fake online "tasks" that ask you to deposit money to unlock pay, reported by about 20,000 people in the first half of 2024.</p>
-
-<h3>Remote work breaks law</h3>
-<p>Breaks of 20 minutes or less must be paid even when you work from home.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at a specific remote role, or at the jobs behind these medians? These cover it:</p>

@@ -190,32 +190,6 @@ class CaregiverJobsCalgaryVisaSponsorshipBlogSeeder extends Seeder
 <h3>What is the best website for caregiver jobs in Calgary?</h3>
 <p>Job Bank, the official government board, plus home care agencies' own careers pages.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Caregiver jobs in Calgary with visa sponsorship</h3>
-<p>LMIA-backed work permits, offered by some employers.</p>
-
-<h3>Caregiver jobs Calgary</h3>
-<p>Home support, senior care, companion and health care aide roles.</p>
-
-<h3>Home support worker Calgary</h3>
-<p>NOC 44101, $20 median an hour on Job Bank.</p>
-
-<h3>Caregiver salary Calgary</h3>
-<p>$17 to $26 an hour, updated November 2025.</p>
-
-<h3>LMIA caregiver jobs Canada</h3>
-<p>The employer applies for the LMIA, then you apply for the permit.</p>
-
-<h3>Home care worker pilot 2026</h3>
-<p>Paused for new applications until March 2030.</p>
-
-<h3>Health care aide Alberta</h3>
-<p>A 15 to 27 week certificate, average wage $20.27.</p>
-
-<h3>Live-in caregiver Calgary</h3>
-<p>Get room terms and deductions in writing.</p>
-
 <h2>Bottom Line</h2>
 
 <p>A Calgary caregiver job with sponsorship is possible through an employer's LMIA, but it is a temporary work permit while the PR pilots are paused until March 2030. Compare offers against Job Bank's $17 to $26 range, get the HCA and First Aid certificates, and verify every employer before you pay or share documents. This guide cannot promise a job, a work permit or PR.</p>

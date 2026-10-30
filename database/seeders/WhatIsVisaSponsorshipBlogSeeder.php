@@ -166,32 +166,6 @@ class WhatIsVisaSponsorshipBlogSeeder extends Seeder
 <h3>How do I know a sponsored offer is real?</h3>
 <p>Verify the employer and route independently and never pay for a job offer.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>What is visa sponsorship</h3>
-<p>Employer support within a set process.</p>
-
-<h3>How does visa sponsorship work</h3>
-<p>Offer, employer steps, your application.</p>
-
-<h3>Employer visa sponsorship explained</h3>
-<p>The employer and worker both have duties.</p>
-
-<h3>Sponsored work visa guide</h3>
-<p>Route by route.</p>
-
-<h3>Certificate of Sponsorship UK</h3>
-<p>A reference, not an approval.</p>
-
-<h3>H-1B employer petition</h3>
-<p>Filed by the US employer.</p>
-
-<h3>AEWV accredited employer</h3>
-<p>New Zealand employer accreditation.</p>
-
-<h3>Genuine sponsored job offer</h3>
-<p>Verify the employer first.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

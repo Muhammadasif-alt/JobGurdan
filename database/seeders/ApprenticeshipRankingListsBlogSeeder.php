@@ -165,32 +165,6 @@ class ApprenticeshipRankingListsBlogSeeder extends Seeder
 <h3>Is there a pass mark for the interview?</h3>
 <p>NEIEP uses 70% as the minimum to receive a rank. Other programmes set their own.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>How apprenticeship ranking lists work</h3>
-<p>Score, rank, openings.</p>
-
-<h3>Apprenticeship ranked list</h3>
-<p>Ordered pool of eligible applicants.</p>
-
-<h3>Apprenticeship interview score</h3>
-<p>Often decides the rank.</p>
-
-<h3>Apprenticeship waiting list</h3>
-<p>Wait depends on hiring demand.</p>
-
-<h3>NEIEP hiring list</h3>
-<p>Valid two years or until exhausted.</p>
-
-<h3>Apprenticeship re-interview</h3>
-<p>Conditions set by the programme.</p>
-
-<h3>Pool of eligibles</h3>
-<p>Eligible applicants, not yet apprentices.</p>
-
-<h3>Apprenticeship rank expiry</h3>
-<p>Check your own expiry date.</p>
-
 <h2>A Note for Applicants in Pakistan</h2>
 
 <p>A US ranked list is part of a US employment process and needs work authorisation in the United States. Never pay an agent for a better rank or a guaranteed place, and check any offer against <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">our fake job offer guide</a>.</p>

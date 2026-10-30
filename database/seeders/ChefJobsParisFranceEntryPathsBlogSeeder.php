@@ -25,7 +25,7 @@ use Illuminate\Database\Seeder;
  * 4. France-Visas and Dorchester Collection both refuse our network and the server's. The employer-first work
  *    authorisation and the "salarie" and "travailleur temporaire" long-stay visas are confirmed from France-Visas'
  *    own search snippet and secondary sources; Dorchester Collection is not linked.
- * 5. FAQs expanded to eight; eight People Also Search For entries and a note for readers in Pakistan added.
+ * 5. FAQs expanded to eight and a note for readers in Pakistan added.
  *
  * Posters are the owner's (blog-355, 28 Oct 11.08 and 11.09 PM). The portal listing is in GuideJobListingsSeeder.
  * updateOrCreate, so re-running is safe.
@@ -158,32 +158,6 @@ class ChefJobsParisFranceEntryPathsBlogSeeder extends Seeder
 
 <h3>Can I train as an apprentice?</h3>
 <p>Yes, through an apprenticeship combining paid work and a course such as the CAP.</p>
-
-<h2>People Also Search For</h2>
-
-<h3>Chef jobs in Paris France</h3>
-<p>From commis to executive chef across hotels and restaurants.</p>
-
-<h3>Chef jobs in Paris France for foreigners</h3>
-<p>Need a right to work or an employer's work authorisation.</p>
-
-<h3>Commis chef jobs in Paris France</h3>
-<p>The usual entry role; requirements vary.</p>
-
-<h3>Chef jobs in Paris France with visa sponsorship</h3>
-<p>Ask whether the employer will request the work authorisation.</p>
-
-<h3>Chef salary in Paris France per month</h3>
-<p>From EUR 1,867.02 gross for 35 hours.</p>
-
-<h3>Cuisinier jobs Paris</h3>
-<p>Search France Travail with the French title.</p>
-
-<h3>France work visa for chefs</h3>
-<p>A long-stay "salarié" or "travailleur temporaire" visa after the employer's request.</p>
-
-<h3>SMIC 2026 France</h3>
-<p>EUR 12.31 gross an hour.</p>
 
 <h2>Bottom Line</h2>
 

@@ -397,32 +397,6 @@ JOBHTML;
 <h3>Which Toyota plants hire period employees?</h3>
 <p>Ten plants in Aichi Prefecture only: Honsha, Motomachi, Kamigo, Takaoka, Miyoshi, Tsutsumi, Myochi, Shimoyama, Kinuura and Tahara. Kariya is not among them, and Toyota's subsidiary manufacturers recruit separately.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Toyota kikan jugyoin recruitment</h3>
-<p>The official site is t-kikan.jp, carrying Toyota Motor Corporation's copyright. It is not a dispatch agency, and applications go directly to Toyota rather than through an intermediary.</p>
-
-<h3>Toyota factory job salary per month</h3>
-<p>Toyota's published monthly example is JPY 316,580 to JPY 353,500 in the first year, but it assumes a heavy roster including 20 hours of overtime and 78.25 hours of shift differential every month.</p>
-
-<h3>Japan factory jobs with visa sponsorship</h3>
-<p>Toyota's period employee programme offers none. The government route for manufacturing is Specified Skilled Worker in the Industrial Products Manufacturing field, which needs a skills test plus JLPT N4 or JFT-Basic A2.2.</p>
-
-<h3>Specified Skilled Worker automobile manufacturing</h3>
-<p>Automobile and auto-parts classifications were added to the Industrial Products Manufacturing field with effect from June 2026. Japan's Immigration Services Agency still lists the new work categories as in preparation.</p>
-
-<h3>Toyota dormitory rules</h3>
-<p>Single rooms with free rent and utilities, but no cars or motorcycles, no cooking beyond a microwave or kettle, Wi-Fi varying by building, and no family accommodation.</p>
-
-<h3>Toyota bonus 1 million yen</h3>
-<p>A campaign of JPY 400,000 plus JPY 600,000, limited to those joining from September 2026 and with absence conditions on both halves. Toyota states the period is subject to change.</p>
-
-<h3>Toyota new plant Japan</h3>
-<p>Toyota announced in August 2025 that it plans to acquire land in the Teihoucho area of Toyota City for a new vehicle plant, with operations planned for the early 2030s and models undecided.</p>
-
-<h3>Toyota shift timings factory</h3>
-<p>First shift 6:25 to 15:05 and second shift 16:00 to 00:40, alternating weekly at 7 hours 35 minutes of actual work. Some assignments run three shifts or a permanent day shift of 7:55 to 16:50.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If it is factory work abroad you are after rather than this one employer, these cover routes that are actually open:</p>

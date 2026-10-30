@@ -334,32 +334,6 @@ JOBHTML;
 <h3>Does a US database administrator need to know HIPAA and GDPR?</h3>
 <p>Only where they apply. HIPAA binds covered entities and their business associates; GDPR reaches a US employer only through Article 3(2) targeting or monitoring. The CCPA as amended by the CPRA, SOX section 404 and the PCI DSS standard are more commonly relevant.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Database administrator salary USA</h3>
-<p>A $104,620 median, with the measured spread running from $60,230 at the 10th percentile to $163,320 at the 90th.</p>
-
-<h3>SQL Server DBA jobs</h3>
-<p>The most commonly advertised platform. Pair it with the DP-300 certification if your employer runs Azure SQL.</p>
-
-<h3>Oracle DBA jobs</h3>
-<p>Concentrated in finance, government and large enterprises, and usually among the better-paid administrator posts.</p>
-
-<h3>Database architect salary</h3>
-<p>A separate BLS occupation with a $139,500 median and a 90th percentile of $204,000: $34,880 above the administrator median.</p>
-
-<h3>Cloud database administrator jobs</h3>
-<p>Amazon RDS, Azure SQL and Cloud SQL skills are now expected even in on-premises roles. Note the AWS database certification is retired.</p>
-
-<h3>Entry level DBA jobs</h3>
-<p>The bottom tenth of the occupation starts at $60,230. A bachelor's degree is the documented entry norm and there is no formal on-the-job training route.</p>
-
-<h3>Database administrator job outlook</h3>
-<p>Four per cent growth to 2035, about 6,500 net jobs, and roughly 7,300 openings a year that are mostly replacement.</p>
-
-<h3>Remote database administrator jobs</h3>
-<p>BLS publishes no telework rate for this occupation. Ask instead about the on-call rotation and maintenance windows.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing technical routes in the US market? These cover them:</p>

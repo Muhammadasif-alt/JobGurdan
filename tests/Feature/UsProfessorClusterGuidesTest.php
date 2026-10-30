@@ -43,17 +43,15 @@ it('publishes each guide with its banner and SEO fields', function (string $slug
     expect(count(array_filter(array_map('trim', explode(',', $blog->tags)))))->toBe(8);
 })->with('us professor cluster');
 
-it('carries exactly eight FAQs and eight People Also Search For entries', function (string $slug, string $seeder) {
+it('carries exactly eight FAQs and no People Also Search For block', function (string $slug, string $seeder) {
     $this->seed($seeder);
 
     $content = Blog::where('slug', $slug)->value('content');
 
     expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(8);
 
-    $pasf = substr($content, (int) strpos($content, 'People Also Search For'));
-    $pasf = substr($pasf, 0, (int) strpos($pasf, '<h2>More Job Guides'));
 
-    expect(substr_count($pasf, '<h3>'))->toBe(8);
+    expect(substr_count($content, 'People Also Search For'))->toBe(0);
 })->with('us professor cluster');
 
 it('renders each page with its long-tail sections', function (string $slug, string $seeder, string $heading) {
@@ -62,7 +60,7 @@ it('renders each page with its long-tail sections', function (string $slug, stri
     get('/blog/'.$slug)
         ->assertOk()
         ->assertSee($heading)
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('"FAQPage"', false);
 })->with('us professor cluster');
 

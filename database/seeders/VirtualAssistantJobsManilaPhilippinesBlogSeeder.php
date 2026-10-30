@@ -183,34 +183,6 @@ class VirtualAssistantJobsManilaPhilippinesBlogSeeder extends Seeder
 <h3>How do I avoid a fake job offer?</h3>
 <p>Verify the recruiter through the company's own website, and never pay for a job, training or unpaid client work.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Virtual assistant jobs Manila</h3>
-<p>Search company hiring pages and PhilJobNet, and read each posting's duties and schedule.</p>
-
-<h3>Virtual assistant Philippines beginners</h3>
-<p>Build calendar, spreadsheet and email skills and show them in a small practice portfolio.</p>
-
-<h3>Remote assistant jobs Manila</h3>
-<p>Check whether a role is remote, hybrid or needs onsite training.</p>
-
-<h3>How to become a virtual assistant</h3>
-<p>Practise administrative skills, build honest samples and apply to roles that match your experience.</p>
-
-<h3>PhilJobNet</h3>
-<p>It is the free job-matching portal run by the Department of Labor and Employment.</p>
-
-<h3>Entry level virtual assistant Philippines</h3>
-<p>Entry level can still ask for six months or more of experience, so read the requirements.</p>
-
-<h3>Virtual assistant portfolio</h3>
-<p>Use fictional practice projects and label them as practice work.</p>
-
-<h3>Virtual assistant graveyard shift</h3>
-<p>Shifts follow the client's time zone, so confirm the hours before you accept.</p>
-
-
-
 <h2>Bottom Line</h2>
 
 <p>To begin pursuing virtual assistant jobs in Manila, develop reliable administrative skills, create honest work samples, and apply through verified channels. Compare experience requirements, schedules, and contract terms carefully so your first role matches your abilities and availability.</p>

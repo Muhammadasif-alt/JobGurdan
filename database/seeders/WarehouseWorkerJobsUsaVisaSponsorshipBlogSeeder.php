@@ -266,32 +266,6 @@ JOBHTML;
 <h3>Should I pay an agent to get a warehouse visa?</h3>
 <p>No. H-2B workers must not be charged recruitment or visa fees, and nobody can guarantee a visa.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Warehouse worker jobs in USA with visa sponsorship</h3>
-<p>Seasonal and peak-load work sponsored through the H-2B visa.</p>
-
-<h3>H-2B warehouse jobs</h3>
-<p>Temporary non-agricultural work, subject to an annual limit.</p>
-
-<h3>Warehouse jobs for foreigners in USA</h3>
-<p>Open to foreign workers only through an eligible visa route.</p>
-
-<h3>EB-3 other workers</h3>
-<p>A permanent route that is rare and slow for warehouse roles.</p>
-
-<h3>Material mover jobs USA</h3>
-<p>The BLS groups them with hand laborers and stock movers.</p>
-
-<h3>Warehouse job from Pakistan</h3>
-<p>Possible only where an employer recruits in Pakistan and the visa is approved.</p>
-
-<h3>Warehouse worker salary USA</h3>
-<p>$19.35 an hour at the median in the BLS May 2025 estimates.</p>
-
-<h3>H-2B visa cap</h3>
-<p>66,000 new workers a year, with supplemental allocations in some years.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

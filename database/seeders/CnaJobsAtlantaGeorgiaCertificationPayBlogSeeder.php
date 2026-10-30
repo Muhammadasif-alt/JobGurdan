@@ -158,32 +158,6 @@ class CnaJobsAtlantaGeorgiaCertificationPayBlogSeeder extends Seeder
 <h3>Is a patient care technician always a CNA?</h3>
 <p>No. Employers use different titles and requirements, so read the posting.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>CNA jobs in Atlanta Georgia</h3>
-<p>23,260 nursing assistants work in the metro area.</p>
-
-<h3>CNA certification Georgia</h3>
-<p>85-hour approved training plus the NNAAP exam.</p>
-
-<h3>CNA salary Atlanta</h3>
-<p>$18.92 median hourly, $39,350 a year.</p>
-
-<h3>Nursing assistant jobs Atlanta</h3>
-<p>Hospitals, nursing homes, rehabilitation and home care.</p>
-
-<h3>Entry level CNA jobs Atlanta</h3>
-<p>Look for postings that welcome new graduates and offer orientation.</p>
-
-<h3>Georgia nurse aide registry</h3>
-<p>Your listing confirms certification to employers.</p>
-
-<h3>NNAAP exam Georgia</h3>
-<p>Written or oral test plus five skills, run by Credentia.</p>
-
-<h3>CNA renewal Georgia</h3>
-<p>Eight paid hours every 24 months, no fee.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Start with approved training and the NNAAP exam, get your registry listing, then compare Atlanta offers against the BLS benchmarks and the real working conditions. This guide cannot promise a job or a wage.</p>

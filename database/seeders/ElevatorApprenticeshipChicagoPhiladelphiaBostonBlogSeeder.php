@@ -175,32 +175,6 @@ class ElevatorApprenticeshipChicagoPhiladelphiaBostonBlogSeeder extends Seeder
 <h3>How old must I be?</h3>
 <p>At least 17 to apply and 18 to be registered, according to the NEIEP FAQ.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Elevator mechanic apprenticeship Chicago</h3>
-<p>IUEC Local 2, recruitment filled.</p>
-
-<h3>Elevator apprenticeship Philadelphia</h3>
-<p>IUEC Local 5, opens 19 October 2026.</p>
-
-<h3>Elevator mechanic apprenticeship Boston</h3>
-<p>IUEC Local 4, recruitment filled.</p>
-
-<h3>NEIEP apprenticeship application</h3>
-<p>Online, with a USD 25 fee.</p>
-
-<h3>IUEC Local 2</h3>
-<p>Chicago Ridge, Illinois.</p>
-
-<h3>IUEC Local 5</h3>
-<p>Philadelphia jurisdiction.</p>
-
-<h3>IUEC Local 4</h3>
-<p>Boston, with a separate Portland, Maine round.</p>
-
-<h3>EIAT preparation</h3>
-<p>70% correct to pass.</p>
-
 <h2>A Note for Applicants in Pakistan</h2>
 
 <p>The notices require authorisation to work in the United States and do not offer visa sponsorship. Never pay an agent for an application slot, and read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before sending money or documents.</p>

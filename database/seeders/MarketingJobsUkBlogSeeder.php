@@ -382,32 +382,6 @@ JOBHTML;
 <h3>Are marketing jobs remote or office-based?</h3>
 <p>Many are hybrid, with some fully remote and some office-based, particularly agency roles. Remote and hybrid working has narrowed the London pay premium in some sectors.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Marketing manager salary UK</h3>
-<p>GBP 30,000 to GBP 65,000 per the National Careers Service; the ONS director code (SOC 1132) median is about GBP 89,700.</p>
-
-<h3>Marketing executive jobs</h3>
-<p>The core mid-level role, GBP 23,000 to GBP 50,000, running campaigns and channels day to day.</p>
-
-<h3>Digital marketing jobs UK</h3>
-<p>SEO, PPC, email and paid social; the channel skills now expected across almost every marketing role.</p>
-
-<h3>CIM qualifications</h3>
-<p>The Chartered Institute of Marketing's paid Level 3 to Level 7 ladder, from Foundation Certificate to Marketing Leadership.</p>
-
-<h3>Entry level marketing jobs</h3>
-<p>Marketing assistant and junior executive roles, around GBP 22,000 to GBP 28,000, open with a portfolio and free certifications.</p>
-
-<h3>Marketing assistant jobs</h3>
-<p>The entry rung, supporting a marketing team across content, social, email and admin while you build skills.</p>
-
-<h3>Marketing jobs London</h3>
-<p>London and the South East pay above the rest of the UK to reflect cost of living, though hybrid roles have narrowed the gap.</p>
-
-<h3>How to become a marketing manager</h3>
-<p>Assistant, then executive and senior executive, then manager, often with a CIM Level 6 Diploma and a track record of measurable results.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Working out the wider picture? These cover it:</p>

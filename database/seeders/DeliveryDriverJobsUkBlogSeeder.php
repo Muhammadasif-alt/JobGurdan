@@ -314,32 +314,6 @@ JOBHTML;
 <h3>Can I get UK visa sponsorship as a delivery driver?</h3>
 <p>Realistically no. The role sits below the Skilled Worker skill threshold, and self-employed courier work cannot be sponsored because there is no employer to sponsor it. These jobs suit people who already hold the right to work.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Multi drop delivery driver jobs</h3>
-<p>The largest slice of the market, almost always self-employed and paid by the day rather than the hour.</p>
-
-<h3>Self employed courier jobs</h3>
-<p>Flexible and without a wage floor. Read the contract for the substitution clause before deciding what it is worth.</p>
-
-<h3>Van driver jobs UK</h3>
-<p>The employed end of the same work. Lower headline rate, with holiday, sick pay and pension behind it.</p>
-
-<h3>Owner driver jobs</h3>
-<p>Highest day rates, and every vehicle cost on your side. Hire and reward insurance is compulsory, not optional.</p>
-
-<h3>Delivery driver salary UK</h3>
-<p>Two incompatible answers depending on employment status. Compare day rate minus costs against hourly pay plus entitlements.</p>
-
-<h3>7.5 tonne driver jobs</h3>
-<p>Category C1, a Driver CPC and a medical. Different pay, different day, and free if you passed your car test before 1997.</p>
-
-<h3>Delivery driver jobs no experience</h3>
-<p>Genuinely open to newcomers. The licence, the points on it and the insurance class matter far more than a CV.</p>
-
-<h3>Delivery driver jobs with visa sponsorship UK</h3>
-<p>Not a real route. The role is below the Skilled Worker threshold and self-employed work has no sponsor.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other routes into UK and international work? These cover them:</p>

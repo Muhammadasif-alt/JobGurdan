@@ -310,32 +310,6 @@ JOBHTML;
 <h3>Can I get an AWS cloud engineer job with no experience?</h3>
 <p>Rarely straight away. Terraform and the AWS services are learnable in months; judgement about systems under load is not. This is usually a second job, reached from support, systems administration, networking or development.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>AWS cloud engineer salary USA</h3>
-<p>Board averages cluster around $130,000 to $136,000 and contradict one another. The measured medians are $99,130, $134,050 and $135,980 depending on which occupation the role belongs to.</p>
-
-<h3>AWS GovCloud jobs</h3>
-<p>Federal and defence work requiring US Person status: citizens and green card holders. Not the same thing as a cleared posting.</p>
-
-<h3>Remote AWS engineer jobs</h3>
-<p>Common with commercial employers past entry level, rare in cleared work. Ask about the on-call rotation before offer stage.</p>
-
-<h3>AWS Solutions Architect jobs</h3>
-<p>The design end of this work, and the band that reads like the $134,050 architect occupation rather than the $99,130 administrator one.</p>
-
-<h3>Entry level AWS cloud engineer jobs</h3>
-<p>Scarce as a first job. The realistic entry is a role with operational responsibility, learning AWS alongside it.</p>
-
-<h3>Terraform AWS jobs</h3>
-<p>The most requested infrastructure-as-code tool in these listings, and the easiest part of the job to learn.</p>
-
-<h3>AWS DevOps engineer jobs</h3>
-<p>Infrastructure plus the delivery pipeline, with both owned by the same person. See our DevOps guide for the four measures senior interviews run on.</p>
-
-<h3>AWS EKS and Kubernetes jobs</h3>
-<p>A narrower pool than general AWS work, which is exactly why it pays better. Note the CKA before CKS ordering if you are certifying.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing platforms and routes? These cover them:</p>

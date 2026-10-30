@@ -353,32 +353,6 @@ JOBHTML;
 <h3>Can I get visa sponsorship as a receptionist in Australia?</h3>
 <p>Very rarely. Receptionist occupations are not on the Core Skills Occupation List, so they cannot be sponsored through the Skills in Demand visa's Core Skills stream.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Receptionist jobs Sydney</h3>
-<p>The largest market, across law firms, head offices, hotels and medical practices.</p>
-
-<h3>Part-time receptionist jobs</h3>
-<p>Most of the occupation: fewer than half of receptionists work full-time.</p>
-
-<h3>Clerks Award receptionist pay rate</h3>
-<p>MA000002, from $26.97 an hour at Level 1 year 1 from 1 July 2026.</p>
-
-<h3>Hotel front desk jobs Australia</h3>
-<p>Front office grade 1 under the Hospitality Award, with shift and weekend penalty rates.</p>
-
-<h3>Certificate III in Business Administration</h3>
-<p>Superseded by the Certificate III in Business, BSB30120.</p>
-
-<h3>Casual receptionist hourly rate</h3>
-<p>$33.71 an hour at Level 1 year 1 under the Clerks Award, including the casual loading.</p>
-
-<h3>Medical receptionist jobs Australia</h3>
-<p>A different award, and Medicare billing on top of front-desk work.</p>
-
-<h3>Receptionist visa sponsorship Australia</h3>
-<p>Not available through the Core Skills stream, because the occupation is not on the list.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing front-desk and office jobs? These cover them:</p>

@@ -307,32 +307,6 @@ JOBHTML;
 <h3>Are HGV drivers still in short supply?</h3>
 <p>Partly. DfT found 26% of HGV businesses had driver vacancies in quarter 4 of 2025, up from 24% a year earlier but well below the 43% peak in 2021.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>HGV driver salary UK</h3>
-<p>&pound;39,141 median a year on ONS 2025 figures.</p>
-
-<h3>D4 medical</h3>
-<p>The doctor's report sent with form D2 to get provisional lorry entitlement.</p>
-
-<h3>Driver CPC 35 hours</h3>
-<p>Periodic training due every five years, National or International.</p>
-
-<h3>Skills Bootcamp HGV</h3>
-<p>Free English course up to 16 weeks covering licence, medical and CPC tests.</p>
-
-<h3>Category C vs CE</h3>
-<p>C is rigid with a small trailer; CE adds a trailer over 750 kg.</p>
-
-<h3>Class 1 driver jobs</h3>
-<p>Employer shorthand for category CE articulated work.</p>
-
-<h3>HGV driver shortage 2026</h3>
-<p>26% of HGV businesses reported vacancies in quarter 4 of 2025.</p>
-
-<h3>Lorry driver visa sponsorship UK</h3>
-<p>Not available: SOC 8211 is ineligible for the Skilled Worker route.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing UK and driving routes? These cover them:</p>

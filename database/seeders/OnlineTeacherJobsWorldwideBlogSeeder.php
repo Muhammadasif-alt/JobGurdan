@@ -306,32 +306,6 @@ JOBHTML;
 <h3>Do online teaching platforms charge a fee to join?</h3>
 <p>No legitimate one does. Any platform or "employer" asking you to pay for training, materials or registration is a scam.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Teach English online jobs</h3>
-<p>The largest category; fixed-rate platforms pay around $10 to $12 an hour, marketplaces let you set your rate.</p>
-
-<h3>Online tutoring jobs</h3>
-<p>Subject and test-prep tutoring, with a BLS tutor median near $20.84 an hour and specialised work paying more.</p>
-
-<h3>Preply vs iTalki</h3>
-<p>Both marketplaces where you set your rate; Preply's commission runs 18% to 33% and takes the first trial lesson.</p>
-
-<h3>Cambly teacher pay</h3>
-<p>$0.17 a minute ($10.20 an hour), $0.20 on Cambly Kids, for active lesson time only.</p>
-
-<h3>Online teaching jobs no degree</h3>
-<p>Possible on marketplaces and as a community tutor on iTalki; many other platforms require a degree.</p>
-
-<h3>TEFL jobs online</h3>
-<p>Need a 120-hour certificate as a baseline; TEFL is unregulated, so check the accreditation.</p>
-
-<h3>Online teaching jobs for Pakistani teachers</h3>
-<p>Marketplaces open to any nationality are the realistic route; native-only platforms exclude most applicants.</p>
-
-<h3>Is VIPKid still hiring?</h3>
-<p>Its China children's programme ended in 2021; the old high-paying China ESL model is gone.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at teaching and remote work more widely? These cover it:</p>

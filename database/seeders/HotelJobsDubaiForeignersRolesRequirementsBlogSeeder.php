@@ -26,7 +26,7 @@ use Illuminate\Database\Seeder;
  *    nothing about internships, so the brief's internship claim is dropped. Radisson's careers site fetched: a UAE
  *    location filter with 26 Dubai listings on 29 October 2026, including a receptionist at Park Inn Dubai Motor City.
  *    Anantara's careers page refused both our network and the server's, so it is not linked.
- * 5. FAQs expanded to eight; eight People Also Search For entries and a note for readers in Pakistan added.
+ * 5. FAQs expanded to eight and a note for readers in Pakistan added.
  *
  * Posters are the owner's (blog-355, 28 Oct 10.58 and 10.59 PM). The portal listing is in GuideJobListingsSeeder.
  * updateOrCreate, so re-running is safe.
@@ -165,32 +165,6 @@ class HotelJobsDubaiForeignersRolesRequirementsBlogSeeder extends Seeder
 
 <h3>Does nationality decide eligibility?</h3>
 <p>No. Each role's requirements and the permit process apply to every applicant.</p>
-
-<h2>People Also Search For</h2>
-
-<h3>Hotel jobs in Dubai UAE for foreigners</h3>
-<p>Every department, once a work permit is issued.</p>
-
-<h3>Hotel jobs in Dubai with visa sponsorship</h3>
-<p>The employer applies for the permit and pays the costs.</p>
-
-<h3>Hotel jobs in Dubai UAE for freshers</h3>
-<p>Junior service roles that accept beginners.</p>
-
-<h3>Dubai hotel jobs apply online</h3>
-<p>Use each hotel group's own careers site.</p>
-
-<h3>Hotel job requirements in Dubai UAE for foreigners</h3>
-<p>Role skills, documents and a valid work permit.</p>
-
-<h3>UAE work permit hotel jobs</h3>
-<p>One of 13 MoHRE permit types, issued to the employer.</p>
-
-<h3>Hotel jobs Dubai with accommodation</h3>
-<p>Check location, sharing and deductions.</p>
-
-<h3>Hotel jobs Dubai from Pakistan</h3>
-<p>Use licensed agents and never pay for the job.</p>
 
 <h2>Bottom Line</h2>
 

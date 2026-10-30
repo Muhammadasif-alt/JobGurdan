@@ -234,32 +234,6 @@ HTML;
 <h3>How much do personal care assistants earn in Pakistan?</h3>
 <p>There is no reliable published range. Pay moves with live-in versus shift work, night duty, client complexity, city, and whether a provider or a household employs you. Settle the figure in writing first.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Home health aide jobs in Karachi</h3>
-<p>Sahara Home Healthcare lists a Home Health Aide role across Karachi, part-time and full-time, and states training is provided.</p>
-
-<h3>Live in carer jobs in Pakistan</h3>
-<p>Common, and the arrangement with the most rights attached in Punjab: accommodation, a weekly day off and a letter of employment.</p>
-
-<h3>Punjab Domestic Workers Act 2019</h3>
-<p>The statute covering care work in a private household in Punjab. Sets wages, leave, medical examination, registration and document protections.</p>
-
-<h3>Caregiver rights in Pakistan</h3>
-<p>Depend on who employs you. Provider employment follows company terms; household employment in Punjab follows the Domestic Workers Act.</p>
-
-<h3>Care assistant jobs in Islamabad</h3>
-<p>Care Nest recruits caregivers across Islamabad and Rawalpindi with 12-hour, live-in and part-time shift options.</p>
-
-<h3>Patient care assistant jobs Pakistan</h3>
-<p>The same non-clinical work under a hospital-flavoured title. Check whether the advert expects clinical tasks before applying.</p>
-
-<h3>Personal care assistant salary Pakistan</h3>
-<p>No dependable published range. Figures online come from single adverts and are not a market rate.</p>
-
-<h3>Domestic worker registration Punjab</h3>
-<p>Sections 20 and 21 require worker and employer registration. The Labour Department publishes the form, and registration unlocks the welfare fund.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

@@ -144,32 +144,6 @@ class WorkVisasPakistanis2026CountryGuideBlogSeeder extends Seeder
 <h3>Where do Pakistani applicants submit German applications?</h3>
 <p>Through the Consular Services Portal: Islamabad covers the capital territory, Gilgit-Baltistan, Khyber Pakhtunkhwa, Azad Jammu and Kashmir and Punjab, and Karachi covers Sindh and Balochistan.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Work visas for Pakistanis 2026</h3>
-<p>UK Skilled and Seasonal Worker, Canada permits, Germany's skilled routes and UAE permits, each with its own checklist.</p>
-
-<h3>Work visa documents Pakistan</h3>
-<p>Passport, sponsorship or offer reference, qualification evidence, English or German evidence where required, medical and police certificates when asked.</p>
-
-<h3>Work visa fees by country</h3>
-<p>UK £819 or £1,618 plus surcharge, Canada C$155, Germany €75, UAE AED 250 to AED 3,450 paid by the company.</p>
-
-<h3>Work visa processing time Pakistan</h3>
-<p>UK usually three weeks after submission; Canada and Germany publish no fixed Pakistan figure.</p>
-
-<h3>UK Skilled Worker visa fee 2026</h3>
-<p>£819 for up to three years from outside the UK, £1,618 for more than three.</p>
-
-<h3>Canada work permit fee</h3>
-<p>C$155 per person, C$100 open permit holder fee, C$85 biometrics.</p>
-
-<h3>Germany work visa from Pakistan</h3>
-<p>€75 fee, Consular Services Portal, recognition or experience rules by route.</p>
-
-<h3>UAE work permit cost</h3>
-<p>AED 250 to AED 3,450 by company category, applied for by the company.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Choose the correct route, verify the sponsor or employer, follow the official checklist and budget beyond the headline fee. Keep travel plans flexible until the approval is in your passport. This guide cannot promise approval, a vacancy or an income.</p>

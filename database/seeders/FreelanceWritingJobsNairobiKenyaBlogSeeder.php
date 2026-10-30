@@ -174,34 +174,6 @@ class FreelanceWritingJobsNairobiKenyaBlogSeeder extends Seeder
 <h3>How do I avoid a fake client?</h3>
 <p>Check the business through its own website, use the platform's contract and payment process, and be wary of anyone who asks you to send money or deposit a cheque.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Freelance writing jobs Nairobi</h3>
-<p>Combine platforms with direct pitches to local businesses and organisations.</p>
-
-<h3>Freelance writing Kenya beginners</h3>
-<p>Pick one service, write original samples and send personalised proposals.</p>
-
-<h3>How to get first writing client</h3>
-<p>Offer a defined paid project with a clear scope, price and revision limit.</p>
-
-<h3>Online writing jobs Kenya</h3>
-<p>Check whether each listing accepts applicants from Kenya before you apply.</p>
-
-<h3>Upwork M-Pesa withdrawal</h3>
-<p>The M-Pesa account name must match your verified Upwork name.</p>
-
-<h3>Fiverr fees for freelancers</h3>
-<p>Fiverr's help centre says freelancers receive 80% of the client-approved payment on a completed order.</p>
-
-<h3>Writing portfolio for beginners</h3>
-<p>Two or three labelled practice samples can show research, structure and editing.</p>
-
-<h3>Freelance writing rates Kenya</h3>
-<p>Price the whole project, including research and edits, and agree how extra work is charged.</p>
-
-
-
 <h2>Bottom Line</h2>
 
 <p>Your first freelance writing client in Nairobi is more likely to understand your value when you offer a specific service, relevant samples, and a clear process. Apply selectively, agree on payment terms, and deliver dependable work that can support repeat business.</p>

@@ -327,32 +327,6 @@ JOBHTML;
 <h3>How many immigrants will Canada accept in 2026?</h3>
 <p>The levels plan targets 380,000 new permanent residents a year from 2026 to 2028, and 60,000 new arrivals through the Temporary Foreign Worker Program in 2026.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>LMIA jobs in Canada</h3>
-<p>About 173,000 positions on positive LMIAs in 2025, most of them in Ontario, Quebec and BC.</p>
-
-<h3>Global Talent Stream Canada</h3>
-<p>An LMIA stream for tech and specialist roles, processed in 10 business days.</p>
-
-<h3>CLB 5 IELTS equivalent</h3>
-<p>Listening 5.0, reading 4.0, writing 5.0 and speaking 5.0 in IELTS General Training.</p>
-
-<h3>Seasonal Agricultural Worker Program countries</h3>
-<p>Mexico and 11 Caribbean countries, for up to 8 months a year.</p>
-
-<h3>Express Entry categories 2026</h3>
-<p>Ten categories, including healthcare, STEM, trade, education and French.</p>
-
-<h3>LMIA refusal to process 6%</h3>
-<p>Low-wage LMIAs are not processed in cities with 6% unemployment or more, including Toronto, Montr&eacute;al and Vancouver.</p>
-
-<h3>Nurse jobs in Canada for foreigners</h3>
-<p>Rated Very good in Ontario, but you must register with the provincial regulator first.</p>
-
-<h3>Canada spouse open work permit 2026</h3>
-<p>Limited since 21 January 2025 to spouses of workers in TEER 0 or 1 and some TEER 2 and 3 jobs.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at a specific sponsored job in Canada? These cover it:</p>

@@ -368,32 +368,6 @@ JOBHTML;
 <h3>Does Singapore Airlines use recruitment agents in Pakistan?</h3>
 <p>No. SIA states it conducts direct recruitment and does not engage any third-party agencies for cabin crew recruitment, and that it never requests payment or fees to process applications. Anyone charging you for an SIA interview is running a scam.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Singapore Airlines careers login</h3>
-<p>The live vacancies sit on careers.singaporeair.com, a different host from the main site. The marketing page at singaporeair.com carries the salary and benefits detail but not the current openings.</p>
-
-<h3>Singapore Airlines cabin crew salary in rupees</h3>
-<p>SIA publishes the package only in Singapore dollars, approximately SGD 4,000 to SGD 5,000 a month inclusive of flight allowance. Converted figures in other articles are that airline's number run through a rate that has since moved.</p>
-
-<h3>SIA cabin crew age limit</h3>
-<p>SIA publishes a minimum age of 18 due to legislative requirements. It does not publish a maximum age on its current cabin crew listings.</p>
-
-<h3>Singapore Airlines cabin crew interview questions</h3>
-<p>SIA publishes the process, not the questions: a video interview online for selected applicants, then final interviews for those shortlisted. Japan's listing describes face-to-face interviews after the video stage.</p>
-
-<h3>Singapore Airlines walk-in interview</h3>
-<p>SIA has run walk-in interview campaigns in Singapore, but the 2026 walk-in listing now returns "Sorry, this position has been filled." Walk-ins are announced and closed on the portal without notice.</p>
-
-<h3>Cabin crew jobs with visa sponsorship</h3>
-<p>SIA's campaigns lead to a Singapore base, and eligibility is set by the campaign you apply through rather than by sponsorship. The Gulf carriers recruit more openly from South Asia.</p>
-
-<h3>Singapore Airlines job scam</h3>
-<p>SIA advertises only on its official careers portal and LinkedIn, never charges application fees, and engages no third-party agencies for cabin crew. Its advisory names fake domains including singaporeairlinehr.com.</p>
-
-<h3>Singapore Airlines cabin crew contract length</h3>
-<p>An initial 5-year contract based in Singapore, with extension depending on performance. Overseas campaigns add a compulsory service bond on top.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If cabin crew is the goal and Singapore is closed to you, these are the routes that actually recruit from Pakistan and the Gulf:</p>

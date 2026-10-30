@@ -294,32 +294,6 @@ JOBHTML;
 <h3>Can a green card holder become a federal police officer?</h3>
 <p>No. Federal law enforcement jobs require US citizenship. Some state and local police departments hire permanent residents.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>LEO special base rates 2026</h3>
-<p>$42,919 at GS-5 step 1 and $59,999 at GS-10, before locality.</p>
-
-<h3>CBP officer salary</h3>
-<p>From GS-5, with promotion potential to GS-12 and overtime of up to $45,000 a year.</p>
-
-<h3>ICE officer jobs</h3>
-<p>More than 12,000 hired in under a year, with no maximum age since August 2025.</p>
-
-<h3>US Marshals age limit</h3>
-<p>21 to 36, with appointment before the 37th birthday.</p>
-
-<h3>Federal law enforcement retirement</h3>
-<p>At 50 with 20 years or any age with 25, mandatory at 57, with a 1.7% multiplier for the first 20 years.</p>
-
-<h3>US Park Police jobs</h3>
-<p>Officers based in the Washington DC, New York City and San Francisco areas.</p>
-
-<h3>Border Patrol agent bonus</h3>
-<p>Up to $60,000 in incentives for new agents, including remote posting payments.</p>
-
-<h3>FBI special agent requirements</h3>
-<p>US citizenship, age 23 to before the 38th birthday at application, a bachelor's degree and two years of professional experience.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing public service and security careers? These cover it:</p>

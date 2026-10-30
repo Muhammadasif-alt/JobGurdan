@@ -298,32 +298,6 @@ JOBHTML;
 <h3>Should I pay an agent for a mechanic job abroad?</h3>
 <p>No. In the UAE, Article 6 of Federal Decree-Law No. 33 of 2021 makes recruitment costs the employer's responsibility.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Auto mechanic salary USA</h3>
-<p>$50,620 median in May 2025.</p>
-
-<h3>Diesel mechanic salary USA</h3>
-<p>$61,770 median for SOC 49-3031.</p>
-
-<h3>Dealership technician salary</h3>
-<p>$59,920 median at US automobile dealers.</p>
-
-<h3>Mechanic salary Australia per week</h3>
-<p>A$1,622 median full-time.</p>
-
-<h3>Mechanic salary UK per year</h3>
-<p>&pound;22,000 to &pound;42,000.</p>
-
-<h3>Automotive technician wage Canada</h3>
-<p>C$29.89 an hour national median.</p>
-
-<h3>Mechanic salary in Dubai</h3>
-<p>No official figure; check the contract and the WPS rules.</p>
-
-<h3>Highest paying country for mechanics</h3>
-<p>It depends on currency, tax and hours; compare the official figures above.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the mechanic cluster and related trades:</p>

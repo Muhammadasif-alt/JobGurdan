@@ -357,32 +357,6 @@ JOBHTML;
 <h3>How much does it cost to renew a Japanese work visa?</h3>
 <p>From 1 October 2026 the fee depends on the length of stay granted: 33,000 yen at the counter or 27,000 yen online for one year, up from a flat 6,000 yen. Applications received by 30 September 2026 pay the old fee.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>JET Programme salary</h3>
-<p>4.02 million yen in the first year, rising to 4.32 million in the fourth and fifth.</p>
-
-<h3>Instructor visa Japan requirements</h3>
-<p>A degree or equivalent, twelve years of education in the language taught, and pay equal to a Japanese national's.</p>
-
-<h3>Eikaiwa jobs for foreigners</h3>
-<p>Private conversation school roles, usually on the Engineer/Specialist in Humanities/International Services status.</p>
-
-<h3>Certificate of Eligibility processing time</h3>
-<p>One to three months, the Immigration Services Agency's standard processing period.</p>
-
-<h3>Teach English in Japan without a degree</h3>
-<p>Difficult on a work visa; the Working Holiday visa is the main alternative for eligible nationalities aged roughly 18 to 30.</p>
-
-<h3>ALT jobs Japan</h3>
-<p>Assistant Language Teacher roles in public schools, through JET, dispatch companies or boards of education.</p>
-
-<h3>Japan English proficiency ranking</h3>
-<p>96th of 123 countries in EF EPI 2025, in the very low proficiency band.</p>
-
-<h3>Japan visa renewal fee 2026</h3>
-<p>From 1 October 2026, 33,000 yen at the counter or 27,000 yen online for a one-year grant.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Weighing Japan against other teaching routes? These cover the neighbouring options:</p>

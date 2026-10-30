@@ -367,32 +367,6 @@ JOBHTML;
 <h3>Do freshers get hired for Dubai airport ground jobs?</h3>
 <p>Some passenger-service and operational roles are open to candidates without aviation experience, while others require prior airline or airport work. Check each vacancy rather than each employer, and lead with shift, customer service, hospitality, retail or logistics experience.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Dubai airport jobs</h3>
-<p>Spread across several employers at DXB. The Emirates Group, dnata and Dubai Airports each recruit through a different site.</p>
-
-<h3>dnata ground handling jobs</h3>
-<p>Where most baggage, ramp, cargo and equipment work at Dubai International Airport actually sits.</p>
-
-<h3>Emirates Group careers</h3>
-<p>The airline's own portal, covering customer services and airline and airport operations as separate career areas.</p>
-
-<h3>Dubai Airports careers</h3>
-<p>The airport operator, a separate employer from the airlines and handlers working in its terminals.</p>
-
-<h3>Ramp agent jobs Dubai</h3>
-<p>Outdoor apron work, covered by the summer midday ban. Driving there needs an airside permit on top of a full UAE licence.</p>
-
-<h3>UAE labour law working hours</h3>
-<p>8 hours a day or 48 a week, a break of at least an hour after five consecutive hours, and that break is not counted inside your hours.</p>
-
-<h3>UAE work visa medical test</h3>
-<p>HIV/AIDS, hepatitis B, leprosy, syphilis and tuberculosis. Two of those results end the residency application.</p>
-
-<h3>MOHRE labour complaint number</h3>
-<p>The Labour Claims and Advisory Call Centre is toll free on 80084, and claims under AED 100,000 are exempt from litigation fees.</p>
-
 <h2>More Job Guides</h2>
 
 <ul>

@@ -151,32 +151,6 @@ class RightsForeignWorkersAbroadBlogSeeder extends Seeder
 <h3>Does a complaint protect my visa?</h3>
 <p>Not automatically. Check your immigration options separately.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Rights of foreign workers</h3>
-<p>Check local law.</p>
-
-<h3>Expat worker rights</h3>
-<p>Vary by country.</p>
-
-<h3>Labour law for immigrants</h3>
-<p>Beyond the contract.</p>
-
-<h3>What rights do overseas workers have</h3>
-<p>Wages, safety, complaints.</p>
-
-<h3>Migrant worker rights</h3>
-<p>Same as other employees in some systems.</p>
-
-<h3>Unpaid wages abroad</h3>
-<p>Report to the regulator.</p>
-
-<h3>Passport withheld by employer</h3>
-<p>Seek official help.</p>
-
-<h3>Report employer abuse</h3>
-<p>Choose the right authority.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

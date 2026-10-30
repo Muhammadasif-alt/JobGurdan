@@ -154,32 +154,6 @@ class MechanicalReasoningQuestionsBlogSeeder extends Seeder
 <h3>Is the format the same everywhere?</h3>
 <p>No. Confirm your programme's test format before relying on a single practice guide.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Mechanical reasoning questions</h3>
-<p>Seven repeating concepts.</p>
-
-<h3>Mechanical aptitude test</h3>
-<p>Diagram-based.</p>
-
-<h3>Levers pulleys gears</h3>
-<p>Trade force for distance.</p>
-
-<h3>Hydraulics test questions</h3>
-<p>More force, less movement.</p>
-
-<h3>Mechanical comprehension practice</h3>
-<p>Draw the diagram.</p>
-
-<h3>Apprenticeship mechanical test</h3>
-<p>Check the format.</p>
-
-<h3>Bennett mechanical aptitude</h3>
-<p>Listed by Local 597.</p>
-
-<h3>Simple machines questions</h3>
-<p>Think in trade-offs.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

@@ -164,32 +164,6 @@ class BoilermakerApprenticeshipRequirementsBlogSeeder extends Seeder
 <h3>Where do Canadians apply?</h3>
 <p>Contact the provincial representatives listed by the Canadian Boilermakers.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Boilermaker apprenticeship requirements</h3>
-<p>Age and education.</p>
-
-<h3>Boilermaker entrance test</h3>
-<p>Not universal.</p>
-
-<h3>Boilermaker aptitude test</h3>
-<p>Local 555 uses one.</p>
-
-<h3>Boilermaker apprenticeship application</h3>
-<p>Choose a local lodge.</p>
-
-<h3>Boilermaker Local 555</h3>
-<p>70% assessment.</p>
-
-<h3>Boilermakers JAC</h3>
-<p>Joint apprenticeship committee.</p>
-
-<h3>Boilermaker apprentice welding</h3>
-<p>Verified experience counts.</p>
-
-<h3>Boilermaker apprenticeship Canada</h3>
-<p>Provincial contacts.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

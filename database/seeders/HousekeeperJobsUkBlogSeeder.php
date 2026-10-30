@@ -347,32 +347,6 @@ JOBHTML;
 <h3>Do I need experience to become a housekeeper?</h3>
 <p>No. Most hotels, hospitals and care homes train new starters, including safe use of cleaning chemicals and manual handling. Experience and reliable references help for private household roles.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Live-in housekeeper jobs UK</h3>
-<p>Accommodation can count towards the minimum wage up to &pound;77.70 a week, meals never do, and the hours should be agreed in writing.</p>
-
-<h3>Hotel housekeeping jobs no experience</h3>
-<p>Most hotels train new room attendants on the job. A basic DBS check is the most a hotel can ask for.</p>
-
-<h3>NHS domestic assistant Band 2</h3>
-<p>&pound;25,272 a year in England from 1 April 2026, with 41% extra for Saturdays and nights.</p>
-
-<h3>Care home housekeeper jobs</h3>
-<p>Usually an enhanced DBS check without the barred lists, or PVG membership in Scotland.</p>
-
-<h3>Housekeeper jobs with visa sponsorship UK</h3>
-<p>Not available. Housekeepers, cleaners and housekeeping supervisors are all in Table 6 and cannot be sponsored as Skilled Workers.</p>
-
-<h3>Private housekeeper salary London</h3>
-<p>No official survey covers private household pay. Divide the offer by the weekly hours and check it against the &pound;12.71 National Living Wage.</p>
-
-<h3>Head housekeeper salary UK</h3>
-<p>A median of &pound;28,605 for full-time cleaning and housekeeping supervisors in the April 2025 ONS survey.</p>
-
-<h3>Room attendant jobs</h3>
-<p>The hotel title for housekeeping staff, with tips and service charges protected by law since October 2024.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing housekeeping with other entry-level work in the UK and abroad? These cover it:</p>

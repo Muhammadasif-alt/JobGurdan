@@ -365,32 +365,6 @@ JOBHTML;
 <h3>Does Aramco ever charge applicants a fee?</h3>
 <p>No. Aramco states that neither the company nor any organisation recruiting on its behalf will ever ask for payments from applicants at any point in the recruitment process.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Aramco careers login</h3>
-<p>Accounts are created on the Aramco recruitment portal reached from the careers pages. Aramco only accepts resumes uploaded there or through its Talent Community.</p>
-
-<h3>Saudi Aramco jobs for Pakistani citizens</h3>
-<p>Aramco recruits internationally without publishing nationality-specific pages. The same five to 10 years experience preference applies, and the visa is a Saudi government decision.</p>
-
-<h3>Aramco salary for mechanical engineer</h3>
-<p>Not published by Aramco. Any figure attached to a discipline comes from third-party estimate sites, not from the company.</p>
-
-<h3>Aramco Dhahran jobs</h3>
-<p>Dhahran is Aramco's main base and appears in its work-location material alongside the Eastern Province and other Saudi sites. Vacancies are advertised through the recruitment portal rather than by location pages.</p>
-
-<h3>Aramco graduate programme</h3>
-<p>Graduate opportunities are published under Aramco's Saudi applicants section rather than its international applicants route.</p>
-
-<h3>Saudi Aramco recruitment agency</h3>
-<p>Aramco says organisations recruiting on its behalf will never ask applicants for payment. Any agency charging you a fee for an Aramco job is not operating on Aramco's terms.</p>
-
-<h3>Aramco expatriate schools</h3>
-<p>Aramco operates its own private schools and offers an education assistance plan that may cover international schools locally or boarding schools abroad. Enrollment clearance for dependents is one of the five offer conditions.</p>
-
-<h3>Johns Hopkins Aramco Healthcare</h3>
-<p>Aramco's subsidiary medical network, through which employees and dependents receive care, alongside contracted hospitals and clinics.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Working in Saudi Arabia or comparing Gulf employers? These cover the ground:</p>

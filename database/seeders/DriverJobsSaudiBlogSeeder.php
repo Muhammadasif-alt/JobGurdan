@@ -346,35 +346,6 @@ JOBHTML;
 <h3>How long does the visa process take?</h3>
 <p>It varies by employer and country, but budget for several weeks to a few months from signed offer to travel, since the medical, police clearance, document attestation and embassy stamping all run in sequence. Any agent promising a Saudi work visa in a few days is not describing the real process.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Driver jobs in Saudi Arabia for foreigners</h3>
-<p>Genuine and plentiful across private, delivery, corporate, bus and heavy truck categories. The employer must hold a visa authorisation from the ministry before any visa can exist.</p>
-
-<h3>House driver job in Saudi Arabia salary</h3>
-<p>Commonly advertised at SAR 1,200 to 1,500 a month, usually with accommodation and meals provided. Recruitment runs through the Musaned platform under the domestic worker regulation.</p>
-
-<h3>Truck driver jobs in Saudi Arabia for foreigners</h3>
-<p>Steady demand from construction, oil and gas and logistics contractors, concentrated in Dammam and the Eastern Province. Requires a heavy vehicle licence and usually the most experience of any driver category.</p>
-
-<h3>Delivery driver jobs in Riyadh and Jeddah</h3>
-<p>The fastest-growing category, driven by e-commerce and food delivery. Pay is often a base salary plus per-order commission, so always ask what the base is by itself.</p>
-
-<h3>Saudi Arabia house driver visa free</h3>
-<p>The &quot;free visa&quot; or azad visa arrangement is illegal. Working for anyone other than your registered sponsor risks an absconding report, deportation and a re-entry ban.</p>
-
-<h3>Driving jobs in Saudi Arabia for Pakistani applicants</h3>
-<p>Strong demand in logistics and private household work. Apply only through an Overseas Employment Promoter licensed by the Bureau of Emigration and Overseas Employment, and verify the licence is current.</p>
-
-<h3>Driver salary in Saudi Arabia per month</h3>
-<p>Roughly SAR 1,200 to 3,900 depending on category. There is no statutory minimum wage for expatriate workers, so judge the offer on the full package including housing, food, medical cover and flights.</p>
-
-<h3>Saudi work visa process for drivers</h3>
-<p>Employer visa authorisation, then a licensed agency, then medical at an approved GAMCA or Wafid centre, police clearance and attestation, embassy stamping, and Iqama issued after arrival.</p>
-
-<h3>Company driver jobs Saudi Arabia transferable Iqama</h3>
-<p>Employers advertise this because hiring someone already in the Kingdom skips the overseas visa process. Since the 2021 Labour Reform Initiative, Labour Law employees can transfer under defined conditions without the sponsor's consent.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing driving and labour routes across countries? These cover the rest:</p>

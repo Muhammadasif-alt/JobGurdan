@@ -178,32 +178,6 @@ class FakeOverseasJobOfferBlogSeeder extends Seeder
 <h3>Is a company on the UK sponsor register guaranteed to sponsor me?</h3>
 <p>No. It only shows the employer is licensed. The job must also be an eligible occupation and meet the salary and English rules.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Fake overseas job offer</h3>
-<p>Any upfront fee or guaranteed visa is a warning sign.</p>
-
-<h3>How to verify a job offer</h3>
-<p>Use the employer's own website and official registers.</p>
-
-<h3>Fake recruiter red flags</h3>
-<p>Free email, no interview and pressure to pay.</p>
-
-<h3>Job scam warning signs</h3>
-<p>Upfront payment, urgency and a salary too good to be true.</p>
-
-<h3>Overseas employment promoter Pakistan</h3>
-<p>Check the licence on the Bureau of Emigration website.</p>
-
-<h3>Report a job scam</h3>
-<p>To your bank and your country's fraud body.</p>
-
-<h3>Register of Licensed Sponsors</h3>
-<p>The official GOV.UK list of employers that can sponsor.</p>
-
-<h3>Visa sponsorship scams</h3>
-<p>Sponsors should not charge workers.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

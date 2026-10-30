@@ -360,32 +360,6 @@ JOBHTML;
 <h3>Can faculty members work fully remotely?</h3>
 <p>Sometimes, but the limit is regulatory rather than academic. The institution must be authorised to operate and to run payroll in your state, which is why online faculty adverts list eligible states.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Faculty jobs USA</h3>
-<p>1,378,200 postsecondary teaching jobs, growing 7 per cent to 2035 on BLS projections.</p>
-
-<h3>Tenure-track faculty positions</h3>
-<p>Probationary salaried appointments with a tenure review, normally within seven years.</p>
-
-<h3>Assistant professor jobs</h3>
-<p>The entry rank on the tenure track; not every assistant professor post is tenure-track.</p>
-
-<h3>Non-tenure-track faculty</h3>
-<p>Teaching professors, lecturers, clinical and research faculty; 68.2 per cent of all appointments are contingent.</p>
-
-<h3>Community college faculty jobs</h3>
-<p>Often open to a master's with 18 graduate credit hours in the subject. State junior college median $68,160.</p>
-
-<h3>Online faculty jobs</h3>
-<p>Limited by state authorisation and payroll registration, not by the teaching itself.</p>
-
-<h3>Academic CV for US faculty jobs</h3>
-<p>CV, cover letter, teaching statement, research statement, evidence of teaching and three referees.</p>
-
-<h3>University professor salary USA</h3>
-<p>$96,120 median at state universities, $89,660 at private ones, on BLS May 2025 data.</p>
-
 <h2>More Job Guides</h2>
 
 <p>These go deeper on the parts of academic work this page summarises:</p>

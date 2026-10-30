@@ -308,32 +308,6 @@ JOBHTML;
 <h3>Does BHP charge applicants any fee?</h3>
 <p>No. BHP states it will never request funds, require a transfer of money or seek advance fees at any stage of recruitment.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>BHP FutureFit Academy intake</h3>
-<p>Academies in Perth and Mackay, with paid permanent roles from day one and intakes running in cycles.</p>
-
-<h3>Mining salary Australia average</h3>
-<p>$3,224.20 a week in full-time ordinary time earnings, against $2,083.70 across all industries.</p>
-
-<h3>Mining Industry Award rates 2026</h3>
-<p>An entry level introductory floor of $27.53 an hour from 1 July 2026, rising to $37.62 at the top classification.</p>
-
-<h3>Entry level mining jobs no experience</h3>
-<p>BHP's three published pathways all accept people with no mining background.</p>
-
-<h3>Olympic Dam mine jobs</h3>
-<p>Copper, gold and uranium operations 560km north of Adelaide, with underground and surface roles.</p>
-
-<h3>FIFO roster meaning</h3>
-<p>Fly-in fly-out, with patterns such as 9/5, 5/2 and 4/3 depending on the role and site.</p>
-
-<h3>BHP recruitment scam email</h3>
-<p>BHP never seeks funds from applicants at any stage, so any fee request is fraudulent.</p>
-
-<h3>Mining jobs outlook Australia</h3>
-<p>Employment in drillers, miners and shot firers is falling by roughly 1,200 a year despite high pay.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at Australian work more widely? These cover it:</p>

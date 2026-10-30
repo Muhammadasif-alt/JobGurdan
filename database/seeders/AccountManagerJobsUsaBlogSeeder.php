@@ -362,32 +362,6 @@ JOBHTML;
 <h3>Can I move into account management from customer service?</h3>
 <p>Yes, that is one of the most common routes, along with sales development, account coordination and client services.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Account manager salary</h3>
-<p>$69,990 median for sales reps of services, the occupation that holds most of these jobs.</p>
-
-<h3>Key account manager jobs</h3>
-<p>Senior roles covering the largest customers, usually with contract and quota responsibility.</p>
-
-<h3>Account executive jobs</h3>
-<p>Usually new-business sales; HubSpot and Salesforce advertise US roles under this title.</p>
-
-<h3>Customer success manager jobs</h3>
-<p>Focused on adoption and outcomes; Salesforce lists CSM roles across California and Virginia.</p>
-
-<h3>Remote account manager jobs</h3>
-<p>Common in software: HubSpot lists Remote - USA on most US sales openings.</p>
-
-<h3>Entry level account management jobs</h3>
-<p>Look for account coordinator, BDR and customer success associate roles.</p>
-
-<h3>Account manager skills</h3>
-<p>Communication, analytical skills, CRM fluency, negotiation and organisation.</p>
-
-<h3>Sales manager salary BLS</h3>
-<p>$148,270 median in May 2025, with a $73,170 tenth percentile.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at client-facing and commercial careers? These cover them:</p>

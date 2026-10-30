@@ -28,7 +28,7 @@ it('renders the post with its long-tail sections and sibling guides', function (
         ->assertOk()
         ->assertSee('Warehouse Jobs UK Visa Sponsorship')
         ->assertSee('Why Most Warehouse Jobs Don')
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('/blog/cleaner-jobs-in-london-no-experience-needed', false)
         ->assertSee(WAREHOUSE_BROWSE_URL, false);
 });

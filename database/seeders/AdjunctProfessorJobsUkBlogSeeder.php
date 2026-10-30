@@ -234,32 +234,6 @@ class AdjunctProfessorJobsUkBlogSeeder extends Seeder
 <h3>Is "Visiting Professor" the same as "Honorary Professor" in the UK?</h3>
 <p>Not in the policies. Heriot-Watt separates them explicitly: honorary and emeritus holders may not be paid, visiting holders may be. Always ask which category an offer falls into before assuming anything about money.</p>
 
-<h2 id="people-also-search-for">People Also Search For</h2>
-
-<h3>Honorary professor UK meaning</h3>
-<p>A title conferred by a university on someone of standing in their field, normally unpaid, usually for a renewable three-year term.</p>
-
-<h3>Visiting professor UK salary</h3>
-<p>There is no general figure. Some universities permit visiting title holders to be paid for agreed work; the amount is settled in advance of appointment rather than published.</p>
-
-<h3>UK university honorary titles policy</h3>
-<p>The public document each institution publishes under its own Ordinances, setting out who may be nominated, who confers the title and whether payment is permitted.</p>
-
-<h3>Difference between professor and lecturer UK</h3>
-<p>Professor is the most senior academic rank in the UK, unlike the United States where most teaching staff are called professors. Lecturer is the standard academic post.</p>
-
-<h3>Hourly paid lecturer UK</h3>
-<p>The paid, part-time teaching role that people searching for adjunct work are usually actually looking for, with published hourly rates at many universities.</p>
-
-<h3>Skilled Worker visa salary threshold</h3>
-<p>GBP 41,700 a year or the going rate for the occupation, whichever is higher, under the rules that came into force on 22 July 2025.</p>
-
-<h3>How to become a professor in the UK</h3>
-<p>Through the substantive academic career track, which is a different process from the conferment of an honorary or visiting title.</p>
-
-<h3>Emeritus professor meaning UK</h3>
-<p>A title for a retired academic. Heriot-Watt groups it with honorary titles as one that may not be remunerated, and requires any contract of employment to have ended first.</p>
-
 <h2 id="more-guides">More Job Guides</h2>
 
 <ul>

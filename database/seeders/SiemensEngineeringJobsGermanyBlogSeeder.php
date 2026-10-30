@@ -374,32 +374,6 @@ JOBHTML;
 <h3>Is Siemens cutting engineering jobs in Germany?</h3>
 <p>Siemens announced measures in automation affecting about 2,600 jobs in Germany by the end of fiscal 2027, while ruling out operational layoffs. It published no engineering-specific figure, and German headcount held roughly steady at 86,401 at the end of fiscal 2025.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Siemens careers login</h3>
-<p>Registration is only needed to apply. You can upload a CV for AI job matching without an account, but that CV is deleted after 24 hours.</p>
-
-<h3>Siemens Energy careers</h3>
-<p>A separate company with a separate board at jobs.siemens-energy.com. Turbines, power generation and wind roles are there, not on the Siemens AG portal.</p>
-
-<h3>anabin database check</h3>
-<p>The official database for checking whether your university and degree are comparable to a German qualification. Your university must be rated H+ or H+/-.</p>
-
-<h3>ZAB Statement of Comparability cost</h3>
-<p>208 euros, generally three months, for a foreign higher education qualification at bachelor level or above.</p>
-
-<h3>Germany Opportunity Card points</h3>
-<p>Six points are needed. Points come from partial recognition, German and English levels, professional experience, age and a qualification in a shortage group.</p>
-
-<h3>Germany shortage occupation list engineers</h3>
-<p>ISCO groups 214, 215 and 216 cover civil, mechanical, chemical, environmental, industrial, electrical, electronics and telecommunications engineers, plus architects and planners.</p>
-
-<h3>Siemens Ausbildung requirements</h3>
-<p>A CV in German, a translated and German-recognised certificate from a state-certified translator, and a German language certificate. There are no application deadlines.</p>
-
-<h3>Siemens locations Germany</h3>
-<p>All 16 federal states, with major engineering sites at Erlangen, Nuremberg, Amberg, Fürth, Berlin, Munich, Karlsruhe, Chemnitz and Krefeld.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing European employers, or looking at the wider German market? These cover it:</p>

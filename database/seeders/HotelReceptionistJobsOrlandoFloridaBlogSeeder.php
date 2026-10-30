@@ -25,7 +25,7 @@ use Illuminate\Database\Seeder;
  *    constitutional amendment. The $18 x 40 x 52 / 12 = $3,120 example is kept and labelled as an illustration.
  * 5. Loews careers fetched: 36 Orlando matches, including Resort Front Desk Agent at Loews Hotels Universal Orlando.
  *    Hilton's job site fetched; it splits into regional job boards.
- * 6. FAQs expanded to eight; eight People Also Search For entries and a note for readers in Pakistan added.
+ * 6. FAQs expanded to eight and a note for readers in Pakistan added.
  *
  * Posters are the owner's (blog-355, 28 Oct 11.03 and 11.05 PM). The portal listing is in GuideJobListingsSeeder.
  * updateOrCreate, so re-running is safe.
@@ -163,32 +163,6 @@ class HotelReceptionistJobsOrlandoFloridaBlogSeeder extends Seeder
 
 <h3>Can foreigners apply?</h3>
 <p>Only with existing US work authorisation; no sponsorship was found.</p>
-
-<h2>People Also Search For</h2>
-
-<h3>Hotel receptionist jobs in Orlando Florida</h3>
-<p>Front desk, guest service and night audit roles.</p>
-
-<h3>Hotel front desk jobs Orlando</h3>
-<p>Check-ins, payments and guest requests.</p>
-
-<h3>Hotel receptionist jobs Orlando FL no experience</h3>
-<p>Some hotels, including a Marriott post, accept beginners.</p>
-
-<h3>Hotel receptionist jobs Orlando FL salary</h3>
-<p>$17.43 median an hour in 2025.</p>
-
-<h3>How to apply for hotel receptionist jobs in Orlando Florida</h3>
-<p>On each hotel's own careers site.</p>
-
-<h3>Front desk agent jobs Orlando</h3>
-<p>Often the same job under a different title.</p>
-
-<h3>Universal Orlando hotel jobs</h3>
-<p>Loews runs and advertises the Universal-area hotels it operates.</p>
-
-<h3>Florida minimum wage 2026</h3>
-<p>$15.00 an hour from 30 September 2026.</p>
 
 <h2>Bottom Line</h2>
 

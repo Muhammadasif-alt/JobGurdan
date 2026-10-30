@@ -332,32 +332,6 @@ JOBHTML;
 <h3>Do I need Italian to work at Ferrari?</h3>
 <p>Ferrari publishes no language requirement. In practice production work in Maranello is carried out in Italian, and Italy applies its own language conditions to longer-term residence permits.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Ferrari careers Maranello</h3>
-<p>Maranello is Ferrari's assembly site and headquarters, with chassis work at Modena. Vacancies for both appear on the same careers portal.</p>
-
-<h3>Ferrari internship Italy</h3>
-<p>Internship appears as a distinct listing category on the Ferrari job search, alongside experienced roles.</p>
-
-<h3>Ferrari salary for workers</h3>
-<p>Not published by Ferrari. The floor comes from the metalworkers' collective agreement rather than from the company.</p>
-
-<h3>Factory jobs in Italy for foreigners</h3>
-<p>Legally routed through the decreto flussi quota for non-EU nationals, which is dominated by seasonal agriculture and tourism work rather than manufacturing.</p>
-
-<h3>Italy work visa click day</h3>
-<p>The fixed date when a quota category opens and employers file nulla osta applications. Missing it means waiting for the next window.</p>
-
-<h3>CCNL metalmeccanici 2026</h3>
-<p>The Italian metalworkers' national agreement, renewed 22 November 2025, running to June 2028 with staged monthly increases of &euro;53, &euro;59 and &euro;65.</p>
-
-<h3>Average salary in Italy</h3>
-<p>ISTAT put the national average gross annual salary at &euro;37,302 full-time equivalent, and the industry macro-sector at &euro;38,760, in its 2022 structural earnings data.</p>
-
-<h3>Ferrari job scam</h3>
-<p>Ferrari warns that it will never request personal data from candidates except through its own jobs website. Anything asking for documents or money elsewhere is not Ferrari.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at European manufacturing or comparing employers? These cover the ground:</p>

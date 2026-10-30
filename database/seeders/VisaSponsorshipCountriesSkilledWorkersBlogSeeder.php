@@ -213,32 +213,6 @@ class VisaSponsorshipCountriesSkilledWorkersBlogSeeder extends Seeder
 <h3>Where do I check an employer is allowed to sponsor?</h3>
 <p>On the official register or portal of the country, such as the GOV.UK Register of Licensed Sponsors or the IND list of recognised sponsors.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Visa sponsorship countries</h3>
-<p>Eight are compared above.</p>
-
-<h3>Employer sponsored visa</h3>
-<p>The employer supports the worker's permission to work.</p>
-
-<h3>Skilled worker visa abroad</h3>
-<p>Needs an eligible job and qualifications.</p>
-
-<h3>Work visa sponsorship 2026</h3>
-<p>Check current salary rules before applying.</p>
-
-<h3>EU Blue Card</h3>
-<p>Germany's route for qualified workers.</p>
-
-<h3>Skills in Demand visa</h3>
-<p>Australia's subclass 482.</p>
-
-<h3>Accredited Employer Work Visa</h3>
-<p>New Zealand's employer-led route.</p>
-
-<h3>Fake visa sponsorship offers</h3>
-<p>Any upfront fee is a warning sign.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

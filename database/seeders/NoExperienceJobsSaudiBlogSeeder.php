@@ -278,17 +278,6 @@ JOBHTML;
 <h3>Is there a wage floor for any private-sector job in Saudi Arabia?</h3>
 <p>Only where a specific decision creates one. The ministry's marketing Saudization decision set a minimum monthly wage of SAR 5,500 for the covered marketing professions. Floors like that attach to an occupation under a named decision; they are not a general rule.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li><strong>Saudization list of jobs for Saudis only</strong>: occupation-specific decisions, most recently sales and marketing at 60 per cent from 19/01/2026</li>
-    <li><strong>Minimum salary in Saudi Arabia 2026</strong>: SAR 4,000 is a Nitaqat counting rule for Saudi nationals, not an expatriate minimum wage</li>
-    <li><strong>Saudi Arabia work visa without experience</strong>: available in warehousing, hospitality, cleaning and construction support, arranged by the employer before travel</li>
-    <li><strong>How to change job in Saudi Arabia</strong>: permitted without employer consent after one year or at contract expiry, for workers covered by the labour law</li>
-    <li><strong>Saudi Arabia exit re-entry visa rules</strong>: obtainable without employer approval since 14 March 2021, via a request to the ministry</li>
-    <li><strong>Wage Protection System Saudi Arabia</strong>: the electronic payroll monitoring that makes unpaid wages visible to the ministry</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

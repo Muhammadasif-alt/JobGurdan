@@ -306,32 +306,6 @@ JOBHTML;
 <h3>Where do I apply for government security jobs?</h3>
 <p>On APSJobs and on each agency's official careers site: AFP, Home Affairs, ASIO, ASD and Defence.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>AFP protective service officer salary</h3>
-<p>From $82,499.88 including allowances.</p>
-
-<h3>Australian Border Force jobs</h3>
-<p>Entry through the Border Force Officer Recruit Trainee program.</p>
-
-<h3>ASIO jobs requirements</h3>
-<p>Australian citizenship and a TOP SECRET-Privileged Access clearance.</p>
-
-<h3>Baseline security clearance</h3>
-<p>The entry-level clearance Home Affairs requires for all staff.</p>
-
-<h3>ASD careers</h3>
-<p>Cyber, intelligence and security roles; citizenship required.</p>
-
-<h3>Defence security jobs</h3>
-<p>Civilian APS roles in security advice, vetting and investigations.</p>
-
-<h3>Government security jobs for permanent residents</h3>
-<p>Rare; most need citizenship, so look at private security or other APS roles.</p>
-
-<h3>Intelligence graduate program Australia</h3>
-<p>The AGGP Intelligence Stream, managed by the Office of National Intelligence.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing security and law enforcement careers? These cover it:</p>

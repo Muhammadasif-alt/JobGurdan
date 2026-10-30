@@ -303,32 +303,6 @@ JOBHTML;
 <h3>Is a job board enough, or should I also use official sites?</h3>
 <p>Use both. A board shows the widest range of listings, while the employer's own careers page confirms which roles are genuine.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Hotel jobs in Dubai</h3>
-<p>Apply through the hotel group's careers site; the employer arranges the work permit.</p>
-
-<h3>Housekeeping jobs abroad</h3>
-<p>Room attendant and housekeeping roles are common entry points in hotels.</p>
-
-<h3>Waiter jobs in Italy</h3>
-<p>Search for "cameriere" and expect to need basic Italian.</p>
-
-<h3>Decreto Flussi 2027</h3>
-<p>The quota decree: 89,000 seasonal entries in agriculture and tourism.</p>
-
-<h3>Nulla osta seasonal tourism</h3>
-<p>The work authorisation the Italian employer requests; applications open 9 February 2027.</p>
-
-<h3>Restaurant jobs in UAE</h3>
-<p>Waiter and kitchen roles with employer-sponsored work permits.</p>
-
-<h3>Fake hotel job offers</h3>
-<p>Real employers charge no application or visa fees.</p>
-
-<h3>Hospitality jobs for foreigners</h3>
-<p>Open to work-permit holders in the UAE and quota workers in Italy.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related hospitality and Gulf guides:</p>

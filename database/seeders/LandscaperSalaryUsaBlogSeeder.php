@@ -217,32 +217,6 @@ class LandscaperSalaryUsaBlogSeeder extends Seeder
 <h3>Is accommodation included in H-2B landscaping jobs?</h3>
 <p>Do not assume it is. Ask for the housing terms and any deductions in writing.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Landscaper salary in USA</h3>
-<p>$20.33 an hour on average in the BLS May 2025 estimates.</p>
-
-<h3>Average landscaper salary USA</h3>
-<p>Mean and median differ, so compare both.</p>
-
-<h3>Landscaper hourly rate USA</h3>
-<p>The median for landscaping workers was $18.82 an hour.</p>
-
-<h3>Landscaper monthly pay USA 2026</h3>
-<p>Hourly rate &times; weekly hours &times; 52 &divide; 12.</p>
-
-<h3>Landscaper salary in PKR</h3>
-<p>Convert at your provider's real rate, after expenses.</p>
-
-<h3>Landscaper pay for foreigners USA</h3>
-<p>H-2B workers must be paid the wage the programme requires.</p>
-
-<h3>Tree trimmer salary USA</h3>
-<p>A separate BLS occupation, with a higher mean wage.</p>
-
-<h3>Landscaper jobs in USA with visa sponsorship</h3>
-<p>Covered in the visa sponsorship guide.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

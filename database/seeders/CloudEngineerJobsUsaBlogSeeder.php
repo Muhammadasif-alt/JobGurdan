@@ -297,32 +297,6 @@ JOBHTML;
 <h3>Are these roles remote?</h3>
 <p>A large share are, particularly at mid and senior level with commercial employers. Expect an on-call rotation on most platform teams regardless of where you sit.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>AWS cloud engineer jobs USA</h3>
-<p>The largest share of US cloud postings, and the deepest applicant pool with it. Covered in full in our <a href="/blog/aws-cloud-engineer-jobs-in-usa">AWS cloud engineer guide</a>, including the difference between GovCloud eligibility and a security clearance.</p>
-
-<h3>Azure cloud engineer jobs</h3>
-<p>Strong in Microsoft-committed enterprises and government-adjacent work. Our <a href="/blog/azure-cloud-engineer-jobs-in-usa">Azure cloud engineer guide</a> covers the certification order Microsoft enforces and the Microsoft 365 work bundled into many of those postings.</p>
-
-<h3>Remote cloud engineer jobs</h3>
-<p>Common at commercial employers and rare in cleared work. Ask about the on-call rotation before the offer stage.</p>
-
-<h3>Entry level cloud engineer jobs</h3>
-<p>Scarce as a first job. The realistic entry is a role with operational responsibility, learning the cloud stack alongside it.</p>
-
-<h3>Cloud engineer salary USA</h3>
-<p>Depends which of three occupations the role belongs to: $99,130, $134,050 or $135,980 at the median. Read the requirements to find out which.</p>
-
-<h3>Terraform jobs USA</h3>
-<p>The most requested infrastructure-as-code tool in these listings, and the easiest part of the job to learn.</p>
-
-<h3>FinOps and cloud cost optimisation jobs</h3>
-<p>A growing specialism, and the most legible value a cloud engineer can produce.</p>
-
-<h3>GovCloud cloud engineer jobs</h3>
-<p>Federal work requiring US citizenship and a sponsored clearance. Check for that line before applying.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing the infrastructure routes? These cover them:</p>

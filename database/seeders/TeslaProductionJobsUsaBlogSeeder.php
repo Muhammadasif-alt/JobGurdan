@@ -325,32 +325,6 @@ JOBHTML;
 <h3>Can I apply to Tesla from outside the United States?</h3>
 <p>These are on-site production roles that require the legal right to work in the US. Tesla does not sponsor visas for entry-level production work.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Tesla production associate pay</h3>
-<p>$21.00 to $30.00 an hour on Tesla's own postings, plus cash and stock awards.</p>
-
-<h3>Giga Texas jobs Austin</h3>
-<p>Around 16,500 employees building Model Y, Cybertruck and Cybercab, plus batteries and robotics lines.</p>
-
-<h3>Tesla Fremont factory hiring</h3>
-<p>Vehicle assembly plus an on-site lithium-ion battery factory opened in 2023.</p>
-
-<h3>Gigafactory Nevada jobs Sparks</h3>
-<p>Motors, powertrains, cells and energy storage, with an LFP cell factory and the Semi factory added.</p>
-
-<h3>Tesla Megafactory Lathrop</h3>
-<p>Megapack grid-scale energy storage, in production since 2022.</p>
-
-<h3>Tesla jobs no experience</h3>
-<p>Production Associate is the entry route: no degree, no certificate and no prior manufacturing time required.</p>
-
-<h3>Tesla shift schedule production</h3>
-<p>Rotating days, nights, overnight and weekends, with overtime during ramps.</p>
-
-<h3>Tesla benefits 401k match</h3>
-<p>50% of your contribution up to 3% of eligible pay, capped at $3,000 a year.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing entry-level industrial work across the US? These cover the alternatives:</p>

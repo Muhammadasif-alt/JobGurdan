@@ -187,32 +187,6 @@ class IronworkerApprenticeshipNewYorkBlogSeeder extends Seeder
 <h3>Why does Local 580 send me elsewhere?</h3>
 <p>It uses direct-entry programmes, and its page says applicants not accepted into one are not eligible to join Local 580.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Ironworker apprenticeship New York</h3>
-<p>Several locals, separate dates.</p>
-
-<h3>NYC ironworker apprenticeship</h3>
-<p>Locals 40/361 and 580.</p>
-
-<h3>Ironworker apprenticeship upstate NY</h3>
-<p>Locals 6, 33, 60 and 12.</p>
-
-<h3>New York ironworkers union application</h3>
-<p>Follow each local's notice.</p>
-
-<h3>Local 40 361 recruitment</h3>
-<p>Next round March 2027.</p>
-
-<h3>Ironworkers Local 6 Buffalo</h3>
-<p>In-person application.</p>
-
-<h3>Ironworkers Local 33 Rochester</h3>
-<p>Online, app or in person.</p>
-
-<h3>Ironworkers Local 60 Syracuse</h3>
-<p>Six-month residency.</p>
-
 <h2>A Note for Applicants in Pakistan</h2>
 
 <p>These programmes need work authorisation in the United States, and an apprenticeship notice does not sponsor a visa. Never pay an agent for a place in a New York union programme, and read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you send money or documents.</p>

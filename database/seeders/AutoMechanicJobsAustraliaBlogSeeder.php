@@ -327,32 +327,6 @@ JOBHTML;
 <h3>Can overseas mechanics get a visa for Australia?</h3>
 <p>Motor Mechanic (General), 321211, is on the Core Skills Occupation List and the Medium and Long-term Strategic Skills List, with Trades Recognition Australia as the assessing authority.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>AUR30620 Certificate III in Light Vehicle Mechanical Technology</h3>
-<p>The current national trade qualification for car mechanics, with 36 units.</p>
-
-<h3>Apprentice mechanic wage Australia</h3>
-<p>From 50 per cent of the $1,119.10 tradesperson rate for a first-year junior apprentice.</p>
-
-<h3>Mechanic salary Australia</h3>
-<p>About $1,405 a week according to Your Career, around $73,000 a year.</p>
-
-<h3>Pre-apprenticeship mechanic course</h3>
-<p>AUR20520 Certificate II in Automotive Servicing Technology, optional but useful.</p>
-
-<h3>Motor vehicle tradesperson certificate NSW</h3>
-<p>Required in NSW for work that affects a vehicle's mechanical operation or structure.</p>
-
-<h3>Mechanic skills assessment Australia</h3>
-<p>Trades Recognition Australia assesses Motor Mechanic (General) for migration.</p>
-
-<h3>Is motor mechanic on the skilled occupation list</h3>
-<p>Yes, 321211 is on the Core Skills Occupation List and the MLTSSL.</p>
-
-<h3>Electric vehicle mechanic course Australia</h3>
-<p>AUR32721 Certificate III in Automotive Electric Vehicle Technology, plus EV and hybrid skill sets.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing trades and routes into work in Australia? These cover them:</p>

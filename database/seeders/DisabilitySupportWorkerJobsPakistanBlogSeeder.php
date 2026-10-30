@@ -226,32 +226,6 @@ HTML;
 <h3>Where should I look for these jobs?</h3>
 <p>The Punjab Special Education Department jobs page, therapy and rehabilitation centres directly, home healthcare providers for attendant work, and disability-focused NGOs for programme roles. Government vacancies often close before job boards index them.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Special education jobs in Punjab</h3>
-<p>Advertised by the Special Education Department across roughly 118 institutions, on published government pay scales.</p>
-
-<h3>Autism support assistant jobs Pakistan</h3>
-<p>Usually one-to-one classroom or shadow posts. Distinct from ABA practitioner roles, which require formal training.</p>
-
-<h3>Learning support assistant jobs</h3>
-<p>Mainstream schools with integrated pupils. Often the most accessible entry point into education-based disability support.</p>
-
-<h3>Disability employment quota in Pakistan</h3>
-<p>Three per cent in Punjab since 2015, generally two per cent elsewhere, under the 1981 Ordinance, with a rehabilitation fund levy for non-compliance.</p>
-
-<h3>Therapy assistant jobs Pakistan</h3>
-<p>Speech, occupational and physiotherapy centres recruit assistants. The assistant post is an entry point; the therapist post needs the degree.</p>
-
-<h3>Jobs for disabled persons in Pakistan</h3>
-<p>The quota route, through the Punjab Council on Rights of Persons with Disabilities registration system and its services app.</p>
-
-<h3>Shadow teacher jobs in Pakistan</h3>
-<p>One-to-one classroom support for a single pupil, most common in private schools in the larger cities.</p>
-
-<h3>Rehabilitation assistant jobs Pakistan</h3>
-<p>Centre-based work alongside therapists, and NGO programme roles in community inclusion and livelihoods.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

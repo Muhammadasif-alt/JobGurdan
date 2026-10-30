@@ -328,32 +328,6 @@ JOBHTML;
 <h3>How do I become a nurse from a healthcare assistant job?</h3>
 <p>Through a two-year trainee nursing associate apprenticeship, usually paid at Band 3, then a registered nurse degree apprenticeship, which nursing associate training can shorten to two years.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>NHS Band 2 salary 2026</h3>
-<p>&pound;25,272 a year in England from 1 April 2026, a single spot rate.</p>
-
-<h3>NHS Band 3 healthcare assistant salary</h3>
-<p>&pound;25,760 rising to &pound;27,476 in England, and &pound;29,103 to &pound;31,409 in Scotland.</p>
-
-<h3>Healthcare assistant jobs with visa sponsorship</h3>
-<p>Possible only at Band 3 or above, paying at least &pound;25,000, in a setting with registered nurses.</p>
-
-<h3>Care assistant jobs no experience</h3>
-<p>There are no set entry requirements, but employers expect some care experience, including volunteering or caring for a relative.</p>
-
-<h3>NHS unsocial hours pay Band 2</h3>
-<p>41% extra for Saturdays and nights and 83% for Sundays and bank holidays in England, Wales and Northern Ireland.</p>
-
-<h3>PVG check for healthcare jobs in Scotland</h3>
-<p>A legal requirement for regulated roles, run by Disclosure Scotland in place of the DBS.</p>
-
-<h3>Nursing associate apprenticeship</h3>
-<p>A two-year foundation degree, usually paid at Band 3 during training and Band 4 once registered with the NMC.</p>
-
-<h3>Care Certificate standards</h3>
-<p>Sixteen standards since March 2025, completed as part of your induction.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing healthcare and entry-level work in the UK and abroad? These cover it:</p>

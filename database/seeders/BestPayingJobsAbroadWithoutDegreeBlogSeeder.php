@@ -158,32 +158,6 @@ class BestPayingJobsAbroadWithoutDegreeBlogSeeder extends Seeder
 <h3>Is unskilled work abroad well paid?</h3>
 <p>Rarely at trade level. Check pay, hours and benefits carefully.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Jobs abroad without degree</h3>
-<p>Trades need training.</p>
-
-<h3>No degree jobs overseas</h3>
-<p>Licensing matters.</p>
-
-<h3>High paying jobs no qualification</h3>
-<p>Be careful with promises.</p>
-
-<h3>Unskilled work abroad high salary</h3>
-<p>Check the details.</p>
-
-<h3>Elevator technician pay</h3>
-<p>US median $109,910.</p>
-
-<h3>Electrician pay</h3>
-<p>US median $63,190.</p>
-
-<h3>BLS median wage 2025</h3>
-<p>Gross, before deductions.</p>
-
-<h3>Trades abroad</h3>
-<p>Verify entry requirements.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

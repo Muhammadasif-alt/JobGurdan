@@ -375,32 +375,6 @@ JOBHTML;
 <h3>Where can I find legitimate finance analyst jobs in Canada?</h3>
 <p>Use Job Bank, Government of Canada Jobs and the banks' own portals: jobs.rbc.com, careers.td.com, jobs.scotiabank.com and jobs.bmo.com.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Financial analyst salary Canada</h3>
-<p>$43.27 an hour at the national median, $72.36 at the high end.</p>
-
-<h3>NOC 11101</h3>
-<p>The Job Bank code covering financial and investment analysts.</p>
-
-<h3>RBC Analyst Program</h3>
-<p>A final-year undergraduate pathway with Product &amp; Strategy and Data &amp; Analytics streams.</p>
-
-<h3>FP&amp;A analyst jobs Canada</h3>
-<p>Corporate planning and forecasting roles, often the entry point without a designation.</p>
-
-<h3>Investment analyst jobs Canada</h3>
-<p>Mostly at brokerage houses and fund management companies, per Job Bank.</p>
-
-<h3>CFA vs CPA Canada</h3>
-<p>CFA for investments and markets; CPA for reporting, controllership and corporate finance.</p>
-
-<h3>Financial analyst jobs Toronto</h3>
-<p>The largest market, though Ontario's three-year outlook is rated Limited.</p>
-
-<h3>Government of Canada finance jobs</h3>
-<p>Federal financial roles are advertised through GC Jobs.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing finance and Canadian career routes? These cover them:</p>

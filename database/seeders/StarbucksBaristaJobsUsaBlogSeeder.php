@@ -331,32 +331,6 @@ JOBHTML;
 <h3>What is Bean Stock and when do I get it?</h3>
 <p>An annual November restricted stock unit grant for store partners hired by 1 May with no break in service. Half vests one year after the grant date and half after two years.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Starbucks partner benefits eligibility hours</h3>
-<p>240 total hours over three full consecutive months to become eligible, then 520 hours per six-month measurement period, an average of 20 hours a week.</p>
-
-<h3>Starbucks average hourly pay</h3>
-<p>More than $19 an hour for US hourly retail partners, per Starbucks, with total pay and benefits valued above $30 an hour.</p>
-
-<h3>Starbucks College Achievement Plan ASU</h3>
-<p>100% upfront tuition for a first-time bachelor's degree online at Arizona State University, 180+ programmes, available from day one to benefits eligible partners.</p>
-
-<h3>Starbucks 401k match</h3>
-<p>Future Roast matches 100% of the first 5% of eligible pay contributed each pay period, immediately vested, from age 18 with 90 days of service.</p>
-
-<h3>Starbucks Stock Investment Plan discount</h3>
-<p>A 5% discount on Starbucks stock, contributing 1% to 10% of base pay, with enrolment only in the first 15 days of March, June, September and December.</p>
-
-<h3>Starbucks barista minimum availability</h3>
-<p>Starbucks asks barista candidates for a minimum availability of 18 hours a week, which sits below the 20-hour average the benefits run on.</p>
-
-<h3>Starbucks quarterly bonus 2026</h3>
-<p>The Best of Starbucks Reward, up to $300 a quarter or $1,200 a year for hourly coffeehouse partners, introduced alongside weekly pay from July 2026.</p>
-
-<h3>Starbucks sick time accrual</h3>
-<p>One hour of sick time for every 25 hours worked, usable as soon as it accrues, with up to 520 hours carried year to year.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Weighing Starbucks against the other big US hourly employers? These cover the same ground:</p>

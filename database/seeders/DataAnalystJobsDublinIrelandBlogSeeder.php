@@ -169,32 +169,6 @@ class DataAnalystJobsDublinIrelandBlogSeeder extends Seeder
 <h3>How do I avoid a fake job offer?</h3>
 <p>Never pay for an interview, a permit or a guaranteed offer, and check the employer on its own website.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Data analyst jobs Dublin</h3>
-<p>Search analyst, reporting analyst and business intelligence titles, and read each role's requirements.</p>
-
-<h3>Junior data analyst jobs Ireland</h3>
-<p>Look at graduate programmes, assistant roles and junior vacancies.</p>
-
-<h3>Data analyst requirements Dublin</h3>
-<p>Most ask for SQL, spreadsheets and communication, plus a degree or experience.</p>
-
-<h3>Data analyst career path Ireland</h3>
-<p>A common route runs from junior analyst to senior analyst and analytics lead.</p>
-
-<h3>Employment permit Ireland</h3>
-<p>A non-EEA national must hold a valid employment permit unless exempt.</p>
-
-<h3>publicjobs.ie</h3>
-<p>It is Ireland's public sector recruitment website, with Civil Service and State Board competitions.</p>
-
-<h3>SQL portfolio project</h3>
-<p>Show a business question, your cleaning decisions, the queries and a recommendation.</p>
-
-<h3>Graduate data analyst Ireland</h3>
-<p>Read the eligibility rules and closing date of each graduate competition.</p>
-
 <h2>A Note for Applicants in Pakistan</h2>
 
 <p>A person from outside the EEA needs a valid employment permit to work in Ireland unless an exemption applies, and an advertised role does not promise one. Never pay an agent for an interview, a permit or a "guaranteed" offer, and read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you send money or documents.</p>

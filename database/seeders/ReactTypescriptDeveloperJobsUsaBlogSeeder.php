@@ -221,32 +221,6 @@ HTML;
 <h3>How do I show TypeScript experience without a job?</h3>
 <p>One project that validates its API responses at the boundary and derives its types from that validation demonstrates the thing these roles actually hire for.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>React TypeScript developer jobs</h3>
-<p>Larger, longer-lived codebases where type discipline is part of the work rather than a preference.</p>
-
-<h3>TypeScript interview questions</h3>
-<p>Unions and narrowing, generics, and <code>unknown</code> against <code>any</code>. The last one reveals the most.</p>
-
-<h3>Runtime validation TypeScript</h3>
-<p>The real answer to unreliable API data: parse at the boundary and derive the type from the validator.</p>
-
-<h3>Type safety API responses</h3>
-<p>An interface is a claim about data you have not received. Nothing checks it when the data arrives.</p>
-
-<h3>TypeScript vs JavaScript jobs</h3>
-<p>The same occupations and the same pay bands. TypeScript signals codebase size, not a separate market.</p>
-
-<h3>Does TypeScript run in the browser</h3>
-<p>No. It is compiled first, and the annotations are erased in the process.</p>
-
-<h3>TypeScript strict mode</h3>
-<p>Mostly the compiler declining to accept an assumption you would otherwise have shipped. Turn it on.</p>
-
-<h3>React developer jobs USA</h3>
-<p>The market picture, the two occupations and the pay bands are on the main React guide.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

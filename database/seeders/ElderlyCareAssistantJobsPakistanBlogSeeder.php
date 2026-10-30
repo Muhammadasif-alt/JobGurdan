@@ -219,32 +219,6 @@ HTML;
 <h3>Is elderly care a career or a stopgap?</h3>
 <p>It can be either. Workers who document their posts, take the vocational qualification and add dementia or palliative training progress into senior caregiver and coordination roles. Without a record of what you have done, progression is difficult because the field has no formal ladder.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Elderly caregiver jobs in Lahore</h3>
-<p>Mostly private-household posts advertised through word of mouth. Confirm who your employer is before agreeing terms.</p>
-
-<h3>NAVTTC elderly care giver course</h3>
-<p>Qualification code 090921ECG, nine weeks, listed under the Domestic Worker Program on the NAVTTC register.</p>
-
-<h3>Dementia care jobs Pakistan</h3>
-<p>Specialist work regularly advertised at the general caregiving rate. Ask about diagnosis, night behaviour and who else is involved.</p>
-
-<h3>Live-in caregiver jobs Pakistan</h3>
-<p>Common in elder care. Rest hours, accommodation and weekly time off are entitlements, not favours, when a household employs you.</p>
-
-<h3>Old age home jobs in Pakistan</h3>
-<p>Residential facilities recruit attendants and care staff on shift patterns rather than live-in terms, usually with on-site supervision.</p>
-
-<h3>Elderly care assistant salary in Pakistan</h3>
-<p>No reliable published range exists. The figures circulating come from single adverts and should not be treated as a market rate.</p>
-
-<h3>Alzheimers caregiver jobs</h3>
-<p>Advertised under caregiver, care taker and attendant titles. Treat any post mentioning memory loss or night waking as dementia work.</p>
-
-<h3>Caregiver jobs in Islamabad and Rawalpindi</h3>
-<p>Care Nest recruits across the twin cities with 12-hour, live-in and part-time options through its own online form.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

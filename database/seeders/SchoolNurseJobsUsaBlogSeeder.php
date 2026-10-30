@@ -316,32 +316,6 @@ JOBHTML;
 <h3>Can an LPN or ADN nurse work as a school nurse?</h3>
 <p>An ADN-prepared RN can in states without a bachelor's requirement. Some districts also hire LPNs as health aides under an RN's supervision, but the school nurse title usually requires an RN.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>School nurse salary by state</h3>
-<p>District salary schedules decide it; the national school median is $69,340.</p>
-
-<h3>How to become a school nurse</h3>
-<p>An RN license, plus a bachelor's degree and state credential in some states.</p>
-
-<h3>NCSN certification requirements</h3>
-<p>RN license, bachelor's in nursing and 1,000 hours of school nursing in three years.</p>
-
-<h3>California school nurse credential</h3>
-<p>Preliminary for five years, then a clear credential after two years and an approved program.</p>
-
-<h3>New Jersey school nurse certificate</h3>
-<p>Bachelor's degree, New Jersey RN license, CPR and AED, and school nursing coursework.</p>
-
-<h3>School nurse jobs near me</h3>
-<p>Start with district HR pages and state education job boards.</p>
-
-<h3>School nurse vs hospital nurse pay</h3>
-<p>About $28,000 lower at the median, on a shorter school-year contract.</p>
-
-<h3>Part-time school nurse jobs</h3>
-<p>Common where one nurse is shared between several schools.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing nursing and school jobs? These cover them:</p>

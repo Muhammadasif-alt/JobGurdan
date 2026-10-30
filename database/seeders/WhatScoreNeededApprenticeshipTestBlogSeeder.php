@@ -164,32 +164,6 @@ class WhatScoreNeededApprenticeshipTestBlogSeeder extends Seeder
 <h3>Can I pay to improve my chances?</h3>
 <p>No. Never pay anyone for a guaranteed score or placement.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Apprenticeship test passing score</h3>
-<p>Set locally.</p>
-
-<h3>What score do you need apprenticeship test</h3>
-<p>Ask your programme.</p>
-
-<h3>Apprenticeship aptitude test cutoff</h3>
-<p>70% is common.</p>
-
-<h3>Ranked selection apprenticeship</h3>
-<p>Top-down.</p>
-
-<h3>NEIEP 70 percent</h3>
-<p>EIAT pass mark.</p>
-
-<h3>Ironworkers Local 721 70 percent</h3>
-<p>Both tests.</p>
-
-<h3>UA Local 190 WorkKeys score</h3>
-<p>Cumulative 17.</p>
-
-<h3>Apprenticeship interview score</h3>
-<p>Can set the rank.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

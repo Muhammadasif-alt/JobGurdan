@@ -297,32 +297,6 @@ JOBHTML;
 <h3>Can a foreign welder get a US work visa?</h3>
 <p>Only through an employer. Permanent routes usually mean labour certification and an EB-3 petition; H-2B covers temporary needs only and is capped.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Welder salary per hour USA</h3>
-<p>$25.84 median in May 2025.</p>
-
-<h3>Highest paying welding jobs</h3>
-<p>Heavy and civil engineering construction, at a $76,690 median.</p>
-
-<h3>Pipe welder salary</h3>
-<p>BLS does not publish it separately; pipe work sits mostly in the higher-paying construction industries.</p>
-
-<h3>Welder job outlook 2035</h3>
-<p>2 per cent growth and about 40,300 openings a year.</p>
-
-<h3>AWS certified welder</h3>
-<p>The American Welding Society programme that records the weld tests you have passed.</p>
-
-<h3>Top 10 percent welder salary</h3>
-<p>Above $77,530 a year.</p>
-
-<h3>Welder salary Canada</h3>
-<p>C$30.00 an hour national median on Job Bank.</p>
-
-<h3>Structural welding certification</h3>
-<p>Usually a test to AWS D1.1.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related trades and markets:</p>

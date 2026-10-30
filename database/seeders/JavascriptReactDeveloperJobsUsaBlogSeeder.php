@@ -223,32 +223,6 @@ HTML;
 <h3>Does this title pay differently?</h3>
 <p>There is no separate federal wage for it. It sits in the same occupations as the rest of React work, which the main React guide explains, and the scope of the role rather than the title decides the band.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>JavaScript React developer jobs</h3>
-<p>Usually mixed-codebase or modernisation work, with the language tested separately from the library.</p>
-
-<h3>JavaScript interview fundamentals</h3>
-<p>Prepare two subjects: the language from ECMA-262, and the environment from the WHATWG HTML Standard.</p>
-
-<h3>JavaScript event loop interview</h3>
-<p>A browser specification question, not a language one. Tasks, microtasks and the nested timer clamp are the substance of it.</p>
-
-<h3>ECMAScript editions</h3>
-<p>Annual since ES2015, the sixth edition adopted on 17 June 2015, reaching the 16th edition in June 2025.</p>
-
-<h3>Legacy modernisation React</h3>
-<p>Incremental migration judged on the absence of regressions, which is a different discipline from shipping features.</p>
-
-<h3>React JS developer jobs USA</h3>
-<p>Often advertised by staffing firms, where a separate set of pay rules applies. Our contract jobs guide covers those.</p>
-
-<h3>Is jQuery still used</h3>
-<p>Enough that being able to read it is an asset on migration work, which is where a lot of these adverts sit.</p>
-
-<h3>React developer jobs USA</h3>
-<p>The market picture, the two occupations this work is benchmarked against, and the pay bands are on the main React guide.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

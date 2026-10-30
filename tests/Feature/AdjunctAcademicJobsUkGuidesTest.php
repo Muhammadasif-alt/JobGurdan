@@ -54,15 +54,13 @@ it('ships every image both guides reference', function (string $slug) {
     expect($blog->content)->not->toContain('.png');
 })->with([PROFESSOR_SLUG, LECTURER_SLUG]);
 
-it('carries eight FAQs and eight People Also Search For entries on both', function (string $slug) {
+it('carries eight FAQs and no People Also Search For block on both', function (string $slug) {
     $content = Blog::where('slug', $slug)->value('content');
 
     expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(8);
 
-    $tail = substr($content, strpos($content, 'People Also Search For'));
-    $tail = substr($tail, 0, strpos($tail, 'More Job Guides'));
 
-    expect(substr_count($tail, '<h3>'))->toBe(8);
+    expect(substr_count($content, 'People Also Search For'))->toBe(0);
 
     $this->get('/blog/'.$slug)->assertOk()->assertSee('"FAQPage"', false);
 })->with([PROFESSOR_SLUG, LECTURER_SLUG]);

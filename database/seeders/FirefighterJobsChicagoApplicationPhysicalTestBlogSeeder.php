@@ -173,32 +173,6 @@ class FirefighterJobsChicagoApplicationPhysicalTestBlogSeeder extends Seeder
 <h3>How does the eligibility list work?</h3>
 <p>Candidates from the 2022 requisition got a lottery number, and those who passed the written test a processing order number that decides when they are contacted.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Firefighter jobs in Chicago Illinois</h3>
-<p>Firefighter/EMT through periodic city entrance examinations.</p>
-
-<h3>Chicago firefighter application</h3>
-<p>Apply when the Department of Human Resources posts the examination.</p>
-
-<h3>Chicago Fire Department requirements</h3>
-<p>18 to test, appointed by 37, GED, residency, US licence and screening.</p>
-
-<h3>Firefighter physical test Chicago</h3>
-<p>The CPAT, passed within 12 months of hire.</p>
-
-<h3>Chicago CPAT test</h3>
-<p>Eight events in 10 minutes 20 seconds with a 50 lb vest.</p>
-
-<h3>Chicago firefighter salary</h3>
-<p>$74,626 starting salary as of January 2026.</p>
-
-<h3>CFD firefighter EMT</h3>
-<p>The entry route; no prior EMT training needed.</p>
-
-<h3>Chicago firefighter age limit</h3>
-<p>No appointment after age 37.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Sign up for the city's alerts, check that you will meet the age, education, residency and licence rules at hire, prepare for the written test from the city's guide, and train for the CPAT through official orientation and practice runs. Apply only through the city's process when the examination opens. This guide cannot promise selection.</p>

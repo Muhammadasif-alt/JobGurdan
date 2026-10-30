@@ -295,32 +295,6 @@ JOBHTML;
 <h3>Can I work as a cook part-time?</h3>
 <p>Yes. Restaurants, cafés, schools and caterers all use part-time cooks, and the National Living Wage applies to every hour you work.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Commis chef jobs</h3>
-<p>The usual first title in restaurant and hotel kitchens, often on a Level 2 apprenticeship.</p>
-
-<h3>Care home cook jobs</h3>
-<p>Daytime hours and special-diet menus, with a DBS check. Advertised floors of &pound;20,000 are below the legal minimum for a full-time adult.</p>
-
-<h3>School cook jobs</h3>
-<p>Term-time hours and menus built to the school food standards.</p>
-
-<h3>Food hygiene certificate Level 2</h3>
-<p>Not a legal requirement, but the most common way employers evidence food hygiene training.</p>
-
-<h3>Chef jobs with visa sponsorship UK</h3>
-<p>Not available to new overseas applicants since 22 July 2025. Cooks cannot be sponsored at all.</p>
-
-<h3>Kitchen porter jobs</h3>
-<p>Kitchen and catering assistant roles, in Table 6 and not eligible for sponsorship, but open to anyone with the right to work.</p>
-
-<h3>Live-in chef jobs UK</h3>
-<p>Mostly at rural and seasonal hotels and pubs. Check how accommodation is charged against your pay.</p>
-
-<h3>Cook salary in London</h3>
-<p>The highest in the UK, but still to be checked against the National Living Wage for the hours you work.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing UK routes and hospitality work elsewhere? These cover them:</p>

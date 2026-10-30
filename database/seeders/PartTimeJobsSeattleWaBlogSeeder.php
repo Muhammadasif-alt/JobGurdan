@@ -132,32 +132,6 @@ class PartTimeJobsSeattleWaBlogSeeder extends Seeder
 <h3>Is a part-time job always flexible?</h3>
 <p>No. Read the posted schedule and ask about required days, early starts and weekends.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Part time jobs in Seattle WA</h3>
-<p>Check hours before applying.</p>
-
-<h3>Seattle part time jobs</h3>
-<p>Confirm the location.</p>
-
-<h3>Weekend jobs Seattle</h3>
-<p>Ask about weekday training.</p>
-
-<h3>Student jobs Seattle</h3>
-<p>UW HFS hires students.</p>
-
-<h3>University of Washington jobs</h3>
-<p>Staff, temporary, academic, student.</p>
-
-<h3>UW Housing and Food Services jobs</h3>
-<p>10 hours a week minimum.</p>
-
-<h3>City of Seattle jobs</h3>
-<p>Part-time internships in term time.</p>
-
-<h3>WorkSource Washington</h3>
-<p>State job search service.</p>
-
 <h2>A Note for Applicants in Pakistan</h2>
 
 <p>A job listing on an employer's portal is not a visa offer, and most of these employers do not sponsor workers for entry-level roles. Never pay an agent for an interview or a "guaranteed" US job, and read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> first.</p>

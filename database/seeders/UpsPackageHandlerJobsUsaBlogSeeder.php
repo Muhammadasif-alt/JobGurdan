@@ -344,32 +344,6 @@ JOBHTML;
 <h3>When does UPS hire the most package handlers?</h3>
 <p>Ahead of peak shipping season. Seasonal hiring ramps up from the autumn into the new year, and some seasonal workers are kept on.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>UPS package handler pay 2026</h3>
-<p>$21 an hour for new part-time hires under the national agreement, advancing to $23.</p>
-
-<h3>UPS preload shift hours</h3>
-<p>About 3:00 AM to 9:00 AM, loading package cars before delivery routes leave.</p>
-
-<h3>UPS twilight sort</h3>
-<p>About 5:00 PM to 10:00 PM, the evening sort that suits daytime students.</p>
-
-<h3>UPS Earn and Learn tuition</h3>
-<p>Up to $25,000 towards tuition, books and fees, at participating locations.</p>
-
-<h3>UPS Teamsters contract 2028</h3>
-<p>The National Master Agreement runs 1 August 2023 to 31 July 2028 and sets the whole wage scale.</p>
-
-<h3>UPS package weight limit</h3>
-<p>Typically 25 to 35 lbs, and up to 70 lbs on heavier items.</p>
-
-<h3>UPS seasonal jobs peak season</h3>
-<p>Hiring ramps from autumn into the new year, with longer hours through the peak.</p>
-
-<h3>UPS 22.4 driver classification</h3>
-<p>Abolished by the 2023 contract; those drivers became Regular Package Car Drivers with seniority.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing entry-level work across the US? These cover the alternatives:</p>

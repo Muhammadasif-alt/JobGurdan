@@ -290,32 +290,6 @@ JOBHTML;
 <h3>How do I check a Saudi recruitment agency?</h3>
 <p>Pakistani applicants can match the agency's licence number on the BEOE site. Others should check their own government's overseas employment office.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Cleaner jobs with visa sponsorship</h3>
-<p>Possible in Saudi Arabia and, in some areas, Canada; generally not in the UK.</p>
-
-<h3>Janitor jobs in Canada LMIA</h3>
-<p>Search Job Bank for "light duty cleaner" and filter for "LMIA requested".</p>
-
-<h3>Light duty cleaner NOC 65310</h3>
-<p>The Canadian occupation code used by Job Bank for cleaners.</p>
-
-<h3>Cleaner jobs in Saudi Arabia</h3>
-<p>Mostly in Riyadh, through licensed overseas agencies.</p>
-
-<h3>Cleaning jobs UK visa sponsorship</h3>
-<p>Below the Skilled Worker skill level, so adverts promising it need checking.</p>
-
-<h3>BEOE cleaner jobs</h3>
-<p>Approved offers for Pakistani applicants, each with a permission number and named agency.</p>
-
-<h3>Low-wage LMIA Canada</h3>
-<p>Not processed in areas with unemployment at 6 percent or higher.</p>
-
-<h3>Cleaner job scams</h3>
-<p>Real employers charge no fee for a job or a visa.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related cleaning and visa guides:</p>

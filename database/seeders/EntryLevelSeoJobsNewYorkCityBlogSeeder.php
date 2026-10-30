@@ -161,34 +161,6 @@ class EntryLevelSeoJobsNewYorkCityBlogSeeder extends Seeder
 <h3>What should I put in an SEO portfolio?</h3>
 <p>A keyword map, a content brief and a prioritised website review, all labelled as practice work. Do not invent traffic or client results.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Entry level SEO jobs New York City</h3>
-<p>Read each title and requirement carefully, because junior roles differ between employers.</p>
-
-<h3>SEO assistant jobs NYC</h3>
-<p>Assistant roles often mean research, spreadsheets and page updates under supervision.</p>
-
-<h3>SEO internships New York</h3>
-<p>Ask about hours, the end date, pay and the work you will actually do.</p>
-
-<h3>Junior SEO analyst jobs NYC</h3>
-<p>Check the years of experience, since analyst does not always mean beginner.</p>
-
-<h3>Google SEO starter guide</h3>
-<p>Google's free guide explains titles, descriptions, links and helpful content.</p>
-
-<h3>Google Search Console for beginners</h3>
-<p>It shows how Google crawls, indexes and serves a site you own.</p>
-
-<h3>Workforce1 Career Centers NYC</h3>
-<p>A free New York City service for workshops, counselling and résumé help.</p>
-
-<h3>SEO portfolio with no experience</h3>
-<p>Use practice projects, label them clearly and never invent results.</p>
-
-
-
 <h2>Bottom Line</h2>
 
 <p>Entry-level SEO jobs in New York City come through internships, associate positions and junior support roles, and no guide can promise one. Read each advertisement for what is required, build a small honest portfolio, use the free career help available in the city and never pay to be placed. Platform and employer details change, so check the current page before you rely on it.</p>

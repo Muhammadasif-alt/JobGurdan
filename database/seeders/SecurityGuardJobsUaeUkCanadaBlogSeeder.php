@@ -329,32 +329,6 @@ JOBHTML;
 <h3>Who pays for security guard licence training?</h3>
 <p>It varies. Ask in writing before you accept, and in the UAE remember the employer may not charge you recruitment costs.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Security guard jobs in Dubai</h3>
-<p>Search for security guard, officer and watchman, and check the licence requirement in each advert.</p>
-
-<h3>SIRA security guard certificate</h3>
-<p>The Dubai licence; it does not cover the other emirates.</p>
-
-<h3>SIA licence security guard</h3>
-<p>The UK licence; you need 18 plus a licence-linked qualification and, in most cases, the right to work.</p>
-
-<h3>Security guard licence Ontario</h3>
-<p>A 40-hour approved course, an exam and a criminal record check.</p>
-
-<h3>Security guard jobs in Canada</h3>
-<p>Search Job Bank, once you are legally entitled to work.</p>
-
-<h3>Security guard jobs in the UK</h3>
-<p>Open to people who already have the right to work and an SIA licence.</p>
-
-<h3>Security guard job scams</h3>
-<p>Real employers charge no fee for a job or a visa.</p>
-
-<h3>Licensed security work abroad</h3>
-<p>Every destination licenses guards, and none lets you skip the licence.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related security and visa guides:</p>

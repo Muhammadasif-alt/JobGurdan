@@ -184,24 +184,6 @@ HTML;
 <h3>Does this guide promise visa sponsorship?</h3>
 <p>No. Nothing here establishes that sponsorship is available for these roles. Check the employer's eligibility information on the particular vacancy.</p>
 
-<h2>People Also Search For</h2>
-<h3>Clinic receptionist salary</h3>
-<p>$18.27 an hour nationally in May 2025, from under $13.83 at the tenth percentile to over $24.01 at the ninetieth.</p>
-<h3>Medical receptionist jobs near me</h3>
-<p>Best found on hospital-group and practice careers pages by city, rather than by a nationwide search count.</p>
-<h3>Patient services representative</h3>
-<p>A common employer title for the same front-desk work, often with added insurance and registration duties.</p>
-<h3>Front desk coordinator jobs</h3>
-<p>Usually a senior reception title covering scheduling and workflow for a whole clinic team.</p>
-<h3>Receptionist job outlook</h3>
-<p>A 1.7 per cent decline to 2035, but roughly 105,100 openings a year from turnover.</p>
-<h3>Kaiser Permanente careers</h3>
-<p>One of the larger US health systems publishing reception roles, with hourly rates shown on each advert.</p>
-<h3>Medical terminology for receptionists</h3>
-<p>Preferred rather than required in most adverts; useful for moving into records or medical assisting later.</p>
-<h3>Entry level healthcare jobs no experience</h3>
-<p>Reception is one of the few healthcare roles BLS lists with no experience requirement at entry.</p>
-
 <h2>Related career guides</h2>
 <ul>
 <li><a href="/blog/medical-records-clerk-jobs-in-usa">Medical Records Clerk Jobs in USA</a>: the same clinic's back office, where a $199 exam lifts the median to $51,140.</li>

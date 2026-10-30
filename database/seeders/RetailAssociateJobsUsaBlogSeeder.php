@@ -339,32 +339,6 @@ JOBHTML;
 <h3>How much more do retail supervisors earn?</h3>
 <p>First-line supervisors of retail sales workers have a median of $23.33 an hour, or $48,520 a year: $6.30 an hour above the associate median. There are 1,121,800 of those posts against 3,897,860 associates.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Retail sales associate salary</h3>
-<p>A measured median of $17.03 an hour, with the middle half of the occupation between $14.38 and $18.59.</p>
-
-<h3>Entry level retail jobs no experience</h3>
-<p>The official entry requirement is no formal educational credential and no prior work experience. Availability decides the hire.</p>
-
-<h3>Part time retail jobs near me</h3>
-<p>Widely available year round. Ask how far ahead the schedule is posted and whether shifts get cut on the day.</p>
-
-<h3>Retail associate job description</h3>
-<p>Sales floor service, register work, restocking, returns and seasonal resets, with standing and lifting for a full shift.</p>
-
-<h3>Highest paying states for retail workers</h3>
-<p>Washington, the District of Columbia, California, Colorado, Hawaii and New York, mostly because their wage floors are high.</p>
-
-<h3>Minimum wage by state</h3>
-<p>$7.25 federally since 2009, up to $18.40 in the District of Columbia, and five states with no minimum wage law of their own.</p>
-
-<h3>Store manager career path</h3>
-<p>The supervisor step is a median of $23.33 an hour, but there is roughly one supervisor post per three and a half associates.</p>
-
-<h3>Seasonal retail jobs hiring</h3>
-<p>The holiday intake is the largest of the year and a genuine route into a permanent role. Say you are available for the peak.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing entry-level routes? These cover them:</p>

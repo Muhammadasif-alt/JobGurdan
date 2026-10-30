@@ -309,32 +309,6 @@ JOBHTML;
 <h3>Do I need a driver's licence?</h3>
 <p>For community and home-care roles, usually yes: postings routinely require a valid licence and a vehicle. Hospital, clinic and school-based roles are the alternative if you do not drive.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>NOTCE exam Canada</h3>
-<p>The national certification exam administered by CAOT, required for OT registration in every province except Quebec, and case-based against the current competencies from 30 September 2026.</p>
-
-<h3>ACOTRO SEAS assessment</h3>
-<p>The Substantial Equivalency Assessment System, the first step for internationally educated occupational therapists before provincial registration.</p>
-
-<h3>Occupational therapist salary Canada</h3>
-<p>Job Bank puts the median at $46.00 an hour, about $90,000 a year, with a national high of $55.00.</p>
-
-<h3>COTO registration Ontario</h3>
-<p>Registration with the College of Occupational Therapists of Ontario, the provincial regulator for OTs practising in Ontario.</p>
-
-<h3>Occupational therapist NOC code</h3>
-<p>Occupational therapists are NOC 31203, TEER 1, which makes the occupation eligible for Express Entry.</p>
-
-<h3>Internationally educated occupational therapist Canada</h3>
-<p>A therapist trained abroad who registers through SEAS, a provincial college and the NOTCE, outside Quebec.</p>
-
-<h3>Occupational therapy jobs Ontario</h3>
-<p>The largest OT market by volume, strongest in community rehab, insurer-funded assessments and paediatrics.</p>
-
-<h3>Express Entry healthcare category 2026</h3>
-<p>Category-based draws for healthcare and social-services occupations, now requiring one year of qualifying experience since 18 February 2026.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Weighing a move into Canadian healthcare or a work permit? These cover the neighbouring routes:</p>

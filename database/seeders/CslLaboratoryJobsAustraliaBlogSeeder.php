@@ -349,19 +349,6 @@ JOBHTML;
 <h3>Does CSL still hire at Parkville?</h3>
 <p>CSL still employs research staff at Parkville, its current enterprise agreement names both Parkville sites as covered workplaces, but influenza manufacturing has transferred to Tullamarine and there are no Parkville vacancies at present. Seqirus hiring is now at Tullamarine and Woodend.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li>CSL Behring salary Australia enterprise agreement</li>
-    <li>ANZSCO 234513 Biochemist skills assessment</li>
-    <li>Core Skills Occupation List laboratory jobs</li>
-    <li>CSL graduate program eligibility 2028</li>
-    <li>QC analyst jobs Melbourne shift work</li>
-    <li>Core Skills Income Threshold 2026 2027</li>
-    <li>CSL Broadmeadows plasma facility jobs</li>
-    <li>Medical Laboratory Scientist Australia PR pathway</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

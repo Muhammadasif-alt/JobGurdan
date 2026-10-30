@@ -356,32 +356,6 @@ JOBHTML;
 <h3>What documents does Telkom require?</h3>
 <p>KTP, degree certificate, academic transcript, an English certificate such as TOEFL or IELTS, a creative CV, a photograph, and a work experience letter if you have one.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Telkom recruitment login</h3>
-<p>recruitment.telkom.co.id/login_page. Account creation needs a KTP number, full name, an active email and a password.</p>
-
-<h3>Rekrutmen Bersama BUMN</h3>
-<p>The joint state-owned enterprise recruitment cycle Telkom takes part in, run through Ministry of SOE platforms that are also keyed on Indonesian identity numbers.</p>
-
-<h3>Telkom Band Posisi</h3>
-<p>Band I equals Vice President, II General Manager, III Manager, IV Assistant Manager, and Bands V, VI and VII are Officer level.</p>
-
-<h3>Digistar Class Telkom 2026</h3>
-<p>A five-month internship in AI and B2B Solutions, registration 31 January to 8 February 2026, for students in at least their sixth semester. Now closed.</p>
-
-<h3>Telkom AIcosystem</h3>
-<p>Launched 4 June 2026 as an integrated AI ecosystem across TelkomGroup, spanning infrastructure, models and platform, and solutions.</p>
-
-<h3>Telkom SCALE program</h3>
-<p>Launched 17 September 2026. Synergize, Culture, Automate, Lead, Expand. An internal transformation programme covering 13 strategic initiatives, not a recruitment drive.</p>
-
-<h3>Telkom Indonesia owner</h3>
-<p>The state holds 52.09 per cent through PT Danantara Asset Management under Law No. 16 of 2025, retaining the Dwiwarna golden share.</p>
-
-<h3>Indonesia work permit for foreigners</h3>
-<p>The employer must hold an approved RPTKA under Permenaker 8 of 2021 and pay US$100 a month per foreign worker. A worker cannot self-sponsor, and that does not solve Telkom's KTP requirement.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If the KTP requirement rules you out, these are better uses of your time:</p>

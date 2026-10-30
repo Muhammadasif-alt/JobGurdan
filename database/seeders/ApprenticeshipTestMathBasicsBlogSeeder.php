@@ -166,32 +166,6 @@ class ApprenticeshipTestMathBasicsBlogSeeder extends Seeder
 <h3>Where can I practise?</h3>
 <p>Use OpenStax Prealgebra and your programme's own samples.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Apprenticeship test math</h3>
-<p>Basics first.</p>
-
-<h3>Trade apprenticeship math</h3>
-<p>Fractions to algebra.</p>
-
-<h3>Fractions decimals percentages</h3>
-<p>Convert fluently.</p>
-
-<h3>Unit conversions trades</h3>
-<p>Feet, yards, cubic yards.</p>
-
-<h3>Pythagorean theorem practice</h3>
-<p>3-4-5 triangles.</p>
-
-<h3>Apprenticeship math practice</h3>
-<p>15 minutes a day.</p>
-
-<h3>Tape measure fractions</h3>
-<p>Count sixteenths.</p>
-
-<h3>Order of operations</h3>
-<p>Brackets first.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

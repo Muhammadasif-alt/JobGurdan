@@ -160,32 +160,6 @@ class PrepareOnlineJobInterviewAbroadBlogSeeder extends Seeder
 <h3>Should I send documents after the call?</h3>
 <p>Only to a verified employer contact and only what is needed.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Online job interview abroad tips</h3>
-<p>Test setup, be truthful.</p>
-
-<h3>Video interview for overseas job</h3>
-<p>Check time zone.</p>
-
-<h3>How to prepare for international interview</h3>
-<p>Research the employer.</p>
-
-<h3>Remote interview tips</h3>
-<p>Pause, clarify.</p>
-
-<h3>Overseas interview questions</h3>
-<p>Location and authorisation.</p>
-
-<h3>Interview time zone Pakistan</h3>
-<p>Write both times.</p>
-
-<h3>Job interview checklist</h3>
-<p>Use the table.</p>
-
-<h3>Interview scam warning</h3>
-<p>Never pay to be interviewed.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

@@ -271,32 +271,6 @@ JOBHTML;
 <h3>Do I need to speak Arabic?</h3>
 <p>Basic English is usually enough in hotel and catering kitchens. Arabic helps but is rarely a strict requirement.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Kitchen helper salary in Saudi Arabia</h3>
-<p>No legal minimum for foreign workers; India's referral wage for helpers is SAR 1,600 a month.</p>
-
-<h3>Saudi Labour Law Article 40</h3>
-<p>Puts recruitment, iqama, work permit, profession change, exit and re-entry fees and the return ticket on the employer.</p>
-
-<h3>Balady health certificate for food workers</h3>
-<p>Issued online after a medical exam at an approved health centre, in about 10 days.</p>
-
-<h3>Saudi overtime calculation</h3>
-<p>The hourly wage plus 50% of the basic wage, with public holiday work counted as overtime.</p>
-
-<h3>End of service benefit Saudi Arabia</h3>
-<p>Half a month's wage per year for the first five years, then a full month per year.</p>
-
-<h3>Saudization in hospitality</h3>
-<p>41 tourism professions are being localized from 22 April 2026, and Madinah localizes 40% of restaurant jobs.</p>
-
-<h3>Hotel jobs in Saudi Arabia for freshers</h3>
-<p>Tourism employed 983,253 people in early 2025, and 75.2% of them were non-Saudi.</p>
-
-<h3>Overseas Employment Promoter licence check</h3>
-<p>Verify the licence on the Bureau of Emigration and Overseas Employment's active list before paying anything.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing Gulf routes and kitchen work elsewhere? These cover it:</p>

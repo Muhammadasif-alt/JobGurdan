@@ -166,32 +166,6 @@ class GulfVsEuropeForWorkBlogSeeder extends Seeder
 <h3>Which has better job security?</h3>
 <p>It depends on the contract, the employer and the country, not the region.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Gulf vs Europe for work</h3>
-<p>Compare real offers.</p>
-
-<h3>Better to work in UAE or UK</h3>
-<p>Check eligibility first.</p>
-
-<h3>Compare Gulf and Europe jobs</h3>
-<p>Use net pay.</p>
-
-<h3>Expat life Gulf vs Europe</h3>
-<p>Depends on the city.</p>
-
-<h3>UAE no income tax</h3>
-<p>Rent and other costs remain.</p>
-
-<h3>UK Skilled Worker</h3>
-<p>Sponsor and eligible role.</p>
-
-<h3>Germany settlement permit</h3>
-<p>Long-term route.</p>
-
-<h3>UAE Golden visa</h3>
-<p>Eligible categories.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

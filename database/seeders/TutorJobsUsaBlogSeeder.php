@@ -328,32 +328,6 @@ JOBHTML;
 <h3>Do tutors need a background check?</h3>
 <p>Often. Varsity Tutors applicants must be able to pass one, Wyzant tutors must pass one if a student requests it, and states such as Washington require fingerprint checks for school contractors with unsupervised access to children.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Online tutor jobs USA</h3>
-<p>Wyzant and Varsity Tutors both hire tutors for online lessons.</p>
-
-<h3>Tutor salary USA</h3>
-<p>A median of $20.84 an hour according to BLS, May 2025.</p>
-
-<h3>Wyzant tutor requirements</h3>
-<p>18 or older, US residence and a valid Social Security Number.</p>
-
-<h3>Varsity Tutors application</h3>
-<p>An application, video interview, transcripts and a background check.</p>
-
-<h3>Sylvan Learning tutor jobs</h3>
-<p>Local franchise centers, plus the online and in-person Marketplace+.</p>
-
-<h3>Kumon center assistant</h3>
-<p>Grading and preparing classwork, with strong high school math or English.</p>
-
-<h3>Math tutor jobs</h3>
-<p>The most common center and platform subject, from elementary math to calculus.</p>
-
-<h3>AmeriCorps tutoring jobs</h3>
-<p>Reading Corps and Math Corps tutors receive a stipend every two weeks.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at teaching work more broadly? These cover it:</p>

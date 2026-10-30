@@ -351,32 +351,6 @@ JOBHTML;
 <h3>Does Airbus sponsor visas?</h3>
 <p>It does not commit either way. Its FAQ says visa and relocation support depend on the role, country and legislation, and may be discussed where relevant. None of its 622 French adverts mentions a visa.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Airbus careers Workday</h3>
-<p>The real vacancy portal, separate from airbus.com. Filter by country rather than trying to build a URL by hand.</p>
-
-<h3>Habilitation de sécurité Airbus</h3>
-<p>The French security clearance required on about two in five Airbus French vacancies, granted by the French authorities after a background investigation.</p>
-
-<h3>IGI 1300</h3>
-<p>The interministerial instruction of 9 August 2021 that Airbus cites when an advert states French nationality is mandatory.</p>
-
-<h3>Airbus Toulouse jobs</h3>
-<p>Toulouse is the headquarters with around 35,000 employees, and the Blagnac final assembly lines cover the A320, A330, A350 and A380 families.</p>
-
-<h3>Carte de séjour talent France 2026</h3>
-<p>The renamed passeport talent. The salarié qualifié category needs &euro;39,582 and a France-obtained master; the Blue Card category needs &euro;59,373.</p>
-
-<h3>Airbus apprenticeship age limit</h3>
-<p>A maximum of 29 years old, extended to 35 in specific cases such as progressing to a higher diploma level.</p>
-
-<h3>Airbus Atlantic CQPM</h3>
-<p>A French metallurgy sector certificate, one to three months, leading to a temp-agency contract. It is a retraining route for people already in France, not an entry route from abroad.</p>
-
-<h3>Airbus recruitment fraud</h3>
-<p>Airbus contacts candidates only from addresses ending strictly in @airbus.com and never requests payment for interviews, background checks, visa processing, training or IT equipment.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing European aerospace and engineering employers? These cover the same ground:</p>

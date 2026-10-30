@@ -260,32 +260,6 @@ JOBHTML;
 <h3>Which ATS platforms should I know?</h3>
 <p>Workday, Taleo, iCIMS and Greenhouse come up most often. You do not need administrator-level knowledge; you need to be able to speak specifically about how documents are parsed and how recruiters search inside them.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>ATS resume writer jobs</h3>
-<p>Hired by career coaching firms, staffing agencies and online resume services, almost always with a remote option, on a portfolio or certification basis.</p>
-
-<h3>Resume writer jobs in USA</h3>
-<p>Staff roles at established firms pay a base plus per-resume bonuses; contract and freelance work is priced per project by industry and seniority.</p>
-
-<h3>Remote resume writer jobs</h3>
-<p>The default arrangement in this field, since the work is document-based and employers prefer hiring across time zones.</p>
-
-<h3>ATS resume writing skills and requirements</h3>
-<p>Strong written English, formatting discipline, interviewing skill, and enough familiarity with Workday, Taleo, iCIMS and Greenhouse to be specific about parsing.</p>
-
-<h3>CPRW certification</h3>
-<p>The most widely recognised resume-writing credential, and the one job advertisements name most often.</p>
-
-<h3>NCRW certification</h3>
-<p>The National Résumé Writers' Association's examination-based resume credential, and the more demanding of the two established designations.</p>
-
-<h3>Freelance resume writer jobs</h3>
-<p>The most accessible entry point. Agree the pay structure, turnaround time and revision limit before the first assignment.</p>
-
-<h3>Do ATS systems reject resumes automatically</h3>
-<p>Recruiters overwhelmingly say they do not. An ATS stores, sorts and searches; people decide. Volume and keyword mismatch account for most unanswered applications.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at the rest of the remote writing and support market? These cover it:</p>

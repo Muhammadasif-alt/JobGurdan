@@ -372,17 +372,6 @@ JOBHTML;
 <h3>How many people in the UK actually work from home?</h3>
 <p>ONS figures for January to March 2025 put hybrid workers at 28 per cent of workers in Great Britain. The proportion has risen gradually since 2022 and now looks settled rather than accelerating, and it is concentrated in information and communication, professional and administrative occupations.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li><strong>Work from home jobs UK no experience</strong>: entry-level home-based work exists mainly in customer service and data entry; check the hourly rate against &pound;12.71 before applying</li>
-    <li><strong>Part time work from home jobs UK</strong>: the minimum wage applies per hour, so part-time hours at a lawful rate can legitimately total less than &pound;24,784 a year</li>
-    <li><strong>Is working from home a legal right in the UK</strong>: no; it is a right to request, held by employees from day one since 6 April 2024</li>
-    <li><strong>Flexible working request template UK</strong>: the Acas statutory Code of Practice that took effect on 6 April 2024 sets out what a request must contain</li>
-    <li><strong>Work from home tax relief 2026</strong>: unavailable for the 6 April 2026 to 5 April 2027 tax year</li>
-    <li><strong>Work from home job scams UK</strong>: charging a work-seeker a fee is a criminal offence; report fake adverts to Action Fraud on 0300 123 2040</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

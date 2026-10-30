@@ -358,32 +358,6 @@ JOBHTML;
 <h3>Is the job outlook for truck drivers strong?</h3>
 <p>Steady rather than strong. BLS projects 4 per cent growth from 2025 to 2035, about as fast as the average for all occupations, from a base of 2,221,200 jobs.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>CDL training cost</h3>
-<p>Check the FMCSA Training Provider Registry first. A school that is not listed cannot issue a qualifying ELDT certificate.</p>
-
-<h3>Paid CDL training companies</h3>
-<p>Real, and usually tied to a contract with the cost repayable if you leave early. Read the repayment terms before signing.</p>
-
-<h3>Class A vs Class B CDL</h3>
-<p>Class A covers most tractor-trailer work; Class B covers heavy single vehicles such as box trucks and buses. Upgrading B to A now requires ELDT.</p>
-
-<h3>OTR driver salary</h3>
-<p>The highest advertised mileage rates and the most nights away. Ask about weekly miles and detention pay, not just cents per mile.</p>
-
-<h3>Local CDL jobs home daily</h3>
-<p>Often hourly rather than mileage-based, with more loading work and lower headline pay but a normal week.</p>
-
-<h3>Hazmat endorsement requirements</h3>
-<p>TSA security threat assessment, fingerprinting and an FBI criminal history check, plus ELDT for a first endorsement.</p>
-
-<h3>FMCSA Drug and Alcohol Clearinghouse</h3>
-<p>Employers must query it before hiring and annually. A violation puts you in prohibited status until return-to-duty is complete.</p>
-
-<h3>CDL jobs no experience</h3>
-<p>Genuinely open to newcomers through paid training, but expect first-year pay nearer the $40,140 end than the median.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing driving work and other routes into American employment? These cover them:</p>

@@ -172,32 +172,6 @@ class LandscaperJobUsaFromPakistanBlogSeeder extends Seeder
 <h3>Is there a limit on H-2B visas?</h3>
 <p>Yes, an annual statutory limit applies, with supplemental allocations in some years. Check USCIS's current notices.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>How to get a landscaper job in USA from Pakistan</h3>
-<p>Find a verified employer, ask about Pakistan recruitment and follow the H-2B steps in order.</p>
-
-<h3>Landscaper job USA for Pakistanis</h3>
-<p>Possible only where an employer recruits from Pakistan and the visa is approved.</p>
-
-<h3>Landscaper work visa USA</h3>
-<p>H-2B, sought through an employer's petition.</p>
-
-<h3>Landscaper job without experience USA</h3>
-<p>Look for orders that explicitly accept beginners.</p>
-
-<h3>Find landscaper job abroad</h3>
-<p>Use official job listings and verify every recruiter.</p>
-
-<h3>Landscaper USA requirements</h3>
-<p>Set by each job order, plus visa conditions.</p>
-
-<h3>H-2B visa for Pakistan</h3>
-<p>The country lists are gone, but consular approval is still individual.</p>
-
-<h3>Landscaper salary in USA</h3>
-<p>Benchmarks and worked examples are in the landscaper salary guide.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

@@ -287,32 +287,6 @@ JOBHTML;
 <h3>What if a client asks me to write a claim they cannot prove?</h3>
 <p>Ask what the evidence is first. The FTC requires an advertiser to hold a reasonable basis for an objective claim before the advertisement runs, and lacking one breaches Section 5 of the FTC Act. Offering an honest alternative is part of the job, not an obstacle to it.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Remote copywriter jobs</h3>
-<p>The default rather than the exception across agencies, e-commerce and SaaS. Confirm overlap hours and whether pay is adjusted to your location.</p>
-
-<h3>Freelance copywriter jobs USA</h3>
-<p>Where most of this occupation actually sits, with 65 per cent self-employed. Price per project, and settle copyright ownership in writing before you start.</p>
-
-<h3>Entry level copywriter jobs</h3>
-<p>Commonly $45,000 to $60,000 in staff roles. Speculative samples with a short note on the reader and the intended action are what get juniors hired.</p>
-
-<h3>Copywriter jobs near me</h3>
-<p>Local agencies, in-house marketing departments and hybrid roles. Direct pitching to small businesses is the least contested route to first paid work.</p>
-
-<h3>Remote copywriter jobs worldwide</h3>
-<p>US companies do hire across borders, but pay may be flat or indexed to your location, and payment routes and tax treatment differ outside the US.</p>
-
-<h3>Direct response copywriter</h3>
-<p>The specialism where copy is tied directly to measurable revenue, and where the top of the pay distribution sits.</p>
-
-<h3>SEO copywriter jobs</h3>
-<p>The overlap between copy and content. Search intent matters far more than keyword density, and the role often reports into marketing rather than creative.</p>
-
-<h3>Email copywriter jobs</h3>
-<p>Lifecycle and retention writing, one of the most reliably measured formats and a strong niche for freelancers building recurring retainers.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing this against the other writing and digital paths? These cover them:</p>

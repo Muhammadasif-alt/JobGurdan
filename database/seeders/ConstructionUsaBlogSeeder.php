@@ -252,32 +252,6 @@ JOBHTML;
 <h3>What about construction companies that sponsor Tier 2 visas?</h3>
 <p>Tier 2 is a UK visa category, not a U.S. one: if you're looking specifically for U.S. sponsorship, look for H-2B, EB-3, or H-1B sponsors instead.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Construction jobs in USA salary</h3>
-<p>General laborers earn roughly $37,000&ndash;$53,000 a year ($17&ndash;$26/hour); the combined construction and extraction average is about $65,360, superintendents sit near $79,920&ndash;$86,450, and construction managers average around $119,660.</p>
-
-<h3>Construction jobs in USA for foreigners with visa sponsorship</h3>
-<p>Sponsorship runs through H-2B (temporary/seasonal labor), EB-3 (permanent skilled and other workers), or H-1B (degree-level management and engineering roles). There is no dedicated construction visa.</p>
-
-<h3>Entry level construction jobs in USA for foreigners</h3>
-<p>Mostly H-2B general labor roles or EB-3 "other worker" positions. Employers usually want physical fitness, reliability and a clean background check rather than formal qualifications.</p>
-
-<h3>Highest paying construction jobs in USA for foreigners</h3>
-<p>Construction managers, project executives, field superintendents, cost estimators and specialised trades in high-cost markets: all requiring either a relevant degree or documented supervisory experience.</p>
-
-<h3>Construction companies in USA that sponsor foreign workers</h3>
-<p>Larger national and regional contractors that have filed PERM labor certifications before. Verify any employer against state contractor licensing boards and the Department of Labor's public H-2B and PERM disclosure data.</p>
-
-<h3>Construction jobs in USA for UK citizens</h3>
-<p>The same H-2B, EB-3 and H-1B routes apply. EB-3 backlogs are typically shorter for UK applicants, but City &amp; Guilds or NVQ credentials may need U.S. equivalency evaluation and some states require trade licences.</p>
-
-<h3>Construction companies that sponsor Tier 2 visa</h3>
-<p>Tier 2 is a UK category, replaced by the Skilled Worker visa in December 2020. It has no U.S. equivalent: for the USA, search H-2B, EB-3 or H-1B sponsors instead.</p>
-
-<h3>Construction jobs in USA with visa sponsorship no experience</h3>
-<p>Entry-level H-2B labor roles frequently accept candidates without prior construction experience, though competition is high because the annual visa cap fills quickly.</p>
-
 <h2>More Visa Sponsorship Guides</h2>
 
 <p>Comparing options across industries and countries? These guides cover the other routes we track:</p>

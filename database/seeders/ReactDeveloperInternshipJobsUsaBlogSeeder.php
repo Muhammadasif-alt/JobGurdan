@@ -244,32 +244,6 @@ HTML;
 <h3>Do I need experience to get a React internship?</h3>
 <p>No. BLS records work experience in a related occupation as None for the occupation this work sits in. Employers set their own bars, but projects and coursework are the recognised substitute.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>React developer internship jobs</h3>
-<p>Advertised under many titles. Search software engineering intern and frontend engineering intern as well, on the employer's own careers site.</p>
-
-<h3>Paid internship USA</h3>
-<p>At a for-profit employer the default is that employees must be paid. The seven-factor test decides whether an intern is one.</p>
-
-<h3>Unpaid internship law USA</h3>
-<p>Governed by the FLSA and the primary beneficiary test. The six-factor version people still quote was rescinded in January 2018.</p>
-
-<h3>CPT internship React</h3>
-<p>Must be an integral part of an established curriculum, authorised by your DSO, and endorsed on your Form I-20 before you start.</p>
-
-<h3>Software engineering internship USA</h3>
-<p>The broader title, and the one that surfaces most of this market. Check the graduation-date requirement before applying.</p>
-
-<h3>React intern portfolio</h3>
-<p>One complete deployed application with an API, real error states and a clear README beats several tutorial builds.</p>
-
-<h3>Student developer jobs USA</h3>
-<p>Look for university recruiting, student programmes, early career and new graduate headings as well as the word internship.</p>
-
-<h3>Does an internship lead to a job?</h3>
-<p>Factor seven of the official test is that both sides understand the internship carries no entitlement to a paid job at the end of it.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

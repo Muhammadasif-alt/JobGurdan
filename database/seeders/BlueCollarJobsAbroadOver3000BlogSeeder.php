@@ -183,32 +183,6 @@ class BlueCollarJobsAbroadOver3000BlogSeeder extends Seeder
 <h3>Can I rely on overtime to reach $3,000?</h3>
 <p>Not unless the contract guarantees it. Judge an offer on base pay and scheduled hours.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Blue collar jobs that pay well abroad</h3>
-<p>Skilled trades with licences and experience.</p>
-
-<h3>Trade jobs $3000 per month</h3>
-<p>All eight trades clear it on US medians.</p>
-
-<h3>High paying manual jobs overseas</h3>
-<p>Specialist trades pay most.</p>
-
-<h3>Skilled trade jobs salary abroad</h3>
-<p>Differs by country; check each one's wage data.</p>
-
-<h3>Electrician salary</h3>
-<p>$30.38 an hour median in the US.</p>
-
-<h3>Plumber salary</h3>
-<p>$30.67 an hour median in the US.</p>
-
-<h3>Welder salary</h3>
-<p>$25.84 an hour median in the US.</p>
-
-<h3>HVAC technician salary</h3>
-<p>$29.33 an hour median in the US.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

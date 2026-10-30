@@ -404,32 +404,6 @@ JOBHTML;
 <h3>How many days a week are graduates in the office?</h3>
 <p>A minimum of two days each week in the office you are placed in, and Lloyds notes that some roles are five days per week. Two days is the floor rather than the cap, so check the specific scheme page.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Lloyds graduate scheme salary</h3>
-<p>Between &pound;42,000 and &pound;55,000 depending on the scheme, with Corporate Banking and Markets the highest and the technical schemes at &pound;48,500.</p>
-
-<h3>Lloyds graduate scheme 2027</h3>
-<p>The September 2027 intake, with applications opened on 10 September 2026 and closing between 4 October and 29 November 2026 by scheme and location.</p>
-
-<h3>Lloyds Banking Group visa sponsorship</h3>
-<p>Not available on any graduate scheme. Lloyds states this in its graduate FAQ and repeats it on every individual scheme page.</p>
-
-<h3>Lloyds Software Engineer graduate scheme</h3>
-<p>Two years at &pound;48,500 in London, Halifax, Leeds, Bristol, Manchester or Edinburgh, with a 130-minute technical assessment at the first stage.</p>
-
-<h3>Lloyds Corporate Banking and Markets graduate scheme</h3>
-<p>The highest paid at &pound;55,000, running two and a half years, based in London, and the earliest to close at 4 October 2026.</p>
-
-<h3>UK ENIC statement of comparability</h3>
-<p>The current name for what Lloyds still calls NARIC. UK NARIC became UK ENIC on 1 March 2021 and the service is delivered by Ecctis for the UK government.</p>
-
-<h3>Lloyds Job Insight Assessment</h3>
-<p>The second stage of the process: multiple role-based scenarios answered through video, written responses and preference indications.</p>
-
-<h3>Times Top 100 Graduate Employers Lloyds</h3>
-<p>Ranked 10th in the 2026 list, its highest ever placing, up from 40th in 2021, alongside 6th in the Top 100 Apprenticeship Employers 2026.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If a graduate scheme is one option rather than the only one, these cover the rest of the UK market:</p>

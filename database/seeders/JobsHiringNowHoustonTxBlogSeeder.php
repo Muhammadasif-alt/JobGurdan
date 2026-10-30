@@ -74,7 +74,7 @@ class JobsHiringNowHoustonTxBlogSeeder extends Seeder
 
 <h2>1. City of Houston Government Jobs</h2>
 
-<p>The City of Houston recruits through its <a href="https://www.governmentjobs.com/careers/houston" rel="noopener">official job board</a>, which also explains its process on the <a href="https://www.houstontx.gov/hr/careers.html" rel="noopener">City HR careers page</a>. On the board you create an account, upload a resume and submit an application you can reuse for several openings. The page warns that applications must show all relevant education and experience or they may be rejected, and a Job Interest Card lets you ask for notice of future jobs when nothing fits today. Choose positions that match your background, answer supplemental questions carefully and keep your login secure so you can check status later. An acknowledgement is not an offer, and government hiring often has several stages.</p>
+<p>The City of Houston recruits through its <a href="https://www.governmentjobs.com/careers/houston" rel="noopener">official job board</a>, a NEOGOV site, which also explains its process on the <a href="https://www.houstontx.gov/hr/careers.html" rel="noopener">City HR careers page</a>. On the board you create an account, upload a resume and submit an application you can reuse for several openings. The page warns that applications must show all relevant education and experience or they may be rejected, and a Job Interest Card lets you ask for notice of future jobs when nothing fits today. Choose positions that match your background, answer supplemental questions carefully and keep your login secure so you can check status later. An acknowledgement is not an offer, and government hiring often has several stages.</p>
 
 <h2>2. Harris County Employment</h2>
 
@@ -131,32 +131,6 @@ class JobsHiringNowHoustonTxBlogSeeder extends Seeder
 
 <h3>Where can I find state help?</h3>
 <p>WorkInTexas, run by the Texas Workforce Commission, offers job search and resume tools.</p>
-
-<h2>People Also Search For</h2>
-
-<h3>Jobs hiring now in Houston TX</h3>
-<p>Check portals daily.</p>
-
-<h3>Houston jobs hiring</h3>
-<p>Postings change quickly.</p>
-
-<h3>Entry level jobs Houston</h3>
-<p>Match minimum qualifications.</p>
-
-<h3>Full time jobs Houston TX</h3>
-<p>Confirm hours before applying.</p>
-
-<h3>City of Houston jobs</h3>
-<p>Official NEOGOV job board.</p>
-
-<h3>METRO Houston careers</h3>
-<p>Drug testing required.</p>
-
-<h3>Harris County jobs</h3>
-<p>Separate from the City.</p>
-
-<h3>WorkInTexas</h3>
-<p>Free state job matching.</p>
 
 <h2>A Note for Applicants in Pakistan</h2>
 

@@ -356,32 +356,6 @@ JOBHTML;
 <h3>How much experience do Gulf employers want from a plumber?</h3>
 <p>Typically two to six years. Hotel engineering and facilities management roles favour experience on large buildings, pumps, pressure systems and planned preventive maintenance over domestic repair work.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Plumber jobs in Dubai</h3>
-<p>Recruited on MOHRE work permits, with every recruitment cost owed by the employer.</p>
-
-<h3>Plumber salary in UAE</h3>
-<p>No statutory floor exists; the contract is the only binding figure, enforced through the WPS.</p>
-
-<h3>Saudi Professional Verification plumber</h3>
-<p>A trade exam sat in your own country before the Saudi embassy issues the visa.</p>
-
-<h3>MOHRE work permit</h3>
-<p>Compulsory before employment, and the employer's cost under Article 6.</p>
-
-<h3>Wage Protection System UAE</h3>
-<p>Ministerial Resolution No. 340 of 2026, with an enforcement ladder starting on day five.</p>
-
-<h3>Free zone jobs UAE labour law</h3>
-<p>Free zone staff sit outside the Labour Law and are sponsored by the zone authority.</p>
-
-<h3>Recruitment fees illegal UAE</h3>
-<p>Charging a worker recruitment or employment costs is prohibited, directly or indirectly.</p>
-
-<h3>Gulf plumber visa process</h3>
-<p>UAE: offer, MOHRE permit, entry permit, medical, Emirates ID. Saudi: exam first, then visa.</p>
-
 <h2>More Job Guides</h2>
 
 <p>These cover the trades and the Gulf rules in more detail:</p>

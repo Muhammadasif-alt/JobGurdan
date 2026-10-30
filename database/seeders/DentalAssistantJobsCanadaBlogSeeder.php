@@ -345,32 +345,6 @@ JOBHTML;
 <h3>Can dental assistants immigrate through Express Entry?</h3>
 <p>The job is TEER 3, so it can count for the Federal Skilled Worker Program, but dental assistants are not on the Express Entry health care and social services category list.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Level 2 dental assistant jobs Ontario</h3>
-<p>Roles for NDAEB-certified assistants who can perform delegated intra-oral procedures.</p>
-
-<h3>Dental assistant salary Alberta</h3>
-<p>The highest provincial median on Job Bank, at $32 an hour.</p>
-
-<h3>NDAEB Theory Exam fee</h3>
-<p>$730 including the $100 application fee.</p>
-
-<h3>CDAC accredited dental assisting programs</h3>
-<p>Programs of 8 months to a year that lead straight to the Theory Exam.</p>
-
-<h3>Registered dental assistant BC</h3>
-<p>Licensed by the BC College of Oral Health Professionals.</p>
-
-<h3>Dental assistant jobs Toronto</h3>
-<p>Ontario's outlook is rated Good for 2025 to 2027, and assistants there are not regulated.</p>
-
-<h3>HARP certificate dental assistant</h3>
-<p>Ontario's required radiation safety training before operating a dental x-ray machine.</p>
-
-<h3>Dental assistant NOC code</h3>
-<p>NOC 33100, a TEER 3 occupation.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing health care support and Canadian jobs? These cover them:</p>

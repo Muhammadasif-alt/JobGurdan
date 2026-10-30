@@ -354,32 +354,6 @@ JOBHTML;
 <h3>Does the Google IT Support Professional Certificate help?</h3>
 <p>Yes, directly. Google lists "Completion of the online Google IT Support Professional Certificate program" as a preferred qualification on its data center technician postings.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Google data center technician salary</h3>
-<p>$73,500 to $145,000 across Technician I to III on Google's own live postings, plus a 15% bonus target and equity.</p>
-
-<h3>Google data center jobs no experience</h3>
-<p>Technician I asks for component-level repair experience rather than a degree, and Google funds STAR trades training and the IT Support Certificate as feeder routes.</p>
-
-<h3>Google data center locations hiring</h3>
-<p>Council Bluffs, Pryor, Stillwater, Moncks Corner, Amarillo, Haskell, Reno, Leesburg, Fort Wayne, Lenoir, Mesa, Bridgeport and West Memphis, among others.</p>
-
-<h3>Google data center facilities technician requirements</h3>
-<p>An associate's degree, trade school certification or equivalent practical experience, plus two years electrical or five years controls and automation experience.</p>
-
-<h3>Google jobs visa sponsorship USA</h3>
-<p>Data center technician postings state they are not eligible for U.S. immigration sponsorship, so existing US work authorisation is required.</p>
-
-<h3>Google data center technician requirements</h3>
-<p>Component-level repair experience, lifting and moving 50lb, availability for weekends, nights and holidays, and availability to travel when needed.</p>
-
-<h3>Google Texas data center investment</h3>
-<p>Google has announced $40 billion in Texas through 2027, including new campuses in Armstrong and Haskell Counties.</p>
-
-<h3>Google IT Support Professional Certificate jobs</h3>
-<p>It is named in the preferred qualifications on Google's own data center technician postings, alongside one to two years of troubleshooting experience.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other large US employers and the roles next door to this one? These cover them:</p>

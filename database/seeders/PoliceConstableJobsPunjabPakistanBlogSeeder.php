@@ -154,32 +154,6 @@ class PoliceConstableJobsPunjabPakistanBlogSeeder extends Seeder
 <h3>Are the reported standards final?</h3>
 <p>No. They come from press summaries; the advertisement and the board's measurements decide.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Police constable jobs Punjab Pakistan</h3>
-<p>District intakes with their own domicile, age and physical rules.</p>
-
-<h3>Punjab Police constable eligibility</h3>
-<p>Matric, an age band for your area and the height for your area.</p>
-
-<h3>Punjab Police application process</h3>
-<p>Download the form, attach documents and submit it at your Police Lines.</p>
-
-<h3>Lady constable jobs Punjab</h3>
-<p>Same intake and forms; 5 feet 2 inches in most areas.</p>
-
-<h3>Punjab Police jobs Rahim Yar Khan</h3>
-<p>718 posts reported for the October 2026 intake.</p>
-
-<h3>Punjab Police jobs Rajanpur</h3>
-<p>300 posts plus 150 for Tehsil Rojhan reported.</p>
-
-<h3>Punjab Police height requirement</h3>
-<p>Men 5 feet 7 inches in settled areas, 5 feet 5 inches in tribal areas and Rojhan.</p>
-
-<h3>Driver constable jobs Punjab</h3>
-<p>Separate post, ages 21 to 30, with a driving licence.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Check your district, category, education, age and physical eligibility first, collect the official form, submit it at your Police Lines before 31 October 2026 and confirm every figure against the advertisement. This guide cannot promise selection or appointment.</p>

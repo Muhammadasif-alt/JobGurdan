@@ -240,32 +240,6 @@ class AdjunctTeachingOpportunitiesBlogSeeder extends Seeder
 <h3>What is an adjunct called in the UK?</h3>
 <p>The paid work is advertised as hourly-paid lecturer, associate lecturer, visiting lecturer or graduate teaching assistant. An adjunct or honorary professorship in the UK is normally an unpaid title.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Adjunct faculty jobs</h3>
-<p>Per-course appointments, usually filled from standing departmental pools.</p>
-
-<h3>Adjunct professor salary per course</h3>
-<p>$4,093 on average for a three-credit section, AAUP 2023-24.</p>
-
-<h3>Part time faculty positions</h3>
-<p>48.6 percent of the US academic workforce in autumn 2023.</p>
-
-<h3>Online adjunct faculty jobs</h3>
-<p>Common, but usually limited to states where the institution already runs payroll.</p>
-
-<h3>Adjunct teaching without a PhD</h3>
-<p>A master's in the discipline is often enough at community colleges.</p>
-
-<h3>PSLF adjunct faculty full time</h3>
-<p>Nine credit hours a week clears 30 hours at the 3.35 multiplier.</p>
-
-<h3>Adjunct faculty health insurance hours</h3>
-<p>The IRS method credits 2.25 hours per classroom hour against a 30 hour threshold.</p>
-
-<h3>Hourly paid lecturer UK</h3>
-<p>The British equivalent of the paid adjunct appointment.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The country detail sits in these:</p>

@@ -335,32 +335,6 @@ JOBHTML;
 <h3>Which employers hire business analysts in the UK?</h3>
 <p>Banks, consultancies, technology firms, retailers, insurers and government departments. Capgemini, HSBC and the Civil Service all advertise business analysis roles directly.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Business analyst salary UK</h3>
-<p>&pound;52,970 median for SOC 2431 in England, on ONS figures released in November 2025.</p>
-
-<h3>Junior business analyst jobs</h3>
-<p>Capgemini's junior posting covers London, Manchester, Newcastle, Bristol and Birmingham.</p>
-
-<h3>Business analyst apprenticeship</h3>
-<p>The Level 4 Higher Apprenticeship, or the Civil Service's 18-month TechTrack route.</p>
-
-<h3>Digital Fast Stream business analyst</h3>
-<p>One of four non-technical roles, with 12-month postings each year.</p>
-
-<h3>DDaT business analyst levels</h3>
-<p>Six levels, from trainee at EO grade to head of business analysis at G6.</p>
-
-<h3>Business analyst visa sponsorship UK</h3>
-<p>SOC 2431 is eligible; the going rate is &pound;50,200 and the general threshold &pound;41,700.</p>
-
-<h3>Business analyst jobs London</h3>
-<p>Where most vacancies sit, including both current HSBC business analyst roles.</p>
-
-<h3>Business analyst tools</h3>
-<p>Jira, Confluence, BPMN, UML, Excel, SQL and Power BI.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing UK and analyst careers? These cover them:</p>

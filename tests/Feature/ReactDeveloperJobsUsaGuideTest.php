@@ -172,8 +172,7 @@ it('uses the spelling the top query is typed in', function () {
 it('treats junior and entry level as one posting under two names', function () {
     $body = Blog::where('slug', REACT_SLUG)->value('content');
 
-    expect($body)->toContain('Junior and entry level React developer jobs')
-        ->toContain('the same posting under two names');
+    expect($body)->toContain('the same posting under two names');
 });
 
 it('separates the two occupations a senior React title can sit in', function () {
@@ -186,13 +185,11 @@ it('separates the two occupations a senior React title can sit in', function () 
         ->toContain('senior title on the lower band');
 });
 
-it('still carries exactly eight People Also Search For entries', function () {
+it('carries no People Also Search For block', function () {
     $body = Blog::where('slug', REACT_SLUG)->value('content');
 
-    $tail = substr($body, strpos($body, 'People Also Search For'));
-    $tail = substr($tail, 0, strpos($tail, 'More Job Guides'));
 
-    expect(substr_count($tail, '<h3>'))->toBe(8);
+    expect(substr_count($body, 'People Also Search For'))->toBe(0);
 });
 
 it('answers the demand question from the current projection cycle', function () {

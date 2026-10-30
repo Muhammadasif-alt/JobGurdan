@@ -379,32 +379,6 @@ JOBHTML;
 <h3>Do I need a licence to put up scaffolding in Australia?</h3>
 <p>Yes. Scaffolding is high risk work and needs a basic, intermediate or advanced high risk work licence from the state regulator.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Scaffolder jobs UK</h3>
-<p>£25,000 to £51,000 on the National Careers Service, with a CISRS card.</p>
-
-<h3>Crane operator jobs Canada</h3>
-<p>C$42.77 an hour median under NOC 72500.</p>
-
-<h3>Roofer jobs Australia</h3>
-<p>White Card and working-at-heights training as the minimum.</p>
-
-<h3>CISRS Part 1 and Part 2</h3>
-<p>The first two scaffolder levels on the UK card scheme.</p>
-
-<h3>Mobile crane operator 339A</h3>
-<p>Ontario's compulsory Branch 1 trade, any crane capacity, Red Seal.</p>
-
-<h3>High risk work licence</h3>
-<p>Required in Australia for scaffolding and most crane classes.</p>
-
-<h3>Scaffolder visa UK</h3>
-<p>Not open to new Skilled Worker applicants since 22 July 2025.</p>
-
-<h3>Construction supervisor shortage list</h3>
-<p>SOC 5330 is on the list at a £41,800 going rate.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the construction trades guides:</p>

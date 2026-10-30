@@ -155,32 +155,6 @@ class MistakesApplyingJobsAbroadBlogSeeder extends Seeder
 <h3>Is a recruiter's promise enough?</h3>
 <p>No. Verify the employer and the route yourself.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Mistakes when applying jobs abroad</h3>
-<p>Fit, CV, eligibility.</p>
-
-<h3>Common errors international job application</h3>
-<p>Check instructions.</p>
-
-<h3>Why overseas job applications fail</h3>
-<p>Several causes.</p>
-
-<h3>Job abroad application tips</h3>
-<p>Be selective and truthful.</p>
-
-<h3>Overseas CV mistakes</h3>
-<p>One CV for all.</p>
-
-<h3>Apply for jobs abroad from Pakistan</h3>
-<p>State your location.</p>
-
-<h3>Overseas recruitment eligibility</h3>
-<p>Read the wording.</p>
-
-<h3>Job application checklist</h3>
-<p>Use before sending.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

@@ -336,32 +336,6 @@ JOBHTML;
 <h3>Do I need a licence to sell real estate?</h3>
 <p>Yes, and it depends on the state. In NSW you need an Assistant Agent certificate of registration, which lasts four years and cannot be renewed. Other states use different names and training requirements.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Sales representative salary Australia</h3>
-<p>A median of $1,692 a week full-time, about $87,984 a year, by Jobs and Skills Australia.</p>
-
-<h3>Certificate III in Business to Business Sales</h3>
-<p>SIR30316, the current sales-specific qualification, often done as a traineeship.</p>
-
-<h3>Commercial Sales Award pay rates 2026</h3>
-<p>$1,122.80 a week, or $29.55 an hour, for commercial travellers from 1 July 2026.</p>
-
-<h3>Commission only jobs Australia</h3>
-<p>Only lawful for employees where an award or agreement allows it; otherwise the minimum wage applies.</p>
-
-<h3>Field sales representative jobs</h3>
-<p>Territory-based roles visiting business customers, which usually require a driver's licence.</p>
-
-<h3>Medical sales representative Australia</h3>
-<p>A technical sales role, often needing a science degree, and on the Core Skills Occupation List as 225412.</p>
-
-<h3>Sales representative no experience</h3>
-<p>Start in retail or customer service, or take a B2B sales traineeship, and record your results.</p>
-
-<h3>Sham contracting sales</h3>
-<p>Calling a worker a contractor when the business does not reasonably believe it is illegal under the Fair Work Act.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other ways into work in Australia? These cover the neighbouring routes:</p>

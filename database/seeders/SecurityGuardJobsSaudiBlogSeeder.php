@@ -318,32 +318,6 @@ JOBHTML;
 <h3>What are the working hours and overtime rules?</h3>
 <p>Eight hours a day and 48 a week under the Saudi Labour Law, dropping to 36 hours a week for Muslim employees during Ramadan. Hours beyond the legal limit are paid at 150% of your basic wage, which is an entitlement rather than a bonus.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Security guard salary in Saudi Arabia per month</h3>
-<p>SAR 1,400 to 2,500 base for entry-level, SAR 2,600 to 3,800 on 12-hour shift patterns, and SAR 3,000 to 5,000 for experienced licensed guards. The higher figures quoted elsewhere are per-post contract prices.</p>
-
-<h3>Security guard jobs in Saudi Arabia for Pakistani applicants</h3>
-<p>Steady demand across malls, compounds and construction sites. Apply only through an Overseas Employment Promoter licensed by the Bureau of Emigration and Overseas Employment.</p>
-
-<h3>MOI security guard licence Saudi Arabia</h3>
-<p>Issued by the Ministry of Interior to the individual guard, not to the company. Your employer arranges it during hiring, and you should not be charged for it.</p>
-
-<h3>Security jobs in Riyadh and Jeddah</h3>
-<p>Riyadh carries the highest volume across retail, corporate and compound posts; Jeddah is weighted towards hospitality, retail and port-adjacent industrial premises.</p>
-
-<h3>Female security guard jobs in Saudi Arabia</h3>
-<p>A newer and growing segment concentrated in healthcare, retail and venues needing female search and access control. Demand has outpaced the supply of licensed women, so packages can be more competitive.</p>
-
-<h3>Security supervisor jobs Saudi Arabia</h3>
-<p>Normally five or more years of experience plus language ability, on a higher fixed salary than guard posts. The usual progression route from an entry-level post.</p>
-
-<h3>Saudi Arabia security guard visa free</h3>
-<p>The &quot;free visa&quot; or azad visa arrangement is illegal, and it is especially unworkable in security because the role requires an individual Ministry of Interior licence tied to a licensed employer.</p>
-
-<h3>Security guard jobs with accommodation Saudi Arabia</h3>
-<p>Accommodation, transport and often meals are standard on agency contracts, which is why the base salary alone understates the package. Get every line itemised in writing.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing entry-level routes into the Gulf and beyond? These cover the rest:</p>

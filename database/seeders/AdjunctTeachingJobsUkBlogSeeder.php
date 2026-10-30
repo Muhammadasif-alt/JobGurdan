@@ -206,32 +206,6 @@ class AdjunctTeachingJobsUkBlogSeeder extends Seeder
 <h3>When in the year should I approach a department?</h3>
 <p>Before the term you want to teach, not during it. Timetables are built weeks ahead, so approaches land best in the late spring for the autumn term and in the late autumn for the spring term. Cover requests also appear at short notice throughout the year once you are on the register.</p>
 
-<h2 id="people-also-search-for">People Also Search For</h2>
-
-<h3>Zero hours contract exclusivity clause</h3>
-<p>A term restricting outside work, made unenforceable against the worker by section 27A of the Employment Rights Act 1996.</p>
-
-<h3>Second job while employed UK</h3>
-<p>Generally lawful, but many employment contracts require a secondary role to be declared or approved by the primary employer.</p>
-
-<h3>Guest lecture UK university</h3>
-<p>A single invited session, often unpaid, and the most reliable way for a practitioner to get a first foot inside a department.</p>
-
-<h3>Teaching pool university register</h3>
-<p>Getting your name onto one is the real application for a practitioner, because bookings that follow are handled administratively rather than competitively.</p>
-
-<h3>Practitioner lecturer vocational subjects</h3>
-<p>Teaching on professional courses where current industry practice is valued alongside, or instead of, a doctorate.</p>
-
-<h3>Lower earnings limit exclusivity regulations 2022</h3>
-<p>The threshold below which the ban on exclusivity terms was extended to contracts that are not zero hours.</p>
-
-<h3>Supplementary employment visa UK</h3>
-<p>Additional work permitted alongside sponsored employment on some immigration routes, subject to route-specific conditions on GOV.UK.</p>
-
-<h3>Academic CV for practitioners</h3>
-<p>A two to four page UK-style CV that leads with professional practice and delivered training rather than with publications.</p>
-
 <h2 id="more-guides">More Job Guides</h2>
 
 <ul>

@@ -302,32 +302,6 @@ JOBHTML;
 <h3>How do I spot a fake delivery job offer?</h3>
 <p>It asks for a fee, promises a visa the country does not offer for the role, or cannot be found on the employer's own site or an official job portal.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Delivery rider jobs Dubai</h3>
-<p>UAE motorcycle licence, MOHRE work permit and RTA rider permit.</p>
-
-<h3>Courier jobs UK for foreigners</h3>
-<p>Open only to people who already have the right to work.</p>
-
-<h3>SOC 8214 Skilled Worker</h3>
-<p>Delivery drivers and couriers are listed as ineligible.</p>
-
-<h3>Self-employed courier UK</h3>
-<p>Own vehicle, own tax, and the right to work still required.</p>
-
-<h3>UAE work permit for drivers</h3>
-<p>Issued by MOHRE to the employer before you start work.</p>
-
-<h3>Recruitment fees UAE</h3>
-<p>Barred under Article 6 of Federal Decree-Law No. 33 of 2021.</p>
-
-<h3>Wage Protection System UAE</h3>
-<p>Runs under Ministerial Resolution No. 340 of 2026.</p>
-
-<h3>Taxi driver requirements</h3>
-<p>Passenger driving needs a separate permit in most countries.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Country guides and related driving work:</p>

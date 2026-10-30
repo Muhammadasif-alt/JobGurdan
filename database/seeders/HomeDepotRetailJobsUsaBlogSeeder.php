@@ -357,32 +357,6 @@ JOBHTML;
 <h3>How long does the Home Depot application take?</h3>
 <p>Home Depot no longer publishes a time. The "15 minutes" figure comes from a March 2017 press release. Its fiscal 2025 filing says only that you can apply from any device and then self-schedule pre-hire activities from your phone.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Home Depot cashier pay per hour</h3>
-<p>$18.50 to $19.50 on Home Depot's own Puyallup, Washington advert in September 2026; lower in low-wage states.</p>
-
-<h3>Home Depot freight associate job description</h3>
-<p>Loading and unloading trucks and moving material from receiving through the store, and the role may operate forklifts.</p>
-
-<h3>Home Depot number of employees</h3>
-<p>About 472,400 associates, 422,500 of them in the United States, with roughly 53,400 salaried and the rest hourly.</p>
-
-<h3>Home Depot department supervisor salary</h3>
-<p>$22.50 an hour on the Washington store advert, against $18.50 at the Cashier floor in the same store.</p>
-
-<h3>Home Depot employee discount and stock plan</h3>
-<p>Home Depot publishes a 15% discount on its Employee Stock Purchase Plan, subject to a cap, through payroll deduction.</p>
-
-<h3>Home Depot spring hiring 2026</h3>
-<p>No number has been published. The last spring hiring figure Home Depot released was more than 100,000, in February 2022.</p>
-
-<h3>Retail sales worker median wage</h3>
-<p>$17.10 an hour, or $35,560 a year, in May 2025, per the Bureau of Labor Statistics, with no formal credential typically required.</p>
-
-<h3>Federal minimum wage 2026</h3>
-<p>$7.25 an hour under the Fair Labor Standards Act, unchanged since 24 July 2009; higher state rates take precedence.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing the big US hourly employers, or looking at the wider retail market? These cover it:</p>

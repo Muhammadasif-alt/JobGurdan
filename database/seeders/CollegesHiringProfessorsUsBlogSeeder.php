@@ -311,32 +311,6 @@ JOBHTML;
 <h3>Can I teach online for a US college from another state?</h3>
 <p>Only where the institution is authorised to operate and registered for payroll. That is why online faculty adverts list eligible states.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Community college faculty jobs</h3>
-<p>Usually open on a master's with graduate credit hours in the discipline taught.</p>
-
-<h3>Universities hiring professors</h3>
-<p>Doctorate expected, in hand by the start date, with publications deciding research-intensive searches.</p>
-
-<h3>Teaching college with a master's degree</h3>
-<p>Possible, and the transcript decides it; the graduate hours in the subject matter more than the degree title.</p>
-
-<h3>College professor jobs USA</h3>
-<p>$85,330 median across all postsecondary teachers, from under $49,540 to over $203,580.</p>
-
-<h3>Online faculty jobs</h3>
-<p>Limited by state authorisation and payroll registration, which is why eligible states are listed.</p>
-
-<h3>Liberal arts college faculty</h3>
-<p>Doctorate expected, but the teaching demonstration usually decides the appointment.</p>
-
-<h3>Academic hiring season</h3>
-<p>Autumn adverts and spring offers at four-year institutions; rolling adjunct hiring everywhere.</p>
-
-<h3>Adjunct pay by institution type</h3>
-<p>$5,115 a section at doctoral institutions down to $3,348 at associate's institutions without ranks.</p>
-
 <h2>More Job Guides</h2>
 
 <p>These cover the rest of the US academic picture:</p>

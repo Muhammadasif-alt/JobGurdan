@@ -173,34 +173,6 @@ class CopywriterJobsBirminghamEnglandBeginnersBlogSeeder extends Seeder
 <h3>Should I pay for a copywriting course to get a job?</h3>
 <p>You never need to pay anyone to be placed in a job. Free portfolio practice costs nothing, and any course should be judged on what you can produce afterwards.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Copywriter jobs Birmingham for beginners</h3>
-<p>Look at agency and in-house careers pages, apprenticeship listings and related content roles, and read each requirement.</p>
-
-<h3>Junior copywriter Birmingham</h3>
-<p>Junior titles vary, so also search content assistant, marketing assistant and social media roles.</p>
-
-<h3>Entry level copywriting jobs Birmingham</h3>
-<p>A portfolio and clear written English matter more than a long list of past jobs.</p>
-
-<h3>Trainee copywriter West Midlands</h3>
-<p>Check the travel time and ask who reviews junior work and gives feedback.</p>
-
-<h3>Advertising copywriter apprenticeship</h3>
-<p>The National Careers Service names two advertising creative apprenticeships; search the government service for current openings.</p>
-
-<h3>Copywriter salary UK</h3>
-<p>The National Careers Service gives GBP 24,000 at starter level and GBP 45,000 experienced, as a national guide.</p>
-
-<h3>How to build a copywriting portfolio</h3>
-<p>Choose three samples: a landing page, a promotional email and a small campaign.</p>
-
-<h3>Copywriting test examples</h3>
-<p>Typical tasks are rewriting a webpage, writing headlines or answering a fictional brief.</p>
-
-
-
 <h2>Bottom Line</h2>
 
 <p>Look for a few well-matched openings rather than ten hopeful clicks. Build a short portfolio, practise answering briefs, compare related roles and apprenticeships, and read each official page before you rely on it. A guide cannot promise a vacancy or an interview, but a clear sample of your writing is the one thing you control.</p>

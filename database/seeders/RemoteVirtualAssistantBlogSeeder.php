@@ -315,32 +315,6 @@ JOBHTML;
 <h3>How do I avoid VA scams?</h3>
 <p>Follow the FTC rule: honest employers never ask you to pay to get a job. Avoid upfront fees, equipment payments and cheque overpayments.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Virtual assistant hourly rate</h3>
-<p>$10 to $20 an hour is Upwork's median for all VAs, sourced to North American freelancers with 1,000 hours and a 90% success rate. Its own Pakistan directory showed rates from $5.</p>
-
-<h3>Executive assistant salary</h3>
-<p>$76,590 median in May 2025, against $47,540 for administrative assistants.</p>
-
-<h3>Upwork fees</h3>
-<p>0% to 15% freelancer service fee per contract, fixed when the contract starts.</p>
-
-<h3>Fiverr commission</h3>
-<p>20% of what you earn as a seller.</p>
-
-<h3>Virtual assistant portfolio</h3>
-<p>A simple page of sample systems and templates is enough to start.</p>
-
-<h3>Virtual assistant skills</h3>
-<p>Communication, organisation, Google Workspace or Microsoft 365, scheduling tools and CRM basics.</p>
-
-<h3>Self-employment tax rate</h3>
-<p>15.3% in the US, with filing required from $400 of net earnings.</p>
-
-<h3>Work from home job scams</h3>
-<p>The FTC's test: an honest employer never asks you to pay to get a job.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at remote and admin work? These cover it:</p>

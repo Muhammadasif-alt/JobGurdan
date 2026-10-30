@@ -352,32 +352,6 @@ JOBHTML;
 <h3>Do I need Arabic to work in construction in Saudi Arabia?</h3>
 <p>Not for most site and trade roles, where English is the working language on international projects. Arabic matters for stakeholder, interface and authority-facing positions, where it is often a requirement rather than a preference.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Construction jobs in Saudi Arabia with visa sponsorship</h3>
-<p>Standard practice for foreign hires at every level. The employer must hold a ministry visa authorisation before any visa can be issued.</p>
-
-<h3>Civil engineer jobs in Saudi Arabia salary</h3>
-<p>Commonly advertised at SAR 6,000 to 12,000 a month, higher for structural and MEP specialisms and for candidates with prior GCC project delivery.</p>
-
-<h3>NEOM and giga-project construction jobs</h3>
-<p>Camp-based postings on multi-year programmes. Ask specifically about rotation, leave cycles, flights and which company holds your contract before accepting.</p>
-
-<h3>Safety officer jobs in Saudi Arabia</h3>
-<p>Present on every major site and audited hard by giga-project clients. NEBOSH or IOSH is the usual entry requirement.</p>
-
-<h3>Construction manager jobs in Saudi Arabia</h3>
-<p>Typically 10 or more years of experience with prior GCC delivery, commonly advertised from SAR 20,000 a month with housing and travel allowances.</p>
-
-<h3>Construction jobs in Saudi Arabia for Americans</h3>
-<p>Recruited directly through global contractor and consultancy career portals for senior engineering, commercial and programme roles, with packages structured around allowances rather than camp accommodation.</p>
-
-<h3>Construction worker salary in Saudi Arabia per month</h3>
-<p>Roughly SAR 1,500 to 30,000 depending on category. There is no statutory minimum wage for expatriate workers, so judge the offer on the full package.</p>
-
-<h3>Saudi Arabia construction visa free</h3>
-<p>The &quot;free visa&quot; or azad visa arrangement is illegal, leaves you outside the employer's insurance after a site accident, and risks an absconding report and deportation.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing construction and trade routes across countries? These cover the rest:</p>

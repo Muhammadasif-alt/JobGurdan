@@ -169,32 +169,6 @@ class PlumberApprenticeshipSeattleHoustonDetroitBlogSeeder extends Seeder
 <h3>How old must I be in Detroit?</h3>
 <p>The page says 18 at class start in one place and 18 at application in another. Ask the centre.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Plumber apprenticeship Seattle</h3>
-<p>Seattle Area Pipe Trades, year-round.</p>
-
-<h3>Plumber apprenticeship Houston</h3>
-<p>Local 68, from 15 October 2026.</p>
-
-<h3>Plumber apprenticeship Detroit</h3>
-<p>Plumbers 98, until 18 December 2026.</p>
-
-<h3>Union plumbing apprenticeship requirements</h3>
-<p>Set by each programme.</p>
-
-<h3>Local 68 apprenticeship</h3>
-<p>Five-year plumbing programme.</p>
-
-<h3>Plumbers 98 apprenticeship</h3>
-<p>WorkKeys and Wiesen tests.</p>
-
-<h3>Seattle Area Pipe Trades</h3>
-<p>Local 32 training programme.</p>
-
-<h3>Plumber trainee registration</h3>
-<p>State registration is separate.</p>
-
 <h2>A Note for Applicants in Pakistan</h2>
 
 <p>These programmes need work authorisation in the United States, and an apprenticeship notice does not sponsor a visa. Never pay an agent for a place in a union programme, and read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> before you send money or documents.</p>

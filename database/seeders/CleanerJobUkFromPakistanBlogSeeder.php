@@ -233,32 +233,6 @@ JOBHTML,
 <h3>How do I prove my right to work to an employer?</h3>
 <p>Most visa holders generate a share code from their online GOV.UK immigration account, and the employer checks it.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Cleaner job UK from Pakistan</h3>
-<p>Only with an existing right to work.</p>
-
-<h3>UK cleaner visa sponsorship</h3>
-<p>Generally not available.</p>
-
-<h3>Cleaning jobs UK for foreigners</h3>
-<p>Open to people who already have the right to work.</p>
-
-<h3>Student visa work hours</h3>
-<p>Usually 20 hours a week at degree level, 10 below.</p>
-
-<h3>UK cleaner salary</h3>
-<p>At least £12.71 an hour at age 21 and over.</p>
-
-<h3>Graduate visa work rights</h3>
-<p>Allows most jobs, including full time.</p>
-
-<h3>Self-employed cleaner on a student visa</h3>
-<p>Not allowed.</p>
-
-<h3>UK visa sponsorship scams</h3>
-<p>Any fee for sponsorship is a warning sign.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

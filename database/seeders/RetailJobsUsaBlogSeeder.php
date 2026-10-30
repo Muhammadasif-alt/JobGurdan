@@ -303,32 +303,6 @@ JOBHTML;
 <h3>Is retail scheduling actually flexible?</h3>
 <p>It depends whether it is flexible for you or for the employer. Ask how far ahead the schedule is posted, how much weekly hours vary, and whether shifts get cut on the day.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Retail sales associate salary</h3>
-<p>A measured median of $17.03 an hour, against platform estimates ranging from $12.72 to $20.00.</p>
-
-<h3>Cashier jobs near me</h3>
-<p>A $14.99 median and over half a million openings a year, almost entirely from turnover.</p>
-
-<h3>Seasonal retail jobs</h3>
-<p>Flagged in the job title around the holiday and back-to-school peaks, and a common route into a permanent role.</p>
-
-<h3>Part time retail jobs</h3>
-<p>Widely available. Confirm how far in advance the schedule is posted before relying on it around other commitments.</p>
-
-<h3>Retail jobs no experience</h3>
-<p>The most accessible paid work in the country. State minimum wage matters more to the offer than your r&eacute;sum&eacute; does.</p>
-
-<h3>Store manager salary USA</h3>
-<p>The real pay step in retail, screened on three or more years of experience and point-of-sale knowledge.</p>
-
-<h3>Minimum wage by state</h3>
-<p>$7.25 federally since 2009, with 30 states and DC higher, up to $18.40: more than double the federal floor.</p>
-
-<h3>Walmart and Target jobs hiring</h3>
-<p>Large chains post across many states at once. Price the retirement match and any tuition programme, not just the hourly rate.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing entry-level routes? These cover them:</p>

@@ -297,32 +297,6 @@ JOBHTML;
 <h3>What does a freelance digital marketer actually keep?</h3>
 <p>Less than the rate implies. Subtract 15.3% self-employment tax, income tax, your own health insurance, unpaid time between clients, and the hours spent pitching and invoicing that nobody pays for.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Digital marketing specialist jobs</h3>
-<p>The most common mid-level title, typically one to three years in. The title tells you little: ask which channels you own and what budget you control.</p>
-
-<h3>Entry level marketing jobs USA</h3>
-<p>Coordinator and assistant titles, commonly $45,000 to $65,000, with the bottom decile of the occupation under $43,390.</p>
-
-<h3>Remote digital marketing jobs</h3>
-<p>Widely available since the work lives in browser-based platforms. Clarify overlap hours and whether pay is indexed to your location.</p>
-
-<h3>Freelance digital marketing USA</h3>
-<p>Retainers for social, SEO, paid ads and email. Price for 15.3% self-employment tax and quarterly estimates, and know the FTC disclosure rules before you post for a client.</p>
-
-<h3>Digital marketing salary entry level</h3>
-<p>Around $45,000 to $65,000 depending on channel and city, rising quickly once you can show a campaign result in numbers.</p>
-
-<h3>Digital marketing course free</h3>
-<p>HubSpot Academy is free including certifications, and Meta Blueprint's training material is free with only the exam charged. Start there before paying for anything.</p>
-
-<h3>SEO jobs USA</h3>
-<p>One of the deeper specialisms within digital marketing, and among the better-paid individual-contributor tracks as you gain experience.</p>
-
-<h3>LinkedIn digital marketing jobs</h3>
-<p>High posting volume, and the field where networking genuinely converts. Keep quantified results on your profile, since hiring managers screen for numbers.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing this against the other digital paths? These cover them:</p>

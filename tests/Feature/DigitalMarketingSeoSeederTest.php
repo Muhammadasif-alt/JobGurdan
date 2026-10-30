@@ -28,7 +28,7 @@ it('renders the post with its long-tail sections and sibling guides', function (
         ->assertOk()
         ->assertSee('Urban Solar')
         ->assertSee('What the Job Actually Involves')
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('/blog/senior-frontend-developer-job-at-ers-tech-lahore-react-nextjs-mern', false)
         ->assertSee(SEO_APPLY_URL, false);
 });

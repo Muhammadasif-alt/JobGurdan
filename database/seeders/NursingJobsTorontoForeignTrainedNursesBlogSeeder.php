@@ -147,32 +147,6 @@ class NursingJobsTorontoForeignTrainedNursesBlogSeeder extends Seeder
 <h3>Does CNO registration give me a work permit?</h3>
 <p>No. Registration and immigration are separate.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Nursing jobs in Toronto for foreign-trained nurses</h3>
-<p>Register with CNO first, then apply to hospitals with IEN pathways.</p>
-
-<h3>Internationally educated nurses Ontario</h3>
-<p>Credential assessment, exams, language, TTP and recent practice.</p>
-
-<h3>CNO registration requirements</h3>
-<p>Education, exams, language, evidence of practice and status.</p>
-
-<h3>Toronto RN jobs</h3>
-<p>Need General Class RN registration with CNO.</p>
-
-<h3>RPN jobs Toronto</h3>
-<p>Need a practical nursing diploma and the REx-PN.</p>
-
-<h3>CNO IELTS score</h3>
-<p>Overall 7, with 6.5 in writing and reading.</p>
-
-<h3>Transition to Practice CNO</h3>
-<p>A 7 to 14 week online course, valid five years.</p>
-
-<h3>SPEP Ontario</h3>
-<p>At least 140 hours of supervised practice for eligible applicants.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Start with CNO's current pathway, get the right credential assessment and clear each registration requirement, then apply to Toronto employers with an accurate account of your status. Verify every recruitment claim. This guide cannot promise registration, a job or a work permit.</p>

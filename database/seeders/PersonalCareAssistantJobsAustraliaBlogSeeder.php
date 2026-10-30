@@ -286,32 +286,6 @@ JOBHTML;
 <h3>Can I salary-package as an aged care worker?</h3>
 <p>If your employer is a not-for-profit Public Benevolent Institution, you can package up to $15,900 of tax-free benefits a year, plus a separate meal-entertainment card, which lifts your take-home pay.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Aged care jobs Australia visa sponsorship</h3>
-<p>Personal care roles sponsored through the Aged Care Industry Labour Agreement on the Skills in Demand visa, subclass 482.</p>
-
-<h3>Certificate III in Individual Support</h3>
-<p>The standard entry qualification for a personal care assistant, covering ageing, disability and home care support.</p>
-
-<h3>Aged Care Award pay rates 2026</h3>
-<p>Direct-care rates set by the Aged Care Award MA000018, with a Certificate III worker on about $36.23 an hour after the October 2025 increase.</p>
-
-<h3>ACILA labour agreement</h3>
-<p>The Aged Care Industry Labour Agreement, the sponsorship route covering Personal Care Assistant (ANZSCO 423313) and Aged or Disabled Carer roles.</p>
-
-<h3>NDIS Worker Screening Check</h3>
-<p>The clearance required for disability support roles, valid five years and accepted in aged care in place of a police certificate.</p>
-
-<h3>Skills in Demand visa 482</h3>
-<p>The renamed subclass 482 visa, with Core Skills and Specialist Skills streams, used for aged care sponsorship through a labour agreement.</p>
-
-<h3>Personal care assistant salary Australia</h3>
-<p>About $36.23 an hour full-time under the award, roughly $71,600 a year, before penalties and salary packaging.</p>
-
-<h3>Aged care to permanent residency Australia</h3>
-<p>Two years of full-time sponsored work can lead to a subclass 186 nomination and permanent residency.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Weighing aged care against other Australian and care-sector routes? These cover them:</p>

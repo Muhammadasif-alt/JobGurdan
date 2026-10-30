@@ -311,32 +311,6 @@ JOBHTML;
 <h3>What disqualifies you from becoming a police officer?</h3>
 <p>A felony conviction, a misdemeanor domestic violence conviction under the Lautenberg Amendment, or failing the background, psychological or medical evaluation. Departments add their own standards on top.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>State trooper salary</h3>
-<p>State government patrol officers had a BLS median of $88,400 in May 2025.</p>
-
-<h3>NYPD hiring age</h3>
-<p>Exam at 17, appointment from 20 years and 6 months, and under 35 when the application period opens.</p>
-
-<h3>How to become an FBI agent</h3>
-<p>US citizenship, a bachelor's degree, professional experience and a four-event fitness test, before the agency's maximum entry age.</p>
-
-<h3>Police jobs for non-citizens</h3>
-<p>California and Illinois accept work-authorized non-citizens. Federal agencies, the NYPD and Texas require citizenship.</p>
-
-<h3>Highest paying states for police officers</h3>
-<p>California, Washington, Alaska, New Jersey and Delaware, by mean wage for patrol officers.</p>
-
-<h3>Detective salary in the USA</h3>
-<p>A BLS median of $93,790, and $119,500 for detectives and criminal investigators in the federal government.</p>
-
-<h3>Police academy length in California</h3>
-<p>The Regular Basic Course sets a minimum of 664 hours of training.</p>
-
-<h3>Lateral police officer jobs</h3>
-<p>For experienced officers moving departments. Moving states usually means a waiver or requalification course.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing security and public service careers? These cover them:</p>

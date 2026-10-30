@@ -281,32 +281,6 @@ HTML;
 <h3>Is an informal chat safer for an employer than a scored test?</h3>
 <p>No, and the assumption is common. Part 1607 covers informal or casual interviews and unscored application forms as selection procedures too, and an unstructured process is harder rather than easier to defend as job related, because nothing records what was measured.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Take home coding test</h3>
-<p>A selection procedure in federal law, not an informal favour. Settle the scope and the time limit in writing before you start it.</p>
-
-<h3>Frontend developer interview questions</h3>
-<p>The ones that predict the job tend to look like the job: component states, narrow screens, keyboard operability. Puzzles the role never uses are weaker ground for the employer.</p>
-
-<h3>Unpaid coding assignment</h3>
-<p>No federal rule addresses applicant work trials. The useful line is assessment against delivery, and whether the output is going to ship.</p>
-
-<h3>Coding test accommodation ADA</h3>
-<p>More time is named in the appendix to 29 CFR 1630.11. So are large print, braille, a reader or an interpreter, and assessing the skill another way where the format cannot be adapted.</p>
-
-<h3>Four fifths rule hiring</h3>
-<p>A rule of thumb at 29 CFR 1607.4(D) for flagging adverse impact, which the EEOC says is not a legal definition and does not settle whether discrimination occurred.</p>
-
-<h3>Frontend developer technical assessment</h3>
-<p>Four common shapes: timed online exercise, take-home, live or pair session, and portfolio review. All four are selection procedures.</p>
-
-<h3>Live coding interview</h3>
-<p>Ask what is being measured. An employer who can answer has a job-related procedure; one who cannot is telling you something about the team.</p>
-
-<h3>Frontend developer jobs USA</h3>
-<p>Web developers were at a $92,650 median in May 2025, with the top tenth above $162,290. The pay and skills picture is on the main front end guide.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

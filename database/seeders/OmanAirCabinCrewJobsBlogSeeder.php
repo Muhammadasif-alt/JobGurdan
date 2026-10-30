@@ -290,32 +290,6 @@ JOBHTML;
 <h3>Do I need to swim for the cabin crew assessment?</h3>
 <p>The July 2026 Open Day required swimming 10 metres unaided, assessed on the day. Swimming ability is a normal aviation requirement, so prepare for it.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Oman Air careers cabin crew</h3>
-<p>Advertised through the careers page and LinkedIn, with occasional Open Days in Muscat.</p>
-
-<h3>Omanisation rate 2026</h3>
-<p>79.4% at Oman Air, up from 74.8% in 2023, alongside a reduction of 487 expatriate roles.</p>
-
-<h3>Oman Air open day requirements</h3>
-<p>The July 2026 event asked for English fluency, a 10 metre unaided swim, 160cm minimum height and a secondary certificate.</p>
-
-<h3>Oman work visa cost</h3>
-<p>OMR 20, valid two years and multiple entry, issued by the Royal Oman Police after labour clearance.</p>
-
-<h3>Oman minimum wage expatriate</h3>
-<p>There is none. The private sector wage floor applies to Omani nationals only.</p>
-
-<h3>Oman income tax on salary</h3>
-<p>Oman levies no personal income tax on salary.</p>
-
-<h3>Cabin crew jobs Muscat</h3>
-<p>Oman Air's cabin crew are based in Muscat, with rosters including night flights and layovers.</p>
-
-<h3>Oman Air hiring process time</h3>
-<p>Six weeks for an initial response, then about three weeks for a reply after interview.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing Gulf employers and routes? These cover them:</p>

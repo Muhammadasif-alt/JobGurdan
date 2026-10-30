@@ -338,32 +338,6 @@ JOBHTML;
 <h3>Can I apply from outside Canada or another province?</h3>
 <p>Canadian citizens living abroad can apply to Ontario, but must travel there at their own expense for selection and pay their own relocation if hired. CSC's most recent poster accepted citizens and permanent residents abroad.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>CSC correctional officer salary</h3>
-<p>CX-01 pay runs from $77,510 to $97,266 a year from 1 June 2025.</p>
-
-<h3>Correctional Training Program CSC</h3>
-<p>Three stages: about 80 hours online, about 40 hours online, then about 14 weeks in person with a $400-a-week allowance.</p>
-
-<h3>Ontario correctional officer requirements</h3>
-<p>Age 18 or over, Grade 12, first aid, CPR and AED, the FITCO test, a medical, and a Vulnerable Sector Screening Check.</p>
-
-<h3>FITCO test</h3>
-<p>The Fitness Test for Ontario Correctional Officer Applicants, used by Ontario's provincial corrections.</p>
-
-<h3>CFT-CO training Ontario</h3>
-<p>Corrections Foundational Training for Correctional Officers, Ontario's eight-week training and assessment program.</p>
-
-<h3>Correctional officer NOC code</h3>
-<p>NOC 43201, Correctional service officers, with a Job Bank median of $36.15 an hour.</p>
-
-<h3>PEI correctional officer training program</h3>
-<p>A six-month program with the Atlantic Police Academy: 17 weeks of course work and seven weeks on the job.</p>
-
-<h3>Correctional officer jobs for permanent residents</h3>
-<p>Accepted by PEI's program and CSC's most recent poster; Ontario asks for eligibility to work in Canada.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Considering public safety work in Canada or elsewhere? These cover the neighbouring routes:</p>

@@ -306,32 +306,6 @@ JOBHTML;
 <h3>Which higher education job pays best?</h3>
 <p>Administration, at a $104,590 median, which is above the $85,330 median for postsecondary teachers and well above advising at $64,330.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>University administration jobs</h3>
-<p>$104,590 median, master's typical, about 14,500 openings a year from turnover.</p>
-
-<h3>Student affairs jobs</h3>
-<p>Residence life, conduct, orientation and accessibility; many prefer a student affairs master's.</p>
-
-<h3>Academic advisor jobs</h3>
-<p>Counted under school and career counsellors and advisers; $58,870 median inside public colleges.</p>
-
-<h3>College admissions jobs</h3>
-<p>Admissions counsellor is one of the easiest entry points, with heavy autumn recruitment travel.</p>
-
-<h3>Institutional research careers</h3>
-<p>Enrolment modelling, federal reporting and accreditation evidence; the most quantitative non-faculty role.</p>
-
-<h3>Instructional coordinator salary</h3>
-<p>$77,440 overall; $73,070 at private colleges and $61,810 at state ones.</p>
-
-<h3>Academic librarian salary</h3>
-<p>$74,490 at state colleges and universities, above the $68,270 occupational median.</p>
-
-<h3>Higher education careers USA</h3>
-<p>Administration out-earns teaching but grows at 2 per cent against 7 per cent.</p>
-
 <h2>More Job Guides</h2>
 
 <p>These cover the teaching side of the same institutions:</p>

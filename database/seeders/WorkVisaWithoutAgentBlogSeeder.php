@@ -176,32 +176,6 @@ class WorkVisaWithoutAgentBlogSeeder extends Seeder
 <h3>What if my application is refused?</h3>
 <p>Read the decision and follow its instructions, rather than resubmitting the same application unchanged.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>How to apply for a work visa without an agent</h3>
-<p>Follow the official route and the employer's steps.</p>
-
-<h3>Self apply work visa</h3>
-<p>Possible for many applicant-submitted routes.</p>
-
-<h3>Work visa application guide</h3>
-<p>Eight steps from route to decision.</p>
-
-<h3>Avoid visa agent scam</h3>
-<p>Check claims against official sources.</p>
-
-<h3>Work visa documents list</h3>
-<p>Depends on the route; see our documents guide.</p>
-
-<h3>Work visa fees</h3>
-<p>Paid to the government, not a personal account.</p>
-
-<h3>Verify immigration consultant</h3>
-<p>Check authorisation under the destination's rules.</p>
-
-<h3>Visa sponsorship scams</h3>
-<p>Sponsors should not charge workers.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

@@ -378,32 +378,6 @@ JOBHTML;
 <h3>Which pays better, employed or self-employed plumbing?</h3>
 <p>Self-employment usually pays more per hour worked and carries no sick pay, holiday pay, pension contribution or guaranteed work. Compare the day rate against the whole employed package, not against the headline salary.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Plumber salary USA</h3>
-<p>$63,800 median in May 2025, from under $44,150 to over $108,420.</p>
-
-<h3>Plumber salary UK</h3>
-<p>Measured against the £39,039 all-employee full-time median; no official occupation median is published.</p>
-
-<h3>Gas Safe Register</h3>
-<p>Legally required for gas work in the UK under the 1998 regulations.</p>
-
-<h3>Plumber job outlook</h3>
-<p>7 per cent growth 2025 to 2035 in the US, about 42,000 openings a year.</p>
-
-<h3>Plumbing apprenticeship wage</h3>
-<p>£8.00 an hour minimum in the UK; programme-set and rising in steps in the US.</p>
-
-<h3>Pipefitter vs plumber pay</h3>
-<p>One BLS occupation code, which is why industrial work lifts every average.</p>
-
-<h3>Plumbing licence by state USA</h3>
-<p>No national licence; state and often city boards license separately.</p>
-
-<h3>Highest paying plumbing industry</h3>
-<p>Government, at a $71,660 median, above the contractor median of $63,010.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the plumbing cluster:</p>

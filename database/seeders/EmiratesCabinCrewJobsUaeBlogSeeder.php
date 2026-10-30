@@ -305,32 +305,6 @@ JOBHTML;
 <h3>Does Emirates charge a fee to apply?</h3>
 <p>No. Emirates states that any job offer seemingly from it that asks you for money is fraudulent, and that it never asks applicants for payment of any kind.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Emirates cabin crew salary in dirhams</h3>
-<p>A published average of AED 11,244 a month, made up of AED 4,980 basic plus flying pay.</p>
-
-<h3>Emirates open day requirements</h3>
-<p>CV in English, education certificate copy and a passport copy, plus the 21-year, 160cm and 212cm reach standards.</p>
-
-<h3>Emirates cabin crew reach test</h3>
-<p>You must be able to reach 212cm high, which is how overhead safety equipment is accessed.</p>
-
-<h3>Cabin crew accommodation Dubai</h3>
-<p>Emirates provides free furnished shared accommodation including utilities, plus transport to the airport.</p>
-
-<h3>UAE end of service gratuity</h3>
-<p>21 days' basic salary a year for the first five years, 30 days a year after that, capped at two years' wages.</p>
-
-<h3>Emirates cabin crew days off</h3>
-<p>Approximately eight days off a month in Dubai, on a roster issued at graduation.</p>
-
-<h3>Emirates purser promotion</h3>
-<p>Progression runs Economy to Business to First Class to Cabin Supervisor to Purser, reachable in about five years for strong performers.</p>
-
-<h3>Emirates recruitment scam</h3>
-<p>Emirates says any offer in its name that asks you for money is fraudulent, including visa and travel advance payments.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at Gulf and hospitality work more widely? These cover it:</p>

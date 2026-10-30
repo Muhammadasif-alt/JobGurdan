@@ -199,32 +199,6 @@ class CaregiverJobsUsaVisaSponsorshipBlogSeeder extends Seeder
 <h3>Who pays for the sponsorship?</h3>
 <p>The employer must pay the labor certification costs. Never pay an agent or employer for a sponsored job.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Caregiver jobs in USA with visa sponsorship</h3>
-<p>Mostly through EB-3 Other Workers sponsorship.</p>
-
-<h3>Home health aide visa sponsorship</h3>
-<p>The same EB-3 route applies to aides and CNAs.</p>
-
-<h3>Caregiver visa USA</h3>
-<p>There is no dedicated caregiver visa today.</p>
-
-<h3>EB-3 other workers wait time</h3>
-<p>Check the monthly Visa Bulletin; the October 2026 date was 1 January 2022.</p>
-
-<h3>Caregiver salary in USA</h3>
-<p>$17.21 an hour at the median, BLS May 2025.</p>
-
-<h3>Careworker Visa Act 2026</h3>
-<p>A proposed bill, H.R. 9234, not law.</p>
-
-<h3>H-2B caregiver</h3>
-<p>Rare, because caregiving is not usually temporary work.</p>
-
-<h3>Caregiver jobs from Pakistan</h3>
-<p>Possible only with an employer willing to sponsor you from abroad.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

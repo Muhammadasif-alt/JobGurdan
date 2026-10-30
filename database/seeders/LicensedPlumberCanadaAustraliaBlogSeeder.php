@@ -394,32 +394,6 @@ JOBHTML;
 <h3>Is a Certificate III in Plumbing enough to work in Australia?</h3>
 <p>No. The certificate is the trade qualification; the licence is issued separately by the state or territory regulator, and it is the licence that authorises the work. A licence from one state does not automatically authorise work in another.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Red Seal plumber exam</h3>
-<p>125 questions; the endorsement lets a provincial certificate travel across Canada.</p>
-
-<h3>Plumbing apprenticeship Canada</h3>
-<p>Four to five years; Ontario 9,000 hours, Saskatchewan 7,200 trade hours.</p>
-
-<h3>Compulsory trades by province</h3>
-<p>Plumber is compulsory in seven provinces and voluntary in six jurisdictions.</p>
-
-<h3>NOC 72300 plumber</h3>
-<p>TEER 2, and the code listed in the Express Entry Trade occupations category.</p>
-
-<h3>Federal Skilled Trades Program requirements</h3>
-<p>3,120 hours in five years, plus a job offer or a Canadian certificate of qualification.</p>
-
-<h3>Express Entry 600 points</h3>
-<p>From a provincial nomination only. Category draws award none.</p>
-
-<h3>Certificate III in Plumbing</h3>
-<p>The Australian trade qualification, taken through an apprenticeship with an RTO.</p>
-
-<h3>Automatic Mutual Recognition plumbers</h3>
-<p>Lets a licence work interstate, but Queensland is out and several plumbing classes are excluded.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the plumbing cluster, and the routes around it:</p>

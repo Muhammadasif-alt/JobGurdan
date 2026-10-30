@@ -1254,7 +1254,7 @@ it('renders with its long-tail sections and the search link', function (string $
     $this->get('/blog/'.$slug)
         ->assertOk()
         ->assertSee(Blog::where('slug', $slug)->value('title'))
-        ->assertSee('People Also Search For');
+        ->assertDontSee('People Also Search For');
 
     // Every guide has to send the reader somewhere they can act. Where the
     // employer publishes its own careers page, the body links that, which is

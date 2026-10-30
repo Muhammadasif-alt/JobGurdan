@@ -322,32 +322,6 @@ JOBHTML;
 <h3>Can I do a UK IT support job remotely from another country?</h3>
 <p>Rarely. Employers need you to have the right to work in the UK, and most will not let the work be done from abroad.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Help desk jobs in London</h3>
-<p>The largest cluster of first line roles in the UK. Check the weekly hours against the salary before you accept.</p>
-
-<h3>First line support salary UK</h3>
-<p>Often quoted from &pound;20,000, which is below the National Living Wage for a full-time worker aged 21 or over.</p>
-
-<h3>Second line support engineer jobs</h3>
-<p>Deeper troubleshooting and device administration, and the usual next step after a year or two on a service desk.</p>
-
-<h3>IT support jobs with visa sponsorship UK</h3>
-<p>Possible on the Temporary Shortage List until 31 December 2026, but only at &pound;41,700, or &pound;33,400 for a new entrant.</p>
-
-<h3>IT support apprenticeship UK</h3>
-<p>A paid route in with training, on the apprentice rate rather than the National Living Wage.</p>
-
-<h3>CompTIA A+ Core 1 and Core 2</h3>
-<p>The two exams, 220-1201 and 220-1202, that make up the current A+ certification.</p>
-
-<h3>Service desk analyst jobs</h3>
-<p>First line roles by another name, common at MSPs, banks and large public sector organisations.</p>
-
-<h3>IT technician jobs in schools</h3>
-<p>In-house support for classrooms and staff, usually on school hours and with a DBS check.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing UK routes or the technical careers support leads into? These cover them:</p>

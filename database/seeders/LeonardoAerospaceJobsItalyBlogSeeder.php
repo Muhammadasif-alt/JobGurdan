@@ -331,32 +331,6 @@ JOBHTML;
 <h3>What is the EU Blue Card salary threshold in Italy?</h3>
 <p>There is no single figure in Italian law. The salary must meet the applicable national collective agreement rate and be no lower than the ISTAT average annual gross salary. The often-quoted 24,789 euros belongs to a repealed 2012 regime.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Leonardo careers Workday</h3>
-<p>The live vacancy portal, separate from leonardo.com. It also offers an Introduce Yourself route for speculative applications.</p>
-
-<h3>Leonardo SpA salary engineer</h3>
-<p>Published on the adverts themselves as a Total Base Pay Range, which makes aggregator estimates unnecessary for this employer.</p>
-
-<h3>Nulla Osta di Sicurezza</h3>
-<p>Italy's national security clearance, issued by the state. Required for classified programmes and, in practice, not obtainable by non-EU nationals.</p>
-
-<h3>Decreto Flussi 2026 click day</h3>
-<p>Non-seasonal employed work opens at 09:00 on 16 February 2026, with forms pre-compiled the previous autumn. Pakistan is among the eligible countries.</p>
-
-<h3>Carta Blu UE Italia requisiti</h3>
-<p>A three-year degree or EQF level 6, or five years of comparable experience, a job offer of at least six months, and pay at or above the collective agreement rate and the ISTAT average.</p>
-
-<h3>Leonardo Italy locations</h3>
-<p>Rome, Turin and Caselle, Cascina Costa di Samarate, Venegono Superiore, Genova Fiumara, Nerviano, Pomigliano d'Arco, La Spezia, Cameri, Foggia and Fucino, among others.</p>
-
-<h3>Italy permesso di soggiorno after arrival</h3>
-<p>The residence contract and permit application are handled within 15 days of entry. The old 8-day figure comes from superseded guidance.</p>
-
-<h3>Italy visa appointment Pakistan</h3>
-<p>Through the Embassy's online waiting list, allocated in registration order. The Embassy warns that appointments should never be purchased.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing European engineering employers, or looking wider? These cover it:</p>

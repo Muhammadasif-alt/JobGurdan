@@ -435,32 +435,6 @@ JOBHTML;
 <h3>Do non-EU students get the ASML internship allowance?</h3>
 <p>ASML does not publish an answer. It frames both the monthly allowance and the housing allowance as entitlements for EU students, and says nothing about non-EU students beyond a tripartite agreement requirement. Ask the recruiter before accepting.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>ASML careers login</h3>
-<p>Job search sits at asml.com/en/careers/find-your-job and applications hand off to Workday at asml.wd3.myworkdayjobs.com. The legacy asml.com/careers/vacancies board returns a 404.</p>
-
-<h3>ASML salary for freshers</h3>
-<p>ASML does not publish a graduate scale, but it does print a range on each vacancy. The published work-study salary of EUR 2,549 to EUR 2,800 a month is the clearest entry-level figure the company puts in public.</p>
-
-<h3>ASML Veldhoven jobs</h3>
-<p>Veldhoven is the headquarters and the largest site, with over 19,000 employees and 121 nationalities on ASML's own figures. Most Dutch vacancies are based there.</p>
-
-<h3>ASML internship for international students</h3>
-<p>Internships run 3 to 12 months, most commonly 5 to 6. Apply at least three months ahead. The published EUR 400 and EUR 600 allowances are stated for EU students; non-EU treatment is not published.</p>
-
-<h3>Netherlands work visa salary requirement</h3>
-<p>For 2026 the IND requires EUR 5,942 gross per month for highly skilled migrants aged 30 or older, EUR 4,357 under 30, and EUR 3,122 under the reduced criterion, all excluding holiday allowance.</p>
-
-<h3>IND recognised sponsor list</h3>
-<p>The public register of recognised sponsors is published by the IND and lists nearly 13,000 organisations. ASML appears as ASML Netherlands B.V., ASML Holding N.V. and ASML Trading B.V., all in the labour register.</p>
-
-<h3>30 percent ruling Netherlands</h3>
-<p>ASML lists a tax benefit of up to 30 per cent among its relocation rewards for eligible employees, alongside tax advice, temporary housing and visa support for immediate family.</p>
-
-<h3>ASML new Eindhoven campus</h3>
-<p>Construction began in September 2026 at Brainport Industries Campus North, planned at around 350,000 square metres with capacity for up to 20,000 workplaces, phase one due by 2029 with at least 3,000 employees.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If it is European engineering you are after rather than this one employer, these cover the same ground from different angles:</p>

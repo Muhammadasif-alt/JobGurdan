@@ -55,7 +55,7 @@ it('renders with its long-tail sections', function () {
     $this->get('/blog/'.HOMECARE_SLUG)
         ->assertOk()
         ->assertSee('Home Healthcare Assistant Jobs in Pakistan')
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('online.pnmc.gov.pk');
 });
 
@@ -68,12 +68,10 @@ it('carries eight FAQs in markup built from the post body', function () {
     $this->get('/blog/'.HOMECARE_SLUG)->assertSee('"FAQPage"', false);
 });
 
-it('offers eight People Also Search For entries', function () {
+it('carries no People Also Search For block', function () {
     $content = Blog::where('slug', HOMECARE_SLUG)->value('content');
-    $tail = substr($content, strpos($content, 'People Also Search For'));
-    $tail = substr($tail, 0, strpos($tail, 'Related career guides'));
 
-    expect(substr_count($tail, '<h3>'))->toBe(8);
+    expect(substr_count($content, 'People Also Search For'))->toBe(0);
 });
 
 it('sends nobody to a job aggregator, in the guide or on the listing', function () {

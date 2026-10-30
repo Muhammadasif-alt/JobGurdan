@@ -174,32 +174,6 @@ class WhatIsWorkPermitBlogSeeder extends Seeder
 <h3>Can an agent guarantee a permit?</h3>
 <p>No. Only the government authority decides.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>What is a work permit</h3>
-<p>Permission to work under set conditions.</p>
-
-<h3>How does work permit work</h3>
-<p>Employer route, evidence, decision.</p>
-
-<h3>Difference between work permit and visa</h3>
-<p>Depends on the country.</p>
-
-<h3>Work permit explained</h3>
-<p>Check your conditions.</p>
-
-<h3>Open work permit Canada</h3>
-<p>Not tied to one employer.</p>
-
-<h3>Employer specific work permit</h3>
-<p>Linked to a named employer.</p>
-
-<h3>Employment Pass Singapore</h3>
-<p>A pass for professional roles.</p>
-
-<h3>Work permit expiry and renewal</h3>
-<p>Check extension rules early.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

@@ -352,32 +352,6 @@ JOBHTML;
 <h3>Can I change employers once I am there?</h3>
 <p>Since the Labour Reform Initiative of 14 March 2021, private-sector expat workers can transfer to a new employer on contract expiry and request exit/re-entry and final-exit through Absher and Qiwa under stated conditions.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Truck driver salary in Saudi Arabia</h3>
-<p>Contract-set, with no legal minimum for expats; aggregators estimate SAR 1,500-2,500 local up to SAR 4,500-7,000+ long-haul.</p>
-
-<h3>Saudi driving licence conversion</h3>
-<p>Free swap only for reciprocal-list countries; India, Pakistan, Bangladesh and the Philippines must take the full Saudi test.</p>
-
-<h3>HGV jobs in Saudi Arabia</h3>
-<p>Heavy goods vehicle work in logistics, construction and oil-and-gas, on the public/heavy-transport licence.</p>
-
-<h3>Driver jobs in Saudi Arabia for Pakistani</h3>
-<p>Open through licensed recruiters and the BEOE; expect to sit the Saudi driving test rather than convert.</p>
-
-<h3>Saudi work visa for drivers</h3>
-<p>An employer-sponsored Iqama, with more mobility since the 2021 Labour Reform Initiative.</p>
-
-<h3>Long haul truck driver jobs KSA</h3>
-<p>The best-paid route type, estimated at SAR 4,500-7,000+ a month by aggregators, often with accommodation.</p>
-
-<h3>Uber and Careem driver jobs Saudi Arabia</h3>
-<p>Closed to expatriates: app-based ride-hailing has been reserved for Saudi nationals since 2021.</p>
-
-<h3>Wage Protection System Saudi Arabia</h3>
-<p>The mandatory system through which private-sector salaries must be paid, protecting workers where no minimum wage applies.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Planning a move to the Kingdom? These cover the wider picture:</p>

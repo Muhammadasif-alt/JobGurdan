@@ -267,32 +267,6 @@ JOBHTML;
 <h3>How many hours can I work on a student visa?</h3>
 <p>48 hours a fortnight while studying, and unlimited hours during course breaks.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Australian minimum wage 2026</h3>
-<p>$26.44 an hour from 1 July 2026, after the 4.75% annual wage review increase.</p>
-
-<h3>Retail award rate 2026</h3>
-<p>$27.81 an hour at Level 1 for adults, or about $34.76 for casuals with the loading.</p>
-
-<h3>Aged care worker pay Australia</h3>
-<p>$1,307.80 a week for a direct carer, about $68,006 a year, after the work value increases.</p>
-
-<h3>Warehouse jobs Australia pay</h3>
-<p>Storeworker grade 1 starts at $1,029.10 a week, about $53,513 a year.</p>
-
-<h3>Junior pay rates Australia</h3>
-<p>60% of the adult rate at 17 in retail, rising to 100% at 20 after six months.</p>
-
-<h3>NDIS worker screening check</h3>
-<p>Required for risk-assessed roles with registered providers, and valid for up to five years.</p>
-
-<h3>Working holiday visa 6 month rule</h3>
-<p>Six months with one employer, with exemptions since January 2024 for care, hospitality, agriculture and other critical sectors.</p>
-
-<h3>Youth unemployment Australia</h3>
-<p>10.4% in July 2026, against an overall rate of 4.5%.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing entry-level work in Australia and elsewhere? These cover it:</p>

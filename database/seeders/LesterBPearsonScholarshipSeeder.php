@@ -230,32 +230,6 @@ class LesterBPearsonScholarshipSeeder extends Seeder
 <h3>Does the Pearson Scholarship pay for my flight or study permit?</h3>
 <p>No. Travel to Canada, the study permit fee and personal expenses are yours. The award covers tuition, books, incidental fees and residence.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Lester B. Pearson scholarship nomination deadline</h3>
-<p>9 October 2026, with U of T's school form giving a noon Eastern cut-off.</p>
-
-<h3>University of Toronto scholarship for international students</h3>
-<p>The Pearson is the flagship; U of T also awards admission scholarships that need no nomination.</p>
-
-<h3>Pearson scholarship eligibility</h3>
-<p>Final-year secondary students, or 2026 graduates, who require a study permit and have not started post-secondary study.</p>
-
-<h3>How many Pearson scholars are selected</h3>
-<p>About 37 a year, from nominations worldwide.</p>
-
-<h3>Pearson scholarship benefits</h3>
-<p>Tuition, books, incidental fees and residence for four years — no cash stipend.</p>
-
-<h3>Fully funded undergraduate scholarships in Canada</h3>
-<p>Rare at this level; most Canadian funding for international students is partial and entry-based.</p>
-
-<h3>U of T first-entry undergraduate programs</h3>
-<p>The degrees entered directly from secondary school, which are the only ones the Pearson covers.</p>
-
-<h3>Pearson scholarship school nomination form</h3>
-<p>Completed by the school, not the student, through U of T's participation form.</p>
-
 <h2>Contact and Official Links</h2>
 <ul>
 <li><a href="{$applyUrl}" target="_blank" rel="noopener">Official Lester B. Pearson International Scholarship page</a></li>

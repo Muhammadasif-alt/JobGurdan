@@ -334,32 +334,6 @@ JOBHTML;
 <h3>How heavy is the lifting?</h3>
 <p>A 49-pound limit is widely quoted but does not appear on Amazon's hiring pages. Check the physical requirements on the specific posting.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Amazon warehouse jobs near me</h3>
-<p>Amazon's hiring site locates roles by postcode. Every genuine vacancy is posted there or on amazon.jobs.</p>
-
-<h3>Amazon pay per hour 2026</h3>
-<p>$20 an hour minimum starting pay for US full-time core operations roles, with average pay near $24, announced 16 September 2026.</p>
-
-<h3>Amazon Career Choice</h3>
-<p>Prepaid tuition of up to $5,250 a year through more than 475 education partners, available after 90 days of employment.</p>
-
-<h3>Amazon employee grocery discount</h3>
-<p>From 1 October 2026, 10% off eligible groceries on Amazon.com and Whole Foods online, and 20% off in store at Whole Foods.</p>
-
-<h3>Amazon Day 1 Financial</h3>
-<p>A credit union membership through First Tech Federal Credit Union, rolling out in late 2026 and broadly available in 2027.</p>
-
-<h3>Amazon PIT certification</h3>
-<p>Power Industrial Truck work covering walkies, reach trucks, stand-ups, clamp trucks and order pickers, with training provided by Amazon.</p>
-
-<h3>EB-3 other workers visa</h3>
-<p>The US employment-based category for unskilled labour requiring less than two years of training. Employer-driven, capped at 10,000 a year, and not obtainable through an hourly job application.</p>
-
-<h3>Amazon job scam</h3>
-<p>Amazon says genuine roles appear only on its official job board and that it never asks for payment information. Paid placement offers are not Amazon.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing large US employers, or looking for the route that fits your situation? These cover the ground:</p>

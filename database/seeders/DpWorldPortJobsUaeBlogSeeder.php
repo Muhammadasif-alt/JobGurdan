@@ -349,19 +349,6 @@ JOBHTML;
 <h3>Am I covered by UAE unemployment insurance as an expatriate?</h3>
 <p>Yes, and it is compulsory. It costs AED 5 a month if your basic salary is below AED 16,000 and AED 10 above, paid by you. The benefit is 60 per cent of your subscription salary for up to three months, capped at AED 10,000 or AED 20,000 monthly. You need twelve consecutive months of subscription, and there is an AED 400 fine for not subscribing.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li>DP World Jebel Ali careers vacancies</li>
-    <li>UAE gratuity calculator basic salary</li>
-    <li>JAFZA free zone employment rules</li>
-    <li>Ruwad programme eligibility DP World</li>
-    <li>UAE labour law 2026 notice period</li>
-    <li>BEOE overseas employment promoter fee</li>
-    <li>MOHRE offer letter verification</li>
-    <li>UAE unemployment insurance ILOE expatriates</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

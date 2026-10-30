@@ -186,32 +186,6 @@ class FarmWorkerJobUsaFromPakistanBlogSeeder extends Seeder
 <h3>Can I change to another farm once I arrive?</h3>
 <p>Not without the necessary authorisation. Check the conditions attached to your employment first.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>How to get a farm worker job in USA from Pakistan</h3>
-<p>Find a verified employer, ask about Pakistan recruitment and follow the H-2A steps in order.</p>
-
-<h3>Farm worker job USA for Pakistanis</h3>
-<p>Possible only where an employer recruits from Pakistan and the visa is approved.</p>
-
-<h3>Farm worker work visa USA</h3>
-<p>H-2A, sought through an employer's petition.</p>
-
-<h3>Farm worker job without experience USA</h3>
-<p>Look for orders that explicitly accept beginners.</p>
-
-<h3>Find farm worker job abroad</h3>
-<p>Use official job listings and verify every recruiter.</p>
-
-<h3>Farm worker USA requirements</h3>
-<p>Set by each job order, plus visa conditions.</p>
-
-<h3>H-2A visa for Pakistan</h3>
-<p>The country lists are gone, but consular approval is still individual.</p>
-
-<h3>DS-160 for H-2A workers</h3>
-<p>Filed after the petition is approved.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

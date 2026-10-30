@@ -27,7 +27,7 @@ it('renders with its long-tail sections and the search link', function () {
     $this->get('/blog/'.CONTENT_WRITER_SLUG)
         ->assertOk()
         ->assertSee('Content Writer Jobs in USA')
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('https://jobgader.com/categories/writing-content?location=United%20States', false);
 });
 

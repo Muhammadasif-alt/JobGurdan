@@ -50,15 +50,13 @@ it('ships every image it references', function () {
     expect($blog->content)->not->toContain('.png');
 });
 
-it('carries eight FAQs and eight People Also Search For entries', function () {
+it('carries eight FAQs and no People Also Search For block', function () {
     $content = Blog::where('slug', REACT_FEE_SLUG)->value('content');
 
     expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(8);
 
-    $tail = substr($content, strpos($content, 'People Also Search For'));
-    $tail = substr($tail, 0, strpos($tail, 'Related career guides'));
 
-    expect(substr_count($tail, '<h3>'))->toBe(8);
+    expect(substr_count($content, 'People Also Search For'))->toBe(0);
 
     $this->get('/blog/'.REACT_FEE_SLUG)->assertOk()->assertSee('"FAQPage"', false);
 });
@@ -88,7 +86,7 @@ it('states the absence of a federal requirement plainly', function () {
     $content = Blog::where('slug', REACT_FEE_SLUG)->value('content');
 
     expect($content)->toContain('no federal law requires a US employer to publish a salary range in a job advertisement')
-        ->toContain('never left committee')
+        ->toContain('got no further than being referred to committee')
         // EO 11246 was revoked, so the OFCCP rule is not a live federal duty.
         ->toContain('21 January 2025');
 });

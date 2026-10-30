@@ -359,19 +359,6 @@ JOBHTML;
 <h3>Can I join the Microsoft Software and Systems Academy?</h3>
 <p>Only if you served in the US or UK armed forces. MSSA is a 17-week programme for transitioning service members, veterans, Guard and Reserve members and military spouses of US or UK MoD forces, generally within six months of separation. It is not open to civilian applicants from other countries.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li>Microsoft data center technician salary</li>
-    <li>Microsoft technical support engineer requirements</li>
-    <li>Does Microsoft sponsor H1B for support roles</li>
-    <li>apply.careers.microsoft.com search not working</li>
-    <li>Microsoft careers profession filter</li>
-    <li>Entry level IT support jobs no degree USA</li>
-    <li>MSSA eligibility requirements</li>
-    <li>Microsoft contractor roles TalentNet</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

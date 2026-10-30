@@ -364,32 +364,6 @@ JOBHTML;
 <h3>Do I need experience to get a sales job in Australia?</h3>
 <p>Not for most retail and telesales roles. Weekend availability, clear communication and any customer-facing experience matter more at entry level, while B2B roles usually want CRM experience and measurable results.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Retail sales assistant pay rate Australia</h3>
-<p>Level 1 under the General Retail Industry Award is $27.81 an hour from 1 July 2026, or about $34.76 for casuals, with higher penalty rates on Sundays and public holidays.</p>
-
-<h3>Commission only jobs Australia</h3>
-<p>Lawful for genuine contractors and, under strict conditions, some real estate employees. For most award-covered employees, the award minimum has to be paid whatever the commission.</p>
-
-<h3>Real estate sales jobs</h3>
-<p>Open without experience at assistant level, once the state's entry-level registration and training are complete.</p>
-
-<h3>Business development representative jobs Australia</h3>
-<p>The entry point to B2B sales. Advertised ranges are not measured earnings, so ask for the base, the on-target figure and the super treatment.</p>
-
-<h3>Telesales jobs Australia</h3>
-<p>Accessible without experience. Check whether the role is employed on an award wage or offered as contracting, because that decides whether commission-only is lawful.</p>
-
-<h3>Sales manager salary Australia</h3>
-<p>Commonly advertised at $90,000 to $130,000 or more. At 12 per cent, super alone moves the top of that range by $15,600.</p>
-
-<h3>Sales jobs Sydney and Melbourne</h3>
-<p>The largest markets for corporate and real estate sales, with the same award rates as everywhere else in the country.</p>
-
-<h3>Sales jobs for working holiday visa</h3>
-<p>A realistic entry route, with a six-month limit per employer. Working at different stores of the same chain, for up to six months at each, is exempt from that limit.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing Australian and international routes? These cover them:</p>

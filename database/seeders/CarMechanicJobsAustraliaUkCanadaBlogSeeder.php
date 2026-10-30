@@ -312,32 +312,6 @@ JOBHTML;
 <h3>Which country is easiest for a foreign mechanic?</h3>
 <p>Australia has the clearest skills assessment route through TRA. Canada needs provincial certification, and the UK visa route narrowed in July 2025.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Motor mechanic jobs Australia visa sponsorship</h3>
-<p>Start with a TRA skills assessment for ANZSCO 321211.</p>
-
-<h3>ANZSCO 321211</h3>
-<p>Motor mechanic (general), assessed by Trades Recognition Australia.</p>
-
-<h3>Mechanic salary Australia per week</h3>
-<p>A$1,622 median full-time, from Jobs and Skills Australia.</p>
-
-<h3>Motor mechanic salary UK</h3>
-<p>&pound;22,000 starting to &pound;42,000 experienced.</p>
-
-<h3>SOC code 5231</h3>
-<p>Vehicle technicians, mechanics and electricians in the UK.</p>
-
-<h3>NOC 72410</h3>
-<p>Automotive service technicians and mechanical repairers in Canada.</p>
-
-<h3>310S Ontario</h3>
-<p>Automotive Service Technician, a compulsory trade.</p>
-
-<h3>Red Seal automotive service technician</h3>
-<p>The interprovincial endorsement for certified technicians.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the mechanic cluster and related trades:</p>

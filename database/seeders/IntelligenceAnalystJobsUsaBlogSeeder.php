@@ -338,32 +338,6 @@ JOBHTML;
 <h3>Does an active clearance raise my pay?</h3>
 <p>Often, on the contractor side. An active TS/SCI clearance is in short supply, so cleared contractor roles frequently pay a premium over the equivalent GS grade.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Intelligence analyst salary</h3>
-<p>GS-based for federal roles (GS-9 about $70,600 in DC for 2026); the BLS proxy median is $93,790.</p>
-
-<h3>How to become an intelligence analyst</h3>
-<p>A bachelor's degree, US citizenship, and the ability to obtain a TS/SCI clearance.</p>
-
-<h3>CIA analyst jobs</h3>
-<p>Recruited through cia.gov, requiring US citizenship, residency at application and a polygraph.</p>
-
-<h3>TS/SCI clearance jobs</h3>
-<p>The common requirement for Intelligence Community roles; an active clearance is highly sought after.</p>
-
-<h3>All-source analyst jobs</h3>
-<p>A common title for analysts who combine multiple intelligence sources; search it alongside "intelligence analyst".</p>
-
-<h3>Cyber threat intelligence analyst</h3>
-<p>The cyber corner of the field, often paid toward the top of the range.</p>
-
-<h3>GS pay scale 2026</h3>
-<p>GS-7 base $43,106 to GS-13 base $90,925, before locality pay of 17 to 34 per cent.</p>
-
-<h3>Intelligence analyst jobs for non-citizens</h3>
-<p>Effectively unavailable, because a clearance requires US citizenship.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at nearby analytical and federal careers? These cover them:</p>

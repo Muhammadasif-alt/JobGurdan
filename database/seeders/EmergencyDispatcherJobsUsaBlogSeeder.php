@@ -375,32 +375,6 @@ JOBHTML;
 <h3>Where can I find legitimate emergency dispatcher jobs?</h3>
 <p>On official city and county career sites, such as City of Houston jobs, NYC Exams for Jobs, Los Angeles County jobs, Seattle CARE jobs and Denver's Department of Safety jobs.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>911 dispatcher jobs near me</h3>
-<p>Check your city and county career site; local government employs 79% of dispatchers.</p>
-
-<h3>911 dispatcher salary</h3>
-<p>$53,040 median in May 2025.</p>
-
-<h3>911 dispatcher requirements</h3>
-<p>A high school diploma or GED, a typing test and a background check.</p>
-
-<h3>CritiCall test</h3>
-<p>A dispatcher skills assessment used by employers such as Houston.</p>
-
-<h3>Police dispatcher jobs</h3>
-<p>Often need a year of 911 or dispatch experience.</p>
-
-<h3>Fire dispatcher jobs</h3>
-<p>Los Angeles County Fire trains new dispatchers for about 10 months.</p>
-
-<h3>911 call taker jobs</h3>
-<p>The entry-level route in centers that split call taking and dispatch.</p>
-
-<h3>Emergency Medical Dispatcher certification</h3>
-<p>Required by many states and centers, often during training.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing public safety and phone-based careers? These cover it:</p>

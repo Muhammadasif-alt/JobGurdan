@@ -194,32 +194,6 @@ class MedicalAssistantJobsPhoenixNoExperienceBlogSeeder extends Seeder
 <h3>Is a high school diploma enough?</h3>
 <p>It is the baseline, but you still need MA training to meet Arizona's rule.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Medical assistant jobs Phoenix no experience</h3>
-<p>Trainee and externship-to-hire roles after an accredited programme.</p>
-
-<h3>Entry level medical assistant Phoenix</h3>
-<p>Family practice, pediatrics and outpatient clinics.</p>
-
-<h3>Medical assistant salary Phoenix</h3>
-<p>$22.51 median an hour, May 2025.</p>
-
-<h3>Arizona medical assistant requirements</h3>
-<p>Supervision under A.R.S. 32-1456 and the Medical Board's training rule.</p>
-
-<h3>Medical assistant certification Arizona</h3>
-<p>Not required by law; CMA, RMA or CCMA preferred by employers.</p>
-
-<h3>Medical assistant trainee Phoenix</h3>
-<p>Search for "will train" and "paid training".</p>
-
-<h3>CMA RMA CCMA</h3>
-<p>The three main national MA credentials.</p>
-
-<h3>Medical assistant jobs without certification Arizona</h3>
-<p>Mostly at smaller clinics that train on the job.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Complete an accredited MA programme, get certified, and apply to Phoenix clinics and health systems with a skills-first resume. Arizona sets what MAs may do and makes supervisors check your training, so training matters more than paid experience. This guide cannot promise a job or a wage.</p>

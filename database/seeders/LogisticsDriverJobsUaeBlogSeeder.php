@@ -358,32 +358,6 @@ JOBHTML;
 <h3>Who pays for my visa and recruitment as a driver?</h3>
 <p>The employer. The UAE Labour Law prohibits charging workers recruitment and employment fees and costs, and the UAE government portal says recruitment, travel and residency permit costs are borne by the employer.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Driver jobs in Dubai with visa</h3>
-<p>The employer obtains your work permit and residence; you should not pay for either.</p>
-
-<h3>Dubai driving licence exchange list</h3>
-<p>The RTA list includes the UK and the US but not Pakistan, India or the Philippines.</p>
-
-<h3>Heavy truck driver jobs UAE</h3>
-<p>A heavy vehicle licence from age 20, with truck ban hours on Dubai and Abu Dhabi roads.</p>
-
-<h3>RTA licence exchange fees</h3>
-<p>AED 1,010 to 1,050 in total, depending on the eye test.</p>
-
-<h3>Delivery rider jobs Dubai requirements</h3>
-<p>A UAE licence, Dubai Police good conduct certificate, driver residence, age 21 to 55 and RTA training.</p>
-
-<h3>Can I drive in UAE with an international driving permit</h3>
-<p>Only on a visit visa, and only light vehicles and motorcycles.</p>
-
-<h3>Minimum salary for drivers in UAE</h3>
-<p>There is no statutory minimum wage for expatriate workers in the UAE.</p>
-
-<h3>Truck ban timings Dubai</h3>
-<p>Sheikh Zayed Road bans trucks from 6:00 AM to 10:00 PM, with set peak-hour bans elsewhere.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing driving routes and other Gulf jobs? These cover them:</p>

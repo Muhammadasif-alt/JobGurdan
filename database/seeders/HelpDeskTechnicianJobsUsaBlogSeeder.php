@@ -284,32 +284,6 @@ JOBHTML;
 <h3>What is the passing score for CompTIA A+?</h3>
 <p>675 for Core 1 and 700 for Core 2, on a scale of 100 to 900.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Help desk salary per hour</h3>
-<p>A BLS median of $29.74 an hour for computer user support specialists in May 2025.</p>
-
-<h3>Entry level IT help desk jobs</h3>
-<p>Some college, or a high school diploma with certifications such as CompTIA A+, and no prior IT experience required by the BLS definition.</p>
-
-<h3>Desktop support technician salary</h3>
-<p>Measured with help desk staff as user support specialists: a median of $61,860.</p>
-
-<h3>Network support specialist salary</h3>
-<p>A BLS median of $76,220 in May 2025.</p>
-
-<h3>CompTIA A+ 220-1201</h3>
-<p>Core 1 of the V15 A+ exams, launched in March 2025, with a passing score of 675.</p>
-
-<h3>Will AI replace help desk jobs?</h3>
-<p>The BLS projects a 3% decline in user support jobs to 2035 and names automated tools such as chatbots as the reason.</p>
-
-<h3>Help desk jobs in Virginia</h3>
-<p>20,910 user support specialists with a mean wage of $70,650, 12th by employment.</p>
-
-<h3>DoD 8140 help desk certification</h3>
-<p>CompTIA lists A+ as approved for the technical support specialist work role under DoD 8140.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Planning the next step in IT? These cover it:</p>

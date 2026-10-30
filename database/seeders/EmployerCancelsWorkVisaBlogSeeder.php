@@ -170,32 +170,6 @@ class EmployerCancelsWorkVisaBlogSeeder extends Seeder
 <h3>Can an agent fix this for a fee?</h3>
 <p>No one can guarantee a visa transfer. Verify the lawful route first.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Employer cancels work visa</h3>
-<p>Check which event happened.</p>
-
-<h3>What to do if sponsor cancels visa</h3>
-<p>Check deadlines first.</p>
-
-<h3>Visa cancelled by employer</h3>
-<p>Ask for it in writing.</p>
-
-<h3>Work visa problems abroad</h3>
-<p>Keep records.</p>
-
-<h3>UK sponsor licence revoked 60 days</h3>
-<p>Licence loss rule.</p>
-
-<h3>Singapore Employment Pass cancelled</h3>
-<p>Up to 90 days visit pass.</p>
-
-<h3>Lose job on work permit Canada</h3>
-<p>Stop working for that employer.</p>
-
-<h3>Change of employer visa</h3>
-<p>Needs an update or new approval.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

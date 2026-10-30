@@ -27,7 +27,7 @@ it('renders with its long-tail sections and the search link', function () {
     $this->get('/blog/'.MARKET_BLOG_SLUG)
         ->assertOk()
         ->assertSee('Web Developer Jobs in USA: 2026 Market Overview')
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('https://jobgader.com/categories/it-software?location=United%20States', false);
 });
 

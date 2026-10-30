@@ -166,32 +166,6 @@ class SendMoneyHomeWorkingAbroadBlogSeeder extends Seeder
 <h3>Do I lose money on the exchange rate?</h3>
 <p>Possibly. A provider can earn through the rate as well as the fee, so compare the final amount received.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>How to send money home from abroad</h3>
-<p>Compare the amount received.</p>
-
-<h3>Best remittance apps</h3>
-<p>Depends on your route.</p>
-
-<h3>Cheapest way to send money overseas</h3>
-<p>Compare live quotes.</p>
-
-<h3>Transfer money abroad to family</h3>
-<p>Check payout options.</p>
-
-<h3>Send money to Pakistan</h3>
-<p>Use banks or licensed providers.</p>
-
-<h3>Remittance exchange rate</h3>
-<p>The rate matters as much as the fee.</p>
-
-<h3>Remittance scams</h3>
-<p>Never share one-time codes.</p>
-
-<h3>Overseas workers remittance</h3>
-<p>Keep receipts and references.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

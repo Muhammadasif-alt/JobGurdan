@@ -203,32 +203,6 @@ class EpflAiCenterFellowshipSeeder extends Seeder
 <h3>What language must the application be in?</h3>
 <p>English. All documents must be submitted in English.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>EPFL postdoc fellowship deadline</h3>
-<p>9 November 2026 at 17:00 CET for the third call.</p>
-
-<h3>Swiss AI Initiative funding</h3>
-<p>Supports this fellowship programme alongside the EPFL AI Center.</p>
-
-<h3>EPFL AI Center faculty</h3>
-<p>The affiliated professors from whom your two hosts must come.</p>
-
-<h3>Postdoc salary Switzerland</h3>
-<p>Set by EPFL's own salary scales, with EPFL human resources rules applying.</p>
-
-<h3>AI postdoc fellowships Europe</h3>
-<p>Most, like this one, expect a host laboratory to be arranged before you apply.</p>
-
-<h3>EPFL postdoc eligibility PhD two years</h3>
-<p>The PhD must be no more than two years old at the submission deadline.</p>
-
-<h3>Fellowship vs scholarship difference</h3>
-<p>A fellowship at this level is a funded research post with a salary, not tuition support.</p>
-
-<h3>CHF 5000 research budget EPFL</h3>
-<p>The annual ceiling for research, open access, travel and conference costs.</p>
-
 <h2>Contact and Official Links</h2>
 <ul>
 <li><a href="{$applyUrl}" target="_blank" rel="noopener">Official call page: EPFL AI Center and Swiss AI Initiative Postdoctoral Fellowships</a></li>

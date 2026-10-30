@@ -310,32 +310,6 @@ JOBHTML;
 <h3>How long does it take to start working?</h3>
 <p>A trade school programme takes six months to two years. An apprenticeship lets you earn from the first day, but full competence in industrial refrigeration takes several years.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Refrigeration technician salary</h3>
-<p>$66,150 median in warehousing and storage, May 2025.</p>
-
-<h3>EPA 608 Universal</h3>
-<p>Covers all equipment types and never expires.</p>
-
-<h3>RETA CARO vs CIRO</h3>
-<p>Assistant operator and industrial operator credentials for ammonia plants.</p>
-
-<h3>Ammonia refrigeration technician</h3>
-<p>High-hazard plant work under OSHA Process Safety Management.</p>
-
-<h3>HVAC/R apprenticeship</h3>
-<p>Usually three to five years of paid work and classroom hours.</p>
-
-<h3>Texas HVAC license requirements</h3>
-<p>TDLR registration for technicians; 48 months' experience for a contractor licence.</p>
-
-<h3>Commercial refrigeration technician</h3>
-<p>Supermarket racks, display cases and walk-in coolers and freezers.</p>
-
-<h3>NATE certification</h3>
-<p>A voluntary credential widely recognised by HVAC/R employers.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the HVAC/R cluster and related trades:</p>

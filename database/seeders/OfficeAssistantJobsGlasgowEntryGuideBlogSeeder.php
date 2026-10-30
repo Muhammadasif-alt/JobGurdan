@@ -151,32 +151,6 @@ class OfficeAssistantJobsGlasgowEntryGuideBlogSeeder extends Seeder
 <h3>Where do Glasgow council jobs appear?</h3>
 <p>On myjobscotland, the recruitment site used by Scotland's councils. Search the Glasgow City Council listings and check each closing date.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Office assistant jobs in Glasgow</h3>
-<p>Search council, university and employer pages under several titles.</p>
-
-<h3>Entry level admin jobs Glasgow</h3>
-<p>Separate essential from desirable criteria before applying.</p>
-
-<h3>Clerical assistant jobs Glasgow</h3>
-<p>The council's clerical officer advert asked for accuracy, numbers and deadlines.</p>
-
-<h3>Office junior jobs Scotland</h3>
-<p>A trainee title does not guarantee structured training; ask.</p>
-
-<h3>Business administration apprenticeship Glasgow</h3>
-<p>A Modern Apprenticeship: paid work plus a qualification.</p>
-
-<h3>Glasgow City Council clerical officer</h3>
-<p>The GLA15880 advert closed on 4 September 2026; check current listings.</p>
-
-<h3>myjobscotland Glasgow jobs</h3>
-<p>The councils' recruitment site, with closing dates on every advert.</p>
-
-<h3>Admin assistant salary Scotland</h3>
-<p>UK-wide £21,000 starter to £28,000 experienced, per the National Careers Service.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Target Glasgow office assistant roles that match your qualifications and evidence, build practical computer skills, tailor each application to the person specification and confirm the duties, hours, pay and training before you accept. This guide cannot promise work, income or an interview.</p>

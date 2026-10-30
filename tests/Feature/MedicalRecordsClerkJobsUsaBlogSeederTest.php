@@ -48,7 +48,7 @@ it('renders with its long-tail sections', function () {
     $this->get('/blog/'.RECORDS_SLUG)
         ->assertOk()
         ->assertSee('Medical Records Clerk Jobs in USA')
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('ahima.org/certification-careers');
 });
 

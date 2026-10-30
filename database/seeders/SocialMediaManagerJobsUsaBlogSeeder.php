@@ -262,32 +262,6 @@ JOBHTML;
 <h3>Who should own the client's social accounts?</h3>
 <p>The client, always, including the login credentials and any business manager assets. Agree it before you start; withholding account access is the fastest way to end a freelance career.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Remote social media jobs</h3>
-<p>The norm rather than the exception, since the work happens inside browser-based platforms. Confirm overlap hours and whether pay is indexed to your location.</p>
-
-<h3>Freelance social media manager jobs USA</h3>
-<p>Usually two to five clients on monthly retainers of roughly $500 to $2,000 each. It is self-employment: budget 15.3% self-employment tax and quarterly estimates.</p>
-
-<h3>Social media specialist jobs</h3>
-<p>A narrower remit than a manager role, often paid ads, analytics or content specifically. A common and sensible first title.</p>
-
-<h3>Social media manager jobs remote no experience</h3>
-<p>They exist. One documented account you grew, with the reasoning attached, is what gets you shortlisted.</p>
-
-<h3>Social media manager salary</h3>
-<p>Around $65,000 on average, with paid-budget responsibility the biggest single factor separating the bands.</p>
-
-<h3>Community manager jobs</h3>
-<p>The engagement half of the role as a standalone position, common at larger brands and in gaming and SaaS.</p>
-
-<h3>Social media jobs LinkedIn</h3>
-<p>Where most in-house and agency roles are posted, and where marketing hiring genuinely runs through networks. Keep quantified results on your profile.</p>
-
-<h3>Social media manager portfolio examples</h3>
-<p>Before-and-after account metrics with a short explanation of what you changed. Screenshots plus reasoning, not a gallery of posts.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking across the rest of the marketing and creative market? These cover it:</p>

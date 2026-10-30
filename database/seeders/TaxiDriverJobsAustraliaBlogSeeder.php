@@ -307,17 +307,6 @@ JOBHTML;
 <h3>What extra training do I need for a wheelchair accessible taxi?</h3>
 <p>It varies. Victoria issues a formal WAV endorsement on the accreditation after a theory and practical assessment. Queensland requires mandatory training before an operator may engage you. New South Wales has no endorsement but requires you to be assessed as competent and to remain so.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li><strong>Taxi driver requirements NSW</strong>: an unrestricted licence held 12 months in four years, commercial medical standards, and on-boarding by an authorised service provider</li>
-    <li><strong>How to get a driver authorisation in Queensland</strong>: three years of licence history including one continuous year, plus a criminal history check through Transport and Main Roads</li>
-    <li><strong>PTD authorisation WA cost</strong>: &#36;98.00 to apply and &#36;99.00 a year from 1 July 2026</li>
-    <li><strong>Taxi bailment agreement Australia</strong>: a commercial contract, not employment; check your fare share and vehicle costs before signing</li>
-    <li><strong>Is taxi driver on the skilled occupation list Australia</strong>: no, it does not appear on the Core Skills Occupation List</li>
-    <li><strong>Taxi vs rideshare driver Australia</strong>: OSCA 2024 finally counts them separately, as 711134 and 711133</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

@@ -344,32 +344,6 @@ JOBHTML;
 <h3>Do freelancers need to register with PSEB?</h3>
 <p>It is not required to freelance, but it is what qualifies IT and IT-enabled services export income for the 0.25 per cent rate instead of 1 per cent. PSEB states that registered exporters pay 0.25 per cent against 1 per cent for those not registered.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Fiverr fees for sellers</h3>
-<p>20 per cent of the order amount, calculated on the discounted price where you offer a discount.</p>
-
-<h3>Upwork freelancer service fee</h3>
-<p>0 to 15 per cent per contract, shown before you accept and fixed once the contract begins.</p>
-
-<h3>PayPal in Pakistan</h3>
-<p>Not available to Pakistani accounts. Use Payoneer or direct bank remittance into an account in your own name.</p>
-
-<h3>Freelancer bank account in Pakistan</h3>
-<p>Opened digitally or in a branch under the State Bank's 2023 framework, with a foreign currency account alongside it.</p>
-
-<h3>PSEB registration for freelancers</h3>
-<p>The registration that qualifies IT and IT-enabled services export income for 0.25 per cent tax instead of 1 per cent.</p>
-
-<h3>Tax on freelance income in Pakistan</h3>
-<p>Section 154A on IT and IT-enabled export proceeds, with the rate doubled for anyone not on the Active Taxpayers' List.</p>
-
-<h3>Online earning in Pakistan without investment</h3>
-<p>Nothing genuine charges you to start, but platform fees still come out of every order.</p>
-
-<h3>Online task job scams in Pakistan</h3>
-<p>Paid tasks that later require a deposit to unlock commission or withdraw earnings. Never pay to receive work.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Choosing the work, not just the payment route? These cover it:</p>

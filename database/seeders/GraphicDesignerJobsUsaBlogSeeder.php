@@ -293,32 +293,6 @@ JOBHTML;
 <h3>Can I use AI images in client work?</h3>
 <p>Carefully, and transparently. The US Copyright Office requires human authorship for copyright protection, so wholly AI-generated output is not copyrightable, and registering a work with more than a de minimis amount of AI material means disclosing it and disclaiming those parts. Clients buying a logo or brand system usually assume they can own and register it, so tell them what went into the file.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Entry level graphic design jobs USA</h3>
-<p>Most commonly with in-house marketing teams, small agencies and e-commerce brands, starting around $40,000 to $45,000 against a national median of $62,960.</p>
-
-<h3>Remote graphic designer jobs</h3>
-<p>Widely available because the deliverable is a file. Check whether the employer indexes salary to your location before you get attached to a number.</p>
-
-<h3>Freelance graphic designer USA</h3>
-<p>About 20 per cent of graphic designers are self-employed. Price for self-employment tax, software and platform fees rather than against a salary figure.</p>
-
-<h3>Junior graphic designer salary</h3>
-<p>Roughly $40,000 to $52,000 to start, at the lower end of the BLS distribution, rising quickly with one to two years of employer or client work behind you.</p>
-
-<h3>Graphic design jobs near me</h3>
-<p>Agencies, in-house marketing departments, print and packaging firms, and e-commerce brands. Major metros pay 15 to 25 per cent more and cost more to live in.</p>
-
-<h3>UI UX designer jobs USA</h3>
-<p>A separate BLS occupation, projected to grow 5 per cent to 2035 at a $92,650 median: the adjacent field graphic designers most often move into.</p>
-
-<h3>Graphic designer jobs remote worldwide</h3>
-<p>US companies do hire internationally, but pay structures vary between flat global rates and location-adjusted ones. Clarify which applies during the interview.</p>
-
-<h3>Is graphic design being replaced by AI?</h3>
-<p>Commodity asset production is under real pressure. Brand thinking, art direction and accountability for what is delivered are not, and wholly AI-generated work cannot be copyrighted in the US.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking across the rest of the remote and creative market? These cover it:</p>

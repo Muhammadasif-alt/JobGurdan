@@ -24,7 +24,7 @@ use Illuminate\Database\Seeder;
  *    off-premise beer and wine (BQ) or retail dealer (BF) permits, 16 for wine-only package stores, 18 on-premises; no
  *    minimum age for seller/server training. Comptroller: employees under 21 may sell tobacco where their duties need
  *    it; the federal purchase age is 21 with no exceptions; retailers must get a signed employee notification form.
- * 4. FAQs expanded to eight; eight People Also Search For entries and a note for readers in Pakistan added.
+ * 4. FAQs expanded to eight and a note for readers in Pakistan added.
  *
  * Posters are the owner's (blog-355, 29 Oct 10.36 and 10.41 PM). The portal listing is in GuideJobListingsSeeder.
  * updateOrCreate, so re-running is safe.
@@ -148,32 +148,6 @@ class GasStationJobsHoustonHiringAgeRequirementsBlogSeeder extends Seeder
 
 <h3>Are manager jobs open to beginners?</h3>
 <p>Rarely; they usually need retail or supervisory experience.</p>
-
-<h2>People Also Search For</h2>
-
-<h3>Gas station jobs in Houston TX</h3>
-<p>Cashier, clerk and crew roles at convenience stores.</p>
-
-<h3>Gas station cashier jobs in Houston TX</h3>
-<p>Payments, stocking, cleaning and ID checks.</p>
-
-<h3>Entry level gas station jobs in Houston TX</h3>
-<p>Many chains train beginners.</p>
-
-<h3>Gas station jobs with no experience in Houston TX</h3>
-<p>Look for adverts where experience is desired, not required.</p>
-
-<h3>Convenience store jobs in Houston TX</h3>
-<p>Search store clerk and crew member too.</p>
-
-<h3>How old to work at a gas station in Texas</h3>
-<p>Set by the employer, often 16 or 18.</p>
-
-<h3>QuikTrip jobs Houston</h3>
-<p>Store clerks from age 16.</p>
-
-<h3>TABC certification</h3>
-<p>No minimum age to take the course.</p>
 
 <h2>Bottom Line</h2>
 

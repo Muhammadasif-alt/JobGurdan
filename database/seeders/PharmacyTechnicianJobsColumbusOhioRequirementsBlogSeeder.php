@@ -25,7 +25,7 @@ use Illuminate\Database\Seeder;
  *    $22.00 an hour.
  * 4. Columbus State fetched: two semesters, 26 to 32 weeks full time, autumn or spring starts, a 140-hour externship
  *    required for ASHP accreditation. PTCB fetched: CPhT application and PTCE cost $129.
- * 5. FAQs expanded to eight; eight People Also Search For entries and a note for readers in Pakistan added.
+ * 5. FAQs expanded to eight and a note for readers in Pakistan added.
  *
  * No Columbus poster was supplied; the featured image was generated in the house style. The portal listing is in
  * GuideJobListingsSeeder. updateOrCreate, so re-running is safe.
@@ -183,32 +183,6 @@ class PharmacyTechnicianJobsColumbusOhioRequirementsBlogSeeder extends Seeder
 
 <h3>Can I work part time?</h3>
 <p>Yes. Part-time roles are common in retail and community pharmacies.</p>
-
-<h2>People Also Search For</h2>
-
-<h3>Pharmacy technician jobs Columbus Ohio</h3>
-<p>Retail, hospital and trainee roles, all needing Board registration.</p>
-
-<h3>Ohio pharmacy technician requirements</h3>
-<p>Age 18, diploma or GED, background checks and active registration.</p>
-
-<h3>Pharmacy technician trainee Ohio</h3>
-<p>Valid 18 months; train, then register or certify.</p>
-
-<h3>Pharmacy technician salary Columbus</h3>
-<p>$21.75 median an hour, May 2025.</p>
-
-<h3>Ohio Board of Pharmacy technician registration</h3>
-<p>Through eLicense Ohio.</p>
-
-<h3>PTCB certification Ohio</h3>
-<p>$129 to apply and sit the PTCE.</p>
-
-<h3>Pharmacy technician jobs no certification Ohio</h3>
-<p>Trainee and registered roles, mostly in retail.</p>
-
-<h3>Columbus State pharmacy technician</h3>
-<p>Two semesters with an ASHP-required externship.</p>
 
 <h2>Bottom Line</h2>
 

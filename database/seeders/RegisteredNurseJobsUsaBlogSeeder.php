@@ -311,32 +311,6 @@ JOBHTML;
 <h3>How many hours do I need for the CCRN?</h3>
 <p>1,750 hours of direct care of acutely or critically ill adults in the previous two years, with 875 in the most recent year, or 2,000 hours over five years with 144 in the most recent year.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>RN salary by state 2026</h3>
-<p>California leads with a mean of $150,280, followed by Hawaii, Oregon, Washington and Massachusetts.</p>
-
-<h3>Nurse Licensure Compact states</h3>
-<p>43 jurisdictions, not including California, New York, Illinois, Oregon or Hawaii.</p>
-
-<h3>New grad RN salary</h3>
-<p>The BLS does not measure pay by experience; the lowest-paid tenth of RNs earned under $68,940 in May 2025.</p>
-
-<h3>Highest paying nursing settings</h3>
-<p>Government, with a median of $110,780, then hospitals at $100,220.</p>
-
-<h3>NCLEX international testing locations</h3>
-<p>Including India, Pakistan, the Philippines, Kenya and the United Kingdom.</p>
-
-<h3>Travel nurse tax home rules</h3>
-<p>Your tax home is generally your regular place of business; without one, you cannot deduct travel expenses.</p>
-
-<h3>Nursing shortage projections</h3>
-<p>HRSA projects an 8% RN shortage in 2028, easing to 3% by 2038, and 11% in rural areas.</p>
-
-<h3>CEN certification requirements</h3>
-<p>No required experience; BCEN recommends two years in emergency nursing.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing nursing and healthcare careers in different countries? These cover them:</p>

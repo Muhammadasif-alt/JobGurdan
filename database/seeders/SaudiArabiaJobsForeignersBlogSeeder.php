@@ -424,32 +424,6 @@ JOBHTML;
 <h3>What happens to my end-of-service pay if I resign?</h3>
 <p>Article 85 scales it by service: nothing under two years, a third of the award at two to five years, two thirds at five to ten years, and the full award at ten years or more. Check your years before you hand in notice.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Saudi work visa requirements</h3>
-<p>An employer quota, a documented contract, professional verification where applicable, and a medical before the visa.</p>
-
-<h3>Saudi Arabia average salary for expats</h3>
-<p>No official occupational wage survey exists for expatriate workers, so the published averages come from job boards.</p>
-
-<h3>Nitaqat bands explained</h3>
-<p>Platinum, High Green, Mid Green, Low Green and Red, with the band controlling a firm's foreign visa quota.</p>
-
-<h3>VAT rate in Saudi Arabia</h3>
-<p>15% standard rate since 1 July 2020, not the 5% still quoted in older guides.</p>
-
-<h3>Saudi Arabia dependent fee</h3>
-<p>A monthly charge per dependent on your Iqama, paid in advance when the dependent's Iqama is issued or renewed.</p>
-
-<h3>Iqama transfer without employer consent</h3>
-<p>Allowed at contract expiry under the 2021 reforms; during the contract a notice period and set procedures apply.</p>
-
-<h3>Saudi labour law end of service benefit</h3>
-<p>Half a month's wage per year for the first five years, then a full month's wage for each further year.</p>
-
-<h3>Premium residency Saudi Arabia cost</h3>
-<p>Applied for at pr.gov.sa, with separate products for talent, investors, entrepreneurs and property owners.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Going for a specific role in Saudi Arabia? These cover them:</p>

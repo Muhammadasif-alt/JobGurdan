@@ -150,32 +150,6 @@ class LivingWorkingAbroad2026MinimumWageCostOfLivingBlogSeeder extends Seeder
 <h3>Does the UAE have a minimum wage?</h3>
 <p>No statutory figure. The UAE Labour Law stipulates no minimum salary, so the written package is everything.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Living and working abroad in 2026</h3>
-<p>Check the visa route first, then the wage, then the city's costs.</p>
-
-<h3>Minimum wage by country 2026</h3>
-<p>UK £12.71, Germany €13.90, Ontario $17.95, Australia $26.44, US federal $7.25, UAE none.</p>
-
-<h3>Cost of living abroad</h3>
-<p>Build a budget from local quotes for your household, not a national average.</p>
-
-<h3>Pros and cons of working abroad</h3>
-<p>Income and skills against distance, language and the cost of moving.</p>
-
-<h3>UK minimum wage 2026</h3>
-<p>£12.71 an hour for workers aged 21 and over from 1 April 2026.</p>
-
-<h3>Germany minimum wage 2026</h3>
-<p>€13.90 gross an hour, rising to €14.60 in January 2027.</p>
-
-<h3>Australia minimum wage 2026</h3>
-<p>$26.44 an hour or $1,004.90 a week from 1 July 2026 for award-free employees.</p>
-
-<h3>Ontario minimum wage 2026</h3>
-<p>$17.95 general rate from 1 October 2026 to 30 September 2027.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Compare legal eligibility, guaranteed take-home pay, local expenses and your own priorities together. The strongest offer is the one whose verified terms support your financial goals and daily life, not the country with the highest headline wage. This guide cannot promise a vacancy, an income or a visa.</p>

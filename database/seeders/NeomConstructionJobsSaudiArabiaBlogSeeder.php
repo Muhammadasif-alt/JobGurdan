@@ -335,32 +335,6 @@ JOBHTML;
 <h3>Can Pakistani and Indian engineers apply to NEOM?</h3>
 <p>NEOM says it employs people from more than 100 countries, so nationality is not a stated barrier. The barrier right now is that there is nothing open to apply for, plus the requirement that you be able to obtain a Saudi work visa.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>NEOM careers login</h3>
-<p>The portal at careers.neom.com/careers, built on the Eightfold platform. You can create a profile and join the talent network even while no vacancies are listed.</p>
-
-<h3>NEOM salary for engineers</h3>
-<p>NEOM publishes none. Every figure circulating online comes from a salary-estimate site, not from NEOM or from a live NEOM advert.</p>
-
-<h3>Oxagon jobs</h3>
-<p>Oxagon is NEOM's industrial city on the Red Sea coast and the only part still drawing major new investment, led by port and data-centre construction.</p>
-
-<h3>NEOM The Line latest news 2026</h3>
-<p>Reporting in May 2026 said further work on The Line was delayed until at least after 2030. NEOM has not confirmed this publicly.</p>
-
-<h3>NEOM contractors list</h3>
-<p>Major international engineering and construction firms hold NEOM packages and hire their own site teams. Applying to them is applying to them, not to NEOM.</p>
-
-<h3>NEOM job scam</h3>
-<p>NEOM states its recruiters will never ask for bank payments or fees at any stage. With an empty job board, any paid NEOM job offer right now is fraudulent.</p>
-
-<h3>Saudi Arabia work visa for engineers</h3>
-<p>Article 33 of the Saudi Labour Law requires a work permit issued to the establishment. A worker cannot apply for his own Saudi work permit.</p>
-
-<h3>NEOM CEO</h3>
-<p>Eng. Aiman Al-Mudaifer, appointed Managing Director and Chief Executive Officer on 11 May 2025, having been Acting CEO since November 2024.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Saudi Arabia has employers that are actually hiring right now. These cover them:</p>

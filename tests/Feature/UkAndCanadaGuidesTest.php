@@ -39,16 +39,15 @@ it('seeds a published guide within the SEO limits', function (string $seeder) {
         ->and($blog->featured_image)->toStartWith('blogs/');
 })->with('guides');
 
-it('has eight FAQs and eight People Also Search For entries', function (string $seeder) {
+it('has eight FAQs and no People Also Search For block', function (string $seeder) {
     $this->seed($seeder);
 
     $content = Blog::where('slug', guideSlug($seeder))->firstOrFail()->content;
-    [$before, $pasf] = explode('<h2>People Also Search For</h2>', $content);
-    [, $faq] = explode('<h2>Frequently Asked Questions</h2>', $before);
-    [$pasfBlock] = explode('<h2>More Job Guides</h2>', $pasf);
+    [, $faq] = explode('<h2>Frequently Asked Questions</h2>', $content);
+    [$faq] = explode('<h2>', $faq);
 
     expect(substr_count($faq, '<h3>'))->toBe(8)
-        ->and(substr_count($pasfBlock, '<h3>'))->toBe(8);
+        ->and($content)->not->toContain('People Also Search For');
 })->with('guides');
 
 it('links only to JobGader pages and carries no apply buttons', function (string $seeder) {

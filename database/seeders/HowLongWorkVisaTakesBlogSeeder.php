@@ -172,32 +172,6 @@ class HowLongWorkVisaTakesBlogSeeder extends Seeder
 <h3>Should I resign before approval?</h3>
 <p>Not until you know the decision and the entry rules, because the commitment is hard to undo.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>How long does work visa take</h3>
-<p>Weeks to months.</p>
-
-<h3>Work visa processing time</h3>
-<p>Check the official page.</p>
-
-<h3>How many days for work visa approval</h3>
-<p>No universal figure.</p>
-
-<h3>Visa timeline 2026</h3>
-<p>Plan for extra requests.</p>
-
-<h3>UK Skilled Worker decision time</h3>
-<p>Usually 3 weeks after documents.</p>
-
-<h3>New Zealand AEWV processing</h3>
-<p>80% within 5 weeks.</p>
-
-<h3>Singapore Employment Pass processing</h3>
-<p>10 business days to an update.</p>
-
-<h3>Work visa delays</h3>
-<p>Evidence and appointments.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

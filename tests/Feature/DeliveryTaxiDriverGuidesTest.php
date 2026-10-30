@@ -41,16 +41,14 @@ it('publishes each guide with its own images and SEO fields', function (string $
     }
 })->with('driver guides');
 
-it('carries exactly eight FAQs and eight People Also Search For entries', function (string $seeder, string $slug) {
+it('carries exactly eight FAQs and no People Also Search For block', function (string $seeder, string $slug) {
     $this->seed($seeder);
     $content = Blog::where('slug', $slug)->value('content');
 
     expect(app(StructuredDataService::class)->faqsFromHtml($content))->toHaveCount(8);
 
-    $pasf = substr($content, (int) strpos($content, 'People Also Search For'));
-    $pasf = substr($pasf, 0, (int) strpos($pasf, '<h2>More Job Guides'));
 
-    expect(substr_count($pasf, '<h3>'))->toBe(8);
+    expect(substr_count($content, 'People Also Search For'))->toBe(0);
 })->with('driver guides');
 
 it('links only internally and drops the brief artifacts', function (string $seeder, string $slug) {
@@ -73,7 +71,7 @@ it('renders each guide', function (string $seeder, string $slug) {
 
     get('/blog/'.$slug)
         ->assertOk()
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('"FAQPage"', false);
 })->with('driver guides');
 

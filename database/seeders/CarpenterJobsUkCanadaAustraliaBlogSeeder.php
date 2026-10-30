@@ -363,32 +363,6 @@ JOBHTML;
 <h3>Which country is easiest for a foreign carpenter?</h3>
 <p>Canada and Australia, because both still sponsor carpenters through employers. The UK currently does not for new applicants.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Carpenter visa sponsorship UK</h3>
-<p>SOC 5316 is not on the Temporary Shortage List, so new sponsorship is closed for most applicants.</p>
-
-<h3>NOC 72310</h3>
-<p>Carpenters in Canada; C$32.12 national median on Job Bank.</p>
-
-<h3>ANZSCO 331212</h3>
-<p>Carpenter in Australia, assessed by Trades Recognition Australia.</p>
-
-<h3>Temporary Shortage List construction</h3>
-<p>Includes plumbers, painters and decorators, and floorers, but not carpenters.</p>
-
-<h3>Red Seal carpenter</h3>
-<p>The interprovincial certification for carpenters in Canada.</p>
-
-<h3>TRA skills assessment carpenter</h3>
-<p>Usually a technical interview and practical assessment.</p>
-
-<h3>Carpenter salary Alberta</h3>
-<p>C$34.00 an hour median on Job Bank.</p>
-
-<h3>Skills in Demand visa 482</h3>
-<p>Australia's employer-sponsored visa since December 2024.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related trades and markets:</p>

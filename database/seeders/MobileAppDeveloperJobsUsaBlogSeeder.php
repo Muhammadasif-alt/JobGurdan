@@ -297,32 +297,6 @@ JOBHTML;
 <h3>Is the $100,000 H-1B fee still in effect?</h3>
 <p>Not currently. A Massachusetts federal court vacated the implementing guidance on 8 June 2026 and the First Circuit denied a stay on 24 July 2026. The appeal is still live, and the proclamation's own twelve-month term runs out on 20 September 2026 unless extended. Verify the current position with USCIS before relying on it.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>iOS developer jobs USA</h3>
-<p>Swift and SwiftUI, and the best-reported averages of the three routes. Regulated categories mean longer App Store review, so build the schedule in.</p>
-
-<h3>Android developer jobs USA</h3>
-<p>Kotlin and Jetpack Compose. Reported averages run below iOS, but the spread is wide and the gap closes at senior level.</p>
-
-<h3>React Native developer jobs</h3>
-<p>Two pay bands under one title. Native module work, the New Architecture and Hermes are what move you into the higher one.</p>
-
-<h3>Remote mobile app developer jobs</h3>
-<p>Widely available. Clarify the required hours of overlap, whether salary is indexed to your location, and who pays for test devices.</p>
-
-<h3>Entry level mobile developer salary</h3>
-<p>Roughly $80,000 to $105,000, genuinely higher than the junior web band because the whole occupation's bottom decile sits at $82,460.</p>
-
-<h3>Mobile app developer vs web developer salary</h3>
-<p>$135,980 against $92,650 at the median, and $82,460 against $48,100 at the tenth percentile. The floor is the more decision-relevant number.</p>
-
-<h3>Flutter developer jobs USA</h3>
-<p>A smaller share of US postings than React Native, concentrated in agencies and in teams that adopted it early. The same native-depth rule applies.</p>
-
-<h3>Mobile developer H1B sponsorship</h3>
-<p>Capped at 65,000 plus 20,000 for US advanced degree holders, allocated by lottery, with FY2027 caps already reached. Check current USCIS guidance on the contested $100,000 payment.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking across the rest of the US development market? These cover it:</p>

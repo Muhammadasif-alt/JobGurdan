@@ -275,32 +275,6 @@ class AdjunctLecturerJobsUkBlogSeeder extends Seeder
 <h3>How do I get onto a university teaching pool?</h3>
 <p>Write directly to the programme leader for the modules you could teach, name those modules by title and code, and ask explicitly to be added to the department's register of approved hourly-paid staff. Most of this work is never advertised, so joining the pool matters more than watching vacancy pages.</p>
 
-<h2 id="people-also-search-for">People Also Search For</h2>
-
-<h3>Hourly paid lecturer rates UK</h3>
-<p>Published by some universities on their own HR pages, usually as a comprehensive rate covering teaching plus preparation and marking.</p>
-
-<h3>Associate lecturer meaning</h3>
-<p>A part-time, teaching-focused academic role, often on a contract with a set allocation of teaching rather than purely casual hours.</p>
-
-<h3>Comprehensive rate teaching hour</h3>
-<p>The bundled rate paid per scheduled teaching hour, typically 2.5 times the basic hourly rate following the 2004 JNCHES convention.</p>
-
-<h3>UCU casualisation report</h3>
-<p>The union's June 2019 survey of 1,568 part-time teaching staff, which found a median of 50 per cent of their work going unpaid.</p>
-
-<h3>AFHEA application requirements</h3>
-<p>Evidence against the three Descriptor 1 criteria of the PSF 2023, covering Professional Values, Core Knowledge and at least two of the five Areas of Activity.</p>
-
-<h3>SOC code 2311 going rate</h3>
-<p>Higher education teaching professionals, with a full-time going rate of GBP 52,600 a year for Skilled Worker sponsorship purposes.</p>
-
-<h3>Sessional teaching contract UK</h3>
-<p>An engagement for a specific module or teaching block, usually without guaranteed hours beyond that block.</p>
-
-<h3>Fractional contract university</h3>
-<p>A permanent part-time academic contract expressed as a fraction of full time, and the usual destination for people moving off hourly-paid work.</p>
-
 <h2 id="more-guides">More Job Guides</h2>
 
 <ul>

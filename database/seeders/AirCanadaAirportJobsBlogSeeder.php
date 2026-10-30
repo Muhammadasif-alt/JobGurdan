@@ -334,32 +334,6 @@ JOBHTML;
 <h3>How do I know an Air Canada job offer is real?</h3>
 <p>Air Canada advertises only on its own careers portal, LinkedIn and Indeed. It never asks for payment, and never asks for passports or licences through social media. Anything else is a scam.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Air Canada careers login</h3>
-<p>careers.aircanada.com/ca/en. The applicant system moved off Taleo, so old bookmarks and links in older articles no longer work.</p>
-
-<h3>Ramp agent salary Canada</h3>
-<p>Air Canada publishes $23.36 an hour to start and up to $38.15 after eight years of continuous service, under its IAMAW collective agreement.</p>
-
-<h3>Transport Canada security clearance application</h3>
-<p>Must be initiated by the employer, requires five years of verifiable work, study and residency, and is checked with IRCC, the RCMP and CSIS.</p>
-
-<h3>Restricted Area Identity Card requirements</h3>
-<p>The clearance is a prerequisite for the card, and only people who need restricted-area access for their job may apply.</p>
-
-<h3>Air Canada flight attendant hiring</h3>
-<p>A separate category from airport operations, based in Vancouver and Toronto, with a criminal background check for the Transport Canada clearance.</p>
-
-<h3>Air Canada job scam</h3>
-<p>Air Canada advertises only on its careers portal, LinkedIn and Indeed, never requests payment, and directs victims to the Canadian Anti-Fraud Centre on 1-888-495-8501.</p>
-
-<h3>Canada work permit for airport jobs</h3>
-<p>Most foreign nationals need a work permit, and an employer-specific permit needs a job offer. Air Canada does not provide one for airport roles.</p>
-
-<h3>Air Canada employee travel benefits</h3>
-<p>Air Canada lists travel privileges with itself and partner airlines, plus a share ownership plan with a 33.33 per cent company match for eligible employees.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If you are working on the Canadian route rather than this one employer, start here:</p>

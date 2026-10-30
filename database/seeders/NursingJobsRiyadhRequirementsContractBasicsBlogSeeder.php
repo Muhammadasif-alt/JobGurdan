@@ -144,32 +144,6 @@ class NursingJobsRiyadhRequirementsContractBasicsBlogSeeder extends Seeder
 <h3>How long can probation last?</h3>
 <p>Up to 180 days under the amended Labour Law, and it must be written in the contract.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Nursing jobs in Riyadh Saudi Arabia</h3>
-<p>Posts at government and private hospitals, all needing SCFHS registration.</p>
-
-<h3>Saudi nursing requirements</h3>
-<p>Classification, verification, an exam where required and registration.</p>
-
-<h3>SCFHS nurse registration</h3>
-<p>Done after hiring, with an employment letter and residence permit.</p>
-
-<h3>Riyadh nurse contract</h3>
-<p>Fixed term, written, with probation of up to 180 days.</p>
-
-<h3>Overseas nurses Saudi Arabia</h3>
-<p>One year of experience minimum for non-Saudis.</p>
-
-<h3>SCFHS classification from Pakistan</h3>
-<p>Apply online through Mumaris Plus before you have a visa.</p>
-
-<h3>DataFlow verification SCFHS</h3>
-<p>15 to 25 working days for a complete file.</p>
-
-<h3>Nurse jobs Saudi Arabia for Pakistanis</h3>
-<p>Use verified hospitals and BEOE-licensed promoters only.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Start SCFHS classification early, get your documents verified, apply through verified hospital channels and read the full contract before you travel. Keep professional approval, the job and the visa separate, and guaranteed pay separate from optional benefits. This guide cannot promise a job, a licence or sponsorship.</p>

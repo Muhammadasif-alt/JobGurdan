@@ -217,32 +217,6 @@ class AdjunctFacultyVacanciesUkBlogSeeder extends Seeder
 <h3>Can I teach at a college and a university at the same time?</h3>
 <p>Yes, and many practitioners do. Check your primary employer's policy on outside work, which is the constraint that actually binds; the teaching contract's own exclusivity term usually does not.</p>
 
-<h2 id="people-also-search-for">People Also Search For</h2>
-
-<h3>University teaching pool register</h3>
-<p>The departmental list of approved hourly-paid staff from which most sessional teaching is allocated without advertising.</p>
-
-<h3>FE college part time lecturer jobs</h3>
-<p>Vocational and professional teaching posts at further education colleges, with no statutory qualification requirement in England.</p>
-
-<h3>Teach in FE without a PGCE</h3>
-<p>Legally possible in England since the 2012 Regulations, though many colleges still prefer a Level 5 Diploma in Education and Training or equivalent.</p>
-
-<h3>Open University associate lecturer</h3>
-<p>The best-known distance-teaching model in the UK, where tutors support student groups rather than deliver timetabled campus sessions.</p>
-
-<h3>Sessional tutor vacancies</h3>
-<p>Short engagements for a specific module or teaching block, usually allocated from a register rather than advertised.</p>
-
-<h3>Graduate teaching assistant UK</h3>
-<p>Teaching work undertaken by doctoral students within their own department, and the most common entry route into university teaching.</p>
-
-<h3>Professional education short courses teaching</h3>
-<p>CPD and executive programmes where current practice matters more than academic rank.</p>
-
-<h3>Academic job board UK</h3>
-<p>Where the larger advertised academic posts appear, though most hourly-paid teaching is filled before it would ever be listed.</p>
-
 <h2 id="more-guides">More Job Guides</h2>
 
 <ul>

@@ -180,32 +180,6 @@ class ResumeForJobAbroadBlogSeeder extends Seeder
 <h3>Should I send my passport with my CV?</h3>
 <p>No. Provide identity documents only through a verified process when they are requested.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Resume for job abroad</h3>
-<p>Clear, truthful and tailored to the vacancy.</p>
-
-<h3>International resume format</h3>
-<p>Reverse-chronological is a good start.</p>
-
-<h3>CV for overseas job</h3>
-<p>Follow the employer's instructions first.</p>
-
-<h3>How to write a CV for a foreign employer</h3>
-<p>Use the template above and your real facts.</p>
-
-<h3>Europass CV</h3>
-<p>An optional recognised European format.</p>
-
-<h3>Resume with no experience</h3>
-<p>Lead with skills, training and transferable work.</p>
-
-<h3>CV photo abroad</h3>
-<p>Depends on the destination and employer.</p>
-
-<h3>Resume writing service</h3>
-<p>See our resume writing page.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

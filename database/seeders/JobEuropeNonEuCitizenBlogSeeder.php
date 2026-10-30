@@ -152,32 +152,6 @@ class JobEuropeNonEuCitizenBlogSeeder extends Seeder
 <h3>Do I need my qualification recognised?</h3>
 <p>For regulated professions, yes. Check the destination's recognition rules.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Job in Europe non EU citizen</h3>
-<p>Choose a country first.</p>
-
-<h3>Work permit Europe for foreigners</h3>
-<p>National systems.</p>
-
-<h3>How to work in Europe</h3>
-<p>Employer, route, permit.</p>
-
-<h3>Europe work visa 2026</h3>
-<p>No single visa.</p>
-
-<h3>EU Blue Card</h3>
-<p>Qualified employment.</p>
-
-<h3>Germany Opportunity Card</h3>
-<p>Job search route.</p>
-
-<h3>Ireland employment permit</h3>
-<p>Critical Skills and General.</p>
-
-<h3>Netherlands highly skilled migrant</h3>
-<p>Recognised sponsor.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

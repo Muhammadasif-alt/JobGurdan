@@ -312,32 +312,6 @@ JOBHTML;
 <h3>Can I get a visa for a medical receptionist job?</h3>
 <p>No. The Skilled Worker threshold is &pound;41,700 or the going rate, and the occupation is below the skill level the route is built for.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>NHS Band 2 pay 2026/27</h3>
-<p>&pound;26,618 a year, &pound;13.61 an hour, a single flat rate with no step points.</p>
-
-<h3>NHS Band 3 pay 2026/27</h3>
-<p>&pound;27,106 rising to &pound;28,850 after two full years, or &pound;13.86 to &pound;14.75 an hour.</p>
-
-<h3>GP receptionist pay UK</h3>
-<p>Set by the practice, not by Agenda for Change. The legal floor is the National Living Wage of &pound;12.71.</p>
-
-<h3>Care navigator training</h3>
-<p>Delivered by the practice under the GP contract Directed Enhanced Service, and often what takes a post from Band 2 to Band 3.</p>
-
-<h3>EMIS Web vs SystmOne</h3>
-<p>The two main GP clinical record systems. A practice runs one; you will use it all day.</p>
-
-<h3>Docman NHS software</h3>
-<p>Document management for incoming clinical correspondence. It sits alongside the record system, not instead of it.</p>
-
-<h3>NHS Jobs application person specification</h3>
-<p>Applications are scored against it line by line, so answer it point by point rather than writing a general letter.</p>
-
-<h3>Medical receptionist visa sponsorship</h3>
-<p>Not available. The salary is far below the &pound;41,700 Skilled Worker threshold.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking across UK healthcare and admin work? These cover the neighbouring routes:</p>

@@ -405,32 +405,6 @@ JOBHTML;
 <h3>Where can I find legitimate law enforcement jobs?</h3>
 <p>Use official city, county, state and federal career sites, such as NYPD Recruit, FBI Jobs, DEA Careers and USAJOBS. Check that the web address is the agency's own before you apply.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Sheriff deputy jobs</h3>
-<p>County sheriff's offices hire deputies; the BLS counts them with police patrol officers.</p>
-
-<h3>Detective requirements</h3>
-<p>Detectives typically start as police officers and are promoted after experience.</p>
-
-<h3>Fish and game warden jobs</h3>
-<p>6,200 jobs, a $74,060 median and a projected 6% decline to 2035.</p>
-
-<h3>Transit police jobs</h3>
-<p>4,400 transit and railroad police jobs with a $90,230 median.</p>
-
-<h3>NYPD police officer salary</h3>
-<p>$60,884 to start and $126,410 in total salary after 5 1/2 years.</p>
-
-<h3>FBI special agent requirements</h3>
-<p>At least 23, a US citizen, a bachelor's degree and work experience.</p>
-
-<h3>DEA special agent age limit</h3>
-<p>21 to 36 at appointment, with exceptions for veterans and prior federal law enforcement.</p>
-
-<h3>Law enforcement jobs without a degree</h3>
-<p>Most police and sheriff's patrol jobs need only a high school diploma.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing public safety careers? These go deeper:</p>

@@ -167,32 +167,6 @@ class RetakeApprenticeshipAptitudeTestBlogSeeder extends Seeder
 <h3>Can I pay to retake sooner?</h3>
 <p>No. Never pay anyone to skip a waiting period; verify fees with the programme.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Retake apprenticeship aptitude test</h3>
-<p>Rules are local.</p>
-
-<h3>Apprenticeship test retake rules</h3>
-<p>Ask in writing.</p>
-
-<h3>Fail apprenticeship test</h3>
-<p>Check the next window.</p>
-
-<h3>NEIEP reapply</h3>
-<p>Next recruitment period.</p>
-
-<h3>Local 49 retest</h3>
-<p>Seven days, then six months.</p>
-
-<h3>UA Local 190 retake</h3>
-<p>Not allowed per its FAQ.</p>
-
-<h3>Apprenticeship test waiting period</h3>
-<p>Varies widely.</p>
-
-<h3>Reapply apprenticeship</h3>
-<p>Fresh application.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

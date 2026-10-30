@@ -326,32 +326,6 @@ JOBHTML;
 <h3>Does pdo.co.om list vacancies?</h3>
 <p>No. PDO's own careers page carries no vacancy list, no application instructions and no link to any recruitment portal. Use Kwader instead.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>PetroJobs Oman login</h3>
-<p>The account system moved with the platform. Registration is now at kwader.mem.gov.om/register, under the Ministry of Energy and Minerals.</p>
-
-<h3>Kwader Oman jobs</h3>
-<p>The current national oil and gas recruitment portal, covering PDO, OQ, bp Oman, Daleel Petroleum, Oxy Oman, CC Energy Development, ARA Petroleum, Oman LNG, Masar Petroleum and Tethys Oil.</p>
-
-<h3>PDO careers Oman</h3>
-<p>PDO's own site has a "Working at PDO" page but publishes no vacancies and links to no portal. Its adverts, when it posts them, appear on Kwader.</p>
-
-<h3>Omanisation rate PDO</h3>
-<p>92 per cent in 2025, described in PDO's Sustainability Report as a record, with 8,564 Omani and 701 non-Omani employees.</p>
-
-<h3>Oman oil and gas companies list</h3>
-<p>The operators on Kwader are PDO, OQ, bp Oman, Daleel Petroleum, Oxy Oman, CC Energy Development, ARA Petroleum, Oman LNG, Masar Petroleum and Tethys Oil.</p>
-
-<h3>PDO Shababuna programme 2026</h3>
-<p>A real PDO graduate scheme for Omani nationals, but its published entry rules cannot currently be verified from any live official PDO or Kwader page.</p>
-
-<h3>Oman work visa requirements</h3>
-<p>Employer applies, minimum age 21, occupation must match the labour permit, an extra ministry letter for engineers, and a Ministry of Health attested medical certificate for Pakistani and several other nationalities.</p>
-
-<h3>PDO salary for engineers</h3>
-<p>Not published by PDO, and not shown on Kwader adverts. Every figure in circulation is an estimate from a third-party site.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Widening the search across the Gulf is usually the better move. These cover it:</p>

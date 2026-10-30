@@ -150,32 +150,6 @@ class OperatingEngineersApprenticeshipTestBlogSeeder extends Seeder
 <h3>How much do apprentices earn?</h3>
 <p>Apprentices earn a percentage of the journeyman wage that rises with progress; ask your local for its scale.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Operating engineers apprenticeship test</h3>
-<p>Set by the local.</p>
-
-<h3>IUOE apprenticeship requirements</h3>
-<p>Age, diploma, licence.</p>
-
-<h3>Heavy equipment operator apprenticeship</h3>
-<p>6,000 hours.</p>
-
-<h3>Local 49 entrance exam</h3>
-<p>Reading, math, measurement.</p>
-
-<h3>Local 150 apprenticeship</h3>
-<p>Week-One evaluation.</p>
-
-<h3>Operating engineers aptitude test</h3>
-<p>Not in every local.</p>
-
-<h3>Equipment operator apprentice</h3>
-<p>Paid training.</p>
-
-<h3>IUOE test preparation</h3>
-<p>Maths, reading, mechanics.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

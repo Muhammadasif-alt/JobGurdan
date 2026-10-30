@@ -365,32 +365,6 @@ JOBHTML;
 <h3>Can a healthcare support worker become a nurse?</h3>
 <p>Yes. A common route is HCA to nursing associate to registered nurse, often through a Registered Nurse Degree Apprenticeship that the employer supports while you study part-time.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Healthcare assistant jobs</h3>
-<p>The most common support role, at Band 2 or Band 3; our healthcare assistant guide covers the pay in detail.</p>
-
-<h3>NHS Band 2 salary</h3>
-<p>GBP 25,272 in England for 2026/27, as a single spine point rather than a range.</p>
-
-<h3>Support worker jobs UK</h3>
-<p>Cover health and social care settings; check whether a role is NHS Agenda for Change or hourly social care pay.</p>
-
-<h3>Nursing associate jobs</h3>
-<p>A Band 4 role regulated by the NMC, reached through an apprenticeship from a support role.</p>
-
-<h3>Care Certificate</h3>
-<p>Sixteen standards completed in the first 12 weeks, delivered by the employer.</p>
-
-<h3>Healthcare support worker visa UK</h3>
-<p>The overseas care-worker route closed on 22 July 2025; support roles are mainly domestic entry jobs.</p>
-
-<h3>Care assistant jobs</h3>
-<p>Social care roles in care homes and home care, paid hourly and regulated by the Care Quality Commission.</p>
-
-<h3>How to become a nurse from a healthcare assistant</h3>
-<p>HCA to nursing associate to registered nurse, often via an employer-supported degree apprenticeship.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Working out the wider UK picture? These cover it:</p>

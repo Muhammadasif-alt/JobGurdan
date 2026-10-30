@@ -317,32 +317,6 @@ JOBHTML;
 <h3>Why are some UAE IT jobs for Emiratis only?</h3>
 <p>Emiratisation targets require larger companies to reach 10 per cent Emiratis in skilled roles by the end of 2026, and government-linked entities often recruit nationals first.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>System administrator jobs in Dubai</h3>
-<p>The largest share of listings, across IT services, logistics, hospitality and media companies.</p>
-
-<h3>System administrator jobs in Abu Dhabi</h3>
-<p>Hospitals, schools, construction groups and government-linked entities, where Arabic can be an advantage.</p>
-
-<h3>Windows Server 2016 end of support</h3>
-<p>Extended support ends on 12 January 2027, driving migration projects.</p>
-
-<h3>Microsoft Entra ID</h3>
-<p>The name for Azure Active Directory since Microsoft's July 2023 rename.</p>
-
-<h3>AZ-104 certification</h3>
-<p>Microsoft Azure Administrator Associate, valid for one year with free online renewal.</p>
-
-<h3>UAE overtime law</h3>
-<p>At most two hours a day, paid at least 25 per cent extra on basic wage.</p>
-
-<h3>Linux administrator jobs UAE</h3>
-<p>RHCSA is the common credential, tested with a hands-on exam.</p>
-
-<h3>UAE Green visa for IT professionals</h3>
-<p>Five years, self-sponsored, with a bachelor's degree and a salary of at least AED 15,000 a month.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing IT roles and Gulf routes? These cover them:</p>

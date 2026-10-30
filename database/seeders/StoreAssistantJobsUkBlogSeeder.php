@@ -279,17 +279,6 @@ JOBHTML;
 <h3>What can a store assistant job lead to?</h3>
 <p>Retail promotes from the shop floor, so the route to supervisor, assistant manager and store manager is a normal one. The skills also transfer directly into customer service, warehousing, hospitality and administrative work.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li><strong>Store assistant jobs near me no experience</strong>: most retailers train on the job; availability for evenings and weekends matters more than experience</li>
-    <li><strong>Store assistant salary UK per hour</strong>: at least &pound;12.71 for workers aged 21 and over from 1 April 2026</li>
-    <li><strong>Part time store assistant jobs</strong>: the minimum wage applies per hour, so lawful part-time pay can total well under &pound;24,784 a year</li>
-    <li><strong>Christmas temporary retail jobs UK</strong>: recruitment usually opens in early autumn and is the most common route into a permanent contract</li>
-    <li><strong>What is the minimum wage for a 17 year old UK</strong>: &pound;8.00 an hour from 1 April 2026, the same as the apprentice rate</li>
-    <li><strong>Flexible working request retail</strong>: a day-one right since 6 April 2024, twice a year, answerable within two months</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

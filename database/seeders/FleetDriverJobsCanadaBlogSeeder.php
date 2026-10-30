@@ -340,32 +340,6 @@ JOBHTML;
 <h3>Can truck drivers immigrate through Express Entry?</h3>
 <p>Not through the transport category, which covers aviation and mechanic occupations. Check the current category-based selection rules before relying on any other claim.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>AZ driver jobs Ontario</h3>
-<p>Ontario's median for transport truck drivers is $26.00 an hour.</p>
-
-<h3>Class 1 licence Alberta</h3>
-<p>Now the Class 1 Learning Pathway, with a 40-hour entry program and 67 hours of core learning.</p>
-
-<h3>MELT training hours</h3>
-<p>103.5 in Ontario, 140 in BC, 121.5 in Saskatchewan and Manitoba.</p>
-
-<h3>Air brake endorsement</h3>
-<p>Z in Ontario, Q in Alberta before Class 1, built into BC's Class 1 course.</p>
-
-<h3>CVOR abstract cost</h3>
-<p>$5 uncertified, $10 certified; a driver's record is $12 or $18.</p>
-
-<h3>Truck driver wages Alberta</h3>
-<p>$30.00 an hour at the median, the highest of the big provinces.</p>
-
-<h3>Long haul vs local driving</h3>
-<p>Local is hourly and home daily; long-haul runs multi-day and sometimes cross-border.</p>
-
-<h3>NOC 73300</h3>
-<p>The classification covering transport truck drivers, TEER category 3.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing driving routes and Canadian work? These cover them:</p>

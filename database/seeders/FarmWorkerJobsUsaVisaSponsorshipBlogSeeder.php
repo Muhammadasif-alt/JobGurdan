@@ -260,32 +260,6 @@ JOBHTML;
 <h3>Should I pay an agent for a farm job in the USA?</h3>
 <p>Be very careful. H-2A workers must not be charged employer recruitment or certification costs, and nobody can guarantee a visa.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Farm worker jobs in USA with visa sponsorship</h3>
-<p>Seasonal agricultural work sponsored through the H-2A visa.</p>
-
-<h3>Farm worker visa sponsorship USA</h3>
-<p>The employer files first; the worker applies for the visa after approval.</p>
-
-<h3>Farm worker jobs for foreigners in USA</h3>
-<p>Open to foreign workers only through an eligible visa route and a real job order.</p>
-
-<h3>H-2B visa farm worker</h3>
-<p>H-2B covers non-agricultural seasonal work, so check the classification.</p>
-
-<h3>Farm worker vacancies USA 2026</h3>
-<p>Check start dates, because expired orders stay visible.</p>
-
-<h3>Apply for a farm worker job in the USA from Pakistan</h3>
-<p>Ask whether the employer recruits in Pakistan and check consular instructions.</p>
-
-<h3>H-2A visa requirements</h3>
-<p>A job order, labor certification, an approved petition and a visa interview.</p>
-
-<h3>Farm worker salary in USA</h3>
-<p>Benchmarks and worked examples are in the farm worker salary guide.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

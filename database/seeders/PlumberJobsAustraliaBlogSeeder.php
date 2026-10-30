@@ -324,32 +324,6 @@ JOBHTML;
 <h3>Can I migrate to Australia as a plumber?</h3>
 <p>Yes: unlike general labouring, this is a skilled trade inside the migration framework. It needs a formal skills assessment against the Australian standard, then a visa, then a separate state licence after arrival. The assessment does not license you.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Plumber salary Australia</h3>
-<p>Around $70,000 to $90,000 employed. Treat self-employed hourly figures as charge-out rates.</p>
-
-<h3>Plumbing licence Australia</h3>
-<p>Issued by each state. Automatic Mutual Recognition covers most moves, with Queensland and gasfitting carved out.</p>
-
-<h3>Apprentice plumber wage Australia</h3>
-<p>Set as a percentage of the qualified trade rate, and lawfully below the national minimum wage in the early years.</p>
-
-<h3>Gasfitter jobs Australia</h3>
-<p>Separately authorised and better paid, and the class most likely to need a fresh application interstate.</p>
-
-<h3>Certificate III in Plumbing</h3>
-<p>The qualification, completed over about four years. It is not the licence: the state regulator issues that separately.</p>
-
-<h3>Self employed plumber hourly rate</h3>
-<p>$80 to $150 charged out. Work out billable hours and costs before comparing it with a salary.</p>
-
-<h3>Plumber jobs Brisbane and Gold Coast</h3>
-<p>Strong demand, and the market your interstate licence will not carry you into under AMR.</p>
-
-<h3>Plumber skilled migration Australia</h3>
-<p>A genuine route. Skills assessment first, then visa, then a separate state licence on arrival.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing trades and routes? These cover them:</p>

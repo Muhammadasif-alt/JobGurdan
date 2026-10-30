@@ -276,32 +276,6 @@ JOBHTML;
 <h3>Does the Privacy Act apply to small medical clinics?</h3>
 <p>Yes. Every organisation that provides a health service and holds health information is covered, whatever its size.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Medical receptionist jobs Sydney</h3>
-<p>The largest market, with GP clinics, specialist rooms and hospital-affiliated practices.</p>
-
-<h3>Medical receptionist part-time jobs</h3>
-<p>Most of the occupation: two in three medical receptionists work part-time.</p>
-
-<h3>Health Services Award receptionist pay</h3>
-<p>MA000027, with rates being phased up under the gender undervaluation review.</p>
-
-<h3>Certificate III in Health Administration</h3>
-<p>HLT37315, covering medical terminology, records and front-desk admin.</p>
-
-<h3>Best Practice software training</h3>
-<p>The most common GP practice system, and worth naming on your CV.</p>
-
-<h3>Bulk billing incentive 2025</h3>
-<p>Extended to every Medicare-eligible patient from 1 November 2025.</p>
-
-<h3>Dental receptionist jobs Australia</h3>
-<p>Covered by the same award as medical practice receptionists.</p>
-
-<h3>Medical receptionist visa sponsorship</h3>
-<p>Not available through the Core Skills stream, because the occupation is not on the list.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing admin and health care jobs? These cover them:</p>

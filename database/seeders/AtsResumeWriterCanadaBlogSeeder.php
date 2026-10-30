@@ -303,32 +303,6 @@ JOBHTML;
 <h3>What should I tell a newcomer client asking about Canadian experience?</h3>
 <p>That the requirement stands on weak ground. The Ontario Human Rights Commission has held since July 2013 that a strict Canadian experience requirement is prima facie discrimination under the Human Rights Code. Present the client's overseas record in Canadian terms rather than hiding it.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Resume writer jobs Canada remote</h3>
-<p>Almost all of this work is remote. The employers are resume services, career coaching practices, outplacement providers and staffing firms, mostly hiring on contract.</p>
-
-<h3>Freelance resume writer Canada</h3>
-<p>Independent work through marketplaces or direct clients. Direct sales avoid the platform fee entirely and are where the higher package prices live.</p>
-
-<h3>Certified resume writer Canada</h3>
-<p>The CRS from Career Professionals of Canada is the Canadian credential; the American CPRW is better known internationally and carries an annual membership cost.</p>
-
-<h3>How to become a resume writer in Canada</h3>
-<p>Build a before-and-after portfolio, choose a niche, learn how the major applicant tracking systems parse a document, then add a credential if you want the marketplace signal.</p>
-
-<h3>Resume writer salary Toronto</h3>
-<p>Around $40,225 a year for a staff post, close to Ontario's general minimum wage of $17.60 an hour, which rises to $17.95 on 1 October 2026.</p>
-
-<h3>ATS friendly resume Canada</h3>
-<p>Standard section headings, nothing essential inside a header, footer, text box or image, and the posting's own terminology used where it is honestly true of the candidate.</p>
-
-<h3>Resume writing jobs from home Canada</h3>
-<p>The same market seen from the worker's side. Expect contract terms rather than employment, and price both halves of CPP into your fee.</p>
-
-<h3>Career Professionals of Canada certification</h3>
-<p>The body behind the CRS and related Canadian career credentials. Membership is required to register for certification.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Working in writing or looking at remote work more broadly? These cover the nearby ground:</p>

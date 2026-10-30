@@ -396,32 +396,6 @@ JOBHTML;
 <h3>How long does it take to become an HVAC technician?</h3>
 <p>In the US, a postsecondary programme takes six months to two years and an apprenticeship several years. In Canada, the certification route is a three- to five-year apprenticeship.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>HVAC technician salary USA</h3>
-<p>$61,010 median in May 2025; top tenth above $95,210.</p>
-
-<h3>HVAC technician salary Canada</h3>
-<p>C$37.50 an hour national median on Job Bank.</p>
-
-<h3>HVAC job outlook 2035</h3>
-<p>11 per cent growth and about 40,600 openings a year.</p>
-
-<h3>NOC 72402</h3>
-<p>Heating, refrigeration and air conditioning mechanics in Canada.</p>
-
-<h3>313A Ontario</h3>
-<p>Refrigeration and Air Conditioning Systems Mechanic, a compulsory trade.</p>
-
-<h3>EPA 608 apprentice exemption</h3>
-<p>Registered apprentices only, under close supervision, for up to two years.</p>
-
-<h3>Texas HVAC technician registration</h3>
-<p>Required by TDLR for anyone working under a licensed contractor.</p>
-
-<h3>Highest paying state for HVAC</h3>
-<p>The District of Columbia at $84,390 among the areas shown here.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the HVAC/R cluster and related trades:</p>

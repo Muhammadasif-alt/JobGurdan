@@ -303,32 +303,6 @@ JOBHTML;
 <h3>How do I avoid Canada job scams?</h3>
 <p>Never pay for a job or an LMIA, distrust guaranteed placements, and verify the employer. IRCC states that no one can guarantee you a job or a visa.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>LMIA jobs in Canada</h3>
-<p>Employer-supported jobs where a positive Labour Market Impact Assessment backs your work permit, most of them in agriculture, food, transport and care.</p>
-
-<h3>Canada work permit 2026</h3>
-<p>An employer-specific permit follows a positive LMIA; the LMIA is valid six months and the permit is tied to that job.</p>
-
-<h3>TFWP vs International Mobility Program</h3>
-<p>The TFWP needs an LMIA and targets 60,000 in 2026; the IMP is LMIA-exempt and targets 170,000.</p>
-
-<h3>In-demand jobs in Canada 2026</h3>
-<p>Farm labour, nursing and personal support, skilled trades and long-haul trucking see the most approvals.</p>
-
-<h3>Canada eight-week advertising rule</h3>
-<p>From 1 April 2026, low-wage positions must be advertised for at least eight consecutive weeks before an LMIA is filed.</p>
-
-<h3>High-wage LMIA jobs</h3>
-<p>Roles paying at or above the provincial threshold, processed under a separate stream with fewer low-wage restrictions.</p>
-
-<h3>Seasonal Agricultural Worker Program</h3>
-<p>A stream recruiting from Mexico and Caribbean countries for up to eight months; other farm workers use the general agricultural stream.</p>
-
-<h3>Canada TR to PR pathway 2026</h3>
-<p>The In-Canada Workers Initiative will move up to 33,000 temporary workers to permanent residence across 2026 and 2027.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at a specific route into Canada? These cover it:</p>

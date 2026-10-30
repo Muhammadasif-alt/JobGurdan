@@ -301,32 +301,6 @@ JOBHTML;
 <h3>Is there an age limit for skilled visas?</h3>
 <p>Yes. The 189 needs you to be under 45 when invited, and the 186 Direct Entry stream and the 494 usually need you to be under 45 when you apply, with some exemptions.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Jobs in Australia for foreigners</h3>
-<p>Mostly sponsored skilled roles, plus casual work for working holiday makers.</p>
-
-<h3>Skills in Demand visa requirements</h3>
-<p>A sponsor, a CSOL occupation, 1 year of experience, English and the income threshold.</p>
-
-<h3>Core Skills Income Threshold 2026</h3>
-<p>AUD 79,423 for nominations lodged from 1 July 2026.</p>
-
-<h3>Australia work visa without job offer</h3>
-<p>The points-tested Skilled Independent visa (subclass 189).</p>
-
-<h3>Working holiday visa age limit Australia</h3>
-<p>18 to 30, or 35 for some countries.</p>
-
-<h3>494 visa to PR</h3>
-<p>Through the subclass 191 after holding the 494 for at least 3 years.</p>
-
-<h3>Student visa work hours Australia</h3>
-<p>48 hours a fortnight while the course is in session.</p>
-
-<h3>PALM scheme countries</h3>
-<p>Pacific Island countries and Timor-Leste.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing countries or looking at a specific job in Australia? These cover it:</p>

@@ -362,32 +362,6 @@ JOBHTML;
 <h3>Do I still file US taxes while working in London?</h3>
 <p>Yes. US citizens are taxed on worldwide income. For 2026 the Foreign Earned Income Exclusion is $132,900 on Form 2555, and foreign accounts over $10,000 in total require FinCEN Form 114.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>London jobs with visa sponsorship for Americans</h3>
-<p>Graduate and professional roles that clear £41,700 or the occupation's going rate.</p>
-
-<h3>UK Skilled Worker visa for US citizens</h3>
-<p>The main sponsored route; no English test for American applicants.</p>
-
-<h3>High Potential Individual visa US universities</h3>
-<p>Thirty-three American universities on the current Global Universities List.</p>
-
-<h3>Youth Mobility Scheme for Americans</h3>
-<p>Not available; the United States is not a participating country.</p>
-
-<h3>UK ETA for US citizens</h3>
-<p>£20, valid for visits of up to six months, required before boarding.</p>
-
-<h3>Skilled Worker salary threshold 2026</h3>
-<p>£41,700 or the going rate, with no London weighting.</p>
-
-<h3>London Living Wage 2026</h3>
-<p>£14.80 an hour, voluntary, and far below the sponsorship threshold.</p>
-
-<h3>American expat taxes in the UK</h3>
-<p>Form 2555, the $132,900 exclusion for 2026, and FinCEN Form 114 over $10,000.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Working out a London move? These cover the neighbouring questions:</p>

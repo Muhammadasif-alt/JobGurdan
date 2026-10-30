@@ -361,19 +361,6 @@ JOBHTML;
 <h3>Can I still apply for the 2027 Customer Care Apprenticeship?</h3>
 <p>Only if you are reading this before 25 September 2026, and only if you already have UK work rights. Barclays states the programme carries a three-year residence requirement and that you must hold the right to work for the full August 2027 to August 2029 period with no dependency on future visa applications.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li>Barclays customer service advisor salary UK</li>
-    <li>Barclays jobs Glasgow customer care</li>
-    <li>Barclays apprenticeship 2027 Manchester</li>
-    <li>Does Barclays sponsor Skilled Worker visas</li>
-    <li>Bank customer service jobs UK no experience</li>
-    <li>Barclays personal banker job description</li>
-    <li>UK contact centre jobs hybrid working</li>
-    <li>Customer service occupations Skilled Worker eligibility</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

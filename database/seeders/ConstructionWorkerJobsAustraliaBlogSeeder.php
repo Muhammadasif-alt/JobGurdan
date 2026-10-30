@@ -308,32 +308,6 @@ JOBHTML;
 <h3>Does construction work count for a second year Working Holiday visa?</h3>
 <p>Yes. On the subclass 417 it counts anywhere in regional Australia, and on the 462 in Northern or regional Australia: 88 days for a second year and 179 days for a third. Check the postcode of the site before you start.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Construction labourer salary Australia</h3>
-<p>An award base of $26.67 an hour, which is about $52,700 permanent and $65,880 casual across a full year.</p>
-
-<h3>White Card Australia</h3>
-<p>Mandatory before site entry, valid in every state and territory, void after two consecutive years without construction work.</p>
-
-<h3>Labour hire jobs Australia</h3>
-<p>Where most entry-level construction hiring happens, and why the published averages describe casual rates.</p>
-
-<h3>Civil construction jobs Australia</h3>
-<p>Roads, rail and utilities. Earlier starts and more travel, usually with better rates than residential work.</p>
-
-<h3>Construction jobs Australia for foreigners</h3>
-<p>Working Holiday visa territory. Labouring is not a skilled migration occupation and cannot be sponsored.</p>
-
-<h3>Working holiday visa specified work construction</h3>
-<p>Counts in regional Australia on both the 417 and the 462. 88 days for a second year, 179 for a third.</p>
-
-<h3>Construction jobs Sydney and Melbourne</h3>
-<p>High volume, and averages within about 4.8 per cent of every other state: a smaller gap than the cost of living between them.</p>
-
-<h3>No experience construction jobs Australia</h3>
-<p>Genuinely available through labour hire. The White Card, boots and a reliable early start matter more than a r&eacute;sum&eacute;.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing markets and entry routes? These cover them:</p>

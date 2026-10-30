@@ -26,7 +26,7 @@ use Illuminate\Database\Seeder;
  *    383 and 391).
  * 5. BLS fetched: heavy and tractor-trailer truck drivers, median $58,640 ($28.19 an hour) in May 2025, 4% growth
  *    2025-2035, 2,221,200 jobs.
- * 6. FAQs expanded to eight; eight People Also Search For entries and a note for readers in Pakistan added.
+ * 6. FAQs expanded to eight and a note for readers in Pakistan added.
  *
  * No Dallas poster was supplied; the featured image and steps graphic were generated in the house style. The portal
  * listing is in GuideJobListingsSeeder. updateOrCreate, so re-running is safe.
@@ -164,32 +164,6 @@ class TruckDriverJobsDallasCdlRequirementsTrainingBlogSeeder extends Seeder
 
 <h3>Does company-paid training guarantee a job?</h3>
 <p>No, and leaving early can mean repaying the cost.</p>
-
-<h2>People Also Search For</h2>
-
-<h3>Truck driver jobs in Dallas Texas</h3>
-<p>Local, regional and OTR routes.</p>
-
-<h3>Local CDL jobs Dallas</h3>
-<p>Usually home daily; ask about duty length.</p>
-
-<h3>Truck driver jobs in Dallas with no experience</h3>
-<p>Possible once you hold a CDL.</p>
-
-<h3>Home daily truck driving jobs Dallas</h3>
-<p>Check the terminal and reporting time.</p>
-
-<h3>Truck driver salary</h3>
-<p>$58,640 national median in May 2025.</p>
-
-<h3>How to get a CDL in Texas</h3>
-<p>CLP, 14 days, ELDT, then the skills test.</p>
-
-<h3>ELDT Training Provider Registry</h3>
-<p>FMCSA's list of approved CDL trainers.</p>
-
-<h3>Texas CDL English only test</h3>
-<p>Since 1 June 2026, with no interpreters.</p>
 
 <h2>Bottom Line</h2>
 

@@ -359,32 +359,6 @@ JOBHTML;
 <h3>Can women apply for cleaning jobs in Saudi Arabia?</h3>
 <p>Yes. Housekeeping in hotels, hospitals and private homes employs large numbers of women, and household roles are recruited almost entirely through Musaned. The domestic worker regulation above applies to those contracts, so check which route the offer uses.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Cleaner jobs in Saudi Arabia with visa sponsorship</h3>
-<p>Genuine and plentiful across hotel, hospital, office, industrial and household categories. The employer must hold a visa authorisation from the ministry before any visa can exist.</p>
-
-<h3>Cleaner salary in Saudi Arabia per month</h3>
-<p>Commonly SAR 700 to 1,800 depending on sector. There is no statutory minimum wage for expatriate workers, so judge the offer on housing, food, transport, medical cover and flights as well as base pay.</p>
-
-<h3>Hospital cleaner jobs in Saudi Arabia for foreigners</h3>
-<p>Steady demand in Riyadh, Jeddah and the Eastern Province. Stricter infection-control protocols than general cleaning, usually reflected in slightly higher pay.</p>
-
-<h3>Housekeeping jobs in Saudi Arabia hotels</h3>
-<p>Continuous hiring in Riyadh, Jeddah and Makkah, with a supervisory ladder for anyone with hotel experience. Ask whether a service-charge share applies and how it is calculated.</p>
-
-<h3>House cleaner jobs Saudi Arabia Musaned</h3>
-<p>Household cleaning is domestic labour, recruited through the government's Musaned platform under a separate regulation from the Labour Law. Domestic workers were excluded from the 2021 mobility reform.</p>
-
-<h3>Cleaning jobs in Riyadh and Jeddah</h3>
-<p>Riyadh carries the highest volume across every category; Jeddah is weighted towards hospitality, resorts and residential compounds.</p>
-
-<h3>Saudi Arabia cleaner visa free</h3>
-<p>The &quot;free visa&quot; or azad visa arrangement is illegal. Working for anyone other than your registered sponsor risks an absconding report, deportation and a re-entry ban.</p>
-
-<h3>Cleaner jobs in Saudi Arabia for Pakistani applicants</h3>
-<p>Strong and continuous demand. Apply only through an Overseas Employment Promoter licensed by the Bureau of Emigration and Overseas Employment, and verify the licence is current.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing cleaning and entry-level routes across countries? These cover the rest:</p>

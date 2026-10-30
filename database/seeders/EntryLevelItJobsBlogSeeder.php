@@ -318,32 +318,6 @@ JOBHTML;
 <h3>What is the best first IT job?</h3>
 <p>Help desk or IT support. It has the most openings for beginners and leads to networking, systems, cloud and security roles.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>IT jobs with no experience</h3>
-<p>Help desk and support roles, starting around the lowest tenth of $40,980.</p>
-
-<h3>Help desk salary entry level</h3>
-<p>A BLS median of $61,860 for user support specialists.</p>
-
-<h3>CompTIA A+ 220-1201</h3>
-<p>Core 1 of the current V15 A+ certification.</p>
-
-<h3>Junior cybersecurity analyst jobs</h3>
-<p>Usually need related IT experience first.</p>
-
-<h3>Google IT Support Certificate jobs</h3>
-<p>Help desk and support roles, often alongside A+.</p>
-
-<h3>Entry level network technician</h3>
-<p>Network support, usually with an associate degree or help desk experience.</p>
-
-<h3>Junior QA tester jobs</h3>
-<p>Testing roles with a $61,440 lowest-tenth pay level.</p>
-
-<h3>IT support jobs outlook</h3>
-<p>Down 3 per cent over the decade to 2035.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Ready to go deeper on one role? These cover them:</p>

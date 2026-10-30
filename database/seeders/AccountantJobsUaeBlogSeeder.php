@@ -311,32 +311,6 @@ JOBHTML;
 <h3>Is working in DIFC different from other free zones?</h3>
 <p>Yes. DIFC has its own Employment Law and a savings plan called DEWS instead of end-of-service gratuity. ADGM also runs its own employment regulations.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>ACCA jobs in Dubai</h3>
-<p>Preferred for senior and audit roles, but not a licence to sign audits in the UAE.</p>
-
-<h3>VAT accountant jobs in UAE</h3>
-<p>VAT at 5 per cent since 2018, with registration compulsory above AED 375,000 of taxable supplies.</p>
-
-<h3>Corporate tax jobs in Dubai</h3>
-<p>9 per cent above AED 375,000, with Small Business Relief extended to 31 December 2029.</p>
-
-<h3>Accountant salary in Dubai per month</h3>
-<p>Advertised from AED 4,000 for junior roles. Ask for the basic salary figure separately.</p>
-
-<h3>UAE Green visa for accountants</h3>
-<p>A five-year self-sponsored residence for skilled employees earning at least AED 15,000 a month with a bachelor's degree.</p>
-
-<h3>External auditor jobs in Dubai</h3>
-<p>Audit associate roles are open; signing reports needs a UAE licence and five years of audit experience.</p>
-
-<h3>FTA tax agent registration</h3>
-<p>A relevant degree, three years of experience, Arabic and English, the FTA exam and appointment by a tax agency.</p>
-
-<h3>UAE e-invoicing 2027</h3>
-<p>Live from 1 January 2027 for businesses with AED 50 million or more in revenue, and 1 July 2027 for the rest.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing Gulf routes and office work elsewhere? These cover them:</p>

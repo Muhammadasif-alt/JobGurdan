@@ -180,32 +180,6 @@ class WarehouseOperativeSalaryUkBlogSeeder extends Seeder
 <h3>Do foreign workers earn the same as British workers?</h3>
 <p>Yes, UK minimum wage law applies to everyone who works legally, whatever their nationality.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Warehouse operative salary UK</h3>
-<p>At least £12.71 an hour from April 2026.</p>
-
-<h3>Warehouse hourly rate UK</h3>
-<p>The legal floor is £12.71 for workers aged 21 and over.</p>
-
-<h3>Warehouse monthly pay UK</h3>
-<p>About £2,203 gross at the minimum and 40 hours a week.</p>
-
-<h3>Warehouse salary in PKR</h3>
-<p>Convert at your provider's real rate, after expenses.</p>
-
-<h3>UK warehouse night shift pay</h3>
-<p>Many employers add a premium; check the job ad.</p>
-
-<h3>National Living Wage 2026</h3>
-<p>£12.71 an hour for workers aged 21 and over.</p>
-
-<h3>Warehouse take-home pay UK</h3>
-<p>About £1,880 a month on the minimum wage in England.</p>
-
-<h3>Warehouse jobs UK visa sponsorship</h3>
-<p>Generally not available; see the visa sponsorship guide.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

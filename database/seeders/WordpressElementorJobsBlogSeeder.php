@@ -323,19 +323,6 @@ JOBHTML;
 <h3>Why do remote WordPress jobs reject applicants from Pakistan?</h3>
 <p>Usually tax, payroll or right-to-work reasons rather than skill. WP Engine hires only in five named countries. Two Automattic roles require United States citizenship. One listing on the official WordPress board is restricted to India and another to US citizens and green card holders, while both are tagged Remote. Always read the eligibility sentence.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li>Elementor developer salary in Pakistan</li>
-    <li>WordPress developer jobs Rozee</li>
-    <li>jobs.wordpress.net remote listings</li>
-    <li>Elementor Editor V4 release date</li>
-    <li>Is Elementor still worth learning 2026</li>
-    <li>Automattic remote hiring countries</li>
-    <li>Elementor vs Gutenberg for jobs</li>
-    <li>WordPress portfolio examples for beginners</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

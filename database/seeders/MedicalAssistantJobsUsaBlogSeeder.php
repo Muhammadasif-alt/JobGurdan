@@ -314,32 +314,6 @@ JOBHTML;
 <h3>Can medical assistants give injections and draw blood?</h3>
 <p>In most states yes, but only as a delegated act under a licensed practitioner and with the supervision each state prescribes. Washington requires a state credential first, New Jersey requires national certification, and California bars any task that is invasive or requires assessment, including reading a skin test result.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Medical assistant salary</h3>
-<p>A $45,690 median and $21.97 an hour, with the top tenth of the occupation above $59,310.</p>
-
-<h3>Certified medical assistant jobs</h3>
-<p>Certification is preferred by most employers and required by some. Which certification you can sit depends on the programme you attended.</p>
-
-<h3>Medical assistant programs near me</h3>
-<p>A postsecondary certificate is the documented entry route. Check the programme's accreditation before enrolling, because it decides which exams you can take.</p>
-
-<h3>Clinical vs administrative medical assistant</h3>
-<p>Most US roles combine both. Clinical duties are the ones state law limits, so the split varies by state as well as by employer.</p>
-
-<h3>Medical assistant vs LPN</h3>
-<p>An LPN earns a $64,400 median against $45,690, a 41 per cent difference, and holds a licence rather than a certificate.</p>
-
-<h3>Highest paying states for medical assistants</h3>
-<p>Washington, Alaska, the District of Columbia, Minnesota, Oregon and California. Vallejo, California leads all metro areas at $77,410.</p>
-
-<h3>Entry level healthcare jobs no experience</h3>
-<p>Medical assisting requires no prior work experience and no degree, which is why it is the most common first clinical job in the country.</p>
-
-<h3>Medical assistant job outlook</h3>
-<p>Thirteen per cent growth to 2035, 107,600 new jobs and about 109,700 openings a year: roughly 3.7 times the all-occupations rate.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing healthcare and entry-level routes? These cover them:</p>

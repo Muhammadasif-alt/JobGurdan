@@ -29,7 +29,7 @@ it('renders the post with its long-tail sections and sibling guides', function (
         ->assertOk()
         ->assertSee('Driver Jobs in Saudi Arabia for Foreigners')
         ->assertSee('Company Driver or House Driver')
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('/blog/truck-driver-jobs-in-usa-with-visa-sponsorship', false)
         ->assertSee(SAUDI_APPLY_URL, false);
 });

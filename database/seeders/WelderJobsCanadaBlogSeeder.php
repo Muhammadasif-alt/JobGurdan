@@ -299,32 +299,6 @@ JOBHTML;
 <h3>Do I need a special certificate for pressure welding in Alberta?</h3>
 <p>Yes. You must hold an ABSA Pressure Welder Certificate of Competency, usually Grade B, and a valid performance qualification card.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Welder salary Alberta</h3>
-<p>A Job Bank median of $38 an hour, the highest in Canada, with an outlook rated Limited for 2025-2027.</p>
-
-<h3>Welder jobs Nova Scotia</h3>
-<p>The only one of the main provinces with a Good outlook, near Irving Shipbuilding's Halifax yard.</p>
-
-<h3>Red Seal welder exam</h3>
-<p>125 questions with a pass mark of 70%.</p>
-
-<h3>CWB ticket validity</h3>
-<p>Usually two years, and only while you work for a CWB-certified company.</p>
-
-<h3>Welder LMIA jobs</h3>
-<p>Mostly in the low-wage stream at median pay, with a 10% cap and no processing in high-unemployment cities.</p>
-
-<h3>Express Entry trades draw</h3>
-<p>The latest, on 2 April 2026, invited 3,000 candidates with a minimum score of 477.</p>
-
-<h3>Pipeline welder jobs Canada</h3>
-<p>Alberta pays up to $52.18 an hour, often on rotations, and pressure work needs an ABSA certificate.</p>
-
-<h3>Welding apprenticeship Ontario</h3>
-<p>Trade 456A, 6,000 hours, with voluntary certification.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing skilled trades and routes into Canada? These cover it:</p>

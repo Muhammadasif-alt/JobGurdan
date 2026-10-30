@@ -221,32 +221,6 @@ class FarmWorkerSalaryUsaBlogSeeder extends Seeder
 <h3>Which farm job pays most?</h3>
 <p>In the BLS table, agricultural equipment operators have the highest mean wage, but they need experience that beginners may not have.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Farm worker salary in USA</h3>
-<p>$18.09 an hour on average for crop, nursery and greenhouse workers in May 2025.</p>
-
-<h3>Average farm worker salary USA</h3>
-<p>Mean and median differ, so compare both.</p>
-
-<h3>Farm worker hourly rate USA</h3>
-<p>Crop workers had a $17.15 median; equipment operators had $20.06.</p>
-
-<h3>Farm worker monthly pay USA 2026</h3>
-<p>Hourly rate &times; weekly hours &times; 52 &divide; 12.</p>
-
-<h3>Farm worker salary in PKR</h3>
-<p>Convert at your provider's real rate, after expenses.</p>
-
-<h3>Farm worker pay for foreigners USA</h3>
-<p>H-2A workers must be paid at least the required wage for the job order.</p>
-
-<h3>H-2A wage rates</h3>
-<p>Published by the Department of Labor and set by occupation and location.</p>
-
-<h3>Farm worker jobs in USA with visa sponsorship</h3>
-<p>Covered in the visa sponsorship guide.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

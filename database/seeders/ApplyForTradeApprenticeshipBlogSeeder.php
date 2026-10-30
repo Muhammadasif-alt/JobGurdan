@@ -186,32 +186,6 @@ class ApplyForTradeApprenticeshipBlogSeeder extends Seeder
 <h3>Should I pay anyone to get a place?</h3>
 <p>No. Do not pay anyone promising a guaranteed place. Verify any genuine charge directly with the official sponsor.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>How to apply for a trade apprenticeship</h3>
-<p>Find a recruiting sponsor, then follow its steps.</p>
-
-<h3>Trade apprenticeship requirements</h3>
-<p>Set by each programme.</p>
-
-<h3>Apprenticeship application process</h3>
-<p>Documents, test, interview, offer.</p>
-
-<h3>Apply for apprenticeship without experience</h3>
-<p>Possible in many programmes.</p>
-
-<h3>Electrician apprenticeship application</h3>
-<p>Algebra and transcripts at some programmes.</p>
-
-<h3>Apprenticeship documents needed</h3>
-<p>ID, transcripts, resume.</p>
-
-<h3>Apprenticeship interview questions</h3>
-<p>Reliability and learning examples.</p>
-
-<h3>Registered apprenticeship</h3>
-<p>Paid work plus classroom learning.</p>
-
 <h2>Bottom Line</h2>
 
 <p>A strong application starts with the right programme, complete documents and careful preparation. Check local requirements, meet deadlines, and understand the pay and training terms before you accept.</p>

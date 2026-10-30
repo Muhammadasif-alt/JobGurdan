@@ -304,32 +304,6 @@ JOBHTML;
 <h3>Are there airport jobs in Oman outside Muscat?</h3>
 <p>Yes. The Oman Airports recruitment portal filters by location and covers Sohar, Al Duqm, Adam and airfields including Marmul, Qarn Alam and Fahud serving the oil and gas interior. These attract far fewer applications than Muscat.</p>
 
-<h2 id="people-also-search-for">People Also Search For</h2>
-
-<h3>Oman Air careers</h3>
-<p>The airline's own careers pages, covering Engineering, Airport jobs, Administrative and Clerical, Cargo, Flight attendants, Management and Reservation, with vacancies listed through its eRecruit system.</p>
-
-<h3>Oman Airports careers portal</h3>
-<p>The airport operator's own recruitment system, filterable by location, by technical or non-technical and by division, showing a reference code and a posting window against each vacancy.</p>
-
-<h3>Omanisation list of restricted professions</h3>
-<p>The Ministry of Labour's phased restrictions on occupations open to expatriates, issued through resolutions including 235/2022 and 501/2024.</p>
-
-<h3>Oman Labour Law Royal Decree 53/2023</h3>
-<p>The current labour law, which set eight hours a day, 40 hours a week and at least 21 days of paid annual leave.</p>
-
-<h3>Oman work permit for expatriates</h3>
-<p>The employer-obtained permit that makes foreign employment lawful, which requires the employer to hold a licence to employ foreign workers.</p>
-
-<h3>Oman NOC rule for changing jobs</h3>
-<p>Royal Oman Police Decision 157/2020, which removed the No Objection Certificate requirement from 1 January 2021.</p>
-
-<h3>Muscat International Airport jobs</h3>
-<p>Vacancies at Oman's main hub, advertised by the airline, the airport operator and contracted handling companies separately.</p>
-
-<h3>Ground handling jobs Gulf</h3>
-<p>Baggage, ramp and cargo work across Gulf airports, where the labour rules differ by country more than most guides admit.</p>
-
 <h2 id="more-guides">More Job Guides</h2>
 
 <ul>

@@ -368,32 +368,6 @@ JOBHTML;
 <h3>Where do I apply for education assistant jobs in government schools?</h3>
 <p>Through WA Department of Education current jobs, NSW Department of Education careers, School Jobs Vic, EduJobs in South Australia and the Queensland Department of Education vacancies page.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Teacher aide jobs</h3>
-<p>Queensland's title for the role; other states use different names.</p>
-
-<h3>School learning support officer jobs NSW</h3>
-<p>Listed on NSW Department of Education careers; a WWCC is essential.</p>
-
-<h3>Education assistant special needs WA pay</h3>
-<p>$36.87 to $41.37 an hour at Level 2/3 in September 2026.</p>
-
-<h3>SSO jobs South Australia</h3>
-<p>Advertised on EduJobs; register on the Employable Ancillary Register first.</p>
-
-<h3>Education support jobs Victoria</h3>
-<p>Listed on School Jobs Vic, the department's recruitment system.</p>
-
-<h3>Certificate III in School Based Education Support</h3>
-<p>The current national course, CHC30221.</p>
-
-<h3>Education assistant lead WA</h3>
-<p>$43.28 an hour under the 2025 agreement.</p>
-
-<h3>Work While You Study SA</h3>
-<p>For pre-service teachers; 2027 registrations open later in the year.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other education or entry-level work? These cover it:</p>

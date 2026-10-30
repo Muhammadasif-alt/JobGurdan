@@ -312,32 +312,6 @@ JOBHTML;
 <h3>Does Unilever charge anything to apply?</h3>
 <p>No. Unilever states it will never ask for money or credit card details during recruitment.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Unilever Indonesia careers</h3>
-<p>The official page is careers.unilever.com/en/indonesia. It lists every Indonesian role Unilever is genuinely hiring for.</p>
-
-<h3>Lowongan kerja Unilever Cikarang</h3>
-<p>Cikarang is the West Java factory site named on Unilever's current engineering posting. Operator vacancies are not currently listed there.</p>
-
-<h3>UPLIFT Unilever</h3>
-<p>Unilever Indonesia's apprenticeship for students and fresh graduates, running February and September intakes. Its dedicated page is currently returning a 404.</p>
-
-<h3>UFRESH Indonesia</h3>
-<p>The early-career intake currently appearing on Unilever's Indonesian listing, open to students and fresh graduates.</p>
-
-<h3>RPTKA Indonesia</h3>
-<p>The employer-sponsored foreign worker plan required before any foreign national can work in Indonesia, administered by the Ministry of Manpower.</p>
-
-<h3>Indonesia work permit requirements</h3>
-<p>Education matching the position, at least five years of relevant experience, and a duty to transfer skills to an Indonesian counterpart worker.</p>
-
-<h3>UMK Bekasi</h3>
-<p>The regency minimum wage covering Cikarang, set annually by governor's decree. It is the only verifiable pay floor for factory work in the area.</p>
-
-<h3>Unilever job scam</h3>
-<p>Unilever says it will never ask for money or credit card details in recruitment. Real roles appear only on its careers site and are processed in Workday.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing manufacturing employers, or looking for a route that is actually open to you? These cover the ground:</p>

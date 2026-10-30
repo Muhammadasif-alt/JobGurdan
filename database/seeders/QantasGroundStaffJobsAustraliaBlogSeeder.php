@@ -358,32 +358,6 @@ JOBHTML;
 <h3>How heavy is the lifting?</h3>
 <p>A live Qantas Ground Services freight advert requires the ability to repetitively lift items up to 32 kg. Check the physical requirements on the specific posting.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Qantas careers airport customer service</h3>
-<p>The customer service team page on careers.qantas.com carries the roles, the FAQ and the pre-employment requirements.</p>
-
-<h3>Qantas enterprise agreement pay rates</h3>
-<p>Agreement AE531839, published by the Fair Work Commission, in force 4 February 2026 to 30 June 2029, with the full salary schedule inside.</p>
-
-<h3>ASIC card application Australia</h3>
-<p>Applied for through an issuing body and background checked by AusCheck. Red for airside zones, grey and white for other areas.</p>
-
-<h3>Airline Operations Ground Staff Award 2020</h3>
-<p>Award MA000048, the industry floor. Level 1 in the aviation transport stream is $27.38 an hour from 1 July 2026.</p>
-
-<h3>Australia National Minimum Wage 2026</h3>
-<p>$26.44 an hour or $1,004.90 a week from 1 July 2026, after a 4.75 per cent annual wage review increase.</p>
-
-<h3>Core Skills Occupation List Australia</h3>
-<p>The 456-occupation list used for the Skills in Demand visa. Airport ground occupations are not on it.</p>
-
-<h3>Qantas Ground Services jobs</h3>
-<p>A wholly owned Qantas subsidiary providing ground handling to Qantas Freight, advertising its own ground crew roles.</p>
-
-<h3>Superannuation guarantee rate 2026</h3>
-<p>12 per cent from 1 July 2026, payable each payday rather than quarterly.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Working out whether Australia is open to you at all, or comparing airline employers? Start here:</p>

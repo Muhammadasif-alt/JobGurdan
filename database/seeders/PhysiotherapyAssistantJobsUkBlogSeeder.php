@@ -221,24 +221,6 @@ HTML;
 <h3>How long does the Care Certificate take?</h3>
 <p>It has 16 standards and most employers expect it to be completed within twelve weeks of induction. That deadline is set by the employer, not by a national rule, and the certificate is completed while you are working and being paid.</p>
 
-<h2>People Also Search For</h2>
-<h3>Physiotherapy assistant salary NHS</h3>
-<p>Band 2 and Band 3 rates, which differ by nation. Check whether a quoted figure is English or Scottish.</p>
-<h3>Physiotherapy support worker jobs</h3>
-<p>The same role under the title the CSP prefers. Search both when looking for vacancies.</p>
-<h3>Therapy assistant jobs NHS</h3>
-<p>A broader title covering physiotherapy, occupational therapy and speech and language therapy support posts.</p>
-<h3>Band 3 physiotherapy assistant job description</h3>
-<p>Delegated clinical work carried out independently to a plan, including mobility practice and issuing walking aids.</p>
-<h3>Rehabilitation assistant jobs</h3>
-<p>Common in community and neurological teams, often combining physiotherapy and occupational therapy support.</p>
-<h3>How to become a physiotherapist without a degree</h3>
-<p>You cannot practise without one, but an assistant post plus a funded degree apprenticeship is the usual route in.</p>
-<h3>NHS band 3 salary 2026</h3>
-<p>&pound;25,760 to &pound;27,476 in England, &pound;29,103 to &pound;31,409 in Scotland, both from 1 April 2026.</p>
-<h3>Physiotherapy assistant interview questions</h3>
-<p>Values-based, covering patient dignity, safe moving and handling, teamwork and escalating concerns.</p>
-
 <h2>Related career guides</h2>
 <ul>
 <li><a href="/blog/hospital-support-worker-jobs-in-the-uk">Hospital Support Worker Jobs in the UK</a>: the same bands and enhancements on a ward instead of in a therapy department.</li>

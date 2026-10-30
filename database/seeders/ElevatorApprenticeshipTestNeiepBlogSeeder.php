@@ -158,32 +158,6 @@ class ElevatorApprenticeshipTestNeiepBlogSeeder extends Seeder
 <h3>What does the interview involve?</h3>
 <p>An interview of about 15 to 20 minutes with two committee members.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Elevator apprenticeship test</h3>
-<p>The EIAT.</p>
-
-<h3>NEIEP aptitude test</h3>
-<p>100 questions.</p>
-
-<h3>Elevator Industry Aptitude Test</h3>
-<p>35, 35 and 30.</p>
-
-<h3>EIAT practice</h3>
-<p>Start with the official guide.</p>
-
-<h3>IUEC apprenticeship</h3>
-<p>Joint apprenticeship committees.</p>
-
-<h3>Elevator constructor apprenticeship</h3>
-<p>Age, diploma and work authorisation.</p>
-
-<h3>EIAT passing score</h3>
-<p>70%.</p>
-
-<h3>NEIEP interview</h3>
-<p>15 to 20 minutes.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

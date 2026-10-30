@@ -293,32 +293,6 @@ JOBHTML;
 <h3>Is a research assistant professor a tenure-track job?</h3>
 <p>Usually not. Research, clinical, teaching and visiting assistant professor titles sit outside the tenure system, and the research ones last only as long as the grant funding them.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Tenure-track jobs USA</h3>
-<p>Probationary appointments with a tenure review, normally within seven years.</p>
-
-<h3>Assistant professor salary</h3>
-<p>$97,232 on AAUP 2025&ndash;26 averages, and about $16,000 below the associate professor average.</p>
-
-<h3>Academic job market calendar</h3>
-<p>Adverts in autumn, campus visits in winter and spring, offers in spring, start in August.</p>
-
-<h3>Job talk and teaching demonstration</h3>
-<p>The two events that decide most campus visits, and the two worth rehearsing properly.</p>
-
-<h3>Startup funds negotiation</h3>
-<p>Equipment, laboratory set-up, course release and summer salary, agreed once at offer stage.</p>
-
-<h3>Third year review tenure track</h3>
-<p>The mid-probation assessment, and the last point at which a weak record can be corrected.</p>
-
-<h3>Research assistant professor</h3>
-<p>A grant-funded appointment that ends with the award and carries no tenure route.</p>
-
-<h3>External letters tenure dossier</h3>
-<p>Assessments from senior scholars elsewhere, which is why conference presence matters early.</p>
-
 <h2>More Job Guides</h2>
 
 <p>These cover what sits either side of the entry rank:</p>

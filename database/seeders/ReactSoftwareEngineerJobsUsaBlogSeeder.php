@@ -274,32 +274,6 @@ HTML;
 <h3>How do I know if my private company shares are worth anything?</h3>
 <p>Ask which exemption the plan uses. A reporting company registers on Form S-8; a non-reporting one relies on Rule 701, which caps twelve-month sales at the greatest of $1,000,000, 15 per cent of total assets, or 15 per cent of the class.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>React software engineer salary USA</h3>
-<p>Compare total compensation, not base. BLS publishes base-pay occupation medians of $135,980 for software developers and $92,650 for web developers.</p>
-
-<h3>RSU tax USA</h3>
-<p>Ordinary wage income at vesting, on the W-2, with FICA. Vest-date value sets the bill even if the price later falls.</p>
-
-<h3>83(b) election RSU</h3>
-<p>Not available. An RSU is not property under section 83. The election is for restricted stock and is due within 30 days of transfer.</p>
-
-<h3>Supplemental wage withholding rate</h3>
-<p>A flat 22 per cent, and 37 per cent on supplemental wages above $1 million in a calendar year, applied without regard to your W-4.</p>
-
-<h3>ISO AMT adjustment</h3>
-<p>The spread at exercise is an AMT adjustment on Form 6251, line 2i, unless you dispose of the stock in the same calendar year.</p>
-
-<h3>Stock options tax USA</h3>
-<p>An NSO is taxed at exercise as wages; an ISO is not, for regular tax. Which one you hold changes the whole calculation.</p>
-
-<h3>ESPP rules USA</h3>
-<p>A price floor of 85 per cent of market value, and accrual limited to $25,000 of stock value a year, both measured at grant.</p>
-
-<h3>React engineer levels USA</h3>
-<p>Numbered ladders are an employer construct. No federal source defines them, which the senior React guide covers.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

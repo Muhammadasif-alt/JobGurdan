@@ -282,32 +282,6 @@ JOBHTML;
 <h3>Who pays the LMIA fee for a janitor job?</h3>
 <p>The employer. The $1,000 fee cannot be paid by or recovered from the worker.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Janitor salary Toronto</h3>
-<p>A Job Bank median of $22.77 an hour, with Ontario's minimum wage rising to $17.95 on 1 October 2026.</p>
-
-<h3>Janitor jobs Edmonton</h3>
-<p>A median of $20.00 an hour, and low-wage LMIAs are not processed there while unemployment is 7.2%.</p>
-
-<h3>Custodian jobs Canada</h3>
-<p>School boards, hospitals and universities hire custodians directly, often with union benefits.</p>
-
-<h3>Cleaner jobs Halifax</h3>
-<p>A median of $19.00 an hour, in a province Job Bank rates Good.</p>
-
-<h3>Night janitor jobs</h3>
-<p>Common with building service contractors that clean offices after hours.</p>
-
-<h3>NOC 65312</h3>
-<p>Janitors, caretakers and heavy-duty cleaners, a TEER 5 occupation.</p>
-
-<h3>Minimum wage Canada 2026</h3>
-<p>From $15.00 in Alberta to $18.25 in British Columbia, with a federal rate of $18.15.</p>
-
-<h3>Janitor jobs in Canada for foreigners</h3>
-<p>Only through a low-wage LMIA, with a 10% cap and no processing in high-unemployment cities.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing cleaning jobs and routes into Canada? These cover it:</p>

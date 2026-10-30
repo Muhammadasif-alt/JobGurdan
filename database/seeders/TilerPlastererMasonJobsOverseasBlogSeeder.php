@@ -335,32 +335,6 @@ JOBHTML;
 <h3>How do I know a recruiter is genuine?</h3>
 <p>A genuine recruiter names the employer, gives you a written contract before travel and never charges you a fee. Check the agency's licence with your own country's overseas employment authority.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Tiler jobs in Dubai</h3>
-<p>Fit-out and building contractors recruit on MOHRE work permits.</p>
-
-<h3>Mason jobs in Saudi Arabia</h3>
-<p>Professional Verification test at home before the visa.</p>
-
-<h3>Plasterer jobs in UK with visa sponsorship</h3>
-<p>SOC 5321 is not on the Temporary Shortage List.</p>
-
-<h3>Floor tiler jobs UK sponsorship</h3>
-<p>SOC 5322 is on the list, with a &pound;33,400 standard going rate.</p>
-
-<h3>Gypsum plasterer jobs Gulf</h3>
-<p>Ask whether the job is plaster, render or drywall.</p>
-
-<h3>Construction trades visa scams</h3>
-<p>Never pay a fee before a signed contract.</p>
-
-<h3>Tile fixer jobs abroad</h3>
-<p>A portfolio of finished work matters as much as a certificate.</p>
-
-<h3>Block mason jobs UAE</h3>
-<p>No expatriate minimum wage; the contract is the binding figure.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the construction trades cluster:</p>

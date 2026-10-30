@@ -293,32 +293,6 @@ JOBHTML;
 <h3>What should I ask before accepting a receptionist offer?</h3>
 <p>The basic salary figure, which employment law the contract sits under, who pays for the visa, what the working hours and shifts are, and whether benefits such as annual flights are written into the contract.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Receptionist jobs in Dubai</h3>
-<p>The largest market in the country. Ask for the basic salary figure before comparing any two offers.</p>
-
-<h3>Hotel receptionist jobs UAE</h3>
-<p>Shift work with the strongest language premium, and usually housing or transport in the package.</p>
-
-<h3>Medical receptionist jobs Dubai</h3>
-<p>Steady clinic and hospital demand, where scheduling system experience counts.</p>
-
-<h3>Receptionist salary in UAE per month</h3>
-<p>About AED 3,000 to 9,000 depending on experience, languages and sector. The basic share decides gratuity.</p>
-
-<h3>DIFC receptionist jobs</h3>
-<p>Corporate front-desk roles under DIFC's own employment law, with DEWS contributions instead of gratuity.</p>
-
-<h3>UAE gratuity calculation</h3>
-<p>Basic salary only: 21 days per year for the first five years, 30 days for each year after.</p>
-
-<h3>Receptionist jobs in UAE with visa</h3>
-<p>Widely available. The visa is the employer's cost by law, never yours.</p>
-
-<h3>Front desk jobs Abu Dhabi</h3>
-<p>Government-linked, healthcare and corporate roles, where Arabic carries the most weight.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing Gulf routes and front-office work elsewhere? These cover them:</p>

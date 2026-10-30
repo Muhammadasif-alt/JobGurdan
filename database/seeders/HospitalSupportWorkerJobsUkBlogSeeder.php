@@ -216,24 +216,6 @@ HTML;
 <h3>What shifts do hospital support workers work?</h3>
 <p>Inpatient wards run day and night patterns including weekends and bank holidays. Outpatient clinics, day units and community teams are more likely to be daytime only. Every advert states the pattern, and it is worth more than the band in pay terms.</p>
 
-<h2>People Also Search For</h2>
-<h3>NHS band 2 salary 2026</h3>
-<p>&pound;25,272 in England as a single pay point, &pound;26,696 to &pound;28,988 in Scotland.</p>
-<h3>Healthcare support worker jobs near me</h3>
-<p>Search your nation's NHS portal by postcode, then compare the rota as well as the band.</p>
-<h3>Clinical support worker job description</h3>
-<p>Ward-based personal care and mobility support, usually with observations attached at Band 3.</p>
-<h3>NHS unsocial hours pay calculator</h3>
-<p>Band 2 is time plus 41 per cent on Saturdays and nights, time plus 83 per cent on Sundays and bank holidays.</p>
-<h3>Care support worker NHS band 2</h3>
-<p>The most common entry title in acute trusts, with no formal academic entry requirement.</p>
-<h3>Hospital jobs with no experience UK</h3>
-<p>Support worker, domestic, portering and ward clerk posts are the usual routes in without qualifications.</p>
-<h3>NHS values based interview questions</h3>
-<p>Dignity, compassion, teamwork, safe working and raising concerns. Answer with examples, not adjectives.</p>
-<h3>Healthcare assistant visa sponsorship UK</h3>
-<p>Possible under code 6131 in the NHS, closed under codes 6135 and 6136 in adult social care.</p>
-
 <h2>Related career guides</h2>
 <ul>
 <li><a href="/blog/physiotherapy-assistant-jobs-in-the-uk">Physiotherapy Assistant Jobs in the UK</a>: the same bands in a therapy department, where Band 3 means delegated treatment work.</li>

@@ -182,32 +182,6 @@ class OneWeekBeforeApprenticeshipTestBlogSeeder extends Seeder
 <h3>What if my test has different sections?</h3>
 <p>Replace the daily focus with the sections your programme confirms.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Apprenticeship test study plan</h3>
-<p>Seven days.</p>
-
-<h3>One week before apprenticeship test</h3>
-<p>Maths, reading, mechanics.</p>
-
-<h3>7 day study plan apprenticeship</h3>
-<p>Rest on day 7.</p>
-
-<h3>Apprenticeship test last minute</h3>
-<p>Find the weakest section.</p>
-
-<h3>Apprenticeship test checklist</h3>
-<p>ID and documents.</p>
-
-<h3>How to study for apprenticeship test</h3>
-<p>Short sessions.</p>
-
-<h3>Apprenticeship test day</h3>
-<p>Sleep and arrive early.</p>
-
-<h3>Aptitude test week plan</h3>
-<p>One timed test.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

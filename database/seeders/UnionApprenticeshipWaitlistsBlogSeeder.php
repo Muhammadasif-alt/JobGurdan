@@ -160,32 +160,6 @@ class UnionApprenticeshipWaitlistsBlogSeeder extends Seeder
 <h3>Does a high rank mean I start soon?</h3>
 <p>Not by itself. Hiring depends on contractor demand and the economy as well as your position.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Union apprenticeship waitlists</h3>
-<p>Length varies by programme.</p>
-
-<h3>How long is an apprenticeship waiting list</h3>
-<p>No fixed answer.</p>
-
-<h3>Union apprenticeship waiting time</h3>
-<p>Driven by employer demand.</p>
-
-<h3>Apprenticeship waitlist status</h3>
-<p>Ask the training office.</p>
-
-<h3>Apprenticeship check-in</h3>
-<p>Required at some schools.</p>
-
-<h3>NEIEP hiring list</h3>
-<p>Two years or until exhausted.</p>
-
-<h3>Apprenticeship list expiry</h3>
-<p>Record your own date.</p>
-
-<h3>Laborers training school waiting list</h3>
-<p>Quarterly check-ins.</p>
-
 <h2>A Note for Applicants in Pakistan</h2>
 
 <p>US union programmes expect work authorisation in the United States, and a waitlist place is not a visa. Do not pay an agent for a position on a list. Read <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">how to spot a fake overseas job offer</a> first.</p>

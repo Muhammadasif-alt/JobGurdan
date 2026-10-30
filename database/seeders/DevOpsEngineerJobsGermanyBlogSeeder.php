@@ -290,32 +290,6 @@ JOBHTML;
 <h3>Can I move to Germany to look for a DevOps job?</h3>
 <p>With the Opportunity Card, if you score at least six points and show about &euro;1,091 a month in funds. You can work up to 20 hours a week while you search.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>DevOps engineer salary Germany</h3>
-<p>A median of &euro;5,864 a month gross at the end of 2025, about &euro;70,368 a year.</p>
-
-<h3>Blue Card salary 2026 Germany</h3>
-<p>&euro;50,700 in general and &euro;45,934.20 for IT specialists and recent graduates.</p>
-
-<h3>DevOps jobs Berlin</h3>
-<p>A median of &euro;6,049 a month for the DevOps occupation group, below Stuttgart and Munich.</p>
-
-<h3>DevOps jobs Munich</h3>
-<p>A median of &euro;6,258 a month, second among the five largest tech cities.</p>
-
-<h3>IT jobs in Germany for English speakers</h3>
-<p>The Blue Card needs no German, though B1 German shortens the wait for permanent residence to 21 months.</p>
-
-<h3>Opportunity Card Germany</h3>
-<p>A points-based job search visa since June 2024, with part-time work allowed while you look.</p>
-
-<h3>Anabin H+ degree recognition</h3>
-<p>An H+ university and an equivalent degree rating, or a ZAB Statement of Comparability for &euro;208.</p>
-
-<h3>Net salary Germany 70000</h3>
-<p>About &euro;1,230 a month goes to employee social contributions before income tax.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing DevOps and cloud work in Germany and the US? These cover it:</p>

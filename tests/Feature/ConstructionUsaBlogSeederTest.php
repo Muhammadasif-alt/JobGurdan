@@ -26,7 +26,7 @@ it('renders the post with its long-tail sections and sibling guides', function (
         ->assertOk()
         ->assertSee('Construction Jobs in USA for Foreigners')
         ->assertSee('Visa Pathways for Construction Workers')
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('/blog/caregiver-jobs-in-uk-with-visa-sponsorship', false)
         ->assertSee(CONSTRUCTION_APPLY_URL, false);
 });

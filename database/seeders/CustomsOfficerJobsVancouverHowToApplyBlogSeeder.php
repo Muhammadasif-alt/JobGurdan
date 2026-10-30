@@ -161,32 +161,6 @@ class CustomsOfficerJobsVancouverHowToApplyBlogSeeder extends Seeder
 <h3>Can I apply directly from Pakistan?</h3>
 <p>Only if you are a Canadian citizen or permanent resident living abroad.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Customs officer jobs in Vancouver British Columbia</h3>
-<p>CBSA Border Services Officer posts at YVR, the land border and the port.</p>
-
-<h3>CBSA jobs Vancouver</h3>
-<p>Recruited nationally through the trainee notice, then posted.</p>
-
-<h3>Border services officer requirements</h3>
-<p>18 to train, diploma, unrestricted licence, posting anywhere.</p>
-
-<h3>CBSA officer trainee application</h3>
-<p>GC Jobs process 2026-EA-OIM-FB-02-0010, open to 24 June 2027.</p>
-
-<h3>Customs officer Canada training</h3>
-<p>Three weeks online and fifteen in residence.</p>
-
-<h3>Border services officer salary</h3>
-<p>$85,211 to $101,058 at FB-03.</p>
-
-<h3>CBSA entrance exam</h3>
-<p>Results valid indefinitely; a fail means a one-year wait.</p>
-
-<h3>CBSA physical abilities test</h3>
-<p>Physical control, ground defence and an agility drill, during training.</p>
-
 <h2>Bottom Line</h2>
 
 <p>Apply through the official trainee notice before 24 June 2027, prepare accurate documents, complete the firearms safety courses early and accept that CBSA decides your posting. A Vancouver preference is worth stating, but it is not a promise. This guide cannot promise selection or a posting.</p>

@@ -279,32 +279,6 @@ JOBHTML;
 <h3>Is accommodation included in gardener jobs?</h3>
 <p>Not always. Ask for housing, meals and transport terms in writing.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Landscaping jobs Canada</h3>
-<p>Search Job Bank and read each advert for who may apply.</p>
-
-<h3>Gardener jobs UAE</h3>
-<p>Employer-sponsored work permits; check housing and transport in writing.</p>
-
-<h3>Landscape labourer requirements</h3>
-<p>Some secondary education may be required; employers add their own criteria.</p>
-
-<h3>Grounds maintenance jobs</h3>
-<p>Lawn, bed and outdoor space care for commercial and public sites.</p>
-
-<h3>Irrigation technician jobs</h3>
-<p>Installation and repair of watering systems.</p>
-
-<h3>LMIA requested Job Bank</h3>
-<p>The employer has applied to hire a foreign worker; it is not an approval.</p>
-
-<h3>Gardener work permit UAE</h3>
-<p>Arranged by the employer; a visit visa does not allow work.</p>
-
-<h3>Seasonal landscaping jobs</h3>
-<p>Ask what happens when the season and the contract end.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

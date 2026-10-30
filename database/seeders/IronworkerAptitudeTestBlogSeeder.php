@@ -174,32 +174,6 @@ class IronworkerAptitudeTestBlogSeeder extends Seeder
 <h3>Do all ironworker programmes test?</h3>
 <p>No. One Minnesota programme lists no aptitude test at all.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Ironworker aptitude test</h3>
-<p>Set by each local.</p>
-
-<h3>Ironworker apprenticeship test</h3>
-<p>Check the format first.</p>
-
-<h3>Ironworker math test</h3>
-<p>Grade 10 level at Local 721.</p>
-
-<h3>Ironworker aptitude practice</h3>
-<p>Use original practice sets.</p>
-
-<h3>Ironworkers Local 721 test</h3>
-<p>70% on both tests.</p>
-
-<h3>Ironworkers 512 assessment</h3>
-<p>60-minute online test.</p>
-
-<h3>Apprenticeship entrance test maths</h3>
-<p>Fractions, percentages, measurement.</p>
-
-<h3>Trade apprenticeship test practice</h3>
-<p>Keep an error log.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

@@ -297,32 +297,6 @@ JOBHTML;
 <h3>What skills and qualifications do I need?</h3>
 <p>GCSE English and maths at grades 9 to 4, practical Microsoft 365 skills, accurate typing and strong organisation.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Office assistant salary UK</h3>
-<p>About GBP 24,800 to GBP 28,000 full-time, rising to GBP 30,000 and above for senior and executive assistant roles.</p>
-
-<h3>Admin assistant jobs UK</h3>
-<p>The same work under a different title; search both, plus office administrator and receptionist.</p>
-
-<h3>Office assistant visa sponsorship UK</h3>
-<p>Effectively closed since 22 July 2025, because the role is below the RQF Level 6 skill bar and off the eligible list.</p>
-
-<h3>Entry level office jobs UK</h3>
-<p>Many part-time and junior office roles are open to first-time candidates with GCSE-level education.</p>
-
-<h3>Office administrator jobs</h3>
-<p>A closely related title, often with more responsibility for systems, suppliers and scheduling.</p>
-
-<h3>Skilled Worker visa salary threshold 2026</h3>
-<p>GBP 41,700 a year, or the going rate if higher, plus GBP 1,270 held for 28 days.</p>
-
-<h3>Office assistant jobs London</h3>
-<p>The highest-paying region for the role, at the upper end of the national bands.</p>
-
-<h3>Right to work UK jobs</h3>
-<p>Settled status, a Graduate visa, the Youth Mobility Scheme and dependant visas all allow office work without sponsorship.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other UK routes and related roles? These cover them:</p>

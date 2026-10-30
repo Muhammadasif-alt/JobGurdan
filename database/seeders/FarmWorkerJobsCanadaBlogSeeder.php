@@ -328,32 +328,6 @@ JOBHTML;
 <h3>Is farm work in Canada seasonal or year round?</h3>
 <p>Both. Field harvesting is seasonal, while greenhouse, dairy, poultry and livestock operations run all year, and those year-round roles suit the Agricultural Stream's longer permits better than the eight-month seasonal programme.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>SAWP Canada</h3>
-<p>Open to Mexico and eleven Caribbean countries only, and recruited through the sending country's labour ministry rather than job boards.</p>
-
-<h3>LMIA approved farm jobs Canada</h3>
-<p>The right search term. An employer with a positive LMIA is what a work permit application needs.</p>
-
-<h3>Farm jobs in Canada with visa sponsorship</h3>
-<p>Not a category that exists in Canadian immigration. The mechanism is the LMIA, not sponsorship.</p>
-
-<h3>Fruit picking jobs Canada</h3>
-<p>Seasonal harvest work in Ontario, British Columbia and Quebec, often with a volume component in the pay.</p>
-
-<h3>Greenhouse jobs Canada</h3>
-<p>Year-round rather than seasonal, which makes it a better fit for the Agricultural Stream's longer permits.</p>
-
-<h3>Farm jobs in Canada with accommodation</h3>
-<p>Housing is a program requirement rather than a perk. Ask for the inspection date and the deduction.</p>
-
-<h3>Agri-Food Pilot Canada</h3>
-<p>Closed. All 1,010 places filled before the 14 May 2025 end date, with only pre-13 February 2025 applications still processing.</p>
-
-<h3>Farm worker salary Canada per hour</h3>
-<p>Judge it against the province's minimum wage, which ranges from $15.00 in Alberta to $18.25 in British Columbia.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing routes into Canada and elsewhere? These cover them:</p>

@@ -256,32 +256,6 @@ HTML;
 <h3>How do I tell if a developer job advert is a scam?</h3>
 <p>The clearest test is money. The FTC states that honest employers, including the federal government, will never ask you to pay to get a job. Treat forwarded cheques, equipment fees and quick-money promises as scams.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>React developer application process</h3>
-<p>Portfolio screen, recruiter call, take-home or live coding, system design for senior roles, then offer. Deployed links get opened; repositories often do not.</p>
-
-<h3>Federal hiring process steps</h3>
-<p>Announcement, application and assessment, rating and ranking, certification, selection, appointment, under OPM's competitive hiring rules.</p>
-
-<h3>What is category rating in federal hiring</h3>
-<p>Candidates are placed into two or more quality categories and the hiring manager may select anyone in the top category, replacing the old rule of three.</p>
-
-<h3>Veterans preference federal jobs</h3>
-<p>Absolute preference within each quality category, and an agency may not select a non-preference eligible without requesting to pass over the preference eligible.</p>
-
-<h3>Background check rights before a job offer</h3>
-<p>Stand-alone written notice, your written permission, and a copy of the report plus a Summary of Your Rights before any adverse decision is finalised.</p>
-
-<h3>Illegal interview questions USA</h3>
-<p>Anything tied to a protected characteristic, and any pre-offer question about disability. Pre-employment inquiries should be limited to what determines whether you are qualified.</p>
-
-<h3>Form I-9 three day rule</h3>
-<p>Section 2 must be completed within three business days of employment beginning, or by the first day for jobs shorter than that.</p>
-
-<h3>Job scam warning signs</h3>
-<p>Any request for payment to get the job, a cheque you are told to deposit and partly forward, fees for equipment or certification, and promises of high pay for little work.</p>
-
 <h2>Related career guides</h2>
 
 <ul>

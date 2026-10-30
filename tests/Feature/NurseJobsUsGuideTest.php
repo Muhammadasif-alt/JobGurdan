@@ -69,7 +69,7 @@ it('sets out what to check in a recruitment agency contract', function () {
     $body = Blog::where('slug', NURSE_SLUG)->value('content');
 
     expect($body)->toContain('early-exit figure')
-        ->toContain('never pay a placement fee');
+        ->toContain('Never pay a placement fee');
 });
 
 it('carries FAQ markup built from the post body', function () {

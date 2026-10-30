@@ -180,32 +180,6 @@ class DocumentsNeededToWorkAbroadBlogSeeder extends Seeder
 <h3>Can my family use my documents?</h3>
 <p>Dependants have separate eligibility and document conditions. Your approval does not establish theirs.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Documents needed to work abroad</h3>
-<p>Passport, offer, employer approval and visa documents.</p>
-
-<h3>Work abroad checklist</h3>
-<p>Seven document groups above.</p>
-
-<h3>What papers do you need for an overseas job</h3>
-<p>CV, evidence of experience and the visa documents.</p>
-
-<h3>Work visa documents list</h3>
-<p>Depends on the route and country.</p>
-
-<h3>Police certificate for visa</h3>
-<p>Only where the route asks for it.</p>
-
-<h3>Attestation of documents</h3>
-<p>Only where the destination requires it.</p>
-
-<h3>Certified translation for visa</h3>
-<p>Follow the authority's translation standard.</p>
-
-<h3>Apply for a work visa without an agent</h3>
-<p>See our step-by-step guide.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

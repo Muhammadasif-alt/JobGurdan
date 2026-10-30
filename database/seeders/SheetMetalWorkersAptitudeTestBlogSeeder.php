@@ -171,32 +171,6 @@ class SheetMetalWorkersAptitudeTestBlogSeeder extends Seeder
 <h3>Is there a spatial test?</h3>
 <p>Southern California lists a paper board test of three-dimensional visualisation.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Sheet metal workers aptitude test</h3>
-<p>Varies by local.</p>
-
-<h3>Sheet metal apprenticeship test</h3>
-<p>Check the sections.</p>
-
-<h3>Sheet metal math test</h3>
-<p>Fractions, decimals, algebra.</p>
-
-<h3>Sheet metal aptitude test practice</h3>
-<p>Use original sets.</p>
-
-<h3>Local 20 assessment</h3>
-<p>Four sections.</p>
-
-<h3>Local 88 JATC test</h3>
-<p>Math and reading exam.</p>
-
-<h3>SMART apprenticeship test</h3>
-<p>Run by the local JATC.</p>
-
-<h3>Sheet metal study plan</h3>
-<p>Two weeks.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

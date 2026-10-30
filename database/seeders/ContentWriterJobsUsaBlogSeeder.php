@@ -339,32 +339,6 @@ JOBHTML;
 <h3>Are content writer jobs remote?</h3>
 <p>Most are, which is genuinely one of the field's advantages. It also means you are competing nationally rather than locally, which is part of why the niche matters so much.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Remote content writer jobs USA</h3>
-<p>The default rather than the exception. It also means national competition, so a defined niche matters more than location.</p>
-
-<h3>Freelance content writing jobs</h3>
-<p>The majority of this market. Price for self-employment tax, unpaid research and gaps between contracts before comparing to a salary.</p>
-
-<h3>SEO content writer jobs</h3>
-<p>Search intent and on-page structure, not keyword density. The roles that pay well want a writer who understands search, not a keyword filler.</p>
-
-<h3>Entry level content writer jobs</h3>
-<p>The lowest barrier of any role on this site, which is exactly why it is crowded. Samples in a chosen niche beat general writing ability.</p>
-
-<h3>Content writer salary USA</h3>
-<p>$76,910 at the median for salaried work, with a $44,310 tenth percentile. Freelance rates are not comparable without deducting tax and unpaid time.</p>
-
-<h3>Content strategist jobs</h3>
-<p>The planning and coordination step above writing, and the most common in-house progression from a content writer role.</p>
-
-<h3>Ghostwriting jobs USA</h3>
-<p>Well paid and legitimate. Keep some bylined work alongside it or you will have nothing to show later.</p>
-
-<h3>Health and medical writing jobs</h3>
-<p>Among the best-paid niches, because accuracy is reviewed and errors carry consequences. Often wants a credentialled reviewer in the loop.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking across the rest of the writing and digital market? These cover it:</p>

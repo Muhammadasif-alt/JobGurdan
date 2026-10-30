@@ -190,32 +190,6 @@ class HighestPayingBlueCollarJobsAbroadBlogSeeder extends Seeder
 <h3>Where do these wage figures come from?</h3>
 <p>From the US Bureau of Labor Statistics, Occupational Employment and Wage Statistics, May 2025.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Highest paying blue collar jobs abroad</h3>
-<p>Elevator mechanics, crane operators and specialist trades lead.</p>
-
-<h3>Electrician jobs abroad</h3>
-<p>In demand in Germany and Canada with recognised qualifications.</p>
-
-<h3>Welder jobs abroad</h3>
-<p>Certified welders are in demand in Canada.</p>
-
-<h3>Offshore jobs Norway</h3>
-<p>Need offshore safety certificates and a work permit.</p>
-
-<h3>Trade jobs with visa sponsorship</h3>
-<p>Available when the trade is on a shortage list.</p>
-
-<h3>Truck driver jobs abroad</h3>
-<p>Canada and several European countries; see our country guide.</p>
-
-<h3>Elevator mechanic salary</h3>
-<p>$109,910 median in the US benchmark.</p>
-
-<h3>Fake overseas job offers</h3>
-<p>Any upfront fee or guaranteed visa is a warning sign.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

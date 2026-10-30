@@ -275,17 +275,6 @@ JOBHTML;
 <h3>Is ISTQB certification worth it?</h3>
 <p>It is a recognised credential that can help an application past a first screen, particularly for entry-level candidates. It does not replace the college diploma or degree that Job Bank associates with each occupation code.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li><strong>Software tester salary Canada</strong>: median 35.00 an hour under NOC 22222, per Job Bank wages updated 19 November 2025</li>
-    <li><strong>QA analyst salary Toronto</strong>: the higher figures belong to NOC 21222, median 46.15 an hour nationally</li>
-    <li><strong>NOC code for QA tester Canada</strong>: 22222 for testing technicians, 21222 for QA analysts; the code, not the title, drives immigration eligibility</li>
-    <li><strong>Entry level QA jobs Canada no experience</strong>: the market low is 17.50 an hour, well below the salary bands usually quoted</li>
-    <li><strong>Manual testing vs automation testing jobs</strong>: advertised volume concentrates in the specialist classification, not pure manual testing</li>
-    <li><strong>ISTQB certification Canada</strong>: a screening advantage, not a substitute for the education each code expects</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

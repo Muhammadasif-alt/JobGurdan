@@ -405,32 +405,6 @@ JOBHTML;
 <h3>Can I use AI to write my M&amp;S application?</h3>
 <p>To a point. M&amp;S publishes guidance saying to use AI to improve rather than define your application: no pasted generic answers, no invented examples, no live help during interviews or assessments, and do not treat AI as your only research about the business.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>M&amp;S jobs near me</h3>
-<p>Filter the In Store section of the M&amp;S careers site by location; vacancies are tied to an individual store with its own shift pattern.</p>
-
-<h3>M&amp;S customer assistant pay</h3>
-<p>&pound;13.41 an hour nationally and &pound;14.74 in London from 1 April 2026, plus &pound;3.00 an hour for time worked between 10pm and 6am.</p>
-
-<h3>M&amp;S Christmas jobs</h3>
-<p>Seasonal customer assistant, M&amp;S Cafe and store operations roles across more than 500 UK and Irish stores, with more than one in five of one recent intake made permanent.</p>
-
-<h3>M&amp;S colleague discount</h3>
-<p>20% across all M&amp;S products and many third-party brands, for you and a household member, after you complete your probation period.</p>
-
-<h3>M&amp;S online assessment</h3>
-<p>A roughly 20-minute interactive assessment built on real store scenarios, completed in a single sitting, sent after the application form.</p>
-
-<h3>M&amp;S visual merchandiser jobs</h3>
-<p>The third in-store family M&amp;S lists alongside customer assistants and retail management, and the one most guides forget to mention.</p>
-
-<h3>Retail jobs visa sponsorship UK</h3>
-<p>Sales and retail assistant roles are ineligible under the Skilled Worker rules in force since 22 July 2025, so no UK retailer can sponsor them.</p>
-
-<h3>Skilled Worker visa salary threshold</h3>
-<p>&pound;41,700 a year or the occupation's going rate, whichever is higher, at RQF level 6, under the rules in force since 22 July 2025.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If M&amp;S is one option rather than the only one, these cover the rest of the UK market:</p>

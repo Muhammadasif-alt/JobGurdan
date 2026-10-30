@@ -423,32 +423,6 @@ JOBHTML;
 <h3>Will Great British Railways change Network Rail jobs?</h3>
 <p>The Railways Bill, introduced on 5 November 2025, is intended to fold Network Rail's infrastructure role into Great British Railways, with the consolidation targeted for the end of 2027. It does not change how you apply today, but the employer name on the contract may change during your career.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Network Rail jobs near me</h3>
-<p>Filter Network Rail's own portal by the Maintenance category and then by depot; maintenance vacancies are tied to a specific depot and section of route rather than a general town.</p>
-
-<h3>Network Rail apprenticeship salary</h3>
-<p>The Level 3 Rail Engineering Technician Apprenticeship starts at &pound;22,293 over three years, with the advertised intake beginning in November 2026.</p>
-
-<h3>Track maintenance technician requirements</h3>
-<p>Aged 18 by the start date, a pre-employment medical with drug and alcohol screening, and GCSE grades 9-4 in English, Science and one other subject plus 9-5 in Maths for the apprenticeship route.</p>
-
-<h3>Railway 200</h3>
-<p>A 2025 campaign marking 200 years since the first fare-paying steam passenger journey on the Stockton and Darlington Railway on 27 September 1825. Its exhibition train finished touring in June 2026.</p>
-
-<h3>Rail Staff Leisure Card</h3>
-<p>Gives 75% off Anytime and Off-Peak fares and some Rover and Ranger tickets, leisure travel only, and the underlying privilege arrangement is non-contractual and reviewed annually by train operators.</p>
-
-<h3>Great British Railways timeline</h3>
-<p>The Railways Bill was introduced on 5 November 2025; GBR is expected to become operational around twelve months after Royal Assent, with consolidation targeted for the end of 2027.</p>
-
-<h3>SOC code for rail maintenance</h3>
-<p>SOC 2020 code 8153, rail construction and maintenance operatives, previously 8143 under SOC 2010. It is not on the Home Office's eligible occupation list.</p>
-
-<h3>Skilled Worker visa salary threshold</h3>
-<p>&pound;41,700 a year or the occupation's going rate, whichever is higher, since 22 July 2025. The Temporary Shortage List route uses a &pound;33,400 floor and closes to new certificates of sponsorship after 31 December 2026.</p>
-
 <h2>More Job Guides</h2>
 
 <p>If Network Rail is one option rather than the only one, these cover the rest of the UK market:</p>

@@ -384,32 +384,6 @@ JOBHTML;
 <h3>What is the difference between a school administrator and a school secretary?</h3>
 <p>The roles overlap. A school secretary is usually the first contact for parents and visitors, while a school administrator title may carry more data, admissions, attendance or finance work.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>School secretary salary UK</h3>
-<p>£22,000 to £28,000 per the National Careers Service.</p>
-
-<h3>School business manager salary</h3>
-<p>£26,000 to £52,000 per the National Careers Service.</p>
-
-<h3>Term time only admin jobs</h3>
-<p>Common in schools; check the actual salary, not only the FTE.</p>
-
-<h3>School admin jobs no experience</h3>
-<p>Start as an admin assistant or take a Level 2 or 3 apprenticeship.</p>
-
-<h3>School business professional apprenticeship</h3>
-<p>Level 4, typically 18 months.</p>
-
-<h3>Teaching Vacancies admin jobs</h3>
-<p>The Administration, HR, data and finance category, England only.</p>
-
-<h3>School receptionist jobs</h3>
-<p>Often advertised as school secretary or school office administrator.</p>
-
-<h3>School secretary visa sponsorship</h3>
-<p>Not possible on the Skilled Worker visa; SOC 4213 is ineligible.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at other office or education work? These cover it:</p>

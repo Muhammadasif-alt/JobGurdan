@@ -38,7 +38,7 @@ it('renders with its long-tail sections', function () {
     $this->get('/blog/'.DENTAL_USA_SLUG)
         ->assertOk()
         ->assertSee('Dental Assistant Jobs in USA')
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('danb.org/state-requirements');
 });
 

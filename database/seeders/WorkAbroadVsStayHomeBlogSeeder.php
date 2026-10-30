@@ -166,32 +166,6 @@ class WorkAbroadVsStayHomeBlogSeeder extends Seeder
 <h3>Should I resign before the visa is approved?</h3>
 <p>No. Keep your job until the permission and contract are confirmed in writing.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Work abroad vs stay home</h3>
-<p>Compare real savings, career value and family needs.</p>
-
-<h3>Pros and cons of working abroad</h3>
-<p>Savings and training against costs and separation.</p>
-
-<h3>Is it worth working overseas</h3>
-<p>Only with a verified offer and a lawful route.</p>
-
-<h3>Benefits of working in another country</h3>
-<p>Depend on the role and your goals.</p>
-
-<h3>Working abroad savings</h3>
-<p>Use take-home income, not gross salary.</p>
-
-<h3>Relocation costs for work abroad</h3>
-<p>List every upfront cost and who pays it.</p>
-
-<h3>Leave Pakistan for work</h3>
-<p>Check emigration rules and the work route.</p>
-
-<h3>Work abroad checklist</h3>
-<p>See Step 8 above.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

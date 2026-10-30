@@ -301,32 +301,6 @@ JOBHTML;
 <h3>What does wireman mean in Gulf job adverts?</h3>
 <p>A general trade title for an electrician working on building wiring, often asking for an ITI-type trade certificate. It is not a licence grade.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Industrial electrician salary</h3>
-<p>$74,550 median in manufacturing, over $103,000 in refining, power and oil and gas.</p>
-
-<h3>Residential electrician salary</h3>
-<p>$63,580 median at residential builders, $61,570 at electrical contractors.</p>
-
-<h3>Maintenance electrician pay</h3>
-<p>Commercial and industrial equipment repairers had a $74,090 median.</p>
-
-<h3>Power plant electrician salary</h3>
-<p>$106,640 median in power generation; substation and relay repairers $103,020.</p>
-
-<h3>Inside wireman apprenticeship</h3>
-<p>About five years, 8,000 on-the-job hours and around 900 classroom hours.</p>
-
-<h3>ITI wireman course</h3>
-<p>A two-year trade under India's Craftsmen Training Scheme.</p>
-
-<h3>Commercial vs residential electrician</h3>
-<p>Nonresidential building construction $64,010, residential $63,580 at the median.</p>
-
-<h3>Electrician overtime pay</h3>
-<p>At least time and a half over 40 hours for non-exempt workers.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the electrician cluster:</p>

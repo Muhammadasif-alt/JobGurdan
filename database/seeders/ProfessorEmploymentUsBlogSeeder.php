@@ -311,32 +311,6 @@ JOBHTML;
 <h3>Is a US professor the same as a UK professor?</h3>
 <p>No. In the US it is an ordinary career rank held by many faculty. In the UK it is a senior title held by few, and the usual equivalent of a US assistant or associate professor is Lecturer or Senior Lecturer.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>University professor salary USA</h3>
-<p>$163,836 average for a full professor on AAUP 2025&ndash;26 figures; $119,836 across all ranks.</p>
-
-<h3>Associate professor promotion requirements</h3>
-<p>Normally decided with tenure inside a probationary period of no more than seven years.</p>
-
-<h3>Full professor requirements</h3>
-<p>No fixed clock. Departments promote on the record, which is why many careers stop at associate.</p>
-
-<h3>Nine month faculty contract</h3>
-<p>The US standard. Summer salary comes from teaching or grants, not from the contract.</p>
-
-<h3>Teaching load at US universities</h3>
-<p>Two courses a semester at research universities, up to five at community colleges.</p>
-
-<h3>Non-tenure-track professor titles</h3>
-<p>Teaching professor, professor of practice, clinical, research, visiting and adjunct.</p>
-
-<h3>Professor vs lecturer USA</h3>
-<p>Professor ranks are tenure-system; lecturer and instructor usually are not.</p>
-
-<h3>Adjunct professor pay per course</h3>
-<p>$4,093 for a standard three-credit section on AAUP figures for 2024&ndash;25.</p>
-
 <h2>More Job Guides</h2>
 
 <p>These cover the parts of the academic career this page assumes:</p>

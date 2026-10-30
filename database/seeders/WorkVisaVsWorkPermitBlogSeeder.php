@@ -164,32 +164,6 @@ class WorkVisaVsWorkPermitBlogSeeder extends Seeder
 <h3>Which document proves my right to work?</h3>
 <p>The one your authority issues for your route. Check its conditions.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Work visa vs work permit difference</h3>
-<p>Purpose differs.</p>
-
-<h3>Visa or permit to work abroad</h3>
-<p>Depends on the country.</p>
-
-<h3>Work authorization explained</h3>
-<p>Check conditions.</p>
-
-<h3>Visa permit comparison</h3>
-<p>Use the table.</p>
-
-<h3>Canada work permit not a visa</h3>
-<p>Separate documents.</p>
-
-<h3>UK Skilled Worker visa work rights</h3>
-<p>Included in the visa.</p>
-
-<h3>EU Blue Card residence title</h3>
-<p>Qualified employment.</p>
-
-<h3>Employer specific work permit</h3>
-<p>Linked to an employer.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

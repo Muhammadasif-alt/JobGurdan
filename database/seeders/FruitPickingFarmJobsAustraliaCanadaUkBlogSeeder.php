@@ -314,32 +314,6 @@ JOBHTML;
 <h3>Should I pay a recruiter for a farm job abroad?</h3>
 <p>Be very careful. For the UK route, check with the approved operator before sending money, and never pay for a "guaranteed" visa.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Fruit picking jobs</h3>
-<p>Harvest work in Australia, Canada and the UK, each with its own permission rules.</p>
-
-<h3>Farm worker visa</h3>
-<p>A search term, not one visa; each country has a different route.</p>
-
-<h3>Seasonal worker jobs abroad</h3>
-<p>Temporary harvest and crop work through official programmes.</p>
-
-<h3>Working holiday visa 417 and 462</h3>
-<p>Nationality- and age-based visas for working holiday makers in Australia.</p>
-
-<h3>PALM scheme</h3>
-<p>Australia's route for workers from nine Pacific island countries and Timor-Leste.</p>
-
-<h3>Seasonal Agricultural Worker Program</h3>
-<p>Canada's route for participating countries including Mexico and Caribbean countries.</p>
-
-<h3>UK Seasonal Worker visa</h3>
-<p>Sponsored through an approved scheme operator, for up to six months.</p>
-
-<h3>Farm jobs in Canada</h3>
-<p>Search Job Bank for farm, fruit, greenhouse and crop roles.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

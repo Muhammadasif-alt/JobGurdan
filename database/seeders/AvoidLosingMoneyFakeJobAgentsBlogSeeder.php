@@ -151,32 +151,6 @@ class AvoidLosingMoneyFakeJobAgentsBlogSeeder extends Seeder
 <h3>Can a recovery agent get my money back?</h3>
 <p>Be suspicious of anyone who asks for an upfront fee to recover money.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Fake job agents</h3>
-<p>Verify the licence.</p>
-
-<h3>How to avoid job agent scam</h3>
-<p>Check payments.</p>
-
-<h3>Overseas job agent fraud</h3>
-<p>Warning-sign table.</p>
-
-<h3>Verify recruitment agency abroad</h3>
-<p>Use the register.</p>
-
-<h3>BEOE overseas employment promoter</h3>
-<p>Licensed agencies.</p>
-
-<h3>Recruitment fee rules UK</h3>
-<p>Workers generally not charged.</p>
-
-<h3>What to do if scammed job</h3>
-<p>Contact your bank first.</p>
-
-<h3>Report recruitment fraud Pakistan</h3>
-<p>BEOE and NCCIA.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

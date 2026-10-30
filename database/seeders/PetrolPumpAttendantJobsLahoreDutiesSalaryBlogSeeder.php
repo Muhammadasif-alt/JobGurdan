@@ -23,7 +23,7 @@ use Illuminate\Database\Seeder;
  *    business-partner section. Wafi Energy fetched: exclusive licensee of the Shell brand in Pakistan; Shell Pakistan
  *    Limited became Wafi Energy Pakistan Limited in 2025; applications only to specific vacancies. TOTALPARCO careers
  *    showed "No current openings".
- * 4. FAQs expanded to eight; eight People Also Search For entries added.
+ * 4. FAQs expanded to eight.
  *
  * No Lahore poster was supplied; the featured image and steps graphic were generated in the house style. The portal
  * listing is in GuideJobListingsSeeder. updateOrCreate, so re-running is safe.
@@ -160,32 +160,6 @@ class PetrolPumpAttendantJobsLahoreDutiesSalaryBlogSeeder extends Seeder
 
 <h3>Is there one application form for all pumps?</h3>
 <p>No. Follow each station's or company's instructions.</p>
-
-<h2>People Also Search For</h2>
-
-<h3>Petrol pump attendant jobs in Lahore</h3>
-<p>Ask station managers and check company careers pages.</p>
-
-<h3>Petrol pump jobs in Lahore Pakistan</h3>
-<p>Attendant, cashier, car wash and shop roles.</p>
-
-<h3>Petrol pump attendant salary in Lahore</h3>
-<p>At least Rs 40,000 a month for 26 days.</p>
-
-<h3>Petrol pump jobs in Lahore for freshers</h3>
-<p>Look for stations that train on the job.</p>
-
-<h3>How to apply for petrol pump jobs in Lahore</h3>
-<p>CV to the station manager or company portal.</p>
-
-<h3>Punjab minimum wage 2025</h3>
-<p>Rs 40,000 a month from 1 July 2025.</p>
-
-<h3>PSO petrol pump jobs</h3>
-<p>Company posts online; outlet staff via the dealer.</p>
-
-<h3>Shell petrol pump jobs Lahore</h3>
-<p>Shell stations are licensed to Wafi Energy.</p>
 
 <h2>Bottom Line</h2>
 

@@ -317,32 +317,6 @@ JOBHTML;
 <h3>Can I get a security licence before I have a job?</h3>
 <p>Usually not. Individual licences are processed through a licensed security company for a specific emirate and role category.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>SIRA license Dubai</h3>
-<p>Dubai's security licence, processed through a licensed security company.</p>
-
-<h3>PSBD license Abu Dhabi</h3>
-<p>The licence for Abu Dhabi, Sharjah and the other northern emirates.</p>
-
-<h3>CCTV operator jobs UAE</h3>
-<p>A separately licensed category for physical security roles.</p>
-
-<h3>Security supervisor salary UAE</h3>
-<p>Quoted from about AED 4,000 a month, with no official data.</p>
-
-<h3>Cyber security jobs Dubai</h3>
-<p>IT roles with certifications instead of a guard licence.</p>
-
-<h3>CISSP requirements</h3>
-<p>Five years of paid work in two or more of the eight domains.</p>
-
-<h3>UAE labour law overtime</h3>
-<p>Two hours a day and 144 hours in any three weeks at most.</p>
-
-<h3>Security jobs with accommodation UAE</h3>
-<p>Common in guarding, but a contract term rather than a legal right.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing security and UAE jobs? These cover them:</p>

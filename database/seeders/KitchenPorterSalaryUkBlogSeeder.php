@@ -236,32 +236,6 @@ JOBHTML,
 <h3>Do foreign workers earn the same as British workers?</h3>
 <p>Yes. UK minimum wage law applies to everyone working legally.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Kitchen porter salary UK</h3>
-<p>At least £12.71 an hour at age 21 and over.</p>
-
-<h3>Kitchen porter hourly rate</h3>
-<p>Set by each employer; never below the legal minimum.</p>
-
-<h3>National Living Wage 2026</h3>
-<p>£12.71 an hour from April 2026 for ages 21 and over.</p>
-
-<h3>Kitchen porter take-home pay</h3>
-<p>About £1,880 a month at the minimum wage.</p>
-
-<h3>Kitchen porter salary in PKR</h3>
-<p>About PKR 826,125 gross a month at the minimum wage.</p>
-
-<h3>Kitchen porter visa sponsorship</h3>
-<p>Generally not available.</p>
-
-<h3>UK hospitality jobs</h3>
-<p>Open to people who already have the right to work.</p>
-
-<h3>Cleaner job UK from Pakistan</h3>
-<p>Only with an existing right to work.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

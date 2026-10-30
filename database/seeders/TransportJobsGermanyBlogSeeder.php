@@ -319,32 +319,6 @@ JOBHTML;
 <h3>Who issues the driver card in Germany?</h3>
 <p>The authorities designated by each federal state, under the Fahrpersonalverordnung. The KBA produces the cards and maintains the register.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Berufskraftfahrer salary</h3>
-<p>3,048 euros a month is the official median for full-time freight drivers.</p>
-
-<h3>Code 95 Germany</h3>
-<p>The professional driver qualification, refreshed every five years.</p>
-
-<h3>CE licence Germany</h3>
-<p>Tractor plus trailer or semi-trailer over 750 kg; normally issued at 21.</p>
-
-<h3>Truck driver visa Germany</h3>
-<p>Section 24a BeschV allows agency consent for up to 15 months.</p>
-
-<h3>Chancenkarte requirements</h3>
-<p>Six points, a two-year qualification or degree, and A1 German or B2 English.</p>
-
-<h3>German minimum wage 2026</h3>
-<p>13.90 euros an hour, rising to 14.60 euros in 2027.</p>
-
-<h3>Fahrerkarte application</h3>
-<p>Applied for at the authority designated by your federal state.</p>
-
-<h3>ADR certificate Germany</h3>
-<p>Training and examination run by the IHK, in German.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing driving and European work routes? These cover them:</p>

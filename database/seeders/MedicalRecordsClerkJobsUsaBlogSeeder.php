@@ -363,32 +363,6 @@ JOBHTML;
 <h3>Where can I apply for medical records jobs without using a job aggregator?</h3>
 <p>AHIMA runs its own board, CareerAssist, for this profession. Federal records roles at the VA, the Indian Health Service and military facilities are advertised on USAJOBS. Large health systems such as Kaiser Permanente and Sutter Health post everything on their own careers sites.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Medical records clerk salary</h3>
-<p>A $51,140 national median as of May 2025, ranging from under $37,000 to over $81,150 depending on setting and credentials.</p>
-
-<h3>AHIMA CCA certification requirements</h3>
-<p>A high school diploma, and nothing else. Coding experience and training are recommended rather than required.</p>
-
-<h3>RHIT certification</h3>
-<p>Registered Health Information Technician, requiring an associate degree from a CAHIIM-accredited HIM program.</p>
-
-<h3>Health information technician jobs</h3>
-<p>A separate and better-paid BLS occupation at a $68,020 median, projected to grow 15.9 per cent by 2035.</p>
-
-<h3>Entry level medical records jobs</h3>
-<p>Realistic on a high school diploma, most often in physician offices and nursing facilities rather than hospitals.</p>
-
-<h3>Medical records clerk job description</h3>
-<p>Retrieval and filing, release of information, chart deficiency review and electronic health record maintenance.</p>
-
-<h3>Remote medical records jobs</h3>
-<p>Document processing, release of information and coding support, usually offered after on-site experience.</p>
-
-<h3>Medical records salary by state</h3>
-<p>Published by BLS on the State &amp; Area Data tab of its medical records specialists page.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing health care and office roles you can enter without a degree? These cover them:</p>

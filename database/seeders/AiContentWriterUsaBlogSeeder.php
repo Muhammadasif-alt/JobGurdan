@@ -259,32 +259,6 @@ JOBHTML;
 <h3>Do I need to disclose that I used AI?</h3>
 <p>It depends on the employer and the end client, and it is a fair question to ask before starting. Some contracts require disclosure, some prohibit AI use entirely, and some are indifferent as long as the work is accurate and original.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>AI writer jobs USA</h3>
-<p>Marketing agencies, SaaS companies and content platforms, hiring remote-first for briefing, drafting and editing rather than for prompting alone.</p>
-
-<h3>AI content writer salary USA</h3>
-<p>Roughly $35,000 to $50,000 advertised at entry level, $50,000 to $75,000 mid-level with editing and SEO skills, and higher in technical and specialised niches.</p>
-
-<h3>AI content creator jobs worldwide</h3>
-<p>Video scripts, social captions and multi-format content alongside writing, hired internationally with rates varying sharply by client and country.</p>
-
-<h3>Freelance AI content writer jobs</h3>
-<p>The most accessible entry point, won on sample quality rather than credentials. Agree the pay structure and revision limit before starting.</p>
-
-<h3>AI content writer jobs for students</h3>
-<p>Flexible and project-paid, usually starting with freelance work or part-time content roles at startups that double as portfolio building.</p>
-
-<h3>AI content writer jobs no experience</h3>
-<p>Practice pieces showing an AI draft meaningfully improved are commonly accepted in place of a work history for junior and freelance roles.</p>
-
-<h3>Remote AI writer jobs</h3>
-<p>The default arrangement. Full-time roles may ask for time-zone overlap; freelance contracts are usually fully asynchronous.</p>
-
-<h3>Content writer vs AI content writer</h3>
-<p>Largely the same craft now, since most content roles assume AI fluency. What differs between postings is volume expectation versus research depth.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at the rest of the remote writing market? These cover it:</p>

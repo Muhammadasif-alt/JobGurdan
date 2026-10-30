@@ -392,32 +392,6 @@ JOBHTML;
 <h3>Where can I find legitimate public safety jobs in Canada?</h3>
 <p>Use the Government of Canada Jobs portal and the official CBSA, CSC, RCMP and Public Safety Canada career pages, plus provincial and municipal government sites for local jobs.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Border services officer requirements</h3>
-<p>18 before training, a diploma or equivalent, an unrestricted licence and willingness to work anywhere.</p>
-
-<h3>CBSA salary</h3>
-<p>$80,344 to $89,462 as a trainee and up to $103,079 as an FB-03 officer.</p>
-
-<h3>RCMP requirements</h3>
-<p>Citizen or permanent resident, 19 to be hired, a diploma and 26 weeks at Depot.</p>
-
-<h3>RCMP cadet pay</h3>
-<p>$1,000 a week during training, up to $26,000.</p>
-
-<h3>Correctional officer jobs in Canada</h3>
-<p>CSC and provincial corrections hire; our full guide compares the routes.</p>
-
-<h3>Emergency management jobs in Canada</h3>
-<p>Analyst and coordinator roles in federal, provincial and municipal governments.</p>
-
-<h3>Public Safety Canada careers</h3>
-<p>Policy, program and emergency management jobs posted on GC Jobs.</p>
-
-<h3>FSWEP public safety jobs</h3>
-<p>CBSA and CSC both hire students through FSWEP.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing public safety careers? These go deeper:</p>

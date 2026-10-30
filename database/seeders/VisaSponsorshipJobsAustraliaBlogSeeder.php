@@ -305,17 +305,6 @@ JOBHTML;
 <h3>Is the regional 494 visa easier to get?</h3>
 <p>It is a different visa, not an easier one. It lets regional employers sponsor skilled workers where they cannot source an appropriately skilled Australian worker in their region, and it is provisional, with conditions attached to where you live and work.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li><strong>Skills in Demand visa 482 occupation list</strong>: the Core Skills stream uses the Core Skills Occupation List, confirmed in the legislative instrument</li>
-    <li><strong>TSMIT 2026 Australia</strong>: the threshold for a 482 nomination is now the Core Skills Income Threshold, indexed and published by Home Affairs</li>
-    <li><strong>Companies that sponsor visas in Australia</strong>: only businesses approved as sponsors can nominate, which is the first of three separate approvals</li>
-    <li><strong>186 visa Temporary Residence Transition requirements</strong>: no occupation list applies; eligibility follows your most recently held temporary skilled visa</li>
-    <li><strong>494 regional sponsored visa Australia</strong>: provisional, for regional employers with identified local shortages</li>
-    <li><strong>ANZSCO code list Australia</strong>: the code, not the job title, decides list membership, caveats and the assessing authority</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

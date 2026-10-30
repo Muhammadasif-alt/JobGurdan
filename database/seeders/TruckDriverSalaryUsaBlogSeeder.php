@@ -203,32 +203,6 @@ class TruckDriverSalaryUsaBlogSeeder extends Seeder
 <h3>Do truck drivers get overtime?</h3>
 <p>It depends. Many drivers are paid by the mile and are exempt from federal overtime rules, so check how an employer pays before you accept a job.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Truck driver salary in USA</h3>
-<p>$28.19 an hour at the median, BLS May 2025.</p>
-
-<h3>Truck driver hourly rate USA</h3>
-<p>The mean was $28.71 an hour.</p>
-
-<h3>Truck driver monthly pay USA</h3>
-<p>About $4,887 gross at the median and full-time hours.</p>
-
-<h3>Truck driver salary in PKR</h3>
-<p>Convert at your provider's real rate, after expenses.</p>
-
-<h3>CDL driver salary</h3>
-<p>The BLS figures are for drivers who hold a Class A CDL.</p>
-
-<h3>Highest paying states for truckers</h3>
-<p>Alaska, Washington and the District of Columbia in May 2025.</p>
-
-<h3>Foreign truck driver in USA</h3>
-<p>You need work authorisation first, then a US CDL.</p>
-
-<h3>Warehouse worker salary USA</h3>
-<p>Covered in the warehouse salary guide.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

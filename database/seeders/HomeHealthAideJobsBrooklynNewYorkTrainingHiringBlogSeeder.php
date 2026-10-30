@@ -24,7 +24,7 @@ use Illuminate\Database\Seeder;
  *    Russian, a Brooklyn site at 626 Sheepshead Bay Road, immediate placement for qualified aides. VNS Health fetched:
  *    welcomes certified HHAs or those who wish to become certified, people with resume gaps or returning to work; a
  *    Brooklyn HHA posting rendered by headless Chrome listed $19.86 to $22.00 an hour.
- * 5. FAQs expanded to eight; eight People Also Search For entries and a note for readers in Pakistan added.
+ * 5. FAQs expanded to eight and a note for readers in Pakistan added.
  *
  * No Brooklyn poster was supplied; the featured image was generated in the house style. The portal listing is in
  * GuideJobListingsSeeder. updateOrCreate, so re-running is safe.
@@ -146,32 +146,6 @@ class HomeHealthAideJobsBrooklynNewYorkTrainingHiringBlogSeeder extends Seeder
 
 <h3>Can foreigners apply?</h3>
 <p>Only with existing US work authorisation; no sponsorship is offered for these posts.</p>
-
-<h2>People Also Search For</h2>
-
-<h3>Home health aide jobs in Brooklyn New York</h3>
-<p>Agency posts after Department of Health approved training.</p>
-
-<h3>Home health aide training</h3>
-<p>75 hours of core training plus competency evaluation.</p>
-
-<h3>HHA certificate</h3>
-<p>Issued after an approved programme, not bought online.</p>
-
-<h3>Home care agencies in Brooklyn hiring</h3>
-<p>Check identity, supervision and guaranteed hours.</p>
-
-<h3>Home health aide certification requirements New York</h3>
-<p>Approved training and a competency evaluation.</p>
-
-<h3>Free HHA training Brooklyn</h3>
-<p>Offered by some agencies with placement afterwards.</p>
-
-<h3>Home health aide pay NYC</h3>
-<p>$19.65 minimum in 2026.</p>
-
-<h3>Home health aide jobs no experience Brooklyn</h3>
-<p>Possible once certified, with training-to-hire agencies.</p>
 
 <h2>Bottom Line</h2>
 

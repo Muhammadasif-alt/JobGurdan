@@ -379,19 +379,6 @@ JOBHTML;
 <h3>Is there really no Online Assistant job at Woolworths?</h3>
 <p>Not under that title. There are zero live vacancies called Online Assistant; searching it appears to return results only because it partially matches Assistant Online Manager. For online grocery work the real titles are Assistant Online Manager, Online Manager, Fulfilment Team Member and Dispatch Team Member.</p>
 
-<h2>People Also Search For</h2>
-
-<ul>
-    <li>Woolworths store team member pay rate 2026</li>
-    <li>Woolworths casual hourly rate Sunday</li>
-    <li>Woolworths enterprise agreement 2024 pay rates</li>
-    <li>Retail award junior rates by age Australia</li>
-    <li>Does Woolworths sponsor visa Australia</li>
-    <li>Student visa work hours Australia 48 hours</li>
-    <li>Woolworths careers application process</li>
-    <li>Woolworths job scam warning</li>
-</ul>
-
 <h2>More Job Guides</h2>
 
 <ul>

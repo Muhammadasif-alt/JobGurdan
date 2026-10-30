@@ -168,32 +168,6 @@ class UaPlumberPipefitterApprenticeshipTestBlogSeeder extends Seeder
 <h3>Does passing give me a trade licence?</h3>
 <p>No. A test result does not grant a licence or a guaranteed placement.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>UA plumber apprenticeship test</h3>
-<p>Set by the local.</p>
-
-<h3>Pipefitter apprenticeship test</h3>
-<p>Check your local.</p>
-
-<h3>UA aptitude test preparation</h3>
-<p>Maths, reading, mechanical.</p>
-
-<h3>Plumbing apprenticeship math practice</h3>
-<p>Fractions to algebra.</p>
-
-<h3>Local 597 aptitude test</h3>
-<p>Five sections.</p>
-
-<h3>Local 190 WorkKeys</h3>
-<p>Cumulative score of 17.</p>
-
-<h3>Steamfitter apprenticeship test</h3>
-<p>UA locals.</p>
-
-<h3>Union plumber entrance exam</h3>
-<p>Ask your local.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

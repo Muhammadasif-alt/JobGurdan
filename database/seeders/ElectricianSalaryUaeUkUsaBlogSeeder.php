@@ -369,32 +369,6 @@ JOBHTML;
 <h3>Who pays visa and recruitment costs for a UAE electrician job?</h3>
 <p>The employer. Article 6 of Federal Decree-Law No. 33 of 2021 prohibits charging the worker recruitment and employment costs, directly or indirectly.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Electrician salary USA</h3>
-<p>$63,190 median, $71,490 mean, BLS May 2025.</p>
-
-<h3>Electrician salary by state</h3>
-<p>Hawaii $92,870 and Illinois $92,230 at the top of the table; Florida $57,660.</p>
-
-<h3>JIB rates 2026</h3>
-<p>Electrician £18.38, Approved £20.08, Technician £22.70 an hour.</p>
-
-<h3>Electrician salary UK</h3>
-<p>About £35,841 a year at the JIB Electrician minimum, before overtime.</p>
-
-<h3>Electrician salary Dubai</h3>
-<p>No official figure and no minimum wage; the contract is what counts.</p>
-
-<h3>Electrician jobs UK visa sponsorship</h3>
-<p>SOC 5241 is on the Temporary Shortage List, going rate £38,800.</p>
-
-<h3>Electrician salary Saudi Arabia</h3>
-<p>No expatriate minimum wage; Professional Verification is required before the visa.</p>
-
-<h3>BLS electrician job outlook</h3>
-<p>Up 9 per cent from 2025 to 2035, about 72,700 openings a year.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The rest of the electrician cluster, and the trades around it:</p>

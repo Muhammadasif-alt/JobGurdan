@@ -326,32 +326,6 @@ JOBHTML;
 <h3>How do I spot an entry-level office job scam?</h3>
 <p>Any request for payment ends it. The FTC's rule is that honest employers never ask you to pay to get a job, and fake-check and reshipping schemes target this category heavily.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>General office clerk salary</h3>
-<p>A median of $45,010 a year, or $21.64 an hour, across 2.6 million jobs.</p>
-
-<h3>Receptionist pay per hour</h3>
-<p>A median of $18.27 an hour, the lowest of the common entry-level office roles.</p>
-
-<h3>Office jobs with no degree</h3>
-<p>Clerk, receptionist, customer service and administrative assistant roles all list a high school diploma as the typical entry.</p>
-
-<h3>Customer service representative salary</h3>
-<p>A median of $44,770 a year, well above the $38,964 quoted on most salary pages.</p>
-
-<h3>Medical records specialist requirements</h3>
-<p>A postsecondary nondegree award, with a median of $51,140 and 8% projected growth.</p>
-
-<h3>Office and administrative support outlook</h3>
-<p>Projected to decline through 2035, with about 1.7 million replacement openings a year.</p>
-
-<h3>Entry-level office jobs near me</h3>
-<p>Wages vary by metro: the mean for general office clerks ran from about $39,800 in San Antonio to $46,870 in New Jersey.</p>
-
-<h3>Temp to hire office jobs</h3>
-<p>A practical route in a market where most openings come from turnover rather than new positions.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Looking at the specific roles? These go deeper:</p>

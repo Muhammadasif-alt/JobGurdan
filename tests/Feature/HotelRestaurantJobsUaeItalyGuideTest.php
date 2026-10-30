@@ -36,13 +36,11 @@ it('publishes with its images and SEO fields', function () {
     }
 });
 
-it('carries exactly eight FAQs and eight People Also Search For entries', function () {
+it('carries exactly eight FAQs and no People Also Search For block', function () {
     expect(app(StructuredDataService::class)->faqsFromHtml($this->blog->content))->toHaveCount(8);
 
-    $pasf = substr($this->blog->content, (int) strpos($this->blog->content, 'People Also Search For'));
-    $pasf = substr($pasf, 0, (int) strpos($pasf, '<h2>More Job Guides'));
 
-    expect(substr_count($pasf, '<h3>'))->toBe(8);
+    expect(substr_count($this->blog->content, 'People Also Search For'))->toBe(0);
 });
 
 it('links only to our own pages and drops the brief artifacts', function () {
@@ -107,7 +105,7 @@ it('creates one listing per country with an official apply URL, no salary and no
 it('renders the guide', function () {
     get('/blog/'.HotelRestaurantJobsUaeItalyBlogSeeder::SLUG)
         ->assertOk()
-        ->assertSee('People Also Search For')
+        ->assertDontSee('People Also Search For')
         ->assertSee('"FAQPage"', false);
 });
 

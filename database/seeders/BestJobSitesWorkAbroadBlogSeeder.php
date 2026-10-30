@@ -187,32 +187,6 @@ class BestJobSitesWorkAbroadBlogSeeder extends Seeder
 <h3>How do I know an advert is real?</h3>
 <p>Find the same role on the employer's own website, and confirm the contact details yourself.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Best job sites for work abroad</h3>
-<p>Depends on destination and occupation.</p>
-
-<h3>Where to find overseas jobs</h3>
-<p>Official portals and verified employer sites.</p>
-
-<h3>Top job portals international</h3>
-<p>Ten compared above.</p>
-
-<h3>Find jobs abroad online 2026</h3>
-<p>Pick a destination and trade first.</p>
-
-<h3>Canada Job Bank foreign workers</h3>
-<p>Use the foreign candidates page.</p>
-
-<h3>Make it in Germany jobs</h3>
-<p>Official German listings and guidance.</p>
-
-<h3>NHS Jobs visa sponsorship</h3>
-<p>Check each role's wording.</p>
-
-<h3>Seasonal jobs USA</h3>
-<p>The DOL SeasonalJobs portal.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

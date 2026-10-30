@@ -146,32 +146,6 @@ class VerifyOverseasJobOfferBlogSeeder extends Seeder
 <h3>Is a video interview proof the job is real?</h3>
 <p>No. It supports your checks but cannot replace them.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>How to verify overseas job offer</h3>
-<p>Confirm independently.</p>
-
-<h3>Check if job offer is real</h3>
-<p>Employer, contract, route.</p>
-
-<h3>Verify foreign employer</h3>
-<p>Use official registers.</p>
-
-<h3>Authentic job offer abroad</h3>
-<p>No single check.</p>
-
-<h3>UK sponsor register check</h3>
-<p>Licensed organisations list.</p>
-
-<h3>Companies House search</h3>
-<p>Company identity.</p>
-
-<h3>Recognised sponsor Netherlands</h3>
-<p>IND public register.</p>
-
-<h3>Verify overseas recruiter Pakistan</h3>
-<p>BEOE directory.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related guides:</p>

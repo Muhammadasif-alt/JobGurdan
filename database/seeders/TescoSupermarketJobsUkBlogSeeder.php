@@ -343,32 +343,6 @@ JOBHTML;
 <h3>How long does a Tesco application take?</h3>
 <p>Tesco says an application for a role in its stores or distribution centres can take up to five weeks to review.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Tesco jobs near me</h3>
-<p>Search apply.tesco-careers.com by postcode or town. Store vacancies are listed there rather than on the corporate careers site.</p>
-
-<h3>Tesco Colleague pay 2026</h3>
-<p>&pound;13.28 an hour from 29 March 2026, a 5.1 per cent rise agreed with Usdaw and worth more than &pound;200 million.</p>
-
-<h3>Tesco London Location Allowance</h3>
-<p>&pound;1.27 an hour on top of the base rate for stores inside the M25, giving &pound;14.55 an hour.</p>
-
-<h3>Tesco Colleague Clubcard discount</h3>
-<p>10 per cent off, rising to 15 per cent on pay day weekends. Permanent colleagues receive the card after four weeks.</p>
-
-<h3>Tesco online assessment</h3>
-<p>A scenario-based exercise or online chat assessment used for some roles, designed around situations you would meet in the job.</p>
-
-<h3>Tesco availability window</h3>
-<p>The days and times printed on each advert that you must be free to work. Contracted hours are scheduled inside it.</p>
-
-<h3>One Stop and Booker jobs</h3>
-<p>Both are part of the Tesco family and advertise their own vacancies. Booker terms differ from Tesco store terms, including a three-month wait for a Tesco Colleague Clubcard.</p>
-
-<h3>UK National Living Wage 2026</h3>
-<p>&pound;12.71 an hour for workers aged 21 and over, &pound;10.85 for 18 to 20 year olds, from April 2026.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing UK retail employers, or working out whether you can take the job at all? These cover the ground:</p>

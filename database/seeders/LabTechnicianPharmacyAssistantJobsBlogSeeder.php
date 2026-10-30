@@ -268,32 +268,6 @@ JOBHTML;
 <h3>Does an overseas pharmacy qualification work in the UK?</h3>
 <p>Not automatically. It does not establish UK eligibility as a pharmacist or pharmacy technician.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Lab technician jobs UAE</h3>
-<p>Match your qualification to the exact title and the facility's health authority.</p>
-
-<h3>Medical laboratory technician Dubai</h3>
-<p>Follows the DHA Sheryan pathway for Dubai facilities.</p>
-
-<h3>DHA licence for lab technician</h3>
-<p>Eligibility, verification, registration and licence activation by the hiring facility.</p>
-
-<h3>Pharmacy assistant jobs UK</h3>
-<p>Employer criteria vary; training is common.</p>
-
-<h3>Trainee pharmacy assistant</h3>
-<p>A search term for entry roles that include training.</p>
-
-<h3>Dispensary assistant jobs</h3>
-<p>Support roles in a pharmacy dispensary.</p>
-
-<h3>Healthcare jobs for foreigners</h3>
-<p>Licensed roles need registration; support roles need the right to work.</p>
-
-<h3>Pharmacy technician versus pharmacy assistant</h3>
-<p>Different duties, training and registration.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Related healthcare guides:</p>

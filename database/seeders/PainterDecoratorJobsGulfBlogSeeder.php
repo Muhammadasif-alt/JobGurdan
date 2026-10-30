@@ -349,32 +349,6 @@ JOBHTML;
 <h3>Can a painter work in the UK instead?</h3>
 <p>Painters and decorators (SOC 5323) were on the UK Temporary Shortage List when we checked, unlike carpenters. The list is temporary, so check it on gov.uk before applying.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Painter jobs in Dubai</h3>
-<p>Recruited on MOHRE work permits, with every recruitment cost owed by the employer.</p>
-
-<h3>Painter jobs in Saudi Arabia</h3>
-<p>A Professional Verification test at home comes before the visa.</p>
-
-<h3>Decorator jobs in UAE</h3>
-<p>Mostly with fit-out contractors and hotel maintenance teams.</p>
-
-<h3>UAE midday break 2026</h3>
-<p>12:30pm to 3pm, from 15 June to 15 September.</p>
-
-<h3>MOHRE offer letter check</h3>
-<p>Check the permit status on the MOHRE website or app.</p>
-
-<h3>Wage Protection System UAE</h3>
-<p>Ministerial Resolution No. 340 of 2026, with enforcement from day five.</p>
-
-<h3>Recruitment fees illegal UAE</h3>
-<p>Charging a worker recruitment or employment costs is prohibited.</p>
-
-<h3>Spray painter jobs Gulf</h3>
-<p>Airless spray experience is one of the skills that raises a painter's offer.</p>
-
 <h2>More Job Guides</h2>
 
 <p>The Gulf trades and related guides:</p>

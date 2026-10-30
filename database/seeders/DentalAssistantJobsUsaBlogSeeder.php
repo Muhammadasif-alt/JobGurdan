@@ -365,32 +365,6 @@ JOBHTML;
 <h3>What is the difference between a dental assistant and a dental hygienist?</h3>
 <p>An assistant supports the dentist chairside and handles preparation, sterilization, x-rays and records. A hygienist performs cleanings and preventive care, needs an associate's degree, is licensed in every state, and had a median wage of $98,100 in May 2025 against the assistant's $48,070.</p>
 
-<h2>People Also Search For</h2>
-
-<h3>Dental assistant state requirements</h3>
-<p>DANB publishes them for all 50 states and DC, including allowable duties and which exams each state accepts.</p>
-
-<h3>DANB CDA exam pathways</h3>
-<p>Three routes: a CODA-accredited program, 3,500 hours of work experience with a high school diploma, or a dental-degree route.</p>
-
-<h3>CODA accredited dental assisting programs</h3>
-<p>Searchable by state or city on the American Dental Association's accreditation site.</p>
-
-<h3>Dental assistant x-ray certification</h3>
-<p>A separate state permit in many states, and one of the most common requirements in job ads.</p>
-
-<h3>Entry level dental assistant jobs</h3>
-<p>Realistic in states with no formal educational requirement, where practices train on the job.</p>
-
-<h3>Expanded functions dental assistant</h3>
-<p>A state-delegated role permitted to perform listed procedures such as coronal polishing and sealants.</p>
-
-<h3>Federal dental assistant jobs</h3>
-<p>VA, Indian Health Service and military dental clinics, advertised on USAJOBS.</p>
-
-<h3>Dental assistant salary by state</h3>
-<p>Published by BLS on the State &amp; Area Data tab of its dental assistant page.</p>
-
 <h2>More Job Guides</h2>
 
 <p>Comparing health care support roles, or the same job in another country? These cover them:</p>
