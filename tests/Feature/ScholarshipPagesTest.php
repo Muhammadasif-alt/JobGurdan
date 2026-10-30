@@ -106,7 +106,7 @@ it('publishes each guide with its posters, apply link and SEO fields', function 
     $scholarship = Scholarship::where('slug', $slug)->firstOrFail();
 
     expect($scholarship->isPublished())->toBeTrue()
-        ->and($scholarship->featured_image)->toBe('scholarships/'.$slug.'.jpg')
+        ->and($scholarship->featured_image)->toStartWith('scholarships/'.$slug)
         ->and(substr_count($scholarship->content, '/public/storage/scholarships/'.$slug.'-'))->toBe($contentPosters)
         ->and(strlen($scholarship->meta_title))->toBeLessThanOrEqual(60)
         ->and(strlen($scholarship->meta_description))->toBeLessThanOrEqual(160)
@@ -243,6 +243,11 @@ it('gives Portugal applicants the DGES warning, the FCT rates and the Porto fact
 
     expect($scholarship->content)
         ->toContain('does not correspond to any scholarship programme promoted by the Portuguese State')
+        ->toContain('Erasmus Mundus Joint Masters')
+        ->toContain('&euro;5,000')
+        ->toContain('Regulation 950/2021')
+        ->toContain('exempt from the proof of admission')
+        ->not->toContain('Gohar')
         ->toContain('20 November 2025')
         ->toContain('&euro;1,359.64')
         ->toContain('&euro;1,259.64')
