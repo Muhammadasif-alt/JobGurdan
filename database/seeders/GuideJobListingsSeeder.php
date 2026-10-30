@@ -235,6 +235,16 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Doha', 'country' => 'Qatar']
         );
 
+        $philadelphia = Location::firstOrCreate(
+            ['name' => 'Philadelphia'],
+            ['area' => 'Pennsylvania', 'country' => 'United States']
+        );
+
+        $losangeles = Location::firstOrCreate(
+            ['name' => 'Los Angeles'],
+            ['area' => 'California', 'country' => 'United States']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1552,6 +1562,39 @@ class GuideJobListingsSeeder extends Seeder
                 'url' => 'https://www.ilo.org/resource/article/dismantling-kafala-system-and-introducing-minimum-wage-mark-new-era-qatar',
                 'keywords' => 'waiter jobs in doha qatar, waiter jobs in qatar for freshers, waiter salary in doha qatar per month, qatar minimum wage',
                 'note' => '<p><strong>Note:</strong> this link opens an International Labour Organization information page. It is not an application form for one vacancy, and it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['US City and Public Employers (Aggregated)', 'usa-public-employers-aggregated'],
+                'location' => $philadelphia,
+                'position' => 'Janitor - City of Philadelphia Jobs Board (Philadelphia, Pennsylvania)',
+                'intro' => 'The City of Philadelphia posts its jobs at phila.gov/jobs. Civil service posts need a competitive exam and one year of residence in Philadelphia before appointment; non-civil service posts need a move to the city within six months. Contractor janitor jobs are the usual way in without experience; SSC pays USD 13.50 an hour at La Salle University.',
+                'items' => ['School District General Cleaner posts need six months of paid custodial experience', 'Pennsylvania minimum wage is USD 7.25 an hour', 'Use the job interest form for civil service alerts'],
+                'url' => 'https://www.phila.gov/jobs/',
+                'keywords' => 'janitor jobs in philadelphia, janitor jobs in philadelphia no experience, custodian jobs in philadelphia pa, city of philadelphia jobs',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['transport-logistics', 'Transport & Logistics'],
+                'advertiser' => ['US City and Public Employers (Aggregated)', 'usa-public-employers-aggregated'],
+                'location' => $losangeles,
+                'position' => 'Delivery Driver - CalJOBS State Job Board (Los Angeles, California)',
+                'intro' => 'CalJOBS is California\'s official job board for employee posts, including delivery driver jobs with company vans. App delivery is separate contractor work: Uber\'s minimum age for car delivery in California is 21, and Amazon Flex also requires 21. Employees in the City of Los Angeles earn at least USD 18.42 an hour from 1 July 2026.',
+                'items' => ['Amazon DSP drivers are employed by the DSP, not Amazon', 'Prop 22 pays app drivers 120% of minimum wage for engaged time plus USD 0.37 a mile in 2026', 'California statewide minimum wage is USD 16.90'],
+                'url' => 'https://www.caljobs.ca.gov/',
+                'keywords' => 'delivery driver jobs in los angeles california, delivery driver apps los angeles, amazon delivery jobs los angeles, part time delivery driver jobs los angeles',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['customer-support-admin', 'Customer Support & Admin'],
+                'advertiser' => ['US City and Public Employers (Aggregated)', 'usa-public-employers-aggregated'],
+                'location' => $houston,
+                'position' => 'Gas Station Cashier - WorkInTexas State Job Board (Houston, Texas)',
+                'intro' => 'WorkInTexas is the Texas Workforce Commission\'s job board. Gas station hiring ages are set by each employer within Texas law; QuikTrip\'s Houston store clerk post accepts applicants from 16. TABC sets no minimum employee age at off-premise beer and wine stores, and under-21 employees may sell tobacco where their job requires it.',
+                'items' => ['14 and 15 year olds may work only non-hazardous jobs outside school hours', 'Texas minimum wage is USD 7.25 an hour', 'Many employers ask for TABC seller/server training'],
+                'url' => 'https://www.workintexas.com/',
+                'keywords' => 'gas station jobs in houston tx, gas station cashier jobs in houston tx, entry level gas station jobs in houston tx, convenience store jobs in houston tx',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [
                 'category' => ['transport-logistics', 'Transport & Logistics'],
