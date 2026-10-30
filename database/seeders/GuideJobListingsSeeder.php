@@ -245,6 +245,11 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'California', 'country' => 'United States']
         );
 
+        $dallas = Location::firstOrCreate(
+            ['name' => 'Dallas'],
+            ['area' => 'Texas', 'country' => 'United States']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1594,6 +1599,39 @@ class GuideJobListingsSeeder extends Seeder
                 'items' => ['14 and 15 year olds may work only non-hazardous jobs outside school hours', 'Texas minimum wage is USD 7.25 an hour', 'Many employers ask for TABC seller/server training'],
                 'url' => 'https://www.workintexas.com/',
                 'keywords' => 'gas station jobs in houston tx, gas station cashier jobs in houston tx, entry level gas station jobs in houston tx, convenience store jobs in houston tx',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['transport-logistics', 'Transport & Logistics'],
+                'advertiser' => ['US Warehouse and Logistics Employers (Aggregated)', 'usa-warehouse-aggregated'],
+                'location' => $dallas,
+                'position' => 'Truck Driver - FMCSA Training Provider Registry for CDL Training (Dallas, Texas)',
+                'intro' => 'FMCSA\'s Training Provider Registry lists the schools allowed to give entry-level driver training, which first-time Class A and Class B CDL applicants must finish before the skills test. Texas CDL knowledge tests have been English-only since 1 June 2026, and a learner permit must be held for 14 days before the skills test.',
+                'items' => ['Class A covers tractor-trailers; Class B covers heavy single trucks', 'Heavy truck drivers earned a national median of USD 58,640 in May 2025', 'Non-domiciled CDLs in Texas are limited to H-2A workers'],
+                'url' => 'https://tpr.fmcsa.dot.gov/',
+                'keywords' => 'truck driver jobs in dallas texas, local cdl jobs dallas, truck driver jobs in dallas with no experience, how to get a cdl in texas',
+                'note' => '<p><strong>Note:</strong> this link opens the official FMCSA training registry. It is not an application form for one vacancy, and it does not guarantee a licence or a job.</p>',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['Pakistan Fuel Retail Employers (Aggregated)', 'pakistan-fuel-retail-aggregated'],
+                'location' => $lahore,
+                'position' => 'Petrol Pump Attendant - PSO Careers and Dealer Hiring Information (Lahore)',
+                'intro' => 'PSO lists its company vacancies online and accepts online applications only; forecourt attendants are usually hired by each station\'s dealer or operator, so ask the station manager. Punjab\'s minimum wage is Rs 40,000 a month for 26 working days from 1 July 2025, Rs 1,538.46 a day or Rs 192.31 an hour.',
+                'items' => ['Agreed deductions are capped at Rs 100 a meal, Rs 1,800 a month for transport and Rs 2,000 a month for housing', 'Shell stations in Pakistan are licensed to Wafi Energy', 'Never pay anyone to get a job'],
+                'url' => 'https://www.psopk.com/en/career/opportunities',
+                'keywords' => 'petrol pump attendant jobs in lahore, petrol pump jobs in lahore pakistan, petrol pump attendant salary in lahore, petrol pump jobs in lahore for freshers',
+                'note' => '<p><strong>Note:</strong> this link opens the official PSO careers page. It is not an application form for one vacancy, and station staff are usually hired by the dealer.</p>',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['Pakistan Public Sector Employers (Aggregated)', 'pakistan-public-sector-aggregated'],
+                'location' => $karachi,
+                'position' => 'Sweeper - Sindh Solid Waste Management Board Careers (Karachi)',
+                'intro' => 'The Sindh Solid Waste Management Board runs Karachi\'s waste collection by outsourcing its municipal functions, so many street cleaning jobs are with contractors. Its careers page lists any Board vacancies. Sindh\'s minimum wage for unskilled workers is Rs 43,000 a month from 1 July 2026.',
+                'items' => ['Check whether a post is permanent, contract or through a contractor', 'Some government adverts need a physical application', 'Never pay anyone who promises guaranteed selection'],
+                'url' => 'https://sswmb.gos.pk/careers/',
+                'keywords' => 'sweeper jobs in karachi, government sweeper jobs in karachi, sweeper salary in karachi, sanitary worker jobs karachi',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [
