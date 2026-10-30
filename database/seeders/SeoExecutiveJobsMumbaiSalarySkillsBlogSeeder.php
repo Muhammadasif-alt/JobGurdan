@@ -185,6 +185,8 @@ class SeoExecutiveJobsMumbaiSalarySkillsBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>: check this before you send money or documents.</li>
 </ul>
 
+<p><em>Reviewed on 22 October 2026.</em></p>
+
 HTML;
     }
 }

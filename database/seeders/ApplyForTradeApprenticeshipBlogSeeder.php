@@ -193,6 +193,8 @@ class ApplyForTradeApprenticeshipBlogSeeder extends Seeder
     <li><a href="/blog/union-apprenticeship-waitlists-how-long">Union Apprenticeship Waitlists: How Long Do They Take?</a>: waiting times</li>
 </ul>
 
+<p><em>Reviewed on 17 October 2026.</em></p>
+
 HTML;
     }
 }

@@ -154,6 +154,8 @@ class MistakesApplyingJobsAbroadBlogSeeder extends Seeder
     <li><a href="/blog/prepare-online-job-interview-abroad">How to Prepare for an Online Job Interview Abroad</a>: video interview</li>
 </ul>
 
+<p><em>Reviewed on 12 October 2026.</em></p>
+
 HTML;
     }
 }

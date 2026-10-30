@@ -143,6 +143,8 @@ class OperatingEngineersApprenticeshipTestBlogSeeder extends Seeder
     <li><a href="/blog/laborers-union-entrance-exam-guide">Laborers Union Entrance Exam: What Gets Asked</a>: LiUNA</li>
 </ul>
 
+<p><em>Reviewed on 16 October 2026.</em></p>
+
 HTML;
     }
 }

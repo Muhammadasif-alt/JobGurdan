@@ -151,6 +151,8 @@ class ElevatorApprenticeshipTestNeiepBlogSeeder extends Seeder
     <li><a href="/blog/sheet-metal-workers-aptitude-test-study-plan">Sheet Metal Aptitude Test: Sections, Tips, Study Plan</a>: sheet metal entry</li>
 </ul>
 
+<p><em>Reviewed on 16 October 2026.</em></p>
+
 HTML;
     }
 }

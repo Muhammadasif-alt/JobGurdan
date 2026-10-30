@@ -162,6 +162,8 @@ class TopSkillsJobAbroadFastBlogSeeder extends Seeder
     <li><a href="/blog/which-countries-are-hiring-foreign-workers-2026">Which Countries Are Hiring Foreign Workers (2026)</a>: where the demand is</li>
 </ul>
 
+<p><em>Reviewed on 12 October 2026.</em></p>
+
 HTML;
     }
 }

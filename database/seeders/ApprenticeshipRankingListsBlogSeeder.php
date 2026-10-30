@@ -173,6 +173,8 @@ class ApprenticeshipRankingListsBlogSeeder extends Seeder
     <li><a href="/blog/elevator-apprenticeship-test-neiep-what-to-expect">Elevator Apprenticeship Test (NEIEP): What to Expect</a>: the NEIEP test</li>
 </ul>
 
+<p><em>Reviewed on 17 October 2026.</em></p>
+
 HTML;
     }
 }

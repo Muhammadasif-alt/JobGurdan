@@ -173,6 +173,8 @@ class WhatIsWorkPermitBlogSeeder extends Seeder
     <li><a href="/blog/english-language-requirements-working-abroad">English Language Requirements for Working Abroad</a>: tests and exemptions</li>
 </ul>
 
+<p><em>Reviewed on 12 October 2026.</em></p>
+
 HTML;
     }
 }

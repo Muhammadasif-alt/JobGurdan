@@ -147,6 +147,8 @@ class FreeOnlineCoursesJobAbroadBlogSeeder extends Seeder
     <li><a href="/blog/find-job-abroad-without-recruiter">How to Find a Job Abroad Without a Recruiter</a>: search yourself</li>
 </ul>
 
+<p><em>Reviewed on 12 October 2026.</em></p>
+
 HTML;
     }
 }

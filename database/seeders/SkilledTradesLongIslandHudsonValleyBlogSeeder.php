@@ -154,6 +154,8 @@ class SkilledTradesLongIslandHudsonValleyBlogSeeder extends Seeder
     <li><a href="/blog/operating-engineers-apprenticeship-test-preparation-guide">Operating Engineers Apprenticeship Test Preparation Guide</a>: IUOE entry</li>
 </ul>
 
+<p><em>Reviewed on 17 October 2026.</em></p>
+
 HTML;
     }
 }

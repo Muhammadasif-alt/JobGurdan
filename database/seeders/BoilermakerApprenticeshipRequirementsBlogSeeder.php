@@ -157,6 +157,8 @@ class BoilermakerApprenticeshipRequirementsBlogSeeder extends Seeder
     <li><a href="/blog/ua-plumber-pipefitter-apprenticeship-test-guide">UA Plumber and Pipefitter Apprenticeship Test Guide</a>: UA locals</li>
 </ul>
 
+<p><em>Reviewed on 16 October 2026.</em></p>
+
 HTML;
     }
 }

@@ -175,6 +175,8 @@ class WorkVisaWithoutAgentBlogSeeder extends Seeder
     <li><a href="/blog/best-job-sites-work-abroad-2026">Best Job Sites to Find Work Abroad (2026)</a>: where to look.</li>
 </ul>
 
+<p><em>Reviewed on 12 October 2026.</em></p>
+
 HTML;
     }
 }

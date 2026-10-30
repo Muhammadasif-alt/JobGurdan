@@ -163,6 +163,8 @@ class WorkVisaVsWorkPermitBlogSeeder extends Seeder
     <li><a href="/blog/employer-cancels-work-visa">What Happens if Your Employer Cancels Your Visa</a>: job loss and status</li>
 </ul>
 
+<p><em>Reviewed on 12 October 2026.</em></p>
+
 HTML;
     }
 }

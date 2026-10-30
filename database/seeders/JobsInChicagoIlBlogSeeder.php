@@ -149,6 +149,8 @@ class JobsInChicagoIlBlogSeeder extends Seeder
     <li><a href="/blog/elevator-mechanic-apprenticeship-chicago-philadelphia-boston">Elevator Mechanic Apprenticeship in Chicago, Philadelphia, and Boston</a>: trade route</li>
 </ul>
 
+<p><em>Reviewed on 17 October 2026.</em></p>
+
 HTML;
     }
 }

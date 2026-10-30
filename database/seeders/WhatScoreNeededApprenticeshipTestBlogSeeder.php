@@ -157,6 +157,8 @@ class WhatScoreNeededApprenticeshipTestBlogSeeder extends Seeder
     <li><a href="/blog/one-week-before-apprenticeship-test-study-plan">One Week Before the Apprenticeship Test: Study Plan</a>: 7-day plan</li>
 </ul>
 
+<p><em>Reviewed on 16 October 2026.</em></p>
+
 HTML;
     }
 }

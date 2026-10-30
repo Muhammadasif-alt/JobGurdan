@@ -175,6 +175,8 @@ class OneWeekBeforeApprenticeshipTestBlogSeeder extends Seeder
     <li><a href="/blog/can-you-retake-apprenticeship-aptitude-test">Can You Retake the Apprenticeship Aptitude Test?</a>: retake rules</li>
 </ul>
 
+<p><em>Reviewed on 16 October 2026.</em></p>
+
 HTML;
     }
 }

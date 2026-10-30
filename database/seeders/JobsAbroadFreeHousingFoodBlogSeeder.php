@@ -155,6 +155,8 @@ class JobsAbroadFreeHousingFoodBlogSeeder extends Seeder
     <li><a href="/blog/rights-foreign-workers-abroad">Rights of Foreign Workers Abroad: What You Must Know</a>: know your rights</li>
 </ul>
 
+<p><em>Reviewed on 12 October 2026.</em></p>
+
 HTML;
     }
 }

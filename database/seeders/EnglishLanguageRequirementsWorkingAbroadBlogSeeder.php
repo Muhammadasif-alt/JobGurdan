@@ -162,6 +162,8 @@ class EnglishLanguageRequirementsWorkingAbroadBlogSeeder extends Seeder
     <li><a href="/blog/how-long-work-visa-takes-2026">How Long Does it Take to Get a Work Visa</a>: realistic timelines</li>
 </ul>
 
+<p><em>Reviewed on 12 October 2026.</em></p>
+
 HTML;
     }
 }

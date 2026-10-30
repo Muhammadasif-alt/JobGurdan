@@ -141,6 +141,8 @@ class LaborersUnionEntranceExamBlogSeeder extends Seeder
     <li><a href="/blog/operating-engineers-apprenticeship-test-preparation-guide">Operating Engineers Apprenticeship Test Prep Guide</a>: IUOE locals</li>
 </ul>
 
+<p><em>Reviewed on 16 October 2026.</em></p>
+
 HTML;
     }
 }

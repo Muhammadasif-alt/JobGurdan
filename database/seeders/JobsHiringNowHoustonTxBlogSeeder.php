@@ -143,6 +143,8 @@ class JobsHiringNowHoustonTxBlogSeeder extends Seeder
     <li><a href="/blog/plumber-apprenticeship-seattle-houston-detroit">Plumber Apprenticeship in Seattle, Houston, and Detroit</a>: trade route</li>
 </ul>
 
+<p><em>Reviewed on 17 October 2026.</em></p>
+
 HTML;
     }
 }

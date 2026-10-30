@@ -154,6 +154,8 @@ class BpoJobsPuneWhatToExpectDayOneBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Job Offer</a>, check this before you pay anyone.</li>
 </ul>
 
+<p><em>Reviewed on 26 October 2026.</em></p>
+
 HTML;
     }
 }

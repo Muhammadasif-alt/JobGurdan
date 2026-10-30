@@ -167,6 +167,8 @@ class UnionApprenticeshipWaitlistsBlogSeeder extends Seeder
     <li><a href="/blog/what-score-needed-apprenticeship-test">What Score Do You Need on an Apprenticeship Test?</a>: pass marks</li>
 </ul>
 
+<p><em>Reviewed on 17 October 2026.</em></p>
+
 HTML;
     }
 }

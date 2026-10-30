@@ -170,6 +170,8 @@ class PoliceConstableRecruitmentUttarPradeshBlogSeeder extends Seeder
     <li><a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">How to Spot a Fake Overseas Job Offer</a>, the warning signs of a recruitment scam.</li>
 </ul>
 
+<p><em>Reviewed on 27 October 2026.</em></p>
+
 HTML;
     }
 }

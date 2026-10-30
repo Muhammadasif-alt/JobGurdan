@@ -165,6 +165,8 @@ class FindJobAbroadWithoutRecruiterBlogSeeder extends Seeder
     <li><a href="/blog/documents-needed-to-work-abroad-2026">What Documents Do You Need to Work Abroad (2026)</a>: the checklist</li>
 </ul>
 
+<p><em>Reviewed on 12 October 2026.</em></p>
+
 HTML;
     }
 }

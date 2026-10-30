@@ -145,6 +145,8 @@ class VerifyOverseasJobOfferBlogSeeder extends Seeder
     <li><a href="/blog/documents-needed-to-work-abroad-2026">Documents Needed to Work Abroad (2026)</a>: what to prepare</li>
 </ul>
 
+<p><em>Reviewed on 12 October 2026.</em></p>
+
 HTML;
     }
 }

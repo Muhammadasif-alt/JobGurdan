@@ -155,6 +155,8 @@ class UnionApprenticeshipsSouthernCaliforniaInlandEmpireBlogSeeder extends Seede
     <li><a href="/blog/ua-plumber-pipefitter-apprenticeship-test-guide">UA Plumber and Pipefitter Apprenticeship Test Guide</a>: plumber test</li>
 </ul>
 
+<p><em>Reviewed on 17 October 2026.</em></p>
+
 HTML;
     }
 }

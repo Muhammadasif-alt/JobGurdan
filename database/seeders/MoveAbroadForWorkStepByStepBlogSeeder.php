@@ -155,6 +155,8 @@ class MoveAbroadForWorkStepByStepBlogSeeder extends Seeder
     <li><a href="/blog/bring-family-working-abroad">Can You Bring Your Family When Working Abroad</a>: dependants</li>
 </ul>
 
+<p><em>Reviewed on 12 October 2026.</em></p>
+
 HTML;
     }
 }

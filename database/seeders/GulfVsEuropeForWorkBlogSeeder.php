@@ -165,6 +165,8 @@ class GulfVsEuropeForWorkBlogSeeder extends Seeder
     <li><a href="/blog/best-trades-skills-working-gulf-countries">Best Trades and Skills for Working in Gulf Countries</a>: Gulf trades</li>
 </ul>
 
+<p><em>Reviewed on 12 October 2026.</em></p>
+
 HTML;
     }
 }

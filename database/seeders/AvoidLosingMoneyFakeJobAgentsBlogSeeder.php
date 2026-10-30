@@ -150,6 +150,8 @@ class AvoidLosingMoneyFakeJobAgentsBlogSeeder extends Seeder
     <li><a href="/blog/send-money-home-working-abroad">How to Send Money Home While Working Abroad</a>: remittance checks</li>
 </ul>
 
+<p><em>Reviewed on 12 October 2026.</em></p>
+
 HTML;
     }
 }
