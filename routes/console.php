@@ -24,6 +24,14 @@ Schedule::command('alerts:send')
     ->onOneServer()
     ->runInBackground();
 
+// The file cache never removes an entry until it is read again, so expired pages
+// stay on disk. Clearing them hourly keeps a crawl from filling the hosting quota.
+Schedule::command('cache:prune-expired-files')
+    ->hourly()
+    ->withoutOverlapping(30)
+    ->onOneServer()
+    ->runInBackground();
+
 // Delete jobs that are already marked expired. Jobs are not aged out by created_at:
 // a job with no expiry date stays live.
 // Runs daily at 03:15 UTC (off-peak).

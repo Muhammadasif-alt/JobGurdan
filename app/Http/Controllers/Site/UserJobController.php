@@ -151,7 +151,14 @@ class UserJobController extends Controller
         // for 10 minutes so only one request per filter combo per 10min ever
         // hits the DB. Logged-in users get fresh markup so dashboard state is
         // never cached.
-        if (! auth()->check() && $request->isMethod('GET')) {
+        //
+        // Only the plain board and its first pages are cached. Keying on every
+        // query string let crawlers write a 200 KB file per URL, which filled
+        // the 50 GB disk in under a day and took the whole site down.
+        $cacheKey = null;
+        $cacheablePage = array_keys($request->query()) === [] || (array_keys($request->query()) === ['page'] && (int) $request->query('page') <= 5);
+
+        if (! auth()->check() && $request->isMethod('GET') && $cacheablePage) {
             $cacheKey = 'page.jobs.v2.'.md5($request->fullUrl());
             $cached = Cache::get($cacheKey);
             if ($cached !== null) {
@@ -323,7 +330,7 @@ class UserJobController extends Controller
             'latestGuides' => $latestGuides,
         ]))->render();
 
-        if (! auth()->check() && $request->isMethod('GET')) {
+        if ($cacheKey !== null) {
             Cache::put($cacheKey, $html, 60);
         }
 
