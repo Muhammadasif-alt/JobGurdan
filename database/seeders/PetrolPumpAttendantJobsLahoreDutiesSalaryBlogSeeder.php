@@ -25,7 +25,7 @@ use Illuminate\Database\Seeder;
  *    showed "No current openings".
  * 4. FAQs expanded to eight.
  *
- * No Lahore poster was supplied; the featured image and steps graphic were generated in the house style. The portal
+ * The featured image is the owner's poster (blog-355, 29 Oct 10.07 PM); the steps graphic was generated in the house style. The portal
  * listing is in GuideJobListingsSeeder. updateOrCreate, so re-running is safe.
  */
 class PetrolPumpAttendantJobsLahoreDutiesSalaryBlogSeeder extends Seeder
@@ -55,7 +55,7 @@ class PetrolPumpAttendantJobsLahoreDutiesSalaryBlogSeeder extends Seeder
                 'title' => 'Petrol Pump Attendant Jobs in Lahore, Punjab: Duties and Salary',
                 'excerpt' => 'What petrol pump attendants in Lahore do, who actually employs them (usually the dealer, not PSO or Shell), Punjab\'s Rs 40,000 minimum wage and the deductions it allows for food, transport and housing, shifts and how to apply safely.',
                 'content' => $content,
-                'featured_image' => 'blogs/petrol-pump-attendant-jobs-lahore-duties-salary.jpg',
+                'featured_image' => 'blogs/petrol-pump-attendant-jobs-lahore-duties-salary-poster.jpg',
                 'tags' => 'petrol pump attendant jobs in lahore, petrol pump jobs in lahore pakistan, petrol pump attendant salary in lahore, petrol pump jobs in lahore for freshers, how to apply for petrol pump jobs in lahore, punjab minimum wage 2025, pso petrol pump jobs, shell petrol pump jobs lahore',
                 'meta_title' => 'Petrol Pump Attendant Jobs in Lahore: Duties and Salary',
                 'meta_description' => 'Petrol pump attendant jobs in Lahore: duties, who employs pump staff, the Rs 40,000 Punjab minimum wage and allowed deductions, shifts and safe hiring.',

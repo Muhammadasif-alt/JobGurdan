@@ -26,7 +26,7 @@ use Illuminate\Database\Seeder;
  *    by email.
  * 5. FAQs expanded to eight.
  *
- * No Karachi poster was supplied; the featured image and steps graphic were generated in the house style. The portal
+ * The featured image is the owner's poster (blog-355, 29 Oct 10.11 PM); the steps graphic was generated in the house style. The portal
  * listing is in GuideJobListingsSeeder. updateOrCreate, so re-running is safe.
  */
 class SweeperJobsKarachiGovernmentPrivateOptionsBlogSeeder extends Seeder
@@ -56,7 +56,7 @@ class SweeperJobsKarachiGovernmentPrivateOptionsBlogSeeder extends Seeder
                 'title' => 'Sweeper Jobs in Karachi, Sindh: Government and Private Options',
                 'excerpt' => 'Where to find sweeper and cleaner jobs in Karachi: government departments and the SSWMB, private offices, hospitals such as Aga Khan, what employers ask for, Sindh\'s Rs 43,000 minimum wage for unskilled workers from July 2026, and how to apply safely.',
                 'content' => $content,
-                'featured_image' => 'blogs/sweeper-jobs-karachi-government-private-options.jpg',
+                'featured_image' => 'blogs/sweeper-jobs-karachi-government-private-options-poster.jpg',
                 'tags' => 'sweeper jobs in karachi, government sweeper jobs in karachi, private sweeper jobs in karachi, hospital sweeper jobs in karachi, office cleaner job in karachi, sweeper salary in karachi, sindh minimum wage 2026, safai ki jobs karachi',
                 'meta_title' => 'Sweeper Jobs in Karachi: Government and Private Options',
                 'meta_description' => 'Sweeper jobs in Karachi: government and SSWMB routes, private offices and hospitals, the Rs 43,000 Sindh minimum wage from July 2026, and how to apply.',

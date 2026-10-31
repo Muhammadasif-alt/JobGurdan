@@ -28,7 +28,7 @@ use Illuminate\Database\Seeder;
  *    2025-2035, 2,221,200 jobs.
  * 6. FAQs expanded to eight and a note for readers in Pakistan added.
  *
- * No Dallas poster was supplied; the featured image and steps graphic were generated in the house style. The portal
+ * The featured image is the owner's poster (blog-355, 29 Oct 10.18 PM); the steps graphic was generated in the house style. The portal
  * listing is in GuideJobListingsSeeder. updateOrCreate, so re-running is safe.
  */
 class TruckDriverJobsDallasCdlRequirementsTrainingBlogSeeder extends Seeder
@@ -58,7 +58,7 @@ class TruckDriverJobsDallasCdlRequirementsTrainingBlogSeeder extends Seeder
                 'title' => 'Truck Driver Jobs in Dallas, Texas: CDL Requirements and Training',
                 'excerpt' => 'How to become a truck driver in Dallas: Class A or Class B, the learner permit and 14-day wait, required entry-level driver training, Texas\'s English-only CDL tests since June 2026, home-daily jobs, the $58,640 national median and how to apply.',
                 'content' => $content,
-                'featured_image' => 'blogs/truck-driver-jobs-dallas-cdl-requirements-training.jpg',
+                'featured_image' => 'blogs/truck-driver-jobs-dallas-cdl-requirements-training-poster.jpg',
                 'tags' => 'truck driver jobs in dallas texas, local cdl jobs dallas, truck driver jobs in dallas with no experience, home daily truck driving jobs dallas, truck driver salary, how to get a cdl in texas, eldt training provider registry, texas cdl english only test',
                 'meta_title' => 'Truck Driver Jobs in Dallas, TX: CDL Rules and Training',
                 'meta_description' => 'Truck driver jobs in Dallas: Class A or B, the CLP and 14-day wait, ELDT training, English-only Texas CDL tests since June 2026, pay and how to apply.',

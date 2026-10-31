@@ -19,7 +19,7 @@ class BlogController extends Controller
         $categorySlug = $request->query('category');
         $tag = trim((string) $request->query('tag', ''));
 
-        $published = Blog::where('status', 'published')->with(['category', 'author']);
+        $published = Blog::where('status', 'published')->with(['category', 'author', 'authorProfile']);
         if ($categorySlug) {
             $published->whereHas('category', function ($q) use ($categorySlug) {
                 $q->where('slug', $categorySlug);
@@ -40,7 +40,7 @@ class BlogController extends Controller
         $recruitmentInsights = $all->slice(17, 3)->values(); // 3 cols × 1 row
 
         // Paginated "More News" — newest first, 8 per page = 4 cols × 2 rows.
-        $moreNewsQuery = Blog::where('status', 'published')->with(['category', 'author'])->latest('published_at');
+        $moreNewsQuery = Blog::where('status', 'published')->with(['category', 'author', 'authorProfile'])->latest('published_at');
         if ($categorySlug) {
             $moreNewsQuery->whereHas('category', function ($q) use ($categorySlug) {
                 $q->where('slug', $categorySlug);
@@ -78,7 +78,7 @@ class BlogController extends Controller
         }])->orderBy('name')->get();
 
         $latestBlogs = Blog::where('status', 'published')
-            ->with(['category', 'author'])
+            ->with(['category', 'author', 'authorProfile'])
             ->latest('published_at')
             ->take(3)
             ->get();

@@ -567,11 +567,7 @@
                         <div class="info">
                             <h4>{{ $post->title }}</h4>
                             <div class="byline">
-                                @if($post->author_name)
-                                    <span class="author">{{ $post->author_name }}</span>
-                                @elseif($post->author)
-                                    <span class="author">{{ $post->author->name }}</span>
-                                @endif
+                                <span class="author">{{ $post->display_author_name }}</span>
                                 {{ optional($post->published_at)->format('M j, Y') }}
                             </div>
                         </div>

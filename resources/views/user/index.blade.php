@@ -2648,7 +2648,7 @@
             <div class="career-grid">
                 @foreach ($careerPosts as $post)
                     @php
-                        $authorName = $post->author_name ?: ($post->author->name ?? 'Editorial Team');
+                        $authorName = $post->display_author_name;
                         $authorInit = mb_strtoupper(mb_substr($authorName, 0, 1));
                         $catId = $post->category->id ?? 'none';
                         $catName = $post->category->name ?? 'Career';

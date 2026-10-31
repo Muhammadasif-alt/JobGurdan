@@ -824,7 +824,7 @@
                         <img src="{{ $blogImg($post->featured_image) }}" alt="{{ $post->title }}" loading="lazy">
                     </div>
                     <div class="contact-blog-body">
-                        <div class="meta">{{ optional($post->published_at)->format('M d, Y') }} · By {{ $post->author_name ?? $post->author?->name ?? 'JobGader Editorial' }}</div>
+                        <div class="meta">{{ optional($post->published_at)->format('M d, Y') }} · By {{ $post->display_author_name }}</div>
                         <h4>{{ $post->title }}</h4>
                         <p>{{ $post->excerpt ?? \Illuminate\Support\Str::limit(strip_tags($post->content), 100) }}</p>
                         <span class="read-link">Read More →</span>

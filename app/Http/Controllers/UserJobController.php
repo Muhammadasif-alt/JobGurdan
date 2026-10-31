@@ -53,7 +53,7 @@ class UserJobController extends Controller
 
         // Latest career-advice blog posts for the homepage section above the FAQ
         $careerPosts = Cache::remember('home.careerPosts', 600, function () {
-            return \App\Models\Blog::with('category')
+            return \App\Models\Blog::with(['category', 'authorProfile'])
                 ->where(function ($q) { $q->where('status', 'published')->orWhereNull('status'); })
                 ->latest('published_at')
                 ->take(6)

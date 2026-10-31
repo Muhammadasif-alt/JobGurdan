@@ -33,6 +33,13 @@ it('never shows the generic Admin account name as the byline', function () {
         ->assertDontSee('<strong>Admin</strong>', false);
 });
 
+it('shows the author profile name, not the stored Admin name, on blog cards', function (string $url) {
+    $author = Author::create(['name' => 'Card Byline Author', 'slug' => 'card-byline-author']);
+    makePublishedPost(['author_profile_id' => $author->id, 'author_name' => 'Admin', 'title' => 'Card Byline Guide']);
+
+    $this->get($url)->assertOk()->assertSee('Card Byline Author');
+})->with(['blog index' => '/blog']);
+
 it('shows an author profile with a link to the author page', function () {
     $author = Author::create(['name' => 'Sara Khan', 'slug' => 'sara-khan', 'job_title' => 'Editor', 'bio' => 'Writes guides about trades and visas.']);
     $post = makePublishedPost(['author_profile_id' => $author->id]);

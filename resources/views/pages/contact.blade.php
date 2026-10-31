@@ -599,7 +599,7 @@
                         @endif
                     </div>
                     <div class="contact-blog-body">
-                        <div class="meta">{{ optional($post->published_at)->format('d M, Y') }} · By {{ $post->author?->name ?? 'Unknown' }}</div>
+                        <div class="meta">{{ optional($post->published_at)->format('d M, Y') }} · By {{ $post->display_author_name }}</div>
                         <h4>{{ $post->title }}</h4>
                         <p>{{ $post->excerpt ?? Str::limit(strip_tags($post->content), 90) }}</p>
                         <span class="read-link">Read More →</span>
