@@ -250,6 +250,11 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'Texas', 'country' => 'United States']
         );
 
+        $manchester = Location::firstOrCreate(
+            ['name' => 'Manchester'],
+            ['area' => 'England', 'country' => 'United Kingdom']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1600,6 +1605,39 @@ class GuideJobListingsSeeder extends Seeder
                 'url' => 'https://www.workintexas.com/',
                 'keywords' => 'gas station jobs in houston tx, gas station cashier jobs in houston tx, entry level gas station jobs in houston tx, convenience store jobs in houston tx',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['UK Fuel Retail Employers (Aggregated)', 'uk-fuel-retail-aggregated'],
+                'location' => $manchester,
+                'position' => 'Petrol Station Assistant - The Kay Group Irlam Gateway Vacancy Page (Manchester)',
+                'intro' => 'The Kay Group advertised Friday and Saturday nights at Irlam Gateway, 11pm to 7am, at GBP 13.50 an hour for applicants aged 18 or over, with no experience requirement listed. The UK minimum wage for workers aged 21 and over is GBP 12.71 an hour from April 2026.',
+                'items' => ['You must prove your right to work before you start', 'Retail assistant and cashier occupations are ineligible for the Skilled Worker visa', 'Ask whether all shift hours are paid'],
+                'url' => 'https://www.thekaygroup.co.uk/careers/friday-saturday-nights-customer-service-assistant-bolton-road-service-station-darwen/',
+                'keywords' => 'petrol station jobs in manchester, manchester petrol station cashier jobs, part-time petrol station jobs, greater manchester forecourt jobs',
+                'note' => '<p><strong>Note:</strong> this link opens the employer\'s own page, whose address still mentions Darwen. Check that the vacancy is still open. A listing here does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['general-labour', 'General Labour'],
+                'advertiser' => ['UAE Cleaning Employers (Aggregated)', 'uae-cleaning-aggregated'],
+                'location' => $dubai,
+                'position' => 'Cleaner - DMAIDS Careers Page (Dubai)',
+                'intro' => 'DMAIDS, the cleaning division of Delight Investment Group, describes paid training, shared accommodation and site transport for eligible roles. Its page does not say outright that it accepts beginners, so ask. UAE law bars employers from charging workers recruitment costs.',
+                'items' => ['You cannot work on a visit visa, even unpaid', 'Ask how many people share a room and what is deducted', 'Specify Dubai on the application'],
+                'url' => 'https://dmaids.ae/careers/',
+                'keywords' => 'cleaner jobs in dubai uae, cleaner jobs in dubai with accommodation, house cleaner jobs in dubai, cleaning jobs dubai no experience',
+                'note' => '<p><strong>Note:</strong> this link opens the company\'s own careers page. Its benefits are the company\'s own claims, and a listing here does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['transport-logistics', 'Transport & Logistics'],
+                'advertiser' => ['UAE Transport Employers (Aggregated)', 'uae-transport-aggregated'],
+                'location' => $dubai,
+                'position' => 'Driver - Dubai Taxi Company Careers Page (Dubai)',
+                'intro' => 'Dubai Taxi Company has a Join our Fleet route and says priority goes to people with long taxi driving experience; it promises no visa or start date. Licences from Pakistan, India and Nepal are not on the RTA exchange list, so plan on the theory and road test.',
+                'items' => ['The company, not the driver, applies for the RTA taxi permit', 'A taxi permit covers only the company you are registered under', 'Employers may not charge workers recruitment costs'],
+                'url' => 'https://www.dubaitaxi.ae/en/careers',
+                'keywords' => 'driver jobs in dubai with visa, dubai taxi driver jobs, driver jobs in dubai for pakistani, dubai driver visa requirements',
+                'note' => '<p><strong>Note:</strong> this link opens the company\'s official careers page. It is not an application form for one vacancy, and it does not guarantee a permit or a job.</p>',
             ],
             [
                 'category' => ['transport-logistics', 'Transport & Logistics'],

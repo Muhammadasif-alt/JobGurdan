@@ -20,6 +20,7 @@ use Database\Seeders\CallCentreJobsKarachiSindhFreshersBlogSeeder;
 use Database\Seeders\CaregiverJobsCalgaryVisaSponsorshipBlogSeeder;
 use Database\Seeders\CaregiverJobsUsaVisaSponsorshipBlogSeeder;
 use Database\Seeders\ChefJobsParisFranceEntryPathsBlogSeeder;
+use Database\Seeders\CleanerJobsDubaiRequirementsAccommodationBlogSeeder;
 use Database\Seeders\CleanerJobUkFromPakistanBlogSeeder;
 use Database\Seeders\CnaJobsAtlantaGeorgiaCertificationPayBlogSeeder;
 use Database\Seeders\ContentWriterJobsLahoreHowToGetHiredBlogSeeder;
@@ -31,6 +32,7 @@ use Database\Seeders\DataEntryJobsHomePennsylvaniaLegitRedFlagsBlogSeeder;
 use Database\Seeders\DataEntryJobsHoustonNoExperienceBlogSeeder;
 use Database\Seeders\DeliveryDriverJobsLosAngelesAppsRequirementsBlogSeeder;
 use Database\Seeders\DocumentsNeededToWorkAbroadBlogSeeder;
+use Database\Seeders\DriverJobsDubaiWithVisaBlogSeeder;
 use Database\Seeders\ElevatorApprenticeshipChicagoPhiladelphiaBostonBlogSeeder;
 use Database\Seeders\ElevatorApprenticeshipTestNeiepBlogSeeder;
 use Database\Seeders\EmailMarketingJobsVancouverBritishColumbiaBlogSeeder;
@@ -84,6 +86,7 @@ use Database\Seeders\OperatingEngineersApprenticeshipTestBlogSeeder;
 use Database\Seeders\ParamedicJobsTorontoTrainingCertificationBlogSeeder;
 use Database\Seeders\PartTimeJobsSeattleWaBlogSeeder;
 use Database\Seeders\PetrolPumpAttendantJobsLahoreDutiesSalaryBlogSeeder;
+use Database\Seeders\PetrolStationJobsManchesterRolesHowToApplyBlogSeeder;
 use Database\Seeders\PharmacyTechnicianJobsColumbusOhioRequirementsBlogSeeder;
 use Database\Seeders\PlumberApprenticeshipSeattleHoustonDetroitBlogSeeder;
 use Database\Seeders\PoliceConstableJobsPunjabPakistanBlogSeeder;
@@ -200,6 +203,9 @@ dataset('abroadGuides', [
     'cna jobs atlanta' => [CnaJobsAtlantaGeorgiaCertificationPayBlogSeeder::class, ['minimum of 85 hours', '70 multiple-choice questions', '23,260', '$18.92', '$39,350', 'there is no renewal fee']],
     'caregiver jobs calgary' => [CaregiverJobsCalgaryVisaSponsorshipBlogSeeder::class, ['will not accept new applications under the Home Care Worker Immigration Pilots', '30 March 2030', '19 November 2025', '$20.27', '15 to 27 weeks', '52.9%']],
     'medical assistant jobs phoenix' => [MedicalAssistantJobsPhoenixNoExperienceBlogSeeder::class, ['class 3 misdemeanor', '2,000 hours', '15,410', '$22.51', '$46,830', '$45,690']],
+    'petrol station jobs manchester' => [PetrolStationJobsManchesterRolesHowToApplyBlogSeeder::class, ['£13.50 an hour', 'M44 6FW', '£12.71', '£10.85', '£13.21', '£216', 'owned by MFG', '(occupation code 7111)', 'marked ineligible']],
+    'cleaner jobs dubai' => [CleanerJobsDubaiRequirementsAccommodationBlogSeeder::class, ['REF122596D', 'Delight Investment Group', 'provide appropriate accommodation', 'Article 6', 'strictly prohibits', 'Less than 1 year']],
+    'driver jobs dubai' => [DriverJobsDubaiWithVisaBlogSeeder::class, ['Pakistan, India and Nepal are not on it', 'Age 21 to 65', 'AED 2,045', 'within 14 days', 'at least six months', 'long experience in taxi driving']],
     'truck driver jobs dallas' => [TruckDriverJobsDallasCdlRequirementsTrainingBlogSeeder::class, ['26,001 pounds', '10,000 pounds', 'at least 14 days', '7 February 2022', '1 June 2026', '$58,640 a year', 'H-2A']],
     'petrol pump attendant jobs lahore' => [PetrolPumpAttendantJobsLahoreDutiesSalaryBlogSeeder::class, ['Rs 40,000 a month', 'Rs 1,538.46 a day', 'Rs 192.31 an hour', 'Rs 100 a meal', 'Rs 1,800 a month', 'Rs 2,000 a month', '8 September 2025', 'exclusive licensee of the Shell brand']],
     'sweeper jobs karachi' => [SweeperJobsKarachiGovernmentPrivateOptionsBlogSeeder::class, ['Rs 43,000', 'Rs 44,484', 'Rs 53,350', 'Rs 55,626', '1 July 2026', 'outsourcing its municipal functions', '25 October 2025']],
@@ -268,6 +274,7 @@ const OFFICIAL_HOSTS = [
     'reportfraud.police.uk', 'antifraudcentre-centreantifraude.ca', 'www.scamwatch.gov.au', 'beoe.gov.pk',
     'www.consumerfinance.gov', 'www.sbp.org.pk', 'find-and-update.company-information.service.gov.uk', 'www.freecodecamp.org', 'learn.microsoft.com', 'www.skillsbuild.org', 'academy.hubspot.com', 'www.open.edu', 'www.fairwork.gov.au', 'www.dol.gov', 'www.hse.gov.uk', 'www.mohre.gov.ae', 'complaint.nccia.gov.pk', 'www.hrsd.gov.sa', 'www.uscis.gov', 'home-affairs.ec.europa.eu', 'european-union.europa.eu', 'eures.europa.eu', 'www.france-visas.gouv.fr', 'employment-social-affairs.ec.europa.eu', 'www.bls.gov', 'www.nmc.org.uk',
     'iw721.org', 'www.dli.mn.gov', 'www.ironworkers.org', 'www.neiep.org', 'tpr.fmcsa.dot.gov', 'clr.org.pk', 'www.radio.gov.pk', 'www.psopk.com', 'wafi-energy.com', 'careers.totalparco.com.pk', 'lhr.sindh.gov.pk', 'sswmb.gos.pk', 'www.aku.edu', 'careers.compass-usa.com', 'aa080.referrals.selectminds.com', 'www.phila.gov', 'www.uber.com', 'dasher.doordash.com', 'hiring.amazon.com', 'wagesla.lacity.gov', 'www.treasurer.ca.gov', 'www.caljobs.ca.gov', 'careers.quiktrip.com', 'careers.7-eleven.com', 'efte.twc.texas.gov', 'www.tabc.texas.gov', 'comptroller.texas.gov', 'www.service-public.fr', 'candidat.francetravail.fr', 'www.ilo.org', 'jobs.smartrecruiters.com', 'www.theculinaryacademy.org', 'labor.nv.gov', 'careers.mgmresorts.com', 'wynnresorts.com', 'www.employnv.gov', 'radissoncareers.com', 'www.jumeirah.com', 'floridajobs.org', 'jobs.hilton.com', 'careers.loewshotels.com', 'www.pharmacy.ohio.gov', 'www.cscc.edu', 'www.ptcb.org', 'www.health.ny.gov', 'selfhelp.net', 'jobs.vnshealth.org', 'pmfpunjab.edu.pk', 'chughtailab.com', 'www.ahpc.org.pk', 'shaukatkhanum.org.pk', 'www.azleg.gov', 'www.caahep.org', 'www.bannerhealth.com', 'www.azjobconnection.gov', 'alis.alberta.ca', 'www.cno.org', 'cno.org', 'sunnybrook.ca', 'www.uhn.ca', 'nurseaide.allianthealth.org', 'kb-ga.credentia.com', 'www.emoryhealthcare.org', 'piedmontcareers.org', 'www.bon.texas.gov', 'bon.texas.gov', 'nursecompact.com', 'jobs.memorialhermann.org', 'www.houstonmethodist.org', 'www.houstonmethodistcareers.org', 'jobs.harrishealth.org', 'www.imperial.nhs.uk', 'scfhs.org.sa', 'dataflowgroup.com', 'www.kfshrc.edu.sa', 'prisonandprobationjobs.gov.uk', 'www.prison-officer-online-ac.co.uk', 'www.cbsa-asfc.gc.ca', 'emploisfp-psjobs.cfp-psc.gc.ca', 'www.chicago.gov', 'www.iaff.org', 'www.toronto.ca', 'humber.ca', 'forms.mgcs.gov.on.ca', 'www.sira.gov.ae', 'careers.g4s.com', 'www.dps.texas.gov', 'teex.org', 'jobs.aus.com', 'punjabpolice.gov.pk', 'jobs.punjab.gov.pk', 'uppbpb.gov.in', 'www.ons.gov.uk', 'www.bmas.de', 'www.ontario.ca', 'ircc.canada.ca', 'pakistan.diplo.de', 'digital.diplo.de', 'findajob.dwp.gov.uk', 'www.myworldofwork.co.uk', 'www.gla.ac.uk', 'jobs.gla.ac.uk', 'myjobscotland.gov.uk', 'www.apexsinfo.com', 'www.pocketful.in', 'careers.ibex.co', 'careers.accor.com', 'careers.marriott.com', 'www.njp.gov.pk', 'data.bls.gov', 'www.pa.gov', 'www.pacareerlink.pa.gov', 'www.identitytheft.gov', 'hayselectricalservices.applytojob.com', 'www.hayselectrical.com', 'business.gov.au', 'ohiomeansjobs.ohio.gov', 'www.digiskills.pk', 'www.michiganworks.org', 'digiskills.pk', 'fightspam-combattrelepourriel.ised-isde.canada.ca', 'www.ftc.gov', 'consumer.ftc.gov', 'developers.google.com', 'support.google.com', 'www.about.ads.microsoft.com', 'www.nyc.gov', 'www.employflorida.com', 'www.hackerone.com', 'hackerone.com', 'docs.hackerone.com', 'www.bugcrowd.com', 'docs.bugcrowd.com', 'portswigger.net', 'philjobnet.gov.ph', 'www.tutor.com', 'support.wyzant.com', 'preply.com', 'www.nj.gov', 'support.upwork.com', 'help.fiverr.com', 'www.lni.wa.gov', 'www.enterprise.gov.ie', 'developer.wordpress.org', 'developer.mozilla.org', 'www.onetonline.org', 'understand-digital-data-roles-skills.service.gov.uk', 'www.findapprenticeship.service.gov.uk', 'www.ncs.gov.in', 'www.gov.ie', 'www.publicjobs.ie', 'www.csa.ie', 'www.cso.ie', 'www.seattlepipetrades.org', 'ualocal32.com', 'www.plu68.com', 'www.plumbers98tc.org', 'lni.wa.gov', 'tsbpe.texas.gov', 'www.michigan.gov', 'cle33sheetmetal.org', 'sheetmetaltraining.org', 'sheetmetalapprenticetraining.com', 'www.smw10.org', 'dli.mn.gov', 'dol.ny.gov', 'www.ieetc.org', 'www.laett.com', 'www.ualocal364.com', 'www.wsctf.org', 'www.cnoett.org', 'www.ua373.com', 'neieprecruitment.org', 'iueclocal4.com', 'nycironworkers.org', 'www.ironworkers580.org', 'www.ironworkers12.org', 'chicago.taleo.net', 'www.transitchicago.com', 'www.cps.edu', 'ides.illinois.gov', 'illinoisjoblink.illinois.gov', 'www.houstontx.gov', 'www.governmentjobs.com', 'jobs.ridemetro.org', 'hrrm.harriscountytx.gov', 'www.workintexas.com', 'www.seattle.gov', 'www.washington.edu', 'hfs.uw.edu', 'www.worksourcewa.com', 'www.electricaltrainingalliance.org', 'www.etasv.org', 'nietc.org', 'www.oregon.gov', 'www.laborerstrainingschool.com', 'sm88jatc.org', 'smw20training.com', 'www.smart18ecwi.org', 'www.socalsma.org', 'www.sheetmetal-iti.org', 'ua.org', 'www.pftf597.org', 'www.ua190.org', 'www.ualocal467.org', 'sajac-boilermakers.org', 'boilermaker.ca', '555.boilermaker.ca', 'www.dir.ca.gov', 'boilermakers.org', 'www.bnap.com', 'www.liuna.org', 'www.liunatraining.org', 'www.njlaborers.org', 'liunaminnesota.org', 'www.iuoe.org', 'local150.org', 'www.local49training.org', 'www.apprenticeship.gov', 'www.osha.gov', 'openstax.org',
+    'www.thekaygroup.co.uk', 'www.daniaservices.co.uk', 'apply.tesco-careers.com', 'dmaids.ae', 'assets.u.ae', 'www.rta.ae', 'rta.ae', 'www.dubaitaxi.ae', 'receipts.mohre.gov.ae',
     'www.fmcsa.dot.gov', 'www.irs.gov', 'reportfraud.ftc.gov', 'jobsearch.gov.au', 'www.jobs.nhs.uk', 'seasonaljobs.dol.gov', 'travel.state.gov', 'europass.europa.eu', 'nationalcareers.service.gov.uk',
 ];
 
@@ -369,6 +376,9 @@ it('cross-links only to guides that exist once they are all seeded', function ()
         WhatScoreNeededApprenticeshipTestBlogSeeder::class,
         OneWeekBeforeApprenticeshipTestBlogSeeder::class,
         ApplyForTradeApprenticeshipBlogSeeder::class,
+        PetrolStationJobsManchesterRolesHowToApplyBlogSeeder::class,
+        CleanerJobsDubaiRequirementsAccommodationBlogSeeder::class,
+        DriverJobsDubaiWithVisaBlogSeeder::class,
         TruckDriverJobsDallasCdlRequirementsTrainingBlogSeeder::class,
         PetrolPumpAttendantJobsLahoreDutiesSalaryBlogSeeder::class,
         SweeperJobsKarachiGovernmentPrivateOptionsBlogSeeder::class,
