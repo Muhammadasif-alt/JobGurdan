@@ -255,6 +255,11 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'England', 'country' => 'United Kingdom']
         );
 
+        $italy = Location::firstOrCreate(
+            ['name' => 'Italy'],
+            ['area' => 'Italy', 'country' => 'Italy']
+        );
+
         $apprenticeNote = '<p><strong>Note:</strong> apprenticeship requirements are set by each training programme, not by JobGader. This link opens an official page; it is not an application form, and nothing on it guarantees a place.</p>';
         $h2b = 'https://seasonaljobs.dol.gov/';
         $h2bPage = 'https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers';
@@ -1605,6 +1610,39 @@ class GuideJobListingsSeeder extends Seeder
                 'url' => 'https://www.workintexas.com/',
                 'keywords' => 'gas station jobs in houston tx, gas station cashier jobs in houston tx, entry level gas station jobs in houston tx, convenience store jobs in houston tx',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['transport-logistics', 'Transport & Logistics'],
+                'advertiser' => ['Italy Delivery Platforms (Aggregated)', 'italy-delivery-aggregated'],
+                'location' => $italy,
+                'position' => 'Food Delivery Rider - Glovo Italy Courier Requirements Page',
+                'intro' => 'Glovo describes its couriers in Italy as self-employed and uses waiting lists in some cities. It publishes a EUR 3 gross minimum for each completed offer and a EUR 14 gross hourly minimum on capped actual delivery time. Registering does not sponsor a visa.',
+                'items' => ['You need the legal right to work in Italy first', 'A work visa from abroad needs an employer authorisation within the annual quota', 'A licence and insurance apply to motor vehicles'],
+                'url' => 'https://riderhub.glovoapp.com/it/blog/requisiti-per-lavorare-con-glovo/',
+                'keywords' => 'food delivery rider jobs in italy, food delivery jobs in italy for foreigners, food delivery rider salary in italy, glovo rider italy',
+                'note' => '<p><strong>Note:</strong> this link opens the platform\'s own requirements page in Italian. It is not a job offer or a visa sponsor, and registration does not guarantee work.</p>',
+            ],
+            [
+                'category' => ['construction-trades', 'Construction Trades'],
+                'advertiser' => ['UAE Skilled Trade Employers (Aggregated)', 'uae-skilled-trade-aggregated'],
+                'location' => $dubai,
+                'position' => 'Electrician - Klima Global Vacancy Page (Dubai)',
+                'intro' => 'Klima Global asks for an electrical ITI or diploma and two to four years in commercial or industrial low-voltage installation and panel wiring, with a practical task if required. It lists visa and medical insurance as benefits but prefers a UAE transferable visa, so ask about overseas hiring.',
+                'items' => ['Employers may not charge workers recruitment costs', 'You cannot work on a visit visa, even unpaid', 'Bring your trade certificates as PDF'],
+                'url' => 'https://www.klimaglobal.com/career-posts/electrician-dubai-uae/',
+                'keywords' => 'electrician jobs in dubai uae, electrician trade test dubai, maintenance electrician jobs in dubai, electrician jobs dubai from pakistan',
+                'note' => '<p><strong>Note:</strong> this link opens the employer\'s own page. Check that the vacancy is still open. A listing here does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['education-training', 'Education & Training'],
+                'advertiser' => ['Qatar International Schools (Aggregated)', 'qatar-schools-aggregated'],
+                'location' => $doha,
+                'position' => 'Teacher - Qatar Academy Doha Recruitment Page (Doha)',
+                'intro' => 'Qatar Academy Doha asks for a relevant degree, a teaching certification and at least two years of experience, and publishes QAR 165,708 to 213,204 a year for basic salary plus transport allowance, with furnished housing and other benefits. Check the next intake on the page.',
+                'items' => ['A clear criminal record check, attested, is requested', 'A bachelor degree from abroad needs its transcript for attestation', 'The employer typically handles the residence permit'],
+                'url' => 'https://qad.edu.qa/working-at-qad/',
+                'keywords' => 'teaching jobs in doha qatar for foreign teachers, international school teacher jobs in doha, teacher salary in doha, teaching jobs in doha with visa sponsorship',
+                'note' => '<p><strong>Note:</strong> this link opens the school\'s own recruitment page. Its figures are one school\'s package, and a listing here does not guarantee hiring.</p>',
             ],
             [
                 'category' => ['general-labour', 'General Labour'],
