@@ -718,7 +718,7 @@
                     </div>
 
                     <div class="blog-content">
-                        {!! $blog->content !!}
+                        {!! $blog->display_content !!}
                     </div>
 
                     @if($blog->tags)

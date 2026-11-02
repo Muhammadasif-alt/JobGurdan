@@ -1737,7 +1737,8 @@
                                     <a href="{{ url('/about-us') }}">About Us</a> &nbsp;&middot;&nbsp;
                                     <a href="{{ route('contact.us') }}">Contact</a> &nbsp;&middot;&nbsp;
                                     <a href="{{ route('pages.editorial-policy') }}">Editorial Policy</a> &nbsp;&middot;&nbsp;
-                                    <a href="{{ route('pages.disclaimer') }}">Disclaimer</a>
+                                    <a href="{{ route('pages.disclaimer') }}">Disclaimer</a> &nbsp;&middot;&nbsp;
+                                    <a href="{{ route('pages.sitemap') }}">Sitemap</a>
                                 </p>
                             </div>
                         </div>

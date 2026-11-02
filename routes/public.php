@@ -12,6 +12,7 @@ use App\Http\Controllers\ContactMessageController;
 use App\Http\Controllers\Public\BlogController as PublicBlogController;
 use App\Http\Controllers\Public\JobSeekerPublicController;
 use App\Http\Controllers\Public\ScholarshipController;
+use App\Http\Controllers\Public\SitemapPageController;
 use App\Http\Controllers\Site\UserJobController;
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
@@ -139,6 +140,7 @@ Route::view('/terms-of-service', 'pages.terms')->name('pages.terms');
 Route::permanentRedirect('/contact', '/contact-us')->name('pages.contact');
 Route::view('/disclaimer', 'pages.disclaimer')->name('pages.disclaimer');
 Route::view('/editorial-policy', 'pages.editorial-policy')->name('pages.editorial-policy');
+Route::get('/sitemap', SitemapPageController::class)->name('pages.sitemap');
 Route::get('/authors/{author:slug}', [\App\Http\Controllers\Public\AuthorController::class, 'show'])->name('authors.show');
 
 // ============================================
@@ -241,7 +243,7 @@ Route::get('/sitemap-core.xml', function () use ($sitemapUrl, $sitemapResponse) 
     $inner .= $sitemapUrl(url('/scholarships'), 'weekly', '0.7');
     $inner .= $sitemapUrl(url('/resume-writing-services'), 'monthly', '0.8');
 
-    foreach (['/about-us', '/contact-us', '/privacy-policy', '/terms-of-service', '/disclaimer', '/editorial-policy'] as $p) {
+    foreach (['/about-us', '/contact-us', '/privacy-policy', '/terms-of-service', '/disclaimer', '/editorial-policy', '/sitemap'] as $p) {
         $inner .= $sitemapUrl(url($p), 'monthly', '0.4');
     }
 

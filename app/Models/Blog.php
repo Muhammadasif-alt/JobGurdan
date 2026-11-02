@@ -80,6 +80,39 @@ class Blog extends Model
     }
 
     /**
+     * The post body as readers see it: links to other sites open in a new
+     * tab with rel="noopener", while links within JobGader stay as written.
+     */
+    public function getDisplayContentAttribute(): string
+    {
+        $siteHost = parse_url(config('app.url'), PHP_URL_HOST);
+
+        return (string) preg_replace_callback('/<a\s[^>]*>/i', function (array $match) use ($siteHost): string {
+            $tag = $match[0];
+
+            if (! preg_match('/href\s*=\s*"(https?:\/\/[^"]+)"/i', $tag, $href)) {
+                return $tag;
+            }
+
+            $host = parse_url(html_entity_decode($href[1]), PHP_URL_HOST);
+
+            if ($host === null || $host === $siteHost || $host === 'www.'.$siteHost) {
+                return $tag;
+            }
+
+            if (! preg_match('/\starget\s*=/i', $tag)) {
+                $tag = substr($tag, 0, -1).' target="_blank">';
+            }
+
+            if (! preg_match('/\srel\s*=/i', $tag)) {
+                $tag = substr($tag, 0, -1).' rel="noopener">';
+            }
+
+            return $tag;
+        }, (string) $this->content);
+    }
+
+    /**
      * Words that say nothing about what a guide is about, so they never
      * count towards how related two guides are.
      *
