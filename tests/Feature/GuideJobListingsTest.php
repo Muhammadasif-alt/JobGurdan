@@ -66,6 +66,8 @@ it('gives each salary and from-Pakistan guide its own job listing', function () 
         'Apprenticeship Applicant — Apprenticeship.gov Job Finder (Check Entry Requirements)',
         'Elevator Constructor Applicant — NEIEP Ranked Hiring List Information',
         'Construction Laborer Applicant — Laborers Training School Waiting List Information',
+        'Office Boy - Delhi Labour Department Minimum Wage Rates (Delhi)',
+        'Courier - Evri Self-Employed Courier Requirements (Manchester)',
         'Cashier - Target Store Jobs Search (Chicago, Illinois)',
         'Bus Operator - CTA Hiring Requirements (Chicago, Illinois)',
         'Plumber Trainee - Washington L&I Trainee Certificate (Seattle, Washington)',
