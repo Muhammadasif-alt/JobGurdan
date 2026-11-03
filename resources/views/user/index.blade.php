@@ -86,6 +86,7 @@
         "logo": "{{ asset('public/user/images/apple-touch-icon.png') }}",
         "description": "A third-party information site for jobs across {{ $coverage->shortList() }} and scholarships to study abroad. JobGader is not an employer, recruiter or visa agent; applications go to the employer, job board or university.",
         "areaServed": {!! json_encode($coverage->areaServedNodes(), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
+        "sameAs": {!! json_encode(array_values(array_filter(config('site.social', []))), JSON_UNESCAPED_SLASHES) !!},
         "contactPoint": {
             "@@type": "ContactPoint",
             "contactType": "Customer Support",

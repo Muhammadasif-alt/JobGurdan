@@ -22,9 +22,7 @@
         "logo": "{{ asset('public/user/images/favicon.png') }}",
         "description": "A job board and guide site covering openings in {{ $coverage->shortList() }}, with plain-English write-ups of which visa sponsorship routes are open to foreign workers.",
         "areaServed": {!! json_encode($coverage->areaServedNodes(), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!},
-        "sameAs": [
-            "{{ url('/') }}"
-        ],
+        "sameAs": {!! json_encode(array_values(array_filter(config('site.social', []))), JSON_UNESCAPED_SLASHES) !!},
         "contactPoint": {
             "@@type": "ContactPoint",
             "contactType": "Customer Support",

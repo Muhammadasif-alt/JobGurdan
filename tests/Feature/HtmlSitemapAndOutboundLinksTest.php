@@ -59,3 +59,20 @@ it('opens links to other sites in a new tab and leaves JobGader links alone', fu
 
     $this->get(route('blog.show', $post->slug))->assertOk()->assertSee('href="https://example.org/y" target="_blank" rel="noopener"', false);
 });
+
+it('links the official Facebook page from the footer and the Organization schema', function () {
+    $facebook = config('site.social.facebook');
+
+    expect($facebook)->toStartWith('https://www.facebook.com/');
+
+    $this->get('/')
+        ->assertOk()
+        ->assertSee('href="'.$facebook.'" target="_blank" rel="noopener"', false)
+        ->assertSee('"sameAs": '.json_encode([$facebook], JSON_UNESCAPED_SLASHES), false);
+});
+
+it('hides the social line when no profile is set', function () {
+    config(['site.social' => ['facebook' => '', 'linkedin' => '']]);
+
+    $this->get(route('pages.disclaimer'))->assertOk()->assertDontSee('Follow JobGader');
+});

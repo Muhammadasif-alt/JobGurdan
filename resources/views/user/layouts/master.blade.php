@@ -1740,6 +1740,17 @@
                                     <a href="{{ route('pages.disclaimer') }}">Disclaimer</a> &nbsp;&middot;&nbsp;
                                     <a href="{{ route('pages.sitemap') }}">Sitemap</a>
                                 </p>
+                                @if (array_filter(config('site.social', [])))
+                                    <p class="footer-link-group footer-social">
+                                        Follow JobGader:
+                                        @if (config('site.social.facebook'))
+                                            &nbsp;<a href="{{ config('site.social.facebook') }}" target="_blank" rel="noopener"><i class="icon-brand-facebook-f" aria-hidden="true"></i> Facebook</a>
+                                        @endif
+                                        @if (config('site.social.linkedin'))
+                                            &nbsp;&middot;&nbsp;<a href="{{ config('site.social.linkedin') }}" target="_blank" rel="noopener"><i class="icon-brand-linkedin-in" aria-hidden="true"></i> LinkedIn</a>
+                                        @endif
+                                    </p>
+                                @endif
                             </div>
                         </div>
 

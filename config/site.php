@@ -21,6 +21,21 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Social Profiles
+    |--------------------------------------------------------------------------
+    |
+    | The official JobGader pages, linked from the footer and listed as sameAs
+    | in the Organization schema. Leave one empty and its link does not render.
+    |
+    */
+
+    'social' => [
+        'facebook' => 'https://www.facebook.com/profile.php?id=61595280094441',
+        'linkedin' => '',
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
     | WhatsApp Number
     |--------------------------------------------------------------------------
     |
