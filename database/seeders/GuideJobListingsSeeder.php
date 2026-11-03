@@ -255,6 +255,11 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'England', 'country' => 'United Kingdom']
         );
 
+        $seattle = Location::firstOrCreate(
+            ['name' => 'Seattle'],
+            ['area' => 'Washington', 'country' => 'United States']
+        );
+
         $italy = Location::firstOrCreate(
             ['name' => 'Italy'],
             ['area' => 'Italy', 'country' => 'Italy']
@@ -1609,6 +1614,39 @@ class GuideJobListingsSeeder extends Seeder
                 'items' => ['14 and 15 year olds may work only non-hazardous jobs outside school hours', 'Texas minimum wage is USD 7.25 an hour', 'Many employers ask for TABC seller/server training'],
                 'url' => 'https://www.workintexas.com/',
                 'keywords' => 'gas station jobs in houston tx, gas station cashier jobs in houston tx, entry level gas station jobs in houston tx, convenience store jobs in houston tx',
+                'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['hospitality-tourism', 'Hospitality & Tourism'],
+                'advertiser' => ['US Retail Employers (Aggregated)', 'usa-retail-aggregated'],
+                'location' => $chicago,
+                'position' => 'Cashier - Target Store Jobs Search (Chicago, Illinois)',
+                'intro' => 'Target advertised Guest Advocate (cashier) roles in Chicago at $18.50 an hour to start, including on-demand posting R0000474749 at 630 N LaSalle Dr, where staff pick up shifts in an app instead of a weekly schedule. Chicago minimum wage is $17.05 an hour from 1 July 2026.',
+                'items' => ['On-demand staff must work at least one shift every four weeks', 'Search by posting number or store address', 'Check that the store is inside the city limits'],
+                'url' => 'https://corporate.target.com/careers/job-search/store/stores',
+                'keywords' => 'cashier jobs in chicago illinois with no experience, entry-level cashier jobs in chicago, part-time cashier jobs in chicago, chicago retail cashier jobs',
+                'note' => '<p><strong>Note:</strong> this link opens the employer\'s own job search. It is not an application form for one vacancy, and a listing here does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['transport-logistics', 'Transport & Logistics'],
+                'advertiser' => ['US Public Transit Employers (Aggregated)', 'usa-public-transit-aggregated'],
+                'location' => $chicago,
+                'position' => 'Bus Operator - CTA Hiring Requirements (Chicago, Illinois)',
+                'intro' => 'CTA hires bus operators with no CDL or commercial experience. Applicants must be 21 with an acceptable driving record and get an Illinois CLP with knowledge, passenger and air brakes endorsements within 30 days of an offer, then receive 30 to 45 days of paid training. Starting pay is $28.15 an hour.',
+                'items' => ['Top pay is $42.46 an hour after 45 months', 'Hiring takes about two months from the test date', 'Applications are online only'],
+                'url' => 'https://www.transitchicago.com/careers/bus-operator/',
+                'keywords' => 'bus driver jobs in chicago illinois, chicago bus operator jobs, cta bus driver hiring process, paid cdl training chicago',
+                'note' => '<p><strong>Note:</strong> this link opens an official transit agency page. It is not an application form for one vacancy, and a listing here does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['construction-trades', 'Construction Trades'],
+                'advertiser' => ['US Building Trades Apprenticeships (Aggregated)', 'usa-building-trades-aggregated'],
+                'location' => $seattle,
+                'position' => 'Plumber Trainee - Washington L&I Trainee Certificate (Seattle, Washington)',
+                'intro' => 'Anyone doing plumbing work in Washington as a trainee needs an L&I plumber trainee certificate, must be 16 or older and work under direct supervision. The certificate costs $60, renews yearly with 8 hours of continuing education, and hours are reported on notarized affidavits.',
+                'items' => ['Seattle Area Pipe Trades applications received by 19 February 2027 interview in March 2027', 'Journey-level PL01 needs 8,000 supervised hours, 4,000 commercial', 'Apply to the apprenticeship and the certificate separately'],
+                'url' => 'https://www.lni.wa.gov/licensing-permits/plumbing/plumber-certification/plumber-trainee',
+                'keywords' => 'plumber apprenticeship seattle, washington plumber trainee certificate, local 32 plumbing apprenticeship, seattle area pipe trades application',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
             ],
             [
