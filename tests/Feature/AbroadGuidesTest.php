@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\Blog;
+use Database\Seeders\AebiSchmidtRemoteJobsBlogSeeder;
 use Database\Seeders\AffiliateMarketingBeginnersKarachiSindhBlogSeeder;
 use Database\Seeders\ApplyForTradeApprenticeshipBlogSeeder;
 use Database\Seeders\ApprenticeshipRankingListsBlogSeeder;
@@ -72,11 +73,13 @@ use Database\Seeders\JobEuropeNonEuCitizenBlogSeeder;
 use Database\Seeders\JobsAbroadFreeHousingFoodBlogSeeder;
 use Database\Seeders\JobsHiringNowHoustonTxBlogSeeder;
 use Database\Seeders\JobsInChicagoIlBlogSeeder;
+use Database\Seeders\JobsNearMeHiringNowHowToApplyBlogSeeder;
 use Database\Seeders\JuniorWebDeveloperJobsChicagoNoDegreeBlogSeeder;
 use Database\Seeders\KilleenTxHiringImmediatelyNoExperienceJobsBlogSeeder;
 use Database\Seeders\LaborersUnionEntranceExamBlogSeeder;
 use Database\Seeders\LabTechnicianJobsLahorePunjabQualificationsSalaryBlogSeeder;
 use Database\Seeders\LivingWorkingAbroad2026MinimumWageCostOfLivingBlogSeeder;
+use Database\Seeders\LpnRemoteWorkFromHomeJobsBlogSeeder;
 use Database\Seeders\MechanicalReasoningQuestionsBlogSeeder;
 use Database\Seeders\MedicalAssistantJobsPhoenixNoExperienceBlogSeeder;
 use Database\Seeders\MistakesApplyingJobsAbroadBlogSeeder;
@@ -214,6 +217,9 @@ dataset('abroadGuides', [
     'cna jobs atlanta' => [CnaJobsAtlantaGeorgiaCertificationPayBlogSeeder::class, ['minimum of 85 hours', '70 multiple-choice questions', '23,260', '$18.92', '$39,350', 'there is no renewal fee']],
     'caregiver jobs calgary' => [CaregiverJobsCalgaryVisaSponsorshipBlogSeeder::class, ['will not accept new applications under the Home Care Worker Immigration Pilots', '30 March 2030', '19 November 2025', '$20.27', '15 to 27 weeks', '52.9%']],
     'medical assistant jobs phoenix' => [MedicalAssistantJobsPhoenixNoExperienceBlogSeeder::class, ['class 3 misdemeanor', '2,000 hours', '15,410', '$22.51', '$46,830', '$45,690']],
+    'aebi schmidt remote jobs' => [AebiSchmidtRemoteJobsBlogSeeder::class, ['three platforms', 'up to 50% travel', 'Virginia and Maryland market', 'notificationhr@aebi-schmidt.com', 'upfront payment or deposit', 'three all-electric Schmidt eSwingo 200+', 'belongs to Gatwick']],
+    'jobs near me' => [JobsNearMeHiringNowHowToApplyBlogSeeder::class, ['requisition 5781', 'O Levels or Matriculation', 'R0000458686', '$17.75 an hour', '$26.65', '$1,538 a month', 'Rs 40,000 a month']],
+    'lpn remote jobs' => [LpnRemoteWorkFromHomeJobsBlogSeeder::class, ['$21 to $25 an hour', '$21 to $26 an hour', 'up to $1,500', '<strong>one year</strong>', 'preferred, not required', 'practice is where the patient is', '$4,507 a month', 'Monday to Friday on Eastern Time']],
     'carfax technology jobs' => [CarfaxRemoteUsTechnologyJobsBlogSeeder::class, ['$123,000 to $185,000', '$10,250 to $15,417', 'four days a week', 'three days a week', '$23 to $29 an hour', 'six years of product management', 'not need sponsorship']],
     'remote marketing jobs' => [RemoteMarketingJobs2026BlogSeeder::class, ['$60,000 to $80,000', '$125,000 plus bonus', '$68,000 to $75,000', 'three to five times a year', 'up to 15 pounds', 'four or more years', '$5,000 to $6,667']],
     'killeen no experience jobs' => [KilleenTxHiringImmediatelyNoExperienceJobsBlogSeeder::class, ['JR10000493', '2509 Trimmier Road', '24 hours a week', 'R-011667', '30 to 50 pounds', '$14.00 to $27.00 an hour', 'future opening', '$1,456 a month']],
@@ -296,6 +302,7 @@ const OFFICIAL_HOSTS = [
     'reportfraud.police.uk', 'antifraudcentre-centreantifraude.ca', 'www.scamwatch.gov.au', 'beoe.gov.pk',
     'www.consumerfinance.gov', 'www.sbp.org.pk', 'find-and-update.company-information.service.gov.uk', 'www.freecodecamp.org', 'learn.microsoft.com', 'www.skillsbuild.org', 'academy.hubspot.com', 'www.open.edu', 'www.fairwork.gov.au', 'www.dol.gov', 'www.hse.gov.uk', 'www.mohre.gov.ae', 'complaint.nccia.gov.pk', 'www.hrsd.gov.sa', 'www.uscis.gov', 'home-affairs.ec.europa.eu', 'european-union.europa.eu', 'eures.europa.eu', 'www.france-visas.gouv.fr', 'employment-social-affairs.ec.europa.eu', 'www.bls.gov', 'www.nmc.org.uk',
     'iw721.org', 'www.dli.mn.gov', 'www.ironworkers.org', 'www.neiep.org', 'tpr.fmcsa.dot.gov', 'clr.org.pk', 'www.radio.gov.pk', 'www.psopk.com', 'wafi-energy.com', 'careers.totalparco.com.pk', 'lhr.sindh.gov.pk', 'sswmb.gos.pk', 'www.aku.edu', 'careers.compass-usa.com', 'aa080.referrals.selectminds.com', 'www.phila.gov', 'www.uber.com', 'dasher.doordash.com', 'hiring.amazon.com', 'wagesla.lacity.gov', 'www.treasurer.ca.gov', 'www.caljobs.ca.gov', 'careers.quiktrip.com', 'careers.7-eleven.com', 'efte.twc.texas.gov', 'www.tabc.texas.gov', 'comptroller.texas.gov', 'www.service-public.fr', 'candidat.francetravail.fr', 'www.ilo.org', 'jobs.smartrecruiters.com', 'www.theculinaryacademy.org', 'labor.nv.gov', 'careers.mgmresorts.com', 'wynnresorts.com', 'www.employnv.gov', 'radissoncareers.com', 'www.jumeirah.com', 'floridajobs.org', 'jobs.hilton.com', 'careers.loewshotels.com', 'www.pharmacy.ohio.gov', 'www.cscc.edu', 'www.ptcb.org', 'www.health.ny.gov', 'selfhelp.net', 'jobs.vnshealth.org', 'pmfpunjab.edu.pk', 'chughtailab.com', 'www.ahpc.org.pk', 'shaukatkhanum.org.pk', 'www.azleg.gov', 'www.caahep.org', 'www.bannerhealth.com', 'www.azjobconnection.gov', 'alis.alberta.ca', 'www.cno.org', 'cno.org', 'sunnybrook.ca', 'www.uhn.ca', 'nurseaide.allianthealth.org', 'kb-ga.credentia.com', 'www.emoryhealthcare.org', 'piedmontcareers.org', 'www.bon.texas.gov', 'bon.texas.gov', 'nursecompact.com', 'jobs.memorialhermann.org', 'www.houstonmethodist.org', 'www.houstonmethodistcareers.org', 'jobs.harrishealth.org', 'www.imperial.nhs.uk', 'scfhs.org.sa', 'dataflowgroup.com', 'www.kfshrc.edu.sa', 'prisonandprobationjobs.gov.uk', 'www.prison-officer-online-ac.co.uk', 'www.cbsa-asfc.gc.ca', 'emploisfp-psjobs.cfp-psc.gc.ca', 'www.chicago.gov', 'www.iaff.org', 'www.toronto.ca', 'humber.ca', 'forms.mgcs.gov.on.ca', 'www.sira.gov.ae', 'careers.g4s.com', 'www.dps.texas.gov', 'teex.org', 'jobs.aus.com', 'punjabpolice.gov.pk', 'jobs.punjab.gov.pk', 'uppbpb.gov.in', 'www.ons.gov.uk', 'www.bmas.de', 'www.ontario.ca', 'ircc.canada.ca', 'pakistan.diplo.de', 'digital.diplo.de', 'findajob.dwp.gov.uk', 'www.myworldofwork.co.uk', 'www.gla.ac.uk', 'jobs.gla.ac.uk', 'myjobscotland.gov.uk', 'www.apexsinfo.com', 'www.pocketful.in', 'careers.ibex.co', 'careers.accor.com', 'careers.marriott.com', 'www.njp.gov.pk', 'data.bls.gov', 'www.pa.gov', 'www.pacareerlink.pa.gov', 'www.identitytheft.gov', 'hayselectricalservices.applytojob.com', 'www.hayselectrical.com', 'business.gov.au', 'ohiomeansjobs.ohio.gov', 'www.digiskills.pk', 'www.michiganworks.org', 'digiskills.pk', 'fightspam-combattrelepourriel.ised-isde.canada.ca', 'www.ftc.gov', 'consumer.ftc.gov', 'developers.google.com', 'support.google.com', 'www.about.ads.microsoft.com', 'www.nyc.gov', 'www.employflorida.com', 'www.hackerone.com', 'hackerone.com', 'docs.hackerone.com', 'www.bugcrowd.com', 'docs.bugcrowd.com', 'portswigger.net', 'philjobnet.gov.ph', 'www.tutor.com', 'support.wyzant.com', 'preply.com', 'www.nj.gov', 'support.upwork.com', 'help.fiverr.com', 'www.lni.wa.gov', 'www.enterprise.gov.ie', 'developer.wordpress.org', 'developer.mozilla.org', 'www.onetonline.org', 'understand-digital-data-roles-skills.service.gov.uk', 'www.findapprenticeship.service.gov.uk', 'www.ncs.gov.in', 'www.gov.ie', 'www.publicjobs.ie', 'www.csa.ie', 'www.cso.ie', 'www.seattlepipetrades.org', 'ualocal32.com', 'www.plu68.com', 'www.plumbers98tc.org', 'lni.wa.gov', 'tsbpe.texas.gov', 'www.michigan.gov', 'cle33sheetmetal.org', 'sheetmetaltraining.org', 'sheetmetalapprenticetraining.com', 'www.smw10.org', 'dli.mn.gov', 'dol.ny.gov', 'www.ieetc.org', 'www.laett.com', 'www.ualocal364.com', 'www.wsctf.org', 'www.cnoett.org', 'www.ua373.com', 'neieprecruitment.org', 'iueclocal4.com', 'nycironworkers.org', 'www.ironworkers580.org', 'www.ironworkers12.org', 'chicago.taleo.net', 'www.transitchicago.com', 'www.cps.edu', 'ides.illinois.gov', 'illinoisjoblink.illinois.gov', 'www.houstontx.gov', 'www.governmentjobs.com', 'jobs.ridemetro.org', 'hrrm.harriscountytx.gov', 'www.workintexas.com', 'www.seattle.gov', 'www.washington.edu', 'hfs.uw.edu', 'www.worksourcewa.com', 'www.electricaltrainingalliance.org', 'www.etasv.org', 'nietc.org', 'www.oregon.gov', 'www.laborerstrainingschool.com', 'sm88jatc.org', 'smw20training.com', 'www.smart18ecwi.org', 'www.socalsma.org', 'www.sheetmetal-iti.org', 'ua.org', 'www.pftf597.org', 'www.ua190.org', 'www.ualocal467.org', 'sajac-boilermakers.org', 'boilermaker.ca', '555.boilermaker.ca', 'www.dir.ca.gov', 'boilermakers.org', 'www.bnap.com', 'www.liuna.org', 'www.liunatraining.org', 'www.njlaborers.org', 'liunaminnesota.org', 'www.iuoe.org', 'local150.org', 'www.local49training.org', 'www.apprenticeship.gov', 'www.osha.gov', 'openstax.org',
+    'www.aebi-schmidt.com', 'www.monroetruck.com', 'ats.rippling.com', 'ncsbn.org',
     'jobs.jobvite.com', 'job-boards.greenhouse.io', 'jobs.lever.co', 'careers.whataburger.com', 'careers.dollartree.com', 'careers.walmart.com',
     'labour.delhi.gov.in', 'www.evri.com', 'www.ocado-logistics.com',
     'corporate.target.com', 'jobs.chipotle.com', 'www.pacebus.com', 'sapt.org',
@@ -402,6 +409,9 @@ it('cross-links only to guides that exist once they are all seeded', function ()
         WhatScoreNeededApprenticeshipTestBlogSeeder::class,
         OneWeekBeforeApprenticeshipTestBlogSeeder::class,
         ApplyForTradeApprenticeshipBlogSeeder::class,
+        AebiSchmidtRemoteJobsBlogSeeder::class,
+        JobsNearMeHiringNowHowToApplyBlogSeeder::class,
+        LpnRemoteWorkFromHomeJobsBlogSeeder::class,
         CarfaxRemoteUsTechnologyJobsBlogSeeder::class,
         RemoteMarketingJobs2026BlogSeeder::class,
         KilleenTxHiringImmediatelyNoExperienceJobsBlogSeeder::class,
