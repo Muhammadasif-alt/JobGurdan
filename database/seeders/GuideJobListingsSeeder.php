@@ -255,6 +255,11 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'England', 'country' => 'United Kingdom']
         );
 
+        $killeen = Location::firstOrCreate(
+            ['name' => 'Killeen'],
+            ['area' => 'Texas', 'country' => 'United States']
+        );
+
         $seattle = Location::firstOrCreate(
             ['name' => 'Seattle'],
             ['area' => 'Washington', 'country' => 'United States']
@@ -1615,6 +1620,39 @@ class GuideJobListingsSeeder extends Seeder
                 'url' => 'https://www.workintexas.com/',
                 'keywords' => 'gas station jobs in houston tx, gas station cashier jobs in houston tx, entry level gas station jobs in houston tx, convenience store jobs in houston tx',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['it-software', 'IT & Software'],
+                'advertiser' => ['US Technology Employers (Aggregated)', 'usa-technology-aggregated'],
+                'location' => $usa,
+                'position' => 'Technology Roles - CARFAX Careers Board (United States)',
+                'intro' => 'CARFAX lists its US and Canadian openings on one board. In November 2026 its Senior Product Manager, GTM Systems role was hybrid by location at $123,000 to $185,000 base, and needed existing US work authorization with no sponsorship. No US technology posting was fully remote.',
+                'items' => ['Manager, Software Engineering in Columbia, MO needs 4 office days a week', 'The Summer 2027 project management intern pays $23 to $29 an hour, 3 days in Reston', 'Filter by country: London, Ontario roles are Canadian'],
+                'url' => 'https://jobs.jobvite.com/carfax/jobs',
+                'keywords' => 'carfax remote us technology jobs, carfax careers 2026, carfax product manager salary, carfax internship 2027',
+                'note' => '<p><strong>Note:</strong> this link opens the employer\'s own job board. It is not an application form for one vacancy, and a listing here does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['marketing-media', 'Marketing & Media'],
+                'advertiser' => ['US Remote Marketing Employers (Aggregated)', 'usa-remote-marketing-aggregated'],
+                'location' => $usa,
+                'position' => 'Event and Campaign Marketing Specialist - Sureify Job Board (US Remote)',
+                'intro' => 'Sureify advertised a US-remote Event and Campaign Marketing Specialist role at $60,000 to $80,000 base, asking for 1 to 2 years in marketing, events or communications. Formal design experience is not required; occasional evenings and weekends are.',
+                'items' => ['Open to people working in the United States only', 'Lifting booth materials up to 15 lbs is part of the role', 'Bring a linked invitation, reminder and follow-up as a sample'],
+                'url' => 'https://job-boards.greenhouse.io/sureify',
+                'keywords' => 'remote marketing jobs 2026, remote marketing jobs for beginners no experience, remote marketing jobs salary per month, us remote marketing jobs',
+                'note' => '<p><strong>Note:</strong> this link opens the employer\'s own job board. It is not an application form for one vacancy, and a listing here does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['hospitality-tourism', 'Hospitality & Tourism'],
+                'advertiser' => ['US Restaurant Employers (Aggregated)', 'usa-restaurant-aggregated'],
+                'location' => $killeen,
+                'position' => 'Restaurant Team Member - Whataburger Careers (Killeen, Texas)',
+                'intro' => 'Whataburger posted a part-time weekend Restaurant Team Member job, JR10000493, at Unit 928, 2509 Trimmier Rd, on 2 November 2026: about 24 hours a week, age 16 or older, and open to current high school students. Weekly pay is advertised but no hourly rate is shown.',
+                'items' => ['Ask for the starting hourly rate before accepting', 'Benefits are for staff averaging 30 or more hours a week', 'Search the careers site by requisition number'],
+                'url' => 'https://careers.whataburger.com/us/en',
+                'keywords' => 'hiring immediately no experience jobs in killeen tx, jobs in killeen tx for 16 year olds, whataburger jobs killeen, killeen entry-level jobs',
+                'note' => '<p><strong>Note:</strong> this link opens the employer\'s own careers site. It is not an application form for one vacancy, and a listing here does not guarantee hiring.</p>',
             ],
             [
                 'category' => ['general-labour', 'General Labour'],
