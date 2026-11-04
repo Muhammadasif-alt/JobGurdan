@@ -255,6 +255,11 @@ class GuideJobListingsSeeder extends Seeder
             ['area' => 'England', 'country' => 'United Kingdom']
         );
 
+        $texas = Location::firstOrCreate(
+            ['name' => 'Texas'],
+            ['area' => 'Texas', 'country' => 'United States']
+        );
+
         $killeen = Location::firstOrCreate(
             ['name' => 'Killeen'],
             ['area' => 'Texas', 'country' => 'United States']
@@ -1620,6 +1625,39 @@ class GuideJobListingsSeeder extends Seeder
                 'url' => 'https://www.workintexas.com/',
                 'keywords' => 'gas station jobs in houston tx, gas station cashier jobs in houston tx, entry level gas station jobs in houston tx, convenience store jobs in houston tx',
                 'note' => '<p><strong>Note:</strong> this link opens an official government site. It is not an application form for one vacancy, and a listing on it does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['customer-support-admin', 'Customer Support & Admin'],
+                'advertiser' => ['US Remote Customer Service Employers (Aggregated)', 'usa-remote-customer-service-aggregated'],
+                'location' => $usa,
+                'position' => 'Remote Licensed Insurance Customer Service - Foundever Jobs (Florida)',
+                'intro' => 'Foundever\'s remote Florida insurance support role starts at $19 an hour with paid training at $17 to $18, asks for age 18, a diploma or GED, and one year of customer service experience as a preference. It pays for the insurance licence, subject to a licensing repayment agreement.',
+                'items' => ['Evenings and weekends are part of open availability', 'A hardwired internet connection and your own computer are needed', 'Ask for the repayment terms in writing before accepting'],
+                'url' => 'https://jobs.foundever.com/',
+                'keywords' => 'remote customer service jobs 2026, work from home customer service jobs, licensed insurance customer service remote, foundever work from home jobs',
+                'note' => '<p><strong>Note:</strong> this link opens the employer\'s own job board. It is not an application form for one vacancy, and a listing here does not guarantee hiring.</p>',
+            ],
+            [
+                'category' => ['customer-support-admin', 'Customer Support & Admin'],
+                'advertiser' => ['Language Services Companies (Aggregated)', 'language-services-aggregated'],
+                'location' => $pakistan,
+                'position' => 'English to Urdu Marketing Linguist - Welo Global Jobs (Pakistan, Remote)',
+                'intro' => 'Welo Global lists a freelance, remote English to Urdu (Pakistan) marketing linguist role that asks for a relevant bachelor\'s degree, at least 5 years of professional translation or localisation and 2 years as a language lead or senior linguist. Its Urdu ads rater project, by contrast, is for people living in India at about $2.4 an hour.',
+                'items' => ['Senior role, not an entry point', 'Prepare a short before-and-after translation sample of your own', 'Ask about rates, revisions and assignment volume first'],
+                'url' => 'https://jobs.lever.co/weloglobal',
+                'keywords' => 'remote jobs 2026, remote jobs from pakistan, urdu translation jobs remote, ads quality rater jobs',
+                'note' => '<p><strong>Note:</strong> this link opens the company\'s own job board. It is not an application form for one vacancy, and a listing here does not guarantee work.</p>',
+            ],
+            [
+                'category' => ['customer-support-admin', 'Customer Support & Admin'],
+                'advertiser' => ['US Remote Customer Service Employers (Aggregated)', 'usa-remote-customer-service-aggregated'],
+                'location' => $texas,
+                'position' => 'Remote Licensed Customer Service Representative - Foundever Jobs (Texas, incl. Dallas)',
+                'intro' => 'Foundever recruits remote insurance support staff across Texas, so Dallas residents qualify. It pays $19 an hour with $17 to $18 training, requires 18+, a diploma or GED and 1 to 2 years of relevant experience, and covers licensing; until the licence arrives you take billing calls only.',
+                'items' => ['Use your own computer; a headset is shipped after the state exam', 'Remote postings can close within days, so apply early', 'Search Dallas, Texas and US-wide separately'],
+                'url' => 'https://jobs.foundever.com/',
+                'keywords' => 'remote jobs in dallas tx, work from home jobs dallas, remote jobs texas, foundever texas remote',
+                'note' => '<p><strong>Note:</strong> this link opens the employer\'s own job board. It is not an application form for one vacancy, and a listing here does not guarantee hiring.</p>',
             ],
             [
                 'category' => ['transport-logistics', 'Transport & Logistics'],
