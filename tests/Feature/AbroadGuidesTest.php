@@ -53,6 +53,7 @@ use Database\Seeders\FreelanceWritingJobsNairobiKenyaBlogSeeder;
 use Database\Seeders\FreeOnlineCoursesJobAbroadBlogSeeder;
 use Database\Seeders\FrontEndDeveloperJobsManchesterEnglandBlogSeeder;
 use Database\Seeders\GasStationJobsHoustonHiringAgeRequirementsBlogSeeder;
+use Database\Seeders\GlobalRemoteSecuritySpecialistJobsUsBlogSeeder;
 use Database\Seeders\GulfVsEuropeForWorkBlogSeeder;
 use Database\Seeders\HgvDriverJobsUkVisaSponsorshipBlogSeeder;
 use Database\Seeders\HgvDriverJobUkFromPakistanBlogSeeder;
@@ -115,6 +116,7 @@ use Database\Seeders\RemoteJobsDallasTx2026BlogSeeder;
 use Database\Seeders\RemoteMarketingJobs2026BlogSeeder;
 use Database\Seeders\RemoteSeoJobsDenverColoradoBlogSeeder;
 use Database\Seeders\RemoteWordPressDeveloperJobsTorontoOntarioBlogSeeder;
+use Database\Seeders\RemoteWorkFromHomeJobs2026BlogSeeder;
 use Database\Seeders\ResumeForJobAbroadBlogSeeder;
 use Database\Seeders\RetakeApprenticeshipAptitudeTestBlogSeeder;
 use Database\Seeders\RightsForeignWorkersAbroadBlogSeeder;
@@ -220,6 +222,8 @@ dataset('abroadGuides', [
     'cna jobs atlanta' => [CnaJobsAtlantaGeorgiaCertificationPayBlogSeeder::class, ['minimum of 85 hours', '70 multiple-choice questions', '23,260', '$18.92', '$39,350', 'there is no renewal fee']],
     'caregiver jobs calgary' => [CaregiverJobsCalgaryVisaSponsorshipBlogSeeder::class, ['will not accept new applications under the Home Care Worker Immigration Pilots', '30 March 2030', '19 November 2025', '$20.27', '15 to 27 weeks', '52.9%']],
     'medical assistant jobs phoenix' => [MedicalAssistantJobsPhoenixNoExperienceBlogSeeder::class, ['class 3 misdemeanor', '2,000 hours', '15,410', '$22.51', '$46,830', '$45,690']],
+    'remote work from home jobs' => [RemoteWorkFromHomeJobs2026BlogSeeder::class, ['minimum of 10 and up to 29 hours a week', 'W2 part-time employee', 'Ads Quality Rater', '<strong>$25 an hour</strong>', '<strong>two or more years</strong>', '<strong>$20.30 an hour</strong>', '$162.40 to $203']],
+    'remote security specialist jobs' => [GlobalRemoteSecuritySpecialistJobsUsBlogSeeder::class, ['<strong>$130,600 to $192,000</strong>', '<strong>three or more years</strong>', '<strong>$110,000 to $140,000</strong>', 'live in and physically perform all work in the United States', '<strong>US citizenship is required</strong>', '$10,883 to $16,000']],
     'remote customer service jobs' => [RemoteCustomerServiceWorkFromHomeJobsBlogSeeder::class, ['<strong>$19 an hour</strong>', '$17 to $18 an hour', '<strong>preferred, not required</strong>', 'licensing repayment agreement', '<strong>one to two years of relevant work experience</strong>', '<strong>requires QuickBooks experience</strong>', '$3,293 a month', '1st and 15th']],
     'remote jobs 2026' => [RemoteJobs2026LatestVacanciesBlogSeeder::class, ['<strong>$2.4 an hour</strong>', 'must live in India', 'at least 5 hours a week', '<strong>5 years</strong>', '<strong>2 years</strong>', '$208 a month', '<strong>$18 an hour</strong>']],
     'remote jobs dallas' => [RemoteJobsDallasTx2026BlogSeeder::class, ['three separate searches', 'returned an error page', 'Maine, Massachusetts and even India', 'Central time zone', 'One to two years of relevant work experience', '$2,058 a month', 'no state income tax']],
@@ -416,6 +420,8 @@ it('cross-links only to guides that exist once they are all seeded', function ()
         WhatScoreNeededApprenticeshipTestBlogSeeder::class,
         OneWeekBeforeApprenticeshipTestBlogSeeder::class,
         ApplyForTradeApprenticeshipBlogSeeder::class,
+        RemoteWorkFromHomeJobs2026BlogSeeder::class,
+        GlobalRemoteSecuritySpecialistJobsUsBlogSeeder::class,
         RemoteCustomerServiceWorkFromHomeJobsBlogSeeder::class,
         RemoteJobs2026LatestVacanciesBlogSeeder::class,
         RemoteJobsDallasTx2026BlogSeeder::class,

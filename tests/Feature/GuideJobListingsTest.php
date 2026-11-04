@@ -66,6 +66,8 @@ it('gives each salary and from-Pakistan guide its own job listing', function () 
         'Apprenticeship Applicant — Apprenticeship.gov Job Finder (Check Entry Requirements)',
         'Elevator Constructor Applicant — NEIEP Ranked Hiring List Information',
         'Construction Laborer Applicant — Laborers Training School Waiting List Information',
+        'Customer Experience Associate I - Wisetack Job Board (US Remote)',
+        'Detection Engineer, Protective Services - DoorDash Job Board (US Remote)',
         'Remote Licensed Insurance Customer Service - Foundever Jobs (Florida)',
         'English to Urdu Marketing Linguist - Welo Global Jobs (Pakistan, Remote)',
         'Remote Licensed Customer Service Representative - Foundever Jobs (Texas, incl. Dallas)',
