@@ -66,6 +66,8 @@ it('gives each salary and from-Pakistan guide its own job listing', function () 
         'Apprenticeship Applicant — Apprenticeship.gov Job Finder (Check Entry Requirements)',
         'Elevator Constructor Applicant — NEIEP Ranked Hiring List Information',
         'Construction Laborer Applicant — Laborers Training School Waiting List Information',
+        'Contract Specialist GS-1102 - Department of Veterans Affairs on USAJOBS (United States)',
+        'AI Rater and AI Trainer Projects - Welo Global Job Board (Remote)',
         'Customer Experience Associate I - Wisetack Job Board (US Remote)',
         'Detection Engineer, Protective Services - DoorDash Job Board (US Remote)',
         'Remote Licensed Insurance Customer Service - Foundever Jobs (Florida)',
