@@ -152,6 +152,23 @@ class Job extends Model
         return $this->isResource();
     }
 
+    /** Vacancies described in fewer words than this are kept out of the index and carry no ads. */
+    public const THIN_DESCRIPTION_WORDS = 150;
+
+    public static function isThinText(?string $description): bool
+    {
+        return str_word_count(strip_tags((string) $description)) < self::THIN_DESCRIPTION_WORDS;
+    }
+
+    /**
+     * Whether the description is too short to be worth indexing on its own:
+     * AdSense flags pages like this as low-value content.
+     */
+    public function isThin(): bool
+    {
+        return self::isThinText($this->description);
+    }
+
     public function scopeVacancy($query)
     {
         return $query->where('jobs.listing_type', self::LISTING_VACANCY);

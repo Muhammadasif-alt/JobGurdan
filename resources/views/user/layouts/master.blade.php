@@ -17,8 +17,11 @@
     <meta name="author" content="JobGader">
     <meta name="theme-color" content="#1b3a6b">
     <meta name="google-site-verification" content="OXrNNeaVvS-g-hiCo0sSs2paH_CgPJ_8DB04L46sKWk" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328233902524444"
-        crossorigin="anonymous"></script>
+    {{-- No ads on pages kept out of the index: AdSense flagged ads on portal and thin pages as replicated, low-value content. --}}
+    @unless (str_contains($__env->yieldContent('meta_robots'), 'noindex'))
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328233902524444"
+            crossorigin="anonymous"></script>
+    @endunless
     @php
         $metaDescription =
             html_entity_decode(trim($__env->yieldContent('meta_description')), ENT_QUOTES | ENT_HTML5) ?:

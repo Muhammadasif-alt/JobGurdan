@@ -330,6 +330,8 @@ it('keeps expired jobs out of the jobs sitemap', function () {
     // 404s an empty chunk rather than publishing an empty <urlset>.
     $this->seed(Database\Seeders\KuwaitAirwaysCabinCrewJobsBlogSeeder::class);
 
+    // Vacancies under Job::THIN_DESCRIPTION_WORDS are left out of the sitemap, so give them full descriptions.
+    Job::query()->vacancy()->update(['description' => '<p>'.str_repeat('The duties, pay and hours are described in full. ', 20).'</p>']);
     $slug = Str::slug($this->job->position.'-'.$this->location->name);
 
     expect($this->get('/sitemap-jobs-1.xml')->assertOk()->getContent())->toContain('/jobs/'.$slug);

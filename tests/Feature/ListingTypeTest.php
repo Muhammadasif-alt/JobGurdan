@@ -25,7 +25,7 @@ function makeVacancyAndResource(): array
         'location_id' => $location->id,
         'category_id' => $category->id,
         'position' => 'Platform Engineer',
-        'description' => '<p>A real opening.</p>',
+        'description' => '<p>A real opening. '.str_repeat('The duties, pay and hours are described in full. ', 20).'</p>',
         'employment_type' => 'Full-time',
         'application_url' => 'https://example.com/careers/platform-engineer',
     ]);

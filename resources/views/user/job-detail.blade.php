@@ -47,7 +47,7 @@
 @section('og_title', $job->position . ' at ' . ($job->advertiser->name ?? 'Top Employer'))
 @section('og_description', \Illuminate\Support\Str::limit(strip_tags($job->description ?? 'Apply now on JobGader.'), 160))
 @section('canonical', route('jobs.show', \Illuminate\Support\Str::slug($job->position . '-' . ($job->location->name ?? ''))))
-@if ($job->isRoundUp())
+@if ($job->isRoundUp() || $job->isThin())
     @section('meta_robots', 'noindex, follow')
 @endif
 

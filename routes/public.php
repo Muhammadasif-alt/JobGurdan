@@ -358,14 +358,14 @@ Route::get('/sitemap-jobs-{chunk}.xml', function (int $chunk) use ($sitemapUrl, 
             ->where(function ($q) {
                 $q->where(fn ($status) => $status->where('jobs.status', 'active')->orWhereNull('jobs.status'))->where('jobs.listing_type', 'vacancy');
             })
-            ->select('jobs.id', 'jobs.position', 'locations.name as location_name', 'jobs.updated_at')
+            ->select('jobs.id', 'jobs.position', 'jobs.description', 'locations.name as location_name', 'jobs.updated_at')
             ->orderBy('jobs.id', 'desc')
             ->skip(($chunk - 1) * $jobsPerSitemap)
             ->take($jobsPerSitemap)
             ->cursor()
             ->each(function ($job) use (&$inner, $sitemapUrl) {
                 $slug = \Illuminate\Support\Str::slug($job->position.'-'.($job->location_name ?? ''));
-                if ($slug === '') {
+                if ($slug === '' || \App\Models\Job::isThinText($job->description)) {
                     return;
                 }
                 $inner .= $sitemapUrl(url('/jobs/'.$slug), 'daily', '0.8',
