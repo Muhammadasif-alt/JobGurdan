@@ -40,7 +40,7 @@ it('ships every image it references, and none of them is a heavyweight PNG', fun
 
     preg_match_all('#/public/storage/(blogs/[a-z0-9-]+\.jpg)#', $blog->content, $inline);
 
-    expect($inline[1])->toHaveCount(2);
+    expect($inline[1])->toHaveCount(5);
 
     foreach (array_merge([$blog->featured_image], $inline[1]) as $path) {
         $file = storage_path('app/public/'.$path);
@@ -59,11 +59,11 @@ it('renders with its long-tail sections', function () {
         ->assertSee('labour.punjab.gov.pk/minimum-wages-notification');
 });
 
-it('carries four FAQs in markup built from the post body', function () {
+it('carries seven FAQs in markup built from the post body', function () {
     $faqs = app(StructuredDataService::class)
         ->faqsFromHtml(Blog::where('slug', BILLING_SLUG)->value('content'));
 
-    expect($faqs)->toHaveCount(4);
+    expect($faqs)->toHaveCount(7);
 
     $this->get('/blog/'.BILLING_SLUG)->assertSee('"FAQPage"', false);
 });

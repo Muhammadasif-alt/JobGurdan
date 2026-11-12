@@ -23,7 +23,13 @@ use Illuminate\Database\Seeder;
  * 4. The Welo Pakistan Urdu linguist role (5+ years, 2+ as lead) is covered in the remote jobs 2026 guide and only
  *    referred to here, so this guide's angle is task type: rating, support and maps work.
  *
- * Posters are the owner's (blog-359, 3 Nov 9.08 to 9.11 PM, all four). The portal listing is in GuideJobListingsSeeder.
+ * 5. Expanded on 12 November 2026 from a second brief ("Work From Home Jobs 2026"), instead of publishing a duplicate:
+ *    seven job categories, working from Pakistan, equipment, part time vs full time, where to look and tips. That
+ *    brief's six Indeed buttons and its unsourced PKR 30,000-60,000 range are dropped; the Punjab minimum wage
+ *    (Rs 40,000 a month from 1 July 2025) and Upwork's own 2026 hourly ranges are used instead.
+ *
+ * Posters are the owner's (blog-359, 3 Nov 9.08 to 9.11 PM, all four; blog-361, 11 Nov 11.00 to 11.02 PM). The portal
+ * listing is in GuideJobListingsSeeder.
  * updateOrCreate, so re-running is safe.
  */
 class RemoteWorkFromHomeJobs2026BlogSeeder extends Seeder
@@ -109,6 +115,28 @@ class RemoteWorkFromHomeJobs2026BlogSeeder extends Seeder
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
+<h2>Seven Kinds of Work-From-Home Job</h2>
+
+<p>Beyond these three openings, most work-from-home jobs fall into seven groups. Each needs a different skill, so pick the one closest to what you can already do.</p>
+
+<ul>
+<li><strong>Data entry and typing:</strong> entering records, cleaning spreadsheets, transcribing audio. Accuracy matters more than speed. The easiest start, and the most copied by scammers.</li>
+<li><strong>Customer and chat support:</strong> answering customers by chat, email or phone. Clear English and patience are the main requirements, and employers often train you on their system.</li>
+<li><strong>Content writing and SEO:</strong> blog posts, product descriptions and web pages. Two or three published samples matter more than a degree.</li>
+<li><strong>Virtual assistance:</strong> inboxes, calendars, research and bookings for a busy owner or team.</li>
+<li><strong>Design and video editing:</strong> social graphics, logos and short videos in Canva, Photoshop or Premiere Pro. Clients hire from your portfolio.</li>
+<li><strong>Online teaching and tutoring:</strong> school subjects, Quran, or English for adults, on a fixed timetable that often follows the student's time zone.</li>
+<li><strong>Digital marketing and social media:</strong> scheduling posts, running ads and email campaigns, judged on results you can show.</li>
+</ul>
+
+<p>Upwork's own 2026 data puts typical freelance rates at $10 to $20 an hour for data entry and virtual assistance and $19 to $45 for writing. Our <a href="/blog/remote-freelancing-jobs-2026">Remote Freelancing Jobs 2026 guide</a> explains those ranges and what each platform takes in fees.</p>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/remote-work-from-home-jobs-2026-5.jpg"
+         alt="Smiling woman giving a thumbs up at a laptop with Fiverr, Upwork, Freelancer and PeoplePerHour logos, Work From Home Jobs 2026 Earn Online Be Your Own Boss"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
 <h2>Work-From-Home Salary Per Month</h2>
 
 <p>Monthly earnings depend on paid hours. Using hourly rate × hours per week × 52 ÷ 12, before tax:</p>
@@ -134,6 +162,53 @@ class RemoteWorkFromHomeJobs2026BlogSeeder extends Seeder
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
+<h2>Working From Home in Pakistan</h2>
+
+<p>From Pakistan you have two routes: a Pakistani company that lets staff work from home, or international clients and employers who accept workers in Pakistan.</p>
+
+<ul>
+<li><strong>Pakistani employers</strong> pay a monthly salary in rupees. Use the legal minimum as your yardstick: Punjab's minimum wage is Rs 40,000 a month for 26 working days from 1 July 2025. A full-time home-based offer below your province's minimum is a reason to ask questions.</li>
+<li><strong>International work</strong> is usually paid in dollars by the hour or project, and only some foreign employers accept Pakistan. Read the country line in every posting.</li>
+<li><strong>Getting paid:</strong> PayPal is not available in Pakistan, so international earnings arrive by bank transfer or services such as Payoneer. The State Bank lets freelancers keep up to USD 5,000 a month (or 50%, whichever is higher) in a foreign currency account.</li>
+<li><strong>Night hours:</strong> US clients often want you online in their daytime, which is evening and night in Pakistan. Agree the hours before you accept.</li>
+</ul>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/remote-work-from-home-jobs-2026-6.jpg"
+         alt="Woman in glasses pointing at a Work From Home Jobs 2026 Earn Money from Anywhere banner with flexible schedule and work online checklist"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
+<h2>Equipment and Software You Need</h2>
+
+<ul>
+<li>A laptop or desktop; most employers will not accept a phone for paid work</li>
+<li>Stable internet, plus a mobile hotspot as backup during outages</li>
+<li>A headset with a microphone for support and tutoring roles</li>
+<li>Google Workspace or Microsoft Office, and Zoom, Slack or Teams</li>
+<li>A quiet corner where you can take calls without background noise</li>
+</ul>
+
+<p>Many entry-level roles accept Matric or Intermediate. What employers test is your English, typing, basic computer skills and whether you meet deadlines.</p>
+
+<h2>Part-Time or Full-Time?</h2>
+
+<p>Part-time home jobs (often 2 to 4 hours a day) suit students and parents but rarely pay a steady monthly amount. Full-time remote employment gives a fixed salary and sometimes benefits, but fixed hours too. Freelancing sits in between: flexible, but income rises and falls with projects. Decide which you need before you apply, because the same title can be any of the three.</p>
+
+<h2>Where to Find Remote Vacancies</h2>
+
+<ul>
+<li><strong>Company career pages:</strong> the most reliable source. Filter for "remote" and check the country rule.</li>
+<li><strong>LinkedIn and job boards:</strong> set alerts for your title plus "remote", then confirm each job on the employer's page.</li>
+<li><strong>Freelance marketplaces:</strong> Upwork, Fiverr and Freelancer suit project work rather than salaried jobs.</li>
+</ul>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/remote-work-from-home-jobs-2026-7.jpg"
+         alt="Woman in a yellow sweater at a laptop beside a Work From Home Jobs 2026 Start Your Remote Career Today banner"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
 <h2>How to Get a Work-From-Home Job Online</h2>
 
 <ol>
@@ -145,6 +220,14 @@ class RemoteWorkFromHomeJobs2026BlogSeeder extends Seeder
 </ol>
 
 <h2>Work-From-Home Job Scams to Avoid</h2>
+
+<ul>
+<li>Never pay a registration, training, software or "security" fee to get hired.</li>
+<li>Be wary of high pay for simple tasks such as liking posts or typing captchas.</li>
+<li>Avoid employers who interview only by WhatsApp text and refuse a video call.</li>
+<li>Check the company website, the email domain and real employee profiles.</li>
+<li>Do not send your CNIC or bank details until you have a written offer you have verified.</li>
+</ul>
 
 <p>The Federal Trade Commission warns about fake employers who send checks and ask you to buy equipment or send money back, and about "task" scams where you are paid for small online jobs until you are asked to deposit your own money. Never send money to start work. Find the real employer's careers page yourself; a familiar logo in a chat message proves nothing.</p>
 
@@ -164,6 +247,12 @@ class RemoteWorkFromHomeJobs2026BlogSeeder extends Seeder
 
 <h3>Is freelance rating work a steady income?</h3>
 <p>Not usually. Hours vary and projects end, so budget only on confirmed work.</p>
+
+<h3>Can I get a work-from-home job in Pakistan without experience?</h3>
+<p>Yes, in data entry, chat support and some virtual assistant roles, but expect a test, and start with Pakistani employers or projects that accept Pakistan.</p>
+
+<h3>What is a fair work-from-home salary in Pakistan?</h3>
+<p>For full-time work, at least your province's minimum wage; in Punjab that is Rs 40,000 a month. Freelance work is paid per hour or project instead.</p>
 
 <h2>Bottom Line</h2>
 

@@ -21,7 +21,13 @@ use Illuminate\Database\Seeder;
  *    Chicago minimum wage is $17.05 from 1 July 2026 (checked for the cashier guide on 3 November).
  * 4. Whataburger JR10000493 read on 4 November for the Killeen guide: age 16, about 24 hours a week, weekly pay.
  *
- * Posters are the owner's (blog-359, 3 Nov 8.57 to 8.58 PM). The portal listing is in GuideJobListingsSeeder.
+ * 5. Expanded on 12 November 2026 from a second brief with the same title, instead of publishing a duplicate post:
+ *    where to look, search phrases, CV checklist, students and graduates, mistakes, fake offers and interview-day
+ *    tips. That brief's five Indeed search buttons are dropped; Pakistan's National Job Portal and Punjab Jobs Portal
+ *    are linked instead.
+ *
+ * Posters are the owner's (blog-359, 3 Nov 8.57 to 8.58 PM; blog-361, 11 Nov 10.40 to 10.44 PM). The portal listing is
+ * in GuideJobListingsSeeder.
  * updateOrCreate, so re-running is safe.
  */
 class JobsNearMeHiringNowHowToApplyBlogSeeder extends Seeder
@@ -88,6 +94,24 @@ class JobsNearMeHiringNowHowToApplyBlogSeeder extends Seeder
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
+<h2>Where to Look for Local Vacancies</h2>
+
+<p>No single website lists every job near you, so use three or four sources and check each vacancy on the employer's own page.</p>
+
+<ul>
+<li><strong>Company career pages.</strong> Large employers such as banks, supermarket chains, hospitals and call centres post vacancies on their own sites first, often with the branch address and job number. Make a list of employers within your travel limit and check their pages weekly.</li>
+<li><strong>Government job portals.</strong> In Pakistan, the federal <a href="https://www.njp.gov.pk/" rel="noopener">National Job Portal</a> and the <a href="https://jobs.punjab.gov.pk/" rel="noopener">Punjab Jobs Portal</a> list public sector posts with official closing dates. Government jobs always have a last date; private jobs usually close when filled.</li>
+<li><strong>Job boards and LinkedIn.</strong> Useful for discovering who is hiring, but listings are often copies. Before you travel or share documents, find the same job on the employer's site.</li>
+<li><strong>Walk-in hiring.</strong> Restaurants, shops, supermarkets and warehouses still put "Now Hiring" signs in the window. Go at a quiet time (mid-morning, not lunch), ask for the manager, and carry two printed copies of your CV.</li>
+<li><strong>Recruitment agencies.</strong> Check the agency's registration and address first. A real agency is paid by the employer; it never charges you to register or to get an interview.</li>
+</ul>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/jobs-near-me-hiring-now-how-to-apply-4.jpg"
+         alt="Smiling woman pointing at a Jobs Near Me Latest Vacancies Hiring Now banner listing full-time, part-time, remote, entry-level and skilled jobs"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
 <h2>How Much Do Jobs Near Me Pay Per Month?</h2>
 
 <p>For hourly jobs, monthly pay depends on hours, not just the rate. Use this formula: hourly rate × hours per week × 52 ÷ 12. At the Chicago listing's $17.75:</p>
@@ -121,9 +145,73 @@ class JobsNearMeHiringNowHowToApplyBlogSeeder extends Seeder
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
+<h2>Search Phrases That Find Local Jobs</h2>
+
+<p>Put the job title in the "what" box and your area in the "where" box. A specific area (Johar Town, Gulshan-e-Iqbal, a ZIP code) beats a whole city. Phrases worth saving as alerts:</p>
+
+<ul>
+<li>"[job title] [your area]", for example "cashier Gulberg" or "warehouse associate 60629"</li>
+<li>"part time", "weekend" or "evening shift" plus your area, if you are studying</li>
+<li>"trainee", "fresher" or "no experience" plus the job title</li>
+<li>"walk-in interview" plus your city, for same-week hiring days</li>
+</ul>
+
+<p>"Hiring immediately" in an advert usually means the employer wants someone who can start within a week or two, not that you are guaranteed the job. Check that your availability matches before you apply.</p>
+
+<h2>What Your CV Needs for a Local Job</h2>
+
+<ol>
+<li><strong>Contact details:</strong> full name, a simple email address built from your name, a phone number you answer, and your area (not your full home address).</li>
+<li><strong>A two-line summary:</strong> what you can do and when you are available, for example "Matric student available evenings and weekends, comfortable with customers and basic Excel."</li>
+<li><strong>Experience:</strong> paid work, family business, volunteering or school roles, each with one thing you did.</li>
+<li><strong>Education and short courses</strong> with the year.</li>
+<li><strong>Skills that match the advert:</strong> languages spoken, typing, cash handling, a driving licence.</li>
+</ol>
+
+<p>Keep it to one page, save it as a PDF named with your name, and change the summary for each type of job.</p>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/jobs-near-me-hiring-now-how-to-apply-5.jpg"
+         alt="Woman at a desk with a laptop and coffee beside a job search bar, Jobs Near Me Latest Vacancies Hiring Now with full-time, part-time, remote and local opportunities"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
 <h2>Using Your Network for a First Job</h2>
 
 <p>A classmate, teacher or neighbour who works somewhere can tell you things a job advert cannot. Ask something they can answer: "I saw the weekend opening at your branch. Do they need Saturday mornings or closing shifts?" You learn something useful without asking anyone to promise you a job. If a vacancy was shared in a WhatsApp group, ask which branch is hiring and whether the manager wants an online application first. And always complete the official application, even if someone has introduced you.</p>
+
+<h2>Jobs Near Me for Students, Graduates and Experienced Workers</h2>
+
+<p><strong>Students</strong> do best with jobs that have fixed short shifts: retail, restaurants, tutoring, weekend events and delivery. Tell the employer your exam dates at the interview, not after you are hired.</p>
+
+<p><strong>Fresh graduates</strong> should look for titles with "trainee", "graduate", "junior" or "associate", including bank and telecom trainee programmes, junior accounts or admin roles, and customer support. These often have fixed intake dates, so check the closing date.</p>
+
+<p><strong>Experienced workers</strong> should search by their specialist title and level ("supervisor", "senior", "team lead") rather than "jobs near me", and ask about pay before the final interview so neither side wastes time.</p>
+
+<h2>Common Mistakes That Cost Local Applicants the Job</h2>
+
+<ul>
+<li>Sending the same CV to every job without changing the summary</li>
+<li>Applying to jobs whose shift you cannot actually work</li>
+<li>An email address like "coolboy99" instead of your name</li>
+<li>Missing the interview call because the number on the CV is switched off or full</li>
+<li>Not keeping a list of where you applied, so you cannot answer when an employer calls back</li>
+<li>Stopping after a week; most people need many applications before the first offer</li>
+</ul>
+
+<h2>How to Spot a Fake Local Job Offer</h2>
+
+<p>Fake local jobs are common on social media and in WhatsApp groups. Walk away if anyone asks for a registration, training, uniform or "file" fee; offers a job without any interview; uses only a personal number or free email address; promises high pay for very simple work; or asks for your bank login, card PIN or a one-time code. Check that the vacancy appears on the employer's real website, and call the company on a number you found yourself. Read our full guide to <a href="/blog/how-to-spot-a-fake-overseas-job-offer-2026">spotting a fake job offer</a>.</p>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/jobs-near-me-hiring-now-how-to-apply-6.jpg"
+         alt="Smiling woman in a blazer holding a folder and pointing at a Jobs Near Me Latest Vacancies Hiring Now banner with an Apply Today sign"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
+<h2>On the Interview Day</h2>
+
+<p>Arrive 10 to 15 minutes early, in clean, simple clothes that suit the workplace. Bring your CV, CNIC or ID, and copies of certificates. For a video interview, test your camera, microphone and internet an hour before, and sit facing a light. At the end, thank the interviewer and ask what happens next and by when.</p>
 
 <h2>Interview Questions and Sample Answers</h2>
 
@@ -150,6 +238,12 @@ class JobsNearMeHiringNowHowToApplyBlogSeeder extends Seeder
 <h3>Is "on demand" the same as part time?</h3>
 <p>No. On-demand staff pick up shifts when available rather than getting a set weekly schedule.</p>
 
+<h3>Where can I find government jobs near me in Pakistan?</h3>
+<p>On the National Job Portal and your province's jobs portal, such as the Punjab Jobs Portal. Each post shows the department, district and last date.</p>
+
+<h3>Should I pay an agency to find me a local job?</h3>
+<p>No. Genuine agencies are paid by employers. Any fee to register, train or get an interview is a warning sign.</p>
+
 <h2>Bottom Line</h2>
 
 <p>Choose a workplace you can reach, confirm what the shift pays and how many hours you will really get, and apply with one example that fits the duties. Those three checks beat sending the same CV everywhere.</p>
@@ -161,6 +255,7 @@ class JobsNearMeHiringNowHowToApplyBlogSeeder extends Seeder
 <li><a href="https://corporate.target.com/careers/job-search/store/stores" rel="noopener">Target store jobs</a>, R0000458686, 7100 S Cicero Ave, Chicago</li>
 <li><a href="https://careers.whataburger.com/us/en" rel="noopener">Whataburger Careers</a>, JR10000493, Killeen</li>
 <li><a href="https://www.chicago.gov/city/en/depts/bacp/supp_info/minimumwageinformation.html" rel="noopener">City of Chicago: Minimum wage</a>, all checked November 2026</li>
+<li><a href="https://www.njp.gov.pk/" rel="noopener">National Job Portal, Pakistan</a> and <a href="https://jobs.punjab.gov.pk/" rel="noopener">Punjab Jobs Portal</a></li>
 </ol>
 
 <h2>More Job Guides</h2>

@@ -36,6 +36,11 @@ use Illuminate\Support\Facades\DB;
  *     ergmd.com/careers and ergmd.com/apply both resolve, while the indexed
  *     /medical-billing-jobs-apply-now returns 404. Verified before linking.
  *  6. Six FAQs and no People Also Search For block. Now eight of each.
+ *  7. Expanded on 12 November 2026 from a second brief ("At Home Medical Billing Jobs in Pakistan 2026") instead of
+ *     publishing a duplicate: the five desks in a billing company, when at-home billing is real, documents, the last
+ *     date question and the hiring tests. ERG's careers page was rechecked the same day: still onsite in Gulberg III,
+ *     still "not advertised as a remote or work-from-home position". The brief's five Indeed buttons and its unsourced
+ *     PKR 40,000-70,000 range are dropped. Posters are the owner's (blog-361, 11 Nov 11.03 to 11.05 PM).
  *
  * The nationwide job overview and this career guide are not a single vacancy.
  */
@@ -213,6 +218,24 @@ HTML;
 
 <p>Convert that against a PKR 30,000 to PKR 40,000 salary and a single exam attempt is several months of gross pay before you have bought a book. This is why the sensible order is: get hired first, do the job for a year, then ask whether your employer will sponsor or part-fund a certification. Elevate Revenue Group says it supports team members pursuing AAPC and AHIMA certifications, and several Pakistani firms in this sector do the same. Ask about it at interview rather than paying for it yourself upfront.</p>
 
+<h2>The five desks inside a billing company</h2>
+
+<p>Most Pakistani RCM companies split the work into desks. Knowing them helps you choose what to apply for and what to say at interview.</p>
+
+<ul>
+<li><strong>Charge entry and billing data entry:</strong> typing patient details, charges and codes from the provider's notes into the billing software. The usual first desk for freshers.</li>
+<li><strong>Claims submission:</strong> checking each claim for errors before it goes to the insurer, because one wrong digit gets it rejected.</li>
+<li><strong>Payment posting:</strong> recording what each insurer paid, reduced or denied.</li>
+<li><strong>Accounts receivable (AR) calling:</strong> phoning or messaging US insurers about unpaid claims. Clear spoken English and confidence on calls matter most here.</li>
+<li><strong>Medical coding:</strong> turning diagnoses and procedures into ICD-10-CM and CPT codes. Employers prefer certified coders (CPC from AAPC or CCS from AHIMA), though some train strong graduates in-house.</li>
+</ul>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/medical-billing-jobs-pakistan-at-home.jpg"
+         alt="Woman in a green kurta at a laptop beside an At-Home Medical Billing Jobs Pakistan 2026 banner with flexible hours and training checklist"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
+
 <h2>Remote and work-from-home billing roles</h2>
 
 <p>Remote medical billing jobs in Pakistan exist, but the entry-level ones mostly do not. The pattern across the sector is that companies keep new staff onsite while they are being trained and supervised, partly for quality and partly because client contracts impose data security conditions that are hard to meet on a home laptop.</p>
@@ -220,6 +243,24 @@ HTML;
 <p>Elevate Revenue Group's own listing is explicit that its Medical Billing Assistant role is onsite at Gulberg III and is not advertised as remote or work-from-home.</p>
 
 <p>Treat any advertisement offering a fully remote medical billing job to a complete fresher, at a salary well above the market, with suspicion. That combination is the standard shape of a recruitment scam.</p>
+
+<h3>When at-home medical billing is real</h3>
+
+<p>At-home billing work does exist, but it usually comes after you have experience. The realistic paths are:</p>
+
+<ul>
+<li><strong>Moving to home-based work with the same employer</strong> after a year or two onsite, once you have a clean quality record. Ask at interview whether this ever happens and after how long.</li>
+<li><strong>Experienced AR, coding or credentialing work</strong> for a company or US practice that already trusts your accuracy.</li>
+<li><strong>Freelance billing for small practices</strong> through your own contacts or freelance platforms, which needs real experience, the client's own software access and a written agreement on patient data.</li>
+</ul>
+
+<p>Whoever you work for, patient records are protected health information under US law. A genuine employer will want a private room, a secured computer and often a company VPN or remote desktop. An offer that asks none of these questions is not a serious healthcare employer.</p>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/medical-billing-jobs-pakistan-at-home-2.jpg"
+         alt="Woman in a blue kurta giving a thumbs up at a laptop beside an At-Home Medical Billing Jobs Pakistan 2026 Work Remotely banner"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
 
 <h2>Applying safely</h2>
 
@@ -233,6 +274,30 @@ HTML;
 <li>Check that the careers page sits on the company's real domain. A hiring message from a free email address pointing at a lookalike domain is the usual setup.</li>
 <li>Never claim billing experience you do not have. The interview will include practical questions and the gap shows immediately.</li>
 </ul>
+
+<h2>Documents to keep ready</h2>
+
+<ul>
+<li>An updated CV as a PDF, listing any billing, healthcare, accounts or data entry work</li>
+<li>Your CNIC, to show at the interview (do not send a scan before you have verified the company)</li>
+<li>Matric, Intermediate and degree certificates or transcripts</li>
+<li>Any billing or coding course certificate, and your AAPC or AHIMA credential if you hold one</li>
+<li>A short cover message written for that employer</li>
+</ul>
+
+<h2>Is there a last date?</h2>
+
+<p>Private billing companies hire on a rolling basis: a vacancy stays open until it is filled, and many run monthly training batches. There is no official last date, so apply early in a posting's life. Only government posts have fixed closing dates.</p>
+
+<h2>The hiring tests</h2>
+
+<p>Expect some mix of an English screening (written and spoken), a typing and data accuracy test, a basic medical terminology or Excel quiz, and a final interview, sometimes with a supervisor who works US hours. For AR roles, practise explaining a short problem on the phone clearly and politely.</p>
+
+<figure style="text-align:center;margin:34px 0;">
+    <img src="/public/storage/blogs/medical-billing-jobs-pakistan-at-home-3.jpg"
+         alt="Woman in a green kurta pointing at an At-Home Medical Billing Jobs Pakistan 2026 Start Your Remote Career Today banner"
+         loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
+</figure>
 
 <h2>Where the career goes</h2>
 
@@ -255,6 +320,15 @@ HTML;
 
 <h3>How long before I can move up?</h3>
 <p>One to two years of accurate work usually opens accounts receivable or denial management, which is the first real pay step. Team lead and specialist roles generally follow three years or more, and coding is a separate track where certification pays for itself.</p>
+
+<h3>Can I do medical billing from home in Pakistan as a fresher?</h3>
+<p>Rarely. Entry-level roles, such as Elevate Revenue Group's Medical Billing Assistant post, are onsite while you are trained. Home-based work usually comes after a year or two of experience.</p>
+
+<h3>Is there a last date to apply for medical billing jobs?</h3>
+<p>Not usually. Private companies hire on a rolling basis until the seat is filled, so apply early.</p>
+
+<h3>Is CPC certification required for every medical billing job?</h3>
+<p>No. Certification matters most for coding and senior roles. Data entry, payment posting and AR desks commonly hire without it.</p>
 
 <h2>Related career guides</h2>
 <ul>
