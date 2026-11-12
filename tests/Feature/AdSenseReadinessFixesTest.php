@@ -91,7 +91,7 @@ it('redirects the guides\' blog category buttons that point under /categories', 
     $this->get('/categories/no-such-category')->assertNotFound();
 });
 
-it('keeps empty category, thin location and thin or aggregated company pages out of the index and the sitemaps', function () {
+it('keeps empty or thin category, thin location and thin or aggregated company pages out of the index and the sitemaps', function () {
     $emptyCategory = Category::create(['name' => 'Empty Trade', 'slug' => 'empty-trade']);
     $filledCategory = Category::create(['name' => 'Filled Trade', 'slug' => 'filled-trade']);
     $emptyLocation = Location::create(['name' => 'Nowhere', 'area' => 'Nationwide', 'country' => 'Nowhere']);
@@ -99,19 +99,20 @@ it('keeps empty category, thin location and thin or aggregated company pages out
     $aggregated = Advertiser::create(['name' => 'Nowhere Employers (Aggregated)']);
     $employer = Advertiser::create(['name' => 'Somewhere Builders Ltd']);
 
+    $thinCategory = Category::create(['name' => 'Thin Trade', 'slug' => 'thin-trade']);
     $thinLocation = Location::create(['name' => 'Elsewhere', 'area' => 'Nationwide', 'country' => 'Elsewhere']);
     $thinEmployer = Advertiser::create(['name' => 'Elsewhere Bakery Ltd']);
 
     foreach (['Site Carpenter', 'Site Joiner', 'Site Labourer'] as $position) {
         adsenseAuditJob($filledCategory, $filledLocation, $employer, $position);
     }
-    adsenseAuditJob($filledCategory, $thinLocation, $thinEmployer, 'Baker');
+    adsenseAuditJob($thinCategory, $thinLocation, $thinEmployer, 'Baker');
     adsenseAuditJob($emptyCategory, $emptyLocation, $aggregated, 'Trade Worker - Portal Search', Job::LISTING_RESOURCE);
 
     expect($aggregated->isAggregated())->toBeTrue()
         ->and($employer->isAggregated())->toBeFalse();
 
-    foreach (['/categories/empty-trade', '/location/'.$emptyLocation->id, '/location/'.$thinLocation->id, '/companies/'.$aggregated->id, '/companies/'.$thinEmployer->id] as $path) {
+    foreach (['/categories/empty-trade', '/categories/thin-trade', '/location/'.$emptyLocation->id, '/location/'.$thinLocation->id, '/companies/'.$aggregated->id, '/companies/'.$thinEmployer->id] as $path) {
         $this->get($path)->assertOk()->assertSee('content="noindex, follow"', false);
     }
 
@@ -119,9 +120,13 @@ it('keeps empty category, thin location and thin or aggregated company pages out
         $this->get($path)->assertOk()->assertDontSee('noindex');
     }
 
+    $this->get('/categories/thin-trade')->assertSee('Thin Trade Jobs: 1 Opening | JobGader', false);
+    $this->get('/categories/filled-trade')->assertSee('Filled Trade Jobs: 3 Openings | JobGader', false);
+
     $this->get('/sitemap-categories.xml')->assertOk()
         ->assertSee('<loc>'.url('/categories/filled-trade').'</loc>', false)
-        ->assertDontSee('/categories/empty-trade');
+        ->assertDontSee('/categories/empty-trade')
+        ->assertDontSee('/categories/thin-trade');
 
     $this->get('/sitemap-locations.xml')->assertOk()
         ->assertSee('<loc>'.url('/location/'.$filledLocation->id).'</loc>', false)

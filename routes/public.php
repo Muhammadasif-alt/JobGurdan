@@ -273,7 +273,8 @@ Route::get('/sitemap-categories.xml', function () use ($sitemapUrl, $sitemapResp
     $inner = '';
     try {
         foreach (\App\Models\Categories::query()->whereNotNull('slug')
-            ->whereIn('id', \App\Models\Job::query()->active()->vacancy()->select('category_id'))
+            ->whereIn('id', \App\Models\Job::query()->active()->vacancy()->select('category_id')
+                ->groupBy('category_id')->havingRaw('COUNT(*) >= ?', [\App\Models\Job::MIN_INDEXABLE_LISTING_VACANCIES]))
             ->get(['slug', 'updated_at']) as $cat) {
             $inner .= $sitemapUrl(url('/categories/'.$cat->slug), 'weekly', '0.6',
                 optional($cat->updated_at)->toDateString());

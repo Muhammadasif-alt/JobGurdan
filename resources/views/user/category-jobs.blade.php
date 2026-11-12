@@ -10,7 +10,7 @@
     $catFirst = $catPage === 1;
     $catSuffix = $catFirst ? '' : ', Page '.$catPage;
 
-    $catTitle = $category->name.' Jobs'.$catSuffix.': '.number_format($jobs->total()).' Openings | JobGader';
+    $catTitle = $category->name.' Jobs'.$catSuffix.': '.number_format($jobs->total()).' '.($jobs->total() === 1 ? 'Opening' : 'Openings').' | JobGader';
     if (mb_strlen($catTitle) > 60) {
         $catTitle = $category->name.' Jobs'.$catSuffix.' | JobGader';
     }
@@ -19,8 +19,8 @@
 @section('og_title', $catTitle)
 @section('meta_description', 'Find ' . $category->name . ' jobs across ' . $coverage->shortList() . '. Browse ' . $jobs->total() . ' active openings, filter by location and job type, and apply on the employer site.')
 @section('canonical', route('jobs.category', $category->slug).($catFirst ? '' : '?page='.$catPage))
-{{-- A category with no open vacancy is an empty page; keep it reachable but out of the index. --}}
-@if ($jobs->total() === 0)
+{{-- A category with only one or two open vacancies only repeats those job cards; keep it reachable but out of the index. --}}
+@if ($jobs->total() < \App\Models\Job::MIN_INDEXABLE_LISTING_VACANCIES)
     @section('meta_robots', 'noindex, follow')
 @endif
 
