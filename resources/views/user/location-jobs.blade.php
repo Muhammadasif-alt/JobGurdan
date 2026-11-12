@@ -23,8 +23,8 @@
 {{-- Built from the route rather than $jobs->url(): the paginator appends the
      active filters, and those belong outside the canonical. --}}
 @section('canonical', route('jobs.location', $location->id).($locFirst ? '' : '?page='.$locPage))
-{{-- A location with no open vacancy is an empty page; keep it reachable but out of the index. --}}
-@if ($jobs->total() === 0)
+{{-- A location with only one or two open vacancies only repeats those job cards; keep it reachable but out of the index. --}}
+@if ($jobs->total() < \App\Models\Job::MIN_INDEXABLE_LISTING_VACANCIES)
     @section('meta_robots', 'noindex, follow')
 @endif
 

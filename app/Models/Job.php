@@ -152,6 +152,9 @@ class Job extends Model
         return $this->isResource();
     }
 
+    /** Company and location pages listing fewer open vacancies than this only repeat job cards, so they stay out of the index and carry no ads. */
+    public const MIN_INDEXABLE_LISTING_VACANCIES = 3;
+
     /** Vacancies described in fewer words than this are kept out of the index and carry no ads. */
     public const THIN_DESCRIPTION_WORDS = 150;
 

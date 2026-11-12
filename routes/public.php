@@ -288,7 +288,8 @@ Route::get('/sitemap-locations.xml', function () use ($sitemapUrl, $sitemapRespo
     $inner = '';
     try {
         foreach (\App\Models\Location::query()
-            ->whereIn('id', \App\Models\Job::query()->active()->vacancy()->select('location_id'))
+            ->whereIn('id', \App\Models\Job::query()->active()->vacancy()->select('location_id')
+                ->groupBy('location_id')->havingRaw('COUNT(*) >= ?', [\App\Models\Job::MIN_INDEXABLE_LISTING_VACANCIES]))
             ->get(['id', 'updated_at']) as $loc) {
             $inner .= $sitemapUrl(url('/location/'.$loc->id), 'weekly', '0.6',
                 optional($loc->updated_at)->toDateString());
@@ -304,7 +305,8 @@ Route::get('/sitemap-companies.xml', function () use ($sitemapUrl, $sitemapRespo
     try {
         foreach (\App\Models\Advertiser::query()
             ->where('name', 'not like', '%'.\App\Models\Job::ROUND_UP_ADVERTISER_MARKER.'%')
-            ->whereIn('id', \App\Models\Job::query()->active()->vacancy()->select('advertiser_id'))
+            ->whereIn('id', \App\Models\Job::query()->active()->vacancy()->select('advertiser_id')
+                ->groupBy('advertiser_id')->havingRaw('COUNT(*) >= ?', [\App\Models\Job::MIN_INDEXABLE_LISTING_VACANCIES]))
             ->get(['id', 'updated_at']) as $c) {
             $inner .= $sitemapUrl(url('/companies/'.$c->id), 'weekly', '0.5',
                 optional($c->updated_at)->toDateString());

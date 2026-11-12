@@ -43,8 +43,8 @@
 @section('og_title', $coTitle)
 @section('meta_description', $coDesc)
 @section('canonical', route('companies.show', $company->id).($coFirst ? '' : '?page='.$coPage))
-{{-- Aggregated placeholder advertisers and employers with no open vacancy are empty pages; keep them reachable but out of the index. --}}
-@if ($jobs->total() === 0 || $company->isAggregated())
+{{-- Aggregated placeholder advertisers and employers with only one or two open vacancies only repeat those job cards; keep them reachable but out of the index. --}}
+@if ($jobs->total() < \App\Models\Job::MIN_INDEXABLE_LISTING_VACANCIES || $company->isAggregated())
     @section('meta_robots', 'noindex, follow')
 @endif
 

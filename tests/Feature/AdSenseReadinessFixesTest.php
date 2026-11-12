@@ -91,7 +91,7 @@ it('redirects the guides\' blog category buttons that point under /categories', 
     $this->get('/categories/no-such-category')->assertNotFound();
 });
 
-it('keeps empty category, location and aggregated company pages out of the index and the sitemaps', function () {
+it('keeps empty category, thin location and thin or aggregated company pages out of the index and the sitemaps', function () {
     $emptyCategory = Category::create(['name' => 'Empty Trade', 'slug' => 'empty-trade']);
     $filledCategory = Category::create(['name' => 'Filled Trade', 'slug' => 'filled-trade']);
     $emptyLocation = Location::create(['name' => 'Nowhere', 'area' => 'Nationwide', 'country' => 'Nowhere']);
@@ -99,13 +99,19 @@ it('keeps empty category, location and aggregated company pages out of the index
     $aggregated = Advertiser::create(['name' => 'Nowhere Employers (Aggregated)']);
     $employer = Advertiser::create(['name' => 'Somewhere Builders Ltd']);
 
-    adsenseAuditJob($filledCategory, $filledLocation, $employer, 'Site Carpenter');
+    $thinLocation = Location::create(['name' => 'Elsewhere', 'area' => 'Nationwide', 'country' => 'Elsewhere']);
+    $thinEmployer = Advertiser::create(['name' => 'Elsewhere Bakery Ltd']);
+
+    foreach (['Site Carpenter', 'Site Joiner', 'Site Labourer'] as $position) {
+        adsenseAuditJob($filledCategory, $filledLocation, $employer, $position);
+    }
+    adsenseAuditJob($filledCategory, $thinLocation, $thinEmployer, 'Baker');
     adsenseAuditJob($emptyCategory, $emptyLocation, $aggregated, 'Trade Worker - Portal Search', Job::LISTING_RESOURCE);
 
     expect($aggregated->isAggregated())->toBeTrue()
         ->and($employer->isAggregated())->toBeFalse();
 
-    foreach (['/categories/empty-trade', '/location/'.$emptyLocation->id, '/companies/'.$aggregated->id] as $path) {
+    foreach (['/categories/empty-trade', '/location/'.$emptyLocation->id, '/location/'.$thinLocation->id, '/companies/'.$aggregated->id, '/companies/'.$thinEmployer->id] as $path) {
         $this->get($path)->assertOk()->assertSee('content="noindex, follow"', false);
     }
 
@@ -119,11 +125,13 @@ it('keeps empty category, location and aggregated company pages out of the index
 
     $this->get('/sitemap-locations.xml')->assertOk()
         ->assertSee('<loc>'.url('/location/'.$filledLocation->id).'</loc>', false)
-        ->assertDontSee('<loc>'.url('/location/'.$emptyLocation->id).'</loc>', false);
+        ->assertDontSee('<loc>'.url('/location/'.$emptyLocation->id).'</loc>', false)
+        ->assertDontSee('<loc>'.url('/location/'.$thinLocation->id).'</loc>', false);
 
     $this->get('/sitemap-companies.xml')->assertOk()
         ->assertSee('<loc>'.url('/companies/'.$employer->id).'</loc>', false)
-        ->assertDontSee('<loc>'.url('/companies/'.$aggregated->id).'</loc>', false);
+        ->assertDontSee('<loc>'.url('/companies/'.$aggregated->id).'</loc>', false)
+        ->assertDontSee('<loc>'.url('/companies/'.$thinEmployer->id).'</loc>', false);
 });
 
 it('serves the 404 page with a single noindex robots tag', function () {
