@@ -23,6 +23,9 @@ use Illuminate\Database\Seeder;
  * 4. Pakistan Railways: the "Matric, no experience" apprenticeships are 227 Skilled (BPS-06) C-Class apprentice posts
  *    at Moghalpura Workshops and Signal Shops Lahore that also need a one-year trade certificate; applications go by
  *    post with a Rs 1,000 postal order by 05-12-2026.
+ * 6. Updated on 26 November 2026: SPSC CCE-2026 closed on 23 November (screening test 28 November), so it is shown as
+ *    closed, and KPPSC Advertisement 10/2026 (dated 25 Nov, closes 17 Dec at 5 PM, fee Rs 500, 49 Sub Accountant
+ *    BPS-16 posts needing a second-class B.Com, BBA, ACMA or MBA, age 21 to 35) is added.
  * 5. The Indeed (Lucky Aluminium) and Jobswala (Avernix) private listings, the hiredpk and freejobs.pk countdowns,
  *    the AIPRM footer and affiliate links are dropped.
  *
@@ -49,7 +52,7 @@ class EntryLevelNoExperienceJobsPakistan2026BlogSeeder extends Seeder
             [
                 'blog_catgories_id' => $category->id,
                 'title' => 'Entry Level No Experience Jobs in Pakistan 2026: Latest Vacancies, Eligibility, Last Date and How to Apply',
-                'excerpt' => 'Four government recruitments in Pakistan that fresh candidates can apply for in November and December 2026, checked against the official adverts: PPSC CCE-2026, SPSC, Rescue 1122 and Pakistan Railways apprenticeships.',
+                'excerpt' => 'Government recruitments in Pakistan that fresh candidates can apply for in late 2026, checked against the official adverts: PPSC CCE-2026, SPSC, KPPSC, Rescue 1122 and Pakistan Railways apprenticeships.',
                 'content' => $content,
                 'featured_image' => 'blogs/entry-level-no-experience-jobs-pakistan-2026.jpg',
                 'tags' => 'entry level jobs pakistan 2026, no experience jobs pakistan, fresh graduate jobs pakistan, ppsc cce 2026, spsc jobs 2026, rescue 1122 jobs 2026, pakistan railways apprenticeship 2026, jobs after matric',
@@ -66,7 +69,7 @@ class EntryLevelNoExperienceJobsPakistan2026BlogSeeder extends Seeder
     private function postBody(): string
     {
         return <<<'HTML'
-<p><strong>"No experience" jobs in Pakistan are real, but almost every one still asks for something: a degree with a second division, a trade certificate, an age limit, a domicile or a physical test.</strong> We read the official advertisements on 19 November 2026 and found four large recruitments that accept fresh candidates. <strong>PPSC's Combined Competitive Examination 2026</strong> closes on <strong>30 November 2026</strong>. <strong>SPSC's CCE-2026</strong> closes on <strong>23 November 2026</strong>, and its consolidated <strong>Advertisement 07/2026</strong> closes on <strong>14 December 2026</strong>. <strong>Rescue 1122 Punjab</strong> has <strong>310 posts</strong> open until <strong>5 December 2026</strong>, and <strong>Pakistan Railways</strong> is taking <strong>227 apprentices</strong> in Lahore by post until the same date. This guide gives the real eligibility for each, how to apply and how to avoid the fake "no experience" offers that circulate on WhatsApp.</p>
+<p><strong>"No experience" jobs in Pakistan are real, but almost every one still asks for something: a degree with a second division, a trade certificate, an age limit, a domicile or a physical test.</strong> We read the official advertisements (last updated 26 November 2026) and found five recruitments that accept fresh candidates. <strong>PPSC's Combined Competitive Examination 2026</strong> closes on <strong>30 November 2026</strong>. SPSC's consolidated <strong>Advertisement 07/2026</strong> closes on <strong>14 December 2026</strong>, and <strong>KPPSC Advertisement 10/2026</strong>, with <strong>49 Sub Accountant posts</strong>, closes on <strong>17 December 2026</strong>. <strong>Rescue 1122 Punjab</strong> has <strong>310 posts</strong> open until <strong>5 December 2026</strong>, and <strong>Pakistan Railways</strong> is taking <strong>227 apprentices</strong> in Lahore by post until the same date. This guide gives the real eligibility for each, how to apply and how to avoid the fake "no experience" offers that circulate on WhatsApp.</p>
 
 <h2>What "No Experience" Really Means</h2>
 
@@ -88,7 +91,7 @@ class EntryLevelNoExperienceJobsPakistan2026BlogSeeder extends Seeder
          loading="lazy" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;">
 </figure>
 
-<h2>Current Openings for Fresh Candidates (Checked 19 November 2026)</h2>
+<h2>Current Openings for Fresh Candidates (Updated 26 November 2026)</h2>
 
 <h3>1. PPSC Combined Competitive Examination 2026 (Punjab)</h3>
 
@@ -109,11 +112,11 @@ class EntryLevelNoExperienceJobsPakistan2026BlogSeeder extends Seeder
 
 <h3>2. SPSC Jobs in Sindh</h3>
 
-<p>The Sindh Public Service Commission has two recruitments open:</p>
+<p><strong>CCE-2026 has closed.</strong> Applications for SPSC's Combined Competitive Examination 2026 closed at 5:00 PM on 23 November 2026, with the upper age limit relaxed to 33. Candidates who applied sit the screening test on <strong>28 November 2026</strong>, so check spsc.gov.pk for admit cards.</p>
 
-<p><strong>CCE-2026 (Advertisement 06/2026 and the 08/2026 corrigendum).</strong> The online portal closes at <strong>5:00 PM on 23 November 2026</strong>. The upper age limit has been relaxed to <strong>33 years</strong>, counted on 23 October 2026. The screening test is scheduled for <strong>28 November 2026</strong>. If you have already applied, you do not need to apply again, but you can upload missing documents before the closing time.</p>
+<p>Still open is <strong>Consolidated Advertisement 07/2026</strong>:</p>
 
-<p><strong>Consolidated Advertisement 07/2026</strong>, dated 12 November 2026, covers posts in several Sindh departments and closes on <strong>14 December 2026</strong>. Several of them ask only for a degree, not experience:</p>
+<p>Dated 12 November 2026, it covers posts in several Sindh departments and closes on <strong>14 December 2026</strong>. Several of them ask only for a degree, not experience:</p>
 
 <ul>
 <li><strong>Assistant (BS-16)</strong> in several offices, including the Coal Mines Inspectorate Karachi, Coal Mines Development Karachi, Power Development Sindh and the Electric Inspectorates. These need a <strong>bachelor's degree in at least second division</strong>, and some also need a certificate in MS Office or computing. The age limit is <strong>18 to 28</strong> or <strong>21 to 28</strong>, depending on the office.</li>
@@ -125,7 +128,17 @@ class EntryLevelNoExperienceJobsPakistan2026BlogSeeder extends Seeder
 
 <p>Some posts in the same advert do need experience. For example, the Programmer and Prosecuting Inspector posts ask for three to five years, so check each line. Applications are online only, at <a href="https://www.spsc.gov.pk/" rel="noopener">spsc.gov.pk</a>. On the closing day the portal shuts at 5:00 PM.</p>
 
-<h3>3. Rescue 1122 Punjab: 310 Posts</h3>
+<h3>3. KPPSC Advertisement 10/2026 (Khyber Pakhtunkhwa)</h3>
+
+<p>The Khyber Pakhtunkhwa Public Service Commission published Advertisement No. 10/2026 on 25 November 2026. It is open to candidates with a KP domicile until <strong>17 December 2026 at 5:00 PM</strong>, with a fee of <strong>Rs 500</strong> paid through the 1Bill option in banking apps or Easypaisa and JazzCash. The post most open to fresh graduates is:</p>
+
+<ul>
+<li><strong>49 Sub Accountant (Treasuries and Accounts), BPS-16</strong>, Finance Department: at least a second-class bachelor's in commerce or business administration, or ACMA or MBA; age <strong>21 to 35</strong>; male and female. No experience is asked for. The posts are split across KP's zones, with 6 reserved for women, 3 for minorities and 1 for disabled candidates.</li>
+</ul>
+
+<p>The same advert has 21 Sub Divisional Forest Officer and 17 Sub Divisional Wildlife Officer posts (BPS-17, age 21 to 32) for forestry, wildlife and related graduates. Apply at <a href="https://www.kppsc.gov.pk/" rel="noopener">kppsc.gov.pk</a>.</p>
+
+<h3>4. Rescue 1122 Punjab: 310 Posts</h3>
 
 <p>Punjab's Emergency Services Department advertised <strong>310 posts</strong> on 14 November 2026 for districts across Punjab and for its headquarters and academy:</p>
 
@@ -152,7 +165,7 @@ class EntryLevelNoExperienceJobsPakistan2026BlogSeeder extends Seeder
 
 <p>Apply for one post only. The advert says the recruitment committee may move a suitable candidate to another post.</p>
 
-<h3>4. Pakistan Railways C-Class Apprentices, Lahore</h3>
+<h3>5. Pakistan Railways C-Class Apprentices, Lahore</h3>
 
 <p>Pakistan Railways is filling the remaining posts from its 2 April 2026 advert. These are <strong>227 Skilled (BPS-06) C-Class apprentice</strong> posts: <strong>190</strong> at the Workshops Division in Moghalpura and <strong>37</strong> at the Signal Shops in Lahore. They are offered <strong>on contract for two years</strong>, and the selected apprentices train at the Apprentice Training Centre in Moghalpura on a fixed stipend.</p>
 
@@ -180,11 +193,11 @@ class EntryLevelNoExperienceJobsPakistan2026BlogSeeder extends Seeder
 <tr><th style="border:1px solid #ddd;padding:8px;text-align:left;">Recruitment</th><th style="border:1px solid #ddd;padding:8px;text-align:left;">Minimum education</th><th style="border:1px solid #ddd;padding:8px;text-align:left;">How to apply</th><th style="border:1px solid #ddd;padding:8px;text-align:left;">Closing date</th></tr>
 </thead>
 <tbody>
-<tr><td style="border:1px solid #ddd;padding:8px;">SPSC CCE-2026</td><td style="border:1px solid #ddd;padding:8px;">Graduate</td><td style="border:1px solid #ddd;padding:8px;">Online, spsc.gov.pk</td><td style="border:1px solid #ddd;padding:8px;">23 November 2026, 5 PM</td></tr>
 <tr><td style="border:1px solid #ddd;padding:8px;">PPSC CCE-2026 (Advt 12/2026)</td><td style="border:1px solid #ddd;padding:8px;">Graduate, 2nd division</td><td style="border:1px solid #ddd;padding:8px;">Online, ppsc.gop.pk</td><td style="border:1px solid #ddd;padding:8px;">30 November 2026</td></tr>
 <tr><td style="border:1px solid #ddd;padding:8px;">Rescue 1122 Punjab (310 posts)</td><td style="border:1px solid #ddd;padding:8px;">Matric 2nd division to DAE or nursing</td><td style="border:1px solid #ddd;padding:8px;">Online with CTS, then post the form</td><td style="border:1px solid #ddd;padding:8px;">5 December 2026</td></tr>
 <tr><td style="border:1px solid #ddd;padding:8px;">Pakistan Railways apprentices (227)</td><td style="border:1px solid #ddd;padding:8px;">Matric 2nd division plus a one-year trade certificate</td><td style="border:1px solid #ddd;padding:8px;">By registered post or courier</td><td style="border:1px solid #ddd;padding:8px;">5 December 2026</td></tr>
 <tr><td style="border:1px solid #ddd;padding:8px;">SPSC Advertisement 07/2026</td><td style="border:1px solid #ddd;padding:8px;">Graduate, 2nd division (Assistant posts)</td><td style="border:1px solid #ddd;padding:8px;">Online, spsc.gov.pk</td><td style="border:1px solid #ddd;padding:8px;">14 December 2026</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">KPPSC Advertisement 10/2026</td><td style="border:1px solid #ddd;padding:8px;">Second-class B.Com, BBA, ACMA or MBA (Sub Accountant)</td><td style="border:1px solid #ddd;padding:8px;">Online, kppsc.gov.pk</td><td style="border:1px solid #ddd;padding:8px;">17 December 2026, 5 PM</td></tr>
 </tbody>
 </table>
 
@@ -237,7 +250,7 @@ class EntryLevelNoExperienceJobsPakistan2026BlogSeeder extends Seeder
 <h2>Frequently Asked Questions</h2>
 
 <h3>Which government jobs can I apply for without experience in November 2026?</h3>
-<p>PPSC's CCE-2026 (until 30 November), SPSC's CCE-2026 (until 23 November) and many posts in SPSC Advertisement 07/2026 (until 14 December), Rescue 1122 Punjab's 310 posts and Pakistan Railways' 227 apprentice posts (both until 5 December).</p>
+<p>PPSC's CCE-2026 (until 30 November), Rescue 1122 Punjab's 310 posts and Pakistan Railways' 227 apprentice posts (both until 5 December), many posts in SPSC Advertisement 07/2026 (until 14 December) and KPPSC's 49 Sub Accountant posts (until 17 December). SPSC's CCE-2026 closed on 23 November.</p>
 
 <h3>Can I get a job after Matric without experience?</h3>
 <p>Yes, but usually with a second division and an extra skill. Rescue 1122's driver and field worker posts take Matric 2nd division with an LTV licence or a NAVTTC certificate. Railways apprenticeships take Matric 2nd division with a one-year trade certificate.</p>
@@ -253,13 +266,14 @@ class EntryLevelNoExperienceJobsPakistan2026BlogSeeder extends Seeder
 
 <h2>Bottom Line</h2>
 
-<p>Fresh candidates have real options this winter, but every one has firm conditions and a closing date within the next four weeks. Pick the recruitment that fits your education and age, read the official advert line by line, pay only the official fee, and apply early. A Matric or degree with a second division and the right certificate is often what makes you eligible.</p>
+<p>Fresh candidates have real options this winter, but every one has firm conditions and a closing date before the end of December. Pick the recruitment that fits your education and age, read the official advert line by line, pay only the official fee, and apply early. A Matric or degree with a second division and the right certificate is often what makes you eligible.</p>
 
 <h2>Sources</h2>
 
 <ol>
 <li><a href="https://www.ppsc.gop.pk/" rel="noopener">Punjab Public Service Commission</a>, Advertisement No. 12/2026 (Combined Competitive Examination 2026), dated 8 November 2026</li>
 <li><a href="https://www.spsc.gov.pk/" rel="noopener">Sindh Public Service Commission</a>, Consolidated Advertisement No. 07/2026 (12 November 2026) and Advertisement No. 08/2026 corrigendum (13 November 2026)</li>
+<li><a href="https://www.kppsc.gov.pk/" rel="noopener">Khyber Pakhtunkhwa Public Service Commission</a>, Advertisement No. 10/2026 (25 November 2026)</li>
 <li><a href="https://www.rescue.gov.pk/" rel="noopener">Emergency Services Department (Rescue 1122) Punjab</a>, recruitment advertisement of 14 November 2026</li>
 <li><a href="https://www.pakrail.gov.pk/" rel="noopener">Pakistan Railways</a>, Divisional Superintendent Workshops Moghalpura, C-Class apprentice advertisement of 13 November 2026</li>
 </ol>
